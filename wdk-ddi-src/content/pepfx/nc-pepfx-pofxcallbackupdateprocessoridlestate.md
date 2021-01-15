@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - UpdateProcessorIdleState
+ - POFXCALLBACKUPDATEPROCESSORIDLESTATE
 ---
 
 # POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function (pepfx.h)
@@ -114,3 +114,4 @@ The <b>UpdateProcessorIdleState</b> routine must be called at IRQL = PASSIVE_LEV
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_state_update">PEP_PROCESSOR_IDLE_STATE_UPDATE</a>
+

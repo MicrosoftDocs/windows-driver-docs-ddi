@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_CST_STATE
+ - PPEP_PPM_CST_STATE
  - PEP_PPM_CST_STATE
 ---
 
@@ -160,3 +162,4 @@ The values in the <b>PEP_PPM_CST_STATE</b> structure are obtained from the param
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_PPM_CST_STATES</a>
+

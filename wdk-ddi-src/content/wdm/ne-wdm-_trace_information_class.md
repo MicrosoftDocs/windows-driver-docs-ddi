@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRACE_INFORMATION_CLASS
  - TRACE_INFORMATION_CLASS
 ---
 
@@ -138,3 +139,4 @@ The maximum value in this enumeration type.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
+

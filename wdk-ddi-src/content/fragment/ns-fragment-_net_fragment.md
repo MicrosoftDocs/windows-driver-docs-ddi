@@ -34,6 +34,7 @@ api_type:
 api_location:
  - fragment.h
 api_name:
+ - _NET_FRAGMENT
  - NET_FRAGMENT
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetMaterial
+ - PFND3DDDI_SETMATERIAL
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ Material properties detail a material's diffuse reflection, ambient reflection, 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

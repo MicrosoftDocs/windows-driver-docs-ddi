@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - bidispl
  - bidispl/bidispl
+api_name:
+ - bidispl
 ---
 
 # Bidispl.h header

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_CLOSE_PROVIDER_PARAMETERS
  - NDIS_PD_CLOSE_PROVIDER_PARAMETERS
 ---
 
@@ -80,3 +81,4 @@ This structure must be aligned on an 8-byte boundary.
 
 
 <a href="/windows-hardware/drivers/network/oid-pd-close-provider">OID_PD_CLOSE_PROVIDER</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _REG_QUERY_KEY_INFORMATION
+ - PREG_QUERY_KEY_INFORMATION
  - REG_QUERY_KEY_INFORMATION
 ---
 
@@ -102,3 +104,4 @@ For more information about registry filtering operations, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

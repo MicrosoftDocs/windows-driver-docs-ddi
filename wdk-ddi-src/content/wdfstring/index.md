@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfstring
  - wdfstring/wdfstring
+api_name:
+ - wdfstring
 ---
 
 # Wdfstring.h header

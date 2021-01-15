@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.SetOffset
- - IDebugBreakpoint2.SetOffset
+ - IDebugBreakpoint2::SetOffset
 ---
 
 # IDebugBreakpoint2::SetOffset
@@ -92,3 +91,4 @@ This method can also return other error values.  For more information, see <a hr
 ## -remarks
 
 For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+

@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_FRAMEBUFFERSAVEAREA
+ - DXGK_FRAMEBUFFERSAVEAREA
 product:
  - Windows
 ---

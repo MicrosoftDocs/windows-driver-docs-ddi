@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_RESOURCE_REQUIREMENTS_LIST
+ - PIO_RESOURCE_REQUIREMENTS_LIST
  - IO_RESOURCE_REQUIREMENTS_LIST
 ---
 
@@ -141,7 +143,6 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
@@ -157,3 +158,4 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
+

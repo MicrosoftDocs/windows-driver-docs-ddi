@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DESTROYDEVICE
  - D3DKMT_DESTROYDEVICE
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_DESTROYDEVICE structure contains a handle to the kernel-mode device c
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroydevice">D3DKMTDestroyDevice</a>
+

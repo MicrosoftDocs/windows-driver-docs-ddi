@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_HEADER
+ - PNET_BUFFER_HEADER
  - NET_BUFFER_HEADER
 ---
 
@@ -74,3 +76,4 @@ NDIS maintains the information in the NET_BUFFER_HEADER union.
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
+

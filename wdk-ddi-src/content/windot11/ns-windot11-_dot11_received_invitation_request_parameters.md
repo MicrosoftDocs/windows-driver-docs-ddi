@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
+ - PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
  - DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
 product:
  - Windows 10 or later.
@@ -123,3 +125,4 @@ typedef struct _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS {
 
 
 <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-received-invitation-request">NDIS_STATUS_DOT11_WFD_RECEIVED_INVITATION_REQUEST</a>
+

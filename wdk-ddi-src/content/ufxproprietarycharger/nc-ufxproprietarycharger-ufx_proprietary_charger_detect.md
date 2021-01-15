@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ufxproprietarycharger.h
 api_name:
- - PFN_UFX_PROPRIETARY_CHARGER_DETECT
+ - UFX_PROPRIETARY_CHARGER_DETECT
 ---
 
 # UFX_PROPRIETARY_CHARGER_DETECT callback function
@@ -148,7 +148,7 @@ UsbLowerFilter_ProprietaryChargerDetect(
 }
 ```
 
-
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
+

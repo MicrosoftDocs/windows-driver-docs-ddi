@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netreceivescaling
  - netreceivescaling/netreceivescaling
+api_name:
+ - netreceivescaling
 ---
 
 # Netreceivescaling.h header

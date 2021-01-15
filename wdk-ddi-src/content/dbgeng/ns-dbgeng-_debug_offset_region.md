@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_OFFSET_REGION
+ - PDEBUG_OFFSET_REGION
  - DEBUG_OFFSET_REGION
 ---
 
@@ -64,3 +66,4 @@ The size of the region.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced">IDebugAdvanced</a>
+

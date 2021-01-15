@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _UNIT_DDI_VERSION
+ - PUNIT_DDI_VERSION
  - UNIT_DDI_VERSION
 ---
 
@@ -60,3 +62,4 @@ The current 61883 DDI version.
 ## -see-also
 
 <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DRAWPRIMITIVE
  - D3DDDIARG_DRAWPRIMITIVE
 ---
 
@@ -72,3 +73,4 @@ When the runtime specifies triangle-edge flags in the value that is pointed to b
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_drawprimitive">DrawPrimitive</a>
+

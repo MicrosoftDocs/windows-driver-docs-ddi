@@ -32,6 +32,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
  - KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
 ---
 
@@ -63,3 +64,4 @@ The local PC's NTP server entry is found by parsing the registry value at SYSTEM
 [KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE](/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_networkcameracontrol_ntpinfo_type)
 
 [KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_networkcameracontrol_property)
+

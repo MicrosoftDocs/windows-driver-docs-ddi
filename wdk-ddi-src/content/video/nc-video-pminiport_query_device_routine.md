@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidQueryDeviceCallback
+ - PMINIPORT_QUERY_DEVICE_ROUTINE
 ---
 
 # PMINIPORT_QUERY_DEVICE_ROUTINE callback function
@@ -136,3 +136,4 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
+

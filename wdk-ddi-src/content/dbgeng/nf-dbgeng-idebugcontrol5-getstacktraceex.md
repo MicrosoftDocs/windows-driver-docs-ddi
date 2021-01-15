@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl5.GetStackTraceEx
+ - IDebugControl5::GetStackTraceEx
 ---
 
 # IDebugControl5::GetStackTraceEx
@@ -149,3 +149,4 @@ No stack frames were returned.
 
 
 <a href="/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+

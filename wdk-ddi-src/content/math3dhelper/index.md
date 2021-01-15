@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - math3dhelper
  - math3dhelper/math3dhelper
+api_name:
+ - math3dhelper
 ---
 
 # Math3dhelper.h header

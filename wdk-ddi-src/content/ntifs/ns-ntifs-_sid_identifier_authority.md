@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SID_IDENTIFIER_AUTHORITY
+ - PSID_IDENTIFIER_AUTHORITY
  - SID_IDENTIFIER_AUTHORITY
 ---
 
@@ -135,3 +137,4 @@ SECURITY_NT_AUTHORITY
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+

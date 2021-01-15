@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPStatusOutput
+ - LPDXVA_COPPStatusOutput
  - DXVA_COPPStatusOutput
 ---
 
@@ -103,3 +105,4 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatussignalingcmddata">DXVA_COPPStatusSignalingCmdData</a>
+

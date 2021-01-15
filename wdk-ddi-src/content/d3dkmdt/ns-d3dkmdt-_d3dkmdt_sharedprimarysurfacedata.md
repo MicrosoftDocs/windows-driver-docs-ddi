@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_SHAREDPRIMARYSURFACEDATA
  - D3DKMDT_SHAREDPRIMARYSURFACEDATA
 ---
 
@@ -90,3 +91,4 @@ Multiple processes can lock a shared primary surface. The video memory manager p
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
+

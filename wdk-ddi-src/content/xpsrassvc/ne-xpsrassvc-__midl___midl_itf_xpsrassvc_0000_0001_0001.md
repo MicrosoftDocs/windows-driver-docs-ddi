@@ -39,6 +39,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
+ - __MIDL___MIDL_itf_xpsrassvc_0000_0001_0001
  - XPSRAS_RENDERING_MODE
 ---
 
@@ -68,3 +69,4 @@ For more information about rasterizing XPS documents, see <a href="/windows-hard
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer">IXpsRasterizationFactory::CreateRasterizer</a>
+

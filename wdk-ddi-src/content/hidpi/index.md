@@ -12,6 +12,8 @@ tech.root: hid
 f1_keywords:
  - hidpi
  - hidpi/hidpi
+api_name:
+ - hidpi
 ---
 
 # Hidpi.h header

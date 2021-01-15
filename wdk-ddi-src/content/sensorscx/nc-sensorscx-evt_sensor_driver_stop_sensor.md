@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorStop
+ - EVT_SENSOR_DRIVER_STOP_SENSOR
 ---
 
 # EVT_SENSOR_DRIVER_STOP_SENSOR callback function

@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfverifier
  - wdfverifier/wdfverifier
+api_name:
+ - wdfverifier
 ---
 
 # Wdfverifier.h header

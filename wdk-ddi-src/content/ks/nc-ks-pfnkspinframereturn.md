@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniFrameReturn
+ - PFNKSPINFRAMERETURN
 ---
 
 # PFNKSPINFRAMERETURN callback function
@@ -92,3 +92,4 @@ The minidriver specifies this routine's address in the <i>FrameReturn</i> parame
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a>
+

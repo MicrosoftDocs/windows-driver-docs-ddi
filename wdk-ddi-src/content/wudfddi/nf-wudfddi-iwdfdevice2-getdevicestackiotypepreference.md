@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.GetDeviceStackIoTypePreference
+ - IWDFDevice2::GetDeviceStackIoTypePreference
 ---
 
 # IWDFDevice2::GetDeviceStackIoTypePreference
@@ -81,7 +81,6 @@ Device2->GetDeviceStackIoTypePreference(&ReadWriteAccessMethod,
                                         &IoControlAccessMethod); 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
@@ -89,3 +88,4 @@ Device2->GetDeviceStackIoTypePreference(&ReadWriteAccessMethod,
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference">IWDFDeviceInitialize2::SetIoTypePreference</a>
+

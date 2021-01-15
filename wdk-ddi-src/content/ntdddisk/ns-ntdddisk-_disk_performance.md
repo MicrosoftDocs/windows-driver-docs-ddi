@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_PERFORMANCE
+ - PDISK_PERFORMANCE
  - DISK_PERFORMANCE
 ---
 
@@ -112,3 +114,4 @@ Counting halts whenever the performance counters are disabled, but the counters 
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a>
+

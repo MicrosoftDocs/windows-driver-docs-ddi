@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_PM_PARAMETERS
+ - PNDIS_PM_PARAMETERS
  - NDIS_PM_PARAMETERS
 ---
 
@@ -373,3 +375,4 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 
 <a href="/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
+ - _SPB_CONTROLLER_CONFIG
+ - PSPB_CONTROLLER_CONFIG
  - SPB_CONTROLLER_CONFIG
 ---
 
@@ -164,3 +166,4 @@ The <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">S
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetfilter">WdfFdoInitSetFilter</a>
+

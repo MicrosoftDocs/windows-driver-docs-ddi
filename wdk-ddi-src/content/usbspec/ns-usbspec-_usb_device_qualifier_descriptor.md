@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_DEVICE_QUALIFIER_DESCRIPTOR
+ - PUSB_DEVICE_QUALIFIER_DESCRIPTOR
  - USB_DEVICE_QUALIFIER_DESCRIPTOR
 ---
 
@@ -104,3 +106,4 @@ This structure is similar to <a href="/windows-hardware/drivers/ddi/usbspec/ns-u
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+

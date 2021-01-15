@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStreamNotification.FreeBufferWithNotification
+ - IMiniportWaveRTStreamNotification::FreeBufferWithNotification
 ---
 
 # IMiniportWaveRTStreamNotification::FreeBufferWithNotification
@@ -74,3 +74,4 @@ The port driver calls this method to free an audio buffer that was allocated wit
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
+

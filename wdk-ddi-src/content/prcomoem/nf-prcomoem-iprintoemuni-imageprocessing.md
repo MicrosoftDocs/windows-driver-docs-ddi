@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.ImageProcessing
+ - IPrintOemUni::ImageProcessing
 ---
 
 # IPrintOemUni::ImageProcessing
@@ -244,3 +244,4 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-filtergraphics">IPrintOemUni::FilterGraphics</a>
+

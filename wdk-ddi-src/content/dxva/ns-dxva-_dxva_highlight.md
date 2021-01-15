@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_Highlight
+ - LPDXVA_Highlight
  - DXVA_Highlight
 ---
 
@@ -117,3 +119,4 @@ The DXVA_Highlight structure is formulated in a manner compatible with the DVD v
 ## -see-also
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PAGE_TABLE_LEVEL_DESC
+ - D3DKMT_PAGE_TABLE_LEVEL_DESC
 dev_langs:
  - c++
 ---

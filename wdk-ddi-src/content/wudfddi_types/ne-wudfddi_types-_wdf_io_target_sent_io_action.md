@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_IO_TARGET_SENT_IO_ACTION
  - WDF_IO_TARGET_SENT_IO_ACTION
 ---
 
@@ -85,3 +86,4 @@ For the KMDF version of this enumeration, see <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_sent_io_action">WDF_IO_TARGET_SENT_IO_ACTION</a>
+

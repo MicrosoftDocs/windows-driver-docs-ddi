@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
- - PEVT_UCX_ROOTHUB_GET_20PORT_INFO
+ - EVT_UCX_ROOTHUB_GET_20PORT_INFO
 ---
 
 # EVT_UCX_ROOTHUB_GET_20PORT_INFO callback function
@@ -133,7 +133,7 @@ RootHub_EvtRootHubGet20PortInfoEnd:
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20ports_info">_ROOTHUB_20PORTS_INFO</a>
+

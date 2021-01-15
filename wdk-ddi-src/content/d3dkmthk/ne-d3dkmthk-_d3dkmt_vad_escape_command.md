@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_VAD_ESCAPE_COMMAND
+ - D3DKMT_VAD_ESCAPE_COMMAND
 dev_langs:
  - c++
 ---

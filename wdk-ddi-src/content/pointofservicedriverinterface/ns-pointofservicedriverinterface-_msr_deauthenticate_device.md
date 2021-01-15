@@ -41,6 +41,8 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _MSR_DEAUTHENTICATE_DEVICE
+ - PMSR_DEAUTHENTICATE_DEVICE
  - MSR_DEAUTHENTICATE_DEVICE
 ---
 

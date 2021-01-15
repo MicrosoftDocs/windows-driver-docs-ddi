@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KEY_VALUE_PARTIAL_INFORMATION
+ - PKEY_VALUE_PARTIAL_INFORMATION
  - KEY_VALUE_PARTIAL_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ A value entry of the key.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
+

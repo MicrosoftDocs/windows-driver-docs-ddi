@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DESTROYKEYEDMUTEX
  - D3DKMT_DESTROYKEYEDMUTEX
 ---
 
@@ -58,3 +59,4 @@ The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the <a href=
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroykeyedmutex">D3DKMTDestroyKeyedMutex</a>
+

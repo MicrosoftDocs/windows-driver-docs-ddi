@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_FLIPOVERLAY
  - D3DDDICB_FLIPOVERLAY
 ---
 
@@ -74,3 +75,4 @@ The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_flipoverlaycb">pfnFlipOverlayCb</a>
+

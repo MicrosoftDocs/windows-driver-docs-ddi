@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_RECLAIMALLOCATIONS2
  - D3DDDICB_RECLAIMALLOCATIONS2
 ---
 
@@ -75,3 +76,4 @@ api_name:
 
 [out] The paging fence to synchronize against before submitting work to the GPU which
                                                                            references any of the resources or allocations in the provided arrays
+

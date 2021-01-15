@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_METERED_HARDWARE_INFORMATION
+ - PPMI_METERED_HARDWARE_INFORMATION
  - PMI_METERED_HARDWARE_INFORMATION
 ---
 
@@ -77,3 +79,4 @@ If the query request completes successfully, the request returns a <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a>
+

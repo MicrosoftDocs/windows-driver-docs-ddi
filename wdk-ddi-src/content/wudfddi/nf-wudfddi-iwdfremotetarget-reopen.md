@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.Reopen
+ - IWDFRemoteTarget::Reopen
 ---
 
 # IWDFRemoteTarget::Reopen
@@ -113,7 +113,6 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
@@ -121,3 +120,4 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-close">IWDFRemoteTarget::Close</a>
+

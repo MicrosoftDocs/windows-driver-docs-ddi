@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_MAC_PARAMETERS
+ - PNDIS_WWAN_MAC_PARAMETERS
  - NDIS_WWAN_MAC_PARAMETERS
 ---
 
@@ -101,3 +103,4 @@ For more information about these members, see
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a>
+

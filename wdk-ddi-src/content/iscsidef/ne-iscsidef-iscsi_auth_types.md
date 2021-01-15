@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - PISCSI_AUTH_TYPES
  - ISCSI_AUTH_TYPES
 ---
 

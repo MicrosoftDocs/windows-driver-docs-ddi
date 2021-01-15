@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_MESSAGE_OUT
+ - PUCSI_MESSAGE_OUT
+ - UCSI_MESSAGE_OUT
 ---
 
 # _UCSI_MESSAGE_OUT structure

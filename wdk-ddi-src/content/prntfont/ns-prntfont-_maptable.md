@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _MAPTABLE
+ - PMAPTABLE
  - MAPTABLE
 ---
 
@@ -72,3 +74,4 @@ A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is acces
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata">TRANSDATA</a>
+

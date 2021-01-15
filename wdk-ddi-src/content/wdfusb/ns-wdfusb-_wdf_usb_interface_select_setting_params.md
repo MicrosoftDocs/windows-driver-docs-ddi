@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
+ - PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS
  - WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
 ---
 
@@ -125,3 +127,4 @@ To initialize a <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure, your d
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdfusbtargetdeviceselectsettingtype">WdfUsbTargetDeviceSelectSettingType</a>
+

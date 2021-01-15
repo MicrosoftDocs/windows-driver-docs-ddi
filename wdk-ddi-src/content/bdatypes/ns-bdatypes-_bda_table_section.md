@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_TABLE_SECTION
+ - PBDA_TABLE_SECTION
  - BDA_TABLE_SECTION
 ---
 
@@ -72,3 +74,4 @@ Array of table section data.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/kspropsetid-bdatablesection">KSPROPSETID_BdaTableSection</a>
+

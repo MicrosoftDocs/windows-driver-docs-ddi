@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _INT10_BIOS_ARGUMENTS
+ - PINT10_BIOS_ARGUMENTS
  - INT10_BIOS_ARGUMENTS
 ---
 
@@ -86,3 +88,4 @@ The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to t
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a>
+

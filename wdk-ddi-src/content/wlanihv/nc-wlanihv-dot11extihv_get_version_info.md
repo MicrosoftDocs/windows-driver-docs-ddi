@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvGetVersionInfo
+ - DOT11EXTIHV_GET_VERSION_INFO
 ---
 
 # DOT11EXTIHV_GET_VERSION_INFO callback
@@ -116,3 +116,4 @@ For more information about
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
+

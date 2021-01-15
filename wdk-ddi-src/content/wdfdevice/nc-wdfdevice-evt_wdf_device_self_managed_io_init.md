@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceSelfManagedIoInit
+ - EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT
 ---
 
 # EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback function
@@ -91,3 +91,4 @@ For more information about drivers that provide this callback function, see <a h
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_suspend">EvtDeviceSelfManagedIoSuspend</a>
+

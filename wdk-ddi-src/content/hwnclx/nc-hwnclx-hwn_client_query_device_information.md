@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hwnclx.h
 api_name:
- - PHWN_CLIENT_QUERY_DEVICE_INFORMATION
+ - HWN_CLIENT_QUERY_DEVICE_INFORMATION
 ---
 
 # HWN_CLIENT_QUERY_DEVICE_INFORMATION callback
@@ -88,3 +88,4 @@ Register your implementation of this callback function by setting the appropriat
 
 
 <a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>
+

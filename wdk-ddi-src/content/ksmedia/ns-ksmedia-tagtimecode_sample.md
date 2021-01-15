@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagTIMECODE_SAMPLE
  - TIMECODE_SAMPLE
 ---
 
@@ -183,3 +184,4 @@ The upper 16 bits in <b>dwFlags</b> are reserved for future use and must be set 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
+

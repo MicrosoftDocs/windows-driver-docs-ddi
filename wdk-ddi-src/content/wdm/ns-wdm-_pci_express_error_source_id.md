@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_ERROR_SOURCE_ID
+ - PPCI_EXPRESS_ERROR_SOURCE_ID
  - PCI_EXPRESS_ERROR_SOURCE_ID
 ---
 
@@ -115,3 +117,4 @@ A PCI_EXPRESS_ERROR_SOURCE_ID structure is contained in the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_MW_DISPATCH
  - NDK_MW_DISPATCH
 ---
 
@@ -82,3 +83,4 @@ The <b>NDK_MW_DISPATCH</b> structure is used in the <a href="/windows-hardware/d
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperUni.EnumOptions
+ - IPrintCoreHelperUni::EnumOptions
 ---
 
 # IPrintCoreHelperUni::EnumOptions
@@ -85,3 +85,4 @@ When <code>IPrintCoreHelperUni::EnumOptions</code> returns, the option list cont
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumfeatures">IPrintCoreHelperUni::EnumFeatures</a>
+

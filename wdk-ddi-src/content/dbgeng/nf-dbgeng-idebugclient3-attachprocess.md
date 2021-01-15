@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.AttachProcess
- - IDebugClient2.AttachProcess
- - IDebugClient3.AttachProcess
- - IDebugClient4.AttachProcess
- - IDebugClient5.AttachProcess
+ - IDebugClient3::AttachProcess
 ---
 
 # IDebugClient3::AttachProcess
@@ -232,3 +228,4 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 
 <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a>
+

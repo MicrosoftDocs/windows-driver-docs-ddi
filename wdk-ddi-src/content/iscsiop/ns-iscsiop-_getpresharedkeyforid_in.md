@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _GetPresharedKeyForId_IN
+ - PGetPresharedKeyForId_IN
  - GetPresharedKeyForId_IN
 ---
 
@@ -131,3 +133,4 @@ You must implement this method if the initiator supports IKE.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-securityconfigoperations-wmi-class">MSiSCSI_SecurityConfigOperations WMI Class</a>
+

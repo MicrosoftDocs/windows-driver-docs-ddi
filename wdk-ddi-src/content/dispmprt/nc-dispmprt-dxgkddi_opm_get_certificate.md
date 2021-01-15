@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMGetCertificate
+ - DXGKDDI_OPM_GET_CERTIFICATE
 ---
 
 # DXGKDDI_OPM_GET_CERTIFICATE callback function
@@ -101,3 +101,4 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddmmc
  - ntddmmc/ntddmmc
+api_name:
+ - ntddmmc
 ---
 
 # Ntddmmc.h header

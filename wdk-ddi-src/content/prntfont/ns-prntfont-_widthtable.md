@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _WIDTHTABLE
+ - PWIDTHTABLE
  - WIDTHTABLE
 ---
 
@@ -76,3 +78,4 @@ A .ufm file's WIDTHTABLE structure, which describes character widths, is accesse
 
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a>
+

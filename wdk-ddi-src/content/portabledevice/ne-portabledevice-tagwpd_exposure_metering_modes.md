@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_EXPOSURE_METERING_MODES
  - WPD_EXPOSURE_METERING_MODES
 ---
 
@@ -79,3 +80,4 @@ Indicates the metering mode of the device. This enumeration is used by the <a hr
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

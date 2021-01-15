@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hbapiwmi.h
 api_name:
+ - _ScsiInquiry_IN
+ - PScsiInquiry_IN
  - ScsiInquiry_IN
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite generates a declaration of the ScsiInquiry_IN structure in <i
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/scsiinquiry">ScsiInquiry</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_PASS_THROUGH_EX
+ - PSCSI_PASS_THROUGH_EX
  - SCSI_PASS_THROUGH_EX
 ---
 
@@ -140,3 +142,4 @@ The <b>SCSI_PASS_THROUGH_EX</b> structure is used with the  <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a>
+

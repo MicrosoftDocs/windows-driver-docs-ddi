@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PMEM_PAGE_RANGE
+ - PWHEA_PMEM_PAGE_RANGE
  - WHEA_PMEM_PAGE_RANGE
 product:
  - Windows

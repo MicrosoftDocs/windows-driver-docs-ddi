@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IMiniportDMus.Service
+ - IMiniportDMus::Service
 ---
 
 # IMiniportDMus::Service
@@ -62,3 +62,4 @@ api_name:
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iportdmus-notify">IPortDMus::Notify</a>
+

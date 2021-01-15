@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriverCreatedFile.Close
+ - IWDFDriverCreatedFile::Close
 ---
 
 # IWDFDriverCreatedFile::Close
@@ -60,3 +60,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/creating-and-us
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdrivercreatedfile">IWDFDriverCreatedFile</a>
+

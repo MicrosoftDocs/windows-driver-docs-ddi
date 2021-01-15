@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_types.h
 api_name:
+ - _WINBIO_REGISTERED_FORMAT
+ - PWINBIO_REGISTERED_FORMAT
  - WINBIO_REGISTERED_FORMAT
 ---
 
@@ -85,3 +87,4 @@ No format owner or type are defined as follows:
 #define WINBIO_NO_FORMAT_OWNER_AVAILABLE    ((USHORT)0)
 #define WINBIO_NO_FORMAT_TYPE_AVAILABLE     ((USHORT)0)
 ```
+

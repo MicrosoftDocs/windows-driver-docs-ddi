@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_FINISHSESSIONKEYREFRESH
  - D3DDDIARG_FINISHSESSIONKEYREFRESH
 ---
 
@@ -58,3 +59,4 @@ The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryp
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh">FinishSessionKeyRefresh</a>
+

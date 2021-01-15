@@ -31,6 +31,7 @@ api_location:
  - mbbcx.h
 api_name:
  - _MBB_MBIM_EXTENDED_VERSION
+ - MBB_MBIM_EXTENDED_VERSION
 ---
 
 # _MBB_MBIM_EXTENDED_VERSION enumeration

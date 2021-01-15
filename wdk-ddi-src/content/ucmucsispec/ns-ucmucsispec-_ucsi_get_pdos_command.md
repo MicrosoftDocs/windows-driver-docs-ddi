@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_PDOS_COMMAND
+ - PUCSI_GET_PDOS_COMMAND
+ - UCSI_GET_PDOS_COMMAND
 ---
 
 # _UCSI_GET_PDOS_COMMAND structure

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
- - imp_WppRecorderLogDelete
+ - WppRecorderLogDelete
 ---
 
 # WppRecorderLogDelete macro
@@ -56,3 +56,4 @@ Handle to the recorder log to delete.
 ## -remarks
 
 When a thread enters this function, no threads can subsequently  log to this buffer.
+

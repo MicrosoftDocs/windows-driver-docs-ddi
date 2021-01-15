@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _OEMFONTINSTPARAM
+ - POEMFONTINSTPARAM
  - OEMFONTINSTPARAM
 ---
 
@@ -76,3 +78,4 @@ Unidrv-supplied flags. The only defined flag is FG_CANCHANGE which, if set, indi
 ### -field pFontInstallerName
 
 Pointer to a string representing the font installer's name. The <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">IPrintOemUI::FontInstallerDlgProc</a> method must supply this string if the received message is WM_USER+WM_FI_NAME. The string must be placed in memory allocated using <b>hHeap</b>.
+

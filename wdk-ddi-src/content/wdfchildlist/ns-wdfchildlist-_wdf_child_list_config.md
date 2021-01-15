@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfchildlist.h
 api_name:
+ - _WDF_CHILD_LIST_CONFIG
+ - PWDF_CHILD_LIST_CONFIG
  - WDF_CHILD_LIST_CONFIG
 ---
 
@@ -134,3 +136,4 @@ For more information about child lists, see <a href="/windows-hardware/drivers/w
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetdefaultchildlistconfig">WdfFdoInitSetDefaultChildListConfig</a>
+

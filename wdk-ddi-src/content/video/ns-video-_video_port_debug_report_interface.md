@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_DEBUG_REPORT_INTERFACE
+ - PVIDEO_PORT_DEBUG_REPORT_INTERFACE
  - VIDEO_PORT_DEBUG_REPORT_INTERFACE
 ---
 
@@ -198,3 +200,4 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+

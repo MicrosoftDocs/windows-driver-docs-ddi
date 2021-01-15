@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PVLAN_MODE
+ - PNDIS_SWITCH_PORT_PVLAN_MODE
  - NDIS_SWITCH_PORT_PVLAN_MODE
 ---
 
@@ -88,3 +90,4 @@ For more information about extensible switch port policies, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_property_vlan">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
+

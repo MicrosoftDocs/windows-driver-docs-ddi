@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.RegisterLaunchApplication
+ - IStillImageW::RegisterLaunchApplication
 ---
 
 # IStillImageW::RegisterLaunchApplication
@@ -98,3 +98,4 @@ You can include command arguments in the application's command line. When starti
 The application can obtain the values specified for these arguments by calling <a href="/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a>.
 
 Before calling <b>IStillImage::RegisterLaunchApplication</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+

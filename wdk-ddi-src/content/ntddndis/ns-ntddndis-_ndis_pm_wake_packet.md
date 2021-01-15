@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_PM_WAKE_PACKET
+ - PNDIS_PM_WAKE_PACKET
  - NDIS_PM_WAKE_PACKET
 ---
 
@@ -133,3 +135,4 @@ The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a>
+

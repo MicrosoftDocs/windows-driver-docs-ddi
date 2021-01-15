@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_AGNSS_INJECTBLOB
  - GNSS_AGNSS_INJECTBLOB
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxUsbEndpoint.h
 api_name:
- - EvtUsbEndpointStart
+ - EVT_UDECX_USB_ENDPOINT_START
 ---
 
 # EVT_UDECX_USB_ENDPOINT_START callback function
@@ -75,3 +75,4 @@ After the client driver creates an endpoint, it does not automatically start rec
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

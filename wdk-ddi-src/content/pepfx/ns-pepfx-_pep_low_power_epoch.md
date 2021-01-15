@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_LOW_POWER_EPOCH
+ - PPEP_LOW_POWER_EPOCH
  - PEP_LOW_POWER_EPOCH
 ---
 
@@ -60,3 +62,4 @@ When <b>TRUE</b>, indicates that the low power epoch is on.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_low_power_epoch">PEP_DPM_LOW_POWER_EPOCH notification</a>
+

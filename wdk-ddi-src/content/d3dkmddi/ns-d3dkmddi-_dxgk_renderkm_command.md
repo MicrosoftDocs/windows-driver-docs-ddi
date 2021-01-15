@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_RENDERKM_COMMAND
  - DXGK_RENDERKM_COMMAND
 product:
  - Windows
@@ -132,3 +133,4 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_renderkm_operation">DXGK_RENDERKM_OPERATION</a>
+

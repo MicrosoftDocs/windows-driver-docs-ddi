@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_SHAPE
+ - PACPI_PLD_SHAPE
+ - ACPI_PLD_SHAPE
 ---
 
 # _ACPI_PLD_SHAPE enumeration
+
 
 ## -description
 
@@ -81,3 +84,4 @@ Value is 8.
 ## -remarks
 
 ## -see-also
+

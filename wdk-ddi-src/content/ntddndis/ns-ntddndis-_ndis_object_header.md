@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_OBJECT_HEADER
+ - PNDIS_OBJECT_HEADER
  - NDIS_OBJECT_HEADER
 ---
 

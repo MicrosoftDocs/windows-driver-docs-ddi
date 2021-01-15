@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dcaps.h
 api_name:
+ - _D3DPrimCaps
+ - LPD3DPRIMCAPS
  - D3DPRIMCAPS
 ---
 
@@ -257,3 +259,4 @@ This structure is used when a device is created and when the capabilities of a d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
+

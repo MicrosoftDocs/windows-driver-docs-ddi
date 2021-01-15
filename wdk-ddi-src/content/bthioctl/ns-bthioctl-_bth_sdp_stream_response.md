@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_SDP_STREAM_RESPONSE
+ - PBTH_SDP_STREAM_RESPONSE
  - BTH_SDP_STREAM_RESPONSE
 ---
 
@@ -87,3 +89,4 @@ The
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
+

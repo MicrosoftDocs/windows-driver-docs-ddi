@@ -41,6 +41,8 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
+ - _FA_ENTRY
+ - PFA_ENTRY
  - FA_ENTRY
 ---
 
@@ -80,3 +82,4 @@ The size of the <a href="/windows-hardware/drivers/debugger/failure-analysis-ent
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

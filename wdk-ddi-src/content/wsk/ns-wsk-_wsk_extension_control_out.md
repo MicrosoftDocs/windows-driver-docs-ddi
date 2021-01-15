@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_EXTENSION_CONTROL_OUT
+ - PWSK_EXTENSION_CONTROL_OUT
  - WSK_EXTENSION_CONTROL_OUT
 ---
 
@@ -86,3 +88,4 @@ The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structu
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+

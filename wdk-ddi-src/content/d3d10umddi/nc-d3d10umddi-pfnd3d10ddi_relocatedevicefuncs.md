@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - RelocateDeviceFuncs
+ - PFND3D10DDI_RELOCATEDEVICEFUNCS
 product:
  - Windows
 ---
@@ -77,3 +77,4 @@ A user-mode display driver can use the <i>RelocateDeviceFuncs</i> function to re
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

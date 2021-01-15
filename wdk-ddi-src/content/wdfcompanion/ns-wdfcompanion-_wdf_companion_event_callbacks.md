@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfcompanion.h
 api_name:
+ - _WDF_COMPANION_EVENT_CALLBACKS
+ - PWDF_COMPANION_EVENT_CALLBACKS
  - WDF_COMPANION_EVENT_CALLBACKS
 ---
 

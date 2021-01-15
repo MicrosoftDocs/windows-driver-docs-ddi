@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_STREAM_FORMAT
+ - PHDAUDIO_STREAM_FORMAT
  - HDAUDIO_STREAM_FORMAT
 ---
 
@@ -90,3 +92,4 @@ This structure is similar to the <a href="/windows-hardware/drivers/ddi/ksmedia/
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_converter_format">HDAUDIO_CONVERTER_FORMAT</a>
+

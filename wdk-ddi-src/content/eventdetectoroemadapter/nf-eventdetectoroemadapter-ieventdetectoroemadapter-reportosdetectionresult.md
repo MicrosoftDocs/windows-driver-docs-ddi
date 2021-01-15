@@ -35,7 +35,7 @@ api_type:
 api_location:
  - eventdetectoroemadapter.h
 api_name:
- - IEventDetectorOemAdapter.ReportOSDetectionResult
+ - IEventDetectorOemAdapter::ReportOSDetectionResult
 product:
  - Windows
 ---
@@ -70,3 +70,4 @@ This function is the part of the Event Detector OEM interface to be used for har
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
+

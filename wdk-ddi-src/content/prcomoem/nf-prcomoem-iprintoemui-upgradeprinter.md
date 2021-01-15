@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.UpgradePrinter
+ - IPrintOemUI::UpgradePrinter
 ---
 
 # IPrintOemUI::UpgradePrinter
@@ -110,3 +110,4 @@ A user interface plug-in's <code>IPrintOemUI::UpgradePrinter</code> method perfo
 If <code>IPrintOemUI::UpgradePrinter</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information about creating and installing user interface plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
+

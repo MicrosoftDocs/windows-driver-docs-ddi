@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - BthAllocateBrb
+ - PFNBTH_ALLOCATE_BRB
 ---
 
 # PFNBTH_ALLOCATE_BRB callback function
@@ -89,3 +89,4 @@ Profile drivers obtain a pointer to the
 
 
 pool tag
+

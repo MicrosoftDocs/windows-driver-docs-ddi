@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfhwaccess
  - wdfhwaccess/wdfhwaccess
+api_name:
+ - wdfhwaccess
 ---
 
 # Wdfhwaccess.h header

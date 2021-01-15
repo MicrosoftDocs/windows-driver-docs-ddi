@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.ExitDispatch
- - IDebugClient2.ExitDispatch
- - IDebugClient3.ExitDispatch
- - IDebugClient4.ExitDispatch
- - IDebugClient5.ExitDispatch
+ - IDebugClient2::ExitDispatch
 ---
 
 # IDebugClient2::ExitDispatch
@@ -111,3 +107,4 @@ For more information about callbacks, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

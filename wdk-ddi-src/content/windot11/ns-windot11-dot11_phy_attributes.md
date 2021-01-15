@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_PHY_ATTRIBUTES
+ - PDOT11_PHY_ATTRIBUTES
 product:
  - Windows 10 or later.
 ---
@@ -290,3 +291,4 @@ The
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

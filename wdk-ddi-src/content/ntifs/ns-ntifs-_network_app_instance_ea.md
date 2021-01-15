@@ -36,6 +36,8 @@ api_location:
  - ntifs.h
 api_name:
  - _NETWORK_APP_INSTANCE_EA
+ - PNETWORK_APP_INSTANCE_EA
+ - NETWORK_APP_INSTANCE_EA
 dev_langs:
  - c++
 ---
@@ -65,3 +67,4 @@ The **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag is onl
 A process can register a CCF application ID using [**RegisterAppInstance**](/windows/win32/api/smbclnt/nf-smbclnt-registerappinstance), enabling all 'open' operations from the process to have the same ApplicationId. If an ID isn't registered, the ApplicationId will differ for each operation.
 
 To mark individual open operations with a different ApplicationId, first set **AppInstanceID** to a GUID value. you can then append **SMB_CCF_APP_INSTANCE_EA_NAME** to the list of Extended Attributes when calling [NtCreateFile](./nf-ntifs-ntcreatefile.md). If the application also passes the  **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag, then **AppInstanceID** should be **NETWORK_APP_INSTANCE_EA** structure.
+

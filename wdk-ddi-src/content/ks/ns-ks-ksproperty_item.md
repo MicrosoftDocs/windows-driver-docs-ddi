@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_ITEM
  - KSPROPERTY_ITEM
 ---
 
@@ -204,3 +205,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-propertie
 
 
 <a href="/windows-hardware/drivers/stream/srb-set-stream-property">SRB_SET_STREAM_PROPERTY</a>
+

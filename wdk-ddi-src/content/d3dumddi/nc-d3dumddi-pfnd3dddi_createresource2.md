@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - CreateResource2
+ - PFND3DDDI_CREATERESOURCE2
 product:
  - Windows
 ---
@@ -172,3 +172,4 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a>
+

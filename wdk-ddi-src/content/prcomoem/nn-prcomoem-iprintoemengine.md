@@ -38,11 +38,6 @@ api_location:
  - Prcomoem.h
 api_name:
  - IPrintOemEngine
- - IPrintOemEngine.EnableDriver
- - IPrintOemEngine.DisableDriver
- - IPrintOemEngine.EnablePDEV
- - IPrintOemEngine.DisablePDEV
- - IPrintOemEngine.ResetPDEV
 ---
 
 # IPrintOemEngine interface
@@ -56,3 +51,4 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemEngine</b> interfac
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
+

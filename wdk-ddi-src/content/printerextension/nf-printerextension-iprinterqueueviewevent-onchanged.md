@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueueViewEvent.OnChanged
+ - IPrinterQueueViewEvent::OnChanged
 ---
 
 # IPrinterQueueViewEvent::OnChanged
@@ -92,3 +92,4 @@ The job range is controlled by the <a href="/windows-hardware/drivers/ddi/printe
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueviewevent">IPrinterQueueViewEvent</a>
+

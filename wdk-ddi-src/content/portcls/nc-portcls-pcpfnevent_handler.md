@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - EventHandler
+ - PCPFNEVENT_HANDLER
 ---
 
 # PCPFNEVENT_HANDLER callback function
@@ -109,3 +109,4 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a>
+

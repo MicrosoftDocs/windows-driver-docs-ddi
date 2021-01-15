@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_PIPE_REMOTE_INFORMATION
+ - PFILE_PIPE_REMOTE_INFORMATION
  - FILE_PIPE_REMOTE_INFORMATION
 ---
 
@@ -66,3 +68,4 @@ The maximum size, in bytes, of data that will be collected on the client machine
 Remote information is not available for local pipes or for the server end of a remote pipe.
 
 For information about pipes, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.
+

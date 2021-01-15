@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMDestroyProtectedOutput
+ - DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT
 ---
 
 # DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT callback function
@@ -79,3 +79,4 @@ The DirectX graphics kernel subsystem calls <i>DxgkDdiOPMDestroyProtectedOutput<
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_create_protected_output">DxgkDdiOPMCreateProtectedOutput</a>
+

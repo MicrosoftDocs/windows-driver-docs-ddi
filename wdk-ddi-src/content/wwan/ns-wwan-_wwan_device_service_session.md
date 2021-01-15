@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_SESSION
+ - PWWAN_DEVICE_SERVICE_SESSION
  - WWAN_DEVICE_SERVICE_SESSION
 ---
 
@@ -76,3 +78,4 @@ The session ID for the device service session.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_device_service_session_state">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
+

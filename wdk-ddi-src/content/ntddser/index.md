@@ -12,6 +12,8 @@ tech.root: serports
 f1_keywords:
  - ntddser
  - ntddser/ntddser
+api_name:
+ - ntddser
 ---
 
 # Ntddser.h header

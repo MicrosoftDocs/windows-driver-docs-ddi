@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _WORK_QUEUE_TYPE
  - WORK_QUEUE_TYPE
 ---
 
@@ -109,3 +110,4 @@ For more information about system worker threads, see <a href="/windows-hardware
 
 
 <a href="/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTalTxRxSetPortOpMode
+ - MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE
 ---
 
 # MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback function
@@ -89,3 +89,4 @@ Port ID for the port.
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

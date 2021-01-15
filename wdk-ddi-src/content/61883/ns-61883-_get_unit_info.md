@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _GET_UNIT_INFO
+ - PGET_UNIT_INFO
  - GET_UNIT_INFO
 ---
 
@@ -147,3 +149,4 @@ The protocol driver writes current diag level to the caller-allocated <a href="/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

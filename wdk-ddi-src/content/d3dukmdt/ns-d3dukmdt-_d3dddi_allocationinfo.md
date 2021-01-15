@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_ALLOCATIONINFO
  - D3DDDI_ALLOCATIONINFO
 ---
 
@@ -161,3 +162,4 @@ The D3DDDI_ID_NOTAPPLICABLE constant is defined in D3dukmdt.h.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
+

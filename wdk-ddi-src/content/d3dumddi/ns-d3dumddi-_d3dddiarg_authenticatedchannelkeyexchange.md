@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
  - D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure describes a buffer that 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createauthenticatedchannel">CreateAuthenticatedChannel</a>
+

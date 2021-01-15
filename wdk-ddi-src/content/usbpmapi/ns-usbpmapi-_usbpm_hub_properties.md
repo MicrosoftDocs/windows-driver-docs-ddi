@@ -35,6 +35,8 @@ api_type:
 api_location:
  - usbpmapi.h
 api_name:
+ - _USBPM_HUB_PROPERTIES
+ - PUSBPM_HUB_PROPERTIES
  - USBPM_HUB_PROPERTIES
 ---
 

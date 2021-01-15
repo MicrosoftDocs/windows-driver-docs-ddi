@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_FORWARD_OPTIONS
+ - PWDF_REQUEST_FORWARD_OPTIONS
  - WDF_REQUEST_FORWARD_OPTIONS
 ---
 
@@ -72,3 +74,4 @@ Your driver must call <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfre
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_forward_options_flags">WDF_REQUEST_FORWARD_OPTIONS_FLAGS</a>
+

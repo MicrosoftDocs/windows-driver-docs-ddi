@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _IO_SCSI_CAPABILITIES
+ - PIO_SCSI_CAPABILITIES
  - IO_SCSI_CAPABILITIES
 ---
 
@@ -89,3 +91,4 @@ When <b>TRUE</b>, indicates that the host adapter uses programmed I/O.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_get_capabilities">IOCTL_SCSI_GET_CAPABILITIES</a>
+

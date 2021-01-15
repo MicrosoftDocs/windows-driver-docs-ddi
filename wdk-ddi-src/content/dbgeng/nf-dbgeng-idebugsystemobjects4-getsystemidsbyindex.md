@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects3.GetSystemIdsByIndex
- - IDebugSystemObjects4.GetSystemIdsByIndex
+ - IDebugSystemObjects4::GetSystemIdsByIndex
 ---
 
 # IDebugSystemObjects4::GetSystemIdsByIndex
@@ -102,3 +101,4 @@ The index of the first target is zero.  The index of the last target is the numb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+

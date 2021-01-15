@@ -36,6 +36,8 @@ api_location:
  - ucmucsippm.h
 api_name:
  - _UCMUCSI_PPM_CONFIG
+ - PUCMUCSI_PPM_CONFIG
+ - UCMUCSI_PPM_CONFIG
 ---
 
 # _UCMUCSI_PPM_CONFIG structure

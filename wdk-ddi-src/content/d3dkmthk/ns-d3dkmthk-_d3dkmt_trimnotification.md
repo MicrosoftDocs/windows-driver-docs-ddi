@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_TRIMNOTIFICATION
  - D3DKMT_TRIMNOTIFICATION
 ---
 
@@ -66,3 +67,4 @@ api_name:
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_trimresidencyset_flags">D3DDDI_TRIMRESIDENCYSET_FLAGS</a>
+

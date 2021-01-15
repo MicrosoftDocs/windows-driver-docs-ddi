@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netdma.h
 api_name:
- - ProviderResumeDma
+ - DMA_RESUME_HANDLER
 ---
 
 # DMA_RESUME_HANDLER callback function
@@ -119,3 +119,4 @@ NetDMA calls
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
+

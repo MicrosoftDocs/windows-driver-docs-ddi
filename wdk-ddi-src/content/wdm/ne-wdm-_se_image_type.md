@@ -32,6 +32,8 @@ api_location:
  - wdm.h
 api_name:
  - _SE_IMAGE_TYPE
+ - PSE_IMAGE_TYPE
+ - SE_IMAGE_TYPE
 ---
 
 # _SE_IMAGE_TYPE enumeration

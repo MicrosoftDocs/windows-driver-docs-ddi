@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ - DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 dev_langs:
  - c++
 ---

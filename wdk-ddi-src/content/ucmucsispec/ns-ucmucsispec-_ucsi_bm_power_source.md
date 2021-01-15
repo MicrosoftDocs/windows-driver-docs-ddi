@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_BM_POWER_SOURCE
+ - PUCSI_BM_POWER_SOURCE
+ - UCSI_BM_POWER_SOURCE
 ---
 
 # _UCSI_BM_POWER_SOURCE structure

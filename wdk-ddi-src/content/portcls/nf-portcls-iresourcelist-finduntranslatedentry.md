@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IResourceList.FindUntranslatedEntry
+ - IResourceList::FindUntranslatedEntry
 ---
 
 # IResourceList::FindUntranslatedEntry
@@ -88,3 +88,4 @@ For more information about translated and untranslated (or "raw") resources, see
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iresourcelist-numberofentriesoftype">IResourceList::NumberOfEntriesOfType</a>
+

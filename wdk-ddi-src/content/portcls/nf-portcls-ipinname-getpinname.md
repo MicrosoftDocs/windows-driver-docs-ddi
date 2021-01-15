@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPinName.GetPinName
+ - IPinName::GetPinName
 ---
 
 # IPinName::GetPinName
@@ -104,3 +104,4 @@ KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
 
 
 <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>
+

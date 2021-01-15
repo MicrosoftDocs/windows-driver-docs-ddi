@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallbackHardware.OnPrepareHardware
+ - IPnpCallbackHardware::OnPrepareHardware
 ---
 
 # IPnpCallbackHardware::OnPrepareHardware
@@ -97,3 +97,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/finding-and-map
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

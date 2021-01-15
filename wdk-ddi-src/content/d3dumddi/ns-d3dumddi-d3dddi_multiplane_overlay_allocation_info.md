@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
  - D3DDDI_MULTIPLANE_ALLOCATION_INFO
 ---
 

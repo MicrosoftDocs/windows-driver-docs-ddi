@@ -34,6 +34,8 @@ api_location:
  - ntifs.h
 api_name:
  - _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
+ - PIO_STOP_ON_SYMLINK_FILTER_ECP_v0
+ - IO_STOP_ON_SYMLINK_FILTER_ECP_v0
 ---
 
 # _IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - IdeHwInterrupt
+ - IDE_HW_INTERRUPT
 ---
 
 # IDE_HW_INTERRUPT callback function
@@ -120,3 +120,4 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 
 <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>
+

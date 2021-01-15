@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_METHOD_ARGUMENT_V1
  - ACPI_METHOD_ARGUMENT_V1
 ---
 
@@ -130,3 +131,4 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 
 <a href="/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_output_buffer_v1">ACPI_EVAL_OUTPUT_BUFFER</a>
+

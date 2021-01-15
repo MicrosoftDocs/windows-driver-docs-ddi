@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _DXGK_DISPLAY_USAGE
+ - PDXGK_DISPLAY_USAGE
  - DXGK_DISPLAY_USAGE
 ---
 

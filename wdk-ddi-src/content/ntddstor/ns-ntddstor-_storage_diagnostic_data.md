@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DIAGNOSTIC_DATA
+ - PSTORAGE_DIAGNOSTIC_DATA
  - STORAGE_DIAGNOSTIC_DATA
 ---
 
@@ -87,3 +89,4 @@ Specifies the Diagnostic data buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_diagnostic_request">STORAGE_DIAGNOSTIC_REQUEST</a>
+

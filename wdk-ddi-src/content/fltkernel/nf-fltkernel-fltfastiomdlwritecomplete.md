@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - FsRtlMdlWriteCompleteDev
+ - FltFastIoMdlWriteComplete
 ---
 
 # FltFastIoMdlWriteComplete function
@@ -83,3 +83,4 @@ Each call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a>
+

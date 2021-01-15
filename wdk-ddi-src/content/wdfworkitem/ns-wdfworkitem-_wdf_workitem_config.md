@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfworkitem.h
 api_name:
+ - _WDF_WORKITEM_CONFIG
+ - PWDF_WORKITEM_CONFIG
  - WDF_WORKITEM_CONFIG
 ---
 
@@ -88,3 +90,4 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 
 <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>
+

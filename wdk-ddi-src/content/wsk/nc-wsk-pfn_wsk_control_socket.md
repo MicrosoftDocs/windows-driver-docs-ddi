@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskControlSocket
+ - PFN_WSK_CONTROL_SOCKET
 ---
 
 # PFN_WSK_CONTROL_SOCKET callback function
@@ -351,3 +351,4 @@ Callers of the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

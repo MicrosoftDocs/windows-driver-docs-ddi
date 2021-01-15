@@ -36,6 +36,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
  - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
 product:
  - Windows
@@ -90,3 +92,4 @@ The TCP/IP transport updates the **MSS** and **UdpHeaderOffset** members of the 
 [UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
 
 [**NET_BUFFER_LIST**](../ndis/ns-ndis-_net_buffer_list.md)
+

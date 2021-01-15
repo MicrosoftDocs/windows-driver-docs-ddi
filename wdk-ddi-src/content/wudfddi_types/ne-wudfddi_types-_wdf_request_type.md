@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_REQUEST_TYPE
+ - PWDF_REQUEST_TYPE
  - WDF_REQUEST_TYPE
 ---
 
@@ -149,3 +151,4 @@ For the KMDF version of this enumeration, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
+

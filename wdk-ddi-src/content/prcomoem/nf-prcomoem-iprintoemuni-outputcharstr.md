@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.OutputCharStr
+ - IPrintOemUni::OutputCharStr
 ---
 
 # IPrintOemUni::OutputCharStr
@@ -173,3 +173,4 @@ If the specified font is a soft font, the method can just call <b>IPrintOemDrive
 The <code>IPrintOemUni::OutputCharStr</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "OutputCharStr" as input.
 
 For additional information see <a href="/windows-hardware/drivers/print/customized-font-management">Customized Font Management</a>.
+

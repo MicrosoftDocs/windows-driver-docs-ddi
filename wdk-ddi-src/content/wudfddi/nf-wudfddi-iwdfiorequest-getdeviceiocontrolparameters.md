@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetDeviceIoControlParameters
+ - IWDFIoRequest::GetDeviceIoControlParameters
 ---
 
 # IWDFIoRequest::GetDeviceIoControlParameters
@@ -89,3 +89,4 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>
+

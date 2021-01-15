@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET_
  - FWPS_FIELDS_EGRESS_VSWITCH_ETHERNET
 ---
 
@@ -130,3 +131,4 @@ The maximum value for this enumeration. This value might change in future versio
 #### - FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_FLAGS
 
 The virtual switch egress Ethernet flags field.
+

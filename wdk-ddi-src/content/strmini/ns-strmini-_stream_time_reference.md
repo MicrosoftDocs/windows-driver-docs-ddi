@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Strmini.h
 api_name:
+ - _STREAM_TIME_REFERENCE
+ - PSTREAM_TIME_REFERENCE
  - STREAM_TIME_REFERENCE
 ---
 

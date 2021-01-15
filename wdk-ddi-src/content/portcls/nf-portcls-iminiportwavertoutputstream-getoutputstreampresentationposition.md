@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
+ - IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 ---
 
 # IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
@@ -71,3 +71,4 @@ This does not mean that GetPacketCount and GetOutputStreamPresentationPosition, 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>
+

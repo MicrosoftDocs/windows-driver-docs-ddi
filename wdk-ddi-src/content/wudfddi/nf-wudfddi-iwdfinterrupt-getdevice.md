@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.GetDevice
+ - IWDFInterrupt::GetDevice
 ---
 
 # IWDFInterrupt::GetDevice
@@ -60,3 +60,4 @@ For more information about handling interrupts in UMDF drivers, see <a href="/wi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
+

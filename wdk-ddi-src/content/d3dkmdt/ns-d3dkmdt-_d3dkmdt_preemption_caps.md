@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_PREEMPTION_CAPS structure"]
 ms.keywords: D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], _D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS, display.d3dkmdt_preemption_caps
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _D3DKMDT_PREEMPTION_CAPS
  - D3DKMDT_PREEMPTION_CAPS
 ---
 
@@ -70,3 +71,4 @@ A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_compute_pre
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>
+

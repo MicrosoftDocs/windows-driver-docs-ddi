@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _FILE_FS_SIZE_INFORMATION
+ - PFILE_FS_SIZE_INFORMATION
  - FILE_FS_SIZE_INFORMATION
 ---
 
@@ -104,3 +106,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>
+

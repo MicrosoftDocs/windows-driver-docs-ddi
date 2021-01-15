@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsDeliver
+ - IKsPin::KsDeliver
 ---
 
 # IKsPin::KsDeliver
@@ -102,3 +102,4 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">IKsInterfaceHandler::KsCompleteIo</a>
+

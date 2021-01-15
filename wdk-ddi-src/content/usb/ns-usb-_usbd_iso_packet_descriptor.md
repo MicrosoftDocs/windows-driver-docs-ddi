@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usb.h
 api_name:
+ - _USBD_ISO_PACKET_DESCRIPTOR
+ - PUSBD_ISO_PACKET_DESCRIPTOR
  - USBD_ISO_PACKET_DESCRIPTOR
 ---
 
@@ -84,3 +86,4 @@ This structure is used as part of an isochronous transfer request to the host co
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_isoch_transfer">_URB_ISOCH_TRANSFER</a>
+

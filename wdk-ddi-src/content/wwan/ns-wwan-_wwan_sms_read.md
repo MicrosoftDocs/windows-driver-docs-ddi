@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_READ
+ - PWWAN_SMS_READ
  - WWAN_SMS_READ
 ---
 
@@ -83,3 +85,4 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
+

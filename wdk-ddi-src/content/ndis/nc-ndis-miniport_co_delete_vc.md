@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportCoDeleteVc
+ - MINIPORT_CO_DELETE_VC
 ---
 
 # MINIPORT_CO_DELETE_VC callback function
@@ -120,3 +120,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
+

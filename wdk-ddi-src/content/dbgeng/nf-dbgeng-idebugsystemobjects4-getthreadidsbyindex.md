@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetThreadIdsByIndex
- - IDebugSystemObjects2.GetThreadIdsByIndex
- - IDebugSystemObjects3.GetThreadIdsByIndex
- - IDebugSystemObjects4.GetThreadIdsByIndex
+ - IDebugSystemObjects4::GetThreadIdsByIndex
 ---
 
 # IDebugSystemObjects4::GetThreadIdsByIndex
@@ -99,3 +96,4 @@ The method was successful.
 The index of the first thread is zero.  The index of the last thread is the number of threads returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberthreads">GetNumberThreads</a> minus one.
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

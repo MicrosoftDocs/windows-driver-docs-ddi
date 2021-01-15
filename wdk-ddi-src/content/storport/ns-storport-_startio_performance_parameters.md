@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STARTIO_PERFORMANCE_PARAMETERS
+ - PSTARTIO_PERFORMANCE_PARAMETERS
  - STARTIO_PERFORMANCE_PARAMETERS
 ---
 
@@ -72,3 +74,4 @@ Denotes the concurrent channel in which Storport is passing the I/O. If the mini
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetstartioperfparams">StorPortGetStartIoPerfParams</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Strmini.h
 api_name:
+ - _STREAM_METHOD_DESCRIPTOR
+ - PSTREAM_METHOD_DESCRIPTOR
  - STREAM_METHOD_DESCRIPTOR
 ---
 

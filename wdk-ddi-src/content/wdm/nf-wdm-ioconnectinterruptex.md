@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - IoConnectInterruptEx
- - WdmlibIoConnectInterruptEx
 ---
 
 # IoConnectInterruptEx function
@@ -64,3 +63,4 @@ For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_REQUEST_TYPE
+ - PWDF_USB_REQUEST_TYPE
  - WDF_USB_REQUEST_TYPE
 ---
 
@@ -102,3 +104,4 @@ The <b>WDF_USB_REQUEST_TYPE</b> enumeration is used in the <a href="/windows-har
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_request_completion_params">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
+

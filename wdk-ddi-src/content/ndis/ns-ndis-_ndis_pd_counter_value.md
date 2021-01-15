@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_COUNTER_VALUE
+ - PNDIS_PD_COUNTER_VALUE
  - NDIS_PD_COUNTER_VALUE
 ---
 
@@ -64,3 +66,4 @@ See <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_transmit_queue_
 ### -field Filter
 
 See <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_filter_counter">NDIS_PD_FILTER_COUNTER</a>.
+

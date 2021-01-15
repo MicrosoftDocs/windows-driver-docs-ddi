@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_SUBMITPRESENTTOHWQUEUE
+ - D3DKMT_SUBMITPRESENTTOHWQUEUE
 dev_langs:
  - c++
 ---

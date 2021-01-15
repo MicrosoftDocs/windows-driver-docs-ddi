@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIVERTEXELEMENT
  - D3DDDIVERTEXELEMENT
 ---
 
@@ -78,3 +79,4 @@ The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderdecl">CreateVertexShaderDecl</a>
+

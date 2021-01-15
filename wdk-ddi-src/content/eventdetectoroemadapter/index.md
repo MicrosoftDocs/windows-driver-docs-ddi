@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - eventdetectoroemadapter
  - eventdetectoroemadapter/eventdetectoroemadapter
+api_name:
+ - eventdetectoroemadapter
 ---
 
 # eventdetectoroemadapter.h header

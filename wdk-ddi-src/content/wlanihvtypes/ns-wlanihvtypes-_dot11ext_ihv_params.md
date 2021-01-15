@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihvtypes.h
 api_name:
+ - _DOT11EXT_IHV_PARAMS
+ - PDOT11EXT_IHV_PARAMS
  - DOT11EXT_IHV_PARAMS
 ---
 
@@ -100,3 +102,4 @@ typedef struct _DOT11EXT_IHV_PARAMS {
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

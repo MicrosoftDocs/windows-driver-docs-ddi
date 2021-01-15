@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sti.h
 api_name:
+ - _STINOTIFY
+ - LPSTINOTIFY
  - STINOTIFY
 ---
 
@@ -64,3 +66,4 @@ GUID of the event. For more information, see <a href="/windows-hardware/drivers/
 ### -field abNotificationData
 
 Byte array containing optional, vendor-defined information.
+

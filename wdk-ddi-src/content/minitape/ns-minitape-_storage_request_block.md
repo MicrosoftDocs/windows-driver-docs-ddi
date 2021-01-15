@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STORAGE_REQUEST_BLOCK
+ - PSTORAGE_REQUEST_BLOCK
  - STORAGE_REQUEST_BLOCK
 ---
 
@@ -608,3 +610,4 @@ The target device address for the SRB is in a <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
+

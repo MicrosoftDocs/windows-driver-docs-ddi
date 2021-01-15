@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_ERRORINFO
  - GNSS_ERRORINFO
 ---
 
@@ -76,3 +77,4 @@ ErrorDescription[256] - Clear-text description of the error (not-localized) that
 ### -field Unused
 
 Unused[512] - Padding buffer
+

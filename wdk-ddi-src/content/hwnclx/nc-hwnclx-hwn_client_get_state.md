@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hwnclx.h
 api_name:
- - PHWN_CLIENT_GET_STATE
+ - HWN_CLIENT_GET_STATE
 ---
 
 # HWN_CLIENT_GET_STATE callback
@@ -134,3 +134,4 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 
 <a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>
+

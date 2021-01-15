@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_CAPS
+ - PNDIS_WWAN_DEVICE_CAPS
  - NDIS_WWAN_DEVICE_CAPS
 ---
 
@@ -163,3 +165,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
+

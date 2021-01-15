@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkDisconnectEventCallback
+ - NDK_FN_DISCONNECT_EVENT_CALLBACK
 ---
 
 # NDK_FN_DISCONNECT_EVENT_CALLBACK callback function
@@ -67,3 +67,4 @@ A context area that was specified in the <i>DisconnectEvent</i> parameter of the
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_complete_connect">NDK_FN_COMPLETE_CONNECT</a>
+

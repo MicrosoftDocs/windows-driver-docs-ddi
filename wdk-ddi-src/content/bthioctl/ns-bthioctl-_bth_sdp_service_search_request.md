@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_SDP_SERVICE_SEARCH_REQUEST
+ - PBTH_SDP_SERVICE_SEARCH_REQUEST
  - BTH_SDP_SERVICE_SEARCH_REQUEST
 ---
 
@@ -81,3 +83,4 @@ This structure is passed as the input buffer to the
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+

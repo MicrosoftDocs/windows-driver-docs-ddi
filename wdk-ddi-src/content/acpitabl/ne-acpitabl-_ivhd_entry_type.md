@@ -31,9 +31,11 @@ api_location:
  - acpitabl.h
 api_name:
  - _IVHD_ENTRY_TYPE
+ - IVRS_TABLE_TYPE
 ---
 
 # _IVHD_ENTRY_TYPE enumeration
+
 
 ## -description
 
@@ -92,3 +94,4 @@ Value is 0xF0.
 ## -remarks
 
 ## -see-also
+

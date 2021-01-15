@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - kcom
  - kcom/kcom
+api_name:
+ - kcom
 ---
 
 # Kcom.h header

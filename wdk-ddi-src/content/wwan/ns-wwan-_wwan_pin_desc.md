@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_DESC
+ - PWWAN_PIN_DESC
  - WWAN_PIN_DESC
 ---
 
@@ -87,3 +89,4 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pin_mode">WWAN_PIN_MODE</a>
+

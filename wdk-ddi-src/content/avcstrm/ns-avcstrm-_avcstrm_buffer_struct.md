@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _AVCSTRM_BUFFER_STRUCT
+ - PAVCSTRM_BUFFER_STRUCT
  - AVCSTRM_BUFFER_STRUCT
 ---
 
@@ -76,3 +78,4 @@ Pointer to a client context value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_PROTOCOL_CO_CHARACTERISTICS
+ - PNDIS_PROTOCOL_CO_CHARACTERISTICS
  - NDIS_PROTOCOL_CO_CHARACTERISTICS
 ---
 
@@ -131,3 +133,4 @@ The protocol driver calls
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
+

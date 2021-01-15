@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetWriteParameters
+ - IWDFIoRequest::GetWriteParameters
 ---
 
 # IWDFIoRequest::GetWriteParameters
@@ -89,3 +89,4 @@ For devices that support addressing (for example, a disk device), the value that
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFIoRequest::GetInputMemory</a>
+

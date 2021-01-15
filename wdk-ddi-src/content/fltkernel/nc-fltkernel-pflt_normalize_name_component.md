@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - NormalizeNameComponentCallback
+ - PFLT_NORMALIZE_NAME_COMPONENT
 ---
 
 # PFLT_NORMALIZE_NAME_COMPONENT callback function
@@ -130,3 +130,4 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

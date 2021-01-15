@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_DLIST_DRIVER_NAME
+ - D3DKMT_DLIST_DRIVER_NAME
 dev_langs:
  - c++
 ---

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _WOF_VERSION_INFO
+ - PWOF_VERSION_INFO
  - WOF_VERSION_INFO
 ---
 
@@ -68,3 +70,4 @@ The version of the WOF driver. This value includes the major and minor version n
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_external_info">WOF_EXTERNAL_INFO</a>
+

@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - netdispumdddi
  - netdispumdddi/netdispumdddi
+api_name:
+ - netdispumdddi
 ---
 
 # Netdispumdddi.h header

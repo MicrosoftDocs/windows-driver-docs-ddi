@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfWMI.h
 api_name:
- - EvtWmiInstanceSetInstance
+ - EVT_WDF_WMI_INSTANCE_SET_INSTANCE
 ---
 
 # EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback function
@@ -101,3 +101,4 @@ For more information about the <i>EvtWmiInstanceSetInstance</i> callback functio
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_POST_CREATE_HANDLE_INFORMATION
+ - POB_POST_CREATE_HANDLE_INFORMATION
  - OB_POST_CREATE_HANDLE_INFORMATION
 ---
 
@@ -64,3 +66,4 @@ An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
+

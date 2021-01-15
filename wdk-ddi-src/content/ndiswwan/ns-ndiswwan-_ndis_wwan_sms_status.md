@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_STATUS
+ - PNDIS_WWAN_SMS_STATUS
  - NDIS_WWAN_SMS_STATUS
 ---
 
@@ -120,3 +122,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_status">WWAN_SMS_STATUS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_PID_UNMAP
+ - PBDA_PID_UNMAP
  - BDA_PID_UNMAP
 ---
 
@@ -68,3 +70,4 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 [KSPROPSETID_BdaPIDFilter](/windows-hardware/drivers/stream/kspropsetid-bdapidfilter)
 
 [MEDIA_SAMPLE_CONTENT](/windows/win32/directshow/media-sample-content)
+

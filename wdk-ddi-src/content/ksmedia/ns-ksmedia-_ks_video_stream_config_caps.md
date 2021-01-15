@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_VIDEO_STREAM_CONFIG_CAPS
+ - PKS_VIDEO_STREAM_CONFIG_CAPS
  - KS_VIDEO_STREAM_CONFIG_CAPS
 ---
 
@@ -408,3 +410,4 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
+

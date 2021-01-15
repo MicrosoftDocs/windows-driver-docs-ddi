@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_FRAME_METADATA
+ - PWDI_FRAME_METADATA
  - WDI_FRAME_METADATA
 ---
 
@@ -103,3 +105,4 @@ RX metadata.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_tx_metadata">WDI_TX_METADATA</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_ACQUIRESWIZZLINGRANGE
  - DXGKARG_ACQUIRESWIZZLINGRANGE
 ---
 
@@ -90,3 +91,4 @@ The DXGKARG_ACQUIRESWIZZLINGRANGE structure describes parameters for making an a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _TARGET_DEVICE_REMOVAL_NOTIFICATION
+ - PTARGET_DEVICE_REMOVAL_NOTIFICATION
  - TARGET_DEVICE_REMOVAL_NOTIFICATION
 ---
 
@@ -84,3 +86,4 @@ Pointer to a file object for the device.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+

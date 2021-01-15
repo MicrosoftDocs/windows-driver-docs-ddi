@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcradiodev.h
 api_name:
+ - _NFCRM_RADIO_STATE
+ - PNFCRM_RADIO_STATE
  - NFCRM_RADIO_STATE
 ---
 

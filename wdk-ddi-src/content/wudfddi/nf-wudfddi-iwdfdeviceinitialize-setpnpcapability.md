@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.SetPnpCapability
+ - IWDFDeviceInitialize::SetPnpCapability
 ---
 
 # IWDFDeviceInitialize::SetPnpCapability
@@ -109,3 +109,4 @@ Set the capability.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_capability">WDF_PNP_CAPABILITY</a>
+

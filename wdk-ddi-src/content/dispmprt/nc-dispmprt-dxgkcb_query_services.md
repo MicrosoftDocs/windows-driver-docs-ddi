@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbQueryServices
+ - DXGKCB_QUERY_SERVICES
 ---
 
 # DXGKCB_QUERY_SERVICES callback function
@@ -160,3 +160,4 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 <a href="/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>
+

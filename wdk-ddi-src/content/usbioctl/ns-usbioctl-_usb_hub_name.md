@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HUB_NAME
+ - PUSB_HUB_NAME
  - USB_HUB_NAME
 ---
 
@@ -68,3 +70,4 @@ A NULL-terminated Unicode string that contains the hub's symbolic device name.
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

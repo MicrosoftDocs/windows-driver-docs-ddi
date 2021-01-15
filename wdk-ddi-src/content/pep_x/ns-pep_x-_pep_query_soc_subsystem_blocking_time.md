@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
+ - PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
  - PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
 ---
 
@@ -80,3 +82,4 @@ This member is reserved and should be set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
+

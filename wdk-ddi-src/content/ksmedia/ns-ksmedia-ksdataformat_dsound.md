@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDATAFORMAT_DSOUND
  - KSDATAFORMAT_DSOUND
 ---
 
@@ -74,3 +75,4 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdsound_bufferdesc">KSDSOUND_BUFFERDESC</a>
+

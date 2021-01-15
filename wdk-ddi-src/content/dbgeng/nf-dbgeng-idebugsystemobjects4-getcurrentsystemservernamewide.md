@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSystemObjects4.GetCurrentSystemServerNameWide
+ - IDebugSystemObjects4::GetCurrentSystemServerNameWide
 ---
 
 # IDebugSystemObjects4::GetCurrentSystemServerNameWide
@@ -93,3 +93,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+

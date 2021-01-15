@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_CAS_CHECK_ENTITLEMENTTOKEN
+ - PBDA_CAS_CHECK_ENTITLEMENTTOKEN
  - BDA_CAS_CHECK_ENTITLEMENTTOKEN
 ---
 

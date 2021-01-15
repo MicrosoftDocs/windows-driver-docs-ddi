@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _KSPIN_FLAG_AVC
  - KSPIN_FLAG_AVC
 ---
 
@@ -82,3 +83,4 @@ These bit flags are used by the intersect handler to determine plug compatibilit
 
 
 <a href="/windows-hardware/drivers/stream/avc-function-get-connectinfo">AVC_FUNCTION_GET_CONNECTINFO</a>
+

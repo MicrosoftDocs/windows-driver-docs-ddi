@@ -37,12 +37,13 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - SetRenderTargets
+ - PFND3D10DDI_SETRENDERTARGETS
 product:
  - Windows
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback function
+
 
 ## -description
 
@@ -93,3 +94,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 [**D3D10DDI_DEVICEFUNCS**](ns-d3d10umddi-d3d10ddi_devicefuncs.md)
 
 [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md)
+

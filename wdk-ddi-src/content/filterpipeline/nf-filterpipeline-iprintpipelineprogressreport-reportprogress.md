@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPrintPipelineProgressReport.ReportProgress
+ - IPrintPipelineProgressReport::ReportProgress
 ---
 
 # IPrintPipelineProgressReport::ReportProgress
@@ -65,3 +65,4 @@ An <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__mid
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelineprogressreport">IPrintPipelineProgressReport</a>
+

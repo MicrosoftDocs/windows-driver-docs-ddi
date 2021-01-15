@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_DISABLE_INTERRUPT_PARAMETERS
+ - PGPIO_DISABLE_INTERRUPT_PARAMETERS
  - GPIO_DISABLE_INTERRUPT_PARAMETERS
 ---
 
@@ -84,3 +86,4 @@ After a <i>CLIENT_DisableInterrupt</i> call fails, GpioClx might retry the call 
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
+

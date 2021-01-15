@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.ReadBugCheckData
- - IDebugControl2.ReadBugCheckData
- - IDebugControl3.ReadBugCheckData
+ - IDebugControl2::ReadBugCheckData
 ---
 
 # IDebugControl2::ReadBugCheckData
@@ -104,3 +102,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 This method is only available in kernel-mode debugging.
 
 For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="/windows-hardware/drivers/debugger/bug-checks--blue-screens-">Bug Checks (Blue Screens)</a>.
+

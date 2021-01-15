@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_SCHEDULING_LOG_HEADER
+ - DXGK_SCHEDULING_LOG_HEADER
 dev_langs:
  - c++
 ---

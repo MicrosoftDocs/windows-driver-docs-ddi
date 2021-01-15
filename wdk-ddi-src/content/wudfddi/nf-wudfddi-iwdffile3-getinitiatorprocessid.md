@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFFile3.GetInitiatorProcessId
+ - IWDFFile3::GetInitiatorProcessId
 ---
 
 # IWDFFile3::GetInitiatorProcessId
@@ -95,7 +95,7 @@ CMyQueue::OnCreateFile(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile3">IWDFFile3</a>
+

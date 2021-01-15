@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_MBctrl_P_HostResidDiff_1
  - DXVA_MBctrl_P_HostResidDiff_1
 ---
 
@@ -126,3 +127,4 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>
+

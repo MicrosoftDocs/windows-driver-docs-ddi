@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _SUB_Q_CHANNEL_DATA
+ - PSUB_Q_CHANNEL_DATA
  - SUB_Q_CHANNEL_DATA
 ---
 
@@ -88,3 +90,4 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_track_isrc">SUB_Q_TRACK_ISRC</a>
+

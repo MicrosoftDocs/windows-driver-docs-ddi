@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.RawReadData
+ - IStiDevice::RawReadData
 ---
 
 # IStiDevice::RawReadData
@@ -83,3 +83,4 @@ A call to <b>IStiDevice::RawReadData</b> must be preceded by a call to <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawreadcommand">IStiDevice::RawReadCommand</a>
+

@@ -36,6 +36,8 @@ api_location:
  - ndis.h
 api_name:
  - _NET_BUFFER_LIST_TIMESTAMP
+ - PNET_BUFFER_LIST_TIMESTAMP
+ - NET_BUFFER_LIST_TIMESTAMP
 ---
 
 # _NET_BUFFER_LIST_TIMESTAMP structure

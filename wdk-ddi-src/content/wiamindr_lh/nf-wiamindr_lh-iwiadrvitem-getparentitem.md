@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetParentItem
+ - IWiaDrvItem::GetParentItem
 ---
 
 # IWiaDrvItem::GetParentItem
@@ -74,3 +74,4 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 [IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md)
 
 [IWiaDrvItem::GetNextSiblingItem](./nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem.md)
+

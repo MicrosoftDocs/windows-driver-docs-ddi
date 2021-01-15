@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3d9types.h
 api_name:
+ - _D3DSHADER_INSTRUCTION_OPCODE_TYPE
  - D3DSHADER_INSTRUCTION_OPCODE_TYPE
 ---
 
@@ -837,3 +838,4 @@ Specifies the <a href="/windows-hardware/drivers/display/end-token">end token</a
 ### -field D3DSIO_FORCE_DWORD
 
 Forces a 32-bit size.
+

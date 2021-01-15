@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSE_NODE
  - KSE_NODE
 ---
 
@@ -66,3 +67,4 @@ Reserved for system use. Should be set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>
+

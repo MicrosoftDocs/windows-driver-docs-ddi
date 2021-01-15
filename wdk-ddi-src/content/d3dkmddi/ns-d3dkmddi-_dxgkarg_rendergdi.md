@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_RENDERGDI
  - DXGKARG_RENDERGDI
 ---
 
@@ -90,3 +91,4 @@ The available number of elements in the array that <b>pAllocationList</b> specif
 ### -field MultipassOffset
 
 A value that specifies the progress of the rendering operation.
+

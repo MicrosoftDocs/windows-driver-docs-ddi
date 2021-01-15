@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient5.OutputServersWide
+ - IDebugClient5::OutputServersWide
 ---
 
 # IDebugClient5::OutputServersWide
@@ -138,3 +138,4 @@ For more information about remote debugging, see <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startserver">StartServer</a>
+

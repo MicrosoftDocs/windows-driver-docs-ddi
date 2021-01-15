@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnAcquireFirstModeInfo
+ - DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ You can enumerate all the modes that belong to a VidPN target mode set object by
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntargetmodeset_releasemodeinfo">pfnReleaseModeInfo</a>
+

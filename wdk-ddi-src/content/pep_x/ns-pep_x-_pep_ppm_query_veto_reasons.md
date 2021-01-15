@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_VETO_REASONS
+ - PPEP_PPM_QUERY_VETO_REASONS
  - PEP_PPM_QUERY_VETO_REASONS
 ---
 
@@ -64,3 +66,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_veto_reason">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
+

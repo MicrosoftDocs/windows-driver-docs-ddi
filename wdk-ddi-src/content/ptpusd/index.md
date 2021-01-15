@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - ptpusd
  - ptpusd/ptpusd
+api_name:
+ - ptpusd
 ---
 
 # Ptpusd.h header

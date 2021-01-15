@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _FILE_EA_INFORMATION
+ - PFILE_EA_INFORMATION
  - FILE_EA_INFORMATION
 ---
 
@@ -66,3 +68,4 @@ An extended attribute is a piece of application-specific metadata that an applic
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

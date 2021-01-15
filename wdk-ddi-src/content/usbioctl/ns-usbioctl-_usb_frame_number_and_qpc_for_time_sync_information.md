@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION
+ - PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION
  - USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION
 ---
 
@@ -96,3 +98,4 @@ A 3-bit value of the current hardware micro frame number that is  directly read 
 ### -field CurrentUSBFrameNumber
 
 A 32-bit USB frame number value returned by <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_get_current_frame_number">_URB_GET_CURRENT_FRAME_NUMBER</a>.
+

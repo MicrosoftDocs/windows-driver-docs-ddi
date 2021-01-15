@@ -41,10 +41,13 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _MONITORREG
+ - PMONITORREG
  - MONITORREG
 ---
 
 # _MONITORREG structure
+
 
 ## -description
 
@@ -131,3 +134,4 @@ Input and output parameters for these spooler functions match the parameters of 
 [InitializePrintMonitor2](./nf-winsplp-initializeprintmonitor2.md)
 
 [MONITORINIT](./ns-winsplp-_monitorinit.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidDpcRoutine
+ - PMINIPORT_DPC_ROUTINE
 ---
 
 # PMINIPORT_DPC_ROUTINE callback function
@@ -68,3 +68,4 @@ Because <i>HwVidDpcRoutine </i>is called at DISPATCH_LEVEL, it must not manipula
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>
+

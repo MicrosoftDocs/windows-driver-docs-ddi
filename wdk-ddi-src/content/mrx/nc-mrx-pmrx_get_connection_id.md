@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxGetConnectionId
+ - PMRX_GET_CONNECTION_ID
 ---
 
 # PMRX_GET_CONNECTION_ID callback function
@@ -94,3 +94,4 @@ If connection IDs are supported by the network mini-redirector, then the returne
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_compute_new_buffering_state">MRxComputeNewBufferingState</a>
+

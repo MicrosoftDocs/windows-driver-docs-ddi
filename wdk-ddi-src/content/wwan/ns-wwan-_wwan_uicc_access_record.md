@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_UICC_ACCESS_RECORD
+ - PWWAN_UICC_ACCESS_RECORD
+ - WWAN_UICC_ACCESS_RECORD
 ---
 
 # _WWAN_UICC_ACCESS_RECORD structure
@@ -90,3 +92,4 @@ This structure is used in the [**NDIS_WWAN_UICC_ACCESS_RECORD**](../ndiswwan/ns-
 [OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
 
 [**NDIS_WWAN_UICC_ACCESS_RECORD**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_access_record.md)
+

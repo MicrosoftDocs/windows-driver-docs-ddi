@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _REFS_SMR_VOLUME_GC_METHOD
+ - PREFS_SMR_VOLUME_GC_METHOD
  - REFS_SMR_VOLUME_GC_METHOD
 ---
 
@@ -72,3 +74,4 @@ Currently the only supported value  is <b>SmrGcMethodCompaction</b>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ifs/fsctl-set-refs-smr-volume-gc-parameters">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
+

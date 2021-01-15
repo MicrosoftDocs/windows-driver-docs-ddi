@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.GetStatus
+ - IStiUSD::GetStatus
 ---
 
 # IStiUSD::GetStatus
@@ -72,3 +72,4 @@ If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_ST
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

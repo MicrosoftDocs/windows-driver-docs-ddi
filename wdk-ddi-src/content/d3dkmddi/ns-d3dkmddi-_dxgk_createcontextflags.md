@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_CREATECONTEXTFLAGS
  - DXGK_CREATECONTEXTFLAGS
 ---
 
@@ -96,3 +97,4 @@ A member in the union that DXGK_CREATECONTEXTFLAGS contains that can hold a 32-b
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
+

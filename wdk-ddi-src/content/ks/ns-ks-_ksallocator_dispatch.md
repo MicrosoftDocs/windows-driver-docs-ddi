@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSALLOCATOR_DISPATCH
+ - PKSALLOCATOR_DISPATCH
  - KSALLOCATOR_DISPATCH
 ---
 
@@ -76,3 +78,4 @@ By providing a pointer to a KSALLOCATOR_DISPATCH structure in the relevant <a hr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+

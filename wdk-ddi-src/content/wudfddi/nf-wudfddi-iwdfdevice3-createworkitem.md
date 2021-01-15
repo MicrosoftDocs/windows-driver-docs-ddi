@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice3.CreateWorkItem
+ - IWDFDevice3::CreateWorkItem
 ---
 
 # IWDFDevice3::CreateWorkItem
@@ -90,7 +90,6 @@ hr = m_IWdfDevice3->CreateWorkItem(&config,
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
@@ -110,3 +109,4 @@ hr = m_IWdfDevice3->CreateWorkItem(&config,
 
 
 <a href="/windows-hardware/drivers/ddi/wudfworkitem/nf-wudfworkitem-wudf_workitem_config_init">WUDF_WORKITEM_CONFIG_INIT</a>
+

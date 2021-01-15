@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_CLIENT_REGISTRATION_PACKET
+ - PGPIO_CLIENT_REGISTRATION_PACKET
  - GPIO_CLIENT_REGISTRATION_PACKET
 ---
 
@@ -290,3 +292,4 @@ GpioClx requires a GPIO controller driver to implement certain callback function
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

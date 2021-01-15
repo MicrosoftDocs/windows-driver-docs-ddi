@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - WdmlibIoDisconnectInterruptEx
- - IoDisconnectInterruptEx
 ---
 
 # WdmlibIoDisconnectInterruptEx function
@@ -70,3 +69,4 @@ The driver should configure the device to issue interrupts only when these inter
 
 
 <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a>
+

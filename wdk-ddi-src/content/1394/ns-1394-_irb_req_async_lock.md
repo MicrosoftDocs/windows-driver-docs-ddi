@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ASYNC_LOCK
  - IRB_REQ_ASYNC_LOCK
 ---
 
@@ -169,3 +170,4 @@ Reserved.
 ### -field Reserved
 
 Reserved.
+

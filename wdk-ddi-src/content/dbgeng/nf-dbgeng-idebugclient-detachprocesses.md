@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.DetachProcesses
- - IDebugClient2.DetachProcesses
- - IDebugClient3.DetachProcesses
- - IDebugClient4.DetachProcesses
- - IDebugClient5.DetachProcesses
+ - IDebugClient::DetachProcesses
 ---
 
 # IDebugClient::DetachProcesses
@@ -118,3 +114,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-terminateprocesses">TerminateProcesses</a>
+

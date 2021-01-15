@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols2.GetTypeOptions
- - IDebugSymbols3.GetTypeOptions
+ - IDebugSymbols2::GetTypeOptions
 ---
 
 # IDebugSymbols2::GetTypeOptions
@@ -102,3 +101,4 @@ For more information about types, see <a href="/windows-hardware/drivers/debugge
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-settypeoptions">SetTypeOptions</a>
+

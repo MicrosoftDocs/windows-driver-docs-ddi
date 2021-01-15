@@ -41,10 +41,13 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _SCSI_PNP_REQUEST_BLOCK
+ - PSCSI_PNP_REQUEST_BLOCK
  - SCSI_PNP_REQUEST_BLOCK
 ---
 
 # _SCSI_PNP_REQUEST_BLOCK structure (storport.h)
+
 
 ## -description
 
@@ -155,3 +158,4 @@ The Storport driver calls [**HwStorBuildIo**](nc-storport-hw_buildio.md) to pass
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
+

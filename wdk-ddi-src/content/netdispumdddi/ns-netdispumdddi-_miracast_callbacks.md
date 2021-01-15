@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
+ - _MIRACAST_CALLBACKS
+ - PMIRACAST_CALLBACKS
  - MIRACAST_CALLBACKS
 ---
 
@@ -72,3 +74,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdisp
 ### -field RegisterForDataRateNotifications
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_register_datarate_notifications">RegisterForDataRateNotifications</a>    function.
+

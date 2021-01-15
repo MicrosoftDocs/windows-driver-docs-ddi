@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.CommonUIProp
+ - IPrintOemUI::CommonUIProp
 ---
 
 # IPrintOemUI::CommonUIProp
@@ -163,3 +163,4 @@ Space for the private data structure should be allocated by calling the Microsof
 If <code>IPrintOemUI::CommonUIProp</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information, see <a href="/windows-hardware/drivers/print/modifying-a-driver-supplied-property-sheet-page">Modifying a Driver-Supplied Property Sheet Page</a>.
+

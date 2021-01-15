@@ -40,6 +40,7 @@ api_location:
  - 1.0\Sercx.h
 api_name:
  - SERCX_BUFFER_DESCRIPTOR
+ - PSERCX_BUFFER_DESCRIPTOR
 ---
 
 # SERCX_BUFFER_DESCRIPTOR structure
@@ -84,3 +85,4 @@ The controller driver must call the <a href="/windows-hardware/drivers/ddi/sercx
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
+ - MINIPORT_SYNCHRONIZE_INTERRUPT
 ---
 
 # MINIPORT_SYNCHRONIZE_INTERRUPT callback function
@@ -166,3 +166,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsynchronizewithinterruptex">
    NdisMSynchronizeWithInterruptEx</a>
+

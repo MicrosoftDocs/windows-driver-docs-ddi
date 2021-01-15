@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_DESCRIPTOR
+ - PSTORAGE_DEVICE_DESCRIPTOR
  - STORAGE_DEVICE_DESCRIPTOR
 ---
 
@@ -160,3 +162,4 @@ An application or driver can determine the required buffer size by casting the r
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+

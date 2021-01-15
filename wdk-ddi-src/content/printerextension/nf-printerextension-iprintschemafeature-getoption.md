@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaFeature.GetOption
+ - IPrintSchemaFeature::GetOption
 ---
 
 # IPrintSchemaFeature::GetOption
@@ -89,3 +89,4 @@ So if the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerexte
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+

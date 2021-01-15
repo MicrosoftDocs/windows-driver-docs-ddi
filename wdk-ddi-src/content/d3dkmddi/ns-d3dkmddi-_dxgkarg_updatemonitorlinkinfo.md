@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_UPDATEMONITORLINKINFO
+ - DXGKARG_UPDATEMONITORLINKINFO
 product:
  - Windows
 dev_langs:

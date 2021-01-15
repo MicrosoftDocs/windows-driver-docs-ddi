@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILPOSITIONINFOLTE
+ - LPRILPOSITIONINFOLTE
 ---
 
 # RILPOSITIONINFOLTE structure (rilapitypes.h)

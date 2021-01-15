@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_CDRW_CAV_WRITE
+ - PFEATURE_DATA_CDRW_CAV_WRITE
  - FEATURE_DATA_CDRW_CAV_WRITE
 ---
 
@@ -72,3 +74,4 @@ This structure holds data for the feature named "CD-RW CAV Write" by the <i>SCSI
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

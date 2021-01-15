@@ -37,7 +37,7 @@ api_type:
 api_location:
  - KeywordDetectorOemAdapter.h
 api_name:
- - IKeywordDetectorOemAdapter.GetCapabilities
+ - IKeywordDetectorOemAdapter::GetCapabilities
 ---
 
 # IKeywordDetectorOemAdapter::GetCapabilities
@@ -171,3 +171,4 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 
 <a href="/windows/win32/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a>
+

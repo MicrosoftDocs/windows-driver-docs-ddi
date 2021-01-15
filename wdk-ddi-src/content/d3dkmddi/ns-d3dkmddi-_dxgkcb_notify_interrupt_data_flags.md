@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
  - DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
 ---
 
@@ -76,3 +77,4 @@ A member in the union that DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS contains that can 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
+

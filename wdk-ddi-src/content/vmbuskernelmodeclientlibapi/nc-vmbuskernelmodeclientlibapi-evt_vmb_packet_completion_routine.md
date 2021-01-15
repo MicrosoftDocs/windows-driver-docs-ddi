@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_PACKET_COMPLETION_ROUTINE
+ - EVT_VMB_PACKET_COMPLETION_ROUTINE
 ---
 
 # EVT_VMB_PACKET_COMPLETION_ROUTINE callback function
@@ -87,3 +87,4 @@ If not, the outgoing packet was successfully placed into the ring buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetcompletionroutine">VmbPacketSetCompletionRoutine</a>
+

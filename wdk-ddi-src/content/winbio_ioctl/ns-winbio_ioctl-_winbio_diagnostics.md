@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_DIAGNOSTICS
+ - PWINBIO_DIAGNOSTICS
  - WINBIO_DIAGNOSTICS
 ---
 
@@ -77,3 +79,4 @@ An optional <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_sensor_status">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a>
+

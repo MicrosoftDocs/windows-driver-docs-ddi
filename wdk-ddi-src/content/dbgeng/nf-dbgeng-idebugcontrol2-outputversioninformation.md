@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.OutputVersionInformation
- - IDebugControl2.OutputVersionInformation
- - IDebugControl3.OutputVersionInformation
+ - IDebugControl2::OutputVersionInformation
 ---
 
 # IDebugControl2::OutputVersionInformation
@@ -83,3 +81,4 @@ The method was successful.
 The information that is sent to the output can include the mode of the debugger, the path and version of the debugger DLLs, the extension DLL search path, the extension DLL chain, and the version of the operating system that is running on the host computer.
 
 For more information, see <a href="/windows-hardware/drivers/debugger/target-information">Target Information</a>.
+

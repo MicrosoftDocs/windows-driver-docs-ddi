@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _BUS_INTERFACE_STANDARD
+ - PBUS_INTERFACE_STANDARD
  - BUS_INTERFACE_STANDARD
 ---
 
@@ -172,3 +174,4 @@ However, if a driver must obtain an adapter object while running at IRQL >= DISP
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-translate_bus_address">TranslateBusAddress</a>
+

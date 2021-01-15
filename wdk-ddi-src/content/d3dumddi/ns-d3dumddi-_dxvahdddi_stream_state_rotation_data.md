@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_ROTATION_DATA
  - DXVAHDDDI_STREAM_STATE_ROTATION_DATA
 ---
 
@@ -62,3 +63,4 @@ The clockwise degrees of rotation as specified by a <a href="/windows-hardware/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_rotation">DXVAHDDDI_ROTATION</a>
+

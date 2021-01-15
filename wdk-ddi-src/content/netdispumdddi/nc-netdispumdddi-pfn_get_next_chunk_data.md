@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - GetNextChunkData
+ - PFN_GET_NEXT_CHUNK_DATA
 ---
 
 # PFN_GET_NEXT_CHUNK_DATA callback function
@@ -131,3 +131,4 @@ Only one thread should call this function at a time. Otherwise it's unpredictabl
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_data">MIRACAST_CHUNK_DATA</a>
+

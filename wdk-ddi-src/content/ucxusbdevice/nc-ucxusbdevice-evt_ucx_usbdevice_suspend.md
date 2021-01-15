@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PFN_UCX_USBDEVICE_SUSPEND
+ - EVT_UCX_USBDEVICE_SUSPEND
 ---
 
 # EVT_UCX_USBDEVICE_SUSPEND callback function
@@ -62,3 +62,4 @@ A handle to a UCX object that represents the USB device that the client driver r
 ## -remarks
 
 The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiGetBrightnessCaps
+ - DXGK_BRIGHTNESS_GET_CAPS
 ---
 
 # DXGK_BRIGHTNESS_GET_CAPS callback function

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _DSM_QuerySupportedLBPolicies_V2
+ - PDSM_QuerySupportedLBPolicies_V2
  - DSM_QuerySupportedLBPolicies_V2
 ---
 

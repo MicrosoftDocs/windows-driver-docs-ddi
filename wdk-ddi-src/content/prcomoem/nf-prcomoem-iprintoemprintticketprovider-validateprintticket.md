@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.ValidatePrintTicket
+ - IPrintOemPrintTicketProvider::ValidatePrintTicket
 ---
 
 # IPrintOemPrintTicketProvider::ValidatePrintTicket
@@ -65,3 +65,4 @@ If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemprintticketprovider">IPrintOemPrintTicketProvider</a>
+

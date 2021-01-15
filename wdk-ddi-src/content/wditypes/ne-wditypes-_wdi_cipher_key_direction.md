@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_CIPHER_KEY_DIRECTION
  - WDI_CIPHER_KEY_DIRECTION
 ---
 

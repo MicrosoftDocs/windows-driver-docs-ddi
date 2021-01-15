@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
+ - _SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+ - PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
  - SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
 ---
 
@@ -92,3 +94,4 @@ The <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittr
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaTicket.JobCopiesAllDocuments
- - IPrintSchemaTicket.get_JobCopiesAllDocuments
+ - IPrintSchemaTicket::get_JobCopiesAllDocuments
 ---
 
 # IPrintSchemaTicket::get_JobCopiesAllDocuments
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+

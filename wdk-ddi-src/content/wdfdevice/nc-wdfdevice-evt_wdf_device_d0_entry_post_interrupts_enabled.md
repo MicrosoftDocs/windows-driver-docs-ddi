@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceD0EntryPostInterruptsEnabled
+ - EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED
 ---
 
 # EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED callback function
@@ -80,3 +80,4 @@ For more information about handling interrupts, see <a href="/windows-hardware/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit_pre_interrupts_disabled">EvtDeviceD0ExitPreInterruptsDisabled</a>
+

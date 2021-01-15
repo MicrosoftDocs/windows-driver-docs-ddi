@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - BluetoothPortIndicationCallbackEnhanced
+ - PFNBTHPORT_INDICATION_CALLBACK_ENHANCED
 ---
 
 # PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback function
@@ -91,3 +91,4 @@ The
     driver stack passes to the profile driver's enhanced L2CAP callback function through the 
     <i>Indication</i> parameter. For most notifications, there is an INDICATION_PARAMETERS_ENHANCED union member that
     corresponds to the event and contains event-specific parameters.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_TVTUNER_CHANGE_INFO
+ - PKS_TVTUNER_CHANGE_INFO
  - KS_TVTUNER_CHANGE_INFO
 ---
 
@@ -103,3 +105,4 @@ A packet containing a KS_TVTUNER_CHANGE_INFO structure normally originates at a 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
+

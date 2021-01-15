@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - ISynthSinkDMus.SyncToMaster
+ - ISynthSinkDMus::SyncToMaster
 ---
 
 # ISynthSinkDMus::SyncToMaster
@@ -76,3 +76,4 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
+

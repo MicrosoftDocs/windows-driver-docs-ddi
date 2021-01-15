@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl7.GetDebuggeeType2
+ - IDebugControl7::GetDebuggeeType2
 ---
 
 # IDebugControl7::GetDebuggeeType2
@@ -232,3 +232,4 @@ This method does not return a value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol7">IDebugControl7</a>
+

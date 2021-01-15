@@ -37,11 +37,11 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwQueryInformationFile
  - NtQueryInformationFile
 ---
 
 # NtQueryInformationFile function
+
 
 ## -description
 
@@ -168,3 +168,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtQueryInformationByName**](./nf-ntifs-ntqueryinformationbyname.md)
 
 [**NtSetInformationFile**](nf-ntifs-ntsetinformationfile.md)
+

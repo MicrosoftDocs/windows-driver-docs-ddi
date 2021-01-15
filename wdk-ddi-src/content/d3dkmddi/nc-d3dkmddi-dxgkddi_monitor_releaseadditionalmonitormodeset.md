@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnReleaseAdditionalMonitorModeSet
+ - DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ This function is available beginning with Windows 7.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset">DXGK_MONITOR_INTERFACE_V2::pfnGetAdditionalMonitorModeSet</a>
+

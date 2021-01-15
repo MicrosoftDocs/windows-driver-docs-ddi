@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltKernel.h
 api_name:
- - FltAddOpenReparseEntry
+ - FltFreeOpenReparseList
 ---
 
 # FltFreeOpenReparseList function
@@ -64,3 +64,4 @@ The ECP list whose open reparse information should
 ## -returns
 
 This routine does not return a value.
+

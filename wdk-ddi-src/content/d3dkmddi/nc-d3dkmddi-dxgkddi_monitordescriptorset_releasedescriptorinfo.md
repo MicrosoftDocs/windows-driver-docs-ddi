@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnReleaseDescriptorInfo
+ - DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ The <b>pfnReleaseDescriptorInfo</b> function returns one of the following values
 ## -remarks
 
 When you have finished using a D3DKMDT_MONITOR_DESCRIPTOR structure that you obtained by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo">pfnAcquireFirstDescriptorInfo</a> or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirenextdescriptorinfo">pfnAcquireNextDescriptorInfo</a>, you must release it by calling <b>pfnReleaseDescriptorInfo</b>.
+

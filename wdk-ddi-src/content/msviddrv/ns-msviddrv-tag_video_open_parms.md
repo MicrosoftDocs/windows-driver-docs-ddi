@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Msviddrv.h
 api_name:
+ - tag_video_open_parms
+ - LPVIDEO_OPEN_PARMS
  - VIDEO_OPEN_PARMS
 ---
 

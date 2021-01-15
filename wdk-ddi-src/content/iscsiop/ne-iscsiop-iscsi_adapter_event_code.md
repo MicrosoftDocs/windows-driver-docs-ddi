@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - PISCSI_ADAPTER_EVENT_CODE
  - ISCSI_ADAPTER_EVENT_CODE
 ---
 
@@ -58,3 +59,4 @@ An adapter discovered that its list of targets changed.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msiscsi-adapterevent-wmi-class">MSiSCSI_AdapterEvent WMI Class</a>
+

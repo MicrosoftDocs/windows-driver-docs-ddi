@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _ENUMERATOR_ACTION
+ - PENUMERATOR_ACTION
  - ENUMERATOR_ACTION
 ---
 
@@ -88,3 +90,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+

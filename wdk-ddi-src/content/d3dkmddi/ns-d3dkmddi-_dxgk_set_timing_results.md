@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SET_TIMING_RESULTS
+ - PDXGK_SET_TIMING_RESULTS
  - DXGK_SET_TIMING_RESULTS
 ---
 

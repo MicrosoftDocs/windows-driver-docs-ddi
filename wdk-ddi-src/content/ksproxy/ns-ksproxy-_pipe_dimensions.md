@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
+ - _PIPE_DIMENSIONS
+ - PPIPE_DIMENSIONS
  - PIPE_DIMENSIONS
 ---
 

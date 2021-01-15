@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _TCP_OFFLOAD_STATE_CACHED
+ - PTCP_OFFLOAD_STATE_CACHED
  - TCP_OFFLOAD_STATE_CACHED
 ---
 
@@ -265,3 +267,4 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
+

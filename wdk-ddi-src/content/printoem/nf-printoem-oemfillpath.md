@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - OEMEscape
+ - OEMFillPath
 ---
 
 # OEMFillPath function

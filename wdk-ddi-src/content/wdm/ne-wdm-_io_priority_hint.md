@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_PRIORITY_HINT
  - IO_PRIORITY_HINT
 ---
 
@@ -86,3 +87,4 @@ For more information about priority hints, see <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetiopriorityhint">IoSetIoPriorityHint</a>
+

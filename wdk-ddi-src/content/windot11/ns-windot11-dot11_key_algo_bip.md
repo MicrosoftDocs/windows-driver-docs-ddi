@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_KEY_ALGO_BIP
+ - PDOT11_KEY_ALGO_BIP
 product:
  - Windows 10 or later.
 ---
@@ -79,3 +80,4 @@ typedef struct _DOT11_KEY_ALGO_BIP {
   UCHAR ucBIPKey[1];
 } DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP;
 ```
+

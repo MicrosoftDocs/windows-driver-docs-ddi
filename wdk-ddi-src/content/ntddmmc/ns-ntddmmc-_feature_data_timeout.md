@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_TIMEOUT
+ - PFEATURE_DATA_TIMEOUT
  - FEATURE_DATA_TIMEOUT
 ---
 
@@ -78,3 +80,4 @@ When queried, devices supporting this feature must return the information indica
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxGetMpdus
+ - MINIPORT_WDI_RX_GET_MPDUS
 ---
 
 # MINIPORT_WDI_RX_GET_MPDUS callback function
@@ -142,3 +142,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/wdi-peer-id">WDI_PEER_ID</a>
+

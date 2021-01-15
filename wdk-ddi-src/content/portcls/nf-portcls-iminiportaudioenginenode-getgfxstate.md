@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetGfxState
+ - IMiniportAudioEngineNode::GetGfxState
 ---
 
 # IMiniportAudioEngineNode::GetGfxState
@@ -66,3 +66,4 @@ Pointer to a <b>BOOL</b> data type.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
+

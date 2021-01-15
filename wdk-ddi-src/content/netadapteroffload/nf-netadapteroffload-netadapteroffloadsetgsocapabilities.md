@@ -5,38 +5,39 @@ description: The NetAdapterOffloadSetChecksumCapabilities function sets the hard
 tech.root: netvista
 ms.date: 10/09/2020
 keywords: ["NetAdapterOffloadSetGsoCapabilities function"]
-f1_keywords:
- - "netadapteroffload/NetAdapterOffloadSetGsoCapabilities"
 ms.keywords: NetAdapterOffloadSetGsoCapabilities
 req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterOffloadSetGsoCapabilities
-product:
-- Windows
 targetos: Windows
 ms.custom: Fe
+f1_keywords:
+ - NetAdapterOffloadSetGsoCapabilities
+ - netadapteroffload/NetAdapterOffloadSetGsoCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterOffloadSetGsoCapabilities
+product:
+ - Windows
 ---
 
 # NetAdapterOffloadSetGsoCapabilities function
@@ -80,3 +81,4 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
+

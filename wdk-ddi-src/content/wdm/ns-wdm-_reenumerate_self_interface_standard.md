@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REENUMERATE_SELF_INTERFACE_STANDARD
+ - PREENUMERATE_SELF_INTERFACE_STANDARD
  - REENUMERATE_SELF_INTERFACE_STANDARD
 ---
 
@@ -106,3 +108,4 @@ The <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> structure is an extension of the 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-preenumerate_self">ReenumerateSelf</a>
+

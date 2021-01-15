@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_PROFILE
+ - PNDIS_SWITCH_PORT_PROPERTY_PROFILE
  - NDIS_SWITCH_PORT_PROPERTY_PROFILE
 ---
 
@@ -198,3 +200,4 @@ The <b>PciLocation</b> and <b>CdnLabel</b> members are only relevant if the prop
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+

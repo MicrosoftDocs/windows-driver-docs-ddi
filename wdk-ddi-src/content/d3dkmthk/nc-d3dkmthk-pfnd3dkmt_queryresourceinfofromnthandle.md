@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTQueryResourceInfoFromNtHandle
+ - PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
 
 # PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback function
@@ -74,3 +74,4 @@ This function might also return other NTSTATUS values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryresourceinfofromnthandle">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a>
+

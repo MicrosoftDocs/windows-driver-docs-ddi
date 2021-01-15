@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_ACCESS_RANGE
+ - PIDE_ACCESS_RANGE
  - IDE_ACCESS_RANGE
 ---
 
@@ -73,3 +75,4 @@ Flag that indicates if this is a memory mapped resource. If cleared, this is an 
 ### -field Bar
 
 The number of the PCI Base Address Range that this resource was found in.
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - PISCSI_NIC_LINKSTATE
  - ISCSI_NIC_LINKSTATE
 ---
 
@@ -70,3 +71,4 @@ The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a>
+

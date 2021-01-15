@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
+ - PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 ---
 
 # PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME callback function
@@ -74,3 +74,4 @@ This function might also return other NTSTATUS values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
+

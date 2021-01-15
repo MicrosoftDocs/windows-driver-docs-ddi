@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - IdeHwStartIo
+ - IDE_HW_STARTIO
 ---
 
 # IDE_HW_STARTIO callback function
@@ -79,3 +79,4 @@ After this routine returns, the miniport driver should be prepared to receive th
 
 
 <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_buildio">IdeHwBuildIo</a>
+

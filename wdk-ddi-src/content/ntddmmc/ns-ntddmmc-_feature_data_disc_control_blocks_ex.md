@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX
+ - PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX
  - FEATURE_DATA_DISC_CONTROL_BLOCKS_EX
 ---
 
@@ -64,3 +66,4 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_disc_control_blocks">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
+

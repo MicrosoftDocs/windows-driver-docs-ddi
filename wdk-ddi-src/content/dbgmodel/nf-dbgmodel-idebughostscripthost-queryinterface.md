@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostScriptHost.QueryInterface
+ - IDebugHostScriptHost::QueryInterface
 ---
 
 # IDebugHostScriptHost::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostScriptHost interface](nn-dbgmodel-idebughostscripthost.md)
+

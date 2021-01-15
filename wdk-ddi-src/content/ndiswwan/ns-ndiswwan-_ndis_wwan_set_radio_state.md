@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_RADIO_STATE
+ - PNDIS_WWAN_SET_RADIO_STATE
  - NDIS_WWAN_SET_RADIO_STATE
 ---
 
@@ -150,3 +152,4 @@ This parameter allows Windows to turn the radio power on and off. Be aware that 
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_radio">WWAN_RADIO</a>
+

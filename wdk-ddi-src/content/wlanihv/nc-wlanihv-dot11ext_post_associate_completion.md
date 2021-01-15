@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtPostAssociateCompletion
+ - DOT11EXT_POST_ASSOCIATE_COMPLETION
 ---
 
 # DOT11EXT_POST_ASSOCIATE_COMPLETION callback
@@ -242,3 +242,4 @@ The IHV Extensions DLL must call
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+

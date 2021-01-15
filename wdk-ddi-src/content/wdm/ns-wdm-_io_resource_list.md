@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_RESOURCE_LIST
+ - PIO_RESOURCE_LIST
  - IO_RESOURCE_LIST
 ---
 
@@ -80,3 +82,4 @@ This structure is the header for an array of <b>IO_RESOURCE_DESCRIPTOR</b> struc
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_requirements_list">IO_RESOURCE_REQUIREMENTS_LIST</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DRIVE_LAYOUT_INFORMATION_MBR
+ - PDRIVE_LAYOUT_INFORMATION_MBR
  - DRIVE_LAYOUT_INFORMATION_MBR
 ---
 
@@ -74,3 +76,4 @@ This structure contains the drive layout information that is specific to a drive
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iowritepartitiontable">IoWritePartitionTable</a>
+

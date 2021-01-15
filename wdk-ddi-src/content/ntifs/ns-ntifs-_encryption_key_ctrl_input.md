@@ -34,6 +34,8 @@ api_location:
  - ntifs.h
 api_name:
  - _ENCRYPTION_KEY_CTRL_INPUT
+ - PENCRYPTION_KEY_CTRL_INPUT
+ - ENCRYPTION_KEY_CTRL_INPUT
 ---
 
 # _ENCRYPTION_KEY_CTRL_INPUT structure

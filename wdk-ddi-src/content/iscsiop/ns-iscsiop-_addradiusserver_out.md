@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _AddRADIUSServer_OUT
+ - PAddRADIUSServer_OUT
  - AddRADIUSServer_OUT
 ---
 
@@ -76,3 +78,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
+

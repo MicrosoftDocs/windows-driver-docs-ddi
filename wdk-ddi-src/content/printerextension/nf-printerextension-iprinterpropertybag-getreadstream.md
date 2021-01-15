@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterPropertyBag.GetReadStream
+ - IPrinterPropertyBag::GetReadStream
 ---
 
 # IPrinterPropertyBag::GetReadStream
@@ -71,3 +71,4 @@ This method does not work with non-stream properties.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
+

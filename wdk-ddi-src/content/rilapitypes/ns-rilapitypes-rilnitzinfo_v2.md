@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILNITZINFO_V2
+ - LPRILNITZINFO_V2
 ---
 
 # RILNITZINFO_V2 structure (rilapitypes.h)

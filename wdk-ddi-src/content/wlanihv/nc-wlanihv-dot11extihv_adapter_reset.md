@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvAdapterReset
+ - DOT11EXTIHV_ADAPTER_RESET
 ---
 
 # DOT11EXTIHV_ADAPTER_RESET callback
@@ -109,3 +109,4 @@ For more information about the reset operation for WLAN adapters, see
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

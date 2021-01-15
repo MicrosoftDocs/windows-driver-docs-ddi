@@ -40,6 +40,7 @@ api_location:
  - oemrilapitypes.h
 api_name:
  - RILDEVSPECIFICGETTOKEN
+ - LPRILDEVSPECIFICGETTOKEN
 ---
 
 # RILDEVSPECIFICGETTOKEN structure

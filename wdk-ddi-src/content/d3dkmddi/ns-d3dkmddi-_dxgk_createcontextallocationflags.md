@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_CREATECONTEXTALLOCATIONFLAGS
  - DXGK_CREATECONTEXTALLOCATIONFLAGS
 ---
 
@@ -83,3 +84,4 @@ The <b>ContextAllocationFlags</b> member of the <a href="/windows-hardware/drive
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>
+

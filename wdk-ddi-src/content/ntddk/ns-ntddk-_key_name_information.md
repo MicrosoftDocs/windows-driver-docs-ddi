@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _KEY_NAME_INFORMATION
+ - PKEY_NAME_INFORMATION
  - KEY_NAME_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

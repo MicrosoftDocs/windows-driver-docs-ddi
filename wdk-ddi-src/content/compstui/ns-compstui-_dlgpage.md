@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _DLGPAGE
+ - PDLGPAGE
  - DLGPAGE
 ---
 
@@ -179,3 +181,4 @@ When the dialog box procedure pointed to by <b>DlgProc</b> is called with a mess
 If a caller-supplied dialog box procedure handles a message, it should return a nonzero value. If the function does not handle the message it should return zero, which causes CPSUI to handle the message.
 
 The PROPSHEETPAGE structure, the DLGPROC pointer type, and the WM_INITDIALOG message are described in the Windows SDK documentation.
+

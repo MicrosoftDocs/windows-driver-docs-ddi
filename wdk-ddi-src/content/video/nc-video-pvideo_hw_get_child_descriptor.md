@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidGetVideoChildDescriptor
+ - PVIDEO_HW_GET_CHILD_DESCRIPTOR
 ---
 
 # PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function
@@ -137,3 +137,4 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportenumeratechildren">VideoPortEnumerateChildren</a>
+

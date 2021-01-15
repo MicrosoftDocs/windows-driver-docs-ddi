@@ -13,7 +13,7 @@ req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
-req.umdf-ver:
+req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceRelationsQuery
+ - EVT_WDF_DEVICE_RELATIONS_QUERY
 ---
 
 # EVT_WDF_DEVICE_RELATIONS_QUERY callback function
@@ -76,3 +76,4 @@ The type of work that a driver must do depends on the value received for the <i>
 
 
 The framework can call the <i>EvtDeviceRelationsQuery</i> callback function with a <i>RelationType</i> value of <b>EjectionRelations</b> or <b>RemovalRelations</b> even if the device is being removed.
+

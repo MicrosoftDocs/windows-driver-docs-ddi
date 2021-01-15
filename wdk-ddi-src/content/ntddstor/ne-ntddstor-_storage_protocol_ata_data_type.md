@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - PSTORAGE_PROTOCOL_ATA_DATA_TYPE
  - STORAGE_PROTOCOL_ATA_DATA_TYPE
 ---
 
@@ -88,3 +90,4 @@ To specify a type of ATA protocol-specific information, configure the [STORAGE_P
 
   - Use **AtaDataTypeIdentify** to identify the ATA drive.
   - Use **AtaDataTypeLogPage** to get log pages from the ATA drive.
+

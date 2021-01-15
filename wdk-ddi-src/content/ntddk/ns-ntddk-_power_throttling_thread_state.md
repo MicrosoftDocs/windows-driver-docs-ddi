@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _POWER_THROTTLING_THREAD_STATE
+ - PPOWER_THROTTLING_THREAD_STATE
  - POWER_THROTTLING_THREAD_STATE
 ---
 

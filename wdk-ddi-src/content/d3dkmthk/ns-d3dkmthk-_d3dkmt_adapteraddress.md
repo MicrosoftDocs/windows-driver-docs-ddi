@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_ADAPTERADDRESS
  - D3DKMT_ADAPTERADDRESS
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graph
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo">D3DKMT_QUERYADAPTERINFO</a>
+

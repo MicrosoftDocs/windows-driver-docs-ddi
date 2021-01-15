@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostModuleSignature.QueryInterface
+ - IDebugHostModuleSignature::QueryInterface
 ---
 
 # IDebugHostModuleSignature::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostModuleSignature interface](nn-dbgmodel-idebughostmodulesignature.md)
+

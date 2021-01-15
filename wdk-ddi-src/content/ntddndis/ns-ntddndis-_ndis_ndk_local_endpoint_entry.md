@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_NDK_LOCAL_ENDPOINT_ENTRY
  - NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 ---
 
@@ -74,3 +75,4 @@ The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="/windows-har
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoints">NDIS_NDK_LOCAL_ENDPOINTS</a>
+

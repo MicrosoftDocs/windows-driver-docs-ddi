@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
- - I8042IsrWritePort
+ - PI8042_ISR_WRITE_PORT
 ---
 
 # PI8042_ISR_WRITE_PORT callback function
@@ -80,3 +80,4 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_mouse">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+

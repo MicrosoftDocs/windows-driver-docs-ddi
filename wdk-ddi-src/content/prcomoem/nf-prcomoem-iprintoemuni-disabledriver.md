@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemUni.DisableDriver
+ - IPrintOemUni::DisableDriver
 ---
 
 # IPrintOemUni::DisableDriver
@@ -89,3 +89,4 @@ The <code>IPrintOemUni::DisableDriver</code> method, provided by rendering plug-
 <code>IPrintOemUni::DisableDriver</code> and <b>IPrintOemUni::EnableDriver</b> must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enabledriver">IPrintOemUni::EnableDriver</a>. 
 
 This is the last <b>IPrintOemUni</b> interface method that is called before the rendering plug-in is unloaded.
+

@@ -35,9 +35,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _NFIT_PLATFORM_CAPABILITIES
+ - PNFIT_PLATFORM_CAPABILITIES
+ - NFIT_PLATFORM_CAPABILITIES
 ---
 
 # _NFIT_PLATFORM_CAPABILITIES structure
+
 
 ## -description
 
@@ -66,3 +69,4 @@ Describes the NVDIMM Firmware Interface Table (NFIT) platform capabilities struc
 ## -remarks
 
 ## -see-also
+

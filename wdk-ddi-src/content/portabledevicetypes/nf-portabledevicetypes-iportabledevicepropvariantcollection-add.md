@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDevicePropVariantCollection.Add
+ - IPortableDevicePropVariantCollection::Add
 ---
 
 # IPortableDevicePropVariantCollection::Add
@@ -86,3 +86,4 @@ If a caller tries to add an item of a different <b>VARTYPE</b> contained in the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
+

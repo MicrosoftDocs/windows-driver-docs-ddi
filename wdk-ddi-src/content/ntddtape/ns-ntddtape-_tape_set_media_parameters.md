@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_SET_MEDIA_PARAMETERS
+ - PTAPE_SET_MEDIA_PARAMETERS
  - TAPE_SET_MEDIA_PARAMETERS
 ---
 
@@ -64,3 +66,4 @@ Indicates the requested block size, in bytes, or zero for variable block size in
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetMediaParameters</a>
+

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.WriteBusData
- - IDebugDataSpaces2.WriteBusData
- - IDebugDataSpaces3.WriteBusData
- - IDebugDataSpaces4.WriteBusData
+ - IDebugDataSpaces3::WriteBusData
 ---
 
 # IDebugDataSpaces3::WriteBusData
@@ -114,3 +111,4 @@ The method was successful.
 This method is only available in kernel-mode debugging.
 
 The nature of the data read from the bus is system, bus, and slot dependent.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _PCM_DATA_FORMAT
+ - PPCM_DATA_FORMAT
  - PCM_DATA_FORMAT
 ---
 

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDynamicKeyProviderConcept.QueryInterface
+ - IDynamicKeyProviderConcept::QueryInterface
 ---
 
 # IDynamicKeyProviderConcept::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDynamicKeyProviderConcept interface](nn-dbgmodel-idynamickeyproviderconcept.md)
+

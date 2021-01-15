@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_TRIM_DESCRIPTOR
+ - PDEVICE_TRIM_DESCRIPTOR
  - DEVICE_TRIM_DESCRIPTOR
 ---
 
@@ -72,3 +74,4 @@ Storage class drivers issue a device-control request with the I/O control code  
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+

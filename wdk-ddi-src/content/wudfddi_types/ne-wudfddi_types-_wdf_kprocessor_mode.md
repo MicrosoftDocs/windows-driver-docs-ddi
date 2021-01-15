@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_KPROCESSOR_MODE
+ - PWDF_KPROCESSOR_MODE
  - WDF_KPROCESSOR_MODE
 ---
 
@@ -78,3 +80,4 @@ The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="/win
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-getrequestormode">IWDFIoRequest2::GetRequestorMode</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_DATA_RATE_FLAGS
  - WDI_DATA_RATE_FLAGS
 ---
 

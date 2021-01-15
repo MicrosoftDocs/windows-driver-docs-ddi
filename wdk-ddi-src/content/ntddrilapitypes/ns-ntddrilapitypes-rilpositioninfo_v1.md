@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPOSITIONINFO_V1
+ - LPRILPOSITIONINFO_V1
 ---
 
 # RILPOSITIONINFO_V1 structure (ntddrilapitypes.h)

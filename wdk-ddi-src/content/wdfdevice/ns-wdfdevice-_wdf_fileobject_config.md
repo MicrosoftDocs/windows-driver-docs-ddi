@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_FILEOBJECT_CONFIG
+ - PWDF_FILEOBJECT_CONFIG
  - WDF_FILEOBJECT_CONFIG
 ---
 
@@ -119,3 +121,4 @@ If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfDefault</b>, the dri
 
 </li>
 </ul>
+

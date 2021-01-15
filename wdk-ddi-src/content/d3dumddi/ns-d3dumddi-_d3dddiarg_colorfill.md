@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_COLORFILL
  - D3DDDIARG_COLORFILL
 ---
 
@@ -82,3 +83,4 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 
 <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
+

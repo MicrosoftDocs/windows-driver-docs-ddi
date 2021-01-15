@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_REQUEST_PACKET
+ - PVIDEO_REQUEST_PACKET
  - VIDEO_REQUEST_PACKET
 ---
 
@@ -88,3 +90,4 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 
 <a href="/windows-hardware/drivers/ddi/index">Video Miniport Driver I/O Control Codes</a>
+

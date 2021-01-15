@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _ENDPOINTS_CONFIGURE_FAILURE_FLAGS
  - ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 ---
 
@@ -70,3 +71,4 @@ Do not use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_endpoints_configure">ENDPOINTS_CONFIGURE</a>
+

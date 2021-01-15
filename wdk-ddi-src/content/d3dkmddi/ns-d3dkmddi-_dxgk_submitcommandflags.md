@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SUBMITCOMMANDFLAGS
  - DXGK_SUBMITCOMMANDFLAGS
 ---
 
@@ -137,3 +138,4 @@ Setting this member to zero is equivalent to setting the remaining 26 bits (0xFF
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
+

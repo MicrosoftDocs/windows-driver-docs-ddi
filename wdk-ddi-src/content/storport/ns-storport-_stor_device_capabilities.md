@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_DEVICE_CAPABILITIES
+ - PSTOR_DEVICE_CAPABILITIES
  - STOR_DEVICE_CAPABILITIES
 ---
 
@@ -120,3 +122,4 @@ Starting with Windows 8, miniports should use the <a href="/windows-hardware/dr
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a>
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_device_capabilities_ex">STOR_DEVICE_CAPABILITIES_EX</a>
+

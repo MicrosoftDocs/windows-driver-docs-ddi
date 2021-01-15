@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_CODEC_RESPONSE
+ - PHDAUDIO_CODEC_RESPONSE
  - HDAUDIO_CODEC_RESPONSE
 ---
 
@@ -161,3 +163,4 @@ The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOve
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a>
+

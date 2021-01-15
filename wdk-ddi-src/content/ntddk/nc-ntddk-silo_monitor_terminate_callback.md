@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - TerminateCallback
+ - SILO_MONITOR_TERMINATE_CALLBACK
 ---
 
 # SILO_MONITOR_TERMINATE_CALLBACK callback function
@@ -57,3 +57,4 @@ The silo to be terminated.
 ## -remarks
 
 The expected behavior is that the component will drop any outstanding silo references.  A driver may no longer operate within the namespace of a silo (via <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>) once it has returned from this function.
+

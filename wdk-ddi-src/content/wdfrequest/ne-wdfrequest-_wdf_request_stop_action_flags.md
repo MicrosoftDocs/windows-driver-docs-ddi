@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_STOP_ACTION_FLAGS
  - WDF_REQUEST_STOP_ACTION_FLAGS
 ---
 
@@ -76,3 +77,4 @@ When the framework calls a driver's <a href="/windows-hardware/drivers/ddi/wdfio
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_stop">EvtIoStop</a>
+

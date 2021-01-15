@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_MESSAGE_IN
+ - PUCSI_MESSAGE_IN
+ - UCSI_MESSAGE_IN
 ---
 
 # _UCSI_MESSAGE_IN structure

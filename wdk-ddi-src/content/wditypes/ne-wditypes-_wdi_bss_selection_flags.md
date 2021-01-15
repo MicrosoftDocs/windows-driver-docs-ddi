@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_BSS_SELECTION_FLAGS
  - WDI_BSS_SELECTION_FLAGS
 ---
 

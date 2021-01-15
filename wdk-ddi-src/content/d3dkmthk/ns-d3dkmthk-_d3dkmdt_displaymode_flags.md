@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMDT_DISPLAYMODE_FLAGS
  - D3DKMDT_DISPLAYMODE_FLAGS
 ---
 
@@ -128,3 +129,4 @@ Supported starting with Windows 8.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a>
+

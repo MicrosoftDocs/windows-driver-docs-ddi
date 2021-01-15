@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OUTPUTDUPL_RELEASE_FRAME
  - D3DKMT_OUTPUTDUPL_RELEASE_FRAME
 ---
 
@@ -64,3 +65,4 @@ Defines the duplicated desktop image that is to be released in a call to the <a 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtoutputduplreleaseframe">D3DKMTOutputDuplReleaseFrame</a>
+

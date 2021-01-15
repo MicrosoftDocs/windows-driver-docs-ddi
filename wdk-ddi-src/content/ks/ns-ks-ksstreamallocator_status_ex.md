@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSSTREAMALLOCATOR_STATUS_EX
  - KSSTREAMALLOCATOR_STATUS_EX
 ---
 

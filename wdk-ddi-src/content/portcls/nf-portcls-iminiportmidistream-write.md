@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportMidiStream.Write
+ - IMiniportMidiStream::Write
 ---
 
 # IMiniportMidiStream::Write
@@ -123,3 +123,4 @@ Zero. This value indicates that the device is too busy to write any of the calle
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportmidistream-read">IMiniportMidiStream::Read</a>
+

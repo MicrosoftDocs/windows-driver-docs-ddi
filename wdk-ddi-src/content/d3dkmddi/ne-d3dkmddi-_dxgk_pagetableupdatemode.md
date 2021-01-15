@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PAGETABLEUPDATEMODE
  - DXGK_PAGETABLEUPDATEMODE
 ---
 
@@ -70,3 +71,4 @@ Indicates that the address of the page table to update is in the <b>GpuPhysical<
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a>
+

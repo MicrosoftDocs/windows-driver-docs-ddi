@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.CoerceValues
- - IDebugControl2.CoerceValues
- - IDebugControl3.CoerceValues
+ - IDebugControl2::CoerceValues
 ---
 
 # IDebugControl2::CoerceValues
@@ -119,3 +117,4 @@ This method converts an array of values of one type into values of another type.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

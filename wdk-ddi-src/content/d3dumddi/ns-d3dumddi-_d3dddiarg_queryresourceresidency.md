@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_QUERYRESOURCERESIDENCY
  - D3DDDIARG_QUERYRESOURCERESIDENCY
 ---
 
@@ -62,3 +63,4 @@ The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryresourceresidency">QueryResourceResidency</a>
+

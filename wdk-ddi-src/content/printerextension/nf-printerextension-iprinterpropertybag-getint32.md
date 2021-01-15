@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterPropertyBag.GetInt32
+ - IPrinterPropertyBag::GetInt32
 ---
 
 # IPrinterPropertyBag::GetInt32
@@ -66,3 +66,4 @@ This method returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
+

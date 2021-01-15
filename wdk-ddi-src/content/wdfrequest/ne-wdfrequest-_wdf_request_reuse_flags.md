@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_REUSE_FLAGS
  - WDF_REQUEST_REUSE_FLAGS
 ---
 
@@ -64,3 +65,4 @@ The <b>NewIrp</b> member of the <a href="/windows-hardware/drivers/ddi/wdfreques
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a>
+

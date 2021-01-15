@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_UPDATEOVERLAY
  - D3DDDIARG_UPDATEOVERLAY
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modify.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updateoverlay">UpdateOverlay</a>
+

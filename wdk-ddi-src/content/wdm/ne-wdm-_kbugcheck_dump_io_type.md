@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KBUGCHECK_DUMP_IO_TYPE
  - KBUGCHECK_DUMP_IO_TYPE
 ---
 
@@ -82,3 +83,4 @@ Specifies that the crash dump data has been completely written.
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_dump_io">KBUGCHECK_DUMP_IO</a>
+

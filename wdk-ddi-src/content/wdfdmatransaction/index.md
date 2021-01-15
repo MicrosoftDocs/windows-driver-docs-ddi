@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfdmatransaction
  - wdfdmatransaction/wdfdmatransaction
+api_name:
+ - wdfdmatransaction
 ---
 
 # Wdfdmatransaction.h header

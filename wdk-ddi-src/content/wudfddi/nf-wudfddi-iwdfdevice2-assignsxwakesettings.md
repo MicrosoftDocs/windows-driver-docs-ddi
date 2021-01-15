@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.AssignSxWakeSettings
+ - IWDFDevice2::AssignSxWakeSettings
 ---
 
 # IWDFDevice2::AssignSxWakeSettings
@@ -189,7 +189,6 @@ The following code example obtains the <a href="/windows-hardware/drivers/ddi/wu
     SAFE_RELEASE(pIWDFDevice2);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
@@ -197,3 +196,4 @@ The following code example obtains the <a href="/windows-hardware/drivers/ddi/wu
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-assigns0idlesettings">IWDFDevice2::AssignS0IdleSettings</a>
+

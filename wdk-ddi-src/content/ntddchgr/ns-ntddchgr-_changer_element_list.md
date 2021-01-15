@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_ELEMENT_LIST
+ - PCHANGER_ELEMENT_LIST
  - CHANGER_ELEMENT_LIST
 ---
 
@@ -76,3 +78,4 @@ A changer class driver uses CHANGER_ELEMENT_LIST to indicate a range of elements
 
 
 <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitializeelementstatus">ChangerInitializeElementStatus</a>
+

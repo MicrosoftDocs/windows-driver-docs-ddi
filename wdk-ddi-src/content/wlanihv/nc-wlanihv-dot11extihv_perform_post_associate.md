@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvPerformPostAssociate
+ - DOT11EXTIHV_PERFORM_POST_ASSOCIATE
 ---
 
 # DOT11EXTIHV_PERFORM_POST_ASSOCIATE callback
@@ -166,3 +166,4 @@ For more information about the post-association operation, see
 
 <a href="/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SETDISPLAYMODE
  - D3DKMT_SETDISPLAYMODE
 ---
 
@@ -92,3 +93,4 @@ Supported in Windows 7 and later versions.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setdisplaymode_flags">D3DKMT_SETDISPLAYMODE_FLAGS</a>
+

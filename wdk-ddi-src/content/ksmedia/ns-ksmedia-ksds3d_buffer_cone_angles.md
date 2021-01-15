@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDS3D_BUFFER_CONE_ANGLES
  - KSDS3D_BUFFER_CONE_ANGLES
 ---
 
@@ -66,3 +67,4 @@ This structure is used to set or get the data value for the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-directsound3dbuffer-coneangles">KSPROPERTY_DIRECTSOUND3DBUFFER_CONEANGLES</a>
+

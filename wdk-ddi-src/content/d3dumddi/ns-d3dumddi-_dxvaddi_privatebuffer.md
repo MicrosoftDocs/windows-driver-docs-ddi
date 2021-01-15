@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_PRIVATEBUFFER
  - DXVADDI_PRIVATEBUFFER
 ---
 
@@ -70,3 +71,4 @@ The DXVADDI_PRIVATEBUFFER structure describes a private buffer that a nonstandar
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeextensionexecute">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
+

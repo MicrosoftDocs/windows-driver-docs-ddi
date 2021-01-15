@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - GenerateFileNameCallback
+ - PFLT_GENERATE_FILE_NAME
 ---
 
 # PFLT_GENERATE_FILE_NAME callback function
@@ -186,3 +186,4 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_normalize_name_component_ex">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
+

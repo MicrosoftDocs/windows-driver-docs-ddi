@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDrmPort2.ForwardContentToDeviceObject
+ - IDrmPort2::ForwardContentToDeviceObject
 ---
 
 # IDrmPort2::ForwardContentToDeviceObject
@@ -70,3 +70,4 @@ See comments in <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardco
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idrmport2">IDrmPort2</a>
+

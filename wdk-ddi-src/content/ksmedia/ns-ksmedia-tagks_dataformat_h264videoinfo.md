@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKS_DATAFORMAT_H264VIDEOINFO
+ - PKS_DATAFORMAT_H264VIDEOINFO
  - KS_DATAFORMAT_H264VIDEOINFO
 ---
 
@@ -68,3 +70,4 @@ Specifies the details of the video stream.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_h264videoinfo">KS_H264VIDEOINFO</a>
+

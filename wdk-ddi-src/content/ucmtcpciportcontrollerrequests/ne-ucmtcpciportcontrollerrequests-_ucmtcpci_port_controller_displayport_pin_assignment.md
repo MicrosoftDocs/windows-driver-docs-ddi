@@ -38,6 +38,7 @@ api_type:
 api_location:
  - Ucmtcpciportcontrollerrequests.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
  - UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMusicTechnology.SetTechnology
+ - IMusicTechnology::SetTechnology
 ---
 
 # IMusicTechnology::SetTechnology
@@ -131,3 +131,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/music-technol
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a>
+

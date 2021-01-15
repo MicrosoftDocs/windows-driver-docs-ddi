@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoSample32
  - DXVA_VideoSample32
 ---
 
@@ -114,3 +115,4 @@ The compiler adds 4 bytes of padding to align the structure to 8 bytes.
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

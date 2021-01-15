@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETADAPTERGROUPDATA
  - DD_GETADAPTERGROUPDATA
 ---
 
@@ -83,3 +84,4 @@ The identifier in <b>ulUniqueAdapterGroupId</b> must be unique across drivers, i
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+

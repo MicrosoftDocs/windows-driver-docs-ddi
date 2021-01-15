@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_LINK_COLLECTION_NODE
+ - PHIDP_LINK_COLLECTION_NODE
  - HIDP_LINK_COLLECTION_NODE
 ---
 
@@ -108,3 +110,4 @@ The <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollection
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>
+

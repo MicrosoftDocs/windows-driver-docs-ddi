@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_POWER_COMPONENT_TYPE
  - DXGK_POWER_COMPONENT_TYPE
 ---
 
@@ -85,3 +86,4 @@ Indicates that the graphics driver supports shared power components.
 ### -field DXGK_POWER_COMPONENT_MAX
 
 A maximum value that is used for testing purposes.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _PNP_LOCATION_INTERFACE
+ - PPNP_LOCATION_INTERFACE
  - PNP_LOCATION_INTERFACE
 ---
 
@@ -96,3 +98,4 @@ A driver obtains a pointer to the <b>PNP_LOCATION_INTERFACE</b> structure by sen
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pget_location_string">PnpGetLocationString</a>
+

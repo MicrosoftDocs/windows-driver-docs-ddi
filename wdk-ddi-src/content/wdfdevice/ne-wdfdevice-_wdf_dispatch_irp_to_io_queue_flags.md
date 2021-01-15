@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
  - WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
 ---
 
@@ -76,3 +77,4 @@ Specifies that the IRP was preprocessed by the driver's <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue">WdfDeviceWdmDispatchIrpToIoQueue</a>
+

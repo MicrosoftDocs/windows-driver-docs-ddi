@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CalcPrivateTessellationShaderSize
+ - PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ The Direct3D runtime calls the driver's <b>CalcPrivateTessellationShaderSize</b>
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_devicefuncs">D3D11DDI_DEVICEFUNCS</a>
+

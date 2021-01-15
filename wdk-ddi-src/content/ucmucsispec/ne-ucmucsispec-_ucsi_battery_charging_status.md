@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_BATTERY_CHARGING_STATUS
+ - UCSI_BATTERY_CHARGING_STATUS
 ---
 
 # _UCSI_BATTERY_CHARGING_STATUS enumeration

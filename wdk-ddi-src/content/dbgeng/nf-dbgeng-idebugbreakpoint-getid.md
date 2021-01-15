@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.GetId
- - IDebugBreakpoint2.GetId
+ - IDebugBreakpoint::GetId
 ---
 
 # IDebugBreakpoint::GetId
@@ -85,3 +84,4 @@ The breakpoint ID remains fixed as long as the breakpoint exists.  However, afte
 The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the breakpoint ID.
 
 For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+

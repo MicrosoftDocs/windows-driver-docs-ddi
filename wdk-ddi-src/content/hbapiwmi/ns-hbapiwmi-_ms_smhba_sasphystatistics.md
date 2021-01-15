@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_SASPHYSTATISTICS
+ - PMS_SMHBA_SASPHYSTATISTICS
  - MS_SMHBA_SASPHYSTATISTICS
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_CAPS
+ - PHIDP_CAPS
  - HIDP_CAPS
 ---
 
@@ -156,3 +158,4 @@ Callers of the <a href="/windows-hardware/drivers/ddi/index">HIDClass support ro
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>
+

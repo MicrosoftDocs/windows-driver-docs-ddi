@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CalcPrivateRasterizerStateSize
+ - PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_rasterizer_desc">D3D10_DDI_RASTERIZER_DESC</a>
+

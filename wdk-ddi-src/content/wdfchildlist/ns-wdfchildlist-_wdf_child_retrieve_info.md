@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfchildlist.h
 api_name:
+ - _WDF_CHILD_RETRIEVE_INFO
+ - PWDF_CHILD_RETRIEVE_INFO
  - WDF_CHILD_RETRIEVE_INFO
 ---
 
@@ -112,3 +114,4 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievepdo">WdfChildListRetrievePdo</a>
+

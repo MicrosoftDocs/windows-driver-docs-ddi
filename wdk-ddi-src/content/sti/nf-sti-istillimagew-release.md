@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Sti.h
 api_name:
- - IStillImageW.Release
+ - IStillImageW::Release
 ---
 
 # IStillImageW::Release
@@ -54,3 +54,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 ## -remarks
 
 Before calling <b>IStillImage::Release</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+

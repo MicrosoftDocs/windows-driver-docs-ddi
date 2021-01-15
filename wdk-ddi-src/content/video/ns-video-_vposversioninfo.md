@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VPOSVERSIONINFO
+ - PVPOSVERSIONINFO
  - VPOSVERSIONINFO
 ---
 
@@ -86,3 +88,4 @@ To obtain version information about the currently running operating system, a vi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetversion">VideoPortGetVersion</a>
+

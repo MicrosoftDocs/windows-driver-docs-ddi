@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _L2CAP_DISCONNECT_REASON
  - L2CAP_DISCONNECT_REASON
 ---
 
@@ -89,3 +90,4 @@ Currently,
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
+

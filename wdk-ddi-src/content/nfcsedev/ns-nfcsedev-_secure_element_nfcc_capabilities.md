@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_NFCC_CAPABILITIES
+ - PSECURE_ELEMENT_NFCC_CAPABILITIES
  - SECURE_ELEMENT_NFCC_CAPABILITIES
 ---
 

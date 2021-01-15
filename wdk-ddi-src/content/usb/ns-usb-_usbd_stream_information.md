@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usb.h
 api_name:
+ - _USBD_STREAM_INFORMATION
+ - PUSBD_STREAM_INFORMATION
  - USBD_STREAM_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_open_static_streams">_URB_OPEN_STATIC_STREAMS</a>
+

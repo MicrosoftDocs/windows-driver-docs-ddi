@@ -39,6 +39,7 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _RAW_PIPE_TYPE
  - RAW_PIPE_TYPE
 ---
 

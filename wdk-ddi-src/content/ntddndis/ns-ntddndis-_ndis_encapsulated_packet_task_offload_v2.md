@@ -36,6 +36,8 @@ api_location:
  - ntddndis.h
 api_name:
  - _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
+ - PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
+ - NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 ---
 
 # _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure
@@ -136,3 +138,4 @@ For more information about VXLAN, see [RFC 7348](https://tools.ietf.org/html/rfc
 ## -see-also
 
 [**NDIS_OFFLOAD**](ns-ntddndis-_ndis_offload.md)
+

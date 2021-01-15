@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_CREATEPROCESSFLAGS
  - DXGK_CREATEPROCESSFLAGS
 ---
 
@@ -86,3 +87,4 @@ The consolidated value of the bitfield members of the structure.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
+

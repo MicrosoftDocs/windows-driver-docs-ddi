@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_SCAN_TRIGGER
  - WDI_SCAN_TRIGGER
 ---
 

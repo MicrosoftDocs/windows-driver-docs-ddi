@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_ENDPOINT_LIST
+ - PSECURE_ELEMENT_ENDPOINT_LIST
  - SECURE_ELEMENT_ENDPOINT_LIST
 ---
 
@@ -67,3 +69,4 @@ The number of enumerated endpoints on the NFC controller.
 #### - EndpointList[ANYSIZE_ARRAY]
 
 An array of <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_info">SECURE_ELEMENT_ENDPOINT_INFO</a> structures.
+

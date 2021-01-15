@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _HBAFCPScsiEntry
+ - PHBAFCPScsiEntry
  - HBAFCPScsiEntry
 ---
 
@@ -68,3 +70,4 @@ Contains a structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a>
+

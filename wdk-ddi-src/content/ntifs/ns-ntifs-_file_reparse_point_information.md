@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_REPARSE_POINT_INFORMATION
+ - PFILE_REPARSE_POINT_INFORMATION
  - FILE_REPARSE_POINT_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ This structure must be LONG-aligned.
 
 
 <a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>
+

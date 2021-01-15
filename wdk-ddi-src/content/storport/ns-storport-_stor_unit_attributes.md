@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_UNIT_ATTRIBUTES
+ - PSTOR_UNIT_ATTRIBUTES
  - STOR_UNIT_ATTRIBUTES
 ---
 
@@ -82,3 +84,4 @@ If the miniport driver supports asynchronous notifications, the <b>AsyncNotifica
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>
+

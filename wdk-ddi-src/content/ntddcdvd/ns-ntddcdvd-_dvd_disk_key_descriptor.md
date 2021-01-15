@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_DISK_KEY_DESCRIPTOR
+ - PDVD_DISK_KEY_DESCRIPTOR
  - DVD_DISK_KEY_DESCRIPTOR
 ---
 
@@ -60,3 +62,4 @@ Pointer to a buffer containing the disc key data obfuscated by the bus key.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

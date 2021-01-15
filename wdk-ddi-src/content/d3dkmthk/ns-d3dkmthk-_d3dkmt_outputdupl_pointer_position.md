@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_OUTPUTDUPL_POINTER_POSITION
+ - D3DKMT_OUTPUTDUPL_POINTER_POSITION
 dev_langs:
  - c++
 ---

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentThreadTeb
- - IDebugSystemObjects2.GetCurrentThreadTeb
- - IDebugSystemObjects3.GetCurrentThreadTeb
- - IDebugSystemObjects4.GetCurrentThreadTeb
+ - IDebugSystemObjects4::GetCurrentThreadTeb
 ---
 
 # IDebugSystemObjects4::GetCurrentThreadTeb
@@ -88,3 +85,4 @@ In kernel-mode debugging, the location returned is of the TEB structure of the s
 <div class="alert"><b>Note</b>    In kernel mode, the current thread is always a virtual thread the debugger created for a processor in the target computer.  Because events may occur in different system threads, the TEB location for a virtual thread may change.</div>
 <div> </div>
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on the TEB structure, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _MSiSCSI_AdapterEvent
+ - PMSiSCSI_AdapterEvent
  - MSiSCSI_AdapterEvent
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_AdapterE
 
 
 <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a>
+

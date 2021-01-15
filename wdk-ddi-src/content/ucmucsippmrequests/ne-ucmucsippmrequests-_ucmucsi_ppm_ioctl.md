@@ -31,6 +31,7 @@ api_location:
  - ucmucsippmrequests.h
 api_name:
  - _UCMUCSI_PPM_IOCTL
+ - UCMUCSI_PPM_IOCTL
 ---
 
 # _UCMUCSI_PPM_IOCTL enumeration

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - strmini.h
 api_name:
- - StrMiniInterrupt
+ - PHW_INTERRUPT
 ---
 
 # PHW_INTERRUPT callback function (strmini.h)

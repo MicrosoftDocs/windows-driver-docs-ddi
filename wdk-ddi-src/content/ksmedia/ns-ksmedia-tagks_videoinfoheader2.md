@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_VIDEOINFOHEADER2
+ - PKS_VIDEOINFOHEADER2
  - KS_VIDEOINFOHEADER2
 ---
 
@@ -159,3 +161,4 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set in the **dwControlFlags** member,
 [KS_DATARANGE_VIDEO2](./ns-ksmedia-tagks_datarange_video2.md)
 
 [KS_VIDEOINFOHEADER](./ns-ksmedia-tagks_videoinfoheader.md)
+

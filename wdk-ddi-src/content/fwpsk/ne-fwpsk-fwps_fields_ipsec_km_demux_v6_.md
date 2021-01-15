@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_IPSEC_KM_DEMUX_V6_
  - FWPS_FIELDS_IPSEC_KM_DEMUX_V6
 ---
 
@@ -97,3 +98,4 @@ The IPsec security realm identifier.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

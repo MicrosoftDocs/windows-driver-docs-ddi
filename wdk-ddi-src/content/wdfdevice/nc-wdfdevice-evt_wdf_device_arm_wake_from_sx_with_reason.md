@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceArmWakeFromSxWithReason
+ - EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON
 ---
 
 # EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON callback function
@@ -119,3 +119,4 @@ For more information about the <i>EvtDeviceArmWakeFromSxWithReason</i> callback 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx">EvtDeviceDisarmWakeFromSx</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLLIST_V2
+ - LPRILCALLLIST_V2
 ---
 
 # RILCALLLIST_V2 structure (rilapitypes.h)

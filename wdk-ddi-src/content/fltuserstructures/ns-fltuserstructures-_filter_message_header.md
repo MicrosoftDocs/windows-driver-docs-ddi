@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _FILTER_MESSAGE_HEADER
+ - PFILTER_MESSAGE_HEADER
  - FILTER_MESSAGE_HEADER
 ---
 
@@ -72,3 +74,4 @@ To receive messages from a kernel-mode minifilter, a user-mode application typic
 
 
 <a href="/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
+

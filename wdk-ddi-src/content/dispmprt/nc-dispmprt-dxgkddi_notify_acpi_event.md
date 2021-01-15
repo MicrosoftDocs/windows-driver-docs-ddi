@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiNotifyAcpiEvent
+ - DXGKDDI_NOTIFY_ACPI_EVENT
 ---
 
 # DXGKDDI_NOTIFY_ACPI_EVENT callback function
@@ -108,3 +108,4 @@ This parameter is ignored if this function returns an error or if the display ad
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_eval_acpi_method">DxgkCbEvalAcpiMethod</a>
+

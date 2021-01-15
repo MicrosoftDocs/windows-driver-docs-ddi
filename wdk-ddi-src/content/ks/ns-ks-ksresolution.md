@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSRESOLUTION
  - KSRESOLUTION
 ---
 
@@ -66,3 +67,4 @@ Vendors can supply a structure of type KSRESOLUTION in a <a href="/windows-hardw
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>
+

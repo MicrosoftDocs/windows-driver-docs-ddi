@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.PurgeSynchronously
+ - IWDFIoQueue::PurgeSynchronously
 ---
 
 # IWDFIoQueue::PurgeSynchronously
@@ -66,3 +66,4 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-purge">IWDFIoQueue::Purge</a>
+

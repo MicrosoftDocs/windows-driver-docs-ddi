@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
+ - _USBCAMD_DEVICE_DATA
+ - PUSBCAMD_DEVICE_DATA
  - USBCAMD_DEVICE_DATA
 ---
 
@@ -114,3 +116,4 @@ A camera minidriver passes a USBCAMD_DEVICE_DATA structure to USBCAMD as a param
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
+

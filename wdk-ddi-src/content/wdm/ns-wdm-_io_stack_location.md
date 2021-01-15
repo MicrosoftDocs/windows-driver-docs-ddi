@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_STACK_LOCATION
+ - PIO_STACK_LOCATION
  - IO_STACK_LOCATION
 ---
 
@@ -741,3 +743,4 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">IoSkipCurrentIrpStackLocation</a>
+

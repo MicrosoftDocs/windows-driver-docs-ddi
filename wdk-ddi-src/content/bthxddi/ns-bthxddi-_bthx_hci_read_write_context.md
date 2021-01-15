@@ -41,6 +41,8 @@ api_type:
 api_location:
  - BthXDDI.h
 api_name:
+ - _BTHX_HCI_READ_WRITE_CONTEXT
+ - PBTHX_HCI_READ_WRITE_CONTEXT
  - BTHX_HCI_READ_WRITE_CONTEXT
 ---
 
@@ -79,3 +81,4 @@ The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="
 This structure is also used as an output parameter for the <a href="/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
 
 This structure is packed to 1-byte boundary.
+

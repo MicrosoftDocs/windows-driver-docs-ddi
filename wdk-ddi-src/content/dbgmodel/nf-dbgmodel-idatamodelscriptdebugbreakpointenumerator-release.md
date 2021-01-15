@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptDebugBreakpointEnumerator.Release
+ - IDataModelScriptDebugBreakpointEnumerator::Release
 ---
 
 # IDataModelScriptDebugBreakpointEnumerator::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelScriptDebugBreakpointEnumerator interface](nn-dbgmodel-idatamodelscriptdebugbreakpointenumerator.md)
+

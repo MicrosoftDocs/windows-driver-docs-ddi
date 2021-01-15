@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPHONEBOOKREADYSTATE
+ - LPRILPHONEBOOKREADYSTATE
 ---
 
 # RILPHONEBOOKREADYSTATE structure (rilapitypes.h)

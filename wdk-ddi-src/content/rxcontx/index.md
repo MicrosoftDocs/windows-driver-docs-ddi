@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxcontx
  - rxcontx/rxcontx
+api_name:
+ - rxcontx
 ---
 
 # Rxcontx.h header

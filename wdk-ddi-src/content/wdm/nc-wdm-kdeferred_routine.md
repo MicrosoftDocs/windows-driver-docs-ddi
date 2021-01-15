@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - MyDpc
+ - KDEFERRED_ROUTINE
 ---
 
 # KDEFERRED_ROUTINE callback function
@@ -156,7 +156,6 @@ VOID
   }
 ```
 
-
 ## -see-also
 
 <b>KeInitializeDpc</b>
@@ -172,3 +171,4 @@ VOID
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
+

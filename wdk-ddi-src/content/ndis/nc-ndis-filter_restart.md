@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - FilterRestart
+ - FILTER_RESTART
 ---
 
 # FILTER_RESTART callback function
@@ -333,3 +333,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
+

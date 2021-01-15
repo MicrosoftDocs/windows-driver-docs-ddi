@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
+ - PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
  - PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
 ---
 
@@ -169,3 +171,4 @@ A PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+

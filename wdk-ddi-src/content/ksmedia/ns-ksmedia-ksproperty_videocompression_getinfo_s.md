@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
  - KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
 ---
 
@@ -90,3 +91,4 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocompression">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpcm.h
 api_name:
+ - _PCMCIA_CONTROLLER_CLASS
+ - PPCMCIA_CONTROLLER_CLASS
  - PCMCIA_CONTROLLER_CLASS
 ---
 
@@ -120,3 +122,4 @@ Indicates a NEC cardbus controller.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a>
+

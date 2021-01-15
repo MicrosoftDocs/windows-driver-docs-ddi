@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddsd.h
 api_name:
- - InitializeInterface
+ - PSDBUS_INITIALIZE_INTERFACE_ROUTINE
 ---
 
 # PSDBUS_INITIALIZE_INTERFACE_ROUTINE callback function
@@ -76,3 +76,4 @@ An SD card driver must call its initialization routine before attempting to send
 
 
 <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
+

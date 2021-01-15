@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DrawTriPatch
+ - PFND3DDDI_DRAWTRIPATCH
 ---
 
 # PFND3DDDI_DRAWTRIPATCH callback function
@@ -115,3 +115,4 @@ The driver receives notification to release cached patch information through the
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

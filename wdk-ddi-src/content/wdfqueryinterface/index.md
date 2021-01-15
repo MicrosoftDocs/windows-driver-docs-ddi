@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfqueryinterface
  - wdfqueryinterface/wdfqueryinterface
+api_name:
+ - wdfqueryinterface
 ---
 
 # Wdfqueryinterface.h header

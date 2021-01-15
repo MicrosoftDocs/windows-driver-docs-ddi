@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvCreateDiscoveryProfiles
+ - DOT11EXTIHV_CREATE_DISCOVERY_PROFILES
 ---
 
 # DOT11EXTIHV_CREATE_DISCOVERY_PROFILES callback
@@ -200,3 +200,4 @@ For more information about creating discovery profiles, see
 
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+

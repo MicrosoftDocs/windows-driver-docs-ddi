@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.WaitForEvent
- - IDebugControl2.WaitForEvent
- - IDebugControl3.WaitForEvent
+ - IDebugControl3::WaitForEvent
 ---
 
 # IDebugControl3::WaitForEvent
@@ -152,3 +150,4 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

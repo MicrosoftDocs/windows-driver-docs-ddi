@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetDmaTransferInfo
+ - PGET_DMA_TRANSFER_INFO
 ---
 
 # PGET_DMA_TRANSFER_INFO callback function
@@ -157,3 +157,4 @@ An MDL describes the physical memory pages that underlie a locked-down, contiguo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
+

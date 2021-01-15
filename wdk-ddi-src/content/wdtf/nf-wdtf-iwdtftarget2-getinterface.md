@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTarget2.GetInterface
+ - IWDTFTarget2::GetInterface
 ---
 
 # IWDTFTarget2::GetInterface
@@ -105,3 +105,4 @@ see <a href="/windows-hardware/drivers/ddi/index">Action Interfaces</a>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+

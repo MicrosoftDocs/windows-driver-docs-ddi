@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_REGISTER_STATE
+ - PNDIS_WWAN_SET_REGISTER_STATE
  - NDIS_WWAN_SET_REGISTER_STATE
 ---
 
@@ -117,3 +119,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>
+

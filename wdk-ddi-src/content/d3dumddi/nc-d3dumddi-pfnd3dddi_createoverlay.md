@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CreateOverlay
+ - PFND3DDDI_CREATEOVERLAY
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ Overlays are independent from the resources that are displayed by using the over
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

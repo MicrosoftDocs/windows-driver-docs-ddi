@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_ENDPOINT_PURGE
+ - EVT_UCX_ENDPOINT_PURGE
 ---
 
 # EVT_UCX_ENDPOINT_PURGE callback function
@@ -87,7 +87,7 @@ Endpoint_UcxEvtEndpointPurge(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>
+

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_AER_CAPABILITIES
+ - PPCI_EXPRESS_AER_CAPABILITIES
  - PCI_EXPRESS_AER_CAPABILITIES
 ---
 
@@ -123,3 +125,4 @@ A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2SystemDmaTransmitCancelDrainFifo
+ - EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO
 ---
 
 # EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback function
@@ -119,3 +119,4 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO</b> function type is def
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitdrainfifocomplete">SerCx2SystemDmaTransmitDrainFifoComplete</a>
+

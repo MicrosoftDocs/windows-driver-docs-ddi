@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortWaveCyclic.NewSlaveDmaChannel
+ - IPortWaveCyclic::NewSlaveDmaChannel
 ---
 
 # IPortWaveCyclic::NewSlaveDmaChannel
@@ -122,3 +122,4 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
+

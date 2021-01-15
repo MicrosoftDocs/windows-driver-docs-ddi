@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _KBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - PKBUGCHECK_SECONDARY_DUMP_DATA_EX
+ - KBUGCHECK_SECONDARY_DUMP_DATA_EX
 product:
  - Windows
 ---
@@ -138,3 +140,4 @@ For more information about bug check callback routines, see <a href="/windows-ha
 
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)
+

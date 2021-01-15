@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvReadItemProperties
+ - IWiaMiniDrv::drvReadItemProperties
 ---
 
 # IWiaMiniDrv::drvReadItemProperties
@@ -128,3 +128,4 @@ In this method, the minidriver should read the requested properties from the dev
 [wiasWritePropLong](../wiamdef/nf-wiamdef-wiaswriteproplong.md)
 
 [wiasWritePropStr](../wiamdef/nf-wiamdef-wiaswritepropstr.md)
+

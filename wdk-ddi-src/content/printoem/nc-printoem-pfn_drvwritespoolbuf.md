@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvWriteSpoolBuf
+ - PFN_DrvWriteSpoolBuf
 ---
 
 # PFN_DrvWriteSpoolBuf callback function
@@ -58,3 +58,4 @@ This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of th
 ### -param pBuffer
 
 ### -param cbSize
+

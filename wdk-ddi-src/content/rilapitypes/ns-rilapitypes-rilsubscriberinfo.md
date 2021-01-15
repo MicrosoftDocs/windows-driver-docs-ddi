@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILSUBSCRIBERINFO
+ - LPRILSUBSCRIBERINFO
 ---
 
 # RILSUBSCRIBERINFO structure (rilapitypes.h)

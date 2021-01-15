@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.GetRequestorMode
+ - IWDFIoRequest2::GetRequestorMode
 ---
 
 # IWDFIoRequest2::GetRequestorMode
@@ -91,7 +91,6 @@ STDMETHODCALLTYPE
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
@@ -99,3 +98,4 @@ STDMETHODCALLTYPE
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-isfromusermodedriver">IWDFIoRequest2::IsFromUserModeDriver</a>
+

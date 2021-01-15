@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxsstreams.h
 api_name:
+ - _STREAM_INFO
+ - PSTREAM_INFO
  - STREAM_INFO
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmmanager.h
 api_name:
+ - _UCM_MANAGER_CONFIG
+ - PUCM_MANAGER_CONFIG
  - UCM_MANAGER_CONFIG
 ---
 
@@ -60,3 +62,4 @@ Size of the <b>UCM_MANAGER_CONFIG</b> structure. Initialize this structure by ca
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_manager_config_init">UCM_MANAGER_CONFIG_INIT</a>
+

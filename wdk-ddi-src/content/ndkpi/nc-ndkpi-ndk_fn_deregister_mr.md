@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkDeregisterMr
+ - NDK_FN_DEREGISTER_MR
 ---
 
 # NDK_FN_DEREGISTER_MR callback function
@@ -124,3 +124,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
+

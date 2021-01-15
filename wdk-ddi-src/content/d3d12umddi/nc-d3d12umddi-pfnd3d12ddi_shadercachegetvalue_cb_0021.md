@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnShaderCacheGetValueCb
+ - PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ Access this callback by using the <a href="/windows-hardware/drivers/ddi/d3d12um
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a>
+

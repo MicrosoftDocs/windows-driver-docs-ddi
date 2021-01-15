@@ -33,6 +33,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DEBUG_LEVEL
+ - DEBUG_LEVEL
 product:
  - Windows
 dev_langs:

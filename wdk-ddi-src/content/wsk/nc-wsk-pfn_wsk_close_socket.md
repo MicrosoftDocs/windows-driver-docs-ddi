@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskCloseSocket
+ - PFN_WSK_CLOSE_SOCKET
 ---
 
 # PFN_WSK_CLOSE_SOCKET callback function
@@ -188,3 +188,4 @@ For connection-oriented sockets, the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

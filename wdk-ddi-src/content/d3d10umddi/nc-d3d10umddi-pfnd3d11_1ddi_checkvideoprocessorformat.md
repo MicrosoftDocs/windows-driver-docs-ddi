@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CheckVideoProcessorFormat
+ - PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
 product:
  - Windows
 ---
@@ -96,3 +96,4 @@ If the driver can support neither, it must set the <i>pSupported</i> parameter t
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>
+

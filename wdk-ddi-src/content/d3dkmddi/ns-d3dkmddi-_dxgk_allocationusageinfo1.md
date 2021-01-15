@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_ALLOCATIONUSAGEINFO1
  - DXGK_ALLOCATIONUSAGEINFO1
 ---
 
@@ -156,3 +157,4 @@ Specifies a member in the union contained in the <b>Flags</b> member that can ho
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+

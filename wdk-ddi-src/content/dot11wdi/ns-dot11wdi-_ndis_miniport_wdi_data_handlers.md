@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _NDIS_MINIPORT_WDI_DATA_HANDLERS
+ - PNDIS_MINIPORT_WDI_DATA_HANDLERS
  - NDIS_MINIPORT_WDI_DATA_HANDLERS
 ---
 
@@ -173,3 +175,4 @@ The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11w
 ### -field TxSuspectFrameAbortHandler
 
 The entry point of the [MiniportWdiTxSuspectFrameAbort](nc-dot11wdi-miniport_wdi_tx_suspect_frame_list_abort.md) handler function.
+

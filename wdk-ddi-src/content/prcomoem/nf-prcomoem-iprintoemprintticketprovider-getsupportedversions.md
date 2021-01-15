@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.GetSupportedVersions
+ - IPrintOemPrintTicketProvider::GetSupportedVersions
 ---
 
 # IPrintOemPrintTicketProvider::GetSupportedVersions
@@ -83,3 +83,4 @@ The plug-in is responsible for allocating the array memory that is pointed to by
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff553151(v=vs.85)">IPrintOemPrintTicketProvider::BindPrinter</a>
+

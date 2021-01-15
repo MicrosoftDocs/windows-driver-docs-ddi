@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_BUS_INTERFACE
+ - PHDAUDIO_BUS_INTERFACE
  - HDAUDIO_BUS_INTERFACE
 ---
 
@@ -208,3 +210,4 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-punregister_event_callback">UnregisterEventCallback</a>
+

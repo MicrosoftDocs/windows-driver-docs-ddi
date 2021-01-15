@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PSYSAUDIO_SELECT_GRAPH
  - SYSAUDIO_SELECT_GRAPH
 ---
 
@@ -78,3 +79,4 @@ Reserved. Set to zero.
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-select-graph">KSPROPERTY_SYSAUDIO_SELECT_GRAPH</a>
+

@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _MCI_STATUS_BITS_COMMON
+ - PMCI_STATUS_BITS_COMMON
  - MCI_STATUS_BITS_COMMON
 product:
  - Windows

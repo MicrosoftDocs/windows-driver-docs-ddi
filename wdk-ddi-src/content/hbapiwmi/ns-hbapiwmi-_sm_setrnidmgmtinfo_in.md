@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SetRNIDMgmtInfo_IN
+ - PSM_SetRNIDMgmtInfo_IN
  - SM_SetRNIDMgmtInfo_IN
 ---
 

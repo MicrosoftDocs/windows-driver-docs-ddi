@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkReject
+ - NDK_FN_REJECT
 ---
 
 # NDK_FN_REJECT callback function
@@ -140,3 +140,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data">NDK_FN_GET_CONNECTION_DATA</a>
+

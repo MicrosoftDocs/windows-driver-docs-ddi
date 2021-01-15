@@ -36,6 +36,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_GETMMIORANGES
+ - PDXGKARG_GETMMIORANGES
+ - DXGKARG_GETMMIORANGES
 dev_langs:
  - c++
 ---

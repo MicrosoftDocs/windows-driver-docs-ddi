@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_ESCAPE
  - DXGKARG_ESCAPE
 ---
 
@@ -90,3 +91,4 @@ A driver handle that is returned by the KMD from the call to [DxgkDdiCreateProce
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a>
+

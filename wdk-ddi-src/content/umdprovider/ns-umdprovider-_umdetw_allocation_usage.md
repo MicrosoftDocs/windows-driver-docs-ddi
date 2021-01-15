@@ -39,6 +39,7 @@ api_type:
 api_location:
  - umdprovider.h
 api_name:
+ - _UMDETW_ALLOCATION_USAGE
  - UMDETW_ALLOCATION_USAGE
 ---
 
@@ -74,3 +75,4 @@ A 32-bit value that specifies the allocation mapping.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a>
+

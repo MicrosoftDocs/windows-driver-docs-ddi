@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - InjectError
+ - PSHED_PI_INJECT_ERROR
 ---
 
 # PSHED_PI_INJECT_ERROR callback function
@@ -207,3 +207,4 @@ The WHEA management application that is injecting the error can pass additional 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

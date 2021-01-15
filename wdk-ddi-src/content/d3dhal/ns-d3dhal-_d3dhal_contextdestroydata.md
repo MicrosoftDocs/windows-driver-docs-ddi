@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_CONTEXTDESTROYDATA
  - D3DHAL_CONTEXTDESTROYDATA
 ---
 
@@ -62,3 +63,4 @@ Specifies the location where the driver writes the return code for <a href="/win
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a>
+

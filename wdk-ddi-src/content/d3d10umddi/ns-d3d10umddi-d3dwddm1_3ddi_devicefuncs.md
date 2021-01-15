@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - D3D11_1DDI_DEVICEFUNCS
+ - D3DWDDM1_3DDI_DEVICEFUNCS
 ---
 
 # D3DWDDM1_3DDI_DEVICEFUNCS structure
@@ -732,3 +732,4 @@ The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (n
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_relocatedevicefuncs">RelocateDeviceFuncs(D3D11_2)</a>
+

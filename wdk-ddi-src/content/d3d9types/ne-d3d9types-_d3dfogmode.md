@@ -31,6 +31,7 @@ api_location:
  - d3d9types.h
 api_name:
  - _D3DFOGMODE
+ - D3DFOGMODE
 dev_langs:
  - c++
 ---

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.ReadBuffer
+ - ExtRemoteData::ReadBuffer
 ---
 
 # ExtRemoteData::ReadBuffer
@@ -75,3 +75,4 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-writebuffer">ExtRemoteData::WriteBuffer</a>
+

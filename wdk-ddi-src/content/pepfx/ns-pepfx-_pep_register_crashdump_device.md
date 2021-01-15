@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_REGISTER_CRASHDUMP_DEVICE
+ - PPEP_REGISTER_CRASHDUMP_DEVICE
  - PEP_REGISTER_CRASHDUMP_DEVICE
 ---
 
@@ -76,3 +78,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbackpoweroncrashdumpdevice">PowerOnDumpDeviceCallback</a>
+

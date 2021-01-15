@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.Stop
+ - IWDFIoQueue::Stop
 ---
 
 # IWDFIoQueue::Stop
@@ -99,3 +99,4 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-purge">IWDFIoQueue::Purge</a>
+

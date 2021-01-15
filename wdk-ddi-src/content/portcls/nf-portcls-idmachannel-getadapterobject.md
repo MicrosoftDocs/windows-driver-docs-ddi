@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDmaChannel.GetAdapterObject
+ - IDmaChannel::GetAdapterObject
 product:
  - Windows
 ---

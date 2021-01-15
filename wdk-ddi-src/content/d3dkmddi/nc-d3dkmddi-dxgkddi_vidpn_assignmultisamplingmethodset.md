@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnAssignMultisamplingMethodSet
+ - DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ This function might also return other error codes that are defined in Ntstatus.h
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>
+

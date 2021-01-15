@@ -37,7 +37,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
- - IXpsRasterizerNotificationCallback.Continue
+ - IXpsRasterizerNotificationCallback::Continue
 ---
 
 # IXpsRasterizerNotificationCallback::Continue
@@ -90,3 +90,4 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 
 <a href="/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback">IXpsRasterizerNotificationCallback</a>
+

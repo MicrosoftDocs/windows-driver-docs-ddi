@@ -33,6 +33,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DIAGNOSTIC_TYPES
+ - DXGK_DIAGNOSTIC_TYPES
 product:
  - Windows
 ---

@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_VIDMMESCAPETYPE
  - D3DKMT_VIDMMESCAPETYPE
 dev_langs:
  - c++
@@ -89,3 +90,4 @@ The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="/windows-hardwa
 ### -field D3DKMT_VIDMMESCAPETYPE_DEFRAG
 
 ### -field D3DKMT_VIDMMESCAPETYPE_DELAYEXECUTION
+

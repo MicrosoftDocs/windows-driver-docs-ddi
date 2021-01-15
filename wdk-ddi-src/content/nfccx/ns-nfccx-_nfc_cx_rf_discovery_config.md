@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_RF_DISCOVERY_CONFIG
+ - PNFC_CX_RF_DISCOVERY_CONFIG
  - NFC_CX_RF_DISCOVERY_CONFIG
 ---
 
@@ -100,3 +102,4 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _SetDSMCounters_IN
+ - PSetDSMCounters_IN
  - SetDSMCounters_IN
 ---
 

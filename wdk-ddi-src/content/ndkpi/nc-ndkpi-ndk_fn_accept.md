@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkAccept
+ - NDK_FN_ACCEPT
 ---
 
 # NDK_FN_ACCEPT callback function
@@ -226,3 +226,4 @@ The <i>NdkConnectEventCallback</i> function is used by the NDK provider to notif
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
+

@@ -31,6 +31,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_SYNC_LOCK_STYLE
+ - DXGK_SYNC_LOCK_STYLE
 product:
  - Windows
 dev_langs:

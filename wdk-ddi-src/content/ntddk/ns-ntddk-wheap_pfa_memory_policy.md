@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_PFA_MEMORY_POLICY
+ - PWHEAP_PFA_MEMORY_POLICY
  - WHEAP_PFA_MEMORY_POLICY
 product:
  - Windows

@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_SAR_CONFIG_INFO
+ - PWWAN_SAR_CONFIG_INFO
+ - WWAN_SAR_CONFIG_INFO
 ---
 
 # _WWAN_SAR_CONFIG_INFO structure
@@ -82,3 +84,4 @@ This structure is used in the [**NDIS_WWAN_SAR_CONFIG_INFO**](../ndiswwan/ns-ndi
 [**WWAN_SAR_WIFI_HARDWARE_INTEGRATION**](ne-wwan-_wwan_sar_wifi_hardware_integration.md)
 
 [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md)
+

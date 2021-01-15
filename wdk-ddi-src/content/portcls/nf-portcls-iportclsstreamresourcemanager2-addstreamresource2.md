@@ -38,7 +38,7 @@ api_location:
  - Portcls.lib
  - Portcls.dll
 api_name:
- - IPortClsStreamResourceManager2.AddStreamResource2
+ - IPortClsStreamResourceManager2::AddStreamResource2
 ---
 
 # IPortClsStreamResourceManager2::AddStreamResource2
@@ -98,3 +98,4 @@ Additional standard status codes may be returned.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>
+

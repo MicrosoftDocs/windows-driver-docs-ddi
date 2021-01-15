@@ -12,6 +12,8 @@ tech.root: debugger
 f1_keywords:
  - dbgeng
  - dbgeng/dbgeng
+api_name:
+ - dbgeng
 ---
 
 # Dbgeng.h header

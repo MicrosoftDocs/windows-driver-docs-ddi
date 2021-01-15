@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdasup.h
 api_name:
+ - _BDA_PIN_PAIRING
+ - PBDA_PIN_PAIRING
  - BDA_PIN_PAIRING
 ---
 
@@ -100,3 +102,4 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
+

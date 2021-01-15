@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CommandCompleteFunction
+ - PCOMMAND_COMPLETE_FUNCTION
 ---
 
 # PCOMMAND_COMPLETE_FUNCTION callback function
@@ -86,3 +86,4 @@ USBCAMD_WaitOnDeviceEvent.
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pfnusbcamd_waitondeviceevent">USBCAMD_WaitOnDeviceEvent</a>
+

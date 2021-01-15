@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxSrvCallWinnerNotify
+ - PMRX_SRVCALL_WINNER_NOTIFY
 ---
 
 # PMRX_SRVCALL_WINNER_NOTIFY callback function
@@ -108,3 +108,4 @@ When multiple redirectors are installed for handling the same UNC namespace, the
 
 
 <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
+

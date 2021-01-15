@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_GEOREGION
  - GNSS_GEOREGION
 ---
 
@@ -81,3 +82,4 @@ Padding buffer.
 ## -remarks
 
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
+

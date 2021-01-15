@@ -42,6 +42,8 @@ api_location:
  - Acpiioct.h
 api_name:
  - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure
@@ -98,3 +100,4 @@ For more information about how to use this structure, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a>
+

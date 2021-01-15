@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - ConfigureAuthenticatedChannel
+ - PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -142,3 +142,4 @@ The display miniport driver must return  <b>E_INVALIDARG</b> for the <b>Configur
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a>
+

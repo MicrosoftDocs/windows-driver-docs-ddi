@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - USBCAMD_BulkReadWrite
+ - PFNUSBCAMD_BulkReadWrite
 ---
 
 # PFNUSBCAMD_BulkReadWrite callback function
@@ -144,3 +144,4 @@ USBCAMD can accept one read and one write request at a time.
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
+

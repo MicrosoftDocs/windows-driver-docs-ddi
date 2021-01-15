@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.CreateRemoteTarget
+ - IWDFDevice2::CreateRemoteTarget
 ---
 
 # IWDFDevice2::CreateRemoteTarget
@@ -128,3 +128,4 @@ For code examples that use <b>CreateRemoteTarget</b>, see the code examples at <
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>
+

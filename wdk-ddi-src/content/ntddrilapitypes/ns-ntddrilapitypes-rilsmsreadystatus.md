@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSMSREADYSTATUS
+ - LPRILSMSREADYSTATUS
 ---
 
 # RILSMSREADYSTATUS structure (ntddrilapitypes.h)

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _IO_BLOCK
+ - PIO_BLOCK
  - IO_BLOCK
 ---
 
@@ -68,3 +70,4 @@ Pointer to a data buffer with a length of <b>uLength</b>.
 ### -field uIndex
 
 Used as the <b>Index</b> field of a USB Device Request.
+

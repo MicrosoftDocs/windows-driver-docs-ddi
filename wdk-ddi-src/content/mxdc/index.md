@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - mxdc
  - mxdc/mxdc
+api_name:
+ - mxdc
 ---
 
 # Mxdc.h header

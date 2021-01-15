@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _KSCAMERA_PROFILE_PININFO
+ - PKSCAMERA_PROFILE_PININFO
  - KSCAMERA_PROFILE_PININFO
 ---
 

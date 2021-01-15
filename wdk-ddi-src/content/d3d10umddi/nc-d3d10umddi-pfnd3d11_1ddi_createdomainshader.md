@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateDomainShader(D3D11_1)
+ - PFND3D11_1DDI_CREATEDOMAINSHADER
 ---
 
 # PFND3D11_1DDI_CREATEDOMAINSHADER callback function
@@ -84,3 +84,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_tessellation_io_signatures">D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES</a>
+

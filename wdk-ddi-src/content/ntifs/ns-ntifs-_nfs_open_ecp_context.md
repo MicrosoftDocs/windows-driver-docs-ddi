@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _NFS_OPEN_ECP_CONTEXT
+ - PNFS_OPEN_ECP_CONTEXT
  - NFS_OPEN_ECP_CONTEXT
 ---
 
 # _NFS_OPEN_ECP_CONTEXT structure
+
 
 ## -description
 
@@ -71,3 +74,4 @@ The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve i
 [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+

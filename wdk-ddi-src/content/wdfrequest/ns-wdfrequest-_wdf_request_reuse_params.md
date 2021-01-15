@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_REUSE_PARAMS
+ - PWDF_REQUEST_REUSE_PARAMS
  - WDF_REQUEST_REUSE_PARAMS
 ---
 
@@ -100,3 +102,4 @@ You can set a <b>NewIrp</b> value only if the I/O request that you supply to <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>
+

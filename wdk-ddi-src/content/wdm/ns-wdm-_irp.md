@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IRP
  - IRP
 ---
 
@@ -312,3 +313,4 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetnextirpstacklocation">IoSetNextIrpStackLocation</a>
+

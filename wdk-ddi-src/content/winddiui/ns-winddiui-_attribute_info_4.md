@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _ATTRIBUTE_INFO_4
+ - PATTRIBUTE_INFO_4
  - ATTRIBUTE_INFO_4
 ---
 
@@ -355,3 +357,4 @@ This structure is available in Windows Vista.
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex">GetJobAttributesEx</a>
+

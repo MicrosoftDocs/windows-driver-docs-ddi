@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ - PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
  - NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 ---
 
@@ -281,3 +283,4 @@ To set and get the IPsec information, use the
 
 
 <a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+

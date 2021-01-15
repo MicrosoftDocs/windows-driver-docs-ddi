@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Clear
+ - PFND3DDDI_CLEAR
 ---
 
 # PFND3DDDI_CLEAR callback function
@@ -109,3 +109,4 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> > 0) and D3DC
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

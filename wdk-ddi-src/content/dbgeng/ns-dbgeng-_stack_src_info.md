@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
+ - _STACK_SRC_INFO
+ - PSTACK_SRC_INFO
  - STACK_SRC_INFO
 ---
 

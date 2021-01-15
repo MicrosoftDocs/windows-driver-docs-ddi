@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_CROSSBAR_PININFO_S
  - KSPROPERTY_CROSSBAR_PININFO_S
 ---
 
@@ -138,3 +139,4 @@ All index values are zero-based, and input pins are counted separately from outp
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-crossbar">PROPSETID_VIDCAP_CROSSBAR</a>
+

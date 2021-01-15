@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _BDCB_STATUS_UPDATE_TYPE
+ - PBDCB_STATUS_UPDATE_TYPE
  - BDCB_STATUS_UPDATE_TYPE
 ---
 
@@ -77,3 +79,4 @@ Windows will start loading driver dependencies next.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+

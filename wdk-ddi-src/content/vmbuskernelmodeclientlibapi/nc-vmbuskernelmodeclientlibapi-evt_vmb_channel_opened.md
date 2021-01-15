@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_OPENED
+ - EVT_VMB_CHANNEL_OPENED
 ---
 
 # EVT_VMB_CHANNEL_OPENED callback function
@@ -86,3 +86,4 @@ rolls back to a state where no traffic flows.
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelenable">VmbChannelEnable</a>
+

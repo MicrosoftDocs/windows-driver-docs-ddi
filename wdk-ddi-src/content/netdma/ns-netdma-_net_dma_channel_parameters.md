@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_CHANNEL_PARAMETERS
+ - PNET_DMA_CHANNEL_PARAMETERS
  - NET_DMA_CHANNEL_PARAMETERS
 ---
 
@@ -216,3 +218,4 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
+

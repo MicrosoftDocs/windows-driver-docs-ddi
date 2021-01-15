@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnCreatePagingQueueCb
+ - PFND3DDDI_CREATEPAGINGQUEUECB
 product:
  - Windows
 ---
@@ -68,3 +68,4 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 ## -remarks
 
 A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroypagingqueuecb">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
+

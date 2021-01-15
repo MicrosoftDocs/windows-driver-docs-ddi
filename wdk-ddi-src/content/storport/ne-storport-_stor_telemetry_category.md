@@ -32,6 +32,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_TELEMETRY_CATEGORY
+ - PSTOR_TELEMETRY_CATEGORY
  - STOR_TELEMETRY_CATEGORY
 product:
  - Windows

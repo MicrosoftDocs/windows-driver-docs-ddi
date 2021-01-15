@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_STRING
+ - PBDA_STRING
  - BDA_STRING
 ---
 

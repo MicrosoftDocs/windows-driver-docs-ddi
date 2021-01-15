@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols.AddSymbolOptions
- - IDebugSymbols2.AddSymbolOptions
- - IDebugSymbols3.AddSymbolOptions
+ - IDebugSymbols2::AddSymbolOptions
 ---
 
 # IDebugSymbols2::AddSymbolOptions
@@ -108,3 +106,4 @@ For more information about symbols, see <a href="/windows-hardware/drivers/debug
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymboloptions">SetSymbolOptions</a>
+

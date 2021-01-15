@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILGETCALLBARRINGSTATUSPARAMS
+ - LPRILGETCALLBARRINGSTATUSPARAMS
 ---
 
 # RILGETCALLBARRINGSTATUSPARAMS structure (ntddrilapitypes.h)

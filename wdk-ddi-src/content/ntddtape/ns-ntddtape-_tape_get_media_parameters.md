@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_GET_MEDIA_PARAMETERS
+ - PTAPE_GET_MEDIA_PARAMETERS
  - TAPE_GET_MEDIA_PARAMETERS
 ---
 
@@ -76,3 +78,4 @@ Is set to <b>TRUE</b> if the tape is write-protected.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaParameters</a>
+

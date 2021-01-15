@@ -12,6 +12,8 @@ tech.root: debugger
 f1_keywords:
  - extsfns
  - extsfns/extsfns
+api_name:
+ - extsfns
 ---
 
 # Extsfns.h header

@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _DXVAHDDDI_FEATURE_CAPS
+ - DXVAHDDDI_FEATURE_CAPS
 product:
  - Windows
 dev_langs:

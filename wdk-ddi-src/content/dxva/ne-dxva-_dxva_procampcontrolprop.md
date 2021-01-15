@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ProcAmpControlProp
  - DXVA_ProcAmpControlProp
 ---
 
@@ -78,3 +79,4 @@ Specifies that the ProcAmp saturation property is used.
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolqueryrange">DXVA_ProcAmpControlQueryRange</a>
+

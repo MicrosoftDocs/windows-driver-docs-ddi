@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.ConfigureRequestDispatching
+ - IWDFIoQueue::ConfigureRequestDispatching
 ---
 
 # IWDFIoQueue::ConfigureRequestDispatching
@@ -86,7 +86,6 @@ The following code example shows how to configure forwarding for IOCTL requests.
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a>
@@ -94,3 +93,4 @@ The following code example shows how to configure forwarding for IOCTL requests.
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>
+

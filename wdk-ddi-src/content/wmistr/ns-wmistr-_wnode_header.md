@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - _WNODE_HEADER
+ - PWNODE_HEADER
  - WNODE_HEADER
 ---
 
@@ -321,3 +323,4 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="/windows-hardware/drivers/kern
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_too_small">WNODE_TOO_SMALL</a>
+

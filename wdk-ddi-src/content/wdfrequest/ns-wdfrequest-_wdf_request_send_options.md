@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_SEND_OPTIONS
+ - PWDF_REQUEST_SEND_OPTIONS
  - WDF_REQUEST_SEND_OPTIONS
 ---
 
@@ -108,3 +110,4 @@ If the driver is sending the request synchronously, we recommend that the driver
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
+

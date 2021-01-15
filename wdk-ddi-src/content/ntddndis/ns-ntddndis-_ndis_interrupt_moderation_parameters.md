@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_INTERRUPT_MODERATION_PARAMETERS
+ - PNDIS_INTERRUPT_MODERATION_PARAMETERS
  - NDIS_INTERRUPT_MODERATION_PARAMETERS
 ---
 
@@ -143,3 +145,4 @@ The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters 
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a>
+

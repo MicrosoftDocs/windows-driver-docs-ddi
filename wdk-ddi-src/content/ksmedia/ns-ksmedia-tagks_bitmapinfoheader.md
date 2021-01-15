@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_BITMAPINFOHEADER
+ - PKS_BITMAPINFOHEADER
  - KS_BITMAPINFOHEADER
 ---
 

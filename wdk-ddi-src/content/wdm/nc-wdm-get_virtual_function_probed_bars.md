@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetVirtualFunctionProbedBars
+ - GET_VIRTUAL_FUNCTION_PROBED_BARS
 ---
 
 # GET_VIRTUAL_FUNCTION_PROBED_BARS callback
@@ -169,3 +169,4 @@ address space for each BAR after the physical device has started. At that point,
 
 
 <b></b>
+

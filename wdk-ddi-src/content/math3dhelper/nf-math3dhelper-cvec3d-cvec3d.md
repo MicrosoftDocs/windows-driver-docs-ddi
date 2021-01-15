@@ -35,7 +35,7 @@ api_type:
 api_location:
  - math3dhelper.h
 api_name:
- - CVEC3D.CVEC3D
+ - CVEC3D::CVEC3D
 product:
  - Windows
 ---

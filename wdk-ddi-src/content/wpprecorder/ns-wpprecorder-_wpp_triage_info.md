@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
+ - _WPP_TRIAGE_INFO
+ - PWPP_TRIAGE_INFO
  - WPP_TRIAGE_INFO
 ---
 

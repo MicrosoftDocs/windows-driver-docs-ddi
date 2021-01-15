@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_UNREGISTER_DEVICE
+ - PPEP_UNREGISTER_DEVICE
  - PEP_UNREGISTER_DEVICE
 ---
 
@@ -68,3 +70,4 @@ This structure is used by the <a href="/windows-hardware/drivers/kernel/using-pe
 
 
 <a href="/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a>
+

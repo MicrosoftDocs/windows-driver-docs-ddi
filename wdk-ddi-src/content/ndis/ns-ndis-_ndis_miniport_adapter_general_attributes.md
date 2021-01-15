@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
 ---
 
@@ -576,3 +578,4 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 <a href="/windows-hardware/drivers/network/oid-pnp-capabilities">OID_PNP_CAPABILITIES</a>
+

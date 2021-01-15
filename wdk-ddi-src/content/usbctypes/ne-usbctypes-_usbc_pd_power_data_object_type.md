@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_PD_POWER_DATA_OBJECT_TYPE
+ - USBC_PD_POWER_DATA_OBJECT_TYPE
 ---
 
 # _USBC_PD_POWER_DATA_OBJECT_TYPE enumeration

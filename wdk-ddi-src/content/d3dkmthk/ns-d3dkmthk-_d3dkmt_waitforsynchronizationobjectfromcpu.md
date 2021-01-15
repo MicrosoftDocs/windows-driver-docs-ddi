@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
  - D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
@@ -89,3 +90,4 @@ TRUE|The wait condition is considered to be satisfied when any of the input sync
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu">D3DKMTWaitForSynchronizationObjectFromCpu</a>
+

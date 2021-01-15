@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthsdpddi.h
 api_name:
+ - _BTHDDI_SDP_NODE_INTERFACE
+ - PBTHDDI_SDP_NODE_INTERFACE
  - BTHDDI_SDP_NODE_INTERFACE
 ---
 
@@ -285,3 +287,4 @@ All the members of this structure, other than the
 
 
 <a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a>
+

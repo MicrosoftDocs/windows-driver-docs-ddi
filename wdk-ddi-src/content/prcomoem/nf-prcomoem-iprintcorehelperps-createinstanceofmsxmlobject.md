@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
+ - IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
 ---
 
 # IPrintCoreHelperPS::CreateInstanceOfMSXMLObject

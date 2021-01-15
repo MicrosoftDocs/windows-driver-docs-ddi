@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE_
  - FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE
 ---
 
@@ -97,3 +98,4 @@ The maximum value for this enumeration. This value might change in future versio
 #### - FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_FLAGS
 
 The inbound MAC frame native flags field.
+

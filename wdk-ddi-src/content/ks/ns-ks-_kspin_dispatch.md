@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSPIN_DISPATCH
+ - PKSPIN_DISPATCH
  - KSPIN_DISPATCH
 ---
 
@@ -114,3 +116,4 @@ If the minidriver needs to determine whether it has been signaled to go to a spe
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
+

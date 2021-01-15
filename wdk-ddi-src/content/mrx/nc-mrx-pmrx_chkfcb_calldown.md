@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxAreFilesAliased
+ - PMRX_CHKFCB_CALLDOWN
 ---
 
 # PMRX_CHKFCB_CALLDOWN callback function
@@ -162,3 +162,4 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 <a href="/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a>
+

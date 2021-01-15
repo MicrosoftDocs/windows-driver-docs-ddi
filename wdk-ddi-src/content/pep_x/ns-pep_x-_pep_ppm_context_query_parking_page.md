@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
+ - PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE
  - PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 ---
 
@@ -68,3 +70,4 @@ The output buffer for a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_p
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_context_query_parking_page">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a>
+

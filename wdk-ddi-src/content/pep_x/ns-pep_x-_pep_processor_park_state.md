@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PROCESSOR_PARK_STATE
+ - PPEP_PROCESSOR_PARK_STATE
  - PEP_PROCESSOR_PARK_STATE
 ---
 
@@ -72,3 +74,4 @@ This member is reserved and should be set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_mask">PEP_PPM_PARK_MASK</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CM_PARTIAL_RESOURCE_DESCRIPTOR
+ - PCM_PARTIAL_RESOURCE_DESCRIPTOR
  - CM_PARTIAL_RESOURCE_DESCRIPTOR
 ---
 
@@ -1095,3 +1097,4 @@ There can only be *1* **DeviceSpecificData** block. It must be located at the en
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource">RtlCmEncodeMemIoResource</a>
+

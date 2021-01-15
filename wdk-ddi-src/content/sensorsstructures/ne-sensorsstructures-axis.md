@@ -30,6 +30,7 @@ api_type:
 api_location:
  - sensorsstructures.h
 api_name:
+ - PAXIS
  - AXIS
 product:
  - Windows

@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_NETWORK_BLACKLIST
+ - PNDIS_WWAN_NETWORK_BLACKLIST
+ - NDIS_WWAN_NETWORK_BLACKLIST
 product:
  - Windows
 ---
@@ -95,3 +97,4 @@ This structure is used in the [NDIS_STATUS_WWAN_NETWORK_BLACKLIST](/windows-hard
 [NDIS_STATUS_WWAN_NETWORK_BLACKLIST](/windows-hardware/drivers/network/ndis-status-wwan-network-blacklist)
 
 [**WWAN_NETWORK_BLACKLIST_INFO**](../wwan/ns-wwan-_wwan_network_blacklist_info.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_QUERYSEGMENTOUT4
  - DXGK_QUERYSEGMENTOUT4
 ---
 
@@ -78,3 +79,4 @@ Size of the elements in the <b>pSegmentDescriptor</b> array in bytes.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentin4">DXGK_QUERYSEGMENTIN4</a>
+

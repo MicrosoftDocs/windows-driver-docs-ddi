@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallbackHardware2.OnReleaseHardware
+ - IPnpCallbackHardware2::OnReleaseHardware
 ---
 
 # IPnpCallbackHardware2::OnReleaseHardware
@@ -91,3 +91,4 @@ See example code in <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iw
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a>
+

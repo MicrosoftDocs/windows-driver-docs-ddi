@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_HYPERVISOR_INFO
+ - PNDIS_HYPERVISOR_INFO
  - NDIS_HYPERVISOR_INFO
 ---
 
@@ -113,3 +115,4 @@ NDIS drivers pass this structure to the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgethypervisorinfo">NdisGetHypervisorInfo Function</a>
+

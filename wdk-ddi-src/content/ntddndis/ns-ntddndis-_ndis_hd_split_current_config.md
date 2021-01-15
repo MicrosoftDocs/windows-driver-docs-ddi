@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_HD_SPLIT_CURRENT_CONFIG
+ - PNDIS_HD_SPLIT_CURRENT_CONFIG
  - NDIS_HD_SPLIT_CURRENT_CONFIG
 ---
 
@@ -195,3 +197,4 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
+

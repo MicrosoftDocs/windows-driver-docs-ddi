@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_CAPABILITIES
+ - PDEVICE_CAPABILITIES
  - DEVICE_CAPABILITIES
 ---
 
@@ -283,3 +285,4 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 
 [PNP_DEVICE_STATE](/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
+

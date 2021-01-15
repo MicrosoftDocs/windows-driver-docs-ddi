@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_NETWORK_OPEN_INFORMATION
+ - PFILE_NETWORK_OPEN_INFORMATION
  - FILE_NETWORK_OPEN_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice3.ReadFromHardware
+ - IWDFDevice3::ReadFromHardware
 ---
 
 # IWDFDevice3::ReadFromHardware
@@ -74,3 +74,4 @@ The <b>ReadFromHardware</b> method is used internally by the framework. Do not u
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
+

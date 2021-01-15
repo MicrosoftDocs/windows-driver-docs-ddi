@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
  - D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
 ---
 

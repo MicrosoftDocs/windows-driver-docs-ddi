@@ -31,6 +31,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_SCHEDULING_PRIORITY_BAND
+ - DXGK_SCHEDULING_PRIORITY_BAND
 dev_langs:
  - c++
 ---

@@ -40,6 +40,7 @@ api_location:
  - Spbcx.h
 api_name:
  - SPB_TRANSFER_DESCRIPTOR
+ - PSPB_TRANSFER_DESCRIPTOR
 ---
 
 # SPB_TRANSFER_DESCRIPTOR structure
@@ -89,3 +90,4 @@ The <b>DelayInUs</b> member specifies a delay before the start of the transfer. 
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters">SpbRequestGetTransferParameters</a>
+

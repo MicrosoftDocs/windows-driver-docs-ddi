@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
+ - PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
  - KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 ---
 
@@ -72,3 +74,4 @@ Reserved. Set to 0.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview">KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW</a>
+

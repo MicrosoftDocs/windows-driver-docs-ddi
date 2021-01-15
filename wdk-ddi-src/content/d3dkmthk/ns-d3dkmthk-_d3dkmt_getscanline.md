@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETSCANLINE
  - D3DKMT_GETSCANLINE
 ---
 
@@ -74,3 +75,4 @@ A video present path represents a connection between a video present source (vie
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetscanline">D3DKMTGetScanLine</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.SetPipePolicy
+ - IWDFUsbTargetPipe::SetPipePolicy
 ---
 
 # IWDFUsbTargetPipe::SetPipePolicy
@@ -178,7 +178,6 @@ CMyDevice::ConfigureUsbIoTargets(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
@@ -190,3 +189,4 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a>
+

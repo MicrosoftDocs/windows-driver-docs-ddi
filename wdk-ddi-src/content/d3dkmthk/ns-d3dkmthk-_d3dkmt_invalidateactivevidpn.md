@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_INVALIDATEACTIVEVIDPN
  - D3DKMT_INVALIDATEACTIVEVIDPN
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_INVALIDATEACTIVEVIDPN structure describes parameters that invalidate 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtinvalidateactivevidpn">D3DKMTInvalidateActiveVidPn</a>
+

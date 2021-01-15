@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolTcpOffloadDisconnectComplete
+ - TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER
 ---
 
 # TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER callback function
@@ -133,3 +133,4 @@ Note that, if an intermediate driver exports more than one interface to overlyin
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_disconnect_complete">
    NdisTcpOffloadDisconnectComplete</a>
+

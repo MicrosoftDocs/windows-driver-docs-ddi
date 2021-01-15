@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEOLIGHTING
  - DXVADDI_VIDEOLIGHTING
 ---
 
@@ -84,3 +85,4 @@ The video lighting values can be used to alter the gamma to generate a comparabl
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
+

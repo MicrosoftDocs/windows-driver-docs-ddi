@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_PROVISIONED_CONTEXTS
+ - PNDIS_WWAN_PROVISIONED_CONTEXTS
  - NDIS_WWAN_PROVISIONED_CONTEXTS
 ---
 
@@ -260,3 +262,4 @@ Miniport drivers should specify zero elements in the context list when they resp
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+

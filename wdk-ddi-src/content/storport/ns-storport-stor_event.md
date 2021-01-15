@@ -34,12 +34,15 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_EVENT
+ - PSTOR_EVENT
  - STOR_EVENT
 product:
  - Windows
 ---
 
 # STOR_EVENT structure
+
 
 ## -description
 
@@ -65,3 +68,4 @@ Callers of [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
+

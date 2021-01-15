@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTalTxRxPeerDeleteConfirm
+ - MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM
 ---
 
 # MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM callback function
@@ -104,3 +104,4 @@ Peer ID for the peer.
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

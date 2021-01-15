@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _EXT_SET_PARAMETERS_V0
+ - PEXT_SET_PARAMETERS
  - EXT_SET_PARAMETERS
 ---
 
@@ -80,3 +82,4 @@ The <b>ExInitializeSetTimerParameters</b> routine sets the <b>NoWakeTolerance</b
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>
+

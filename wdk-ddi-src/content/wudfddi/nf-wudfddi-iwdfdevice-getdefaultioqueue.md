@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.GetDefaultIoQueue
+ - IWDFDevice::GetDefaultIoQueue
 ---
 
 # IWDFDevice::GetDefaultIoQueue
@@ -67,3 +67,4 @@ For more information about queue objects, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a>
+

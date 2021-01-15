@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _IPSEC_OFFLOAD_V2_ADD_SA
+ - PIPSEC_OFFLOAD_V2_ADD_SA
  - IPSEC_OFFLOAD_V2_ADD_SA
 ---
 
@@ -335,3 +337,4 @@ If a member is set to zero, that parameter is not used to filter packets for the
 
 <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
+

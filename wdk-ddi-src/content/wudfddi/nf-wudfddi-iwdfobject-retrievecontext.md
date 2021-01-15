@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFObject.RetrieveContext
+ - IWDFObject::RetrieveContext
 ---
 
 # IWDFObject::RetrieveContext
@@ -82,3 +82,4 @@ For a code example of how to use the <b>RetrieveContext</b> method, see <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-assigncontext">IWDFObject::AssignContext</a>
+

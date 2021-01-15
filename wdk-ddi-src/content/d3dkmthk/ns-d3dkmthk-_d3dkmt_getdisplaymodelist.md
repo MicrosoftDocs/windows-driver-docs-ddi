@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETDISPLAYMODELIST
  - D3DKMT_GETDISPLAYMODELIST
 ---
 
@@ -74,3 +75,4 @@ The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDS3D_ITD_PARAMS_MSG
  - KSDS3D_ITD_PARAMS_MSG
 ---
 
@@ -84,3 +85,4 @@ The <i>Enabled</i> parameter should track the DirectSound buffer's 3D mode: Disa
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a>
+

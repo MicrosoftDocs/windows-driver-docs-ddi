@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_DESCRIBEALLOCATION
  - DXGKARG_DESCRIBEALLOCATION
 ---
 
@@ -124,3 +125,4 @@ Supported starting with Windows 8.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_describeallocation">DxgkDdiDescribeAllocation</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KINTERRUPT_POLARITY
+ - PKINTERRUPT_POLARITY
  - KINTERRUPT_POLARITY
 ---
 
@@ -92,3 +94,4 @@ A <b>KINTERRUPT_POLARITY</b> enumeration constant is frequently used in conjunct
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
+

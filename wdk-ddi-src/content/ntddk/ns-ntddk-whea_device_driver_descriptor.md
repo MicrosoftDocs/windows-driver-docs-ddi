@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_DEVICE_DRIVER_DESCRIPTOR
+ - PWHEA_DEVICE_DRIVER_DESCRIPTOR
  - WHEA_DEVICE_DRIVER_DESCRIPTOR
 product:
  - Windows

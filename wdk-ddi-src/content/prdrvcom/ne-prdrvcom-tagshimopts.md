@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Prdrvcom.h
 api_name:
+ - tagSHIMOPTS
+ - PSHIMOPTS
  - SHIMOPTS
 ---
 

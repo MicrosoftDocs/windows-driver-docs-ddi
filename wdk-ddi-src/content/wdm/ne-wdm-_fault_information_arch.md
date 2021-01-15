@@ -32,6 +32,8 @@ api_location:
  - wdm.h
 api_name:
  - _FAULT_INFORMATION_ARCH
+ - PFAULT_INFORMATION_ARCH
+ - FAULT_INFORMATION_ARCH
 ---
 
 # _FAULT_INFORMATION_ARCH enumeration

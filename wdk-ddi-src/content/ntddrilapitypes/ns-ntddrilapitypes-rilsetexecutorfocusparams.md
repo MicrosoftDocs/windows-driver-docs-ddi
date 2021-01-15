@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETEXECUTORFOCUSPARAMS
+ - LPRILSETEXECUTORFOCUSPARAMS
 ---
 
 # RILSETEXECUTORFOCUSPARAMS structure (ntddrilapitypes.h)

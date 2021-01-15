@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CsSetConstantBuffers
+ - PFND3D10DDI_SETCONSTANTBUFFERS
 ---
 
 # PFND3D10DDI_SETCONSTANTBUFFERS callback function
@@ -96,3 +96,4 @@ The <b>DsSetConstantBuffers</b> function sets constant buffers for a domain shad
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

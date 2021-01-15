@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_UNMASKED_INTERRUPT_FLAGS
+ - PPEP_UNMASKED_INTERRUPT_FLAGS
  - PEP_UNMASKED_INTERRUPT_FLAGS
 ---
 
@@ -95,3 +97,4 @@ The <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-p
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+

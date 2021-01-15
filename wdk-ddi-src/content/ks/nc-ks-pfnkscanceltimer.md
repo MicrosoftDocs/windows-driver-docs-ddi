@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrCancelTimer
+ - PFNKSCANCELTIMER
 ---
 
 # PFNKSCANCELTIMER callback function
@@ -82,3 +82,4 @@ If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidri
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
+

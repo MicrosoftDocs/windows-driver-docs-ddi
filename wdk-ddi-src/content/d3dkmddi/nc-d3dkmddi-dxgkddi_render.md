@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiRender
+ - DXGKDDI_RENDER
 product:
  - Windows
 ---

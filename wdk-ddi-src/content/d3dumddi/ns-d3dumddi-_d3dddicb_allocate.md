@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_ALLOCATE
  - D3DDDICB_ALLOCATE
 ---
 
@@ -122,3 +123,4 @@ This member is available beginning with Windows 7.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
+

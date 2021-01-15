@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDRVNOTIFICATION
+ - LPRILDRVNOTIFICATION
 ---
 
 # RILDRVNOTIFICATION structure (ntddrilapitypes.h)

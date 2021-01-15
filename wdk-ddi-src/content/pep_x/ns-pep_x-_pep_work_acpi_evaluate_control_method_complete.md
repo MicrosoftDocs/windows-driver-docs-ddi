@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
+ - PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
  - PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
 ---
 
@@ -96,3 +98,4 @@ A <b>PEP_WORK_INFORMATION</b> structure is included in the input parameters to t
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

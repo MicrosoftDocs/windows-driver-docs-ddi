@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_PRESENT
  - D3DKMT_PRESENT
 ---
 
@@ -205,3 +206,4 @@ Indicates whether the device is optimized for composition.
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

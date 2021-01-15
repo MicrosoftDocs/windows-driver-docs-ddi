@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
  - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 ---
 
@@ -204,3 +205,4 @@ Specifies a handle to the resource.
 ### -field ChannelMask
 
 Specifies a set of isochronous channels, if RESOURCE_USE_MULTICHANNEL is set, that are used for all transactions involving the resource handle allocated by this request.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
+ - PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
  - USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
 ---
 
@@ -90,3 +92,4 @@ The registration handle received in this request is valid until the caller sends
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
+

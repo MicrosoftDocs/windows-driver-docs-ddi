@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COMPONENT_PERF_STATE_REQUEST
+ - PPEP_COMPONENT_PERF_STATE_REQUEST
  - PEP_COMPONENT_PERF_STATE_REQUEST
 ---
 
@@ -99,3 +101,4 @@ The <b>PerfRequests</b> member of the <a href="/windows-hardware/drivers/ddi/pep
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_request_component_perf_state">PEP_REQUEST_COMPONENT_PERF_STATE</a>
+

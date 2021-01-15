@@ -36,9 +36,12 @@ api_location:
  - wiadef.h
 api_name:
  - _WIA_RAW_HEADER
+ - PWIA_RAW_HEADER
+ - WIA_RAW_HEADER
 ---
 
 # _WIA_RAW_HEADER structure
+
 
 ## -description
 
@@ -85,3 +88,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

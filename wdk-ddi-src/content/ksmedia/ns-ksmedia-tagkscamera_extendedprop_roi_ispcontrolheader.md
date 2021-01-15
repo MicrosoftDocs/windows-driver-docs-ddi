@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+ - PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
  - KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
 ---
 
@@ -64,3 +66,4 @@ The number of ISP controls. If this value is 0, the ROI control will remove all 
 ### -field Reserved
 
 Reserved for future use.
+

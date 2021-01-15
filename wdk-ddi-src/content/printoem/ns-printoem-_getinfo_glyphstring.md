@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _GETINFO_GLYPHSTRING
+ - PGETINFO_GLYPHSTRING
  - GETINFO_GLYPHSTRING
 ---
 
@@ -178,3 +180,4 @@ The values that a rendering plug-in specifies for the <b>dwTypeIn </b>and <b>pGl
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

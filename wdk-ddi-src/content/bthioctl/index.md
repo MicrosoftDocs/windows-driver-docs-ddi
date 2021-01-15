@@ -12,6 +12,8 @@ tech.root: bltooth
 f1_keywords:
  - bthioctl
  - bthioctl/bthioctl
+api_name:
+ - bthioctl
 ---
 
 # Bthioctl.h header

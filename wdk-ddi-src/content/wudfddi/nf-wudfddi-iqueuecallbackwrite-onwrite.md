@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IQueueCallbackWrite.OnWrite
+ - IQueueCallbackWrite::OnWrite
 ---
 
 # IQueueCallbackWrite::OnWrite
@@ -95,3 +95,4 @@ The driver can call the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfdd
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>
+

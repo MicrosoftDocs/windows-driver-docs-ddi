@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
+ - _USBC_FUNCTION_DESCRIPTOR
+ - PUSBC_FUNCTION_DESCRIPTOR
  - USBC_FUNCTION_DESCRIPTOR
 ---
 
@@ -96,3 +98,4 @@ For information on how to use user-defined callback routines to provide a custom
 
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>
+

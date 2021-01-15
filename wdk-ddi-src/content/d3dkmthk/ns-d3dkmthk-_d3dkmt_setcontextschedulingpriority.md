@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
  - D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure describes parameters for setti
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetcontextschedulingpriority">D3DKMTSetContextSchedulingPriority</a>
+

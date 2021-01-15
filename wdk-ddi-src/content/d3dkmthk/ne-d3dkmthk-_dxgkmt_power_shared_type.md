@@ -30,6 +30,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _DXGKMT_POWER_SHARED_TYPE
+ - DXGKMT_POWER_SHARED_TYPE
 product:
  - Windows
 ---

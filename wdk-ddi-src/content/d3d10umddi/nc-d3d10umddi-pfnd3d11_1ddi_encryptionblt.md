@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - EncryptionBlt
+ - PFND3D11_1DDI_ENCRYPTIONBLT
 product:
  - Windows
 ---
@@ -136,3 +136,4 @@ For other encryption types, a different structure might be used, or the encrypti
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
+

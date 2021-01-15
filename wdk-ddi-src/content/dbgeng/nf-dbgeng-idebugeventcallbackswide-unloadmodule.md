@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugEventCallbacksWide.UnloadModule
+ - IDebugEventCallbacksWide::UnloadModule
 ---
 
 # IDebugEventCallbacksWide::UnloadModule
@@ -70,3 +70,4 @@ This method is only called by the engine if the DEBUG_EVENT_UNLOAD_MODULE flag i
 After calling this method, the engine will call <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbackswide-changesymbolstate">IDebugEventCallbacksWide::ChangeSymbolState</a>, with the <i>Flags</i> parameter containing the bit flag DEBUG_CSS_UNLOADS.
 
 For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

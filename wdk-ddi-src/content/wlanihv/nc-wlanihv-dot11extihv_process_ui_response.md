@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvProcessUIResponse
+ - DOT11EXTIHV_PROCESS_UI_RESPONSE
 ---
 
 # DOT11EXTIHV_PROCESS_UI_RESPONSE callback
@@ -122,3 +122,4 @@ After receiving this data from the IHV Extensions DLL, the operating system call
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+

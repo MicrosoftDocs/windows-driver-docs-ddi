@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_PIPE_INFORMATION
+ - PUSBFN_PIPE_INFORMATION
  - USBFN_PIPE_INFORMATION
 ---
 
@@ -64,3 +66,4 @@ The pipe identifier (ID).
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>
+

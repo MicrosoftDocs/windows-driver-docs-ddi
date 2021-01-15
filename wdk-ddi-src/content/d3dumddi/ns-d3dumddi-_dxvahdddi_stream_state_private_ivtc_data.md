@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
  - DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 ---
 
@@ -111,3 +112,4 @@ The application continues to query the statistics to determine if the frames are
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_data">DXVAHDDDI_STREAM_DATA</a>
+

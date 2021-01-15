@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_AUTH_AKA_CHALLENGE
+ - PWWAN_AUTH_AKA_CHALLENGE
  - WWAN_AUTH_AKA_CHALLENGE
 ---
 
@@ -78,3 +80,4 @@ The <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WW
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a>
+

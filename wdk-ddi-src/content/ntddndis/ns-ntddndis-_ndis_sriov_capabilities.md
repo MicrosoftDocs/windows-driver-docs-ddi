@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_CAPABILITIES
+ - PNDIS_SRIOV_CAPABILITIES
  - NDIS_SRIOV_CAPABILITIES
 ---
 
@@ -161,3 +163,4 @@ For more information on how to report the SR-IOV capabilities of a network adapt
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-hardware-capabilities">OID_SRIOV_HARDWARE_CAPABILITIES</a>
+

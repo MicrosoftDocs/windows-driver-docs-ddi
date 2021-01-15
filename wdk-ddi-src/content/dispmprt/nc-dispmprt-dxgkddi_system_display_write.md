@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiSystemDisplayWrite
+ - DXGKDDI_SYSTEM_DISPLAY_WRITE
 ---
 
 # DXGKDDI_SYSTEM_DISPLAY_WRITE callback function
@@ -127,3 +127,4 @@ Windows kernel-mode functions might not be available while this function is bein
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable">DxgkDdiSystemDisplayEnable</a>
+

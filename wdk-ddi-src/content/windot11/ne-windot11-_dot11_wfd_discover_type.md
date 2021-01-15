@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_DISCOVER_TYPE
+ - PDOT11_WFD_DISCOVER_TYPE
  - DOT11_WFD_DISCOVER_TYPE
 product:
  - Windows 10 or later.
@@ -98,3 +100,4 @@ The <b>dot11_wfd_discover_type_forced</b> flag may be set along with only one of
 
 
 <a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
+

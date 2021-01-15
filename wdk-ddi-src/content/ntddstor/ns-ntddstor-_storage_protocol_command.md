@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_COMMAND
+ - PSTORAGE_PROTOCOL_COMMAND
  - STORAGE_PROTOCOL_COMMAND
 ---
 
@@ -148,3 +150,4 @@ The vendor-specific command that is to be passed-through to the device.
 ## -see-also
 
 [IOCTL_STORAGE_PROTOCOL_COMMAND](./ni-ntddstor-ioctl_storage_protocol_command.md)
+

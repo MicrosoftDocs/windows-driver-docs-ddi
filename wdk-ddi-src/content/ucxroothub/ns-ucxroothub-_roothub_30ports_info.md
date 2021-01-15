@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _ROOTHUB_30PORTS_INFO
+ - PROOTHUB_30PORTS_INFO
  - ROOTHUB_30PORTS_INFO
 ---
 
@@ -72,3 +74,4 @@ A pointer to an array of  <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-u
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_30port_info">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a>
+

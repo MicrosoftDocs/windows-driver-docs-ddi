@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_FC4STATISTICS
+ - PMSFC_FC4STATISTICS
  - MSFC_FC4STATISTICS
 ---
 
@@ -90,3 +92,4 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 
 <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_getfc4statistics_out">GetFC4Statistics_OUT</a>
+

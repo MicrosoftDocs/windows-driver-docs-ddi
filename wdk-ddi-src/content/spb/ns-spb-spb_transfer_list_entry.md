@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SPB_TRANSFER_LIST_ENTRY
+ - PSPB_TRANSFER_LIST_ENTRY
 ---
 
 # SPB_TRANSFER_LIST_ENTRY structure
@@ -91,3 +92,4 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a>
+

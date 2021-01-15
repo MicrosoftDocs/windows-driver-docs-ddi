@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_MAC_ADDRESS
+ - PDOT11_MAC_ADDRESS
  - DOT11_MAC_ADDRESS
 product:
  - Windows 10 or later.
@@ -96,7 +98,6 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 ```
 typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
 ```
-
 
 ## -see-also
 
@@ -209,3 +210,4 @@ typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
 
 <a href="..\windot11\ns-windot11-dot11_roaming_completion_parameters.md">
    DOT11_ROAMING_COMPLETION_PARAMETERS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETVIDPNSOURCEADDRESS
  - DXGKARG_SETVIDPNSOURCEADDRESS
 ---
 
@@ -108,3 +109,4 @@ For display mode-switch operations, the <b>ContextCount</b> member is always set
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a>
+

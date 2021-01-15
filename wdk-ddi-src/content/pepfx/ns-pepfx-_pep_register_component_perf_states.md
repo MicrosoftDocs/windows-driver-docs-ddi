@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_REGISTER_COMPONENT_PERF_STATES
+ - PPEP_REGISTER_COMPONENT_PERF_STATES
  - PEP_REGISTER_COMPONENT_PERF_STATES
 ---
 
@@ -90,3 +92,4 @@ If the <b>PerfStateInfo</b> member is not NULL, the device driver has provided P
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
+

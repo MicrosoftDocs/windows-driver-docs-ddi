@@ -25,6 +25,7 @@ f1_keywords:
  - ucmucsispec/UCSI_USB_OPERATION_ROLE
 api_name:
  - _UCSI_USB_OPERATION_ROLE
+ - UCSI_USB_OPERATION_ROLE
 ---
 
 # _UCSI_USB_OPERATION_ROLE enumeration

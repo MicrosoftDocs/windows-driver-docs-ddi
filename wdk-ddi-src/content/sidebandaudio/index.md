@@ -13,12 +13,16 @@ ms.custom: RS5
 f1_keywords:
  - sidebandaudio
  - sidebandaudio/sidebandaudio
+api_name:
+ - sidebandaudio
 ---
 
 # sidebandaudio.h header
+
 
 ## -description
 
 The sidebandaudio.h header is used by audio. For more information, see:
 
 [Audio](../_audio/index.md)
+

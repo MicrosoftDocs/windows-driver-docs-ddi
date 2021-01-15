@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IQueueCallbackStateChange.OnStateChange
+ - IQueueCallbackStateChange::OnStateChange
 ---
 
 # IQueueCallbackStateChange::OnStateChange
@@ -80,3 +80,4 @@ A driver registers the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_io_queue_state">WDF_IO_QUEUE_STATE</a>
+

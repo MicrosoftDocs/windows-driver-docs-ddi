@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSCOMPONENTID
  - KSCOMPONENTID
 ---
 
@@ -82,3 +83,4 @@ Supply this structure in a <a href="/windows-hardware/drivers/stream/ksproperty-
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a>
+

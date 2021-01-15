@@ -39,10 +39,12 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_BUILDPAGINGBUFFER
  - DXGKARG_BUILDPAGINGBUFFER
 ---
 
 # _DXGKARG_BUILDPAGINGBUFFER structure
+
 
 ## -description
 
@@ -505,3 +507,4 @@ WDDM synchronization class:
 [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray
 
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
+

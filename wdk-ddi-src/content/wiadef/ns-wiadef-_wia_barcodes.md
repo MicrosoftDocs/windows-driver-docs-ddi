@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiadef.h
 api_name:
+ - _WIA_BARCODES
  - WIA_BARCODES
 ---
 
@@ -74,3 +75,4 @@ Placeholder for  a sequence of <b>Count</b> contiguous <a href="/windows-hardwar
 ## -remarks
 
 The header must be followed by a sequence of barcode information structures, one for each decoded barcode, in the order the barcodes were found and decoded.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnRemovePath
+ - DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ The <b>pfnRemovePath</b> function returns one of the following values.
 ## -remarks
 
 The D3DKMDT_HVIDPNTOPOLOGY data type is defined in<i> D3dkmdt.h</i>.
+

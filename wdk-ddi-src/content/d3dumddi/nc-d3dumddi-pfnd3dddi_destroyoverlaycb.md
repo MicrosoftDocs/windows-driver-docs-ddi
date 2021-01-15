@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnDestroyOverlayCb
+ - PFND3DDDI_DESTROYOVERLAYCB
 product:
  - Windows
 ---
@@ -79,3 +79,4 @@ This function might also return other HRESULT values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a>
+

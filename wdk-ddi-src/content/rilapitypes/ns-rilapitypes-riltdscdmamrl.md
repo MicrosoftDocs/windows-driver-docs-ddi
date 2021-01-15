@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILTDSCDMAMRL
+ - LPRILTDSCDMAMRL
 ---
 
 # RILTDSCDMAMRL structure (rilapitypes.h)

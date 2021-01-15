@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtIoInCallerContext
+ - EVT_WDF_IO_IN_CALLER_CONTEXT
 ---
 
 # EVT_WDF_IO_IN_CALLER_CONTEXT callback function
@@ -84,3 +84,4 @@ The <i>EvtIoInCallerContext</i> callback function is called at the IRQL of the c
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a>
+

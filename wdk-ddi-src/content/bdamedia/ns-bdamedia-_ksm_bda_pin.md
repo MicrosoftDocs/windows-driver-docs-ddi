@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - _KSM_BDA_PIN
+ - PKSM_BDA_PIN
  - KSM_BDA_PIN
 ---
 
@@ -72,3 +74,4 @@ Reserved.
 ## -see-also
 
 <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+

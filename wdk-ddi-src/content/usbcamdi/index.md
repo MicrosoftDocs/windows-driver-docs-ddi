@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - usbcamdi
  - usbcamdi/usbcamdi
+api_name:
+ - usbcamdi
 ---
 
 # Usbcamdi.h header

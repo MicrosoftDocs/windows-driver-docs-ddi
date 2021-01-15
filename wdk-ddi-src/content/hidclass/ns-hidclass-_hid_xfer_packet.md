@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidclass.h
 api_name:
+ - _HID_XFER_PACKET
+ - PHID_XFER_PACKET
  - HID_XFER_PACKET
 ---
 
@@ -84,3 +86,4 @@ The HID class driver uses this structure to specify information about a HID repo
 
 
 <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
+

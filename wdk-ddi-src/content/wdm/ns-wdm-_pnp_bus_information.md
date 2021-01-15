@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PNP_BUS_INFORMATION
+ - PPNP_BUS_INFORMATION
  - PNP_BUS_INFORMATION
 ---
 
@@ -62,3 +64,4 @@ The <b>PNP_BUS_INFORMATION</b> structure describes a bus.
 ## -see-also
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-query-bus-information">IRP_MN_QUERY_BUS_INFORMATION</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchPolicyEventNotifyFn
+ - FWPS_VSWITCH_POLICY_EVENT_CALLBACK0
 ---
 
 # FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback function
@@ -201,3 +201,4 @@ If the callout returns STATUS_PENDING from <i>vSwitchPolicyEventNotifyFn</i>, WF
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+

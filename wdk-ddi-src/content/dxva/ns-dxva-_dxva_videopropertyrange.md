@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoPropertyRange
+ - LPDXVA_VideoPropertyRange
  - DXVA_VideoPropertyRange
 ---
 
@@ -72,3 +74,4 @@ Specifies the step size increment for a given property.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+ - PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
  - NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
 ---
 
@@ -106,3 +108,4 @@ For more information about these members, see
 ### -field uStatus
 
 The status of the completion of the write operation.
+

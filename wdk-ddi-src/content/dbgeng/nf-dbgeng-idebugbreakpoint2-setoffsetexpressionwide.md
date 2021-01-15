@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint2.SetOffsetExpressionWide
+ - IDebugBreakpoint2::SetOffsetExpressionWide
 ---
 
 # IDebugBreakpoint2::SetOffsetExpressionWide
@@ -79,3 +79,4 @@ The method was successful.
 ## -remarks
 
 For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+

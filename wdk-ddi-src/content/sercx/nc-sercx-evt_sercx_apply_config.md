@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
- - EvtSerCxApplyConfig
+ - EVT_SERCX_APPLY_CONFIG
 ---
 
 # EVT_SERCX_APPLY_CONFIG callback function
@@ -207,3 +207,4 @@ The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetconnectionparameters">SerCxGetConnectionParameters</a>
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
+

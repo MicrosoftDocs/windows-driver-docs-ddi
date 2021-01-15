@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiPreemptCommand
+ - DXGKDDI_PREEMPTCOMMAND
 product:
  - Windows
 ---
@@ -108,3 +108,4 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>
+

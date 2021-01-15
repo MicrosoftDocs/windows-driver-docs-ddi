@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MyCalldown
+ - PMRX_CALLDOWN
 ---
 
 # PMRX_CALLDOWN callback function
@@ -1081,3 +1081,4 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 <a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
+

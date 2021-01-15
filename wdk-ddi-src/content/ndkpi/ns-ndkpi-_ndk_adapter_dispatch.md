@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_ADAPTER_DISPATCH
  - NDK_ADAPTER_DISPATCH
 ---
 
@@ -130,3 +131,4 @@ The <b>NDK_ADAPTER_DISPATCH</b> structure is used in the <a href="/windows-hardw
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_release_lam">NDK_FN_RELEASE_LAM</a>
+

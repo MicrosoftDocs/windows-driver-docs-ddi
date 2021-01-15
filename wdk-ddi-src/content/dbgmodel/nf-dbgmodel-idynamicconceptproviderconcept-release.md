@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDynamicConceptProviderConcept.Release
+ - IDynamicConceptProviderConcept::Release
 ---
 
 # IDynamicConceptProviderConcept::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDynamicConceptProviderConcept interface](nn-dbgmodel-idynamicconceptproviderconcept.md)
+

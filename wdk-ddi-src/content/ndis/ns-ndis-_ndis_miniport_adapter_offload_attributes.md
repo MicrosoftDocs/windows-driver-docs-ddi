@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES
 ---
 
@@ -123,3 +125,4 @@ A miniport driver that supports task offload or connection offload passes a poin
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

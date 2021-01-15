@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IsVirtualAddress
+ - Location::IsVirtualAddress
 ---
 
 # IsVirtualAddress function
@@ -54,3 +54,4 @@ This function returns bool.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

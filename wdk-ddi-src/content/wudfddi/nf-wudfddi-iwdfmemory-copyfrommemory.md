@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFMemory.CopyFromMemory
+ - IWDFMemory::CopyFromMemory
 ---
 
 # IWDFMemory::CopyFromMemory
@@ -79,3 +79,4 @@ The <b>BufferLength</b> member should be set to 0; the framework ignores this me
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
+

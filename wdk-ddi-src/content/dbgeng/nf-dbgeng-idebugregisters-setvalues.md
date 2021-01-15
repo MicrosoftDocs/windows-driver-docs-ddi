@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugRegisters.SetValues
- - IDebugRegisters2.SetValues
+ - IDebugRegisters::SetValues
 ---
 
 # IDebugRegisters::SetValues
@@ -143,3 +142,4 @@ For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-i
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-setvalues2">SetValues2</a>
+

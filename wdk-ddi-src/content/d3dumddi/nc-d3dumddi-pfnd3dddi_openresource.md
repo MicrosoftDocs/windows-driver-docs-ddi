@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - OpenResource
+ - PFND3DDDI_OPENRESOURCE
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ For more information about creating and destroying resources, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+

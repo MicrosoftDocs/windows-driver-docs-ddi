@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IComparableConcept.Release
+ - IComparableConcept::Release
 ---
 
 # IComparableConcept::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IComparableConcept interface](nn-dbgmodel-icomparableconcept.md)
+

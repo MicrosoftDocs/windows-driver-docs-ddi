@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.GetPropId
+ - CWiauPropertyList::GetPropId
 ---
 
 # CWiauPropertyList::GetPropId

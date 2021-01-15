@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ursdevice.h
 api_name:
- - PFN_URS_SET_ROLE
+ - EVT_URS_SET_ROLE
 ---
 
 # EVT_URS_SET_ROLE callback function
@@ -108,7 +108,7 @@ EvtUrsSetRole (
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
+

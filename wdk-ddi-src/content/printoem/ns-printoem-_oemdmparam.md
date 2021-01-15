@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _OEMDMPARAM
+ - POEMDMPARAM
  - OEMDMPARAM
 ---
 
@@ -102,3 +104,4 @@ On output, contains the method-supplied size of the current version of the priva
 ## -remarks
 
 For more information about the use of OEMDMPARAM structure members, see the description of the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a> method.
+

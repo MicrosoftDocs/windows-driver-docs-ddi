@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _MONITORINIT
+ - PMONITORINIT
  - MONITORINIT
 ---
 
@@ -84,3 +86,4 @@ Caller-supplied pointer to a string representing a server name.
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorreg">MONITORREG</a>
+

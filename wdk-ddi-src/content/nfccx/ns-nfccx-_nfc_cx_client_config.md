@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_CLIENT_CONFIG
+ - PNFC_CX_CLIENT_CONFIG
  - NFC_CX_CLIENT_CONFIG
 ---
 
@@ -96,3 +98,4 @@ Pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_d
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

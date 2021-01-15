@@ -31,12 +31,15 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_EVENT_TYPE
+ - PSTOR_EVENT_TYPE
  - STOR_EVENT_TYPE
 product:
  - Windows
 ---
 
 # STOR_EVENT_TYPE enumeration
+
 
 ## -description
 
@@ -59,3 +62,4 @@ A miniport initializes an event object by calling [**StorPortInitializeEvent**](
 ## -see-also
 
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
+

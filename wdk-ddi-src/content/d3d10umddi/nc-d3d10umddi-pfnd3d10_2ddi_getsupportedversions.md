@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - GetSupportedVersions
+ - PFND3D10_2DDI_GETSUPPORTEDVERSIONS
 product:
  - Windows
 ---
@@ -89,3 +89,4 @@ When the Direct3D runtime calls the driver's <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10_2</a>
+

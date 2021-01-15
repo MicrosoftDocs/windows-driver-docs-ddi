@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtExtension.SetArgStr
+ - ExtExtension::SetArgStr
 ---
 
 # ExtExtension::SetArgStr
@@ -81,3 +81,4 @@ This method should only be called during the execution of an extension command p
 
 
 <a href="/previous-versions/ff543981(v=vs.85)">ExtExtension</a>
+

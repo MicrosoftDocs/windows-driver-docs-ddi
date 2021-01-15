@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - windot11
  - windot11/windot11
+api_name:
+ - windot11
 ---
 
 # Windot11.h header

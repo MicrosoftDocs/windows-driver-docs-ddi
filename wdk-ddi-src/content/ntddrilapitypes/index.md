@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ntddrilapitypes
  - ntddrilapitypes/ntddrilapitypes
+api_name:
+ - ntddrilapitypes
 ---
 
 # Ntddrilapitypes.h header

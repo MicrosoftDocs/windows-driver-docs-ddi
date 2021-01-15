@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
+ - PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
  - DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
 product:
  - Windows 10 or later.
@@ -119,3 +121,4 @@ typedef struct _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG {
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-dot11-wfd-group-owner-capability">OID_DOT11_WFD_GROUP_OWNER_CAPABILITY</a>
+

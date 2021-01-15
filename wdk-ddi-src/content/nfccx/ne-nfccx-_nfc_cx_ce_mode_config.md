@@ -41,7 +41,9 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
- - NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG
+ - _NFC_CX_CE_MODE_CONFIG
+ - PNFC_CX_CE_MODE_CONFIG
+ - NFC_CX_CE_MODE_CONFIG
 ---
 
 # _NFC_CX_CE_MODE_CONFIG enumeration
@@ -76,3 +78,4 @@ Specifies NFC-A, NFC-B, and NFC-F listening mode.
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

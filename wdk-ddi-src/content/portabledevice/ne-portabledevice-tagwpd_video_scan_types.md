@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_VIDEO_SCAN_TYPES
  - WPD_VIDEO_SCAN_TYPES
 ---
 
@@ -131,3 +132,4 @@ Field 2: Line 3
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

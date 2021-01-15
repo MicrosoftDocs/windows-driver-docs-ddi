@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_DRIVE_PROBLEM_TYPE
  - TAPE_DRIVE_PROBLEM_TYPE
 ---
 
@@ -114,3 +115,4 @@ Indicates that the tape has snapped.
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a>
+

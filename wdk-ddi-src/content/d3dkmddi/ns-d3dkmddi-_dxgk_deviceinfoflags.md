@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_DEVICEINFOFLAGS
  - DXGK_DEVICEINFOFLAGS
 ---
 
@@ -72,3 +73,4 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

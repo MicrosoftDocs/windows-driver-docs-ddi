@@ -36,7 +36,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdi_ControlInterrupt2
+ - DXGKDDI_CONTROLINTERRUPT2
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ WDDM 2.7 drivers that do not implement [*DxgkDdi_ControlInterrupt3*](./nc-d3dkmd
 [*DxgkDdi_ControlInterrupt3*](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md)
 
 [*DxgkDdiAddDevice*](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
+

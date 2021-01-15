@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _NETWORK_APP_INSTANCE_ECP_CONTEXT
+ - PNETWORK_APP_INSTANCE_ECP_CONTEXT
  - NETWORK_APP_INSTANCE_ECP_CONTEXT
 ---
 
@@ -82,3 +84,4 @@ For information about how to use ECPs to associate extra information with a file
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
+

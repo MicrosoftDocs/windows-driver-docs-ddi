@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
  - DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
 ---
 
@@ -74,3 +75,4 @@ The <b>RequestReason</b> member of the <a href="/windows-hardware/drivers/ddi/d3
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>
+

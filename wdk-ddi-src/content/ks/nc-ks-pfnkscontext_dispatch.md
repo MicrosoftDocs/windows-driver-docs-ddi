@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrContextDispatch
+ - PFNKSCONTEXT_DISPATCH
 ---
 
 # PFNKSCONTEXT_DISPATCH callback function
@@ -72,3 +72,4 @@ To manipulate the list entry only, <i>KStrContextDispatch</i> can call<b> KsSetP
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kssetpowerdispatch">KsSetPowerDispatch</a>
+

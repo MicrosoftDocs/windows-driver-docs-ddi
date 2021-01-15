@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATARANGE_MPEG2_VIDEO
+ - PKS_DATARANGE_MPEG2_VIDEO
  - KS_DATARANGE_MPEG2_VIDEO
 ---
 
@@ -92,3 +94,4 @@ Specifies the details of the video stream.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

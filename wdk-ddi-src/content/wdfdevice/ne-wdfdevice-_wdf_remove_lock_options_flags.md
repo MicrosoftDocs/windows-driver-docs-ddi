@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_REMOVE_LOCK_OPTIONS_FLAGS
  - WDF_REMOVE_LOCK_OPTIONS_FLAGS
 ---
 
@@ -72,3 +73,4 @@ For more information about using remove locks in a framework-based driver, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetremovelockoptions">WdfDeviceInitSetRemoveLockOptions</a>
+

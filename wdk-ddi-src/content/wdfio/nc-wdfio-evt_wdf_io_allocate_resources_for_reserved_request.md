@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoAllocateResourcesForReservedRequest
+ - EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST
 ---
 
 # EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback function
@@ -102,3 +102,4 @@ For more information about the <i>EvtIoAllocateResourcesForReservedRequest</i> c
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestisreserved">WdfRequestIsReserved</a>
+

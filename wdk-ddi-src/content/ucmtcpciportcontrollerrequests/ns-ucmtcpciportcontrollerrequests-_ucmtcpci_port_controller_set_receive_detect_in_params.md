@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmtcpciportcontrollerrequests.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS
+ - PUCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS
  - UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT_IN_PARAMS
 ---
 
@@ -61,3 +63,4 @@ Handle to the port controller object that the client driver received in the prev
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_RECEIVE_DETECT</b> structure that describes the RECEIVE_DETECT Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
+

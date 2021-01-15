@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
  - D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 
 <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
+

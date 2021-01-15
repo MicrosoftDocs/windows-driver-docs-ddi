@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_POWER_MANAGEMENT
+ - PVIDEO_POWER_MANAGEMENT
  - VIDEO_POWER_MANAGEMENT
 ---
 
@@ -112,3 +114,4 @@ A driver will always enter all other power states from the <b>VideoPowerOn</b> s
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_power_set">HwVidSetPowerState</a>
+

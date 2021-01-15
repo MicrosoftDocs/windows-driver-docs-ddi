@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_GETREADPACKET_INFO
  - KSRTAUDIO_GETREADPACKET_INFO
 ---
 
@@ -70,3 +71,4 @@ Returns TRUE if there is more data ready immediately. The OS may optionally imme
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-getreadpacket">KSPROPERTY_RTAUDIO_GETREADPACKET</a>
+

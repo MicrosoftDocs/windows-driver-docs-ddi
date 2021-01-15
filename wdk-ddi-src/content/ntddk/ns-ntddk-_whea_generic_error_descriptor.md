@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_GENERIC_ERROR_DESCRIPTOR
+ - PWHEA_GENERIC_ERROR_DESCRIPTOR
  - WHEA_GENERIC_ERROR_DESCRIPTOR
 ---
 
@@ -200,3 +202,4 @@ A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_notification_descriptor">WHEA_NOTIFICATION_DESCRIPTOR</a>
+

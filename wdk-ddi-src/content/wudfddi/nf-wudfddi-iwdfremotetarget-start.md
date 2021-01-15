@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.Start
+ - IWDFRemoteTarget::Start
 ---
 
 # IWDFRemoteTarget::Start
@@ -95,7 +95,6 @@ if (S_OK == RemoteTarget->Start())
 ...}
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
@@ -103,3 +102,4 @@ if (S_OK == RemoteTarget->Start())
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>
+

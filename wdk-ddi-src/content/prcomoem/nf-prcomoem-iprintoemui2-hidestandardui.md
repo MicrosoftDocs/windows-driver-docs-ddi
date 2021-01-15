@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI2.HideStandardUI
+ - IPrintOemUI2::HideStandardUI
 ---
 
 # IPrintOemUI2::HideStandardUI
@@ -173,3 +173,4 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui2">IPrintOemUI2</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.LaunchApplicationForDevice
+ - IStillImageW::LaunchApplicationForDevice
 ---
 
 # IStillImageW::LaunchApplicationForDevice
@@ -97,3 +97,4 @@ if (!SUCCEEDED(hRes))
         pStiInfoPtr->szDeviceInternalName,hReturn,hReturn);
 }
 ```
+

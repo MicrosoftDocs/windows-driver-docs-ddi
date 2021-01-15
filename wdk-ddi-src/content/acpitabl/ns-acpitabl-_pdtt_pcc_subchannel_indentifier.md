@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _PDTT_PCC_SUBCHANNEL_INDENTIFIER
+ - PPDTT_PCC_SUBCHANNEL_INDENTIFIER
+ - PDTT_PCC_SUBCHANNEL_INDENTIFIER
 ---
 
 # _PDTT_PCC_SUBCHANNEL_INDENTIFIER structure
+
 
 ## -description
 
@@ -59,3 +62,4 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
+

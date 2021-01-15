@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnMapGpuVirtualAddressCb
+ - PFND3DDDI_MAPGPUVIRTUALADDRESSCB
 product:
  - Windows
 ---
@@ -82,3 +82,4 @@ This function might also return other values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
+

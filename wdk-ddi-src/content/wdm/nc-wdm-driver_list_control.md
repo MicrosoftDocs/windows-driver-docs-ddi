@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - AdapterListControl
+ - DRIVER_LIST_CONTROL
 ---
 
 # DRIVER_LIST_CONTROL callback function
@@ -107,3 +107,4 @@ The DRIVER_LIST_CONTROL function type is defined in the Wdm.h header file. To mo
 For detailed information about implementing an <i>AdapterListControl</i> routine, see <a href="/windows-hardware/drivers/kernel/using-scatter-gather-dma">Using Scatter/Gather DMA</a>. 
 
 <div class="code"></div>
+

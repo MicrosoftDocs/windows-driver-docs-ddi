@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_RADIO_STATE
+ - PWWAN_RADIO_STATE
  - WWAN_RADIO_STATE
 ---
 
@@ -210,3 +212,4 @@ The miniport driver should send all applicable status indications such as
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_radio">WWAN_RADIO</a>
+

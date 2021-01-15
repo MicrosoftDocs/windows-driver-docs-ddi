@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosMagneticStripeReaderCapabilitiesType
  - PosMagneticStripeReaderCapabilitiesType
 ---
 
@@ -94,3 +95,4 @@ Indicates whether the device is capable of masking track data.
 ### -field IsTransmitSentinelsSupported
 
 Indicates whether the devices is able to transmit start and end sentinels.
+

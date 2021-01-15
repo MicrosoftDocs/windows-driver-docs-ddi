@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCorePS2.DrvWriteSpoolBuf
+ - IPrintCorePS2::DrvWriteSpoolBuf
 ---
 
 # IPrintCorePS2::DrvWriteSpoolBuf
@@ -124,3 +124,4 @@ This method has the same behavior as <a href="/windows-hardware/drivers/ddi/prco
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf">IPrintOemDriverPS::DrvWriteSpoolBuf</a>
+

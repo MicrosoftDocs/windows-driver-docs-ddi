@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFMemory.GetSize
+ - IWDFMemory::GetSize
 ---
 
 # IWDFMemory::GetSize
@@ -56,3 +56,4 @@ The <b>GetSize</b> method retrieves the size of the data buffer that is associat
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+

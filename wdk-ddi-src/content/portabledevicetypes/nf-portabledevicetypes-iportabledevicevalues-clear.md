@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.Clear
+ - IPortableDeviceValues::Clear
 ---
 
 # IPortableDeviceValues::Clear
@@ -77,3 +77,4 @@ This method frees the memory for all dynamically allocated items in the collecti
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
+

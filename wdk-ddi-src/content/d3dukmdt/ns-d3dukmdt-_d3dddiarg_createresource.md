@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDIARG_CREATERESOURCE
  - D3DDDIARG_CREATERESOURCE
 ---
 
@@ -138,3 +139,4 @@ Orientations other than <b>D3DDDI_ROTATION_IDENTITY</b> are set only when the <b
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_surfaceinfo">D3DDDI_SURFACEINFO</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
- - HidP_GetCaps
+ - PHIDP_GETCAPS
 ---
 
 # PHIDP_GETCAPS callback function
@@ -117,3 +117,4 @@ See also <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections
 
 
 <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
+

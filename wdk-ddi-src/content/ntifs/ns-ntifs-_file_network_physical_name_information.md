@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_NETWORK_PHYSICAL_NAME_INFORMATION
+ - PFILE_NETWORK_PHYSICAL_NAME_INFORMATION
  - FILE_NETWORK_PHYSICAL_NAME_INFORMATION
 ---
 
@@ -159,7 +161,6 @@ NTSTATUS GetPhysicalNetworkName(HANDLE Target, WCHAR *NetworkName, ULONG MaxNetw
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a>
@@ -171,3 +172,4 @@ NTSTATUS GetPhysicalNetworkName(HANDLE Target, WCHAR *NetworkName, ULONG MaxNetw
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

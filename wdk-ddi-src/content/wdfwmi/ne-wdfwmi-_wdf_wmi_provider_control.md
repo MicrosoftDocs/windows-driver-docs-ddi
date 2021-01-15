@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfwmi.h
 api_name:
+ - _WDF_WMI_PROVIDER_CONTROL
  - WDF_WMI_PROVIDER_CONTROL
 ---
 
@@ -76,3 +77,4 @@ The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>
+

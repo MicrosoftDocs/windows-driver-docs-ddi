@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortClsPnp.UnregisterAdapterPnpManagement
+ - IPortClsPnp::UnregisterAdapterPnpManagement
 ---
 
 # IPortClsPnp::UnregisterAdapterPnpManagement
@@ -69,3 +69,4 @@ For more information,  see <a href="/windows-hardware/drivers/audio/implement-pn
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>
+

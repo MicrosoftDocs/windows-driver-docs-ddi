@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_COMPONENT_HEALTH_STATUS
+ - PSTORAGE_COMPONENT_HEALTH_STATUS
  - STORAGE_COMPONENT_HEALTH_STATUS
 ---
 

@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEAP_EDPC_ENABLED_EVENT
+ - PWHEAP_EDPC_ENABLED_EVENT
  - WHEAP_EDPC_ENABLED_EVENT
 f1_keywords:
  - _WHEAP_EDPC_ENABLED_EVENT

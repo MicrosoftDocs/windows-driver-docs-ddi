@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddsysenv.h
 api_name:
+ - _SYSENV_VALUE
+ - PSYSENV_VALUE
  - SYSENV_VALUE
 ---
 
@@ -76,3 +78,4 @@ The value of the system environment variable.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_get_variable">IOCTL_SYSENV_GET_VARIABLE</a>
+

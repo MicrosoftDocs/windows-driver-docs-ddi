@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnQueryResidencyCb
+ - PFND3DDDI_QUERYRESIDENCYCB
 product:
  - Windows
 ---
@@ -138,3 +138,4 @@ CD3DContext::QueryResourceResidency(CONST D3DDDIARG_QUERYRESOURCERESIDENCY* pQRR
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">QueryResourceResidencyDXGI</a>
+

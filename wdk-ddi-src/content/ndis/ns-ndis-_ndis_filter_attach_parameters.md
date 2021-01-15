@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_ATTACH_PARAMETERS
+ - PNDIS_FILTER_ATTACH_PARAMETERS
  - NDIS_FILTER_ATTACH_PARAMETERS
 ---
 
@@ -377,3 +379,4 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

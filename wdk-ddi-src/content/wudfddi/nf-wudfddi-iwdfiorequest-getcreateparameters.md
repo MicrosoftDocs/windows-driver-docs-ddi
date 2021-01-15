@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetCreateParameters
+ - IWDFIoRequest::GetCreateParameters
 ---
 
 # IWDFIoRequest::GetCreateParameters
@@ -87,3 +87,4 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pOptio
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+

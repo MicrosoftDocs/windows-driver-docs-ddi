@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - DestroyUnorderedAccessView
+ - PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
 ---
 
 # PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback function
@@ -96,3 +96,4 @@ The driver can work around this problem by following these steps:
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

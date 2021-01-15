@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_TYPE_NONCE
+ - PWDI_TYPE_NONCE
  - WDI_TYPE_NONCE
 ---
 

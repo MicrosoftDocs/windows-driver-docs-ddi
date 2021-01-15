@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - DebugExtensionQueryValueNames
+ - PDEBUG_EXTENSION_QUERY_VALUE_NAMES
 ---
 
 # PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback function
@@ -50,7 +50,6 @@ The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="/wi
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
 ```
-
 
 ## -parameters
 
@@ -140,3 +139,4 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 <i>KnownStructOutput</i>
+

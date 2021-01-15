@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue
- - IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
+ - IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 ---
 
 # IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
@@ -57,3 +56,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioReceiveInitializeTransaction
+ - EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION
 ---
 
 # EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback function
@@ -107,3 +107,4 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceiveinitializetransactioncomplete">SerCx2PioReceiveInitializeTransactionComplete</a>
+

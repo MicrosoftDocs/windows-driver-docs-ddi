@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_CREATECONTEXT
  - D3DDDICB_CREATECONTEXT
 ---
 
@@ -120,3 +121,4 @@ This member is available beginning with Windows 7.
 
 
 <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
+

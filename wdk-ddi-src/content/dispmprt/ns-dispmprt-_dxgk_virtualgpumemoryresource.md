@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VIRTUALGPUMEMORYRESOURCE
+ - PDXGK_VIRTUALGPUMEMORYRESOURCE
+ - DXGK_VIRTUALGPUMEMORYRESOURCE
 product:
  - Windows
 dev_langs:

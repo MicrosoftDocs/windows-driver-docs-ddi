@@ -31,9 +31,11 @@ api_location:
  - acpitabl.h
 api_name:
  - _IVRS_BLOCK_TYPE
+ - IVRS_BLOCK_TYPE
 ---
 
 # _IVRS_BLOCK_TYPE enumeration
+
 
 ## -description
 
@@ -68,3 +70,4 @@ Value is 0x40.
 ## -remarks
 
 ## -see-also
+

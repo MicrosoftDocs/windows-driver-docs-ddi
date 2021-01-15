@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CreateCryptoSession
+ - PFND3DDDI_CREATECRYPTOSESSION
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ The driver must keep track of the display device (<b>hDevice</b>) that was used 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createcryptosession">D3DDDIARG_CREATECRYPTOSESSION</a>
+

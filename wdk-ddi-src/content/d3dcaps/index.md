@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3dcaps
  - d3dcaps/d3dcaps
+api_name:
+ - d3dcaps
 ---
 
 # D3Dcaps.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.FormatUsingCurrentType
+ - IWDFIoRequest::FormatUsingCurrentType
 ---
 
 # IWDFIoRequest::FormatUsingCurrentType
@@ -77,3 +77,4 @@ For a code example of how to use the <b>FormatUsingCurrentType</b> method, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
+

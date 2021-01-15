@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_COPY_OFFLOAD_DESCRIPTOR
+ - PDEVICE_COPY_OFFLOAD_DESCRIPTOR
  - DEVICE_COPY_OFFLOAD_DESCRIPTOR
 ---
 
@@ -104,3 +106,4 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+

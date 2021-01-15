@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _CONTROLLER_ATTRIBUTE_FLAGS
+ - PCONTROLLER_ATTRIBUTE_FLAGS
  - CONTROLLER_ATTRIBUTE_FLAGS
 ---
 
@@ -134,3 +136,4 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a>
+

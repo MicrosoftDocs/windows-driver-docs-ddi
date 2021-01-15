@@ -37,7 +37,7 @@ api_type:
 api_location:
  - KeywordDetectorOemAdapter.h
 api_name:
- - IKeywordDetectorOemAdapter.BuildArmingPatternData
+ - IKeywordDetectorOemAdapter::BuildArmingPatternData
 ---
 
 # IKeywordDetectorOemAdapter::BuildArmingPatternData
@@ -143,3 +143,4 @@ The operating system may call this method at any time. The operating system may 
 
 
 <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a>
+

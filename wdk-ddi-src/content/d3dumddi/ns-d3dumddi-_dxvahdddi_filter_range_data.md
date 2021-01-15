@@ -39,10 +39,12 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_FILTER_RANGE_DATA
  - DXVAHDDDI_FILTER_RANGE_DATA
 ---
 
 # _DXVAHDDDI_FILTER_RANGE_DATA structure
+
 
 ## -description
 
@@ -74,3 +76,4 @@ A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size wi
 * **Maximum** = 720
 * **Default** = 0
 * **Multiplier** = 0.25
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_NUMBER
+ - PFEATURE_NUMBER
  - FEATURE_NUMBER
 ---
 
@@ -254,3 +256,4 @@ Reserved 0x0111 - 0xfeff
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
+

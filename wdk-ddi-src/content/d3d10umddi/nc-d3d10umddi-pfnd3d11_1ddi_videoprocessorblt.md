@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorBlt
+ - PFND3D11_1DDI_VIDEOPROCESSORBLT
 product:
  - Windows
 ---
@@ -169,3 +169,4 @@ If multiple input streams are enabled and the video processor is enabled to prod
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>
+

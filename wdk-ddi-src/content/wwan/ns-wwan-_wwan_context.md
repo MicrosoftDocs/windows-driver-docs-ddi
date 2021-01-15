@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_CONTEXT
+ - PWWAN_CONTEXT
  - WWAN_CONTEXT
 ---
 
@@ -115,3 +117,4 @@ Authentication type to use for the PDP activation.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_context_type">WWAN_CONTEXT_TYPE</a>
+

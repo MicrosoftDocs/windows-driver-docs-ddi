@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_FREEGPUVIRTUALADDRESS
  - D3DKMT_FREEGPUVIRTUALADDRESS
 ---
 
@@ -66,3 +67,4 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a>
+

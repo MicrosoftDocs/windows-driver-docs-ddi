@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _HBAScsiID
+ - PHBAScsiID
  - HBAScsiID
 ---
 
@@ -76,3 +78,4 @@ For more information about how this structure is defined, see the discussion of 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getfcpstatistics">GetFCPStatistics</a>
+

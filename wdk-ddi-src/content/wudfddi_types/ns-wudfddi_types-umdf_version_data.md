@@ -40,6 +40,7 @@ api_location:
  - Wudfddi_types.h
 api_name:
  - UMDF_VERSION_DATA
+ - PUMDF_VERSION_DATA
 ---
 
 # UMDF_VERSION_DATA structure
@@ -104,3 +105,4 @@ Header:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-umdf_version_data">Microsoft_WDF_UMDF_Version</a>
+

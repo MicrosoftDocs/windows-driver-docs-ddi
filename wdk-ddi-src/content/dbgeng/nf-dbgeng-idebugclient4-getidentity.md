@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.GetIdentity
- - IDebugClient2.GetIdentity
- - IDebugClient3.GetIdentity
- - IDebugClient4.GetIdentity
- - IDebugClient5.GetIdentity
+ - IDebugClient4::GetIdentity
 ---
 
 # IDebugClient4::GetIdentity
@@ -130,3 +126,4 @@ For more information about client objects, see <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-outputidentity">OutputIdentity</a>
+

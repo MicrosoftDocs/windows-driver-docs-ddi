@@ -30,6 +30,7 @@ api_location:
  - sensorscxfuncenum.h
 api_name:
  - _SENSORSCXFUNCENUM
+ - SENSORSCXFUNCENUM
 product:
  - Windows
 ---
@@ -82,3 +83,4 @@ The number of entries in the table.
 ## -remarks
 
 ## -see-also
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_AID_ROUTING_INFO
+ - PSECURE_ELEMENT_AID_ROUTING_INFO
  - SECURE_ELEMENT_AID_ROUTING_INFO
 ---
 
@@ -71,3 +73,4 @@ Length of applet ID buffer.
 #### - pbAid[16]
 
 Buffer holding ISO 7816 AID.
+

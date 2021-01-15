@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptDebugBreakpoint.QueryInterface
+ - IDataModelScriptDebugBreakpoint::QueryInterface
 ---
 
 # IDataModelScriptDebugBreakpoint::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDataModelScriptDebugBreakpoint interface](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md)
+

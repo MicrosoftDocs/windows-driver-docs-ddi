@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wmistr.h
 api_name:
+ - tagWNODE_EVENT_REFERENCE
+ - PWNODE_EVENT_REFERENCE
  - WNODE_EVENT_REFERENCE
 ---
 
@@ -92,3 +94,4 @@ The <b>ProviderId</b> member of the <a href="/windows-hardware/drivers/ddi/wmist
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
+

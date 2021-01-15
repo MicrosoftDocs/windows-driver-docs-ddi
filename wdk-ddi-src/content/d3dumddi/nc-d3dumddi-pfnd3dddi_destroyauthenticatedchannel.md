@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyAuthenticatedChannel
+ - PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ The driver's <b>DestroyAuthenticatedChannel</b> function should disable any prot
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_destroyauthenicatedchannel">D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL</a>
+

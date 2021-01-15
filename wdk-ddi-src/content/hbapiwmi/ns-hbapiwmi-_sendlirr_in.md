@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendLIRR_IN
+ - PSendLIRR_IN
  - SendLIRR_IN
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite generates a declaration of the SendLIRR_IN structure in <i>Hb
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendlirr">SendLIRR</a>
+

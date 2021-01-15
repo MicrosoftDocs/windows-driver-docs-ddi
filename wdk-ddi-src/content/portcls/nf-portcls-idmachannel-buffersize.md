@@ -34,12 +34,13 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDmaChannel.BufferSize
+ - IDmaChannel::BufferSize
 product:
  - Windows
 ---
 
 # IDmaChannel::BufferSize
+
 
 ## -description
 
@@ -59,3 +60,4 @@ The BufferSize method returns the buffer size that was set by the previous call 
 ## -see-also
 
 [IDmaChannel](nn-portcls-idmachannel.md)
+

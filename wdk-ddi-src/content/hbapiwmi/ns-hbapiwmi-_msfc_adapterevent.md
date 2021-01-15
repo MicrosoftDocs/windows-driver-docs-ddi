@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_AdapterEvent
+ - PMSFC_AdapterEvent
  - MSFC_AdapterEvent
 ---
 
@@ -74,3 +76,4 @@ For more information about event types and worldwide names, see the T11 committe
 
 
 <a href="/windows-hardware/drivers/storage/msfc-adapterevent-wmi-class">MSFC_AdapterEvent WMI Class</a>
+

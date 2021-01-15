@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiIdleNotificationComplete
+ - NDIS_WDI_IDLE_NOTIFICATION_COMPLETE
 ---
 
 # NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback function
@@ -67,3 +67,4 @@ The miniport handle.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a>
+

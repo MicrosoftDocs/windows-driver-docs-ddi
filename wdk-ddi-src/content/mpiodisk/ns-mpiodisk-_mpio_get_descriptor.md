@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _MPIO_GET_DESCRIPTOR
+ - PMPIO_GET_DESCRIPTOR
  - MPIO_GET_DESCRIPTOR
 ---
 

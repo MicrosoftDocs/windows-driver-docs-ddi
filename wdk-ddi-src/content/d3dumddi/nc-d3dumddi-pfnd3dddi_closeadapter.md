@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CloseAdapter
+ - PFND3DDDI_CLOSEADAPTER
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ Before <b>CloseAdapter</b> closes the graphics adapter object, all of the displa
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_openadapter">OpenAdapter</a>
+

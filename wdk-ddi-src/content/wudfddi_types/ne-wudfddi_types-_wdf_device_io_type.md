@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_DEVICE_IO_TYPE
+ - PWDF_DEVICE_IO_TYPE
  - WDF_DEVICE_IO_TYPE
 ---
 
@@ -115,3 +117,4 @@ For the KMDF version of this enumeration, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+

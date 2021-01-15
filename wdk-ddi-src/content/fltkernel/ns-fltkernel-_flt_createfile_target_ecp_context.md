@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_CREATEFILE_TARGET_ECP_CONTEXT
+ - PFLT_CREATEFILE_TARGET_ECP_CONTEXT
  - FLT_CREATEFILE_TARGET_ECP_CONTEXT
 ---
 
@@ -431,7 +433,6 @@ CrossVolumeCreateExit:
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
@@ -443,3 +444,4 @@ CrossVolumeCreateExit:
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+ - PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
  - NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
 ---
 
@@ -99,3 +101,4 @@ The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests
 
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-delete-vport">OID_NIC_SWITCH_DELETE_VPORT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _SUB_Q_HEADER
+ - PSUB_Q_HEADER
  - SUB_Q_HEADER
 ---
 
@@ -124,3 +126,4 @@ Gives the length of Q subchannel data that follows this header structure. The by
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a>
+

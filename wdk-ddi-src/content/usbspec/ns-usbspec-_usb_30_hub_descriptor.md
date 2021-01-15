@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbspec.h
 api_name:
+ - _USB_30_HUB_DESCRIPTOR
+ - PUSB_30_HUB_DESCRIPTOR
  - USB_30_HUB_DESCRIPTOR
 ---
 
@@ -96,3 +98,4 @@ The    hub packet header decode latency.
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex">USB_HUB_INFORMATION_EX</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
- - NdisTcpOffloadDisconnectComplete
+ - NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE
 ---
 
 # NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function
@@ -181,3 +181,4 @@ Note that the
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>
+

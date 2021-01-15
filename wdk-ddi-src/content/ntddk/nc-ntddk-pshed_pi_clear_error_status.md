@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - ClearErrorStatus
+ - PSHED_PI_CLEAR_ERROR_STATUS
 ---
 
 # PSHED_PI_CLEAR_ERROR_STATUS callback function
@@ -144,3 +144,4 @@ The PSHED calls a PSHED plug-in's <i>ClearErrorStatus</i> callback function at I
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

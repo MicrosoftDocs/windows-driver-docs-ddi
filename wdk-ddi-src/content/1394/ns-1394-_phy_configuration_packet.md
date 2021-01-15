@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _PHY_CONFIGURATION_PACKET
+ - PPHY_CONFIGURATION_PACKET
  - PHY_CONFIGURATION_PACKET
 ---
 

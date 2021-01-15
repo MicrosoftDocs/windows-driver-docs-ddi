@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _SUB_Q_CURRENT_POSITION
+ - PSUB_Q_CURRENT_POSITION
  - SUB_Q_CURRENT_POSITION
 ---
 
@@ -94,3 +96,4 @@ Gives the current location relative to the logical beginning of the current trac
 [SUB_Q_CHANNEL_DATA](./ns-ntddcdrm-_sub_q_channel_data.md)
 
 [SUB_Q_HEADER](./ns-ntddcdrm-_sub_q_header.md)
+

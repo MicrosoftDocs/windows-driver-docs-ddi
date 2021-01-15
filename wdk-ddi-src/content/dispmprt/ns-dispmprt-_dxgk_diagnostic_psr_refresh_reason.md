@@ -34,6 +34,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
+ - DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
 dev_langs:
  - c++
 ---

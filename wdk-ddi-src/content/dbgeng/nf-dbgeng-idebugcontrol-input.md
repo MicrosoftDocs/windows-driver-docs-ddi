@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.Input
+ - IDebugControl::Input
 ---
 
 # IDebugControl::Input
@@ -109,3 +109,4 @@ For an overview of input in the debugger engine, see <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-inputwide">InputWide</a>
+

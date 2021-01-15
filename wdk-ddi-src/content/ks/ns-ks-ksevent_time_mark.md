@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSEVENT_TIME_MARK
  - KSEVENT_TIME_MARK
 ---
 
@@ -70,3 +71,4 @@ The flags indicate the type of units for the interval. The interval can be speci
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_time_interval">KSEVENT_TIME_INTERVAL</a>
+

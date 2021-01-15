@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetSpecificFilterArgument
- - IDebugControl2.SetSpecificFilterArgument
- - IDebugControl3.SetSpecificFilterArgument
+ - IDebugControl::SetSpecificFilterArgument
 ---
 
 # IDebugControl::SetSpecificFilterArgument
@@ -117,3 +115,4 @@ For a list of specific filters that have argument and the interpretation of thos
 
 
 <a href="/windows-hardware/drivers/debugger/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+

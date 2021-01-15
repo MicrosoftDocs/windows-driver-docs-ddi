@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_PASS_THROUGH_DIRECT
+ - PSCSI_PASS_THROUGH_DIRECT
  - SCSI_PASS_THROUGH_DIRECT
 ---
 
@@ -129,3 +131,4 @@ The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a [
 [SCSI_PASS_THROUGH](./ns-ntddscsi-_scsi_pass_through.md)
 
 [SCSI_REQUEST_BLOCK](../srb/ns-srb-_scsi_request_block.md)
+

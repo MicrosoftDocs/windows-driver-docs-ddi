@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_USB_DEVICE_WAKE_SETTING
+ - PUDECX_USB_DEVICE_WAKE_SETTING
  - UDECX_USB_DEVICE_WAKE_SETTING
 ---
 
@@ -68,3 +70,4 @@ This value is used only if the USB device is a SuperSpeed device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_d0_exit">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiRxFlushConfirm
+ - NDIS_WDI_RX_FLUSH_CONFIRM
 ---
 
 # NDIS_WDI_RX_FLUSH_CONFIRM callback function
@@ -66,3 +66,4 @@ The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/network/wdi-rx-path">WDI RX path</a>
+

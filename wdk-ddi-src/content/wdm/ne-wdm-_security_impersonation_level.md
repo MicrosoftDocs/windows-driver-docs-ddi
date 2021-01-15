@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _SECURITY_IMPERSONATION_LEVEL
+ - PSECURITY_IMPERSONATION_LEVEL
  - SECURITY_IMPERSONATION_LEVEL
 ---
 
@@ -120,3 +122,4 @@ Impersonation is the ability of a process to take on the security attributes of 
 
 
 <a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>
+

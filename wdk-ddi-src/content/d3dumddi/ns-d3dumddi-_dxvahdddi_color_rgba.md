@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_COLOR_RGBA
  - DXVAHDDDI_COLOR_RGBA
 ---
 
@@ -78,3 +79,4 @@ A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>RGB</b> member of the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color">DXVAHDDDI_COLOR</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceWdmPrePoFxUnregisterDevice
+ - EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE
 ---
 
 # EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE callback function
@@ -80,3 +80,4 @@ A driver can provide this callback function if it must perform any additional op
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>
+

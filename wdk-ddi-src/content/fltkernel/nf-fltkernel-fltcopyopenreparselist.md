@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltKernel.h
 api_name:
- - FltAddOpenReparseEntry
+ - FltCopyOpenReparseList
 ---
 
 # FltCopyOpenReparseList function
@@ -103,3 +103,4 @@ The operation completed successfully.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeopenreparselist">FltFreeOpenReparseList</a>
+

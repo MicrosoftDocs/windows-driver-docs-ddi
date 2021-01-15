@@ -39,6 +39,7 @@ api_type:
 api_location:
  - netioddk.h
 api_name:
+ - _NPI_CLIENT_CHARACTERISTICS
  - NPI_CLIENT_CHARACTERISTICS
 ---
 
@@ -120,3 +121,4 @@ A client module must make sure that this structure remains valid and resident in
 
 
 <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a>
+

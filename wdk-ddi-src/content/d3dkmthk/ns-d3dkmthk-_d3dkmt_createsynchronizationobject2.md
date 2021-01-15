@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATESYNCHRONIZATIONOBJECT2
  - D3DKMT_CREATESYNCHRONIZATIONOBJECT2
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure describes a synchronization ob
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject2">D3DKMTCreateSynchronizationObject2</a>
+

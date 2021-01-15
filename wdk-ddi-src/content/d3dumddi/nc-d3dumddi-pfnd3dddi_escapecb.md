@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnEscapeCb
+ - PFND3DDDI_ESCAPECB
 product:
  - Windows
 ---
@@ -93,3 +93,4 @@ A user-mode display driver calls <b>pfnEscapeCb</b> to share miscellaneous infor
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a>
+

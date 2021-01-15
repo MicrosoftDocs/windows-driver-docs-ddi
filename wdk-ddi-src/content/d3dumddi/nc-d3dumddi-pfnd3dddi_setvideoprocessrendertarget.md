@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetVideoProcessRenderTarget
+ - PFND3DDDI_SETVIDEOPROCESSRENDERTARGET
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ All video processing render targets are created by setting the <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_resourceflags">D3DDDI_RESOURCEFLAGS</a>
+

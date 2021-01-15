@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_ENDPOINT_START
+ - EVT_UCX_ENDPOINT_START
 ---
 
 # EVT_UCX_ENDPOINT_START callback function
@@ -83,3 +83,4 @@ Endpoint_EvtUcxEndpointStart(
     DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointStart");
 }
 ```
+

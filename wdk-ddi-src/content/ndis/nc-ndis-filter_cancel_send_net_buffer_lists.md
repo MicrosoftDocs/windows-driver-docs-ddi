@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - (*FILTER_CANCEL_SEND_HANDLER)
+ - FILTER_CANCEL_SEND_NET_BUFFER_LISTS
 ---
 
 # FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback function
@@ -187,3 +187,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsendnetbufferlistscomplete">
    NdisFSendNetBufferListsComplete</a>
+

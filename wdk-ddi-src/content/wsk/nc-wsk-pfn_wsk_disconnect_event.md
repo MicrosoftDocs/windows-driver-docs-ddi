@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskDisconnectEvent
+ - PFN_WSK_DISCONNECT_EVENT
 ---
 
 # PFN_WSK_DISCONNECT_EVENT callback function
@@ -173,3 +173,4 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

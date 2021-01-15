@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxtimer
  - rxtimer/rxtimer
+api_name:
+ - rxtimer
 ---
 
 # Rxtimer.h header

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_SCAN_CAPS_S
  - KSPROPERTY_TUNER_SCAN_CAPS_S
 ---
 
@@ -88,3 +89,4 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniIntersectHandlerEx
+ - PFNKSINTERSECTHANDLEREX
 ---
 
 # PFNKSINTERSECTHANDLEREX callback function
@@ -120,3 +120,4 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspindataintersectionex">KsPinDataIntersectionEx</a>
+

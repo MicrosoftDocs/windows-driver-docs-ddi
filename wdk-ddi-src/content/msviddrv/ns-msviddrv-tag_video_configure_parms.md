@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Msviddrv.h
 api_name:
+ - tag_video_configure_parms
+ - LPVIDEOCONFIGPARMS
  - VIDEOCONFIGPARMS
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVCCONNECTINFO
+ - PAVCCONNECTINFO
  - AVCCONNECTINFO
 ---
 
@@ -84,3 +86,4 @@ This structure is used only as member inside the <a href="/windows-hardware/driv
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/avc-function-set-connectinfo">AVC_FUNCTION_SET_CONNECTINFO</a>
+

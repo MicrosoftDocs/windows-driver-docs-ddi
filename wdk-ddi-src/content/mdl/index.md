@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - mdl
  - mdl/mdl
+api_name:
+ - mdl
 ---
 
 # Mdl.h header

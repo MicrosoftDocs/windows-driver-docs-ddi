@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_PRIVATE_DATA
  - DXVAHDDDI_STREAM_STATE_PRIVATE_DATA
 ---
 
@@ -84,3 +85,4 @@ To set private stream state, the application causes the Direct3D runtime to spec
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate">SetVideoProcessStreamState</a>
+

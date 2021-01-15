@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - QueryResourceResidency
+ - PFND3DDDI_QUERYRESOURCERESIDENCY
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ For each resource that the runtime queries through a call to <i>QueryResourceRes
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryresidencycb">pfnQueryResidencyCb</a>
+

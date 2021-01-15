@@ -37,7 +37,7 @@ api_type:
 api_location:
  - strmini.h
 api_name:
- - StrMiniCancelPacket
+ - PHW_CANCEL_SRB
 ---
 
 # PHW_CANCEL_SRB callback function
@@ -60,3 +60,4 @@ Pointer to the stream request that had been canceled.
 The minidriver specifies this routine in the <b>HwCancelPacket</b> member of its <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>.
 
 Minidrivers that rely on the class driver to handle synchronization should, once they have successfully canceled a request, signal to the class driver that they are ready for another request by using <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification">StreamClassStreamNotification</a> or <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification">StreamClassDeviceNotification</a> with the appropriate <b>ReadyForNext</b><i>Xxx</i><b>Request</b>.
+

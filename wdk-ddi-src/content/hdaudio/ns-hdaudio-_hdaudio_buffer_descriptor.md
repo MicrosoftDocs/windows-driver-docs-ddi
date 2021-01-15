@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_BUFFER_DESCRIPTOR
+ - PHDAUDIO_BUFFER_DESCRIPTOR
  - HDAUDIO_BUFFER_DESCRIPTOR
 ---
 
@@ -84,3 +86,4 @@ For more information about BDLs, see the Intel High Definition Audio Specificati
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_PROCESSOR_IDENTIFICATION_ALL
+ - PDEBUG_PROCESSOR_IDENTIFICATION_ALL
  - DEBUG_PROCESSOR_IDENTIFICATION_ALL
 ---
 
@@ -100,3 +102,4 @@ An ARM64 processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_x86">DEBUG_PROCESSOR_IDENTIFICATION_X86</a>
+

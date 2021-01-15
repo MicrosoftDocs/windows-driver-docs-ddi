@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendECHO_OUT
+ - PSM_SendECHO_OUT
  - SM_SendECHO_OUT
 ---
 
@@ -68,3 +70,4 @@ The result of the operation.
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_SendECHO_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+

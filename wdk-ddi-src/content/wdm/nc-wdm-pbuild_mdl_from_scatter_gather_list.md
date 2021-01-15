@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - BuildMdlFromScatterGatherList
+ - PBUILD_MDL_FROM_SCATTER_GATHER_LIST
 ---
 
 # PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback function
@@ -157,3 +157,4 @@ When a driver creates a scatter/gather list to write to a device, the system can
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _INTERFACE_TYPE
+ - PINTERFACE_TYPE
  - INTERFACE_TYPE
 ---
 
@@ -156,3 +158,4 @@ Marks the upper limit of the possible bus types.
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportvalidaterange">StorPortValidateRange</a>
+

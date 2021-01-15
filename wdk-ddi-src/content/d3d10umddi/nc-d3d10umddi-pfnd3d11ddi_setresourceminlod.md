@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - SetResourceMinLOD
+ - PFND3D11DDI_SETRESOURCEMINLOD
 ---
 
 # PFND3D11DDI_SETRESOURCEMINLOD callback function
@@ -84,3 +84,4 @@ The Direct3D runtime calls the driver's <i>SetResourceMinLOD</i> function to set
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

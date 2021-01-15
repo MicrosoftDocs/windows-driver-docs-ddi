@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_NETWORK_IDLE_HINT
+ - PWWAN_NETWORK_IDLE_HINT
  - WWAN_NETWORK_IDLE_HINT
 ---
 
@@ -64,3 +66,4 @@ If TRUE, this is a hint that the network interface should utilize mechanisms for
 
 
 <a href="/windows-hardware/drivers/network/oid-wwan-network-idle-hint">OID_WWAN_NETWORK_IDLE_HINT</a>
+

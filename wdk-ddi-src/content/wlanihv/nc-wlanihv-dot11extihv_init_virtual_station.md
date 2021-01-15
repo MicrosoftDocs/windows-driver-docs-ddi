@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvInitVirtualStation
+ - DOT11EXTIHV_INIT_VIRTUAL_STATION
 ---
 
 # DOT11EXTIHV_INIT_VIRTUAL_STATION callback
@@ -138,3 +138,4 @@ For more information about
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
+

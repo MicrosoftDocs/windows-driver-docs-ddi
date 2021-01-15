@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetGroupPresharedKey_IN
+ - PSetGroupPresharedKey_IN
  - SetGroupPresharedKey_IN
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setgrouppresharedkey_out">SetGroupPresharedKey_OUT</a>
+

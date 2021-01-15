@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreHelperPS.GetOptionAttribute
+ - IPrintCoreHelperPS::GetOptionAttribute
 ---
 
 # IPrintCoreHelperPS::GetOptionAttribute
@@ -155,3 +155,4 @@ For more information about <b>IPrintCoreHelperPS::GetOptionAttribute</b>, see <a
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getglobalattribute">IPrintCoreHelperPS::GetGlobalAttribute</a>
+

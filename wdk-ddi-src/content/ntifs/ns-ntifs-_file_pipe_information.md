@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_PIPE_INFORMATION
+ - PFILE_PIPE_INFORMATION
  - FILE_PIPE_INFORMATION
 ---
 
@@ -106,3 +108,4 @@ When <b>CompletionMode</b> is set to FILE_PIPE_QUEUE_OPERATION, if the pipe is c
 When <b>CompletionMode</b> is set to FILE_PIPE_COMPLETE_OPERATION, if the pipe is being connected to, read to, or written from, the operation is completed immediately. 
 
 For information about pipes, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.
+

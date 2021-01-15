@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_RemovePort_IN
+ - PSM_RemovePort_IN
  - SM_RemovePort_IN
 ---
 

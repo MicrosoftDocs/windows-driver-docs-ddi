@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_STATUS
+ - PWHEA_ERROR_STATUS
  - WHEA_ERROR_STATUS
 ---
 
@@ -206,3 +208,4 @@ A WHEA_ERROR_STATUS union is contained within the <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section">WHEA_PCIXDEVICE_ERROR_SECTION</a>
+

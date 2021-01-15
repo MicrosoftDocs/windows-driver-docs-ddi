@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_PATH_HEALTH_CLASS
+ - PMPIO_PATH_HEALTH_CLASS
  - MPIO_PATH_HEALTH_CLASS
 ---
 

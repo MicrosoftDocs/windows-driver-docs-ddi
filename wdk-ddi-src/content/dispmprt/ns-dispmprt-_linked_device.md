@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _LINKED_DEVICE
+ - PLINKED_DEVICE
  - LINKED_DEVICE
 ---
 
@@ -72,3 +74,4 @@ Prior to a call to <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_link_device">DxgkDdiLinkDevice</a>
+

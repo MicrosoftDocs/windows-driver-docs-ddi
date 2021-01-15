@@ -36,7 +36,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwAllocateVirtualMemory
  - NtAllocateVirtualMemory
 ---
 
@@ -145,3 +144,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 ## -see-also
 
 [**NtFreeVirtualMemory**](./nf-ntifs-ntfreevirtualmemory.md)
+

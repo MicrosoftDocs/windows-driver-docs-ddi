@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _AV_PCR
+ - PAV_PCR
  - AV_PCR
 ---
 
@@ -72,3 +74,4 @@ Reserved for internal use.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>
+

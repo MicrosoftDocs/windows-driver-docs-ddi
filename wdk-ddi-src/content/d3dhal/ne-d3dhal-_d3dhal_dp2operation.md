@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2OPERATION
  - D3DHAL_DP2OPERATION
 ---
 
@@ -292,3 +293,4 @@ DirectX 8.0 and later versions only. Multiplies a current transform. See <a href
 Note that because the D3DNTDP2OP_<i>XXX</i> enumerators are type defined as D3DDP2OP_<i>XXX</i> internally in the <i>Dx95type.h</i> file of the Windows Driver Kit (WDK), the shorter form is used here for clarity. Either form is valid on Windows 2000 and later implementations, but only the shorter form can be used on Windows 98/Me.
 
 The D3DNTHAL_DP2OPERATION enumerated type is type defined as the D3DHAL_DP2OPERATION enumerated type in the <i>Dx95type.h</i> file. The later (shorter form) enumerated type is used here for clarity. Either form is valid on Windows 2000 and later implementations, but only the shorter form can be used on Windows 98/Me.
+

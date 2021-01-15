@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
+ - PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
  - NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
 ---
 
@@ -100,3 +102,4 @@ The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used w
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
+

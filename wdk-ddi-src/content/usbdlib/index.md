@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbdlib
  - usbdlib/usbdlib
+api_name:
+ - usbdlib
 ---
 
 # Usbdlib.h header

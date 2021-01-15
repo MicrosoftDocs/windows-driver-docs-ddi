@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_DATA_RATE_MAPPING_ENTRY
+ - PDOT11_DATA_RATE_MAPPING_ENTRY
 product:
  - Windows 10 or later.
 ---
@@ -411,3 +412,4 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 
 <a href="/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
+

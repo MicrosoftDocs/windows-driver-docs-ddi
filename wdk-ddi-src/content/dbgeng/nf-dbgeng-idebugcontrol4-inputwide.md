@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.InputWide
+ - IDebugControl4::InputWide
 ---
 
 # IDebugControl4::InputWide
@@ -100,3 +100,4 @@ The method was successful. However, the buffer was not big enough to hold the wh
 ## -remarks
 
 For an overview of input in the debugger engine, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+

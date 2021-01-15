@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - EndThreadStackReconstruction
+ - PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION
 ---
 
 # PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function
@@ -50,7 +50,6 @@ The <i>EndThreadStackReconstruction</i> callback function may be called after st
 ```cpp
  CALLBACK* PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION EndThreadStackReconstruction;
 ```
-
 
 ## -parameters
 

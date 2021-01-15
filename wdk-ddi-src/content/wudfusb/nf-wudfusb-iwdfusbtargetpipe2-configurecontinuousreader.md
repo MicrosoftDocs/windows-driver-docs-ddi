@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe2.ConfigureContinuousReader
+ - IWDFUsbTargetPipe2::ConfigureContinuousReader
 ---
 
 # IWDFUsbTargetPipe2::ConfigureContinuousReader
@@ -216,7 +216,6 @@ hr = pIUsbInterruptPipe2->ConfigureContinuousReader(
 ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallback-ond0entry">IPnpCallback::OnD0Entry</a>
@@ -248,3 +247,4 @@ hr = pIUsbInterruptPipe2->ConfigureContinuousReader(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe2">IWDFUsbTargetPipe2</a>
+

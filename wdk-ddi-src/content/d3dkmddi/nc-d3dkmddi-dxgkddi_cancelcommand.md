@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiCancelCommand
+ - DXGKDDI_CANCELCOMMAND
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ If the driver returns an error code, the DirectX graphics kernel subsystem  caus
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

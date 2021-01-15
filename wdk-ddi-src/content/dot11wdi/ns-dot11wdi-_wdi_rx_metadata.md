@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_RX_METADATA
+ - PWDI_RX_METADATA
  - WDI_RX_METADATA
 ---
 
@@ -67,3 +69,4 @@ The payload type, specified for each MPDU.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_frame_metadata">WDI_FRAME_METADATA</a>
+

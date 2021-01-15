@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_MANUFACTURER_DESCRIPTOR
+ - PDVD_MANUFACTURER_DESCRIPTOR
  - DVD_MANUFACTURER_DESCRIPTOR
 ---
 
@@ -60,3 +62,4 @@ Contains an array holding the manufacturing information taken from the DVD media
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

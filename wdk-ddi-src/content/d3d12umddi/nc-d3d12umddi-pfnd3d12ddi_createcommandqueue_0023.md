@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnCreateCommandQueue
+ - PFND3D12DDI_CREATECOMMANDQUEUE_0023
 product:
  - Windows
 ---

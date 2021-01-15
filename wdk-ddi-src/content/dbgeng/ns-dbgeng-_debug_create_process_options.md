@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_CREATE_PROCESS_OPTIONS
+ - PDEBUG_CREATE_PROCESS_OPTIONS
  - DEBUG_CREATE_PROCESS_OPTIONS
 ---
 
@@ -135,3 +137,4 @@ The Application Verifier flags.  Only used if DEBUG_ECREATE_PROCESS_USE_VERIFIER
 ### -field Reserved
 
 Set to zero.
+

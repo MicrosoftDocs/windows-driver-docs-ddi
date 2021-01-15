@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSPROPERTY_SPHLI
+ - PKSPROPERTY_SPHLI
  - KSPROPERTY_SPHLI
 ---
 
@@ -96,3 +98,4 @@ The KSPROPERTY_SPHLI structure is used by the <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-dvdsubpic-hli">KSPROPERTY_DVDSUBPIC_HLI</a>
+

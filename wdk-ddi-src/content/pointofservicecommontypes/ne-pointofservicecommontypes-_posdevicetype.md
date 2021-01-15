@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicecommontypes.h
 api_name:
+ - _PosDeviceType
  - PosDeviceType
 ---
 
@@ -76,3 +77,4 @@ Indicates that the type of device is a cash drawer.
 ### -field PosDeviceType_Max
 
 Unused.
+

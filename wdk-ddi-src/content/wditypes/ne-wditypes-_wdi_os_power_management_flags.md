@@ -30,6 +30,7 @@ api_location:
  - wditypes.hpp
 api_name:
  - _WDI_OS_POWER_MANAGEMENT_FLAGS
+ - WDI_OS_POWER_MANAGEMENT_FLAGS
 ---
 
 # _WDI_OS_POWER_MANAGEMENT_FLAGS enumeration
@@ -58,3 +59,4 @@ Enable NAPS mode for screen on *S0* system power state (if supported by hardware
 This enumeration is used as the value type in [WDI_TLV_OS_POWER_MANAGEMENT_FEATURES](/windows-hardware/drivers/network/wdi-tlv-os-power-management-features).
 
 ## -see-also
+

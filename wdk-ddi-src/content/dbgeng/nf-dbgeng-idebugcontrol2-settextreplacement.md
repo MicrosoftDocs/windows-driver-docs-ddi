@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl2.SetTextReplacement
- - IDebugControl3.SetTextReplacement
+ - IDebugControl2::SetTextReplacement
 ---
 
 # IDebugControl2::SetTextReplacement
@@ -123,3 +122,4 @@ For an overview of aliases used by the <a href="/windows-hardware/drivers/debugg
 
 
 <a href="/windows-hardware/drivers/debugger/as--as--set-alias-">as, aS (Set Alias)</a>
+

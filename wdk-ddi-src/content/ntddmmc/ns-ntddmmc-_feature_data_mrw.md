@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_MRW
+ - PFEATURE_DATA_MRW
  - FEATURE_DATA_MRW
 ---
 
@@ -78,3 +80,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

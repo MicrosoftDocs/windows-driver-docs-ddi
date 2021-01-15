@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DRAWPRIMITIVES2DATA
  - D3DHAL_DRAWPRIMITIVES2DATA
 ---
 
@@ -171,3 +172,4 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+

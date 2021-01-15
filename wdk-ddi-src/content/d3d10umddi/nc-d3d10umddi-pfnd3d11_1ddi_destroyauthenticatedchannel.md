@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnDestroyAuthenticatedChannel
+ - PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -62,3 +62,4 @@ A handle to the driver's private data for the authenticated channel. This handle
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
+

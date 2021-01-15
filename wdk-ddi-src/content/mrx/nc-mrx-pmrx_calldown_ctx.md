@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxStart
+ - PMRX_CALLDOWN_CTX
 ---
 
 # PMRX_CALLDOWN_CTX callback function
@@ -121,3 +121,4 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMinirdr</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiOpenAdapterComplete
+ - NDIS_WDI_OPEN_ADAPTER_COMPLETE
 ---
 
 # NDIS_WDI_OPEN_ADAPTER_COMPLETE callback function
@@ -68,3 +68,4 @@ The completion status.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a>
+

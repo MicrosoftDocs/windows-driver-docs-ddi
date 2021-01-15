@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_VALIDATESUBMITCOMMANDFLAGS
+ - DXGK_VALIDATESUBMITCOMMANDFLAGS
 dev_langs:
  - c++
 ---

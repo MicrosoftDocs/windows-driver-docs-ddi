@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_CAS_OPENMMIDATA
+ - PBDA_CAS_OPENMMIDATA
  - BDA_CAS_OPENMMIDATA
 ---
 

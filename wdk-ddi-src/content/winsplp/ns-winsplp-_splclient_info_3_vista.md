@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
+ - _SPLCLIENT_INFO_3_VISTA
  - SPLCLIENT_INFO_3_VISTA
 ---
 
@@ -90,3 +91,4 @@ Specifies the client machine architecture.
 ### -field hSplPrinter
 
 Specifies the server-side handle to be used for direct calls.
+

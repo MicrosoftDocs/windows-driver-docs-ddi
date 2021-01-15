@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - ntintsafe
  - ntintsafe/ntintsafe
+api_name:
+ - ntintsafe
 ---
 
 # Ntintsafe.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsClockPropertySet.KsGetResolution
+ - IKsClockPropertySet::KsGetResolution
 ---
 
 # IKsClockPropertySet::KsGetResolution
@@ -71,3 +71,4 @@ The proxy uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-re
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a>
+

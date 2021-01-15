@@ -33,9 +33,12 @@ api_location:
  - treeinlinecryptoservice.h
 api_name:
  - _INLINE_CRYPTO_DATA_UNIT_SIZE
+ - PINLINE_CRYPTO_DATA_UNIT_SIZE
+ - INLINE_CRYPTO_DATA_UNIT_SIZE
 ---
 
 # _INLINE_CRYPTO_DATA_UNIT_SIZE enumeration
+
 
 ## -description
 
@@ -62,3 +65,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

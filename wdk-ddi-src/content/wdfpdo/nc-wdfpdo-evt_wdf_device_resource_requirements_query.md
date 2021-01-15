@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfpdo.h
 api_name:
- - EvtDeviceResourceRequirementsQuery
+ - EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY
 ---
 
 # EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback function
@@ -88,3 +88,4 @@ To <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdevicepropertydata">se
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resources_query">EvtDeviceResourcesQuery</a>
+

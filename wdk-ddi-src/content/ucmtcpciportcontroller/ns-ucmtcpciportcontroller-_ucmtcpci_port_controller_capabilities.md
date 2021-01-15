@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucmtcpciportcontroller.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
+ - PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES
  - UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
 ---
 
@@ -90,3 +92,4 @@ Contains information about the capabilities of the port controller.
 
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
+

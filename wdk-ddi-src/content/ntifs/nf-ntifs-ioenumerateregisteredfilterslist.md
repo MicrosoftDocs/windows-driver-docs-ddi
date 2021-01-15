@@ -42,87 +42,53 @@ api_name:
 
 # IoEnumerateRegisteredFiltersList function
 
-
 ## -description
 
-The <b>IoEnumerateRegisteredFiltersList</b> routine enumerates the file system filter drivers that have registered with the system.
+The **IoEnumerateRegisteredFiltersList** routine enumerates the file system filter drivers that have registered with the system.
 
 ## -parameters
 
-### -param DriverObjectList 
+### -param DriverObjectList
 
-[out]
-A pointer to a caller-allocated array that receives the driver object pointers. This parameter is optional and can be <b>NULL</b>. (See the following Remarks section.)
+[out] A pointer to a caller-allocated array that receives the driver object pointers. This parameter is optional and can be **NULL**. (See the following Remarks section.)
 
-### -param DriverObjectListSize 
+### -param DriverObjectListSize
 
-[in]
-Size, in bytes, of the <i>DriverObjectList</i> array. Can be zero. (See the following Remarks section.)
+[in] Size, in bytes, of the *DriverObjectList* array. Can be zero. (See the following Remarks section.)
 
-### -param ActualNumberDriverObjects 
+### -param ActualNumberDriverObjects
 
-[out]
-Actual number of driver objects found. Note that if the array at <i>DriverObjectList</i> is too small, the number of driver object pointers that are copied into the array will be less than <i>ActualNumberDriverObjects</i>.
+[out] Actual number of driver objects found. Note that if the array at *DriverObjectList* is too small, the number of driver object pointers that are copied into the array will be less than *ActualNumberDriverObjects*.
 
 ## -returns
 
-<b>IoEnumerateRegisteredFiltersList</b> can return one of the following: 
+**IoEnumerateRegisteredFiltersList** can return one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call to <b>IoEnumerateRegisteredFiltersList</b> was successful. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The array at <i>DriverObjectList</i> is too small to hold the entire driver object list. In this case, <b>IoEnumerateRegisteredFiltersList</b> copies as many driver object pointers into the array as possible. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_SUCCESS | The call to **IoEnumerateRegisteredFiltersList** was successful. |
+| STATUS_BUFFER_TOO_SMALL | The array at *DriverObjectList* is too small to hold the entire driver object list. In this case, **IoEnumerateRegisteredFiltersList** copies as many driver object pointers into the array as possible. |
 
 ## -remarks
 
-A file system filter driver calls <b>IoEnumerateRegisteredFiltersList</b> to obtain an array of pointers to the driver objects for all file system filter drivers that have called <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchange">IoRegisterFsRegistrationChange</a>. 
+A file system filter driver calls **IoEnumerateRegisteredFiltersList** to obtain an array of pointers to the driver objects for all file system filter drivers that have called [**IoRegisterFsRegistrationChange**](nf-ntifs-ioregisterfsregistrationchange.md).
 
-The filter drivers are enumerated in order of decreasing distance from the base file system. The first element (index zero) in the <i>DriverObjectList</i> array represents the filter that is attached farthest from the file system. The second entry is for the next-farthest filter, and so on. The last entry in the array is for the filter that is closest to the base file system. 
+The filter drivers are enumerated in order of decreasing distance from the base file system. The first element (index zero) in the *DriverObjectList* array represents the filter that is attached farthest from the file system. The second entry is for the next-farthest filter, and so on. The last entry in the array is for the filter that is closest to the base file system.
 
-<b>IoEnumerateRegisteredFiltersList</b> enumerates only file system filter drivers (also called "legacy filters"). It does not enumerate minifilters. To enumerate both minifilters and legacy filters, or only minifilters, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>. 
+**IoEnumerateRegisteredFiltersList** enumerates only legacy filter drivers; it does not enumerate minifilters. To enumerate both minifilters and legacy filters, or only minifilters, call [**FltEnumerateFilterInformation**](../fltkernel/nf-fltkernel-fltenumeratefilterinformation.md).
 
-The filter driver typically calls <b>IoEnumerateRegisteredFiltersList</b> twice: once to get the number of driver objects in the list, and once to get the driver object list itself. In the first call, the caller should set the <i>DriverObjectList</i> parameter to <b>NULL</b> and <i>DriverObjectListSize</i> to zero. In the second call, <i>DriverObjectList</i> should contain a pointer to an appropriately-sized pointer array, and <i>DriverObjectListSize</i> should contain the size, in bytes, of that array. 
+The filter driver typically calls **IoEnumerateRegisteredFiltersList** twice: once to get the number of driver objects in the list, and once to get the driver object list itself. In the first call, the caller should set the *DriverObjectList* parameter to **NULL** and *DriverObjectListSize* to zero. In the second call, *DriverObjectList* should contain a pointer to an appropriately-sized pointer array, and *DriverObjectListSize* should contain the size, in bytes, of that array.
 
-<b>IoEnumerateRegisteredFiltersList</b> increments the reference count on every driver object in the list pointed to by <i>DriverObjectList</i>. Thus every successful call to <b>IoEnumerateRegisteredFiltersList</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>for each driver object in the list. Failure to do so prevents the system from freeing or deleting these driver objects because of an outstanding reference count. 
+**IoEnumerateRegisteredFiltersList** increments the reference count on every driver object in the list pointed to by *DriverObjectList*. Thus every successful call to **IoEnumerateRegisteredFiltersList** must be matched by a subsequent call to [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md) for each driver object in the list. Failure to do so prevents the system from freeing or deleting these driver objects because of an outstanding reference count.
 
-Minifilters should call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a> instead of <b>IoEnumerateRegisteredFiltersList</b>.
+Minifilters should call [**FltEnumerateFilterInformation**](../fltkernel/nf-fltkernel-fltenumeratefilterinformation.md) or [**FltEnumerateFilters**](../fltkernel/nf-fltkernel-fltenumeratefilters.md) instead of **IoEnumerateRegisteredFiltersList**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>
+[**FltEnumerateFilterInformation**](../fltkernel/nf-fltkernel-fltenumeratefilterinformation.md)
 
+[**FltEnumerateFilters**](../fltkernel/nf-fltkernel-fltenumeratefilters.md)
 
+[**IoRegisterFsRegistrationChange**](nf-ntifs-ioregisterfsregistrationchange.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchange">IoRegisterFsRegistrationChange</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+[**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md)

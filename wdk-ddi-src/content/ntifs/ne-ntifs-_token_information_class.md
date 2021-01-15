@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_INFORMATION_CLASS
+ - PTOKEN_INFORMATION_CLASS
  - TOKEN_INFORMATION_CLASS
 ---
 
@@ -307,3 +309,4 @@ The maximum value for this enumeration.
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

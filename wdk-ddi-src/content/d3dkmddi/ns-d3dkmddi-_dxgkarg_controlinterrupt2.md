@@ -38,10 +38,12 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DXGKARG_CONTROLINTTERUPT2
+ - _DXGKARG_CONTROLINTERRUPT2
+ - DXGKARG_CONTROLINTERRUPT2
 ---
 
 # _DXGKARG_CONTROLINTERRUPT2 structure
+
 
 ## -description
 
@@ -76,3 +78,4 @@ A [**DXGK_CRTC_VSYNC_STATE**](./ne-d3dkmddi-_dxgk_crtc_vsync_state.md) enumerati
 [**DxgkDdi_ControlInterrupt2**](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md)
 
 [**DxgkDdi_ControlInterrupt3**](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md)
+

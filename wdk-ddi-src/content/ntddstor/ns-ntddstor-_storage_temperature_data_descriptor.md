@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+ - PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR
  - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 ---
 
@@ -107,3 +109,4 @@ Device temperature data, of type <a href="/windows-hardware/drivers/ddi/ntddstor
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
+

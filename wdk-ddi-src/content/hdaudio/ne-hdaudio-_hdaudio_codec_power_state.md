@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
+ - _HDAUDIO_CODEC_POWER_STATE
+ - PHDAUDIO_CODEC_POWER_STATE
  - HDAUDIO_CODEC_POWER_STATE
 ---
 
@@ -85,3 +87,4 @@ Power state Maximum
 ## -remarks
 
 For more information about power states, see <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>.
+

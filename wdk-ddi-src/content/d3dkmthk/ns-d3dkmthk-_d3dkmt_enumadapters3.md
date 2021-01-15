@@ -34,11 +34,13 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ENUMADAPTERS3
+ - D3DKMT_ENUMADAPTERS3
 dev_langs:
  - c++
 ---
 
 # D3DKMT_ENUMADAPTERS3 structure
+
 
 ## -description
 
@@ -84,3 +86,4 @@ Adapters will still be enumerated if no flags are set in **Filter**, but [**D3DK
 [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md)
 
 [**PFND3DKMT_ENUMADAPTERS3**](nc-d3dkmthk-pfnd3dkmt_enumadapters3.md)
+

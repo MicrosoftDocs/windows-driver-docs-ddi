@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.GetState
+ - IWDFRemoteTarget::GetState
 ---
 
 # IWDFRemoteTarget::GetState
@@ -70,7 +70,6 @@ if (FxRemoteTarget->GetState() == WdfIoTargetClosed)
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
@@ -78,3 +77,4 @@ if (FxRemoteTarget->GetState() == WdfIoTargetClosed)
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_state">WDF_IO_TARGET_STATE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateGsConstBufCb
+ - PFND3D10DDI_STATE_GS_CONSTBUF_CB
 ---
 
 # PFND3D10DDI_STATE_GS_CONSTBUF_CB callback function
@@ -74,3 +74,4 @@ The beginning constant buffer for which the runtime should refresh state.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+

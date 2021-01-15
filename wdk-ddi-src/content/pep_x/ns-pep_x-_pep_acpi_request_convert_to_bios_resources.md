@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
+ - PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
  - PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
 ---
 
@@ -88,3 +90,4 @@ The value contained in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a>
+

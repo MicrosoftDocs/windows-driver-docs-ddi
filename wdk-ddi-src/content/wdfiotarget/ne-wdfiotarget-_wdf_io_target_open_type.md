@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfiotarget.h
 api_name:
+ - _WDF_IO_TARGET_OPEN_TYPE
  - WDF_IO_TARGET_OPEN_TYPE
 ---
 
@@ -111,3 +112,4 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>
+

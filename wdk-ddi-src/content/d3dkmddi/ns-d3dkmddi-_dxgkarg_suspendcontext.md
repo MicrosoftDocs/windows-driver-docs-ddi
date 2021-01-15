@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_SUSPENDCONTEXT
+ - DXGKARG_SUSPENDCONTEXT
 dev_langs:
  - c++
 ---

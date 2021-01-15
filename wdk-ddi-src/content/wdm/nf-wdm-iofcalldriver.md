@@ -37,7 +37,6 @@ api_location:
  - Ntoskrnl.exe
 api_name:
  - IofCallDriver
- - IoCallDriver
 ---
 
 # IofCallDriver function
@@ -84,3 +83,4 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver">PoCallDriver</a>
+

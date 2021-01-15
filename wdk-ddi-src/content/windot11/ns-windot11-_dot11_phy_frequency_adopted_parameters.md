@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
+ - PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
  - DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
 product:
  - Windows 10 or later.
@@ -150,3 +152,4 @@ The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMET
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

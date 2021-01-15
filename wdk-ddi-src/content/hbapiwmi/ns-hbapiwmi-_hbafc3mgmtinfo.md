@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _HBAFC3MgmtInfo
+ - PHBAFC3MgmtInfo
  - HBAFC3MgmtInfo
 ---
 
@@ -106,3 +108,4 @@ The WMI tool suite generates a declaration of this structure automatically when 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getfc3mgmtinfo">GetFC3MgmtInfo</a>
+

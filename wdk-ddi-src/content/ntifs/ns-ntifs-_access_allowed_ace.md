@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _ACCESS_ALLOWED_ACE
  - ACCESS_ALLOWED_ACE
 ---
 
@@ -102,3 +103,4 @@ This structure must be aligned on a 32-bit boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
+

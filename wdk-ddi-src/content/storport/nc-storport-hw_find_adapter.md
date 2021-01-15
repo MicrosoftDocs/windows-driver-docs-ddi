@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorFindAdapter
+ - HW_FIND_ADAPTER
 ---
 
 # HW_FIND_ADAPTER callback function
@@ -151,3 +151,4 @@ The **HW_FIND_ADAPTER** function type is defined in the Storport.h header file. 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
 
 [**StorPortLogError**](nf-storport-storportlogerror.md)
+

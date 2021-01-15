@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _PREFETCH_OPEN_ECP_CONTEXT
+ - PPREFETCH_OPEN_ECP_CONTEXT
  - PREFETCH_OPEN_ECP_CONTEXT
 ---
 
@@ -112,3 +114,4 @@ For any application or driver to access any of the data that is being prefetched
 For information about how to use ECPs to associate additional information with an <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> operation on a file, see <a href="/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>. 
 
 The PREFETCH_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about a prefetcher open ECP only. For more information about this issue, see <a href="/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.
+

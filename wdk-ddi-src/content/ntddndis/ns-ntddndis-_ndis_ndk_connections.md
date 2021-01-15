@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_NDK_CONNECTIONS
  - NDIS_NDK_CONNECTIONS
 ---
 
@@ -106,3 +107,4 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 
 <a href="/windows-hardware/drivers/network/oid-ndk-connections">OID_NDK_CONNECTIONS</a>
+

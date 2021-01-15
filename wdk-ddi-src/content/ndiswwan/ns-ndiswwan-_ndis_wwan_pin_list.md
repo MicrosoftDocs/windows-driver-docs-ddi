@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_PIN_LIST
+ - PNDIS_WWAN_PIN_LIST
  - NDIS_WWAN_PIN_LIST
 ---
 
@@ -191,3 +193,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a>
+

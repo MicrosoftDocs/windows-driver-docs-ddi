@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_SETDISPLAYMODE
  - D3DDDICB_SETDISPLAYMODE
 ---
 
@@ -74,3 +75,4 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member in the
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplaymodecb">pfnSetDisplayModeCb</a>
+

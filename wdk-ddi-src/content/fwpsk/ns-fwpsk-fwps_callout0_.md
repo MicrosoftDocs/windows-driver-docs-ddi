@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_CALLOUT0_
  - FWPS_CALLOUT0
 ---
 
@@ -141,3 +142,4 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a>
+

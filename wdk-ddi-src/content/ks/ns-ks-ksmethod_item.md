@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSMETHOD_ITEM
  - KSMETHOD_ITEM
 ---
 
@@ -151,3 +152,4 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 
 <a href="/previous-versions/ff567206(v=vs.85)">KStrSupportHandler</a>
+

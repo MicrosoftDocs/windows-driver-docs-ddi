@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_DATA_ROLE
+ - USBC_DATA_ROLE
 ---
 
 # _USBC_DATA_ROLE enumeration

@@ -42,6 +42,8 @@ api_location:
  - Wudfddi_types.h
  - Wdffileobject.h
 api_name:
+ - _WDF_FILE_INFORMATION_CLASS
+ - PWDF_FILE_INFORMATION_CLASS
  - WDF_FILE_INFORMATION_CLASS
 ---
 
@@ -177,3 +179,4 @@ For more information about the enumeration value and associated structures, see 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-getsetinformationparameters">IWDFIoRequest2::GetSetInformationParameters</a>
+

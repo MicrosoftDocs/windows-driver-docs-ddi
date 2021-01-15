@@ -37,7 +37,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
- - HwScsiWmiQueryReginfo
+ - PSCSIWMI_QUERY_REGINFO
 ---
 
 # PSCSIWMI_QUERY_REGINFO callback function
@@ -88,3 +88,4 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
+

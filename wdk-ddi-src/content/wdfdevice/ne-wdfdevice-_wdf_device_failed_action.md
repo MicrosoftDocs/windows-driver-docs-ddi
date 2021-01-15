@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_FAILED_ACTION
  - WDF_DEVICE_FAILED_ACTION
 ---
 
@@ -76,3 +77,4 @@ For information about specifying <b>WdfDeviceFailedAttemptRestart</b> in a UMDF 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetfailed">WdfDeviceSetFailed</a>
+

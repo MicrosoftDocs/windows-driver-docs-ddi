@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _ACL_MODE
  - ACL_MODE
 ---
 
@@ -96,3 +97,4 @@ The
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_get_mode">_BRB_ACL_GET_MODE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Vpci.h
 api_name:
+ - _VPCI_INVALIDATE_BLOCK_OUTPUT
+ - PVPCI_INVALIDATE_BLOCK_OUTPUT
  - VPCI_INVALIDATE_BLOCK_OUTPUT
 ---
 
@@ -88,3 +90,4 @@ However, we recommend that IHVs reserve the first 64 VF configuration blocks for
 
 
 <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+

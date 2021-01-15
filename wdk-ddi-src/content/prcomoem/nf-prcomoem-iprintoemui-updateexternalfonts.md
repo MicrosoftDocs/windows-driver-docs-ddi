@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.UpdateExternalFonts
+ - IPrintOemUI::UpdateExternalFonts
 ---
 
 # IPrintOemUI::UpdateExternalFonts
@@ -120,3 +120,4 @@ Descriptions of cartridge fonts can be copied from the .uff file specified by th
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">IPrintOemUI::FontInstallerDlgProc</a>
+

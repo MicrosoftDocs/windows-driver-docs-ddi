@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvol.h
 api_name:
+ - _VOLUME_LOGICAL_OFFSET
+ - PVOLUME_LOGICAL_OFFSET
  - VOLUME_LOGICAL_OFFSET
 ---
 
@@ -68,3 +70,4 @@ The VOLUME_LOGICAL_OFFSET structure is used with <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_physical_to_logical">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
+

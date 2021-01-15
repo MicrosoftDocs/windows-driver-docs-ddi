@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GDIARG_COLORFILL
  - DXGK_GDIARG_COLORFILL
 ---
 
@@ -96,3 +97,4 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

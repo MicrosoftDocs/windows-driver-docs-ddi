@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucmtcpciportcontroller.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
+ - PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA
  - UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 ---
 
@@ -87,3 +89,4 @@ A
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a>
+

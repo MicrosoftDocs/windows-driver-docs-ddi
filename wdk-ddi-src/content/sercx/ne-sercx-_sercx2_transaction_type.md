@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
+ - _SERCX2_TRANSACTION_TYPE
  - SERCX2_TRANSACTION_TYPE
 ---
 
@@ -78,3 +79,4 @@ The <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_select_next
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_select_next_transmit_transaction_type">EvtSerCx2SelectNextTransmitTransactionType</a>
+

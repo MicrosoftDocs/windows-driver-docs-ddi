@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
+ - D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
 dev_langs:
  - c++
 ---

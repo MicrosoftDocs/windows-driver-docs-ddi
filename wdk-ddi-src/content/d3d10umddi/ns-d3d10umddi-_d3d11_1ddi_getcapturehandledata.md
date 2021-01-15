@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
+ - _D3D11_1DDI_GETCAPTUREHANDLEDATA
  - D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
@@ -90,3 +91,4 @@ When the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d1
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle">GetCaptureHandle</a>
+

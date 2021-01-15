@@ -37,8 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFDeviceDepot2.Item
- - IWDTFDeviceDepot2.get_Item
+ - IWDTFActions2::get_Item
 ---
 
 # IWDTFActions2::get_Item

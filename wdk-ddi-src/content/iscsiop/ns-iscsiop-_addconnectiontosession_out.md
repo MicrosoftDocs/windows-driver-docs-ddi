@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _AddConnectionToSession_OUT
+ - PAddConnectionToSession_OUT
  - AddConnectionToSession_OUT
 ---
 
@@ -80,3 +82,4 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
+

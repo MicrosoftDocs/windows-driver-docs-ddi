@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetProcessIdsByIndex
- - IDebugSystemObjects2.GetProcessIdsByIndex
- - IDebugSystemObjects3.GetProcessIdsByIndex
- - IDebugSystemObjects4.GetProcessIdsByIndex
+ - IDebugSystemObjects2::GetProcessIdsByIndex
 ---
 
 # IDebugSystemObjects2::GetProcessIdsByIndex
@@ -99,3 +96,4 @@ The method was successful.
 The index of the first process is zero.  The index of the last process is the number of processes returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberprocesses">GetNumberProcesses</a> minus one.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

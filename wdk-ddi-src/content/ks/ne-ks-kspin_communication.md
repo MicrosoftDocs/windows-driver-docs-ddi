@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ks.h
 api_name:
+ - PKSPIN_COMMUNICATION
  - KSPIN_COMMUNICATION
 ---
 

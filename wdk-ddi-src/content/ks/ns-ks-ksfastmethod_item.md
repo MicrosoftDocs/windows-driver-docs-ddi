@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSFASTMETHOD_ITEM
  - KSFASTMETHOD_ITEM
 ---
 
@@ -70,3 +71,4 @@ Set to <b>TRUE</b> if the method is supported, otherwise set to <b>FALSE</b>.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>
+

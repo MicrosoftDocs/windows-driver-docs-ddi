@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskSend
+ - PFN_WSK_SEND
 ---
 
 # PFN_WSK_SEND callback function
@@ -227,3 +227,4 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a>
+

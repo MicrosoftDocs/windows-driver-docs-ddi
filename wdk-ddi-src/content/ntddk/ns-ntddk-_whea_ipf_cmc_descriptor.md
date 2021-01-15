@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_IPF_CMC_DESCRIPTOR
+ - PWHEA_IPF_CMC_DESCRIPTOR
  - WHEA_IPF_CMC_DESCRIPTOR
 ---
 
@@ -72,3 +74,4 @@ A WHEA_IPF_CMC_DESCRIPTOR structure is contained within the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_COMPOSERECTS
  - D3DDDIARG_COMPOSERECTS
 ---
 
@@ -122,3 +123,4 @@ SHORT X, Y;            // Position in bits in the destination surface
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

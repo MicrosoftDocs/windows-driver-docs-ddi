@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_PARAMETER_TYPE
+ - PNDIS_PARAMETER_TYPE
  - NDIS_PARAMETER_TYPE
 ---
 
@@ -88,3 +90,4 @@ The NDIS_PARAMETER_TYPE enumeration type is used in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a>
+

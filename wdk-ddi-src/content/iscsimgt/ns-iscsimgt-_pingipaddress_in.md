@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _PingIPAddress_IN
+ - PPingIPAddress_IN
  - PingIPAddress_IN
 ---
 
@@ -76,3 +78,4 @@ We recommend that you implement this class.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
+

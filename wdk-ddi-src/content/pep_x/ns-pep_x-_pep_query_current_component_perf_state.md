@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
+ - PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE
  - PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 ---
 
@@ -115,3 +117,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
+

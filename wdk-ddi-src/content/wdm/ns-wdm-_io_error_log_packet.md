@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_ERROR_LOG_PACKET
+ - PIO_ERROR_LOG_PACKET
  - IO_ERROR_LOG_PACKET
 ---
 
@@ -136,3 +138,4 @@ For more information about how to use this structure, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _EXTCHKBOX
+ - PEXTCHKBOX
  - EXTCHKBOX
 ---
 
@@ -166,3 +168,4 @@ An extended check box is a CPSUI-defined type of check box that can be associate
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a>
+

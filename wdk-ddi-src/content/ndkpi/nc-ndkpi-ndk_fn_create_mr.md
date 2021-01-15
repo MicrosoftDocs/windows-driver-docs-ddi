@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateMr
+ - NDK_FN_CREATE_MR
 ---
 
 # NDK_FN_CREATE_MR callback function
@@ -151,3 +151,4 @@ The <i>NdkCreateMr</i> function creates an NDK memory region (MR) object that ca
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>
+

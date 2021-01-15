@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
  - KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
 ---
 
@@ -78,3 +79,4 @@ The minidriver should return a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-k
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+

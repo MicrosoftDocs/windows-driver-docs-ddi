@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _FSINFOCLASS
+ - PFS_INFORMATION_CLASS
  - FS_INFORMATION_CLASS
 ---
 
@@ -112,3 +114,4 @@ Returns a [**FILE_FS_FULL_SIZE_INFORMATION_EX**](../ntddk/ns-ntddk-_file_fs_full
 ### -field FileFsMaximumInformation
 
 End of this enumeration.
+

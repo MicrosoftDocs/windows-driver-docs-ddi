@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DECODEEXECUTE
  - D3DDDIARG_DECODEEXECUTE
 ---
 
@@ -74,3 +75,4 @@ The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX Video Accele
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeexecute">DecodeExecute</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - fragment
  - fragment/fragment
+api_name:
+ - fragment
 ---
 
 # Fragment.h header

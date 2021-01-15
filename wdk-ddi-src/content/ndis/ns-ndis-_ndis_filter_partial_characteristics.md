@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+ - PNDIS_FILTER_PARTIAL_CHARACTERISTICS
  - NDIS_FILTER_PARTIAL_CHARACTERISTICS
 ---
 
@@ -149,3 +151,4 @@ This structure specifies optional
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
+

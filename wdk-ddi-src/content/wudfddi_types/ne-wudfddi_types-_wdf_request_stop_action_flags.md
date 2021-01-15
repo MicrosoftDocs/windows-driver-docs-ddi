@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_REQUEST_STOP_ACTION_FLAGS
  - WDF_REQUEST_STOP_ACTION_FLAGS
 ---
 
@@ -73,3 +74,4 @@ If this value is set to 1, the request is marked as cancelable.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackiostop-oniostop">IQueueCallbackIoStop::OnIoStop</a>
+

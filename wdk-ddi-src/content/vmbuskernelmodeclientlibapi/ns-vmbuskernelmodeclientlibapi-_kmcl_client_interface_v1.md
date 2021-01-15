@@ -35,7 +35,9 @@ api_type:
 api_location:
  - vmbuskernelmodeclientlibapi.h
 api_name:
- - _KMCL_CLIENT_INTERFACE_V1
+ - _KMCL_SERVER_ONLY_METHODS_V5
+ - PKMCL_SERVER_ONLY_METHODS_V5
+ - KMCL_SERVER_ONLY_METHODS_V5
 ---
 
 # _KMCL_CLIENT_INTERFACE_V1 structure
@@ -290,3 +292,4 @@ For more information about driver-defined interfaces, see [Using Driver-Defined 
 [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md)
 
 [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md)
+

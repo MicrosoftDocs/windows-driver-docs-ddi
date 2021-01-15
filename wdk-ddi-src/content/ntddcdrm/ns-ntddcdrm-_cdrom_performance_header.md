@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_PERFORMANCE_HEADER
+ - PCDROM_PERFORMANCE_HEADER
  - CDROM_PERFORMANCE_HEADER
 ---
 
@@ -94,3 +96,4 @@ Contains a list of the following records, depending upon the type of request: <a
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

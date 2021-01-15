@@ -39,6 +39,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
+ - _DEBUG_FAILURE_TYPE
  - DEBUG_FAILURE_TYPE
 ---
 
@@ -78,3 +79,4 @@ The failure occurred in the application iexplore.exe.
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

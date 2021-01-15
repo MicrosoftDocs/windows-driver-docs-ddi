@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_GROUP_START_PARAMETERS
+ - PDOT11_WFD_GROUP_START_PARAMETERS
  - DOT11_WFD_GROUP_START_PARAMETERS
 product:
  - Windows 10 or later.
@@ -94,3 +96,4 @@ typedef struct _DOT11_WFD_GROUP_START_PARAMETERS {
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-dot11-wfd-group-start-parameters">OID_DOT11_WFD_GROUP_START_PARAMETERS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_GETPITCH
  - D3DDDIARG_GETPITCH
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the <a
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a>
+

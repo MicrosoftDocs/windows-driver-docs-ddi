@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
+ - _USB_BUS_INFORMATION_LEVEL_1
+ - PUSB_BUS_INFORMATION_LEVEL_1
  - USB_BUS_INFORMATION_LEVEL_1
 ---
 
@@ -82,3 +84,4 @@ For more information about how to obtain the proper level of USB interface, see 
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

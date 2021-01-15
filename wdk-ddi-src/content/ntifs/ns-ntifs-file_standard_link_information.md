@@ -29,9 +29,14 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_STANDARD_LINK_INFORMATION
+ - PFILE_STANDARD_LINK_INFORMATION
  - FILE_STANDARD_LINK_INFORMATION
 f1_keywords:
+ - _FILE_STANDARD_LINK_INFORMATION
  - ntifs/_FILE_STANDARD_LINK_INFORMATION
+ - PFILE_STANDARD_LINK_INFORMATION
+ - ntifs/PFILE_STANDARD_LINK_INFORMATION
+ - FILE_STANDARD_LINK_INFORMATION
  - ntifs/FILE_STANDARD_LINK_INFORMATION
 dev_langs:
  - c++
@@ -64,3 +69,4 @@ Set to 1 to indicate that the file is a directory; otherwise, set to FALSE.
 ## -see-also
 
 [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)
+

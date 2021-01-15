@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_RENDER
  - D3DDDICB_RENDER
 ---
 
@@ -190,3 +191,4 @@ A pointer used by the driver to pass the context's API sequence number.
 [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md)
 
 [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md)
+

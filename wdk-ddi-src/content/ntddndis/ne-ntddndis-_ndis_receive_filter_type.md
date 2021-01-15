@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_TYPE
+ - PNDIS_RECEIVE_FILTER_TYPE
  - NDIS_RECEIVE_FILTER_TYPE
 ---
 
@@ -87,3 +89,4 @@ For more information about packet coalescing, see <a href="/windows-hardware/dri
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_parameters">
    NDIS_RECEIVE_FILTER_PARAMETERS</a>
+

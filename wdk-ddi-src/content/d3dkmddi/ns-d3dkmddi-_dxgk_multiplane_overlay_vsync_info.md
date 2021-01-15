@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO
  - DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO
 ---
 
@@ -66,3 +67,4 @@ Indicates if the overlay plane specified by <b>LayerIndex</b> is enabled for dis
 ### -field PlaneAttributes
 
 A structure of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+

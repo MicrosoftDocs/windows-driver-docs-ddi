@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_STORAGE_TYPE_VALUES
  - WPD_STORAGE_TYPE_VALUES
 ---
 
@@ -79,3 +80,4 @@ None.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

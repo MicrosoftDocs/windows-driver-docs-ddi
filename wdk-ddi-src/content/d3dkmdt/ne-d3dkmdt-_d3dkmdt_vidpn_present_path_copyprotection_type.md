@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration [Display Devices], D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, D3DKMDT_VPPMT_NOPROTECTION, D3DKMDT_VPPMT_UNINITIALIZED, DmEnums_48fdc75d-b1cb-4bc2-80b1-0aa79b16f480.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, d3dkmdt/D3DKMDT_VPPMT_NOPROTECTION, d3dkmdt/D3DKMDT_VPPMT_UNINITIALIZED, display.d3dkmdt_vidpn_present_path_copyprotection_type
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
  - D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
 ---
 
@@ -70,3 +71,4 @@ Indicates that the path provides full Rovi (formerly Macrovision) copy protectio
 ## -remarks
 
 The <b>CopyProtectionType</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration.
+

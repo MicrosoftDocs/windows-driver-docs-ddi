@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DRIVER_OBJECT
+ - PDRIVER_OBJECT
  - DRIVER_OBJECT
 ---
 
@@ -160,3 +162,4 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>
+

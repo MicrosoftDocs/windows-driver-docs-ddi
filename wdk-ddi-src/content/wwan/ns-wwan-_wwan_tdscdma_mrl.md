@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_TDSCDMA_MRL
+ - PWWAN_TDSCDMA_MRL
  - WWAN_TDSCDMA_MRL
 ---
 
@@ -76,3 +78,4 @@ The array of MRL records, each specified as a <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_tdscdma_serving_cell_info">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hwnclx.h
 api_name:
+ - _HWN_CLX_EXPORT_INDEX
+ - PHWN_CLX_EXPORT_INDEX
  - HWN_CLX_EXPORT_INDEX
 ---
 
@@ -92,3 +94,4 @@ typedef enum _HWN_CLX_EXPORT_INDEX {
 
 
 <a href="/windows-hardware/drivers/ddi/_gpio">Hardware notifications reference</a>
+

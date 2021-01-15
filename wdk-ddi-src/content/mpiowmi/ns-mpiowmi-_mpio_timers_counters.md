@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_TIMERS_COUNTERS
+ - PMPIO_TIMERS_COUNTERS
  - MPIO_TIMERS_COUNTERS
 ---
 

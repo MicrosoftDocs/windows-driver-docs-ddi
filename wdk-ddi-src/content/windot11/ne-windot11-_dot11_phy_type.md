@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_PHY_TYPE
+ - PDOT11_PHY_TYPE
  - DOT11_PHY_TYPE
 product:
  - Windows 10 or later.
@@ -166,3 +168,4 @@ An IHV can assign a value for its proprietary PHY types from
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
+

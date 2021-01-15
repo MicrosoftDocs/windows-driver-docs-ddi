@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _BOOT_AREA_INFO
+ - PBOOT_AREA_INFO
  - BOOT_AREA_INFO
 ---
 
@@ -72,3 +74,4 @@ The location of a boot sector or a copy of a boot sector.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ifs/fsctl-get-boot-area-info">FSCTL_GET_BOOT_AREA_INFO</a>
+

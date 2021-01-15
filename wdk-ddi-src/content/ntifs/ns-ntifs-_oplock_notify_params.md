@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _OPLOCK_NOTIFY_PARAMS
+ - POPLOCK_NOTIFY_PARAMS
  - OPLOCK_NOTIFY_PARAMS
 ---
 

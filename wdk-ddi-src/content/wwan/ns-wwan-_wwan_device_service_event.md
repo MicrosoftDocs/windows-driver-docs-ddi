@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_EVENT
+ - PWWAN_DEVICE_SERVICE_EVENT
  - WWAN_DEVICE_SERVICE_EVENT
 ---
 
@@ -68,3 +70,4 @@ The size, in bytes, of the device service event data that follows the structure 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+

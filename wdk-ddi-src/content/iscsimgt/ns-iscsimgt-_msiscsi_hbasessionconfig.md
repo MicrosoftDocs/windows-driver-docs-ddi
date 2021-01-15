@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_HBASessionConfig
+ - PMSiSCSI_HBASessionConfig
  - MSiSCSI_HBASessionConfig
 ---
 
@@ -90,3 +92,4 @@ It is optional that you implement this class.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msiscsi-hbasessionconfig-wmi-class">MSiSCSI_HBASessionConfig WMI Class</a>
+

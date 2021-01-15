@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_AUTH_METHOD
+ - PWWAN_AUTH_METHOD
  - WWAN_AUTH_METHOD
 ---
 
@@ -80,3 +82,4 @@ The <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WW
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
+

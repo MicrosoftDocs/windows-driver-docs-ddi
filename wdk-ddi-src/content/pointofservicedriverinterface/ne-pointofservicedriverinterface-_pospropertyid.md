@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicedriverinterface.h
 api_name:
+ - _PosPropertyId
  - PosPropertyId
 ---
 
@@ -308,3 +309,4 @@ Specifies the <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterfa
 
 
 <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_set_property">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
+

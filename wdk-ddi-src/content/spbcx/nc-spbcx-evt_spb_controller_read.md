@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbControllerIoRead
+ - EVT_SPB_CONTROLLER_READ
 ---
 
 # EVT_SPB_CONTROLLER_READ callback function
@@ -141,3 +141,4 @@ The EVT_SPB_CONTROLLER_READ function type is defined in the Spbcx.h header file.
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
+

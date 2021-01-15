@@ -34,6 +34,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDICB_INVALIDATECACHE
+ - D3DDDICB_INVALIDATECACHE
 dev_langs:
  - c++
 ---

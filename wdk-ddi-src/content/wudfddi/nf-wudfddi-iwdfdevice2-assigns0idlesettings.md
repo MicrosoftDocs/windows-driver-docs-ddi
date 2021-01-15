@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.AssignS0IdleSettings
+ - IWDFDevice2::AssignS0IdleSettings
 ---
 
 # IWDFDevice2::AssignS0IdleSettings
@@ -218,7 +218,6 @@ The following code example is based on the UMDF version of the toaster sample. T
     SAFE_RELEASE(pIWDFDevice2);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
@@ -230,3 +229,4 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-assigns0idlesettingsex">IWDFDevice3::AssignS0IdleSettingsEx</a>
+

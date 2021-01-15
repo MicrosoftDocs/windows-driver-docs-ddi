@@ -30,12 +30,14 @@ api_location:
 api_name:
  - IDARG_OUT_GETSRMLISTVERSION
 f1_keywords:
+ - IDARG_OUT_GETSRMLISTVERSION
  - iddcx/IDARG_OUT_GETSRMLISTVERSION
 dev_langs:
  - c++
 ---
 
 # IDARG_OUT_GETSRMLISTVERSION structure
+
 
 ## -description
 
@@ -54,3 +56,4 @@ dev_langs:
 [**IDARG_IN_GETSRMLISTVERSION**](ns-iddcx-idarg_in_getsrmlistversion.md)
 
 [**IddCxMonitorGetSrmListVersion**](nf-iddcx-iddcxmonitorgetsrmlistversion.md)
+

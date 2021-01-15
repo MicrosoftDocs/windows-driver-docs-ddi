@@ -30,6 +30,7 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _COLORSPACE_TRANSFORM_TYPE
  - COLORSPACE_TRANSFORM_TYPE
 dev_langs:
  - c++

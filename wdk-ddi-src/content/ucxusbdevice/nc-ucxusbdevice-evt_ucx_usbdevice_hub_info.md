@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_HUB_INFO
+ - EVT_UCX_USBDEVICE_HUB_INFO
 ---
 
 # EVT_UCX_USBDEVICE_HUB_INFO callback function
@@ -100,7 +100,6 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_ucx_usbdevice_event_callbacks">UCX_USBDEVICE_EVENT_CALLBACKS</a>
@@ -116,3 +115,4 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
+

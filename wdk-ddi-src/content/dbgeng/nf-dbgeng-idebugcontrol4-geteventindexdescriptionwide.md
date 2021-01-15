@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetEventIndexDescriptionWide
+ - IDebugControl4::GetEventIndexDescriptionWide
 ---
 
 # IDebugControl4::GetEventIndexDescriptionWide
@@ -111,3 +111,4 @@ The amount of descriptive information available for a particular target varies d
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

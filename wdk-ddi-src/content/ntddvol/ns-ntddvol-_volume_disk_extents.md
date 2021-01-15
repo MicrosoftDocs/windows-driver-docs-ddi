@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvol.h
 api_name:
+ - _VOLUME_DISK_EXTENTS
+ - PVOLUME_DISK_EXTENTS
  - VOLUME_DISK_EXTENTS
 ---
 
@@ -72,3 +74,4 @@ Indicates the number of extents that comprise the volume, which can span multipl
 
 
 disk extent
+

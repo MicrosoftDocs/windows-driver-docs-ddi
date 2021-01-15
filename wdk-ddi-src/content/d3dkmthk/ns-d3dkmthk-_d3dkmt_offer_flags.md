@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_OFFER_FLAGS
+ - D3DKMT_OFFER_FLAGS
 dev_langs:
  - c++
 ---

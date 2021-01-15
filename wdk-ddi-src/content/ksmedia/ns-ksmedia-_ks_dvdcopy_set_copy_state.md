@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_DVDCOPY_SET_COPY_STATE
+ - PKS_DVDCOPY_SET_COPY_STATE
  - KS_DVDCOPY_SET_COPY_STATE
 ---
 
@@ -70,3 +72,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyrigh
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_dvdcopystate">KS_DVDCOPYSTATE</a>
+

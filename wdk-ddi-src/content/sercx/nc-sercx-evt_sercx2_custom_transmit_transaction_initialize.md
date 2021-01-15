@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2CustomTransmitTransactionInitialize
+ - EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE
 ---
 
 # EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE callback function
@@ -124,3 +124,4 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE</b> function type is de
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a>
+

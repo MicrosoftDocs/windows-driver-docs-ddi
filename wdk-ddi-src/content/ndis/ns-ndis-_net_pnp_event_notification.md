@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_PNP_EVENT_NOTIFICATION
+ - PNET_PNP_EVENT_NOTIFICATION
  - NET_PNP_EVENT_NOTIFICATION
 ---
 
@@ -142,3 +144,4 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceWakeFromSxTriggered
+ - EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED
 ---
 
 # EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED callback function
@@ -79,3 +79,4 @@ For more information about this callback function, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_wake_from_s0_triggered">EvtDeviceWakeFromS0Triggered</a>
+

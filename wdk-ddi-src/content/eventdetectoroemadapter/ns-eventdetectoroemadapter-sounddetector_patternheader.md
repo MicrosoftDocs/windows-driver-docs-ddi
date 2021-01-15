@@ -33,6 +33,7 @@ api_type:
 api_location:
  - eventdetectoroemadapter.h
 api_name:
+ - __MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0001
  - SOUNDDETECTOR_PATTERNHEADER
 product:
  - Windows
@@ -64,3 +65,4 @@ This structure is the part of the Event Detector OEM interface to be used for ha
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
+

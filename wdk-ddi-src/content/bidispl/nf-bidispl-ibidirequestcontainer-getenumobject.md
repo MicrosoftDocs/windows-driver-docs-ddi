@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequestContainer.GetEnumObject
+ - IBidiRequestContainer::GetEnumObject
 ---
 
 # IBidiRequestContainer::GetEnumObject
@@ -117,3 +117,4 @@ An application can call <a href="/windows/win32/api/objidl/nf-objidl-ienumunknow
 
 
 <a href="/windows/win32/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
+

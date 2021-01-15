@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_CLOSEALLOCATION
  - DXGKARG_CLOSEALLOCATION
 ---
 
@@ -62,3 +63,4 @@ The DXGKARG_CLOSEALLOCATION structure describes allocations that the display min
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_closeallocation">DxgkDdiCloseAllocation</a>
+

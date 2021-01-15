@@ -39,6 +39,7 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - PMESSAGEBOX_PARAMS
  - MESSAGEBOX_PARAMS
 ---
 
@@ -86,3 +87,4 @@ One member of the <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-show
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>
+

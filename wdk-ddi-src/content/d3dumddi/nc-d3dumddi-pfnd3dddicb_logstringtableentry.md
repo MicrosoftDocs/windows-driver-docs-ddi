@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - LogMarkerStringTableEntry
+ - PFND3DDDICB_LOGSTRINGTABLEENTRY
 ---
 
 # PFND3DDDICB_LOGSTRINGTABLEENTRY callback function
@@ -68,3 +68,4 @@ A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a>
+

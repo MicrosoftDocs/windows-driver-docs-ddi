@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _SET_LOCAL_HOST_PROPS2
+ - PSET_LOCAL_HOST_PROPS2
  - SET_LOCAL_HOST_PROPS2
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_LKGFIX_PARAM
  - GNSS_LKGFIX_PARAM
 ---
 

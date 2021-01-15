@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _PCI_EXPRESS_LINK_CONTROL3
+ - PPCI_EXPRESS_LINK_CONTROL3
  - PCI_EXPRESS_LINK_CONTROL3
 f1_keywords:
  - _PCI_EXPRESS_LINK_CONTROL3

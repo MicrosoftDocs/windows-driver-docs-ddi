@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportInvalidateOffload
+ - W_INVALIDATE_OFFLOAD_HANDLER
 ---
 
 # W_INVALIDATE_OFFLOAD_HANDLER callback function
@@ -122,3 +122,4 @@ Eventually, the host stack will
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_TEXTURESTAGESTATE
  - D3DDDIARG_TEXTURESTAGESTATE
 ---
 
@@ -77,3 +78,4 @@ The following texture states are used exclusively by user-mode display drivers f
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_settexturestagestate">SetTextureStageState</a>
+

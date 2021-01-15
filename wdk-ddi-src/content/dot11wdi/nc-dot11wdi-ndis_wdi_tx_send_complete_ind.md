@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxSendCompleteIndication
+ - NDIS_WDI_TX_SEND_COMPLETE_IND
 ---
 
 # NDIS_WDI_TX_SEND_COMPLETE_IND callback function
@@ -103,3 +103,4 @@ A TX completion with a frame with <b>WDI_TxFrameStatus_SendPostponed</b> is iden
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a>
+

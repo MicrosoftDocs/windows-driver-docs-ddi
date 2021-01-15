@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkInvalidate
+ - NDK_FN_INVALIDATE
 ---
 
 # NDK_FN_INVALIDATE callback function
@@ -203,3 +203,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
+

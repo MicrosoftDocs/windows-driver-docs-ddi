@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_DEFRAG_ESCAPE_OPERATION
+ - D3DKMT_DEFRAG_ESCAPE_OPERATION
 dev_langs:
  - c++
 ---

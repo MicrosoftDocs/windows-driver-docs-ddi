@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWaveRTStream.AllocatePagesForMdl
+ - IPortWaveRTStream::AllocatePagesForMdl
 ---
 
 # IPortWaveRTStream::AllocatePagesForMdl
@@ -86,3 +86,4 @@ Like the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-mapallocatedpages">IPortWaveRTStream::MapAllocatedPages</a>
+

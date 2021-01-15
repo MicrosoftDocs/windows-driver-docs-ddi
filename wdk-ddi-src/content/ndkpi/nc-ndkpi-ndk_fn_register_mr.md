@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkRegisterMr
+ - NDK_FN_REGISTER_MR
 ---
 
 # NDK_FN_REGISTER_MR callback function
@@ -242,3 +242,4 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
+

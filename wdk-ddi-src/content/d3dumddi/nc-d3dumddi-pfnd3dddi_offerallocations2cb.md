@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnOfferAllocations2Cb
+ - PFND3DDDI_OFFERALLOCATIONS2CB
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocations3cb">pfnReclaimAllocations3Cb</a>
+

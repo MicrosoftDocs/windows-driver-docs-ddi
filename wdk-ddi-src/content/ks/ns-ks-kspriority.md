@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPRIORITY
  - KSPRIORITY
 ---
 
@@ -119,3 +120,4 @@ If the removal of resources by a higher priority client causes the filter pin to
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatepin">KsCreatePin</a>
+

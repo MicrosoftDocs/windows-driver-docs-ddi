@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _OEMUIPROCS
+ - POEMUIPROCS
  - OEMUIPROCS
 ---
 
@@ -68,3 +70,4 @@ Pointer to the printer driver's <b>DrvUpdateUISetting</b> function.
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a> and <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
 
 The OEMUIPROCS structure's address is contained in an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - vSwitchLifetimeNotifyFn
+ - FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
 ---
 
 # FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback function
@@ -187,3 +187,4 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-array">OID_SWITCH_PORT_ARRAY</a>
+

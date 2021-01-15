@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamProcessUSBPacketEx
+ - PCAM_PROCESS_PACKET_ROUTINE_EX
 ---
 
 # PCAM_PROCESS_PACKET_ROUTINE_EX callback function
@@ -147,3 +147,4 @@ This function is optional.
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_iso_packet_descriptor">USBD_ISO_PACKET_DESCRIPTOR</a>
+

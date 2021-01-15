@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetStreamSourceFreq
+ - PFND3DDDI_SETSTREAMSOURCEFREQ
 product:
  - Windows
 ---
@@ -103,3 +103,4 @@ The driver ignores the setting of a stream's frequency divisor either for indexe
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_drawprimitive">DrawPrimitive</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionManager.EnableEvents
+ - IPrinterExtensionManager::EnableEvents
 ---
 
 # IPrinterExtensionManager::EnableEvents
@@ -67,3 +67,4 @@ In the case of a driver event like, for example, Print Preferences or Printer No
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionmanager">IPrinterExtensionManager</a>
+

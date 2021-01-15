@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.MarkCancelable
+ - IWDFIoRequest::MarkCancelable
 ---
 
 # IWDFIoRequest::MarkCancelable
@@ -102,7 +102,6 @@ The following code example sets up a request so that the framework can cancel it
     pWdfRequest->MarkCancelable(cancelCallback);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackdeviceiocontrol-ondeviceiocontrol">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
@@ -138,3 +137,4 @@ The following code example sets up a request so that the framework can cancel it
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-unmarkcancelable">IWDFIoRequest::UnmarkCancelable</a>
+

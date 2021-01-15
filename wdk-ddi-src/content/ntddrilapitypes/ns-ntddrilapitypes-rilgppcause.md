@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILGPPCAUSE
+ - LPRILGPPCAUSE
 ---
 
 # RILGPPCAUSE structure (ntddrilapitypes.h)

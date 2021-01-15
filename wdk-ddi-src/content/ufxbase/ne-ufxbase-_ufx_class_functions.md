@@ -30,6 +30,7 @@ api_location:
  - ufxbase.h
 api_name:
  - _UFX_CLASS_FUNCTIONS
+ - UFX_CLASS_FUNCTIONS
 ---
 
 # _UFX_CLASS_FUNCTIONS enumeration

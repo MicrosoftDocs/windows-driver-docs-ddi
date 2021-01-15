@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsDataTypeCompletion.KsCompleteMediaType
+ - IKsDataTypeCompletion::KsCompleteMediaType
 ---
 
 # IKsDataTypeCompletion::KsCompleteMediaType
@@ -83,3 +83,4 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, 
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
+

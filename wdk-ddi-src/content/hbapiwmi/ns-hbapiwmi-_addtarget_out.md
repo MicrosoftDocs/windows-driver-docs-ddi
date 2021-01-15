@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _AddTarget_OUT
+ - PAddTarget_OUT
  - AddTarget_OUT
 ---
 
@@ -60,3 +62,4 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/addtarget">AddTarget</a>
+

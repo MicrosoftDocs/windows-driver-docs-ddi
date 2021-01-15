@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _UNIDRVINFO
+ - PUNIDRVINFO
  - UNIDRVINFO
 ---
 
@@ -295,3 +297,4 @@ A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
+

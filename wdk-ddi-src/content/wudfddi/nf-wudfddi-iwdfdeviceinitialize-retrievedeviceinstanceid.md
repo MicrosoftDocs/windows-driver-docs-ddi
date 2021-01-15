@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.RetrieveDeviceInstanceId
+ - IWDFDeviceInitialize::RetrieveDeviceInstanceId
 ---
 
 # IWDFDeviceInitialize::RetrieveDeviceInstanceId
@@ -90,3 +90,4 @@ The buffer at <i>Buffer</i> was <b>NULL</b>, the driver preset the variable at <
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>
+

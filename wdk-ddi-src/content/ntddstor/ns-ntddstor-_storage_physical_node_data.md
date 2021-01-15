@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_PHYSICAL_NODE_DATA
+ - PSTORAGE_PHYSICAL_NODE_DATA
  - STORAGE_PHYSICAL_NODE_DATA
 ---
 
@@ -91,3 +93,4 @@ The data offset from the beginning of the data structure. The buffer contains an
 #### - Reserved[3]
 
 Specifies if the storage adapter is reserved.
+

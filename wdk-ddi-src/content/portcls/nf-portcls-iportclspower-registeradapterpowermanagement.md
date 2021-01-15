@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortClsPower.RegisterAdapterPowerManagement
+ - IPortClsPower::RegisterAdapterPowerManagement
 ---
 
 # IPortClsPower::RegisterAdapterPowerManagement
@@ -82,3 +82,4 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclspower">IPortClsPower</a>
+

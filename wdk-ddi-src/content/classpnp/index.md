@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - classpnp
  - classpnp/classpnp
+api_name:
+ - classpnp
 ---
 
 # Classpnp.h header

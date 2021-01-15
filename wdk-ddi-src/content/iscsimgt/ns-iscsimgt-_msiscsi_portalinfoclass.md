@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_PortalInfoClass
+ - PMSiSCSI_PortalInfoClass
  - MSiSCSI_PortalInfoClass
 ---
 
@@ -72,3 +74,4 @@ We recommend that you implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-portalinfoclass-wmi-class">MSiSCSI_PortalInfoClass WMI Class</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsQueryMediums
+ - IKsPin::KsQueryMediums
 ---
 
 # IKsPin::KsQueryMediums
@@ -71,3 +71,4 @@ Applications call <b>KsQueryMediums</b> to retrieve mediums that pins support in
 
 
 <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+

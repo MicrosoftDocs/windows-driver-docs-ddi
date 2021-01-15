@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoProcessCaps
  - DXVA_VideoProcessCaps
 ---
 
@@ -136,3 +137,4 @@ Color space conversion performed by <b>DXVA_VideoProcess_YUV2RGB</b> is particul
 
 
 <a href="/windows-hardware/drivers/display/dxva-deinterlacebobdeviceclass-deinterlacebltex">DeinterlaceBltEx</a>
+

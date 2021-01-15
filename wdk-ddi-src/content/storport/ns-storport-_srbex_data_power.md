@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_POWER
+ - PSRBEX_DATA_POWER
  - SRBEX_DATA_POWER
 ---
 
@@ -89,3 +91,4 @@ An enumerator value of type <a href="/windows-hardware/drivers/ddi/storport/ne-s
 
 
 <a href="/windows-hardware/drivers/ddi/storport/ne-storport-stor_power_action">STOR_POWER_ACTION</a>
+

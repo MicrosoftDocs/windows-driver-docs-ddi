@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_types.h
 api_name:
+ - _WINBIO_VERSION
+ - PWINBIO_VERSION
  - WINBIO_VERSION
 ---
 

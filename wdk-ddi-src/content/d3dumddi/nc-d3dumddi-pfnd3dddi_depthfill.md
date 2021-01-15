@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DepthFill
+ - PFND3DDDI_DEPTHFILL
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ DirectX version 7.0 and earlier runtimes call the <b>DepthFill</b> function to f
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

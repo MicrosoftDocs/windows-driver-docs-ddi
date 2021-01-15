@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskGetNameInfo
+ - PFN_WSK_GET_NAME_INFO
 ---
 
 # PFN_WSK_GET_NAME_INFO callback function
@@ -281,3 +281,4 @@ The process to which the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a>
+

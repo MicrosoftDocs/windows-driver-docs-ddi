@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ALLOCATE_ADDRESS_RANGE
  - IRB_REQ_ALLOCATE_ADDRESS_RANGE
 ---
 
@@ -235,3 +236,4 @@ Handle to the address range.
 ### -field DeviceExtension
 
 Points to the device extension associated with the device object. Not setting this member can lead to unexpected behavior when the driver tries to access the allocated address space.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpcm.h
 api_name:
+ - _PCMCIA_SOCKET_INFORMATION
+ - PPCMCIA_SOCKET_INFORMATION
  - PCMCIA_SOCKET_INFORMATION
 ---
 
@@ -233,3 +235,4 @@ Indicates the controller type. Some common controller types are defined in the <
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddpcm/ni-ntddpcm-ioctl_socket_information">IOCTL_SOCKET_INFORMATION</a>
+

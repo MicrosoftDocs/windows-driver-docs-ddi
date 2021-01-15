@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpCommitVirtual
+ - PAGP_COMMIT_VIRTUAL
 ---
 
 # PAGP_COMMIT_VIRTUAL callback function
@@ -110,3 +110,4 @@ When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual a
 
 
 <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>
+

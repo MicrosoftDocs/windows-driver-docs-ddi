@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_HWLATENCY
  - KSRTAUDIO_HWLATENCY
 ---
 
@@ -76,3 +77,4 @@ The <b>CodecDelay</b> member is the delay that the codec adds to an audio stream
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
- - HDAudioUnsolicitedResponseCallback
+ - PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK
 ---
 
 # PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback function
@@ -69,3 +69,4 @@ The HD Audio bus driver calls the callback routine at PASSIVE_LEVEL.
 ## -see-also
 
 [hdaudio.h](../hdaudio/index.md)
+

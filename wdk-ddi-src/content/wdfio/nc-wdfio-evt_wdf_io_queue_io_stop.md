@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoStop
+ - EVT_WDF_IO_QUEUE_IO_STOP
 ---
 
 # EVT_WDF_IO_QUEUE_IO_STOP callback function
@@ -136,3 +136,4 @@ This callback function can be called at IRQL <= DISPATCH_LEVEL, unless the <b>Ex
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequeststopacknowledge">WdfRequestStopAcknowledge</a>
+

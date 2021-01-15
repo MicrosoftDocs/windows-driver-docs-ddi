@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _OEMCUIPPARAM
+ - POEMCUIPPARAM
  - OEMCUIPPARAM
 ---
 
@@ -140,3 +142,4 @@ Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is calle
 A user interface plug-in receives this structure's address as an input argument to both its <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-commonuiprop">IPrintOemUI::CommonUIProp</a> method and its <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-oemcuipcallback">OEMCUIPCALLBACK</a>-typed callback function.
 
 For additional information about the use of this structure and associated functions, see <a href="/windows-hardware/drivers/print/user-interface-plug-ins">User Interface Plug-Ins</a>.
+

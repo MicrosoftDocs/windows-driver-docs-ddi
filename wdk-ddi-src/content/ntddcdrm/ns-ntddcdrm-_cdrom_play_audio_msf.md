@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_PLAY_AUDIO_MSF
+ - PCDROM_PLAY_AUDIO_MSF
  - CDROM_PLAY_AUDIO_MSF
 ---
 
@@ -84,3 +86,4 @@ Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this s
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a>
+

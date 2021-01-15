@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemPS.DisableDriver
+ - IPrintOemPS::DisableDriver
 ---
 
 # IPrintOemPS::DisableDriver
@@ -98,3 +98,4 @@ The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-i
 <code>IPrintOemPS::DisableDriver</code> and <b>IPrintOemPS::EnableDriver</b> must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enabledriver">IPrintOemPS::EnableDriver</a>. 
 
 This is the last <b>IPrintOemPS</b> interface method that is called before the rendering plug-in is unloaded.
+

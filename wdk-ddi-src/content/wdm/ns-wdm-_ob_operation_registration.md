@@ -41,9 +41,9 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_OPERATION_REGISTRATION
+ - POB_OPERATION_REGISTRATION
  - OB_OPERATION_REGISTRATION
- - PsProcessType
- - PsThreadType
 ---
 
 # _OB_OPERATION_REGISTRATION structure
@@ -112,3 +112,4 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
+

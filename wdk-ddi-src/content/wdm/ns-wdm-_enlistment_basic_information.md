@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _ENLISTMENT_BASIC_INFORMATION
+ - PENLISTMENT_BASIC_INFORMATION
  - ENLISTMENT_BASIC_INFORMATION
 ---
 
@@ -76,3 +78,4 @@ The <b>ENLISTMENT_BASIC INFORMATION</b> structure is used with the <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationenlistment">ZwQueryInformationEnlistment</a>
+

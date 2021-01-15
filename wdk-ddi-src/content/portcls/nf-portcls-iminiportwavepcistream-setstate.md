@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePciStream.SetState
+ - IMiniportWavePciStream::SetState
 ---
 
 # IMiniportWavePciStream::SetState
@@ -119,3 +119,4 @@ The <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-n
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
+

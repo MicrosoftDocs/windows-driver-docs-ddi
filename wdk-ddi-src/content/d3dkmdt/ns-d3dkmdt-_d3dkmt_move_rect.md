@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _D3DKMT_MOVE_RECT
  - D3DKMT_MOVE_RECT
 ---
 
@@ -66,3 +67,4 @@ A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that con
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

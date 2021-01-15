@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - PIPPARAMS
  - IPPARAMS
 ---
 
@@ -78,3 +79,4 @@ Specifies whether a blank band was drawn in the source bitmap supplied to <a hre
 
 
 <a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_COLLECTDBGINFO_EXT
  - DXGKARG_COLLECTDBGINFO_EXT
 ---
 
@@ -90,3 +91,4 @@ Reserved for future use.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_collectdbginfo">DxgkDdiCollectDbgInfo</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_OVERLAYCOLORCONTROLSFLAGS
  - D3DDDI_OVERLAYCOLORCONTROLSFLAGS
 ---
 
@@ -104,3 +105,4 @@ A member in the union that is contained in D3DDDI_OVERLAYCOLORCONTROLSFLAGS that
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrols">D3DDDI_OVERLAYCOLORCONTROLS</a>
+

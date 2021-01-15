@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WPS_DEVICE_NAME
+ - PDOT11_WPS_DEVICE_NAME
  - DOT11_WPS_DEVICE_NAME
 product:
  - Windows 10 or later.
@@ -74,3 +76,4 @@ uDeviceNameLength;
   UCHAR   ucDeviceName[DOT11_WPS_DEVICE_NAME_MAX_LENGTH];
 } DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME;
 ```
+

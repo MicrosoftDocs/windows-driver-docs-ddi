@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HUB_CAPABILITIES
+ - PUSB_HUB_CAPABILITIES
  - USB_HUB_CAPABILITIES
 ---
 
@@ -72,3 +74,4 @@ If <b>TRUE</b>, the hub is capable of running at high speed.
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_cap_flags">USB_HUB_CAP_FLAGS</a>
+

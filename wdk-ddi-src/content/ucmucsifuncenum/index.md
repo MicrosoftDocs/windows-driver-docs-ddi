@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - ucmucsifuncenum
  - ucmucsifuncenum/ucmucsifuncenum
+api_name:
+ - ucmucsifuncenum
 ---
 
 # Ucmucsifuncenum.h header
@@ -27,3 +29,4 @@ This header declares an enumeration of all export functions called by a client d
 For more information, see:
 - [Write a UcmUcsi client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
 - [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - ResourceCopy
+ - PFND3D10DDI_RESOURCECOPY
 ---
 
 # PFND3D10DDI_RESOURCECOPY callback function
@@ -168,3 +168,4 @@ The source and destination resources must have the same number of samples and qu
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

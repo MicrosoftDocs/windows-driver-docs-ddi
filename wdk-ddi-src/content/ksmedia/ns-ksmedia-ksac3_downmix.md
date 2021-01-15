@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAC3_DOWNMIX
  - KSAC3_DOWNMIX
 ---
 
@@ -72,3 +73,4 @@ For information about the mapping of output channels to speakers, see <a href="/
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
+

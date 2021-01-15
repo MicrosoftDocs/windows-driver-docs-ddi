@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.OutputDisassemblyLines
- - IDebugControl2.OutputDisassemblyLines
- - IDebugControl3.OutputDisassemblyLines
+ - IDebugControl3::OutputDisassemblyLines
 ---
 
 # IDebugControl3::OutputDisassemblyLines
@@ -200,3 +198,4 @@ For an overview of using assembly in debugger applications, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/debugger/u--unassemble-">u (Unassemble)</a>
+

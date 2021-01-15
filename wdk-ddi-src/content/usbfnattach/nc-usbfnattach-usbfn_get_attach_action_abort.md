@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbfnattach.h
 api_name:
- - USBFN_SET_DEVICE_STATE
+ - USBFN_GET_ATTACH_ACTION_ABORT
 ---
 
 # USBFN_GET_ATTACH_ACTION_ABORT callback function
@@ -87,7 +87,7 @@ UsbLowerFilter_GetAttachActionAbortOperation(
 
 ```
 
-
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
+

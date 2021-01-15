@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPStatusSignalingCmdData
  - DXVA_COPPStatusSignalingCmdData
 ---
 
@@ -129,3 +130,4 @@ Specifies an array of additional 32-bit data. Not currently used.
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusoutput">DXVA_COPPStatusOutput</a>
+

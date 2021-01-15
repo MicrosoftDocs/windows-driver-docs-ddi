@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDevicePropVariantCollection.GetCount
+ - IPortableDevicePropVariantCollection::GetCount
 ---
 
 # IPortableDevicePropVariantCollection::GetCount
@@ -95,3 +95,4 @@ None.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
+
