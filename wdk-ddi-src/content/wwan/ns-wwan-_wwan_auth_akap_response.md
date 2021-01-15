@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_AUTH_AKAP_RESPONSE
+ - PWWAN_AUTH_AKAP_RESPONSE
  - WWAN_AUTH_AKAP_RESPONSE
 ---
 
@@ -96,3 +98,4 @@ The <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWA
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
+

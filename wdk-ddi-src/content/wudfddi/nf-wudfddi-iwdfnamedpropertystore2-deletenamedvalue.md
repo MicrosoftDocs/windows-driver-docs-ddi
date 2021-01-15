@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFNamedPropertyStore2.DeleteNamedValue
+ - IWDFNamedPropertyStore2::DeleteNamedValue
 ---
 
 # IWDFNamedPropertyStore2::DeleteNamedValue
@@ -111,7 +111,6 @@ CMyDevice::OnCleanup(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore2">IWDFNamedPropertyStore2</a>
@@ -119,3 +118,4 @@ CMyDevice::OnCleanup(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+

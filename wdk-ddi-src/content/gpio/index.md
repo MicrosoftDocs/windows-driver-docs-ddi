@@ -12,6 +12,8 @@ tech.root: gpio
 f1_keywords:
  - gpio
  - gpio/gpio
+api_name:
+ - gpio
 ---
 
 # Gpio.h header

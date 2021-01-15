@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnProcessWpdMessage
+ - ISensorDriver::OnProcessWpdMessage
 ---
 
 # ISensorDriver::OnProcessWpdMessage
@@ -69,3 +69,4 @@ This method enables you to extend the WPD commands and interfaces in a device-sp
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

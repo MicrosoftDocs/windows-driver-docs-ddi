@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
+ - EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
 ---
 
 # EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function
@@ -68,3 +68,4 @@ The USB function class extension (UFX) invokes this  event callback to indicate 
 
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete">UfxDeviceProprietaryChargerDetectComplete</a>
+

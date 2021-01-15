@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netpnp
  - netpnp/netpnp
+api_name:
+ - netpnp
 ---
 
 # Netpnp.h header

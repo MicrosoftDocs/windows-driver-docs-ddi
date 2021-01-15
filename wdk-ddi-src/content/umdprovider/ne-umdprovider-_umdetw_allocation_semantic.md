@@ -39,6 +39,7 @@ api_type:
 api_location:
  - umdprovider.h
 api_name:
+ - _UMDETW_ALLOCATION_SEMANTIC
  - UMDETW_ALLOCATION_SEMANTIC
 ---
 
@@ -86,3 +87,4 @@ The driver can use this semantic value for its own internal purposes.
 
 
 <a href="/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwlogunmapallocation">UMDEtwLogUnmapAllocation</a>
+

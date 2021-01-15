@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_FLIPOVERLAYFLAGS
  - D3DDDI_FLIPOVERLAYFLAGS
 ---
 
@@ -74,3 +75,4 @@ A member in the union that is contained in D3DDDI_FLIPOVERLAYFLAGS that can hold
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_flipoverlay">D3DDDIARG_FLIPOVERLAY</a>
+

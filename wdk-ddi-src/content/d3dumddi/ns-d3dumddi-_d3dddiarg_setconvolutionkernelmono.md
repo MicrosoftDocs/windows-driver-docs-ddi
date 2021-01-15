@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETCONVOLUTIONKERNELMONO
  - D3DDDIARG_SETCONVOLUTIONKERNELMONO
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for settin
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setconvolutionkernelmono">SetConvolutionKernelMono</a>
+

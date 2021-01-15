@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSENDSUPSERVICEDATAPARAMS
+ - LPRILSENDSUPSERVICEDATAPARAMS
 ---
 
 # RILSENDSUPSERVICEDATAPARAMS structure (rilapitypes.h)

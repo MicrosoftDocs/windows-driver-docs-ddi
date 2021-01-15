@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ufxclient
  - ufxclient/ufxclient
+api_name:
+ - ufxclient
 ---
 
 # Ufxclient.h header

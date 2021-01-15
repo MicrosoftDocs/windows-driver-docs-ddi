@@ -39,8 +39,6 @@ api_location:
  - Ntstrsafe.dll
 api_name:
  - RtlStringCchCopyExW
- - RtlStringCchCopyExA
- - RtlStringCchCopyExW
 ---
 
 # RtlStringCchCopyExW function
@@ -261,3 +259,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopya">RtlStringCchCopy</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_FLIPOVERLAY
  - DXGKARG_FLIPOVERLAY
 ---
 
@@ -74,3 +75,4 @@ The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_flipoverlay">DxgkDdiFlipOverlay</a>
+

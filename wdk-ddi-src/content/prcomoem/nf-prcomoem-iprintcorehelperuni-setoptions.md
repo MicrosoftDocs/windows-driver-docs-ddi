@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperUni.SetOptions
+ - IPrintCoreHelperUni::SetOptions
 ---
 
 # IPrintCoreHelperUni::SetOptions
@@ -184,3 +184,4 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-getoption">IPrintCoreHelperUni::GetOption</a>
+

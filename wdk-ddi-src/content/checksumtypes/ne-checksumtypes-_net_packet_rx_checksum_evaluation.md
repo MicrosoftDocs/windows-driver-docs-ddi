@@ -25,6 +25,7 @@ api_type:
 api_location:
  - checksumtypes.h
 api_name:
+ - _NET_PACKET_RX_CHECKSUM_EVALUATION
  - NET_PACKET_RX_CHECKSUM_EVALUATION
 product:
  - Windows

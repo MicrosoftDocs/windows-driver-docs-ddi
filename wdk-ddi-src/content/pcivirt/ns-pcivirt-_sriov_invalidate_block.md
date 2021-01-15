@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
+ - _SRIOV_INVALIDATE_BLOCK
+ - PSRIOV_INVALIDATE_BLOCK
  - SRIOV_INVALIDATE_BLOCK
 ---
 
@@ -73,3 +75,4 @@ typedef struct _SRIOV_INVALIDATE_BLOCK {
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_invalidate_block">IOCTL_SRIOV_INVALIDATE_BLOCK</a>
+

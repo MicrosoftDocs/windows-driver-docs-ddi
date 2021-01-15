@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_ZERO_DATA_INFORMATION_EX
+ - PFILE_ZERO_DATA_INFORMATION_EX
  - FILE_ZERO_DATA_INFORMATION_EX
 ---
 
@@ -88,3 +90,4 @@ The following flags are supported:
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
+

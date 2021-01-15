@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2DRAWINDEXEDPRIMITIVE
  - D3DHAL_DP2DRAWINDEXEDPRIMITIVE
 ---
 
@@ -107,3 +108,4 @@ D3DDP2OP_DRAWINDEXEDPRIMITIVE
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+

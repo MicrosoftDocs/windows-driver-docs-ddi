@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _FAULT_INFORMATION_ARM64
+ - PFAULT_INFORMATION_ARM64
+ - FAULT_INFORMATION_ARM64
 ---
 
 # _FAULT_INFORMATION_ARM64 structure

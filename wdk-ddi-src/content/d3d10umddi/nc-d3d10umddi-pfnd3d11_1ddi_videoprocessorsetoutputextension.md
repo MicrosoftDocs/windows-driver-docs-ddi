@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetOutputExtension
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION callback function
@@ -98,3 +98,4 @@ A pointer to a buffer that contains the private state data.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
+

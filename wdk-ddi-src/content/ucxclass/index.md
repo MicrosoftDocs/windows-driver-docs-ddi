@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucxclass
  - ucxclass/ucxclass
+api_name:
+ - ucxclass
 ---
 
 # Ucxclass.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DEVICEPROPERTYHEADER
+ - PDEVICEPROPERTYHEADER
  - DEVICEPROPERTYHEADER
 ---
 
@@ -85,3 +87,4 @@ Printer handle.
 ### -field pszPrinterName
 
 Pointer to a NULL-terminated string representing a printer name.
+

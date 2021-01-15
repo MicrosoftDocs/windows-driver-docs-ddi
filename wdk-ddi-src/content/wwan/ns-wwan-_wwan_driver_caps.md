@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DRIVER_CAPS
+ - PWWAN_DRIVER_CAPS
  - WWAN_DRIVER_CAPS
 ---
 
@@ -80,3 +82,4 @@ The miniport driver has no special capabilities.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_driver_caps">NDIS_WWAN_DRIVER_CAPS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETSTREAMSOURCEFREQ
  - D3DDDIARG_SETSTREAMSOURCEFREQ
 ---
 
@@ -62,3 +63,4 @@ The D3DDDIARG_SETSTREAMSOURCEFREQ structure describes how the frequency divisor 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsourcefreq">SetStreamSourceFreq</a>
+

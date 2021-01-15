@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_CUSTOM
+ - PNDIS_SWITCH_PORT_PROPERTY_CUSTOM
  - NDIS_SWITCH_PORT_PROPERTY_CUSTOM
 ---
 
@@ -134,3 +136,4 @@ For more information about extensible switch policies, see <a href="/windows-har
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+

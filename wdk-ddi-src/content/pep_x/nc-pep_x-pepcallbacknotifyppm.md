@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - AcceptProcessorNotification
+ - PEPCALLBACKNOTIFYPPM
 ---
 
 # PEPCALLBACKNOTIFYPPM callback function (pep_x.h)
@@ -85,3 +85,4 @@ The IRQL at which the PEP's <i>AcceptProcessorNotification</i> routine is called
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a>
+

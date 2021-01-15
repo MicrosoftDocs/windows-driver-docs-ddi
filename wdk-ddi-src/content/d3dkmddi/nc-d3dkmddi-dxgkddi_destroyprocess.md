@@ -38,7 +38,7 @@ api_location:
  - dispmprt.h
  - d3dkmddi.h
 api_name:
- - DxgkDdiDestroyProcess
+ - DXGKDDI_DESTROYPROCESS
 product:
  - Windows
 ---

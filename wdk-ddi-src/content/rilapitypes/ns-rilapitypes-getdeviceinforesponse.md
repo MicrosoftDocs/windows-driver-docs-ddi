@@ -39,6 +39,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - GETDEVICEINFORESPONSE
+ - LPGETDEVICEINFORESPONSE
 ---
 
 # GETDEVICEINFORESPONSE structure (rilapitypes.h)

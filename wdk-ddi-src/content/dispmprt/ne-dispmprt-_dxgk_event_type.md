@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_EVENT_TYPE
+ - PDXGK_EVENT_TYPE
  - DXGK_EVENT_TYPE
 ---
 
@@ -78,3 +80,4 @@ Supported by WDDM 2.1 and later drivers.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_notify_acpi_event">DxgkDdiNotifyAcpiEvent</a>
+

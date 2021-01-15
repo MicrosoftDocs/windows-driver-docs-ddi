@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskAcceptEvent
+ - PFN_WSK_ACCEPT_EVENT
 ---
 
 # PFN_WSK_ACCEPT_EVENT callback function
@@ -269,3 +269,4 @@ A WSK application's <i>WskAcceptEvent</i> event callback function must not wait 
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

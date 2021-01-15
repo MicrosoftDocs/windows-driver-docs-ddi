@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - lowio
  - lowio/lowio
+api_name:
+ - lowio
 ---
 
 # Lowio.h header

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelManager.QueryInterface
+ - IDataModelManager::QueryInterface
 ---
 
 # IDataModelManager::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)
+

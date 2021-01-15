@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _tagAvcSubunitType
  - AvcSubunitType
 ---
 

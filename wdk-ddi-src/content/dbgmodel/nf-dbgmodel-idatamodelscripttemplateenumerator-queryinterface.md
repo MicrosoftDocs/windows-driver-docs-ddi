@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptTemplateEnumerator.QueryInterface
+ - IDataModelScriptTemplateEnumerator::QueryInterface
 ---
 
 # IDataModelScriptTemplateEnumerator::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDataModelScriptTemplateEnumerator interface](nn-dbgmodel-idatamodelscripttemplateenumerator.md)
+

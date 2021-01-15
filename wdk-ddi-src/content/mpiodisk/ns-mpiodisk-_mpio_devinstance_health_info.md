@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _MPIO_DEVINSTANCE_HEALTH_INFO
+ - PMPIO_DEVINSTANCE_HEALTH_INFO
  - MPIO_DEVINSTANCE_HEALTH_INFO
 ---
 

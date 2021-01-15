@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfchildlist.h
 api_name:
+ - _WDF_RETRIEVE_CHILD_FLAGS
  - WDF_RETRIEVE_CHILD_FLAGS
 ---
 
@@ -96,3 +97,4 @@ Before calling <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildli
 
 
 <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a>
+

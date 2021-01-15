@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILTERMINALCAPABILITYINFO
+ - LPRILTERMINALCAPABILITYINFO
 ---
 
 # RILTERMINALCAPABILITYINFO structure (rilapitypes.h)

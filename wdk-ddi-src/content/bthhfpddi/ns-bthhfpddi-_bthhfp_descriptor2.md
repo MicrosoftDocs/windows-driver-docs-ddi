@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bthhfpddi.h
 api_name:
+ - _BTHHFP_DESCRIPTOR2
+ - PBTHHFP_DESCRIPTOR2
  - BTHHFP_DESCRIPTOR2
 ---
 
@@ -105,3 +107,4 @@ When <i>SupportsNREC</i> is set to FALSE, the audio driver should support RAW mo
 
 
 <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.CreateIoQueue
+ - IWDFDevice::CreateIoQueue
 ---
 
 # IWDFDevice::CreateIoQueue
@@ -233,3 +233,4 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+

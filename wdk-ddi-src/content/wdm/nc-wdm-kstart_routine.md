@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ThreadStart
+ - KSTART_ROUTINE
 ---
 
 # KSTART_ROUTINE callback function
@@ -57,3 +57,4 @@ A caller-supplied pointer to driver-defined context information that is specifie
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
+

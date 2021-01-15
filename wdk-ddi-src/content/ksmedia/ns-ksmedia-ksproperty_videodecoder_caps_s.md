@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEODECODER_CAPS_S
  - KSPROPERTY_VIDEODECODER_CAPS_S
 ---
 
@@ -90,3 +91,4 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videodecoder">PROPSETID_VIDCAP_VIDEODECODER</a>
+

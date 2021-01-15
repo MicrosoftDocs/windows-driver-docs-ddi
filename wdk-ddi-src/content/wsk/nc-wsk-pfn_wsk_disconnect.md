@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskDisconnect
+ - PFN_WSK_DISCONNECT
 ---
 
 # PFN_WSK_DISCONNECT callback function
@@ -224,3 +224,4 @@ A WSK application can completely close the connection by calling the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

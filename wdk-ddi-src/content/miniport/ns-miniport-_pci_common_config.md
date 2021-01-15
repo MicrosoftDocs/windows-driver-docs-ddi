@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PCI_COMMON_CONFIG
+ - PPCI_COMMON_CONFIG
  - PCI_COMMON_CONFIG
 ---
 
@@ -241,3 +243,4 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalSetBusDataByOffset</a>
+

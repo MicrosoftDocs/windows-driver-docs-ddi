@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptDebugBreakpoint.Enable
+ - IDataModelScriptDebugBreakpoint::Enable
 ---
 
 # IDataModelScriptDebugBreakpoint::Enable

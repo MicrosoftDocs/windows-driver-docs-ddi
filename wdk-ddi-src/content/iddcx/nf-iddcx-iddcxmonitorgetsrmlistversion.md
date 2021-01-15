@@ -34,12 +34,14 @@ api_location:
 api_name:
  - IddCxMonitorGetSrmListVersion
 f1_keywords:
+ - IddCxMonitorGetSrmListVersion
  - iddcx/IddCxMonitorGetSrmListVersion
 dev_langs:
  - c++
 ---
 
 # IddCxMonitorGetSrmListVersion function
+
 
 ## -description
 
@@ -82,3 +84,4 @@ SRMs are used to update the list of revoked High-Bandwidth Digital Content Prote
 [**IDARG_OUT_GETSRMLISTVERSION**](ns-iddcx-idarg_out_getsrmlistversion.md)
 
 [**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md)
+

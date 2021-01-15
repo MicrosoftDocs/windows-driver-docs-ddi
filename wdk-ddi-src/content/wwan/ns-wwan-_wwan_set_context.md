@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SET_CONTEXT
+ - PWWAN_SET_CONTEXT
  - WWAN_SET_CONTEXT
 ---
 

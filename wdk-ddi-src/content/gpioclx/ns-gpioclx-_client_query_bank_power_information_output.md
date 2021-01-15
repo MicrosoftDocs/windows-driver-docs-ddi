@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
+ - PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
  - CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
 ---
 
@@ -91,3 +93,4 @@ For more information about GPIO banks, see <a href="/windows-hardware/drivers/gp
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a>
+

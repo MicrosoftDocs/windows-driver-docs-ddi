@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - PPEP_PROCESSOR_IDLE_CANCEL_CODE
  - PEP_PROCESSOR_IDLE_CANCEL_CODE
 ---
 
@@ -78,3 +79,4 @@ The <b>CancelCode</b> member of the <a href="/windows-hardware/drivers/ddi/pep_x
 
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_PPM_IDLE_CANCEL</a>
+

@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_ACK_CC_CI_COMMAND
+ - PUCSI_ACK_CC_CI_COMMAND
+ - UCSI_ACK_CC_CI_COMMAND
 ---
 
 # _UCSI_ACK_CC_CI_COMMAND structure

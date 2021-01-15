@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSFRAMETIME
  - KSFRAMETIME
 ---
 
@@ -66,3 +67,4 @@ Set to zero.
 ## -remarks
 
 Note that this is an optional property, which need only be implemented if the pin instance understands the specifics of the media type it is transporting.
+

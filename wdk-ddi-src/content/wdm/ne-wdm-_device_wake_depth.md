@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_WAKE_DEPTH
+ - PDEVICE_WAKE_DEPTH
  - DEVICE_WAKE_DEPTH
 ---
 
@@ -90,3 +92,4 @@ The drivers for most devices have no reason to arm a wake signal when the device
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_idle_wake_info">GetIdleWakeInfo</a>
+

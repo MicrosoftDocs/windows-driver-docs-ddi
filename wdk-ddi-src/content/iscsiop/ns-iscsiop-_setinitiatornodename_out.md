@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetInitiatorNodeName_OUT
+ - PSetInitiatorNodeName_OUT
  - SetInitiatorNodeName_OUT
 ---
 
@@ -72,3 +74,4 @@ It is optional that you implement this class.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setinitiatornodename_in">SetInitiatorNodeName_IN</a>
+

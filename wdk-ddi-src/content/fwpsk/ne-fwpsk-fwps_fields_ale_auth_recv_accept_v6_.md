@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V6_
  - FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V6
 ---
 
@@ -430,3 +431,4 @@ The IP_PROTECTION_LEVEL property associated with the socket.
 
 
 <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+

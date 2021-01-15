@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - IoUnRegisterBootDriverCallback
+ - IoUnregisterBootDriverCallback
 ---
 
 # IoUnregisterBootDriverCallback function
@@ -61,3 +61,4 @@ A driver that calls <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">IoRegisterBootDriverCallback</a>
+

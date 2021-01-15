@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_PARAMETERS
+ - PWDF_REQUEST_PARAMETERS
  - WDF_REQUEST_PARAMETERS
 ---
 
@@ -144,3 +146,4 @@ The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
+

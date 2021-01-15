@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ks.h
 api_name:
+ - PKSATTRIBUTE_LIST
  - KSATTRIBUTE_LIST
 ---
 
@@ -60,3 +61,4 @@ Specifies the number of attributes in the list.
 ### -field Attributes
 
   A <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structure who's Attribute member is set to <i>KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE</i>. For more information,  see <a href="/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.
+

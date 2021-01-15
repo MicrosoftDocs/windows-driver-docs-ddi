@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILPOSITIONINFOLTE
+ - LPRILPOSITIONINFOLTE
 ---
 
 # RILPOSITIONINFOLTE structure (ntddrilapitypes.h)
@@ -111,3 +112,4 @@ struct RILPOSITIONINFOLTE {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_DEVICE_POWER_STATE
+ - PSTOR_DEVICE_POWER_STATE
  - STOR_DEVICE_POWER_STATE
 ---
 
@@ -80,3 +82,4 @@ The upper delimiting value on device power states.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>
+

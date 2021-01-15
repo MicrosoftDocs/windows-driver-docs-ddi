@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskConnect
+ - PFN_WSK_CONNECT
 ---
 
 # PFN_WSK_CONNECT callback function
@@ -199,3 +199,4 @@ A WSK application can create, bind, and connect a connection-oriented socket in 
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

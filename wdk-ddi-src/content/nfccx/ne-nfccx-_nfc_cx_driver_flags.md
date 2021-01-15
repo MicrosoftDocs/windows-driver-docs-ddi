@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_DRIVER_FLAGS
+ - PNFC_CX_DRIVER_FLAGS
  - NFC_CX_DRIVER_FLAGS
 ---
 
@@ -100,3 +102,4 @@ The NFC CX allows the NFC client driver to provide some driver flags that can be
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

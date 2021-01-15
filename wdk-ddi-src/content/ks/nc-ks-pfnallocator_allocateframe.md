@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrAllocateFrame
+ - PFNALLOCATOR_ALLOCATEFRAME
 ---
 
 # PFNALLOCATOR_ALLOCATEFRAME callback function
@@ -76,3 +76,4 @@ You can pass an instance of this structure as part of a <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstreamallocator_functiontable">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
+

@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - scsiscan
  - scsiscan/scsiscan
+api_name:
+ - scsiscan
 ---
 
 # Scsiscan.h header

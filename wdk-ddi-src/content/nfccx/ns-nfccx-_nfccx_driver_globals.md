@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFCCX_DRIVER_GLOBALS
+ - PNFCCX_DRIVER_GLOBALS
  - NFCCX_DRIVER_GLOBALS
 ---
 
@@ -60,3 +62,4 @@ api_name:
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

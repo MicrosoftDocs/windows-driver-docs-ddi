@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfio
  - wdfio/wdfio
+api_name:
+ - wdfio
 ---
 
 # Wdfio.h header

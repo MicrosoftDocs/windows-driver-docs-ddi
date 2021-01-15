@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_AYUVSAMPLE8
  - DXVADDI_AYUVSAMPLE8
 ---
 
@@ -93,3 +94,4 @@ The width and height of the AYUV alpha-blending surface are specified in the ass
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
+

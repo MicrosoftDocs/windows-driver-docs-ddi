@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptablePropertyBag.GetReadStream
+ - IPrinterScriptablePropertyBag::GetReadStream
 ---
 
 # IPrinterScriptablePropertyBag::GetReadStream
@@ -76,3 +76,4 @@ A call to <b>GetReadStream</b> will throw an exception, if the specified propert
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
+

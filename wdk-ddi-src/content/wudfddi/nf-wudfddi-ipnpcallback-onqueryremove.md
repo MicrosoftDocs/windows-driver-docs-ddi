@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallback.OnQueryRemove
+ - IPnpCallback::OnQueryRemove
 ---
 
 # IPnpCallback::OnQueryRemove
@@ -81,3 +81,4 @@ For more information about the <b>OnQueryRemove</b> callback method, see <a href
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

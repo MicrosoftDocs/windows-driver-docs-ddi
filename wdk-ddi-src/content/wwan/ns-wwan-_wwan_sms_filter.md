@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_FILTER
+ - PWWAN_SMS_FILTER
  - WWAN_SMS_FILTER
 ---
 
@@ -89,3 +91,4 @@ When
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_read">WWAN_SMS_READ</a>
+

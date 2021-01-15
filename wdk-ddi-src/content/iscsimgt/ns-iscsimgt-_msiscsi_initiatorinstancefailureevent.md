@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_InitiatorInstanceFailureEvent
+ - PMSiSCSI_InitiatorInstanceFailureEvent
  - MSiSCSI_InitiatorInstanceFailureEvent
 ---
 
@@ -72,3 +74,4 @@ We recommend that you implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-initiatorinstancefailureevent-wmi-class">MSiSCSI_InitiatorInstanceFailureEvent WMI Class</a>
+

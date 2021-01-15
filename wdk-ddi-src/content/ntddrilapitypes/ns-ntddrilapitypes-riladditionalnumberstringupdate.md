@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILADDITIONALNUMBERSTRINGUPDATE
+ - LPRILADDITIONALNUMBERSTRINGUPDATE
 ---
 
 # RILADDITIONALNUMBERSTRINGUPDATE structure (ntddrilapitypes.h)

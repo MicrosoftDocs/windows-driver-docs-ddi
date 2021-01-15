@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDrmPort.DestroyContent
+ - IDrmPort::DestroyContent
 product:
  - Windows
 ---
@@ -63,3 +63,4 @@ See comments in [DrmDestroyContent](../drmk/nf-drmk-drmdestroycontent.md).
 ## -see-also
 
 [IDrmPort](nn-portcls-idrmport.md)
+

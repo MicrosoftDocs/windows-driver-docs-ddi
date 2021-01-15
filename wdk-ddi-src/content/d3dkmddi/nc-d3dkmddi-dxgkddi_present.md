@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiPresent
+ - DXGKDDI_PRESENT
 product:
  - Windows
 ---
@@ -184,3 +184,4 @@ If the display miniport driver previously indicated, in a call to its <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

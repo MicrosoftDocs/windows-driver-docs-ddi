@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_MEDIA_INFO
+ - PDEVICE_MEDIA_INFO
  - DEVICE_MEDIA_INFO
 ---
 
@@ -202,3 +204,4 @@ The driver fills in an array of <b>DEVICE_MEDIA_INFO</b> structures, one for eac
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaTypes</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaErrorHandler.ReportStatus
+ - IWiaErrorHandler::ReportStatus
 ---
 
 # IWiaErrorHandler::ReportStatus
@@ -124,3 +124,4 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 
 <a href="/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaerrorhandler-getstatusdescription">IWiaErrorHandler::GetStatusDescription</a>
+

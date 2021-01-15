@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUni.DrvWriteAbortBuf
+ - IPrintOemDriverUni::DrvWriteAbortBuf
 ---
 
 # IPrintOemDriverUni::DrvWriteAbortBuf
@@ -116,3 +116,4 @@ OEMs use <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdr
 <code>IPrintOemDriverUni::DrvWriteAbortBuf</code> can only be called after <code>IPrintOemDriverUni::DrvWriteSpoolBuf</code> has returned E_FAIL. <code>IPrintOemDriverUni::DrvWriteAbortBuf</code> should not be called more than once per job. 
 
 Rendering plug-ins are described in <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
+

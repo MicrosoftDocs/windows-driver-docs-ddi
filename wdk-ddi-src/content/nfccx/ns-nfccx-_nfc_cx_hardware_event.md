@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_HARDWARE_EVENT
+ - PNFC_CX_HARDWARE_EVENT
  - NFC_CX_HARDWARE_EVENT
 ---
 
@@ -68,3 +70,4 @@ An <a href="/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_host_action">NF
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

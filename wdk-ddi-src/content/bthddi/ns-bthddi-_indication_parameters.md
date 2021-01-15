@@ -41,10 +41,13 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _INDICATION_PARAMETERS
+ - PINDICATION_PARAMETERS
  - INDICATION_PARAMETERS
 ---
 
 # _INDICATION_PARAMETERS structure
+
 
 ## -description
 
@@ -205,3 +208,4 @@ A profile driver's [L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_c
 [L2CAP_CONFIG_OPTION](./ns-bthddi-_l2cap_config_option.md)
 
 [L2CAP_DISCONNECT_REASON](./ne-bthddi-_l2cap_disconnect_reason.md)
+

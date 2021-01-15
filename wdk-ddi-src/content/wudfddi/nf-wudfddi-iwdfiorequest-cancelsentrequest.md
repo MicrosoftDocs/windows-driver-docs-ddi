@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.CancelSentRequest
+ - IWDFIoRequest::CancelSentRequest
 ---
 
 # IWDFIoRequest::CancelSentRequest
@@ -80,3 +80,4 @@ If the driver previously registered the <a href="/windows-hardware/drivers/ddi/w
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
+

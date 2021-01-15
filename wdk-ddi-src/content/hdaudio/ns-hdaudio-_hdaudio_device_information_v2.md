@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_DEVICE_INFORMATION_V2
+ - PHDAUDIO_DEVICE_INFORMATION_V2
  - HDAUDIO_DEVICE_INFORMATION_V2
 ---
 
@@ -108,3 +110,4 @@ The [GetDeviceInformation](./nc-hdaudio-pget_device_information.md) routine uses
 [HDAUDIO_DEVICE_INFORMATION](ns-hdaudio-_hdaudio_device_information.md) 
 
 [GetDeviceInformation](./nc-hdaudio-pget_device_information.md)
+

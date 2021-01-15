@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSHANDSHAKE
  - KSHANDSHAKE
 ---
 
@@ -76,3 +77,4 @@ Pin handshaking is a concept that is usable only between two pins that support I
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinhandshake">KsPinHandshake</a>
+

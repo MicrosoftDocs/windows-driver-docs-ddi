@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
+ - PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
  - SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
 ---
 
@@ -60,3 +62,4 @@ This is a unique identifier for the secure element.
 ### -field eMode
 
 Card emulation mode: off, power dependent, or power-independent.
+

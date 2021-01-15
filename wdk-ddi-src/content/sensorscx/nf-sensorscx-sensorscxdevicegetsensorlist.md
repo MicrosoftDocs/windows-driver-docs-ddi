@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - Syntax
+ - SensorsCxDeviceGetSensorList
 ---
 
 # SensorsCxDeviceGetSensorList function

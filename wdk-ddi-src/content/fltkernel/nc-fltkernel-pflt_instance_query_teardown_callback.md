@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - InstanceQueryTeardownCallback
+ - PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK
 ---
 
 # PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK callback function
@@ -122,3 +122,4 @@ If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> r
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_teardown_callback">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+

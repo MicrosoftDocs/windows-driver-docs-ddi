@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_COMPONENT_ACTIVE
+ - PPEP_COMPONENT_ACTIVE
  - PEP_COMPONENT_ACTIVE
 ---
 
@@ -92,3 +94,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ehstorbandmgmt
  - ehstorbandmgmt/ehstorbandmgmt
+api_name:
+ - ehstorbandmgmt
 ---
 
 # Ehstorbandmgmt.h header

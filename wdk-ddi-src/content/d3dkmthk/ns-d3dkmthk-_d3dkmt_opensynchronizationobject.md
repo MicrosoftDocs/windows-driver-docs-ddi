@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENSYNCHRONIZATIONOBJECT
  - D3DKMT_OPENSYNCHRONIZATIONOBJECT
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_OPENSYNCHRONIZATIONOBJECT structure describes a synchronization objec
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensynchronizationobject">D3DKMTOpenSynchronizationObject</a>
+

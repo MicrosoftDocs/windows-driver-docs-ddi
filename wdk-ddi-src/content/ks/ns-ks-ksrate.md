@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSRATE
  - KSRATE
 ---
 
@@ -101,3 +102,4 @@ Specifies that there is no valid duration in this rate change request or query.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability">KSRATE_CAPABILITY</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.DrainSynchronously
+ - IWDFIoQueue::DrainSynchronously
 ---
 
 # IWDFIoQueue::DrainSynchronously
@@ -60,3 +60,4 @@ The <b>DrainSynchronously</b> method is a synchronous version of the <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-drain">IWDFIoQueue::Drain</a>
+

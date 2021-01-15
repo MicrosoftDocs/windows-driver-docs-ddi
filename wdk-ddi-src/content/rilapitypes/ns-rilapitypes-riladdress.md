@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILADDRESS
+ - LPRILADDRESS
 ---
 
 # RILADDRESS structure (rilapitypes.h)

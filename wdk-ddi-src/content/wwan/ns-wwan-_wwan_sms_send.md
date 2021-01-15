@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_SEND
+ - PWWAN_SMS_SEND
  - WWAN_SMS_SEND
 ---
 
@@ -138,3 +140,4 @@ Cdma
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_pdu">WWAN_SMS_SEND_PDU</a>
+

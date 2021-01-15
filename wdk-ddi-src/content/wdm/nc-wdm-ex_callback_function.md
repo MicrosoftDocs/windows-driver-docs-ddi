@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - RegistryCallback
+ - EX_CALLBACK_FUNCTION
 ---
 
 # EX_CALLBACK_FUNCTION callback function
@@ -245,3 +245,4 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER
+ - PNET_BUFFER
  - NET_BUFFER
 ---
 
@@ -340,3 +342,4 @@ For more information on how to use net buffers, see
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

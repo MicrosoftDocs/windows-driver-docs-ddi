@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_CONTEXT_TYPE
+ - PWWAN_CONTEXT_TYPE
  - WWAN_CONTEXT_TYPE
 ---
 
@@ -128,3 +130,4 @@ This enumeration indicates the usage of the provisioned context. For example, wh
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - pfnDataRateNotify
+ - PFN_DATARATE_NOTIFICATION
 ---
 
 # PFN_DATARATE_NOTIFICATION callback function
@@ -78,3 +78,4 @@ If data on the quality of service (QoS) of the network connection becomes unavai
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_register_datarate_notifications">RegisterForDataRateNotifications</a>
+

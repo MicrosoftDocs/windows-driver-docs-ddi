@@ -35,6 +35,8 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_BRIGHTNESS_SET_IN
+ - PDXGK_BRIGHTNESS_SET_IN
+ - DXGK_BRIGHTNESS_SET_IN
 product:
  - Windows
 ---

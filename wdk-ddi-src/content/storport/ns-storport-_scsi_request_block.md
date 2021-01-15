@@ -41,10 +41,13 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _SCSI_REQUEST_BLOCK
+ - PSCSI_REQUEST_BLOCK
  - SCSI_REQUEST_BLOCK
 ---
 
 # _SCSI_REQUEST_BLOCK structure (storport.h)
+
 
 ## -description
 
@@ -249,3 +252,4 @@ The preceding SRB_FUNCTION_*XXX*  are never set in SRBs sent to SCSI miniport dr
 [**ScsiPortIoMapTransfer**](../srb/nf-srb-scsiportiomaptransfer.md)
 
 [**ScsiPortNotification**](../srb/nf-srb-scsiportnotification.md)
+

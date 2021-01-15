@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _FILTER_REPLY_HEADER
+ - PFILTER_REPLY_HEADER
  - FILTER_REPLY_HEADER
 ---
 
@@ -72,3 +74,4 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 
 <a href="/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
+

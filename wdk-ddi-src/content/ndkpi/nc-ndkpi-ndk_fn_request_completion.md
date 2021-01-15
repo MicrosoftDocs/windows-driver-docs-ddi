@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkRequestCompletion
+ - NDK_FN_REQUEST_COMPLETION
 ---
 
 # NDK_FN_REQUEST_COMPLETION callback function
@@ -66,3 +66,4 @@ Many NDK requests can be completed asynchronously. Asynchronous request function
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>
+

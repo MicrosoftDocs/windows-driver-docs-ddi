@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _LBA_FILTER_TABLE_ENTRY
+ - PLBA_FILTER_TABLE_ENTRY
  - LBA_FILTER_TABLE_ENTRY
 ---
 
@@ -80,3 +82,4 @@ An LBA range is valid only if LbaCount is > 0 and it is not overlapping with ano
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table">LBA_FILTER_TABLE</a>
+

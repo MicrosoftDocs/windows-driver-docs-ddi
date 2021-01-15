@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorStart
+ - EVT_SENSOR_DRIVER_START_SENSOR
 ---
 
 # EVT_SENSOR_DRIVER_START_SENSOR callback function

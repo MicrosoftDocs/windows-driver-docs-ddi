@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_Supported_LB_Policies
+ - PISCSI_Supported_LB_Policies
  - ISCSI_Supported_LB_Policies
 ---
 
@@ -143,3 +145,4 @@ Path information as shown in the <a href="/windows-hardware/drivers/ddi/iscsimgt
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

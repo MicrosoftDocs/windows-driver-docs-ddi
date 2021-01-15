@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_ENUMADAPTERS
  - D3DKMT_ENUMADAPTERS
 ---
 
@@ -62,3 +63,4 @@ An array of <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_adapterinfo">D3DKMT_ADAPTERINFO</a>
+

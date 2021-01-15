@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_ENUM_CHILDREN_INPUT_BUFFER
+ - PACPI_ENUM_CHILDREN_INPUT_BUFFER
  - ACPI_ENUM_CHILDREN_INPUT_BUFFER
 ---
 
@@ -80,3 +82,4 @@ For information about how to enumerate child objects of a device, see <a href="/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_enum_children">IOCTL_ACPI_ENUM_CHILDREN</a>
+

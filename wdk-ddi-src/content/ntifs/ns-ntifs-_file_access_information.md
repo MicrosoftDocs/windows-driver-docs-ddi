@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _FILE_ACCESS_INFORMATION
+ - PFILE_ACCESS_INFORMATION
  - FILE_ACCESS_INFORMATION
 ---
 
@@ -70,3 +72,4 @@ The <i>AccessFlags</i> parameter is an access mask that encodes the user rights 
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

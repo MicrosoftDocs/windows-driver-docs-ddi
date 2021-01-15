@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl5.GetContextStackTraceEx
+ - IDebugControl5::GetContextStackTraceEx
 ---
 
 # IDebugControl5::GetContextStackTraceEx
@@ -133,3 +133,4 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 <a href="/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+

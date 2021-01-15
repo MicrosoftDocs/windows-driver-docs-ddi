@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_BUS_RESET_NOTIFICATION
  - IRB_REQ_BUS_RESET_NOTIFICATION
 ---
 
@@ -72,9 +73,9 @@ void BusResetNotificationRoutine(IN PVOID Context);
  
 ```
 
-
 ### -field ResetContext
 
 Specifies the argument to be passed to the notification routine.
 
 When the EXTENDED_NOTIFICATION_ROUTINE flag is specified, <b>ResetContext</b> points to a <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_bus_reset_data">BUS_RESET_DATA</a> structure.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - PowerCompletion
+ - REQUEST_POWER_COMPLETE
 ---
 
 # REQUEST_POWER_COMPLETE callback function
@@ -150,3 +150,4 @@ The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfIoTarget.h
 api_name:
- - EvtIoTargetRemoveComplete
+ - EVT_WDF_IO_TARGET_REMOVE_COMPLETE
 ---
 
 # EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback function
@@ -83,3 +83,4 @@ For more information about the <i>EvtIoTargetRemoveComplete</i> callback functio
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetclose">WdfIoTargetClose</a>
+

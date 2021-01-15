@@ -36,6 +36,8 @@ api_location:
  - mbbcxtypes.h
 api_name:
  - _MBB_DRIVER_GLOBALS
+ - PMBB_DRIVER_GLOBALS
+ - MBB_DRIVER_GLOBALS
 ---
 
 # _MBB_DRIVER_GLOBALS structure

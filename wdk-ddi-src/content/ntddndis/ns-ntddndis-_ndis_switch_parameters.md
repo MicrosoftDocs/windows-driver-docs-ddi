@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PARAMETERS
+ - PNDIS_SWITCH_PARAMETERS
  - NDIS_SWITCH_PARAMETERS
 ---
 
@@ -166,3 +168,4 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 <a href="/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">_STRING</a>
+

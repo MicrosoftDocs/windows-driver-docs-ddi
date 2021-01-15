@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_GROW_PARTITION
+ - PDISK_GROW_PARTITION
  - DISK_GROW_PARTITION
 ---
 
@@ -64,3 +66,4 @@ Indicates the number of bytes that the partition should be extended by. Note tha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>
+

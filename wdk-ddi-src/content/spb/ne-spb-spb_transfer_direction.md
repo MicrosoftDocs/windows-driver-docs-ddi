@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SPB_TRANSFER_DIRECTION
+ - PSPB_TRANSFER_DIRECTION
 ---
 
 # SPB_TRANSFER_DIRECTION enumeration
@@ -112,3 +113,4 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
+

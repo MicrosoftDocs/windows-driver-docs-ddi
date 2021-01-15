@@ -41,6 +41,8 @@ api_type:
 api_location:
  - miniport.h
 api_name:
+ - _PROCESSOR_NUMBER
+ - PPROCESSOR_NUMBER
  - PROCESSOR_NUMBER
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - DevicePowerNotRequiredCallback
+ - PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK
 ---
 
 # PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK callback function
@@ -112,3 +112,4 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
+

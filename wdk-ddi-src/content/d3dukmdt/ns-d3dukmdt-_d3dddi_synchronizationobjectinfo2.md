@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_SYNCHRONIZATIONOBJECTINFO2
  - D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 ---
 
@@ -186,3 +187,4 @@ An array of 64-bit values that are reserved for future use.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_HCE_DATA_PACKET
+ - PSECURE_ELEMENT_HCE_DATA_PACKET
  - SECURE_ELEMENT_HCE_DATA_PACKET
 ---
 
@@ -71,3 +73,4 @@ Length of ISO 7816-4 APDU buffer.
 #### - pbPayload[ANYSIZE_ARRAY]
 
 Buffer holding ISO 7816-4 APDU.
+

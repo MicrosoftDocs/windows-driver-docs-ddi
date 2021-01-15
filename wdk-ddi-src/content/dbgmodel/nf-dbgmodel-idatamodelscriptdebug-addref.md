@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptDebug.AddRef
+ - IDataModelScriptDebug::AddRef
 ---
 
 # IDataModelScriptDebug::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)
+

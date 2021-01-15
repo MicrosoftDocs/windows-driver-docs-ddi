@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - Location
+ - Location::Location
 ---
 
 # Location(ULONG64) function (dbgmodel.h)
@@ -65,3 +65,4 @@ a valid host context must be supplied.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

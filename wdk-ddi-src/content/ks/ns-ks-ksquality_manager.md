@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSQUALITY_MANAGER
  - KSQUALITY_MANAGER
 ---
 
@@ -66,3 +67,4 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksquality">KSQUALITY</a>
+

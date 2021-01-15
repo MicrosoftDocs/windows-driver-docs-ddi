@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
  - D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 ---
 
@@ -74,3 +75,4 @@ The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobject">D3DKMTSignalSynchronizationObject</a>
+

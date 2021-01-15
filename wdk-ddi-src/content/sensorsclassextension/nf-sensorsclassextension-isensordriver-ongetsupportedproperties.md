@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnGetSupportedProperties
+ - ISensorDriver::OnGetSupportedProperties
 ---
 
 # ISensorDriver::OnGetSupportedProperties
@@ -73,3 +73,4 @@ Each <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevic
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

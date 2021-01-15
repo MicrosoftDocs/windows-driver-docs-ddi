@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - dsound
  - dsound/dsound
+api_name:
+ - dsound
 ---
 
 # Dsound.h header

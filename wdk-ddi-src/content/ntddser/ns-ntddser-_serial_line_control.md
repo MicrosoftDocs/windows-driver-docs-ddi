@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_LINE_CONTROL
+ - PSERIAL_LINE_CONTROL
  - SERIAL_LINE_CONTROL
 ---
 
@@ -122,3 +124,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddser/ni-
 
 
 <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_line_control">IOCTL_SERIAL_SET_LINE_CONTROL</a>
+

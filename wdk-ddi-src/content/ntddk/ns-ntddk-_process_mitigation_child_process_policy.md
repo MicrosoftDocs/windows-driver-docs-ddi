@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _PROCESS_MITIGATION_CHILD_PROCESS_POLICY
+ - PPROCESS_MITIGATION_CHILD_PROCESS_POLICY
  - PROCESS_MITIGATION_CHILD_PROCESS_POLICY
 ---
 
@@ -74,3 +76,4 @@ Denies creation of child processes unless the child process is a secure process 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved.
+

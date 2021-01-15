@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetOutputColorSpace1
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE1
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ The legacy <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputcolorspace">VideoProcessorSetOutputColorSpace</a>
+

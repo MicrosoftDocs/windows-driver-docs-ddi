@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioTransmitWriteBuffer
+ - EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER
 ---
 
 # EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback function
@@ -143,3 +143,4 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER</b> function type is defined in the 
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a>
+

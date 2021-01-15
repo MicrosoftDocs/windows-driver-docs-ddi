@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - AllocateCaptureDmaEngine
+ - PALLOCATE_CAPTURE_DMA_ENGINE
 ---
 
 # PALLOCATE_CAPTURE_DMA_ENGINE callback function
@@ -189,3 +189,4 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
+

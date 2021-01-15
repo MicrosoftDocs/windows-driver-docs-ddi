@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtGetProfileCustomUserData
+ - DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA
 ---
 
 # DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA callback
@@ -149,3 +149,4 @@ The caller is responsible for freeing the memory allocated for the buffer pointe
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
+

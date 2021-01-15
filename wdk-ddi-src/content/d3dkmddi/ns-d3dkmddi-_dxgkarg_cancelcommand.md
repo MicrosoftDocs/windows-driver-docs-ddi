@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARG_CANCELCOMMAND
  - DXGKARG_CANCELCOMMAND
 ---
 
@@ -140,3 +141,4 @@ Note that <b>PatchLocationListSize</b> represents the total size of the patch-lo
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
+

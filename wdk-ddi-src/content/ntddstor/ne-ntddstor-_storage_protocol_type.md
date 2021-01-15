@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_TYPE
+ - PSTORAGE_PROTOCOL_TYPE
  - STORAGE_PROTOCOL_TYPE
 ---
 

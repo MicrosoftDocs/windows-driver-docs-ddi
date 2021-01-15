@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyResource
+ - PFND3DDDI_DESTROYRESOURCE
 product:
  - Windows
 ---
@@ -94,3 +94,4 @@ For more information about creating and destroying resources, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

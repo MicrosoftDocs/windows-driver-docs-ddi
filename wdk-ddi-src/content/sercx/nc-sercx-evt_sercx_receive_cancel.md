@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
- - EvtSerCxReceiveCancel
+ - EVT_SERCX_RECEIVE_CANCEL
 ---
 
 # EVT_SERCX_RECEIVE_CANCEL callback function
@@ -102,3 +102,4 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a>
+

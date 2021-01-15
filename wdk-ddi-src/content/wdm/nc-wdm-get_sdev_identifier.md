@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GET_SDEV_IDENTIFIER callback
+ - GET_SDEV_IDENTIFIER
 ---
 
 # GET_SDEV_IDENTIFIER callback function

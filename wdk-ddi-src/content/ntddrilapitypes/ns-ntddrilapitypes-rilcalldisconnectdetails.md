@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLDISCONNECTDETAILS
+ - LPRILCALLDISCONNECTDETAILS
 ---
 
 # RILCALLDISCONNECTDETAILS structure (ntddrilapitypes.h)

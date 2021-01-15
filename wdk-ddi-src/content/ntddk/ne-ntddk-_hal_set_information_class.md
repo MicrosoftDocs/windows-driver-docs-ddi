@@ -32,6 +32,8 @@ api_location:
  - ntddk.h
 api_name:
  - _HAL_SET_INFORMATION_CLASS
+ - PHAL_SET_INFORMATION_CLASS
+ - HAL_SET_INFORMATION_CLASS
 ---
 
 # _HAL_SET_INFORMATION_CLASS enumeration

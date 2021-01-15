@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _ADDRESS_OFFSET
+ - PADDRESS_OFFSET
  - ADDRESS_OFFSET
 ---
 
@@ -72,3 +74,4 @@ Specifies the low order offset for a IEEE 1394 address.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_TYPE_PMK_NAME
+ - PWDI_TYPE_PMK_NAME
  - WDI_TYPE_PMK_NAME
 ---
 

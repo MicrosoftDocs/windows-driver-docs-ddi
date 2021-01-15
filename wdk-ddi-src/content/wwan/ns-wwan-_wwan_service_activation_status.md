@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SERVICE_ACTIVATION_STATUS
+ - PWWAN_SERVICE_ACTIVATION_STATUS
  - WWAN_SERVICE_ACTIVATION_STATUS
 ---
 
@@ -69,3 +71,4 @@ The size, in bytes, of the vendor-specific buffer that follows the structure ins
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_service_activation_status">
    NDIS_WWAN_SERVICE_ACTIVATION_STATUS</a>
+

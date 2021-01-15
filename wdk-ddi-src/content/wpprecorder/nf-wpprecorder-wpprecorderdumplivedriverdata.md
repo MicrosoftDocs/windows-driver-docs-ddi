@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
- - imp_WppRecorderDumpLiveDriverData
+ - WppRecorderDumpLiveDriverData
 ---
 
 # WppRecorderDumpLiveDriverData macro
@@ -60,3 +60,4 @@ Pointer to a ULONG that contains the size of the output buffer pointed to by Out
 ### -param Guid
 
 Pointer to the WPP controller GUID that identifies the driver data.
+

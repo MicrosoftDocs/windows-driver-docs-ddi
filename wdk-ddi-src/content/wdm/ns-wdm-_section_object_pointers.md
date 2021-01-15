@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _SECTION_OBJECT_POINTERS
  - SECTION_OBJECT_POINTERS
 ---
 
@@ -123,3 +124,4 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+

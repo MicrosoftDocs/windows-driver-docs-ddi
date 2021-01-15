@@ -41,6 +41,8 @@ api_type:
 api_location:
  - kbdmou.h
 api_name:
+ - _CONNECT_DATA
+ - PCONNECT_DATA
  - CONNECT_DATA
 ---
 
@@ -64,3 +66,4 @@ Specifies the class service routine. See  <a href="/windows-hardware/drivers/ddi
 ## -remarks
 
 The keyboard class driver uses this structure with an <a href="/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_mouse_connect">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_POWER_DEVICE_STATE
+ - PWDF_POWER_DEVICE_STATE
  - WDF_POWER_DEVICE_STATE
 ---
 
@@ -99,3 +101,4 @@ The framework supplies one of the values of <a href="/windows-hardware/drivers/d
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallback-ond0exit">IPnpCallback::OnD0Exit</a>
+

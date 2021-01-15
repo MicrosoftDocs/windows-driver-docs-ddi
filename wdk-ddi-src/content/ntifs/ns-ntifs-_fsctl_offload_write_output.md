@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSCTL_OFFLOAD_WRITE_OUTPUT
+ - PFSCTL_OFFLOAD_WRITE_OUTPUT
  - FSCTL_OFFLOAD_WRITE_OUTPUT
 ---
 
@@ -96,3 +98,4 @@ The length of data written for the transfer specified in <a href="/windows-hardw
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_write_input">FSCTL_OFFLOAD_WRITE_INPUT</a>
+

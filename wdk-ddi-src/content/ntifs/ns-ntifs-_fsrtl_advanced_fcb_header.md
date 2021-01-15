@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSRTL_ADVANCED_FCB_HEADER
  - FSRTL_ADVANCED_FCB_HEADER
 ---
 
@@ -352,3 +353,4 @@ All Microsoft file systems disable stream context support for paging files by cl
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlteardownperstreamcontexts">FsRtlTeardownPerStreamContexts</a>
+

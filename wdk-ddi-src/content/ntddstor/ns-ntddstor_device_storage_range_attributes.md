@@ -27,6 +27,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_STORAGE_RANGE_ATTRIBUTES
+ - PDEVICE_STORAGE_RANGE_ATTRIBUTES
  - DEVICE_STORAGE_RANGE_ATTRIBUTES
 product:
  - Windows
@@ -77,3 +79,4 @@ See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-ds
 [DEVICE_DSM_RANGE_ERROR_OUTPUT](./ns-ntddstor-_device_dsm_range_error_info.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

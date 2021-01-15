@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _GETINFO_FONTOBJ
+ - PGETINFO_FONTOBJ
  - GETINFO_FONTOBJ
 ---
 
@@ -72,3 +74,4 @@ To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply th
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

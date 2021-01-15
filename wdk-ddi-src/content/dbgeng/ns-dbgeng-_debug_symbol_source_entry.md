@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_SYMBOL_SOURCE_ENTRY
+ - PDEBUG_SYMBOL_SOURCE_ENTRY
  - DEBUG_SYMBOL_SOURCE_ENTRY
 ---
 

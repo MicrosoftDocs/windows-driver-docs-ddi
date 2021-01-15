@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _AACS_READ_BINDING_NONCE
+ - PAACS_READ_BINDING_NONCE
  - AACS_READ_BINDING_NONCE
 ---
 
@@ -86,3 +88,4 @@ Clients retrieve the binding nonce with an <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_binding_nonce">IOCTL_AACS_READ_BINDING_NONCE</a>
+

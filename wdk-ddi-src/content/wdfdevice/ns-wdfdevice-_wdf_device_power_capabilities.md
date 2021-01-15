@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_POWER_CAPABILITIES
+ - PWDF_DEVICE_POWER_CAPABILITIES
  - WDF_DEVICE_POWER_CAPABILITIES
 ---
 
@@ -138,3 +140,4 @@ To initialize a WDF_DEVICE_POWER_CAPABILITIES structure, a driver should call <a
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a>
+

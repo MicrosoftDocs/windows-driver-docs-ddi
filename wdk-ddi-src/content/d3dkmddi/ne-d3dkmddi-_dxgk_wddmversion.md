@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_WDDMVERSION
  - DXGK_WDDMVERSION
 dev_langs:
  - c++
@@ -125,3 +126,4 @@ typedef enum _DXGK_WDDMVERSION {
 ## -see-also
 
 [VidPn Interface](../index.yml)
+

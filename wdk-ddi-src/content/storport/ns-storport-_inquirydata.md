@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _INQUIRYDATA
+ - PINQUIRYDATA
  - INQUIRYDATA
 ---
 
@@ -266,3 +268,4 @@ Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and 
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_STATE
  - NDIS_SWITCH_PORT_STATE
 ---
 
@@ -81,3 +82,4 @@ For more information about extensible switch port states, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfpdo.h
 api_name:
- - EvtDeviceReportedMissing
+ - EVT_WDF_DEVICE_REPORTED_MISSING
 ---
 
 # EVT_WDF_DEVICE_REPORTED_MISSING callback function
@@ -68,3 +68,4 @@ Most framework-based bus drivers do not need to provide this callback function.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>
+

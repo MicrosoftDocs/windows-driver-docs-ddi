@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_COLOR
  - DXVAHDDDI_COLOR
 ---
 
@@ -66,3 +67,4 @@ The DXVAHDDDI_COLOR union contains information that specifies color with either 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a>
+

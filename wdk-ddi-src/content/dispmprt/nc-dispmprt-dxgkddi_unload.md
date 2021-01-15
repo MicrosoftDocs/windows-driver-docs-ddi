@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiUnload
+ - DXGKDDI_UNLOAD
 ---
 
 # DXGKDDI_UNLOAD callback function
@@ -56,3 +56,4 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
+

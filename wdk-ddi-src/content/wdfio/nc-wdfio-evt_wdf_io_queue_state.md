@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoQueueState
+ - EVT_WDF_IO_QUEUE_STATE
 ---
 
 # EVT_WDF_IO_QUEUE_STATE callback function
@@ -88,3 +88,4 @@ If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestop">WdfIoQueueStop</a>
+

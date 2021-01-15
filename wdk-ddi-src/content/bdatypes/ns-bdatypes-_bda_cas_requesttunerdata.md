@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_CAS_REQUESTTUNERDATA
+ - PBDA_CAS_REQUESTTUNERDATA
  - BDA_CAS_REQUESTTUNERDATA
 ---
 

@@ -40,6 +40,7 @@ api_location:
  - wdfdevice.h
  - wudfddi_types.h
 api_name:
+ - _WDF_EVENT_TYPE
  - WDF_EVENT_TYPE
 ---
 
@@ -73,3 +74,4 @@ Reserved for system use.
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>
+

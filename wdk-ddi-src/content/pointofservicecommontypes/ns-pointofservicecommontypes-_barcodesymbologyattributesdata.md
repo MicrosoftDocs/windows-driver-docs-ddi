@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicecommontypes.h
 api_name:
+ - _BarcodeSymbologyAttributesData
  - BarcodeSymbologyAttributesData
 ---
 
@@ -93,3 +94,4 @@ The first  value in a range, or the  first  discrete value.
 ### -field DecodeLength2
 
 The last value in a range, or a second discrete value.
+

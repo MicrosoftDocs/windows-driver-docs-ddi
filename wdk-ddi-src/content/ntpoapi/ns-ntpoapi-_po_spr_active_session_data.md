@@ -35,6 +35,8 @@ api_location:
  - ntpoapi.h
 api_name:
  - _PO_SPR_ACTIVE_SESSION_DATA
+ - PPO_SPR_ACTIVE_SESSION_DATA
+ - PO_SPR_ACTIVE_SESSION_DATA
 ---
 
 # _PO_SPR_ACTIVE_SESSION_DATA structure
@@ -74,3 +76,4 @@ If the registration is successful, the [DEVICE_NOTIFY_CALLBACK_ROUTINE](/windows
 [**POWERBROADCAST_SETTING**](/windows/win32/api/winuser/ns-winuser-powerbroadcast_setting)
 
 [DEVICE_NOTIFY_CALLBACK_ROUTINE](/windows/win32/api/powrprof/nc-powrprof-device_notify_callback_routine)
+

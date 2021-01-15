@@ -33,6 +33,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS
  - DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS
 dev_langs:
  - c++

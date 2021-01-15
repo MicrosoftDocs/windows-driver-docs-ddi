@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_P2P_GO_INTERNAL_RESET_POLICY
  - WDI_P2P_GO_INTERNAL_RESET_POLICY
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - IoCompleteRequest
+ - IofCompleteRequest
 ---
 
 # IoCompleteRequest macro
@@ -70,3 +70,4 @@ Never call <b>IoCompleteRequest</b> while holding a spin lock. Attempting to com
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
+

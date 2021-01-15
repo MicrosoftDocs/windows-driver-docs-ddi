@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_SUPPORTED_ALGORITHMS
+ - PWINBIO_SUPPORTED_ALGORITHMS
  - WINBIO_SUPPORTED_ALGORITHMS
 ---
 
@@ -72,3 +74,4 @@ Specifies a structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioct
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_supported_algorithms">IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS</a>
+

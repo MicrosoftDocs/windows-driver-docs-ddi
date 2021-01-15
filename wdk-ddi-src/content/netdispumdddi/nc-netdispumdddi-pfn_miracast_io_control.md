@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - MiracastIoControl
+ - PFN_MIRACAST_IO_CONTROL
 ---
 
 # PFN_MIRACAST_IO_CONTROL callback function
@@ -111,3 +111,4 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a>
+

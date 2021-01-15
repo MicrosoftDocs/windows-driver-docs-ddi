@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoDecoderEndFrame
+ - PFND3D11_1DDI_VIDEODECODERENDFRAME
 ---
 
 # PFND3D11_1DDI_VIDEODECODERENDFRAME callback function
@@ -72,3 +72,4 @@ The <b>VideoDecoderEndFrame</b> completes the decoding operation that was starte
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe">VideoDecoderBeginFrame</a>
+

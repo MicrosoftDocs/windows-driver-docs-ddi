@@ -39,6 +39,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
+ - _DEBUG_FLR_PARAM_TYPE
  - DEBUG_FLR_PARAM_TYPE
 ---
 
@@ -1538,3 +1539,4 @@ For more information about tags, see <a href="/windows-hardware/drivers/debugger
 
 
 <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+

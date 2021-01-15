@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - CsqPeekNextIrp
+ - IO_CSQ_PEEK_NEXT_IRP
 ---
 
 # IO_CSQ_PEEK_NEXT_IRP callback function
@@ -157,3 +157,4 @@ The IO_CSQ_PEEK_NEXT_IRP function type is defined in the Wdm.h header file. To m
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - BluetoothPortIndicationCallback
+ - PFNBTHPORT_INDICATION_CALLBACK
 ---
 
 # PFNBTHPORT_INDICATION_CALLBACK callback function
@@ -131,3 +131,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">_BRB_L2CA_REGISTER_SERVER</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_BUS_RESET_REQUEST
+ - PSTORAGE_BUS_RESET_REQUEST
  - STORAGE_BUS_RESET_REQUEST
 ---
 
@@ -60,3 +62,4 @@ Indicates the number of the bus to be reset.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_reset_bus">IOCTL_STORAGE_RESET_BUS</a>
+

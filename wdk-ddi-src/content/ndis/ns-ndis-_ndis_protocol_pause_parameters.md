@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_PROTOCOL_PAUSE_PARAMETERS
+ - PNDIS_PROTOCOL_PAUSE_PARAMETERS
  - NDIS_PROTOCOL_PAUSE_PARAMETERS
 ---
 
@@ -91,3 +93,4 @@ To specify the pause parameters for a binding, NDIS passes a pointer to an
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
+

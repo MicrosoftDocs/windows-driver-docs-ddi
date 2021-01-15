@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_READ_USER_MINIDUMP_STREAM
+ - PDEBUG_READ_USER_MINIDUMP_STREAM
  - DEBUG_READ_USER_MINIDUMP_STREAM
 ---
 
@@ -105,3 +107,4 @@ typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM
 The target must be a user-mode minidump file.
 
 Each minidump file contains a number of <i>streams</i>.  These streams are blocks of data written to the minidump file.
+

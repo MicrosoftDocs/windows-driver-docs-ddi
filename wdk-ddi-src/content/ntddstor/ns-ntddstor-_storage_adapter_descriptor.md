@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_ADAPTER_DESCRIPTOR
+ - PSTORAGE_ADAPTER_DESCRIPTOR
  - STORAGE_ADAPTER_DESCRIPTOR
 ---
 
@@ -188,3 +190,4 @@ If excessive protocol errors occur on an HBA that supports synchronous transfers
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+

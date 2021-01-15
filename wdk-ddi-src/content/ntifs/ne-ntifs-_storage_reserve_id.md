@@ -33,6 +33,8 @@ api_location:
  - ntifs.h
 api_name:
  - _STORAGE_RESERVE_ID
+ - PSTORAGE_RESERVE_ID
+ - STORAGE_RESERVE_ID
 dev_langs:
  - c++
 ---

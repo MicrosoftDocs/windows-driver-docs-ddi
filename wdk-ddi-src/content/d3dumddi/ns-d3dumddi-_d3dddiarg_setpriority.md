@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETPRIORITY
  - D3DDDIARG_SETPRIORITY
 ---
 
@@ -68,3 +69,4 @@ The priority level at which a texture is set determines its eviction order from 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpriority">SetPriority</a>
+

@@ -33,11 +33,13 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_MODE_BEHAVIOR_FLAGS
+ - DXGK_MODE_BEHAVIOR_FLAGS
 product:
  - Windows
 ---
 
 # DXGK_MODE_BEHAVIOR_FLAGS structure
+
 
 ## -description
 
@@ -72,3 +74,4 @@ The following table describes how the driver should set the value of **Colorimet
 ## -see-also
 
 [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md)
+

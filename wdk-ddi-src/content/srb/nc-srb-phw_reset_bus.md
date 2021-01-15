@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_RESET_BUS)
+ - PHW_RESET_BUS
 ---
 
 # PHW_RESET_BUS callback
@@ -79,3 +79,4 @@ For more information about the bus reset routine that is used with the StorPort 
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>
+

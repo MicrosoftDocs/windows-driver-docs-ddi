@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.GetString
+ - ExtRemoteData::GetString
 ---
 
 # ExtRemoteData::GetString (engextcpp.h)
@@ -88,3 +88,4 @@ This method can only be used if the region represented by the <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-readbuffer">ExtRemoteData::ReadBuffer</a>
+

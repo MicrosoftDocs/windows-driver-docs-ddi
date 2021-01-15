@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetOverlayColorControls
+ - PFND3DDDI_SETOVERLAYCOLORCONTROLS
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ The runtime can also call <i>SetOverlayColorControls</i> for an overlay that is 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

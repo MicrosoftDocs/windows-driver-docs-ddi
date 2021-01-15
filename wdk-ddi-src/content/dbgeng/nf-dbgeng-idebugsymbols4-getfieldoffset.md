@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - GetFieldOffset
+ - IDebugSymbols4::GetFieldOffset
 ---
 
 # IDebugSymbols4::GetFieldOffset method
@@ -82,3 +82,4 @@ __inline ULONG GetFieldOffset(
   _Out_ PULONG pOffset
 );
 ```
+

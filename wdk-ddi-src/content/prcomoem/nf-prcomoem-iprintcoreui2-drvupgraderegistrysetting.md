@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreUI2.DrvUpgradeRegistrySetting
+ - IPrintCoreUI2::DrvUpgradeRegistrySetting
 ---
 
 # IPrintCoreUI2::DrvUpgradeRegistrySetting
@@ -118,3 +118,4 @@ This method should be called only by the OEM's <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting">IPrintOemDriverUI::DrvUpgradeRegistrySetting</a>
+

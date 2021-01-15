@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _WOF_EXTERNAL_FILE_ID
+ - PWOF_EXTERNAL_FILE_ID
  - WOF_EXTERNAL_FILE_ID
 ---
 
@@ -68,3 +70,4 @@ Use the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatef
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_version_info">WOF_VERSION_INFO</a>
+

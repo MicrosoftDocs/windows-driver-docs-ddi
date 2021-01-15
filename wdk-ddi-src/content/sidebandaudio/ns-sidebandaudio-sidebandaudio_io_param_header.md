@@ -33,6 +33,7 @@ api_type:
 api_location:
  - sidebandaudio.h
 api_name:
+ - PSIDEBANDAUDIO_IO_PARAM_HEADER
  - SIDEBANDAUDIO_IO_PARAM_HEADER
 ---
 

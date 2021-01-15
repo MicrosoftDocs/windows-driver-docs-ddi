@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_CLIENT_LISTEN_DISPATCH
+ - PWSK_CLIENT_LISTEN_DISPATCH
  - WSK_CLIENT_LISTEN_DISPATCH
 ---
 
@@ -101,3 +103,4 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

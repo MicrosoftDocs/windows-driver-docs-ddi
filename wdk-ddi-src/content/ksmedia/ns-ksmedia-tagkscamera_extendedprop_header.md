@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_HEADER
+ - PKSCAMERA_EXTENDEDPROP_HEADER
  - KSCAMERA_EXTENDEDPROP_HEADER
 ---
 
@@ -89,3 +91,4 @@ The following capabilities are defined.
 ## -see-also
 
 [KSCAMERA_EXTENDEDPROP_VALUE](./ns-ksmedia-tagkscamera_extendedprop_value.md)
+

@@ -36,9 +36,12 @@ api_location:
  - trustedrt.h
 api_name:
  - _TR_SERVICE_REQUEST_RESPONSE_V1
+ - PTR_SERVICE_REQUEST_RESPONSE_V1
+ - TR_SERVICE_REQUEST_RESPONSE_V1
 ---
 
 # _TR_SERVICE_REQUEST_RESPONSE_V1 structure
+
 
 ## -description
 
@@ -51,3 +54,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

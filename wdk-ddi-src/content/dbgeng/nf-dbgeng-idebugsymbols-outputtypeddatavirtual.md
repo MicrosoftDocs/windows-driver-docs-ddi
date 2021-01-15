@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.OutputTypedDataVirtual
- - IDebugSymbols2.OutputTypedDataVirtual
- - IDebugSymbols3.OutputTypedDataVirtual
+ - IDebugSymbols::OutputTypedDataVirtual
 ---
 
 # IDebugSymbols::OutputTypedDataVirtual
@@ -103,3 +101,4 @@ The method was successful.
 The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="/windows-hardware/drivers/debugger/dt--display-type-">dt (Display Type)</a>.
 
 For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+

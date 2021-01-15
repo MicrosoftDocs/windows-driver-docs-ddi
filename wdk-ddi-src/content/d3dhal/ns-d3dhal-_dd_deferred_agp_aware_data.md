@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_DEFERRED_AGP_AWARE_DATA
  - DD_DEFERRED_AGP_AWARE_DATA
 ---
 
@@ -69,3 +70,4 @@ Whenever a display device is created, the driver receives a <b>GetDriverInfo2</b
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+

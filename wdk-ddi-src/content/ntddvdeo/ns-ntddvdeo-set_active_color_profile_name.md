@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _SET_ACTIVE_COLOR_PROFILE_NAME
+ - PSET_ACTIVE_COLOR_PROFILE_NAME
  - SET_ACTIVE_COLOR_PROFILE_NAME
 dev_langs:
  - c++

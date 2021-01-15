@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_AMVPDIMINFO
+ - PKS_AMVPDIMINFO
  - KS_AMVPDIMINFO
 ---
 
@@ -80,3 +82,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_amvpdatainfo">KS_AMVPDATAINFO</a>
+

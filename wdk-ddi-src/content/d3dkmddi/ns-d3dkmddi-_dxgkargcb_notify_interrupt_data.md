@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_NOTIFY_INTERRUPT_DATA
  - DXGKARGCB_NOTIFY_INTERRUPT_DATA
 ---
 
@@ -582,3 +583,4 @@ Depending on the value in the **InterruptType** member, the display miniport dri
 [**DXGK_PAGE_FAULT_FLAGS**](..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md)
 
 [**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
+

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IRawEnumerator.AddRef
+ - IRawEnumerator::AddRef
 ---
 
 # IRawEnumerator::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IRawEnumerator interface](nn-dbgmodel-irawenumerator.md)
+

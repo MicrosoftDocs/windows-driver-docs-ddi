@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_PERF_CAPABILITIES
+ - PPEP_PPM_QUERY_PERF_CAPABILITIES
  - PEP_PPM_QUERY_PERF_CAPABILITIES
 ---
 
@@ -90,3 +92,4 @@ Processor performance levels are specified in platform-specific units. For examp
 
 
 <a href="/windows-hardware/drivers/kernel/platform-performance-thresholds">Platform Performance Thresholds</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - parallel.h
 api_name:
- - (*PPARALLEL_FREE_ROUTINE)
+ - PPARALLEL_FREE_ROUTINE
 ---
 
 # PPARALLEL_FREE_ROUTINE callback
@@ -85,3 +85,4 @@ For more information, see <a href="/previous-versions/ff544809(v=vs.85)">Synchro
 
 
 <a href="..\parallel\nc-parallel-pparallel_query_waiters_routine.md">PPARALLEL_QUERY_WAITERS_ROUTINE</a>
+

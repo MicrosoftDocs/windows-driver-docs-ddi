@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printerextension.h
 api_name:
- - IPrinterScriptableSequentialStream.Write
+ - IPrinterScriptableSequentialStream::Write
 ---
 
 # IPrinterScriptableSequentialStream::Write
@@ -68,3 +68,4 @@ This method returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>
+

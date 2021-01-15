@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _NODE_ADDRESS
+ - PNODE_ADDRESS
  - NODE_ADDRESS
 ---
 
@@ -68,3 +70,4 @@ Specifies the 10-bit bus number. This member specifies bits 0-10 of the node add
 
 
 <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_io_address">IO_ADDRESS</a>
+

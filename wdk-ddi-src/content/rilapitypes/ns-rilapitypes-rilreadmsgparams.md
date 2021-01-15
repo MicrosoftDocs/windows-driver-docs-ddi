@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILREADMSGPARAMS
+ - LPRILREADMSGPARAMS
 ---
 
 # RILREADMSGPARAMS structure (rilapitypes.h)

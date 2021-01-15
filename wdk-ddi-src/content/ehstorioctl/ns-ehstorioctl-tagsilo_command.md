@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - tagSILO_COMMAND
+ - PSILO_COMMAND
  - SILO_COMMAND
 ---
 

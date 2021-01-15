@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+ - PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
  - NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
 ---
 
@@ -104,3 +106,4 @@ The  <b>NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</b> structure is used in OID se
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-set-vf-power-state">OID_SRIOV_SET_VF_POWER_STATE</a>
+

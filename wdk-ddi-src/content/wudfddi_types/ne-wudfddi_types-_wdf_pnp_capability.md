@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_PNP_CAPABILITY
  - WDF_PNP_CAPABILITY
 ---
 
@@ -96,3 +97,4 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize-setpnpcapability">IWDFDeviceInitialize::SetPnpCapability</a>
+

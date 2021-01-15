@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_PROVIDER_DISPATCH
  - NDIS_PD_PROVIDER_DISPATCH
 ---
 
@@ -120,3 +121,4 @@ See <a href="/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQue
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

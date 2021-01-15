@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiLinkDevice
+ - DXGKDDI_LINK_DEVICE
 ---
 
 # DXGKDDI_LINK_DEVICE callback function
@@ -87,3 +87,4 @@ Plug and Play or power events cause the leading linked adapter to power up or st
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_linked_device">LINKED_DEVICE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_HOTPLUG_INFO
+ - PSTORAGE_HOTPLUG_INFO
  - STORAGE_HOTPLUG_INFO
 ---
 
@@ -88,3 +90,4 @@ In the case of the IOCTL_STORAGE_SET_HOTPLUG_INFO request, the <b>DeviceHotplug<
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
+

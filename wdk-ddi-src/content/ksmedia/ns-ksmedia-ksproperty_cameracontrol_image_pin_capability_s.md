@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
  - KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
 ---
 
@@ -74,3 +75,4 @@ Reserved for system use. Do not use in your driver.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a>
+

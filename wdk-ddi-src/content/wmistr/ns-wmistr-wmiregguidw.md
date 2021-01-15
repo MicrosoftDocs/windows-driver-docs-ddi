@@ -39,7 +39,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
- - WMIREGGUID
+ - PWMIREGGUIDW
+ - WMIREGGUIDW
 ---
 
 # WMIREGGUIDW structure
@@ -156,3 +157,4 @@ A driver can register or update a block with either static or dynamic instance n
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmireginfow">WMIREGINFO</a>
+

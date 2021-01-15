@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_KERNEL_INFORMATION_STRUCT_V1
+ - PPEP_KERNEL_INFORMATION_STRUCT_V1
  - PEP_KERNEL_INFORMATION_STRUCT_V1
 ---
 
@@ -170,3 +172,4 @@ The <b>KernelInformation</b> parameter to the <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackupdateprocessoridlestate">UpdateProcessorIdleState</a>
+

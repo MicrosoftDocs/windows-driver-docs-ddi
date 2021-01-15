@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _AddPort_OUT
+ - PAddPort_OUT
  - AddPort_OUT
 ---
 
@@ -60,3 +62,4 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -see-also
 
 <a href="/previous-versions/ff545022(v=vs.85)">AddPort</a>
+

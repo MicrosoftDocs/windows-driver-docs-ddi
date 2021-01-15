@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_ETW_OVERFLOW_EVENT
+ - PWHEA_ETW_OVERFLOW_EVENT
  - WHEA_ETW_OVERFLOW_EVENT
 f1_keywords:
  - _WHEA_ETW_OVERFLOW_EVENT

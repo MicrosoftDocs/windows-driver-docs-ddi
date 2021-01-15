@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsControl.KsProperty
+ - IKsControl::KsProperty
 ---
 
 # IKsControl::KsProperty (ks.h)
@@ -93,3 +93,4 @@ To determine the buffer size that is required for a specific property request, y
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a>
+

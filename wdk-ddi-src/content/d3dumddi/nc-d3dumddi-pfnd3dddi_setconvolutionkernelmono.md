@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetConvolutionKernelMono
+ - PFND3DDDI_SETCONVOLUTIONKERNELMONO
 product:
  - Windows
 ---
@@ -109,3 +109,4 @@ alpha = V<sub>f</sub> - truncate(V<sub>f</sub>)
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_CREATEOVERLAY
  - DXGKARG_CREATEOVERLAY
 ---
 
@@ -70,3 +71,4 @@ The DXGKARG_CREATEOVERLAY structure describes parameters to create an overlay.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddcdrm
  - ntddcdrm/ntddcdrm
+api_name:
+ - ntddcdrm
 ---
 
 # Ntddcdrm.h header

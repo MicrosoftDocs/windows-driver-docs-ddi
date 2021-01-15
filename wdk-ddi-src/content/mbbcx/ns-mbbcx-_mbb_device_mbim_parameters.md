@@ -36,6 +36,8 @@ api_location:
  - mbbcx.h
 api_name:
  - _MBB_DEVICE_MBIM_PARAMETERS
+ - PMBB_DEVICE_MBIM_PARAMETERS
+ - MBB_DEVICE_MBIM_PARAMETERS
 ---
 
 # _MBB_DEVICE_MBIM_PARAMETERS structure

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _PCI_EXPRESS_PME_REQUESTOR_ID
+ - PPCI_EXPRESS_PME_REQUESTOR_ID
  - PCI_EXPRESS_PME_REQUESTOR_ID
 ---
 
@@ -96,3 +98,4 @@ A PCI_EXPRESS_PME_REQUESTOR_ID structure is contained in the <b>PMERequestorId</
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
+

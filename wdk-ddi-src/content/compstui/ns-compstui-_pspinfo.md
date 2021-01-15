@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _PSPINFO
+ - PPSPINFO
  - PSPINFO
 ---
 
@@ -89,3 +91,4 @@ if (Msg == WM_INITDIALOG) {
 ```
 
 The PSPINFO structure pointer can be saved for later use, but the structure's contents must not be modified.
+

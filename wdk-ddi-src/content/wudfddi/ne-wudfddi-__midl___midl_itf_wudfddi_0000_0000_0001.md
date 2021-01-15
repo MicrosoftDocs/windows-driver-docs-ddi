@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
+ - __MIDL___MIDL_itf_wudfddi_0000_0000_0001
+ - PPOWER_ACTION
  - POWER_ACTION
 ---
 
@@ -94,3 +96,4 @@ The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="/wi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>
+

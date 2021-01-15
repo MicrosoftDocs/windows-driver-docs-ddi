@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET
+ - D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET
 dev_langs:
  - c++
 ---

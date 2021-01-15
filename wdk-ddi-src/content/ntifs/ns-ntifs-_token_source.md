@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_SOURCE
+ - PTOKEN_SOURCE
  - TOKEN_SOURCE
 ---
 
@@ -80,3 +82,4 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

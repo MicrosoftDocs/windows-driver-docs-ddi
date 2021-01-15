@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptablePropertyBag2.GetReadStreamAsXML
+ - IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 ---
 
 # IPrinterScriptablePropertyBag2::GetReadStreamAsXML
@@ -62,3 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag2">IPrinterScriptablePropertyBag2</a>
+

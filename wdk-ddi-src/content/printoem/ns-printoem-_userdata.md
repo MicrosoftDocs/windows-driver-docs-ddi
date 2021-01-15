@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _USERDATA
+ - PUSERDATA
  - USERDATA
 ---
 
@@ -68,3 +70,4 @@ Pointer to a nonlocalized text string identifying a printer feature.
 ### -field dwReserved
 
 Reserved.
+

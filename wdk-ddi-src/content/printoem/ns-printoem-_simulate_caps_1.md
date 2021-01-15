@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _SIMULATE_CAPS_1
+ - PSIMULATE_CAPS_1
  - SIMULATE_CAPS_1
 ---
 
@@ -117,3 +119,4 @@ The <b>IPrintCoreUI2::QuerySimulationSupport</b> method uses this structure to r
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-querysimulationsupport">IPrintCoreUI2::QuerySimulationSupport</a>
+

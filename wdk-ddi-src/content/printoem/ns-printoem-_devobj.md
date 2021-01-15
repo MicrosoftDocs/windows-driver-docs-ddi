@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _DEVOBJ
+ - PDEVOBJ
  - DEVOBJ
 ---
 
@@ -112,3 +114,4 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 <a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _KSAUDIOMODULE_NOTIFICATION
+ - PKSAUDIOMODULE_NOTIFICATION
  - KSAUDIOMODULE_NOTIFICATION
 ---
 
@@ -95,3 +97,4 @@ DEFINE_GUIDSTRUCT("9C2220F0-D9A6-4D5C-A036-573857FD50D2", KSNOTIFICATIONID_Audio
 ```
 
 For more information about audio modules, see [Implementing Audio Module Discovery](/windows-hardware/drivers/audio/implementing-audio-module-communication).
+

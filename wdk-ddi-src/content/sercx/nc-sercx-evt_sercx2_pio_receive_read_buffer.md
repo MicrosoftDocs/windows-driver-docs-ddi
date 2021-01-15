@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioReceiveReadBuffer
+ - EVT_SERCX2_PIO_RECEIVE_READ_BUFFER
 ---
 
 # EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback function
@@ -138,3 +138,4 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a>
+

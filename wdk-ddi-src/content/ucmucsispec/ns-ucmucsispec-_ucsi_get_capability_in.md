@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_CAPABILITY_IN
+ - PUCSI_GET_CAPABILITY_IN
+ - UCSI_GET_CAPABILITY_IN
 ---
 
 # _UCSI_GET_CAPABILITY_IN structure

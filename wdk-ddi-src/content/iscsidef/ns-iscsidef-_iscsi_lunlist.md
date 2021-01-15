@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - _ISCSI_LUNList
+ - PISCSI_LUNList
  - ISCSI_LUNList
 ---
 
@@ -68,3 +70,4 @@ Reserved for Microsoft use only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/iscsi-lunlist-wmi-class">ISCSI_LUNList WMI Class</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_WAKE_REASON_TYPE
+ - PNDIS_PM_WAKE_REASON_TYPE
  - NDIS_PM_WAKE_REASON_TYPE
 ---
 
@@ -106,3 +108,4 @@ The  <b>WakeReason</b> member of the <a href="/windows-hardware/drivers/ddi/ntdd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wake_reason">NDIS_PM_WAKE_REASON</a>
+

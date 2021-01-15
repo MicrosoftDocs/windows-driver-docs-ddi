@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfchildlist.h
 api_name:
+ - _WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
+ - PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
  - WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
 ---
 
@@ -88,3 +90,4 @@ The <b>WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</b> enumeration is used to specify 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievepdo">WdfChildListRetrievePdo</a>
+

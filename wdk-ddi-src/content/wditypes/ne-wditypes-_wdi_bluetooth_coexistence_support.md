@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_BLUETOOTH_COEXISTENCE_SUPPORT
  - WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 ---
 

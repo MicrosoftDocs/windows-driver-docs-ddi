@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_CONTROLLER_INTERFACE
+ - PIDE_CONTROLLER_INTERFACE
  - IDE_CONTROLLER_INTERFACE
 ---
 
@@ -89,3 +91,4 @@ Pointer to the miniport's <b>AtaControllerTransferModeSelect</b> routine. This i
 ### -field AtaAdapterControl
 
 Pointer to the miniport's <b>AtaControllerAdapterControl</b> routine. This is a required entry point.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_DEFAULT_DACL
+ - PTOKEN_DEFAULT_DACL
  - TOKEN_DEFAULT_DACL
 ---
 
@@ -76,3 +78,4 @@ The <b>SeQueryInformationToken</b> support routine retrieves the default DACL fo
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

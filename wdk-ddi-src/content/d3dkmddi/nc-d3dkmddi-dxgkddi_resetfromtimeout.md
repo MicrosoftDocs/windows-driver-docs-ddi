@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiResetFromTimeout
+ - DXGKDDI_RESETFROMTIMEOUT
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ For more information about time-outs in this situation, see <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_restartfromtimeout">DxgkDdiRestartFromTimeout</a>
+

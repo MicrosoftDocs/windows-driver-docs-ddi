@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetScissorRect
+ - PFND3DDDI_SETSCISSORRECT
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> struc
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

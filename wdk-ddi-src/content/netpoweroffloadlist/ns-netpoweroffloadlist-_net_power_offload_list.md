@@ -7,7 +7,7 @@ ms.date: 10/03/2019
 keywords: ["NET_POWER_OFFLOAD_LIST structure"]
 ms.keywords: NET_POWER_OFFLOAD_LIST, NET_POWER_OFFLOAD_LIST,
 req.header: netpoweroffloadlist.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netpoweroffloadlist.h
 api_name:
+ - _NET_POWER_OFFLOAD_LIST
  - NET_POWER_OFFLOAD_LIST
 product:
  - Windows
@@ -76,3 +77,4 @@ For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring powe
 [**NetPowerOffloadListGetElement**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetelement.md)
 
 [**NetPowerOffloadGetType**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgettype.md)
+

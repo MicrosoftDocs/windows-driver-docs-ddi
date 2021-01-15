@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_STATUS
+ - PSERIAL_STATUS
  - SERIAL_STATUS
 ---
 
@@ -152,3 +154,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddser/ni-
 
 
 <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_immediate_char">IOCTL_SERIAL_IMMEDIATE_CHAR</a>
+

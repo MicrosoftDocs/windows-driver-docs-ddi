@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTypedList.SetTypeAndLink
+ - ExtRemoteTypedList::SetTypeAndLink
 ---
 
 # ExtRemoteTypedList::SetTypeAndLink
@@ -103,3 +103,4 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList</a>
+

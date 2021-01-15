@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - DestroyMiracastContext
+ - PFN_DESTROY_MIRACAST_CONTEXT
 ---
 
 # PFN_DESTROY_MIRACAST_CONTEXT callback function
@@ -82,3 +82,4 @@ The operating system guarantees that only one of the <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a>
+

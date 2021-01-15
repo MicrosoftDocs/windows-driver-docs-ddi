@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_DEVICE_TYPE_CAPS
+ - DXGK_DEVICE_TYPE_CAPS
 dev_langs:
  - c++
 ---

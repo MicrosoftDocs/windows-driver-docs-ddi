@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - _MSiSCSI_NICConfig
+ - PMSiSCSI_NICConfig
  - MSiSCSI_NICConfig
 ---
 
@@ -90,3 +92,4 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a>
+

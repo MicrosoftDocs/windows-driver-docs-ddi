@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPS.PublishDriverInterface
+ - IPrintOemPS::PublishDriverInterface
 ---
 
 # IPrintOemPS::PublishDriverInterface
@@ -113,3 +113,4 @@ If the plug-in fails all calls to <code>IPrintOemPS::PublishDriverInterface</cod
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo">IPrintOemPS::GetInfo</a>
+

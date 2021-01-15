@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ - PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
  - PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ---
 
@@ -64,3 +66,4 @@ This member is reserved and should be set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
+

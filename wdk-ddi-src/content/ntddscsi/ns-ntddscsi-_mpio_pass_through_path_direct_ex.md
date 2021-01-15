@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _MPIO_PASS_THROUGH_PATH_DIRECT_EX
+ - PMPIO_PASS_THROUGH_PATH_DIRECT_EX
  - MPIO_PASS_THROUGH_PATH_DIRECT_EX
 ---
 
@@ -101,3 +103,4 @@ The <b>PathId</b> for the real LUN. This value can be obtained by using a WMI re
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

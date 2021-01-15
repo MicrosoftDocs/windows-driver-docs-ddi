@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice3.MapIoSpace
+ - IWDFDevice3::MapIoSpace
 ---
 
 # IWDFDevice3::MapIoSpace
@@ -191,7 +191,7 @@ CMyDevice::OnReleaseHardware(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
+

@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_GENERIC_ERR_MEM_MAP_EVENT
+ - PWHEAP_GENERIC_ERR_MEM_MAP_EVENT
  - WHEAP_GENERIC_ERR_MEM_MAP_EVENT
 product:
  - Windows

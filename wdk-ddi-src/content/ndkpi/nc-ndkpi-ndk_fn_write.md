@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkWrite
+ - NDK_FN_WRITE
 ---
 
 # NDK_FN_WRITE callback function
@@ -195,3 +195,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
+

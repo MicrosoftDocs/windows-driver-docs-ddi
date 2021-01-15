@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION
+ - PNDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION
  - NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION
 ---
 
@@ -111,3 +113,4 @@ The <b>InterruptModeration</b> member of the <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_parameters">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+

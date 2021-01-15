@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - GetUSBDIVersion
+ - PUSB_BUSIFFN_GETUSBDI_VERSION
 ---
 
 # PUSB_BUSIFFN_GETUSBDI_VERSION callback function
@@ -88,3 +88,4 @@ The function definition that is provided on this reference page is an example fu
 
 
 <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a>
+

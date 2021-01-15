@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
+ - PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
  - NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
 ---
 
@@ -152,3 +154,4 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+

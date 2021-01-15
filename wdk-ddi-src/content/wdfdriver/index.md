@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfdriver
  - wdfdriver/wdfdriver
+api_name:
+ - wdfdriver
 ---
 
 # Wdfdriver.h header

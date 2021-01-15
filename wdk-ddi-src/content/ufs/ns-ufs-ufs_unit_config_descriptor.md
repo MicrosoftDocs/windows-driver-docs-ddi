@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_UNIT_CONFIG_DESCRIPTOR
  - UFS_UNIT_CONFIG_DESCRIPTOR
 ---
 
@@ -179,3 +180,4 @@ Specifies the Context Capabilities.
 ### -field Reserved
 
 Reserved for future use.
+

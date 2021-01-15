@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - FreeDmaBuffer
+ - PFREE_DMA_BUFFER
 ---
 
 # PFREE_DMA_BUFFER callback function
@@ -137,3 +137,4 @@ The stream is in a state other than reset.
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
+

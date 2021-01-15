@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_HYBRID_LIST
+ - D3DKMT_HYBRID_LIST
 dev_langs:
  - c++
 ---
@@ -67,3 +68,4 @@ Indicates whether the structure is referring to user GPU preference, or per-adap
 ## -remarks
 
 ## -see-also
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfcontrol.h
 api_name:
+ - _WDF_DEVICE_SHUTDOWN_FLAGS
  - WDF_DEVICE_SHUTDOWN_FLAGS
 ---
 
@@ -68,3 +69,4 @@ The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration is used as an input parameter t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>
+

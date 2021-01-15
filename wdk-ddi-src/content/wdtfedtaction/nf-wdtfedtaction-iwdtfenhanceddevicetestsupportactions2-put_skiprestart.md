@@ -38,8 +38,7 @@ api_type:
 api_location:
  - WDTFDriverEDTAction.Interop.dll
 api_name:
- - IWDTFEnhancedDeviceTestSupportAction2.SkipRestart
- - IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
+ - IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart
 ---
 
 # IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart method
@@ -70,3 +69,4 @@ attempt to restart the target device by default. Use this method to skip that st
 ## -see-also
 
 <a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2.md">IWDTFEnhancedDeviceTestSupportAction2</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtExtension.GetRawArgStr
+ - ExtExtension::GetRawArgStr
 ---
 
 # ExtExtension::GetRawArgStr
@@ -58,3 +58,4 @@ For an overview of argument parsing in the EngExtCpp extensions framework, see <
 The string returned by this method is only meaningful during the execution of the current extension command.
 
 This method should only be called during the execution of an extension command provided by this class.
+

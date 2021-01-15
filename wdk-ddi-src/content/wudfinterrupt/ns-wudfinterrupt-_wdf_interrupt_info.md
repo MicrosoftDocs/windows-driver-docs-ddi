@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_INFO
+ - PWDF_INTERRUPT_INFO
  - WDF_INTERRUPT_INFO
 ---
 
@@ -127,3 +129,4 @@ The <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_i
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_polarity">WDF_INTERRUPT_POLARITY</a>
+

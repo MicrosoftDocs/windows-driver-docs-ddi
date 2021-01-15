@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK
+ - PPEP_WORK
  - PEP_WORK
 ---
 
@@ -72,3 +74,4 @@ This structure is used by the <a href="/windows-hardware/drivers/kernel/using-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

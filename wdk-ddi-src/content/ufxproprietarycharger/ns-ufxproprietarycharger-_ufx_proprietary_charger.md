@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ufxproprietarycharger.h
 api_name:
+ - _UFX_PROPRIETARY_CHARGER
+ - PUFX_PROPRIETARY_CHARGER
  - UFX_PROPRIETARY_CHARGER
 ---
 
@@ -60,3 +62,4 @@ Charger identifier used to identify a specific type of charger.
 ### -field DxState
 
 The minimum required device power state when it is connected, indicated by one of the <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>-typed flags.
+

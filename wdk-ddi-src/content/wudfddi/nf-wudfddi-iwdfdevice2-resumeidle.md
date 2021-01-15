@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.ResumeIdle
+ - IWDFDevice2::ResumeIdle
 ---
 
 # IWDFDevice2::ResumeIdle
@@ -78,7 +78,6 @@ The following code example obtains the <a href="/windows-hardware/drivers/ddi/wu
     SAFE_RELEASE(pIWDFDevice2);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
@@ -86,3 +85,4 @@ The following code example obtains the <a href="/windows-hardware/drivers/ddi/wu
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-stopidle">IWDFDevice2::StopIdle</a>
+

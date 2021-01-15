@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GAMMARAMPCAPS
  - DXGK_GAMMARAMPCAPS
 ---
 
@@ -74,3 +75,4 @@ A member in the union that DXGK_GAMMARAMPCAPS contains that can hold a 32-bit va
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

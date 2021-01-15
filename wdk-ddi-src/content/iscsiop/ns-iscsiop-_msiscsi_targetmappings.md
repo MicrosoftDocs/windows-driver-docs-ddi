@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _MSiSCSI_TargetMappings
+ - PMSiSCSI_TargetMappings
  - MSiSCSI_TargetMappings
 ---
 
@@ -84,3 +86,4 @@ You must implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-targetmappings-wmi-class">MSiSCSI_TargetMappings WMI Class</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTargetStateManagement.Start
+ - IWDFIoTargetStateManagement::Start
 ---
 
 # IWDFIoTargetStateManagement::Start
@@ -144,7 +144,6 @@ CMyDevice::OnD0Entry(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a>
@@ -152,3 +151,4 @@ CMyDevice::OnD0Entry(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>
+

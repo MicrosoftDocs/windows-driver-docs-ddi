@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.HalftonePattern
+ - IPrintOemUni::HalftonePattern
 ---
 
 # IPrintOemUni::HalftonePattern
@@ -212,3 +212,4 @@ For more information about halftoning, see [Customized Halftoning](/windows-hard
 [IPrintOemUni Interface](/windows-hardware/drivers/print/iprintoemuni-com-interface)
 
 [IPrintOemUni::ImageProcessing](./nf-prcomoem-iprintoemuni-imageprocessing.md)
+

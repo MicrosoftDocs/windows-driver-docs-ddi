@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfcollection
  - wdfcollection/wdfcollection
+api_name:
+ - wdfcollection
 ---
 
 # Wdfcollection.h header

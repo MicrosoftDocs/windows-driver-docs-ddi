@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Lock
+ - PFND3DDDI_LOCK
 product:
  - Windows
 ---
@@ -110,3 +110,4 @@ The user-mode display driver returns a pointer to the memory for the locked surf
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

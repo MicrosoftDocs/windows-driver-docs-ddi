@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
+ - PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
  - FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
 ---
 
@@ -90,3 +92,4 @@ This structure holds data for the feature named "Incremental Streaming Writable"
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

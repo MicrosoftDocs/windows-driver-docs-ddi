@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.LockDevice
+ - IStiDevice::LockDevice
 ---
 
 # IStiDevice::LockDevice
@@ -99,3 +99,4 @@ If the <b>IStiDevice::LockDevice</b> method is able to obtain an <b>IStiDevice</
 Each call to <b>IStiDevice::LockDevice</b> must be paired with a call to <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">IStiDevice::UnLockDevice</a>.
 
 Before calling <b>IStiDevice::LockDevice</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+

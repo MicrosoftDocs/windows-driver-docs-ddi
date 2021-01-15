@@ -36,6 +36,8 @@ api_location:
  - wdm.h
 api_name:
  - _DMA_TRANSFER_INFO_V2
+ - PDMA_TRANSFER_INFO_V2
+ - DMA_TRANSFER_INFO_V2
 ---
 
 # _DMA_TRANSFER_INFO_V2 structure
@@ -70,3 +72,4 @@ The <b>V2</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_d
 The <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a> routine together describe the I/O data buffer for a DMA transfer. For the purpose of programming a DMA controller, this buffer can more conveniently be described by a scatter/gather list. (A scatter/gather list describes the memory in an I/O data buffer but does not contain this memory.) A driver calls <b>GetDmaTransferInfo</b> to obtain the allocation requirements for this scatter/gather list. <b>GetDmaTransferInfo</b> writes the allocation requirements into the <b>V1</b> member of a caller-supplied <b>DMA_TRANSFER_INFO</b> structure.
 
 ## -see-also
+

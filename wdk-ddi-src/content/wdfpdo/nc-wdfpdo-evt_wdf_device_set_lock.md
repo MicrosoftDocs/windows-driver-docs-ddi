@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfpdo.h
 api_name:
- - EvtDeviceSetLock
+ - EVT_WDF_DEVICE_SET_LOCK
 ---
 
 # EVT_WDF_DEVICE_SET_LOCK callback function
@@ -82,3 +82,4 @@ For more information about return values, see <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_eject">EvtDeviceEject</a>
+

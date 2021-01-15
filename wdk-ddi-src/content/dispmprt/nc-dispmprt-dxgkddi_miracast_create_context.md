@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiMiracastCreateContext
+ - DXGKDDI_MIRACAST_CREATE_CONTEXT
 ---
 
 # DXGKDDI_MIRACAST_CREATE_CONTEXT callback function
@@ -95,3 +95,4 @@ The operating system groups the <i>DxgkDdiMiracastCreateContext</i>, <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
+

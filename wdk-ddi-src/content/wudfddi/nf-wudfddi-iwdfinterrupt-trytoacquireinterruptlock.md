@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.TryToAcquireInterruptLock
+ - IWDFInterrupt::TryToAcquireInterruptLock
 ---
 
 # IWDFInterrupt::TryToAcquireInterruptLock
@@ -76,3 +76,4 @@ For more information about handling interrupts in UMDF drivers, see <a href="/wi
 
 
 <a href="/previous-versions/hh439284(v=vs.85)">WdfInterruptTryToAcquireLock</a>
+

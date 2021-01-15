@@ -38,16 +38,6 @@ api_location:
  - dbgeng.h
 api_name:
  - IDebugSymbols3
- - IDebugSymbols3.IsManagedModule
- - IDebugSymbols3.SetScopeFromJitDebugInfo
- - IDebugSymbols3.GetSymbolEntryByToken
- - IDebugSymbols3.GetSymbolEntryOffsetRegions
- - IDebugSymbols3.GetSymbolEntryBySymbolEntry
- - IDebugSymbols3.GetSourceEntriesByOffset
- - IDebugSymbols3.GetSourceEntryString
- - IDebugSymbols3.GetSourceEntryStringWide
- - IDebugSymbols3.GetSourceEntryOffsetRegions
- - IDebugSymbols3.GetSourceEntryBySourceEntry
 ---
 
 # IDebugSymbols3 interface
@@ -69,3 +59,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols3</b> interface 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
+

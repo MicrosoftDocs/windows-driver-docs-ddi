@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.Impersonate
+ - IWDFIoRequest::Impersonate
 ---
 
 # IWDFIoRequest::Impersonate
@@ -89,3 +89,4 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+

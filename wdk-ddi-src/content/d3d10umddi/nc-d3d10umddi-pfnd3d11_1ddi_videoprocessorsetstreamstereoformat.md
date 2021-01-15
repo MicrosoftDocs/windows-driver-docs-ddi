@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamStereoFormat
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback function
@@ -194,3 +194,4 @@ Specifies a single resource for the mono input data of the base view.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_UICC_RESET_INFO
+ - PNDIS_WWAN_UICC_RESET_INFO
  - NDIS_WWAN_UICC_RESET_INFO
 ---
 
@@ -175,3 +177,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_uicc_reset
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a>
+

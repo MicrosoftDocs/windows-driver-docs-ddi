@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_NODE_CONNECTION_DRIVERKEY_NAME
+ - PUSB_NODE_CONNECTION_DRIVERKEY_NAME
  - USB_NODE_CONNECTION_DRIVERKEY_NAME
 ---
 
@@ -72,3 +74,4 @@ On output, the driver key name for the device that is attached to the port that 
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

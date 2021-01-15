@@ -40,6 +40,7 @@ api_location:
  - wdfdevice.h
  - wudfddi_types.h
 api_name:
+ - _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
  - WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 ---
 
@@ -126,7 +127,7 @@ if (hr == HRESULT_FROM_NT(STATUS_POWER_STATE_INVALID)){
 else {...}
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+

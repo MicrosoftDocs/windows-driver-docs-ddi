@@ -12,6 +12,8 @@ tech.root: sensors
 f1_keywords:
  - sensorsdef
  - sensorsdef/sensorsdef
+api_name:
+ - sensorsdef
 ---
 
 # Sensorsdef.h header

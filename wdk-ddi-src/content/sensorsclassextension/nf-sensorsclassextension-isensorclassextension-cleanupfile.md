@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - CleanupFile
+ - ISensorClassExtension::CleanupFile
 ---
 
 # ISensorClassExtension::CleanupFile
@@ -73,3 +73,4 @@ When finished, the sensor class extension calls the driver in <a href="/windows-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
+

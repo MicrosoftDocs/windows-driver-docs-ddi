@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - DebugExtensionKnownStructEx
+ - PDEBUG_EXTENSION_KNOWN_STRUCT_EX
 ---
 
 # PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback function
@@ -50,7 +50,6 @@ The <i>DebugExtensionKnownStructEx</i> callback function is called by extensions
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT_EX DebugExtensionKnownStructEx;
 ```
-
 
 ## -parameters
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _RemovePersistentEntry_OUT
+ - PRemovePersistentEntry_OUT
  - RemovePersistentEntry_OUT
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT stru
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/removepersistententry">RemovePersistentEntry</a>
+

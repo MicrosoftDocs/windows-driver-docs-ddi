@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
+ - PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
  - SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
 ---
 
@@ -58,3 +60,4 @@ The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to <a
 ### -field eEventType
 
 Secure element event type. A service can subscribe and receive notification when an external reader arrival, external reader departure, transaction, HCE activated, or HCE deactivated event is triggered.
+

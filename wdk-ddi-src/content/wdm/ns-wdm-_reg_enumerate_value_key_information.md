@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REG_ENUMERATE_VALUE_KEY_INFORMATION
+ - PREG_ENUMERATE_VALUE_KEY_INFORMATION
  - REG_ENUMERATE_VALUE_KEY_INFORMATION
 ---
 
@@ -110,3 +112,4 @@ For more information about registry filtering operations, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
+

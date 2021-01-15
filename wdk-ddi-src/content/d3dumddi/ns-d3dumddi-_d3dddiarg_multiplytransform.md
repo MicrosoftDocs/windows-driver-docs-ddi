@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_MULTIPLYTRANSFORM
  - D3DDDIARG_MULTIPLYTRANSFORM
 ---
 
@@ -72,3 +73,4 @@ The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_multiplytransform">MultiplyTransform</a>
+

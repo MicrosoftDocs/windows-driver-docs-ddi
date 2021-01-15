@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVC_IRB
+ - PAVC_IRB
  - AVC_IRB
 ---
 
@@ -76,3 +78,4 @@ This structure is included at the head of the AVC_COMMAND_IRB and AVC_MULTIFUNC_
 
 
 <a href="/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_class">IOCTL_AVC_CLASS</a>
+

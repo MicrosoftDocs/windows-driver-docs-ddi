@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_INTEGRATED_DISPLAY_CHILD
+ - PDXGK_INTEGRATED_DISPLAY_CHILD
  - DXGK_INTEGRATED_DISPLAY_CHILD
 ---
 

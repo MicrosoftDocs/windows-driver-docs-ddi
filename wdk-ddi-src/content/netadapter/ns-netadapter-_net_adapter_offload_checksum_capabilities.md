@@ -7,7 +7,7 @@ ms.date: 01/18/2019
 keywords: ["NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -34,6 +34,7 @@ api_location:
  - netadapter.h
 api_name:
  - _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES
+ - NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES
 ---
 
 # _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure
@@ -80,3 +81,4 @@ Call [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT**](nf-netadapter-net_adap
 [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT**](nf-netadapter-net_adapter_offload_checksum_capabilities_init.md)
 
 [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
+

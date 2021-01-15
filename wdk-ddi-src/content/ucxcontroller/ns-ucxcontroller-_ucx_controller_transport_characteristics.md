@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UcxController.h
 api_name:
+ - _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ - PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
  - UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 ---
 
@@ -86,3 +88,4 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - AllocateAdapterChannel
+ - PALLOCATE_ADAPTER_CHANNEL
 ---
 
 # PALLOCATE_ADAPTER_CHANNEL callback function
@@ -161,3 +161,4 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pread_dma_counter">ReadDmaCounter</a>
+

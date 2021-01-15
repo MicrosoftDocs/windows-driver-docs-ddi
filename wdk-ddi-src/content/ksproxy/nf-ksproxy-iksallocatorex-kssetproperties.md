@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsAllocatorEx.KsSetProperties
+ - IKsAllocatorEx::KsSetProperties
 ---
 
 # IKsAllocatorEx::KsSetProperties
@@ -53,3 +53,4 @@ Sets the properties for an allocator.
 ## -see-also
 
 [IKsAllocatorEx](./nn-ksproxy-iksallocatorex.md)
+

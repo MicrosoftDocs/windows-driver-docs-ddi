@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_SET_UOR_COMMAND
+ - PUCSI_SET_UOR_COMMAND
+ - UCSI_SET_UOR_COMMAND
 ---
 
 # _UCSI_SET_UOR_COMMAND structure

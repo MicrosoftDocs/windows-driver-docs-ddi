@@ -12,6 +12,8 @@ tech.root: powermeter
 f1_keywords:
  - pmi
  - pmi/pmi
+api_name:
+ - pmi
 ---
 
 # Pmi.h header

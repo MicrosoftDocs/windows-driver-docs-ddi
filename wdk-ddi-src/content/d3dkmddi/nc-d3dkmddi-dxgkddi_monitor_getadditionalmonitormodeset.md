@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnGetAdditionalMonitorModeSet
+ - DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
 product:
  - Windows
 ---
@@ -108,3 +108,4 @@ This function is available beginning with Windows 7.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

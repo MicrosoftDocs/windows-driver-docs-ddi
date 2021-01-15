@@ -38,7 +38,7 @@ api_location:
  - fwpkclnt.lib
  - fwpkclnt.dll
 api_name:
- - FwpsInjectMacSendAsync0
+ - FwpsInjectMacReceiveAsync0
 ---
 
 # FwpsInjectMacReceiveAsync0 function
@@ -232,3 +232,4 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a>
+

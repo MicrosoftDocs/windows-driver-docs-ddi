@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_PIN_EX
+ - PNDIS_WWAN_SET_PIN_EX
  - NDIS_WWAN_SET_PIN_EX
 ---
 
@@ -110,3 +112,4 @@ A formatted [**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md) object th
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>
+

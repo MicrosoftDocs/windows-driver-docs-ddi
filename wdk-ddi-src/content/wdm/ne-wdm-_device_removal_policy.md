@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_REMOVAL_POLICY
+ - PDEVICE_REMOVAL_POLICY
  - DEVICE_REMOVAL_POLICY
 ---
 
@@ -80,3 +82,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGet
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_BUFFER_LIST_CONTEXT
+ - PNET_BUFFER_LIST_CONTEXT
  - NET_BUFFER_LIST_CONTEXT
 ---
 
@@ -184,3 +186,4 @@ For more information on how to use net buffers, see
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>
+

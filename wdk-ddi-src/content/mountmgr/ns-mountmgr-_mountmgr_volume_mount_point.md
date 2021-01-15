@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_VOLUME_MOUNT_POINT
+ - PMOUNTMGR_VOLUME_MOUNT_POINT
  - MOUNTMGR_VOLUME_MOUNT_POINT
 ---
 
@@ -76,3 +78,4 @@ Mount point names must contain the full path of a mount point object name in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_volume_mount_point_created">IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED</a>
+

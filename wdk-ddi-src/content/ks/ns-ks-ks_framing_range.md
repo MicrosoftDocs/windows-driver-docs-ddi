@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKS_FRAMING_RANGE
  - KS_FRAMING_RANGE
 ---
 
@@ -78,3 +79,4 @@ When specifying the <b>Stepping</b> member, ensure that the value does not excee
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a>
+

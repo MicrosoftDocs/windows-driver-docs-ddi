@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - printerextension
  - printerextension/printerextension
+api_name:
+ - printerextension
 ---
 
 # Printerextension.h header

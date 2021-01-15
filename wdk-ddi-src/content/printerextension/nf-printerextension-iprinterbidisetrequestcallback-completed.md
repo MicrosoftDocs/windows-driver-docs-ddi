@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterBidiSetRequestCallback.Completed
+ - IPrinterBidiSetRequestCallback::Completed
 ---
 
 # IPrinterBidiSetRequestCallback::Completed
@@ -66,3 +66,4 @@ This method returns the appropriate <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback">IPrinterBidiSetRequestCallback</a>
+

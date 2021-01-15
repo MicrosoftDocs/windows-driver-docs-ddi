@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoTransferFunction
  - DXVA_VideoTransferFunction
 ---
 
@@ -98,3 +99,4 @@ DXVA_VideoTransferFunction corresponds to the gamma function of the data. Some t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
+

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentProcessExecutableName
- - IDebugSystemObjects2.GetCurrentProcessExecutableName
- - IDebugSystemObjects3.GetCurrentProcessExecutableName
- - IDebugSystemObjects4.GetCurrentProcessExecutableName
+ - IDebugSystemObjects4::GetCurrentProcessExecutableName
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessExecutableName
@@ -107,3 +104,4 @@ These methods are only available in user-mode debugging.
 If the engine cannot determine the name of the executable file, it writes the string "?NoImage?" to the buffer.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

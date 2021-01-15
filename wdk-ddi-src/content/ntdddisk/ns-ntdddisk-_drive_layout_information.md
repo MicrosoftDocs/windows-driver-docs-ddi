@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DRIVE_LAYOUT_INFORMATION
+ - PDRIVE_LAYOUT_INFORMATION
  - DRIVE_LAYOUT_INFORMATION
 ---
 
@@ -98,3 +100,4 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iowritepartitiontable">IoWritePartitionTable</a>
+

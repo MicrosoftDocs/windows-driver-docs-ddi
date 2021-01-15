@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvPerformPreAssociate
+ - DOT11EXTIHV_PERFORM_PRE_ASSOCIATE
 ---
 
 # DOT11EXTIHV_PERFORM_PRE_ASSOCIATE callback
@@ -220,3 +220,4 @@ For more information about the pre-association operation, see
 
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+

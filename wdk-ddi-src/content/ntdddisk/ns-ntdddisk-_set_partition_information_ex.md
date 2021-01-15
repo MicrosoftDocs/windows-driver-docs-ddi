@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _SET_PARTITION_INFORMATION_EX
+ - PSET_PARTITION_INFORMATION_EX
  - SET_PARTITION_INFORMATION_EX
 ---
 
@@ -82,3 +84,4 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>
+

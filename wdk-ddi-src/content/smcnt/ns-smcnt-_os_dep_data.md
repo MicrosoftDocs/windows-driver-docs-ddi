@@ -41,6 +41,8 @@ api_type:
 api_location:
  - smcnt.h
 api_name:
+ - _OS_DEP_DATA
+ - POS_DEP_DATA
  - OS_DEP_DATA
 ---
 
@@ -100,3 +102,4 @@ Unused.
 ## -remarks
 
 To allocate this structure, drivers must call <a href="/previous-versions/ff548944(v=vs.85)">SmartcardInitialize (WDM)</a>. After this call, drivers should copy the pointer of the smart card device object to <b>DeviceObject</b>. Otherwise, the smart card driver library will not work. Do not use this structure to store driver-dependent information. However, when the smart card driver library calls one of your driver's callback functions, it sets <b>CurrentIrp</b> to the requesting IRP, unless the request is a smart card tracking request. For smart card tracking requests, the driver library sets <b>NotificationIrp</b> to the requesting IRP. For more information about smart card tracking, see <a href="/previous-versions/windows/hardware/drivers/ff548920(v=vs.85)">RDF_CARD_TRACKING</a>.
+

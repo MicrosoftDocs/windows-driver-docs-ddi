@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
+ - EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
 ---
 
 # EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function
@@ -98,7 +98,6 @@ UsbDevice_EvtUcxUsbDeviceEndpointsConfigure(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_endpoints_configure">ENDPOINTS_CONFIGURE</a>
@@ -106,3 +105,4 @@ UsbDevice_EvtUcxUsbDeviceEndpointsConfigure(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_READY_INFO
+ - PWWAN_READY_INFO
  - WWAN_READY_INFO
 ---
 
@@ -116,3 +118,4 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ready_state">WWAN_READY_STATE</a>
+

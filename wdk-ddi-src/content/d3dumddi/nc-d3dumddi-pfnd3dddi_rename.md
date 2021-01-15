@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Rename
+ - PFND3DDDI_RENAME
 product:
  - Windows
 ---
@@ -97,3 +97,4 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rename">Rename</a>
+

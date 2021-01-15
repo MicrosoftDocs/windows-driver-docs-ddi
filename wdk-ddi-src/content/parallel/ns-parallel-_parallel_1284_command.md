@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _PARALLEL_1284_COMMAND
+ - PPARALLEL_1284_COMMAND
  - PARALLEL_1284_COMMAND
 ---
 
@@ -110,3 +112,4 @@ For more information, see <a href="/previous-versions/ff544793(v=vs.85)">Selecti
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+

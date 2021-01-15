@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_UICC_APP_INFO
+ - PWWAN_UICC_APP_INFO
+ - WWAN_UICC_APP_INFO
 ---
 
 # _WWAN_UICC_APP_INFO structure
@@ -94,3 +96,4 @@ The following constants are defined in the Wwan.h header for this structure.
 [**WWAN_UICC_APP_LIST**](../wwan/ns-wwan-_wwan_uicc_app_list.md)
 
 [**WWAN_UICC_APP_TYPE**](../wwan/ne-wwan-_wwan_uicc_app_type.md)
+

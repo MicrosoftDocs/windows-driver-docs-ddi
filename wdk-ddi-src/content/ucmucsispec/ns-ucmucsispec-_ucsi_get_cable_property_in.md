@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_CABLE_PROPERTY_IN
+ - PUCSI_GET_CABLE_PROPERTY_IN
+ - UCSI_GET_CABLE_PROPERTY_IN
 ---
 
 # _UCSI_GET_CABLE_PROPERTY_IN structure

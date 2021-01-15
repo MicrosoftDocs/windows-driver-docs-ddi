@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_SOCKET
+ - PWSK_SOCKET
  - WSK_SOCKET
 ---
 
@@ -213,3 +215,4 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

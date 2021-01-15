@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_ELEMENT_STATUS
+ - PCHANGER_ELEMENT_STATUS
  - CHANGER_ELEMENT_STATUS
 ---
 
@@ -264,3 +266,4 @@ For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+

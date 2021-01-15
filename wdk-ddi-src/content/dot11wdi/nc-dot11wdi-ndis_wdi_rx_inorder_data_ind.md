@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiRxInorderDataIndication
+ - NDIS_WDI_RX_INORDER_DATA_IND
 ---
 
 # NDIS_WDI_RX_INORDER_DATA_IND callback function
@@ -137,3 +137,4 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_indication_level">WDI_RX_INDICATION_LEVEL</a>
+

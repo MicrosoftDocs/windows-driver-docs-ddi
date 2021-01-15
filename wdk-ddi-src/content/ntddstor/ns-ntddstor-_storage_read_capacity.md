@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_READ_CAPACITY
+ - PSTORAGE_READ_CAPACITY
  - STORAGE_READ_CAPACITY
 ---
 
@@ -76,3 +78,4 @@ The total disk size in bytes.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a>
+

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugDataSpaces.CheckLowMemory
- - IDebugDataSpaces2.CheckLowMemory
- - IDebugDataSpaces3.CheckLowMemory
- - IDebugDataSpaces4.CheckLowMemory
+ - IDebugDataSpaces2::CheckLowMemory
 ---
 
 # IDebugDataSpaces2::CheckLowMemory
@@ -91,3 +88,4 @@ This method is only available in <a href="/windows-hardware/drivers/debugger/k">
 When the kernel is booted with the <b>/nolowmem</b> option, the kernel, drivers, operating system and applications are loaded in memory above 4 GB, while the low 4 GB of memory is filled with a unique pattern.  The <b>CheckLowMemory</b> method checks this pattern for corruption.
 
 This may be used to verify that a driver behaves well when using physical addresses greater than 32 bits in length.  See <i>Physical Address Extension (PAE)</i>, <b>/pae</b>, and <b>/nolowmem</b> in the Windows Driver Kit.
+

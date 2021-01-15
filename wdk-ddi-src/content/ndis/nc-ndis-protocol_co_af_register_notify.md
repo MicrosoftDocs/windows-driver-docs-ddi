@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolCoAfRegisterNotify
+ - PROTOCOL_CO_AF_REGISTER_NOTIFY
 ---
 
 # PROTOCOL_CO_AF_REGISTER_NOTIFY callback function
@@ -190,3 +190,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
+

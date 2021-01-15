@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SID
+ - PISID
  - SID
 ---
 
@@ -110,3 +112,4 @@ Drivers are not to modify the SID structure directly. To create and manipulate a
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>
+

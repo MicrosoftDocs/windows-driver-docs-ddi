@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSDEVICE_THERMAL_DISPATCH
+ - PKSDEVICE_THERMAL_DISPATCH
  - KSDEVICE_THERMAL_DISPATCH
 ---
 
@@ -110,3 +112,4 @@ void
 #### DeviceThermalState
 
 [out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications.
+

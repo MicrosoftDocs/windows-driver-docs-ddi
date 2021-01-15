@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_MODE_S
  - KSPROPERTY_TUNER_MODE_S
 ---
 
@@ -127,3 +128,4 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

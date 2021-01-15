@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _DEVICE_DSM_NOTIFICATION_PARAMETERS
+ - PDEVICE_DSM_NOTIFICATION_PARAMETERS
  - DEVICE_DSM_NOTIFICATION_PARAMETERS
 ---
 
@@ -100,3 +102,4 @@ Starting with Windows 7, the NTFS file system notifies the storage stack when th
 [DEVICE_DSM_INPUT](./ns-ntddstor-_device_manage_data_set_attributes.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

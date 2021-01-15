@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_EVAL_OUTPUT_BUFFER_V2
  - ACPI_EVAL_OUTPUT_BUFFER_V2
 ---
 

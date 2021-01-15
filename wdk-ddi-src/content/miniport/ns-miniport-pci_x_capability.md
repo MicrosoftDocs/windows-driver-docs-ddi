@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - PPCI_X_CAPABILITY
  - PCI_X_CAPABILITY
 ---
 
@@ -183,3 +184,4 @@ typedef struct {
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a>
+

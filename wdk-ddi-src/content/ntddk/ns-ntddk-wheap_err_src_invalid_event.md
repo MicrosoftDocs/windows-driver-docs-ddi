@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_ERR_SRC_INVALID_EVENT
+ - PWHEAP_ERR_SRC_INVALID_EVENT
  - WHEAP_ERR_SRC_INVALID_EVENT
 product:
  - Windows

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storduid.h
 api_name:
+ - _DUID_MATCH_STATUS
  - DUID_MATCH_STATUS
 ---
 
@@ -110,3 +111,4 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+

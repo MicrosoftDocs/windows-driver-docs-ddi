@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUI.DrvUpgradeRegistrySetting
+ - IPrintOemDriverUI::DrvUpgradeRegistrySetting
 ---
 
 # IPrintOemDriverUI::DrvUpgradeRegistrySetting
@@ -108,3 +108,4 @@ The method is not implemented.
 ## -remarks
 
 The <code>IPrintOemDriverUI::DrvUpdateRegistrySetting</code> method is meant to be called from a user interface plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-upgradeprinter">IPrintOemUI::UpgradePrinter</a> method, when it is necessary to update registry settings that were stored in private registry keys for an earlier version of the driver, but are now contained in a GPD or PPD file.
+

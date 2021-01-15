@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _UCX_USBDEVICE_EVENT_CALLBACKS
+ - PUCX_USBDEVICE_EVENT_CALLBACKS
  - UCX_USBDEVICE_EVENT_CALLBACKS
 ---
 
@@ -112,3 +114,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdev
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks">UcxUsbDeviceInitSetEventCallbacks</a>
+

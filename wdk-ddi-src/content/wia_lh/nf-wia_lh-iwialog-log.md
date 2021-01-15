@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaLog.Log
+ - IWiaLog::Log
 ---
 
 # IWiaLog::Log
@@ -81,3 +81,4 @@ Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID
 ## -returns
 
 If the method succeeds, it returns S_OK.  If the method fails, it returns a standard COM error code.
+

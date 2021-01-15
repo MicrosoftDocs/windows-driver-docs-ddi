@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
  - D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure describes the mapping of the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname">D3DKMTOpenAdapterFromGdiDisplayName</a>
+

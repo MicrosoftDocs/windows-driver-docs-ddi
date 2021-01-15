@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_AUDIO_CONTROL
+ - PCDROM_AUDIO_CONTROL
  - CDROM_AUDIO_CONTROL
 ---
 
@@ -64,3 +66,4 @@ Contains the number of logical blocks per second.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_control">IOCTL_CDROM_GET_CONTROL</a>
+

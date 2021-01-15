@@ -42,6 +42,8 @@ api_location:
  - BthXDDI.h
 api_name:
  - _BTHX_VERSION
+ - PBTHX_VERSION
+ - BTHX_VERSION
 ---
 
 # _BTHX_VERSION structure

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_TEMP_TYPE
+ - PDOT11_TEMP_TYPE
  - DOT11_TEMP_TYPE
 product:
  - Windows 10 or later.
@@ -90,3 +92,4 @@ There are different operating temperature requirements dependent on the anticipa
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-temp-type">OID_DOT11_TEMP_TYPE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IXpsDocumentProvider.GetXpsPart
+ - IXpsDocumentProvider::GetXpsPart
 ---
 
 # IXpsDocumentProvider::GetXpsPart

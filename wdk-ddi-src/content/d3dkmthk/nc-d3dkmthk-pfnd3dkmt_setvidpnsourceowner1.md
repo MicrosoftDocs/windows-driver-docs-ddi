@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTSetVidPnSourceOwner1
+ - PFND3DKMT_SETVIDPNSOURCEOWNER1
 ---
 
 # PFND3DKMT_SETVIDPNSOURCEOWNER1 callback function
@@ -72,3 +72,4 @@ This function might also return other NTSTATUS values.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1">D3DKMT_SETVIDPNSOURCEOWNER1</a>
+

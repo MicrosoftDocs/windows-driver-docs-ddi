@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_RESET_VF_PARAMETERS
+ - PNDIS_SRIOV_RESET_VF_PARAMETERS
  - NDIS_SRIOV_RESET_VF_PARAMETERS
 ---
 
@@ -93,3 +95,4 @@ The <b>NDIS_SRIOV_RESET_VF_PARAMETERS</b> structure is used in OID set requests 
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-reset-vf">OID_SRIOV_RESET_VF</a>
+

@@ -30,6 +30,7 @@ api_location:
 api_name:
  - IDDCX_SYSTEM_BUFFER_INFO
 f1_keywords:
+ - IDDCX_SYSTEM_BUFFER_INFO
  - iddcx/IDDCX_SYSTEM_BUFFER_INFO
 dev_langs:
  - c++
@@ -75,3 +76,4 @@ Pointer in system memory to the surface buffer. **pBuffer** must be at lease 16-
 [**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md)
 
 [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md)
+

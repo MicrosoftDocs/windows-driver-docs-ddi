@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - udecxurb
  - udecxurb/udecxurb
+api_name:
+ - udecxurb
 ---
 
 # Udecxurb.h header

@@ -31,6 +31,7 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
+ - SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 ---
 
 # _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration

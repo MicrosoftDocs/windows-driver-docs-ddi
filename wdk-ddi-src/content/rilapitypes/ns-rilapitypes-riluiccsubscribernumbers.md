@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILUICCSUBSCRIBERNUMBERS
+ - LPRILUICCSUBSCRIBERNUMBERS
 ---
 
 # RILUICCSUBSCRIBERNUMBERS structure (rilapitypes.h)

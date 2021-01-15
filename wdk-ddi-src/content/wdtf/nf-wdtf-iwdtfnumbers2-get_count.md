@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFNumbers2.Count
- - IWDTFNumbers2.get_Count
+ - IWDTFNumbers2::get_Count
 ---
 
 # IWDTFNumbers2::get_Count
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfnumbers2">IWDTFNumbers2</a>
+

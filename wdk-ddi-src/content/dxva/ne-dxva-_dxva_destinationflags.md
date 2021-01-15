@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DestinationFlags
  - DXVA_DestinationFlags
 ---
 
@@ -78,3 +79,4 @@ Indicates that the planar alpha value for the destination surface changed.
 
 
 <a href="/windows-hardware/drivers/display/dxva-deinterlacebobdeviceclass-deinterlacebltex">DeinterlaceBltEx</a>
+

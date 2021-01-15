@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DEVICESTATE_TYPE
  - D3DKMT_DEVICESTATE_TYPE
 ---
 
@@ -76,3 +77,4 @@ The device page fault state is retrieved.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a>
+

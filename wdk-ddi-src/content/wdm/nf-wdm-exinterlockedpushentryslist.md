@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ExInterlockedPushEntrySList
- - ExpInterlockedPushEntrySList
 ---
 
 # ExInterlockedPushEntrySList macro
@@ -103,3 +102,4 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
+

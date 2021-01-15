@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DSI_TRANSMISSION
+ - PDXGK_DSI_TRANSMISSION
  - DXGK_DSI_TRANSMISSION
 f1_keywords:
  - _DXGK_DSI_TRANSMISSION

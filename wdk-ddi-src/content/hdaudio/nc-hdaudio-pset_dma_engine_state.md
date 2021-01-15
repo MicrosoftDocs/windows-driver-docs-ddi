@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - SetDmaEngineState
+ - PSET_DMA_ENGINE_STATE
 ---
 
 # PSET_DMA_ENGINE_STATE callback function
@@ -192,3 +192,4 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
+

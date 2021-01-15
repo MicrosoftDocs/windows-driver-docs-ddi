@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _ScsiReportLuns_OUT
+ - PScsiReportLuns_OUT
  - ScsiReportLuns_OUT
 ---
 
@@ -96,3 +98,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_scsireportluns_in">ScsiReportLuns_IN</a>
+

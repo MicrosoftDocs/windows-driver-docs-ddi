@@ -34,6 +34,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DSM_TIERING_QUERY_OUTPUT
+ - PDEVICE_DSM_TIERING_QUERY_OUTPUT
  - DEVICE_DSM_TIERING_QUERY_OUTPUT
 product:
  - Windows

@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDIRENDERSTATETYPE
+ - D3DDDIRENDERSTATETYPE
 product:
  - Windows
 dev_langs:

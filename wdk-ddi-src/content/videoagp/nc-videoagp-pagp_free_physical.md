@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpFreePhysical
+ - PAGP_FREE_PHYSICAL
 ---
 
 # PAGP_FREE_PHYSICAL callback function
@@ -80,3 +80,4 @@ When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physi
 
 
 <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_release_physical">AgpReleasePhysical</a>
+

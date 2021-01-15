@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols4.GetScopeEx
+ - IDebugSymbols4::GetScopeEx
 ---
 
 # IDebugSymbols4::GetScopeEx
@@ -80,3 +80,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _AACS_CHALLENGE_KEY
+ - PAACS_CHALLENGE_KEY
  - AACS_CHALLENGE_KEY
 ---
 
@@ -76,3 +78,4 @@ Clients retrieve the Advanced Access Content System (AACS) challenge key with an
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+

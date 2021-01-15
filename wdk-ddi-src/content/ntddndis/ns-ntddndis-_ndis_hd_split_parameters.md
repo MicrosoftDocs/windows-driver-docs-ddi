@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_HD_SPLIT_PARAMETERS
+ - PNDIS_HD_SPLIT_PARAMETERS
  - NDIS_HD_SPLIT_PARAMETERS
 ---
 
@@ -93,3 +95,4 @@ The NDIS_HD_SPLIT_PARAMETERS structure is used in the
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-hd-split-parameters">OID_GEN_HD_SPLIT_PARAMETERS</a>
+

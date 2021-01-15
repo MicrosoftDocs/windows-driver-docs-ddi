@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _PARALLEL_INTERRUPT_SERVICE_ROUTINE
+ - PPARALLEL_INTERRUPT_SERVICE_ROUTINE
  - PARALLEL_INTERRUPT_SERVICE_ROUTINE
 ---
 
@@ -116,3 +118,4 @@ A kernel-mode driver can connect a device-specific interrupt service routine and
 
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
+

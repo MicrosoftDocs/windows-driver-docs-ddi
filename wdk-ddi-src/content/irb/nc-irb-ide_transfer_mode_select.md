@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - AtaControllerTransferModeSelect
+ - IDE_TRANSFER_MODE_SELECT
 ---
 
 # IDE_TRANSFER_MODE_SELECT callback function
@@ -74,3 +74,4 @@ The <b><i>AtaControllerTransferModeSelect</i></b> miniport driver routine must s
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a>
+

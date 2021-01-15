@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - logicaladdresstypes
  - logicaladdresstypes/logicaladdresstypes
+api_name:
+ - logicaladdresstypes
 ---
 
 # Logicaladdresstypes.h header

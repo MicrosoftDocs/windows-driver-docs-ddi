@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionEventArgs.ReasonId
- - IPrinterExtensionEventArgs.get_ReasonId
+ - IPrinterExtensionEventArgs::get_ReasonId
 ---
 
 # IPrinterExtensionEventArgs::get_ReasonId
@@ -81,3 +80,4 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
+

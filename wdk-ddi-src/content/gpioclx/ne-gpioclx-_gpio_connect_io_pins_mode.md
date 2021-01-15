@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_CONNECT_IO_PINS_MODE
+ - PGPIO_CONNECT_IO_PINS_MODE
  - GPIO_CONNECT_IO_PINS_MODE
 ---
 
@@ -86,3 +88,4 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 
 <a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_write_pins">IOCTL_GPIO_WRITE_PINS</a>
+

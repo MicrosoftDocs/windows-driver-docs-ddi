@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_DISABLE
+ - PUSBDEVICE_DISABLE
  - USBDEVICE_DISABLE
 ---
 
@@ -76,3 +78,4 @@ A [**UCX_USBDEVICE_RECOVERY_ACTION**](ne-ucxusbdevice-_ucx_usbdevice_recovery_ac
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
+

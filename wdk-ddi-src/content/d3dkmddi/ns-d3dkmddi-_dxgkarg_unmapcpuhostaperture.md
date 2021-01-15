@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_UNMAPCPUHOSTAPERTURE
  - DXGKARG_UNMAPCPUHOSTAPERTURE
 ---
 
@@ -73,3 +74,4 @@ The zero-based physical adapter index in a linked display adapter link.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_unmapcpuhostaperture">DxgkDdiUnmapCpuHostAperture</a>
+

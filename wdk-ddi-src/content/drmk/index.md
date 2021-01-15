@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - drmk
  - drmk/drmk
+api_name:
+ - drmk
 ---
 
 # Drmk.h header

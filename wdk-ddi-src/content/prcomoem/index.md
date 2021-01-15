@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - prcomoem
  - prcomoem/prcomoem
+api_name:
+ - prcomoem
 ---
 
 # Prcomoem.h header

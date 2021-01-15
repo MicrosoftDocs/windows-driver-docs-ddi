@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
  - DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ---
 
@@ -78,3 +79,4 @@ Specifies additional information.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
+

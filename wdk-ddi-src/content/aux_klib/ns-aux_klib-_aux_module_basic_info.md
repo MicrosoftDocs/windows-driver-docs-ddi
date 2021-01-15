@@ -41,6 +41,8 @@ api_type:
 api_location:
  - aux_klib.h
 api_name:
+ - _AUX_MODULE_BASIC_INFO
+ - PAUX_MODULE_BASIC_INFO
  - AUX_MODULE_BASIC_INFO
 ---
 
@@ -64,3 +66,4 @@ The <b>AUX_MODULE_BASIC_INFO</b> structure is used as input to the <a href="/win
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>
+

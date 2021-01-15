@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
- - MouseIsr
+ - PI8042_MOUSE_ISR
 ---
 
 # PI8042_MOUSE_ISR callback function
@@ -118,3 +118,4 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a>
+

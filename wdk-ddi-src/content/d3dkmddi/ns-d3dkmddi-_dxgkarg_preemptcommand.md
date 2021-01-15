@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_PREEMPTCOMMAND
  - DXGKARG_PREEMPTCOMMAND
 ---
 
@@ -90,3 +91,4 @@ The DXGKARG_PREEMPTCOMMAND structure describes a command that a display miniport
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
+

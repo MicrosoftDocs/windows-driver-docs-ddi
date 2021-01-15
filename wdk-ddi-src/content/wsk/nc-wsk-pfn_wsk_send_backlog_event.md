@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskSendBacklogEvent
+ - PFN_WSK_SEND_BACKLOG_EVENT
 ---
 
 # PFN_WSK_SEND_BACKLOG_EVENT callback function
@@ -147,3 +147,4 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

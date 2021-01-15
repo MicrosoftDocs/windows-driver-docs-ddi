@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_COMPRESSION
+ - PWWAN_COMPRESSION
  - WWAN_COMPRESSION
 ---
 
@@ -78,3 +80,4 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_context_state">WWAN_SET_CONTEXT_STATE</a>
+

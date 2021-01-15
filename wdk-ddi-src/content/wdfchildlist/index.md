@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfchildlist
  - wdfchildlist/wdfchildlist
+api_name:
+ - wdfchildlist
 ---
 
 # Wdfchildlist.h header

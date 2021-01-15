@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - lsotypes
  - lsotypes/lsotypes
+api_name:
+ - lsotypes
 ---
 
 # Lsotypes.h header

@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Urstypes.h
 api_name:
- - URS_ROLE, *PURS_ROLE
+ - _URS_ROLE
+ - PURS_ROLE
+ - URS_ROLE
 ---
 
 # _URS_ROLE enumeration

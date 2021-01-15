@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PFN_UCM_CONNECTOR_GET_OPERATING_MODE
+ - EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE
 ---
 
 # EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback function
@@ -95,3 +95,4 @@ Endpoint_EvtUcxEndpointStaticStreamsEnable(
     WdfRequestComplete(Request, STATUS_SUCCESS);
 }
 ```
+

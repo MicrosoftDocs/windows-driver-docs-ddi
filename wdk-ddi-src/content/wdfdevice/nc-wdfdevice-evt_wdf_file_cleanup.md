@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtFileCleanup
+ - EVT_WDF_FILE_CLEANUP
 ---
 
 # EVT_WDF_FILE_CLEANUP callback function
@@ -71,3 +71,4 @@ For more information about framework file objects and the <i>EvtFileCleanup</i> 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a>
+

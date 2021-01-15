@@ -42,6 +42,8 @@ api_location:
  - wdfiotarget.h
  - wudfddi_types.h
 api_name:
+ - _WDF_IO_TARGET_STATE
+ - PWDF_IO_TARGET_STATE
  - WDF_IO_TARGET_STATE
 ---
 
@@ -93,3 +95,4 @@ For more information about states for I/O targets, see <a href="/windows-hardwar
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetgetstate">WdfIoTargetGetState</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugRegisters.GetDescription
- - IDebugRegisters2.GetDescription
+ - IDebugRegisters::GetDescription
 ---
 
 # IDebugRegisters::GetDescription
@@ -133,3 +132,4 @@ The index of the register requested is greater than the total number of register
 ## -remarks
 
 For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.
+

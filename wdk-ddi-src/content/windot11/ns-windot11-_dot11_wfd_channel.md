@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_CHANNEL
+ - PDOT11_WFD_CHANNEL
  - DOT11_WFD_CHANNEL
 product:
  - Windows 10 or later.
@@ -76,3 +78,4 @@ typedef struct _DOT11_WFD_CHANNEL {
   UCHAR                          ChannelNumber;
 } DOT11_WFD_CHANNEL, *PDOT11_WFD_CHANNEL;
 ```
+

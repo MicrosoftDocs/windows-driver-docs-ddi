@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoResume
+ - EVT_WDF_IO_QUEUE_IO_RESUME
 ---
 
 # EVT_WDF_IO_QUEUE_IO_RESUME callback function
@@ -80,3 +80,4 @@ This callback function can be called at IRQL <= DISPATCH_LEVEL, unless the <b>Ex
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
+

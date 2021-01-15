@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IServiceGroup.RequestDelayedService
+ - IServiceGroup::RequestDelayedService
 ---
 
 # IServiceGroup::RequestDelayedService
@@ -66,3 +66,4 @@ Before calling <code>RequestDelayedService</code> to request a timer delay, init
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-supportdelayedservice">IServiceGroup::SupportDelayedService</a>
+

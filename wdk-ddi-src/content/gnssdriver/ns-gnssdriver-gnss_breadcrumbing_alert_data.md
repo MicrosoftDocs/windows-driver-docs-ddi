@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_BREADCRUMBING_ALERT_DATA
  - GNSS_BREADCRUMBING_ALERT_DATA
 ---
 

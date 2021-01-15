@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadPointersVirtual
- - IDebugDataSpaces2.ReadPointersVirtual
- - IDebugDataSpaces3.ReadPointersVirtual
- - IDebugDataSpaces4.ReadPointersVirtual
+ - IDebugDataSpaces::ReadPointersVirtual
 ---
 
 # IDebugDataSpaces::ReadPointersVirtual
@@ -117,3 +114,4 @@ This method reads from the memory from the target's virtual address space.  The 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writepointersvirtual">WritePointersVirtual</a>
+

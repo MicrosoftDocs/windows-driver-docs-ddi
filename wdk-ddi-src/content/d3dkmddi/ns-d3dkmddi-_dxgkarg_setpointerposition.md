@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETPOINTERPOSITION
  - DXGKARG_SETPOINTERPOSITION
 ---
 
@@ -74,3 +75,4 @@ The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointerposition">DxgkDdiSetPointerPosition</a>
+

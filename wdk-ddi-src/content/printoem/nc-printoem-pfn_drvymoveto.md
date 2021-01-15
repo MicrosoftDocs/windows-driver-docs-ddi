@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvYMoveTo
+ - PFN_DrvYMoveTo
 ---
 
 # PFN_DrvYMoveTo callback function
@@ -58,3 +58,4 @@ This function pointer prototype defines the type of the <b>DrvYMoveTo</b> member
 ### -param y
 
 ### -param dwFlags
+

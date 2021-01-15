@@ -36,9 +36,12 @@ api_location:
  - treevariableservice.h
 api_name:
  - _EFI_SET_VARIABLE_IN
+ - PEFI_SET_VARIABLE_IN
+ - EFI_SET_VARIABLE_IN
 ---
 
 # _EFI_SET_VARIABLE_IN structure
+
 
 ## -description
 
@@ -59,3 +62,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

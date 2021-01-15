@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILIMSFAILURE
+ - LPRILIMSFAILURE
 ---
 
 # RILIMSFAILURE structure (rilapitypes.h)

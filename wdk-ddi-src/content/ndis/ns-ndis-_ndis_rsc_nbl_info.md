@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_RSC_NBL_INFO
+ - PNDIS_RSC_NBL_INFO
  - NDIS_RSC_NBL_INFO
 ---
 
@@ -114,3 +116,4 @@ NDIS performs the <b>NET_BUFFER_LIST</b> and <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+

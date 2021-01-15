@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSRTL_PER_STREAM_CONTEXT
+ - PFSRTL_PER_STREAM_CONTEXT
  - FSRTL_PER_STREAM_CONTEXT
 ---
 
@@ -156,3 +158,4 @@ For more information, see <a href="/windows-hardware/drivers/ifs/tracking-per-st
 
 
 <a href="/windows-hardware/drivers/ifs/tracking-per-stream-context-in-a-legacy-file-system-filter-driver">Tracking Per-Stream Context in a Legacy File System Filter Driver</a>
+

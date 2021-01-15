@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_INITIATE_WAKE
+ - PPEP_PPM_INITIATE_WAKE
  - PEP_PPM_INITIATE_WAKE
 ---
 
@@ -72,3 +74,4 @@ The PEP should set the <b>NeedInterruptForCompletion</b> member to <b>FALSE</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_initiate_wake">PEP_NOTIFY_PPM_INITIATE_WAKE</a>
+

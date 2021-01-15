@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_FEATURE_STATUS_TYPE
+ - PNDIS_SWITCH_FEATURE_STATUS_TYPE
  - NDIS_SWITCH_FEATURE_STATUS_TYPE
 ---
 
@@ -80,3 +82,4 @@ For more information about extensible switch  policies, see <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_parameters">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a>
+

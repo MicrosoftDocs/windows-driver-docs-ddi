@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiadef.h
 api_name:
+ - _WIA_BARCODE_INFO
  - WIA_BARCODE_INFO
 ---
 
@@ -92,3 +93,4 @@ The horizontal coordinate, in pixels (relative to the scanned image), where the 
 #### - Yoffset
 
 The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_REQUEST_COMPONENT_PERF_STATE
+ - PPEP_REQUEST_COMPONENT_PERF_STATE
  - PEP_REQUEST_COMPONENT_PERF_STATE
 ---
 
@@ -112,3 +114,4 @@ PoFx writes the requested P-state changes to the <b>PerfRequests</b> array befor
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackrequestworker">RequestWorker</a>
+

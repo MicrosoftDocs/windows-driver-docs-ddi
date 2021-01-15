@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SLOT_INFO
+ - PWWAN_SLOT_INFO
  - WWAN_SLOT_INFO
 ---
 
@@ -76,3 +78,4 @@ The state of the slot being queried, a member of the  <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uiccslot_state">WWAN_UICCSLOT_STATE</a>
+

@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Charging.h
 api_name:
- - BATTERY_INFORMATION
+ - _POWERSOURCESTATUS
+ - PPOWERSOURCESTATUS
+ - POWERSOURCESTATUS
 ---
 
 # _POWERSOURCESTATUS structure

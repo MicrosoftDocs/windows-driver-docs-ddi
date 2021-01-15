@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - USBCAMD_SetIsoPipeState
+ - PFNUSBCAMD_SetIsoPipeState
 ---
 
 # PFNUSBCAMD_SetIsoPipeState callback function
@@ -143,3 +143,4 @@ Using this function does not enable you to change the alternate setting within t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
+

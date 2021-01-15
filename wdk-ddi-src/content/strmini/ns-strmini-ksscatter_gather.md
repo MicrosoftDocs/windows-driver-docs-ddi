@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Strmini.h
 api_name:
+ - PKSSCATTER_GATHER
  - KSSCATTER_GATHER
 ---
 

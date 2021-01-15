@@ -36,6 +36,8 @@ api_location:
  - wdm.h
 api_name:
  - _PTM_CONTROL_INTERFACE
+ - PPTM_CONTROL_INTERFACE
+ - PTM_CONTROL_INTERFACE
 ---
 
 # _PTM_CONTROL_INTERFACE structure

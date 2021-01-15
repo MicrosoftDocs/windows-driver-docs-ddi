@@ -41,6 +41,8 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _MSR_SUPPORTED_CARD_TYPES
+ - PMSR_SUPPORTED_CARD_TYPES
  - MSR_SUPPORTED_CARD_TYPES
 ---
 

@@ -38,9 +38,6 @@ api_location:
  - dbgeng.h
 api_name:
  - IDebugSystemObjects3
- - IDebugSystemObjects3.GetCurrentSystemServer
- - IDebugSystemObjects3.GetSystemByServer
- - IDebugSystemObjects3.GetCurrentSystemServerName
 ---
 
 # IDebugSystemObjects3 interface
@@ -66,3 +63,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> inte
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+

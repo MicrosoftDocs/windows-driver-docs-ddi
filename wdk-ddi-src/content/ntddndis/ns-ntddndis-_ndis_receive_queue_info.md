@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_INFO
+ - PNDIS_RECEIVE_QUEUE_INFO
  - NDIS_RECEIVE_QUEUE_INFO
 ---
 
@@ -185,3 +187,4 @@ With a successful return from the <a href="/windows-hardware/drivers/network/oid
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+

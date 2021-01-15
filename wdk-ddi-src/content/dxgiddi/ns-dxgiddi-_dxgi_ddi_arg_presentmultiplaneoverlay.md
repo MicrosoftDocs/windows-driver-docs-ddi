@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
  - DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
 ---
 
@@ -110,3 +111,4 @@ This member is reserved and should be set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
+

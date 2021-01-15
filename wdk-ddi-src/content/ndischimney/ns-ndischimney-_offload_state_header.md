@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _OFFLOAD_STATE_HEADER
+ - POFFLOAD_STATE_HEADER
  - OFFLOAD_STATE_HEADER
 ---
 
@@ -107,3 +109,4 @@ The following offload state structures include an OFFLOAD_STATE_HEADER structure
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters
+ - IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 ---
 
 # IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
@@ -78,3 +78,4 @@ A pointer that receives the WinUsb setup packet for the control transfer. This p
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbrequestcompletionparams">IWDFUsbRequestCompletionParams</a>
+

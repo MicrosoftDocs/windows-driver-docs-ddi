@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DRIVER_UPGRADE_INFO_2
+ - PDRIVER_UPGRADE_INFO_2
  - DRIVER_UPGRADE_INFO_2
 ---
 
@@ -165,3 +167,4 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 
 <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a>
+

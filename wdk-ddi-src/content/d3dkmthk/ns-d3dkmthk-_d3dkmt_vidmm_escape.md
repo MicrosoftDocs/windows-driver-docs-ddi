@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_VIDMM_ESCAPE
  - D3DKMT_VIDMM_ESCAPE
 dev_langs:
  - c++
@@ -203,3 +204,4 @@ A handle to the process.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - mountdev
  - mountdev/mountdev
+api_name:
+ - mountdev
 ---
 
 # Mountdev.h header

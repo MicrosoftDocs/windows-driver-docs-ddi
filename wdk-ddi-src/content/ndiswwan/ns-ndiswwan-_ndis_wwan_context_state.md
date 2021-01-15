@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_CONTEXT_STATE
+ - PNDIS_WWAN_CONTEXT_STATE
  - NDIS_WWAN_CONTEXT_STATE
 ---
 
@@ -316,3 +318,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context_state">WWAN_CONTEXT_STATE</a>
+

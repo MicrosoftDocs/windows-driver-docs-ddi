@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_POWER_MODE
+ - PDOT11_POWER_MODE
  - DOT11_POWER_MODE
 product:
  - Windows 10 or later.
@@ -87,3 +89,4 @@ An 802.11 station advertises its power management mode through the Power Managem
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-dot11-enum-association-info">OID_DOT11_ENUM_ASSOCIATION_INFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_EventBuffer
+ - PMSFC_EventBuffer
  - MSFC_EventBuffer
 ---
 
@@ -78,3 +80,4 @@ The <a href="/previous-versions/ff556048(v=vs.85)">HBA_EventInfo</a> structure i
 
 
 <a href="/previous-versions/ff556048(v=vs.85)">HBA_EventInfo</a>
+

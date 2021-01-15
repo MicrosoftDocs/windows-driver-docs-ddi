@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILHIDEIDSETTINGS
+ - LPRILHIDEIDSETTINGS
 ---
 
 # RILHIDEIDSETTINGS structure (rilapitypes.h)

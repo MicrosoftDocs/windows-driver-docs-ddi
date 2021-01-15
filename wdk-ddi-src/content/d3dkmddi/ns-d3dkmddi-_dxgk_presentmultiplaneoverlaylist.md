@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_PRESENTMULTIPLANEOVERLAYLIST
  - DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ---
 
@@ -78,3 +79,4 @@ This member is reserved and should be set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a>
+

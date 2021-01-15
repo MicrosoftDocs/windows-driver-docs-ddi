@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_MAC_INFO
+ - PDOT11_MAC_INFO
 product:
  - Windows 10 or later.
 ---
@@ -92,3 +93,4 @@ This structure is used with
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a>
+

@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbfnattach
  - usbfnattach/usbfnattach
+api_name:
+ - usbfnattach
 ---
 
 # Usbfnattach.h header

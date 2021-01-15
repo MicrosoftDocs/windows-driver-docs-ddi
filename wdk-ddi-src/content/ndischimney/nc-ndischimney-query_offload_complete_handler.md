@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolQueryOffloadComplete
+ - QUERY_OFFLOAD_COMPLETE_HANDLER
 ---
 
 # QUERY_OFFLOAD_COMPLETE_HANDLER callback function
@@ -121,3 +121,4 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate">NdisQueryOffload</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_TOC_FULL_TOC_DATA_BLOCK
+ - PCDROM_TOC_FULL_TOC_DATA_BLOCK
  - CDROM_TOC_FULL_TOC_DATA_BLOCK
 ---
 
@@ -106,3 +108,4 @@ Contains the minute, second, and frame. Msf[0] contains the minutes field. Msf[1
 [CDROM_TOC_FULL_TOC_DATA](./ns-ntddcdrm-_cdrom_toc_full_toc_data.md)
 
 [IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
+ - _PIPE_TERMINATION
  - PIPE_TERMINATION
 ---
 

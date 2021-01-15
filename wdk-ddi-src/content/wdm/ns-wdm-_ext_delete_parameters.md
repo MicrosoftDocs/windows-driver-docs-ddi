@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _EXT_DELETE_PARAMETERS
+ - PEXT_DELETE_PARAMETERS
  - EXT_DELETE_PARAMETERS
 ---
 
@@ -90,3 +92,4 @@ Your driver can use an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_del
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_delete_callback">ExTimerDeleteCallback</a>
+

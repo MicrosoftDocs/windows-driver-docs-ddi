@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_ADDRESS
+ - PSCSI_ADDRESS
  - SCSI_ADDRESS
 ---
 
@@ -81,3 +83,4 @@ Legacy class drivers issue the <a href="/windows-hardware/drivers/ddi/ntddscsi/n
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_get_address">IOCTL_SCSI_GET_ADDRESS</a>
+

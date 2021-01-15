@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _WORK_QUEUE_ITEM
+ - PWORK_QUEUE_ITEM
  - WORK_QUEUE_ITEM
 ---
 
@@ -108,3 +110,4 @@ To post the initialized work item to a system work queue, call <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
+

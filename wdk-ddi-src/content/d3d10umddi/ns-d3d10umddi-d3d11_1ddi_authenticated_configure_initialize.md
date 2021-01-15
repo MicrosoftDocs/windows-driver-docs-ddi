@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
+ - D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
  - D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
 ---
 
@@ -70,3 +71,4 @@ The initial sequence number for commands.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a>
+

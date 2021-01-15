@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.EnableHwNotifications
+ - IStillImageW::EnableHwNotifications
 ---
 
 # IStillImageW::EnableHwNotifications
@@ -75,3 +75,4 @@ Before calling <b>IStillImage::EnableHwNotifications</b>, clients of the <b>ISti
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

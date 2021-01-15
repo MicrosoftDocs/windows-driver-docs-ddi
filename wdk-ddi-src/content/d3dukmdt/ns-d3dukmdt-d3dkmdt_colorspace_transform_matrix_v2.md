@@ -35,6 +35,8 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2
+ - PD3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2
  - D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2
 dev_langs:
  - c++

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.Initialize
+ - IStiUSD::Initialize
 ---
 
 # IStiUSD::Initialize
@@ -111,3 +111,4 @@ STDMETHODIMP MyUSDDevice::Initialize(
     return hres;
 }
 ```
+

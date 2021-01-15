@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnSetDisplayPrivateDriverFormatCb
+ - PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB
 product:
  - Windows
 ---
@@ -112,3 +112,4 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplaymodecb">pfnSetDisplayModeCb</a>
+

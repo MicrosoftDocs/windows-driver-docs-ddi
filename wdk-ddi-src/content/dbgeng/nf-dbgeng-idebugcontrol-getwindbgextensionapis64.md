@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetWindbgExtensionApis64
- - IDebugControl2.GetWindbgExtensionApis64
- - IDebugControl3.GetWindbgExtensionApis64
+ - IDebugControl::GetWindbgExtensionApis64
 ---
 
 # IDebugControl::GetWindbgExtensionApis64
@@ -98,3 +96,4 @@ Many WdbgExts functions are really macros.  To ensure that these macros work cor
 The WINDBG_EXTENSION_APIS64 structure returned by this method serves the same purpose as the one provided to the callback function <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_extension_dll_init">WinDbgExtensionDllInit</a> (used by WdbgExts extensions).
 
 For a list of the functions provided by the WdbgExts API, see <a href="/windows-hardware/drivers/debugger/wdbgexts-functions">WdbgExts Functions</a>.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _SET_UNIT_DIRECTORY
+ - PSET_UNIT_DIRECTORY
  - SET_UNIT_DIRECTORY
 ---
 
@@ -84,3 +86,4 @@ If successful, the IEC-61883 protocol driver sets <b>Irp->IoStatus.Status </b>to
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

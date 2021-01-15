@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIA_DEV_CAP_DRV
+ - PWIA_DEV_CAP_DRV
  - WIA_DEV_CAP_DRV
 ---
 
@@ -91,3 +93,4 @@ When a driver is enumerating event handlers, the only valid value is WIA_IS_DEFA
 [Driver Capabilities](/windows-hardware/drivers/image/driver-capabilities)
 
 [IWiaMiniDrv::drvGetCapabilities](./nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md)
+

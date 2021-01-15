@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_OPENALLOCATION
  - DXGKARG_OPENALLOCATION
 ---
 
@@ -112,3 +113,4 @@ The pitch, in bytes, of the allocation—that is, the distance, in bytes, to the
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
+

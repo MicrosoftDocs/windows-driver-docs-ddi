@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateSrq
+ - NDK_FN_CREATE_SRQ
 ---
 
 # NDK_FN_CREATE_SRQ callback function
@@ -199,3 +199,4 @@ The <i>NdkCreateSrq</i> function creates an NDK shared receive queue (SRQ) objec
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
+

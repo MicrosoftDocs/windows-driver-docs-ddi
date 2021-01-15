@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PORT_CHARACTERISTICS
+ - PNDIS_PORT_CHARACTERISTICS
  - NDIS_PORT_CHARACTERISTICS
 ---
 
@@ -325,3 +327,4 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 <a href="/windows-hardware/drivers/network/types-of-ndis-ports">Types of NDIS Ports</a>
+

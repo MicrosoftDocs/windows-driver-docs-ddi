@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+ - PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
  - NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ---
 
@@ -147,3 +149,4 @@ To register its TCP chimney offload-specific entry points, an offload target cal
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _SUB_Q_TRACK_ISRC
+ - PSUB_Q_TRACK_ISRC
  - SUB_Q_TRACK_ISRC
 ---
 
@@ -100,3 +102,4 @@ Contains an array that holds the tracking ISRC data.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a>
+

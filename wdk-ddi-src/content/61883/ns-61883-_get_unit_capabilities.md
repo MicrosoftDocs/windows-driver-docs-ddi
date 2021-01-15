@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _GET_UNIT_CAPABILITIES
+ - PGET_UNIT_CAPABILITIES
  - GET_UNIT_CAPABILITIES
 ---
 
@@ -82,3 +84,4 @@ If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level i
 ## -see-also
 
 <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
+

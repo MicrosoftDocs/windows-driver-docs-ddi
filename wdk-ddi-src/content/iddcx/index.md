@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - iddcx
  - iddcx/iddcx
+api_name:
+ - iddcx
 ---
 
 # Iddcx.h header
@@ -23,3 +25,4 @@ This header is used by indirect display drivers. For more information, see:
 
 - [Indirect display driver model overview](/windows-hardware/drivers/display/indirect-display-driver-model-overview)
 - [All display driver headers](../_display/index.md)
+

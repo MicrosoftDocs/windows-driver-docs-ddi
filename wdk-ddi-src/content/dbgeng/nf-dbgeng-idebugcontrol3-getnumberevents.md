@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.GetNumberEvents
+ - IDebugControl3::GetNumberEvents
 ---
 
 # IDebugControl3::GetNumberEvents
@@ -106,3 +106,4 @@ For more information, see the topic <a href="/windows-hardware/drivers/debugger/
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setnexteventindex">SetNextEventIndex</a>
+

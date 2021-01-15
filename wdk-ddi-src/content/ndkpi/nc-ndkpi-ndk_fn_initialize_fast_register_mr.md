@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkInitializeFastRegisterMr
+ - NDK_FN_INITIALIZE_FAST_REGISTER_MR
 ---
 
 # NDK_FN_INITIALIZE_FAST_REGISTER_MR callback function
@@ -159,3 +159,4 @@ After <i>NdkInitializeFastRegisterMr</i> returns, a fast register work request c
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
+

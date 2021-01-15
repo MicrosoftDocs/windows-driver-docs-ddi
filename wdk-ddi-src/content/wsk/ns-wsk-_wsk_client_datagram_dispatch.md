@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_CLIENT_DATAGRAM_DISPATCH
+ - PWSK_CLIENT_DATAGRAM_DISPATCH
  - WSK_CLIENT_DATAGRAM_DISPATCH
 ---
 
@@ -80,3 +82,4 @@ A WSK application passes a pointer to a WSK_CLIENT_DATAGRAM_DISPATCH structure t
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - _BIDI_RESPONSE_CONTAINER
+ - PBIDI_RESPONSE_CONTAINER
  - BIDI_RESPONSE_CONTAINER
 ---
 
@@ -86,3 +88,4 @@ The spooler's <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routeral
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
+

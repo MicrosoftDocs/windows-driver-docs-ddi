@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnReserveGpuVirtualAddressCb
+ - PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
 product:
  - Windows
 ---
@@ -73,3 +73,4 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
+

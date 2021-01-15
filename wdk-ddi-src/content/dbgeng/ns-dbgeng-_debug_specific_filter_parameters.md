@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_SPECIFIC_FILTER_PARAMETERS
+ - PDEBUG_SPECIFIC_FILTER_PARAMETERS
  - DEBUG_SPECIFIC_FILTER_PARAMETERS
 ---
 
@@ -83,3 +85,4 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setspecificfilterparameters">SetSpecificFilterParameters</a>
+

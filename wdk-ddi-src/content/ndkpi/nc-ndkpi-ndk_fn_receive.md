@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkReceive
+ - NDK_FN_RECEIVE
 ---
 
 # NDK_FN_RECEIVE callback function
@@ -123,3 +123,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
+

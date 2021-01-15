@@ -34,7 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PFLUSH_DMA_BUFFER
- - FlushDmaBuffer
 ---
 
 # PFLUSH_DMA_BUFFER callback function
@@ -86,3 +85,4 @@ NTSTATUS PflushDmaBuffer
 ## -see-also
 
 [Flushing Cached Data during DMA Operations](/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)
+

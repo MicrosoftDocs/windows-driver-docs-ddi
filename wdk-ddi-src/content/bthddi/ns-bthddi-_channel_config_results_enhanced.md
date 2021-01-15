@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bthddi.h
 api_name:
+ - _CHANNEL_CONFIG_RESULTS_ENHANCED
+ - PCHANNEL_CONFIG_RESULTS_ENHANCED
  - CHANNEL_CONFIG_RESULTS_ENHANCED
 ---
 

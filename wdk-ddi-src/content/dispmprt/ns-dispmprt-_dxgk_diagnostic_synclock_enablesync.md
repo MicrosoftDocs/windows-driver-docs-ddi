@@ -34,6 +34,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
+ - DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
 dev_langs:
  - c++
 ---

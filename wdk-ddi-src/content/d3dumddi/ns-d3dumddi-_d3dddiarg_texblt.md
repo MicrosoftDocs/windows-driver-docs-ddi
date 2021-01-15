@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_TEXBLT
  - D3DDDIARG_TEXBLT
 ---
 
@@ -82,3 +83,4 @@ The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block tran
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_texblt">TexBlt</a>
+

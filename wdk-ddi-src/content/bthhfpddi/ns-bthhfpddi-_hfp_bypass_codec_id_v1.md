@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bthhfpddi.h
 api_name:
+ - _HFP_BYPASS_CODEC_ID_V1
+ - PHFP_BYPASS_CODEC_ID_V1
  - HFP_BYPASS_CODEC_ID_V1
 ---
 
@@ -83,3 +85,4 @@ The codec ID can be any of the values in the following table.
 
 
 <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
+

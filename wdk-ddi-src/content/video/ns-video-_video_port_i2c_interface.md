@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_I2C_INTERFACE
+ - PVIDEO_PORT_I2C_INTERFACE
  - VIDEO_PORT_I2C_INTERFACE
 ---
 
@@ -100,3 +102,4 @@ PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and 
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+

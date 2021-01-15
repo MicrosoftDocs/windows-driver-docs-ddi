@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetVirtualStationAPProperties
+ - DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES
 ---
 
 # DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES callback
@@ -135,3 +135,4 @@ If the IHV Extensions DLL calls
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_ap_property.md">
    DOT11EXT_VIRTUAL_STATION_AP_PROPERTY</a>
+

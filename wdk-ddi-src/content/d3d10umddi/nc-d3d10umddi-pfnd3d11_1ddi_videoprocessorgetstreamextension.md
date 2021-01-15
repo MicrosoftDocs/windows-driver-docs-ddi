@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorGetStreamExtension
+ - PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback function
@@ -103,3 +103,4 @@ The Microsoft Direct3D runtime does not validate any parameter data before it ca
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
+

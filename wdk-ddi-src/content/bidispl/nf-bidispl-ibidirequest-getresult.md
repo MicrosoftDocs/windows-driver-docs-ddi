@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequest.GetResult
+ - IBidiRequest::GetResult
 ---
 
 # IBidiRequest::GetResult
@@ -123,3 +123,4 @@ Note that the return value indicates whether the method was successful. It does 
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+

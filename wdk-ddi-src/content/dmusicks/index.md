@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - dmusicks
  - dmusicks/dmusicks
+api_name:
+ - dmusicks
 ---
 
 # Dmusicks.h header

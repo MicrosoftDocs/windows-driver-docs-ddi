@@ -33,6 +33,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
+ - D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 product:
  - Windows
 ---

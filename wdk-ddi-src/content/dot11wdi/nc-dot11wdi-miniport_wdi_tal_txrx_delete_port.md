@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTalTxRxDeletePort
+ - MINIPORT_WDI_TAL_TXRX_DELETE_PORT
 ---
 
 # MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback function
@@ -83,3 +83,4 @@ Port ID that specifies the deleted port.
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

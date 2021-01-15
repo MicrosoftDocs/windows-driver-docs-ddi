@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_SPEC_VERSION
+ - PSTORAGE_SPEC_VERSION
  - STORAGE_SPEC_VERSION
 ---
 

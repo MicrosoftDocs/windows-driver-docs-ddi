@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiGetChildContainerId
+ - DXGKDDI_GET_CHILD_CONTAINER_ID
 ---
 
 # DXGKDDI_GET_CHILD_CONTAINER_ID callback function
@@ -101,3 +101,4 @@ For more information about Container IDs, see <a href="/windows/desktop/com/com-
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_device_descriptor">DxgkDdiQueryDeviceDescriptor</a>
+

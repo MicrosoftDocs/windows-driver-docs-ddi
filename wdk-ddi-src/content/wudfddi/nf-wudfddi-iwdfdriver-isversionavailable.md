@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriver.IsVersionAvailable
+ - IWDFDriver::IsVersionAvailable
 ---
 
 # IWDFDriver::IsVersionAvailable
@@ -67,3 +67,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_t
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-umdf_version_data">UMDF_VERSION_DATA</a>
+

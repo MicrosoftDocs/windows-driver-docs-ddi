@@ -36,9 +36,12 @@ api_location:
  - winddiui.h
 api_name:
  - _PRINTPROCESSOR_CAPS_1
+ - PPRINTPROCESSOR_CAPS_1
+ - PRINTPROCESSOR_CAPS_1
 ---
 
 # _PRINTPROCESSOR_CAPS_1 structure
+
 
 ## -description
 
@@ -55,3 +58,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

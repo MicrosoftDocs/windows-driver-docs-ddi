@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbTargetConnect
+ - EVT_SPB_TARGET_CONNECT
 ---
 
 # EVT_SPB_TARGET_CONNECT callback function
@@ -125,3 +125,4 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
+

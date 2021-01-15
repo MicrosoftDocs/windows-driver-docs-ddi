@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IWpdSerializer.GetSerializedSize
+ - IWpdSerializer::GetSerializedSize
 ---
 
 # IWpdSerializer::GetSerializedSize
@@ -111,3 +111,4 @@ None.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
+

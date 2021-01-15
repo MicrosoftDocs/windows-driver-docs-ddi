@@ -35,6 +35,8 @@ api_location:
  - ntddvdeo.h
 api_name:
  - _BRIGHTNESS_NIT_RANGE
+ - PBRIGHTNESS_NIT_RANGE
+ - BRIGHTNESS_NIT_RANGE
 product:
  - Windows
 ---

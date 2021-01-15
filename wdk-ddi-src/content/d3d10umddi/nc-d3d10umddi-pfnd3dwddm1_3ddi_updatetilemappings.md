@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - UpdateTileMappings
+ - PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS
 product:
  - Windows
 ---
@@ -114,3 +114,4 @@ The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d1
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size">D3DWDDM1_3DDI_TILE_REGION_SIZE</a>
+

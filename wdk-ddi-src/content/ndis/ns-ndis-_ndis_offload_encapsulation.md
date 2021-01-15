@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_OFFLOAD_ENCAPSULATION
+ - PNDIS_OFFLOAD_ENCAPSULATION
  - NDIS_OFFLOAD_ENCAPSULATION
 ---
 
@@ -199,3 +201,4 @@ In a set of
 
 
 <a href="/windows-hardware/drivers/network/oid-offload-encapsulation">OID_OFFLOAD_ENCAPSULATION</a>
+

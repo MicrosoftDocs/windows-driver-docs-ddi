@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - wdm
  - wdm/wdm
+api_name:
+ - wdm
 ---
 
 # Wdm.h header

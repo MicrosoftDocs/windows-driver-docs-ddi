@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetNumberThreads
- - IDebugSystemObjects2.GetNumberThreads
- - IDebugSystemObjects3.GetNumberThreads
- - IDebugSystemObjects4.GetNumberThreads
+ - IDebugSystemObjects4::GetNumberThreads
 ---
 
 # IDebugSystemObjects4::GetNumberThreads
@@ -86,3 +83,4 @@ In kernel-mode debugging, there is a virtual thread representing each processor.
 In user-mode debugging, the number of threads changes with the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-createthread">IDebugEventCallbacks::CreateThread</a> and <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-exitthread">IDebugEventCallbacks::ExitThread</a> events.
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

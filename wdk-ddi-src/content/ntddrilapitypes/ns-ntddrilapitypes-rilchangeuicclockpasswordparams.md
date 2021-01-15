@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCHANGEUICCLOCKPASSWORDPARAMS
+ - LPRILCHANGEUICCLOCKPASSWORDPARAMS
 ---
 
 # RILCHANGEUICCLOCKPASSWORDPARAMS structure (ntddrilapitypes.h)

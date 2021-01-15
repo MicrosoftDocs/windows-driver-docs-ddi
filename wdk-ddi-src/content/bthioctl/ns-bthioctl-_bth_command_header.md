@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_COMMAND_HEADER
+ - PBTH_COMMAND_HEADER
  - BTH_COMMAND_HEADER
 ---
 
@@ -80,3 +82,4 @@ The BTH_COMMAND_HEADER structure specifies header information in the
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+

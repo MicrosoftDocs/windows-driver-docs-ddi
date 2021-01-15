@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_TIME_CONTEXT
+ - PHW_TIME_CONTEXT
  - HW_TIME_CONTEXT
 ---
 
@@ -106,3 +108,4 @@ The current system time, in 100-nanosecond units.
 
 
 <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a>
+

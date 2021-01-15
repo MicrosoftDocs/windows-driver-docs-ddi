@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
+ - PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
  - KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 ---
 
@@ -110,3 +112,4 @@ A device driver's callback function that receives these notifications must not m
 
 
 <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a>
+

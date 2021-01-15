@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_VPORT_STATE
+ - PNDIS_NIC_SWITCH_VPORT_STATE
  - NDIS_NIC_SWITCH_VPORT_STATE
 ---
 
@@ -94,3 +96,4 @@ The <b>VPortState</b> member of the <a href="/windows-hardware/drivers/ddi/ntddn
 
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
+

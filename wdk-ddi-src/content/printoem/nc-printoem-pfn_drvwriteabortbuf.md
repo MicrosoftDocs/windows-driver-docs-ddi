@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvWriteAbortBuf
+ - PFN_DrvWriteAbortBuf
 ---
 
 # PFN_DrvWriteAbortBuf callback function
@@ -60,3 +60,4 @@ This function pointer prototype defines the type of the <b>DrvWriteAbortBuf</b> 
 ### -param cbSize
 
 ### -param dwWait
+

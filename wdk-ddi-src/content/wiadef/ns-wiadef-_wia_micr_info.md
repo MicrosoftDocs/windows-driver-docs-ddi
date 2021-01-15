@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiadef.h
 api_name:
+ - _WIA_MICR_INFO
  - WIA_MICR_INFO
 ---
 

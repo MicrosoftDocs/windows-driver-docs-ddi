@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_GEOFENCE_CREATE_RESPONSE
  - GNSS_GEOFENCE_CREATE_RESPONSE
 ---
 

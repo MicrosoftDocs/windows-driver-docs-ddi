@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_DISK_HEALTH_INFO
+ - PMPIO_DISK_HEALTH_INFO
  - MPIO_DISK_HEALTH_INFO
 ---
 

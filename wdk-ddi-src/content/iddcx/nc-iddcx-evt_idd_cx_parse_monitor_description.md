@@ -37,7 +37,7 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION
+ - EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION
 ---
 
 # EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function

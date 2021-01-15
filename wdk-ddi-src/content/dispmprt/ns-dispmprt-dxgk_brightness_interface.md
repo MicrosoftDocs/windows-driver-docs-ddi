@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - PDXGK_BRIGHTNESS_INTERFACE
  - DXGK_BRIGHTNESS_INTERFACE
 ---
 
@@ -110,3 +111,4 @@ A kernel-mode component that must use the brightness interface initiates a call 
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_query_interface">QUERY_INTERFACE</a>
+

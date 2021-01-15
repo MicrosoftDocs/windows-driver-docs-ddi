@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfwmi.h
 api_name:
+ - _WDF_WMI_PROVIDER_CONFIG
+ - PWDF_WMI_PROVIDER_CONFIG
  - WDF_WMI_PROVIDER_CONFIG
 ---
 
@@ -104,3 +106,4 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidercreate">WdfWmiProviderCreate</a>
+

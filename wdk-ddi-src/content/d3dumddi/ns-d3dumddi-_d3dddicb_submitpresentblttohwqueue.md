@@ -33,6 +33,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
+ - D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 product:
  - Windows
 ---

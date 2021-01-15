@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _tagKSTELEPHONY_CALLINFO
+ - PKSTELEPHONY_CALLINFO
  - KSTELEPHONY_CALLINFO
 ---
 
@@ -60,3 +62,4 @@ Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN
 ### -field CallState
 
 Specifies the state of the phone call.
+

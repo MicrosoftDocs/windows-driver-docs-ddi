@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - GetResourceInformation
+ - PGET_RESOURCE_INFORMATION
 ---
 
 # PGET_RESOURCE_INFORMATION callback function
@@ -84,3 +84,4 @@ A codec contains one or more function groups. Each function group contains some 
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
+

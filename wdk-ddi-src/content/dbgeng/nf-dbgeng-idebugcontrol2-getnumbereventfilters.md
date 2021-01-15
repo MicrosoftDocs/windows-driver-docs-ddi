@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetNumberEventFilters
- - IDebugControl2.GetNumberEventFilters
- - IDebugControl3.GetNumberEventFilters
+ - IDebugControl2::GetNumberEventFilters
 ---
 
 # IDebugControl2::GetNumberEventFilters
@@ -91,3 +89,4 @@ The method was successful.
 ## -remarks
 
 For more information about event filters, see <a href="/windows-hardware/drivers/debugger/event-filters">Event Filters</a>.
+

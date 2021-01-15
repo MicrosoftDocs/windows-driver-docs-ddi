@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWaveRTStream.UnmapAllocatedPages
+ - IPortWaveRTStream::UnmapAllocatedPages
 ---
 
 # IPortWaveRTStream::UnmapAllocatedPages
@@ -80,3 +80,4 @@ This method is similar in operation to the <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmaplockedpages">MmUnmapLockedPages</a>
+

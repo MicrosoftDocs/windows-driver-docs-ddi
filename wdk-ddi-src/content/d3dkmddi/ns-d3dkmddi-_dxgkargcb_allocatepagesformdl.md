@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARGCB_ALLOCATEPAGESFORMDL
+ - DXGKARGCB_ALLOCATEPAGESFORMDL
 product:
  - Windows
 ---
@@ -81,3 +82,4 @@ An MDL of non-paged memory guaranteed to be mapped to the IoMmu for its lifetime
 ## -remarks
 
 ## -see-also
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
  - IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
+ - PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
  - WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
 ---
 
@@ -102,3 +104,4 @@ A WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union is contained within the <a href=
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a>
+

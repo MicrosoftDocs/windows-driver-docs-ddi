@@ -36,9 +36,12 @@ api_location:
  - treerpmbservice.h
 api_name:
  - _TREE_RPMB_COMMAND_INPUT
+ - PTREE_RPMB_COMMAND_INPUT
+ - TREE_RPMB_COMMAND_INPUT
 ---
 
 # _TREE_RPMB_COMMAND_INPUT structure
+
 
 ## -description
 
@@ -53,3 +56,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

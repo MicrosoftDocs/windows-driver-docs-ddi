@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IRegistryKey.DeleteKey
+ - IRegistryKey::DeleteKey
 ---
 
 # IRegistryKey::DeleteKey
@@ -82,3 +82,4 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwdeletekey">ZwDeleteKey</a>
+

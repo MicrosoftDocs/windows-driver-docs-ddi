@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
+ - _SECURITY_IMPERSONATION_LEVEL
  - SECURITY_IMPERSONATION_LEVEL
 ---
 
@@ -80,3 +81,4 @@ For more information about the security impersonation levels, see the <b>SECURIT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_STANDARD_MODE_S
  - KSPROPERTY_TUNER_STANDARD_MODE_S
 ---
 
@@ -70,3 +71,4 @@ A Boolean value that indicates whether the tuning device can automatically detec
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - SetTableEntry
+ - PCI_MSIX_SET_ENTRY
 ---
 
 # PCI_MSIX_SET_ENTRY callback function
@@ -112,3 +112,4 @@ By default, the operating system assigns the index of the table entry as the mes
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_msix_table_config_interface">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+

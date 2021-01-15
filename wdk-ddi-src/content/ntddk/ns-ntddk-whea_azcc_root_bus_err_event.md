@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_AZCC_ROOT_BUS_ERR_EVENT
+ - PWHEA_AZCC_ROOT_BUS_ERR_EVENT
  - WHEA_AZCC_ROOT_BUS_ERR_EVENT
 f1_keywords:
  - _WHEA_AZCC_ROOT_BUS_ERR_EVENT

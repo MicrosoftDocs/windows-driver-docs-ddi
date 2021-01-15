@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiRenderKm
+ - DXGKDDI_RENDERKM
 product:
  - Windows
 ---
@@ -136,3 +136,4 @@ In guaranteed contract DMA mode, when the display miniport driver translates a c
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+

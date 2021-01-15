@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfio.h
 api_name:
+ - _WDF_IO_QUEUE_STATE
  - WDF_IO_QUEUE_STATE
 ---
 
@@ -84,3 +85,4 @@ The following functions are defined in <i>wdfio.h</i>:
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuegetstate">WdfIoQueueGetState</a>
+

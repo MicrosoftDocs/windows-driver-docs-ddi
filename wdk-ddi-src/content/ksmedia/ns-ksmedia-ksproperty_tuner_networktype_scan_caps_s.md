@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
  - KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
 ---
 
@@ -86,3 +87,4 @@ A pointer to a buffer to hold the scanning capabilities of a broadcast network t
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tuner_analog_caps_s">TUNER_ANALOG_CAPS_S</a>
+

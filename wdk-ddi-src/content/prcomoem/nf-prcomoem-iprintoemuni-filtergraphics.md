@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.FilterGraphics
+ - IPrintOemUni::FilterGraphics
 ---
 
 # IPrintOemUni::FilterGraphics
@@ -196,3 +196,4 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/nf-printoem-oemfiltergraphics">OEMFilterGraphics</a>
+

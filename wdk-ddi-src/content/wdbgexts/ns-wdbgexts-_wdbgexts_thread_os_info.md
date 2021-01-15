@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
+ - _WDBGEXTS_THREAD_OS_INFO
+ - PWDBGEXTS_THREAD_OS_INFO
  - WDBGEXTS_THREAD_OS_INFO
 ---
 
@@ -100,3 +102,4 @@ The parameters for the IG_GET_THREAD_OS_INFO <a href="/windows-hardware/drivers/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
+ - IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 ---
 
 # IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
@@ -140,7 +140,6 @@ Error:
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterfaceinitialize">IWDFRemoteInterfaceInitialize</a>
@@ -148,3 +147,4 @@ Error:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremoteinterfaceinitialize-getinterfaceguid">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
+

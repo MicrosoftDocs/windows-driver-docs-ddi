@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
+ - _INTERNAL_I8042_START_INFORMATION
+ - PINTERNAL_I8042_START_INFORMATION
  - INTERNAL_I8042_START_INFORMATION
 ---
 
@@ -76,3 +78,4 @@ This structure is used with <a href="/windows-hardware/drivers/ddi/ntdd8042/ni-n
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
+

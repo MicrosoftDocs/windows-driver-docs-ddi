@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateCryptoSession
+ - PFND3D11_1DDI_CREATECRYPTOSESSION
 product:
  - Windows
 ---
@@ -104,3 +104,4 @@ If the <b>DecodeProfile</b> member of the <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange">NegotiateCryptoSessionKeyExchange</a>
+

@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PLANE_SPECIFIC_INPUT_FLAGS
  - DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 dev_langs:
  - c++

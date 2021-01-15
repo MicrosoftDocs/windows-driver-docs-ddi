@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelConcept.AddRef
+ - IDataModelConcept::AddRef
 ---
 
 # IDataModelConcept::AddRef
@@ -54,3 +54,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelConcept interface](nn-dbgmodel-idatamodelconcept.md)
+

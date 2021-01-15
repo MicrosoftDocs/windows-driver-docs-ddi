@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_CHILD_STATUS_TYPE
+ - PDXGK_CHILD_STATUS_TYPE
  - DXGK_CHILD_STATUS_TYPE
 ---
 
@@ -82,3 +84,4 @@ The <b>Type</b> member of a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-d
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a>
+

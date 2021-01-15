@@ -37,7 +37,7 @@ api_type:
 api_location:
  - BthSdpddi.h
 api_name:
- - SdpConvertStreamToTree
+ - PCONVERTSTREAMTOTREE
 product:
  - Windows
 ---
@@ -167,3 +167,4 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 <a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a>
+

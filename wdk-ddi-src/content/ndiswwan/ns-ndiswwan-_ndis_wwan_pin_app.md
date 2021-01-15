@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_PIN_APP
+ - PNDIS_WWAN_PIN_APP
+ - NDIS_WWAN_PIN_APP
 ---
 
 # _NDIS_WWAN_PIN_APP structure
@@ -74,3 +76,4 @@ This structure is used in the payload of an [OID_WWAN_PIN_EX2](/windows-hardware
 [OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2)
 
 [**WWAN_PIN_APP**](../wwan/ns-wwan-_wwan_pin_app.md)
+

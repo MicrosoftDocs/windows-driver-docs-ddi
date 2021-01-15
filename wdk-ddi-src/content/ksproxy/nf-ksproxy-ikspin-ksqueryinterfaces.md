@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsQueryInterfaces
+ - IKsPin::KsQueryInterfaces
 ---
 
 # IKsPin::KsQueryInterfaces
@@ -69,3 +69,4 @@ The returned interfaces are ordered by preference.
 
 
 <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
+

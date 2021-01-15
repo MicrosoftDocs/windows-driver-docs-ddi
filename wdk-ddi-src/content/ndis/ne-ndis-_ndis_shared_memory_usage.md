@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_SHARED_MEMORY_USAGE
+ - PNDIS_SHARED_MEMORY_USAGE
  - NDIS_SHARED_MEMORY_USAGE
 ---
 
@@ -114,3 +116,4 @@ The NDIS_SHARED_MEMORY_USAGE enumeration is used in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_shared_memory_parameters">NDIS_SHARED_MEMORY_PARAMETERS</a>
+

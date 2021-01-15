@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetDisassembleEffectiveOffset
- - IDebugControl2.GetDisassembleEffectiveOffset
- - IDebugControl3.GetDisassembleEffectiveOffset
+ - IDebugControl3::GetDisassembleEffectiveOffset
 ---
 
 # IDebugControl3::GetDisassembleEffectiveOffset
@@ -99,3 +97,4 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

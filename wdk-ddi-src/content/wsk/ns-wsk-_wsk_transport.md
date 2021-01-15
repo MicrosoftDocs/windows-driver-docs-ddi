@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_TRANSPORT
+ - PWSK_TRANSPORT
  - WSK_TRANSPORT
 ---
 
@@ -136,3 +138,4 @@ A single transport provider can support multiple combinations of values for the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _CHANNEL_CONFIG_RESULTS
+ - PCHANNEL_CONFIG_RESULTS
  - CHANNEL_CONFIG_RESULTS
 ---
 
@@ -80,3 +82,4 @@ The CHANNEL_CONFIG_RESULTS structure is passed in the
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
+

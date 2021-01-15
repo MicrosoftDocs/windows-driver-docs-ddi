@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_MIRACAST_DISPLAY_CALLBACKS
+ - PDXGK_MIRACAST_DISPLAY_CALLBACKS
  - DXGK_MIRACAST_DISPLAY_CALLBACKS
 ---
 
@@ -72,3 +74,4 @@ A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/di
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_report_chunk_info">DxgkCbReportChunkInfo</a>
+

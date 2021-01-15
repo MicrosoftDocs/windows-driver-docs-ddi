@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
- - D3dDrawPrimitives2
+ - LPD3DHAL_DRAWPRIMITIVES2CB
 ---
 
 # LPD3DHAL_DRAWPRIMITIVES2CB callback function
@@ -196,3 +196,4 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 <a href="/windows-hardware/drivers/display/fvf--flexible-vertex-format-">FVF</a>
+

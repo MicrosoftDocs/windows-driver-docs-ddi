@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SID_NAME_USE
+ - PSID_NAME_USE
  - SID_NAME_USE
 ---
 
@@ -104,3 +106,4 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 
 <a href="/previous-versions/ff556579(v=vs.85)">SecLookupAccountSid</a>
+

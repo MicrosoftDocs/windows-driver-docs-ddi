@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - EnableVirtualization
+ - ENABLE_VIRTUALIZATION
 ---
 
 # ENABLE_VIRTUALIZATION callback
@@ -166,3 +166,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">Ena
 
 
 <b></b>
+

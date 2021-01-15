@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _KMTUMDVERSION
+ - KMTUMDVERSION
 product:
  - Windows
 dev_langs:

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _PSCREATEPROCESSNOTIFYTYPE
  - PSCREATEPROCESSNOTIFYTYPE
 ---
 
@@ -66,3 +67,4 @@ Indicates that the driver-registered callback is invoked for processes of all su
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a>
+

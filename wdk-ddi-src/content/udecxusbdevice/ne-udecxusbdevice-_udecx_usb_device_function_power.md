@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_USB_DEVICE_FUNCTION_POWER
+ - PUDECX_USB_DEVICE_FUNCTION_POWER
  - UDECX_USB_DEVICE_FUNCTION_POWER
 ---
 
@@ -68,3 +70,4 @@ The USB interface can send a wake signal to the host controller when the functio
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
+

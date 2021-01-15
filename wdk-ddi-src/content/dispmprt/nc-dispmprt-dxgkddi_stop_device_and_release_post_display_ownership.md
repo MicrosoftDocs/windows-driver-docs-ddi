@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiStopDeviceAndReleasePostDisplayOwnership
+ - DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP
 ---
 
 # DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback function
@@ -173,3 +173,4 @@ For more information on how this function is used in PnP scenarios, see <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device">DxgkDdiStopDevice</a>
+

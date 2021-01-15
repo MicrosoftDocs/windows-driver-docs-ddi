@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_RPC_EP_ADD_
  - FWPS_FIELDS_RPC_EP_ADD
 ---
 
@@ -75,3 +76,4 @@ Reserved for internal use.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

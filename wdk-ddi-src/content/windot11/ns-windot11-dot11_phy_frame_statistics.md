@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_PHY_FRAME_STATISTICS
+ - PDOT11_PHY_FRAME_STATISTICS
 product:
  - Windows 10 or later.
 ---
@@ -277,3 +278,4 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 <a href="/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>
+

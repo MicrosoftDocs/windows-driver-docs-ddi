@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.GetFailureClass
+ - IDebugFailureAnalysis2::GetFailureClass
 ---
 
 # IDebugFailureAnalysis2::GetFailureClass
@@ -114,3 +114,4 @@ These return values are defined in dbgeng.h.
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

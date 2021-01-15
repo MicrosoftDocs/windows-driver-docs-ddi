@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddstor
  - ntddstor/ntddstor
+api_name:
+ - ntddstor
 ---
 
 # Ntddstor.h header

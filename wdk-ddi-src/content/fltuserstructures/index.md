@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - fltuserstructures
  - fltuserstructures/fltuserstructures
+api_name:
+ - fltuserstructures
 ---
 
 # Fltuserstructures.h header

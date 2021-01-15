@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 ---
 
@@ -309,3 +311,4 @@ For more information about the initialization requirements for a Native 802.11 m
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

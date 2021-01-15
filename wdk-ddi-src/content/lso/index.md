@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - lso
  - lso/lso
+api_name:
+ - lso
 ---
 
 # Lso.h header

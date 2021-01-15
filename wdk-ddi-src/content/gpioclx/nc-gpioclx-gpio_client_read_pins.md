@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ReadGpioPins
+ - GPIO_CLIENT_READ_PINS
 ---
 
 # GPIO_CLIENT_READ_PINS callback function
@@ -121,3 +121,4 @@ The GPIO_CLIENT_READ_PINS function type is defined in the Gpioclx.h header file.
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_read_pins_parameters">GPIO_READ_PINS_PARAMETERS</a>
+

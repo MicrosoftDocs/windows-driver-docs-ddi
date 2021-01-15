@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucmmanager
  - ucmmanager/ucmmanager
+api_name:
+ - ucmmanager
 ---
 
 # Ucmmanager.h header

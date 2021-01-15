@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
  - DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 ---
 
@@ -116,3 +117,4 @@ RGB output can be out of [0.0, 1.0] range ([0, 255], when 8-bit presentation is 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

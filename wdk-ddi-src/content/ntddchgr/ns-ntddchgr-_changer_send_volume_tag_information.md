@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_SEND_VOLUME_TAG_INFORMATION
+ - PCHANGER_SEND_VOLUME_TAG_INFORMATION
  - CHANGER_SEND_VOLUME_TAG_INFORMATION
 ---
 
@@ -99,3 +101,4 @@ Specifies the template to be used by the device to search for volume IDs. For a 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_MEDIUM
+ - PNDIS_MEDIUM
  - NDIS_MEDIUM
 ---
 

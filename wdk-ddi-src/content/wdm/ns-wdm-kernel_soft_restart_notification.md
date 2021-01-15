@@ -35,6 +35,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KERNEL_SOFT_RESTART_NOTIFICATION
+ - PKERNEL_SOFT_RESTART_NOTIFICATION
  - KERNEL_SOFT_RESTART_NOTIFICATION
 product:
  - Windows

@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_MULTIPLANE_OVERLAY_CAPS
+ - D3DKMT_MULTIPLANE_OVERLAY_CAPS
 dev_langs:
  - c++
 ---

@@ -34,6 +34,7 @@ api_location:
  - wdm.h
 api_name:
  - MEM_EXTENDED_PARAMETER
+ - PMEM_EXTENDED_PARAMETER
 ---
 
 # MEM_EXTENDED_PARAMETER structure
@@ -70,3 +71,4 @@ A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](/windows/win32/ap
 ## -remarks
 
 ## -see-also
+

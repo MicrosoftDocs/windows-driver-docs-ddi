@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - ChangeBandwidthAllocation
+ - PCHANGE_BANDWIDTH_ALLOCATION
 ---
 
 # PCHANGE_BANDWIDTH_ALLOCATION callback function
@@ -209,3 +209,4 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-setformat">IMiniportWavePciStream::SetFormat</a>
+

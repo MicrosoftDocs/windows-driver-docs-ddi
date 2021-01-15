@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - FsRtlPrepareMdlWriteDev
+ - FltFastIoPrepareMdlWrite
 ---
 
 # FltFastIoPrepareMdlWrite function
@@ -106,3 +106,4 @@ Even if the call to <b>FltFastIoPrepareMdlWrite</b> fails, one or more MDLs migh
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetsystemaddressformdlsafe">MmGetSystemAddressForMdlSafe</a>
+

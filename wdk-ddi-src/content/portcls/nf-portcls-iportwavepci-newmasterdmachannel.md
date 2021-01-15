@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortWavePci.NewMasterDmaChannel
+ - IPortWavePci::NewMasterDmaChannel
 ---
 
 # IPortWavePci::NewMasterDmaChannel
@@ -142,3 +142,4 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
+

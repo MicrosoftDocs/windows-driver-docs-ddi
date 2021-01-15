@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DecodeExecute
+ - PFND3DDDI_DECODEEXECUTE
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ DirectX VA 1.0 supported an external synchronization mechanism through a call to
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netioddk.h
 api_name:
- - PNPI_PROVIDER_DETACH_CLIENT_FN
+ - NPI_PROVIDER_DETACH_CLIENT_FN
 ---
 
 # NPI_PROVIDER_DETACH_CLIENT_FN callback function
@@ -164,3 +164,4 @@ The NMR calls a provider module's
 
 <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
    ProviderCleanupBindingContext</a>
+

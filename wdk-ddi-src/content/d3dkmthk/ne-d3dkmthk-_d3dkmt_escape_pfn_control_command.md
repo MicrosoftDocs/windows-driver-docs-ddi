@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
+ - D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
 dev_langs:
  - c++
 ---

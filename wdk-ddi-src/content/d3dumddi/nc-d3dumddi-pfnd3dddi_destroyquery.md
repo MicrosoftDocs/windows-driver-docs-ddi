@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyQuery
+ - PFND3DDDI_DESTROYQUERY
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The <b>DestroyQuery</b> function notifies the driver to destroy the query handle
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

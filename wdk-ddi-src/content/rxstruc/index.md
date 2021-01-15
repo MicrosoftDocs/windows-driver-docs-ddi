@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxstruc
  - rxstruc/rxstruc
+api_name:
+ - rxstruc
 ---
 
 # Rxstruc.h header

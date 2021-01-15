@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_SURFACE
  - DXVAHDDDI_SURFACE
 ---
 
@@ -74,3 +75,4 @@ DXVAHDDDI_SURFACE structures are used to describe surfaces in members of the <a 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd">VideoProcessBltHD</a>
+

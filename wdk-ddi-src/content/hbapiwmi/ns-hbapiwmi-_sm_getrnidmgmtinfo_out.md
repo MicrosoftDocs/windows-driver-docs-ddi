@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetRNIDMgmtInfo_OUT
+ - PSM_GetRNIDMgmtInfo_OUT
  - SM_GetRNIDMgmtInfo_OUT
 ---
 
@@ -64,3 +66,4 @@ A structure of type HBAFC3MgmtInfo that holds FC3 management information. The FC
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_GetRNIDMgmtInfo_OUTstructure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+

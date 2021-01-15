@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_AUTH_RESPONSE
+ - PWWAN_AUTH_RESPONSE
  - WWAN_AUTH_RESPONSE
 ---
 
@@ -96,3 +98,4 @@ The <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_auth_
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_sim_response">WWAN_AUTH_SIM_RESPONSE</a>
+

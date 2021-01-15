@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamMirror
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR
 product:
  - Windows
 ---
@@ -93,3 +93,4 @@ Operations are conceptually applied in the following order:
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_INITIALIZATION_DATA
+ - PHW_INITIALIZATION_DATA
  - HW_INITIALIZATION_DATA
 ---
 
@@ -120,3 +122,4 @@ Specifies the size in bytes of the DMA buffer the class driver should allocate f
 ### -field Reserved
 
 Reserved for system use. Minidrivers should ignore this member.
+

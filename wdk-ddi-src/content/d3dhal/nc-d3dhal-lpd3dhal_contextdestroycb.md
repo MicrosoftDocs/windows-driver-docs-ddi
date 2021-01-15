@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
- - D3dContextDestroy
+ - LPD3DHAL_CONTEXTDESTROYCB
 ---
 
 # LPD3DHAL_CONTEXTDESTROYCB callback function
@@ -112,3 +112,4 @@ If the driver cached the pointer to the <a href="/windows/win32/api/ddrawint/ns-
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
+

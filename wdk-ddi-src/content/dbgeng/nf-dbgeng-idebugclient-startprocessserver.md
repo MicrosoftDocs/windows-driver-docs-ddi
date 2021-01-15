@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.StartProcessServer
- - IDebugClient2.StartProcessServer
- - IDebugClient3.StartProcessServer
- - IDebugClient4.StartProcessServer
- - IDebugClient5.StartProcessServer
+ - IDebugClient::StartProcessServer
 ---
 
 # IDebugClient::StartProcessServer
@@ -133,3 +129,4 @@ For more information about process servers and remote debugging, see <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-waitforprocessserverend">WaitForProcessServerEnd</a>
+

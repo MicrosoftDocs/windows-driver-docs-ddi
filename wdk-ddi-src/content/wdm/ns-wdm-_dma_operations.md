@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DMA_OPERATIONS
+ - PDMA_OPERATIONS
  - DMA_OPERATIONS
 ---
 
@@ -316,3 +318,4 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pread_dma_counter">ReadDmaCounter</a>
+

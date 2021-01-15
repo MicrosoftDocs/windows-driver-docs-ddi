@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _KEY_CACHED_INFORMATION
+ - PKEY_CACHED_INFORMATION
  - KEY_CACHED_INFORMATION
 ---
 
@@ -116,3 +118,4 @@ The size, in bytes, of the key name.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

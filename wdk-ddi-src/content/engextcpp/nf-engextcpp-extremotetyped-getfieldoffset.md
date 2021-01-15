@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.GetFieldOffset
+ - ExtRemoteTyped::GetFieldOffset
 ---
 
 # ExtRemoteTyped::GetFieldOffset
@@ -69,3 +69,4 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 
 <b>IDebugSymbols::GetFieldOffset</b>
+

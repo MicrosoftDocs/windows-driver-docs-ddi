@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperPS.EnumFeatures
+ - IPrintCoreHelperPS::EnumFeatures
 ---
 
 # IPrintCoreHelperPS::EnumFeatures
@@ -70,3 +70,4 @@ A pointer to a variable that receives the number of feature keywords in the arra
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions">IPrintCoreHelperPS::EnumOptions</a>
+

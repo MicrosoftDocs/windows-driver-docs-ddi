@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDMCONFIGINFOVALUE
+ - LPRILDMCONFIGINFOVALUE
 ---
 
 # RILDMCONFIGINFOVALUE structure (rilapitypes.h)

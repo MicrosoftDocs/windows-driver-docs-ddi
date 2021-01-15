@@ -38,7 +38,7 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
- - pfnConfigurePortUI
+ - ConfigurePortUI
 ---
 
 # ConfigurePortUI function
@@ -130,3 +130,4 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 <a href="/previous-versions/ff564255(v=vs.85)">XcvData</a>
+

@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfregistry
  - wdfregistry/wdfregistry
+api_name:
+ - wdfregistry
 ---
 
 # Wdfregistry.h header

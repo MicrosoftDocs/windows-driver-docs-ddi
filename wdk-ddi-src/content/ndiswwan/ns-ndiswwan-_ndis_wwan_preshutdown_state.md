@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_PRESHUTDOWN_STATE
+ - PNDIS_WWAN_PRESHUTDOWN_STATE
  - NDIS_WWAN_PRESHUTDOWN_STATE
 ---
 
@@ -137,3 +139,4 @@ The modem does not support pre-shutdown notifications.
 
 
 <a href="/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>
+

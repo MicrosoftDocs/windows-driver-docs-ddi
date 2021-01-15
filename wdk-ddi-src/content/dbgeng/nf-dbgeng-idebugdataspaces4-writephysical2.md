@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.WritePhysical2
+ - IDebugDataSpaces4::WritePhysical2
 ---
 
 # IDebugDataSpaces4::WritePhysical2
@@ -160,3 +160,4 @@ The flags DEBUG_PHYSICAL_CACHED, DEBUG_PHYSICAL_UNCACHED, and DEBUG_PHYSICAL_WRI
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writephysical2">WritePhysical2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_STATE
+ - PWDF_DEVICE_STATE
  - WDF_DEVICE_STATE
 ---
 
@@ -92,3 +94,4 @@ The <b>WDF_DEVICE_STATE</b> structure is used as a parameter to <a href="/window
 To initialize a <b>WDF_DEVICE_STATE</b> structure, the driver must call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_state_init">WDF_DEVICE_STATE_INIT</a>.
 
 For more information about the members of the <b>WDF_DEVICE_STATE</b> structure, see [PNP_DEVICE_STATE](/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state).
+

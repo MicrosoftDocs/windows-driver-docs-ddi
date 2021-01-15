@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - AllocateAdapterChannelEx
+ - PALLOCATE_ADAPTER_CHANNEL_EX
 ---
 
 # PALLOCATE_ADAPTER_CHANNEL_EX callback function
@@ -231,3 +231,4 @@ If the driver does not supply an <a href="/windows-hardware/drivers/ddi/wdm/nc-w
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
+

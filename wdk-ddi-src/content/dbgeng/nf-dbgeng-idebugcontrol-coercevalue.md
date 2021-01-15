@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.CoerceValue
- - IDebugControl2.CoerceValue
- - IDebugControl3.CoerceValue
+ - IDebugControl::CoerceValue
 ---
 
 # IDebugControl::CoerceValue
@@ -108,3 +106,4 @@ This method converts a value of one type into a value of another type.  If the s
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

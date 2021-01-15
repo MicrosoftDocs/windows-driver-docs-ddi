@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_MEDIA_TYPE
+ - PSTORAGE_MEDIA_TYPE
  - STORAGE_MEDIA_TYPE
 ---
 
@@ -319,3 +321,4 @@ Indicates an STK 9840 device.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
+

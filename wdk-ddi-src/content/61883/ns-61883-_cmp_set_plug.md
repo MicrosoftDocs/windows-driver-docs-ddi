@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CMP_SET_PLUG
+ - PCMP_SET_PLUG
  - CMP_SET_PLUG
 ---
 
@@ -72,3 +74,4 @@ If a driver attempts to set the contents of a plug register it did not create, t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

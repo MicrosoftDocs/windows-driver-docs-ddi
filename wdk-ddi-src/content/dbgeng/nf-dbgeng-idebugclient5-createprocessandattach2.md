@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient5.CreateProcessAndAttach2
+ - IDebugClient5::CreateProcessAndAttach2
 ---
 
 # IDebugClient5::CreateProcessAndAttach2
@@ -184,3 +184,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-terminatecurrentprocess">TerminateCurrentProcess</a>
+

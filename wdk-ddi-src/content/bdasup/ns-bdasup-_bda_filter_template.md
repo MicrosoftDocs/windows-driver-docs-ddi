@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdasup.h
 api_name:
+ - _BDA_FILTER_TEMPLATE
+ - PBDA_FILTER_TEMPLATE
  - BDA_FILTER_TEMPLATE
 ---
 
@@ -80,3 +82,4 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a>
+

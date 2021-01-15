@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_DISASSOCIATION_PARAMETERS
+ - PDOT11_DISASSOCIATION_PARAMETERS
 product:
  - Windows 10 or later.
 ---
@@ -157,3 +158,4 @@ For more information about the disassociation operation, see
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

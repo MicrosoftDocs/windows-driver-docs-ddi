@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequestCompletionParams.GetWriteParameters
+ - IWDFIoRequestCompletionParams::GetWriteParameters
 ---
 
 # IWDFIoRequestCompletionParams::GetWriteParameters
@@ -79,3 +79,4 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+

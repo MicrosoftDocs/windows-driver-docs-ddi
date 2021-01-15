@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_LBA_RANGE
+ - PIDE_LBA_RANGE
  - IDE_LBA_RANGE
 ---
 
@@ -61,3 +63,4 @@ Contains the starting sector of the LBA range.
 ### -field SectorCount
 
 Contains the sector count of the LBA range.
+

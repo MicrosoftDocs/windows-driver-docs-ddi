@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NetFreeSharedMemory
+ - FREE_SHARED_MEMORY_HANDLER
 ---
 
 # FREE_SHARED_MEMORY_HANDLER callback function
@@ -92,3 +92,4 @@ The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-allocate_shared_memory_handler">NetAllocateSharedMemory</a>
+

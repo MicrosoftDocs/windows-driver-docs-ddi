@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ClfsLogGrowthCompleteCallback
+ - PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK
 ---
 
 # PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK callback function
@@ -96,3 +96,4 @@ When a client uses the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgm
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_DEBUGGER_TRANSITION_REQUIREMENTS
+ - PPEP_DEBUGGER_TRANSITION_REQUIREMENTS
  - PEP_DEBUGGER_TRANSITION_REQUIREMENTS
 ---
 
@@ -82,3 +84,4 @@ During a debugging session, the debugger component that runs on the target compu
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+

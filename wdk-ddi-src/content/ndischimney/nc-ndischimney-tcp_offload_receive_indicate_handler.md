@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolTcpOffloadReceiveIndicate
+ - TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER
 ---
 
 # TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback function
@@ -207,3 +207,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnPresent1
+ - PFND3DDDI_PRESENT1
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The user-mode display driver must submit all partially built render data (comman
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

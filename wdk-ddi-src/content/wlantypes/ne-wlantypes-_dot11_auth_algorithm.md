@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlantypes.h
 api_name:
+ - _DOT11_AUTH_ALGORITHM
+ - PDOT11_AUTH_ALGORITHM
  - DOT11_AUTH_ALGORITHM
 ---
 
@@ -207,3 +209,4 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
+

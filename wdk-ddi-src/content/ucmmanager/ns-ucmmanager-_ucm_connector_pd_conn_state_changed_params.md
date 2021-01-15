@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmmanager.h
 api_name:
+ - _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
+ - PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
  - UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
 ---
 
@@ -80,3 +82,4 @@ Initialize this structure by calling <a href="/windows-hardware/drivers/ddi/ucmm
 
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSMETHOD_SET
  - KSMETHOD_SET
 ---
 
@@ -78,3 +79,4 @@ Microsoft provides several system-defined kernel streaming method set GUIDs. Min
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a>
+

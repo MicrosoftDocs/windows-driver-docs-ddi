@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netrxqueue
  - netrxqueue/netrxqueue
+api_name:
+ - netrxqueue
 ---
 
 # Netrxqueue.h header

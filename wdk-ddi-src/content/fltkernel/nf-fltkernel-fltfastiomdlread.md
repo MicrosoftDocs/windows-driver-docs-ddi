@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - FsRtlMdlReadDev
+ - FltFastIoMdlRead
 ---
 
 # FltFastIoMdlRead function
@@ -104,3 +104,4 @@ The routine is similar to <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRe
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FsRtlMdlReadDev</a>
+

@@ -33,6 +33,7 @@ api_location:
  - ntddvdeo.h
 api_name:
  - _CHROMATICITY_COORDINATE
+ - CHROMATICITY_COORDINATE
 product:
  - Windows
 ---

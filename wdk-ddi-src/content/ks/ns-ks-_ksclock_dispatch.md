@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSCLOCK_DISPATCH
+ - PKSCLOCK_DISPATCH
  - KSCLOCK_DISPATCH
 ---
 
@@ -116,3 +118,4 @@ void Resolution (IN PKSPIN Pin,
 [KSRESOLUTION](./ns-ks-ksresolution.md)
 
 [KeSetTimerEx](../wdm/nf-wdm-kesettimerex.md)
+

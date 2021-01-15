@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_RX_INDICATION_LEVEL
  - WDI_RX_INDICATION_LEVEL
 ---
 
@@ -86,3 +87,4 @@ Bitwise OR of <b>WDI_RX_INDICATION_FLAG_RESOURCES</b> and <b>WDI_RX_INDICATION_F
 ### -field WDI_RX_INDICATION_PASSIVE_WITH_LOW_RESOURCES
 
 Bitwise OR of <b>WDI_RX_INDICATION_FLAG_RESOURCES</b> and <b>WDI_RX_INDICATION_PASSIVE</b>.
+

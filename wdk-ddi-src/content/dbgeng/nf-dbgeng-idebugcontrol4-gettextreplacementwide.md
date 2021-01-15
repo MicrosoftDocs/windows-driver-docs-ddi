@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetTextReplacementWide
+ - IDebugControl4::GetTextReplacementWide
 ---
 
 # IDebugControl4::GetTextReplacementWide
@@ -140,3 +140,4 @@ For an overview of aliases used by the <a href="/windows-hardware/drivers/debugg
 
 
 <a href="/windows-hardware/drivers/debugger/al--list-aliases-">al (List Aliases)</a>
+

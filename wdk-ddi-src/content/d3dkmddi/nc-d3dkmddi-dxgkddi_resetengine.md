@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiResetEngine
+ - DXGKDDI_RESETENGINE
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ For more information, see  <a href="/windows-hardware/drivers/display/tdr-change
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

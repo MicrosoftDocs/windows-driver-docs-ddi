@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _AddiSNSServer_IN
+ - PAddiSNSServer_IN
  - AddiSNSServer_IN
 ---
 
@@ -68,3 +70,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
+

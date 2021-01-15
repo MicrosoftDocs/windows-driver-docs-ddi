@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ExTimerCallback
+ - EXT_CALLBACK
 ---
 
 # EXT_CALLBACK callback function
@@ -127,3 +127,4 @@ The EXT_CALLBACK function type is defined in the Wdm.h header file. To more accu
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+

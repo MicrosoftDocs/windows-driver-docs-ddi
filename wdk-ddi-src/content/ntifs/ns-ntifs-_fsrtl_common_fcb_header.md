@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSRTL_COMMON_FCB_HEADER
  - FSRTL_COMMON_FCB_HEADER
 ---
 
@@ -261,3 +262,4 @@ If the file is used as a paging file, the FSRTL_ADVANCED_FCB_HEADER structure mu
 
 
 <a href="/previous-versions/ff547257(v=vs.85)">FsRtlSetupAdvancedHeader</a>
+

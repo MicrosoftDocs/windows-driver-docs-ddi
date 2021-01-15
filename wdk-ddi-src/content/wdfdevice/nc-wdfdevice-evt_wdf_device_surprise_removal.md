@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceSurpriseRemoval
+ - EVT_WDF_DEVICE_SURPRISE_REMOVAL
 ---
 
 # EVT_WDF_DEVICE_SURPRISE_REMOVAL callback function
@@ -63,3 +63,4 @@ To register an <i>EvtDeviceSurpriseRemoval</i> callback function, a driver must 
 The framework does not synchronize the <i>EvtDeviceSurpriseRemoval</i> callback function with other PnP and power management callback functions. For information about how the framework synchronizes the execution of a driver's event callback functions, see <a href="/windows-hardware/drivers/wdf/using-automatic-synchronization">Using Automatic Synchronization</a>. 
 
 For more information about when the framework calls this callback function, and for more information about synchronization issues, see <a href="/windows-hardware/drivers/wdf/a-user-unplugs-a-device">A User Unplugs a Device</a>.
+

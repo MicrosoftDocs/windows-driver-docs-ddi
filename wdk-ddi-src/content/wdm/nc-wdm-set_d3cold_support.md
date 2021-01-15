@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - SetD3ColdSupport
+ - SET_D3COLD_SUPPORT
 ---
 
 # SET_D3COLD_SUPPORT callback function
@@ -119,3 +119,4 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-wait-wake">IRP_MN_WAIT_WAKE</a>
+

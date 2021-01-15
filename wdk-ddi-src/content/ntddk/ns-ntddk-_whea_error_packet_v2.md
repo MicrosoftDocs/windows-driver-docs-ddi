@@ -40,6 +40,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_PACKET_V2
+ - PWHEA_ERROR_PACKET_V2
  - WHEA_ERROR_PACKET_V2
 ---
 
@@ -177,3 +179,4 @@ The WHEA_ERROR_PACKET_V2 structure describes the error data that is contained in
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_whea_raw_data_format">WHEA_RAW_DATA_FORMAT</a>
+

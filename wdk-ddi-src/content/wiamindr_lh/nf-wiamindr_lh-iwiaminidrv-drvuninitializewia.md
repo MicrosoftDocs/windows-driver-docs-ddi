@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvUnInitializeWia
+ - IWiaMiniDrv::drvUnInitializeWia
 ---
 
 # IWiaMiniDrv::drvUnInitializeWia
@@ -72,3 +72,4 @@ The WIA service calls the **IWiaMiniDrv::drvUnInitializeWia** method when the re
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvInitializeWia](./nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md)
+

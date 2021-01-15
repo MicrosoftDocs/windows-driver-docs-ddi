@@ -39,6 +39,7 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_REPORT_TYPE
  - HIDP_REPORT_TYPE
 ---
 
@@ -78,3 +79,4 @@ Indicates a feature report.
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setdata">HidP_SetData</a>
+

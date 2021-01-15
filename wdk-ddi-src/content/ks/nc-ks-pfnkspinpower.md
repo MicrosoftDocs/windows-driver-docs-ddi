@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniPinPower
+ - PFNKSPINPOWER
 ---
 
 # PFNKSPINPOWER callback function
@@ -72,3 +72,4 @@ The minidriver specifies an address for routines of this type in the <i>Sleep </
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterpowercallbacks">KsPinRegisterPowerCallbacks</a>
+

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.SetErrorValue
+ - IPortableDeviceValues::SetErrorValue
 ---
 
 # IPortableDeviceValues::SetErrorValue
@@ -93,3 +93,4 @@ If an existing value has the same key specified by the <i>key</i> parameter, it 
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-geterrorvalue">IPortableDeviceValues::GetErrorValue</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfinterrupt.h
 api_name:
- - OnInterruptDisable
+ - WUDF_INTERRUPT_DISABLE
 ---
 
 # WUDF_INTERRUPT_DISABLE callback function
@@ -122,7 +122,6 @@ HRESULT
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">IWDFDevice::CreateInterrupt</a>
@@ -134,3 +133,4 @@ HRESULT
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a>
+

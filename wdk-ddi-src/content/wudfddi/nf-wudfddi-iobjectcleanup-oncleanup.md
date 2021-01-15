@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IObjectCleanup.OnCleanup
+ - IObjectCleanup::OnCleanup
 ---
 
 # IObjectCleanup::OnCleanup
@@ -142,3 +142,4 @@ A driver can register the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudf
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-assigncontext">IWDFObject::AssignContext</a>
+

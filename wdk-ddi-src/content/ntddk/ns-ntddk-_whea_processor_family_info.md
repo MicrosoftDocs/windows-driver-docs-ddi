@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PROCESSOR_FAMILY_INFO
+ - PWHEA_PROCESSOR_FAMILY_INFO
  - WHEA_PROCESSOR_FAMILY_INFO
 ---
 
@@ -104,3 +106,4 @@ The contents of this union are obtained by executing the CPUID instruction with 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
+

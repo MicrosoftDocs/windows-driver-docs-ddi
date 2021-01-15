@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
+ - _PCSTREAMRESOURCE_DESCRIPTOR
+ - PPCSTREAMRESOURCE_DESCRIPTOR
  - PCSTREAMRESOURCE_DESCRIPTOR
 ---
 
@@ -92,3 +94,4 @@ Stream resources are any resources used by the audio driver to process audio str
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-_pcstreamresourcetype">PcStreamResourceType</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSDEVICE_DISPATCH
+ - PKSDEVICE_DISPATCH
  - KSDEVICE_DISPATCH
 ---
 
@@ -116,3 +118,4 @@ In describing a device with the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a>
+

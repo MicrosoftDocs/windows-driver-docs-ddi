@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize2.SetIoTypePreference
+ - IWDFDeviceInitialize2::SetIoTypePreference
 ---
 
 # IWDFDeviceInitialize2::SetIoTypePreference
@@ -110,7 +110,6 @@ HRESULT
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize2">IWDFDeviceInitialize2</a>
@@ -134,3 +133,4 @@ HRESULT
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotypeex">WdfDeviceInitSetIoTypeEx</a>
+

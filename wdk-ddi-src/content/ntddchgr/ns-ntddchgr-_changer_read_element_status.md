@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_READ_ELEMENT_STATUS
+ - PCHANGER_READ_ELEMENT_STATUS
  - CHANGER_READ_ELEMENT_STATUS
 ---
 
@@ -80,3 +82,4 @@ Indicates, when <b>TRUE</b>, that volume tag information should be reported in a
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+

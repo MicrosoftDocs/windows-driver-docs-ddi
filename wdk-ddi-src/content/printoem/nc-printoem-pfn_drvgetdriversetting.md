@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvGetDriverSetting
+ - PFN_DrvGetDriverSetting
 ---
 
 # PFN_DrvGetDriverSetting callback function
@@ -68,3 +68,4 @@ This function pointer type defines the type of the <b>DrvGetDriverSetting</b> me
 ### -param pdwOptionsReturned 
 
 [out, optional]
+

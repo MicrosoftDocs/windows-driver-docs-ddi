@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiprf.h
 api_name:
+ - _MSiSCSI_ConnectionStatistics
+ - PMSiSCSI_ConnectionStatistics
  - MSiSCSI_ConnectionStatistics
 ---
 
@@ -113,3 +115,4 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 
 <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a>
+

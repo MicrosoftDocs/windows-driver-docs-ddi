@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - d4drvif
  - d4drvif/d4drvif
+api_name:
+ - d4drvif
 ---
 
 # D4Drvif.h header

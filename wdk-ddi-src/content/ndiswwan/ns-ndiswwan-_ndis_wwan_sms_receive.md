@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_RECEIVE
+ - PNDIS_WWAN_SMS_RECEIVE
  - NDIS_WWAN_SMS_RECEIVE
 ---
 
@@ -121,3 +123,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+

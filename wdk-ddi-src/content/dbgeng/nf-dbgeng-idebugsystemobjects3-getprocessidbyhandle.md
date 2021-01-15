@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetProcessIdByHandle
- - IDebugSystemObjects2.GetProcessIdByHandle
- - IDebugSystemObjects3.GetProcessIdByHandle
- - IDebugSystemObjects4.GetProcessIdByHandle
+ - IDebugSystemObjects3::GetProcessIdByHandle
 ---
 
 # IDebugSystemObjects3::GetProcessIdByHandle
@@ -87,3 +84,4 @@ The method was successful.
 ## -remarks
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="/windows-hardware/drivers/">Handles</a>.
+

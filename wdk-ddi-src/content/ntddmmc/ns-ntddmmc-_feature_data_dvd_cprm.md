@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DVD_CPRM
+ - PFEATURE_DATA_DVD_CPRM
  - FEATURE_DATA_DVD_CPRM
 ---
 
@@ -76,3 +78,4 @@ This structure holds data for the feature named "DVD CPRM" by the <i>SCSI Multim
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

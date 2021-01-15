@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni3.SetBandSize
+ - IPrintOemUni3::SetBandSize
 ---
 
 # IPrintOemUni3::SetBandSize
@@ -221,3 +221,4 @@ You can disable banding operations by Unidrv by setting the <i>dwPageHeight</i> 
 If this method is defined and the printer's generic printer description (GPD) file indicates that preanalysis is disabled (the GPD file includes "*<b>PreAnalysisOptions</b>: 0"), Unidrv calls this method to calculate band size. For information about the <b>PreAnalysisOptions</b> attribute, see <a href="/windows-hardware/drivers/print/preanalysis-infrastructure">Preanalysis Infrastructure</a>.
 
 If the rendering plug-in supports <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-driverdms">IPrintOemUni::DriverDMS</a> and that method returns S_OK, <code>IPrintOemUni3::SetBandSize</code> is not called.
+

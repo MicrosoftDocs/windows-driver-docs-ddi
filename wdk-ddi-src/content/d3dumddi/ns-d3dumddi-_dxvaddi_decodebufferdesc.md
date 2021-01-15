@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_DECODEBUFFERDESC
  - DXVADDI_DECODEBUFFERDESC
 ---
 
@@ -141,3 +142,4 @@ Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Dir
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_sliceinfo">DXVA_SliceInfo</a>
+

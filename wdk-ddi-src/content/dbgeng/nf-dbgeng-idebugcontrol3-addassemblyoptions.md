@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl3.AddAssemblyOptions
+ - IDebugControl3::AddAssemblyOptions
 ---
 
 # IDebugControl3::AddAssemblyOptions
@@ -112,3 +112,4 @@ For more information about using assembly with the <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setassemblyoptions">SetAssemblyOptions</a>
+

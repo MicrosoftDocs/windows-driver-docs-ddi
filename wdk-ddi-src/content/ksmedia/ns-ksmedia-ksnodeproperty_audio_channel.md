@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSNODEPROPERTY_AUDIO_CHANNEL
  - KSNODEPROPERTY_AUDIO_CHANNEL
 ---
 
@@ -72,3 +73,4 @@ Reserved for internal use by operating system. Do not use.
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
+

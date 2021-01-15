@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DrawPrimitive2
+ - PFND3DDDI_DRAWPRIMITIVE2
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ Stream zero contains transform vertices and is the only stream that should be ac
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

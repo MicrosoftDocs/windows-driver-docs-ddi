@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFMemory.CopyToBuffer
+ - IWDFMemory::CopyToBuffer
 ---
 
 # IWDFMemory::CopyToBuffer
@@ -75,3 +75,4 @@ A pointer to the target buffer that data is copied to.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+

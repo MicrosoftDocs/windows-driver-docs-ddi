@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _OPTTYPE
+ - POPTTYPE
  - OPTTYPE
 ---
 
@@ -108,3 +110,4 @@ Reserved, must be initialized to zero.
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
+

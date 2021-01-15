@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_ACQUIREKEYEDMUTEX
  - D3DKMT_ACQUIREKEYEDMUTEX
 ---
 
@@ -74,3 +75,4 @@ If *<b>pTimeout</b> = 0, <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dk
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a>
+

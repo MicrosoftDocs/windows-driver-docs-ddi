@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CheckVideoDecoderFormat
+ - PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
 ---
 
 # PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback function

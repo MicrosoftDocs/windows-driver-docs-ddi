@@ -38,8 +38,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintJob.Status
- - IPrintJob.get_Status
+ - IPrintJob::get_Status
 ---
 
 # IPrintJob::get_Status method
@@ -60,3 +59,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintjobstatus">PrintJobStatus</a>
+

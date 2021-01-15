@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData
+ - ExtRemoteData::Clear
 ---
 
 # ExtRemoteData::Clear method
@@ -56,3 +56,4 @@ The Clear method is a member of the <b>ExtRemoteData</b> class. The <b>ExtRemote
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-read">ExtRemoteData::Read</a>
 
 [ExtRemoteData](nl-engextcpp-extremotedata.md)
+

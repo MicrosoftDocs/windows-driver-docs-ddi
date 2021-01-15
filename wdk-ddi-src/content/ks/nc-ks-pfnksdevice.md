@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniDevicePostStart
+ - PFNKSDEVICE
 ---
 
 # PFNKSDEVICE callback function
@@ -67,3 +67,4 @@ This routine is optional.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
+

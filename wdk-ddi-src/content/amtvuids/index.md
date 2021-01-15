@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - amtvuids
  - amtvuids/amtvuids
+api_name:
+ - amtvuids
 ---
 
 # Amtvuids.h header

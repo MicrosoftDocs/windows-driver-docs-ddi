@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnCalcPrivateCommandQueueSize
+ - PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023
 ---
 
 # PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 callback function

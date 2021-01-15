@@ -5,37 +5,38 @@ description: The NetOffloadIsRxChecksumUdpEnabled function determines whether a 
 tech.root: netvista
 ms.date: 10/06/2020
 keywords: ["NetOffloadIsRxChecksumUdpEnabled function"]
-f1_keywords:
- - "netadapteroffload/NetOffloadIsRxChecksumUdpEnabled"
 ms.keywords: NetOffloadIsRxChecksumUdpEnabled
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetOffloadIsRxChecksumUdpEnabled
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - NetOffloadIsRxChecksumUdpEnabled
+ - netadapteroffload/NetOffloadIsRxChecksumUdpEnabled
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetOffloadIsRxChecksumUdpEnabled
+product:
+ - Windows
 ---
 
 # NetOffloadIsRxChecksumUdpEnabled function
@@ -71,3 +72,4 @@ Client drivers typically call this function during their [*EvtNetAdapterOffloadS
 [Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md)
+

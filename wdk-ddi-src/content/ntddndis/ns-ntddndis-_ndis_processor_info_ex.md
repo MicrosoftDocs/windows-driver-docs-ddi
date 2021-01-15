@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PROCESSOR_INFO_EX
+ - PNDIS_PROCESSOR_INFO_EX
  - NDIS_PROCESSOR_INFO_EX
 ---
 
@@ -109,3 +111,4 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformationex">
    NdisGetProcessorInformationEx</a>
+

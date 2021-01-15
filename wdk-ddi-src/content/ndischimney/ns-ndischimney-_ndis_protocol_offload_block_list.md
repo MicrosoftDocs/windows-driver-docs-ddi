@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ - PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
  - NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
 ---
 
@@ -621,3 +623,4 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxReturnFrames
+ - MINIPORT_WDI_RX_RETURN_FRAMES
 ---
 
 # MINIPORT_WDI_RX_RETURN_FRAMES callback function
@@ -79,3 +79,4 @@ Pointer to the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_l
 
 
 <a href="/windows-hardware/drivers/network/wdi-rx-path">WDI RX path</a>
+

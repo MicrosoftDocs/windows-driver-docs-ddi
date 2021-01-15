@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValuesCollection.GetAt
+ - IPortableDeviceValuesCollection::GetAt
 ---
 
 # IPortableDeviceValuesCollection::GetAt
@@ -122,3 +122,4 @@ Any changes that are made to values in the retrieved interface will be made to t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection Interface</a>
+

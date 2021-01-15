@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiDeviceControl.GetMyDeviceOpenMode
+ - IStiDeviceControl::GetMyDeviceOpenMode
 ---
 
 # IStiDeviceControl::GetMyDeviceOpenMode
@@ -60,3 +60,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 ## -remarks
 
 A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as an input argument to its <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
+

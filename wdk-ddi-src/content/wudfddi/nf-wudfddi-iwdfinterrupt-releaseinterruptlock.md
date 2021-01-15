@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.ReleaseInterruptLock
+ - IWDFInterrupt::ReleaseInterruptLock
 ---
 
 # IWDFInterrupt::ReleaseInterruptLock
@@ -60,3 +60,4 @@ For more information about handling interrupts in UMDF drivers, see <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-acquireinterruptlock">IWDFInterrupt::AcquireInterruptLock</a>
+

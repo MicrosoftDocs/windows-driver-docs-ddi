@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK_INFORMATION
+ - PPEP_WORK_INFORMATION
  - PEP_WORK_INFORMATION
 ---
 
@@ -178,3 +180,4 @@ The <b>WorkInformation</b> member of the <a href="/windows-hardware/drivers/ddi/
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_work_type">PEP_WORK_TYPE</a>
+

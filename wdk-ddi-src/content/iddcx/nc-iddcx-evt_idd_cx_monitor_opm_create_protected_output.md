@@ -37,10 +37,11 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
+ - EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
 ---
 
 # EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback function
+
 
 ## -description
 
@@ -63,3 +64,4 @@ api_name:
 ## -returns
 
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+

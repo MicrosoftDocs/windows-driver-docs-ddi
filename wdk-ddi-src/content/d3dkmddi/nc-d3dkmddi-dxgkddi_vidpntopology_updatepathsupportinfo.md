@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnUpdatePathSupportInfo
+ - DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO
 product:
  - Windows
 ---
@@ -73,3 +73,4 @@ The <b>pfnUpdatePathSupportInfo</b> function returns one of the following values
 ## -remarks
 
 The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a> function calls <b>pnfUpdatePathSupportInfo</b> to report rotation, scaling, and copy protection support for each of the paths in a topology.
+

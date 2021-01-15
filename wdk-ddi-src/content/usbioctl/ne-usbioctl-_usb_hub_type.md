@@ -39,6 +39,7 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_HUB_TYPE
  - USB_HUB_TYPE
 ---
 
@@ -78,3 +79,4 @@ Indicates that the retrieved hub descriptor is defined in USB 3.0 specification.
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex">USB_HUB_INFORMATION_EX</a>
+

@@ -40,6 +40,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
  - PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
 ---
 

@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - igpupvdev
  - igpupvdev/igpupvdev
+api_name:
+ - igpupvdev
 ---
 
 # Igpupvdev.h header

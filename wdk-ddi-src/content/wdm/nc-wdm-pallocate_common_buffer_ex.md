@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - AllocateCommonBufferEx
+ - PALLOCATE_COMMON_BUFFER_EX
 ---
 
 # PALLOCATE_COMMON_BUFFER_EX callback function
@@ -127,3 +127,4 @@ For more information about DMA operations that use a common buffer, see the foll
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a>
+

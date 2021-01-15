@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbLogEtwEvent
+ - DXGKCB_LOG_ETW_EVENT
 ---
 
 # DXGKCB_LOG_ETW_EVENT callback function
@@ -101,3 +101,4 @@ DummyTrace(
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsmcrd.h
 api_name:
+ - _SCARD_IO_REQUEST
+ - PSCARD_IO_REQUEST
  - SCARD_IO_REQUEST
 ---
 
@@ -68,3 +70,4 @@ Specifies the protocol control information length.
 
 
 <a href="/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_PROVIDER_NPI
+ - PWSK_PROVIDER_NPI
  - WSK_PROVIDER_NPI
 ---
 
@@ -81,3 +83,4 @@ A pointer to a constant
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
+

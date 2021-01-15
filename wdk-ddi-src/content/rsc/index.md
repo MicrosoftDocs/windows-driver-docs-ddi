@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - rsc
  - rsc/rsc
+api_name:
+ - rsc
 ---
 
 # Rsc.h header

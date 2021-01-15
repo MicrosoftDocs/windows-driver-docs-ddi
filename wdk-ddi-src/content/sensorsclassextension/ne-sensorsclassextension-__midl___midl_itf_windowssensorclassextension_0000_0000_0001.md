@@ -39,6 +39,7 @@ api_type:
 api_location:
  - SensorsClassExtension.h
 api_name:
+ - __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001
  - SensorState
 ---
 
@@ -94,3 +95,4 @@ This enumeration also defines values used for the <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
+

@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfiotarget
  - wdfiotarget/wdfiotarget
+api_name:
+ - wdfiotarget
 ---
 
 # Wdfiotarget.h header

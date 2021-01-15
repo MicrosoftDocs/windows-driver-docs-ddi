@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFInterfaces.Interop.dll
 api_name:
- - IWDTFSimpleIOStressAction2.ContinueAsync
+ - IWDTFSimpleIOStressAction2::ContinueAsync
 ---
 
 # IWDTFSimpleIOStressAction2::ContinueAsync
@@ -54,3 +54,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_FENCE_PRESENTHISTORYTOKEN
  - D3DKMT_FENCE_PRESENTHISTORYTOKEN
 ---
 
@@ -58,3 +59,4 @@ The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-histor
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
+

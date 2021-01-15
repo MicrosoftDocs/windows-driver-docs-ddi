@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_ATTRIBUTES
 ---
 
@@ -204,3 +206,4 @@ Miniport drivers pass these structures to the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

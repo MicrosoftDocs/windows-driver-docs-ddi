@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusprop.h
 api_name:
+ - _SYNTHVOICEPRIORITY_INSTANCE
+ - PSYNTHVOICEPRIORITY_INSTANCE
  - SYNTHVOICEPRIORITY_INSTANCE
 ---
 
@@ -68,3 +70,4 @@ The <a href="/previous-versions/ff537407(v=vs.85)">KSPROPERTY_SYNTH_VOICEPRIORIT
 ## -see-also
 
 <a href="/previous-versions/ff537407(v=vs.85)">KSPROPERTY_SYNTH_VOICEPRIORITY</a>
+

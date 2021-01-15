@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - msviddrv
  - msviddrv/msviddrv
+api_name:
+ - msviddrv
 ---
 
 # Msviddrv.h header

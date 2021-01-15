@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_GET_TEXT_COMPLETIONS_OUT
+ - PDEBUG_GET_TEXT_COMPLETIONS_OUT
  - DEBUG_GET_TEXT_COMPLETIONS_OUT
 ---
 

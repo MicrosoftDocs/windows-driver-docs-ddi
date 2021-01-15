@@ -41,6 +41,8 @@ api_type:
 api_location:
  - smclib.h
 api_name:
+ - _PTS_DATA
+ - PPTS_DATA
  - PTS_DATA
 ---
 
@@ -102,3 +104,4 @@ Contains the number of stop bits to use with the inserted card.
 ## -remarks
 
 The smart card reader driver library assigns values to the members of this structure before it calls the callback function that sets the protocol. The driver library considers the characteristics of the inserted smart card, the supported clock frequencies, and supported data rates of the reader when it assigns the values.
+

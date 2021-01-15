@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_HUB_DESCRIPTOR
+ - PUSB_HUB_DESCRIPTOR
  - USB_HUB_DESCRIPTOR
 ---
 
@@ -91,3 +93,4 @@ This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub des
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information">USB_HUB_INFORMATION</a>
+

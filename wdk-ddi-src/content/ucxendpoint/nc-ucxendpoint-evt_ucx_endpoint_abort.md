@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_ENDPOINT_ABORT
+ - EVT_UCX_ENDPOINT_ABORT
 ---
 
 # EVT_UCX_ENDPOINT_ABORT callback function
@@ -84,3 +84,4 @@ Endpoint_UcxEvtEndpointAbort(
 	}
 
 ```
+

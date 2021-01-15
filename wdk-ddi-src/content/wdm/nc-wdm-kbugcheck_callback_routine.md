@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - BugCheckCallback
+ - KBUGCHECK_CALLBACK_ROUTINE
 ---
 
 # KBUGCHECK_CALLBACK_ROUTINE callback function
@@ -111,3 +111,4 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckcallback">KeDeregisterBugCheckCallback</a>
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>
+

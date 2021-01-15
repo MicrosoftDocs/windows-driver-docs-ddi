@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiQueryChildRelations
+ - DXGKDDI_QUERY_CHILD_RELATIONS
 ---
 
 # DXGKDDI_QUERY_CHILD_RELATIONS callback function
@@ -91,3 +91,4 @@ The <i>DxgkDdiQueryChildRelations</i> function should be made pageable.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_device_descriptor">DxgkDdiQueryDeviceDescriptor</a>
+

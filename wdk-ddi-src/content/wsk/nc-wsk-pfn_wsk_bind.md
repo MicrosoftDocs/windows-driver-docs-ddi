@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskBind
+ - PFN_WSK_BIND
 ---
 
 # PFN_WSK_BIND callback function
@@ -200,3 +200,4 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

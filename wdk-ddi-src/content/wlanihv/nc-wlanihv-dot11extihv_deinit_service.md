@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wlanihv.h
 api_name:
- - Dot11ExtIhvDeinitService
+ - DOT11EXTIHV_DEINIT_SERVICE
 ---
 
 # DOT11EXTIHV_DEINIT_SERVICE callback
@@ -106,3 +106,4 @@ The DLL must free any allocated resources for the DLL itself. In particular, all
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+

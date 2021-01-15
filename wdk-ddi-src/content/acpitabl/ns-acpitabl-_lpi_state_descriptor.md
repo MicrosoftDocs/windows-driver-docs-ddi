@@ -41,6 +41,8 @@ api_type:
 api_location:
  - acpitabl.h
 api_name:
+ - _LPI_STATE_DESCRIPTOR
+ - PLPI_STATE_DESCRIPTOR
  - LPI_STATE_DESCRIPTOR
 ---
 

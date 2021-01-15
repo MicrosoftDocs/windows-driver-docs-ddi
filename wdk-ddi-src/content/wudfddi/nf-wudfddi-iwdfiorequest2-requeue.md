@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.Requeue
+ - IWDFIoRequest2::Requeue
 ---
 
 # IWDFIoRequest2::Requeue
@@ -136,7 +136,6 @@ CMyQueue::OnStateChange(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-retrievenextrequest">IWDFIoQueue::RetrieveNextRequest</a>
@@ -144,3 +143,4 @@ CMyQueue::OnStateChange(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
+

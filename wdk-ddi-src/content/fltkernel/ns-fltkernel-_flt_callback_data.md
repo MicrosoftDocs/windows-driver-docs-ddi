@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_CALLBACK_DATA
+ - PFLT_CALLBACK_DATA
  - FLT_CALLBACK_DATA
 ---
 
@@ -335,3 +337,4 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+

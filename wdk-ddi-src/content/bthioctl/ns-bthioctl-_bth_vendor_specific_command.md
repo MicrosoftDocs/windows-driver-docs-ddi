@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_VENDOR_SPECIFIC_COMMAND
+ - PBTH_VENDOR_SPECIFIC_COMMAND
  - BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
@@ -123,3 +125,4 @@ If such patterns are specified, the
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+

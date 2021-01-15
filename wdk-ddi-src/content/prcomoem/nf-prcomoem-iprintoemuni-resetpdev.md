@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemUni.ResetPDEV
+ - IPrintOemUni::ResetPDEV
 ---
 
 # IPrintOemUni::ResetPDEV
@@ -108,3 +108,4 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
+

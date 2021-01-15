@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportIdleNotification
+ - MINIPORT_IDLE_NOTIFICATION
 ---
 
 # MINIPORT_IDLE_NOTIFICATION callback function
@@ -110,3 +110,4 @@ For guidelines on how to implement the *MiniportIdleNotification* handler functi
 [MiniportCancelIdleNotification](nc-ndis-miniport_cancel_idle_notification.md)
 
 [NdisMIdleNotificationComplete](nf-ndis-ndismidlenotificationcomplete.md)
+

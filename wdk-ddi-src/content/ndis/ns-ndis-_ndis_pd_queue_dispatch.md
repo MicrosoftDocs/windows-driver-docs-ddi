@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_QUEUE_DISPATCH
  - NDIS_PD_QUEUE_DISPATCH
 ---
 
@@ -78,3 +79,4 @@ A pointer to the provider's <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-
 A pointer to the provider's <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_flush_queue">PDFlushQueue</a> routine.
 
 ### -field PDPostAndDrainBufferListEx
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.QueueWorkItemForIsr
+ - IWDFInterrupt::QueueWorkItemForIsr
 ---
 
 # IWDFInterrupt::QueueWorkItemForIsr
@@ -70,3 +70,4 @@ For more information about handling interrupts in UMDF drivers, see <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_workitem">OnInterruptWorkItem</a>
+

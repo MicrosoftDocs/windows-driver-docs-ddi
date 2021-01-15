@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
+ - _SERCX_ACTIVITY
+ - PSERCX_ACTIVITY
  - SERCX_ACTIVITY
 ---
 
@@ -92,3 +94,4 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>
+

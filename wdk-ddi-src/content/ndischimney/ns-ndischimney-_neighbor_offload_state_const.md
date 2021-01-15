@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NEIGHBOR_OFFLOAD_STATE_CONST
+ - PNEIGHBOR_OFFLOAD_STATE_CONST
  - NEIGHBOR_OFFLOAD_STATE_CONST
 ---
 
@@ -118,3 +120,4 @@ For a description of how an offload target uses the
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
+

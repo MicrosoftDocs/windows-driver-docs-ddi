@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols4.GetNameByInlineContextWide
+ - IDebugSymbols4::GetNameByInlineContextWide
 ---
 
 # IDebugSymbols4::GetNameByInlineContextWide
@@ -86,3 +86,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>
+

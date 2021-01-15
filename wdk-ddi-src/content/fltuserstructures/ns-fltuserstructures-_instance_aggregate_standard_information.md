@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - PINSTANCE_AGGREGATE_STANDARD_INFORMATION
  - INSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---
 
@@ -217,3 +219,4 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 [INSTANCE_FULL_INFORMATION](./ns-fltuserstructures-_instance_full_information.md)
 
 [INSTANCE_PARTIAL_INFORMATION](./ns-fltuserstructures-_instance_partial_information.md)
+

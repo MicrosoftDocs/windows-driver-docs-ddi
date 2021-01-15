@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_TEXBLT1
  - D3DDDIARG_TEXBLT1
 ---
 
@@ -86,3 +87,4 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

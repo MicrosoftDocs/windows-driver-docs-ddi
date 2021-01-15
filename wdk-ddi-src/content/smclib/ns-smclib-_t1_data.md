@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Smclib.h
 api_name:
- - T1_DATA, *PT1_DATA
+ - _T1_DATA
+ - PT1_DATA
+ - T1_DATA
 ---
 
 # _T1_DATA structure

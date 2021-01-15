@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkControlCqInterruptModeration
+ - NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION
 ---
 
 # NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback function
@@ -162,3 +162,4 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq_dispatch">NDK_CQ_DISPATCH</a>
+

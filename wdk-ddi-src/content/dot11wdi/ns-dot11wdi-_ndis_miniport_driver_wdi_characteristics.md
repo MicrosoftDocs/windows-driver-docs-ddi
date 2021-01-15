@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
+ - PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
  - NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 ---
 
@@ -149,3 +151,4 @@ The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11w
 ### -field LeCancelIdleNotificationHandler
 
 The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_cancel_idle_notification">MiniportWdiCancelIdleNotification</a> handler function.
+

@@ -38,7 +38,6 @@ api_location:
  - dbgeng.h
 api_name:
  - IDebugControl
- - IDebugControl.GetWindbgExtensionApis32
 ---
 
 # IDebugControl interface
@@ -64,3 +63,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl</b> interface i
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

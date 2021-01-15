@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CreatePixelShader
+ - PFND3DDDI_CREATEPIXELSHADER
 ---
 
 # PFND3DDDI_CREATEPIXELSHADER callback function
@@ -81,3 +81,4 @@ For more information about programming shader assemblers, see <a href="/windows-
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

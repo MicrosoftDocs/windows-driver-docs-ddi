@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_USER
+ - PTOKEN_USER
  - TOKEN_USER
 ---
 
@@ -92,3 +94,4 @@ Unlike TOKEN_GROUPS structures, TOKEN_USER structures cannot be passed to <b>SeF
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

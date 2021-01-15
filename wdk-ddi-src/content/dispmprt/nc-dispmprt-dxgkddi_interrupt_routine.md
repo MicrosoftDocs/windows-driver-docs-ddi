@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiInterruptRoutine
+ - DXGKDDI_INTERRUPT_ROUTINE
 ---
 
 # DXGKDDI_INTERRUPT_ROUTINE callback function
@@ -100,3 +100,4 @@ The <i>DxgkDdiInterruptRoutine</i> function can call <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_synchronize_execution">DxgkCbSynchronizeExecution</a>
+

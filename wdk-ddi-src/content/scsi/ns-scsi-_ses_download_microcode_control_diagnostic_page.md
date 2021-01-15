@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ - PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
  - SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 ---
 
@@ -203,3 +205,4 @@ Specifies the length of <i>Data</i>, in bytes.
 ### -field Data
 
 Contains part of the vendor specific microcode image.
+

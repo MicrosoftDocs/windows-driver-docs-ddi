@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSPROPERTY_SPPAL
+ - PKSPROPERTY_SPPAL
  - KSPROPERTY_SPPAL
 ---
 
@@ -64,3 +66,4 @@ The KSPROPERTY_SPPAL structure is used by the <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-dvdsubpic-palette">KSPROPERTY_DVDSUBPIC_PALETTE</a>
+

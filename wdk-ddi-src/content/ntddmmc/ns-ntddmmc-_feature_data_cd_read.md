@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_CD_READ
+ - PFEATURE_DATA_CD_READ
  - FEATURE_DATA_CD_READ
 ---
 
@@ -84,3 +86,4 @@ This structure holds data for the feature named "CD Read" by the <i>MMC-3 </i>sp
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

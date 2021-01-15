@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_NMI_DESCRIPTOR
+ - PWHEA_XPF_NMI_DESCRIPTOR
  - WHEA_XPF_NMI_DESCRIPTOR
 ---
 
@@ -68,3 +70,4 @@ A WHEA_XPF_NMI_DESCRIPTOR structure is contained within the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+

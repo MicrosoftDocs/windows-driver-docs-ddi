@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwQueryQuotaInformationFile
  - NtQueryQuotaInformationFile
 ---
 
@@ -193,3 +192,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/previous-versions/ff567105(v=vs.85)">ZwSetQuotaInformationFile</a>
+

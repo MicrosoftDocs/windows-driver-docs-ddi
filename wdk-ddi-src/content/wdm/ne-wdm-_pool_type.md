@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _POOL_TYPE
  - POOL_TYPE
 ---
 
@@ -184,3 +185,4 @@ Reserved for exclusive use by the operating system.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seassignsecurityex">SeAssignSecurityEx</a>
+

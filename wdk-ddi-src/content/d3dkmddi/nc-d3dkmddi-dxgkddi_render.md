@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiRender
+ - DXGKDDI_RENDER
 product:
  - Windows
 ---
@@ -175,3 +175,4 @@ Support for the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgk
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm">DxgkDdiRenderKm</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
  - NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
 ---
 
@@ -369,3 +371,4 @@ If the <b>NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND</b> flag is  set, NDIS do
 
 
 <a href="/windows-hardware/drivers/network/oid-pnp-set-power">OID_PNP_SET_POWER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
- - IXpsRasterizationFactory2.CreateRasterizer
+ - IXpsRasterizationFactory2::CreateRasterizer
 ---
 
 # IXpsRasterizationFactory2::CreateRasterizer
@@ -153,3 +153,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory2">IXpsRasterizationFactory2</a>
+

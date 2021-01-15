@@ -33,6 +33,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_NODE_PERFDATA
+ - DXGK_NODE_PERFDATA
 product:
  - Windows
 ---

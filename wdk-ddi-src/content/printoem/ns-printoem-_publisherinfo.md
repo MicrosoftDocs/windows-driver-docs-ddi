@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PUBLISHERINFO
+ - PPUBLISHERINFO
  - PUBLISHERINFO
 ---
 
@@ -68,3 +70,4 @@ Specifies the maximum font size, in pixels, for which the Pscript5 driver will d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo">IPrintOemPS::GetInfo</a>
+

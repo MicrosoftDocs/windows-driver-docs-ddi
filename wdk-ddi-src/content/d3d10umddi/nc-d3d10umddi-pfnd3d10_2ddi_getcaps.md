@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - GetCaps
+ - PFND3D10_2DDI_GETCAPS
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pDat
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddiarg_getcaps">D3D10_2DDIARG_GETCAPS</a>
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_2ddi_adapterfuncs">D3D10_2DDI_ADAPTERFUNCS</a>
+

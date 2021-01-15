@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetNextSiblingItem
+ - IWiaDrvItem::GetNextSiblingItem
 ---
 
 # IWiaDrvItem::GetNextSiblingItem
@@ -74,3 +74,4 @@ Minidrivers obtain a pointer to the first child item in a folder by calling [IWi
 [IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md)
 
 [IWiaDrvItem::GetParentItem](./nf-wiamindr_lh-iwiadrvitem-getparentitem.md)
+

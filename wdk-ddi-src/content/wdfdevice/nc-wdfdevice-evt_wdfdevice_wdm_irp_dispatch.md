@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceWdmIrpDispatch
+ - EVT_WDFDEVICE_WDM_IRP_DISPATCH
 ---
 
 # EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function
@@ -126,3 +126,4 @@ In its <i>EvtDeviceWdmIrpDispatch</i> callback function, a driver should not set
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue">WdfDeviceWdmDispatchIrpToIoQueue</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netdma.h
 api_name:
- - ProviderAbortDma
+ - DMA_ABORT_HANDLER
 ---
 
 # DMA_ABORT_HANDLER callback function
@@ -136,3 +136,4 @@ NetDMA calls
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
+

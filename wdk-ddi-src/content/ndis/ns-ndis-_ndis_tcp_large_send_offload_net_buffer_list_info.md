@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
+ - PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
  - NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
 ---
 
@@ -218,3 +220,4 @@ For LSOV1, miniport drivers write the TCP payload size in the
 
 
 <a href="/windows-hardware/drivers/network/offloading-the-segmentation-of-large-tcp-packets">Offloading the Segmentation of Large TCP Packets</a>
+

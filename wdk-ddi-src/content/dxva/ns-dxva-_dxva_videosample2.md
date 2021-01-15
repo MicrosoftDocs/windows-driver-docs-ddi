@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoSample2
+ - LPDXVA_VideoSample2
  - DXVA_VideoSample2
 ---
 
@@ -138,3 +140,4 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

@@ -37,10 +37,11 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorTracingEnabled
+ - HW_TRACING_ENABLED
 ---
 
 # HW_TRACING_ENABLED callback function
+
 
 ## -description
 
@@ -74,3 +75,4 @@ HW_TRACING_ENABLED (
 ## -see-also
 
 [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
+

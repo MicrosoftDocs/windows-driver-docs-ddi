@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_NIC_ARRAY
+ - PNDIS_SWITCH_NIC_ARRAY
  - NDIS_SWITCH_NIC_ARRAY
 ---
 
@@ -115,3 +117,4 @@ Extensible switch extensions can access individual <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a>
+

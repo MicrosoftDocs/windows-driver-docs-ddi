@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDICB_SIGNALFLAGS
  - D3DDDICB_SIGNALFLAGS
 ---
 
@@ -104,3 +105,4 @@ A member in the union that is contained in D3DDDICB_SIGNALFLAGS that can hold on
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb">pfnSignalSynchronizationObjectCb</a>
+

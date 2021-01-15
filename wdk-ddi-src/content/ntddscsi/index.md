@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddscsi
  - ntddscsi/ntddscsi
+api_name:
+ - ntddscsi
 ---
 
 # Ntddscsi.h header

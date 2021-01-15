@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_
  - FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
 ---
 
@@ -92,3 +93,4 @@ An FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure is included as a member
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
+

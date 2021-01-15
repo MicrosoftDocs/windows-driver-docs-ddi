@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintJob.PrintedPages
- - IPrintJob.get_PrintedPages
+ - IPrintJob::get_PrintedPages
 ---
 
 # IPrintJob::get_PrintedPages
@@ -63,3 +62,4 @@ If the <b>PrintedPages</b> and <a href="/windows-hardware/drivers/ddi/printerext
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages">TotalPages</a>
+

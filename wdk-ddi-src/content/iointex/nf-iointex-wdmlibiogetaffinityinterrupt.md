@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - WdmlibIoGetAffinityInterrupt
- - IoGetAffinityInterrupt
 ---
 
 # WdmlibIoGetAffinityInterrupt function
@@ -109,3 +108,4 @@ In Windows 7, <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibio
 
 
 <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a>
+

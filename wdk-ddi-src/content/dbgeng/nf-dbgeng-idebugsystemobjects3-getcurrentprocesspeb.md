@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentProcessPeb
- - IDebugSystemObjects2.GetCurrentProcessPeb
- - IDebugSystemObjects3.GetCurrentProcessPeb
- - IDebugSystemObjects4.GetCurrentProcessPeb
+ - IDebugSystemObjects3::GetCurrentProcessPeb
 ---
 
 # IDebugSystemObjects3::GetCurrentProcessPeb
@@ -88,3 +85,4 @@ In kernel-mode debugging, the location returned is that of the PEB structure for
 <div class="alert"><b>Note</b>    In kernel mode, the current process of the target is always the single virtual process the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> created for the kernel.  However, because events may occur in different system processes, the PEB location returned by this method may change.</div>
 <div> </div>
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

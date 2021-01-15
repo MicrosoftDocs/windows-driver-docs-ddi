@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLFS_STREAM_ID_INFORMATION
+ - PCLFS_STREAM_ID_INFORMATION
  - CLFS_STREAM_ID_INFORMATION
 ---
 
@@ -64,3 +66,4 @@ A stream identifier is unique within a given CLFS log.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
+

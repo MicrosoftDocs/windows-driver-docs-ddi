@@ -40,6 +40,7 @@ api_location:
  - wdfdevice.h
  - wudfddi_types.h
 api_name:
+ - _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
  - WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 ---
 
@@ -75,3 +76,4 @@ Users control a device's idle behavior by modifying information on a <a href="/w
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+

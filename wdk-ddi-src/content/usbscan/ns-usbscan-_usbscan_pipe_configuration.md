@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _USBSCAN_PIPE_CONFIGURATION
+ - PUSBSCAN_PIPE_CONFIGURATION
  - USBSCAN_PIPE_CONFIGURATION
 ---
 
@@ -60,3 +62,4 @@ The number of transfer pipes supported for the device.
 ### -field PipeInfo
 
 Pointer to a <b>NumberOfPipes</b>-sized array of <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_information">USBSCAN_PIPE_INFORMATION</a> structures.
+

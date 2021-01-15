@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_SET_PDM_COMMAND
+ - PUCSI_SET_PDM_COMMAND
+ - UCSI_SET_PDM_COMMAND
 ---
 
 # _UCSI_SET_PDM_COMMAND structure

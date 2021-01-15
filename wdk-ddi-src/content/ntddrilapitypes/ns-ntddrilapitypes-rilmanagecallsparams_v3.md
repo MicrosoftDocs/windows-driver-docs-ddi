@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMANAGECALLSPARAMS_V3
+ - LPRILMANAGECALLSPARAMS_V3
 ---
 
 # RILMANAGECALLSPARAMS_V3 structure (ntddrilapitypes.h)

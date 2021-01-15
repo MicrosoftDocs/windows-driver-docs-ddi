@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols.AppendImagePath
- - IDebugSymbols2.AppendImagePath
- - IDebugSymbols3.AppendImagePath
+ - IDebugSymbols3::AppendImagePath
 ---
 
 # IDebugSymbols3::AppendImagePath
@@ -104,3 +102,4 @@ The executable image path can consist of several directories separated by semico
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setimagepath">SetImagePath</a>
+

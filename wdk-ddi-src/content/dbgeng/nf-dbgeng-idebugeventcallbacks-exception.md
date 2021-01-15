@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugEventCallbacks.Exception
+ - IDebugEventCallbacks::Exception
 ---
 
 # IDebugEventCallbacks::Exception
@@ -70,3 +70,4 @@ This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is se
 Because the structure that <i>Exception</i> points to might be deleted after this method returns, implementations of <b>IDebugEventCallbacks</b> should not access this structure after returning.
 
 For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

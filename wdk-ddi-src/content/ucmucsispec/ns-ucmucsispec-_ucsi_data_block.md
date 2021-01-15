@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_DATA_BLOCK
+ - PUCSI_DATA_BLOCK
+ - UCSI_DATA_BLOCK
 ---
 
 # _UCSI_DATA_BLOCK structure

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _TRISTATE
  - TRISTATE
 ---
 

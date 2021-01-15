@@ -41,6 +41,8 @@ api_type:
 api_location:
  - vhf.h
 api_name:
+ - _VHF_CONFIG
+ - PVHF_CONFIG
  - VHF_CONFIG
 ---
 
@@ -131,3 +133,4 @@ Optional. A pointer to a <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_v
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+

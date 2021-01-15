@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ReconfigureInterrupt
+ - GPIO_CLIENT_RECONFIGURE_INTERRUPT
 ---
 
 # GPIO_CLIENT_RECONFIGURE_INTERRUPT callback function
@@ -115,3 +115,4 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_reconfigure_interrupts_parameters">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
+

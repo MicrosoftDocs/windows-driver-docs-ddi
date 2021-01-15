@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemUni.DevMode
+ - IPrintOemUni::DevMode
 ---
 
 # IPrintOemUni::DevMode
@@ -105,3 +105,4 @@ The <code>IPrintOemUni::DevMode</code> method must perform the operation indicat
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
+

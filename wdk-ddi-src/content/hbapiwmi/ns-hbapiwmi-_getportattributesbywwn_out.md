@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetPortAttributesByWWN_OUT
+ - PGetPortAttributesByWWN_OUT
  - GetPortAttributesByWWN_OUT
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 
 <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_hbaportattributesresults">MSFC_HBAPortAttributesResults</a>
+

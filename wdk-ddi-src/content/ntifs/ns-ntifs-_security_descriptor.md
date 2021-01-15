@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SECURITY_DESCRIPTOR
+ - PISECURITY_DESCRIPTOR
  - SECURITY_DESCRIPTOR
 ---
 
@@ -150,3 +152,4 @@ A security descriptor includes information that specifies the following componen
 [ZwQuerySecurityObject](nf-ntifs-zwquerysecurityobject.md)
 
 [ZwSetSecurityObject](nf-ntifs-zwsetsecurityobject.md)
+

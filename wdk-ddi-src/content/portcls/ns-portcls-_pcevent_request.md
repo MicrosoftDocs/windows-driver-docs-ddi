@@ -41,6 +41,8 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - _PCEVENT_REQUEST
+ - PPCEVENT_REQUEST
  - PCEVENT_REQUEST
 ---
 
@@ -168,3 +170,4 @@ The handler can call <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-query
 
 
 <a href="/previous-versions/ff537695(v=vs.85)">PCFILTER_NODE</a>
+

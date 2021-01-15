@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetSystemErrorControl
- - IDebugControl2.GetSystemErrorControl
- - IDebugControl3.GetSystemErrorControl
+ - IDebugControl2::GetSystemErrorControl
 ---
 
 # IDebugControl2::GetSystemErrorControl
@@ -108,3 +106,4 @@ When a system error occurs, the engine calls the <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setsystemerrorcontrol">SetSystemErrorControl</a>
+

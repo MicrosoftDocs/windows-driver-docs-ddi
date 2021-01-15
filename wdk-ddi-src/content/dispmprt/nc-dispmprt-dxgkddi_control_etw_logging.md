@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiControlEtwLogging
+ - DXGKDDI_CONTROL_ETW_LOGGING
 ---
 
 # DXGKDDI_CONTROL_ETW_LOGGING callback function

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_DISPOSITION_INFORMATION_EX
+ - PFILE_DISPOSITION_INFORMATION_EX
  - FILE_DISPOSITION_INFORMATION_EX
 ---
 
@@ -116,3 +118,4 @@ A return value of STATUS_CANNOT_DELETE indicates that either the file is read-on
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a>
+

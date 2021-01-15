@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_UPDATEOVERLAY
  - D3DKMT_UPDATEOVERLAY
 ---
 
@@ -70,3 +71,4 @@ The D3DKMT_UPDATEOVERLAY structure describes parameters for modifying an overlay
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtupdateoverlay">D3DKMTUpdateOverlay</a>
+

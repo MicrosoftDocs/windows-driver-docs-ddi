@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStream.AllocateAudioBuffer
+ - IMiniportWaveRTStream::AllocateAudioBuffer
 product:
  - Windows
 ---
@@ -93,3 +93,4 @@ The audio device might require the audio buffer to begin and end on sample bound
 ## -see-also
 
 [IMiniPortWaveRTStream](nn-portcls-iminiportwavertstream.md)
+

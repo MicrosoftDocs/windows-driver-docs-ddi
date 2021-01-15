@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_AUTH_CHALLENGE
+ - PNDIS_WWAN_AUTH_CHALLENGE
  - NDIS_WWAN_AUTH_CHALLENGE
 ---
 
@@ -110,3 +112,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_chall
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a>
+

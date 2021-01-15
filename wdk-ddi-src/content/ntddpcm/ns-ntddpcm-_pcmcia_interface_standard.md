@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpcm.h
 api_name:
+ - _PCMCIA_INTERFACE_STANDARD
+ - PPCMCIA_INTERFACE_STANDARD
  - PCMCIA_INTERFACE_STANDARD
 ---
 
@@ -96,3 +98,4 @@ Pointer to the <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_
 
 
 <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a>
+

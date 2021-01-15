@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_LINKS_INFORMATION
+ - PFILE_LINKS_INFORMATION
  - FILE_LINKS_INFORMATION
 ---
 
@@ -70,3 +72,4 @@ A buffer that contains the returned <a href="/windows-hardware/drivers/ddi/ntifs
 If the member <b>EntriesReturned</b> has a value of 0, there is not enough available memory to return an entry. The error STATUS_BUFFER_OVERFLOW (0x80000005) indicates that not all available entries were returned.
 
 The member <b>Entry</b> is the first <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structure in a list of entries. Each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) + ((FileNameLength - 1 ) * <b>sizeof</b>(WCHAR)) from the previous entry when the FileNameLength member of <b>FILE_LINK_ENTRY_INFORMATION</b> > 1. Otherwise, each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) from the previous entry.
+

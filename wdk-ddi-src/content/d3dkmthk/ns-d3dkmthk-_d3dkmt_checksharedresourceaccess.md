@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CHECKSHAREDRESOURCEACCESS
  - D3DKMT_CHECKSHAREDRESOURCEACCESS
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtchecksharedresourceaccess">D3DKMTCheckSharedResourceAccess</a>
+

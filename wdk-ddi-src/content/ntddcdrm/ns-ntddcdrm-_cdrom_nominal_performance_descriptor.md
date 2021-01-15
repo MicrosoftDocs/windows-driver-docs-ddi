@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
+ - PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
  - CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 ---
 
@@ -78,3 +80,4 @@ The EndPerformance field (End Performance) contains the nominal logical unit per
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

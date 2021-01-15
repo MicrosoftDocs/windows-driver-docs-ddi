@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _IO_BLOCK_EX
+ - PIO_BLOCK_EX
  - IO_BLOCK_EX
 ---
 
@@ -80,3 +82,4 @@ Used as the <b>bmRequestType</b> field of a USB Device Request.
 ### -field fTransferDirectionIn
 
 <b>TRUE</b> for transfers from device to host; <b>FALSE</b> for transfers from host to device.
+

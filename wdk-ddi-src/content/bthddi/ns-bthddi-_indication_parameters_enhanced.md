@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bthddi.h
 api_name:
+ - _INDICATION_PARAMETERS_ENHANCED
+ - PINDICATION_PARAMETERS_ENHANCED
  - INDICATION_PARAMETERS_ENHANCED
 ---
 
@@ -184,3 +186,4 @@ The number of packets to be processed over the L2CAP connection.
 ### -field Parameters.Reserved
 
 Reserved member. Do not use.
+

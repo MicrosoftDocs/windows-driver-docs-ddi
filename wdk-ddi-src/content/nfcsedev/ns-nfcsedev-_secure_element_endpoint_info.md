@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_ENDPOINT_INFO
+ - PSECURE_ELEMENT_ENDPOINT_INFO
  - SECURE_ELEMENT_ENDPOINT_INFO
 ---
 
@@ -60,3 +62,4 @@ This is a unique identifier for the secure element.
 ### -field eSecureElementType
 
 Type of secure element endpoint (NFCEE).
+

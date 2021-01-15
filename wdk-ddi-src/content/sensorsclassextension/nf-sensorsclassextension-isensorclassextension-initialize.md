@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - Initialize
+ - ISensorClassExtension::Initialize
 ---
 
 # ISensorClassExtension::Initialize
@@ -81,3 +81,4 @@ Because the class extension calls your driver during initialization, this method
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
+

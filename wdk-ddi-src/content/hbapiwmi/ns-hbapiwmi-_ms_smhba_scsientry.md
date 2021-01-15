@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_SCSIENTRY
+ - PMS_SMHBA_SCSIENTRY
  - MS_SMHBA_SCSIENTRY
 ---
 

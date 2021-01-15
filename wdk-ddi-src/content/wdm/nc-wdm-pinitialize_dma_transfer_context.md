@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - InitializeDmaTransferContext
+ - PINITIALIZE_DMA_TRANSFER_CONTEXT
 ---
 
 # PINITIALIZE_DMA_TRANSFER_CONTEXT callback function
@@ -116,3 +116,4 @@ The DMA transfer context that is supplied to <b>AllocateAdapterChannelEx</b>, <b
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

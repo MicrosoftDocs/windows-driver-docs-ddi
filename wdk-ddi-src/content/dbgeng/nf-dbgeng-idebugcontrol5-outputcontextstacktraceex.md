@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl5.OutputContextStackTraceEx
+ - IDebugControl5::OutputContextStackTraceEx
 ---
 
 # IDebugControl5::OutputContextStackTraceEx
@@ -226,3 +226,4 @@ The method was successful.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
+

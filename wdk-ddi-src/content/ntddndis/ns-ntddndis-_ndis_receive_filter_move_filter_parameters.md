@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
+ - PNDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
  - NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
 ---
 
@@ -110,3 +112,4 @@ This structure is used in OID set requests of <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-move-filter">OID_RECEIVE_FILTER_MOVE_FILTER</a>
+

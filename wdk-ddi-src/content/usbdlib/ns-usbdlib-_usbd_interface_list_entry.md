@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbdlib.h
 api_name:
+ - _USBD_INTERFACE_LIST_ENTRY
+ - PUSBD_INTERFACE_LIST_ENTRY
  - USBD_INTERFACE_LIST_ENTRY
 ---
 
@@ -72,3 +74,4 @@ This structure is used by USB clients with the routine <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createconfigurationrequestex">USBD_CreateConfigurationRequestEx</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiSetBrightnessState
+ - DXGK_BRIGHTNESS_SET_STATE
 ---
 
 # DXGK_BRIGHTNESS_SET_STATE callback function
@@ -78,3 +78,4 @@ This function should be made pageable.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set">DxgkDdiSetBrightness</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient6.SetEventContextCallbacks
+ - IDebugClient6::SetEventContextCallbacks
 ---
 
 # IDebugClient6::SetEventContextCallbacks
@@ -67,3 +67,4 @@ This event interface replaces the use of <a href="/windows-hardware/drivers/ddi/
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>
+

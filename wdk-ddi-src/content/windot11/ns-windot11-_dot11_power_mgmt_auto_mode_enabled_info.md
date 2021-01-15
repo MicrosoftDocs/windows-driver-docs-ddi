@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
+ - PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
  - DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
 product:
  - Windows 10 or later.
@@ -94,3 +96,4 @@ typedef struct _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO {
 ## -remarks
 
 When Windows sets the device to auto power saving mode, devices must remain in this mode until Windows issues another request with <b>bEnabled</b> set to FALSE. In auto power saving mode, Windows may issue a <a href="/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a><i>set</i> request that hardware can use as a hint to adjust its power management.
+

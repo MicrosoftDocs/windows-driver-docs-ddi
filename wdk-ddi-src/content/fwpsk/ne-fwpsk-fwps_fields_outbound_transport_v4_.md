@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_OUTBOUND_TRANSPORT_V4_
  - FWPS_FIELDS_OUTBOUND_TRANSPORT_V4
 ---
 
@@ -176,3 +177,4 @@ The ICMP code field, as specified in RFC 792.
 
 
 <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+

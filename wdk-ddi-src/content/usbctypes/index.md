@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - usbctypes
  - usbctypes/usbctypes
+api_name:
+ - usbctypes
 ---
 
 # Usbctypes.h header

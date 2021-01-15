@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _GET_LENGTH_INFORMATION
+ - PGET_LENGTH_INFORMATION
  - GET_LENGTH_INFORMATION
 ---
 
@@ -60,3 +62,4 @@ Contains the length, in bytes, of a disk, partition, or volume.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>
+

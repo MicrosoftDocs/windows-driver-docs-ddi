@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NetFreeMdl
+ - NET_BUFFER_FREE_MDL_HANDLER
 ---
 
 # NET_BUFFER_FREE_MDL_HANDLER callback function
@@ -83,3 +83,4 @@ NDIS calls
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
+

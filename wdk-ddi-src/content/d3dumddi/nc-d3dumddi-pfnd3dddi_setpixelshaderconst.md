@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetPixelShaderConst
+ - PFND3DDDI_SETPIXELSHADERCONST
 ---
 
 # PFND3DDDI_SETPIXELSHADERCONST callback function
@@ -77,3 +77,4 @@ A pointer to a buffer that contains 4-float vectors to copy.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

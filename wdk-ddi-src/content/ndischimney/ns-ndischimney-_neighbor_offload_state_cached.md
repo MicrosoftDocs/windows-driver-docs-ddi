@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NEIGHBOR_OFFLOAD_STATE_CACHED
+ - PNEIGHBOR_OFFLOAD_STATE_CACHED
  - NEIGHBOR_OFFLOAD_STATE_CACHED
 ---
 
@@ -122,3 +124,4 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_CACHED structure is a
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
+

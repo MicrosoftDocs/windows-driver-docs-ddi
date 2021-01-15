@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _EXCLUSIVE_ACCESS_REQUEST_TYPE
+ - PEXCLUSIVE_ACCESS_REQUEST_TYPE
  - EXCLUSIVE_ACCESS_REQUEST_TYPE
 ---
 
@@ -72,3 +74,4 @@ The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used with the <a href="/windows
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+

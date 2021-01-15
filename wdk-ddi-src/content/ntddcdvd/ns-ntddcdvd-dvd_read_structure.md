@@ -40,6 +40,7 @@ api_location:
  - ntddcdvd.h
 api_name:
  - DVD_READ_STRUCTURE
+ - PDVD_READ_STRUCTURE
 ---
 
 # DVD_READ_STRUCTURE structure
@@ -78,3 +79,4 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

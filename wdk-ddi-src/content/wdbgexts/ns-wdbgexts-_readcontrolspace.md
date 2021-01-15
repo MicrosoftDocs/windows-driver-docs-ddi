@@ -41,7 +41,9 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - ReadControlSpace
+ - _READCONTROLSPACE
+ - PREADCONTROLSPACE
+ - READCONTROLSPACE
 ---
 
 # _READCONTROLSPACE structure
@@ -58,3 +60,4 @@ The <b>ReadControlSpace</b> function reads the processor-specific control space 
 If you are writing 64-bit code, you should use <a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace64">ReadControlSpace64</a> instead. See <a href="/windows-hardware/drivers/debugger/32-bit-pointers-and-64-bit-pointers">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
+

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlantypes.h
 api_name:
+ - _DOT11_BSS_TYPE
+ - PDOT11_BSS_TYPE
  - DOT11_BSS_TYPE
 ---
 
@@ -108,3 +110,4 @@ The
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
+

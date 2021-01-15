@@ -12,6 +12,8 @@ tech.root: devinst
 f1_keywords:
  - avc
  - avc/avc
+api_name:
+ - avc
 ---
 
 # Avc.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKSCAMERA_METADATA_ITEMHEADER
+ - PKSCAMERA_METADATA_ITEMHEADER
  - KSCAMERA_METADATA_ITEMHEADER
 ---
 
@@ -64,3 +66,4 @@ Set to <b>sizeof(KSCAMERA_METADATA_ITEMHEADER)</b> + the size of the metadata pa
 ## -remarks
 
 This structure along with the metadata payload that follows must be 8-byte aligned.
+

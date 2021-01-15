@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_DEVICE_TRANSPORTS
  - WPD_DEVICE_TRANSPORTS
 ---
 

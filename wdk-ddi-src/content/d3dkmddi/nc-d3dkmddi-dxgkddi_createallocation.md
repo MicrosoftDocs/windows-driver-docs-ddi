@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCreateAllocation
+ - DXGKDDI_CREATEALLOCATION
 product:
  - Windows
 ---
@@ -117,3 +117,4 @@ Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the dis
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
+

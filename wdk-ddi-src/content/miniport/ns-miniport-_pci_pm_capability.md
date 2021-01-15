@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_PM_CAPABILITY
+ - PPCI_PM_CAPABILITY
  - PCI_PM_CAPABILITY
 ---
 
@@ -133,3 +135,4 @@ typedef struct _PCI_PM_CAPABILITY {
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse">PCI_PMCSR_BSE</a>
+

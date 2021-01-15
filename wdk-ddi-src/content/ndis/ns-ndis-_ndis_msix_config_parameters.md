@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MSIX_CONFIG_PARAMETERS
+ - PNDIS_MSIX_CONFIG_PARAMETERS
  - NDIS_MSIX_CONFIG_PARAMETERS
 ---
 
@@ -101,3 +103,4 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismconfigmsixtableentry">NdisMConfigMSIXTableEntry</a>
+

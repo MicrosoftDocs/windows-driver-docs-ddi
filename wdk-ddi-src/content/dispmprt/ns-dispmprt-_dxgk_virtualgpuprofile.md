@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VIRTUALGPUPROFILE
+ - PDXGK_VIRTUALGPUPROFILE
+ - DXGK_VIRTUALGPUPROFILE
 product:
  - Windows
 dev_langs:

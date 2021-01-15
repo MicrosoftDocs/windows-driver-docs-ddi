@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
+ - PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
  - UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
 ---
 
@@ -88,3 +90,4 @@ Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks">UcxDefaultEndpointInitSetEventCallbacks</a>
+

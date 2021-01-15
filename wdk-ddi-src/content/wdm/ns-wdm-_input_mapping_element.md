@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _INPUT_MAPPING_ELEMENT
+ - PINPUT_MAPPING_ELEMENT
+ - INPUT_MAPPING_ELEMENT
 ---
 
 # _INPUT_MAPPING_ELEMENT structure

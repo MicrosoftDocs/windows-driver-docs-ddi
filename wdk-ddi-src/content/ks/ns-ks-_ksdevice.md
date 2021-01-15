@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSDEVICE
+ - PKSDEVICE
  - KSDEVICE
 ---
 
@@ -122,3 +124,4 @@ As mentioned above, <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevicefordeviceobject">KsGetDeviceForDeviceObject</a>
+

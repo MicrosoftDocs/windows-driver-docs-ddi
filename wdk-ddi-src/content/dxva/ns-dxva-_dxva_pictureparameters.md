@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_PictureParameters
+ - LPDXVA_PictureParameters
  - DXVA_PictureParameters
 ---
 
@@ -295,3 +297,4 @@ Certain members of this structure are constrained to specific values by the conf
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_mbctrl_p_offhostidct_1">DXVA_MBctrl_P_OffHostIDCT_1</a>
+

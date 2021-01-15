@@ -39,7 +39,8 @@ api_type:
 api_location:
  - wudfddi_types.h
 api_name:
- - WDF_CALLBACK_CONSTRAINT
+ - _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+ - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---
 
 # _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration (wudfddi_types.h)

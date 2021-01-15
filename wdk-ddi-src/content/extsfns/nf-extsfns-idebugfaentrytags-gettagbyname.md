@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFAEntryTags.GetTagByName
+ - IDebugFAEntryTags::GetTagByName
 ---
 
 # IDebugFAEntryTags::GetTagByName
@@ -100,3 +100,4 @@ If you call this method from an analysis extension plug-in, and you set <i>Plugi
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsTopology.CreateNodeInstance
+ - IKsTopology::CreateNodeInstance
 ---
 
 # IKsTopology::CreateNodeInstance
@@ -94,3 +94,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+

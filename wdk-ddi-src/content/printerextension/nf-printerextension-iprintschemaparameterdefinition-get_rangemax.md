@@ -37,11 +37,11 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaParameterDefinition.RangeMax
- - IPrintSchemaParameterDefinition.get_RangeMax
+ - IPrintSchemaParameterDefinition::get_RangeMax
 ---
 
 # IPrintSchemaParameterDefinition::get_RangeMax
+
 
 ## -description
 
@@ -60,3 +60,4 @@ For the **PrintSchemaParameterDataType_NumericString** and **PrintSchemaParamete
 ## -see-also
 
 [IPrintSchemaParameterDefinition](nn-printerextension-iprintschemaparameterdefinition.md)
+

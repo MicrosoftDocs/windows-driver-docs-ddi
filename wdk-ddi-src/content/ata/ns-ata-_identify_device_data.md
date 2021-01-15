@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ata.h
 api_name:
+ - _IDENTIFY_DEVICE_DATA
+ - PIDENTIFY_DEVICE_DATA
  - IDENTIFY_DEVICE_DATA
 ---
 
@@ -1058,3 +1060,4 @@ Reserved.
 #### - ReservedWords76
 
 Reserved.
+

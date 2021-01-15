@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SIM_CLASS
+ - PWWAN_SIM_CLASS
  - WWAN_SIM_CLASS
 ---
 
@@ -78,3 +80,4 @@ The total number of supported SIM classes.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
+

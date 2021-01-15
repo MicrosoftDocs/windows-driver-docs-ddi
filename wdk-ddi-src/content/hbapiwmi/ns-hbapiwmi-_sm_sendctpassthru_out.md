@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendCTPassThru_OUT
+ - PSM_SendCTPassThru_OUT
  - SM_SendCTPassThru_OUT
 ---
 
@@ -72,3 +74,4 @@ The results of the common transport command.
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_SendCTPassThru_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_OVERLAYINFO
  - DXGK_OVERLAYINFO
 ---
 
@@ -98,3 +99,4 @@ The DXGK_OVERLAYINFO structure describes parameters that are required to create 
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PO_FX_PERF_STATE_CHANGE
+ - PPO_FX_PERF_STATE_CHANGE
  - PO_FX_PERF_STATE_CHANGE
 ---
 
@@ -80,3 +82,4 @@ The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> p
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxissuecomponentperfstatechangemultiple">PoFxIssueComponentPerfStateChangeMultiple</a>
+

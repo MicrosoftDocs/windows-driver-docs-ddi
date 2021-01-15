@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkGetLocalAddress
+ - NDK_FN_GET_LOCAL_ADDRESS
 ---
 
 # NDK_FN_GET_LOCAL_ADDRESS callback function
@@ -118,3 +118,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a>
+

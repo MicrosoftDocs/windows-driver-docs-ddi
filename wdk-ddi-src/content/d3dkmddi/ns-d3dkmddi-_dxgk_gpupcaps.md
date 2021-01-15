@@ -36,6 +36,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_GPUPCAPS
+ - DXGK_GPUPCAPS
 product:
  - Windows
 ---

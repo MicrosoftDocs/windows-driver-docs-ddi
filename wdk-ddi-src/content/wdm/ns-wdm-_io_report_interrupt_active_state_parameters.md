@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+ - PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
  - IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
 ---
 
@@ -108,3 +110,4 @@ If the <i>Parameters-</i>><b>Version</b> value obtained from <b>IoConnectInterru
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreportinterruptinactive">IoReportInterruptInactive</a>
+

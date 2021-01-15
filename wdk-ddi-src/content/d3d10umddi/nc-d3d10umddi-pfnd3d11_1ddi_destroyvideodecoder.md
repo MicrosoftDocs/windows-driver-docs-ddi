@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnDestroyVideoDecoder
+ - PFND3D11_1DDI_DESTROYVIDEODECODER
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEODECODER callback function
@@ -64,3 +64,4 @@ A handle to the driver's private data for the video decoder object. This handle 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
+

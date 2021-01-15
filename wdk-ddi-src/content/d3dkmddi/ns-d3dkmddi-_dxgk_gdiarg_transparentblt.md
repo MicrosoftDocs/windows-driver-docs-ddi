@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GDIARG_TRANSPARENTBLT
  - DXGK_GDIARG_TRANSPARENTBLT
 ---
 
@@ -155,3 +156,4 @@ int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

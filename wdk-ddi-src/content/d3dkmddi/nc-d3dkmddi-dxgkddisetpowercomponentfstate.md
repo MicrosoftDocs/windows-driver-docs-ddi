@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiSetPowerComponentFState
+ - DXGKDDISETPOWERCOMPONENTFSTATE
 product:
  - Windows
 ---
@@ -104,3 +104,4 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

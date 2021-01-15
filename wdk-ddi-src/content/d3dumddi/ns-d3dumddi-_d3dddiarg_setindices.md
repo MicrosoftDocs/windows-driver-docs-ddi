@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETINDICES
  - D3DDDIARG_SETINDICES
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_SETINDICES structure describes parameters for setting the current 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsourceum">SetStreamSourceUM</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_CD_MASTERING
+ - PFEATURE_DATA_CD_MASTERING
  - FEATURE_DATA_CD_MASTERING
 ---
 
@@ -104,3 +106,4 @@ This structure holds data for the feature named "CD Mastering" by the <i>SCSI Mu
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _GETINFO_STDVAR
+ - PGETINFO_STDVAR
  - GETINFO_STDVAR
 ---
 
@@ -238,3 +240,4 @@ For more information about <a href="/windows-hardware/drivers/print/standard-var
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

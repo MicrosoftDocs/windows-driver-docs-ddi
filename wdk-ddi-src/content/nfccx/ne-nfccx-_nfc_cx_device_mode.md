@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_DEVICE_MODE
+ - PNFC_CX_DEVICE_MODE
  - NFC_CX_DEVICE_MODE
 ---
 
@@ -72,3 +74,4 @@ Enable RAW mode.
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

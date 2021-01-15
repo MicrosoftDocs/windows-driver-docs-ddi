@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_OFFLOAD
+ - PNDIS_OFFLOAD
  - NDIS_OFFLOAD
 ---
 
@@ -246,3 +248,4 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 <a href="/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
 
 [UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
+

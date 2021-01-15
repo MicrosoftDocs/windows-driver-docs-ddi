@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
+ - PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
  - NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
 ---
 
@@ -158,3 +160,4 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-update_offload_complete_handler">
    ProtocolUpdateOffloadComplete</a>
+

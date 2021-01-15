@@ -37,7 +37,7 @@ api_type:
 api_location:
  - parallel.h
 api_name:
- - (*PPARALLEL_SET_CHIP_MODE)
+ - PPARALLEL_SET_CHIP_MODE
 ---
 
 # PPARALLEL_SET_CHIP_MODE callback
@@ -139,3 +139,4 @@ For more information, see <a href="/previous-versions/ff544801(v=vs.85)">Setting
 
 
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
+

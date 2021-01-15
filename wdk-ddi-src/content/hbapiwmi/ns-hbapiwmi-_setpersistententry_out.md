@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SetPersistentEntry_OUT
+ - PSetPersistentEntry_OUT
  - SetPersistentEntry_OUT
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the SetPersistentEntry_OUT structu
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/setpersistententry">SetPersistentEntry</a>
+

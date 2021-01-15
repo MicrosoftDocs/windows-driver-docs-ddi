@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidsdi.h
 api_name:
+ - _HIDD_ATTRIBUTES
+ - PHIDD_ATTRIBUTES
  - HIDD_ATTRIBUTES
 ---
 
@@ -78,3 +80,4 @@ Before using a HIDD_ATTRIBUTES structure with <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>
+

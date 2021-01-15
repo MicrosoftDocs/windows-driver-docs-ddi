@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient5.GetNumberOutputCallbacks
+ - IDebugClient5::GetNumberOutputCallbacks
 ---
 
 # IDebugClient5::GetNumberOutputCallbacks
@@ -105,3 +105,4 @@ For more information about callbacks, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setoutputcallbacks">SetOutputCallbacks</a>
+

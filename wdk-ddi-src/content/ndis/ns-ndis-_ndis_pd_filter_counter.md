@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_FILTER_COUNTER
  - NDIS_PD_FILTER_COUNTER
 ---
 

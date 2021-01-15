@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_EVENT_ASSOCIATION_ENUM
  - STOR_EVENT_ASSOCIATION_ENUM
 ---
 

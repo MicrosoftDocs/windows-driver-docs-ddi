@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _PCI_EXPRESS_ROOT_STATUS_REGISTER
+ - PPCI_EXPRESS_ROOT_STATUS_REGISTER
  - PCI_EXPRESS_ROOT_STATUS_REGISTER
 ---
 
@@ -106,3 +108,4 @@ A PCI_EXPRESS_ROOT_STATUS_REGISTER structure is contained in the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_pme_requestor_id">PCI_EXPRESS_PME_REQUESTOR_ID</a>
+

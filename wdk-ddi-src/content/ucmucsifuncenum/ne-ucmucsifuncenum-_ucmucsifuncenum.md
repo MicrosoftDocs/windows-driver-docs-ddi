@@ -31,6 +31,7 @@ api_location:
  - ucmucsifuncenum.h
 api_name:
  - _UCMUCSIFUNCENUM
+ - UCMUCSIFUNCENUM
 ---
 
 # _UCMUCSIFUNCENUM enumeration

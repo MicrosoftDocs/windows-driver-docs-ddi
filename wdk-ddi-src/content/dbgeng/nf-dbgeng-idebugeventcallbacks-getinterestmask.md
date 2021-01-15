@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugEventCallbacks.GetInterestMask
+ - IDebugEventCallbacks::GetInterestMask
 ---
 
 # IDebugEventCallbacks::GetInterestMask
@@ -61,3 +61,4 @@ The return value S_OK indicates the method was successful.  All other return val
 ## -remarks
 
 For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

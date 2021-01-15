@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateCq
+ - NDK_FN_CREATE_CQ
 ---
 
 # NDK_FN_CREATE_CQ callback function
@@ -197,3 +197,4 @@ The <i>NdkCreateCq</i> function creates an NDK completion queue (CQ) object. If 
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>
+

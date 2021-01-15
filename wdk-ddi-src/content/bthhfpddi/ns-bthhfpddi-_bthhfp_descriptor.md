@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bthhfpddi.h
 api_name:
+ - _BTHHFP_DESCRIPTOR
+ - PBTHHFP_DESCRIPTOR
  - BTHHFP_DESCRIPTOR
 ---
 
@@ -120,3 +122,4 @@ For information about the IOCTLs that work with this structure, see <a href="/wi
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-jack-containerid">KSPROPERTY_JACK_CONTAINERID</a>
+

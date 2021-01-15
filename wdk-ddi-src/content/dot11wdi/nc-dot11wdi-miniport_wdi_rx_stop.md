@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxStop
+ - MINIPORT_WDI_RX_STOP
 ---
 
 # MINIPORT_WDI_RX_STOP callback function
@@ -88,3 +88,4 @@ Status from the IHV miniport. A success status indicates that the operation comp
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

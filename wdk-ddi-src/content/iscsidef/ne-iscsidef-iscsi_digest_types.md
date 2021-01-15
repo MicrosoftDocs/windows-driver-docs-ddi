@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - PISCSI_DIGEST_TYPES
  - ISCSI_DIGEST_TYPES
 ---
 

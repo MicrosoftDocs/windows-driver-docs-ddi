@@ -35,7 +35,7 @@ api_type:
 api_location:
  - UcmUcsiCxStub.lib
 api_name:
- - UcmUcsiDeviceInitialize
+ - UcmUcsiDeviceInitInitialize
 ---
 
 # UcmUcsiDeviceInitInitialize function
@@ -60,3 +60,4 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropri
 The client driver must call this function after calling [**WdfDeviceInitSetPnpPowerEventCallbacks**](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md). This function initializes the UCSI extension (UcmUcsiCx) with the framework **WDFDEVICE_INIT** structure that contains pointers to PnP and power callback functions implemented by the client driver.
 
 ## -see-also
+

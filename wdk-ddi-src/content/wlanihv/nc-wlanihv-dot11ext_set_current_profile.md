@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetCurrentProfile
+ - DOT11EXT_SET_CURRENT_PROFILE
 ---
 
 # DOT11EXT_SET_CURRENT_PROFILE callback
@@ -155,3 +155,4 @@ The IHV Extensions DLL must not call
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
    DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _INSTANCE_PARTIAL_INFORMATION
+ - PINSTANCE_PARTIAL_INFORMATION
  - INSTANCE_PARTIAL_INFORMATION
 ---
 
@@ -120,3 +122,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_full_information">INSTANCE_FULL_INFORMATION</a>
+

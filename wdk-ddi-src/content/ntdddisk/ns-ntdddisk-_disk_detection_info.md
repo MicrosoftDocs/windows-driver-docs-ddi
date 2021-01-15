@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_DETECTION_INFO
+ - PDISK_DETECTION_INFO
  - DISK_DETECTION_INFO
 ---
 
@@ -117,3 +119,4 @@ Contains a <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_DOMAIN_INFO
+ - PPEP_PPM_QUERY_DOMAIN_INFO
  - PEP_PPM_QUERY_DOMAIN_INFO
 ---
 
@@ -93,3 +95,4 @@ On output, this value indicates the worst case overhead (PEP code execution time
 ## -see-also
 
 [Processor power management (PPM) notifications](/windows-hardware/drivers/kernel/ppm-notifications)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClRegisterSapComplete
+ - PROTOCOL_CL_REGISTER_SAP_COMPLETE
 ---
 
 # PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function
@@ -242,3 +242,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
+

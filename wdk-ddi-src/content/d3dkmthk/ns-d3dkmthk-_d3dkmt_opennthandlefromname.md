@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OPENNTHANDLEFROMNAME
  - D3DKMT_OPENNTHANDLEFROMNAME
 ---
 
@@ -62,3 +63,4 @@ Describes information that is required to open an NT handle to the process from 
 ### -field hNtHandle
 
 [out] An NT handle to the process.
+

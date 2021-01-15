@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _PCI_EXPRESS_LINK_STATUS_REGISTER
+ - PPCI_EXPRESS_LINK_STATUS_REGISTER
  - PCI_EXPRESS_LINK_STATUS_REGISTER
 ---
 
@@ -180,3 +182,4 @@ A PCI_EXPRESS_LINK_STATUS_REGISTER structure is contained in the <a href="/windo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced2.GetSystemObjectInformation
- - IDebugAdvanced3.GetSystemObjectInformation
+ - IDebugAdvanced3::GetSystemObjectInformation
 ---
 
 # IDebugAdvanced3::GetSystemObjectInformation
@@ -186,3 +185,4 @@ The method was successful. However, the information would not fit in the buffer 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>
+

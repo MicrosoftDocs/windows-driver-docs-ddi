@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice2.RegisterRemoteInterfaceNotification
+ - IWDFDevice2::RegisterRemoteInterfaceNotification
 ---
 
 # IWDFDevice2::RegisterRemoteInterfaceNotification
@@ -114,7 +114,6 @@ CMyDriver::OnDeviceAdd(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
@@ -122,3 +121,4 @@ CMyDriver::OnDeviceAdd(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
+

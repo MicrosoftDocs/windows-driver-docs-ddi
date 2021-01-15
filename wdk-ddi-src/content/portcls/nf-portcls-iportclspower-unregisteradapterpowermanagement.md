@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortClsPower.UnregisterAdapterPowerManagement
+ - IPortClsPower::UnregisterAdapterPowerManagement
 ---
 
 # IPortClsPower::UnregisterAdapterPowerManagement
@@ -73,3 +73,4 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspower-registeradapterpowermanagement">IPortClsPower::RegisterAdapterPowerManagement</a>
+

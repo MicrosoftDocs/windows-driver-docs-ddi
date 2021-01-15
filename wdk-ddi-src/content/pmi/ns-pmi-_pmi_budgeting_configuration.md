@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_BUDGETING_CONFIGURATION
+ - PPMI_BUDGETING_CONFIGURATION
  - PMI_BUDGETING_CONFIGURATION
 ---
 
@@ -88,3 +90,4 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
+

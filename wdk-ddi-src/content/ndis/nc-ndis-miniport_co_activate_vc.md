@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportCoActivateVc
+ - MINIPORT_CO_ACTIVATE_VC
 ---
 
 # MINIPORT_CO_ACTIVATE_VC callback function
@@ -193,3 +193,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcoactivatevccomplete">NdisMCoActivateVcComplete</a>
+

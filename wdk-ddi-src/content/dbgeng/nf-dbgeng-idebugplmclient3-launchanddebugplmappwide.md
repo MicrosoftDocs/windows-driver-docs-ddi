@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugPlmClient3.LaunchAndDebugPlmAppWide
+ - IDebugPlmClient3::LaunchAndDebugPlmAppWide
 ---
 
 # IDebugPlmClient3::LaunchAndDebugPlmAppWide
@@ -78,3 +78,4 @@ If a debugger session is not already started, this method starts one.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient3">IDebugPlmClient3</a>
+

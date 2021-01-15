@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFAEntryTags.SetProperties
+ - IDebugFAEntryTags::SetProperties
 ---
 
 # IDebugFAEntryTags::SetProperties
@@ -92,3 +92,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise it returns an error c
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

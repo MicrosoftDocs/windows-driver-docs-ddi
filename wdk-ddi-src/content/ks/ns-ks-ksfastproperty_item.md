@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSFASTPROPERTY_ITEM
  - KSFASTPROPERTY_ITEM
 ---
 
@@ -78,3 +79,4 @@ Reserved and set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>
+

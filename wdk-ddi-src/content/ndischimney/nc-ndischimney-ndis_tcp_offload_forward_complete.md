@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
- - NdisTcpOffloadForwardComplete
+ - NDIS_TCP_OFFLOAD_FORWARD_COMPLETE
 ---
 
 # NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback function
@@ -101,3 +101,4 @@ An offload target must write one of the following status values to each NET_BUFF
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
+

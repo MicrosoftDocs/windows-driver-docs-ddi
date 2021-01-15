@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucmtcpciportcontroller.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
  - UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 ---
 
@@ -124,3 +125,4 @@ Indicates that the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
+

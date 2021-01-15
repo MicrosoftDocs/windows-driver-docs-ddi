@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosBarcodeScannerDataReceivedEventData
  - PosBarcodeScannerDataReceivedEventData
 ---
 
@@ -70,3 +71,4 @@ Indicates the number of bytes of decoded scan data. A label is the decoded scan 
 ## -remarks
 
 *ScanDataLength* bytes of scan data immediately follows the *PosBarcodeScannerDataReceivedEventData* structure, followed by *ScanDataLabelLength* bytes of label data.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_STARTED
+ - EVT_VMB_CHANNEL_STARTED
 ---
 
 # EVT_VMB_CHANNEL_STARTED callback function
@@ -97,3 +97,4 @@ Waiting for a sent packet to complete, such as by the <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns">VmbPacketSendWithExternalPfns</a>
+

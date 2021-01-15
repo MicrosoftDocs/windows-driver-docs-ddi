@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.SetExpressionSyntax
+ - IDebugControl3::SetExpressionSyntax
 ---
 
 # IDebugControl3::SetExpressionSyntax
@@ -113,3 +113,4 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
+

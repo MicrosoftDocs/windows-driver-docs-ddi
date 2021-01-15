@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _DSM_VERSION
+ - PDSM_VERSION
  - DSM_VERSION
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - IssueQuery
+ - PFND3DDDI_ISSUEQUERY
 product:
  - Windows
 ---
@@ -95,3 +95,4 @@ If the call to <i>IssueQuery</i> requires the driver to return data, the driver 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

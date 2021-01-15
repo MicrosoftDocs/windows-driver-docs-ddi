@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucmtcpciportcontroller.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_CONFIG
+ - PUCMTCPCI_PORT_CONTROLLER_CONFIG
  - UCMTCPCI_PORT_CONTROLLER_CONFIG
 ---
 
@@ -69,3 +71,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/n
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
+

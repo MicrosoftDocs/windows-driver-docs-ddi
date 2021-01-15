@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetSpecificFilterParameters
- - IDebugControl2.GetSpecificFilterParameters
- - IDebugControl3.GetSpecificFilterParameters
+ - IDebugControl2::GetSpecificFilterParameters
 ---
 
 # IDebugControl2::GetSpecificFilterParameters
@@ -115,3 +113,4 @@ For more information about <a href="/windows-hardware/drivers/debugger/event-fil
 
 
 <a href="/windows-hardware/drivers/debugger/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+

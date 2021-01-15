@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _CREATE_DISK_MBR
+ - PCREATE_DISK_MBR
  - CREATE_DISK_MBR
 ---
 
@@ -64,3 +66,4 @@ Specifies the disk signature value, which uniquely identifies the disk.
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
+

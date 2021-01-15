@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CHECKMONITORPOWERSTATE
  - D3DKMT_CHECKMONITORPOWERSTATE
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the moni
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckmonitorpowerstate">D3DKMTCheckMonitorPowerState</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxComputeNewBufferingState
+ - PMRX_COMPUTE_NEW_BUFFERING_STATE
 ---
 
 # PMRX_COMPUTE_NEW_BUFFERING_STATE callback function
@@ -99,3 +99,4 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>
+

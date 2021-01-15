@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - dispmprt
  - dispmprt/dispmprt
+api_name:
+ - dispmprt
 ---
 
 # Dispmprt.h header

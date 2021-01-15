@@ -30,6 +30,7 @@ api_type:
 api_location:
  - mbbcx.h
 api_name:
+ - _MBB_WAKE_REASON_TYPE
  - MBB_WAKE_REASON_TYPE
 product:
  - Windows

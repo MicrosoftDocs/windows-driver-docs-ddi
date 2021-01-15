@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.SetOffsetExpression
- - IDebugBreakpoint2.SetOffsetExpression
+ - IDebugBreakpoint::SetOffsetExpression
 ---
 
 # IDebugBreakpoint::SetOffsetExpression
@@ -81,3 +80,4 @@ This method can also return error values.  For more information, see <a href="/w
 ## -remarks
 
 For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+

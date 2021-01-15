@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _ENDPOINTS_CONFIGURE
+ - PENDPOINTS_CONFIGURE
  - ENDPOINTS_CONFIGURE
 ---
 
@@ -108,3 +110,4 @@ The setting number of the alternate setting that contains the endpoints.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _PROPSHEETUI_GETICON_INFO
+ - PPROPSHEETUI_GETICON_INFO
  - PROPSHEETUI_GETICON_INFO
 ---
 
@@ -72,3 +74,4 @@ CPSUI-supplied icon height, in pixels.
 ### -field hIcon
 
 Receives an application-supplied icon handle. If the icon is not loaded, the member must be set to zero.
+

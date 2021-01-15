@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COORDINATED_DEPENDENCY_OPTION
+ - PPEP_COORDINATED_DEPENDENCY_OPTION
  - PEP_COORDINATED_DEPENDENCY_OPTION
 ---
 
@@ -79,3 +81,4 @@ Indicates if this state is a valid state for a dependent processor to be in.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_coordinated_dependency">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
+

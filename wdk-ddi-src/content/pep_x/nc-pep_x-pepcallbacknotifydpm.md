@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - AcceptDeviceNotification
+ - PEPCALLBACKNOTIFYDPM
 ---
 
 # PEPCALLBACKNOTIFYDPM callback function (pep_x.h)
@@ -86,3 +86,4 @@ The <i>AcceptDeviceNotification</i> routine can be called at IRQL <= DISPATCH_LE
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.RawReadCommand
+ - IStiUSD::RawReadCommand
 ---
 
 # IStiUSD::RawReadCommand
@@ -78,3 +78,4 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_LinkEvent
+ - PMSFC_LinkEvent
  - MSFC_LinkEvent
 ---
 
@@ -72,3 +74,4 @@ Contains the data associated with a register link incident request (RLIR).
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
+

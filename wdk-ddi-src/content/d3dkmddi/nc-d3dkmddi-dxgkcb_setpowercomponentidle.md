@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbSetPowerComponentIdle
+ - DXGKCB_SETPOWERCOMPONENTIDLE
 product:
  - Windows
 ---
@@ -88,3 +88,4 @@ This function must be called at IRQL <= 		DISPATCH_LEVEL. It can be called at IR
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

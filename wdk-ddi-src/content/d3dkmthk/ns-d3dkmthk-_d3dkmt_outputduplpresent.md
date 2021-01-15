@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OUTPUTDUPLPRESENT
  - D3DKMT_OUTPUTDUPLPRESENT
 ---
 
@@ -90,3 +91,4 @@ The indirect adapter context for redirecting through the DoD present path. This 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>
+

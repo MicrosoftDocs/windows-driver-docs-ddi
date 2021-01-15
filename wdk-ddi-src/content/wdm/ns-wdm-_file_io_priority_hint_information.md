@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_IO_PRIORITY_HINT_INFORMATION
+ - PFILE_IO_PRIORITY_HINT_INFORMATION
  - FILE_IO_PRIORITY_HINT_INFORMATION
 ---
 
@@ -72,3 +74,4 @@ For more information about priority hints, see <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

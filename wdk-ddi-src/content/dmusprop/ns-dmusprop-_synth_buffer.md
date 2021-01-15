@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusprop.h
 api_name:
+ - _SYNTH_BUFFER
+ - PSYNTH_BUFFER
  - SYNTH_BUFFER
 ---
 
@@ -68,3 +70,4 @@ A <a href="/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</
 ## -see-also
 
 <a href="/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
+

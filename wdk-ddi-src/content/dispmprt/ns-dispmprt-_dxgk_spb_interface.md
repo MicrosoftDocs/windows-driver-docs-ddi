@@ -41,10 +41,13 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_SPB_INTERFACE
+ - PDXGK_SPB_INTERFACE
  - DXGK_SPB_INTERFACE
 ---
 
 # DXGK_SPB_INTERFACE structure
+
 
 ## -description
 
@@ -174,3 +177,4 @@ If the caller opened the file for asynchronous I/O (with neither **FILE_SYNCHRON
 To use this structure's functions, first supply the **Size** and **Version** members of the **DXGK_SPB_INTERFACE** structure. Then call the [**DxgkCbQueryServices**](nc-dispmprt-dxgkcb_query_services.md) function with the **ServicesType**  parameter set to a value of **DxgkServicesFirmwareTable**, and set the **Interface** parameter to the address (cast as **PINTERFACE**) of the **DXGK_SPB_INTERFACE** structure.
 
 For more information on SPB architecture, see [Simple Peripheral Buses](/windows-hardware/design/component-guidelines/simple-peripheral-bus--spb-) and [SPB Peripheral Driver Design Guide**](/windows-hardware/drivers/spb).
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IFileCallbackCleanup.OnCleanupFile
+ - IFileCallbackCleanup::OnCleanupFile
 ---
 
 # IFileCallbackCleanup::OnCleanupFile
@@ -75,3 +75,4 @@ For information about when the framework calls <b>OnCleanupFile</b>, see <a href
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
+

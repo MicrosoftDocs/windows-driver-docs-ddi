@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - ReclaimResources
+ - PFND3DDDI_RECLAIMRESOURCES
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ Returns one of the following values:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocationscb">pfnReclaimAllocationsCb</a>
+

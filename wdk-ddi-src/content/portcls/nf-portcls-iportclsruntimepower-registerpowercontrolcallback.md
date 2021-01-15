@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortClsRuntimePower.RegisterPowerControlCallback
+ - IPortClsRuntimePower::RegisterPowerControlCallback
 ---
 
 # IPortClsRuntimePower::RegisterPowerControlCallback
@@ -71,3 +71,4 @@ The <code>RegisterPowerControlCallback</code> method returns STATUS_SUCCESS, if 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
+

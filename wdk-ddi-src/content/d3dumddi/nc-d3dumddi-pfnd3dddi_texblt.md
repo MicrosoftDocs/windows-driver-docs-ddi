@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - TexBlt
+ - PFND3DDDI_TEXBLT
 product:
  - Windows
 ---
@@ -88,3 +88,4 @@ The pixel formats of the source and destination textures are identical and, in g
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

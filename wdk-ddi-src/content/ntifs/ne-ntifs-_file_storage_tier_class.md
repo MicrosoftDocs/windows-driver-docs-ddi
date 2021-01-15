@@ -33,6 +33,8 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_STORAGE_TIER_CLASS
+ - PFILE_STORAGE_TIER_CLASS
+ - FILE_STORAGE_TIER_CLASS
 dev_langs:
  - c++
 ---

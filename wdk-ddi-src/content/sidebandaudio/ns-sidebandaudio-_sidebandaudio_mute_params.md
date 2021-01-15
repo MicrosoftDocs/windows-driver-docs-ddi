@@ -36,6 +36,8 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_MUTE_PARAMS
+ - PSIDEBANDAUDIO_MUTE_PARAMS
+ - SIDEBANDAUDIO_MUTE_PARAMS
 ---
 
 # _SIDEBANDAUDIO_MUTE_PARAMS structure
@@ -72,3 +74,4 @@ Boolean representing mute state:
 [sidebandaudio.h](index.md)
 
 [IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE](./ni-sidebandaudio-ioctl_sbaud_get_mute_status_update.md)
+

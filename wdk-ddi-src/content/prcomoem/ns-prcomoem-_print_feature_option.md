@@ -39,6 +39,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
+ - _PRINT_FEATURE_OPTION
  - PRINT_FEATURE_OPTION
 ---
 
@@ -86,3 +87,4 @@ This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-whyconstrained">IPrintCoreHelperUni::WhyConstrained</a>
+

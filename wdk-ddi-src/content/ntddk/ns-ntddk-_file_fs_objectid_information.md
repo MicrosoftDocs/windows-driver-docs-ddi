@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _FILE_FS_OBJECTID_INFORMATION
+ - PFILE_FS_OBJECTID_INFORMATION
  - FILE_FS_OBJECTID_INFORMATION
 ---
 
@@ -106,3 +108,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 [**ZwSetVolumeInformationFile**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetvolumeinformationfile
 )
+

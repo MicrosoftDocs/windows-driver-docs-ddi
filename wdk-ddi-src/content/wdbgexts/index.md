@@ -12,6 +12,8 @@ tech.root: debugger
 f1_keywords:
  - wdbgexts
  - wdbgexts/wdbgexts
+api_name:
+ - wdbgexts
 ---
 
 # Wdbgexts.h header

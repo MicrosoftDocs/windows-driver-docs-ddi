@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPowerManagement2.PowerChangeState2
+ - IAdapterPowerManagement2::PowerChangeState2
 ---
 
 # IAdapterPowerManagement2::PowerChangeState2
@@ -84,3 +84,4 @@ For more information about system power states, see <a href="/windows-hardware/d
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
+

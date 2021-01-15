@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.ReadUnicodeStringVirtual
+ - IDebugDataSpaces4::ReadUnicodeStringVirtual
 ---
 
 # IDebugDataSpaces4::ReadUnicodeStringVirtual
@@ -139,3 +139,4 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readunicodestringvirtualwide">ReadUnicodeStringVirtualWide</a>
+

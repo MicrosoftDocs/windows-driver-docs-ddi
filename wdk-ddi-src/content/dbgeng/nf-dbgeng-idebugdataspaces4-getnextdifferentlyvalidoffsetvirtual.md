@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual
+ - IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
 ---
 
 # IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
@@ -92,3 +92,4 @@ The size of regions of validity depends on the target.  For example, in live use
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
+

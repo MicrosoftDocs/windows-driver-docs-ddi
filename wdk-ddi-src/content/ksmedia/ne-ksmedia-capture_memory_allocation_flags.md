@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PCAPTURE_MEMORY_ALLOCATION_FLAGS
  - CAPTURE_MEMORY_ALLOCATION_FLAGS
 ---
 
@@ -80,3 +81,4 @@ Not currently supported.
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-preferred-capture-surface">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a>
+

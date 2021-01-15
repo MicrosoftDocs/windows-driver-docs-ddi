@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - ReadDmaCounter
+ - PREAD_DMA_COUNTER
 ---
 
 # PREAD_DMA_COUNTER callback function
@@ -86,3 +86,4 @@ Pointer to the adapter object previously returned by <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer">MapTransfer</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnLockCb
+ - PFND3DDDI_LOCKCB
 product:
  - Windows
 ---
@@ -197,3 +197,4 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourceunmap">ResourceUnmap</a>
+

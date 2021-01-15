@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - TransactionNotificationCallback
+ - PFLT_TRANSACTION_NOTIFICATION_CALLBACK
 ---
 
 # PFLT_TRANSACTION_NOTIFICATION_CALLBACK callback function
@@ -206,3 +206,4 @@ If the minifilter driver returns STATUS_PENDING from this callback routine, it m
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackcomplete">FltRollbackComplete</a>
+

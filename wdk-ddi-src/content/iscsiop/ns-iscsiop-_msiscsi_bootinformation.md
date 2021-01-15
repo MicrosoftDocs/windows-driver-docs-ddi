@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _MSiSCSI_BootInformation
+ - PMSiSCSI_BootInformation
  - MSiSCSI_BootInformation
 ---
 
@@ -72,3 +74,4 @@ You must implement this class if the adapter supports iSCSI boot.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msiscsi-bootinformation-wmi-class">MSiSCSI_BootInformationWMI Class</a>
+

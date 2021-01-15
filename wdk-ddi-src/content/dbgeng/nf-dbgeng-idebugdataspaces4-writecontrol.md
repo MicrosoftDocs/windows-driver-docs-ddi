@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.WriteControl
- - IDebugDataSpaces2.WriteControl
- - IDebugDataSpaces3.WriteControl
- - IDebugDataSpaces4.WriteControl
+ - IDebugDataSpaces4::WriteControl
 ---
 
 # IDebugDataSpaces4::WriteControl
@@ -102,3 +99,4 @@ The method was successful.
 ## -remarks
 
 This method is only available in kernel-mode debugging.
+

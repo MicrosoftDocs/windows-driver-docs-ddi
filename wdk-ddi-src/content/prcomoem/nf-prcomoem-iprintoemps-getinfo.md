@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemPS.GetInfo
+ - IPrintOemPS::GetInfo
 ---
 
 # IPrintOemPS::GetInfo
@@ -162,3 +162,4 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getinfo">IPrintOemUni::GetInfo</a>
+

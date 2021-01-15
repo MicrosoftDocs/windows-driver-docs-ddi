@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIA_PROPERTY_INFO
+ - PWIA_PROPERTY_INFO
  - WIA_PROPERTY_INFO
 ---
 
@@ -252,3 +254,4 @@ hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 ## -see-also
 
 [wiasSetItemPropAttribs](../wiamdef/nf-wiamdef-wiassetitempropattribs.md)
+

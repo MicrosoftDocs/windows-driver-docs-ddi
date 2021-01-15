@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - ReportStatistic
+ - PFN_REPORT_STATISTIC
 ---
 
 # PFN_REPORT_STATISTIC callback function
@@ -81,3 +81,4 @@ For more info on how to use this function, see these topics:
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTargets2.GetInterfacesIfExist
+ - IWDTFTargets2::GetInterfacesIfExist
 ---
 
 # IWDTFTargets2::GetInterfacesIfExist
@@ -94,3 +94,4 @@ This method will succeed even if one or more of the collection members do not re
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
+

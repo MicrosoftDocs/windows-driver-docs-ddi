@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSOBJECT_CREATE_ITEM
  - KSOBJECT_CREATE_ITEM
 ---
 
@@ -125,3 +126,4 @@ The minidriver might retrieve this pointer when creating a new object to examine
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem">KsFilterFactoryAddCreateItem</a>
+

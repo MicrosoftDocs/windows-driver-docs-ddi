@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueueView.SetViewRange
+ - IPrinterQueueView::SetViewRange
 ---
 
 # IPrinterQueueView::SetViewRange
@@ -81,3 +81,4 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged">IPrinterQueueViewEvent::OnChanged</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_PACKET_DATA_FORMAT
+ - PWHEA_ERROR_PACKET_DATA_FORMAT
  - WHEA_ERROR_PACKET_DATA_FORMAT
 ---
 
@@ -104,3 +106,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2"
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
+

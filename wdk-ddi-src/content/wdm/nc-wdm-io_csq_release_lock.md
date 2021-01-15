@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - CsqReleaseLock
+ - IO_CSQ_RELEASE_LOCK
 ---
 
 # IO_CSQ_RELEASE_LOCK callback function
@@ -151,3 +151,4 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
+

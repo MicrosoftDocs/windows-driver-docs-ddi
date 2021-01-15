@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.SetCurrentProcessId
- - IDebugSystemObjects2.SetCurrentProcessId
- - IDebugSystemObjects3.SetCurrentProcessId
- - IDebugSystemObjects4.SetCurrentProcessId
+ - IDebugSystemObjects2::SetCurrentProcessId
 ---
 
 # IDebugSystemObjects2::SetCurrentProcessId
@@ -110,3 +107,4 @@ If the process is changed, the callback <a href="/windows-hardware/drivers/ddi/d
 <div class="alert"><b>Note</b>    In kernel-mode debugging, the current process is a virtual process, it is not a system process.  This method cannot be used to change between system processes in kernel-mode debugging.  However, the implicit process may be changed by using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitprocessdataoffset">SetImplicitProcessDataOffset</a>.</div>
 <div> </div>
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on monitoring events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

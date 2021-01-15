@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_POSITIONEX
  - KSAUDIO_POSITIONEX
 ---
 
@@ -74,3 +75,4 @@ A KS-based audio driver can use the KSAUDIO_POSITIONEX structure along with the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-positionex">KSPROPERTY_AUDIO_POSITIONEX</a>
+

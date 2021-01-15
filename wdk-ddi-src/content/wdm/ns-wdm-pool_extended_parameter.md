@@ -28,6 +28,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _POOL_EXTENDED_PARAMETER
+ - PPOOL_EXTENDED_PARAMETER
  - POOL_EXTENDED_PARAMETER
 f1_keywords:
  - _POOL_EXTENDED_PARAMETER

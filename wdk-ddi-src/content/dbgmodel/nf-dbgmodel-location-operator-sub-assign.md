@@ -34,7 +34,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - operator-=
+ - Location::operator-=
 ---
 
 # operator-= function
@@ -59,3 +59,4 @@ This function returns Location &.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

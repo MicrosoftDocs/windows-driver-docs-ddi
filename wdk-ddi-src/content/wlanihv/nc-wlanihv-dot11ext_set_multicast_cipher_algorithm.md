@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetMulticastCipherAlgorithm
+ - DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM
 ---
 
 # DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM callback
@@ -116,3 +116,4 @@ DWORD WINAPI * Dot11ExtSetMulticastCipherAlgorithm(
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

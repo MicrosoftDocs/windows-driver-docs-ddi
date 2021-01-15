@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdasup.h
 api_name:
+ - _KSM_PIN_PAIR
+ - PKSM_PIN_PAIR
  - KSM_PIN_PAIR
 ---
 
@@ -76,3 +78,4 @@ Reserved.
 
 
 <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+

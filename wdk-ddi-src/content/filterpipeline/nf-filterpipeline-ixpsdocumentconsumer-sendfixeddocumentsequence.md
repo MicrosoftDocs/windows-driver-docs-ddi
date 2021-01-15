@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IXpsDocumentConsumer.SendFixedDocumentSequence
+ - IXpsDocumentConsumer::SendFixedDocumentSequence
 ---
 
 # IXpsDocumentConsumer::SendFixedDocumentSequence
@@ -61,3 +61,4 @@ A pointer to an XPS fixed document sequence object.
 ## -remarks
 
 Only one <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocumentsequence">IFixedDocumentSequence</a> interface can be sent. The <code>SendFixedDocumentSequence</code> method will fail if a filter submits more than one such interface for the same print job.
+

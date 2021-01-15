@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRequestCompletionParams.GetCompletedRequestType
+ - IWDFRequestCompletionParams::GetCompletedRequestType
 ---
 
 # IWDFRequestCompletionParams::GetCompletedRequestType
@@ -60,3 +60,4 @@ The <b>GetCompletedRequestType</b> method retrieves the type of operation that t
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>
+

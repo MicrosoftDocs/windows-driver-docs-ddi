@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbSynchronizeExecution
+ - DXGKCB_SYNCHRONIZE_EXECUTION
 ---
 
 # DXGKCB_SYNCHRONIZE_EXECUTION callback function
@@ -95,3 +95,4 @@ A pointer to a Boolean variable that receives the return value of <i>Synchronize
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>
+

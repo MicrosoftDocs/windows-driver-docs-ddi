@@ -36,9 +36,12 @@ api_location:
  - treevariableservice.h
 api_name:
  - _EFI_GET_NEXT_VARIABLE_NAME_OUT
+ - PEFI_GET_NEXT_VARIABLE_NAME_OUT
+ - EFI_GET_NEXT_VARIABLE_NAME_OUT
 ---
 
 # _EFI_GET_NEXT_VARIABLE_NAME_OUT structure
+
 
 ## -description
 
@@ -55,3 +58,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

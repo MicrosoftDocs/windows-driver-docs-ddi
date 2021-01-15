@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_SETVIRTUALMACHINEDATA
+ - DXGKARG_SETVIRTUALMACHINEDATA
 dev_langs:
  - c++
 ---

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_DEVICE_INFORMATION
+ - PWDF_USB_DEVICE_INFORMATION
  - WDF_USB_DEVICE_INFORMATION
 ---
 
@@ -90,3 +92,4 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a>
+

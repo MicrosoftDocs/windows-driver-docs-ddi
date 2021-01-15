@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_TUNER_DIAGNOSTICS
+ - PBDA_TUNER_DIAGNOSTICS
  - BDA_TUNER_DIAGNOSTICS
 ---
 

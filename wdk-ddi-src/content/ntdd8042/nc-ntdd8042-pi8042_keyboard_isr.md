@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
- - KeyboardIsr
+ - PI8042_KEYBOARD_ISR
 ---
 
 # PI8042_KEYBOARD_ISR callback function
@@ -115,3 +115,4 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
+

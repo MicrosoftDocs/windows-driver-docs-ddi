@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPropertySet.Get
+ - IKsPropertySet::Get
 ---
 
 # IKsPropertySet::Get (ksproxy.h)
@@ -105,3 +105,4 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
+

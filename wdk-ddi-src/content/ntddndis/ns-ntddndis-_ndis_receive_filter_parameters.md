@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_PARAMETERS
+ - PNDIS_RECEIVE_FILTER_PARAMETERS
  - NDIS_RECEIVE_FILTER_PARAMETERS
 ---
 
@@ -114,8 +116,6 @@ A bitwise OR of the following flags.
 |--- |--- |--- |
 |NDIS 6.50 and later|**NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION** 0x00000002|If this flag is set on the receive filter, the network adapter must match this MAC address in the inner Ethernet frame in encapsulated packets.|
 NDIS 6.20 through NDIS 6.40|**NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE** 0x00000002|If this flag is set on the receive filter, the network adapter must match this MAC address in the inner Ethernet frame in GRE encapsulated packets.|
-
-
 
 ### -field FilterType
 
@@ -258,3 +258,4 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+

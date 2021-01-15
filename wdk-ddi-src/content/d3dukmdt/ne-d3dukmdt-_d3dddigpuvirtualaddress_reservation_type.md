@@ -31,6 +31,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE
+ - D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE
 dev_langs:
  - c++
 ---

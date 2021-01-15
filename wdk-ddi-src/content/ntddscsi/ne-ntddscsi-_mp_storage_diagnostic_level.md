@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _MP_STORAGE_DIAGNOSTIC_LEVEL
+ - PMP_STORAGE_DIAGNOSTIC_LEVEL
  - MP_STORAGE_DIAGNOSTIC_LEVEL
 ---
 

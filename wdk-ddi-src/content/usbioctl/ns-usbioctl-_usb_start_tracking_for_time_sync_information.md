@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
+ - PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
  - USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
 ---
 
@@ -64,3 +66,4 @@ On input, the caller must specify whether the initial startup latency of up to 2
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_start_tracking_for_time_sync">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a>
+

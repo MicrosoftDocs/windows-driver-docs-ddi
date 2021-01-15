@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - AcceptAcpiNotification
+ - PEPCALLBACKNOTIFYACPI
 ---
 
 # PEPCALLBACKNOTIFYACPI callback function (pepfx.h)
@@ -80,3 +80,4 @@ The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called vari
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a>
+

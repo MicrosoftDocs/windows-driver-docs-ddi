@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFFile.GetDevice
+ - IWDFFile::GetDevice
 ---
 
 # IWDFFile::GetDevice
@@ -63,3 +63,4 @@ A pointer to a variable that receives a pointer to the <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
+

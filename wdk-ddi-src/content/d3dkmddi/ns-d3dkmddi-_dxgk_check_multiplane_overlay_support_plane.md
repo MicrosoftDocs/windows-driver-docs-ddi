@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
  - DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ---
 
@@ -66,3 +67,4 @@ A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_o
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
+

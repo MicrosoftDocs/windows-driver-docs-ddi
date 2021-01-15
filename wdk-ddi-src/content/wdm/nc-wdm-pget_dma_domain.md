@@ -34,7 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PGET_DMA_DOMAIN
- - GetDmaDomain
 ---
 
 # PGET_DMA_DOMAIN callback function

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_RECEIVE_PHY_PACKETS
  - IRB_REQ_RECEIVE_PHY_PACKETS
 ---
 
@@ -106,3 +107,4 @@ The 64-bit PHY packet that is received from the 1394 bus.
 ### -field PhyPacketContext
 
 Specifies the Context argument to be passed to the PhyPacketRoutine.
+

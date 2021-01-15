@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.GetCapabilities
+ - IStiDevice::GetCapabilities
 ---
 
 # IStiDevice::GetCapabilities
@@ -63,3 +63,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 The <b>IStiDevice::GetCapabilities</b> method returns device capability flags in the caller-supplied <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a> structure.
 
 Before calling <b>IStiDevice::GetCapabilities</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+

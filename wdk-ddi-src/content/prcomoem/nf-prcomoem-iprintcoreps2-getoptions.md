@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCorePS2.GetOptions
+ - IPrintCorePS2::GetOptions
 ---
 
 # IPrintCorePS2::GetOptions
@@ -185,3 +185,4 @@ For more information, see <a href="/windows-hardware/drivers/print/using-getopti
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>
+

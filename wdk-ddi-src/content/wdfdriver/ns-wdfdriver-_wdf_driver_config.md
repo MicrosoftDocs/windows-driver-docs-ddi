@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdriver.h
 api_name:
+ - _WDF_DRIVER_CONFIG
+ - PWDF_DRIVER_CONFIG
  - WDF_DRIVER_CONFIG
 ---
 
@@ -102,3 +104,4 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - ResizeTilePool
+ - PFND3DWDDM1_3DDI_RESIZETILEPOOL
 ---
 
 # PFND3DWDDM1_3DDI_RESIZETILEPOOL callback function
@@ -72,3 +72,4 @@ The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d1
 
 
 The Direct3D runtime performs minimal validation of parameters, but it will fail the call if the new tile pool size isn't a multiple of the tile size, or zero.
+

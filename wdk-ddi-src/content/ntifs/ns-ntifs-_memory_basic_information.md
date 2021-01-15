@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _MEMORY_BASIC_INFORMATION
+ - PMEMORY_BASIC_INFORMATION
  - MEMORY_BASIC_INFORMATION
 ---
 
@@ -110,3 +112,4 @@ The type of pages in the region. The following types are defined.
 ## -see-also
 
 [**ZwQueryVirtualMemory**](/previous-versions/dn957455(v=vs.85))
+

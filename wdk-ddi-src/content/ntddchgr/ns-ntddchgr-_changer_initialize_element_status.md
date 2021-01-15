@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_INITIALIZE_ELEMENT_STATUS
+ - PCHANGER_INITIALIZE_ELEMENT_STATUS
  - CHANGER_INITIALIZE_ELEMENT_STATUS
 ---
 
@@ -76,3 +78,4 @@ Instructs the changer driver, when <b>TRUE</b>, to initialize elements by scanni
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_initialize_element_status">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+

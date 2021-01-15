@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _USAGE_AND_PAGE
+ - PUSAGE_AND_PAGE
  - USAGE_AND_PAGE
 ---
 
@@ -106,3 +108,4 @@ For more information, see <a href="/windows-hardware/drivers/hid/hid-collections
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtonsEx</a>
+

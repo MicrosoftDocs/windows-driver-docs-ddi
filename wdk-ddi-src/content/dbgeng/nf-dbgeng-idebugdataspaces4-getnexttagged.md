@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces3.GetNextTagged
- - IDebugDataSpaces4.GetNextTagged
+ - IDebugDataSpaces4::GetNextTagged
 ---
 
 # IDebugDataSpaces4::GetNextTagged
@@ -113,3 +112,4 @@ There are no more blocks of tagged data available in this enumeration.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>
+

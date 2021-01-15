@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_REQUEST_INFO_V1
+ - PSTOR_REQUEST_INFO_V1
  - STOR_REQUEST_INFO_V1
 ---
 
@@ -212,3 +214,4 @@ The caller to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storpo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetrequestinfo">StorPortGetRequestInfo</a>
+

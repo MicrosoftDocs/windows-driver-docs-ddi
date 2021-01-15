@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PRT_PARAMETER_DATA
  - RT_PARAMETER_DATA
 ---
 
@@ -142,3 +143,4 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-st_parameter_data">ST_PARAMETER_DATA</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - tagKS_DATARANGE_BDA_ANTENNA
+ - PKS_DATARANGE_BDA_ANTENNA
  - KS_DATARANGE_BDA_ANTENNA
 ---
 
@@ -74,3 +76,4 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
+

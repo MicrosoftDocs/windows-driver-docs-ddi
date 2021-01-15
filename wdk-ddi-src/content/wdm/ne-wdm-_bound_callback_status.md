@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _BOUND_CALLBACK_STATUS
+ - PBOUND_CALLBACK_STATUS
  - BOUND_CALLBACK_STATUS
 ---
 
@@ -76,3 +78,4 @@ The return value of the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a>
+

@@ -37,10 +37,11 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorAdapterControl
+ - HW_ADAPTER_CONTROL
 ---
 
 # HW_ADAPTER_CONTROL callback function
+
 
 ## -description
 
@@ -907,3 +908,4 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetbusdatabyoffset">StorPortSetBusDataByOffset</a>
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetpowersettingnotificationguids">StorPortSetPowerSettingNotificationGuids</a>
+

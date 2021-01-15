@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_INVITATION_FLAGS
+ - PDOT11_WFD_INVITATION_FLAGS
  - DOT11_WFD_INVITATION_FLAGS
 product:
  - Windows 10 or later.
@@ -106,3 +108,4 @@ typedef struct _DOT11_WFD_INVITATION_FLAGS {
   UCHAR Reserved:7;
 } DOT11_WFD_INVITATION_FLAGS, *PDOT11_WFD_INVITATION_FLAGS;
 ```
+

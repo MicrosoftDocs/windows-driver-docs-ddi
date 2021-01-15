@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKS_DATAFORMAT_IMAGEINFO
+ - PKS_DATAFORMAT_IMAGEINFO
  - KS_DATAFORMAT_IMAGEINFO
 ---
 
@@ -68,3 +70,4 @@ A <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfohead
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
+

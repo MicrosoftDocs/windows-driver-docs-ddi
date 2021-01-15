@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetThreadIdByProcessor
- - IDebugSystemObjects2.GetThreadIdByProcessor
- - IDebugSystemObjects3.GetThreadIdByProcessor
- - IDebugSystemObjects4.GetThreadIdByProcessor
+ - IDebugSystemObjects4::GetThreadIdByProcessor
 ---
 
 # IDebugSystemObjects4::GetThreadIdByProcessor
@@ -89,3 +86,4 @@ The method was successful.
 This method is only available in kernel-mode debugging.
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

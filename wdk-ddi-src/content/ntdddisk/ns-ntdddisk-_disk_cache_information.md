@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_CACHE_INFORMATION
+ - PDISK_CACHE_INFORMATION
  - DISK_CACHE_INFORMATION
 ---
 
@@ -114,3 +116,4 @@ Contains the scalar multiplier of the transfer length of the request when <b>Pre
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+

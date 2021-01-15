@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMDT_MODE_PRUNING_REASON
  - D3DKMDT_MODE_PRUNING_REASON
 ---
 
@@ -145,3 +146,4 @@ D3DKMDT_MPR_ALLCAPS
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmdt_displaymode_flags">D3DKMDT_DISPLAYMODE_FLAGS</a>
+

@@ -36,9 +36,12 @@ api_location:
  - treetpmservice.h
 api_name:
  - _TPM_INVOKE_GENERIC_IN
+ - PTPM_INVOKE_GENERIC_IN
+ - TPM_INVOKE_GENERIC_IN
 ---
 
 # _TPM_INVOKE_GENERIC_IN structure
+
 
 ## -description
 
@@ -49,3 +52,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

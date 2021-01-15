@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
- - EvtSerCxTransmitCancel
+ - EVT_SERCX_TRANSMIT_CANCEL
 ---
 
 # EVT_SERCX_TRANSMIT_CANCEL callback function
@@ -94,3 +94,4 @@ VOID
 For more information about SDV requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>
+

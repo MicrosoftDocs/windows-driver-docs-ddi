@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILTONESIGNALINFO_V1
+ - LPRILTONESIGNALINFO_V1
 ---
 
 # RILTONESIGNALINFO_V1 structure (rilapitypes.h)

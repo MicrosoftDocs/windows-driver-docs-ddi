@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_OBJECT_NAME
+ - PPEP_ACPI_OBJECT_NAME
  - PEP_ACPI_OBJECT_NAME
 ---
 
@@ -82,3 +84,4 @@ The <i>Name</i> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_query_object_information">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
+

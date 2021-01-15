@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiGetPossibleBrightness
+ - DXGK_BRIGHTNESS_GET_POSSIBLE
 ---
 
 # DXGK_BRIGHTNESS_GET_POSSIBLE callback function
@@ -98,3 +98,4 @@ To simplify your job of implementing a display miniport driver, the operating sy
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

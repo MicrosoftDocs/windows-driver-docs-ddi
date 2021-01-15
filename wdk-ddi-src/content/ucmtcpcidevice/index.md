@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucmtcpcidevice
  - ucmtcpcidevice/ucmtcpcidevice
+api_name:
+ - ucmtcpcidevice
 ---
 
 # Ucmtcpcidevice.h header

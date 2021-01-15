@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_BUF
+ - PWSK_BUF
  - WSK_BUF
 ---
 
@@ -120,3 +122,4 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiI2CTransmitDataToDisplay
+ - DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY
 ---
 
 # DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback function
@@ -105,3 +105,4 @@ If the display adapter supports HDCP, the <i>DxgkDdiI2CTransmitDataToDisplay</i>
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_i2c_receive_data_from_display">DxgkDdiI2CReceiveDataFromDisplay</a>
+
