@@ -1,10 +1,10 @@
 ---
 UID: NF:ntifs.NtFlushBuffersFile
 title: NtFlushBuffersFile function (ntifs.h)
-description: The NtFlushBuffersFile routine is called by a file system legacy filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
+description: The NtFlushBuffersFile routine sends a flush request for a given file to the file system.
 old-location: kernel\ZwFlushBuffersFile.htm
 tech.root: kernel
-ms.date: 11/26/2019
+ms.date: 01/13/2021
 keywords: ["NtFlushBuffersFile function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], kernel.ZwFlushBuffersFile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile
 f1_keywords:
@@ -45,17 +45,17 @@ req.typenames:
 
 ## -description
 
-The **NtFlushBuffersFile** routine is called by a file system legacy filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
+The **NtFlushBuffersFile** routine sends a flush request for a given file to the file system.
 
 ## -parameters
 
-### -param FileHandle 
-[in]
-Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
+### -param FileHandle
 
-### -param IoStatusBlock 
-[out]
-Address of the caller's I/O status block. This parameter is required and cannot be NULL.
+[in] Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
+
+### -param IoStatusBlock
+
+[out] Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns
 
