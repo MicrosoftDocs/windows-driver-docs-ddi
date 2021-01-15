@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3d12umddi
  - d3d12umddi/d3d12umddi
+api_name:
+ - d3d12umddi
 ---
 
 # D3D12Umddi.h header

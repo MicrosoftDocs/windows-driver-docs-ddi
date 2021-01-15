@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _LOCK_STATE
+ - PLOCK_STATE
  - LOCK_STATE
 ---
 
@@ -65,3 +67,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a>
+

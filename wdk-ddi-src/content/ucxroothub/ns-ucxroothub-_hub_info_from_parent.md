@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _HUB_INFO_FROM_PARENT
+ - PHUB_INFO_FROM_PARENT
  - HUB_INFO_FROM_PARENT
 ---
 
@@ -114,3 +116,4 @@ A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that 
 ### -field SublinkSpeedAttrCount
 
 The count of sublink speed attributes.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.IsFromUserModeDriver
+ - IWDFIoRequest2::IsFromUserModeDriver
 ---
 
 # IWDFIoRequest2::IsFromUserModeDriver
@@ -77,3 +77,4 @@ For a code example that uses <b>IsFromUserModeDriver</b>, see the example at <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestisfromusermodedriver">WdfRequestIsFromUserModeDriver</a>
+

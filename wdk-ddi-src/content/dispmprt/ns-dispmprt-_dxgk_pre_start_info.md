@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_PRE_START_INFO
+ - PDXGK_PRE_START_INFO
  - DXGK_PRE_START_INFO
 ---
 

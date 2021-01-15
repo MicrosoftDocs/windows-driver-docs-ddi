@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _MONITOR2
+ - PMONITOR2
  - MONITOR2
 ---
 
@@ -204,3 +206,4 @@ if ( Is_Win2000( ) )
 [InitializePrintMonitor2](./nf-winsplp-initializeprintmonitor2.md)
 
 [MONITORUI](./ns-winsplp-_monitorui.md)
+

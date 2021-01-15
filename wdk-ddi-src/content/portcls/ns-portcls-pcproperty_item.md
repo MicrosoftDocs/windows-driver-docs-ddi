@@ -39,6 +39,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - PPCPROPERTY_ITEM
  - PCPROPERTY_ITEM
 ---
 
@@ -191,3 +192,4 @@ For more information about serialization and raw serialization of a property set
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pccompletependingpropertyrequest">PcCompletePendingPropertyRequest</a>
+

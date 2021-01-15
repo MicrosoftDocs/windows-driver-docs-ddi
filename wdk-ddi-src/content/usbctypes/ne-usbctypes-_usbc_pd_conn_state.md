@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_PD_CONN_STATE
+ - USBC_PD_CONN_STATE
 ---
 
 # _USBC_PD_CONN_STATE enumeration

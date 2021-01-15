@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfinterrupt.h
 api_name:
- - EvtInterruptSynchronize
+ - EVT_WDF_INTERRUPT_SYNCHRONIZE
 ---
 
 # EVT_WDF_INTERRUPT_SYNCHRONIZE callback function
@@ -92,3 +92,4 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsynchronize">WdfInterruptSynchronize</a>
+

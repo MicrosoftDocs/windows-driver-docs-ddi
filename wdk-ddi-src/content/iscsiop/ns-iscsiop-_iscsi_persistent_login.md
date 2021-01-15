@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _ISCSI_Persistent_Login
+ - PISCSI_Persistent_Login
  - ISCSI_Persistent_Login
 ---
 
@@ -112,3 +114,4 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 
 <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorGetProperties
+ - EVT_SENSOR_DRIVER_GET_PROPERTIES
 ---
 
 # EVT_SENSOR_DRIVER_GET_PROPERTIES callback function
@@ -70,3 +70,4 @@ This function returns STATUS_SUCCESS when completed successfully.
 ## -remarks
 
 This function must be implemented by the driver and is called by the class extension.
+

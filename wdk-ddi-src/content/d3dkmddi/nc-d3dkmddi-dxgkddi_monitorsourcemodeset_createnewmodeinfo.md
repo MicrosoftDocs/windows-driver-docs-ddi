@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnCreateNewModeInfo
+ - DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO
 product:
  - Windows
 ---
@@ -82,3 +82,4 @@ Release the structure by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi
 
 </li>
 </ul>
+

@@ -30,6 +30,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDI_QUERYADAPTERTYPE
+ - D3DDDI_QUERYADAPTERTYPE
 product:
  - Windows
 ---

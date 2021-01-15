@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_REQUEST_BLOCK
+ - PIDE_REQUEST_BLOCK
  - IDE_REQUEST_BLOCK
 ---
 
@@ -474,3 +476,4 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - OfferResources
+ - PFND3DDDI_OFFERRESOURCES
 product:
  - Windows
 ---
@@ -95,3 +95,4 @@ If the driver uses the <a href="/windows-hardware/drivers/display/requesting-to-
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimresources">ReclaimResources</a>
+

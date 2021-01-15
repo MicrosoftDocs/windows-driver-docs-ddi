@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _DRV_VERSION
+ - PDRV_VERSION
  - DRV_VERSION
 ---
 
@@ -64,3 +66,4 @@ Minor version number.
 ### -field internal
 
 Internal, vendor-specific version number.
+

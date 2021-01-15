@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _NETWORK_OPEN_ECP_CONTEXT
+ - PNETWORK_OPEN_ECP_CONTEXT
  - NETWORK_OPEN_ECP_CONTEXT
 ---
 
 # NETWORK_OPEN_ECP_CONTEXT structure
+
 
 ## -description
 
@@ -132,3 +135,4 @@ Drivers that run on Windows Vista and later versions of Windows use the **NETWO
 [**NETWORK_OPEN_LOCATION_QUALIFIER**](ne-ntifs-network_open_location_qualifier.md)
 
 [**NETWORK_OPEN_INTEGRITY_QUALIFIER**](ne-ntifs-network_open_integrity_qualifier.md)
+

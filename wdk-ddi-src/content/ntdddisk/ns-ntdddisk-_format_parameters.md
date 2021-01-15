@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _FORMAT_PARAMETERS
+ - PFORMAT_PARAMETERS
  - FORMAT_PARAMETERS
 ---
 
@@ -80,3 +82,4 @@ Indicates the number of the head where the formatting should end.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a>
+

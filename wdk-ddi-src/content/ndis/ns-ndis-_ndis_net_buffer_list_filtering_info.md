@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_NET_BUFFER_LIST_FILTERING_INFO
+ - PNDIS_NET_BUFFER_LIST_FILTERING_INFO
  - NDIS_NET_BUFFER_LIST_FILTERING_INFO
 ---
 
@@ -139,3 +141,4 @@ To access the identifier values directly, use the
 
 <a href="/windows-hardware/drivers/network/net-buffer-list-receive-queue-id">
    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
+

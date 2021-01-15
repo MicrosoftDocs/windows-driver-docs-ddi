@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
- - PSRIOV_QUERY_LUID
+ - SRIOV_QUERY_LUID
 ---
 
 # SRIOV_QUERY_LUID callback
@@ -107,3 +107,4 @@ Virtualization_QueryLuid (
 
 
 ```
+

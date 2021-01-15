@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _CONFIG_ROM
+ - PCONFIG_ROM
  - CONFIG_ROM
 ---
 

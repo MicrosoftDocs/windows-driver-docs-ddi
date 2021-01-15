@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkSend
+ - NDK_FN_SEND
 ---
 
 # NDK_FN_SEND callback function
@@ -219,3 +219,4 @@ An NDK consumer can use this flag when issuing multiple, related send requests. 
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
+

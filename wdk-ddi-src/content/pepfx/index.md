@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - pepfx
  - pepfx/pepfx
+api_name:
+ - pepfx
 ---
 
 # Pepfx.h header
@@ -22,3 +24,4 @@ f1_keywords:
 This header contains programming interfaces used by the Power Engine Plugins (PEPs). For more information, see:
 
 - [Platform Extension Plug-ins (PEPs)](/windows-hardware/drivers/kernel/platform-extension-plug-ins--peps-)
+

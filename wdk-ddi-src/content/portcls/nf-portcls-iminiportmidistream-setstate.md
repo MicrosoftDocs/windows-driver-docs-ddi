@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportMidiStream.SetState
+ - IMiniportMidiStream::SetState
 ---
 
 # IMiniportMidiStream::SetState
@@ -118,3 +118,4 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
+

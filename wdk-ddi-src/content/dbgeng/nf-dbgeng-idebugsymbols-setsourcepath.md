@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.SetSourcePath
- - IDebugSymbols2.SetSourcePath
- - IDebugSymbols3.SetSourcePath
+ - IDebugSymbols::SetSourcePath
 ---
 
 # IDebugSymbols::SetSourcePath
@@ -103,3 +101,4 @@ For more information about manipulating the source path, see <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

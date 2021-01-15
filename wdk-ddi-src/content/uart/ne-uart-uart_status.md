@@ -29,6 +29,7 @@ api_type:
 api_location:
  - uart.h
 api_name:
+ - PUART_STATUS
  - UART_STATUS
 ---
 

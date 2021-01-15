@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.GetInterrupt
- - IDebugControl2.GetInterrupt
- - IDebugControl3.GetInterrupt
+ - IDebugControl3::GetInterrupt
 ---
 
 # IDebugControl3::GetInterrupt
@@ -108,3 +106,4 @@ This method can be called at any time and from any thread.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupt">SetInterrupt</a>
+

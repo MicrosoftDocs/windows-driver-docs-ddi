@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS
+ - PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS
  - GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS
 ---
 
@@ -80,3 +82,4 @@ The <i>QueryActiveParameters</i> parameter of the <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
+

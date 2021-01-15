@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _IVHD_ACPI_DEVICE_ENTRY
+ - PIVHD_ACPI_DEVICE_ENTRY
+ - IVHD_ACPI_DEVICE_ENTRY
 ---
 
 # _IVHD_ACPI_DEVICE_ENTRY structure
+
 
 ## -description
 
@@ -81,3 +84,4 @@ Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry stru
 ## -remarks
 
 ## -see-also
+

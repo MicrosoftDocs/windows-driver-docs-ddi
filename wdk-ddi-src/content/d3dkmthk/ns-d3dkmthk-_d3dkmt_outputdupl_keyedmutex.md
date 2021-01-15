@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_OUTPUTDUPL_KEYEDMUTEX
+ - D3DKMT_OUTPUTDUPL_KEYEDMUTEX
 dev_langs:
  - c++
 ---

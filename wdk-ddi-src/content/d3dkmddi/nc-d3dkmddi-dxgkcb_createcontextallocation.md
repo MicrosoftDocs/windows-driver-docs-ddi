@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbCreateContextAllocation
+ - DXGKCB_CREATECONTEXTALLOCATION
 ---
 
 # DXGKCB_CREATECONTEXTALLOCATION callback function
@@ -116,3 +116,4 @@ To ensure that the operating system sets a valid (non-<b>NULL</b>) virtual addre
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

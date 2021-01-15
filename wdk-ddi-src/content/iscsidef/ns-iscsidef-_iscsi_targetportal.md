@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - _ISCSI_TargetPortal
+ - PISCSI_TargetPortal
  - ISCSI_TargetPortal
 ---
 
@@ -72,3 +74,4 @@ Socket number associated with the target.
 
 
 <a href="/windows-hardware/drivers/storage/iscsi-targetportal-wmi-class">ISCSI_TargetPortal WMI Class</a>
+

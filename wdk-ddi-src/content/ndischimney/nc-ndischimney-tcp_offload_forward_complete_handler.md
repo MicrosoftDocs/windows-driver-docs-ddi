@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolTcpOffloadForwardComplete
+ - TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER
 ---
 
 # TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function
@@ -121,3 +121,4 @@ In response, NDIS calls the overlying driver's or host stack's
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
    NdisTcpOffloadForwardComplete</a>
+

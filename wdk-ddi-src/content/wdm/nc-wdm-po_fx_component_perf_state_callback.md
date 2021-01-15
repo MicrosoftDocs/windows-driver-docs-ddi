@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ComponentPerfStateCallback
+ - PO_FX_COMPONENT_PERF_STATE_CALLBACK
 ---
 
 # PO_FX_COMPONENT_PERF_STATE_CALLBACK callback function
@@ -88,3 +88,4 @@ If <i>Succeeded</i> is TRUE, the driver should perform whatever work is necessar
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
+

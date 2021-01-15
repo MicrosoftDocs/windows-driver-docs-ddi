@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _ADDRESS_RANGE
+ - PADDRESS_RANGE
  - ADDRESS_RANGE
 ---
 

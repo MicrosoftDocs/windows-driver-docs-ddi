@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_CONVERTER_FORMAT
+ - PHDAUDIO_CONVERTER_FORMAT
  - HDAUDIO_CONVERTER_FORMAT
 ---
 
@@ -119,3 +121,4 @@ Each valid HDAUDIO_CONVERTER_FORMAT encoding has a one-to-one correspondence to 
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_stream_format">HDAUDIO_STREAM_FORMAT</a>
+

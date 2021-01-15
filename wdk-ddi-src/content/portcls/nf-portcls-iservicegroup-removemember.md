@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IServiceGroup.RemoveMember
+ - IServiceGroup::RemoveMember
 ---
 
 # IServiceGroup::RemoveMember
@@ -65,3 +65,4 @@ The <code>RemoveMember</code> method removes a service sink that was previously 
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>
+

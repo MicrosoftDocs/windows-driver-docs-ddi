@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SLOT_MAPPING_INFO
+ - PWWAN_DEVICE_SLOT_MAPPING_INFO
  - WWAN_DEVICE_SLOT_MAPPING_INFO
 ---
 
@@ -72,3 +74,4 @@ The WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapp
 
 
 <a href="/windows-hardware/drivers/network/oid-wwan-device-slot-mappings">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+

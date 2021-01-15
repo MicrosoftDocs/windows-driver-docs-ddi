@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_GETCAPTUREADDRESS
  - DXGKARGCB_GETCAPTUREADDRESS
 ---
 
@@ -66,3 +67,4 @@ The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving in
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_getcaptureaddress">DxgkCbGetCaptureAddress</a>
+

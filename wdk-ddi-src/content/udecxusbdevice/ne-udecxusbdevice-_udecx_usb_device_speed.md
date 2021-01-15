@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_USB_DEVICE_SPEED
+ - PUDECX_USB_DEVICE_SPEED
  - UDECX_USB_DEVICE_SPEED
 ---
 
@@ -72,3 +74,4 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetspeed">UdecxUsbDeviceInitSetSpeed</a>
+

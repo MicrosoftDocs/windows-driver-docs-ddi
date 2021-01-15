@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_SESSION_STATE_INFORMATION
+ - PIO_SESSION_STATE_INFORMATION
  - IO_SESSION_STATE_INFORMATION
 ---
 
@@ -93,3 +95,4 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
+

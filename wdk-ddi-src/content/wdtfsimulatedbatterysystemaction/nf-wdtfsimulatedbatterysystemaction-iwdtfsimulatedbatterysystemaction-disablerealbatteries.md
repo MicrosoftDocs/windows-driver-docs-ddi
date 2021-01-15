@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfsimulatedbatterysystemaction.h
 api_name:
- - IWDTFSimulatedBatterySystemAction.DisableRealBatteries
+ - IWDTFSimulatedBatterySystemAction::DisableRealBatteries
 ---
 
 # IWDTFSimulatedBatterySystemAction::DisableRealBatteries

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_RADIO_STATE
+ - PNDIS_WWAN_RADIO_STATE
  - NDIS_WWAN_RADIO_STATE
 ---
 
@@ -182,3 +184,4 @@ Miniport drivers can set the
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a>
+

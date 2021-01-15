@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pepfx.h
 api_name:
+ - _PEP_PPM_ENTER_SYSTEM_STATE
+ - PPEP_PPM_ENTER_SYSTEM_STATE
  - PEP_PPM_ENTER_SYSTEM_STATE
 ---
 
@@ -66,3 +68,4 @@ PEP must not queue any work from this notification. The processors will not proc
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
+

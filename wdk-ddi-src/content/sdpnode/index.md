@@ -12,6 +12,8 @@ tech.root: bltooth
 f1_keywords:
  - sdpnode
  - sdpnode/sdpnode
+api_name:
+ - sdpnode
 ---
 
 # Sdpnode.h header

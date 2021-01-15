@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrDereferenceDeviceObject
+ - PFNDEREFERENCEDEVICEOBJECT
 ---
 
 # PFNDEREFERENCEDEVICEOBJECT callback function (swenum.h)
@@ -59,3 +59,4 @@ Pointer to a device extension of the device's PDO.
 Minidrivers access this method through the **>DereferenceDeviceObject** member of the [BUS_INTERFACE_REFERENCE](../ks/ns-ks-bus_interface_reference.md) structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
+

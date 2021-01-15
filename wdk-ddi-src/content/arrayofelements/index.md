@@ -11,6 +11,8 @@ ms.topic: portal
 f1_keywords:
  - arrayofelements
  - arrayofelements/arrayofelements
+api_name:
+ - arrayofelements
 ---
 
 # Arrayofelements.h header

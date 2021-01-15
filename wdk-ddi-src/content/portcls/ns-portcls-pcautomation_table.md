@@ -39,6 +39,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - PPCAUTOMATION_TABLE
  - PCAUTOMATION_TABLE
 ---
 
@@ -116,3 +117,4 @@ The <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescr
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcproperty_item">PCPROPERTY_ITEM</a>
+

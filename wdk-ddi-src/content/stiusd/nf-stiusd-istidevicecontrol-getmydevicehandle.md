@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Stiusd.h
 api_name:
- - IStiDeviceControl.GetMyDeviceHandle
+ - IStiDeviceControl::GetMyDeviceHandle
 ---
 
 # IStiDeviceControl::GetMyDeviceHandle
@@ -60,3 +60,4 @@ Defines the <b>HRESULT</b> return value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+

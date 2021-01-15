@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.Complete
+ - IWDFIoRequest::Complete
 ---
 
 # IWDFIoRequest::Complete
@@ -79,7 +79,6 @@ The following code example completes a request with the failure that occurred wh
     }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
@@ -87,3 +86,4 @@ The following code example completes a request with the failure that occurred wh
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-completewithinformation">IWDFIoRequest::CompleteWithInformation</a>
+

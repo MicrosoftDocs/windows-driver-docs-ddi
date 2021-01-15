@@ -35,9 +35,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_SPATIAL_BUFFER
+ - PACPI_PLD_SPATIAL_BUFFER
+ - ACPI_PLD_SPATIAL_BUFFER
 ---
 
 # _ACPI_PLD_SPATIAL_BUFFER structure
+
 
 ## -description
 
@@ -73,3 +76,4 @@ DEFINE_GUID(ACPI_PLD_SPATIAL_BUFFER_GUID,
 ```
 
 ## -see-also
+

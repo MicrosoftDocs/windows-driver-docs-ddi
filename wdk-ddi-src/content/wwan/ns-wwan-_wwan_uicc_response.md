@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_UICC_RESPONSE
+ - PWWAN_UICC_RESPONSE
+ - WWAN_UICC_RESPONSE
 ---
 
 # _WWAN_UICC_RESPONSE structure
@@ -80,3 +82,4 @@ This structure is used in the [**NDIS_WWAN_UICC_RESPONSE**](../ndiswwan/ns-ndisw
 [OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
 
 [**NDIS_WWAN_UICC_RESPONSE**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_response.md)
+

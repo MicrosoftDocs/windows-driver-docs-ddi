@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaEnabler.h
 api_name:
- - EvtDmaEnablerDisable
+ - EVT_WDF_DMA_ENABLER_DISABLE
 ---
 
 # EVT_WDF_DMA_ENABLER_DISABLE callback function
@@ -77,3 +77,4 @@ For more information about the <i>EvtDmaEnablerDisable</i> callback function, se
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
+

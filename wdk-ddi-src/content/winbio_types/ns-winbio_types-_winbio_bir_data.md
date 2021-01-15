@@ -39,6 +39,7 @@ api_type:
 api_location:
  - winbio_types.h
 api_name:
+ - _WINBIO_BIR_DATA
  - WINBIO_BIR_DATA
 ---
 
@@ -70,3 +71,4 @@ Specifies the offset, in bytes, of the block within the BIR.
 
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a>
+

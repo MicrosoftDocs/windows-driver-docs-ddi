@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILIMSSTATUS_V2
+ - LPRILIMSSTATUS_V2
 ---
 
 # RILIMSSTATUS_V2 structure (rilapitypes.h)

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddsysenv.h
 api_name:
+ - _XVARIABLE_NAME
+ - PXVARIABLE_NAME
  - XVARIABLE_NAME
 ---
 
@@ -69,3 +71,4 @@ Name of the system environment variable.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a>
+

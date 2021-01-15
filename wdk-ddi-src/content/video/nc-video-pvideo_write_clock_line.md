@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - WriteClockLine
+ - PVIDEO_WRITE_CLOCK_LINE
 ---
 
 # PVIDEO_WRITE_CLOCK_LINE callback function
@@ -84,3 +84,4 @@ Supplies a value that specifies whether to set the serial clock line to high or 
 
 
 <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>
+

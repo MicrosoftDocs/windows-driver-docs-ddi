@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptablePropertyBag.GetString
+ - IPrinterScriptablePropertyBag::GetString
 ---
 
 # IPrinterScriptablePropertyBag::GetString
@@ -70,3 +70,4 @@ A call to <b>GetString</b> will throw an exception, if the specified property is
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+

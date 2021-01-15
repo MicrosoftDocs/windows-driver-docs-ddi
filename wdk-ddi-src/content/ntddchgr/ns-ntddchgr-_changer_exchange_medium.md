@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_EXCHANGE_MEDIUM
+ - PCHANGER_EXCHANGE_MEDIUM
  - CHANGER_EXCHANGE_MEDIUM
 ---
 
@@ -88,3 +90,4 @@ Indicates, when <b>TRUE</b>, that the medium moved to <b>Destination2</b> should
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_exchange_medium">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
+

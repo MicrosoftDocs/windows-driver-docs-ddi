@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATEOVERLAY
  - D3DDDIARG_CREATEOVERLAY
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a>
+

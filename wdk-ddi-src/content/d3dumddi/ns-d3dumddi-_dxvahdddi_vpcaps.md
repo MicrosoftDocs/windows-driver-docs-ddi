@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_VPCAPS
  - DXVAHDDDI_VPCAPS
 ---
 
@@ -127,3 +128,4 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPCAPS s
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

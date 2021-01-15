@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_HW_FIRMWARE_ACTIVATE
+ - PSTORAGE_HW_FIRMWARE_ACTIVATE
  - STORAGE_HW_FIRMWARE_ACTIVATE
 ---
 

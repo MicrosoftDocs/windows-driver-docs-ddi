@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCW_CALLBACK_INFORMATION
+ - PPCW_CALLBACK_INFORMATION
  - PCW_CALLBACK_INFORMATION
 ---
 

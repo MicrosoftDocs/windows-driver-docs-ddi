@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dmusprop.h
 api_name:
+ - _SYNTH_REVERB_PARAMS
+ - PSYNTH_REVERB_PARAMS
  - SYNTH_REVERB_PARAMS
 ---
 

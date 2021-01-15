@@ -34,6 +34,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+ - PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
  - WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
 product:
  - Windows
@@ -93,3 +95,4 @@ The WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure is used as input to 
 For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
 
 ## -see-also
+

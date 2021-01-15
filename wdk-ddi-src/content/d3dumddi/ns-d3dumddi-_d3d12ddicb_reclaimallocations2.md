@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3D12DDICB_RECLAIMALLOCATIONS2
  - D3D12DDICB_RECLAIMALLOCATIONS2
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - DereferenceSwitchPort
+ - NDIS_SWITCH_DEREFERENCE_SWITCH_PORT
 ---
 
 # NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback function
@@ -84,3 +84,4 @@ The extension must call <i>DereferenceSwitchPort</i> if it had previously called
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a>
+

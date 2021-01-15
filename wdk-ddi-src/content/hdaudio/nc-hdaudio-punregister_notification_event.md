@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
- - UnregisterNotificationEvent
+ - PUNREGISTER_NOTIFICATION_EVENT
 ---
 
 # PUNREGISTER_NOTIFICATION_EVENT callback function
@@ -88,3 +88,4 @@ A pointer to a kernel event that was previously registered for DMA progress noti
  
 
 [hdaudio.h](../hdaudio/index.md)
+

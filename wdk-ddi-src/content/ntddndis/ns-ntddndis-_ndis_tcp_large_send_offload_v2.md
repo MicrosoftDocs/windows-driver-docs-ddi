@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ - PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
  - NDIS_TCP_LARGE_SEND_OFFLOAD_V2
 ---
 
@@ -226,3 +228,4 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+

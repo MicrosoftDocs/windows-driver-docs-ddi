@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniRemoveEvent
+ - PFNKSREMOVEEVENT
 ---
 
 # PFNKSREMOVEEVENT callback function
@@ -90,3 +90,4 @@ Otherwise, your *AVStrMiniRemoveEvent* should reverse the steps taken in the **A
 [KsPinAddEvent](./nf-ks-kspinaddevent.md)
 
 [KsPinGenerateEvents](./nf-ks-kspingenerateevents.md)
+

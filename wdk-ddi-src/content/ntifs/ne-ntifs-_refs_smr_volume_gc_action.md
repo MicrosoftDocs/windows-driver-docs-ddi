@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _REFS_SMR_VOLUME_GC_ACTION
+ - PREFS_SMR_VOLUME_GC_ACTION
  - REFS_SMR_VOLUME_GC_ACTION
 ---
 
@@ -72,3 +74,4 @@ Specifies to stop the garbage collection process and removes the ability to resu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ifs/fsctl-set-refs-smr-volume-gc-parameters">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
+

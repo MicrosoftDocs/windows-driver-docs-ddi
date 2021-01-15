@@ -34,6 +34,7 @@ api_type:
 api_location:
  - extension.h
 api_name:
+ - _NET_EXTENSION
  - NET_EXTENSION
 ---
 
@@ -75,3 +76,4 @@ For examples of creating packet queues, see [Transmit and receive queues](/windo
 [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
 [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionContextCollection.GetAt
+ - IPrinterExtensionContextCollection::GetAt
 ---
 
 # IPrinterExtensionContextCollection::GetAt
@@ -70,3 +70,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
+

@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - mdltypes
  - mdltypes/mdltypes
+api_name:
+ - mdltypes
 ---
 
 # Mdltypes.h header

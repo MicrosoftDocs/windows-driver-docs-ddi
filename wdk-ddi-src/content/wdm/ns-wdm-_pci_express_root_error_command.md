@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_ROOT_ERROR_COMMAND
+ - PPCI_EXPRESS_ROOT_ERROR_COMMAND
  - PCI_EXPRESS_ROOT_ERROR_COMMAND
 ---
 
@@ -103,3 +105,4 @@ A PCI_EXPRESS_ROOT_ERROR_COMMAND structure is contained in the <a href="/windows
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+

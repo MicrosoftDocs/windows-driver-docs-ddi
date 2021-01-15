@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_QUERYSEGMENTIN4
  - DXGK_QUERYSEGMENTIN4
 ---
 
@@ -58,3 +59,4 @@ A zero-based physical adapter index in a linked display adapter  (LDA) link. Zer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout4">DXGK_QUERYSEGMENTOUT4</a>
+

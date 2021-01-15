@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceCaps
+ - LPDXVA_DeinterlaceCaps
  - DXVA_DeinterlaceCaps
 ---
 
@@ -98,3 +100,4 @@ The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> memb
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a>
+

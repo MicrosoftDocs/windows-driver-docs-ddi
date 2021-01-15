@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _FILE_STANDARD_INFORMATION
+ - PFILE_STANDARD_INFORMATION
  - FILE_STANDARD_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ The file directory status. <b>TRUE</b> indicates the file object represents a di
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

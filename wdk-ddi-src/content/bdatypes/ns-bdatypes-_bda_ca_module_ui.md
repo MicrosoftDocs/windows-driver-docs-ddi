@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_CA_MODULE_UI
+ - PBDA_CA_MODULE_UI
  - BDA_CA_MODULE_UI
 ---
 
@@ -72,3 +74,4 @@ Array of descriptors for the UI.
 
 
 <a href="/windows-hardware/drivers/stream/kspropsetid-bdaca">KSPROPSETID_BdaCA</a>
+

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostEvaluator2.QueryInterface
+ - IDebugHostEvaluator2::QueryInterface
 ---
 
 # IDebugHostEvaluator2::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostEvaluator2 interface](nn-dbgmodel-idebughostevaluator2.md)
+

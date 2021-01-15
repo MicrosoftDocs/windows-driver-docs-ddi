@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_AUTH_PROTOCOL
+ - PWWAN_AUTH_PROTOCOL
  - WWAN_AUTH_PROTOCOL
 ---
 
@@ -88,3 +90,4 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_context_state">WWAN_SET_CONTEXT_STATE</a>
+

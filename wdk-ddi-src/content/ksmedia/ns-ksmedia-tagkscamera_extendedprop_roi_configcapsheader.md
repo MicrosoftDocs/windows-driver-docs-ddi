@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
+ - PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
  - KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
 ---
 
@@ -64,3 +66,4 @@ Contains the number of <b>KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS</b> structures th
 ### -field Reserved
 
 Reserved for future use.
+

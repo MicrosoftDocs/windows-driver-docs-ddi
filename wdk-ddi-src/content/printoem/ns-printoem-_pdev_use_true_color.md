@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PDEV_USE_TRUE_COLOR
  - PDEV_USE_TRUE_COLOR
 ---
 
@@ -66,3 +67,4 @@ A plug-in can use this flag to turn color output on or off for Pscript5 printer 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>
+

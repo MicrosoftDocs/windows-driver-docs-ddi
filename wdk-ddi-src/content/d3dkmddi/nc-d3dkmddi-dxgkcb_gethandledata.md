@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbGetHandleData
+ - DXGKCB_GETHANDLEDATA
 ---
 
 # DXGKCB_GETHANDLEDATA callback function
@@ -118,3 +118,4 @@ DxgkDdiOpenAllocation(
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
+

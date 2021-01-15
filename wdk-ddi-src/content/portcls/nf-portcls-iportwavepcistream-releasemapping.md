@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortWavePciStream.ReleaseMapping
+ - IPortWavePciStream::ReleaseMapping
 ---
 
 # IPortWavePciStream::ReleaseMapping
@@ -85,3 +85,4 @@ To avoid potential deadlocks, the miniport driver must avoid holding a spin lock
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
+

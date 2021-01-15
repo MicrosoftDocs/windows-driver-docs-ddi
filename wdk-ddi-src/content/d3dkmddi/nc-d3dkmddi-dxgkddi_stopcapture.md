@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiStopCapture
+ - DXGKDDI_STOPCAPTURE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ When a capture buffer is destroyed, the DirectX graphics kernel subsystem calls 
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

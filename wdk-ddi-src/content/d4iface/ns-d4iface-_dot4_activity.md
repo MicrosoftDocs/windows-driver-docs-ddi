@@ -41,6 +41,8 @@ api_type:
 api_location:
  - D4iface.h
 api_name:
+ - _DOT4_ACTIVITY
+ - PDOT4_ACTIVITY
  - DOT4_ACTIVITY
 ---
 

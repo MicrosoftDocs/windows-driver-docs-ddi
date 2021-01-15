@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE
+ - D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE
 dev_langs:
  - c++
 ---

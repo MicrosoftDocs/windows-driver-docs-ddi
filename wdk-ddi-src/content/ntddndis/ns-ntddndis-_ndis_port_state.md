@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PORT_STATE
+ - PNDIS_PORT_STATE
  - NDIS_PORT_STATE
 ---
 
@@ -241,3 +243,4 @@ The NDIS_PORT_STATE structure is used in the
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-port-state">OID_GEN_PORT_STATE</a>
+

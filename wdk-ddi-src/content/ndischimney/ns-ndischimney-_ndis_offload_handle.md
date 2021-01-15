@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_OFFLOAD_HANDLE
+ - PNDIS_OFFLOAD_HANDLE
  - NDIS_OFFLOAD_HANDLE
 ---
 
@@ -87,3 +89,4 @@ For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">NdisMInitiateOffloadComplete</a>
+

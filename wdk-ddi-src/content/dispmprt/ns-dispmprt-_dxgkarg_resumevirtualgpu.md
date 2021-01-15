@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_RESUMEVIRTUALGPU
+ - PDXGKARG_RESUMEVIRTUALGPU
+ - DXGKARG_RESUMEVIRTUALGPU
 product:
  - Windows
 dev_langs:

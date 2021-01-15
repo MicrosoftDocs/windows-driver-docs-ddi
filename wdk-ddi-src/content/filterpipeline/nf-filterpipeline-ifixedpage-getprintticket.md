@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IFixedPage.GetPrintTicket
+ - IFixedPage::GetPrintTicket
 ---
 
 # IFixedPage::GetPrintTicket
@@ -77,3 +77,4 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a>
+

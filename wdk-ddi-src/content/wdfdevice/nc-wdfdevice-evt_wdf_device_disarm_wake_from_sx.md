@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceDisarmWakeFromSx
+ - EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX
 ---
 
 # EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback function
@@ -81,3 +81,4 @@ The <i>EvtDeviceDisarmWakeFromSx</i> callback function is called at IRQL = PASSI
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered">EvtDeviceWakeFromSxTriggered</a>
+

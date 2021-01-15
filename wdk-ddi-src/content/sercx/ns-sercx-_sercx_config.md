@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
+ - _SERCX_CONFIG
+ - PSERCX_CONFIG
  - SERCX_CONFIG
 ---
 
@@ -168,3 +170,4 @@ Before this structure is passed to the <a href="/windows-hardware/drivers/ddi/se
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetfilter">WdfFdoInitSetFilter</a>
+

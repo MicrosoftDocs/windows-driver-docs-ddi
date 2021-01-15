@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _GET_CONFIGURATION_IOCTL_INPUT
+ - PGET_CONFIGURATION_IOCTL_INPUT
  - GET_CONFIGURATION_IOCTL_INPUT
 ---
 
@@ -80,3 +82,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_configuration">IOCTL_CDROM_GET_CONFIGURATION</a>
+

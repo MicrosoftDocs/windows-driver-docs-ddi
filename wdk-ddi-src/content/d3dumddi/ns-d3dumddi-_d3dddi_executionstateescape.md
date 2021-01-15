@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDI_EXECUTIONSTATEESCAPE
  - D3DDDI_EXECUTIONSTATEESCAPE
 ---
 
@@ -58,3 +59,4 @@ Specifies the state of the device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a>
+

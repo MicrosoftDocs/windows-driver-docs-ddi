@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SMHBA_PROTOCOLSTATISTICS
+ - PMS_SMHBA_PROTOCOLSTATISTICS
  - MS_SMHBA_PROTOCOLSTATISTICS
 ---
 

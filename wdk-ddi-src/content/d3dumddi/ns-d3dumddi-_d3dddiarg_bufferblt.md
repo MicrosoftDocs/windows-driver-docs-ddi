@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_BUFFERBLT
  - D3DDDIARG_BUFFERBLT
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_BUFFERBLT structure describes the parameters of a buffer bit-block
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_bufblt">BufBlt</a>
+

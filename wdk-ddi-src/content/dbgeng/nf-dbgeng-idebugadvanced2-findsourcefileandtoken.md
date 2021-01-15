@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced2.FindSourceFileAndToken
- - IDebugAdvanced3.FindSourceFileAndToken
+ - IDebugAdvanced2::FindSourceFileAndToken
 ---
 
 # IDebugAdvanced2::FindSourceFileAndToken
@@ -260,3 +259,4 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
+

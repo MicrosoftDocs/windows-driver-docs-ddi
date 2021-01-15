@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETTRANSFORM
  - D3DDDIARG_SETTRANSFORM
 ---
 
@@ -72,3 +73,4 @@ The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_settransform">SetTransform</a>
+

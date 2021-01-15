@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_GROUPS_AND_PRIVILEGES
+ - PTOKEN_GROUPS_AND_PRIVILEGES
  - TOKEN_GROUPS_AND_PRIVILEGES
 ---
 
@@ -168,3 +170,4 @@ The locally unique identifier (LUID) of the authenticator of the token.
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

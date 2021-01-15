@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+ - PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST
  - DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 product:
  - Windows 10 or later.
@@ -98,3 +100,4 @@ A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when
 
 <a href="..\windot11\ns-windot11-_dot11_supported_ofdm_frequency.md">
    DOT11_SUPPORTED_OFDM_FREQUENCY</a>
+

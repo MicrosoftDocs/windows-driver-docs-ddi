@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_OFFLOAD_WRITE_OUTPUT
+ - PSTORAGE_OFFLOAD_WRITE_OUTPUT
  - STORAGE_OFFLOAD_WRITE_OUTPUT
 ---
 
@@ -83,3 +85,4 @@ The STORAGE_OFFLOAD_WRITE_OUTPUT structure is returned at the beginning of the s
 [DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS](./ns-ntddstor-_device_dsm_offload_write_parameters.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

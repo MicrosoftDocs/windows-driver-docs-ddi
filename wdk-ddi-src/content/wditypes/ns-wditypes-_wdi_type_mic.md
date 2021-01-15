@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_TYPE_MIC
+ - PWDI_TYPE_MIC
  - WDI_TYPE_MIC
 ---
 

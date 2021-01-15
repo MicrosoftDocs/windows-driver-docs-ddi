@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFcpTargetMapping_OUT
+ - PGetFcpTargetMapping_OUT
  - GetFcpTargetMapping_OUT
 ---
 
@@ -90,3 +92,4 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 
 <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>
+

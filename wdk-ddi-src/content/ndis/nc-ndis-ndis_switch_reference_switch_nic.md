@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ReferenceSwitchNic
+ - NDIS_SWITCH_REFERENCE_SWITCH_NIC
 ---
 
 # NDIS_SWITCH_REFERENCE_SWITCH_NIC callback function
@@ -130,3 +130,4 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-nic-request">OID_SWITCH_NIC_REQUEST</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETSLOTPOWERPARAMS
+ - LPRILSETSLOTPOWERPARAMS
 ---
 
 # RILSETSLOTPOWERPARAMS structure (rilapitypes.h)

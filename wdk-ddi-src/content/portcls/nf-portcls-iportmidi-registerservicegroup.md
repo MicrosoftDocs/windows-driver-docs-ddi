@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortMidi.RegisterServiceGroup
+ - IPortMidi::RegisterServiceGroup
 ---
 
 # IPortMidi::RegisterServiceGroup
@@ -73,3 +73,4 @@ The <i>ServiceGroup</i> parameter follows the <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+

@@ -38,7 +38,7 @@ api_location:
  - Portcls.lib
  - Portcls.dll
 api_name:
- - IPortClsNotifications.AllocNotificationBuffer
+ - IPortClsNotifications::AllocNotificationBuffer
 ---
 
 # IPortClsNotifications::AllocNotificationBuffer
@@ -88,3 +88,4 @@ Callers of <b>AllocNotificationBuffer</b> must be running at IRQL <= DISPATCH_LE
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
+

@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_GETGPUENGINES
+ - PDXGKARG_GETGPUENGINES
+ - DXGKARG_GETGPUENGINES
 product:
  - Windows
 dev_langs:

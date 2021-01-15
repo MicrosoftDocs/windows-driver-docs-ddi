@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelConcept.Release
+ - IDataModelConcept::Release
 ---
 
 # IDataModelConcept::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelConcept interface](nn-dbgmodel-idatamodelconcept.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _CUSTOMSIZEPARAM
+ - PCUSTOMSIZEPARAM
  - CUSTOMSIZEPARAM
 ---
 
@@ -72,3 +74,4 @@ The custom page size parameters include Width, Height, WidthOffset, HeightOffset
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a>
+

@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - pcivirt
  - pcivirt/pcivirt
+api_name:
+ - pcivirt
 ---
 
 # Pcivirt.h header
@@ -128,3 +130,4 @@ The virtualization stack is responsible for sending the appropriate messages to 
 - The virtualization stack queries the devices about PnP events by sending IOCTL_SRIOV_NOTIFICATION requests. The PF driver can inform the virtualization stack of a PnP event by completing the IOCTL_SRIOV_NOTIFICATION request.
 
 - The virtualization stack unblocks those events by sending IOCTL_SRIOV_EVENT_COMPLETE.
+

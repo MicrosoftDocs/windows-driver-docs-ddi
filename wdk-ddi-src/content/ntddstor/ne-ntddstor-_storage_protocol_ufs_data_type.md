@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_UFS_DATA_TYPE
+ - PSTORAGE_PROTOCOL_UFS_DATA_TYPE
  - STORAGE_PROTOCOL_UFS_DATA_TYPE
 ---
 
@@ -68,3 +70,4 @@ Max size of data type.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a>
+

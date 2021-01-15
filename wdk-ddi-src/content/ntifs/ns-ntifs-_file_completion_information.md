@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_COMPLETION_INFORMATION
+ - PFILE_COMPLETION_INFORMATION
  - FILE_COMPLETION_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ The <b>FILE_COMPLETION_INFORMATION</b> structure is used to replace the completi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

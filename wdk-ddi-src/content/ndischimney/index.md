@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ndischimney
  - ndischimney/ndischimney
+api_name:
+ - ndischimney
 ---
 
 # Ndischimney.h header

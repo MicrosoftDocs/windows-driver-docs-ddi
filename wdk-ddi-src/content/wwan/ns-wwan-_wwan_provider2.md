@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PROVIDER2
+ - PWWAN_PROVIDER2
  - WWAN_PROVIDER2
 ---
 
@@ -80,3 +82,4 @@ A value that represents the strength of the wireless signal. Please refer to <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a>
+

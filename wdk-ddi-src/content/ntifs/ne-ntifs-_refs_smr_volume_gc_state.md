@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _REFS_SMR_VOLUME_GC_STATE
+ - PREFS_SMR_VOLUME_GC_STATE
  - REFS_SMR_VOLUME_GC_STATE
 ---
 

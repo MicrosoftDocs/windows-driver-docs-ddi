@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - UNIFONTOBJ_GetInfo
+ - PFNGETINFO
 ---
 
 # PFNGETINFO callback function
@@ -258,3 +258,4 @@ The current value for one or more of Unidrv's <a href="/windows-hardware/drivers
  
 
 If the buffer described by <i>pData</i> and <i>dwDataSize</i> is too small to receive the structure indicated by <i>dwInfoID</i>, the function loads the required buffer size into the location pointed by <i>pcbNeeded</i> and returns <b>FALSE</b>.
+

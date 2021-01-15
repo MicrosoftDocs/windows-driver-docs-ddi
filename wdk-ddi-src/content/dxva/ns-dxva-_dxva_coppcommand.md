@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPCommand
+ - LPDXVA_COPPCommand
  - DXVA_COPPCommand
 ---
 
@@ -124,3 +126,4 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppsignature">DXVA_COPPSignature</a>
+

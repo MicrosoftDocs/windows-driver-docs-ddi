@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ - PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
  - SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 ---
 
@@ -326,3 +328,4 @@ enclosure services process expects in the <i>BufferOffset</i> field in <a href="
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>
+

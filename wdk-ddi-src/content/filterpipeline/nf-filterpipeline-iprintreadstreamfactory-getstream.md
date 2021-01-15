@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPrintReadStreamFactory.GetStream
+ - IPrintReadStreamFactory::GetStream
 ---
 
 # IPrintReadStreamFactory::GetStream
@@ -100,3 +100,4 @@ if (SUCCEEDED(hr))
  VariantClear(&var);
 }
 ```
+

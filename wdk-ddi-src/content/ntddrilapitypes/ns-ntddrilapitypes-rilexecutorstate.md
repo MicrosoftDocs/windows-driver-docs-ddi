@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILEXECUTORSTATE
+ - LPRILEXECUTORSTATE
 ---
 
 # RILEXECUTORSTATE structure (ntddrilapitypes.h)

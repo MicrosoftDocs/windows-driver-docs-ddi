@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - MyAVStrMiniDeviceIRP
+ - PFNKSDEVICEIRPVOID
 ---
 
 # PFNKSDEVICEIRPVOID callback function
@@ -153,3 +153,4 @@ This routine is optional.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
+

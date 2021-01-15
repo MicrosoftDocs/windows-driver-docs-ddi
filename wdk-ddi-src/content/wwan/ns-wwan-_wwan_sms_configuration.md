@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_CONFIGURATION
+ - PWWAN_SMS_CONFIGURATION
  - WWAN_SMS_CONFIGURATION
 ---
 
@@ -102,3 +104,4 @@ Miniport drivers need to fill in this data structure only when processing
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
+

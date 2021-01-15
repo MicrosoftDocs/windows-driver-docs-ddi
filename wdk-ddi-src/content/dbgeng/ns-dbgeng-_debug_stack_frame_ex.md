@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_STACK_FRAME_EX
+ - PDEBUG_STACK_FRAME_EX
  - DEBUG_STACK_FRAME_EX
 ---
 
@@ -96,3 +98,4 @@ Inline frame context.
 ### -field Reserved1
 
 Used for alignment purposes. Set to 0.
+

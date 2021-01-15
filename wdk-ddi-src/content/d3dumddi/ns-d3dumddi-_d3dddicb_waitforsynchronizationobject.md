@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
  - D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
 ---
 
@@ -66,3 +67,4 @@ The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters tha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb">pfnWaitForSynchronizationObjectCb</a>
+

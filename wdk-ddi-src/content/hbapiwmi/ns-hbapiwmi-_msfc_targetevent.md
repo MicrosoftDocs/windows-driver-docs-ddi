@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_TargetEvent
+ - PMSFC_TargetEvent
  - MSFC_TargetEvent
 ---
 
@@ -68,3 +70,4 @@ Contains a worldwide name that indicates the remote port for which the event occ
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
+

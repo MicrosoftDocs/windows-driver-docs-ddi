@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_PM_CAPABILITIES
+ - PNDIS_PM_CAPABILITIES
  - NDIS_PM_CAPABILITIES
 ---
 
@@ -596,3 +598,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a>
+

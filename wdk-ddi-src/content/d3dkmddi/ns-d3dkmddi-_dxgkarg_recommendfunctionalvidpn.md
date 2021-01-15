@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_RECOMMENDFUNCTIONALVIDPN
  - DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ---
 
@@ -78,3 +79,4 @@ The size, in bytes, of the data block pointed to by <i>pPrivateDriverData</i>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>
+

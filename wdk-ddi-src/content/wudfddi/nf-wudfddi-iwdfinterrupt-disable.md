@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.Disable
+ - IWDFInterrupt::Disable
 ---
 
 # IWDFInterrupt::Disable
@@ -67,7 +67,6 @@ The following code example disables the device interrupt that is associated with
 pIWdfInterrupt->Disable();
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
@@ -75,3 +74,4 @@ pIWdfInterrupt->Disable();
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-enable">IWDFInterrupt::Enable</a>
+

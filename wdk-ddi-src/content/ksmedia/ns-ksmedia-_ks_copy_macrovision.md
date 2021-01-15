@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KS_COPY_MACROVISION
+ - PKS_COPY_MACROVISION
  - KS_COPY_MACROVISION
 ---
 
@@ -113,3 +115,4 @@ For additional uses of this structure see <a href="/windows-hardware/drivers/str
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-copy-macrovision">KSPROPERTY_COPY_MACROVISION</a>
+

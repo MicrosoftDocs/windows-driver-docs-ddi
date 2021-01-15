@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_IPSEC_V4_
  - FWPS_FIELDS_IPSEC_V4
 ---
 
@@ -98,3 +99,4 @@ The IPsec security realm identifier.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

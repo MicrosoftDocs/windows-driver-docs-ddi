@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _FCP_FRAME
+ - PFCP_FRAME
  - FCP_FRAME
 ---
 

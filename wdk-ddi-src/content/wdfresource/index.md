@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfresource
  - wdfresource/wdfresource
+api_name:
+ - wdfresource
 ---
 
 # Wdfresource.h header

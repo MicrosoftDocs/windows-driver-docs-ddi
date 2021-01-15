@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_IF_INFORMATION
+ - PNET_IF_INFORMATION
  - NET_IF_INFORMATION
 ---
 
@@ -282,3 +284,4 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+

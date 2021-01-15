@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_BSS_ENTRY
+ - PDOT11_BSS_ENTRY
 product:
  - Windows 10 or later.
 ---
@@ -248,3 +249,4 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>
+

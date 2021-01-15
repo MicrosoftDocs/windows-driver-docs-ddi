@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsDeviceFunctions.RegisterAdapterObjectEx
+ - IKsDeviceFunctions::RegisterAdapterObjectEx
 ---
 
 # IKsDeviceFunctions::RegisterAdapterObjectEx
@@ -87,3 +87,4 @@ Also see <a href="/windows-hardware/drivers/stream/supporting-dma-in-64-bit-avst
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_CONNECTION_STATUS
+ - PUSB_CONNECTION_STATUS
  - USB_CONNECTION_STATUS
 ---
 
@@ -116,3 +118,4 @@ The USB bus driver reports connection status in a <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex">USB_NODE_CONNECTION_INFORMATION_EX</a>
+

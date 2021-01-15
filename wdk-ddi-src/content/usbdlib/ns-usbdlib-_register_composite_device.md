@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbdlib.h
 api_name:
+ - _REGISTER_COMPOSITE_DEVICE
+ - PREGISTER_COMPOSITE_DEVICE
  - REGISTER_COMPOSITE_DEVICE
 ---
 
@@ -92,3 +94,4 @@ The number of functions supported by the composite device. The <b>FunctionCount<
 
 
 <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a>
+

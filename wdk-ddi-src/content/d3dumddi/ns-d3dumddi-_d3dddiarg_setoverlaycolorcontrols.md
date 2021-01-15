@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_SETOVERLAYCOLORCONTROLS
  - D3DDDIARG_SETOVERLAYCOLORCONTROLS
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_SETOVERLAYCOLORCONTROLS structure describes the parameters for cha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols">SetOverlayColorControls</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_CONTAINER_INFORMATION_CLASS
  - IO_CONTAINER_INFORMATION_CLASS
 ---
 
@@ -66,3 +67,4 @@ To request system information, a driver calls the <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.SetScopeFromStoredEvent
+ - IDebugSymbols3::SetScopeFromStoredEvent
 ---
 
 # IDebugSymbols3::SetScopeFromStoredEvent
@@ -97,3 +97,4 @@ For more information about scopes, see <a href="/windows-hardware/drivers/debugg
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setscopeframebyindex">SetScopeFrameByIndex</a>
+

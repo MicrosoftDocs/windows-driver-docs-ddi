@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_PRIVATEDATA
  - DXVADDI_PRIVATEDATA
 ---
 
@@ -70,3 +71,4 @@ The DXVADDI_PRIVATEDATA structure describes data that is required for a particul
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeextensionexecute">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
+

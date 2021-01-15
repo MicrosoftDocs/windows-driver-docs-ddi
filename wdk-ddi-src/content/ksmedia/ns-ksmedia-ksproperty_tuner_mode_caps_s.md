@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_MODE_CAPS_S
  - KSPROPERTY_TUNER_MODE_CAPS_S
 ---
 
@@ -167,3 +168,4 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

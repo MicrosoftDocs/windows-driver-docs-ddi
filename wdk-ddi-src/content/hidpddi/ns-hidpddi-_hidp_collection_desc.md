@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hidpddi.h
 api_name:
+ - _HIDP_COLLECTION_DESC
+ - PHIDP_COLLECTION_DESC
  - HIDP_COLLECTION_DESC
 ---
 
@@ -92,3 +94,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getp
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
+

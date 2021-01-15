@@ -36,6 +36,8 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_PD_ALTERNATE_MODE
+ - PUSBC_PD_ALTERNATE_MODE
+ - USBC_PD_ALTERNATE_MODE
 ---
 
 # _USBC_PD_ALTERNATE_MODE structure

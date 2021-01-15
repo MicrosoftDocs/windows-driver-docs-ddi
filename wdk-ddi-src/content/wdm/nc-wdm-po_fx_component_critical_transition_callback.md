@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ComponentCriticalTransitionCallback
+ - PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK
 ---
 
 # PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK callback function
@@ -81,3 +81,4 @@ For more information about F<i>x</i> component power states, see <a href="/windo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a>
+

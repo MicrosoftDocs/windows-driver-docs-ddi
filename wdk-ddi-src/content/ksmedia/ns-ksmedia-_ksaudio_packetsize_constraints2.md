@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSAUDIO_PACKETSIZE_CONSTRAINTS2
  - KSAUDIO_PACKETSIZE_CONSTRAINTS2
 ---
 
@@ -140,3 +141,4 @@ The driver sets this variable length data structure as the value of the DEVPKEY_
 For WaveRT drivers, this data structure describes the constraints for a WaveRT packet. Several WaveRT packets (typically 2) are concatenated to form the WaveRT buffer.
 
 The <b>KSAUDIO_PACKETSIZE_CONSTRAINTS2</b> struct is available  beginning with Windows 10, version 1607.
+

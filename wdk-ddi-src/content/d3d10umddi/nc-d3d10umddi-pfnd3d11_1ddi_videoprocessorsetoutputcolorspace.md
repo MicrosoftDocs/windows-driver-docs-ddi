@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetOutputColorSpace
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE
 product:
  - Windows
 ---
@@ -107,3 +107,4 @@ If this member is set to one, the format that is used is the extended xvYCC form
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_color_space">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_POWER_INFO
+ - PIDE_POWER_INFO
  - IDE_POWER_INFO
 ---
 
@@ -69,3 +71,4 @@ Contains an enumeration value of type IDE_POWER_STATE that indicates the power s
 
 
 <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a>
+

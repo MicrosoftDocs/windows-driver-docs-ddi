@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddvol
  - ntddvol/ntddvol
+api_name:
+ - ntddvol
 ---
 
 # Ntddvol.h header

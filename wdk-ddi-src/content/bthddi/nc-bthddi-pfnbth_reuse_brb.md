@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - BthReuseBrb
+ - PFNBTH_REUSE_BRB
 ---
 
 # PFNBTH_REUSE_BRB callback function
@@ -73,3 +73,4 @@ Profile drivers obtain a pointer to the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a>
+

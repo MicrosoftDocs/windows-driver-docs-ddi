@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_HWREGISTER_PROPERTY
  - KSRTAUDIO_HWREGISTER_PROPERTY
 ---
 
@@ -78,3 +79,4 @@ The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardw
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_hwregister">KSRTAUDIO_HWREGISTER</a>
+

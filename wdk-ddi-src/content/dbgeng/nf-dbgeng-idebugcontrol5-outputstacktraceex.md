@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl5.OutputStackTraceEx
+ - IDebugControl5::OutputStackTraceEx
 ---
 
 # IDebugControl5::OutputStackTraceEx
@@ -227,3 +227,4 @@ The array of stack frames can be obtained using <a href="/windows-hardware/drive
 
 
 <a href="/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+

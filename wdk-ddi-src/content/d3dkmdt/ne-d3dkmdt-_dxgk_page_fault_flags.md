@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _DXGK_PAGE_FAULT_FLAGS
  - DXGK_PAGE_FAULT_FLAGS
 ---
 
@@ -84,3 +85,4 @@ When set, this indicates that the faulting GPU's virtual address was mapped usin
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+

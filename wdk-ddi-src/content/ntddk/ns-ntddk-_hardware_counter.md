@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _HARDWARE_COUNTER
+ - PHARDWARE_COUNTER
  - HARDWARE_COUNTER
 ---
 
@@ -89,3 +91,4 @@ The <b>Type</b> member specifies the type of hardware counter that is described 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a>
+

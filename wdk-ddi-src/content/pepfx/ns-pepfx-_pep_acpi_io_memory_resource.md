@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_IO_MEMORY_RESOURCE
+ - PPEP_ACPI_IO_MEMORY_RESOURCE
  - PEP_ACPI_IO_MEMORY_RESOURCE
 ---
 
@@ -82,3 +84,4 @@ Specifies the number of bytes in the IO range.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a>
+

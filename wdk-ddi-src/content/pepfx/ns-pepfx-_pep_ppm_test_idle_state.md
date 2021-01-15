@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_TEST_IDLE_STATE
+ - PPEP_PPM_TEST_IDLE_STATE
  - PEP_PPM_TEST_IDLE_STATE
 ---
 
@@ -84,3 +86,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_test_idle_state">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>
+

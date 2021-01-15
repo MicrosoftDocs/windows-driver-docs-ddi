@@ -42,6 +42,7 @@ api_location:
  - acpitabl.h
 api_name:
  - _SDEV_SECURE_ACPI_INFO_ENTRY
+ - PSDEV_SECURE_ACPI_INFO_ENTRY
  - SDEV_SECURE_ACPI_INFO_ENTRY
 ---
 

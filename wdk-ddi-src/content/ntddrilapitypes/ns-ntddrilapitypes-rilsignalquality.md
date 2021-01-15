@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSIGNALQUALITY
+ - LPRILSIGNALQUALITY
 ---
 
 # RILSIGNALQUALITY structure (ntddrilapitypes.h)

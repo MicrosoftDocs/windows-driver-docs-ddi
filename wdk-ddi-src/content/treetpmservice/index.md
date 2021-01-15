@@ -13,12 +13,16 @@ ms.custom: RS5
 f1_keywords:
  - treetpmservice
  - treetpmservice/treetpmservice
+api_name:
+ - treetpmservice
 ---
 
 # Treetpmservice.h header
+
 
 ## -description
 
 This header is used by treedrv. For more information, see:
 
 - [Trusted Execution Environment (TrEE)](../_treedrv/index.md)<br><br>
+

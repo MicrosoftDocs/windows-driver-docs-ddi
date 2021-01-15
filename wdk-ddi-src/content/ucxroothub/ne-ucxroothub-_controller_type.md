@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _CONTROLLER_TYPE
  - CONTROLLER_TYPE
 ---
 
@@ -62,3 +63,4 @@ Indicates the USB host controller is software an xHCI controller.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_info">ROOTHUB_INFO</a>
+

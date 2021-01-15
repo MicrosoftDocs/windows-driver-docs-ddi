@@ -12,6 +12,8 @@ tech.root: nfpdrivers
 f1_keywords:
  - nfcradiodev
  - nfcradiodev/nfcradiodev
+api_name:
+ - nfcradiodev
 ---
 
 # Nfcradiodev.h header

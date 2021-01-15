@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - ExpandedStackCall
+ - EXPAND_STACK_CALLOUT
 ---
 
 # EXPAND_STACK_CALLOUT callback function
@@ -97,3 +97,4 @@ The EXPAND_STACK_CALLOUT function type is defined in the Wdm.h header file. To m
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a>
+

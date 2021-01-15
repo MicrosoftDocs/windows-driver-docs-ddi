@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSRTL_PER_FILE_CONTEXT
+ - PFSRTL_PER_FILE_CONTEXT
  - FSRTL_PER_FILE_CONTEXT
 ---
 
@@ -146,3 +148,4 @@ For more information about how to use and create context objects, see <a href="/
 
 
 <a href="/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+

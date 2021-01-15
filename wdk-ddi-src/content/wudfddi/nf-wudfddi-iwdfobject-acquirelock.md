@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFObject.AcquireLock
+ - IWDFObject::AcquireLock
 ---
 
 # IWDFObject::AcquireLock
@@ -71,3 +71,4 @@ For a code example of how to use the <b>AcquireLock</b> method, see <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-releaselock">IWDFObject::ReleaseLock</a>
+

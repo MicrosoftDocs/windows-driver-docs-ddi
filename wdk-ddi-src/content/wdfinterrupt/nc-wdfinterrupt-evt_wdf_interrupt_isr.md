@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfinterrupt.h
 api_name:
- - EvtInterruptIsr
+ - EVT_WDF_INTERRUPT_ISR
 ---
 
 # EVT_WDF_INTERRUPT_ISR callback function
@@ -116,3 +116,4 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptwdmgetinterrupt">WdfInterruptWdmGetInterrupt</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - wlanihv
  - wlanihv/wlanihv
+api_name:
+ - wlanihv
 ---
 
 # Wlanihv.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidTimer
+ - PVIDEO_HW_TIMER
 ---
 
 # PVIDEO_HW_TIMER callback function
@@ -72,3 +72,4 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportstoptimer">VideoPortStopTimer</a>
+

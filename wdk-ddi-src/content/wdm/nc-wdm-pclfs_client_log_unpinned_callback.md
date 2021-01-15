@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ClfsLogUnpinnedCallback
+ - PCLFS_CLIENT_LOG_UNPINNED_CALLBACK
 ---
 
 # PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback function
@@ -76,3 +76,4 @@ The <i>ClfsLogGrowthCompleteCallback</i> function is called before the <i>ClfsLo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmthandlelogfilefull">ClfsMgmtHandleLogFileFull</a>
+

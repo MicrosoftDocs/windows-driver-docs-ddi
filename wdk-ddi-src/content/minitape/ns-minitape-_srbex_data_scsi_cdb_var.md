@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_SCSI_CDB_VAR
+ - PSRBEX_DATA_SCSI_CDB_VAR
  - SRBEX_DATA_SCSI_CDB_VAR
 ---
 
@@ -105,3 +107,4 @@ For CDB data sizes less than 32 bytes, the <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

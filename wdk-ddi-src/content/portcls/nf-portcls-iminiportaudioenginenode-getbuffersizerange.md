@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetBufferSizeRange
+ - IMiniportAudioEngineNode::GetBufferSizeRange
 ---
 
 # IMiniportAudioEngineNode::GetBufferSizeRange
@@ -73,3 +73,4 @@ code.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
+

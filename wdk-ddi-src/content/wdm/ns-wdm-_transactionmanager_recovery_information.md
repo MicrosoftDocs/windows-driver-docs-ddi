@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _TRANSACTIONMANAGER_RECOVERY_INFORMATION
+ - PTRANSACTIONMANAGER_RECOVERY_INFORMATION
  - TRANSACTIONMANAGER_RECOVERY_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
+

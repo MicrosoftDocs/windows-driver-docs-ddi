@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PAGE_TABLE_LEVEL_DESC
  - DXGK_PAGE_TABLE_LEVEL_DESC
 ---
 

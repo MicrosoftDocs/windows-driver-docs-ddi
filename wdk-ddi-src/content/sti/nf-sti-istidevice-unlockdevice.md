@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Sti.h
 api_name:
- - IStiDevice.UnLockDevice
+ - IStiDevice::UnLockDevice
 ---
 
 # IStiDevice::UnLockDevice
@@ -56,3 +56,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 Before the <b>IStiDevice::UnLockDevice</b> method releases the <b>IStiDevice</b>-level lock on the device, it calls <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-unlockdevice">IStiUSD::UnLockDevice</a> in the appropriate vendor-supplied minidriver.
 
 Before calling <b>IStiDevice::UnLockDevice</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+

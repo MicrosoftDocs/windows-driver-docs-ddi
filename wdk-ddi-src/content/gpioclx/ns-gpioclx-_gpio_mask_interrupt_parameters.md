@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_MASK_INTERRUPT_PARAMETERS
+ - PGPIO_MASK_INTERRUPT_PARAMETERS
  - GPIO_MASK_INTERRUPT_PARAMETERS
 ---
 
@@ -82,3 +84,4 @@ GPIO controllers that have memory-mapped registers are expected to always succee
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCSLOTINFO
+ - LPRILUICCSLOTINFO
 ---
 
 # RILUICCSLOTINFO structure (ntddrilapitypes.h)

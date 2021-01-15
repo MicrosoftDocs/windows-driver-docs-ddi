@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrItemFreeCallback
+ - PFNKSITEMFREECALLBACK
 ---
 
 # PFNKSITEMFREECALLBACK callback function
@@ -65,3 +65,4 @@ The *Flags* member of the KSOBJECT_CREATE_ITEM structure indicates if it is nece
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>
+

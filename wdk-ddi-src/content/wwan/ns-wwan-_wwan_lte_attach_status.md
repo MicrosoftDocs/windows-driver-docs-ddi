@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_LTE_ATTACH_STATUS
+ - PWWAN_LTE_ATTACH_STATUS
+ - WWAN_LTE_ATTACH_STATUS
 product:
  - Windows
 ---
@@ -70,3 +72,4 @@ This structure is used in the [**NDIS_WWAN_LTE_ATTACH_STATUS**](../ndiswwan/ns-n
 [MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
 [**NDIS_WWAN_LTE_ATTACH_STATUS**](../ndiswwan/ns-ndiswwan-_ndis_wwan_lte_attach_status.md)
+

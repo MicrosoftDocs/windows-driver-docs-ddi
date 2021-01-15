@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportCancelIdleNotification
+ - MINIPORT_CANCEL_IDLE_NOTIFICATION
 ---
 
 # MINIPORT_CANCEL_IDLE_NOTIFICATION callback function
@@ -94,3 +94,4 @@ For guidelines on how to implement the <i>MiniportCancelIdleNotification</i> han
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>
+

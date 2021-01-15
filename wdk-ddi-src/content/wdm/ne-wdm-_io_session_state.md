@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IO_SESSION_STATE
+ - PIO_SESSION_STATE
  - IO_SESSION_STATE
 ---
 
@@ -125,3 +127,4 @@ In the preceding table, the <i>from</i> and <i>to</i> states are represented by 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
+

@@ -40,7 +40,7 @@ api_location:
  - WUDFx02000.dll
  - WUDFx02000.dll.dll
 api_name:
- - WDF_GET_CONTEXT_TYPE_INFO
+ - WDF_TYPE_NAME_TO_TYPE_INFO
 ---
 
 # WDF_TYPE_NAME_TO_TYPE_INFO macro

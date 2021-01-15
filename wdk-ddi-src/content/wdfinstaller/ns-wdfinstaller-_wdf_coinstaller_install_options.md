@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinstaller.h
 api_name:
+ - _WDF_COINSTALLER_INSTALL_OPTIONS
+ - PWDF_COINSTALLER_INSTALL_OPTIONS
  - WDF_COINSTALLER_INSTALL_OPTIONS
 ---
 
@@ -74,3 +76,4 @@ Your installer should initialize the <b>WDF_COINSTALLER_INSTALL_OPTIONS</b> stru
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdf_coinstaller_install_options_init">WDF_COINSTALLER_INSTALL_OPTIONS_INIT</a>
+

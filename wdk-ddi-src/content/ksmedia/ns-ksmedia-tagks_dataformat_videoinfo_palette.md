@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATAFORMAT_VIDEOINFO_PALETTE
+ - PKS_DATAFORMAT_VIDEOINFO_PALETTE
  - KS_DATAFORMAT_VIDEOINFO_PALETTE
 ---
 
@@ -68,3 +70,4 @@ Specifies the details of the video stream.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfo">KS_VIDEOINFO</a>
+

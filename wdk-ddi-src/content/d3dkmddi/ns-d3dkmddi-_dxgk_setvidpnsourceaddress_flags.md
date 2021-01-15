@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SETVIDPNSOURCEADDRESS_FLAGS
  - DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 ---
 
@@ -179,3 +180,4 @@ Beginning with Windows 8, the display miniport driver can fail a call to the <a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>
+

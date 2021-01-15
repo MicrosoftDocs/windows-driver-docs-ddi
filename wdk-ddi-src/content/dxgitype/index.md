@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - dxgitype
  - dxgitype/dxgitype
+api_name:
+ - dxgitype
 ---
 
 # Dxgitype.h header

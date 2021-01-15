@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
- - PSRIOV_GET_VENDOR_AND_DEVICE_IDS
+ - SRIOV_GET_VENDOR_AND_DEVICE_IDS
 ---
 
 # SRIOV_GET_VENDOR_AND_DEVICE_IDS callback
@@ -127,3 +127,4 @@ Virtualization_GetVendorAndDevice (
 }
 
 ```
+

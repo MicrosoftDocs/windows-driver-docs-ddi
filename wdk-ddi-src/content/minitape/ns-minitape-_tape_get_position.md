@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_GET_POSITION
+ - PTAPE_GET_POSITION
  - TAPE_GET_POSITION
 ---
 
@@ -68,3 +70,4 @@ Indicates the number of bytes from the beginning of the partition to the current
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_position">IOCTL_TAPE_GET_POSITION</a>
+

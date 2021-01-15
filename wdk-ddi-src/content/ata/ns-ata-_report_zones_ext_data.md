@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ata.h
 api_name:
+ - _REPORT_ZONES_EXT_DATA
+ - PREPORT_ZONES_EXT_DATA
  - REPORT_ZONES_EXT_DATA
 ---
 

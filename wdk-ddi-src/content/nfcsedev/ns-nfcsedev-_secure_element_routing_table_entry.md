@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_ROUTING_TABLE_ENTRY
+ - PSECURE_ELEMENT_ROUTING_TABLE_ENTRY
  - SECURE_ELEMENT_ROUTING_TABLE_ENTRY
 ---
 
@@ -68,3 +70,4 @@ RF protocol routing table entry information.
 ### -field AidRoutingInfo
 
 AID routing table control information.
+

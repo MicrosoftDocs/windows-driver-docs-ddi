@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSENDMSGRESPONSE
+ - LPRILSENDMSGRESPONSE
 ---
 
 # RILSENDMSGRESPONSE structure (rilapitypes.h)

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.ForwardToIoQueue
+ - IWDFIoRequest::ForwardToIoQueue
 ---
 
 # IWDFIoRequest::ForwardToIoQueue
@@ -93,7 +93,6 @@ HRESULT hr;
   }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a>
@@ -113,3 +112,4 @@ HRESULT hr;
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-unmarkcancelable">IWDFIoRequest::UnmarkCancelable</a>
+

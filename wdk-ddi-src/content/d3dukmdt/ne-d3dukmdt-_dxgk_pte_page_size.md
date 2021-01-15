@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _DXGK_PTE_PAGE_SIZE
  - DXGK_PTE_PAGE_SIZE
 ---
 
@@ -62,3 +63,4 @@ Indicates the lower page table level uses 64 KB pages.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_dxgk_pte">DXGK_PTE</a>
+

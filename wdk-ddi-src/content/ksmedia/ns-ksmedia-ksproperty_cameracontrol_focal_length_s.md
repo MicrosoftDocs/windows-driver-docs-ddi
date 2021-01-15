@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
  - KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
 ---
 
@@ -86,3 +87,4 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>
+

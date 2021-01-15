@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl2.GetDumpFormatFlags
- - IDebugControl3.GetDumpFormatFlags
+ - IDebugControl3::GetDumpFormatFlags
 ---
 
 # IDebugControl3::GetDumpFormatFlags
@@ -96,3 +95,4 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfilewide">WriteDumpFileWide</a>
+

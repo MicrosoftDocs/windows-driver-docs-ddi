@@ -37,7 +37,7 @@ api_type:
 api_location:
  - KeywordDetectorOemAdapter.h
 api_name:
- - IKeywordDetectorOemAdapter.ParseDetectionResultData
+ - IKeywordDetectorOemAdapter::ParseDetectionResultData
 ---
 
 # IKeywordDetectorOemAdapter::ParseDetectionResultData
@@ -189,3 +189,4 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a>
+

@@ -36,6 +36,8 @@ api_location:
  - storport.h
 api_name:
  - _HW_INITIALIZATION_DATA
+ - PHW_INITIALIZATION_DATA
+ - HW_INITIALIZATION_DATA
 dev_langs:
  - c++
 ---
@@ -399,3 +401,4 @@ A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port drive
 ## -remarks
 
 ## -see-also
+

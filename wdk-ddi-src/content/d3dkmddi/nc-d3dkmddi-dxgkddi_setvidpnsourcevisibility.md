@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSetVidPnSourceVisibility
+ - DXGKDDI_SETVIDPNSOURCEVISIBILITY
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ See requirements on calling this function with multiplane overlays in <a href="/
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a>
+

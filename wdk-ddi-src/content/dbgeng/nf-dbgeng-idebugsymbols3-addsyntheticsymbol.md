@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.AddSyntheticSymbol
+ - IDebugSymbols3::AddSyntheticSymbol
 ---
 
 # IDebugSymbols3::AddSyntheticSymbol
@@ -116,3 +116,4 @@ For more information about synthetic symbols, see <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticsymbol">RemoveSyntheticSymbol</a>
+

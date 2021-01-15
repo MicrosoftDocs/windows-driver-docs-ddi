@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - IsDeviceHighSpeed
+ - PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
 ---
 
 # PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback function
@@ -69,3 +69,4 @@ The function definition that is provided on this reference page is an example ro
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v1">USB_BUS_INTERFACE_USBDI_V1</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _DsmSetLoadBalancePolicy_OUT
+ - PDsmSetLoadBalancePolicy_OUT
  - DsmSetLoadBalancePolicy_OUT
 ---
 
@@ -56,3 +58,4 @@ The <b>DsmSetLoadBalancePolicy_OUT</b> structure reports the output parameter of
 ### -field Status
 
 The status of the <a href="/windows-hardware/drivers/storage/dsmsetloadbalancepolicy">DsmSetLoadBalancePolicy</a> operation.
+

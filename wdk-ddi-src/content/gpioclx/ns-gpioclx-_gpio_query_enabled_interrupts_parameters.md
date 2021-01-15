@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
+ - PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
  - GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
 ---
 
@@ -76,3 +78,4 @@ The <i>QueryEnabledParameters</i> parameter of the <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_enabled_interrupts">CLIENT_QueryEnabledInterrupts</a>
+

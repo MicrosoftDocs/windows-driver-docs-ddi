@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - IoCreateStreamFileObjectEx
+ - IoCreateStreamFileObjectEx2
 ---
 
 # IoCreateStreamFileObjectEx2 function
@@ -178,3 +178,4 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+

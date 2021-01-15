@@ -33,6 +33,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2
  - WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2
 product:
  - Windows

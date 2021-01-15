@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateMw
+ - NDK_FN_CREATE_MW
 ---
 
 # NDK_FN_CREATE_MW callback function
@@ -146,3 +146,4 @@ The <i>NdkCreateMw</i> function creates an  NDK memory window (MW) object that c
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>
+

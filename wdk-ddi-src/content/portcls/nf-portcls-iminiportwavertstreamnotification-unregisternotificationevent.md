@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStreamNotification.UnregisterNotificationEvent
+ - IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
 ---
 
 # IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
@@ -69,3 +69,4 @@ The port driver calls this method in response to a <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-unregister-notification-event">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a>
+

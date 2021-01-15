@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_LEVEL_TRIM
+ - PFILE_LEVEL_TRIM
  - FILE_LEVEL_TRIM
 ---
 
@@ -72,3 +74,4 @@ Array of trim ranges for a file.
 
 
 <a href="/windows-hardware/drivers/ifs/fsctl-file-level-trim">FSCTL_FILE_LEVEL_TRIM</a>
+

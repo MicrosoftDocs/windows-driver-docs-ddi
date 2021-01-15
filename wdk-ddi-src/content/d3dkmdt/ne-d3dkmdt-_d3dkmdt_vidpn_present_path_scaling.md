@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_CUSTOM, D3DKMDT_VPPS_IDENTITY, D3DKMDT_VPPS_NOTSPECIFIED, D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_STRETCHED, D3DKMDT_VPPS_UNINITIALIZED, D3DKMDT_VPPS_UNPINNED, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, d3dkmdt/D3DKMDT_VPPS_CENTERED, d3dkmdt/D3DKMDT_VPPS_CUSTOM, d3dkmdt/D3DKMDT_VPPS_IDENTITY, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_RESERVED1, d3dkmdt/D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_UNPINNED, display.d3dkmdt_vidpn_present_path_scaling
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_VIDPN_PRESENT_PATH_SCALING
  - D3DKMDT_VIDPN_PRESENT_PATH_SCALING
 ---
 
@@ -109,3 +110,4 @@ If D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX or D3DKMDT_VPPS_CUSTOM values are specifi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>
+

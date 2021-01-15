@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ISOCH_DETACH_BUFFERS
  - IRB_REQ_ISOCH_DETACH_BUFFERS
 ---
 

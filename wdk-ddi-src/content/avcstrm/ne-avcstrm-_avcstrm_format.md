@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _AVCSTRM_FORMAT
  - AVCSTRM_FORMAT
 ---
 
@@ -82,3 +83,4 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avcstrm_format_info">AVCSTRM_FORMAT_INFO</a>
+

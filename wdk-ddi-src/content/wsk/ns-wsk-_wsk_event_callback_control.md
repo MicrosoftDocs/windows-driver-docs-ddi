@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_EVENT_CALLBACK_CONTROL
+ - PWSK_EVENT_CALLBACK_CONTROL
  - WSK_EVENT_CALLBACK_CONTROL
 ---
 
@@ -106,3 +108,4 @@ For more information about enabling and disabling a socket's event callback func
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+

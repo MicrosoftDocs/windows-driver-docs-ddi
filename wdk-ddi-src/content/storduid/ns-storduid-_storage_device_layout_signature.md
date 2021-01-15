@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storduid.h
 api_name:
+ - _STORAGE_DEVICE_LAYOUT_SIGNATURE
+ - PSTORAGE_DEVICE_LAYOUT_SIGNATURE
  - STORAGE_DEVICE_LAYOUT_SIGNATURE
 ---
 
@@ -82,3 +84,4 @@ The device layout signature contributes to the definition of a device unique ide
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storduid/ns-storduid-_storage_device_unique_identifier">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a>
+

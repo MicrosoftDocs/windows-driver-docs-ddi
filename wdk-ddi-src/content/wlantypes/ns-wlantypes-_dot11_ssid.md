@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlantypes.h
 api_name:
+ - _DOT11_SSID
+ - PDOT11_SSID
  - DOT11_SSID
 ---
 
@@ -112,3 +114,4 @@ A
 
 
 <a href="/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+

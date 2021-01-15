@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_EXTENDEDFORMAT
  - DXVADDI_EXTENDEDFORMAT
 ---
 
@@ -86,3 +87,4 @@ A 32-bit value that describes the extended format of the video frame.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
+

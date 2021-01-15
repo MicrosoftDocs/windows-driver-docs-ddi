@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvXMoveTo
+ - PFN_DrvXMoveTo
 ---
 
 # PFN_DrvXMoveTo callback function
@@ -58,3 +58,4 @@ This function pointer prototype defines the type of the <b>DrvXMoveTo</b> member
 ### -param x
 
 ### -param dwFlags
+

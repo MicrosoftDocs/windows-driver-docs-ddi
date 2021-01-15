@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+ - EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
 ---
 
 # EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function
@@ -95,3 +95,4 @@ Endpoint_EvtUcxEndpointStaticStreamsDisable(
     WdfRequestComplete(Request, STATUS_SUCCESS);
 }
 ```
+

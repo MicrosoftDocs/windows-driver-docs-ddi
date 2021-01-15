@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pepfx.h
 api_name:
+ - _PEP_PPM_RESUME_FROM_SYSTEM_STATE
+ - PPEP_PPM_RESUME_FROM_SYSTEM_STATE
  - PEP_PPM_RESUME_FROM_SYSTEM_STATE
 ---
 
@@ -60,3 +62,4 @@ On input, a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_stat
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFCPStatistics_IN
+ - PGetFCPStatistics_IN
  - GetFCPStatistics_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure 
 
 
 <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnSetAsyncCallbacksCb
+ - PFND3DDDI_SETASYNCCALLBACKSCB
 product:
  - Windows
 ---
@@ -115,3 +115,4 @@ Drivers can call the runtime's callback functions only from a worker thread if t
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockasync">UnlockAsync</a>
+

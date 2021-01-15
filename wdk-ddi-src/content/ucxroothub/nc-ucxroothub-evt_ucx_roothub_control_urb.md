@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
- - PEVT_UCX_ROOTHUB_CONTROL_URB
+ - EVT_UCX_ROOTHUB_CONTROL_URB
 ---
 
 # EVT_UCX_ROOTHUB_CONTROL_URB callback function
@@ -142,7 +142,7 @@ Routine Description:
 }
 ```
 
-
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>
+

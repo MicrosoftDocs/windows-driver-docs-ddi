@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_QUERYCURRENTFENCE
  - DXGKARG_QUERYCURRENTFENCE
 ---
 
@@ -66,3 +67,4 @@ The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submissio
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querycurrentfence">DxgkDdiQueryCurrentFence</a>
+

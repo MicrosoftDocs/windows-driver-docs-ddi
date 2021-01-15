@@ -34,6 +34,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3D12DDICB_OFFERALLOCATIONS
+ - D3D12DDICB_OFFERALLOCATIONS
 dev_langs:
  - c++
 ---

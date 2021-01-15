@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_MPO3DDI_SUPPORT
  - D3DKMT_MPO3DDI_SUPPORT
 ---
 

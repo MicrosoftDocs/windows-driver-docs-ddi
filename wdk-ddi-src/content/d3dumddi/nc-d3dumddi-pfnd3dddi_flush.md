@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Flush
+ - PFND3DDDI_FLUSH
 product:
  - Windows
 ---
@@ -77,3 +77,4 @@ To submit commands to the display miniport driver, the user-mode display driver'
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

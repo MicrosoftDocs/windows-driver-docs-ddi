@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamRotation
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback function
@@ -92,3 +92,4 @@ The application must update the stream destination rectangle correctly when usin
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_rotation">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a>
+

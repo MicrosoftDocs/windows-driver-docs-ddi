@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_UNMASKED_INTERRUPT_INFORMATION
+ - PPEP_UNMASKED_INTERRUPT_INFORMATION
  - PEP_UNMASKED_INTERRUPT_INFORMATION
 ---
 
@@ -106,3 +108,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/nc-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_flags">PEP_UNMASKED_INTERRUPT_FLAGS</a>
+

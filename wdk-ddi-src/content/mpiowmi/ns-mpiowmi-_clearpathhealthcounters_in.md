@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _ClearPathHealthCounters_IN
+ - PClearPathHealthCounters_IN
  - ClearPathHealthCounters_IN
 ---
 

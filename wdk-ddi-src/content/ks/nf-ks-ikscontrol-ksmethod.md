@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - IKsControl.KsMethod
+ - IKsControl::KsMethod
 ---
 
 # IKsControl::KsMethod (ks.h)
@@ -93,3 +93,4 @@ To determine the buffer size that is required for a specific method request, you
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_set">KSMETHOD_SET</a>
+

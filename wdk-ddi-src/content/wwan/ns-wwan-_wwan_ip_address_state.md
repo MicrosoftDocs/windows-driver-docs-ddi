@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_IP_ADDRESS_STATE
+ - PWWAN_IP_ADDRESS_STATE
  - WWAN_IP_ADDRESS_STATE
 ---
 
@@ -100,3 +102,4 @@ The number of entries in the <b>DnsTable</b> array.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_ip_configuration_flags">WWAN_IP_CONFIGURATION_FLAGS</a>
+

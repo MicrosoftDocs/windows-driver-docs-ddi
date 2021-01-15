@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _REPORT_ZONES_DATA
+ - PREPORT_ZONES_DATA
  - REPORT_ZONES_DATA
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CsSetShaderWithIfaces
+ - PFND3D11DDI_SETSHADER_WITH_IFACES
 ---
 
 # PFND3D11DDI_SETSHADER_WITH_IFACES callback function
@@ -125,3 +125,4 @@ The <b>VsSetShaderWithIfaces</b> function sets the vertex shader code along with
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

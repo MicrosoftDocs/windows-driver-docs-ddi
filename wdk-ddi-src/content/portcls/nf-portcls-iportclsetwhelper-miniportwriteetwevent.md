@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortClsEtwHelper.MiniportWriteEtwEvent
+ - IPortClsEtwHelper::MiniportWriteEtwEvent
 ---
 
 # IPortClsEtwHelper::MiniportWriteEtwEvent
@@ -85,3 +85,4 @@ Data parameter.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsetwhelper">IPortClsEtwHelper</a>
+

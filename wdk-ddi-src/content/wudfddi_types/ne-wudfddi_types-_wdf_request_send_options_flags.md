@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_REQUEST_SEND_OPTIONS_FLAGS
  - WDF_REQUEST_SEND_OPTIONS_FLAGS
 ---
 
@@ -93,3 +94,4 @@ For the KMDF version of this enumeration, see <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
+

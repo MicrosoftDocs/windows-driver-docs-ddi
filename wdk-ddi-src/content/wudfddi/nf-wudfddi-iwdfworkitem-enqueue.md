@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFWorkItem.Enqueue
+ - IWDFWorkItem::Enqueue
 ---
 
 # IWDFWorkItem::Enqueue
@@ -65,3 +65,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/using-workitems
 
 
 <a href="/windows-hardware/drivers/ddi/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a>
+

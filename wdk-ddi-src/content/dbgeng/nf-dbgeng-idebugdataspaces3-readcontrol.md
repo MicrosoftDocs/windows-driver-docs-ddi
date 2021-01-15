@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadControl
- - IDebugDataSpaces2.ReadControl
- - IDebugDataSpaces3.ReadControl
- - IDebugDataSpaces4.ReadControl
+ - IDebugDataSpaces3::ReadControl
 ---
 
 # IDebugDataSpaces3::ReadControl
@@ -103,3 +100,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 ## -remarks
 
 This method is only available in kernel-mode debugging.
+

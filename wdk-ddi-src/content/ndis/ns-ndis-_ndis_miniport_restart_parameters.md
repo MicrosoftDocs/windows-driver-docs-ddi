@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_RESTART_PARAMETERS
+ - PNDIS_MINIPORT_RESTART_PARAMETERS
  - NDIS_MINIPORT_RESTART_PARAMETERS
 ---
 
@@ -91,3 +93,4 @@ To define miniport adapter restart parameters, NDIS passes a pointer to an
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniFilterProcess
+ - PFNKSFILTERPROCESS
 ---
 
 # PFNKSFILTERPROCESS callback function
@@ -81,3 +81,4 @@ This routine is optional.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
+

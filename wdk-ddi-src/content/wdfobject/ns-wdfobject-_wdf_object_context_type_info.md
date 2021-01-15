@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfobject.h
 api_name:
+ - _WDF_OBJECT_CONTEXT_TYPE_INFO
+ - PWDF_OBJECT_CONTEXT_TYPE_INFO
  - WDF_OBJECT_CONTEXT_TYPE_INFO
 ---
 
@@ -100,3 +102,4 @@ For more information about using these macros, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/wdf/wdf-object-attributes-set-context-type">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
+

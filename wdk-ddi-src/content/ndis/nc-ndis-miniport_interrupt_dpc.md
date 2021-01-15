@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportInterruptDPC
+ - MINIPORT_INTERRUPT_DPC
 ---
 
 # MINIPORT_INTERRUPT_DPC callback function
@@ -235,3 +235,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+

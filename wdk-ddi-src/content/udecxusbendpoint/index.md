@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - udecxusbendpoint
  - udecxusbendpoint/udecxusbendpoint
+api_name:
+ - udecxusbendpoint
 ---
 
 # Udecxusbendpoint.h header

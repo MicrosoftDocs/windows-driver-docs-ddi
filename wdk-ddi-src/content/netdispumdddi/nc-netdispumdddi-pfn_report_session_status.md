@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - ReportSessionStatus
+ - PFN_REPORT_SESSION_STATUS
 ---
 
 # PFN_REPORT_SESSION_STATUS callback function
@@ -75,3 +75,4 @@ If the Miracast user-mode driver reports an error in the <i>MiracastStatus</i> p
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_status">MIRACAST_STATUS</a>
+

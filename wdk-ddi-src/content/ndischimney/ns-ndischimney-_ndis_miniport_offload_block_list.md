@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+ - PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
  - NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 ---
 
@@ -725,3 +727,4 @@ Before completing an initiate offload, query offload, update offload, invalidate
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
+

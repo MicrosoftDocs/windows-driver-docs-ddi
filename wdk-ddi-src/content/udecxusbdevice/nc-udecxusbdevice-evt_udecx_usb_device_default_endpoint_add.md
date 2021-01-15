@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
- - EvtUsbDeviceDefaultEndpointAdd
+ - EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD
 ---
 
 # EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD callback function
@@ -74,3 +74,4 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

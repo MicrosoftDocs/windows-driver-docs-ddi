@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_COPY_RANGE
  - DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 ---
 
@@ -78,3 +79,4 @@ The index of the first page table entry in the destination page table for the ra
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
+

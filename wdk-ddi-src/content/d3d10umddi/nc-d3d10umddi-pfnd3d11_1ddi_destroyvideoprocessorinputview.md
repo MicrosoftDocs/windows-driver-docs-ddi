@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnDestroyVideoProcessorInputView
+ - PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback function
@@ -60,3 +60,4 @@ A handle to the display device (graphics context).
 *hView* [in]
 
 A handle to the driver's private data for the video processor input view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview">CreateVideoProcessorInputView</a>.
+

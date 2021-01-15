@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnUnlock2Cb
+ - PFND3DDDI_UNLOCK2CB
 product:
  - Windows
 ---
@@ -64,3 +64,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dd
 ## -returns
 
 If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+

@@ -33,6 +33,8 @@ api_location:
  - udecxwdfdevice.h
 api_name:
  - _UDECX_WDF_DEVICE_RESET_TYPE
+ - PUDECX_WDF_DEVICE_RESET_TYPE
+ - UDECX_WDF_DEVICE_RESET_TYPE
 ---
 
 # _UDECX_WDF_DEVICE_RESET_TYPE enumeration

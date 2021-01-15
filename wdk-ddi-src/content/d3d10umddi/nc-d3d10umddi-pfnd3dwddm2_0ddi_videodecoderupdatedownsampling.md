@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoDecoderUpdateDownsampling
+ - PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ This function will only be called if the driver reports the <b>D3DWDDM2_0DDI_VID
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_videodecoderenabledownsampling">VideoDecoderEnableDownsampling</a>
+

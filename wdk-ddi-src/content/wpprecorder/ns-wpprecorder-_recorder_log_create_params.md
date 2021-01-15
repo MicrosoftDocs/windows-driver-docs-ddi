@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
+ - _RECORDER_LOG_CREATE_PARAMS
+ - PRECORDER_LOG_CREATE_PARAMS
  - RECORDER_LOG_CREATE_PARAMS
 ---
 
@@ -88,3 +90,4 @@ Identifier to print when debug messages are merged. Lives at end of structure so
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_CONTEXT_STATE
+ - PWWAN_CONTEXT_STATE
  - WWAN_CONTEXT_STATE
 ---
 
@@ -217,3 +219,4 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_voice_call_state">WWAN_VOICE_CALL_STATE</a>
+

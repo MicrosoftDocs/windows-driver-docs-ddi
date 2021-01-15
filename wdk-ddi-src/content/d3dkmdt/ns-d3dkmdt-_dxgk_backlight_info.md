@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_BACKLIGHT_INFO structure"]
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _DXGK_BACKLIGHT_INFO
  - DXGK_BACKLIGHT_INFO
 ---
 
@@ -79,3 +80,4 @@ For more information about the use of this structure, see Remarks of the <a href
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_backlight_reduction">DxgkDdiGetBacklightReduction</a>
+

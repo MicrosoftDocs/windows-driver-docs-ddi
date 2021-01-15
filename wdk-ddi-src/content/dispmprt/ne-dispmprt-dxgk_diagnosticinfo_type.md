@@ -30,6 +30,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_DIAGNOSTICINFO_TYPE
  - DXGK_DIAGNOSTICINFO_TYPE
 dev_langs:
  - c++

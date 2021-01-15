@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSDISPATCH_TABLE
  - KSDISPATCH_TABLE
 ---
 
@@ -104,3 +105,4 @@ For more information about minidriver implemented IRP dispatch routines, see <a 
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>
+

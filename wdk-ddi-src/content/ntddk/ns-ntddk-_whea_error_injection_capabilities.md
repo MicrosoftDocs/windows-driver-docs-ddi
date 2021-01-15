@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_INJECTION_CAPABILITIES
+ - PWHEA_ERROR_INJECTION_CAPABILITIES
  - WHEA_ERROR_INJECTION_CAPABILITIES
 ---
 
@@ -146,3 +148,4 @@ A user-mode WHEA management application calls the <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::InjectErrorRtn</a>
+

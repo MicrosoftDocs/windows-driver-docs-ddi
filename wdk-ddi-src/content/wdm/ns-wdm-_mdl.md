@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _MDL
+ - PMDL
  - MDL
 ---
 
@@ -98,3 +100,4 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mminitializemdl">MmInitializeMdl</a>
+

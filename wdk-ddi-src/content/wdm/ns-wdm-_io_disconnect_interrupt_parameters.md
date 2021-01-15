@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_DISCONNECT_INTERRUPT_PARAMETERS
+ - PIO_DISCONNECT_INTERRUPT_PARAMETERS
  - IO_DISCONNECT_INTERRUPT_PARAMETERS
 ---
 
@@ -161,3 +163,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_
 
 
 <a href="/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a>
+

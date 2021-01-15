@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - dmusprop
  - dmusprop/dmusprop
+api_name:
+ - dmusprop
 ---
 
 # Dmusprop.h header

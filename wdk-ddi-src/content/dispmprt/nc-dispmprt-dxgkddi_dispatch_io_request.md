@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiDispatchIoRequest
+ - DXGKDDI_DISPATCH_IO_REQUEST
 ---
 
 # DXGKDDI_DISPATCH_IO_REQUEST callback function
@@ -75,3 +75,4 @@ The <i>DxgkDdiDispatchIoRequest</i> function should be made pageable.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidExecuteDma
+ - PEXECUTE_DMA
 ---
 
 # PEXECUTE_DMA callback function
@@ -94,3 +94,4 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>
+

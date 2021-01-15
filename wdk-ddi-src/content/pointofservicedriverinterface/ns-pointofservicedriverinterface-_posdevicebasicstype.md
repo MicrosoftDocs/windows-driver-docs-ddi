@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosDeviceBasicsType
  - PosDeviceBasicsType
 ---
 
@@ -62,3 +63,4 @@ Indicates the [PosDeviceType](../pointofservicecommontypes/ne-pointofservicecomm
 ### -field RecommendedBufferSize
 
 Indicates the size of the buffer that needs to be allocated to receive event data when calling [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile) to retrieve events for this device.
+

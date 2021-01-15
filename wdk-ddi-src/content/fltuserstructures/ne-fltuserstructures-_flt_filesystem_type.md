@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltUserStructures.h
 api_name:
+ - _FLT_FILESYSTEM_TYPE
+ - PFLT_FILESYSTEM_TYPE
  - FLT_FILESYSTEM_TYPE
 ---
 
@@ -192,3 +194,4 @@ New file systems that are not part of the <b>FLT_FILESYSTEM_TYPE</b> enumeration
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>
+

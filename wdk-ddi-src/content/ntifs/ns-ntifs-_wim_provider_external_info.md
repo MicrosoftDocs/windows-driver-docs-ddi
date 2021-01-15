@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _WIM_PROVIDER_EXTERNAL_INFO
+ - PWIM_PROVIDER_EXTERNAL_INFO
  - WIM_PROVIDER_EXTERNAL_INFO
 ---
 
@@ -109,3 +111,4 @@ The <b>Flags</b> and <b>ResourceHash</b> members are valid when the provider inf
 
 
 <a href="/windows-hardware/drivers/ifs/fsctl-set-external-backing">FSCTL_SET_EXTERNAL_BACKING</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_TYPE
+ - PWHEA_ERROR_TYPE
  - WHEA_ERROR_TYPE
 ---
 
@@ -88,3 +90,4 @@ The <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
+

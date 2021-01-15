@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_QUERYSEGMENTOUT3
  - DXGK_QUERYSEGMENTOUT3
 ---
 
@@ -94,3 +95,4 @@ The video memory manager allocates a paging buffer either from an aperture segme
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_PRESENT_STATS
  - D3DKMT_PRESENT_STATS
 ---
 
@@ -89,3 +90,4 @@ Present statistics cannot work for windowed-mode devices. For windowed mode, eac
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicepresent_state">D3DKMT_DEVICEPRESENT_STATE</a>
+

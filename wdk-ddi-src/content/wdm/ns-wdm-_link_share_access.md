@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _LINK_SHARE_ACCESS
+ - PLINK_SHARE_ACCESS
  - LINK_SHARE_ACCESS
 ---
 
@@ -73,3 +75,4 @@ File associated with the file object has been opened for delete sharing access.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetlinkshareaccess">IoSetLinkShareAccess</a>
+

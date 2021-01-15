@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources
+ - IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
 ---
 
 # IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
@@ -83,3 +83,4 @@ run this method on the parent USB controller instead.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

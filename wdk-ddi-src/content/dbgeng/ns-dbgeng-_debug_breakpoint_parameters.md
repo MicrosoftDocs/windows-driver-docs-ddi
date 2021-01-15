@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_BREAKPOINT_PARAMETERS
+ - PDEBUG_BREAKPOINT_PARAMETERS
  - DEBUG_BREAKPOINT_PARAMETERS
 ---
 
@@ -104,3 +106,4 @@ The size, in characters, of the expression string that evaluates to the location
 ## -remarks
 
 For an overview of how to use breakpoints, and a description of all breakpoint-related methods, see <a href="/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>.
+

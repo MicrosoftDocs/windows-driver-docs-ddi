@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_CURRENT_CAM_IN
+ - PUCSI_GET_CURRENT_CAM_IN
+ - UCSI_GET_CURRENT_CAM_IN
 ---
 
 # _UCSI_GET_CURRENT_CAM_IN structure

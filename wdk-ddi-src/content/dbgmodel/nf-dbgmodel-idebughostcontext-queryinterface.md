@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostContext.QueryInterface
+ - IDebugHostContext::QueryInterface
 ---
 
 # IDebugHostContext::QueryInterface
@@ -66,3 +66,4 @@ This method returns HRESULT which indicates success or failure.
 Standard COM method.
 
 ## -see-also[IDebugHostContext interface](nn-dbgmodel-idebughostcontext.md)
+

@@ -35,6 +35,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PO_FX_DEVICE_V3
+ - PPO_FX_DEVICE_V3
  - PO_FX_DEVICE_V3
 product:
  - Windows
@@ -162,3 +164,4 @@ https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-d
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
+

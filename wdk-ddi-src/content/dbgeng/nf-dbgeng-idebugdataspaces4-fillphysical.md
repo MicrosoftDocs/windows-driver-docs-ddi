@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces2.FillPhysical
- - IDebugDataSpaces3.FillPhysical
- - IDebugDataSpaces4.FillPhysical
+ - IDebugDataSpaces4::FillPhysical
 ---
 
 # IDebugDataSpaces4::FillPhysical
@@ -119,3 +117,4 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>
+

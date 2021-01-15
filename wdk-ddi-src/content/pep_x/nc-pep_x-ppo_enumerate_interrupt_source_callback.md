@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - EnumerateInterruptSource
+ - PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK
 ---
 
 # PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback (pep_x.h)
@@ -90,3 +90,4 @@ An <i>EnumerateInterruptSource</i> callback routine is called at the same IRQL a
 
 
 <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
+

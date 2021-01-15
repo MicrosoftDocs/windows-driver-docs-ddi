@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_SEC_AER_CAPABILITIES
+ - PPCI_EXPRESS_SEC_AER_CAPABILITIES
  - PCI_EXPRESS_SEC_AER_CAPABILITIES
 ---
 
@@ -91,3 +93,4 @@ A PCI_EXPRESS_SEC_AER_CAPABILITIES structure is contained in the <a href="/windo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+

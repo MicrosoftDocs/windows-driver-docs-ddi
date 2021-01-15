@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbolGroup.GetNumberSymbols
- - IDebugSymbolGroup2.GetNumberSymbols
+ - IDebugSymbolGroup::GetNumberSymbols
 ---
 
 # IDebugSymbolGroup::GetNumberSymbols
@@ -83,3 +82,4 @@ This method can also return error values.  For more information, see <a href="/w
 Each symbol in a symbol group is identified by an <i>index</i>.  This index is a number between zero and the number that is returned to <i>Number</i> minus one.  Every time that a symbol is added or removed from the symbol group, the index of all of the symbols in the group might change.
 
 For more information about symbol groups, see <a href="/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
+

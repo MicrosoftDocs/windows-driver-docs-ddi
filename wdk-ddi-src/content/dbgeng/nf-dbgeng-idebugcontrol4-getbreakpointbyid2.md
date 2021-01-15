@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetBreakpointById2
+ - IDebugControl4::GetBreakpointById2
 ---
 
 # IDebugControl4::GetBreakpointById2
@@ -103,3 +103,4 @@ If the specified breakpoint does not belong to the current process, the method w
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

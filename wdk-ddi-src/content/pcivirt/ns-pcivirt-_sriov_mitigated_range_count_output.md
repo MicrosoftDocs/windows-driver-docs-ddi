@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
+ - _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
+ - PSRIOV_MITIGATED_RANGE_COUNT_OUTPUT
  - SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
 ---
 
@@ -70,3 +72,4 @@ typedef struct _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT {
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_query_mitigated_range_count">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a>
+

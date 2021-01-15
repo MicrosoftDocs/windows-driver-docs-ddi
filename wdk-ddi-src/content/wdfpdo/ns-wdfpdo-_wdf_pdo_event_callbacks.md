@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfpdo.h
 api_name:
+ - _WDF_PDO_EVENT_CALLBACKS
+ - PWDF_PDO_EVENT_CALLBACKS
  - WDF_PDO_EVENT_CALLBACKS
 ---
 
@@ -108,3 +110,4 @@ Drivers must call <a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdf_pd
 
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>
+

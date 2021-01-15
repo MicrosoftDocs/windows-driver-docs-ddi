@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiAddDevice
+ - DXGKDDI_ADD_DEVICE
 ---
 
 # DXGKDDI_ADD_DEVICE callback function
@@ -96,3 +96,4 @@ The <i>DxgkDdiAddDevice</i> function should be made pageable.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

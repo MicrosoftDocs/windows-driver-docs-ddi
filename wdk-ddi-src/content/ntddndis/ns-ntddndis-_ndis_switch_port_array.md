@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_ARRAY
+ - PNDIS_SWITCH_PORT_ARRAY
  - NDIS_SWITCH_PORT_ARRAY
 ---
 
@@ -115,3 +117,4 @@ Extensible switch extensions can access individual <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-array">OID_SWITCH_PORT_ARRAY</a>
+

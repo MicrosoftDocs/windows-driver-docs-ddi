@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _COLORSPACE_TRANSFORM
+ - PCOLORSPACE_TRANSFORM
  - COLORSPACE_TRANSFORM
 dev_langs:
  - c++

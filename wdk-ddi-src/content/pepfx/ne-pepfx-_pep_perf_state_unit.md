@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PERF_STATE_UNIT
+ - PPEP_PERF_STATE_UNIT
  - PEP_PERF_STATE_UNIT
 ---
 
@@ -76,3 +78,4 @@ The <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_perf_set">PEP_COMPONENT_PERF_SET</a>
+

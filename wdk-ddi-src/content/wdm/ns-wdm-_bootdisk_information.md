@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _BOOTDISK_INFORMATION
+ - PBOOTDISK_INFORMATION
  - BOOTDISK_INFORMATION
 ---
 
@@ -80,3 +82,4 @@ If the system disk is formatted with an MBR partition table, this specifies the 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a>
+

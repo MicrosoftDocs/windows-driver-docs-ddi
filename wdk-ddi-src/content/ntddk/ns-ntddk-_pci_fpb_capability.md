@@ -36,6 +36,8 @@ api_location:
  - ntddk.h
 api_name:
  - _PCI_FPB_CAPABILITY
+ - PPCI_FPB_CAPABILITY
+ - PCI_FPB_CAPABILITY
 ---
 
 # _PCI_FPB_CAPABILITY structure

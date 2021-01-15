@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallbackSelfManagedIo.OnSelfManagedIoStop
+ - IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
 ---
 
 # IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
@@ -58,3 +58,4 @@ The <b>OnSelfManagedIoStop</b> method is not used in the current version of the 
 ## -returns
 
 This method is not currently used.
+

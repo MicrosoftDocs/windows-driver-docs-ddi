@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_MPEG1VIDEOINFO
+ - PKS_MPEG1VIDEOINFO
  - KS_MPEG1VIDEOINFO
 ---
 
@@ -72,3 +74,4 @@ The length of the <b>bSequenceHeader</b> member, in bytes.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
+

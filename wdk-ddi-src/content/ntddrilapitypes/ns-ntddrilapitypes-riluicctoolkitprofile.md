@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCTOOLKITPROFILE
+ - LPRILUICCTOOLKITPROFILE
 ---
 
 # RILUICCTOOLKITPROFILE structure (ntddrilapitypes.h)

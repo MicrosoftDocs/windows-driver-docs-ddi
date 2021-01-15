@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_STOP_AP_PARAMETERS
+ - PDOT11_STOP_AP_PARAMETERS
  - DOT11_STOP_AP_PARAMETERS
 product:
  - Windows 10 or later.
@@ -155,3 +157,4 @@ The Native 802.11 miniport driver includes a DOT11_STOP_AP_PARAMETERS structure 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

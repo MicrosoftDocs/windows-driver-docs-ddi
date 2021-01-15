@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_NI_REQUEST_PARAM
  - GNSS_NI_REQUEST_PARAM
 ---
 
@@ -94,3 +95,4 @@ The required response time, in seconds.
 ### -field EmergencyLocation
 
 Indicates an emergency request, so an existing NI dialog will be dismissed and the new request will be processed immediately.
+

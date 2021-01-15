@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_V2UPL_CONFIG
  - GNSS_V2UPL_CONFIG
 ---
 

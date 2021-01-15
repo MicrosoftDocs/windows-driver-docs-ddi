@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_HW_ENDURANCE_INFO
+ - PSTORAGE_HW_ENDURANCE_INFO
  - STORAGE_HW_ENDURANCE_INFO
 product:
  - Windows

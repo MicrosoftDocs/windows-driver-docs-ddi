@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_OPM_INTERFACE_2
+ - PDXGK_OPM_INTERFACE_2
  - DXGK_OPM_INTERFACE_2
 f1_keywords:
  - _DXGK_OPM_INTERFACE_2
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # DXGK_OPM_INTERFACE_2 structure
+
 
 ## -description
 
@@ -140,3 +142,4 @@ For more information on how to use this structure with the OPM interface, see [R
 [**DxgkDdiQueryInterface**](nc-dispmprt-dxgkddi_query_interface.md)
 
 [**INTERFACE**](../wdm/ns-wdm-_interface.md)
+

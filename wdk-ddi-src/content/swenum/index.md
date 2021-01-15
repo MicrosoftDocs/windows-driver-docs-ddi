@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - swenum
  - swenum/swenum
+api_name:
+ - swenum
 ---
 
 # Swenum.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTReclaimAllocations
+ - PFND3DKMT_RECLAIMALLOCATIONS
 ---
 
 # PFND3DKMT_RECLAIMALLOCATIONS callback function
@@ -72,3 +72,4 @@ Returns one of the following values:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_reclaimallocations">D3DKMT_RECLAIMALLOCATIONS</a>
+

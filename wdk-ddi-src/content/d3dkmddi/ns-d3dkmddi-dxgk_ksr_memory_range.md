@@ -35,6 +35,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_KSR_MEMORY_RANGE
+ - PDXGK_KSR_MEMORY_RANGE
  - DXGK_KSR_MEMORY_RANGE
 dev_langs:
  - c++

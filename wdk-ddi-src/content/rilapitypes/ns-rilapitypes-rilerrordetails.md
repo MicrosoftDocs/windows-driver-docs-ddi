@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILERRORDETAILS
+ - LPRILERRORDETAILS
 ---
 
 # RILERRORDETAILS structure (rilapitypes.h)

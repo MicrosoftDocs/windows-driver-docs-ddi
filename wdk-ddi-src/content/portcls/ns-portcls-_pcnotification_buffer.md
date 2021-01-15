@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
+ - _PCNOTIFICATION_BUFFER
+ - PPCNOTIFICATION_BUFFER
  - PCNOTIFICATION_BUFFER
 ---
 
@@ -60,3 +62,4 @@ The notification buffer used by <a href="/windows-hardware/drivers/ddi/portcls/n
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
+

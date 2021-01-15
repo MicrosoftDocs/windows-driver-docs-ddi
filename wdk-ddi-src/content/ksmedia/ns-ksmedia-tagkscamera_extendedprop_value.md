@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_VALUE
+ - PKSCAMERA_EXTENDEDPROP_VALUE
  - KSCAMERA_EXTENDEDPROP_VALUE
 ---
 
@@ -84,3 +86,4 @@ The extended property expressed as a <b>LONGLONG</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>
+

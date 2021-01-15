@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_MEMORY_ERROR_SECTION_VALIDBITS
+ - PWHEA_MEMORY_ERROR_SECTION_VALIDBITS
  - WHEA_MEMORY_ERROR_SECTION_VALIDBITS
 ---
 
@@ -160,3 +162,4 @@ A WHEA_MEMORY_ERROR_SECTION_VALIDBITS union is contained within the <a href="/wi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a>
+

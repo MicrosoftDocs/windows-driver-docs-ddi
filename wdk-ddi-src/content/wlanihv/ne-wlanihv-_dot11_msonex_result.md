@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11_MSONEX_RESULT
+ - PDOT11_MSONEX_RESULT
  - DOT11_MSONEX_RESULT
 ---
 
@@ -95,3 +97,4 @@ After the IHV Extensions DLL initiates an 802.1X authentication operation, the o
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+

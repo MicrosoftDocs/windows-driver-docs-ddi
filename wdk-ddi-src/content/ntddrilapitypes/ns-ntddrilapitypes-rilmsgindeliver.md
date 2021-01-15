@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGINDELIVER
+ - LPRILMSGINDELIVER
 ---
 
 # RILMSGINDELIVER structure (ntddrilapitypes.h)

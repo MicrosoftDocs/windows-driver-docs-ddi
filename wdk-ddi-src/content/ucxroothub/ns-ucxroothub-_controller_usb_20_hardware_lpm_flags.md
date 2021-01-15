@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
+ - PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
  - CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 ---
 
@@ -74,3 +76,4 @@ Indicates Best Effort Service latency (BESL) latency support.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20port_info">ROOTHUB_20PORT_INFO</a>
+

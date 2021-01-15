@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _UNIT_ISOCH_PARAMS
+ - PUNIT_ISOCH_PARAMS
  - UNIT_ISOCH_PARAMS
 ---
 
@@ -80,3 +82,4 @@ The UNIT_ISOCH_PARAMS structure can be used with <a href="https://msdn.microsoft
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>
+

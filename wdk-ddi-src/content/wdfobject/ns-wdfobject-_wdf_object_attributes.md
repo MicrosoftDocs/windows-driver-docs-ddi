@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfobject.h
 api_name:
+ - _WDF_OBJECT_ATTRIBUTES
+ - PWDF_OBJECT_ATTRIBUTES
  - WDF_OBJECT_ATTRIBUTES
 ---
 
@@ -157,3 +159,4 @@ For more information about the cleanup rules for a framework object hierarchy, s
 
 
 <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectallocatecontext">WdfObjectAllocateContext</a>
+

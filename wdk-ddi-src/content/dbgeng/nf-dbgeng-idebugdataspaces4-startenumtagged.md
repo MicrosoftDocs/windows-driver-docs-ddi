@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces3.StartEnumTagged
- - IDebugDataSpaces4.StartEnumTagged
+ - IDebugDataSpaces4::StartEnumTagged
 ---
 
 # IDebugDataSpaces4::StartEnumTagged
@@ -80,3 +79,4 @@ The method was successful.
 ## -remarks
 
 The resources held by an enumeration created with this method can be released using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-endenumtagged">EndEnumTagged</a>.
+

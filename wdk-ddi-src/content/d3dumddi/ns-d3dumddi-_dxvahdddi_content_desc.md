@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_CONTENT_DESC
  - DXVAHDDDI_CONTENT_DESC
 ---
 
@@ -90,3 +91,4 @@ The driver can use the information in the members of DXVAHDDDI_CONTENT_DESC to o
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a>
+

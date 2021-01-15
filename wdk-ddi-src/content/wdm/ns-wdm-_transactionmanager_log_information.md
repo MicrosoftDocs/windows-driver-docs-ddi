@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRANSACTIONMANAGER_LOG_INFORMATION
+ - PTRANSACTIONMANAGER_LOG_INFORMATION
  - TRANSACTIONMANAGER_LOG_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
+

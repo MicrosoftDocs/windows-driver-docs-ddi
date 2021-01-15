@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - PlatformIdleVeto
+ - POFXCALLBACKPLATFORMIDLEVETO
 ---
 
 # POFXCALLBACKPLATFORMIDLEVETO callback function (pep_x.h)
@@ -110,3 +110,4 @@ This routine must be called at IRQL = PASSIVE_LEVEL.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_veto_reason">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
+

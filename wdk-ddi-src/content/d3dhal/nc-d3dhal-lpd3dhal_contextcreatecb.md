@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
- - D3dContextCreate
+ - LPD3DHAL_CONTEXTCREATECB
 ---
 
 # LPD3DHAL_CONTEXTCREATECB callback function
@@ -104,3 +104,4 @@ The driver must be able to reference all texture handles that are created within
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
+

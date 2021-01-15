@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_FS_DEVICE_INFORMATION
+ - PFILE_FS_DEVICE_INFORMATION
  - FILE_FS_DEVICE_INFORMATION
 ---
 
@@ -64,3 +66,4 @@ The device characteristics. For a description of relevant values, see <a href="/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+

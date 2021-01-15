@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+ - WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
 ---
 
 # _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE enumeration
@@ -65,3 +67,4 @@ This enumeration is used in the [**WWAN_SAR_TRANSMISSION_STATUS_INFO**](ns-wwan-
 [**WWAN_SAR_TRANSMISSION_STATUS_INFO**](ns-wwan-_wwan_sar_transmission_status_info.md)
 
 [**WWAN_SET_SAR_TRANSMISSION_STATUS**](ns-wwan-_wwan_set_sar_transmission_status.md)
+

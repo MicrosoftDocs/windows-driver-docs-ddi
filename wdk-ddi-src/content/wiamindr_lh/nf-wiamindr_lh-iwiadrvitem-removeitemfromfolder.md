@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.RemoveItemFromFolder
+ - IWiaDrvItem::RemoveItemFromFolder
 ---
 
 # IWiaDrvItem::RemoveItemFromFolder
@@ -82,3 +82,4 @@ After the item has been removed from the folder, it can no longer be used for de
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [IWiaDrvItem::AddItemToFolder](./nf-wiamindr_lh-iwiadrvitem-additemtofolder.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Vpci.h
 api_name:
+ - _VPCI_READ_BLOCK_INPUT
+ - PVPCI_READ_BLOCK_INPUT
  - VPCI_READ_BLOCK_INPUT
 ---
 
@@ -89,3 +91,4 @@ This operating system runs within the Hyper-V parent partition.
 
 
 <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a>
+

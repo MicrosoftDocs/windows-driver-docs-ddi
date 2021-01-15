@@ -36,6 +36,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_WDDMDEVICECAPSIN
+ - DXGK_WDDMDEVICECAPSIN
 product:
  - Windows
 dev_langs:

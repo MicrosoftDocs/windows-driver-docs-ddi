@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkArmCq
+ - NDK_FN_ARM_CQ
 ---
 
 # NDK_FN_ARM_CQ callback function
@@ -123,3 +123,4 @@ If the CQ is closed while a call to <i>NdkCqNotificationCallback</i> is in-progr
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>
+

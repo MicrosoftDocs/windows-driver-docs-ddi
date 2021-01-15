@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_STREAM_DESCRIPTOR
+ - PHW_STREAM_DESCRIPTOR
  - HW_STREAM_DESCRIPTOR
 ---
 
@@ -74,3 +76,4 @@ The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a 
 
 
 <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a>
+

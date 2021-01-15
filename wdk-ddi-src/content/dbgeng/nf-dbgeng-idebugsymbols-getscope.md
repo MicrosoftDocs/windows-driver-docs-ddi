@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetScope
- - IDebugSymbols2.GetScope
- - IDebugSymbols3.GetScope
+ - IDebugSymbols::GetScope
 ---
 
 # IDebugSymbols::GetScope
@@ -131,3 +129,4 @@ For more information about scopes, see <a href="/windows-hardware/drivers/debugg
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setscope">SetScope</a>
+

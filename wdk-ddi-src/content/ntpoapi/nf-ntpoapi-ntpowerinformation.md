@@ -37,7 +37,6 @@ api_type:
 api_location:
  - Ntoskrnl.lib
 api_name:
- - ZwPowerInformation
  - NtPowerInformation
 ---
 
@@ -154,7 +153,6 @@ NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
@@ -162,3 +160,4 @@ NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo
 
 
 <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+

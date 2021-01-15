@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
  - D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 ---
 
@@ -162,3 +163,4 @@ Specifies the start virtual address of the destination virtual address range. Th
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb">pfnUpdateGpuVirtualAddressCb</a>
+

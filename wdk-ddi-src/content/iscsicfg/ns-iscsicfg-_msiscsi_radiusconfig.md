@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - _MSiSCSI_RADIUSConfig
+ - PMSiSCSI_RADIUSConfig
  - MSiSCSI_RADIUSConfig
 ---
 
@@ -96,3 +98,4 @@ Initiators should register each instance of the MSiSCSI_RADIUSConfig class using
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-radiusconfig-wmi-class">MSiSCSI_RADIUSConfig WMI Class</a>
+

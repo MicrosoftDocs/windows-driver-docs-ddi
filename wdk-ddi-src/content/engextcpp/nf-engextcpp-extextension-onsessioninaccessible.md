@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - OnSessionInaccessible
+ - ExtExtension::OnSessionInaccessible
 ---
 
 # ExtExtension::OnSessionInaccessible
@@ -71,3 +71,4 @@ This method is called when a target starts executing.
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff552310(v=vs.85)">OnSessionAccessible</a>
+

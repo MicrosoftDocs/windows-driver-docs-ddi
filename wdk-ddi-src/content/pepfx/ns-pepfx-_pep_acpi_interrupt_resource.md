@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_INTERRUPT_RESOURCE
+ - PPEP_ACPI_INTERRUPT_RESOURCE
  - PEP_ACPI_INTERRUPT_RESOURCE
 ---
 
@@ -92,3 +94,4 @@ A list of pin numbers on the resource that are described by this descriptor.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a>
+

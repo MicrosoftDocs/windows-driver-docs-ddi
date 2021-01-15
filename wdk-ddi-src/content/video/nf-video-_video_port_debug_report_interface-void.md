@@ -39,7 +39,7 @@ api_location:
  - ndis.lib
  - ndis.dll
 api_name:
- - NdisMapFile
+ - _VIDEO_PORT_DEBUG_REPORT_INTERFACE::VOID
 ---
 
 # VOID function

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.Drain
+ - IWDFIoQueue::Drain
 ---
 
 # IWDFIoQueue::Drain
@@ -95,3 +95,4 @@ For example, if the driver previously called <b>Drain</b>, it should wait for no
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a>
+

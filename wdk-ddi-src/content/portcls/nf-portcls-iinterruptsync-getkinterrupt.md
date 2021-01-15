@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IInterruptSync.GetKInterrupt
+ - IInterruptSync::GetKInterrupt
 ---
 
 # IInterruptSync::GetKInterrupt
@@ -68,3 +68,4 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>
+

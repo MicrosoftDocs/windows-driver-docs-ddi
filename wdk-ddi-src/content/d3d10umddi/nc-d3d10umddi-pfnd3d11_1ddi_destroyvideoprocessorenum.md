@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnDestroyVideoProcessorEnum
+ - PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback function
@@ -64,3 +64,4 @@ A handle to the driver's private data for the video processor enumeration object
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a>
+

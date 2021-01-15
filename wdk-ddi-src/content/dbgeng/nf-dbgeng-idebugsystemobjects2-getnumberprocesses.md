@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetNumberProcesses
- - IDebugSystemObjects2.GetNumberProcesses
- - IDebugSystemObjects3.GetNumberProcesses
- - IDebugSystemObjects4.GetNumberProcesses
+ - IDebugSystemObjects2::GetNumberProcesses
 ---
 
 # IDebugSystemObjects2::GetNumberProcesses
@@ -86,3 +83,4 @@ In kernel-mode debugging, there is only a single virtual process representing th
 In user-mode debugging, the number of processes changes with the create-process and exit-process debugging <a href="/windows-hardware/drivers/debugger/events">events</a>.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

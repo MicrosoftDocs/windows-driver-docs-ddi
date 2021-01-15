@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCloseObject
+ - NDK_FN_CLOSE_OBJECT
 ---
 
 # NDK_FN_CLOSE_OBJECT callback function
@@ -134,3 +134,4 @@ The NDK provider must ensure that the <i>NdkCloseCompletion</i> function (<a hre
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
+

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvQueryUIRequest
+ - DOT11EXTIHV_QUERY_UI_REQUEST
 ---
 
 # DOT11EXTIHV_QUERY_UI_REQUEST callback
@@ -169,3 +169,4 @@ For example, if
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+

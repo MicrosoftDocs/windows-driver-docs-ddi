@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_TRANSPORT_SEND_PARAMS0_
  - FWPS_TRANSPORT_SEND_PARAMS0
 ---
 
@@ -93,7 +94,6 @@ typedef struct {
   };
 } SCOPE_ID, *PSCOPE_ID;
 ```
-
 
 ### -field OPTIONAL
 
@@ -150,3 +150,4 @@ The length, in bytes, of the
 
 
 <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+

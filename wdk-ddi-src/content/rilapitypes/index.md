@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - rilapitypes
  - rilapitypes/rilapitypes
+api_name:
+ - rilapitypes
 ---
 
 # Rilapitypes.h header

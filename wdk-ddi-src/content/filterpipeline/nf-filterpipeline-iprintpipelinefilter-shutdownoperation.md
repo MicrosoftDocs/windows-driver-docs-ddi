@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Filterpipeline.h
 api_name:
- - IPrintPipelineFilter.ShutdownOperation
+ - IPrintPipelineFilter::ShutdownOperation
 ---
 
 # IPrintPipelineFilter::ShutdownOperation
@@ -62,3 +62,4 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished">IPrintPipelineManagerControl::FilterFinished</a>
+

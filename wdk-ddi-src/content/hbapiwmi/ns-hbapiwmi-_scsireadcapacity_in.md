@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hbapiwmi.h
 api_name:
+ - _ScsiReadCapacity_IN
+ - PScsiReadCapacity_IN
  - ScsiReadCapacity_IN
 ---
 
@@ -76,3 +78,4 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_IN structure 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a>
+

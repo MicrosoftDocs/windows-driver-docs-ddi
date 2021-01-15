@@ -40,6 +40,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
+ - PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
  - PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 ---
 
@@ -91,3 +93,4 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+

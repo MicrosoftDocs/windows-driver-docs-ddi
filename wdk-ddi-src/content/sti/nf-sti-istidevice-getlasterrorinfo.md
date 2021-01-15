@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.GetLastErrorInfo
+ - IStiDevice::GetLastErrorInfo
 ---
 
 # IStiDevice::GetLastErrorInfo
@@ -64,3 +64,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the most recent error by filling in the caller-supplied <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure. The method calls <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterrorinfo">IStiUSD::GetLastErrorInfo</a>, which is exported by vendor-supplied minidrivers.
 
 Before calling <b>IStiDevice::GetLastErrorInfo</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+

@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - lamp
  - lamp/lamp
+api_name:
+ - lamp
 ---
 
 # Lamp.h header

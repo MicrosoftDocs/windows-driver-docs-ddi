@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_EncryptProtocolHeader
+ - LPDXVA_EncryptProtocolHeader
  - DXVA_EncryptProtocolHeader
 ---
 
@@ -70,3 +72,4 @@ Contains the GUID associated with the encryption protocol.
 ## -remarks
 
 The encryption protocol in use is externally defined and operates as described in <a href="/windows-hardware/drivers/display/encryption-support">Encryption Support</a>.
+

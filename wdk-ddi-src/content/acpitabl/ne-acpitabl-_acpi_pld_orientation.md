@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_ORIENTATION
+ - PACPI_PLD_ORIENTATION
+ - ACPI_PLD_ORIENTATION
 ---
 
 # _ACPI_PLD_ORIENTATION enumeration
+
 
 ## -description
 
@@ -53,3 +56,4 @@ Value is 1.
 ## -remarks
 
 ## -see-also
+

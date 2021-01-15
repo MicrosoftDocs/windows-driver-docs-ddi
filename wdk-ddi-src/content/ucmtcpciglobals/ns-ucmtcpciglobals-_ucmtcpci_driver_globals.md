@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmtcpciglobals.h
 api_name:
+ - _UCMTCPCI_DRIVER_GLOBALS
+ - PUCMTCPCI_DRIVER_GLOBALS
  - UCMTCPCI_DRIVER_GLOBALS
 ---
 

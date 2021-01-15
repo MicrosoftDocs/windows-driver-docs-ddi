@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _D3COLD_LAST_TRANSITION_STATUS
+ - PD3COLD_LAST_TRANSITION_STATUS
  - D3COLD_LAST_TRANSITION_STATUS
 ---
 
@@ -72,3 +74,4 @@ The <i>LastTransitionStatus</i> parameter of the <a href="/windows-hardware/driv
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_d3cold_last_transition_status">GetLastTransitionStatus</a>
+

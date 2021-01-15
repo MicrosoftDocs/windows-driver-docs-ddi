@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_IHV_INDICATION_TYPE
+ - PDOT11EXT_IHV_INDICATION_TYPE
  - DOT11EXT_IHV_INDICATION_TYPE
 ---
 
@@ -86,3 +88,4 @@ typedef enum _DOT11EXT_IHV_INDICATION_TYPE {
   IndicationTypeLinkQuality              = 4
 } DOT11EXT_IHV_INDICATION_TYPE, *PDOT11EXT_IHV_INDICATION_TYPE;
 ```
+

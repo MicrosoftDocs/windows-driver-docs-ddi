@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _BOOTDISK_INFORMATION_EX
+ - PBOOTDISK_INFORMATION_EX
  - BOOTDISK_INFORMATION_EX
 ---
 
@@ -96,3 +98,4 @@ On Windows XP and later, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioget
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a>
+

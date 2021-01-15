@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - extension
  - extension/extension
+api_name:
+ - extension
 ---
 
 # Extension.h header

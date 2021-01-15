@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_FIRMWARE_DATE
+ - PFEATURE_DATA_FIRMWARE_DATE
  - FEATURE_DATA_FIRMWARE_DATE
 ---
 
@@ -92,3 +94,4 @@ The structure holds the date information associated with the feature named "Firm
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
+

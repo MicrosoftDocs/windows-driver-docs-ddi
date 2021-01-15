@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - prntfont
  - prntfont/prntfont
+api_name:
+ - prntfont
 ---
 
 # Prntfont.h header

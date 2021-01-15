@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _WIM_PROVIDER_OVERLAY_ENTRY
+ - PWIM_PROVIDER_OVERLAY_ENTRY
  - WIM_PROVIDER_OVERLAY_ENTRY
 ---
 
@@ -138,3 +140,4 @@ Indicates that the provider is dismounted. Recovery will be attempted.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>
+

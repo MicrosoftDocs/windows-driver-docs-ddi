@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucmmanager.h
 api_name:
- - UCM_CONNECTOR_TYPE_C_CONFIG_INIT
+ - UCM_CONNECTOR_TYPEC_CONFIG_INIT
 ---
 
 # UCM_CONNECTOR_TYPEC_CONFIG_INIT function
@@ -63,3 +63,4 @@ Indicates the operating mode of the connector. This value is a bitwise OR of <a 
 
 [in]
 Indicates the power source capabilities of the connector. This value is a bitwise OR of <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_current">UCM_TYPEC_CURRENT</a>-typed flags.
+

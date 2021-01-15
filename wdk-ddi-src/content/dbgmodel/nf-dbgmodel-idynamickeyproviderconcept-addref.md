@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDynamicKeyProviderConcept.AddRef
+ - IDynamicKeyProviderConcept::AddRef
 ---
 
 # IDynamicKeyProviderConcept::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDynamicKeyProviderConcept interface](nn-dbgmodel-idynamickeyproviderconcept.md)
+

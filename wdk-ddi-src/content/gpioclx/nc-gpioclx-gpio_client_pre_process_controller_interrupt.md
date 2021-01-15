@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_PreProcessControllerInterrupt
+ - GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT
 ---
 
 # GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT callback function
@@ -110,3 +110,4 @@ The GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT function type is defined in the
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

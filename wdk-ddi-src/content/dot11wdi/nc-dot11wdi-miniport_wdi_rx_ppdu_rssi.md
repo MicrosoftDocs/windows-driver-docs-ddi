@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxPpduRssi
+ - MINIPORT_WDI_RX_PPDU_RSSI
 ---
 
 # MINIPORT_WDI_RX_PPDU_RSSI callback function
@@ -84,3 +84,4 @@ The absolute value of RSSI, in dB.
 
 
 <a href="/windows-hardware/drivers/network/wdi-rx-path">WDI RX path</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETCALLWAITINGSTATUSPARAMS
+ - LPRILSETCALLWAITINGSTATUSPARAMS
 ---
 
 # RILSETCALLWAITINGSTATUSPARAMS structure (ntddrilapitypes.h)

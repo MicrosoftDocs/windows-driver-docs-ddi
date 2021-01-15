@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_ADDITIONAL_IE
+ - PDOT11_ADDITIONAL_IE
  - DOT11_ADDITIONAL_IE
 product:
  - Windows 10 or later.
@@ -143,3 +145,4 @@ The miniport driver should reset the members of the DOT11_ADDITIONAL_IE structur
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

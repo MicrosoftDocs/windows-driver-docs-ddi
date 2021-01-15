@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - Ioctl
+ - PWINDBG_IOCTL_ROUTINE
 ---
 
 # PWINDBG_IOCTL_ROUTINE callback function
@@ -570,3 +570,4 @@ This operation is only available in kernel-mode debugging, and is only useful wh
 When the kernel is started with the <b>/nolowmem</b> option, the kernel, drivers, operating system, and applications are loaded in memory above 4 GB, while the low 4 GB of memory is filled with a unique pattern. The IG_LOWMEM_CHECK <b>Ioctl</b> operation checks this pattern for corruption.
 
 This can be used to verify that a driver works correctly when using physical addresses greater than 32 bits in length. See <i>Physical Address Extension (PAE)</i>, <b>/pae</b>,  and <b>/nolowmem</b> in the Windows Driver Kit.
+

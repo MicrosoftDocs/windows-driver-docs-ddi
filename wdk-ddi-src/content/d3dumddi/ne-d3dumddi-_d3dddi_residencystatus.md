@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDI_RESIDENCYSTATUS
+ - D3DDDI_RESIDENCYSTATUS
 product:
  - Windows
 dev_langs:

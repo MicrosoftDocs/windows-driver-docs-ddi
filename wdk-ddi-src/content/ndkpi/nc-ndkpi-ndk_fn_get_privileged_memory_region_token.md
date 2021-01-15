@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkGetPrivilegedMemoryRegionToken
+ - NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN
 ---
 
 # NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback function
@@ -66,3 +66,4 @@ A memory token value is returned in this location.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>
+

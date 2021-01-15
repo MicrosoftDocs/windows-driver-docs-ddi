@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - keyworddetectoroemadapter
  - keyworddetectoroemadapter/keyworddetectoroemadapter
+api_name:
+ - keyworddetectoroemadapter
 ---
 
 # Keyworddetectoroemadapter.h header

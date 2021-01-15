@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveCyclicStream.SetFormat
+ - IMiniportWaveCyclicStream::SetFormat
 ---
 
 # IMiniportWaveCyclicStream::SetFormat
@@ -75,3 +75,4 @@ For information about specifying wave stream formats, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+

@@ -34,6 +34,7 @@ api_type:
 api_location:
  - netrxqueue.h
 api_name:
+ - _NET_RXQUEUE_BUFFER_LAYOUT_HINT
  - NET_RXQUEUE_BUFFER_LAYOUT_HINT
 ---
 

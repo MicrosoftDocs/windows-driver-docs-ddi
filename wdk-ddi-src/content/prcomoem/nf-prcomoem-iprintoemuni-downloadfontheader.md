@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.DownloadFontHeader
+ - IPrintOemUni::DownloadFontHeader
 ---
 
 # IPrintOemUni::DownloadFontHeader
@@ -129,3 +129,4 @@ The <code>IPrintOemUni::DownloadFontHeader</code> method is optional. If a rende
 If you implement the <code>IPrintOemUni::DownloadFontHeader</code> method, you must also implement the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-downloadcharglyph">IPrintOemUni::DownloadCharGlyph</a> method.
 
 For additional information see <a href="/windows-hardware/drivers/print/customized-font-management">Customized Font Management</a>.
+

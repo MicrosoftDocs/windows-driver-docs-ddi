@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Printoem.h
 api_name:
+ - _STDVARIABLEINDEX
  - STDVARIABLEINDEX
 ---
 

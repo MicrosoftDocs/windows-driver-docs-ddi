@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfrequest
  - wdfrequest/wdfrequest
+api_name:
+ - wdfrequest
 ---
 
 # Wdfrequest.h header

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlantypes.h
 api_name:
+ - _DOT11_CIPHER_ALGORITHM
+ - PDOT11_CIPHER_ALGORITHM
  - DOT11_CIPHER_ALGORITHM
 ---
 
@@ -230,3 +232,4 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-current-phy-id">OID_DOT11_CURRENT_PHY_ID</a>
+

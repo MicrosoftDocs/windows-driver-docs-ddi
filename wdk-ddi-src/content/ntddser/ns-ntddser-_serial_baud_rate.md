@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_BAUD_RATE
+ - PSERIAL_BAUD_RATE
  - SERIAL_BAUD_RATE
 ---
 
@@ -74,3 +76,4 @@ For more information about some of the possible baud rates that a serial control
 
 
 <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_commprop">SERIAL_COMMPROP</a>
+

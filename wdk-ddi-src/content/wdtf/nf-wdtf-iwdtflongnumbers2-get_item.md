@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFLongNumbers2.Item
- - IWDTFLongNumbers2.get_Item
+ - IWDTFLongNumbers2::get_Item
 ---
 
 # IWDTFLongNumbers2::get_Item
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflongnumbers2">IWDTFLongNumbers2</a>
+

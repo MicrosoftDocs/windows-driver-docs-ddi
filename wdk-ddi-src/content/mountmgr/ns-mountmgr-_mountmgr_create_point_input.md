@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_CREATE_POINT_INPUT
+ - PMOUNTMGR_CREATE_POINT_INPUT
  - MOUNTMGR_CREATE_POINT_INPUT
 ---
 
@@ -76,3 +78,4 @@ The name given for purposes of identifying the volume can be of any type: a uniq
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a>
+

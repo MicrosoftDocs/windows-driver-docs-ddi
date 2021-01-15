@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PO_FX_PERF_STATE_TYPE
+ - PPO_FX_PERF_STATE_TYPE
  - PO_FX_PERF_STATE_TYPE
 ---
 
@@ -76,3 +78,4 @@ The <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregistercomponentperfstates">PoFxRegisterComponentPerfStates</a>
+

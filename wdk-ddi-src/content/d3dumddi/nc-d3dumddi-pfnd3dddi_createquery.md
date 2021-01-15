@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CreateQuery
+ - PFND3DDDI_CREATEQUERY
 product:
  - Windows
 ---
@@ -105,3 +105,4 @@ For more information about issue query states, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_issuequeryflags">D3DDDI_ISSUEQUERYFLAGS</a>
+

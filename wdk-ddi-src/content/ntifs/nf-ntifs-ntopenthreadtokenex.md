@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwOpenThreadTokenEx
  - NtOpenThreadTokenEx
 ---
 
@@ -198,3 +197,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/previous-versions/ff567024(v=vs.85)">ZwOpenProcessTokenEx</a>
+

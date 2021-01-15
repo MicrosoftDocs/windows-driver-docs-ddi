@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_INTERFACE_PROPERTY_DATA
+ - PWDF_DEVICE_INTERFACE_PROPERTY_DATA
  - WDF_DEVICE_INTERFACE_PROPERTY_DATA
 ---
 
@@ -121,3 +123,4 @@ For an example of how to use <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b>, see <a h
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
+

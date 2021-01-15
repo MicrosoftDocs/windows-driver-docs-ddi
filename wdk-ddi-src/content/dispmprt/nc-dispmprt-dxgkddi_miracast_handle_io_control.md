@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiMiracastIoControl
+ - DXGKDDI_MIRACAST_HANDLE_IO_CONTROL
 ---
 
 # DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function
@@ -129,3 +129,4 @@ The threading and synchronization level for this function is set by how the user
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>
+

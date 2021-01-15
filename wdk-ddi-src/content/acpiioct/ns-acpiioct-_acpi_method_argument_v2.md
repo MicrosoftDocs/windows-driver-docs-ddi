@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_METHOD_ARGUMENT_V2
  - ACPI_METHOD_ARGUMENT_V2
 ---
 

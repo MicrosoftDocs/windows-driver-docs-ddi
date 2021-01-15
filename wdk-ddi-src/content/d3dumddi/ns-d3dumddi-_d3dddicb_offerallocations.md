@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDICB_OFFERALLOCATIONS
  - D3DDDICB_OFFERALLOCATIONS
 ---
 
@@ -85,3 +86,4 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_offerallocationscb">pfnOfferAllocationsCb</a>
+

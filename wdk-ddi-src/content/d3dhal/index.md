@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3dhal
  - d3dhal/d3dhal
+api_name:
+ - d3dhal
 ---
 
 # D3Dhal.h header

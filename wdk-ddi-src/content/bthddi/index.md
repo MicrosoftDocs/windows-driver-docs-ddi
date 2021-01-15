@@ -12,6 +12,8 @@ tech.root: bltooth
 f1_keywords:
  - bthddi
  - bthddi/bthddi
+api_name:
+ - bthddi
 ---
 
 # Bthddi.h header

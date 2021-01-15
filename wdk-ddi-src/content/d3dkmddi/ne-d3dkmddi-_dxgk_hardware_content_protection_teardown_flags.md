@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
  - DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
 ---
 
@@ -58,3 +59,4 @@ Indicates that the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_hardwarecontentprotectionteardown">DxgkCbHardwareContentProtectionTeardown</a>
+

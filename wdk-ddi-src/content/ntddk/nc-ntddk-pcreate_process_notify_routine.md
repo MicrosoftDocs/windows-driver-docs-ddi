@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - SetCreateProcessNotifyRoutine
+ - PCREATE_PROCESS_NOTIFY_ROUTINE
 ---
 
 # PCREATE_PROCESS_NOTIFY_ROUTINE callback function
@@ -76,3 +76,4 @@ A driver's process-notify routine is also called with <i>Create</i> set to <b>FA
 ## -see-also
 
 <b>PsSetCreateProcessNotifyRoutine</b>
+

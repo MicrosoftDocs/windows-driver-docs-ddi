@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiFormatHistoryBuffer
+ - DXGKDDI_FORMATHISTORYBUFFER
 product:
  - Windows
 ---
@@ -66,3 +66,4 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the e
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_QOS_CLASSIFICATION_ELEMENT
+ - PNDIS_QOS_CLASSIFICATION_ELEMENT
  - NDIS_QOS_CLASSIFICATION_ELEMENT
 ---
 
@@ -286,3 +288,4 @@ For more information on NDIS QoS traffic classes, see <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/network/oid-qos-remote-parameters">OID_QOS_REMOTE_PARAMETERS</a>
+

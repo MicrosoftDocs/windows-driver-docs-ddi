@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _KSAUDIOMODULE_PROPERTY
+ - PKSAUDIOMODULE_PROPERTY
  - KSAUDIOMODULE_PROPERTY
 ---
 
@@ -72,3 +74,4 @@ For more information about audio modules, see  <a href="/windows-hardware/driver
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audiomodule-descriptors">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
+

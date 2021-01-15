@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_DRIVE_LETTER_TARGET
+ - PMOUNTMGR_DRIVE_LETTER_TARGET
  - MOUNTMGR_DRIVE_LETTER_TARGET
 ---
 
@@ -70,3 +72,4 @@ Nonpersistent target names must contain the full path of a target object name in
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
+

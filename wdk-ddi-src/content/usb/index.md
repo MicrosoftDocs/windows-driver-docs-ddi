@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usb
  - usb/usb
+api_name:
+ - usb
 ---
 
 # Usb.h header

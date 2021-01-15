@@ -37,7 +37,7 @@ api_type:
 api_location:
  - kbdmou.h
 api_name:
- - ClassServiceCallback
+ - PSERVICE_CALLBACK_ROUTINE
 ---
 
 # PSERVICE_CALLBACK_ROUTINE callback function
@@ -148,3 +148,4 @@ VOID MouseClassServiceCallback(
 
 
 <a href="/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data">MOUSE_INPUT_DATA</a>
+

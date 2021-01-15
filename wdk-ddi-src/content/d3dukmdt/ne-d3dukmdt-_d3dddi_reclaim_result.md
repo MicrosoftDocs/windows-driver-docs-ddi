@@ -31,6 +31,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_RECLAIM_RESULT
+ - D3DDDI_RECLAIM_RESULT
 dev_langs:
  - c++
 ---

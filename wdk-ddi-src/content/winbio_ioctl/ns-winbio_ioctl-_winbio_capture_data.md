@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_CAPTURE_DATA
+ - PWINBIO_CAPTURE_DATA
  - WINBIO_CAPTURE_DATA
 ---
 
@@ -116,3 +118,4 @@ A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data">IOCTL_BIOMETRIC_CAPTURE_DATA</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_GetPersistentBinding_IN
+ - PSM_GetPersistentBinding_IN
  - SM_GetPersistentBinding_IN
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _HARDWARE_COUNTER_TYPE
+ - PHARDWARE_COUNTER_TYPE
  - HARDWARE_COUNTER_TYPE
 ---
 
@@ -68,3 +70,4 @@ The <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-nt
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>
+

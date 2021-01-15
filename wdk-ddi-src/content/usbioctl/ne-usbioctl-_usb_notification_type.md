@@ -31,6 +31,7 @@ api_location:
  - usbioctl.h
 api_name:
  - _USB_NOTIFICATION_TYPE
+ - USB_NOTIFICATION_TYPE
 ---
 
 # _USB_NOTIFICATION_TYPE enumeration

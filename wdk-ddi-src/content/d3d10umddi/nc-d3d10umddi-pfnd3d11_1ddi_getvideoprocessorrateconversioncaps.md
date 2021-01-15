@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetVideoProcessorRateConversionCaps
+ - PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ The display miniport driver returns the maximum number of frame-rate conversion 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps">GetVideoProcessorCaps</a>
+

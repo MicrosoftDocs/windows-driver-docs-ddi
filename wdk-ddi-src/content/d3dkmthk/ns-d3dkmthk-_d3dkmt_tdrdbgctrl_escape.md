@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_TDRDBGCTRL_ESCAPE
+ - D3DKMT_TDRDBGCTRL_ESCAPE
 dev_langs:
  - c++
 ---

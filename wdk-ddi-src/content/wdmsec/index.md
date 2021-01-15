@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - wdmsec
  - wdmsec/wdmsec
+api_name:
+ - wdmsec
 ---
 
 # Wdmsec.h header

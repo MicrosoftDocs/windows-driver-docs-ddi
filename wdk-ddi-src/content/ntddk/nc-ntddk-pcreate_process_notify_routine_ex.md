@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - SetCreateProcessNotifyRoutineEx
+ - PCREATE_PROCESS_NOTIFY_ROUTINE_EX
 ---
 
 # PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback function
@@ -76,3 +76,4 @@ Highest-level drivers call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutineex2">PsSetCreateProcessNotifyRoutineEx2</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFPropertyStoreFactory.RetrieveDevicePropertyStore
+ - IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
 ---
 
 # IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
@@ -192,7 +192,6 @@ Exit:
 ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">IWDFDevice::RetrieveDevicePropertyStore</a>
@@ -204,3 +203,4 @@ Exit:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfpropertystorefactory">IWDFPropertyStoreFactory</a>
+

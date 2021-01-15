@@ -39,6 +39,7 @@ api_type:
 api_location:
  - WdbgExts.h
 api_name:
+ - _EXT_TDOP
  - EXT_TDOP
 ---
 
@@ -143,3 +144,4 @@ Does not specify an operation. Instead, it represents the number of suboperation
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>
+

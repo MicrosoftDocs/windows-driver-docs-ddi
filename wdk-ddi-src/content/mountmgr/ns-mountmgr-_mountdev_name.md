@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTDEV_NAME
+ - PMOUNTDEV_NAME
  - MOUNTDEV_NAME
 ---
 
@@ -72,3 +74,4 @@ As a best practice, the implementer must not thread-synchronize and must not mak
 [IOCTL_MOUNTDEV_LINK_DELETED](../mountdev/ni-mountdev-ioctl_mountdev_link_deleted.md)
 
 [IOCTL_MOUNTDEV_QUERY_DEVICE_NAME](./ni-mountmgr-ioctl_mountdev_query_device_name.md)
+

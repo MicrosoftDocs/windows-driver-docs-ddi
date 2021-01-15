@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetPixelShaderConstI
+ - PFND3DDDI_SETPIXELSHADERCONSTI
 ---
 
 # PFND3DDDI_SETPIXELSHADERCONSTI callback function
@@ -77,3 +77,4 @@ A pointer to a buffer that contains INT values to copy.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

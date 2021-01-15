@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiUpdateActiveVidPnPresentPath
+ - DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
 product:
  - Windows
 ---
@@ -98,3 +98,4 @@ The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function should be made pageable.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>
+

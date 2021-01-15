@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_DEVICE_STATE
+ - PUSBFN_DEVICE_STATE
  - USBFN_DEVICE_STATE
 ---
 

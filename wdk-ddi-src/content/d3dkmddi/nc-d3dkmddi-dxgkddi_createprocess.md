@@ -38,7 +38,7 @@ api_location:
  - dispmprt.h
  - d3dkmddi.h
 api_name:
- - DxgkDdiCreateProcess
+ - DXGKDDI_CREATEPROCESS
 product:
  - Windows
 ---
@@ -71,3 +71,4 @@ During process creation the kernel mode driver is allowed to call the <b>DxgkCbR
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ndiswwan
  - ndiswwan/ndiswwan
+api_name:
+ - ndiswwan
 ---
 
 # Ndiswwan.h header

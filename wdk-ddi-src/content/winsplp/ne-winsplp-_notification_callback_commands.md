@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
+ - _NOTIFICATION_CALLBACK_COMMANDS
  - NOTIFICATION_CALLBACK_COMMANDS
 ---
 

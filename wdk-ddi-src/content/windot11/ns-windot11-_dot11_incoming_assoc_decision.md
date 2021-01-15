@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_INCOMING_ASSOC_DECISION
+ - PDOT11_INCOMING_ASSOC_DECISION
  - DOT11_INCOMING_ASSOC_DECISION
 product:
  - Windows 10 or later.
@@ -164,3 +166,4 @@ This structure is used with
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

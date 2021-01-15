@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_PRESENT
  - DXGKARG_PRESENT
 ---
 
@@ -207,3 +208,4 @@ The driver is not required to perform any clipping. The Microsoft DirectX graphi
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

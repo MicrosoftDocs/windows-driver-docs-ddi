@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice3.CreateInterrupt
+ - IWDFDevice3::CreateInterrupt
 ---
 
 # IWDFDevice3::CreateInterrupt
@@ -103,7 +103,6 @@ hr = pDevice->Create(&interruptConfig,
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
@@ -115,3 +114,4 @@ hr = pDevice->Create(&interruptConfig,
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a>
+

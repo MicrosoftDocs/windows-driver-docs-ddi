@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamProcessRawVideoFrameEx
+ - PCAM_PROCESS_RAW_FRAME_ROUTINE_EX
 ---
 
 # PCAM_PROCESS_RAW_FRAME_ROUTINE_EX callback function
@@ -112,3 +112,4 @@ USBCAMD clears the stream header options flag before passing the raw frame to th
 The original USBCAMD does not call <b>CamProcessRawVideoFrameEx</b>.
 
 This function is optional.
+

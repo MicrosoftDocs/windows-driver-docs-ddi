@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
+ - IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 ---
 
 # IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
@@ -61,3 +61,4 @@ The current cursor position in the audio data stream.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
+

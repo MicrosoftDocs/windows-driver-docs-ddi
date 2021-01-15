@@ -34,6 +34,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_INTERNAL_STATUS_DATA
+ - PDEVICE_INTERNAL_STATUS_DATA
  - DEVICE_INTERNAL_STATUS_DATA
 product:
  - Windows

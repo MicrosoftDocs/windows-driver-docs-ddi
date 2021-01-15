@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
  - DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 ---
 
@@ -62,3 +63,4 @@ An error occurred during the present operation.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_present_displayonly_progress">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
+

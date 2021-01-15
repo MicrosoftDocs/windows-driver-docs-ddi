@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_SESSION_CONNECT_INFO
+ - PIO_SESSION_CONNECT_INFO
  - IO_SESSION_CONNECT_INFO
 ---
 
@@ -72,3 +74,4 @@ If a driver is registered to receive notifications of events in a user session, 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a>
+

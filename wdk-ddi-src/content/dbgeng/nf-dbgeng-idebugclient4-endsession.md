@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.EndSession
- - IDebugClient2.EndSession
- - IDebugClient3.EndSession
- - IDebugClient4.EndSession
- - IDebugClient5.EndSession
+ - IDebugClient4::EndSession
 ---
 
 # IDebugClient4::EndSession
@@ -146,3 +142,4 @@ This method may be called at any time with <i>Flags</i> set to DEBUG_END_REENTRA
 Using DEBUG_END_REENTRANT may leave the engine in an indeterminate state. If this flag is used, no subsequent calls should be made to the engine.
 
 For more information about debugger sessions, see <a href="/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>.
+

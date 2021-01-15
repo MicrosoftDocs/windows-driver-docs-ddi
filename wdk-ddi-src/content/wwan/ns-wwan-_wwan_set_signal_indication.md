@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SET_SIGNAL_INDICATION
+ - PWWAN_SET_SIGNAL_INDICATION
  - WWAN_SET_SIGNAL_INDICATION
 ---
 
@@ -83,3 +85,4 @@ The miniport driver can always switch to its device-specific default reporting i
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_signal_indication">
    NDIS_WWAN_SET_SIGNAL_INDICATION</a>
+

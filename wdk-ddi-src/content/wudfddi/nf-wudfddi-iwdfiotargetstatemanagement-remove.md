@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTargetStateManagement.Remove
+ - IWDFIoTargetStateManagement::Remove
 ---
 
 # IWDFIoTargetStateManagement::Remove
@@ -67,3 +67,4 @@ Although the <b>Remove</b> method is available, drivers do not need to call it. 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a>
+

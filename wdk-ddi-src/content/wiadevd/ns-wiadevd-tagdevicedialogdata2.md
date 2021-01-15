@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiadevd.h
 api_name:
+ - tagDEVICEDIALOGDATA2
+ - LPDEVICEDIALOGDATA2
  - DEVICEDIALOGDATA2
 ---
 
@@ -122,3 +124,4 @@ To access information about an **IWiaItem2** object's properties, the **DeviceDi
 [PathYetAnotherMakeUniqueName Function](/windows/win32/api/shlobj_core/nf-shlobj_core-pathyetanothermakeuniquename)
 
 [SysAllocString](/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _BUS_GENERATION_NODE
+ - PBUS_GENERATION_NODE
  - BUS_GENERATION_NODE
 ---
 
@@ -68,3 +70,4 @@ The current node address of the device.
 ## -see-also
 
 <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
+

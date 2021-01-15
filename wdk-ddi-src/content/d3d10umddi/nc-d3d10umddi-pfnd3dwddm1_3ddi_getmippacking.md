@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - GetMipPacking
+ - PFND3DWDDM1_3DDI_GETMIPPACKING
 product:
  - Windows
 ---
@@ -96,3 +96,4 @@ in the packing overall), and thus loses some freedom.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

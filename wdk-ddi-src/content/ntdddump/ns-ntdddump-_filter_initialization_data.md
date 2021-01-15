@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddump.h
 api_name:
+ - _FILTER_INITIALIZATION_DATA
+ - PFILTER_INITIALIZATION_DATA
  - FILTER_INITIALIZATION_DATA
 ---
 
@@ -162,3 +164,4 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
+

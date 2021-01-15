@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
  - DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 ---
 
@@ -84,3 +86,4 @@ See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-ds
 [DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS](./ns-ntddstor-_device_dsm_offload_write_parameters.md)
 
 [DEVICE_DSM_RANGE](./ns-ntddstor-_device_data_set_range.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - winbio_types.h
 api_name:
+ - _WINBIO_BIR
  - WINBIO_BIR
 ---
 
@@ -88,3 +89,4 @@ The offset of where the <i>StandardDataBlock</i> starts should be the offset of 
 
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a>
+

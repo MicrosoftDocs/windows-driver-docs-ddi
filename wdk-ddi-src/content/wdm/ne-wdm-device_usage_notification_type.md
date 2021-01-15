@@ -30,6 +30,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _DEVICE_USAGE_NOTIFICATION_TYPE
  - DEVICE_USAGE_NOTIFICATION_TYPE
 product:
  - Windows

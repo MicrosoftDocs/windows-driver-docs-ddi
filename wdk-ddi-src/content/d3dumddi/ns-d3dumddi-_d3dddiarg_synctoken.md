@@ -34,6 +34,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDIARG_SYNCTOKEN
+ - D3DDDIARG_SYNCTOKEN
 dev_langs:
  - c++
 ---

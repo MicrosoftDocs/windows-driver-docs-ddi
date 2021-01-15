@@ -37,10 +37,11 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - QueryControllerType
+ - PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
 ---
 
 # PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function
+
 
 ## -description
 
@@ -114,3 +115,4 @@ typedef NTSTATUS
 ## -see-also
 
 [USB_BUS_INTERFACE_USBDI_V3](./ns-usbbusif-_usb_bus_interface_usbdi_v3.md)
+

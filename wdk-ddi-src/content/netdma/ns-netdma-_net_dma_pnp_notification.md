@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_PNP_NOTIFICATION
+ - PNET_DMA_PNP_NOTIFICATION
  - NET_DMA_PNP_NOTIFICATION
 ---
 
@@ -100,3 +102,4 @@ To send a power management notification to the NetDMA interface, NetDMA provider
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmapnpeventnotify">NetDmaPnPEventNotify</a>
+

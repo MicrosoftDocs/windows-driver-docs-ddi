@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3dkmthk
  - d3dkmthk/d3dkmthk
+api_name:
+ - d3dkmthk
 ---
 
 # D3Dkmthk.h header

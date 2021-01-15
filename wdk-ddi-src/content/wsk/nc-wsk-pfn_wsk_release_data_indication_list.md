@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wsk.h
 api_name:
- - WskReleaseDataIndicationList
+ - PFN_WSK_RELEASE_DATA_INDICATION_LIST
 ---
 
 # PFN_WSK_RELEASE_DATA_INDICATION_LIST callback function
@@ -153,3 +153,4 @@ Closing a socket by calling the
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>
+

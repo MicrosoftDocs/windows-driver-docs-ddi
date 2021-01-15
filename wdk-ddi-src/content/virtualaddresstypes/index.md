@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - virtualaddresstypes
  - virtualaddresstypes/virtualaddresstypes
+api_name:
+ - virtualaddresstypes
 ---
 
 # Virtualaddresstypes.h header

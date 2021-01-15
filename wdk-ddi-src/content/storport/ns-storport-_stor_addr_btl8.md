@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_ADDR_BTL8
+ - PSTOR_ADDR_BTL8
  - STOR_ADDR_BTL8
 ---
 
@@ -84,3 +86,4 @@ Reserved, set to 0.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
+

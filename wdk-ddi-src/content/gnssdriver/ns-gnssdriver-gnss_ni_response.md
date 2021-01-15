@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_NI_RESPONSE
  - GNSS_NI_RESPONSE
 ---
 

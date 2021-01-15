@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_CHILD_ENUM_INFO
+ - PVIDEO_CHILD_ENUM_INFO
  - VIDEO_CHILD_ENUM_INFO
 ---
 
@@ -88,3 +90,4 @@ The ACPI_METHOD_DISPLAY_DOD alias, defined in Dispmprt.h, represents the method 
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>
+

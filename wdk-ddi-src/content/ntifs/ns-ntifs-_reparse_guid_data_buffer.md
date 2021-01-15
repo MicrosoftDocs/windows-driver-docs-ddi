@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _REPARSE_GUID_DATA_BUFFER
+ - PREPARSE_GUID_DATA_BUFFER
  - REPARSE_GUID_DATA_BUFFER
 ---
 
@@ -142,3 +144,4 @@ For more information about reparse points and reparse point tags, see the Window
 
 
 <a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>
+

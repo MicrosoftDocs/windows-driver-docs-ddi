@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
+ - _KEYBOARD_SCAN_STATE
+ - PKEYBOARD_SCAN_STATE
  - KEYBOARD_SCAN_STATE
 ---
 
@@ -76,3 +78,4 @@ This enumeration type is used as input to an optional <a href="/previous-version
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
+ - IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket
 ---
 
 # IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket
@@ -91,3 +91,4 @@ The DEVMODEW structure fields that correlate with the part of the DEVMODEW struc
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DDIGAMMACAPS
  - DDIGAMMACAPS
 ---
 
@@ -70,3 +71,4 @@ The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

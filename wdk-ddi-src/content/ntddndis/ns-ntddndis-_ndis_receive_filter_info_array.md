@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_FILTER_INFO_ARRAY
+ - PNDIS_RECEIVE_FILTER_INFO_ARRAY
  - NDIS_RECEIVE_FILTER_INFO_ARRAY
 ---
 
@@ -189,3 +191,4 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
+

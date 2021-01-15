@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxExtractNetRootName
+ - PMRX_EXTRACT_NETROOT_NAME
 ---
 
 # PMRX_EXTRACT_NETROOT_NAME callback function
@@ -101,3 +101,4 @@ A pointer to a Unicode string that contains the rest of the name on success. Thi
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_srvcall_winner_notify">MRxSrvCallWinnerNotify</a>
+

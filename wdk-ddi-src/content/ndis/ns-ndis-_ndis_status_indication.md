@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_STATUS_INDICATION
+ - PNDIS_STATUS_INDICATION
  - NDIS_STATUS_INDICATION
 ---
 
@@ -228,3 +230,4 @@ Protocol drivers receive status indications at the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
+

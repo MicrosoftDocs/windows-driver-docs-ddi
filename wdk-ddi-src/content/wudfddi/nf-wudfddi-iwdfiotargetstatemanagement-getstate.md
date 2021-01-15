@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTargetStateManagement.GetState
+ - IWDFIoTargetStateManagement::GetState
 ---
 
 # IWDFIoTargetStateManagement::GetState
@@ -77,7 +77,6 @@ The following code example determines whether a local I/O target is stopped.
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a>
@@ -85,3 +84,4 @@ The following code example determines whether a local I/O target is stopped.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-getstate">IWDFRemoteTarget::GetState</a>
+

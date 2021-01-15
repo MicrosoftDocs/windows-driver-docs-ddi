@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetEventProcess
- - IDebugSystemObjects2.GetEventProcess
- - IDebugSystemObjects3.GetEventProcess
- - IDebugSystemObjects4.GetEventProcess
+ - IDebugSystemObjects2::GetEventProcess
 ---
 
 # IDebugSystemObjects2::GetEventProcess
@@ -84,3 +81,4 @@ The method was successful.
 In kernel-mode debugging, the engine process ID for the virtual process representing the kernel is returned.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details about debugger engine events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

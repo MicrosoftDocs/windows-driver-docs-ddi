@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_SEND_OPTIONS_FLAGS
  - WDF_REQUEST_SEND_OPTIONS_FLAGS
 ---
 
@@ -110,3 +111,4 @@ For the UMDF version of this enumeration, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetstop">WdfIoTargetStop</a>
+

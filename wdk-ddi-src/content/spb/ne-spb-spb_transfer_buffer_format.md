@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SPB_TRANSFER_BUFFER_FORMAT
+ - PSPB_TRANSFER_BUFFER_FORMAT
 ---
 
 # SPB_TRANSFER_BUFFER_FORMAT enumeration
@@ -82,3 +83,4 @@ The <b>Format</b> member of the <a href="/windows-hardware/drivers/ddi/spb/ns-sp
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>
+

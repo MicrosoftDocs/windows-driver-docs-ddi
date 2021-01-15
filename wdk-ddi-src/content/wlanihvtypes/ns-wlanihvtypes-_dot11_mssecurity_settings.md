@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihvtypes.h
 api_name:
+ - _DOT11_MSSECURITY_SETTINGS
+ - PDOT11_MSSECURITY_SETTINGS
  - DOT11_MSSECURITY_SETTINGS
 ---
 
@@ -106,3 +108,4 @@ typedef struct _DOT11_MSSECURITY_SETTINGS {
 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+

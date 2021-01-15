@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_QueryEnabledInterrupts
+ - GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS
 ---
 
 # GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS callback function
@@ -125,3 +125,4 @@ The GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS function type is defined in the Gpioclx
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_enabled_interrupts_parameters">GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</a>
+

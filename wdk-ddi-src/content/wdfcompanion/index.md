@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfcompanion
  - wdfcompanion/wdfcompanion
+api_name:
+ - wdfcompanion
 ---
 
 # Wdfcompanion.h header

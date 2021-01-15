@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - prefix
  - prefix/prefix
+api_name:
+ - prefix
 ---
 
 # Prefix.h header

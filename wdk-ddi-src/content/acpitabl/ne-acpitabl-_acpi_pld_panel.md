@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_PANEL
+ - PACPI_PLD_PANEL
+ - ACPI_PLD_PANEL
 ---
 
 # _ACPI_PLD_PANEL enumeration
+
 
 ## -description
 
@@ -73,3 +76,4 @@ Value is 6.
 ## -remarks
 
 ## -see-also
+

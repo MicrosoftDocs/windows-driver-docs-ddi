@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
  - KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 ---
 
@@ -80,3 +81,4 @@ The <b>NotificationEvent</b> member is a user-mode event handle that, when regis
 
 
 <b>KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</b>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndis.h
 api_name:
- - FilterDetach
+ - FILTER_DETACH
 ---
 
 # FILTER_DETACH callback function
@@ -105,3 +105,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+

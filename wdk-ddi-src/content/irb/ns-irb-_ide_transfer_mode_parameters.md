@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_TRANSFER_MODE_PARAMETERS
+ - PIDE_TRANSFER_MODE_PARAMETERS
  - IDE_TRANSFER_MODE_PARAMETERS
 ---
 
@@ -120,3 +122,4 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 
 <a href="/windows-hardware/drivers/ddi/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a>
+

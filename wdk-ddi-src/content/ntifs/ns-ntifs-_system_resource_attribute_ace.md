@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SYSTEM_RESOURCE_ATTRIBUTE_ACE
+ - PSYSTEM_RESOURCE_ATTRIBUTE_ACE
  - SYSTEM_RESOURCE_ATTRIBUTE_ACE
 ---
 
@@ -88,3 +90,4 @@ Following the <b>SidStart</b> member begins a <b>CLAIM_SECURITY_ATTRIBUTE_RELATI
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+

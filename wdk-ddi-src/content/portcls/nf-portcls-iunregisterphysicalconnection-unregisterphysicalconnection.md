@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IUnregisterPhysicalConnection.UnregisterPhysicalConnection
+ - IUnregisterPhysicalConnection::UnregisterPhysicalConnection
 ---
 
 # IUnregisterPhysicalConnection::UnregisterPhysicalConnection
@@ -97,3 +97,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/dynamic-audio
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisterphysicalconnection">PcRegisterPhysicalConnection</a>
+

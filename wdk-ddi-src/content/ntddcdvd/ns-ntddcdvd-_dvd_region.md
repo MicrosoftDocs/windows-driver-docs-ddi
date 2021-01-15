@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_REGION
+ - PDVD_REGION
  - DVD_REGION
 ---
 
@@ -72,3 +74,4 @@ Indicates the remaining number of times the DVD device's region code can be chan
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_get_region">IOCTL_DVD_GET_REGION</a>
+

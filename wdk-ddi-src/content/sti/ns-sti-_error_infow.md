@@ -41,7 +41,9 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - STI_ERROR_INFO
+ - _ERROR_INFOW
+ - PSTI_ERROR_INFOW
+ - STI_ERROR_INFOW
 ---
 
 # _ERROR_INFOW structure
@@ -68,3 +70,4 @@ Optional, vendor-specific error code.
 ### -field szExtendedErrorText
 
 Optional character array containing a text string describing the error.
+

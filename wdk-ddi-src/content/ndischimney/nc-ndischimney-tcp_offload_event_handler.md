@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolTcpOffloadEvent
+ - TCP_OFFLOAD_EVENT_HANDLER
 ---
 
 # TCP_OFFLOAD_EVENT_HANDLER callback function
@@ -168,3 +168,4 @@ The
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">NdisTcpOffloadEventHandler</a>
+

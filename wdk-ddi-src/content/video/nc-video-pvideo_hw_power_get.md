@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidGetPowerState
+ - PVIDEO_HW_POWER_GET
 ---
 
 # PVIDEO_HW_POWER_GET callback function
@@ -91,3 +91,4 @@ This function must not return the current power state of the device.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_power_management">VIDEO_POWER_MANAGEMENT</a>
+

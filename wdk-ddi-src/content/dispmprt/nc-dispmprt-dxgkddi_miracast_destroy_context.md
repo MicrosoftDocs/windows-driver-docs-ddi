@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiMiracastDestroyContext
+ - DXGKDDI_MIRACAST_DESTROY_CONTEXT
 ---
 
 # DXGKDDI_MIRACAST_DESTROY_CONTEXT callback function
@@ -95,3 +95,4 @@ The operating system groups the <a href="/windows-hardware/drivers/ddi/dispmprt/
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a>
+

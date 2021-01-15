@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_WMI
+ - PSRBEX_DATA_WMI
  - SRBEX_DATA_WMI
 ---
 
@@ -85,3 +87,4 @@ Specifies the WMI data path for this request.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

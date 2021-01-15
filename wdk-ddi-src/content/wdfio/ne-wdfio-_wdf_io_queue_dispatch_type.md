@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfio.h
 api_name:
+ - _WDF_IO_QUEUE_DISPATCH_TYPE
  - WDF_IO_QUEUE_DISPATCH_TYPE
 ---
 
@@ -76,3 +77,4 @@ Reserved for internal use only.
 ## -remarks
 
 For more information, see <a href="/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
+

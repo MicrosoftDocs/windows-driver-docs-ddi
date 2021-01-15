@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TIMECODE_S
  - KSPROPERTY_TIMECODE_S
 ---
 
@@ -70,3 +71,4 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagtimecode_sample">TIMECODE_SAMPLE</a>
+

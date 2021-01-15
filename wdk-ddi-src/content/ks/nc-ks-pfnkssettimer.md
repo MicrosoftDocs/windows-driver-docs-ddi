@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrSetTimer
+ - PFNKSSETTIMER
 ---
 
 # PFNKSSETTIMER callback function
@@ -100,3 +100,4 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
+

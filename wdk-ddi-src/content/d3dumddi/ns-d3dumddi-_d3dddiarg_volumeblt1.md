@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_VOLUMEBLT1
  - D3DDDIARG_VOLUMEBLT1
 ---
 
@@ -86,3 +87,4 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>
+

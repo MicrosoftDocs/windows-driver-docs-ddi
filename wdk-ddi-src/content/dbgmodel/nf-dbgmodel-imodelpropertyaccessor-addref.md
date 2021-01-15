@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelPropertyAccessor.AddRef
+ - IModelPropertyAccessor::AddRef
 ---
 
 # IModelPropertyAccessor::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IModelPropertyAcessor interface](nn-dbgmodel-imodelpropertyaccessor.md)
+

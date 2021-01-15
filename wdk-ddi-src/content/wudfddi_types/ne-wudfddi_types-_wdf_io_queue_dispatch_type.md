@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_IO_QUEUE_DISPATCH_TYPE
  - WDF_IO_QUEUE_DISPATCH_TYPE
 ---
 
@@ -77,3 +78,4 @@ Valid enumeration values were exceeded.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-complete">IWDFIoRequest::Complete</a>
+

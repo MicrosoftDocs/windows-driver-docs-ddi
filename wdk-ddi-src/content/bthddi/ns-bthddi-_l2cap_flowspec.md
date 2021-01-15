@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _L2CAP_FLOWSPEC
+ - PL2CAP_FLOWSPEC
  - L2CAP_FLOWSPEC
 ---
 

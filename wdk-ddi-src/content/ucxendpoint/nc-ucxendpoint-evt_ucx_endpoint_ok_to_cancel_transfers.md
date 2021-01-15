@@ -37,10 +37,11 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
+ - EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
 ---
 
 # EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function
+
 
 ## -description
 
@@ -63,3 +64,4 @@ Before completing the URB associated with the transfer, the client driver calls 
 
 > [!NOTE]
 > If GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL capability is supported, the hub driver may send a control transfer to clear the TT (Transaction Translator) buffer before UCX calls this function.
+

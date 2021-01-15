@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_PROCESSOR_IDLE_CONSTRAINTS
+ - PPEP_PROCESSOR_IDLE_CONSTRAINTS
  - PEP_PROCESSOR_IDLE_CONSTRAINTS
 ---
 
@@ -76,3 +78,4 @@ The <b>Constraints</b> member of the <a href="/windows-hardware/drivers/ddi/pep_
 
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ne-pep_x-pep_processor_idle_type">PEP_PROCESSOR_IDLE_TYPE</a>
+

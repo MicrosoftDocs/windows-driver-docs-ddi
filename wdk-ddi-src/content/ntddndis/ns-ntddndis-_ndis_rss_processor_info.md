@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_RSS_PROCESSOR_INFO
+ - PNDIS_RSS_PROCESSOR_INFO
  - NDIS_RSS_PROCESSOR_INFO
 ---
 
@@ -160,3 +162,4 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetrssprocessorinformation">
    NdisGetRssProcessorInformation</a>
+

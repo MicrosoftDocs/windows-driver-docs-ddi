@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETDEVICESTATE
  - D3DKMT_GETDEVICESTATE
 ---
 
@@ -96,3 +97,4 @@ The D3DKMT_GETDEVICESTATE structure describes parameters for retrieving the stat
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_devicestate_type">D3DKMT_DEVICESTATE_TYPE</a>
+

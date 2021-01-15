@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.ExecuteCommandFileWide
+ - IDebugControl4::ExecuteCommandFileWide
 ---
 
 # IDebugControl4::ExecuteCommandFileWide
@@ -97,3 +97,4 @@ This method reads the specified file and execute the commands one line at a time
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

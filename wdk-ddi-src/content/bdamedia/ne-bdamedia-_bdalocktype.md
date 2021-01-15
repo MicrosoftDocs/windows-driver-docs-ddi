@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - _BdaLockType
  - BDA_LockType
 ---
 
@@ -74,3 +75,4 @@ To be supplied.
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-bda-signal-lock-type">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
- - PEVT_UCX_ROOTHUB_INTERRUPT_TX
+ - EVT_UCX_ROOTHUB_INTERRUPT_TX
 ---
 
 # EVT_UCX_ROOTHUB_INTERRUPT_TX callback function
@@ -85,3 +85,4 @@ This snippet shows how the callback extracts the root hub interrupt transfer req
         transferBufferLength = urb->UrbBulkOrInterruptTransfer.TransferBufferLength;
 
 ```
+

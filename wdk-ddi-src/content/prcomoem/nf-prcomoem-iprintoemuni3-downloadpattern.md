@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni3.DownloadPattern
+ - IPrintOemUni3::DownloadPattern
 ---
 
 # IPrintOemUni3::DownloadPattern
@@ -78,3 +78,4 @@ You should implement this method if you want your rendering plug-in, rather than
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni3">IPrintOemUni3</a>
+

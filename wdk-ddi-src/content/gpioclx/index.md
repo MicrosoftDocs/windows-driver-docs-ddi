@@ -12,6 +12,8 @@ tech.root: gpio
 f1_keywords:
  - gpioclx
  - gpioclx/gpioclx
+api_name:
+ - gpioclx
 ---
 
 # Gpioclx.h header

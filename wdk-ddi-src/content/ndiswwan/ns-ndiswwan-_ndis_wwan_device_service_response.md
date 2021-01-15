@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_RESPONSE
+ - PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
  - NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 ---
 
@@ -121,3 +123,4 @@ The response from the completion of the device service command.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_response">WWAN_DEVICE_SERVICE_RESPONSE</a>
+

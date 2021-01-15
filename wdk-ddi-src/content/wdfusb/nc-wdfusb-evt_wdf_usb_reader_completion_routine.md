@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfUsb.h
 api_name:
- - EvtUsbTargetPipeReadComplete
+ - EVT_WDF_USB_READER_COMPLETION_ROUTINE
 ---
 
 # EVT_WDF_USB_READER_COMPLETION_ROUTINE callback function
@@ -118,3 +118,4 @@ For more information about the <i>EvtUsbTargetPipeReadComplete</i> callback func
 
 
 <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfmemory.h
 api_name:
+ - _WDF_MEMORY_DESCRIPTOR_TYPE
  - WDF_MEMORY_DESCRIPTOR_TYPE
 ---
 
@@ -72,3 +73,4 @@ The <a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_de
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a>
+

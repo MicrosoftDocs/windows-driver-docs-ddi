@@ -41,6 +41,8 @@ api_type:
 api_location:
  - minitape.h
 api_name:
+ - _TAPE_INIT_DATA_EX
+ - PTAPE_INIT_DATA_EX
  - TAPE_INIT_DATA_EX
 ---
 
@@ -247,3 +249,4 @@ The meaning of this prototype's parameters are different for each miniclass driv
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWriteMarks</a>
+

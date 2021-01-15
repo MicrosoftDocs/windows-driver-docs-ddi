@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportEnableMessageInterrupt
+ - MINIPORT_ENABLE_MESSAGE_INTERRUPT
 ---
 
 # MINIPORT_ENABLE_MESSAGE_INTERRUPT callback function
@@ -153,3 +153,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KINTERRUPT_MODE
  - KINTERRUPT_MODE
 ---
 
@@ -74,3 +75,4 @@ The interrupt mode is an electrical characteristic of the interrupt. A device si
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a>
+

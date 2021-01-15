@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.operator[]
+ - ExtRemoteTyped::operator[]
 ---
 
 # ExtRemoteTyped::operator (LONG)
@@ -69,5 +69,5 @@ The <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped
 <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
-<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-arrayelement">ExtRemoteTyped::ArrayElement</a> 
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-arrayelement">ExtRemoteTyped::ArrayElement</a>
 

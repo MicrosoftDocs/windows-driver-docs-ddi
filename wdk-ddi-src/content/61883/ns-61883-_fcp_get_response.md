@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _FCP_GET_RESPONSE
+ - PFCP_RESPONSE
  - FCP_GET_RESPONSE
 ---
 
@@ -80,3 +82,4 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp->IoStatu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

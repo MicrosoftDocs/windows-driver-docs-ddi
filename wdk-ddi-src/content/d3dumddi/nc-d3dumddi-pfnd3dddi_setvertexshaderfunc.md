@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetVertexShaderFunc
+ - PFND3DDDI_SETVERTEXSHADERFUNC
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ For user-mode display drivers that support vertex shaders before version 2.0, th
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

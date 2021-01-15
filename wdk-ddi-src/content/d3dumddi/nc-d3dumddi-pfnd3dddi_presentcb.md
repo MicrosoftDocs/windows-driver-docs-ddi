@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnPresentCb
+ - PFND3DDDI_PRESENTCB
 product:
  - Windows
 ---
@@ -128,3 +128,4 @@ The following code example shows how to color-fill a destination surface.
 
 
 <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
+

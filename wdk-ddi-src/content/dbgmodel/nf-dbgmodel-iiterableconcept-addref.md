@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IIterableConcept.AddRef
+ - IIterableConcept::AddRef
 ---
 
 # IIterableConcept::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IIterableConcept interface](nn-dbgmodel-iiterableconcept.md)
+

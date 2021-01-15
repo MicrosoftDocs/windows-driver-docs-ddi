@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxUsbEndpoint.h
 api_name:
- - EvtUsbEndpointPurge
+ - EVT_UDECX_USB_ENDPOINT_PURGE
 ---
 
 # EVT_UDECX_USB_ENDPOINT_PURGE callback function
@@ -71,3 +71,4 @@ In the implementation, the client driver is required to ensure all I/O forwarded
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

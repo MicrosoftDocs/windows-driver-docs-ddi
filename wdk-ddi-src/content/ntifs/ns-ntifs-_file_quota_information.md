@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_QUOTA_INFORMATION
+ - PFILE_QUOTA_INFORMATION
  - FILE_QUOTA_INFORMATION
 ---
 
@@ -108,3 +110,4 @@ On 64-bit platforms, this structure must be aligned on a LONGLONG (8-byte) bound
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckquotabuffervalidity">IoCheckQuotaBufferValidity</a>
+

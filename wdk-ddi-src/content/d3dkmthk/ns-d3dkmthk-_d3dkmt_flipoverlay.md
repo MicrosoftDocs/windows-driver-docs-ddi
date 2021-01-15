@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_FLIPOVERLAY
  - D3DKMT_FLIPOVERLAY
 ---
 
@@ -74,3 +75,4 @@ The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the o
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtflipoverlay">D3DKMTFlipOverlay</a>
+

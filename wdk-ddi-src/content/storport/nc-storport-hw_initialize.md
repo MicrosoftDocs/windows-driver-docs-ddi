@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorInitialize
+ - HW_INITIALIZE
 ---
 
 # HW_INITIALIZE callback function
@@ -131,3 +131,4 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>
+

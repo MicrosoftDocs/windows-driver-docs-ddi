@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_SOURCE_DESCRIPTOR
+ - PWHEA_ERROR_SOURCE_DESCRIPTOR
  - WHEA_ERROR_SOURCE_DESCRIPTOR
 ---
 
@@ -257,3 +259,4 @@ A user-mode WHEA management application can control the error sources in the sys
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_nmi_descriptor">WHEA_XPF_NMI_DESCRIPTOR</a>
+

@@ -35,6 +35,8 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_XPF_MCA_SECTION
+ - PWHEA_XPF_MCA_SECTION
+ - WHEA_XPF_MCA_SECTION
 ---
 
 # _WHEA_XPF_MCA_SECTION structure

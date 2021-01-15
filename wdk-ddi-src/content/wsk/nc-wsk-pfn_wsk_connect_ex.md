@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskConnectEx
+ - PFN_WSK_CONNECT_EX
 ---
 
 # PFN_WSK_CONNECT_EX callback function
@@ -237,3 +237,4 @@ Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK appli
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

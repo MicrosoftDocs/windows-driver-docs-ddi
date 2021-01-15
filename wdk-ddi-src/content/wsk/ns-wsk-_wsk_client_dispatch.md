@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_CLIENT_DISPATCH
+ - PWSK_CLIENT_DISPATCH
  - WSK_CLIENT_DISPATCH
 ---
 
@@ -120,3 +122,4 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
+

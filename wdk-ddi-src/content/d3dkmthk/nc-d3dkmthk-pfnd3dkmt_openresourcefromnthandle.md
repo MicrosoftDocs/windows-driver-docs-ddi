@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTOpenResourceFromNtHandle
+ - PFND3DKMT_OPENRESOURCEFROMNTHANDLE
 ---
 
 # PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback function
@@ -77,3 +77,4 @@ The NT handle to the process, which is used as the <b>hNtHandle</b> member of th
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openresourcefromnthandle">D3DKMT_OPENRESOURCEFROMNTHANDLE</a>
+

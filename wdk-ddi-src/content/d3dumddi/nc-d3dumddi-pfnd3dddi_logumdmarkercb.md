@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnLogUMDMarkerCb
+ - PFND3DDDI_LOGUMDMARKERCB
 product:
  - Windows
 ---
@@ -64,3 +64,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3ddd
 ## -returns
 
 Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
+

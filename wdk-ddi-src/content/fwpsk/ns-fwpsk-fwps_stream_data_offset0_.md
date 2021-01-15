@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_STREAM_DATA_OFFSET0_
  - FWPS_STREAM_DATA_OFFSET0
 ---
 
@@ -106,3 +107,4 @@ The combination of the
 
 
 <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
+

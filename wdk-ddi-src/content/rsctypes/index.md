@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - rsctypes
  - rsctypes/rsctypes
+api_name:
+ - rsctypes
 ---
 
 # Rsctypes.h header

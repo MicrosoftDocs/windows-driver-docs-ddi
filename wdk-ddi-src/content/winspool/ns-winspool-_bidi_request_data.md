@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - _BIDI_REQUEST_DATA
+ - PBIDI_REQUEST_DATA
  - BIDI_REQUEST_DATA
 ---
 
@@ -72,3 +74,4 @@ Specifies a <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_da
 
 
 <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_container">BIDI_REQUEST_CONTAINER</a>
+

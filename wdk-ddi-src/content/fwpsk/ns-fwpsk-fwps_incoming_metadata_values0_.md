@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_INCOMING_METADATA_VALUES0_
  - FWPS_INCOMING_METADATA_VALUES0
 ---
 
@@ -610,3 +611,4 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+

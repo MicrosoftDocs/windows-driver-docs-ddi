@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetPalette
+ - PFND3DDDI_SETPALETTE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The user-mode display driver uses the members in the <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

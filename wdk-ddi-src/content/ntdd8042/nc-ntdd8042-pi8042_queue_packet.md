@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
- - QueuePacket
+ - PI8042_QUEUE_PACKET
 ---
 
 # PI8042_QUEUE_PACKET callback function
@@ -79,3 +79,4 @@ The PI8042_QUEUE_PACKET callback runs in kernel mode at the same IRQL as the I80
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_mouse">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+

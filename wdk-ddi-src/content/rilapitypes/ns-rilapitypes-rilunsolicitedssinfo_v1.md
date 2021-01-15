@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUNSOLICITEDSSINFO_V1
+ - LPRILUNSOLICITEDSSINFO_V1
 ---
 
 # RILUNSOLICITEDSSINFO_V1 structure (rilapitypes.h)

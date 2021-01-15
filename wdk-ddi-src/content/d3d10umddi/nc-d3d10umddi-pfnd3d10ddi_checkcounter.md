@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CheckCounter
+ - PFND3D10DDI_CHECKCOUNTER
 ---
 
 # PFND3D10DDI_CHECKCOUNTER callback function
@@ -136,3 +136,4 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

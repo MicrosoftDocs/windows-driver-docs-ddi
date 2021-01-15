@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IRawEnumerator.QueryInterface
+ - IRawEnumerator::QueryInterface
 ---
 
 # IRawEnumerator::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IRawEnumerator interface](nn-dbgmodel-irawenumerator.md)
+

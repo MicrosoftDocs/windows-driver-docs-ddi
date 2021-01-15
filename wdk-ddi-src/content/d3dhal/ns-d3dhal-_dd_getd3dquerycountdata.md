@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETD3DQUERYCOUNTDATA
  - DD_GETD3DQUERYCOUNTDATA
 ---
 
@@ -81,3 +82,4 @@ D3DDP2OP_CREATEQUERY
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+

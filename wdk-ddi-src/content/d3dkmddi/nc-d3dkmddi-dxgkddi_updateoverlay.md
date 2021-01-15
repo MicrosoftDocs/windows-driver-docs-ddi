@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiUpdateOverlay
+ - DXGKDDI_UPDATEOVERLAY
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ The <i>DxgkDdiUpdateOverlay</i> function modifies the overlay hardware.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
+

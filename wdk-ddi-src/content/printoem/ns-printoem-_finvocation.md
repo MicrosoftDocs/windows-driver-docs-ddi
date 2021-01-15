@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _FINVOCATION
+ - PFINVOCATION
  - FINVOCATION
 ---
 
@@ -64,3 +66,4 @@ Unidrv-supplied pointer to a string containing the printer's font selection comm
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd">IPrintOemUni::SendFontCmd</a>
+

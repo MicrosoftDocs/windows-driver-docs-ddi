@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_DEVICE_PRESENT_INTERFACE
+ - PPCI_DEVICE_PRESENT_INTERFACE
  - PCI_DEVICE_PRESENT_INTERFACE
 ---
 

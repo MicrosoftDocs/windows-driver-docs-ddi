@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KBUGCHECK_ADD_PAGES
+ - PKBUGCHECK_ADD_PAGES
  - KBUGCHECK_ADD_PAGES
 ---
 
@@ -96,3 +98,4 @@ For more information about how this structure is used, see <a href="/windows-har
 ## -see-also
 
  <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

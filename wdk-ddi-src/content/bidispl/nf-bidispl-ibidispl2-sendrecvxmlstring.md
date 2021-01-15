@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiSpl2.SendRecvXMLString
+ - IBidiSpl2::SendRecvXMLString
 ---
 
 # IBidiSpl2::SendRecvXMLString
@@ -117,3 +117,4 @@ Note that the <b>HRESULT</b> may contain a system error code that is defined in 
 
 
 <a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
+

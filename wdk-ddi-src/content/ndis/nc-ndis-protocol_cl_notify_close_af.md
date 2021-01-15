@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClNotifyCloseAf
+ - PROTOCOL_CL_NOTIFY_CLOSE_AF
 ---
 
 # PROTOCOL_CL_NOTIFY_CLOSE_AF callback function
@@ -218,3 +218,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
+

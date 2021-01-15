@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtStartOneX
+ - DOT11EXT_ONEX_START
 ---
 
 # DOT11EXT_ONEX_START callback
@@ -169,3 +169,4 @@ For more information about using the 802.1X module for authentication, see
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
+

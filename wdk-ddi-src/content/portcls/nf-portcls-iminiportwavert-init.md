@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRT.Init
+ - IMiniportWaveRT::Init
 ---
 
 # IMiniportWaveRT::Init
@@ -79,3 +79,4 @@ For more information about the <i>ResourceList</i> parameter, see the <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavert">IPortWaveRT</a>
+

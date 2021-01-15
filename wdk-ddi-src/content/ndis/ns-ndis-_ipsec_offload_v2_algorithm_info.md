@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _IPSEC_OFFLOAD_V2_ALGORITHM_INFO
+ - PIPSEC_OFFLOAD_V2_ALGORITHM_INFO
  - IPSEC_OFFLOAD_V2_ALGORITHM_INFO
 ---
 
@@ -219,3 +221,4 @@ The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies algorithm information in
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
+

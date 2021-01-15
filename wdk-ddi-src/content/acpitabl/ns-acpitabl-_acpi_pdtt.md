@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PDTT
+ - PACPI_PDTT
+ - ACPI_PDTT
 ---
 
 # _ACPI_PDTT structure
+
 
 ## -description
 
@@ -59,3 +62,4 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CopyTiles
+ - PFND3DWDDM1_3DDI_COPYTILES
 product:
  - Windows
 ---
@@ -100,3 +100,4 @@ The Direct3D runtime does not expect this function to fail.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

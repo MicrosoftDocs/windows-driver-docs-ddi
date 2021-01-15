@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DestroyVideoProcessor
+ - PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR
 ---
 
 # PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR callback function
@@ -72,3 +72,4 @@ The <b>DestroyVideoProcessor</b> function notifies the driver to destroy the han
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor">CreateVideoProcessor</a>
+

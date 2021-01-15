@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prnasntp.h
 api_name:
- - IPrintAsyncNotifyServerReferral.GetServerReferral
+ - IPrintAsyncNotifyServerReferral::GetServerReferral
 ---
 
 # IPrintAsyncNotifyServerReferral::GetServerReferral
@@ -52,3 +52,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>
+

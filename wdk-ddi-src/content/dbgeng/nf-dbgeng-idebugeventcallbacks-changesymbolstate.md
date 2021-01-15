@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugEventCallbacks.ChangeSymbolState
+ - IDebugEventCallbacks::ChangeSymbolState
 ---
 
 # IDebugEventCallbacks::ChangeSymbolState
@@ -173,3 +173,4 @@ The return value is ignored by the engine unless it indicates a remote procedure
 This method is only called by the engine if the DEBUG_EVENT_CHANGE_SYMBOL_STATE flag is set in the mask returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_BCA_DESCRIPTOR
+ - PDVD_BCA_DESCRIPTOR
  - DVD_BCA_DESCRIPTOR
 ---
 
@@ -64,3 +66,4 @@ The contents of the BCA region are specified by the media manufacturer.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

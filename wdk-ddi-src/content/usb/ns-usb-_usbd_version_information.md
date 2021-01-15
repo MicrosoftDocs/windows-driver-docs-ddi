@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usb.h
 api_name:
+ - _USBD_VERSION_INFORMATION
+ - PUSBD_VERSION_INFORMATION
  - USBD_VERSION_INFORMATION
 ---
 
@@ -147,3 +149,4 @@ Contains a binary-coded decimal USB specification version number.
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

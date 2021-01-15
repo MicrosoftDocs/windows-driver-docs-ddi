@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - NdisTimerFunction
+ - NDIS_TIMER_FUNCTION
 ---
 
 # NDIS_TIMER_FUNCTION callback function
@@ -163,3 +163,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/setting-and-clearing-timers">Setting and Clearing Timers</a>
+

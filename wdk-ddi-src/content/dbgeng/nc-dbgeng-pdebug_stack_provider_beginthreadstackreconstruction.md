@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - BeginThreadStackReconstruction
+ - PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION
 ---
 
 # PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback function
@@ -50,7 +50,6 @@ The <i>BeginThreadStackReconstruction</i> callback function causes debugger to p
 ```cpp
 CALLBACK* PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION BeginThreadStackReconstruction; 
 ```
-
 
 ## -parameters
 

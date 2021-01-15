@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDevicePnpStateChange
+ - EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION
 ---
 
 # EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION callback function
@@ -77,3 +77,4 @@ For more information about the framework's PnP state machine, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_state_change_notification">EvtDevicePowerStateChange</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _ACCESS_RANGE
+ - PACCESS_RANGE
  - ACCESS_RANGE
 ---
 
@@ -78,3 +80,4 @@ Storport allocates memory for the access ranges and initializes the **AccessRang
 [**PORT_CONFIGURATION_INFORMATION**](./ns-storport-_port_configuration_information.md)
 
 [**StorPortGetDeviceBase**](./nf-storport-storportgetdevicebase.md)
+

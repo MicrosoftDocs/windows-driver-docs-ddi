@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxFinalizeSrvCall
+ - PMRX_FINALIZE_SRVCALL_CALLDOWN
 ---
 
 # PMRX_FINALIZE_SRVCALL_CALLDOWN callback function
@@ -104,3 +104,4 @@ RDBSS ignores the return value from the <i>MRxFinalizeSrvCall</i> call.
 
 
 <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
+

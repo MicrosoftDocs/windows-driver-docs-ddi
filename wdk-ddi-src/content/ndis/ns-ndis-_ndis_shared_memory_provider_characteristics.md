@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+ - PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
  - NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
 ---
 
@@ -108,3 +110,4 @@ To specify entry points for shared memory services, an NDIS driver initializes a
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a>
+

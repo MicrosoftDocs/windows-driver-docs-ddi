@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
- - EvtSerCxFileCleanup
+ - EVT_SERCX_FILECLEANUP
 ---
 
 # EVT_SERCX_FILECLEANUP callback function
@@ -114,3 +114,4 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
+

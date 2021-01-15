@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_CREATE_OUTPUTDUPL
+ - D3DKMT_CREATE_OUTPUTDUPL
 dev_langs:
  - c++
 ---

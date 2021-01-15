@@ -36,6 +36,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_GETBACKINGRESOURCE
+ - PDXGKARG_GETBACKINGRESOURCE
+ - DXGKARG_GETBACKINGRESOURCE
 dev_langs:
  - c++
 ---

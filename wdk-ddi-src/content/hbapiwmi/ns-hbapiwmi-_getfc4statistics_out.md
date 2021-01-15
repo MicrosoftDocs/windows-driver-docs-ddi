@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFC4Statistics_OUT
+ - PGetFC4Statistics_OUT
  - GetFC4Statistics_OUT
 ---
 
@@ -70,3 +72,4 @@ The WMI tool suite generates a declaration of the GetFC4Statistics_OUT structure
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getfc4statistics">GetFC4Statistics</a>
+

@@ -36,6 +36,8 @@ api_location:
  - usbpmapi.h
 api_name:
  - _USBPM_CLIENT_CONFIG
+ - PUSBPM_CLIENT_CONFIG
+ - USBPM_CLIENT_CONFIG
 ---
 
 # _USBPM_CLIENT_CONFIG structure

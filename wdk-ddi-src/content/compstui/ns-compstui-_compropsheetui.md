@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _COMPROPSHEETUI
+ - PCOMPROPSHEETUI
  - COMPROPSHEETUI
 ---
 
@@ -211,3 +213,4 @@ Caller-supplied version number, representing the root-level option item's curren
 ### -field dwReserved
 
 Reserved. This array must be set to zero.
+

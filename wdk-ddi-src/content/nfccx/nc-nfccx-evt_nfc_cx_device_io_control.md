@@ -37,7 +37,7 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
- - EvtNfcCxDeviceIoControl
+ - EVT_NFC_CX_DEVICE_IO_CONTROL
 ---
 
 # EVT_NFC_CX_DEVICE_IO_CONTROL callback function
@@ -85,3 +85,4 @@ The client can complete the request either synchronously or asynchronously. The 
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

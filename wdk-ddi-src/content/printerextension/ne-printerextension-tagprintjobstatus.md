@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
+ - tagPrintJobStatus
  - PrintJobStatus
 ---
 
@@ -122,3 +123,4 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 
 <a href="/windows/win32/printdocs/job-info-1">JOB_INFO_1</a>
+

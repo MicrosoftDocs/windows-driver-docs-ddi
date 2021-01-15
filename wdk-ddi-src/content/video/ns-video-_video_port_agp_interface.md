@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_AGP_INTERFACE
+ - PVIDEO_PORT_AGP_INTERFACE
  - VIDEO_PORT_AGP_INTERFACE
 ---
 
@@ -120,3 +122,4 @@ PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+

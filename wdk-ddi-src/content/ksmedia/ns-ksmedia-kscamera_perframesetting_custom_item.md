@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
  - KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverEDTAction.Interop.dll
 api_name:
- - IWDTFEnhancedDeviceTestSupportAction2.IsEnabled
+ - IWDTFEnhancedDeviceTestSupportAction2::IsEnabled
 ---
 
 # IWDTFEnhancedDeviceTestSupportAction2::IsEnabled
@@ -62,3 +62,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfedtaction/nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2">IWDTFEnhancedDeviceTestSupportAction2</a>
+

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetDefaultKeyId
+ - DOT11EXT_SET_DEFAULT_KEY_ID
 ---
 
 # DOT11EXT_SET_DEFAULT_KEY_ID callback
@@ -112,3 +112,4 @@ A call to the
 
 
 <a href="/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>
+

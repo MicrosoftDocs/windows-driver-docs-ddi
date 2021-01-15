@@ -36,11 +36,14 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_STAT_INFORMATION
+ - PFILE_STAT_INFORMATION
+ - FILE_STAT_INFORMATION
 dev_langs:
  - c++
 ---
 
 # FILE_STAT_INFORMATION structure
+
 
 ## -description
 
@@ -110,3 +113,4 @@ Specifies the access rights of the file.
 [**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md)
 
 [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)
+

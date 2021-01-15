@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_CHANGE_NOTIFY_INFO
+ - PMOUNTMGR_CHANGE_NOTIFY_INFO
  - MOUNTMGR_CHANGE_NOTIFY_INFO
 ---
 
@@ -64,3 +66,4 @@ For a general discussion of the mount manager and how it communicates with its c
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_change_notify">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>
+

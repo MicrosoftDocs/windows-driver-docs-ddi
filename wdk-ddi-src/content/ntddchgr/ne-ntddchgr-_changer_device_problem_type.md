@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_DEVICE_PROBLEM_TYPE
+ - PCHANGER_DEVICE_PROBLEM_TYPE
  - CHANGER_DEVICE_PROBLEM_TYPE
 ---
 
@@ -116,3 +118,4 @@ Indicates the changer's drive is malfunctioning.
 
 
 <a href="/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
+

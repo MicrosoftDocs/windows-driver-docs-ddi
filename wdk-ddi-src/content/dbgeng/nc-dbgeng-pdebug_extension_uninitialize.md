@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - DebugExtensionUninitialize
+ - PDEBUG_EXTENSION_UNINITIALIZE
 ---
 
 # PDEBUG_EXTENSION_UNINITIALIZE callback function
@@ -50,7 +50,6 @@ The <b>DebugExtensionUninitialize</b> callback function is called by the engine 
 ```
  CALLBACK* PDEBUG_EXTENSION_UNINITIALIZE DebugExtensionUninitialize;
 ```
-
 
 ## -parameters
 
@@ -69,3 +68,4 @@ DebugExtensionUninitialize is called <b>PDEBUG_EXTENSION_UNINITIALIZE</b> in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+

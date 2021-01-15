@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - wmilib
  - wmilib/wmilib
+api_name:
+ - wmilib
 ---
 
 # Wmilib.h header
@@ -33,3 +35,4 @@ To handle WMI IRPs by calling WmiSystemControl, a driver must implement certain 
 For more information, see:
 
 - [Implementing WMI](/windows-hardware/drivers/kernel/implementing-wmi)
+

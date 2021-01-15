@@ -29,6 +29,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STORPORT_FEATURE_TYPE
  - STORPORT_FEATURE_TYPE
 product:
  - Windows

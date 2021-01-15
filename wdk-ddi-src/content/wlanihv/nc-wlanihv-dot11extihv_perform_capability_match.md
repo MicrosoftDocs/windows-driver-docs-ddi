@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvPerformCapabilityMatch
+ - DOT11EXTIHV_PERFORM_CAPABILITY_MATCH
 ---
 
 # DOT11EXTIHV_PERFORM_CAPABILITY_MATCH callback
@@ -209,3 +209,4 @@ For more information about the Native 802.11 XML schema, refer to the Microsoft 
 
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+

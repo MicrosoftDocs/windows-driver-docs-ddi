@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
+ - PWHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
  - WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
 product:
  - Windows

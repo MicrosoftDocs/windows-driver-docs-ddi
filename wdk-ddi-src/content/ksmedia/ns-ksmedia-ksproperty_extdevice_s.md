@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_EXTDEVICE_S
  - KSPROPERTY_EXTDEVICE_S
 ---
 
@@ -98,3 +99,4 @@ Any ED_Xxx or DEV_PORT_Xxx tokens are defined in <i>xprtdefs.h</i> in the Micros
 
 
 <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+

@@ -35,6 +35,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_NODEMETADATA
+ - DXGK_NODEMETADATA
 product:
  - Windows
 ---
@@ -90,3 +91,4 @@ For more information on how to use this structure, see [Enumerating GPU engine c
 [DXGK_NODEMETADATA_FLAGS](ns-d3dkmdt-_dxgk_nodemetadata_flags.md) 
 
 [DXGKDDI_GETNODEMETADATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md)
+

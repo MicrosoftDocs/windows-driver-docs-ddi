@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_STREAMING_CONTROL
+ - PCDROM_STREAMING_CONTROL
  - CDROM_STREAMING_CONTROL
 ---
 
@@ -64,3 +66,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_contr
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>
+

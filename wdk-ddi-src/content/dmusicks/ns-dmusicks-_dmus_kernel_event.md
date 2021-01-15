@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
+ - _DMUS_KERNEL_EVENT
+ - PDMUS_KERNEL_EVENT
  - DMUS_KERNEL_EVENT
 ---
 
@@ -151,3 +153,4 @@ Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_S
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a>
+

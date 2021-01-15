@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_SESSION_STATE_NOTIFICATION
+ - PIO_SESSION_STATE_NOTIFICATION
  - IO_SESSION_STATE_NOTIFICATION
 ---
 
@@ -203,3 +205,4 @@ To determine whether a device object is a per-session device object, a driver ca
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistercontainernotification">IoRegisterContainerNotification</a>
+

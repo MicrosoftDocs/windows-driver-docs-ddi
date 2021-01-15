@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.GetExpressionSyntaxNames
+ - IDebugControl3::GetExpressionSyntaxNames
 ---
 
 # IDebugControl3::GetExpressionSyntaxNames
@@ -136,3 +136,4 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
+

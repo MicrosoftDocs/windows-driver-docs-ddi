@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_TCP_LARGE_SEND_OFFLOAD_V1
+ - PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
  - NDIS_TCP_LARGE_SEND_OFFLOAD_V1
 ---
 
@@ -214,3 +216,4 @@ The miniport adapter supports the feature that the member specifies
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+

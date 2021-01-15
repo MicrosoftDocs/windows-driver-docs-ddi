@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_MEASUREMENT_DATA
+ - PPMI_MEASUREMENT_DATA
  - PMI_MEASUREMENT_DATA
 ---
 
@@ -68,3 +70,4 @@ The PMI_MEASUREMENT_DATA structure is returned through an <a href="/windows-hard
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_measurement">IOCTL_PMI_GET_MEASUREMENT</a>
+

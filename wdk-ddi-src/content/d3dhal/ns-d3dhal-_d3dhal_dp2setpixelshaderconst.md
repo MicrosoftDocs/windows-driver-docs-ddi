@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2SETPIXELSHADERCONST
  - D3DHAL_DP2SETPIXELSHADERCONST
 ---
 
@@ -83,3 +84,4 @@ D3DDP2OP_SETPIXELSHADERCONST
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+

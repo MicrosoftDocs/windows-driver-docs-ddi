@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfworkitem.h
 api_name:
- - EvtWorkItem
+ - EVT_WDF_WORKITEM
 ---
 
 # EVT_WDF_WORKITEM callback function
@@ -79,3 +79,4 @@ The <i>EvtWorkItem</i> callback function runs at IRQL = PASSIVE_LEVEL in the con
 
 
 <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemenqueue">WdfWorkItemEnqueue</a>
+

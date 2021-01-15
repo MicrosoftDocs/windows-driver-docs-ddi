@@ -41,6 +41,8 @@ api_type:
 api_location:
  - smclib.h
 api_name:
+ - _SCARD_CARD_CAPABILITIES
+ - PSCARD_CARD_CAPABILITIES
  - SCARD_CARD_CAPABILITIES
 ---
 
@@ -190,3 +192,4 @@ Reserved.
 ## -remarks
 
 The SCARD_CARD_CAPABILITIES structure describes the capabilities of the inserted smart card. If the reader driver uses the smart card driver library, <b>ATR</b> is the only member that the reader driver should populate. The driver library will automatically update all other fields when it receives an <a href="/previous-versions/windows/hardware/drivers/ff548909(v=vs.85)">IOCTL_SMARTCARD_SET_PROTOCOL</a> request.
+

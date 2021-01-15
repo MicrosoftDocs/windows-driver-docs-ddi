@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - MyAVStrMiniPin
+ - PFNKSPIN
 ---
 
 # PFNKSPIN callback function
@@ -107,3 +107,4 @@ Also see <a href="/windows-hardware/drivers/stream/ks-pins">KS Pins</a>.
 
 
 <a href="/windows-hardware/drivers/stream/pin-centric-processing">Pin-Centric Processing</a>
+

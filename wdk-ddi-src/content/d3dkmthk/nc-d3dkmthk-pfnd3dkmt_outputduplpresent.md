@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTOutputDuplPresent
+ - PFND3DKMT_OUTPUTDUPLPRESENT
 ---
 
 # PFND3DKMT_OUTPUTDUPLPRESENT callback function
@@ -75,3 +75,4 @@ Returns one of the following values:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresent">D3DKMT_OUTPUTDUPLPRESENT</a>
+

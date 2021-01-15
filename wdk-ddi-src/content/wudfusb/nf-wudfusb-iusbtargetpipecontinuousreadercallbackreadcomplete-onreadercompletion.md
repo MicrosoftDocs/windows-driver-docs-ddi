@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wudfusb.h
 api_name:
- - IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
+ - IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
 ---
 
 # IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
@@ -112,3 +112,4 @@ For more information about the <b>OnReaderCompletion</b> callback function and U
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed-onreaderfailure">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+

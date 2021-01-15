@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
+ - PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
  - GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
 ---
 
@@ -82,3 +84,4 @@ The GPIO framework extension (GpioClx) fills in the first four members of the st
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_controller_specific_function">CLIENT_ControllerSpecificFunction</a>
+

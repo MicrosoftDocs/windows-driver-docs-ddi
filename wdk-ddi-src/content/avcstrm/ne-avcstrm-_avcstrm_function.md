@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _AVCSTRM_FUNCTION
  - AVCSTRM_FUNCTION
 ---
 
@@ -122,3 +123,4 @@ Set stream property. This function is not implemented.
 
 
 <a href="/windows-hardware/drivers/stream/avcstrm-write">AVCSTRM_WRITE</a>
+

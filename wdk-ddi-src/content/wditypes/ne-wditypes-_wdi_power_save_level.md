@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_POWER_SAVE_LEVEL
  - WDI_POWER_SAVE_LEVEL
 ---
 

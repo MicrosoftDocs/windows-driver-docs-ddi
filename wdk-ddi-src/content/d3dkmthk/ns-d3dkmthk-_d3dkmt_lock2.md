@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_LOCK2
  - D3DKMT_LOCK2
 ---
 
@@ -66,3 +67,4 @@ A set of flags to pass to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf
 ### -field pData
 
 A CPU virtual address pointing a valid memory location pointing to the CPU backing store or the GPU frame buffer.
+

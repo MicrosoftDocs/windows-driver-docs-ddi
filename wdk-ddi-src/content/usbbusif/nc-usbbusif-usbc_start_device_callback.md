@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
- - UsbcStartDeviceCallback
+ - USBC_START_DEVICE_CALLBACK
 ---
 
 # USBC_START_DEVICE_CALLBACK callback function
@@ -90,3 +90,4 @@ For a general description of the callback routine mechanism, see <a href="/windo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_device_configuration_interface_v1">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>
+

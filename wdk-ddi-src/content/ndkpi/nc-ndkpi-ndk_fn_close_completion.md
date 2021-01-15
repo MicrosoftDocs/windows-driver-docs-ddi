@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCloseCompletion
+ - NDK_FN_CLOSE_COMPLETION
 ---
 
 # NDK_FN_CLOSE_COMPLETION callback function
@@ -81,3 +81,4 @@ The provider will call the <i>NdkCloseCompletion</i> function after all  pending
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ne-ndkpi-_ndk_object_type">NDK_OBJECT_TYPE</a>
+

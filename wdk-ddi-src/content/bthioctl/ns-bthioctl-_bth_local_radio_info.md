@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_LOCAL_RADIO_INFO
+ - PBTH_LOCAL_RADIO_INFO
  - BTH_LOCAL_RADIO_INFO
 ---
 
@@ -105,3 +107,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>
+

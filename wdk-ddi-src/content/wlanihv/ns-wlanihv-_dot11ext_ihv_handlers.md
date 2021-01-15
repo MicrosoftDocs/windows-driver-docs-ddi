@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_IHV_HANDLERS
+ - PDOT11EXT_IHV_HANDLERS
  - DOT11EXT_IHV_HANDLERS
 ---
 
@@ -317,3 +319,4 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
    Dot11ExtIhvSendPacketCompletion</a>
+

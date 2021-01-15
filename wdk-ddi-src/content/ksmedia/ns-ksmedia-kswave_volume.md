@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSWAVE_VOLUME
  - KSWAVE_VOLUME
 ---
 
@@ -66,3 +67,4 @@ This structure is used by the <a href="/windows-hardware/drivers/stream/ksproper
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a>
+

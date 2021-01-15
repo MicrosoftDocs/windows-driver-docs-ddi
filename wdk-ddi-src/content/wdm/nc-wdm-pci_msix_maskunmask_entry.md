@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - MaskTableEntry
+ - PCI_MSIX_MASKUNMASK_ENTRY
 ---
 
 # PCI_MSIX_MASKUNMASK_ENTRY callback function
@@ -105,3 +105,4 @@ You can unmask the table entry by calling <a href="/previous-versions/windows/ha
 
 
 <a href="/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>
+

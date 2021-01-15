@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGMWIDETAILLIST
+ - LPRILMSGMWIDETAILLIST
 ---
 
 # RILMSGMWIDETAILLIST structure (rilapitypes.h)

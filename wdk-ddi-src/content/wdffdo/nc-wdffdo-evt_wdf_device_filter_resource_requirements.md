@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdffdo.h
 api_name:
- - EvtDeviceFilterXxxResourceRequirements
+ - EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 ---
 
 # EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function
@@ -86,3 +86,4 @@ For more information about hardware resources and resource requirements lists, s
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>
+

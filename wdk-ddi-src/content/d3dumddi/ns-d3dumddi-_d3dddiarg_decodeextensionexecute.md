@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DECODEEXTENSIONEXECUTE
  - D3DDDIARG_DECODEEXTENSIONEXECUTE
 ---
 
@@ -90,3 +91,4 @@ The D3DDDIARG_DECODEEXTENSIONEXECUTE structure describes a nonstandard Microsoft
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeextensionexecute">DecodeExtensionExecute</a>
+

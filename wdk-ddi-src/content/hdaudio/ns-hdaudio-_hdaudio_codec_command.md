@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_CODEC_COMMAND
+ - PHDAUDIO_CODEC_COMMAND
  - HDAUDIO_CODEC_COMMAND
 ---
 
@@ -110,3 +112,4 @@ The validity of individual members depends on the type of command sent.
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - FilterUnloadCallback
+ - PFLT_FILTER_UNLOAD_CALLBACK
 ---
 
 # PFLT_FILTER_UNLOAD_CALLBACK callback function
@@ -86,3 +86,4 @@ See [Loading and Unloading](/windows-hardware/drivers/ifs/loading-and-unloading)
 [FLT_REGISTRATION](ns-fltkernel-_flt_registration.md)
 
 [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md)
+

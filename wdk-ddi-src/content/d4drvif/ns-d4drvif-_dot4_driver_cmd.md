@@ -41,6 +41,8 @@ api_type:
 api_location:
  - D4drvif.h
 api_name:
+ - _DOT4_DRIVER_CMD
+ - PDOT4_DRIVER_CMD
  - DOT4_DRIVER_CMD
 ---
 

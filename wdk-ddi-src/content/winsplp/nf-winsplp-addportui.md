@@ -37,7 +37,7 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
- - pfnAddPortUI
+ - AddPortUI
 ---
 
 # AddPortUI function
@@ -156,3 +156,4 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a>
+

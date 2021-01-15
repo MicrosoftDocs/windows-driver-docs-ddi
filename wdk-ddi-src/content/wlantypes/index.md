@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - wlantypes
  - wlantypes/wlantypes
+api_name:
+ - wlantypes
 ---
 
 # Wlantypes.h header

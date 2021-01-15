@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GDIARG_BITBLT
  - DXGK_GDIARG_BITBLT
 ---
 
@@ -153,3 +154,4 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

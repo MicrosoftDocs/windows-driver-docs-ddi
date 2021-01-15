@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamicro.h
 api_name:
+ - _SCANWINDOW
+ - PSCANWINDOW
  - SCANWINDOW
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequestContainer.AddRequest
+ - IBidiRequestContainer::AddRequest
 ---
 
 # IBidiRequestContainer::AddRequest
@@ -117,3 +117,4 @@ This is similar to adding an item in a link list. In this case, <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a>
+

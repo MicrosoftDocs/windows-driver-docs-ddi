@@ -39,10 +39,12 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_SUPL_CERT_CONFIG
  - GNSS_SUPL_CERT_CONFIG
 ---
 
 # GNSS_SUPL_CERT_CONFIG structure
+
 
 ## -description
 
@@ -83,3 +85,4 @@ Padding buffer.
 ### -field CertData
 
 The binary content of the certificate.  The total size of the bytes is defined by **CertSize**. The certificate is Base64 encoded.
+

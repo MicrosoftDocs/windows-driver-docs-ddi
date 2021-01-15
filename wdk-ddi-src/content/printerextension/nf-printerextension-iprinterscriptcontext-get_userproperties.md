@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptContext.UserProperties
- - IPrinterScriptContext.get_UserProperties
+ - IPrinterScriptContext::get_UserProperties
 ---
 
 # IPrinterScriptContext::get_UserProperties
@@ -66,3 +65,4 @@ The user property bag is not available in (constraint) JavaScript functions when
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+

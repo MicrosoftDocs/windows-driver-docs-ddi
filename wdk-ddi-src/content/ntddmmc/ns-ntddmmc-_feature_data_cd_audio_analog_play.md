@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
+ - PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY
  - FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
 ---
 
@@ -90,3 +92,4 @@ This structure holds data for the feature named "CD Audio External Play" by the 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

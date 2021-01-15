@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCW_REGISTRATION_INFORMATION
+ - PPCW_REGISTRATION_INFORMATION
  - PCW_REGISTRATION_INFORMATION
 ---
 
@@ -161,3 +163,4 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 [PcwRegister function](nf-wdm-pcwregister.md)
 
 [CTRPP](/windows/win32/perfctrs/ctrpp)
+

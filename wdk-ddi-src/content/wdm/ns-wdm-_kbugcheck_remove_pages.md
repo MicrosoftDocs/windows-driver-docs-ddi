@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _KBUGCHECK_REMOVE_PAGES
+ - PKBUGCHECK_REMOVE_PAGES
+ - KBUGCHECK_REMOVE_PAGES
 product:
  - Windows
 ---
@@ -85,3 +87,4 @@ In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason
 For more information about bug check callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
+

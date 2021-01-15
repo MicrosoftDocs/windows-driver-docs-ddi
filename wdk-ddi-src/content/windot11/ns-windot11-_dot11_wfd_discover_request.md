@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_DISCOVER_REQUEST
+ - PDOT11_WFD_DISCOVER_REQUEST
  - DOT11_WFD_DISCOVER_REQUEST
 product:
  - Windows 10 or later.
@@ -161,3 +163,4 @@ The IEs present at <b>uIEsOffset</b>, for the duration of the device discovery, 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

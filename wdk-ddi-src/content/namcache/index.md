@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - namcache
  - namcache/namcache
+api_name:
+ - namcache
 ---
 
 # Namcache.h header

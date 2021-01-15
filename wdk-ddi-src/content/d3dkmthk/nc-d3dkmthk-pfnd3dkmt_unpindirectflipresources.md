@@ -35,7 +35,6 @@ api_location:
  - d3dkmthk.h
 api_name:
  - PFND3DKMT_UNPINDIRECTFLIPRESOURCES
- - D3DKMTUnpinDirectFlipResources
 dev_langs:
  - c++
 ---

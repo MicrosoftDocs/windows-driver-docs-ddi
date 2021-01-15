@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_IS_REMOTE_DEVICE_INFORMATION
+ - PFILE_IS_REMOTE_DEVICE_INFORMATION
  - FILE_IS_REMOTE_DEVICE_INFORMATION
 ---
 
@@ -60,3 +62,4 @@ A value that indicates whether the file system that contains the file is a remot
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

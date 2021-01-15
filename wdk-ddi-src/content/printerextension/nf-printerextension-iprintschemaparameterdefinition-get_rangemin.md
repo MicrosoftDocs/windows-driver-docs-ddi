@@ -37,11 +37,11 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaParameterDefinition.RangeMin
- - IPrintSchemaParameterDefinition.get_RangeMin
+ - IPrintSchemaParameterDefinition::get_RangeMin
 ---
 
 # IPrintSchemaParameterDefinition::get_RangeMin
+
 
 ## -description
 
@@ -60,3 +60,4 @@ For the **PrintSchemaParameterDataType_NumericString** and **PrintSchemaParamete
 ## -see-also
 
 [IPrintSchemaParameterDefinition](nn-printerextension-iprintschemaparameterdefinition.md)
+

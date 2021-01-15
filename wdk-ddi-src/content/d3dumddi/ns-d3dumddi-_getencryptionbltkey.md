@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _GETENCRYPTIONBLTKEY
  - D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
@@ -70,3 +71,4 @@ The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bi
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getencryptionbltkey">GetEncryptionBltKey</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetEventBuffer_OUT
+ - PGetEventBuffer_OUT
  - GetEventBuffer_OUT
 ---
 
@@ -74,3 +76,4 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a>
+

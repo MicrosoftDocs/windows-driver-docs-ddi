@@ -12,6 +12,8 @@ tech.root: gpio
 f1_keywords:
  - parallel
  - parallel/parallel
+api_name:
+ - parallel
 ---
 
 # Parallel.h header

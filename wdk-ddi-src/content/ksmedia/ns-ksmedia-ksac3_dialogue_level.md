@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAC3_DIALOGUE_LEVEL
  - KSAC3_DIALOGUE_LEVEL
 ---
 
@@ -64,3 +65,4 @@ For more information about bit stream modes, see the AC-3 specification at the [
 ## -see-also
 
 [KSPROPERTY_AC3_BIT_STREAM_MODE](/windows-hardware/drivers/audio/ksproperty-ac3-bit-stream-mode)
+

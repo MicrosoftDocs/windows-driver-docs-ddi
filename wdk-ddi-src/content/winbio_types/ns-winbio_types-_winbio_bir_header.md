@@ -39,6 +39,7 @@ api_type:
 api_location:
  - winbio_types.h
 api_name:
+ - _WINBIO_BIR_HEADER
  - WINBIO_BIR_HEADER
 ---
 
@@ -126,3 +127,4 @@ You can find more information about the fields of the standard biometric header 
 <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>
 
 <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir_data">WINBIO_BIR_DATA</a>
+

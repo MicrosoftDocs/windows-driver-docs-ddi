@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
  - DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ---
 
@@ -108,3 +109,4 @@ The entries which need to be copied from the 64KB page tables. The index zero in
 ### -field FirstPteVirtualAddress
 
 The GPU virtual address that is mapped by the first updated page table entry.
+

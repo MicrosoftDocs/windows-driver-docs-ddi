@@ -34,12 +34,13 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStream.SetFormat
+ - IMiniportWaveRTStream::SetFormat
 product:
  - Windows
 ---
 
 # IMiniportWaveRTStream::SetFormat
+
 
 ## -description
 
@@ -70,3 +71,4 @@ None
 [IMiniPortWaveRTStream](nn-portcls-iminiportwavertstream.md)
 
 [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2CustomTransmitTransactionCleanup
+ - EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP
 ---
 
 # EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback function
@@ -101,3 +101,4 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP</b> function type is defin
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a>
+

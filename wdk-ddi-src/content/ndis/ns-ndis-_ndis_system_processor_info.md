@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_SYSTEM_PROCESSOR_INFO
+ - PNDIS_SYSTEM_PROCESSOR_INFO
  - NDIS_SYSTEM_PROCESSOR_INFO
 ---
 
@@ -156,3 +158,4 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to th
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
    NdisSystemActiveProcessorCount</a>
+

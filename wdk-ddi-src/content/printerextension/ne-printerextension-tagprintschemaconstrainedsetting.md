@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
+ - tagPrintSchemaConstrainedSetting
  - PrintSchemaConstrainedSetting
 ---
 
@@ -70,3 +71,4 @@ The Option is constrained by the device configuration. The Option should not be 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaoption-get_constrained">IPrintSchemaOption::Constrained</a>
+

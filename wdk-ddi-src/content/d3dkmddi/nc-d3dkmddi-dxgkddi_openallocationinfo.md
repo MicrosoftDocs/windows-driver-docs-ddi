@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiOpenAllocation
+ - DXGKDDI_OPENALLOCATIONINFO
 product:
  - Windows
 ---
@@ -101,3 +101,4 @@ The driver can modify the allocation private driver data that is passed in the <
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

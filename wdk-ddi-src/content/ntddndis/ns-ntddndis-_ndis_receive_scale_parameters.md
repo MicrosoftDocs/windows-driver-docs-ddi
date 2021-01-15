@@ -41,10 +41,13 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_SCALE_PARAMETERS
+ - PNDIS_RECEIVE_SCALE_PARAMETERS
  - NDIS_RECEIVE_SCALE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS structure
+
 
 ## -description
 
@@ -178,3 +181,4 @@ If RSS is disabled, the miniport driver should handle receive operations without
 [OID_GEN_RECEIVE_SCALE_CAPABILITIES](/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities)
 
 [OID_GEN_RECEIVE_SCALE_PARAMETERS](/windows-hardware/drivers/network/oid-gen-receive-scale-parameters)
+

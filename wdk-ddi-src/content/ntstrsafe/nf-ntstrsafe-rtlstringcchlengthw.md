@@ -39,8 +39,6 @@ api_location:
  - Ntstrsafe.dll
 api_name:
  - RtlStringCchLengthW
- - RtlStringCchLengthA
- - RtlStringCchLengthW
 ---
 
 # RtlStringCchLengthW function
@@ -147,3 +145,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a>
+

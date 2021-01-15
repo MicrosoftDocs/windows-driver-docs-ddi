@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_WMI_OPERATIONS
+ - PTAPE_WMI_OPERATIONS
  - TAPE_WMI_OPERATIONS
 ---
 
@@ -96,3 +98,4 @@ Pointer to a buffer in which the tape minidriver returns the results of the oper
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a>
+

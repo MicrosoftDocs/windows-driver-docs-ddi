@@ -34,6 +34,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS
+ - D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS
 dev_langs:
  - c++
 ---

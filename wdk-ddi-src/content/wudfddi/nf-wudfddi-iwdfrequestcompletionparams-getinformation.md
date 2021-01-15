@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRequestCompletionParams.GetInformation
+ - IWDFRequestCompletionParams::GetInformation
 ---
 
 # IWDFRequestCompletionParams::GetInformation
@@ -56,3 +56,4 @@ The <b>GetInformation</b> method retrieves information that is associated with t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>
+

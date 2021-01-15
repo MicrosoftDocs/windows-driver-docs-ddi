@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_UICC_ACCESS_BINARY
+ - PNDIS_WWAN_UICC_ACCESS_BINARY
+ - NDIS_WWAN_UICC_ACCESS_BINARY
 ---
 
 # _NDIS_WWAN_UICC_ACCESS_BINARY structure
@@ -76,3 +78,4 @@ This structure is used in the payload of an [OID_WWAN_UICC_ACCESS_BINARY](/windo
 [NDIS_STATUS_WWAN_UICC_BINARY_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-binary-response)
 
 [**WWAN_UICC_ACCESS_BINARY**](../wwan/ns-wwan-_wwan_uicc_access_binary.md)
+

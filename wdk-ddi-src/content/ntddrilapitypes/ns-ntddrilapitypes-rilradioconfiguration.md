@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILRADIOCONFIGURATION
+ - LPRILRADIOCONFIGURATION
 ---
 
 # RILRADIOCONFIGURATION structure (ntddrilapitypes.h)

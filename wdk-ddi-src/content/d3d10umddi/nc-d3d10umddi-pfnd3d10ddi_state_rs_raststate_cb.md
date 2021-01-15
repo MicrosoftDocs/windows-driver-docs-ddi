@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateRsRastStateCb
+ - PFND3D10DDI_STATE_RS_RASTSTATE_CB
 ---
 
 # PFND3D10DDI_STATE_RS_RASTSTATE_CB callback function
@@ -70,3 +70,4 @@ The <b>pfnStateRsRastStateCb</b> function calls the user-mode display driver's <
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setrasterizerstate">SetRasterizerState</a>
+

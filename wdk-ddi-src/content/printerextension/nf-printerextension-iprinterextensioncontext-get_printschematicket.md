@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionContext.PrintSchemaTicket
- - IPrinterExtensionContext.get_PrintSchemaTicket
+ - IPrinterExtensionContext::get_PrintSchemaTicket
 ---
 
 # IPrinterExtensionContext::get_PrintSchemaTicket

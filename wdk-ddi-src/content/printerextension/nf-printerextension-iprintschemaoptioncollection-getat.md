@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaOptionCollection.GetAt
+ - IPrintSchemaOptionCollection::GetAt
 ---
 
 # IPrintSchemaOptionCollection::GetAt
@@ -70,3 +70,4 @@ Returns an <b>HRESULT</b> value. If the method call was not successful,  it retu
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
+

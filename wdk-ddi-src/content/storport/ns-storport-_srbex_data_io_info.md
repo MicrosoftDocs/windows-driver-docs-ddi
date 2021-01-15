@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_IO_INFO
+ - PSRBEX_DATA_IO_INFO
  - SRBEX_DATA_IO_INFO
 ---
 
@@ -178,3 +180,4 @@ This member is present starting with Windows 8.1 Update.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

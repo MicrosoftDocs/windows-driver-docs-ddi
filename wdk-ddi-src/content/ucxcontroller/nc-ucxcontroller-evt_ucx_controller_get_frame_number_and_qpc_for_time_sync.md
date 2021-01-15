@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
- - EvtUcxControllerGetFrameNumberAndQpcForTimeSync
+ - EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
 ---
 
 # EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback function
@@ -74,3 +74,4 @@ The length, in bytes, of the request's input buffer, if an input buffer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_frame_number_and_qpc_for_time_sync">IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC</a>
+

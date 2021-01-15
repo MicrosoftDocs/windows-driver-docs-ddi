@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_UNLOCK
  - D3DDDIARG_UNLOCK
 ---
 
@@ -70,3 +71,4 @@ The D3DDDIARG_UNLOCK structure describes a resource or a surface within the reso
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlock">Unlock</a>
+

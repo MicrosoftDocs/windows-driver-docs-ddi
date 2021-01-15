@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _SOC_SUBSYSTEM_TYPE
+ - PSOC_SUBSYSTEM_TYPE
  - SOC_SUBSYSTEM_TYPE
 ---
 
@@ -91,3 +93,4 @@ Subsystem types in the range 0x10000 through 0x80000000 are reserved for indepen
 #### - SOC_SUBSYSTEM_WIRELESS_MODEM
 
 Wireless modem.
+

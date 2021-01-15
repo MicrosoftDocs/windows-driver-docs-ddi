@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDrmPort.GetContentRights
+ - IDrmPort::GetContentRights
 product:
  - Windows
 ---
@@ -67,3 +67,4 @@ See comments in [DrmGetContentRights](../drmk/nf-drmk-drmgetcontentrights.md).
 ## -see-also
 
 [IDrmPort](nn-portcls-idrmport.md)
+

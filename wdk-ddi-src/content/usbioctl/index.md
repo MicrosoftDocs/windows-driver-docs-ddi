@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbioctl
  - usbioctl/usbioctl
+api_name:
+ - usbioctl
 ---
 
 # Usbioctl.h header

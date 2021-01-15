@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.Initialize
+ - IStillImageW::Initialize
 ---
 
 # IStillImageW::Initialize
@@ -67,3 +67,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 The <b>IStillImage::Initialize</b> method initializes the COM object instance that was created by calling <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a>.
 
 Because <b>IStillImage::Initialize</b> is called by <b>IStillImage::StiCreateInstance</b>, clients of the <b>IStillImage</b> COM interface do not typically call this method directly.
+

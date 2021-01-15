@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IQueueCallbackIoStop.OnIoStop
+ - IQueueCallbackIoStop::OnIoStop
 ---
 
 # IQueueCallbackIoStop::OnIoStop
@@ -103,3 +103,4 @@ If the <b>WdfRequestStopRequestCancelable</b> flag is set in the <i>ActionFlags<
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_request_stop_action_flags">WDF_REQUEST_STOP_ACTION_FLAGS</a>
+

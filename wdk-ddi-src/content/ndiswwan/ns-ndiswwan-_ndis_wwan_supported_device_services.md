@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
+ - PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES
  - NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
 ---
 
@@ -114,3 +116,4 @@ This member points to the list of the <a href="/windows-hardware/drivers/ddi/wwa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+

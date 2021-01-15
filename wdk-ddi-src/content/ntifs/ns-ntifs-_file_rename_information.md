@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_RENAME_INFORMATION
+ - PFILE_RENAME_INFORMATION
  - FILE_RENAME_INFORMATION
 dev_langs:
  - c++
@@ -238,3 +240,4 @@ The size of the <i>FileInformation</i> buffer passed to <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

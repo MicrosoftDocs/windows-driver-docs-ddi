@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_NAME_INFORMATION
+ - PFILE_NAME_INFORMATION
  - FILE_NAME_INFORMATION
 ---
 
@@ -74,3 +76,4 @@ Callers of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformatio
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

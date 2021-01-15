@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CM_KEYBOARD_DEVICE_DATA
+ - PCM_KEYBOARD_DEVICE_DATA
  - CM_KEYBOARD_DEVICE_DATA
 ---
 
@@ -171,3 +173,4 @@ Right shift key is down.
 
 
 <a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
+

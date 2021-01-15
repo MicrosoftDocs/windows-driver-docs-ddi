@@ -41,6 +41,8 @@ api_type:
 api_location:
  - smclib.h
 api_name:
+ - _CLOCK_RATE_CONVERSION
+ - PCLOCK_RATE_CONVERSION
  - CLOCK_RATE_CONVERSION
 ---
 
@@ -86,5 +88,4 @@ static CLOCK_RATE_CONVERSION ClockRateConversion[] = {
   { 0, 0 }
 }; 
 ```
-
 

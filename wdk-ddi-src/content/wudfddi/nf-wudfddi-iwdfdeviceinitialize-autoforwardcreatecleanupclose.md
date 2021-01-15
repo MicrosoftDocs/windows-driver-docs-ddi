@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.AutoForwardCreateCleanupClose
+ - IWDFDeviceInitialize::AutoForwardCreateCleanupClose
 ---
 
 # IWDFDeviceInitialize::AutoForwardCreateCleanupClose
@@ -126,3 +126,4 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>
+

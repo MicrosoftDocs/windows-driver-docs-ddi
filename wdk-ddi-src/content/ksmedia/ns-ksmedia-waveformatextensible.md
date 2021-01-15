@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PWAVEFORMATEXTENSIBLE
  - WAVEFORMATEXTENSIBLE
 ---
 
@@ -166,3 +167,4 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 [KSAUDIO_CHANNEL_CONFIG](./ns-ksmedia-ksaudio_channel_config.md)
 
 [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)
+

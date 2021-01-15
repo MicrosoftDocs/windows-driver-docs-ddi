@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - knetpwrdepbroker
  - knetpwrdepbroker/knetpwrdepbroker
+api_name:
+ - knetpwrdepbroker
 ---
 
 # Knetpwrdepbroker.h header

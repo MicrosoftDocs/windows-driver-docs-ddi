@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - LookasideListFreeEx
+ - FREE_FUNCTION_EX
 ---
 
 # FREE_FUNCTION_EX callback function
@@ -115,3 +115,4 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 <a href="/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a>
+

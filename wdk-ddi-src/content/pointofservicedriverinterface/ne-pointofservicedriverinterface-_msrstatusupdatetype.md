@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicedriverinterface.h
 api_name:
+ - _MsrStatusUpdateType
  - MsrStatusUpdateType
 ---
 
@@ -78,3 +79,4 @@ The device is authenticated. This is valid if the device supports authentication
 ### -field MsrStatusUpdateType_Extended
 
 Vendor-specific status information. Reported in IMagneticStripeReaderStatusUpdatedEventArgs.ExtendedStatus.
+

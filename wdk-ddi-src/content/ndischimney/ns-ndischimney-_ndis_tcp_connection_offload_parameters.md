@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+ - PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
  - NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 ---
 
@@ -191,3 +193,4 @@ The
 
 <a href="/previous-versions/windows/embedded/gg158102(v=winembedded.80)">
    OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a>
+

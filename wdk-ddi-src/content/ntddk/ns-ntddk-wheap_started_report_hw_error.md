@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_STARTED_REPORT_HW_ERROR
+ - PWHEAP_STARTED_REPORT_HW_ERROR
  - WHEAP_STARTED_REPORT_HW_ERROR
 product:
  - Windows

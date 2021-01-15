@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _TCP_OFFLOAD_STATS
+ - PTCP_OFFLOAD_STATS
  - TCP_OFFLOAD_STATS
 ---
 
@@ -155,3 +157,4 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>
+

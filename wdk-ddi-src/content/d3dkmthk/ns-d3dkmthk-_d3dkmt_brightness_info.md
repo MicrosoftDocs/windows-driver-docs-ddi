@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_BRIGHTNESS_INFO
  - D3DKMT_BRIGHTNESS_INFO
 ---
 
@@ -122,3 +123,4 @@ An integer that uniquely identifies the child device.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_brightness_state">DXGK_BRIGHTNESS_STATE</a>
+

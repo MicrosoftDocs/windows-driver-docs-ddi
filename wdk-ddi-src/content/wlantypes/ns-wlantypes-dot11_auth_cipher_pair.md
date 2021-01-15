@@ -41,6 +41,7 @@ api_location:
  - wlantypes.h
 api_name:
  - DOT11_AUTH_CIPHER_PAIR
+ - PDOT11_AUTH_CIPHER_PAIR
 ---
 
 # DOT11_AUTH_CIPHER_PAIR structure
@@ -122,3 +123,4 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 <a href="/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+

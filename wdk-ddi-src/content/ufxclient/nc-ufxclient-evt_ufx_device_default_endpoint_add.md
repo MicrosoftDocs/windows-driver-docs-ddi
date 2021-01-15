@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ufxclient.h
 api_name:
- - PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
+ - EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
 ---
 
 # EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function
@@ -127,7 +127,6 @@ End:
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
@@ -135,3 +134,4 @@ End:
 
 
 <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _IMAGE_POLICY_ENTRY_TYPE
  - IMAGE_POLICY_ENTRY_TYPE
 ---
 

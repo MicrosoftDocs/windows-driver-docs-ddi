@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_TCP_CONNECTION_OFFLOAD
+ - PNDIS_TCP_CONNECTION_OFFLOAD
  - NDIS_TCP_CONNECTION_OFFLOAD
 ---
 
@@ -252,3 +254,4 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 <a href="/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
+

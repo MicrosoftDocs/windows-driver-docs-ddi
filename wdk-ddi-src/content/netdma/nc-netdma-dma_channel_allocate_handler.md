@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netdma.h
 api_name:
- - ProviderAllocateDmaChannel
+ - DMA_CHANNEL_ALLOCATE_HANDLER
 ---
 
 # DMA_CHANNEL_ALLOCATE_HANDLER callback function
@@ -180,3 +180,4 @@ NetDMA calls
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_free_handler">ProviderFreeDmaChannel</a>
+

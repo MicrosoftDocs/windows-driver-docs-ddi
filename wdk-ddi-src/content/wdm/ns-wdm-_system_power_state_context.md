@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _SYSTEM_POWER_STATE_CONTEXT
+ - PSYSTEM_POWER_STATE_CONTEXT
  - SYSTEM_POWER_STATE_CONTEXT
 ---
 
@@ -114,3 +116,4 @@ The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
+

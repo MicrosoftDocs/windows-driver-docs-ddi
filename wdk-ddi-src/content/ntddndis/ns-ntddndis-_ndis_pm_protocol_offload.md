@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_PROTOCOL_OFFLOAD
+ - PNDIS_PM_PROTOCOL_OFFLOAD
  - NDIS_PM_PROTOCOL_OFFLOAD
 ---
 
@@ -295,3 +297,4 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 
 <a href="/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
+

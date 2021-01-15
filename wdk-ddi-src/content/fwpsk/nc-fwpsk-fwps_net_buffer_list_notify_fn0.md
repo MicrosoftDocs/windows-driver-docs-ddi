@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - FwpsNetBufferListNotifyFN0
+ - FWPS_NET_BUFFER_LIST_NOTIFY_FN0
 ---
 
 # FWPS_NET_BUFFER_LIST_NOTIFY_FN0 callback function
@@ -126,3 +126,4 @@ This function is associated with a callout driver by a call to
 
 
 <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+

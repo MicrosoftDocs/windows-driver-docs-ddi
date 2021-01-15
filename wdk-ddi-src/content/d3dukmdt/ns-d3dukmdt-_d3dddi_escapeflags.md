@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_ESCAPEFLAGS
  - D3DDDI_ESCAPEFLAGS
 ---
 
@@ -147,3 +148,4 @@ If these conditions are not met, <i>pfnEscapeCb</i> call returns an <b>E_INVALID
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
+

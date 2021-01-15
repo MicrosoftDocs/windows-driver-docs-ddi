@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddtape
  - ntddtape/ntddtape
+api_name:
+ - ntddtape
 ---
 
 # Ntddtape.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PERSISTENCE_INFO
+ - PWHEA_PERSISTENCE_INFO
  - WHEA_PERSISTENCE_INFO
 ---
 
@@ -90,3 +92,4 @@ A WHEA_PERSISTENCE_INFO union is contained within the <a href="/windows-hardware
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
+

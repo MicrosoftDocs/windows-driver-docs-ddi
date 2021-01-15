@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pcivirt.h
 api_name:
- - PSRIOV_GET_RESOURCE_FOR_BAR
+ - SRIOV_GET_RESOURCE_FOR_BAR
 ---
 
 # SRIOV_GET_RESOURCE_FOR_BAR callback
@@ -150,3 +150,4 @@ Virtualization_GetResourceForBar(
 
 
 ```
+

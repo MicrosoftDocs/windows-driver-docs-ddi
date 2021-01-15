@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLS_LOG_INFORMATION_CLASS
+ - PCLS_LOG_INFORMATION_CLASS
  - CLS_LOG_INFORMATION_CLASS
 ---
 
@@ -84,3 +86,4 @@ The <i>eInformationClass</i> parameter of the <a href="/windows-hardware/drivers
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
+

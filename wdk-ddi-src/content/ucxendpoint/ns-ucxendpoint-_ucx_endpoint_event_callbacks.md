@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _UCX_ENDPOINT_EVENT_CALLBACKS
+ - PUCX_ENDPOINT_EVENT_CALLBACKS
  - UCX_ENDPOINT_EVENT_CALLBACKS
 ---
 
@@ -108,3 +110,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoin
 
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointinitseteventcallbacks">UcxEndpointInitSetEventCallbacks</a>
+

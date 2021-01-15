@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidport.h
 api_name:
+ - _HID_DESCRIPTOR
+ - PHID_DESCRIPTOR
  - HID_DESCRIPTOR
 ---
 
@@ -80,3 +82,4 @@ For information about HID descriptors, see the Universal Serial Bus (USB) standa
 ## -see-also
 
 <a href="/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
+

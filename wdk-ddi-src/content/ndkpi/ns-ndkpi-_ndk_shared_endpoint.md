@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_SHARED_ENDPOINT
  - NDK_SHARED_ENDPOINT
 ---
 
@@ -86,3 +87,4 @@ NDK provider must set the <b>Dispatch</b> member to its own <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint_dispatch">NDK_SHARED_ENDPOINT_DISPATCH</a>
+

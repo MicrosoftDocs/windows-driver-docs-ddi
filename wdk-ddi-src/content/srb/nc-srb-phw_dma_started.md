@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_DMA_STARTED)
+ - PHW_DMA_STARTED
 ---
 
 # PHW_DMA_STARTED callback
@@ -64,3 +64,4 @@ Miniport drivers that work with the StorPort driver do not support adapters that
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff557291(v=vs.85)">HwScsiDmaStarted</a>
+

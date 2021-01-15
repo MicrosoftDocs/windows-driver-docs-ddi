@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_NFCIP_TGT_MODE_CONFIG
+ - PNFC_CX_NFCIP_TGT_MODE_CONFIG
  - NFC_CX_NFCIP_TGT_MODE_CONFIG
 ---
 
@@ -93,3 +95,4 @@ The NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration specifies NFC-IP target mode.
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

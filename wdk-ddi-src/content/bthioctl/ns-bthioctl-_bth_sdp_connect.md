@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_SDP_CONNECT
+ - PBTH_SDP_CONNECT
  - BTH_SDP_CONNECT
 ---
 
@@ -111,3 +113,4 @@ A handle for the SDP connection on the remote server.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
+

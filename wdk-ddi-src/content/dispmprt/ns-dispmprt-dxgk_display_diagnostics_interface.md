@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
+ - PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE
  - DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
 f1_keywords:
  - _DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
@@ -91,3 +92,4 @@ The operating system will query the display diagnostics interface for each graph
 [**PINTERFACE_DEREFERENCE**](../wdm/nc-wdm-pinterface_dereference.md)
 
 [**PINTERFACE_REFERENCE**](../wdm/nc-wdm-pinterface_reference.md)
+

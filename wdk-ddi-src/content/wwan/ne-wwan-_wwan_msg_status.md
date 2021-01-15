@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_MSG_STATUS
+ - PWWAN_MSG_STATUS
  - WWAN_MSG_STATUS
 ---
 
@@ -80,3 +82,4 @@ The total number of supported SMS message statuses.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_pdu_record">WWAN_SMS_PDU_RECORD</a>
+

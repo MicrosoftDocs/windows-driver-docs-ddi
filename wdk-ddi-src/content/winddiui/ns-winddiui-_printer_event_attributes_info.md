@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _PRINTER_EVENT_ATTRIBUTES_INFO
+ - PPRINTER_EVENT_ATTRIBUTES_INFO
  - PRINTER_EVENT_ATTRIBUTES_INFO
 ---
 
@@ -78,3 +80,4 @@ Because this structure might become larger in future operating system versions, 
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-printerevent">IPrintOemUI::PrinterEvent</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.EDTTryStopDevice
+ - IWDTFPNPAction2::EDTTryStopDevice
 ---
 
 # IWDTFPNPAction2::EDTTryStopDevice
@@ -79,3 +79,4 @@ which does consume hardware resources. For example, if your device is a USB mous
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

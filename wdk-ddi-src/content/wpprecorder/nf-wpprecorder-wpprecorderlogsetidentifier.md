@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
- - imp_WppRecorderLogSetIdentifier
+ - WppRecorderLogSetIdentifier
 ---
 
 # WppRecorderLogSetIdentifier macro
@@ -60,3 +60,4 @@ A string identifier to set.
 ## -remarks
 
 Do not call <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="/previous-versions/windows/hardware/previsioning-framework/dn895240(v=vs.85)">WppRecorderLogGetDefault</a>.
+

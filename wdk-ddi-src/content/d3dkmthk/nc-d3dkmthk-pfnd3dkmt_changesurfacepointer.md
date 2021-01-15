@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTChangeSurfacePointer
+ - PFND3DKMT_CHANGESURFACEPOINTER
 ---
 
 # PFND3DKMT_CHANGESURFACEPOINTER callback function

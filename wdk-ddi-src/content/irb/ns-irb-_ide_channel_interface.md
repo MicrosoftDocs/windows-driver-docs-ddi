@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_CHANNEL_INTERFACE
+ - PIDE_CHANNEL_INTERFACE
  - IDE_CHANNEL_INTERFACE
 ---
 
@@ -105,3 +107,4 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_startio">IdeHwStartIo</a>
+

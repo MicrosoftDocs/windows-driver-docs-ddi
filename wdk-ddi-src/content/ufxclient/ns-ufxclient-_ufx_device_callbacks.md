@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ufxclient.h
 api_name:
+ - _UFX_DEVICE_CALLBACKS
+ - PUFX_DEVICE_CALLBACKS
  - UFX_DEVICE_CALLBACKS
 ---
 
@@ -124,3 +126,4 @@ A pointer to the client driver’s <a href="/windows-hardware/drivers/ddi/ufxcli
 ## -remarks
 
 The client driver shall use the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufx_device_callbacks_init">UFX_DEVICE_CALLBACKS_INIT</a> macro to initialize the <b>UFX_DEVICE_CALLBACKS</b> structure, and then shall set fields of structure to the appropriate event callback routines prior to calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> export function.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrCorrelatedTime
+ - PFNKSCORRELATEDTIME
 ---
 
 # PFNKSCORRELATEDTIME callback function
@@ -84,3 +84,4 @@ The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteri
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
+

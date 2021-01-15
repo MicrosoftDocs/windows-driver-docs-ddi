@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdffileobject
  - wdffileobject/wdffileobject
+api_name:
+ - wdffileobject
 ---
 
 # Wdffileobject.h header

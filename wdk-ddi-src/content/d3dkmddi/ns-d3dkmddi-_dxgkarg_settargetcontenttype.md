@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETTARGETCONTENTTYPE
  - DXGKARG_SETTARGETCONTENTTYPE
 ---
 
@@ -58,3 +59,4 @@ The identifier of a display adapter's video present target.
 ### -field ContentType
 
 A D3DKMDT_VIDPN_PRESENT_PATH_CONTENT value indicating the type of content being presented on the target id for which the driver should optimize.
+

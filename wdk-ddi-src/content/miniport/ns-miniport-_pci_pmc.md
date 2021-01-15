@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_PMC
+ - PPCI_PMC
  - PCI_PMC
 ---
 
@@ -152,3 +154,4 @@ The power management capabilities register, whose contents are reported in the P
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability">PCI_PM_CAPABILITY</a>
+

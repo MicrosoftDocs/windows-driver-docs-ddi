@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiodisk.h
 api_name:
+ - _DSM_Load_Balance_Policy_V2
+ - PDSM_Load_Balance_Policy_V2
  - DSM_Load_Balance_Policy_V2
 ---
 

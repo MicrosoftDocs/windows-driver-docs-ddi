@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _PERSISTENT_RESERVE_COMMAND
+ - PPERSISTENT_RESERVE_COMMAND
  - PERSISTENT_RESERVE_COMMAND
 ---
 
@@ -125,3 +127,4 @@ The behavior of the storage device when a SCSI Persistent Reserve In command or 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
+

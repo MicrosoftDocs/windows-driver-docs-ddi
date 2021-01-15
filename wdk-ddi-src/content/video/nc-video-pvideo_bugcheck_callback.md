@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidBugcheckCallback
+ - PVIDEO_BUGCHECK_CALLBACK
 ---
 
 # PVIDEO_BUGCHECK_CALLBACK callback function
@@ -86,3 +86,4 @@ The function is called at raised IRQL and must not attempt to access pageable co
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportregisterbugcheckcallback">VideoPortRegisterBugcheckCallback</a>
+

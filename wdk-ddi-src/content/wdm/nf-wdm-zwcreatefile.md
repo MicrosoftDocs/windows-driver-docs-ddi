@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwCreateFile
- - NtCreateFile
 ---
 
 # ZwCreateFile function
@@ -840,3 +839,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
  [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks)
 
 [Reparse Points](/windows/win32/fileio/reparse-points)
+

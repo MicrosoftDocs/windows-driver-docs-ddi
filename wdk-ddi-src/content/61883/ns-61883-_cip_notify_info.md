@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CIP_NOTIFY_INFO
+ - PCIP_NOTIFY_INFO
  - CIP_NOTIFY_INFO
 ---
 
@@ -72,3 +74,4 @@ The IEC-61883 protocol driver allocates and initializes this structure from the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_cip_frame">CIP_FRAME</a>
+

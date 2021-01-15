@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.SetLockingConstraint
+ - IWDFDeviceInitialize::SetLockingConstraint
 ---
 
 # IWDFDeviceInitialize::SetLockingConstraint
@@ -74,3 +74,4 @@ For a code example of how to use the <b>SetLockingConstraint</b> method, see <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

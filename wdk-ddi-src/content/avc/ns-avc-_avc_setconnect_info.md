@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVC_SETCONNECT_INFO
+ - PAVC_SETCONNECT_INFO
  - AVC_SETCONNECT_INFO
 ---
 
@@ -80,3 +82,4 @@ See <a href="/windows-hardware/drivers/stream/using-avc-sys">How to Use Avc.sys<
 
 
 <a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb">AVC_MULTIFUNC_IRB</a>
+

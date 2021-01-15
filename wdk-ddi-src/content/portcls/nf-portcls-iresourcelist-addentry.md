@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IResourceList.AddEntry
+ - IResourceList::AddEntry
 ---
 
 # IResourceList::AddEntry
@@ -88,3 +88,4 @@ Indicates there are no free entries in the list.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
+

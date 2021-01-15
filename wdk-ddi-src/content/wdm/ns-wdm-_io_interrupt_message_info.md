@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_INTERRUPT_MESSAGE_INFO
+ - PIO_INTERRUPT_MESSAGE_INFO
  - IO_INTERRUPT_MESSAGE_INFO
 ---
 
@@ -80,3 +82,4 @@ When a driver calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnecti
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
+

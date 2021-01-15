@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_DESCRIBEALLOCATIONFLAGS
  - DXGK_DESCRIBEALLOCATIONFLAGS
 ---
 
@@ -70,3 +71,4 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>
+

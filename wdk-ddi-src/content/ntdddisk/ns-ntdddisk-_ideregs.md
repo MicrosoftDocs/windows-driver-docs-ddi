@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _IDEREGS
+ - PIDEREGS
  - IDEREGS
 ---
 
@@ -209,3 +211,4 @@ Reserved for future use. Should always be zero.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSERROR
  - KSERROR
 ---
 
@@ -74,3 +75,4 @@ Streaming error notifications can be generated against the Quality Management si
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-quality-error">KSPROPERTY_QUALITY_ERROR</a>
+

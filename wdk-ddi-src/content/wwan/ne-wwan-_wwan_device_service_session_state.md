@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_SESSION_STATE
+ - PWWAN_DEVICE_SERVICE_SESSION_STATE
  - WWAN_DEVICE_SERVICE_SESSION_STATE
 ---
 
@@ -68,3 +70,4 @@ The WWAN_DEVICE_SERVICE_SESSION structure uses the WWAN_DEVICE_SERVICE_SESSION_S
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>
+

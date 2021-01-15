@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Filterpipeline.h
 api_name:
- - IPartFont2.GetFontRestriction
+ - IPartFont2::GetFontRestriction
 ---
 
 # IPartFont2::GetFontRestriction
@@ -58,3 +58,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont2">IPartFont2</a>
+

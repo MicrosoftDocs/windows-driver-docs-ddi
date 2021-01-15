@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiDestroyOverlay
+ - DXGKDDI_DESTROYOVERLAY
 product:
  - Windows
 ---
@@ -70,3 +70,4 @@ The <i>DxgkDdiDestroyOverlay</i> function disables overlay hardware and deletes 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
+

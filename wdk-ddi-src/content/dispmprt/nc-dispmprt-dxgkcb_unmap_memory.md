@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbUnmapMemory
+ - DXGKCB_UNMAP_MEMORY
 ---
 
 # DXGKCB_UNMAP_MEMORY callback function
@@ -66,3 +66,4 @@ The beginning address of the range to be unmapped. This address can be a virtual
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_map_memory">DxgkCbMapMemory</a>
+

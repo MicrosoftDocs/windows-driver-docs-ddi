@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPrintWriteStreamFlush.FlushData
+ - IPrintWriteStreamFlush::FlushData
 ---
 
 # IPrintWriteStreamFlush::FlushData
@@ -81,3 +81,4 @@ hr = pIFlush->FlushData();
 [IPrintWriteStream::WriteBytes](./nf-filterpipeline-iprintwritestream-writebytes.md)
 
 [IPrintWriteStreamFlush](./nn-filterpipeline-iprintwritestreamflush.md)
+

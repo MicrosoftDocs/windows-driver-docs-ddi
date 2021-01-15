@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_LINK_ENTRY_INFORMATION
+ - PFILE_LINK_ENTRY_INFORMATION
  - FILE_LINK_ENTRY_INFORMATION
 ---
 
@@ -72,3 +74,4 @@ The name of the link.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a>
+

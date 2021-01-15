@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbTargetDisconnect
+ - EVT_SPB_TARGET_DISCONNECT
 ---
 
 # EVT_SPB_TARGET_DISCONNECT callback function
@@ -121,3 +121,4 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
+

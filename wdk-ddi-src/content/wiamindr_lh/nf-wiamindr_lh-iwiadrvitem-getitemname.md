@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetItemName
+ - IWiaDrvItem::GetItemName
 ---
 
 # IWiaDrvItem::GetItemName
@@ -72,3 +72,4 @@ If there is enough memory available, the method allocates a string containing th
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md)
+

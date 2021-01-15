@@ -37,7 +37,7 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
+ - EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
 ---
 
 # EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback function
@@ -57,3 +57,4 @@ A handle by the OS to identify the monitor that has an invalid associated swapch
 ## -returns
 
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+

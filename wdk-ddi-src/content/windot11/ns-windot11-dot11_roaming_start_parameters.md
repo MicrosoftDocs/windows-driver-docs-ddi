@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_ROAMING_START_PARAMETERS
+ - PDOT11_ROAMING_START_PARAMETERS
 product:
  - Windows 10 or later.
 ---
@@ -176,3 +177,4 @@ For more information about the roaming operation, see
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
  - D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 ---
 
@@ -90,3 +91,4 @@ This member is reserved and should be set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2">D3DKMTSignalSynchronizationObjectFromGpu2</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTarget2.Type
- - IWDTFTarget2.get_Type
+ - IWDTFTarget2::get_Type
 ---
 
 # IWDTFTarget2::get_Type
@@ -80,3 +79,4 @@ The value can be one of the following:
 
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+

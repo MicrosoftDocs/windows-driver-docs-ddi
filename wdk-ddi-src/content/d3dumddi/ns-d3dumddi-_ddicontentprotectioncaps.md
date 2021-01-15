@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DDICONTENTPROTECTIONCAPS
  - DDICONTENTPROTECTIONCAPS
 ---
 
@@ -92,3 +93,4 @@ If the runtime specifies NULL_GUID in the <b>CryptoType</b> member, the driver s
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

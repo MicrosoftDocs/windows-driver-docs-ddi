@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - StackTrace
+ - PWINDBG_STACKTRACE_ROUTINE
 ---
 
 # PWINDBG_STACKTRACE_ROUTINE callback function
@@ -94,3 +94,4 @@ a DbgEng extension, include Wdbgexts.h before
 Dbgeng.h. See <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for 
 
 details.
+

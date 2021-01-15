@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_HD_SPLIT_ATTRIBUTES
+ - PNDIS_HD_SPLIT_ATTRIBUTES
  - NDIS_HD_SPLIT_ATTRIBUTES
 ---
 
@@ -206,3 +208,4 @@ To support header-data split, a miniport driver passes a pointer to an
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbQueryMonitorInterface
+ - DXGKCB_QUERYMONITORINTERFACE
 product:
  - Windows
 ---
@@ -70,3 +70,4 @@ The <b>DxgkCbQueryMonitorInterface</b> function returns a pointer to a <a href="
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">Monitor Interface</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - BthXDDI.h
 api_name:
+ - _BTHX_HCI_PACKET_TYPE
  - BTHX_HCI_PACKET_TYPE
 ---
 
@@ -74,3 +75,4 @@ The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write d
 
 
 <a href="/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci">IOCTL_BTHX_HCI_WRITE</a>
+

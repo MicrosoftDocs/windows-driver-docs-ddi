@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfrequest.h
 api_name:
+ - _WDF_REQUEST_COMPLETION_PARAMS
+ - PWDF_REQUEST_COMPLETION_PARAMS
  - WDF_REQUEST_COMPLETION_PARAMS
 ---
 
@@ -196,3 +198,4 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetcompletionparams">WdfRequestGetCompletionParams</a>
+

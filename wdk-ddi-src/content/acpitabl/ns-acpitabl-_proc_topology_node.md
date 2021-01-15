@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _PROC_TOPOLOGY_NODE
+ - PPROC_TOPOLOGY_NODE
+ - PROC_TOPOLOGY_NODE
 ---
 
 # _PROC_TOPOLOGY_NODE structure
+
 
 ## -description
 
@@ -99,3 +102,4 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
+

@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_PACKET_LOG_DATA
+ - PWHEA_PACKET_LOG_DATA
  - WHEA_PACKET_LOG_DATA
 f1_keywords:
  - _WHEA_PACKET_LOG_DATA

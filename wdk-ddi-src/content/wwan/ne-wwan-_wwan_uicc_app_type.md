@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_UICC_APP_TYPE
+ - PWWAN_UICC_APP_TYPE
+ - WWAN_UICC_APP_TYPE
 ---
 
 # _WWAN_UICC_APP_TYPE enumeration
@@ -87,3 +89,4 @@ This enumeration is used in the [**WWAN_UICC_APP_INFO**](../wwan/ns-wwan-_wwan_u
 [OID_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/oid-wwan-uicc-app-list)
 
 [**WWAN_UICC_APP_INFO**](../wwan/ns-wwan-_wwan_uicc_app_info.md)
+

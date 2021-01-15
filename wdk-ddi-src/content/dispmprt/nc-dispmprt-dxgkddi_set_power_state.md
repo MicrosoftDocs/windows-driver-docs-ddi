@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiSetPowerState
+ - DXGKDDI_SET_POWER_STATE
 ---
 
 # DXGKDDI_SET_POWER_STATE callback function
@@ -98,3 +98,4 @@ The <i>DxgkDdiSetPowerState</i> function should be made pageable.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
+

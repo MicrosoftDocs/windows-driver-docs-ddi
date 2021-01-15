@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl5.GetBreakpointByGuid
+ - IDebugControl5::GetBreakpointByGuid
 ---
 
 # IDebugControl5::GetBreakpointByGuid
@@ -99,3 +99,4 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
+

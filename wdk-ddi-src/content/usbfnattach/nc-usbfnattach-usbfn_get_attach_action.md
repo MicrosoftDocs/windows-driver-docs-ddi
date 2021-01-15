@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbfnattach.h
 api_name:
- - PFN_USBFN_GET_ATTACH_ACTION
+ - USBFN_GET_ATTACH_ACTION
 ---
 
 # USBFN_GET_ATTACH_ACTION callback function
@@ -125,7 +125,7 @@ UsbLowerFilter_GetAttachAction(
 
 ```
 
-
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
+

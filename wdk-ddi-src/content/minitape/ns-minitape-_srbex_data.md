@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA
+ - PSRBEX_DATA
  - SRBEX_DATA
 ---
 
@@ -238,7 +240,6 @@ BOOLEAN CheckIo( _In_ PSCSI_REQUEST_BLOCK Srb)
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_bidirectional">SRBEX_DATA_BIDIRECTIONAL</a>
@@ -270,3 +271,4 @@ BOOLEAN CheckIo( _In_ PSCSI_REQUEST_BLOCK Srb)
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_wmi">SRBEX_DATA_WMI</a>
+

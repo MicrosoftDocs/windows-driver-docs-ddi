@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - SetCreateThreadNotifyRoutine
+ - PCREATE_THREAD_NOTIFY_ROUTINE
 ---
 
 # PCREATE_THREAD_NOTIFY_ROUTINE callback function
@@ -78,3 +78,4 @@ The driver's thread-notify routine runs at IRQL = PASSIVE_LEVEL or APC_LEVEL. Wh
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreatethreadnotifyroutineex">PsSetCreateThreadNotifyRoutineEx</a>
+

@@ -33,6 +33,7 @@ api_type:
 api_location:
  - sensorsstructures.h
 api_name:
+ - PMATRIX3X3
  - MATRIX3X3
 product:
  - Windows

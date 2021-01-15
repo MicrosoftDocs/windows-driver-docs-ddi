@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - _EFN_Analyze
+ - EXT_ANALYSIS_PLUGIN
 ---
 
 # EXT_ANALYSIS_PLUGIN callback function
@@ -75,3 +75,4 @@ If the function succeeds, return <b>S_OK</b>.
 
 
 <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+

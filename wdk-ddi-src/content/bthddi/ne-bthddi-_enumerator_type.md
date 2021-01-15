@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _ENUMERATOR_TYPE
+ - PENUMERATOR_TYPE
  - ENUMERATOR_TYPE
 ---
 
@@ -87,3 +89,4 @@ A value from this enumeration is returned as the
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
+

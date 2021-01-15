@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiamdef.h
 api_name:
- - CWiaLogProc.CWiaLogProc
+ - CWiaLogProc::CWiaLogProc
 ---
 
 # CWiaLogProc::CWiaLogProc
@@ -72,3 +72,4 @@ Defines the **CHAR** parameter _*pszMsg_.
 ## -see-also
 
 [CWiaLogProc]()
+

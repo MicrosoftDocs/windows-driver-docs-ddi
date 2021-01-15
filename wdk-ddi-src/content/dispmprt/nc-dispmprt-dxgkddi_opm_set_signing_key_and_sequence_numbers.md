@@ -37,10 +37,11 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMSetSigningKeyAndSequenceNumbers
+ - DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
 ---
 
 # DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS callback function
+
 
 ## -description
 
@@ -123,3 +124,4 @@ RSAES-OAEP is a parameterized encryption scheme and MGF1 is a parameterized mask
 [**DxgkDdiOPMGetInformation**](nc-dispmprt-dxgkddi_opm_get_information.md)
 
 [**DxgkDdiOPMConfigureProtectedOutput**](nc-dispmprt-dxgkddi_opm_configure_protected_output.md)
+

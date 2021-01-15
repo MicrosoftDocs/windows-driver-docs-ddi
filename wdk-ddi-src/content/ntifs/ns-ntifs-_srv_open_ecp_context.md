@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SRV_OPEN_ECP_CONTEXT
+ - PSRV_OPEN_ECP_CONTEXT
  - SRV_OPEN_ECP_CONTEXT
 ---
 
@@ -96,3 +98,4 @@ The oplock state values (**OplockBlockState**, **OplockAppState**, and **OplockF
 [SRV_INSTANCE_TYPE](ne-ntifs-srv_instance_type.md)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+

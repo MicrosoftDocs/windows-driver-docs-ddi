@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSP_NODE
  - KSP_NODE
 ---
 
@@ -70,3 +71,4 @@ Reserved for system use. Should be set to zero.
 
 
 <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+

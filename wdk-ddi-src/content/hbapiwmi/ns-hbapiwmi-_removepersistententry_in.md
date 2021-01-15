@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _RemovePersistentEntry_IN
+ - PRemovePersistentEntry_IN
  - RemovePersistentEntry_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_IN struc
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/removepersistententry">RemovePersistentEntry</a>
+

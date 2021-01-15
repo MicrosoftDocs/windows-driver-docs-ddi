@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_STEPPING_LONGLONG
  - KSPROPERTY_STEPPING_LONGLONG
 ---
 
@@ -74,3 +75,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-propertie
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a>
+

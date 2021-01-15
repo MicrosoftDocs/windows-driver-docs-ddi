@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiPostAdapterPause
+ - MINIPORT_WDI_POST_ADAPTER_PAUSE
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_PAUSE callback function
@@ -80,3 +80,4 @@ The return value is only used for logging/informational purposes.
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pause_parameters">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
+

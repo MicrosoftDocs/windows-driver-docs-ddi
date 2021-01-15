@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _MEMORY_INFORMATION_CLASS
  - MEMORY_INFORMATION_CLASS
 ---
 
@@ -62,3 +63,4 @@ Currently, only the <b>MemoryBasicInformation</b> value is supported for use wit
 ## -see-also
 
 <a href="/previous-versions/dn957455(v=vs.85)">ZwQueryVirtualMemory</a>
+

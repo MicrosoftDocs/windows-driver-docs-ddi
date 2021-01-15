@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_INFORMATION
+ - PPEP_INFORMATION
  - PEP_INFORMATION
 ---
 
@@ -98,3 +100,4 @@ The <i>PepInformation</i> parameter to the <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a>
+

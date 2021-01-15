@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_MIRACAST_CAPS
+ - PDXGK_MIRACAST_CAPS
  - DXGK_MIRACAST_CAPS
 ---
 
@@ -74,3 +76,4 @@ Holds a 32-bit value that identifies the capabilities of the Miracast device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a>
+

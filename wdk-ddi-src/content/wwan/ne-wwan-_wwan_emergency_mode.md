@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_EMERGENCY_MODE
+ - PWWAN_EMERGENCY_MODE
  - WWAN_EMERGENCY_MODE
 ---
 
@@ -69,3 +71,4 @@ The total number of supported emergency modes.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info">WWAN_READY_INFO</a>
+

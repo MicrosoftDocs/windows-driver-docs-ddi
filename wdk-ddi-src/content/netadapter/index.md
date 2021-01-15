@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netadapter
  - netadapter/netadapter
+api_name:
+ - netadapter
 ---
 
 # Netadapter.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_EVENT_CONTEXT
+ - PDEBUG_EVENT_CONTEXT
  - DEBUG_EVENT_CONTEXT
 ---
 
@@ -72,3 +74,4 @@ The frame engine ID of the event.
 ## -see-also
 
 <a href="/previous-versions/ff541478(v=vs.85)">DEBUG_EVENT_XXX</a>
+

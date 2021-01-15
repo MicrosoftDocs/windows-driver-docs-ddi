@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.RemoveValue
+ - IPortableDeviceValues::RemoveValue
 ---
 
 # IPortableDeviceValues::RemoveValue
@@ -92,3 +92,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">IPortableDeviceValues::SetValue</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnUpdateGpuVirtualAddressCb
+ - PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ The user mode driver can submit many <b>pfnUpdateGpuVirtualAddressCb</b> calls a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
+

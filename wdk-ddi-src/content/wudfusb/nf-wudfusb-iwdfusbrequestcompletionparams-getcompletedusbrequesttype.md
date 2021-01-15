@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
+ - IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
 ---
 
 # IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
@@ -60,3 +60,4 @@ The <b>GetCompletedUsbRequestType</b> method retrieves the type of operation tha
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a>
+

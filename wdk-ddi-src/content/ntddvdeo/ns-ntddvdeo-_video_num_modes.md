@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_NUM_MODES
+ - PVIDEO_NUM_MODES
  - VIDEO_NUM_MODES
 ---
 
@@ -72,3 +74,4 @@ The miniport driver returns a VIDEO_NUM_MODES structure in response to an <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode_information">VIDEO_MODE_INFORMATION</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET
+ - PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET
  - KSCAMERA_EXTENDEDPROP_CAMERAOFFSET
 ---
 
@@ -76,3 +78,4 @@ Reserved. Set to 0.
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-cameraangleoffset">KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET</a>
+

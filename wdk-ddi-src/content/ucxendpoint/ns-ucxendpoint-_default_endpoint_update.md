@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _DEFAULT_ENDPOINT_UPDATE
+ - PDEFAULT_ENDPOINT_UPDATE
  - DEFAULT_ENDPOINT_UPDATE
 ---
 
@@ -68,3 +70,4 @@ The maximum packet size of the default endpoint.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
+

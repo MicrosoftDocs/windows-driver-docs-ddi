@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetNearNameByOffset
- - IDebugSymbols2.GetNearNameByOffset
- - IDebugSymbols3.GetNearNameByOffset
+ - IDebugSymbols::GetNearNameByOffset
 ---
 
 # IDebugSymbols::GetNearNameByOffset
@@ -152,3 +150,4 @@ For more information about symbols and symbol names, see <a href="/windows-hardw
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

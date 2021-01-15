@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DVD_RECORDABLE_WRITE
+ - PFEATURE_DATA_DVD_RECORDABLE_WRITE
  - FEATURE_DATA_DVD_RECORDABLE_WRITE
 ---
 
@@ -96,3 +98,4 @@ This structure holds data for the feature named "DVD-R Write" by the <i>SCSI Mul
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

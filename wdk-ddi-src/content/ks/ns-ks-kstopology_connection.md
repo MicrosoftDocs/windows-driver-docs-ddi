@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSTOPOLOGY_CONNECTION
  - KSTOPOLOGY_CONNECTION
 ---
 
@@ -126,3 +127,4 @@ For a simple code example that shows how the **PCCONNECTION_DESCRIPTOR** structu
 [KSPROPSETID_Pin](/windows-hardware/drivers/stream/kspropsetid-pin)
 
 [KSPROPSETID_Topology](/windows-hardware/drivers/stream/kspropsetid-topology)
+

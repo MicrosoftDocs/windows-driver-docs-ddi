@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_UPDATEOVERLAY
  - D3DDDICB_UPDATEOVERLAY
 ---
 
@@ -70,3 +71,4 @@ The D3DDDICB_UPDATEOVERLAY structure describes parameters for modifying an overl
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updateoverlaycb">pfnUpdateOverlayCb</a>
+

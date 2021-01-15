@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxusbdevice.h
 api_name:
+ - _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+ - PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
  - UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 ---
 
@@ -64,3 +66,4 @@ The maximum delay in milliseconds from the time an isochronous transfer is compl
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
+

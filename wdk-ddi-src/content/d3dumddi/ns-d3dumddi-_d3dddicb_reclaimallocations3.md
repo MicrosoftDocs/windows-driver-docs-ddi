@@ -34,6 +34,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDICB_RECLAIMALLOCATIONS3
+ - D3DDDICB_RECLAIMALLOCATIONS3
 dev_langs:
  - c++
 ---

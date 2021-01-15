@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_GAMMA_RAMP_RGB256x3x16
  - D3DDDI_GAMMA_RAMP_RGB256x3x16
 ---
 
@@ -66,3 +67,4 @@ An array of 16-bit values that holds the gamma function for the blue color chann
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_gammaramp_type">D3DDDI_GAMMARAMP_TYPE</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateQp
+ - NDK_FN_CREATE_QP
 ---
 
 # NDK_FN_CREATE_QP callback function
@@ -211,3 +211,4 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
+

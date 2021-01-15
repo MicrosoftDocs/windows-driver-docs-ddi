@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.Send
+ - IWDFIoRequest::Send
 ---
 
 # IWDFIoRequest::Send
@@ -147,7 +147,6 @@ The following code example forwards a request to a device's I/O target.
     }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a>
@@ -167,3 +166,4 @@ The following code example forwards a request to a device's I/O target.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_EventEntry
+ - PMPIO_EventEntry
  - MPIO_EventEntry
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - ITracer.GetBits
+ - ITracer::GetBits
 ---
 
 # ITracer::GetBits
@@ -87,3 +87,4 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 
 <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a>
+

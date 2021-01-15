@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkControlConnectEvents
+ - NDK_FN_CONTROL_CONNECT_EVENTS
 ---
 
 # NDK_FN_CONTROL_CONNECT_EVENTS callback function
@@ -73,3 +73,4 @@ To restart  the reception of connect event callbacks, the consumer passes FALSE 
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>
+

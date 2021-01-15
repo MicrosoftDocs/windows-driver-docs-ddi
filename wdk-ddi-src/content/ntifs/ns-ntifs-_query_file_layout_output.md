@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _QUERY_FILE_LAYOUT_OUTPUT
+ - PQUERY_FILE_LAYOUT_OUTPUT
  - QUERY_FILE_LAYOUT_OUTPUT
 ---
 
@@ -125,3 +127,4 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a>
+

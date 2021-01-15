@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - dxapi
  - dxapi/dxapi
+api_name:
+ - dxapi
 ---
 
 # Dxapi.h header

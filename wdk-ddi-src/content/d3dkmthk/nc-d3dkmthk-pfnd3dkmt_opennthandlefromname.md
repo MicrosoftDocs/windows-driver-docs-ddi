@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTOpenNtHandleFromName
+ - PFND3DKMT_OPENNTHANDLEFROMNAME
 ---
 
 # PFND3DKMT_OPENNTHANDLEFROMNAME callback function
@@ -65,3 +65,4 @@ Returns one of the following values:
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
+

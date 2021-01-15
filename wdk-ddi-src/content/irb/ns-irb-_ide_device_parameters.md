@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_DEVICE_PARAMETERS
+ - PIDE_DEVICE_PARAMETERS
  - IDE_DEVICE_PARAMETERS
 ---
 
@@ -194,3 +196,4 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 
 <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>
+

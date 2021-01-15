@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.DevQueryPrintEx
+ - IPrintOemUI::DevQueryPrintEx
 ---
 
 # IPrintOemUI::DevQueryPrintEx
@@ -122,3 +122,4 @@ For more information about creating and installing user interface plug-ins, see 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-devqueryprintex">DevQueryPrintEx</a>
+

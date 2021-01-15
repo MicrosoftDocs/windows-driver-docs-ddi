@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_PDOS_TYPE
+ - UCSI_GET_PDOS_TYPE
 ---
 
 # _UCSI_GET_PDOS_TYPE enumeration

@@ -12,6 +12,8 @@ tech.root: wpd_dk
 f1_keywords:
  - portabledeviceclassextension
  - portabledeviceclassextension/portabledeviceclassextension
+api_name:
+ - portabledeviceclassextension
 ---
 
 # portabledeviceclassextension.h header

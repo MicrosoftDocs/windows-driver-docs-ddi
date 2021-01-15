@@ -37,8 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFDeviceDepot2._NewEnum
- - IWDTFDeviceDepot2.get__NewEnum
+ - IWDTFActions2::get__NewEnum
 ---
 
 # IWDTFActions2::get__NewEnum

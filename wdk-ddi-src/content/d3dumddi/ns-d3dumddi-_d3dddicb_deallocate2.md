@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_DEALLOCATE2
  - D3DDDICB_DEALLOCATE2
 ---
 
@@ -76,3 +77,4 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocate2cb">pfnDeallocate2Cb</a>
+

@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_SAR_CONFIG_INDICES
+ - PWWAN_SAR_CONFIG_INDICES
+ - WWAN_SAR_CONFIG_INDICES
 ---
 
 # _WWAN_SAR_CONFIG_INDICES structure

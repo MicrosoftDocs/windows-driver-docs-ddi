@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_GDDS_DATATYPE
+ - P_BDA_GDDS_DATATYPE
  - BDA_GDDS_DATATYPE
 ---
 

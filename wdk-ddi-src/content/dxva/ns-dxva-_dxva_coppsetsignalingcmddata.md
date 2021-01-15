@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPSetSignalingCmdData
  - DXVA_COPPSetSignalingCmdData
 ---
 
@@ -204,3 +205,4 @@ Reserved. Should be set to zero.
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
+

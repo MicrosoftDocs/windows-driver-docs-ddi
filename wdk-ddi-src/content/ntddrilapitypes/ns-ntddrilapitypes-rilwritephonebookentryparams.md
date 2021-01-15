@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILWRITEPHONEBOOKENTRYPARAMS
+ - LPRILWRITEPHONEBOOKENTRYPARAMS
 ---
 
 # RILWRITEPHONEBOOKENTRYPARAMS structure (ntddrilapitypes.h)

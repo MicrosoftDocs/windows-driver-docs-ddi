@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetPixelShaderConstB
+ - PFND3DDDI_SETPIXELSHADERCONSTB
 ---
 
 # PFND3DDDI_SETPIXELSHADERCONSTB callback function
@@ -76,3 +76,4 @@ A pointer to a buffer that contains BOOL values to copy.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

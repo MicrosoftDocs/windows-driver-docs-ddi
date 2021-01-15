@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfChildlist.h
 api_name:
- - EvtChildListScanForChildren
+ - EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN
 ---
 
 # EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN callback function
@@ -101,3 +101,4 @@ The <i>EvtChildListScanForChildren</i> callback function is called at IRQL = PAS
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetdefaultchildlistconfig">WdfFdoInitSetDefaultChildListConfig</a>
+

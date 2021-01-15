@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_GPU_PREFERENCE_QUERY_STATE
+ - D3DKMT_GPU_PREFERENCE_QUERY_STATE
 dev_langs:
  - c++
 ---

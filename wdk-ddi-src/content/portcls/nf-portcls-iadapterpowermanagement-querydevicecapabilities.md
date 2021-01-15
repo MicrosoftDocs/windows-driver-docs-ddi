@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPowerManagement.QueryDeviceCapabilities
+ - IAdapterPowerManagement::QueryDeviceCapabilities
 ---
 
 # IAdapterPowerManagement::QueryDeviceCapabilities
@@ -96,3 +96,4 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteradapterpowermanagement">PcRegisterAdapterPowerManagement</a>
+

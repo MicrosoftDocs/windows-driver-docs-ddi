@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_CONNECTOR_PARTNER_FLAGS
+ - UCSI_CONNECTOR_PARTNER_FLAGS
 ---
 
 # _UCSI_CONNECTOR_PARTNER_FLAGS enumeration

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _IPSEC_OFFLOAD_V2_OPERATION
+ - PIPSEC_OFFLOAD_V2_OPERATION
  - IPSEC_OFFLOAD_V2_OPERATION
 ---
 
@@ -79,3 +81,4 @@ The IPSEC_OFFLOAD_V2_OPERATION enumeration specifies the operation for which an 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
+

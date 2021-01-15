@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.SetDeviceValue
+ - IStillImageW::SetDeviceValue
 ---
 
 # IStillImageW::SetDeviceValue
@@ -89,3 +89,4 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

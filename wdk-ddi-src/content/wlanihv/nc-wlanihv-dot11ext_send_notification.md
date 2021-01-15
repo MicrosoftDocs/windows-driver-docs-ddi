@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSendNotification
+ - DOT11EXT_SEND_NOTIFICATION
 ---
 
 # DOT11EXT_SEND_NOTIFICATION callback
@@ -104,3 +104,4 @@ If the IHV Extensions DLL allocated memory for the notification data referenced 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

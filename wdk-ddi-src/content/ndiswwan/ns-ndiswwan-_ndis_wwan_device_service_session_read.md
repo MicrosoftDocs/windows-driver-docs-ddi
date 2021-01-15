@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_SESSION_READ
+ - PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ
  - NDIS_WWAN_DEVICE_SERVICE_SESSION_READ
 ---
 
@@ -110,3 +112,4 @@ The data that has been read from a device service session.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session_read">WWAN_DEVICE_SERVICE_SESSION_READ</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - mpiowmi
  - mpiowmi/mpiowmi
+api_name:
+ - mpiowmi
 ---
 
 # Mpiowmi.h header

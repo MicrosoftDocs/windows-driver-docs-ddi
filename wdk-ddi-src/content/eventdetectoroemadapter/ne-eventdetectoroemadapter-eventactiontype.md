@@ -30,6 +30,7 @@ api_type:
 api_location:
  - eventdetectoroemadapter.h
 api_name:
+ - __MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0005
  - EVENTACTIONTYPE
 product:
  - Windows
@@ -65,3 +66,4 @@ This enumeration is the part of the Event Detector OEM interface to be used for 
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
+

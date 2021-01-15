@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - BthInitializeBrb
+ - PFNBTH_INITIALIZE_BRB
 ---
 
 # PFNBTH_INITIALIZE_BRB callback function
@@ -85,3 +85,4 @@ Profile drivers obtain a pointer to the
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
+

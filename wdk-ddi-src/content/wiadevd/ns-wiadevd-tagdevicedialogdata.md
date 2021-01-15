@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiadevd.h
 api_name:
+ - tagDEVICEDIALOGDATA
+ - LPDEVICEDIALOGDATA
  - DEVICEDIALOGDATA
 ---
 
@@ -92,3 +94,4 @@ The **IWiaPropertyStorage** interface is used to access information about the **
 ## -see-also
 
 [IWiaUIExtension::DeviceDialog](/previous-versions/windows/hardware/drivers/ff545069(v=vs.85))
+

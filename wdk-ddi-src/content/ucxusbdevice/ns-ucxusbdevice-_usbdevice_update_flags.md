@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_UPDATE_FLAGS
  - USBDEVICE_UPDATE_FLAGS
 ---
 
@@ -94,3 +95,4 @@ Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update_failure_flags">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+

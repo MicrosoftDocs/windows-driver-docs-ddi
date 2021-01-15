@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_STATISTICS
+ - PDOT11_STATISTICS
 product:
  - Windows 10 or later.
 ---
@@ -192,3 +193,4 @@ For more information about the statistics gathered by a Native 802.11 miniport d
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
+

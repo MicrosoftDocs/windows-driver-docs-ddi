@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ - PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
  - NDIS_WWAN_SERVICE_ACTIVATION_STATUS
 ---
 
@@ -234,3 +236,4 @@ A formatted
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_service_activation_status">
    WWAN_SERVICE_ACTIVATION_STATUS</a>
+

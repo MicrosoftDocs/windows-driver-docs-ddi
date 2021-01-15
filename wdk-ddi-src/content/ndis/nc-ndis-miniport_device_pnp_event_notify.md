@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportDevicePnPEventNotify
+ - MINIPORT_DEVICE_PNP_EVENT_NOTIFY
 ---
 
 # MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback function
@@ -171,3 +171,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/network/oid-pnp-set-power">OID_PNP_SET_POWER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportWavePciStream.MappingAvailable
+ - IMiniportWavePciStream::MappingAvailable
 ---
 
 # IMiniportWavePciStream::MappingAvailable
@@ -62,3 +62,4 @@ See the discussion of allocator framing in <a href="/windows-hardware/drivers/au
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepcistream-getmapping">IPortWavePciStream::GetMapping</a>
+

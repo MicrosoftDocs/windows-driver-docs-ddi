@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_SECURITY
+ - PNDIS_SWITCH_PORT_PROPERTY_SECURITY
  - NDIS_SWITCH_PORT_PROPERTY_SECURITY
 ---
 
@@ -155,3 +157,4 @@ For more information on forwarding extensions, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_DIRECTION
+ - PUSBFN_DIRECTION
  - USBFN_DIRECTION
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PORT_ARRAY
+ - PNDIS_PORT_ARRAY
  - NDIS_PORT_ARRAY
 ---
 
@@ -106,3 +108,4 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 
 <a href="/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a>
+

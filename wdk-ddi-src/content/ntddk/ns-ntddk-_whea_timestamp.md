@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_TIMESTAMP
+ - PWHEA_TIMESTAMP
  - WHEA_TIMESTAMP
 ---
 
@@ -105,3 +107,4 @@ A WHEA_TIMESTAMP union is contained within the <a href="/windows-hardware/driver
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
+

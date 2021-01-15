@@ -7,7 +7,7 @@ ms.date: 10/04/2019
 keywords: ["NET_WAKE_SOURCE_TYPE enumeration"]
 ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE,
 req.header: netwakesource.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -30,6 +30,7 @@ api_type:
 api_location:
  - netwakesource.h
 api_name:
+ - _NET_WAKE_SOURCE_TYPE
  - NET_WAKE_SOURCE_TYPE
 product:
  - Windows
@@ -69,3 +70,4 @@ Call [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourceg
 [Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md)
+

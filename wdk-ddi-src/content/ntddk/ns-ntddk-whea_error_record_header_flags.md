@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_RECORD_HEADER_FLAGS
+ - PWHEA_ERROR_RECORD_HEADER_FLAGS
  - WHEA_ERROR_RECORD_HEADER_FLAGS
 product:
  - Windows

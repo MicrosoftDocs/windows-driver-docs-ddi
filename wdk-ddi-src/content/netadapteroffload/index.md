@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netadapteroffload
  - netadapteroffload/netadapteroffload
+api_name:
+ - netadapteroffload
 ---
 
 # Netadapteroffload.h header

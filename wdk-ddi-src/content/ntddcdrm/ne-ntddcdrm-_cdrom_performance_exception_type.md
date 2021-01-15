@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_PERFORMANCE_EXCEPTION_TYPE
+ - PCDROM_PERFORMANCE_EXCEPTION_TYPE
  - CDROM_PERFORMANCE_EXCEPTION_TYPE
 ---
 
@@ -72,3 +74,4 @@ Requests only performance exceptions that cause the performance to fall outside 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

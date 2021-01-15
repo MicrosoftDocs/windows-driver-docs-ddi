@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnSignalSynchronizationObjectCb
+ - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB
 product:
  - Windows
 ---
@@ -112,3 +112,4 @@ HRESULT CD3DContext::SyncEngines(DWORD dwEngineReleasingControl, DWORD dwEngineA
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_signalsynchronizationobject">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT</a>
+

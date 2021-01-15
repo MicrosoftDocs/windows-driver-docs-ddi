@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionEventArgs.Request
- - IPrinterExtensionEventArgs.get_Request
+ - IPrinterExtensionEventArgs::get_Request
 ---
 
 # IPrinterExtensionEventArgs::get_Request
@@ -61,3 +60,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a>
+

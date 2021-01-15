@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO
  - DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 ---
 
@@ -62,3 +63,4 @@ The zero-based index into the resource, which is specified by the handle in the 
 ### -field PlaneAttributes
 
 A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
+

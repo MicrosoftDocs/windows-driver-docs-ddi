@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamSourceRect
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback function
@@ -102,3 +102,4 @@ If the <b>VideoProcessorSetStreamSourceRect</b> function is never called, or if 
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

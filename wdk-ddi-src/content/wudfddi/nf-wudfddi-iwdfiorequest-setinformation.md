@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.SetInformation
+ - IWDFIoRequest::SetInformation
 ---
 
 # IWDFIoRequest::SetInformation
@@ -59,3 +59,4 @@ A ULONG_PTR value that specifies the size of information to set for the request.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+

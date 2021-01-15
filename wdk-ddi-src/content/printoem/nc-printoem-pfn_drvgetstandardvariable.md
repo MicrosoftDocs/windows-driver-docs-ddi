@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvGetStandardVariable
+ - PFN_DrvGetStandardVariable
 ---
 
 # PFN_DrvGetStandardVariable callback function
@@ -62,3 +62,4 @@ This function pointer prototype defines the type of the <b>BGetStandardVariable<
 ### -param cbSize
 
 ### -param pcbNeeded
+

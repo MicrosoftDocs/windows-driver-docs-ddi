@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_PEER_INFO
+ - PDOT11_PEER_INFO
  - DOT11_PEER_INFO
 product:
  - Windows 10 or later.
@@ -219,3 +221,4 @@ typedef struct _DOT11_PEER_INFO {
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

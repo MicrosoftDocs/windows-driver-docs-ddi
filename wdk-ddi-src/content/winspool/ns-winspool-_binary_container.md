@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - _BINARY_CONTAINER
+ - PBINARY_CONTAINER
  - BINARY_CONTAINER
 ---
 
@@ -68,3 +70,4 @@ The BINARY_CONTAINER structure is used in a <a href="/windows-hardware/drivers/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_data">BIDI_DATA</a>
+

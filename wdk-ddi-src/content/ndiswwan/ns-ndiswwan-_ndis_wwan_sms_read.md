@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_READ
+ - PNDIS_WWAN_SMS_READ
  - NDIS_WWAN_SMS_READ
 ---
 
@@ -116,3 +118,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_read">WWAN_SMS_READ</a>
+

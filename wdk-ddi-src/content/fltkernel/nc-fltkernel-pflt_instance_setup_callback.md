@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - InstanceSetupCallback
+ - PFLT_INSTANCE_SETUP_CALLBACK
 ---
 
 # PFLT_INSTANCE_SETUP_CALLBACK callback function
@@ -119,3 +119,4 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 [PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_query_teardown_callback.md)
 
 [PFLT_INSTANCE_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_teardown_callback.md)
+

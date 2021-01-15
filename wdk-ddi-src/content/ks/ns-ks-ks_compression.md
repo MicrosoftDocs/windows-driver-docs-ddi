@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKS_COMPRESSION
  - KS_COMPRESSION
 ---
 

@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_KEY_ALGO_CCMP
+ - PDOT11_KEY_ALGO_CCMP
 product:
  - Windows 10 or later.
 ---
@@ -110,3 +111,4 @@ Initialize the PN counter used for the send path to any value.
 
 <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
    DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+

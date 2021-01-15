@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
+ - IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
@@ -81,3 +81,4 @@ code.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a>
+

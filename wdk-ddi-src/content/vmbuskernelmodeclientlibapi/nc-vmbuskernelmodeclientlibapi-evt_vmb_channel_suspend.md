@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_SUSPEND
+ - EVT_VMB_CHANNEL_SUSPEND
 ---
 
 # EVT_VMB_CHANNEL_SUSPEND callback function
@@ -109,3 +109,4 @@ or the guest virtual machine may have crashed.  The server must retire any outst
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns">VmbPacketSendWithExternalPfns</a>
+

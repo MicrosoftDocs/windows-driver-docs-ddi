@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - UnlockAsync
+ - PFND3DDDI_UNLOCKASYNC
 product:
  - Windows
 ---
@@ -100,3 +100,4 @@ If a user-mode display driver exposes a DDI version of 0x0000000B or greater (th
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb">pfnUnlockCb</a>
+

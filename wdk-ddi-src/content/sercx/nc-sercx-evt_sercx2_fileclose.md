@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2FileClose
+ - EVT_SERCX2_FILECLOSE
 ---
 
 # EVT_SERCX2_FILECLOSE callback function
@@ -91,3 +91,4 @@ The <b>EVT_SERCX2_FILECLOSE</b> function type is defined in the Sercx.h header f
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>
+

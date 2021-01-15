@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PMEM_ERROR_SECTION
+ - PWHEA_PMEM_ERROR_SECTION
  - WHEA_PMEM_ERROR_SECTION
 product:
  - Windows

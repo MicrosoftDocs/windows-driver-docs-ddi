@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - BuildScatterGatherList
+ - PBUILD_SCATTER_GATHER_LIST
 ---
 
 # PBUILD_SCATTER_GATHER_LIST callback function
@@ -196,3 +196,4 @@ The driver should retain the pointer to the scatter/gather list in <i>ScatterGat
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

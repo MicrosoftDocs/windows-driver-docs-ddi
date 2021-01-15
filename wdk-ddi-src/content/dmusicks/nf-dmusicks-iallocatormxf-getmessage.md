@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IAllocatorMXF.GetMessage
+ - IAllocatorMXF::GetMessage
 ---
 
 # IAllocatorMXF::GetMessage
@@ -77,3 +77,4 @@ For more information about the allocator, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a>
+

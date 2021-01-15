@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_LISTENER_DISPATCH
  - NDK_LISTENER_DISPATCH
 ---
 
@@ -98,3 +99,4 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>
+

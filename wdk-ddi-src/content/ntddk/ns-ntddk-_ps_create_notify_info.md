@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _PS_CREATE_NOTIFY_INFO
+ - PPS_CREATE_NOTIFY_INFO
  - PS_CREATE_NOTIFY_INFO
 ---
 
@@ -129,3 +131,4 @@ The NTSTATUS value to return for the process-creation operation. Drivers can cha
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

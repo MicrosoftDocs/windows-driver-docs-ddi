@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwCreateFile
  - NtCreateFile
 ---
 
@@ -446,3 +445,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [NtSetInformationFile](./nf-ntifs-ntsetinformationfile.md)
 
 [NtWriteFile](./nf-ntifs-ntwritefile.md)
+

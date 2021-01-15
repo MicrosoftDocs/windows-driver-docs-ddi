@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsControl.KsMethod
+ - IKsControl::KsMethod
 ---
 
 # IKsControl::KsMethod (ksproxy.h)
@@ -87,3 +87,4 @@ To determine the buffer size that is required for a specific method request, you
 ## -see-also
 
 <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+

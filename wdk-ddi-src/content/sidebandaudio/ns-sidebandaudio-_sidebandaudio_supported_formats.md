@@ -36,6 +36,8 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_SUPPORTED_FORMATS
+ - PSIDEBANDAUDIO_SUPPORTED_FORMATS
+ - SIDEBANDAUDIO_SUPPORTED_FORMATS
 ---
 
 # _SIDEBANDAUDIO_SUPPORTED_FORMATS structure
@@ -70,3 +72,4 @@ Array of pointers of KSDATAFORMAT.
 [sidebandaudio.h](index.md)
 
 [IOCTL_SBAUD_GET_SUPPORTED_FORMATS](./ni-sidebandaudio-ioctl_sbaud_get_supported_formats.md)
+

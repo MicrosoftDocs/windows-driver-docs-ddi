@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUIMXDC.AdjustImageCompression
+ - IPrintOemUIMXDC::AdjustImageCompression
 ---
 
 # IPrintOemUIMXDC::AdjustImageCompression
@@ -153,3 +153,4 @@ Highest quality and largest file size
 The <i>pCompressionMode</i> parameter is IN OUT. All other parameters for this function are input only.
 
 If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT, which causes the current print job to fail.
+

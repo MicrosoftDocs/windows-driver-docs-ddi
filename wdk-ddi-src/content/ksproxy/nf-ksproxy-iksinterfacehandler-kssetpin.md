@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsInterfaceHandler.KsSetPin
+ - IKsInterfaceHandler::KsSetPin
 ---
 
 # IKsInterfaceHandler::KsSetPin
@@ -69,3 +69,4 @@ The <b>KsSetPin</b> method is called after an instance of the interface handler 
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
+

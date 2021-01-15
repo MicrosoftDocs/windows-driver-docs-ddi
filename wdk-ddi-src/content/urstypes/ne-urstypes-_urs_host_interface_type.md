@@ -39,6 +39,7 @@ api_type:
 api_location:
  - urstypes.h
 api_name:
+ - _URS_HOST_INTERFACE_TYPE
  - URS_HOST_INTERFACE_TYPE
 ---
 

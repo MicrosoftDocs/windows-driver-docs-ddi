@@ -36,10 +36,11 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnCheckResourceAllocationInfo
+ - PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075
 ---
 
 # PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function
+
 
 ## -description
 
@@ -84,3 +85,4 @@ This callback function is accessed by using the [**D3D12DDI_DEVICE_FUNCS_CORE_00
 [**D3D12DDI_RESOURCE_ALLOCATION_INFO_0022**](ns-d3d12umddi-d3d12ddi_resource_allocation_info_0022.md)
 
 [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md)
+

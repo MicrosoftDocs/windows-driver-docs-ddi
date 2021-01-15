@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkConnectWithSharedEndpoint
+ - NDK_FN_CONNECT_WITH_SHARED_ENDPOINT
 ---
 
 # NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback function
@@ -261,3 +261,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>
+

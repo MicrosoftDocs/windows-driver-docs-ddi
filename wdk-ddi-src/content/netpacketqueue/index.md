@@ -13,14 +13,16 @@ ms.custom: RS5
 f1_keywords:
  - netpacketqueue
  - netpacketqueue/netpacketqueue
+api_name:
+ - netpacketqueue
 ---
 
 # Netpacketqueue.h header
+
 
 ## -description
 
 This header is used by netvista. For more information, see:
 
 - [Networking drivers for Windows Vista and later](../_netvista/index.md)
-
 

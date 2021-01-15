@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - Halt
+ - PROCESSOR_HALT_ROUTINE
 ---
 
 # PROCESSOR_HALT_ROUTINE callback function
@@ -71,3 +71,4 @@ The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a>
+

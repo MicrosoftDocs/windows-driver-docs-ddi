@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Usbioctl.h
 api_name:
+ - _USB_DEVICE_CHARACTERISTICS
+ - PUSB_DEVICE_CHARACTERISTICS
  - USB_DEVICE_CHARACTERISTICS
 ---
 
@@ -81,3 +83,4 @@ Contains the maximum delay in milliseconds the host controller completes any req
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_device_characteristics">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a>
+

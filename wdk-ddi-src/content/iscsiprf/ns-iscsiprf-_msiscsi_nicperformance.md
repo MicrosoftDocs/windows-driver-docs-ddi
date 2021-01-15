@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiprf.h
 api_name:
+ - _MSiSCSI_NICPerformance
+ - PMSiSCSI_NICPerformance
  - MSiSCSI_NICPerformance
 ---
 
@@ -76,3 +78,4 @@ It is optional that you implement this class.
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msiscsi-nicperformance-wmi-class">MSiSCSI_NICPerformance WMI Class</a>
+

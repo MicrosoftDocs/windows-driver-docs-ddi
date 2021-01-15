@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl2.RemoveTextReplacements
- - IDebugControl3.RemoveTextReplacements
+ - IDebugControl2::RemoveTextReplacements
 ---
 
 # IDebugControl2::RemoveTextReplacements
@@ -98,3 +97,4 @@ For an overview of aliases used by the <a href="/windows-hardware/drivers/debugg
 
 
 <a href="/windows-hardware/drivers/debugger/ad--delete-alias-">ad (Delete Alias)</a>
+

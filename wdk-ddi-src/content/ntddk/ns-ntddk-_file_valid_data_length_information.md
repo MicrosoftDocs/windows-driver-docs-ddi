@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_VALID_DATA_LENGTH_INFORMATION
+ - PFILE_VALID_DATA_LENGTH_INFORMATION
  - FILE_VALID_DATA_LENGTH_INFORMATION
 ---
 
@@ -86,3 +88,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

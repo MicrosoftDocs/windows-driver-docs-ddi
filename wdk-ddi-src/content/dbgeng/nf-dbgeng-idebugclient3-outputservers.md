@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.OutputServers
- - IDebugClient2.OutputServers
- - IDebugClient3.OutputServers
- - IDebugClient4.OutputServers
- - IDebugClient5.OutputServers
+ - IDebugClient3::OutputServers
 ---
 
 # IDebugClient3::OutputServers
@@ -67,7 +63,6 @@ Specifies the name of the computer whose servers will be listed.  <i>Machine</i>
 ```
 \\computername
 ```
-
 
 ### -param Flags 
 
@@ -162,3 +157,4 @@ For more information about remote debugging, see <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startserver">StartServer</a>
+

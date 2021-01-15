@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvWriteItemProperties
+ - IWiaMiniDrv::drvWriteItemProperties
 ---
 
 # IWiaMiniDrv::drvWriteItemProperties
@@ -118,3 +118,4 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 [wiasReadPropLong](../wiamdef/nf-wiamdef-wiasreadproplong.md)
 
 [wiasReadPropStr](../wiamdef/nf-wiamdef-wiasreadpropstr.md)
+

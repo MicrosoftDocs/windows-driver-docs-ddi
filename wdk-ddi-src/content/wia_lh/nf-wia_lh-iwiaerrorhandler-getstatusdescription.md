@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaErrorHandler.GetStatusDescription
+ - IWiaErrorHandler::GetStatusDescription
 ---
 
 # IWiaErrorHandler::GetStatusDescription
@@ -115,3 +115,4 @@ The implementation of <b>IWiaErrorHandler::GetStatusDescription</b> should retur
 
 
 <a href="/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaerrorhandler-reportstatus">IWiaErrorHandler::ReportStatus</a>
+

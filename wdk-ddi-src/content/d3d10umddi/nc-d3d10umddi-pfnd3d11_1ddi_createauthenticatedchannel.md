@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateAuthenticatedChannel
+ - PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -100,3 +100,4 @@ The driver must keep track of the handle to the display device that was used to 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_negotiateauthenticatedchannelkeyexchange">NegotiateAuthenticatedChannelKeyExchange</a>
+

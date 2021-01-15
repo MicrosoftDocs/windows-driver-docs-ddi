@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - PowerControlCallback
+ - PO_FX_POWER_CONTROL_CALLBACK
 ---
 
 # PO_FX_POWER_CONTROL_CALLBACK callback function
@@ -143,3 +143,4 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a>
+

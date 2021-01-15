@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.GetTypeSize
+ - ExtRemoteTyped::GetTypeSize
 ---
 
 # ExtRemoteTyped::GetTypeSize
@@ -58,3 +58,4 @@ The <b>GetTypeSize</b> method returns the size of the type represented by this o
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a>
+

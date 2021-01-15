@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
  - D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---
 
@@ -74,3 +75,4 @@ Used in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumdd
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_checkmultiplaneoverlaysupport">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
+

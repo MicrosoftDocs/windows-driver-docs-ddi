@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_DEVICE_CREATE_CONFIG
+ - PWDF_USB_DEVICE_CREATE_CONFIG
  - WDF_USB_DEVICE_CREATE_CONFIG
 ---
 
@@ -74,3 +76,4 @@ The <b>WDF_USB_DEVICE_CREATE_CONFIG</b> structure is used as input to the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>
+

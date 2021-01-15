@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetCurrentValue
+ - CWiauPropertyList::SetCurrentValue
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,FLOAT) (wiautil.h)
+
 
 ## -description
 
@@ -62,3 +63,4 @@ Specifies the value that is written to the device property in the property list.
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
+

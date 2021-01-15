@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _CONTROLLER_OBJECT
+ - PCONTROLLER_OBJECT
  - CONTROLLER_OBJECT
 ---
 
@@ -80,3 +82,4 @@ Undocumented fields within a controller object should be considered inaccessible
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatecontroller">IoCreateController</a>
+

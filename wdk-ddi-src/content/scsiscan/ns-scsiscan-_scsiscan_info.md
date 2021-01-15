@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsiscan.h
 api_name:
+ - _SCSISCAN_INFO
+ - PSCSISCAN_INFO
  - SCSISCAN_INFO
 ---
 
@@ -84,3 +86,4 @@ Target logical unit number (LUN).
 ### -field Reserved
 
 *For internal use only.*
+

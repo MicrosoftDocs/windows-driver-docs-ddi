@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolInvalidateOffloadComplete
+ - INVALIDATE_OFFLOAD_COMPLETE_HANDLER
 ---
 
 # INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback function
@@ -120,3 +120,4 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+

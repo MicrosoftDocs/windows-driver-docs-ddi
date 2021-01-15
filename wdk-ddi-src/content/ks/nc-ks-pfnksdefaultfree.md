@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniAllocatorFreeFrame
+ - PFNKSDEFAULTFREE
 ---
 
 # PFNKSDEFAULTFREE callback function
@@ -74,3 +74,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-allocator
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksallocator_dispatch">KSALLOCATOR_DISPATCH</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_CRYPTO_CAPABILITY
+ - PSTORAGE_CRYPTO_CAPABILITY
  - STORAGE_CRYPTO_CAPABILITY
 ---
 

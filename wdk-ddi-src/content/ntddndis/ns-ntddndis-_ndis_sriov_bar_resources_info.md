@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_BAR_RESOURCES_INFO
+ - PNDIS_SRIOV_BAR_RESOURCES_INFO
  - NDIS_SRIOV_BAR_RESOURCES_INFO
 ---
 
@@ -105,3 +107,4 @@ The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure is used in OID method request
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-bar-resources">OID_SRIOV_BAR_RESOURCES</a>
+

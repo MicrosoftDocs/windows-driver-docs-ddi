@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DESTROYCRYPTOSESSION
  - D3DDDIARG_DESTROYCRYPTOSESSION
 ---
 
@@ -58,3 +59,4 @@ The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryptio
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_destroycryptosession">DestroyCryptoSession</a>
+

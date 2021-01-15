@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPIN_PHYSICALCONNECTION
  - KSPIN_PHYSICALCONNECTION
 ---
 
@@ -70,3 +71,4 @@ This structure is used with port class only.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
+

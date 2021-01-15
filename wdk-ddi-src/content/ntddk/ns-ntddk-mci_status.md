@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _MCI_STATUS
+ - PMCI_STATUS
  - MCI_STATUS
 product:
  - Windows

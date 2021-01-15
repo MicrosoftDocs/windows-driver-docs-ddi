@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.EDTTryStopDevice
+ - IWDTFPNPActions2::EDTTryStopDevice
 ---
 
 # IWDTFPNPActions2::EDTTryStopDevice
@@ -75,5 +75,4 @@ the drivers and applications handle the PnP resource rebalance, you can instead 
 <b>EDTTryStopDevice</b> method on a parent device, grandparent, etc., 
 which does consume hardware resources. For example, if your device is a USB mouse, you can run 
 <b>EDTTryStopDevice</b> on the parent USB controller instead.
-
 

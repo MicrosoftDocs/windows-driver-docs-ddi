@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dukmdt.h
 api_name:
+ - _D3DDDI_RESOURCEFLAGS2
  - D3DDDI_RESOURCEFLAGS2
 ---
 
@@ -94,3 +95,4 @@ A 32-bit value that identifies the type of resource to create.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_formatop">FORMATOP</a>
+

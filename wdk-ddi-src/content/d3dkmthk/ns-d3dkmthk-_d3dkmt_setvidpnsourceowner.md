@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SETVIDPNSOURCEOWNER
  - D3DKMT_SETVIDPNSOURCEOWNER
 ---
 
@@ -77,3 +78,4 @@ The number of valid entries in the array that <b>pVidPnSourceId</b> specifies.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner">D3DKMTSetVidPnSourceOwner</a>
+

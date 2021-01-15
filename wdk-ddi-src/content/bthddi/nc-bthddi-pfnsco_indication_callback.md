@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - SCOIndicationCallback
+ - PFNSCO_INDICATION_CALLBACK
 ---
 
 # PFNSCO_INDICATION_CALLBACK callback function
@@ -134,3 +134,4 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a>
+

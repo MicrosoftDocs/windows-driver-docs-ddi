@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_S2
  - KSPROPERTY_CAMERACONTROL_S2
 ---
 
@@ -168,3 +169,4 @@ Specifies the second value of the property. This member is read/write.
 ## -remarks
 
 This structure is used by <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt-relative">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for filter-based get/set property requests.
+

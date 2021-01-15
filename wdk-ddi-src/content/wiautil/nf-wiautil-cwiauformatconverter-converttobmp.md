@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauFormatConverter.ConvertToBmp
+ - CWiauFormatConverter::ConvertToBmp
 ---
 
 # CWiauFormatConverter::ConvertToBmp
@@ -98,3 +98,4 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 
 <a href="/windows-hardware/drivers/ddi/wiautil/ne-wiautil-skip_amount">SKIP_AMOUNT</a>
+

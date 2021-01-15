@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnGetProperties
+ - ISensorDriver::OnGetProperties
 ---
 
 # ISensorDriver::OnGetProperties
@@ -97,3 +97,4 @@ Sensor properties must not contain information that can be used to identify the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

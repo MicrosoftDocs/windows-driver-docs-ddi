@@ -39,7 +39,8 @@ api_type:
 api_location:
  - pointofservicedriverinterface.h
 api_name:
- - MsrAuthenticationProtocol
+ - _MsrAuthenticationProtocol
+ - MsrAuthenticationProtocolType
 ---
 
 # _MsrAuthenticationProtocol enumeration

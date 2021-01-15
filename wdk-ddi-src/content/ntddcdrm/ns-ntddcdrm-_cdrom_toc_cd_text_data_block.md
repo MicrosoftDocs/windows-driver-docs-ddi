@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_TOC_CD_TEXT_DATA_BLOCK
+ - PCDROM_TOC_CD_TEXT_DATA_BLOCK
  - CDROM_TOC_CD_TEXT_DATA_BLOCK
 ---
 
@@ -115,3 +117,4 @@ Contains the cyclic redundancy check.
 [CDROM_TOC_CD_TEXT_DATA](./ns-ntddcdrm-_cdrom_toc_cd_text_data.md)
 
 [IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)
+

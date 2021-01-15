@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_FLASH_S
  - KSPROPERTY_CAMERACONTROL_FLASH_S
 ---
 
@@ -126,3 +127,4 @@ The user manually sets the flash settings.
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
+

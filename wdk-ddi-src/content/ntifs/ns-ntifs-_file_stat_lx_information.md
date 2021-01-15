@@ -34,9 +34,12 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_STAT_LX_INFORMATION
+ - PFILE_STAT_LX_INFORMATION
+ - FILE_STAT_LX_INFORMATION
 ---
 
 # FILE_STAT_LX_INFORMATION structure
+
 
 ## -description
 
@@ -155,3 +158,4 @@ For more information about absolute and relative symbolic links, see Creating Sy
 [**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md)
 
 [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)
+

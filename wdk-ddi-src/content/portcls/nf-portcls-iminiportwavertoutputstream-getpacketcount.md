@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTOutputStream.GetPacketCount
+ - IMiniportWaveRTOutputStream::GetPacketCount
 ---
 
 # IMiniportWaveRTOutputStream::GetPacketCount
@@ -73,3 +73,4 @@ The driver should reset the packet count to 0 when the stream is in KSSTATE_STOP
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>
+

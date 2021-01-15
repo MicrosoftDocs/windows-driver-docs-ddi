@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnDeallocate2Cb
+ - PFND3DDDI_DEALLOCATE2CB
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ If an application or UMD would like to ensure allocation memory is reclaimed pri
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a>
+

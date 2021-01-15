@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_GSM_NMR_INFO
+ - PWWAN_GSM_NMR_INFO
  - WWAN_GSM_NMR_INFO
 ---
 
@@ -102,3 +104,4 @@ The data buffer containing **ProviderId**.
 [WWAN_GSM_NMR](ns-wwan-_wwan_gsm_nmr.md)
 
 [WWAN_GSM_SERVING_CELL_INFO](ns-wwan-_wwan_gsm_serving_cell_info.md)
+

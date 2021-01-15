@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverPS.DrvWriteSpoolBuf
+ - IPrintOemDriverPS::DrvWriteSpoolBuf
 ---
 
 # IPrintOemDriverPS::DrvWriteSpoolBuf
@@ -113,3 +113,4 @@ The method is not implemented.
 ## -remarks
 
 Rendering plug-ins are described in <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - GetDmaAdapter
+ - GET_DMA_ADAPTER
 ---
 
 # GET_DMA_ADAPTER callback function
@@ -89,3 +89,4 @@ However, if a driver must obtain an adapter object while running at IRQL ≥ DIS
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

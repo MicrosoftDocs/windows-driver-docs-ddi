@@ -35,6 +35,8 @@ api_location:
  - ntddstor.h
 api_name:
  - _DEVICE_DSM_LOST_QUERY_OUTPUT
+ - PDEVICE_DSM_LOST_QUERY_OUTPUT
+ - DEVICE_DSM_LOST_QUERY_OUTPUT
 ---
 
 # _DEVICE_DSM_LOST_QUERY_OUTPUT structure

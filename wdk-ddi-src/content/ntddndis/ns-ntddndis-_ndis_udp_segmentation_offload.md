@@ -36,6 +36,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_UDP_SEGMENTATION_OFFLOAD
+ - PNDIS_UDP_SEGMENTATION_OFFLOAD
  - NDIS_UDP_SEGMENTATION_OFFLOAD
 product:
  - Windows
@@ -153,3 +155,4 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 ## -see-also
 
 [UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
+

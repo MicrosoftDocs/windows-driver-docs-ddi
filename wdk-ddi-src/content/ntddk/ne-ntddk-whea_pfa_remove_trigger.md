@@ -32,6 +32,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PFA_REMOVE_TRIGGER
+ - PWHEA_PFA_REMOVE_TRIGGER
  - WHEA_PFA_REMOVE_TRIGGER
 product:
  - Windows

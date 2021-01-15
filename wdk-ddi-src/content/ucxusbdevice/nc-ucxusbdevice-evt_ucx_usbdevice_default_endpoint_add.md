@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
+ - EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
 ---
 
 # EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function
@@ -166,7 +166,6 @@ EvtUsbDeviceDefaultEndpointAddEnd:
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
@@ -190,3 +189,4 @@ EvtUsbDeviceDefaultEndpointAddEnd:
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
+

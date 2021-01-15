@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_TAG_DATA_BUFFER
+ - PFLT_TAG_DATA_BUFFER
  - FLT_TAG_DATA_BUFFER
 ---
 
@@ -164,3 +166,4 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 [FltTagFileEx](nf-fltkernel-flttagfileex.md)
 
 [FltUntagFile](nf-fltkernel-fltuntagfile.md)
+

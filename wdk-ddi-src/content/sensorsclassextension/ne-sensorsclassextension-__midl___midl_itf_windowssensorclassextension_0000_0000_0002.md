@@ -39,6 +39,7 @@ api_type:
 api_location:
  - SensorsClassExtension.h
 api_name:
+ - __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002
  - SensorConnectionType
 ---
 
@@ -70,3 +71,4 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
+

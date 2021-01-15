@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiPeerCreateIndication
+ - NDIS_WDI_PEER_CREATE_IND
 ---
 
 # NDIS_WDI_PEER_CREATE_IND callback function
@@ -102,3 +102,4 @@ In peer queuing mode, a peer is created with all TIDs paused with <b>WDI_TX_PAUS
 
 
 <a href="/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
+

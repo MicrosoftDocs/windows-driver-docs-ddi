@@ -12,6 +12,8 @@ tech.root: spb
 f1_keywords:
  - spb
  - spb/spb
+api_name:
+ - spb
 ---
 
 # Spb.h header

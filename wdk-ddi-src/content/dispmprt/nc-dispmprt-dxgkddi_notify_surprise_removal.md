@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiNotifySurpriseRemoval
+ - DXGKDDI_NOTIFY_SURPRISE_REMOVAL
 ---
 
 # DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback function
@@ -96,3 +96,4 @@ If the driver returns an error code, does not set [**DXGK_DRIVERCAPS**](../d3dkm
 [**DXGK_SURPRISE_REMOVAL_TYPE**](ne-dispmprt-_dxgk_surprise_removal_type.md)
 
 [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md)
+

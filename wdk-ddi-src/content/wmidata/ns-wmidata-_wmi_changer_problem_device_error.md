@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wmidata.h
 api_name:
+ - _WMI_CHANGER_PROBLEM_DEVICE_ERROR
+ - PWMI_CHANGER_PROBLEM_DEVICE_ERROR
  - WMI_CHANGER_PROBLEM_DEVICE_ERROR
 ---
 

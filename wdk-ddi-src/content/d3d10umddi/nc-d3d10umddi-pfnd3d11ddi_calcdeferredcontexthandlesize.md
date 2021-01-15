@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CalcDeferredContextHandleSize
+ - PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE
 product:
  - Windows
 ---
@@ -96,3 +96,4 @@ For more information about how <b>CalcDeferredContextHandleSize</b> is used, see
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_2ddi_getcaps">GetCaps(D3D10_2)</a>
+

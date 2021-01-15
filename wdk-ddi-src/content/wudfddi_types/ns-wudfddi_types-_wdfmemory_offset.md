@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDFMEMORY_OFFSET
+ - PWDFMEMORY_OFFSET
  - WDFMEMORY_OFFSET
 ---
 
@@ -71,3 +73,4 @@ A UMDF driver supplies a pointer to a <a href="/windows-hardware/drivers/ddi/wud
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfmemory-copyfrommemory">IWDFMemory::CopyFromMemory</a>
+

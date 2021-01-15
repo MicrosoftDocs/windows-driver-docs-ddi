@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_GENERIC_ERROR
+ - PWHEA_GENERIC_ERROR
  - WHEA_GENERIC_ERROR
 ---
 
@@ -98,3 +100,4 @@ A WHEA_GENERIC_ERROR structure is included in the <b>RawData</b> member of a <a 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
+

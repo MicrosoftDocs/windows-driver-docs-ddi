@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _UNIDRV_PRIVATE_DEVMODE
+ - PUNIDRV_PRIVATE_DEVMODE
  - UNIDRV_PRIVATE_DEVMODE
 ---
 
@@ -94,3 +96,4 @@ To safely determine the address of the private portion of your plug-in's DEVMODE
 ## -see-also
 
 [PSCRIPT5_PRIVATE_DEVMODE](./ns-printoem-_pscript5_private_devmode.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DDRAW_CAPS
  - DDRAW_CAPS
 ---
 
@@ -106,3 +107,4 @@ The DDRAW_CAPS structure describes general Microsoft DirectDraw capabilities tha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

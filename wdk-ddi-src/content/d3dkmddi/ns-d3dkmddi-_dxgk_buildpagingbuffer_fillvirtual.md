@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
  - DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 ---
 
@@ -78,3 +79,4 @@ The virtual address of the destination in the context of the paging process.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+

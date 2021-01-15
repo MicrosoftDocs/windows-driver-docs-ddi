@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOPROCAMP_NODE_S
  - KSPROPERTY_VIDEOPROCAMP_NODE_S
 ---
 
@@ -124,3 +125,4 @@ The device supports automatic setting of the specified property.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a>
+

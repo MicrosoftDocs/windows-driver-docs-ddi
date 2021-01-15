@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - ProtocolInitiateOffloadComplete
+ - INITIATE_OFFLOAD_COMPLETE_HANDLER
 ---
 
 # INITIATE_OFFLOAD_COMPLETE_HANDLER callback function
@@ -94,3 +94,4 @@ For more information, see <a href="/windows-hardware/drivers/network/reusing-an-
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+

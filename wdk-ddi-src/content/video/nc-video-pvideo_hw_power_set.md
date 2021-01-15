@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidSetPowerState
+ - PVIDEO_HW_POWER_SET
 ---
 
 # PVIDEO_HW_POWER_SET callback function
@@ -84,3 +84,4 @@ The driver should check the ID specified in <i>HwId</i> to determine the device 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_power_management">VIDEO_POWER_MANAGEMENT</a>
+

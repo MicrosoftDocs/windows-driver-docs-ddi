@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.WriteTypedDataPhysical
- - IDebugSymbols2.WriteTypedDataPhysical
- - IDebugSymbols3.WriteTypedDataPhysical
+ - IDebugSymbols2::WriteTypedDataPhysical
 ---
 
 # IDebugSymbols2::WriteTypedDataPhysical
@@ -123,3 +121,4 @@ The number of bytes this method attempts to write is the smaller of the size of 
 This is a convenience method.  The same result can be obtained by calling <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>.
 
 For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.
+

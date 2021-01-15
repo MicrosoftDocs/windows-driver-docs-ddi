@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects2.SetImplicitProcessDataOffset
- - IDebugSystemObjects3.SetImplicitProcessDataOffset
- - IDebugSystemObjects4.SetImplicitProcessDataOffset
+ - IDebugSystemObjects4::SetImplicitProcessDataOffset
 ---
 
 # IDebugSystemObjects4::SetImplicitProcessDataOffset
@@ -87,3 +85,4 @@ In user-mode debugging, the data structure is the process environment block (PEB
 <div class="alert"><b>Warning</b>    Because it is possible to use <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitthreaddataoffset">SetImplicitThreadDataOffset</a> to set the implicit thread independently of the implicit process, the implicit thread might not belong to the implicit process.  This can cause errors if you attempt to access any of the user state for the implicit thread, because it will be incompatible with the virtual address space (specified by the implicit process).</div>
 <div> </div>
 For more information about the current implicit process, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on the KPROCESS and PEB structures, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

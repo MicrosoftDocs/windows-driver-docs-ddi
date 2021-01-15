@@ -36,6 +36,8 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_STORAGE_RESERVE_ID_INFORMATION
+ - PFILE_STORAGE_RESERVE_ID_INFORMATION
+ - FILE_STORAGE_RESERVE_ID_INFORMATION
 dev_langs:
  - c++
 ---
@@ -66,3 +68,4 @@ Attempting to set a storage reserve ID fails with STATUS_STORAGE_RESERVE_DOES_NO
 ## -see-also
 
 [**STORAGE_RESERVE_ID**](ne-ntifs-_storage_reserve_id.md)
+

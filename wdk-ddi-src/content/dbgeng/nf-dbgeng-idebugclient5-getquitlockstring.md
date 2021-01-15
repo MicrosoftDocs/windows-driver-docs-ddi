@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient5.GetQuitLockString
+ - IDebugClient5::GetQuitLockString
 ---
 
 # IDebugClient5::GetQuitLockString
@@ -79,3 +79,4 @@ The quit lock string
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+

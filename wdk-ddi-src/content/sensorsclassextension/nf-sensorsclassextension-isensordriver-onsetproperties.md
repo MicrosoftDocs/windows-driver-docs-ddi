@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - ISensorDriver.OnSetProperties
+ - ISensorDriver::OnSetProperties
 ---
 
 # ISensorDriver::OnSetProperties
@@ -94,3 +94,4 @@ The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> str
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
+

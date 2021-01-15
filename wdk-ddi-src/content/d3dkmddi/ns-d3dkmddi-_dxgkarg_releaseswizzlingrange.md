@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_RELEASESWIZZLINGRANGE
  - DXGKARG_RELEASESWIZZLINGRANGE
 ---
 
@@ -74,3 +75,4 @@ The DXGKARG_RELEASESWIZZLINGRANGE structure describes parameters for releasing a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_releaseswizzlingrange">DxgkDdiReleaseSwizzlingRange</a>
+

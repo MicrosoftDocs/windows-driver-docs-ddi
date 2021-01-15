@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _INSERTPSUIPAGE_INFO
+ - PINSERTPSUIPAGE_INFO
  - INSERTPSUIPAGE_INFO
 ---
 
@@ -246,3 +248,4 @@ dwData1 - Caller-supplied pointer to a PROPSHEETPAGE structure.
 dwData2 - Not used, must be zero.
 
 dwData3 - Not used, must be zero.
+

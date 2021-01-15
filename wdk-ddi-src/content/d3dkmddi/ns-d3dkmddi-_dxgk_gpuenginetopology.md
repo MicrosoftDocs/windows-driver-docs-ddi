@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GPUENGINETOPOLOGY
  - DXGK_GPUENGINETOPOLOGY
 ---
 
@@ -62,3 +63,4 @@ The DXGK_GPUENGINETOPOLOGY structure describes the graphics processing unit (GPU
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>
+

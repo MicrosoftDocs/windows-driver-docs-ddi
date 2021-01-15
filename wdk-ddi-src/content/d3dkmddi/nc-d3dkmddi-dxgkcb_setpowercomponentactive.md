@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbSetPowerComponentActive
+ - DXGKCB_SETPOWERCOMPONENTACTIVE
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ While calling this function, the display miniport driver might receive a call to
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

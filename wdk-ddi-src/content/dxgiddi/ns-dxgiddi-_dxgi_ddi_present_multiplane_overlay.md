@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
  - DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 ---
 
@@ -74,3 +75,4 @@ A structure of type <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dx
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
+

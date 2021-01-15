@@ -41,7 +41,9 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
- - WIM_PROVIDER_ADD_OVERLAY_INPUT
+ - _WIM_PROVIDER_UPDATE_OVERLAY_INPUT
+ - PWIM_PROVIDER_UPDATE_OVERLAY_INPUT
+ - WIM_PROVIDER_UPDATE_OVERLAY_INPUT
 ---
 
 # _WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure
@@ -86,3 +88,4 @@ The WIM file name includes a terminating NULL character. <b>WimFileNameLength</b
 
 
 <a href="/windows-hardware/drivers/ifs/fsctl-update-overlay">FSCTL_UPDATE_OVERLAY</a>
+

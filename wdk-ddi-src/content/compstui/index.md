@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - compstui
  - compstui/compstui
+api_name:
+ - compstui
 ---
 
 # Compstui.h header

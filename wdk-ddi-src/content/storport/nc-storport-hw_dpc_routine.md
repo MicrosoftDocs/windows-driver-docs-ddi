@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorDpcRoutine
+ - HW_DPC_ROUTINE
 ---
 
 # HW_DPC_ROUTINE callback function
@@ -137,3 +137,4 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
+

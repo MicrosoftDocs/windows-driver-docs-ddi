@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_DXVERSION
  - DD_DXVERSION
 ---
 
@@ -81,3 +82,4 @@ The <b>gdi2</b> member of DD_DXVERSION is used by the runtime with type D3DGDI2_
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+

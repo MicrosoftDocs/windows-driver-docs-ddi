@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - PNDIS_RECEIVE_SCALE_PARAMETERS_V2
  - NDIS_RECEIVE_SCALE_PARAMETERS_V2
 ---
 
@@ -211,3 +213,4 @@ New values for this parameter are also a power of two and do exceed adapter capa
 
 
 <a href="/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportReturnNetBufferLists
+ - MINIPORT_RETURN_NET_BUFFER_LISTS
 ---
 
 # MINIPORT_RETURN_NET_BUFFER_LISTS callback function
@@ -152,3 +152,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreturnnetbufferlists">NdisReturnNetBufferLists</a>
+

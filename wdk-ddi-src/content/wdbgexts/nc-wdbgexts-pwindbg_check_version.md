@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - CheckVersion
+ - PWINDBG_CHECK_VERSION
 ---
 
 # PWINDBG_CHECK_VERSION callback function
@@ -66,3 +66,4 @@ For more details, see <a href="/windows-hardware/drivers/debugger/using-wdbgexts
 The purpose of this function is to allow you to print out a version mismatch warning when the extension DLL is used. This is an optional feature, which should not be confused with the version number used  by <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_extension_api_version">ExtensionApiVersion</a>.
 
 If the <a href="/windows-hardware/drivers/debugger/-noversion--disable-version-checking-">.noversion</a> command is used, version checking is disabled and the debugger will not call <i>CheckVersion</i>.
+

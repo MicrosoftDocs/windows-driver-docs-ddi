@@ -12,12 +12,16 @@ tech.root: pos
 f1_keywords:
  - poscxfuncenum
  - poscxfuncenum/poscxfuncenum
+api_name:
+ - poscxfuncenum
 ---
 
 # Poscxfuncenum.h header
+
 
 ## -description
 
 This header is used by pos. For more information, see:
 
 - [Point of Service (POS)](../_pos/index.md)<br><br>
+

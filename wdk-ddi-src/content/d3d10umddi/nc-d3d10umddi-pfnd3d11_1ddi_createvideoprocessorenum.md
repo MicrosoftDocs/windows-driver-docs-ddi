@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateVideoProcessorEnum
+ - PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM
 product:
  - Windows
 ---
@@ -97,3 +97,4 @@ When the runtime  calls <i>CreateVideoProcessorEnum</i>, it passes the handle to
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
+

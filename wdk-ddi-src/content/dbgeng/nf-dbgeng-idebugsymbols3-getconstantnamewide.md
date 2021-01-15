@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetConstantNameWide
+ - IDebugSymbols3::GetConstantNameWide
 ---
 
 # IDebugSymbols3::GetConstantNameWide
@@ -115,3 +115,4 @@ The method was successful. However, the buffer was not large enough for the cons
 ## -remarks
 
 For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
+

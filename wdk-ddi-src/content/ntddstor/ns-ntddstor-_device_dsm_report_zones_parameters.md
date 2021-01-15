@@ -34,6 +34,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DSM_REPORT_ZONES_PARAMETERS
+ - PDEVICE_DSM_REPORT_ZONES_PARAMETERS
  - DEVICE_DSM_REPORT_ZONES_PARAMETERS
 product:
  - Windows

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreUI2.EnumConstrainedOptions
+ - IPrintCoreUI2::EnumConstrainedOptions
 ---
 
 # IPrintCoreUI2::EnumConstrainedOptions
@@ -178,3 +178,4 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
+

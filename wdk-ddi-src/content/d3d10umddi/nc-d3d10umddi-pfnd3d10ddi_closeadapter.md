@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CloseAdapter
+ - PFND3D10DDI_CLOSEADAPTER
 ---
 
 # PFND3D10DDI_CLOSEADAPTER callback function
@@ -80,3 +80,4 @@ Before <b>CloseAdapter(D3D10)</b> closes the graphics adapter object, all of the
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a>
+

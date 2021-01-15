@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - __RAW_READ_INFO
+ - PRAW_READ_INFO
  - RAW_READ_INFO
 ---
 
@@ -72,3 +74,4 @@ Contains an enumerator of type <a href="/windows-hardware/drivers/ddi/ntddcdrm/n
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_track_mode_type">TRACK_MODE_TYPE</a>
+

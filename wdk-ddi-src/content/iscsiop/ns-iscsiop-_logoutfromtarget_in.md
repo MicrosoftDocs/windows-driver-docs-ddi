@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _LogoutFromTarget_IN
+ - PLogoutFromTarget_IN
  - LogoutFromTarget_IN
 ---
 
@@ -76,3 +78,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
+

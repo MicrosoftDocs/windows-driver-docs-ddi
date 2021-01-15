@@ -37,7 +37,7 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - MmMapIoSpace
+ - MmMapIoSpaceEx
 ---
 
 # MmMapIoSpaceEx function
@@ -136,3 +136,4 @@ For more information about using this routine, see <a href="/windows-hardware/dr
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapiospace">MmUnmapIoSpace</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _OB_PRE_DUPLICATE_HANDLE_INFORMATION
+ - POB_PRE_DUPLICATE_HANDLE_INFORMATION
  - OB_PRE_DUPLICATE_HANDLE_INFORMATION
 ---
 
@@ -80,3 +82,4 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
+

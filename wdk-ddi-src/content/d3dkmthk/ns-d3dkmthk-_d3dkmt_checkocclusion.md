@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CHECKOCCLUSION
  - D3DKMT_CHECKOCCLUSION
 ---
 
@@ -58,3 +59,4 @@ The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check f
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckocclusion">D3DKMTCheckOcclusion</a>
+

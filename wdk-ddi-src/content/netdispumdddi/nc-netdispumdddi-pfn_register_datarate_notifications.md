@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - RegisterForDataRateNotifications
+ - PFN_REGISTER_DATARATE_NOTIFICATIONS
 ---
 
 # PFN_REGISTER_DATARATE_NOTIFICATIONS callback function
@@ -103,3 +103,4 @@ The function fails if the driver attempts to register while it is already regist
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a>
+

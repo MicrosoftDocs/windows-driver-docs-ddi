@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtFreeBuffer
+ - DOT11EXT_FREE_BUFFER
 ---
 
 # DOT11EXT_FREE_BUFFER callback
@@ -87,3 +87,4 @@ For more information about the IHV Handler functions, see
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+

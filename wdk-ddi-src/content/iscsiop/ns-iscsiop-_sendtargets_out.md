@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SendTargets_OUT
+ - PSendTargets_OUT
  - SendTargets_OUT
 ---
 
@@ -80,3 +82,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_sendtargets_in">SendTargets_IN</a>
+

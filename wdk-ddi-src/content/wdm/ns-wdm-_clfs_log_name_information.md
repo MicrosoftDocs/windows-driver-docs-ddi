@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CLFS_LOG_NAME_INFORMATION
+ - PCLFS_LOG_NAME_INFORMATION
  - CLFS_LOG_NAME_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ An array of wide characters that holds the log name.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfssetlogfileinformation">ClfsSetLogFileInformation</a>
+

@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnGetSupportedSensorObjects
+ - ISensorDriver::OnGetSupportedSensorObjects
 ---
 
 # ISensorDriver::OnGetSupportedSensorObjects
@@ -61,3 +61,4 @@ If the operation succeeds, this method returns S_OK. Otherwise, this method retu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

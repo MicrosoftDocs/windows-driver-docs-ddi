@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetSymbolEntryInformation
+ - IDebugSymbols3::GetSymbolEntryInformation
 ---
 
 # IDebugSymbols3::GetSymbolEntryInformation
@@ -92,3 +92,4 @@ For details on the symbol entry information, see <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymbolentryinformation">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
+

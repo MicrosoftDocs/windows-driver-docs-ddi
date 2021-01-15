@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _OBJECT_INFORMATION_CLASS
  - OBJECT_INFORMATION_CLASS
 ---
 
@@ -70,3 +71,4 @@ A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-__public_object_type_inf
 
 
 <a href="/previous-versions/ff567062(v=vs.85)">ZwQueryObject</a>
+

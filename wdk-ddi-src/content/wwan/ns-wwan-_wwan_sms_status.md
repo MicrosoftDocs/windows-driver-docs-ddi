@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_STATUS
+ - PWWAN_SMS_STATUS
  - WWAN_SMS_STATUS
 ---
 
@@ -122,3 +124,4 @@ If the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_status">NDIS_WWAN_SMS_STATUS</a>
+
