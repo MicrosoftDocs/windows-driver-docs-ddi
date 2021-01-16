@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvAnalyzeItem
+ - IWiaMiniDrv::drvAnalyzeItem
 ---
 
 # IWiaMiniDrv::drvAnalyzeItem
@@ -90,3 +90,4 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
+

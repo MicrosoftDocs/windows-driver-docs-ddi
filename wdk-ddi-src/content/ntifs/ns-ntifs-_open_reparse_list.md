@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _OPEN_REPARSE_LIST
+ - POPEN_REPARSE_LIST
  - OPEN_REPARSE_LIST
 ---
 

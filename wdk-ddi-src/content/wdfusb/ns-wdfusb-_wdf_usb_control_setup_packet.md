@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_CONTROL_SETUP_PACKET
+ - PWDF_USB_CONTROL_SETUP_PACKET
  - WDF_USB_CONTROL_SETUP_PACKET
 ---
 
@@ -185,3 +187,4 @@ To initialize a <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure, the driver should
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
+

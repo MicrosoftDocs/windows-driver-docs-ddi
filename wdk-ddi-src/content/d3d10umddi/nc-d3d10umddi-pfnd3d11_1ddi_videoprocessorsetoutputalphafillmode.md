@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetOutputAlphaFillMode
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE callback function
@@ -102,3 +102,4 @@ The default fill mode is <b>D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE</b>.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps">GetVideoProcessorCaps</a>
+

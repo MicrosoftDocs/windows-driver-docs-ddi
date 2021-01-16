@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILOSGEOLOCATIONINFO
+ - LPRILOSGEOLOCATIONINFO
 ---
 
 # RILOSGEOLOCATIONINFO structure (ntddrilapitypes.h)

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - GetWallClockRegister
+ - PGET_WALL_CLOCK_REGISTER
 ---
 
 # PGET_WALL_CLOCK_REGISTER callback function
@@ -76,3 +76,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/wall-clock-an
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
+

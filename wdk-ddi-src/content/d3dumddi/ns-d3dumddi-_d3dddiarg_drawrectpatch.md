@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DRAWRECTPATCH
  - D3DDDIARG_DRAWRECTPATCH
 ---
 
@@ -62,3 +63,4 @@ The <b>Handle</b> member refers to the patch surface, so that the next time the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_drawrectpatch">DrawRectPatch</a>
+

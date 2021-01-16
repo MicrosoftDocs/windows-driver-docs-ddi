@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FS_FILTER_SECTION_SYNC_OUTPUT
+ - PFS_FILTER_SECTION_SYNC_OUTPUT
  - FS_FILTER_SECTION_SYNC_OUTPUT
 ---
 

@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDIDEGREETYPE
+ - D3DDDIDEGREETYPE
 product:
  - Windows
 dev_langs:

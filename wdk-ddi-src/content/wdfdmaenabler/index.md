@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfdmaenabler
  - wdfdmaenabler/wdfdmaenabler
+api_name:
+ - wdfdmaenabler
 ---
 
 # Wdfdmaenabler.h header

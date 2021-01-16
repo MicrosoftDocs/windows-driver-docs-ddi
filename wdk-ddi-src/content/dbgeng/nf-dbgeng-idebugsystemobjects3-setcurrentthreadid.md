@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.SetCurrentThreadId
- - IDebugSystemObjects2.SetCurrentThreadId
- - IDebugSystemObjects3.SetCurrentThreadId
- - IDebugSystemObjects4.SetCurrentThreadId
+ - IDebugSystemObjects3::SetCurrentThreadId
 ---
 
 # IDebugSystemObjects3::SetCurrentThreadId
@@ -99,3 +96,4 @@ If the thread is changed, the callback <a href="/windows-hardware/drivers/ddi/db
 <div class="alert"><b>Note</b>    In kernel-mode debugging, the current thread is a virtual thread, it is not a system thread.  This method cannot be used to change between system threads in kernel-mode debugging.  However, the implicit thread may be changed by using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitthreaddataoffset">SetImplicitThreadDataOffset</a>.</div>
 <div> </div>
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on monitoring events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+

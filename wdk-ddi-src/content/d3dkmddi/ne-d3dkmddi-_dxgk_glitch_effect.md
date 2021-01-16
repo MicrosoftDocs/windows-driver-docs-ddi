@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GLITCH_EFFECT
  - DXGK_GLITCH_EFFECT
 ---
 

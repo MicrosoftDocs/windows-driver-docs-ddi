@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.ExtRemoteTyped
+ - ExtRemoteTyped::ExtRemoteTyped
 ---
 
 # ExtRemoteTyped::ExtRemoteTyped (engextcpp.h)
@@ -102,3 +102,4 @@ The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemote
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-setprint">SetPrint</a>
+

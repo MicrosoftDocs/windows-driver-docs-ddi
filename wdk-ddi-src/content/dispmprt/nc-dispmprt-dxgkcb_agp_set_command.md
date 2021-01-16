@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - AgpSetCommand
+ - DXGKCB_AGP_SET_COMMAND
 ---
 
 # DXGKCB_AGP_SET_COMMAND callback function
@@ -99,3 +99,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
+

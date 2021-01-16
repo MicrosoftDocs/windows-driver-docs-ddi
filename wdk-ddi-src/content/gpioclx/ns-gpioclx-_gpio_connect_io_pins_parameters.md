@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_CONNECT_IO_PINS_PARAMETERS
+ - PGPIO_CONNECT_IO_PINS_PARAMETERS
  - GPIO_CONNECT_IO_PINS_PARAMETERS
 ---
 
@@ -124,3 +126,4 @@ The <i>ClientParameters</i> parameter to the <a href="/windows-hardware/drivers/
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
+

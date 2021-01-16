@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxlog
  - rxlog/rxlog
+api_name:
+ - rxlog
 ---
 
 # Rxlog.h header

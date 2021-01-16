@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal
+ - IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
 ---
 
 # IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
@@ -97,3 +97,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/dynamic-audio
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisterphysicalconnectiontoexternal">PcRegisterPhysicalConnectionToExternal</a>
+

@@ -31,6 +31,7 @@ api_location:
  - wdm.h
 api_name:
  - MEM_EXTENDED_PARAMETER_TYPE
+ - PMEM_EXTENDED_PARAMETER_TYPE
 ---
 
 # MEM_EXTENDED_PARAMETER_TYPE enumeration

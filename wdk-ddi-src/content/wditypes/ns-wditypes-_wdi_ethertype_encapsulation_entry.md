@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_ETHERTYPE_ENCAPSULATION_ENTRY
+ - PWDI_ETHERTYPE_ENCAPSULATION_ENTRY
  - WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 ---
 

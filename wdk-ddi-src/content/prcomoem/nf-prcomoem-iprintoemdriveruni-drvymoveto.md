@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUni.DrvYMoveTo
+ - IPrintOemDriverUni::DrvYMoveTo
 ---
 
 # IPrintOemDriverUni::DrvYMoveTo
@@ -183,3 +183,4 @@ The <b>IPrintOemUni::ImageProcessing</b> method can update the cursor by sending
 
 </li>
 </ul>
+

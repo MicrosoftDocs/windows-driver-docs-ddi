@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_TDSCDMA_MRL_INFO
+ - PWWAN_TDSCDMA_MRL_INFO
  - WWAN_TDSCDMA_MRL_INFO
 ---
 
@@ -108,3 +110,4 @@ The data buffer containing <i>ProviderId</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_tdscdma_serving_cell_info">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+

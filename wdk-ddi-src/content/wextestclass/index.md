@@ -12,6 +12,8 @@ tech.root: taef
 f1_keywords:
  - wextestclass
  - wextestclass/wextestclass
+api_name:
+ - wextestclass
 ---
 
 # Wextestclass.h header
@@ -22,3 +24,4 @@ f1_keywords:
 This header is used by TAEF. For more information, see:
 
 - [Test Authoring and Execution Framework (TAEF)](../_taef/index.md)
+

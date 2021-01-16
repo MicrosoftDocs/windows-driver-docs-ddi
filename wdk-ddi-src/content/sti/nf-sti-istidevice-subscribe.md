@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStiDevice.Subscribe
+ - IStiDevice::Subscribe
 ---
 
 # IStiDevice::Subscribe
@@ -80,3 +80,4 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff543796(v=vs.85)">IStillImage::LaunchApplicationForDevice</a>
+

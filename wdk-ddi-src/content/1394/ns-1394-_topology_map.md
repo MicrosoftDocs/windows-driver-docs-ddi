@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _TOPOLOGY_MAP
+ - PTOPOLOGY_MAP
  - TOPOLOGY_MAP
 ---
 
@@ -84,3 +86,4 @@ All data will be in big-endian format.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
+

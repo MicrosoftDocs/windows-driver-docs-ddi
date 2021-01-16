@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SPB_TRANSFER_BUFFER
+ - PSPB_TRANSFER_BUFFER
 ---
 
 # SPB_TRANSFER_BUFFER structure
@@ -100,3 +101,4 @@ The <b>Mdl</b> member of this structure can be used only by clients of the SPB c
 
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
+

@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ALLOCATIONRESIDENCYSTATUS
+ - D3DKMT_ALLOCATIONRESIDENCYSTATUS
 dev_langs:
  - c++
 ---

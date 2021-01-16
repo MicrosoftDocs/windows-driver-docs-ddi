@@ -3,7 +3,7 @@ UID: NF:portcls.IPort.Init
 title: IPort::Init (portcls.h)
 description: The Init method initializes the port driver.
 tech.root: audio
-ms.date: 10/31/2018
+ms.date: 12/21/2020
 keywords: ["IPort::Init"]
 ms.keywords: IPort::Init, Init, IPort.Init, IPort::Init, IPort.Init
 req.header: portcls.h
@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPort.Init
+ - IPort::Init
 product:
  - Windows
 ---
@@ -76,13 +76,15 @@ This method returns NTSTATUS which contains STATUS_SUCCESS if the call was succe
 
 The miniport object specified by UnknownMiniport must support the miniport interface that the port driver requires or the Init call will fail.
 
-During the IPort::Init call, the port driver calls the miniport driver's initialization method (for example, see IMiniportWavePci::Init).
+During the IPort::Init call, the port driver calls the miniport driver's initialization method (for example, see [IMiniportWavePci::Init](nf-portcls-iminiportwavepci-init.md)).
 
-Parameter UnknownAdapter points to the COM interface of an adapter object. The adapter driver typically creates this object within its device-startup routine, which is the routine that the operating system calls to start the device (see Startup Sequence). For an example of an interface for an adapter object, see the definition and implementation of the IAdapterObject interface in the sb16 and msvad sample audio drivers in the Microsoft Windows Driver Kit (WDK).
+Parameter UnknownAdapter points to the COM interface of an adapter object. The adapter driver typically creates this object within its device-startup routine, which is the routine that the operating system calls to start the device (see Startup Sequence). For an example of an interface for an adapter object, see the `CMiniportWaveRT::Init` definition and implementation in the sysvad audio driver sample.
 
-The UnknownMiniport, UnknownAdapter, and ResourceList parameters follow the reference-counting conventions for COM objects.
+The UnknownMiniport, UnknownAdapter, and ResourceList parameters follow the standard reference-counting conventions for COM objects.
 
 ## -see-also
 
 [IPort](nn-portcls-iport.md)
+
+[IMiniportWavePci::Init](nf-portcls-iminiportwavepci-init.md)
 

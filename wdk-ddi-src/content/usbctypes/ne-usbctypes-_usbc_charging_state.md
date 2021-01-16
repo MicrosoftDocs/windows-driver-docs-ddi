@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_CHARGING_STATE
+ - USBC_CHARGING_STATE
 ---
 
 # _USBC_CHARGING_STATE enumeration

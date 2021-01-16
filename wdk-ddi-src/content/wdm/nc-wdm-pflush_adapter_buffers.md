@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - FlushAdapterBuffers
+ - PFLUSH_ADAPTER_BUFFERS
 ---
 
 # PFLUSH_ADAPTER_BUFFERS callback function
@@ -121,3 +121,4 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+

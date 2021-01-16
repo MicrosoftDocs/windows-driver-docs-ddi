@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterPropertyBag.SetBytes
+ - IPrinterPropertyBag::SetBytes
 ---
 
 # IPrinterPropertyBag::SetBytes
@@ -82,3 +82,4 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
+

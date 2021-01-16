@@ -39,6 +39,7 @@ api_type:
 api_location:
  - drmk.h
 api_name:
+ - PKSDRMAUDIOSTREAM_CONTENTID
  - KSDRMAUDIOSTREAM_CONTENTID
 ---
 
@@ -66,3 +67,4 @@ Specifies the DRM content rights assigned to the stream. This member is a pointe
 
 
 <a href="/previous-versions/ff537351(v=vs.85)">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+

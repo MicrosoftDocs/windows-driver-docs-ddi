@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPartFont.SetFontOptions
+ - IPartFont::SetFontOptions
 ---
 
 # IPartFont::SetFontOptions
@@ -57,3 +57,4 @@ An <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__mid
 ## -returns
 
 <b>SetFontOptions</b> returns an <b>HRESULT</b> value.
+

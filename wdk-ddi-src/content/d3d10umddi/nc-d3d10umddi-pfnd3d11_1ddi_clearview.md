@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - ClearView
+ - PFND3D11_1DDI_CLEARVIEW
 product:
  - Windows
 ---
@@ -127,3 +127,4 @@ typedef RECT D3D10_DDI_RECT;
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

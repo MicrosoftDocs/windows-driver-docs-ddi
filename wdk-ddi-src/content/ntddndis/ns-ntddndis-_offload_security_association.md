@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _OFFLOAD_SECURITY_ASSOCIATION
+ - POFFLOAD_SECURITY_ASSOCIATION
  - OFFLOAD_SECURITY_ASSOCIATION
 ---
 
@@ -110,3 +112,4 @@ The OFFLOAD_SECURITY_ASSOCIATION structure is used with the
 
 <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
+

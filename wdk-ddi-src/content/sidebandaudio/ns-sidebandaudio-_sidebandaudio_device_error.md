@@ -36,6 +36,8 @@ api_location:
  - sidebandaudio.h
 api_name:
  - _SIDEBANDAUDIO_DEVICE_ERROR
+ - PSIDEBANDAUDIO_DEVICE_ERROR
+ - SIDEBANDAUDIO_DEVICE_ERROR
 ---
 
 # _SIDEBANDAUDIO_DEVICE_ERROR structure

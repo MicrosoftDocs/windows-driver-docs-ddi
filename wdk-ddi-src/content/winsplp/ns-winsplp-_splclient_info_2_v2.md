@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
+ - _SPLCLIENT_INFO_2_V2
  - SPLCLIENT_INFO_2_WINXP
 ---
 

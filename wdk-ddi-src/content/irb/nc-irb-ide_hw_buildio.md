@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - IdeHwBuildIo
+ - IDE_HW_BUILDIO
 ---
 
 # IDE_HW_BUILDIO callback function
@@ -85,3 +85,4 @@ The <b><i>IdeHwBuildIo</i></b> routine resembles Storport's <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_startio">IdeHwStartIo</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueue2.GetPrinterQueueView
+ - IPrinterQueue2::GetPrinterQueueView
 ---
 
 # IPrinterQueue2::GetPrinterQueueView
@@ -101,3 +101,4 @@ However it is possible to move around the single view that you retrieve. In othe
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a>
+

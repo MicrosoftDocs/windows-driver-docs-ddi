@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostTypeSignature.AddRef
+ - IDebugHostTypeSignature::AddRef
 ---
 
 # IDebugHostTypeSignature::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostTypeSignature interface](nn-dbgmodel-idebughosttypesignature.md)
+

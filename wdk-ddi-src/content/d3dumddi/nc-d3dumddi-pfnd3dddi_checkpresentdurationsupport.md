@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - CheckPresentDurationSupport
+ - PFND3DDDI_CHECKPRESENTDURATIONSUPPORT
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ If this routine succeeds, it returns <b>S_OK</b>. The driver should always retur
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_SHARE_MEMORY_INFORMATION
+ - PVIDEO_SHARE_MEMORY_INFORMATION
  - VIDEO_SHARE_MEMORY_INFORMATION
 ---
 
@@ -85,3 +87,4 @@ The video miniport driver fills out a VIDEO_SHARE_MEMORY_INFORMATION structure b
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory">VIDEO_SHARE_MEMORY</a>
+

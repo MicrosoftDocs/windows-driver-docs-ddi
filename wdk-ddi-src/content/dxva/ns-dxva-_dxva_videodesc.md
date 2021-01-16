@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoDesc
+ - LPDXVA_VideoDesc
  - DXVA_VideoDesc
 ---
 
@@ -92,3 +94,4 @@ For examples showing structure member values for deinterlacing or converting dif
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>
+

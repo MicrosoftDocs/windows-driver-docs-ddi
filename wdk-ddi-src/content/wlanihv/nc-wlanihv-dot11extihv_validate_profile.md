@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvValidateProfile
+ - DOT11EXTIHV_VALIDATE_PROFILE
 ---
 
 # DOT11EXTIHV_VALIDATE_PROFILE callback
@@ -179,3 +179,4 @@ For more information about the Native 802.11 XML schema, refer to the Microsoft 
 
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+

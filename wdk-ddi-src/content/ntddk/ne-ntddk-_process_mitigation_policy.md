@@ -33,6 +33,8 @@ api_location:
  - ntddk.h
 api_name:
  - _PROCESS_MITIGATION_POLICY
+ - PPROCESS_MITIGATION_POLICY
+ - PROCESS_MITIGATION_POLICY
 ---
 
 # _PROCESS_MITIGATION_POLICY enumeration
@@ -79,3 +81,4 @@ Represents the different process mitigation policies. For more information, see 
 ## -remarks
 
 ## -see-also
+

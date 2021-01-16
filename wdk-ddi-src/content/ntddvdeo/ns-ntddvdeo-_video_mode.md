@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_MODE
+ - PVIDEO_MODE
  - VIDEO_MODE
 ---
 
@@ -70,3 +72,4 @@ Indicates that the miniport driver should zero the video memory in conjunction w
 #### VIDEO_MODE_MAP_MEM_LINEAR
 
 Indicates that the miniport driver should map the video memory in a linear fashion if the adapter supports such an operation.
+

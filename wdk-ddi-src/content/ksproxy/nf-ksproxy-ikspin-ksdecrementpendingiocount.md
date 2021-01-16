@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsDecrementPendingIoCount
+ - IKsPin::KsDecrementPendingIoCount
 ---
 
 # IKsPin::KsDecrementPendingIoCount
@@ -93,3 +93,4 @@ The client calls the <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-i
 
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspin-ksincrementpendingiocount">IKsPin::KsIncrementPendingIoCount</a>
+

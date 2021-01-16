@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IRegistryKey.QueryKey
+ - IRegistryKey::QueryKey
 ---
 
 # IRegistryKey::QueryKey
@@ -129,3 +129,4 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTCloseAdapter
+ - PFND3DKMT_CLOSEADAPTER
 product:
  - Windows
 ---

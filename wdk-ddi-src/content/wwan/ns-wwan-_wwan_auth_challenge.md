@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_AUTH_CHALLENGE
+ - PWWAN_AUTH_CHALLENGE
  - WWAN_AUTH_CHALLENGE
 ---
 
@@ -88,3 +90,4 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_sim_challenge">WWAN_AUTH_SIM_CHALLENGE</a>
+

@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rx
  - rx/rx
+api_name:
+ - rx
 ---
 
 # Rx.h header

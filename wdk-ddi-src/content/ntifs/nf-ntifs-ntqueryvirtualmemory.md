@@ -37,7 +37,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - ZwQueryVirtualMemory
  - NtQueryVirtualMemory
 ---
 
@@ -111,3 +110,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [POWER_PLATFORM_INFORMATION](../wdm/ns-wdm-_power_platform_information.md)
 
 [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot))
+

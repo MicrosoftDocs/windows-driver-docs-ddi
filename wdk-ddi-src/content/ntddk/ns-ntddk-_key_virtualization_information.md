@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _KEY_VIRTUALIZATION_INFORMATION
+ - PKEY_VIRTUALIZATION_INFORMATION
  - KEY_VIRTUALIZATION_INFORMATION
 ---
 
@@ -108,3 +110,4 @@ This value is reserved for system use.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

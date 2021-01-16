@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STORPORT_TELEMETRY_EVENT
+ - PSTORPORT_TELEMETRY_EVENT
  - STORPORT_TELEMETRY_EVENT
 ---
 
@@ -152,3 +154,4 @@ A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry dat
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportlogtelemetry">StorPortLogTelemetry</a>
+

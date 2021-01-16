@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentThreadHandle
- - IDebugSystemObjects2.GetCurrentThreadHandle
- - IDebugSystemObjects3.GetCurrentThreadHandle
- - IDebugSystemObjects4.GetCurrentThreadHandle
+ - IDebugSystemObjects4::GetCurrentThreadHandle
 ---
 
 # IDebugSystemObjects4::GetCurrentThreadHandle
@@ -84,3 +81,4 @@ The method was successful.
 In kernel-mode debugging, an artificial handle is created because the threads are virtual threads.
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="/windows-hardware/drivers/">Handles</a>.
+

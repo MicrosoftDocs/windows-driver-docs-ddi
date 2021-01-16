@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_DSSS_CHANNEL_LIST
+ - PDOT11_SUPPORTED_DSSS_CHANNEL_LIST
  - DOT11_SUPPORTED_DSSS_CHANNEL_LIST
 product:
  - Windows 10 or later.
@@ -97,3 +99,4 @@ A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when q
 
 
 <a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">DOT11_SUPPORTED_DSSS_CHANNEL</a>
+

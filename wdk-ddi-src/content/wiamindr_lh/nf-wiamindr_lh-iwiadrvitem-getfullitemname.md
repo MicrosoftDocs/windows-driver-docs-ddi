@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetFullItemName
+ - IWiaDrvItem::GetFullItemName
 ---
 
 # IWiaDrvItem::GetFullItemName
@@ -74,3 +74,4 @@ The name returned in *pbstrFullItemName *is the name associated with the item wh
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)
+

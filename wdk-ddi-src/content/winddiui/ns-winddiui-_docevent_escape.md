@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DOCEVENT_ESCAPE
+ - PDOCEVENT_ESCAPE
  - DOCEVENT_ESCAPE
 ---
 
@@ -80,3 +82,4 @@ Refer to the Microsoft Windows SDK documentation for a description of the <b>Ext
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui2-documentevent">IPrintOemUI2::DocumentEvent</a>
+

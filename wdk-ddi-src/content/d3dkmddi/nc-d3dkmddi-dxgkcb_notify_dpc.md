@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbNotifyDpc
+ - DXGKCB_NOTIFY_DPC
 product:
  - Windows
 ---
@@ -101,3 +101,4 @@ D3DDDINotifyDPC(
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

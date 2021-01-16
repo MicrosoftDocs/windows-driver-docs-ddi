@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CMP_NOTIFY_INFO
+ - PCMP_NOTIFY_INFO
  - CMP_NOTIFY_INFO
 ---
 
@@ -68,3 +70,4 @@ A context.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

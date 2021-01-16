@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_REQUEST_COMPLETION_PARAMS
+ - PWDF_USB_REQUEST_COMPLETION_PARAMS
  - WDF_USB_REQUEST_COMPLETION_PARAMS
 ---
 
@@ -160,3 +162,4 @@ The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetcompletionparams">WdfRequestGetCompletionParams</a>
+

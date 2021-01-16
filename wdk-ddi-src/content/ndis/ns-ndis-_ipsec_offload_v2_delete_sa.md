@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _IPSEC_OFFLOAD_V2_DELETE_SA
+ - PIPSEC_OFFLOAD_V2_DELETE_SA
  - IPSEC_OFFLOAD_V2_DELETE_SA
 ---
 
@@ -97,3 +99,4 @@ The IPSEC_OFFLOAD_V2_DELETE_SA structure defines a handle for a SA that should b
 
 <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
+

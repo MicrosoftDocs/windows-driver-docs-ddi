@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _MSiSCSI_PersistentLogins
+ - PMSiSCSI_PersistentLogins
  - MSiSCSI_PersistentLogins
 ---
 
@@ -80,3 +82,4 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-persistentlogins-wmi-class">MSiSCSI_PersistentLogins WMI Class</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DESTROYOVERLAY
  - D3DDDIARG_DESTROYOVERLAY
 ---
 
@@ -58,3 +59,4 @@ The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the overlay to disab
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyoverlay">DestroyOverlay</a>
+

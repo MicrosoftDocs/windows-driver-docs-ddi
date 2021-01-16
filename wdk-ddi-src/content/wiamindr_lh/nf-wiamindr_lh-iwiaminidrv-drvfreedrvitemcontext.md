@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvFreeDrvItemContext
+ - IWiaMiniDrv::drvFreeDrvItemContext
 ---
 
 # IWiaMiniDrv::drvFreeDrvItemContext
@@ -96,3 +96,4 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
  [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
  [IWiaMiniDrv::drvReadItemProperties](./nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties.md)
+

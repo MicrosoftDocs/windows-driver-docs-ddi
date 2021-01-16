@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_FibrePortHBAStatistics
+ - PMSFC_FibrePortHBAStatistics
  - MSFC_FibrePortHBAStatistics
 ---
 
@@ -68,3 +70,4 @@ Contains a structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msfc-fibreporthbastatistics-wmi-class">MSFC_FibrePortHBAStatistics WMI Class</a>
+

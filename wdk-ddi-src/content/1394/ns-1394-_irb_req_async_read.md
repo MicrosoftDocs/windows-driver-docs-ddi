@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ASYNC_READ
  - IRB_REQ_ASYNC_READ
 ---
 
@@ -131,3 +132,4 @@ Reserved. Drivers must set this to zero.
 ### -field ElapsedTime
 
 Elapsed time in nanoseconds. Only valid for flag ASYNC_FLAGS_PING.
+

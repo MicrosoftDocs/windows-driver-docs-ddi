@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetSupportedDeviceFormats
+ - IMiniportAudioEngineNode::GetSupportedDeviceFormats
 ---
 
 # IMiniportAudioEngineNode::GetSupportedDeviceFormats
@@ -77,3 +77,4 @@ returns an appropriate error code.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a>
+

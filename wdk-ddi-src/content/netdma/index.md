@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netdma
  - netdma/netdma
+api_name:
+ - netdma
 ---
 
 # Netdma.h header

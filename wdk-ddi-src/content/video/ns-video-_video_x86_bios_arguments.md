@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_X86_BIOS_ARGUMENTS
+ - PVIDEO_X86_BIOS_ARGUMENTS
  - VIDEO_X86_BIOS_ARGUMENTS
 ---
 
@@ -78,3 +80,4 @@ A miniport driver should <i>not</i> set a segment:offset-type pointer in any mem
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportint10">VideoPortInt10</a>
+

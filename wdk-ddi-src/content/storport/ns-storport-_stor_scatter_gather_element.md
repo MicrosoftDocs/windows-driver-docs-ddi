@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_SCATTER_GATHER_ELEMENT
+ - PSTOR_SCATTER_GATHER_ELEMENT
  - STOR_SCATTER_GATHER_ELEMENT
 ---
 
@@ -76,3 +78,4 @@ Miniport drivers used with the Storport driver retrieve an array of these struct
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetscattergatherlist">StorPortGetScatterGatherList</a>
+

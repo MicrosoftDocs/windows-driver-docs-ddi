@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl4.AddBreakpoint2
+ - IDebugControl4::AddBreakpoint2
 ---
 
 # IDebugControl4::AddBreakpoint2
@@ -155,3 +155,4 @@ The client is saved as the adder of the new breakpoint. See <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>
+

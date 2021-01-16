@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCW_DATA
+ - PPCW_DATA
  - PCW_DATA
 ---
 
@@ -68,3 +70,4 @@ A numeric value that specifies the size, in bytes, of the `Data` buffer.
 [PcwCreateInstance function](nf-wdm-pcwcreateinstance.md)
 
 [CTRPP](/windows/win32/perfctrs/ctrpp)
+

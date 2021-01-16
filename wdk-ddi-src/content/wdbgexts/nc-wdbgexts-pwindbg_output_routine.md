@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - dprintf
+ - PWINDBG_OUTPUT_ROUTINE
 ---
 
 # PWINDBG_OUTPUT_ROUTINE callback function
@@ -240,3 +240,4 @@ String containing the name of the specified symbol (and displacement, if any), a
 ## -remarks
 
 When generating very large output strings, it is possible the limits of the debugger engine or operating system may be reached.  For example, some versions of the debugger engine have a 16K character limit for a single piece of output.  If you find that very large output is getting truncated, you may need to split your output into multiple requests.
+

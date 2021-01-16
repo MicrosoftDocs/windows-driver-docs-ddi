@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_POWER_RUNTIME_STATE
  - DXGK_POWER_RUNTIME_STATE
 ---
 

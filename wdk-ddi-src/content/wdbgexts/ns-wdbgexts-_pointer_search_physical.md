@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
+ - _POINTER_SEARCH_PHYSICAL
+ - PPOINTER_SEARCH_PHYSICAL
  - POINTER_SEARCH_PHYSICAL
 ---
 
@@ -139,3 +141,4 @@ The parameters for the IG_POINTER_SEARCH_PHYSICAL <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+

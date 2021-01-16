@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_PVP_HW_IV
  - DXVADDI_PVP_HW_IV
 ---
 
@@ -66,3 +67,4 @@ The DXVADDI_PVP_HW_IV structure contains two 64-bit values that combine to form 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeexecute">DecodeExecute</a>
+

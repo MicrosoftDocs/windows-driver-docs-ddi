@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_NOTIFY_COMPONENT_IDLE_STATE
+ - PPEP_NOTIFY_COMPONENT_IDLE_STATE
  - PEP_NOTIFY_COMPONENT_IDLE_STATE
 ---
 
@@ -98,3 +100,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackrequestworker">RequestWorker</a>
+

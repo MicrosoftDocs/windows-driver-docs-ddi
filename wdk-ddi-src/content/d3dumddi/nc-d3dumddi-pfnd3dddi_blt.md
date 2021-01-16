@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - Blt
+ - PFND3DDDI_BLT
 product:
  - Windows
 ---
@@ -107,3 +107,4 @@ The Direct3D runtime can call the user-mode display driver's <b>Blt</b> function
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

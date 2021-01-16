@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnGetSupportedDataFields
+ - ISensorDriver::OnGetSupportedDataFields
 ---
 
 # ISensorDriver::OnGetSupportedDataFields
@@ -73,3 +73,4 @@ All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamicro.h
 api_name:
+ - _SCANINFO
+ - PSCANINFO
  - SCANINFO
 ---
 
@@ -263,3 +265,4 @@ This structure is used as a parameter in the microdriver's [SetPixelWindow](./nf
 [Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan)
 
 [SetPixelWindow](./nf-wiamicro-setpixelwindow.md)
+

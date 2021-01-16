@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DMA_ADAPTER
+ - PADAPTER_OBJECT
  - DMA_ADAPTER
 ---
 
@@ -83,3 +85,4 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

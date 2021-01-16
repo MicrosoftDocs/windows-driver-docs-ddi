@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_POSITIONS
  - KSPROPERTY_POSITIONS
 ---
 
@@ -74,3 +75,4 @@ The KSPROPERTY_POSITIONS structure is used with positioning properties in the KS
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-positions">KSPROPERTY_MEDIASEEKING_POSITIONS</a>
+

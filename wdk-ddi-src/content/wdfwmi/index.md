@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfwmi
  - wdfwmi/wdfwmi
+api_name:
+ - wdfwmi
 ---
 
 # Wdfwmi.h header

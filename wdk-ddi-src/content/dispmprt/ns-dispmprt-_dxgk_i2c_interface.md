@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_I2C_INTERFACE
+ - PDXGK_I2C_INTERFACE
  - DXGK_I2C_INTERFACE
 ---
 
@@ -84,3 +86,4 @@ A pointer to the display miniport driver's <a href="/windows-hardware/drivers/dd
 ## -remarks
 
 A kernel-mode component that needs to use the I2C interface calls the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_interface">DxgkDdiQueryInterface</a> function.
+

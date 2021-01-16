@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetStreamSource
+ - PFND3DDDI_SETSTREAMSOURCE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The Microsoft Direct3D runtime calls the user-mode display driver's <i>SetStream
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

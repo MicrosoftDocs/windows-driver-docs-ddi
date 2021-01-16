@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_CONTEXT_INFO
+ - PWHEA_XPF_CONTEXT_INFO
  - WHEA_XPF_CONTEXT_INFO
 ---
 
@@ -196,3 +198,4 @@ The <b>VariableInfo</b> member of the <a href="/previous-versions/ff560655(v=vs.
 
 
 <a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+

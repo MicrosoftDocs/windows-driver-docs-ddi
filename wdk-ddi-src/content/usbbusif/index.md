@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - usbbusif
  - usbbusif/usbbusif
+api_name:
+ - usbbusif
 ---
 
 # Usbbusif.h header

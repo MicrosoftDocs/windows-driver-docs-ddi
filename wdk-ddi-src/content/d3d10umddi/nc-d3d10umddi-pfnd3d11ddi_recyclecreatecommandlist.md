@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - RecycleCreateCommandList
+ - PFND3D11DDI_RECYCLECREATECOMMANDLIST
 product:
  - Windows
 ---
@@ -109,3 +109,4 @@ For more information about <i>RecycleCreateCommandList</i>, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_2ddi_getcaps">GetCaps(D3D10_2)</a>
+

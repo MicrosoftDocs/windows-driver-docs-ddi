@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_StartController
+ - GPIO_CLIENT_START_CONTROLLER
 ---
 
 # GPIO_CLIENT_START_CONTROLLER callback function
@@ -116,3 +116,4 @@ The GPIO_CLIENT_START_CONTROLLER function type is defined in the Gpioclx.h heade
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

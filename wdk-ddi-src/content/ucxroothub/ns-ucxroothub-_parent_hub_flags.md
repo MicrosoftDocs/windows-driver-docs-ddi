@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _PARENT_HUB_FLAGS
+ - PPARENT_HUB_FLAGS
  - PARENT_HUB_FLAGS
 ---
 
@@ -74,3 +76,4 @@ Indicates that UpdateMaxExitLatency is disabled for all devices/hubs behind the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a>
+

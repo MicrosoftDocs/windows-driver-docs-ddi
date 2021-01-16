@@ -37,7 +37,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
- - HwScsiWmiExecuteMethod
+ - PSCSIWMI_EXECUTE_METHOD
 ---
 
 # PSCSIWMI_EXECUTE_METHOD callback function
@@ -119,3 +119,4 @@ The miniport driver executes the method and writes output, if any, to the buffer
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
+

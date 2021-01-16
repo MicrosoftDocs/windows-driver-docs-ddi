@@ -41,10 +41,13 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_PARAMETERS
+ - PFLT_PARAMETERS
  - FLT_PARAMETERS
 ---
 
 # _FLT_PARAMETERS union
+
 
 ## -description
 
@@ -110,3 +113,4 @@ The following I/O operations do not have parameters, and therefore do not have a
 [FLT_IO_PARAMETER_BLOCK](./ns-fltkernel-_flt_io_parameter_block.md)
 
 [**FltSetCallbackDataDirty**](./nf-fltkernel-fltsetcallbackdatadirty.md)
+

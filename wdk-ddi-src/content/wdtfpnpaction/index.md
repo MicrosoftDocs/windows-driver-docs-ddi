@@ -12,6 +12,8 @@ tech.root: dtf
 f1_keywords:
  - wdtfpnpaction
  - wdtfpnpaction/wdtfpnpaction
+api_name:
+ - wdtfpnpaction
 ---
 
 # Wdtfpnpaction.h header

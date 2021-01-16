@@ -29,6 +29,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_DEVICE_RESET_TYPE
  - STOR_DEVICE_RESET_TYPE
 product:
  - Windows
@@ -59,3 +60,4 @@ See [Resetting and recovering a device](/windows-hardware/drivers/kernel/resetti
 ## -see-also
 
 [**StorPortHardwareReset**](nf-storport-storporthardwarereset.md)
+

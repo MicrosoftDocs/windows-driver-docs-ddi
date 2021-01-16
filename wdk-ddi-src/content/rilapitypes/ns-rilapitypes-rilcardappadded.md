@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCARDAPPADDED
+ - LPRILCARDAPPADDED
 ---
 
 # RILCARDAPPADDED structure (rilapitypes.h)

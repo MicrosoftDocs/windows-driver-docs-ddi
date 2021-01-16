@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.WriteVirtualUncached
- - IDebugDataSpaces2.WriteVirtualUncached
- - IDebugDataSpaces3.WriteVirtualUncached
- - IDebugDataSpaces4.WriteVirtualUncached
+ - IDebugDataSpaces::WriteVirtualUncached
 ---
 
 # IDebugDataSpaces::WriteVirtualUncached
@@ -123,3 +120,4 @@ This method behaves identically to <a href="/windows-hardware/drivers/ddi/dbgeng
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>
+

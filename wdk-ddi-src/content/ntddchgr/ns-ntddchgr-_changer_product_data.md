@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_PRODUCT_DATA
+ - PCHANGER_PRODUCT_DATA
  - CHANGER_PRODUCT_DATA
 ---
 
@@ -84,3 +86,4 @@ Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_get_product_data">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+

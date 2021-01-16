@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSUBADDRESS
+ - LPRILSUBADDRESS
 ---
 
 # RILSUBADDRESS structure (rilapitypes.h)

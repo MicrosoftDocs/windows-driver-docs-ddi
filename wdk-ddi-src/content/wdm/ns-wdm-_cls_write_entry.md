@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _CLS_WRITE_ENTRY
+ - PCLS_WRITE_ENTRY
  - CLS_WRITE_ENTRY
 ---
 
@@ -72,3 +74,4 @@ CLFS collects the buffers pointed to by several <b>CLFS_WRITE_ENTRY</b> structur
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreserveandappendlogaligned">ClfsReserveAndAppendLogAligned</a>
+

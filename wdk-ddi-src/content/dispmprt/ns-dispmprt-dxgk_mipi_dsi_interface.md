@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_MIPI_DSI_INTERFACE
+ - PDXGK_MIPI_DSI_INTERFACE
  - DXGK_MIPI_DSI_INTERFACE
 f1_keywords:
  - _DXGK_MIPI_DSI_INTERFACE
@@ -101,3 +102,4 @@ A kernel-mode component that needs to use the MIPI DSI Display Control interface
 [DsiReset](nc-dispmprt-dxgkddi_dsireset.md)
 
 [DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPSetProtectionLevelCmdData
  - DXVA_COPPSetProtectionLevelCmdData
 ---
 
@@ -118,3 +119,4 @@ Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
+

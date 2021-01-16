@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_SPB_SPI_RESOURCE
+ - PPEP_ACPI_SPB_SPI_RESOURCE
  - PEP_ACPI_SPB_SPI_RESOURCE
 ---
 
@@ -84,3 +86,4 @@ line, or other line selection mechanism.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_resource">PEP_ACPI_SPB_RESOURCE</a>
+

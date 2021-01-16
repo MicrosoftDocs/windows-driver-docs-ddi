@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDIALPARAMS_V1
+ - LPRILDIALPARAMS_V1
 ---
 
 # RILDIALPARAMS_V1 structure (rilapitypes.h)

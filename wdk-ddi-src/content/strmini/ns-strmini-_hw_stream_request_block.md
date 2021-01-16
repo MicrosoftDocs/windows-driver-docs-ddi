@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_STREAM_REQUEST_BLOCK
+ - PHW_STREAM_REQUEST_BLOCK
  - HW_STREAM_REQUEST_BLOCK
 ---
 
@@ -237,3 +239,4 @@ The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to
 The minidriver owns this stream request block until the request times out or it completes the request. The minidriver signals to the class driver that it has completed the request by calling [StreamClassDeviceNotification](./nf-strmini-streamclassdevicenotification.md)(DeviceRequestComplete, pSrb->HwDeviceExtension, pSRB) for device-specific requests, or calling [StreamClassStreamNotification](./nf-strmini-streamclassstreamnotification.md)(StreamRequestComplete, pSrb->StreamObject, pSrb) for stream-specific requests. (The minidriver can also complete a request by calling [StreamClassCompleteRequestAndMarkQueueReady](./nf-strmini-streamclasscompleterequestandmarkqueueready.md)(pSrb). See that routine for details.)
 
 If the class driver times out the request, it will call the minidriver's [StrMiniRequestTimeout](./nc-strmini-phw_request_timeout_handler.md) routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the **TimeoutCounter** member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the **TimeoutCounter** member to the value of **TimeoutOriginal**.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _DS3DVECTOR
+ - PDS3DVECTOR
  - DS3DVECTOR
 ---
 
@@ -88,3 +90,4 @@ Specifies the z-component of the vector.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_listener_orientation">KSDS3D_LISTENER_ORIENTATION</a>
+

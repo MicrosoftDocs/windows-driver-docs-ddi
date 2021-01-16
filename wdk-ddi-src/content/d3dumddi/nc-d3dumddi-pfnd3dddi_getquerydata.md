@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - GetQueryData
+ - PFND3DDDI_GETQUERYDATA
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ If a driver supports <a href="/windows-hardware/drivers/display/supporting-multi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_issuequery">IssueQuery</a>
+

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _WDIAG_IHV_WLAN_ID
+ - PWDIAG_IHV_WLAN_ID
  - WDIAG_IHV_WLAN_ID
 ---
 
@@ -99,3 +101,4 @@ typedef struct _WDIAG_IHV_WLAN_ID {
 
 
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+

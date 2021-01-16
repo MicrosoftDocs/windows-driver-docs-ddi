@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IKeyStore.AddRef
+ - IKeyStore::AddRef
 ---
 
 # IKeyStore::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
+

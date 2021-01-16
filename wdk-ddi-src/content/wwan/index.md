@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - wwan
  - wwan/wwan
+api_name:
+ - wwan
 ---
 
 # Wwan.h header

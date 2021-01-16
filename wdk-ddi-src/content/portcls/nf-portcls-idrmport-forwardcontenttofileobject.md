@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDrmPort.ForwardContentToFileObject
+ - IDrmPort::ForwardContentToFileObject
 product:
  - Windows
 ---
@@ -67,3 +67,4 @@ See comments in [DrmForwardContentToFileObject](../drmk/nf-drmk-drmforwardconten
 ## -see-also
 
 [IDrmPort](nn-portcls-idrmport.md)
+

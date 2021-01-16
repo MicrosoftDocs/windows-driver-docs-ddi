@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLRTTCAP
+ - LPRILCALLRTTCAP
 ---
 
 # RILCALLRTTCAP structure (rilapitypes.h)

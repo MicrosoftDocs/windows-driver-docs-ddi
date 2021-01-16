@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _SCO_RETRANSMISSION_EFFORT
+ - PSCO_RETRANSMISSION_EFFORT
  - SCO_RETRANSMISSION_EFFORT
 ---
 

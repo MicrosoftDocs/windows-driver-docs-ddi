@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsifnd.h
 api_name:
+ - _ReportDiscoveredTargets_OUT
+ - PReportDiscoveredTargets_OUT
  - ReportDiscoveredTargets_OUT
 ---
 
@@ -84,3 +86,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_reportdiscoveredtargets2_out">ReportDiscoveredTargets2_OUT</a>
+

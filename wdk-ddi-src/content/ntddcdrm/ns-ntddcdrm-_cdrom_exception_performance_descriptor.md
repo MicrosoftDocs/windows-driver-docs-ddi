@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR
+ - PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR
  - CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR
 ---
 
@@ -74,3 +76,4 @@ The LBA field  indicates that there is a seek delay between the logical block ad
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

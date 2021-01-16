@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
  - DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 ---
 
@@ -66,3 +67,4 @@ If the <b>Enable</b> member is set to <b>TRUE</b> and the target rectangle that 
 ## -see-also
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

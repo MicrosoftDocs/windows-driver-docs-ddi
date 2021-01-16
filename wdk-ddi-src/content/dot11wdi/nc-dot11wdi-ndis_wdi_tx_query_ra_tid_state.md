@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiTxQueryRATIDState
+ - NDIS_WDI_TX_QUERY_RA_TID_STATE
 ---
 
 # NDIS_WDI_TX_QUERY_RA_TID_STATE callback function
@@ -106,3 +106,4 @@ If <b>TargetPriorityQueueing</b> is true, <a href="/windows-hardware/drivers/net
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_target_capabilities">WDI_TXRX_CAPABILITIES</a>
+

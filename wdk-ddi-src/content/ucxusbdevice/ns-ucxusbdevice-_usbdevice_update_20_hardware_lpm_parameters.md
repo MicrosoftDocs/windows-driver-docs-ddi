@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
  - USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 ---
 
@@ -94,3 +95,4 @@ Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update_flags">USBDEVICE_UPDATE_FLAGS</a>
+

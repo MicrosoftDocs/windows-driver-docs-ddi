@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetCodeLevel
- - IDebugControl2.GetCodeLevel
- - IDebugControl3.GetCodeLevel
+ - IDebugControl::GetCodeLevel
 ---
 
 # IDebugControl::GetCodeLevel
@@ -124,3 +122,4 @@ For more information about the code level, see <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setcodelevel">SetCodeLevel</a>
+

@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - prdrvcom
  - prdrvcom/prdrvcom
+api_name:
+ - prdrvcom
 ---
 
 # Prdrvcom.h header

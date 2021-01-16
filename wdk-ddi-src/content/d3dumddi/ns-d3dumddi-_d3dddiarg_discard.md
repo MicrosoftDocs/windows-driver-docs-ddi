@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDIARG_DISCARD
  - D3DDDIARG_DISCARD
 ---
 
@@ -78,3 +79,4 @@ The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

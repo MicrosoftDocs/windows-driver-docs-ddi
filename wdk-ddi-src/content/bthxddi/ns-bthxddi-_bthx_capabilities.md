@@ -41,6 +41,8 @@ api_type:
 api_location:
  - BthXDDI.h
 api_name:
+ - _BTHX_CAPABILITIES
+ - PBTHX_CAPABILITIES
  - BTHX_CAPABILITIES
 ---
 

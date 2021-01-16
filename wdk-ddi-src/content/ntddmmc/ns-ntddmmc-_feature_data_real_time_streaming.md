@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_REAL_TIME_STREAMING
+ - PFEATURE_DATA_REAL_TIME_STREAMING
  - FEATURE_DATA_REAL_TIME_STREAMING
 ---
 
@@ -98,3 +100,4 @@ When queried, devices supporting this feature must return the information indica
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

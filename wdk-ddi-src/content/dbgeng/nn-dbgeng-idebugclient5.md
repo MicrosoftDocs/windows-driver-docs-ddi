@@ -38,15 +38,6 @@ api_location:
  - dbgeng.h
 api_name:
  - IDebugClient5
- - IDebugClient5.GetOutputLinePrefixWide
- - IDebugClient5.SetOutputLinePrefixWide
- - IDebugClient5.PushOutputLinePrefix
- - IDebugClient5.PushOutputLinePrefixWide
- - IDebugClient5.PopOutputLinePrefix
- - IDebugClient5.GetQuitLockString
- - IDebugClient5.SetQuitLockString
- - IDebugClient5.GetQuitLockStringWide
- - IDebugClient5.SetQuitLockStringWide
 ---
 
 # IDebugClient5 interface
@@ -64,3 +55,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient5</b> interface i
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
+

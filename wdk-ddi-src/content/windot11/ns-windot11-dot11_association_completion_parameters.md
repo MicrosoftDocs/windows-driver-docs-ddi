@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_ASSOCIATION_COMPLETION_PARAMETERS
+ - PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
 product:
  - Windows 10 or later.
 ---
@@ -348,3 +349,4 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](/windows-hardware/drivers/network/ndis-status-dot11-association-completion)
 
 [NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md)
+

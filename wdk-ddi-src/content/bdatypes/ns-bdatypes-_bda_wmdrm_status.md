@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_WMDRM_STATUS
+ - PBDA_WMDRM_STATUS
  - BDA_WMDRM_STATUS
 ---
 

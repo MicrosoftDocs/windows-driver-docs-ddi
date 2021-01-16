@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
+ - _UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ - PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
  - UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ---
 
@@ -68,3 +70,4 @@ The USB 2.0 port number.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceplugin">UdecxUsbDevicePlugIn</a>
+

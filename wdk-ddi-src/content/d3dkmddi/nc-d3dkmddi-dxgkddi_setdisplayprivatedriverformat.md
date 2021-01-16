@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSetDisplayPrivateDriverFormat
+ - DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb">pfnSetDisplayPrivateDriverFormatCb</a>
+

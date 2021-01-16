@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILEXCHANGEUICCAPDURESPONSE
+ - LPRILEXCHANGEUICCAPDURESPONSE
 ---
 
 # RILEXCHANGEUICCAPDURESPONSE structure (rilapitypes.h)

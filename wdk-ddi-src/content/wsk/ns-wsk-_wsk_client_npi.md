@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_CLIENT_NPI
+ - PWSK_CLIENT_NPI
  - WSK_CLIENT_NPI
 ---
 
@@ -73,3 +75,4 @@ For more information about attaching a WSK application to the WSK subsystem, see
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
+

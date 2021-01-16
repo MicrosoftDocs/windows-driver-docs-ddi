@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2FileOpen
+ - EVT_SERCX2_FILEOPEN
 ---
 
 # EVT_SERCX2_FILEOPEN callback function
@@ -95,3 +95,4 @@ The <b>EVT_SERCX2_FILEOPEN</b> function type is defined in the Sercx.h header fi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>
+

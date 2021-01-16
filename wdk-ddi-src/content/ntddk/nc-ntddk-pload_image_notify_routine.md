@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - SetLoadImageNotifyRoutine
+ - PLOAD_IMAGE_NOTIFY_ROUTINE
 ---
 
 # PLOAD_IMAGE_NOTIFY_ROUTINE callback function
@@ -91,3 +91,4 @@ When the load-image notify routine is called, the input <i>FullImageName</i> poi
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
+

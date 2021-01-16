@@ -40,6 +40,7 @@ api_location:
  - wdfdevice.h
  - wudfddi_types.h
 api_name:
+ - _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
  - WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 ---
 
@@ -75,3 +76,4 @@ To control a device's ability to wake the system from a low system power state, 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_wake_settings">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
+

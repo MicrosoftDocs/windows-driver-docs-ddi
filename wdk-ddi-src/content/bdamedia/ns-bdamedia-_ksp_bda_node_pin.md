@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - _KSP_BDA_NODE_PIN
+ - PKSP_BDA_NODE_PIN
  - KSP_BDA_NODE_PIN
 ---
 
@@ -84,3 +86,4 @@ Identifier of an output pin of the filter.
 
 
 <a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
+

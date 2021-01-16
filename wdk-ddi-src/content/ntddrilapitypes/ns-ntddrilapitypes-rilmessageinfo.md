@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMESSAGEINFO
+ - LPRILMESSAGEINFO
 ---
 
 # RILMESSAGEINFO structure (ntddrilapitypes.h)

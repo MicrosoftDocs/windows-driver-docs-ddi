@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetNextSymbolMatchWide
+ - IDebugSymbols3::GetNextSymbolMatchWide
 ---
 
 # IDebugSymbols3::GetNextSymbolMatchWide
@@ -135,3 +135,4 @@ For more information about symbols, see <a href="/windows-hardware/drivers/debug
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a>
+

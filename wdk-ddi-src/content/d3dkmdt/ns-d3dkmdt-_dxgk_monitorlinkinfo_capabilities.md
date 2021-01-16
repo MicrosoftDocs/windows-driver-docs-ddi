@@ -42,6 +42,8 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _DXGK_MONITORLINKINFO_CAPABILITIES
+ - PDXGK_MONITORLINKINFO_CAPABILITIES
  - DXGK_MONITORLINKINFO_CAPABILITIES
 dev_langs:
  - c++

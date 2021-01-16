@@ -37,7 +37,7 @@ api_type:
 api_location:
  - parallel.h
 api_name:
- - (*PPARALLEL_DESELECT_ROUTINE)
+ - PPARALLEL_DESELECT_ROUTINE
 ---
 
 # PPARALLEL_DESELECT_ROUTINE callback
@@ -174,3 +174,4 @@ For more information, see <a href="/previous-versions/ff544793(v=vs.85)">Selecti
 
 
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
+

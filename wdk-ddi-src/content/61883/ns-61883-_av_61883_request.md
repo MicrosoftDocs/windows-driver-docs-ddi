@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _AV_61883_REQUEST
+ - PAV_61883_REQUEST
  - AV_61883_REQUEST
 ---
 
@@ -172,3 +174,4 @@ The <b>Parameters-></b><b>Others.Arguments1</b> member of an <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/61883/ni-61883-ioctl_61883_class">IOCTL_61883_CLASS</a>
+

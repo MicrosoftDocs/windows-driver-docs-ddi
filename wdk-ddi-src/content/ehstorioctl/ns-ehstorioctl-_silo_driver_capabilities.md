@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _SILO_DRIVER_CAPABILITIES
+ - PSILO_DRIVER_CAPABILITIES
  - SILO_DRIVER_CAPABILITIES
 ---
 
@@ -117,3 +119,4 @@ To receive band management requests from the enhanced storage class driver, a si
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
+

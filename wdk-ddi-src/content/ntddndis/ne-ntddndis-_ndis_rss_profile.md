@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_RSS_PROFILE
+ - PNDIS_RSS_PROFILE
  - NDIS_RSS_PROFILE
 ---
 
@@ -95,3 +97,4 @@ NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the
 
 
 <a href="/windows-hardware/drivers/network/standardized-inf-keywords-for-rss">Standardized INF Keywords for RSS</a>
+

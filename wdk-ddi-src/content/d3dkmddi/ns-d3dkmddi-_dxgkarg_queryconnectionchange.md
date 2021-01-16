@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_QUERYCONNECTIONCHANGE
  - DXGKARG_QUERYCONNECTIONCHANGE
 ---
 
@@ -54,3 +55,4 @@ Used to hold the arguments for <a href="/windows-hardware/drivers/ddi/d3dkmddi/n
 ### -field ConnectionChange
 
 [out] Buffer into which the oldest available change is copied by driver.
+

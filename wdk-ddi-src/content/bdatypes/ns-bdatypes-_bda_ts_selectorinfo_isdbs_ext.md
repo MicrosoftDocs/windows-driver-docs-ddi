@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_TS_SELECTORINFO_ISDBS_EXT
+ - PBDA_TS_SELECTORINFO_ISDBS_EXT
  - BDA_TS_SELECTORINFO_ISDBS_EXT
 ---
 

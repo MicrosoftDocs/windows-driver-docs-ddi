@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugEventCallbacksWide.Breakpoint
+ - IDebugEventCallbacksWide::Breakpoint
 ---
 
 # IDebugEventCallbacksWide::Breakpoint
@@ -69,3 +69,4 @@ The engine calls this method only if the DEBUG_EVENT_BREAKPOINT flag is set in t
 Because the engine deletes the corresponding <b>IDebugBreakpoint</b> object when a breakpoint is removed (for example, by using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a>), the value of <i>Bp</i> might be invalid after <b>Breakpoint</b> returns.  Therefore, implementations of <b>IDebugEventCallbacksWide</b> should not access <i>Bp</i> after <b>Breakpoint</b> returns.
 
 For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.  For information about managing breakpoints, see <a href="/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>.
+

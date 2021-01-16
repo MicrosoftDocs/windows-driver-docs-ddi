@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvReceivePacket
+ - DOT11EXTIHV_RECEIVE_PACKET
 ---
 
 # DOT11EXTIHV_RECEIVE_PACKET callback
@@ -138,3 +138,4 @@ Payload
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PCI_SLOT_NUMBER
+ - PWHEA_PCI_SLOT_NUMBER
  - WHEA_PCI_SLOT_NUMBER
 ---
 
@@ -92,3 +94,4 @@ A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="/windows-hardw
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_rootport_descriptor">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
+

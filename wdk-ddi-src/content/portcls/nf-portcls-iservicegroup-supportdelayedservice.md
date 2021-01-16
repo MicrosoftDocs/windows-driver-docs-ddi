@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IServiceGroup.SupportDelayedService
+ - IServiceGroup::SupportDelayedService
 ---
 
 # IServiceGroup::SupportDelayedService
@@ -58,3 +58,4 @@ The <code>SupportDelayedService</code> method initializes the notification timer
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-requestdelayedservice">IServiceGroup::RequestDelayedService</a>
+

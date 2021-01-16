@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
+ - PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
  - NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
 ---
 
@@ -125,3 +127,4 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 
 <a href="/windows-hardware/drivers/network/overview-of-the-hyper-v-extensible-switch">Overview of the Hyper-V Extensible Switch</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _RTL_AVL_TABLE
  - RTL_AVL_TABLE
 ---
 
@@ -231,3 +232,4 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl">RtlNumberGenericTableElementsAvl</a>
+

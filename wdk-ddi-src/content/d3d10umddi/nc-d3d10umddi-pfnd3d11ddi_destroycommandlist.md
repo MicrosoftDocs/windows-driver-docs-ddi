@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - DestroyCommandList
+ - PFND3D11DDI_DESTROYCOMMANDLIST
 ---
 
 # PFND3D11DDI_DESTROYCOMMANDLIST callback function
@@ -94,3 +94,4 @@ For more information about <b>RecycleDestroyCommandList</b>, see <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

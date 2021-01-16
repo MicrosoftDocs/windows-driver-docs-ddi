@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniPinSetDataFormat
+ - PFNKSPINSETDATAFORMAT
 ---
 
 # PFNKSPINSETDATAFORMAT callback function
@@ -113,3 +113,4 @@ This routine is optional.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+

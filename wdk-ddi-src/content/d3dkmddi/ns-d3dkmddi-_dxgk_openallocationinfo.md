@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_OPENALLOCATIONINFO
  - DXGK_OPENALLOCATIONINFO
 ---
 
@@ -82,3 +83,4 @@ The DXGK_OPENALLOCATIONINFO structure contains handles to nondevice-specific and
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
+

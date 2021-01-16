@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSMUSICFORMAT
  - KSMUSICFORMAT
 ---
 
@@ -137,3 +138,4 @@ Will be played at 140 milliseconds.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
+

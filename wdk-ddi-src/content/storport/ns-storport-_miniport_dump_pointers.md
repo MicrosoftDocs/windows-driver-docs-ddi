@@ -41,10 +41,13 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _MINIPORT_DUMP_POINTERS
+ - PMINIPORT_DUMP_POINTERS
  - MINIPORT_DUMP_POINTERS
 ---
 
 # _MINIPORT_DUMP_POINTERS structure
+
 
 ## -description
 
@@ -141,3 +144,4 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
+

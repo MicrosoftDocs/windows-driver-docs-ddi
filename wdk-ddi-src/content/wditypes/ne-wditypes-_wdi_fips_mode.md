@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_FIPS_MODE
  - WDI_FIPS_MODE
 ---
 

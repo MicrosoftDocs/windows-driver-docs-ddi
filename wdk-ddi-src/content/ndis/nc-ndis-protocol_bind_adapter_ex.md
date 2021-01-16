@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolBindAdapterEx
+ - PROTOCOL_BIND_ADAPTER_EX
 ---
 
 # PROTOCOL_BIND_ADAPTER_EX callback function
@@ -367,3 +367,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
+

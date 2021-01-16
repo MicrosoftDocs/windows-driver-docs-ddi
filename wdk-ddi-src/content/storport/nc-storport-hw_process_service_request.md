@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorProcessServiceRequest
+ - HW_PROCESS_SERVICE_REQUEST
 ---
 
 # HW_PROCESS_SERVICE_REQUEST callback function
@@ -109,3 +109,4 @@ The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportcompleteserviceirp">StorPortCompleteServiceIrp</a>
+

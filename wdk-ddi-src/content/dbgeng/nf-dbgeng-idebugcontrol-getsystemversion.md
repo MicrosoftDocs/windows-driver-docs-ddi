@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetSystemVersion
- - IDebugControl2.GetSystemVersion
- - IDebugControl3.GetSystemVersion
+ - IDebugControl::GetSystemVersion
 ---
 
 # IDebugControl::GetSystemVersion
@@ -157,3 +155,4 @@ For more information, see <a href="/windows-hardware/drivers/debugger/target-inf
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

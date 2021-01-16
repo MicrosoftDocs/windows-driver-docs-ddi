@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_Path
+ - PISCSI_Path
  - ISCSI_Path
 ---
 
@@ -125,3 +127,4 @@ The iSCSI headers and MOF are included in the platform SDK and WDK.
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

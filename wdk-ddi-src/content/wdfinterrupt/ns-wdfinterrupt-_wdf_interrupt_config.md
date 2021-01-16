@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_CONFIG
+ - PWDF_INTERRUPT_CONFIG
  - WDF_INTERRUPT_CONFIG
 ---
 
@@ -230,3 +232,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/using-an-interr
 
 
 <a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfspinlockcreate">WdfSpinLockCreate</a>
+

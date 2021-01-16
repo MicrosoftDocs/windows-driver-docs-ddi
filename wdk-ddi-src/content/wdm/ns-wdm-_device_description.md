@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_DESCRIPTION
+ - PDEVICE_DESCRIPTION
  - DEVICE_DESCRIPTION
 ---
 
@@ -240,3 +242,4 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

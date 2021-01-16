@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihvtypes.h
 api_name:
+ - _DOT11EXT_IHV_SSID_LIST
+ - PDOT11EXT_IHV_SSID_LIST
  - DOT11EXT_IHV_SSID_LIST
 ---
 
@@ -81,3 +83,4 @@ An SSID is a string that identifies a set of interconnected basic service sets (
 ## -see-also
 
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+

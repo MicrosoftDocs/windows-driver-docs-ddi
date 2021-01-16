@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3d9types
  - d3d9types/d3d9types
+api_name:
+ - d3d9types
 ---
 
 # D3D9Types.h header

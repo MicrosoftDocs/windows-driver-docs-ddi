@@ -27,6 +27,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_UNIT_CONTROL_QUERY_BUS_TYPE
+ - PSTOR_UNIT_CONTROL_QUERY_BUS_TYPE
  - STOR_UNIT_CONTROL_QUERY_BUS_TYPE
 product:
  - Windows
@@ -65,3 +67,4 @@ ScsiUnitQueryBusType is optional. A miniport can use it to specify a device bus 
 [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md)
 
 [**STORAGE_BUS_TYPE**](/windows/win32/api/winioctl/ne-winioctl-storage_bus_type)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S
  - KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S
 ---
 
@@ -66,3 +67,4 @@ Specifies the height of the overlay surface
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>
+

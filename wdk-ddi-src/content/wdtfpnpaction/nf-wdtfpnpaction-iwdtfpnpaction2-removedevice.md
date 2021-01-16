@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.RemoveDevice
+ - IWDTFPNPAction2::RemoveDevice
 ---
 
 # IWDTFPNPAction2::RemoveDevice
@@ -65,3 +65,4 @@ Under the covers, this will call DIF_REMOVE.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_PAUSE_PARAMETERS
+ - PNDIS_FILTER_PAUSE_PARAMETERS
  - NDIS_FILTER_PAUSE_PARAMETERS
 ---
 
@@ -86,3 +88,4 @@ To define filter module pause parameters, NDIS passes a pointer to an NDIS_FILTE
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

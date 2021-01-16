@@ -37,10 +37,11 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - AtaAdapterControl
+ - IDE_ADAPTER_CONTROL
 ---
 
 # IDE_ADAPTER_CONTROL callback function
+
 
 ## -description
 
@@ -82,3 +83,4 @@ The port driver guarantees that there is no outstanding I/O on the adapter befor
 ## -see-also
 
 [**IDE_CONTROLLER_CONFIGURATION**](ns-irb-_ide_controller_configuration.md)
+

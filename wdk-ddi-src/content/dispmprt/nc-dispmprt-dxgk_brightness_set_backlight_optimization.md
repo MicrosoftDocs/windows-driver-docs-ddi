@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkDdiSetBacklightOptimization
+ - DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION
 ---
 
 # DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback function
@@ -88,3 +88,4 @@ This function should be made pageable.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_state">DxgkDdiSetBrightnessState</a>
+

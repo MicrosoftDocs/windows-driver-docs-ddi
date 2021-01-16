@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_COMPONENT_PERF_SET
+ - PPEP_COMPONENT_PERF_SET
  - PEP_COMPONENT_PERF_SET
 ---
 
@@ -155,3 +157,4 @@ Device drivers use the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

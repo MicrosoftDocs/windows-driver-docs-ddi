@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiResetDevice
+ - DXGKDDI_RESET_DEVICE
 ---
 
 # DXGKDDI_RESET_DEVICE callback function
@@ -59,3 +59,4 @@ A handle to a context block associated with a display adapter. The display minip
 The HAL calls this function so it can display information on the screen during hibernation, bug checks, and the like.
 
 <i>DxgkDdiResetDevice</i> can be called at any IRQL, so it must be in nonpageable memory. <i>DxgkDdiResetDevice</i> must not call any code that is in pageable memory and must not manipulate any data that is in pageable memory.
+

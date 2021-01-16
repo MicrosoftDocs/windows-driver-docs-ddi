@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dbgEng.h
 api_name:
+ - _DEBUG_VALUE
+ - PDEBUG_VALUE
  - DEBUG_VALUE
 ---
 

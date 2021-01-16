@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelManager.CreateSyntheticObject
+ - IDataModelManager::CreateSyntheticObject
 ---
 
 # IDataModelManager::CreateSyntheticObject

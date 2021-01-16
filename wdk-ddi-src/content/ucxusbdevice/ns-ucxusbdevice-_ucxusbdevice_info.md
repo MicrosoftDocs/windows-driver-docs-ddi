@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _UCXUSBDEVICE_INFO
+ - PUCXUSBDEVICE_INFO
  - UCXUSBDEVICE_INFO
 ---
 
@@ -72,3 +74,4 @@ The port path for the USB device or hub.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_usbdevice_add">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
+

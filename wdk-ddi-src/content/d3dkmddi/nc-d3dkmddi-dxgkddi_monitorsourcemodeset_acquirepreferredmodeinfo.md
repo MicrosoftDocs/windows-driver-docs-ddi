@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnAcquirePreferredModeInfo
+ - DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ The <b>pfnAcquirePreferredModeInfo</b> function returns one of the following val
 When you have finished using the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_monitor_source_mode">D3DKMDT_MONITOR_SOURCE_MODE</a> structure, you must release the structure by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo">pfnReleaseModeInfo</a>.
 
 The D3DKMDT_HMONITORSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
+

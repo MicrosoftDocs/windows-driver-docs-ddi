@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_WAITFORIDLE
  - D3DKMT_WAITFORIDLE
 ---
 
@@ -58,3 +59,4 @@ The D3DKMT_WAITFORIDLE structure specifies a display device to wait for an idle 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforidle">D3DKMTWaitForIdle</a>
+

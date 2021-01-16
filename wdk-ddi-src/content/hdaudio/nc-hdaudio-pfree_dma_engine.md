@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - FreeDmaEngine
+ - PFREE_DMA_ENGINE
 ---
 
 # PFREE_DMA_ENGINE callback function
@@ -139,3 +139,4 @@ An audio driver calls this routine to close the pin (and destroy the stream).
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
+

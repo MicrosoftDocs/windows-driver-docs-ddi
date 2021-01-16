@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdftimer
  - wdftimer/wdftimer
+api_name:
+ - wdftimer
 ---
 
 # Wdftimer.h header

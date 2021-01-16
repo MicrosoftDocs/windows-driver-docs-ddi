@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usb.h
 api_name:
+ - _USBD_INTERFACE_INFORMATION
+ - PUSBD_INTERFACE_INFORMATION
  - USBD_INTERFACE_INFORMATION
 ---
 
@@ -106,3 +108,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_pipe_information">USBD_PIPE_INFORMATION</a>
+

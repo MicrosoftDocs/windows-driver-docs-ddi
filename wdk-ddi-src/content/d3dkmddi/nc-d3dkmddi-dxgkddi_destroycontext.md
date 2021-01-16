@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiDestroyContext
+ - DXGKDDI_DESTROYCONTEXT
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ A driver should free all resources that it allocated for the context and clean u
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
+

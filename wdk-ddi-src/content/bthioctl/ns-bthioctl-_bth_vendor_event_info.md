@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_VENDOR_EVENT_INFO
+ - PBTH_VENDOR_EVENT_INFO
  - BTH_VENDOR_EVENT_INFO
 ---
 

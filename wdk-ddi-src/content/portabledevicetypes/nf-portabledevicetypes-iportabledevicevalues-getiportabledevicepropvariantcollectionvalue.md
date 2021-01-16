@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetIPortableDevicePropVariantCollectionValue
+ - IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue
 ---
 
 # IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue
@@ -115,3 +115,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setiportabledevicepropvariantcollectionvalue">IPortableDeviceValues::SetIPortableDevicePropVariantCollectionValue</a>
+

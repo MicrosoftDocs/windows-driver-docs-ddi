@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_MITIGATEDRANGEINFO
+ - PDXGK_MITIGATEDRANGEINFO
+ - DXGK_MITIGATEDRANGEINFO
 product:
  - Windows
 dev_langs:

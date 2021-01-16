@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
  - DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 ---
 
@@ -62,3 +63,4 @@ A value of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxg
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_present_display_only_progress_id">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a>
+

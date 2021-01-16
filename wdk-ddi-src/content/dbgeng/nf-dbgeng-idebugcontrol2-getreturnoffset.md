@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetReturnOffset
- - IDebugControl2.GetReturnOffset
- - IDebugControl3.GetReturnOffset
+ - IDebugControl2::GetReturnOffset
 ---
 
 # IDebugControl2::GetReturnOffset
@@ -81,3 +79,4 @@ The method was successful.
 ## -remarks
 
 The return address is the location in the process's virtual address space of the instruction that will be executed when the current function returns.
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Acpitabl.h
 api_name:
+ - _GIC_ITS
  - GIC_ITS
 ---
 

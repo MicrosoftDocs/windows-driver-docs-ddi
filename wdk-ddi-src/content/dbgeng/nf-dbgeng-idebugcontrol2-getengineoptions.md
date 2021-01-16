@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetEngineOptions
- - IDebugControl2.GetEngineOptions
- - IDebugControl3.GetEngineOptions
+ - IDebugControl2::GetEngineOptions
 ---
 
 # IDebugControl2::GetEngineOptions
@@ -101,3 +99,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setengineoptions">SetEngineOptions</a>
+

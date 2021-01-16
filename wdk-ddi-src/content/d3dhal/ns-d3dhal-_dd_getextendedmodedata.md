@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETEXTENDEDMODEDATA
  - DD_GETEXTENDEDMODEDATA
 ---
 
@@ -85,3 +86,4 @@ For more information about D3DDISPLAYMODE, see the DirectX SDK documentation.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getextendedmodecountdata">DD_GETEXTENDEDMODECOUNTDATA</a>
+

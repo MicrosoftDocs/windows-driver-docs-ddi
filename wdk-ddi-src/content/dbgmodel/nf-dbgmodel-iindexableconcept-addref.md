@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IIndexableConcept.AddRef
+ - IIndexableConcept::AddRef
 ---
 
 # IIndexableConcept::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IIndexableConcept interface](nn-dbgmodel-iindexableconcept.md)
+

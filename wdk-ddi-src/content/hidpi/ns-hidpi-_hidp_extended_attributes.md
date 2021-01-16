@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidpi.h
 api_name:
+ - _HIDP_EXTENDED_ATTRIBUTES
+ - PHIDP_EXTENDED_ATTRIBUTES
  - HIDP_EXTENDED_ATTRIBUTES
 ---
 
@@ -80,3 +82,4 @@ The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetEx
 
 
 <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a>
+

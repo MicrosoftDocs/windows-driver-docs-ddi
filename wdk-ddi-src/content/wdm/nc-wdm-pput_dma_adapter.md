@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - PutDmaAdapter
+ - PPUT_DMA_ADAPTER
 ---
 
 # PPUT_DMA_ADAPTER callback function
@@ -76,3 +76,4 @@ A driver must call <b>PutDmaAdapter</b> when it receives a PnP <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

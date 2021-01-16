@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsClockPropertySet.KsGetState
+ - IKsClockPropertySet::KsGetState
 ---
 
 # IKsClockPropertySet::KsGetState
@@ -112,3 +112,4 @@ The state of the pin gives gross motor control for pins. Fine motor control is d
 A filter itself can support this state property so that applications can set the entire filter's state. Otherwise, each pin must have its state set. When the state of a pin transitions from KSSTATE_STOP, each connection that forwards IRPs must recalculate stack depth.
 
 The proxy uses the KSPROPERTY_CLOCK_STATE property to retrieve the streaming state of a pin.
+

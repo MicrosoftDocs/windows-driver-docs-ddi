@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KBUGCHECK_CALLBACK_REASON
  - KBUGCHECK_CALLBACK_REASON
 ---
 
@@ -100,3 +101,4 @@ For information about how this enumeration is used, see <a href="/windows-hardwa
 <a href="/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>
+

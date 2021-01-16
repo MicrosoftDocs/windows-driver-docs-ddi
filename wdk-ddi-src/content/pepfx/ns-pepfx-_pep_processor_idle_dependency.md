@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PROCESSOR_IDLE_DEPENDENCY
+ - PPEP_PROCESSOR_IDLE_DEPENDENCY
  - PEP_PROCESSOR_IDLE_DEPENDENCY
 ---
 
@@ -92,3 +94,4 @@ The <b>DependencyArray</b> member of the <a href="/windows-hardware/drivers/ddi/
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_state_v2">PEP_PROCESSOR_IDLE_STATE_V2</a>
+

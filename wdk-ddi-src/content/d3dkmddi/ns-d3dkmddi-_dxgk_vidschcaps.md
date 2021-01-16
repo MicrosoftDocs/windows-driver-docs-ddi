@@ -39,10 +39,12 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_VIDSCHCAPS
  - DXGK_VIDSCHCAPS
 ---
 
 # _DXGK_VIDSCHCAPS structure
+
 
 ## -description
 
@@ -151,3 +153,4 @@ A member in the union that **DXGK_VIDSCHCAPS** contains that can hold a 32-bit v
 [**DxgkDdiPresent**](./nc-d3dkmddi-dxgkddi_present.md)
 
 [**DxgkDdiRender**](./nc-d3dkmddi-dxgkddi_render.md)
+

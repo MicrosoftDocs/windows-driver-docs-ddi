@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.Copy
+ - ExtBuffer::Copy
 ---
 
 # ExtBuffer::Copy method
@@ -80,3 +80,4 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff544357(v=vs.85)">ExtRemoteTyped::operator=</a>
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+

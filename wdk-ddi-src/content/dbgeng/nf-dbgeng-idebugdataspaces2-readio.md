@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadIo
- - IDebugDataSpaces2.ReadIo
- - IDebugDataSpaces3.ReadIo
- - IDebugDataSpaces4.ReadIo
+ - IDebugDataSpaces2::ReadIo
 ---
 
 # IDebugDataSpaces2::ReadIo
@@ -113,3 +110,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 ## -remarks
 
 This method is only available in kernel-mode debugging.
+

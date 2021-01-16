@@ -37,7 +37,7 @@ api_type:
 api_location:
  - compstui.h
 api_name:
- - ComPropSheet
+ - PFNCOMPROPSHEET
 ---
 
 # PFNCOMPROPSHEET callback function
@@ -511,3 +511,4 @@ The following caution applies to Unidrv- or Pscript5-based IHV UI plug-in with c
 </td>
 </tr>
 </table>
+

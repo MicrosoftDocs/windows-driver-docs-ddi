@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTCheckExclusiveOwnership
+ - PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP
 ---
 
 # PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback function
@@ -64,3 +64,4 @@ For a description of ownership levels of video present sources, see the <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner">D3DKMT_SETVIDPNSOURCEOWNER</a>
+

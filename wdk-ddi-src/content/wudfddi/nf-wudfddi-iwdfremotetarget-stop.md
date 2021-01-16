@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.Stop
+ - IWDFRemoteTarget::Stop
 ---
 
 # IWDFRemoteTarget::Stop
@@ -76,7 +76,6 @@ The following code example stops a remote I/O target.
 RemoteTarget->Stop();
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
@@ -84,3 +83,4 @@ RemoteTarget->Stop();
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-start">IWDFRemoteTarget::Start</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ProcAmpControlCaps
+ - LPDXVA_ProcAmpControlCaps
  - DXVA_ProcAmpControlCaps
 ---
 
@@ -94,3 +96,4 @@ Identifies the operations that can be performed by the ProcAmp control hardware 
 <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_procampcontrolprop">DXVA_ProcAmpControlProp</a>
 
 <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a>
+

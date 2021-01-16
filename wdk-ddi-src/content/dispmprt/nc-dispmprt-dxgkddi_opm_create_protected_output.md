@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMCreateProtectedOutput
+ - DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
 ---
 
 # DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback function
@@ -114,3 +114,4 @@ The following figure shows how the display miniport driver typically implements 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_random_number">DxgkDdiOPMGetRandomNumber</a>
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaFeature.DisplayUI
- - IPrintSchemaFeature.get_DisplayUI
+ - IPrintSchemaFeature::get_DisplayUI
 ---
 
 # IPrintSchemaFeature::get_DisplayUI
@@ -59,3 +58,4 @@ Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI elemen
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfwmi.h
 api_name:
+ - _WDF_WMI_PROVIDER_FLAGS
  - WDF_WMI_PROVIDER_FLAGS
 ---
 
@@ -96,3 +97,4 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>
+

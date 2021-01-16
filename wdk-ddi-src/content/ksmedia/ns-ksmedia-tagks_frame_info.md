@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_FRAME_INFO
+ - PKS_FRAME_INFO
  - KS_FRAME_INFO
 ---
 
@@ -138,3 +140,4 @@ For more information about updating **PictureNumber** and **DropCount** see [Cap
 ## -see-also
 
 [KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md)
+

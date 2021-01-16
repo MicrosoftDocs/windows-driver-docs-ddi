@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFInterfaces.Interop.dll
 api_name:
- - IWDTFSimpleIOEx2.PerformIO
+ - IWDTFSimpleIOEx2::PerformIO
 ---
 
 # IWDTFSimpleIOEx2::PerformIO
@@ -70,3 +70,4 @@ the <a href="/windows-hardware/drivers/ddi/wdtfinterfaces/nf-wdtfinterfaces-iwdt
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleioex2">IWDTFSimpleIOEx2</a>
+

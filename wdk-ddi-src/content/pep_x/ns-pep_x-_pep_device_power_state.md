@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_DEVICE_POWER_STATE
+ - PPEP_DEVICE_POWER_STATE
  - PEP_DEVICE_POWER_STATE
 ---
 
@@ -92,3 +94,4 @@ This structure is used by the <a href="/windows-hardware/drivers/kernel/using-pe
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a>
+

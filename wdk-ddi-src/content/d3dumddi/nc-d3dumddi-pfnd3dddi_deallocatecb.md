@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnDeallocateCb
+ - PFND3DDDI_DEALLOCATECB
 product:
  - Windows
 ---
@@ -131,3 +131,4 @@ The following code example shows how to release a resource.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
+

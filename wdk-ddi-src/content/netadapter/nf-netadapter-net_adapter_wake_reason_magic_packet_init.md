@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: netadaptercx.h
 req.idl: 
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.irql: Any level as long as target memory is resident
 req.kmdf-ver: 
 req.lib: 
@@ -34,6 +34,7 @@ api_location:
 api_name:
  - NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
 f1_keywords:
+ - NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
  - netadapter/NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
 dev_langs:
  - c++
@@ -76,3 +77,4 @@ This function zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** s
 [**NetAdapterReportWakeReasonPacket**](./nf-netadapter-netadapterreportwakereasonpacket.md)
 
 [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md)
+

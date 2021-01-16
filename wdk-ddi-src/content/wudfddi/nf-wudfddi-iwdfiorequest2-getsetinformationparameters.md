@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.GetSetInformationParameters
+ - IWDFIoRequest2::GetSetInformationParameters
 ---
 
 # IWDFIoRequest2::GetSetInformationParameters
@@ -136,7 +136,6 @@ exit:
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
@@ -144,3 +143,4 @@ exit:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-getqueryinformationparameters">IWDFIoRequest2::GetQueryInformationParameters</a>
+

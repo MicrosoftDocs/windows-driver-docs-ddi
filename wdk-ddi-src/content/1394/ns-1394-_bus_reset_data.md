@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _BUS_RESET_DATA
+ - PBUS_RESET_DATA
  - BUS_RESET_DATA
 ---
 
@@ -99,3 +101,4 @@ The negotiated speed to the device. The possible values are as follows:
 ## -see-also
 
 <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">Device Driver Interface (DDI) Changes in Windows 7</a>
+

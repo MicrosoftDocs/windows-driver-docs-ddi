@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_WMI_OPERATIONS
+ - PTAPE_WMI_OPERATIONS
  - TAPE_WMI_OPERATIONS
 ---
 
@@ -111,3 +113,4 @@ Returns general I/O error data, such as read/write errors, based on the I/O erro
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a>
+

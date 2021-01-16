@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _ENDPOINT_RESET
+ - PENDPOINT_RESET
  - ENDPOINT_RESET
 ---
 
@@ -68,3 +70,4 @@ A <a href="/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_endpoint_re
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_endpoint_reset_flags">ENDPOINT_RESET_FLAGS</a>
+

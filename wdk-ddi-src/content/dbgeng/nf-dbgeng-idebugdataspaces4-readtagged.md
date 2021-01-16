@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces3.ReadTagged
- - IDebugDataSpaces4.ReadTagged
+ - IDebugDataSpaces4::ReadTagged
 ---
 
 # IDebugDataSpaces4::ReadTagged
@@ -126,3 +125,4 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
+

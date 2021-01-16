@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _PATH_OFFLOAD_STATE_CONST
+ - PPATH_OFFLOAD_STATE_CONST
  - PATH_OFFLOAD_STATE_CONST
 ---
 
@@ -112,3 +114,4 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">PATH_OFFLOAD_STATE_DELEGATED</a>
+

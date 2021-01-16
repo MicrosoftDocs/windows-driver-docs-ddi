@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATEOVERLAY
  - D3DKMT_CREATEOVERLAY
 ---
 
@@ -74,3 +75,4 @@ The D3DKMT_CREATEOVERLAY structure describes overlay hardware.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateoverlay">D3DKMTCreateOverlay</a>
+

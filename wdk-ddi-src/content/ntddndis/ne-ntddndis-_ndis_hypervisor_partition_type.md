@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_HYPERVISOR_PARTITION_TYPE
+ - PNDIS_HYPERVISOR_PARTITION_TYPE
  - NDIS_HYPERVISOR_PARTITION_TYPE
 ---
 
@@ -87,3 +89,4 @@ For more information about Hyper-V parent and child partitions, see <a href="/wi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>
+

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetTypeSize
- - IDebugSymbols2.GetTypeSize
- - IDebugSymbols3.GetTypeSize
+ - IDebugSymbols3::GetTypeSize
 ---
 
 # IDebugSymbols3::GetTypeSize
@@ -107,3 +105,4 @@ For more information about symbols, see <a href="/windows-hardware/drivers/debug
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

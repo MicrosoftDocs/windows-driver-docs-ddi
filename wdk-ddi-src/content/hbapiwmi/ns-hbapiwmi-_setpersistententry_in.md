@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SetPersistentEntry_IN
+ - PSetPersistentEntry_IN
  - SetPersistentEntry_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the SetPersistentEntry_IN structur
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/setpersistententry">SetPersistentEntry</a>
+

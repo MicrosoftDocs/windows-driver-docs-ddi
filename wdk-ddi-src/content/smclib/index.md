@@ -12,6 +12,8 @@ tech.root: smartcard
 f1_keywords:
  - smclib
  - smclib/smclib
+api_name:
+ - smclib
 ---
 
 # Smclib.h header

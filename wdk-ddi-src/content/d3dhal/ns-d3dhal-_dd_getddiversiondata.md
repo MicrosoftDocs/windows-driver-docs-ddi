@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETDDIVERSIONDATA
  - DD_GETDDIVERSIONDATA
 ---
 
@@ -79,3 +80,4 @@ For example, suppose that a hardware vendor builds his display driver with a pre
 
 
 <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+

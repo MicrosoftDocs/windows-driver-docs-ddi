@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - EncryptionBlt
+ - PFND3DDDI_ENCRYPTIONBLT
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ The Direct3D runtime verifies that the destination surface specified by the <b>D
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

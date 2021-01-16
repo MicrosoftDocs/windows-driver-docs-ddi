@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnAddMode
+ - DXGKDDI_MONITORSOURCEMODESET_ADDMODE
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ If <i>pMonitorSourceModeInfo</i>-><b>Preference</b> is equal to D3DKMDT_MP_PREFE
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_createnewmodeinfo">pfnCreateNewModeInfo</a>
+

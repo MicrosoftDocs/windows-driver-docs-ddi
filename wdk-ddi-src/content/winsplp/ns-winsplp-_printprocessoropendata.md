@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _PRINTPROCESSOROPENDATA
+ - PPRINTPROCESSOROPENDATA
  - PRINTPROCESSOROPENDATA
 ---
 
@@ -88,3 +90,4 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
+

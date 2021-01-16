@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_CHANNEL_MAPPING_ENTRY
+ - PWDI_CHANNEL_MAPPING_ENTRY
  - WDI_CHANNEL_MAPPING_ENTRY
 ---
 

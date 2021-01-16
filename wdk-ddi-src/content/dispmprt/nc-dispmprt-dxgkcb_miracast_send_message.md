@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkCbMiracastSendMessage
+ - DXGKCB_MIRACAST_SEND_MESSAGE
 ---
 
 # DXGKCB_MIRACAST_SEND_MESSAGE callback function
@@ -167,3 +167,4 @@ DriverCallbackFunction(
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a>
+

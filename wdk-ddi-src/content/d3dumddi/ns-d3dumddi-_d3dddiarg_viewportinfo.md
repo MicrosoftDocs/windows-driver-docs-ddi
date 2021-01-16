@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_VIEWPORTINFO
  - D3DDDIARG_VIEWPORTINFO
 ---
 
@@ -74,3 +75,4 @@ The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/n
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setviewport">SetViewport</a>
+

@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILC2KMRL
+ - LPRILC2KMRL
 ---
 
 # RILC2KMRL structure (rilapitypes.h)

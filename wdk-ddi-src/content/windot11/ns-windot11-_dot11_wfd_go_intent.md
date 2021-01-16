@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_GO_INTENT
+ - PDOT11_WFD_GO_INTENT
  - DOT11_WFD_GO_INTENT
 product:
  - Windows 10 or later.
@@ -76,3 +78,4 @@ typedef struct _DOT11_WFD_GO_INTENT {
   UCHAR Intent:7;
 } DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT;
 ```
+

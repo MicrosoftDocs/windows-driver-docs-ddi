@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFSystemAction.Interop.dll
 api_name:
- - IWDTFSystemAction2.PowerAnalyzeTraceByFile
+ - IWDTFSystemAction2::PowerAnalyzeTraceByFile
 ---
 
 # IWDTFSystemAction2::PowerAnalyzeTraceByFile
@@ -63,3 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
+

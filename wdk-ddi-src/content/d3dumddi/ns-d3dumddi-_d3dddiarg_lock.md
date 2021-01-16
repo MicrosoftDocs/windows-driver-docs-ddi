@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_LOCK
  - D3DDDIARG_LOCK
 ---
 
@@ -117,3 +118,4 @@ The <b>ReadOnly</b> bit-field flag must not be simultaneously set with the <b>Di
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a>
+

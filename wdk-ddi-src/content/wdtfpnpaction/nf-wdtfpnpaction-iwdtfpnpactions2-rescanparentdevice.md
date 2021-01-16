@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.RescanParentDevice
+ - IWDTFPNPActions2::RescanParentDevice
 ---
 
 # IWDTFPNPActions2::RescanParentDevice
@@ -63,5 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 In essence, <b>RescanParentDevice</b> calls 
 <b>CM_Reenumerate_DevNode()</b>. See the MSDN documentation for 
 <b>CM_Reenumerate_DevNode()</b>.
-
 

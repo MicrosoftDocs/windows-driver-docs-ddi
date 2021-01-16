@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILREGSTATUSINFO
+ - LPRILREGSTATUSINFO
 ---
 
 # RILREGSTATUSINFO structure (rilapitypes.h)

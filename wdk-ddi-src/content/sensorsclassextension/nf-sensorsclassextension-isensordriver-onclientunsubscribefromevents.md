@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnClientUnsubscribeFromEvents
+ - ISensorDriver::OnClientUnsubscribeFromEvents
 ---
 
 # ISensorDriver::OnClientUnsubscribeFromEvents
@@ -97,3 +97,4 @@ The ClientData structure is defined as follows.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

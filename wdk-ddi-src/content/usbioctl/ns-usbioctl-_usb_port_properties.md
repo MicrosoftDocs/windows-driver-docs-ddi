@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_PORT_PROPERTIES
+ - PUSB_PORT_PROPERTIES
  - USB_PORT_PROPERTIES
 ---
 
@@ -82,3 +84,4 @@ Reserved. Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a>
+

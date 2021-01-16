@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ufxclient.h
 api_name:
+ - _UFX_ENDPOINT_CALLBACKS
+ - PUFX_ENDPOINT_CALLBACKS
  - UFX_ENDPOINT_CALLBACKS
 ---
 

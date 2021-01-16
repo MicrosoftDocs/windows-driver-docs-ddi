@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_CONFIG_DESCRIPTOR
  - UFS_CONFIG_DESCRIPTOR
 ---
 
@@ -105,3 +106,4 @@ Contains the configurable parameters of the Unit Descriptor.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+

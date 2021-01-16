@@ -12,6 +12,8 @@ tech.root: pos
 f1_keywords:
  - pointofservicedriverinterface
  - pointofservicedriverinterface/pointofservicedriverinterface
+api_name:
+ - pointofservicedriverinterface
 ---
 
 # Pointofservicedriverinterface.h header

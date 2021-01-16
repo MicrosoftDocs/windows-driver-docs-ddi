@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolOpenAdapterCompleteEx
+ - PROTOCOL_OPEN_ADAPTER_COMPLETE_EX
 ---
 
 # PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback function
@@ -144,3 +144,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGKARGCB_CREATECONTEXTALLOCATION
  - DXGKARGCB_CREATECONTEXTALLOCATION
 ---
 
@@ -138,3 +139,4 @@ The display miniport driver calls <a href="/windows-hardware/drivers/ddi/d3dkmdd
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>
+

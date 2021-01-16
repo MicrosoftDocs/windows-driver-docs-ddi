@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtExtension.OnSessionInactive
+ - ExtExtension::OnSessionInactive
 ---
 
 # ExtExtension::OnSessionInactive
@@ -75,3 +75,4 @@ This method is called at the end of a session.
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff552312(v=vs.85)">OnSessionActive</a>
+

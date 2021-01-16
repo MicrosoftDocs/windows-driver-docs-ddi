@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_CONFIGURATION
+ - PPMI_CONFIGURATION
  - PMI_CONFIGURATION
 ---
 
@@ -127,3 +129,4 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_threshold_configuration">PMI_THRESHOLD_CONFIGURATION</a>
+

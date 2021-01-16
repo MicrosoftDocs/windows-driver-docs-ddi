@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.TerminateProcesses
- - IDebugClient2.TerminateProcesses
- - IDebugClient3.TerminateProcesses
- - IDebugClient4.TerminateProcesses
- - IDebugClient5.TerminateProcesses
+ - IDebugClient4::TerminateProcesses
 ---
 
 # IDebugClient4::TerminateProcesses
@@ -118,3 +114,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-terminatecurrentprocess">TerminateCurrentProcess</a>
+

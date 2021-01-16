@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _TRACK_INFORMATION2
+ - PTRACK_INFORMATION2
  - TRACK_INFORMATION2
 ---
 

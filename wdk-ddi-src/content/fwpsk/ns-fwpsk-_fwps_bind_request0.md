@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - _FWPS_BIND_REQUEST0
  - FWPS_BIND_REQUEST0
 ---
 
@@ -140,3 +141,4 @@ This structure acts as a linked list that contains a record of all changes made 
 
 
 <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
+

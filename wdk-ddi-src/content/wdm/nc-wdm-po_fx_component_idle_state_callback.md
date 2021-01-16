@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ComponentIdleStateCallback
+ - PO_FX_COMPONENT_IDLE_STATE_CALLBACK
 ---
 
 # PO_FX_COMPONENT_IDLE_STATE_CALLBACK callback function
@@ -129,3 +129,4 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxsetcomponentwake">PoFxSetComponentWake</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ucxendpoint.h
 api_name:
- - EvtUcxEndpointSetCharacteristic
+ - EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
 ---
 
 # EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function
@@ -69,3 +69,4 @@ The UCX client driver registers this callback function with the USB host control
 ## -see-also
 
 <a href="/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+

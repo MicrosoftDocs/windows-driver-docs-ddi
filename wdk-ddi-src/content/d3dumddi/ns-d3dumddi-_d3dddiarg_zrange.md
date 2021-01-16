@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_ZRANGE
  - D3DDDIARG_ZRANGE
 ---
 
@@ -62,3 +63,4 @@ The D3DDDIARG_ZRANGE structure specifies z-range minimum and maximum values.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setzrange">SetZRange</a>
+

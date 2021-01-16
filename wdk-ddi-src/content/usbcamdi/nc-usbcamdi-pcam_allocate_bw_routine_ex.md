@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - CamAllocateBandwidthEx
+ - PCAM_ALLOCATE_BW_ROUTINE_EX
 ---
 
 # PCAM_ALLOCATE_BW_ROUTINE_EX callback function
@@ -94,3 +94,4 @@ This function is required.
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_selectalternateinterface">USBCAMD_SelectAlternateInterface</a>
+

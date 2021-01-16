@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
+ - D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
 dev_langs:
  - c++
 ---

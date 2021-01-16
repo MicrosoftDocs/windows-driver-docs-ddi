@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvol.h
 api_name:
+ - _VOLUME_PHYSICAL_OFFSETS
+ - PVOLUME_PHYSICAL_OFFSETS
  - VOLUME_PHYSICAL_OFFSETS
 ---
 
@@ -72,3 +74,4 @@ Contains an array of structures of type <a href="/windows-hardware/drivers/ddi/n
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>
+

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostMemory2.AddRef
+ - IDebugHostMemory2::AddRef
 ---
 
 # IDebugHostMemory2::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostMemory2 interface](nn-dbgmodel-idebughostmemory2.md)
+

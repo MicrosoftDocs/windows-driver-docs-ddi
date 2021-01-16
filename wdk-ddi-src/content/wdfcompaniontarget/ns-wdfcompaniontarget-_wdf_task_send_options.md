@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfcompaniontarget.h
 api_name:
+ - _WDF_TASK_SEND_OPTIONS
+ - PWDF_TASK_SEND_OPTIONS
  - WDF_TASK_SEND_OPTIONS
 ---
 

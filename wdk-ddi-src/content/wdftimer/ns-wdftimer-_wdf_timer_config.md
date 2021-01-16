@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdftimer.h
 api_name:
+ - _WDF_TIMER_CONFIG
+ - PWDF_TIMER_CONFIG
  - WDF_TIMER_CONFIG
 ---
 
@@ -135,3 +137,4 @@ For more information about framework timer objects, see <a href="/windows-hardwa
 
 
 <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimerstart">WdfTimerStart</a>
+

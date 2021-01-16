@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
- - FwpsNetBufferListNotifyFN1
+ - FWPS_NET_BUFFER_LIST_NOTIFY_FN1
 ---
 
 # FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function
@@ -154,3 +154,4 @@ This function is identical to <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fw
 
 
 <a href="/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
+

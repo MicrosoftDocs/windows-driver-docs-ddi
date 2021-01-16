@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClIncomingCloseCall
+ - PROTOCOL_CL_INCOMING_CLOSE_CALL
 ---
 
 # PROTOCOL_CL_INCOMING_CLOSE_CALL callback function
@@ -229,3 +229,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
+

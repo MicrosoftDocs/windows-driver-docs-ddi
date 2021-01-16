@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MINIPORT_DRIVER_CHARACTERISTICS
+ - PNDIS_MINIPORT_DRIVER_CHARACTERISTICS
  - NDIS_MINIPORT_DRIVER_CHARACTERISTICS
 ---
 
@@ -492,3 +494,4 @@ An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
+

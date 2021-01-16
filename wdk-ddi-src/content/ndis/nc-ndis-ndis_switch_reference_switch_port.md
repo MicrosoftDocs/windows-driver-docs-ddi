@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ReferenceSwitchPort
+ - NDIS_SWITCH_REFERENCE_SWITCH_PORT
 ---
 
 # NDIS_SWITCH_REFERENCE_SWITCH_PORT callback function
@@ -104,3 +104,4 @@ The extension calls <i>ReferenceSwitchPort</i> after the port has reached the <i
 
 
 <a href="/windows-hardware/drivers/network/oid-switch-port-teardown">OID_SWITCH_PORT_TEARDOWN</a>
+

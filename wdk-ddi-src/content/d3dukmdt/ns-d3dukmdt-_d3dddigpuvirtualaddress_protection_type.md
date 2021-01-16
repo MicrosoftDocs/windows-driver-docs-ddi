@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
  - D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ---
 

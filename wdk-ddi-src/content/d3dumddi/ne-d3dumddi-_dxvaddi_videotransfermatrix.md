@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEOTRANSFERMATRIX
  - DXVADDI_VIDEOTRANSFERMATRIX
 ---
 
@@ -78,3 +79,4 @@ One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>Vide
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
+

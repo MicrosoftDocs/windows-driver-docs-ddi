@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2GENERATEMIPSUBLEVELS
  - D3DHAL_DP2GENERATEMIPSUBLEVELS
 ---
 
@@ -69,3 +70,4 @@ To generate the sublevels of a MIP-map texture, the driver receives a D3DDP2OP_G
 ## -see-also
 
 D3DDP2OP_GENERATEMIPSUBLEVELS
+

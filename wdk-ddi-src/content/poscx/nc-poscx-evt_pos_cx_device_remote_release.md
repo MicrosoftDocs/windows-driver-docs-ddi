@@ -38,7 +38,7 @@ api_type:
 api_location:
  - poscx.h
 api_name:
- - EvtPosCxDeviceRemoteRelease
+ - EVT_POS_CX_DEVICE_REMOTE_RELEASE
 ---
 
 # EVT_POS_CX_DEVICE_REMOTE_RELEASE callback function
@@ -75,3 +75,4 @@ If the driver is unable to complete the remote release transaction, it should re
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/poscx/nc-poscx-evt_pos_cx_device_remote_claim">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a>
+

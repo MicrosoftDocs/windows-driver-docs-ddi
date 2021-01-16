@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint2.SetCommandWide
+ - IDebugBreakpoint2::SetCommandWide
 ---
 
 # IDebugBreakpoint2::SetCommandWide
@@ -83,3 +83,4 @@ The command string is a list of debugger commands that are separated by semicolo
 If the command string includes an execution command such as <b>G (Go)</b>, this command should be the last command in the <i>Command</i> string.  If a command causes the target to resume execution, the rest of the command string is ignored.
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

@@ -33,6 +33,7 @@ api_type:
 api_location:
  - mdltypes.h
 api_name:
+ - _NET_FRAGMENT_MDL
  - NET_FRAGMENT_MDL
 product:
  - Windows
@@ -66,3 +67,4 @@ To obtain this structure, call [**NetExtensionGetFragmentMdl**](../mdl/nf-mdl-ne
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NetExtensionGetFragmentMdl**](../mdl/nf-mdl-netextensiongetfragmentmdl.md)
+

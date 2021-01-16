@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _D3COLD_SUPPORT_INTERFACE
+ - PD3COLD_SUPPORT_INTERFACE
  - D3COLD_SUPPORT_INTERFACE
 ---
 
@@ -130,3 +132,4 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-set_d3cold_support">SetD3ColdSupport</a>
+

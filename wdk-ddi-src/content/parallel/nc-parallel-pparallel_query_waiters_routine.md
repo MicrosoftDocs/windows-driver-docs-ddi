@@ -37,7 +37,7 @@ api_type:
 api_location:
  - parallel.h
 api_name:
- - (*PPARALLEL_QUERY_WAITERS_ROUTINE)
+ - PPARALLEL_QUERY_WAITERS_ROUTINE
 ---
 
 # PPARALLEL_QUERY_WAITERS_ROUTINE callback
@@ -93,3 +93,4 @@ For more information, see <a href="/previous-versions/ff544809(v=vs.85)">Synchro
 
 
 <a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
+

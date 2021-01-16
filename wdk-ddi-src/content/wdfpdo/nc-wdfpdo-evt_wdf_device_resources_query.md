@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfpdo.h
 api_name:
- - EvtDeviceResourcesQuery
+ - EVT_WDF_DEVICE_RESOURCES_QUERY
 ---
 
 # EVT_WDF_DEVICE_RESOURCES_QUERY callback function
@@ -82,3 +82,4 @@ To create a resource list, the driver calls <a href="/windows-hardware/drivers/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a>
+

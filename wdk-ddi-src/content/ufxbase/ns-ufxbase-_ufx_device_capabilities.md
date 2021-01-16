@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ufxbase.h
 api_name:
+ - _UFX_DEVICE_CAPABILITIES
+ - PUFX_DEVICE_CAPABILITIES
  - UFX_DEVICE_CAPABILITIES
 ---
 

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols2.GetConstantName
- - IDebugSymbols3.GetConstantName
+ - IDebugSymbols3::GetConstantName
 ---
 
 # IDebugSymbols3::GetConstantName
@@ -117,3 +116,4 @@ This method can also return error values.  For more information, see <a href="/w
 ## -remarks
 
 For more information about symbols, see <a href="/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
+

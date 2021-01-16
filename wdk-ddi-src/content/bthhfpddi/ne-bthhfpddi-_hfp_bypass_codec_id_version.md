@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bthhfpddi.h
 api_name:
+ - _HFP_BYPASS_CODEC_ID_VERSION
+ - PHFP_BYPASS_CODEC_ID_VERSION
  - HFP_BYPASS_CODEC_ID_VERSION
 ---
 
@@ -64,3 +66,4 @@ Codec ID structure version 1.
 
 
 <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucmtypes.h
 api_name:
+ - _UCM_CHARGING_STATE
+ - PUCM_CHARGING_STATE
  - UCM_CHARGING_STATE
 ---
 
@@ -88,3 +90,4 @@ Indicates the port is drawing a trickle charge.
 
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
+

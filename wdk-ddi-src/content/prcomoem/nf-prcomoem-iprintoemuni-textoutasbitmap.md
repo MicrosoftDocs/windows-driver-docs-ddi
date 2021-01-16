@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.TextOutAsBitmap
+ - IPrintOemUni::TextOutAsBitmap
 ---
 
 # IPrintOemUni::TextOutAsBitmap
@@ -150,3 +150,4 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a>
+

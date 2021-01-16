@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - PostEvent
+ - ISensorClassExtension::PostEvent
 ---
 
 # ISensorClassExtension::PostEvent
@@ -96,3 +96,4 @@ Raise state change events by calling <a href="/windows-hardware/drivers/ddi/sens
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
+

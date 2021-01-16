@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfrequest.h
 api_name:
- - EvtRequestImpersonate
+ - EVT_WDF_REQUEST_IMPERSONATE
 ---
 
 # EVT_WDF_REQUEST_IMPERSONATE callback function
@@ -109,3 +109,4 @@ For information about _Use_decl_annotations_, see <a href="/visualstudio/code-qu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a>
+

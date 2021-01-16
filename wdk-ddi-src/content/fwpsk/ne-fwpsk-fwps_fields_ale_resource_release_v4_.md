@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_ALE_RESOURCE_RELEASE_V4_
  - FWPS_FIELDS_ALE_RESOURCE_RELEASE_V4
 ---
 
@@ -122,3 +123,4 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+

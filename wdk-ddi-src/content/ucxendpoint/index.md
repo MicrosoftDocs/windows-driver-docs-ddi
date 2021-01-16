@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucxendpoint
  - ucxendpoint/ucxendpoint
+api_name:
+ - ucxendpoint
 ---
 
 # Ucxendpoint.h header

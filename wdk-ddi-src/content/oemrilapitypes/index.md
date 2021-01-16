@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - oemrilapitypes
  - oemrilapitypes/oemrilapitypes
+api_name:
+ - oemrilapitypes
 ---
 
 # Oemrilapitypes.h header

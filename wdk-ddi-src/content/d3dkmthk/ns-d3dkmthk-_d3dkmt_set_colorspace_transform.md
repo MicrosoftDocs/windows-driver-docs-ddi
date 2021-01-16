@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SET_COLORSPACE_TRANSFORM
  - D3DKMT_SET_COLORSPACE_TRANSFORM
 ---
 

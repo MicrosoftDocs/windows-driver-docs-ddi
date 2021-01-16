@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_REGISTER_DEVICE_V2
+ - PPEP_REGISTER_DEVICE_V2
  - PEP_REGISTER_DEVICE_V2
 ---
 
@@ -98,3 +100,4 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

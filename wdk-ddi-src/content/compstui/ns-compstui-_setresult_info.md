@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _SETRESULT_INFO
+ - PSETRESULT_INFO
  - SETRESULT_INFO
 ---
 
@@ -78,3 +80,4 @@ The values contained in the structure's <b>hSetResult</b> and <b>Result</b> memb
 Each of the application's PFNPROPSHEETUI-typed functions is called in order, from the one most recently declared to the first one declared, until one of these functions provides a return value of less than one. At that point, CPSUI returns from its <b>ComPropSheet</b> function, providing a count of the number of PFNPROPSHEETUI-typed functions that were called.
 
 Typically, an application's PFNPROPSHEETUI-typed function sets the <b>Result</b> member of its PROPSHEETUI_INFO structure to the value received in the SETRESULT_INFO structure's <b>Result</b> member. Then the function returns a value of 1 (or greater), so the next PFNPROPSHEETUI-typed function can also receive it. Each subsequently called function is associated with a page that is the parent of the page associated with the last-called function. A function can modify the contents of SETRESULT_INFO structure's <b>Result</b> member, causing the functions associated with parent pages to receive the new value.
+

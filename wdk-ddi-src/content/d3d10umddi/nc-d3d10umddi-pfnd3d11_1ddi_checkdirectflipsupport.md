@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CheckDirectFlipSupport(D3D11_1)
+ - PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT
 ---
 
 # PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT callback function
@@ -106,3 +106,4 @@ The user-mode driver might need to call the kernel-mode driver to perform these 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.GetCreateParametersEx
+ - IWDFIoRequest2::GetCreateParametersEx
 ---
 
 # IWDFIoRequest2::GetCreateParametersEx
@@ -117,7 +117,6 @@ OnCreateFile(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackcreate-oncreatefile">IQueueCallbackCreate::OnCreateFile</a>
@@ -129,3 +128,4 @@ OnCreateFile(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getcreateparameters">IWDFIoRequest::GetCreateParameters</a>
+

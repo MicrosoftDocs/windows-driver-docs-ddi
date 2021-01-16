@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11_IHV_VERSION_INFO
+ - PDOT11_IHV_VERSION_INFO
  - DOT11_IHV_VERSION_INFO
 ---
 
@@ -100,3 +102,4 @@ Prior to starting the IHV Extensions DLL through a call to the
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
+

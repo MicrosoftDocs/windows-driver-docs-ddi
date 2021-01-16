@@ -31,6 +31,7 @@ api_location:
  - usbctypes.h
 api_name:
  - _USBC_PARTNER
+ - USBC_PARTNER
 ---
 
 # _USBC_PARTNER enumeration

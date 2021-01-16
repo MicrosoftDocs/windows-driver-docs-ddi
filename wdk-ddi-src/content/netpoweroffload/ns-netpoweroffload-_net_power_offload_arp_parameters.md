@@ -7,7 +7,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_ARP_PARAMETERS structure"]
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS,
 req.header: netpoweroffload.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netpoweroffload.h
 api_name:
+ - _NET_POWER_OFFLOAD_ARP_PARAMETERS
  - NET_POWER_OFFLOAD_ARP_PARAMETERS
 product:
  - Windows
@@ -85,3 +86,4 @@ For more information about the ARP protocol, see [RFC 826](https://tools.ietf.or
 [**NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_arp_parameters_init.md)
 
 [**NetPowerOffloadGetArpParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetarpparameters.md)
+

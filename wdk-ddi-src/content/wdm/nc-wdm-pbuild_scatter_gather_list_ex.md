@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - BuildScatterGatherListEx
+ - PBUILD_SCATTER_GATHER_LIST_EX
 ---
 
 # PBUILD_SCATTER_GATHER_LIST_EX callback function
@@ -253,3 +253,4 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
+

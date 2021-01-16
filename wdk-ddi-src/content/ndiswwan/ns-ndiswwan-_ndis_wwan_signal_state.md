@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SIGNAL_STATE
+ - PNDIS_WWAN_SIGNAL_STATE
  - NDIS_WWAN_SIGNAL_STATE
 ---
 
@@ -120,3 +122,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a>
+

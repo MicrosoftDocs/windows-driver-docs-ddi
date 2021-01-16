@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CIP_DATA_FORMAT_VER3
+ - PCIP_DATA_FORMAT_VER3
  - CIP_DATA_FORMAT_VER3
 ---
 
@@ -100,3 +102,4 @@ This member is the number of blocks per packet; used for blocking mode only
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

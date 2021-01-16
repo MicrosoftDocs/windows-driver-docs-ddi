@@ -41,6 +41,8 @@ api_type:
 api_location:
  - minitape.h
 api_name:
+ - _TAPE_STATUS
+ - PTAPE_STATUS
  - TAPE_STATUS
 ---
 
@@ -180,3 +182,4 @@ Indicates that the media currently in the drive is a cleaner cartridge.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_status">IOCTL_TAPE_GET_STATUS</a>
+

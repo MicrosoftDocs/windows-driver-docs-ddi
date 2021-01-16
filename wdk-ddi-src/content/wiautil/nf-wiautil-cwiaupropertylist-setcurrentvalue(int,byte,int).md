@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetCurrentValue
+ - CWiauPropertyList::SetCurrentValue
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,BYTE,INT) (wiautil.h)
+
 
 ## -description
 
@@ -68,3 +69,4 @@ Specifies the number of elements in the array of bytes.
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
+

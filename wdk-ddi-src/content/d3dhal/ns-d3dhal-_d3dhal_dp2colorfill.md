@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_DP2COLORFILL
  - D3DHAL_DP2COLORFILL
 ---
 
@@ -87,3 +88,4 @@ D3DDP2OP_COLORFILL
 
 
 <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
+

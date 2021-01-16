@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetDeviceSpecContext
+ - IWiaDrvItem::GetDeviceSpecContext
 ---
 
 # IWiaDrvItem::GetDeviceSpecContext
@@ -72,3 +72,4 @@ Minidrivers typically use this method to obtain a pointer to a device-specific c
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)
+

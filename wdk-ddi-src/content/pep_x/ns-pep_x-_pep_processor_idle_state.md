@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_PROCESSOR_IDLE_STATE
+ - PPEP_PROCESSOR_IDLE_STATE
  - PEP_PROCESSOR_IDLE_STATE
 ---
 
@@ -123,3 +125,4 @@ The <b>IdleStates</b> member of the <a href="/windows-hardware/drivers/ddi/pep_x
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a>
+

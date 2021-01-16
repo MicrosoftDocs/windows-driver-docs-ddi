@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CalcPrivateDeferredContextSize
+ - PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ The driver is only required to implement <b>CalcPrivateDeferredContextSize</b> i
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_2ddi_getcaps">GetCaps(D3D10_2)</a>
+

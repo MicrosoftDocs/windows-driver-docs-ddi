@@ -30,12 +30,14 @@ api_location:
 api_name:
  - IDARG_IN_SETSRMLIST
 f1_keywords:
+ - IDARG_IN_SETSRMLIST
  - iddcx/IDARG_IN_SETSRMLIST
 dev_langs:
  - c++
 ---
 
 # IDARG_IN_SETSRMLIST structure
+
 
 ## -description
 
@@ -56,3 +58,4 @@ dev_langs:
 ## -see-also
 
 [**IddCxMonitorSetSrmList**](nf-iddcx-iddcxmonitorsetsrmlist.md)
+

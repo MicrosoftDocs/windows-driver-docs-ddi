@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - KSAUTOMATION_TABLE_
+ - PKSAUTOMATION_TABLE
  - KSAUTOMATION_TABLE
 ---
 
@@ -136,3 +138,4 @@ DEFINE_KSAUTOMATION_TABLE (MyAutomationTable) {
 [KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md)
 
 [KSPROPERTY_SET](./ns-ks-ksproperty_set.md)
+

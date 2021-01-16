@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - TranslateBusAddress
+ - TRANSLATE_BUS_ADDRESS
 ---
 
 # TRANSLATE_BUS_ADDRESS callback function
@@ -82,3 +82,4 @@ The
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard">BUS_INTERFACE_STANDARD</a>
+

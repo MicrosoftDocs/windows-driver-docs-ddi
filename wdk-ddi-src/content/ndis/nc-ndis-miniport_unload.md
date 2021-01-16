@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportDriverUnload
+ - MINIPORT_UNLOAD
 ---
 
 # MINIPORT_UNLOAD callback function
@@ -151,3 +151,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>
+

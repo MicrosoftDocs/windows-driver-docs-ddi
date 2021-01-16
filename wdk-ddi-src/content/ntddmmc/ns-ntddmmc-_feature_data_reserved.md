@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_RESERVED
+ - PFEATURE_DATA_RESERVED
  - FEATURE_DATA_RESERVED
 ---
 
@@ -72,3 +74,4 @@ You can use this structure to access the data of any feature structure as though
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_BMREQUEST_TYPE
  - WDF_USB_BMREQUEST_TYPE
 ---
 
@@ -74,3 +75,4 @@ For more information about data transfer types for a USB control transfer, see t
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a>
+

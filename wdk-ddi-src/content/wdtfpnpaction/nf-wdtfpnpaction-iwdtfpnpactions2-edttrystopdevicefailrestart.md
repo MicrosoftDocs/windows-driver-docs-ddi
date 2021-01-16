@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.EDTTryStopDeviceFailRestart
+ - IWDTFPNPActions2::EDTTryStopDeviceFailRestart
 ---
 
 # IWDTFPNPActions2::EDTTryStopDeviceFailRestart
@@ -79,5 +79,4 @@ how the drivers and applications handle the PnP resource rebalance with a failed
 instead run the <b>EDTTryStopDeviceFailRestart</b> method on a parent 
 device, grandparent, etc., which does consume hardware resources. For example, if your device 
 is a USB mouse, you can run this method on the parent USB controller instead.
-
 

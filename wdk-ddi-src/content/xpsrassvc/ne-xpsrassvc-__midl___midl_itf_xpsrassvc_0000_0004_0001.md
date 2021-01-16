@@ -39,6 +39,7 @@ api_type:
 api_location:
  - xpsrassvc.h
 api_name:
+ - __MIDL___MIDL_itf_xpsrassvc_0000_0004_0001
  - XPSRAS_BACKGROUND_COLOR
 ---
 
@@ -62,3 +63,4 @@ Use opaque white as clear color.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer">IXpsRasterizationFactory2::CreateRasterizer</a>
+

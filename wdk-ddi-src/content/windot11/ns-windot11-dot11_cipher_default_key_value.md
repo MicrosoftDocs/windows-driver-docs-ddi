@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_CIPHER_DEFAULT_KEY_VALUE
+ - PDOT11_CIPHER_DEFAULT_KEY_VALUE
 product:
  - Windows 10 or later.
 ---
@@ -140,7 +141,6 @@ If set to **TRUE**, the default key referenced by **uKeyIndex** must not be dele
 * Explicitly deleted through a set request of [OID_DOT11_CIPHER_DEFAULT_KEY](/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id).
 * Implicitly deleted through a method request of [OID_DOT11_RESET_REQUEST](/windows-hardware/drivers/network/oid-dot11-reset-request).
 
-
 ### -field usKeyLength
 
 The length, in bytes, of the key material in the **ucKey** array.
@@ -205,3 +205,4 @@ If the **bDelete** member is **TRUE**, the following members are not valid and m
 
 
 [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)
+

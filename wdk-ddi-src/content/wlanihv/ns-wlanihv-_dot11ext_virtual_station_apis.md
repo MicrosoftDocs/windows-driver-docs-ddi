@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_VIRTUAL_STATION_APIS
+ - PDOT11EXT_VIRTUAL_STATION_APIS
  - DOT11EXT_VIRTUAL_STATION_APIS
 ---
 
@@ -131,3 +133,4 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_query_virtual_station_properties.md">
    Dot11ExtQueryVirtualStationProperties</a>
+

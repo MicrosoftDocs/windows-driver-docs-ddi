@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netadaptercxtypes
  - netadaptercxtypes/netadaptercxtypes
+api_name:
+ - netadaptercxtypes
 ---
 
 # Netadaptercxtypes.h header

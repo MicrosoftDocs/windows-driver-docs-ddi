@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoQueue.Start
+ - IWDFIoQueue::Start
 ---
 
 # IWDFIoQueue::Start
@@ -52,3 +52,4 @@ The <b>Start</b> method enables an I/O queue to start receiving new I/O requests
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a>
+

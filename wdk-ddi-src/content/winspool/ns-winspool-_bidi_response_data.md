@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - _BIDI_RESPONSE_DATA
+ - PBIDI_RESPONSE_DATA
  - BIDI_RESPONSE_DATA
 ---
 
@@ -86,3 +88,4 @@ When the bidi action is BIDI_ACTION_GETALL, the <b>dwReqNumber</b> member holds 
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
+

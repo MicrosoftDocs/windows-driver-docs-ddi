@@ -12,6 +12,8 @@ tech.root: nfpdrivers
 f1_keywords:
  - nfpdev
  - nfpdev/nfpdev
+api_name:
+ - nfpdev
 ---
 
 # Nfpdev.h header

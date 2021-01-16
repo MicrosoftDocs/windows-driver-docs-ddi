@@ -35,9 +35,12 @@ api_location:
  - treepaymentservice.h
 api_name:
  - _PAYMENT_SERVICE_IN
+ - PPAYMENT_SERVICE_IN
+ - PAYMENT_SERVICE_IN
 ---
 
 # _PAYMENT_SERVICE_IN structure
+
 
 ## -description
 
@@ -56,3 +59,4 @@ Number of milliseconds elapsed since the last valid authentication to set CDCVM 
 ## -remarks
 
 ## -see-also
+

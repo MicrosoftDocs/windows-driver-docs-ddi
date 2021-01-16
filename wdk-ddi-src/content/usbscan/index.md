@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - usbscan
  - usbscan/usbscan
+api_name:
+ - usbscan
 ---
 
 # Usbscan.h header

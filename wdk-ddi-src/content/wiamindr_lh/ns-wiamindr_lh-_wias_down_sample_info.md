@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _WIAS_DOWN_SAMPLE_INFO
+ - PWIAS_DOWN_SAMPLE_INFO
  - WIAS_DOWN_SAMPLE_INFO
 ---
 
@@ -104,3 +106,4 @@ Points to the destination buffer.
 ## -see-also
 
 [wiasDownSampleBuffer](../wiamdef/nf-wiamdef-wiasdownsamplebuffer.md)
+

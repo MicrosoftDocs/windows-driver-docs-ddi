@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_OBJECT
+ - PFILE_OBJECT
  - FILE_OBJECT
 ---
 
@@ -515,7 +517,6 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
@@ -551,3 +552,4 @@ typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

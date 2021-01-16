@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendRNID_IN
+ - PSM_SendRNID_IN
  - SM_SendRNID_IN
 ---
 

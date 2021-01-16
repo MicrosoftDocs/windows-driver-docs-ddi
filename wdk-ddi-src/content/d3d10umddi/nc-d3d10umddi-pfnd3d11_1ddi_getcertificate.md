@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetCertificate
+ - PFND3D11_1DDI_GETCERTIFICATE
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ Based on the data in the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize">GetCertificateSize</a>
+

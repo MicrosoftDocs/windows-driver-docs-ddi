@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols.AppendSymbolPath
- - IDebugSymbols2.AppendSymbolPath
- - IDebugSymbols3.AppendSymbolPath
+ - IDebugSymbols2::AppendSymbolPath
 ---
 
 # IDebugSymbols2::AppendSymbolPath
@@ -102,3 +100,4 @@ For more information about manipulating the symbol path, see <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymbolpath">SetSymbolPath</a>
+

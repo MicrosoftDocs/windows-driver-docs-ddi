@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLWAITINGINFO
+ - LPRILCALLWAITINGINFO
 ---
 
 # RILCALLWAITINGINFO structure (ntddrilapitypes.h)

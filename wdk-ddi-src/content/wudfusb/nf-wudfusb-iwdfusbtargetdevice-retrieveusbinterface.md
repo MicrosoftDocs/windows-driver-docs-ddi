@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetDevice.RetrieveUsbInterface
+ - IWDFUsbTargetDevice::RetrieveUsbInterface
 ---
 
 # IWDFUsbTargetDevice::RetrieveUsbInterface
@@ -135,3 +135,4 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_information">USBD_INTERFACE_INFORMATION</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiSpl2.BindDevice
+ - IBidiSpl2::BindDevice
 ---
 
 # IBidiSpl2::BindDevice
@@ -149,3 +149,4 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 <a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
+

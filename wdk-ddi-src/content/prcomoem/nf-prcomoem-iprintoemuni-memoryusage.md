@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.MemoryUsage
+ - IPrintOemUni::MemoryUsage
 ---
 
 # IPrintOemUni::MemoryUsage
@@ -148,3 +148,4 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a>
+

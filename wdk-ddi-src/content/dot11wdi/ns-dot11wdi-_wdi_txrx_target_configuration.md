@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_TXRX_TARGET_CONFIGURATION
+ - PWDI_TXRX_TARGET_CONFIGURATION
  - WDI_TXRX_TARGET_CONFIGURATION
 ---
 

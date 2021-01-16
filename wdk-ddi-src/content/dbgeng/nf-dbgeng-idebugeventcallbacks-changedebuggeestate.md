@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugEventCallbacks.ChangeDebuggeeState
+ - IDebugEventCallbacks::ChangeDebuggeeState
 ---
 
 # IDebugEventCallbacks::ChangeDebuggeeState
@@ -315,3 +315,4 @@ The return value is ignored by the engine unless it indicates a remote procedure
 The engine calls <b>ChangeDebuggeeState</b> only if the DEBUG_EVENT_CHANGE_DEBUGGEE_STATE flag is set in the mask returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.  For information about managing the target's memory, including registers and data spaces, see <a href="/windows-hardware/drivers/debugger/memory-access">Memory Access</a>.  For information about the target's virtual and physical memory, see <a href="/windows-hardware/drivers/debugger/virtual-and-physical-memory">Virtual and Physical Memory</a>.  For information about the target's control memory, I/O ports, MSR, and bus memory, see <a href="/windows-hardware/drivers/debugger/other-data-spaces">Other Data Spaces</a>.
+

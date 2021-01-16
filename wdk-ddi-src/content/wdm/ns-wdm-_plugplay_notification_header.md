@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PLUGPLAY_NOTIFICATION_HEADER
+ - PPLUGPLAY_NOTIFICATION_HEADER
  - PLUGPLAY_NOTIFICATION_HEADER
 ---
 
@@ -88,3 +90,4 @@ Drivers can cast a PnP notification structure to this type to access the <b>Even
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_removal_notification">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+

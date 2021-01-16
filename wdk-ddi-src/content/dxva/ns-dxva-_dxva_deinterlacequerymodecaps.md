@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceQueryModeCaps
  - DXVA_DeinterlaceQueryModeCaps
 ---
 
@@ -78,3 +79,4 @@ The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
+

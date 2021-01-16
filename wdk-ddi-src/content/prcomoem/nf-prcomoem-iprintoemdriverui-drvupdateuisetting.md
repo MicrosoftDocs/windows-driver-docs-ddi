@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUI.DrvUpdateUISetting
+ - IPrintOemDriverUI::DrvUpdateUISetting
 ---
 
 # IPrintOemDriverUI::DrvUpdateUISetting
@@ -144,3 +144,4 @@ The method is not implemented.
 If you are providing a user interface plug-in that implements the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> method or the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> method, you typically also supply a <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function to handle user modifications. This callback function must call <code>IPrintOemDriverUI::DrvUpdateUISetting</code> to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure (instead of the plug-in's private DEVMODEW members ) or in registry keys.
 
 The value specified for <i>dwMode</i> should be based on which method specified the callback function.
+

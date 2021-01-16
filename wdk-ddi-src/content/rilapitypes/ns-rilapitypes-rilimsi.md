@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILIMSI
+ - LPRILIMSI
 ---
 
 # RILIMSI structure (rilapitypes.h)

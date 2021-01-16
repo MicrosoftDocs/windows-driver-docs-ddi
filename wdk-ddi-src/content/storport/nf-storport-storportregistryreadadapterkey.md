@@ -38,7 +38,7 @@ api_location:
  - Storport.lib
  - Storport.dll
 api_name:
- - StorPortRegistryWriteAdapterKey
+ - StorPortRegistryReadAdapterKey
 ---
 
 # StorPortRegistryReadAdapterKey function
@@ -224,3 +224,4 @@ Specifies the size of the data pointed to by <i>ValueData</i>.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
+

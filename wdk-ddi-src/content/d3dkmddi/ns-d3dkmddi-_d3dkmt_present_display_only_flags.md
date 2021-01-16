@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
  - D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 ---
 
@@ -76,3 +77,4 @@ A member in the union that <b>D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</b> contains tha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
+

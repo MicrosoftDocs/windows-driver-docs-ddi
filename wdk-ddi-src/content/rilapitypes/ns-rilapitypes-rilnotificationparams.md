@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILNOTIFICATIONPARAMS
+ - LPRILNOTIFICATIONPARAMS
 ---
 
 # RILNOTIFICATIONPARAMS structure (rilapitypes.h)

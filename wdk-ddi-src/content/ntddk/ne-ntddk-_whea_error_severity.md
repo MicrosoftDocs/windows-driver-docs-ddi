@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_ERROR_SEVERITY
+ - PWHEA_ERROR_SEVERITY
  - WHEA_ERROR_SEVERITY
 ---
 
@@ -91,3 +93,4 @@ The <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
+

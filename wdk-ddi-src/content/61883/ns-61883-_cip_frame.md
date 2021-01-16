@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CIP_FRAME
+ - PCIP_FRAME
  - CIP_FRAME
 ---
 
@@ -133,7 +135,6 @@ ULONG
    );
 ```
 
-
 ### -field ValidateContext
 
 Points to an optional caller-defined context for the function at <b>pfnValidate</b>. If the function does not require a context, <b>ValidateContext</b> can be <b>NULL</b>.
@@ -193,3 +194,4 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
+

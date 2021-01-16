@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILUICCFILELOCKSTATUS
+ - LPRILUICCFILELOCKSTATUS
 ---
 
 # RILUICCFILELOCKSTATUS structure (ntddrilapitypes.h)
@@ -81,3 +82,4 @@ struct RILUICCFILELOCKSTATUS {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

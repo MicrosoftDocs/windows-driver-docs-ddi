@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnGetNumFrequencyRanges
+ - DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
 product:
  - Windows
 ---
@@ -68,3 +68,4 @@ The <b>pfnGetNumFrequencyRanges</b> function returns one of the following values
 |STATUS_SUCCESS|The function succeeded.|
 |STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
 |STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
+

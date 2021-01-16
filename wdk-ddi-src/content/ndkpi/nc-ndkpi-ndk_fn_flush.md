@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkFlush
+ - NDK_FN_FLUSH
 ---
 
 # NDK_FN_FLUSH callback function
@@ -63,3 +63,4 @@ If the  NDK consumer wants to verify that all of the requests are flushed after 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
+

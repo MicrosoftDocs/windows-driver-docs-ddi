@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILOPERATORNAMES
+ - LPRILOPERATORNAMES
 ---
 
 # RILOPERATORNAMES structure (rilapitypes.h)

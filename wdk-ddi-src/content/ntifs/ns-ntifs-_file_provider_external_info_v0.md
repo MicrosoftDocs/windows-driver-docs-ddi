@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_PROVIDER_EXTERNAL_INFO_V0
+ - PFILE_PROVIDER_EXTERNAL_INFO_V0
  - FILE_PROVIDER_EXTERNAL_INFO_V0
 ---
 
@@ -71,3 +73,4 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
+

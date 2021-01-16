@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILRADIOSTATEGROUP
+ - LPRILRADIOSTATEGROUP
 ---
 
 # RILRADIOSTATEGROUP structure (rilapitypes.h)

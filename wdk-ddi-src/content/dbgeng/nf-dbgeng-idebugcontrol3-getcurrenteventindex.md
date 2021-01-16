@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.GetCurrentEventIndex
+ - IDebugControl3::GetCurrentEventIndex
 ---
 
 # IDebugControl3::GetCurrentEventIndex
@@ -91,3 +91,4 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setnexteventindex">SetNextEventIndex</a>
+

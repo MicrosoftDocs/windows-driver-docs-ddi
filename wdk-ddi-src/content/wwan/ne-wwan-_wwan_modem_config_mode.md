@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_MODEM_CONFIG_MODE
+ - PWWAN_MODEM_CONFIG_MODE
  - WWAN_MODEM_CONFIG_MODE
 ---
 
@@ -77,3 +79,4 @@ The modem configuration mode shall not change during runtime. If a change is det
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a>
+

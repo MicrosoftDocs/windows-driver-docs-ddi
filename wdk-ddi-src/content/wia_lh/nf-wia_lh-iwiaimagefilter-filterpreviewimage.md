@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaImageFilter.FilterPreviewImage
+ - IWiaImageFilter::FilterPreviewImage
 ---
 
 # IWiaImageFilter::FilterPreviewImage
@@ -75,3 +75,4 @@ Returns S_OK on success, or a standard COM error code on failure.
 This method cannot be invoked directly by the application.
 
 The <b>IStream </b>and <b>IWiaPreview</b> interfaces are described in the Microsoft Windows SDK documentation.
+

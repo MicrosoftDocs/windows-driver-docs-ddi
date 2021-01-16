@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdftypes
  - wdftypes/wdftypes
+api_name:
+ - wdftypes
 ---
 
 # Wdftypes.h header

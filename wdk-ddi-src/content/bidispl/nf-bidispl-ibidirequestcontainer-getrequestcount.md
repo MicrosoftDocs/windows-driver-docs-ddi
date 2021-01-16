@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiRequestContainer.GetRequestCount
+ - IBidiRequestContainer::GetRequestCount
 ---
 
 # IBidiRequestContainer::GetRequestCount
@@ -109,3 +109,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a>
+

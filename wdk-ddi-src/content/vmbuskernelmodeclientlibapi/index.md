@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - vmbuskernelmodeclientlibapi
  - vmbuskernelmodeclientlibapi/vmbuskernelmodeclientlibapi
+api_name:
+ - vmbuskernelmodeclientlibapi
 ---
 
 # Vmbuskernelmodeclientlibapi.h header

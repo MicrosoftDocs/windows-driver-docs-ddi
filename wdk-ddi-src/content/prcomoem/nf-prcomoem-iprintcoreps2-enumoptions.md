@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCorePS2.EnumOptions
+ - IPrintCorePS2::EnumOptions
 ---
 
 # IPrintCorePS2::EnumOptions
@@ -174,3 +174,4 @@ For more information, see <a href="/windows-hardware/drivers/print/using-enumopt
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-enumfeatures">IPrintCorePS2::EnumFeatures</a>
+

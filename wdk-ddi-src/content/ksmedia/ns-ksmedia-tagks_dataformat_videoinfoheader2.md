@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_DATAFORMAT_VIDEOINFOHEADER2
+ - PKS_DATAFORMAT_VIDEOINFOHEADER2
  - KS_DATAFORMAT_VIDEOINFOHEADER2
 ---
 
@@ -80,3 +82,4 @@ Minidrivers that do not need to specify bob or weave settings may use the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>
+

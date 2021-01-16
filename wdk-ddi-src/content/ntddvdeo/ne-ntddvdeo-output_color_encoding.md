@@ -30,6 +30,7 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _OUTPUT_COLOR_ENCODING
  - OUTPUT_COLOR_ENCODING
 dev_langs:
  - c++

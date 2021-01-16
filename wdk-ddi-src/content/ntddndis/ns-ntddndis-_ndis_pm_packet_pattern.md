@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_PACKET_PATTERN
+ - PNDIS_PM_PACKET_PATTERN
  - NDIS_PM_PACKET_PATTERN
 ---
 
@@ -136,3 +138,4 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 <a href="/windows-hardware/drivers/network/oid-pnp-wake-up-pattern-list">OID_PNP_WAKE_UP_PATTERN_LIST</a>
+

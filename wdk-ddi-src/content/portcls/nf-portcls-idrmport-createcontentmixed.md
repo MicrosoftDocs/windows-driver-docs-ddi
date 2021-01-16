@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IDrmPort.CreateContentMixed
+ - IDrmPort::CreateContentMixed
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ DrmCreateContentMixed performs the same function as PcCreateContentMixed and IDr
 ## -see-also
 
 [IDrmPort](nn-portcls-idrmport.md)
+

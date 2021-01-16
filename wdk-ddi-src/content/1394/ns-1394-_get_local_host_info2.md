@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _GET_LOCAL_HOST_INFO2
+ - PGET_LOCAL_HOST_INFO2
  - GET_LOCAL_HOST_INFO2
 ---
 
@@ -135,3 +137,4 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+

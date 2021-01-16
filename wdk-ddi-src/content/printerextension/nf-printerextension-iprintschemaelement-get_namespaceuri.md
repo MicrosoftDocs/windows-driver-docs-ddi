@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaElement.NamespaceUri
- - IPrintSchemaElement.get_NamespaceUri
+ - IPrintSchemaElement::get_NamespaceUri
 ---
 
 # IPrintSchemaElement::get_NamespaceUri
@@ -55,3 +54,4 @@ This property is read-only.
 ## -see-also
 
 [IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)
+

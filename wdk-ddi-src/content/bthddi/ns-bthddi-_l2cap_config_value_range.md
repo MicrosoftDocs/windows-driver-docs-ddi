@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _L2CAP_CONFIG_VALUE_RANGE
+ - PL2CAP_CONFIG_VALUE_RANGE
  - L2CAP_CONFIG_VALUE_RANGE
 ---
 
@@ -111,3 +113,4 @@ For
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
+

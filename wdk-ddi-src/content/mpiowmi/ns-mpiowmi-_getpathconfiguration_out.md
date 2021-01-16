@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _GetPathConfiguration_OUT
+ - PGetPathConfiguration_OUT
  - GetPathConfiguration_OUT
 ---
 

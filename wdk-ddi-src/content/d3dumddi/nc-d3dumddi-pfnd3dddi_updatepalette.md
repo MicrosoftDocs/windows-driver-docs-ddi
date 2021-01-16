@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - UpdatePalette
+ - PFND3DDDI_UPDATEPALETTE
 ---
 
 # PFND3DDDI_UPDATEPALETTE callback function
@@ -98,3 +98,4 @@ The <b>NumEntries</b> member specifies the number of entries in the array at <i>
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

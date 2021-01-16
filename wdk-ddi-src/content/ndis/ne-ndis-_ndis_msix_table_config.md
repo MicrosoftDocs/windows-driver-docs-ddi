@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_MSIX_TABLE_CONFIG
+ - PNDIS_MSIX_TABLE_OPERATION
  - NDIS_MSIX_TABLE_OPERATION
 ---
 
@@ -80,3 +82,4 @@ The NDIS_MSIX_TABLE_OPERATION enumeration is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">NDIS_MSIX_CONFIG_PARAMETERS</a>
+

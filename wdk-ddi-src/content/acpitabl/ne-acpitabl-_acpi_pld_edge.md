@@ -32,9 +32,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_EDGE
+ - PACPI_PLD_EDGE
+ - ACPI_PLD_EDGE
 ---
 
 # _ACPI_PLD_EDGE enumeration
+
 
 ## -description
 
@@ -65,3 +68,4 @@ Value is 4.
 ## -remarks
 
 ## -see-also
+

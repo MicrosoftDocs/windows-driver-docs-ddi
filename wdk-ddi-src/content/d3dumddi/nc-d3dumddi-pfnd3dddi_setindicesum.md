@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetIndicesUM
+ - PFND3DDDI_SETINDICESUM
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ A pointer to the user-memory buffer that supplies the indices for the index buff
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

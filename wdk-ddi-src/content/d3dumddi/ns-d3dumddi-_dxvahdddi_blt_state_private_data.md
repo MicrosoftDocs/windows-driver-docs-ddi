@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE_PRIVATE_DATA
  - DXVAHDDDI_BLT_STATE_PRIVATE_DATA
 ---
 
@@ -82,3 +83,4 @@ Unlike other bitblt states (<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate">SetVideoProcessBltState</a>
+

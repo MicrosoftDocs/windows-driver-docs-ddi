@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveCyclicStream.SetNotificationFreq
+ - IMiniportWaveCyclicStream::SetNotificationFreq
 ---
 
 # IMiniportWaveCyclicStream::SetNotificationFreq
@@ -84,3 +84,4 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+

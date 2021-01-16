@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvUnLockWiaDevice
+ - IWiaMiniDrv::drvUnLockWiaDevice
 ---
 
 # IWiaMiniDrv::drvUnLockWiaDevice
@@ -98,3 +98,4 @@ The minidriver's implementation of the **IWiaMiniDrv::drvUnLockWiaDevice** metho
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
 [IWiaMiniDrv::drvLockWiaDevice](./nf-wiamindr_lh-iwiaminidrv-drvlockwiadevice.md)
+

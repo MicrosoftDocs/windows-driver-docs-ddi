@@ -41,6 +41,8 @@ api_type:
 api_location:
  - npivwmi.h
 api_name:
+ - _MSFC_FibrePortNPIVAttributes
+ - PMSFC_FibrePortNPIVAttributes
  - MSFC_FibrePortNPIVAttributes
 ---
 
@@ -72,3 +74,4 @@ An array of virtual ports. The array length is specified in the <b>NumberVirtual
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msfc-fibreportnpivattributes-wmi-class">MSFC_FibrePortNPIVAttributes WMI Class</a>
+

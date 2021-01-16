@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.RestartDevice
+ - IWDTFPNPActions2::RestartDevice
 ---
 
 # IWDTFPNPActions2::RestartDevice
@@ -62,5 +62,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 From a SetupDi interface perspective, this will translate to a DICS_PROPCHANGE.   
 See the MSDN docs for details.
-
 

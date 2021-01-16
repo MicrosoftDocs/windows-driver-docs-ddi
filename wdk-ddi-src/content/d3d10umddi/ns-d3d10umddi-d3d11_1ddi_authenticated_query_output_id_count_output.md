@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
+ - D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_OUTPUT
  - D3D11_1DDI_AUTHENTICATED_CHANNEL_QUERY_OUTPUT_ID_COUNT_OUTPUT
 ---
 
@@ -74,3 +75,4 @@ The number of output IDs associated with the specified device and cryptographic 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a>
+

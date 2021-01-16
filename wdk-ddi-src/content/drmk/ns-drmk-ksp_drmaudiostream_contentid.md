@@ -39,6 +39,7 @@ api_type:
 api_location:
  - drmk.h
 api_name:
+ - PKSP_DRMAUDIOSTREAM_CONTENTID
  - KSP_DRMAUDIOSTREAM_CONTENTID
 ---
 
@@ -126,3 +127,4 @@ The structure contains function pointers to the DRM library functions in order t
 
 
 <a href="/previous-versions/ff537351(v=vs.85)">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+

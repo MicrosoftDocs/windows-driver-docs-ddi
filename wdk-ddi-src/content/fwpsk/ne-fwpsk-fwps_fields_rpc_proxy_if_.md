@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_RPC_PROXY_IF_
  - FWPS_FIELDS_RPC_PROXY_IF_IF
 ---
 
@@ -90,3 +91,4 @@ The object identifier (OID) in the client certificate.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

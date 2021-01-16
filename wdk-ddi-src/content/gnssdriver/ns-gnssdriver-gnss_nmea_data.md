@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_NMEA_DATA
  - GNSS_NMEA_DATA
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_EXCEPTION_FILTER_PARAMETERS
+ - PDEBUG_EXCEPTION_FILTER_PARAMETERS
  - DEBUG_EXCEPTION_FILTER_PARAMETERS
 ---
 
@@ -84,3 +86,4 @@ The exception code for the exception filter.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexceptionfilterparameters">SetExceptionFilterParameters</a>
+

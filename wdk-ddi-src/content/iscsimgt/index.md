@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - iscsimgt
  - iscsimgt/iscsimgt
+api_name:
+ - iscsimgt
 ---
 
 # Iscsimgt.h header

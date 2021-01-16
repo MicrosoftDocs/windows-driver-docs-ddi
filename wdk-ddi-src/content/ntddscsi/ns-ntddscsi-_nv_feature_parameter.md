@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _NV_FEATURE_PARAMETER
+ - PNV_FEATURE_PARAMETER
  - NV_FEATURE_PARAMETER
 ---
 
 # NV_FEATURE_PARAMETER structure
+
 
 ## -description
 
@@ -99,3 +102,4 @@ Taken from word 219, bits 0 through 7 of the IDENTIFY DEVICE data, this field co
 [**IOCTL_SCSI_MINIPORT_NVCACHE**](./ni-ntddscsi-ioctl_scsi_miniport_nvcache.md)
 
 [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md)
+

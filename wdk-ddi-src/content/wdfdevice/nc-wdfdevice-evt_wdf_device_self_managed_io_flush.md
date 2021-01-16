@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceSelfManagedIoFlush
+ - EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH
 ---
 
 # EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback function
@@ -83,3 +83,4 @@ You must declare the function by using the EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_suspend">EvtDeviceSelfManagedIoSuspend</a>
+

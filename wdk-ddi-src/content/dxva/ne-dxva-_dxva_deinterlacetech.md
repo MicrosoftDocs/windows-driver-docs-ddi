@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_DeinterlaceTech
  - DXVA_DeinterlaceTech
 ---
 
@@ -90,3 +91,4 @@ Identifies objects within a sequence of video fields. The missing pixels are rec
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacecaps">DXVA_DeinterlaceCaps</a>
+

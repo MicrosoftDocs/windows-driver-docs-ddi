@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - ks
  - ks/ks
+api_name:
+ - ks
 ---
 
 # Ks.h header

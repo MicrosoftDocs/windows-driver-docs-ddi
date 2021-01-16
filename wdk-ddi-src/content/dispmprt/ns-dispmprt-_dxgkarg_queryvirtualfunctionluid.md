@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKARG_QUERYVIRTUALFUNCTIONLUID
+ - PDXGKARG_QUERYVIRTUALFUNCTIONLUID
+ - DXGKARG_QUERYVIRTUALFUNCTIONLUID
 product:
  - Windows
 dev_langs:

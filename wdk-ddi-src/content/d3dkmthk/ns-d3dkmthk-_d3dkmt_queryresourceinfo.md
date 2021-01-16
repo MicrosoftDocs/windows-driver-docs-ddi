@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_QUERYRESOURCEINFO
  - D3DKMT_QUERYRESOURCEINFO
 ---
 
@@ -86,3 +87,4 @@ The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving infor
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a>
+

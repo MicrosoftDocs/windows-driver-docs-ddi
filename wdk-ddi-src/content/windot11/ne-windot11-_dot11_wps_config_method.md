@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WPS_CONFIG_METHOD
+ - PDOT11_WPS_CONFIG_METHOD
  - DOT11_WPS_CONFIG_METHOD
 product:
  - Windows 10 or later.
@@ -87,3 +89,4 @@ typedef enum _DOT11_WPS_CONFIG_METHOD {
   DOT11_WPS_CONFIG_METHOD_KEYPAD      = 0x0100
 } DOT11_WPS_CONFIG_METHOD;
 ```
+

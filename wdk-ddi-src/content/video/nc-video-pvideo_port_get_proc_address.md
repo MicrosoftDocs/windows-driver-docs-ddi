@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - VideoPortGetProcAddress
+ - PVIDEO_PORT_GET_PROC_ADDRESS
 ---
 
 # PVIDEO_PORT_GET_PROC_ADDRESS callback function
@@ -72,3 +72,4 @@ The <b>VideoPortGetProcAddress</b> member of the <a href="/windows-hardware/driv
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
+

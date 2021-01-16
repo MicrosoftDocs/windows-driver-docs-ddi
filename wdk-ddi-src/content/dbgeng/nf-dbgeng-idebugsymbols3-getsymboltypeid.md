@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetSymbolTypeId
- - IDebugSymbols2.GetSymbolTypeId
- - IDebugSymbols3.GetSymbolTypeId
+ - IDebugSymbols3::GetSymbolTypeId
 ---
 
 # IDebugSymbols3::GetSymbolTypeId
@@ -113,3 +111,4 @@ For more information about symbols, see <a href="/windows-hardware/drivers/debug
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

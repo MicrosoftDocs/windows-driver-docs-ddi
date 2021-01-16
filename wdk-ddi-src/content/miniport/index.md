@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - miniport
  - miniport/miniport
+api_name:
+ - miniport
 ---
 
 # Miniport.h header

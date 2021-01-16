@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - PutScatterGatherList
+ - PPUT_SCATTER_GATHER_LIST
 ---
 
 # PPUT_SCATTER_GATHER_LIST callback function
@@ -92,3 +92,4 @@ Drivers should call <b>PutScatterGatherList</b> after completing scatter/gather 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

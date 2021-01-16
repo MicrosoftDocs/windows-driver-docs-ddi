@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PVRAM_SURFACE_INFO_PROPERTY_S
  - VRAM_SURFACE_INFO_PROPERTY_S
 ---
 
@@ -66,3 +67,4 @@ This member specifies a pointer to a structure of type <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-vram_surface_info">VRAM_SURFACE_INFO</a>
+

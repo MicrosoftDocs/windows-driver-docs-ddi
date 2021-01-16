@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUIMXDC.AdjustDPI
+ - IPrintOemUIMXDC::AdjustDPI
 ---
 
 # IPrintOemUIMXDC::AdjustDPI
@@ -82,3 +82,4 @@ A pointer to the current resolution, in dots per inch (DPI), assuming square pix
 The <i>pDPI</i> parameter is IN OUT. All other parameters for this function are input only.
 
 If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT, which causes the current print job to fail.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ - PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
  - DEBUG_LAST_EVENT_INFO_EXIT_THREAD
 ---
 

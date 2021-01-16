@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_FREQUENCY_S
  - KSPROPERTY_TUNER_FREQUENCY_S
 ---
 
@@ -98,3 +99,4 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

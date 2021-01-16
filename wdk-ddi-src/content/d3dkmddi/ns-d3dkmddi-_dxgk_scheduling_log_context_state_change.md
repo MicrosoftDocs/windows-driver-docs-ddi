@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
+ - DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
 dev_langs:
  - c++
 ---

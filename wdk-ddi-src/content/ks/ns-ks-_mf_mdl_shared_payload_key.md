@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _MF_MDL_SHARED_PAYLOAD_KEY
+ - PMF_MDL_SHARED_PAYLOAD_KEY
  - MF_MDL_SHARED_PAYLOAD_KEY
 ---
 

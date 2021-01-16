@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfmemory
  - wdfmemory/wdfmemory
+api_name:
+ - wdfmemory
 ---
 
 # Wdfmemory.h header

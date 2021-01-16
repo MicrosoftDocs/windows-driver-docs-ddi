@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_PROPERTY_DATA
+ - PWDF_DEVICE_PROPERTY_DATA
  - WDF_DEVICE_PROPERTY_DATA
 ---
 
@@ -118,3 +120,4 @@ Drivers should initialize this structure by calling <a href="/windows-hardware/d
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitquerypropertyex">WdfFdoInitQueryPropertyEx</a>
+

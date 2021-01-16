@@ -38,7 +38,6 @@ api_location:
  - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
  - PFND3DKMT_SETSTEREOENABLED
- - D3DKMTSetStereoEnabled
 dev_langs:
  - c++
 ---

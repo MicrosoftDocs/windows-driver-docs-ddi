@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_UICC_PASSTHROUGH_ACTION
+ - PWWAN_UICC_PASSTHROUGH_ACTION
  - WWAN_UICC_PASSTHROUGH_ACTION
 ---
 
@@ -73,3 +75,4 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a>
+

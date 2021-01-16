@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _DVD_COPYRIGHT_DESCRIPTOR
+ - PDVD_COPYRIGHT_DESCRIPTOR
  - DVD_COPYRIGHT_DESCRIPTOR
 ---
 
@@ -68,3 +70,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

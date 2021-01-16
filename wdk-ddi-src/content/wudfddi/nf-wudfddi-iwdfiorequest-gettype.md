@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetType
+ - IWDFIoRequest::GetType
 ---
 
 # IWDFIoRequest::GetType
@@ -60,3 +60,4 @@ The <b>GetType</b> method retrieves the type of operation that a request contain
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>
+

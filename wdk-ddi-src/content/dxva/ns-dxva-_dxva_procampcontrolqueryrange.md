@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ProcAmpControlQueryRange
+ - LPDXVA_ProcAmpControlQueryRange
  - DXVA_ProcAmpControlQueryRange
 ---
 
@@ -72,3 +74,4 @@ Specifies a <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc"
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
+

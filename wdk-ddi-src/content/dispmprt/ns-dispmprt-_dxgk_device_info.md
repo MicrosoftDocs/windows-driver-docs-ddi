@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_DEVICE_INFO
+ - PDXGK_DEVICE_INFO
  - DXGK_DEVICE_INFO
 ---
 
@@ -104,3 +106,4 @@ The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_DEVICEINFO
  - DXGK_DEVICEINFO
 ---
 
@@ -136,3 +137,4 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL
  - D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 ---
 
@@ -88,3 +89,4 @@ Configuration state that an authenticated channel sets cannot be disabled by ano
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SYSTEM_ALARM_ACE
  - SYSTEM_ALARM_ACE
 ---
 

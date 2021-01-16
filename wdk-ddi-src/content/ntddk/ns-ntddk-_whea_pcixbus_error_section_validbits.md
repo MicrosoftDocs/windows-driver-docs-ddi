@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS
+ - PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS
  - WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS
 ---
 
@@ -106,3 +108,4 @@ A WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union is contained within the <a href="/w
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section">WHEA_PCIXBUS_ERROR_SECTION</a>
+

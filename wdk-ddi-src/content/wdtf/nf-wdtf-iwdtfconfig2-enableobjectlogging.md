@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFCONFIG2.EnableObjectLogging
+ - IWDTFCONFIG2::EnableObjectLogging
 ---
 
 # IWDTFCONFIG2::EnableObjectLogging
@@ -60,3 +60,4 @@ test scripts log.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfconfig2">IWDTFCONFIG2</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPIN_DATAFLOW
  - KSPIN_DATAFLOW
 ---
 
@@ -70,3 +71,4 @@ Indicates that the pin factory instantiates data source pins. Such pins can only
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
+

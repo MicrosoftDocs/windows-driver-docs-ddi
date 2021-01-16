@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+ - PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT
  - STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
 product:
  - Windows
@@ -106,3 +108,4 @@ Reserved for future use; do not use.
 [IOCTL_STORAGE_SET_PROPERTY](./ni-ntddstor-ioctl_storage_set_property.md)
 
 [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-ntddstor-_storage_protocol_specific_data.md)
+

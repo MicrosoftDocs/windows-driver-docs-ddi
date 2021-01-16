@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.SetInputCallbacks
- - IDebugClient2.SetInputCallbacks
- - IDebugClient3.SetInputCallbacks
- - IDebugClient4.SetInputCallbacks
- - IDebugClient5.SetInputCallbacks
+ - IDebugClient::SetInputCallbacks
 ---
 
 # IDebugClient::SetInputCallbacks
@@ -113,3 +109,4 @@ The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown<
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a>
+

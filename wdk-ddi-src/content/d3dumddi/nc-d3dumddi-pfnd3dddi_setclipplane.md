@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetClipPlane
+ - PFND3DDDI_SETCLIPPLANE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The coefficients that are passed to <i>SetClipPlane</i> in the <b>Plane</b> arra
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

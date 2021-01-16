@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _PD_BUFFER_VIRTUAL_SUBNET_INFO
  - PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
 

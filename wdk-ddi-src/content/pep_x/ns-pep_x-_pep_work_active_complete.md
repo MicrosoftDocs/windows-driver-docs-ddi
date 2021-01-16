@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_WORK_ACTIVE_COMPLETE
+ - PPEP_WORK_ACTIVE_COMPLETE
  - PEP_WORK_ACTIVE_COMPLETE
 ---
 
@@ -76,3 +78,4 @@ The <b>ActiveComplete</b> member of the <a href="/windows-hardware/drivers/ddi/p
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

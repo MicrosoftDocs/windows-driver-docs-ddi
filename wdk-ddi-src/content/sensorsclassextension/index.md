@@ -12,6 +12,8 @@ tech.root: sensors
 f1_keywords:
  - sensorsclassextension
  - sensorsclassextension/sensorsclassextension
+api_name:
+ - sensorsclassextension
 ---
 
 # Sensorsclassextension.h header

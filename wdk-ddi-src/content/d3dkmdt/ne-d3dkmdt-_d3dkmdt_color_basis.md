@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_COLOR_BASIS enumeration"]
 ms.keywords: D3DKMDT_CB_INTENSITY, D3DKMDT_CB_SCRGB, D3DKMDT_CB_SRGB, D3DKMDT_CB_UNINITIALIZED, D3DKMDT_CB_YCBCR, D3DKMDT_CB_YPBPR, D3DKMDT_COLOR_BASIS, D3DKMDT_COLOR_BASIS enumeration [Display Devices], DmEnums_68aa2c18-ed0d-429d-88c3-7a9a7913c7c6.xml, _D3DKMDT_COLOR_BASIS, d3dkmdt/D3DKMDT_CB_INTENSITY, d3dkmdt/D3DKMDT_CB_SCRGB, d3dkmdt/D3DKMDT_CB_SRGB, d3dkmdt/D3DKMDT_CB_UNINITIALIZED, d3dkmdt/D3DKMDT_CB_YCBCR, d3dkmdt/D3DKMDT_CB_YPBPR, d3dkmdt/D3DKMDT_COLOR_BASIS, display.d3dkmdt_color_basis
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_COLOR_BASIS
  - D3DKMDT_COLOR_BASIS
 ---
 

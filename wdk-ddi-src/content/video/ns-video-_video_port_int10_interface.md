@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_INT10_INTERFACE
+ - PVIDEO_PORT_INT10_INTERFACE
  - VIDEO_PORT_INT10_INTERFACE
 ---
 
@@ -100,3 +102,4 @@ PnP video miniport drivers that intend to make BIOS calls should fill in the <b>
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+

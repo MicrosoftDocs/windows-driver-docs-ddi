@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _SCSI_ADDR
+ - PSCSI_ADDR
  - SCSI_ADDR
 ---
 

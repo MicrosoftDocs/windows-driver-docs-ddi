@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSEVENT_TUNER_INITIATE_SCAN_S
  - KSEVENT_TUNER_INITIATE_SCAN_S
 ---
 
@@ -70,3 +71,4 @@ The final frequency, in Hz, for a scan operation.
 
 
 <a href="/windows-hardware/drivers/stream/ksevent-tuner-initiate-scan">KSEVENT_TUNER_INITIATE_SCAN</a>
+

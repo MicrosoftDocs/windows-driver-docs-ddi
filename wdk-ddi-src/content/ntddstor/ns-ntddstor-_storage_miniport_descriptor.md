@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_MINIPORT_DESCRIPTOR
+ - PSTORAGE_MINIPORT_DESCRIPTOR
  - STORAGE_MINIPORT_DESCRIPTOR
 ---
 
@@ -91,3 +93,4 @@ Indicates whether a target reset is supported.
 ### -field Reserved1
 
 <b>Introduced in Windows 8.1:  </b>Reserved for future use.
+

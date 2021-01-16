@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.SetOutputWidth
+ - IDebugClient::SetOutputWidth
 ---
 
 # IDebugClient::SetOutputWidth
@@ -84,3 +84,4 @@ This setting is a suggestion that can be overridden by other settings.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
+

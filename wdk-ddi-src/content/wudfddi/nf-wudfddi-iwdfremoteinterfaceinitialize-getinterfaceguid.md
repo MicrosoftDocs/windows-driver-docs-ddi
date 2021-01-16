@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteInterfaceInitialize.GetInterfaceGuid
+ - IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 ---
 
 # IWDFRemoteInterfaceInitialize::GetInterfaceGuid
@@ -79,7 +79,6 @@ CMyDevice::OnRemoteInterfaceArrival(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterfaceinitialize">IWDFRemoteInterfaceInitialize</a>
@@ -87,3 +86,4 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremoteinterfaceinitialize-retrievesymboliclink">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
+

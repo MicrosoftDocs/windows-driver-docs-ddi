@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - tagWNODE_EVENT_ITEM
+ - PWNODE_EVENT_ITEM
  - WNODE_EVENT_ITEM
 ---
 
@@ -98,3 +100,4 @@ For best performance, events should be small in size. However, if the amount of 
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_single_item">WNODE_SINGLE_ITEM</a>
+

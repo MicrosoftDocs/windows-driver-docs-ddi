@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsiscan.h
 api_name:
+ - _SCSISCAN_CMD
+ - PSCSISCAN_CMD
  - SCSISCAN_CMD
 ---
 
@@ -96,3 +98,4 @@ Caller-supplied pointer that will receive one of the SRB_STATUS-prefixed status 
 ### -field pSenseBuffer
 
 Caller-supplied pointer to a request-sense buffer, to be filled in by the kernel-mode driver.
+

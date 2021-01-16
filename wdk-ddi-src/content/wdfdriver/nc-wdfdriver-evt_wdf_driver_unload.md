@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdriver.h
 api_name:
- - EvtDriverUnload
+ - EVT_WDF_DRIVER_UNLOAD
 ---
 
 # EVT_WDF_DRIVER_UNLOAD callback function
@@ -70,3 +70,4 @@ You must declare the function by using the EVT_WDF_DRIVER_UNLOAD type. For more 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
+

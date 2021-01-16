@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - scavengr
  - scavengr/scavengr
+api_name:
+ - scavengr
 ---
 
 # Scavengr.h header

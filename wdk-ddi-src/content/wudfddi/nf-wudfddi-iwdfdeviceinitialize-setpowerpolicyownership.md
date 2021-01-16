@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.SetPowerPolicyOwnership
+ - IWDFDeviceInitialize::SetPowerPolicyOwnership
 ---
 
 # IWDFDeviceInitialize::SetPowerPolicyOwnership
@@ -76,3 +76,4 @@ For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
+

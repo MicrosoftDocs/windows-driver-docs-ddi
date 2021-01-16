@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_SURPRISE_REMOVAL_TYPE
  - DXGK_SURPRISE_REMOVAL_TYPE
 ---
 

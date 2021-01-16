@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _MESSAGE_INTERRUPT_INFORMATION
+ - PMESSAGE_INTERRUPT_INFORMATION
  - MESSAGE_INTERRUPT_INFORMATION
 ---
 
@@ -84,3 +86,4 @@ Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMAT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportgetmsiinfo">StorPortGetMSIInfo</a>
+

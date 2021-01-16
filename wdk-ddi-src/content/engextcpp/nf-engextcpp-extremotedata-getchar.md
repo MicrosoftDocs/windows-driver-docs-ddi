@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.GetChar
+ - ExtRemoteData::GetChar
 ---
 
 # ExtRemoteData::GetChar
@@ -66,3 +66,4 @@ The size of the memory represented by the <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getuchar">ExtRemoteData::GetUchar</a>
+

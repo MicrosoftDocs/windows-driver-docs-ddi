@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_DEVICE_PNP_STATE
+ - PWDF_DEVICE_PNP_STATE
  - WDF_DEVICE_PNP_STATE
 ---
 
@@ -59,3 +61,4 @@ The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the frame
 ## -remarks
 
 The WDF_DEVICE_PNP_STATE enumeration is used as a member type for  the <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_notification_data">WDF_DEVICE_PNP_NOTIFICATION_DATA</a> structure and as the return type for the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicepnpstate">WdfDeviceGetDevicePnpState</a> method.
+

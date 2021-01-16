@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnSetDisplayModeCb
+ - PFND3DDDI_SETDISPLAYMODECB
 product:
  - Windows
 ---
@@ -123,3 +123,4 @@ HRESULT CD3DContext::SetDisplayMode(CONST D3DDDIARG_SETDISPLAYMODE* pSetDisplayM
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">SetDisplayModeDXGI</a>
+

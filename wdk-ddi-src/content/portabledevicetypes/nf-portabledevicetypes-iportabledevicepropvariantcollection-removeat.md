@@ -39,7 +39,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropVariantCollection.RemoveAt
+ - IPortableDevicePropVariantCollection::RemoveAt
 ---
 
 # IPortableDevicePropVariantCollection::RemoveAt
@@ -96,3 +96,4 @@ You must specify a zero-based index.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
+

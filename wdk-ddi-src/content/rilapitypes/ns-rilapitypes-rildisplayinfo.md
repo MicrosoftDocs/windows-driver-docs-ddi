@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDISPLAYINFO
+ - LPRILDISPLAYINFO
 ---
 
 # RILDISPLAYINFO structure (rilapitypes.h)

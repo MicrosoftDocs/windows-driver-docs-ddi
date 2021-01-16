@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_DEVICE_IO_BUFFER_RETRIEVAL
+ - PWDF_DEVICE_IO_BUFFER_RETRIEVAL
  - WDF_DEVICE_IO_BUFFER_RETRIEVAL
 ---
 
@@ -104,3 +106,4 @@ For more information about accessing an I/O request's data buffers, see <a href=
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_type">WDF_DEVICE_IO_TYPE (UMDF)</a>
+

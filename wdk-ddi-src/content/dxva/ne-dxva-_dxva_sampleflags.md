@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_SampleFlags
  - DXVA_SampleFlags
 ---
 
@@ -82,3 +83,4 @@ Indicates that the color data of the sample frame changed.
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videosample2">DXVA_VideoSample2</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETGEOLOCATIONDATAPARAMS
+ - LPRILSETGEOLOCATIONDATAPARAMS
 ---
 
 # RILSETGEOLOCATIONDATAPARAMS structure (ntddrilapitypes.h)

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - DrawPrimitive
+ - PFND3DDDI_DRAWPRIMITIVE
 ---
 
 # PFND3DDDI_DRAWPRIMITIVE callback function
@@ -83,3 +83,4 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

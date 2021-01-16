@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_UPDATE
+ - EVT_UCX_USBDEVICE_UPDATE
 ---
 
 # EVT_UCX_USBDEVICE_UPDATE callback function
@@ -94,7 +94,6 @@ UsbDevice_EvtUcxUsbDeviceUpdate(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
@@ -110,3 +109,4 @@ UsbDevice_EvtUcxUsbDeviceUpdate(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks">UcxUsbDeviceInitSetEventCallbacks</a>
+

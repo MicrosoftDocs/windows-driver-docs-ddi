@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
  - DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
 ---
 
@@ -74,3 +75,4 @@ Pixel aspect ratios (0, any value) and (any value, 0) are invalid and causes the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a>
+

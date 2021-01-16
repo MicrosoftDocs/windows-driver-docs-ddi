@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_PSHED_PLUGIN_REGISTER
+ - PWHEAP_PSHED_PLUGIN_REGISTER
  - WHEAP_PSHED_PLUGIN_REGISTER
 product:
  - Windows

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_ADAPTER_BUS_INFO
+ - PSCSI_ADAPTER_BUS_INFO
  - SCSI_ADAPTER_BUS_INFO
 ---
 
@@ -122,3 +124,4 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_inquiry_data">SCSI_INQUIRY_DATA</a>
+

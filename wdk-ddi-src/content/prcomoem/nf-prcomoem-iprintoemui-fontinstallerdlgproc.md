@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI.FontInstallerDlgProc
+ - IPrintOemUI::FontInstallerDlgProc
 ---
 
 # IPrintOemUI::FontInstallerDlgProc
@@ -124,3 +124,4 @@ If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lP
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-updateexternalfonts">IPrintOemUI::UpdateExternalFonts</a>
+

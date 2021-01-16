@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _OPCR
+ - POPCR
  - OPCR
 ---
 
@@ -88,3 +90,4 @@ Indicates, when one, that the corresponding output plug is on-line. When zero it
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_pcr">AV_PCR</a>
+

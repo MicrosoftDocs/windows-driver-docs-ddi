@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.EDTCancelRemoveDevice
+ - IWDTFPNPAction2::EDTCancelRemoveDevice
 ---
 
 # IWDTFPNPAction2::EDTCancelRemoveDevice
@@ -69,3 +69,4 @@ by intentionally failing an IRP_MN_QUERY_REMOVE_DEVICE event.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

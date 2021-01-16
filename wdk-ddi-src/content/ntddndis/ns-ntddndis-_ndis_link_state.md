@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_LINK_STATE
+ - PNDIS_LINK_STATE
  - NDIS_LINK_STATE
 ---
 
@@ -205,3 +207,4 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 <a href="/windows-hardware/drivers/network/oid-gen-media-duplex-state">
  OID_GEN_MEDIA_DUPLEX_STATE</a>
+

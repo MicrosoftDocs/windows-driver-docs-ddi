@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KBUGCHECK_DUMP_IO
+ - PKBUGCHECK_DUMP_IO
  - KBUGCHECK_DUMP_IO
 ---
 
@@ -78,3 +80,4 @@ For information about how this structure is used, see <a href="/windows-hardware
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_dump_io_type">KBUGCHECK_DUMP_IO_TYPE</a>
+

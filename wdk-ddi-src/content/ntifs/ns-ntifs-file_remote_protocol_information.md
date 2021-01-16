@@ -34,6 +34,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_REMOTE_PROTOCOL_INFORMATION
+ - PFILE_REMOTE_PROTOCOL_INFORMATION
  - FILE_REMOTE_PROTOCOL_INFORMATION
 product:
  - Windows
@@ -137,3 +139,4 @@ Should be set to zero. Do not use this member.
 [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md)
 
 [FltQueryInformationFile](../fltkernel/nf-fltkernel-fltqueryinformationfile.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_CONTEXTINFO
  - DXGK_CONTEXTINFO
 ---
 
@@ -157,3 +158,4 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

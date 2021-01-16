@@ -39,6 +39,7 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _PosStatisticsHeader
  - PosStatisticsHeader
 ---
 
@@ -62,3 +63,4 @@ A <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ns-pointofser
 ### -field DataLength
 
 Indicates the length, in bytes, of the **PosStatisticsHeader** and the buffer of <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry">PosValueStatisticsEntry</a> that follow this structure in memory.
+

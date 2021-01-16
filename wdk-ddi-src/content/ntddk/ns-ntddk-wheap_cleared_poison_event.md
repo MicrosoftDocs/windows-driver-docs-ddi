@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_CLEARED_POISON_EVENT
+ - PWHEAP_CLEARED_POISON_EVENT
  - WHEAP_CLEARED_POISON_EVENT
 product:
  - Windows

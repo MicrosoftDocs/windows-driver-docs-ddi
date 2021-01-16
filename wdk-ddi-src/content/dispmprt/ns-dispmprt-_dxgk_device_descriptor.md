@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_DEVICE_DESCRIPTOR
+ - PDXGK_DEVICE_DESCRIPTOR
  - DXGK_DEVICE_DESCRIPTOR
 ---
 
@@ -80,3 +82,4 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_device_descriptor">DxgkDdiQueryDeviceDescriptor</a>
+

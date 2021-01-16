@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NET_PNP_EVENT
+ - PNET_PNP_EVENT
  - NET_PNP_EVENT
 ---
 
@@ -1015,3 +1017,4 @@ The
 
 
 <a href="/windows-hardware/drivers/network/querying-the-hyper-v-extensible-switch-configuration">Querying the Hyper-V Extensible Switch Configuration</a>
+

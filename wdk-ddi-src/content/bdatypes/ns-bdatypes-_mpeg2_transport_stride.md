@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _MPEG2_TRANSPORT_STRIDE
+ - PMPEG2_TRANSPORT_STRIDE
  - MPEG2_TRANSPORT_STRIDE
 ---
 

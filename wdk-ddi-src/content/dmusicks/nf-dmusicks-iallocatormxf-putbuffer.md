@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IAllocatorMXF.PutBuffer
+ - IAllocatorMXF::PutBuffer
 ---
 
 # IAllocatorMXF::PutBuffer
@@ -74,3 +74,4 @@ The miniport driver does not need to use this method because when the miniport d
 
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a>
+

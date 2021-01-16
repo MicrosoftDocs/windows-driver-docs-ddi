@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _NVCACHE_REQUEST_BLOCK
+ - PNVCACHE_REQUEST_BLOCK
  - NVCACHE_REQUEST_BLOCK
 ---
 
 # _NVCACHE_REQUEST_BLOCK structure
+
 
 ## -description
 
@@ -121,3 +124,4 @@ For more information on function behavior, see section 7.20 of the ATA8-ACS spec
 [**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md)
 
 [**IOCTL_SCSI_MINIPORT_NVCACHE**](./ni-ntddscsi-ioctl_scsi_miniport_nvcache.md)
+

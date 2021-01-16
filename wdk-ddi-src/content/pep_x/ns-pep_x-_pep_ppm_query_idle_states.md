@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_PPM_QUERY_IDLE_STATES
+ - PPEP_PPM_QUERY_IDLE_STATES
  - PEP_PPM_QUERY_IDLE_STATES
 ---
 
@@ -80,3 +82,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_processor_idle_state">PEP_PROCESSOR_IDLE_STATE</a>
+

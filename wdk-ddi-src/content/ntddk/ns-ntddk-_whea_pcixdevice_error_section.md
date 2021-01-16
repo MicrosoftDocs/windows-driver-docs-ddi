@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PCIXDEVICE_ERROR_SECTION
+ - PWHEA_PCIXDEVICE_ERROR_SECTION
  - WHEA_PCIXDEVICE_ERROR_SECTION
 ---
 
@@ -199,3 +201,4 @@ The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is con
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section_validbits">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>
+

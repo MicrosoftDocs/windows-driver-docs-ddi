@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
+ - PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR
  - STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 ---
 
@@ -93,3 +95,4 @@ Size of a stripe unit of the storage device, in bytes. This is also referred to 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+

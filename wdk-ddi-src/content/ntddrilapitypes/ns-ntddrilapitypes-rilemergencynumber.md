@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILEMERGENCYNUMBER
+ - LPRILEMERGENCYNUMBER
 ---
 
 # RILEMERGENCYNUMBER structure (ntddrilapitypes.h)

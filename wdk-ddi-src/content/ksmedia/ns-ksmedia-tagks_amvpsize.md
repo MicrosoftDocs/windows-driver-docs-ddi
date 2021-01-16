@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_AMVPSIZE
+ - PKS_AMVPSIZE
  - KS_AMVPSIZE
 ---
 
@@ -68,3 +70,4 @@ This structure is used by the <a href="/windows-hardware/drivers/stream/ksproper
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-scalefactor">KSPROPERTY_VPCONFIG_SCALEFACTOR</a>
+

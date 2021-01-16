@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - CancelAdapterChannel
+ - PCANCEL_ADAPTER_CHANNEL
 ---
 
 # PCANCEL_ADAPTER_CHANNEL callback function
@@ -135,3 +135,4 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

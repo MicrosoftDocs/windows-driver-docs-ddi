@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IHostDataModelAccess.Release
+ - IHostDataModelAccess::Release
 ---
 
 # IHostDataModelAccess::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataHostModelAccess interface](nn-dbgmodel-ihostdatamodelaccess.md)
+

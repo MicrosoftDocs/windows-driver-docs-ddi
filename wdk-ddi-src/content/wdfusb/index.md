@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfusb
  - wdfusb/wdfusb
+api_name:
+ - wdfusb
 ---
 
 # Wdfusb.h header

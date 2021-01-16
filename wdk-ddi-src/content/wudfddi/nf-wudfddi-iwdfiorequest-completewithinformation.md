@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.CompleteWithInformation
+ - IWDFIoRequest::CompleteWithInformation
 ---
 
 # IWDFIoRequest::CompleteWithInformation
@@ -80,3 +80,4 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
+

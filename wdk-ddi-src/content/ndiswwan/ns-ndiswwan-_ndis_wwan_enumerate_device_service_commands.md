@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+ - PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
  - NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
 ---
 
@@ -106,3 +108,4 @@ For more information about these members, see
 ### -field DeviceServiceGuid
 
 The GUID of the device service for which commands should be enumerated.
+

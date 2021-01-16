@@ -30,6 +30,7 @@ api_location:
  - ntddvdeo.h
 api_name:
  - _BRIGHTNESS_INTERFACE_VERSION
+ - BRIGHTNESS_INTERFACE_VERSION
 product:
  - Windows
 ---

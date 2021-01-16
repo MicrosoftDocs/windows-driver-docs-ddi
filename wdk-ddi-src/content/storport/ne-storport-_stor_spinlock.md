@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_SPINLOCK
  - STOR_SPINLOCK
 ---
 
@@ -66,3 +67,4 @@ Indicates an Interrupt spinlock.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
+

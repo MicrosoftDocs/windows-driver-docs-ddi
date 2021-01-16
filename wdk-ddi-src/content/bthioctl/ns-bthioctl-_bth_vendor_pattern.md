@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_VENDOR_PATTERN
+ - PBTH_VENDOR_PATTERN
  - BTH_VENDOR_PATTERN
 ---
 
@@ -81,3 +83,4 @@ Patterns are required if a vendor-specific command does not follow the standard 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a>
+

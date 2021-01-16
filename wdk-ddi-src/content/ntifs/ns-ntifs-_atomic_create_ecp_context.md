@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _ATOMIC_CREATE_ECP_CONTEXT
+ - PATOMIC_CREATE_ECP_CONTEXT
  - ATOMIC_CREATE_ECP_CONTEXT
 ---
 
@@ -246,3 +248,4 @@ Specifies the Update Sequence Number (USN). This value is filled at the end of <
 ## -remarks
 
 The GUID used for this structure is the <b>GUID_ECP_ATOMIC_CREATE</b> (<code>4720bd83-52ac-4104-a130-d1ec6a8cc8e5</code>).
+

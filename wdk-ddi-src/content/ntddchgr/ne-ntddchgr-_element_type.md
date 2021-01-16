@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _ELEMENT_TYPE
+ - PELEMENT_TYPE
  - ELEMENT_TYPE
 ---
 
@@ -96,3 +98,4 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 
 <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a>
+

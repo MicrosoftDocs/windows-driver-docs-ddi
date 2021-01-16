@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _DISK_INT13_INFO
+ - PDISK_INT13_INFO
  - DISK_INT13_INFO
 ---
 
@@ -80,3 +82,4 @@ Indicates the number of drives.
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a>
+

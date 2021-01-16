@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPSMEDIACONFIGURATIONSET
+ - LPRILPSMEDIACONFIGURATIONSET
 ---
 
 # RILPSMEDIACONFIGURATIONSET structure (rilapitypes.h)

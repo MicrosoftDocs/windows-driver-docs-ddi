@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - RequestCommon
+ - POFXCALLBACKREQUESTCOMMON
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback function (pep_x.h)
@@ -72,3 +72,4 @@ A PEP can call this routine at IRQL <= HIGH_LEVEL.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+

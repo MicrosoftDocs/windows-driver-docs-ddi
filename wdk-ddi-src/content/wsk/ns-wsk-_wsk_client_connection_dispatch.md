@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_CLIENT_CONNECTION_DISPATCH
+ - PWSK_CLIENT_CONNECTION_DISPATCH
  - WSK_CLIENT_CONNECTION_DISPATCH
 ---
 
@@ -141,3 +143,4 @@ As a returned parameter when the WSK subsystem calls the WSK application's
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+

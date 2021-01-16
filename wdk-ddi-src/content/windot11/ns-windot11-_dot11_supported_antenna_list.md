@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_ANTENNA_LIST
+ - PDOT11_SUPPORTED_ANTENNA_LIST
  - DOT11_SUPPORTED_ANTENNA_LIST
 product:
  - Windows 10 or later.
@@ -174,3 +176,4 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 <a href="/previous-versions/ms893804(v=msdn.10)">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
+

@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3dukmdt
  - d3dukmdt/d3dukmdt
+api_name:
+ - d3dukmdt
 ---
 
 # D3Dukmdt.h header

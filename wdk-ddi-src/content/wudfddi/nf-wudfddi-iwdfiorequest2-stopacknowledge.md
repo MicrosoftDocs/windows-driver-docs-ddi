@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.StopAcknowledge
+ - IWDFIoRequest2::StopAcknowledge
 ---
 
 # IWDFIoRequest2::StopAcknowledge
@@ -129,7 +129,6 @@ CMyReadWriteQueue::OnIoStop(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackioresume-onioresume">IQueueCallbackIoResume::OnIoResume</a>
@@ -141,3 +140,4 @@ CMyReadWriteQueue::OnIoStop(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
+

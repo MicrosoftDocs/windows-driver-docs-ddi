@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - aux_klib
  - aux_klib/aux_klib
+api_name:
+ - aux_klib
 ---
 
 # Aux_Klib.h header

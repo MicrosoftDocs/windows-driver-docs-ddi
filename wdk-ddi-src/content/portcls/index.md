@@ -12,6 +12,8 @@ tech.root: audio
 f1_keywords:
  - portcls
  - portcls/portcls
+api_name:
+ - portcls
 ---
 
 # Portcls.h header

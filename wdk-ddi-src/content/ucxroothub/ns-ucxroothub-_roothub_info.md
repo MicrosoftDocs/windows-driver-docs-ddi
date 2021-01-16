@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _ROOTHUB_INFO
+ - PROOTHUB_INFO
  - ROOTHUB_INFO
 ---
 
@@ -80,3 +82,4 @@ The exit latency for the slowest link for U2 transition.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_info">EVT_UCX_ROOTHUB_GET_INFO</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.Diagnostic
+ - IStiUSD::Diagnostic
 ---
 
 # IStiUSD::Diagnostic
@@ -68,3 +68,4 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

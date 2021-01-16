@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_AddPort_IN
+ - PSM_AddPort_IN
  - SM_AddPort_IN
 ---
 

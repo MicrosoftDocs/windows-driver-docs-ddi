@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidInterrupt
+ - PVIDEO_HW_INTERRUPT
 ---
 
 # PVIDEO_HW_INTERRUPT callback function
@@ -163,3 +163,4 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
+

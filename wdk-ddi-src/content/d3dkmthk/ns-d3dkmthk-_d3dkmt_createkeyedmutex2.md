@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_CREATEKEYEDMUTEX2
  - D3DKMT_CREATEKEYEDMUTEX2
 ---
 
@@ -82,3 +83,4 @@ Describes a keyed mutex that the <a href="/windows-hardware/drivers/ddi/d3dkmthk
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
+

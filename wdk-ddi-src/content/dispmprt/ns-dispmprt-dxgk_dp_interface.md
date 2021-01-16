@@ -29,6 +29,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_DP_INTERFACE
+ - PDXGK_DP_INTERFACE
  - DXGK_DP_INTERFACE
 f1_keywords:
  - _DXGK_DP_INTERFACE
@@ -111,3 +112,4 @@ Pointer to the display miniport driver's [DXGKDDI_DPSBMTRANSMISSION](nc-dispmprt
 [**PINTERFACE_DEREFERENCE**](../wdm/nc-wdm-pinterface_dereference.md)
 
 [**PINTERFACE_REFERENCE**](../wdm/nc-wdm-pinterface_reference.md)
+

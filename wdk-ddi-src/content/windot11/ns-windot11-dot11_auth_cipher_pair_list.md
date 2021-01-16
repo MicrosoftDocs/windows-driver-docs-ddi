@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_AUTH_CIPHER_PAIR_LIST
+ - PDOT11_AUTH_CIPHER_PAIR_LIST
 product:
  - Windows 10 or later.
 ---
@@ -192,3 +193,4 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

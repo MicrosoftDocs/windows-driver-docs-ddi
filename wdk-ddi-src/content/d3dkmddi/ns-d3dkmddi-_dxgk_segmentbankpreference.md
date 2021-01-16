@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SEGMENTBANKPREFERENCE
  - DXGK_SEGMENTBANKPREFERENCE
 ---
 
@@ -128,3 +129,4 @@ The display miniport driver can indicate up to four bank preferences in the <b>H
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+

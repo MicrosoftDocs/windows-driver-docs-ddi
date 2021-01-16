@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_ENUM_FILTERS
+ - PNDIS_ENUM_FILTERS
  - NDIS_ENUM_FILTERS
 ---
 
@@ -106,3 +108,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
+

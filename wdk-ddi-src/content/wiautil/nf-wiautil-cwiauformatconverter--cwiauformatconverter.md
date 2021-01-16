@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauFormatConverter.~CWiauFormatConverter
+ - CWiauFormatConverter::~CWiauFormatConverter
 ---
 
 # CWiauFormatConverter::~CWiauFormatConverter
@@ -54,3 +54,4 @@ The <b>CWiauFormatConverter::~CWiauFormatConverter</b> method is the destructor 
 
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-cwiauformatconverter">CWiauFormatConverter::CWiauFormatConverter</a>
+

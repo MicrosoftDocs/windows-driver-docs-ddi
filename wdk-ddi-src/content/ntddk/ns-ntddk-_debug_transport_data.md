@@ -36,6 +36,8 @@ api_location:
  - ntddk.h
 api_name:
  - _DEBUG_TRANSPORT_DATA
+ - PDEBUG_TRANSPORT_DATA
+ - DEBUG_TRANSPORT_DATA
 ---
 
 # _DEBUG_TRANSPORT_DATA structure

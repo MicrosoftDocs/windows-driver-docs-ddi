@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_WriteGpioPins
+ - GPIO_CLIENT_WRITE_PINS
 ---
 
 # GPIO_CLIENT_WRITE_PINS callback function
@@ -121,3 +121,4 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_write_pins_parameters">GPIO_WRITE_PINS_PARAMETERS</a>
+

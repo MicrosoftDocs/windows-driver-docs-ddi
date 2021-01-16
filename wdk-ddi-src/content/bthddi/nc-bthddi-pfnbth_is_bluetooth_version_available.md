@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
- - IsBluetoothVersionAvailable
+ - PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE
 ---
 
 # PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE callback function

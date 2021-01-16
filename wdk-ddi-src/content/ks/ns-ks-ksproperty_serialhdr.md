@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_SERIALHDR
  - KSPROPERTY_SERIALHDR
 ---
 
@@ -62,3 +63,4 @@ Specifies the count of serialized properties to follow.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_serial">KSPROPERTY_SERIAL</a>
+

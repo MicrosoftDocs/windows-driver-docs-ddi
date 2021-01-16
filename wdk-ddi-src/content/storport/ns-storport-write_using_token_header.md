@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PWRITE_USING_TOKEN_HEADER
  - WRITE_USING_TOKEN_HEADER
 ---
 
@@ -98,3 +99,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 
 <a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a>
+

@@ -7,7 +7,7 @@ ms.date: 02/06/2018
 keywords: ["NET_ADAPTER_LINK_STATE structure"]
 ms.keywords: _NET_ADAPTER_LINK_STATE, NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE,
 req.header: netadapter.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -34,6 +34,7 @@ api_type:
 api_location:
  - netadapter.h
 api_name:
+ - _NET_ADAPTER_LINK_STATE
  - NET_ADAPTER_LINK_STATE
 ---
 

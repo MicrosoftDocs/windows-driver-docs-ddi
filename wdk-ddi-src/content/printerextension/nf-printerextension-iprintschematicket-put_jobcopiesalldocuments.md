@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaTicket.JobCopiesAllDocuments
- - IPrintSchemaTicket.put_JobCopiesAllDocuments
+ - IPrintSchemaTicket::put_JobCopiesAllDocuments
 ---
 
 # IPrintSchemaTicket::put_JobCopiesAllDocuments
@@ -67,3 +66,4 @@ Be aware of the fact that the <a href="/windows-hardware/drivers/ddi/printerexte
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket::GetCapabilities</a>
+

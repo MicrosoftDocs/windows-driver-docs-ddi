@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_SET_POSITION
+ - PCHANGER_SET_POSITION
  - CHANGER_SET_POSITION
 ---
 
@@ -80,3 +82,4 @@ Indicates, when <b>TRUE</b>, that the <b>Transport</b> should be flipped. When <
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a>
+

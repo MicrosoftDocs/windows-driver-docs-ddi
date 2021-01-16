@@ -41,6 +41,8 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _MSR_UPDATE_KEY
+ - PMSR_UPDATE_KEY
  - MSR_UPDATE_KEY
 ---
 

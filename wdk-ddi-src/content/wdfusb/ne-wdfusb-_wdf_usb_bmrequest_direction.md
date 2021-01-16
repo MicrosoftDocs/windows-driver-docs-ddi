@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_BMREQUEST_DIRECTION
  - WDF_USB_BMREQUEST_DIRECTION
 ---
 
@@ -70,3 +71,4 @@ For more information about the data transfer direction for a USB control transfe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a>
+

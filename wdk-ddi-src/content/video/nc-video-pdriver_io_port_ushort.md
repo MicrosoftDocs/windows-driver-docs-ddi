@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - SvgaHwIoPortUshort
+ - PDRIVER_IO_PORT_USHORT
 ---
 
 # PDRIVER_IO_PORT_USHORT callback function
@@ -116,3 +116,4 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _DVINFO
+ - PDVINFO
  - DVINFO
 ---
 

@@ -33,6 +33,7 @@ api_type:
 api_location:
  - returncontexttypes.h
 api_name:
+ - _NET_FRAGMENT_RETURN_CONTEXT
  - NET_FRAGMENT_RETURN_CONTEXT
 product:
  - Windows
@@ -64,3 +65,4 @@ To obtain this structure, call [**NetExtensionGetFragmentReturnContext**](../ret
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NetExtensionGetFragmentReturnContext**](../returncontext/nf-returncontext-netextensiongetfragmentreturncontext.md)
+

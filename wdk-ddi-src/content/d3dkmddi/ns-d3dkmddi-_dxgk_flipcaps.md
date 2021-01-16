@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_FLIPCAPS
  - DXGK_FLIPCAPS
 ---
 
@@ -153,3 +154,4 @@ A member in the union that DXGK_FLIPCAPS contains that can hold a 32-bit value t
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a>
+

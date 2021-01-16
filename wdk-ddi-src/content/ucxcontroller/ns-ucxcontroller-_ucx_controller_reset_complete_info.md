@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
+ - _UCX_CONTROLLER_RESET_COMPLETE_INFO
+ - PUCX_CONTROLLER_RESET_COMPLETE_INFO
  - UCX_CONTROLLER_RESET_COMPLETE_INFO
 ---
 
@@ -68,3 +70,4 @@ Indicates if the reset was coordinated with UCX (TRUE) or not (FALSE).
 ## -remarks
 
 This structure is populated by a call to <a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucxcontrollerresetcomplete">UcxControllerResetComplete</a>.
+

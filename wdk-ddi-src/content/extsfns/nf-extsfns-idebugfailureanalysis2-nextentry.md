@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.NextEntry
+ - IDebugFailureAnalysis2::NextEntry
 ---
 
 # IDebugFailureAnalysis2::NextEntry
@@ -76,3 +76,4 @@ This method returns a pointer to the next (or first) <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsifnd.h
 api_name:
+ - _ReportDiscoveredTargets2_OUT
+ - PReportDiscoveredTargets2_OUT
  - ReportDiscoveredTargets2_OUT
 ---
 
@@ -80,3 +82,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/reportdiscoveredtargets2">ReportDiscoveredTargets2</a>
+

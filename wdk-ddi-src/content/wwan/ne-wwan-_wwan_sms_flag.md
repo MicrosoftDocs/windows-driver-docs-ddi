@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_FLAG
+ - PWWAN_SMS_FLAG
  - WWAN_SMS_FLAG
 ---
 
@@ -84,3 +86,4 @@ The total number of filter flags.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a>
+

@@ -33,6 +33,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_SAVEMEMORYFORHOTUPDATE
  - DXGKARGCB_SAVEMEMORYFORHOTUPDATE
 dev_langs:
  - c++
@@ -90,3 +91,4 @@ When passing *pDataMdl* the driver should do the following:
 The driver must not save the same physical page twice.
 
 ## -see-also
+

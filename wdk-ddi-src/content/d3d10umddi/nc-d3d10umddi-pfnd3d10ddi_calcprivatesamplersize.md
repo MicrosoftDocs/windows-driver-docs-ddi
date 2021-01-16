@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CalcPrivateSamplerSize
+ - PFND3D10DDI_CALCPRIVATESAMPLERSIZE
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_sampler_desc">D3D10_DDI_SAMPLER_DESC</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFActions2.Add
+ - IWDTFActions2::Add
 ---
 
 # IWDTFActions2::Add
@@ -58,4 +58,3 @@ The action to add to this collection.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-#

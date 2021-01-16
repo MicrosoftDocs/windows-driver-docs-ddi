@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.GetBuffer
+ - IDebugFailureAnalysis2::GetBuffer
 ---
 
 # IDebugFailureAnalysis2::GetBuffer
@@ -91,3 +91,4 @@ If this method finds an <a href="/windows-hardware/drivers/debugger/failure-anal
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

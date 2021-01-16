@@ -42,6 +42,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _PRINTPROVIDOR
+ - LPPRINTPROVIDOR
  - PRINTPROVIDOR
 ---
 
@@ -490,3 +492,4 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 [SendRecvBidiData](/previous-versions//ff562068(v=vs.85))
 
 [XcvData](/previous-versions/ff564255(v=vs.85))
+

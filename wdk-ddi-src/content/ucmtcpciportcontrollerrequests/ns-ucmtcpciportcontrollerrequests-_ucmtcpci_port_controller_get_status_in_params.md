@@ -41,6 +41,8 @@ api_type:
 api_location:
  - UcmTcpciPortControllerRequests.h
 api_name:
+ - _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS
+ - PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS
  - UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS
 ---
 
@@ -58,3 +60,4 @@ api_name:
 ### -field PortControllerObject
 
 Handle to the port controller object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>.
+

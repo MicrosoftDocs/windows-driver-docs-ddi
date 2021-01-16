@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winspool.h
 api_name:
+ - _BIDI_REQUEST_CONTAINER
+ - PBIDI_REQUEST_CONTAINER
  - BIDI_REQUEST_CONTAINER
 ---
 
@@ -76,3 +78,4 @@ Even though the <b>aData</b> member of this structure is an array with only a si
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_data">BIDI_REQUEST_DATA</a>
+

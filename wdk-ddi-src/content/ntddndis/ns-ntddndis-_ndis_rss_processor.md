@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_RSS_PROCESSOR
+ - PNDIS_RSS_PROCESSOR
  - NDIS_RSS_PROCESSOR
 ---
 
@@ -81,3 +83,4 @@ The NDIS_RSS_PROCESSOR structure is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a>
+

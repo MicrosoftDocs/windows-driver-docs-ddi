@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.CallExtensionWide
+ - IDebugControl4::CallExtensionWide
 ---
 
 # IDebugControl4::CallExtensionWide
@@ -108,3 +108,4 @@ For more information on using extension libraries, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

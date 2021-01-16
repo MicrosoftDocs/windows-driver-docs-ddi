@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
+ - IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
 ---
 
 # IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
@@ -78,3 +78,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/enabling-and-di
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0entrypostinterruptsenabled">OnD0EntryPostInterruptsEnabled</a>
+

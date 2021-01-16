@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - videoagp
  - videoagp/videoagp
+api_name:
+ - videoagp
 ---
 
 # Videoagp.h header

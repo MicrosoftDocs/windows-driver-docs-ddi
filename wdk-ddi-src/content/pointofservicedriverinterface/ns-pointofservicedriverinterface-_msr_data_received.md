@@ -41,6 +41,8 @@ api_type:
 api_location:
  - PointOfServiceDriverInterface.h
 api_name:
+ - _MSR_DATA_RECEIVED
+ - PMSR_DATA_RECEIVED
  - MSR_DATA_RECEIVED
 ---
 

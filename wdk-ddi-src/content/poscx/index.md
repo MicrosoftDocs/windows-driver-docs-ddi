@@ -12,6 +12,8 @@ tech.root: pos
 f1_keywords:
  - poscx
  - poscx/poscx
+api_name:
+ - poscx
 ---
 
 # Poscx.h header

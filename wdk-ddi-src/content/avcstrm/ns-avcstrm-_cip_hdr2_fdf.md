@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _CIP_HDR2_FDF
+ - PCIP_HDR2_FDF
  - CIP_HDR2_FDF
 ---
 
@@ -68,3 +70,4 @@ Must be set to 1:0
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>
+

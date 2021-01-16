@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pepfx.h
 api_name:
+ - _PEP_PROCESSOR_PERF_STATE
+ - PPEP_PROCESSOR_PERF_STATE
  - PEP_PROCESSOR_PERF_STATE
 ---
 
@@ -72,3 +74,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
+

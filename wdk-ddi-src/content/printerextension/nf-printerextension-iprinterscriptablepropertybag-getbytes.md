@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptablePropertyBag.GetBytes
+ - IPrinterScriptablePropertyBag::GetBytes
 ---
 
 # IPrinterScriptablePropertyBag::GetBytes
@@ -71,3 +71,4 @@ A call to <b>GetBytes</b> will throw an exception, if the specified property is 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+

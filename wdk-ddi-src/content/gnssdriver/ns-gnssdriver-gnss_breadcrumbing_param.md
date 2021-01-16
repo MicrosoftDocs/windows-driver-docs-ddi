@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_BREADCRUMBING_PARAM
  - GNSS_BREADCRUMBING_PARAM
 ---
 
@@ -81,3 +82,4 @@ Contains the maximum error timeout in milliseconds. If the location of the devic
 #### - Unused[512]
 
 Padding buffer.
+

@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration [Display Devices], D3DKMDT_VPPI_DENARY, D3DKMDT_VPPI_NONARY, D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_PRIMARY, D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_QUINARY, D3DKMDT_VPPI_SECONDARY, D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_SEPTENARY, D3DKMDT_VPPI_TERTIARY, D3DKMDT_VPPI_UNINITIALIZED, DmEnums_711fdb2d-86cd-4ac4-9529-818b3953dff5.xml, _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_DENARY, d3dkmdt/D3DKMDT_VPPI_NONARY, d3dkmdt/D3DKMDT_VPPI_OCTONARY, d3dkmdt/D3DKMDT_VPPI_PRIMARY, d3dkmdt/D3DKMDT_VPPI_QUATERNARY, d3dkmdt/D3DKMDT_VPPI_QUINARY, d3dkmdt/D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_SENARY, d3dkmdt/D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_TERTIARY, d3dkmdt/D3DKMDT_VPPI_UNINITIALIZED, display.d3dkmdt_vidpn_present_path_importance
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
  - D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 ---
 
@@ -108,3 +109,4 @@ The <b>ImportanceOrdinal</b> member of the <a href="/windows-hardware/drivers/dd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a>
+

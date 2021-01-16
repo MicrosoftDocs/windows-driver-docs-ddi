@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl3.GetNumberExpressionSyntaxes
+ - IDebugControl3::GetNumberExpressionSyntaxes
 ---
 
 # IDebugControl3::GetNumberExpressionSyntaxes
@@ -91,3 +91,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
+

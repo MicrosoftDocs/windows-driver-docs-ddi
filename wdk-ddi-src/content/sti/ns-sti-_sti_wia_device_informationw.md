@@ -41,7 +41,9 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - STI_WIA_DEVICE_INFORMATION
+ - _STI_WIA_DEVICE_INFORMATIONW
+ - PSTI_WIA_DEVICE_INFORMATIONW
+ - STI_WIA_DEVICE_INFORMATIONW
 ---
 
 # _STI_WIA_DEVICE_INFORMATIONW structure
@@ -110,3 +112,4 @@ Pointer to the WIA user interface DLL.
 ### -field pszServer
 
 Pointer to the WIA server.
+

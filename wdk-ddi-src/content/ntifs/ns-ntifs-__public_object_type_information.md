@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - __PUBLIC_OBJECT_TYPE_INFORMATION
+ - PPUBLIC_OBJECT_TYPE_INFORMATION
  - PUBLIC_OBJECT_TYPE_INFORMATION
 ---
 

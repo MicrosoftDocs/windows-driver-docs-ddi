@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DIAGNOSTIC_TARGET_TYPE
+ - PSTORAGE_DIAGNOSTIC_TARGET_TYPE
  - STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 

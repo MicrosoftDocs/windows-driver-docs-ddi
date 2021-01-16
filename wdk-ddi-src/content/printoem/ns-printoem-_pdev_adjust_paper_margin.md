@@ -39,6 +39,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PDEV_ADJUST_PAPER_MARGIN
  - PDEV_ADJUST_PAPER_MARGIN
 ---
 
@@ -68,3 +69,4 @@ The <i>pBuf</i> parameter of the <a href="/windows-hardware/drivers/ddi/prcomoem
 
 
 <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
+

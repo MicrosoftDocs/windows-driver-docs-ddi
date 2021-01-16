@@ -40,6 +40,7 @@ api_location:
  - wiamicro.h
 api_name:
  - VAL
+ - PVAL
 ---
 
 # VAL structure
@@ -86,3 +87,4 @@ Reserved. Do not use.
 ### -field szVal
 
 Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) in order to obtain a file handle to the device.
+

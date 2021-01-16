@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _SetCHAPSharedSecret_IN
+ - PSetCHAPSharedSecret_IN
  - SetCHAPSharedSecret_IN
 ---
 
@@ -72,3 +74,4 @@ You must implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setchapsharedsecret_out">SetCHAPSharedSecret_OUT</a>
+

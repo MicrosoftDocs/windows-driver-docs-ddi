@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _BDCB_IMAGE_INFORMATION
+ - PBDCB_IMAGE_INFORMATION
  - BDCB_IMAGE_INFORMATION
 ---
 
@@ -229,3 +231,4 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
 [**ALG_ID**](/windows/win32/seccrypto/alg-id)
+

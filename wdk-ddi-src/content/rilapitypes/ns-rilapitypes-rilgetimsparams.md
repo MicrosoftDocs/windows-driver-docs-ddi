@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILGETIMSPARAMS
+ - LPRILGETIMSPARAMS
 ---
 
 # RILGETIMSPARAMS structure (rilapitypes.h)

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - parallel.h
 api_name:
- - ParallelTryAllocateRoutine
+ - PPARALLEL_TRY_ALLOCATE_ROUTINE
 ---
 
 # PPARALLEL_TRY_ALLOCATE_ROUTINE callback
@@ -133,3 +133,4 @@ For more information about allocating a parallel port in an ISR, see <a href="/p
 
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
+

@@ -30,12 +30,14 @@ api_location:
 api_name:
  - IDARG_IN_GETSRMLISTVERSION
 f1_keywords:
+ - IDARG_IN_GETSRMLISTVERSION
  - iddcx/IDARG_IN_GETSRMLISTVERSION
 dev_langs:
  - c++
 ---
 
 # IDARG_IN_GETSRMLISTVERSION structure
+
 
 ## -description
 
@@ -62,3 +64,4 @@ If **pSrmListVersion** is NULL then the OS will not copy any data and will set t
 [**IDARG_OUT_GETSRMLISTVERSION**](ns-iddcx-idarg_out_getsrmlistversion.md)
 
 [**IddCxMonitorGetSrmListVersion**](nf-iddcx-iddcxmonitorgetsrmlistversion.md)
+

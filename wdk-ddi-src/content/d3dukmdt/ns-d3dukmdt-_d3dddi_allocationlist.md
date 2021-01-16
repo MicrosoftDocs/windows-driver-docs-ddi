@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_ALLOCATIONLIST
  - D3DDDI_ALLOCATIONLIST
 ---
 
@@ -112,3 +113,4 @@ Setting this member to zero is equivalent to setting the remaining 30 bits (0xFF
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

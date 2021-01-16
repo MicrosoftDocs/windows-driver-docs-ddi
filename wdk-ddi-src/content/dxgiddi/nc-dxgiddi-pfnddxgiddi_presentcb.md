@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dxgiddi.h
 api_name:
- - pfnPresentCbDXGI
+ - PFNDDXGIDDI_PRESENTCB
 ---
 
 # PFNDDXGIDDI_PRESENTCB callback function
@@ -98,3 +98,4 @@ The Direct3D runtime restricts the set of formats that can be presented through 
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">PresentDXGI</a>
+

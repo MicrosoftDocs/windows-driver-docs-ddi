@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_PARK_MASK
+ - PPEP_PPM_PARK_MASK
  - PEP_PPM_PARK_MASK
 ---
 
@@ -97,3 +99,4 @@ Returns the PEP parking preference for each processor.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_state">PEP_PROCESSOR_PARK_STATE</a>
+

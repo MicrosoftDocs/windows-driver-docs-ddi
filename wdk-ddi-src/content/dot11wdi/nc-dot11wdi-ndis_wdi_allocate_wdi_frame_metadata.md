@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - NdisWdiAllocateWiFiFrameMetaData
+ - NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA
 ---
 
 # NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback function
@@ -67,3 +67,4 @@ The allocated frame metadata buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_frame_metadata">WDI_FRAME_METADATA</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelperUni.EnumFeatures
+ - IPrintCoreHelperUni::EnumFeatures
 ---
 
 # IPrintCoreHelperUni::EnumFeatures
@@ -76,3 +76,4 @@ For Unidrv features, the feature list is based on the GPD view of the configurat
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumoptions">IPrintCoreHelperUni::EnumOptions</a>
+

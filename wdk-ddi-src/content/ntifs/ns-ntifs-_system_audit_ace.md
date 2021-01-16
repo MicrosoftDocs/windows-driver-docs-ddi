@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SYSTEM_AUDIT_ACE
  - SYSTEM_AUDIT_ACE
 ---
 
@@ -100,3 +101,4 @@ This structure must be aligned on a 32-bit boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_system_alarm_ace">SYSTEM_ALARM_ACE</a>
+

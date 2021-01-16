@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoAllocateRequestResources
+ - EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES
 ---
 
 # EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback function
@@ -88,3 +88,4 @@ This callback function can be called at IRQL <= DISPATCH_LEVEL. If the IRQL is P
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>
+

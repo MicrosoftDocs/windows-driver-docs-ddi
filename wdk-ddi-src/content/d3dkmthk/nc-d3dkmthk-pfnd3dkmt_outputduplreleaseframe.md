@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTOutputDuplReleaseFrame
+ - PFND3DKMT_OUTPUTDUPLRELEASEFRAME
 ---
 
 # PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback function
@@ -71,3 +71,4 @@ This function might also return other NTSTATUS values.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputdupl_release_frame">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCloseAllocation
+ - DXGKDDI_CLOSEALLOCATION
 product:
  - Windows
 ---
@@ -90,3 +90,4 @@ For a resource that contains multiple allocations, the DirectX graphics kernel s
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
+

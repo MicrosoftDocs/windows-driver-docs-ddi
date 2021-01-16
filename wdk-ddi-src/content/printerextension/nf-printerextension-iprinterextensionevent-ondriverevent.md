@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printerextension.h
 api_name:
- - IPrinterExtensionEvent.OnDriverEvent
+ - IPrinterExtensionEvent::OnDriverEvent
 ---
 
 # IPrinterExtensionEvent::OnDriverEvent
@@ -65,3 +65,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
+

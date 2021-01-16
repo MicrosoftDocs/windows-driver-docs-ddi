@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - I2CStop
+ - PI2C_STOP
 ---
 
 # PI2C_STOP callback function
@@ -70,3 +70,4 @@ The video port implements this function, which can be accessed through a pointer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_i2c_interface">VIDEO_PORT_I2C_INTERFACE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _BDCB_CALLBACK_TYPE
+ - PBDCB_CALLBACK_TYPE
  - BDCB_CALLBACK_TYPE
 ---
 
@@ -107,3 +109,4 @@ BdCbInitializeImage
 
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
+

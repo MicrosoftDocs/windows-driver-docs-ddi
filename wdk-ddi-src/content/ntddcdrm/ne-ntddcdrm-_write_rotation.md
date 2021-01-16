@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _WRITE_ROTATION
+ - PWRITE_ROTATION
  - WRITE_ROTATION
 ---
 
@@ -68,3 +70,4 @@ The CD-ROM drive uses the (default) constant angular velocity (CAV) method when 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_set_speed">IOCTL_CDROM_SET_SPEED</a>
+

@@ -38,10 +38,11 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauPropertyList.SetCurrentValue
+ - CWiauPropertyList::SetCurrentValue
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,CLSID) (wiautil.h)
+
 
 ## -description
 
@@ -64,3 +65,4 @@ Pointer to a memory location containing the value that is written to the device 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
+

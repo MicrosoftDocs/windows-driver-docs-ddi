@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _DeleteInitiatorNodeName_IN
+ - PDeleteInitiatorNodeName_IN
  - DeleteInitiatorNodeName_IN
 ---
 
@@ -68,3 +70,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_deleteinitiatornodename_out">DeleteInitiatorNodeName_OUT</a>
+

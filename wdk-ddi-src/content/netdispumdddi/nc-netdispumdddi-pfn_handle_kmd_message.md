@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
- - HandleKernelModeMessage
+ - PFN_HANDLE_KMD_MESSAGE
 ---
 
 # PFN_HANDLE_KMD_MESSAGE callback function
@@ -112,3 +112,4 @@ The operating system guarantees that this function is not called when <a href="/
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a>
+

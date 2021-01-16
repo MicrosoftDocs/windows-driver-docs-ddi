@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Acpiioct.h
 api_name:
+ - _ACPI_EVAL_INPUT_BUFFER_V2
+ - PACPI_EVAL_INPUT_BUFFER_V2
  - ACPI_EVAL_INPUT_BUFFER_V2
 ---
 

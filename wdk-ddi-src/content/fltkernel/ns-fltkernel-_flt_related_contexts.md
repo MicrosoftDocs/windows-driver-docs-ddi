@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_RELATED_CONTEXTS
+ - PFLT_RELATED_CONTEXTS
  - FLT_RELATED_CONTEXTS
 ---
 
@@ -106,3 +108,4 @@ For more information about using contexts, see the reference entry for <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontexts">FltReleaseContexts</a>
+

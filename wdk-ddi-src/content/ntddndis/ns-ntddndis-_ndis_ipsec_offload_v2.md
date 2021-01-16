@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_IPSEC_OFFLOAD_V2
+ - PNDIS_IPSEC_OFFLOAD_V2
  - NDIS_IPSEC_OFFLOAD_V2
 ---
 
@@ -392,3 +394,4 @@ The following flags are defined for the
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IIterableConcept.QueryInterface
+ - IIterableConcept::QueryInterface
 ---
 
 # IIterableConcept::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IIterableConcept interface](nn-dbgmodel-iiterableconcept.md)
+

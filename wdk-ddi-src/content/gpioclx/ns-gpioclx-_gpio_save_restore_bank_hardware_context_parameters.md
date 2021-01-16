@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
+ - PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
  - GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
 ---
 
@@ -84,3 +86,4 @@ The <i>Parameters</i> parameter of the <a href="/windows-hardware/drivers/ddi/gp
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_save_bank_hardware_context">CLIENT_SaveBankHardwareContext</a>
+

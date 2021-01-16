@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+ - PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
  - NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 ---
 
@@ -88,3 +90,4 @@ The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure is used in the
 
 
 <a href="/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+

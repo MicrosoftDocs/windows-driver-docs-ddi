@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrvCallBack.MiniDrvCallback
+ - IWiaMiniDrvCallBack::MiniDrvCallback
 ---
 
 # IWiaMiniDrvCallBack::MiniDrvCallback
@@ -116,3 +116,4 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 [IWiaMiniDrvCallBack](./nn-wiamindr_lh-iwiaminidrvcallback.md)
 
 [MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md)
+

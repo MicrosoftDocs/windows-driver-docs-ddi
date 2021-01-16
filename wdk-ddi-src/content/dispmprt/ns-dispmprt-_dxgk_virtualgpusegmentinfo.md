@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VIRTUALGPUSEGMENTINFO
+ - PDXGK_VIRTUALGPUSEGMENTINFO
+ - DXGK_VIRTUALGPUSEGMENTINFO
 product:
  - Windows
 dev_langs:

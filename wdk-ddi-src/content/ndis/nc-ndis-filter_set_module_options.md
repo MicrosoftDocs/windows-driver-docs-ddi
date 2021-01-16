@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
+ - FILTER_SET_MODULE_OPTIONS
 ---
 
 # FILTER_SET_MODULE_OPTIONS callback function
@@ -225,3 +225,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
+

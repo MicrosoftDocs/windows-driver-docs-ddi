@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_AVAILABLE_CHANNEL_LIST
+ - PDOT11_AVAILABLE_CHANNEL_LIST
  - DOT11_AVAILABLE_CHANNEL_LIST
 product:
  - Windows 10 or later.
@@ -133,3 +135,4 @@ This structure is used with
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.SetupDeviceParameters
+ - IStillImageW::SetupDeviceParameters
 ---
 
 # IStillImageW::SetupDeviceParameters
@@ -58,3 +58,4 @@ The <b>IStillImage::SetupDeviceParameters</b> method only allows modification of
 Currently, the only device parameter that can be modified is the device's port name. When calling this method to modify the port name, the <b>dwSize</b>, <b>szDeviceInternalName</b>, and <b>pszPortName</b> members of the STI_DEVICE_INFORMATION must be specified. All other members are ignored.
 
 Before calling <b>IStillImage::SetupDeviceParameters</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+

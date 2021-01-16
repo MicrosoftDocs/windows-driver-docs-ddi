@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_ENGINESTATUS
  - DXGK_ENGINESTATUS
 ---
 
@@ -66,3 +67,4 @@ A 32-bit value that specifies the progress of the physical adapter.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryenginestatus">DXGKARG_QUERYENGINESTATUS</a>
+

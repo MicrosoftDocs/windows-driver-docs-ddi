@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaParameterDefinition.UserInputRequired
- - IPrintSchemaParameterDefinition.get_UserInputRequired
+ - IPrintSchemaParameterDefinition::get_UserInputRequired
 ---
 
 # IPrintSchemaParameterDefinition::get_UserInputRequired
@@ -59,3 +58,4 @@ The print dialog can use <b>UserInputRequired</b> to determine whether or not it
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+

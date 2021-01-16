@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
  - KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
 ---
 
@@ -90,3 +91,4 @@ The minidriver should return STATUS_NOT_SUPPORTED if the pin is not open.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+

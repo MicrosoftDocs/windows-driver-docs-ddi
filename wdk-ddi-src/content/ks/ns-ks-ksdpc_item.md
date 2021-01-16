@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSDPC_ITEM
  - KSDPC_ITEM
 ---
 
@@ -70,3 +71,4 @@ KSDPC_ITEM uses a reference counting scheme to determine when to free the struct
 ## -see-also
 
 <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a>
+

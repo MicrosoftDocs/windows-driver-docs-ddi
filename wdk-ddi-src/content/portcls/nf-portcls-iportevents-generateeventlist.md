@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPortEvents.GenerateEventList
+ - IPortEvents::GenerateEventList
 ---
 
 # IPortEvents::GenerateEventList
@@ -96,3 +96,4 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportevents-addeventtoeventlist">IPortEvents::AddEventToEventList</a>
+

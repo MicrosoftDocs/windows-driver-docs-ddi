@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
+ - PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
  - NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
 ---
 
@@ -116,3 +118,4 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 
 <a href="/windows-hardware/drivers/network/ndis-switch-property-parameters-get-property">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_MINIPORT_SS_CHARACTERISTICS
+ - PNDIS_MINIPORT_SS_CHARACTERISTICS
  - NDIS_MINIPORT_SS_CHARACTERISTICS
 ---
 
@@ -120,3 +122,4 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
+

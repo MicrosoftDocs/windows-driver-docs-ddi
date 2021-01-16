@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_LIGHT
  - D3DDDI_LIGHT
 ---
 
@@ -106,3 +107,4 @@ The D3DDDI_LIGHT structure describes a set of lighting properties.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setlight">SetLight</a>
+

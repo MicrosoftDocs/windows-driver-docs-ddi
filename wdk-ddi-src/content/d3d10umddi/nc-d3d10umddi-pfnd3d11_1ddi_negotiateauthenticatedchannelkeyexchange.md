@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnNegotiateAuthenticatedChannelKeyExchange
+ - PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE
 product:
  - Windows
 ---
@@ -89,3 +89,4 @@ The key exchange for an authenticated channel is identical to the key exchange f
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
+

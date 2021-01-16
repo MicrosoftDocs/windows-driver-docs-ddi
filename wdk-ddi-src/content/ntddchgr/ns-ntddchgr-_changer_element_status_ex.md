@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_ELEMENT_STATUS_EX
+ - PCHANGER_ELEMENT_STATUS_EX
  - CHANGER_ELEMENT_STATUS_EX
 ---
 
@@ -244,3 +246,4 @@ The <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">C
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+

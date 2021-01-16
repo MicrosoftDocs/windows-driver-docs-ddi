@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_HBAInformation
+ - PMSiSCSI_HBAInformation
  - MSiSCSI_HBAInformation
 ---
 
@@ -266,3 +268,4 @@ You must implement this class.
 
 
 <a href="/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
+

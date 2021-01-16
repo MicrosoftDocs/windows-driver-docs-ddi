@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _OPEN_REPARSE_LIST_ENTRY
+ - POPEN_REPARSE_LIST_ENTRY
  - OPEN_REPARSE_LIST_ENTRY
 ---
 
@@ -159,3 +161,4 @@ structures specifying the tag and possibly GUID that should be
   opened directly without returning <b>STATUS_REPARSE</b>.
 If a match is found, the corresponding <b>OPEN_REPARSE_LIST_ENTRY</b>  structure will have the <b>OPEN_REPARSE_POINT_TAG_ENCOUNTERED</b> flag set to indicate that the object that was opened matched the given criteria. If a match is found for a directory that is not the final path  component and <b>STATUS_REPARSE</b> is returned, the unprocessed path
   length will be set in the <b>RemainingLength</b> field.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWaveRTStream.AllocateContiguousPagesForMdl
+ - IPortWaveRTStream::AllocateContiguousPagesForMdl
 ---
 
 # IPortWaveRTStream::AllocateContiguousPagesForMdl
@@ -87,3 +87,4 @@ The <code>AllocateContiguousPagesforMdl</code> method allocates memory pages tha
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-mapallocatedpages">IPortWaveRTStream::MapAllocatedPages</a>
+

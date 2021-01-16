@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucmtypes.h
 api_name:
+ - _UCM_PD_POWER_DATA_OBJECT
+ - PUCM_PD_POWER_DATA_OBJECT
  - UCM_PD_POWER_DATA_OBJECT
 ---
 

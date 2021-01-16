@@ -37,7 +37,7 @@ api_type:
 api_location:
  - extsfns.h
 api_name:
- - IDebugFailureAnalysis2.GetUlong
+ - IDebugFailureAnalysis2::GetUlong64
 ---
 
 # IDebugFailureAnalysis2::GetUlong64
@@ -89,3 +89,4 @@ The appropriate use of this method is get the data block from an <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+

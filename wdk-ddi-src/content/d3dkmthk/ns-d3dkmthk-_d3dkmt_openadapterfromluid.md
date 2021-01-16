@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OPENADAPTERFROMLUID
  - D3DKMT_OPENADAPTERFROMLUID
 ---
 
@@ -62,3 +63,4 @@ Describes the mapping of the given locally unique identifier (LUID) of a device 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromluid">D3DKMTOpenAdapterFromLuid</a>
+

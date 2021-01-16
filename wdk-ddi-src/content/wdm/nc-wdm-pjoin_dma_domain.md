@@ -34,7 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PJOIN_DMA_DOMAIN
- - JoinDmaDomain
 ---
 
 # PJOIN_DMA_DOMAIN callback function
@@ -79,3 +78,4 @@ NTSTATUS PjoinDmaDomain
 ## -remarks
 
 ## -see-also
+

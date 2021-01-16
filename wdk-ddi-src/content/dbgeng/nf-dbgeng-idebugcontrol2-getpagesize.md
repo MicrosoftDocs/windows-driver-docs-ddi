@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetPageSize
- - IDebugControl2.GetPageSize
- - IDebugControl3.GetPageSize
+ - IDebugControl2::GetPageSize
 ---
 
 # IDebugControl2::GetPageSize
@@ -77,3 +75,4 @@ The method was successful.
 </td>
 </tr>
 </table>
+

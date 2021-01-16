@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hidpddi.h
 api_name:
+ - _HIDP_GETCOLDESC_DBG
+ - PHIDP_GETCOLDESC_DBG
  - HIDP_GETCOLDESC_DBG
 ---
 
@@ -71,3 +73,4 @@ Error-specific arguments. These are described as comments in the possible values
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
+

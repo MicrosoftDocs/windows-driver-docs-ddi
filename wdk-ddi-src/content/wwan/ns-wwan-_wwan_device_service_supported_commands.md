@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
  - WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 ---
 
@@ -66,3 +68,4 @@ A formatted
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+

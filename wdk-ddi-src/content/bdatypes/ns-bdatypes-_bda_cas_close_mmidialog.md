@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_CAS_CLOSE_MMIDIALOG
+ - PBDA_CAS_CLOSE_MMIDIALOG
  - BDA_CAS_CLOSE_MMIDIALOG
 ---
 

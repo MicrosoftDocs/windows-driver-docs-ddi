@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateVsSamplerCb
+ - PFND3D10DDI_STATE_VS_SAMPLER_CB
 ---
 
 # PFND3D10DDI_STATE_VS_SAMPLER_CB callback function
@@ -74,3 +74,4 @@ The beginning of the DDI handles to samplers.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+

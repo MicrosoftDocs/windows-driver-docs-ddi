@@ -37,7 +37,7 @@ api_type:
 api_location:
  - strmini.h
 api_name:
- - StrMiniClock
+ - PHW_QUERY_CLOCK_ROUTINE
 ---
 
 # PHW_QUERY_CLOCK_ROUTINE callback function
@@ -70,3 +70,4 @@ The <i>StrMiniClock</i> routine must handle the functions specified in the <b>Cl
 
 
 <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>
+

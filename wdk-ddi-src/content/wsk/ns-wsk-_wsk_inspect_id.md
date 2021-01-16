@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wsk.h
 api_name:
+ - _WSK_INSPECT_ID
+ - PWSK_INSPECT_ID
  - WSK_INSPECT_ID
 ---
 
@@ -108,3 +110,4 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
+

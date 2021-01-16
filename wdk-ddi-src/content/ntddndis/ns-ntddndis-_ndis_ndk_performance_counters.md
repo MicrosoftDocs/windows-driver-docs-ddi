@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_NDK_PERFORMANCE_COUNTERS
+ - PNDIS_NDK_PERFORMANCE_COUNTERS
  - NDIS_NDK_PERFORMANCE_COUNTERS
 ---
 
@@ -192,3 +194,4 @@ All <b>ReservedXX</b> counters must be set to zero by providers and are ignored 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_statistics_info">NDIS_NDK_STATISTICS_INFO</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetDevice.FormatRequestForControlTransfer
+ - IWDFUsbTargetDevice::FormatRequestForControlTransfer
 ---
 
 # IWDFUsbTargetDevice::FormatRequestForControlTransfer
@@ -200,7 +200,6 @@ CMyDevice::SendControlTransferSynchronously(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
@@ -216,3 +215,4 @@ CMyDevice::SendControlTransferSynchronously(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
+

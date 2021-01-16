@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIOMoveDevice_IN
+ - PMPIOMoveDevice_IN
  - MPIOMoveDevice_IN
 ---
 

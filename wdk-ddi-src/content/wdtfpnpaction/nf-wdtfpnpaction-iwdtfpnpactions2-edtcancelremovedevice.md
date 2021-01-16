@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.EDTCancelRemoveDevice
+ - IWDTFPNPActions2::EDTCancelRemoveDevice
 ---
 
 # IWDTFPNPActions2::EDTCancelRemoveDevice
@@ -65,5 +65,4 @@ method must be called for the target device before calling this method.</div>
 <div> </div>
 <b>EDTCancelRemoveDevice</b> triggers an IRP_MN_CANCEL_REMOVE event
 by intentionally failing an IRP_MN_QUERY_REMOVE_DEVICE event.
-
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_STAGINGSURFACEDATA
  - D3DKMDT_STAGINGSURFACEDATA
 ---
 
@@ -102,3 +103,4 @@ This staging surface is always created as an 8-bits-per-color RGB pixel format (
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_present">Present</a>
+

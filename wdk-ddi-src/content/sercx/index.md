@@ -12,6 +12,8 @@ tech.root: serports
 f1_keywords:
  - sercx
  - sercx/sercx
+api_name:
+ - sercx
 ---
 
 # Sercx.h header

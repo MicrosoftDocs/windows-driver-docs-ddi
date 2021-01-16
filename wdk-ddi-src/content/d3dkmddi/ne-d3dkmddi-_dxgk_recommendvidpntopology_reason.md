@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
  - DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
 ---
 
@@ -70,3 +71,4 @@ Indicates that the call is being made during the VidPN topology augmentation by 
 ### -field DXGK_RVT_INITIALIZATION_LKGOVERRIDE
 
 Indicates that the call is being made during the initialization of the display adapter, giving the display miniport driver a chance to override the last known good VidPN topology.
+

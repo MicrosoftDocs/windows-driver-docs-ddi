@@ -37,10 +37,11 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorBuildIo
+ - HW_BUILDIO
 ---
 
 # HW_BUILDIO callback function
+
 
 ## -description
 
@@ -158,3 +159,4 @@ The **HW_BUILDIO** function type is defined in the Storport.h header file. To mo
 [**StorPortAllocatePool**](nf-storport-storportallocatepool.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
+

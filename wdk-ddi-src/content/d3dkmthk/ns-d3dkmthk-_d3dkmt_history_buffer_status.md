@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_HISTORY_BUFFER_STATUS
+ - D3DKMT_HISTORY_BUFFER_STATUS
 dev_langs:
  - c++
 ---

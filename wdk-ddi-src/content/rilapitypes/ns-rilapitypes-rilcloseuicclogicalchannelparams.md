@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCLOSEUICCLOGICALCHANNELPARAMS
+ - LPRILCLOSEUICCLOGICALCHANNELPARAMS
 ---
 
 # RILCLOSEUICCLOGICALCHANNELPARAMS structure (rilapitypes.h)

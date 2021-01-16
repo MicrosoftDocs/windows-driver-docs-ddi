@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
- - IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
+ - IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses
 ---
 
 # IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses
@@ -112,3 +111,4 @@ If no target is found, all the values are set to zero.
 
 
 <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>
+

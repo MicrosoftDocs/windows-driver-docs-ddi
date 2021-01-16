@@ -32,6 +32,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_RECOVERY_CONTEXT_ERROR_TYPE
+ - PWHEA_RECOVERY_CONTEXT_ERROR_TYPE
  - WHEA_RECOVERY_CONTEXT_ERROR_TYPE
 product:
  - Windows

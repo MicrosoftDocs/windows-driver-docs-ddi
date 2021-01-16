@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.WriteToErrorLog
+ - IStillImageW::WriteToErrorLog
 ---
 
 # IStillImageW::WriteToErrorLog
@@ -75,3 +75,4 @@ The still image error log file is named <i>sti_trace.log</i> and is located in t
 Error messages should be reserved for critical error conditions, such as device hardware failures. Informational messages can be used for your own debugging purposes. Logged messages aren't visible to users, but they might be used by a support engineer to help debug a user's problems.
 
 Before calling <b>IStillImage::WriteToErrorLog</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+

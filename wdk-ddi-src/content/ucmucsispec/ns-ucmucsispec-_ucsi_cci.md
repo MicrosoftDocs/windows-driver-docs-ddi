@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_CCI
+ - PUCSI_CCI
+ - UCSI_CCI
 ---
 
 # _UCSI_CCI structure

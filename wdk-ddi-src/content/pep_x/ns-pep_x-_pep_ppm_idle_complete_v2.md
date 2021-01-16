@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_IDLE_COMPLETE_V2
+ - PPEP_PPM_IDLE_COMPLETE_V2
  - PEP_PPM_IDLE_COMPLETE_V2
 ---
 
@@ -68,3 +70,4 @@ The <b>PEP_PPM_IDLE_COMPLETE_V2</b> structure describe the idle states from whic
 ## -remarks
 
 This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_complete">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) when this notification is sent to the PEP.
+

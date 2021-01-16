@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClDropPartyComplete
+ - PROTOCOL_CL_DROP_PARTY_COMPLETE
 ---
 
 # PROTOCOL_CL_DROP_PARTY_COMPLETE callback function
@@ -173,3 +173,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a>
+

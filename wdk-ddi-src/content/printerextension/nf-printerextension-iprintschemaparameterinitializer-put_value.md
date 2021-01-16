@@ -37,11 +37,11 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaParameterInitializer.Value
- - IPrintSchemaParameterInitializer.put_Value
+ - IPrintSchemaParameterInitializer::put_Value
 ---
 
 # IPrintSchemaParameterInitializer::put_Value
+
 
 ## -description
 
@@ -70,3 +70,4 @@ In the case of the **PrintSchemaParameterDataType_NumericString** parameter data
 ## -see-also
 
 [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md)
+

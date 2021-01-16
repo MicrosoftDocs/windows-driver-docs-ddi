@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILC2KMRL
+ - LPRILC2KMRL
 ---
 
 # RILC2KMRL structure (ntddrilapitypes.h)
@@ -111,3 +112,4 @@ struct RILC2KMRL {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

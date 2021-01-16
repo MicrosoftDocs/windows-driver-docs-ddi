@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfcompanion.h
 api_name:
+ - _WDF_TASK_QUEUE_DISPATCH_TYPE
  - WDF_TASK_QUEUE_DISPATCH_TYPE
 ---
 

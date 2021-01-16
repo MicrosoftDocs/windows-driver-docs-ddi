@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_ROAMING_COMPLETION_PARAMETERS
+ - PDOT11_ROAMING_COMPLETION_PARAMETERS
 product:
  - Windows 10 or later.
 ---
@@ -118,3 +119,4 @@ For more information about the roaming operation, see
 
 
 <a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest3.RetrieveActivityId
+ - IWDFIoRequest3::RetrieveActivityId
 ---
 
 # IWDFIoRequest3::RetrieveActivityId
@@ -118,7 +118,6 @@ pNewRequest3->Release();
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest3">IWDFIoRequest3</a>
@@ -126,3 +125,4 @@ pNewRequest3->Release();
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest3-setactivityid">IWDFIoRequest3::SetActivityId</a>
+

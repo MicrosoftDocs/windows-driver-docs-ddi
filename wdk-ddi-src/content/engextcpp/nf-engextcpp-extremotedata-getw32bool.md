@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.GetW32Bool
+ - ExtRemoteData::GetW32Bool
 ---
 
 # ExtRemoteData::GetW32Bool
@@ -73,3 +73,4 @@ The size of the memory represented by the <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getstdbool">ExtRemoteData::GetStdBool</a>
+

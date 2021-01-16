@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_INTERFACE_DESCRIPTOR
+ - PUSB_INTERFACE_DESCRIPTOR
  - USB_INTERFACE_DESCRIPTOR
 ---
 
@@ -101,3 +103,4 @@ The index of a string descriptor that describes the interface. For information a
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+

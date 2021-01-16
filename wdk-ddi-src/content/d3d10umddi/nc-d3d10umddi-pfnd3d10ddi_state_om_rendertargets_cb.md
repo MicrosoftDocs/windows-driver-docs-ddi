@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateOmRenderTargetsCb
+ - PFND3D10DDI_STATE_OM_RENDERTARGETS_CB
 ---
 
 # PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback function
@@ -70,3 +70,4 @@ The <b>pfnStateOmRenderTargetsCb</b> function calls the user-mode display driver
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setrendertargets">SetRenderTargets</a>
+

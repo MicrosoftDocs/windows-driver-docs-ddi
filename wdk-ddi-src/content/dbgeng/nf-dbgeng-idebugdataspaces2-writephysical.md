@@ -37,10 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugDataSpaces.WritePhysical
- - IDebugDataSpaces2.WritePhysical
- - IDebugDataSpaces3.WritePhysical
- - IDebugDataSpaces4.WritePhysical
+ - IDebugDataSpaces2::WritePhysical
 ---
 
 # IDebugDataSpaces2::WritePhysical
@@ -98,3 +95,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 ## -remarks
 
 This method is only available in kernel-mode debugging.
+

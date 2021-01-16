@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _CREATE_BAND_PARAMETERS
+ - PCREATE_BAND_PARAMETERS
  - CREATE_BAND_PARAMETERS
 ---
 
@@ -130,3 +132,4 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
+

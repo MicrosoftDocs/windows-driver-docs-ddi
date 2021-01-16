@@ -37,7 +37,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
- - HwScsiWmiSetDataBlock
+ - PSCSIWMI_SET_DATABLOCK
 ---
 
 # PSCSIWMI_SET_DATABLOCK callback function
@@ -107,3 +107,4 @@ The miniport driver should call <a href="/windows-hardware/drivers/ddi/scsiwmi/n
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
+

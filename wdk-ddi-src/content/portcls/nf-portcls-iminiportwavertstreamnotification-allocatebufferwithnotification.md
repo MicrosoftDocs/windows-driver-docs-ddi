@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
+ - IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
 ---
 
 # IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
@@ -140,3 +140,4 @@ After receiving a <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-bu
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
+

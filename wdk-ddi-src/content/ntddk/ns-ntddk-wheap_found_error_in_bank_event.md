@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_FOUND_ERROR_IN_BANK_EVENT
+ - PWHEAP_FOUND_ERROR_IN_BANK_EVENT
  - WHEAP_FOUND_ERROR_IN_BANK_EVENT
 product:
  - Windows

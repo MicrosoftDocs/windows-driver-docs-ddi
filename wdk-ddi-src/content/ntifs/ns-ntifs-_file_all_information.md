@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _FILE_ALL_INFORMATION
+ - PFILE_ALL_INFORMATION
  - FILE_ALL_INFORMATION
 ---
 
@@ -134,3 +136,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-nt
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

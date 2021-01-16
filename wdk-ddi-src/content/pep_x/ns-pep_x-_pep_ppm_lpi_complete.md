@@ -41,7 +41,9 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - PEP_PPM_QUERY_FEEDBACK_COUNTERS
+ - _PEP_PPM_LPI_COMPLETE
+ - PPEP_PPM_LPI_COMPLETE
+ - PEP_PPM_LPI_COMPLETE
 ---
 
 # _PEP_PPM_LPI_COMPLETE structure
@@ -77,3 +79,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_feedback_counter">PEP_PROCESSOR_FEEDBACK_COUNTER</a>
+

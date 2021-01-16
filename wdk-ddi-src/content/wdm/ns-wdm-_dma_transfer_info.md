@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DMA_TRANSFER_INFO
+ - PDMA_TRANSFER_INFO
  - DMA_TRANSFER_INFO
 ---
 
@@ -78,3 +80,4 @@ The unnamed union in this structure contains a <b>DMA_TRANSFER_INFO_<i>XXX</i></
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a>
+

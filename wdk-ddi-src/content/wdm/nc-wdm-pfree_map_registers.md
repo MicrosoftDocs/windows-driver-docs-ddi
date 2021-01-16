@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - FreeMapRegisters
+ - PFREE_MAP_REGISTERS
 ---
 
 # PFREE_MAP_REGISTERS callback function
@@ -92,3 +92,4 @@ When the driver of a bus-master device has completed the current packet-based DM
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer">MapTransfer</a>
+

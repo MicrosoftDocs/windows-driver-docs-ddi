@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrFreeFrame
+ - PFNALLOCATOR_FREEFRAME
 ---
 
 # PFNALLOCATOR_FREEFRAME callback function
@@ -70,3 +70,4 @@ You can pass an instance of this structure as part of a [KSPROPERTY_STREAMALLOCA
 [KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE](/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable)
 
 [KSSTREAMALLOCATOR_FUNCTIONTABLE](./ns-ks-ksstreamallocator_functiontable.md)
+

@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfworkitem
  - wdfworkitem/wdfworkitem
+api_name:
+ - wdfworkitem
 ---
 
 # Wdfworkitem.h header

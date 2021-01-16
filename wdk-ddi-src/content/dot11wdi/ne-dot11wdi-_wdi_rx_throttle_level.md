@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
+ - _WDI_RX_THROTTLE_LEVEL
  - WDI_RX_THROTTLE_LEVEL
 ---
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - netdma.h
 api_name:
+ - _NET_DMA_PNP_NOTIFICATION_CODE
+ - PNET_DMA_PNP_NOTIFICATION_CODE
  - NET_DMA_PNP_NOTIFICATION_CODE
 ---
 
@@ -97,3 +99,4 @@ The NET_DMA_PNP_NOTIFICATION_CODE enumeration is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_pnp_notification">NET_DMA_PNP_NOTIFICATION</a>
+

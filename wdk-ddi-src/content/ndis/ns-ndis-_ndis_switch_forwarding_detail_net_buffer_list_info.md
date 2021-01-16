@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+ - PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
  - NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
 ---
 
@@ -185,3 +187,4 @@ For more information on how to duplicate packets in the extensible switch interf
 
 
 <a href="/windows-hardware/drivers/network/overview-of-the-hyper-v-extensible-switch">Overview of the Hyper-V Extensible Switch</a>
+

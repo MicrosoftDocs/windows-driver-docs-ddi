@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_TCP_IP_CHECKSUM_OFFLOAD
+ - PNDIS_TCP_IP_CHECKSUM_OFFLOAD
  - NDIS_TCP_IP_CHECKSUM_OFFLOAD
 ---
 
@@ -307,3 +309,4 @@ In the [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/netwo
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+

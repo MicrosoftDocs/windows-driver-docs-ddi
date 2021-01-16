@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_DEVICEFUNCS
  - D3DDDI_DEVICEFUNCS
 ---
 
@@ -958,3 +959,4 @@ typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETMARKER)(
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

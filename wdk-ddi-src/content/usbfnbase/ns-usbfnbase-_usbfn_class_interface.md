@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_CLASS_INTERFACE
+ - PUSBFN_CLASS_INTERFACE
  - USBFN_CLASS_INTERFACE
 ---
 
@@ -68,3 +70,4 @@ An array of <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_pipe_information">USBFN_PIPE_INFORMATION</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFDeviceDepot2.Item
- - IWDTFDeviceDepot2.get_Item
+ - IWDTFActions2::get_Item
 ---
 
 # IWDTFActions2::get_Item
@@ -64,4 +63,3 @@ The indexed action.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-#

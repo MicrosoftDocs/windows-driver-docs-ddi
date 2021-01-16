@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceFileCreate
+ - EVT_WDF_DEVICE_FILE_CREATE
 ---
 
 # EVT_WDF_DEVICE_FILE_CREATE callback function
@@ -85,3 +85,4 @@ For more information about framework file objects and the <i>EvtDeviceFileCreate
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - GetDeviceInformation
+ - PGET_DEVICE_INFORMATION
 ---
 
 # PGET_DEVICE_INFORMATION callback function
@@ -100,3 +100,4 @@ The <i>deviceInformation</i> parameter is a pointer to a buffer that contains an
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_device_information">HDAUDIO_DEVICE_INFORMATION</a>
+

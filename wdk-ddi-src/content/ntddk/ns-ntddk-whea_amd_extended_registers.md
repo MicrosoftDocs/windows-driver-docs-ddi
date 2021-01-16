@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_AMD_EXTENDED_REGISTERS
+ - PWHEA_AMD_EXTENDED_REGISTERS
  - WHEA_AMD_EXTENDED_REGISTERS
 product:
  - Windows

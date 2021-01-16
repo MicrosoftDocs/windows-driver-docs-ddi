@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SMS_SEND
+ - PNDIS_WWAN_SMS_SEND
  - NDIS_WWAN_SMS_SEND
 ---
 
@@ -116,3 +118,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - FreeNetBufferListForwardingContext
+ - NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT
 ---
 
 # NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback function
@@ -100,3 +100,4 @@ When the send operation is complete, the extension must call the <i>FreeNetBuffe
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a>
+

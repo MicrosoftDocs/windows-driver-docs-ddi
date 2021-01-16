@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - urstypes
  - urstypes/urstypes
+api_name:
+ - urstypes
 ---
 
 # Urstypes.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - I2CRead
+ - PI2C_READ
 ---
 
 # PI2C_READ callback function
@@ -80,3 +80,4 @@ The video port implements this function, which can be accessed through a pointer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_i2c_interface">VIDEO_PORT_I2C_INTERFACE</a>
+

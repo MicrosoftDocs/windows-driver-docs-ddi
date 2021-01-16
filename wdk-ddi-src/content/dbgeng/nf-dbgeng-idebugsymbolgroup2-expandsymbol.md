@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbolGroup.ExpandSymbol
- - IDebugSymbolGroup2.ExpandSymbol
+ - IDebugSymbolGroup2::ExpandSymbol
 ---
 
 # IDebugSymbolGroup2::ExpandSymbol
@@ -120,3 +119,4 @@ For more information about symbol groups, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
+

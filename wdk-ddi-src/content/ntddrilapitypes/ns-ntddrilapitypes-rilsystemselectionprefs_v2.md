@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSYSTEMSELECTIONPREFS_V2
+ - LPRILSYSTEMSELECTIONPREFS_V2
 ---
 
 # RILSYSTEMSELECTIONPREFS_V2 structure (ntddrilapitypes.h)

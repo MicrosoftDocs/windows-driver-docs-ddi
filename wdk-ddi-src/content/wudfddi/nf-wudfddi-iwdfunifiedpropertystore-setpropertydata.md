@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUnifiedPropertyStore.SetPropertyData
+ - IWDFUnifiedPropertyStore::SetPropertyData
 ---
 
 # IWDFUnifiedPropertyStore::SetPropertyData
@@ -182,7 +182,6 @@ exit:
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystore-getpropertydata">GetPropertyData</a>
@@ -206,3 +205,4 @@ exit:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_root_class">WDF_PROPERTY_STORE_ROOT_CLASS</a>
+

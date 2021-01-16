@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl4.ControlledOutputVaListWide
+ - IDebugControl4::ControlledOutputVaListWide
 ---
 
 # IDebugControl4::ControlledOutputVaListWide
@@ -394,7 +394,6 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 
 ```
 
-
 ### -param Args 
 
 [in]
@@ -444,3 +443,4 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
+

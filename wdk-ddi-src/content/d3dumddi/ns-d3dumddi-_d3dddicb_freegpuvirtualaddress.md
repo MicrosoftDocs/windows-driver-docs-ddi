@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_FREEGPUVIRTUALADDRESS
  - D3DDDICB_FREEGPUVIRTUALADDRESS
 ---
 
@@ -62,3 +63,4 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb">pfnFreeGpuVirtualAddressCb</a>
+

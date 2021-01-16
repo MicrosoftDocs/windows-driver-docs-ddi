@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _AVC_PIN_DESCRIPTOR
+ - PAVC_PIN_DESCRIPTOR
  - AVC_PIN_DESCRIPTOR
 ---
 
@@ -108,3 +110,4 @@ typedef struct {
 [AVC_MULTIFUNC_IRB](./ns-avc-_avc_multifunc_irb.md)
 
 [KSPIN_DESCRIPTOR](../ks/ns-ks-kspin_descriptor.md)
+

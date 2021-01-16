@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+ - DXGK_TRACKEDWORKLOAD_STATE_FLAGS
 dev_langs:
  - c++
 ---

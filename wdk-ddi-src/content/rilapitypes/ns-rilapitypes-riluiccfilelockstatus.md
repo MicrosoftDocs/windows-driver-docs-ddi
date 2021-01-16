@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILUICCFILELOCKSTATUS
+ - LPRILUICCFILELOCKSTATUS
 ---
 
 # RILUICCFILELOCKSTATUS structure (rilapitypes.h)

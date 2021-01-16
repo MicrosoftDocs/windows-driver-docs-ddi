@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _OEM_DMEXTRAHEADER
+ - POEM_DMEXTRAHEADER
  - OEM_DMEXTRAHEADER
 ---
 
@@ -68,3 +70,4 @@ Version number of the user interface plug-in that is defining the private DEVMOD
 ## -remarks
 
 For more information about adding DEVMODEW structure members, see <a href="/windows-hardware/drivers/print/providing-devmode-structure-additions">Providing DEVMODE Structure Additions</a>.
+

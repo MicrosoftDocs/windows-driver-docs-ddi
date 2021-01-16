@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddser.h
 api_name:
+ - _SERIAL_TIMEOUTS
+ - PSERIAL_TIMEOUTS
  - SERIAL_TIMEOUTS
 ---
 
@@ -156,3 +158,4 @@ For more information, see <a href="/previous-versions/ff547486(v=vs.85)">Setting
 
 
 <a href="/windows/win32/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
+

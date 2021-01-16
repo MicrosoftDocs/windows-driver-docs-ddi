@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetNotifyEventHandle
- - IDebugControl2.SetNotifyEventHandle
- - IDebugControl3.SetNotifyEventHandle
+ - IDebugControl3::SetNotifyEventHandle
 ---
 
 # IDebugControl3::SetNotifyEventHandle
@@ -99,3 +97,4 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setnotifyeventhandle">SetNotifyEventHandle</a>
+

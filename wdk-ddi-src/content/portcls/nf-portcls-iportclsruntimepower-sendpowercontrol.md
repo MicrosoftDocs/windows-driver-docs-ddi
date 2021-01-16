@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortClsRuntimePower.SendPowerControl
+ - IPortClsRuntimePower::SendPowerControl
 ---
 
 # IPortClsRuntimePower::SendPowerControl
@@ -91,3 +91,4 @@ The <code>SendPowerControl</code> method returns STATUS_SUCCESS, if the call is 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.OutSimpleValue
+ - ExtRemoteTyped::OutSimpleValue
 ---
 
 # ExtRemoteTyped::OutSimpleValue
@@ -64,3 +64,4 @@ The value is sent to the debugger engine's output callbacks.
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outfullvalue">ExtRemoteTyped::OutFullValue</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_OPENRESOURCEFROMNTHANDLE
  - D3DKMT_OPENRESOURCEFROMNTHANDLE
 ---
 
@@ -128,3 +129,4 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>
+

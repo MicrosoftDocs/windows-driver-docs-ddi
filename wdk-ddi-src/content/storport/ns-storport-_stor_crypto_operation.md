@@ -35,6 +35,8 @@ api_location:
  - storport.h
 api_name:
  - _STOR_CRYPTO_OPERATION
+ - PSTOR_CRYPTO_OPERATION
+ - STOR_CRYPTO_OPERATION
 ---
 
 # _STOR_CRYPTO_OPERATION structure

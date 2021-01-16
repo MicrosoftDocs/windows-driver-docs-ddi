@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - ResourceResolveSubresource
+ - PFND3D10DDI_RESOURCERESOLVESUBRESOURCE
 ---
 
 # PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback function
@@ -125,3 +125,4 @@ If both resources are prestructured plus typeless, they must be equal formats, a
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

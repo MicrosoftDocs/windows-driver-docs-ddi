@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.AddItemToFolder
+ - IWiaDrvItem::AddItemToFolder
 ---
 
 # IWiaDrvItem::AddItemToFolder
@@ -72,3 +72,4 @@ Minidrivers typically use the AddItemToFolder method to add an item to a parent 
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [RemoveItemFromFolder](./nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder.md)
+

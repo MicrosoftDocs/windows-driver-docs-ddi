@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - AllocateCommonBuffer
+ - PALLOCATE_COMMON_BUFFER
 ---
 
 # PALLOCATE_COMMON_BUFFER callback function
@@ -127,3 +127,4 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient2.AbandonCurrentProcess
- - IDebugClient3.AbandonCurrentProcess
- - IDebugClient4.AbandonCurrentProcess
- - IDebugClient5.AbandonCurrentProcess
+ - IDebugClient2::AbandonCurrentProcess
 ---
 
 # IDebugClient2::AbandonCurrentProcess
@@ -113,3 +110,4 @@ Windows will continue to consider this process as being debugged, and so the pro
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-terminatecurrentprocess">TerminateCurrentProcess</a>
+

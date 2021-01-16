@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_NODE_INFORMATION
+ - PUSB_NODE_INFORMATION
  - USB_NODE_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_mi_parent_information">USB_MI_PARENT_INFORMATION</a>
+

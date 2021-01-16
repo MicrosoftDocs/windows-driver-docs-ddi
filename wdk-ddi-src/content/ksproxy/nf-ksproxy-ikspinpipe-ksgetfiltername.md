@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPinPipe.KsGetFilterName
+ - IKsPinPipe::KsGetFilterName
 ---
 
 # IKsPinPipe::KsGetFilterName
@@ -56,3 +56,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe">IKsPinPipe</a>
+

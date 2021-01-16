@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Pcivirt.h
 api_name:
+ - _SRIOV_PROXY_QUERY_LUID_OUTPUT
+ - PSRIOV_PROXY_QUERY_LUID_OUTPUT
  - SRIOV_PROXY_QUERY_LUID_OUTPUT
 ---
 
@@ -70,3 +72,4 @@ typedef struct _SRIOV_PROXY_QUERY_LUID_OUTPUT {
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_proxy_query_luid">IOCTL_SRIOV_PROXY_QUERY_LUID</a>
+

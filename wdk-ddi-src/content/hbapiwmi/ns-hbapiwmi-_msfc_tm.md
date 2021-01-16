@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MSFC_TM
+ - PMSFC_TM
  - MSFC_TM
 ---
 
@@ -92,3 +94,4 @@ Indicates when <b>TRUE</b> that the time stamp complies with daylight savings ti
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/msfc-tm-wmi-class">MSFC_TM WMI Class</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl2.GetCurrentSystemUpTime
- - IDebugControl3.GetCurrentSystemUpTime
+ - IDebugControl3::GetCurrentSystemUpTime
 ---
 
 # IDebugControl3::GetCurrentSystemUpTime
@@ -92,3 +91,4 @@ For more information, see <a href="/windows-hardware/drivers/debugger/target-inf
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

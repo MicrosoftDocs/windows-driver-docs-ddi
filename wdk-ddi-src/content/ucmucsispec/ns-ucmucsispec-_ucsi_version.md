@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_VERSION
+ - PUCSI_VERSION
+ - UCSI_VERSION
 ---
 
 # _UCSI_VERSION structure

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnRelocateDeviceFuncs
+ - PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS
 product:
  - Windows
 ---
@@ -66,3 +66,4 @@ The device functions table, as a <a href="/windows-hardware/drivers/ddi/d3d10umd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs">D3DWDDM2_2DDI_DEVICEFUNCS</a>
+

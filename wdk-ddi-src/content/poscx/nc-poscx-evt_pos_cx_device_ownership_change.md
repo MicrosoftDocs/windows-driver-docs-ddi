@@ -38,7 +38,7 @@ api_type:
 api_location:
  - poscx.h
 api_name:
- - EvtPosCxDeviceOwnershipChange
+ - EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE
 ---
 
 # EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback function

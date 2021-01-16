@@ -37,7 +37,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
- - HwScsiWmiQueryDataBlock
+ - PSCSIWMI_QUERY_DATABLOCK
 ---
 
 # PSCSIWMI_QUERY_DATABLOCK callback function
@@ -111,3 +111,4 @@ The miniport driver writes instance data to the buffer. For requests that do not
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
+

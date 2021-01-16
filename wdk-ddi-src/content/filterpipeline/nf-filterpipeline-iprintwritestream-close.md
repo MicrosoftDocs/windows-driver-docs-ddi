@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Filterpipeline.h
 api_name:
- - IPrintWriteStream.Close
+ - IPrintWriteStream::Close
 ---
 
 # IPrintWriteStream::Close

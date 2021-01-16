@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_DIRECTORY_INFORMATION
+ - PFILE_DIRECTORY_INFORMATION
  - FILE_DIRECTORY_INFORMATION
 ---
 
@@ -126,3 +128,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 <a href="/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL</a>
 
 <a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>
+

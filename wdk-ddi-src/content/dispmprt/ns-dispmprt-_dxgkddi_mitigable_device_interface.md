@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - PDXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - DXGKDDI_MITIGABLE_DEVICE_INTERFACE
 product:
  - Windows
 dev_langs:

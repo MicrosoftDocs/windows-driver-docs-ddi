@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_SUPL_NI_INFO
  - GNSS_SUPL_NI_INFO
 ---
 

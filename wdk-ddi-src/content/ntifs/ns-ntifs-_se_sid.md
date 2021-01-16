@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SE_SID
+ - PSE_SID
  - SE_SID
 ---
 
@@ -64,3 +66,4 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+

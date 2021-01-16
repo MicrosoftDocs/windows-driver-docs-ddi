@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.GetMatchThreadId
- - IDebugBreakpoint2.GetMatchThreadId
+ - IDebugBreakpoint2::GetMatchThreadId
 ---
 
 # IDebugBreakpoint2::GetMatchThreadId
@@ -96,3 +95,4 @@ If you have set a thread for the breakpoint, the breakpoint can be triggered onl
 The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the engine thread ID of the thread that can trigger the breakpoint.
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

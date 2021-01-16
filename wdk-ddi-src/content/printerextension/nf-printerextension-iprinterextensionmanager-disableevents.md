@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionManager.DisableEvents
+ - IPrinterExtensionManager::DisableEvents
 ---
 
 # IPrinterExtensionManager::DisableEvents
@@ -58,3 +58,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionmanager">IPrinterExtensionManager</a>
+

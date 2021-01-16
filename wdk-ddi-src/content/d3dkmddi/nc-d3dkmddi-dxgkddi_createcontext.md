@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCreateContext
+ - DXGKDDI_CREATECONTEXT
 product:
  - Windows
 ---
@@ -92,3 +92,4 @@ Typically, each context can reference any resource that was previously created f
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

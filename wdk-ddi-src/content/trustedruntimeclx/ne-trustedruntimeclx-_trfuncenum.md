@@ -31,9 +31,11 @@ api_location:
  - trustedruntimeclx.h
 api_name:
  - _TRFUNCENUM
+ - TRFUNCENUM
 ---
 
 # _TRFUNCENUM enumeration
+
 
 ## -description
 
@@ -56,3 +58,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

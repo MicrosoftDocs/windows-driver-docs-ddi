@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
+ - _SECURE_ELEMENT_PROTO_ROUTING_INFO
+ - PSECURE_ELEMENT_PROTO_ROUTING_INFO
  - SECURE_ELEMENT_PROTO_ROUTING_INFO
 ---
 
@@ -61,3 +63,4 @@ Secure element unique identifier returned by enumeration DDI.
 ### -field eRfProtocolType
 
 NFC Forum RF protocol.
+

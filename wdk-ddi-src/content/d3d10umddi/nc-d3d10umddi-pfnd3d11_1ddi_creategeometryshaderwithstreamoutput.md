@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CreateGeometryShaderWithStreamOutput(D3D11_1)
+ - PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 ---
 
 # PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback function
@@ -98,3 +98,4 @@ The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d1
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

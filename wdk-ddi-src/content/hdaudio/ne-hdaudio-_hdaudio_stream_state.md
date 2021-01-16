@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hdaudio.h
 api_name:
+ - _HDAUDIO_STREAM_STATE
+ - PHDAUDIO_STREAM_STATE
  - HDAUDIO_STREAM_STATE
 ---
 
@@ -72,3 +74,4 @@ The run state.
 ## -remarks
 
 This enumeration is used by the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pset_dma_engine_state">PSET_DMA_ENGINE_STATE</a>.
+

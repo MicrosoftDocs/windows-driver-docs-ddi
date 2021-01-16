@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_TARGET_NAME
+ - PMOUNTMGR_TARGET_NAME
  - MOUNTMGR_TARGET_NAME
 ---
 
@@ -68,3 +70,4 @@ Nonpersistent target names must contain the full path of a target object name in
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_keep_links_when_offline">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a>
+

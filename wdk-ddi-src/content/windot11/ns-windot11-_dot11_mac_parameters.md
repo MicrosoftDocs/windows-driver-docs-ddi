@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_MAC_PARAMETERS
+ - PDOT11_MAC_PARAMETERS
  - DOT11_MAC_PARAMETERS
 product:
  - Windows 10 or later.
@@ -117,3 +119,4 @@ typedef struct _DOT11_MAC_PARAMETERS {
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEODECODER_STATUS_S
  - KSPROPERTY_VIDEODECODER_STATUS_S
 ---
 
@@ -74,3 +75,4 @@ The KSPROPERTY_VIDEODECODER_STATUS_S structure retrieves information about the v
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-videodecoder-status">KSPROPERTY_VIDEODECODER_STATUS</a>
+

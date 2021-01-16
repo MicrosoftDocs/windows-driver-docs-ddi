@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _RemovePort_IN
+ - PRemovePort_IN
  - RemovePort_IN
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/removeport">RemovePort</a>
+

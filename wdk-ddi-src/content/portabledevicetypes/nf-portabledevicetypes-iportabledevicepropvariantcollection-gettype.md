@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDevicePropVariantCollection.GetType
+ - IPortableDevicePropVariantCollection::GetType
 ---
 
 # IPortableDevicePropVariantCollection::GetType
@@ -95,3 +95,4 @@ All items that are stored in an <b>IPortableDevicePropVariantCollection</b> are 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
+

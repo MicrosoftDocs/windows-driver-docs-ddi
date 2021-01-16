@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK_COMPLETE_PERF_STATE
+ - PPEP_WORK_COMPLETE_PERF_STATE
  - PEP_WORK_COMPLETE_PERF_STATE
 ---
 
@@ -84,3 +86,4 @@ The <b>CompletePerfState</b> member of the <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

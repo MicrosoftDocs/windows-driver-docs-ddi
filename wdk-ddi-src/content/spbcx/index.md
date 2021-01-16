@@ -12,6 +12,8 @@ tech.root: spb
 f1_keywords:
  - spbcx
  - spbcx/spbcx
+api_name:
+ - spbcx
 ---
 
 # Spbcx.h header

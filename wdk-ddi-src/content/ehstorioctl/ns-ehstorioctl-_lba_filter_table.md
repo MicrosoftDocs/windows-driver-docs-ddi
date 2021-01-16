@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _LBA_FILTER_TABLE
+ - PLBA_FILTER_TABLE
  - LBA_FILTER_TABLE
 ---
 
@@ -105,3 +107,4 @@ Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a>
+

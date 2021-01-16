@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _RemoveTarget_OUT
+ - PRemoveTarget_OUT
  - RemoveTarget_OUT
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the RemoveTarget_OUT structure in 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/removetarget">RemoveTarget</a>
+

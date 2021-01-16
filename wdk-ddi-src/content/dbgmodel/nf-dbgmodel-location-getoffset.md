@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - GetOffset
+ - Location::GetOffset
 ---
 
 # GetOffset function
@@ -54,3 +54,4 @@ This function returns ULONG64.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

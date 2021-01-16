@@ -34,6 +34,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS
+ - PDEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS
  - DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS
 product:
  - Windows
@@ -69,3 +71,4 @@ The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES]
 [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

@@ -41,7 +41,9 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - RTL_OSVERSIONINFOW
+ - _OSVERSIONINFOW
+ - POSVERSIONINFOW
+ - OSVERSIONINFOW
 ---
 
 # _OSVERSIONINFOW structure
@@ -92,3 +94,4 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a>
+

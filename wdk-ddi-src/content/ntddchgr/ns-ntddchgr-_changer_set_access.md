@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_SET_ACCESS
+ - PCHANGER_SET_ACCESS
  - CHANGER_SET_ACCESS
 ---
 
@@ -104,3 +106,4 @@ Retract the IEport. Valid only if CHANGER_CLOSE_IEPORT is set.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_access">IOCTL_CHANGER_SET_ACCESS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_EXCLUSIVE_LOCK_STATE
+ - PCDROM_EXCLUSIVE_LOCK_STATE
  - CDROM_EXCLUSIVE_LOCK_STATE
 ---
 
@@ -68,3 +70,4 @@ The CD-ROM class driver reports the exclusive access state of a CD-ROM device in
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+

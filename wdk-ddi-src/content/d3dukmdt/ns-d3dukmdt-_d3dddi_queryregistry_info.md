@@ -33,6 +33,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_QUERYREGISTRY_INFO
+ - D3DDDI_QUERYREGISTRY_INFO
 product:
  - Windows
 ---
@@ -140,3 +141,4 @@ It is most useful when a registry binary blob is being read.
 - [D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md)
 - [KMTQUERYADAPTERINFOTYPE](../d3dkmthk/ne-d3dkmthk-_kmtqueryadapterinfotype.md)
 - [D3DKMT_QUERYADAPTERINFO](../d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
+

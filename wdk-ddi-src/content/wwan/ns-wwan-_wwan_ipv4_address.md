@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_IPV4_ADDRESS
+ - PWWAN_IPV4_ADDRESS
  - WWAN_IPV4_ADDRESS
 ---
 

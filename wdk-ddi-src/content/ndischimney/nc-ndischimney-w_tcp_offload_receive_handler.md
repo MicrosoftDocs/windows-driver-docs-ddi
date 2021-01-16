@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportTcpOffloadReceive
+ - W_TCP_OFFLOAD_RECEIVE_HANDLER
 ---
 
 # W_TCP_OFFLOAD_RECEIVE_HANDLER callback function
@@ -189,3 +189,4 @@ If data is received on an offloaded connection while the push timer is running, 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
    NdisTcpOffloadReceiveComplete</a>
+

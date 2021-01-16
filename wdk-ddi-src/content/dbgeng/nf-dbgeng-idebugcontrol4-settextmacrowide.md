@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.SetTextMacroWide
+ - IDebugControl4::SetTextMacroWide
 ---
 
 # IDebugControl4::SetTextMacroWide
@@ -106,3 +106,4 @@ For an overview of aliases used by the debugger engine, see <a href="/windows-ha
 
 
 <a href="/windows-hardware/drivers/debugger/r--registers-">r (Registers)</a>
+

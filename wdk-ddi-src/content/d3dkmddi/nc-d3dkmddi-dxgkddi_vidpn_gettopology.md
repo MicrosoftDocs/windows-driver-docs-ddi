@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnGetTopology
+ - DXGKDDI_VIDPN_GETTOPOLOGY
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ The lifetime of the DXGK_VIDPNTOPOLOGY_INTERFACE structure returned in <i>ppVidP
 
 
 <a href="/windows-hardware/drivers/ddi/index">VidPN Topology Interface</a>
+

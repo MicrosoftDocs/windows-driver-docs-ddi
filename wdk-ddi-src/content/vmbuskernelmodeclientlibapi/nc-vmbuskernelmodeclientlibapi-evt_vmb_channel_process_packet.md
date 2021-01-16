@@ -37,7 +37,7 @@ api_type:
 api_location:
  - VmbusKernelModeClientLibApi.h
 api_name:
- - PFN_VMB_CHANNEL_PROCESS_PACKET
+ - EVT_VMB_CHANNEL_PROCESS_PACKET
 ---
 
 # EVT_VMB_CHANNEL_PROCESS_PACKET callback function
@@ -117,3 +117,4 @@ has been configured to defer packet processing to a worker thread.
 
 
 <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata">VmbChannelPacketGetExternalData</a>
+

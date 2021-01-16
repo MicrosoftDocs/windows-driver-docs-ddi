@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KEY_VALUE_BASIC_INFORMATION
+ - PKEY_VALUE_BASIC_INFORMATION
  - KEY_VALUE_BASIC_INFORMATION
 ---
 
@@ -219,3 +221,4 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
+

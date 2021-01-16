@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VIRTUALGPUCAPABILITY
+ - PDXGK_VIRTUALGPUCAPABILITY
+ - DXGK_VIRTUALGPUCAPABILITY
 product:
  - Windows
 dev_langs:

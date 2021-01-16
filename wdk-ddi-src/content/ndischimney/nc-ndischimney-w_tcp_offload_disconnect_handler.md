@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportTcpOffloadDisconnect
+ - W_TCP_OFFLOAD_DISCONNECT_HANDLER
 ---
 
 # W_TCP_OFFLOAD_DISCONNECT_HANDLER callback function
@@ -246,3 +246,4 @@ The offload target must not free resources for the connection on which it has is
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>
+

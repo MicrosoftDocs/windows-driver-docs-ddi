@@ -41,6 +41,8 @@ api_type:
 api_location:
  - BthXDDI.h
 api_name:
+ - _BTHX_SCO_SUPPORT
+ - PBTHX_SCO_SUPPORT
  - BTHX_SCO_SUPPORT
 ---
 
@@ -73,3 +75,4 @@ The output buffer of this IOCTL is defined by the <a href="/windows-hardware/dri
 BTHX_SCO_SUPPORT structure.
 
 The transport driver must specify <b>ScoSupportHCIBypass</b>.
+

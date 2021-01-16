@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _PARTITION_INFORMATION
+ - PPARTITION_INFORMATION
  - PARTITION_INFORMATION
 ---
 
@@ -124,3 +126,4 @@ Disk drivers should now use structures [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk
 [IoSetPartitionInformationEx](../ntddk/nf-ntddk-iosetpartitioninformationex.md)
 
 [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ControllerSpecificFunction
+ - GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION
 ---
 
 # GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function
@@ -140,3 +140,4 @@ The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpi
 
 
 <a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
+

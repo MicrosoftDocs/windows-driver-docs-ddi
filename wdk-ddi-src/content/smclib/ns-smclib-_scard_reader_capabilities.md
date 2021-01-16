@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Smclib.h
 api_name:
+ - _SCARD_READER_CAPABILITIES
+ - PSCARD_READER_CAPABILITIES
  - SCARD_READER_CAPABILITIES
 ---
 
@@ -426,3 +428,4 @@ Reserved for system use.
 ## -remarks
 
 This structure must be maintained by the smart card reader driver.
+

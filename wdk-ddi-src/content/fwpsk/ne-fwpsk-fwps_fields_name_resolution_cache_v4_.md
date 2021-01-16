@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4_
  - FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4
 ---
 
@@ -80,3 +81,4 @@ The compartment that the network interface belongs to.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

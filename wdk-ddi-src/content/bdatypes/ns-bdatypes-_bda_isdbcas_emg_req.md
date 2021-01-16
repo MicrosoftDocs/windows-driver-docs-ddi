@@ -36,9 +36,12 @@ api_location:
  - bdatypes.h
 api_name:
  - _BDA_ISDBCAS_EMG_REQ
+ - PBDA_ISDBCAS_EMG_REQ
+ - BDA_ISDBCAS_EMG_REQ
 ---
 
 # _BDA_ISDBCAS_EMG_REQ structure
+
 
 ## -description
 
@@ -67,3 +70,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

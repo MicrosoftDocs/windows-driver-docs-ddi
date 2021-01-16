@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_DATA
  - DXVAHDDDI_STREAM_DATA
 ---
 
@@ -334,3 +335,4 @@ DRV: Weave [0(A0)+0(A1)] = A
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd">VideoProcessBltHD</a>
+

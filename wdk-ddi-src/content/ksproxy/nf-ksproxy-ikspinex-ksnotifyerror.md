@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPinEx.KsNotifyError
+ - IKsPinEx::KsNotifyError
 ---
 
 # IKsPinEx::KsNotifyError
@@ -68,3 +68,4 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinex">IKsPinEx</a>
+

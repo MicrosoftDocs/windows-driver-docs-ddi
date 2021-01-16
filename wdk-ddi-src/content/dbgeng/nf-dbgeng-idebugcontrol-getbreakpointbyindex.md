@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetBreakpointByIndex
- - IDebugControl2.GetBreakpointByIndex
- - IDebugControl3.GetBreakpointByIndex
+ - IDebugControl::GetBreakpointByIndex
 ---
 
 # IDebugControl::GetBreakpointByIndex
@@ -113,3 +111,4 @@ The index and returned breakpoint are specific to the current process.  The same
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

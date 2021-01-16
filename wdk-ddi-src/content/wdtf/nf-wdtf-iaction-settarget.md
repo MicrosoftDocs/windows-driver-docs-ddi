@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IAction.SetTarget
+ - IAction::SetTarget
 ---
 
 # IAction::SetTarget
@@ -87,3 +87,4 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
+

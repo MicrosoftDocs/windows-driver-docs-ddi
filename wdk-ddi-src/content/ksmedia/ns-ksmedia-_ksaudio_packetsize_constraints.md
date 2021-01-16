@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - _KSAUDIO_PACKETSIZE_CONSTRAINTS
  - KSAUDIO_PACKETSIZE_CONSTRAINTS
 ---
 
@@ -146,3 +147,4 @@ For WaveRT drivers, this data structure describes the constraints for a WaveRT p
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>
+

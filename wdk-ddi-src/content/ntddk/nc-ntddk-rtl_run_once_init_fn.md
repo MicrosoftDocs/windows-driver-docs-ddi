@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - RunOnceInitialization
+ - RTL_RUN_ONCE_INIT_FN
 ---
 
 # RTL_RUN_ONCE_INIT_FN callback function
@@ -135,3 +135,4 @@ The RTL_RUN_ONCE_INIT_FN function type is defined in the Wdm.h header file. To m
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceinitialize">RtlRunOnceInitialize</a>
+

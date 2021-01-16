@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_QueryControllerBasicInformation
+ - GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
 ---
 
 # GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION callback function
@@ -111,3 +111,4 @@ The GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type is defined in t
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

@@ -32,6 +32,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _DRIVER_REGKEY_TYPE
+ - PDRIVER_REGKEY_TYPE
  - DRIVER_REGKEY_TYPE
 ---
 

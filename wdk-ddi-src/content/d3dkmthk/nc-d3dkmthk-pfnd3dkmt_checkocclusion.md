@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTCheckOcclusion
+ - PFND3DKMT_CHECKOCCLUSION
 ---
 
 # PFND3DKMT_CHECKOCCLUSION callback function
@@ -75,3 +75,4 @@ The handle to the window that is checked for occlusion must be valid. A window i
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checkocclusion">D3DKMT_CHECKOCCLUSION</a>
+

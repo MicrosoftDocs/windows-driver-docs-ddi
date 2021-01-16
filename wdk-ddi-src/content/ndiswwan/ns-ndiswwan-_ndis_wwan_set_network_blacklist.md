@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_SET_NETWORK_BLACKLIST
+ - PNDIS_WWAN_SET_NETWORK_BLACKLIST
+ - NDIS_WWAN_SET_NETWORK_BLACKLIST
 product:
  - Windows
 ---
@@ -85,3 +87,4 @@ After completing the Set request, the modem should return an [NDIS_STATUS_WWAN_N
 [NDIS_STATUS_WWAN_NETWORK_BLACKLIST](/windows-hardware/drivers/network/ndis-status-wwan-network-blacklist)
 
 [**WWAN_NETWORK_BLACKLIST_INFO**](../wwan/ns-wwan-_wwan_network_blacklist_info.md)
+

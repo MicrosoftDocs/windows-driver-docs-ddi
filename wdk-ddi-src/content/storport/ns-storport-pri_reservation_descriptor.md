@@ -39,6 +39,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - PPRI_RESERVATION_DESCRIPTOR
  - PRI_RESERVATION_DESCRIPTOR
 ---
 
@@ -86,3 +87,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_pe
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a>
+

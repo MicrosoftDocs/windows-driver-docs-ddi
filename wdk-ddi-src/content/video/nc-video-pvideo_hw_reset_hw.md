@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidResetHw
+ - PVIDEO_HW_RESET_HW
 ---
 
 # PVIDEO_HW_RESET_HW callback function
@@ -100,3 +100,4 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportint10">VideoPortInt10</a>
+

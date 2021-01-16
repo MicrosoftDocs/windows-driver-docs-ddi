@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_DEVICE_CAPABILITIES_EX
+ - PSTOR_DEVICE_CAPABILITIES_EX
  - STOR_DEVICE_CAPABILITIES_EX
 ---
 
@@ -153,3 +155,4 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
+

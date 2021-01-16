@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_STANDARD_COLORIMETRY_FLAGS
+ - PDXGK_STANDARD_COLORIMETRY_FLAGS
  - DXGK_STANDARD_COLORIMETRY_FLAGS
 ---
 

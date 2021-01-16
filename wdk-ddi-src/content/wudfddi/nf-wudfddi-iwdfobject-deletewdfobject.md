@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFObject.DeleteWdfObject
+ - IWDFObject::DeleteWdfObject
 ---
 
 # IWDFObject::DeleteWdfObject
@@ -75,3 +75,4 @@ For a code example of how to use the <b>DeleteWdfObject</b> method, see <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
+

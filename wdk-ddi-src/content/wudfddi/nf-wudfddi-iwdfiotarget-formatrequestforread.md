@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTarget.FormatRequestForRead
+ - IWDFIoTarget::FormatRequestForRead
 ---
 
 # IWDFIoTarget::FormatRequestForRead
@@ -99,3 +99,4 @@ A pointer to the device offset that is used for the read. This parameter is opti
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
+

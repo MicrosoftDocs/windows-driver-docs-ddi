@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - InterfaceReference
+ - PINTERFACE_REFERENCE
 ---
 
 # PINTERFACE_REFERENCE callback function (miniport.h)
@@ -71,3 +71,4 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>
+

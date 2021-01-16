@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ConfigureAdapterChannel
+ - PCONFIGURE_ADAPTER_CHANNEL
 ---
 
 # PCONFIGURE_ADAPTER_CHANNEL callback function
@@ -107,3 +107,4 @@ Typically, a custom function sets state information in the DMA controller to con
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

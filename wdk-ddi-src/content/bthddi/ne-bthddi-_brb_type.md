@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _BRB_TYPE
  - BRB_TYPE
 ---
 
@@ -255,3 +256,4 @@ The type of BRB is specified in the
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+

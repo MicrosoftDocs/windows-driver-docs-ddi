@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
- - PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
+ - EVT_UCX_DEFAULT_ENDPOINT_UPDATE
 ---
 
 # EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function
@@ -93,7 +93,6 @@ Endpoint_EvtUcxDefaultEndpointUpdate(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
@@ -101,3 +100,4 @@ Endpoint_EvtUcxDefaultEndpointUpdate(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks">UcxDefaultEndpointInitSetEventCallbacks</a>
+

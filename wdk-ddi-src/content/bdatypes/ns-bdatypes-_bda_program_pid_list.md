@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_PROGRAM_PID_LIST
+ - PBDA_PROGRAM_PID_LIST
  - BDA_PROGRAM_PID_LIST
 ---
 
@@ -72,3 +74,4 @@ Array of PIDs that identify packets of program data.
 
 
 <a href="/windows-hardware/drivers/stream/kspropsetid-bdaca">KSPROPSETID_BdaCA</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - iddcx.h
 api_name:
- - PFN_IDD_CX_MONITOR_I2C_TRANSMIT
+ - EVT_IDD_CX_MONITOR_I2C_TRANSMIT
 ---
 
 # EVT_IDD_CX_MONITOR_I2C_TRANSMIT callback function
@@ -77,3 +77,4 @@ communication.
 
 If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_TRANSMIT</b> must refuse to send data to an I2C device if the device has an I2C address that is used by HDCP.
 <b>EVT_IDD_CX_MONITOR_I2C_TRANSMIT</b> must never transmit data to an I2C device on the display adapter. That is, this function can transmit data to an I2C device in a monitor that is connected to the display adapter, but not to an I2C device that is on the display adapter itself.
+

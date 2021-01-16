@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetDefaultKey
+ - DOT11EXT_SET_DEFAULT_KEY
 ---
 
 # DOT11EXT_SET_DEFAULT_KEY callback
@@ -143,3 +143,4 @@ A cipher key is deleted from the adapter's key tables if the
 
 <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
    DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+

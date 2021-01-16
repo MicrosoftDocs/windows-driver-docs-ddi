@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPStatusDisplayData
  - DXVA_COPPStatusDisplayData
 ---
 
@@ -121,3 +122,4 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
+

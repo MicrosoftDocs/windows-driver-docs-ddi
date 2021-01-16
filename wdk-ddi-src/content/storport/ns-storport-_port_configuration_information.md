@@ -40,10 +40,13 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _PORT_CONFIGURATION_INFORMATION
+ - PPORT_CONFIGURATION_INFORMATION
  - PORT_CONFIGURATION_INFORMATION
 ---
 
 # _PORT_CONFIGURATION_INFORMATION structure (storport.h)
+
 
 ## -description
 
@@ -414,3 +417,4 @@ The Storport driver allocates and initializes this structure, supplies as much H
 [**StorPortInitialize**](./nf-storport-storportinitialize.md)
 
 [**StorPortSetDeviceQueueDepth**](./nf-storport-storportsetdevicequeuedepth.md)
+

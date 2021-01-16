@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ - PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
  - WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 ---
 
@@ -81,3 +83,4 @@ The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+

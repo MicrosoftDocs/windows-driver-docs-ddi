@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_MAPCPUHOSTAPERTURE
  - DXGKARG_MAPCPUHOSTAPERTURE
 ---
 
@@ -80,3 +81,4 @@ Array of CPU Host Aperture pages to map. This is an array of page indices from t
 ### -field pMemorySegmentPages
 
 MDL-style array of page indices to the allocation pages that need to be mapped into the CPU host aperture. The page indexes starting from 0.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_CLOCK_OBJECT
+ - PHW_CLOCK_OBJECT
  - HW_CLOCK_OBJECT
 ---
 
@@ -90,3 +92,4 @@ Reserved for system use. Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a>
+

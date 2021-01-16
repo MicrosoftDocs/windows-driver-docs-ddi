@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sddef.h
 api_name:
+ - _SDCMD_DESCRIPTOR
+ - PSDCMD_DESCRIPTOR
  - SDCMD_DESCRIPTOR
 ---
 
@@ -136,3 +138,4 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
+

@@ -12,6 +12,8 @@ tech.root: dtf
 f1_keywords:
  - wdtfsystemaction
  - wdtfsystemaction/wdtfsystemaction
+api_name:
+ - wdtfsystemaction
 ---
 
 # Wdtfsystemaction.h header

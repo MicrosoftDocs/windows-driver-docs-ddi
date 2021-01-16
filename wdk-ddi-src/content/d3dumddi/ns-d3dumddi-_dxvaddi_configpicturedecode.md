@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_CONFIGPICTUREDECODE
  - DXVADDI_CONFIGPICTUREDECODE
 ---
 
@@ -204,3 +205,4 @@ The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiff
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

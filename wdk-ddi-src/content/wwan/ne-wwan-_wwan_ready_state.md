@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_READY_STATE
+ - PWWAN_READY_STATE
  - WWAN_READY_STATE
 ---
 
@@ -101,3 +103,4 @@ For devices that use a SIM card, this enumeration indicates if the SIM card has 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info">WWAN_READY_INFO</a>
+

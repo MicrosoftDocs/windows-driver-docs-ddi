@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_GETHANDLEDATA
  - DXGKARGCB_GETHANDLEDATA
 ---
 
@@ -79,3 +80,4 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+

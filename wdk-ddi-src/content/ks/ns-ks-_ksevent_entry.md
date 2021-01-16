@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ks.h
 api_name:
+ - _KSEVENT_ENTRY
+ - PKSEVENT_ENTRY
  - KSEVENT_ENTRY
 ---
 
@@ -82,3 +84,4 @@ The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how 
 Drivers that do not provide an <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksremoveevent">AVStrMiniRemoveEvent</a> handler should treat this as an opaque data structure.
 
 For more information, see <a href="/windows-hardware/drivers/stream/event-handling-in-avstream">Event Handling in AVStream</a>.
+

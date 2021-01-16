@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_INTERFACE
+ - PNDIS_FILTER_INTERFACE
  - NDIS_FILTER_INTERFACE
 ---
 
@@ -182,3 +184,4 @@ A light-weight filter may dynamically insert or remove itself from the send or r
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
+

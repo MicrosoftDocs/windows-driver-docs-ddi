@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_PROCAMPVALUES
  - DXVADDI_PROCAMPVALUES
 ---
 
@@ -70,3 +71,4 @@ The DXVADDI_PROCAMPVALUES structure describes the ProcAmp control adjustment val
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt">D3DDDIARG_VIDEOPROCESSBLT</a>
+

@@ -33,6 +33,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_FEATURE_ID
+ - DXGK_FEATURE_ID
 product:
  - Windows
 dev_langs:

@@ -32,6 +32,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_PFA_OFFLINE_DECISION_TYPE
+ - PWHEAP_PFA_OFFLINE_DECISION_TYPE
  - WHEAP_PFA_OFFLINE_DECISION_TYPE
 product:
  - Windows

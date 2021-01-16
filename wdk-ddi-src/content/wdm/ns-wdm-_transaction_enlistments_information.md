@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRANSACTION_ENLISTMENTS_INFORMATION
+ - PTRANSACTION_ENLISTMENTS_INFORMATION
  - TRANSACTION_ENLISTMENTS_INFORMATION
 ---
 
@@ -76,3 +78,4 @@ The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
+

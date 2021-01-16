@@ -39,6 +39,7 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - PST_PARAMETER_DATA
  - ST_PARAMETER_DATA
 ---
 
@@ -69,3 +70,4 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>
+

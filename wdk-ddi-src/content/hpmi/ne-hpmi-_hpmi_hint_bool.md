@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hpmi.h
 api_name:
+ - _HPMI_HINT_BOOL
+ - PHPMI_HINT_BOOL
  - HPMI_HINT_BOOL
 ---
 
@@ -82,3 +84,4 @@ Value is not used.
 
 
 <a href="/windows-hardware/drivers/ddi/hpmi/index">hpmi.h</a>
+

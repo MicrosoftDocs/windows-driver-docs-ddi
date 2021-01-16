@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoTarget.FormatRequestForIoctl
+ - IWDFIoTarget::FormatRequestForIoctl
 ---
 
 # IWDFIoTarget::FormatRequestForIoctl
@@ -109,3 +109,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_t
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
+

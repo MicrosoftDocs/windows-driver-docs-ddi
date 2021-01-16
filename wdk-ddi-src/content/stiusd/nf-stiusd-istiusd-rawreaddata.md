@@ -37,7 +37,7 @@ api_type:
 api_location:
  - stiusd.h
 api_name:
- - IStiUSD.RawReadData
+ - IStiUSD::RawReadData
 ---
 
 # IStiUSD::RawReadData
@@ -78,3 +78,4 @@ For USB devices, better performance can be achieved if read requests are aligned
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

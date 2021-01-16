@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_SDP_RECORD
+ - PBTH_SDP_RECORD
  - BTH_SDP_RECORD
 ---
 
@@ -211,3 +213,4 @@ This structure is passed as the input buffer and output buffer of
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - RetrieveSubObject(D3D11_1)
+ - PFND3D10DDI_RETRIEVESUBOBJECT
 product:
  - Windows
 ---
@@ -106,3 +106,4 @@ This function is free-threaded.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_destroydevice">DestroyDevice</a>
+

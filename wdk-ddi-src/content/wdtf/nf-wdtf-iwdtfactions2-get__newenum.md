@@ -37,8 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFDeviceDepot2._NewEnum
- - IWDTFDeviceDepot2.get__NewEnum
+ - IWDTFActions2::get__NewEnum
 ---
 
 # IWDTFActions2::get__NewEnum
@@ -69,4 +68,3 @@ You must use the Active Template Library (ATL) to implement this functionality.
 For more information about how ATL implements this functionality, see the 
 <b>ICollectionOnSTLImpl </b>interface in the MSDN Library.
 
-#

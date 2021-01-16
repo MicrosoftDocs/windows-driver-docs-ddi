@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _POWER_STATE_TYPE
+ - PPOWER_STATE_TYPE
  - POWER_STATE_TYPE
 ---
 
@@ -80,3 +82,4 @@ The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_PROFILE_LIST_EX
+ - PFEATURE_DATA_PROFILE_LIST_EX
  - FEATURE_DATA_PROFILE_LIST_EX
 ---
 
@@ -76,3 +78,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_profile_type">FEATURE_PROFILE_TYPE</a>
+

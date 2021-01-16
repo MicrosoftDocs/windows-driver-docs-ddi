@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_RESOURCEFLAGS
  - D3DDDI_RESOURCEFLAGS
 ---
 
@@ -268,3 +269,4 @@ A 32-bit value that identifies the type of resource to create.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource">D3DDDIARG_CREATERESOURCE</a>
+

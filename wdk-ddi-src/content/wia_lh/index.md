@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - wia_lh
  - wia_lh/wia_lh
+api_name:
+ - wia_lh
 ---
 
 # Wia_Lh.h header

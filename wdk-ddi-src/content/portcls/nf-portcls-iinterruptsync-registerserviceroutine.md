@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IInterruptSync.RegisterServiceRoutine
+ - IInterruptSync::RegisterServiceRoutine
 ---
 
 # IInterruptSync::RegisterServiceRoutine
@@ -71,3 +71,4 @@ Specifies whether the routine is added at the head or tail of the list of ISRs. 
 ## -remarks
 
 This method adds the specified routine to the synchronization object's list of ISRs. When an interrupt occurs, the routine at the head of the list is called first, and the routine at the tail is called last.
+

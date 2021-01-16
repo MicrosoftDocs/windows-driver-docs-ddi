@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _PROC_TOPOLOGY_CACHE_FLAGS
+ - PPROC_TOPOLOGY_CACHE_FLAGS
+ - PROC_TOPOLOGY_CACHE_FLAGS
 ---
 
 # _PROC_TOPOLOGY_CACHE_FLAGS structure
+
 
 ## -description
 
@@ -69,3 +72,4 @@ Reserved for future use.
 ## -remarks
 
 ## -see-also
+

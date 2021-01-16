@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfio.h
 api_name:
+ - _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
  - WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
 ---
 
@@ -64,3 +65,4 @@ A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/
 ## -remarks
 
 The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS</b> structure is used as a member type in the <a href="/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
+

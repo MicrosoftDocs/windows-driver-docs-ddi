@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SMS_CDMA_RECORD
+ - PWWAN_SMS_CDMA_RECORD
  - WWAN_SMS_CDMA_RECORD
 ---
 
@@ -177,3 +179,4 @@ The encoded content of the record that represents the SMS text message.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_lang">WWAN_SMS_CDMA_LANG</a>
+

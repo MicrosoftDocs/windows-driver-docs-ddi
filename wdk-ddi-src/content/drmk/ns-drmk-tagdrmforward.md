@@ -41,6 +41,8 @@ api_type:
 api_location:
  - drmk.h
 api_name:
+ - tagDRMFORWARD
+ - PDRMFORWARD
  - DRMFORWARD
 ---
 
@@ -119,3 +121,4 @@ For general information about DRM, see <a href="/windows-hardware/drivers/audio/
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcforwardcontenttodeviceobject">PcForwardContentToDeviceObject</a>
+

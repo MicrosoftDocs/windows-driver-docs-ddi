@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IImpersonateCallback.OnImpersonate
+ - IImpersonateCallback::OnImpersonate
 ---
 
 # IImpersonateCallback::OnImpersonate
@@ -73,3 +73,4 @@ For more information about how UMDF and UMDF drivers handle impersonation, see <
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a>
+

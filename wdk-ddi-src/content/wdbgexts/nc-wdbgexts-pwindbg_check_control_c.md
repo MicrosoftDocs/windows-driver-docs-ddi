@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - CheckControlC
+ - PWINDBG_CHECK_CONTROL_C
 ---
 
 # PWINDBG_CHECK_CONTROL_C callback function
@@ -56,3 +56,4 @@ If the user has pressed CTRL+C, the return value is <b>TRUE</b>; otherwise, it i
 ## -remarks
 
 If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing a DbgEng extension that calls this function, include wdbgexts.h before dbgeng.h (see <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
+

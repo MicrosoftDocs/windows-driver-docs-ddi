@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSEVENT_ITEM
  - KSEVENT_ITEM
 ---
 
@@ -94,3 +95,4 @@ Not used by the stream class driver.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdefaultaddeventhandler">KsDefaultAddEventHandler</a>
+

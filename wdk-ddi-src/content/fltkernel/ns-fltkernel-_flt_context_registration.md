@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
+ - _FLT_CONTEXT_REGISTRATION
+ - PFLT_CONTEXT_REGISTRATION
  - FLT_CONTEXT_REGISTRATION
 ---
 
@@ -162,3 +164,4 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_free_callback">PFLT_CONTEXT_FREE_CALLBACK</a>
+

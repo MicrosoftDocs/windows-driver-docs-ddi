@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dmusicks.h
 api_name:
- - IPositionNotify.PositionNotify
+ - IPositionNotify::PositionNotify
 ---
 
 # IPositionNotify::PositionNotify
@@ -60,3 +60,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-ipositionnotify">IPositionNotify</a>
+

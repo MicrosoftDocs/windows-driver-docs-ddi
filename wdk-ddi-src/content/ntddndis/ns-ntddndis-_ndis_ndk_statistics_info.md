@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_NDK_STATISTICS_INFO
  - NDIS_NDK_STATISTICS_INFO
 ---
 
@@ -86,3 +87,4 @@ The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> mem
 
 
 <a href="/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dukmdt.h
 api_name:
+ - _D3DDDI_OFFER_PRIORITY
  - D3DDDI_OFFER_PRIORITY
 ---
 
@@ -81,3 +82,4 @@ The video memory manager should make a policy decision on the allocation's value
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a>
+

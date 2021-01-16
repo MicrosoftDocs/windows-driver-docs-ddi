@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFActions2.EnableObjectLogging
+ - IWDTFActions2::EnableObjectLogging
 ---
 
 # IWDTFActions2::EnableObjectLogging
@@ -51,4 +51,3 @@ Enable object logging for all actions in the collection.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-#

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_VOICE_CALL_STATE
+ - PWWAN_VOICE_CALL_STATE
  - WWAN_VOICE_CALL_STATE
 ---
 
@@ -75,3 +77,4 @@ The total number of supported voice call states.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context_state">WWAN_CONTEXT_STATE</a>
+

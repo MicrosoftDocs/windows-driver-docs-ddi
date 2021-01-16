@@ -40,6 +40,7 @@ api_location:
  - Sensorsdef.h
 api_name:
  - SENSOR_VALUE_PAIR
+ - PSENSOR_VALUE_PAIR
 ---
 
 # SENSOR_VALUE_PAIR structure
@@ -79,3 +80,4 @@ The Value is one of the VT types (VARTYPE) that are supported by the sensor clas
 <li>VT_CLSID</li>
 <li>VT_LPWSTR</li>
 </ul>
+

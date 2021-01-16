@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnStateRsScissorCb
+ - PFND3D10DDI_STATE_RS_SCISSOR_CB
 ---
 
 # PFND3D10DDI_STATE_RS_SCISSOR_CB callback function
@@ -70,3 +70,4 @@ The <b>pfnStateRsScissorCb</b> function calls the user-mode display driver's <a 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setscissorrects">SetScissorRects</a>
+

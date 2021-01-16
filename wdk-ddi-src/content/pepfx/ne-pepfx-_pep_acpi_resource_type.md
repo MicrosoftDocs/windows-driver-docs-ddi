@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_RESOURCE_TYPE
  - PEP_ACPI_RESOURCE_TYPE
 ---
 
@@ -98,3 +99,4 @@ Indicates that the resource is an ACPI extended IO resource.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a>
+

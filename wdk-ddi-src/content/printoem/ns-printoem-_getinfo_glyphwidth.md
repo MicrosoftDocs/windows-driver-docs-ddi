@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _GETINFO_GLYPHWIDTH
+ - PGETINFO_GLYPHWIDTH
  - GETINFO_GLYPHWIDTH
 ---
 
@@ -86,3 +88,4 @@ To obtain the width of a set of glyphs, a rendering plug-in can supply the addre
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+

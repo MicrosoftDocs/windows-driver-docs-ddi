@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_PROPERTY_STORE_RETRIEVE_FLAGS
  - WDF_PROPERTY_STORE_RETRIEVE_FLAGS
 ---
 
@@ -84,3 +85,4 @@ Reserved for system use.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+

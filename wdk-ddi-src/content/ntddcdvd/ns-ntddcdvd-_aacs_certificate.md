@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdvd.h
 api_name:
+ - _AACS_CERTIFICATE
+ - PAACS_CERTIFICATE
  - AACS_CERTIFICATE
 ---
 
@@ -68,3 +70,4 @@ Clients retrieve an Advanced Access Content System (AACS) certificate with an <a
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a>
+

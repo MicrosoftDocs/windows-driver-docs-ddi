@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_CREATEDEVICEFLAGS
  - D3DDDI_CREATEDEVICEFLAGS
 ---
 
@@ -80,3 +81,4 @@ A member in the union that is contained in D3DDDI_CREATEDEVICEFLAGS that can hol
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

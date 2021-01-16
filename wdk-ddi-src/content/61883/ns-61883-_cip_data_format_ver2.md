@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CIP_DATA_FORMAT_VER2
+ - PCIP_DATA_FORMAT_VER2
  - CIP_DATA_FORMAT_VER2
 ---
 
@@ -88,3 +90,4 @@ A handle to a connection.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

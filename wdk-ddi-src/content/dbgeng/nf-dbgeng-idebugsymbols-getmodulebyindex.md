@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols.GetModuleByIndex
- - IDebugSymbols2.GetModuleByIndex
- - IDebugSymbols3.GetModuleByIndex
+ - IDebugSymbols::GetModuleByIndex
 ---
 
 # IDebugSymbols::GetModuleByIndex
@@ -97,3 +95,4 @@ The specified module was not loaded, and information about the module was not av
 ## -remarks
 
 For more information about modules, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
+

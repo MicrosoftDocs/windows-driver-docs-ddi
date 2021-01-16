@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - FreeCommonBuffer
+ - PFREE_COMMON_BUFFER
 ---
 
 # PFREE_COMMON_BUFFER callback function
@@ -98,3 +98,4 @@ To release a common buffer, a driver calls <b>FreeCommonBuffer</b> to unmap both
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

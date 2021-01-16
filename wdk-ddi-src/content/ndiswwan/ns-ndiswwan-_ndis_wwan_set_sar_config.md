@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_SET_SAR_CONFIG
+ - PNDIS_WWAN_SET_SAR_CONFIG
+ - NDIS_WWAN_SET_SAR_CONFIG
 ---
 
 # _NDIS_WWAN_SET_SAR_CONFIG structure
@@ -79,3 +81,4 @@ After completing the Set request, the modem should return an [NDIS_STATUS_WWAN_S
 [NDIS_STATUS_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/ndis-status-wwan-sar-config)
 
 [**WWAN_SET_SAR_CONFIG**](../wwan/ns-wwan-_wwan_set_sar_config.md)
+

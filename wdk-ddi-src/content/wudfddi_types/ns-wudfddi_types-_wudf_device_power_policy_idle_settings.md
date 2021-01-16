@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wudfddi_types.h
 api_name:
+ - _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
  - WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ---
 
@@ -184,3 +186,4 @@ To initialize its <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfdevice/nf-wudfdevice-wudf_device_power_policy_idle_settings_init">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>
+

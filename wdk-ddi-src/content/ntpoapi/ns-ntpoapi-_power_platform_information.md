@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _POWER_PLATFORM_INFORMATION
+ - PPOWER_PLATFORM_INFORMATION
  - POWER_PLATFORM_INFORMATION
 ---
 

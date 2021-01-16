@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreatePd
+ - NDK_FN_CREATE_PD
 ---
 
 # NDK_FN_CREATE_PD callback function
@@ -150,3 +150,4 @@ The <i>NdkCreatePd</i> function creates an  NDK protection domain (PD) object. I
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>
+

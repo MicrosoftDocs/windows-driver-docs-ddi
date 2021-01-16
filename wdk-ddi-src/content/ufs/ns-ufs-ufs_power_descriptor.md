@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_POWER_DESCRIPTOR
  - UFS_POWER_DESCRIPTOR
 ---
 

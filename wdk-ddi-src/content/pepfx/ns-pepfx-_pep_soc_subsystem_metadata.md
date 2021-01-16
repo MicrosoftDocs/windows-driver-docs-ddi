@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_SOC_SUBSYSTEM_METADATA
+ - PPEP_SOC_SUBSYSTEM_METADATA
  - PEP_SOC_SUBSYSTEM_METADATA
 ---
 
@@ -96,3 +98,4 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_soc_subsystem_metadata">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
+

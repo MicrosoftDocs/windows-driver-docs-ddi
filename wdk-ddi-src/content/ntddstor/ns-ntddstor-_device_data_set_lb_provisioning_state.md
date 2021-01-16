@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - PDEVICE_DATA_SET_LB_PROVISIONING_STATE
  - DEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---
 
@@ -106,3 +108,4 @@ If the slab allocation total returned in **SlabAllocationBitMapBitCount** is not
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
 
 [IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md)
+

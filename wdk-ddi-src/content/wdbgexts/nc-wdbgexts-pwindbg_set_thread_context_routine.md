@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - SetContext
+ - PWINDBG_SET_THREAD_CONTEXT_ROUTINE
 ---
 
 # PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback function

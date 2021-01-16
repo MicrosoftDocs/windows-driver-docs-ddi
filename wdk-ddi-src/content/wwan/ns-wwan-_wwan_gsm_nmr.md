@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_GSM_NMR
+ - PWWAN_GSM_NMR
  - WWAN_GSM_NMR
 ---
 
@@ -76,3 +78,4 @@ The array of NMR records, each specified as a <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_gsm_serving_cell_info">WWAN_GSM_SERVING_CELL_INFO</a>
+

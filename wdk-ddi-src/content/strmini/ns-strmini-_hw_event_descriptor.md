@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_EVENT_DESCRIPTOR
+ - PHW_EVENT_DESCRIPTOR
  - HW_EVENT_DESCRIPTOR
 ---
 
@@ -91,3 +93,4 @@ Reserved for system use. Do not use.
 #### - Reserved[2]
 
 Reserved for system use. Do not use.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _STREAM_PROPERTY_DESCRIPTOR
+ - PSTREAM_PROPERTY_DESCRIPTOR
  - STREAM_PROPERTY_DESCRIPTOR
 ---
 
@@ -72,3 +74,4 @@ Size of the <b>Property</b> buffer.
 ### -field PropertyOutputSize
 
 Size of the <b>PropertyInfo</b> buffer.
+

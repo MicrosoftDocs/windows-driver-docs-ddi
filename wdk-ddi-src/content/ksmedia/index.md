@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - ksmedia
  - ksmedia/ksmedia
+api_name:
+ - ksmedia
 ---
 
 # Ksmedia.h header

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_HISTORY_BUFFER_HEADER
  - DXGK_HISTORY_BUFFER_HEADER
 ---
 
@@ -92,3 +93,4 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+

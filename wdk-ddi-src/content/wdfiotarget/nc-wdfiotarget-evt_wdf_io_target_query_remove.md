@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfIoTarget.h
 api_name:
- - EvtIoTargetQueryRemove
+ - EVT_WDF_IO_TARGET_QUERY_REMOVE
 ---
 
 # EVT_WDF_IO_TARGET_QUERY_REMOVE callback function
@@ -87,3 +87,4 @@ For more information about the <i>EvtIoTargetQueryRemove</i> callback function, 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcloseforqueryremove">WdfIoTargetCloseForQueryRemove</a>
+

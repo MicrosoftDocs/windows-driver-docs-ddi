@@ -41,6 +41,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILUICCLOCK
+ - LPRILUICCLOCK
 ---
 
 # RILUICCLOCK structure (rilapitypes.h)

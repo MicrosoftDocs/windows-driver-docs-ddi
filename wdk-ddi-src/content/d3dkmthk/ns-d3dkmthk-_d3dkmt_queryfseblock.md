@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_QUERYFSEBLOCK
+ - D3DKMT_QUERYFSEBLOCK
 dev_langs:
  - c++
 ---

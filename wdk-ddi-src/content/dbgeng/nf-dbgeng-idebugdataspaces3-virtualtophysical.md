@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugDataSpaces2.VirtualToPhysical
- - IDebugDataSpaces3.VirtualToPhysical
- - IDebugDataSpaces4.VirtualToPhysical
+ - IDebugDataSpaces3::VirtualToPhysical
 ---
 
 # IDebugDataSpaces3::VirtualToPhysical
@@ -98,3 +96,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 ## -remarks
 
 This method is only available in kernel-mode debugging.
+

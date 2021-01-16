@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_PORT_PROPERTY_ISOLATION
+ - PNDIS_SWITCH_PORT_PROPERTY_ISOLATION
  - NDIS_SWITCH_PORT_PROPERTY_ISOLATION
 ---
 
@@ -96,3 +98,4 @@ The default isolation ID that is applied to tagged packets if the <b>AllowUntagg
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

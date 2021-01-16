@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
- - SynchReadPort
+ - PI8042_SYNCH_READ_PORT
 ---
 
 # PI8042_SYNCH_READ_PORT callback function
@@ -110,3 +110,4 @@ The routine polls the hardware until a read is returned by the hardware or an in
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_synch_write_port">PI8042_SYNCH_WRITE_PORT</a>
+

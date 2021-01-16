@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostErrorSink.QueryInterface
+ - IDebugHostErrorSink::QueryInterface
 ---
 
 # IDebugHostErrorSink::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IDebugHostErrorSink interface](nn-dbgmodel-idebughosterrorsink.md)
+

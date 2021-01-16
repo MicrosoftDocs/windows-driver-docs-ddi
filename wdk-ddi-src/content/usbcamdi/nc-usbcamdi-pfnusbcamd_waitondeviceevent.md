@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - USBCAMD_WaitOnDeviceEvent
+ - PFNUSBCAMD_WaitOnDeviceEvent
 ---
 
 # PFNUSBCAMD_WaitOnDeviceEvent callback function
@@ -166,3 +166,4 @@ The typical usage scenario for this function is a camera with a snapshot button 
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_initializenewinterface">USBCAMD_InitializeNewInterface</a>
+

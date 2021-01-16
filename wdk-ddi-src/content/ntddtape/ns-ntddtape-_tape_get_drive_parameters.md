@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_GET_DRIVE_PARAMETERS
+ - PTAPE_GET_DRIVE_PARAMETERS
  - TAPE_GET_DRIVE_PARAMETERS
 ---
 
@@ -678,3 +680,4 @@ Indicates the size in bytes of the early warning zone toward the end of the tape
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetDriveParameters</a>
+

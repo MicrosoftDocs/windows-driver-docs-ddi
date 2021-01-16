@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_BIDIRECTIONAL
+ - PSRBEX_DATA_BIDIRECTIONAL
  - SRBEX_DATA_BIDIRECTIONAL
 ---
 
@@ -77,3 +79,4 @@ A pointer to the buffer that contains the data sent from the device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

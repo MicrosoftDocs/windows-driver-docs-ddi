@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CheckCryptoSessionStatus
+ - PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS
 product:
  - Windows
 ---
@@ -78,3 +78,4 @@ The application may call this DDI after receiving a hardware content protection 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winsplp.h
 api_name:
+ - _MONITOR
+ - LPMONITOR
  - MONITOR
 ---
 
@@ -566,3 +568,4 @@ If necessary, the port monitor should prevent other processes from using the spe
 [MONITOR2](./ns-winsplp-_monitor2.md)
 
 [MONITORUI](./ns-winsplp-_monitorui.md)
+

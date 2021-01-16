@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_CRTC_VSYNC_STATE
  - DXGK_CRTC_VSYNC_STATE
 ---
 
@@ -62,3 +63,4 @@ Indicates that the VSYNC interrupt is disabled and the display driver will ensur
 ### -field DXGK_VSYNC_DISABLE_NO_PHASE
 
 Indicates that the VSYNC interrupt is disabled, but that the display driver will not require re-entering the VSYNC enabled state in phase of prior interrupts.
+

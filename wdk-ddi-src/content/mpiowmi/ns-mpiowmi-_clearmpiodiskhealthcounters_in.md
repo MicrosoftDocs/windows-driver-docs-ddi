@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _ClearMpioDiskHealthCounters_IN
+ - PClearMpioDiskHealthCounters_IN
  - ClearMpioDiskHealthCounters_IN
 ---
 

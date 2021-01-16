@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
  - KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
 ---
 
@@ -180,3 +181,4 @@ Enable convergence of objects in the region
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

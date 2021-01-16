@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_SGE
  - NDK_SGE
 ---
 
@@ -112,3 +113,4 @@ When an <b>NDK_SGE</b> structure is used in a work request with the <b>NDK_OP_FL
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_logical_address_mapping">NDK_LOGICAL_ADDRESS_MAPPING</a>
+

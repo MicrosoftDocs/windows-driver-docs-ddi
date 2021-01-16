@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEOSAMPLE
  - DXVADDI_VIDEOSAMPLE
 ---
 
@@ -110,3 +111,4 @@ The DXVADDI_VIDEOSAMPLE structure describes the format of a video sample that is
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

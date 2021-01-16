@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
- - NdisTcpOffloadReceiveHandler
+ - NDIS_TCP_OFFLOAD_RECEIVE_INDICATE
 ---
 
 # NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function
@@ -294,3 +294,4 @@ In the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
+

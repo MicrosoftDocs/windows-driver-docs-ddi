@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxWdfDevice.h
 api_name:
- - EvtUdecxWdfDeviceReset
+ - EVT_UDECX_WDF_DEVICE_RESET
 ---
 
 # EVT_UDECX_WDF_DEVICE_RESET callback function
@@ -67,3 +67,4 @@ If the client specified <b>UdeWdfDeviceResetActionResetEachUsbDevice</b> in <a h
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

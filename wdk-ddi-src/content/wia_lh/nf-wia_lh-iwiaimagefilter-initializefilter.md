@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaImageFilter.InitializeFilter
+ - IWiaImageFilter::InitializeFilter
 ---
 
 # IWiaImageFilter::InitializeFilter
@@ -82,3 +82,4 @@ The <b>IWiaItem2, IWiaPreview</b> and <b>IWiaTransfer</b> interfaces are describ
 
 
 <a href="/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback Interface</a>
+

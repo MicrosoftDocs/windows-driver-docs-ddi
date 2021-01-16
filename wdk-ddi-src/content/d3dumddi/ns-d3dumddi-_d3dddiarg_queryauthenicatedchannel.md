@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_QUERYAUTHENICATEDCHANNEL
  - D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
 ---
 
@@ -87,3 +88,4 @@ The <b>QueryType</b>, <b>hChannel</b>, and <b>SequenceNumber</b> members from th
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel">QueryAuthenticatedChannel</a>
+

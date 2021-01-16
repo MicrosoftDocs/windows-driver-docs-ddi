@@ -41,7 +41,9 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - SearchMemory
+ - _SEARCHMEMORY
+ - PSEARCHMEMORY
+ - SEARCHMEMORY
 ---
 
 # _SEARCHMEMORY structure

@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_ADAPTER_STATE)
+ - PHW_ADAPTER_STATE
 ---
 
 # PHW_ADAPTER_STATE callback
@@ -78,3 +78,4 @@ For more information about the routine declared by this prototype, see <a href="
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a>
+

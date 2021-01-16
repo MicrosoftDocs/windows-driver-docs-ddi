@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
  - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 ---
 
@@ -200,3 +201,4 @@ Specifies the number of quadlets to strip from the beginning of every packet in 
 ### -field hResource
 
 Specifies a handle to the resource.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorCompleteServiceIrp
+ - HW_COMPLETE_SERVICE_IRP
 ---
 
 # HW_COMPLETE_SERVICE_IRP callback function
@@ -105,3 +105,4 @@ The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h he
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportcompleteserviceirp">StorPortCompleteServiceIrp</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_PARK_SELECTION
+ - PPEP_PPM_PARK_SELECTION
  - PEP_PPM_PARK_SELECTION
 ---
 
@@ -96,3 +98,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>
+

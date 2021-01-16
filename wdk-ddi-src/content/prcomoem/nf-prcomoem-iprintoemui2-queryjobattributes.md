@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUI2.QueryJobAttributes
+ - IPrintOemUI2::QueryJobAttributes
 ---
 
 # IPrintOemUI2::QueryJobAttributes
@@ -160,3 +160,4 @@ See <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattri
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui2">IPrintOemUI2</a>
+

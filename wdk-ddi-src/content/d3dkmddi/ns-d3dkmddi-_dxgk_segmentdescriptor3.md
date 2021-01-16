@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_SEGMENTDESCRIPTOR3
  - DXGK_SEGMENTDESCRIPTOR3
 ---
 
@@ -145,3 +146,4 @@ This structure is pointed to by the <b>pSegmentDescriptor</b> member of the <a h
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

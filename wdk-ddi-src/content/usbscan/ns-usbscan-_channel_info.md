@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _CHANNEL_INFO
+ - PCHANNEL_INFO
  - CHANNEL_INFO
 ---
 
@@ -64,3 +66,4 @@ Maximum packet size for the bulk IN transfer pipe.
 ### -field uWriteDataAlignment
 
 Maximum packet size for the bulk OUT transfer pipe.
+

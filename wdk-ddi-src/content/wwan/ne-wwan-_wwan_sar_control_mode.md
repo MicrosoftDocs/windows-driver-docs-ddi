@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_SAR_CONTROL_MODE
+ - PWWAN_SAR_CONTROL_MODE
+ - WWAN_SAR_CONTROL_MODE
 ---
 
 # _WWAN_SAR_CONTROL_MODE enumeration
@@ -65,3 +67,4 @@ This enumeration is used in the [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_con
 [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md)
 
 [**WWAN_SET_SAR_CONFIG**](ns-wwan-_wwan_set_sar_config.md)
+

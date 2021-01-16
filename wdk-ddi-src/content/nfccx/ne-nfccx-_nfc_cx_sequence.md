@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_SEQUENCE
+ - PNFC_CX_SEQUENCE
  - NFC_CX_SEQUENCE
 ---
 
@@ -110,3 +112,4 @@ This sequence is invoked by the CX after the completion of the recovery sequence
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

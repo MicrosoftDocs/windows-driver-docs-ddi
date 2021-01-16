@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETDRIVERINFO2DATA
  - DD_GETDRIVERINFO2DATA
 ---
 
@@ -219,3 +220,4 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

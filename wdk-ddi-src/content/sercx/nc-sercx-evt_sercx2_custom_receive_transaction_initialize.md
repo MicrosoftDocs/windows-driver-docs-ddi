@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2CustomReceiveTransactionInitialize
+ - EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE
 ---
 
 # EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE callback function
@@ -128,3 +128,4 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioninitializecomplete">SerCx2CustomReceiveTransactionInitializeComplete</a>
+

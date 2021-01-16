@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Msviddrv.h
 api_name:
+ - tag_video_geterrortext_parms
+ - LPVIDEO_GETERRORTEXT_PARMS
  - VIDEO_GETERRORTEXT_PARMS
 ---
 

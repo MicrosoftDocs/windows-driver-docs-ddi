@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printoem.h
 api_name:
- - DrvUpgradeRegistrySetting
+ - PFN_DrvUpgradeRegistrySetting
 ---
 
 # PFN_DrvUpgradeRegistrySetting callback function
@@ -58,3 +58,4 @@ This function pointer prototype defines the type of the <i>pfnUpgrade</i> parame
 ### -param pFeature
 
 ### -param pOption
+

@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ndisndk
  - ndisndk/ndisndk
+api_name:
+ - ndisndk
 ---
 
 # Ndisndk.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSetPalette
+ - DXGKDDI_SETPALETTE
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista dis
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

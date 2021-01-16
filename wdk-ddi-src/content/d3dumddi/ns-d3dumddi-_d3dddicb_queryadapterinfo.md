@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_QUERYADAPTERINFO
  - D3DDDICB_QUERYADAPTERINFO
 ---
 
@@ -62,3 +63,4 @@ The D3DDDICB_QUERYADAPTERINFO structure contains information that describes the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb">pfnQueryAdapterInfoCb</a>
+

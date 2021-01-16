@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_RENAME
  - D3DDDIARG_RENAME
 ---
 
@@ -76,3 +77,4 @@ This member is available beginning with Windows 7.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rename">Rename</a>
+

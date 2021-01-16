@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetEventFilterCommandWide
+ - IDebugControl4::GetEventFilterCommandWide
 ---
 
 # IDebugControl4::GetEventFilterCommandWide
@@ -110,3 +110,4 @@ For more information about event filters, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/debugger/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_LOCKFLAGS
  - D3DDDI_LOCKFLAGS
 ---
 
@@ -118,3 +119,4 @@ A member in the union that is contained in D3DDDI_LOCKFLAGS that can hold one 32
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_lock">D3DDDIARG_LOCK</a>
+

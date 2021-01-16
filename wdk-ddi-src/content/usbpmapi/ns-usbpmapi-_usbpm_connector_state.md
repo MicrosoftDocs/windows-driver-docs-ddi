@@ -36,6 +36,8 @@ api_location:
  - usbpmapi.h
 api_name:
  - _USBPM_CONNECTOR_STATE
+ - PUSBPM_CONNECTOR_STATE
+ - USBPM_CONNECTOR_STATE
 ---
 
 # _USBPM_CONNECTOR_STATE structure

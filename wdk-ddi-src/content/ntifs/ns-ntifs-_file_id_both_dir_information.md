@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_ID_BOTH_DIR_INFORMATION
+ - PFILE_ID_BOTH_DIR_INFORMATION
  - FILE_ID_BOTH_DIR_INFORMATION
 ---
 
@@ -158,3 +160,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 <a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>
+

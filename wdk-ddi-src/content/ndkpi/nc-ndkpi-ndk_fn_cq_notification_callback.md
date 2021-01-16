@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCqNotificationCallback
+ - NDK_FN_CQ_NOTIFICATION_CALLBACK
 ---
 
 # NDK_FN_CQ_NOTIFICATION_CALLBACK callback function
@@ -111,3 +111,4 @@ The NDK consumer specified the <i>NdkCqNotificationCallback</i> function  in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>
+

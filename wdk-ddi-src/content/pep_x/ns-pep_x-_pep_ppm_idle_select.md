@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_PPM_IDLE_SELECT
+ - PPEP_PPM_IDLE_SELECT
  - PEP_PPM_IDLE_SELECT
 ---
 
@@ -100,3 +102,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_dependency">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
+

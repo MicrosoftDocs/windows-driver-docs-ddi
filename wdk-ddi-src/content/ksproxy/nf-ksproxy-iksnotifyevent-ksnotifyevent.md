@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsNotifyEvent.KsNotifyEvent
+ - IKsNotifyEvent::KsNotifyEvent
 ---
 
 # IKsNotifyEvent::KsNotifyEvent
@@ -70,3 +70,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 ## -see-also
 
 [IMediaEvent](/windows/win32/api/control/nn-control-imediaevent)
+

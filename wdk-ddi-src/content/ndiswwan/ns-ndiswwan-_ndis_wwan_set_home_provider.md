@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_HOME_PROVIDER
+ - PNDIS_WWAN_SET_HOME_PROVIDER
  - NDIS_WWAN_SET_HOME_PROVIDER
 ---
 
@@ -110,3 +112,4 @@ A formatted WWAN_PROVIDER2 object that represents the details of the home provid
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_DISABLE
+ - EVT_UCX_USBDEVICE_DISABLE
 ---
 
 # EVT_UCX_USBDEVICE_DISABLE callback function
@@ -100,7 +100,7 @@ UsbDevice_EvtUcxUsbDeviceDisable(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
+

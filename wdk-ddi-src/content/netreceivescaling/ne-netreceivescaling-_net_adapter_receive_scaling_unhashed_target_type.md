@@ -7,7 +7,7 @@ ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE,
 req.header: netreceivescaling.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -30,6 +30,7 @@ api_location:
  - netreceivescaling.h
 api_name:
  - _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
+ - NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
 ---
 
 # _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration
@@ -54,3 +55,4 @@ Indicates that unhashed frames are delivered to the queue at the specified hash 
 ## -see-also
 
 [NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
+

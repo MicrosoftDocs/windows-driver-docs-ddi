@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_OPERATION_TYPE
  - NDK_OPERATION_TYPE
 ---
 
@@ -86,3 +87,4 @@ An <i>NdkWrite</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a>
+

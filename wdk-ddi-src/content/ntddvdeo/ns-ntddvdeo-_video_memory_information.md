@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _VIDEO_MEMORY_INFORMATION
+ - PVIDEO_MEMORY_INFORMATION
  - VIDEO_MEMORY_INFORMATION
 ---
 
@@ -92,3 +94,4 @@ In the <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_m
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode_information">VIDEO_MODE_INFORMATION</a>
+

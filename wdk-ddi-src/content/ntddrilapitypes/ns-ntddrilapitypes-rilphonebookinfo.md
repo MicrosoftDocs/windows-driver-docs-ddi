@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILPHONEBOOKINFO
+ - LPRILPHONEBOOKINFO
 ---
 
 # RILPHONEBOOKINFO structure (ntddrilapitypes.h)

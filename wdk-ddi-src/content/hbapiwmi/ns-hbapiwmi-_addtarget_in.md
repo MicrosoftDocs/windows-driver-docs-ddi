@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _AddTarget_IN
+ - PAddTarget_IN
  - AddTarget_IN
 ---
 
@@ -68,3 +70,4 @@ Indicates the scope of the target events to report. If this member is zero, the 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/addtarget">AddTarget</a>
+

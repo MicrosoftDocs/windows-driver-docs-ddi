@@ -37,7 +37,7 @@ api_type:
 api_location:
  - printerextension.h
 api_name:
- - IPrintSchemaTicket.GetCapabilities
+ - IPrintSchemaTicket::GetCapabilities
 ---
 
 # IPrintSchemaTicket::GetCapabilities
@@ -82,3 +82,4 @@ Because this method retrieves a new PrintCapabilities document every time it is 
 
 
 <a href="/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">IPrintSchemaTicket::put_JobCopiesAllDocuments</a>
+

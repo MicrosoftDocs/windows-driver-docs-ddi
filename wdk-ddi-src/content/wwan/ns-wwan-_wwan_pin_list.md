@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_LIST
+ - PWWAN_PIN_LIST
  - WWAN_PIN_LIST
 ---
 
@@ -115,3 +117,4 @@ Description for custom PIN. This is a custom vendor-defined PIN type. It is not 
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_desc">WWAN_PIN_DESC</a>
+

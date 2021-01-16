@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SendRLS_IN
+ - PSendRLS_IN
  - SendRLS_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the SendRLS_IN structure in <i>Hba
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/sendrls">SendRLS</a>
+

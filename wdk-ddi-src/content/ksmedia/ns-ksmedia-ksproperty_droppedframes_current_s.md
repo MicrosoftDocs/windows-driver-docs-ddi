@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_DROPPEDFRAMES_CURRENT_S
  - KSPROPERTY_DROPPEDFRAMES_CURRENT_S
 ---
 
@@ -82,3 +83,4 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-droppedframes">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
+

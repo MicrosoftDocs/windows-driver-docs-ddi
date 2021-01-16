@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucxcontroller
  - ucxcontroller/ucxcontroller
+api_name:
+ - ucxcontroller
 ---
 
 # Ucxcontroller.h header

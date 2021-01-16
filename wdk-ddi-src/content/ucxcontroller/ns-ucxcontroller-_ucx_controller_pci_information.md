@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxcontroller.h
 api_name:
+ - _UCX_CONTROLLER_PCI_INFORMATION
+ - PUCX_CONTROLLER_PCI_INFORMATION
  - UCX_CONTROLLER_PCI_INFORMATION
 ---
 
@@ -88,3 +90,4 @@ Specifies the specific function on the device that is located in the logical PCI
 
 
 <a href="/windows-hardware/drivers/ddi/ucxcontroller/ne-ucxcontroller-_ucx_controller_parent_bus_type">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
+

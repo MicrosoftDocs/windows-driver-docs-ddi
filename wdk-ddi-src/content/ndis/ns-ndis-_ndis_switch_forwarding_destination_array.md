@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
+ - PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
  - NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
 ---
 
@@ -177,3 +179,4 @@ Extensible switch extensions can use the <a href="/windows-hardware/drivers/netw
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_update_net_buffer_list_destinations">UpdateNetBufferListDestinations</a>
+

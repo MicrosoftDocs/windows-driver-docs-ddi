@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_FIXED32
  - DXVADDI_FIXED32
 ---
 
@@ -66,3 +67,4 @@ A 32-bit value that describes the 16.16 fixed-point number.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_procampvalues">DXVADDI_PROCAMPVALUES</a>
+

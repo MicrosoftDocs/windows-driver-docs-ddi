@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_RESOURCE_FLAGS
+ - PPEP_ACPI_RESOURCE_FLAGS
  - PEP_ACPI_RESOURCE_FLAGS
 ---
 
@@ -92,3 +94,4 @@ When set, indicates that this device is in shared mode.
 ### -field DUMMYSTRUCTNAME.Reserved
 
 This member is reserved and should be set to zero.
+

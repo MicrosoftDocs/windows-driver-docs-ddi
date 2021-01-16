@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoTransferMatrix
  - DXVA_VideoTransferMatrix
 ---
 
@@ -82,3 +83,4 @@ One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>Vi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
+

@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - storport
  - storport/storport
+api_name:
+ - storport
 ---
 
 # Storport.h header

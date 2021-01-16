@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtExtension.OnSessionAccessible
+ - ExtExtension::OnSessionAccessible
 ---
 
 # ExtExtension::OnSessionAccessible
@@ -79,3 +79,4 @@ This method is called when a target is suspended and, if the session is already 
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff552315(v=vs.85)">OnSessionInaccessible</a>
+

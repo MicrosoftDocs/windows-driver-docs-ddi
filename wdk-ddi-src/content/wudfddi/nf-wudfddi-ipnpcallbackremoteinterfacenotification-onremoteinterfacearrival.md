@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
+ - IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 ---
 
 # IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
@@ -99,3 +99,4 @@ For more information about using remote interface objects to access device inter
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openremoteinterface">IWDFRemoteTarget::OpenRemoteInterface</a>
+

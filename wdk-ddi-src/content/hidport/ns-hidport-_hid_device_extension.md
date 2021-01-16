@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidport.h
 api_name:
+ - _HID_DEVICE_EXTENSION
+ - PHID_DEVICE_EXTENSION
  - HID_DEVICE_EXTENSION
 ---
 
@@ -68,3 +70,4 @@ Pointer to the minidriver-specific portion of the device extension.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_ALLOCATION_INFORMATION
+ - PFILE_ALLOCATION_INFORMATION
  - FILE_ALLOCATION_INFORMATION
 ---
 
@@ -98,3 +100,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiDpcRoutine
+ - DXGKDDI_DPC_ROUTINE
 ---
 
 # DXGKDDI_DPC_ROUTINE callback function
@@ -63,3 +63,4 @@ If the display miniport driver is supporting several display adapters, the <i>Dx
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>
+

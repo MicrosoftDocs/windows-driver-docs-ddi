@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IKeyEnumerator.QueryInterface
+ - IKeyEnumerator::QueryInterface
 ---
 
 # IKeyEnumerator::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IKeyEnumerator interface](nn-dbgmodel-ikeyenumerator.md)
+

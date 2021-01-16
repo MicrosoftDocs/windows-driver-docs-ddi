@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddchgr.h
 api_name:
+ - _CHANGER_MOVE_MEDIUM
+ - PCHANGER_MOVE_MEDIUM
  - CHANGER_MOVE_MEDIUM
 ---
 
@@ -84,3 +86,4 @@ Indicates, when <b>TRUE</b>, that the piece of media should be flipped. When <b>
 
 
 <a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_move_medium">IOCTL_CHANGER_MOVE_MEDIUM</a>
+

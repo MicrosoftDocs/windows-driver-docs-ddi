@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddsysenv.h
 api_name:
+ - _SYSENV_VARIABLE_INFO
+ - PSYSENV_VARIABLE_INFO
  - SYSENV_VARIABLE_INFO
 ---
 
@@ -69,3 +71,4 @@ The maximum size of the variable.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_query_variable_info">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a>
+

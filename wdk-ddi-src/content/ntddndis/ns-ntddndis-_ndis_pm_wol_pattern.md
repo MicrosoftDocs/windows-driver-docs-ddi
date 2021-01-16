@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_WOL_PATTERN
+ - PNDIS_PM_WOL_PATTERN
  - NDIS_PM_WOL_PATTERN
 ---
 
@@ -288,3 +290,4 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 
 <a href="/windows-hardware/drivers/network/oid-pm-wol-pattern-list">OID_PM_WOL_PATTERN_LIST</a>
+

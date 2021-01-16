@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdd8042.h
 api_name:
+ - _MOUSE_STATE
+ - PMOUSE_STATE
  - MOUSE_STATE
 ---
 
@@ -88,3 +90,4 @@ The MOUSE_STATE enumerator is used as input to a <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a>
+

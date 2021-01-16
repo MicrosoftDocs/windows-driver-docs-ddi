@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_OPERATION_STATES
  - WPD_OPERATION_STATES
 ---
 
@@ -87,3 +88,4 @@ These values are received in an application-defined callback.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

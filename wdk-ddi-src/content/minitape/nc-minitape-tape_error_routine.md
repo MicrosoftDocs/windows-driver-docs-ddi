@@ -37,7 +37,7 @@ api_type:
 api_location:
  - minitape.h
 api_name:
- - (*TAPE_ERROR_ROUTINE)
+ - TAPE_ERROR_ROUTINE
 ---
 
 # TAPE_ERROR_ROUTINE callback function
@@ -93,3 +93,4 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclassinitialize">TapeClassInitialize</a>
+

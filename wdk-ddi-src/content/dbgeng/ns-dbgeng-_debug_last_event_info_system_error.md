@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
+ - PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
  - DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
 ---
 

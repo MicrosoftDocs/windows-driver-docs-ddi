@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _USBSCAN_PIPE_INFORMATION
+ - PUSBSCAN_PIPE_INFORMATION
  - USBSCAN_PIPE_INFORMATION
 ---
 
@@ -120,3 +122,4 @@ A <a href="/windows-hardware/drivers/ddi/usbscan/ne-usbscan-_raw_pipe_type">RAW_
 
 
 <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_configuration">USBSCAN_PIPE_CONFIGURATION</a>
+

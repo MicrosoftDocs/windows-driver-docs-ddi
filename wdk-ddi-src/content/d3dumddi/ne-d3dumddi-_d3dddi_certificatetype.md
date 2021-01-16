@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_CERTIFICATETYPE
  - D3DDDI_CERTIFICATETYPE
 ---
 
@@ -74,3 +75,4 @@ The user-mode display driver receives a D3DDDI_CERTIFICATETYPE-typed value in th
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_HOME_PROVIDER2
+ - PNDIS_WWAN_HOME_PROVIDER2
  - NDIS_WWAN_HOME_PROVIDER2
 ---
 
@@ -114,3 +116,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2"
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>
+

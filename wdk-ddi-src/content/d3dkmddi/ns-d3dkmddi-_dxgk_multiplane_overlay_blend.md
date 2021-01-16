@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_BLEND
  - DXGK_MULTIPLANE_OVERLAY_BLEND
 ---
 

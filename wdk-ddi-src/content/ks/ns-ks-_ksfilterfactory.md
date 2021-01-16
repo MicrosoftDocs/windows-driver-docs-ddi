@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSFILTERFACTORY
+ - PKSFILTERFACTORY
  - KSFILTERFACTORY
 ---
 
@@ -88,3 +90,4 @@ Also see <a href="/windows-hardware/drivers/stream/object-bags">Object Bags</a>.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatefilterfactory">KsCreateFilterFactory</a>
+

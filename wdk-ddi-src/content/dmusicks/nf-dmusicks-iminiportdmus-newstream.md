@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IMiniportDMus.NewStream
+ - IMiniportDMus::NewStream
 ---
 
 # IMiniportDMus::NewStream
@@ -190,3 +190,4 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
+

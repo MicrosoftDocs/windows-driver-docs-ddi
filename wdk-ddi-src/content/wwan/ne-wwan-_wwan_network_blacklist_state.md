@@ -31,6 +31,7 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_NETWORK_BLACKLIST_STATE
+ - WWAN_NETWORK_BLACKLIST_STATE
 product:
  - Windows
 ---
@@ -74,3 +75,4 @@ This enumeration is used in the [**WWAN_NETWORK_BLACKLIST_INFO**](ns-wwan-_wwan_
 [MB Network Blacklist Operations](/windows-hardware/drivers/network/mb-network-blacklist-operations)
 
 [**WWAN_NETWORK_BLACKLIST_INFO**](ns-wwan-_wwan_network_blacklist_info.md)
+

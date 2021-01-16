@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiRxThrottle
+ - MINIPORT_WDI_RX_THROTTLE
 ---
 
 # MINIPORT_WDI_RX_THROTTLE callback function
@@ -79,3 +79,4 @@ A <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_throttle_l
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_throttle_level">WDI_RX_THROTTLE_LEVEL</a>
+

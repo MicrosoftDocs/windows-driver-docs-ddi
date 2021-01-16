@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGSERVICEINFO
+ - LPRILMSGSERVICEINFO
 ---
 
 # RILMSGSERVICEINFO structure (ntddrilapitypes.h)

@@ -7,7 +7,7 @@ ms.date: 10/15/2020
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES,
 req.header: netadapteroffload.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netadapteroffload.h
 api_name:
+ - _NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES
  - NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES
 product:
  - Windows
@@ -89,4 +90,5 @@ To see an example of how a client driver might set up its RSC hardware offload c
 
 [**NetAdapterOffloadSetRscCapabilities**](nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)
 
-[*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) 
+[*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)
+

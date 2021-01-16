@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
+ - _SPB_CONNECTION_PARAMETERS
+ - PSPB_CONNECTION_PARAMETERS
  - SPB_CONNECTION_PARAMETERS
 ---
 
@@ -101,3 +103,4 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbtargetgetconnectionparameters">SpbTargetGetConnectionParameters</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_MEMBERSHEADER
  - KSPROPERTY_MEMBERSHEADER
 ---
 
@@ -188,3 +189,4 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="/windows
 
 
 <a href="/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)">KSPROPERTY_STEPPING_LONGLONG</a>
+

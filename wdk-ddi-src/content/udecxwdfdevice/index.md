@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - udecxwdfdevice
  - udecxwdfdevice/udecxwdfdevice
+api_name:
+ - udecxwdfdevice
 ---
 
 # Udecxwdfdevice.h header
@@ -27,3 +29,4 @@ For more information, see:
 
 - [Universal Serial Bus (USB)](../_usbref/index.md)
 - [Developing Windows drivers for emulated USB devices (UDE)](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices)
+

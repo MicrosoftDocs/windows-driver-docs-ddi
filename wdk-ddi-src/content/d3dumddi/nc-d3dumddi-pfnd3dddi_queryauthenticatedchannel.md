@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - QueryAuthenticatedChannel
+ - PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ Except for those situations in which the application incorrectly specifies an ou
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_queryauthenicatedchannel">D3DDDIARG_QUERYAUTHENTICATEDCHANNEL</a>
+

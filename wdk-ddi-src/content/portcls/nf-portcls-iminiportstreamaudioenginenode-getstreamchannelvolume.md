@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportStreamAudioEngineNode.GetStreamChannelVolume
+ - IMiniportStreamAudioEngineNode::GetStreamChannelVolume
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelVolume
@@ -68,3 +68,4 @@ code.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
+

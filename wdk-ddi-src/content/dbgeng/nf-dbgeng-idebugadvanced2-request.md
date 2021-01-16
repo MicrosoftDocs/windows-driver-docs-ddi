@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugAdvanced2.Request
- - IDebugAdvanced3.Request
+ - IDebugAdvanced2::Request
 ---
 
 # IDebugAdvanced2::Request
@@ -345,3 +344,4 @@ This method may also return error values.  See <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucmtypes.h
 api_name:
+ - _UCM_TYPEC_CURRENT
  - UCM_TYPEC_CURRENT
 ---
 
@@ -74,3 +75,4 @@ Indicates the power sourcing current is 3000 mA.
 
 
 <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypeccurrentadchanged">UcmConnectorTypeCCurrentAdChanged</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfio.h
 api_name:
+ - _WDF_IO_QUEUE_CONFIG
+ - PWDF_IO_QUEUE_CONFIG
  - WDF_IO_QUEUE_CONFIG
 ---
 
@@ -150,3 +152,4 @@ For parallel queues,
 
 
 [WdfIoQueueReadyNotify](./nf-wdfio-wdfioqueuereadynotify.md)
+

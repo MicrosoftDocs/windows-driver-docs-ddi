@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - ntddsfio
  - ntddsfio/ntddsfio
+api_name:
+ - ntddsfio
 ---
 
 # Ntddsfio.h header

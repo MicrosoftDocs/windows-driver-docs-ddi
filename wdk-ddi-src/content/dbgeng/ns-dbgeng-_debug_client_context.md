@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_CLIENT_CONTEXT
+ - PDEBUG_CLIENT_CONTEXT
  - DEBUG_CLIENT_CONTEXT
 ---
 
@@ -64,3 +66,4 @@ A client value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>
+

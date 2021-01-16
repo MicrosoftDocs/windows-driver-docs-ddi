@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetPipe.IsInEndPoint
+ - IWDFUsbTargetPipe::IsInEndPoint
 ---
 
 # IWDFUsbTargetPipe::IsInEndPoint
@@ -73,3 +73,4 @@ For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
+

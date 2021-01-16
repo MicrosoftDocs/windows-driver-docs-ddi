@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPrintWriteStream.WriteBytes
+ - IPrintWriteStream::WriteBytes
 ---
 
 # IPrintWriteStream::WriteBytes

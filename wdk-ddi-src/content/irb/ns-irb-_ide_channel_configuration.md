@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_CHANNEL_CONFIGURATION
+ - PIDE_CHANNEL_CONFIGURATION
  - IDE_CHANNEL_CONFIGURATION
 ---
 
@@ -128,3 +130,4 @@ Indicates support for unsynchronized I/O processing in the miniport driver. The 
 Indicates support for WMI. The miniport driver must set this member to <b>TRUE</b>.
 
 ### -field AdvancedChannelConfiguration
+

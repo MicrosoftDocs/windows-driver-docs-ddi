@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
+ - _HDAUDIO_DEVICE_INFORMATION
+ - PHDAUDIO_DEVICE_INFORMATION
  - HDAUDIO_DEVICE_INFORMATION
 ---
 
@@ -80,3 +82,4 @@ The <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_inform
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a>
+

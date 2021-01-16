@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _OFFLOAD_IPSEC_DELETE_SA
+ - POFFLOAD_IPSEC_DELETE_SA
  - OFFLOAD_IPSEC_DELETE_SA
 ---
 
@@ -67,3 +69,4 @@ The OFFLOAD_IPSEC_DELETE_SA structure is used with the
 ## -see-also
 
 <a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+

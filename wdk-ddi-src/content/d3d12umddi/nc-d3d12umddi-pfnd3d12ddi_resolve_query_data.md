@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnResolveQueryData
+ - PFND3D12DDI_RESOLVE_QUERY_DATA
 ---
 
 # PFND3D12DDI_RESOLVE_QUERY_DATA callback function

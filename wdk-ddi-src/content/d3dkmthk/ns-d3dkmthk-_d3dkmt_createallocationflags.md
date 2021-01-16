@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATEALLOCATIONFLAGS
  - D3DKMT_CREATEALLOCATIONFLAGS
 ---
 
@@ -179,3 +180,4 @@ Drivers should follow these guidelines on <b>D3DKMT_CREATEALLOCATIONFLAGS</b> sh
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a>
+

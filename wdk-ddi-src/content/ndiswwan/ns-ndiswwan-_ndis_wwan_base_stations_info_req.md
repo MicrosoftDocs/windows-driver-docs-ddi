@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_BASE_STATIONS_INFO_REQ
+ - PNDIS_WWAN_BASE_STATIONS_INFO_REQ
  - NDIS_WWAN_BASE_STATIONS_INFO_REQ
 ---
 
@@ -122,3 +124,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_base_stati
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_base_stations_info_req">WWAN_BASE_STATIONS_INFO_REQ</a>
+

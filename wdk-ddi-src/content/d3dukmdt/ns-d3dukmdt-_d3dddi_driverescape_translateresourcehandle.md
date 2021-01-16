@@ -34,6 +34,7 @@ api_location:
  - d3dukmdt.h
 api_name:
  - _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
+ - D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
 dev_langs:
  - c++
 ---

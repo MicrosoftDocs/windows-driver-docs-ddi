@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - _MSiSCSI_BootConfiguration
+ - PMSiSCSI_BootConfiguration
  - MSiSCSI_BootConfiguration
 ---
 
@@ -112,3 +114,4 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 
 <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
+

@@ -12,6 +12,8 @@ tech.root: kernel
 f1_keywords:
  - ntddsysenv
  - ntddsysenv/ntddsysenv
+api_name:
+ - ntddsysenv
 ---
 
 # Ntddsysenv.h header

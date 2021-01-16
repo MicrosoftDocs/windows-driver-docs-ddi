@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiprf.h
 api_name:
+ - _MSiSCSI_RequestTimeStatistics
+ - PMSiSCSI_RequestTimeStatistics
  - MSiSCSI_RequestTimeStatistics
 ---
 
@@ -92,3 +94,4 @@ It is optional that you implement this class.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a>
+

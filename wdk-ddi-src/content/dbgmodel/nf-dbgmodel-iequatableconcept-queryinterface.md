@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IEquatableConcept.QueryInterface
+ - IEquatableConcept::QueryInterface
 ---
 
 # IEquatableConcept::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IEquatableConcept interface](nn-dbgmodel-iequatableconcept.md)
+

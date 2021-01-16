@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KEY_VALUE_FULL_INFORMATION
+ - PKEY_VALUE_FULL_INFORMATION
  - KEY_VALUE_FULL_INFORMATION
 ---
 
@@ -96,3 +98,4 @@ A string of Unicode characters naming a value entry of the key.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
+

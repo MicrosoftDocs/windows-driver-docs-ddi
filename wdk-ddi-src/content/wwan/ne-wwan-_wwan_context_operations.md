@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_CONTEXT_OPERATIONS
+ - PWWAN_CONTEXT_OPERATIONS
+ - WWAN_CONTEXT_OPERATIONS
 product:
  - Windows
 ---

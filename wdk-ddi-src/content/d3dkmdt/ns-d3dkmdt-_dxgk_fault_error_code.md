@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmdt.h
 api_name:
+ - _DXGK_FAULT_ERROR_CODE
  - DXGK_FAULT_ERROR_CODE
 ---
 
@@ -76,3 +77,4 @@ A device specific error code.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>
+

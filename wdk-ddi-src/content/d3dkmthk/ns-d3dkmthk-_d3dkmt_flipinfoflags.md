@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_FLIPINFOFLAGS
  - D3DKMT_FLIPINFOFLAGS
 ---
 
@@ -72,3 +73,4 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo">D3DKMT_QUERYADAPTERINFO</a>
+

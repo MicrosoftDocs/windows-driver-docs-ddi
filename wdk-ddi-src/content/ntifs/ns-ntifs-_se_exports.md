@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SE_EXPORTS
+ - PSE_EXPORTS
  - SE_EXPORTS
 ---
 
@@ -625,3 +627,4 @@ The SID for a group that represents all application packages.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+

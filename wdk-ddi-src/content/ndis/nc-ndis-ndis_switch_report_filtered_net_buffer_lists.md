@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ReportFilteredNetBufferLists
+ - NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
 ---
 
 # NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback function
@@ -156,3 +156,4 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CheckDeferredContextHandleSizes
+ - PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ The driver's <i>CheckDeferredContextHandleSizes</i> function cannot call the <a 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

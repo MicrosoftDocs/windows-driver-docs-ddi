@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDataModelScriptDebugStack.Release
+ - IDataModelScriptDebugStack::Release
 ---
 
 # IDataModelScriptDebugStack::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDataModelScriptDebugStack interface](nn-dbgmodel-idatamodelscriptdebugstack.md)
+

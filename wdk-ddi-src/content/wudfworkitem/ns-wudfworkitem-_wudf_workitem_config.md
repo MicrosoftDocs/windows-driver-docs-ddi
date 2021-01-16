@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wudfworkitem.h
 api_name:
+ - _WUDF_WORKITEM_CONFIG
+ - PWUDF_WORKITEM_CONFIG
  - WUDF_WORKITEM_CONFIG
 ---
 
@@ -86,3 +88,4 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfworkitem/nf-wudfworkitem-wudf_workitem_config_init">WUDF_WORKITEM_CONFIG_INIT</a>
+

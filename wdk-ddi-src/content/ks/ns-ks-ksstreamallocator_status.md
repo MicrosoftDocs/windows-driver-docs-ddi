@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSSTREAMALLOCATOR_STATUS
  - KSSTREAMALLOCATOR_STATUS
 ---
 
@@ -74,3 +75,4 @@ Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS struc
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-streamallocator-status">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
+

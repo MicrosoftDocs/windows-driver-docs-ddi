@@ -37,8 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTargets2.WDTF
- - IWDTFTargets2.get_WDTF
+ - IWDTFTargets2::get_WDTF
 ---
 
 # IWDTFTargets2::get_WDTF
@@ -59,3 +58,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
+

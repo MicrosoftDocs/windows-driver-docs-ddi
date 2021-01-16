@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_CREATECONTEXT
  - D3DKMT_CREATECONTEXT
 ---
 
@@ -144,3 +145,4 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecont
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a>
+

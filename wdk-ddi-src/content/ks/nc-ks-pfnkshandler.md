@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrHandler
+ - PFNKSHANDLER
 ---
 
 # PFNKSHANDLER callback function
@@ -119,3 +119,4 @@ The handler declaration used for *KStrMethodHandler* and *KStrSupportHandler* is
 [KSMETHOD_SET](./ns-ks-ksmethod_set.md)
 
 [KsMethodHandler](./nf-ks-ksmethodhandler.md)
+

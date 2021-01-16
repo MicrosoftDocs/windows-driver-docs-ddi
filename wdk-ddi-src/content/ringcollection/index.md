@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ringcollection
  - ringcollection/ringcollection
+api_name:
+ - ringcollection
 ---
 
 # Ringcollection.h header

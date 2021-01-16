@@ -37,7 +37,7 @@ api_type:
 api_location:
  - hdaudio.h
 api_name:
- - SetupDmaEngineWithBdl
+ - PSETUP_DMA_ENGINE_WITH_BDL
 ---
 
 # PSETUP_DMA_ENGINE_WITH_BDL callback function
@@ -288,3 +288,4 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pset_dma_engine_state">SetDmaEngineState</a>
+

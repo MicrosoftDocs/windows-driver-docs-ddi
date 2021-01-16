@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDeviceInitialize.RetrieveDevicePropertyStore
+ - IWDFDeviceInitialize::RetrieveDevicePropertyStore
 ---
 
 # IWDFDeviceInitialize::RetrieveDevicePropertyStore
@@ -96,3 +96,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/using-the-regis
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_retrieve_flags">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
+

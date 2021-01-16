@@ -37,8 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFDeviceDepot2.Count
- - IWDTFDeviceDepot2.get_Count
+ - IWDTFActions2::get_Count
 ---
 
 # IWDTFActions2::get_Count
@@ -59,4 +58,3 @@ The number of actions.
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-#

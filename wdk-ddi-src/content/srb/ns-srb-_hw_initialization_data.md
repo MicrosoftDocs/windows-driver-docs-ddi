@@ -41,6 +41,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _HW_INITIALIZATION_DATA
+ - PHW_INITIALIZATION_DATA
  - HW_INITIALIZATION_DATA
 ---
 
@@ -189,3 +191,4 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 
 <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>
+

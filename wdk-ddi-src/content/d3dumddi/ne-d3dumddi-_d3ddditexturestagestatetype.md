@@ -31,6 +31,7 @@ api_location:
  - d3dumddi.h
 api_name:
  - _D3DDDITEXTURESTAGESTATETYPE
+ - D3DDDITEXTURESTAGESTATETYPE
 product:
  - Windows
 dev_langs:

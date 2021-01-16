@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbAcquirePostDisplayOwnership
+ - DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP
 ---
 
 # DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function
@@ -132,3 +132,4 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
+

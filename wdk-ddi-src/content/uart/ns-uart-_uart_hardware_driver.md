@@ -35,6 +35,8 @@ api_location:
  - uart.h
 api_name:
  - _UART_HARDWARE_DRIVER
+ - PUART_HARDWARE_DRIVER
+ - UART_HARDWARE_DRIVER
 ---
 
 # _UART_HARDWARE_DRIVER structure

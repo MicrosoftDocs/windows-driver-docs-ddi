@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportTcpOffloadForward
+ - W_TCP_OFFLOAD_FORWARD_HANDLER
 ---
 
 # W_TCP_OFFLOAD_FORWARD_HANDLER callback function
@@ -165,3 +165,4 @@ The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
    NdisTcpOffloadForwardComplete</a>
+

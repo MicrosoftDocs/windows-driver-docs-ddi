@@ -7,7 +7,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_NS_PARAMETERS structure"]
 ms.keywords: NET_POWER_OFFLOAD_NS_PARAMETERS, NET_POWER_OFFLOAD_NS_PARAMETERS,
 req.header: netpoweroffload.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netpoweroffload.h
 api_name:
+ - _NET_POWER_OFFLOAD_NS_PARAMETERS
  - NET_POWER_OFFLOAD_NS_PARAMETERS
 product:
  - Windows
@@ -94,3 +95,4 @@ For more information about IPv6 NS and NA messages, see [RFC 4861](https://www.i
 [**NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_ns_parameters_init.md)
 
 [**NetPowerOffloadGetNsParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetnsparameters.md)
+

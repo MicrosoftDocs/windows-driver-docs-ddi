@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
+ - PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
  - WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 ---
 
@@ -89,3 +91,4 @@ A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the [WHEA
 - [WHEA_XPF_CONTEXT_INFO](./ns-ntddk-_whea_xpf_context_info.md)
 - [WHEA_XPF_PROCESSOR_ERROR_SECTION]([WHEA_XPF_PROCESSOR_ERROR_SECTION](./ns-ntddk-_whea_xpf_processor_error_section.md)
 - [WHEA_XPF_PROCINFO](./ns-ntddk-_whea_xpf_procinfo.md)
+

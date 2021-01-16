@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_PNP_STATE
  - WDF_PNP_STATE
 ---
 
@@ -96,3 +97,4 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_STATE</b> to the <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a>
+

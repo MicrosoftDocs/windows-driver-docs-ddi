@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PTRANSPORT_STATE
  - TRANSPORT_STATE
 ---
 

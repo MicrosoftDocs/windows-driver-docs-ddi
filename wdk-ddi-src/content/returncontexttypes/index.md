@@ -15,6 +15,8 @@ product:
 f1_keywords:
  - returncontexttypes
  - returncontexttypes/returncontexttypes
+api_name:
+ - returncontexttypes
 ---
 
 # Returncontexttypes.h header

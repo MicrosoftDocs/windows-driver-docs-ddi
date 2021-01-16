@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_META_GENRES
  - WPD_META_GENRES
 ---
 
@@ -135,3 +136,4 @@ This enumeration is used by the <a href="/windows/desktop/wpd_sdk/media-properti
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

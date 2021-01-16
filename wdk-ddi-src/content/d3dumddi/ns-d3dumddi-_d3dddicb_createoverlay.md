@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_CREATEOVERLAY
  - D3DDDICB_CREATEOVERLAY
 ---
 
@@ -70,3 +71,4 @@ The D3DDDICB_CREATEOVERLAY structure describes overlay hardware.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a>
+

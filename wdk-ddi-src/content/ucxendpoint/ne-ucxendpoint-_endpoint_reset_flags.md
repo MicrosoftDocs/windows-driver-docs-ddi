@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ucxendpoint.h
 api_name:
+ - _ENDPOINT_RESET_FLAGS
  - ENDPOINT_RESET_FLAGS
 ---
 
@@ -62,3 +63,4 @@ The transfer state must be preserved after the endpoint reset operation is compl
 
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a>
+

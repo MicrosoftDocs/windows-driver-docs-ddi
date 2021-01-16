@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFObject.ReleaseLock
+ - IWDFObject::ReleaseLock
 ---
 
 # IWDFObject::ReleaseLock
@@ -56,3 +56,4 @@ The <b>ReleaseLock</b> method allows the framework to call methods of interfaces
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-acquirelock">IWDFObject::AcquireLock</a>
+

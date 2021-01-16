@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
+ - PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
  - GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
 ---
 
@@ -80,3 +82,4 @@ The <i>ClearParameters</i> parameter of the <a href="/windows-hardware/drivers/d
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
+

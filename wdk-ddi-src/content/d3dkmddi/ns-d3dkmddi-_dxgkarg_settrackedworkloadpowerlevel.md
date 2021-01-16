@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
+ - DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 dev_langs:
  - c++
 ---

@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.DispatchCallbacks
- - IDebugClient2.DispatchCallbacks
- - IDebugClient3.DispatchCallbacks
- - IDebugClient4.DispatchCallbacks
- - IDebugClient5.DispatchCallbacks
+ - IDebugClient::DispatchCallbacks
 ---
 
 # IDebugClient::DispatchCallbacks
@@ -132,3 +128,4 @@ For more information about callbacks, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-waitforevent">WaitForEvent</a>
+

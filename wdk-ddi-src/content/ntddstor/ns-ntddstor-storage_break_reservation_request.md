@@ -40,6 +40,7 @@ api_location:
  - ntddstor.h
 api_name:
  - STORAGE_BREAK_RESERVATION_REQUEST
+ - PSTORAGE_BREAK_RESERVATION_REQUEST
 ---
 
 # STORAGE_BREAK_RESERVATION_REQUEST structure
@@ -74,3 +75,4 @@ Contains the logical unit number.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_break_reservation">IOCTL_STORAGE_BREAK_RESERVATION</a>
+

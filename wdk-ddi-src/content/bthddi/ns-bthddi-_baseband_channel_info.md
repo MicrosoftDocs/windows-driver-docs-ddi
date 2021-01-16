@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _BASEBAND_CHANNEL_INFO
+ - PBASEBAND_CHANNEL_INFO
  - BASEBAND_CHANNEL_INFO
 ---
 
@@ -100,3 +102,4 @@ Profile drivers access the BASEBAND_CHANNEL_INFO structure through the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">_BRB_SCO_GET_CHANNEL_INFO</a>
+

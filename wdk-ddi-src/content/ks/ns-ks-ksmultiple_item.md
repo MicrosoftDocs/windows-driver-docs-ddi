@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSMULTIPLE_ITEM
  - KSMULTIPLE_ITEM
 ---
 
@@ -70,3 +71,4 @@ Specifies the number of buffers that follow this header.
 
 
 <a href="/windows-hardware/drivers/stream/avstream-property-sets">Kernel Streaming Property Sets</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDELETEPHONEBOOKENTRYPARAMS
+ - LPRILDELETEPHONEBOOKENTRYPARAMS
 ---
 
 # RILDELETEPHONEBOOKENTRYPARAMS structure (rilapitypes.h)

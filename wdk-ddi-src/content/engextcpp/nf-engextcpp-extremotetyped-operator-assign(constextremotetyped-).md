@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.operator=
+ - ExtRemoteTyped::operator=
 ---
 
 # ExtRemoteTyped::operator=(const ExtRemoteTyped &)
@@ -73,3 +73,4 @@ The typed data can also be copied using the <a href="/windows-hardware/drivers/d
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff544342(v=vs.85)">ExtRemoteTyped::Operator= (DEBUG_TYPED_DATA)</a>
+

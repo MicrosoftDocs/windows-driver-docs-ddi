@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostSymbols.AddRef
+ - IDebugHostSymbols::AddRef
 ---
 
 # IDebugHostSymbols::AddRef
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostSymbols interface](nn-dbgmodel-idebughostsymbols.md)
+

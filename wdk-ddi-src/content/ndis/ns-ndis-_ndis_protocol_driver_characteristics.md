@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ - PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS
  - NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
 ---
 
@@ -396,3 +398,4 @@ A protocol driver calls the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_uninstall">ProtocolUninstall</a>
+

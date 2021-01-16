@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - MyControl
+ - DRIVER_CONTROL
 ---
 
 # DRIVER_CONTROL callback function
@@ -124,7 +124,7 @@ IO_ALLOCATION_ACTION
   }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>
+

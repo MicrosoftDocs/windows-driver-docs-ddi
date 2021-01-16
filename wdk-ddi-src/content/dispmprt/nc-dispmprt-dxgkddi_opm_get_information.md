@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiOPMGetInformation
+ - DXGKDDI_OPM_GET_INFORMATION
 ---
 
 # DXGKDDI_OPM_GET_INFORMATION callback function

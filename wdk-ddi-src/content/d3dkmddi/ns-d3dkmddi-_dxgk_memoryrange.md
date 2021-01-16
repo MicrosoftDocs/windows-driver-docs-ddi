@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_MEMORYRANGE
  - DXGK_MEMORYRANGE
 ---
 
@@ -72,3 +73,4 @@ The number of byte in the range. The value must be multiple of the segment page 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
+

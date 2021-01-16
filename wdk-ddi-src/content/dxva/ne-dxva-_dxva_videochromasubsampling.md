@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_VideoChromaSubsampling
  - DXVA_VideoChromaSubsampling
 ---
 
@@ -104,3 +105,4 @@ Cosite variations indicate that the chroma samples are aligned with the luma sam
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
+

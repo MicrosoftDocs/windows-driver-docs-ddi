@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_FEEDBACK_READ
+ - PPEP_PPM_FEEDBACK_READ
  - PEP_PPM_FEEDBACK_READ
 ---
 
@@ -113,3 +115,4 @@ Both an instantaneous counter and a relative counter are reset to zero when powe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_feedback_counters">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
+

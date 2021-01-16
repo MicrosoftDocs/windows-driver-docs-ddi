@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - PPEP_PROCESSOR_IDLE_TYPE
  - PEP_PROCESSOR_IDLE_TYPE
 ---
 
@@ -70,3 +71,4 @@ The <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_processor_idle_constraints">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
+

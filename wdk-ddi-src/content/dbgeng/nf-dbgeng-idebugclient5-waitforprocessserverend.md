@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient2.WaitForProcessServerEnd
- - IDebugClient3.WaitForProcessServerEnd
- - IDebugClient4.WaitForProcessServerEnd
- - IDebugClient5.WaitForProcessServerEnd
+ - IDebugClient5::WaitForProcessServerEnd
 ---
 
 # IDebugClient5::WaitForProcessServerEnd
@@ -121,3 +118,4 @@ The constant INFINITE is defined in Winbase.h.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>
+

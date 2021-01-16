@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - ksi
  - ksi/ksi
+api_name:
+ - ksi
 ---
 
 # Ksi.h header

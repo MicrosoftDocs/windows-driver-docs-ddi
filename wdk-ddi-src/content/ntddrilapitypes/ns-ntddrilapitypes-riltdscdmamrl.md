@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILTDSCDMAMRL
+ - LPRILTDSCDMAMRL
 ---
 
 # RILTDSCDMAMRL structure (ntddrilapitypes.h)
@@ -106,3 +107,4 @@ struct RILTDSCDMAMRL {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

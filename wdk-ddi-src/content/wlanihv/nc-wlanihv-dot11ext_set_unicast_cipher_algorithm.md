@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetUnicastCipherAlgorithm
+ - DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM
 ---
 
 # DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM callback
@@ -117,3 +117,4 @@ DWORD WINAPI * Dot11ExtSetUnicastCipherAlgorithm(
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

@@ -33,6 +33,7 @@ api_type:
 api_location:
  - logicaladdresstypes.h
 api_name:
+ - _NET_FRAGMENT_LOGICAL_ADDRESS
  - NET_FRAGMENT_LOGICAL_ADDRESS
 product:
  - Windows
@@ -66,3 +67,4 @@ To obtain this structure, call [**NetExtensionGetFragmentLogicalAddress**](../lo
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NetExtensionGetFragmentLogicalAddress**](../logicaladdress/nf-logicaladdress-netextensiongetfragmentlogicaladdress.md)
+

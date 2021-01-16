@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wmilib.h
 api_name:
- - DpWmiSetDataBlock
+ - WMI_SET_DATABLOCK_CALLBACK
 ---
 
 # WMI_SET_DATABLOCK_CALLBACK callback function
@@ -132,3 +132,4 @@ For more information about implementing this routine, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
+

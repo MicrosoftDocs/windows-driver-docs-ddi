@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnSignalSynchronizationObject2Cb
+ - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
 product:
  - Windows
 ---
@@ -117,3 +117,4 @@ If synchronization objects are of type <b>D3DDDI_FENCE</b> (where <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb">pfnWaitForSynchronizationObject2Cb</a>
+

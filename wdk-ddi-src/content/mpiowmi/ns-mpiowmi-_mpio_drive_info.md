@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mpiowmi.h
 api_name:
+ - _MPIO_DRIVE_INFO
+ - PMPIO_DRIVE_INFO
  - MPIO_DRIVE_INFO
 ---
 

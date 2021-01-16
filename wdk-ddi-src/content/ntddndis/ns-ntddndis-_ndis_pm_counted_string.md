@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_COUNTED_STRING
+ - PNDIS_PM_COUNTED_STRING
  - NDIS_PM_COUNTED_STRING
 ---
 
@@ -77,3 +79,4 @@ The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is use
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>
+

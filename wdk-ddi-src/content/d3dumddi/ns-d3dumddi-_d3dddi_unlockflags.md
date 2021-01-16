@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDI_UNLOCKFLAGS
  - D3DDDI_UNLOCKFLAGS
 ---
 
@@ -68,3 +69,4 @@ A member in the union that is contained in D3DDDI_UNLOCKFLAGS that can hold one 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_unlock">D3DDDIARG_UNLOCK</a>
+
