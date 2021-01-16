@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _MS_SM_AdapterInformationQuery
+ - PMS_SM_AdapterInformationQuery
  - MS_SM_AdapterInformationQuery
 ---
 

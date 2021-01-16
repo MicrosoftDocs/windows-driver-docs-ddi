@@ -12,6 +12,8 @@ tech.root: ifsk
 f1_keywords:
  - rxprocs
  - rxprocs/rxprocs
+api_name:
+ - rxprocs
 ---
 
 # Rxprocs.h header

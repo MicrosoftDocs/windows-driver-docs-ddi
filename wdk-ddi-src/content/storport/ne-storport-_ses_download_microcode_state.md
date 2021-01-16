@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _SES_DOWNLOAD_MICROCODE_STATE
+ - PSES_DOWNLOAD_MICROCODE_STATE
  - SES_DOWNLOAD_MICROCODE_STATE
 ---
 

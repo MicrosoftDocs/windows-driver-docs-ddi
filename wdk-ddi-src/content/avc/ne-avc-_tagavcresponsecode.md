@@ -39,6 +39,7 @@ api_type:
 api_location:
  - avc.h
 api_name:
+ - _tagAvcResponseCode
  - AvcResponseCode
 ---
 
@@ -94,3 +95,4 @@ Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED<
 
 
 <a href="/windows-hardware/drivers/stream/avc-function-send-response">AVC_FUNCTION_SEND_RESPONSE</a>
+

@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_GET_ALTERNATE_MODES_RECIPIENT
+ - UCSI_GET_ALTERNATE_MODES_RECIPIENT
 ---
 
 # _UCSI_GET_ALTERNATE_MODES_RECIPIENT enumeration

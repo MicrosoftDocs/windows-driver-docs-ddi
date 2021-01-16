@@ -41,10 +41,13 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CMP_CREATE_PLUG
+ - PCMP_CREATE_PLUG
  - CMP_CREATE_PLUG
 ---
 
 # _CMP_CREATE_PLUG structure
+
 
 ## -description
 
@@ -84,11 +87,11 @@ On output, the plug number.
 
 On output, the handle of the created plug
 
-### -PlugNum
+## -PlugNum
 
 The plug number of the newly created plug. If the plug could not be created, **PlugNum** is zero (0).
 
-### -hPlug
+## -hPlug
 
 A handle to the newly created plug. If the plug could not be created, **hPlug** is null.
 
@@ -103,3 +106,4 @@ If the protocol driver is unable to allocate resources, it sets **Irp->IoStatus.
 ## -see-also
 
 [AV_61883_REQUEST](./ns-61883-_av_61883_request.md)
+

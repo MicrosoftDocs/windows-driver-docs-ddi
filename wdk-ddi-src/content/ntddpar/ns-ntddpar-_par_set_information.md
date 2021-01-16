@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpar.h
 api_name:
+ - _PAR_SET_INFORMATION
+ - PPAR_SET_INFORMATION
  - PAR_SET_INFORMATION
 ---
 

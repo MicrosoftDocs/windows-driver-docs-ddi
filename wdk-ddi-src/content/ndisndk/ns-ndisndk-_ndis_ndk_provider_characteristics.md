@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndisndk.h
 api_name:
+ - _NDIS_NDK_PROVIDER_CHARACTERISTICS
+ - PNDIS_NDK_PROVIDER_CHARACTERISTICS
  - NDIS_NDK_PROVIDER_CHARACTERISTICS
 ---
 
@@ -96,3 +98,4 @@ To specify entry points for NDK services and other NDK provider characteristics,
 
 
 <a href="/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
+

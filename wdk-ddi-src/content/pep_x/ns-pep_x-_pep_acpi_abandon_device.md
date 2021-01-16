@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_ABANDON_DEVICE
+ - PPEP_ACPI_ABANDON_DEVICE
  - PEP_ACPI_ABANDON_DEVICE
 ---
 
@@ -72,3 +74,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_abandon_device">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_PACKET_FILTER_TYPE
  - WDI_PACKET_FILTER_TYPE
 ---
 

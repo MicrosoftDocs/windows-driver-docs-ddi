@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_SET_SPEED
+ - PCDROM_SET_SPEED
  - CDROM_SET_SPEED
 ---
 
@@ -84,3 +86,4 @@ A <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">W
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">WRITE_ROTATION</a>
+

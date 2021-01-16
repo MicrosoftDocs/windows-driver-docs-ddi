@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001
  - SOUNDDETECTOR_PATTERNHEADER
 ---
 
@@ -62,3 +63,4 @@ The keyword pattern format, expressed as a GUID.
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a>
+

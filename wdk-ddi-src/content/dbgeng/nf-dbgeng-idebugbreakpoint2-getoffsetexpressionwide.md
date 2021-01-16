@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint2.GetOffsetExpressionWide
+ - IDebugBreakpoint2::GetOffsetExpressionWide
 ---
 
 # IDebugBreakpoint2::GetOffsetExpressionWide
@@ -105,3 +105,4 @@ The expression is evaluated every time that a module is loaded or unloaded.  If 
 The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the size of the expression string that specifies the location that triggers the breakpoint, <i>ExpressionSize</i>.
 
 For more information about how to use breakpoints, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+

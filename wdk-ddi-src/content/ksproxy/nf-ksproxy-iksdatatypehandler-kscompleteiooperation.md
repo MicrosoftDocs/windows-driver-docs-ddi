@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsDataTypeHandler.KsCompleteIoOperation
+ - IKsDataTypeHandler::KsCompleteIoOperation
 ---
 
 # IKsDataTypeHandler::KsCompleteIoOperation
@@ -109,3 +109,4 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a>
+

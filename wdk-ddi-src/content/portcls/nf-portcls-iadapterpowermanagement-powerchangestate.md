@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPowerManagement.PowerChangeState
+ - IAdapterPowerManagement::PowerChangeState
 ---
 
 # IAdapterPowerManagement::PowerChangeState
@@ -126,3 +126,4 @@ The code for this method must reside in paged memory.
 
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>
+

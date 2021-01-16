@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntdddump.h
 api_name:
- - Dump_Start
+ - DUMP_START
 ---
 
 # DUMP_START callback function
@@ -61,3 +61,4 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
+

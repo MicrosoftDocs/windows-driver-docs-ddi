@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_REGISTER_STATE
+ - PWWAN_REGISTER_STATE
  - WWAN_REGISTER_STATE
 ---
 
@@ -103,3 +105,4 @@ The
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_registration_state">WWAN_REGISTRATION_STATE</a>
+

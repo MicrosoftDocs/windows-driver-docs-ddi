@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IPowerNotify.PowerChangeNotify
+ - IPowerNotify::PowerChangeNotify
 ---
 
 # IPowerNotify::PowerChangeNotify
@@ -69,3 +69,4 @@ The code for this method must reside in paged memory.
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a>
+

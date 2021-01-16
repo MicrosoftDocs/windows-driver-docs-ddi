@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiRecommendMonitorModes
+ - DXGKDDI_RECOMMENDMONITORMODES
 product:
  - Windows
 ---
@@ -77,3 +77,4 @@ The miniport driver should pass through any error code that it gets from the ope
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">Monitor Source Mode Set Interface</a>
+

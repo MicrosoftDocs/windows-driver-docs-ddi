@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_ISSUPPORTEDVIDPN
  - DXGKARG_ISSUPPORTEDVIDPN
 ---
 
@@ -62,3 +63,4 @@ A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FA
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkGetRemoteTokenFromMw
+ - NDK_FN_GET_REMOTE_TOKEN_FROM_MW
 ---
 
 # NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback function
@@ -70,3 +70,4 @@ The
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>
+

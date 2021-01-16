@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - RetrieveErrorInfo
+ - PSHED_PI_RETRIEVE_ERROR_INFO
 ---
 
 # PSHED_PI_RETRIEVE_ERROR_INFO callback function
@@ -163,3 +163,4 @@ The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

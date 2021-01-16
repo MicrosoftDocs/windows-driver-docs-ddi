@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _DATA_HEADER
+ - PDATA_HEADER
  - DATA_HEADER
 ---
 
@@ -143,3 +145,4 @@ Each DATA_HEADER structure must be DWORD-aligned.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
+

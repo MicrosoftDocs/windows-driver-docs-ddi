@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SYS_CAPS_INFO
+ - PWWAN_SYS_CAPS_INFO
  - WWAN_SYS_CAPS_INFO
 ---
 
@@ -80,3 +82,4 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 
 <a href="/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>
+

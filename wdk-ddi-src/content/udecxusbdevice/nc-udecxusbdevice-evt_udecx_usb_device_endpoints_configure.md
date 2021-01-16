@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxUsbDevice.h
 api_name:
- - EvtUsbDeviceEndpointsConfigure
+ - EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE
 ---
 
 # EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback function
@@ -91,3 +91,4 @@ This call is asynchronous. The client driver must signals completion with status
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

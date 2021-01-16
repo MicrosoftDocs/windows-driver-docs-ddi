@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ - PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
  - KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 ---
 
@@ -110,3 +112,4 @@ Reserved.
 [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode)
 
 [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode)
+

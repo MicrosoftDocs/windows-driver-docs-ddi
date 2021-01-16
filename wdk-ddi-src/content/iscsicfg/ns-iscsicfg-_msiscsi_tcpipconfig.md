@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsicfg.h
 api_name:
+ - _MSiSCSI_TCPIPConfig
+ - PMSiSCSI_TCPIPConfig
  - MSiSCSI_TCPIPConfig
 ---
 
@@ -100,3 +102,4 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_TCPIPCon
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-tcpipconfig-wmi-class">MSiSCSI_TCPIPConfig WMI Class</a>
+

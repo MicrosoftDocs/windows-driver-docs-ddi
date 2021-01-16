@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Stiusd.h
 api_name:
- - IStiUSD.LockDevice
+ - IStiUSD::LockDevice
 ---
 
 # IStiUSD::LockDevice
@@ -62,3 +62,4 @@ If you are writing a driver for a device connected to a serial port, you might w
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTCreateDCFromMemory
+ - PFND3DKMT_CREATEDCFROMMEMORY
 ---
 
 # PFND3DKMT_CREATEDCFROMMEMORY callback function
@@ -75,3 +75,4 @@ During the execution of the <b>D3DKMTCreateDCFromMemory</b> function, the kernel
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdcfrommemory">D3DKMT_CREATEDCFROMMEMORY</a>
+

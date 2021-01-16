@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _STATUS_BLOCK
+ - PSTATUS_BLOCK
  - STATUS_BLOCK
 ---
 
@@ -128,3 +130,4 @@ Supplies additional information about the completed operation. The meaning of th
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
+

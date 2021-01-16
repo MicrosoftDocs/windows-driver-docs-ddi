@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - SetNetBufferListSwitchContext
+ - NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT
 ---
 
 # NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function
@@ -119,3 +119,4 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>
+

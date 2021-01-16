@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.SetFlags
- - IDebugBreakpoint2.SetFlags
+ - IDebugBreakpoint::SetFlags
 ---
 
 # IDebugBreakpoint::SetFlags
@@ -81,3 +80,4 @@ This method can also return error values.  For more information, see <a href="/w
 ## -remarks
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

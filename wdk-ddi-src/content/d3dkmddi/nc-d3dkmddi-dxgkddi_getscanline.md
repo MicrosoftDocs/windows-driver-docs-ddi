@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiGetScanLine
+ - DXGKDDI_GETSCANLINE
 product:
  - Windows
 ---
@@ -74,3 +74,4 @@ The <i>DxgkDdiGetScanLine</i> function determines whether the specified video pr
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

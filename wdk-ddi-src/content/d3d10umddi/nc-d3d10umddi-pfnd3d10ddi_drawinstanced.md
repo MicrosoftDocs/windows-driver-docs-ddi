@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - DrawInstanced
+ - PFND3D10DDI_DRAWINSTANCED
 ---
 
 # PFND3D10DDI_DRAWINSTANCED callback function
@@ -94,3 +94,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

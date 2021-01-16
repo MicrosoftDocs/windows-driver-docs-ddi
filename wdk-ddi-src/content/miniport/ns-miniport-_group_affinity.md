@@ -41,6 +41,8 @@ api_type:
 api_location:
  - miniport.h
 api_name:
+ - _GROUP_AFFINITY
+ - PGROUP_AFFINITY
  - GROUP_AFFINITY
 ---
 
@@ -88,3 +90,4 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemgroupaffinitythread">KeSetSystemGroupAffinityThread</a>
+

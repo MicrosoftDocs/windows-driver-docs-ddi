@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent
+ - IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
 ---
 
 # IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
@@ -95,3 +95,4 @@ For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callba
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iremoteinterfacecallbackremoval-onremoteinterfaceremoval">IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval</a>
+

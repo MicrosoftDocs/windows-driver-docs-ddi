@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiautil.h
 api_name:
- - CWiauDbgFn.~CWiauDbgFn
+ - CWiauDbgFn::~CWiauDbgFn
 ---
 
 # CWiauDbgFn::~CWiauDbgFn
@@ -54,3 +54,4 @@ The <b>CWiauDbgFn::~CWiauDbgFn</b> destructor is called when the function or met
 
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaudbgfn-cwiaudbgfn">CWiauDbgFn::CWiauDbgFn</a>
+

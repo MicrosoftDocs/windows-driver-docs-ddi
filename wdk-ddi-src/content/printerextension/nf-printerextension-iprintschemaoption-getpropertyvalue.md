@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaOption.GetPropertyValue
+ - IPrintSchemaOption::GetPropertyValue
 ---
 
 # IPrintSchemaOption::GetPropertyValue
@@ -82,3 +82,4 @@ If the [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) object 
 [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
 [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
+

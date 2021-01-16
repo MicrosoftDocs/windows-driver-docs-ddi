@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.GetEffectiveIoType
+ - IWDFIoRequest2::GetEffectiveIoType
 ---
 
 # IWDFIoRequest2::GetEffectiveIoType
@@ -85,7 +85,6 @@ STDMETHODCALLTYPE
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
@@ -93,3 +92,4 @@ STDMETHODCALLTYPE
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_type">WDF_DEVICE_IO_TYPE (UMDF)</a>
+

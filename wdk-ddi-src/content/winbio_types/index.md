@@ -12,6 +12,8 @@ tech.root: biometric
 f1_keywords:
  - winbio_types
  - winbio_types/winbio_types
+api_name:
+ - winbio_types
 ---
 
 # Winbio_Types.h header

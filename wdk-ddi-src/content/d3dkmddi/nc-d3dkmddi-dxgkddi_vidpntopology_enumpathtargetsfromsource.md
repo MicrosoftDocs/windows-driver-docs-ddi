@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnEnumPathTargetsFromSource
+ - DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
 product:
  - Windows
 ---
@@ -104,3 +104,4 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getpathsourcefromtarget">pfnGetPathSourceFromTarget</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_WORK_DEVICE_IDLE
+ - PPEP_WORK_DEVICE_IDLE
  - PEP_WORK_DEVICE_IDLE
 ---
 
@@ -76,3 +78,4 @@ The <b>DeviceIdle</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxsetdeviceidletimeout">PoFxSetDeviceIdleTimeout</a>
+

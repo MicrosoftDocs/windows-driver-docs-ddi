@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_MAILSLOT_SET_INFORMATION
+ - PFILE_MAILSLOT_SET_INFORMATION
  - FILE_MAILSLOT_SET_INFORMATION
 ---
 
@@ -60,3 +62,4 @@ The time, in milliseconds, that a read operation can wait for a message to be wr
 ## -remarks
 
 For more information, see <a href="/windows/desktop/ipc/mailslots">Mailslots</a>.
+

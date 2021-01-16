@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _SECURITY_SUBJECT_CONTEXT
+ - PSECURITY_SUBJECT_CONTEXT
  - SECURITY_SUBJECT_CONTEXT
 ---
 
@@ -124,3 +126,4 @@ SECURITY_SUBJECT_CONTEXT
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunlocksubjectcontext">SeUnlockSubjectContext</a>
+

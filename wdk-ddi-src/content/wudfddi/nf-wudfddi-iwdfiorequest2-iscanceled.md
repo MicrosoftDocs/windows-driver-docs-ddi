@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.IsCanceled
+ - IWDFIoRequest2::IsCanceled
 ---
 
 # IWDFIoRequest2::IsCanceled
@@ -85,7 +85,6 @@ if (fxRequest2->IsCanceled())
 ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackcancel-oncancel">IRequestCallbackCancel::OnCancel</a>
@@ -101,3 +100,4 @@ if (fxRequest2->IsCanceled())
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-unmarkcancelable">IWDFIoRequest::UnmarkCancelable</a>
+

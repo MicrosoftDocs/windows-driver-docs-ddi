@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_IF_PROVIDER_CHARACTERISTICS
+ - PNDIS_IF_PROVIDER_CHARACTERISTICS
  - NDIS_IF_PROVIDER_CHARACTERISTICS
 ---
 
@@ -109,3 +111,4 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-if_set_object">ProviderSetObject</a>
+

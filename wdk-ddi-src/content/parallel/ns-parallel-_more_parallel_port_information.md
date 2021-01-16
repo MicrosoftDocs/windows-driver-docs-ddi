@@ -41,6 +41,8 @@ api_type:
 api_location:
  - parallel.h
 api_name:
+ - _MORE_PARALLEL_PORT_INFORMATION
+ - PMORE_PARALLEL_PORT_INFORMATION
  - MORE_PARALLEL_PORT_INFORMATION
 ---
 
@@ -119,3 +121,4 @@ For more information, see <a href="/previous-versions/ff544223(v=vs.85)">Obtaini
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
+

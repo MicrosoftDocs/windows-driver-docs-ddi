@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiOpenAdapter
+ - MINIPORT_WDI_OPEN_ADAPTER
 ---
 
 # MINIPORT_WDI_OPEN_ADAPTER callback function
@@ -117,3 +117,4 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_open_adapter_complete">OpenAdapterComplete</a>
+

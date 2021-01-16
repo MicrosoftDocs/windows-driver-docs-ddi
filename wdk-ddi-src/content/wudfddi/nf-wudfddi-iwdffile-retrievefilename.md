@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFFile.RetrieveFileName
+ - IWDFFile::RetrieveFileName
 ---
 
 # IWDFFile::RetrieveFileName
@@ -126,7 +126,7 @@ The following code example shows how to retrieve the name of a file.
     }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
+

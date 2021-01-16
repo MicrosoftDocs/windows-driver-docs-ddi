@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - QueryGetData
+ - PFND3D10DDI_QUERYGETDATA
 product:
  - Windows
 ---
@@ -109,3 +109,4 @@ When the runtime calls <i>QueryGetData</i> to check for query completion, the dr
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

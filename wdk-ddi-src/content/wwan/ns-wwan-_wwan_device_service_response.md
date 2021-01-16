@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_RESPONSE
+ - PWWAN_DEVICE_SERVICE_RESPONSE
  - WWAN_DEVICE_SERVICE_RESPONSE
 ---
 
@@ -68,3 +70,4 @@ The size, in bytes, of the device service response data that follows the structu
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+

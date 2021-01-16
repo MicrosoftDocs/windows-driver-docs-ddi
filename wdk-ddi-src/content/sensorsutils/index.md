@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - sensorsutils
  - sensorsutils/sensorsutils
+api_name:
+ - sensorsutils
 ---
 
 # Sensorsutils.h header

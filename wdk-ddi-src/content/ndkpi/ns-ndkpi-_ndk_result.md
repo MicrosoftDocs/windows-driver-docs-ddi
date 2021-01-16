@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_RESULT
  - NDK_RESULT
 ---
 
@@ -82,3 +83,4 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a>
+

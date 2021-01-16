@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni2.WritePrinter
+ - IPrintOemUni2::WritePrinter
 ---
 
 # IPrintOemUni2::WritePrinter
@@ -76,3 +76,4 @@ At <a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 This method should report the number of bytes written to the spooler's <b>WritePrinter</b> function in <i>pcbWritten</i>. A value of zero carries no special meaning; errors must be reported through the returned HRESULT.
 
 The <code>IPrintOemUni2::WritePrinter</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "WritePrinter" as input.
+

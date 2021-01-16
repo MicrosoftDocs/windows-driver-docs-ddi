@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_GENERIC_DESCRIPTOR
+ - PDXGK_GENERIC_DESCRIPTOR
  - DXGK_GENERIC_DESCRIPTOR
 ---
 
@@ -76,3 +78,4 @@ The display adapter has two types of child devices: <b>TypeVideoOutput</b> and <
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_device_descriptor">DXGK_DEVICE_DESCRIPTOR</a>
+

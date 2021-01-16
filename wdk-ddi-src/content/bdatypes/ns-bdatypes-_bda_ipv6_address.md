@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_IPv6_ADDRESS
+ - PBDA_IPv6_ADDRESS
  - BDA_IPv6_ADDRESS
 ---
 

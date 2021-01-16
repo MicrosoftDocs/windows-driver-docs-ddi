@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SetFC3MgmtInfo_IN
+ - PSetFC3MgmtInfo_IN
  - SetFC3MgmtInfo_IN
 ---
 
@@ -64,3 +66,4 @@ The WMI tool suite generates a declaration of the SetFC3MgmtInfo_IN structure in
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a>
+

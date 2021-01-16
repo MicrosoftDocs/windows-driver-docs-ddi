@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_DEVICE_TYPES
  - WPD_DEVICE_TYPES
 ---
 
@@ -84,3 +85,4 @@ A phone device, such as a mobile phone.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

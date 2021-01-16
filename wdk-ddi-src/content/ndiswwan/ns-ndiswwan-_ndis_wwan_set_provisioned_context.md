@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_PROVISIONED_CONTEXT
+ - PNDIS_WWAN_SET_PROVISIONED_CONTEXT
  - NDIS_WWAN_SET_PROVISIONED_CONTEXT
 ---
 
@@ -117,3 +119,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
+

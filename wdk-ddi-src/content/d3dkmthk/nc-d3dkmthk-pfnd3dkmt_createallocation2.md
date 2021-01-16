@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTCreateAllocation2
+ - PFND3DKMT_CREATEALLOCATION2
 ---
 
 # PFND3DKMT_CREATEALLOCATION2 callback function

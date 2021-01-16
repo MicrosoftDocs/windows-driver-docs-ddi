@@ -38,7 +38,6 @@ api_location:
  - WDTF.tlb
 api_name:
  - ITracing
- - ITracing.SetTraceLevel
 ---
 
 # ITracing interface
@@ -72,3 +71,4 @@ Because the <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction
 
 
 <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a>
+

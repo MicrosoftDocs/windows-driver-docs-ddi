@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportCancelDirectOidRequest
+ - MINIPORT_CANCEL_DIRECT_OID_REQUEST
 ---
 
 # MINIPORT_CANCEL_DIRECT_OID_REQUEST callback function
@@ -153,3 +153,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _SUBSYSTEM_INFORMATION_TYPE
+ - PSUBSYSTEM_INFORMATION_TYPE
  - SUBSYSTEM_INFORMATION_TYPE
 ---
 
@@ -79,3 +81,4 @@ Reserved.
 
 
 <a href="/windows/win32/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
+

@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _OUTPUTDUPL_CONTEXT_DEBUG_STATUS
+ - OUTPUTDUPL_CONTEXT_DEBUG_STATUS
 dev_langs:
  - c++
 ---

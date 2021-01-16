@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - PKSCAMERA_PERFRAMESETTING_ITEM_HEADER
  - KSCAMERA_PERFRAMESETTING_ITEM_HEADER
 ---
 
@@ -62,3 +63,4 @@ This contains a <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-kscame
 ### -field Flags
 
 This is any one of the capability flags reported in the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_perframesetting_cap_item_header">KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER</a> Flags field.
+

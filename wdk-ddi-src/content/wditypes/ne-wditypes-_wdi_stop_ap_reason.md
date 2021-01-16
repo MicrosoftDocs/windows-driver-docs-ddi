@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_STOP_AP_REASON
  - WDI_STOP_AP_REASON
 ---
 

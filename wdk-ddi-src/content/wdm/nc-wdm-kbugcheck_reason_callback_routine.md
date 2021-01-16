@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - MyBugCheckCallback
+ - KBUGCHECK_REASON_CALLBACK_ROUTINE
 ---
 
 # KBUGCHECK_REASON_CALLBACK_ROUTINE callback function
@@ -99,3 +99,4 @@ For sample code that shows how to write data to the crash dump file, see [DMF_Cr
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckreasoncallback">KeDeregisterBugCheckReasonCallback</a>
 
 <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

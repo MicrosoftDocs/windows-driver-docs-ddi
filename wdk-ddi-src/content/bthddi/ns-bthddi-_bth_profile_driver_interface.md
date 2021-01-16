@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _BTH_PROFILE_DRIVER_INTERFACE
+ - PBTH_PROFILE_DRIVER_INTERFACE
  - BTH_PROFILE_DRIVER_INTERFACE
 ---
 
@@ -119,3 +121,4 @@ All the members of this structure, other than the
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">IsBluetoothVersionAvailable</a>
+

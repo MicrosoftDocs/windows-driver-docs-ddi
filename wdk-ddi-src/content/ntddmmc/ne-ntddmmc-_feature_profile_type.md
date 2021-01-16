@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_PROFILE_TYPE
+ - PFEATURE_PROFILE_TYPE
  - FEATURE_PROFILE_TYPE
 ---
 
@@ -180,3 +182,4 @@ Indicates that the device does not conform to any profile.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list">FEATURE_DATA_PROFILE_LIST</a>
+

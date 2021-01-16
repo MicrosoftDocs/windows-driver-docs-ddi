@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - d3dkmddi
  - d3dkmddi/d3dkmddi
+api_name:
+ - d3dkmddi
 ---
 
 # D3Dkmddi.h header

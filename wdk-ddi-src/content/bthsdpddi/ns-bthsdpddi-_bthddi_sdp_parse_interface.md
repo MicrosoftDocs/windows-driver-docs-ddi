@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthsdpddi.h
 api_name:
+ - _BTHDDI_SDP_PARSE_INTERFACE
+ - PBTHDDI_SDP_PARSE_INTERFACE
  - BTHDDI_SDP_PARSE_INTERFACE
 ---
 
@@ -199,3 +201,4 @@ All the members of this structure, other than the
 
 
 <a href="/windows-hardware/drivers/ddi/bthsdpddi/nc-bthsdpddi-pvalidatestream">SdpValidateStream</a>
+

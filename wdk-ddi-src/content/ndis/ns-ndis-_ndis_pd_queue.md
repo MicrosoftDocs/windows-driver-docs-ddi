@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _NDIS_PD_QUEUE
  - NDIS_PD_QUEUE
 ---
 
@@ -80,3 +81,4 @@ Reserved for the client.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

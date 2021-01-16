@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetFieldOffsetWide
+ - IDebugSymbols3::GetFieldOffsetWide
 ---
 
 # IDebugSymbols3::GetFieldOffsetWide
@@ -107,3 +107,4 @@ The field <i>Field</i> could not be found in the type specified by <i>TypeId</i>
 An example of a dot-separated path for the <i>Field</i> parameter is as follows.  Suppose the MyStruct structure contains a field <b>MyField</b> of type MySubStruct, and the MySubStruct structure contains the field <b>MySubField</b>.  Then the location of this field relative to the location of MyStruct structure can be found by setting the <i>Field</i> parameter to "MyField.MySubField".
 
 For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_STREAM_HEADER
+ - PHW_STREAM_HEADER
  - HW_STREAM_HEADER
 ---
 
@@ -100,3 +102,4 @@ Reserved for system use. Do not use.
 
 
 <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a>
+

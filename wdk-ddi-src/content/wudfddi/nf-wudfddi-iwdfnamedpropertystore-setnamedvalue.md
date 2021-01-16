@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFNamedPropertyStore.SetNamedValue
+ - IWDFNamedPropertyStore::SetNamedValue
 ---
 
 # IWDFNamedPropertyStore::SetNamedValue
@@ -170,3 +170,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/using-the-regis
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore">IWDFNamedPropertyStore</a>
+

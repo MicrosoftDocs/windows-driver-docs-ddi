@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dmusprop.h
 api_name:
+ - _SYNTH_STATS
+ - PSYNTH_STATS
  - SYNTH_STATS
 ---
 
@@ -132,3 +134,4 @@ The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is 
 
 
 <a href="/previous-versions/ff537406(v=vs.85)">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
+

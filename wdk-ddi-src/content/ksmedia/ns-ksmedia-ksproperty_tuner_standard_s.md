@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_STANDARD_S
  - KSPROPERTY_TUNER_STANDARD_S
 ---
 
@@ -74,3 +75,4 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

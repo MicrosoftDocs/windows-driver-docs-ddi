@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfQueryInterface.h
 api_name:
- - EvtDeviceProcessQueryInterfaceRequest
+ - EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST
 ---
 
 # EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback function
@@ -149,3 +149,4 @@ The <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> function type is defin
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>
+

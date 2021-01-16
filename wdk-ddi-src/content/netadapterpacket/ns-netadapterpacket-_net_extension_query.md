@@ -7,7 +7,7 @@ ms.date: 11/07/2019
 keywords: ["NET_EXTENSION_QUERY structure"]
 ms.keywords: NET_EXTENSION_QUERY, NET_EXTENSION_QUERY,
 req.header: netadapterpacket.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netadapterpacket.h
 api_name:
+ - _NET_EXTENSION_QUERY
  - NET_EXTENSION_QUERY
 product:
  - Windows
@@ -80,3 +81,4 @@ For a code example of querying extension offsets, see [Transmit and receive queu
 [**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md)
 
 [**NET_EXTENSION_TYPE**](../extension/ne-extension-_net_extension_type.md)
+

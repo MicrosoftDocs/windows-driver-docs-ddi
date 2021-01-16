@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxIsValidDirectory
+ - PMRX_CHKDIR_CALLDOWN
 ---
 
 # PMRX_CHKDIR_CALLDOWN callback function
@@ -132,3 +132,4 @@ This remote directory does not exist.
 
 
 <a href="/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a>
+

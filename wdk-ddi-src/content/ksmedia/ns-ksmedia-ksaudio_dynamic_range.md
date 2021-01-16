@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_DYNAMIC_RANGE
  - KSAUDIO_DYNAMIC_RANGE
 ---
 
@@ -66,3 +67,4 @@ By default, both structure members are set to zero percent, which reproduces the
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-dynamic-range">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a>
+

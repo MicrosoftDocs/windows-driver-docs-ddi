@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionContext.DriverProperties
- - IPrinterExtensionContext.get_DriverProperties
+ - IPrinterExtensionContext::get_DriverProperties
 ---
 
 # IPrinterExtensionContext::get_DriverProperties
@@ -65,3 +64,4 @@ The driver property bag uses the following GUID for its property store format ID
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
+

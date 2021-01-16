@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbspec.h
 api_name:
+ - _USB_ENDPOINT_DESCRIPTOR
+ - PUSB_ENDPOINT_DESCRIPTOR
  - USB_ENDPOINT_DESCRIPTOR
 ---
 
@@ -238,3 +240,4 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 
 <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+

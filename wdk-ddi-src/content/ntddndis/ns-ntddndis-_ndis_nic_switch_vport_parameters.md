@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - PNDIS_NIC_SWITCH_VPORT_PARAMETERS
  - NDIS_NIC_SWITCH_VPORT_PARAMETERS
 ---
 

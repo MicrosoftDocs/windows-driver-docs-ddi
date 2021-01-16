@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpar.h
 api_name:
+ - _PARCLASS_NEGOTIATION_MASK
+ - PPARCLASS_NEGOTIATION_MASK
  - PARCLASS_NEGOTIATION_MASK
 ---
 
@@ -95,3 +97,4 @@ For more information, see <a href="/previous-versions/ff544797(v=vs.85)">Setting
 
 
 <a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+

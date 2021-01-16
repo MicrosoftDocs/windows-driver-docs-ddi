@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidport.h
 api_name:
+ - _HID_DEVICE_ATTRIBUTES
+ - PHID_DEVICE_ATTRIBUTES
  - HID_DEVICE_ATTRIBUTES
 ---
 
@@ -80,3 +82,4 @@ The HID class driver uses this structure to obtain device attributes when it sen
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a>
+

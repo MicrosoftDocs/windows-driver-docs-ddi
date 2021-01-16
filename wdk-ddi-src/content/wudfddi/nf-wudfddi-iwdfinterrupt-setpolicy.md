@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFInterrupt.SetPolicy
+ - IWDFInterrupt::SetPolicy
 ---
 
 # IWDFInterrupt::SetPolicy
@@ -98,7 +98,6 @@ pIWdfInterrupt->SetPolicy(
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
@@ -114,3 +113,4 @@ pIWdfInterrupt->SetPolicy(
 
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ne-wdfinterrupt-_wdf_interrupt_priority">WDF_INTERRUPT_PRIORITY</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_RESOLVESHAREDRESOURCE
  - D3DDDIARG_RESOLVESHAREDRESOURCE
 ---
 
@@ -58,3 +59,4 @@ The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the us
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_resolvesharedresource">ResolveSharedResource</a>
+

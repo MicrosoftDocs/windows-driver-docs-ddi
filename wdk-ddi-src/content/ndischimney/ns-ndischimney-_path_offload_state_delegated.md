@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _PATH_OFFLOAD_STATE_DELEGATED
+ - PPATH_OFFLOAD_STATE_DELEGATED
  - PATH_OFFLOAD_STATE_DELEGATED
 ---
 
@@ -81,3 +83,4 @@ Currently there are no delegated path variables.
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">PATH_OFFLOAD_STATE_CONST</a>
+

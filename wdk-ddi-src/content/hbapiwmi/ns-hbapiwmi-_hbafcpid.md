@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _HBAFCPID
+ - PHBAFCPID
  - HBAFCPID
 ---
 
@@ -82,3 +84,4 @@ For more information about the fibre channel protocol (FCP), see the T11 committ
 
 
 <a href="/previous-versions/ff556062(v=vs.85)">HBA_FcpId</a>
+

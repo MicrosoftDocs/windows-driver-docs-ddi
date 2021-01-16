@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration"]
 ms.keywords: D3DKMDT_RMT_GRAPHICS, D3DKMDT_RMT_GRAPHICS_STEREO, D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, D3DKMDT_RMT_TEXT, D3DKMDT_RMT_UNINITIALIZED, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, display.d3dkmdt_vidpn_source_mode_type
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_VIDPN_SOURCE_MODE_TYPE
  - D3DKMDT_VIDPN_SOURCE_MODE_TYPE
 ---
 
@@ -80,3 +81,4 @@ If mono content needs to be displayed in a stereo mode, the operating system can
 ## -remarks
 
 The <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_VIDPN_SOURCE_MODE_TYPE value.
+

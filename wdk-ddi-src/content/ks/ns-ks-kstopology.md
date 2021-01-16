@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSTOPOLOGY
  - KSTOPOLOGY
 ---
 
@@ -102,3 +103,4 @@ A stream class minidriver creates and passes this structure as part of its <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
+

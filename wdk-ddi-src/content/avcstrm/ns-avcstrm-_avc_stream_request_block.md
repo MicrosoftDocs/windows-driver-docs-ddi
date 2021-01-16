@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _AVC_STREAM_REQUEST_BLOCK
+ - PAVC_STREAM_REQUEST_BLOCK
  - AVC_STREAM_REQUEST_BLOCK
 ---
 
@@ -205,3 +207,4 @@ To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> me
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_MIRACAST_INTERFACE
+ - PDXGK_MIRACAST_DISPLAY_INTERFACE
  - DXGK_MIRACAST_DISPLAY_INTERFACE
 ---
 
@@ -119,3 +121,4 @@ For more info on how to use the Miracast interface, see [WDDM display miniport d
 
 
 [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md)
+

@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VIRTUALGPUDRIVERESCAPE
+ - PDXGK_VIRTUALGPUDRIVERESCAPE
+ - DXGK_VIRTUALGPUDRIVERESCAPE
 product:
  - Windows
 dev_langs:

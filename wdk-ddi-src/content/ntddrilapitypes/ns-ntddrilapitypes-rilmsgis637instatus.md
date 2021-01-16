@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGIS637INSTATUS
+ - LPRILMSGIS637INSTATUS
 ---
 
 # RILMSGIS637INSTATUS structure (ntddrilapitypes.h)

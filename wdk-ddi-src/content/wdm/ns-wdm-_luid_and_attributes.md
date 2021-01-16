@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _LUID_AND_ATTRIBUTES
+ - PLUID_AND_ATTRIBUTES
  - LUID_AND_ATTRIBUTES
 ---
 
@@ -134,3 +136,4 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
+

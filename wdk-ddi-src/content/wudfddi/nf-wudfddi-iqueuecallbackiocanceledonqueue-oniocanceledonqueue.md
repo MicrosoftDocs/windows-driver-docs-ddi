@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue
+ - IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
 ---
 
 # IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
@@ -86,3 +86,4 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-forwardtoioqueue">IWDFIoRequest::ForwardToIoQueue</a>
+

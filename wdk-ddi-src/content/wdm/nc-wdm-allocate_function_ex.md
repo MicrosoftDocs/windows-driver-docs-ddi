@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - LookasideListAllocateEx
+ - ALLOCATE_FUNCTION_EX
 ---
 
 # ALLOCATE_FUNCTION_EX callback function
@@ -155,3 +155,4 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_ISOLATION_MODE
+ - PNDIS_ISOLATION_MODE
  - NDIS_ISOLATION_MODE
 ---
 
@@ -80,3 +82,4 @@ Virtual local area network (VLAN)-based isolation.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_property_isolation">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
+

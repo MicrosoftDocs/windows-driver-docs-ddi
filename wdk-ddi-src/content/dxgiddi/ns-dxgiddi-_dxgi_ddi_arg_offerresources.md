@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_ARG_OFFERRESOURCES
  - DXGI_DDI_ARG_OFFERRESOURCES
 ---
 
@@ -84,3 +85,4 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_offerresources">pfnOfferResources</a>
+

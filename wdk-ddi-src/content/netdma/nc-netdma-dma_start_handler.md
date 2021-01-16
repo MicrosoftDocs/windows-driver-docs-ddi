@@ -37,7 +37,7 @@ api_type:
 api_location:
  - netdma.h
 api_name:
- - ProviderStartDma
+ - DMA_START_HANDLER
 ---
 
 # DMA_START_HANDLER callback function
@@ -193,3 +193,4 @@ NetDMA calls
 
 
 <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_reset_handler">ProviderResetChannel</a>
+

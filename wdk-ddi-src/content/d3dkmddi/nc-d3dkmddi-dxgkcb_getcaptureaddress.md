@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkCbGetCaptureAddress
+ - DXGKCB_GETCAPTUREADDRESS
 ---
 
 # DXGKCB_GETCAPTUREADDRESS callback function
@@ -71,3 +71,4 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_getcaptureaddress">DXGKARGCB_GETCAPTUREADDRESS</a>
+

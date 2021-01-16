@@ -38,9 +38,7 @@ api_location:
  - Ntstrsafe.lib
  - Ntstrsafe.dll
 api_name:
- - RtlStringCbPrintfW
  - RtlStringCbPrintfA
- - RtlStringCbPrintfW
 ---
 
 # RtlStringCbPrintfA function
@@ -235,3 +233,4 @@ The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer
 
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfa">RtlStringCchPrintf</a>
+

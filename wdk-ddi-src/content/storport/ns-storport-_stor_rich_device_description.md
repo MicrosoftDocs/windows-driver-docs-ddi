@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_RICH_DEVICE_DESCRIPTION
+ - PSTOR_RICH_DEVICE_DESCRIPTION
  - STOR_RICH_DEVICE_DESCRIPTION
 ---
 
@@ -84,3 +86,4 @@ This is invoked during the Unit enumeration process or the device description up
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
+

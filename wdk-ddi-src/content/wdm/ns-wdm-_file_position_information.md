@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_POSITION_INFORMATION
+ - PFILE_POSITION_INFORMATION
  - FILE_POSITION_INFORMATION
 ---
 
@@ -70,3 +72,4 @@ If the file was opened or created with the FILE_NO_INTERMEDIATE_BUFFERING option
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

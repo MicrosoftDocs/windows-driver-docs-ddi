@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _PO_FX_DEVICE_V1
+ - PPO_FX_DEVICE_V1
  - PO_FX_DEVICE_V1
 ---
 
@@ -145,3 +147,4 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
+

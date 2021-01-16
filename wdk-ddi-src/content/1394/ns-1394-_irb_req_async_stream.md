@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ASYNC_STREAM
  - IRB_REQ_ASYNC_STREAM
 ---
 
@@ -123,3 +124,4 @@ SPEED_FLAGS_400
 
 <div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">New Flags for Speed and Payload Size</a> and <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
 <div> </div>
+

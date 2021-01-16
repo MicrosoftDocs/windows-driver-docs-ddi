@@ -35,6 +35,8 @@ api_location:
  - ntddvdeo.h
 api_name:
  - _PANEL_SET_BACKLIGHT_OPTIMIZATION
+ - PPANEL_SET_BACKLIGHT_OPTIMIZATION
+ - PANEL_SET_BACKLIGHT_OPTIMIZATION
 product:
  - Windows
 ---

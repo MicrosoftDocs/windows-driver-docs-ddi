@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
+ - POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
  - OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 ---
 
@@ -94,3 +96,4 @@ The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_add_udpesp_sa">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
+

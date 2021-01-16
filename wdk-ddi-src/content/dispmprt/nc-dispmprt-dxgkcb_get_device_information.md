@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
- - DxgkCbGetDeviceInformation
+ - DXGKCB_GET_DEVICE_INFORMATION
 ---
 
 # DXGKCB_GET_DEVICE_INFORMATION callback function
@@ -70,3 +70,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

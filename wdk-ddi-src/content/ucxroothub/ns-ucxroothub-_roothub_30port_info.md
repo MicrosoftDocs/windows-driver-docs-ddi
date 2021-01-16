@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _ROOTHUB_30PORT_INFO
+ - PROOTHUB_30PORT_INFO
  - ROOTHUB_30PORT_INFO
 ---
 
@@ -72,3 +74,4 @@ A <a href="/windows-hardware/drivers/ddi/ucxroothub/ne-ucxroothub-_tristate">TRI
 ### -field DebugCapable
 
 A <a href="/windows-hardware/drivers/ddi/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is debug capable.
+

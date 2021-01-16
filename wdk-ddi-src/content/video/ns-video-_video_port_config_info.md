@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_PORT_CONFIG_INFO
+ - PVIDEO_PORT_CONFIG_INFO
  - VIDEO_PORT_CONFIG_INFO
 ---
 
@@ -208,3 +210,4 @@ Indicates to a driver the amount, in bytes, of physical memory in the system.
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
+

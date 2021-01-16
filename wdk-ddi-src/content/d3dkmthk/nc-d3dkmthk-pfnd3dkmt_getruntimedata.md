@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTGetRuntimeData
+ - PFND3DKMT_GETRUNTIMEDATA
 ---
 
 # PFND3DKMT_GETRUNTIMEDATA callback function

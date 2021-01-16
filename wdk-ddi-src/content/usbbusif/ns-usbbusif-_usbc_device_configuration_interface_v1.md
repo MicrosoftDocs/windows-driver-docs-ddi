@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbbusif.h
 api_name:
+ - _USBC_DEVICE_CONFIGURATION_INTERFACE_V1
+ - PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1
  - USBC_DEVICE_CONFIGURATION_INTERFACE_V1
 ---
 
@@ -96,3 +98,4 @@ Reserved.
 
 
 <a href="/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-usbc_start_device_callback">USBC_START_DEVICE_CALLBACK</a>
+

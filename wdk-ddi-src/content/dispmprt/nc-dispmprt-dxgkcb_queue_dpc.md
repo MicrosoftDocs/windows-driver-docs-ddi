@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkCbQueueDpc
+ - DXGKCB_QUEUE_DPC
 ---
 
 # DXGKCB_QUEUE_DPC callback function
@@ -82,3 +82,4 @@ For more information on the use of this function, see these topics:
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a>
+

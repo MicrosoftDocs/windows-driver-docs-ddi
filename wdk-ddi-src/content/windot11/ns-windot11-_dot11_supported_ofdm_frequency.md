@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_OFDM_FREQUENCY
+ - PDOT11_SUPPORTED_OFDM_FREQUENCY
  - DOT11_SUPPORTED_OFDM_FREQUENCY
 product:
  - Windows 10 or later.
@@ -75,3 +77,4 @@ typedef struct _DOT11_SUPPORTED_OFDM_FREQUENCY {
 
 <a href="..\windot11\ns-windot11-_dot11_supported_ofdm_frequency_list.md">
    DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>
+

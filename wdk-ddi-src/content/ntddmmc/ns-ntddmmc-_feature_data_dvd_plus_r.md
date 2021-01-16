@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DVD_PLUS_R
+ - PFEATURE_DATA_DVD_PLUS_R
  - FEATURE_DATA_DVD_PLUS_R
 ---
 
@@ -76,3 +78,4 @@ This structure holds data for the feature named "DVD+R" by the <i>MMC-3 </i>spec
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
+

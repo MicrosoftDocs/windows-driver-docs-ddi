@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnbase.h
 api_name:
+ - _USBFN_INTERFACE_INFO
+ - PUSBFN_INTERFACE_INFO
  - USBFN_INTERFACE_INFO
 ---
 
@@ -72,3 +74,4 @@ Pointer to the first element in the array of that contains the interface descrip
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>
+

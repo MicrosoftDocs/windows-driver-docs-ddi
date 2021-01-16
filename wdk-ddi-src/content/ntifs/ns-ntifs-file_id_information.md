@@ -29,9 +29,14 @@ api_location:
  - ntifs.h
 api_name:
  - _FILE_ID_INFORMATION
+ - PFILE_ID_INFORMATION
  - FILE_ID_INFORMATION
 f1_keywords:
+ - _FILE_ID_INFORMATION
  - ntifs/_FILE_ID_INFORMATION
+ - PFILE_ID_INFORMATION
+ - ntifs/PFILE_ID_INFORMATION
+ - FILE_ID_INFORMATION
  - ntifs/FILE_ID_INFORMATION
 dev_langs:
  - c++
@@ -56,3 +61,4 @@ Serial number of the volume where the file is located.
 ## -see-also
 
 [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO
+ - PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO
  - NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO
 ---
 
@@ -123,3 +125,4 @@ To set and get the IPsec tunnel information, use the
 
 
 <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+

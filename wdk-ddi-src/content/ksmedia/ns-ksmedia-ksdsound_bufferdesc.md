@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSDSOUND_BUFFERDESC
  - KSDSOUND_BUFFERDESC
 ---
 
@@ -164,3 +165,4 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
+

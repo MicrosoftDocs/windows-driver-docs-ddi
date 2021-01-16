@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _MSiSCSI_LUNMappingInformation
+ - PMSiSCSI_LUNMappingInformation
  - MSiSCSI_LUNMappingInformation
 ---
 
@@ -96,3 +98,4 @@ You must implement this class.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_msiscsi_targetmappings">MSiSCSI_TargetMappings</a>
+

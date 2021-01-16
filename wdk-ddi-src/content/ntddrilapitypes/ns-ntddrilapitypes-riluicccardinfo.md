@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCCARDINFO
+ - LPRILUICCCARDINFO
 ---
 
 # RILUICCCARDINFO structure (ntddrilapitypes.h)

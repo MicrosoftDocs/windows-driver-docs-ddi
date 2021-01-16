@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_QP
  - NDK_QP
 ---
 
@@ -94,3 +95,4 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp_dispatch">NDK_QP_DISPATCH</a>
+

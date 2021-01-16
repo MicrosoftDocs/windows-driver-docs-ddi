@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_ZONE_DESCRIPTOR
+ - PSTORAGE_ZONE_DESCRIPTOR
  - STORAGE_ZONE_DESCRIPTOR
 ---
 

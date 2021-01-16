@@ -37,7 +37,7 @@ api_type:
 api_location:
  - scsiwmi.h
 api_name:
- - HwScsiWmiSetDataItem
+ - PSCSIWMI_SET_DATAITEM
 ---
 
 # PSCSIWMI_SET_DATAITEM callback function
@@ -110,3 +110,4 @@ If the item is read-only, the miniport driver calls <a href="/windows-hardware/d
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
+

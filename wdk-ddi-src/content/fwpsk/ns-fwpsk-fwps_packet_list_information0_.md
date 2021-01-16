@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_PACKET_LIST_INFORMATION0_
  - FWPS_PACKET_LIST_INFORMATION0
 ---
 
@@ -85,3 +86,4 @@ A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsgetpacketlistsecurityinformation0">
    FwpsGetPacketListSecurityInformation0</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _RemoveRADIUSServer_IN
+ - PRemoveRADIUSServer_IN
  - RemoveRADIUSServer_IN
 ---
 
@@ -68,3 +70,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removepersistentlogin_out">RemovePersistentLogin_OUT</a>
+

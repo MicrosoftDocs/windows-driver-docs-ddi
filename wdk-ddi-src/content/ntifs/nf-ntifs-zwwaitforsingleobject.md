@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwWaitForSingleObject
- - NtWaitForSingleObject
 ---
 
 # ZwWaitForSingleObject function
@@ -227,3 +226,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetevent">ZwSetEvent</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_FILTER_DRIVER_CHARACTERISTICS
+ - PNDIS_FILTER_DRIVER_CHARACTERISTICS
  - NDIS_FILTER_DRIVER_CHARACTERISTICS
 ---
 
@@ -516,3 +518,4 @@ A filter driver calls the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PioReceiveCleanupTransaction
+ - EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION
 ---
 
 # EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION callback function
@@ -101,3 +101,4 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION</b> function type is defined i
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a>
+

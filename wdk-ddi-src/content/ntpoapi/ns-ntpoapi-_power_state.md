@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _POWER_STATE
+ - PPOWER_STATE
  - POWER_STATE
 ---
 
@@ -86,3 +88,4 @@ For more information about power management, see <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
+

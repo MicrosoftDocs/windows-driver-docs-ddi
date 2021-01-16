@@ -34,6 +34,7 @@ api_type:
 api_location:
  - checksumtypes.h
 api_name:
+ - _NET_PACKET_CHECKSUM
  - NET_PACKET_CHECKSUM
 ---
 
@@ -73,3 +74,4 @@ For a receive queue, the client specifies flag values from the [**NET_PACKET_RX_
 ## -see-also
 
 [Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+

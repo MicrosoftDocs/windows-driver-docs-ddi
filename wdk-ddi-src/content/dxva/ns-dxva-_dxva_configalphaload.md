@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ConfigAlphaLoad
+ - LPDXVA_ConfigAlphaLoad
  - DXVA_ConfigAlphaLoad
 ---
 
@@ -79,3 +81,4 @@ Specifies the type of alpha-blend data to be used. This member can be set to one
  
 
 The preferred values for an accelerator to support for <b>bConfigDataType</b> are 1 and 3.
+

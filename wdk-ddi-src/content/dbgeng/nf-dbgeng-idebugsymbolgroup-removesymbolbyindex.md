@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbolGroup.RemoveSymbolByIndex
- - IDebugSymbolGroup2.RemoveSymbolByIndex
+ - IDebugSymbolGroup::RemoveSymbolByIndex
 ---
 
 # IDebugSymbolGroup::RemoveSymbolByIndex
@@ -105,3 +104,4 @@ For more information about symbol groups, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-removesymbolbyname">RemoveSymbolByName</a>
+

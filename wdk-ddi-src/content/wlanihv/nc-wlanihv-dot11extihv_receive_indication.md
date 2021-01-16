@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtIhvReceiveIndication
+ - DOT11EXTIHV_RECEIVE_INDICATION
 ---
 
 # DOT11EXTIHV_RECEIVE_INDICATION callback
@@ -119,3 +119,4 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

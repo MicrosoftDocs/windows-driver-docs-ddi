@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_OFFLOAD_PARAMETERS
+ - PNDIS_OFFLOAD_PARAMETERS
  - NDIS_OFFLOAD_PARAMETERS
 ---
 
@@ -838,3 +840,4 @@ The feature that the member specifies is enabled for transmit and receive.
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>
+

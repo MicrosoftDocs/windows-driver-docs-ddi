@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
+ - _SYM_DUMP_PARAM
+ - PSYM_DUMP_PARAM
  - SYM_DUMP_PARAM
 ---
 
@@ -438,3 +440,4 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+

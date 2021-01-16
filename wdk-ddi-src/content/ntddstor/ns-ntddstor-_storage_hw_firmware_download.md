@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_HW_FIRMWARE_DOWNLOAD
+ - PSTORAGE_HW_FIRMWARE_DOWNLOAD
  - STORAGE_HW_FIRMWARE_DOWNLOAD
 ---
 
@@ -99,3 +101,4 @@ The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAli
 ### -field ImageBuffer
 
 The firmware image file.
+

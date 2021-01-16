@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wsk.h
 api_name:
- - WskAbortEvent
+ - PFN_WSK_ABORT_EVENT
 ---
 
 # PFN_WSK_ABORT_EVENT callback function
@@ -146,3 +146,4 @@ A WSK application's <i>WskAbortEvent</i> event callback function must not wait f
 
 
 <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+

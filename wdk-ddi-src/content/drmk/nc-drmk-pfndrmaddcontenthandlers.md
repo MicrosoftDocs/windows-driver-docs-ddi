@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Drmk.h
 api_name:
- - DRMAddContentHandlers
+ - PFNDRMADDCONTENTHANDLERS
 ---
 
 # PFNDRMADDCONTENTHANDLERS callback function

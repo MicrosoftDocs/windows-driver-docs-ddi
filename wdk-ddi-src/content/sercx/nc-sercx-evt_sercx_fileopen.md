@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 1.0\Sercx.h
 api_name:
- - EvtSerCxFileOpen
+ - EVT_SERCX_FILEOPEN
 ---
 
 # EVT_SERCX_FILEOPEN callback function
@@ -104,3 +104,4 @@ For more information about SDV requirements for function declarations, see <a hr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
+

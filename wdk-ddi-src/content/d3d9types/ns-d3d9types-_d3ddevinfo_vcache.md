@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3d9types.h
 api_name:
+ - _D3DDEVINFO_VCACHE
+ - LPD3DDEVINFO_VCACHE
  - D3DDEVINFO_VCACHE
 ---
 
@@ -116,3 +118,4 @@ D3DDP2OP_ISSUEQUERY
 
 
 <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverstate">D3dGetDriverState</a>
+

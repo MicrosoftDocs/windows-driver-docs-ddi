@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.SetPnpState
+ - IWDFDevice::SetPnpState
 ---
 
 # IWDFDevice::SetPnpState
@@ -146,7 +146,6 @@ CUmdfHidDevice::OnCompletion(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
@@ -162,3 +161,4 @@ CUmdfHidDevice::OnCompletion(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>
+

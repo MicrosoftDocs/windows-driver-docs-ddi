@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Smclib.h
 api_name:
+ - _T0_DATA
+ - PT0_DATA
  - T0_DATA
 ---
 

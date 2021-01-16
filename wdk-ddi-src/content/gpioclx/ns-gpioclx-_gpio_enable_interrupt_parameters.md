@@ -41,10 +41,13 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_ENABLE_INTERRUPT_PARAMETERS
+ - PGPIO_ENABLE_INTERRUPT_PARAMETERS
  - GPIO_ENABLE_INTERRUPT_PARAMETERS
 ---
 
 # _GPIO_ENABLE_INTERRUPT_PARAMETERS structure
+
 
 ## -description
 
@@ -146,3 +149,4 @@ If none of the system-defined **GPIO_PIN_PULL_CONFIGURATION_*XXX*** constants ap
 [KINTERRUPT_MODE](../wdm/ne-wdm-_kinterrupt_mode.md)
 
 [KINTERRUPT_POLARITY](../wdm/ne-wdm-_kinterrupt_polarity.md)
+

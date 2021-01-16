@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - storduid
  - storduid/storduid
+api_name:
+ - storduid
 ---
 
 # Storduid.h header

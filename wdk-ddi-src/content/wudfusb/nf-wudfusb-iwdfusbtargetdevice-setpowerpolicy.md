@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetDevice.SetPowerPolicy
+ - IWDFUsbTargetDevice::SetPowerPolicy
 ---
 
 # IWDFUsbTargetDevice::SetPowerPolicy
@@ -133,3 +133,4 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_setpowerpolicy">WinUsb_SetPowerPolicy</a>
+

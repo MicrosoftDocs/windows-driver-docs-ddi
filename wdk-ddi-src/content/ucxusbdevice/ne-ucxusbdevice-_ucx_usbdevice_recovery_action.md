@@ -31,6 +31,7 @@ api_location:
  - ucxusbdevice.h
 api_name:
  - _UCX_USBDEVICE_RECOVERY_ACTION
+ - UCX_USBDEVICE_RECOVERY_ACTION
 ---
 
 # _UCX_USBDEVICE_RECOVERY_ACTION enumeration

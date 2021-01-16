@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_ExtendedFormat
  - DXVA_ExtendedFormat
 ---
 
@@ -106,3 +107,4 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_videotransfermatrix">DXVA_VideoTransferMatrix</a>
+

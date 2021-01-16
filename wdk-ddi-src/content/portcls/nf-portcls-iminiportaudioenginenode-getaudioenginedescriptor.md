@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetAudioEngineDescriptor
+ - IMiniportAudioEngineNode::GetAudioEngineDescriptor
 ---
 
 # IMiniportAudioEngineNode::GetAudioEngineDescriptor
@@ -70,3 +70,4 @@ Audio engine descriptor object. This parameter is of type <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_descriptor">KSAUDIOENGINE_DESCRIPTOR</a>
+

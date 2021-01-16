@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEAP_PFA_MEMORY_REMOVE_MONITOR
+ - PWHEAP_PFA_MEMORY_REMOVE_MONITOR
  - WHEAP_PFA_MEMORY_REMOVE_MONITOR
 product:
  - Windows

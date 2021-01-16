@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _SCATTER_GATHER_LIST
+ - PSCATTER_GATHER_LIST
  - SCATTER_GATHER_LIST
 ---
 
@@ -89,3 +91,4 @@ For more information about scatter/gather lists, see <a href="/windows-hardware/
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a>
+

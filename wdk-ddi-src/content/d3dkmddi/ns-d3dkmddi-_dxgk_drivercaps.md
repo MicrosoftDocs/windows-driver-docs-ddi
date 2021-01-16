@@ -40,6 +40,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_DRIVERCAPS
  - DXGK_DRIVERCAPS
 dev_langs:
  - c++
@@ -328,3 +329,4 @@ Reserved.
 [**DXGK_FLIPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_flipcaps.md)
 
 [**DXGKARG_QUERYADAPTERINFO**](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
+ - _GPIO_READ_PINS_MASK_PARAMETERS
+ - PGPIO_READ_PINS_MASK_PARAMETERS
  - GPIO_READ_PINS_MASK_PARAMETERS
 ---
 
@@ -84,3 +86,4 @@ The <i>ReadParameters</i> parameter of the <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_read_pins_mask">CLIENT_ReadGpioPinsUsingMask</a>
+

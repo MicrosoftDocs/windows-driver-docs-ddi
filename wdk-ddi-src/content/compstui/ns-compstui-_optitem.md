@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _OPTITEM
+ - POPTITEM
  - OPTITEM
 ---
 
@@ -285,3 +287,4 @@ Additionally, CPSUI sets the option's display text to **copy** for one copy and 
 If **DMPubID** is DMPUB_COLOR, its first [OPTPARAM](./ns-compstui-_optparam.md) structure (**Sel**=0) must represent Gray Scale, and **pData** in the OPTPARAM structure must be IDS_CPSUI_GRAYSCALE. Its second OPTPARAM structure (**Sel**=1) must represent Color, and **pData** in the OPTPARAM structure must be IDS_CPSUI_COLOR. If another option's **DMPubID** is DMPUB_ICMINTENT and if Color is not selected, CPSUI disables the option for which DMPUB_ICMINTENT is specified.
 
 CPSUI disables color matching when Color is not selected.
+

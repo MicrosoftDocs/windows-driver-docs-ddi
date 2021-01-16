@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _SCSI_POWER_REQUEST_BLOCK
+ - PSCSI_POWER_REQUEST_BLOCK
  - SCSI_POWER_REQUEST_BLOCK
 ---
 
@@ -172,3 +174,4 @@ The miniport can access the adapter's hardware resources.
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
+

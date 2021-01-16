@@ -40,6 +40,7 @@ api_location:
  - Spb.h
 api_name:
  - SPB_TRANSFER_BUFFER_LIST_ENTRY
+ - PSPB_TRANSFER_BUFFER_LIST_ENTRY
 ---
 
 # SPB_TRANSFER_BUFFER_LIST_ENTRY structure
@@ -80,3 +81,4 @@ If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSF
 
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
+

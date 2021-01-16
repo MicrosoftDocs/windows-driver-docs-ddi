@@ -36,6 +36,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_MMIORANGEINFO
+ - PDXGK_MMIORANGEINFO
+ - DXGK_MMIORANGEINFO
 dev_langs:
  - c++
 ---

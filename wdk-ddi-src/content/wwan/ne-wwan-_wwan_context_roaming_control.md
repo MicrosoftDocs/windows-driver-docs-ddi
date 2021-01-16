@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_CONTEXT_ROAMING_CONTROL
+ - PWWAN_CONTEXT_ROAMING_CONTROL
+ - WWAN_CONTEXT_ROAMING_CONTROL
 product:
  - Windows
 ---

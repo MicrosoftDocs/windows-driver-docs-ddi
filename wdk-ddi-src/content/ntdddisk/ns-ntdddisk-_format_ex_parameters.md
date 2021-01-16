@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddisk.h
 api_name:
+ - _FORMAT_EX_PARAMETERS
+ - PFORMAT_EX_PARAMETERS
  - FORMAT_EX_PARAMETERS
 ---
 
@@ -96,3 +98,4 @@ Contains an array whose first element indicates the number of the sector where t
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks_ex">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_POLLDISPLAYCHILDREN
  - D3DKMT_POLLDISPLAYCHILDREN
 ---
 
@@ -102,3 +103,4 @@ Supported beginning with Windows 7 operating system.
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
+

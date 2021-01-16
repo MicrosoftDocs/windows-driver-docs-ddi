@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFcpPersistentBinding_IN
+ - PGetFcpPersistentBinding_IN
  - GetFcpPersistentBinding_IN
 ---
 
@@ -68,3 +70,4 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 
 <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>
+

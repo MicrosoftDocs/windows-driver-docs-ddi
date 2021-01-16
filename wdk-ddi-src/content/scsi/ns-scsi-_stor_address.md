@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STOR_ADDRESS
+ - PSTOR_ADDRESS
  - STOR_ADDRESS
 ---
 
@@ -103,3 +105,4 @@ The address data specific to an address type.
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>
+

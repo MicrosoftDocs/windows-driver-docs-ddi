@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSALLOCATOR_FRAMING_EX
  - KSALLOCATOR_FRAMING_EX
 ---
 
@@ -92,3 +93,4 @@ DECLARE_SIMPLE_FRAMING_EX declares a KSALLOCATOR_FRAMING_EX structure called **F
 [KS_FRAMING_RANGE](./ns-ks-ks_framing_range.md)
 
 [KS_FRAMING_RANGE_WEIGHTED](./ns-ks-ks_framing_range_weighted.md)
+

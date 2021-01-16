@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
+ - _MINIDRV_TRANSFER_CONTEXT
+ - PMINIDRV_TRANSFER_CONTEXT
  - MINIDRV_TRANSFER_CONTEXT
 ---
 
@@ -228,3 +230,4 @@ The following members of this structure are used in data transfer callbacks. The
 [wiasGetImageInformation](../wiamdef/nf-wiamdef-wiasgetimageinformation.md)
 
 [wiasWritePageBufToFile](../wiamdef/nf-wiamdef-wiaswritepagebuftofile.md)
+

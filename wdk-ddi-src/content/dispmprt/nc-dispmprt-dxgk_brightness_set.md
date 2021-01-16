@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiSetBrightness
+ - DXGK_BRIGHTNESS_SET
 ---
 
 # DXGK_BRIGHTNESS_SET callback function
@@ -94,3 +94,4 @@ The monitor driver interprets brightness hot-key notifications from the Advanced
 
 
 <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_display_brightness">IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS</a>
+

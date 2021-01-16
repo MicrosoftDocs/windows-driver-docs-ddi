@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - CancelMappedTransfer
+ - PCANCEL_MAPPED_TRANSFER
 ---
 
 # PCANCEL_MAPPED_TRANSFER callback function
@@ -102,3 +102,4 @@ Regardless of whether a system DMA transfer is canceled or completed, the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_OPEN_PARAMETERS
+ - PNDIS_OPEN_PARAMETERS
  - NDIS_OPEN_PARAMETERS
 ---
 
@@ -136,3 +138,4 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+

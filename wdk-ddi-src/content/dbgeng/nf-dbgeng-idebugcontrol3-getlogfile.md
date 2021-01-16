@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetLogFile
- - IDebugControl2.GetLogFile
- - IDebugControl3.GetLogFile
+ - IDebugControl3::GetLogFile
 ---
 
 # IDebugControl3::GetLogFile
@@ -148,3 +146,4 @@ For more information about log files, see <a href="/windows-hardware/drivers/deb
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-openlogfile">OpenLogFile</a>
+

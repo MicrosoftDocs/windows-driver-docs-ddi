@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETPREFERREDOPERATORLISTPARAMS
+ - LPRILSETPREFERREDOPERATORLISTPARAMS
 ---
 
 # RILSETPREFERREDOPERATORLISTPARAMS structure (ntddrilapitypes.h)

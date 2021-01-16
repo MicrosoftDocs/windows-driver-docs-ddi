@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - checksumtypes
  - checksumtypes/checksumtypes
+api_name:
+ - checksumtypes
 ---
 
 # Checksumtypes.h header

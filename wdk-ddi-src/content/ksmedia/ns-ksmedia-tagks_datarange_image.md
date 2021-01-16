@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - tagKS_DATARANGE_IMAGE
+ - PKS_DATARANGE_IMAGE
  - KS_DATARANGE_IMAGE
 ---
 
@@ -80,3 +82,4 @@ A <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfohead
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

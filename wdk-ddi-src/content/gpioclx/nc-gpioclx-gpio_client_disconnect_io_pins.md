@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_DisconnectIoPins
+ - GPIO_CLIENT_DISCONNECT_IO_PINS
 ---
 
 # GPIO_CLIENT_DISCONNECT_IO_PINS callback function
@@ -113,3 +113,4 @@ The GPIO_CLIENT_DISCONNECT_IO_PINS function type is defined in the Gpioclx.h hea
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_disconnect_io_pins_parameters">GPIO_DISCONNECT_IO_PINS_PARAMETERS</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_KERNELOVERLAYINFO
  - D3DDDI_KERNELOVERLAYINFO
 ---
 
@@ -82,3 +83,4 @@ The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode o
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updateoverlaycb">pfnUpdateOverlayCb</a>
+

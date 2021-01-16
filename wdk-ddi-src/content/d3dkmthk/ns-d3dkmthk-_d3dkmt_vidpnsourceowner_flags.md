@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_VIDPNSOURCEOWNER_FLAGS
  - D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ---
 
@@ -70,3 +71,4 @@ Specifies the number of output duplication paths on the VidPN.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a>
+

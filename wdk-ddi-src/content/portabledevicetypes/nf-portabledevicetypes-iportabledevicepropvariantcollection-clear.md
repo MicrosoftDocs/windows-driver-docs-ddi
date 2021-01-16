@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDevicePropVariantCollection.Clear
+ - IPortableDevicePropVariantCollection::Clear
 ---
 
 # IPortableDevicePropVariantCollection::Clear
@@ -77,3 +77,4 @@ After calling <b>Clear</b> the collection is considered type-less, meaning that 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
+

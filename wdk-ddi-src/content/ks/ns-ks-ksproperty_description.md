@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_DESCRIPTION
  - KSPROPERTY_DESCRIPTION
 ---
 
@@ -96,3 +97,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-propertie
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
+

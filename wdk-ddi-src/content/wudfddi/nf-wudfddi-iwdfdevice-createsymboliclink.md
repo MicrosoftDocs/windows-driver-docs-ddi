@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.CreateSymbolicLink
+ - IWDFDevice::CreateSymbolicLink
 ---
 
 # IWDFDevice::CreateSymbolicLink
@@ -73,3 +73,4 @@ For an example usage of this method, see the <a href="https://go.microsoft.com/f
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createsymboliclinkwithreferencestring">IWDFDevice2::CreateSymbolicLinkWithReferenceString</a>
+

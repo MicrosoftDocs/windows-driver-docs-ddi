@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.CloseForQueryRemove
+ - IWDFRemoteTarget::CloseForQueryRemove
 ---
 
 # IWDFRemoteTarget::CloseForQueryRemove
@@ -93,7 +93,6 @@ CMyRemoteTarget::OnRemoteTargetQueryRemove(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
@@ -101,3 +100,4 @@ CMyRemoteTarget::OnRemoteTargetQueryRemove(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-close">IWDFRemoteTarget::Close</a>
+

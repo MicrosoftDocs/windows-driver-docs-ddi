@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlclient.h
 api_name:
+ - _DOT11_ADAPTER
+ - PDOT11_ADAPTER
  - DOT11_ADAPTER
 ---
 
@@ -103,3 +105,4 @@ The operating system calls the
 
 
 <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
+

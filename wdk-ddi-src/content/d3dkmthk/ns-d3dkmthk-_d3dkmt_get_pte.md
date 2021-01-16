@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_GET_PTE
+ - D3DKMT_GET_PTE
 dev_langs:
  - c++
 ---

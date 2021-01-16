@@ -31,6 +31,7 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_POWER_OPERATION_MODE
+ - UCSI_POWER_OPERATION_MODE
 ---
 
 # _UCSI_POWER_OPERATION_MODE enumeration

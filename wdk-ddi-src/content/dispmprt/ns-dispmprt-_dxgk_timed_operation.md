@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_TIMED_OPERATION
+ - PDXGK_TIMED_OPERATION
  - DXGK_TIMED_OPERATION
 ---
 
@@ -84,3 +86,4 @@ Display miniport drivers should not change of rely on members that are marked wi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>
+

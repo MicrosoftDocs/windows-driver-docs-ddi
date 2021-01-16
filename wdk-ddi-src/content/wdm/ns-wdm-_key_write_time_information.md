@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _KEY_WRITE_TIME_INFORMATION
+ - PKEY_WRITE_TIME_INFORMATION
  - KEY_WRITE_TIME_INFORMATION
 ---
 
@@ -60,3 +62,4 @@ Specifies the last time that the key was changed. This time value is expressed i
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_set_information_class">KEY_SET_INFORMATION_CLASS</a>
+

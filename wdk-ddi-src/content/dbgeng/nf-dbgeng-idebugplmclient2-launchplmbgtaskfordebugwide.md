@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
+ - IDebugPlmClient2::LaunchPlmBgTaskForDebugWide
 ---
 
 # IDebugPlmClient2::LaunchPlmBgTaskForDebugWide
@@ -86,3 +86,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient2">IDebugPlmClient2</a>
+

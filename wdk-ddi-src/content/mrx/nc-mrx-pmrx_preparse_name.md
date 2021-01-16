@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxPreparseName
+ - PMRX_PREPARSE_NAME
 ---
 
 # PMRX_PREPARSE_NAME callback function
@@ -98,3 +98,4 @@ RDBSS ignores the return value from <i>MRxPreparseName</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
+

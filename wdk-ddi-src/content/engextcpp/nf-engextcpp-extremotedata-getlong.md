@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.GetLong
+ - ExtRemoteData::GetLong
 ---
 
 # ExtRemoteData::GetLong
@@ -70,3 +70,4 @@ The size of the memory represented by this <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getulong">ExtRemoteData::GetUlong</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _SCO_DISCONNECT_REASON
+ - PSCO_DISCONNECT_REASON
  - SCO_DISCONNECT_REASON
 ---
 
@@ -95,3 +97,4 @@ Currently,
 
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
+

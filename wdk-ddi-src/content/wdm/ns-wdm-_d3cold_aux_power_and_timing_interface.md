@@ -35,6 +35,8 @@ api_location:
  - wdm.h
 api_name:
  - _D3COLD_AUX_POWER_AND_TIMING_INTERFACE
+ - PD3COLD_AUX_POWER_AND_TIMING_INTERFACE
+ - D3COLD_AUX_POWER_AND_TIMING_INTERFACE
 ---
 
 # _D3COLD_AUX_POWER_AND_TIMING_INTERFACE structure
@@ -97,3 +99,4 @@ All PCIe ports that support the [_DSM functions for Runtime Device Power Managem
 [_D3COLD_REQUEST_PERST_DELAY](nc-wdm-d3cold_request_perst_delay.md)
 
 [Identifying PCIe ports supporting D3_COLD_AUX_POWER ECN Interface](/windows-hardware/drivers/pci/dsd-for-pcie-root-ports#identifying-pcie-ports-supporting-d3_cold_aux_power-ecn-interface)
+

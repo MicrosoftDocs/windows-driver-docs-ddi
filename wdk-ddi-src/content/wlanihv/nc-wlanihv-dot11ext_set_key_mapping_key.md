@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetKeyMappingKey
+ - DOT11EXT_SET_KEY_MAPPING_KEY
 ---
 
 # DOT11EXT_SET_KEY_MAPPING_KEY callback
@@ -113,3 +113,4 @@ A call to the
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

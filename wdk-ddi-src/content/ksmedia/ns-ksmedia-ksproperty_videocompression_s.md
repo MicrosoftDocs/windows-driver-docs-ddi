@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOCOMPRESSION_S
  - KSPROPERTY_VIDEOCOMPRESSION_S
 ---
 
@@ -98,3 +99,4 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocompression">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
+

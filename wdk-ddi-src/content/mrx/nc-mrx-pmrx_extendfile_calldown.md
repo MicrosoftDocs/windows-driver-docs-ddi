@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxExtendForCache
+ - PMRX_EXTENDFILE_CALLDOWN
 ---
 
 # PMRX_EXTENDFILE_CALLDOWN callback function
@@ -138,3 +138,4 @@ A network mini-redirector that caches file or directory information may need to 
 
 
 <a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
+

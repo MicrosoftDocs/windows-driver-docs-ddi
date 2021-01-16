@@ -12,6 +12,8 @@ tech.root: stream
 f1_keywords:
  - avcstrm
  - avcstrm/avcstrm
+api_name:
+ - avcstrm
 ---
 
 # Avcstrm.h header

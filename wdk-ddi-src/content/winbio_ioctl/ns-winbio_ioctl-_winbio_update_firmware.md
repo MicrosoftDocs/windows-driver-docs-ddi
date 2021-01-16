@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_UPDATE_FIRMWARE
+ - PWINBIO_UPDATE_FIRMWARE
  - WINBIO_UPDATE_FIRMWARE
 ---
 
@@ -68,3 +70,4 @@ Specifies a structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioct
 
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_blank_payload">WINBIO_BLANK_PAYLOAD</a>
+

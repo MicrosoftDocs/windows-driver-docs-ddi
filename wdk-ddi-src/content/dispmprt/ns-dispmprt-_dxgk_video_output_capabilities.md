@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_VIDEO_OUTPUT_CAPABILITIES
+ - PDXGK_VIDEO_OUTPUT_CAPABILITIES
  - DXGK_VIDEO_OUTPUT_CAPABILITIES
 ---
 
@@ -82,3 +84,4 @@ The <b>ChildCapabilities</b> member of a <a href="/windows-hardware/drivers/ddi/
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
+

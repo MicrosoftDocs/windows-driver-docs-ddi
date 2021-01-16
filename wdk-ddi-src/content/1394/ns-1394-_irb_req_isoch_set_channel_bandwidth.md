@@ -39,6 +39,7 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
  - IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 ---
 

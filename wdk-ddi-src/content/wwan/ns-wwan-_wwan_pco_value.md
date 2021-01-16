@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PCO_VALUE
+ - PWWAN_PCO_VALUE
  - WWAN_PCO_VALUE
 ---
 
@@ -86,3 +88,4 @@ The following figure shows a full PCO structure as defined in the 3G TS24.008 sp
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pco_type">WWAN_PCO_TYPE</a>
+

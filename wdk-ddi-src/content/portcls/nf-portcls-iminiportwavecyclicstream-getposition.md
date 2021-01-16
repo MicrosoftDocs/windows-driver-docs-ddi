@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveCyclicStream.GetPosition
+ - IMiniportWaveCyclicStream::GetPosition
 ---
 
 # IMiniportWaveCyclicStream::GetPosition
@@ -97,3 +97,4 @@ The WaveCyclic port driver implements a property handler for <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
+

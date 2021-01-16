@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_RADIO
+ - PWWAN_RADIO
  - WWAN_RADIO
 ---
 
@@ -69,3 +71,4 @@ The radio power is turned on.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a>
+

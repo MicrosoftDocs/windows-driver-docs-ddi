@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwFsControlFile
- - NtFsControlFile
 ---
 
 # ZwFsControlFile function
@@ -209,3 +208,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
+

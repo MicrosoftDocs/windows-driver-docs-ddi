@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_LIST_ENTRY
+ - PSTOR_LIST_ENTRY
  - STOR_LIST_ENTRY
 ---
 
@@ -115,3 +117,4 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
+

@@ -33,6 +33,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_ADAPTER_PERFDATACAPS
+ - DXGK_ADAPTER_PERFDATACAPS
 product:
  - Windows
 ---

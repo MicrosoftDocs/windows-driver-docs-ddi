@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DMA_ADAPTER_INFO_V1
+ - PDMA_ADAPTER_INFO_V1
  - DMA_ADAPTER_INFO_V1
 ---
 
@@ -86,3 +88,4 @@ A driver calls <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_adapte
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_adapter_info">GetDmaAdapterInfo</a>
+

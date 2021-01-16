@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _ISCSI_RedirectSessionInfo
+ - PISCSI_RedirectSessionInfo
  - ISCSI_RedirectSessionInfo
 ---
 
@@ -76,3 +78,4 @@ This provides the redirection information, and it has as many entries as the num
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

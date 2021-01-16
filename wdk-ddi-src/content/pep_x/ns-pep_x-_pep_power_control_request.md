@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_POWER_CONTROL_REQUEST
+ - PPEP_POWER_CONTROL_REQUEST
  - PEP_POWER_CONTROL_REQUEST
 ---
 
@@ -104,3 +106,4 @@ The driver for a device can call the <a href="/windows-hardware/drivers/ddi/wdm/
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a>
+

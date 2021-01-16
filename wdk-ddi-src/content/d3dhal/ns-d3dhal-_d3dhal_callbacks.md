@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_CALLBACKS
+ - LPD3DHAL_CALLBACKS
  - D3DHAL_CALLBACKS
 ---
 
@@ -222,3 +224,4 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 
 <a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+

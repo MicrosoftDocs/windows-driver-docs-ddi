@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_FS_ATTRIBUTE_INFORMATION
+ - PFILE_FS_ATTRIBUTE_INFORMATION
  - FILE_FS_ATTRIBUTE_INFORMATION
 ---
 
@@ -124,3 +126,4 @@ This structure must be aligned on a **LONG** (4-byte) boundary.
 [IRP_MJ_QUERY_VOLUME_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
 [ZwQueryVolumeInformationFile](../ntddk/nf-ntddk-zwqueryvolumeinformationfile.md)
+

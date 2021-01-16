@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_PROCESSOR_IDENTIFICATION_ARM
+ - PDEBUG_PROCESSOR_IDENTIFICATION_ARM
  - DEBUG_PROCESSOR_IDENTIFICATION_ARM
 ---
 
@@ -68,3 +70,4 @@ A vendor specified string.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_all">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
+

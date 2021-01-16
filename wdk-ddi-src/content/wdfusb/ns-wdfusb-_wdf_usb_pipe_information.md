@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_PIPE_INFORMATION
+ - PWDF_USB_PIPE_INFORMATION
  - WDF_USB_PIPE_INFORMATION
 ---
 
@@ -118,3 +120,4 @@ For information on how to transfer data to and from supported isochronous endpoi
 
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetinformation">WdfUsbTargetPipeGetInformation</a>
+

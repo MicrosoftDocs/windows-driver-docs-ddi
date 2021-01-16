@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - GetBusData
+ - GET_SET_DEVICE_DATA
 ---
 
 # GET_SET_DEVICE_DATA callback function
@@ -164,3 +164,4 @@ In order to read PCI Configuration data for the VF at IRQL = DISPATCH_LEVEL, the
 
 
 <a href="/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetOutputMemory
+ - IWDFIoRequest::GetOutputMemory
 ---
 
 # IWDFIoRequest::GetOutputMemory
@@ -90,3 +90,4 @@ For a code example of how to use the <b>GetOutputMemory</b> method, see <a href=
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfmemory-getdatabuffer">IWDFMemory::GetDataBuffer</a>
+

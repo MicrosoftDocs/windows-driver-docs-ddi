@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - USBCAMD_SetVideoFormat
+ - PFNUSBCAMD_SetVideoFormat
 ---
 
 # PFNUSBCAMD_SetVideoFormat callback function
@@ -111,3 +111,4 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 
 <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
+

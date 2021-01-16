@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdpc.h
 api_name:
- - EvtDpcFunc
+ - EVT_WDF_DPC
 ---
 
 # EVT_WDF_DPC callback function
@@ -105,3 +105,4 @@ For more information about using <i>EvtDpcFunc</i> callback functions, see <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcwdmgetdpc">WdfDpcWdmGetDpc</a>
+

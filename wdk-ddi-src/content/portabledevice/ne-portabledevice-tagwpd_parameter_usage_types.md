@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_PARAMETER_USAGE_TYPES
  - WPD_PARAMETER_USAGE_TYPES
 ---
 

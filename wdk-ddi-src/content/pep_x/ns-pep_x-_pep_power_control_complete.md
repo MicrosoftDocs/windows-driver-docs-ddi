@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_POWER_CONTROL_COMPLETE
+ - PPEP_POWER_CONTROL_COMPLETE
  - PEP_POWER_CONTROL_COMPLETE
 ---
 
@@ -82,3 +84,4 @@ If the output buffer is too small to receive all of the result data from the ope
 ## -see-also
 
 GUID
+

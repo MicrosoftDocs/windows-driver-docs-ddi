@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaTicket.NotifyXmlChanged
+ - IPrintSchemaTicket::NotifyXmlChanged
 ---
 
 # IPrintSchemaTicket::NotifyXmlChanged
@@ -62,3 +62,4 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+

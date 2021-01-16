@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.GetPassCount
- - IDebugBreakpoint2.GetPassCount
+ - IDebugBreakpoint::GetPassCount
 ---
 
 # IDebugBreakpoint::GetPassCount
@@ -89,3 +88,4 @@ If the debugger executes the code at the breakpoint location while stepping thro
 The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the information that is returned in <i>Count</i>.
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

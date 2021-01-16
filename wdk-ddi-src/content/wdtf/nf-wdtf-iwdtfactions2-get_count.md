@@ -37,8 +37,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
- - IWDTFDeviceDepot2.Count
- - IWDTFDeviceDepot2.get_Count
+ - IWDTFActions2::get_Count
 ---
 
 # IWDTFActions2::get_Count

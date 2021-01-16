@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ObjectPreCallback
+ - POB_PRE_OPERATION_CALLBACK
 ---
 
 # POB_PRE_OPERATION_CALLBACK callback function
@@ -87,3 +87,4 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
+

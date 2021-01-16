@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCAPSLOCKINGPWDLENGTH
+ - LPRILCAPSLOCKINGPWDLENGTH
 ---
 
 # RILCAPSLOCKINGPWDLENGTH structure (rilapitypes.h)

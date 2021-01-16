@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdtf.h
 api_name:
+ - __MIDL___MIDL_itf_wdtf_0000_0001_0001
  - TTraceLevel
 ---
 
@@ -106,3 +107,4 @@ Use the <a href="/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a
 
 
 <a href="/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a>
+

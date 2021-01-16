@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6_
  - FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6
 ---
 
@@ -158,3 +159,4 @@ The ICMP code field, as specified in RFC 792.
 ## -see-also
 
 <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+

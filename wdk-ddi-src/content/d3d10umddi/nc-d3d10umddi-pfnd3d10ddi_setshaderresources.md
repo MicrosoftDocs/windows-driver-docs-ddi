@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CsSetShaderResources
+ - PFND3D10DDI_SETSHADERRESOURCES
 product:
  - Windows
 ---
@@ -92,3 +92,4 @@ The <b>GsSetShaderResources</b> function sets resources for a geometry shader.
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

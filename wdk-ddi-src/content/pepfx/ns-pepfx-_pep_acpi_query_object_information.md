@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_QUERY_OBJECT_INFORMATION
+ - PPEP_ACPI_QUERY_OBJECT_INFORMATION
  - PEP_ACPI_QUERY_OBJECT_INFORMATION
 ---
 
@@ -104,3 +106,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pe
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+

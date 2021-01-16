@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_SETPALETTE structure"]
 ms.keywords: DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, display.dxgkarg_setpalette
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _DXGKARG_SETPALETTE
  - DXGKARG_SETPALETTE
 ---
 
@@ -74,3 +75,4 @@ The DXGKARG_SETPALETTE structure describes the palette to set for a display.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpalette">DxgkDdiSetPalette</a>
+

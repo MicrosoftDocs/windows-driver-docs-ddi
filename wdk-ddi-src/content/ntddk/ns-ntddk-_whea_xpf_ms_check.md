@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_MS_CHECK
+ - PWHEA_XPF_MS_CHECK
  - WHEA_XPF_MS_CHECK
 ---
 
@@ -171,3 +173,4 @@ If the <b>CheckInfoId</b> member of a <a href="/windows-hardware/drivers/ddi/ntd
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a>
+

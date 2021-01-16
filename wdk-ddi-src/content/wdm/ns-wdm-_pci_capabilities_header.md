@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_CAPABILITIES_HEADER
+ - PPCI_CAPABILITIES_HEADER
  - PCI_CAPABILITIES_HEADER
 ---
 
@@ -263,3 +265,4 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse">PCI_PMCSR_BSE</a>
+

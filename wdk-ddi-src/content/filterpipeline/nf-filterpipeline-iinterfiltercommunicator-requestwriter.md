@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IInterFilterCommunicator.RequestWriter
+ - IInterFilterCommunicator::RequestWriter
 ---
 
 # IInterFilterCommunicator::RequestWriter
@@ -69,3 +69,4 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
 
 <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a>
+

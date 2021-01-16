@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILWRITEMSGPARAMS
+ - LPRILWRITEMSGPARAMS
 ---
 
 # RILWRITEMSGPARAMS structure (ntddrilapitypes.h)

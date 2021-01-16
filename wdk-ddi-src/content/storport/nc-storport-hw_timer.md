@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorTimer
+ - HW_TIMER
 ---
 
 # HW_TIMER callback function
@@ -101,3 +101,4 @@ The <b>HW_TIMER</b> function type is defined in the Storport.h header file. To m
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
+

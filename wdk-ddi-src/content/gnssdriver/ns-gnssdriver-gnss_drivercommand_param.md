@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_DRIVERCOMMAND_PARAM
  - GNSS_DRIVERCOMMAND_PARAM
 ---
 
@@ -99,3 +100,4 @@ The flags are defined by the GNSS_DRIVERCOMMAND_FLAG_* macro.
 #### - Unused[512]
 
 Padding buffer.
+

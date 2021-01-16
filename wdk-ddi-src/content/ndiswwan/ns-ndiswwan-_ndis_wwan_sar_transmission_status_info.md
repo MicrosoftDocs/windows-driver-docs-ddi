@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
+ - PNDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
+ - NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
 ---
 
 # _NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO structure
@@ -87,3 +89,4 @@ This structure is used in the [NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](/window
 [NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status)
 
 [**WWAN_SAR_TRANSMISSION_STATUS_INFO**](../wwan/ns-wwan-_wwan_sar_transmission_status_info.md)
+

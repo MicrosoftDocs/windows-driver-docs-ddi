@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiDestroyDevice
+ - DXGKDDI_DESTROYDEVICE
 product:
  - Windows
 ---
@@ -72,3 +72,4 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - fltkernel.h
 api_name:
- - CompleteLockCallbackDataRoutine
+ - PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE
 ---
 
 # PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE callback function
@@ -116,3 +116,4 @@ When completing the an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-contro
 
 
 <a href="/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>
+

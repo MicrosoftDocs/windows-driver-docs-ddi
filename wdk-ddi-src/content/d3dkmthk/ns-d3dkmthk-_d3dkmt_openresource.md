@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_OPENRESOURCE
  - D3DKMT_OPENRESOURCE
 ---
 
@@ -108,3 +109,4 @@ This member is available beginning with Windows 7.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenresource">D3DKMTOpenResource</a>
+

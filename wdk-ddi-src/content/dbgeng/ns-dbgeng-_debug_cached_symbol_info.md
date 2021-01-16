@@ -41,6 +41,8 @@ api_type:
 api_location:
  - DbgEng.h
 api_name:
+ - _DEBUG_CACHED_SYMBOL_INFO
+ - PDEBUG_CACHED_SYMBOL_INFO
  - DEBUG_CACHED_SYMBOL_INFO
 ---
 

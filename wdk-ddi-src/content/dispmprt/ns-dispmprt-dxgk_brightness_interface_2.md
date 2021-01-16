@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - PDXGK_BRIGHTNESS_INTERFACE_2
  - DXGK_BRIGHTNESS_INTERFACE_2
 ---
 
@@ -108,3 +109,4 @@ For more information on this interface, see <a href="/windows-hardware/drivers/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-dxgk_brightness_interface">DXGK_BRIGHTNESS_INTERFACE</a>
+

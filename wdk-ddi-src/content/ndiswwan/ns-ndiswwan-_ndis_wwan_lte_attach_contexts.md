@@ -36,6 +36,8 @@ api_location:
  - ndiswwan.h
 api_name:
  - _NDIS_WWAN_LTE_ATTACH_CONTEXTS
+ - PNDIS_WWAN_LTE_ATTACH_CONTEXTS
+ - NDIS_WWAN_LTE_ATTACH_CONTEXTS
 product:
  - Windows
 ---
@@ -92,3 +94,4 @@ This structure is used in the [NDIS_STATUS_WWAN_LTE_ATTACH_CONFIG](/windows-hard
 [**WWAN_LTE_ATTACH_CONFIG**](../wwan/ns-wwan-_wwan_lte_attach_config.md)
 
 [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md)
+

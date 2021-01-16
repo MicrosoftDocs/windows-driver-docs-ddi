@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wudfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_PRIORITY
+ - PWDF_INTERRUPT_PRIORITY
  - WDF_INTERRUPT_PRIORITY
 ---
 
@@ -79,3 +81,4 @@ The <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ne-wdfinterrupt-_wdf_int
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-setpolicy">IWDFInterrupt::SetPolicy</a>
+

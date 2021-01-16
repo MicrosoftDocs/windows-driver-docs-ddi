@@ -37,7 +37,7 @@ api_type:
 api_location:
  - usbcamdi.h
 api_name:
- - MyInitialize
+ - PCAM_INITIALIZE_ROUTINE
 ---
 
 # PCAM_INITIALIZE_ROUTINE callback function
@@ -80,3 +80,4 @@ Whereas the stream class driver automatically resets values associated with the 
 <b>CamUnInitialize</b> is called by both versions 1.0 and 2.0 of USBCAMD.
 
 This function is required.
+

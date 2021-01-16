@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCoreUI2.EnumFeatures
+ - IPrintCoreUI2::EnumFeatures
 ---
 
 # IPrintCoreUI2::EnumFeatures
@@ -154,3 +154,4 @@ For more information, see <a href="/windows-hardware/drivers/print/using-enumfea
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
+

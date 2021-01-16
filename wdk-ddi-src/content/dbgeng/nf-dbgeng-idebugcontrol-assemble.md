@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.Assemble
- - IDebugControl2.Assemble
- - IDebugControl3.Assemble
+ - IDebugControl::Assemble
 ---
 
 # IDebugControl::Assemble
@@ -119,3 +117,4 @@ For an overview of using assembly in debugger applications, see <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+

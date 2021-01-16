@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfinstaller
  - wdfinstaller/wdfinstaller
+api_name:
+ - wdfinstaller
 ---
 
 # Wdfinstaller.h header

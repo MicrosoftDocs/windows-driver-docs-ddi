@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ObReferenceObject
- - ObfReferenceObject
 ---
 
 # ObReferenceObject macro
@@ -84,3 +83,4 @@ When the reference count for an object reaches zero, a kernel-mode component can
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
+

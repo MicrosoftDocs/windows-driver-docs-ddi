@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - RequestWorker
+ - POFXCALLBACKREQUESTWORKER
 ---
 
 # POFXCALLBACKREQUESTWORKER callback function (pepfx.h)
@@ -69,3 +69,4 @@ A PEP can call this routine at IRQL <= DISPATCH_LEVEL.
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+

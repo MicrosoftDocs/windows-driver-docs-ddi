@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetDmaAdapterInfo
+ - PGET_DMA_ADAPTER_INFO
 ---
 
 # PGET_DMA_ADAPTER_INFO callback function
@@ -115,3 +115,4 @@ For information about the DMA adapter information that is provided by version 1 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_LB_PROVISIONING_DESCRIPTOR
+ - PDEVICE_LB_PROVISIONING_DESCRIPTOR
  - DEVICE_LB_PROVISIONING_DESCRIPTOR
 ---
 
@@ -240,3 +242,4 @@ If the underlying storage device is a SCSI device, unmapping capability can be q
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+

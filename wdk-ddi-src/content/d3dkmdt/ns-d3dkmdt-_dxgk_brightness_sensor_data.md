@@ -33,6 +33,7 @@ api_location:
  - d3dkmdt.h
 api_name:
  - _DXGK_BRIGHTNESS_SENSOR_DATA
+ - DXGK_BRIGHTNESS_SENSOR_DATA
 product:
  - Windows
 ---

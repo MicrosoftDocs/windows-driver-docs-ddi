@@ -30,6 +30,7 @@ api_type:
 api_location:
  - extension.h
 api_name:
+ - _NET_EXTENSION_TYPE
  - NET_EXTENSION_TYPE
 product:
  - Windows
@@ -65,3 +66,4 @@ Client drivers pass this enumeration as a value to [**NET_EXTENSION_QUERY_INIT**
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_RemoveTarget_IN
+ - PSM_RemoveTarget_IN
  - SM_RemoveTarget_IN
 ---
 

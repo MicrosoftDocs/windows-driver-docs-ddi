@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_MINIPORT_RESOURCES
+ - PIDE_MINIPORT_RESOURCES
  - IDE_MINIPORT_RESOURCES
 ---
 
@@ -73,3 +75,4 @@ The port driver passes this structure to the miniport driver's <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a>
+

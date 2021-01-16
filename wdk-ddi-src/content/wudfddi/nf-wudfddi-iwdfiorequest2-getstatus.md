@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.GetStatus
+ - IWDFIoRequest2::GetStatus
 ---
 
 # IWDFIoRequest2::GetStatus
@@ -98,7 +98,6 @@ if (SUCCEEDED(hrSend))
 ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a>
@@ -118,3 +117,4 @@ if (SUCCEEDED(hrSend))
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
+

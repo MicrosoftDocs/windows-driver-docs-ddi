@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiGetStandardAllocationDriverData
+ - DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ Beginning with Windows 7, if a display miniport driver processes a call to the <
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+

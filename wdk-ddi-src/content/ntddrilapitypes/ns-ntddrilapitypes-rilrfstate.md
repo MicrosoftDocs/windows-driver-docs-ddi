@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILRFSTATE
+ - LPRILRFSTATE
 ---
 
 # RILRFSTATE structure (ntddrilapitypes.h)

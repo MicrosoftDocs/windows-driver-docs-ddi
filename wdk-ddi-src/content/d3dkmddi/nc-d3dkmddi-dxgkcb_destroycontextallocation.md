@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkCbDestroyContextAllocation
+ - DXGKCB_DESTROYCONTEXTALLOCATION
 ---
 
 # DXGKCB_DESTROYCONTEXTALLOCATION callback function
@@ -74,3 +74,4 @@ After the display miniport driver calls <a href="/windows-hardware/drivers/ddi/d
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>
+

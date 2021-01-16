@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtSetProfileCustomUserData
+ - DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA
 ---
 
 # DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA callback
@@ -142,3 +142,4 @@ After custom user data has been set, this data can be accessed using the
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
    Dot11ExtGetProfileCustomUserData</a>
+

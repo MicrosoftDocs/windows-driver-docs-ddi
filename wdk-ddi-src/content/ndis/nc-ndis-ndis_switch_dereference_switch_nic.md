@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - DereferenceSwitchNic
+ - NDIS_SWITCH_DEREFERENCE_SWITCH_NIC
 ---
 
 # NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback function
@@ -91,3 +91,4 @@ The extension must call <i>DereferenceSwitchNic</i> if it had previously called 
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_reference_switch_nic">ReferenceSwitchNic</a>
+

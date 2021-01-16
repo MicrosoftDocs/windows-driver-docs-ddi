@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Sti.h
 api_name:
- - IStiDevice.Release
+ - IStiDevice::Release
 ---
 
 # IStiDevice::Release
@@ -50,3 +50,4 @@ The <b>IStiDevice::Release</b> method closes the instance of the COM object that
 ## -returns
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+

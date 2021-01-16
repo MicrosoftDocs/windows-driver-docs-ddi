@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolClAddPartyComplete
+ - PROTOCOL_CL_ADD_PARTY_COMPLETE
 ---
 
 # PROTOCOL_CL_ADD_PARTY_COMPLETE callback function
@@ -217,3 +217,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
+

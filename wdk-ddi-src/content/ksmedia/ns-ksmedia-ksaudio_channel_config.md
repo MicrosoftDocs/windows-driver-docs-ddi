@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_CHANNEL_CONFIG
  - KSAUDIO_CHANNEL_CONFIG
 ---
 
@@ -617,3 +618,4 @@ Side Right (8 MSBs)
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
+

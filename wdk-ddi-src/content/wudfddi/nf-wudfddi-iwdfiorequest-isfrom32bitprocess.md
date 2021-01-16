@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.IsFrom32BitProcess
+ - IWDFIoRequest::IsFrom32BitProcess
 ---
 
 # IWDFIoRequest::IsFrom32BitProcess
@@ -56,3 +56,4 @@ The <b>IsFrom32BitProcess</b> method determines whether a request originated fro
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+

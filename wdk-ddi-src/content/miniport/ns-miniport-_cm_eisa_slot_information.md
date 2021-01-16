@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CM_EISA_SLOT_INFORMATION
+ - PCM_EISA_SLOT_INFORMATION
  - CM_EISA_SLOT_INFORMATION
 ---
 
@@ -110,3 +112,4 @@ The driver of an EISA device might call <b>HalGetBusData</b> or <b>HalGetBusData
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
+

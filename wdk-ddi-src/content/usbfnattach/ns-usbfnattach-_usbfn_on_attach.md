@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbfnattach.h
 api_name:
+ - _USBFN_ON_ATTACH
+ - PUSBFN_ON_ATTACH
  - USBFN_ON_ATTACH
 ---
 
@@ -64,3 +66,4 @@ The operation that must be performed depending on the port type. This value is d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbfnattach/nc-usbfnattach-usbfn_get_attach_action">USBFN_GET_ATTACH_ACTION</a>
+

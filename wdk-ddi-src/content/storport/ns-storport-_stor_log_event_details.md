@@ -41,6 +41,8 @@ api_type:
 api_location:
  - storport.h
 api_name:
+ - _STOR_LOG_EVENT_DETAILS
+ - PSTOR_LOG_EVENT_DETAILS
  - STOR_LOG_EVENT_DETAILS
 ---
 
@@ -120,3 +122,4 @@ Although <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportlog
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportlogsystemevent">StorPortLogSystemEvent</a>
+

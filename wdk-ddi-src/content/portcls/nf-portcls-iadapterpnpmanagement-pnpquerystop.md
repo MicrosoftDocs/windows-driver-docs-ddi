@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IAdapterPnpManagement.PnpQueryStop
+ - IAdapterPnpManagement::PnpQueryStop
 product:
  - Windows
 ---
@@ -58,3 +58,4 @@ For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](/w
 ## -see-also
 
 [IAdapterPnpManagement](nn-portcls-iadapterpnpmanagement.md)
+

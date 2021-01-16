@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiRenderGdi
+ - DXGKDDI_RENDERGDI
 product:
  - Windows
 ---
@@ -69,3 +69,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_rendergdi">DXGKARG_RENDERGDI</a>
+

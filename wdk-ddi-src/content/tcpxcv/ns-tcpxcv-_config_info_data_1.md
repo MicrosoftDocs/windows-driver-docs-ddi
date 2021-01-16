@@ -41,6 +41,8 @@ api_type:
 api_location:
  - tcpxcv.h
 api_name:
+ - _CONFIG_INFO_DATA_1
+ - PCONFIG_INFO_DATA_1
  - CONFIG_INFO_DATA_1
 ---
 
@@ -74,3 +76,4 @@ See <a href="/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv In
 
 
 <a href="/previous-versions/ff564255(v=vs.85)">XcvData</a>
+

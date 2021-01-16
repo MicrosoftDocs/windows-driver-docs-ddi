@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendRPL_IN
+ - PSM_SendRPL_IN
  - SM_SendRPL_IN
 ---
 

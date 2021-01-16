@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IPortWMIRegistration.UnregisterWMIProvider
+ - IPortWMIRegistration::UnregisterWMIProvider
 ---
 
 # IPortWMIRegistration::UnregisterWMIProvider
@@ -62,3 +62,4 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwmiregistration">IPortWMIRegistration</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaFeature.SelectedOption
- - IPrintSchemaFeature.put_SelectedOption
+ - IPrintSchemaFeature::put_SelectedOption
 ---
 
 # IPrintSchemaFeature::put_SelectedOption
@@ -59,3 +58,4 @@ This property is write-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
+

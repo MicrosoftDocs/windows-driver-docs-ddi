@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_DEFECT_MANAGEMENT
+ - PFEATURE_DATA_DEFECT_MANAGEMENT
  - FEATURE_DATA_DEFECT_MANAGEMENT
 ---
 
@@ -80,3 +82,4 @@ This structure holds data for the feature named "Defect Management" by the <i>SC
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

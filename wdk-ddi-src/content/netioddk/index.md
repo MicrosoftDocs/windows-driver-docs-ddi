@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - netioddk
  - netioddk/netioddk
+api_name:
+ - netioddk
 ---
 
 # Netioddk.h header

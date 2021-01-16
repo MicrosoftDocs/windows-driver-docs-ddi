@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_REGISTRATION_STATE
+ - PWWAN_REGISTRATION_STATE
  - WWAN_REGISTRATION_STATE
 ---
 
@@ -250,3 +252,4 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>
+

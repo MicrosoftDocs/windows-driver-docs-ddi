@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_INFO_ARRAY
+ - PNDIS_NIC_SWITCH_INFO_ARRAY
  - NDIS_NIC_SWITCH_INFO_ARRAY
 ---
 
@@ -138,3 +140,4 @@ Each
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+

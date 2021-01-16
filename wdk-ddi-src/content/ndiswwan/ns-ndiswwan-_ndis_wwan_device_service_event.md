@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_EVENT
+ - PNDIS_WWAN_DEVICE_SERVICE_EVENT
  - NDIS_WWAN_DEVICE_SERVICE_EVENT
 ---
 
@@ -117,3 +119,4 @@ The information from the event.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_event">WWAN_DEVICE_SERVICE_EVENT</a>
+

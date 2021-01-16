@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tag_KS_TRUECOLORINFO
+ - PKS_TRUECOLORINFO
  - KS_TRUECOLORINFO
 ---
 
@@ -64,3 +66,4 @@ Array of palette colors.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_rgbquad">KS_RGBQUAD</a>
+

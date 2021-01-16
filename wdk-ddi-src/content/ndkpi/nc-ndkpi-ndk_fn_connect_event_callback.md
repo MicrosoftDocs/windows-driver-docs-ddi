@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkConnectEventCallback
+ - NDK_FN_CONNECT_EVENT_CALLBACK
 ---
 
 # NDK_FN_CONNECT_EVENT_CALLBACK callback function
@@ -72,3 +72,4 @@ The NDK consumer specified the <i>NdkConnectEventCallback</i> function  in the <
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener">NDK_FN_CREATE_LISTENER</a>
+

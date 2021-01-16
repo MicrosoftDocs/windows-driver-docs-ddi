@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ucxendpoint.h
 api_name:
+ - _UCX_ENDPOINT_CHARACTERISTIC
+ - PUCX_ENDPOINT_CHARACTERISTIC
  - UCX_ENDPOINT_CHARACTERISTIC
 ---
 
@@ -72,3 +74,4 @@ A <a href="/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_ucx_endpoin
 
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_ucx_endpoint_characteristic_priority">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
+

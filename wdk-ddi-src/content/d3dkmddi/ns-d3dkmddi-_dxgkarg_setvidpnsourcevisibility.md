@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETVIDPNSOURCEVISIBILITY
  - DXGKARG_SETVIDPNSOURCEVISIBILITY
 ---
 
@@ -64,3 +65,4 @@ If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSyn
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility">DxgkDdiSetVidPnSourceVisibility</a>
+

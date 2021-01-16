@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _GET_LOCAL_HOST_INFO3
+ - PGET_LOCAL_HOST_INFO3
  - GET_LOCAL_HOST_INFO3
 ---
 

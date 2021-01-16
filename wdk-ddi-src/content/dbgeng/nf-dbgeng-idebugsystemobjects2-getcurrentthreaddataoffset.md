@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentThreadDataOffset
- - IDebugSystemObjects2.GetCurrentThreadDataOffset
- - IDebugSystemObjects3.GetCurrentThreadDataOffset
- - IDebugSystemObjects4.GetCurrentThreadDataOffset
+ - IDebugSystemObjects2::GetCurrentThreadDataOffset
 ---
 
 # IDebugSystemObjects2::GetCurrentThreadDataOffset
@@ -88,3 +85,4 @@ In kernel-mode debugging, the location returned is of the KTHREAD structure of t
 <div class="alert"><b>Note</b>    In kernel mode debugging, the current thread is always a virtual thread the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> created for a processor in the target computer.  Because events may occur in different system threads, the KTHREAD location for a virtual thread may change.</div>
 <div> </div>
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on the KTHREAD and TEB structures, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SET_CONTEXT_STATE
+ - PWWAN_SET_CONTEXT_STATE
  - WWAN_SET_CONTEXT_STATE
 ---
 
@@ -232,3 +234,4 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_compression">WWAN_COMPRESSION</a>
+

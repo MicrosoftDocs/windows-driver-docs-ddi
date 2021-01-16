@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_OPM_INTERFACE
+ - PDXGK_OPM_INTERFACE
  - DXGK_OPM_INTERFACE
 ---
 
@@ -158,3 +160,4 @@ For more information on how to use this structure with the OPM interface, see <a
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
+

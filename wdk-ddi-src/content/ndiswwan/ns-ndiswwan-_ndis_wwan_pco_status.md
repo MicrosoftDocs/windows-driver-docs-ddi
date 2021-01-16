@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_PCO_STATUS
+ - PNDIS_WWAN_PCO_STATUS
  - NDIS_WWAN_PCO_STATUS
 ---
 
@@ -237,3 +239,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pco_value"
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KTMOBJECT_CURSOR
+ - PKTMOBJECT_CURSOR
  - KTMOBJECT_CURSOR
 ---
 
@@ -72,3 +74,4 @@ The <b>KTMOBJECT_CURSOR</b> structure is used at the beginning of buffers that c
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>
+

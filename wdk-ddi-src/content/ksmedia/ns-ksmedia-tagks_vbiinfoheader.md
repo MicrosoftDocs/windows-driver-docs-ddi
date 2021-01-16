@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - tagKS_VBIINFOHEADER
+ - PKS_VBIINFOHEADER
  - KS_VBIINFOHEADER
 ---
 
@@ -104,3 +106,4 @@ VBI streams are usually converted to NABTS, CC, and WST streams by downstream fi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
+

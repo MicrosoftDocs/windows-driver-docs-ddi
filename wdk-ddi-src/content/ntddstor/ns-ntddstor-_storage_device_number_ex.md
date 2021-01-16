@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_NUMBER_EX
+ - PSTORAGE_DEVICE_NUMBER_EX
  - STORAGE_DEVICE_NUMBER_EX
 ---
 
@@ -98,3 +100,4 @@ The values in the STORAGE_DEVICE_NUMBER_EX structure are guaranteed to remain un
 ## -see-also
 
 [IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](./ni-ntddstor-ioctl_storage_get_device_number_ex.md)
+

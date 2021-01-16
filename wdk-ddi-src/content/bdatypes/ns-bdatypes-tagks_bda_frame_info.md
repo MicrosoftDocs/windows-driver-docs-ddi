@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - tagKS_BDA_FRAME_INFO
+ - PKS_BDA_FRAME_INFO
  - KS_BDA_FRAME_INFO
 ---
 
@@ -80,3 +82,4 @@ Identifies the reason the packet was transferred.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
+

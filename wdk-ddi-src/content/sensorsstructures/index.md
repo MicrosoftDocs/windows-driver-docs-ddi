@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - sensorsstructures
  - sensorsstructures/sensorsstructures
+api_name:
+ - sensorsstructures
 ---
 
 # Sensorsstructures.h header

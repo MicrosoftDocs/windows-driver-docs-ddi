@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_RECOVERY_CONTEXT
+ - PWHEA_RECOVERY_CONTEXT
  - WHEA_RECOVERY_CONTEXT
 product:
  - Windows

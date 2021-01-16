@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_VALIDATESUBMITCOMMAND
+ - DXGKARG_VALIDATESUBMITCOMMAND
 dev_langs:
  - c++
 ---

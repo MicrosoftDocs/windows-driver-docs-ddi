@@ -39,10 +39,12 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_VALUES
  - KSPROPERTY_VALUES
 ---
 
 # KSPROPERTY_VALUES structure
+
 
 ## -description
 
@@ -97,3 +99,4 @@ For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-pr
 [KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md)
 
 [KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md)
+

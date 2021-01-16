@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugRegisters2.GetPseudoValues
+ - IDebugRegisters2::GetPseudoValues
 ---
 
 # IDebugRegisters2::GetPseudoValues
@@ -152,3 +152,4 @@ For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-i
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-setpseudovalues">SetPseudoValues</a>
+

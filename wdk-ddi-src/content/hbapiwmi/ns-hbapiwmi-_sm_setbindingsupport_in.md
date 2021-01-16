@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SetBindingSupport_IN
+ - PSM_SetBindingSupport_IN
  - SM_SetBindingSupport_IN
 ---
 

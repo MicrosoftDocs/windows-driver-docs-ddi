@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_LINK_INFORMATION
+ - PFILE_LINK_INFORMATION
  - FILE_LINK_INFORMATION
 dev_langs:
  - c++
@@ -149,3 +151,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+

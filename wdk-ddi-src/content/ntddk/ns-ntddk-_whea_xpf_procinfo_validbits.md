@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_XPF_PROCINFO_VALIDBITS
+ - PWHEA_XPF_PROCINFO_VALIDBITS
  - WHEA_XPF_PROCINFO_VALIDBITS
 ---
 
@@ -90,3 +92,4 @@ A WHEA_XPF_PROCINFO_VALIDBITS union is contained within the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a>
+

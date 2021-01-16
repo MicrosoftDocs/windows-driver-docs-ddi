@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sti.h
 api_name:
+ - _STI_DIAG
+ - LPSTI_DIAG
  - STI_DIAG
 ---
 
@@ -72,3 +74,4 @@ Reserved for future use.
 ### -field sErrorInfo
 
 Structure of type <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow">STI_ERROR_INFO</a>.
+

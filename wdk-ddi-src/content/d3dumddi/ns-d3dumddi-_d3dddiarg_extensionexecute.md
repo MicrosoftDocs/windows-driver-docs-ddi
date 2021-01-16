@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_EXTENSIONEXECUTE
  - D3DDDIARG_EXTENSIONEXECUTE
 ---
 
@@ -90,3 +91,4 @@ The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acc
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_extensionexecute">ExtensionExecute</a>
+

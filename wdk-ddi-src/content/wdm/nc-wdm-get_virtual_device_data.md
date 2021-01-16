@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetVirtualFunctionData
+ - GET_VIRTUAL_DEVICE_DATA
 ---
 
 # GET_VIRTUAL_DEVICE_DATA callback
@@ -123,3 +123,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">G
 
 
 <b></b>
+

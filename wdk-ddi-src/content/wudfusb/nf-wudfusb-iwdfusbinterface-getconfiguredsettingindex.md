@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbInterface.GetConfiguredSettingIndex
+ - IWDFUsbInterface::GetConfiguredSettingIndex
 ---
 
 # IWDFUsbInterface::GetConfiguredSettingIndex
@@ -68,3 +68,4 @@ The <b>GetConfiguredSettingIndex</b> method is provided for convenience because 
 
 
 <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>
+

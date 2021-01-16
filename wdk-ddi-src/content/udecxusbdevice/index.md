@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - udecxusbdevice
  - udecxusbdevice/udecxusbdevice
+api_name:
+ - udecxusbdevice
 ---
 
 # Udecxusbdevice.h header

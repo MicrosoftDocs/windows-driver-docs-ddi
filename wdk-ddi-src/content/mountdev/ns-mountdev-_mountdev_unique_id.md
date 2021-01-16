@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountdev.h
 api_name:
+ - _MOUNTDEV_UNIQUE_ID
+ - PMOUNTDEV_UNIQUE_ID
  - MOUNTDEV_UNIQUE_ID
 ---
 
@@ -70,3 +72,4 @@ As a best practice, the implementer must not thread synchronize and must not mak
 ## -see-also
 
 [IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY](ni-mountdev-ioctl_mountdev_query_unique_id.md)
+

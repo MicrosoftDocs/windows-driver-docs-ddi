@@ -37,7 +37,7 @@ api_type:
 api_location:
  - irb.h
 api_name:
- - IdeHwControl
+ - IDE_HW_CONTROL
 ---
 
 # IDE_HW_CONTROL callback function
@@ -135,3 +135,4 @@ After vendor-defined power management is registered, the miniport driver will be
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetuncachedextension">AtaPortGetUncachedExtension</a>
+

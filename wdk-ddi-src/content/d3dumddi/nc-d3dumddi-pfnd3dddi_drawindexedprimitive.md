@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - DrawIndexedPrimitive
+ - PFND3DDDI_DRAWINDEXEDPRIMITIVE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dd
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_drawindexedprimitive2">DrawIndexedPrimitive2</a>
+

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLMODIFICATIONCAUSECODE
+ - LPRILCALLMODIFICATIONCAUSECODE
 ---
 
 # RILCALLMODIFICATIONCAUSECODE enumeration (rilapitypes.h)

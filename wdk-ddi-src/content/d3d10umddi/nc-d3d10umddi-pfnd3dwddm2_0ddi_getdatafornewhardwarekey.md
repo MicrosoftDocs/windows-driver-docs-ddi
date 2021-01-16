@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetDataForNewHardwareKey
+ - PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY
 product:
  - Windows
 ---
@@ -87,3 +87,4 @@ Returns one of the following values:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
+

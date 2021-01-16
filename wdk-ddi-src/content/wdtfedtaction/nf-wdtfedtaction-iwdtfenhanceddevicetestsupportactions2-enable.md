@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfedtaction.h
 api_name:
- - IWDTFEnhancedDeviceTestSupportActions2.Enable
+ - IWDTFEnhancedDeviceTestSupportActions2::Enable
 ---
 
 # IWDTFEnhancedDeviceTestSupportActions2::Enable

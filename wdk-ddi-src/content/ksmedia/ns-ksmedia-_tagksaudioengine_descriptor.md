@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _tagKSAUDIOENGINE_DESCRIPTOR
+ - PKSAUDIOENGINE_DESCRIPTOR
  - KSAUDIOENGINE_DESCRIPTOR
 ---
 
@@ -72,3 +74,4 @@ Specifies the ID of the pin factory that is connected to the audio engine node t
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audioengine-descriptor">KSPROPERTY_AUDIOENGINE_DESCRIPTOR</a>
+

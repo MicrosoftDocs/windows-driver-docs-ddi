@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_5G_FREQUENCY_RANGE
+ - PWWAN_5G_FREQUENCY_RANGE
+ - WWAN_5G_FREQUENCY_RANGE
 ---
 
 # _WWAN_5G_FREQUENCY_RANGE enumeration
@@ -71,3 +73,4 @@ This enumeration is used in the [**WWAN_PACKET_SERVICE**](ns-wwan-_wwan_packet_s
 [OID_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/oid-wwan-packet-service)
 
 [**WWAN_PACKET_SERVICE*](ns-wwan-_wwan_packet_service.md)
+

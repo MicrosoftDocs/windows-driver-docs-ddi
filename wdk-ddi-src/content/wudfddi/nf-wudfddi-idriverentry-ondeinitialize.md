@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IDriverEntry.OnDeinitialize
+ - IDriverEntry::OnDeinitialize
 ---
 
 # IDriverEntry::OnDeinitialize
@@ -67,3 +67,4 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a>
+

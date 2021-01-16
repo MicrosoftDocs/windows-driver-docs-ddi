@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddpar.h
 api_name:
+ - _PAR_DEVICE_ID_SIZE_INFORMATION
+ - PPAR_DEVICE_ID_SIZE_INFORMATION
  - PAR_DEVICE_ID_SIZE_INFORMATION
 ---
 

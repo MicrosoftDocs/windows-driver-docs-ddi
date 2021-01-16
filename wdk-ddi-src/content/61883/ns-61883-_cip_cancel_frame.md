@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _CIP_CANCEL_FRAME
+ - PCIP_CANCEL_FRAME
  - CIP_CANCEL_FRAME
 ---
 
@@ -64,3 +66,4 @@ Pointer to a <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_cip_frame">C
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

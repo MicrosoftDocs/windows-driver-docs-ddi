@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TUNER_INPUT_S
  - KSPROPERTY_TUNER_INPUT_S
 ---
 
@@ -70,3 +71,4 @@ Specifies the connection index to be used as the tuner input. This value should 
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
+

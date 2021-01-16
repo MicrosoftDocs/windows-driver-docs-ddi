@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.GetPnpState
+ - IWDFDevice::GetPnpState
 ---
 
 # IWDFDevice::GetPnpState
@@ -111,3 +111,4 @@ The PnP property is turned on.
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>
+

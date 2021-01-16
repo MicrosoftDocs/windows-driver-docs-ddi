@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_TASK_FILE
+ - PIDE_TASK_FILE
  - IDE_TASK_FILE
 ---
 
@@ -65,3 +67,4 @@ Contains a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a>
+

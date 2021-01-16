@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.Output
- - IDebugControl2.Output
- - IDebugControl3.Output
+ - IDebugControl2::Output
 ---
 
 # IDebugControl2::Output
@@ -293,3 +291,4 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
+

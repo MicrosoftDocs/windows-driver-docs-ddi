@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.SetOtherOutputMask
- - IDebugClient2.SetOtherOutputMask
- - IDebugClient3.SetOtherOutputMask
- - IDebugClient4.SetOtherOutputMask
- - IDebugClient5.SetOtherOutputMask
+ - IDebugClient4::SetOtherOutputMask
 ---
 
 # IDebugClient4::SetOtherOutputMask
@@ -116,3 +112,4 @@ For an overview of output in the debugger engine, see <a href="/windows-hardware
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setoutputmask">SetOutputMask</a>
+

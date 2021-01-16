@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_RESET_STATUS
+ - PNDIS_WWAN_DEVICE_RESET_STATUS
  - NDIS_WWAN_DEVICE_RESET_STATUS
 ---
 
@@ -171,3 +173,4 @@ The operation failed because the device does not support this OID.
 
 
 <a href="/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
+

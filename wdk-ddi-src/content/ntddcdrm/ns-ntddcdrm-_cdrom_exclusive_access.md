@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_EXCLUSIVE_ACCESS
+ - PCDROM_EXCLUSIVE_ACCESS
  - CDROM_EXCLUSIVE_ACCESS
 ---
 
@@ -124,3 +126,4 @@ Prevents the sending of a media removal notification and a media arrival notific
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+

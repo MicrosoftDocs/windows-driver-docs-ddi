@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetFieldTypeAndOffsetWide
+ - IDebugSymbols3::GetFieldTypeAndOffsetWide
 ---
 
 # IDebugSymbols3::GetFieldTypeAndOffsetWide
@@ -124,3 +124,4 @@ For more information about types, see <a href="/windows-hardware/drivers/debugge
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

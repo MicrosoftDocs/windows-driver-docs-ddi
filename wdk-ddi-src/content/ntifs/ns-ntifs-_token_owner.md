@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_OWNER
+ - PTOKEN_OWNER
  - TOKEN_OWNER
 ---
 
@@ -84,3 +86,4 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 
 <a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+ - PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
  - NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
 ---
 
@@ -105,3 +107,4 @@ A ULONG value that specifies the offset, in units of bytes, from the beginning o
 
 
 <a href="/windows-hardware/drivers/network/oid-sriov-read-vf-config-space">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
+

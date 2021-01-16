@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionEventArgs.DetailedReasonId
- - IPrinterExtensionEventArgs.get_DetailedReasonId
+ - IPrinterExtensionEventArgs::get_DetailedReasonId
 ---
 
 # IPrinterExtensionEventArgs::get_DetailedReasonId
@@ -63,3 +62,4 @@ The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86ED
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>
+

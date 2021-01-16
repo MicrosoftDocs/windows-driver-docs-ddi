@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLFS_MGMT_POLICY
+ - PCLFS_MGMT_POLICY
  - CLFS_MGMT_POLICY
 ---
 
@@ -194,3 +196,4 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtremovepolicy">ClfsMgmtRemovePolicy</a>
+

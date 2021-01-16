@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - PWMIREGINFOW
  - WMIREGINFOW
 ---
 
@@ -98,3 +99,4 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a>
+

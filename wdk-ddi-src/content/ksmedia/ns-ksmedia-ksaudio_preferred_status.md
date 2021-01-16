@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSAUDIO_PREFERRED_STATUS
  - KSAUDIO_PREFERRED_STATUS
 ---
 
@@ -140,3 +141,4 @@ For information about the preferred device, see <a href="/windows-hardware/drive
 
 
 <a href="/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>
+

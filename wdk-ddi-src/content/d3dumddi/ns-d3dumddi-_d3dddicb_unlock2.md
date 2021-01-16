@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_UNLOCK2
  - D3DDDICB_UNLOCK2
 ---
 

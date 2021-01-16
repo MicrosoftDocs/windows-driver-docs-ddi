@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_BASE_STATIONS_INFO_REQ
+ - PWWAN_BASE_STATIONS_INFO_REQ
  - WWAN_BASE_STATIONS_INFO_REQ
 ---
 
@@ -100,3 +102,4 @@ The maximum number of entries of CDMA cells returned in the CDMA measured result
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_umts_mrl">WWAN_UMTS_MRL</a>
+

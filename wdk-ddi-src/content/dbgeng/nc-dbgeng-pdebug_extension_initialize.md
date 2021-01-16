@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - DebugExtensionInitialize
+ - PDEBUG_EXTENSION_INITIALIZE
 ---
 
 # PDEBUG_EXTENSION_INITIALIZE callback function
@@ -50,7 +50,6 @@ The <b>DebugExtensionInitialize</b> callback function is called by the engine af
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
 ```
-
 
 ## -parameters
 
@@ -115,3 +114,4 @@ There may or may not be a session active when this function is called, so the ex
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_known_struct">KnownStructOutput</a>
+

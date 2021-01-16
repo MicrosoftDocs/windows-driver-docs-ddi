@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_USSD_REQUEST
+ - PNDIS_WWAN_USSD_REQUEST
  - NDIS_WWAN_USSD_REQUEST
 ---
 
@@ -110,3 +112,4 @@ A formatted
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_request">WWAN_USSD_REQUEST</a>
+

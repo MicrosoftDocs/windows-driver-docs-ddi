@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_HW_FIRMWARE_INFO_QUERY
+ - PSTORAGE_HW_FIRMWARE_INFO_QUERY
  - STORAGE_HW_FIRMWARE_INFO_QUERY
 ---
 

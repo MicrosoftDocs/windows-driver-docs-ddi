@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
  - DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
 ---
 
@@ -84,3 +85,4 @@ The alpha value of the background color is used when the DXVAHDDDI_ALPHA_FILL_MO
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate">SetVideoProcessBltState</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Spbcx.h
 api_name:
- - EvtSpbControllerIoWrite
+ - EVT_SPB_CONTROLLER_WRITE
 ---
 
 # EVT_SPB_CONTROLLER_WRITE callback function
@@ -143,3 +143,4 @@ The EVT_SPB_CONTROLLER_WRITE function type is defined in the Spbcx.h header file
 
 
 <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
+

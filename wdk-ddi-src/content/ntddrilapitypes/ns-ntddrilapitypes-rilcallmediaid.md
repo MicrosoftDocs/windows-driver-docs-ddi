@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLMEDIAID
+ - LPRILCALLMEDIAID
 ---
 
 # RILCALLMEDIAID structure (ntddrilapitypes.h)

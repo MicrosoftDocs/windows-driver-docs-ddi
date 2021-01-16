@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - hbapiwmi
  - hbapiwmi/hbapiwmi
+api_name:
+ - hbapiwmi
 ---
 
 # Hbapiwmi.h header

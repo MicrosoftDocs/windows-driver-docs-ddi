@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PREPARE_DEVICE
+ - PPEP_PREPARE_DEVICE
  - PEP_PREPARE_DEVICE
 ---
 
@@ -72,3 +74,4 @@ This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pe
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

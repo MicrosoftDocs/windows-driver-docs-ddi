@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATELIGHT
  - D3DDDIARG_CREATELIGHT
 ---
 
@@ -58,3 +59,4 @@ The D3DDDIARG_CREATELIGHT structure contains the index into the light array.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createlight">CreateLight</a>
+

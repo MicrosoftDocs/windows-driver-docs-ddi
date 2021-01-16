@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthhfpddi.h
 api_name:
+ - _BTHHFP_AUDIO_DEVICE_CAPABILTIES
+ - PBTHHFP_AUDIO_DEVICE_CAPABILTIES
  - BTHHFP_AUDIO_DEVICE_CAPABILTIES
 ---
 

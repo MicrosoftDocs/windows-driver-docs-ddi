@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _EXTPUSH
+ - PEXTPUSH
  - EXTPUSH
 ---
 
@@ -198,3 +200,4 @@ If you do not need CPSUI to display a dialog box when the user clicks on the but
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_extchkbox">EXTCHKBOX</a>
+

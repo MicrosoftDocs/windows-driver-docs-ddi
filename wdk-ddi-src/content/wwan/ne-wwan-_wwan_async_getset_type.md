@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_ASYNC_GETSET_TYPE
+ - PWWAN_ASYNC_GETSET_TYPE
  - WWAN_ASYNC_GETSET_TYPE
 ---
 
@@ -373,3 +375,4 @@ The maximum number of entries in the **WWAN_ASYNC_GETSET_TYPE** enumeration.
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/mb-data-model">MB Data Model</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.CreateDeviceInterface
+ - IWDFDevice::CreateDeviceInterface
 ---
 
 # IWDFDevice::CreateDeviceInterface
@@ -97,7 +97,6 @@ The following code example shows how to create a device interface instance. In t
     }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
@@ -105,3 +104,4 @@ The following code example shows how to create a device interface instance. In t
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-assigndeviceinterfacestate">IWDFDevice::AssignDeviceInterfaceState</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpReserveVirtual
+ - PAGP_RESERVE_VIRTUAL
 ---
 
 # PAGP_RESERVE_VIRTUAL callback function
@@ -100,3 +100,4 @@ The miniport driver should call <a href="/windows-hardware/drivers/ddi/videoagp/
 
 
 <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
+

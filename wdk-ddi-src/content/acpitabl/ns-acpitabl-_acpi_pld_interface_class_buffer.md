@@ -35,9 +35,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_INTERFACE_CLASS_BUFFER
+ - PACPI_PLD_INTERFACE_CLASS_BUFFER
+ - ACPI_PLD_INTERFACE_CLASS_BUFFER
 ---
 
 # _ACPI_PLD_INTERFACE_CLASS_BUFFER structure
+
 
 ## -description
 
@@ -59,3 +62,4 @@ DEFINE_GUID(ACPI_PLD_INTERFACE_CLASS_BUFFER_GUID,
 ```
 
 ## -see-also
+

@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - OnClientSubscribeToEvents
+ - ISensorDriver::OnClientSubscribeToEvents
 ---
 
 # ISensorDriver::OnClientSubscribeToEvents
@@ -75,3 +75,4 @@ For more information about how to use this method, see <a href="/windows-hardwar
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+

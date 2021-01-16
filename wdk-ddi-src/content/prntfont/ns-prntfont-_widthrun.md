@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _WIDTHRUN
+ - PWIDTHRUN
  - WIDTHRUN
 ---
 
@@ -106,3 +108,4 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a>
+

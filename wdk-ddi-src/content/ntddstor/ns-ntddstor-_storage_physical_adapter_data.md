@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddstor.h
 api_name:
+ - _STORAGE_PHYSICAL_ADAPTER_DATA
+ - PSTORAGE_PHYSICAL_ADAPTER_DATA
  - STORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
@@ -121,3 +123,4 @@ Specifies if the storage adapter is reserved.
 #### - Vendor[8]
 
 The vendor name of the storage adapter.
+

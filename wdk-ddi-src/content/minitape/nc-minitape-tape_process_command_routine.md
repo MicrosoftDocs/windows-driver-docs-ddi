@@ -37,7 +37,7 @@ api_type:
 api_location:
  - minitape.h
 api_name:
- - (*TAPE_PROCESS_COMMAND_ROUTINE)
+ - TAPE_PROCESS_COMMAND_ROUTINE
 ---
 
 # TAPE_PROCESS_COMMAND_ROUTINE callback function
@@ -294,3 +294,4 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclasszeromemory">TapeClassZeroMemory</a>
+

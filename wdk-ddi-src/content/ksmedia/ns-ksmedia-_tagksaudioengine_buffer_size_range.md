@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE
+ - PKSAUDIOENGINE_BUFFER_SIZE_RANGE
  - KSAUDIOENGINE_BUFFER_SIZE_RANGE
 ---
 
@@ -76,3 +78,4 @@ The audio stack uses the information about the buffer size limits to determine t
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audioengine-buffer-size-limits">KSPROPERTY_AUDIOENGINE_BUFFER_SIZE_RANGE</a>
+

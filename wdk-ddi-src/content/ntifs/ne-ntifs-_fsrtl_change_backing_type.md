@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSRTL_CHANGE_BACKING_TYPE
+ - PFSRTL_CHANGE_BACKING_TYPE
  - FSRTL_CHANGE_BACKING_TYPE
 ---
 
@@ -68,3 +70,4 @@ The shared cache map of the cache manager.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlchangebackingfileobject">FsRtlChangeBackingFileObject</a>
+

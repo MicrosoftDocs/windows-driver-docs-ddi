@@ -30,6 +30,7 @@ api_type:
 api_location:
  - ntpoapi.h
 api_name:
+ - PPO_INTERNAL_WAKE_SOURCE_TYPE
  - PO_INTERNAL_WAKE_SOURCE_TYPE
 product:
  - Windows

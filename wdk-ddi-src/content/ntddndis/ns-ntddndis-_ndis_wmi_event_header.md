@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_WMI_EVENT_HEADER
+ - PNDIS_WMI_EVENT_HEADER
  - NDIS_WMI_EVENT_HEADER
 ---
 
@@ -118,3 +120,4 @@ WMI GUID event indications that are specific to NDIS 6.0 and later versions incl
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+

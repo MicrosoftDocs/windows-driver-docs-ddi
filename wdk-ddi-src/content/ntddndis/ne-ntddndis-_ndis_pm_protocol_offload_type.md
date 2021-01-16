@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_PM_PROTOCOL_OFFLOAD_TYPE
+ - PNDIS_PM_PROTOCOL_OFFLOAD_TYPE
  - NDIS_PM_PROTOCOL_OFFLOAD_TYPE
 ---
 
@@ -92,3 +94,4 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a>
+

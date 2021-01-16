@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_RESTART_ATTRIBUTES
+ - PNDIS_RESTART_ATTRIBUTES
  - NDIS_RESTART_ATTRIBUTES
 ---
 
@@ -167,3 +169,4 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
+

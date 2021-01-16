@@ -37,7 +37,7 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorSetDataInterval
+ - EVT_SENSOR_DRIVER_SET_DATA_INTERVAL
 ---
 
 # EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback function

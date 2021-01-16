@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_COMMAND
+ - PWWAN_DEVICE_SERVICE_COMMAND
  - WWAN_DEVICE_SERVICE_COMMAND
 ---
 
@@ -72,3 +74,4 @@ Device service command OIDs use this structure.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+

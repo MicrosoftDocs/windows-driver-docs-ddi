@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_CQ_DISPATCH
  - NDK_CQ_DISPATCH
 ---
 
@@ -112,3 +113,4 @@ The <b>NDK_CQ_DISPATCH</b> structure is used in the <a href="/windows-hardware/d
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_resize_cq">NDK_FN_RESIZE_CQ</a>
+

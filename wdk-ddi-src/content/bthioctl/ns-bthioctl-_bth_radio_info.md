@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bthioctl.h
 api_name:
+ - _BTH_RADIO_INFO
+ - PBTH_RADIO_INFO
  - BTH_RADIO_INFO
 ---
 
@@ -84,3 +86,4 @@ The BTH_RADIO_INFO structure is returned as part of the output buffer of
 
 
 <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>
+

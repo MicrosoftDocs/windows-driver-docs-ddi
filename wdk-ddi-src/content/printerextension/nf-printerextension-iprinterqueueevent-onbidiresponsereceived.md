@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueueEvent.OnBidiResponseReceived
+ - IPrinterQueueEvent::OnBidiResponseReceived
 ---
 
 # IPrinterQueueEvent::OnBidiResponseReceived
@@ -82,3 +82,4 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent">IPrinterQueueEvent</a>
+

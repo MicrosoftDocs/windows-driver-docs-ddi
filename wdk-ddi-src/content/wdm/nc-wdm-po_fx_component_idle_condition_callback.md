@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - ComponentIdleConditionCallback
+ - PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK
 ---
 
 # PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK callback function
@@ -105,3 +105,4 @@ The PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK function type is defined in the Wdm.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a>
+

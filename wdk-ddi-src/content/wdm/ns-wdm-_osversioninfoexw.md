@@ -41,7 +41,9 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - RTL_OSVERSIONINFOEXW
+ - _OSVERSIONINFOEXW
+ - POSVERSIONINFOEXW
+ - OSVERSIONINFOEXW
 ---
 
 # _OSVERSIONINFOEXW structure
@@ -322,3 +324,4 @@ The following table summarizes the version information that is returned by suppo
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a>
+

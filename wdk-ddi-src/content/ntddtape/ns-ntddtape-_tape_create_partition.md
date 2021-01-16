@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddtape.h
 api_name:
+ - _TAPE_CREATE_PARTITION
+ - PTAPE_CREATE_PARTITION
  - TAPE_CREATE_PARTITION
 ---
 
@@ -109,3 +111,4 @@ Indicates the size of each partition, in bytes.
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniCreatePartition</a>
+

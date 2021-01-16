@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetThreadIdByTeb
- - IDebugSystemObjects2.GetThreadIdByTeb
- - IDebugSystemObjects3.GetThreadIdByTeb
- - IDebugSystemObjects4.GetThreadIdByTeb
+ - IDebugSystemObjects3::GetThreadIdByTeb
 ---
 
 # IDebugSystemObjects3::GetThreadIdByTeb
@@ -89,3 +86,4 @@ The method was successful.
 In kernel-mode debugging, this method returns the engine thread ID for the virtual thread representing the processor on which the specified thread is executing.  If the thread is not executing on a processor, this method will fail.
 
 For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

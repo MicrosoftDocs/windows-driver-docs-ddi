@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11EXT_APIS
+ - PDOT11EXT_APIS
  - DOT11EXT_APIS
 ---
 
@@ -331,3 +333,4 @@ All of the function pointers are required and will not be set to <b>NULL</b>.
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">Dot11ExtSendNotification</a>
+

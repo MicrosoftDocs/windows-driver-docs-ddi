@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_OUTPUT_RATE
  - DXVAHDDDI_OUTPUT_RATE
 ---
 
@@ -78,3 +79,4 @@ For more information about output rate, see <a href="/windows-hardware/drivers/d
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
+

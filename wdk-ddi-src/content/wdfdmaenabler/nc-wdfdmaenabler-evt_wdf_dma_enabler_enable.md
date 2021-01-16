@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaEnabler.h
 api_name:
- - EvtDmaEnablerEnable
+ - EVT_WDF_DMA_ENABLER_ENABLE
 ---
 
 # EVT_WDF_DMA_ENABLER_ENABLE callback function
@@ -79,3 +79,4 @@ The <i>EvtDmaEnablerEnable</i> callback function is called at IRQL = PASSIVE_LEV
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
+

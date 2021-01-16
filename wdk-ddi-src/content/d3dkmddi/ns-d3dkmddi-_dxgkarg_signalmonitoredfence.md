@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARG_SIGNALMONITOREDFENCE
+ - DXGKARG_SIGNALMONITOREDFENCE
 dev_langs:
  - c++
 ---

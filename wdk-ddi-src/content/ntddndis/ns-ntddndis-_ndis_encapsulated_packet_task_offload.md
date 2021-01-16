@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
+ - PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
  - NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
 ---
 
@@ -163,3 +165,4 @@ It is possible for a protocol driver to offload "mixed mode" packets which means
 
 
 <a href="/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+

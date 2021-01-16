@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_PHYSICALADAPTERCAPS
  - DXGK_PHYSICALADAPTERCAPS
 ---
 
@@ -75,3 +76,4 @@ Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::Devic
 ### -field VPRPagingNode
 
 Index of the node to be used for move paging in  the VPR.
+

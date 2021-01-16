@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
+ - _D3DKMT_REGISTERTRIMNOTIFICATION
  - D3DKMT_REGISTERTRIMNOTIFICATION
 ---
 
@@ -78,3 +79,4 @@ api_name:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>
+

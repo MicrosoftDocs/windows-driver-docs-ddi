@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_QUERY_SOC_SUBSYSTEM
+ - PPEP_QUERY_SOC_SUBSYSTEM
  - PEP_QUERY_SOC_SUBSYSTEM
 ---
 
@@ -124,3 +126,4 @@ This member is reserved and should be set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a>
+

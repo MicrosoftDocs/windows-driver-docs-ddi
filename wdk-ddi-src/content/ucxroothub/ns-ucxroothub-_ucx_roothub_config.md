@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxroothub.h
 api_name:
+ - _UCX_ROOTHUB_CONFIG
+ - PUCX_ROOTHUB_CONFIG
  - UCX_ROOTHUB_CONFIG
 ---
 
@@ -112,3 +114,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub
 ### -field WdfRequestAttributes
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies initialization parameters.
+

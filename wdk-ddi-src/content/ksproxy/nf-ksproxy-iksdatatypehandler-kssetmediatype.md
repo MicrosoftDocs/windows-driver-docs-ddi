@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsDataTypeHandler.KsSetMediaType
+ - IKsDataTypeHandler::KsSetMediaType
 ---
 
 # IKsDataTypeHandler::KsSetMediaType
@@ -68,3 +68,4 @@ For more information about <b>CMediaType</b> class, see the Microsoft Windows SD
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a>
+

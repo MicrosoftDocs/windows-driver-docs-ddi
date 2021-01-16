@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _MPIO_PASS_THROUGH_PATH_DIRECT
+ - PMPIO_PASS_THROUGH_PATH_DIRECT
  - MPIO_PASS_THROUGH_PATH_DIRECT
 ---
 
@@ -108,3 +110,4 @@ The <b>MPIO_PASS_THROUGH_PATH_DIRECT</b> structure is used for a single-buffered
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
+

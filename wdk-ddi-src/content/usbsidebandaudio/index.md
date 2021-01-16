@@ -12,9 +12,12 @@ tech.root: audio
 f1_keywords:
  - usbsidebandaudio
  - usbsidebandaudio/usbsidebandaudio
+api_name:
+ - usbsidebandaudio
 ---
 
 # Usbsidebandaudio.h header
+
 
 ## -description
 
@@ -23,3 +26,4 @@ The header defines the types, constants, and functions that are exposed to devic
 For more information, see:
 
 [Audio](../_audio/index.md)
+

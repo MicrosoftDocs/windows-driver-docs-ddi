@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects3.GetNumberSystems
- - IDebugSystemObjects4.GetNumberSystems
+ - IDebugSystemObjects4::GetNumberSystems
 ---
 
 # IDebugSystemObjects4::GetNumberSystems
@@ -88,3 +87,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+

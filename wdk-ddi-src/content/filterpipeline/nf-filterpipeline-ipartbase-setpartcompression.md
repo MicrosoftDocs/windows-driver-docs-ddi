@@ -37,7 +37,7 @@ api_type:
 api_location:
  - filterpipeline.h
 api_name:
- - IPartBase.SetPartCompression
+ - IPartBase::SetPartCompression
 ---
 
 # IPartBase::SetPartCompression
@@ -57,3 +57,4 @@ A <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl
 ## -returns
 
 <b>SetPartCompression</b> returns an <b>HRESULT</b> value.
+

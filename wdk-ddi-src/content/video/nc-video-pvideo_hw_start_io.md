@@ -37,7 +37,7 @@ api_type:
 api_location:
  - video.h
 api_name:
- - HwVidStartIO
+ - PVIDEO_HW_START_IO
 ---
 
 # PVIDEO_HW_START_IO callback function
@@ -102,3 +102,4 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>
+

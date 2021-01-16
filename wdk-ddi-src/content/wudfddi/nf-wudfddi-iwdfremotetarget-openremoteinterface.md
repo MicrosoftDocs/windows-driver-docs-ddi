@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFRemoteTarget.OpenRemoteInterface
+ - IWDFRemoteTarget::OpenRemoteInterface
 ---
 
 # IWDFRemoteTarget::OpenRemoteInterface
@@ -142,7 +142,6 @@ Error:
 ...
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
@@ -150,3 +149,4 @@ Error:
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-openfilebyname">IWDFRemoteTarget::OpenFileByName</a>
+

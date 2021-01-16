@@ -37,7 +37,7 @@ api_type:
 api_location:
  - minitape.h
 api_name:
- - (*TAPE_EXTENSION_INIT_ROUTINE)
+ - TAPE_EXTENSION_INIT_ROUTINE
 ---
 
 # TAPE_EXTENSION_INIT_ROUTINE callback function
@@ -91,3 +91,4 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_error_routine">TapeMiniTapeError</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - tagKS_DATARANGE_DVVIDEO
+ - PKS_DATARANGE_DVVIDEO
  - KS_DATARANGE_DVVIDEO
 ---
 
@@ -68,3 +70,4 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 
 <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
+

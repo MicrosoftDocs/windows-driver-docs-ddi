@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
- - NdisTcpOffloadEventHandler
+ - NDIS_TCP_OFFLOAD_EVENT_INDICATE
 ---
 
 # NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function
@@ -447,3 +447,4 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 <a href="/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
      the Reception of a FIN or RST Segment</a>
+

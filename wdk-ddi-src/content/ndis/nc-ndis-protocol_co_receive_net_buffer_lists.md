@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolCoReceiveNetBufferLists
+ - PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS
 ---
 
 # PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback function
@@ -207,3 +207,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">ProtocolCoSendNetBufferListsComplete</a>
+

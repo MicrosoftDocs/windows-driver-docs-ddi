@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_LOCK
  - D3DKMT_LOCK
 ---
 
@@ -98,3 +99,4 @@ This member is available beginning with Windows 7.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a>
+

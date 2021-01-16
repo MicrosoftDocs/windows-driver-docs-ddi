@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO
+ - PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO
  - NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO
 ---
 
@@ -125,3 +127,4 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_slo
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_slot_mapping_info">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ksmedia.h
 api_name:
+ - _KSCAMERA_EXTENDEDPROP_PROFILE
+ - PKSCAMERA_EXTENDEDPROP_PROFILE
  - KSCAMERA_EXTENDEDPROP_PROFILE
 ---
 

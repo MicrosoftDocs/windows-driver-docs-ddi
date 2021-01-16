@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.GetOutputLinePrefix
+ - IDebugClient::GetOutputLinePrefix
 ---
 
 # IDebugClient::GetOutputLinePrefix
@@ -98,3 +98,4 @@ Some of the engine commands produce
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
+

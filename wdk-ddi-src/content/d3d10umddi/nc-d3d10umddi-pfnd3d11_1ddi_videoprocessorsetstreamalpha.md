@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamAlpha
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA callback function
@@ -128,3 +128,4 @@ The driver reports its ability to support stereo alpha blending for an input str
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode">VideoProcessorSetOutputAlphaFillMode</a>
+

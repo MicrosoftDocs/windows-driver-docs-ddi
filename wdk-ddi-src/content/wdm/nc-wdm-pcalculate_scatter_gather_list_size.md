@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdm.h
 api_name:
- - CalculateScatterGatherList
+ - PCALCULATE_SCATTER_GATHER_LIST_SIZE
 ---
 
 # PCALCULATE_SCATTER_GATHER_LIST_SIZE callback function
@@ -158,3 +158,4 @@ A driver uses <b>CalculateScatterGatherList</b> to allocate a scatter/gather lis
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
+

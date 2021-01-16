@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemDriverUni.DrvUniTextOut
+ - IPrintOemDriverUni::DrvUniTextOut
 ---
 
 # IPrintOemDriverUni::DrvUniTextOut
@@ -140,3 +140,4 @@ The <code>IPrintOemDriverUni::DrvUniTextOut</code> method is provided by Unidrv 
 If <code>IPrintOemDriverUni::DrvUniTextOut</code> cannot create the text string, either because the font is not available or is rotated, it calls the rendering plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-textoutasbitmap">IPrintOemUni::TextOutAsBitmap</a> method, which draws the text string as a bitmap.
 
 For more information, see <a href="/windows-hardware/drivers/print/handling-device-managed-surfaces">Handling Device-Managed Surfaces</a>.
+

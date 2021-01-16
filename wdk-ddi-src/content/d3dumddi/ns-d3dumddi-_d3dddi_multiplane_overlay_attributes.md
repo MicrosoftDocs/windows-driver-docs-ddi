@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
+ - _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
  - D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ---
 
@@ -137,3 +138,4 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

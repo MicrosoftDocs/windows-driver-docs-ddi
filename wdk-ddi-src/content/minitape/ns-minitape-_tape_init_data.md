@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Minitape.h
 api_name:
+ - _TAPE_INIT_DATA
+ - PTAPE_INIT_DATA
  - TAPE_INIT_DATA
 ---
 
@@ -81,3 +83,4 @@ typedef struct _TAPE_INIT_DATA {
   TAPE_PROCESS_COMMAND_ROUTINE    PreProcessReadWrite; 
 } TAPE_INIT_DATA, *PTAPE_INIT_DATA;
 ```
+

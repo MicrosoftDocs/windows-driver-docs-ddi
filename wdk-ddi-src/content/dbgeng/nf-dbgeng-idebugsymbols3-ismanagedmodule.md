@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugSymbols3.IsManagedModule
+ - IDebugSymbols3::IsManagedModule
 ---
 
 # IDebugSymbols3::IsManagedModule
@@ -74,3 +74,4 @@ It can be expensive to run this check.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
+

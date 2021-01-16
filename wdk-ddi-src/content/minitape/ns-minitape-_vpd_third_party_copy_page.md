@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _VPD_THIRD_PARTY_COPY_PAGE
+ - PVPD_THIRD_PARTY_COPY_PAGE
  - VPD_THIRD_PARTY_COPY_PAGE
 ---
 
@@ -80,3 +82,4 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_windows_block_device_token_limits_descriptor">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a>
+

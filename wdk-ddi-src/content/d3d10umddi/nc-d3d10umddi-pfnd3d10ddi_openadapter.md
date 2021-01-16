@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - OpenAdapter10
+ - PFND3D10DDI_OPENADAPTER
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ The Direct3D runtime can open multiple graphics adapter objects from a single gr
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb">pfnQueryAdapterInfoCb</a>
+

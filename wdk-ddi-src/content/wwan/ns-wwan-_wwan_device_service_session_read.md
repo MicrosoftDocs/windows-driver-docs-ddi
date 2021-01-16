@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_SESSION_READ
+ - PWWAN_DEVICE_SERVICE_SESSION_READ
  - WWAN_DEVICE_SERVICE_SESSION_READ
 ---
 
@@ -68,3 +70,4 @@ The size, in bytes, of the device service data that follows the structure instan
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+

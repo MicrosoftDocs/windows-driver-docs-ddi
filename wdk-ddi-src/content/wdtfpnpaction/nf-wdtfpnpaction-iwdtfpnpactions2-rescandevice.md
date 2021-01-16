@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.RescanDevice
+ - IWDTFPNPActions2::RescanDevice
 ---
 
 # IWDTFPNPActions2::RescanDevice
@@ -57,5 +57,4 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
 

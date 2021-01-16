@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCALLCUSTOMMEDIASTATE
+ - LPRILCALLCUSTOMMEDIASTATE
 ---
 
 # RILCALLCUSTOMMEDIASTATE structure (rilapitypes.h)

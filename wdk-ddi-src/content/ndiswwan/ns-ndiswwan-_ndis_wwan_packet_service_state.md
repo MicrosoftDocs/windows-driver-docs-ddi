@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_PACKET_SERVICE_STATE
+ - PNDIS_WWAN_PACKET_SERVICE_STATE
  - NDIS_WWAN_PACKET_SERVICE_STATE
 ---
 
@@ -287,3 +289,4 @@ A formatted
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a>
+

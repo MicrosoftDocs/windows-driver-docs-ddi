@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wudfddi_types.h
 api_name:
+ - _WDF_PROPERTY_STORE_DISPOSITION
  - WDF_PROPERTY_STORE_DISPOSITION
 ---
 
@@ -76,3 +77,4 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+

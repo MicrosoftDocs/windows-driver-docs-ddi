@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _INTERFACE
+ - PINTERFACE
  - INTERFACE
 ---
 
@@ -92,3 +94,4 @@ Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTER
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>
+

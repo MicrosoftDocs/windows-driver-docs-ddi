@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _DEVQUERYPRINT_INFO
+ - PDEVQUERYPRINT_INFO
  - DEVQUERYPRINT_INFO
 ---
 
@@ -84,3 +86,4 @@ Driver-supplied length, in bytes, of the error string supplied in the buffer poi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-devqueryprintex">DevQueryPrintEx</a>
+

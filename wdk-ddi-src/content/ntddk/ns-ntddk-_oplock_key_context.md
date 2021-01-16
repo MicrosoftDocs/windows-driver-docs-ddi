@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _OPLOCK_KEY_CONTEXT
+ - POPLOCK_KEY_CONTEXT
  - OPLOCK_KEY_CONTEXT
 ---
 
@@ -140,3 +142,4 @@ If an oplock is requested for a file during an <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
+

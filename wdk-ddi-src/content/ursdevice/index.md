@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ursdevice
  - ursdevice/ursdevice
+api_name:
+ - ursdevice
 ---
 
 # Ursdevice.h header

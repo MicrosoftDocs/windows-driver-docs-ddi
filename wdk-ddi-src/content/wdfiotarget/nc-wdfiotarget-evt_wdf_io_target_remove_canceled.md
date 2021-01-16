@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfIoTarget.h
 api_name:
- - EvtIoTargetRemoveCanceled
+ - EVT_WDF_IO_TARGET_REMOVE_CANCELED
 ---
 
 # EVT_WDF_IO_TARGET_REMOVE_CANCELED callback function
@@ -87,3 +87,4 @@ For more information about the <i>EvtIoTargetRemoveCanceled</i> callback functio
 
 
 <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfusb.h
 api_name:
+ - _WDF_USB_PIPE_TYPE
  - WDF_USB_PIPE_TYPE
 ---
 
@@ -80,3 +81,4 @@ The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="/windows-hardwa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a>
+

@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintJob.Id
- - IPrintJob.get_Id
+ - IPrintJob::get_Id
 ---
 
 # IPrintJob::get_Id
@@ -59,3 +58,4 @@ You must not use the <b>IPrintJob::Id</b> property  to invoke spooler Job APIs. 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
+

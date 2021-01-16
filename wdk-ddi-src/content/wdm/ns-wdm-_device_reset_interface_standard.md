@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_RESET_INTERFACE_STANDARD
+ - PDEVICE_RESET_INTERFACE_STANDARD
  - DEVICE_RESET_INTERFACE_STANDARD
 ---
 
@@ -109,3 +111,4 @@ For more information about the purpose of this interface, see [Working with the 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>
+

@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_XBOX
+ - D3DKMT_XBOX
 dev_langs:
  - c++
 ---

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FSCTL_OFFLOAD_READ_OUTPUT
+ - PFSCTL_OFFLOAD_READ_OUTPUT
  - FSCTL_OFFLOAD_READ_OUTPUT
 ---
 
@@ -130,3 +132,4 @@ The  copy provider retains the data read for the duration in the <b>TokenTimeToL
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniDeviceQueryCapabilities
+ - PFNKSDEVICEQUERYCAPABILITIES
 ---
 
 # PFNKSDEVICEQUERYCAPABILITIES callback function
@@ -81,3 +81,4 @@ This routine is called when an <a href="/windows-hardware/drivers/kernel/irp-mn-
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
+

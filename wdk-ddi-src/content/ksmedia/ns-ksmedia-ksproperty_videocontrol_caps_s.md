@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_VIDEOCONTROL_CAPS_S
  - KSPROPERTY_VIDEOCONTROL_CAPS_S
 ---
 
@@ -82,3 +83,4 @@ Indicates the video control capabilities for the specified stream. This member m
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+

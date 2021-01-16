@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETUICCLOCKENABLEDPARAMS
+ - LPRILSETUICCLOCKENABLEDPARAMS
 ---
 
 # RILSETUICCLOCKENABLEDPARAMS structure (rilapitypes.h)

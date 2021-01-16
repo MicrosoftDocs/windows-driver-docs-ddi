@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 61883.h
 api_name:
+ - _UNIT_DIAG_LEVEL
+ - PUNIT_DIAG_LEVEL
  - UNIT_DIAG_LEVEL
 ---
 
@@ -92,3 +94,4 @@ Do not free isochronous resources when disconnecting from the device iPCR.
 ## -see-also
 
 <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
+

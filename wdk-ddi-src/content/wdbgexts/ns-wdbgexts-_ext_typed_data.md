@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
+ - _EXT_TYPED_DATA
+ - PEXT_TYPED_DATA
  - EXT_TYPED_DATA
 ---
 
@@ -212,3 +214,4 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>
+

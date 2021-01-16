@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _IMAGE_INFO
+ - PIMAGE_INFO
  - IMAGE_INFO
 ---
 
@@ -120,3 +122,4 @@ If the **ExtendedInfoPresent** flag is set, the IMAGE_INFO structure is part of 
 [PLOAD_IMAGE_NOTIFY_ROUTINE](./nc-ntddk-pload_image_notify_routine.md)
 
 [PsSetLoadImageNotifyRoutine](./nf-ntddk-pssetloadimagenotifyroutine.md)
+

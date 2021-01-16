@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
+ - D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
 dev_langs:
  - c++
 ---

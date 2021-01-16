@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - DxgkDdiBuildPagingBuffer
+ - DXGKDDI_BUILDPAGINGBUFFER
 product:
  - Windows
 ---
@@ -264,3 +264,4 @@ do {
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
+

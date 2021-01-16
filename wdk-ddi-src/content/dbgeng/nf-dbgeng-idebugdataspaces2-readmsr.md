@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces.ReadMsr
- - IDebugDataSpaces2.ReadMsr
- - IDebugDataSpaces3.ReadMsr
- - IDebugDataSpaces4.ReadMsr
+ - IDebugDataSpaces2::ReadMsr
 ---
 
 # IDebugDataSpaces2::ReadMsr
@@ -90,3 +87,4 @@ This method can also return error values.  See <a href="/windows-hardware/driver
 This method is only available in kernel-mode debugging.
 
 For details on the addresses and values of MSRs, see the processor documentation.
+

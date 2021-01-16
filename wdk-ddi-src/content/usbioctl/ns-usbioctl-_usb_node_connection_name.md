@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _USB_NODE_CONNECTION_NAME
+ - PUSB_NODE_CONNECTION_NAME
  - USB_NODE_CONNECTION_NAME
 ---
 
@@ -72,3 +74,4 @@ A Unicode symbolic link for the downstream hub that is attached to the port that
 
 
 <a href="/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
+

@@ -39,7 +39,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
+ - _DXGKARG_QUERYVIDPNHWCAPABILITY
+ - DXGKARG_QUERYVIDPNHWCAPABILITY
 ---
 
 # _DXGKARG_QUERYVIDPNHWCAPABILITY structure
@@ -108,3 +109,4 @@ For more information about video present sources and targets, see <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_CALLBACKS3
+ - LPD3DHAL_CALLBACKS3
  - D3DHAL_CALLBACKS3
 ---
 
@@ -107,3 +109,4 @@ D3DDP2OP_CLEAR
 
 
 <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

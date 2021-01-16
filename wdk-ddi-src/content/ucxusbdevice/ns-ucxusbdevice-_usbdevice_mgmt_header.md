@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _USBDEVICE_MGMT_HEADER
+ - PUSBDEVICE_MGMT_HEADER
  - USBDEVICE_MGMT_HEADER
 ---
 

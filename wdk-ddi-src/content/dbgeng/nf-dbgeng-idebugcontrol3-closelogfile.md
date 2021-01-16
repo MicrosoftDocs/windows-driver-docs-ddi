@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.CloseLogFile
- - IDebugControl2.CloseLogFile
- - IDebugControl3.CloseLogFile
+ - IDebugControl3::CloseLogFile
 ---
 
 # IDebugControl3::CloseLogFile
@@ -109,3 +107,4 @@ For more about log files, see <a href="/windows-hardware/drivers/debugger/using-
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2">OpenLogFile2</a>
+

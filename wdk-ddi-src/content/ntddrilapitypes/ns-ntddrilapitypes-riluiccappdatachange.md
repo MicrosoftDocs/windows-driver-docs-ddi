@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCAPPDATACHANGE
+ - LPRILUICCAPPDATACHANGE
 ---
 
 # RILUICCAPPDATACHANGE structure (ntddrilapitypes.h)

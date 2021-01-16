@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_FREQUENCY
  - DXVADDI_FREQUENCY
 ---
 
@@ -81,3 +82,4 @@ The user-mode display driver must interpret the video frame rate for the followi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
+

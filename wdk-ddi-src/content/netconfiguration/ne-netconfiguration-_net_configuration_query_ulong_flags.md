@@ -7,7 +7,7 @@ ms.date: 02/07/2018
 keywords: ["NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration"]
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS,
 req.header: netconfiguration.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -31,6 +31,7 @@ api_type:
 api_location:
  - netconfiguration.h
 api_name:
+ - _NET_CONFIGURATION_QUERY_ULONG_FLAGS
  - NET_CONFIGURATION_QUERY_ULONG_FLAGS
 ---
 

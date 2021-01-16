@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Fwpsk.h
 api_name:
- - classifyFn2
+ - FWPS_CALLOUT_CLASSIFY_FN2
 ---
 
 # FWPS_CALLOUT_CLASSIFY_FN2 callback function
@@ -221,3 +221,4 @@ This function is essentially identical to the previous version,
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_SHARED_ENDPOINT_DISPATCH
  - NDK_SHARED_ENDPOINT_DISPATCH
 ---
 
@@ -82,3 +83,4 @@ The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure is used in the <a href="/windo
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>
+

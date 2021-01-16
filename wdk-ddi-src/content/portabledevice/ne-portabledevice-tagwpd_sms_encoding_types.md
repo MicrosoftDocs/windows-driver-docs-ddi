@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_SMS_ENCODING_TYPES
  - WPD_SMS_ENCODING_TYPES
 ---
 
@@ -71,3 +72,4 @@ This enumeration is used by the <a href="/windows/desktop/wpd_sdk/sms-properties
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

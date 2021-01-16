@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfcompaniontarget
  - wdfcompaniontarget/wdfcompaniontarget
+api_name:
+ - wdfcompaniontarget
 ---
 
 # Wdfcompaniontarget.h header

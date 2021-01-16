@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILCBCDMACONFIGINFO
+ - LPRILCBCDMACONFIGINFO
 ---
 
 # RILCBCDMACONFIGINFO structure (ntddrilapitypes.h)

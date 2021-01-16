@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniPinCreate
+ - PFNKSPINIRP
 ---
 
 # PFNKSPINIRP callback function
@@ -122,3 +122,4 @@ This routine is optional.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
+

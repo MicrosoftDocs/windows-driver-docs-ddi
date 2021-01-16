@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfcore
  - wdfcore/wdfcore
+api_name:
+ - wdfcore
 ---
 
 # Wdfcore.h header

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportUpdateOffload
+ - W_UPDATE_OFFLOAD_HANDLER
 ---
 
 # W_UPDATE_OFFLOAD_HANDLER callback function
@@ -130,3 +130,4 @@ The tree might indicate that path-to-neighbor links must be updated. For more in
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>
+

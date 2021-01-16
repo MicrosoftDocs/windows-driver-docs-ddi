@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_USSD_STRING
+ - PWWAN_USSD_STRING
  - WWAN_USSD_STRING
 ---
 
@@ -89,3 +91,4 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_request">WWAN_USSD_REQUEST</a>
+

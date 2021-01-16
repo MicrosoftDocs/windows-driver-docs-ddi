@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmthk.h
 api_name:
- - D3DKMTReleaseKeyedMutex2
+ - PFND3DKMT_RELEASEKEYEDMUTEX2
 ---
 
 # PFND3DKMT_RELEASEKEYEDMUTEX2 callback function
@@ -82,3 +82,4 @@ This function might also return other NTSTATUS values.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_releasekeyedmutex2">D3DKMT_RELEASEKEYEDMUTEX2</a>
+

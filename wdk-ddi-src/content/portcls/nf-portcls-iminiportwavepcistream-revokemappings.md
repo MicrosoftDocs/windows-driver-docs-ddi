@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePciStream.RevokeMappings
+ - IMiniportWavePciStream::RevokeMappings
 ---
 
 # IMiniportWavePciStream::RevokeMappings
@@ -113,3 +113,4 @@ For more information about mappings, see <a href="/windows-hardware/drivers/audi
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
+

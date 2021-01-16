@@ -36,6 +36,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_NITZ_INFO
+ - PWWAN_NITZ_INFO
+ - WWAN_NITZ_INFO
 ---
 
 # _WWAN_NITZ_INFO structure
@@ -94,3 +96,4 @@ This structure is used in the [**NDIS_WWAN_NITZ_INFO**](../ndiswwan/ns-ndiswwan-
 [OID_WWAN_NITZ](/windows-hardware/drivers/network/oid-wwan-nitz)
 
 [**NDIS_WWAN_NITZ_INFO**](../ndiswwan/ns-ndiswwan-_ndis_wwan_nitz_info.md)
+

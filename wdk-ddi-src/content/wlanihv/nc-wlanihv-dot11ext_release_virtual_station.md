@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtReleaseVirtualStation
+ - DOT11EXT_RELEASE_VIRTUAL_STATION
 ---
 
 # DOT11EXT_RELEASE_VIRTUAL_STATION callback
@@ -108,3 +108,4 @@ A call to
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

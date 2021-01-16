@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA
  - DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA
 ---
 
@@ -68,3 +69,4 @@ The application can use the source rectangle to specify the active rectangle (di
 ## -see-also
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

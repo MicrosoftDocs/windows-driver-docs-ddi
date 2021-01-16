@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
- - PEVT_UCX_USBDEVICE_ADDRESS
+ - EVT_UCX_USBDEVICE_ADDRESS
 ---
 
 # EVT_UCX_USBDEVICE_ADDRESS callback function
@@ -91,7 +91,6 @@ UsbDevice_EvtUcxUsbDeviceAddress(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
@@ -103,3 +102,4 @@ UsbDevice_EvtUcxUsbDeviceAddress(
 
 
 <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks">UcxUsbDeviceInitSetEventCallbacks</a>
+

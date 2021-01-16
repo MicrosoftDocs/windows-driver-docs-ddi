@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _SCSI_BUS_DATA
+ - PSCSI_BUS_DATA
  - SCSI_BUS_DATA
 ---
 
@@ -73,3 +75,4 @@ Contains an offset from the beginning of the SCSI_ADAPTER_BUS_INFO structure to 
 
 
 <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_adapter_bus_info">SCSI_ADAPTER_BUS_INFO</a>
+

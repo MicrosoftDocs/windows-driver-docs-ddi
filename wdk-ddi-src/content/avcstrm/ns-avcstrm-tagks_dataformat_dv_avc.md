@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - tagKS_DATAFORMAT_DV_AVC
+ - PKS_DATAFORMAT_DV_AVC
  - KS_DATAFORMAT_DV_AVC
 ---
 
@@ -76,3 +78,4 @@ Specifies the AV/C connection information.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+

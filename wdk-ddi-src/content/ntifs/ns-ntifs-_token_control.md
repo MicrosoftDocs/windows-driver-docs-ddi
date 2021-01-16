@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _TOKEN_CONTROL
+ - PTOKEN_CONTROL
  - TOKEN_CONTROL
 ---
 
@@ -116,3 +118,4 @@ Specifies a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_source"
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
+

@@ -42,6 +42,8 @@ api_location:
  - nfcradiodev.h
 api_name:
  - _NFCRM_SET_RADIO_STATE
+ - PNFCRM_SET_RADIO_STATE
+ - NFCRM_SET_RADIO_STATE
 ---
 
 # _NFCRM_SET_RADIO_STATE structure

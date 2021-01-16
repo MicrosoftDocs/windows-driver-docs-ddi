@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - PWWAN_MODEM_LOGGING_LEVEL_CONFIG
+ - WWAN_MODEM_LOGGING_LEVEL_CONFIG
 ---
 
 # _WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration
@@ -79,3 +81,4 @@ This enumeration is used in the [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-
 [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
 
 [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-_wwan_modem_logging_config.md)
+

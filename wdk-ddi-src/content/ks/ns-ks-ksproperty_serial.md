@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPROPERTY_SERIAL
  - KSPROPERTY_SERIAL
 ---
 
@@ -70,3 +71,4 @@ A KSPROPERTY_SERIAL structure is followed by the property data, with the start o
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_serialhdr">KSPROPERTY_SERIALHDR</a>
+

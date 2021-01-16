@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceD0ExitPreInterruptsDisabled
+ - EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED
 ---
 
 # EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED callback function
@@ -80,3 +80,4 @@ For more information about handling interrupts, see <a href="/windows-hardware/d
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry_post_interrupts_enabled">EvtDeviceD0EntryPostInterruptsEnabled</a>
+

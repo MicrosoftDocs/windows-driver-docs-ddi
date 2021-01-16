@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _ISOCH_DESCRIPTOR
+ - PISOCH_DESCRIPTOR
  - ISOCH_DESCRIPTOR
 ---
 
@@ -182,7 +184,6 @@ Pointer to a callback routine. If non-NULL, the bus driver calls this routine to
 void Callback(IN PVOID Context1, IN PVOID Context2);
 ```
 
-
 ### -field Context1
 
 Specifies the first parameter when the bus driver calls the routine passed in **Callback**.
@@ -251,3 +252,4 @@ If the driver sets the DESCRIPTOR_HEADER_SCATTER_GATHER flag, the host controlle
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+

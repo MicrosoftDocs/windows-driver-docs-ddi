@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTCreateKeyedMutex2
+ - PFND3DKMT_CREATEKEYEDMUTEX2
 ---
 
 # PFND3DKMT_CREATEKEYEDMUTEX2 callback function
@@ -91,3 +91,4 @@ Keyed mutexes created with <b>D3DKMTCreateKeyedMutex2</b> are still compatible w
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2">D3DKMT_CREATEKEYEDMUTEX2</a>
+

@@ -34,9 +34,12 @@ api_location:
  - ntifs.h
 api_name:
  - _REPARSE_DATA_BUFFER_EX
+ - PREPARSE_DATA_BUFFER_EX
+ - REPARSE_DATA_BUFFER_EX
 ---
 
 # _REPARSE_DATA_BUFFER_EX structure
+
 
 ## -description
 
@@ -89,3 +92,4 @@ The REPARSE_DATA_BUFFER_EX structure is used to store data for a reparse point. 
 [REPARSE_DATA_BUFFER](ns-ntifs-_reparse_data_buffer.md)
 
 [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiSubmitCommand
+ - DXGKDDI_SUBMITCOMMAND
 product:
  - Windows
 ---
@@ -88,3 +88,4 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+

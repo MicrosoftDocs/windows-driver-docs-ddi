@@ -34,6 +34,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGKARGCB_SIGNALEVENT
+ - DXGKARGCB_SIGNALEVENT
 dev_langs:
  - c++
 ---

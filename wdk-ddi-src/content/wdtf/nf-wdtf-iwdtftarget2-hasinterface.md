@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTarget2.HasInterface
+ - IWDTFTarget2::HasInterface
 ---
 
 # IWDTFTarget2::HasInterface
@@ -90,3 +90,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+

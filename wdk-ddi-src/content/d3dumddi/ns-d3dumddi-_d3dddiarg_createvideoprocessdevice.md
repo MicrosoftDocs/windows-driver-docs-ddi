@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATEVIDEOPROCESSDEVICE
  - D3DDDIARG_CREATEVIDEOPROCESSDEVICE
 ---
 
@@ -78,3 +79,4 @@ The D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure describes a Microsoft DirectX V
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
+

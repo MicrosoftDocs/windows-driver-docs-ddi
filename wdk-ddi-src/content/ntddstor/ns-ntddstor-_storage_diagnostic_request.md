@@ -41,10 +41,13 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DIAGNOSTIC_REQUEST
+ - PSTORAGE_DIAGNOSTIC_REQUEST
  - STORAGE_DIAGNOSTIC_REQUEST
 ---
 
 # _STORAGE_DIAGNOSTIC_REQUEST structure
+
 
 ## -description
 
@@ -81,3 +84,4 @@ Specifies the Diagnostic level. See definitions for [**STORAGE_DIAGNOSTIC_LEVEL*
 [**STORAGE_DIAGNOSTIC_LEVEL**](ne-ntddstor-_storage_diagnostic_level.md)
 
 [**STORAGE_DIAGNOSTIC_TARGET_TYPE**](ne-ntddstor-_storage_diagnostic_target_type.md)
+

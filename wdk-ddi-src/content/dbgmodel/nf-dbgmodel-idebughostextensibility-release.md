@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostExtensibility.Release
+ - IDebugHostExtensibility::Release
 ---
 
 # IDebugHostExtensibility::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostExtensibility interface](nn-dbgmodel-idebughostextensibility.md)
+

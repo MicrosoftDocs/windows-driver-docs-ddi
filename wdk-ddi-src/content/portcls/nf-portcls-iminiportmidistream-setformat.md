@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportMidiStream.SetFormat
+ - IMiniportMidiStream::SetFormat
 ---
 
 # IMiniportMidiStream::SetFormat
@@ -69,3 +69,4 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+

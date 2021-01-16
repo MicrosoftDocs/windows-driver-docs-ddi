@@ -40,6 +40,7 @@ api_location:
  - windot11.h
 api_name:
  - DOT11_DIRECTION
+ - PDOT11_DIRECTION
 product:
  - Windows 10 or later.
 ---
@@ -87,3 +88,4 @@ typedef enum DOT11_DIRECTION {
 
 <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
+

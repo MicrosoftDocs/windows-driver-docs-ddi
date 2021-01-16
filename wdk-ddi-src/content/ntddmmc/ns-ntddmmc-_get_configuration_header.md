@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _GET_CONFIGURATION_HEADER
+ - PGET_CONFIGURATION_HEADER
  - GET_CONFIGURATION_HEADER
 ---
 
@@ -84,3 +86,4 @@ Contains the feature data, beginning with the <a href="/windows-hardware/drivers
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_configuration">IOCTL_CDROM_GET_CONFIGURATION</a>
+

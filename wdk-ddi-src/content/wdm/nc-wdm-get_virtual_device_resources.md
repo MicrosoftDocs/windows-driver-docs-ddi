@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - GetResources
+ - GET_VIRTUAL_DEVICE_RESOURCES
 ---
 
 # GET_VIRTUAL_DEVICE_RESOURCES callback
@@ -125,3 +125,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resourc
 
 
 <b></b>
+

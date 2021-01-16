@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaDrvItem.GetItemFlags
+ - IWiaDrvItem::GetItemFlags
 ---
 
 # IWiaDrvItem::GetItemFlags
@@ -72,3 +72,4 @@ The method places the current **IWiaDrvItem** item's flag values in the location
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2PurgeFifos
+ - EVT_SERCX2_PURGE_FIFOS
 ---
 
 # EVT_SERCX2_PURGE_FIFOS callback function
@@ -109,3 +109,4 @@ The <b>EVT_SERCX2_PURGE_FIFOS</b> function type is defined in the Sercx.h header
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>
+

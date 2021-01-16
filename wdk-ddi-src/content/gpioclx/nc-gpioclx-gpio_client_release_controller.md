@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ReleaseController
+ - GPIO_CLIENT_RELEASE_CONTROLLER
 ---
 
 # GPIO_CLIENT_RELEASE_CONTROLLER callback function
@@ -109,3 +109,4 @@ The GPIO_CLIENT_RELEASE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+

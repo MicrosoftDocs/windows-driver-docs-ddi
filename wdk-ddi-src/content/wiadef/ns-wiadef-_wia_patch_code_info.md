@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wiadef.h
 api_name:
+ - _WIA_PATCH_CODE_INFO
  - WIA_PATCH_CODE_INFO
 ---
 
@@ -59,3 +60,4 @@ The patch code type. One of the <a href="/windows-hardware/drivers/image/wia-ips
 #### - Page
 
 The page number where the patch code was detected. A zero-based index referring to the current scan job.
+

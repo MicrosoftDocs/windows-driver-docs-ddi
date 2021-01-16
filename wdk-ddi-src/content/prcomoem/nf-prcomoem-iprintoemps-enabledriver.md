@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintOemPS.EnableDriver
+ - IPrintOemPS::EnableDriver
 ---
 
 # IPrintOemPS::EnableDriver
@@ -173,3 +173,4 @@ If <code>IPrintOemPS::EnableDriver</code> methods are exported by multiple rende
 <div class="alert"><b>Note</b>    Each graphics DDI function can be hooked out by one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.</div>
 <div> </div>
 For more information about creating and installing rendering plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
+

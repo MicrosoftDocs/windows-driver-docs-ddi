@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintJob.RequestCancel
+ - IPrintJob::RequestCancel
 ---
 
 # IPrintJob::RequestCancel
@@ -58,3 +58,4 @@ The <b>RequestCancel</b> method does not wait for the cancellation of a print jo
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiUnmapCpuHostAperture
+ - DXGKDDI_UNMAPCPUHOSTAPERTURE
 ---
 
 # DXGKDDI_UNMAPCPUHOSTAPERTURE callback function
@@ -64,3 +64,4 @@ A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuh
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a>
+

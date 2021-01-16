@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hbapiwmi.h
 api_name:
+ - _HBAFCPBindingEntry2
+ - PHBAFCPBindingEntry2
  - HBAFCPBindingEntry2
 ---
 
@@ -147,3 +149,4 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
 
 <a href="/windows-hardware/drivers/storage/hbafcpbindingentry2-wmi-class">HBAFCPBindingEntry2 WMI Class</a>
+

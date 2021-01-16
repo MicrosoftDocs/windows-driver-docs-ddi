@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IInterruptSync.CallSynchronizedRoutine
+ - IInterruptSync::CallSynchronizedRoutine
 ---
 
 # IInterruptSync::CallSynchronizedRoutine
@@ -80,3 +80,4 @@ Callers of <code>CallSynchronizedRoutine</code> must be running at an IRQL that 
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewinterruptsync">PcNewInterruptSync</a>
+

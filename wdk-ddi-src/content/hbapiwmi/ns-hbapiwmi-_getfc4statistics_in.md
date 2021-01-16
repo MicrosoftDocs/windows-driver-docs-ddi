@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFC4Statistics_IN
+ - PGetFC4Statistics_IN
  - GetFC4Statistics_IN
 ---
 
@@ -72,3 +74,4 @@ For a definition of Nx_Port, see the T11 committee's specification for <i>Fibre 
 ## -see-also
 
 <a href="/windows-hardware/drivers/storage/getfc4statistics">GetFC4Statistics</a>
+

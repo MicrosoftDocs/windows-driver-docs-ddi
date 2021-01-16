@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxCreateSrvCall
+ - PMRX_CREATE_SRVCALL
 ---
 
 # PMRX_CREATE_SRVCALL callback function
@@ -162,3 +162,4 @@ A network mini-redirector that indicates support as a UNC provider will receive 
 
 
 <a href="/windows-hardware/drivers/ddi/rxstruc/nf-rxstruc-rxgetrdbssprocess">RxGetRDBSSProcess</a>
+

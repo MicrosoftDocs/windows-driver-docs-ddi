@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSCLOCK_CREATE
  - KSCLOCK_CREATE
 ---
 
@@ -58,3 +59,4 @@ Currently consists of a flags item, which must be set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a>
+

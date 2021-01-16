@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfinterrupt.h
 api_name:
+ - _WDF_INTERRUPT_INFO
+ - PWDF_INTERRUPT_INFO
  - WDF_INTERRUPT_INFO
 ---
 
@@ -126,3 +128,4 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptgetinfo">WdfInterruptGetInfo</a>
+

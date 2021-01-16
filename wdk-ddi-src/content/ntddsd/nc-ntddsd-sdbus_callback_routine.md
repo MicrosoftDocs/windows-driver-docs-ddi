@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ntddsd.h
 api_name:
- - SdBusCallbackRoutine
+ - SDBUS_CALLBACK_ROUTINE
 ---
 
 # SDBUS_CALLBACK_ROUTINE callback function
@@ -68,3 +68,4 @@ The bus driver calls the SD card driver's callback routine whenever the card ind
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff537919(v=vs.85)">SDBUS_INTERFACE_PARAMETERS</a>
+

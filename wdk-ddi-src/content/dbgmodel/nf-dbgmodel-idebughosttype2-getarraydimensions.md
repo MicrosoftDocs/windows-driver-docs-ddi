@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostType2.GetArrayDimensions
+ - IDebugHostType2::GetArrayDimensions
 ---
 
 # IDebugHostType2::GetArrayDimensions

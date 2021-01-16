@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_CALLOUT2_
  - FWPS_CALLOUT2
 ---
 
@@ -250,3 +251,4 @@ This structure is essentially identical to the previous version,
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
+

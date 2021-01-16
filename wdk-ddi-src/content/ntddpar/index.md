@@ -12,6 +12,8 @@ tech.root: gpio
 f1_keywords:
  - ntddpar
  - ntddpar/ntddpar
+api_name:
+ - ntddpar
 ---
 
 # Ntddpar.h header

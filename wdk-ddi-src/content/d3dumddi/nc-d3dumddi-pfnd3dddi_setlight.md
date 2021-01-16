@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - SetLight
+ - PFND3DDDI_SETLIGHT
 ---
 
 # PFND3DDDI_SETLIGHT callback function
@@ -85,3 +85,4 @@ Light properties describe the type and color of a light source. Depending on the
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_light">D3DDDI_LIGHT</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE
  - DXVAHDDDI_STREAM_STATE
 ---
 
@@ -184,3 +185,4 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate">SetVideoProcessStreamState</a>
+

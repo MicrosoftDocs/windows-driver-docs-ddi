@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_VIDPN_INTERFACE
  - DXGK_VIDPN_INTERFACE
 ---
 
@@ -100,3 +101,4 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxg
 The display miniport driver calls <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_queryvidpninterface">DxgkCbQueryVidPnInterface</a> to obtain a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 
 For more information about the VidPN interface, see <a href="/windows-hardware/drivers/display/vidpn-objects-and-interfaces">VidPN Objects and Interfaces</a>.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - Disasm
+ - PWINDBG_DISASM
 ---
 
 # PWINDBG_DISASM callback function

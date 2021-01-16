@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntdddump
  - ntdddump/ntdddump
+api_name:
+ - ntdddump
 ---
 
 # Ntdddump.h header

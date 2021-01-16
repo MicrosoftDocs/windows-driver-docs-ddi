@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetExceptionFilterSecondCommand
- - IDebugControl2.SetExceptionFilterSecondCommand
- - IDebugControl3.SetExceptionFilterSecondCommand
+ - IDebugControl3::SetExceptionFilterSecondCommand
 ---
 
 # IDebugControl3::SetExceptionFilterSecondCommand
@@ -110,3 +108,4 @@ For more information about <a href="/windows-hardware/drivers/debugger/event-fil
 
 
 <a href="/windows-hardware/drivers/debugger/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+

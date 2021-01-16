@@ -41,10 +41,13 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _STORAGE_REQUEST_BLOCK
+ - PSTORAGE_REQUEST_BLOCK
  - STORAGE_REQUEST_BLOCK
 ---
 
 # _STORAGE_REQUEST_BLOCK structure (storport.h)
+
 
 ## -description
 
@@ -265,3 +268,4 @@ The target device address for the SRB is in a [**STOR_ADDRESS**](../scsi/ns-scsi
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md)
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_AddLink_OUT
+ - PSM_AddLink_OUT
  - SM_AddLink_OUT
 ---
 
@@ -60,3 +62,4 @@ A value associated with the WMI class qualifier <a href="/windows-hardware/drive
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_AddLink_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _IO_PRIORITY_INFO
+ - PIO_PRIORITY_INFO
  - IO_PRIORITY_INFO
 ---
 
@@ -114,3 +116,4 @@ A structure of type IO_PRIORITY_INFO must be initialized before first use by cal
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioinitializepriorityinfo">IoInitializePriorityInfo</a>
+

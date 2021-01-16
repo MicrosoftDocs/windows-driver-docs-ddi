@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _NDIS_NDK_LOCAL_ENDPOINTS
  - NDIS_NDK_LOCAL_ENDPOINTS
 ---
 
@@ -110,3 +111,4 @@ If the RDMA technology for the NDK provider requires the provider to map ND loca
 
 
 <a href="/windows-hardware/drivers/network/oid-ndk-local-endpoints">OID_NDK_LOCAL_ENDPOINTS</a>
+

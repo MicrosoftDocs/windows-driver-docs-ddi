@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTStream.GetClockRegister
+ - IMiniportWaveRTStream::GetClockRegister
 product:
  - Windows
 ---

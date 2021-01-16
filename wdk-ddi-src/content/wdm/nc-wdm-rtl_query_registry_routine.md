@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - QueryRoutine
+ - RTL_QUERY_REGISTRY_ROUTINE
 ---
 
 # RTL_QUERY_REGISTRY_ROUTINE callback function
@@ -133,3 +133,4 @@ The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
+

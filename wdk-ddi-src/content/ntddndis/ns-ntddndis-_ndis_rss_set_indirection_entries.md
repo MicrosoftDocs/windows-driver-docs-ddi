@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_RSS_SET_INDIRECTION_ENTRIES
+ - PNDIS_RSS_SET_INDIRECTION_ENTRIES
  - NDIS_RSS_SET_INDIRECTION_ENTRIES
 ---
 
@@ -109,3 +111,4 @@ The number of formatted <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddn
 
 
 <a href="/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID request interface in NDIS 6.80</a>
+

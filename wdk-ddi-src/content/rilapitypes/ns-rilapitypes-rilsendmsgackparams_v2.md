@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSENDMSGACKPARAMS_V2
+ - LPRILSENDMSGACKPARAMS
 ---
 
 # RILSENDMSGACKPARAMS_V2 structure (rilapitypes.h)

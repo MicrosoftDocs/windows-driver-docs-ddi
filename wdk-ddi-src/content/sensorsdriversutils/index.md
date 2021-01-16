@@ -12,6 +12,8 @@ tech.root: sensors
 f1_keywords:
  - sensorsdriversutils
  - sensorsdriversutils/sensorsdriversutils
+api_name:
+ - sensorsdriversutils
 ---
 
 # Sensorsdriversutils.h header

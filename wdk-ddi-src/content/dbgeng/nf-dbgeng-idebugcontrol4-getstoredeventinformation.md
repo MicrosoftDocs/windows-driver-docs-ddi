@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetStoredEventInformation
+ - IDebugControl4::GetStoredEventInformation
 ---
 
 # IDebugControl4::GetStoredEventInformation
@@ -131,3 +131,4 @@ For more information, see the topic <a href="/windows-hardware/drivers/debugger/
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_POWER_MGMT_MODE_STATUS_INFO
+ - PDOT11_POWER_MGMT_MODE_STATUSINFO
  - DOT11_POWER_MGMT_MODE_STATUS_INFO
 product:
  - Windows 10 or later.
@@ -127,3 +129,4 @@ typedef struct _DOT11_POWER_MGMT_MODE_STATUS_INFO {
 ## -remarks
 
 At each transition of the mode change, a device should remember the reason it made the last change.
+

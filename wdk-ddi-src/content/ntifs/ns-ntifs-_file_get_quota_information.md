@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _FILE_GET_QUOTA_INFORMATION
+ - PFILE_GET_QUOTA_INFORMATION
  - FILE_GET_QUOTA_INFORMATION
 ---
 
@@ -90,3 +92,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+

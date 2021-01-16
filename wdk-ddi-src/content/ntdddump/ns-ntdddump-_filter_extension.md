@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntdddump.h
 api_name:
+ - _FILTER_EXTENSION
+ - PFILTER_EXTENSION
  - FILTER_EXTENSION
 ---
 
@@ -92,3 +94,4 @@ A pointer to the context data that is provided by the filter driver in <a href="
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>
+

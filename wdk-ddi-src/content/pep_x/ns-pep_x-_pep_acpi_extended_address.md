@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_ACPI_EXTENDED_ADDRESS
+ - PPEP_ACPI_EXTENDED_ADDRESS
  - PEP_ACPI_EXTENDED_ADDRESS
 ---
 
@@ -432,3 +434,4 @@ Indicates attributes that are specific to the resource type that is specified in
 ### -field DescriptorName
 
 The name of this resource descriptor.
+

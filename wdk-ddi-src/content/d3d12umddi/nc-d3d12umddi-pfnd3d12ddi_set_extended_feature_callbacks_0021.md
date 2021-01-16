@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d12umddi.h
 api_name:
- - pfnSetExtendedFeatureCallbacks
+ - PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
 product:
  - Windows
 ---

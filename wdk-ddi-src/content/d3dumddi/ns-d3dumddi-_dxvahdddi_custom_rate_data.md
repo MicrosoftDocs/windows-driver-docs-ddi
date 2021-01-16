@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_CUSTOM_RATE_DATA
  - DXVAHDDDI_CUSTOM_RATE_DATA
 ---
 
@@ -74,3 +75,4 @@ The driver can expose custom rates for the frame rate conversion or the inverse 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a>
+

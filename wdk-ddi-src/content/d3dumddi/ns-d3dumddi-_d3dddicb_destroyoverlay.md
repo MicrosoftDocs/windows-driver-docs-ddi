@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_DESTROYOVERLAY
  - D3DDDICB_DESTROYOVERLAY
 ---
 
@@ -62,3 +63,4 @@ The D3DDDICB_DESTROYOVERLAY structure contains the handle to the overlay to dest
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyoverlaycb">pfnDestroyOverlayCb</a>
+

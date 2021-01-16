@@ -34,7 +34,8 @@ api_location:
 api_name:
  - PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
 f1_keywords:
- - iddcx/*PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
+ - PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
+ - iddcx/PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
 dev_langs:
  - c++
 ---
@@ -71,3 +72,4 @@ An indirect display driver (IDD) should not use this pointer to directly call th
 ## -see-also
 
 [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](nc-iddcx-pfn_iddcxswapchainreleaseandacquiresystembuffer.md)
+

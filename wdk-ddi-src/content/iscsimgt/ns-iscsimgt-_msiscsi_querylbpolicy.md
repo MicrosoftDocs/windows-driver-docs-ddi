@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _MSiSCSI_QueryLBPolicy
+ - PMSiSCSI_QueryLBPolicy
  - MSiSCSI_QueryLBPolicy
 ---
 
@@ -84,3 +86,4 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 
 <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+

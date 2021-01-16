@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPinFactory.KsPinFactory
+ - IKsPinFactory::KsPinFactory
 ---
 
 # IKsPinFactory::KsPinFactory
@@ -61,3 +61,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
+

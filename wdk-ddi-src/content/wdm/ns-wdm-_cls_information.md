@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CLS_INFORMATION
+ - PCLS_INFORMATION
  - CLS_INFORMATION
 ---
 
@@ -163,3 +165,4 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfssetlogfileinformation">ClfsSetLogFileInformation</a>
+

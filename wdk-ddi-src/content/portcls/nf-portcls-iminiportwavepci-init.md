@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWavePci.Init
+ - IMiniportWavePci::Init
 ---
 
 # IMiniportWavePci::Init
@@ -98,3 +98,4 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+

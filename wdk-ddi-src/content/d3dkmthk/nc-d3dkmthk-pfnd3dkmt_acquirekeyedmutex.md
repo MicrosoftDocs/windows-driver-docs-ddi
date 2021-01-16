@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTAcquireKeyedMutex
+ - PFND3DKMT_ACQUIREKEYEDMUTEX
 ---
 
 # PFND3DKMT_ACQUIREKEYEDMUTEX callback function
@@ -69,3 +69,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex">D3DKMT_ACQUIREKEYEDMUTEX</a>
+

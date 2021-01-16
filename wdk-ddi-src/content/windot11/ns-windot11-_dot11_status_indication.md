@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_STATUS_INDICATION
+ - PDOT11_STATUS_INDICATION
  - DOT11_STATUS_INDICATION
 product:
  - Windows 10 or later.
@@ -92,3 +94,4 @@ For the Windows Vista operating system, only
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
+

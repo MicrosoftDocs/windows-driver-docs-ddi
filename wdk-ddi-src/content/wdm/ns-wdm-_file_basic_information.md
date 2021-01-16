@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FILE_BASIC_INFORMATION
+ - PFILE_BASIC_INFORMATION
  - FILE_BASIC_INFORMATION
 ---
 
@@ -94,3 +96,4 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 [ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
 [ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md)
+

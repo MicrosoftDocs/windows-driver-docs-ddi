@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnGetVideoDecoderProfile
+ - PFND3D11_1DDI_GETVIDEODECODERPROFILE
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ The Microsoft Direct3D runtime verifies that the <i>Index</i> parameter data is 
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount">GetVideoDecoderProfileCount</a>
+

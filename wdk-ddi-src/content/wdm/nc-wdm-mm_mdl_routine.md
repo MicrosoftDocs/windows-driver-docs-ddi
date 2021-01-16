@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
- - PMM_MDL_ROUTINE
+ - MM_MDL_ROUTINE
 ---
 
 # MM_MDL_ROUTINE callback function
@@ -64,3 +64,4 @@ A pointer to a buffer that contains the system virtual address of the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapmdl">MmMapMdl</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _GetFC3MgmtInfo_OUT
+ - PGetFC3MgmtInfo_OUT
  - GetFC3MgmtInfo_OUT
 ---
 
@@ -78,3 +80,4 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 
 <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
+

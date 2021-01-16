@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - SystemClockGetTime
+ - PFNKSCLOCK_GETTIME
 ---
 
 # PFNKSCLOCK_GETTIME callback function
@@ -73,3 +73,4 @@ You can obtain an entry point for this routine by supplying a driver-allocated <
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
+

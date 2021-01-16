@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - pfnGetResourceLayout
+ - PFND3DWDDM2_0DDI_GETRESOURCELAYOUT
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback function

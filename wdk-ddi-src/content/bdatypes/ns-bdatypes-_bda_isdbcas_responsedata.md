@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_ISDBCAS_RESPONSEDATA
+ - PBDA_ISDBCAS_RESPONSEDATA
  - BDA_ISDBCAS_RESPONSEDATA
 ---
 

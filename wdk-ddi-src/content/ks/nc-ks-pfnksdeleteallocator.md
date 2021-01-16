@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - AVStrMiniDeleteAllocator
+ - PFNKSDELETEALLOCATOR
 ---
 
 # PFNKSDELETEALLOCATOR callback function
@@ -73,3 +73,4 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-allocator
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+

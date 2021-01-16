@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces4.GetOffsetInformation
+ - IDebugDataSpaces4::GetOffsetInformation
 ---
 
 # IDebugDataSpaces4::GetOffsetInformation
@@ -147,3 +147,4 @@ The method was successful.
 </td>
 </tr>
 </table>
+

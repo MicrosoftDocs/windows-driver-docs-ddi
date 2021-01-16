@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintCorePS2.GetFeatureAttribute
+ - IPrintCorePS2::GetFeatureAttribute
 ---
 
 # IPrintCorePS2::GetFeatureAttribute
@@ -179,3 +179,4 @@ For more information, see <a href="/windows-hardware/drivers/print/using-getfeat
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-getoptionattribute">IPrintCorePS2::GetOptionAttribute</a>
+

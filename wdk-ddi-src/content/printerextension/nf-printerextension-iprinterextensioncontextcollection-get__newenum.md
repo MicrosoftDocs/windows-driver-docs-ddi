@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterExtensionContextCollection.NewEnum
+ - IPrinterExtensionContextCollection::get__NewEnum
 ---
 
 # IPrinterExtensionContextCollection::get__NewEnum method
@@ -61,3 +61,4 @@ Returns an <b>HRESULT</b> value. If the property call was not successful,  it re
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
+

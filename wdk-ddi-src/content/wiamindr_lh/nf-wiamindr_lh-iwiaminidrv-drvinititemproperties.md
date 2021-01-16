@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvInitItemProperties
+ - IWiaMiniDrv::drvInitItemProperties
 ---
 
 # IWiaMiniDrv::drvInitItemProperties
@@ -102,3 +102,4 @@ The **IWiaMiniDrv::drvInitItemProperties** method is called once per application
 [wiasSetItemPropNames](../wiamdef/nf-wiamdef-wiassetitempropnames.md)
 
 [wiasWriteMultiple](../wiamdef/nf-wiamdef-wiaswritemultiple.md)
+

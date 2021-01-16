@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _SET_LOCAL_HOST_PROPS3
+ - PSET_LOCAL_HOST_PROPS3
  - SET_LOCAL_HOST_PROPS3
 ---
 
@@ -109,3 +111,4 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
+

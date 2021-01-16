@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiGetRootPageTableSize
+ - DXGKDDI_GETROOTPAGETABLESIZE
 product:
  - Windows
 ---
@@ -64,3 +64,4 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getroot
 ## -returns
 
 The page table size in bytes. The size must be a multiple of the page size of the GPU memory segment where page table is located.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnDestroyContextCb
+ - PFND3DDDI_DESTROYCONTEXTCB
 product:
  - Windows
 ---
@@ -99,3 +99,4 @@ The following code example shows how to destroy the default context for a displa
 
 
 <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
+

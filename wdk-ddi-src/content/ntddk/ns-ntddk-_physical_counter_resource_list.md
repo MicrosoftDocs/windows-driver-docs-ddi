@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _PHYSICAL_COUNTER_RESOURCE_LIST
+ - PPHYSICAL_COUNTER_RESOURCE_LIST
  - PHYSICAL_COUNTER_RESOURCE_LIST
 ---
 
@@ -77,3 +79,4 @@ The <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halallocatehardwarecou
 
 
 [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md)
+

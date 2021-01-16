@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniportWaveRTInputStream.GetReadPacket
+ - IMiniportWaveRTInputStream::GetReadPacket
 ---
 
 # IMiniportWaveRTInputStream::GetReadPacket
@@ -88,3 +88,4 @@ The packet size is the WaveRT buffer size divided by the NotificationCount passe
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertinputstream">IMiniportWaveRTInputStream</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_GETROOTPAGETABLESIZE
  - DXGKARG_GETROOTPAGETABLESIZE
 ---
 
@@ -64,3 +65,4 @@ Physical adapter index (zero for non-linked display adapter configurations).
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getrootpagetablesize">DxgkDdiGetRootPageTableSize</a>
+

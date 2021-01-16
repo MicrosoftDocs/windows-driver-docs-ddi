@@ -41,6 +41,8 @@ api_type:
 api_location:
  - tcpxcv.h
 api_name:
+ - _PORT_DATA_1
+ - PPORT_DATA_1
  - PORT_DATA_1
 ---
 
@@ -118,3 +120,4 @@ See <a href="/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv In
 ## -see-also
 
 <a href="/previous-versions/ff564255(v=vs.85)">XcvData</a>
+

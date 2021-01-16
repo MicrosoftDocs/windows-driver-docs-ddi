@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - CreateAuthenticatedChannel
+ - PFND3DDDI_CREATEAUTHENTICATEDCHANNEL
 product:
  - Windows
 ---
@@ -80,3 +80,4 @@ The driver must keep track of the display device (<i>hDevice</i>) that was used 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createauthenicatedchannel">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
+

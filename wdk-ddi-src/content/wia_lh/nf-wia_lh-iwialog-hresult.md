@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaLog.hResult
+ - IWiaLog::hResult
 ---
 
 # IWiaLog::hResult
@@ -59,3 +59,4 @@ Specifies the HRESULT value to translate into a string.
 ## -returns
 
 If the method succeeds, it returns S_OK. If the method fails, it returns a standard COM error code.
+

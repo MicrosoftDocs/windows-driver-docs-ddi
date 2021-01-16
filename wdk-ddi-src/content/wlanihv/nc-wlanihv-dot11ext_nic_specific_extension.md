@@ -38,7 +38,7 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
- - Dot11ExtNicSpecificExtension
+ - DOT11EXT_NIC_SPECIFIC_EXTENSION
 ---
 
 # DOT11EXT_NIC_SPECIFIC_EXTENSION callback
@@ -130,3 +130,4 @@ The
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+

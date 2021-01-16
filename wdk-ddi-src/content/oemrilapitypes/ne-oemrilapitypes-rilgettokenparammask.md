@@ -39,6 +39,7 @@ api_type:
 api_location:
  - oemrilapitypes.h
 api_name:
+ - RILGETTOKENPARAMMASK
  - RILDEVSPECIFICPARAMMASK
 ---
 

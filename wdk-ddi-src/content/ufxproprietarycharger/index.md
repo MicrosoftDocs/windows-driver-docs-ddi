@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ufxproprietarycharger
  - ufxproprietarycharger/ufxproprietarycharger
+api_name:
+ - ufxproprietarycharger
 ---
 
 # Ufxproprietarycharger.h header

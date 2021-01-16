@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfmemory.h
 api_name:
+ - _WDF_MEMORY_DESCRIPTOR
+ - PWDF_MEMORY_DESCRIPTOR
  - WDF_MEMORY_DESCRIPTOR
 ---
 
@@ -112,3 +114,4 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfmemory/ne-wdfmemory-_wdf_memory_descriptor_type">WDF_MEMORY_DESCRIPTOR_TYPE</a>
+

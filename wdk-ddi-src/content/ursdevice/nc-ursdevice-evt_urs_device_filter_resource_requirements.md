@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ursdevice.h
 api_name:
- - PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
+ - EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 ---
 
 # EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function
@@ -205,7 +205,6 @@ EvtUrsFilterRemoveResourceRequirements (
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>
@@ -221,3 +220,4 @@ EvtUrsFilterRemoveResourceRequirements (
 
 
 <a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremove">WdfIoResourceListRemove</a>
+

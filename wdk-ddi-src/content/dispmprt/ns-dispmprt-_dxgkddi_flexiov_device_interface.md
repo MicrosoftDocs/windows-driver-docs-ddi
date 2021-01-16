@@ -36,6 +36,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - PDXGKDDI_FLEXIOV_DEVICE_INTERFACE
+ - DXGKDDI_FLEXIOV_DEVICE_INTERFACE
 dev_langs:
  - c++
 ---

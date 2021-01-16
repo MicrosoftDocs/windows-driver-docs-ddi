@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKS_FRAMING_RANGE_WEIGHTED
  - KS_FRAMING_RANGE_WEIGHTED
 ---
 
@@ -66,3 +67,4 @@ Not currently supported. Drivers should set to zero.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_item">KS_FRAMING_ITEM</a>
+

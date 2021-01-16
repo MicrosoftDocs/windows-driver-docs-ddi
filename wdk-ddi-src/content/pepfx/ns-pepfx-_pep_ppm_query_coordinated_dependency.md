@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PPM_QUERY_COORDINATED_DEPENDENCY
+ - PPEP_PPM_QUERY_COORDINATED_DEPENDENCY
  - PEP_PPM_QUERY_COORDINATED_DEPENDENCY
 ---
 
@@ -84,3 +86,4 @@ The <b>PEP_PPM_QUERY_COORDINATED_DEPENDENCY</b> structure describes dependencies
 
 
 <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+

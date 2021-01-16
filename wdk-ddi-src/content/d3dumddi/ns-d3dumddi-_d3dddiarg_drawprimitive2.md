@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DRAWPRIMITIVE2
  - D3DDDIARG_DRAWPRIMITIVE2
 ---
 
@@ -74,3 +75,4 @@ The Microsoft Direct3D runtime transforms the vertex data before passing a point
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_drawprimitive2">DrawPrimitive2</a>
+

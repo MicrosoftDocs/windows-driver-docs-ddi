@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wia_lh.h
 api_name:
- - IWiaTransferCallback.GetNextStream
+ - IWiaTransferCallback::GetNextStream
 ---
 
 # IWiaTransferCallback::GetNextStream
@@ -92,3 +92,4 @@ In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image proc
 
 
 <a href="/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback</a>
+

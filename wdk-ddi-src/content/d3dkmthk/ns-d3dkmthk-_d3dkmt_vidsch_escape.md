@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_VIDSCH_ESCAPE
  - D3DKMT_VIDSCH_ESCAPE
 ---
 
@@ -106,3 +107,4 @@ Time period to suspend.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_vidschescapetype">D3DKMT_VIDSCHESCAPETYPE</a>
+

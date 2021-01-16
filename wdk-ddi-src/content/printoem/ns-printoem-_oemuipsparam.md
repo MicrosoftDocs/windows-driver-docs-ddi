@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _OEMUIPSPARAM
+ - POEMUIPSPARAM
  - OEMUIPSPARAM
 ---
 
@@ -140,3 +142,4 @@ Reserved for system use.
 
 
 <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>
+

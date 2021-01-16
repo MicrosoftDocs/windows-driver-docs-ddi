@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfio.h
 api_name:
- - EvtIoWrite
+ - EVT_WDF_IO_QUEUE_IO_WRITE
 ---
 
 # EVT_WDF_IO_QUEUE_IO_WRITE callback function
@@ -105,3 +105,4 @@ A driver's <i>EvtIoWrite</i> callback function should not call the following que
 
 
 <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
+

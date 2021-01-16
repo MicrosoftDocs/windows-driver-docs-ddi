@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _TRANSACTION_OUTCOME
  - TRANSACTION_OUTCOME
 ---
 
@@ -70,3 +71,4 @@ The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="/windows-hard
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a>
+

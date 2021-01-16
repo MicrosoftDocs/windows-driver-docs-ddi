@@ -38,9 +38,7 @@ api_location:
  - Ntstrsafe.lib
  - Ntstrsafe.dll
 api_name:
- - RtlStringCchCatEx
  - RtlStringCchCatExA
- - RtlStringCchCatExW
 ---
 
 # RtlStringCchCatExA function
@@ -267,3 +265,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatnexa">RtlStringCchCatNEx</a>
+

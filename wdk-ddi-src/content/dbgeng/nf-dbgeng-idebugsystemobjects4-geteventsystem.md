@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects3.GetEventSystem
- - IDebugSystemObjects4.GetEventSystem
+ - IDebugSystemObjects4::GetEventSystem
 ---
 
 # IDebugSystemObjects4::GetEventSystem
@@ -92,3 +91,4 @@ The method was successful.
 
 
 <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>
+

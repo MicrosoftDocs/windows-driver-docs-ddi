@@ -41,6 +41,8 @@ api_type:
 api_location:
  - charging.h
 api_name:
+ - _CONFIGURABLE_CHARGER_PROPERTY_HEADER
+ - PCONFIGURABLE_CHARGER_PROPERTY_HEADER
  - CONFIGURABLE_CHARGER_PROPERTY_HEADER
 ---
 
@@ -93,7 +95,7 @@ Make sure you set <b>Header.Size</b> to the appropriate size of your new structu
 Header.Size = sizeof(SET_MY_CHARGER_VOLTAGE);
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/charging/ni-charging-ioctl_internal_configure_charger_property">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - GenerateMipSubLevels
+ - PFND3DDDI_GENERATEMIPSUBLEVELS
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ After the user-mode display driver performs an operation that accesses only the 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
+

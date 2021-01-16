@@ -37,7 +37,7 @@ api_type:
 api_location:
  - UdecxWdfDevice.h
 api_name:
- - EvtUdecxWdfDeviceQueryUsbCapability
+ - EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY
 ---
 
 # EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback function
@@ -111,3 +111,4 @@ For other GUIDs, the class extension invokes the client driver's implementation,
 
 
 <a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
+

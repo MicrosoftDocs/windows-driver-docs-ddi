@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_LIST_HEADER
+ - PWWAN_LIST_HEADER
  - WWAN_LIST_HEADER
 ---
 
@@ -95,3 +97,4 @@ You can assume that the list of elements is stored in memory immediately followi
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a>
+

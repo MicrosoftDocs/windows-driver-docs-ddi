@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_TVAUDIO_S
  - KSPROPERTY_TVAUDIO_S
 ---
 
@@ -127,3 +128,4 @@ Indicates that the audio is in the third language supported by the device.
 
 
 <a href="/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>
+

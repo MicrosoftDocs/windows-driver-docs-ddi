@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_QOS_CAPABILITIES
+ - PNDIS_QOS_CAPABILITIES
  - NDIS_QOS_CAPABILITIES
 ---
 
@@ -179,3 +181,4 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
 
 <a href="/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>
+

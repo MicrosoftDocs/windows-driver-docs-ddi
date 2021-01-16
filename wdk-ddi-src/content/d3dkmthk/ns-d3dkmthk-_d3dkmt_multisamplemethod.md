@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_MULTISAMPLEMETHOD
  - D3DKMT_MULTISAMPLEMETHOD
 ---
 
@@ -74,3 +75,4 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
+

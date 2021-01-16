@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _GET_BAND_METADATA_PARAMETERS
+ - PGET_BAND_METADATA_PARAMETERS
  - GET_BAND_METADATA_PARAMETERS
 ---
 
@@ -88,3 +90,4 @@ If <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>
+

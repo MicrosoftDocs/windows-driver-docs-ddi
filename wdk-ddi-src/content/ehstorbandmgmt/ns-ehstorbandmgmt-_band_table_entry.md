@@ -41,6 +41,8 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
+ - _BAND_TABLE_ENTRY
+ - PBAND_TABLE_ENTRY
  - BAND_TABLE_ENTRY
 ---
 
@@ -80,3 +82,4 @@ The band security information. This includes encryption algorithm information wh
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a>
+

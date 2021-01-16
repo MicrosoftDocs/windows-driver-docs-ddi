@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql:
+req.irql: 
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -37,10 +37,11 @@ api_type:
 api_location:
  - oprghdlr.h
 api_name:
- - AcpiOpRegionHandler
+ - ACPI_OP_REGION_HANDLER
 ---
 
 # ACPI_OP_REGION_HANDLER callback function
+
 
 ## -description
 
@@ -108,3 +109,4 @@ For detailed information about constraints on operation regions, see the [Advanc
 ## -see-also
 
 [DeRegisterOpRegionHandler](nf-oprghdlr-deregisteropregionhandler.md)
+

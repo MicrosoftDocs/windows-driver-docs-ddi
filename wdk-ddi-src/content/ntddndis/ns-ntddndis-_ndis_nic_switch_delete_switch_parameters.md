@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
+ - PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
  - NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
 ---
 
@@ -97,3 +99,4 @@ The <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure is used in OID met
 
 
 <a href="/windows-hardware/drivers/network/oid-nic-switch-delete-switch">OID_NIC_SWITCH_DELETE_SWITCH</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
+ - _PD_BUFFER_8021Q_INFO
  - PD_BUFFER_8021Q_INFO
 ---
 

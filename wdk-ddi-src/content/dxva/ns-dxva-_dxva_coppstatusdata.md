@@ -39,6 +39,7 @@ api_type:
 api_location:
  - dxva.h
 api_name:
+ - _DXVA_COPPStatusData
  - DXVA_COPPStatusData
 ---
 
@@ -225,3 +226,4 @@ The display driver returns status information through the <i>pOutput</i> paramet
 
 
 <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusoutput">DXVA_COPPStatusOutput</a>
+

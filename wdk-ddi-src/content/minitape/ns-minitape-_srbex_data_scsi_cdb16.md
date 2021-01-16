@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Storport.h
 api_name:
+ - _SRBEX_DATA_SCSI_CDB16
+ - PSRBEX_DATA_SCSI_CDB16
  - SRBEX_DATA_SCSI_CDB16
 ---
 
@@ -101,3 +103,4 @@ This structure is used to submit an extended SRB data for a CDB of 16 bytes or l
 
 
 <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
+

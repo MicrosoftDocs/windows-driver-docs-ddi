@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest3.SetActivityId
+ - IWDFIoRequest3::SetActivityId
 ---
 
 # IWDFIoRequest3::SetActivityId
@@ -88,3 +88,4 @@ For a code example that uses <b>SetActivityId</b>, see <a href="/windows-hardwar
 
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsetactivityid">WdfRequestSetActivityId</a>
+

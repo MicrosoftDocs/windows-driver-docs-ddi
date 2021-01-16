@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEAP_ACPI_TIMEOUT_EVENT
+ - PWHEAP_ACPI_TIMEOUT_EVENT
  - WHEAP_ACPI_TIMEOUT_EVENT
 f1_keywords:
  - _WHEAP_ACPI_TIMEOUT_EVENT

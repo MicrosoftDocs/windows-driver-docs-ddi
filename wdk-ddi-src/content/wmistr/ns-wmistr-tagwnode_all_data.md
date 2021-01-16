@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wmistr.h
 api_name:
+ - tagWNODE_ALL_DATA
+ - PWNODE_ALL_DATA
  - WNODE_ALL_DATA
 ---
 
@@ -120,3 +122,4 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 
 <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSPROPERTY_SELECTOR_NODE_S
  - KSPROPERTY_SELECTOR_NODE_S
 ---
 
@@ -70,3 +71,4 @@ Specifies the capabilities of a property. This member has meaning only for Get r
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_selector_s">KSPROPERTY_SELECTOR_S</a>
+

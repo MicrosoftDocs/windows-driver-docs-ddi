@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_PRESENT1
  - D3DDDIARG_PRESENT1
 ---
 
@@ -113,3 +114,4 @@ The number of physical back buffer per logical back buffer.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentcb">pfnPresentCb</a>
+

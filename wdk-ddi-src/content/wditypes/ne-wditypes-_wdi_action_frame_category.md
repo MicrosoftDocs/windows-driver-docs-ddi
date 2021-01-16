@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_ACTION_FRAME_CATEGORY
  - WDI_ACTION_FRAME_CATEGORY
 ---
 

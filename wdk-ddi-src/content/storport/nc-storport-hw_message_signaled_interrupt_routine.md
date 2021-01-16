@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwMSInterruptRoutine
+ - HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE
 ---
 
 # HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback function
@@ -119,3 +119,4 @@ The **HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE** function type is defined in the St
 [**StorPortGetMSIInfo**](nf-storport-storportgetmsiinfo.md)
 
 [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md)
+

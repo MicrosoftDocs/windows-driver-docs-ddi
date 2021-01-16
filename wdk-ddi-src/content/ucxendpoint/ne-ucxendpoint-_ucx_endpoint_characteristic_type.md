@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ucxendpoint.h
 api_name:
+ - _UCX_ENDPOINT_CHARACTERISTIC_TYPE
  - UCX_ENDPOINT_CHARACTERISTIC_TYPE
 ---
 
@@ -58,3 +59,4 @@ The type of characteristic of the endpoint.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_characteristic">UCX_ENDPOINT_CHARACTERISTIC</a>
+

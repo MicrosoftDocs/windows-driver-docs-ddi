@@ -41,6 +41,8 @@ api_type:
 api_location:
  - scsi.h
 api_name:
+ - _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
+ - PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
  - WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
 ---
 
@@ -100,3 +102,4 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a>
+

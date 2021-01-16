@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdasup.h
 api_name:
+ - _KSM_PIN
+ - PKSM_PIN
  - KSM_PIN
 ---
 
@@ -76,3 +78,4 @@ When the network provider creates or deletes a pin for a filter using either KSM
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a>
+

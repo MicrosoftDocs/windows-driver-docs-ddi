@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_TARGET_MODE structure"]
 ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, _D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_VIDPN_TARGET_MODE
  - D3DKMDT_VIDPN_TARGET_MODE
 ---
 
@@ -80,3 +81,4 @@ For more information about video present targets and VidPN target modes, see <a 
 
 
 <a href="/windows-hardware/drivers/ddi/index">VidPN Target Mode Set Interface</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - EhStorIoctl.h
 api_name:
+ - _PDO_TYPE
  - PDO_TYPE
 ---
 
@@ -72,3 +73,4 @@ This value indicates the PDO is for a logical silo device.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+

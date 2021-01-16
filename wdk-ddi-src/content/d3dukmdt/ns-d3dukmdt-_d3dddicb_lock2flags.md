@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDICB_LOCK2FLAGS
  - D3DDDICB_LOCK2FLAGS
 ---
 
@@ -68,3 +69,4 @@ This member must be zero.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a>
+

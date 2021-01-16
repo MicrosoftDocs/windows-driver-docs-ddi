@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_PVP_SETKEY
  - DXVADDI_PVP_SETKEY
 ---
 
@@ -66,3 +67,4 @@ The DXVADDI_PVP_SETKEY structure describes a key that the decode device uses to 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decodebeginframe">DecodeBeginFrame</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndischimney.h
 api_name:
- - MiniportQueryOffload
+ - W_QUERY_OFFLOAD_HANDLER
 ---
 
 # W_QUERY_OFFLOAD_HANDLER callback function
@@ -138,3 +138,4 @@ The query operation did not succeed. The host stack will terminate the state obj
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

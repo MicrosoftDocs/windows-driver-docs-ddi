@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValuesCollection.Clear
+ - IPortableDeviceValuesCollection::Clear
 ---
 
 # IPortableDeviceValuesCollection::Clear
@@ -77,3 +77,4 @@ The method releases all memory that is allocated for the items in the collection
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection Interface</a>
+

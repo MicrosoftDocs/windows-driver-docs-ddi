@@ -37,8 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrintSchemaOption.Constrained
- - IPrintSchemaOption.get_Constrained
+ - IPrintSchemaOption::get_Constrained
 ---
 
 # IPrintSchemaOption::get_Constrained
@@ -59,3 +58,4 @@ This property is read-only.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaconstrainedsetting">PrintSchemaConstrainedSetting</a>
+

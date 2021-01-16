@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkSrqNotificationCallback
+ - NDK_FN_SRQ_NOTIFICATION_CALLBACK
 ---
 
 # NDK_FN_SRQ_NOTIFICATION_CALLBACK callback function
@@ -95,3 +95,4 @@ A catastrophic error occurred on the SRQ. The SRQ is unusable. All of the associ
 <div class="alert"><b>Note</b>  This routine is implemented by the NDK consumer and passed to the NDK provider.</div>
 <div> </div>
 An NDK provider calls the <i>NdkSrqNotificationCallback</i> function when the number of receive requests that are queued on the SRQ falls below the minimum number of queued receive requests (<i>NotifyThreshold</i>). The   <i>NotifyThreshold</i> is an input parameter to the <i>NdkCreateSrq</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_srq">NDK_FN_CREATE_SRQ</a>)  and <i>NdkModifySrq</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_modify_srq">NDK_FN_MODIFY_SRQ</a>)  functions.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _UFF_FONTDIRECTORY
+ - PUFF_FONTDIRECTORY
  - UFF_FONTDIRECTORY
 ---
 
@@ -185,3 +187,4 @@ If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contai
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
+

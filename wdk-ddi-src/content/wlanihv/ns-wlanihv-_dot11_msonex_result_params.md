@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11_MSONEX_RESULT_PARAMS
+ - PDOT11_MSONEX_RESULT_PARAMS
  - DOT11_MSONEX_RESULT_PARAMS
 ---
 
@@ -117,3 +119,4 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 
 <a href="/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a>
+

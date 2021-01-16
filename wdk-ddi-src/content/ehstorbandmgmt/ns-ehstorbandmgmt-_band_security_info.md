@@ -41,7 +41,9 @@ api_type:
 api_location:
  - EhStorBandMgmt.h
 api_name:
- - BAND_LOCATION_INFO
+ - _BAND_SECURITY_INFO
+ - PBAND_SECURITY_INFO
+ - BAND_SECURITY_INFO
 ---
 
 # _BAND_SECURITY_INFO structure
@@ -184,3 +186,4 @@ When <b>BAND_SECURITY_INFO</b> is used in an input parameter set, <b>CryptoAlgoI
 
 
 <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+

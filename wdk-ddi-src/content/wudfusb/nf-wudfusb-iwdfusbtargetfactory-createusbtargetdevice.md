@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFUsbTargetFactory.CreateUsbTargetDevice
+ - IWDFUsbTargetFactory::CreateUsbTargetDevice
 ---
 
 # IWDFUsbTargetFactory::CreateUsbTargetDevice
@@ -199,7 +199,6 @@ CUmdfHidDevice::OnPrepareHardware(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
@@ -219,3 +218,4 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 <a href="/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+

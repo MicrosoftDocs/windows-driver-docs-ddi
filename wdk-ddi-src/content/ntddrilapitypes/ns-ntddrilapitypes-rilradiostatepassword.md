@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILRADIOSTATEPASSWORD
+ - LPRILRADIOSTATEPASSWORD
 ---
 
 # RILRADIOSTATEPASSWORD structure (ntddrilapitypes.h)

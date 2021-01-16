@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VP_SCATTER_GATHER_ELEMENT
+ - PVP_SCATTER_GATHER_ELEMENT
  - VP_SCATTER_GATHER_ELEMENT
 ---
 
@@ -74,3 +76,4 @@ A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="/windows-ha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a>
+

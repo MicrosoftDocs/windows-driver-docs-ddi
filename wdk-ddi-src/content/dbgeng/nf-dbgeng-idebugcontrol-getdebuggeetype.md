@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetDebuggeeType
- - IDebugControl2.GetDebuggeeType
- - IDebugControl3.GetDebuggeeType
+ - IDebugControl::GetDebuggeeType
 ---
 
 # IDebugControl::GetDebuggeeType
@@ -236,3 +234,4 @@ The method was successful.
 </td>
 </tr>
 </table>
+

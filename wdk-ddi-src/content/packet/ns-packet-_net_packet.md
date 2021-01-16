@@ -34,6 +34,7 @@ api_type:
 api_location:
  - packet.h
 api_name:
+ - _NET_PACKET
  - NET_PACKET
 ---
 

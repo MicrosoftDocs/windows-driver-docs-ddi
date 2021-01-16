@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbscan.h
 api_name:
+ - _USBSCAN_TIMEOUT
+ - PUSBSCAN_TIMEOUT
  - USBSCAN_TIMEOUT
 ---
 
@@ -74,3 +76,4 @@ The USBSCAN_TIMEOUT structure is used as a parameter to <a href="/windows/win32/
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_set_timeout">IOCTL_SET_TIMEOUT</a>
+

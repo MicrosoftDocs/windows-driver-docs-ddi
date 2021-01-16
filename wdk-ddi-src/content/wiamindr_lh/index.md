@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - wiamindr_lh
  - wiamindr_lh/wiamindr_lh
+api_name:
+ - wiamindr_lh
 ---
 
 # Wiamindr_Lh.h header

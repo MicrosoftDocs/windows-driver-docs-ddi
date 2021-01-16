@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILDIALEDIDSETTINGS
+ - LPRILDIALEDIDSETTINGS
 ---
 
 # RILDIALEDIDSETTINGS structure (rilapitypes.h)

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetDeviceFormat
+ - IMiniportAudioEngineNode::GetDeviceFormat
 ---
 
 # IMiniportAudioEngineNode::GetDeviceFormat
@@ -77,3 +77,4 @@ returns an appropriate error code.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+

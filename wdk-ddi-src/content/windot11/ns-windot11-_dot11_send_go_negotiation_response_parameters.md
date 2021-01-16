@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
+ - PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
  - DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
 product:
  - Windows 10 or later.
@@ -161,3 +163,4 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS {
 
 
 <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-invitation-response">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
+

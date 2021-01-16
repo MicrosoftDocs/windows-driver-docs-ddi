@@ -38,7 +38,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiQueryAdapterInfo
+ - DXGKDDI_QUERYADAPTERINFO
 product:
  - Windows
 dev_langs:
@@ -97,3 +97,4 @@ If the DirectX graphics kernel subsystem supplies the DXGKQAITYPE_QUERYSEGMENT v
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb">pfnQueryAdapterInfoCb</a>
+

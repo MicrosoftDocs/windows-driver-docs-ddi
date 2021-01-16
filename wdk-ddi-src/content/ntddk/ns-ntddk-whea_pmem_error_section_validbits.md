@@ -35,6 +35,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _WHEA_PMEM_ERROR_SECTION_VALIDBITS
+ - PWHEA_PMEM_ERROR_SECTION_VALIDBITS
  - WHEA_PMEM_ERROR_SECTION_VALIDBITS
 product:
  - Windows

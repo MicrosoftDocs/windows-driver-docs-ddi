@@ -33,6 +33,7 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VGPU_CAPABILITY_TYPE
+ - DXGK_VGPU_CAPABILITY_TYPE
 product:
  - Windows
 dev_langs:

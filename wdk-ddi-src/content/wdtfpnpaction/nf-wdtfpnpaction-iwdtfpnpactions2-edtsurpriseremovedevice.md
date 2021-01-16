@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfpnpaction.h
 api_name:
- - IWDTFPNPActions2.EDTSurpriseRemoveDevice
+ - IWDTFPNPActions2::EDTSurpriseRemoveDevice
 ---
 
 # IWDTFPNPActions2::EDTSurpriseRemoveDevice
@@ -67,5 +67,4 @@ method must be called for the target device before calling this method.</div>
 This operation is useful for testing 
 how drivers and driver/device aware applications handle the IRP_MN_SURPRISE_REMOVAL event, e.g. scenarios in which 
 the device unexpectedly fails or is removed.
-
 

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _NDIS_TCP_OFFLOAD_EVENT_HANDLERS
+ - PNDIS_TCP_OFFLOAD_EVENT_HANDLERS
  - NDIS_TCP_OFFLOAD_EVENT_HANDLERS
 ---
 
@@ -131,3 +133,4 @@ An offload target copies the entry points in the NDIS_TCP_OFFLOAD_EVENT_HANDLERS
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>
+

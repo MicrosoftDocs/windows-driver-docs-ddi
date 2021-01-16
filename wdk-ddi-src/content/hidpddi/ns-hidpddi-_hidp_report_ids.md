@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Hidpddi.h
 api_name:
+ - _HIDP_REPORT_IDS
+ - PHIDP_REPORT_IDS
  - HIDP_REPORT_IDS
 ---
 
@@ -76,3 +78,4 @@ The length of a feature report of this report ID.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
+

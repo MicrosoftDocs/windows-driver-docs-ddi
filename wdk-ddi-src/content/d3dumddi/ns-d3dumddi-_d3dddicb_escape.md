@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDICB_ESCAPE
  - D3DDDICB_ESCAPE
 ---
 
@@ -86,3 +87,4 @@ The D3DDDICB_ESCAPE structure describes information that a user-mode display dri
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
+

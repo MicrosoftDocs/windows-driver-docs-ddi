@@ -39,6 +39,7 @@ api_type:
 api_location:
  - bthddi.h
 api_name:
+ - _CO_HEADER
  - CO_HEADER
 ---
 
@@ -66,3 +67,4 @@ The size, in bytes, of the vendor-specific option stored in the L2CAP_CONFIG_OPT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_option">L2CAP_CONFIG_OPTION</a>
+

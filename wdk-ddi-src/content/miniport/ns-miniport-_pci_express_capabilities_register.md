@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
+ - _PCI_EXPRESS_CAPABILITIES_REGISTER
+ - PPCI_EXPRESS_CAPABILITIES_REGISTER
  - PCI_EXPRESS_CAPABILITIES_REGISTER
 ---
 
@@ -164,3 +166,4 @@ A PCI_EXPRESS_CAPABILITIES_REGISTER structure is contained in the <a href="/wind
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+

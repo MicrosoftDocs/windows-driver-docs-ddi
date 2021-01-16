@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_UNLOCK
  - D3DKMT_UNLOCK
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_UNLOCK structure describes allocations to unlock.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunlock">D3DKMTUnlock</a>
+

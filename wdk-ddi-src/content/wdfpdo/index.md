@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfpdo
  - wdfpdo/wdfpdo
+api_name:
+ - wdfpdo
 ---
 
 # Wdfpdo.h header
@@ -85,3 +87,4 @@ The categories on this page are:
 
 - [**WDF_PDO_EVENT_CALLBACKS**](./ns-wdfpdo-_wdf_pdo_event_callbacks.md)
 - [**WDF_PDO_EVENT_CALLBACKS_INIT**](./nf-wdfpdo-wdf_pdo_event_callbacks_init.md)
+

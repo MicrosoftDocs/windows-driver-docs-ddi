@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _FILE_ATTRIBUTE_TAG_INFORMATION
+ - PFILE_ATTRIBUTE_TAG_INFORMATION
  - FILE_ATTRIBUTE_TAG_INFORMATION
 ---
 
@@ -72,3 +74,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+

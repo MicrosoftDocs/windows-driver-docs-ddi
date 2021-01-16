@@ -41,6 +41,8 @@ api_type:
 api_location:
  - strmini.h
 api_name:
+ - _HW_STREAM_INFORMATION
+ - PHW_STREAM_INFORMATION
  - HW_STREAM_INFORMATION
 ---
 
@@ -132,3 +134,4 @@ Note that the class driver does not use this data to handle the <a href="/window
 
 
 <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a>
+

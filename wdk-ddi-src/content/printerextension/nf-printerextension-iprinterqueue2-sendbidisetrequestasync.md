@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterQueue2.SendBidiSetRequestAsync
+ - IPrinterQueue2::SendBidiSetRequestAsync
 ---
 
 # IPrinterQueue2::SendBidiSetRequestAsync
@@ -81,3 +81,4 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a>
+

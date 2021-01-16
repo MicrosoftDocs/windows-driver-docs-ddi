@@ -37,11 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugClient.WriteDumpFile
- - IDebugClient2.WriteDumpFile
- - IDebugClient3.WriteDumpFile
- - IDebugClient4.WriteDumpFile
- - IDebugClient5.WriteDumpFile
+ - IDebugClient::WriteDumpFile
 ---
 
 # IDebugClient::WriteDumpFile
@@ -222,3 +218,4 @@ For a description of kernel-mode dump files, see <a href="/windows-hardware/driv
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfilewide">WriteDumpFileWide</a>
+

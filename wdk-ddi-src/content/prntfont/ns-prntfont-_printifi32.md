@@ -42,6 +42,8 @@ api_type:
 api_location:
  - prntfont.h
 api_name:
+ - _PRINTIFI32
+ - PPRINTIFI32
  - PRINTIFI32
 ---
 
@@ -1049,3 +1051,4 @@ The coordinate system in the font/notional space is such that the y coordinate i
 ## -see-also
 
 <a href="/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
+

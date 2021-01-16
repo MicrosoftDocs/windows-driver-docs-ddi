@@ -41,6 +41,8 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
+ - _DXGK_CHILD_STATUS
+ - PDXGK_CHILD_STATUS
  - DXGK_CHILD_STATUS
 ---
 
@@ -112,3 +114,4 @@ For more info, see <a href="/windows-hardware/drivers/display/wireless-displays-
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_MODE
+ - PWWAN_PIN_MODE
  - WWAN_PIN_MODE
 ---
 
@@ -73,3 +75,4 @@ The total number of supported PIN type states.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_desc">WWAN_PIN_DESC</a>
+

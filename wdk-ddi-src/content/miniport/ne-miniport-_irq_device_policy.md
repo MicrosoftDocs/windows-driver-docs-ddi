@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IRQ_DEVICE_POLICY
+ - PIRQ_DEVICE_POLICY
  - IRQ_DEVICE_POLICY
 ---
 
@@ -86,3 +88,4 @@ The <b>Interrupt.AffinityPolicy</b> member of the <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
+

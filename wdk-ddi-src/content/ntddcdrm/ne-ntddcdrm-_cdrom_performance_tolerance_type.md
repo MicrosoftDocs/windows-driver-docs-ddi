@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddcdrm.h
 api_name:
+ - _CDROM_PERFORMANCE_TOLERANCE_TYPE
+ - PCDROM_PERFORMANCE_TOLERANCE_TYPE
  - CDROM_PERFORMANCE_TOLERANCE_TYPE
 ---
 
@@ -64,3 +66,4 @@ Specifies that the descriptors returned have a 10% performance tolerance for the
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+

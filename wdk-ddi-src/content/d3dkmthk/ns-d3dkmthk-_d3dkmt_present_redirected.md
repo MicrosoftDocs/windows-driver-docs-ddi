@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_PRESENT_REDIRECTED
  - D3DKMT_PRESENT_REDIRECTED
 ---
 

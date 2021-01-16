@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - Location
+ - Location::Location
 ---
 
 # Location(constLocation&) function
@@ -60,3 +60,4 @@ This function is a constructor and does not return value.
 ## -see-also
 
 [dbgmodel.h header](./index.md)
+

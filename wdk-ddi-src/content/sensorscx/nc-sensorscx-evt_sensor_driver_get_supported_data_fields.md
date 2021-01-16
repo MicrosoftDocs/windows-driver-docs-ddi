@@ -37,10 +37,11 @@ api_type:
 api_location:
  - SensorsCx.h
 api_name:
- - EvtSensorGetSupportedDataFields
+ - EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS
 ---
 
 # EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function
+
 
 ## -description
 
@@ -76,3 +77,4 @@ This function must be implemented by the driver and is called by the class exten
 [SENSOR_PROPERTY_LIST](../sensorsdef/ns-sensorsdef-sensor_property_list.md)
 
 [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields)
+

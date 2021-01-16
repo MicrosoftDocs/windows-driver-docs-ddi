@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_CREATEDEVICE
  - DXGKARG_CREATEDEVICE
 ---
 
@@ -88,3 +89,4 @@ Supported starting with Windows 10.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
+

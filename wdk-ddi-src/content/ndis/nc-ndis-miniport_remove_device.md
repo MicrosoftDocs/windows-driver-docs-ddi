@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportRemoveDevice
+ - MINIPORT_REMOVE_DEVICE
 ---
 
 # MINIPORT_REMOVE_DEVICE callback function
@@ -121,3 +121,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pnp_characteristics">
    NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+

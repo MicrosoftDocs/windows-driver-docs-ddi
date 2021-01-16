@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KEY_SET_INFORMATION_CLASS
  - KEY_SET_INFORMATION_CLASS
 ---
 
@@ -92,3 +93,4 @@ A <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">Regist
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+

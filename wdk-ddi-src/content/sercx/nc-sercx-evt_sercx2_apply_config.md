@@ -37,7 +37,7 @@ api_type:
 api_location:
  - 2.0\Sercx.h
 api_name:
- - EvtSerCx2ApplyConfig
+ - EVT_SERCX2_APPLY_CONFIG
 ---
 
 # EVT_SERCX2_APPLY_CONFIG callback function
@@ -209,3 +209,4 @@ The pshpack1.h and poppack.h header files in the preceding code example control 
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>
+

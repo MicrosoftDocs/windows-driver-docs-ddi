@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_GDISURFACEFLAGS structure"]
 ms.keywords: D3DKMDT_GDISURFACEFLAGS, D3DKMDT_GDISURFACEFLAGS structure [Display Devices], DmStructs_6d5ae8f4-0155-41d5-b558-a229f68ffa99.xml, _D3DKMDT_GDISURFACEFLAGS, d3dkmdt/D3DKMDT_GDISURFACEFLAGS, display.d3dkmdt_gdisurfaceflags
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_GDISURFACEFLAGS
  - D3DKMDT_GDISURFACEFLAGS
 ---
 

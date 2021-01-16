@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - pfnReleaseMonitorSourceModeSet
+ - DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
 product:
  - Windows
 ---
@@ -81,3 +81,4 @@ This function is also available in the <a href="/windows-hardware/drivers/ddi/d3
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface_v2">DXGK_MONITOR_INTERFACE_V2</a>
+

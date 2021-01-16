@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
+ - tagPrintSchemaSelectionType
  - PrintSchemaSelectionType
 ---
 

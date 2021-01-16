@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugOutputCallbacks2.GetInterestMask
+ - IDebugOutputCallbacks2::GetInterestMask
 ---
 
 # IDebugOutputCallbacks2::GetInterestMask
@@ -116,3 +116,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks2">IDebugOutputCallbacks2</a>
+

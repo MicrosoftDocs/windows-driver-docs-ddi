@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest.GetRequestorProcessId
+ - IWDFIoRequest::GetRequestorProcessId
 ---
 
 # IWDFIoRequest::GetRequestorProcessId
@@ -56,3 +56,4 @@ The <b>GetRequestorProcessId</b> method retrieves the identifier of the process 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
+

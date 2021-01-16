@@ -13,6 +13,8 @@ ms.custom: RS5
 f1_keywords:
  - ucmucsidevice
  - ucmucsidevice/ucmucsidevice
+api_name:
+ - ucmucsidevice
 ---
 
 # Ucmucsidevice.h header
@@ -27,3 +29,4 @@ This header provides declaration for functions, callback functions, and structur
 For more information, see:
 - [Write a UcmUcsi client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
 - [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon)
+

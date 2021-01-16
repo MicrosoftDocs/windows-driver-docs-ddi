@@ -30,6 +30,7 @@ api_location:
  - ntddvdeo.h
 api_name:
  - _BACKLIGHT_OPTIMIZATION_LEVEL
+ - BACKLIGHT_OPTIMIZATION_LEVEL
 product:
  - Windows
 ---

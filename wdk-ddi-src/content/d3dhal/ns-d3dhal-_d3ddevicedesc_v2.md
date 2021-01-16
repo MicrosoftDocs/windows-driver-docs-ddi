@@ -41,6 +41,8 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DDeviceDesc_V2
+ - LPD3DDEVICEDESC_V2
  - D3DDEVICEDESC_V2
 ---
 
@@ -82,3 +84,4 @@ The D3DDEVICEDESC_V2 structure contains fields that are already reported in the
 } D3DDEVICEDESC_V2, *LPD3DDEVICEDESC_V2;</code></pre>
 
 ## -struct-fields
+

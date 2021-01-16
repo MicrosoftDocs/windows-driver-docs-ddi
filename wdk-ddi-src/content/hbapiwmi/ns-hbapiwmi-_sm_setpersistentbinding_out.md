@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SetPersistentBinding_OUT
+ - PSM_SetPersistentBinding_OUT
  - SM_SetPersistentBinding_OUT
 ---
 
@@ -68,3 +70,4 @@ The status of each entry.
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM__SetPersistentBinding_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+

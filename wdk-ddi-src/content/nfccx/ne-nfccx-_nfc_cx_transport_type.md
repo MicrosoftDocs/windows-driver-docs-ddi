@@ -41,7 +41,9 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
- - NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
+ - _NFC_CX_TRANSPORT_TYPE
+ - PNFC_CX_TRANSPORT_TYPE
+ - NFC_CX_TRANSPORT_TYPE
 ---
 
 # _NFC_CX_TRANSPORT_TYPE enumeration
@@ -76,3 +78,4 @@ Specifies a custom transport type.
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

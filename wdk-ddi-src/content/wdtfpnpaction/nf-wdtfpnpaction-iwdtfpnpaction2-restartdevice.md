@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.RestartDevice
+ - IWDTFPNPAction2::RestartDevice
 ---
 
 # IWDTFPNPAction2::RestartDevice
@@ -66,3 +66,4 @@ See the MSDN docs for details.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

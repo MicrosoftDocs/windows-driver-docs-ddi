@@ -37,7 +37,7 @@ api_type:
 api_location:
  - vhf.h
 api_name:
- - EvtVhfReadyForNextReadReport
+ - EVT_VHF_READY_FOR_NEXT_READ_REPORT
 ---
 
 # EVT_VHF_READY_FOR_NEXT_READ_REPORT callback function
@@ -63,3 +63,4 @@ If the HID source driver does not implement this callback function, VHF uses a d
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+

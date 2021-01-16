@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugDataSpaces2.ReadHandleData
- - IDebugDataSpaces3.ReadHandleData
- - IDebugDataSpaces4.ReadHandleData
+ - IDebugDataSpaces4::ReadHandleData
 ---
 
 # IDebugDataSpaces4::ReadHandleData
@@ -199,3 +197,4 @@ Handles
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
+

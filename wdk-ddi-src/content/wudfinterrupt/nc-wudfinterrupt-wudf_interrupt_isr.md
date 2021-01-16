@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfinterrupt.h
 api_name:
- - OnInterruptIsr
+ - WUDF_INTERRUPT_ISR
 ---
 
 # WUDF_INTERRUPT_ISR callback function
@@ -147,7 +147,6 @@ BOOLEAN
 
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">IWDFDevice3::CreateInterrupt</a>
@@ -159,3 +158,4 @@ BOOLEAN
 
 
 <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a>
+

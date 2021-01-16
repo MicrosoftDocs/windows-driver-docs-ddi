@@ -31,9 +31,11 @@ api_location:
  - poscxfuncenum.h
 api_name:
  - _POSCXFUNCENUM
+ - POSCXFUNCENUM
 ---
 
 # _POSCXFUNCENUM enumeration
+
 
 ## -description
 
@@ -112,3 +114,4 @@ Value = 16
 ## -remarks
 
 ## -see-also
+

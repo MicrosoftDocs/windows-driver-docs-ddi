@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriver.CreateWdfMemory
+ - IWDFDriver::CreateWdfMemory
 ---
 
 # IWDFDriver::CreateWdfMemory
@@ -128,7 +128,6 @@ CUmdfHidDevice::PrepareReader(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iobjectcleanup">IObjectCleanup</a>
@@ -156,3 +155,4 @@ CUmdfHidDevice::PrepareReader(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-deletewdfobject">IWDFObject::DeleteWdfObject</a>
+

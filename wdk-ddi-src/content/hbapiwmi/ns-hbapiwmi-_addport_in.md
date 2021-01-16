@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _AddPort_IN
+ - PAddPort_IN
  - AddPort_IN
 ---
 
@@ -60,3 +62,4 @@ Contains a worldwide name that indicates the port whose events are to be reporte
 ## -see-also
 
 <a href="/previous-versions/ff545022(v=vs.85)">AddPort</a>
+

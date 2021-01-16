@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - _UFS_STRING_DESCRIPTOR
+ - PUFS_STRING_DESCRIPTOR
  - UFS_STRING_DESCRIPTOR
 ---
 

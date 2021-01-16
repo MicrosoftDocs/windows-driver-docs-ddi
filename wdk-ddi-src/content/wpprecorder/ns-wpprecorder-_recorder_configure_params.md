@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wpprecorder.h
 api_name:
+ - _RECORDER_CONFIGURE_PARAMS
+ - PRECORDER_CONFIGURE_PARAMS
  - RECORDER_CONFIGURE_PARAMS
 ---
 
@@ -64,3 +66,4 @@ Indicates whether WPP should use the default log for trace messages. TRUE (defau
 ## -remarks
 
 To initialize this structure, the caller must call <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_configure_params_init">RECORDER_CONFIGURE_PARAMS_INIT</a>.
+

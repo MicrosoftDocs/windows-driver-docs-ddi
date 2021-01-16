@@ -40,6 +40,7 @@ api_location:
  - rilapitypes.h
 api_name:
  - RILPOSITIONINFO_V2
+ - LPRILPOSITIONINFO_V2
 ---
 
 # RILPOSITIONINFO_V2 structure (ntddrilapitypes.h)
@@ -147,3 +148,4 @@ struct RILPOSITIONINFO_V2 {
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
+

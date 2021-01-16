@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnWaitForSynchronizationObjectFromCpuCb
+ - PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB
 product:
  - Windows
 ---

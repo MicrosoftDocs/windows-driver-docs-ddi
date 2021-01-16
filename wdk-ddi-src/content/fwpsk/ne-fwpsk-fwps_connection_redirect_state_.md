@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_CONNECTION_REDIRECT_STATE_
  - FWPS_CONNECTION_REDIRECT_STATE
 ---
 
@@ -78,3 +79,4 @@ The FWPS_CONNECTION_REDIRECT_STATE enumeration is the return type for a call to 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>
+

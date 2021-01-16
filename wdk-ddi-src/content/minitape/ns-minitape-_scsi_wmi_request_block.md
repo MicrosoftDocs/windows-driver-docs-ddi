@@ -41,6 +41,8 @@ api_type:
 api_location:
  - srb.h
 api_name:
+ - _SCSI_WMI_REQUEST_BLOCK
+ - PSCSI_WMI_REQUEST_BLOCK
  - SCSI_WMI_REQUEST_BLOCK
 ---
 
@@ -205,3 +207,4 @@ For information about supporting WMI in miniport drivers, see the <a href="/wind
 
 
 <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
+

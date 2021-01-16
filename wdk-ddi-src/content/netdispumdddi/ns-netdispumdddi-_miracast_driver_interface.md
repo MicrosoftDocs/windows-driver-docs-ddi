@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Netdispumdddi.h
 api_name:
+ - _MIRACAST_DRIVER_INTERFACE
+ - PMIRACAST_DRIVER_INTERFACE
  - MIRACAST_DRIVER_INTERFACE
 ---
 
@@ -100,3 +102,4 @@ A pointer to the driver's  <a href="/windows-hardware/drivers/ddi/netdispumdddi/
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a>
+

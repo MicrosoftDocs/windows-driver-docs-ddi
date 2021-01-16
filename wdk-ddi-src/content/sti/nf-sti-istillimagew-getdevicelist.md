@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.GetDeviceList
+ - IStillImageW::GetDeviceList
 ---
 
 # IStillImageW::GetDeviceList
@@ -86,3 +86,4 @@ When the caller has finished using the array of STI_DEVICE_INFORMATION structure
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

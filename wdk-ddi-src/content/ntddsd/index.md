@@ -12,6 +12,8 @@ tech.root: sd
 f1_keywords:
  - ntddsd
  - ntddsd/ntddsd
+api_name:
+ - ntddsd
 ---
 
 # Ntddsd.h header

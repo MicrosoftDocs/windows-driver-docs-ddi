@@ -39,6 +39,7 @@ api_type:
 api_location:
  - gnssdriver.h
 api_name:
+ - PGNSS_AGNSS_INJECT
  - GNSS_AGNSS_INJECT
 ---
 
@@ -93,3 +94,4 @@ Size of the injection data.
 #### - Unused[512]
 
 Padding buffer.
+

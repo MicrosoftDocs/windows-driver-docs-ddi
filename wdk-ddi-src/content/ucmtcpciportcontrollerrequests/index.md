@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucmtcpciportcontrollerrequests
  - ucmtcpciportcontrollerrequests/ucmtcpciportcontrollerrequests
+api_name:
+ - ucmtcpciportcontrollerrequests
 ---
 
 # Ucmtcpciportcontrollerrequests.h header

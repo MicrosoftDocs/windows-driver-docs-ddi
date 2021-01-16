@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - d4iface
  - d4iface/d4iface
+api_name:
+ - d4iface
 ---
 
 # D4Iface.h header

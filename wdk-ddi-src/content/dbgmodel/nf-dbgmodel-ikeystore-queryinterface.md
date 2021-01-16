@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IKeyStore.QueryInterface
+ - IKeyStore::QueryInterface
 ---
 
 # IKeyStore::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
- - ProcessorIdleVeto
+ - POFXCALLBACKPROCESSORIDLEVETO
 ---
 
 # POFXCALLBACKPROCESSORIDLEVETO callback function (pep_x.h)
@@ -82,3 +82,4 @@ This routine is implemented by the power management framework (PoFx) and is call
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPIN_DESCRIPTOR
  - KSPIN_DESCRIPTOR
 ---
 
@@ -126,3 +127,4 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 <a href="/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a>
+

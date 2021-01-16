@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ucxusbdevice.h
 api_name:
+ - _ADDRESS0_OWNERSHIP_ACQUIRE
+ - PADDRESS0_OWNERSHIP_ACQUIRE
  - ADDRESS0_OWNERSHIP_ACQUIRE
 ---
 
@@ -56,3 +58,4 @@ Contains parameters for configuring the device.
 ### -field Header
 
 A <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+

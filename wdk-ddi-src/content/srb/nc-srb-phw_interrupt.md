@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_INTERRUPT)
+ - PHW_INTERRUPT
 ---
 
 # PHW_INTERRUPT callback (srb.h)
@@ -74,3 +74,4 @@ For more information about the miniport driver's interrupt handler routine that 
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
+

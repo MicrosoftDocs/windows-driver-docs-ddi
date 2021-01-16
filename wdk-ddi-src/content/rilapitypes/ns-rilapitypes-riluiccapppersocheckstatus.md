@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCAPPPERSOCHECKSTATUS
+ - LPRILUICCAPPPERSOCHECKSTATUS
 ---
 
 # RILUICCAPPPERSOCHECKSTATUS structure (rilapitypes.h)

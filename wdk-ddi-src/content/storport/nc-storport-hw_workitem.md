@@ -37,7 +37,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
- - HwStorWorkItem
+ - HW_WORKITEM
 ---
 
 # HW_WORKITEM callback function
@@ -83,7 +83,6 @@ HW_WORKITEM (
     );
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
@@ -95,3 +94,4 @@ HW_WORKITEM (
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
+

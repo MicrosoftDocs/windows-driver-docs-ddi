@@ -41,6 +41,8 @@ api_type:
 api_location:
  - compstui.h
 api_name:
+ - _CPSUICBPARAM
+ - PCPSUICBPARAM
  - CPSUICBPARAM
 ---
 
@@ -196,3 +198,4 @@ CPSUI-supplied user data. This is the same value that the application previously
 Result value supplied by the <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function with a function code of <a href="/previous-versions/ff547087(v=vs.85)">CPSFUNC_SET_RESULT</a>, supplying the <b>Reason</b> member contents as the result value.
 
 This member is used only if the <b>Reason</b> member is CPSUICB_REASON_APPLYNOW and the callback function does not return CPSUI_ACTION_NO_APPLY_EXIT.
+

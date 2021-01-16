@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - GetCaps
+ - PFND3DDDI_GETCAPS
 product:
  - Windows
 ---
@@ -110,3 +110,4 @@ If a Microsoft Direct3D Level 9 driver that supports Windows Display Driver Mode
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_ddraw_caps">DDRAW_CAPS</a>
+

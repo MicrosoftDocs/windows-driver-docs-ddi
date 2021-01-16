@@ -33,10 +33,12 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_PACKETVREGISTER
  - KSRTAUDIO_PACKETVREGISTER
 ---
 
 # KSRTAUDIO_PACKETVREGISTER structure
+
 
 ## -description
 
@@ -61,3 +63,4 @@ A PULONG64 pointer to the packet hash value that is a combination of the two low
 ## -see-also
 
 [KSPROPSETID_RTAudio](/windows-hardware/drivers/audio/kspropsetid-rtaudio)
+

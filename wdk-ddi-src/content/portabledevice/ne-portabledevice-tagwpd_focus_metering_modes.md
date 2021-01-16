@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_FOCUS_METERING_MODES
  - WPD_FOCUS_METERING_MODES
 ---
 
@@ -71,3 +72,4 @@ This enumeration is specified by the <a href="/windows/desktop/wpd_sdk/still-ima
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

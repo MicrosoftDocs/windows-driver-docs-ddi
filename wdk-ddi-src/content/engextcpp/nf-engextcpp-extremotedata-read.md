@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.Read
+ - ExtRemoteData::Read
 ---
 
 # ExtRemoteData::Read
@@ -76,3 +76,4 @@ The data can be retrieved using <a href="/windows-hardware/drivers/ddi/engextcpp
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a>
+

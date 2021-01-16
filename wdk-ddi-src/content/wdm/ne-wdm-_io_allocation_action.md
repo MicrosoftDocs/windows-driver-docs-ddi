@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_ALLOCATION_ACTION
+ - PIO_ALLOCATION_ACTION
  - IO_ALLOCATION_ACTION
 ---
 
@@ -72,3 +74,4 @@ If an <i>AdapterControl</i> or <i>ControllerControl</i> routine completes an IRP
 If a driver uses packet-based bus-master DMA, its <i>AdapterControl</i> routine should return <b>DeallocateObjectKeepRegisters</b>.
 
 Otherwise, the driver should return <b>KeepObject</b>.
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_ReadGpioPinsUsingMask
+ - GPIO_CLIENT_READ_PINS_MASK
 ---
 
 # GPIO_CLIENT_READ_PINS_MASK callback function
@@ -121,3 +121,4 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_read_pins_mask_parameters">GPIO_READ_PINS_MASK_PARAMETERS</a>
+

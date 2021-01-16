@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_UMTS_SERVING_CELL_INFO
+ - PWWAN_UMTS_SERVING_CELL_INFO
  - WWAN_UMTS_SERVING_CELL_INFO
 ---
 
@@ -120,3 +122,4 @@ The data buffer containing <i>ProviderId</i>.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_umts_mrl_info">WWAN_UMTS_MRL_INFO</a>
+

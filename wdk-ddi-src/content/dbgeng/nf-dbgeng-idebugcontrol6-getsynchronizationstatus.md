@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl6.GetSynchronizationStatus
+ - IDebugControl6::GetSynchronizationStatus
 ---
 
 # IDebugControl6::GetSynchronizationStatus
@@ -92,3 +92,4 @@ When the client object connects to a session, the most recent output from the se
 
 
 <a href="/windows-hardware/drivers/debugger/synchronizing-with-the-target-computer">Synchronizing with the Target Computer</a>
+

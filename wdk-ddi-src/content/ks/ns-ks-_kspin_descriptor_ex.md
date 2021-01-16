@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - _KSPIN_DESCRIPTOR_EX
+ - PKSPIN_DESCRIPTOR_EX
  - KSPIN_DESCRIPTOR_EX
 ---
 
@@ -241,3 +243,4 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
+

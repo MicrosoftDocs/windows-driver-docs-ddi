@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dmusicks.h
 api_name:
- - IMiniportDMus.Init
+ - IMiniportDMus::Init
 ---
 
 # IMiniportDMus::Init
@@ -124,3 +124,4 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewinterruptsync">PcNewInterruptSync</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_ASSOCIATION_STATE
+ - PDOT11_ASSOCIATION_STATE
  - DOT11_ASSOCIATION_STATE
 product:
  - Windows 10 or later.
@@ -82,3 +84,4 @@ typedef enum _DOT11_ASSOCIATION_STATE {
   dot11_assoc_state_auth_assoc      = 3
 } DOT11_ASSOCIATION_STATE, *PDOT11_ASSOCIATION_STATE;
 ```
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkSrqReceive
+ - NDK_FN_SRQ_RECEIVE
 ---
 
 # NDK_FN_SRQ_RECEIVE callback function
@@ -120,3 +120,4 @@ An error occurred.
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
+

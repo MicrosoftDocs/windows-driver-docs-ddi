@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _KEY_NODE_INFORMATION
+ - PKEY_NODE_INFORMATION
  - KEY_NODE_INFORMATION
 ---
 
@@ -112,3 +114,4 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerat
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
+

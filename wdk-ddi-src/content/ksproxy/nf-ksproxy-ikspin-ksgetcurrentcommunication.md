@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPin.KsGetCurrentCommunication
+ - IKsPin::KsGetCurrentCommunication
 ---
 
 # IKsPin::KsGetCurrentCommunication
@@ -142,3 +142,4 @@ The current communication direction, interface, and medium of a pin are a subset
 
 
 <a href="/windows-hardware/drivers/stream/ksproperty-pin-dataflow">KSPROPERTY_PIN_DATAFLOW</a>
+

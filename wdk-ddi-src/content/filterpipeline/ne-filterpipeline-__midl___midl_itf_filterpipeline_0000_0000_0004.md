@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Filterpipeline.h
 api_name:
+ - __MIDL___MIDL_itf_filterpipeline_0000_0000_0004
  - EXpsFontRestriction
 ---
 

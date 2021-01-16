@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Engextcpp.hpp
 api_name:
- - ExtExtension.HasArg
+ - ExtExtension::HasArg
 ---
 
 # ExtExtension::HasArg
@@ -75,3 +75,4 @@ This method should only be called during the execution of an extension command p
 
 
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff549727(v=vs.85)">HasCharArg</a>
+

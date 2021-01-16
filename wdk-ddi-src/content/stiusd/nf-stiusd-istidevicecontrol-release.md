@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Stiusd.h
 api_name:
- - IStiDeviceControl.Release
+ - IStiDeviceControl::Release
 ---
 
 # IStiDeviceControl::Release
@@ -64,3 +64,4 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 
 <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-addref">IStiDeviceControl::AddRef</a>
+

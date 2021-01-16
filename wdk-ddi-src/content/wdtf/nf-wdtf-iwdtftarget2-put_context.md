@@ -37,9 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFTarget2.Context
- - IWDTFTarget2.get_Context
- - IWDTFTarget2.put_Context
+ - IWDTFTarget2::put_Context
 ---
 
 # IWDTFTarget2::put_Context
@@ -71,3 +69,4 @@ see <a href="/windows-hardware/drivers/wdtf/creating-wdtf-scenarios">Creating WD
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkBuildLam
+ - NDK_FN_BUILD_LAM
 ---
 
 # NDK_FN_BUILD_LAM callback function
@@ -214,3 +214,4 @@ If a provider has an error while processing an <i>NdkBuildLam</i> request, the p
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_logical_address_mapping">NDK_LOGICAL_ADDRESS_MAPPING</a>
+

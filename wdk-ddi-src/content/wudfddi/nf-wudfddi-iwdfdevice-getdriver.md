@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.GetDriver
+ - IWDFDevice::GetDriver
 ---
 
 # IWDFDevice::GetDriver
@@ -67,3 +67,4 @@ For a code example of how to use the GetDriver method, see <a href="/windows-har
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a>
+

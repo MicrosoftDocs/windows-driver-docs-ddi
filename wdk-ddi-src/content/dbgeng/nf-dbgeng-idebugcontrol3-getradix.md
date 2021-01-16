@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetRadix
- - IDebugControl2.GetRadix
- - IDebugControl3.GetRadix
+ - IDebugControl3::GetRadix
 ---
 
 # IDebugControl3::GetRadix
@@ -101,3 +99,4 @@ For more information about the default radix, see <a href="/windows-hardware/dri
 
 
 <a href="/windows-hardware/drivers/debugger/n--set-number-base-">n (Set Number Base)</a>
+

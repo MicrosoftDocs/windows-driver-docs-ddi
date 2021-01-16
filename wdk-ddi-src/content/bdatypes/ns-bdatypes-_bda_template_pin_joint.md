@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdatypes.h
 api_name:
+ - _BDA_TEMPLATE_PIN_JOINT
+ - PBDA_TEMPLATE_PIN_JOINT
  - BDA_TEMPLATE_PIN_JOINT
 ---
 
@@ -68,3 +70,4 @@ Maximum number of possible instances of the joint in the template topology.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
+

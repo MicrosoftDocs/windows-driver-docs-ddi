@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDI_SURFACEINFO
  - D3DDDI_SURFACEINFO
 ---
 
@@ -84,3 +85,4 @@ Note that this member is valid only if the <b>Pool</b> member of the <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource">D3DDDIARG_CREATERESOURCE</a>
+

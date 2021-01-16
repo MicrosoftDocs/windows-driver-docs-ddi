@@ -36,6 +36,8 @@ api_location:
  - tcpxcv.h
 api_name:
  - _PORT_DATA_LIST_1
+ - PPORT_DATA_LIST_1
+ - PORT_DATA_LIST_1
 product:
  - Windows
 ---

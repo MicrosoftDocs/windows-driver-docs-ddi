@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_UPDATECONTEXTALLOCATION
  - DXGKARGCB_UPDATECONTEXTALLOCATION
 ---
 
@@ -66,3 +67,4 @@ Specify the size of the driver private data.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
+

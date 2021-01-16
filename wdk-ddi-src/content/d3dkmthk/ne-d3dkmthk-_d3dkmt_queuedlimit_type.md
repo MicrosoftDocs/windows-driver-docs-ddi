@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_QUEUEDLIMIT_TYPE
  - D3DKMT_QUEUEDLIMIT_TYPE
 ---
 
@@ -66,3 +67,4 @@ Indicates to retrieve the limit for the number of present operations that can be
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setqueuedlimit">D3DKMT_SETQUEUEDLIMIT</a>
+

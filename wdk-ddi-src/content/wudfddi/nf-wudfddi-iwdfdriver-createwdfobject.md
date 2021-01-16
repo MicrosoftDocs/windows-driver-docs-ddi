@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDriver.CreateWdfObject
+ - IWDFDriver::CreateWdfObject
 ---
 
 # IWDFDriver::CreateWdfObject
@@ -99,3 +99,4 @@ If the driver must clean up the child object before the parent object is deleted
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-deletewdfobject">IWDFObject::DeleteWdfObject</a>
+

@@ -12,6 +12,8 @@ tech.root: biometric
 f1_keywords:
  - winbio_ioctl
  - winbio_ioctl/winbio_ioctl
+api_name:
+ - winbio_ioctl
 ---
 
 # Winbio_Ioctl.h header

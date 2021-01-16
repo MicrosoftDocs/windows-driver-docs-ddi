@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
- - FinalizeErrorRecord
+ - PSHED_PI_FINALIZE_ERROR_RECORD
 ---
 
 # PSHED_PI_FINALIZE_ERROR_RECORD callback function
@@ -157,3 +157,4 @@ The PSHED calls a PSHED plug-in's <i>FinalizeErrorRecord</i> callback function a
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+

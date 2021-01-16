@@ -42,6 +42,8 @@ api_type:
 api_location:
  - wlanihv.h
 api_name:
+ - _DOT11_EAP_RESULT
+ - PDOT11_EAP_RESULT
  - DOT11_EAP_RESULT
 ---
 
@@ -73,3 +75,4 @@ typedef struct _DOT11_EAP_RESULT {
   EAP_ATTRIBUTES *pAttribArray;
 } DOT11_EAP_RESULT, *PDOT11_EAP_RESULT;
 ```
+

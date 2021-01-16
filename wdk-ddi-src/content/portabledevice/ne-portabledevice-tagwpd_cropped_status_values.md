@@ -40,6 +40,7 @@ api_type:
 api_location:
  - PortableDevice.h
 api_name:
+ - tagWPD_CROPPED_STATUS_VALUES
  - WPD_CROPPED_STATUS_VALUES
 ---
 
@@ -71,3 +72,4 @@ Indicates the cropped status of an image. This enumeration is used by the [**WPD
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
+

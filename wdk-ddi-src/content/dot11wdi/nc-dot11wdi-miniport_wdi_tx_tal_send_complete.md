@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dot11wdi.h
 api_name:
- - MiniportWdiTxTalSendComplete
+ - MINIPORT_WDI_TX_TAL_SEND_COMPLETE
 ---
 
 # MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback function
@@ -88,3 +88,4 @@ A <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_stat
 
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a>
+

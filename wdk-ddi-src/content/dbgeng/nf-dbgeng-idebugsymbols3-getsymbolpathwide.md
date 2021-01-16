@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSymbols3.GetSymbolPathWide
+ - IDebugSymbols3::GetSymbolPathWide
 ---
 
 # IDebugSymbols3::GetSymbolPathWide
@@ -112,3 +112,4 @@ For more information about manipulating the symbol path, see <a href="/windows-h
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymbolpath">SetSymbolPath</a>
+

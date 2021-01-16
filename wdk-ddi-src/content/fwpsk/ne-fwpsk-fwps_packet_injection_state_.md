@@ -39,6 +39,7 @@ api_type:
 api_location:
  - fwpsk.h
 api_name:
+ - FWPS_PACKET_INJECTION_STATE_
  - FWPS_PACKET_INJECTION_STATE
 ---
 
@@ -81,3 +82,4 @@ The packet was injected by using an injection handle passed by a call to one of 
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
+

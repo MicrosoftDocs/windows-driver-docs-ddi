@@ -38,6 +38,8 @@ api_location:
  - dispmprt.h
 api_name:
  - _DXGK_VIRTUALGPUENGINEINFO
+ - PDXGK_VIRTUALGPUENGINEINFO
+ - DXGK_VIRTUALGPUENGINEINFO
 product:
  - Windows
 dev_langs:

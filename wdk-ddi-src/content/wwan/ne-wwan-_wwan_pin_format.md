@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_PIN_FORMAT
+ - PWWAN_PIN_FORMAT
  - WWAN_PIN_FORMAT
 ---
 
@@ -74,3 +76,4 @@ The total number of supported PIN formats.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_desc">WWAN_PIN_DESC</a>
+

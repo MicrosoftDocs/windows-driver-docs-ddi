@@ -37,7 +37,7 @@ api_type:
 api_location:
  - arrayofelements.hpp
 api_name:
- - ExtRemoteTyped.operator=
+ - ExtBuffer::operator=
 ---
 
 # ExtBuffer::operator= method

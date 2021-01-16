@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_QuerySetControllerInformation
+ - GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION
 ---
 
 # GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION callback function
@@ -133,3 +133,4 @@ The GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION function type is defined in the
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ne-gpioclx-_client_controller_query_set_request_type">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a>
+

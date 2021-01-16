@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _DXGK_WIN32K_PARAM_DATA
+ - PDXGK_WIN32K_PARAM_DATA
  - DXGK_WIN32K_PARAM_DATA
 ---
 

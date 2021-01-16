@@ -33,6 +33,8 @@ api_location:
  - wwan.h
 api_name:
  - _WWAN_CONFIGURATION_SOURCE
+ - PWWAN_CONFIGURATION_SOURCE
+ - WWAN_CONFIGURATION_SOURCE
 product:
  - Windows
 ---

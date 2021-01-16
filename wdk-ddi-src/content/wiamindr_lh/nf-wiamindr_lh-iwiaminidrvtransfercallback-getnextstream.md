@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiamindr_lh.h
 api_name:
- - IWiaMiniDrvTransferCallback.GetNextStream
+ - IWiaMiniDrvTransferCallback::GetNextStream
 ---
 
 # IWiaMiniDrvTransferCallback::GetNextStream
@@ -90,3 +90,4 @@ When the current transfer sequence is cancelled, the **GetNextStream** method re
 [WIA_IPA_FULL_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-full-item-name)
 
 [WIA_IPA_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-item-name)
+

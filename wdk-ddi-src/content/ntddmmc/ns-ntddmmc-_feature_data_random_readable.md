@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_DATA_RANDOM_READABLE
+ - PFEATURE_DATA_RANDOM_READABLE
  - FEATURE_DATA_RANDOM_READABLE
 ---
 
@@ -88,3 +90,4 @@ This structure holds data for the feature named "Random Readable" by the <i>MMC-
 
 
 <a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
+

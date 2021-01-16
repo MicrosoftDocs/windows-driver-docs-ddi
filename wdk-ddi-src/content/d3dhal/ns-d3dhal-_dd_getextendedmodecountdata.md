@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _DD_GETEXTENDEDMODECOUNTDATA
  - DD_GETEXTENDEDMODECOUNTDATA
 ---
 
@@ -81,3 +82,4 @@ To handle D3DGDI2_TYPE_GETEXTENDEDMODECOUNT, the driver must store the number of
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getextendedmodedata">DD_GETEXTENDEDMODEDATA</a>
+

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects.GetCurrentProcessSystemId
- - IDebugSystemObjects2.GetCurrentProcessSystemId
- - IDebugSystemObjects3.GetCurrentProcessSystemId
- - IDebugSystemObjects4.GetCurrentProcessSystemId
+ - IDebugSystemObjects3::GetCurrentProcessSystemId
 ---
 
 # IDebugSystemObjects3::GetCurrentProcessSystemId
@@ -95,3 +92,4 @@ The target is a kernel-mode target.
 This method is only available in user-mode debugging.
 
 For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+

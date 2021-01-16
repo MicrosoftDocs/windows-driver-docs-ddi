@@ -41,6 +41,8 @@ api_type:
 api_location:
  - irb.h
 api_name:
+ - _IDE_CONTROLLER_CONFIGURATION
+ - PIDE_CONTROLLER_CONFIGURATION
  - IDE_CONTROLLER_CONFIGURATION
 ---
 
@@ -125,3 +127,4 @@ Indicates whether it is a SATA or a PATA controller.
 ### -field ControllerResources
 
 Provides the hardware resources for the ATA controller.
+

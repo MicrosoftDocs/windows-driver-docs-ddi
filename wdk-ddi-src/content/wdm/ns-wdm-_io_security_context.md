@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _IO_SECURITY_CONTEXT
+ - PIO_SECURITY_CONTEXT
  - IO_SECURITY_CONTEXT
 ---
 
@@ -80,3 +82,4 @@ Reserved for system use.
 
 
 <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
+

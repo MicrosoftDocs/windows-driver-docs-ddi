@@ -36,6 +36,8 @@ api_location:
  - ucmucsispec.h
 api_name:
  - _UCSI_SET_NEW_CAM_COMMAND
+ - PUCSI_SET_NEW_CAM_COMMAND
+ - UCSI_SET_NEW_CAM_COMMAND
 ---
 
 # _UCSI_SET_NEW_CAM_COMMAND structure

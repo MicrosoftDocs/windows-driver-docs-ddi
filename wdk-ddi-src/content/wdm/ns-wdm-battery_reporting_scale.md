@@ -40,6 +40,7 @@ api_type:
 api_location:
  - ntpoapi.h
 api_name:
+ - PBATTERY_REPORTING_SCALE
  - BATTERY_REPORTING_SCALE
 ---
 
@@ -72,3 +73,4 @@ typedef struct {
 ## -see-also
 
 <a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
+

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - Dbgeng.h
 api_name:
- - IDebugControl.AddEngineOptions
- - IDebugControl2.AddEngineOptions
- - IDebugControl3.AddEngineOptions
+ - IDebugControl2::AddEngineOptions
 ---
 
 # IDebugControl2::AddEngineOptions
@@ -106,3 +104,4 @@ After the engine options have been changed, the engine sends out notification to
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setengineoptions">SetEngineOptions</a>
+

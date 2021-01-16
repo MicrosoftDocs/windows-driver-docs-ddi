@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
- - IKsPropertySet.QuerySupported
+ - IKsPropertySet::QuerySupported
 ---
 
 # IKsPropertySet::QuerySupported
@@ -157,3 +157,4 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 
 <a href="/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
+

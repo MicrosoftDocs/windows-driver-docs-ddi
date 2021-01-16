@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WdfDmaEnabler.h
 api_name:
- - EvtDmaEnablerSelfManagedIoStop
+ - EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP
 ---
 
 # EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback function
@@ -77,3 +77,4 @@ For more information about the <i>EvtDmaEnablerSelfManagedIoStop</i> callback fu
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
+

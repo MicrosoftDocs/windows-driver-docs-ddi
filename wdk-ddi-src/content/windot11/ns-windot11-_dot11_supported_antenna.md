@@ -41,6 +41,8 @@ api_type:
 api_location:
  - windot11.h
 api_name:
+ - _DOT11_SUPPORTED_ANTENNA
+ - PDOT11_SUPPORTED_ANTENNA
  - DOT11_SUPPORTED_ANTENNA
 product:
  - Windows 10 or later.
@@ -95,3 +97,4 @@ The meaning of the
 
 
 <a href="/previous-versions/ms893804(v=msdn.10)">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
+

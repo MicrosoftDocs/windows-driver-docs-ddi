@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiamindr_lh.h
 api_name:
- - IWiaMiniDrvTransferCallback.SendMessage
+ - IWiaMiniDrvTransferCallback::SendMessage
 ---
 
 # IWiaMiniDrvTransferCallback::SendMessage
@@ -76,3 +76,4 @@ When the current transfer sequence is cancelled, the **SendMessage** method retu
 [IWiaMiniDrvTransferCallback](./nn-wiamindr_lh-iwiaminidrvtransfercallback.md)
 
 [WiaTransferParams](/windows/win32/wia/-wia-wiatransferparams)
+

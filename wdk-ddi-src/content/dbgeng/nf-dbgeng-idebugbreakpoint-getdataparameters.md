@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugBreakpoint.GetDataParameters
- - IDebugBreakpoint2.GetDataParameters
+ - IDebugBreakpoint::GetDataParameters
 ---
 
 # IDebugBreakpoint::GetDataParameters
@@ -99,3 +98,4 @@ This method can also return other error values.  For more information, see <a hr
 The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the information that is returned in <i>Size</i> and <i>AccessType</i>.
 
 For more information about breakpoint properties, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PO_FX_CORE_DEVICE
+ - PPO_FX_CORE_DEVICE
  - PO_FX_CORE_DEVICE
 ---
 
@@ -116,3 +118,4 @@ For more information about component transitions between the active condition an
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregistercoredevice">PoFxRegisterCoreDevice</a>
+

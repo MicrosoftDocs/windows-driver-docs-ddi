@@ -7,37 +7,38 @@ tech.root: netvista
 ms.author: windowsdriverdev
 ms.date: 10/09/2020
 keywords: ["NetOffloadIsUsoIPv4Enabled function"]
-f1_keywords:
- - "netadapteroffload/NetOffloadIsUsoIPv4Enabled"
 ms.keywords: NetOffloadIsUsoIPv4Enabled
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetOffloadIsUsoIPv4Enabled
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - NetOffloadIsUsoIPv4Enabled
+ - netadapteroffload/NetOffloadIsUsoIPv4Enabled
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetOffloadIsUsoIPv4Enabled
+product:
+ - Windows
 ---
 
 # NetOffloadIsUsoIPv4Enabled function
@@ -73,3 +74,4 @@ Client drivers typically call this function during their [*EVT_NET_ADAPTER_OFFLO
 [Generic Segmentation Offload](/windows-hardware/drivers/netcx/gso-offload)
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md)
+

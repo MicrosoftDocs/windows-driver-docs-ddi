@@ -38,7 +38,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.ExtRemoteData
+ - ExtRemoteData::ExtRemoteData
 ---
 
 # ExtRemoteData::ExtRemoteData(ULONG64,ULONG)
@@ -71,3 +71,4 @@ The constructor is called by the ExtRemoteData::Set(Typed), ExtRemoteData::Set(O
 [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md) 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
+

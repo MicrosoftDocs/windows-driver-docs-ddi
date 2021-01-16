@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_WMDRM_KEYINFOLIST
+ - PBDA_WMDRM_KEYINFOLIST
  - BDA_WMDRM_KEYINFOLIST
 ---
 

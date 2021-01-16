@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFDevice.GetDefaultIoTarget
+ - IWDFDevice::GetDefaultIoTarget
 ---
 
 # IWDFDevice::GetDefaultIoTarget
@@ -67,3 +67,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/initializing-a-
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
+

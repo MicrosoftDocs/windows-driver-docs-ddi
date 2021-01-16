@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - usbprint
  - usbprint/usbprint
+api_name:
+ - usbprint
 ---
 
 # Usbprint.h header

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hbapiwmi.h
 api_name:
+ - _SM_SendECHO_IN
+ - PSM_SendECHO_IN
  - SM_SendECHO_IN
 ---
 

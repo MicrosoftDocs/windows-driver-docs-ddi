@@ -41,6 +41,8 @@ api_type:
 api_location:
  - sdpnode.h
 api_name:
+ - _SDP_NODE
+ - PSDP_NODE
  - SDP_NODE
 ---
 
@@ -101,3 +103,4 @@ The header specifies the type of data. Driver developers can access links to pee
 
 
 <a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a>
+

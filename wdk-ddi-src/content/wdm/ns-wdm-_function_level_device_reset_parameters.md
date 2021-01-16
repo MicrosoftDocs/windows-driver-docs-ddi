@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
+ - PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
  - FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 ---
 
@@ -71,7 +73,6 @@ VOID
     );
 ```
 
-
 ### -field CompletionContext
 
 Points to a caller-supplied context structure to be passed to the <i>DeviceResetCompletion</i> callback.
@@ -83,3 +84,4 @@ Points to a caller-supplied context structure to be passed to the <i>DeviceReset
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
 
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
+

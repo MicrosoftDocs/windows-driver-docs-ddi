@@ -7,7 +7,7 @@ ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_LIST structure"]
 ms.keywords: NET_WAKE_SOURCE_LIST, NET_WAKE_SOURCE_LIST,
 req.header: netwakesourcelist.h
-req.include-header: netadaptercx.h 
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -33,6 +33,7 @@ api_type:
 api_location:
  - netwakesourcelist.h
 api_name:
+ - _NET_WAKE_SOURCE_LIST
  - NET_WAKE_SOURCE_LIST
 product:
  - Windows
@@ -77,3 +78,4 @@ For a code sample of working with NETWAKESOURCE objects, see [Configuring power 
 [**NetWakeSourceListGetElement**](../netwakesourcelist/nf-netwakesourcelist-netwakesourcelistgetelement.md)
 
 [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md)
+

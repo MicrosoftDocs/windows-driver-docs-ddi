@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _HWPROFILE_CHANGE_NOTIFICATION
+ - PHWPROFILE_CHANGE_NOTIFICATION
  - HWPROFILE_CHANGE_NOTIFICATION
 ---
 
@@ -84,3 +86,4 @@ There is no event-specific data for a hardware-profile-change event.
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_removal_notification">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+

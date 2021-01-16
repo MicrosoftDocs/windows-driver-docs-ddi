@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_PROCESSOR_IDLE_STATE_V2
+ - PPEP_PROCESSOR_IDLE_STATE_V2
  - PEP_PROCESSOR_IDLE_STATE_V2
 ---
 
@@ -213,3 +215,4 @@ This structure is used in conjunction with the <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a>
+

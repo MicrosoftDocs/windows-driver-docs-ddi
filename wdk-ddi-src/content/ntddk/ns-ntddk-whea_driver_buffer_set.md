@@ -29,6 +29,7 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_DRIVER_BUFFER_SET
+ - PWHEA_DRIVER_BUFFER_SET
  - WHEA_DRIVER_BUFFER_SET
 f1_keywords:
  - _WHEA_DRIVER_BUFFER_SET

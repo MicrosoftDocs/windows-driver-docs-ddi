@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PDEV_ADJUST_PHYSICAL_PAPER_SIZE
+ - PPDEV_ADJUST_PHYSICAL_PAPER_SIZE
  - PDEV_ADJUST_PHYSICAL_PAPER_SIZE
 ---
 

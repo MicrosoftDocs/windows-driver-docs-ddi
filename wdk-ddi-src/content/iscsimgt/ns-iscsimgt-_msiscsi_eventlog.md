@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Iscsimgt.h
 api_name:
- - MSiSCSI_EventLog
+ - _MSiSCSI_Eventlog
+ - PMSiSCSI_Eventlog
+ - MSiSCSI_Eventlog
 ---
 
 # _MSiSCSI_Eventlog structure

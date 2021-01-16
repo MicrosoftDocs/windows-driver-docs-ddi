@@ -36,6 +36,8 @@ api_location:
  - ntddstor.h
 api_name:
  - _PHYSICAL_ELEMENT_STATUS_REQUEST
+ - PPHYSICAL_ELEMENT_STATUS_REQUEST
+ - PHYSICAL_ELEMENT_STATUS_REQUEST
 dev_langs:
  - c++
 ---

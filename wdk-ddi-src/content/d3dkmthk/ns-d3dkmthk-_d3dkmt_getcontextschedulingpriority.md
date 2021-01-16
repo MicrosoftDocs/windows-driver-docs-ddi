@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
  - D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_GETDEVICESCHEDULINGPRIORITY structure describes parameters for retrie
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetcontextschedulingpriority">D3DKMTGetContextSchedulingPriority</a>
+

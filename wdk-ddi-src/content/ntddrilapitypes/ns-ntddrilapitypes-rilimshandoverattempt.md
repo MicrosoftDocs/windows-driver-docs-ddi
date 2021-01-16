@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILIMSHANDOVERATTEMPT
+ - LPRILIMSHANDOVERATTEMPT
 ---
 
 # RILIMSHANDOVERATTEMPT structure (ntddrilapitypes.h)

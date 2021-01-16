@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pepfx.h
 api_name:
+ - _PEP_WORK_POWER_CONTROL
+ - PPEP_WORK_POWER_CONTROL
  - PEP_WORK_POWER_CONTROL
 ---
 
@@ -106,3 +108,4 @@ GUID
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
+

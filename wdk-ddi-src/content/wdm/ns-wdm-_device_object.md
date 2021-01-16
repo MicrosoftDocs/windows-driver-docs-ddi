@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _DEVICE_OBJECT
+ - PDEVICE_OBJECT
  - DEVICE_OBJECT
 ---
 
@@ -361,3 +363,4 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceobjectpointer">IoGetDeviceObjectPointer</a>
+

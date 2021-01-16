@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVADDI_VIDEOSAMPLEFLAGS
  - DXVADDI_VIDEOSAMPLEFLAGS
 ---
 
@@ -92,3 +93,4 @@ A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hol
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videosample">DXVADDI_VIDEOSAMPLE</a>
+

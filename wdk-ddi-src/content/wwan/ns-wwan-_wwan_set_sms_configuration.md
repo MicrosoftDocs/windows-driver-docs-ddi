@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_SET_SMS_CONFIGURATION
+ - PWWAN_SET_SMS_CONFIGURATION
  - WWAN_SET_SMS_CONFIGURATION
 ---
 
@@ -92,3 +94,4 @@ The SMS message format that should be used for the unsolicited indication of new
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
+

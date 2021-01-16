@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_EVICT
  - D3DKMT_EVICT
 ---
 
@@ -80,3 +81,4 @@ Once this count reaches zero, it will remove the allocation from the device resi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtevict">D3DKMTEvict</a>
+

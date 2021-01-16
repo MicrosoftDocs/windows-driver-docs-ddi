@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiFlipOverlay
+ - DXGKDDI_FLIPOVERLAY
 product:
  - Windows
 ---
@@ -85,3 +85,4 @@ The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the sp
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
+

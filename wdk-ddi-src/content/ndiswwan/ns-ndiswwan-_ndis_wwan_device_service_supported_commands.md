@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndiswwan.h
 api_name:
+ - _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+ - PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
  - NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 ---
 
@@ -112,3 +114,4 @@ The status of the device services command enumeration operation.
  A formatted WWAN_LIST_HEADER object that represents the list of command supported on a device services.
 
 This member points to the list of the command ID (ULONG) by using the WWAN_LIST_HEADER structure.
+

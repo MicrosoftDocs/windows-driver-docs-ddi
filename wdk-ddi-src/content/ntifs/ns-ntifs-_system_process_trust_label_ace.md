@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntifs.h
 api_name:
+ - _SYSTEM_PROCESS_TRUST_LABEL_ACE
+ - PSYSTEM_PROCESS_TRUST_LABEL_ACE
  - SYSTEM_PROCESS_TRUST_LABEL_ACE
 ---
 

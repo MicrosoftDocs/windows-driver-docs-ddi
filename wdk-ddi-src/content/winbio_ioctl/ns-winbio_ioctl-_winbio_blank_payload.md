@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winbio_ioctl.h
 api_name:
+ - _WINBIO_BLANK_PAYLOAD
+ - PWINBIO_BLANK_PAYLOAD
  - WINBIO_BLANK_PAYLOAD
 ---
 
@@ -66,3 +68,4 @@ The status detail of the I/O operation.  This is where WINBIO error and informat
 |S_OK|The operation completed successfully.|
 |HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)|The driver could not gather the necessary information from the device.|
 |WINBIO_E_DEVICE_BUSY|The device is in the middle of a vendor-specific operation.  This should only be returned when the device cannot be reset, and the vendor-specific operation cannot be canceled.|
+

@@ -38,7 +38,6 @@ api_type:
 api_location:
  - NtosKrnl.exe
 api_name:
- - KeReleaseSpinLockFromDpcLevel
  - KefReleaseSpinLockFromDpcLevel
 ---
 
@@ -75,3 +74,4 @@ For more information about spin locks, see <a href="/windows-hardware/drivers/ke
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
+

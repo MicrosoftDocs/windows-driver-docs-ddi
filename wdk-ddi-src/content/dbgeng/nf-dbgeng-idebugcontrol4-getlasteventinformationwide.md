@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetLastEventInformationWide
+ - IDebugControl4::GetLastEventInformationWide
 ---
 
 # IDebugControl4::GetLastEventInformationWide
@@ -142,3 +142,4 @@ For more information about the last event, see the topic <a href="/windows-hardw
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_SET_STREAMING
+ - PCDROM_SET_STREAMING
  - CDROM_SET_STREAMING
 ---
 
@@ -116,3 +118,4 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">WRITE_ROTATION</a>
+

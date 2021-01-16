@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - ZwReadFile
- - NtReadFile
 ---
 
 # ZwReadFile function
@@ -195,3 +194,4 @@ Callers of <b>ZwReadFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
+

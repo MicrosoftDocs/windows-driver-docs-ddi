@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - ProtocolCoOidRequestComplete
+ - PROTOCOL_CO_OID_REQUEST_COMPLETE
 ---
 
 # PROTOCOL_CO_OID_REQUEST_COMPLETE callback function
@@ -261,3 +261,4 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
+

@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.GetExecutionStatus
- - IDebugControl2.GetExecutionStatus
- - IDebugControl3.GetExecutionStatus
+ - IDebugControl2::GetExecutionStatus
 ---
 
 # IDebugControl2::GetExecutionStatus
@@ -164,3 +162,4 @@ For more information, see <a href="/windows-hardware/drivers/debugger/target-inf
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexecutionstatus">SetExecutionStatus</a>
+

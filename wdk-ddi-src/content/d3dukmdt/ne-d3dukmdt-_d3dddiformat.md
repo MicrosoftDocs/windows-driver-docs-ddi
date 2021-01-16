@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dukmdt.h
 api_name:
+ - _D3DDDIFORMAT
  - D3DDDIFORMAT
 ---
 
@@ -500,3 +501,4 @@ Note that formats are supplied by hardware vendors and many FOURCC codes are not
 
 
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
+

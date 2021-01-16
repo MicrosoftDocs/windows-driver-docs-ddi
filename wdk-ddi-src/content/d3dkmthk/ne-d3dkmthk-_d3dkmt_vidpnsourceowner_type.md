@@ -31,6 +31,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_VIDPNSOURCEOWNER_TYPE
+ - D3DKMT_VIDPNSOURCEOWNER_TYPE
 dev_langs:
  - c++
 ---

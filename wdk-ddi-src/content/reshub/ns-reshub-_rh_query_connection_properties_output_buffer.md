@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Reshub.h
 api_name:
+ - _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+ - PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
  - RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 ---
 
@@ -97,3 +99,4 @@ For a code example that uses the <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 
 
 <a href="/windows-hardware/drivers/ddi/reshub/ns-reshub-_pnp_serial_bus_descriptor">PNP_SERIAL_BUS_DESCRIPTOR</a>
+

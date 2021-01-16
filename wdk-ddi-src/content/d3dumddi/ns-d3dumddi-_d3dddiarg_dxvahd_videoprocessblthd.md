@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
  - D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
 ---
 
@@ -114,3 +115,4 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a>
+

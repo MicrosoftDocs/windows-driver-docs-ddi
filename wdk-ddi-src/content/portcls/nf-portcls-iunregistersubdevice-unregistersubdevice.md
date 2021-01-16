@@ -37,7 +37,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IUnregisterSubdevice.UnregisterSubdevice
+ - IUnregisterSubdevice::UnregisterSubdevice
 ---
 
 # IUnregisterSubdevice::UnregisterSubdevice
@@ -82,3 +82,4 @@ For more information, see <a href="/windows-hardware/drivers/audio/dynamic-audio
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>
+

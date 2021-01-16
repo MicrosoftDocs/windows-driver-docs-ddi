@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdbgexts.h
 api_name:
- - GetExpression
+ - PWINDBG_GET_EXPRESSION
 ---
 
 # PWINDBG_GET_EXPRESSION callback function
@@ -64,3 +64,4 @@ The value of the expression passed to <b>GetExpression</b>
 The expression is evaluated by the current expression evaluator (either the MASM or C++ expression evaluator); see <a href="/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a> for details.  Aliases will be properly understood; see <a href="/windows-hardware/drivers/debugger/using-aliases">Using Aliases</a> for details.   
 
 If KDEXT_64BIT is defined, this function returns a value of type ULONG64. Otherwise, it returns a value of type ULONG.
+

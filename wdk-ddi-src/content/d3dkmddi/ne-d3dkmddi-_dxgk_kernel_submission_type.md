@@ -31,6 +31,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_KERNEL_SUBMISSION_TYPE
+ - DXGK_KERNEL_SUBMISSION_TYPE
 dev_langs:
  - c++
 ---

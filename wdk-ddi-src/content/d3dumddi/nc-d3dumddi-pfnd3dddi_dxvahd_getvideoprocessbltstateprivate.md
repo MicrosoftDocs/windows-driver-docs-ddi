@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - GetVideoProcessBltStatePrivate
+ - PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 product:
  - Windows
 ---
@@ -76,3 +76,4 @@ The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a>
+

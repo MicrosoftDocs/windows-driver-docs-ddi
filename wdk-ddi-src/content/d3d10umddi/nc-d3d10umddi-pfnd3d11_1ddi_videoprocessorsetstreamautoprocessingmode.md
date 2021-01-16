@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - pfnVideoProcessorSetStreamAutoProcessingMode
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE callback function
@@ -82,3 +82,4 @@ For example, if the independent software vendor (ISV) provides its own pixel sha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
+

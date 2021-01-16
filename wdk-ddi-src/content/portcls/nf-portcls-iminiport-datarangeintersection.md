@@ -34,7 +34,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
- - IMiniport.DataRangeIntersection
+ - IMiniport::DataRangeIntersection
 product:
  - Windows
 ---
@@ -95,3 +95,4 @@ If the driver supports KSPROPERTY_AUDIOSIGNALPROCESSING_MODES, this method shall
 ## -see-also
 
 [IMiniPort](nn-portcls-iminiport.md)
+

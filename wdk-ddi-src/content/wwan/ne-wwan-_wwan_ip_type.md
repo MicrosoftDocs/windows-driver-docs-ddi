@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_IP_TYPE
+ - PWWAN_IP_TYPE
  - WWAN_IP_TYPE
 ---
 
@@ -80,3 +82,4 @@ XLAT.
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_context_state">WWAN_SET_CONTEXT_STATE</a>
+

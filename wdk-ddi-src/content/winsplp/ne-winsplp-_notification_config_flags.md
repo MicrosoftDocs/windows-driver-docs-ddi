@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
+ - _NOTIFICATION_CONFIG_FLAGS
  - NOTIFICATION_CONFIG_FLAGS
 ---
 

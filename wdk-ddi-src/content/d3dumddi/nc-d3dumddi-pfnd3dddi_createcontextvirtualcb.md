@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnCreateContextVirtualCb
+ - PFND3DDDI_CREATECONTEXTVIRTUALCB
 product:
  - Windows
 ---

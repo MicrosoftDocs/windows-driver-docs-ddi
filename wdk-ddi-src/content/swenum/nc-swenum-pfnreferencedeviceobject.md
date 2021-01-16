@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
- - KStrReferenceDeviceObject
+ - PFNREFERENCEDEVICEOBJECT
 ---
 
 # PFNREFERENCEDEVICEOBJECT callback function (swenum.h)
@@ -59,3 +59,4 @@ Pointer to a device extension of the device's PDO.
 The driver can access this method through the <b>ReferenceDeviceObject</b> member of the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-bus_interface_reference">BUS_INTERFACE_REFERENCE</a> structure.
 
 The device object remains active and enumerated until the reference count returns to 0.
+

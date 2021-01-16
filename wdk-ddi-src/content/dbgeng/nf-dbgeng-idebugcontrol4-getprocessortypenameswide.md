@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl4.GetProcessorTypeNamesWide
+ - IDebugControl4::GetProcessorTypeNamesWide
 ---
 
 # IDebugControl4::GetProcessorTypeNamesWide
@@ -128,3 +128,4 @@ For more information, see <a href="/windows-hardware/drivers/debugger/target-inf
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+

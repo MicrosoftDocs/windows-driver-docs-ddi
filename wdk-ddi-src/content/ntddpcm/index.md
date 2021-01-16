@@ -12,6 +12,8 @@ tech.root: pcmcia
 f1_keywords:
  - ntddpcm
  - ntddpcm/ntddpcm
+api_name:
+ - ntddpcm
 ---
 
 # Ntddpcm.h header

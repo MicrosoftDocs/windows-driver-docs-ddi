@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IDebugHostErrorSink.Release
+ - IDebugHostErrorSink::Release
 ---
 
 # IDebugHostErrorSink::Release
@@ -56,3 +56,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostErrorSink interface](nn-dbgmodel-idebughosterrorsink.md)
+

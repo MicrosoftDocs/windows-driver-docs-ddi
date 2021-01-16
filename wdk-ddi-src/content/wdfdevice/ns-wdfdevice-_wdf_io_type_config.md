@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_IO_TYPE_CONFIG
+ - PWDF_IO_TYPE_CONFIG
  - WDF_IO_TYPE_CONFIG
 ---
 
@@ -106,3 +108,4 @@ If you are writing a driver using UMDF version 1.<i>x</i>, your driver calls <a 
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotypeex">WdfDeviceInitSetIoTypeEx</a>
+

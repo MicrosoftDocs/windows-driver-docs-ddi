@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wudfddi.h
 api_name:
- - IRequestCallbackRequestCompletion.OnCompletion
+ - IRequestCallbackRequestCompletion::OnCompletion
 ---
 
 # IRequestCallbackRequestCompletion::OnCompletion
@@ -94,3 +94,4 @@ A driver registers the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>
+

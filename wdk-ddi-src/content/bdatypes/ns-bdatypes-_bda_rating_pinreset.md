@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Bdatypes.h
 api_name:
+ - _BDA_RATING_PINRESET
+ - PBDA_RATING_PINRESET
  - BDA_RATING_PINRESET
 ---
 

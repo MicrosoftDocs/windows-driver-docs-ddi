@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
+ - _NDK_CONNECTOR_DISPATCH
  - NDK_CONNECTOR_DISPATCH
 ---
 
@@ -158,3 +159,4 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="/windows-har
 
 
 [NDK_FN_REJECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_reject)
+

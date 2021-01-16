@@ -41,7 +41,9 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - PcStreamResourceType, *PPcStreamResourceType
+ - _PcStreamResourceType
+ - PPcStreamResourceType
+ - PcStreamResourceType
 ---
 
 # _PcStreamResourceType enumeration

@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSETCALLFORWARDINGSTATUSPARAMS
+ - LPRILSETCALLFORWARDINGSTATUSPARAMS
 ---
 
 # RILSETCALLFORWARDINGSTATUSPARAMS structure (ntddrilapitypes.h)

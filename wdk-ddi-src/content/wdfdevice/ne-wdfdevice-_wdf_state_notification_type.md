@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wdfdevice.h
 api_name:
+ - _WDF_STATE_NOTIFICATION_TYPE
  - WDF_STATE_NOTIFICATION_TYPE
 ---
 
@@ -132,3 +133,4 @@ To register for notification of a change in state, the driver can call the follo
 
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_notification_data">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
+

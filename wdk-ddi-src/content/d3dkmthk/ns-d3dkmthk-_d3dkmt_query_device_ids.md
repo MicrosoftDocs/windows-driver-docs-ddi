@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_QUERY_DEVICE_IDS
+ - D3DKMT_QUERY_DEVICE_IDS
 dev_langs:
  - c++
 ---

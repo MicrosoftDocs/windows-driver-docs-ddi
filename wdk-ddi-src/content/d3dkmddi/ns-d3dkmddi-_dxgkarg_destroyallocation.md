@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_DESTROYALLOCATION
  - DXGKARG_DESTROYALLOCATION
 ---
 
@@ -90,3 +91,4 @@ The handles in the array that the <b>pAllocationList</b> member specifies are ha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroyallocation">DxgkDdiDestroyAllocation</a>
+

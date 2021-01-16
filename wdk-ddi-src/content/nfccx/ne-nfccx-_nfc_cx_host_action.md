@@ -41,6 +41,8 @@ api_type:
 api_location:
  - nfccx.h
 api_name:
+ - _NFC_CX_HOST_ACTION
+ - PNFC_CX_HOST_ACTION
  - NFC_CX_HOST_ACTION
 ---
 
@@ -76,3 +78,4 @@ Specifies to unload the driver.
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+

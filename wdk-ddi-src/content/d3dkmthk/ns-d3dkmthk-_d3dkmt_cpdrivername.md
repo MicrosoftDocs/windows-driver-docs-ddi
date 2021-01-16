@@ -34,6 +34,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_CPDRIVERNAME
+ - D3DKMT_CPDRIVERNAME
 dev_langs:
  - c++
 ---

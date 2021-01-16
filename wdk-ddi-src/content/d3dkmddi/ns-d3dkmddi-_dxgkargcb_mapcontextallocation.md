@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARGCB_MAPCONTEXTALLOCATION
  - DXGKARGCB_MAPCONTEXTALLOCATION
 ---
 
@@ -100,3 +101,4 @@ Specifies the driver protection parameters.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_mapcontextallocation">DxgkCbMapContextAllocation</a>
+

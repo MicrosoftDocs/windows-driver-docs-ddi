@@ -12,6 +12,8 @@ tech.root: print
 f1_keywords:
  - winspool
  - winspool/winspool
+api_name:
+ - winspool
 ---
 
 # Winspool.h header

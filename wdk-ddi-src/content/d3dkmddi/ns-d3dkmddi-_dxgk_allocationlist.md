@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_ALLOCATIONLIST
  - DXGK_ALLOCATIONLIST
 ---
 
@@ -121,3 +122,4 @@ In the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
+

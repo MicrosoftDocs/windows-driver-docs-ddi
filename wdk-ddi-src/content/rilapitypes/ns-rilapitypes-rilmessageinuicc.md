@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMESSAGEINUICC
+ - LPRILMESSAGEINUICC
 ---
 
 # RILMESSAGEINUICC structure (rilapitypes.h)

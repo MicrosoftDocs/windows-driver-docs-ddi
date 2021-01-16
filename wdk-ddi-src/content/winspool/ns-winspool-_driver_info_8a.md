@@ -41,7 +41,9 @@ api_type:
 api_location:
  - winspool.h
 api_name:
- - DRIVER_INFO_8
+ - _DRIVER_INFO_8A
+ - PDRIVER_INFO_8A
+ - DRIVER_INFO_8A
 ---
 
 # _DRIVER_INFO_8A structure
@@ -348,3 +350,4 @@ The earliest allowed version of any drivers that shipped with Windows and on whi
 The strings for these members are contained in the INF file that is used to add the driver.
 
 If you call **AddPrinterDriver** or **AddPrinterDriverEx** with Level not equal to 6 or 8, and then you call **GetPrinterDriver** or **EnumPrinterDrivers** with Level equal to 6 or 8, the **DRIVER_INFO_8** structure is returned with pszMfgName, pszOEMUrl, pszHardwareID, and pszProvider set to **NULL**, dwlDriverVersion set to zero, and ftDriverDate set to (0,0).
+

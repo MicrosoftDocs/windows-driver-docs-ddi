@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.SetDeviceChannelVolume
+ - IMiniportAudioEngineNode::SetDeviceChannelVolume
 ---
 
 # IMiniportAudioEngineNode::SetDeviceChannelVolume
@@ -71,3 +71,4 @@ The volume level to which the channel will be set.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
+

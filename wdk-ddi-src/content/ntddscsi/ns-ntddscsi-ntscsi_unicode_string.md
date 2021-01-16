@@ -33,6 +33,7 @@ api_type:
 api_location:
  - ntddscsi.h
 api_name:
+ - _NTSCSI_UNICODE_STRING
  - NTSCSI_UNICODE_STRING
 product:
  - Windows
@@ -76,3 +77,4 @@ If the string is null-terminated, **Length** does not include the trailing null 
 ## -see-also
 
 [UNICODE_STRING](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
+

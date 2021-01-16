@@ -37,7 +37,7 @@ api_type:
 api_location:
  - ndkpi.h
 api_name:
- - NdkCreateListener
+ - NDK_FN_CREATE_LISTENER
 ---
 
 # NDK_FN_CREATE_LISTENER callback function
@@ -163,3 +163,4 @@ The <i>NdkCreateListener</i> function creates an NDK listener object. If the fun
 
 
 <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>
+

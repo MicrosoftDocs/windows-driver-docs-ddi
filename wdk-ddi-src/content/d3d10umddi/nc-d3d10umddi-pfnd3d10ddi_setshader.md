@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - CsSetShader
+ - PFND3D10DDI_SETSHADER
 product:
  - Windows
 ---
@@ -86,3 +86,4 @@ The <b>PsSetShader</b> function sets a pixel shader to be used in all drawing op
 
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
+

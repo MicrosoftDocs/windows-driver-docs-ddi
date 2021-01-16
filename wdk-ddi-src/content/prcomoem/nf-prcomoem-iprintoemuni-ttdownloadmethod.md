@@ -37,7 +37,7 @@ api_type:
 api_location:
  - prcomoem.h
 api_name:
- - IPrintOemUni.TTDownloadMethod
+ - IPrintOemUni::TTDownloadMethod
 ---
 
 # IPrintOemUni::TTDownloadMethod
@@ -184,3 +184,4 @@ For additional information see <a href="/windows-hardware/drivers/print/customiz
 
 
 <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a>
+

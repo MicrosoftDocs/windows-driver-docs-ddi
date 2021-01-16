@@ -12,6 +12,8 @@ tech.root: netvista
 f1_keywords:
  - ring
  - ring/ring
+api_name:
+ - ring
 ---
 
 # Ring.h header

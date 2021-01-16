@@ -27,6 +27,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _DEVICE_DSM_RANGE_ERROR_INFO
+ - PDEVICE_DSM_RANGE_ERROR_INFO
  - DEVICE_DSM_RANGE_ERROR_INFO
 product:
  - Windows
@@ -83,3 +85,4 @@ The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES]
 [DEVICE_STORAGE_RANGE_ATTRIBUTES](./ns-ntddstor_device_storage_range_attributes.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
+

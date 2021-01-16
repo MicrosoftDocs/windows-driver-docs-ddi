@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
+ - _D3DHAL_D3DEXTENDEDCAPS
  - D3DHAL_D3DEXTENDEDCAPS
 ---
 
@@ -232,3 +233,4 @@ When the driver fills in this structure, it can set values for execute buffer ca
 ## -see-also
 
 <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+

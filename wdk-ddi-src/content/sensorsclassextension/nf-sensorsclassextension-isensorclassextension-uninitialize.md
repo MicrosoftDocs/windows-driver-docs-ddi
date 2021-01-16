@@ -38,7 +38,7 @@ api_location:
  - SensorsClassExtension.lib
  - SensorsClassExtension.dll
 api_name:
- - Uninitialize
+ - ISensorClassExtension::Uninitialize
 ---
 
 # ISensorClassExtension::Uninitialize
@@ -66,3 +66,4 @@ If you must, for some reason, otherwise release and uninitialize the sensor clas
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
+

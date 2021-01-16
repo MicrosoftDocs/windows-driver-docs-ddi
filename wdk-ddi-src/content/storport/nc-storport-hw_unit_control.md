@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorUnitControl
+ - HW_UNIT_CONTROL
 ---
 
 # HW_UNIT_CONTROL callback function
@@ -792,7 +792,7 @@ HW_UNIT_CONTROL (
   );
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+

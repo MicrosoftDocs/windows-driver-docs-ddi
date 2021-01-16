@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
+ - PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
  - NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
 ---
 
@@ -84,3 +86,4 @@ To determine if a miniport driver supports RSC, NDIS drivers and other applicati
 
 
 <a href="/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
+

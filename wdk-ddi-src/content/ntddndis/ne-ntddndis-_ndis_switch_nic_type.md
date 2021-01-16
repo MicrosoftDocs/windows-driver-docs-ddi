@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ntddndis.h
 api_name:
+ - _NDIS_SWITCH_NIC_TYPE
  - NDIS_SWITCH_NIC_TYPE
 ---
 
@@ -94,3 +95,4 @@ For more information on the types of network adapters that connect to extensible
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
+

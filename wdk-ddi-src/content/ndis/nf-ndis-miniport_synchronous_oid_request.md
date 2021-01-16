@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - MiniportSynchronousOidRequest
+ - MINIPORT_SYNCHRONOUS_OID_REQUEST
 ---
 
 # MINIPORT_SYNCHRONOUS_OID_REQUEST function
@@ -245,3 +245,4 @@ Miniport drivers that implement NDIS Selective Suspend are incompatible with Syn
 
 
 <a href="/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
+

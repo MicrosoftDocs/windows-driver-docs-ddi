@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - pfnFreeGpuVirtualAddressCb
+ - PFND3DDDI_FREEGPUVIRTUALADDRESSCB
 product:
  - Windows
 ---
@@ -88,3 +88,4 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb">pfnUpdateGpuVirtualAddressCb</a>
+

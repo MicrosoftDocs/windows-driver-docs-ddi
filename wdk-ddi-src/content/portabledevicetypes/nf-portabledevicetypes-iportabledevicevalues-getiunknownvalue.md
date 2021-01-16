@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.GetIUnknownValue
+ - IPortableDeviceValues::GetIUnknownValue
 ---
 
 # IPortableDeviceValues::GetIUnknownValue
@@ -115,3 +115,4 @@ None.
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setiunknownvalue">IPortableDeviceValues::SetIUnknownValue</a>
+

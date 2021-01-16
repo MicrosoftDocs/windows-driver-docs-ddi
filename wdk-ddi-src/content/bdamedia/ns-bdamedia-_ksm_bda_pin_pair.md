@@ -41,6 +41,8 @@ api_type:
 api_location:
  - bdamedia.h
 api_name:
+ - _KSM_BDA_PIN_PAIR
+ - PKSM_BDA_PIN_PAIR
  - KSM_BDA_PIN_PAIR
 ---
 
@@ -80,3 +82,4 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies t
 
 
 <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+

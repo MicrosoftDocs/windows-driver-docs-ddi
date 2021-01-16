@@ -30,6 +30,7 @@ api_location:
  - d3dkmddi.h
 api_name:
  - _DXGK_MEMORY_CACHING_TYPE
+ - DXGK_MEMORY_CACHING_TYPE
 product:
  - Windows
 ---

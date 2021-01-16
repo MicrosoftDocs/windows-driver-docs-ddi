@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_DEVICE_POWER_CAP_UNITS
+ - PSTORAGE_DEVICE_POWER_CAP_UNITS
  - STORAGE_DEVICE_POWER_CAP_UNITS
 ---
 

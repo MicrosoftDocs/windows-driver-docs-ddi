@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
  - DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
 ---
 

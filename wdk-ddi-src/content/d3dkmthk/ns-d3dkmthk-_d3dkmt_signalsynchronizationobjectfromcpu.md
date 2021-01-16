@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
  - D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
@@ -76,3 +77,4 @@ Flag options.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu">D3DKMTSignalSynchronizationObjectFromCpu</a>
+

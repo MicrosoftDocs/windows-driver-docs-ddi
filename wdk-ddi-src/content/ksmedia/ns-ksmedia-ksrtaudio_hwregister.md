@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_HWREGISTER
  - KSRTAUDIO_HWREGISTER
 ---
 
@@ -98,3 +99,4 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_hwregister_property">KSRTAUDIO_HWREGISTER_PROPERTY</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pep_x.h
 api_name:
+ - _PEP_WORK_DEVICE_POWER
+ - PPEP_WORK_DEVICE_POWER
  - PEP_WORK_DEVICE_POWER
 ---
 
@@ -72,3 +74,4 @@ The <b>DevicePower</b> member of the <a href="/windows-hardware/drivers/ddi/pepf
 
 
 <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+

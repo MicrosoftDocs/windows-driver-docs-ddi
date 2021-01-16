@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _DeleteInitiatorNodeName_OUT
+ - PDeleteInitiatorNodeName_OUT
  - DeleteInitiatorNodeName_OUT
 ---
 
@@ -72,3 +74,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
+

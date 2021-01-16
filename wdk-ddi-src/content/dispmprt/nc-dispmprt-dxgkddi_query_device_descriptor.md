@@ -37,7 +37,7 @@ api_type:
 api_location:
  - dispmprt.h
 api_name:
- - DxgkDdiQueryDeviceDescriptor
+ - DXGKDDI_QUERY_DEVICE_DESCRIPTOR
 ---
 
 # DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback function
@@ -102,3 +102,4 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a>
+

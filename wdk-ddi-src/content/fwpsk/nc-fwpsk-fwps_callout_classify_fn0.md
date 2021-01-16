@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Fwpsk.h
 api_name:
- - classifyFn0
+ - FWPS_CALLOUT_CLASSIFY_FN0
 ---
 
 # FWPS_CALLOUT_CLASSIFY_FN0 callback function
@@ -219,3 +219,4 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a>
+

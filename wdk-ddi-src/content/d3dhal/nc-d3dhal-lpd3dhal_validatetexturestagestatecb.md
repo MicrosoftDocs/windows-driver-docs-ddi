@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dhal.h
 api_name:
- - D3dValidateTextureStageState
+ - LPD3DHAL_VALIDATETEXTURESTAGESTATECB
 ---
 
 # LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback function
@@ -110,3 +110,4 @@ Requests that are likely to fail <b>D3dValidateTextureStageState</b>:
 
 
 <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+

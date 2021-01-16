@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PKSPIN_MDL_CACHING_NOTIFICATION32
  - KSPIN_MDL_CACHING_NOTIFICATION32
 ---
 

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFWorkItem.GetParentObject
+ - IWDFWorkItem::GetParentObject
 ---
 
 # IWDFWorkItem::GetParentObject
@@ -60,3 +60,4 @@ For more information, see <a href="/windows-hardware/drivers/wdf/using-workitems
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a>
+

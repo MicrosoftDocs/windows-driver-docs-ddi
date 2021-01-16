@@ -38,7 +38,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - WdmlibRtlInitUnicodeStringEx
- - RtlInitUnicodeString
 ---
 
 # WdmlibRtlInitUnicodeStringEx function
@@ -79,3 +78,4 @@ Callers of **WdmlibRtlInitUnicodeStringEx** can be running at IRQL <= DISPATCH_L
 [RtlUnicodeStringInitEx](../ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex.md) 
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+

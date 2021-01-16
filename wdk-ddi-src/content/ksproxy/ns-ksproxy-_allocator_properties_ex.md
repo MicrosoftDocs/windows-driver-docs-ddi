@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksproxy.h
 api_name:
+ - _ALLOCATOR_PROPERTIES_EX
  - ALLOCATOR_PROPERTIES_EX
 ---
 

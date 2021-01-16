@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
- - VideoProcessBeginFrame
+ - PFND3DDDI_VIDEOPROCESSBEGINFRAME
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ The <i>VideoProcessBeginFrame</i> function notifies the user-mode display driver
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a>
+

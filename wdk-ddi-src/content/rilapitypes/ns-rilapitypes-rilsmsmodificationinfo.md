@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSMSMODIFICATIONINFO
+ - LPRILSMSMODIFICATIONINFO
 ---
 
 # RILSMSMODIFICATIONINFO structure (rilapitypes.h)

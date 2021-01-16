@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, _D3DKMDT_VIDPN_PRESENT_PATH, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, display.d3dkmdt_vidpn_present_path
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _D3DKMDT_VIDPN_PRESENT_PATH
  - D3DKMDT_VIDPN_PRESENT_PATH
 ---
 
@@ -102,3 +103,4 @@ A video present path represents a connection between a video present source (vie
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath">DxgkDdiUpdateActiveVidPnPresentPath</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_RENDERKM_OPERATION
  - DXGK_RENDERKM_OPERATION
 ---
 
@@ -86,3 +87,4 @@ Indicates a ClearType blend.
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm">DxgkDdiRenderKm</a>
+

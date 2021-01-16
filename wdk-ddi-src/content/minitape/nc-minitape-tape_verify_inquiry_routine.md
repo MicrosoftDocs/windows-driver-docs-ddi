@@ -37,7 +37,7 @@ api_type:
 api_location:
  - minitape.h
 api_name:
- - (*TAPE_VERIFY_INQUIRY_ROUTINE)
+ - TAPE_VERIFY_INQUIRY_ROUTINE
 ---
 
 # TAPE_VERIFY_INQUIRY_ROUTINE callback function
@@ -74,3 +74,4 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
 
 <a href="/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclasscomparememory">TapeClassCompareMemory</a>
+

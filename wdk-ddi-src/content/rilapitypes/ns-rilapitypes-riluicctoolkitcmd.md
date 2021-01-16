@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCTOOLKITCMD
+ - LPRILUICCTOOLKITCMD
 ---
 
 # RILUICCTOOLKITCMD structure (rilapitypes.h)

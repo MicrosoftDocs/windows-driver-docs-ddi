@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Winsplp.h
 api_name:
+ - PBranchOfficeJobDataContainer
  - BranchOfficeJobDataContainer
 ---
 
@@ -58,3 +59,4 @@ Describes the <b>DWORD</b> type member <b>cJobDataEntries</b>.
 ### -field JobData
 
 Describes the <b>BranchOfficeJobData</b> type member <b>JobData</b>.
+

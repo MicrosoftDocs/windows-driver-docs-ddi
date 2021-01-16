@@ -37,7 +37,7 @@ api_type:
 api_location:
  - storport.h
 api_name:
- - HwStorStateChange
+ - HW_STATE_CHANGE
 ---
 
 # HW_STATE_CHANGE callback function
@@ -99,7 +99,6 @@ HW_STATE_CHANGE (
     );
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
@@ -107,3 +106,4 @@ HW_STATE_CHANGE (
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>
+

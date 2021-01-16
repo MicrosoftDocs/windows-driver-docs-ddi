@@ -12,6 +12,8 @@ tech.root: image
 f1_keywords:
  - wiautil
  - wiautil/wiautil
+api_name:
+ - wiautil
 ---
 
 # Wiautil.h header

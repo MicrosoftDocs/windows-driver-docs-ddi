@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_OPENADAPTER
  - D3DDDIARG_OPENADAPTER
 ---
 
@@ -96,3 +97,4 @@ with the Windows 7 WDK (Version 7600), make sure that the driver returns D3D_UM
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb">pfnQueryAdapterInfoCb</a>
+

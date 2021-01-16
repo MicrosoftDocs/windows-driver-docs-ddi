@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_STREAM_STATE_FILTER_DATA
  - DXVAHDDDI_STREAM_STATE_FILTER_DATA
 ---
 
@@ -70,3 +71,4 @@ The level that is specified in the <b>Level</b> member must be within the range 
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

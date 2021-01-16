@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
+ - PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
  - KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 ---
 
@@ -90,3 +91,4 @@ Using KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION facilitates event signaling as
 
 
 <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-unregister-notification-event">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a>
+

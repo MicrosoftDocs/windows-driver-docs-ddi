@@ -41,6 +41,8 @@ api_type:
 api_location:
  - video.h
 api_name:
+ - _VIDEO_CHILD_STATE
+ - PVIDEO_CHILD_STATE
  - VIDEO_CHILD_STATE
 ---
 
@@ -72,3 +74,4 @@ One member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_c
 
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a>
+

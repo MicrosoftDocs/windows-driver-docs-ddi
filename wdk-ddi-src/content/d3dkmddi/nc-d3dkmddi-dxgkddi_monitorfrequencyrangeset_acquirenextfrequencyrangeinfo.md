@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
- - (*pfnAcquireNextFrequencyRangeInfo)
+ - DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO
 product:
  - Windows
 ---
@@ -83,3 +83,4 @@ This function might also return other error codes defined in <i>Ntstatus.h</i>.
 When you have finished using the D3DKMDT_MONITOR_FREQUENCY_RANGE structure, you must release the structure by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_releasefrequencyrangeinfo">pfnReleaseFrequencyRangeInfo</a>.
 
 You can obtain all the descriptors in a monitor frequency range set by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo">pfnAcquireFirstFrequencyRangeInfo</a> and then making a sequence of calls to <b>pfnAcquireNextFrequencyRangeInfo</b>.
+

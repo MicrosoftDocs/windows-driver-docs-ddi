@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wiamindr_lh.h
 api_name:
- - IWiaMiniDrv.drvDeleteItem
+ - IWiaMiniDrv::drvDeleteItem
 ---
 
 # IWiaMiniDrv::drvDeleteItem
@@ -102,3 +102,4 @@ Since the WIA service verifies these conditions, it is not necessary for the min
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
+

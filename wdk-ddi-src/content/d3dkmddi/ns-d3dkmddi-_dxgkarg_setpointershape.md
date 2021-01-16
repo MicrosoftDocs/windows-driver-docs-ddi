@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGKARG_SETPOINTERSHAPE
  - DXGKARG_SETPOINTERSHAPE
 ---
 
@@ -100,3 +101,4 @@ The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers tha
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointershape">DxgkDdiSetPointerShape</a>
+

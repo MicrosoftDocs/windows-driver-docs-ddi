@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_GETOVERLAYSTATE
  - D3DKMT_GETOVERLAYSTATE
 ---
 
@@ -66,3 +67,4 @@ The D3DKMT_GETOVERLAYSTATE structure describes parameters that the <a href="/win
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetoverlaystate">D3DKMTGetOverlayState</a>
+

@@ -35,7 +35,7 @@ api_type:
 api_location:
  - dbgmodel.h
 api_name:
- - IModelKeyReference.QueryInterface
+ - IModelKeyReference::QueryInterface
 ---
 
 # IModelKeyReference::QueryInterface
@@ -68,3 +68,4 @@ Standard COM method.
 ## -see-also
 
 [IModelKeyReference interface](nn-dbgmodel-imodelkeyreference.md)
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - D3dkmddi.h
 api_name:
+ - _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES
  - DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES
 ---
 
@@ -155,3 +156,4 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_ycbcr_flags">DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
+

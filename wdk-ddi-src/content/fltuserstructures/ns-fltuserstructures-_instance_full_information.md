@@ -41,6 +41,8 @@ api_type:
 api_location:
  - fltuserstructures.h
 api_name:
+ - _INSTANCE_FULL_INFORMATION
+ - PINSTANCE_FULL_INFORMATION
  - INSTANCE_FULL_INFORMATION
 ---
 
@@ -138,3 +140,4 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
+

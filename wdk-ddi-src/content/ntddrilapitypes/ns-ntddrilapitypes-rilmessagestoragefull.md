@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMESSAGESTORAGEFULL
+ - LPRILMESSAGESTORAGEFULL
 ---
 
 # RILMESSAGESTORAGEFULL structure (ntddrilapitypes.h)

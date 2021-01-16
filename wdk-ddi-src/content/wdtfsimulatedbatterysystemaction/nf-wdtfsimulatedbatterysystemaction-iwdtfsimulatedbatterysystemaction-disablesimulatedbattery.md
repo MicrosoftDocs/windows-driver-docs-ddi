@@ -37,7 +37,7 @@ api_type:
 api_location:
  - wdtfsimulatedbatterysystemaction.h
 api_name:
- - IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
+ - IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
 ---
 
 # IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
@@ -66,3 +66,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 <a href="/windows-hardware/drivers/ddi/index">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a>
+

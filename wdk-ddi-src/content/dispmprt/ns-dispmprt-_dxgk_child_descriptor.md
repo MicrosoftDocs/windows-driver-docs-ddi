@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Dispmprt.h
 api_name:
+ - _DXGK_CHILD_DESCRIPTOR
+ - PDXGK_CHILD_DESCRIPTOR
  - DXGK_CHILD_DESCRIPTOR
 ---
 
@@ -90,3 +92,4 @@ Each child device of type <b>TypeVideoOutput</b> is associated with a video pres
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a>
+

@@ -37,7 +37,7 @@ api_type:
 api_location:
  - videoagp.h
 api_name:
- - AgpSetRate
+ - PAGP_SET_RATE
 ---
 
 # PAGP_SET_RATE callback function
@@ -81,3 +81,4 @@ The <b>AgpSetRate</b> function can be used to change an AGP chipset's data trans
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_agp_interface_2">VIDEO_PORT_AGP_INTERFACE_2</a>
+

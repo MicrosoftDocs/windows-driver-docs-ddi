@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTFDriverPNPAction.Interop.dll
 api_name:
- - IWDTFPNPAction2.RequestEjectDevice
+ - IWDTFPNPAction2::RequestEjectDevice
 ---
 
 # IWDTFPNPAction2::RequestEjectDevice
@@ -66,3 +66,4 @@ See the MSDN documentation for details.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
+

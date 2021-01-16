@@ -37,9 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugControl.SetInterrupt
- - IDebugControl2.SetInterrupt
- - IDebugControl3.SetInterrupt
+ - IDebugControl::SetInterrupt
 ---
 
 # IDebugControl::SetInterrupt
@@ -148,3 +146,4 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupttimeout">SetInterruptTimeout</a>
+

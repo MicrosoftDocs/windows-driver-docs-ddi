@@ -38,7 +38,7 @@ api_location:
  - dispmprt.h
  - d3dkmddi.h
 api_name:
- - DxgkDdiSetRootPageTable
+ - DXGKDDI_SETROOTPAGETABLE
 product:
  - Windows
 ---
@@ -66,3 +66,4 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setroot
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a>
+

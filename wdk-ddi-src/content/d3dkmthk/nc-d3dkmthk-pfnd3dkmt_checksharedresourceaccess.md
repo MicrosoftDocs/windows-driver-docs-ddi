@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
- - D3DKMTCheckSharedResourceAccess
+ - PFND3DKMT_CHECKSHAREDRESOURCEACCESS
 ---
 
 # PFND3DKMT_CHECKSHAREDRESOURCEACCESS callback function
@@ -70,3 +70,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checksharedresourceaccess">D3DKMT_CHECKSHAREDRESOURCEACCESS</a>
+

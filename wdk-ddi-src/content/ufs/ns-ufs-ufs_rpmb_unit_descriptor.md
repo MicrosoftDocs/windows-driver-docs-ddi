@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ufs.h
 api_name:
+ - PUFS_RPMB_UNIT_DESCRIPTOR
  - UFS_RPMB_UNIT_DESCRIPTOR
 ---
 

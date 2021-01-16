@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_CREATEEXTENSIONDEVICE
  - D3DDDIARG_CREATEEXTENSIONDEVICE
 ---
 
@@ -74,3 +75,4 @@ The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Vide
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+

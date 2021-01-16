@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Ntddk.h
 api_name:
+ - _PSCREATETHREADNOTIFYTYPE
  - PSCREATETHREADNOTIFYTYPE
 ---
 
@@ -70,3 +71,4 @@ Indicates that the driver-registered callback function is invoked for threads of
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a>
+

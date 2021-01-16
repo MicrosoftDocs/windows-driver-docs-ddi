@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCFILEPATH
+ - LPRILUICCFILEPATH
 ---
 
 # RILUICCFILEPATH structure (rilapitypes.h)

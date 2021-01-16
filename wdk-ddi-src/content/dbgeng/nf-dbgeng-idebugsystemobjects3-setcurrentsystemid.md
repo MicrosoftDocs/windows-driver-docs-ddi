@@ -37,8 +37,7 @@ api_type:
 api_location:
  - dbgeng.h
 api_name:
- - IDebugSystemObjects3.SetCurrentSystemId
- - IDebugSystemObjects4.SetCurrentSystemId
+ - IDebugSystemObjects3::SetCurrentSystemId
 ---
 
 # IDebugSystemObjects3::SetCurrentSystemId
@@ -109,3 +108,4 @@ If the current target is changed, the callback <a href="/windows-hardware/driver
 
 
 <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>
+

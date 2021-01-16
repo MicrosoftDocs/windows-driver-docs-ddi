@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
  - DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---
 
@@ -86,3 +87,4 @@ Used in a call to the <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_2_ddi_base_functions">pfnCheckMultiPlaneOverlaySupport (DXGI)</a>
+

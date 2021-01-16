@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _D3DDDIARG_GETQUERYDATA
  - D3DDDIARG_GETQUERYDATA
 ---
 
@@ -66,3 +67,4 @@ The D3DDDIARG_GETQUERYDATA structure contains query information that was retriev
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getquerydata">GetQueryData</a>
+

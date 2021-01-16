@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dumddi.h
 api_name:
+ - _DXVAHDDDI_DEVICE_DESC
  - DXVAHDDDI_DEVICE_DESC
 ---
 
@@ -70,3 +71,4 @@ The driver considers the value in the <b>Usage</b> member and the information to
 
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>
+

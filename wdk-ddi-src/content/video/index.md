@@ -12,6 +12,8 @@ tech.root: display
 f1_keywords:
  - video
  - video/video
+api_name:
+ - video
 ---
 
 # Video.h header

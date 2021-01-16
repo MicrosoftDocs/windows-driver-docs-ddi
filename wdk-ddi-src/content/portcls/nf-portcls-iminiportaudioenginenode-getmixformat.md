@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Portcls.h
 api_name:
- - IMiniportAudioEngineNode.GetMixFormat
+ - IMiniportAudioEngineNode::GetMixFormat
 ---
 
 # IMiniportAudioEngineNode::GetMixFormat
@@ -75,3 +75,4 @@ The data buffer size.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+

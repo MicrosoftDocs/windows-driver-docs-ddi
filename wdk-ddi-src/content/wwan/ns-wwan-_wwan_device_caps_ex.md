@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_CAPS_EX
+ - PWWAN_DEVICE_CAPS_EX
  - WWAN_DEVICE_CAPS_EX
 ---
 
@@ -1127,3 +1129,4 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
+

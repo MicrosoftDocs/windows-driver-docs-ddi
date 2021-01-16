@@ -12,6 +12,8 @@ tech.root: usbref
 f1_keywords:
  - ucmtypes
  - ucmtypes/ucmtypes
+api_name:
+ - ucmtypes
 ---
 
 # Ucmtypes.h header

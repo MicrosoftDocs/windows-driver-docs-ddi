@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddndis.h
 api_name:
+ - _OFFLOAD_ALGO_INFO
+ - POFFLOAD_ALGO_INFO
  - OFFLOAD_ALGO_INFO
 ---
 
@@ -159,3 +161,4 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
 
 
 <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">OFFLOAD_SECURITY_ASSOCIATION</a>
+

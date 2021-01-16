@@ -37,7 +37,7 @@ api_type:
 api_location:
  - sti.h
 api_name:
- - IStillImageW.GetHwNotificationState
+ - IStillImageW::GetHwNotificationState
 ---
 
 # IStillImageW::GetHwNotificationState
@@ -74,3 +74,4 @@ Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>ISt
 
 
 <a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
+

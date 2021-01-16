@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
+ - PPCI_CORRECTABLE_ERROR_STATUS
  - PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
 ---
 
@@ -140,3 +142,4 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="/w
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+

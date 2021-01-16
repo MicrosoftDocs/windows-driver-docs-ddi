@@ -38,7 +38,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteData.ExtRemoteData
+ - ExtRemoteData::ExtRemoteData
 ---
 
 # ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG)

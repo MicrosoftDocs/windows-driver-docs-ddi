@@ -12,6 +12,8 @@ tech.root: pci
 f1_keywords:
  - vpci
  - vpci/vpci
+api_name:
+ - vpci
 ---
 
 # Vpci.h header

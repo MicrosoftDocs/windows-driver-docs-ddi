@@ -41,7 +41,9 @@ api_type:
 api_location:
  - nfcsedev.h
 api_name:
- - SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+ - _SECURE_ELEMENT_TYPE
+ - PSECURE_ELEMENT_TYPE
+ - SECURE_ELEMENT_TYPE
 ---
 
 # _SECURE_ELEMENT_TYPE enumeration

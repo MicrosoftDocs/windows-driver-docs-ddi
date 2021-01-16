@@ -38,7 +38,7 @@ api_type:
 api_location:
  - PortableDeviceTypes.h
 api_name:
- - IPortableDeviceValues.SetValue
+ - IPortableDeviceValues::SetValue
 ---
 
 # IPortableDeviceValues::SetValue
@@ -101,3 +101,4 @@ If an existing value has the same key that is specified by the <i>key</i> parame
 
 
 <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-removevalue">IPortableDeviceValues::RemoveValue</a>
+

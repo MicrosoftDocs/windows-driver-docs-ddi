@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_STARTIO)
+ - PHW_STARTIO
 ---
 
 # PHW_STARTIO callback
@@ -79,3 +79,4 @@ For more information about the miniport driver's start I/O routine that is used 
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a>
+

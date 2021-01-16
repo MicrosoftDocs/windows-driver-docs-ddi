@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
+ - _SYSTEM_SCOPED_POLICY_ID_ACE
+ - PSYSTEM_SCOPED_POLICY_ID_ACE
  - SYSTEM_SCOPED_POLICY_ID_ACE
 ---
 
@@ -84,3 +86,4 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+

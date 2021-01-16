@@ -39,6 +39,7 @@ api_type:
 api_location:
  - ks.h
 api_name:
+ - PBUS_INTERFACE_REFERENCE
  - BUS_INTERFACE_REFERENCE
 ---
 
@@ -93,3 +94,4 @@ If your request is successful, the system fills in the BUS_INTERFACE_REFERENCE s
 
 </li>
 </ul>
+

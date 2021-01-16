@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3dumddi.h
 api_name:
- - pfnCheckMultiPlaneOverlaySupport
+ - PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT
 product:
  - Windows
 ---
@@ -68,3 +68,4 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_checkmultiplaneoverlaysupport">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndischimney.h
 api_name:
+ - _TCP_OFFLOAD_STATE_DELEGATED
+ - PTCP_OFFLOAD_STATE_DELEGATED
  - TCP_OFFLOAD_STATE_DELEGATED
 ---
 
@@ -401,3 +403,4 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 
 <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">TCP_OFFLOAD_STATE_CONST</a>
+

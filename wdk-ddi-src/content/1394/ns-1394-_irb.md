@@ -41,6 +41,8 @@ api_type:
 api_location:
  - 1394.h
 api_name:
+ - _IRB
+ - PIRB
  - IRB
 ---
 
@@ -285,3 +287,4 @@ The <b>Parameters->Others.Arguments1</b> member of an <a href="/windows-hardware
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a>
+

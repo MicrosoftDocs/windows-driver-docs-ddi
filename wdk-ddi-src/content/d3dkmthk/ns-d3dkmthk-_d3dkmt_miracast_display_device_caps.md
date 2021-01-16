@@ -36,6 +36,8 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
+ - PD3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
+ - D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
 dev_langs:
  - c++
 ---

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsimgt.h
 api_name:
+ - _SetLoadBalancePolicy_OUT
+ - PSetLoadBalancePolicy_OUT
  - SetLoadBalancePolicy_OUT
 ---
 
@@ -68,3 +70,4 @@ You must implement this class. For a list of possible status qualifiers, see <a 
 
 
 <a href="/windows-hardware/drivers/storage/msiscsi-lb-operations-wmi-class">MSiSCSI_LB_Operations WMI Class</a>
+

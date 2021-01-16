@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_ESCAPE
  - D3DKMT_ESCAPE
 ---
 
@@ -152,3 +153,4 @@ For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE struc
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidsch_escape">D3DKMT_VIDSCH_ESCAPE</a>
+

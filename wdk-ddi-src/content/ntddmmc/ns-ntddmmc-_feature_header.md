@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddmmc.h
 api_name:
+ - _FEATURE_HEADER
+ - PFEATURE_HEADER
  - FEATURE_HEADER
 ---
 
@@ -88,3 +90,4 @@ Indicates the number of bytes of feature information that follow this header. Th
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_configuration">IOCTL_CDROM_GET_CONFIGURATION</a>
+

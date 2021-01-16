@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wiamdef.h
 api_name:
- - CWiaLogProcEx.CWiaLogProcEx
+ - CWiaLogProcEx::CWiaLogProcEx
 ---
 
 # CWiaLogProcEx::CWiaLogProcEx
@@ -78,3 +78,4 @@ Defines the **LONG** parameter *lMethodId*.
 ## -see-also
 
 [CWiaLogProcEx]()
+

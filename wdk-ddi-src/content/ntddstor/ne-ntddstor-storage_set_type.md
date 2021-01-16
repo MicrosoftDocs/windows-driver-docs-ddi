@@ -32,6 +32,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_SET_TYPE
+ - PSTORAGE_SET_TYPE
  - STORAGE_SET_TYPE
 product:
  - Windows

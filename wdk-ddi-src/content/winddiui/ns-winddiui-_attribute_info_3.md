@@ -41,6 +41,8 @@ api_type:
 api_location:
  - winddiui.h
 api_name:
+ - _ATTRIBUTE_INFO_3
+ - PATTRIBUTE_INFO_3
  - ATTRIBUTE_INFO_3
 ---
 
@@ -213,3 +215,4 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="/wi
 
 
 <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex">GetJobAttributesEx</a>
+

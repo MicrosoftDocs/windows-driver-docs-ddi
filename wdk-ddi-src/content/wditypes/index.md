@@ -12,6 +12,8 @@ ms.topic: portal
 f1_keywords:
  - wditypes
  - wditypes/wditypes
+api_name:
+ - wditypes
 ---
 
 # Wditypes.h header

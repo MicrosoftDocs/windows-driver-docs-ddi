@@ -41,7 +41,9 @@ api_type:
 api_location:
  - 1394.h
 api_name:
- - NOTIFICATION_INFO
+ - _NOTIFICATION_INFO_W2K
+ - PNOTIFICATION_INFO_W2K
+ - NOTIFICATION_INFO_W2K
 ---
 
 # _NOTIFICATION_INFO_W2K structure
@@ -175,3 +177,4 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+

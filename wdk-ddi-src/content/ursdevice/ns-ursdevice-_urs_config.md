@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Ursdevice.h
 api_name:
+ - _URS_CONFIG
+ - PURS_CONFIG
  - URS_CONFIG
 ---
 
@@ -76,3 +78,4 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/ursdevice/nc-ursdevice-ev
 
 
 <a href="/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
+

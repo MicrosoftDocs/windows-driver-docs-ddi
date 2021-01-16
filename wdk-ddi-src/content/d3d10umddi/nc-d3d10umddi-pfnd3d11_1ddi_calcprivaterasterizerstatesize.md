@@ -37,7 +37,7 @@ api_type:
 api_location:
  - D3d10umddi.h
 api_name:
- - CalcPrivateRasterizerStateSize(D3D11_1)
+ - PFND3D11_1DDI_CALCPRIVATERASTERIZERSTATESIZE
 product:
  - Windows
 ---
@@ -70,3 +70,4 @@ The size of the memory region that the driver requires for creating a rasterizer
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1_ddi_rasterizer_desc">D3D11_1_DDI_RASTERIZER_DESC</a>
+

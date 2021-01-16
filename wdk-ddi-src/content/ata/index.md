@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ata
  - ata/ata
+api_name:
+ - ata
 ---
 
 # Ata.h header

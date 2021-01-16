@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Gpioclx.h
 api_name:
- - CLIENT_DisableInterrupt
+ - GPIO_CLIENT_DISABLE_INTERRUPT
 ---
 
 # GPIO_CLIENT_DISABLE_INTERRUPT callback function
@@ -115,3 +115,4 @@ The GPIO_CLIENT_DISABLE_INTERRUPT function type is defined in the Gpioclx.h head
 
 
 <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_disable_interrupt_parameters">GPIO_DISABLE_INTERRUPT_PARAMETERS</a>
+

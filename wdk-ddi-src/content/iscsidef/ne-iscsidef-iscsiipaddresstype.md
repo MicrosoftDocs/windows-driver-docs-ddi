@@ -39,6 +39,7 @@ api_type:
 api_location:
  - iscsidef.h
 api_name:
+ - PISCSIIPADDRESSTYPE
  - ISCSIIPADDRESSTYPE
 ---
 
@@ -70,3 +71,4 @@ No address is specified.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
+

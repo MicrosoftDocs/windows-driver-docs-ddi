@@ -41,6 +41,8 @@ api_type:
 api_location:
  - smclib.h
 api_name:
+ - _SMARTCARD_EXTENSION
+ - PSMARTCARD_EXTENSION
  - SMARTCARD_EXTENSION
 ---
 
@@ -479,3 +481,4 @@ You must copy the SCARD_IO_REQUEST structure to the <i>ReplyBuffer</i> parameter
 </td>
 </tr>
 </table>
+

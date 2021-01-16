@@ -41,6 +41,8 @@ api_type:
 api_location:
  - avcstrm.h
 api_name:
+ - _AVCSTRM_OPEN_STRUCT
+ - PAVCSTRM_OPEN_STRUCT
  - AVCSTRM_OPEN_STRUCT
 ---
 
@@ -82,3 +84,4 @@ This value can then be used in subsequent <i>avcstrm.sys</i> operations by placi
 
 
 <a href="/windows-hardware/drivers/stream/avcstrm-open">AVCSTRM_OPEN</a>
+

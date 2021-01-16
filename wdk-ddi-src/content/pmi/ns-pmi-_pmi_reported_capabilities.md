@@ -41,6 +41,8 @@ api_type:
 api_location:
  - pmi.h
 api_name:
+ - _PMI_REPORTED_CAPABILITIES
+ - PPMI_REPORTED_CAPABILITIES
  - PMI_REPORTED_CAPABILITIES
 ---
 
@@ -171,3 +173,4 @@ If the query request completes successfully, the request returns a <a href="/win
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a>
+

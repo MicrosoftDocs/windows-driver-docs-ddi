@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WDTF.Interop.metadata_dll.dll
 api_name:
- - IWDTFLOG2.StartTestCase
+ - IWDTFLOG2::StartTestCase
 ---
 
 # IWDTFLOG2::StartTestCase
@@ -61,3 +61,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>
+

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - usbioctl.h
 api_name:
+ - _HUB_DEVICE_CONFIG_INFO_V1
+ - PHUB_DEVICE_CONFIG_INFO
  - HUB_DEVICE_CONFIG_INFO
 ---
 
@@ -103,3 +105,4 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_id_string">USB_ID_STRING</a>
+

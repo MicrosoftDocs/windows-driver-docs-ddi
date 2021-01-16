@@ -37,7 +37,7 @@ api_type:
 api_location:
  - WUDFx.dll
 api_name:
- - IWDFIoRequest2.Reuse
+ - IWDFIoRequest2::Reuse
 ---
 
 # IWDFIoRequest2::Reuse
@@ -89,7 +89,6 @@ CMyRemoteDevice::OnCompletion(
 }
 ```
 
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a>
@@ -101,3 +100,4 @@ CMyRemoteDevice::OnCompletion(
 
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-setcompletioncallback">IWDFIoRequest::SetCompletionCallback</a>
+

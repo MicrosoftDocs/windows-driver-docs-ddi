@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Storport.h
 api_name:
- - HwStorInterrupt
+ - HW_INTERRUPT
 ---
 
 # HW_INTERRUPT callback function
@@ -105,3 +105,4 @@ The <b>HW_INTERRUPT</b> function type is defined in the Storport.h header file. 
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
+

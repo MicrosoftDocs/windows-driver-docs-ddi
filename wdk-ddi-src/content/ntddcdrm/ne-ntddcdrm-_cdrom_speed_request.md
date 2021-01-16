@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddcdrm.h
 api_name:
+ - _CDROM_SPEED_REQUEST
+ - PCDROM_SPEED_REQUEST
  - CDROM_SPEED_REQUEST
 ---
 
@@ -72,3 +74,4 @@ The CD-ROM class driver will use the SET STREAMING command to set the spindle sp
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_set_speed">IOCTL_CDROM_SET_SPEED</a>
+

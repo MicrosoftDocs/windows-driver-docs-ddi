@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wwan.h
 api_name:
+ - _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ - PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY
  - WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 ---
 
@@ -68,3 +70,4 @@ The device service supports read indication  notifications on a session for data
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_entry">WWAN_DEVICE_SERVICE_ENTRY</a>
+

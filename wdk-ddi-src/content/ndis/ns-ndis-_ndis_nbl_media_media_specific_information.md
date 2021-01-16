@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ndis.h
 api_name:
+ - _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION
+ - PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION
  - NDIS_NBL_MEDIA_SPECIFIC_INFORMATION
 ---
 
@@ -118,3 +120,4 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
+

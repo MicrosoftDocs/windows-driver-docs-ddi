@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Printerextension.h
 api_name:
- - IPrinterScriptableStream.Commit
+ - IPrinterScriptableStream::Commit
 ---
 
 # IPrinterScriptableStream::Commit
@@ -54,3 +54,4 @@ This method returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
+

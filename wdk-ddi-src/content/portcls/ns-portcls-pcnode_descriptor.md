@@ -39,6 +39,7 @@ api_type:
 api_location:
  - portcls.h
 api_name:
+ - PPCNODE_DESCRIPTOR
  - PCNODE_DESCRIPTOR
 ---
 
@@ -88,3 +89,4 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 
 <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a>
+

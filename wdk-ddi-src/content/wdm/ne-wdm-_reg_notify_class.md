@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _REG_NOTIFY_CLASS
  - REG_NOTIFY_CLASS
 ---
 
@@ -306,3 +307,4 @@ When the configuration manager calls a driver's <i>RegistryCallback</i> routine,
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+

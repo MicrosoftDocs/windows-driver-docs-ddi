@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILUICCRESPONSE
+ - LPRILUICCRESPONSE
 ---
 
 # RILUICCRESPONSE structure (rilapitypes.h)

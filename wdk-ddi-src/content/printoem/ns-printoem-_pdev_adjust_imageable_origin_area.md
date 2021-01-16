@@ -41,6 +41,8 @@ api_type:
 api_location:
  - printoem.h
 api_name:
+ - _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
+ - PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
  - PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
 ---
 

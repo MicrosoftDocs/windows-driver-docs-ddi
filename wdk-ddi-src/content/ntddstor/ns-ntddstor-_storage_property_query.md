@@ -41,6 +41,8 @@ api_type:
 api_location:
  - ntddstor.h
 api_name:
+ - _STORAGE_PROPERTY_QUERY
+ - PSTORAGE_PROPERTY_QUERY
  - STORAGE_PROPERTY_QUERY
 ---
 
@@ -98,3 +100,4 @@ If the
 
 
 <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_query_type">STORAGE_QUERY_TYPE</a>
+

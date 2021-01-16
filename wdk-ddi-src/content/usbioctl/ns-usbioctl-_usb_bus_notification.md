@@ -36,6 +36,8 @@ api_location:
  - usbioctl.h
 api_name:
  - _USB_BUS_NOTIFICATION
+ - PUSB_BUS_NOTIFICATION
+ - USB_BUS_NOTIFICATION
 ---
 
 # _USB_BUS_NOTIFICATION structure

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - pointofservicecommontypes.h
 api_name:
+ - _BarcodeSymbology
  - BarcodeSymbology
 ---
 

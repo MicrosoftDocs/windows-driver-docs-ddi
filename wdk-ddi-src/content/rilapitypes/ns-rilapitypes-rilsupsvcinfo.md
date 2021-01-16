@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILSUPSVCINFO
+ - LPRILSUPSVCINFO
 ---
 
 # RILSUPSVCINFO structure (rilapitypes.h)

@@ -36,9 +36,12 @@ api_location:
  - acpitabl.h
 api_name:
  - _ACPI_PLD_CONTAINER_BUFFER
+ - PACPI_PLD_CONTAINER_BUFFER
+ - ACPI_PLD_CONTAINER_BUFFER
 ---
 
 # _ACPI_PLD_CONTAINER_BUFFER structure
+
 
 ## -description
 
@@ -53,3 +56,4 @@ The ContainerId field.
 ## -remarks
 
 ## -see-also
+

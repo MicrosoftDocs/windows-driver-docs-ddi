@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Windot11.h
 api_name:
+ - _DOT11_WFD_DISCOVER_DEVICE_FILTER
+ - PDOT11_WFD_DISCOVER_DEVICE_FILTER
  - DOT11_WFD_DISCOVER_DEVICE_FILTER
 product:
  - Windows 10 or later.
@@ -121,3 +123,4 @@ typedef struct _DOT11_WFD_DISCOVER_DEVICE_FILTER {
 The local P2P device should not extend the discovery operation to find additional instances.
 
 Note that if the value of <b>ucBitmask</b> is FILTER_BITMASK_DEVICE | FILTER_BITMASK_GO, the local P2P device should discover only one instance of the P2P device - either the P2P device or a GO with the desired P2P <b>DeviceID</b> and <b>GroupSSID</b>.
+

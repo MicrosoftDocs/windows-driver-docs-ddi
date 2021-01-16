@@ -41,6 +41,8 @@ api_type:
 api_location:
  - iscsiop.h
 api_name:
+ - _RemoveRADIUSServer_OUT
+ - PRemoveRADIUSServer_OUT
  - RemoveRADIUSServer_OUT
 ---
 
@@ -72,3 +74,4 @@ It is optional that you implement this method.
 
 
 <a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removeradiusserver_in">RemoveRADIUSServer_IN</a>
+

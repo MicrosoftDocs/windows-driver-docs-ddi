@@ -41,6 +41,8 @@ api_type:
 api_location:
  - hidport.h
 api_name:
+ - _HID_MINIDRIVER_REGISTRATION
+ - PHID_MINIDRIVER_REGISTRATION
  - HID_MINIDRIVER_REGISTRATION
 ---
 
@@ -88,3 +90,4 @@ When a HID minidriver calls <a href="/windows-hardware/drivers/ddi/hidport/nf-hi
 
 
 <a href="/windows-hardware/drivers/ddi/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>
+

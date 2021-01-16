@@ -37,7 +37,7 @@ api_type:
 api_location:
  - engextcpp.hpp
 api_name:
- - ExtRemoteTyped.GetTypeName
+ - ExtRemoteTyped::GetTypeName
 ---
 
 # ExtRemoteTyped::GetTypeName
@@ -66,3 +66,4 @@ The <b>GetTypeName</b> method returns the type name of the typed data represente
 
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
+

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
  - DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 ---
 

@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmthk.h
 api_name:
+ - _D3DKMT_DIRTYREGIONS
  - D3DKMT_DIRTYREGIONS
 ---
 
@@ -62,3 +63,4 @@ The D3DKMT_DIRTYREGIONS structure describes active rectangles (dirty regions) of
 ## -see-also
 
 <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
+

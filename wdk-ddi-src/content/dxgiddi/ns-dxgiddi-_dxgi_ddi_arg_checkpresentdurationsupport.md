@@ -39,6 +39,7 @@ api_type:
 api_location:
  - Dxgiddi.h
 api_name:
+ - _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
  - DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
 ---
 
@@ -94,3 +95,4 @@ The difference between <b>DesiredPresentDuration</b> and <b>ClosestSmallerDurati
 
 
 <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-_dxgi_ddi_arg_checkpresentdurationsupport">pfnCheckPresentDurationSupport(DXGI)</a>
+

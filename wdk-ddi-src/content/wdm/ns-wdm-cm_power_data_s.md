@@ -41,6 +41,8 @@ api_type:
 api_location:
  - wdm.h
 api_name:
+ - CM_Power_Data_s
+ - PCM_POWER_DATA
  - CM_POWER_DATA
 ---
 
@@ -114,3 +116,4 @@ Specifies the least-powered system state from which the device can wake the syst
 
 
 <a href="/windows/win32/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
+

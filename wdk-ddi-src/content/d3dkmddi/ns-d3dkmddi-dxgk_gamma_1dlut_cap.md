@@ -35,6 +35,8 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
+ - _DXGK_GAMMA_1DLUT_CAP
+ - PDXGK_GAMMA_1DLUT_CAP
  - DXGK_GAMMA_1DLUT_CAP
 dev_langs:
  - c++

@@ -41,6 +41,8 @@ api_type:
 api_location:
  - mountmgr.h
 api_name:
+ - _MOUNTMGR_DRIVE_LETTER_INFORMATION
+ - PMOUNTMGR_DRIVE_LETTER_INFORMATION
  - MOUNTMGR_DRIVE_LETTER_INFORMATION
 ---
 
@@ -68,3 +70,4 @@ For a general discussion of the mount manager and how it communicates with its c
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
+

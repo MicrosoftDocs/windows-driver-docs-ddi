@@ -12,6 +12,8 @@ tech.root: wdf
 f1_keywords:
  - wdfcontrol
  - wdfcontrol/wdfcontrol
+api_name:
+ - wdfcontrol
 ---
 
 # Wdfcontrol.h header

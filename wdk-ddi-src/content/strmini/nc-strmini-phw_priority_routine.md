@@ -37,7 +37,7 @@ api_type:
 api_location:
  - strmini.h
 api_name:
- - StrMiniPriorityRoutine
+ - PHW_PRIORITY_ROUTINE
 ---
 
 # PHW_PRIORITY_ROUTINE callback function
@@ -61,3 +61,4 @@ The minidriver provides a pointer to this routine in the <b>Priority</b> paramet
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclasscallatnewpriority">StreamClassCallAtNewPriority</a>
+

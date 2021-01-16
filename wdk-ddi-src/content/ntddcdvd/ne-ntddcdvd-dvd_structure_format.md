@@ -40,6 +40,7 @@ api_location:
  - ntddcdvd.h
 api_name:
  - DVD_STRUCTURE_FORMAT
+ - PDVD_STRUCTURE_FORMAT
 ---
 
 # DVD_STRUCTURE_FORMAT enumeration
@@ -82,3 +83,4 @@ Indicates that caller is requesting a DVD max descriptor.
 
 
 <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+

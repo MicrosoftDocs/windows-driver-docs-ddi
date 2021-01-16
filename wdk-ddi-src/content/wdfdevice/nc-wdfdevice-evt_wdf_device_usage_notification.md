@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wdfdevice.h
 api_name:
- - EvtDeviceUsageNotification
+ - EVT_WDF_DEVICE_USAGE_NOTIFICATION
 ---
 
 # EVT_WDF_DEVICE_USAGE_NOTIFICATION callback function
@@ -73,3 +73,4 @@ To register an <i>EvtDeviceUsageNotification</i> callback function, a driver mus
 Your driver must provide an <i>EvtDeviceUsageNotification</i> callback function only if must provide driver-specific handling of special files. 
 
 For more information about special files, see <a href="/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
+

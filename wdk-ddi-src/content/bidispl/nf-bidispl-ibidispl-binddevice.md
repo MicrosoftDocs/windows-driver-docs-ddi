@@ -37,7 +37,7 @@ api_type:
 api_location:
  - bidispl.dll
 api_name:
- - IBidiSpl.BindDevice
+ - IBidiSpl::BindDevice
 ---
 
 # IBidiSpl::BindDevice
@@ -145,3 +145,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a>
+

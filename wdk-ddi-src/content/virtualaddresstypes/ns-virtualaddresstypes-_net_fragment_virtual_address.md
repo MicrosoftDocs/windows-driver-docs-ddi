@@ -33,6 +33,7 @@ api_type:
 api_location:
  - virtualaddresstypes.h
 api_name:
+ - _NET_FRAGMENT_VIRTUAL_ADDRESS
  - NET_FRAGMENT_VIRTUAL_ADDRESS
 product:
  - Windows
@@ -64,3 +65,4 @@ To obtain this structure, call [**NetExtensionGetFragmentVirtualAddress**](../vi
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NetExtensionGetFragmentVirtualAddress**](../virtualaddress/nf-virtualaddress-netextensiongetfragmentvirtualaddress.md)
+

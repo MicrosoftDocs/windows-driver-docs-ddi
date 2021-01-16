@@ -33,6 +33,7 @@ api_type:
 api_location:
  - ntddvdeo.h
 api_name:
+ - _COLORSPACE_TRANSFORM_DATA_CAP
  - COLORSPACE_TRANSFORM_DATA_CAP
 dev_langs:
  - c++

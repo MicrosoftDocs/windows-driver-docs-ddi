@@ -36,6 +36,7 @@ api_location:
  - d3dkmthk.h
 api_name:
  - _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
+ - D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
 product:
  - Windows
 dev_langs:
@@ -82,3 +83,4 @@ A handle to the indirect hardware queue.
 ## -remarks
 
 ## -see-also
+

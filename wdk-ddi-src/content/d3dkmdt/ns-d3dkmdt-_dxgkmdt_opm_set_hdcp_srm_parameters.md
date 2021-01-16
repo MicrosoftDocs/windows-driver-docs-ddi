@@ -8,7 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure"]
 ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, display.dxgkmdt_opm_set_hdcp_srm_parameters
 req.header: d3dkmdt.h
-req.include-header: D3dkmdt.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -39,6 +39,7 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
+ - _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
  - DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
 ---
 
@@ -62,3 +63,4 @@ The version number of an HDCP SRM. The least significant bits (bits 0 through 15
 
 
 <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a>
+

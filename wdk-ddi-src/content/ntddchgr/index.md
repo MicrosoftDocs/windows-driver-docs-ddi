@@ -12,6 +12,8 @@ tech.root: storage
 f1_keywords:
  - ntddchgr
  - ntddchgr/ntddchgr
+api_name:
+ - ntddchgr
 ---
 
 # Ntddchgr.h header

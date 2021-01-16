@@ -39,6 +39,7 @@ api_type:
 api_location:
  - wditypes.hpp
 api_name:
+ - _WDI_CAN_SUSTAIN_AP_REASON
  - WDI_CAN_SUSTAIN_AP_REASON
 ---
 
@@ -58,3 +59,4 @@ The start value of possible IHV-specified reasons.
 ### -field WDI_CAN_SUSTAIN_AP_REASON_IHV_END
 
 The end value of possible IHV-specified reasons.
+

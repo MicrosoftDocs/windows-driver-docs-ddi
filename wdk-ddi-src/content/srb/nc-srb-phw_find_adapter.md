@@ -38,7 +38,7 @@ api_type:
 api_location:
  - srb.h
 api_name:
- - (*PHW_FIND_ADAPTER)
+ - PHW_FIND_ADAPTER
 ---
 
 # PHW_FIND_ADAPTER callback
@@ -160,3 +160,4 @@ For more information about the Storport driver's version of the routine associat
 
 
 <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
+

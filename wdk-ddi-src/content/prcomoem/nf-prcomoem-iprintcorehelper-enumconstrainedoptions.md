@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Prcomoem.h
 api_name:
- - IPrintCoreHelper.EnumConstrainedOptions
+ - IPrintCoreHelper::EnumConstrainedOptions
 ---
 
 # IPrintCoreHelper::EnumConstrainedOptions
@@ -153,3 +153,4 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 
 <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelper-whyconstrained">IPrintCoreHelper::WhyConstrained</a>
+

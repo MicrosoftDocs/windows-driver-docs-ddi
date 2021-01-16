@@ -40,6 +40,7 @@ api_location:
  - ntddrilapitypes.h
 api_name:
  - RILMSGDCS
+ - LPRILMSGDCS
 ---
 
 # RILMSGDCS structure (ntddrilapitypes.h)

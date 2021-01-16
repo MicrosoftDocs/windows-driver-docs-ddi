@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - DxgkDdiCommitVidPn
+ - DXGKDDI_COMMITVIDPN
 product:
  - Windows
 ---
@@ -84,3 +84,4 @@ Beginning with Windows 8, if the display miniport driver sets the <b>SupportSmo
 
 
 <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath">DxgkDdiUpdateActiveVidPnPresentPath</a>
+

@@ -12,6 +12,8 @@ tech.root: gpiobtn
 f1_keywords:
  - hwnclx
  - hwnclx/hwnclx
+api_name:
+ - hwnclx
 ---
 
 # Hwnclx.h header
@@ -24,3 +26,4 @@ This header defines programming interfaces required to provide  hardware-agnosti
 For more information, see:
 
 - [Hardware notifications design guide](/windows-hardware/drivers/gpiobtn)
+

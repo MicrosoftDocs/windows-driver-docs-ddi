@@ -41,6 +41,8 @@ api_type:
 api_location:
  - Wdm.h
 api_name:
+ - _CM_PARTIAL_RESOURCE_LIST
+ - PCM_PARTIAL_RESOURCE_LIST
  - CM_PARTIAL_RESOURCE_LIST
 ---
 
@@ -84,3 +86,4 @@ This structure is the header for an array of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+

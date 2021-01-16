@@ -37,7 +37,7 @@ api_type:
 api_location:
  - mrx.h
 api_name:
- - MRxCompleteBufferingStateChangeRequest
+ - PMRX_CHANGE_BUFFERING_STATE_CALLDOWN
 ---
 
 # PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function
@@ -131,3 +131,4 @@ RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i
 
 
 <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>
+

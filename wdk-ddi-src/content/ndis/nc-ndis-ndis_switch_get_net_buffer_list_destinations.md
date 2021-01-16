@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Ndis.h
 api_name:
- - GetNetBufferListDestinations
+ - NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS
 ---
 
 # NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS callback function
@@ -125,3 +125,4 @@ For more information, see <a href="/windows-hardware/drivers/network/modifying-a
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
+
