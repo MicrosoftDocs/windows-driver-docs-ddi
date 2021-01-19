@@ -1,7 +1,7 @@
 ---
 UID: NI:hidport.IOCTL_HID_ACTIVATE_DEVICE
 title: IOCTL_HID_ACTIVATE_DEVICE (hidport.h)
-description: The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
+description: This is an obsolete IOCTL. Do not use it. 
 old-location: hid\ioctl_hid_activate_device.htm
 tech.root: hid
 ms.date: 04/30/2018
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
+This is an obsolete IOCTL. Do not use it.
 
 For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
