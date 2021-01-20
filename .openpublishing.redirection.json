@@ -3,37 +3,37 @@
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netoffloadisrscipv4enabled.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netoffloadisrscipv6enabled.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netoffloadisrsctimestampenabled.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-net_adapter_offload_lso_capabilities_init.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-netrequestqueuegetadapter.md",
