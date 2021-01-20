@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.CcZeroData
 title: CcZeroData function (ntifs.h)
-description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.
+description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.  This routine should <b>ONLY</b> be called as part of valid data length maintenance.
 old-location: ifsk\cczerodata.htm
 tech.root: ifsk
 ms.date: 04/16/2018
@@ -100,10 +100,13 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 </li>
 </ul>
 
+Under certain circumstances (which may involved the Cache Manager's copy of the ValidDataLength) this routine has to effect.  For all operations involving zeroing of previously written data File Systems should call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a> with appropriate parameterizatiion.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a>
 
 
 <a href="/previous-versions/ff539143(v=vs.85)">CcIsFileCached</a>
