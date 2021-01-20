@@ -5,21 +5,16 @@
     "checksum.h",
     "checksumtypes.h",
     "dot11wdi.h",
-<<<<<<< HEAD
     "encapsulationconfig.h",
-=======
     "dot11wificxintf.h",
-    "dot11wificxtypes.h"
->>>>>>> @{-1}
+    "dot11wificxtypes.h",
+    "dot11wificxtypes.h",
     "extension.h",
     "fragment.h",
     "fwpmk.h",
     "fwpsk.h",
-<<<<<<< HEAD
     "hashtypes.h",
-=======
     "ieee8021qtypes.h",
->>>>>>> @{-1}
     "knetpwrdepbroker.h",
     "logicaladdress.h",
     "logicaladdresstypes.h",
