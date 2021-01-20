@@ -65,6 +65,7 @@ Returns a handle to a directory on disk from which the driver can read and write
 ## -returns
 
 Returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+
 | Error code               | Description                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | STATUS_SUCCESS           | The call successfully opened a handle to the requested driver directory.                           |
