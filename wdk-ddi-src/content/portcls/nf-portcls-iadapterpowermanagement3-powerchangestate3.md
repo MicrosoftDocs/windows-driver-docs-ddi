@@ -50,15 +50,15 @@ PortCls calls the PowerChangeState3 method to request a change to the new power 
 
 ### -param NewDeviceState
 
-The new power state that Portcls has requested for the device. This parameter is an enumeration of type DEVICE_POWER_STATE.
+The new power state that Portcls has requested for the device. This parameter is an enumeration of type <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>.
 
 ### -param NewSystemState
 
-The new power state that Portcls has requested for the system. This parameter is an enumeration of type SYSTEM_POWER_STATE.
+The new power state that Portcls has requested for the system. This parameter is an enumeration of type <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>.
 
 ### -param D3ExitLatency
 
-The acceptable exit latency for the state into which the device is put when the device comes out of PowerDeviceD3. This parameter is an enumeration of type PC_EXIT_LATENCY.
+The acceptable exit latency for the state into which the device is put when the device comes out of PowerDeviceD3. This parameter is an enumeration of type <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-_pc_exit_latency">PC_EXIT_LATENCY</a>.
 
 ## -remarks
 
