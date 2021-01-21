@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **NDIS_TIMESTAMP_CAPABILITY_FLAGS** structure represents a network interface card (NIC)'s timestamping capabilities in various contexts.
+The **NDIS_TIMESTAMP_CAPABILITY_FLAGS** structure represents the combined timestamping capabilities of a network interface card (NIC) and miniport driver in various contexts.
 
 ## -struct-fields
 
@@ -106,8 +106,12 @@ A value of **TRUE** indicates that the miniport driver can generate a software t
 
 ## -remarks
 
+The **NDIS_TIMESTAMP_CAPABILITY_FLAGS** structure is a field in the [**NDIS_TIMESTAMP_CAPABILITIES**](ns-ntddndis-_ndis_timestamp_capabilities.md) structure. 
+
 ## -see-also
 
 [**NDIS_TIMESTAMP_CAPABILITIES**](ns-ntddndis-_ndis_timestamp_capabilities.md)
 
 [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md)
+
+[Reporting timestamping capabilities and current configuration](reporting-timestamping-capabilities.md)

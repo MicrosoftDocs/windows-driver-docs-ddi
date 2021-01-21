@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITIES
 title: _NDIS_TIMESTAMP_CAPABILITIES (ntddndis.h)
-description: The NDIS_TIMESTAMP_CAPABILITIES structure describes a network interface card (NIC)'s timestamping capabilities.
+description: The NDIS_TIMESTAMP_CAPABILITIES structure describes describes the combined timestamping capabilities of a NIC and miniport driver.
 tech.root: netvista
 ms.date: 12/31/2020
 keywords: ["NDIS_TIMESTAMP_CAPABILITIES structure"]
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The **NDIS_TIMESTAMP_CAPABILITIES** structure describes a network interface card (NIC)'s timestamping capabilities.
+The **NDIS_TIMESTAMP_CAPABILITIES** structure describes the combined timestamping capabilities of a network interface card (NIC) and miniport driver.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ This field contains the nominal frequency of the hardware clock used by the NIC 
 
 ### -field CrossTimestamp
 
-A value of **TRUE** indicates that the miniport/hardware combination is capable of generating a hardware cross timestamp by handling the [OID_TIMESTAMP_GET_CROSSTIMESTAMP](/windows-hardware/drivers/network/oid-timestamp-get-crosstimestamp) OID to generate a cross timestamp. A cross timestamp refers to a set of NIC hardware timestamp and system timestamp(s) obtained very close to each other. How these timestamps are obtained is described in more detail further down in the document. A value of **FALSE** indicates this capability does not exist.
+A value of **TRUE** indicates that the miniport/hardware combination is capable of generating a hardware cross timestamp.  A value of **FALSE** indicates this capability does not exist. A cross timestamp is the set of a NIC hardware timestamp and system timestamp(s) obtained very close to each other. The miniport driver handles the [OID_TIMESTAMP_GET_CROSSTIMESTAMP](/windows-hardware/drivers/network/oid-timestamp-get-crosstimestamp) OID to generate a cross timestamp.
 
 ### -field Reserved1
 
@@ -82,11 +82,11 @@ An [**NDIS_TIMESTAMP_CAPABILITY_FLAGS**](ns-ntddndis-_ndis_timestamp_capability_
 
 ## -remarks
 
-During initialization, the miniport driver should indicate its hardware and software timestamp capabilities from within its [**MiniportInitializeEx**](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize) function.
+Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability) status indication to report the NIC's hardware timestamping capabilities and the miniport driver's software timestamping capabilities to NDIS and overlying drivers.
 
-Miniport drivers use the [**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability) status indication to report the NIC's hardware timestamping capabilities and the miniport driver's software timestamping capabilities to NDIS and overlying drivers.
+Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report the current timestamping configuration to the operating system.
 
-Miniport drivers use the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report the current timestamping configuration of the NIC hardware.
+For more information, see [Reporting timestamping capabilities and current configuration](reporting-timestamping-capabilities.md).
 
 ## -see-also
 
@@ -101,3 +101,5 @@ Miniport drivers use the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-har
 [**MiniportInitializeEx**](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
 
 [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
+
+[Reporting timestamping capabilities and current configuration](reporting-timestamping-capabilities.md)
