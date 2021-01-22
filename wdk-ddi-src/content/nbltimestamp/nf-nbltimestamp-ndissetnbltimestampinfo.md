@@ -53,7 +53,7 @@ Miniport drivers call **NdisSetNblTimestampInfo** to store a hardware or softwar
 ### -param Nbl
 
 [_Inout_]
-A pointer to a [**NET_BUFFER_LIST**] structure.
+A pointer to a **NET_BUFFER_LIST** structure.
 
 ### -param NblTimestamp
 
@@ -69,6 +69,8 @@ For more information on generating hardware and software timestamps, see [Attach
 ## -see-also
 
 [**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md)
+
+[**NET\_BUFFER\_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
 [**NdisGetNblTimestampInfo**](nf-nbltimestamp-ndisgetnbltimestampinfo.md)
 

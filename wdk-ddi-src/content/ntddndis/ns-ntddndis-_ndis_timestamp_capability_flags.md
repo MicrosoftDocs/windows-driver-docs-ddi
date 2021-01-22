@@ -102,7 +102,7 @@ A value of **TRUE** indicates that the miniport driver can generate a software t
 
 ### -field TaggedTransmitSw
 
-A value of **TRUE** indicates that the miniport driver can generate a software timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport using a metadata field in the packet. For more details, see [Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets). The timestamp should be generated in software using [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) just before the packet is transmitted. A value of **FALSE** indicates the NIC doesn't have this capability.
+A value of **TRUE** indicates that the miniport driver can generate a software timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport using a metadata field in the packet. For more details, see [Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets). The miniport driver should generate the timestamp using [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) just before the packet is transmitted. A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ## -remarks
 

@@ -62,7 +62,7 @@ The [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md) 
 
 ### -field HardwareClockFrequencyHz
 
-This field contains the nominal frequency of the hardware clock used by the NIC for timestamping, rounded off to the nearest integer in Hertz units.
+This field contains the nominal frequency of the hardware clock that the NIC uses for timestamping, rounded off to the nearest integer in Hertz units.
 
 ### -field CrossTimestamp
 
@@ -87,7 +87,7 @@ Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**N
 > [!NOTE]
 > An implementation must support hardware timestamps and cross timestamps. Supporting software timestamps is optional.
 
-Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report the current timestamping configuration to the operating system.
+Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report which timestamping capabilities are currently enabled.
 
 For more information, see [Reporting timestamping capabilities and current configuration](/windows-hardware/drivers/network/reporting-timestamping-capabilities).
 
