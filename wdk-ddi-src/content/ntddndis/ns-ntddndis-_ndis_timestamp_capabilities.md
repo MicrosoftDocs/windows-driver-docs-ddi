@@ -3,7 +3,7 @@ UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITIES
 title: _NDIS_TIMESTAMP_CAPABILITIES (ntddndis.h)
 description: The NDIS_TIMESTAMP_CAPABILITIES structure describes describes the combined timestamping capabilities of a NIC and miniport driver.
 tech.root: netvista
-ms.date: 12/31/2020
+ms.date: 01/31/2021
 keywords: ["NDIS_TIMESTAMP_CAPABILITIES structure"]
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITIES, NDIS_TIMESTAMP_CAPABILITIES, *PNDIS_TIMESTAMP_CAPABILITIES,
 req.header: ntddndis.h
@@ -82,11 +82,14 @@ An [**NDIS_TIMESTAMP_CAPABILITY_FLAGS**](ns-ntddndis-_ndis_timestamp_capability_
 
 ## -remarks
 
-Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability) status indication to report the NIC's hardware timestamping capabilities and the miniport driver's software timestamping capabilities to NDIS and overlying drivers.
+Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability) status indication to report the NIC's hardware timestamping capabilities and the miniport driver's software timestamping capabilities to NDIS and overlying drivers. 
+
+> [!NOTE]
+> An implementation must support hardware timestamps and cross timestamps. Supporting software timestamps is optional.
 
 Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report the current timestamping configuration to the operating system.
 
-For more information, see [Reporting timestamping capabilities and current configuration](reporting-timestamping-capabilities.md).
+For more information, see [Reporting timestamping capabilities and current configuration](/windows-hardware/drivers/network/reporting-timestamping-capabilities).
 
 ## -see-also
 
@@ -102,4 +105,4 @@ For more information, see [Reporting timestamping capabilities and current confi
 
 [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
 
-[Reporting timestamping capabilities and current configuration](reporting-timestamping-capabilities.md)
+[Reporting timestamping capabilities and current configuration](/windows-hardware/drivers/network/reporting-timestamping-capabilities)

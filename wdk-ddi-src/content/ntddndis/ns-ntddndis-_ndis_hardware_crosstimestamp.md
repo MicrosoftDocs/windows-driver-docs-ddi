@@ -3,7 +3,7 @@ UID: NS:ntddndis._NDIS_HARDWARE_CROSSTIMESTAMP
 title: _NDIS_HARDWARE_CROSSTIMESTAMP (ntddndis.h)
 description: The NDIS_HARDWARE_CROSSTIMESTAMP structure describes the cross timestamp between a NIC’s hardware clock and a system clock.
 tech.root: netvista
-ms.date: 08/08/2018
+ms.date: 01/31/2021
 keywords: ["NDIS_HARDWARE_CROSSTIMESTAMP structure"]
 ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS_HARDWARE_CROSSTIMESTAMP,
 req.header: ntddndis.h

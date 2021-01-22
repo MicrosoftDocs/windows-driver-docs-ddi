@@ -3,7 +3,7 @@ UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITY_FLAGS
 title: _NDIS_TIMESTAMP_CAPABILITY_FLAGS (ntddndis.h)
 description: The NDIS_TIMESTAMP_CAPABILITY_FLAGS structure represents a network interface card (NIC)'s timestamping capabilities in various contexts.
 tech.root: netvista
-ms.date: 12/31/2020
+ms.date: 01/31/2021
 keywords: ["NDIS_TIMESTAMP_CAPABILITY_FLAGS structure"]
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS,
 req.header: ntddndis.h
@@ -90,7 +90,7 @@ A value of **TRUE** indicates that the NIC can generate a hardware timestamp for
 
 ### -field TaggedTransmitHw
 
-A value of **TRUE** indicates that the NIC can generate a hardware timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport/hardware using a metadata field in the packet described further below in the section on Transmit side timestamping. A value of **FALSE** indicates the NIC doesn't have this capability.
+A value of **TRUE** indicates that the NIC can generate a hardware timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport/hardware using a metadata field in the packet. For more details, see [Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets). A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ### -field AllReceiveSw
 
@@ -102,7 +102,7 @@ A value of **TRUE** indicates that the miniport driver can generate a software t
 
 ### -field TaggedTransmitSw
 
-A value of **TRUE** indicates that the miniport driver can generate a software timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport using a metadata field in the packet described further below. The timestamp should be generated in software using [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) just before the packet is transmitted. A value of **FALSE** indicates the NIC doesn't have this capability.
+A value of **TRUE** indicates that the miniport driver can generate a software timestamp for any specific transmitted packet when indicated to do so by the operating system. The operating system will indicate this to the miniport using a metadata field in the packet. For more details, see [Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets). The timestamp should be generated in software using [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md) just before the packet is transmitted. A value of **FALSE** indicates the NIC doesn't have this capability.
 
 ## -remarks
 
@@ -114,4 +114,6 @@ The **NDIS_TIMESTAMP_CAPABILITY_FLAGS** structure is a field in the [**NDIS_TIME
 
 [**KeQueryPerformanceCounter**](../ntifs/nf-ntifs-kequeryperformancecounter.md)
 
-[Reporting timestamping capabilities and current configuration](reporting-timestamping-capabilities.md)
+[Reporting timestamping capabilities and current configuration](/windows-hardware/drivers/network/reporting-timestamping-capabilities)
+
+[Attaching timestamps to packets](/windows-hardware/drivers/network/attaching-timestamps-to-packets)
