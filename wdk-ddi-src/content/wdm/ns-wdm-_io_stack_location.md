@@ -530,7 +530,7 @@ Parameters for Scsi with internal device control.
 
 ### -field Parameters.QueryQuota
 
-System service parameters for **NtSetQuotaInformationFile**.
+System service parameters for [**NtQueryQuotaInformationFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryquotainformationfile).
 
 ### -field Parameters.QueryQuota.Length
 
@@ -542,7 +542,7 @@ System service parameters for **NtSetQuotaInformationFile**.
 
 ### -field Parameters.SetQuota
 
-System service parameters for **NtSetQuotaInformationFile**.
+System service parameters for [**NtSetQuotaInformationFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetquotainformationfile).
 
 ### -field Parameters.SetQuota.Length
 
