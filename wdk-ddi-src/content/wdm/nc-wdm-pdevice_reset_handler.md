@@ -84,6 +84,8 @@ This routine returns STATUS_SUCCESS if the requested operation succeeds. Otherwi
 
 If a function driver detects that the device is not functioning correctly, it should first attempt a function-level reset. If a function-level reset does not fix the issue, then the driver can attempt a more invasive platform-level reset, but a platform-level reset should only be used as the final option.
 
+A function-level reset or platform-level reset must be performed at PASSIVE_LEVEL. 
+
 For more information about function-level and platform-level resets, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
 ## -see-also

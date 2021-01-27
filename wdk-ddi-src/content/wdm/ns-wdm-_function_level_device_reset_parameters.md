@@ -61,7 +61,9 @@ The size, in bytes, of this structure.
 
 ### -field DeviceResetCompletion
 
-Pointer to a completion callback routine to be called when a function-level device reset is completed. The function prototype for this callback routine is defined as follows:
+Pointer to a completion callback routine to be called when a function-level device reset is completed. The callback must enter and exit at the same IRQL.
+
+The function prototype for this callback routine is defined as follows:
 
 
 ```

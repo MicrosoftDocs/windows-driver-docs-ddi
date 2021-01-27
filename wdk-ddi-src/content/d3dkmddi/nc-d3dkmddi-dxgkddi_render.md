@@ -127,7 +127,7 @@ When the display miniport driver translates a command buffer to a DMA buffer, th
 
 *DxgkDdiRender* should be made pageable.
 
-Support for the [DxgkDdiRenderKm](nc-d3dkmddi-dxgkddi_renderkm.md) function was added beginning with Windows 7 for display adapters that support [GDI Hardware Acceleration](/windows-hardware/drivers/display/gdi-hardware-accelerati).
+Support for the [DxgkDdiRenderKm](nc-d3dkmddi-dxgkddi_renderkm.md) function was added beginning with Windows 7 for display adapters that support [GDI Hardware Acceleration](/windows-hardware/drivers/display/gdi-hardware-acceleration).
 
 ## -see-also
 

@@ -58,9 +58,13 @@ A handle to a framework device object.
 
 ## -remarks
 
+To register this callback function, the bus driver must call <a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>.
+
 For more information about this callback function, see <a href="/windows-hardware/drivers/wdf/supporting-system-wake-up">Supporting System Wake-Up</a>.
 
 ## -see-also
+
+<a href="/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>
 
 <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_enable_wake_at_bus">EvtDeviceEnableWakeAtBus</a>
 

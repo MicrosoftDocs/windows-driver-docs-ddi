@@ -58,7 +58,7 @@ Pointer to the adapter's <a href="/windows-hardware/drivers/">functional device 
 ### -param RequestedNewState 
 
 [in]
-Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
+Specifies the device power state being requested. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 
 ## -returns
 
@@ -68,7 +68,7 @@ Specifies the device power state being requested. Set this parameter to one of t
 
 An adapter driver can call <b>PcRequestNewPowerState</b> to compensate for hardware design flaws. For example, if the functions in an audio adapter are not mutually independent and need to be shut down in a particular order, the adapter can call <b>PcRequestNewPowerState</b> to ensure that a particular subdevice is shut down first.
 
-The <b>RequestedNewState</b> parameter can be set to one of the DEVICE_POWER_STATE enumeration values in the following table.
+The <b>RequestedNewState</b> parameter can be set to one of the <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration values in the following table.
 
 <table>
 <tr>
