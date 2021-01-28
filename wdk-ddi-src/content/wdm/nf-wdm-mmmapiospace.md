@@ -72,6 +72,10 @@ Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_ty
 
 A driver must call this routine during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MmMapIoSpace</b> maps the physical address returned in the resource list to a logical address through which the driver can access device registers.
 
+> [!NOTE]
+> **MmMapIoSpace** should only be used with pages that are locked down (belong to the locked pages of an MDL or I/O space), otherwise the owner of the memory could free it (or the memory could be paged in/out, etc.).
+> 
+
 For example, drivers of PIO devices that allocate long-term I/O buffers can call this routine to make such buffers accessible or to make device memory accessible.
 
 For more information about using this routine, see <a href="/windows-hardware/drivers/kernel/mapping-bus-relative-addresses-to-virtual-addresses">Mapping Bus-Relative Addresses to Virtual Addresses</a>.
