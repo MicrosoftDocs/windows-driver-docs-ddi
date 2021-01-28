@@ -80,18 +80,18 @@ The HID class driver sets the following fields of **Irp->IoStatus**:
 
 ## -see-also
 
-[HidD_GetIndexedString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring)
+[HidD_GetIndexedString](../hidsdi/nf-hidsdi-hidd_getindexedstring.md)
 
-[HidD_GetManufacturerString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getmanufacturerstring)
+[HidD_GetManufacturerString](../hidsdi/nf-hidsdi-hidd_getmanufacturerstring.md)
 
-[HidD_GetPhysicalDescriptor](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getphysicaldescriptor)
+[HidD_GetPhysicalDescriptor](../hidsdi/nf-hidsdi-hidd_getphysicaldescriptor.md)
 
-[HidD_GetProductString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getproductstring)
+[HidD_GetProductString](../hidsdi/nf-hidsdi-hidd_getproductstring.md)
 
-[HidD_GetSerialNumberString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getserialnumberstring)
+[HidD_GetSerialNumberString](../hidsdi/nf-hidsdi-hidd_getserialnumberstring.md)
 
-[IOCTL_HID_GET_MANUFACTURER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string)
+[IOCTL_HID_GET_MANUFACTURER_STRING](./ni-hidclass-ioctl_hid_get_manufacturer_string.md)
 
-[IOCTL_HID_GET_PRODUCT_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_product_string)
+[IOCTL_HID_GET_PRODUCT_STRING]()
 
-[IOCTL_HID_GET_SERIALNUMBER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string)
+[IOCTL_HID_GET_SERIALNUMBER_STRING](./ni-hidclass-ioctl_hid_get_serialnumber_string.md)
