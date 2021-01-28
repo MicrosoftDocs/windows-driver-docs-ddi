@@ -50,7 +50,7 @@ The **FltOplockFsctrlEx** routine performs various opportunistic lock (oplock) o
 
 ### -param Oplock
 
-[in] Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FltInitializeOplock**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock).
+[in] Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FltInitializeOplock**](./nf-fltkernel-fltinitializeoplock.md).
 
 ### -param CallbackData
 
@@ -132,7 +132,7 @@ Filters and file systems that call this function must synchronize calls into the
 
 [**FltInitializeOplock**](nf-fltkernel-fltinitializeoplock.md)
 
-[**FsRtlOplockFsctrlEx**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex)
+[**FsRtlOplockFsctrlEx**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex.md)
 
 [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create)
 

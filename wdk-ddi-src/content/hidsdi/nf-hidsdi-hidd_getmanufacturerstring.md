@@ -70,7 +70,7 @@ HidD_HidD_GetManufacturerString returns **TRUE** if it returns the entire NULL-t
 
 ## -remarks
 
-Only user-mode applications can call **HidD_GetManufacturerString**. Kernel-mode drivers can use an [IOCTL_HID_GET_MANUFACTURER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string) request.
+Only user-mode applications can call **HidD_GetManufacturerString**. Kernel-mode drivers can use an [IOCTL_HID_GET_MANUFACTURER_STRING](../hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string.md) request.
 
 The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
@@ -80,18 +80,18 @@ For more information see [HID Collections](/windows-hardware/drivers/hid/hid-col
 
 ## -see-also
 
-[HidD_GetIndexedString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring)
+[HidD_GetIndexedString](./nf-hidsdi-hidd_getindexedstring.md)
 
-[HidD_GetPhysicalDescriptor](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getphysicaldescriptor)
+[HidD_GetPhysicalDescriptor](./nf-hidsdi-hidd_getphysicaldescriptor.md)
 
-[HidD_GetProductString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getproductstring)
+[HidD_GetProductString](./nf-hidsdi-hidd_getproductstring.md)
 
-[HidD_GetSerialNumberString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getserialnumberstring)
+[HidD_GetSerialNumberString](./nf-hidsdi-hidd_getserialnumberstring.md)
 
-[IOCTL_HID_GET_INDEXED_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_indexed_string)
+[IOCTL_HID_GET_INDEXED_STRING](../hidclass/ni-hidclass-ioctl_hid_get_indexed_string.md)
 
-[IOCTL_HID_GET_MANUFACTURER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string)
+[IOCTL_HID_GET_MANUFACTURER_STRING](../hidclass/ni-hidclass-ioctl_hid_get_manufacturer_string.md)
 
-[IOCTL_HID_GET_PRODUCT_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_product_string)
+[IOCTL_HID_GET_PRODUCT_STRING](../hidclass/ni-hidclass-ioctl_hid_get_product_string.md)
 
-[IOCTL_HID_GET_SERIALNUMBER_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string)
+[IOCTL_HID_GET_SERIALNUMBER_STRING](../hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string.md)

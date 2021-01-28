@@ -50,7 +50,7 @@ api_name:
 
 ### -param Oplock
 
-[in] Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FltInitializeOplock**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock).
+[in] Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FltInitializeOplock**](./nf-fltkernel-fltinitializeoplock.md).
 
 ### -param CallbackData
 
@@ -127,7 +127,7 @@ Filters and file systems that call this function must synchronize calls into the
 
 [**FltUninitializeOplock**](nf-fltkernel-fltuninitializeoplock.md)
 
-[**FsRtlOplockFsctrl**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrl)
+[**FsRtlOplockFsctrl**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrl.md)
 
 [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create)
 
