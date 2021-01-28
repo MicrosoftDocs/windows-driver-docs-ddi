@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Initializes the [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_custom_system_event_trigger_config) structure.
+Initializes the [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](./ns-ntddk-_custom_system_event_trigger_config.md) structure.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ A pointer to a Unicode string that contains the GUID used to identify background
 [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md)
 
 [**RtlRaiseCustomSystemEventTrigger**](nf-ntddk-rtlraisecustomsystemeventtrigger.md)
-

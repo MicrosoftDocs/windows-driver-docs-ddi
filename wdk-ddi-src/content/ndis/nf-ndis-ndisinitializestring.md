@@ -64,7 +64,7 @@ A pointer to a null-terminated string with which to initialize the counted strin
 
 *SourceString* must not be **NULL**.
 
-The buffer allocated by **NdisInitializeString** should be released with the [NdisFreeString](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring) function.
+The buffer allocated by **NdisInitializeString** should be released with the [NdisFreeString](./nf-ndis-ndisfreestring.md) function.
 
 ## -see-also
 
@@ -77,35 +77,35 @@ The buffer allocated by **NdisInitializeString** should be released with the [Nd
 
 
 
-[MiniportInitializeEx](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
+[MiniportInitializeEx](./nc-ndis-miniport_initialize.md)
 
 
 
-[RtlAnsiStringToUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodestring)
+[RtlAnsiStringToUnicodeString](../wdm/nf-wdm-rtlansistringtounicodestring.md)
 
 
 
-[RtlEqualUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalunicodestring)
+[RtlEqualUnicodeString](../wdm/nf-wdm-rtlequalunicodestring.md)
 
 
 
-[RtlFreeAnsiString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeansistring)
+[RtlFreeAnsiString](../wdm/nf-wdm-rtlfreeansistring.md)
 
 
 
-[RtlFreeUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring)
+[RtlFreeUnicodeString](../wdm/nf-wdm-rtlfreeunicodestring.md)
 
 
 
-[RtlInitString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitstring)
+[RtlInitString](../wdm/nf-wdm-rtlinitstring.md)
 
 
 
-[RtlInitUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring)
+[RtlInitUnicodeString](../wdm/nf-wdm-rtlinitunicodestring.md)
 
 
 
-[RtlUnicodeStringToAnsiString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring)
+[RtlUnicodeStringToAnsiString](../wdm/nf-wdm-rtlunicodestringtoansistring.md)
 
 
 
