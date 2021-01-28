@@ -46,10 +46,14 @@ targetos: Windows
 
 The **HidP\_GetButtons** macro is a mnemonic alias for the [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages) routine.
 
+## -syntax
+
 ```cpp
 #define HidP_GetButtons(Rty, UPa, LCo, ULi, ULe, Ppd, Rep, RLe) \
         HidP_GetUsages(Rty, UPa, LCo, ULi, ULe, Ppd, Rep, RLe)
 ```
+
+## - parameters
 
 ## -see-also
 
