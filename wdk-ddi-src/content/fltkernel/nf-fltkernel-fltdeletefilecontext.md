@@ -66,6 +66,7 @@ The **FltDeleteFileContext** routine retrieves and deletes a file context that a
 **FltDeleteFileContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
 | Return code | Description |
+| ----------- | ----------- |
 | STATUS_NOT_FOUND | No matching context was found. This is an error code. |
 | STATUS_NOT_SUPPORTED | File contexts are not supported for this file. This is an error code. |
 
