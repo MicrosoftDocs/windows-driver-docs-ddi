@@ -18,10 +18,8 @@ api_name:
 
 # Hidpi.h header
 
-
 ## -description
 
 This header is used by hid. For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
-
