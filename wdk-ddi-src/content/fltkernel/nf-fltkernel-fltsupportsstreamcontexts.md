@@ -4,7 +4,7 @@ title: FltSupportsStreamContexts function (fltkernel.h)
 description: FltSupportsStreamContexts determines whether stream contexts are supported on a given file object.
 old-location: ifsk\fltsupportsstreamcontexts.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 1/22/2021
 keywords: ["FltSupportsStreamContexts function"]
 ms.keywords: FltApiRef_p_to_z_a2e2c9ac-1dc0-44cf-b8f0-172ca931a450.xml, FltSupportsStreamContexts, FltSupportsStreamContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamContexts, ifsk.fltsupportsstreamcontexts
 req.header: fltkernel.h
@@ -42,60 +42,36 @@ api_name:
 
 # FltSupportsStreamContexts function
 
-
 ## -description
 
-<b>FltSupportsStreamContexts</b> determines whether stream contexts are supported on a given file object.
+**FltSupportsStreamContexts** determines whether stream contexts are supported on a given file object.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-Pointer to the file object to test.
+[in] Pointer to the file object to test.
 
 ## -returns
 
-<b>FltSupportsStreamContexts</b> returns <b>TRUE</b> if the file system supports stream contexts for the file object; <b>FALSE</b> otherwise.
+**FltSupportsStreamContexts** returns **TRUE** if the file system supports stream contexts for the file object; **FALSE** otherwise.
 
 ## -remarks
 
-Paging files do not currently support file, stream, or stream handle contexts. 
-
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
-
-To delete a stream context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
-
-To get the stream context for a file object, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>. 
-
-To set a stream context on a file object, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamcontext">FltSetStreamContext</a>. 
-
-To release a reference on a context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>.
+Paging files do not currently support file, stream, or stream handle contexts.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltDeleteStreamContext**](nf-fltkernel-fltdeletestreamcontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltGetStreamContext**](nf-fltkernel-fltgetstreamcontext.md)
 
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
+[**FltSetStreamContext**](nf-fltkernel-fltsetstreamcontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamcontext">FltSetStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsstreamhandlecontexts">FltSupportsStreamHandleContexts</a>
+[**FltSupportsStreamHandleContexts**](nf-fltkernel-fltsupportsstreamhandlecontexts.md)
