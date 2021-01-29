@@ -48,6 +48,13 @@ The **HidP\_UnsetButtons** macro is a mnemonic alias for the [**HidP\_UnsetUsage
 
 See [**HidP\_UnsetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_unsetusages) for parameter and return details.
 
+## -syntax
+
+```cpp
+#define HidP_UnsetButtons(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle) \
+        HidP_UnsetUsages(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle)
+```
+
 ## -parameters
 
 ## -see-also
