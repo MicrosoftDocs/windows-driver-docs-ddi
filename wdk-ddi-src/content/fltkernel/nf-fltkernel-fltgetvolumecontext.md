@@ -4,7 +4,7 @@ title: FltGetVolumeContext function (fltkernel.h)
 description: The FltGetVolumeContext routine retrieves a context that was set for a volume by a given minifilter driver.
 old-location: ifsk\fltgetvolumecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltGetVolumeContext function"]
 ms.keywords: FltApiRef_e_to_o_8cec5d5c-18c3-4ffe-be18-fffcfc8d0c14.xml, FltGetVolumeContext, FltGetVolumeContext routine [Installable File System Drivers], fltkernel/FltGetVolumeContext, ifsk.fltgetvolumecontext
 req.header: fltkernel.h
@@ -42,76 +42,52 @@ api_name:
 
 # FltGetVolumeContext function
 
-
 ## -description
 
-The <b>FltGetVolumeContext</b> routine retrieves a context that was set for a volume by a given minifilter driver.
+The **FltGetVolumeContext** routine retrieves a context that was set for a volume by a given minifilter driver.
 
 ## -parameters
 
-### -param Filter 
+### -param Filter
 
-[in]
-Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
+[in] Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param Volume 
+### -param Volume
 
-[in]
-Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be <b>NULL</b>.
+[in] Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be **NULL**.
 
-### -param Context 
+### -param Context
 
-[out]
-Pointer to a caller-allocated variable that receives the address of the requested context.
+[out] Pointer to a caller-allocated variable that receives the address of the requested context.
 
 ## -returns
 
-<b>FltGetVolumeContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
+**FltGetVolumeContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching context was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
 
 ## -remarks
 
-<b>FltGetVolumeContext</b> increments the reference count on the context that the <i>Context </i>parameter points to. When this context pointer is no longer needed, the caller must decrement its reference count by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>. Thus every successful call to <b>FltGetVolumeContext</b> must be matched by a subsequent call to <b>FltReleaseContext</b>. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-To set a context for a volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumecontext">FltSetVolumeContext</a>. 
+**FltGetVolumeContext** increments the reference count on the context that the *Context* parameter points to. When this context pointer is no longer needed, the caller must decrement its reference count by calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md). Thus every successful call to **FltGetVolumeContext** must be matched by a subsequent call to **FltReleaseContext**.
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+To set a context for a volume, call [**FltSetVolumeContext**](nf-fltkernel-fltsetvolumecontext.md).
 
-To delete a volume context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletevolumecontext">FltDeleteVolumeContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>.
+To allocate a new context, call call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+To delete a volume context, call [**FltDeleteVolumeContext**](nf-fltkernel-fltdeletevolumecontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltDeleteVolumeContext**](nf-fltkernel-fltdeletevolumecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletevolumecontext">FltDeleteVolumeContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumecontext">FltSetVolumeContext</a>
+[**FltSetVolumeContext**](nf-fltkernel-fltsetvolumecontext.md)

@@ -4,7 +4,7 @@ title: FltAllocateContext function (fltkernel.h)
 description: The FltAllocateContext routine allocates a context structure for a specified context type.
 old-location: ifsk\fltallocatecontext.htm
 tech.root: ifsk
-ms.date: 05/29/2019
+ms.date: 01/22/2021
 keywords: ["FltAllocateContext function"]
 ms.keywords: FltAllocateContext, FltAllocateContext routine [Installable File System Drivers], FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml, fltkernel/FltAllocateContext, ifsk.fltallocatecontext
 req.header: fltkernel.h
@@ -42,22 +42,19 @@ api_name:
 
 # FltAllocateContext function
 
-
 ## -description
 
 The **FltAllocateContext** routine allocates a context structure for a specified context type.
 
 ## -parameters
 
-### -param Filter 
+### -param Filter
 
-[in]
-Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.)
+[in] Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.)
 
-### -param ContextType 
+### -param ContextType
 
-[in]
-The type of context to allocate. *ContextType* can be one of the following:
+[in] The type of context to allocate. *ContextType* can be one of the following:
 
 * FLT_FILE_CONTEXT (starting with Windows Vista)
 * FLT_INSTANCE_CONTEXT
@@ -67,109 +64,39 @@ The type of context to allocate. *ContextType* can be one of the following:
 * FLT_TRANSACTION_CONTEXT (starting with Windows Vista)
 * FLT_VOLUME_CONTEXT
 
-### -param ContextSize 
+### -param ContextSize
 
-[in]
-The size, in bytes, of the portion of the context defined by the minifilter driver. Must be greater than zero and less than or equal to **MAXUSHORT**; for fixed-size contexts, must be less than or equal to the *Size* specified in the [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md) structure. A minifilter driver uses this portion of the context to maintain context information specific to the minifilter driver. The filter manager treats this portion of the context structure as opaque. This parameter is required and cannot be zero.
+[in] The size, in bytes, of the portion of the context defined by the minifilter driver. Must be greater than zero and less than or equal to **MAXUSHORT**; for fixed-size contexts, must be less than or equal to the *Size* specified in the [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md) structure. A minifilter driver uses this portion of the context to maintain context information specific to the minifilter driver. The filter manager treats this portion of the context structure as opaque. This parameter is required and cannot be zero.
 
-### -param PoolType 
+### -param PoolType
 
-[in]
-The type of pool to allocate. This parameter is required and must be one of the following:
+[in] The type of pool to allocate. This parameter is required and must be one of the following:
 
 * **NonPagedPool**
 * **PagedPool** (must be **NonPagedPool** if *ContextType* is FLT_VOLUME_CONTEXT)
 
 Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.
 
-### -param ReturnedContext 
+### -param ReturnedContext
 
-[out]
-Pointer to a caller-allocated variable that receives the address of the newly allocated context. The caller is responsible for calling [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
+[out] Pointer to a caller-allocated variable that receives the address of the newly allocated context. The caller is responsible for calling [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 
-**FltAllocateContext** returns **STATUS_SUCCESS** or an appropriate **NTSTATUS** value, such as one of the following.
+**FltAllocateContext** returns **STATUS_SUCCESS** or an appropriate **NTSTATUS** value, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALLOCATION_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FltAllocateContext</b> returns this status if either of the following conditions occur:
-<ul>
-<li>The allocation information for the context of the specified type was not provided at the time of filter registration.
-<li>For fixed-size contexts, the requested <i>ContextSize</i> is greater than the <i>Size</i> specified in the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a> structure for the specified <i>ContextType</i>.
-</ul>
-This is an error code.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The minifilter driver that is specified in the <i>Filter</i> parameter is being torn down. This is an error code.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FltAllocateContext</b> encountered a pool allocation failure. This is an error code.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>ContextSize</i> cannot be greater than <b>MAXUSHORT</b>. This is an error code.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid value was specified for the <i>ContextType</i> or the <i>ContextSize</i> parameter. This is an error code.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system does not support per-stream contexts. This is an error code.
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_CONTEXT_ALLOCATION_NOT_FOUND | The allocation information for the context of the specified type was not provided at the time of filter registration. OR, for fixed-size contexts, the requested *ContextSize* is greater than the *Size* specified in the [**FLT_CONTEXT_REGISTRATION**](fltkernel/ns-fltkernel-_flt_context_registration.md) structure for the specified *ContextType*. |
+| STATUS_FLT_DELETING_OBJECT | The minifilter driver that is specified in the *Filter* parameter is being torn down. This is an error code. |
+| STATUS_INSUFFICIENT_RESOURCES | **FltAllocateContext** encountered a pool allocation failure. This is an error code. |
+| STATUS_INVALID_BUFFER_SIZE | *ContextSize* cannot be greater than **MAXUSHORT**. This is an error code. |
+| STATUS_INVALID_PARAMETER | An invalid value was specified for the *ContextType* or the *ContextSize* parameter. This is an error code. |
+| STATUS_NOT_SUPPORTED | The file system does not support per-stream contexts. This is an error code. |
 
 ## -remarks
+
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
 **FltAllocateContext** allocates a context of the specified type from the specified pool. The contents of the returned context are not zeroed.
 
@@ -185,7 +112,7 @@ After the context is allocated, it can be set on an object by passing the *Retur
 | FLT_TRANSACTION_CONTEXT | [FltSetTransactionContext](nf-fltkernel-fltsettransactioncontext.md) (starting with Windows Vista) |
 | FLT_VOLUME_CONTEXT | [FltSetVolumeContext](nf-fltkernel-fltsetvolumecontext.md) |
 
-When a minifilter driver calls [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md) from its **DriverEntry** routine, it must register each context type that it uses. For more information, see the reference entry for the [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md) structure.
+When a minifilter driver calls [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md) from its **DriverEntry** routine, it must register each context type that it uses. For more information, see the reference entry for the [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md) structure, and [Registering context types](/windows-hardware/drivers/ifs/registering-context-types).
 
 **FltAllocateContext** does not initialize the contents of the portion of the context structure specific to the minifilter driver.
 
@@ -201,7 +128,7 @@ To get the context for an object, call [FltGetContexts](nf-fltkernel-fltgetconte
 | FLT_TRANSACTION_CONTEXT | [FltGetTransactionContext](nf-fltkernel-fltgettransactioncontext.md) (starting with Windows Vista ) |
 | FLT_VOLUME_CONTEXT | [FltGetVolumeContext](nf-fltkernel-fltgetvolumecontext.md) |
 
-Contexts are reference-counted, and on a successful return from **FltAllocateContext**, the context pointed to by *ReturnedContext* has a reference count of 1. A context is freed automatically when its reference count reaches zero. To increment the reference count on a context, call [FltReferenceContext](nf-fltkernel-fltreferencecontext.md).
+Contexts are reference-counted, and on a successful return from **FltAllocateContext**, the context pointed to by *ReturnedContext* has been initialized to have a reference count of 1. A context is freed automatically when its reference count reaches zero. To increment the reference count on a context, call [FltReferenceContext](nf-fltkernel-fltreferencecontext.md).
 
 To decrement the reference count on a context, call [FltReleaseContext](nf-fltkernel-fltreleasecontext.md).
 

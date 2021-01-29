@@ -4,7 +4,7 @@ title: FltDeleteStreamContext function (fltkernel.h)
 description: FltDeleteStreamContext removes a context that a given minifilter driver instance has set for a given stream and marks the context for deletion.
 old-location: ifsk\fltdeletestreamcontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltDeleteStreamContext function"]
 ms.keywords: FltApiRef_a_to_d_8339a254-56eb-4f75-b294-006286f3ff10.xml, FltDeleteStreamContext, FltDeleteStreamContext function [Installable File System Drivers], fltkernel/FltDeleteStreamContext, ifsk.fltdeletestreamcontext
 req.header: fltkernel.h
@@ -43,100 +43,56 @@ api_name:
 
 # FltDeleteStreamContext function
 
-
 ## -description
 
-<b>FltDeleteStreamContext</b> removes a context that a given minifilter driver instance has set for a given stream and marks the context for deletion.
+**FltDeleteStreamContext** removes a context that a given minifilter driver instance has set for a given stream and marks the context for deletion.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the minifilter driver instance whose context is to be removed from the list of contexts attached to the file stream.
+[in] Opaque instance pointer for the minifilter driver instance whose context is to be removed from the list of contexts attached to the file stream.
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-Pointer to a file object for the file stream.
+[in] Pointer to a file object for the file stream.
 
-### -param OldContext 
+### -param OldContext
 
-[out]
-Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed.
+[out] Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 
-<b>FltDeleteStreamContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+**FltDeleteStreamContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>Instance</i> is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching context was found. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system does not support per-stream contexts for this file stream. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_DELETING_OBJECT | The specified *Instance* is being torn down. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_SUPPORTED | The file system does not support per-stream contexts for this file stream. This is an error code. |
 
 ## -remarks
 
-Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteStreamContext</b> to explicitly delete a context. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-A minifilter driver calls <b>FltDeleteStreamContext</b> to remove a context from a file stream and mark the context for deletion. The context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still in use by another thread). 
+Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as **FltDeleteStreamContext** to explicitly delete a context.
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+A minifilter driver calls **FltDeleteStreamContext** to remove a context from a file stream and mark the context for deletion. The context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still in use by another thread).
 
-To get a stream context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>. 
+To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-To set a stream context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamcontext">FltSetStreamContext</a>.
+To get a stream context, call [**FltGetStreamContext**](nf-fltkernel-fltgetstreamcontext.md).
+
+To set a stream context, call [**FltSetStreamContext**](nf-fltkernel-fltsetstreamcontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltGetStreamContext**](nf-fltkernel-fltgetstreamcontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamcontext">FltSetStreamContext</a>
+[**FltSetStreamContext**](nf-fltkernel-fltsetstreamcontext.md)

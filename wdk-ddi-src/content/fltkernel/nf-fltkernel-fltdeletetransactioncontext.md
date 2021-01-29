@@ -4,13 +4,13 @@ title: FltDeleteTransactionContext function (fltkernel.h)
 description: The FltDeleteTransactionContext routine removes a context from a given transaction and marks the context for deletion.
 old-location: ifsk\fltdeletetransactioncontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltDeleteTransactionContext function"]
 ms.keywords: FltApiRef_a_to_d_785d668e-0232-4937-996e-846e459db2c5.xml, FltDeleteTransactionContext, FltDeleteTransactionContext routine [Installable File System Drivers], fltkernel/FltDeleteTransactionContext, ifsk.fltdeletetransactioncontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Vista and later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,104 +43,67 @@ api_name:
 
 # FltDeleteTransactionContext function
 
-
 ## -description
 
-The <b>FltDeleteTransactionContext</b> routine removes a context from a given transaction and marks the context for deletion.
+The **FltDeleteTransactionContext** routine removes a context from a given transaction and marks the context for deletion.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the caller.
+[in] Opaque instance pointer for the caller.
 
-### -param Transaction 
+### -param Transaction
 
-[in]
-Opaque transaction pointer for the transaction whose context is being deleted.
+[in] Opaque transaction pointer for the transaction whose context is being deleted.
 
-### -param OldContext 
+### -param OldContext
 
-[out, optional]
-Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed.
+[out, optional] Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 
-<b>FltDeleteTransactionContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+**FltDeleteTransactionContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching context was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_DELETING_OBJECT | The specified *Instance* is being torn down. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
 
 ## -remarks
 
-This routine is available on Windows Vista and later. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteTransactionContext</b> to explicitly delete a context. 
+Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as **FltDeleteTransactionContext** to explicitly delete a context.
 
-A minifilter driver calls <b>FltDeleteTransactionContext</b> to remove a context from a transaction and mark the context for deletion. The context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still being used by another thread). 
+A minifilter driver calls **FltDeleteTransactionContext** to remove a context from a transaction and mark the context for deletion. The context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still being used by another thread).
 
-To allocate a new transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-To retrieve a transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettransactioncontext">FltGetTransactionContext</a>. 
+To retrieve a transaction context, call [**FltGetTransactionContext**](nf-fltkernel-fltgettransactioncontext.md).
 
-To set a transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>.
+To set a transaction context, call [**FltSetTransactionContext**](nf-fltkernel-fltsettransactioncontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltCommitComplete**](nf-fltkernel-fltcommitcomplete.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcommitcomplete">FltCommitComplete</a>
+[**FltEnlistInTransaction**](nf-fltkernel-fltenlistintransaction.md)
 
+[**FltGetTransactionContext**](nf-fltkernel-fltgettransactioncontext.md)
 
+[**FltPrePrepareComplete**](nf-fltkernel-fltprepreparecomplete.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltPrepareComplete**](nf-fltkernel-fltpreparecomplete.md)
 
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
+[**FltRollbackComplete**](nf-fltkernel-fltrollbackcomplete.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenlistintransaction">FltEnlistInTransaction</a>
+[**FltRollbackEnlistment**](nf-fltkernel-fltrollbackenlistment.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettransactioncontext">FltGetTransactionContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprepreparecomplete">FltPrePrepareComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpreparecomplete">FltPrepareComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackcomplete">FltRollbackComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackenlistment">FltRollbackEnlistment</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>
+[**FltSetTransactionContext**](nf-fltkernel-fltsettransactioncontext.md)

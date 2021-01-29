@@ -4,13 +4,13 @@ title: FltSetVolumeContext function (fltkernel.h)
 description: FltSetVolumeContext sets a context for a volume.
 old-location: ifsk\fltsetvolumecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltSetVolumeContext function"]
 ms.keywords: FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, FltSetVolumeContext, FltSetVolumeContext function [Installable File System Drivers], fltkernel/FltSetVolumeContext, ifsk.fltsetvolumecontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems. Not available nor supported in Windows 2000 SP4 and earlier operating systems.
+req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,146 +42,85 @@ api_name:
 
 # FltSetVolumeContext function
 
-
 ## -description
 
-<b>FltSetVolumeContext</b> sets a context for a volume.
+**FltSetVolumeContext** sets a context for a volume.
 
 ## -parameters
 
-### -param Volume 
+### -param Volume
 
-[in]
-Opaque volume pointer for the volume.
+[in] Opaque volume pointer for the volume.
 
-### -param Operation 
+### -param Operation
 
-[in]
-Flag specifying details of the operation to be performed. This parameter must be one of the following: 
+[in] Flag specifying details of the operation to be performed. This parameter must be one of the following:
 
+| Flag | Meaning |
+| ---- | ------- |
+| FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for *Volume*, **FltSetVolumeContext** will replace it with *NewContext*>. Otherwise, it will insert *NewContext* into the list of contexts for the volume. |
+| FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for this volume, **FltSetVolumeContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, the routine will insert *NewContext* into the list of contexts for the volume and increment the reference count. |
 
+### -param NewContext
 
+[in] Pointer to the new context to be set for the volume. This parameter is required and cannot be **NULL**.
 
+### -param OldContext
 
-#### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
-
-If a context is already set, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume. 
-
-
-
-#### FLT_SET_CONTEXT_KEEP_IF_EXISTS
-
-If a context is already set, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume.
-
-### -param NewContext 
-
-[in]
-Pointer to the new context to be set for the volume. This parameter is required and cannot be <b>NULL</b>.
-
-### -param OldContext 
-
-[out, optional]
-Pointer to a caller-allocated variable that receives the address of the existing volume context for <i>Instance</i>. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
+[out, optional] Pointer to a caller-allocated variable that receives the address of the existing volume context for *Volume*. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 
-<b>FltSetVolumeContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+**FltSetVolumeContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_DEFINED</b></dt>
-</dl>
-</td>
-<td width="60%">
-IF FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for <i>Operation</i>, this error code indicates that a context is already attached to the volume.  
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_LINKED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context pointed to by the <i>NewContext</i> parameter is already linked to an object.  In other words, this error code indicates that <i>NewContext</i> is already in use due to a successful prior call of an <b>FltSet</b><i>Xxx</i><b>Context</b> routine.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>Volume</i> is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following: 
-
-<ul>
-<li>
-The <i>NewContext</i> parameter does not point to a valid volume context. 
-
-</li>
-<li>
-An invalid value was specified for <i>Operation</i>. 
-
-</li>
-</ul>
-STATUS_INVALID_PARAMETER is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_CONTEXT_ALREADY_DEFINED | IF FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for *Operation*, this error code indicates that a context is already attached to the volume. |
+| STATUS_FLT_CONTEXT_ALREADY_LINKED | The context pointed to by the *NewContext* parameter is already linked to an object.  In other words, this error code indicates that *NewContext* is already in use due to a successful prior call of a **FltSet***Xxx***Context** routine. |
+| STATUS_FLT_DELETING_OBJECT | The specified *Volume* is being torn down. This is an error code. |
+| STATUS_INVALID_PARAMETER | An invalid parameter was passed. For example, the *NewContext* parameter does not point to a valid volume context, or an invalid value was specified for *Operation*. This is an error code. |
 
 ## -remarks
 
-A minifilter driver calls <b>FltSetVolumeContext</b> to attach a context to a volume, or to remove or replace an existing volume context. A minifilter driver can attach only one context to a volume. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-A successful call to <b>FltSetVolumeContext</b> increments the reference count on <i>NewContext</i>. If <b>FltSetVolumeContext</b> fails, the reference count remains unchanged. In either case, the filter calling <b>FltSetVolumeContext</b> must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to decrement the <i>NewContext</i> object. If <b>FltSetVolumeContext</b> fails and if the <i>OldContext</i> parameter is not <b>NULL</b> and does not point to NULL_CONTEXT then <i>OldContext</i> is a referenced pointer to the context currently associated with the transaction. The filter calling <b>FltSetVolumeContext</b> must call <b>FltReleaseContext</b> for <i>OldContext</i> as well.
+A minifilter driver calls **FltSetVolumeContext** to attach a context to a volume, or to remove or replace an existing volume context. A minifilter driver can attach only one context to a volume.
 
-Note that the <i>OldContext</i> pointer returned by <b>FltSetVolumeContext</b> must also be released by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> when it is no longer needed. For more information, see <a href="/windows-hardware/drivers/ifs/setting-contexts">Setting Contexts</a> and <a href="/windows-hardware/drivers/ifs/releasing-contexts">Releasing Contexts</a>. 
+### Reference Counting
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+If **FltSetVolumeContext** succeeds:
 
-To get a volume context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumecontext">FltGetVolumeContext</a>. 
+- The reference count on *NewContext* is incremented. When *NewContext* is no longer needed, the minifilter must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement its reference count.
 
-To delete a volume context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletevolumecontext">FltDeleteVolumeContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
+Else if **FltSetVolumeContext** fails:
 
-For more information about context reference counting, see <a href="/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
+- The reference count on *NewContext* remains unchanged.
+- If *OldContext* is not **NULL** and does not point to NULL_CONTEXT then *OldContext* is a referenced pointer to the context currently associated with the volume. The filter calling **FltSetVolumeContext** must call **FltReleaseContext** for *OldContext* as well when the context pointer is no longer needed.
+
+Regardless of success:
+
+- The filter calling **FltSetVolumeContext** must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement the reference count on the *NewContext* object that was incremented by [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+For more information, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
+
+### Other context operations
+
+For more information, see [Setting Contexts](/windows-hardware/drivers/ifs/setting-contexts), and [Releasing Contexts](/windows-hardware/drivers/ifs/releasing-contexts):
+
+- To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+- To get a volume context, call [**FltGetVolumeContext**](nf-fltkernel-fltgetvolumecontext.md).
+
+- To delete a volume context, call [**FltDeleteVolumeContext**](nf-fltkernel-fltdeletevolumecontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltDeleteVolumeContext**](nf-fltkernel-fltdeletevolumecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltGetVolumeContext**](nf-fltkernel-fltgetvolumecontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletevolumecontext">FltDeleteVolumeContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumecontext">FltGetVolumeContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)

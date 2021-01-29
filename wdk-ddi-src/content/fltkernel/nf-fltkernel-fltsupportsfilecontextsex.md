@@ -4,7 +4,7 @@ title: FltSupportsFileContextsEx function (fltkernel.h)
 description: The FltSupportsFileContextsEx routine determines whether the file system or the filter manager support file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontextsex.htm
 tech.root: ifsk
-ms.date: 05/29/2019
+ms.date: 01/22/2021
 keywords: ["FltSupportsFileContextsEx function"]
 ms.keywords: FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, FltSupportsFileContextsEx, FltSupportsFileContextsEx routine [Installable File System Drivers], fltkernel/FltSupportsFileContextsEx, ifsk.fltsupportsfilecontextsex
 req.header: fltkernel.h
@@ -42,22 +42,19 @@ api_name:
 
 # FltSupportsFileContextsEx function
 
-
 ## -description
 
 The **FltSupportsFileContextsEx** routine determines whether the file system or the filter manager support file contexts for a given file.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
+[in] Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
 
-### -param Instance 
+### -param Instance
 
-[in, optional]
-Opaque instance pointer for the caller. This parameter is optional and can be **NULL**. For more information about this parameter, see the Remarks section of this page.
+[in, optional] Opaque instance pointer for the caller. This parameter is optional and can be **NULL**. For more information about this parameter, see the Remarks section of this page.
 
 ## -returns
 
@@ -75,7 +72,7 @@ If the *Instance* parameter is **NULL**, **FltSupportsFileContextsEx** returns *
 
 Note that a file system might support file contexts for some types of files but not for others. For example, NTFS and FAT do not support file contexts for paging files.
 
-For more information about contexts, see [Managing Contexts in a Minifilter Driver](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
 ## -see-also
 
