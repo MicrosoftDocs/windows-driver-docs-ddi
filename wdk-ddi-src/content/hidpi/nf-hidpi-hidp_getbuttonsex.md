@@ -2,17 +2,17 @@
 UID: NF:hidpi.HidP_GetButtonsEx
 title: HidP_GetButtonsEx macro
 author: windows-driver-content
-description: TBD
+description: The HidP_GetButtonsEx macro is an mnemonic alias for the HidP_GetUsagesEx function.
 tech.root:
 ms.assetid: 1bb98458-faa7-4d7b-a7d9-d784f0137939
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 1/29/2021
 ms.topic: macro
 ms.keywords: HidP_GetButtonsEx
 req.header: hidpi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.include-header: hidpi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,43 +42,21 @@ targetos: Windows
 
 # HidP_GetButtonsEx macro
 
-
 ## -description
 
-TBD
+The **HidP\_GetButtonsEx** macro is an mnemonic alias for the [**HidP\_GetUsagesEx**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex) function.
+
+See [**HidP\_GetUsagesEx**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex) for parameter and return details.
+
+## -syntax
+
+```cpp
+#define HidP_GetButtonsEx(Rty, LCo, BLi, ULe, Ppd, Rep, RLe)  \
+         HidP_GetUsagesEx(Rty, LCo, BLi, ULe, Ppd, Rep, RLe)
+```
 
 ## -parameters
 
-### -param Rty
-
-TBD
-
-### -param LCo
-
-TBD
-
-### -param BLi
-
-TBD
-
-### -param ULe
-
-TBD
-
-### -param Ppd
-
-TBD
-
-### -param Rep
-
-TBD
-
-### -param RLe
-
-TBD
-
-
-
-## -remarks
-
 ## -see-also
+
+[**HidP\_GetUsagesEx**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex)

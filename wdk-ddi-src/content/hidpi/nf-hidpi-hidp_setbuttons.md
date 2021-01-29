@@ -2,17 +2,17 @@
 UID: NF:hidpi.HidP_SetButtons
 title: HidP_SetButtons macro
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The HidP_SetButtons macro is a mnemonic alias for the HidP_SetUsages function.
+tech.root: hid
 ms.assetid: 60bba768-dde1-4e31-a30a-fbf977aeb750
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 1/29/2021
 ms.topic: macro
 ms.keywords: HidP_SetButtons
 req.header: hidpi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.include-header: hidpi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,47 +42,21 @@ targetos: Windows
 
 # HidP_SetButtons macro
 
-
 ## -description
 
-TBD
+The **HidP\_SetButtons** macro is a mnemonic alias for the [**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages) function.
+
+See [**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages) for parameter and return details.
+
+## -syntax
+
+```cpp
+#define HidP_SetButtons(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle) \
+        HidP_SetUsages(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle)
+```
 
 ## -parameters
 
-### -param Rty
-
-TBD
-
-### -param Up
-
-TBD
-
-### -param Lco
-
-TBD
-
-### -param ULi
-
-TBD
-
-### -param ULe
-
-TBD
-
-### -param Ppd
-
-TBD
-
-### -param Rep
-
-TBD
-
-### -param Rle
-
-TBD
-
-
-
-## -remarks
-
 ## -see-also
+
+[**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages)

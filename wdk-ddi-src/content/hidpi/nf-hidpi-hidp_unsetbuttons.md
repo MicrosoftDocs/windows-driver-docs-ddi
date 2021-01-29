@@ -3,16 +3,16 @@ UID: NF:hidpi.HidP_UnsetButtons
 title: HidP_UnsetButtons macro
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: hid
 ms.assetid: 72aef86d-8403-451d-8a19-6050d56646c6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 1/29/2021
 ms.topic: macro
 ms.keywords: HidP_UnsetButtons
 req.header: hidpi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.include-header: hidpi.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,47 +42,14 @@ targetos: Windows
 
 # HidP_UnsetButtons macro
 
-
 ## -description
 
-TBD
+The **HidP\_UnsetButtons** macro is a mnemonic alias for the [**HidP\_UnsetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_unsetusages) function.
+
+See [**HidP\_UnsetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_unsetusages) for parameter and return details.
 
 ## -parameters
 
-### -param Rty
-
-TBD
-
-### -param Up
-
-TBD
-
-### -param Lco
-
-TBD
-
-### -param ULi
-
-TBD
-
-### -param ULe
-
-TBD
-
-### -param Ppd
-
-TBD
-
-### -param Rep
-
-TBD
-
-### -param Rle
-
-TBD
-
-
-
-## -remarks
-
 ## -see-also
+
+[**HidP\_UnsetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_unsetusages)

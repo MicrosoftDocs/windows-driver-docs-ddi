@@ -2,7 +2,7 @@
 UID: NF:hidpi.HidP_GetButtons
 title: HidP_GetButtons macro
 author: windows-driver-content
-description: HidP_GetButtons is a mnemonic alias for HHidP_GetUsages
+description: The HidP_GetButtons macro is a mnemonic alias for the HHidP_GetUsages function.
 tech.root: hid
 ms.assetid: 56255105-7dc3-4cc8-9dd0-d0c57339993e
 ms.author: windowsdriverdev
@@ -44,7 +44,9 @@ targetos: Windows
 
 ## -description
 
-The **HidP\_GetButtons** macro is a mnemonic alias for the [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages) routine.
+The **HidP\_GetButtons** macro is a mnemonic alias for the [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages) function.
+
+See [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages) for parameter and return details.
 
 ## -syntax
 
@@ -56,10 +58,6 @@ The **HidP\_GetButtons** macro is a mnemonic alias for the [**HidP\_GetUsages**]
 ## -parameters
 
 ## -returns
-
-## -remarks
-
-See [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages) for parameter and return specifics.
 
 ## -see-also
 
