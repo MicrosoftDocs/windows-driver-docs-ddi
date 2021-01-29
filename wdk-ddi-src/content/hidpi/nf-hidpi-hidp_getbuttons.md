@@ -16,9 +16,9 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib: Hidparse.lib
+req.lib: 
 req.dll:
-req.irql: <= DISPATCH_LEVEL
+req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -55,11 +55,11 @@ The **HidP\_GetButtons** macro is a mnemonic alias for the [**HidP\_GetUsages**]
 
 ## -parameters
 
-See [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages).
-
 ## -returns
 
-See [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages).
+## -remarks
+
+See [**HidP\_GetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages) for parameter and return specifics.
 
 ## -see-also
 
