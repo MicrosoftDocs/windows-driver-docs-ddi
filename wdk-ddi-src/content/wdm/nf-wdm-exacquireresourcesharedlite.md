@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>ExAcquireResourceSharedLite</b> routine acquires the given resource for shared access by the calling thread.
+The **ExAcquireResourceSharedLite** routine acquires the given resource for shared access by the calling thread.
 
 ## -parameters
 
@@ -57,74 +57,46 @@ A pointer to the resource to acquire.
 ### -param Wait 
 
 [in]
-Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
+Specifies the routine's behavior whenever the resource cannot be acquired immediately. If **TRUE**, the caller is put into a wait state until the resource can be acquired. If **FALSE**, the routine immediately returns, regardless of whether the resource can be acquired.
 
 ## -returns
 
-The caller can release the resource by calling either <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a> or <a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>.
+The caller can release the resource by calling either [ExReleaseResourceLite](nf-wdm-exreleaseresourcelite.md) or [ExReleaseResourceForThreadLite](nf-wdm-exreleaseresourceforthreadlite.md).
 
-<b>ExAcquireResourceSharedLite</b> returns <b>TRUE</b> if (or when) the resource is acquired. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and shared access cannot be granted immediately.
+**ExAcquireResourceSharedLite** returns **TRUE** if (or when) the resource is acquired. This routine returns **FALSE** if the input *Wait* is **FALSE** and shared access cannot be granted immediately.
 
 ## -remarks
 
 Whether or when the caller is given shared access to the given resource depends on the following:
 
-<ul>
-<li>
-If the resource is currently unowned, shared access is granted immediately to the current thread.
+* If the resource is currently unowned, shared access is granted immediately to the current thread.
 
-</li>
-<li>
-If the caller already has acquired the resource (for shared or exclusive access), the current thread is granted the same type of access recursively. Note that making this call does not convert a caller's exclusive access of a given resource to shared access.
+* If the caller already has acquired the resource (for shared or exclusive access), the current thread is granted the same type of access recursively. Note that making this call does not convert a caller's exclusive access of a given resource to shared access.
 
-</li>
-<li>
-If the resource is currently owned as shared by another thread and no thread is waiting for exclusive access to the resource, shared access is granted to the caller immediately. The caller is put into a wait state if there is an exclusive waiter.
+* If the resource is currently owned as shared by another thread and no thread is waiting for exclusive access to the resource, shared access is granted to the caller immediately. The caller is put into a wait state if there is an exclusive waiter.
 
-</li>
-<li>
-If the resource is currently owned as exclusive by another thread or if there is another thread waiting for exclusive access and the caller does not already have shared access to the resource, the current thread either is put into a wait state (<i>Wait</i> set to <b>TRUE</b>) or <b>ExAcquireResourceSharedLite</b> returns <b>FALSE</b>.
+* If the resource is currently owned as exclusive by another thread or if there is another thread waiting for exclusive access and the caller does not already have shared access to the resource, the current thread either is put into a wait state (*Wait* set to **TRUE**) or **ExAcquireResourceSharedLite** returns **FALSE**.
 
-</li>
-</ul>
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling [KeEnterCriticalRegion](../ntddk/nf-ntddk-keentercriticalregion.md). Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling [KeLeaveCriticalRegion](../ntddk/nf-ntddk-keleavecriticalregion.md). For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
-<a href="/previous-versions/ff544351(v=vs.85)">ExAcquireResourceExclusiveLite</a>
+[ExAcquireResourceExclusiveLite](nf-wdm-exacquireresourceexclusivelite.md)
 
+[ExAcquireSharedStarveExclusive](nf-wdm-exacquiresharedstarveexclusive.md)
 
+[ExAcquireSharedWaitForExclusive](nf-wdm-exacquiresharedwaitforexclusive.md)
 
-<a href="/previous-versions/ff544367(v=vs.85)">ExAcquireSharedStarveExclusive</a>
+[ExConvertExclusiveToSharedLite](nf-wdm-exconvertexclusivetosharedlite.md)
 
+[ExGetExclusiveWaiterCount](nf-wdm-exgetexclusivewaitercount.md)
 
+[ExGetSharedWaiterCount](nf-wdm-exgetsharedwaitercount.md)
 
-<a href="/previous-versions/ff544370(v=vs.85)">ExAcquireSharedWaitForExclusive</a>
+[ExInitializeResourceLite](nf-wdm-exinitializeresourcelite.md)
 
+[ExIsResourceAcquiredSharedLite](nf-wdm-exisresourceacquiredsharedlite.md)
 
+[ExReinitializeResourceLite](nf-wdm-exreinitializeresourcelite.md)
 
-<a href="/previous-versions/ff544558(v=vs.85)">ExConvertExclusiveToSharedLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetexclusivewaitercount">ExGetExclusiveWaiterCount</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetsharedwaitercount">ExGetSharedWaiterCount</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>
-
-
-
-<a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>
+[ExReleaseResourceForThreadLite](nf-wdm-exreleaseresourceforthreadlite.md)
