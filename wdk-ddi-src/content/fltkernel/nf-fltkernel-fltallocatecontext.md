@@ -87,7 +87,7 @@ Setting this parameter to an invalid value causes the system to execute an ASSER
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_FLT_CONTEXT_ALLOCATION_NOT_FOUND | The allocation information for the context of the specified type was not provided at the time of filter registration. OR, for fixed-size contexts, the requested *ContextSize* is greater than the *Size* specified in the [**FLT_CONTEXT_REGISTRATION**](fltkernel/ns-fltkernel-_flt_context_registration.md) structure for the specified *ContextType*. |
+| STATUS_FLT_CONTEXT_ALLOCATION_NOT_FOUND | The allocation information for the context of the specified type was not provided at the time of filter registration. OR, for fixed-size contexts, the requested *ContextSize* is greater than the *Size* specified in the [**FLT_CONTEXT_REGISTRATION**](ns-fltkernel-_flt_context_registration.md) structure for the specified *ContextType*. |
 | STATUS_FLT_DELETING_OBJECT | The minifilter driver that is specified in the *Filter* parameter is being torn down. This is an error code. |
 | STATUS_INSUFFICIENT_RESOURCES | **FltAllocateContext** encountered a pool allocation failure. This is an error code. |
 | STATUS_INVALID_BUFFER_SIZE | *ContextSize* cannot be greater than **MAXUSHORT**. This is an error code. |
