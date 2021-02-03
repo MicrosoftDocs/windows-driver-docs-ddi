@@ -104,4 +104,4 @@ To get the volume object ID for a volume, call [**ZwQueryVolumeInformationFile**
 
 [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-[**ZwQueryVolumeInformationFile**](../ntifs/nf-ntifs-zwqueryvolumeinformationfile)
+[**ZwQueryVolumeInformationFile**](../ntifs/nf-ntifs-zwqueryvolumeinformationfile.md)
