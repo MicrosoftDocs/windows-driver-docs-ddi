@@ -119,11 +119,16 @@ The effect of a successful <b>KeSetHardwareCounterConfiguration</b> call is glob
 
 To avoid resource conflicts, all drivers that use counter resources should use the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halallocatehardwarecounters">HalAllocateHardwareCounters</a> and <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routines to coordinate their sharing of these resources.
 
+To determine if thread profiling is enabled for a given thread, call the [**QueryThreadProfiling**](/windows/win32/api/winbase/nf-winbase-querythreadprofiling) function.
+
 To query the operating system for the hardware counter configuration that is currently in effect for thread profiling, call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhardwarecounterconfiguration">KeQueryHardwareCounterConfiguration</a> routine.
 
 Virtualization software typically does not virtualize hardware performance counters. Thus, hardware performance counters are unlikely to be available in a virtual machine.
 
 ## -see-also
+
+<a href="/previous-versions/windows/desktop/hcp/hcp-reference">Hardware Counter Profiling Reference</a>
+
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>
 
