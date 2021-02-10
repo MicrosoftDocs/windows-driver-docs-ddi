@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.CreateThread
 tech.root: 
 title: IDebugEventContextCallbacks::CreateThread
-ms.date: 
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -42,6 +42,9 @@ dev_langs:
 
 ## -description
 
+Any of these values can be zero if they cannot be provided by the engine.
+Currently the kernel does not return thread or process change events.
+
 ## -parameters
 
 ### -param Handle
@@ -60,3 +63,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.QueryInterface
 tech.root: 
 title: IDebugEventContextCallbacks::QueryInterface
-ms.date: 
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -54,3 +54,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

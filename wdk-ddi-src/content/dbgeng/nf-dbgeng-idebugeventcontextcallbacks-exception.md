@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.Exception
 tech.root: 
 title: IDebugEventContextCallbacks::Exception
-ms.date: 
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+Exceptions include breaks which cannot be mapped to an existing breakpoint instance.
+
 ## -parameters
 
 ### -param Exception
@@ -58,3 +60,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.SystemError
 tech.root: 
 title: IDebugEventContextCallbacks::SystemError
-ms.date: 02/05/2021
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+A system error.
+
 ## -parameters
 
 ### -param Error
@@ -58,3 +60,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

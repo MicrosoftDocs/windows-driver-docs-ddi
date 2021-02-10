@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.LoadModule
 tech.root: 
 title: IDebugEventContextCallbacks::LoadModule
-ms.date: 02/05/2021
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -parameters
 
+Any of these values may be zero.
+
 ### -param ImageFileHandle
 
 ### -param BaseOffset
@@ -68,3 +70,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

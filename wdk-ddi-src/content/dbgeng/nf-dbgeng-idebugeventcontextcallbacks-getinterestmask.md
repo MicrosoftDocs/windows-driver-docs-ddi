@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.GetInterestMask
 tech.root: 
 title: IDebugEventContextCallbacks::GetInterestMask
-ms.date: 02/05/2021
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -44,7 +44,6 @@ dev_langs:
 
 The engine calls GetInterestMask once when the event callbacks are set for a client.
 
-
 ## -parameters
 
 ### -param Mask
@@ -55,3 +54,4 @@ The engine calls GetInterestMask once when the event callbacks are set for a cli
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

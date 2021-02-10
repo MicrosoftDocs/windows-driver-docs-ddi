@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.ChangeEngineState
 tech.root: 
 title: IDebugEventContextCallbacks::ChangeEngineState
-ms.date: 02/05/2021
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -42,6 +42,10 @@ dev_langs:
 
 ## -description
 
+The engine state has changed.
+
+This is an informational callback notifying the provider about changes in debug state.  The return value of this callbacks is ignored.  Implementations can not call back into the engine.
+
 ## -parameters
 
 ### -param Flags
@@ -58,3 +62,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

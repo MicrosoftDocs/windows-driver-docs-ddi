@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.SessionStatus
 tech.root: 
 title: IDebugEventContextCallbacks::SessionStatus
-ms.date: 02/05/2021
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -42,6 +42,9 @@ dev_langs:
 
 ## -description
 
+Session status is synchronous like the other wait callbacks but it is called as the state of the session is changing rather than at specific events so its return value does not influence waiting.  Implementations should just return DEBUG_STATUS_NO_CHANGE.
+Also, because some of the status notifications are very early or very late in the session lifetime there may not be current processes or threads when the notification is generated.
+
 ## -parameters
 
 ### -param Status
@@ -52,3 +55,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)

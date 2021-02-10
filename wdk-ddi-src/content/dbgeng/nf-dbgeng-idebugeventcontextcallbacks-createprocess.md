@@ -2,7 +2,7 @@
 UID: NF:dbgeng.IDebugEventContextCallbacks.CreateProcess
 tech.root: 
 title: IDebugEventContextCallbacks::CreateProcess
-ms.date: 02/05/2021
+ms.date: 02/10/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+Any of these values can be zero if they cannot be provided by the engine.
+
 ## -parameters
 
 ### -param ImageFileHandle
@@ -76,3 +78,4 @@ dev_langs:
 
 ## -see-also
 
+[IDebugEventContextCallbacks (dbgeng.h)](nn-dbgeng-idebugeventcontextcallbacks.md)
