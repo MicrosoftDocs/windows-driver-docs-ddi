@@ -61,20 +61,21 @@ Specifies the size, in bytes, of the range to secure.
 
 Specifies the most restrictive page protection that is allowed. Use PAGE_READWRITE to specify that the address range must remain both readable and writable, or use PAGE_READONLY to specify that the address range must only remain readable.
 
-<table>
-<tr><th>ProbeMode</th><th>Meaning</th></tr>
-<tr><td>PAGE_READWRITE</td><td>Protection cannot be changed to PAGE_NOACCESS or PAGE_READONLY. All other protection changes are allowed.</td></tr>
-<tr><td>PAGE_READONLY</td><td>Protection cannot be changed to PAGE_NOACCESS. All other protection changes are allowed.</td></tr>
-</table>
+|ProbeMode|Meaning|
+|--- |--- |
+|PAGE_READWRITE|Protection cannot be changed to PAGE_NOACCESS or PAGE_READONLY. All other protection changes are allowed.|
+|PAGE_READONLY|Protection cannot be changed to PAGE_NOACCESS. All other protection changes are allowed.|
 
 ### -param Flags
 
 Specifies one or more of the following  flags:
 
-- **MM_SECURE_EXCLUSIVE**
-- **MM_SECURE_NO_CHANGE**
-- **MM_SECURE_USER_MODE_ONLY**
-- **MM_SECURE_NO_INHERIT**
+|Flag|Description|
+|--- |--- |
+|**MM_SECURE_EXCLUSIVE**|Securing only succeeds if there are no other secures already pinned anywhere onto the VAD in question.|
+|**MM_SECURE_NO_CHANGE**|Once applied, no protection changes are allowed for the supplied virtual address region.  The region can still be deleted if the process is exiting.|
+|**MM_SECURE_USER_MODE_ONLY**|The protection specified by this securing will only be applied to subsequent calls from user mode that are trying to change the protection (kernel mode callers will bypass this securing).|
+|**MM_SECURE_NO_INHERIT**|If the process is cloned, then unlike the parent process, VAD of the child process will not be secured.|
 
 ## -returns
 
