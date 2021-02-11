@@ -42,8 +42,9 @@ api_name:
 
 # IDebugEventContextCallbacks interface
 
-
 ## -description
+
+**Microsoft internal use only**
 
 This interface supports event context callbacks and replaces the use of the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a> method.
 

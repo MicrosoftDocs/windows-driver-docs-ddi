@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Unload module.
+**Microsoft internal use only**
 
 ## -parameters
 

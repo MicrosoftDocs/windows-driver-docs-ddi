@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+**Microsoft internal use only**
+
 ## -parameters
 
 Any of these values may be zero.

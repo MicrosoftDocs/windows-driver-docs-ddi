@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+**Microsoft internal use only**
+
 A breakpoint event is generated when a breakpoint exception is received and it can be mapped to an existing breakpoint.
 The callback method is given a reference to the breakpoint and should release it when it is done with it.
 

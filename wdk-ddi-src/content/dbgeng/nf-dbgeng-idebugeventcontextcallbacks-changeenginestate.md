@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+**Microsoft internal use only**
+
 The engine state has changed.
 
 This is an informational callback notifying the provider about changes in debug state.  The return value of this callbacks is ignored.  Implementations can not call back into the engine.

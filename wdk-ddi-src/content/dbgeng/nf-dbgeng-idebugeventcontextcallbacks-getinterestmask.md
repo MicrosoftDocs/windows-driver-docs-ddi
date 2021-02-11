@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+**Microsoft internal use only**
+
 The engine calls GetInterestMask once when the event callbacks are set for a client.
 
 ## -parameters

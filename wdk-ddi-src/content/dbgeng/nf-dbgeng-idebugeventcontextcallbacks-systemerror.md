@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-A system error.
+**Microsoft internal use only**
 
 ## -parameters
 
