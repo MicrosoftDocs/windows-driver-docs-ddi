@@ -42,7 +42,6 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
 
 Any of these values can be zero if they cannot be provided by the engine.
 Currently the kernel does not return thread or process change events.

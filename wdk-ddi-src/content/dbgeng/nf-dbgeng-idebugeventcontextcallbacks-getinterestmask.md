@@ -42,9 +42,9 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
-
 The engine calls GetInterestMask once when the event callbacks are set for a client.
+
+Refer to [IDebugEventCallbacks::GetInterestMask](nf-dbgeng-idebugeventcallbacks-getinterestmask.md) for parameter description and additional information.
 
 ## -parameters
 

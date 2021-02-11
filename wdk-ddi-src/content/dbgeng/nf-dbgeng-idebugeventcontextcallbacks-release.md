@@ -42,7 +42,6 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
 
 ## -returns
 

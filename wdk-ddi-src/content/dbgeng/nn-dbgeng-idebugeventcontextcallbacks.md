@@ -4,7 +4,7 @@ title: IDebugEventContextCallbacks (dbgeng.h)
 description: This interface supports event context callbacks and replaces the use of the IDebugClient::SetEventCallbacks method.
 old-location: debugger\idebugeventcontextcallbacks.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/11/2021
 keywords: ["IDebugEventContextCallbacks interface"]
 ms.keywords: IDebugEventContextCallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventContextCallbacks, debugger.idebugeventcontextcallbacks
 req.header: dbgeng.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-**Microsoft internal use only**
+ This interface includes a [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains the “ProcessEngineId”, “ThreadEngineId”, and “FrameEngineId”. For example, for an event callbacks like a breakpoint event, it provides information on which process/thread the breakpoint hit on without having to do additional calls back into the engine.
 
 This interface supports event context callbacks and replaces the use of the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a> method.
 

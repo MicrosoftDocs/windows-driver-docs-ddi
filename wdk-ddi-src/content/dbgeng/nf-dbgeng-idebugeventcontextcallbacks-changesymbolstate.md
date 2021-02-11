@@ -42,7 +42,6 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
 
 The symbol state has changed.
 

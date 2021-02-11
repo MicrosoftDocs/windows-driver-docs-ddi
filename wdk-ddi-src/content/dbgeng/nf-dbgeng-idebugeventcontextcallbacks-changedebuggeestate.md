@@ -42,7 +42,6 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
 
 Debuggee state, such as registers or data spaces, has changed.
 

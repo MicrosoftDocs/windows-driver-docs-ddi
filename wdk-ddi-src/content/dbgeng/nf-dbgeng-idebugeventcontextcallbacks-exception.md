@@ -42,8 +42,6 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
-
 Exceptions include breaks which cannot be mapped to an existing breakpoint instance.
 
 ## -parameters

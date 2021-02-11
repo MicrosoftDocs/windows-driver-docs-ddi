@@ -42,18 +42,26 @@ dev_langs:
 
 ## -description
 
-**Microsoft internal use only**
-
 A breakpoint event is generated when a breakpoint exception is received and it can be mapped to an existing breakpoint.
 The callback method is given a reference to the breakpoint and should release it when it is done with it.
+
+Refer to [IDebugEventCallbacks::Breakpoint](nf-dbgeng-idebugeventcallbacks-breakpoint.md) for parameter description and additional information.
 
 ## -parameters
 
 ### -param Bp
 
+[in]
+Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> object corresponding to the breakpoint that was triggered.
+
 ### -param Context
 
-### -param ContextSize
+[in]
+Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
+
+### -param ContextSize [in]
+
+Specifies the size of the buffer Context.
 
 ## -returns
 
