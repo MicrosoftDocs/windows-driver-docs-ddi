@@ -44,15 +44,21 @@ dev_langs:
 
 Exceptions include breaks which cannot be mapped to an existing breakpoint instance.
 
+Refer to [IDebugEventCallbacks::Exception](nf-dbgeng-idebugeventcallbacks-exception.md) for parameter description and additional information.
+
 ## -parameters
 
 ### -param Exception
 
 ### -param FirstChance
 
-### -param Context
+### -param Context [in]
 
-### -param ContextSize
+Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
+
+### -param ContextSize [in]
+
+Specifies the size of the buffer Context.
 
 ## -returns
 

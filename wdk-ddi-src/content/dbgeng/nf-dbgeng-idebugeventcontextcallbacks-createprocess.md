@@ -44,6 +44,8 @@ dev_langs:
 
 Any of these values can be zero if they cannot be provided by the engine.
 
+Refer to [IDebugEventCallbacks::CreateProcess](nf-dbgeng-idebugeventcallbacks-createprocess.md) for parameter description and additional information.
+
 ## -parameters
 
 ### -param ImageFileHandle
@@ -68,9 +70,13 @@ Any of these values can be zero if they cannot be provided by the engine.
 
 ### -param StartOffset
 
-### -param Context
+### -param Context [in]
 
-### -param ContextSize
+Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
+
+### -param ContextSize [in]
+
+Specifies the size of the buffer Context.
 
 ## -returns
 

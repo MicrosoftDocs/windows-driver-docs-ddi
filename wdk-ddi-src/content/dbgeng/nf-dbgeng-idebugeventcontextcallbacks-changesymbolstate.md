@@ -42,10 +42,11 @@ dev_langs:
 
 ## -description
 
-
 The symbol state has changed.
 
 This is an informational callback notifying the provider about changes in debug state.  The return value of this callbacks is ignored.  Implementations can not call back into the engine.
+
+Refer to [IDebugEventCallbacks::ChangeSymbolState](nf-dbgeng-idebugeventcallbacks-changesymbolstate.md) for parameter description and additional information.
 
 ## -parameters
 

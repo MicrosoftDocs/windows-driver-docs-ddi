@@ -42,6 +42,7 @@ dev_langs:
 
 ## -description
 
+Refer to [IDebugEventCallbacks::SystemError](nf-dbgeng-idebugeventcallbacks-systemerror.md) for parameter description and additional information.
 
 ## -parameters
 
@@ -49,9 +50,13 @@ dev_langs:
 
 ### -param Level
 
-### -param Context
+### -param Context [in]
 
-### -param ContextSize
+Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
+
+### -param ContextSize [in]
+
+Specifies the size of the buffer Context.
 
 ## -returns
 

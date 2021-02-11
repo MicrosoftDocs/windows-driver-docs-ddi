@@ -42,6 +42,7 @@ dev_langs:
 
 ## -description
 
+Refer to [IDebugEventCallbacks::Release](nf-dbgeng-idebugeventcallbacks-release.md) for parameter description and additional information.
 
 ## -returns
 

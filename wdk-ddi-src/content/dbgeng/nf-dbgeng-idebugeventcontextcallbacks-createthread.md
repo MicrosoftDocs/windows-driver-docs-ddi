@@ -42,9 +42,10 @@ dev_langs:
 
 ## -description
 
-
 Any of these values can be zero if they cannot be provided by the engine.
 Currently the kernel does not return thread or process change events.
+
+Refer to [IDebugEventCallbacks::CreateThread](nf-dbgeng-idebugeventcallbacks-createthread.md) for parameter description and additional information.
 
 ## -parameters
 
@@ -54,9 +55,13 @@ Currently the kernel does not return thread or process change events.
 
 ### -param StartOffset
 
-### -param Context
+### -param Context [in]
 
-### -param ContextSize
+Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
+
+### -param ContextSize [in]
+
+Specifies the size of the buffer Context.
 
 ## -returns
 
