@@ -4,7 +4,7 @@ title: IDebugControl2::AddExtension (dbgeng.h)
 description: The AddExtension method loads an extension library into the debugger engine.
 old-location: debugger\addextension.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/04/2021
 keywords: ["IDebugControl2::AddExtension"]
 ms.keywords: AddExtension, AddExtension method [Windows Debugging], AddExtension method [Windows Debugging],IDebugControl interface, AddExtension method [Windows Debugging],IDebugControl2 interface, AddExtension method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddExtension method, IDebugControl2 interface [Windows Debugging],AddExtension method, IDebugControl2.AddExtension, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging],AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
 req.header: dbgeng.h
@@ -93,25 +93,20 @@ If the extension library has already been loaded, the handle to already loaded l
 
 The extension library is loaded into the host engine and <i>Path</i> contains a path and file name for this instance of the debugger engine.
 
+AddExtension does not complete the process of loading and initializing the extension DLL. To make the extension available for use, make a subsequent call to the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol2-getextensionfunction">GetExtensionFunction</a>.
+
 For more information on using extension libraries, see <a href="/windows-hardware/drivers/debugger/calling-extensions-and-extension-functions">Calling Extensions and Extension Functions</a>.
 
 ## -see-also
 
+ <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol2-getextensionfunction">GetExtensionFunction</a>
+
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getextensionbypath">GetExtensionByPath</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removeextension">RemoveExtension</a>
 
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
+
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
