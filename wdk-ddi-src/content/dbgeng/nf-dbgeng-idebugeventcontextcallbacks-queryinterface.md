@@ -44,8 +44,6 @@ dev_langs:
 
 The standard COM QueryInterface method.
 
-Refer to [IDebugEventCallbacks::QueryInterface](nf-dbgeng-idebugeventcallbacks-queryinterface.md) for parameter description and additional information.
-
 ## -parameters
 
 ### -param InterfaceId

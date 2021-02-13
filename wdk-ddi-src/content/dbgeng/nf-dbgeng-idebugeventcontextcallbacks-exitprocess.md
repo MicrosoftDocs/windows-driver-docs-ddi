@@ -54,8 +54,6 @@ Refer to [IDebugEventCallbacks::ExitProcess](nf-dbgeng-idebugeventcallbacks-exit
 
 Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
 
-Refer to [IDebugEventCallbacks::ExitCode](nf-dbgeng-idebugeventcallbacks-exitcode.md) for parameter description and additional information.
-
 ### -param ContextSize [in]
 
 Specifies the size of the buffer Context.
