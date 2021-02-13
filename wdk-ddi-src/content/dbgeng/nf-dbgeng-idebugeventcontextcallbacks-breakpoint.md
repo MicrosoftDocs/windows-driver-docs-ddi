@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: Dbgeng.h
+req.include-header: dbgeng.h
 req.target-type: Desktop
 req.irql: 
 req.kmdf-ver: 

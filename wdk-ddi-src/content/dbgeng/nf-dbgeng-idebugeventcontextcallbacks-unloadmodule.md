@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.UnloadModule
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::UnloadModule
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -41,6 +41,8 @@ dev_langs:
 ---
 
 ## -description
+
+The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 
 Refer to [IDebugEventCallbacks::UnloadModule](nf-dbgeng-idebugeventcallbacks-unloadmodule.md) for parameter description and additional information.
 

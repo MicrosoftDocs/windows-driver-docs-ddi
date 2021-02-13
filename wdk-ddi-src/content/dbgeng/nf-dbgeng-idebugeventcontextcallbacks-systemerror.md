@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.SystemError
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::SystemError
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The SystemError callback method is called by the engine when a system error occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -41,6 +41,8 @@ dev_langs:
 ---
 
 ## -description
+
+The SystemError callback method is called by the engine when a system error occurs in the target.
 
 Refer to [IDebugEventCallbacks::SystemError](nf-dbgeng-idebugeventcallbacks-systemerror.md) for parameter description and additional information.
 

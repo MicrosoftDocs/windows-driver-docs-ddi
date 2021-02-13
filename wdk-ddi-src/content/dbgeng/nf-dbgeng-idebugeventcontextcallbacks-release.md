@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.Release
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::Release
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The standard COM Release method.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Refer to [IDebugEventCallbacks::Release](nf-dbgeng-idebugeventcallbacks-release.md) for parameter description and additional information.
+The standard COM Release method.
 
 ## -returns
 

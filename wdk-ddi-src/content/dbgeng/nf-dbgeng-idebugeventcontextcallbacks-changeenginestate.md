@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.ChangeEngineState
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::ChangeEngineState
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The engine state has changed.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 

@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.SessionStatus
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::SessionStatus
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: Session status is synchronous like the other wait callbacks but it is called as the state of the session is changing rather than at specific events so its return value does not influence waiting.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
