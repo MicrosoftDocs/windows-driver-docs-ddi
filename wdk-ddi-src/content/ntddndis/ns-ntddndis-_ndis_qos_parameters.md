@@ -84,7 +84,7 @@ A <b>ULONG</b> value that specifies the number of NDIS QoS traffic classes that 
 
 ### -field PriorityAssignmentTable
 
-An array of <b>UCHAR</b> elements that specifies an IEEE 802.1p priority level for each traffic class. The <b>PriorityAssignmentTable</b> array is indexed  by the  802.1p priority level (0–7). 
+An array of <b>UCHAR</b> elements where each element represents the traffic class associated with an IEEE 802.1p priority level. The <b>PriorityAssignmentTable</b> array is indexed  by the  802.1p priority level (0–7). 
 
 Each element contains the traffic class identifier. This identifier is the index of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure for the traffic class within the classification array.
 
