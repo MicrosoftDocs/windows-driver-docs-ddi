@@ -44,7 +44,7 @@ dev_langs:
 
 The ExitThread callback method is called by the engine when an exit-thread debugging event occurs in the target.
 
-Refer to [IDebugEventCallbacks::ExitProcess](nf-dbgeng-idebugeventcallbacks-exitprocess.md) for parameter description and additional information.
+Refer to [IDebugEventCallbacks::ExitThread](nf-dbgeng-idebugeventcallbacks-exitthread.md) for parameter description and additional information.
 
 ## -parameters
 
