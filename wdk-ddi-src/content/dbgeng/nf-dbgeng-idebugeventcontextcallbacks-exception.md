@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.Exception
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::Exception
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The Exception callback method is called by the engine when an exception debugging event occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -41,6 +41,8 @@ dev_langs:
 ---
 
 ## -description
+
+The Exception callback method is called by the engine when an exception debugging event occurs in the target.
 
 Exceptions include breaks which cannot be mapped to an existing breakpoint instance.
 

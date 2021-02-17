@@ -1,18 +1,18 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.ExitProcess
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::ExitProcess
-ms.date: 02/10/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The ExitProcess callback method is called by the engine when an exit-process debugging event occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h 
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -42,6 +42,10 @@ dev_langs:
 
 ## -description
 
+The <b>ExitProcess</b> callback method is called by the engine when an exit-process debugging event occurs in the target.
+
+Refer to [IDebugEventCallbacks::ExitProcess](nf-dbgeng-idebugeventcallbacks-exitprocess.md) for parameter description and additional information.
+
 ## -parameters
 
 ### -param ExitCode
@@ -49,8 +53,6 @@ dev_langs:
 ### -param Context [in]
 
 Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
-
-Refer to [IDebugEventCallbacks::ExitCode](nf-dbgeng-idebugeventcallbacks-exitcode.md) for parameter description and additional information.
 
 ### -param ContextSize [in]
 
