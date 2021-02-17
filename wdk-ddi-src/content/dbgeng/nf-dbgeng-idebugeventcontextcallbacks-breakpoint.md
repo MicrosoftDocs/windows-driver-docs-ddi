@@ -1,18 +1,19 @@
 ---
 UID: NF:dbgeng.IDebugEventContextCallbacks.Breakpoint
-tech.root: 
+tech.root: debugger
 title: IDebugEventContextCallbacks::Breakpoint
-ms.date: 02/05/2021
+ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: A breakpoint event is generated when a breakpoint exception is received and it can be mapped to an existing breakpoint.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: dbgeng.h
 req.idl: 
-req.include-header: 
+req.include-header: dbgeng.h
+req.target-type: Desktop
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -21,7 +22,6 @@ req.namespace:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
