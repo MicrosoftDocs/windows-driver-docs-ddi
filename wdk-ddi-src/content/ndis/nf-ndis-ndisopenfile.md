@@ -135,6 +135,12 @@ When
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> must call the    
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclosefile">NdisCloseFile</a> function.
 
+> [!NOTE]
+>  **NdisOpenFile**, **NdisCloseFile**, **NdisMapFile** and **NdisUnmapFile** are not supported on ARM64. On ARM64, replace these functions with calls to **ZwCreateFile**, **ZwReadFile**, or other similar operations.
+> 
+
+
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
