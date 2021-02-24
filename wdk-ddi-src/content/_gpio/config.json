@@ -2,7 +2,7 @@
   "tech": "gpio",
   "headers": [
     "gpio.h",
-    "gpioclx.h",
+    "gpioclx.h"
   ],
   "displayName": "General-purpose I/O (GPIO) controllers"
 }
