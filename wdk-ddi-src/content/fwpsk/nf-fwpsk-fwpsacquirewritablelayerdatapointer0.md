@@ -132,7 +132,7 @@ An error occurred.
 
 <b>FwpsAcquireWritableLayerDataPointer0</b> sets the following members of the <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure:<ul>
 <li><i>classifyOut</i>-><b>actionType</b> = <b>FWP_ACTION_BLOCK</b></li>
-<li><i>classifyOut</i>-><b>rights</b> = ~<b>FWPS_RIGHT_ACTION_WRITE</b></li>
+<li><i>classifyOut</i>-><b>rights</b> &= ~<b>FWPS_RIGHT_ACTION_WRITE</b></li>
 </ul>
 
 
