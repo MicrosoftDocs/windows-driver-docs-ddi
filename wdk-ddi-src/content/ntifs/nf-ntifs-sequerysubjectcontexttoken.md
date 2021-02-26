@@ -4,7 +4,7 @@ title: SeQuerySubjectContextToken macro (ntifs.h)
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 02/25/2021
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml
 req.header: ntifs.h
@@ -42,50 +42,40 @@ api_name:
 
 # SeQuerySubjectContextToken macro
 
-
 ## -description
 
-The <b>SeQuerySubjectContextToken</b> macro retrieves the access token for a security subject context.
+The **SeQuerySubjectContextToken** macro retrieves the access token for a security subject context.
 
 ## -parameters
 
-### -param SubjectContext 
+### -param SubjectContext
 
-[in]
-Pointer to the subject context to query.
+[in] Pointer to a [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_security_subject_context) structure containing the subject context to query.
+
+## -returns
+
+**SeQuerySubjectContextToken** returns the effective token from **SubjectContext**. The effective token is the client token, if present; otherwise it is the primary (process) token.
 
 ## -remarks
 
-The access token pointer returned by <b>SeQuerySubjectContextToken</b> can be passed to <b>SeQueryInformationToken</b>. 
+The access token pointer returned by **SeQuerySubjectContextToken** can be passed to [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md).
 
-<b>SeQuerySubjectContextToken</b> does not affect the lock status or access token of the subject context.
+**SeQuerySubjectContextToken** does not affect the lock status or access token of the subject context.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceimpersonationtoken">PsDereferenceImpersonationToken</a>
+[**PsDereferenceImpersonationToken**](nf-ntifs-psdereferenceimpersonationtoken.md)
 
+[**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_security_subject_context)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceprimarytoken">PsDereferencePrimaryToken</a>
+[**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
+[**SeTokenIsAdmin**](nf-ntifs-setokenisadmin.md)
 
-<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryauthenticationidtoken">SeQueryAuthenticationIdToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisadmin">SeTokenIsAdmin</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisrestricted">SeTokenIsRestricted</a>
+[**SeTokenIsRestricted**](nf-ntifs-setokenisrestricted.md)
