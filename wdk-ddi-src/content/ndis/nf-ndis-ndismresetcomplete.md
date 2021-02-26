@@ -75,7 +75,7 @@ If
      configuration settings for the NIC.
 
 For more information, see 
-     <a href="/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
+     <a href="/windows-hardware/drivers/network/hardware-reset">Hardware Reset</a>.
 
 ## -remarks
 
@@ -92,7 +92,7 @@ Some NICs lose all multicast address, packet filter, or functional address infor
     <b>NdisMResetComplete</b>, causing NDIS to call its 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function to
     restore the addressing state. For more information, see 
-    <a href="/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
+    <a href="/windows-hardware/drivers/network/hardware-reset">Hardware Reset</a>.
 
 A miniport driver must release any spin lock that it is holding before calling 
     <b>NdisMResetComplete</b>.
