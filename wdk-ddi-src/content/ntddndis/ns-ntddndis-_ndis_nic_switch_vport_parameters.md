@@ -123,6 +123,13 @@ This flag specifies that the <b>ProcessoryAffinity</b> member has been updated a
 <div class="alert"><b>Note</b>  This flag is valid only when this structure is used in OID set requests of <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. </div>
 <div> </div>
 
+#### NDIS\_NIC\_SWITCH\_VPORT\_PARAMS\_NUM\_QUEUE\_PAIRS\_CHANGED
+
+This flag specifies that the **NumQueuePairs** member has been updated after the VPort has been created. When [Virtual Machine Multiple Queues (VMMQ)](/windows-hardware/drivers/network/overview-of-virtual-machine-multiple-queues) is enabled, the number of queues for default and non-default Vports can be updated. The **NumQueuePairs** member can be updated by using an OID set request of <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>.
+
+<div class="alert"><b>Note</b>  This flag is valid only when this structure is used in OID set requests of <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. </div>
+<div> </div>
+
 ### -field SwitchId
 
 An NDIS_NIC_SWITCH_ID value that specifies the identifier of the switch on which the VPort is to be created.
