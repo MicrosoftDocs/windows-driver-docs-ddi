@@ -1,70 +1,62 @@
 ---
-UID: NF:ndis.NdisMResetComplete
-title: NdisMResetComplete macro (NDIS 5.x)
-description: The NdisMResetComplete function returns the final status of a reset request for which the miniport driver previously returned NDIS_STATUS_PENDING.
-old-location: netvista\ndismresetcomplete.htm
+UID: NF:ndis.NdisMResetComplete~r1
+title: NdisMResetComplete macro (NDIS 6.x)
+ms.date: 03/02/2021
+ms.topic: language-reference
 tech.root: netvista
-ms.date: 05/02/2018
-keywords: ["NdisMResetComplete macro"]
-ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete
+targetos: Windows
+description: 
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
 req.header: ndis.h
-req.include-header: Ndis.h
-req.target-type: Universal
-req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For NDIS 5.1 drivers, see    NdisMResetComplete (NDIS 5.1).
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: Irql_Miniport_Driver_Function
-req.unicode-ansi: 
 req.idl: 
+req.include-header: 
+req.irql: <= DISPATCH_LEVEL
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: Windows Vista and later
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: Ndis.lib
-req.dll: 
-req.irql: DISPATCH_LEVEL
-targetos: Windows
-req.typenames: 
-f1_keywords:
- - NdisMResetComplete
- - ndis/NdisMResetComplete
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
- - LibDef
+ - 
 api_location:
- - ndis.lib
- - ndis.dll
+ - ndis.h
 api_name:
  - NdisMResetComplete
+f1_keywords:
+ - ndis/NdisMResetComplete
+dev_langs:
+ - c++
 ---
 
-# NdisMResetComplete macro (NDIS 5.x)
-
+# NdisMResetComplete function (NDIS 6.x)
 
 ## -description
 
-> [!NOTE]
-> For NDIS 6.x (Windows Vista and later), use the [NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete-r1) instead.
-
-The 
-  <b>NdisMResetComplete</b> function returns the final status of a reset request for which the miniport driver
-  previously returned NDIS_STATUS_PENDING.
+The **NdisMResetComplete** function returns the final status of a reset request for which the miniport driver previously returned NDIS_STATUS_PENDING.
 
 ## -parameters
 
-### -param _M
+### -param MiniportAdapterHandle
 
 The miniport adapter handle that NDIS originally passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
 
-### -param _S
+### -param Status
 
 The final status of the reset operation just completed. The return values are the same as those listed for the [MINIPORT_RESET callback function](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset).
 
-### -param _A
+### -param AddressingReset
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
      addresses, packet filters, and task offload information. In this case, the miniport driver is
@@ -106,14 +98,4 @@ In NDIS 6.0 and later, callers of
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
-
-[NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete-r1)
+[NdisMResetComplete macro (NDIS 5.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete)

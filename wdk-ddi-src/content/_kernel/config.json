@@ -21,7 +21,7 @@
     "wdmsec.h",
     "wmidata.h",
     "wmilib.h",
-    "wmistr.h",
+    "wmistr.h"
   ],
   "displayName": "Kernel"
 }

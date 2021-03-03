@@ -1,7 +1,7 @@
 {
   "tech": "devinst",
   "headers": [
-    "avc.h",
+    "avc.h"
   ],
   "displayName": "Driver installation"
 }

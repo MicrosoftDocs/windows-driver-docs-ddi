@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: API reference docs for Windows Driver Kit (WDK)
-summary: The Windows driver API reference documentation is presented in two different views. In the table of contents, select a technology to see the subset of APIs and headers pertaining to that driver technology. Or, select a header to see all APIs in that header.
+summary: The Windows driver API reference documentation is presented in two different views. In the table of contents, select a technology to see the subset of APIs and headers pertaining to that driver technology. Or, select a header to see all APIs in that header. When you select an API, the table of contents switches to the technology-scoped view for that API. 
 
 metadata: 
   description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
