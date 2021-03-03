@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 > [!NOTE]
-> For NDIS 6.x (Windows Vista and later), use the [NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete~r1) instead.
+> For NDIS 6.x (Windows Vista and later), use the [NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete-r1) instead.
 
 The 
   <b>NdisMResetComplete</b> function returns the final status of a reset request for which the miniport driver
@@ -116,4 +116,4 @@ In NDIS 6.0 and later, callers of
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
 
-[NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete~r1)
+[NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete-r1)
