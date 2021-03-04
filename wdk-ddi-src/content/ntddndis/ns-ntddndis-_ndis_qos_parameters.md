@@ -73,7 +73,7 @@ Set the <b>Size</b> member to NDIS_SIZEOF_QOS_PARAMETERS_REVISION_1.
 
 ### -field Flags
 
-A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the status of the NDIS QoS parameters for the network adapter. For more information about this member, see <a href="https://docs.microsoft.com/">Overview of the Flags Member</a>.
+A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the status of the NDIS QoS parameters for the network adapter. For more information about this member, see <a href="#overview">Overview of the Flags Member</a>.
 
 ### -field NumTrafficClasses
 
