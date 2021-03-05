@@ -5,7 +5,7 @@ title: StorPortSetSystemGroupAffinityThread
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: StorPortSetSystemGroupAffinityThread changes the group number and affinity mask of the calling thread.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

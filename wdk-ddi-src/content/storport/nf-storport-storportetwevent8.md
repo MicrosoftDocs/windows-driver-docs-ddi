@@ -4,13 +4,13 @@ title: StorPortEtwEvent8 function (storport.h)
 description: The StorPortEtwEvent8 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are expressed as eight name-value pairs.
 old-location: storage\storportetwevent8.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/13/2021
 keywords: ["StorPortEtwEvent8 function"]
 ms.keywords: STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent8, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, storage.storportetwevent8, storport/StorPortEtwEvent8
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in starting with Windows 8.1.
+req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,420 +42,162 @@ api_name:
 
 # StorPortEtwEvent8 function
 
-
 ## -description
 
-The <b>StorPortEtwEvent8</b> publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are  expressed as eight name-value pairs.
+The **StorPortEtwEvent8** publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are expressed as eight name-value pairs.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension for the host bus adapter (HBA).
+[in] A pointer to the miniport's device extension.
 
-### -param Address 
+### -param Address
 
-[in, optional]
-The storage unit device address. This parameter is NULL for adapter devices.
+[in, optional] The storage unit device address. This parameter is NULL for adapter devices.
 
-### -param EventId 
+### -param EventId
 
-[in]
-A miniport defined identifier for the ETW event.
+[in] A miniport-defined identifier for the ETW event.
 
-### -param EventDescription 
+### -param EventDescription
 
-[in]
-The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
+[in] The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
-### -param EventKeywords 
+### -param EventKeywords
 
 [in]
 Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="STORPORT_ETW_EVENT_KEYWORD_IO"></a><a id="storport_etw_event_keyword_io"></a><dl>
-<dt><b>STORPORT_ETW_EVENT_KEYWORD_IO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event is related to device IO operations.
+| Value | Meaning |
+| ----- | ------- |
+| STORPORT_ETW_EVENT_KEYWORD_IO | The event is related to device IO operations. |
+| STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE | The event is performance related. |
+| STORPORT_ETW_EVENT_KEYWORD_POWER | The event is related to device power. |
+| STORPORT_ETW_EVENT_KEYWORD_ENUMERATION | The event is related to device enumeration. |
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE"></a><a id="storport_etw_event_keyword_performance"></a><dl>
-<dt><b>STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event is performance related.
+### -param EventLevel
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="STORPORT_ETW_EVENT_KEYWORD_POWER"></a><a id="storport_etw_event_keyword_power"></a><dl>
-<dt><b>STORPORT_ETW_EVENT_KEYWORD_POWER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event is related to device power.
+[in] The event level. This value can indicate the importance or severity of the event. This is one of the following values.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="STORPORT_ETW_EVENT_KEYWORD_ENUMERATION"></a><a id="storport_etw_event_keyword_enumeration"></a><dl>
-<dt><b>STORPORT_ETW_EVENT_KEYWORD_ENUMERATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event is related to device enumeration.
+| Value | Meaning |
+| ----- | ------- |
+| StorportEtwLevelLogAlways | Log the event unconditionally. The event is logged regardless of any filters set. |
+| StorportEtwLevelCritical | Critical level event. |
+| StorportEtwLevelError | Error level event. |
+| StorportEtwLevelWarning | Warning level event. |
+| StorportEtwLevelInformational | Informational event. |
+| StorportEtwLevelVerbose | Verbose event information provided. |
 
-</td>
-</tr>
-</table>
-
-### -param EventLevel 
-
-[in]
-The event level. This value can indicate the importance or severity of the event. This is one of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwLevelLogAlways"></a><a id="storportetwlevellogalways"></a><a id="STORPORTETWLEVELLOGALWAYS"></a><dl>
-<dt><b>StorportEtwLevelLogAlways</b></dt>
-</dl>
-</td>
-<td width="60%">
-Log the event unconditionally. The event is logged regardless of any filters set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwLevelCritical"></a><a id="storportetwlevelcritical"></a><a id="STORPORTETWLEVELCRITICAL"></a><dl>
-<dt><b>StorportEtwLevelCritical</b></dt>
-</dl>
-</td>
-<td width="60%">
-Critical level event.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwLevelError"></a><a id="storportetwlevelerror"></a><a id="STORPORTETWLEVELERROR"></a><dl>
-<dt><b>StorportEtwLevelError</b></dt>
-</dl>
-</td>
-<td width="60%">
-Error level event.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwLevelWarning"></a><a id="storportetwlevelwarning"></a><a id="STORPORTETWLEVELWARNING"></a><dl>
-<dt><b>StorportEtwLevelWarning</b></dt>
-</dl>
-</td>
-<td width="60%">
-Warning level event.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwLevelInformational"></a><a id="storportetwlevelinformational"></a><a id="STORPORTETWLEVELINFORMATIONAL"></a><dl>
-<dt><b>StorportEtwLevelInformational</b></dt>
-</dl>
-</td>
-<td width="60%">
-Informational event.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwLevelVerbose"></a><a id="storportetwlevelverbose"></a><a id="STORPORTETWLEVELVERBOSE"></a><dl>
-<dt><b>StorportEtwLevelVerbose</b></dt>
-</dl>
-</td>
-<td width="60%">
-Verbose event information provided.
-
-</td>
-</tr>
-</table>
-
-### -param EventOpcode 
+### -param EventOpcode
 
 [in]
 The operational nature of the event. This is one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeInfo"></a><a id="storportetweventopcodeinfo"></a><a id="STORPORTETWEVENTOPCODEINFO"></a><dl>
-<dt><b>StorportEtwEventOpcodeInfo</b></dt>
-</dl>
-</td>
-<td width="60%">
-General informational event.
+| Value | Meaning |
+| ----- | ------- |
+| StorportEtwEventOpcodeInfo | General informational event. |
+| StorportEtwEventOpcodeStart | Device or unit was starting. |
+| StorportEtwEventOpcodeStop | Device or unit was stopping. The event corresponds to the last unpaired start event. |
+| StorportEtwEventOpcodeDC_Start | A data collection starting event. These are rundown event types. |
+| StorportEtwEventOpcodeDC_Stop | A data collection stopping event. These are rundown event types. |
+| StorportEtwEventOpcodeExtension | An extension event. |
+| StorportEtwEventOpcodeReply | A reply event. |
+| StorportEtwEventOpcodeResume | Device or unit was resuming after suspend. |
+| StorportEtwEventOpcodeSuspend | Device or unit is suspended pending completion of another operation. |
+| StorportEtwEventOpcodeReceive | Transfer of activity is received from another component. |
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeStart"></a><a id="storportetweventopcodestart"></a><a id="STORPORTETWEVENTOPCODESTART"></a><dl>
-<dt><b>StorportEtwEventOpcodeStart</b></dt>
-</dl>
-</td>
-<td width="60%">
-Device or unit was starting.
+### -param Srb
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeStop"></a><a id="storportetweventopcodestop"></a><a id="STORPORTETWEVENTOPCODESTOP"></a><dl>
-<dt><b>StorportEtwEventOpcodeStop</b></dt>
-</dl>
-</td>
-<td width="60%">
-Device or unit was stopping. The event corresponds to the last unpaired start event.
+[in, optional] A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeDC_Start"></a><a id="storportetweventopcodedc_start"></a><a id="STORPORTETWEVENTOPCODEDC_START"></a><dl>
-<dt><b>StorportEtwEventOpcodeDC_Start</b></dt>
-</dl>
-</td>
-<td width="60%">
-A data collection starting event. These are rundown event types.
+### -param Parameter1Name
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeDC_Stop"></a><a id="storportetweventopcodedc_stop"></a><a id="STORPORTETWEVENTOPCODEDC_STOP"></a><dl>
-<dt><b>StorportEtwEventOpcodeDC_Stop</b></dt>
-</dl>
-</td>
-<td width="60%">
-A data collection stopping event. These are rundown event types.
+[in, optional] A description of the meaning of *Parameter1Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeExtension"></a><a id="storportetweventopcodeextension"></a><a id="STORPORTETWEVENTOPCODEEXTENSION"></a><dl>
-<dt><b>StorportEtwEventOpcodeExtension</b></dt>
-</dl>
-</td>
-<td width="60%">
-An extension event.
+### -param Parameter1Value
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeReply"></a><a id="storportetweventopcodereply"></a><a id="STORPORTETWEVENTOPCODEREPLY"></a><dl>
-<dt><b>StorportEtwEventOpcodeReply</b></dt>
-</dl>
-</td>
-<td width="60%">
-A reply event.
+[in] The value for parameter 1.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeResume"></a><a id="storportetweventopcoderesume"></a><a id="STORPORTETWEVENTOPCODERESUME"></a><dl>
-<dt><b>StorportEtwEventOpcodeResume</b></dt>
-</dl>
-</td>
-<td width="60%">
-Device or unit was resuming after suspend.
+### -param Parameter2Name
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeSuspend"></a><a id="storportetweventopcodesuspend"></a><a id="STORPORTETWEVENTOPCODESUSPEND"></a><dl>
-<dt><b>StorportEtwEventOpcodeSuspend</b></dt>
-</dl>
-</td>
-<td width="60%">
-Device or unit is  suspended pending completion of another operation.
+[in, optional] A description of the meaning of *Parameter2Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="StorportEtwEventOpcodeReceive"></a><a id="storportetweventopcodereceive"></a><a id="STORPORTETWEVENTOPCODERECEIVE"></a><dl>
-<dt><b>StorportEtwEventOpcodeReceive</b></dt>
-</dl>
-</td>
-<td width="60%">
- Transfer of activity is received from another component.
+### -param Parameter2Value
 
-</td>
-</tr>
-</table>
+[in] The value for parameter 2.
 
-### -param Srb 
+### -param Parameter3Name
+
+[in, optional] A description of the meaning of *Parameter3Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+
+### -param Parameter3Value
+
+[in] The value for parameter 3.
+
+### -param Parameter4Name
 
 [in, optional]
-A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
+A description of the meaning of *Parameter4Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter1Name 
+### -param Parameter4Value
 
-[in, optional]
-A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+[in] The value for parameter 4.
 
-### -param Parameter1Value 
+### -param Parameter5Name
 
-[in]
-The value for parameter 1.
+[in, optional] A description of the meaning of *Parameter5Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter2Name 
+### -param Parameter5Value
 
-[in, optional]
-A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+[in] The value for parameter 5.
 
-### -param Parameter2Value 
+### -param Parameter6Name
 
-[in]
-The value for parameter 2.
+[in, optional] A description of the meaning of *Parameter6Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter3Name 
+### -param Parameter6Value
 
-[in, optional]
-A description of the of the meaning of <i>Parameter3Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+[in] The value for parameter 6.
 
-### -param Parameter3Value 
+### -param Parameter7Name
 
-[in]
-The value for parameter 3.
+[in, optional] A description of the meaning of *Parameter7Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter4Name 
+### -param Parameter7Value
 
-[in, optional]
-A description of the of the meaning of <i>Parameter4Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+[in] The value for parameter 7.
 
-### -param Parameter4Value 
+### -param Parameter8Name
 
-[in]
-The value for parameter 4.
+[in, optional] A description of the meaning of *Parameter8Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter5Name 
+### -param Parameter8Value
 
-[in, optional]
-A description of the of the meaning of <i>Parameter5Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
-
-### -param Parameter5Value 
-
-[in]
-The value for parameter 5.
-
-### -param Parameter6Name 
-
-[in, optional]
-A description of the of the meaning of <i>Parameter6Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
-
-### -param Parameter6Value 
-
-[in]
-The value for parameter 6.
-
-### -param Parameter7Name 
-
-[in, optional]
-A description of the of the meaning of <i>Parameter7Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
-
-### -param Parameter7Value 
-
-[in]
-The value for parameter 7.
-
-### -param Parameter8Name 
-
-[in, optional]
-A description of the of the meaning of <i>Parameter8Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
-
-### -param Parameter8Value 
-
-[in]
-The value for parameter 8.
+[in] The value for parameter 8.
 
 ## -returns
 
-<b>StorPortEtwEvent8</b> returns one of the following status codes:
+**StorPortEtwEvent8** returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event published successfully storage ETW channel.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Tracing is not enabled for storage events.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>HwDeviceExtension</i> parameter is NULL.
-
--or-
-
-<i>EventDescription</i> is NULL.
-
--or-
-
-<i>EventDescription</i> is greater than the maximum name length.
-
--or-
-
-An ETW parameter name is greater than the maximum name length.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_SUCCESS | The event published successfully storage ETW channel. |
+| STOR_STATUS_NOT_IMPLEMENTED | Tracing is not enabled for storage events. |
+| STOR_STATUS_INVALID_PARAMETER | One of the parameters is invalid. For example, *HwDeviceExtension* or *EventDescription* are NULL, *EventDescription* is greater than the maximum name length, or an ETW parameter name is greater than the maximum name length. |
 
 ## -remarks
 
-If any parameter is not named, ParameterXName = NULL, the routine will set the corresponding parameter value to 0.
+If any parameter is not named (Parameter*X*Name = NULL), the routine will set the corresponding parameter value to 0.
 
 Events generated from StorPort miniport drivers are published to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent2">StorPortEtwEvent2</a>
+[**StorPortEtwEvent2**](nf-storport-storportetwevent2.md)
 
+[**StorPortEtwEvent4**](nf-storport-storportetwevent4.md)
 
+[**StorPortEtwLogByteStream**](nf-storport-storportetwlogbytestream.md)
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent4">StorPortEtwEvent4</a>
+[**StorPortEtwLogError**](nf-storport-storportetwlogerror.md)

@@ -5,7 +5,7 @@ title: StorPortGetCurrentIrql
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: StorPortGetCurrentIrql retrieves the current interrupt request level (IRQL).
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,15 +42,30 @@ dev_langs:
 
 ## -description
 
+**StorPortGetCurrentIrql** retrieves the current interrupt request level (IRQL).
+
 ## -parameters
 
 ### -param HwDeviceExtension
 
+[in] A pointer to the miniport's device extension.
+
 ### -param Irql
+
+[out] Pointer to a KIRQL structure in which the current IRQL will be stored. **Irql** cannot be NULL.
 
 ## -returns
 
+This function returns one of the following status codes.
+
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_SUCCESS | The IRQL was successfully retrieved. |
+| STOR_STATUS_INVALID_PARAMETER | **Irql** is a null pointer. |
+| STOR_STATUS_UNSUCCESSFUL | Returned for other internal system reasons. |
+
 ## -remarks
 
-## -see-also
+A miniport can call **StorPortGetCurrentIrql** to query the current IRQL. KIRQL is defined in *miniport.h*. For general information about IRQLs, see [Managing Hardware Priorities](/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
+## -see-also

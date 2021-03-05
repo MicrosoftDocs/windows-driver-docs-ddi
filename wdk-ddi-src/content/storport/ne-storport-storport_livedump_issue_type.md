@@ -5,7 +5,7 @@ title: STORPORT_LIVEDUMP_ISSUE_TYPE
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: STORPORT_LIVEDUMP_ISSUE_TYPE identifies the issue that triggered the live dump capture.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: storport.h
@@ -46,11 +46,11 @@ dev_langs:
 
 ### -field StorportLivedumpIssueTypeUndefined
 
-The reason for the live dump trigger is not defined.
+Reserved for system use; do not use.
 
 ### -field StorportLivedumpIssueTypeDevicePanic
 
-The hardware device has panicked.
+The miniport has detected an issue that it needs to further triage.
 
 ## -remarks
 

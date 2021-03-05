@@ -5,7 +5,7 @@ title: STORPORT_CAPTURE_LIVEDUMP_TYPE
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: STORPORT_CAPTURE_LIVEDUMP_TYPE identifies the type of live dump to capture.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: storport.h
@@ -45,6 +45,8 @@ dev_langs:
 ## -enum-fields
 
 ### -field StorportCaptureLiveDumpTypeUndefined
+
+Reserved for system use; do not use.
 
 ### -field StorportCaptureLiveDumpTypeMini
 

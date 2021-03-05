@@ -5,7 +5,7 @@ title: StorPortCaptureLiveDump
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: StorPortCaptureLiveDump captures a live dump file.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: storport.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -70,7 +70,9 @@ dev_langs:
 
 ## -remarks
 
-A miniport can call **StorPortCaptureLiveDump** to capture a live dump file.
+When a miniport detects an issue that might require further triage, it can call **StorPortCaptureLiveDump** to capture a live dump file.
+
+This function must be called at PASSIVE_LEVEL.
 
 ## -see-also
 

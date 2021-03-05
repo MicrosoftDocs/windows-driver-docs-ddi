@@ -5,7 +5,7 @@ title: STORPORT_LIVEDUMP_DATA_TYPE
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: STORPORT_LIVEDUMP_DATA_TYPE identifies the data type of the payload to be included in the live dump.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: storport.h
@@ -45,6 +45,8 @@ dev_langs:
 ## -enum-fields
 
 ### -field StorportLivedumpDataTypeUndefined
+
+Reserved for system use; do not use.
 
 ### -field StorportLivedumpDataTypeDeviceTelemetryLog
 

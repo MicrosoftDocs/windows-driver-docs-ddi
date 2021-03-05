@@ -5,7 +5,7 @@ title: StorPortCreateSystemThread
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: StorPortCreateSystemThread creates a system thread and supplies a pointer to a context for the thread.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -78,7 +78,9 @@ dev_langs:
 
 ## -remarks
 
-A miniport can call **StorPortCreateSystemThread** to create a system thread. The thread continues to run until either the system is shut down or the thread terminates itself by calling [**StorPortTerminateSystemThread**](nf-storport-storportterminatesystemthread.md).
+Miniport drivers that create device-dedicated threads call **StorPortCreateSystemThread**, either when they initialize or when I/O requests begin to come in to the driver's *Dispatch* routines. For example, a driver might create such a thread when it receives an asynchronous device control request.
+
+The thread continues to run until either the system is shut down or the thread terminates itself by calling [**StorPortTerminateSystemThread**](nf-storport-storportterminatesystemthread.md).
 
 Thread priority can be changed by calling [**StorPortSetPriorityThread**](nf-storport-storportsetprioritythread.md). A miniport should specify a thread priority value that avoids run-time priority inversions. See [Device-dedicated Threads](/windows-hardware/drivers/kernel/device-dedicated-threads) for more information.
 
