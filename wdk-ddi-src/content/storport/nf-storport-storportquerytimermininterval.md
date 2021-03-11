@@ -66,6 +66,4 @@ This function returns one of the following status codes.
 
 ## -remarks
 
-A miniport can call this function to query the minimum timer resolution that is supported by the system clock.
-
-## -see-also
+A miniport can call this function to query the minimum timer resolution that is supported by the system clock, which can be helpful for implementing I/O polling.

@@ -5,7 +5,7 @@ title: StorPortEtwLogByteStream
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: StorPortEtwLogByteStream logs an ETW event to a specific channel with a general purpose byte stream parameter.
+description: StorPortEtwLogByteStream logs an Event Tracing for Windows (ETW) event with a general purpose byte stream parameter to the specified channel.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**StorPortEtwLogByteStream** logs an Event Tracing for Windows (ETW) event to a specific channel with a general purpose byte stream parameter.
+**StorPortEtwLogByteStream** logs an Event Tracing for Windows (ETW) event with a general purpose byte stream parameter to the specified channel.
 
 ## -parameters
 
@@ -117,9 +117,19 @@ dev_langs:
 
 ## -returns
 
+**StorPortEtwLogByteStream** returns one of the following status codes:
+
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_SUCCESS | The event was successfully logged to the specified ETW channel. |
+| STOR_STATUS_INVALID_PARAMETER | A parameter is invalid. For example, *HwDeviceExtension*,  *EventDescription*, or *Data* are NULL, *DataLength* is greater than the maximum name length, *EventChannel* is an invalid value. |
+| STOR_STATUS_UNSUCCESSFUL | Returned for other internal reasons. |
+
 ## -remarks
 
-A miniport can call **StorPortEtwLogByteStream** to log an ETW event to a specific channel with a general purpose byte stream parameter. By default, events generated from StorPort miniport drivers are published to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
+A miniport can call **StorPortEtwLogByteStream** to log an ETW event to a specific channel with a general purpose byte stream parameter.
+
+**StorPortEtwLogByteStream** is useful when a miniport needs to log context beyond that allowed in [**StorPortEtwEvent2**](./nf-storport-storportetwevent2.md), [**StorPortEtwEvent4**](./nf-storport-storportetwevent4.md), or [**StorPortEtwEvent8**](./nf-storport-storportetwevent8.md). For instance, a miniport can log its internal data structure as a byte stream that can then be used for diagnostic purposes when issues get reported.
 
 ## -see-also
 

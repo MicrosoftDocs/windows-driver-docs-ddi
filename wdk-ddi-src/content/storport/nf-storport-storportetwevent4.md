@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.StorPortEtwEvent4
 title: StorPortEtwEvent4 function (storport.h)
-description: The StorPortEtwEvent4 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log four general purpose ETW parameters. The ETW parameters are expressed as four name-value pairs.
+description: StorPortEtwEvent4 logs an Event Tracing for Windows (ETW) event with four general-purpose ETW parameters to a storage trace channel.
 old-location: storage\storportetwevent4.htm
 tech.root: storage
 ms.date: 05/13/2021
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **StorPortEtwEvent4** publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log four general purpose ETW parameters. The ETW parameters are  expressed as four name-value pairs.
+**StorPortEtwEvent4** logs an Event Tracing for Windows (ETW) event with four general-purpose ETW parameters to a storage trace channel.
 
 ## -parameters
 
@@ -149,15 +149,15 @@ The value for parameter 3.
 
 | Return code | Description |
 | ----------- | ----------- |
-| STOR_STATUS_SUCCESS | The event published successfully storage ETW channel. |
+| STOR_STATUS_SUCCESS | The event was successfully logged. |
 | STOR_STATUS_NOT_IMPLEMENTED | Tracing is not enabled for storage events. |
-| STOR_STATUS_INVALID_PARAMETER | One of the parameters is invalid. For example, *HwDeviceExtension* or *EventDescription* are NULL, *EventDescription* is greater than the maximum name length, or an ETW parameter name is greater than the maximum name length. |
+| STOR_STATUS_INVALID_PARAMETER | A parameter is invalid. For example, *HwDeviceExtension* or *EventDescription* are NULL, *EventDescription* is greater than the maximum name length, or an ETW parameter name is greater than the maximum name length. |
 
 ## -remarks
 
-If any parameter is not named (Parameter*X*Name = NULL), the routine will set the corresponding parameter value to 0.
+A miniport can call **StorPortEtwEvent4** to log four general-purpose ETW parameters. The ETW parameters are expressed as four name-value pairs. If a parameter is not named (Parameter*X*Name = NULL), the routine will set the corresponding parameter value to 0.
 
-Events generated from StorPort miniport drivers are published to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
+Events generated from StorPort miniport drivers are logged to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
 
 ## -see-also
 

@@ -79,3 +79,7 @@ This function must be called at PASSIVE_LEVEL.
 [**STOR_ADDRESS**](ns-storport-_stor_address.md)
 
 [**STORPORT_CAPTURE_LIVEDUMP**](ns-storport-storport_capture_livedump.md)
+
+[**STORPORT_LIVEDUMP_DATA_TYPE**](ne-storport-storport_livedump_data_type.md)
+
+[**STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG**](ns-storport-storport_livedump_device_telemetry_log.md)

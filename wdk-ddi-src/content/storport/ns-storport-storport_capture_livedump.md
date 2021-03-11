@@ -5,7 +5,7 @@ title: STORPORT_CAPTURE_LIVEDUMP
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The STORPORT_CAPTURE_LIVEDUMP structure contains the data needed to generate a live dump.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The [**STORPORT_CAPTURE_LIVEDUMP**](ns-storport-storport_capture_livedump.md) structure contains the data needed to generate a live dump.
+The **STORPORT_CAPTURE_LIVEDUMP** structure contains the data needed to generate a live dump.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ Pointer to a string name that identifies the component that is creating the live
 
 ### -field DataType
 
-A [**STORPORT_LIVEDUMP_DATA_TYPE**](ne-storport-storport_livedump_data_type.md) structure that specifies the data type of the payload to be included in the live dump.
+A [**STORPORT_LIVEDUMP_DATA_TYPE**](ne-storport-storport_livedump_data_type.md) enum value that specifies the data type of the payload to be included in the live dump.
 
 ### -field Data
 

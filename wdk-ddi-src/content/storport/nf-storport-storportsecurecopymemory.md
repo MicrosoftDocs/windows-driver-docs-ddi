@@ -5,7 +5,7 @@ title: StorPortSecureCopyMemory
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: StorPortSecureCopyMemory securely copies bytes between buffers.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+**StorPortSecureCopyMemory** securely copies bytes between buffers.
+
 ## -parameters
 
 ### -param Dest
@@ -55,6 +57,7 @@ dev_langs:
 ### -param Src
 
 [in] Pointer to the source buffer to copy from.
+
 ### -param Count
 
 [in] Number of bytes to copy from **Src** to **Dest**.
@@ -71,4 +74,4 @@ This function returns one of the following status codes.
 
 ## -remarks
 
-## -see-also
+A miniport calls **StorPortSecureCopyMemory** to securely copy bytes from a virtual source buffer to a virtual destination buffer. To avoid any potential security vulnerabilities, miniports should call this function instead of **StorPortCopyMemory**.

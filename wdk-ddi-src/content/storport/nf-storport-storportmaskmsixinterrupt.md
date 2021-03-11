@@ -71,5 +71,3 @@ This function returns one of the following status codes.
 ## -remarks
 
 A miniport can call **StorPortMaskMsixInterrupt** to mask or unmask the specified interrupt in the MSI-X hardware interrupt table. If a table entry is masked, the device does not generate interrupts that correspond to that table entry.
-
-## -see-also

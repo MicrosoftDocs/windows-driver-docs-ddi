@@ -5,7 +5,7 @@ title: STOR_GROUP_AFFINITY
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The STOR_GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

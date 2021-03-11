@@ -5,7 +5,7 @@ title: StorPortSetPriorityThread
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: StorPortSetPriorityThread sets the run-time priority of a miniport-created thread.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

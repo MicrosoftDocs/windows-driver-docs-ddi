@@ -5,7 +5,7 @@ title: STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG contains the payload for a live dump captured by StorPortCaptureLiveDump.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -43,6 +43,8 @@ dev_langs:
 ---
 
 ## -description
+
+**STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG** contains the payload for a live dump captured by [**StorPortCaptureLiveDump**](nf-storport-storportcapturelivedump.md).
 
 ## -struct-fields
 

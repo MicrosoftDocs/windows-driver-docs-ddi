@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.StorPortEtwLogError
 title: StorPortEtwLogError function
-description: A miniport can call StorPortEtwLogError to log an Event Tracing for Windows (ETW) event for a hardware protocol error.
+description: StorPortEtwLogError logs an Event Tracing for Windows (ETW) event for a hardware protocol error.
 tech.root: storage
 ms.date: 03/05/2019
 keywords: ["StorPortEtwLogError function"]
@@ -46,7 +46,7 @@ dev_langs:
 
 ## -description
 
-A miniport can call **StorPortEtwLogError** to log an Event Tracing for Windows (ETW) event for a hardware protocol error.
+**StorPortEtwLogError** logs an Event Tracing for Windows (ETW) event for a hardware protocol error.
 
 ## -parameters
 
@@ -80,13 +80,13 @@ This function returns one of the following status codes.
 
 | Return code | Description |
 | ----------- | ----------- |
-| STOR_STATUS_SUCCESS | The event published successfully storage ETW channel. |
+| STOR_STATUS_SUCCESS | The event was successfully logged. |
 | STOR_STATUS_INVALID_PARAMETER | *Description* or *DataBuffer* are NULL, or *DataBufferLength* is not greater than zero. |
 | STOR_STATUS_UNSUCCESSFUL | StorPort was unable to log the ETW event for other reasons, such as ETW logging is not enabled. |
 
 ## -remarks
 
-Events generated from this function are published to the "Microsoft-Windows-Storage-Storport/Operational" ETW channel.
+A miniport can call **StorPortEtwLogError** to log an ETW event for a hardware protocol error. Events generated from this function are published to the "Microsoft-Windows-Storage-Storport/Operational" ETW channel.
 
 ## -see-also
 
@@ -97,5 +97,3 @@ Events generated from this function are published to the "Microsoft-Windows-Stor
 [**StorPortEtwEvent8**](./nf-storport-storportetwevent8.md)
 
 [**StorPortEtwLogByteStream**](nf-storport-storportetwlogbytestream.md)
-
-[**StorPortEtwLogError**](nf-storport-storportetwlogerror.md)
