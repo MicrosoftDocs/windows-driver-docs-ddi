@@ -4,13 +4,13 @@ title: FltDeleteFileContext function (fltkernel.h)
 description: The FltDeleteFileContext routine retrieves and deletes a file context that a given minifilter driver has set for a given file.
 old-location: ifsk\fltdeletefilecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltDeleteFileContext function"]
 ms.keywords: FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml, FltDeleteFileContext, FltDeleteFileContext routine [Installable File System Drivers], fltkernel/FltDeleteFileContext, ifsk.fltdeletefilecontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Vista and later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,113 +43,63 @@ api_name:
 
 # FltDeleteFileContext function
 
-
 ## -description
 
-The <b>FltDeleteFileContext</b> routine retrieves and deletes a file context that a given minifilter driver has set for a given file.
+The **FltDeleteFileContext** routine retrieves and deletes a file context that a given minifilter driver has set for a given file.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
+[in] Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>.
+[in] File object pointer for the file. This parameter is required and cannot be **NULL**.
 
-### -param OldContext 
+### -param OldContext
 
-[out]
-Pointer to a caller-allocated variable that receives the address of the deleted context. If no matching context is found, this variable receives NULL_CONTEXT. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
+[out] Pointer to a caller-allocated variable that receives the address of the deleted context. If no matching context is found, this variable receives NULL_CONTEXT. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 
-<b>FltDeleteFileContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
+**FltDeleteFileContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching context was found. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-File contexts are not supported for this file. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_SUPPORTED | File contexts are not supported for this file. This is an error code. |
 
 ## -remarks
 
-The <b>FltDeleteFileContext</b> routine is available on Windows Vista and later. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteFileContext</b> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a> to explicitly delete a context. 
+Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as **FltDeleteFileContext** or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md) to explicitly delete a context.
 
-A minifilter driver calls <b>FltDeleteFileContext</b> to retrieve and delete a file context that it previously set for a file by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext">FltSetFileContext</a>. 
+A minifilter driver calls **FltDeleteFileContext** to retrieve and delete a file context that it previously set for a file by calling [**FltSetFileContext**](nf-fltkernel-fltsetfilecontext.md).
 
-If the <i>OldContext</i> parameter is <b>NULL</b> on input and a matching file context is found, <b>FltDeleteFileContext</b> releases the reference that was added by the minifilter driver's previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext">FltSetFileContext</a>. The deleted context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still being used by another thread). 
+If the *OldContext* parameter is **NULL** on input and a matching file context is found, **FltDeleteFileContext** releases the reference that was added by the minifilter driver's previous call to [**FltSetFileContext**](nf-fltkernel-fltsetfilecontext.md). The deleted context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still being used by another thread).
 
-If the <i>OldContext</i> parameter is not <b>NULL</b> and a matching file context is found and returned, the caller is responsible for releasing the reference that was added by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext">FltSetFileContext</a>. To release this reference, the minifilter driver must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> on the deleted file context as soon as possible after performing any necessary cleanup. 
+If the *OldContext* parameter is not **NULL** and a matching file context is found and returned, the caller is responsible for releasing the reference that was added by [**FltSetFileContext**](nf-fltkernel-fltsetfilecontext.md). To release this reference, the minifilter driver must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) on the deleted file context as soon as possible after performing any necessary cleanup.
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-To decrement the reference count on a context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>. 
-
-To delete a context for which you already have a context pointer, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
-
-To retrieve a file context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilecontext">FltGetFileContext</a>. 
-
-To set a file context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext">FltSetFileContext</a>. 
-
-To determine whether file contexts are supported for a given file, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>.
+To determine whether file contexts are supported for a given file, call [**FltSupportsFileContexts**](nf-fltkernel-fltsupportsfilecontexts.md) or [**FltSupportsFileContextsEx**](nf-fltkernel-fltsupportsfilecontextsex.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
+[**FLT_CONTEXT_REGISTRATION**](ns-fltkernel-_flt_context_registration.md)
 
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltGetFileContext**](nf-fltkernel-fltgetfilecontext.md)
 
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
+[**FltSetFileContext**](nf-fltkernel-fltsetfilecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltSupportsFileContexts**](nf-fltkernel-fltsupportsfilecontexts.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilecontext">FltGetFileContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext">FltSetFileContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>
+[**FltSupportsFileContextsEx**](nf-fltkernel-fltsupportsfilecontextsex.md)

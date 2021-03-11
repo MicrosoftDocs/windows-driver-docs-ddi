@@ -76,7 +76,7 @@ Specifies which key or subkey to open.  This is a bitwise OR of the following fl
 
 </td>
 <td>
-Opens the <b>Device Parameters</b> subkey under the device's hardware key.
+Opens the device's hardware key.
 
 </td>
 <td>KMDF/UMDF</td>

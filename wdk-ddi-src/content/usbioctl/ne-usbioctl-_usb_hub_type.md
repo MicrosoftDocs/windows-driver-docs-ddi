@@ -49,9 +49,9 @@ api_name:
 
 The **USB_HUB_TYPE** enumeration defines constants that indicate the type of USB hub.
 
-The hub type is retrieved by the [IOCTL_USB_GET_HUB_INFORMATION_EX](/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex) I/O control request.
+The hub type is retrieved by the [IOCTL_USB_GET_HUB_INFORMATION_EX](./ni-usbioctl-ioctl_usb_get_hub_information_ex.md) I/O control request.
 
-The request retrieves the hub descriptor associated with the specified hub in the [USB_HUB_INFORMATION_EX](/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex) structure. The **HubType** member contains a **USB_HUB_TYPE** enumerator that the application can use to evaluate the type of hub descriptor retrieved by the request.
+The request retrieves the hub descriptor associated with the specified hub in the [USB_HUB_INFORMATION_EX](./ns-usbioctl-_usb_hub_information_ex.md) structure. The **HubType** member contains a **USB_HUB_TYPE** enumerator that the application can use to evaluate the type of hub descriptor retrieved by the request.
 
 ## -syntax
 
@@ -77,8 +77,8 @@ Indicates that the retrieved hub descriptor is defined in USB 3.0 specification.
 
 ## -see-also
 
-[IOCTL_USB_GET_HUB_INFORMATION_EX](/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex)
+[IOCTL_USB_GET_HUB_INFORMATION_EX](./ni-usbioctl-ioctl_usb_get_hub_information_ex.md)
 
-[USB Constants and Enumerations](/windows-hardware/drivers/ddi/_usbref/#enumerations)
+[USB Constants and Enumerations](../_usbref/index.md#enumerations)
 
-[USB_HUB_INFORMATION_EX](/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex)
+[USB_HUB_INFORMATION_EX](./ns-usbioctl-_usb_hub_information_ex.md)

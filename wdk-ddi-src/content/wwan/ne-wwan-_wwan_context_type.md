@@ -99,7 +99,7 @@ The context is used for administrative purposes such as device management.
 
 ### -field WwanContextTypeApp
 
-The context represents a connection for certain applications whitelisted by mobile operators.
+The context represents a connection for certain applications allowlisted by mobile operators.
 
 ### -field WwanContextTypeXcap
 

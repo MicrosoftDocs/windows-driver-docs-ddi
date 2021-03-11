@@ -47,7 +47,7 @@ api_name:
 
 The **NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2** structure contains packet encapsulation information for Virtual Extensible LAN (VXLAN) task offload. VXLAN is similar to [NVGRE task offload](/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload), but with a different protocol.
 
-This structure is used in the **EncapsulatedPacketTaskOffloadVxlan** member of the [**NDIS_OFFLOAD**](ns-ntddndis-_ndis_offload.md) structure in NDIS 6.70 and later.
+This structure is used in the **EncapsulatedPacketTaskOffloadVxlan** member of the [**NDIS_OFFLOAD**](ns-ntddndis-_ndis_offload.md) structure in NDIS 6.50 and later.
 
 ## -struct-fields
 

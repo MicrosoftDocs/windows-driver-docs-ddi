@@ -4,13 +4,13 @@ title: FltSetInstanceContext function (fltkernel.h)
 description: FltSetInstanceContext sets a context for a minifilter driver instance.
 old-location: ifsk\fltsetinstancecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltSetInstanceContext function"]
 ms.keywords: FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, FltSetInstanceContext, FltSetInstanceContext function [Installable File System Drivers], fltkernel/FltSetInstanceContext, ifsk.fltsetinstancecontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later versions of the operating system. Not available nor supported on Windows 2000 SP4 and earlier operating systems.
+req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later versions of the operating system.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,144 +42,85 @@ api_name:
 
 # FltSetInstanceContext function
 
-
 ## -description
 
-<b>FltSetInstanceContext</b> sets a context for a minifilter driver instance.
+**FltSetInstanceContext** sets a context for a minifilter driver instance.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the instance.
+[in] Opaque instance pointer for the instance.
 
-### -param Operation 
+### -param Operation
 
-[in]
-Flag specifying details of the operation to be performed. This parameter must be one of the following: 
+[in] Flag specifying details of the operation to be performed. This parameter must be one of the following:
 
+| Flag | Meaning |
+| ---- | ------- |
+| FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for the instance that the *Instance* parameter points to, **FltSetInstanceContext** will replace that context with the context specified in *NewContext*. Otherwise, it will set *NewContext* as the context for *Instance*. |
+| FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for this *Instance*, **FltSetInstanceContext** returns STATUS_FLT_CONTEXT_ALREADY_DEFINED, and does not replace the existing context or increment the reference count. If a context is not already set, the routine will set *NewContext* as the context for *Instance* and increment the reference count. |
 
+### -param NewContext
 
+[in] Pointer to the new context to be set for the instance. This parameter is required and cannot be **NULL**.
 
+### -param OldContext
 
-#### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, replace it with <i>NewContext</i>. Otherwise, set <i>NewContext</i> as the context for <i>Instance</i>. 
-
-
-
-#### FLT_SET_CONTEXT_KEEP_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, set <i>NewContext</i> as the context for <i>Instance</i>.
-
-### -param NewContext 
-
-[in]
-Pointer to the new context to be set for the instance. This parameter is required and cannot be <b>NULL</b>.
-
-### -param OldContext 
-
-[out]
-Pointer to a caller-allocated variable that receives the address of the existing instance context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
+[out] Pointer to a caller-allocated variable that receives the address of the existing instance context, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+**FltSetInstanceContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_DEFINED</b></dt>
-</dl>
-</td>
-<td width="60%">
-If FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for <i>Operation</i>, this error code indicates that a context is already attached to the instance. Only one context can be attached to an instance. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_LINKED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context pointed to by the <i>NewContext</i> parameter is already linked to an object.  In other words, this error code indicates that <i>NewContext</i> is already in use due to a successful prior call of an <b>FltSet</b><i>Xxx</i><b>Context</b> routine.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>Instance</i> is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following: 
-
-<ul>
-<li>
-The <i>NewContext</i> parameter does not point to a valid instance context. 
-
-</li>
-<li>
-An invalid value was specified for <i>Operation</i>. 
-
-</li>
-</ul>
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_CONTEXT_ALREADY_DEFINED | If FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for the *Operation* parameter, this error code indicates that a context is already attached to the instance. Only one context can be attached to an instance. |
+| STATUS_FLT_CONTEXT_ALREADY_LINKED | The context pointed to by the *NewContext* parameter is already linked to an object. In other words, this error code indicates that *NewContext* is already in use due to a successful prior call of a **FltSet***Xxx***Context** routine. |
+| STATUS_FLT_DELETING_OBJECT | The instance specified in the *Instance* parameter is being torn down. This is an error code. |
+| STATUS_INVALID_PARAMETER | An invalid parameter was passed. For example, the *NewContext* parameter does not point to a valid file context, or an invalid value was specified for the *Operation* parameter. This is an error code. |
 
 ## -remarks
 
-A minifilter driver calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a> to attach an instance context to a caller-owned minifilter driver instance or to remove or replace an existing instance context. A minifilter driver can attach only one context to an instance. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-A successful call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a> increments the reference count on <i>NewContext</i>. If <b>FltSetInstanceContext</b> fails, the reference count remains unchanged. In either case, the filter calling <b>FltSetInstanceContext</b> must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to decrement the <i>NewContext</i> object. If <b>FltSetInstanceContext</b> fails and if the <i>OldContext</i> parameter is not <b>NULL</b> and does not point to NULL_CONTEXT then <i>OldContext</i> is a referenced pointer to the context currently associated with the transaction. The filter calling <b>FltSetInstanceContext</b> must call <b>FltReleaseContext</b> for <i>OldContext</i> as well.
+A minifilter driver calls **FltSetInstanceContext** to attach an instance context to a caller-owned minifilter driver instance or to remove or replace an existing instance context. A minifilter driver can attach only one context to an instance.
 
-Note that the <i>OldContext</i> pointer returned by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a> must also be released by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> when it is no longer needed. For more information, see <a href="/windows-hardware/drivers/ifs/setting-contexts">Setting Contexts</a> and <a href="/windows-hardware/drivers/ifs/releasing-contexts">Releasing Contexts</a>. 
+### Reference Counting
 
-To get an instance context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>. 
+If **FltSetInstanceContext** succeeds:
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+- The reference count on *NewContext* is incremented. When the context pointed to by *NewContext* is no longer needed, the minifilter must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement its reference count.
 
-To delete an instance context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
+Else if **FltSetInstanceContext** fails:
 
-For more information about context reference counting, see <a href="/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
+- The reference count on *NewContext* remains unchanged.
+- If *OldContext* is not **NULL** and does not point to NULL_CONTEXT then *OldContext* is a referenced pointer to the context currently associated with the instance. The filter calling **FltSetInstanceContext** must eventually call **FltReleaseContext** for *OldContext* as well when the context pointer is no longer needed.
+
+Regardless of success:
+
+- The filter calling **FltSetInstanceContext** must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement the reference count on the *NewContext* object that was incremented by [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+For more information, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
+
+### Other context operations
+
+For more information, see [Setting Contexts](/windows-hardware/drivers/ifs/setting-contexts), and [Releasing Contexts](/windows-hardware/drivers/ifs/releasing-contexts):
+
+- To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+- To get an instance context, call [**FltGetInstanceContext**](nf-fltkernel-fltgetinstancecontext.md).
+
+- To delete an instance context, call [**FltDeleteInstanceContext**](nf-fltkernel-fltdeleteinstancecontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltDeleteInstanceContext**](nf-fltkernel-fltdeleteinstancecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltGetInstanceContext**](nf-fltkernel-fltgetinstancecontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)

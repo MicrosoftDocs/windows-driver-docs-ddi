@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMResetComplete
-title: NdisMResetComplete macro (ndis.h)
+title: NdisMResetComplete macro (NDIS 5.x)
 description: The NdisMResetComplete function returns the final status of a reset request for which the miniport driver previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismresetcomplete.htm
 tech.root: netvista
@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
+req.irql: DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -41,10 +41,13 @@ api_name:
  - NdisMResetComplete
 ---
 
-# NdisMResetComplete macro
+# NdisMResetComplete macro (NDIS 5.x)
 
 
 ## -description
+
+> [!NOTE]
+> For NDIS 6.x (Windows Vista and later), use the [NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete-r1) instead.
 
 The 
   <b>NdisMResetComplete</b> function returns the final status of a reset request for which the miniport driver
@@ -59,7 +62,7 @@ The miniport adapter handle that NDIS originally passed to the
 
 ### -param _S
 
-The final status of the reset operation just completed.
+The final status of the reset operation just completed. The return values are the same as those listed for the [MINIPORT_RESET callback function](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset).
 
 ### -param _A
 
@@ -75,7 +78,7 @@ If
      configuration settings for the NIC.
 
 For more information, see 
-     <a href="/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
+     <a href="/windows-hardware/drivers/network/hardware-reset">Hardware Reset</a>.
 
 ## -remarks
 
@@ -92,7 +95,7 @@ Some NICs lose all multicast address, packet filter, or functional address infor
     <b>NdisMResetComplete</b>, causing NDIS to call its 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function to
     restore the addressing state. For more information, see 
-    <a href="/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
+    <a href="/windows-hardware/drivers/network/hardware-reset">Hardware Reset</a>.
 
 A miniport driver must release any spin lock that it is holding before calling 
     <b>NdisMResetComplete</b>.
@@ -112,3 +115,5 @@ In NDIS 6.0 and later, callers of
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
+
+[NdisMResetComplete function (NDIS 6.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete-r1)

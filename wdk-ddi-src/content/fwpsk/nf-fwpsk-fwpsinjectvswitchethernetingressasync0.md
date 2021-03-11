@@ -54,7 +54,7 @@ The <b>FwpsInjectvSwitchEthernetIngressAsync0</b> (was <b>FwpsInjectvSwitchIngre
 ### -param injectionHandle 
 
 [in]
-An injection handle that was previously created by a call to the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a> function with the <i>flags</i> parameter set to <b>FWPS_INJECTION_TYPE_VSWITCH</b>.
+An injection handle that was previously created by a call to the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a> function with the <i>flags</i> parameter set to <b>FWPS_INJECTION_TYPE_L2</b>.
 
 
 The <i>addressFamily</i> parameter is not used and should be set to <b>AF_UNSPEC</b>.

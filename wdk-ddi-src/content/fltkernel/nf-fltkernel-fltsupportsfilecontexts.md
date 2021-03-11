@@ -4,7 +4,7 @@ title: FltSupportsFileContexts function (fltkernel.h)
 description: The FltSupportsFileContexts routine determines whether the file system supports file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontexts.htm
 tech.root: ifsk
-ms.date: 05/29/2019
+ms.date: 01/22/2021
 keywords: ["FltSupportsFileContexts function"]
 ms.keywords: FltApiRef_p_to_z_cad3f45c-7ae0-44dc-840d-a8ec3da65ea6.xml, FltSupportsFileContexts, FltSupportsFileContexts routine [Installable File System Drivers], fltkernel/FltSupportsFileContexts, ifsk.fltsupportsfilecontexts
 req.header: fltkernel.h
@@ -42,17 +42,15 @@ api_name:
 
 # FltSupportsFileContexts function
 
-
 ## -description
 
 The **FltSupportsFileContexts** routine determines whether the file system supports file contexts for a given file. (See also [FltSupportsFileContextsEx](nf-fltkernel-fltsupportsfilecontextsex.md).)
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
+[in] Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
 
 ## -returns
 
@@ -64,7 +62,7 @@ Minifilter drivers call **FltSupportsFileContexts** to determine whether the und
 
 Note that a file system might support file contexts for some types of files but not for others. For example, NTFS and FAT do not support file contexts for paging files.
 
-For more information about contexts, see [Managing Contexts in a Minifilter Driver](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
 ## -see-also
 

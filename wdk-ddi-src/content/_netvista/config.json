@@ -1,7 +1,6 @@
 {
   "tech": "netvista",
   "headers": [
-    "arrayofelements.hpp",
     "checksum.h",
     "checksumtypes.h",
     "dot11wdi.h",

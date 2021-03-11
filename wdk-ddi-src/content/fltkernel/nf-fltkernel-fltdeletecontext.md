@@ -4,7 +4,7 @@ title: FltDeleteContext function (fltkernel.h)
 description: FltDeleteContext marks a specified context for deletion.
 old-location: ifsk\fltdeletecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltDeleteContext function"]
 ms.keywords: FltApiRef_a_to_d_d4c075e6-7a69-4d2f-9017-eccbf55eb9e0.xml, FltDeleteContext, FltDeleteContext function [Installable File System Drivers], fltkernel/FltDeleteContext, ifsk.fltdeletecontext
 req.header: fltkernel.h
@@ -42,17 +42,15 @@ api_name:
 
 # FltDeleteContext function
 
-
 ## -description
 
-<b>FltDeleteContext</b> marks a specified context for deletion.
+**FltDeleteContext** marks a specified context for deletion.
 
 ## -parameters
 
-### -param Context 
+### -param Context
 
-[in]
-A pointer to the context to delete. This parameter is required and cannot be <b>NULL</b>.
+[in] A pointer to the context to delete. This parameter is required and cannot be **NULL**.
 
 ## -returns
 
@@ -60,157 +58,56 @@ None.
 
 ## -remarks
 
-Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine, such as <b>FltDeleteContext</b>, to explicitly delete a context. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-<b>FltDeleteContext</b> marks a context for deletion. The context is usually freed as soon as the current reference on it is released, unless there is an outstanding reference on it (for example, because the context is still being used by another thread). 
+Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine, such as **FltDeleteContext**, to explicitly delete a context.
 
-You should consider the following items when you use <b>FltDeleteContext</b>:
+**FltDeleteContext** marks a context for deletion. The context is usually freed as soon as the current reference on it is released, unless there is an outstanding reference on it (for example, because the context is still being used by another thread).
 
-<ul>
-<li>
-When a minifilter driver calls <b>FltDeleteContext</b>, the minifilter driver must already have a reference to the context. However, when the minifilter driver calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamhandlecontext">FltDeleteStreamHandleContext</a>, <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a>, <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a>, and so on, the minifilter driver does not require a reference to the context. After the minifilter driver calls <b>FltDeleteContext</b>, that reference to the context is still valid. The minifilter driver must call the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> routine to release the reference to the context. 
+You should consider the following items when you use **FltDeleteContext**:
 
-</li>
-<li>
-<b>FltDeleteContext</b> removes the context from the internal filter manager structures. Then, further calls to functions that retrieve contexts, such as  <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontexts">FltGetContexts</a> and <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>, cannot locate that context. However, the context memory is not released until the reference count for the context goes to 0. 
+* When a minifilter driver calls **FltDeleteContext**, the minifilter driver must already have a reference to the context. However, when the minifilter driver calls [FltDeleteStreamHandleContext](nf-fltkernel-fltdeletestreamhandlecontext.md), [FltDeleteStreamContext](nf-fltkernel-fltdeletestreamcontext.md), [FltDeleteInstanceContext](nf-fltkernel-fltdeleteinstancecontext.md), and so on, the minifilter driver does not require a reference to the context. After the minifilter driver calls **FltDeleteContext**, that reference to the context is still valid. The minifilter driver must call the [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) routine to release the reference to the context.
 
-</li>
-</ul>
-Contexts can also be deleted by calling the appropriate delete-context routine from the following table. 
+* **FltDeleteContext** removes the context from the internal filter manager structures. Then, further calls to functions that get contexts, such as  [**FltGetContexts**](nf-fltkernel-fltgetcontexts.md) and [**FltGetInstanceContext**](nf-fltkernel-fltgetinstancecontext.md), cannot locate that context. However, the context memory is not released until the reference count for the context goes to 0.
 
-<table>
-<tr>
-<th>Context Type</th>
-<th>Delete-Context Routine</th>
-</tr>
-<tr>
-<td>
-FLT_FILE_CONTEXT
+Contexts can also be deleted by calling the appropriate delete-context routine from the following table.
 
-</td>
-<td>
+| Context Type | Delete-Context Routine |
+| ------------ | ---------------------- |
+| FLT_FILE_CONTEXT | [FltDeleteFileContext](nf-fltkernel-fltdeletefilecontext.md) (Windows Vista and later only.) |
+| FLT_INSTANCE_CONTEXT | [FltDeleteInstanceContext](nf-fltkernel-fltdeleteinstancecontext.md) |
+| FLT_SECTION_CONTEXT | [FltCloseSectionForDataScan](nf-fltkernel-fltclosesectionfordatascan.md) (Windows 8 and later only.) |
+| FLT_STREAM_CONTEXT | [FltDeleteStreamContext](nf-fltkernel-fltdeletestreamcontext.md) |
+| FLT_STREAMHANDLE_CONTEXT | [FltDeleteStreamHandleContext](nf-fltkernel-fltdeletestreamhandlecontext.md) |
+| FLT_TRANSACTION_CONTEXT | [FltDeleteTransactionContext](nf-fltkernel-fltdeletetransactioncontext.md) (Windows Vista and later only.) |
+| FLT_VOLUME_CONTEXT | [FltDeleteVolumeContext](nf-fltkernel-fltdeletevolumecontext.md) |
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletefilecontext">FltDeleteFileContext</a> (Windows Vista and later only.)
+To allocate a new context, call [FltAllocateContext](nf-fltkernel-fltallocatecontext.md).
 
-</td>
-</tr>
-<tr>
-<td>
-FLT_INSTANCE_CONTEXT
+To increment the reference count on a context, call [FltReferenceContext](nf-fltkernel-fltreferencecontext.md).
 
-</td>
-<td>
+To decrement the reference count on a context, call [FltReleaseContext](nf-fltkernel-fltreleasecontext.md).
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-FLT_SECTION_CONTEXT
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosesectionfordatascan">FltCloseSectionForDataScan</a> (Windows 8 and later only.)
-
-</td>
-</tr>
-<tr>
-<td>
-FLT_STREAM_CONTEXT
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-FLT_STREAMHANDLE_CONTEXT
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamhandlecontext">FltDeleteStreamHandleContext</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-FLT_TRANSACTION_CONTEXT
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a> (Windows Vista and later only.)
-
-</td>
-</tr>
-<tr>
-<td>
-FLT_VOLUME_CONTEXT
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletevolumecontext">FltDeleteVolumeContext</a>
-
-
-</td>
-</tr>
-</table>
- 
-
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
-
-To increment the reference count on a context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreferencecontext">FltReferenceContext</a>. 
-
-To decrement the reference count on a context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>. 
-
-A section context, FLT_SECTION_CONTEXT type, must not be deleted using <b>FltDeleteContext</b>. Instead, use  <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to deallocate a section context.
+A section context, FLT_SECTION_CONTEXT type, must not be deleted using **FltDeleteContext**. Instead, use  [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to deallocate a section context.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[FltAllocateContext](nf-fltkernel-fltallocatecontext.md)
 
+[FltCloseSectionForDataScan](nf-fltkernel-fltclosesectionfordatascan.md)
 
+[FltDeleteFileContext](nf-fltkernel-fltdeletefilecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosesectionfordatascan">FltCloseSectionForDataScan</a>
+[FltDeleteInstanceContext](nf-fltkernel-fltdeleteinstancecontext.md)
 
+[FltDeleteStreamContext](nf-fltkernel-fltdeletestreamcontext.md)
 
+[FltDeleteStreamHandleContext](nf-fltkernel-fltdeletestreamhandlecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletefilecontext">FltDeleteFileContext</a>
+[FltDeleteTransactionContext](nf-fltkernel-fltdeletetransactioncontext.md)
 
+[FltDeleteVolumeContext](nf-fltkernel-fltdeletevolumecontext.md)
 
+[FltReferenceContext](nf-fltkernel-fltreferencecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamhandlecontext">FltDeleteStreamHandleContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletevolumecontext">FltDeleteVolumeContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreferencecontext">FltReferenceContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
+[FltReleaseContext](nf-fltkernel-fltreleasecontext.md)

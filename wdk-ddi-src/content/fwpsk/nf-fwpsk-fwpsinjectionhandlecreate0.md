@@ -207,6 +207,10 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
     <i>addressFamily</i> set to AF_INET, and a second call with 
     <i>addressFamily</i> set to AF_INET6.
 
+For the MAC layers ( *MAC_FRAME_NATIVE, *MAC_FRAME_ETHERNET, *VSWITCH_ETHERNET), you can use the same injection handle acquired with the FWPS_INJECTION_TYPE_L2 flag. The Injection type is tied closer to the injection functions than the layers.
+
+For a code example, see [WFPSampler HelperFunctions_InjectionData.cpp](https://github.com/microsoft/Windows-driver-samples/blob/master/network/trans/WFPSampler/syslib/HelperFunctions_InjectionData.cpp).
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a>
