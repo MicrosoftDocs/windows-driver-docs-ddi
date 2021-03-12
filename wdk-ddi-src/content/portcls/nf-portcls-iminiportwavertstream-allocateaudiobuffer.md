@@ -54,7 +54,7 @@ Specifies the requested size, in bytes, of the audio buffer.
 
 ### -param AudioBufferMdl
 
-Output pointer for a memory descriptor list (MDL) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL. For general information about Windows kernel MDLs, see [Using MDLs](windows-hardware/drivers/kernel/using-mdls).
+Output pointer for a memory descriptor list (MDL) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL. For general information about Windows kernel MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 ### -param ActualSize
 
