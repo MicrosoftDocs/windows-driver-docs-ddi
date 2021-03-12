@@ -68,7 +68,7 @@ dev_langs:
 | **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a [**QUERY_ON_CREATE_FILE_LX_INFORMATION**](../ntifs/ns-ntifs-query_on_create_file_lx_information.md) structure. |
 | **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a [**QUERY_ON_CREATE_EA_INFORMATION**](../ntifs/ns-ntifs-query_on_create_ea_information.md) structure. |
 
-### -param Size
+### -param RetInfoSize
 
 [out] Pointer to a ULONG that receives the size, in bytes, of the buffer that **RetInfoBuffer** points to.
 
@@ -93,7 +93,7 @@ dev_langs:
 - The file system allocates the appropriate structure(s) and fills in the requested information, if supported, while it processes the create.
 - In post-create, the minifilter calls **FltRetrieveFileInfoOnCreateCompletionEx** to get the information it requested in the pre-create call. If the minifilter requested more than one info type, it must call **FltRetrieveFileInfoOnCreateCompletionEx** once for each info type. For example:
 
-``` cpp
+``` C
 
 // Pre-create:
 NTSTATUS status;
