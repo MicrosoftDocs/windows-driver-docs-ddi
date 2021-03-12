@@ -147,21 +147,24 @@ This member contains valid data only if the <b>Validbits.TargetId</b> bit is set
 
 The type of memory error that occurred. Possible values are:
 
-| Possible Values                   | Description                                                                                                                                                                      |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| WHEA_MEMERRTYPE_UNKNOWN           | An unknown error.                                                                                                                                                                |
-| WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
-| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](/windows-hardware/drivers/) error.                                                                            |
-| WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
+
+| Possible Values                   |Description  |
+| --------------------------------- | ----------------------------------- |
+| WHEA_MEMERRTYPE_UNKNOWN           | An unknown error. |
+| WHEA_MEMERRTYPE_NOERROR           | No error occurred.|
+| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](/windows-hardware/drivers/) error.        |
+| WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.         |
 | WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol ChipKill ECC error.   |
 | WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol ChipKill ECC error. |
-| WHEA_MEMERRTYPE_MASTERABORT       | A master abort.                                                                                                                                                                  |
-| WHEA_MEMERRTYPE_TARGETABORT       | A target abort.                                                                                                                                                                  |
-| WHEA_MEMERRTYPE_PARITYERROR       | A parity error.                                                                                                                                                                  |
-| WHEA_MEMERRTYPE_WATCHDOGTIMEOUT   | A watchdog timeout.                                                                                                                                                              |
-| WHEA_MEMERRTYPE_INVALIDADDRESS    | An invalid memory address.                                                                                                                                                       |
-| WHEA_MEMERRTYPE_MIRRORBROKEN      | A broken memory mirror.                                                                                                                                                          |
-| WHEA_MEMERRTYPE_MEMORYSPARING     | A memory sparing error.                                                                                                                                                          | This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set. |
+| WHEA_MEMERRTYPE_MASTERABORT       | A master abort.   |
+| WHEA_MEMERRTYPE_TARGETABORT       | A target abort.   |
+| WHEA_MEMERRTYPE_PARITYERROR       | A parity error.   |
+| WHEA_MEMERRTYPE_WATCHDOGTIMEOUT   | A watchdog timeout.            |
+| WHEA_MEMERRTYPE_INVALIDADDRESS    | An invalid memory address.           |
+| WHEA_MEMERRTYPE_MIRRORBROKEN      | A broken memory mirror.               |
+| WHEA_MEMERRTYPE_MEMORYSPARING     | A memory sparing error.    |
+
+This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
 
 ### -field Extended
 
