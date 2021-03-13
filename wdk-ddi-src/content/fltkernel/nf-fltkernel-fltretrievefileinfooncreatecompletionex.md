@@ -93,7 +93,7 @@ dev_langs:
 - The file system allocates the appropriate structure(s) and fills in the requested information, if supported, while it processes the create.
 - In post-create, the minifilter calls **FltRetrieveFileInfoOnCreateCompletionEx** to get the information it requested in the pre-create call. If the minifilter requested more than one info type, it must call **FltRetrieveFileInfoOnCreateCompletionEx** once for each info type. For example:
 
-``` C
+``` c
 
 // Pre-create:
 NTSTATUS status;
