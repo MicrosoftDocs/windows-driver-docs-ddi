@@ -41,24 +41,23 @@ product:
 
 # FltRetrieveFileInfoOnCreateCompletion function
 
-
 ## -description
 
-**FltRetrieveFileInfoOnCreateCompletion** retrieves the requested file information during file post create. Use [FltRetrieveFileInfoOnCreateCompletionEx](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md) to get an NTSTATUS code along with the file information.
+**FltRetrieveFileInfoOnCreateCompletion** retrieves the requested file information during file post create. Use [FltRetrieveFileInfoOnCreateCompletionEx](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md) to get an NTSTATUS code along with the requested information.
 
 ## -parameters
 
 ### -param Filter
 
-Opaque filter pointer that uniquely identifies the minifilter driver.
+[in] Opaque filter pointer that uniquely identifies the minifilter driver.
 
 ### -param Data
 
-Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback data representing the I/O operation.
+[in] Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback data representing the I/O operation.
 
 ### -param InfoClass
 
-Flag that indicates the type of information to return. Note that flags cannot be combined. Can be one of the following values:
+[in] Flag that indicates the type of information to return. Note that flags cannot be combined. Can be one of the following values:
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -66,9 +65,9 @@ Flag that indicates the type of information to return. Note that flags cannot be
 | **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure. |
 | **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure. |
 
-### Size
+### -param Size
 
-Pointer to a ULONG that specifies the size, in bytes, of the buffer that this function returns.
+[out] Pointer to a ULONG that specifies the size, in bytes, of the buffer that this function returns.
 
 ## -returns
 
