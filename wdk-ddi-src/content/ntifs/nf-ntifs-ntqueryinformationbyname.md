@@ -3,7 +3,7 @@ UID: NF:ntifs.NtQueryInformationByName
 title: NtQueryInformationByName function
 description: NtQueryInformationByName returns the requested information about a file specified by file name.
 tech.root: ifsk
-ms.date: 11/20/2020
+ms.date: 03/12/2021
 ms.topic: function
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
@@ -69,10 +69,9 @@ A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that 
 
 | FILE_INFORMATION_CLASS Value | Type of Information to Return |
 | ---------------------------- | ----------------------------- |
-| **FileNetworkOpenInformation** (34) | A [FILE_NETWORK_OPEN_INFORMATION](../wdm/ns-wdm-_file_network_open_information.md) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. |
-| **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md) |
-| **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md) |
-| **FileCaseSensitiveInformation** (71) | [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md) |
+| **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md). Available starting with Windows 10, version 1709. |
+| **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md). Available starting with Windows 10 April 2018 Update. |
+| **FileCaseSensitiveInformation** (71) | [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md). Available starting with Windows 10 April 2018 Update. |
 
 ## -returns
 
