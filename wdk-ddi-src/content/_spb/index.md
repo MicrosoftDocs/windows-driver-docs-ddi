@@ -20,5 +20,7 @@ To develop Simple Peripheral Bus (SPB), you need these headers:
 
  * [spb.h](../spb/index.md)
  * [spbcx.h](../spbcx/index.md)
+ * [reshub.h](../reshub/index.md)
+ * [pwmutil.h](../pwmutil/index.md)
 
 For the programming guide, see [Simple Peripheral Bus (SPB)](/windows-hardware/drivers/spb).
