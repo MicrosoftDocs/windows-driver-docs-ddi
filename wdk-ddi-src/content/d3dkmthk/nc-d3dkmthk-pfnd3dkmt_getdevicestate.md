@@ -48,7 +48,7 @@ Pfnd3dkmtGetdevicestate retrieves the state of a device.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETDEVICESTATE](ns-d3dkmthk-_d3dkmt_getdevicestate.md) structure.
 

@@ -50,7 +50,7 @@ The PFND3DDDI_QUERYDLISTFORAPPLICATION callback function queries a DList for an 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [out] Indicates whether or not there is an application in the DList.
 

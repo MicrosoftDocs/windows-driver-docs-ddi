@@ -50,7 +50,7 @@ The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enumerates meta-c
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 

@@ -48,7 +48,7 @@ The PFND3DKMT_DESTROYALLOCATION2 callback function releases allocations.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROYALLOCATION2](ns-d3dkmthk-_d3dkmt_destroyallocation2.md) structure.
 

@@ -48,7 +48,7 @@ The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function notifies of a b
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_BUDGETCHANGENOTIFICATION](ns-d3dkmthk-_d3dkmt_budgetchangenotification.md) structure.
 

@@ -55,7 +55,7 @@ The <b>pfnDestroyOverlayCb</b> function disables the overlay hardware and destro
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

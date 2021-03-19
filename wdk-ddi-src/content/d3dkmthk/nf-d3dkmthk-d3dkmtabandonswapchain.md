@@ -49,7 +49,7 @@ Abandons the swap chain.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] Pointer to a [D3DKMT_ABANDONSWAPCHAIN](ns-d3dkmthk-_d3dkmt_abandonswapchain.md) structure.
 

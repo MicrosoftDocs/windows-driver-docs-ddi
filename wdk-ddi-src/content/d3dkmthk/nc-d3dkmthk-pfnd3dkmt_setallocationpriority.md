@@ -48,7 +48,7 @@ The PFND3DKMT_SETALLOCATIONPRIORITY callback function sets the priority level of
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETALLOCATIONPRIORITY](ns-d3dkmthk-_d3dkmt_setallocationpriority.md) structure.
 

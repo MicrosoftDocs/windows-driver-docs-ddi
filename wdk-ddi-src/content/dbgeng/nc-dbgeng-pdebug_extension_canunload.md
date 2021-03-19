@@ -53,7 +53,7 @@ The <i>DebugExtensionCanUnload</i> callback function checks whether a debug exte
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

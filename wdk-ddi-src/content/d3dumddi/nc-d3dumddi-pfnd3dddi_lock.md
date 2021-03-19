@@ -55,7 +55,7 @@ The <i>Lock</i> function locks the given resource or a surface within the resour
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

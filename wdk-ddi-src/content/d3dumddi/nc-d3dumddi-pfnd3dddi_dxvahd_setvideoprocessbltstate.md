@@ -51,9 +51,9 @@ The <i>SetVideoProcessBltState</i> function sets the state of a bit-block transf
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDevice* [in]
 

@@ -49,7 +49,7 @@ The client driver's implementation to initiate port detection
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 #### - UfxDevice [in]
 

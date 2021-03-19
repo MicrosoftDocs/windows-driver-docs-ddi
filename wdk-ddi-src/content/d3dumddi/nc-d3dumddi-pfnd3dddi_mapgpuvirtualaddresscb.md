@@ -58,7 +58,7 @@ In LDA configuration the paging queue defines a physical GPU, whose page tables 
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

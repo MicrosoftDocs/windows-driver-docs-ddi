@@ -51,11 +51,11 @@ The **SetRenderTargets** callback function sets render target surfaces.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] **hDevice**: A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] **phRenderTargetView**: An array of handles to the render target view objects to set. Note that some handle values can be **NULL**.
 
@@ -69,7 +69,7 @@ The **SetRenderTargets** callback function sets render target surfaces.
 
 Note that the number that **ClearTargets** specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-### -param Arg5
+### -param unnamedParam5
 
 [in] **hDepthStencilView**: Handle to the depth stencil view.
 

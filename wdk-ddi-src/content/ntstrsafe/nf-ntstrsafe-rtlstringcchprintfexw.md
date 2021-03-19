@@ -137,7 +137,7 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-### -param param
+### -param ...
 
 <p>An optional list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
 

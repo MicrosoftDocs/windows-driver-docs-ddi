@@ -49,7 +49,7 @@ From a given graphics adapter name, opens an NT handle to the process.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

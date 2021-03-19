@@ -51,25 +51,25 @@ The <b>CreateCommandList</b> function creates a command list.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateCommandList* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_createcommandlist">D3D11DDIARG_CREATECOMMANDLIST</a> structure that describes the parameters that the user-mode display driver uses to create a command list.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hCommandList* [in]
 
 A handle to the driver's private data for the command list.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTCommandList* [in]
 

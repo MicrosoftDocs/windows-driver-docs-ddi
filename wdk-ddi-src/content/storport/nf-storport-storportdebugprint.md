@@ -58,7 +58,7 @@ Indicates the amount of debug information that will be displayed.
 
 Pointer to the debug message to be printed.
 
-### -param param
+### -param ...
 
 TBD
 

@@ -55,7 +55,7 @@ Pointer to a string containing the name of the function or method into which the
 
 ### -param fmt
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 
@@ -76,3 +76,4 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace">wiauDbgTrace</a>
+

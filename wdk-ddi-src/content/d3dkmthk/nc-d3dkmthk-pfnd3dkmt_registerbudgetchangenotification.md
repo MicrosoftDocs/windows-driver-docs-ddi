@@ -48,7 +48,7 @@ The PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function receives notifi
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_REGISTERBUDGETCHANGENOTIFICATION](ns-d3dkmthk-_d3dkmt_registerbudgetchangenotification.md) structure.
 

@@ -49,7 +49,7 @@ Used to simultaneously create a heap and resource.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
@@ -57,31 +57,31 @@ A handle to the display device (graphics context).
 
 Arguments used to create a heap.
 
-### -param Arg2
+### -param unnamedParam2
 
 Used to create a heap.
 
-### -param Arg3
+### -param unnamedParam3
 
 Used to create a resource.
 
-### -param Arg4
+### -param unnamedParam4
 
 *d3d12ddiarg_createresource_0003* [in, optional]
 
 Arguments used to create a resource.
 
-### -param Arg5
+### -param unnamedParam5
 
 *d3d12ddi_clear_values* [in, optional]
 
 Used to clear the values of the resource.
 
-### -param Arg6
+### -param unnamedParam6
 
 The protected resource session.
 
-### -param Arg7
+### -param unnamedParam7
 
 The hardware resource.
 

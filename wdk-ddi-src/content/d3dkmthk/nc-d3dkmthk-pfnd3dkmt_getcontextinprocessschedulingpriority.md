@@ -48,7 +48,7 @@ The Pfnd3dkmtGetcontextinprocessschedulingpriority callback function is called b
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY](ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority.md) structure.
 

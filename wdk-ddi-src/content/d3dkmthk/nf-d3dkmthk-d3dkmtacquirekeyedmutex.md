@@ -49,7 +49,7 @@ The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

@@ -55,7 +55,7 @@ product:
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

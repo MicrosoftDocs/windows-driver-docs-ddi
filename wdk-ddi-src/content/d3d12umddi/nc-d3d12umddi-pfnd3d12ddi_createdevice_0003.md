@@ -51,11 +51,11 @@ The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is re
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the graphics adapter object that was created with the <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_openadapter">PFND3D12DDI_OPENADAPTER</a> function.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_createdevice_0003">D3D12DDIARG_CREATEDEVICE</a> structure.
 

@@ -55,7 +55,7 @@ The <i>pfnSetPriorityCb</i> function sets the priority level of a resource or li
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

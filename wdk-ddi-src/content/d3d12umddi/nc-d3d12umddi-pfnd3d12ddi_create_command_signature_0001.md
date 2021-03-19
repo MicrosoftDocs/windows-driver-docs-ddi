@@ -50,15 +50,15 @@ Create a command signature.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 A handle to a command signature.
 

@@ -52,7 +52,7 @@ Outputs duplicate of a handle to a hardware queue.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_outputduplpresenttohwqueue.md) structure.
 

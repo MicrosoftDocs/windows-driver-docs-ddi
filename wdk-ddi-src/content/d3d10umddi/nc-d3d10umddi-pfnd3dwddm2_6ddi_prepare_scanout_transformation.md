@@ -50,13 +50,13 @@ Invokes the driver to schedule work to perform the necessary transformations fro
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 

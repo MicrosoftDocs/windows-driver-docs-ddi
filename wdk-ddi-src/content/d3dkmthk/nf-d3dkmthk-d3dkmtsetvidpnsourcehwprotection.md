@@ -49,7 +49,7 @@ Sets VidPn source hardware protection.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETVIDPNSOURCEHWPROTECTION](ns-d3dkmthk-_d3dkmt_setvidpnsourcehwprotection.md) structure.
 

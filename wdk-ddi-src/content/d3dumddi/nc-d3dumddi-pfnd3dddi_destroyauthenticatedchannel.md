@@ -55,7 +55,7 @@ The <b>DestroyAuthenticatedChannel</b> function releases resources for the authe
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

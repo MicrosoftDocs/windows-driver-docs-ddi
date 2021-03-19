@@ -50,7 +50,7 @@ Implemented by the client driver to reset the command allocator.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the command allocator.
 

@@ -52,7 +52,7 @@ The <b>D3DKMTOpenSynchronizationObject</b> function opens a kernel-mode synchron
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

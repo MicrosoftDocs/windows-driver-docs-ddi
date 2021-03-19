@@ -50,11 +50,11 @@ The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth sten
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a [D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW](ns-d3d12umddi-d3d12ddiarg_create_depth_stencil_view.md) structure that describes the parameters that the display driver uses to create a depth stencil view.
 

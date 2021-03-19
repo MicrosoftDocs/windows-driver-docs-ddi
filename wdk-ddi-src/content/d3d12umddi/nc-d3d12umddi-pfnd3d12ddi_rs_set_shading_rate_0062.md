@@ -50,7 +50,7 @@ Sets the command-level shading rate and combiners.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the command list.
 

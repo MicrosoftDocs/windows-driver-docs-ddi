@@ -55,7 +55,7 @@ The <i>SetVertexShaderFunc</i> function sets the vertex shader code so that all 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShaderHandle* [in]
 

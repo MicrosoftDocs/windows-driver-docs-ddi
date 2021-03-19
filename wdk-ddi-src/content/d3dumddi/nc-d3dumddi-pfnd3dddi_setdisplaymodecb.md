@@ -55,7 +55,7 @@ The <b>pfnSetDisplayModeCb</b> function sets the allocation that is used to scan
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

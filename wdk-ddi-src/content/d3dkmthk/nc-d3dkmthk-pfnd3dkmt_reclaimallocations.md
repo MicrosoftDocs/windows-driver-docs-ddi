@@ -49,7 +49,7 @@ Reclaims video memory allocations.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* 
 

@@ -49,7 +49,7 @@ Called by an in-process (in-proc) Microsoft Direct3D composition device to retri
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pContextPriority* [in, out]
 

@@ -55,7 +55,7 @@ Used to create a video decoder heap.
 
 The hardware device being processed.
 
-### -param Arg2
+### -param unnamedParam2
 
 pArgs [in]
 

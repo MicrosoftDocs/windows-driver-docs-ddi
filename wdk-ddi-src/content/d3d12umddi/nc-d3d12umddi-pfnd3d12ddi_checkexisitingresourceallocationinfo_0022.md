@@ -51,19 +51,19 @@ The <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice*
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 hResource
 
 A resource handle.
 
-### -param Arg3
+### -param unnamedParam3
 
 pInfo [out]
 

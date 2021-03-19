@@ -50,7 +50,7 @@ Creates a meta-command.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
@@ -70,11 +70,11 @@ The creation parameters.
 
 The size of the creation parameters.
 
-### -param Arg6
+### -param unnamedParam6
 
 Handle to a meta-command.
 
-### -param Arg7
+### -param unnamedParam7
 
 A meta-command.
 

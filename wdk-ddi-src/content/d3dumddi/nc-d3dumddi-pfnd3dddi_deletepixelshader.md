@@ -55,7 +55,7 @@ The <b>DeletePixelShader</b> function cleans up driver-side resources that are a
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShaderHandle* [in]
 

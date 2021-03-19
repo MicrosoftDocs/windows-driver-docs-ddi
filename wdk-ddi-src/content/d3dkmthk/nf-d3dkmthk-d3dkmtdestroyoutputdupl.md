@@ -52,7 +52,7 @@ Destroys output duplicate.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 _\_In_\_ _pData_
 

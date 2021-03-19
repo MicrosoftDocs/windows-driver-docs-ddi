@@ -49,19 +49,19 @@ Specifies whether the video processor produces stereo video frames.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hVideoProcessor* [in]
 
 A handle to the video processor object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Enable* [in]
 

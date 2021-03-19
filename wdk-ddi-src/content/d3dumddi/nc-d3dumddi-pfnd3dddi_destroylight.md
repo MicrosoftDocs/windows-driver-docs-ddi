@@ -55,7 +55,7 @@ The <b>DestroyLight</b> function deactivates a light source.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

@@ -49,25 +49,25 @@ The <b>DrawIndexed</b> function draws indexed primitives.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *StartIndexLocation* [in]
 
 The first index in the index buffer that indexes are read from to draw the primitives.
 
-### -param Arg3
+### -param unnamedParam3
 
 *BaseVertexLocation* [in]
 
 The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
 
-### -param Arg4
+### -param unnamedParam4
 
 *IndexCount* [in]
 

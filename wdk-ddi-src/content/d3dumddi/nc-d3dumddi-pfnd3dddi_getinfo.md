@@ -55,13 +55,13 @@ The <i>GetInfo</i> function retrieves information about the specified display de
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *DevInfoID*
 
 An identifier for the type of device information to retrieve.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pDevInfoStruct*
 

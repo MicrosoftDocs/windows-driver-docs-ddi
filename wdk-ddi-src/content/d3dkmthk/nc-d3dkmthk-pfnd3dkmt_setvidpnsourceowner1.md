@@ -49,7 +49,7 @@ Sets and releases the video present source in the path of a video present networ
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pSetVidPnSourceOwner1* 
 

@@ -52,7 +52,7 @@ The <b>D3DKMTCreateSynchronizationObject2</b> function creates a kernel-mode syn
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

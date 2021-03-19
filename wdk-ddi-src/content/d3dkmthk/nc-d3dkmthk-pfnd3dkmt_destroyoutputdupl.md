@@ -48,7 +48,7 @@ The PFND3DKMT_DESTROYOUTPUTDUPL callback function destroys output duplicates.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROY_OUTPUTDUPL](ns-d3dkmthk-_d3dkmt_destroy_outputdupl.md) structure.
 

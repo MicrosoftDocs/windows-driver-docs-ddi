@@ -49,7 +49,7 @@ The <b>pfnDisableDeferredStagingResourceDestruction</b> function disables the de
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

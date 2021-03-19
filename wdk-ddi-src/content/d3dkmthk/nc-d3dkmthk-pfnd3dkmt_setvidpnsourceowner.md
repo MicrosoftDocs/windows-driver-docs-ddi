@@ -48,7 +48,7 @@ The PFND3DKMT_SETVIDPNSOURCEOWNER callback function sets and releases the video 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETVIDPNSOURCEOWNER](ns-d3dkmthk-_d3dkmt_setvidpnsourceowner.md) structure.
 

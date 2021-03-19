@@ -50,11 +50,11 @@ The PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES callback function gets the size of 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 The D3D12DDI_DESCRIPTOR_HEAP_TYPE-typed value that specifies the type of descriptor heap to get the size of the handle increment for.
 

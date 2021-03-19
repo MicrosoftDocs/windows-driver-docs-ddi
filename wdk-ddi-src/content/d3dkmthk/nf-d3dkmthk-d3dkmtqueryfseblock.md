@@ -49,7 +49,7 @@ Query FSE block.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYFSEBLOCK](ns-d3dkmthk-_d3dkmt_queryfseblock.md) structure.
 

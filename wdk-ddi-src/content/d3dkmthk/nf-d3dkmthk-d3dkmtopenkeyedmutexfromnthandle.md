@@ -48,7 +48,7 @@ Opens a keyed mutex from an NT handle to the process.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE* [in, out]
 

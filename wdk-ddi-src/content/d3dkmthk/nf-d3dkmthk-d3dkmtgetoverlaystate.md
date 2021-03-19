@@ -52,7 +52,7 @@ The <b>D3DKMTGetOverlayState</b> function retrieves the status about an overlay.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

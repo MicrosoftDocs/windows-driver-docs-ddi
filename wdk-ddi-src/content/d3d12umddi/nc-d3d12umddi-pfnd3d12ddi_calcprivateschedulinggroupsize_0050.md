@@ -50,11 +50,11 @@ The **pfnCalcPrivateSchedulingGroupSize** callback function returns the size of 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 An hDevice that represents a handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3D12DDIARG_CREATESCHEDULINGGROUP_0050](ns-d3d12umddi-d3d12ddiarg_createschedulinggroup_0050.md) structure that represents arguments needed to create a hardware scheduling group.
 

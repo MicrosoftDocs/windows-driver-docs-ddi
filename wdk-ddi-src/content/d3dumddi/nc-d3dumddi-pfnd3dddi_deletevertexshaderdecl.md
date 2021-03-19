@@ -55,7 +55,7 @@ The <b>DeleteVertexShaderDecl</b> function cleans up driver-side resources that 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShaderHandle* [in]
 

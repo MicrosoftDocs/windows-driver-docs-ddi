@@ -49,7 +49,7 @@ Maps a GDI display name to a remote video present network (VidPN) source ID that
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* 
 

@@ -55,7 +55,7 @@ Performs a bit-block transfer (bitblt) operation from a source texture to a dest
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

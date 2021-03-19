@@ -49,13 +49,13 @@ The <b>DispatchIndirect</b> function executes the compute shader.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hBufferForArgs* [in]
 
@@ -69,7 +69,7 @@ struct DispatchArgs {
 }
 ```
 
-### -param Arg3
+### -param unnamedParam3
 
 *AlignedByteOffsetForArgs* [in]
 

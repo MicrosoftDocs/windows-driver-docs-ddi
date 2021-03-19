@@ -49,7 +49,7 @@ Used to create a new hardware context.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *createHwContext* [in, out]
 

@@ -51,7 +51,7 @@ The <i>SetScissorRects</i> function marks portions of render targets that render
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -67,7 +67,7 @@ A handle to the display device (graphics context).
 
 Note that the number that <i>ClearScissorRects</i> specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pRects* [in]
 

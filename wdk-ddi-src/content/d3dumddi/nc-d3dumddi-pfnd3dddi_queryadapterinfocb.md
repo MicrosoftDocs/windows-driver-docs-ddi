@@ -55,7 +55,7 @@ The <b>pfnQueryAdapterInfoCb</b> function retrieves graphics adapter information
 
 A handle to the graphics adapter object.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

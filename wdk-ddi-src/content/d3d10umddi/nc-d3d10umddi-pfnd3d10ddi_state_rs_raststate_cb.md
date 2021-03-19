@@ -49,7 +49,7 @@ The <b>pfnStateRsRastStateCb</b> function causes the Microsoft Direct3D 10 runti
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

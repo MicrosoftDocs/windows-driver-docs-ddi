@@ -51,11 +51,11 @@ The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 The handle for a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 A <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
 

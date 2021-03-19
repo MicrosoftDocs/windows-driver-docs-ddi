@@ -55,7 +55,7 @@ A callback to submit a command to the hardware queue.
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *submitCommandToHwQueue* [in]
 

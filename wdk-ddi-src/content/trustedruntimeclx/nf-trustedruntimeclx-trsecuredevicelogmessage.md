@@ -40,6 +40,7 @@ api_name:
 
 # TrSecureDeviceLogMessage function
 
+
 ## -description
 
 ## -parameters
@@ -50,7 +51,11 @@ api_name:
 
 ### -param Message
 
-### -param
+### -param ...
+
+Additional Parameters.
+
+## -param
 
 ## -returns
 
@@ -59,3 +64,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

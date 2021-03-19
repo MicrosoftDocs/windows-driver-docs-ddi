@@ -48,7 +48,7 @@ The PFND3DKMT_SETQUEUEDLIMIT callback function sets or retrieves the limit for t
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETQUEUEDLIMIT](ns-d3dkmthk-_d3dkmt_setqueuedlimit.md) structure.
 

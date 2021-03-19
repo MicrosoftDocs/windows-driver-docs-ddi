@@ -47,7 +47,7 @@ Implemented by the client driver to create a new hardware queue.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_CREATEHWQUEUE](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createhwqueue.md) structure that contains information needed to create a new hardware queue.
 

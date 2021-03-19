@@ -55,7 +55,7 @@ The <i>QueryResourceResidency</i> function determines the residency of the given
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

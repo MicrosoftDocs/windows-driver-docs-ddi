@@ -49,7 +49,7 @@ Used to get information on the protected session.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *D3dkmt_queryprotectedsessioninfofromnthandle*
 

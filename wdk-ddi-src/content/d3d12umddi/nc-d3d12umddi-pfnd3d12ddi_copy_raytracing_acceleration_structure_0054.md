@@ -50,11 +50,11 @@ Copies a ray tracing acceleration structure.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to a command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054](ns-d3d12umddi-d3d12ddiarg_copy_raytracing_acceleration_structure_0054.md) structure.
 

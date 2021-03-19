@@ -51,9 +51,9 @@ The <i>SetVideoProcessStreamState</i> function sets the stream state for a video
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDevice* [in]
 

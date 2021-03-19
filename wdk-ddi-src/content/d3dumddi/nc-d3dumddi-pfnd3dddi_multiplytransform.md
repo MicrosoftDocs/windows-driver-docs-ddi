@@ -55,7 +55,7 @@ The <i>MultiplyTransform</i> function modifies the current transform.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

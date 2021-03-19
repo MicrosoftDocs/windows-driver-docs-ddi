@@ -57,7 +57,7 @@ Te handle of calling module.
 
 ### -param pszFormat
 
-### -param param
+### -param ...
 
 ####### - pszFormat, ...
 
@@ -72,3 +72,4 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 [WIAS_LTRACE](./nf-wiamdef-wias_ltrace.md)
 
 [WIAS_TRACE](./nf-wiamdef-wias_trace.md)
+

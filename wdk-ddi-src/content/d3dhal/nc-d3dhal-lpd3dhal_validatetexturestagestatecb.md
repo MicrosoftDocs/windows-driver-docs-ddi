@@ -49,7 +49,7 @@ The <b>D3dValidateTextureStageState</b> function returns the number of passes wh
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pvtssd* [in]
 

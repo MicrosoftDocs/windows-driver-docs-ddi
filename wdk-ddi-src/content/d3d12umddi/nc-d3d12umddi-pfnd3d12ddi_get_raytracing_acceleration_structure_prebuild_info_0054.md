@@ -47,15 +47,15 @@ Queries the driver for resource requirements to build an acceleration structure.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] Pointer to a [D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054](ns-d3d12umddi-d3d12ddi_build_raytracing_acceleration_structure_inputs_0054.md) structure that contains the inputs.
 
-### -param Arg3
+### -param unnamedParam3
 
 [out] Pointer to a [D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054](ns-d3d12umddi-d3d12ddi_raytracing_acceleration_structure_prebuild_info_0054.md) structure that contains prebuild info.
 

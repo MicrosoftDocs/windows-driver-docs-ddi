@@ -49,7 +49,7 @@ Submits a present command from the <a href="/windows/desktop/direct3ddxgi/deskto
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* 
 

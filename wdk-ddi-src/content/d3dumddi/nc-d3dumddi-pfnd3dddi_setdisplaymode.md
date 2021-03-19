@@ -55,7 +55,7 @@ The <i>SetDisplayMode</i> function switches to a display mode or primary that is
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

@@ -54,22 +54,22 @@ The <b>ReadBugCheckData</b> method reads the kernel bug check code and related p
 [out]
 Receives the bug check code.
 
-### -param Arg1 
+### -param unnamedParam1 
 
 [out]
 Receives the first parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
-### -param Arg2 
+### -param unnamedParam2 
 
 [out]
 Receives the second parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
-### -param Arg3 
+### -param unnamedParam3 
 
 [out]
 Receives the third parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
-### -param Arg4 
+### -param unnamedParam4 
 
 [out]
 Receives the fourth parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.

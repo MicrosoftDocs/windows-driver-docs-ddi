@@ -51,25 +51,25 @@ Creates an enumeration object for the video processor capabilities of the driver
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateData* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hVideoProcessorEnum* [in]
 
 A handle to the driver's private data for the video processor enumeration object.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTVideoProcessorEnum* [in]
 

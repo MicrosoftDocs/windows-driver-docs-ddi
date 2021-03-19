@@ -56,7 +56,7 @@ Inserts a wait for the specified synchronization objects in the specified contex
 
 Handle to a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2](ns-d3d12umddi-d3d12ddicb_waitforsynchronizationobject2.md) structure.
 

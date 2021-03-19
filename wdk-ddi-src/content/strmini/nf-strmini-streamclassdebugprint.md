@@ -63,7 +63,7 @@ Specifies an enumeration of type **STREAM_DEBUG_LEVEL**. The debugger prints mes
 [in]
 Points to a NULL-terminated string containing the message to print to the application window and to the Debugger Command window.
 
-### -param param
+### -param ...
 
 #### - arguments
 

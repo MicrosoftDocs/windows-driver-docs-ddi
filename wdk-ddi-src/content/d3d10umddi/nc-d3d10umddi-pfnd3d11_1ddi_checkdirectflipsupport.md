@@ -49,19 +49,19 @@ Called by the Desktop Window Manager (DWM) to verify that the user-mode driver s
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource1*
 
 A resource in the application's swapchain.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hResource2*
 

@@ -51,7 +51,7 @@ Implemented by the client driver to submit a present blt to the hardware queue.
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to the [D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE](ns-d3dumddi-_d3dddicb_submitpresentblttohwqueue.md) structure that holds information on submitting a present blt to the hardware queue.
 

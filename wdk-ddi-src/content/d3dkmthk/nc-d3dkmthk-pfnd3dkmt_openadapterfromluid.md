@@ -48,7 +48,7 @@ Pfnd3dkmtOpenadapterfromluid maps a locally unique identifier (LUID) to a graphi
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENADAPTERFROMLUID](ns-d3dkmthk-_d3dkmt_openadapterfromluid.md) structure.
 

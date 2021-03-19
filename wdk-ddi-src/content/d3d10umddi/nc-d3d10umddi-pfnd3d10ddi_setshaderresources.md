@@ -51,7 +51,7 @@ The <b>CsSetShaderResources</b> function sets resources for a compute shader.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -65,7 +65,7 @@ A handle to the display device (graphics context).
 
 The total number of views to set.
 
-### -param Arg4
+### -param unnamedParam4
 
 *phShaderResourceViews* [in]
 

@@ -48,7 +48,7 @@ The Pfnd3dkmtGetcontextschedulingpriority retrieves the scheduling priority for 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETCONTEXTSCHEDULINGPRIORITY](ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority.md) structure.
 

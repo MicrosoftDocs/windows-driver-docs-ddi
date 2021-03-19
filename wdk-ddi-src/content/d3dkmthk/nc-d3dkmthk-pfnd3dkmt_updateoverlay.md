@@ -48,7 +48,7 @@ PFND3DKMT_UPDATEOVERLAY callback function modifies a kernel-mode overlay object.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_UPDATEOVERLAY](ns-d3dkmthk-_d3dkmt_updateoverlay.md) structure.
 

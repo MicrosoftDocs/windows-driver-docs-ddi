@@ -52,7 +52,7 @@ The <b>D3DKMTGetPresentHistory</b> function retrieves copying history.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

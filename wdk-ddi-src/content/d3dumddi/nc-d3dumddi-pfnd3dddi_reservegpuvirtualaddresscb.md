@@ -60,7 +60,7 @@ When the user mode driver chooses to let the video memory manager pick a base ad
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

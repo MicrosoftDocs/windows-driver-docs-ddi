@@ -49,7 +49,7 @@ The <b>pfnStateIaPrimitiveTopologyCb</b> function causes the Microsoft Direct3D 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

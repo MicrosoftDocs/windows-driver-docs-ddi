@@ -394,7 +394,7 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 
 ```
 
-### -param param
+### -param ...
 
 ####### - ...
 

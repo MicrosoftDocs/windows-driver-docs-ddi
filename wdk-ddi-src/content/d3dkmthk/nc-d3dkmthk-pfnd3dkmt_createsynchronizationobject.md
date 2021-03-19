@@ -48,7 +48,7 @@ The PFND3DKMT_CREATESYNCHRONIZATIONOBJECT callback function creates a synchroniz
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_CREATESYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_createsynchronizationobject.md) structure.
 

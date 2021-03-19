@@ -55,7 +55,7 @@ Called by the Desktop Window Manager (DWM) to verify that the user-mode driver s
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

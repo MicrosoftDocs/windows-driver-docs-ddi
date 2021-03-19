@@ -48,7 +48,7 @@ The PFND3DKMT_RESERVEGPUVIRTUALADDRESS callback function reserves an address ran
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DDDI_RESERVEGPUVIRTUALADDRESS](../d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md) structure.
 

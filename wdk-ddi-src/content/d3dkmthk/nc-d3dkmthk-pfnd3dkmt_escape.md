@@ -48,7 +48,7 @@ The Pfnd3dkmtEscape callback function shares info with the kernel mode display d
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_ESCAPE](ns-d3dkmthk-_d3dkmt_escape.md) structure.
 

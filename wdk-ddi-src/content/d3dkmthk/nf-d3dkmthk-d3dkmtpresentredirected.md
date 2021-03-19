@@ -48,7 +48,7 @@ Redirects the present command.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_PRESENT_REDIRECTED](ns-d3dkmthk-_d3dkmt_present_redirected.md) structure.
 

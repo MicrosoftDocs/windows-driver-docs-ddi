@@ -61,10 +61,11 @@ Determines how much debug information to display.
 
 A pointer to the debug message to display.
 
-### -param param
+### -param ...
 
 TBD
 
 ## -remarks
 
 The verbosity of debug output is determined by <i>DebugPrintLevel</i> and a port driver-specific mask. Use the <b>nt!kd_idep_mask</b> command to set the desired level of verbosity. For more information about the kernel debugger, see the <a href="/windows-hardware/drivers/devtest/using-a-debugger">Using a Debugger</a> topic
+

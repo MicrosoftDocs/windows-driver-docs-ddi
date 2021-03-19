@@ -48,7 +48,7 @@ The PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 callback function maps an NT process h
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2](ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2.md) structure.
 

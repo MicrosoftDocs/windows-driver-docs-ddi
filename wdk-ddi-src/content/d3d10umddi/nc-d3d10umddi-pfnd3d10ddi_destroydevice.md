@@ -49,7 +49,7 @@ The <b>DestroyDevice(D3D10)</b> function destroys the specified device object.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice*
 

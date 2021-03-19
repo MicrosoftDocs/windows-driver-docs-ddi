@@ -55,7 +55,7 @@ The <b>CaptureToSysMem</b> function copies the contents of a capture buffer to a
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 pData [in]
 

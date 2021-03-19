@@ -55,7 +55,7 @@ The <b>DestroyCryptoSession</b> function releases resources for the encryption s
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

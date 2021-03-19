@@ -55,7 +55,7 @@ When the driver chooses to let the video memory manager pick a base address for 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

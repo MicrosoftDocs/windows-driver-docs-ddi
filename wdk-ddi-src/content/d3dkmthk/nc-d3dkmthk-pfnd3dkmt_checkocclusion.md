@@ -49,7 +49,7 @@ The <b>D3DKMTCheckOcclusion</b> function verifies whether the client area of a w
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in]
 

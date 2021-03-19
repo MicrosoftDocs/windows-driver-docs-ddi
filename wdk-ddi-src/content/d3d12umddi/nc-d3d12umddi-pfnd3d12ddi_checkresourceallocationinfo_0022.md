@@ -49,19 +49,19 @@ The <i>pfnCheckResourceAllocationInfo</i> callback function supports checking re
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice*
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *CreateResource* [in]
 
 A pointer to a create resource.
 
-### -param Arg3
+### -param unnamedParam3
 
 *ResourceOptimizationFlags*
 
@@ -75,7 +75,7 @@ An alignment restriction value.
 
 A visible node mask.
 
-### -param Arg6
+### -param unnamedParam6
 
 *pInfo* [out]
 

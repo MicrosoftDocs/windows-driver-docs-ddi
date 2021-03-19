@@ -58,7 +58,7 @@ A handle to the display device to be handled in the runtime.
 
 A handle to the paging queue to be handled in the runtime.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a [D3DDDI_MAKERESIDENT](../d3dukmdt/ns-d3dukmdt-d3dddi_makeresident.md) structure.
 

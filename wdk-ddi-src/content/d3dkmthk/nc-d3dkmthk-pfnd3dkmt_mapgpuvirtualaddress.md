@@ -48,7 +48,7 @@ Pfnd3dkmtMapgpuvirtualaddress maps a graphics processing unit (GPU) virtual addr
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DDDI_MAPGPUVIRTUALADDRESS](../d3dukmdt/ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md) structure.
 

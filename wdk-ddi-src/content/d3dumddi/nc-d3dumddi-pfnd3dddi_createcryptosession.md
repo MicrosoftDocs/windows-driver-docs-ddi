@@ -55,7 +55,7 @@ The <b>CreateCryptoSession</b> function creates a crypto session that the Direct
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 pData [in, out]
 

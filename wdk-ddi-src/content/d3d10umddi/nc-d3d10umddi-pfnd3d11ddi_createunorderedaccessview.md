@@ -51,25 +51,25 @@ The <b>CreateUnorderedAccessView</b> function creates an unordered access view.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateUnorderedAccessView* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_createunorderedaccessview">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a> structure that describes the parameters that the user-mode display driver uses to create an unordered access view.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hUnorderedAccessView* [in]
 
 A handle to the driver's private data for the hull shader.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTUnorderedAccessView* [in]
 

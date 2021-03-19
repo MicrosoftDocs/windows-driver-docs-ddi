@@ -49,7 +49,7 @@ The client driver's implementation to initiate remote wake-up on the function co
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 #### - UfxDevice [in]
 

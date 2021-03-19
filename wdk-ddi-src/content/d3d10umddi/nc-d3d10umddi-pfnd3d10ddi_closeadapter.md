@@ -49,7 +49,7 @@ The <b>CloseAdapter(D3D10)</b> function releases resources for a graphics adapte
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hAdapter* [in]
 

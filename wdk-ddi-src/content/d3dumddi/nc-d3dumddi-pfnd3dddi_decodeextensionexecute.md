@@ -55,7 +55,7 @@ The <b>DecodeExtensionExecute</b> function performs a decode operation by using 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

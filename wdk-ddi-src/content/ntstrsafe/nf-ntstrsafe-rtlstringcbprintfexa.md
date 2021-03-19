@@ -143,7 +143,7 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 [in, optional]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-### -param param
+### -param ...
 
 <p>A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
 

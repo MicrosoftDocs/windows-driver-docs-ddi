@@ -55,7 +55,7 @@ The <i>SetTransform</i> function sets up a transform.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

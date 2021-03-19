@@ -49,7 +49,7 @@ Resets the tracked workload to its initial state and resets all the rolling stat
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] Pointer to a [D3DKMT_RESETTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_resettrackedworkload.md) structure.
 

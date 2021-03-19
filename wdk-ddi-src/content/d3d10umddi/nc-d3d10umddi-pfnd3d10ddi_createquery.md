@@ -51,25 +51,25 @@ The <b>CreateQuery(D3D10)</b> function creates a query.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateQuery* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createquery">D3D10DDIARG_CREATEQUERY</a> structure that describes the parameters that the user-mode display driver uses to create a query.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hQuery* [in]
 
 A handle to the driver's private data for the query.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTQuery* [in]
 

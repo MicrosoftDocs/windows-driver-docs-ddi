@@ -50,19 +50,19 @@ dev_langs:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 Thread group count in X direction.
 
-### -param Arg3
+### -param unnamedParam3
 
 Thread group count in Y direction.
 
-### -param Arg4
+### -param unnamedParam4
 
 Thread group count in Z direction.
 

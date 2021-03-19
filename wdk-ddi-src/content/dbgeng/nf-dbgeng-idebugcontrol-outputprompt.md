@@ -235,7 +235,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
-### -param param
+### -param ...
 
 ####### - ...
 

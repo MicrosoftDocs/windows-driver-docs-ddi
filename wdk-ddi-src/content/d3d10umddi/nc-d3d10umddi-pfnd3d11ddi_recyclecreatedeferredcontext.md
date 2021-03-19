@@ -51,13 +51,13 @@ The <i>RecycleCreateDeferredContext</i> function clears out the pipeline state f
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateDeferredContext* [in]
 

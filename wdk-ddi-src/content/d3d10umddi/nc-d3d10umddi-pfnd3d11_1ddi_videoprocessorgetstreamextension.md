@@ -49,37 +49,37 @@ Returns the private state data for a video processor stream to an application.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hVideoProcessor* [in]
 
 A handle to the video processor object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *StreamIndex* [in]
 
 The zero-based index of the input stream.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pGuid* [in]
 
 A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
-### -param Arg5
+### -param unnamedParam5
 
 *DataSize* [in]
 
 The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
-### -param Arg6
+### -param unnamedParam6
 
 *pData* [in, out]
 

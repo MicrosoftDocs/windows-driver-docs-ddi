@@ -53,7 +53,7 @@ api_name:
 
 <p>The variable argument list that contains a format string and a variable number of parameters.</p>
 
-### -param param
+### -param ...
 
 TBD
 
@@ -90,3 +90,4 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 
 <a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxlogeventwithbufferdirect">RxLogEventWithBufferDirect</a>
+

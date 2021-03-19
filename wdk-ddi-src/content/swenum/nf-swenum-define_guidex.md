@@ -46,7 +46,7 @@ product:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -remarks
 

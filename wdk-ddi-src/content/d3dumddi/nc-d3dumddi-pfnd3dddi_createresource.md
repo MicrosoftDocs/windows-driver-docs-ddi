@@ -55,7 +55,7 @@ The <b>CreateResource</b> function creates a resource.
 
 A handle to the display device (graphics context) that is used to create the resource.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pResource* [in, out]
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *D3dkmt_destroyprotectedsession* [in, out]
 

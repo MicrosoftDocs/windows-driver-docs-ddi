@@ -48,7 +48,7 @@ The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT callback function inserts a wait for 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_WAITFORSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject.md) structure.
 

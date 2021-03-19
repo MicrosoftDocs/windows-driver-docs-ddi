@@ -45,7 +45,7 @@ api_name:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

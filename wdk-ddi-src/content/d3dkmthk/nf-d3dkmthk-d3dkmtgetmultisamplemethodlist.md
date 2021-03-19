@@ -52,7 +52,7 @@ The <b>D3DKMTGetMultisampleMethodList</b> function retrieves a list of multiple-
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* 
 

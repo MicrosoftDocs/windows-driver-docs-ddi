@@ -55,7 +55,7 @@ The <b>pfnUpdateAllocationPropertyCb</b> functions updates the property of an al
 
 A handle to the display device associated with the allocation
 
-### -param Arg2
+### -param unnamedParam2
 
 *pUpdateAllocationProperty* [in, out]
 

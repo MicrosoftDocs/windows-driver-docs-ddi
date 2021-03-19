@@ -51,13 +51,13 @@ The <b>CalcPrivateDepthStencilViewSize(D3D11)</b> function determines the size o
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateDepthStencilView* [in]
 

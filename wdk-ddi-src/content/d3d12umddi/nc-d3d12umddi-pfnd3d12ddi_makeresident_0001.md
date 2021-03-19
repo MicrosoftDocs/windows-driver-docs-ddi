@@ -50,11 +50,11 @@ pfnMakeResident is used to instruct the OS to add a resource to the device resid
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a [D3D12DDIARG_MAKERESIDENT_0001](ns-d3d12umddi-d3d12ddiarg_makeresident_0001.md) structure that describes the memory pages to make resident.
 

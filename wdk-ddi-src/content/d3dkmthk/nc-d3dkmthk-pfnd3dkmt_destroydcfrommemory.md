@@ -48,7 +48,7 @@ The PFND3DKMT_DESTROYDCFROMMEMORY callback function destroys a device context fr
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROYDCFROMMEMORY](ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md) structure.
 

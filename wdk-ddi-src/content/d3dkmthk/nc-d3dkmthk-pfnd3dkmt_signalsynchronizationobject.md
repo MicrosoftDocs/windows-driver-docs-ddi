@@ -48,7 +48,7 @@ The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT callback function inserts a signal for
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SIGNALSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_signalsynchronizationobject.md) structure.
 

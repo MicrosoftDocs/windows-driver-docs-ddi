@@ -50,11 +50,11 @@ The PFND3D12DDI_CREATECOMMANDQUEUE_0001 callback function is used to create comm
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 The handle of a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Arguments used to create a command queue.
 

@@ -48,7 +48,7 @@ The Pfnd3dkmtFreegpuvirtualaddress callback function releases a range of graphic
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_FREEGPUVIRTUALADDRESS](ns-d3dkmthk-_d3dkmt_freegpuvirtualaddress.md) structure.
 

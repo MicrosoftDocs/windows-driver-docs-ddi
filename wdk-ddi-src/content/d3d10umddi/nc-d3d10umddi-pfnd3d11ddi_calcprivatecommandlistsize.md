@@ -51,13 +51,13 @@ The <b>CalcPrivateCommandListSize</b> function determines the size of the user-m
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateCommandList* [in]
 

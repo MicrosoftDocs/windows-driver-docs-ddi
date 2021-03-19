@@ -48,7 +48,7 @@ The PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME callback function opens an NT handl
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME](ns-d3dkmthk-_d3dkmt_opensyncobjectnthandlefromname.md) structure.
 

@@ -49,25 +49,25 @@ The <i>IaSetIndexBuffer</i> function sets an index buffer for an input assembler
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hBuffer* [in]
 
 A handle to the index buffer to set.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Format* [in]
 
 A DXGI_FORMAT-typed value that indicates the pixel format of the index buffer. Only the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats are valid; all other formats are invalid.
 
-### -param Arg4
+### -param unnamedParam4
 
 *Offset* [in]
 

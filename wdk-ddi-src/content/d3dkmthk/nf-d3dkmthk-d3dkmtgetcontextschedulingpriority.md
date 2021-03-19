@@ -52,7 +52,7 @@ The <b>D3DKMTGetContextSchedulingPriority</b> function retrieves the scheduling 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 
