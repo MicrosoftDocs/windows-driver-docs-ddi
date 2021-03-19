@@ -53,7 +53,7 @@ The <b>DebugExtensionUninitialize</b> callback function is called by the engine 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -remarks
 

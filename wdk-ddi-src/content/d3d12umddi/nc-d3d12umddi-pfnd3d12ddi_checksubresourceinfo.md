@@ -50,11 +50,11 @@ Check subresource info.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A resource handle.
 
@@ -62,7 +62,7 @@ A resource handle.
 
 The subresource index.
 
-### -param Arg4
+### -param unnamedParam4
 
 Pointer to a D3D12DDI_SUBRESOURCE_INFO.
 

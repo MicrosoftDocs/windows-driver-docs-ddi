@@ -55,7 +55,7 @@ The <i>Present</i> function notifies the user-mode display driver that an applic
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

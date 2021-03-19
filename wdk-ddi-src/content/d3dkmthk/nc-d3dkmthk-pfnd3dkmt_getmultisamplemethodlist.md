@@ -48,7 +48,7 @@ Pfnd3dkmtGetmultisamplemethodlist retrieves a list of multiple-sample methods th
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETMULTISAMPLEMETHODLIST](ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md) structure.
 

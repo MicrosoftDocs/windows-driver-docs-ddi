@@ -48,7 +48,7 @@ Pfnd3dkmtGetdisplaymodelist retrieves a list of available display modes, includi
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETDISPLAYMODELIST](ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md) structure.
 

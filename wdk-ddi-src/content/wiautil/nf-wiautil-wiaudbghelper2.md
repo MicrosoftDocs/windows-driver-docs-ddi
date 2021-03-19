@@ -61,7 +61,7 @@ Pointer to a string containing the name of the function or method into which the
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. The text should be prefixed with the full name of the method or function generating the message in the format of "class::method, message-text".
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 
@@ -86,3 +86,4 @@ wiauDbgHelper2("ERROR", "MyFunc", "Buffer size too small - %d bytes", BufSize);
 [wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
 [wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)
+

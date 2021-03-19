@@ -48,7 +48,7 @@ Pfnd3dkmtGetsharedresourceadapterluid maps a shared resource to a locally unique
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETSHAREDRESOURCEADAPTERLUID](ns-d3dkmthk-_d3dkmt_getsharedresourceadapterluid.md) structure.
 

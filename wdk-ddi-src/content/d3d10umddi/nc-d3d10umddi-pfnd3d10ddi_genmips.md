@@ -49,13 +49,13 @@ The <i>GenMips</i> function generates the lower MIP-map levels on the specified 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShaderResourceView* [in]
 

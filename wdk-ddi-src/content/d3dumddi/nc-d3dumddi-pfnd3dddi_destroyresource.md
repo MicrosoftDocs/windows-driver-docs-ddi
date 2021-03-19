@@ -55,7 +55,7 @@ The <b>DestroyResource</b> function releases a specified resource.
 
 A handle to the display device (graphics context) that is used to destroy the resource.
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 

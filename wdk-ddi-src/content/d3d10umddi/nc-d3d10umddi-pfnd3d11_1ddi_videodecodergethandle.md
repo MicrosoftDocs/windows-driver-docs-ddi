@@ -55,7 +55,7 @@ Returns the driver's handle for a video decoder that can be used by the applicat
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDecoder* [in]
 

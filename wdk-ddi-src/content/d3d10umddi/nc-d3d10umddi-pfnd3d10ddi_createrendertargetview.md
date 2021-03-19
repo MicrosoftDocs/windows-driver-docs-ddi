@@ -51,25 +51,25 @@ The <b>CreateRenderTargetView</b> function creates a render target view.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateRenderTargetView* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createrendertargetview">D3D10DDIARG_CREATERENDERTARGETVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a render target view.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hRenderTargetView* [in]
 
 A handle to the driver's private data for the render target view.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTRenderTargetView* [in]
 

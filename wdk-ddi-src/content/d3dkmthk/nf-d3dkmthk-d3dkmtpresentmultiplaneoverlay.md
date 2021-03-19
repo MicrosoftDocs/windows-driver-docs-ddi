@@ -49,7 +49,7 @@ Copies content from a source multiplane overlay allocation to a destination allo
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_In\_* *pPresent*
 

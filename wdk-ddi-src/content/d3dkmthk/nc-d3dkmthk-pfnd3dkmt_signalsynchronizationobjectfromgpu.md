@@ -48,7 +48,7 @@ The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU callback function is used to si
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU](ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromgpu.md) structure.
 

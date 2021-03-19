@@ -48,7 +48,7 @@ The Pfnd3dkmtFlushheaptransitions callback function flushes heap transitions.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_FLUSHHEAPTRANSITIONS](ns-d3dkmthk-_d3dkmt_flushheaptransitions.md) structure.
 

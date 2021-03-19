@@ -49,15 +49,15 @@ Calculates the geometry shader with stream output.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_CREATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a D3D12DDIARG_STAGE_IO_SIGNATURES structure.
 

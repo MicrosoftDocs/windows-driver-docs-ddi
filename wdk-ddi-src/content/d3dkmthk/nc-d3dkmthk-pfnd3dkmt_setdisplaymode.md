@@ -48,7 +48,7 @@ The PFND3DKMT_SETDISPLAYMODE callback function sets the allocation that is used 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETDISPLAYMODE](ns-d3dkmthk-_d3dkmt_setdisplaymode.md) structure.
 

@@ -49,7 +49,7 @@ The <b>D3DKMTCreateAllocation</b> function creates allocations of system or vide
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

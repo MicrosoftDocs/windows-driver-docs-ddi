@@ -52,7 +52,7 @@ The <b>D3DKMTCreateSynchronizationObject</b> function creates a kernel-mode sync
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

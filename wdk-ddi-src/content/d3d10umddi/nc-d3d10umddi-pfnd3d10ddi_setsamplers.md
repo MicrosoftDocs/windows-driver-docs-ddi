@@ -51,7 +51,7 @@ The <b>CsSetSamplers</b> function sets samplers for a compute shader.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -67,7 +67,7 @@ The offset to the first sampler to set.
 
 [in] The total number of samplers to set.
 
-### -param Arg4
+### -param unnamedParam4
 
 *phSamplers* [in]
 

@@ -50,9 +50,9 @@ Calculates the size of the descriptor heap.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 ## -returns
 

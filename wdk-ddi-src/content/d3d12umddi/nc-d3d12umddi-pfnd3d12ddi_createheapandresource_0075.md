@@ -49,35 +49,35 @@ api_name:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in, optional] D3D12DDIARG_CREATEHEAP_0001 arguments used to create a heap.
 
-### -param Arg3
+### -param unnamedParam3
 
 Handle used to create a heap.
 
-### -param Arg4
+### -param unnamedParam4
 
 Handle used to create a resource.
 
-### -param Arg5
+### -param unnamedParam5
 
 [in, optional] Pointer to a [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md) structure with arguments used to create a resource.
 
-### -param Arg6
+### -param unnamedParam6
 
 [in, optional] Pointer to a [**D3D12DDI_CLEAR_VALUES**](ns-d3d12umddi-d3d12ddi_clear_values.md) structure with values used to optimize clear operations for the resource.
 
-### -param Arg7
+### -param unnamedParam7
 
 The protected resource session to use for the heap/resource being created. Zero indicates unprotected resources.
 
-### -param Arg8
+### -param unnamedParam8
 
 The hardware resource.
 

@@ -64,7 +64,7 @@ NTSTATUS Pfnd3dkmtCreateswapchain
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_CREATESWAPCHAIN](ns-d3dkmthk-_d3dkmt_createswapchain.md) structure.
 

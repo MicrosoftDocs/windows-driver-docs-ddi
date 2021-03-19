@@ -55,7 +55,7 @@ The <i>SetViewport</i> function informs guard-band-aware drivers of the view-cli
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

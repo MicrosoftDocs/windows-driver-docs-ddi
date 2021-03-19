@@ -49,31 +49,31 @@ The **ClearDepthStencilView** function clears the specified currently bound dept
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDepthStencilView* [in]
 
 A handle to the depth-stencil view to clear.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Stencil* [in]
 
 An unsigned 8-bit integer value to set the stencil to.
 
-### -param Arg4
+### -param unnamedParam4
 
 *Depth* [in]
 
 A single-precision float vector to set the depth to.
 
-### -param Arg5
+### -param unnamedParam5
 
 *Flags* [in]
 

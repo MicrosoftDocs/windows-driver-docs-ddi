@@ -52,7 +52,7 @@ SubmitPresentToHwQueue submits a Blt Present operation to a hardware queue.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in,out] Pointer to a [D3DKMT_SUBMITPRESENTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitpresenttohwqueue.md) structure.
 

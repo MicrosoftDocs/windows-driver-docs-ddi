@@ -54,7 +54,7 @@ Used to simultaneously create a heap and resource.
 
 A handle to the display device (graphics context).
 
-### -param Arg2 
+### -param unnamedParam2 
 
 Arguments used to create a heap.
 
@@ -66,11 +66,11 @@ A handle to a heap.
 
 The handle of the resource for the driver to use when it calls back into the runtime.
 
-### -param Arg5 
+### -param unnamedParam5 
 
 Arguments used to create a resource.
 
-### -param Arg6
+### -param unnamedParam6
 
 Used to clear the values of the resource.
 

@@ -49,11 +49,11 @@ Used in the creation of a pass.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to the D3D12DDIARG_CREATE_PASS structure that contains arguments used to create a pass.
 

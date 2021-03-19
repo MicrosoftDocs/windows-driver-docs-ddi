@@ -48,7 +48,7 @@ Pfnd3dkmtOpenkeyedmutex opens a keyed mutex object that includes private data.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_openkeyedmutex.md) structure.
 

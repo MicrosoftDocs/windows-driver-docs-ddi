@@ -48,7 +48,7 @@ The PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA callback function gets output duplic
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA](ns-d3dkmthk-_d3dkmt_outputdupl_get_pointer_shape_data.md) structure.
 

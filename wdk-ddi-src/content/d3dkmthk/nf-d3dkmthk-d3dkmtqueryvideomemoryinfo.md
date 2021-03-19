@@ -49,7 +49,7 @@ Queries for video memory info.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYVIDEOMEMORYINFO](ns-d3dkmthk-_d3dkmt_queryvideomemoryinfo.md) structure.
 

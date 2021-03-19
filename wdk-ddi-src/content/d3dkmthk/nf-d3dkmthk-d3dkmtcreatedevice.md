@@ -49,7 +49,7 @@ The <b>D3DKMTCreateDevice</b> function creates a kernel-mode device context.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

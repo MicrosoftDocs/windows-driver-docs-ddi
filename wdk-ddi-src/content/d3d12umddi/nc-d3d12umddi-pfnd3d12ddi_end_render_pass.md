@@ -48,7 +48,7 @@ Implemented by the client driver to end a Render Pass.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 

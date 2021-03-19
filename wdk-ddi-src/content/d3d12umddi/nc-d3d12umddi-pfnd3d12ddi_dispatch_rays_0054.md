@@ -50,11 +50,11 @@ Launch threads of a ray generation shader.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to the [D3D12DDIARG_DISPATCH_RAYS_0054](ns-d3d12umddi-d3d12ddiarg_dispatch_rays_0054.md) structure.
 

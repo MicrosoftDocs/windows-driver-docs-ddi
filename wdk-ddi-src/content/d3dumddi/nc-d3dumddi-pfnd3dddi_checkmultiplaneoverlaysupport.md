@@ -55,7 +55,7 @@ Called by the Microsoft Direct3D runtime to check the details on hardware suppor
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pSupport* [in, out]
 

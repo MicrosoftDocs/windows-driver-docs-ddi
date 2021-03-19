@@ -50,11 +50,11 @@ Implemented by the client driver to retrieve shader comment.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to a pipeline state.
 

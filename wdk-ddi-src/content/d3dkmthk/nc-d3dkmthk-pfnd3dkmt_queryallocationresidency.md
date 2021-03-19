@@ -48,7 +48,7 @@ The PFND3DKMT_QUERYALLOCATIONRESIDENCY callback function retrieves the residency
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYALLOCATIONRESIDENCY](ns-d3dkmthk-_d3dkmt_queryallocationresidency.md) structure.
 

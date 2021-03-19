@@ -55,7 +55,7 @@ The <i>SetPalette</i> function associates a palette with a texture.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

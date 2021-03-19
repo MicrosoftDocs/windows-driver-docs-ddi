@@ -53,13 +53,13 @@ Called by the Microsoft Direct3D runtime to retrieve info that describes a count
 
 [in] A handle to the display device (graphics context).
 
-### -param Arg1
+### -param unnamedParam1
 
 *Counter* [in]
 
 A value of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pType* [out]
 
@@ -72,13 +72,13 @@ A pointer to a variable that receives one of the following values from the <b>D3
 |D3DDDI_COUNTER_TYPE_UINT32|32-bit value|
 |D3DDDI_COUNTER_TYPE_UINT64|64-bit value|
 
-### -param Arg3
+### -param unnamedParam3
 
 *pActiveCounters* [out]
 
 A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pszName* [out, optional]
 
@@ -99,7 +99,7 @@ Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i>
 <li>If both <i>pszName</i> and <i>pNameLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pNameLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszName</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pNameLength</i> parameter.</li>
 </ul>
 
-### -param Arg6
+### -param unnamedParam6
 
 *pszUnits* [out, optional]
 
@@ -120,7 +120,7 @@ Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</
 <li>If both <i>pszUnits</i> and <i>pUnitsLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pUnitsLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszUnits</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pUnitsLength</i> parameter.</li>
 </ul>
 
-### -param Arg8
+### -param unnamedParam8
 
 *pszDescription* [out, optional]
 

@@ -55,7 +55,7 @@ The <b>pfnDestroyContextCb</b> function destroys the context that was created th
 
 A handle to a display device (that is, the graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

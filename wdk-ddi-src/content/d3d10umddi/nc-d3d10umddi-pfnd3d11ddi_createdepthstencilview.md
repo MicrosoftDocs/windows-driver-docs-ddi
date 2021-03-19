@@ -51,25 +51,25 @@ The <b>CreateDepthStencilView(D3D11)</b> function creates a depth-stencil view.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateDepthStencilView* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_createdepthstencilview">D3D11DDIARG_CREATEDEPTHSTENCILVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a depth-stencil view.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hDepthStencilView* [in]
 
 A handle to the driver's private data for the depth stencil view.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTDepthStencilView* [in]
 

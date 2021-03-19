@@ -48,7 +48,7 @@ The PFND3DKMT_REGISTERTRIMNOTIFICATION callback function registers trim notifica
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_REGISTERTRIMNOTIFICATION](ns-d3dkmthk-_d3dkmt_registertrimnotification.md) structure.
 

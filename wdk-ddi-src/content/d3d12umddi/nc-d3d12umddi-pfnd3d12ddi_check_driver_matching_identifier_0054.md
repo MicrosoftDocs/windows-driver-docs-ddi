@@ -50,15 +50,15 @@ Checks the serialized driver identifier to see if it matches the specified devic
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Specifies the type of serialized data.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a [D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054](ns-d3d12umddi-d3d12ddi_serialized_data_driver_matching_identifier_0054.md) structure.
 

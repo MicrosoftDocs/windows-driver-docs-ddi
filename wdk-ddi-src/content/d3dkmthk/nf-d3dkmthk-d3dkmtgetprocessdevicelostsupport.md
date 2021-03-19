@@ -56,7 +56,7 @@ req.typenames:
 
 
 
-### -param Arg1
+### -param unnamedParam1
 
 *D3dkmt_getprocessdevicelostsupport* [in, out]
 

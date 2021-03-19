@@ -56,7 +56,7 @@ Creates a GPU synchronization object that a device context can signal and wait f
 
 A handle to the display device (that is, the graphics context) that will own the synchronization object that pfnCreateSynchronizationObject2Cb creates.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2 structure that describes the synchronization object to create.
 

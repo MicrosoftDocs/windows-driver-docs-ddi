@@ -48,11 +48,11 @@ SetPipelineStackSize sets the current pipeline stack size.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the state object.
 
-### -param Arg2
+### -param unnamedParam2
 
 Stack size in bytes to use during pipeline execution for each shader thread (of which there can be many thousands in flight on the GPU).
 

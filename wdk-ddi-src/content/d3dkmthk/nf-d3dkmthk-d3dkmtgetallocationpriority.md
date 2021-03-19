@@ -49,7 +49,7 @@ Gets allocation priority.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETALLOCATIONPRIORITY](ns-d3dkmthk-_d3dkmt_getallocationpriority.md) structure.
 

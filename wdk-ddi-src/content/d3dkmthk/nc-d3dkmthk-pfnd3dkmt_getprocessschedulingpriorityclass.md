@@ -48,7 +48,7 @@ Pfnd3dkmtGetprocessschedulingpriorityclass retrieves the scheduling priority for
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to a display device.
 

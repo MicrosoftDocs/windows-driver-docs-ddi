@@ -51,9 +51,9 @@ The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stre
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDevice* [in]
 

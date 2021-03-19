@@ -55,7 +55,7 @@ The <b>DrawPrimitive2</b> function draws nonindexed primitives in which the Micr
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

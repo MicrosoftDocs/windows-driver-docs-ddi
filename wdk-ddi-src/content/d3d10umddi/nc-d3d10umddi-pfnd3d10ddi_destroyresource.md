@@ -49,13 +49,13 @@ The <b>DestroyResource(D3D10)</b> function destroys the specified resource objec
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 

@@ -59,7 +59,7 @@ Contains a value between 0 and 3 that specifies the amount of verbosity. A value
 
 Pointer to the message to be printed.
 
-### -param param
+### -param ...
 
 TBD
 
@@ -128,3 +128,4 @@ To view the message pointed to by <i>DebugMessage </i>from the kernel debugger, 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex">DbgPrintEx</a>
+

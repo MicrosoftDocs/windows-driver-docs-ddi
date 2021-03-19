@@ -51,7 +51,7 @@ The <b>CheckDeferredContextHandleSizes</b> function verifies the sizes of the dr
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -61,7 +61,7 @@ A handle to the display device (graphics context).
 
 The size, in bytes, of the array pointed to by <i>pHandleSize</i>.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pHandleSize* [out, optional]
 

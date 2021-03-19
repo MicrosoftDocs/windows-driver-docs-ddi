@@ -49,7 +49,7 @@ The <b>D3DKMTConfigureSharedResource</b> function configures a shared resource.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in]
 

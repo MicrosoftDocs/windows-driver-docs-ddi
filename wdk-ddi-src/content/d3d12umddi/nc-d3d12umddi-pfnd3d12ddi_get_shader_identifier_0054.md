@@ -48,7 +48,7 @@ Retrieves the unique identifier for a shader that can be used in a shader record
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to a state object. The state object can be a collection or a ray tracing pipeline state object.
 

@@ -54,7 +54,7 @@ Creates a hardware queue associated with a command queue.
 
 The handle of the command queue for the driver to use when it calls back into the runtime.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3DDDICB_CREATEHWQUEUE](../d3dumddi/ns-d3dumddi-_d3dddicb_createhwqueue.md) structure that contains information needed to create a hardware queue.
 

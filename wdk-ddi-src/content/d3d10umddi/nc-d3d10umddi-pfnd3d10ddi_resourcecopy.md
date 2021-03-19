@@ -49,19 +49,19 @@ The <i>ResourceCopy</i> function copies an entire source resource to a destinati
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDstResource* [in]
 
 A handle to the destination resource to copy to.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hSrcResource* [in]
 

@@ -48,7 +48,7 @@ Trim notification.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_TRIMNOTIFICATION](ns-d3dkmthk-_d3dkmt_trimnotification.md) structure.
 

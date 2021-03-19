@@ -49,7 +49,7 @@ The <b>pfnStateIaInputLayoutCb</b> function causes the Microsoft Direct3D 10 run
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

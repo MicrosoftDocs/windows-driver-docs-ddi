@@ -55,7 +55,7 @@ The <i>QueryAuthenticatedChannel</i> function queries an authenticated channel f
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

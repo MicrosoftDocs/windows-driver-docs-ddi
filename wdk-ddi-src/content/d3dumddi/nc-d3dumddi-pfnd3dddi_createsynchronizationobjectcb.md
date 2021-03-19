@@ -55,7 +55,7 @@ The <b>pfnCreateSynchronizationObjectCb</b> function creates a synchronization o
 
 A handle to the display device (that is, the graphics context) that will own the synchronization object that <b>pfnCreateSynchronizationObjectCb</b> creates.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

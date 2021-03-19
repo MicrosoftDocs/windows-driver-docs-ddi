@@ -50,11 +50,11 @@ The CalcPrivateCommandListSize function determines the size of the user-mode dis
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a D3D11DDIARG_CREATECOMMANDLIST structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 

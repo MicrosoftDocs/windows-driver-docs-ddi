@@ -58,7 +58,7 @@ Determines whether the string is printed or not. If this parameter has a value l
 
 Pointer to the string to be printed.
 
-### -param param
+### -param ...
 
 TBD
 

@@ -55,7 +55,7 @@ The <b>ColorFill</b> function fills a rectangle on the surface with a particular
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

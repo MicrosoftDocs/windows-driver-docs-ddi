@@ -48,7 +48,7 @@ The PFND3DKMT_QUERYPROCESSOFFERINFO callback function queries the process offer 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYPROCESSOFFERINFO](ns-d3dkmthk-_d3dkmt_queryprocessofferinfo.md) structure.
 

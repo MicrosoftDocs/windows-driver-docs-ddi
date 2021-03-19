@@ -48,11 +48,11 @@ Sets the root signature.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to a command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to a root signature.
 

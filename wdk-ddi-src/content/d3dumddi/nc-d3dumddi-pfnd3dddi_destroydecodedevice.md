@@ -55,7 +55,7 @@ The <b>DestroyDecodeDevice</b> function releases resources for a Microsoft Direc
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDecodeDevice* [in]
 

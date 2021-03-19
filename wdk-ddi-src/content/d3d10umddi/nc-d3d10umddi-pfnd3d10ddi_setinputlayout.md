@@ -49,13 +49,13 @@ The <i>IaSetInputLayout</i> function sets an input layout for the input assemble
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hInputLayout* [in]
 

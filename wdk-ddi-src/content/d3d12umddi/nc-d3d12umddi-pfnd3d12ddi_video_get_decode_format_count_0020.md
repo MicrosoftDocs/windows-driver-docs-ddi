@@ -54,7 +54,7 @@ The <i>pfnGetDecodeFormatCount</i> callback function retrieves the number of for
 
 
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 The physical adapter of the device to which this operation applies.
 
 
-### -param Arg3
+### -param unnamedParam3
 
 *pConfiguration*
 

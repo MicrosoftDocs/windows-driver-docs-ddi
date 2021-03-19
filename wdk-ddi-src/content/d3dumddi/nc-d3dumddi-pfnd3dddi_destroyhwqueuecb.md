@@ -55,7 +55,7 @@ A callback to destroy a hardware queue.
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *destroyHwQueue* [in]
 

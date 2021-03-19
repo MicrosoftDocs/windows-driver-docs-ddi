@@ -55,7 +55,7 @@ The <b>pfnRenderCb</b> function submits the current command buffer for rendering
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

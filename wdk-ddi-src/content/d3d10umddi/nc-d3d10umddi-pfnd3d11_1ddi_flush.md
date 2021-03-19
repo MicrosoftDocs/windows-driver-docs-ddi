@@ -51,7 +51,7 @@ Submits outstanding hardware commands that are in the hardware command buffer to
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 

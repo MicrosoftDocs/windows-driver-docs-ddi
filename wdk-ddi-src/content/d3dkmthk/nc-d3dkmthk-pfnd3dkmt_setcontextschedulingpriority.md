@@ -48,7 +48,7 @@ The PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY callback function sets the scheduling
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETCONTEXTSCHEDULINGPRIORITY](ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md) structure.
 

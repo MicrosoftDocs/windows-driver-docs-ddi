@@ -48,7 +48,7 @@ The PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function unpins direct flip reso
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_In\_* *pResources*
 

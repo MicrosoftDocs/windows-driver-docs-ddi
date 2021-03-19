@@ -48,7 +48,7 @@ The PFND3DKMT_SETGAMMARAMP callback function sets the gamma ramp.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETGAMMARAMP](ns-d3dkmthk-_d3dkmt_setgammaramp.md) structure.
 

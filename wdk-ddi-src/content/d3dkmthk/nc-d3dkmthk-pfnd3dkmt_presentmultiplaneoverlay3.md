@@ -48,7 +48,7 @@ The PFND3DKMT_PRESENTMULTIPLANEOVERLAY3 callback function copies content from a 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [[D3DKMT_PRESENT_MULTIPLANE_OVERLAY3](ns-d3dkmthk-_d3dkmt_present_multiplane_overlay3.md)]() structure.
 

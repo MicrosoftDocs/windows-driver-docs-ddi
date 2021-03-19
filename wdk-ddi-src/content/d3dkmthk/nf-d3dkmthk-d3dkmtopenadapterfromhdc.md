@@ -52,7 +52,7 @@ The <b>D3DKMTOpenAdapterFromHdc</b> function maps a device context handle (HDC) 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

@@ -47,11 +47,11 @@ Implemented by the client driver to reset a command list back to its initial sta
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to the D3D12DDIARG_RESETCOMMANDLIST_0040 structure that contains arguments to reset the command list.
 

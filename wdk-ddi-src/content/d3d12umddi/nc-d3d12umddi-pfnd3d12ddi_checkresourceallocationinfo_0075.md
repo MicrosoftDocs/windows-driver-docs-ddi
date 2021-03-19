@@ -48,15 +48,15 @@ The **PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075** callback function supports 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] Pointer to a [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md) structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 Resource optimization flags.
 
@@ -68,7 +68,7 @@ An alignment restriction value.
 
 A visible node mask.
 
-### -param Arg6
+### -param unnamedParam6
 
 [out] Pointer to a [**D3D12DDI_RESOURCE_ALLOCATION_INFO_0022**](ns-d3d12umddi-d3d12ddi_resource_allocation_info_0022.md) structure containing information for resource allocation.
 

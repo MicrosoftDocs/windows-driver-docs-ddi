@@ -55,7 +55,7 @@ The <i>SetOverlayColorControls</i> function changes color-control settings for t
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

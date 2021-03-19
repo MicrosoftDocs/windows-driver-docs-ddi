@@ -49,7 +49,7 @@ The <b>pfnStateOmDepthStateCb</b> function causes the Microsoft Direct3D 10 runt
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

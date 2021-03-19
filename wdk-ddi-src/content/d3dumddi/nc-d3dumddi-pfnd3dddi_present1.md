@@ -55,7 +55,7 @@ Notifies the user-mode display driver that an application finished rendering and
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pPresentData* [in]
 

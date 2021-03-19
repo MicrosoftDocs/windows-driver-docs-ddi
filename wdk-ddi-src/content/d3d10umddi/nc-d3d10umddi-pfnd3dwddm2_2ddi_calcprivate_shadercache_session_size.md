@@ -49,7 +49,7 @@ The <i>pfnCalcPrivateShaderCacheSessionSize</i> callback function returns the si
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice*
 

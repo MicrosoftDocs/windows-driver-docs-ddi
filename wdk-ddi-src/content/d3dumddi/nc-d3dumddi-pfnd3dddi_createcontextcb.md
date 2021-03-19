@@ -54,7 +54,7 @@ The PFND3DDDI_CREATECONTEXTCB callback function creates a context.
 
 A handle to the graphics context device.
 
-### -param Arg2
+### -param unnamedParam2
 
 ## -returns
 

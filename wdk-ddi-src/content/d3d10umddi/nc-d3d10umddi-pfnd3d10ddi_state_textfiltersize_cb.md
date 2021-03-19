@@ -49,7 +49,7 @@ The <b>pfnStateTextFilterSizeCb</b> function causes the Microsoft Direct3D 10 ru
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

@@ -64,7 +64,7 @@ Pointer to an <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identif
 [in]
 Number of sub-authorities to set in the SID.
 
-### -param param
+### -param ...
 
 <p>The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.</p>
 
@@ -123,3 +123,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>
+

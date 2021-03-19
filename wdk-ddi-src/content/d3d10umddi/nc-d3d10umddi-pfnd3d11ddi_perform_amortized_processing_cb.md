@@ -49,7 +49,7 @@ The <b>pfnPerformAmortizedProcessingCb</b> function performs amortized processin
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

@@ -48,7 +48,7 @@ Pfnd3dkmtInvalidateactivevidpn invalidates the active video present network (Vid
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_INVALIDATEACTIVEVIDPN](ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md) structure.
 

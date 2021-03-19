@@ -50,7 +50,7 @@ Create a tessellation shader.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
@@ -58,19 +58,19 @@ A handle to the display device (graphics context).
 
 Pointer to a shader code.
 
-### -param Arg3
+### -param unnamedParam3
 
 A root signature handle.
 
-### -param Arg4
+### -param unnamedParam4
 
 A shader handle.
 
-### -param Arg5
+### -param unnamedParam5
 
 Pointer to a D3D12DDIARG_TESSELLATION_IO_SIGNATURES structure.
 
-### -param Arg6
+### -param unnamedParam6
 
 Flags to create a shader.
 

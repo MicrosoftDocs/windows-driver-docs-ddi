@@ -63,7 +63,7 @@ Pointer to a string containing the name of the function or method into which the
 
 ### -param fmt
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 
@@ -76,3 +76,4 @@ If message logging to log file, or debugger, or both is enabled and the particul
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgsetflags">wiauDbgSetFlags</a>
+

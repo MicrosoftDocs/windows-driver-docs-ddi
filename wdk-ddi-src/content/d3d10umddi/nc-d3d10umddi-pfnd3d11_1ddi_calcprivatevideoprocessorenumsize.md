@@ -51,13 +51,13 @@ Returns the number of bytes that the driver requires to store private data for t
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pProcessorEnum* [in]
 

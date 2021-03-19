@@ -48,7 +48,7 @@ The PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP callback function queries for VidPn e
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP](ns-d3dkmthk-_d3dkmt_queryvidpnexclusiveownership.md) structure.
 

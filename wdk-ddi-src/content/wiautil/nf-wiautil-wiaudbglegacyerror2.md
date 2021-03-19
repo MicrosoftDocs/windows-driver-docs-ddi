@@ -56,7 +56,7 @@ Specifies the handle to the DLL instance.
 
 ### -param fmt
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 

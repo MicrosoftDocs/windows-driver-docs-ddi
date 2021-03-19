@@ -48,7 +48,7 @@ The PFND3DKMT_ADJUSTFULLSCREENGAMMA callback function adjusts to full screen gam
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] Pointer to a [D3DKMT_ADJUSTFULLSCREENGAMMA](ns-d3dkmthk-_d3dkmt_adjustfullscreengamma.md) structure.
 

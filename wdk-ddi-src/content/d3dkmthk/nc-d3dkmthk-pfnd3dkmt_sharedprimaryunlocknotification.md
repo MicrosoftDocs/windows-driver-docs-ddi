@@ -48,7 +48,7 @@ The PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION callback function notifies the ope
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION](ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md) structure.
 

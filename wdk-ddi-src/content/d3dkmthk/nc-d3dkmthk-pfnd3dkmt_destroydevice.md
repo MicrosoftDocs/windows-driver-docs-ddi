@@ -48,7 +48,7 @@ The PFND3DKMT_DESTROYDEVICE callback function destroys a graphics context device
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A pointer to a [D3DKMT_DESTROYDEVICE](ns-d3dkmthk-_d3dkmt_destroydevice.md) structure.
 

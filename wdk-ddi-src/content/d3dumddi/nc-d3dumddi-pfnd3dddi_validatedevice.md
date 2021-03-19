@@ -55,7 +55,7 @@ The <i>ValidateDevice</i> function returns the number of passes in which the har
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

@@ -54,13 +54,13 @@ The <i>UpdatePalette</i> function updates a texture palette.
 [in]
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_updatepalette">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pPaletteData* [in]
 

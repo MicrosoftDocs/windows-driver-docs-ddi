@@ -54,7 +54,7 @@ pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Pres
 
 A handle to a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3DDDICB_SUBMITPRESENTTOHWQUEUE](ns-d3dumddi-_d3dddicb_submitpresenttohwqueue.md) structure.
 

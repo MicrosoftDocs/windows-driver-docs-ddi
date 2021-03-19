@@ -55,7 +55,7 @@ The <i>SetStreamSource</i> function binds a portion of a vertex stream source to
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

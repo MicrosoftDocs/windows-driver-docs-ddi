@@ -48,7 +48,7 @@ Pfnd3dkmtGetresourcepresentprivatedriverdata queries the resource private data, 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA](../d3dukmdt/ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata.md) structure.
 

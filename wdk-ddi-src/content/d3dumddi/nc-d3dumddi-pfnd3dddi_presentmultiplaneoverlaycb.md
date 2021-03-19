@@ -55,7 +55,7 @@ Copies content from a source multiplane overlay allocation to a destination allo
 
 A handle to a display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pPresent* [in]
 

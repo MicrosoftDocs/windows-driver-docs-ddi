@@ -52,7 +52,7 @@ The <b>D3DKMTLock</b> function locks an entire allocation or specific pages with
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

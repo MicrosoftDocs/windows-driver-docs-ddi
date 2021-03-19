@@ -42,14 +42,20 @@ product:
 
 # Trace function
 
+
 ## -description
 
 ## -parameters
 
 ### -param Format
 
+### -param ...
+
+Additional Parameters.
+
 ## -param
 
 ## -remarks
 
 ## -see-also
+

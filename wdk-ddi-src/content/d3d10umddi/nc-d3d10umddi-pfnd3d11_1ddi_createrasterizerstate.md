@@ -51,25 +51,25 @@ Creates a rasterizer state.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pRasterizerDesc* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1_ddi_rasterizer_desc">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hRasterizerState* [in]
 
 A handle to the driver's private data for the rasterizer state.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTRasterizerState*
 

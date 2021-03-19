@@ -55,7 +55,7 @@ The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

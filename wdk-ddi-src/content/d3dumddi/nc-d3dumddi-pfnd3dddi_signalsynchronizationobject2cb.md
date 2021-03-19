@@ -55,7 +55,7 @@ Inserts a signal on the specified synchronization objects in the specified conte
 
 A handle to a display device (that is, the graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

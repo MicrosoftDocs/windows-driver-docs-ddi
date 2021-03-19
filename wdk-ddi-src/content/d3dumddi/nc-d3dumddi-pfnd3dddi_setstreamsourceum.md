@@ -54,13 +54,13 @@ The <i>SetStreamSourceUM</i> function binds a vertex stream source to a user mem
 [in]
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_setstreamsourceum">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pUMBuffer* [in]
 

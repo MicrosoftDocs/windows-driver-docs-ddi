@@ -57,7 +57,7 @@ The <b>pfnDeallocate2Cb</b> user mode callback function releases allocations for
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

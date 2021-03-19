@@ -48,7 +48,7 @@ The PFND3DKMT_OPENSYNCHRONIZATIONOBJECT callback function opens a kernel-mode sy
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_opensynchronizationobject.md) structure.
 

@@ -55,7 +55,7 @@ The <i>SetZRange</i> function informs the driver about the range of z values.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

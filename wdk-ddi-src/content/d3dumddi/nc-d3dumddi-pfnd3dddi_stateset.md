@@ -55,7 +55,7 @@ The <i>StateSet</i> function sets a state block.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

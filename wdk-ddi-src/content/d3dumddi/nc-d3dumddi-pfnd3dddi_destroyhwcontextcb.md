@@ -55,7 +55,7 @@ A callback to destroy a hardware context.
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *destroyHwContext* [in]
 

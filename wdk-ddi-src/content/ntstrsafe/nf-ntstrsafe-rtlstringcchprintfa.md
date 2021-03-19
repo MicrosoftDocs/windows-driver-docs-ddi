@@ -65,7 +65,7 @@ The size of the destination buffer, in characters. The buffer must be large enou
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
 
-### -param param
+### -param ...
 
 <p>A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
 

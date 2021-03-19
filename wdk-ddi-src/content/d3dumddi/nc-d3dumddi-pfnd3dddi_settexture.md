@@ -55,13 +55,13 @@ The <i>SetTexture</i> function inserts a texture at a particular stage in a mult
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hTexture* [in]
 
 A handle to the texture to insert.
 
-### -param Arg3
+### -param unnamedParam3
 
 ## -returns
 

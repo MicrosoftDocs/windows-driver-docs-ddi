@@ -54,11 +54,11 @@ Calculate private heap and resources.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_CREATEHEAP_0001 structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a D3D12DDIARG_CREATERESOURCE_0003 structure.
 

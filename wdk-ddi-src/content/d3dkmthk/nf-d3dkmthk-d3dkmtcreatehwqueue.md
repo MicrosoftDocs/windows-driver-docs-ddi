@@ -49,7 +49,7 @@ Used to create a new hardware queue.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *createHwQueue* [in, out]
 

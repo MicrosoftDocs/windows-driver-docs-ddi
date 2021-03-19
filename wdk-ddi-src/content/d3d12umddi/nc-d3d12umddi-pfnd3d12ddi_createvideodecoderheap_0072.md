@@ -54,7 +54,7 @@ product:
 
 Handle to the hardware device being processed.
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] Pointer to a [**D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_decoder_heap_0072.md) structure with the arguments used to create a video decoder heap.
 

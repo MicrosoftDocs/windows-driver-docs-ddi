@@ -48,7 +48,7 @@ The PFND3DKMT_PINDIRECTFLIPRESOURCES callback function pins direct flip resource
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_In\_* *pResources*
 

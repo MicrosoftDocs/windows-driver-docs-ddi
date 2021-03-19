@@ -55,7 +55,7 @@ The <b>BufBlt</b> function performs a bit-block transfer (bitblt) operation from
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

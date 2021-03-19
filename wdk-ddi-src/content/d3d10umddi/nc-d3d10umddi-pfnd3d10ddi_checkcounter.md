@@ -49,19 +49,19 @@ The <b>CheckCounter</b> function retrieves information that describes a counter.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *Query* [in]
 
 A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10ddi_query">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pCounterType* [out]
 
@@ -74,13 +74,13 @@ A pointer to a variable that receives one of the following values from the D3D10
 |D3D10DDI_COUNTER_TYPE_UINT32|32-bit value|
 |D3D10DDI_COUNTER_TYPE_UINT64|64-bit value|
 
-### -param Arg4
+### -param unnamedParam4
 
 *pDescription* [out]
 
 A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures.
 
-### -param Arg5
+### -param unnamedParam5
 
 *pActiveCounters* [out]
 
@@ -91,7 +91,7 @@ A pointer to a variable that receives the number of simultaneously active counte
 [in, out]
 A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pName</i> parameter specifies.
 
-### -param Arg7
+### -param unnamedParam7
 
 *pName* [out]
 
@@ -102,7 +102,7 @@ A pointer that the driver returns a NULL-terminated string to that contains the 
 [in, out]
 A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies.
 
-### -param Arg9
+### -param unnamedParam9
 
 *pUnits* [out]
 

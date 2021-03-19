@@ -63,7 +63,7 @@ The user mode driver  must ensure that no allocation, which is used for current 
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

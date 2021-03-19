@@ -51,7 +51,7 @@ Determines the size of the user-mode display driver's private region of memory (
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -61,7 +61,7 @@ A handle to the display device (graphics context).
 
 A pointer to an array of CONST UINT tokens that make up the shader code.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pSignatures* [in]
 

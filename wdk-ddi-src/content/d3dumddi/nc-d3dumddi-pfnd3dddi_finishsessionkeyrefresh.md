@@ -55,7 +55,7 @@ The <i>FinishSessionKeyRefresh</i> function indicates that all buffers from that
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

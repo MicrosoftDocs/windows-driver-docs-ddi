@@ -55,7 +55,7 @@ Called by the Microsoft Direct3D runtime to notify the user-mode display driver 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pPresent* [in]
 

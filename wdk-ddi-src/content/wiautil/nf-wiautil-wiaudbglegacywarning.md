@@ -51,7 +51,7 @@ The <b>wiauDbgLegacyWarning</b> function logs a warning message.
 
 ### -param fmt
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 
@@ -64,3 +64,4 @@ The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="/windows-h
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
+

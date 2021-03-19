@@ -55,7 +55,7 @@ A callback to create a new hardware queue
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *createHwQueue* [in, out]
 

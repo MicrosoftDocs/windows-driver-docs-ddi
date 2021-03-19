@@ -48,7 +48,7 @@ The PFND3DKMT_UNLOCK2 callback function unlocks a list of allocations.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_UNLOCK2](ns-d3dkmthk-_d3dkmt_unlock2.md) structure.
 

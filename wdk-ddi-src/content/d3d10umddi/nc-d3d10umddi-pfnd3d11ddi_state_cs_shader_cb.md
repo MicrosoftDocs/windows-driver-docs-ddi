@@ -49,7 +49,7 @@ The <b>pfnStateCsShaderCb</b> function causes the Microsoft Direct3D 11 runtime 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 
