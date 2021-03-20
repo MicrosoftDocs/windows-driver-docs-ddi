@@ -65,7 +65,7 @@ The **FltQueryInformationByName** routine returns the requested information abou
 
 ### -param IoStatusBlock
 
-[out] Pointer to an [**IO_STATUS_BLOCK**](/wdm/ns-wdm-_io_status_block.md) structure containing the caller's I/O status block.
+[out] Pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure containing the caller's I/O status block.
 
 ### -param FileInformation
 
