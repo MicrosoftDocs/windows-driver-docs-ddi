@@ -237,8 +237,6 @@ If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the ou
 
 ### -param ...
 
-####### - ...
-
 Specifies additional parameters that represent values to be inserted into the output during formatting.
 
 ## -returns

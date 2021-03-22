@@ -66,13 +66,6 @@ Number of sub-authorities to set in the SID.
 
 ### -param ...
 
-<p>The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.</p>
-
-
-
-
-####### - ...
-
 The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.
 
 ## -returns

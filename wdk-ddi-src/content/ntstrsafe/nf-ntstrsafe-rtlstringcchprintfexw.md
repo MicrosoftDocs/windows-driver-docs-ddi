@@ -139,13 +139,6 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled fo
 
 ### -param ...
 
-<p>An optional list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.</p>
-
-
-
-
-####### - ...
-
 An optional list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.
 
 ## -returns
