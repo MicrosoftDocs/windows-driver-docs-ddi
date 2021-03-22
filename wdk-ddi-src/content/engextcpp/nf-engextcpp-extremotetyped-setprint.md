@@ -59,8 +59,6 @@ The format string used to create the expression.  This is the same as the format
 
 ### -param ...
 
-####### - ...
-
 The arguments for the format string, as in <b>printf</b>.  The arguments should match the conversion characters in <i>Format</i>.
 
 ## -returns
