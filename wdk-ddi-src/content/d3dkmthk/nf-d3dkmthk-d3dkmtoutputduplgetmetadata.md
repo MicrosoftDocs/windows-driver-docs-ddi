@@ -52,7 +52,7 @@ Gets output duplicate metadata.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_Inout\_* *pData*
 

@@ -51,13 +51,13 @@ The <i>SetBlendState</i> function sets a blend state.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hState* [in]
 
@@ -70,7 +70,7 @@ A handle to the blend state to set.
 
 A four-element array of single-precision float vectors that the driver uses to set the blend state.
 
-### -param Arg4
+### -param unnamedParam4
 
 *SampleMask* [in]
 

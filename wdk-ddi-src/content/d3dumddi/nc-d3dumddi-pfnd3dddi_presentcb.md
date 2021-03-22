@@ -55,7 +55,7 @@ The <b>pfnPresentCb</b> function copies content from a source allocation.
 
 A handle to a display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

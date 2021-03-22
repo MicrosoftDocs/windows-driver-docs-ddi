@@ -51,25 +51,25 @@ The <b>CreateShaderResourceView</b> function creates a shader resource view.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateShaderResourceView* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createshaderresourceview">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a shader resource view.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hShaderResourceView* [in]
 
 A handle to the driver's private data for the shader resource view.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTShaderResourceView* [in]
 

@@ -51,31 +51,31 @@ Queries a custom frame rate that is associated with a rate conversion capability
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *CustomRateIndex* [in]
 
 The zero-based index of the custom rate to query. For more information, see the Remarks section.
 
-### -param Arg4
+### -param unnamedParam4
 
 *RateConversionIndex* [in]
 
 The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
 
-### -param Arg5
+### -param unnamedParam5
 
 *pRate* [out]
 

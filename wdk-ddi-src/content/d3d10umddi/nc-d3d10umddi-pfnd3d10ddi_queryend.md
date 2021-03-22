@@ -49,13 +49,13 @@ The *QueryEnd* function marks the end of a sequence of graphics commands for a q
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hQuery* [in]
 

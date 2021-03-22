@@ -51,25 +51,25 @@ The <b>CreateDepthStencilState</b> function creates a depth stencil state.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pDepthStencilDesc* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencil_desc">D3D10_DDI_DEPTH_STENCIL_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a depth stencil state.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hDepthStencilState* [in]
 
 A handle to the driver's private data for the depth stencil state.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTDepthStencilState* [in]
 

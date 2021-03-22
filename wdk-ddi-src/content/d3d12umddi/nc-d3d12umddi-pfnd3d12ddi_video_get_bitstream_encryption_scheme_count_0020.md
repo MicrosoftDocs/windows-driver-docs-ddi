@@ -54,7 +54,7 @@ The <i>pfnGetBitstreamEncryptionSchemeCount</i> callback function retrieves the 
 
 
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 

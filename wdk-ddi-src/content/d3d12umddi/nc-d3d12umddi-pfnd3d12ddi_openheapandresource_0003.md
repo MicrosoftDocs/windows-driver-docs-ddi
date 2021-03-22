@@ -50,23 +50,23 @@ Implemented by the client driver to open heap and resource.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_OPENHEAP_0003 structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 A heap handle.
 
-### -param Arg4
+### -param unnamedParam4
 
 The handle of the resource for the driver to use when it calls back into the runtime.
 
-### -param Arg5
+### -param unnamedParam5
 
 A resource handle.
 

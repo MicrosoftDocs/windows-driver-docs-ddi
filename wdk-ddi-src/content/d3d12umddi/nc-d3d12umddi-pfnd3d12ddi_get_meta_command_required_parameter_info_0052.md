@@ -47,7 +47,7 @@ Gets required information for a meta-command.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to a meta-command.
 
@@ -59,7 +59,7 @@ A pointer to a [D3D12DDI_META_COMMAND_PARAMETER_STAGE](ne-d3d12umddi-d3d12ddi_me
 
 The index of the parameter.
 
-### -param Arg4
+### -param unnamedParam4
 
 A pointer to a [D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO](ns-d3d12umddi-d3d12ddiarg_meta_command_required_parameter_info.md) structure that contains the meta-command's required parameter info.
 

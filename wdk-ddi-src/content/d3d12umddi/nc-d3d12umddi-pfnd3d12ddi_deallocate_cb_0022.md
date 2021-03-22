@@ -51,11 +51,11 @@ The <i>pfnDeallocateCb</i> callback function controls heap deallocation by using
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 The handle to a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 A  <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddicb_deallocate_0022">D3D12DDICB_DEALLOCATE_0022</a> structure that contains information for a deallocation.
 

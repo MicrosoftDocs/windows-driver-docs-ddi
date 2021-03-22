@@ -55,7 +55,7 @@ The <i>SetRenderTarget</i> function sets the render target surface.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

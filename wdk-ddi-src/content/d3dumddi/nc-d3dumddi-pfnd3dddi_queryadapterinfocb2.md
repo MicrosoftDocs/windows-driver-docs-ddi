@@ -51,7 +51,7 @@ Implemented by the client driver to retrieve graphics adapter information.
 
 A handle to the graphics adapter object.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a [D3DDDICB_QUERYADAPTERINFO2](ns-d3dumddi-_d3dddicb_queryadapterinfo2.md) structure that receives information about the graphics hardware.
 

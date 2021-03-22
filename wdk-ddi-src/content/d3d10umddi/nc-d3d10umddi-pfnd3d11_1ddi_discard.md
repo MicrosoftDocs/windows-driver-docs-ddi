@@ -51,7 +51,7 @@ Discards (evicts) an allocation from video display memory. Implemented by Window
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -65,7 +65,7 @@ A value, of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi
 
 A pointer to a handle to the resource or to the view that is to be discarded.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pRects* [in, optional]
 

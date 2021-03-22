@@ -49,7 +49,7 @@ Releases swap chain resources.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_RELEASESWAPCHAIN](ns-d3dkmthk-_d3dkmt_releaseswapchain.md) structure.
 

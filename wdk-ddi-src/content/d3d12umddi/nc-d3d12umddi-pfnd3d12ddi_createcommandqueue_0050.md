@@ -50,19 +50,19 @@ The PFND3D12DDI_CREATECOMMANDQUEUE_0050 callback function is used to create comm
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 The handle of a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3D12DDIARG_CREATECOMMANDQUEUE_0050](ns-d3d12umddi-d3d12ddiarg_createcommandqueue_0050.md) structure that contains arguments used to create a command queue.
 
-### -param Arg3
+### -param unnamedParam3
 
 The handle of the command queue for the driver to use when it calls back into the runtime.
 
-### -param Arg4
+### -param unnamedParam4
 
 ## -returns
 

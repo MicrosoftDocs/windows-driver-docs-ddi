@@ -49,9 +49,9 @@ The OEMCUIPCALLBACK function type is used for defining callback functions that a
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - pCPSUICBParam
 

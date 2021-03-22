@@ -55,7 +55,7 @@ The <b>pfnSetDisplayPrivateDriverFormatCb</b> function changes the private-forma
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

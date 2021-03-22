@@ -48,7 +48,7 @@ Pfnd3dkmtGetoverlaystate retrieves the status about an overlay.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETOVERLAYSTATE](ns-d3dkmthk-_d3dkmt_getoverlaystate.md) structure.
 

@@ -51,7 +51,7 @@ The <b>CalcPrivateShaderSize</b> function determines the size of the user-mode d
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in] 
 
@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 An array of CONST UINT tokens that make up the shader code.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pSignatures* [in] 
 

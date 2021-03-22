@@ -48,7 +48,7 @@ Pfnd3dkmtMakeresident adds a resource to the device residency list and increment
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DDDI_MAKERESIDENT](../d3dukmdt/ns-d3dukmdt-d3dddi_makeresident.md) structure.
 

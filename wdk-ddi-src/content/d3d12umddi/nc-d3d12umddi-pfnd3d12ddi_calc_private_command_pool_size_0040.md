@@ -47,11 +47,11 @@ Calculates the size of the command pool for display.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to the D3D12DDIARG_CREATE_COMMAND_POOL_0040 structure that contains arguments to create a command pool.
 

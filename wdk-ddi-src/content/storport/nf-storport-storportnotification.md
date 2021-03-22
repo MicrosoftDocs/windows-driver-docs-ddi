@@ -298,6 +298,10 @@ Lun [in, optional]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [StorPortInitialize](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
+### -param ...
+
+Additional Parameters.
+
 ## -returns
 
 None.
@@ -310,3 +314,4 @@ Because **StorPortNotification** returns VOID, the scanning engine should assume
 ## -see-also
 
 [StorPortInitialize](nf-storport-storportinitialize.md)
+

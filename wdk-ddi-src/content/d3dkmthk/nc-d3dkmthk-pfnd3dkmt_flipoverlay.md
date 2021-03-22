@@ -48,7 +48,7 @@ The Pfnd3dkmtFlipoverlay callback function displays a new allocation by using th
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_FLIPOVERLAY](ns-d3dkmthk-_d3dkmt_flipoverlay.md) structure.
 

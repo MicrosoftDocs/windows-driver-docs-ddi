@@ -52,7 +52,7 @@ The <b>D3DKMTRender</b> function submits the current command buffer to the Micro
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

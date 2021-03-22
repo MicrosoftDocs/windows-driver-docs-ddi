@@ -53,7 +53,7 @@ The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatte
 
 ### -param lpFormat
 
-### -param Arg1
+### -param unnamedParam1
 
 #### - [arguments] [in]
 

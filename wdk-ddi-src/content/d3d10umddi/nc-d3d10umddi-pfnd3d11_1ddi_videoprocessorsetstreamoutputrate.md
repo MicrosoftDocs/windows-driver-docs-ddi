@@ -51,25 +51,25 @@ Sets the rate at which the video processor produces output frames for an input s
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hVideoProcessor* [in]
 
 A handle to the video processor object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *StreamIndex* [in]
 
 The zero-based index of the input stream.
 
-### -param Arg4
+### -param unnamedParam4
 
 *RepeatFrame* [in]
 
@@ -86,7 +86,7 @@ If the <i>RepeatFrame</i> parameter is <b>FALSE</b>,  the driver should interpol
 <div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div>
 <div> </div>
 
-### -param Arg5
+### -param unnamedParam5
 
 *OutputRate* [in]
 
@@ -94,7 +94,7 @@ The output rate, specified as a <a href="/windows-hardware/drivers/ddi/d3d10umdd
 
 For more information, see the Remarks section.
 
-### -param Arg6
+### -param unnamedParam6
 
 *pCustomRate* [in]
 

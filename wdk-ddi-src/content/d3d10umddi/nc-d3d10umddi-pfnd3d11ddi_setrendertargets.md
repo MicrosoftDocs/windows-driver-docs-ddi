@@ -49,11 +49,11 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] **hDevice**: A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] **phRenderTargetView**: An array of handles to the render target view (RTV) objects to set. Note that some handle values can be **NULL**.
 
@@ -65,15 +65,15 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 [in] The number of RTV objects to unbind; that is, those render target view objects that were previously bound but no longer need to be bound.
 
-### -param Arg5
+### -param unnamedParam5
 
 [in] **hDepthStencilView**: A handle to the depth-stencil buffer to set.
 
-### -param Arg6
+### -param unnamedParam6
 
 [in] **phUnorderedAccessView**: An array of handles to the unordered access view (UAV) objects to set.
 
-### -param Arg7
+### -param unnamedParam7
 
 [in] **pUAVInitialCounts**: An array of append and consume buffer offsets. This parameter is only relevant for UAVs of the **phUnorderedAccessView** array that were created with either **D3D11_DDI_BUFFER_UAV_FLAG_APPEND**  or **D3D11_DDI_BUFFER_UAV_FLAG_COUNTER** set in the **Flags** member of the [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md) structure when the UAV was created; otherwise, it is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
 

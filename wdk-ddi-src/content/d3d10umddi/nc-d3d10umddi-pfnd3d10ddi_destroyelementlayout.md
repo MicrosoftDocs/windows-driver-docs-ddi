@@ -49,13 +49,13 @@ The <b>DestroyElementLayout</b> function destroys the specified element layout o
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hElementLayout* [in]
 

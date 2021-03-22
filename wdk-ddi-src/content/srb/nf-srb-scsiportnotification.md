@@ -287,7 +287,7 @@ VOID ScsiPortNotification(
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device.
 
-### -param param
+### -param ...
 
 TBD
 
@@ -369,3 +369,4 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 
 <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportcompleterequest">ScsiPortCompleteRequest</a>
+

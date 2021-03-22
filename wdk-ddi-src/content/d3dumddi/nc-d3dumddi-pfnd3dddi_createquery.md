@@ -55,7 +55,7 @@ The <b>CreateQuery</b> function creates driver-side resources for a query that t
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

@@ -56,7 +56,7 @@ Inserts a signal for the specified synchronization objects in the specified cont
 
 Handle to a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3D12DDICB_SIGNALSYNCHRONIZATIONOBJECT2](ns-d3d12umddi-d3d12ddicb_signalsynchronizationobject2.md) structure.
 

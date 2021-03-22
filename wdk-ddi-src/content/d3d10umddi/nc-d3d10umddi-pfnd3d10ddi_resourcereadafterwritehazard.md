@@ -49,13 +49,13 @@ The <i>ResourceReadAfterWriteHazard</i> function informs the user-mode display d
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 

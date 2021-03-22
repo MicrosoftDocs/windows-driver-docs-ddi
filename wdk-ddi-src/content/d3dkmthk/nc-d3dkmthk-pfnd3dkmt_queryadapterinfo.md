@@ -50,7 +50,7 @@ The PFND3DKMT_QUERYADAPTERINFO callback function retrieves various adapter infor
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_In\_* *[D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)* * *Arg1*
 

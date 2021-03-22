@@ -52,7 +52,7 @@ Maps an NT process handle to a graphics processing unit (GPU) synchronization ob
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pObject* [in, out]
 

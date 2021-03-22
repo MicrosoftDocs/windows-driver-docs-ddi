@@ -98,7 +98,7 @@ Deletes the event specified by the <i>EventEntry</i> parameter.
 [in]
 Points to the stream object of the stream that the class driver is being notified about.
 
-### -param param
+### -param ...
 
 #### - EventEntry
 
@@ -126,3 +126,4 @@ The minidriver uses this routine for requests or events that apply to the minidr
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification">StreamClassDeviceNotification</a>
+

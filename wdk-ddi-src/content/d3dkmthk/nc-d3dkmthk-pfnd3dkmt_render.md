@@ -48,7 +48,7 @@ The PFND3DKMT_RENDER callback function submits the current command buffer to the
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_RENDER](ns-d3dkmthk-_d3dkmt_render.md) structure.
 

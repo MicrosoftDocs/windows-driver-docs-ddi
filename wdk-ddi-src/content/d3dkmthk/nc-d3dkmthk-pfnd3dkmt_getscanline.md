@@ -48,7 +48,7 @@ Pfnd3dkmtGetscanline determines whether the given video present source of a vide
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETSCANLINE](ns-d3dkmthk-_d3dkmt_getscanline.md) structure.
 

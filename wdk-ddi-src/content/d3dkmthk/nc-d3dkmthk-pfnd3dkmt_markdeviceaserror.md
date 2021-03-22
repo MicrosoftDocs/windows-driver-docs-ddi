@@ -48,7 +48,7 @@ Pfnd3dkmtMarkdeviceaserror marks a device as error.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_MARKDEVICEASERROR](ns-d3dkmthk-_d3dkmt_markdeviceaserror.md) structure.
 

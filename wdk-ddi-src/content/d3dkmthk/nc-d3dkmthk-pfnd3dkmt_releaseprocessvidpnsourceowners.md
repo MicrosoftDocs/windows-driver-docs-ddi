@@ -48,7 +48,7 @@ The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function releases the vid
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

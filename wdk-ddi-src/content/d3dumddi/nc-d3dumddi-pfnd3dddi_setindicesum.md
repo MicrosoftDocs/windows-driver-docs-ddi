@@ -55,13 +55,13 @@ The <i>SetIndicesUM</i> function sets the current index buffer to the given user
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *IndexSize* [in]
 
 The size, in bytes, of the indices that are contained in the index buffer. The value of this parameter is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pUMBuffer* [in]
 

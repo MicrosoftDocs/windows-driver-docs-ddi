@@ -55,7 +55,7 @@ The <i>SetPixelShader</i> function sets a pixel shader to be used in all drawing
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShaderHandle* [in]
 

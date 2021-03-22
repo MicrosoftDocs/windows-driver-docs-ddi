@@ -51,7 +51,7 @@ Retrieves subparts of the Microsoft Direct3D driver device object.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 

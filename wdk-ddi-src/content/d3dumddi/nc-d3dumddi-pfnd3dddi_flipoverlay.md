@@ -55,7 +55,7 @@ The <i>FlipOverlay</i> function causes the overlay hardware to start displaying 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

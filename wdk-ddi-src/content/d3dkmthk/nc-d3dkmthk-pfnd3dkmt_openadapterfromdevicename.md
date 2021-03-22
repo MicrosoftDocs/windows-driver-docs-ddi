@@ -48,7 +48,7 @@ Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics adapter hand
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENADAPTERFROMDEVICENAME](ns-d3dkmthk-_d3dkmt_openadapterfromdevicename.md) structure.
 

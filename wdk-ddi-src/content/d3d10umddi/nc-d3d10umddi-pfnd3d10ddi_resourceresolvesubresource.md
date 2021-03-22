@@ -49,37 +49,37 @@ The <i>ResourceResolveSubresource</i> function resolves multiple samples to one 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDstResource* [in]
 
 A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
 
-### -param Arg3
+### -param unnamedParam3
 
 *DstSubresource* [in]
 
 An index that indicates the destination subresource to resolve to.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hSrcResource* [in]
 
 A handle to the source resource to resolve from.
 
-### -param Arg5
+### -param unnamedParam5
 
 *SrcSubresource* [in]
 
 An index that indicates the source subresource to resolve from.
 
-### -param Arg6
+### -param unnamedParam6
 
 *ResolveFormat* [in]
 

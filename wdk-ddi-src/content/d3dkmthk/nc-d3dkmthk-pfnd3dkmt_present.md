@@ -48,7 +48,7 @@ The PFND3DKMT_PRESENT callback function submits a present command to the Microso
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_PRESENT](ns-d3dkmthk-_d3dkmt_present.md) structure.
 

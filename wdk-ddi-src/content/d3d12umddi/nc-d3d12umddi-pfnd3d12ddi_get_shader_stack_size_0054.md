@@ -48,7 +48,7 @@ Retrieves the amount of stack memory required to invoke a ray tracing shader in 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the state object.
 

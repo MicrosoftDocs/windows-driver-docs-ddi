@@ -59,7 +59,7 @@ The handle of calling module.
 
 ### -param pszFormat
 
-### -param param
+### -param ...
 
 ####### - pszFormat, ...
 
@@ -70,3 +70,4 @@ Specifies a variable argument list, which starts with an ANSI format string cont
 [WIAS_ERROR](./nf-wiamdef-wias_error.md)
 
 [WIAS_LERROR](./nf-wiamdef-wias_lerror.md)
+

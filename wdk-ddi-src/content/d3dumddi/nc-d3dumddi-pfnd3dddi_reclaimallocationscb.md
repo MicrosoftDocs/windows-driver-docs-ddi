@@ -55,7 +55,7 @@ Called by the user-mode display driver   to reclaim video memory allocations tha
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

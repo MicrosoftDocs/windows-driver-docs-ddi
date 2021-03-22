@@ -47,15 +47,15 @@ Create a command to start recording data.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_CREATE_COMMAND_RECORDER_0040 structure that describes the parameters that the user-mode display driver uses to create a command recorder.
 
-### -param Arg3
+### -param unnamedParam3
 
 The command recorder.
 

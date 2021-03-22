@@ -64,7 +64,7 @@ NTSTATUS Pfnd3dkmtSetdodindirectswapchain
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETDODINDIRECTSWAPCHAIN](ns-d3dkmthk-_d3dkmt_setdodindirectswapchain.md) structure.
 

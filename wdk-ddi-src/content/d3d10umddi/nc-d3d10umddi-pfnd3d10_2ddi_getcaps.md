@@ -51,13 +51,13 @@ The *GetCaps(D3D10_2)* function queries for capabilities of the graphics adapter
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hAdapter* [in]
 
 A handle that identifies the graphics adapter.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

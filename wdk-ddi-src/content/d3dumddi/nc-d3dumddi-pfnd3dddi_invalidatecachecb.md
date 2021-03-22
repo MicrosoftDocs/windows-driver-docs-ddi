@@ -54,7 +54,7 @@ The PFND3DDDI_INVALIDATECACHECB callback function invalidates cache.
 
 A handle to the graphics context device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3DDDICB_INVALIDATECACHE](ns-d3dumddi-_d3dddicb_invalidatecache.md) structure.
 

@@ -48,7 +48,7 @@ The D3dkmtDestroyOverlay callback function disables overlay hardware and deletes
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROYOVERLAY](ns-d3dkmthk-_d3dkmt_destroyoverlay.md) structure.
 

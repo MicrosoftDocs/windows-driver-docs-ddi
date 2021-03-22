@@ -60,7 +60,7 @@ The page table updates are executed on a paging context, dedicated to the render
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

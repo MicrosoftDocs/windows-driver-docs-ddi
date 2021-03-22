@@ -54,13 +54,13 @@ The <b>CreateVertexShaderFunc</b> function converts vertex shader code into a ha
 [in]
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCode* [in]
 
 An array of CONST UINT tokens that make up the vertex shader code.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pData* [in, out]
 

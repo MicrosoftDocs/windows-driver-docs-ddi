@@ -54,7 +54,7 @@ In the  linked display adapter configuration the paging queue defines a physical
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

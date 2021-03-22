@@ -49,7 +49,7 @@ The <b>CsSetConstantBuffers</b> function sets constant buffers for a compute sha
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 [in] The total number of buffers to set.
 
-### -param Arg4
+### -param unnamedParam4
 
 *phBuffers* [in]
 

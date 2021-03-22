@@ -55,7 +55,7 @@ The <b>CreateDevice</b> function creates a graphics context that is referenced i
 
 A handle that identifies the graphics adapter.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateData* [in, out]
 

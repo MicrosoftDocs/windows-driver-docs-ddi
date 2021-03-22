@@ -48,7 +48,7 @@ The PFND3DKMT_DESTROYSYNCHRONIZATIONOBJECT callback function destroys synchroniz
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROYSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md) structure.
 

@@ -55,7 +55,7 @@ The **pfnWaitForSynchronizationObjectFromCpuCb** callback waits for a monitored 
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [**D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU**](ns-d3dumddi-d3dddicb_waitforsynchronizationobjectfromcpu.md) structure that provides the details of the requested operation.
 

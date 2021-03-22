@@ -50,19 +50,19 @@ product:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [**D3D12DDIARG_CREATE_PIPELINE_STATE_0075**](ns-d3d12umddi-d3d12ddiarg_create_pipeline_state_0075.md) structure with arguments used to create a pipeline state.
 
-### -param Arg3
+### -param unnamedParam3
 
 Handle to the pipeline state.
 
-### -param Arg4
+### -param unnamedParam4
 
 Handle to the pipeline state for the driver to use when it calls back into the runtime.
 

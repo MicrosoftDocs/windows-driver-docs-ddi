@@ -51,19 +51,19 @@ Retrieves the capabilities that the device has with the specified format.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *Format* [in]
 
 A [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pFormatCaps* [out]
 

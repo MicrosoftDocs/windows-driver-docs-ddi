@@ -52,7 +52,7 @@ Maps a shared resource to a locally unique identifier (LUID) that identifies the
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pLuid* [in, out]
 

@@ -51,25 +51,25 @@ Queries the range of values that the display miniport driver supports for a spec
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Filter* [in]
 
 The type of the video processor filter, specified as a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pFilterRange* [out]
 

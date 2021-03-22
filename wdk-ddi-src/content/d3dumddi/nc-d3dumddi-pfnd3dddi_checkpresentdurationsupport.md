@@ -55,7 +55,7 @@ Called by the Microsoft Direct3D runtime to request that the user-mode display d
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pPresentDurationSupport* [in]
 

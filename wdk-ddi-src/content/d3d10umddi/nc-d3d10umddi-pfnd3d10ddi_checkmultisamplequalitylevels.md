@@ -51,25 +51,25 @@ The <b>CheckMultisampleQualityLevels</b> function retrieves the number of qualit
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *Format* [in]
 
 A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for.
 
-### -param Arg3
+### -param unnamedParam3
 
 *SampleCount* [in]
 
 The number of samples to retrieve the quality levels for.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pNumQualityLevels* [out]
 

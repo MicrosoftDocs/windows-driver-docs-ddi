@@ -50,19 +50,19 @@ dev_langs:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in, optional] Pointer to a D3D12DDIARG_CREATEHEAP_0001 structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 [in, optional] Pointer to a [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md) structure.
 
-### -param Arg4
+### -param unnamedParam4
 
 The protected resource session to use for the heap/resource being created. Zero indicates unprotected resources.
 

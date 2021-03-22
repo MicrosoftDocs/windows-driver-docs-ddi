@@ -48,27 +48,27 @@ The PFND3D12DDI_PRESENT_0051 callback function copies content from source alloca
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle the driver's data for the command queue.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a [D3D12DDIARG_PRESENT_0001](ns-d3d12umddi-d3d12ddiarg_present_0001.md) structure that contains arguments.
 
-### -param Arg4
+### -param unnamedParam4
 
 Pointer to a [D3D12DDI_PRESENT_0051](ns-d3d12umddi-d3d12ddi_present_0051.md) structure that contains arguments for this callback.
 
-### -param Arg5
+### -param unnamedParam5
 
 Pointer to a [D3D12DDI_PRESENT_CONTEXTS_0051](ns-d3d12umddi-d3d12ddi_present_contexts_0051.md) structure.
 
-### -param Arg6
+### -param unnamedParam6
 
 Pointer to a [D3D12DDI_PRESENT_HWQUEUES_0051](ns-d3d12umddi-d3d12ddi_present_hwqueues_0051.md) structure.
 

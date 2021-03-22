@@ -48,7 +48,7 @@ The PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT callback function changes the privat
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT](ns-d3dkmthk-_d3dkmt_setdisplayprivatedriverformat.md) structure.
 

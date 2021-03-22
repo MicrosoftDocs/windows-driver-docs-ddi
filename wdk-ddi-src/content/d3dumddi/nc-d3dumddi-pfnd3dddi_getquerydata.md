@@ -55,7 +55,7 @@ The <i>GetQueryData</i> function retrieves information about a query.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

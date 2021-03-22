@@ -51,7 +51,7 @@ The <i>OpenAdapter10</i> function creates a graphics adapter object that is refe
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pOpenData* [in, out]
 

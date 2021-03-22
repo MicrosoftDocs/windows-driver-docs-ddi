@@ -49,7 +49,7 @@ Called when the tracked workload commands are done.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] Pointer to a [D3DKMT_ENDTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_endtrackedworkload.md) structure.
 

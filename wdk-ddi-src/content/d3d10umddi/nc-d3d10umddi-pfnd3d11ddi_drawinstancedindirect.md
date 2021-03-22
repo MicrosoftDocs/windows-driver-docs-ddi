@@ -49,13 +49,13 @@ The <b>DrawInstancedIndirect</b> function draws particular instances of non-inde
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hBufferForArgs* [in]
 
@@ -72,7 +72,7 @@ struct DrawInstancedIndirectArgs {
 
 For more information about these arguments, see the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_drawinstanced">DrawInstanced</a> reference page.
 
-### -param Arg3
+### -param unnamedParam3
 
 *AlignedByteOffsetForArgs* [in]
 

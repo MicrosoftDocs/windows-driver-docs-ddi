@@ -53,7 +53,7 @@ The **wiasFormatArgs** function formats an argument list into a packaged string 
 
 Specifies a variable argument list, which starts with an ANSI format string containing the message and any format specifiers.
 
-### -param param
+### -param ...
 
 The ellipsis (...) specifies a variable number of arguments that follow the format string.
 

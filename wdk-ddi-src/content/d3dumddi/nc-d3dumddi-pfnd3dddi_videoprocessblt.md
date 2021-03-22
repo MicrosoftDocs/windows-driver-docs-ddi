@@ -55,7 +55,7 @@ The <i>VideoProcessBlt</i> function processes a video frame by using the specifi
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

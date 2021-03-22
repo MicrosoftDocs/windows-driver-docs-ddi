@@ -49,19 +49,19 @@ The <i>ResourceUnmap</i> function unmaps a subresource of a resource.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 
 A handle to the resource to unmap.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Subresource* [in]
 

@@ -61,7 +61,7 @@ Some kernel mode drivers need information from their user mode driver on how to 
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

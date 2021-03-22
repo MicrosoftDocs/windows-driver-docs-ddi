@@ -51,25 +51,25 @@ Queries a specified group of video processing capabilities that are associated w
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *RateConversionIndex* [in]
 
 The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pCaps* [out]
 

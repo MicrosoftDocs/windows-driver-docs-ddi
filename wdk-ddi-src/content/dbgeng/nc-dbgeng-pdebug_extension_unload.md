@@ -53,7 +53,7 @@ The <i>DebugExtensionUnload</i> callback function unloads the debug extension.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -remarks
 

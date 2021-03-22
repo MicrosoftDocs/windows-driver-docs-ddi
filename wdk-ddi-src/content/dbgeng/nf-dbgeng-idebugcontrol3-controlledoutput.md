@@ -394,9 +394,7 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 
 ```
 
-### -param param
-
-####### - ...
+### -param ...
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.
 

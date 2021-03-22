@@ -64,7 +64,7 @@ NTSTATUS Pfnd3dkmtAcquireswapchain
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_ACQUIRESWAPCHAIN](ns-d3dkmthk-_d3dkmt_acquireswapchain.md) structure.
 

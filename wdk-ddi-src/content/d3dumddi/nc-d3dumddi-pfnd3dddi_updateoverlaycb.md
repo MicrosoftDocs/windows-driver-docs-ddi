@@ -55,7 +55,7 @@ The <b>pfnUpdateOverlayCb</b> function modifies a kernel-mode overlay object.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

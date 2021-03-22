@@ -55,7 +55,7 @@ The <b>pfnGetMultisampleMethodListCb</b> function retrieves a list of multiple-s
 
 A handle to the graphics adapter object.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

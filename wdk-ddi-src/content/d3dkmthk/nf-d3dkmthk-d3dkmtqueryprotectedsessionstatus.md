@@ -49,7 +49,7 @@ Used to query the status of the protected session.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *D3dkmt_queryprotectedsessionstatus*
 

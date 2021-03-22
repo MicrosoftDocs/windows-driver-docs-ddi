@@ -55,7 +55,7 @@ The <b>CreateAuthenticatedChannel</b> function creates a channel that the Micros
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

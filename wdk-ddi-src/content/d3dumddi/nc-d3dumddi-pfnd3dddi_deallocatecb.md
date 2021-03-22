@@ -55,7 +55,7 @@ The <b>pfnDeallocateCb</b> callback function releases allocations or a kernel-mo
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

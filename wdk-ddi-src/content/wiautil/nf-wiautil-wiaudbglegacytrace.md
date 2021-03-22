@@ -51,7 +51,7 @@ The <b>wiauDbgLegacyTrace</b> function logs a trace message.
 
 ### -param fmt
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 

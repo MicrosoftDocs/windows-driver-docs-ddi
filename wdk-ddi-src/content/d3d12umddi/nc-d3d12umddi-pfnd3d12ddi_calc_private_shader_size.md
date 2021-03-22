@@ -49,7 +49,7 @@ Determines the size of the user-mode display driver's private region of memory (
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
@@ -57,11 +57,11 @@ A handle to the display device (graphics context).
 
 Pointer to a shader code.
 
-### -param Arg3
+### -param unnamedParam3
 
 A handle to a root signature.
 
-### -param Arg4
+### -param unnamedParam4
 
 Pointer to a D3D12DDIARG_STAGE_IO_SIGNATURES structure.
 

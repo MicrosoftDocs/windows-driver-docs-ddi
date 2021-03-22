@@ -48,7 +48,7 @@ Pfnd3dkmtGetdwmverticalblankevent gets DWM (desktop windows manager) vertical bl
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETVERTICALBLANKEVENT](ns-d3dkmthk-_d3dkmt_getverticalblankevent.md) structure.
 

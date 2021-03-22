@@ -54,7 +54,7 @@ The <i>pfnGetDecodeProfileCount</i> callback function retrieves the number of de
 
 
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDrvDevice*
 

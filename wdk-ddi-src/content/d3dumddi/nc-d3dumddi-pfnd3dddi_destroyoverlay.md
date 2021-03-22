@@ -55,7 +55,7 @@ The <b>DestroyOverlay</b> function disables the overlay hardware and frees the o
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

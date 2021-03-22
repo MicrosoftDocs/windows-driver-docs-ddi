@@ -51,19 +51,19 @@ The <b>CalcDeferredContextHandleSize</b> function queries for the amount of stor
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *HandleType* [in]
 
 A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>-typed value that indicates the type of deferred context handle to determine the size of the memory region for.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pICObject* [in]
 

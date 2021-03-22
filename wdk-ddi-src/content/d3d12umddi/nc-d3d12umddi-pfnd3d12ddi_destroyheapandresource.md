@@ -50,15 +50,15 @@ Destroy heap and resource.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A heap handle.
 
-### -param Arg3
+### -param unnamedParam3
 
 A resource handle.
 

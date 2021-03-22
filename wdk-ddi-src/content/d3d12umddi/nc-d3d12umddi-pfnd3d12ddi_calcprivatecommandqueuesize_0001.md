@@ -50,11 +50,11 @@ The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 An argument used to create a command queue.
 

@@ -49,11 +49,11 @@ Determines the size of the user-mode display driver's private region of memory (
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a D3D12DDI_BLEND_DESC structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 

@@ -51,9 +51,9 @@ The <b>CreateVideoProcessor</b> function creates a Microsoft DirectX Video Accel
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDevice* [in]
 

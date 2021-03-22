@@ -47,11 +47,11 @@ Calculates the command recorder size.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_CREATE_COMMAND_RECORDER_0040 structure that contains the arguments to create a command recorder.
 

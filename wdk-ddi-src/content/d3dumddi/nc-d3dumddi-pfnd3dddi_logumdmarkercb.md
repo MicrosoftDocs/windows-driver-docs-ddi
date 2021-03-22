@@ -55,7 +55,7 @@ Called by the user-mode display driver to log a custom Event Tracing for Windows
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pLogUMDMarker* [in]
 

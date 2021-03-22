@@ -49,7 +49,7 @@ The <b>D3dContextDestroy</b> function deletes the specified context.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pcdd* [in]
 

@@ -48,7 +48,7 @@ The PFND3DKMT_DESTROYKEYEDMUTEX callback function destroys keyed mutex.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROYKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md) structure.
 

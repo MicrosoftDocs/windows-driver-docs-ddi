@@ -55,7 +55,7 @@ The <i>SetMaterial</i> function sets the material properties that devices on the
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

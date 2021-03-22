@@ -55,7 +55,7 @@ The <i>OpenResource</i> function informs the driver that a shared resource is op
 
 A handle to the display device (graphics context) that is used to open the resource.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pResource* [in, out]
 

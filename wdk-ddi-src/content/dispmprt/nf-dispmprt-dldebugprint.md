@@ -60,7 +60,11 @@ Specifies the level of debug messages to be printed.
 
 Pointer to a string containing the debug message to be printed.
 
-### -param arg3
+### -param unnamedParam3
+
+### -param ...
+
+Additional Parameters.
 
 ## -remarks
 

@@ -47,11 +47,11 @@ product:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] Pointer to a [**D3D12DDIARG_ADD_TO_STATE_OBJECT_0072**](ns-d3d12umddi-d3d12ddiarg_add_to_state_object_0072.md) structure.
 

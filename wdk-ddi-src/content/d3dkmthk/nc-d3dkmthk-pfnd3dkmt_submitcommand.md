@@ -48,7 +48,7 @@ The PFND3DKMT_SUBMITCOMMAND callback function is used to submit command buffers 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SUBMITCOMMAND](ns-d3dkmthk-_d3dkmt_submitcommand.md) structure.
 

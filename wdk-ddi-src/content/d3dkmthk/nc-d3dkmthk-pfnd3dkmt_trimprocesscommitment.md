@@ -48,7 +48,7 @@ Trim process commitment.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_TRIMPROCESSCOMMITMENT](ns-d3dkmthk-_d3dkmt_trimprocesscommitment.md) structure.
 

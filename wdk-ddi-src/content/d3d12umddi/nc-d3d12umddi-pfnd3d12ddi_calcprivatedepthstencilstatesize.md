@@ -50,11 +50,11 @@ The **CalcPrivateDepthStencilStateSize** function determines the size of the use
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a [D3D12DDI_DEPTH_STENCIL_DESC](ns-d3d12umddi-d3d12ddi_depth_stencil_desc.md) structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 

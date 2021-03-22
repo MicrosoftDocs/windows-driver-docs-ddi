@@ -55,7 +55,7 @@ The <i>UpdateWInfo</i> function updates the w range for w buffering.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

@@ -55,7 +55,7 @@ The <b>pfnUnlock2Cb</b> function unlocks an allocation that was locked by a call
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

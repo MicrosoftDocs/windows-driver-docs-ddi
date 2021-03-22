@@ -48,7 +48,7 @@ Pfnd3dkmtLock2 locks an entire allocation or specific pages within an allocation
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_LOCK2](ns-d3dkmthk-_d3dkmt_lock2.md) structure.
 

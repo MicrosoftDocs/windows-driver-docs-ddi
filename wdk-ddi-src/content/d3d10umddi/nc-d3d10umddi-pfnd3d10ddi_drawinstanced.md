@@ -49,31 +49,31 @@ The <b>DrawInstanced</b> function draws particular instances of nonindexed primi
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *VertexCountPerInstance* [in]
 
 The number of vertices per instance of the buffer that vertices are read from to draw the primitives.
 
-### -param Arg3
+### -param unnamedParam3
 
 *InstanceCount* [in]
 
 The number of instances of the buffer that vertices are read from to draw the primitives.
 
-### -param Arg4
+### -param unnamedParam4
 
 *StartVertexLocation* [in]
 
 The first vertex in the buffer that vertices are read from to draw the primitives.
 
-### -param Arg5
+### -param unnamedParam5
 
 *StartInstanceLocation* [in]
 

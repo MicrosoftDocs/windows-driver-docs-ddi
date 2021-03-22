@@ -49,11 +49,11 @@ The driver is notified that the app has started of a pass of consistent workload
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to the pass that was created by the app.
 

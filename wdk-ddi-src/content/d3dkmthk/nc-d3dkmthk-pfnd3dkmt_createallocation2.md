@@ -49,7 +49,7 @@ Reserved for system use. Do not use in your driver.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

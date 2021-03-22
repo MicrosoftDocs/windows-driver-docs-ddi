@@ -50,19 +50,19 @@ dev_langs:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 [in] Pointer to a [**D3D12DDIARG_ADD_TO_STATE_OBJECT_0072**] structure containing subobject(s) to add to a state object.
 
-### -param Arg3
+### -param unnamedParam3
 
 Handle to a state object.
 
-### -param Arg4
+### -param unnamedParam4
 
 Handle to a runtime handle type state object.
 

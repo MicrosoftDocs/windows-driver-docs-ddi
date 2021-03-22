@@ -51,13 +51,13 @@ The <b>CalcPrivateDepthStencilViewSize</b> function determines the size of the u
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateDepthStencilView* [in]
 

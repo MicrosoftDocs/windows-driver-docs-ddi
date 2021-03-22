@@ -51,13 +51,13 @@ The <i>pfnRelocateDeviceFuncs</i> callback function specifies the device functio
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice*
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *DeviceFunctions* [in]
 

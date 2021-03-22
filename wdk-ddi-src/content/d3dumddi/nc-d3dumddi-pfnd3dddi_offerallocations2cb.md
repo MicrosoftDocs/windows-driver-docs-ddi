@@ -55,7 +55,7 @@ Called by the user-mode display driver   to offer  video memory allocations for 
 
 A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

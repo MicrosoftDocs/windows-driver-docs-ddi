@@ -52,7 +52,7 @@ The <b>D3DKMTGetDisplayModeList</b> function retrieves a list of available displ
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

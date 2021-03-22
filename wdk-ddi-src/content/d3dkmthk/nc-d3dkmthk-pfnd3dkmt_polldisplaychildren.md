@@ -48,7 +48,7 @@ The PFND3DKMT_POLLDISPLAYCHILDREN callback function queries for connectivity sta
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_POLLDISPLAYCHILDREN](ns-d3dkmthk-_d3dkmt_polldisplaychildren.md) structure.
 

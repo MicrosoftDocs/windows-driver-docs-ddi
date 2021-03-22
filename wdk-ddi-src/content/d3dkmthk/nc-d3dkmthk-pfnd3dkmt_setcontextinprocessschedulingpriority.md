@@ -48,7 +48,7 @@ The PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY callback function sets the s
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY](ns-d3dkmthk-_d3dkmt_setcontextinprocessschedulingpriority.md) structure.
 

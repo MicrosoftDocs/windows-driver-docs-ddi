@@ -55,7 +55,7 @@ The <b>ComposeRects</b> function composes two-dimensional areas from a source su
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 
