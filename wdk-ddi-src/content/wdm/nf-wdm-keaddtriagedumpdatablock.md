@@ -65,8 +65,8 @@ Returns STATUS_SUCCESS if the data block was successfully added. Otherwise retur
 
 ## -remarks
 
-## -see-also
+The array must have already been initialized by calling [**KeInitializeTriageDumpDataArray**](./nf-wdm-keinitializetriagedumpdataarray.md).
 
-[*KeInitializeTriageDumpDataArray***](./nf-wdm-keinitializetriagedumpdataarray.md)
+## -see-also
 
 [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)
