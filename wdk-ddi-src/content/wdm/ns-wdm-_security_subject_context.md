@@ -76,7 +76,7 @@ Reserved for system use.
 
 [**ACCESS_STATE**](ns-wdm-_access_state.md)
 
-[**FsRtlNotifyFullChangeDirectory**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory)
+[**FsRtlNotifyFullChangeDirectory**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory.md)
 
 [**SECURITY_IMPERSONATION_LEVEL**](ne-wdm-_security_impersonation_level.md)
 
@@ -86,20 +86,20 @@ Reserved for system use.
 
 [**SeAssignSecurityEx**](nf-wdm-seassignsecurityex.md)
 
-[**SeAuditingFileOrGlobalEvents**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seauditingfileorglobalevents)
+[**SeAuditingFileOrGlobalEvents**](../ntifs/nf-ntifs-seauditingfileorglobalevents.md)
 
-[**SeCaptureSubjectContext**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secapturesubjectcontext)
+[**SeCaptureSubjectContext**](../ntifs/nf-ntifs-secapturesubjectcontext.md)
 
-[**SeCreateClientSecurityFromSubjectContext**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secreateclientsecurityfromsubjectcontext)
+[**SeCreateClientSecurityFromSubjectContext**](../ntifs/nf-ntifs-secreateclientsecurityfromsubjectcontext.md)
 
-[**SeFilterToken**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefiltertoken)
+[**SeFilterToken**](../ntifs/nf-ntifs-sefiltertoken.md)
 
-[**SeLockSubjectContext**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-selocksubjectcontext)
+[**SeLockSubjectContext**](../ntifs/nf-ntifs-selocksubjectcontext.md)
 
-[**SePrivilegeCheck**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck)
+[**SePrivilegeCheck**](../ntifs/nf-ntifs-seprivilegecheck.md)
 
-[**SeQuerySubjectContextToken**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequerysubjectcontexttoken)
+[**SeQuerySubjectContextToken**](../ntifs/nf-ntifs-sequerysubjectcontexttoken.md)
 
-[**SeReleaseSubjectContext**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sereleasesubjectcontext)
+[**SeReleaseSubjectContext**](../ntifs/nf-ntifs-sereleasesubjectcontext.md)
 
-[**SeUnlockSubjectContext**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunlocksubjectcontext)
+[**SeUnlockSubjectContext**](../ntifs/nf-ntifs-seunlocksubjectcontext.md)

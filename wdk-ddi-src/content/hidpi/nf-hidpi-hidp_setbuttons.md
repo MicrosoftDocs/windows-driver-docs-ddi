@@ -44,9 +44,9 @@ targetos: Windows
 
 ## -description
 
-The **HidP\_SetButtons** macro is a mnemonic alias for the [**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages) function.
+The **HidP\_SetButtons** macro is a mnemonic alias for the [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md) function.
 
-See [**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages) for parameter and return details.
+See [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md) for parameter and return details.
 
 ## -syntax
 
@@ -59,4 +59,4 @@ See [**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setu
 
 ## -see-also
 
-[**HidP\_SetUsages**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages)
+[**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md)
