@@ -54,4 +54,4 @@ This structure is the I/O parameter type of **IOCTL_LAMP_{GET|SET}_INTENSITY_COL
 
 ### -field IsLightIntensityAdjustable
 
-If **IsSupported** evaluates to **TRUE** (the driver is capable of emitting color light) and this field evaluates to **TRUE**, a client can get/set light intensity of a color lamp by calling [IOCTL_LAMP_GET_INTENSITY_COLOR](/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_color) and [IOCTL_LAMP_SET_INTENSITY_COLOR](/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_color).
+If **IsSupported** evaluates to **TRUE** (the driver is capable of emitting color light) and this field evaluates to **TRUE**, a client can get/set light intensity of a color lamp by calling [IOCTL_LAMP_GET_INTENSITY_COLOR](./ni-lamp-ioctl_lamp_get_intensity_color.md) and [IOCTL_LAMP_SET_INTENSITY_COLOR](./ni-lamp-ioctl_lamp_set_intensity_color.md).

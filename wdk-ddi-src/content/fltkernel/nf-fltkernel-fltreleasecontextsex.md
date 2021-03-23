@@ -66,7 +66,7 @@ For more information about contexts, see [About minifilter contexts](/windows-ha
 
 **FltReleaseContextsEx** decrements the reference count on all contexts in the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure and sets all members of the structure to NULL_CONTEXT.
 
-To get the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure for a given minifilter driver for a given I/O request, call [**FltGetContextsEx**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontextsex).
+To get the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure for a given minifilter driver for a given I/O request, call [**FltGetContextsEx**](./nf-fltkernel-fltgetcontextsex.md).
 
 For more information about context reference counting, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
 
@@ -82,6 +82,6 @@ When each context's reference count reaches zero, the context is freed immediate
 
 [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
-[**FltGetContextsEx**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontextsex)
+[**FltGetContextsEx**](./nf-fltkernel-fltgetcontextsex.md)
 
-[**FltReleaseContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext)
+[**FltReleaseContext**](./nf-fltkernel-fltreleasecontext.md)

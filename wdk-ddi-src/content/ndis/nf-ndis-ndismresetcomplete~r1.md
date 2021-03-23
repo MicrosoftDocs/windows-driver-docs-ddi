@@ -54,7 +54,7 @@ The miniport adapter handle that NDIS originally passed to the
 
 ### -param Status
 
-The final status of the reset operation just completed. The return values are the same as those listed for the [MINIPORT_RESET callback function](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset).
+The final status of the reset operation just completed. The return values are the same as those listed for the [MINIPORT_RESET callback function](./nc-ndis-miniport_reset.md).
 
 ### -param AddressingReset
 
@@ -98,4 +98,4 @@ In NDIS 6.0 and later, callers of
 
 ## -see-also
 
-[NdisMResetComplete macro (NDIS 5.x)](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetcomplete)
+[NdisMResetComplete macro (NDIS 5.x)](./nf-ndis-ndismresetcomplete.md)
