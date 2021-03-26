@@ -67,7 +67,7 @@ A WDFMEMORY buffer that contains the wake packet.
 
 ## -remarks
 
-Call [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_packet_init.md) to initialize this structure if the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) is NetWakeSourceTypeBitmapPattern.
+Call [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_packet_init.md) to initialize this structure if the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md) is NetWakeSourceTypeBitmapPattern.
 
 Call [**NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_magic_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypeMagicPacket.
 

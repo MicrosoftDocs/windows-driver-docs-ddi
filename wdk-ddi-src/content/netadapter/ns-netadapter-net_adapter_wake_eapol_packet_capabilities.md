@@ -57,7 +57,7 @@ A boolean value that describes if the net adapter is capable of waking from an E
 
 Call [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT**](nf-netadapter-net_adapter_wake_eapol_packet_capabilities_init.md) to initialize this structure, then call [**NetAdapterWakeSetEapolPacketCapabilities**](nf-netadapter-netadapterwakeseteapolpacketcapabilities.md) to set the net adapter's EAPOL packet WoL capabilities. Client drivers typically call **NetAdapterWakeSetEapolPacketCapabilities** when starting a net adapter, but before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
-When reporting that a [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) is
+When reporting that a [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md) is
 NetWakeSourceTypeEapolPacket, call [**NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_eapol_packet_init.md) to initialize a **NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES** structure.
 
 ## -see-also
