@@ -61,6 +61,10 @@ The wake source is a media connect or disconnect event.
 
 The wake source is a packet that matches a filter the driver supports, such as an Ethernet unicast frame.
 
+### -field NetWakeSourceTypeEapolPacket
+
+The wake source is an EAP over LAN (EAPOL) request identifier message.
+
 ## -remarks
 
 Call [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md) to get the type for a WoL source.
