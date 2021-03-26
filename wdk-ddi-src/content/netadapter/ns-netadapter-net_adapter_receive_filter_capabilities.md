@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES** structure specifies a network interface card (NIC)'s receive filtering capabilities.
+The **NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES** structure specifies a net adapter's receive filtering capabilities.
 
 ## -struct-fields
 
@@ -51,7 +51,7 @@ The size of this structure in bytes.
 
 ### -field SupportedPacketFilters
 
-A [**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md) enumeration. These flags describe the receive packet filters that the network adapter supports.
+A [**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md) enumeration. These flags describe the receive packet filters that the net adapter supports.
 
 ### -field MaximumMulticastAddresses
 

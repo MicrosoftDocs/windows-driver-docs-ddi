@@ -5,7 +5,7 @@ title: NetAdapterSetReceiveFilterCapabilities
 ms.date: 04/15/2021
 ms.topic: language-reference
 targetos: Windows
-description: NetAdapterSetReceiveFilterCapabilities sets the receive filtering capabilities of a network adapter.
+description: NetAdapterSetReceiveFilterCapabilities sets the receive filtering capabilities of a net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **NetAdapterSetReceiveFilterCapabilities** function sets the receive filtering capabilities of a network adapter.
+The **NetAdapterSetReceiveFilterCapabilities** function sets the receive filtering capabilities of a net adapter.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The **NetAdapterSetReceiveFilterCapabilities** function sets the receive filteri
 
 ### -param Capabilities
 
-[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure that describes the network adapter's receive filtering capabilities.
+[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure that describes the net adapter's receive filtering capabilities.
 
 ## -remarks
 

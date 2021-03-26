@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **NetReceiveFilterGetPacketFilter** function retrieves the **NET_PACKET_FILTER_FLAGS**. These flags describe the packet filters that the network adapter supports.
+The **NetReceiveFilterGetPacketFilter** function retrieves the **NET_PACKET_FILTER_FLAGS**. These flags describe the packet filters that the net adapter supports.
 
 ## -parameters
 

@@ -63,7 +63,7 @@ The network adapter can filter all packets regardless of whether VLAN filtering 
 
 ## -remarks
 
-The driver uses the **NET_PACKET_FILTER_FLAGS** enumeration to specify the receive packet filters in the [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure.
+The driver uses the **NET_PACKET_FILTER_FLAGS** enumeration to specify the net adapter's receive packet filters in the [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure.
 
 An initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure is an input to [**NetAdapterSetReceiveFilterCapabilities**](nf-netadapter-netadaptersetreceivefiltercapabilities.md).
 

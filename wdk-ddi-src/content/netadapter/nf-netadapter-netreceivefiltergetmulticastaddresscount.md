@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **NetReceiveFilterGetMulticastAddressList** function retrieves the number of addresses in the multicast address list. 
+The **NetReceiveFilterGetMulticastAddressList** function retrieves the number of addresses in a net adapter's multicast address list. 
 
 ## -parameters
 

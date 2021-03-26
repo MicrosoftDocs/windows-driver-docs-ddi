@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **NetReceiveFilterGetMulticastAddressList** function retrieves the list of addresses that can receive multicast packets.
+The **NetReceiveFilterGetMulticastAddressList** function retrieves a net adapter's list of addresses that can receive multicast packets.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The **NetReceiveFilterGetMulticastAddressList** function retrieves the list of a
 
 ## -returns
 
-Returns a pointer to the first **NET_ADAPTER_LINK_LAYER_ADDRESS** structure in the network adapter's multicast address list.
+Returns a pointer to the first **NET_ADAPTER_LINK_LAYER_ADDRESS** structure in the net adapter's multicast address list.
 
 ## -remarks
 

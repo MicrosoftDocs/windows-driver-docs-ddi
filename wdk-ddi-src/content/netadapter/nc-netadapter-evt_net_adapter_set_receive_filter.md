@@ -5,7 +5,7 @@ title: EVT_NET_ADAPTER_SET_RECEIVE_FILTER
 ms.date: 04/15/2021
 ms.topic: language-reference
 targetos: Windows
-description: The client driver implements EvtNetAdapterSetReceiveFilter to set changes in active receive filtering capabilities and update the hardware settings.
+description: The client driver implements EvtNetAdapterSetReceiveFilter to set changes in a net adapter's active receive filtering capabilities.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The client driver implements the *EvtNetAdapterSetReceiveFilter* callback function to set changes in active receive filtering capabilities and update the hardware settings accordingly.
+The client driver implements the *EvtNetAdapterSetReceiveFilter* callback function to set changes in a net adapter's active receive filtering capabilities.
 
 ## -parameters
 
@@ -50,7 +50,7 @@ The client driver implements the *EvtNetAdapterSetReceiveFilter* callback functi
 
 [_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param Arg2
+### -param unnamedParam2
 
 [_In_] A handle to a NETRECEIVEFILTER object.
 
