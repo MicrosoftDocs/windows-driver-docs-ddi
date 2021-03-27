@@ -66,7 +66,7 @@ When **SCSI_SUPPORTED_CONTROL_TYPE_LIST** is being used for *unit control*, the 
 - **SupportedTypeList[ScsiUnitPower]**
 - **SupportedTypeList[ScsiUnitPoFxPowerInfo]**
 - **SupportedTypeList[ScsiUnitPoFxPowerRequired]**
-- **SupportedTypeList[ScsiUintPoFxPowerActive]**
+- **SupportedTypeList[ScsiUnitPoFxPowerActive]**
 - **SupportedTypeList[ScsiUnitPoFxPowerSetFState]**
 - **SupportedTypeList[ScsiUnitPoFxPowerControl]**
 - **SupportedTypeList[ScsiUnitRemove]**

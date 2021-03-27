@@ -150,8 +150,6 @@ The **HW_ADAPTER_CONTROL** function type is defined in the *Storport.h* header f
 
 [**HwStorUnitControl**](nc-storport-hw_unit_control.md)
 
-[**StorPortGetBusData**](nf-storport-storportgetbusdata.md)
+[**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md)
 
-[**StorPortSetBusDataByOffset**](nf-storport-storportsetbusdatabyoffset.md)
-
-[**StorPortSetPowerSettingNotificationGuids**](nf-storport-storportsetpowersettingnotificationguids.md)
+[**SCSI_SUPPORTED_CONTROL_TYPE_LIST**](ns-storport-scsi_supported_control_type_list.md)

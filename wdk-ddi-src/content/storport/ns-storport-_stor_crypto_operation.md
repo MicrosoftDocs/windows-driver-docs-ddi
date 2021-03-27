@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION
-title: _STOR_CRYPTO_OPERATION (storport.h)
-description: STOR_CRYPTO_OPERATION is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterCryptoOperation.
+title: STOR_CRYPTO_OPERATION (storport.h)
+description: Reserved for system use.
 tech.root: storage
 ms.date: 05/13/2021
 keywords: ["STOR_CRYPTO_OPERATION structure"]
@@ -41,24 +41,22 @@ api_name:
 
 ## -description
 
-**STOR_CRYPTO_OPERATION** is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiAdapterCryptoOperation**.
+Reserved for system use.
 
 ## -struct-fields
 
 ### -field OperationType
 
-A [**STOR_CRYPTO_OPERATION_TYPE**](ne-storport-_stor_crypto_operation_type.md) value.
+Reserved for system use.
 
 ### -field OperationBufferLength
 
-Length of the buffer that **OperationBuffer** points to, in bytes.
+Reserved for system use.
 
 ### -field OperationBuffer
 
-Pointer to a buffer containing the payload for the operation.
+Reserved for system use.
 
 ## -remarks
 
-## -see-also
-
-[**HwStorAdapterControl**](nc-storport-hw_adapter_control.md)
+Structure pointed to by the **Parameters** parameter when a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiAdapterCryptoOperation**.

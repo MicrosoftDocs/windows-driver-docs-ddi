@@ -154,7 +154,7 @@ Requests that the miniport retrieve the adapter's serial number. The Storport dr
 
 ### -field ScsiAdapterCryptoOperation
 
-Notifies the miniport to perform a cryptographic operation. Storport calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with it and **Parameters** pointing to a [**STOR_CRYPTO_OPERATION**](ns-storport-_stor_crypto_operation.md).
+Reserved for system use. Notifies the miniport to perform a cryptographic operation. Storport calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with it and **Parameters** pointing to a [**STOR_CRYPTO_OPERATION**](ns-storport-_stor_crypto_operation.md).
 
 ### -field ScsiAdapterQueryFruId
 

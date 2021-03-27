@@ -5,7 +5,7 @@ title: STOR_POFX_ACTIVE_CONTEXT
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: STOR_POFX_ACTIVE_CONTEXT is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUintPoFxPowerActive or a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterPoFxPowerActive.
+description: STOR_POFX_ACTIVE_CONTEXT is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitPoFxPowerActive or a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterPoFxPowerActive.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

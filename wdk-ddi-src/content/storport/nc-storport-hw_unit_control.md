@@ -114,4 +114,6 @@ HW_UNIT_CONTROL (
 
 [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md)
 
+[**SCSI_SUPPORTED_CONTROL_TYPE_LIST**](ns-storport-scsi_supported_control_type_list.md)
+
 [**SCSI_UNIT_CONTROL_TYPE**](ne-storport-scsi_unit_control_type.md)
