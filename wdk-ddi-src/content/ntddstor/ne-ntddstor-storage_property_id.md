@@ -3,7 +3,7 @@ UID: NE:ntddstor._STORAGE_PROPERTY_ID
 title: STORAGE_PROPERTY_ID
 description: STORAGE_PROPERTY_ID enumerates the possible values for STORAGE_PROPERTY_QUERY's PropertyId member.
 tech.root: storage
-ms.date: 10/27/2020
+ms.date: 05/13/2021
 keywords: ["STORAGE_PROPERTY_ID enumeration"]
 ms.keywords: STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID,
 req.header: ntddstor.h
@@ -40,7 +40,6 @@ product:
 ---
 
 # STORAGE_PROPERTY_ID enumeration
-
 
 ## -description
 
@@ -194,7 +193,19 @@ Provides the unsafe shutdown count value used to determine if the device data mi
 
 ### -field StorageDeviceEnduranceProperty
 
-Provides info on how many bytes have been read/write from a solid-state drive (SSD). This property is supported only for Non-Volatile Memory Express (NVMe) devices that implement a certain NVMe feature.
+Provides info on how many bytes have been read/write from a solid-state drive (SSD). This property is currently supported only for Non-Volatile Memory Express (NVMe) devices that implement a certain NVMe feature.
+
+### -field StorageDeviceLedStateProperty
+
+The caller is querying for the LED state of the device. Data is returned using the [**STORAGE_DEVICE_LED_STATE_DESCRIPTOR**](ns-ntddstor-storage_device_led_state_descriptor.md) structure. This property is currently supported only for NVMe devices that implement a certain NVMe feature. Supported in Windows 10 version 21H1 and later.
+
+### -field StorageDeviceSelfEncryptionProperty
+
+The caller is querying to determine whether the device supports self encryption. Data is returned using the [**STORAGE_DEVICE_SELF_ENCRYPTION_PROPERTY**](ns-ntddstor-storage_device_self_encryption_property.md) structure. Supported in Windows 10 version 21H1 and later.
+
+### -field StorageFruIdProperty
+
+The caller is querying for the ID of a fault replacement unit (FRU). Data is returned using the [**STORAGE_FRU_ID_DESCRIPTOR**](ns-ntddstor-storage_fru_id_descriptor.md) structure. Supported in Windows 10 version 21H1 and later.
 
 ## -remarks
 
@@ -204,7 +215,8 @@ The optional output buffer returned from an **IOCTL_STORAGE_QUERY_PROPERTY** con
 
 ## -see-also
 
+[**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md)
+
 [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)
 
 [**STORAGE_QUERY_TYPE**](ne-ntddstor-_storage_query_type.md)
-
