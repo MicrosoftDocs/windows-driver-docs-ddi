@@ -51,7 +51,7 @@ The **KeInitializeTriageDumpDataArray** function initializes a triage dump data 
 
 ### -param KtriageDumpDataArray
 
- A pointer to a [**KTRIAGE_DUMP_DATA_ARRAY**](ns-wdm-_ktriage_dump_data_array.md) structure that is the data block array. It is assumed that the caller has already obtained exclusive write to _KtriageDumpDataArray_.
+ A pointer to a [**KTRIAGE_DUMP_DATA_ARRAY**](ns-wdm-_ktriage_dump_data_array.md) structure that is the data block array. It is assumed that the caller has already obtained exclusive write to _KtriageDumpDataArray_.  The array must be allocated from non-paged memory.
 
 ### -param Size
 
@@ -64,5 +64,7 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+
+[*KeAddTriageDumpDataBlock*](./nf-wdm-keaddtriagedumpdatablock.md)
 
 [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)
