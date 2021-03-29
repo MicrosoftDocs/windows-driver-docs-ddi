@@ -100,8 +100,6 @@ This member is reserved for future use. This member is defined starting with Win
 
 ## -remarks
 
-Note that when a key is saved, only the last component of the path can be changed.
-
 For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 ## -see-also
