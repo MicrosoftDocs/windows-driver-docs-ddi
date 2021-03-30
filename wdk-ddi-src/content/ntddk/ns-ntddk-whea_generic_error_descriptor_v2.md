@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DESCRIPTOR_V2
 title: WHEA_GENERIC_ERROR_DESCRIPTOR_V2
-ms.date: 11/8/2019
+ms.date: 03/29/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WHEA_GENERIC_ERROR_DESCRIPTOR_V2, *PWHEA_GENERIC_ERROR_DESCRIPTOR_V2
