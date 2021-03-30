@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeQueryTimeIncrement</b> routine returns the number of 100-nanosecond units that are added to the system time each time the interval clock interrupts.
 
+## -parameters
+
 ## -returns
 
 <b>KeQueryTimeIncrement</b> returns a ULONG value indicating the number of 100-nanosecond units that are added to the system time each time the interval clock interrupts.

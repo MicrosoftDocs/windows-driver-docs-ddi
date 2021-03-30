@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetType</b> method retrieves the type of a USB pipe.
 
+## -parameters
+
 ## -returns
 
 <b>GetType</b> returns a USBD_PIPE_TYPE value that identifies the type of the USB pipe.

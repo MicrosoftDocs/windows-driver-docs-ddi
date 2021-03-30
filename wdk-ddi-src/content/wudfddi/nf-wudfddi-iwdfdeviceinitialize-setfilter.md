@@ -49,6 +49,8 @@ api_name:
 
 The <b>SetFilter</b> method sets the property that enables a device as a filter device.
 
+## -parameters
+
 ## -remarks
 
 A filter driver calls <b>SetFilter</b> to mark itself as a filter.  When you tell the framework that your driver is a filter, the framework:

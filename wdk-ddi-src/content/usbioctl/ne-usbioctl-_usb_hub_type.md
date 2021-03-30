@@ -63,6 +63,8 @@ typedef enum _USB_HUB_TYPE {
 } USB_HUB_TYPE;
 ```
 
+## -enum-fields
+
 ### -field UsbRootHub
 
 Indicates a root hub.

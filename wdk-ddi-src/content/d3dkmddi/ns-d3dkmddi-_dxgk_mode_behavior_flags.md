@@ -45,6 +45,8 @@ product:
 
 The high-level mode and setting behaviors which the OS may request. The same union is used in different fields to describe the input request to the driver and the output results from the driver.
 
+## -struct-fields
+
 ### -field PrioritizeHDR
 
 If set as input, the driver should prioritize high dynamic range (HDR) support when enumerating display modes and setting display modes over other constraints such as balancing modes available on different targets, supporting high frequencies or high resolutions. If not set, the driver should use its default policies for prioritizing the modes made available to the OS.

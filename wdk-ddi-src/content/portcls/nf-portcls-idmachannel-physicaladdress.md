@@ -46,6 +46,8 @@ product:
 
 The PhysicalAddress method returns the physical address of the allocated buffer.
 
+## -parameters
+
 ## -returns
 
 This method returns PHYSICAL_ADDRESS which is the physical address of the allocated buffer.

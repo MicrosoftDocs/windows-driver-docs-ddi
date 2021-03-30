@@ -49,6 +49,8 @@ api_name:
 
 The <b>TryToAcquireInterruptLock</b> method acquires the interrupt lock if no other thread has already acquired it.
 
+## -parameters
+
 ## -returns
 
 The method returns TRUE if the interrupt lock was successfully acquired. Otherwise, the method returns FALSE.

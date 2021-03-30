@@ -50,6 +50,8 @@ The
   <b>NdisCurrentGroupAndProcessor</b> function returns the group-relative processor number and group number of
   the current processor.
 
+## -parameters
+
 ## -returns
 
 <b>NdisCurrentGroupAndProcessor</b> returns a PROCESSOR_NUMBER value that contains the group-relative

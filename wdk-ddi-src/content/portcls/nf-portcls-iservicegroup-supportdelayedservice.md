@@ -47,6 +47,8 @@ api_name:
 
 The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
 
+## -parameters
+
 ## -remarks
 
 The <code>SupportDelayedService</code> method initializes the notification timer that is used for delayed service. Call this method once before making any calls to <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-requestdelayedservice">IServiceGroup::RequestDelayedService</a>.

@@ -49,6 +49,8 @@ api_name:
 
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
 
+## -parameters
+
 ## -returns
 
 <b>Reset</b> returns one of the following values:

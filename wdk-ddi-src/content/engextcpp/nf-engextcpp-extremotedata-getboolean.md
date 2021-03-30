@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetBoolean</b> method returns a Boolean version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
+## -parameters
+
 ## -returns
 
 <b>GetBoolean</b> returns the BOOLEAN version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

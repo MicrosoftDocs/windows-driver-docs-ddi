@@ -49,6 +49,8 @@ api_name:
 
 The <b>ReleaseLock</b> method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-acquirelock">IWDFObject::AcquireLock</a> method.
 
+## -parameters
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>

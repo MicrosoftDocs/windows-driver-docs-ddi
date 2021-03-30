@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetState</b> method returns the current state of a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
+## -parameters
+
 ## -returns
 
 <b>GetState</b> returns a <a href="/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_state">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.

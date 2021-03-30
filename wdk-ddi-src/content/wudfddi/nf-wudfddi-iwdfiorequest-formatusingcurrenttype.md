@@ -49,6 +49,8 @@ api_name:
 
 The <b>FormatUsingCurrentType</b> method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 
+## -parameters
+
 ## -remarks
 
 When a driver receives an I/O request, the driver might forward the request to the local I/O target, unmodified. To forward the unmodified request, the driver must:

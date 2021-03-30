@@ -47,6 +47,8 @@ api_name:
 
 The <b>TerminateProcesses</b> method attempts to terminate all <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in all targets.
 
+## -parameters
+
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.

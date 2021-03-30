@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetUlong</b> method returns a ULONG version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
+## -parameters
+
 ## -returns
 
 <b>GetUlong</b> returns the ULONG version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

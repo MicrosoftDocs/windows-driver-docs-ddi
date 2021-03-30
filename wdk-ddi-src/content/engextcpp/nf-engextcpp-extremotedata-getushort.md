@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetUshort</b> method returns a USHORT version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
+## -parameters
+
 ## -returns
 
 <b>GetUshort</b> returns the USHORT version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

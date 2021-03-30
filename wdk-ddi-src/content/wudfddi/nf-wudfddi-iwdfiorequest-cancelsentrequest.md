@@ -49,6 +49,8 @@ api_name:
 
 The <b>CancelSentRequest</b> method attempts to cancel the I/O request that the driver previously submitted to an I/O target.
 
+## -parameters
+
 ## -returns
 
 <b>CancelSentRequest</b> returns a BOOL value that indicates whether the cancel request was successfully delivered to the request's owner. <b>TRUE</b> indicates the request was successfully delivered. <b>FALSE</b> indicates the request was not successfully delivered.

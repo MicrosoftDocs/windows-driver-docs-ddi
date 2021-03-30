@@ -47,6 +47,8 @@ api_name:
 
 Marks the end of a test case.
 
+## -parameters
+
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

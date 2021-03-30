@@ -47,6 +47,8 @@ api_name:
 
 Asynchronously signals a start event to occur.
 
+## -parameters
+
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

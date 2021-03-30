@@ -49,6 +49,8 @@ api_name:
 
 The <b>DrainSynchronously</b> method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled.
 
+## -parameters
+
 ## -remarks
 
 The <b>DrainSynchronously</b> method is a synchronous version of the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-drain">IWDFIoQueue::Drain</a> method. That is, <b>DrainSynchronously</b> does not return to the driver until the queue is drained.

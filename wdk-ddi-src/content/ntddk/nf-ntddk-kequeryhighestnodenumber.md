@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeQueryHighestNodeNumber</b> routine returns the highest node number in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 
+## -parameters
+
 ## -returns
 
 <b>KeQueryHighestNodeNumber</b> returns the highest node number.

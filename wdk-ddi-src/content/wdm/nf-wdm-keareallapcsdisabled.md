@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, which disables all APC delivery.
 
+## -parameters
+
 ## -returns
 
 <b>KeAreAllApcsDisabled</b> returns <b>TRUE</b> if the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, and <b>FALSE</b> otherwise.

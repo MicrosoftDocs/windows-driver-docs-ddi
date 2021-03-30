@@ -49,6 +49,8 @@ api_name:
 
 The <b>Close</b> method closes a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
+## -parameters
+
 ## -returns
 
 The <b>Close</b> method always returns S_OK.

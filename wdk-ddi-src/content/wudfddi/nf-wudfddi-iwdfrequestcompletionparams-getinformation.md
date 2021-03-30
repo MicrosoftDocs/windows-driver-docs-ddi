@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetInformation</b> method retrieves information that is associated with the completion of an I/O request.
 
+## -parameters
+
 ## -returns
 
 <b>GetInformation</b> returns information (for example, the number of bytes transferred) that is associated with the completion of the I/O request.

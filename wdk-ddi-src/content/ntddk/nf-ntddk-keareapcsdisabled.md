@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeAreApcsDisabled</b> routine returns whether the calling thread is within a critical region, which disables normal kernel APC delivery, or a guarded region, which disables all kernel APC delivery.
 
+## -parameters
+
 ## -returns
 
 <b>KeAreApcsDisabled</b> returns <b>TRUE</b> if the thread is within a critical region or a guarded region, and <b>FALSE</b> otherwise.

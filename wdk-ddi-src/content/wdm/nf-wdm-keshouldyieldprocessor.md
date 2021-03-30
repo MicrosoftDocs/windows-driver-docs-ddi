@@ -48,6 +48,8 @@ dev_langs:
 
 This function advises the caller if it should break out of a work loop running at DISPATCH_LEVEL or higher to allow other processing to take place.
 
+## -parameters
+
 ## -returns
 
 Returns TRUE if the caller should lower IRQL to below DISPATCH_LEVEL.

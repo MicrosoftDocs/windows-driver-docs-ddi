@@ -49,6 +49,8 @@ api_name:
 
 The <b>Close</b> method closes an instance of a UMDF driver-created-file object that was created by calling the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createwdffile">IWDFDevice::CreateWdfFile</a> method.
 
+## -parameters
+
 ## -remarks
 
 For more information, see <a href="/windows-hardware/drivers/wdf/creating-and-using-driver-created-file-objects">Creating and Using Driver-Created File Objects</a>.
