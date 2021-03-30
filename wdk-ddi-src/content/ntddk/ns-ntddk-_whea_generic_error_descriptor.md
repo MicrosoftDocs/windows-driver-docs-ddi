@@ -193,6 +193,8 @@ A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="/wind
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-whea_generic_error_descriptor_v2">WHEA_GENERIC_ERROR_DESCRIPTOR_V2</a>
+
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
