@@ -49,6 +49,8 @@ product:
 
 The **NDIS_WWAN_SET_LTE_ATTACH_CONTEXT** structure describes default LTE attach contexts a miniport driver should set for the inserted SIM's provider (MCC/MNC pair).
 
+## -struct-fields
+
 ### -field Header
 
 The header with type, revision, and size information about the **NDIS_WWAN_SET_LTE_ATTACH_CONTEXT** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations. Miniport drivers must set the header with the same values when they send the data structure to the MB service.

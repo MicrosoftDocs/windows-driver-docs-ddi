@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetRawArgStr</b> method returns a string that represents the arguments passed to the extension command.
 
+## -parameters
+
 ## -returns
 
 <b>GetRawArgStr</b> returns a string that represents the arguments passed to the extension command.  In particular, if the extension command was called from a command line, this string contains the portion of the command line that follows the extension command.  The return value can be <b>NULL</b> or empty.

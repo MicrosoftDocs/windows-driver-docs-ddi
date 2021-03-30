@@ -47,6 +47,8 @@ api_name:
 
 The **CWiauFormatConverter::CWiauFormatConverter** method is the constructor for the **CWiauFormatConverter** class.
 
+## -parameters
+
 ## -see-also
 
 [CWiauFormatConverter::~CWiauFormatConverter](./nf-wiautil-cwiauformatconverter--cwiauformatconverter.md)

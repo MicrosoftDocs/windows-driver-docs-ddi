@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeQueryInterruptTime</b> routine returns the current value of the system <a href="/windows/win32/sysinfo/interrupt-time">interrupt time</a> count, with accuracy to within system clock tick.
 
+## -parameters
+
 ## -returns
 
 <b>KeQueryInterruptTime</b> returns the current interrupt-time count in 100-nanosecond units. The update to this return value generally occurs at least once per system clock tick.

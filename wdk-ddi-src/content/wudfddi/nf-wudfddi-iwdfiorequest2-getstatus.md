@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetStatus</b> method returns the status of an I/O request.
 
+## -parameters
+
 ## -returns
 
 <b>GetStatus</b> returns an HRESULT-typed status value, This value indicates the current status of the I/O request that the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a> interface represents.

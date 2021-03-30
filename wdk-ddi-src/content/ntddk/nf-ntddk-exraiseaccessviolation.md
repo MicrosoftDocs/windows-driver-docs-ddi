@@ -47,6 +47,8 @@ api_name:
 
 The <b>ExRaiseAccessViolation</b> routine can be used with structured exception handling to throw a driver-determined exception for a memory access violation that occurs when a driver processes I/O requests.
 
+## -parameters
+
 ## -remarks
 
 <b>ExRaiseAccessViolation</b> raises an exception with the exception code set to STATUS_ACCESS_VIOLATION.

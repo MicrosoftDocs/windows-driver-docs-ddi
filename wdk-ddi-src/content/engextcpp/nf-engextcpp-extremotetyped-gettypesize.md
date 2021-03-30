@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetTypeSize</b> method returns the size of the type represented by this object.
 
+## -parameters
+
 ## -returns
 
 <b>GetTypeSize</b> returns the size, in bytes, of instance of the type.

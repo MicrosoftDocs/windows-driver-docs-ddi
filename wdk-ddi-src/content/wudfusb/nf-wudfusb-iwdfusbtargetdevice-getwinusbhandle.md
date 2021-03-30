@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 
+## -parameters
+
 ## -returns
 
 <b>GetWinUsbHandle</b> returns the WinUsb interface handle that is associated with the I/O target device object.

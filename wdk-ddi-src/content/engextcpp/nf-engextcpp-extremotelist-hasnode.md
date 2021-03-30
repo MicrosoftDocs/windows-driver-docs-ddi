@@ -47,6 +47,8 @@ api_name:
 
 The <b>HasNode</b> method determines if there is a current item in the list iteration.
 
+## -parameters
+
 ## -returns
 
 <b>HasNode</b> returns <code>true</code> if there is a current item in the list iteration, and <code>false</code> otherwise.

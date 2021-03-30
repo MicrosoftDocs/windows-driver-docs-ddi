@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeLeaveCriticalRegion</b> routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to <b>KeEnterCriticalRegion</b>.
 
+## -parameters
+
 ## -remarks
 
 Highest-level drivers can call this routine while running in the context of the thread that requested the current I/O operation.

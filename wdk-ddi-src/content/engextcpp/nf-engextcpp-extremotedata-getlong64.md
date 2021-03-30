@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetLong64</b> method returns a LONG64 version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
+## -parameters
+
 ## -returns
 
 <b>GetLong64</b> returns the LONG64 version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

@@ -47,6 +47,8 @@ api_name:
 
 The <b>Next</b> method changes the current item to the next item in the list.
 
+## -parameters
+
 ## -remarks
 
 If <b>Next</b> reaches the end of the list, subsequent calls to <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-hasnode">ExtRemoteList::HasNode</a> will return <code>false</code>.

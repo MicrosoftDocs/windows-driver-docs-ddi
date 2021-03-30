@@ -47,6 +47,8 @@ api_name:
 
 The <code>DeleteKey</code> method deletes the registry key.
 
+## -parameters
+
 ## -returns
 
 <code>DeleteKey</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.

@@ -47,6 +47,8 @@ api_name:
 
 The <b>Initialize</b> method is called by the engine to initialize an EngExtCpp extension library after loading it.
 
+## -parameters
+
 ## -returns
 
 This method can return one of these values.

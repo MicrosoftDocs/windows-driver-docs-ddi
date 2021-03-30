@@ -49,6 +49,8 @@ api_name:
 
 The <b>IsOutEndPoint</b> method determines whether a USB pipe (endpoint) is an OUT pipe.
 
+## -parameters
+
 ## -returns
 
 <b>IsOutEndPoint</b> returns a BOOL value that indicates whether the USB pipe is an OUT pipe. <b>TRUE</b> indicates the pipe is an OUT pipe. <b>FALSE</b> indicates the pipe is not an OUT pipe.

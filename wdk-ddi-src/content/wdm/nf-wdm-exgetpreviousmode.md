@@ -47,6 +47,8 @@ api_name:
 
 The <b>ExGetPreviousMode</b> routine returns the previous processor mode for the current thread.
 
+## -parameters
+
 ## -returns
 
 <b>ExGetPreviousMode</b> returns a <b>KPROCESSOR_MODE</b> value, one of <b>KernelMode</b> or <b>UserMode</b>. This value specifies the previous processor mode for the current thread.

@@ -47,3 +47,4 @@ api_name:
 
 The <code>Reset</code> method sets the iterator to the first element.
 
+## -parameters

@@ -47,6 +47,8 @@ api_name:
 
 The <b>UPSGetState</b> function returns the operational state of the UPS.
 
+## -parameters
+
 ## -returns
 
 The <b>UPSGetState</b> function returns one of the following DWORD values:

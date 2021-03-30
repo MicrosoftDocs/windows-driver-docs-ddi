@@ -47,6 +47,8 @@ api_name:
 
 The <b>KdDisableDebugger</b> routine disables the kernel debugger.
 
+## -parameters
+
 ## -returns
 
 <b>KdDisableDebugger</b> returns STATUS_SUCCESS if the kernel debugger was successfully disabled. Otherwise, the return value can be one of the following error status codes:

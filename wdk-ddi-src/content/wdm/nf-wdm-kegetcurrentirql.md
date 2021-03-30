@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information about IRQLs, see [Managing Hardware Priorities](/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
+## -parameters
+
 ## -returns
 
 <b>KeGetCurrentIrql</b> returns the current IRQL.

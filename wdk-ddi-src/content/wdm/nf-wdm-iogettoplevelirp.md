@@ -47,6 +47,8 @@ api_name:
 
 The <b>IoGetTopLevelIrp</b> routine returns the value of the <b>TopLevelIrp</b> field of the current thread.
 
+## -parameters
+
 ## -returns
 
 <b>IoGetTopLevelIrp</b> returns the value of the <b>TopLevelIrp</b> field of the current thread.

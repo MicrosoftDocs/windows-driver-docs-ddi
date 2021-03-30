@@ -47,6 +47,8 @@ api_name:
 
 The <b>KsIncrementPendingIoCount</b> method increments the number of input/output (I/O) operations that are in progress on a pin.
 
+## -parameters
+
 ## -returns
 
 Returns an integer from 1 to <i>n</i>, the value that represents the new number of I/O operations that are in progress.

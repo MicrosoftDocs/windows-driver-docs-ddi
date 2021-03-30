@@ -47,6 +47,8 @@ api_name:
 
 The <code>UntranslatedList</code> method returns the list of untranslated resources.
 
+## -parameters
+
 ## -returns
 
 <code>UntranslatedList</code> returns a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. The resources in the list are in untranslated form. This pointer remains valid until the resource list object is deleted.

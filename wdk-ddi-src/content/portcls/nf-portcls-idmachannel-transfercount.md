@@ -46,6 +46,8 @@ product:
 
 The TransferCount method returns the size in bytes of the buffer that is currently being transferred by a subordinate DMA object.
 
+## -parameters
+
 ## -returns
 
 This method returns ULONG which is the size in bytes of the buffer that is currently being transferred.

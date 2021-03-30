@@ -47,6 +47,8 @@ api_name:
 
 The **~CWiaLogProc** destructor is called when the function or method being logged is exited.
 
+## -parameters
+
 ## -see-also
 
 [CWiaLogProc](./nf-wiamdef-cwialogproc-cwialogproc.md)

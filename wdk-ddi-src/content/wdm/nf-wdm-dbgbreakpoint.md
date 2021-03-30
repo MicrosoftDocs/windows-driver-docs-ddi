@@ -48,6 +48,8 @@ api_name:
 
 The <b>DbgBreakPoint</b> routine breaks into the kernel debugger.
 
+## -parameters
+
 ## -returns
 
 None

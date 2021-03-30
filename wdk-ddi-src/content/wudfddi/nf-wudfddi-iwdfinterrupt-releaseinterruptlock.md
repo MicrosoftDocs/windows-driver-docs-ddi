@@ -49,6 +49,8 @@ api_name:
 
 The <b>ReleaseInterruptLock</b> method ends a code sequence that executes while holding an interrupt object's lock.
 
+## -parameters
+
 ## -remarks
 
 For more information about handling interrupts in UMDF drivers, see <a href="/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts">Accessing Hardware and Handling Interrupts</a>.

@@ -48,6 +48,8 @@ api_name:
 
 <b>FltAllocateDeferredIoWorkItem</b> allocates a deferred-I/O work item.
 
+## -parameters
+
 ## -returns
 
 <b>FltAllocateDeferredIoWorkItem</b> returns <b>NULL</b> if there is insufficient memory in nonpaged pool to satisfy the request. Otherwise, it returns a pointer to the allocated work item.
