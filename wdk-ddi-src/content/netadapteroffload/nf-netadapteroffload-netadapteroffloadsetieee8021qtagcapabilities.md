@@ -52,7 +52,7 @@ The **NetAdapterOffloadSetIeee8021qTagCapabilities** function sets the IEEE 802.
 
 ### -param HardwareCapabilities
 
-[In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
+[In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md) structure that describes the hardware's 802.1 priority tagging and VLAN tagging capabilities.
 
 ## -remarks
 
