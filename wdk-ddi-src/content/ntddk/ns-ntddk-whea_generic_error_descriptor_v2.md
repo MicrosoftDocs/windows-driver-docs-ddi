@@ -105,7 +105,7 @@ The access size for reading the register at the address that is specified in the
 
 ### -field ReadAckAddress
 
-The 64-bit address of a register that is used to notify the RAS controller that OSPM has processed the Error Status Block.
+The 64-bit address of a register that is used to notify the RAS controller that Windows has processed the Error Status Block.
 
 ### -field ReadAckPreserveMask
 
