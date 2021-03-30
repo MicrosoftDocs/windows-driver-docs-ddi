@@ -47,6 +47,8 @@ Copy constructs a location.
 
 Default constructs an equivalent nullptr.
 
+## -parameters
+
 ## -returns
 
 This function is a constructor and does not return value.

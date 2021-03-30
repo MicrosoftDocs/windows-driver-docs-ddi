@@ -47,6 +47,8 @@ api_name:
 
 The <code>GetKInterrupt</code> method gets a WDM interrupt object from a port-class synchronization object.
 
+## -parameters
+
 ## -returns
 
 <code>GetKInterrupt</code> returns a pointer to a WDM interrupt object.

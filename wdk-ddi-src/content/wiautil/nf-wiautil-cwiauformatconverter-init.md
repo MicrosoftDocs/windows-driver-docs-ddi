@@ -47,6 +47,8 @@ api_name:
 
 The <b>CWiauFormatConverter::Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI+ for converting images. This method should be called only once.
 
+## -parameters
+
 ## -returns
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.

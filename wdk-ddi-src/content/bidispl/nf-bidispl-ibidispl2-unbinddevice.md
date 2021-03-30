@@ -47,6 +47,8 @@ api_name:
 
 The <b>UnbindDevice</b> method releases a printer from a bidirectional printer communication (bidi communication) request.
 
+## -parameters
+
 ## -returns
 
 The method returns one of the following values.

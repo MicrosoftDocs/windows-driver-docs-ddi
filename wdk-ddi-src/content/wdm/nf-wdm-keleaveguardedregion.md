@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeLeaveGuardedRegion</b> routine exits a guarded region entered by <b>KeEnterGuardedRegion</b>.
 
+## -parameters
+
 ## -remarks
 
 Guarded regions can be nested, so APCs are only reenabled once the thread exists the outermost guarded region.

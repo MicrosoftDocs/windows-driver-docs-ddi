@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeQueryUnbiasedInterruptTime</b> routine returns the current value of the system <a href="/windows/win32/sysinfo/interrupt-time">interrupt time</a> count.
 
+## -parameters
+
 ## -returns
 
 <b>KeQueryUnbiasedInterruptTime</b> returns the current interrupt time count in 100-nanosecond units. The count begins at zero when the computer starts. Updates to this count are suspended when the computer enters a sleep state and are resumed when the computer awakens.

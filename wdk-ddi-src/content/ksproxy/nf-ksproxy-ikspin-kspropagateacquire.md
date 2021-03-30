@@ -47,6 +47,8 @@ api_name:
 
 The <b>KsPropagateAcquire</b> method directs all the pins on the filter to attain the Acquire state.
 
+## -parameters
+
 ## -returns
 
 Returns NOERROR if successful; otherwise, returns an error code.

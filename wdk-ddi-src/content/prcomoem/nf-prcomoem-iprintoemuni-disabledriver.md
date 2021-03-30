@@ -47,6 +47,8 @@ api_name:
 
 The <code>IPrintOemuNI::DisableDriver</code> method allows a rendering plug-in for <a href="/windows-hardware/drivers/">Unidrv</a> to free resources that were allocated by the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enabledriver">IPrintOemUni::EnableDriver</a> method.
 
+## -parameters
+
 ## -returns
 
 The method must return one of the following values.

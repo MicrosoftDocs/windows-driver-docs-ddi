@@ -47,6 +47,8 @@ api_name:
 
 The <b>SetScopeFromStoredEvent</b> method sets the current scope to the scope of the stored event.
 
+## -parameters
+
 ## -returns
 
 <table>

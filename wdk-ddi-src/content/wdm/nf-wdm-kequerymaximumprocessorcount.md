@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeQueryMaximumProcessorCount</b> routine returns the maximum number of processors.
 
+## -parameters
+
 ## -returns
 
 <b>KeQueryMaximumProcessorCount</b> returns the maximum number of processors as a ULONG value.

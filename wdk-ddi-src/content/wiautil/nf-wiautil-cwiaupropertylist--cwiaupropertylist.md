@@ -47,6 +47,8 @@ api_name:
 
 The **CWiauPropertyList::~CWiauPropertyList** method is the destructor for the **CWiauPropertyList** class.
 
+## -parameters
+
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

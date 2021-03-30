@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetFailureCode</b> method gets the bug check code or exception code of a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object.
 
+## -parameters
+
 ## -returns
 
 This method returns a <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check code</a> or an <a href="/windows/win32/debug/structured-exception-handling">exception code</a>.

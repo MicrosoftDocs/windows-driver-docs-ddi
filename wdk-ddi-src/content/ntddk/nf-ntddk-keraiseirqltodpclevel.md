@@ -48,6 +48,8 @@ api_name:
 
 The <b>KeRaiseIrqlToDpcLevel</b> routine raises the hardware priority to IRQL = DISPATCH_LEVEL, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 
+## -parameters
+
 ## -returns
 
 <b>KeRaiseIrqlToDpcLevel</b> returns the IRQL at which the call occurred.

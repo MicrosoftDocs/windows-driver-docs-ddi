@@ -47,6 +47,8 @@ api_name:
 
 <b>ChangerAdditionalExtensionSize</b> indicates the number of bytes the changer miniclass driver requires to store device-specific information in the device extension.
 
+## -parameters
+
 ## -returns
 
 <b>ChangerAdditionalExtensionSize</b> returns the size, in bytes, of the additional device extension space required by the changer miniclass driver.

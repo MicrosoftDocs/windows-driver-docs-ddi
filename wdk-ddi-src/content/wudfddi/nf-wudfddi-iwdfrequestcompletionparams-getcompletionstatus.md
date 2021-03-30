@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetCompletionStatus</b> method retrieves the completion status of an I/O request.
 
+## -parameters
+
 ## -returns
 
 <b>GetCompletionStatus</b> returns S_OK for a successful completion status. Otherwise, this method returns one of the error codes that are defined in Winerror.h.

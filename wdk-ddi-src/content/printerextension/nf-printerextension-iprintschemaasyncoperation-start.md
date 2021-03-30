@@ -47,6 +47,8 @@ api_name:
 
 Starts the asynchronous PrintSchema operation.
 
+## -parameters
+
 ## -returns
 
 This method returns an <b>HRESULT</b> value.

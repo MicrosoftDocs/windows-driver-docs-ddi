@@ -46,6 +46,8 @@ product:
 
 SystemAddress returns the address in kernel-mode virtual address space of the allocated buffer.
 
+## -parameters
+
 ## -returns
 
 This method returns PVOID.
