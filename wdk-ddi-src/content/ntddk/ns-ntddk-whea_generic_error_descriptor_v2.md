@@ -38,45 +38,85 @@ dev_langs:
 
 ## -description
 
+The WHEA_GENERIC_ERROR_DESCRIPTOR_V2 structure describes a generic error source.
+
 ## -struct-fields
 
 ### -field Type
 
+The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_GENERIC_V2.
+
 ### -field Reserved
+
+Reserved for system use.
 
 ### -field Enabled
 
+A Boolean value that indicates if the error source is enabled.
+
 ### -field ErrStatusBlockLength
+
+The size, in bytes, of the block of error status registers that contain the error data for the error source.
 
 ### -field RelatedErrorSourceId
 
+The identifier of the related error source. If the generic error source does not relate back to another error source, this member is not used.
+
 ### -field ErrStatusAddressSpaceID
+
+The address space of the address that is specified in the <b>ErrStatusAddress</b> member. 
+
 
 ### -field ErrStatusAddressBitWidth
 
+The size, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
+
 ### -field ErrStatusAddressBitOffset
+
+The offset, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
 
 ### -field ErrStatusAddressAccessSize
 
+The access size for reading the register at the address that is specified in the <b>ErrStatusAddress</b> member.
+
 ### -field ErrStatusAddress
+
+The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
 
 ### -field Notify
 
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_notification_descriptor">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
+
 ### -field ReadAckAddressSpaceID
+
+The address space of the address that is specified in the **ReadAckAddress** member.
 
 ### -field ReadAckAddressBitWidth
 
+The size, in bits, of the register at the address that is specified in the **ReadAckAddress** member.
+
 ### -field ReadAckAddressBitOffset
+
+The offset, in bits, of the register at the address that is specified in the **ReadAckAddress** member.
 
 ### -field ReadAckAddressAccessSize
 
+The access size for reading the register at the address that is specified in the **ReadAckAddress** member.
+
 ### -field ReadAckAddress
+
+
 
 ### -field ReadAckPreserveMask
 
+
+
 ### -field ReadAckWriteMask
+
+
 
 ## -remarks
 
 ## -see-also
 
+[**WHEA_GENERIC_ERROR_DESCRIPTOR**](./ns-ntddk-_whea_generic_error_descriptor.md)
