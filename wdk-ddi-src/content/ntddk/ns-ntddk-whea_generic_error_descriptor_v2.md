@@ -105,18 +105,22 @@ The access size for reading the register at the address that is specified in the
 
 ### -field ReadAckAddress
 
-
+The 64-bit address of a register that is used to notify the RAS controller that OSPM has processed the Error Status Block.
 
 ### -field ReadAckPreserveMask
 
-
+Contains a mask of bits to preserve when writing the Read Ack register.
 
 ### -field ReadAckWriteMask
 
-
+Contains a mask of bits to set when writing the Read Ack register.
 
 ## -remarks
 
+This structure corresponds to the Generic Hardware Error Source version 2 (GHESv2) structure that is defined in [Advanced Configuration and Power Interface (ACPI) Specification version 6.2](https://uefi.org/sites/default/files/resources/ACPI%206_2_A_Sept29.pdf).
+
 ## -see-also
+
+[WHEA_ERROR_SOURCE_DESCRIPTOR](./ns-ntddk-_whea_error_source_descriptor.md)
 
 [**WHEA_GENERIC_ERROR_DESCRIPTOR**](./ns-ntddk-_whea_generic_error_descriptor.md)
