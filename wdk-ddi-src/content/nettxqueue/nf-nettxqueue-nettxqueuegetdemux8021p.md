@@ -52,7 +52,7 @@ The transmit queue object.
 
 ## -returns
 
-Returns the 802.1p priority information associated with a transmit queue.
+Returns the 802.1p priority information associated with this transmit queue.
 
 ## -remarks
 
