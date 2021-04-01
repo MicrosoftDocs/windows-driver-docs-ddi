@@ -98,7 +98,8 @@ A combination of the following possible error values, indicating the errors repo
 | DXGK_MIPI_DSI_* Error | Meaning |
 | --------------------- | ------- |
 | DXGK_MIPI_DSI_SOT_ERROR | Possible error in Start of High-Speed transmission leader sequence |
-| DXGK_MIPI_DSI_SOT_SYNC_ERROR | Error in Start of High-Speed transmission leader sequence |DXGK_MIPI_DSI_EOT_SYNC_ERROR | Peripheral detected incomplete bytes in High-Speed transmission |
+| DXGK_MIPI_DSI_SOT_SYNC_ERROR | Error in Start of High-Speed transmission leader sequence |
+| DXGK_MIPI_DSI_EOT_SYNC_ERROR | Peripheral detected incomplete bytes in High-Speed transmission |
 | DXGK_MIPI_DSI_ESCAPE_MODE_ENTRY_COMMAND_ERROR | Error or peripheral does not recognize escape sequence |
 | DXGK_MIPI_DSI_LOW_POWER_TRANSMIT_SYNC_ERROR | Peripheral detected incomplete bytes in Low-Speed transmission |
 | DXGK_MIPI_DSI_FALSE_CONTROL_ERROR | Peripheral detected error in escape sequence or turnaround sequence |
