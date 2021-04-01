@@ -50,7 +50,7 @@ api_name:
 
 The <b>POOL_TYPE</b> enumeration type specifies the type of system memory to allocate.
 
-## Syntax
+## -syntax
 
 ```cpp
 typedef enum _POOL_TYPE {
