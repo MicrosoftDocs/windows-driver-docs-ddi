@@ -64,7 +64,7 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dk
 | **STATUS_SUCCESS** | The keyed mutex object was successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateKeyedMutex](./nf-d3dkmthk-d3dkmtcreatekeyedmutex.md)  could not complete because of insufficient memory. |  
+| **STATUS_NO_MEMORY** | [D3DKMTCreateKeyedMutex](./nf-d3dkmthk-d3dkmtcreatekeyedmutex.md)  could not complete because of insufficient memory. |
 
 This function might also return other <b>NTSTATUS</b> values.
 

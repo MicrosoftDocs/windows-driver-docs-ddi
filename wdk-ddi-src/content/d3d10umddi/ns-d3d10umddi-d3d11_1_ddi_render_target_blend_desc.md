@@ -105,7 +105,7 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 |D3D10_DDI_COLOR_WRITE_ENABLE_GREEN (2)|Writes green|
 |D3D10_DDI_COLOR_WRITE_ENABLE_BLUE (4)|Writes blue|
 |D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA (8)|Writes a transparency level|
-|D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1 | 2 | 4 | 8)|Writes red, green, blue, and a transparency level|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1, 2, 4, or 8)|Writes red, green, blue, and a transparency level|
 
 ## -see-also
 

@@ -65,7 +65,7 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dk
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
 | **STATUS_NO_MEMORY** | [D3DKMTCreateAllocation]()  could not complete because of insufficient memory. | 
-| **STATUS_NO_VIDEO_MEMORY** | [D3DKMTCreateAllocation]()  could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. |  
+| **STATUS_NO_VIDEO_MEMORY** | [D3DKMTCreateAllocation]()  could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. |
 
 This function might also return other NTSTATUS values.
 

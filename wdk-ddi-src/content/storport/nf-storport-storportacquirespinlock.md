@@ -88,7 +88,8 @@ Certain locks are held automatically by the port driver before it calls the mini
 | [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) | None. (In Windows Server 2003, the StartIo spin lock was held when control type is ScsiStopAdapter.) |
 | [**HwStorUnitControl**](nc-storport-hw_unit_control.md) | None |
 | [**HwStorTracingEnabled**](nc-storport-hw_tracing_enabled.md) | None |
-| [**HwStorPassiveInitializeRoutine**](nc-storport-hw_passive_initialize_routine.md) | None || [**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md) | None |
+| [**HwStorPassiveInitializeRoutine**](nc-storport-hw_passive_initialize_routine.md) | None |
+| [**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md) | None |
 | [**HwStorStateChange**](nc-storport-hw_state_change.md) | Startio, Interrupt (when **SynchronizationModel** member of [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) is set to **StorSynchronizeHalfDuplex**) |
 
 The locks held by the port driver influence which locks the callback routines are allowed to acquire, because spin locks must be acquired in the following order:

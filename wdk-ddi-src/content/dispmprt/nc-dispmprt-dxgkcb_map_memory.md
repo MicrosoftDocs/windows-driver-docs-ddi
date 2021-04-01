@@ -84,7 +84,7 @@ A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY
 [out]
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
 
-|*MapToUserMode* is FALSE|*MapToUserMode* is TRUE|
+| &nbsp; |*MapToUserMode* is FALSE|*MapToUserMode* is TRUE|
 |--- |--- |--- |
 |InIoSpace is FALSE|READ_REGISTER_X WRITE_REGISTER_X|User-mode code performs ordinary memory access.|
 |InIoSpace is TRUE|READ_PORT_X WRITE_PORT_X|Not possible.|
