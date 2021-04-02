@@ -43,7 +43,6 @@ f1_keywords:
 
 # STOR_UNIT_CONTROL_QUERY_BUS_TYPE structure
 
-
 ## -description
 
 The **STOR_UNIT_CONTROL_QUERY_BUS_TYPE** structure is a parameter to a miniport driver for ScsiUnitQueryBusType, which the miniport can use to specify the device bus type.
@@ -56,7 +55,7 @@ Pointer to a [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md) structure that
 
 ### -field BusType
 
-The bus type specified by the miniport for the unit. This value must be one of the enum values defined in [**STORAGE_BUS_TYPE**](/windows/win32/api/winioctl/ne-winioctl-storage_bus_type).
+The bus type specified by the miniport for the unit. This value must be one of the enum values defined in [**STORAGE_BUS_TYPE**](../ntddstor/ne-ntddstor-storage_bus_type.md).
 
 ## -remarks
 
@@ -66,5 +65,4 @@ ScsiUnitQueryBusType is optional. A miniport can use it to specify a device bus 
 
 [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md)
 
-[**STORAGE_BUS_TYPE**](/windows/win32/api/winioctl/ne-winioctl-storage_bus_type)
-
+[**STORAGE_BUS_TYPE**](../ntddstor/ne-ntddstor-storage_bus_type.md)
