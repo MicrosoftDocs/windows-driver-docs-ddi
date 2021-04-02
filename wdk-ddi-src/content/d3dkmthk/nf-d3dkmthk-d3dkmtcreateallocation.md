@@ -56,17 +56,15 @@ A pointer to a [**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocatio
 
 ## -returns
 
-**D3DKMTCreateAllocation** returns one of the following values:
+**D3DKMTCreateAllocation** returns an NTSTATUS code such as one of the following values:
 
 | Return code | Description |
-|------------ | ----------- |
+| ----------- | ----------- |
 | STATUS_SUCCESS            | Allocations were successfully created. |
 | STATUS_DEVICE_REMOVED     | The graphics adapter was stopped or the display device was reset. |
 | STATUS_INVALID_PARAMETER  | Parameters were validated and determined to be incorrect. |
 | STATUS_NO_MEMORY          | This routine could not complete because of insufficient system memory. |
-| STATUS_NO_VIDEO_MEMORY    | This routine could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. |  
-
-This function might also return other NTSTATUS values.
+| STATUS_NO_VIDEO_MEMORY    | This routine could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory. However, if the virtualization fails (such as when virtual address space runs out), the memory manager might return this error code. |  
 
 ## -remarks
 

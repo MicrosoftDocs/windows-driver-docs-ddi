@@ -152,7 +152,7 @@ The data that the driver associates with this query type is a BOOL. This BOOL is
 
 Supported in Windows 7 and later versions.
 
-The data that the driver associates with this query type is a BOOL. This BOOL is **TRUE** if the stream 3 output overflowed. If two D3D10DDI_QUERY_STREAMOUTPUTSTATS_STREAM1 queries were used to simultaneously monitor the same bracketed range as a STREAMOVERFLOWPREDICATE_STREAM3 predicate type, the difference in the values in the **PrimitivesStorageNeeded** members of [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md)(ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md) would have resulted in a larger difference than the difference in the values in the **NumPrimitivesWritten** members.
+The data that the driver associates with this query type is a BOOL. This BOOL is **TRUE** if the stream 3 output overflowed. If two D3D10DDI_QUERY_STREAMOUTPUTSTATS_STREAM1 queries were used to simultaneously monitor the same bracketed range as a STREAMOVERFLOWPREDICATE_STREAM3 predicate type, the difference in the values in the **PrimitivesStorageNeeded** members of [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md) would have resulted in a larger difference than the difference in the values in the **NumPrimitivesWritten** members.
 
 ### -field D3D10DDI_COUNTER_GPU_IDLE
 
@@ -285,4 +285,4 @@ With respect to the values in **IAVertices** and **VSInvocations**, adjacent ver
 
 [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md)
 
-[**D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT**](ns-d3d10umddi-d3d10_ddi_query_data_timestamp_disjoint)
+[**D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT**](ns-d3d10umddi-d3d10_ddi_query_data_timestamp_disjoint.md)
