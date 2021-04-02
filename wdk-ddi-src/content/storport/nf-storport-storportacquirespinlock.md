@@ -4,7 +4,7 @@ title: StorPortAcquireSpinLock function (storport.h)
 description: The StorPortAcquireSpinLock routine acquires the specified spin lock.
 old-location: storage\storportacquirespinlock.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 04/01/2021
 keywords: ["StorPortAcquireSpinLock function"]
 ms.keywords: StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices], storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml
 req.header: storport.h
@@ -42,32 +42,27 @@ api_name:
 
 # StorPortAcquireSpinLock function
 
-
 ## -description
 
 The **StorPortAcquireSpinLock** routine acquires the specified spin lock.
 
 ## -parameters
 
-### -param DeviceExtension 
+### -param DeviceExtension
 
-[in]
-A pointer to the miniport driver per-adapter device extension.
+[in] A pointer to the miniport driver per-adapter device extension.
 
-### -param SpinLock 
+### -param SpinLock
 
-[in]
-Contains an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire.
+[in] Contains an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire.
 
-### -param LockContext 
+### -param LockContext
 
-[in]
-A pointer to the DPC object for which the lock is held if *SpinLock* indicates a type of **DpcLock**. This member should be **NULL** if *SpinLock* indicates a type of either **InterruptLock** or **StartIoLock**.
+[in] A pointer to the DPC object for which the lock is held if *SpinLock* indicates a type of **DpcLock**. This member should be **NULL** if *SpinLock* indicates a type of either **InterruptLock** or **StartIoLock**.
 
-### -param LockHandle 
+### -param LockHandle
 
-[in, out]
-A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md) routine.
+[in, out] A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md) routine.
 
 ## -remarks
 
@@ -78,8 +73,8 @@ Certain locks are held automatically by the port driver before it calls the mini
 | Miniport driver routine | Spin lock held by port driver |
 | ----------------------- | ----------------------------- |
 | [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) | None |
-| [**HwStorInitialize**](nc-storport-hw_initialize.md) | Interrupt (physical miniports), None (virtual miniports) |
-| [**HwStorInterrupt**](nc-storport-hw_interrupt.md) | Interrupt |
+| [**HwStorInitialize**](nc-storport-hw_initialize.md)    | Interrupt (physical miniports), None (virtual miniports) |
+| [**HwStorInterrupt**](nc-storport-hw_interrupt.md)      | Interrupt |
 | [**HwMSIInterruptRoutine**](nc-storport-hw_message_signaled_interrupt_routine.md) | Interrupt |
 | [**HwStorStartIo**](nc-storport-hw_startio.md) | StartIo (physical miniports only when requested concurrent channels <= 1) |
 | [**HwStorBuildIo**](nc-storport-hw_buildio.md) | None |
@@ -123,4 +118,3 @@ The following table indicates which spin locks each miniport driver routine can 
 [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md)
 
 [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md)
-

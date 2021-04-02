@@ -44,7 +44,6 @@ dev_langs:
 
 # DXGK_DSI_TRANSMISSION structure
 
-
 ## -description
 
 The DXGK_DSI_TRANSMISSION structure is used to transmit Display Serial Interface (DSI) packets to the bus driver (graphics kernel).
@@ -95,8 +94,8 @@ Reserved.
 
 A combination of the following possible error values, indicating the errors reported by communication with the peripheral.
 
-| DXGK_MIPI_DSI_* Error | Meaning |
-| --------------------- | ------- |
+| DXGK_MIPI_DSI_XXX Error | Meaning |
+| ----------------------- | ------- |
 | DXGK_MIPI_DSI_SOT_ERROR | Possible error in Start of High-Speed transmission leader sequence |
 | DXGK_MIPI_DSI_SOT_SYNC_ERROR | Error in Start of High-Speed transmission leader sequence |
 | DXGK_MIPI_DSI_EOT_SYNC_ERROR | Peripheral detected incomplete bytes in High-Speed transmission |
@@ -114,10 +113,10 @@ A combination of the following possible error values, indicating the errors repo
 
 ### -field HostErrors
 
-A combination of the DXGK_HOST_DSI_* indicating the errors reported by the graphics driver or OS.
+A combination of DXGK_HOST_DSI_XXX errors indicating the errors reported by the graphics driver or OS.
 
-| DXGK_HOST_DSI_* Error | Meaning |
-| --------------------- | ------- |
+| DXGK_HOST_DSI_XXX Error | Meaning |
+| ----------------------- | ------- |
 | DXGK_HOST_DSI_DEVICE_NOT_READY | Host detected that a request was made for a device which is not in the correct state to be able to receive the request. |
 | DXGK_HOST_DSI_INTERFACE_RESET | The graphics driver detected an error which required a reset of the DSI interface with the panel. The panel driver should verify the device state before resuming normal transmissions. |
 | DXGK_HOST_DSI_DEVICE_RESET | The graphics driver detected an error which required a reset of the panel and state should be assumed to have been lost.  The panel driver should reapply any private device state before resuming normal transmissions. |
@@ -146,4 +145,3 @@ A DXGK_DSI_TRANSMISSION structure is provided to a graphics driver's [*DxgkDsiTr
 [**IOCTL_MIPI_DSI_RESET**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
 
 [**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
-
