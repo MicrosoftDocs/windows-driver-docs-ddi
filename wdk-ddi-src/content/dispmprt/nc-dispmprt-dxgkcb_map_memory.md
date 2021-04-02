@@ -79,7 +79,7 @@ The **DxgkCbMapMemory** function maps a range of translated physical addresses (
 | Value of InIoSpace | MapToUserMode is FALSE           | MapToUserMode is TRUE |
 | ------------------ |-----------------------           | --------------------- |
 | FALSE              | READ_REGISTER_X WRITE_REGISTER_X | User-mode code performs ordinary memory access.|
-| TRUE               | READ_PORT_X WRITE_PORT_X         |Not possible. |
+| TRUE               | READ_PORT_X WRITE_PORT_X         | Not possible. |
 
 ## -returns
 

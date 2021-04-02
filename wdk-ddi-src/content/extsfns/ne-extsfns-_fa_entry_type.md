@@ -94,7 +94,7 @@ The data block holds a null-terminated Unicode string. The <b>DataSize</b> membe
 
 ### -field DEBUG_FA_ENTRY_ARRAY
 
-A bitwise OR of this value and one of the basic types indicates an array. For example, if the data type is <b>DEBUG_FA_ENTRY_ARRAY | DEBUG_FA_ENTRY_POINTER</b>, the data block holds an array of pointers.
+A bitwise OR of this value and one of the basic types indicates an array. For example, if the data type is **DEBUG_FA_ENTRY_ARRAY** or **DEBUG_FA_ENTRY_POINTER**, the data block holds an array of pointers.
 
 ## -see-also
 
