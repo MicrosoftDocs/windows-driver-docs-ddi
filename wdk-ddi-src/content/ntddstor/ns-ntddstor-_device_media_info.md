@@ -4,7 +4,7 @@ title: _DEVICE_MEDIA_INFO (ntddstor.h)
 description: A storage class driver returns an array of DEVICE_MEDIA_INFO structures, embedded in a GET_MEDIA_TYPES structure, in response to an IOCTL_STORAGE_GET_MEDIA_TYPES_EX device-control request.
 old-location: storage\device_media_info.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 04/01/2021
 keywords: ["DEVICE_MEDIA_INFO structure"]
 ms.keywords: "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure [Storage Devices], MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], _DEVICE_MEDIA_INFO, ntddstor/DEVICE_MEDIA_INFO, ntddstor/PDEVICE_MEDIA_INFO, storage.device_media_info, structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml"
 req.header: ntddstor.h
@@ -48,10 +48,9 @@ api_name:
 
 # _DEVICE_MEDIA_INFO structure (ntddstor.h)
 
-
 ## -description
 
-A storage class driver returns an array of <b>DEVICE_MEDIA_INFO</b> structures, embedded in a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_get_media_types">GET_MEDIA_TYPES</a> structure, in response to an <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> device-control request.
+A storage class driver returns an array of **DEVICE_MEDIA_INFO** structures, embedded in a [**GET_MEDIA_TYPES**](ns-ntddstor-_get_media_types.md) structure, in response to an [**IOCTL_STORAGE_GET_MEDIA_TYPES_EX**](ni-ntddstor-ioctl_storage_get_media_types_ex.md) device-control request.
 
 ## -struct-fields
 
@@ -67,7 +66,7 @@ Specifies the number of cylinders on this disk.
 
 ### -field DeviceSpecific.DiskInfo.MediaType
 
-Specifies a <a href="/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a> of <b>FixedMedia</b>.
+Specifies a [**MEDIA_TYPE**](/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)) of **FixedMedia**.
 
 ### -field DeviceSpecific.DiskInfo.TracksPerCylinder
 
@@ -89,41 +88,12 @@ Specifies the number of sides of the disk that can contain data: either 1 for on
 
 Specifies characteristics of the disk indicated by one or more of the following flags.
 
-<a id="MEDIA_CURRENTLY_MOUNTED_"></a>
-<a id="media_currently_mounted_"></a>
-
-
-###### DiskInfo.MediaCharacteristics.MEDIA_CURRENTLY_MOUNTED
-
-<a id="MEDIA_ERASEABLE_"></a>
-<a id="media_eraseable_"></a>
-
-
-###### DiskInfo.MediaCharacteristics.MEDIA_ERASEABLE
-
-<a id="MEDIA_READ_ONLY_"></a>
-<a id="media_read_only_"></a>
-
-
-###### DiskInfo.MediaCharacteristics.MEDIA_READ_ONLY
-
-<a id="MEDIA_READ_WRITE_"></a>
-<a id="media_read_write_"></a>
-
-
-###### DiskInfo.MediaCharacteristics.MEDIA_READ_WRITE
-
-<a id="MEDIA_WRITE_ONCE_"></a>
-<a id="media_write_once_"></a>
-
-
-###### DiskInfo.MediaCharacteristics.MEDIA_WRITE_ONCE
-
-<a id="MEDIA_WRITE_PROTECTED_"></a>
-<a id="media_write_protected_"></a>
-
-
-###### DiskInfo.MediaCharacteristics.MEDIA_WRITE_PROTECTED
+* MEDIA_ERASEABLE         0x00000001
+* MEDIA_WRITE_ONCE        0x00000002
+* MEDIA_READ_ONLY         0x00000004
+* MEDIA_READ_WRITE        0x00000008
+* MEDIA_WRITE_PROTECTED   0x00000100
+* MEDIA_CURRENTLY_MOUNTED 0x80000000
 
 ### -field DeviceSpecific.RemovableDiskInfo
 
@@ -135,7 +105,7 @@ Specifies the number of cylinders on this disk.
 
 ### -field DeviceSpecific.RemovableDiskInfo.MediaType
 
-Specifies a <a href="/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)">MEDIA_TYPE</a> or <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_media_type">STORAGE_MEDIA_TYPE</a> value that indicates the type of removable disk.
+Specifies a [**MEDIA_TYPE**](/previous-versions/windows/hardware/drivers/ff562216(v=vs.85)) or [**STORAGE_MEDIA_TYPE**](ne-ntddstor-_storage_media_type.md) value that indicates the type of removable disk.
 
 ### -field DeviceSpecific.RemovableDiskInfo.TracksPerCylinder
 
@@ -155,7 +125,7 @@ Specifies the number of sides of the disk that can contain data: 1 for one-sided
 
 ### -field DeviceSpecific.RemovableDiskInfo.MediaCharacteristics
 
-Specifies characteristics of the disk, indicated by MEDIA_<i>XXX</i> flags ORed together. For a list of these flags, see the <b>DeviceSpecific.DiskInfo.MediaCharacteristics</b> member of the <b>DeviceSpecific.DiskInfo</b> structure.
+Specifies characteristics of the disk, indicated by MEDIA_*XXX* flags ORed together. For a list of these flags, see the **DeviceSpecific.DiskInfo.MediaCharacteristics** member of the **DeviceSpecific.DiskInfo** structure.
 
 ### -field DeviceSpecific.TapeInfo
 
@@ -163,11 +133,11 @@ Describes a tape.
 
 ### -field DeviceSpecific.TapeInfo.MediaType
 
-Specifies a <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_media_type">STORAGE_MEDIA_TYPE</a> value that indicates the type of tape described in this structure.
+Specifies a [**STORAGE_MEDIA_TYPE**](ne-ntddstor-_storage_media_type.md) value that indicates the type of tape described in this structure.
 
 ### -field DeviceSpecific.TapeInfo.MediaCharacteristics
 
-Specifies characteristics of the tape, indicated by MEDIA_<i>XXX</i> flags ORed together. For a list of these flags, see the <b>DeviceSpecific.DiskInfo.MediaCharacteristics</b> member of the <b>DeviceSpecific.DiskInfo</b> structure.
+Specifies characteristics of the tape, indicated by MEDIA_*XXX* flags ORed together. For a list of these flags, see the **DeviceSpecific.DiskInfo.MediaCharacteristics** member of the **DeviceSpecific.DiskInfo** structure.
 
 ### -field DeviceSpecific.TapeInfo.CurrentBlockSize
 
@@ -175,7 +145,7 @@ Specifies the current block size, in bytes.
 
 ### -field DeviceSpecific.TapeInfo.BusType
 
-Specifies a value of type <a href="/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that indicates the bus type.
+Specifies a value of type [**STORAGE_BUS_TYPE**](ne-ntddstor-storage_bus_type.md) that indicates the bus type.
 
 ### -field DeviceSpecific.TapeInfo.BusSpecificData
 
@@ -191,45 +161,14 @@ Specifies the SCSI-specific medium type.
 
 Specifies the SCSI-specific current operating density for read/write operations.
 
-
-####### - DeviceSpecific.DiskInfo.MediaCharacteristics.MEDIA_CURRENTLY_MOUNTED
-
-<a id="MEDIA_ERASEABLE_"></a>
-<a id="media_eraseable_"></a>
-
-####### - DeviceSpecific.DiskInfo.MediaCharacteristics.MEDIA_ERASEABLE
-
-<a id="MEDIA_READ_ONLY_"></a>
-<a id="media_read_only_"></a>
-
-####### - DeviceSpecific.DiskInfo.MediaCharacteristics.MEDIA_READ_ONLY
-
-<a id="MEDIA_READ_WRITE_"></a>
-<a id="media_read_write_"></a>
-
-####### - DeviceSpecific.DiskInfo.MediaCharacteristics.MEDIA_READ_WRITE
-
-<a id="MEDIA_WRITE_ONCE_"></a>
-<a id="media_write_once_"></a>
-
-####### - DeviceSpecific.DiskInfo.MediaCharacteristics.MEDIA_WRITE_ONCE
-
-<a id="MEDIA_WRITE_PROTECTED_"></a>
-<a id="media_write_protected_"></a>
-
-####### - DeviceSpecific.DiskInfo.MediaCharacteristics.MEDIA_WRITE_PROTECTED
-
 ## -remarks
 
-This structure is used by a storage driver to indicate the types of media supported by a device and which type is currently mounted, if any. A driver must provide this information if it might control drives in a media library or changer or if its device might be accessed by the Removable Storage Manager (RSM). 
+This structure is used by a storage driver to indicate the types of media supported by a device and which type is currently mounted, if any. A driver must provide this information if it might control drives in a media library or changer or if its device might be accessed by the Removable Storage Manager (RSM).
 
-The driver fills in an array of <b>DEVICE_MEDIA_INFO</b> structures, one for each medium type supported by the device, embedded in a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_get_media_types">GET_MEDIA_TYPES</a> structure.
+The driver fills in an array of **DEVICE_MEDIA_INFO** structures, one for each medium type supported by the device, embedded in a [**GET_MEDIA_TYPES**](ns-ntddstor-_get_media_types.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_media_type">STORAGE_MEDIA_TYPE</a>
+[**STORAGE_MEDIA_TYPE**](ne-ntddstor-_storage_media_type.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaTypes</a>
-
+[**TapeMiniGetMediaTypes**](../minitape/nc-minitape-tape_process_command_routine.md)
