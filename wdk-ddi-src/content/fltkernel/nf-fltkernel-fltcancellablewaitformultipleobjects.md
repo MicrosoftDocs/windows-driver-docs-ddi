@@ -79,85 +79,20 @@ A time-out value of zero (that is, *Timeout == 0) allows you to test a set of wa
 
 ### -param CallbackData
 
-[in] A pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure that represents the I/O operation that was issued by the user and that can be canceled by the user. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, [**FltSetCancelCompletion**](nf-fltkernel-fltsetcancelcompletion.md) function must not have been called on the I/O operation). Note that the **CallbackData** must be held by the caller as it cannot be passed to a lower-level driver. This parameter is optional and can be NULL.
+[in] A pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure that represents the I/O operation that was issued by the user and that can be canceled by the user. This parameter is optional and can be NULL. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, [**FltSetCancelCompletion**](nf-fltkernel-fltsetcancelcompletion.md) function must not have been called on the I/O operation). Note that the **CallbackData** must be held by the caller as it cannot be passed to a lower-level driver.
 
 ## -returns
 
 **FltCancellableWaitForMultipleObjects** can return one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_SUCCESS**</dt>
-</dl>
-</td>
-<td width="60%">
-The caller specified **WaitAll** for the **WaitType** parameter and all dispatcher objects in the **ObjectArray** array have been set to the signaled state. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_TIMEOUT**</dt>
-</dl>
-</td>
-<td width="60%">
-A time-out occurred before the specified set of wait conditions was met. This value can also be returned when the specified set of wait conditions cannot be immediately met and Timeout is set to zero. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_WAIT_0 through STATUS_WAIT_63**</dt>
-</dl>
-</td>
-<td width="60%">
-The caller specified **WaitAny** for **WaitType** and one of the dispatcher objects in the **ObjectArray** array has been set to the signaled state. The lower six bits of the return value encode the zero-based index of the object that satisfied the wait. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_ABANDONED_WAIT_0 through STATUS_ABANDONED_WAIT_63**</dt>
-</dl>
-</td>
-<td width="60%">
-The caller attempted to wait for a mutex that has been abandoned. The lower six bits of the return value encode the zero-based index of the mutex in the **ObjectArray** array. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_CANCELLED**</dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted by a pending cancel request on the I/O operation. Note that this value is returned only if **CallbackData** that corresponds to an IRP based operation is passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancellablewaitformultipleobjects">FltCancellableWaitForMultipleObjects**]() and the I/O was canceled by a routine such as <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelio">FltCancelIo**]().
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_THREAD_IS_TERMINATING**</dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted because an application or the user has terminated the thread.
-
-</td>
-</tr>
-</table>
- 
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_SUCCESS | The caller specified **WaitAll** for the **WaitType** parameter and all dispatcher objects in the **ObjectArray** array have been set to the signaled state. |
+| STATUS_TIMEOUT | A time-out occurred before the specified set of wait conditions was met. This value can also be returned when the specified set of wait conditions cannot be immediately met and Timeout is set to zero. |
+| STATUS_WAIT_0 through STATUS_WAIT_63 | The caller specified **WaitAny** for **WaitType** and one of the dispatcher objects in the **ObjectArray** array has been set to the signaled state. The lower six bits of the return value encode the zero-based index of the object that satisfied the wait. |
+| STATUS_ABANDONED_WAIT_0 through STATUS_ABANDONED_WAIT_63 | The caller attempted to wait for a mutex that has been abandoned. The lower six bits of the return value encode the zero-based index of the mutex in the **ObjectArray** array. |
+| STATUS_CANCELLED | The wait was interrupted by a pending cancel request on the I/O operation. Note that this value is returned only if **CallbackData** that corresponds to an IRP based operation is passed to **FltCancellableWaitForMultipleObjects** and the I/O was canceled by a routine such as [**FltCancelIo**](nf-fltkernel-fltcancelio.md). |
+| STATUS_THREAD_IS_TERMINATING | The wait was interrupted because an application or the user has terminated the thread. |
 
 The return value only indicates the status of the wait.
 
@@ -165,9 +100,9 @@ Note that the NT_SUCCESS macro returns **FALSE** ("failure") for the STATUS_CANC
 
 ## -remarks
 
-The **FltCancellableWaitForMultipleObjects** executes a cancelable wait operation on dispatcher objects. If the user or the application terminates the thread, or if an I/O operation associated with the thread was canceled by a routine such as <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelio">FltCancelIo**](), the wait is canceled.
+The **FltCancellableWaitForMultipleObjects** executes a cancelable wait operation on dispatcher objects. If the user or the application terminates the thread, or if an I/O operation associated with the thread was canceled by a routine such as [**FltCancelIo**](nf-fltkernel-fltcancelio.md), the wait is canceled.
 
-The routine is designed to support the <a href="/previous-versions/windows/hardware/design/dn613954(v=vs.85)">I/O Completion/Cancellation Guidelines**](). The goal of these guidelines is to allow users to quickly terminate applications. This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O and any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, dispatcher objects, or synchronization variables in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
+The routine is designed to support the [I/O Completion/Cancellation Guidelines](/previous-versions/windows/hardware/design/dn613954(v=vs.85)). The goal of these guidelines is to allow users to quickly terminate applications. This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O and any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, dispatcher objects, or synchronization variables in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
 
 For example, a redirector may need to create one or more secondary I/O operations in order to process a user-mode I/O and synchronously wait for the secondary requests to complete. One way to do this is to set up an event that will be signaled by the completion routine of the secondary I/O operations and then wait for the event to be signaled. Then, to perform a cancelable wait operation, **FltCancellableWaitForMultipleObjects** is called passing in the events associated with the secondary I/O operations, and the original user-mode I/O operation. The thread's wait for the event to be signaled is canceled if a pending termination event occurs or if the original user-mode I/O operation is canceled.
 
@@ -175,59 +110,38 @@ Note that terminating the wait does not automatically cancel any I/O operation t
 
 Each thread object has a built-in array of wait blocks that you can use to wait on several objects concurrently. Whenever possible, you should use the built-in array of wait blocks in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that you must wait on concurrently is greater than the number of built-in wait blocks, use the **WaitBlockArray** parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently-large memory buffer for **WaitBlockArray**. You do not need to initialize the buffer, and the drivers can treat it as an opaque structure. You can free the buffer once the routine returns.
 
-If either Count is greater than MAXIMUM_WAIT_OBJECTS or if **WaitBlockArray** is NULL and Count is greater than THREAD_WAIT_OBJECTS, the system issues <a href="/windows-hardware/drivers/debugger/bug-check-0xc--maximum-wait-objects-exceeded">Bug Check 0xC: MAXIMUM_WAIT_OBJECTS_EXCEEDED**]().
+If either Count is greater than MAXIMUM_WAIT_OBJECTS or if **WaitBlockArray** is NULL and Count is greater than THREAD_WAIT_OBJECTS, the system issues [Bug Check 0xC: MAXIMUM_WAIT_OBJECTS_EXCEEDED](/windows-hardware/drivers/debugger/bug-check-0xc--maximum-wait-objects-exceeded).
 
 A special consideration applies when one or more of the elements in the **ObjectArray** parameter passed to **FltCancellableWaitForMultipleObjects** refers to a mutex. If the dispatcher object that is waited on is a mutex, APC delivery is the same as for all other dispatcher objects during the wait. However, once **FltCancellableWaitForMultipleObjects** returns with STATUS_SUCCESS and the thread actually holds the mutex, only special kernel-mode APCs are delivered. Delivery of all other APCs, both kernel-mode and user-mode, is disabled. This restriction on the delivery of APCs persists until the mutex is released.
 
-A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception. 
+A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-The **FltCancellableWaitForMultipleObjects** routine must be called at IRQL PASSIVE_LEVEL if the **CallbackData** parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion**]() or <a href="/windows-hardware/drivers/ifs/fsrtlenterfilesystem">FsRtlEnterFileSystem**]() routines. However, special kernel APCs must not be disabled. 
+The **FltCancellableWaitForMultipleObjects** routine must be called at IRQL PASSIVE_LEVEL if the **CallbackData** parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) routines. However, special kernel APCs must not be disabled.
 
 **FltCancellableWaitForMultipleObjects** will assert on debug builds if the **CallbackData** represents a Filter Manager IRP operation, but the IRP in the **CallbackData** structure is NULL.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi">ExInitializeFastMutex**](../wdm/nf-wdm-exinitializefastmutex.md)
+[**ExInitializeFastMutex**](../wdm/nf-wdm-exinitializefastmutex.md)
 
+[**FltCancelIo**](nf-fltkernel-fltcancelio.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/">FltCancelIo**](nf-fltkernel-fltcancelio.md)
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/">FltCancellableWaitForSingleObject**](nf-fltkernel-fltcancellablewaitforsingleobject.md)
-
-
+[**FltCancellableWaitForSingleObject**](nf-fltkernel-fltcancellablewaitforsingleobject.md)
 
 [**FltSetCancelCompletion**](nf-fltkernel-fltsetcancelcompletion.md)
 
+[**FsRtlCancellableWaitForMultipleObjects**](../ntifs/nf-ntifs-fsrtlcancellablewaitformultipleobjects.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlcancellablewaitformultipleobjects">FsRtlCancellableWaitForMultipleObjects**]()
+[**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 
+[**KeInitializeMutex**](../wdm/nf-wdm-keinitializemutex.md)
 
+[**KeInitializeSemaphore**](../wdm/nf-wdm-keinitializesemaphore.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent**]()
+[**KeInitializeTimer**](../wdm/nf-wdm-keinitializetimer.md)
 
+[**KeWaitForMultipleObjects**](../wdm/nf-wdm-kewaitformultipleobjects.md)
 
+[**KeWaitForMutexObject**](https://msdn.microsoft.com/library/windows/hardware/ff553344)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex**]()
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializesemaphore">KeInitializeSemaphore**]()
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer**]()
-
-
-
-**KeWaitForMultipleObjects**
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject**]()
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject**]()
+[**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
