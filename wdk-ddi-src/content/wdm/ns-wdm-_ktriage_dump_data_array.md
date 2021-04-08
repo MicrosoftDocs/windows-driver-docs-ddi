@@ -66,7 +66,7 @@ A pointer to a [**LIST_ENTRY**](/windows/win32/api/ntdef/ns-ntdef-list_entry) st
 
 ## -remarks
 
-A driver provides a pointer to a structure of this type when it calls the [**KeAddTriageDumpDataBlock**](./nf-wdm-keaddtriagedumpdatablock.md) function.
+A driver initializes this structure by calling [**KeInitializeTriageDumpDataArray**](./nf-wdm-keinitializetriagedumpdataarray.md) function. A driver provides a pointer to a structure of this type when it calls the [**KeAddTriageDumpDataBlock**](./nf-wdm-keaddtriagedumpdatablock.md) function.
 
 ## -see-also
 
