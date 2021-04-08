@@ -169,7 +169,7 @@ Reserved for future use.
 
 ### -field StorageDeviceManagementStatus
 
-Provides health information about the storage device (specifically for the persistent memory stack).
+The caller is querying for health information about the storage device (specifically for the persistent memory stack).
 
 ### -field StorageAdapterSerialNumberProperty
 
@@ -181,7 +181,7 @@ Reserved for system use.
 
 ### -field StorageDeviceNumaProperty
 
-Provides the non-uniform memory access (NUMA) node of the storage device.
+The caller is querying for the non-uniform memory access (NUMA) node of the storage device.
 
 ### -field StorageDeviceZonedDeviceProperty
 
@@ -193,11 +193,11 @@ Provides the unsafe shutdown count value used to determine if the device data mi
 
 ### -field StorageDeviceEnduranceProperty
 
-Provides info on how many bytes have been read/write from a solid-state drive (SSD). This property is currently supported only for Non-Volatile Memory Express (NVMe) devices that implement a certain NVMe feature.
+The caller is querying for how many bytes have been read/write from a solid-state drive (SSD). This property is currently supported only for Non-Volatile Memory Express (NVMe) devices that implement a certain NVMe feature.
 
 ### -field StorageDeviceLedStateProperty
 
-The caller is querying for the LED state of the device. Data is returned using the [**STORAGE_DEVICE_LED_STATE_DESCRIPTOR**](ns-ntddstor-storage_device_led_state_descriptor.md) structure. This property is currently supported only for NVMe devices that implement a certain NVMe feature. Supported in Windows 10 version 21H1 and later.
+The caller is querying for the LED state of the device. Data is returned using the [**STORAGE_DEVICE_LED_STATE_DESCRIPTOR**](ns-ntddstor-storage_device_led_state_descriptor.md) structure. This property is currently supported only for certain NVMe devices. Supported in Windows 10 version 21H1 and later.
 
 ### -field StorageDeviceSelfEncryptionProperty
 

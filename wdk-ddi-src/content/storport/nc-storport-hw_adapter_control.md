@@ -94,12 +94,12 @@ The following table lists the current IRQL and the spinlock acquired when the co
 | **ScsiAdapterPoFxPowerControl**           | <= DISPATCH_LEVEL | None |
 | **ScsiAdapterPrepareForBusReScan**        | PASSIVE_LEVEL     | None |
 | **ScsiAdapterSystemPowerHints**           | PASSIVE_LEVEL     | None |
-| **ScsiAdapterFilterResourceRequirements** |  |  |
-| **ScsiAdapterPoFxMaxOperationalPower**    |  |  |
-| **ScsiAdapterPoFxSetPerfState**           |  |  |
-| **ScsiAdapterSurpriseRemoval**            |  | |
-| **ScsiAdapterSerialNumber**               |  | |
-| **ScsiAdapterCryptoOperation**            |  | |
+| **ScsiAdapterFilterResourceRequirements** | < DISPATCH_LEVEL  | None |
+| **ScsiAdapterPoFxMaxOperationalPower**    | PASSIVE_LEVEL     | None |
+| **ScsiAdapterPoFxSetPerfState**           | <= DISPATCH_LEVEL | None |
+| **ScsiAdapterSurpriseRemoval**            | < DISPATCH_LEVEL  | None |
+| **ScsiAdapterSerialNumber**               | < DISPATCH_LEVEL  | None |
+| **ScsiAdapterCryptoOperation**            | PASSIVE_LEVEL     | None |
 | **ScsiAdapterQueryFruId**                 | PASSIVE_LEVEL     | None |
 | **ScsiAdapterSetEventLogging**            | PASSIVE_LEVEL     | None |
 

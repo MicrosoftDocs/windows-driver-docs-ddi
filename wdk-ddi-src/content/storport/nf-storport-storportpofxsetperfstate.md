@@ -56,7 +56,7 @@ Address of the device being registered. Currently only adapters are supported, s
 
 ### -param Component
 
-The index that identifies the component whose P-states will be managed. This parameter is an index into the 
+The index that identifies the component whose P-states will be managed. This parameter is an index into the **Components**array in the [**STOR_POFX_DEVICE**](ns-storport-_stor_pofx_device_v3.md) structure that the miniport used to register the device for Storport PoFx support. If the **Components** array contains N elements, component indexes range from 0 to N–1.
 
 ### -param Flags
 
@@ -68,7 +68,7 @@ The index of a previously registered perf set.
 
 ### -param State
 
-If the perf set contains discrete P-States, this should be an index value.  If the perf set is a range, this should be a value within that range.
+If the perf set contains discrete P-States, this should be an index value. If the perf set is a range, this should be a value within that range.
 
 ### -param Context
 
@@ -86,4 +86,3 @@ An arbitrary context that will be passed to the perf set change callback.
 ## -remarks
 
 ## -see-also
-

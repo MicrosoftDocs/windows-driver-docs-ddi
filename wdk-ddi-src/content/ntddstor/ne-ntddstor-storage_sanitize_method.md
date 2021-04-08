@@ -45,7 +45,7 @@ The **STORAGE_SANITIZE_METHOD** enumeration identifies the sanitize method for a
 
 ### -field StorageSanitizeMethodDefault
 
-Perform the default sanitize operation.
+Perform the default sanitize operation. Currently, the default is to perform a Crypto Erase sanitize operation.
 
 ### -field StorageSanitizeMethodBlockErase
 
