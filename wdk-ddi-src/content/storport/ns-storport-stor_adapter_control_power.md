@@ -58,7 +58,7 @@ A [**STOR_POWER_ACTION**](ne-storport-stor_power_action.md) value that indicates
 
 ### -field PowerState
 
-A [**STOR_DEVICE_POWER_STATE**](ne-storport-stor_device_power_state.md) value that indicates the current power state. This is either **StorPowerDeviceD0** or **StorPowerDeviceD3** for the power on or power off states respectively.
+A [**STOR_DEVICE_POWER_STATE**](ne-storport-_stor_device_power_state.md) value that indicates the current power state. This is either **StorPowerDeviceD0** or **StorPowerDeviceD3** for the power on or power off states respectively.
 
 ## -see-also
 

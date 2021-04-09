@@ -74,7 +74,7 @@ System priority level. The assigned priority level is 18.
 
 ## -remarks
 
-A miniport sets thread priority when it calls [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md) to create a thread, and can change thread priority in [**StorPortSetPriorityThread**](nf-storport-storportsetsystemthread.md).
+A miniport sets thread priority when it calls [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md) to create a thread, and can change thread priority in [**StorPortSetPriorityThread**](nf-storport-storportsetprioritythread.md).
 
 Every thread has a scheduling priority (its thread priority). Higher values indicate higher priority threads.
 
@@ -84,4 +84,4 @@ See [Thread Priorities](/windows-hardware/drivers/kernel/thread-priorities) for 
 
 [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md)
 
-[**StorPortSetPriorityThread**](nf-storport-storportsetsystemthread.md)
+[**StorPortSetPriorityThread**](nf-storport-storportsetprioritythread.md)

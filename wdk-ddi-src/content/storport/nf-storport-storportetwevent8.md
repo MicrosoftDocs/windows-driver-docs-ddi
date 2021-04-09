@@ -181,7 +181,7 @@ A description of the meaning of *Parameter4Value*. This parameter name string mu
 **StorPortEtwEvent8** returns one of the following status codes:
 
 | Return code | Description |
-| ----------- | ----------- |s
+| ----------- | ----------- |
 | STOR_STATUS_SUCCESS | The event was successfully logged. |
 | STOR_STATUS_NOT_IMPLEMENTED | Tracing is not enabled for storage events. |
 | STOR_STATUS_INVALID_PARAMETER | One of the parameters is invalid. For example, *HwDeviceExtension* or *EventDescription* are NULL, *EventDescription* is greater than the maximum name length, or an ETW parameter name is greater than the maximum name length. |
