@@ -128,7 +128,7 @@ Provides system power hints to the miniport. The Storport driver calls [**HwStor
 
 ### -field ScsiAdapterFilterResourceRequirements
 
-Filters the required resources for the adapter. The Storport driver calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with this [IRP_MN_FILTER_RESOURCE_REQUIREMENTS](../kernel/irp-mn-filter-resource-requirements.md) control type and **Parameters** pointing to a [**STOR_FILTER_RESOURCE_REQUIREMENTS**](ns-storport-stor_filter_resource_requirements.md) structure when Storport processes the request and miniport has the STOR_FEATURE_ADAPTER_CONTROL_PRE_FINDADAPTER flag set in the **FeatureSupport** field of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md). Note that the **DeviceExtension** passed in for this control type will be uninitialized.
+Filters the required resources for the adapter. The Storport driver calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with this [IRP_MN_FILTER_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements) control type and **Parameters** pointing to a [**STOR_FILTER_RESOURCE_REQUIREMENTS**](ns-storport-stor_filter_resource_requirements.md) structure when Storport processes the request and miniport has the STOR_FEATURE_ADAPTER_CONTROL_PRE_FINDADAPTER flag set in the **FeatureSupport** field of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md). Note that the **DeviceExtension** passed in for this control type will be uninitialized.
 
 The miniport driver should change or reduce the resources described in the buffer using the **STOR_FILTER_RESOURCE_REQUIREMENTS** structure. This control type is valid in Windows 8.1 and later.
 
