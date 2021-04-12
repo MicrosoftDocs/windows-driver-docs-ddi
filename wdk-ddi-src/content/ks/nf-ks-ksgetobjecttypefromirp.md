@@ -4,7 +4,7 @@ title: KsGetObjectTypeFromIrp function (ks.h)
 description: The KsGetObjectTypeFromIrp function returns the AVStream object type that is associated with a given IRP.
 old-location: stream\ksgetobjecttypefromirp.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/12/2021
 keywords: ["KsGetObjectTypeFromIrp function"]
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
 req.header: ks.h
@@ -43,34 +43,31 @@ api_name:
 
 # KsGetObjectTypeFromIrp function
 
-
 ## -description
 
-The<b> KsGetObjectTypeFromIrp</b> function returns the AVStream object type that is associated with a given IRP.
+The **KsGetObjectTypeFromIrp** function returns the AVStream object type that is associated with a given IRP.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp
 
 [in]
-A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to find the associated AVStream object type.
+A pointer to the [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure for which to find the associated AVStream object type.
 
 ## -returns
 
-<b>KsGetObjectTypeFromIrp</b> returns the type of AVStream object associated with the given IRP as a <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksobjecttype">KSOBJECTTYPE</a> enumeration. This is one of the following: <b>KsObjectTypeDevice</b>, <b>KsObjectTypeFilterFactory</b>, <b>KsObjectTypeFilter</b>, <b>KsObjectTypePin</b>.
+**KsGetObjectTypeFromIrp** returns the type of AVStream object associated with the given IRP as a [KSOBJECTTYPE](/windows-hardware/drivers/ddi/ks/ne-ks-ksobjecttype) enumeration. This is one of the following: **KsObjectTypeDevice**, **KsObjectTypeFilterFactory**, **KsObjectTypeFilter**, **KsObjectTypePin**.
+
+## -remarks
+
+The **KsGetObjectTypeFromIrp** function does not check that the I/O request packet (IRP) is associated with a KS object. If it is not, this may result in a memory access error. Driver developers should consider using structured exception handling to catch a possible exception.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+[IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
 
+[KsAddIrpToCancelableQueue](/windows-hardware/drivers/ddi/ks/nf-ks-ksaddirptocancelablequeue)
 
+[KsDispatchIrp](/windows-hardware/drivers/ddi/ks/nf-ks-ksdispatchirp)
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksaddirptocancelablequeue">KsAddIrpToCancelableQueue</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdispatchirp">KsDispatchIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksforwardirp">KsForwardIrp</a>
+[KsForwardIrp](/windows-hardware/drivers/ddi/ks/nf-ks-ksforwardirp)
