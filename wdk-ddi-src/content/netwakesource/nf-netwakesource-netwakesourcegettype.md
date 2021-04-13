@@ -55,7 +55,7 @@ The NETWAKESOURCE object that represents this wake source.
 
 ## -returns
 
-Returns a [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md) value that specifies the wake source type.
+Returns a [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) value that specifies the wake source type.
 
 ## -remarks
 
@@ -65,6 +65,6 @@ The client driver must only call **NetWakeSourceGetType** during a power transit
 
 [Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
-[**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md)
+[**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md)
 
 [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)

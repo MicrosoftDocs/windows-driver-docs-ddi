@@ -5,7 +5,7 @@ title: EVT_NET_ADAPTER_SET_RECEIVE_FILTER
 ms.date: 04/15/2021
 ms.topic: language-reference
 targetos: Windows
-description: The client driver implements EvtNetAdapterSetReceiveFilter to set changes in a net adapter's active receive filtering capabilities.
+description: The client driver implements EvtNetAdapterSetReceiveFilter to set changes in a network adapter's active receive filtering capabilities.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The client driver implements the *EvtNetAdapterSetReceiveFilter* callback function to set changes in a net adapter's active receive filtering capabilities.
+The client driver implements the *EvtNetAdapterSetReceiveFilter* callback function to set changes in a network adapter's active receive filtering capabilities.
 
 ## -parameters
 
@@ -61,6 +61,8 @@ Register your implementation of this callback function by setting the appropriat
 ## -see-also
 
 [**NetAdapterSetReceiveFilterCapabilities**](nf-netadapter-netadaptersetreceivefiltercapabilities.md)
+
+[**NetReceiveFilterGetPacketFilter**](nf-netadapter-netreceivefiltergetpacketfilter.md)
 
 [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT**](nf-netadapter-net_adapter_receive_filter_capabilities_init.md)
 

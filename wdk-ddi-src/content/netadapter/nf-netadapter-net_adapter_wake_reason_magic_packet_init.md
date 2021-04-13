@@ -63,7 +63,7 @@ This function does not return a value.
 
 ## -remarks
 
-When the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md) is
+When the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) is
 NetWakeSourceTypeMagicPacket, call **NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT** to initialize the [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure. Call [**NetAdapterReportWakeReasonPacket**](./nf-netadapter-netadapterreportwakereasonpacket.md) to report this wake reason to NetAdapterCx.
 
 This function zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** structure, sets the **Size** member, and sets the **PatternId** member to NetAdapterWakeMagicPatternId.
@@ -76,5 +76,5 @@ This function zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** s
 
 [**NetAdapterReportWakeReasonPacket**](./nf-netadapter-netadapterreportwakereasonpacket.md)
 
-[**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md)
+[**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md)
 

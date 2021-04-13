@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **NetReceiveFilterGetMulticastAddressList** function retrieves a net adapter's list of addresses that can receive multicast packets.
+The **NetReceiveFilterGetMulticastAddressList** function retrieves a network adapter's multicast address list.
 
 ## -parameters
 
@@ -52,22 +52,18 @@ The **NetReceiveFilterGetMulticastAddressList** function retrieves a net adapter
 
 ## -returns
 
-Returns a pointer to the first **NET_ADAPTER_LINK_LAYER_ADDRESS** structure in the net adapter's multicast address list.
+Returns a pointer to the first **NET_ADAPTER_LINK_LAYER_ADDRESS** structure in the network adapter's multicast address list.
 
 ## -remarks
+
+Client drivers typically call this function during their [*EvtNetAdapterSetReceiveFilter*](nc-netadapter-evt_net_adapter_set_receive_filter.md) callback to get an updated multicast address list that the NIC must enable.
 
 ## -see-also
 
 [**NetReceiveFilterGetMulticastAddressCount**](nf-netadapter-netreceivefiltergetmulticastaddresscount.md)
 
-[**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md)
+[**NetReceiveFilterGetPacketFilter**](nf-netadapter-netreceivefiltergetpacketfilter.md)
 
 [*EVT_NET_ADAPTER_SET_RECEIVE_FILTER*](nc-netadapter-evt_net_adapter_set_receive_filter.md)
-
-[**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT**](nf-netadapter-net_adapter_receive_filter_capabilities_init.md)
-
-[**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md)
-
-[**NetAdapterSetReceiveFilterCapabilities**](nf-netadapter-netadaptersetreceivefiltercapabilities.md)
 
 

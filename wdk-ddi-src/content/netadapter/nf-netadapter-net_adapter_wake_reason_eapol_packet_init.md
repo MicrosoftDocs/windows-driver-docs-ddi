@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -52,7 +52,7 @@ The client driver calls the  **NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT** funct
 
 ## -remarks
 
-When the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md) is
+When the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) is
 NetWakeSourceTypeEapolPacket, call **NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT** to initialize the [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure. Call [**NetAdapterReportWakeReasonPacket**](./nf-netadapter-netadapterreportwakereasonpacket.md) to report this wake reason to NetAdapterCx.
 
 This function zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** structure, sets the **Size** member, and sets the **PatternId** member to NetAdapterWakeEapolPatternId.
@@ -67,4 +67,4 @@ This function zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** s
 
 [**NetAdapterReportWakeReasonPacket**](./nf-netadapter-netadapterreportwakereasonpacket.md)
 
-[**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-net_wake_source_type.md)
+[**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md)

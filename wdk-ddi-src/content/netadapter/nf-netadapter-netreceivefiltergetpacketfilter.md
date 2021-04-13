@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **NetReceiveFilterGetPacketFilter** function retrieves the **NET_PACKET_FILTER_FLAGS**. These flags describe the packet filters that the net adapter supports.
+The **NetReceiveFilterGetPacketFilter** function retrieves the **NET_PACKET_FILTER_FLAGS**. These flags describe the packet filters that the network adapter supports.
 
 ## -parameters
 
@@ -56,10 +56,14 @@ Returns a [**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md
 
 ## -remarks
 
-The **NET_PACKET_FILTER_FLAGS** enumeration is used to specify the receive packet filters in the [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure.
+Client drivers typically call **NetReceiveFilterGetPacketFilter** during their [*EvtNetAdapterSetReceiveFilter*](nc-netadapter-evt_net_adapter_set_receive_filter.md) callback to get an updated set of [**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md) that the NIC must filter.
 
 ## -see-also
 
-[**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md)
+[*EVT_NET_ADAPTER_SET_RECEIVE_FILTER*](nc-netadapter-evt_net_adapter_set_receive_filter.md)
 
 [**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md) 
+
+[**NetReceiveFilterGetMulticastAddressCount**](nf-netadapter-netreceivefiltergetmulticastaddresscount.md)
+
+[**NetReceiveFilterGetMulticastAddressList**](nf-netadapter-netreceivefiltergetmulticastaddresslist.md)

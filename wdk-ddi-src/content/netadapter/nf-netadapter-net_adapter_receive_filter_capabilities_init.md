@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -67,7 +67,3 @@ The client driver calls **NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT** to init
 [**NetAdapterSetReceiveFilterCapabilities**](nf-netadapter-netadaptersetreceivefiltercapabilities.md)
 
 [**NET_PACKET_FILTER_FLAGS**](ne-netadapter-net_packet_filter_flags.md)
-
-[**NetReceiveFilterGetMulticastAddressList**](nf-netadapter-netreceivefiltergetmulticastaddresslist.md)
-
-[**NetReceiveFilterGetMulticastAddressCount**](nf-netadapter-netreceivefiltergetmulticastaddresscount.md)

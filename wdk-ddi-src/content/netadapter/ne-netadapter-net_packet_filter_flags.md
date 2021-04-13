@@ -12,8 +12,8 @@ req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -43,7 +43,7 @@ The **NET_PACKET_FILTER_FLAGS** enumeration describes a network adapter's receiv
 
 ### -field NetPacketFilterFlagDirected
 
-The network adapter can filter directed packets. Directed packets contain a destination address equal to the station address of the NIC.
+The network adapter can filter directed packets. Directed packets contain a destination address equal to the MAC address of the NIC.
 
 ### -field NetPacketFilterFlagMulticast
 
@@ -78,7 +78,3 @@ An initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_a
 [**NetAdapterSetReceiveFilterCapabilities**](nf-netadapter-netadaptersetreceivefiltercapabilities.md)
 
 [**NetReceiveFilterGetPacketFilter**](nf-netadapter-netreceivefiltergetpacketfilter.md)
-
-[**NetReceiveFilterGetMulticastAddressList**](nf-netadapter-netreceivefiltergetmulticastaddresslist.md)
-
-[**NetReceiveFilterGetMulticastAddressCount**](nf-netadapter-netreceivefiltergetmulticastaddresscount.md)
