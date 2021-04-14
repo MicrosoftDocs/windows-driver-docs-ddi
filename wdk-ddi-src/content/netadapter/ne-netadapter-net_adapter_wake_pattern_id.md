@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **NET_ADAPTER_WAKE_PATTERN_ID** enumeration specifies the wake pattern ID in the [**NET_ADAPTER_WAKE_REASON_PACKET**](nf-netadapter-net_adapter_wake_reason_packet.md) structure.
+The **NET_ADAPTER_WAKE_PATTERN_ID** enumeration specifies the wake pattern ID in the [**NET_ADAPTER_WAKE_REASON_PACKET**](nf-netadapter-_net_adapter_wake_reason_packet.md) structure.
 
 ## -enum-fields
 
@@ -54,10 +54,10 @@ The **NET_ADAPTER_WAKE_PATTERN_ID** enumeration specifies the wake pattern ID in
 
 See [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) for descriptions of each wake source type.
 
-An initialized [**NET_ADAPTER_WAKE_REASON_PACKET**](nf-netadapter-net_adapter_wake_reason_packet.md) structure is an input to [**NetAdapterReportWakeReasonPacket**](nf-netadapter-netadapterreportwakereasonpacket.md).
+An initialized [**NET_ADAPTER_WAKE_REASON_PACKET**](nf-netadapter-_net_adapter_wake_reason_packet.md) structure is an input to [**NetAdapterReportWakeReasonPacket**](nf-netadapter-netadapterreportwakereasonpacket.md).
 
 ## -see-also
 
-[**NET_ADAPTER_WAKE_REASON_PACKET**](nf-netadapter-net_adapter_wake_reason_packet.md)
+[**NET_ADAPTER_WAKE_REASON_PACKET**](nf-netadapter-_net_adapter_wake_reason_packet.md)
 
 [**NetAdapterReportWakeReasonPacket**](nf-netadapter-netadapterreportwakereasonpacket.md)

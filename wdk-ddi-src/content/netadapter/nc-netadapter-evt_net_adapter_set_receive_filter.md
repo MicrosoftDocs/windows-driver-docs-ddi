@@ -13,7 +13,7 @@ req.dll:
 req.header: netadapter.h
 req.idl: 
 req.include-header: netadaptercx.h
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
