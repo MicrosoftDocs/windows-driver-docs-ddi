@@ -1,7 +1,7 @@
 ---
 UID: NE:storport.__unnamed_enum_3
 tech.root: storage
-title: SRBEX_DATA_NVME_COMMAND_TYPE (storport.h)
+title: SRBEX_DATA_NVME_COMMAND_FLAG (storport.h)
 ms.date: 05/13/2021
 targetos: Windows
 description: SRBEX_DATA_NVME_COMMAND_FLAG enumerates the properties of a particular SRBEX Data NVMe command.
