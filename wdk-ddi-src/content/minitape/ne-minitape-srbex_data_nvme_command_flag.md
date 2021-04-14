@@ -1,17 +1,17 @@
 ---
-UID: NE:storport.__unnamed_enum_3
+UID: NE:minitape.__unnamed_enum_3
 tech.root: storage
-title: SRBEX_DATA_NVME_COMMAND_FLAG (storport.h)
+title: SRBEX_DATA_NVME_COMMAND_FLAG (minitape.h)
 ms.date: 05/13/2021
 targetos: Windows
 description: SRBEX_DATA_NVME_COMMAND_FLAG enumerates the properties of a particular SRBEX Data NVMe command.
 req.construct-type: enumeration
 req.ddi-compliance: 
-req.header: storport.h
+req.header: minitape.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10, version 21H1
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -21,15 +21,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - storport.h
+ - minitape.h
 api_name:
  - PSRBEX_DATA_NVME_COMMAND_FLAG
  - SRBEX_DATA_NVME_COMMAND_FLAG
 f1_keywords:
  - PSRBEX_DATA_NVME_COMMAND_FLAG
- - storport/PSRBEX_DATA_NVME_COMMAND_FLAG
+ - minitape/PSRBEX_DATA_NVME_COMMAND_FLAG
  - SRBEX_DATA_NVME_COMMAND_FLAG
- - storport/SRBEX_DATA_NVME_COMMAND_FLAG
+ - minitape/SRBEX_DATA_NVME_COMMAND_FLAG
 dev_langs:
  - c++
 ---

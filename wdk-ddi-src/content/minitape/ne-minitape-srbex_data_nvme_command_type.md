@@ -1,13 +1,13 @@
 ---
-UID: NE:storport.__unnamed_enum_2
+UID: NE:minitape.__unnamed_enum_2
 tech.root: storage
-title: SRBEX_DATA_NVME_COMMAND_TYPE (storport.h)
+title: SRBEX_DATA_NVME_COMMAND_TYPE (minitape.h)
 ms.date: 05/13/2021
 targetos: Windows
 description: SRBEX_DATA_NVME_COMMAND_TYPE enumerates the NVMe command types.
 req.construct-type: enumeration
 req.ddi-compliance: 
-req.header: storport.h
+req.header: minitape.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
@@ -21,15 +21,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - storport.h
+ - minitape.h
 api_name:
  - PSRBEX_DATA_NVME_COMMAND_TYPE
  - SRBEX_DATA_NVME_COMMAND_TYPE
 f1_keywords:
  - PSRBEX_DATA_NVME_COMMAND_TYPE
- - storport/PSRBEX_DATA_NVME_COMMAND_TYPE
+ - minitape/PSRBEX_DATA_NVME_COMMAND_TYPE
  - SRBEX_DATA_NVME_COMMAND_TYPE
- - storport/SRBEX_DATA_NVME_COMMAND_TYPE
+ - minitape/SRBEX_DATA_NVME_COMMAND_TYPE
 dev_langs:
  - c++
 ---

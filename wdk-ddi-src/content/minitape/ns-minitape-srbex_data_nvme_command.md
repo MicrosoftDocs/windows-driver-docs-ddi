@@ -1,14 +1,14 @@
 ---
-UID: NS:storport._SRBEX_DATA_NVME_COMMAND
+UID: NS:minitape._SRBEX_DATA_NVME_COMMAND
 tech.root: storage
-title: SRBEX_DATA_NVME_COMMAND (storport.h)
+title: SRBEX_DATA_NVME_COMMAND (minitape.h)
 ms.date: 05/13/2021
 targetos: Windows
 description: The SRBEX_DATA_NVME_COMMAND structure enables the user to frame and issue a command in NVMe format.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: storport.h
+req.header: minitape.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -25,18 +25,18 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - storport.h
+ - minitape.h
 api_name:
  - _SRBEX_DATA_NVME_COMMAND
  - PSRBEX_DATA_NVME_COMMAND
  - SRBEX_DATA_NVME_COMMAND
 f1_keywords:
  - _SRBEX_DATA_NVME_COMMAND
- - storport/_SRBEX_DATA_NVME_COMMAND
+ - minitape/_SRBEX_DATA_NVME_COMMAND
  - PSRBEX_DATA_NVME_COMMAND
- - storport/PSRBEX_DATA_NVME_COMMAND
+ - minitape/PSRBEX_DATA_NVME_COMMAND
  - SRBEX_DATA_NVME_COMMAND
- - storport/SRBEX_DATA_NVME_COMMAND
+ - minitape/SRBEX_DATA_NVME_COMMAND
 dev_langs:
  - c++
 ---
