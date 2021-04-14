@@ -1,7 +1,7 @@
 ---
 UID: NE:minitape.__unnamed_enum_2
 tech.root: storage
-title: SRBEX_DATA_NVME_COMMAND_TYPE
+title: SRBEX_DATA_NVME_COMMAND_TYPE (minitape.h)
 ms.date: 05/13/2021
 targetos: Windows
 description: SRBEX_DATA_NVME_COMMAND_TYPE enumerates the NVMe command types.

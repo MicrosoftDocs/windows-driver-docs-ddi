@@ -1,7 +1,7 @@
 ---
 UID: NS:srb._SRBEX_DATA_NVME_COMMAND
 tech.root: storage
-title: SRBEX_DATA_NVME_COMMAND
+title: SRBEX_DATA_NVME_COMMAND (srb.h)
 ms.date: 05/13/2021
 targetos: Windows
 description: The SRBEX_DATA_NVME_COMMAND structure enables the user to frame and issue a command in NVMe format.
