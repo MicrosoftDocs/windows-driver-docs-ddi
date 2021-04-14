@@ -1,16 +1,17 @@
 ---
 UID: NE:storport._STOR_DEVICE_POWER_STATE
-title: _STOR_DEVICE_POWER_STATE (storport.h)
-description: The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
-old-location: storage\stor_device_power_state.htm
 tech.root: storage
-ms.date: 03/29/2018
+title: STOR_DEVICE_POWER_STATE (storport.h)
+ms.date: 05/13/2021
+ms.topic: language-reference
+description: The STOR_DEVICE_POWER_STATE enumerator specifies a storage device power state.
 keywords: ["STOR_DEVICE_POWER_STATE enumeration"]
 ms.keywords: "*PSTOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], STOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], StorPowerDeviceD0, StorPowerDeviceD1, StorPowerDeviceD2, StorPowerDeviceD3, StorPowerDeviceMaximum, StorPowerDeviceUnspecified, _STOR_DEVICE_POWER_STATE, storage.stor_device_power_state, storport/PSTOR_DEVICE_POWER_STATE, storport/STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD0, storport/StorPowerDeviceD1, storport/StorPowerDeviceD2, storport/StorPowerDeviceD3, storport/StorPowerDeviceMaximum, storport/StorPowerDeviceUnspecified, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml"
+req.construct-type: enumeration
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,34 +47,33 @@ api_name:
  - STOR_DEVICE_POWER_STATE
 ---
 
-# _STOR_DEVICE_POWER_STATE enumeration (storport.h)
-
+# STOR_DEVICE_POWER_STATE enumeration (storport.h)
 
 ## -description
 
-The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
+The **STOR_DEVICE_POWER_STATE** enumerator specifies a storage device power state.
 
 ## -enum-fields
 
 ### -field StorPowerDeviceUnspecified
 
-Device power state unspecified.
+The device power state is unspecified.
 
 ### -field StorPowerDeviceD0
 
-The D0 device power state.
+Maximum device power state, which corresponds to [device working state D0](/drivers/kernel/device-working-state-d0).
 
 ### -field StorPowerDeviceD1
 
-The D1 device power state.
+The [device sleeping state](/drivers/kernel/device-sleeping-states) that is less than **StorPowerDeviceD0** and greater than **StorPowerDeviceD2**, which corresponds to device power state D1.
 
 ### -field StorPowerDeviceD2
 
-The D2 device power state.
+The device sleeping state that is less than **StorPowerDeviceD1** and greater than **StorPowerDeviceD3**, which corresponds to device power state D2.
 
 ### -field StorPowerDeviceD3
 
-The D3 device power state.
+The lowest-powered device sleeping state, which corresponds to device power state D3.
 
 ### -field StorPowerDeviceMaximum
 
@@ -81,5 +81,8 @@ The upper delimiting value on device power states.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>
+[**HwStorUnitControl**](nc-storport-hw_unit_control.md)
 
+[**SCSI_POWER_REQUEST_BLOCK**](ns-storport-_scsi_power_request_block.md)
+
+[**STOR_UNIT_CONTROL_POWER**](ns-storport-stor_unit_control_power.md)

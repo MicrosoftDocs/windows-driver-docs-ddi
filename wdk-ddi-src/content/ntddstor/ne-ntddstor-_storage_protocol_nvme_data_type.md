@@ -46,8 +46,7 @@ api_name:
  - STORAGE_PROTOCOL_NVME_DATA_TYPE
 ---
 
-# _STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration
-
+# STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration
 
 ## -description
 
@@ -61,13 +60,24 @@ Unknown data type.
 
 ### -field NVMeDataTypeIdentify
 
-Identify data type. This value can be either IDENTIFY CONTROLLER data or IDENTIFY NAMESPACE data.
+Get Identify data, which can be either Identify Controller data or Identify Namespace data.
 
-When this type of data is being queried, the **ProtocolDataRequestValue** field of [**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md) will have a value of **NVME_IDENTIFY_CNS_CONTROLLER** for adapter or **NVME_IDENTIFY_CNS_SPECIFIC_NAMESPACE** for namespace. If the **ProtocolDataRequestValue** is **NVME_IDENTIFY_CNS_SPECIFIC_NAMESPACE**, the **ProtocolDataRequestSubValue** field from the **STORAGE_PROTOCOL_SPECIFIC_DATA** structure will have a value of the namespace ID. (Note that **NVME_IDENTIFY_CNS_ACTIVE_NAMESPACES** is currently not supported.)
+When this type of data is being queried, fields in the [**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md) structure should have the following values:
+
+* **ProtocolDataRequestValue** will be **NVME_IDENTIFY_CNS_CONTROLLER** for adapter or **NVME_IDENTIFY_CNS_SPECIFIC_NAMESPACE** for namespace.
+* If the **ProtocolDataRequestValue** is **NVME_IDENTIFY_CNS_SPECIFIC_NAMESPACE**, the **ProtocolDataRequestSubValue** field specifies the namespace ID. (Note that **NVME_IDENTIFY_CNS_ACTIVE_NAMESPACES** is currently not supported.)
 
 ### -field NVMeDataTypeLogPage
 
-Log page data type.
+Get an NVMe log page.
+
+When this type of data is being queried, fields in the [**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md) structure should have the following values:
+
+* **ProtocolDataRequestValue** is the identifier of the log page to retrieve.
+* **ProtocolDataRequestSubValue** is the lower 32-bit value of the offset within a log page from which to start returning data.
+* **ProtocolDataRequestSubValue2** is the upper 32-bit value of the offset within a log page from which to start returning data.
+* **ProtocolDataRequestSubValue3** is the log-specific identifier that is required for a particular log page.
+* **ProtocolDataRequestSubValue4** is a [**STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE**](ns-ntddstor-storage_protocol_data_subvalue_get_log_page.md) structure that allows additional information to be specified when getting the log page.
 
 ### -field NVMeDataTypeFeature
 
@@ -102,5 +112,6 @@ To specify a type of NVMe protocol-specific information,  configure the [**STORA
 
 [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)
 
-[**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md)
+[**STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE**](ns-ntddstor-storage_protocol_data_subvalue_get_log_page.md)
 
+[**STORAGE_PROTOCOL_SPECIFIC_DATA**](ns-ntddstor-_storage_protocol_specific_data.md)

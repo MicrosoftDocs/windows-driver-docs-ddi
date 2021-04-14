@@ -1,39 +1,24 @@
 ---
 UID: NE:storport.__unnamed_enum_0
-title: STOR_POWER_ACTION (storport.h)
-description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
-old-location: storage\stor_power_action.htm
 tech.root: storage
-ms.date: 03/29/2018
-keywords: ["STOR_POWER_ACTION enumeration"]
-ms.keywords: "*PSTOR_POWER_ACTION, PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], STOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionHibernate, StorPowerActionNone, StorPowerActionReserved, StorPowerActionShutdown, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionSleep, StorPowerActionWarmEject, storage.stor_power_action, storport/PSTOR_POWER_ACTION, storport/STOR_POWER_ACTION, storport/StorPowerActionHibernate, storport/StorPowerActionNone, storport/StorPowerActionReserved, storport/StorPowerActionShutdown, storport/StorPowerActionShutdownOff, storport/StorPowerActionShutdownReset, storport/StorPowerActionSleep, storport/StorPowerActionWarmEject, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml"
-req.header: storport.h
-req.include-header: Storport.h, Minitape.h, Srb.h
-req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+title: STOR_POWER_ACTION
+ms.date: 05/13/2021
+ms.topic: language-reference
 targetos: Windows
-req.typenames: STOR_POWER_ACTION, *PSTOR_POWER_ACTION
-f1_keywords:
- - PSTOR_POWER_ACTION
- - storport/PSTOR_POWER_ACTION
- - STOR_POWER_ACTION
- - storport/STOR_POWER_ACTION
+description: The STOR_POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
+req.construct-type: enumeration
+req.ddi-compliance: 
+req.header: storport.h
+req.include-header: 
+req.kmdf-ver: 
+req.max-support: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.umdf-ver: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
@@ -41,50 +26,62 @@ api_location:
 api_name:
  - PSTOR_POWER_ACTION
  - STOR_POWER_ACTION
+f1_keywords:
+ - PSTOR_POWER_ACTION
+ - storport/PSTOR_POWER_ACTION
+ - STOR_POWER_ACTION
+ - storport/STOR_POWER_ACTION
+dev_langs:
+ - c++
 ---
-
-# STOR_POWER_ACTION enumeration (storport.h)
-
 
 ## -description
 
-The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
+The **STOR_POWER_ACTION** enumeration identifies the system power actions that can occur on a computer.
 
 ## -enum-fields
 
 ### -field StorPowerActionNone
 
-No system shutdown is about to occur.
+No power action is taking place.
 
 ### -field StorPowerActionReserved
 
-Reserved.
+Reserved for system use.
 
 ### -field StorPowerActionSleep
 
-The system is entering standby.
+The computer is entering a [system sleeping (S1, S2, or S3) state](/windows-hardware/drivers/kernel/system-sleeping-states).
 
 ### -field StorPowerActionHibernate
 
-The system is entering hibernation.
+The computer is entering its [hibernation (S4) state](/windows-hardware/drivers/kernel/system-sleeping-states).
 
 ### -field StorPowerActionShutdown
 
-The system is shutting down, but the type of shutdown is not known.
+The computer is entering its shutdown (S5) state. After all devices have entered their off (D3) state, the computer remains powered on until an administrator presses the power button.
 
 ### -field StorPowerActionShutdownReset
 
-The system is shutting down and resetting.
+The computer is entering its shutdown (S5) state. After all devices have entered their off (D3) state, the computer automatically powers off and then immediately restarts and returns to its working (S0) state.
 
 ### -field StorPowerActionShutdownOff
 
-The system is shutting down and powering off.
+The computer is entering its shutdown (S5) state. After all devices have entered their off (D3) state, the computer automatically powers off.
 
 ### -field StorPowerActionWarmEject
 
-The system is preparing for ejection.
+The computer is being ejected from an ACPI-compatible dock device. Typically, the computer's power state does not change.
+
+## -remarks
+
+For a unit, Storport sets **STOR_POWER_ACTION** in the
+[**STOR_UNIT_CONTROL_POWER**](ns-storport-stor_unit_control_power.md) structure.
+
+For an adapter, Storport sets **STOR_POWER_ACTION** in the [**STOR_ADAPTER_CONTROL_POWER**](ns-storport-stor_adapter_control_power.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>
+[**HwStorAdapterControl**](nc-storport-hw_adapter_control.md)
 
+[**HwStorUnitControl**](nc-storport-hw_unit_control.md)
