@@ -80,6 +80,8 @@ WDM drivers that register with PoFx for runtime idle power management support ne
 
 Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md).
 
+This callback is invoked after a DRIPS constraint device has been active for at least two consecutive minutes (driver-configurable timeout, default 2 minutes) when the system is in Modern Standby and there is no activator-brokered software activity running.
+
 When this callback is invoked, the driver typically performs the following high-level tasks:
 
 - Stop processing new work.
