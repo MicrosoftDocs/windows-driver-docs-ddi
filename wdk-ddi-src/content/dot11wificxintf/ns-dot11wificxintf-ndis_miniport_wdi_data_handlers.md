@@ -53,55 +53,107 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field Header
 
+Reserved.
+
 ### -field TxAbortHandler
+
+Reserved.
 
 ### -field TxTargetDescInitHandler
 
+Reserved.
+
 ### -field TxTargetDescDeInitHandler
+
+Reserved.
 
 ### -field TxDataSendHandler
 
+Reserved.
+
 ### -field TxTalSendHandler
+
+Reserved.
 
 ### -field TxTalSendCompleteHandler
 
+Reserved.
+
 ### -field TxTalQueueInOrderHandler
+
+Reserved.
 
 ### -field TxPeerBacklogHandler
 
+Reserved.
+
 ### -field RxStopHandler
+
+Reserved.
 
 ### -field RxFlushHandler
 
+Reserved.
+
 ### -field RxRestartHandler
+
+Reserved.
 
 ### -field RxGetMpdusHandler
 
+Reserved.
+
 ### -field RxReturnFramesHandler
+
+Reserved.
 
 ### -field RxResumeHandler
 
+Reserved.
+
 ### -field RxThrottleHandler
+
+Reserved.
 
 ### -field RxPpduRssiHandler
 
+Reserved.
+
 ### -field TalTxRxStartHandler
+
+Reserved.
 
 ### -field TalTxRxStopHandler
 
+Reserved.
+
 ### -field TalTxRxAddPortHandler
+
+Reserved.
 
 ### -field TalTxRxDeletePortHandler
 
+Reserved.
+
 ### -field TalTxRxSetPortOpModeHandler
+
+Reserved.
 
 ### -field TalTxRxResetPortHandler
 
+Reserved.
+
 ### -field TalTxRxPeerConfigHandler
+
+Reserved.
 
 ### -field TalTxRxPeerDeleteConfirmHandler
 
+Reserved.
+
 ### -field TxSuspectFrameAbortHandler
+
+Reserved.
 
 ## -remarks
 

@@ -46,11 +46,19 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_OPERATION_MODE_STA
 
+Reserved.
+
 ### -field WDI_OPERATION_MODE_P2P_DEVICE
+
+Reserved.
 
 ### -field WDI_OPERATION_MODE_P2P_CLIENT
 
+Reserved.
+
 ### -field WDI_OPERATION_MODE_P2P_GO
+
+Reserved.
 
 ## -remarks
 

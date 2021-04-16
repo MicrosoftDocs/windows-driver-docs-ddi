@@ -53,39 +53,75 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field Header
 
+Reserved.
+
 ### -field TxDequeueIndication
+
+Reserved.
 
 ### -field TxTransferCompleteIndication
 
+Reserved.
+
 ### -field TxSendCompleteIndication
+
+Reserved.
 
 ### -field TxQueryRATIDState
 
+Reserved.
+
 ### -field TxSendPauseIndication
+
+Reserved.
 
 ### -field TxSendRestartIndication
 
+Reserved.
+
 ### -field TxReleaseFrameIndication
+
+Reserved.
 
 ### -field TxInjectFrameIndication
 
+Reserved.
+
 ### -field TxAbortConfirm
+
+Reserved.
 
 ### -field RxInorderDataIndication
 
+Reserved.
+
 ### -field RxStopConfirm
+
+Reserved.
 
 ### -field RxFlushConfirm
 
+Reserved.
+
 ### -field PeerCreateIndication
+
+Reserved.
 
 ### -field PeerDeleteIndication
 
+Reserved.
+
 ### -field AllocateWiFiFrameMetaData
+
+Reserved.
 
 ### -field FreeWiFiFrameMetaData
 
+Reserved.
+
 ### -field TxQuerySuspectFrameCompleteStatus
+
+Reserved.
 
 ## -remarks
 

@@ -53,13 +53,23 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field PortId
 
+Reserved.
+
 ### -field Reserved
+
+Reserved.
 
 ### -field Status
 
+Reserved.
+
 ### -field TransactionId
 
+Reserved.
+
 ### -field IhvSpecificId
+
+Reserved.
 
 ## -remarks
 

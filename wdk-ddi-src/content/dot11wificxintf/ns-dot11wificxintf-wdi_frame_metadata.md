@@ -53,19 +53,35 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field Linkage
 
+Reserved.
+
 ### -field pNBL
+
+Reserved.
 
 ### -field FrameID
 
+Reserved.
+
 ### -field wPad
+
+Reserved.
 
 ### -field dPad
 
+Reserved.
+
 ### -field u
+
+Reserved.
 
 ### -field u.txMetaData
 
+Reserved.
+
 ### -field u.rxMetaData
+
+Reserved.
 
 ## -remarks
 

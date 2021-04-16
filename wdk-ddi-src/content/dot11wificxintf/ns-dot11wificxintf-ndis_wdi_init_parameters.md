@@ -53,15 +53,27 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field Header
 
+Reserved.
+
 ### -field WdiVersion
+
+Reserved.
 
 ### -field OpenAdapterCompleteHandler
 
+Reserved.
+
 ### -field CloseAdapterCompleteHandler
+
+Reserved.
 
 ### -field UeIdleNotificationConfirm
 
+Reserved.
+
 ### -field UeIdleNotificationComplete
+
+Reserved.
 
 ## -remarks
 

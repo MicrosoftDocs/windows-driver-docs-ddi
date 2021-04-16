@@ -46,17 +46,31 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_TxFrameStatus_Ok
 
+Reserved.
+
 ### -field WDI_TxFrameStatus_Discard
+
+Reserved.
 
 ### -field WDI_TxFrameStatus_NoAck
 
+Reserved.
+
 ### -field WDI_TxFrameStatus_TransferCancelled
+
+Reserved.
 
 ### -field WDI_TxFrameStatus_SendCancelled
 
+Reserved.
+
 ### -field WDI_TxFrameStatus_SendPostponed
 
+Reserved.
+
 ### -field WDI_TxFrameStatus_TransferFailed
+
+Reserved.
 
 ## -remarks
 

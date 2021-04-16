@@ -53,33 +53,63 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field PortID
 
+Reserved.
+
 ### -field PeerID
+
+Reserved.
 
 ### -field ExTID
 
+Reserved.
+
 ### -field IsUnicast
+
+Reserved.
 
 ### -field bAllowLegacyRates
 
+Reserved.
+
 ### -field Ethertype
+
+Reserved.
 
 ### -field bTxCompleteRequired
 
+Reserved.
+
 ### -field PnLength
+
+Reserved.
 
 ### -field TxCost
 
+Reserved.
+
 ### -field ExemptionAction
+
+Reserved.
 
 ### -field MpduPn
 
+Reserved.
+
 ### -field ReplayIHVReserved0
+
+Reserved.
 
 ### -field ReplayIHVReserved1
 
+Reserved.
+
 ### -field SeqCtl
 
+Reserved.
+
 ### -field wPad
+
+Reserved.
 
 ## -remarks
 

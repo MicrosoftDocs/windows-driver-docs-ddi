@@ -53,17 +53,31 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field SeqCtl
 
+Reserved.
+
 ### -field PnLength
+
+Reserved.
 
 ### -field RetryCount
 
+Reserved.
+
 ### -field wPad
+
+Reserved.
 
 ### -field MpduPN
 
+Reserved.
+
 ### -field ReplayIHVReserved0
 
+Reserved.
+
 ### -field ReplayIHVReserved1
+
+Reserved.
 
 ## -remarks
 

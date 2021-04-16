@@ -46,11 +46,19 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_RxThrottleLevelNone
 
+Reserved.
+
 ### -field WDI_RxThrottleLevelMedium
+
+Reserved.
 
 ### -field WDI_RxThrottleLevelAggressive
 
+Reserved.
+
 ### -field WDI_RxThrottleLevelMax
+
+Reserved.
 
 ## -remarks
 

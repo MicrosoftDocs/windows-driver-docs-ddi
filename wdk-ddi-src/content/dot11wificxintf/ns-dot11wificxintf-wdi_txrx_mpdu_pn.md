@@ -50,9 +50,15 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field Pn24
 
+Reserved.
+
 ### -field Pn48
 
+Reserved.
+
 ### -field Pn128
+
+Reserved.
 
 ## -remarks
 

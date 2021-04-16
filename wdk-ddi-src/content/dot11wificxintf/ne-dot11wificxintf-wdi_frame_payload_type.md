@@ -46,7 +46,11 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_FRAME_MSDU
 
+Reserved.
+
 ### -field WDI_FRAME_MSDU_FRAGMENT
+
+Reserved.
 
 ## -remarks
 

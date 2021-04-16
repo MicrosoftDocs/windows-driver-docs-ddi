@@ -46,15 +46,27 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_TX_PAUSE_REASON_NULL
 
+Reserved.
+
 ### -field WDI_TX_PAUSE_REASON_CREDIT
+
+Reserved.
 
 ### -field WDI_TX_PAUSE_REASON_PEER_CREATE
 
+Reserved.
+
 ### -field WDI_TX_PAUSE_REASON_PS
+
+Reserved.
 
 ### -field WDI_TX_PAUSE_REASON_IHV_START
 
+Reserved.
+
 ### -field WDI_TX_PAUSE_REASON_IHV_END
+
+Reserved.
 
 ## -remarks
 

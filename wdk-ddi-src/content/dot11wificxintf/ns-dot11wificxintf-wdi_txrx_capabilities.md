@@ -53,25 +53,47 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field InterconnectType
 
+Reserved.
+
 ### -field TransmitCapabilities
+
+Reserved.
 
 ### -field TransmitCapabilities.TargetPriorityQueueing
 
+Reserved.
+
 ### -field TransmitCapabilities.MaxScatterGatherElementsPerFrame
+
+Reserved.
 
 ### -field TransmitCapabilities.ExplicitSendCompleteFlagRequired
 
+Reserved.
+
 ### -field TransmitCapabilities.bPad
+
+Reserved.
 
 ### -field TransmitCapabilities.MinEffectiveSize
 
+Reserved.
+
 ### -field TransmitCapabilities.FrameSizeGranularity
+
+Reserved.
 
 ### -field ReceiveCapabilities
 
+Reserved.
+
 ### -field ReceiveCapabilities.RxTxForwarding
 
+Reserved.
+
 ### -field ReceiveCapabilities.MaxThroughput
+
+Reserved.
 
 ## -remarks
 

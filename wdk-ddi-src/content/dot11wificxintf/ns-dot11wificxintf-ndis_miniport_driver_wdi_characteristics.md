@@ -53,33 +53,63 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field Header
 
+Reserved.
+
 ### -field WdiVersion
+
+Reserved.
 
 ### -field AllocateAdapterHandler
 
+Reserved.
+
 ### -field FreeAdapterHandler
+
+Reserved.
 
 ### -field OpenAdapterHandler
 
+Reserved.
+
 ### -field CloseAdapterHandler
+
+Reserved.
 
 ### -field StartOperationHandler
 
+Reserved.
+
 ### -field StopOperationHandler
+
+Reserved.
 
 ### -field PostPauseHandler
 
+Reserved.
+
 ### -field PostRestartHandler
+
+Reserved.
 
 ### -field HangDiagnoseHandler
 
+Reserved.
+
 ### -field TalTxRxInitializeHandler
+
+Reserved.
 
 ### -field TalTxRxDeinitializeHandler
 
+Reserved.
+
 ### -field LeIdleNotificationHandler
 
+Reserved.
+
 ### -field LeCancelIdleNotificationHandler
+
+Reserved.
 
 ## -remarks
 

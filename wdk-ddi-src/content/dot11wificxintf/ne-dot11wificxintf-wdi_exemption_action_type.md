@@ -46,9 +46,15 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_EXEMPT_NO_EXEMPTION
 
+Reserved.
+
 ### -field WDI_EXEMPT_ALWAYS
 
+Reserved.
+
 ### -field WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
+
+Reserved.
 
 ## -remarks
 

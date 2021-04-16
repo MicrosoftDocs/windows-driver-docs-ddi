@@ -46,21 +46,39 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_RX_INDICATION_DISPATCH_GENERAL
 
+Reserved.
+
 ### -field WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC
+
+Reserved.
 
 ### -field WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES
 
+Reserved.
+
 ### -field WDI_RX_INDICATION_PASSIVE
+
+Reserved.
 
 ### -field WDI_RX_INDICATION_FLAG_RESOURCES
 
+Reserved.
+
 ### -field WDI_RX_INDICATION_DISPATCH_GENERAL_WITH_LOW_RESOURCES
+
+Reserved.
 
 ### -field WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC_WITH_LOW_RESSOURCES
 
+Reserved.
+
 ### -field WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES_WITH_LOW_RESOURCES
 
+Reserved.
+
 ### -field WDI_RX_INDICATION_PASSIVE_WITH_LOW_RESOURCES
+
+Reserved.
 
 ## -remarks
 

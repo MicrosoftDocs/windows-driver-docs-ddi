@@ -53,6 +53,8 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field PayloadType
 
+Reserved.
+
 ## -remarks
 
 ## -see-also

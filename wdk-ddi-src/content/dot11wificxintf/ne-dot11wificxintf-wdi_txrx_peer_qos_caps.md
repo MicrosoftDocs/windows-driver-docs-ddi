@@ -46,9 +46,15 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_TXRX_PeerCfgQosNone
 
+Reserved.
+
 ### -field WDI_TXRX_PeerCfgQosCapable
 
+Reserved.
+
 ### -field WDI_TXRX_PeerCfgUapsdTids
+
+Reserved.
 
 ## -remarks
 

@@ -46,9 +46,15 @@ This function is reserved for system use and should not be called in your code.
 
 ### -field WDI_INTERCONNECT_MEMORY_MAPPED
 
+Reserved.
+
 ### -field WDI_INTERCONNECT_MESSAGE_BASED
 
+Reserved.
+
 ### -field WDI_INTERCONNECT_UNKNOWN
+
+Reserved.
 
 ## -remarks
 
