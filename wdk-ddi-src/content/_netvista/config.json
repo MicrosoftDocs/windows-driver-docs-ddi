@@ -7,7 +7,6 @@
     "encapsulationconfig.h",
     "dot11wificxintf.h",
     "dot11wificxtypes.h",
-    "dot11wificxtypes.h",
     "extension.h",
     "fragment.h",
     "fwpmk.h",
