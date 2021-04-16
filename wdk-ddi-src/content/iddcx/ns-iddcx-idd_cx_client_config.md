@@ -58,7 +58,7 @@ The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the di
 
 ### -field EvtIddCxDeviceIoControl
 
-                     A pointer to the  <b>PFN_IDD_CX_DEVICE_IO_CONTROL</b> function.
+                     A pointer to the  <b>PFN_IDD_CX_DEVICE_IO_CONTROL</b> function. This function can be used for communication between an user session process and the driver, typically this communication channel is used to my a companion application to control some aspect of the driver.
 
 ### -field EvtIddCxParseMonitorDescription
 
