@@ -81,6 +81,7 @@
     "virtualaddresstypes.h",
     "vmbuskernelmodeclientlibapi.h",
     "wditypes.hpp",
+    "wificx.h",
     "windot11.h",
     "wlanihv.h",
     "wlanihvtypes.h",
