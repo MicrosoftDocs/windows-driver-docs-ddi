@@ -4,7 +4,7 @@ title: DXGKCB_MAP_MEMORY (dispmprt.h)
 description: The DxgkCbMapMemory function maps a range of translated physical addresses (associated with a memory resource assigned to a display adapter) into system space or the virtual address space of a user-mode process.
 old-location: display\dxgkcbmapmemory.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 04/01/2021
 keywords: ["DXGKCB_MAP_MEMORY callback function"]
 ms.keywords: DXGKCB_MAP_MEMORY, DXGKCB_MAP_MEMORY callback, DpFunctions_51d99a74-2fae-40b7-9e04-8afe0fc38805.xml, DxgkCbMapMemory, DxgkCbMapMemory callback function [Display Devices], display.dxgkcbmapmemory, dispmprt/DxgkCbMapMemory
 req.header: dispmprt.h
@@ -42,62 +42,53 @@ api_name:
 
 # DXGKCB_MAP_MEMORY callback function
 
-
 ## -description
 
-The <b>DxgkCbMapMemory</b> function maps a range of translated physical addresses (associated with a memory resource assigned to a display adapter) into system space or the virtual address space of a user-mode process.
+The **DxgkCbMapMemory** function maps a range of translated physical addresses (associated with a memory resource assigned to a display adapter) into system space or the virtual address space of a user-mode process.
 
 ## -parameters
 
-### -param DeviceHandle 
+### -param DeviceHandle
 
-[in]
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
+[in] A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md).
 
-### -param TranslatedAddress 
+### -param TranslatedAddress
 
-[in]
-The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_get_device_information">DxgkCbGetDeviceInformation</a>.
+[in] The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling [**DxgkCbGetDeviceInformation**](nc-dispmprt-dxgkcb_get_device_information.md).
 
-### -param Length 
+### -param Length
 
-[in]
-The size, in bytes, of the range to be mapped.
+[in] The size, in bytes, of the range to be mapped.
 
-### -param InIoSpace 
+### -param InIoSpace
 
-[in]
-A Boolean value that specifies whether the range is in I/O space (<b>TRUE</b>) or memory space (<b>FALSE</b>).
+[in] A Boolean value that specifies whether the range is in I/O space (**TRUE**) or memory space (**FALSE**).
 
-### -param MapToUserMode 
+### -param MapToUserMode
 
-[in]
-A Boolean value that specifies whether the range is mapped into user-mode space or system space. If <b>TRUE</b>, the range is mapped into the (user-mode) virtual address space of the current process. If <b>FALSE</b>, the range is mapped into system space. If <i>InIoSpace</i> is <b>TRUE</b>, this parameter is ignored.
+[in] A Boolean value that specifies whether the range is mapped into user-mode space or system space. If **TRUE**, the range is mapped into the (user-mode) virtual address space of the current process. If **FALSE**, the range is mapped into system space. If **InIoSpace** is **TRUE**, this parameter is ignored.
 
-### -param CacheType 
+### -param CacheType
 
-[in]
-A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
+[in] A [**MEMORY_CACHING_TYPE**](../wdm/ne-wdm-_memory_caching_type.md) enumerator that specifies the caching behavior of the mapped range.
 
-### -param VirtualAddress 
+### -param VirtualAddress
 
-[out]
-A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
+[out] A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of **InIoSpace** and **MapToUserMode**. The following table summarizes the different ways that the mapped range is accessed.
 
-| &nbsp; |*MapToUserMode* is FALSE|*MapToUserMode* is TRUE|
-|--- |--- |--- |
-|InIoSpace is FALSE|READ_REGISTER_X WRITE_REGISTER_X|User-mode code performs ordinary memory access.|
-|InIoSpace is TRUE|READ_PORT_X WRITE_PORT_X|Not possible.|
+| Value of InIoSpace | MapToUserMode is FALSE           | MapToUserMode is TRUE |
+| ------------------ |-----------------------           | --------------------- |
+| FALSE              | READ_REGISTER_X WRITE_REGISTER_X | User-mode code performs ordinary memory access.|
+| TRUE               | READ_PORT_X WRITE_PORT_X         | Not possible. |
 
 ## -returns
 
-<b>DxgkCbMapMemory</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+**DxgkCbMapMemory** returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in **Ntstatus.h**.
 
 ## -remarks
 
-The PHYSICAL_ADDRESS data type is defined in <i>Ntdef.h</i>.
+The PHYSICAL_ADDRESS data type is defined in **Ntdef.h**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
-
+[**MEMORY_CACHING_TYPE**](../wdm/ne-wdm-_memory_caching_type.md)

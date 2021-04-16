@@ -4,7 +4,7 @@ title: HW_TIMER (storport.h)
 description: The HwStorTimer routine is called after the interval that is specified when the miniport driver called StorPortNotification with the RequestTimerCall NotificationType value.
 old-location: storage\hwstortimer.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 04/01/2021
 keywords: ["HW_TIMER callback function"]
 ms.keywords: HW_TIMER, HwStorTimer, HwStorTimer routine [Storage Devices], storage.hwstortimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml, storport/HwStorTimer
 req.header: storport.h
@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -42,10 +42,9 @@ api_name:
 
 # HW_TIMER callback function
 
-
 ## -description
 
-The <b>HwStorTimer</b> routine is called after the interval that is specified when the miniport driver called <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a> with the <b>RequestTimerCall</b><i> NotificationType</i> value.
+The **HwStorTimer** routine is called after the interval that is specified when the miniport driver called [**StorPortNotification**](../storport/nf-storport-storportnotification.md) with **RequestTimerCall** specified for the **NotificationType** parameter.
 
 ## -parameters
 
@@ -55,10 +54,9 @@ A pointer to the miniport driver's per HBA storage area.
 
 ## -remarks
 
-The name <b>HwStorTimer</b> is only a placeholder. The actual prototype of this routine is defined in <i>Srb.h</i> as follows:
+The name **HwStorTimer** is only a placeholder. The actual prototype of this routine is defined in *Srb.h* as follows:
 
-
-```
+``` c
 typedef
 VOID
 HW_TIMER (
@@ -66,26 +64,17 @@ HW_TIMER (
   );
 ```
 
-If the miniport opts into multi-channel support, the StartIo spin lock is still taken. However, if the miniport has requested multiple channel support via PERF_CONFIGURATION_DATA, the StartIo spin lock is not taken or checked before the call to <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> in the miniport.  This means that the <i>HwStorStartIo</i> callback  is not synchronized with the callback to the <i>HwStorTimer</i> routine when multi-channel support is used.  The miniport must do this on its own by using a compiler interlocked intrinsic, for example using <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedcompareexchange">InterlockedCompareExchange</a>. 
+If the miniport opts into multi-channel support, the StartIo spin lock is still taken. However, if the miniport has requested multiple channel support via [**PERF_CONFIGURATION_DATA**](../storport/ns-storport-_perf_configuration_data.md), the StartIo spin lock is not taken or checked before the call to [**HwStorStartIo**](../storport/nc-storport-hw_startio.md) in the miniport. This means that the **HwStorStartIo** callback is not synchronized with the callback to the **HwStorTimer** routine when multi-channel support is used. The miniport must do this on its own by using a compiler interlocked intrinsic, for example using [**InterlockedCompareExchange**](../wdm/nf-wdm-interlockedcompareexchange.md).
 
-A <b>HwStorTimer</b> routine is optional.
+A **HwStorTimer** routine is optional.
 
+To define an **HwStorTimer** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-#### Examples
+ For example, to define a **HwStorTimer** callback routine that is named **MyHwTimer**, use the following **HW_TIMER** type and implement your callback routine as follows:
 
-To define an <b>HwStorTimer</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
- For example, to define a <b>HwStorTimer</b> callback routine that is named <i>MyHwTimer</i>, use the <b>HW_TIMER</b> type as shown in this code example:
-
-
-```
+``` c
 HW_TIMER MyHwTimer;
-```
 
-Then, implement your callback routine as follows:
-
-
-```
 _Use_decl_annotations_
 VOID
 MyHwTimer (
@@ -96,9 +85,8 @@ MyHwTimer (
   }
 ```
 
-The <b>HW_TIMER</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_TIMER</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+The **HW_TIMER** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_TIMER** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
-
+[**StorPortNotification**](../storport/nf-storport-storportnotification.md)

@@ -4,7 +4,7 @@ title: POPULATE_TOKEN_HEADER (storport.h)
 description: A populate token parameter list starts with a POPULATE_TOKEN_HEADER structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 old-location: storage\populate_token_header.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/13/2021
 keywords: ["POPULATE_TOKEN_HEADER structure"]
 ms.keywords: "*PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, storage.populate_token_header"
 req.header: storport.h

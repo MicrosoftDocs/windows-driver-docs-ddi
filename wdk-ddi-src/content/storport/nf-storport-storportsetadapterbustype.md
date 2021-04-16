@@ -1,10 +1,10 @@
 ---
 UID: NF:storport.StorPortSetAdapterBusType
 title: StorPortSetAdapterBusType function (storport.h)
-description: Used to adjust the BusType of the adapter depending on its current configuration.
+description: StorPortSetAdapterBusType is used to adjust the bus type of the adapter depending on its current configuration.
 old-location: storage\storportsetadapterbustype.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 04/21/2021
 keywords: ["StorPortSetAdapterBusType function"]
 ms.keywords: StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices], storage.storportsetadapterbustype, storport/StorPortSetAdapterBusType
 req.header: storport.h
@@ -43,63 +43,30 @@ api_name:
 
 # StorPortSetAdapterBusType function
 
-
 ## -description
 
-Used to adjust the BusType of the adapter depending on its current configuration. Setting the BusType with this routine will allow you to override the global property set in the miniport INF without having to re-install the driver. This is useful for scenarios such as RAID support or support for multiple adapters with a different bus type.
+**StorPortSetAdapterBusType** is used to adjust the bus type of the adapter depending on its current configuration.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+[in] A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
-### -param BusType 
+### -param BusType
 
-[in]
-Contains a value of type <a href="/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that specifies the type of bus-specific configuration data to be set.
+[in] Contains a [**STORAGE_BUS_TYPE**](../ntddstor/ne-ntddstor-storage_bus_type.md) value that specifies the type of bus-specific configuration data to be set.
 
 ## -returns
 
-The <b>StorPortSetAdapterBusType</b> routine returns one of the following status codes:
+The **StorPortSetAdapterBusType** routine returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-This routine will return this value if it was called outside the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function.
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_UNSUCCESSFUL | This routine was called outside the [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) function. |
+| STOR_STATUS_SUCCESS      | This routine completed successfully. |
+| STOR_STATUS_INVALID_PARAMETER | BusType is an invalid value. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-This routine will return this value if it was successful.
+## -remarks
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-This routine fails with this return value if the BusType is an invalid value.
-
-</td>
-</tr>
-</table>
+ Setting the **BusType** with this routine will allow you to override the global property set in the miniport INF without having to re-install the driver. This is useful for scenarios such as RAID support or support for multiple adapters with a different bus type.

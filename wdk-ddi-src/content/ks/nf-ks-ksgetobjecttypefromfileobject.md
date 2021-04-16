@@ -4,7 +4,7 @@ title: KsGetObjectTypeFromFileObject function (ks.h)
 description: The KsGetObjectTypeFromFileObject function returns the AVStream object type that is associated with a given file object.
 old-location: stream\ksgetobjecttypefromfileobject.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/12/2021
 keywords: ["KsGetObjectTypeFromFileObject function"]
 ms.keywords: KsGetObjectTypeFromFileObject, KsGetObjectTypeFromFileObject function [Streaming Media Devices], avfunc_51a9a4d6-1481-45f9-918e-582907e8513c.xml, ks/KsGetObjectTypeFromFileObject, stream.ksgetobjecttypefromfileobject
 req.header: ks.h
@@ -43,34 +43,31 @@ api_name:
 
 # KsGetObjectTypeFromFileObject function
 
-
 ## -description
 
-The<b> KsGetObjectTypeFromFileObject </b>function returns the AVStream object type that is associated with a given file object.
+The **KsGetObjectTypeFromFileObject** function returns the AVStream object type that is associated with a given file object.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject
 
 [in]
-A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure for which to determine the associated AVStream object type.
+A pointer to the [FILE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure for which to determine the associated AVStream object type.
 
 ## -returns
 
-<b>KsGetObjectTypeFromFileObject</b> returns the object type of the AVStream object associated with <i>FileObject</i> as a <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksobjecttype">KSOBJECTTYPE</a> enumeration. This can be one of the following: <b>KsObjectTypeDevice</b>, <b>KsObjectTypeFilterFactory</b>, <b>KsObjectTypeFilter</b>, or <b>KsObjectTypePin</b>.
+**KsGetObjectTypeFromFileObject** returns the object type of the AVStream object associated with *FileObject* as a [KSOBJECTTYPE](/windows-hardware/drivers/ddi/ks/ne-ks-ksobjecttype) enumeration. This can be one of the following: **KsObjectTypeDevice**, **KsObjectTypeFilterFactory**, **KsObjectTypeFilter**, or **KsObjectTypePin**.
+
+## -remarks
+
+The **KsGetObjectTypeFromFileObject** function does not check that the file object is associated with a KS object. If it is not, this may result in a memory access error. Driver developers should consider using structured exception handling to catch a possible exception.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfilterfromfileobject">KsGetFilterFromFileObject</a>
+[KsGetFilterFromFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfilterfromfileobject)
 
+[KsGetObjectFromFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjectfromfileobject)
 
+[KsGetPinFromFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromfileobject)
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjectfromfileobject">KsGetObjectFromFileObject</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromfileobject">KsGetPinFromFileObject</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpinfileobject">KsPinGetConnectedPinFileObject</a>
+[KsPinGetConnectedPinFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpinfileobject)

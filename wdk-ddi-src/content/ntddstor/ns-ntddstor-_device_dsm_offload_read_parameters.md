@@ -48,7 +48,6 @@ api_name:
 
 # _DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure
 
-
 ## -description
 
 The DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure specifies the parameters for an offload read action related to the data-set attributes for a device.
@@ -73,7 +72,7 @@ This structure is used in an offload read action for an [IOCTL_STORAGE_MANAGE_DA
 
 The **ParameterBlockOffset** and **ParameterBlockLength** members of [DEVICE_DSM_INPUT](./ns-ntddstor-_device_manage_data_set_attributes.md) structure are set to the location and length of the DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure in the input buffer of the [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md) request.
 
-The **DataSetRangesOffset** and **DataSetRangesLength** members of DEVICE_DSM_INPUT specify the [DEVICE_DSM_RANGE](ttps://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_data_set_range) structures for the extents of the offload read.
+The **DataSetRangesOffset** and **DataSetRangesLength** members of DEVICE_DSM_INPUT specify the [DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md) structures for the extents of the offload read.
 
 See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions) for more details about this action.
 
@@ -86,4 +85,3 @@ See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-ds
 [DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS](./ns-ntddstor-_device_dsm_offload_write_parameters.md)
 
 [DEVICE_DSM_RANGE](./ns-ntddstor-_device_data_set_range.md)
-
