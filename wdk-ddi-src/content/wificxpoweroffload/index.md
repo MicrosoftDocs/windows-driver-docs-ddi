@@ -1,21 +1,21 @@
 ---
-UID: NA:wificx
+UID: NA:wificxpoweroffload
 tech.root: netvista
-title: wificx
+title: wificxpoweroffload
 ms.date: 04/30/2021
-keywords: ["Wificx.h header"]
+keywords: ["Wificxpoweroffload.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 f1_keywords:
- - wificx
- - wificx/wificx
+ - wificxpoweroffload
+ - wificxpoweroffload/wificxpoweroffload
 api_name:
- - wificx
+ - wificxpoweroffload
 ---
 
-# Wificx.h header
+# Wificxpoweroffload.h header
 
 
 ## -description

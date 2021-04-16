@@ -82,6 +82,7 @@
     "vmbuskernelmodeclientlibapi.h",
     "wditypes.hpp",
     "wificx.h",
+    "wificxpoweroffload.h",
     "windot11.h",
     "wlanihv.h",
     "wlanihvtypes.h",
