@@ -4,7 +4,7 @@ title: IDD_CX_CLIENT_CONFIG (iddcx.h)
 description: The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the display driver can use.
 old-location: display\idd_cx_client_config.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 05/13/2021
 keywords: ["IDD_CX_CLIENT_CONFIG structure"]
 ms.keywords: IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices], display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG
 req.header: iddcx.h
@@ -58,7 +58,7 @@ The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the di
 
 ### -field EvtIddCxDeviceIoControl
 
-                     A pointer to the  <b>PFN_IDD_CX_DEVICE_IO_CONTROL</b> function. This function can be used for communication between an user session process and the driver, typically this communication channel is used to my a companion application to control some aspect of the driver.
+                     A pointer to the  <b>PFN_IDD_CX_DEVICE_IO_CONTROL</b> function. This function can be used for communication between a user session process and the driver; typically this communication channel is used by a companion application to control some aspect of the driver.
 
 ### -field EvtIddCxParseMonitorDescription
 
