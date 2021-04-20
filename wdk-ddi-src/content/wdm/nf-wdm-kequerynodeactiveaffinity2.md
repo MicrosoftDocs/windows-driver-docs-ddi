@@ -55,7 +55,7 @@ Supplies the node number of the node to query.
 
 [out]
 
-Supplies a pointer to an array of <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structures that upon success receive a group number and the affinity of the specified node number.
+Supplies a pointer to an array of <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structures that upon success receive a group number and the affinity mask of the identified group.
 
 ### -param GroupAffinitiesCount
 
@@ -79,14 +79,14 @@ A pointer to a value of type USHORT that receives the number of group affinities
 
 ## -remarks
 
-Starting in Windows Server 2022, the operating system no longer splits large NUMA nodes; instead, Windows reports the true NUMA topology of the system. When a node contains more than 64 processors, the node spans more than one group. In this case, the OS assigns a primary group for each NUMA node. The primary group is always the one containing the most processors. For more info about this change in behavior, see [NUMA Support](/windows/win32/procthread/numa-support).
+Starting in Windows Server 2022, the operating system no longer splits large NUMA nodes; instead, Windows reports the true NUMA topology of the system. When a node contains more than 64 processors, a NUMA node spans across more than a single group. In this case, the system assigns a primary group for each NUMA node. The primary group is always the one containing the most processors. To determine the number of active processors in a given NUMA node (across all groups), call [**KeQueryNodeActiveProcessorCount**](./nf-wdm-kequerynodeactiveprocessorcount.md). For more info about this change in behavior, see [NUMA Support](/windows/win32/procthread/numa-support).
 
 > [!NOTE]
 > To re-enable the legacy node splitting behavior, make the following change to the registry and reboot the system:
 > `reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNumaNodes /t REG_DWORD /v 1`
 
 
-If your driver maps processors to NUMA nodes by calling [**KeQueryNodeActiveAffinity**](./nf-wdm-kequerynodeactiveaffinity.md), use one of the following workarounds:
+If your driver maps processors to NUMA nodes by calling [**KeQueryNodeActiveAffinity**](./nf-wdm-kequerynodeactiveaffinity.md), and your code runs on systems with more than 64 processors per NUMA node, use one of the following workarounds:
 
 1. Migrate to the multi-group node affinity APIs (user-mode and kernel-mode), such as **KeQueryNodeActiveAffinity2**.
 2. Call [**KeQueryLogicalProcessorRelationship**](./nf-wdm-kequerylogicalprocessorrelationship.md) with **RelationNumaNode** to directly query the NUMA node associated with a given processor number.

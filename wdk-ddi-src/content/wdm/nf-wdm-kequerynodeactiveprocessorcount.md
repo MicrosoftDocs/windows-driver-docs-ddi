@@ -53,7 +53,7 @@ A value of type USHORT that specifies the node number of the node to query.
 
 ## -returns
 
-Returns the number of active processors in the specified NUMA node or zero if an invalid node number was specified.
+Returns a ULONG value specifying the number of active processors in the specified NUMA node or zero if an invalid node number was specified.
 
 ## -remarks
 
