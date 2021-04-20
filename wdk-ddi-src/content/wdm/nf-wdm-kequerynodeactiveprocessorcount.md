@@ -2,7 +2,7 @@
 UID: NF:wdm.KeQueryNodeActiveProcessorCount
 tech.root: kernel
 title: KeQueryNodeActiveProcessorCount
-ms.date: 04/30/2021
+ms.date: 04/19/2021
 targetos: Windows
 description: This routine returns the number of active processors in the given NUMA node across all groups.
 req.assembly: 
@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Available in Windows Insider Preview and later versions of Windows.
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -59,3 +59,6 @@ Returns the number of active processors in the specified NUMA node or zero if an
 
 ## -see-also
 
+[**KeQueryNodeActiveAffinity2**](./nf-wdm-kequerynodeactiveaffinity2.md)
+
+[NUMA Support](/windows/win32/procthread/numa-support)

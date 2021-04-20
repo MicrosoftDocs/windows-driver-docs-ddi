@@ -2,7 +2,7 @@
 UID: NF:wdm.KeQueryNodeActiveAffinity2
 tech.root: kernel
 title: KeQueryNodeActiveAffinity2
-ms.date: 04/30/2021
+ms.date: 04/19/2021
 targetos: Windows
 description: This routine returns the current multi-group processor affinity of the given NUMA node.
 req.assembly: 
@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Available in Windows Insider Preview and later versions of Windows.
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -79,14 +79,19 @@ A pointer to a value of type USHORT that receives the number of group affinities
 
 ## -remarks
 
-Starting in Windows Insider Preview, the operating system no longer splits large NUMA nodes; instead, Windows reports the true NUMA topology of the system. Because systems can now have NUMA nodes larger than 64 processors, KeQueryNodeActiveAffinity can no longer fully describe the affinity of a node.
+Starting in Windows Server 2022, the operating system no longer splits large NUMA nodes; instead, Windows reports the true NUMA topology of the system. When a node contains more than 64 processors, the node spans more than one group. In this case, the OS assigns a primary group for each NUMA node. The primary group is always the one containing the most processors. For more info about this change in behavior, see [NUMA Support](/windows/win32/procthread/numa-support).
 
-If your driver maps processors to NUMA nodes by calling KeQueryNodeActiveAffinity, use one of the following workarounds:
+> [!NOTE]
+> To re-enable the legacy node splitting behavior, make the following change to the registry and reboot the system:
+> `reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNumaNodes /t REG_DWORD /v 1`
+
+
+If your driver maps processors to NUMA nodes by calling [**KeQueryNodeActiveAffinity**](./nf-wdm-kequerynodeactiveaffinity.md), use one of the following workarounds:
 
 1. Migrate to the multi-group node affinity APIs (user-mode and kernel-mode), such as **KeQueryNodeActiveAffinity2**.
-2. Call **KeQueryLogicalProcessorRelationship** (with **RelationNumaNode**) to directly query the NUMA node associated with a given processor number.
+2. Call [**KeQueryLogicalProcessorRelationship**](./nf-wdm-kequerylogicalprocessorrelationship.md) with **RelationNumaNode** to directly query the NUMA node associated with a given processor number.
 
-The following code example shows code that would be problematic on Windows Insider Preview and later, and then shows both workarounds.
+The following code example shows code that would be problematic on Windows Server 2022 and later, and then shows both workarounds.
 
 
 ```cpp
