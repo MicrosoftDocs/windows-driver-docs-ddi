@@ -10,13 +10,13 @@ req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: ieee8021qtypes.h
-req.include-header: 
+req.include-header: netadaptercx.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NET_PACKET_IEEE8021Q
 req.umdf-ver: 
@@ -47,13 +47,15 @@ The **NET_PACKET_IEEE8021Q** structure describes the IEEE 802.1Q information for
 
 ### -field PriorityCodePoint
 
-Specifies the 802.1p priority information that is used to establish packet priority in shared-media 802 networks. The bits in this member specify an 802.1p priority value.
+Specifies the quality-of-service prioritization scheme that is used to establish packet priority on an IEEE 802.3 Ethernet network. This 3-bit field refers to the IEEE 802.1p class of service that can be used to prioritize different classes of traffic.
 
 ### -field VlanIdentifier
 
-Identifies the virtual LAN (VLAN) that a packet belongs to.
+Identifies the virtual LAN (VLAN) that a packet belongs to. Portions of the network which are VLAN-aware can include this 12-bit VLAN tag.
 
 ### -field TxTagging
+
+Specifies the actions defined in the [**NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS**](ne-ieee8021qtypes-net_packet_tx_ieee8021q_action_flags.md) enum. If only IEEE 802.1 priority tagging is enabled, **TxTagging** is set to 1. If only VLAN tagging is enabled, **TxTagging** is set to 2. If both are enabled, **TxTagging** is set to 3.
 
 ## -remarks
 

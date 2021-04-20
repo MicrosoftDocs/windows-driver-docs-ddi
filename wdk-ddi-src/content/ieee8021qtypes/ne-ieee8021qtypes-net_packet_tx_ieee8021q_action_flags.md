@@ -9,11 +9,11 @@ description:
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ieee8021qtypes.h
-req.include-header: 
+req.include-header: netadaptercx.h
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -37,6 +37,8 @@ dev_langs:
 
 ## -description
 
+NetAdapterCx sets the **NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS** enum to specify the IEEE 802.1 priority tagging and virtual LAN (VLAN) tagging capabilities that the client driver supports.
+
 ## -enum-fields
 
 ### -field NetPacketTxIeee8021qActionFlagPriorityRequired
@@ -45,5 +47,10 @@ dev_langs:
 
 ## -remarks
 
+If only IEEE 802.1 priority tagging is supported, NetAdapterCx sets this value to 1.
+If only VLAN tagging is supported, NetAdapterCx sets this value to 2.
+If both are supported, NetAdapterCx sets this value to 3.
+
 ## -see-also
 
+[**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md)
