@@ -13,6 +13,7 @@
     "fwpmk.h",
     "fwpsk.h",
     "hashtypes.h",
+    "ieee8021q.h",
     "ieee8021qtypes.h",
     "knetpwrdepbroker.h",
     "logicaladdress.h",
