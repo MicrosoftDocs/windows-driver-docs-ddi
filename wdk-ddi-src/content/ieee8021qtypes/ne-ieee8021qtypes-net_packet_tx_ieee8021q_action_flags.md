@@ -53,4 +53,4 @@ If both are supported, NetAdapterCx sets this value to 3.
 
 ## -see-also
 
-[**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md)
