@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: Supported in NDIS 6.85 and later.
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY, *PNDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY
 req.umdf-ver: 

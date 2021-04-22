@@ -22,7 +22,7 @@ req.max-support:
 req.namespace:
 req.redist:
 req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winversvr: Windows Server 2022
 req.target-type:
 req.type-library:
 req.umdf-ver:
