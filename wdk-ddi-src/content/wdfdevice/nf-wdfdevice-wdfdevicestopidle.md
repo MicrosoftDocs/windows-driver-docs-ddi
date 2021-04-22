@@ -4,7 +4,7 @@ title: WdfDeviceStopIdle macro (wdfdevice.h)
 description: The WdfDeviceStopIdle method informs the framework that the specified device must be placed in its working (D0) power state.
 old-location: wdf\wdfdevicestopidle.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 04/22/2021
 keywords: ["WdfDeviceStopIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
 req.header: wdfdevice.h
