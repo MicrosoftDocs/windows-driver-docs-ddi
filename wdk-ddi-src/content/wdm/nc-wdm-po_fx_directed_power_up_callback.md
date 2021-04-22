@@ -80,6 +80,8 @@ WDM drivers that register with PoFx for runtime idle power management support ne
 
 Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md).
 
+This callback is invoked when the system exists DRIPS, not Modern Standby. A PEP driver determines the timing when the system exists DRIPS.
+
 When this callback is invoked, the driver typically performs the following high-level tasks:
 
 - Request a D0 IRP to power up the device.
