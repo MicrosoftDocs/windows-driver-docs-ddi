@@ -47,7 +47,7 @@ dev_langs:
 
 ### -field Header
 
-The [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md) structure for the **NDIS_POLL_NOTIFICATION** structure. Set the members of this structure as follows:
+The [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md) structure for the **NDIS_POLL_NOTIFICATION** structure. Set the members of this structure as follows:
 
 - **Type** = NDIS_OBJECT_TYPE_DEFAULT
 - **Revision** = NDIS_POLL_NOTIFICATION_REVISION_1

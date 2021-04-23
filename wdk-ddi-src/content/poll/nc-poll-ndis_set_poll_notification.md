@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Miniport drivers implement the **NDIS_SET_POLL_NOTIFICATION** callback function to perform miniport-specific processing when new packets are received.
+Miniport drivers implement the *NDIS_SET_POLL_NOTIFICATION* callback function to perform miniport-specific processing when new packets are received.
 
 ## -parameters
 
