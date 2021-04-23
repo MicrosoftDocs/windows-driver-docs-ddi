@@ -45,13 +45,13 @@ product:
 
 ## -description
 
-Reserved for system use.
+When registering a V2 plugin (**WHEA_PLUGIN_REGISTRATION_PACKET_V2**) this interface allows the plugin to unregister from the system so the driver can be stopped.
 
 ## -parameters
 
 ### -param PluginHandle
 
-TBD
+Specifies the plugin to unload. Use the [PluginHandle](./ns-ntddk-whea_pshed_plugin_registration_packet_v2.md) that the packet contains after registering a V2 plugin.
 
 ## -returns
 
