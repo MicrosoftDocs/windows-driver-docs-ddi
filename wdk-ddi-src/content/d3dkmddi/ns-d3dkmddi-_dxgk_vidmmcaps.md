@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDMMCAPS
-title: _DXGK_VIDMMCAPS (d3dkmddi.h)
+title: DXGK_VIDMMCAPS (d3dkmddi.h)
 description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
 old-location: display\dxgk_vidmmcaps.htm
-ms.date: 03/24/2020
+ms.date: 05/13/2021
 keywords: ["DXGK_VIDMMCAPS structure"]
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,8 +43,7 @@ api_name:
  - DXGK_VIDMMCAPS
 ---
 
-# _DXGK_VIDMMCAPS structure
-
+# DXGK_VIDMMCAPS structure
 
 ## -description
 
@@ -121,9 +120,29 @@ Indicates that GDI allocations are not required to be CPU visible. Supported sta
 
 The host KMD needs to set the cap if all DDIs are implemented. Supported starting with Windows 10 version 1703.
 
+### -field IoMmuSecureModeSupported
+
+Indicates that the driver supports IoMmu hardware and isolation. Supported starting with Windows 10 version 1803.
+
+### -field DisableSelfRefreshVRAMInS3
+
+Disable support for VRAM self-refresh in S3. Supported starting with Windows 10 version 1803.
+
 ### -field IoMmuSecureModeRequired
 
 Indicates that IOMMU hardware and isolation support (referred to by the **IommuSecureModeSupported** flag) is required or the OS will otherwise not start the adapter. Supported starting with Windows 10 version 2004.
+
+### -field MapAperture2Supported
+
+Indicates that the driver supports the **DXGK_OPERATION_MAP_APERTURE_SEGMENT2** [paging buffer command](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md). A driver must enable this support in order to be able to use logical address DMA remapping. Supported starting with Windows Server 2022.
+
+### -field CrossAdapterResourceTexture
+
+Indicates that the driver supports textures as a cross-adapter resource. Supported starting with Windows Server 2022.
+
+### -field CrossAdapterResourceScanout
+
+Indicates that the driver supports scanout as a cross-adapter resource. Supported starting with Windows Server 2022.
 
 ### -field Reserved
 
@@ -166,7 +185,14 @@ typedef struct _DXGK_VIDMMCAPS
             UINT    DisableSelfRefreshVRAMInS3  : 1;
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_7)
             UINT    IoMmuSecureModeRequired     : 1;
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_9)
+            UINT    MapAperture2Supported       : 1;
+            UINT    CrossAdapterResourceTexture : 1;
+            UINT    CrossAdapterResourceScanout : 1;
+            UINT    Reserved                    : 15;
+#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_7
             UINT    Reserved                    : 18;
+#endif // DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_9
 #else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_4
             UINT    Reserved                    : 19;
 #endif // DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_7
@@ -192,9 +218,12 @@ typedef struct _DXGK_VIDMMCAPS
 } DXGK_VIDMMCAPS;
 ```
 
+## -remarks
+
+These memory management capabilities are a part of the [**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md) structure.
+
 ## -see-also
 
 [**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md)
 
 [**DXGK_PHYSICALADAPTERCAPS**](ns-d3dkmddi-_dxgk_physicaladaptercaps.md)
-
