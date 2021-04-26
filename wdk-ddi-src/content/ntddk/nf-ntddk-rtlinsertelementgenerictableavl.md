@@ -83,7 +83,7 @@ If the caller's <i>CompareRoutine</i> returns <b>GenericEqual</b>, the data at <
 
 If a matching entry already exists in the generic table, <b>RtlInsertElementGenericTableAvl</b> returns a pointer to the existing entry's data and sets <i>NewElement</i> to <b>FALSE</b>. 
 
-If there is no matching entry in the table already,<b>RtlInsertElementGenericTableAvl</b> routine allocates sufficient space for the user data of new entry (<i>BufferSize</i>) plus the links associated with the new entry. Thus the total number of bytes will be at least <i>BufferSize</i> + <b>sizeof</b>(BALANCED_LINKS). Caller should not use the first <b>sizeof</b>(BALANCED_LINKS) bytes of the memory that the <i>AllocateRoutine</i>allocates.
+If there is no matching entry in the table already,<b>RtlInsertElementGenericTableAvl</b> routine allocates sufficient space for the user data of new entry (<i>BufferSize</i>) plus the links associated with the new entry. Thus the total number of bytes will be at least <i>BufferSize</i> + <b>sizeof</b>(RTL_BALANCED_LINKS). Caller should not use the first <b>sizeof</b>(RTL_BALANCED_LINKS) bytes of the memory that the <i>AllocateRoutine</i>allocates.
 
 Callers of the <i>Rtl..GenericTableAvl</i> routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
