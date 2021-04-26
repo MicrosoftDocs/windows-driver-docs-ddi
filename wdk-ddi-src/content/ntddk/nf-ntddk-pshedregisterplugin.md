@@ -91,6 +91,13 @@ The data in the supplied registration packet is invalid.
 
 A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function or its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> function.
 
+Starting in Windows 10, version 1903 (WDK 10 version 18362), a V2 of the PSHED-Plugin interfaces is available that allows a plugin to be removed and updated on a running system by calling the [**PshedUnregisterPlugin**](./nf-ntddk-pshedunregisterplugin.md) function.  Due to being allowed to unregister, V2 plugins cannot specify the **PshedFADiscovery** flag (discovery functional area) in the **FunctionalAreaMask** member of the [**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2**](./ns-ntddk-whea_pshed_plugin_registration_packet_v2.md) structure. For info about registering a plug-in, see [Registering a PSHED Plug-In](/windows-hardware/drivers/whea/registering-a-pshed-plug-in).
+
+A V2 plugin can still add error sources as described in [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10), or by calling [**WheaAddErrorSource**](./nf-ntddk-wheaadderrorsource.md) and [**WheaRemoveErrorSource**](./nf-ntddk-whearemoveerrorsource.md).
+
+A plugin may continue to use the discovery functional area by specifying **WHEA_PLUGIN_REGISTRATION_PACKET_V1** as the version of its [**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2**](./ns-ntddk-whea_pshed_plugin_registration_packet_v2.md) structure.
+
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>

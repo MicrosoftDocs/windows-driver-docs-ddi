@@ -56,7 +56,9 @@ Handle to an object of any type.
 
 ## -returns
 
-<b>NtClose</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. In particular, it returns STATUS_INVALID_HANDLE if <i>Handle</i> is not a valid handle, or STATUS_HANDLE_NOT_CLOSABLE if the calling thread does not have permission to close the handle.
+<b>NtClose</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. In particular, it returns STATUS_INVALID_HANDLE if <i>Handle</i> is not a valid handle, or STATUS_HANDLE_NOT_CLOSABLE if the calling thread does not have permission to close the handle, that is, the said object handle is protected from closing from any instance attempts of NtClose.
+
+An example where the latter NTSTATUS code occurs is when a call of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwduplicateobject">ZwDuplicateObject</a> has been invoked with <b>OBJ_PROTECT_CLOSE</b> passed to the handle attributes parameter argument. The kernel ensures that the handle cannot be closed in that case.
 
 ## -remarks
 
