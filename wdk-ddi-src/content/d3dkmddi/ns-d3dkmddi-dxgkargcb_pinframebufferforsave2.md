@@ -51,7 +51,7 @@ The **DXGKARGCB_PINFRAMEBUFFERFORSAVE2** structure contains the information used
 
 ### -field CommitSize
 
-[in] The size, in bytes, that the driver requires to pin. This size must be a multiple of PAGE_SIZE and must be less than or equal to the maximum size specified by the driver in the [**DXGK_FRAMEBUFFERSAVEAREA**](ns-d3dkmddi-_dxgk_framebuffersavearea.md) structure when the driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.mc) callback is called with **DXGKQAITYPE_FRAMEBUFFERSAVESIZE** during driver initialization.
+[in] The size, in bytes, that the driver requires to pin. This size must be a multiple of PAGE_SIZE and must be less than or equal to the maximum size specified by the driver in the [**DXGK_FRAMEBUFFERSAVEAREA**](ns-d3dkmddi-_dxgk_framebuffersavearea.md) structure when the driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) callback is called with **DXGKQAITYPE_FRAMEBUFFERSAVESIZE** during driver initialization.
 
 ### -field Flags
 
@@ -81,4 +81,4 @@ An alternative way to access the **Flags** bits.
 
 [**DxgkCbPinFrameBufferForSave2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md)
 
-[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.mc)
+[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)

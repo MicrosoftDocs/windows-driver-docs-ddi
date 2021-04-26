@@ -67,7 +67,7 @@ An alternative method to access the bits.
 
 ## -remarks
 
-The driver fills in this structure when *Dxgkernel* calls [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.md) with a [**DXGK_QUERYADAPTERINFOTYPE**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) value of **DXGKQAITYPE_IOMMU_CAPS**.
+The driver fills in this structure when *Dxgkernel* calls [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) with a [**DXGK_QUERYADAPTERINFOTYPE**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) value of **DXGKQAITYPE_IOMMU_CAPS**.
 
 To indicate logical DMA remapping support, the driver must also fill in [**DXGK_PHYSICAL_MEMORY_CAPS**](ns-d3dkmddi-dxgk_physical_memory_caps.md) accordingly.
 
@@ -79,4 +79,4 @@ To indicate logical DMA remapping support, the driver must also fill in [**DXGK_
 
 [**DXGK_VIDMMCAPS**](ns-d3dkmddi-_dxgk_vidmmcaps.md)
 
-[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.md)
+[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)

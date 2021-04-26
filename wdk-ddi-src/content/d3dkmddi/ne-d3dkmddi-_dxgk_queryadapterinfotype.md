@@ -50,7 +50,7 @@ dev_langs:
 
 ## -description
 
-The **DXGK_QUERYADAPTERINFOTYPE** enumeration indicates the type of information to retrieve when a display miniport driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.mc) function is called.
+The **DXGK_QUERYADAPTERINFOTYPE** enumeration indicates the type of information to retrieve when a display miniport driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is called.
 
 ## -enum-fields
 
@@ -159,23 +159,23 @@ The display miniport driver should populate a [**DXGK_HARDWARERESERVEDRANGES**](
 
 Supported starting in Windows 10, version 1803. Indicates a request for an integrated panel descriptor where the input buffer to the query will be a [**DXGK_QAITARGETIN**](ns-d3dkmddi-_dxgk_qaitargetin.md) structure and the output buffer is a [**DXGK_QUERYINTEGRATEDDISPLAYOUT2**](ns-d3dkmddi-_dxgk_queryintegrateddisplayout2.md) structure. This query replaces use of the **DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR** query for WDDM 2.4 drivers.
 
-[**TypeIntegratedDisplay** child devices](ne-dispmprt-_dxgk_child_device_type.md) are reported by calling [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.md) with the *Type* set to this value.
+[**TypeIntegratedDisplay** child devices](../dispmprt/ne-dispmprt-_dxgk_child_device_type.md) are reported by calling [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) with the *Type* set to this value.
 
 ### -field DXGKQAITYPE_NODEPERFDATA
 
-A [**DXGK_NODE_PERFDATA**](ns-d3dkmdt-_dxgk_node_perfdata.md) structure that represents performance data collected per engine from an adapter on an interval basis. Supported starting in Windows 10, version 1803.
+A [**DXGK_NODE_PERFDATA**](../d3dkmdt/ns-d3dkmdt-_dxgk_node_perfdata.md) structure that represents performance data collected per engine from an adapter on an interval basis. Supported starting in Windows 10, version 1803.
 
 ### -field DXGKQAITYPE_ADAPTERPERFDATA
 
-A [**DXGK_ADAPTER_PERFDATA**](ns-d3dkmdt-_dxgk_adapter_perfdata.md) structure that represents performance data collected per adapter on an interval basis. Supported starting in Windows 10, version 1803.
+A [**DXGK_ADAPTER_PERFDATA**](../d3dkmdt/ns-d3dkmdt-_dxgk_adapter_perfdata.md) structure that represents performance data collected per adapter on an interval basis. Supported starting in Windows 10, version 1803.
 
 ### -field DXGKQAITYPE_ADAPTERPERFDATA_CAPS
 
-A [**DXGK_ADAPTER_PERFDATACAPS**](ns-d3dkmdt-_dxgk_adapter_perfdatacaps.md) structure that represents data capabilities that are static and queried once per GPU during initialization. Supported starting in Windows 10, version 1803.
+A [**DXGK_ADAPTER_PERFDATACAPS**](../d3dkmdt/ns-d3dkmdt-_dxgk_adapter_perfdatacaps.md) structure that represents data capabilities that are static and queried once per GPU during initialization. Supported starting in Windows 10, version 1803.
 
 ### -field DXGKQAITYPE_GPUVERSION
 
-A [**DXGK_GPUVERSION**](ns-d3dkmdt-_dxgk_gpuversion.md) structure used to collect the BIOS version and GPU architecture name once during GPU initialization. Supported starting in Windows 10, version 1803.
+A [**DXGK_GPUVERSION**](../d3dkmdt/ns-d3dkmdt-_dxgk_gpuversion.md) structure used to collect the BIOS version and GPU architecture name once during GPU initialization. Supported starting in Windows 10, version 1803.
 
 ### -field DXGKQAITYPE_DEVICE_TYPE_CAPS
 
@@ -211,16 +211,16 @@ Logical remapping can only be done if no existing physical memory is referenced 
 
 * Call [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) for all physical adapters, so that the driver can gather information for all linked physical adapters.
 
-* Call [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.md) with DXGKQAITYPE_PHYSICAL_MEMORY_CAPS and DXGKQAITYPE_IOMMU_CAPS so that it can then create and attach the device to an IOMMU domain before any memory can be accessed.
+* Call [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) with DXGKQAITYPE_PHYSICAL_MEMORY_CAPS and DXGKQAITYPE_IOMMU_CAPS so that it can then create and attach the device to an IOMMU domain before any memory can be accessed.
 
 * Call [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) to start the device.
 
 ## -remarks
 
-*Dxgkrnl* calls the display miniport driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.md) callback to retrieve configuration information from the graphics adapter. The driver fills the requested information in the buffer pointed to by the **pOutputData** member of the [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure. See each enumeration value for the type of structure to fill in.
+*Dxgkrnl* calls the display miniport driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) callback to retrieve configuration information from the graphics adapter. The driver fills the requested information in the buffer pointed to by the **pOutputData** member of the [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure. See each enumeration value for the type of structure to fill in.
 
 ## -see-also
 
 [DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
 
-[DxgkDdiQueryAdapterInfo](nc-d3dkmddi-DxgkDdiQueryAdapterInfo.md)
+[DxgkDdiQueryAdapterInfo](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
