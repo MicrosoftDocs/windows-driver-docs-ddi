@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 title: _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
-ms.date: 08/05/2020
+ms.date: 05/13/2021
 keywords: ["_DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0, DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 req.header: d3dkmddi.h
@@ -44,10 +44,9 @@ api_name:
 
 # _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure
 
-
 ## -description
 
-The DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure identifies properties for an allocation.
+The **DXGK_ALLOCATIONINFOFLAGS_WDDM2_0** structure identifies properties for an allocation.
 
 ## -struct-fields
 
@@ -155,11 +154,9 @@ Setting this member is equivalent to setting the twelfth bit of the 32-bit **Val
 
 Setting this member is equivalent to setting the thirteenth bit of the 32-bit **Value** member (0x00001000).
 
-### -field Reserved03
+### -field MapApertureCpuVisible
 
-[in] This member is reserved and should be set to zero.
-
-Setting this member is equivalent to setting the fourteenth bit of the 32-bit **Value** member (0x00002000).
+[in] When set, indicates that the driver requires CPU access to memory during a [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) call for a [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operation. Supported starting in Windows Server 2022.
 
 ### -field HistoryBuffer
 
@@ -266,4 +263,3 @@ You can specify properties of an allocation by setting bits in the 32-bit **Valu
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
 
 [**pfnUnlockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb.md)
-
