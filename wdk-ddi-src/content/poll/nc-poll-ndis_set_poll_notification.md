@@ -5,7 +5,7 @@ title: NDIS_SET_POLL_NOTIFICATION
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: Miniport drivers implement the NdisSetPollNotification callback function to enable/disable the interrupt associated with a Poll object.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,22 +42,34 @@ dev_langs:
 
 ## -description
 
-Miniport drivers implement the *NDIS_SET_POLL_NOTIFICATION* callback function to perform miniport-specific processing when new packets are received.
+Miniport drivers implement the *NdisSetPollNotification* callback function to enable or disable the interrupt associated with a Poll object.
 
 ## -parameters
 
 ### -param Context
 
-[_In_] A pointer to a context area.
+[_In_] A pointer to context information that the driver provided when it created the Poll object.
 
 ### -param Notification
 
-[_Inout_] A pointer to an [**NDIS_POLL_NOTIFICATION**](ns-poll-ndis_poll_notification.md) structure.
+[_Inout_] A pointer to an [**NDIS_POLL_NOTIFICATION**](ns-poll-ndis_poll_notification.md) structure containing the interrupt state for the Poll object.
 
 ## -returns
 
 ## -remarks
 
+Miniport drivers register the *NdisSetPollNotification* callback during miniport adapter initialization. Drivers specify an entry point for the *NdisSetPollNotification* function at the **SetPollNotificationHandler** parameter of the [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) function before calling [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
+
+NDIS typically invokes the *NdisSetPollNotification* callback when it detects that the miniport driver is not making forward progress in [*NdisPoll*](nc-poll-ndis_poll.md). NDIS uses *NdisSetPollNotification* to tell the driver that it will stop invoking *NdisPoll*. The driver should invoke [**NdisRequestPoll**](nf-poll-ndisrequestpoll.md) when new work is ready to be processed. 
+
 ## -see-also
 
+[*NdisPoll*](nc-poll-ndis_poll.md)
+
+[**NdisRequestPoll**](nf-poll-ndisrequestpoll.md)
+
 [**NDIS_POLL_NOTIFICATION**](ns-poll-ndis_poll_notification.md)
+
+[**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md)
+
+[**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md)

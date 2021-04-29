@@ -5,7 +5,7 @@ title: NdisRegisterPoll
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: A miniport driver calls the NdisRegisterPoll function to register a Poll object with NDIS. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,35 +42,41 @@ dev_langs:
 
 ## -description
 
-A miniport driver calls the **NdisRegisterPoll** function to register resources required for the miniport's poll routine. 
+A miniport driver calls the **NdisRegisterPoll** function to register a Poll object with NDIS. 
 
 ## -parameters
 
 ### -param NdisHandle
 
-[_In_] An NDIS_HANDLE to a block of driver-allocated context information.
+[_In_] An NDIS-supplied miniport handle given to the driver in their [*MiniportInitialize*](../ndis/nc-ndis-miniport_initialize.md) callback.
 
 ### -param Context
 
-[_In_opt_] A pointer to a context area.
+[_In_opt_] A pointer to a block of driver-allocated context area that stores information about the Poll object. NDIS passes this context information in calls to [*NdisPoll*](nc-poll-ndis_poll.md) and [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md).
 
 ### -param Characteristics
 
-[_In_] A pointer to an [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) structure. 
+[_In_] A pointer to a driver initialized [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) structure.
 
 ### -param PollHandle
 
-[_Out_] A pointer to a caller-supplied NDIS_POLL_HANDLE variable. This location receives a handle to the new poll routine context. The driver must save this handle for use in subsequent **NdisXxx** function calls.
+[_Out_] On a successful return this location contains a handle for the new Poll object.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an [NTSTATUS](../kernel/ntstatus-values.md) error code.
 
 ## -remarks
 
-The driver must subsequently call the [**NdisDeregisterPoll**](nf-poll-ndisderegisterpoll.md) function when the NDIS poll is no longer needed.
+Drivers typically register one Poll object for each RSS processor in their [*MiniportInitialize*](../ndis/nc-ndis-miniport_initialize.md) callback.
+
+Drivers should call the [**NdisDeregisterPoll**](nf-poll-ndisderegisterpoll.md) to deregister the Poll object.
 
 ## -see-also
+
+[*NdisPoll*](nc-poll-ndis_poll.md)
+
+[*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md)
 
 [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md)
 

@@ -5,7 +5,7 @@ title: NDIS_POLL_NOTIFICATION
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The NDIS_POLL_NOTIFICATION structure contains the interrupt parameters for a Poll object.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-
+The **NDIS_POLL_NOTIFICATION** structure contains the interrupt parameters for a Poll object. 
 
 ## -struct-fields
 
@@ -55,9 +55,12 @@ The [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.
 
 ### -field Enabled
 
-A value of **TRUE** requests that the miniport driver enable notifications for the execution context. A value of **FALSE** requests that the miniport driver disable notifications for the execution context.
+A value of **TRUE** requests that the miniport driver enable the interrupt associated with this Poll object. A value of **FALSE** requests that the miniport driver disable the interrupt.
 
 ## -remarks
 
+NDIS passes a pointer to the **NDIS_POLL_NOTIFICATION** structure when invoking the miniport driver's [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md) callback. 
+
 ## -see-also
 
+[*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md)

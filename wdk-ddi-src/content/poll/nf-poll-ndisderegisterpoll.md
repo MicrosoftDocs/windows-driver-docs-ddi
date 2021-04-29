@@ -5,7 +5,7 @@ title: NdisDeregisterPoll
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: A miniport driver calls NdisDeregisterPoll to deregister a Poll object.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,17 +42,19 @@ dev_langs:
 
 ## -description
 
-A miniport driver calls the **NdisDeregisterPoll** function to release resources that it allocated with a previous call to the [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md) function.
+A miniport driver calls the **NdisDeregisterPoll** function to deregister a Poll object it previously registered with a call to the [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md) function.
 
 ## -parameters
 
 ### -param PollHandle
 
-[_In_] The handle returned by [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md) that identifies the poll routine resources to be deregistered.
+[_In_] A handle to the Poll object returned by a successful call to [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
 
 ## -remarks
 
+The **NdisDeregisterPoll** runs down any polling currently in progress.
 
+Drivers typically call **NdisDeregisterPoll** from their [*MiniportHalt*](../ndis/nc-ndis-miniport_halt.md) function. 
 
 ## -see-also
 

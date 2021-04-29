@@ -5,7 +5,7 @@ title: NDIS_POLL_DATA
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: NDIS_POLL_DATA contains pointers to the NDIS_POLL_TRANSMIT_DATA and NDIS_POLL_RECEIVE_DATA structures that the driver can use to perform receive indications and send completions.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -41,6 +41,8 @@ dev_langs:
 
 ## -description
 
+The **NDIS_POLL_DATA** structure contains pointers to the [**NDIS_POLL_TRANSMIT_DATA**](ns-poll-ndis_poll_transmit_data.md) and [**NDIS_POLL_RECEIVE_DATA**](ns-poll-ndis_poll_receive_data.md) structures that the miniport driver uses to perform receive indications and send completions when using a Poll object.
+
 ## -struct-fields
 
 ### -field Header
@@ -53,16 +55,20 @@ The [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.
 
 ### -field Transmit
 
-A [**NDIS_POLL_TRANSMIT_DATA**](ns-poll-ndis_poll_transmit_data.md) structure.
+An [**NDIS_POLL_TRANSMIT_DATA**](ns-poll-ndis_poll_transmit_data.md) structure.
 
 ### -field Receive
 
-A [**NDIS_POLL_RECEIVE_DATA**](ns-poll-ndis_poll_receive_data.md) structure.
+An [**NDIS_POLL_RECEIVE_DATA**](ns-poll-ndis_poll_receive_data.md) structure.
 
 ## -remarks
+
+NDIS passes a pointer to the **NDIS_POLL_DATA** structure when invoking [*NdisPoll*](nc-poll-ndis_poll.md). 
 
 ## -see-also
 
 [**NDIS_POLL_TRANSMIT_DATA**](ns-poll-ndis_poll_transmit_data.md)
 
 [**NDIS_POLL_RECEIVE_DATA**](ns-poll-ndis_poll_receive_data.md)
+
+[*NdisPoll*](nc-poll-ndis_poll.md)

@@ -5,7 +5,7 @@ title: NdisSetPollAffinity
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The NdisSetPollAffinity function to locks an NdisPoll callback to a set of processors in a group. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,19 +42,24 @@ dev_langs:
 
 ## -description
 
-A miniport driver calls the **NdisSetPollAffinity** function to specify the CPU affinity of the miniport's poll routine.
+A miniport driver calls the **NdisSetPollAffinity** function to lock an [*NdisPoll*](nc-poll-ndis_poll.md) callback to a set of processors in a group. 
 
 ## -parameters
 
 ### -param PollHandle
 
-[_In_] The handle returned by [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md) that identifies the miniport's poll routine.
+[_In_] A handle to the Poll object returned by a successful call to [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
 
 ### -param PollAffinity
 
-[_In_] A pointer to the [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) of the target processor. 
+[_In_] A pointer to a driver-initialized [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure that describes the cores on which the driver wants the [*NdisPoll*](nc-poll-ndis_poll.md) callback for this object to be called.
 
 ## -remarks
 
+After **NdisSetPollAffinity** returns one poll iteration can still occur with the old affinity.
+
 ## -see-also
 
+[*NdisPoll*](nc-poll-ndis_poll.md)
+
+[**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md)
