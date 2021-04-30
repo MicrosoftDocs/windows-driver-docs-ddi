@@ -48,7 +48,7 @@ Miniport drivers implement the *NdisSetPollNotification* callback function to en
 
 ### -param Context
 
-[_In_] A pointer to context information that the driver provided when it created the Poll object.
+[_In_] A pointer to the context information that the driver provided when it created the Poll object.
 
 ### -param Notification
 
@@ -58,7 +58,7 @@ Miniport drivers implement the *NdisSetPollNotification* callback function to en
 
 ## -remarks
 
-Miniport drivers register the *NdisSetPollNotification* callback during miniport adapter initialization. Drivers specify an entry point for the *NdisSetPollNotification* function at the **SetPollNotificationHandler** parameter of the [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) function before calling [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
+Miniport drivers register the *NdisSetPollNotification* callback during miniport adapter initialization. Drivers specify an entry point for the *NdisSetPollNotification* function at the **SetPollNotificationHandler** parameter of the [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) structure before calling [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
 
 NDIS typically invokes the *NdisSetPollNotification* callback when it detects that the miniport driver is not making forward progress in [*NdisPoll*](nc-poll-ndis_poll.md). NDIS uses *NdisSetPollNotification* to tell the driver that it will stop invoking *NdisPoll*. The driver should invoke [**NdisRequestPoll**](nf-poll-ndisrequestpoll.md) when new work is ready to be processed. 
 

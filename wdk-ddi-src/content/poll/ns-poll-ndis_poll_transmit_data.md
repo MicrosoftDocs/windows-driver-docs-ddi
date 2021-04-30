@@ -47,7 +47,7 @@ Miniport drivers use the **NDIS_POLL_TRANSMIT_DATA** structure to perform send c
 
 ### -field MaxNblsToComplete
 
-The maximum number of [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structures (NBLs) that a miniport driver may complete. If this value is **NDIS_ANY_NUMBER_OF_NBLS**, the driver may complete an unlimited number of transmit NBLs.
+The maximum number of [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structures (NBLs) that a miniport driver should include in a transmit completion. If this value is **NDIS_ANY_NUMBER_OF_NBLS**, the driver may complete an unlimited number of transmit NBLs.
 
 ### -field Reserved1
 
