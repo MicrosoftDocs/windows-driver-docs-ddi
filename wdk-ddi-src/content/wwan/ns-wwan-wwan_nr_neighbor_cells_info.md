@@ -5,7 +5,7 @@ title: WWAN_NR_NEIGHBOR_CELLS_INFO
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The WWAN_NR_NEIGHBOR_CELLS_INFO structure represents information about NR neighbor cells.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **WWAN_NR_NEIGHBOR_CELLS_INFO** structure represents information about the NR neighbor cells.
+The **WWAN_NR_NEIGHBOR_CELLS_INFO** structure represents information about NR neighbor cells.
 
 ## -struct-fields
 
@@ -62,27 +62,45 @@ The size, in bytes, used for *ProviderId*.
 
 ### -field CellIDOffset
 
-The offset of the CellID in bytes, calculated from beginning of structure. This member can be NULL when no CellID information is available.
+The offset of the *CellID* in bytes, calculated from beginning of structure. This member can be NULL when no *CellID* information is available.
 
 ### -field CellIDSize
 
-The size used for the CellID.
+The size used for the *CellID*.
 
 ### -field PhysicalCellID
 
-The pysical Cell ID (0..1007). Use 0xFFFFFFFF when this information is not available
+The physical Cell ID (0-1007). Use 0xFFFFFFFF when this information is not available.
 
 ### -field TAC
 
+The Tracking Area Code (TAC) is a 24-bit value for EUTRA-5GC or a 16-bit value for EUTRA-EPC. It is used to identify the tracking area within the scope of a public land mobile network (PLMN). Use 0xFFFFFFFF when this information is not available. 
+
 ### -field RSRP
+
+The average Reference Signal Received Power. The range is 0 to 127 and mapped to -156 to -31 dBm. Use 0xFFFFFFFF when this information is not available.
 
 ### -field RSRQ
 
+The average Reference Signal Received Quality. The range is 0 to 127 and mapped to -43 to 20 dB. Use 0xFFFFFFFF when this information is not available.
+
 ### -field SINR
 
+The average Reference Signal to Noise and Interference Ratio. The range is 0 to 127 and mapped to -23 to 40 dB. Use 0xFFFFFFFF when this information is not available.
+
 ### -field Data
+
+The data buffer containing the *ProviderId* and *CellID*.
 
 ## -remarks
 
 ## -see-also
+
+[**WWAN_BASE_STATIONS_INFO**](_wwan_base_stations_info.md)
+
+[**WWAN_NR_NEIGHBOR_CELLS**](ns-wwan-wwan_nr_neighbor_cells.md)
+
+[**WWAN_NR_SERVING_CELLS**](ns-wwan-wwan_nr_serving_cells.md)
+
+[**WWAN_NR_SERVING_CELLS_INFO**](ns-wwan-wwan_nr_serving_cells_info.md)
 

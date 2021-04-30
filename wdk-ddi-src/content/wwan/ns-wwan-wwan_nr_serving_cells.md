@@ -5,7 +5,7 @@ title: WWAN_NR_SERVING_CELLS
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The WWAN_NR_SERVING_CELLS structure represents the measured results list of 5G NR serving cells.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,13 +44,28 @@ dev_langs:
 
 ## -description
 
+The **WWAN_NR_SERVING_CELLS** structure represents the measured results list of 5G NR serving cells.
+
 ## -struct-fields
 
 ### -field ElementCount
 
+The count of NR serving cell entries following this element, with a maximum of 32 NR serving cells.
+
 ### -field NRServingCells
+
+The array of NR serving cell records, each specified as a [**WWAN_NR_SERVING_CELLS_INFO**](ns-wwan-wwan_nr_serving_cells_info.md) structure.
 
 ## -remarks
 
 ## -see-also
+
+[**WWAN_BASE_STATIONS_INFO**](_wwan_base_stations_info.md)
+
+[**WWAN_NR_SERVING_CELLS_INFO**](ns-wwan-wwan_nr_serving_cells_info.md)
+
+[**WWAN_NR_NEIGHBOR_CELLS_INFO**](ns-wwan-wwan_nr_neighbor_cells_info.md)
+
+[**WWAN_NR_NEIGHBOR_CELLS**](ns-wwan-wwan_nr_neighbor_cells.md)
+
 

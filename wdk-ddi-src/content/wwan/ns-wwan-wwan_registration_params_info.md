@@ -1,11 +1,11 @@
 ---
 UID: NS:wwan._WWAN_REGISTRATION_PARAMS_INFO
-tech.root: 
+tech.root: netvista
 title: WWAN_REGISTRATION_PARAMS_INFO
-ms.date: 
+ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The WWAN_REGISTRATION_PARAMS_INFO structure represents device registration parameters.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -16,7 +16,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WWAN_REGISTRATION_PARAMS_INFO, *PWWAN_REGISTRATION_PARAMS_INFO
 req.umdf-ver: 
@@ -44,21 +44,56 @@ dev_langs:
 
 ## -description
 
+The **WWAN_REGISTRATION_PARAMS_INFO** structure represents device registration parameters.
+
 ## -struct-fields
 
 ### -field MicoMode
 
+A value from the [**WWAN_MICO_MODE**](ne-wwan-wwan_mico_mode.md) enumeration that represents the Mobile Initiated Connection (MICO) mode requested by the host.
+
 ### -field DRXParam
+
+A value from the [**WWAN_DRX_PARAMS**](ne-wwan-wwan_drx_params.md) enumeration that represents the configuration of Discontinuous Reception (DRX) settings requested by the host.
 
 ### -field LADNInfo
 
+A value from the [**WWAN_LADN_IND_REQUEST**](ne-wwan-wwan_ladn_ind_request.md) enumeration that represents the Local Area Data Networks (LADN) information requested by the host.
+
 ### -field DefaultPDUSessionHint
+
+A value from the [**WWAN_DEFAULT_PDU_SESSION_HINT**](ne-wwan-wwan_default_pdu_session_hint.md)  enumeration that represents a hint that there's a possibility that the host will establish the default protocol data unit (PDU) session immediately after the registration is completed. Since this depends on several policies, it may not happen.
 
 ### -field ReRegisterIfNeeded
 
+This is a forced re-registration indicator. 
+
+If the value is **1** and the device is currently registered or in the middle of registration, the modem shall evaluate whether any of the registration parameters contained in this set request are different than those used in the previous registration request toward the network. If the parameters are different, the modem shall de-register from the network and re-register using the current registration parameters. All normal procedures related to de-registration and registration, including sending appropriate events at appropriate times, shall be performed.
+
+A value of **0** indicates that forced re-registration is not requested. 
+
+All other values are reserved.
+
+This is a one-time indicator. The modem shall use this only once upon receiving this set request. 
+
 ### -field PreConfiguredNSSAIListHeader
+
+A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) object that represents a pre-configured Single Network Slice Selection Assistance Information (S-NSSAI). The host will send exactly one S-NSSAI if the modem has zero pre-configured default S-NSSAIs.
 
 ## -remarks
 
+The **WWAN_REGISTRATION_PARAMS_INFO** structure is used in OID_WWAN_REGISTER_PARAMS set requests and NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
+
+The **WWAN_REGISTRATION_PARAMS_INFO** structure represents device registration parameters that are requested by the host.
+
 ## -see-also
 
+[**WWAN_MICO_MODE**](ne-wwan-wwan_mico_mode.md)
+
+[**WWAN_DRX_PARAMS**](ne-wwan-wwan_drx_params.md)
+
+[**WWAN_LADN_IND_REQUEST**](ne-wwan-wwan_ladn_ind_request.md)
+
+[**WWAN_DEFAULT_PDU_SESSION_HINT**](ne-wwan-wwan_default_pdu_session_hint.md)
+
+[**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md)
