@@ -64,7 +64,7 @@ A miniport driver calls the **NdisRegisterPoll** function to register a Poll obj
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an [NTSTATUS](../kernel/ntstatus-values.md) error code.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
 
 ## -remarks
 
