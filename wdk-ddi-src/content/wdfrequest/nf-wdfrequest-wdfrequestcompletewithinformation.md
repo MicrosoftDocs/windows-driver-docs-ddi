@@ -87,13 +87,15 @@ The driver encountered an error while processing the request.
 ### -param Information 
 
 [in]
-Driver-defined completion status information for the request, such as the number of bytes that were transferred.
+A ULONG_PTR that is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. This field is not extensible by the driver.
 
 ## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
 
+For read, write and IOCTL requests, it is necessary for the driver to call **WdfRequestCompleteWithInformation**
 
+For a non-data transfer request, calling [**WdfRequestComplete**(/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete) instead is an option.
 
 Calling <b>WdfRequestCompleteWithInformation</b> is equivalent to calling <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsetinformation">WdfRequestSetInformation</a> and then calling <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a>.
 
