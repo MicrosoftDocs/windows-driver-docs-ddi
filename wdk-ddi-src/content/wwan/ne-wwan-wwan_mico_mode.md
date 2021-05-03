@@ -51,11 +51,11 @@ MICO mode is enabled on the device.
 
 ### -field WwanMicoModeUnsupported
 
-Used in set or query responses only. Indicates that the device does not support MICO mode.
+Used in [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set or query responses only. Indicates that the device does not support MICO mode.
 
 ### -field WwanMBIMMicoModeDefault
 
-Used in set requests only. Indicates that the default MICO mode in the device (including no MICO mode support) should be used by the device in 5G registration.
+Used in [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set requests only. Indicates that the default MICO mode in the device (including no MICO mode support) should be used by the device in 5G registration.
 
 ### -field WwanMicoModeMax
 
@@ -65,3 +65,4 @@ Used in set requests only. Indicates that the default MICO mode in the device (i
 
 [**WWAN_REGISTRATION_PARAMS_INFO**](ns-wwan-wwan_registration_params_info.md)
 
+[OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params)

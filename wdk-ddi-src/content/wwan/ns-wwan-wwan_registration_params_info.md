@@ -5,7 +5,7 @@ title: WWAN_REGISTRATION_PARAMS_INFO
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: The WWAN_REGISTRATION_PARAMS_INFO structure represents device registration parameters.
+description: The WWAN_REGISTRATION_PARAMS_INFO structure represents 5G-specific registration parameters of the MB device.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **WWAN_REGISTRATION_PARAMS_INFO** structure represents device registration parameters.
+The **WWAN_REGISTRATION_PARAMS_INFO** structure represents 5G-specific registration parameters of the MB device.
 
 ## -struct-fields
 
@@ -82,9 +82,9 @@ A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) object that represents a 
 
 ## -remarks
 
-The **WWAN_REGISTRATION_PARAMS_INFO** structure is used in OID_WWAN_REGISTER_PARAMS set requests and NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
+The **WWAN_REGISTRATION_PARAMS_INFO** structure is used in [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set requests and [NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-register-params-state) notifications.
 
-The **WWAN_REGISTRATION_PARAMS_INFO** structure represents device registration parameters that are requested by the host.
+A host typically sends an [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set request with a **WWAN_REGISTRATION_PARAMS_INFO** structure to configure a device with the desired registration parameters.
 
 ## -see-also
 
