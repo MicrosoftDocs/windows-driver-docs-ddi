@@ -96,7 +96,7 @@ The data buffer containing the *ProviderId*.
 
 ## -see-also
 
-[**WWAN_BASE_STATIONS_INFO**](_wwan_base_stations_info.md)
+[**WWAN_BASE_STATIONS_INFO**](ns-wwan-_wwan_base_stations_info.md)
 
 [**WWAN_NR_SERVING_CELLS**](ns-wwan-wwan_nr_serving_cells.md)
 

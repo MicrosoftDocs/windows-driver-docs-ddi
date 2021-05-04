@@ -43,7 +43,7 @@ The **WWAN_DRX_PARAMS** enumeration lists Discontinuous Reception (DRX) settings
 
 ### -field WwanDRXUnspecified
 
-The DRX cycle is not specified. In set requests, **WwanDRXUnspecified** indicates that the host does not request that the modem use a specific DRX cycle. In set or query responses, **WwanDRXUnspecified** indicates that the device does not know the DRX cycle.
+The DRX cycle is not specified. In [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set requests, **WwanDRXUnspecified** indicates that the host does not request that the modem use a specific DRX cycle. In set or query responses, **WwanDRXUnspecified** indicates that the device does not know the DRX cycle.
 
 ### -field WwanDRXNotSupported
 
@@ -73,4 +73,4 @@ DRX cycle T=256
 
 [**WWAN_REGISTRATION_PARAMS_INFO**](ns-wwan-wwan_registration_params_info.md)
 
-
+[OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) 

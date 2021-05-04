@@ -50,7 +50,7 @@ The **WWAN_NR_NEIGHBOR_CELLS_INFO** structure represents information about NR ne
 
 ### -field SystemSubType
 
-Indicates the system type for which a neighbor cell information is valid. This is applicable for indicating whether a neighbor cell is either an NR or EUTRA cell corresponding to the WWAN data subclasses. For a detailed list of values, see the **dataSubclass** member of [**IS_5G_5GC_PRESENT**](nf-wwan-is_5g_5gc_present.md). 
+Indicates the system subtype for which a neighbor cell information is valid. This is applicable for indicating whether a neighbor cell is either an NR or EUTRA cell corresponding to the WWAN data subclasses. For a detailed list of values, see the **dataSubclass** member of [**IS_5G_5GC_PRESENT**](nf-wwan-is_5g_5gc_present.md). 
 
 ### -field ProviderIdOffset
 
@@ -96,7 +96,7 @@ The data buffer containing the *ProviderId* and *CellID*.
 
 ## -see-also
 
-[**WWAN_BASE_STATIONS_INFO**](_wwan_base_stations_info.md)
+[**WWAN_BASE_STATIONS_INFO**](ns-wwan-_wwan_base_stations_info.md)
 
 [**WWAN_NR_NEIGHBOR_CELLS**](ns-wwan-wwan_nr_neighbor_cells.md)
 

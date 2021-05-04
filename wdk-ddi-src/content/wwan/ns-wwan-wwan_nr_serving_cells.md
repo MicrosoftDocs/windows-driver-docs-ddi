@@ -60,7 +60,7 @@ The array of NR serving cell records, each specified as a [**WWAN_NR_SERVING_CEL
 
 ## -see-also
 
-[**WWAN_BASE_STATIONS_INFO**](_wwan_base_stations_info.md)
+[**WWAN_BASE_STATIONS_INFO**](ns-wwan-_wwan_base_stations_info.md)
 
 [**WWAN_NR_SERVING_CELLS_INFO**](ns-wwan-wwan_nr_serving_cells_info.md)
 

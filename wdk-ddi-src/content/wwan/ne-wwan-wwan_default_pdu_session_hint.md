@@ -57,3 +57,4 @@ Default PDU session activation is likely to happen soon.
 
 [**WWAN_REGISTRATION_PARAMS_INFO**](ns-wwan-wwan_registration_params_info.md)
 
+[OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) 

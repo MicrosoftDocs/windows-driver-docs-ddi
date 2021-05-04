@@ -60,7 +60,7 @@ The array of NR neighbor cell records, each specified as a [**WWAN_NR_NEIGHBOR_C
 
 ## -see-also
 
-[**WWAN_BASE_STATIONS_INFO**](_wwan_base_stations_info.md)
+[**WWAN_BASE_STATIONS_INFO**](ns-wwan-_wwan_base_stations_info.md)
 
 [**WWAN_NR_NEIGHBOR_CELLS_INFO**](ns-wwan-wwan_nr_neighbor_cells_info.md)
 
