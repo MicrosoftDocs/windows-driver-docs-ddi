@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1. Supported in NDIS 6.82 and later.
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: Windows Server 2022. Supported in NDIS 6.82 and later.
 req.target-type: 
 req.typenames: NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP
 req.umdf-ver: 
