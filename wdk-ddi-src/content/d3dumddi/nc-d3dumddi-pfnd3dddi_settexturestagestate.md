@@ -55,7 +55,7 @@ The <i>SetTextureStageState</i> function updates the state of a texture at a par
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

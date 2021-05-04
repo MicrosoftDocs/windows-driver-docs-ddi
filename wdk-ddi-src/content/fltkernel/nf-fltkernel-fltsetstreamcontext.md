@@ -4,13 +4,13 @@ title: FltSetStreamContext function (fltkernel.h)
 description: The FltSetStreamContext routine sets a context for a file stream.
 old-location: ifsk\fltsetstreamcontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltSetStreamContext function"]
 ms.keywords: FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], fltkernel/FltSetStreamContext, ifsk.fltsetstreamcontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems. Not available nor supported in Windows 2000 SP4 and earlier operating systems.
+req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,166 +42,94 @@ api_name:
 
 # FltSetStreamContext function
 
-
 ## -description
 
-The <b>FltSetStreamContext</b> routine sets a context for a file stream.
+The **FltSetStreamContext** routine sets a context for a file stream.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-An opaque instance pointer for the minifilter driver instance whose context is to be inserted into, removed from, or replaced in the list of contexts attached to the file stream.
+[in] An opaque instance pointer for the minifilter driver instance whose context is to be inserted into, removed from, or replaced in the list of contexts attached to the file stream.
 
-### -param FileObject 
+### -param FileObject
 
-[in]
-A pointer to a file object for the file stream.
+[in] A pointer to a [file object](../wdm/ns-wdm-_file_object.md) for the file stream.
 
-### -param Operation 
+### -param Operation
 
-[in]
-A flag that specifies details of the operation to be performed. This parameter must be one of the following: 
+[in] Flag specifying details of the operation to be performed. This parameter must be one of the following:
 
+| Flag | Meaning |
+| ---- | ------- |
+| FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for *Instance*, **FltSetStreamContext** will replace it with the context specified in *NewContext*. Otherwise, it will insert *NewContext* into the list of contexts for the file stream. |
+| FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for this *Instance*, **FltSetStreamContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, the routine will insert *NewContext* into the list of contexts for the file stream and increment the reference count. |
 
+### -param NewContext
 
+[in] A pointer to the new context to be set for the file stream. This parameter is required and cannot be **NULL**.
 
+### -param OldContext
 
-#### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream. 
-
-
-
-#### FLT_SET_CONTEXT_KEEP_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream.
-
-### -param NewContext 
-
-[in]
-A pointer to the new context to be set for the file stream. This parameter is required and cannot be <b>NULL</b>.
-
-### -param OldContext 
-
-[out]
-A pointer to a caller-allocated variable that receives the address of the existing stream context pointed to by the <i>Instance</i>parameter. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
+[out] A pointer to a caller-allocated variable that receives the address of the existing stream context for the *Instance* parameter, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 
-The <b>FltSetStreamContext</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+The **FltSetStreamContext** routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_DEFINED</b></dt>
-</dl>
-</td>
-<td width="60%">
-If FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for <i>Operation</i>, this error code indicates that a stream context is already attached to the file stream.  
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_LINKED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context pointed to by the <i>NewContext</i> parameter is already linked to an object.  In other words, this error code indicates that <i>NewContext</i> is already in use due to a successful prior call of a <b>FltSet</b><i>Xxx</i><b>Context</b> routine. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>Instance</i> is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-This can be one of the following: 
-
-<ul>
-<li>
-The <i>NewContext</i> parameter does not point to a valid stream context. 
-
-</li>
-<li>
-An invalid value was specified for <i>Operation</i>. 
-
-</li>
-</ul>
-STATUS_INVALID_PARAMETER is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system does not support per-stream contexts for this file stream. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_CONTEXT_ALREADY_DEFINED | If FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for *Operation*, this error code indicates that a stream context is already attached to the file stream. |
+| STATUS_FLT_CONTEXT_ALREADY_LINKED | The context pointed to by the *NewContext* parameter is already linked to an object.  In other words, this error code indicates that *NewContext* is already in use due to a successful prior call of a **FltSet***Xxx***Context** routine. |
+| STATUS_FLT_DELETING_OBJECT | The instance specified in the *Instance* parameter is being torn down. This is an error code. |
+| STATUS_INVALID_PARAMETER | An invalid parameter was passed. For example, the *NewContext* parameter does not point to a valid stream context, or an invalid value was specified for the *Operation* parameter. This is an error code. |
+| STATUS_NOT_SUPPORTED | The file system does not support per-stream contexts for this file stream. This is an error code. |
 
 ## -remarks
 
-A minifilter driver calls <b>FltSetStreamContext</b> to attach a stream context to a file stream, or to remove or replace an existing stream context. A minifilter driver can attach one context per minifilter driver instance to the file stream. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-A successful call to <b>FltSetStreamContext</b> increments the reference count on <i>NewContext</i>. When the context pointed to by <i>NewContext</i> is no longer needed, the minifilter must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to decrement its reference count.
+A minifilter driver calls **FltSetStreamContext** to attach a stream context to a file stream, or to remove or replace an existing stream context. A minifilter driver can attach one context per minifilter driver instance to the file stream.
 
-If <b>FltSetStreamContext</b> fails, the reference count remains unchanged. In this case, the filter calling <b>FltSetStreamContext</b> must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> for the <i>NewContext</i> object that was allocated and referenced in <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. If <b>FltSetStreamContext</b> fails and if the <i>OldContext</i> parameter is not <b>NULL</b> and does not point to NULL_CONTEXT then <i>OldContext</i> is a referenced pointer to the context currently associated with the transaction. The filter calling <b>FltSetStreamContext</b> must call <b>FltReleaseContext</b> for <i>OldContext</i> as well.
+**FltSetStreamContext** cannot be called on an unopened *FileObject*. Hence it cannot be called from a pre-create callback for a stream because the stream has not been opened at that point. A minifilter driver can, however, allocate and set up the stream context in the pre-create callback, pass it to the post-create callback using the completion context parameter and set the stream context on the stream in the post-create callback.
 
-Note that the <i>OldContext</i> pointer returned by <b>FltSetStreamContext</b> must also be released by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> when it is no longer needed. For more information, see <a href="/windows-hardware/drivers/ifs/setting-contexts">Setting Contexts</a> and <a href="/windows-hardware/drivers/ifs/releasing-contexts">Releasing Contexts</a>. 
+### Reference Counting
 
-Also, note that <b>FltSetStreamContext</b> cannot be called on an unopened <i>FileObject</i>. Hence <b>FltSetStreamContext</b> cannot be called from a pre-create callback for a stream because the stream has not been opened at that point. A minifilter driver can, however, allocate and set up the stream context in the pre-create callback, pass it to the post-create callback using the completion context parameter and set the stream context on the stream in the post-create callback.
+If **FltSetStreamContext** succeeds:
 
-To get a stream context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>. 
+- The reference count on *NewContext* is incremented. When *NewContext* is no longer needed, the minifilter must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement its reference count.
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+Else if **FltSetStreamContext** fails:
 
-To delete a stream context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
+- The reference count on *NewContext* remains unchanged.
+- If *OldContext* is not **NULL** and does not point to NULL_CONTEXT then *OldContext* is a referenced pointer to the context currently associated with the stream. The filter calling **FltSetStreamContext** must call **FltReleaseContext** for *OldContext* as well when the context pointer is no longer needed.
 
-For more information about context reference counting, see <a href="/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
+Regardless of success:
+
+- The filter calling **FltSetStreamContext** must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement the reference count on the *NewContext* object that was incremented by [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+For more information, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
+
+### Other context operations
+
+For more information, see [Setting Contexts](/windows-hardware/drivers/ifs/setting-contexts), and [Releasing Contexts](/windows-hardware/drivers/ifs/releasing-contexts):
+
+- To determine whether stream contexts are supported for a given file, call [**FltSupportsStreamContexts**](nf-fltkernel-fltsupportsstreamcontexts.md)
+
+- To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+- To get a stream context, call [**FltGetStreamContext**](nf-fltkernel-fltgetstreamcontext.md).
+
+- To delete a stream context, call [**FltDeleteStreamContext**](nf-fltkernel-fltdeletestreamcontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltDeleteStreamContext**](nf-fltkernel-fltdeletestreamcontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltGetStreamContext**](nf-fltkernel-fltgetstreamcontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamcontext">FltDeleteStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)

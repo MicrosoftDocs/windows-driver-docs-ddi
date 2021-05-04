@@ -50,19 +50,19 @@ Creates a state object. A state object represents a variable amount of configura
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3D12DDIARG_CREATE_STATE_OBJECT_0054](ns-d3d12umddi-d3d12ddiarg_create_state_object_0054.md) structure.
 
-### -param Arg3
+### -param unnamedParam3
 
 Handle to a runtime handle type state object.
 
-### -param Arg4
+### -param unnamedParam4
 
 ## -returns
 

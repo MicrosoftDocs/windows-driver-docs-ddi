@@ -55,7 +55,7 @@ The <i>ResolveSharedResource</i> function informs a user-mode display driver tha
 
 A handle to the display device (that is, the graphics context) that is associated with the shared surface or GDI interoperable surface.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

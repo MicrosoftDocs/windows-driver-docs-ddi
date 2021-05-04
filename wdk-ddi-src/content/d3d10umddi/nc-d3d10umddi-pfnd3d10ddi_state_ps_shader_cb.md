@@ -49,7 +49,7 @@ The <b>pfnStatePsShaderCb</b> function causes the Microsoft Direct3D 10 runtime 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hRuntimeDevice* [in]
 

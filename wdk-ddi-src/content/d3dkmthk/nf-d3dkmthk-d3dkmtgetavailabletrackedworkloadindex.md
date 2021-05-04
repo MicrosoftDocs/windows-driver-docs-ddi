@@ -49,7 +49,7 @@ Gets the available tracked workload index.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX](ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex.md) structure.
 

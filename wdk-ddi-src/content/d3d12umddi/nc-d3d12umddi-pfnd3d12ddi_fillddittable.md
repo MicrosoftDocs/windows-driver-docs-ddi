@@ -50,25 +50,25 @@ Implemented by the client driver to retrieve the [D3D12DDI_DEVICE_FUNCS_VIDEO](n
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Adapter handle.
 
-### -param Arg2
+### -param unnamedParam2
 
 Table type.
 
-### -param Arg3
+### -param unnamedParam3
 
 Void.
 
-### -param Arg4
+### -param unnamedParam4
 
 Size of the table.
 
-### -param Arg5
+### -param unnamedParam5
 
-### -param Arg6
+### -param unnamedParam6
 
 Table handle.
 

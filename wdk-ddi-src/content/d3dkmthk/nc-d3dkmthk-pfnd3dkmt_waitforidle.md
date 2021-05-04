@@ -48,7 +48,7 @@ The PFND3DKMT_WAITFORIDLE callback function waits for a display device to be idl
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_WAITFORIDLE](ns-d3dkmthk-_d3dkmt_waitforidle.md) structure.
 

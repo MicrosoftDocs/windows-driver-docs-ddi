@@ -53,13 +53,13 @@ The <i>SetPixelShaderConstB</i> function sets one or more pixel shader constant 
 
 [in] A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_setpixelshaderconst">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pRegisters* [in]
 

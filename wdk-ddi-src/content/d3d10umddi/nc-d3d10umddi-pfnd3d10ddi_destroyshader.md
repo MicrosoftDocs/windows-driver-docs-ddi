@@ -49,13 +49,13 @@ The <i>DestroyShader</i> function destroys the specified shader object. The shad
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShader* [in]
 

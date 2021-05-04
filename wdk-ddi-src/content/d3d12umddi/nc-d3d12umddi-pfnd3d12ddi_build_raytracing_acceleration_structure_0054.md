@@ -50,11 +50,11 @@ BuildRaytracingAccelerationStructure performs a ray tracing acceleration structu
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 *_In_* [D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054](ns-d3d12umddi-d3d12ddiarg_build_raytracing_acceleration_structure_0054.md)
 

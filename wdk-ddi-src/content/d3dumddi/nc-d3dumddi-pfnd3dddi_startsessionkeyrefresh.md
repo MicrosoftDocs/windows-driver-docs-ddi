@@ -55,7 +55,7 @@ The <i>StartSessionKeyRefresh</i> function returns a random number that the driv
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

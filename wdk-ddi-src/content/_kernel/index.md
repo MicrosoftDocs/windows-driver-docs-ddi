@@ -1052,11 +1052,11 @@ For more information about MDLs, see [Using MDLs](/windows-hardware/drivers/kern
 
 |Function|Description|
 |---|---|
-ADDRESS_A|D_SIZE_TO_SPAN_PAGES |Returns the number of pages required to contain a given virtual address and size in bytes.
-|BYTE_OFFSET |Returns the byte offset of a given virtual address within the page.
-|BYTES_TO_PAGES |Returns the number of pages necessary to contain a given number of bytes.
-|PAGE_ALIGN |Returns the page-aligned virtual address for the page that contains a given virtual address.
-|ROUND_TO_PAGES |Rounds a given size in bytes up to a page-size multiple.
+|ADDRESS_AND_SIZE_TO_SPAN_PAGES |Returns the number of pages required to contain a given virtual address and size in bytes.|
+|BYTE_OFFSET |Returns the byte offset of a given virtual address within the page.|
+|BYTES_TO_PAGES |Returns the number of pages necessary to contain a given number of bytes.|
+|PAGE_ALIGN |Returns the page-aligned virtual address for the page that contains a given virtual address.|
+|ROUND_TO_PAGES |Rounds a given size in bytes up to a page-size multiple.|
 
 ### Device Memory Access
 

@@ -47,6 +47,8 @@ api_name:
 
 The <b>PsGetCurrentThreadTeb</b> routine returns the Thread Environment Block (TEB) of the current thread, or NULL. The call must be made in kernel-mode.
 
+## -parameters
+
 ## -returns
 
 A pointer to the thread environment block of the current thread. The TEB should be accessed within a try/catch exception block. 

@@ -530,7 +530,7 @@ Parameters for Scsi with internal device control.
 
 ### -field Parameters.QueryQuota
 
-System service parameters for **NtSetQuotaInformationFile**.
+System service parameters for [**NtQueryQuotaInformationFile**](../ntifs/nf-ntifs-ntqueryquotainformationfile.md).
 
 ### -field Parameters.QueryQuota.Length
 
@@ -542,7 +542,7 @@ System service parameters for **NtSetQuotaInformationFile**.
 
 ### -field Parameters.SetQuota
 
-System service parameters for **NtSetQuotaInformationFile**.
+System service parameters for [**NtSetQuotaInformationFile**](../ntifs/nf-ntifs-ntsetquotainformationfile.md).
 
 ### -field Parameters.SetQuota.Length
 
@@ -743,4 +743,3 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">IoSkipCurrentIrpStackLocation</a>
-

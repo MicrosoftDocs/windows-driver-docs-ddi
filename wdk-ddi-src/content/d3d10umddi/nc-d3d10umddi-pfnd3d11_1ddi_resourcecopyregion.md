@@ -51,55 +51,55 @@ Copies a source subresource region to a location on a destination subresource.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDstResource* [in]
 
 A handle to the destination resource to copy to.
 
-### -param Arg3
+### -param unnamedParam3
 
 *DstSubresource* [in]
 
 An index that indicates the destination subresource to copy to.
 
-### -param Arg4
+### -param unnamedParam4
 
 *DstX* [in]
 
 The x-coordinate of the destination subresource.
 
-### -param Arg5
+### -param unnamedParam5
 
 *DstY* [in]
 
 The y-coordinate of the destination subresource. For one-dimensional (1-D) subresources, <i>DstY</i> is set to zero.
 
-### -param Arg6
+### -param unnamedParam6
 
 *DstZ* [in]
 
 The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
 
-### -param Arg7
+### -param unnamedParam7
 
 *hSrcResource* [in]
 
 A handle to the source resource to copy from.
 
-### -param Arg8
+### -param unnamedParam8
 
 *SrcSubresource* [in]
 
 An index that indicates the source subresource to copy from.
 
-### -param Arg9
+### -param unnamedParam9
 
 *pSrcBox* [in, optional]
 

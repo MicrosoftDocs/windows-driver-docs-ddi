@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetDevice</b> method returns the framework device object interface for this interrupt object.
 
+## -parameters
+
 ## -returns
 
 <b>GetDevice</b> returns a pointer to the framework device object interface.

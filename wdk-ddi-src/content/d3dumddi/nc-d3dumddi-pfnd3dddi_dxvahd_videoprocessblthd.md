@@ -51,9 +51,9 @@ The <i>VideoProcessBltHD</i> function processes video input streams and composes
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDevice* [in]
 

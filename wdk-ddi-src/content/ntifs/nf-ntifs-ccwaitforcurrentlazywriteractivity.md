@@ -47,6 +47,8 @@ api_name:
 
 The <b>CcWaitForCurrentLazyWriterActivity</b> routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 
+## -parameters
+
 ## -returns
 
 <b>CcWaitForCurrentLazyWriterActivity</b> can return one of the following NTSTATUS values:

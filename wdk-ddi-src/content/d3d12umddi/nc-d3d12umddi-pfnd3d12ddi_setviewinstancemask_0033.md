@@ -49,7 +49,7 @@ Used to set a view instance mask.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hCommandList*
 

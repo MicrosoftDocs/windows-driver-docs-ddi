@@ -54,7 +54,7 @@ The PFND3DDDI_SYNCTOKEN callback creates a sync token.
 
 A handle to the graphics context device.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3DDDIARG_SYNCTOKEN](ns-d3dumddi-_d3dddiarg_synctoken.md) structure.
 

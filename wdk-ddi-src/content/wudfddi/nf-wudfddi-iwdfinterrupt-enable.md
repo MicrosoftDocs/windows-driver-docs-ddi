@@ -49,6 +49,8 @@ api_name:
 
 The <b>Enable</b> method enables a specified device interrupt by calling the driver's <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_enable">OnInterruptEnable</a> callback function.
 
+## -parameters
+
 ## -remarks
 
 Most UMDF drivers do not need to call <b>IWDFInterrupt::Enable</b>, because the framework calls the driver's <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_enable">OnInterruptEnable</a> callback function each time the device enters its working (D0) state.

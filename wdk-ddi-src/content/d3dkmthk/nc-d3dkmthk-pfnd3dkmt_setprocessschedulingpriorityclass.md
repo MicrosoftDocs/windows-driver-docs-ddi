@@ -48,9 +48,9 @@ The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function sets the sched
 
 ## -parameters
 
-### -param Arg1: 
+### -param unnamedParam1: 
 
-### -param Arg2: 
+### -param unnamedParam2: 
 
 ## -returns
 

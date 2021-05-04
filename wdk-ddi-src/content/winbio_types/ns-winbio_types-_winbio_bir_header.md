@@ -120,7 +120,7 @@ A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbi
 
 ## -remarks
 
-You can find more information about the fields of the standard biometric header in the <a href="https://go.microsoft.com/fwlink/p/?linkid=133328">NISTIR 6529-A Specification</a>.
+You can find more information about the fields of the standard biometric header in the <a href="https://csrc.nist.gov/publications/detail/nistir/6529/a/final">NISTIR 6529-A Specification</a>.
 
 ## -see-also
 

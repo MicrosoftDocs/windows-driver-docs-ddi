@@ -49,13 +49,13 @@ Provides the full shader binary that is available after shader creation. The ful
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hShader* [in]
 

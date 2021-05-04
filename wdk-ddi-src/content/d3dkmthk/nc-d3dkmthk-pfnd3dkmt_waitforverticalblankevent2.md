@@ -48,7 +48,7 @@ The PFND3DKMT_WAITFORVERTICALBLANKEVENT2 callback function waits for the vertica
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_WAITFORVERTICALBLANKEVENT2](ns-d3dkmthk-_d3dkmt_waitforverticalblankevent2.md) structure.
 

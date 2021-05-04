@@ -49,7 +49,7 @@ The <i>Flush(D3D10)</i> function submits outstanding hardware commands that are 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 

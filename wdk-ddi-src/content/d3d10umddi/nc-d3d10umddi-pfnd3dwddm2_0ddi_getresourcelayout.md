@@ -49,13 +49,13 @@ The <i>pfnGetResourceLayout</i> callback function supports getting resource layo
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource*
 
@@ -65,13 +65,13 @@ A resource handle.
 
 The subresource count.
 
-### -param Arg4
+### -param unnamedParam4
 
 *Handle* [out]
 
 A kernel handle.
 
-### -param Arg5
+### -param unnamedParam5
 
 *TextureLayout* [out]
 
@@ -82,7 +82,7 @@ A pointer to a texture layout.
 [out]
 A pointer to a MIP level swizzle transition.
 
-### -param Arg7
+### -param unnamedParam7
 
 *SubresourceLayout* [out, optional]
 

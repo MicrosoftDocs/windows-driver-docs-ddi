@@ -49,13 +49,13 @@ Releases resources for the video processor enumeration object that were created 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hProcessorEnum* [in]
 

@@ -50,19 +50,19 @@ Executes the meta-command.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to the meta-command.
 
-### -param Arg3
+### -param unnamedParam3
 
 A pointer to void.
 
-### -param Arg4
+### -param unnamedParam4
 
 ## -prototype
 

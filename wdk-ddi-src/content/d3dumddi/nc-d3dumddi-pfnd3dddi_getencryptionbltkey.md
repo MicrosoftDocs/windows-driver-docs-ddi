@@ -55,7 +55,7 @@ The <i>GetEncryptionBltKey</i> function returns the key that is used to decrypt 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

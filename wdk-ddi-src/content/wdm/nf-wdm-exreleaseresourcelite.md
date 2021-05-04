@@ -43,50 +43,35 @@ api_name:
 
 # ExReleaseResourceLite function
 
-
 ## -description
 
-The <b>ExReleaseResourceLite</b> routine releases a specified executive resource owned by the current thread.
+The **ExReleaseResourceLite** routine releases a specified executive resource owned by the current thread.
 
 ## -parameters
 
-### -param Resource 
+### -param Resource
 
 [in, out]
 A pointer to an executive resource owned by the current thread.
 
 ## -remarks
 
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling [KeEnterCriticalRegion](../ntddk/nf-ntddk-keentercriticalregion.md). Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling [KeLeaveCriticalRegion](../ntddk/nf-ntddk-keleavecriticalregion.md). For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
-<a href="/previous-versions/ff544351(v=vs.85)">ExAcquireResourceExclusiveLite</a>
+[ExAcquireResourceExclusiveLite](nf-wdm-exacquireresourceexclusivelite.md)
 
+[ExAcquireResourceSharedLite](nf-wdm-exacquireresourcesharedlite.md)
 
+[ExAcquireSharedStarveExclusive](nf-wdm-exacquiresharedstarveexclusive.md)
 
-<a href="/previous-versions/ff544363(v=vs.85)">ExAcquireResourceSharedLite</a>
+[ExAcquireSharedWaitForExclusive](nf-wdm-exacquiresharedwaitforexclusive.md)
 
+[ExGetCurrentResourceThread](/previous-versions/windows/hardware/drivers/ff544614(v=vs.85))
 
+[ExInitializeResourceLite](nf-wdm-exinitializeresourcelite.md)
 
-<a href="/previous-versions/ff544367(v=vs.85)">ExAcquireSharedStarveExclusive</a>
+[ExReinitializeResourceLite](nf-wdm-exreinitializeresourcelite.md)
 
-
-
-<a href="/previous-versions/ff544370(v=vs.85)">ExAcquireSharedWaitForExclusive</a>
-
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff544614(v=vs.85)">ExGetCurrentResourceThread</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a>
+[ExReleaseResourceForThreadLite](nf-wdm-exreleaseresourceforthreadlite.md)

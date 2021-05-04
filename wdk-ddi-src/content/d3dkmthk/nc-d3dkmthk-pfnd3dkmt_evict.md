@@ -48,7 +48,7 @@ The Pfnd3dkmtEvict instructs the OS to decrement the residency reference count.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_EVICT](ns-d3dkmthk-_d3dkmt_evict.md) structure.
 

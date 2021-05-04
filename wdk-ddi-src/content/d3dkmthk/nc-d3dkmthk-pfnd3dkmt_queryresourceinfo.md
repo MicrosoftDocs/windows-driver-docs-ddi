@@ -48,7 +48,7 @@ The PFND3DKMT_QUERYRESOURCEINFO callback function retrieves information about a 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYRESOURCEINFO](ns-d3dkmthk-_d3dkmt_queryresourceinfo.md) structure.
 

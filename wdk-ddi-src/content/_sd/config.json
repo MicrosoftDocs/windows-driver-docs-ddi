@@ -2,7 +2,6 @@
   "tech": "sd",
   "headers": [
     "ntddsd.h",
-    "reshub.h",
     "sddef.h",
     "sffdisk.h"
   ],

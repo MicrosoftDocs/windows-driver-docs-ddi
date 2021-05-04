@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_CRYPTO_OPERATION_TYPE
-title: _STOR_CRYPTO_OPERATION_TYPE (storport.h)
+title: STOR_CRYPTO_OPERATION_TYPE (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_operation_type.htm
 tech.root: storage
@@ -10,7 +10,7 @@ ms.keywords: "*PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_C
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,8 +46,7 @@ api_name:
  - STOR_CRYPTO_OPERATION_TYPE
 ---
 
-# _STOR_CRYPTO_OPERATION_TYPE enumeration
-
+# STOR_CRYPTO_OPERATION_TYPE enumeration
 
 ## -description
 
@@ -57,5 +56,8 @@ Reserved for system use.
 
 ### -field StorCryptoOperationInsertKey
 
+Reserved for system use.
+
 ### -field StorCryptoOperationMax
 
+Reserved for system use.

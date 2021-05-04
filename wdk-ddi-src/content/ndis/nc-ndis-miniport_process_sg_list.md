@@ -83,8 +83,8 @@ Miniport drivers call the
     NdisMRegisterScatterGatherDma</a> function to register a 
     <i>MiniportProcessSGList</i> function. When a miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> to create a scatter/gather list, NDIS calls HAL to create the list.
-    After creating the list, NDIS calls the miniport driver's 
-    <i>MiniportProcessSGList</i> function.
+
+NDIS calls the miniport driver's <i>MiniportProcessSGList</i> function if <b>NdisMAllocateNetBufferSGList</b> is successful.  However, a success return from that function does not guarantee the callback was already invoked; it can be invoked asynchronously.
 
 When NDIS calls 
     <i>MiniportProcessSGList</i>, the driver can send the NET_BUFFER structure to the hardware. MiniportProcessSGList submits the physical addresses of the scatter/gather list to the NIC's DMA

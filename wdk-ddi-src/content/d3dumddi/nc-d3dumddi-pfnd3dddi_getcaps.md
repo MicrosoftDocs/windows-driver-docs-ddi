@@ -55,7 +55,7 @@ The <i>GetCaps</i> function queries for capabilities of the graphics adapter.
 
 A handle that identifies the graphics adapter.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

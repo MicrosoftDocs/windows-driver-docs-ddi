@@ -51,7 +51,7 @@ The <b>D3DKMTCloseAdapter</b> function closes an adapter that was previously ope
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_In\_* *[D3DKMT_CLOSEADAPTER](ns-d3dkmthk-_d3dkmt_closeadapter.md)* * *pCloseAdapter*
 

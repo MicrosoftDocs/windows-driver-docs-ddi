@@ -47,6 +47,8 @@ product:
 
 3d vectors class constructor used in sensor driver development.
 
+## -parameters
+
 ## -remarks
 
 ## -see-also

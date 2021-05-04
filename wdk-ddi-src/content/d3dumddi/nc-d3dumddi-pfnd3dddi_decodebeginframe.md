@@ -55,7 +55,7 @@ The <b>DecodeBeginFrame</b> function notifies the user-mode display driver that 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

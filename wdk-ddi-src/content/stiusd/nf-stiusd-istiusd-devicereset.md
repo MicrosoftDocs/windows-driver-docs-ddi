@@ -47,6 +47,8 @@ api_name:
 
 A still image minidriver's <b>IStiUSD::DeviceReset</b> method resets a still image device to a known, initialized state.
 
+## -parameters
+
 ## -returns
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.

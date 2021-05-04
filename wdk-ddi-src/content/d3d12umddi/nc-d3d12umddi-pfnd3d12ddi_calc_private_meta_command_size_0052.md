@@ -50,7 +50,7 @@ Calculates the private meta-command size.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 

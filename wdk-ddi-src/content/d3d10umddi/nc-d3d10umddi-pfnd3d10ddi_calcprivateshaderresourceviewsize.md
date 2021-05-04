@@ -49,13 +49,13 @@ The <b>CalcPrivateShaderResourceViewSize</b> function determines the size of the
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateShaderResourceView* [in]
 

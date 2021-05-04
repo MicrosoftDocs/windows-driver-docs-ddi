@@ -270,6 +270,9 @@ If a WSK application's
     application's 
     <i>WskReceiveEvent</i> event callback function on the socket.
 
+> [!NOTE]
+> Winsock Kernel (WSK) calls this callback serially, so it is not always invoked as soon as data is received.
+
 The WSK subsystem calls a WSK application's 
     <i>WskReceiveEvent</i> event callback function at IRQL <= DISPATCH_LEVEL.
 

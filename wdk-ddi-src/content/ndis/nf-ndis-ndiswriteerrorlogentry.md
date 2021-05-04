@@ -160,16 +160,10 @@ The network adapter hardware is disabled.
 [in]
 Specifies the number of ULONG values to follow this parameter.
 
-### -param param
-
-<p>Specifies a variable-sized array of ULONGs associated with the error to be logged.</p>
-
-
-
-
-####### - ...
+### -param ...
 
 Specifies a variable-sized array of ULONGs associated with the error to be logged.
+
 
 ## -remarks
 
@@ -210,3 +204,4 @@ In general, a miniport driver calls
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

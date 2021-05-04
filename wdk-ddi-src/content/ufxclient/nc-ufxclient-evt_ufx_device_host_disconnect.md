@@ -49,7 +49,7 @@ The client driver's implementation to disable the function controller's communic
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 #### - UfxDevice [in]
 

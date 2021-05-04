@@ -42,34 +42,29 @@ api_name:
 
 # ExDeleteResourceLite function
 
-
 ## -description
 
-The <b>ExDeleteResourceLite</b> routine deletes a given resource from the system's resource list.
+The **ExDeleteResourceLite** routine deletes a given resource from the system's resource list.
 
 ## -parameters
 
-### -param Resource 
+### -param Resource
 
 [in, out]
 A pointer to the caller-supplied storage for the initialized resource variable to be deleted.
 
 ## -returns
 
-<b>ExDeleteResourceLite</b> returns STATUS_SUCCESS if the resource was deleted.
+**ExDeleteResourceLite** returns STATUS_SUCCESS if the resource was deleted.
 
 ## -remarks
 
-After calling <b>ExDeleteResourceLite</b>, the caller can free the memory it allocated for its resource.
+After calling **ExDeleteResourceLite**, the caller can free the memory it allocated for its resource.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
+[ExInitializeResourceLite](nf-wdm-exinitializeresourcelite.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>
+[ExReinitializeResourceLite](nf-wdm-exreinitializeresourcelite.md)

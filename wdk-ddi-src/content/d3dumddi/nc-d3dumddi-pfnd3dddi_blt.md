@@ -55,7 +55,7 @@ The <b>Blt</b> function copies the contents of a source surface to a destination
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

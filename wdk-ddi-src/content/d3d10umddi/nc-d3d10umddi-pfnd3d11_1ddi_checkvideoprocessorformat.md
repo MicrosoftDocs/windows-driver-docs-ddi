@@ -51,25 +51,25 @@ Queries whether the video processor supports a specified video format.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hVideoProcessorEnum* [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Format* [in]
 
 The video format to query.
 
-### -param Arg4
+### -param unnamedParam4
 
 *pSupported* [out]
 

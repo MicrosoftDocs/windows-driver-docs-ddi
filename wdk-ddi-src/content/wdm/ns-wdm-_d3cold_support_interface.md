@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>D3COLD_SUPPORT_INTERFACE</b> interface structure contains pointers to the routines in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967714">GUID_D3COLD_SUPPORT_INTERFACE</a> driver interface.
+The <b>D3COLD_SUPPORT_INTERFACE</b> interface structure contains pointers to the routines in the D3COLD Support Interface.
 
 ## -struct-fields
 

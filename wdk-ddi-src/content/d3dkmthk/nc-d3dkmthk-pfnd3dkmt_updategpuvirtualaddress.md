@@ -48,7 +48,7 @@ The PFND3DKMT_UPDATEGPUVIRTUALADDRESS callback function allows the driver to spe
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_UPDATEGPUVIRTUALADDRESS](ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md) structure.
 

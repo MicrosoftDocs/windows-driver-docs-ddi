@@ -49,7 +49,7 @@ The <i>IaSetVertexBuffers</i> function sets vertex buffers for an input assemble
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -64,19 +64,19 @@ The starting vertex buffer to set.
 [in]
 The total number of buffers to set.
 
-### -param Arg4
+### -param unnamedParam4
 
 *phBuffers* [in]
 
 An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
-### -param Arg5
+### -param unnamedParam5
 
 *pStrides* [in]
 
 An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer
 
-### -param Arg6
+### -param unnamedParam6
 
 *pOffsets* [in]
 

@@ -3,7 +3,7 @@ UID: NF:portcls.IMiniportWaveRTStream.AllocateAudioBuffer
 title: IMiniportWaveRTStream::AllocateAudioBuffer (portcls.h)
 description: The AllocateAudioBuffer method allocates a cyclic buffer for audio data.
 tech.root: audio
-ms.date: 10/31/2018
+ms.date: 02/10/2021
 keywords: ["IMiniportWaveRTStream::AllocateAudioBuffer"]
 ms.keywords: IMiniportWaveRTStream::AllocateAudioBuffer, AllocateAudioBuffer, IMiniportWaveRTStream.AllocateAudioBuffer, IMiniportWaveRTStream::AllocateAudioBuffer, IMiniportWaveRTStream.AllocateAudioBuffer
 req.header: portcls.h
@@ -54,7 +54,7 @@ Specifies the requested size, in bytes, of the audio buffer.
 
 ### -param AudioBufferMdl
 
-Output pointer for a memory descriptor list (MDL) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
+Output pointer for a memory descriptor list (MDL) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL. For general information about Windows kernel MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 ### -param ActualSize
 

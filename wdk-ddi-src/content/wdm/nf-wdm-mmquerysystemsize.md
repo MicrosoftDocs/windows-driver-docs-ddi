@@ -47,6 +47,8 @@ api_name:
 
 The <b>MmQuerySystemSize</b> routine returns an estimate of the amount of memory in the system.
 
+## -parameters
+
 ## -returns
 
 <b>MmQuerySystemSize</b> returns one of <b>MmSmallSystem</b>, <b>MmMediumSystem</b>, or <b>MmLargeSystem</b>.

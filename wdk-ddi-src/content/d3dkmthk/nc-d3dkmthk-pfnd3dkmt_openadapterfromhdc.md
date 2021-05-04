@@ -48,7 +48,7 @@ Pfnd3dkmtOpenadapterfromhdc maps a device context handle (HDC) to a graphics ada
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENADAPTERFROMHDC](ns-d3dkmthk-_d3dkmt_openadapterfromhdc.md) structure.
 

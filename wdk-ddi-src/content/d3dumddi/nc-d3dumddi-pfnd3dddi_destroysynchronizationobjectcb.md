@@ -55,7 +55,7 @@ The <b>pfnDestroySynchronizationObjectCb</b> function destroys the synchronizati
 
 A handle to a display device (that is, the graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

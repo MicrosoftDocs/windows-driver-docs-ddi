@@ -47,6 +47,8 @@ api_name:
 
 The <b>PsGetCurrentThreadId</b> routine identifies the current thread.
 
+## -parameters
+
 ## -returns
 
 The <b>PsGetCurrentThreadId</b> routine returns the thread ID of the current thread.

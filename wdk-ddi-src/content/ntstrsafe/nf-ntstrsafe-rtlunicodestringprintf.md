@@ -60,14 +60,7 @@ A pointer to a <b>UNICODE_STRING</b> structure that receives a formatted string.
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives.
 
-### -param param
-
-<p>Optional. A list of arguments that the function interprets, based on formatting directives that the <i>pszFormat</i> string contains.</p>
-
-
-
-
-####### - ...
+### -param ...
 
 Optional. A list of arguments that the function interprets, based on formatting directives that the <i>pszFormat</i> string contains.
 
@@ -151,3 +144,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

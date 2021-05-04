@@ -57,9 +57,7 @@ The format string used to create the expression.  This is the same as the format
 <div class="alert"><b>Note</b>   While other methods and functions in the debugger engine API provide additional, debugger-specific conversion characters, <b>SetPrint</b> only supports the conversion characters used by <b>printf</b>.</div>
 <div> </div>
 
-### -param param
-
-####### - ...
+### -param ...
 
 The arguments for the format string, as in <b>printf</b>.  The arguments should match the conversion characters in <i>Format</i>.
 

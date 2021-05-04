@@ -51,19 +51,19 @@ Called during Microsoft Direct3D initialization on a <a href="/windows-hardware/
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pDefaultToDiscrete* [out]
 
 If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pfnEscapeCB* [in]
 
 A function pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 
-### -param Arg3
+### -param unnamedParam3
 
 ## -returns
 

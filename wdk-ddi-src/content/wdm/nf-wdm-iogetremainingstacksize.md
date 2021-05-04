@@ -47,6 +47,8 @@ api_name:
 
 The <b>IoGetRemainingStackSize</b> routine returns the current amount of available kernel-mode stack space.
 
+## -parameters
+
 ## -returns
 
 <b>IoGetRemainingStackSize</b> returns the number of bytes of stack space in the current thread context.

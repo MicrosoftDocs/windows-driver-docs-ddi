@@ -49,7 +49,7 @@ The <b>D3dDrawPrimitives2</b> function renders primitives and returns the update
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pdp* [in]
 

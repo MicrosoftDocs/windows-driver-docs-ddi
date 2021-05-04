@@ -49,6 +49,8 @@ api_name:
 The 
   <b>NdisGetVersion</b> function returns the version number of NDIS.
 
+## -parameters
+
 ## -returns
 
 Returns the major and minor numbers for the NDIS version in the high and low halves of the

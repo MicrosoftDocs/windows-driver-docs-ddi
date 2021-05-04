@@ -51,13 +51,13 @@ The <b>CreateDevice(D3D10)</b> function creates a graphics context that is refer
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hAdapter* [in]
 
 A handle to the graphics adapter object that was created with the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a> function.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateData* [in, out]
 

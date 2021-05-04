@@ -51,13 +51,13 @@ The <b>CalcPrivateDeviceSize</b> function determines the size of a memory region
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hAdapter* [in]
 
 A handle that identifies the graphics adapter.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

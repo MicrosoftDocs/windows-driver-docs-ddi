@@ -47,11 +47,11 @@ Implemented by the client driver to reset a command pool.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to the command pool to reset.
 

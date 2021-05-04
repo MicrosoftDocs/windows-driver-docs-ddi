@@ -4,7 +4,7 @@ title: FltGetVolumeGuidName function (fltkernel.h)
 description: The FltGetVolumeGuidName routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
 old-location: ifsk\fltgetvolumeguidname.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 02/01/2021
 keywords: ["FltGetVolumeGuidName function"]
 ms.keywords: FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName, FltGetVolumeGuidName routine [Installable File System Drivers], fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname
 req.header: fltkernel.h
@@ -42,117 +42,66 @@ api_name:
 
 # FltGetVolumeGuidName function
 
-
 ## -description
 
-The <b>FltGetVolumeGuidName</b> routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
+**FltGetVolumeGuidName** returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
 
 ## -parameters
 
-### -param Volume 
+### -param Volume
 
-[in]
-Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be <b>NULL</b>.
+[in] Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be **NULL**.
 
-### -param VolumeGuidName 
+### -param VolumeGuidName
 
-[out]
-Pointer to a caller-allocated <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>.
+[in/out, optional] Pointer to a caller-allocated [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that receives the volume's GUID name. If **VolumeGuidName** is **NULL** and **BufferSizeNeeded** is not **NULL**, **FltGetVolumeGuidName** stores the buffer size needed for the requested volume GUID in the **BufferSizeNeeded** parameter and returns STATUS_BUFFER_TOO_SMALL. See Remarks.
 
-### -param BufferSizeNeeded 
+### -param BufferSizeNeeded
 
-[out, optional]
-Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. If <b>FltGetVolumeGuidName</b> returns STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required size for the structure that the <i>VolumeGuidName</i> parameter points to. This parameter is optional and can be <b>NULL</b>.
+[out, optional] Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. This parameter is optional and can be **NULL**. If **BufferSizeNeeded** is not **NULL** and **FltGetVolumeGuidName** returns STATUS_BUFFER_TOO_SMALL, you can use the value stored in **BufferSizeNeeded** to determine the required size of the structure that **VolumeGuidName** points to.
 
 ## -returns
 
-<b>FltGetVolumeGuidName</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
+**FltGetVolumeGuidName** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer pointed to by the <i>VolumeGuidName</i> parameter is too small to hold the volume GUID. If the caller provides a non-<b>NULL</b> value for the <i>BufferSizeNeeded</i> parameter, this parameter receives the required buffer size. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FltGetVolumeGuidName</b> encountered a pool allocation failure. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Volume</i> parameter is a handle for a network volume. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_VOLUME_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching volume was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_BUFFER_TOO_SMALL | The buffer pointed to by **VolumeGuidName** is **NULL** or too small to hold the volume GUID. If the caller provides a non-**NULL** value for **BufferSizeNeeded**, **FltGetVolumeGuidName** stores the required buffer size in **BufferSizeNeeded**. This is considered an error code since the volume GUID name was not retrieved. |
+| STATUS_INSUFFICIENT_RESOURCES | **FltGetVolumeGuidName** encountered a pool allocation failure. This is an error code. |
+| STATUS_INVALID_DEVICE_REQUEST | The **Volume** parameter is a handle for a network volume. This is an error code. |
+| STATUS_FLT_VOLUME_NOT_FOUND | No matching volume was found. This is an error code. |
 
 ## -remarks
 
-The returned volume GUID name is expressed in the following format: 
+The returned volume GUID name is expressed in the following format:
 
-<b>\??\Volume{</b><i>GUID</i><b>}</b>
+**\\??\Volume{***GUID***}**
 
-where <i>GUID</i> is a globally unique identifier that identifies the volume. 
+where *GUID* is a globally unique identifier that identifies the volume. This format, which is the same as that used by the mount manager, is described in [Supporting Mount Manager Requests in a Storage Class Driver](/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
 
-This format, which is the same as that used by the mount manager, is described in <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+If **BufferSizeNeeded** is unknown, call **FltGetVolumeGuidName** twice:
 
-<b>FltGetVolumeGuidName</b> cannot safely be called from a pre-mount or post-mount callback. It cannot safely be called because even when the post-mount callback is called, the mount processing has not been completed by the I/O manager, and this causes a deadlock with the mount manager in certain cases.
+- On the first call, set **VolumeGuidName** to **NULL** and **BufferSizeNeeded** to non-**NULL**. **FltGetVolumeGuidName** will store the number of bytes needed for the volume name GUID in   **BufferSizeNeeded** and return STATUS_BUFFER_TOO_SMALL.
+- On the second call, set **VolumeGuidName** to point to a structure that is the size of the **BufferSizeNeeded** value returned in the first call.
 
-On Windows Vista and later, a minifilter driver can safely call <b>FltGetVolumeGuidName</b> from its <i>InstanceSetupCallback</i> routine (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>) because the callback is called on the first I/O operation for a new volume after all of the mount processing is completed. 
+**FltGetVolumeGuidName** cannot safely be called from a pre-mount or post-mount callback. It cannot safely be called because even when the post-mount callback is called, the mount processing has not been completed by the I/O manager, and this causes a deadlock with the mount manager in certain cases.
 
-On Windows operating systems earlier than Windows Vista, <b>FltGetVolumeGuidName</b> cannot safely be called from an <i>InstanceSetupCallback</i> routine because the mount manager might issue a file I/O operation while holding a lock, which can cause a deadlock. 
+On Windows Vista and later, a minifilter driver can safely call **FltGetVolumeGuidName** from its *InstanceSetupCallback* routine ([**PFLT_INSTANCE_SETUP_CALLBACK**](nc-fltkernel-pflt_instance_setup_callback.md)) because the callback is called on the first I/O operation for a new volume after all of the mount processing is completed.
 
-It is important to note that the volume GUID is not the same as the volume object ID. The <i>volume GUID</i>, or <i>unique volume name</i>, is a file system-independent value; it is assigned to the underlying storage volume by the mount manager. The <i>volume object ID</i> is assigned to the file system volume by the file system. 
+On Windows operating systems earlier than Windows Vista, **FltGetVolumeGuidName** cannot safely be called from an *InstanceSetupCallback* routine because the mount manager might issue a file I/O operation while holding a lock, which can cause a deadlock.
 
-To get the volume object ID for a volume, call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>, specifying <b>FileFsObjectIdInformation</b> for the <i>FsInformationClass</i> parameter. 
+It is important to note that the volume GUID is not the same as the volume object ID. The *volume GUID*, or *unique volume name*, is a file system-independent value; it is assigned to the underlying storage volume by the mount manager. The *volume object ID* is assigned to the file system volume by the file system.
 
-<b>FltGetVolumeGuidName</b> is roughly equivalent to the Win32 <b>GetVolumeNameForVolumeMountPoint</b> function. (<b>GetVolumeNameForVolumeMountPoint</b> is documented in the Microsoft Windows SDK.)
+To get the volume object ID for a volume, call [**ZwQueryVolumeInformationFile**](../ntifs/nf-ntifs-zwqueryvolumeinformationfile.md), specifying **FileFsObjectIdInformation** for the *FsInformationClass* parameter.
+
+**FltGetVolumeGuidName** is roughly equivalent to the Win32 **GetVolumeNameForVolumeMountPoint** function. (**GetVolumeNameForVolumeMountPoint** is documented in the Microsoft Windows SDK.)
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a>
+[**FILE_FS_OBJECTID_INFORMATION**](../ntddk/ns-ntddk-_file_fs_objectid_information.md)
 
+[**PFLT_INSTANCE_SETUP_CALLBACK**](nc-fltkernel-pflt_instance_setup_callback.md)
 
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>
+[**ZwQueryVolumeInformationFile**](../ntifs/nf-ntifs-zwqueryvolumeinformationfile.md)

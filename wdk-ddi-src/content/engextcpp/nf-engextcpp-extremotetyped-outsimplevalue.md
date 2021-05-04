@@ -47,6 +47,8 @@ api_name:
 
 The <b>OutSimpleValue</b> method prints the value of the typed data represented by this object.
 
+## -parameters
+
 ## -returns
 
 This method does not return a value.

@@ -51,9 +51,9 @@ The <i>GetVideoProcessBltStatePrivate</i> function retrieves the state data of a
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 *hDevice* [in]
 

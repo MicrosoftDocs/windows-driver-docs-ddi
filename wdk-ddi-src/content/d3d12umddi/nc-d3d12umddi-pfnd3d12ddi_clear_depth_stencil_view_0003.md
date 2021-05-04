@@ -49,7 +49,7 @@ The pfnClearDepthStencilView function clears the specified currently bound depth
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
@@ -59,15 +59,15 @@ Type: D3D12DDI_CPU_DESCRIPTOR_HANDLE
 
 Describes the CPU descriptor handle that represents the start of the heap for the depth stencil view to clear.
 
-### -param Arg3
+### -param unnamedParam3
 
 A value that specifies which parts of the buffer to affect.
 
-### -param Arg4
+### -param unnamedParam4
 
 An unsigned 8-bit integer value to set the stencil to.
 
-### -param Arg5
+### -param unnamedParam5
 
 ### -param NumRects
 

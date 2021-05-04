@@ -50,15 +50,15 @@ Creates a fence.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A fence handle.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a D3D12DDIARG_CREATE_FENCE structure.
 

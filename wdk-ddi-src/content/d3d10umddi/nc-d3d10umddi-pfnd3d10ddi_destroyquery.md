@@ -49,13 +49,13 @@ The <b>DestroyQuery(D3D10)</b> function destroys the specified query object. The
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hQuery* [in]
 

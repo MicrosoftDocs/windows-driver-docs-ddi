@@ -11,7 +11,7 @@ req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -126,6 +126,13 @@ This flag specifies that the **ProcessoryAffinity** member has been updated afte
 
 > [!NOTE]
 > This flag is valid only when this structure is used in OID set requests of [OID_NIC_SWITCH_VPORT_PARAMETERS](/windows-hardware/drivers/network/oid-nic-switch-vport-parameters).
+
+#### NDIS\_NIC\_SWITCH\_VPORT\_PARAMS\_NUM\_QUEUE\_PAIRS\_CHANGED
+
+This flag specifies that the **NumQueuePairs** member has been updated after the VPort has been created. When [Virtual Machine Multiple Queues (VMMQ)](/windows-hardware/drivers/network/overview-of-virtual-machine-multiple-queues) is enabled, the number of queues for default and non-default Vports can be updated. The **NumQueuePairs** member can be updated by using an OID set request of <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>.
+
+<div class="alert"><b>Note</b>  This flag is valid only when this structure is used in OID set requests of <a href="/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. </div>
+<div> </div>
 
 ### -field SwitchId
 

@@ -49,13 +49,13 @@ The <b>DestroyVideoProcessor</b> function releases resources for a Microsoft Dir
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hVideoProcessor* [in]
 

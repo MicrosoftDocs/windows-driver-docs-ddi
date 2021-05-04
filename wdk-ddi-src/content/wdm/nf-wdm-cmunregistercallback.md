@@ -62,7 +62,7 @@ A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmR
 
 A driver that calls <b>CmRegisterCallback</b> or <b>CmRegisterCallbackEx</b> should call <b>CmUnRegisterCallback</b> before the driver is unloaded. 
 
-<div class="alert"><b>Note</b>  A driver must not call <b>CmRegisterCallback</b> from its implementation of the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine. That call will result in a deadlock.</div>
+<div class="alert"><b>Note</b>  A driver must not call <b>CmUnRegisterCallback</b> from its implementation of the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine. That call will result in a deadlock.</div>
 <div> </div>
 For more information about <b>CmUnRegisterCallback</b> and filtering registry operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 

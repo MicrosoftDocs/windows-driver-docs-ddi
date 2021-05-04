@@ -51,25 +51,25 @@ The <i>pfnCreatePipelineState</i> callback function creates a pipeline state.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice*
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 CreatePipelineState [in]
 
 A value used to create a pipeline state.
 
-### -param Arg3
+### -param unnamedParam3
 
 hRTPipelineState
 
 The handle of the pipeline state for the driver to use when it calls back into the runtime.
 
-### -param Arg4
+### -param unnamedParam4
 
 ## -returns
 

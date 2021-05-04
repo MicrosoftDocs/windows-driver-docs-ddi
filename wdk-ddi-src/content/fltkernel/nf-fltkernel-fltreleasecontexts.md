@@ -4,7 +4,7 @@ title: FltReleaseContexts function (fltkernel.h)
 description: FltReleaseContexts releases each context in a given FLT_RELATED_CONTEXTS structure.
 old-location: ifsk\fltreleasecontexts.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltReleaseContexts function"]
 ms.keywords: FltApiRef_p_to_z_697bebdc-a3c6-4d95-a97d-0de7b819d56f.xml, FltReleaseContexts, FltReleaseContexts function [Installable File System Drivers], fltkernel/FltReleaseContexts, ifsk.fltreleasecontexts
 req.header: fltkernel.h
@@ -42,17 +42,15 @@ api_name:
 
 # FltReleaseContexts function
 
-
 ## -description
 
-<b>FltReleaseContexts</b> releases each context in a given <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a> structure.
+**FltReleaseContexts** releases each context in a given [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure.
 
 ## -parameters
 
-### -param Contexts 
+### -param Contexts
 
-[in]
-Pointer to the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a> structure.
+[in] Pointer to the [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure.
 
 ## -returns
 
@@ -60,32 +58,28 @@ None
 
 ## -remarks
 
-<b>FltReleaseContexts</b> decrements the reference count on all contexts in the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a> structure and sets all members of the structure to NULL_CONTEXT. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-To get the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a> structure for a given minifilter driver for a given I/O request, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontexts">FltGetContexts</a>. 
+**FltReleaseContexts** decrements the reference count on all contexts in the [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure and sets all members of the structure to NULL_CONTEXT.
 
-For more information about context reference counting, see <a href="/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>. 
+To get the **FLT_RELATED_CONTEXTS** structure for a given minifilter driver for a given I/O request, call [**FltGetContexts**](./nf-fltkernel-fltgetcontexts.md).
 
-Callers of <b>FltReleaseContexts</b> must be running at IRQL <= DISPATCH_LEVEL if all contexts were allocated from nonpaged pool. If any contexts were allocated from paged pool, callers must be running at IRQL <= APC_LEVEL. 
+For more information about context reference counting, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
+
+Callers of **FltReleaseContexts** must be running at IRQL <= DISPATCH_LEVEL if all contexts were allocated from nonpaged pool. If any contexts were allocated from paged pool, callers must be running at IRQL <= APC_LEVEL.
 
 When each context's reference count reaches zero, the context is freed immediately if the caller is running at IRQL <= APC_LEVEL. If the caller is running at IRQL DISPATCH_LEVEL, a work item is scheduled to free the context.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
+[**FLT_CONTEXT_REGISTRATION**](ns-fltkernel-_flt_context_registration.md)
 
+[**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md)
 
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a>
+[**FltGetContexts**](./nf-fltkernel-fltgetcontexts.md)
 
+[**FltReleaseContext**](./nf-fltkernel-fltreleasecontext.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontexts">FltGetContexts</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
+[**FltReleaseContextsEx**](./nf-fltkernel-fltreleasecontextsex.md)

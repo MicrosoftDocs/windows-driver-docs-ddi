@@ -49,19 +49,19 @@ The <i>SetTextFilterSize</i> function sets the width and height of the monochrom
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *Width* [in]
 
 The width of the monochrome convolution filter. The width can be from 1 to 7 texels.
 
-### -param Arg3
+### -param unnamedParam3
 
 *Height* [in]
 

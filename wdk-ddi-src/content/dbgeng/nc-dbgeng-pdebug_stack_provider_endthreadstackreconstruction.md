@@ -53,7 +53,7 @@ The <i>EndThreadStackReconstruction</i> callback function may be called after st
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

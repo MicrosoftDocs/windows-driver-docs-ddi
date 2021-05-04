@@ -53,13 +53,13 @@ Implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode displ
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *DeviceFuncs* [in]
 

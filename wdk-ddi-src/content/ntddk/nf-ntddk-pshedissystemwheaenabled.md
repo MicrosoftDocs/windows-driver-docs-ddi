@@ -47,6 +47,8 @@ api_name:
 
 The <b>PshedIsSystemWheaEnabled</b> function returns a Boolean value that indicates whether the system is WHEA-enabled.
 
+## -parameters
+
 ## -returns
 
 A Boolean value that indicates whether the system is WHEA-enabled.

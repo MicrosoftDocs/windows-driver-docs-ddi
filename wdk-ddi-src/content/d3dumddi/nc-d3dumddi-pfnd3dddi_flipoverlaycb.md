@@ -55,7 +55,7 @@ The <b>pfnFlipOverlayCb</b> function changes the allocation to display on the ov
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

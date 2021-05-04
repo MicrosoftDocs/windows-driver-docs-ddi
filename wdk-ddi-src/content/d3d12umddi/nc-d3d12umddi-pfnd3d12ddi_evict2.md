@@ -50,11 +50,11 @@ PFND3D12DDI_EVICT2 instructs the OS to decrement the residency reference count. 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a [D3D12DDIARG_EVICT](ns-d3d12umddi-d3d12ddiarg_evict.md) structure that describes the memory pages to evict.
 

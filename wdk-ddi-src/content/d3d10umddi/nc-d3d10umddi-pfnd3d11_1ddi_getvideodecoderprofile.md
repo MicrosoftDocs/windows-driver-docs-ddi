@@ -51,19 +51,19 @@ Queries the attributes of a specified video decoder profile.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *Index* [in]
 
 The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount">GetVideoDecoderProfileCount</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pDecodeDesc* [out]
 

@@ -55,7 +55,7 @@ The <i>GetPitch</i> function retrieves the pitch of a protected or non-lockable 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

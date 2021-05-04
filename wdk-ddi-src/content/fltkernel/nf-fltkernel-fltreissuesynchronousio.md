@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
+req.irql: <= APC_LEVEL (non-paging IO can only be reissued at PASSIVE_LEVEL)
 targetos: Windows
 req.typenames: 
 f1_keywords:

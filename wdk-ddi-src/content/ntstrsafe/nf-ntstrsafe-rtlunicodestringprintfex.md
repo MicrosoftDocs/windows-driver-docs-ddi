@@ -108,14 +108,7 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destina
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-### -param param
-
-<p>Optional. A list of arguments that <b>RtlUnicodeStringPrintfEx</b> interprets, based on formatting directives that the <i>pszFormat</i> string specifies.</p>
-
-
-
-
-####### - ...
+### -param ...
 
 Optional. A list of arguments that <b>RtlUnicodeStringPrintfEx</b> interprets, based on formatting directives that the <i>pszFormat</i> string specifies.
 
@@ -203,3 +196,4 @@ For more information about the safe string functions, see <a href="/windows-hard
 
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+

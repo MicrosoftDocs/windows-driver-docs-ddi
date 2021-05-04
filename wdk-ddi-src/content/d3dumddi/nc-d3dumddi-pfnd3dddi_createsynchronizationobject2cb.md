@@ -55,7 +55,7 @@ Creates a GPU synchronization object that a device context can signal and wait f
 
 A handle to the display device (that is, the graphics context) that will own the synchronization object that <i>pfnCreateSynchronizationObject2Cb</i> creates.
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

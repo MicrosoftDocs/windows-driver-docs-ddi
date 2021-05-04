@@ -54,7 +54,7 @@ Creates a context associated with a scheduling group.
 
 A D3D12DDI_HRTSCHEDULINGGROUP_0050 runtime handle type that represents the contexts associated with a hardware scheduling group.
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a [D3DDDICB_CREATECONTEXT](../d3dumddi/ns-d3dumddi-_d3dddicb_createcontext.md) structure that contains information needed to create a context.
 

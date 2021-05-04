@@ -55,7 +55,7 @@ The <i>LockAsync</i> function locks the specified resource or a surface within t
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

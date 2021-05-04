@@ -55,7 +55,7 @@ The <i>SetScissorRect</i> function marks a portion of a render target that rende
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pRect* [in]
 

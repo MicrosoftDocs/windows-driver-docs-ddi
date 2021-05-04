@@ -55,7 +55,7 @@ The <i>SetIndices</i> function sets the current index buffer.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

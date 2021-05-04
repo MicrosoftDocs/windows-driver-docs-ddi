@@ -49,7 +49,7 @@ Used to open a protected session from the NT handle.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *D3dkmt_openprotectedsessionfromnthandle* [in, out]
 

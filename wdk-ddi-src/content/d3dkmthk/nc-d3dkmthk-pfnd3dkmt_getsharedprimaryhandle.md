@@ -48,7 +48,7 @@ Pfnd3dkmtGetsharedprimaryhandle retrieves the global shared handle for the prima
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GETSHAREDPRIMARYHANDLE](ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle.md) structure.
 

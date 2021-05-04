@@ -50,11 +50,11 @@ Gets the CPU descriptor handle that represents the start of the heap.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A user mode driver handle type.
 

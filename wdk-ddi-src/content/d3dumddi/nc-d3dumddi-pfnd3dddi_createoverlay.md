@@ -55,7 +55,7 @@ The <b>CreateOverlay</b> function allocates overlay hardware and makes the overl
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

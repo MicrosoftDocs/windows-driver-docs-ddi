@@ -47,6 +47,8 @@ api_name:
 
 The<b> IStiDevice::UnSubscribe</b> method removes the caller from the list of applications registered to receive notification of device events.
 
+## -parameters
+
 ## -returns
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.

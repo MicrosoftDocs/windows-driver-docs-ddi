@@ -50,6 +50,8 @@ The
   <b>NdisSystemProcessorCount</b> function determines whether the caller is running on a uniprocessor or
   multiprocessor computer.
 
+## -parameters
+
 ## -returns
 
 <b>NdisSystemProcessorCount</b> returns the number of processors in the computer.

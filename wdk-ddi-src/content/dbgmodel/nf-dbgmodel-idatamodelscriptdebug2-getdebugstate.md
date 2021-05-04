@@ -52,6 +52,8 @@ ScriptDebugNotExecuting |	Indicates that no code within the script is actively e
 ScriptDebugExecuting |	Indicates that the script is actively executing code and is not broken into the debugger.
 ScriptDebugBreak |	Indicates that the script is broken into the debugger during the execution of code within the script
 
+## -parameters
+
 ## -returns
 
 The debug state of the script as indicated by a value in the ScriptDebugState enumeration.

@@ -51,7 +51,7 @@ The <i>pfnResourceBarrier</i> callback function supports resource barriers.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 **hDrvCommandList**
 
@@ -61,7 +61,7 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 Specifies a count.
 
-### -param Arg3
+### -param unnamedParam3
 
 **ResourceBarrier** [in]
 

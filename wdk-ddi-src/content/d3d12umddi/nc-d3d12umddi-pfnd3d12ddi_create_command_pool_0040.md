@@ -47,15 +47,15 @@ Implemented by the client driver to create a command pool.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a structure that contains arguments to create a command pool.
 
-### -param Arg3
+### -param unnamedParam3
 
 A handle to a command pool.
 

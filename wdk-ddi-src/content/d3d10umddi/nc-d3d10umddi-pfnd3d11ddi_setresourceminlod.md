@@ -49,19 +49,19 @@ The <i>SetResourceMinLOD</i> function sets the minimum level of detail (LOD) for
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 
 A handle to the driver's private data for the resource.
 
-### -param Arg3
+### -param unnamedParam3
 
 *MinLOD* [in]
 

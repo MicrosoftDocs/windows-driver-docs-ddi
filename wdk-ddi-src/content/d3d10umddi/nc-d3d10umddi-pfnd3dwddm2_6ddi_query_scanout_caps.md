@@ -50,13 +50,13 @@ Queries whether or not a transformation should occur in preparation for a flip o
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *hResource* [in]
 

@@ -49,7 +49,7 @@ Indicates that the driver has finished processing the duplicated desktop image.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* 
 

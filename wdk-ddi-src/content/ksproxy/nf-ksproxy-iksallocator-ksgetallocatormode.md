@@ -49,6 +49,8 @@ api_name:
 
 Returns the mode in which an allocator allocates memory.
 
+## -parameters
+
 ## -returns
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.

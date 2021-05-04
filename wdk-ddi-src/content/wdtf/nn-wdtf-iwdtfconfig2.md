@@ -68,8 +68,6 @@ The following example shows the logging output for a call to
 
 ```
 
-[ Ouput ]
-
 WDTF_TARGETS    : INFO  :  - Query("Volume::")
 WDTF_TARGETS    : INFO  :          Target: Generic volume
 WDTF_TARGETS    : INFO  :          Target: Generic volume

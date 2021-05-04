@@ -47,6 +47,8 @@ api_name:
 
 When <code>RevertToPrinterSelf</code> is called on an impersonating thread, it returns the token for the thread that is being impersonated.
 
+## -parameters
+
 ## -returns
 
 If the operation succeeds, the function returns the token of the impersonated thread. If the current thread is not impersonating another thread, this function returns <b>NULL</b>.

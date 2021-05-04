@@ -48,7 +48,7 @@ The PFND3DKMT_WAITFORVERTICALBLANKEVENT callback function waits for the vertical
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_WAITFORVERTICALBLANKEVENT](ns-d3dkmthk-_d3dkmt_waitforverticalblankevent.md) structure.
 

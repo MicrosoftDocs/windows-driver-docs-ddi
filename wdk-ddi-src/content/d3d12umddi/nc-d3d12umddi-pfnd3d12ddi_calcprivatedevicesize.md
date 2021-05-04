@@ -49,11 +49,11 @@ The CalcPrivateDeviceSize function determines the size of a memory region that t
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle that identifies the graphics adapter.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to a D3D12DDIARG_CALCPRIVATEDEVICESIZE structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 

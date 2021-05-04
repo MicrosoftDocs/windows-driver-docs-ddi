@@ -232,9 +232,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 </tr>
 </table>
 
-### -param param
-
-####### - ...
+### -param ...
 
 Specifies additional parameters that contain values to be inserted into the output during formatting.
 

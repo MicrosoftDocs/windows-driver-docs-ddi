@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeFlushQueuedDpcs</b> routine returns after all currently queued DPCs on all processors have executed their DPC routines to completion.
 
+## -parameters
+
 ## -remarks
 
 Drivers can use this routine to wait until all currently-queued DPCs are run. Note that <b>KeFlushQueuedDpcs</b> can take a long time to return, so drivers should not use it along any critical code paths.

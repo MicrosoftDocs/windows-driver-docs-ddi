@@ -48,7 +48,7 @@ Pfnd3dkmtOpenadapterfromgdidisplayname maps a GDI device name to a graphics adap
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME](ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname.md) structure.
 

@@ -55,7 +55,7 @@ The <i>UpdateOverlay</i> function reconfigures or moves an overlay that is being
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

@@ -69,14 +69,7 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
 
-### -param param
-
-<p>A list of arguments that are interpreted by the function based on formatting directives contained in the <i>pszFormat</i> string.</p>
-
-
-
-
-####### - ...
+### -param ...
 
 A list of arguments that are interpreted by the function based on formatting directives contained in the <i>pszFormat</i> string.
 

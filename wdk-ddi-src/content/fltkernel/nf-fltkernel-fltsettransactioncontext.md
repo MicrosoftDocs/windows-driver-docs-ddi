@@ -4,7 +4,7 @@ title: FltSetTransactionContext function (fltkernel.h)
 description: The FltSetTransactionContext routine sets a context on a transaction.
 old-location: ifsk\fltsettransactioncontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltSetTransactionContext function"]
 ms.keywords: FLT_SET_CONTEXT_KEEP_IF_EXISTS, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext, FltSetTransactionContext routine [Installable File System Drivers], fltkernel/FltSetTransactionContext, ifsk.fltsettransactioncontext
 req.header: fltkernel.h
@@ -42,186 +42,102 @@ api_name:
 
 # FltSetTransactionContext function
 
-
 ## -description
 
-The <b>FltSetTransactionContext</b> routine sets a context on a transaction.
+The **FltSetTransactionContext** routine sets a context on a transaction.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the caller.
+[in] Opaque instance pointer for the caller.
 
-### -param Transaction 
+### -param Transaction
 
-[in]
-Opaque transaction pointer for the transaction on which the context is being set.
+[in] Opaque transaction pointer for the transaction on which the context is being set.
 
-### -param Operation 
+### -param Operation
 
-[in]
-Flag that specifies the details of the operation to be performed. This parameter must be one of the following: 
+[in] Flag that specifies the details of the operation to be performed. This parameter must be one of the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FLT_SET_CONTEXT_REPLACE_IF_EXISTS"></a><a id="flt_set_context_replace_if_exists"></a><dl>
-<dt><b>FLT_SET_CONTEXT_REPLACE_IF_EXISTS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If a context is already set for the transaction pointed to by the <i>Transaction</i> parameter, replace the existing context with the context pointed to by the <i>NewContext</i> parameter. Otherwise, set the context pointed to by the <i>NewContext</i> parameter as the context for the transaction pointed to by the <i>Transaction</i> parameter. 
+| Flag | Meaning |
+| ---- | ------- |
+| FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for the transaction pointed to by the *Transaction* parameter, **FltSetTransactionContext** will replace it with the context pointed to by the *NewContext* parameter. Otherwise, it will set the context pointed to by the *NewContext* parameter as the context for the transaction pointed to by the *Transaction* parameter. |
+| FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for the transaction pointed to by the *Transaction* parameter, **FltSetTransactionContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, this routine will set the context pointed to by the *NewContext* parameter as the context for transaction pointed to by the *Transaction* parameter, and will increment the reference count. |
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FLT_SET_CONTEXT_KEEP_IF_EXISTS"></a><a id="flt_set_context_keep_if_exists"></a><dl>
-<dt><b>FLT_SET_CONTEXT_KEEP_IF_EXISTS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If a context is already set for the transaction pointed to by the <i>Transaction</i> parameter, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, set the context pointed to by the <i>NewContext</i> parameter as the context for transaction pointed to by the <i>Transaction</i> parameter. 
+### -param NewContext
 
-</td>
-</tr>
-</table>
+[in] Pointer to the new context to be set for the transaction. This parameter is required and cannot be **NULL**.
 
-### -param NewContext 
+### -param OldContext
 
-[in]
-Pointer to the new context to be set for the instance. The context must have been allocated by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. This parameter is required and cannot be <b>NULL</b>.
-
-### -param OldContext 
-
-[out, optional]
-Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
+[out, optional] Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 
-<b>FltSetTransactionContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+**FltSetTransactionContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_DEFINED</b></dt>
-</dl>
-</td>
-<td width="60%">
-If FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for the <i>Operation</i> parameter, this error code indicates that a context is already attached to the transaction. Only one context can be attached to a transaction for a given minifilter driver. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_CONTEXT_ALREADY_LINKED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context pointed to by the <i>NewContext</i> parameter is already linked to an object.  In other words, this error code indicates that <i>NewContext</i> is already in use due to a successful prior call of an <b>FltSet</b><i>Xxx</i><b>Context</b> routine.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The instance specified in the Instance parameter is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-STATUS_INVALID_PARAMETER
-
-One of the following:
-
-<ul>
-<li>The <i>NewContext</i> parameter does not point to a valid transaction context. </li>
-<li>An invalid value was specified for the <i>Operation</i> parameter. </li>
-</ul>
-STATUS_INVALID_PARAMETER is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_CONTEXT_ALREADY_DEFINED | If FLT_SET_CONTEXT_KEEP_IF_EXISTS was specified for the *Operation* parameter, this error code indicates that a context is already attached to the transaction. Only one context can be attached to a transaction for a given minifilter driver. |
+| STATUS_FLT_CONTEXT_ALREADY_LINKED | The context pointed to by the *NewContext* parameter is already linked to an object.  In other words, this error code indicates that *NewContext* is already in use due to a successful prior call of an **FltSet***Xxx***Context** routine. |
+| STATUS_FLT_DELETING_OBJECT |
+| The instance specified in the *Instance* parameter is being torn down. This is an error code. |
+| STATUS_INVALID_PARAMETER | An invalid parameter was passed. For example, the *NewContext* parameter does not point to a valid transaction context, or an invalid value was specified for the *Operation* parameter. This is an error code. |
 
 ## -remarks
 
-A minifilter driver calls <b>FltSetTransactionContext</b> to attach a context to a transaction or to remove or replace an existing transaction context. A minifilter driver can attach only one context to a given transaction. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-Before calling <b>FltSetTransactionContext</b> to set a new transaction context, the caller must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a> to allocate the context object. 
+A minifilter driver calls **FltSetTransactionContext** to attach a context to a transaction or to remove or replace an existing transaction context. A minifilter driver can attach only one context to a given transaction.
 
-A successful call to <b>FltSetTransactionContext</b> increments the reference count on <i>NewContext</i>. If <b>FltSetTransactionContext</b> fails, the reference count remains unchanged. In either case, the filter calling <b>FltSetTransactionContext</b> must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to decrement the <i>NewContext</i> object. If <b>FltSetTransactionContext</b> fails and if the <i>OldContext</i> parameter is not <b>NULL</b> and does not point to NULL_CONTEXT then <i>OldContext</i> is a referenced pointer to the context currently associated with the transaction. The filter calling <b>FltSetTransactionContext</b> must call <b>FltReleaseContext</b> for <i>OldContext</i> as well.
+### Reference Counting
 
-Note that the <i>OldContext</i> pointer returned by <b>FltSetTransactionContext</b> must also be released by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> when it is no longer needed. For more information, see <a href="/windows-hardware/drivers/ifs/setting-contexts">Setting Contexts</a> and <a href="/windows-hardware/drivers/ifs/releasing-contexts">Releasing Contexts</a>. 
+If **FltSetTransactionContext** succeeds:
 
-To retrieve a transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettransactioncontext">FltGetTransactionContext</a>. 
+- The reference count on *NewContext* is incremented. When *NewContext* is no longer needed, the minifilter must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement its reference count.
 
-To allocate a new transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+Else if **FltSetTransactionContext** fails:
 
-To delete a transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
+- The reference count on *NewContext* remains unchanged.
+- If *OldContext* is not **NULL** and does not point to NULL_CONTEXT then *OldContext* is a referenced pointer to the context currently associated with the transaction. The filter calling **FltSetTransactionContext** must call **FltReleaseContext** for *OldContext* as well when the context pointer is no longer needed.
 
-For more information about context reference counting, see <a href="/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
+Regardless of success:
+
+- The filter calling **FltSetTransactionContext** must call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to decrement the reference count on the *NewContext* object that was incremented by [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+For more information, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
+
+### Other context operations
+
+For more information, see [Setting Contexts](/windows-hardware/drivers/ifs/setting-contexts), and [Releasing Contexts](/windows-hardware/drivers/ifs/releasing-contexts):
+
+- To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+
+To get a transaction context, call [**FltGetTransactionContext**](nf-fltkernel-fltgettransactioncontext.md).
+
+- To delete a transaction context, call [**FltDeleteTransactionContext**](nf-fltkernel-fltdeletetransactioncontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltCommitComplete**](nf-fltkernel-fltcommitcomplete.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcommitcomplete">FltCommitComplete</a>
+[**FltDeleteTransactionContext**](nf-fltkernel-fltdeletetransactioncontext.md)
 
+[**FltEnlistInTransaction**](nf-fltkernel-fltenlistintransaction.md)
 
+[**FltGetTransactionContext**](nf-fltkernel-fltgettransactioncontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltPrePrepareComplete**](nf-fltkernel-fltprepreparecomplete.md)
 
+[**FltPrepareComplete**](nf-fltkernel-fltpreparecomplete.md)
 
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a>
+[**FltRollbackComplete**](nf-fltkernel-fltrollbackcomplete.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenlistintransaction">FltEnlistInTransaction</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettransactioncontext">FltGetTransactionContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprepreparecomplete">FltPrePrepareComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpreparecomplete">FltPrepareComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackcomplete">FltRollbackComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackenlistment">FltRollbackEnlistment</a>
+[**FltRollbackEnlistment**](nf-fltkernel-fltrollbackenlistment.md)

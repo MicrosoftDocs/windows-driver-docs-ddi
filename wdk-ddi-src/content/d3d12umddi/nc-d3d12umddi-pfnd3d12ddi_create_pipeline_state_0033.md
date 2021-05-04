@@ -51,19 +51,19 @@ Used to create a pipeline state.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 The arguments used to create a pipeline state.
 
-### -param Arg3
+### -param unnamedParam3
 
 The handle of the pipeline state for the driver to use when it calls back into the runtime.
 
-### -param Arg4
+### -param unnamedParam4
 
 ## -returns
 

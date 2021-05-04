@@ -49,19 +49,19 @@ The <b>ClearRenderTargetView</b> function clears the specified render-target vie
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pColorRGBA* [in]
 
 A four-element array of single-precision float vectors that the driver uses to clear a render-target view. Array element 0 is red (R), 1 is green (G), 2 is blue (B), and 3 is alpha (A).
 
-### -param Arg3
+### -param unnamedParam3
 
 *hRenderTargetView* [in]
 

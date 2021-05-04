@@ -48,3 +48,5 @@ api_name:
 This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins.
 
 Use [IPrintOemPS::DisableDriver (Pscript)](../prcomoem/nf-prcomoem-iprintoemps-disabledriver.md) or [IPrintOemUni::DisableDriver (Unidrv)](../prcomoem/nf-prcomoem-iprintoemuni-disabledriver.md) instead.
+
+## -parameters

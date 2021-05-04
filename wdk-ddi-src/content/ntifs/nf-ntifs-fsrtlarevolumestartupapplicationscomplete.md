@@ -46,6 +46,8 @@ api_name:
 
 The **FsRtlAreVolumeStartupApplicationsComplete** function determines whether volume startup applications have completed processing.
 
+## -parameters
+
 ## -returns
 
 **FsRtlAreVolumeStartupApplicationsComplete** returns **TRUE** if all volume startup applications for the system have completed their startup processing, **FALSE** otherwise.

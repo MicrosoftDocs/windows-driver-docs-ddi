@@ -48,7 +48,7 @@ The PFND3DKMT_ENUMADAPTERS2 callback function enumerates all graphics and displa
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *\_Inout\_* *[D3DKMT_ENUMADAPTERS2](ns-d3dkmthk-_d3dkmt_enumadapters2.md)* * *Arg1*
 

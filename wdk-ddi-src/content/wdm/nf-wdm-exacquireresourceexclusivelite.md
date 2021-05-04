@@ -42,83 +42,63 @@ api_name:
 
 # ExAcquireResourceExclusiveLite function
 
-
 ## -description
 
-The <b>ExAcquireResourceExclusiveLite</b> routine acquires the given resource for exclusive access by the calling thread.
+The **ExAcquireResourceExclusiveLite** routine acquires the given resource for exclusive access by the calling thread.
 
 ## -parameters
 
-### -param Resource 
+### -param Resource
 
 [in, out]
 A pointer to the resource to acquire.
 
-### -param Wait 
+### -param Wait
 
 [in]
-Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
+Specifies the routine's behavior whenever the resource cannot be acquired immediately. If **TRUE**, the caller is put into a wait state until the resource can be acquired. If **FALSE**, the routine immediately returns, regardless of whether the resource can be acquired.
 
 ## -returns
 
-<b>ExAcquireResourceExclusiveLite</b> returns <b>TRUE</b> if the resource is acquired. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and exclusive access cannot be granted immediately.
+**ExAcquireResourceExclusiveLite** returns **TRUE** if the resource is acquired. This routine returns **FALSE** if the input *Wait* is **FALSE** and exclusive access cannot be granted immediately.
 
 ## -remarks
 
 The following list describes whether and when a caller is given exclusive access to a given resource:
 
-<ul>
-<li>
-If the resource is currently not owned, exclusive access is granted immediately to the current thread.
+* If the resource is currently not owned, exclusive access is granted immediately to the current thread.
 
-</li>
-<li>
-If the caller already had acquired the resource for exclusive access, the current thread is granted the same type of access recursively.
+* If the caller already had acquired the resource for exclusive access, the current thread is granted the same type of access recursively.
 
-</li>
-<li>
-If the caller has shared access to the resource, the caller must release the lock before it attempts to reacquire it exclusively.
+* If the caller has shared access to the resource, the caller must release the lock before it attempts to reacquire it exclusively.
 
-</li>
-<li>
-If the resource is currently owned as exclusive by another thread, or if the caller only has shared access to the resource, the current thread is put into a wait state until the resource can be acquired.
+* If the resource is currently owned as exclusive by another thread, or if the caller only has shared access to the resource, the current thread is put into a wait state until the resource can be acquired.
 
-</li>
-</ul>
-<div class="alert"><b>Note</b>    If two threads each hold a shared lock on the same resource and both attempt to acquire the lock exclusively without releasing their shared lock, they will deadlock. This means that each thread will wait for the other to release its shared hold on the lock, and neither will release its shared hold until the other does.</div>
-<div> </div>
-The caller can release the resource by calling either <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a> or <a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>.
+> [!NOTE]
+> If two threads each hold a shared lock on the same resource and both attempt to acquire the lock exclusively without releasing their shared lock, they will deadlock. This means that each thread will wait for the other to release its shared hold on the lock, and neither will release its shared hold until the other does.
 
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
+The caller can release the resource by calling either [ExReleaseResourceLite](nf-wdm-exreleaseresourcelite.md) or [ExReleaseResourceForThreadLite](nf-wdm-exreleaseresourceforthreadlite.md).
+
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling [KeEnterCriticalRegion](../ntddk/nf-ntddk-keentercriticalregion.md). Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling [KeLeaveCriticalRegion](../ntddk/nf-ntddk-keleavecriticalregion.md). For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
-<a href="/previous-versions/ff544363(v=vs.85)">ExAcquireResourceSharedLite</a>
+[ExAcquireResourceSharedLite](nf-wdm-exacquireresourcesharedlite.md)
 
+[ExGetExclusiveWaiterCount](nf-wdm-exgetexclusivewaitercount.md)
 
+[ExGetSharedWaiterCount](nf-wdm-exgetsharedwaitercount.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetexclusivewaitercount">ExGetExclusiveWaiterCount</a>
+[ExInitializeResourceLite](nf-wdm-exinitializeresourcelite.md)
 
+[ExIsResourceAcquiredExclusiveLite](nf-wdm-exisresourceacquiredexclusivelite.md)
 
+[ExReinitializeResourceLite](nf-wdm-exreinitializeresourcelite.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetsharedwaitercount">ExGetSharedWaiterCount</a>
+[ExReleaseResourceForThreadLite](nf-wdm-exreleaseresourceforthreadlite.md)
 
+[ExReleaseResourceLite](nf-wdm-exreleaseresourcelite.md)
 
+[KeEnterCriticalRegion](../ntddk/nf-ntddk-keentercriticalregion.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>
-
-
-
-<a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
+[KeLeaveCriticalRegion](../ntddk/nf-ntddk-keleavecriticalregion.md)

@@ -51,25 +51,25 @@ Creates a resource view for a video decoder. This view defines the output sample
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateData* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hView* [in]
 
 A handle to the driver's private data for the video decoder output view.
 
-### -param Arg4
+### -param unnamedParam4
 
 *hRTView* [in]
 

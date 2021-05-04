@@ -48,7 +48,7 @@ Pfnd3dkmtGetmultiplaneoverlaycaps retrieves multiplane overlay capabilities.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS](ns-d3dkmthk-_d3dkmt_get_multiplane_overlay_caps.md) structure.
 

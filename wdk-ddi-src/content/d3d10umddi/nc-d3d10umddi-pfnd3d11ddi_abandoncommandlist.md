@@ -49,7 +49,7 @@ The <b>AbandonCommandList</b> function abandons the command list.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 

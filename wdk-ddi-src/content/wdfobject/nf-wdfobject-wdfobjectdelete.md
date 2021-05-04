@@ -63,7 +63,8 @@ A handle to framework object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
+> [!NOTE]
+> Callback functions that are called at PASSIVE_LEVEL cannot delete timer objects. For more info, see [*EVT_WDF_TIMER* callback function](../wdftimer/nc-wdftimer-evt_wdf_timer.md#remarks).
 
 
 After a driver calls <b>WdfObjectDelete</b>, the specified object is deleted after its reference count becomes zero.

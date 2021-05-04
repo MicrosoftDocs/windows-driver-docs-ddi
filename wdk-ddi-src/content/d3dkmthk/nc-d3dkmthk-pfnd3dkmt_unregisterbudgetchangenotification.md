@@ -48,7 +48,7 @@ The PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION callback function unregisters b
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION](ns-d3dkmthk-_d3dkmt_unregisterbudgetchangenotification.md) structure.
 

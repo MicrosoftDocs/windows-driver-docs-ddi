@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetBufferValue
 title: IPortableDeviceValues::SetBufferValue (portabledevicetypes.h)
-description: Adds a new BYTE* value (type VT_VECTOR | VT_UI1) or overwrites an existing one.
+description: Adds a new BYTE* value (type VT_VECTOR or VT_UI1) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setbuffervalue.htm
 tech.root: wpd_dk
 ms.date: 02/15/2018
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Adds a new <b>BYTE</b>* value (type VT_VECTOR | VT_UI1) or overwrites an existing one.
+Adds a new <b>BYTE</b>* value (type VT_VECTOR or VT_UI1) or overwrites an existing one.
 
 ## -parameters
 

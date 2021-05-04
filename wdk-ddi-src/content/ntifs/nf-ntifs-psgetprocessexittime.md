@@ -47,6 +47,8 @@ api_name:
 
 The <b>PsGetProcessExitTime</b> routine returns the exit time for the current process.
 
+## -parameters
+
 ## -returns
 
 <b>PsGetProcessExitTime</b> returns the exit time for the current process, in system time format.

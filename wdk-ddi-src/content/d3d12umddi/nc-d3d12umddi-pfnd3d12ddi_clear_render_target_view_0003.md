@@ -49,7 +49,7 @@ The pfnClearRenderTargetView function clears the specified render-target view by
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 

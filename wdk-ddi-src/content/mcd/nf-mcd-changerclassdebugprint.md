@@ -58,7 +58,7 @@ Indicates how verbose debug information should be. Caller must assign this param
 
 Caller can specify a message to be included with the debugging information that is printed by assigning a printable ASCII character string to this parameter.
 
-### -param param
+### -param ...
 
 TBD
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_CAPABILITY
-title: _STOR_CRYPTO_CAPABILITY (storport.h)
+title: STOR_CRYPTO_CAPABILITY (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_capability.htm
 tech.root: storage
@@ -10,7 +10,7 @@ ms.keywords: "*PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CA
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,8 +46,7 @@ api_name:
  - STOR_CRYPTO_CAPABILITY
 ---
 
-# _STOR_CRYPTO_CAPABILITY structure
-
+# STOR_CRYPTO_CAPABILITY structure
 
 ## -description
 
@@ -55,3 +54,26 @@ Reserved for system use.
 
 ## -struct-fields
 
+### -field Version
+
+Reserved for system use.
+
+### -field Size
+
+Reserved for system use.
+
+### -field CryptoCapabilityIndex
+
+Reserved for system use.
+
+### -field DataUnitSizeBitmask
+
+Reserved for system use.
+
+### -field AlgorithmId
+
+Reserved for system use.
+
+### -field KeySize
+
+Reserved for system use.

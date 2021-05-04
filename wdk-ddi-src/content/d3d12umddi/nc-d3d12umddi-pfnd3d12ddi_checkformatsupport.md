@@ -49,15 +49,15 @@ Implemented by the client driver to check the format support.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 A DXGI_FORMAT.
 
-### -param Arg3
+### -param unnamedParam3
 
 Pointer to a UINT.
 

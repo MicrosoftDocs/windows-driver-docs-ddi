@@ -49,7 +49,7 @@ The <b>DrawAuto</b> function works similarly to the <a href="/windows-hardware/d
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 

@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_BUILDPAGINGBUFFER
-title: _DXGKARG_BUILDPAGINGBUFFER (d3dkmddi.h)
+title: DXGKARG_BUILDPAGINGBUFFER (d3dkmddi.h)
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
-ms.date: 05/10/2018
+ms.date: 05/13/2021
 keywords: ["DXGKARG_BUILDPAGINGBUFFER structure"]
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
 req.header: d3dkmddi.h
@@ -43,8 +43,7 @@ api_name:
  - DXGKARG_BUILDPAGINGBUFFER
 ---
 
-# _DXGKARG_BUILDPAGINGBUFFER structure
-
+# DXGKARG_BUILDPAGINGBUFFER structure
 
 ## -description
 
@@ -210,7 +209,7 @@ MmGetMdlPfnArray(pMdl)[MdlOffset];
 
 ### -field MapApertureSegment
 
-[in] A structure that describes the map-aperture-segment operation.
+[in] A structure that describes the map-aperture-segment operation using an MDL.
 
 ### -field MapApertureSegment.hDevice
 
@@ -438,7 +437,53 @@ A [**DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY**](ns-d3dkmddi-_dxgk_buildpagingbuff
 
 ### -field SignalMonitoredFence
 
-Add a GPU instruction to signal the paging monitored fence object to the DMA buffer.
+A [**DXGK_BUILDPAGINGBUFFER_SIGNALMONITOREDFENCE**](ns-d3dkmddi-_dxgkarg_signalmonitoredfence.md) structure that describes a GPU instruction to signal the paging monitored fence object to the DMA buffer. Available starting with Windows 10, version 1703.
+
+### - field MapApertureSegment2
+
+[in] A structure that describes the map-aperture-segment operation using an ADL.
+
+### -field MapApertureSegment2.hDevice
+
+[in] A handle to the device that owns the allocation that **hAllocation** specifies that is mapped into the aperture segment that **SegmentId** specifies.
+
+For a shared allocation, **hDevice** is set to the device that the video memory manager determined to be the owner of the allocation.
+
+**hDevice** is **NULL** for the primary allocation.
+
+### -field MapApertureSegment2.hAllocation
+
+[in] A handle to the allocation that is mapped into the aperture segment that **SegmentId** specifies.
+
+**hAllocation** is **NULL** when a DMA buffer is mapped into the aperture segment because DMA buffers are not explicitly created by the driver.
+
+### -field MapApertureSegment2.SegmentId
+
+[in] The identifier of an aperture segment to configure.
+
+### -field MapApertureSegment2.OffsetInPages
+
+[in] The offset, in pages, from the beginning of the segment to the first pages to map.
+
+### -field MapApertureSegment2.NumberOfPages
+
+[in] The number of pages to map.
+
+### -field MapApertureSegment2.pAdl
+
+[in] A pointer to a buffer that contains the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure that describes the logical pages to map into the aperture segment.
+
+### -field MapApertureSegment2.Flags
+
+[in] A [**DXGK_MAPAPERTUREFLAGS**](ns-d3dkmddi-_dxgk_mapapertureflags.md) structure that identifies, in bit-field flags, the type of map-aperture-segment operation to perform.
+
+### -field MapApertureSegment2.AdlOffset
+
+[in] The offset within the **pAdl->**[**ADL**](ns-d3dkmddi-dxgk_adl.md) structure to the first system memory page for the current operation, specified in system memory pages. If the ADL is a contiguous ADL, then **BasePageNumber** is the start address of a contiguous range of memory. Otherwise use **Pages** for non-contiguous memory.
+
+### -field MapApertureSegment2.CpuVisibleAddress
+
+Pointer to a system mapped kernel-mode virtual address on allocations created with the **MapApertureCpuVisible** flag (at allocation creation time). This address is  valid as long as the allocation is mapped into the aperture segment. That is, this address will be freed immediately after the corresponding **DXGK_OPERATION_UNMAP_APERTURE_SEGMENT** call for the same allocation. A driver indicates the need for this address by setting the **MapApertureCpuVisible** flag in [**DXGK_ALLOCATIONINFOFLAGS_WDDM2_0**](ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0.md). If **MapApertureCpuVisible** is not specified, **CpuVisibleAddress** is NULL for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations.
 
 ### -field Reserved
 
@@ -507,4 +552,3 @@ WDDM synchronization class:
 [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray
 
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
-

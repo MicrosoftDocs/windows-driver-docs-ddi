@@ -51,7 +51,7 @@ The <i>GetSupportedVersions</i> function queries for the Direct3D interface vers
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hAdapter* [in]
 

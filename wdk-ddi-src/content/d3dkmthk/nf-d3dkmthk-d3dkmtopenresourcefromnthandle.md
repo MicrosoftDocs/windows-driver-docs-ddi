@@ -49,7 +49,7 @@ Opens a shared resource from an NT handle.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in, out]
 

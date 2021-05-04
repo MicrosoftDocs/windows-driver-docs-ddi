@@ -49,19 +49,19 @@ Notifies the display miniport driver that the <a href="/windows-hardware/drivers
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hView* [in]
 
 A handle to the driver's private data for the video processor input view that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview">CreateVideoProcessorInputView</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *hResource* [in]
 

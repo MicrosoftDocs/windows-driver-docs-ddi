@@ -57,7 +57,7 @@ The <b>REG_RESTORE_KEY_INFORMATION</b> structure contains the information for a 
 
 ### -field Object
 
-A pointer to a registry key object for the key whose name is about to be changed.
+A pointer to a registry key object for the key that is about to be restored.
 
 ### -field FileHandle
 
@@ -96,8 +96,6 @@ A pointer to driver-defined context information, which the driver has associated
 This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 ## -remarks
-
-Note that when a key is restored, only the last component of the path can be changed.
 
 The REG_REFRESH_HIVE flag is opaque and a filter should not attempt to change it.
 

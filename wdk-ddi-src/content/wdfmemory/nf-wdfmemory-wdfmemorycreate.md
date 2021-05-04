@@ -134,6 +134,14 @@ The <b>WdfMemoryCreate</b> method allocates a buffer of the size that the <i>Buf
 
 To obtain the buffer's address, your driver can supply a non-<b>NULL</b> value for the <b>WdfMemoryCreate</b> function's <i>Buffer</i> parameter, or the driver can call <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>.
 
+It is good practice to zero memory for memory allocation, especially for allocations that will be copied to an untrusted location (user mode, over the network, etc.) to avoid disclosing sensitive information. 
+**WdfMemoryCreate** does not zero initialize allocated memory by default.
+
+Based on the driver's usage pattern of the allocated memory, the recommendation for driver writers is to consider:
+
+* Using a zero-allocation API ([**ExAllocatePool2**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2), [**ExAllocatePoolZero**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolzero) for kernel mode; [**HeapAlloc**](/windows/win32/api/heapapi/nf-heapapi-heapalloc) with the **HEAP_ZERO_MEMORY** flag for user mode), followed by [**WdfMemoryCreatePreallocated**](/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated)
+* Or, [**RtlZeroMemory**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory) immediately after calling **WdfMemoryCreate**
+
 The default parent object for each memory object is the framework driver object that represents the driver that called <b>WdfMemoryCreate</b>. If your driver creates a memory object that it uses with a specific device object, request object, or other framework object, it should set the memory object's parent appropriately. The memory object and its buffer will be deleted when the parent object is deleted. If you do not change the default parent object, the memory object and its buffer will remain until the I/O manager unloads your driver. 
 
 A driver can also delete a memory object and its buffer by calling <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>.

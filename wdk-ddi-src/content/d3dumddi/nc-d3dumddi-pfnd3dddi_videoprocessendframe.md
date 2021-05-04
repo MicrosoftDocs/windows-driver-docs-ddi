@@ -55,7 +55,7 @@ The <i>VideoProcessEndFrame</i> function notifies the user-mode display driver t
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

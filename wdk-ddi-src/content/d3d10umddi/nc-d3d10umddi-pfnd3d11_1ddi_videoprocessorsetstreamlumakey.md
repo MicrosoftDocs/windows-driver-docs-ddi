@@ -49,25 +49,25 @@ Sets the luma key for an input stream on the video processor.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *hVideoProcessor* [in]
 
 A handle to the video processor object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 *StreamIndex* [in]
 
 The zero-based index of the input stream.
 
-### -param Arg4
+### -param unnamedParam4
 
 *Lower* [in]
 
@@ -78,13 +78,13 @@ The lower bound for the luma key. The valid range is from zero to one.
 </div>
 <div> </div>
 
-### -param Arg5
+### -param unnamedParam5
 
 *Enable* [in]
 
 If <b>TRUE</b>, the luma key is enabled on the specified input stream of the video processor.
 
-### -param Arg6
+### -param unnamedParam6
 
 *Upper* [in]
 

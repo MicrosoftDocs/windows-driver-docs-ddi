@@ -64,7 +64,7 @@ NTSTATUS Pfnd3dkmtOpenswapchain
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_OPENSWAPCHAIN](ns-d3dkmthk-_d3dkmt_openswapchain.md) structure.
 

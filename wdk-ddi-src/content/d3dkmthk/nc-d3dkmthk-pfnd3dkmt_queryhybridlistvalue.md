@@ -48,7 +48,7 @@ The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for the hybrid list
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_HYBRID_LIST](ns-d3dkmthk-_d3dkmt_hybrid_list.md) structure.
 

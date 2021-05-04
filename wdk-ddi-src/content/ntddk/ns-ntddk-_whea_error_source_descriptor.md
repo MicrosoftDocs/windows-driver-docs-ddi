@@ -162,6 +162,8 @@ A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_desc
 
 ### -field Info.GenErrDescriptorV2
 
+A [WHEA_DEVICE_DRIVER_DESCRIPTOR_V2](ns-ntddk-whea_generic_error_descriptor_v2.md) structure.
+
 ### -field Info.DeviceDriverDescriptor
 
 A [WHEA_DEVICE_DRIVER_DESCRIPTOR](ns-ntddk-whea_device_driver_descriptor.md) structure.

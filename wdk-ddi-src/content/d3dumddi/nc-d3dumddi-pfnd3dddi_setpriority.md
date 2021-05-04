@@ -55,7 +55,7 @@ The <i>SetPriority</i> function sets the eviction-from-memory priority for a man
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

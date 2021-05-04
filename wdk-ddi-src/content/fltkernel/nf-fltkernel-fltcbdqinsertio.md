@@ -93,7 +93,7 @@ A callback data queue is initialized by calling [**FltCbdqInitialize**](nf-fltke
 
 See [**FltCbdqInitialize**](nf-fltkernel-fltcbdqinitialize.md) for details on how to create a callback data queue. Use [**FltCbdqRemoveIo**](nf-fltkernel-fltcbdqremoveio.md) to remove a particular I/O request from the queue, or [**FltCbdqRemoveNextIo**](nf-fltkernel-fltcbdqremovenextio.md) to remove the next available I/O request.
 
-If the queue is protected by a [spin lock](/windows-hardware/drivers/kernel/spin-locks) rather than a [mutex object](/windows-hardware/drivers/kernel/mutex-objects) or [resource variable](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite), the caller of **FltCbdqInsertIo** can be running at IRQL <= DISPATCH_LEVEL. If a mutex or resource is used, the caller must be running at IRQL <= APC_LEVEL.
+If the queue is protected by a [spin lock](/windows-hardware/drivers/kernel/spin-locks) rather than a [mutex object](/windows-hardware/drivers/kernel/mutex-objects) or [resource variable](../wdm/nf-wdm-exinitializeresourcelite.md), the caller of **FltCbdqInsertIo** can be running at IRQL <= DISPATCH_LEVEL. If a mutex or resource is used, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also
 

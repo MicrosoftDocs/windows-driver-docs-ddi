@@ -49,7 +49,7 @@ Maps a global NT handle  to resource information that is needed for a call to th
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* 
 

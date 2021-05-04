@@ -47,6 +47,8 @@ api_name:
 
 The <b>MmIsRecursiveIoFault</b> routine determines whether the current page fault is occurring during an I/O operation.
 
+## -parameters
+
 ## -returns
 
 <b>MmIsRecursiveIoFault</b> returns <b>TRUE</b> if a file system I/O operation is in progress for the current thread, <b>FALSE</b> otherwise.

@@ -55,7 +55,7 @@ The <i>GetCaptureAllocationHandle</i> function maps the given capture resource h
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

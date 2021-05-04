@@ -48,7 +48,7 @@ Implemented by the client driver to destroy the specified graphics processing un
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_DESTROYCONTEXT](ns-d3dkmthk-_d3dkmt_destroycontext.md) structure.
 

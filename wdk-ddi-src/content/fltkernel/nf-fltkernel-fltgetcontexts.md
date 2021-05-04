@@ -4,7 +4,7 @@ title: FltGetContexts function (fltkernel.h)
 description: The FltGetContexts routine retrieves a minifilter driver's contexts for the objects related to the current operation.
 old-location: ifsk\fltgetcontexts.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltGetContexts function"]
 ms.keywords: FltApiRef_e_to_o_80c262c0-2587-4ca5-b397-674c0ba5f316.xml, FltGetContexts, FltGetContexts routine [Installable File System Drivers], fltkernel/FltGetContexts, ifsk.fltgetcontexts
 req.header: fltkernel.h
@@ -42,41 +42,31 @@ api_name:
 
 # FltGetContexts function
 
-
 ## -description
 
-The <b>FltGetContexts</b> routine retrieves a minifilter driver's contexts for the objects related to the current operation.
+The **FltGetContexts** routine retrieves a minifilter driver's contexts for the objects related to the current operation.
 
 ## -parameters
 
-### -param FltObjects 
+### -param FltObjects
 
-[in]
-Pointer to an <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.)
+[in] Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
 
-### -param DesiredContexts 
+### -param DesiredContexts
 
-[in]
-Type of contexts to retrieve. This parameter can have one or more of the following values: 
+[in] Type of contexts to retrieve. This parameter can have one or more of the following values:
 
-FLT_ALL_CONTEXTS
+- FLT_ALL_CONTEXTS
+- FLT_FILE_CONTEXT (Windows Vista and later only)
+- FLT_INSTANCE_CONTEXT
+- FLT_STREAM_CONTEXT
+- FLT_STREAMHANDLE_CONTEXT
+- FLT_TRANSACTION_CONTEXT (Windows Vista and later only)
+- FLT_VOLUME_CONTEXT
 
-FLT_FILE_CONTEXT (Windows Vista and later only.)
+### -param Contexts
 
-FLT_INSTANCE_CONTEXT
-
-FLT_STREAM_CONTEXT
-
-FLT_STREAMHANDLE_CONTEXT
-
-FLT_TRANSACTION_CONTEXT (Windows Vista and later only.) 
-
-FLT_VOLUME_CONTEXT
-
-### -param Contexts 
-
-[out]
-Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a> structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
+[out] Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
 
 ## -returns
 
@@ -84,79 +74,41 @@ None
 
 ## -remarks
 
-A minifilter driver calls <b>FltGetContexts</b> to retrieve pointers to the minifilter driver's contexts for the objects in an <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-The following minifilter driver callback routine types receive a pointer to an <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure as the <i>FltObjects</i> input parameter: 
+A minifilter driver calls **FltGetContexts** to retrieve pointers to the minifilter driver's contexts for the objects in a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure.
 
+The following minifilter driver callback routine types receive a pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure as the *FltObjects* input parameter:
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+- [**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)
+- [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
+- [**PFLT_INSTANCE_SETUP_CALLBACK**](nc-fltkernel-pflt_instance_setup_callback.md)
+- [**PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK**](nc-fltkernel-pflt_instance_query_teardown_callback.md)
+- [**PFLT_INSTANCE_TEARDOWN_CALLBACK**](nc-fltkernel-pflt_instance_teardown_callback.md)
 
+**FltGetContexts** increments the reference count on each of the contexts returned in the [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure that the *Contexts* parameter points to. Thus for every successful call to **FltGetContexts**, the caller must either:
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_query_teardown_callback">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_teardown_callback">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-<b>FltGetContexts</b> increments the reference count on each of the contexts returned in the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a> structure that the <i>Contexts </i>parameter points to. Thus for every successful call to <b>FltGetContexts</b>, the caller must either: 
-
-<ul>
-<li>
-Call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontexts">FltReleaseContexts</a> for the entire structure that the <i>Contexts </i>parameter points to. 
-
-</li>
-<li>
-Call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> for each of the contexts returned in the structure and set each context field returned in the structure to zero. 
-
-</li>
-</ul>
+- Call [**FltReleaseContexts**](nf-fltkernel-fltreleasecontexts.md) for the entire structure that the *Contexts* parameter points to.
+- Call [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) for each of the contexts returned in the structure and set each context field returned in the structure to zero.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts">FLT_RELATED_CONTEXTS</a>
+[**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md)
 
+[**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md)
 
+[**FltRegisterFilter**](nf-fltkernel-fltregisterfilter.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
+[**FltReleaseContexts**](nf-fltkernel-fltreleasecontexts.md)
 
+[**PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK**](nc-fltkernel-pflt_instance_query_teardown_callback.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>
+[**PFLT_INSTANCE_SETUP_CALLBACK**](nc-fltkernel-pflt_instance_setup_callback.md)
 
+[**PFLT_INSTANCE_TEARDOWN_CALLBACK**](nc-fltkernel-pflt_instance_teardown_callback.md)
 
+[**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontexts">FltReleaseContexts</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_query_teardown_callback">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_teardown_callback">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+[**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)

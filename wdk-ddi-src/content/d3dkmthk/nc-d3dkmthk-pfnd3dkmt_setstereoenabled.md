@@ -51,7 +51,7 @@ The PFND3DKMT_SETSTEREOENABLED callback function retrieves a Boolean value that 
 
 ## -parameters
 
-### -param Arg1: 
+### -param unnamedParam1: 
 
 *\_In\_* *bStereoEnabled*
 

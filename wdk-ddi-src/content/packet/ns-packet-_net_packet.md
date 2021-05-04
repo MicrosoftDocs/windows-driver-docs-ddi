@@ -61,7 +61,7 @@ A [**NET_PACKET_LAYOUT**](ns-packet-_net_packet_layout.md) structure.
 
 For transmit queues, if the host stack has enabled a task offload that uses a protocol header, specifies a read-only offset to each protocol field. For example, if TCP checksum offload is enabled, this member specifies the offset to the TCP header. Otherwise, this member is empty.
 
-For receive queues, this member is reserved.
+For receive queues, if the host stack has enabled a task offload that uses a protocol header, set the **Layer2Type**, **Layer3Type**, and **Layer4Type** flags. When there are no task offloads this member is empty.
 
 ### -field Ignore
 

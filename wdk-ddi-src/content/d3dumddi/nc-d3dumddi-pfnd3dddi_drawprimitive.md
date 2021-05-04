@@ -54,13 +54,13 @@ The <b>DrawPrimitive</b> function draws nonindexed primitives in which the Micro
 [in]
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_drawprimitive">D3DDDIARG_DRAWPRIMITIVE</a> structure that describes the primitive to draw.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pFlagBuffer* [in]
 

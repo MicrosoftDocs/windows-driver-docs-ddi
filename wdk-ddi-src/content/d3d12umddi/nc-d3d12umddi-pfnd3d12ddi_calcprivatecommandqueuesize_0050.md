@@ -50,11 +50,11 @@ The PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 callback function is used to ca
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 The handle of a device.
 
-### -param Arg2
+### -param unnamedParam2
 
 *_In_ CreateCommandQueue*
 

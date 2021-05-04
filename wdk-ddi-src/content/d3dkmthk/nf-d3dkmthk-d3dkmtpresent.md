@@ -52,7 +52,7 @@ The <b>D3DKMTPresent</b> function submits a present command to the Microsoft Dir
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in]
 

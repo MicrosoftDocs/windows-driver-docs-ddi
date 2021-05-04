@@ -50,7 +50,7 @@ Create a compute shader.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display device (graphics context).
 
@@ -58,15 +58,15 @@ A handle to the display device (graphics context).
 
 Pointer to a shader code.
 
-### -param Arg3
+### -param unnamedParam3
 
 A handle to a root signature.
 
-### -param Arg4
+### -param unnamedParam4
 
 A shader handle.
 
-### -param Arg5
+### -param unnamedParam5
 
 Flags to create a shader.
 

@@ -49,7 +49,7 @@ Sets the hardware protection tear down recovery.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY](ns-d3dkmthk-_d3dkmt_sethwprotectionteardownrecovery.md) structure.
 

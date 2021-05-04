@@ -55,7 +55,7 @@ Discards (evicts) a set of subresources from video display memory. Implemented b
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

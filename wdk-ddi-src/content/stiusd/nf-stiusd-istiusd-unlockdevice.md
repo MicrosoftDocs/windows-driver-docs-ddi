@@ -47,6 +47,8 @@ api_name:
 
 A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a>.
 
+## -parameters
+
 ## -returns
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.

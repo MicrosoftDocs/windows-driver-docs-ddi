@@ -50,7 +50,7 @@ The <b>D3DKMTCreateContextVirtual</b> function creates a kernel mode device cont
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *pData* [in]
 

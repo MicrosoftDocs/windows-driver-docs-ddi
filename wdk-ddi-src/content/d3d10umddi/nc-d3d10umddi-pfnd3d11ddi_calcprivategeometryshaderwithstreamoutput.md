@@ -49,20 +49,20 @@ The <i>CalcPrivateGeometryShaderWithStreamOutput(D3D11)</i> function determines 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pCreateGeometryShaderWithStreamOutput* [in]
 
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_creategeometryshaderwithstreamoutput">D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
-### -param Arg3
+### -param unnamedParam3
 
 *pSignatures* [in]
 

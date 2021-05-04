@@ -4,7 +4,7 @@ title: FltDeleteInstanceContext function (fltkernel.h)
 description: FltDeleteInstanceContext removes a context from a given instance and marks the context for deletion.
 old-location: ifsk\fltdeleteinstancecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltDeleteInstanceContext function"]
 ms.keywords: FltApiRef_a_to_d_2ccc7fef-0bff-4df4-b617-fb4749bb3ed6.xml, FltDeleteInstanceContext, FltDeleteInstanceContext function [Installable File System Drivers], fltkernel/FltDeleteInstanceContext, ifsk.fltdeleteinstancecontext
 req.header: fltkernel.h
@@ -43,84 +43,51 @@ api_name:
 
 # FltDeleteInstanceContext function
 
-
 ## -description
 
-<b>FltDeleteInstanceContext</b> removes a context from a given instance and marks the context for deletion.
+**FltDeleteInstanceContext** removes a context from a given instance and marks the context for deletion.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the instance.
+[in] Opaque instance pointer for the instance.
 
-### -param OldContext 
+### -param OldContext
 
-[out]
-Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed.
+[out] Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 
-<b>FltDeleteInstanceContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+**FltDeleteInstanceContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>Instance</i> is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching context was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_DELETING_OBJECT | The specified *Instance* is being torn down. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
 
 ## -remarks
 
-Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteInstanceContext</b> to explicitly delete a context. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-A minifilter driver calls <b>FltDeleteInstanceContext</b> to remove a context from an instance and mark the context for deletion. The context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still being used by another thread). 
+Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as **FltDeleteInstanceContext** to explicitly delete a context.
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+A minifilter driver calls **FltDeleteInstanceContext** to remove a context from an instance and mark the context for deletion. The context is usually freed immediately unless there is an outstanding reference on it (for example, because the context is still being used by another thread).
 
-To get an instance context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>. 
+To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-To set an instance context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a>.
+To get an instance context, call [**FltGetInstanceContext**](nf-fltkernel-fltgetinstancecontext.md).
+
+To set an instance context, call [**FltSetInstanceContext**](nf-fltkernel-fltsetinstancecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
+[**FltGetInstanceContext**](nf-fltkernel-fltgetinstancecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a>
+[**FltSetInstanceContext**](nf-fltkernel-fltsetinstancecontext.md)

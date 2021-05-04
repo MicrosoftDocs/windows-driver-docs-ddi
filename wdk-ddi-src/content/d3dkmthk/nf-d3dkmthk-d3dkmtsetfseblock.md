@@ -47,7 +47,7 @@ Sets FSE block.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SETFSEBLOCK](ns-d3dkmthk-_d3dkmt_setfseblock.md) structure.
 

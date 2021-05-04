@@ -48,7 +48,7 @@ PFND3DKMT_UNREGISTERTRIMNOTIFICATION callback function removes a callback regist
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_UNREGISTERTRIMNOTIFICATION](ns-d3dkmthk-_d3dkmt_unregistertrimnotification.md) structure.
 

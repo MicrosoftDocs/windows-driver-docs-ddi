@@ -47,6 +47,8 @@ api_name:
 
 Returns the system firmware type.
 
+## -parameters
+
 ## -returns
 
 Returns a <a href="/windows/win32/api/winnt/ne-winnt-firmware_type">FIRMWARE_TYPE</a>-type value that indicates the type of firmware.

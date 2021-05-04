@@ -47,6 +47,8 @@ api_name:
 
 Disables object logging for all objects.
 
+## -parameters
+
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

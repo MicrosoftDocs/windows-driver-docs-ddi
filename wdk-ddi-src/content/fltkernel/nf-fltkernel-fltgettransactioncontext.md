@@ -4,7 +4,7 @@ title: FltGetTransactionContext function (fltkernel.h)
 description: The FltGetTransactionContext routine retrieves a context that was set for a transaction by a given minifilter driver.
 old-location: ifsk\fltgettransactioncontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltGetTransactionContext function"]
 ms.keywords: FltApiRef_e_to_o_11458006-a870-473b-9d1b-ab7a97af09b3.xml, FltGetTransactionContext, FltGetTransactionContext routine [Installable File System Drivers], fltkernel/FltGetTransactionContext, ifsk.fltgettransactioncontext
 req.header: fltkernel.h
@@ -42,102 +42,64 @@ api_name:
 
 # FltGetTransactionContext function
 
-
 ## -description
 
-The <b>FltGetTransactionContext</b> routine retrieves a context that was set for a transaction by a given minifilter driver.
+The **FltGetTransactionContext** routine retrieves a context that was set for a transaction by a given minifilter driver.
 
 ## -parameters
 
-### -param Instance 
+### -param Instance
 
-[in]
-Opaque instance pointer for the caller.
+[in] Opaque instance pointer for the caller.
 
-### -param Transaction 
+### -param Transaction
 
-[in]
-Opaque transaction pointer for the transaction whose context is being retrieved.
+[in] Opaque transaction pointer for the transaction whose context is being retrieved.
 
-### -param Context 
+### -param Context
 
-[out]
-Pointer to a caller-allocated variable that receives the address of the transaction context.
+[out] Pointer to a caller-allocated variable that receives the address of the transaction context.
 
 ## -returns
 
-<b>FltGetTransactionContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
+**FltGetTransactionContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching context was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
 
 ## -remarks
 
-<b>FltGetTransactionContext</b> is available on Windows Vista and later. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-<b>FltGetTransactionContext</b> increments the reference count on the context that the <i>Context </i>parameter points to. When this context pointer is no longer needed, the caller must decrement its reference count by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>. Thus every successful call to <b>FltGetTransactionContext</b> must be matched by a subsequent call to <b>FltReleaseContext</b>. 
+**FltGetTransactionContext** increments the reference count on the context that the *Context* parameter points to. When this context pointer is no longer needed, the caller must decrement its reference count by calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md). Thus every successful call to **FltGetTransactionContext** must be matched by a subsequent call to **FltReleaseContext**.
 
-To set a context for a transaction, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>. 
+To set a context for a transaction, call [**FltSetTransactionContext**](nf-fltkernel-fltsettransactioncontext.md).
 
-To allocate a new transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
+To allocate a new transaction context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-To delete a transaction context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>.
+To delete a transaction context, call [**FltDeleteTransactionContext**](nf-fltkernel-fltdeletetransactioncontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
+[**FltCommitComplete**](nf-fltkernel-fltcommitcomplete.md)
 
+[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcommitcomplete">FltCommitComplete</a>
+[**FltDeleteTransactionContext**](nf-fltkernel-fltdeletetransactioncontext.md)
 
+[**FltEnlistInTransaction**](nf-fltkernel-fltenlistintransaction.md)
 
+[**FltPrePrepareComplete**](nf-fltkernel-fltprepreparecomplete.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>
+[**FltPrepareComplete**](nf-fltkernel-fltpreparecomplete.md)
 
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
 
+[**FltRollbackComplete**](nf-fltkernel-fltrollbackcomplete.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a>
+[**FltRollbackEnlistment**](nf-fltkernel-fltrollbackenlistment.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenlistintransaction">FltEnlistInTransaction</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprepreparecomplete">FltPrePrepareComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpreparecomplete">FltPrepareComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackcomplete">FltRollbackComplete</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackenlistment">FltRollbackEnlistment</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>
+[**FltSetTransactionContext**](nf-fltkernel-fltsettransactioncontext.md)

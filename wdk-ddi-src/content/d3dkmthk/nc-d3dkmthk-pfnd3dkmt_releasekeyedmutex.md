@@ -50,7 +50,7 @@ The PFND3DKMT_RELEASEKEYEDMUTEX callback function releases a keyed mutex object.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_RELEASEKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md) structure.
 

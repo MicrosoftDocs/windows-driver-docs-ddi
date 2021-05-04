@@ -55,7 +55,7 @@ The <b>CreateDecodeDevice</b> function creates a Microsoft DirectX Video Acceler
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in, out]
 

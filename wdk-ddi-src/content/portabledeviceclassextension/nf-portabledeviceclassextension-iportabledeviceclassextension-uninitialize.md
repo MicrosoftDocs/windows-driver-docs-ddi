@@ -48,6 +48,8 @@ api_name:
 
 The Uninitialize interface disables the WPD interface, any private interfaces, and device service interfaces that were initialized by the given driver. This method also disables the WIA or WMDM compatibility layers if they are enabled.
 
+## -parameters
+
 ## -returns
 
 The method returns an <b>HRESULT</b>. Possible return values are shown in the following table.

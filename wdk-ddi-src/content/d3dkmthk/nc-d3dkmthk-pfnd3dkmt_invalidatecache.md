@@ -48,7 +48,7 @@ Pfnd3dkmtInvalidatecache invalidates cache.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_INVALIDATECACHE](ns-d3dkmthk-_d3dkmt_invalidatecache.md) structure.
 

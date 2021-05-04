@@ -48,7 +48,7 @@ The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notifies the opera
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION](ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md) structure.
 

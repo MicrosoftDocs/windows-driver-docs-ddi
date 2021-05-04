@@ -55,7 +55,7 @@ The <b>DecryptionBlt</b> function writes data to a protected surface.
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

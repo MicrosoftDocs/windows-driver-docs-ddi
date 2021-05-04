@@ -51,7 +51,7 @@ The <b>CalcPrivateTessellationShaderSize</b> function determines the size of the
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 *hDevice* [in]
 
@@ -59,7 +59,7 @@ A handle to the display device (graphics context).
 
 ### -param pShaderCode
 
-### -param Arg3
+### -param unnamedParam3
 
 *pCode* [in]
 

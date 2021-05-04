@@ -51,7 +51,7 @@ The <b>wiauDbgLegacyError</b> function logs an error message.
 
 ### -param fmt
 
-### -param param
+### -param ...
 
 ####### - fmt, ...
 
@@ -64,3 +64,4 @@ The <b>wiauDbgLegacyError</b> function is identical to the <a href="/windows-har
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerror">wiauDbgError</a>
+

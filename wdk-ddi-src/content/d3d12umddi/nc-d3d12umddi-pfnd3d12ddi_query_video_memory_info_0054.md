@@ -52,7 +52,7 @@ Queries for video memory info.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 [in] Handle to the device to query.
 

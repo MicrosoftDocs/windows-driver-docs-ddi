@@ -4,7 +4,7 @@ title: FltReferenceContext function (fltkernel.h)
 description: FltReferenceContext increments the reference count on a context structure.
 old-location: ifsk\fltreferencecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/22/2021
 keywords: ["FltReferenceContext function"]
 ms.keywords: FltApiRef_p_to_z_bb2ded16-77d3-4fb3-a6c6-870b0112df7a.xml, FltReferenceContext, FltReferenceContext function [Installable File System Drivers], fltkernel/FltReferenceContext, ifsk.fltreferencecontext
 req.header: fltkernel.h
@@ -42,17 +42,15 @@ api_name:
 
 # FltReferenceContext function
 
-
 ## -description
 
-<b>FltReferenceContext</b> increments the reference count on a context structure.
+**FltReferenceContext** increments the reference count on a context structure.
 
 ## -parameters
 
-### -param Context 
+### -param Context
 
-[in]
-Pointer to the context. This parameter is required and cannot be <b>NULL</b>.
+[in] Pointer to the context. This parameter is required and cannot be **NULL**.
 
 ## -returns
 
@@ -60,42 +58,20 @@ None
 
 ## -remarks
 
-A minifilter driver calls the <b>FltReferenceContext</b> routine to increment the reference count on a context structure. 
+For more information about contexts, see [About minifilter contexts](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
-After a successful call to <b>FltReferenceContext</b>, the caller is responsible for decrementing the reference count on the context structure by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>. 
+A minifilter driver calls the **FltReferenceContext** routine to increment the reference count on a context structure.
 
-For more information about context reference counting, see <a href="/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>. 
+After a successful call to **FltReferenceContext**, the caller is responsible for decrementing the reference count on the context structure by calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md).
 
-To allocate a new context, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>.
+For more information about context reference counting, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
+
+To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
+[**FLT_CONTEXT_REGISTRATION**](ns-fltkernel-_flt_context_registration.md)
 
+[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontexts">FltGetContexts</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext">FltGetStreamContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamhandlecontext">FltGetStreamHandleContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumecontext">FltGetVolumeContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
+[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)

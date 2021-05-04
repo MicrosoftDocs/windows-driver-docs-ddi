@@ -54,7 +54,7 @@ The pfnCheckResourceAllocationInfo callback function supports checking resource 
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 Pointer to a D3D12DDIARG_CREATERESOURCE_0003 structure.
 
@@ -70,7 +70,7 @@ Indicates alignment restriction.
 
 Indicates the visible node mask.
 
-### -param Arg6
+### -param unnamedParam6
 
 Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO structure.
 

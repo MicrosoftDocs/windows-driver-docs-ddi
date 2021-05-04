@@ -50,19 +50,19 @@ Initializes a meta-command.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the driver's data for the command list.
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to a meta-command.
 
-### -param Arg3
+### -param unnamedParam3
 
 A pointer to a meta-command.
 
-### -param Arg4
+### -param unnamedParam4
 
 ## -prototype
 

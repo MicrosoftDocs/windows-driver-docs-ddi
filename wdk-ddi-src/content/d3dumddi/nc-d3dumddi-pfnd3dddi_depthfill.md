@@ -55,7 +55,7 @@ The <b>DepthFill</b> function fills a depth buffer with a pixel value that is sp
 
 A handle to the display device (graphics context).
 
-### -param Arg2
+### -param unnamedParam2
 
 *pData* [in]
 

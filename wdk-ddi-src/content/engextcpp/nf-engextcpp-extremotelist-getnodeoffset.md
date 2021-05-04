@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetNodeOffset</b> method returns the address of the current list item.
 
+## -parameters
+
 ## -returns
 
 <b>GetNodeOffset</b> returns the location, in the target's memory, of the current item for the current list iteration.

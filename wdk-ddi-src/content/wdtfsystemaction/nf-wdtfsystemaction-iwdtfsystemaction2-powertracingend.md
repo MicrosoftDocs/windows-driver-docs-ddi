@@ -49,6 +49,8 @@ This method ends a power trace session. Any power state events that occurred bet
     end method will be captured in the associated trace message (.etl) log file. In addition, the related namespace and fields for the system and any applicable devices
     can be queried.
 
+## -parameters
+
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
