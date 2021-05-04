@@ -12,6 +12,8 @@
     "fragment.h",
     "fwpmk.h",
     "fwpsk.h",
+    "gso.h",
+    "gsotypes.h",
     "hashtypes.h",
     "ieee8021q.h",
     "ieee8021qtypes.h",
