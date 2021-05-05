@@ -80,7 +80,7 @@ WDM drivers that register with PoFx for runtime idle power management support ne
 
 Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md).
 
-This callback is invoked when the system determines the device needs to power up after having previously being powered down in the [*PO_FX_DIRECTED_POWER_DOWN_CALLBACK*](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_directed_power_down_callback) callback function. The reasons why the system has determined the device no longer needs to be powered down could be due to the system exiting Modern Standby, [some software initiated activity starts running] (https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/activators), a hardware initiated wake, or some other reason.
+This callback is invoked when the system determines the device needs to power up after having previously being powered down in the [*PO_FX_DIRECTED_POWER_DOWN_CALLBACK*](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_directed_power_down_callback) callback function. The reasons why the system has determined the device no longer needs to be powered down could be due to the system exiting Modern Standby, [some software initiated activity starts running] (/windows-hardware/design/device-experiences/activators), a hardware initiated wake, or some other reason.
 
 When this callback is invoked, the driver typically performs the following high-level tasks:
 
