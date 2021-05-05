@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: poll.h
 req.idl: 
-req.include-header: 
+req.include-header: ndis.h
 req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 

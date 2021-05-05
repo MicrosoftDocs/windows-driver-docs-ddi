@@ -10,7 +10,7 @@ req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: poll.h
-req.include-header: 
+req.include-header: ndis.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -47,11 +47,7 @@ The **NDIS_POLL_DATA** structure contains pointers to the [**NDIS_POLL_TRANSMIT_
 
 ### -field Header
 
-The [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md) structure for the **NDIS_POLL_DATA** structure. Set the members of this structure as follows:
-
-- **Type** = NDIS_OBJECT_TYPE_DEFAULT
-- **Revision** = NDIS_POLL_DATA_REVISION_1
-- **Size** = NDIS_SIZEOF_NDIS_POLL_DATA_REVISION_1
+The header information for the **NDIS_POLL_DATA** structure. 
 
 ### -field Transmit
 

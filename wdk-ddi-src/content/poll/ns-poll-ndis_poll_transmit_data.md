@@ -10,7 +10,7 @@ req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: poll.h
-req.include-header: 
+req.include-header: ndis.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
