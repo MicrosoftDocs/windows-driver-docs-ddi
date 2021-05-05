@@ -45,5 +45,7 @@ api_name:
 
 Destructor for the vector 3d class used in sensor driver development.
 
+## -parameters
+
 ## -see-also
 

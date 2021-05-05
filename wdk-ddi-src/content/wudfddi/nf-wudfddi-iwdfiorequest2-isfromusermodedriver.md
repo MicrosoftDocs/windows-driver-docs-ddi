@@ -49,6 +49,8 @@ api_name:
 
 The <b>IsFromUserModeDriver</b> method indicates whether an I/O request came from a user-mode driver or an application.
 
+## -parameters
+
 ## -returns
 
 A Boolean value that, if <b>TRUE</b>, indicates that the current I/O request is from a user-mode driver. If this value is <b>FALSE</b>, the current I/O request came from an application.

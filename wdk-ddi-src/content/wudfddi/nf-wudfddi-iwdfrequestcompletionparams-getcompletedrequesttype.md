@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetCompletedRequestType</b> method retrieves the type of operation that the request to be completed contains.
 
+## -parameters
+
 ## -returns
 
 <b>GetCompletedRequestType</b> returns a <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request was sent to the driver.

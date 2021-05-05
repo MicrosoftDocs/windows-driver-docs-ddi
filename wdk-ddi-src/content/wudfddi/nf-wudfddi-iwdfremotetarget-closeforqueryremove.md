@@ -49,6 +49,8 @@ api_name:
 
 The <b>CloseForQueryRemove</b> method closes a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> because the operating system might allow the device to be removed.
 
+## -parameters
+
 ## -returns
 
 The <b>CloseForQueryRemove</b> method always returns S_OK.

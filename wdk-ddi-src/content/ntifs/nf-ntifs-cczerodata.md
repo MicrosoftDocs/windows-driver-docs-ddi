@@ -96,4 +96,4 @@ For Windows Vista and later Windows operating systems, the behavior of **CcZeroD
 
 [**CcIsFileCached**](/previous-versions/ff539143(v=vs.85))
 
-[**FILE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object)
+[**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md)

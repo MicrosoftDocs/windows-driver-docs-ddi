@@ -47,6 +47,8 @@ api_name:
 
 The <code>TerminatePacket</code> method terminates the packet currently being mapped.
 
+## -parameters
+
 ## -returns
 
 <code>TerminatePacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.

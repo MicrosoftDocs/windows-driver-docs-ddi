@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
 
+## -parameters
+
 ## -returns
 
 <b>GetRequestorProcessId</b> returns the identifier of the process that sent the I/O request.

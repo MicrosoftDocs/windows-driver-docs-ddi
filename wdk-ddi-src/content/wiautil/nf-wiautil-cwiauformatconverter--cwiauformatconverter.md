@@ -47,6 +47,8 @@ api_name:
 
 The <b>CWiauFormatConverter::~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormatConverter</b> class.
 
+## -parameters
+
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff540363(v=vs.85)">CWiauFormatConverter</a>

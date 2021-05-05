@@ -50,7 +50,7 @@ The **SeQuerySubjectContextToken** macro retrieves the access token for a securi
 
 ### -param SubjectContext
 
-[in] Pointer to a [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_security_subject_context) structure containing the subject context to query.
+[in] Pointer to a [**SECURITY_SUBJECT_CONTEXT**](../wdm/ns-wdm-_security_subject_context.md) structure containing the subject context to query.
 
 ## -returns
 
@@ -70,7 +70,7 @@ For more information about security and access control, see the documentation on
 
 [**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
-[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_security_subject_context)
+[**SECURITY_SUBJECT_CONTEXT**](../wdm/ns-wdm-_security_subject_context.md)
 
 [**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 

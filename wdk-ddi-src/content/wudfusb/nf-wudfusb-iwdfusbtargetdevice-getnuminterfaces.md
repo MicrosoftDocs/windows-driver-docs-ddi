@@ -49,6 +49,8 @@ api_name:
 
 The <b>GetNumInterfaces</b> method retrieves the number of USB interfaces for the USB device.
 
+## -parameters
+
 ## -returns
 
 <b>GetNumInterfaces</b> returns the number of <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.

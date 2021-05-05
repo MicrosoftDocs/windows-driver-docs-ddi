@@ -47,6 +47,8 @@ api_name:
 
 The <b>GetLong</b> method returns a LONG version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
+## -parameters
+
 ## -returns
 
 <b>GetLong</b> returns the LONG version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

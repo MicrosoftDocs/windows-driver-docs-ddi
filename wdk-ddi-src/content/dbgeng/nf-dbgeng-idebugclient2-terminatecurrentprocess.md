@@ -47,6 +47,8 @@ api_name:
 
 The <b>TerminateCurrentProcess</b> method attempts to terminate the current process.
 
+## -parameters
+
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.

@@ -10,7 +10,7 @@ req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 1.29
 req.umdf-ver: 
 req.lib: netadaptercxstub.lib

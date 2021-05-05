@@ -47,6 +47,8 @@ api_name:
 
 The Pipeline Manager uses the <code>ShutdownOperation</code> method to shut down a filter if the print job is canceled or an error occurs.
 
+## -parameters
+
 ## -returns
 
 <code>ShutdownOperation</code> returns an <b>HRESULT</b> value.

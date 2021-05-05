@@ -47,6 +47,8 @@ api_name:
 
 The <b>IsPtr64</b> function determines if the target uses 64-bit pointers.
 
+## -parameters
+
 ## -returns
 
 The function returns <b>TRUE</b> if the target uses 64-bit pointers; <b>FALSE</b>, otherwise.

@@ -71,7 +71,7 @@ Note that the *OldContext* pointer returned by **FltSet***Xxx***Context** and th
 
 To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-To increment the reference count on a context, call [**FltReferenceContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreferencecontext).
+To increment the reference count on a context, call [**FltReferenceContext**](./nf-fltkernel-fltreferencecontext.md).
 
 For more information about context reference counting, see [Referencing Contexts](/windows-hardware/drivers/ifs/referencing-contexts).
 
@@ -83,36 +83,36 @@ Callers of **FltReleaseContext** must be running at IRQL <= DISPATCH_LEVEL if th
 
 [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
 
-[**FltGetContexts**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontexts)
+[**FltGetContexts**](./nf-fltkernel-fltgetcontexts.md)
 
-[**FltGetContextsEx**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetcontextsex)
+[**FltGetContextsEx**](./nf-fltkernel-fltgetcontextsex.md)
 
-[**FltGetFileContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilecontext)
+[**FltGetFileContext**](./nf-fltkernel-fltgetfilecontext.md)
 
-[**FltGetInstanceContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext)
+[**FltGetInstanceContext**](./nf-fltkernel-fltgetinstancecontext.md)
 
-[**FltGetSectionContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetsectioncontext)
+[**FltGetSectionContext**](./nf-fltkernel-fltgetsectioncontext.md)
 
-[**FltGetStreamContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamcontext)
+[**FltGetStreamContext**](./nf-fltkernel-fltgetstreamcontext.md)
 
-[**FltGetStreamHandleContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetstreamhandlecontext)
+[**FltGetStreamHandleContext**](./nf-fltkernel-fltgetstreamhandlecontext.md)
 
-[**FltGetTransactionContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettransactioncontext)
+[**FltGetTransactionContext**](./nf-fltkernel-fltgettransactioncontext.md)
 
-[**FltGetVolumeContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumecontext)
+[**FltGetVolumeContext**](./nf-fltkernel-fltgetvolumecontext.md)
 
-[**FltReferenceContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreferencecontext)
+[**FltReferenceContext**](./nf-fltkernel-fltreferencecontext.md)
 
-[**FltReleaseContexts**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontexts)
+[**FltReleaseContexts**](./nf-fltkernel-fltreleasecontexts.md)
 
-[**FltSetFileContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext)
+[**FltSetFileContext**](./nf-fltkernel-fltsetfilecontext.md)
 
-[**FltSetInstanceContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext)
+[**FltSetInstanceContext**](./nf-fltkernel-fltsetinstancecontext.md)
 
-[**FltSetStreamContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamcontext)
+[**FltSetStreamContext**](./nf-fltkernel-fltsetstreamcontext.md)
 
-[**FltSetStreamHandleContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamhandlecontext)
+[**FltSetStreamHandleContext**](./nf-fltkernel-fltsetstreamhandlecontext.md)
 
-[**FltSetTransactionContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext)
+[**FltSetTransactionContext**](./nf-fltkernel-fltsettransactioncontext.md)
 
-[**FltSetVolumeContext**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumecontext)
+[**FltSetVolumeContext**](./nf-fltkernel-fltsetvolumecontext.md)

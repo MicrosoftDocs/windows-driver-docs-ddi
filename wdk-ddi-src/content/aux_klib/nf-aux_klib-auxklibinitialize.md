@@ -48,6 +48,8 @@ api_name:
 
 The <b>AuxKlibInitialize</b> routine initializes the <a href="/windows-hardware/drivers/ddi/aux_klib/">Auxiliary Kernel-Mode Library</a>.
 
+## -parameters
+
 ## -returns
 
 <b>AuxKlibInitialize</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the routine returns an appropriate NTSTATUS value.

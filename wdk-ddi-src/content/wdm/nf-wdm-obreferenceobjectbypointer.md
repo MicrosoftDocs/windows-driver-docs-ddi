@@ -75,7 +75,8 @@ Indicates the access mode to use for the access check. It must be either <b>User
 
 ## -returns
 
-<b>ObReferenceObjectByPointer</b> returns an NTSTATUS value. Possible return values include:
+<b>ObReferenceObjectByPointer</b> returns STATUS_SUCCESS when the routine has successfully incremented the reference count of the target object's body. The routine performs object type validation if the call is being performed in user mode and if the type requested by the caller doesn't match with the one from the object's body, STATUS_OBJECT_TYPE_MISMATCH is returned.
+The same NTSTATUS code is returned if the requested type is a symbolic link type (<b>ObpSymbolicLinkObjectType</b>) which is not allowed by the routine, regardless of what kind of access mode is.
 
 ## -remarks
 

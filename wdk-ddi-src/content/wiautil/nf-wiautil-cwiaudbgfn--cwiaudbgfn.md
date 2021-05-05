@@ -47,6 +47,8 @@ api_name:
 
 The <b>CWiauDbgFn::~CWiauDbgFn</b> destructor is called when the function or method being traced by <b>CWiauDbgFn::CWiauDbgFn</b> is exited.
 
+## -parameters
+
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff540345(v=vs.85)">CWiauDbgFn</a>

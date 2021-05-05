@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeGetCurrentProcessorNumber</b> routine returns the system-assigned number of the current processor on which the caller is running.
 
+## -parameters
+
 ## -returns
 
 <b>KeGetCurrentProcessorNumber</b> returns a ULONG value that represents the processor on which the caller is currently running.

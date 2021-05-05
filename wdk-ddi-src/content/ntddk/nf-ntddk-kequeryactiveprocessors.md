@@ -47,6 +47,8 @@ api_name:
 
 The <b>KeQueryActiveProcessors</b> routine returns a bitmask of the currently active processors.
 
+## -parameters
+
 ## -returns
 
 <b>KeQueryActiveProcessors</b> returns a [**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that represents the set of currently active processors.

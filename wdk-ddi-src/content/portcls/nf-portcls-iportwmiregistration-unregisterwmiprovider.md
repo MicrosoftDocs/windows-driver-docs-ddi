@@ -47,6 +47,8 @@ api_name:
 
 The <code>UnregisterWMIProvider</code> method unregisters the <a href="/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) interface that was previously registered with a call to the RegisterWMIProvider method. The unregistration disables the ETW registration with PortCls.
 
+## -parameters
+
 ## -returns
 
 The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call is successful. Otherwise, it returns the appropriate error message.

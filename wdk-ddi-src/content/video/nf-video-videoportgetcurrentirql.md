@@ -47,6 +47,8 @@ api_name:
 
 The <b>VideoPortGetCurrentIrql</b> function gets the current IRQL.
 
+## -parameters
+
 ## -returns
 
 <b>VideoPortGetCurrentIrql</b> returns the current IRQL.

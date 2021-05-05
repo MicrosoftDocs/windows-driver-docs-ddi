@@ -65,7 +65,7 @@ In KMDF versions prior to version 1.9, the framework implements <i>EvtTimerFunc<
 In KMDF versions 1.9 and later, by default the framework implements <i>EvtTimerFunc</i> callback functions as DPCs. Alternatively, if the driver sets the timer object's execution level to <a href="/windows-hardware/drivers/ddi/wdfobject/ne-wdfobject-_wdf_execution_level">WdfExecutionLevelPassive</a>, the framework calls the <i>EvtTimerFunc</i> callback function from a <a href="/windows-hardware/drivers/wdf/using-framework-work-items">work item</a> at IRQL = PASSIVE_LEVEL. 
 
 > [!NOTE]
-> If an *EvtTimerFunc* callback function running at PASSIVE_LEVEL calls [**WdfObjectDelete**](/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete), this results in deadlock. Instead, either wait for the parent to delete the timer automatically when the device is removed - or, if you need to delete early, schedule a work item from the timer callback to delete the timer.
+> If an *EvtTimerFunc* callback function running at PASSIVE_LEVEL calls [**WdfObjectDelete**](../wdfobject/nf-wdfobject-wdfobjectdelete.md), this results in deadlock. Instead, either wait for the parent to delete the timer automatically when the device is removed - or, if you need to delete early, schedule a work item from the timer callback to delete the timer.
 
 Starting in UMDF version 2.0, a UMDF driver's <i>EvtTimerFunc</i> callback functions always run at PASSIVE_LEVEL.
 
@@ -74,4 +74,3 @@ For more information about framework timer objects, see <a href="/windows-hardwa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>
-

@@ -47,6 +47,8 @@ api_name:
 
 The <b>Release</b> method releases any resources held by this object.
 
+## -parameters
+
 ## -remarks
 
 The <b>Release</b> method is called by the destructor and does not need to be called directly.  However, since there is no harm in calling this method multiple times, it can be used to manage resources.

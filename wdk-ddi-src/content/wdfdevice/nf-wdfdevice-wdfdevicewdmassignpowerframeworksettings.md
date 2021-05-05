@@ -4,7 +4,7 @@ title: WdfDeviceWdmAssignPowerFrameworkSettings function (wdfdevice.h)
 description: The WdfDeviceWdmAssignPowerFrameworkSettings method registers power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 04/22/2021
 keywords: ["WdfDeviceWdmAssignPowerFrameworkSettings function"]
 ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 req.header: wdfdevice.h

@@ -49,6 +49,8 @@ api_name:
 
 The <b>Flush</b> method discards any data that WinUsb saved when the device returned more data than the client requested.
 
+## -parameters
+
 ## -returns
 
 <b>Flush</b> returns one of the following values:

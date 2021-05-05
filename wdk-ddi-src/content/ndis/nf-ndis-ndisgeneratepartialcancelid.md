@@ -50,6 +50,8 @@ The
   <b>NdisGeneratePartialCancelId</b> function returns a value that the calling driver must use as the
   high-order byte of a cancellation ID.
 
+## -parameters
+
 ## -returns
 
 <b>NdisGeneratePartialCancelId</b> returns a value that the calling driver uses as the high-order byte of

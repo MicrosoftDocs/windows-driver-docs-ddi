@@ -47,6 +47,8 @@ api_name:
 
 The <b>MmGetMaximumFileSectionSize</b> returns the maximum possible size of a file section for the current version of Windows.
 
+## -parameters
+
 ## -returns
 
 The maximum file section size supported by the current version of Windows.

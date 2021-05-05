@@ -57,7 +57,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_M
 | --- | --- |
 | Type | NDIS_OBJECT_TYPE_DEFAULT |
 | Revision | NDIS_WWAN_SET_MPDP_STATE_REVISION_1 |
-| Size | `sizeof(NDIS_WWAN_SET_MPDP_STATE)` | 
+| Size | sizeof(NDIS_WWAN_SET_MPDP_STATE) |
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
 

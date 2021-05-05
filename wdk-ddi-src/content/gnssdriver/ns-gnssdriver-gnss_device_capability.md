@@ -4,11 +4,11 @@ title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.
 old-location: gnss\gnss_device_capability.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 04/02/2021
 keywords: ["GNSS_DEVICE_CAPABILITY structure"]
 ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -44,7 +44,6 @@ api_name:
 ---
 
 # GNSS_DEVICE_CAPABILITY structure
-
 
 ## -description
 
@@ -88,8 +87,8 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 #define GNSS_AGNSSFORMAT_LTO        0x04
 #define GNSS_AGNSSFORMAT_XTRA3      0x08
 #define GNSS_AGNSSFORMAT_XTRA3_1    0x10
-#define GNSS_AGNSSFORMAT_XTRA3_2    0x20 // This value is currently in prerelease, and is subject to change.
-#define GNSS_AGNSSFORMAT_XTRA_INT   0x40 // This value is currently in prerelease, and is subject to change.
+#define GNSS_AGNSSFORMAT_XTRA3_2    0x20
+#define GNSS_AGNSSFORMAT_XTRA_INT   0x40
 ```
 
 The values 0x0080-0xFFFF are  reserved for extensibility.
@@ -185,7 +184,7 @@ Specifies the SUPL parameter.
 
 ### -field GnssBreadCrumbPayloadVersion
 
-Must be BREADCRUMBING_UNSUPPORTED or BREADCRUMBING_VERSION_<i>x</i>.
+Must be BREADCRUMBING_UNSUPPORTED or BREADCRUMBING_VERSION_*x*.
 
 ### -field MaxGnssBreadCrumbFixes
 
@@ -204,4 +203,3 @@ Padding buffer.
 ## -remarks
 
 This is a list of individual capability support. The capability is represented either by a Boolean or by a well-defined enumeration of the specific attribute.
-

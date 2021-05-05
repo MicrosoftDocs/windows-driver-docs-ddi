@@ -47,6 +47,8 @@ api_name:
 
 The <b>DetachCurrentProcess</b> method detaches the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> from the current process, resuming all its <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a>.
 
+## -parameters
+
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
