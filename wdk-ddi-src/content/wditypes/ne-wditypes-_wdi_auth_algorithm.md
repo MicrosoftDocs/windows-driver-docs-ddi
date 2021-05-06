@@ -96,6 +96,10 @@ Specifies a Wi-Fi Protected Access 3 (WPA3) algorithm.
 
 Specifies a WPA3-Simultaneous Authentication of Equals (WPA3-SAE) algorithm.
 
+### -field WDI_AUTH_ALGO_OWE
+
+Specifies an opportunistic wireless encryption (OWE) algorithm.
+
 ### -field WDI_AUTH_ALGO_IHV_START
 
 Specifies the start of the range that specifies proprietary authentication algorithms that are developed by an IHV.
