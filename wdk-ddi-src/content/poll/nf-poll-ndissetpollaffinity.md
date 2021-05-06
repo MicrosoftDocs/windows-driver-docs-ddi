@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-A miniport driver calls the **NdisSetPollAffinity** function to lock an [*NdisPoll*](nc-poll-ndis_poll.md) callback to a set of processors in a group. 
+A miniport driver calls the **NdisSetPollAffinity** function to lock an [*NdisPoll*](nc-poll-ndis_poll.md) callback to a processor. 
 
 ## -parameters
 
@@ -52,11 +52,11 @@ A miniport driver calls the **NdisSetPollAffinity** function to lock an [*NdisPo
 
 ### -param PollAffinity
 
-[_In_] A pointer to a driver-initialized [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure that describes the cores on which the driver wants the [*NdisPoll*](nc-poll-ndis_poll.md) callback for this object to be called.
+[_In_] A pointer to a driver-initialized [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure that describes the core on which the driver wants the [*NdisPoll*](nc-poll-ndis_poll.md) callback for this object to be called.
 
 ## -remarks
 
-After **NdisSetPollAffinity** returns one poll iteration can still occur with the old affinity.
+After **NdisSetPollAffinity** returns one poll iteration can still occur with the old affinity. The affinity works when polling both at PASSIVE_LEVEL and DISPATCH_LEVEL IRQL.
 
 ## -see-also
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Miniport drivers implement the *NdisPoll* callback function to poll for receive indications and send completions.
+Miniport drivers implement the *NdisPoll* callback function that NDIS will poll for receive indications and send completions.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ Miniport drivers implement the *NdisPoll* callback function to poll for receive 
 
 ### -param PollData
 
-[_Inout_] A pointer to an [**NDIS_POLL_DATA**](ns-poll-ndis_poll_data.md) structure that the driver can use to perform receive indications and send completions.
+[_Inout_] A pointer to an [**NDIS_POLL_DATA**](ns-poll-ndis_poll_data.md) structure that the driver should use to perform receive indications and send completions. It also contains details about how many NBLs need to be indicated.
 
 ## -returns
 
@@ -61,6 +61,8 @@ Miniport drivers implement the *NdisPoll* callback function to poll for receive 
 Miniport drivers register the *NdisPoll* callback during miniport adapter initialization. Drivers specify an entry point for the *NdisPoll* function at the **PollHandler** parameter of the [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) structure before calling [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
 
 NDIS will first invoke the *NdisPoll* callback when the driver calls [**NdisRequestPoll**](nf-poll-ndisrequestpoll.md). NDIS will keep invoking *NdisPoll* while the driver is making forward progress on receive indications or transmit completions. 
+
+The *NdisPoll* callback may be invoked at both PASSIVE_LEVEL and DISPATCH_LEVEL IRQL. The driver shouldn't make assumptions about which level it will be.
 
 The driver must check the **receive** or **transmit** parameters of the [**NDIS_POLL_DATA**](ns-poll-ndis_poll_data.md) structure to get the maximum number of NBLs it can indicate or complete. 
 

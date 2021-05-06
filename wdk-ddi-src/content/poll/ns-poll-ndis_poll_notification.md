@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **NDIS_POLL_NOTIFICATION** structure contains the interrupt state for a Poll object. 
+The **NDIS_POLL_NOTIFICATION** structure contains the interrupt state associated with a Poll object. 
 
 ## -struct-fields
 
