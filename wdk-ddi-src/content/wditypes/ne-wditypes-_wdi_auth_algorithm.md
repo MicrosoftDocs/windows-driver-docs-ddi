@@ -4,7 +4,7 @@ title: _WDI_AUTH_ALGORITHM (wditypes.h)
 description: The WDI_AUTH_ALGORITHM enumeration defines the authentication algorithm values.
 old-location: netvista\wdi_auth_algorithm.htm
 tech.root: netvista
-ms.date: 02/14/2019
+ms.date: 05/06/2021
 keywords: ["WDI_AUTH_ALGORITHM enumeration"]
 ms.keywords: WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, _WDI_AUTH_ALGORITHM, netvista.wdi_auth_algorithm, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK
 req.header: wditypes.hpp
@@ -44,7 +44,6 @@ api_name:
 ---
 
 # _WDI_AUTH_ALGORITHM enumeration
-
 
 ## -description
 
@@ -107,4 +106,3 @@ Specifies the start of the range that specifies proprietary authentication algor
 ### -field WDI_AUTH_ALGO_IHV_END
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are developed by an IHV.
-
