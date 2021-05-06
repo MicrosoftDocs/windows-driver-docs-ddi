@@ -55,11 +55,11 @@ The [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.
 
 ### -field SetPollNotificationHandler
 
-An entry point for the [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md) callback function that NDIS invokes when it wants the driver to change a Poll object’s interrupt configuration.
+An entry point for the [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md) callback function that NDIS invokes when it wants the driver to enable or disable interrupts.
 
 ### -field PollHandler
 
-An entry point for the [*NdisPoll*](nc-poll-ndis_poll.md) callback function that NDIS invokes to allow a driver to poll for receive indications and send completions.
+An entry point for the [*NdisPoll*](nc-poll-ndis_poll.md) callback function that NDIS invokes to poll the driver for receive indications and send completions.
 
 ## -remarks
 
