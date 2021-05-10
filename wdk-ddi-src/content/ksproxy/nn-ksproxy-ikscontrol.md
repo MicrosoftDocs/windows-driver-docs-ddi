@@ -52,7 +52,7 @@ The <b>IKsControl</b> interface provides user-mode methods that control a KS fil
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

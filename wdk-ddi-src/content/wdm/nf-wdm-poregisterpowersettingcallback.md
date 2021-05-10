@@ -62,7 +62,7 @@ A pointer to the GUID that represents the power setting for this registration. W
 ### -param Callback 
 
 [in]
-A pointer to a caller-implemented power-setting callback routine that the power manager calls when the specified power setting changes. For the functional prototype for the callback routine, see <a href="https://docs.microsoft.com/">Power-Setting Callback</a>.
+A pointer to a caller-implemented power-setting callback routine that the power manager calls when the specified power setting changes. For the functional prototype for the callback routine, see <a href="/">Power-Setting Callback</a>.
 
 ### -param Context 
 

@@ -91,5 +91,5 @@ For more information, see <a href="/windows-hardware/drivers/audio/implementing-
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPowerNotify</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPowerNotify</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>

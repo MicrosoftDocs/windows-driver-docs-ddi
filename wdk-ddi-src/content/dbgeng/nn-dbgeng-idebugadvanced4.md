@@ -49,7 +49,7 @@ api_name:
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced4</b> interface inherits from <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>. <b>IDebugAdvanced4</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

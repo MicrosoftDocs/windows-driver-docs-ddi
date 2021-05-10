@@ -53,7 +53,7 @@ The IID for this interface is IID_IKsAllocatorEx.
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
