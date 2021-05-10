@@ -137,6 +137,10 @@ The <i>PowerCompletion</i> routine performs any additional tasks the sender of t
 
 A device power policy owner calls <b>PoRequestPowerIrp</b> to send a device query- or set-power IRP when it receives a system query- or set-power IRP. The driver should set an <i>IoCompletion</i> routine in the system IRP and pass the system IRP to the next lower driver. The <i>IoCompletion</i> routine calls <b>PoRequestPowerIrp</b> to send the device IRP, passing the system IRP in the <i>Context</i> parameter. The <i>Context</i> parameter is subsequently passed to the <i>PowerCompletion</i> routine for the device IRP. In the <i>PowerCompletion</i> routine, the driver can complete the system IRP. For more information, see <a href="/windows-hardware/drivers/kernel/sending-irp-mn-query-power-or-irp-mn-set-power-for-device-power-states">Sending IRP_MN_QUERY_POWER or IRP_MN_SET_POWER for Device Power States</a> and <a href="/windows-hardware/drivers/kernel/wait-wake-callback-routines">Wait/Wake Callback Routines</a>.
 
+> [!NOTE]
+>
+> An Avstream minidriver doesn't have to call <b>PoRequestPowerIrp</b> by itself. An Avstream minidriver is a device power policy owner, but KS (ksthunk.sys) sees a system power IRP it automatically creates a corresponding device power IRP to the device in response by default.
+
 Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP. Drivers that are requesting other types of power IRPs must pass <b>NULL</b> for this parameter.
 
 ## -see-also
