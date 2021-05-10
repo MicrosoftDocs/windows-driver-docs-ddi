@@ -52,11 +52,11 @@ The **KsGetObjectFromFileObject** function returns the AVStream object cast to P
 ### -param FileObject
 
 [in]
-A pointer to the [FILE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure for which to determine the associated AVStream object.
+A pointer to the [FILE_OBJECT](../wdm/ns-wdm-_file_object.md) structure for which to determine the associated AVStream object.
 
 ## -returns
 
-**KsGetObjectFromFileObject** returns a pointer to the AVStream object associated with *FileObject* (cast to PVOID). For example, this pointer may point to a [KSFILTER](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) or a [KSPIN](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin).
+**KsGetObjectFromFileObject** returns a pointer to the AVStream object associated with *FileObject* (cast to PVOID). For example, this pointer may point to a [KSFILTER](./ns-ks-_ksfilter.md) or a [KSPIN](./ns-ks-_kspin.md).
 
 ## -remarks
 
@@ -64,10 +64,10 @@ The **KsGetObjectFromFileObject** function does not check that the file object i
 
 ## -see-also
 
-[KsGetFilterFromFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfilterfromfileobject)
+[KsGetFilterFromFileObject](./nf-ks-ksgetfilterfromfileobject.md)
 
-[KsGetObjectTypeFromFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjecttypefromfileobject)
+[KsGetObjectTypeFromFileObject](./nf-ks-ksgetobjecttypefromfileobject.md)
 
-[KsGetPinFromFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromfileobject)
+[KsGetPinFromFileObject](./nf-ks-ksgetpinfromfileobject.md)
 
-[KsPinGetConnectedPinFileObject](/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpinfileobject)
+[KsPinGetConnectedPinFileObject](./nf-ks-kspingetconnectedpinfileobject.md)
