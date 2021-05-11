@@ -51,7 +51,7 @@ The <b>IPrintSchemaCapabilities2</b> interface represents an extension to the <a
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>. <b>IPrintSchemaCapabilities2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

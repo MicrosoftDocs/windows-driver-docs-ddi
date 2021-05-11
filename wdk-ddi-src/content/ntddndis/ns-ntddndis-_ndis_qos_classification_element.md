@@ -109,25 +109,25 @@ If this flag is set, the miniport driver accepts the traffic classification para
 
 A <b>USHORT</b> value that specifies the type of the data pattern that is contained in the <b>ConditionField</b> member. For example, the data pattern type could specify a destination UDP port whose value is specified by the <b>ConditionField</b> member.
 
-For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ConditionSelector and ConditionField Members</a>.
+For more information, see <a href="/">Guidelines for Setting the ConditionSelector and ConditionField Members</a>.
 
 ### -field ConditionField
 
 A <b>USHORT</b> value that contains the data pattern whose type is specified by the  <b>ConditionSelector</b> member. 
 
-For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ConditionSelector and ConditionField Members</a>.
+For more information, see <a href="/">Guidelines for Setting the ConditionSelector and ConditionField Members</a>.
 
 ### -field ActionSelector
 
 A <b>USHORT</b> value that specifies the type of action data that is contained in the <b>ActionField</b> member.  Starting with NDIS 6.30, the action data type specifies an 802.1p priority level whose value is specified by the <b>ConditionField</b> member.
 
-For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ActionSelector and ActionField Members</a>.
+For more information, see <a href="/">Guidelines for Setting the ActionSelector and ActionField Members</a>.
 
 ### -field ActionField
 
 A <b>USHORT</b> value that contains an action value whose type is specified by the  <b>ActionSelector</b> member.  
 
-For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ActionSelector and ActionField Members</a>.
+For more information, see <a href="/">Guidelines for Setting the ActionSelector and ActionField Members</a>.
 
 ## -remarks
 

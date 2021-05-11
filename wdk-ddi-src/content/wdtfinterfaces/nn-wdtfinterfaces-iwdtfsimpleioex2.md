@@ -51,7 +51,7 @@ Defines operations for a simple synchronous I/O functionality test.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOEx2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimpleIOEx2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

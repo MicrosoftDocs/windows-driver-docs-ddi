@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 > [!NOTE]
-> This page is normally hosted at https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2. While that page is unavailable, links to it redirect here.
+> This page is normally hosted at /windows-hardware/drivers/ddi/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2. While that page is unavailable, links to it redirect here.
 
 
 Defines operations that control the system during driver setup.
@@ -56,6 +56,6 @@ Defines operations that control the system during driver setup.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverSetupSystemAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverSetupSystemAction2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

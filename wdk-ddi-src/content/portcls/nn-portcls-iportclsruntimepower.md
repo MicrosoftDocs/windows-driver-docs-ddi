@@ -51,5 +51,5 @@ IPortClsRuntimePower is the interface that the port class driver (PortCls)  uses
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsRuntimePower</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsRuntimePower</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>

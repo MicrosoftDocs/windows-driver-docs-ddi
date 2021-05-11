@@ -51,7 +51,7 @@ The IPrinterScriptableStream interface builds on <a href="/windows-hardware/driv
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>. <b>IPrinterScriptableStream</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

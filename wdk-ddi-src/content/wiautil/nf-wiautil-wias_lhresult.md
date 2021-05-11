@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT]9https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
+The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT]9/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 
 ## -parameters
 

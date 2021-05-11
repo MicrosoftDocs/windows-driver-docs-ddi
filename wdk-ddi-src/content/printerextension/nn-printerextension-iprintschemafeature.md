@@ -51,8 +51,8 @@ Exposes a Print Schema Feature element.
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaFeature</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement">IPrintSchemaDisplayableElement</a>. <b>IPrintSchemaFeature</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="/">Methods</a></li>
+<li><a href="/">Properties</a></li>
 </ul>
 
 ## -remarks

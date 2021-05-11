@@ -51,7 +51,7 @@ The <b>IPartImage</b> interface is the abstraction for images in an XPS document
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartImage</b> interface inherits from <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartImage</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
