@@ -17,7 +17,7 @@ tech.root: dtf
 ## -description
 
 > [!NOTE]
-> This page is normally hosted at https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/index. While that page is unavailable, links to it redirect here.
+> This page is normally hosted at /windows-hardware/drivers/ddi/wdtfdriverpackageaction/index. While that page is unavailable, links to it redirect here.
 
 
 This header is used by dtf. For more information, see:

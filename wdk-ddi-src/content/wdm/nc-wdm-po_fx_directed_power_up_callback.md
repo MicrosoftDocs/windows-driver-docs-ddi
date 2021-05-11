@@ -97,4 +97,4 @@ Note that if a device hierarchy is involved, the directed power framework asks t
 ## -see-also
 
 - [Introduction to the Directed Power Management Framework](/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework)
-- [PO_FX_DIRECTED_POWER_DOWN_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_directed_power_down_callback_
+- [PO_FX_DIRECTED_POWER_DOWN_CALLBACK](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_directed_power_down_callback_
