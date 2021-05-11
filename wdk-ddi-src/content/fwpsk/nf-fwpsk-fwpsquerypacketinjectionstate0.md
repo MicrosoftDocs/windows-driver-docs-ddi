@@ -106,8 +106,7 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure pointed to
     by the 
     <i>classifyOut</i> parameter of the 
-    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function to one of the following
-    values.
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function to either **FWP_ACTION_CONTINUE** or **FWP_ACTION_PERMIT**. This allows the packet to proceed to the next callout.
 
 ## -see-also
 
