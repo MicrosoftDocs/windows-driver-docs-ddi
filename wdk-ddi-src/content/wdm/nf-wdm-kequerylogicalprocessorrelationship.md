@@ -84,6 +84,15 @@ Specifies the type of relationship information that is requested by the caller. 
 <b>RelationGroup</b>
 
 </li>
+
+<li>
+<b>RelationProcessorDie</b>
+
+</li><li>
+<b>RelationNumaNodeEx</b>
+
+</li>
+
 <li>
 <b>RelationAll</b>
 
