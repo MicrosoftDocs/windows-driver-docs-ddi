@@ -79,7 +79,7 @@ Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines tha
 
 For descriptions of each type of callback, see [**KBUGCHECK_CALLBACK_REASON**](./ne-wdm-_kbugcheck_callback_reason.md).
 
-Drivers can use the [**KeDeregisterBugCheckReasonCallback**](./nf-wdm-kederegisterbugcheckcallback.md) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
+Drivers can use the [**KeDeregisterBugCheckReasonCallback**](./nf-wdm-kederegisterbugcheckreasoncallback.md) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
 
 For information about how to implement these callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
