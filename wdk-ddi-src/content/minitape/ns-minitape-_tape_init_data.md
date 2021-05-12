@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_INIT_DATA
-title: _TAPE_INIT_DATA (minitape.h)
+title: TAPE_INIT_DATA (minitape.h)
 description: TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use TAPE_INIT_DATA_EX instead.
 old-location: storage\tape_init_data.htm
 tech.root: storage
@@ -46,12 +46,11 @@ api_name:
  - TAPE_INIT_DATA
 ---
 
-# _TAPE_INIT_DATA structure
-
+# TAPE_INIT_DATA structure
 
 ## -description
 
-TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_tape_init_data_ex">TAPE_INIT_DATA_EX</a> instead.
+TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use [**TAPE_INIT_DATA_EX**](ns-minitape-_tape_init_data_ex.md) instead.
 
 ## -struct-fields
 
@@ -59,8 +58,7 @@ TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="/wind
 
 TAPE_INIT_DATA is defined as follows.
 
-
-```
+``` C
 typedef struct _TAPE_INIT_DATA { 
   TAPE_VERIFY_INQUIRY_ROUTINE     VerifyInquiry;   
   BOOLEAN                         QueryModeCapabilitiesPage; 
@@ -83,4 +81,3 @@ typedef struct _TAPE_INIT_DATA {
   TAPE_PROCESS_COMMAND_ROUTINE    PreProcessReadWrite; 
 } TAPE_INIT_DATA, *PTAPE_INIT_DATA;
 ```
-
