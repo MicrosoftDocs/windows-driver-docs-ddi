@@ -4,7 +4,7 @@ title: KeQueryLogicalProcessorRelationship function (wdm.h)
 description: The KeQueryLogicalProcessorRelationship routine gets information about the relationships of one or more processors to the other processors in a multiprocessor system.
 old-location: kernel\kequerylogicalprocessorrelationship.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/19/2021
 keywords: ["KeQueryLogicalProcessorRelationship function"]
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 req.header: wdm.h
@@ -67,6 +67,10 @@ Specifies the type of relationship information that is requested by the caller. 
 <li>
 <b>RelationNumaNode</b>
 
+> [!NOTE]
+> Starting in Windows Server 2022, each NUMA node is assigned a primary group. Requests for **RelationNumaNode** will return **RelationNumaNode** structures that contain only a single group affinity, that of the node's primary group if a processor number is not specified, that of the group containing the given processor if a processor number is specified (GroupCount == 1, size of structure is unchanged). For more info, see [**KeQueryNodeActiveAffinity**](./nf-wdm-kequerynodeactiveaffinity.md)
+ and [NUMA Support](/windows/win32/procthread/numa-support).
+
 </li>
 <li>
 <b>RelationCache</b>
@@ -80,8 +84,22 @@ Specifies the type of relationship information that is requested by the caller. 
 <b>RelationGroup</b>
 
 </li>
+
+<li>
+<b>RelationProcessorDie</b>
+
+</li><li>
+<b>RelationNumaNodeEx</b>
+
+</li>
+
 <li>
 <b>RelationAll</b>
+
+> [!NOTE]
+> Starting in Windows Server 2022, requests for **RelationNumaNodeEx** or **RelationAll** will return **RelationNumaNode** structures that contain an array of affinities for the node over all groups (GroupCount reports number of affinities, size of structure is variable). For more info, see [NUMA Support](/windows/win32/procthread/numa-support).
+> 
+
 
 </li>
 </ul>
