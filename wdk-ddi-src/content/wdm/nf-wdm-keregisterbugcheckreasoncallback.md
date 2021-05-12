@@ -4,7 +4,7 @@ title: KeRegisterBugCheckReasonCallback function (wdm.h)
 description: The KeRegisterBugCheckReasonCallback routine registers a KbCallbackDumpIo, KbCallbackSecondaryDumpData, or KbCallbackAddPages routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel
-ms.date: 05/03/2018
+ms.date: 05/12/2021
 keywords: ["KeRegisterBugCheckReasonCallback function"]
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback
 req.header: wdm.h
@@ -52,12 +52,12 @@ The <b>KeRegisterBugCheckReasonCallback</b> function registers a callback routin
 ### -param CallbackRecord 
 
 [out]
-A pointer to a <b><a href="/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a></b> structure that was initialized by a call to the <b><a href="/windows-hardware/drivers/kernel/mm-bad-pointer">KeInitializeCallbackRecord</a></b> routine.
+A pointer to a <b><a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_reason_callback_record">KBUGCHECK_REASON_CALLBACK_RECORD</a></b> structure that was initialized by a call to the KeInitializeCallbackRecord routine described in the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">Windows kernel macros</a>.
 
 ### -param CallbackRoutine 
 
 [in]
-A pointer to a callback routine of type [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) to register. For information about how to implement this callback routine, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+A pointer to a callback routine of type [**KBUGCHECK_REASON_CALLBACK_ROUTINE**](./nc-wdm-kbugcheck_reason_callback_routine.md) to register. For information about how to implement this callback routine, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ### -param Reason 
 
@@ -77,13 +77,13 @@ A pointer to a null-terminated ANSI string that identifies the caller. For examp
 
 Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines that execute during a system bug check.
 
-For descriptions of each type of callback, see [**KBUGCHECK_CALLBACK_REASON**](./ne-wdm-_kbugcheck_callback_reason.md).
+For descriptions of each type of callback, see [**KBUGCHECK_CALLBACK_REASON**](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_callback_reason).
 
-Drivers can use the [**KeDeregisterBugCheckReasonCallback**](./nf-wdm-kederegisterbugcheckreasoncallback.md) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
+Drivers can use the [**KeDeregisterBugCheckReasonCallback**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckreasoncallback) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
 
 For information about how to implement these callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
-To display secondary dump data, you can use the <b><a href="https://go.microsoft.com/fwlink/p/?linkid=165501">.enumtag</a></b> command or the <b><a href="https://go.microsoft.com/fwlink/p/?linkid=165500">IDebugDataSpaces3::ReadTagged</a></b> method in a debugger extension. Another option is to debug the bug check callback routine itself. For more information about debuggers and debugger extensions, see <a href="/windows-hardware/drivers/debugger/index">Windows Debugging</a>.
+To display secondary dump data, you can use the <b><a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces3-readtagged">IDebugDataSpaces3::ReadTagged</a></b> method in a debugger extension. Another option is to debug the bug check callback routine itself. For more information about debuggers and debugger extensions, see <a href="/windows-hardware/drivers/debugger/index">Windows Debugging</a>.
 
 ## -see-also
 
