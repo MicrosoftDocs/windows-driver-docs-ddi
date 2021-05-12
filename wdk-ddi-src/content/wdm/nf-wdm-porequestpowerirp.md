@@ -139,7 +139,7 @@ A device power policy owner calls <b>PoRequestPowerIrp</b> to send a device quer
 
 > [!NOTE]
 >
-> Although an Avstream minidriver is a device power policy owner, it does not need to call <b>PoRequestPowerIrp</b>. By default, KS (ksthunk.sys) creates a device power IRP when it receives a system power IRP.
+> Although an AVStream minidriver is a device power policy owner, it does not need to call <b>PoRequestPowerIrp</b>. By default, KS (ksthunk.sys) creates a device power IRP when it receives a system power IRP.
 
 Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP. Drivers that are requesting other types of power IRPs must pass <b>NULL</b> for this parameter.
 
