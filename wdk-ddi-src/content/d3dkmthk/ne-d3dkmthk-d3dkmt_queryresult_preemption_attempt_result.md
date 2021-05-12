@@ -1,8 +1,8 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT
-tech.root: 
+tech.root: display
 title: D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT
-ms.date: 
+ms.date: 05/13/2021
 targetos: Windows
 description: 
 req.construct-type: enumeration
@@ -12,7 +12,7 @@ req.include-header:
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -35,6 +35,8 @@ dev_langs:
 ---
 
 ## -description
+
+Reserved for system use. Do not use.
 
 ## -enum-fields
 
@@ -75,4 +77,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

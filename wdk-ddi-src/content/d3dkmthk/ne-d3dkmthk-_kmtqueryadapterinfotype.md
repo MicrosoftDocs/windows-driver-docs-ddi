@@ -1,8 +1,8 @@
 ---
 UID: NE:d3dkmthk._KMTQUERYADAPTERINFOTYPE
 title: _KMTQUERYADAPTERINFOTYPE (d3dkmthk.h)
-description: The available types of display adapters in the registry.
-ms.date: 11/21/2018
+description: Each KMTQUERYADAPTERINFOTYPE value correlates to a specific piece of adapter information being retrieved by D3DKMQueryAdapterInfo.
+ms.date: 05/13/2021
 keywords: ["KMTQUERYADAPTERINFOTYPE enumeration"]
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
 req.header: d3dkmthk.h
@@ -35,14 +35,11 @@ product:
  - Windows
 ---
 
-# _KMTQUERYADAPTERINFOTYPE enumeration
+# KMTQUERYADAPTERINFOTYPE enumeration
 
 ## -description
 
-Each **KMTQUERYADAPTERINFOTYPE** value correlates to a specific piece of adapter information being retrieved by QueryAdapterInfo.
-Each enum value denotes how to interpret the other fields of **D3DKMT_QUERYADAPTERINFO**, especially **D3DKMT_QUERYADAPTERINFO::pPrivateDriverData**.
-**pPrivateDriverData** is commonly reinterpreted as a unique structure, corresponding to each enum value.
-Exceptions do exist, as detailed below.
+Each **KMTQUERYADAPTERINFOTYPE** value correlates to a specific piece of adapter information being retrieved by [**D3DKMQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md).
 
 ## -enum-fields
 
@@ -263,6 +260,8 @@ Support for this type started with Windows 10 version 1803.
 
 ### -field KMTQAITYPE_HYBRID_DLIST_DLL_SUPPORT
 
+**pPrivateDriverData** points to a [**D3DKMT_HYBRID_DLIST_DLL_SUPPORT**](ns-d3dkmthk-d3dkmt_hybrid_dlist_dll_support.md) structure. Supported starting with Windows 10, version 2004.
+
 ### -field KMTQAITYPE_DISPLAY_CAPS
 
 ### -field KMTQAITYPE_WDDM_2_9_CAPS
@@ -274,6 +273,9 @@ Support for this type started with Windows 10 version 1803.
 **pPrivateDriverData** points to a [**D3DKMT_CROSSADAPTERRESOURCE_SUPPORT**](ns-d3dkmthk-d3dkmt_crossadapterresource_support.md) structure. Supported starting with Windows Server 2022.
 
 ## -remarks
+
+Each enum value denotes how to interpret the other fields of **D3DKMT_QUERYADAPTERINFO**, especially **D3DKMT_QUERYADAPTERINFO::pPrivateDriverData**.
+**pPrivateDriverData** is commonly reinterpreted as a unique structure, corresponding to each enum value. Exceptions do exist, as detailed above.
 
 ## -see-also
 
