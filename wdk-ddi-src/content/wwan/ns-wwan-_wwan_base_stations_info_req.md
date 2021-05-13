@@ -75,6 +75,11 @@ The maximum number of entries of LTE neighboring cells returned in the LTE measu
 
 The maximum number of entries of CDMA cells returned in the CDMA measured results list in <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>. This list includes both serving and neighboring cells.
 
+### -field MaxNRCount
+
+The maximum number of entries of both 5G NR serving cells and neighbor cells returned in the measurement results in <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_nr_neighbor_cells">WWAN_NR_NEIGHBOR_CELLS</a> and <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_nr_serving_cells">WWAN_NR_SERVING_CELLS</a>. 
+
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>

@@ -44,8 +44,7 @@ Contains display options data supported by the driver/hardware.
 
 ### -field ResourceBindingTier
 
-The [**D3D12DDI_RESOURCE_BINDING_TIER**](./ne-d3d12umddi-d3d12ddi_resource_binding_tier.md
-) value.
+The [**D3D12DDI_RESOURCE_BINDING_TIER**](./ne-d3d12umddi-d3d12ddi_resource_binding_tier.md) value.
 
 ### -field ConservativeRasterizationTier
 
@@ -57,8 +56,7 @@ The [**D3D12DDI_TILED_RESOURCES_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_
 
 ### -field CrossNodeSharingTier
 
-The [**D3D12DDI_CROSS_NODE_SHARING_TIER**](./ne-d3d12umddi-d3d12ddi_cross_node_sharing_tier.md
-) value indicating the level of sharing across nodes of a display adapter.
+The [**D3D12DDI_CROSS_NODE_SHARING_TIER**](./ne-d3d12umddi-d3d12ddi_cross_node_sharing_tier.md) value indicating the level of sharing across nodes of a display adapter.
 
 ### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
 
