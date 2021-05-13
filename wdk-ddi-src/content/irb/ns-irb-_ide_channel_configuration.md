@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_CHANNEL_CONFIGURATION
-title: _IDE_CHANNEL_CONFIGURATION (irb.h)
+title: IDE_CHANNEL_CONFIGURATION (irb.h)
 description: The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_channel_configuration.htm
 tech.root: storage
@@ -46,13 +46,14 @@ api_name:
  - IDE_CHANNEL_CONFIGURATION
 ---
 
-# _IDE_CHANNEL_CONFIGURATION structure
-
+# IDE_CHANNEL_CONFIGURATION structure
 
 ## -description
 
 The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+
+> [!NOTE]
+> The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 
@@ -66,48 +67,17 @@ The port driver sets this field to the number assigned for this channel. For non
 
 ### -field SupportedAdvances
 
-####
+Reserved; do not use.
 
 ### -field ChannelMode
 
 The port driver sets this field to inform the ATA miniport which mode it is running at. There are three possible modes:
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-IdeModeNormal 
-
-</td>
-<td>
-This is the standard full capabilities mode where the ATA miniport may operate normally.
-
-</td>
-</tr>
-<tr>
-<td>
-IdeModeDump,
-
-</td>
-<td>
-This is the limited no memory mode that an ATA miniport operates in during hibernate or crashdump. Call Back Routines and Registry Access Routines cannot be used when in this mode.
-
-</td>
-</tr>
-<tr>
-<td>
-IdeModeRemovableBay
-
-</td>
-<td>
-Similar to the IdeModeNormal, this indicates the ATA miniport must take extra steps to enable enumeration of devices that may have just been hotplugged onto a Parallel ATA bus.
-
-</td>
-</tr>
-</table>
+| Mode | Description |
+| ---- | ----------- |
+| IdeModeNormal | This is the standard full capabilities mode where the ATA miniport may operate normally. |
+| IdeModeDump   | This is the limited no memory mode that an ATA miniport operates in during hibernate or crashdump. Callback routines and registry access routines cannot be used when in this mode. |
+| IdeModeRemovableBay | Similar to the IdeModeNormal, this indicates the ATA miniport must take extra steps to enable enumeration of devices that may have just been hotplugged onto a Parallel ATA bus. |
 
 ### -field ChannelResources
 
@@ -123,11 +93,12 @@ The miniport should set this member to the maximum target ID supported on this c
 
 ### -field SyncWithIsr
 
-Indicates support for unsynchronized I/O processing in the miniport driver. The miniport driver must set this member to <b>TRUE</b>.
+Indicates support for unsynchronized I/O processing in the miniport driver. The miniport driver must set this member to TRUE.
 
 ### -field SupportsWmi
 
-Indicates support for WMI. The miniport driver must set this member to <b>TRUE</b>.
+Indicates support for WMI. The miniport driver must set this member to TRUE.
 
 ### -field AdvancedChannelConfiguration
 
+Reserved for system use; do not use.
