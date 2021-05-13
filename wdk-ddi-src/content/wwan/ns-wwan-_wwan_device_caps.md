@@ -4,7 +4,7 @@ title: _WWAN_DEVICE_CAPS (wwan.h)
 description: The WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 old-location: netvista\wwan_device_caps.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 05/13/2021
 keywords: ["WWAN_DEVICE_CAPS structure"]
 ms.keywords: "*PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_a809d2dc-68a8-45dd-b5b0-bfe519ffc3d7.xml, _WWAN_DEVICE_CAPS, netvista.wwan_device_caps, wwan/PWWAN_DEVICE_CAPS, wwan/WWAN_DEVICE_CAPS"
 req.header: wwan.h
@@ -85,175 +85,28 @@ The class of the Subscriber Identity Module (SIM card). Miniport drivers must se
 
 ### -field WwanDataClass
 
-A bitmap that represents the data-class(es) that the device supports. The following table shows
-     the possible values for this member.
+A bitmap that represents the data-class(es) that the device supports. The following table shows the possible values for this member.
      
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_NONE
-
-</td>
-<td>
-The device does not support data service.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_GPRS
-
-</td>
-<td>
-General Packet Radio Service (GPRS) data service is supported. This value applies only to
-        GSM-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_EDGE
-
-</td>
-<td>
-Enhanced Data for Global Evolution (EDGE) data service is supported. This value applies only to
-        GSM-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_UMTS
-
-</td>
-<td>
-Universal Mobile Telecommunications System (UMTS) data service is supported. This value applies
-        only to GSM-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_HSDPA
-
-</td>
-<td>
-High-Speed Downlink Packet Access (HSDPA) data service is supported. This value applies only to
-        GSM-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_HSUPA
-
-</td>
-<td>
-High-Speed Uplink Packet Access (HSUPA) data service is supported. This value applies only to
-        GSM-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_LTE
-
-</td>
-<td>
-LTE data service is supported. This value applies only to GSM-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_1XRTT
-
-</td>
-<td>
-CDMA 1x Radio Transmission Technology (1xRTT, also known as cdma2000, CDMA2000 1x, and so on) data
-        service is supported. This value applies only to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_1XEVDO
-
-</td>
-<td>
-CDMA Evolution-Data Optimized (originally Data Only, 1xEDVO, also known as CDMA2000 1x EV-DO, or
-        1x EVDO) data service is supported. This value applies only to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_1XEVDO_REVA
-
-</td>
-<td>
-1xEVDO RevA data service is supported. This value applies only to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_1XEVDV
-
-</td>
-<td>
-CDMA Evolution-Data/Voice (also known as CDMA 2000 1x EV-DV, or 1x EVDV) data service is
-        supported. This value applies only to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_3XRTT
-
-</td>
-<td>
-CDMA 3x Radio Transmission Technology (3xRTT) data service is supported. This value applies only
-        to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_1XEVDO_REVB
-
-</td>
-<td>
-1xEVDO RevB data service is supported. This value applies only to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_UMB
-
-</td>
-<td>
-UMB data service is supported. This value applies only to CDMA-based devices.
-
-</td>
-</tr>
-<tr>
-<td>
-WWAN_DATA_CLASS_CUSTOM
-
-</td>
-<td>
-The device supports a data service not listed in this table.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|WWAN_DATA_CLASS_NONE|The device does not support data service.|
+|WWAN_DATA_CLASS_GPRS|General Packet Radio Service (GPRS) data service is supported. This value applies only to GSM-based devices.|
+|WWAN_DATA_CLASS_EDGE|Enhanced Data for Global Evolution (EDGE) data service is supported. This value applies only to GSM-based devices.|
+|WWAN_DATA_CLASS_UMTS|Universal Mobile Telecommunications System (UMTS) data service is supported. This value applies only to GSM-based devices.|
+|WWAN_DATA_CLASS_HSDPA|High-Speed Downlink Packet Access (HSDPA) data service is supported. This value applies only to GSM-based devices.|
+|WWAN_DATA_CLASS_HSUPA|High-Speed Uplink Packet Access (HSUPA) data service is supported. This value applies only to GSM-based devices.|
+|WWAN_DATA_CLASS_LTE|LTE data service is supported. This value applies only to GSM-based devices.|
+|WWAN_DATA_CLASS_5G|5G data service is supported.
+|WWAN_DATA_CLASS_TDSCDMA|Time Division Synchronous CDMA data service is supported.
+|WWAN_DATA_CLASS_1XRTT|CDMA 1x Radio Transmission Technology (1xRTT, also known as cdma2000, CDMA2000 1x, and so on) data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_1XEVDO|CDMA Evolution-Data Optimized (originally Data Only, 1xEDVO, also known as CDMA2000 1x EV-DO, or 1x EVDO) data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_1XEVDO_REVA|1xEVDO RevA data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_1XEVDV|CDMA Evolution-Data/Voice (also known as CDMA 2000 1x EV-DV, or 1x EVDV) data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_3XRTT|CDMA 3x Radio Transmission Technology (3xRTT) data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_1XEVDO_REVB|1xEVDO RevB data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_UMB|UMB data service is supported. This value applies only to CDMA-based devices.|
+|WWAN_DATA_CLASS_CUSTOM|The device supports a data service not listed in this table.|
 
 ### -field CustomDataClass
 
