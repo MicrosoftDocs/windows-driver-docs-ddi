@@ -59,6 +59,8 @@ Used in [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-re
 
 ### -field WwanMicoModeMax
 
+Indicates an out-of-bound value for this enumeration. All values less than **WwanMicoModeMax** are valid. All values larger than or equal to **WwanMicoModeMax** are invalid.
+
 ## -remarks
 
 ## -see-also

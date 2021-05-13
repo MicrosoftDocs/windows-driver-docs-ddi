@@ -51,6 +51,8 @@ Default PDU session activation is likely to happen soon.
 
 ### -field WwanDefaultPDUSessionHintMax
 
+Indicates an out-of-bound value for this enumeration. All values less than **WwanDefaultPDUSessionHintMax** are valid. All values larger than or equal to **WwanDefaultPDUSessionHintMax** are invalid.
+
 ## -remarks
 
 ## -see-also

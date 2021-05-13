@@ -51,6 +51,8 @@ LADN information is requested.
 
 ### -field WwanLADNInfoRequestMax
 
+Indicates an out-of-bound value for this enumeration. All values less than **WwanLADNInfoRequestMax** are valid. All values larger than or equal to **WwanLADNInfoRequestMax** are invalid.
+
 ## -remarks
 
 

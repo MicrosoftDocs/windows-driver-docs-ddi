@@ -67,6 +67,8 @@ DRX cycle T=256
 
 ### -field WwanDRXCycleMax
 
+Indicates an out-of-bound value for this enumeration. All values less than **WwanDRXCycleMax** are valid. All values larger than or equal to **WwanDRXCycleMax** are invalid.
+
 ## -remarks
 
 ## -see-also
