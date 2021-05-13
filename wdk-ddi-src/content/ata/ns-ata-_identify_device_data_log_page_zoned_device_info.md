@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
-title: _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO (ata.h)
+title: IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO (ata.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\identify_device_data_log_page_zoned_device_info.htm
 tech.root: storage
@@ -46,16 +46,11 @@ api_name:
  - IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 ---
 
-# _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure
-
+# IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-
-<div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
-<div> </div>
+This structure is reserved for internal use only and should not be called from your code.
 
 ## -struct-fields
 
@@ -146,4 +141,3 @@ N/A
 ### -field Reserved
 
 N/A
-
