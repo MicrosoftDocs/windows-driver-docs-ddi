@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDMMCAPS
-title: _DXGK_VIDMMCAPS (d3dkmddi.h)
-description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver supports.
+title: DXGK_VIDMMCAPS (d3dkmddi.h)
+description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
 old-location: display\dxgk_vidmmcaps.htm
 ms.date: 05/13/2021
 keywords: ["DXGK_VIDMMCAPS structure"]
@@ -43,7 +43,7 @@ api_name:
  - DXGK_VIDMMCAPS
 ---
 
-# _DXGK_VIDMMCAPS structure
+# DXGK_VIDMMCAPS structure
 
 ## -description
 
@@ -122,11 +122,11 @@ The host KMD needs to set the cap if all DDIs are implemented. Supported startin
 
 ### -field IoMmuSecureModeSupported
 
-Specifies whether the adapter supports IOMMU hardware and isolation support. Supported starting with Windows 10 version 1803.
+Indicates that the driver supports IOMMU hardware and isolation. Supported starting with Windows 10 version 1803.
 
 ### -field DisableSelfRefreshVRAMInS3
 
-Supported starting with Windows 10 version 1803.
+Disable support for VRAM self-refresh in S3. Supported starting with Windows 10 version 1803.
 
 ### -field IoMmuSecureModeRequired
 
@@ -138,11 +138,11 @@ Supported starting with Windows Server 2022.
 
 ### -field CrossAdapterResourceTexture
 
-Specifies whether the driver provides tier 2 support of texturing from cross-adapter resources. A driver that indicates support for **CrossAdapterResourceTexture** must also indicate support for **CrossAdapterResource**. Supported starting with Windows Server 2022.
+Specifies whether the driver provides tier 2 support of texturing from cross-adapter resources. A driver that indicates support for **CrossAdapterResourceTexture** must also indicate support for **CrossAdapterResource**. Supported starting with WDDM version 2.9.
 
 ### -field CrossAdapterResourceScanout
 
-Specifies whether the driver provides tier 3 support of scanning out cross-adapter resources. A driver that indicates support for **CrossAdapterResourceScanout** must also indicate support for **CrossAdapterResource** and **CrossAdapterResourceTexture**. Supported starting with Windows Server 2022.
+Specifies whether the driver provides tier 3 support of scanning out cross-adapter resources. A driver that indicates support for **CrossAdapterResourceScanout** must also indicate support for **CrossAdapterResource** and **CrossAdapterResourceTexture**. Supported starting with WDDM version 2.9.
 
 Tier 3 support requires that the driver be able to perform the supported flipping capabilities, declared by driver in [**DXGK_FLIPCAPS**](ns-d3dkmddi-_dxgk_flipcaps.md), for cross-adapter resources of the following minimum specifications:
 

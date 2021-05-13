@@ -51,5 +51,5 @@ This section describes the methods defined for the <b>IPrintOemPS2</b> COM inter
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemPS2</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemPS2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>

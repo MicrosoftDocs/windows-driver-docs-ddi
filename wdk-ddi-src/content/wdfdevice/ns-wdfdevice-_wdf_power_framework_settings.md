@@ -4,7 +4,7 @@ title: _WDF_POWER_FRAMEWORK_SETTINGS (wdfdevice.h)
 description: The WDF_POWER_FRAMEWORK_SETTINGS structure describes power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdf_power_framework_settings.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 04/22/2021
 keywords: ["WDF_POWER_FRAMEWORK_SETTINGS structure"]
 ms.keywords: "*PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS structure pointer, WDF_POWER_FRAMEWORK_SETTINGS, WDF_POWER_FRAMEWORK_SETTINGS structure, _WDF_POWER_FRAMEWORK_SETTINGS, kmdf.wdf_power_framework_settings, wdf.wdf_power_framework_settings, wdfdevice/PWDF_POWER_FRAMEWORK_SETTINGS, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS"
 req.header: wdfdevice.h

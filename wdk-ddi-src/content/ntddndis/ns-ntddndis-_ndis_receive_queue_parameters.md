@@ -11,7 +11,7 @@ req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
-req.target-min-winversvr: 
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -53,8 +53,8 @@ This interface also provides a method that allows a print job to be cancelled.
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJob</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJob</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="/">Methods</a></li>
+<li><a href="/">Properties</a></li>
 </ul>
 
 ## -remarks

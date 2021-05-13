@@ -60,19 +60,19 @@ The driver issues this IOCTL to the next-lower driver in the driver stack.
 <div class="alert"><b>Note</b>  This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface. </div><div> </div>When the driver issues the <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL, the driver must follow these steps:
 <dl>
 <dd>
-<a href="https://docs.microsoft.com/">Preparing an I/O Request Packet Structure</a>
+<a href="/">Preparing an I/O Request Packet Structure</a>
 
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/">Preparing an I/O Stack Location Structure</a>
+<a href="/">Preparing an I/O Stack Location Structure</a>
 
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/">Issuing the IOCTL Request</a>
+<a href="/">Issuing the IOCTL Request</a>
 
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/">IOCTL Request Completion Results</a>
+<a href="/">IOCTL Request Completion Results</a>
 
 </dd>
 </dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.
@@ -227,7 +227,7 @@ The device object of the lower driver.
 <tr>
 <td><i>Irp</i></td>
 <td>
-The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously allocated and initialized. For more information, see <a href="https://docs.microsoft.com/">Preparing an I/O Request Packet Structure</a>.
+The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously allocated and initialized. For more information, see <a href="/">Preparing an I/O Request Packet Structure</a>.
 
 </td>
 </tr>

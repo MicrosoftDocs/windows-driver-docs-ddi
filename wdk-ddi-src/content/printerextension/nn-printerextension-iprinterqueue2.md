@@ -53,7 +53,7 @@ This interface extends <a href="/windows-hardware/drivers/ddi/printerextension/n
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterQueue2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>. <b>IPrinterQueue2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

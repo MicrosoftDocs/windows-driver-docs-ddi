@@ -4,7 +4,7 @@ title: KeQueryNodeActiveAffinity function (wdm.h)
 description: The KeQueryNodeActiveAffinity routine gets the current processor affinity of a specified node in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 old-location: kernel\kequerynodeactiveaffinity.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/19/2021
 keywords: ["KeQueryNodeActiveAffinity function"]
 ms.keywords: KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, wdm/KeQueryNodeActiveAffinity
 req.header: wdm.h
@@ -59,10 +59,17 @@ The node number. If a multiprocessor system contains <i>n</i> nodes, the nodes a
 [out, optional]
 A pointer to a caller-allocated buffer into which the routine writes a <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structure. This structure contains the group number of the group that contains the node that is identified by <i>NodeNumber</i>, and an affinity mask that indicates which logical processors in the node are active. You can set this parameter to <b>NULL</b> if you do not need this information.
 
+> [!NOTE]
+> Starting in Windows Server 2022, a node can span more than one group. This happens when a node contains more than 64 processors. In this case, the OS assigns a primary group for each NUMA node. The primary group is always the one containing the most processors. In this case, the group affinity structure returned is for the node's primary group. For more info about this change in behavior, see [NUMA Support](/windows/win32/procthread/numa-support). If your code runs on systems with more than 64 processors per NUMA node, consider instead using [**KeQueryNodeActiveAffinity2**](./nf-wdm-kequerynodeactiveaffinity2.md). 
+
 ### -param Count 
 
 [out, optional]
 A pointer to a location into which the routine writes the number of active processors that are represented in the node affinity mask that is pointed to by <i>Affinity</i>. You can set this parameter to <b>NULL</b> if you do not need this information.
+
+> [!NOTE]
+> Starting in Windows Server 2022, count returned is for the node's primary group. See more info about primary groups above.
+> 
 
 ## -remarks
 
@@ -72,9 +79,16 @@ In a NUMA multiprocessor architecture, a node is a collection of processors that
 
 The number of processors in a node cannot exceed the number of bits in the affinity mask in the structure that is pointed to by <i>Affinity</i>. The affinity mask also determines the maximum number of processors in a group.
 
-If, during system initialization, Windows encounters a NUMA hardware node that contains more logical processors than will fit into a group, Windows splits the node into smaller, logical nodes. Each of these nodes does not exceed the maximum group size. The <i>NodeNumber</i> parameter identifies a logical node. To obtain the maximum number of processors per group, call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumprocessorcountex">KeQueryMaximumProcessorCountEx</a> routine.
+> [!NOTE]
+> **Windows 10, version 2004 and earlier**
+>
+> If, during system initialization, Windows encounters a NUMA hardware node that contains more logical processors than will fit into a group, Windows splits the node into smaller, logical nodes. Each of these nodes does not exceed the maximum group size. The <i>NodeNumber</i> parameter identifies a logical node. To obtain the maximum number of processors per group, call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumprocessorcountex">KeQueryMaximumProcessorCountEx</a> routine.
 
 ## -see-also
+
+[KeQueryNodeActiveAffinity2](./nf-wdm-kequerynodeactiveaffinity2.md)
+
+[KeQueryLogicalProcessorRelationship](./nf-wdm-kequerylogicalprocessorrelationship.md)
 
 <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a>
 

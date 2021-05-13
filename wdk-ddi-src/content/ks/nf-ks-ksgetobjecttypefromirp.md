@@ -52,11 +52,11 @@ The **KsGetObjectTypeFromIrp** function returns the AVStream object type that is
 ### -param Irp
 
 [in]
-A pointer to the [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure for which to find the associated AVStream object type.
+A pointer to the [IRP](../wdm/ns-wdm-_irp.md) structure for which to find the associated AVStream object type.
 
 ## -returns
 
-**KsGetObjectTypeFromIrp** returns the type of AVStream object associated with the given IRP as a [KSOBJECTTYPE](/windows-hardware/drivers/ddi/ks/ne-ks-ksobjecttype) enumeration. This is one of the following: **KsObjectTypeDevice**, **KsObjectTypeFilterFactory**, **KsObjectTypeFilter**, **KsObjectTypePin**.
+**KsGetObjectTypeFromIrp** returns the type of AVStream object associated with the given IRP as a [KSOBJECTTYPE](./ne-ks-ksobjecttype.md) enumeration. This is one of the following: **KsObjectTypeDevice**, **KsObjectTypeFilterFactory**, **KsObjectTypeFilter**, **KsObjectTypePin**.
 
 ## -remarks
 
@@ -64,10 +64,10 @@ The **KsGetObjectTypeFromIrp** function does not check that the I/O request pack
 
 ## -see-also
 
-[IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[IRP](../wdm/ns-wdm-_irp.md)
 
-[KsAddIrpToCancelableQueue](/windows-hardware/drivers/ddi/ks/nf-ks-ksaddirptocancelablequeue)
+[KsAddIrpToCancelableQueue](./nf-ks-ksaddirptocancelablequeue.md)
 
-[KsDispatchIrp](/windows-hardware/drivers/ddi/ks/nf-ks-ksdispatchirp)
+[KsDispatchIrp](./nf-ks-ksdispatchirp.md)
 
-[KsForwardIrp](/windows-hardware/drivers/ddi/ks/nf-ks-ksforwardirp)
+[KsForwardIrp](./nf-ks-ksforwardirp.md)

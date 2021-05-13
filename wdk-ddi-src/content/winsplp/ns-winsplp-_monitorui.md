@@ -60,20 +60,20 @@ Size, in bytes, of the **MONITORUI** structure.
 
 ### -field pfnAddPortUI
 
-Pointer to the port monitor UI DLL [AddPortUI](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addportui) function that adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
+Pointer to the port monitor UI DLL [AddPortUI](./nf-winsplp-addportui.md) function that adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
 
 ### -field pfnConfigurePortUI
 
-Pointer to the port monitor UI DLL [ConfigurePortUI](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-configureportui) function that obtains port configuration information from the user and sends it to the port monitor server DLL.
+Pointer to the port monitor UI DLL [ConfigurePortUI](./nf-winsplp-configureportui.md) function that obtains port configuration information from the user and sends it to the port monitor server DLL.
 
 ### -field pfnDeletePortUI
 
-Pointer to the port monitor UI DLL [DeletePortUI](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-deleteportui) function that deletes a printer port.
+Pointer to the port monitor UI DLL [DeletePortUI](./nf-winsplp-deleteportui.md) function that deletes a printer port.
 
 ## -remarks
 
-All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the [InitializePrintMonitorUI](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui) function.
+All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the [InitializePrintMonitorUI](./nf-winsplp-initializeprintmonitorui.md) function.
 
 ## -see-also
 
-[InitializePrintMonitorUI](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui)
+[InitializePrintMonitorUI](./nf-winsplp-initializeprintmonitorui.md)

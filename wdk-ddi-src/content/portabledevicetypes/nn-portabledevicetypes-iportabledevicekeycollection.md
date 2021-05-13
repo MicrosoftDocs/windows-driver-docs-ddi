@@ -52,7 +52,7 @@ Holds a collection of <b>PROPERTYKEY</b> values. This interface can be retrieved
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceKeyCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceKeyCollection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITIES
 title: _NDIS_TIMESTAMP_CAPABILITIES (ntddndis.h)
-description: This structure is reserved for system use and should not be used in your code.
+description: The NDIS_TIMESTAMP_CAPABILITIES structure describes describes the combined timestamping capabilities of a NIC and miniport driver.
 tech.root: netvista
-ms.date: 08/08/2018
+ms.date: 01/31/2021
 keywords: ["NDIS_TIMESTAMP_CAPABILITIES structure"]
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITIES, NDIS_TIMESTAMP_CAPABILITIES, *PNDIS_TIMESTAMP_CAPABILITIES,
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2019
+req.target-min-winversvr: Windows Server 2022. Supported in NDIS 6.82 and later.
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -45,38 +45,64 @@ api_name:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This structure is reserved for system use and should not be used in your code.
+The **NDIS_TIMESTAMP_CAPABILITIES** structure describes the combined timestamping capabilities of a network interface card (NIC) and miniport driver.
 
 ## -struct-fields
 
 ### -field Header
 
-Reserved.
+The [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md) structure that describes this **NDIS_TIMESTAMP_CAPABILITIES** structure. Set the members of the **NDIS_OBJECT_HEADER** structure as follows:
+
+* Set the **Type** member to **NDIS_OBJECT_TYPE_DEFAULT**.
+
+* Set the **Revision** member to **NDIS_TIMESTAMP_CAPABILITIES_REVISION_1**.
+
+* Set the **Size** member to **NDIS_SIZEOF_TIMESTAMP_CAPABILITIES_REVISION_1**.
+
 
 ### -field HardwareClockFrequencyHz
 
-Reserved.
+This field contains the nominal frequency of the hardware clock that the NIC uses for timestamping, rounded off to the nearest integer in Hertz units.
 
 ### -field CrossTimestamp
 
-Reserved.
+A value of **TRUE** indicates that the miniport/hardware combination is capable of generating a hardware cross timestamp.  A value of **FALSE** indicates this capability does not exist. A cross timestamp is the set of a NIC hardware timestamp and system timestamp(s) obtained very close to each other. The miniport driver handles the [OID_TIMESTAMP_GET_CROSSTIMESTAMP](/windows-hardware/drivers/network/oid-timestamp-get-crosstimestamp) OID to generate a cross timestamp.
 
 ### -field Reserved1
 
-Reserved.
+Reserved for future use.
 
 ### -field Reserved2
 
-Reserved.
+Reserved for future use.
 
 ### -field TimestampFlags
 
-Reserved.
+An [**NDIS_TIMESTAMP_CAPABILITY_FLAGS**](ns-ntddndis-_ndis_timestamp_capability_flags.md) structure that represents the NIC's timestamping capabilities in various contexts.
 
 ## -remarks
 
+Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability) status indication to report the NIC's hardware timestamping capabilities and the miniport driver's software timestamping capabilities to NDIS and overlying drivers. 
+
+> [!NOTE]
+> An implementation must support hardware timestamps and cross timestamps. Supporting software timestamps is optional.
+
+Miniport drivers use the **NDIS_TIMESTAMP_CAPABILITIES** structure with the [**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config) status indication to report which timestamping capabilities are currently enabled.
+
+For more information, see [Reporting timestamping capabilities and current configuration](/windows-hardware/drivers/network/reporting-timestamping-capabilities).
+
 ## -see-also
 
+[**NDIS_TIMESTAMP_CAPABILITY_FLAGS**](ns-ntddndis-_ndis_timestamp_capability_flags.md)
+
+[**NDIS_STATUS_TIMESTAMP_CAPABILITY**](/windows-hardware/drivers/network/ndis-status-timestamp-capability)
+
+[**NDIS_STATUS_TIMESTAMP_CURRENT_CONFIG**](/windows-hardware/drivers/network/ndis-status-timestamp-current-config)
+
+[OID_TIMESTAMP_GET_CROSSTIMESTAMP](/windows-hardware/drivers/network/oid-timestamp-get-crosstimestamp)
+
+[**MiniportInitializeEx**](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
+
+[NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
+
+[Reporting timestamping capabilities and current configuration](/windows-hardware/drivers/network/reporting-timestamping-capabilities)

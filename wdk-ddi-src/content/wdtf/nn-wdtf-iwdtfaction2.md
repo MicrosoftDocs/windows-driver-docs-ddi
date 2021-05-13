@@ -52,6 +52,6 @@ Defines operations and properties that can control an instance of the
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFAction2</b> interface inherits from <b>IAction</b>. <b>IWDTFAction2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="/">Methods</a></li>
+<li><a href="/">Properties</a></li>
 </ul>

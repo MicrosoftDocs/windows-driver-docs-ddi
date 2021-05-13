@@ -53,7 +53,7 @@ This interface is the same as <a href="/windows-hardware/drivers/ddi/printerexte
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
