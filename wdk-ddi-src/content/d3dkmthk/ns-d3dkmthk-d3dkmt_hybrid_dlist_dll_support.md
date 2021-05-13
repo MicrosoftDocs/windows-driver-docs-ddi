@@ -50,11 +50,15 @@ If true, the adapter provides hybrid dList DLL support; otherwise, false.
 
 ## -remarks
 
+Prior to WDDM 2.8, a driver identified as a hybrid discrete GPU was required to support the dList DDI (and provide the relevant registry keys). Starting in WDDM 2.8, IHVs can choose to support the dList DDI via [**D3DKMT_QUERYADAPTERINFO**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md) for a [**KMTQUERYADAPTERINFOTYPE**](ne-d3dkmthk-_kmtqueryadapterinfotype.md) of **KMTQAITYPE_HYBRID_DLIST_DLL_SUPPORT**.
+
 For information on how to set up the DLL, see [Hybrid system DDI](/windows-hardware/drivers/display/hybrid-system-ddi).
 
 For more general information on hybrid systems, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
 ## -see-also
+
+[**D3DKMT_QUERYADAPTERINFO**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
 
 [**KMTQUERYADAPTERINFOTYPE**](ne-d3dkmthk-_kmtqueryadapterinfotype.md)
 
