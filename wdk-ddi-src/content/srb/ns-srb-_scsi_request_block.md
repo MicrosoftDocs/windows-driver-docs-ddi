@@ -97,10 +97,10 @@ Returns the status of the completed request. This member should be set by the mi
 | SRB_STATUS_BUSY | Indicates the miniport driver or target device could not accept the request at this time. The OS-specific port driver will resubmit the request later. |
 | SRB_STATUS_INTERNAL_ERROR | Indicates that the SCSI Port driver could not deliver the request to the miniport driver or target device. In such cases, status is recorded in **InternalStatus**. |
 | SRB_STATUS_INVALID_REQUEST | Indicates the miniport driver does not support the given request. |
-| SRB_STATUS_NO_DEVICE | Indicates the device did not respond.
-| SRB_STATUS_TIMEOUT | Indicates the request timed out.
-| SRB_STATUS_SELECTION_TIMEOUT | Indicates the SCSI device selection timed out.
-| SRB_STATUS_COMMAND_TIMEOUT | Indicates the target did not complete the command within the time limit.
+| SRB_STATUS_NO_DEVICE | Indicates the device did not respond. |
+| SRB_STATUS_TIMEOUT | Indicates the request timed out. |
+| SRB_STATUS_SELECTION_TIMEOUT | Indicates the SCSI device selection timed out. |
+| SRB_STATUS_COMMAND_TIMEOUT | Indicates the target did not complete the command within the time limit. |
 | SRB_STATUS_MESSAGE_REJECTED | Indicates the target rejected a message. This is normally returned only for such message-type requests as SRB_FUNCTION_TERMINATE_IO. |
 | SRB_STATUS_BUS_RESET | Indicates a bus reset occurred while this request was being executed. |
 | SRB_STATUS_PARITY_ERROR | Indicates a parity error occurred on the SCSI bus and that a retry failed. |
@@ -116,7 +116,7 @@ Returns the status of the completed request. This member should be set by the mi
 | SRB_STATUS_INVALID_LUN | Indicates the **Lun** value in the SRB is invalid. |
 | SRB_STATUS_ERROR_RECOVERY | Indicates the request was completed with an error in the SCSI bus status and that the SCSI INITIATE RECOVERY message was received. |
 | SRB_STATUS_AUTOSENSE_VALID | Indicates information returned in the **SenseInfoBuffer** is valid. |
-| SRB_STATUS_QUEUE_FROZEN |A miniport driver should *never* set the **SrbStatus** member to this value. The Windows port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen. |
+| SRB_STATUS_QUEUE_FROZEN | A miniport driver should *never* set the **SrbStatus** member to this value. The Windows port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen. |
 
 ### -field ScsiStatus
 

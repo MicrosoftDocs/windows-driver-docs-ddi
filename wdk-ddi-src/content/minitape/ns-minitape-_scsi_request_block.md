@@ -115,7 +115,7 @@ Returns the status of the completed request. This member should be set by the mi
 | SRB_STATUS_INVALID_LUN | Indicates the **Lun** value in the SRB is invalid. |
 | SRB_STATUS_ERROR_RECOVERY | Indicates the request was completed with an error in the SCSI bus status and that the SCSI INITIATE RECOVERY message was received. |
 | SRB_STATUS_AUTOSENSE_VALID | Indicates information returned in the **SenseInfoBuffer** is valid. |
-| SRB_STATUS_QUEUE_FROZEN | A miniport driver should *never* set the **SrbStatus** member to this value. The Windows port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen.
+| SRB_STATUS_QUEUE_FROZEN | A miniport driver should *never* set the **SrbStatus** member to this value. The Windows port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen. |
 
 ### -field ScsiStatus
 
