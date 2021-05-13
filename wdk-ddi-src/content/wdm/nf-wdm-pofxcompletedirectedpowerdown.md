@@ -59,4 +59,4 @@ The driver typically calls this routine from its [*PO_FX_DIRECTED_POWER_DOWN_CAL
 
 ## -see-also
 
-https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework
+/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework

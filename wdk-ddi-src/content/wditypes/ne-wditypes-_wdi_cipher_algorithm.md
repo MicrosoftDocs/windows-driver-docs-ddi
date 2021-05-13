@@ -80,7 +80,37 @@ Specifies a BIP cipher algorithm.
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
-Specifies a GCMP (Galois/Counter Mode Protocol) cipher algorithm. It is the only encryption protocol supported for 802.11ad (DMG) Phy.
+Specifies a Galois/Counter Mode Protocol (GCMP) cipher algorithm. It is the only encryption protocol supported for 802.11ad (DMG) Phy.
+
+### -field WDI_CIPHER_ALGO_GCMP_256
+
+Added in Windows 10, version 2004, WDI version 1.1.9.
+
+Specifies a GCMP cipher algorithm with a 256-bit cipher key.
+
+### -field WDI_CIPHER_ALGO_CCMP_256
+
+Added in Windows 10, version 2004, WDI version 1.1.9.
+
+Specifies an AES-CCMP algorithm with a 256-bit cipher key.
+
+### -field WDI_CIPHER_ALGO_BIP_GMAC_128
+
+Added in Windows 10, version 2004, WDI version 1.1.9.
+
+Specifies a Broadcast Integrity Protocol Galois Message Authentication Code (BIP-GMAC) cipher algorithm with a 128-bit cipher key.
+
+### -field WDI_CIPHER_ALGO_BIP_GMAC_256
+
+Added in Windows 10, version 2004, WDI version 1.1.9.
+
+Specifies a BIP-GMAC cipher algorithm with a 256-bit cipher key.
+
+### -field WDI_CIPHER_ALGO_BIP_CMAC_256
+
+Added in Windows 10, version 2004, WDI version 1.1.9.
+
+Specifies a Broadcast Integrity Protocol Cipher-based Message Authentication Code (BIP-CMAC) cipher algorithm with a 256-bit cipher key.
 
 ### -field WDI_CIPHER_ALGO_WPA_USE_GROUP
 

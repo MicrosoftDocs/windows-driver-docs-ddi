@@ -51,7 +51,7 @@ Defines operations and properties for a collection of long numbers.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLongNumbers2</b> interface inherits from <b>ITracing</b>. <b>IWDTFLongNumbers2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="/">Methods</a></li>
+<li><a href="/">Properties</a></li>
 </ul>
 
