@@ -20,6 +20,8 @@ api_name:
 
 ## -description
 
+This module defines the types, constants, and functions that are exposed to device drivers that interact with the Windows A2DP Audio Driver.
+
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)
