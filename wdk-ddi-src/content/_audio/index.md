@@ -18,6 +18,7 @@ These headers are used to create Microsoft Windows Driver Model (WDM) audio driv
 
 To develop Audio drivers, you can use these headers:
 
+ * [a2dpsidebandaudio.h](../a2dpsidebandaudio/index.md)
  * [bthhfpddi.h](../bthhfpddi/index.md)
  * [dmusicks.h](../dmusicks/index.md)
  * [dmusprop.h](../dmusprop/index.md)

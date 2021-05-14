@@ -1,0 +1,26 @@
+---
+UID: NA:a2dpsidebandaudio
+title: a2dpsidebandaudio.h header
+ms.date: 05/14/2021
+keywords: ["a2dpsidebandaudio.h header"]
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: portal
+tech.root: audio
+f1_keywords:
+ - A2DPSidebandAudio
+ - a2dpsidebandaudio/a2dpsidebandaudio
+api_name:
+ - a2dpsidebandaudio
+---
+
+# A2DPSidebandAudio.h header
+
+
+## -description
+
+This header is used by audio. For more information, see:
+
+- [Audio](../_audio/index.md)
+
