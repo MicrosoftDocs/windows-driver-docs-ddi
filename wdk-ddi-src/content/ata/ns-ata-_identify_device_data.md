@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA
-title: _IDENTIFY_DEVICE_DATA (ata.h)
+title: IDENTIFY_DEVICE_DATA (ata.h)
 description: The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\identify_device_data.htm
 tech.root: storage
@@ -46,13 +46,14 @@ api_name:
  - IDENTIFY_DEVICE_DATA
 ---
 
-# _IDENTIFY_DEVICE_DATA structure
-
+# IDENTIFY_DEVICE_DATA structure
 
 ## -description
 
 The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+
+> [!NOTE\
+> The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 
@@ -192,7 +193,7 @@ This member is obsolete. Do not use.
 
 ### -field TranslationFieldsValid
 
-Contains a bitfield whose bits indicate which of the bytes in the identify data package contain valid address translation information. For more information about how this bitfield is defined, see the <i>ATA/ATAPI specification</i>.
+Contains a bitfield whose bits indicate which of the bytes in the identify data package contain valid address translation information. For more information about how this bitfield is defined, see the *ATA/ATAPI specification*.
 
 ### -field Reserved3
 
@@ -222,7 +223,7 @@ Indicates the multisector setting.
 
 ### -field MultiSectorSettingValid
 
-Indicates when <b>TRUE</b> that the multisector setting is valid.
+Indicates when **TRUE** that the multisector setting is valid.
 
 ### -field ReservedByte59
 
@@ -422,17 +423,17 @@ Reserved.
 
 ### -field CommandSetSupport.SmartCommands
 
-Indicates when <b>TRUE</b> that the device supports the SMART feature set.
+Indicates when **TRUE** that the device supports the SMART feature set.
 
 ### -field CommandSetSupport.SecurityMode
 
-Indicates when <b>TRUE</b> that the device supports the security mode feature set.
+Indicates when **TRUE** that the device supports the security mode feature set.
 
 ### -field CommandSetSupport.RemovableMediaFeature
 
 ### -field CommandSetSupport.PowerManagement
 
-Indicates when <b>TRUE</b> that the device supports the mandatory power management feature set.
+Indicates when **TRUE** that the device supports the mandatory power management feature set.
 
 ### -field CommandSetSupport.Reserved1
 
@@ -440,27 +441,27 @@ Reserved.
 
 ### -field CommandSetSupport.WriteCache
 
-Indicates when <b>TRUE</b> that the device supports a write cache.
+Indicates when **TRUE** that the device supports a write cache.
 
 ### -field CommandSetSupport.LookAhead
 
-Indicates when <b>TRUE</b> that the device supports lookahead.
+Indicates when **TRUE** that the device supports lookahead.
 
 ### -field CommandSetSupport.ReleaseInterrupt
 
-Indicates when <b>TRUE</b> that the device supports release interrupt.
+Indicates when **TRUE** that the device supports release interrupt.
 
 ### -field CommandSetSupport.ServiceInterrupt
 
-Indicates when <b>TRUE</b> that the device supports service interrupt.
+Indicates when **TRUE** that the device supports service interrupt.
 
 ### -field CommandSetSupport.DeviceReset
 
-Indicates when <b>TRUE</b> that the device supports the device reset command.
+Indicates when **TRUE** that the device supports the device reset command.
 
 ### -field CommandSetSupport.HostProtectedArea
 
-Indicates when <b>TRUE</b> that the device supports the host protected area feature set.
+Indicates when **TRUE** that the device supports the host protected area feature set.
 
 ### -field CommandSetSupport.Obsolete1
 
@@ -468,15 +469,15 @@ This member is obsolete. Do not use.
 
 ### -field CommandSetSupport.WriteBuffer
 
-Indicates when <b>TRUE</b> that the device supports the write buffer command.
+Indicates when **TRUE** that the device supports the write buffer command.
 
 ### -field CommandSetSupport.ReadBuffer
 
-Indicates when <b>TRUE</b> that the device supports the read buffer command.
+Indicates when **TRUE** that the device supports the read buffer command.
 
 ### -field CommandSetSupport.Nop
 
-Indicates when <b>TRUE</b> that the device supports the NOP command.
+Indicates when **TRUE** that the device supports the NOP command.
 
 ### -field CommandSetSupport.Obsolete2
 
@@ -484,31 +485,31 @@ Obsolete. Do not use.
 
 ### -field CommandSetSupport.DownloadMicrocode
 
-Indicates when <b>TRUE</b> that the device supports the DOWNLOAD MICROCODE command.
+Indicates when **TRUE** that the device supports the DOWNLOAD MICROCODE command.
 
 ### -field CommandSetSupport.DmaQueued
 
-Indicates when <b>TRUE</b> that the device supports READ/WRITE DMA QUEUED command.
+Indicates when **TRUE** that the device supports READ/WRITE DMA QUEUED command.
 
 ### -field CommandSetSupport.Cfa
 
-Indicates when <b>TRUE</b> that the device supports the CFA feature set.
+Indicates when **TRUE** that the device supports the CFA feature set.
 
 ### -field CommandSetSupport.AdvancedPm
 
-Indicates when <b>TRUE</b> that the device supports the advanced power management feature set.
+Indicates when **TRUE** that the device supports the advanced power management feature set.
 
 ### -field CommandSetSupport.Msn
 
-Indicates when <b>TRUE</b> that the device supports the media status notification feature set.
+Indicates when **TRUE** that the device supports the media status notification feature set.
 
 ### -field CommandSetSupport.PowerUpInStandby
 
-Indicates when <b>TRUE</b> that the device supports power-up in standby feature set.
+Indicates when **TRUE** that the device supports power-up in standby feature set.
 
 ### -field CommandSetSupport.ManualPowerUp
 
-Indicates when <b>TRUE</b> that the device supports the SET FEATURES subcommand required to spin up the device after power-up.
+Indicates when **TRUE** that the device supports the SET FEATURES subcommand required to spin up the device after power-up.
 
 ### -field CommandSetSupport.Reserved2
 
@@ -516,15 +517,15 @@ Reserved.
 
 ### -field CommandSetSupport.SetMax
 
-Indicates when <b>TRUE</b> that the device supports the SET MAX security extension command.
+Indicates when **TRUE** that the device supports the SET MAX security extension command.
 
 ### -field CommandSetSupport.Acoustics
 
-Indicates when <b>TRUE</b> that the device supports the automatic acoustic management feature set.
+Indicates when **TRUE** that the device supports the automatic acoustic management feature set.
 
 ### -field CommandSetSupport.BigLba
 
-Indicates when <b>TRUE</b> that the device supports the 48-bit address feature set.
+Indicates when **TRUE** that the device supports the 48-bit address feature set.
 
 ### -field CommandSetSupport.DeviceConfigOverlay
 
@@ -564,21 +565,19 @@ Indicates when <b>TRUE</b> that the device supports the 48-bit address feature s
 
 ### -field CommandSetActive
 
-####
-
 ### -field CommandSetActive.SmartCommands
 
-Indicates when <b>TRUE</b> that the device supports the SMART feature set.
+Indicates when **TRUE** that the device supports the SMART feature set.
 
 ### -field CommandSetActive.SecurityMode
 
-Indicates when <b>TRUE</b> that the device supports the security mode feature set.
+Indicates when **TRUE** that the device supports the security mode feature set.
 
 ### -field CommandSetActive.RemovableMediaFeature
 
 ### -field CommandSetActive.PowerManagement
 
-Indicates when <b>TRUE</b> that the device supports the mandatory power management feature set.
+Indicates when **TRUE** that the device supports the mandatory power management feature set.
 
 ### -field CommandSetActive.Reserved1
 
@@ -586,27 +585,27 @@ Reserved.
 
 ### -field CommandSetActive.WriteCache
 
-Indicates when <b>TRUE</b> that the device supports a write cache.
+Indicates when **TRUE** that the device supports a write cache.
 
 ### -field CommandSetActive.LookAhead
 
-Indicates when <b>TRUE</b> that the device supports lookahead.
+Indicates when **TRUE** that the device supports lookahead.
 
 ### -field CommandSetActive.ReleaseInterrupt
 
-Indicates when <b>TRUE</b> that the device supports release interrupt.
+Indicates when **TRUE** that the device supports release interrupt.
 
 ### -field CommandSetActive.ServiceInterrupt
 
-Indicates when <b>TRUE</b> that the device supports service interrupt.
+Indicates when **TRUE** that the device supports service interrupt.
 
 ### -field CommandSetActive.DeviceReset
 
-Indicates when <b>TRUE</b> that the device supports the device reset command.
+Indicates when **TRUE** that the device supports the device reset command.
 
 ### -field CommandSetActive.HostProtectedArea
 
-Indicates when <b>TRUE</b> that the device supports the host protected area feature set.
+Indicates when **TRUE** that the device supports the host protected area feature set.
 
 ### -field CommandSetActive.Obsolete1
 
@@ -614,15 +613,15 @@ This member is obsolete. Do not use.
 
 ### -field CommandSetActive.WriteBuffer
 
-Indicates when <b>TRUE</b> that the device supports the write buffer command.
+Indicates when **TRUE** that the device supports the write buffer command.
 
 ### -field CommandSetActive.ReadBuffer
 
-Indicates when <b>TRUE</b> that the device supports the read buffer command.
+Indicates when **TRUE** that the device supports the read buffer command.
 
 ### -field CommandSetActive.Nop
 
-Indicates when <b>TRUE</b> that the device supports the NOP command.
+Indicates when **TRUE** that the device supports the NOP command.
 
 ### -field CommandSetActive.Obsolete2
 
@@ -630,31 +629,31 @@ Obsolete. Do not use.
 
 ### -field CommandSetActive.DownloadMicrocode
 
-Indicates when <b>TRUE</b> that the device supports the DOWNLOAD MICROCODE command.
+Indicates when **TRUE** that the device supports the DOWNLOAD MICROCODE command.
 
 ### -field CommandSetActive.DmaQueued
 
-Indicates when <b>TRUE</b> that the device supports READ/WRITE DMA QUEUED command.
+Indicates when **TRUE** that the device supports READ/WRITE DMA QUEUED command.
 
 ### -field CommandSetActive.Cfa
 
-Indicates when <b>TRUE</b> that the device supports the CFA feature set.
+Indicates when **TRUE** that the device supports the CFA feature set.
 
 ### -field CommandSetActive.AdvancedPm
 
-Indicates when <b>TRUE</b> that the device supports the advanced power management feature set.
+Indicates when **TRUE** that the device supports the advanced power management feature set.
 
 ### -field CommandSetActive.Msn
 
-Indicates when <b>TRUE</b> that the device supports the media status notification feature set.
+Indicates when **TRUE** that the device supports the media status notification feature set.
 
 ### -field CommandSetActive.PowerUpInStandby
 
-Indicates when <b>TRUE</b> that the device supports power-up in standby feature set.
+Indicates when **TRUE** that the device supports power-up in standby feature set.
 
 ### -field CommandSetActive.ManualPowerUp
 
-Indicates when <b>TRUE</b> that the device supports the SET FEATURES subcommand required to spin up the device after power-up.
+Indicates when **TRUE** that the device supports the SET FEATURES subcommand required to spin up the device after power-up.
 
 ### -field CommandSetActive.Reserved2
 
@@ -662,15 +661,15 @@ Reserved.
 
 ### -field CommandSetActive.SetMax
 
-Indicates when <b>TRUE</b> that the device supports the SET MAX security extension command.
+Indicates when **TRUE** that the device supports the SET MAX security extension command.
 
 ### -field CommandSetActive.Acoustics
 
-Indicates when <b>TRUE</b> that the device supports the automatic acoustic management feature set.
+Indicates when **TRUE** that the device supports the automatic acoustic management feature set.
 
 ### -field CommandSetActive.BigLba
 
-Indicates when <b>TRUE</b> that the device supports the 48-bit address feature set.
+Indicates when **TRUE** that the device supports the 48-bit address feature set.
 
 ### -field CommandSetActive.DeviceConfigOverlay
 
@@ -740,7 +739,7 @@ Contains a bitmap indicating which ultraDMA modes are selected.
 
 ### -field HardwareResetResult
 
-Indicates the result of a hardware reset. For more information about the values assigned to this member, see the <i>ATA/ATAP specification</i>.
+Indicates the result of a hardware reset. For more information about the values assigned to this member, see the *ATA/ATAP specification*.
 
 ### -field CurrentAcousticValue
 
@@ -844,13 +843,13 @@ Reserved.
 
 ### -field MsnSupport
 
-Indicates when <b>TRUE</b> that the device supports media status notification.
+Indicates when **TRUE** that the device supports media status notification.
 
 ### -field ReservedWord127
 
 ### -field SecurityStatus
 
-Contains a bitmap that indicates the security status. For more information about the meaning of each individual bit, see the <i>ATA/ATAPI specification</i>.
+Contains a bitmap that indicates the security status. For more information about the meaning of each individual bit, see the *ATA/ATAPI specification*.
 
 ### -field SecurityStatus.SecuritySupported
 
@@ -1012,52 +1011,40 @@ Indicates the disk signature.
 
 Indicates the checksum.
 
-
 #### - CfaPowerModel
-
 
 #### - ReservedForCfaWord170
 
 Words 170-175
 
-
 #### - ReservedWord105
 
-
 #### - ReservedWord1274
-
 
 #### - ReservedWord2
 
 Reserved.
 
-
 #### - ReservedWord206
 
 Word 206
-
 
 #### - ReservedWord48
 
 Reserved.
 
-
 #### - ReservedWord89
 
 Reserved.
-
 
 #### - ReservedWord95
 
 Reserved.
 
-
 #### - ReservedWords69
 
 Reserved.
 
-
 #### - ReservedWords76
 
 Reserved.
-
