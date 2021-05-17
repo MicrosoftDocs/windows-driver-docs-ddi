@@ -22,7 +22,7 @@ api_name:
 
 ## -description
 
-The sidebandaudio.h header is used by audio. For more information, see:
+DDI for enabling Sideband Audio for specific bus types ([USB Audio 1.0](/windows-hardware/drivers/ddi/usbsidebandaudio/), A2DP, etc.).
 
 [Audio](../_audio/index.md)
 
