@@ -43,13 +43,20 @@ dev_langs:
 
 ## -description
 
+WWAN_NETWORK_PARAMS_INFO is a data structure for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
+
 ## -struct-fields
 
 ### -field CurrentMicoIndication
 
+Indicates the current use of Mobile Initiated Connection (MICO) mode. Valid only if NetworkConfigurationsNeeded is 1 in the query request.
+
 ### -field CurrentDRXParams
+
+Valid only if NetworkConfigurationsNeeded is 1 in the query request.
 
 ## -remarks
 
 ## -see-also
 
+[NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-sms-status)
