@@ -1,6 +1,7 @@
 {
   "tech": "audio",
   "headers": [
+    "a2dpsidebandaudio",
     "bthhfpddi.h",
     "dmusicks.h",
     "dmusprop.h",
