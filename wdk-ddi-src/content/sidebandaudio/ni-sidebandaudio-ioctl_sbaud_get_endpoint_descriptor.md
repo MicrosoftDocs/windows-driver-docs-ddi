@@ -60,14 +60,6 @@ A buffer containing a <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-si
 
 The size of a <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure and referenced data.
 
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length 
-
-<text></text>
-
 ### -status-block
 
 If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer.
@@ -80,8 +72,8 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 
 The audio driver sends this request to obtain information about an enabled Audio Sideband Endpoint. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
 
-The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again. Typically an audio driver will store a pointer to this storage location in its device context for reference during later activity.
+The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a>
+[SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR](/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor)
