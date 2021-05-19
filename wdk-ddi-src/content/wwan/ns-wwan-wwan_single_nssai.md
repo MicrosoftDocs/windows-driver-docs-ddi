@@ -14,9 +14,10 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
+targetos: Windows
 req.typenames: WWAN_SINGLE_NSSAI, *PWWAN_SINGLE_NSSAI
 req.umdf-ver: 
 req.unicode-ansi: 
