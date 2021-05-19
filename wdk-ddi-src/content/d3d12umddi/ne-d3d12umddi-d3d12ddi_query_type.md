@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_QUERY_TYPE
 title: D3D12DDI_QUERY_TYPE (d3d12umddi.h)
 description: Type of a query.
 old-location: display\d3d12ddi_query_type.htm
-ms.date: 05/10/2018
+ms.date: 05/13/2021
 keywords: ["D3D12DDI_QUERY_TYPE enumeration"]
 ms.keywords: D3D12DDI_QUERY_TYPE, D3D12DDI_QUERY_TYPE enumeration [Display Devices], D3D12DDI_QUERY_TYPE_0020_VIDEO_DECODE_STATISTICS, D3D12DDI_QUERY_TYPE_BINARY_OCCLUSION, D3D12DDI_QUERY_TYPE_OCCLUSION, D3D12DDI_QUERY_TYPE_PIPELINE_STATISTICS, D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM0, D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM1, D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM2, D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM3, D3D12DDI_QUERY_TYPE_TIMESTAMP, d3d12umddi/D3D12DDI_QUERY_TYPE, d3d12umddi/D3D12DDI_QUERY_TYPE_0020_VIDEO_DECODE_STATISTICS, d3d12umddi/D3D12DDI_QUERY_TYPE_BINARY_OCCLUSION, d3d12umddi/D3D12DDI_QUERY_TYPE_OCCLUSION, d3d12umddi/D3D12DDI_QUERY_TYPE_PIPELINE_STATISTICS, d3d12umddi/D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM0, d3d12umddi/D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM1, d3d12umddi/D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM2, d3d12umddi/D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM3, d3d12umddi/D3D12DDI_QUERY_TYPE_TIMESTAMP, display.d3d12ddi_query_type
 req.header: d3d12umddi.h
@@ -42,10 +42,9 @@ api_name:
 
 # D3D12DDI_QUERY_TYPE enumeration
 
-
 ## -description
 
-Type of a query.
+A **D3D12DDI_QUERY_TYPE** enum value identifies the type of a query.
 
 ## -enum-fields
 
@@ -85,3 +84,28 @@ SO statistics for Stream3.
 
 Video decode statistics.
 
+### -field D3D12DDI_QUERY_TYPE_VIDEO_ENCODE_STATISTICS
+
+For internal use only.
+
+### -field D3D12DDI_QUERY_TYPE_PIPELINE_STATISTICS1
+
+[Pipeline statistics](ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1.md).
+
+### -field D3D12DDI_QUERY_TYPE_JPEG_DECODE_EVENT
+
+For internal use only.
+
+### -field D3D12DDI_QUERY_TYPE_JPEG_ENCODE_STATISTICS
+
+For internal use only.
+
+## -remarks
+
+Queries are used to capture information from the GPU, such as statistics and status codes which can later be consumed directly on the GPU or on CPU.
+
+## -see-also
+
+[**pfnBeginEndQuery**](nc-d3d12umddi-pfnd3d12ddi_begin_end_query.md)
+
+[**pfnResolveQueryData**](nc-d3d12umddi-pfnd3d12ddi_resolve_query_data.md)
