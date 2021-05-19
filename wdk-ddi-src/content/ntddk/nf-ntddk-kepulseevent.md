@@ -57,7 +57,7 @@ A pointer to a dispatcher object of type KEVENT.
 ### -param Increment 
 
 [in]
-Specifies the priority increment that is to be applied if setting the event causes a wait to be satisfied.
+Specifies a boost to apply to the priority of threads which are readied as a result of pulsing the event. Typically set to zero but can be set to one.
 
 ### -param Wait 
 
