@@ -9,7 +9,7 @@ ms.keywords: MmGetSystemRoutineAddressEx
 req.header: wdm.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 2004
+req.target-min-winverclnt: Xbox
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
