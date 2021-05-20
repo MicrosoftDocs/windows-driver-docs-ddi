@@ -1,10 +1,10 @@
 ---
 UID: NE:a2dpsidebandaudio._SIDEBANDAUDIO_PARAMS_A2DP
-tech.root: 
+tech.root: audio
 title: SIDEBANDAUDIO_PARAMS_A2DP
+description: Identifies the SIDEBANDAUDIO_PARAMS_SET_A2DP parameter.
 ms.date: 05/14/2021
 targetos: Windows
-description: 
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: a2dpsidebandaudio.h

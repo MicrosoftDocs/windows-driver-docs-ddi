@@ -1,10 +1,10 @@
 ---
 UID: NF:a2dpsidebandaudio.SET_VENDOR_ID_TO_PARAMSET
-tech.root: 
-title: SET_VENDOR_ID_TO_PARAMSET
-ms.date: 05/14/2021
+tech.root: audio
+title: SET_VENDOR_ID_TO_PARAMSET (a2dpsidebandaudio.h)
+description: This topic describes the macro to set the Vendor ID from the VENDOR PARAMS SET derived from SIDEBAND_PARAMS_SET_A2DP_VENDOR_BASE
+ms.date: 05/20/2021
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -38,6 +38,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# SET_VENDOR_ID_TO_PARAMSET 
 
 ## -description
 

@@ -1,10 +1,10 @@
 ---
 UID: NA:a2dpsidebandaudio
-tech.root: 
+tech.root: audio
 title: a2dpsidebandaudio
 ms.date: 05/14/2021
 targetos: Windows
-description: 
+description: The a2dpsidebandaudio header defines, values, gets and sets, that are used to support A2DP sideband audio.
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
@@ -39,6 +39,10 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# a2dpsidebandaudio
+
+The a2dpsidebandaudio header defines, values, gets and sets, that are used to support A2DP sideband audio.
 
 ## -description
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:a2dpsidebandaudio.GET_VENDOR_ID_FROM_PARAMSET
 tech.root: 
-title: GET_VENDOR_ID_FROM_PARAMSET
-ms.date: 05/14/2021
+title: GET_VENDOR_ID_FROM_PARAMSET (a2dpsidebandaudio.h)
+ms.date: 05/20/2021
 targetos: Windows
 description: 
 req.assembly: 
@@ -38,6 +38,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# GET_VENDOR_ID_FROM_PARAMSET
 
 ## -description
 
