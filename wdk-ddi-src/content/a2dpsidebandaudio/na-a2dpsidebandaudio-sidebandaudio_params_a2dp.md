@@ -2,7 +2,7 @@
 UID: NA:a2dpsidebandaudio
 tech.root: audio
 title: a2dpsidebandaudio
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 targetos: Windows
 description: The a2dpsidebandaudio header defines, values, gets and sets, that are used to support A2DP sideband audio.
 req.assembly: 
@@ -42,9 +42,12 @@ dev_langs:
 
 # a2dpsidebandaudio
 
-The a2dpsidebandaudio header defines, values, gets and sets, that are used to support A2DP sideband audio.
 
 ## -description
+
+The a2dpsidebandaudio header defines, values, gets and sets, that are used to support A2DP sideband audio.
+
+The following GUIDs are defined.
 
 **GUID_DEVINTERFACE_A2DP_SIDEBAND_AUDIO**
 
@@ -79,6 +82,4 @@ DEFINE_GUID(SIDEBANDAUDIO_PARAMS_SET_A2DP,
 
 [GET_VENDOR_ID_FROM_PARAMSET](/windows-hardware/drivers/ddi/get_vendor_id_from_paramset)
 
-
-## -examples
 

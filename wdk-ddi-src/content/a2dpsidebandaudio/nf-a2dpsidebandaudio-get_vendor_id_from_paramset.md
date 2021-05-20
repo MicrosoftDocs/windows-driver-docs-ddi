@@ -1,10 +1,10 @@
 ---
 UID: NF:a2dpsidebandaudio.GET_VENDOR_ID_FROM_PARAMSET
-tech.root: 
+tech.root: audio
 title: GET_VENDOR_ID_FROM_PARAMSET (a2dpsidebandaudio.h)
+description: This topic describes the macro to get the Vendor ID from the VENDOR PARAMS SET derived from SIDEBAND_PARAMS_SET_A2DP_VENDOR_BASE.
 ms.date: 05/20/2021
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
