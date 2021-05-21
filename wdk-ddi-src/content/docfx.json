@@ -41,7 +41,7 @@
       "titleSuffix": "Windows drivers",
       "ms.topic": "language-reference",
       "ms.prod": "windows-hardware",
-      "ms.technology": "windows-devices",
+      "ms.technology": "wdk-api-reference",
       "author": "tedhudek",
       "ms.author": "tedhudek",
       "dev_langs": ["c++"]
