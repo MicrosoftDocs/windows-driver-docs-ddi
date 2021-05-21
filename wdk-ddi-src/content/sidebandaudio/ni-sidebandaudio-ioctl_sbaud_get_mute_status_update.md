@@ -59,14 +59,6 @@ Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_param
 
 Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length 
-
-<text></text>
-
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
@@ -75,7 +67,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 ## -remarks
 
-The mute update IOCTL can be used in two modes - update and immediate. If SIDEBANDAUDIO_MUTE_PARAMS::Immediate parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver (like USB Audio) until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
+The mute update IOCTL can be used in two modes - update and immediate. If _**Immediate**_ parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
 
 ## -see-also
 
