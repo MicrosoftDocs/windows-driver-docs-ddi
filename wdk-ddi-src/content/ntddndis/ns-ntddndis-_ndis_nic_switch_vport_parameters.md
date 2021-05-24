@@ -57,7 +57,7 @@ The **NDIS_NIC_SWITCH_VPORT_PARAMETERS** structure specifies the configuration f
 
 ### -field Header
 
-The type, revision, and size of the **NDIS_NIC_SWITCH_VPORT_PARAMETERS** structure. This member is formatted as an [NDIS_OBJECT_HEADER](ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the **NDIS_NIC_SWITCH_VPORT_PARAMETERS** structure. This member is formatted as an [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md) structure.
 
 The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT. 
 
@@ -209,7 +209,7 @@ For more information about the SR-IOV interface, see [Overview of Single Root I/
 
 [NDIS_NIC_SWITCH_VF_INFO](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vf_info)
 
-[NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header)
+[NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
 
 [OID_NIC_SWITCH_CREATE_VPORT](/windows-hardware/drivers/network/oid-nic-switch-create-vport)
 

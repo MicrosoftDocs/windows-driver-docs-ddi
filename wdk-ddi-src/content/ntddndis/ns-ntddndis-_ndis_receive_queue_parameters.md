@@ -58,7 +58,7 @@ The **NDIS_RECEIVE_QUEUE_PARAMETERS** structure contains the configuration param
 
 ### -field Header
 
-The type, revision, and size of the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure. This member is formatted as an [NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header) structure.
+The type, revision, and size of the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure. This member is formatted as an [NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header) structure.
 
 The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the **NDIS_NIC_SWITCH_CAPABILITIES** structure, the driver must set the **Revision** member of **Header** to one of the following values:
 
@@ -191,7 +191,7 @@ In NDIS 6.30, the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure is also used in [N
 
 ## -see-also
 
-[NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header)
+[NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
 
 
 

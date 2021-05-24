@@ -67,7 +67,7 @@ A handle to a miniport driver-allocated context area in which the miniport drive
 A pointer to the first 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
      of <b>NET_BUFFER_LIST</b> structures. Each <b>NET_BUFFER_LIST</b> structure in the list describes a list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> structure
      in the list maps to a chain of memory descriptor lists (MDLs). The MDLs contain the network data that 
      <i>MiniportCoSendNetBufferLists</i> transmits.
 
@@ -94,7 +94,7 @@ The caller can optionally set this flag if the current IRQL is DISPATCH_LEVEL. F
 
 NDIS should check for loopback. By default, NDIS does not loop back data to the driver that
        submitted the send request. An overlying driver can override this behavior by setting the
-       <b>NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK</b> flag. When this flag is set, NDIS identifies all of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+       <b>NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK</b> flag. When this flag is set, NDIS identifies all of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
        structures that contain data that matches the receive criteria for the binding. NDIS indicates
        <b>NET_BUFFER</b> structures that match the criteria to the overlying driver. This flag does not affect
        checking for loopback, or looping back, on other bindings.
@@ -183,7 +183,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

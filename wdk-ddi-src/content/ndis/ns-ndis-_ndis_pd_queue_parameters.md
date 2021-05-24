@@ -54,7 +54,7 @@ This structure is used to hold parameters for a transmit or receive queue when c
 
 ### -field Header
 
-The <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_config">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
+The <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_config">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>

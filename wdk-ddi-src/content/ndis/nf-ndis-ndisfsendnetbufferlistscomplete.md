@@ -109,7 +109,7 @@ The filter driver can complete send requests in any order. For example, the filt
     concatenate the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure lists from multiple 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists">FilterSendNetBufferLists</a> calls or split up a list from a 
     <i>FilterSendNetBufferLists</i> call. However, the filter driver must not modify the list of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with a
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that are associated with a
     <b>NET_BUFFER_LIST</b> structure.
 
 <div class="alert"><b>Note</b>  A filter driver should keep track of send requests that it originates and make
@@ -128,7 +128,7 @@ The filter driver can complete send requests in any order. For example, the filt
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

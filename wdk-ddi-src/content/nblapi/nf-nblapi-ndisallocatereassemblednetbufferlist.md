@@ -71,7 +71,7 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
 
 [in]
 The amount of data to skip at the beginning of each source 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. This amount is in addition
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure. This amount is in addition
      to the value that is specified in the 
      <b>DataOffset</b> member of the NET_BUFFER structure.
 
@@ -105,7 +105,7 @@ If the reassemble operation succeeds,
 
 <b>NdisAllocateReassembledNetBufferList</b> allocates, initializes, and returns a new 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that includes one 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure and one MDL chain. The new
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure and one MDL chain. The new
     NET_BUFFER_LIST structure describes the same data as the fragmented source NET_BUFFER_LIST structure that
     the driver passed at 
     <i>FragmentedNetBufferList</i>. After skipping the number of bytes specified in 
@@ -122,7 +122,7 @@ Call the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

@@ -59,11 +59,11 @@ A pointer to a **NET_BUFFER_SHARED_MEMORY** structure.
 
 ## -remarks
 
-An NDIS 6.20 or later driver can use the **NET_BUFFER_SHARED_MEM_NEXT_SEGMENT** macro to get the next shared memory segment in a linked list of [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md) structures that are associated with a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure. **NET_BUFFER_SHARED_MEM_NEXT_SEGMENT** gets a pointer to the next **NET_BUFFER_SHARED_MEMORY** structure from the **NextSharedMemorySegment** member of the **NET_BUFFER_SHARED_MEMORY** structure. The **SharedMemoryInfo** member of the **NET_BUFFER** structure contains the first **NET_BUFFER_SHARED_MEMORY** structure in the linked list.
+An NDIS 6.20 or later driver can use the **NET_BUFFER_SHARED_MEM_NEXT_SEGMENT** macro to get the next shared memory segment in a linked list of [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md) structures that are associated with a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure. **NET_BUFFER_SHARED_MEM_NEXT_SEGMENT** gets a pointer to the next **NET_BUFFER_SHARED_MEMORY** structure from the **NextSharedMemorySegment** member of the **NET_BUFFER_SHARED_MEMORY** structure. The **SharedMemoryInfo** member of the **NET_BUFFER** structure contains the first **NET_BUFFER_SHARED_MEMORY** structure in the linked list.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 
 [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md)
 

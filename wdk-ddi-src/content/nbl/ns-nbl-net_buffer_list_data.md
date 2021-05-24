@@ -48,7 +48,7 @@ dev_langs:
 ## -description
 
 The NET_BUFFER_LIST_DATA structure contains management data for the 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are linked to a 
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that are linked to a 
   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
@@ -61,7 +61,7 @@ A pointer to the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_L
 ### -field FirstNetBuffer
 
 A pointer to the first 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure in the linked list of
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure in the linked list of
      NET_BUFFER structures.
 
 ## -remarks
@@ -72,7 +72,7 @@ The
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

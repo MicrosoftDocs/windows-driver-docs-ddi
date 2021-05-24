@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_NEXT_NB** is a macro that NDIS drivers use to get a pointer to the next [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure in a linked list of **NET_BUFFER** structures.
+**NET_BUFFER_NEXT_NB** is a macro that NDIS drivers use to get a pointer to the next [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure in a linked list of **NET_BUFFER** structures.
 
 ## -parameters
 
@@ -55,12 +55,12 @@ A pointer to a **NET_BUFFER** structure.
 
 ## -returns
 
-**NET_BUFFER_NEXT_NB** returns a pointer to the next [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure in the linked list of **NET_BUFFER** structures, or it returns **NULL** if the end of the linked list is reached.
+**NET_BUFFER_NEXT_NB** returns a pointer to the next [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure in the linked list of **NET_BUFFER** structures, or it returns **NULL** if the end of the linked list is reached.
 
 ## -remarks
 
-**NET_BUFFER_NEXT_NB** gets the return value from the **Next** member of the [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_NEXT_NB** gets the return value from the **Next** member of the [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)

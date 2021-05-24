@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-The **NET_BUFFER_DATA_PHYSICAL_ADDRESS** macro retrieves the **DataPhysicalAddress** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+The **NET_BUFFER_DATA_PHYSICAL_ADDRESS** macro retrieves the **DataPhysicalAddress** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -55,14 +55,14 @@ A pointer to a **NET_BUFFER** structure.
 
 ## -returns
 
-**NET_BUFFER_DATA_PHYSICAL_ADDRESS** returns the **DataPhysicalAddress** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_DATA_PHYSICAL_ADDRESS** returns the **DataPhysicalAddress** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -remarks
 
-NDIS network drivers should use the **NET_BUFFER_DATA_PHYSICAL_ADDRESS** macro to get the **DataPhysicalAddress** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+NDIS network drivers should use the **NET_BUFFER_DATA_PHYSICAL_ADDRESS** macro to get the **DataPhysicalAddress** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 
 

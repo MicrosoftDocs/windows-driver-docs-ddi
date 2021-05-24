@@ -48,7 +48,7 @@ api_name:
 NDIS calls the 
    <i>MiniportReturnNetBufferLists</i> function to return ownership of 
    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures, associated 
-   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached MDLs to a
+   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures, and any attached MDLs to a
    miniport driver.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_RETURN_NET_BUFFER_LISTS</b> type.
    For more information, see the following Examples section.</div><div> </div>
@@ -134,7 +134,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

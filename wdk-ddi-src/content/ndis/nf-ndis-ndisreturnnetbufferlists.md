@@ -50,7 +50,7 @@ NDIS drivers call the
   <b>NdisReturnNetBufferLists</b> function to release ownership of a list of 
   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures, along with the
   associated 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and network data.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures and network data.
 
 ## -parameters
 
@@ -98,7 +98,7 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

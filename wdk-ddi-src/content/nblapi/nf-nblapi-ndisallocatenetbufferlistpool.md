@@ -73,7 +73,7 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_l
 In most cases, a caller that allocates a 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure will allocate and
     queue at least one 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure on that NET_BUFFER_LIST
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure on that NET_BUFFER_LIST
     structure. It is more efficient to preallocate NET_BUFFER structures when you allocate a pool of
     NET_BUFFER_LIST structures than allocating NET_BUFFER_LIST structures and NET_BUFFER structures
     separately.
@@ -111,7 +111,7 @@ Call the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

@@ -63,7 +63,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 A pointer to a linked list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      <b>NET_BUFFER_LIST</b> structure describes a list of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures.
 
 ### -param PortNumber 
 
@@ -95,7 +95,7 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 
 Specifies that NDIS should check for loopback. By default, NDIS does not loop back data to the
        driver that submitted the send request. An overlying driver can override this behavior by setting this
-       flag. When this flag is set, NDIS identifies all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that contain data that
+       flag. When this flag is set, NDIS identifies all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that contain data that
        matches the receive criteria for the binding. NDIS indicates NET_BUFFER structures that match the
        criteria to the overlying driver. This flag has no affect on checking for loopback, or looping back,
        on other bindings.
@@ -196,7 +196,7 @@ Until NDIS calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

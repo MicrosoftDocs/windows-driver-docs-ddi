@@ -48,7 +48,7 @@ dev_langs:
 Call the 
   <b>NdisFreeReassembledNetBufferList</b> function to free a reassembled 
   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure and the associated 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure and MDL chain.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure and MDL chain.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

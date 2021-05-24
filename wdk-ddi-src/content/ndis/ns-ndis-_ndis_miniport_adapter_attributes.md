@@ -56,7 +56,7 @@ The NDIS_MINIPORT_ADAPTER_ATTRIBUTES structure is a placeholder for the followin
 <dl>
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 </dd>
@@ -114,7 +114,7 @@ The NDIS_MINIPORT_ADAPTER_ATTRIBUTES structure is a placeholder for the followin
 
 ### -field Header
 
-An <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+An <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 ### -field AddDeviceRegistrationAttributes
 
@@ -201,7 +201,7 @@ Miniport drivers pass these structures to the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

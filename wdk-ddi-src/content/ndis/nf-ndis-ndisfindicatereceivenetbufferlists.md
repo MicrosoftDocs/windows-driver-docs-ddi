@@ -64,7 +64,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 A linked list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      <b>NET_BUFFER_LIST</b> structure contains one 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 
 ### -param PortNumber 
 
@@ -101,7 +101,7 @@ Specifies that the current IRQL is <b>DISPATCH_LEVEL</b>. For more information a
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
 Specifies that the filter driver reclaims ownership of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and any
-       attached <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures immediately after the call to 
+       attached <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures immediately after the call to 
        <b>NdisFIndicateReceiveNetBufferLists</b> returns.
 
 
@@ -195,7 +195,7 @@ A filter driver must set the
     <b>SourceHandle</b> member in any <b>NET_BUFFER_LIST</b> structures that it did not originate.
 
 The filter driver must properly initialize the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures, attached 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached MDLs.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures, and any attached MDLs.
 
 If a filter driver calls the 
     <b>NdisFIndicateReceiveNetBufferLists</b> function and clears the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
@@ -240,7 +240,7 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 
