@@ -2,7 +2,7 @@
 UID: NA:netadapteroffload
 title: Netadapteroffload.h header
 ms.assetid: 90917BC6-1C76-4230-848B-AC19532413EE
-ms.date: 01/17/2019
+ms.date: 10/08/2020
 keywords: ["Netadapteroffload.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
