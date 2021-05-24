@@ -49,7 +49,7 @@ The **NDIS_QOS_SQ_STATS** structure is used by [OID_QOS_OFFLOAD_SQ_STATS](/windo
 
 ### -field Header
 
-The type, revision, and size of the **NDIS_QOS_SQ_STATS** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the **NDIS_QOS_SQ_STATS** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md) structure.
 
 The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT, the **Revision** member to NDIS_QOS_SQ_STATS_REVISION_1, and the **Size** member to NDIS_SIZEOF_QOS_SQ_STATS_REVISION_1.  
 
@@ -87,4 +87,4 @@ If the query OID does not contain a valid vPortID, then the returned stats speci
 
 [**NDIS_QOS_SQ_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
 
-[**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)
+[**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md)

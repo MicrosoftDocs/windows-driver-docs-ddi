@@ -61,7 +61,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_LTE_A
 | Revision | NDIS_WWAN_LTE_ATTACH_CONTEXTS_REVISION_1 |
 | Size | sizeof(NDIS_WWAN_LTE_ATTACH_CONTEXTS) |
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field uStatus
 
@@ -93,5 +93,5 @@ This structure is used in the [NDIS_STATUS_WWAN_LTE_ATTACH_CONFIG](/windows-hard
 
 [**WWAN_LTE_ATTACH_CONFIG**](../wwan/ns-wwan-_wwan_lte_attach_config.md)
 
-[**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md)
+[**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md)
 

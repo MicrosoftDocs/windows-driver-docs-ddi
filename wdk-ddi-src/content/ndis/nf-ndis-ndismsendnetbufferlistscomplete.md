@@ -74,7 +74,7 @@ associated with the completed send requests. While the status of the send reques
 After a miniport driver calls **NdisMSendNetBufferListsComplete**, NDIS calls the
 [ProtocolSendNetBufferListsComplete](./nc-ndis-protocol_send_net_buffer_lists_complete.md) function of the driver that called the [NdisSendNetBufferLists](./nf-ndis-ndissendnetbufferlists.md) function to     initiate the send request.
 
-The miniport driver can complete send requests in any order. For example, the miniport driver could concatenate the NET_BUFFER_LIST structure lists from multiple *MiniportSendNetBufferLists* calls or split up a list from a *MiniportSendNetBufferLists* call. However, the miniport driver must not modify the list of [NET_BUFFER](./ns-ndis-_net_buffer.md) structures that are associated with a
+The miniport driver can complete send requests in any order. For example, the miniport driver could concatenate the NET_BUFFER_LIST structure lists from multiple *MiniportSendNetBufferLists* calls or split up a list from a *MiniportSendNetBufferLists* call. However, the miniport driver must not modify the list of [NET_BUFFER](./../nbl/ns-nbl-net_buffer.md) structures that are associated with a
     NET_BUFFER_LIST structure.
 
 The miniport driver must set one of the following status codes in the **Status** member of each NET_BUFFER_LIST structure that the *NetBufferLists* parameter specifies:
@@ -100,7 +100,7 @@ A miniport driver's call to
 
 [MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md)
 
-[NET_BUFFER](./ns-ndis-_net_buffer.md)
+[NET_BUFFER](./../nbl/ns-nbl-net_buffer.md)
 
 [NET_BUFFER_LIST](./../nbl/ns-nbl-net_buffer_list.md)
 

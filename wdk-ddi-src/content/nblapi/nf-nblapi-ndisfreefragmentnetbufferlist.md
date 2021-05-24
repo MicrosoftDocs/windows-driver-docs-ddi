@@ -48,7 +48,7 @@ dev_langs:
 Call the 
   <b>NdisFreeFragmentNetBufferList</b> function to free a 
   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure and all associated 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and MDL chains that were
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures and MDL chains that were
   previously allocated by the calling 
   <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
   NdisAllocateFragmentNetBufferList</a> function.
@@ -77,7 +77,7 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

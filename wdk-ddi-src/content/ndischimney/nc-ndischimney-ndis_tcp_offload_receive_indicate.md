@@ -69,7 +69,7 @@ A pointer to a
       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
       describes a list of 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each 
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures. Each 
       <b>NET_BUFFER</b> structure in the list maps to a
       chain of 
       <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">memory descriptor lists (MDLs)</a>. The MDLs contain the
@@ -83,7 +83,7 @@ The
       structure in a linked list of 
       <b>NET_BUFFER_LIST</b> structures.
       Offload targets can work around this limitation by chaining as many MDLs as necessary to the same 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> in an offload receive
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> in an offload receive
       indication.
 
 ### -param Status 
@@ -187,7 +187,7 @@ Zero-byte receive requests
 The host stack can post a zero-byte receive request to enable receive indications by the offload
       target. A zero-byte receive request is one in which the value of the 
       <b>DataLength</b> member (for more information, see 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure) is zero. A
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure) is zero. A
       zero-byte receive request does not consume any buffered data.
 
 </li>
@@ -285,7 +285,7 @@ In the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

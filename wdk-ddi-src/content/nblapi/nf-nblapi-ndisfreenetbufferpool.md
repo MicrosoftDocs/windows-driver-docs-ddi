@@ -47,7 +47,7 @@ dev_langs:
 
 Call the 
   <b>NdisFreeNetBufferPool</b> function to free 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure pools that are created with
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure pools that are created with
   the 
   <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
   NdisAllocateNetBufferPool</a> function.
@@ -62,14 +62,14 @@ The pool handle for the NET_BUFFER structure pool to be freed.
 ## -remarks
 
 You should free all the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a pool before freeing
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures in a pool before freeing
     the NET_BUFFER structure pool. Call the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a> function to free each
     NET_BUFFER structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

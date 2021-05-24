@@ -59,7 +59,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_M
 | Revision | NDIS_WWAN_SET_MODEM_LOGGING_CONFIG_REVISION_1 |
 | Size | sizeof(NDIS_WWAN_SET_MODEM_LOGGING_CONFIG) |
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field ModemLoggingConfig
 

@@ -47,7 +47,7 @@ dev_langs:
 
 Call the 
   <b>NdisFreeNetBuffer</b> function to free a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure that was previously allocated
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure that was previously allocated
   from a NET_BUFFER structure pool with the 
   <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a> function.
 
@@ -61,7 +61,7 @@ A pointer to a NET_BUFFER structure that was allocated by calling
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

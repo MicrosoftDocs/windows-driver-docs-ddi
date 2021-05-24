@@ -182,7 +182,7 @@ Call the
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">FwpsFreeNetBufferList0</a> function to
     free the 
     <i>reassembledNbl</i> NET_BUFFER_LIST structure and all of the associated 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and MDL chains. 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures and MDL chains. 
     <b>FwpsFreeNetBufferList0</b> dereferences the original input fragment chain.
 
 You can use the following command to view the current "Group Forwarded Fragments" setting for the
@@ -199,7 +199,7 @@ Because
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

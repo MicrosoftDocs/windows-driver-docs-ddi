@@ -70,7 +70,7 @@ To allocate a
     NdisAllocateNetBufferAndNetBufferList</a> function.
 
 The 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that are associated with
     the NET_BUFFER_LIST structure are not freed unless they were preallocated with the NET_BUFFER_LIST
     structure. You can reuse any NET_BUFFER structures that were not preallocated or you should free such
     structures separately.
@@ -86,7 +86,7 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

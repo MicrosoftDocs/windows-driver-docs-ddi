@@ -60,7 +60,7 @@ The DOT11_CIPHER_DEFAULT_KEY_VALUE structure defines a default cipher key or per
 ### -field Header
 
 The type, revision, and size of the DOT11_CIPHER_DEFAULT_KEY_VALUE structure. This member is
-formatted as an [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md) structure.
+formatted as an [NDIS_OBJECT_HEADER](..\objectheader\ns-objectheader-ndis_object_header.md) structure.
 
 The miniport driver must set the members of *Header* to the following values:
 
@@ -81,7 +81,7 @@ This member must be set to DOT11_CIPHER_DEFAULT_KEY_VALUE_REVISION_1.
 
 This member must be set to `sizeof(DOT11_CIPHER_DEFAULT_KEY_VALUE)`.
 
-For more information about these members, see [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [NDIS_OBJECT_HEADER](..\objectheader\ns-objectheader-ndis_object_header.md).
 
 ### -field uKeyIndex
 
@@ -204,5 +204,5 @@ If the **bDelete** member is **TRUE**, the following members are not valid and m
 
 
 
-[NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)
+[NDIS_OBJECT_HEADER](..\objectheader\ns-objectheader-ndis_object_header.md)
 

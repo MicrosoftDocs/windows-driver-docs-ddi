@@ -49,7 +49,7 @@ dev_langs:
 Call the 
   <b>NdisRetreatNetBufferListDataStart</b> function to increase the 
   <i>used data space</i> in all the 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a 
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures in a 
   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -parameters
@@ -143,7 +143,7 @@ Calling
     <b>NdisRetreatNetBufferListDataStart</b> is the equivalent of calling the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
     NdisRetreatNetBufferDataStart</a> function for every 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure on the 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure on the 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. 
     <b>NdisRetreatNetBufferListDataStart</b> attempts to satisfy the request by reducing the value of the 
     <b>DataOffset</b> member in every NET_BUFFER structure. If there is not enough 
@@ -161,7 +161,7 @@ Call the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 
