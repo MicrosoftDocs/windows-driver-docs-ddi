@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -37,9 +37,6 @@ dev_langs:
 ---
 
 ## -description
-
-> [!NOTE]
-> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 **IDDCX_SYSTEM_BUFFER_INFO** holds the resulting buffer-specific information after a buffer release and acquire operation.
 

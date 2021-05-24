@@ -139,8 +139,8 @@ It is good practice to zero memory for memory allocation, especially for allocat
 
 Based on the driver's usage pattern of the allocated memory, the recommendation for driver writers is to consider:
 
-* Using a zero-allocation API ([**ExAllocatePool2**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2), [**ExAllocatePoolZero**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolzero) for kernel mode; [**HeapAlloc**](/windows/win32/api/heapapi/nf-heapapi-heapalloc) with the **HEAP_ZERO_MEMORY** flag for user mode), followed by [**WdfMemoryCreatePreallocated**](/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated)
-* Or, [**RtlZeroMemory**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory) immediately after calling **WdfMemoryCreate**
+* Using a zero-allocation API ([**ExAllocatePool2**](../wdm/nf-wdm-exallocatepool2.md), [**ExAllocatePoolZero**](../wdm/nf-wdm-exallocatepoolzero.md) for kernel mode; [**HeapAlloc**](/windows/win32/api/heapapi/nf-heapapi-heapalloc) with the **HEAP_ZERO_MEMORY** flag for user mode), followed by [**WdfMemoryCreatePreallocated**](./nf-wdfmemory-wdfmemorycreatepreallocated.md)
+* Or, [**RtlZeroMemory**](../wdm/nf-wdm-rtlzeromemory.md) immediately after calling **WdfMemoryCreate**
 
 The default parent object for each memory object is the framework driver object that represents the driver that called <b>WdfMemoryCreate</b>. If your driver creates a memory object that it uses with a specific device object, request object, or other framework object, it should set the memory object's parent appropriately. The memory object and its buffer will be deleted when the parent object is deleted. If you do not change the default parent object, the memory object and its buffer will remain until the I/O manager unloads your driver. 
 

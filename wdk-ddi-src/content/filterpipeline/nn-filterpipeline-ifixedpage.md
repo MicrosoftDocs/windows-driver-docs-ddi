@@ -51,7 +51,7 @@ A filter uses the <b>IFixedPage</b> interface to work with fixed pages in an XPS
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IFixedPage</b> interface inherits from <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IFixedPage</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION
 title: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION
-ms.date: 10/28/2020
+ms.date: 05/18/2021
 ms.topic: language-reference
 targetos: Windows
 description:
@@ -101,7 +101,6 @@ If no extended configurations are provided, common buffer creation uses the enti
 
 [**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_type.md) enumeration
 
-[**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-_dma_common_buffer_extended_configuration_access_type.md) enumeration
+[**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-dma_common_buffer_extended_configuration_access_type.md) enumeration
 
 [*PCREATE_COMMON_BUFFER_FROM_MDL*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback routine
-

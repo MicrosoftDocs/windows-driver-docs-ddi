@@ -51,8 +51,8 @@ Provides the primary method to access and validate a PrintTicket.
 
 The **IPrintSchemaTicket** interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>. **IPrintSchemaTicket** also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="/">Methods</a></li>
+<li><a href="/">Properties</a></li>
 </ul>
 
 ## -remarks

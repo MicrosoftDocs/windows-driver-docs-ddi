@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._MPIO_PASS_THROUGH_PATH_DIRECT_EX
-title: _MPIO_PASS_THROUGH_PATH_DIRECT_EX (ntddscsi.h)
+title: MPIO_PASS_THROUGH_PATH_DIRECT_EX (ntddscsi.h)
 description: The MPIO_PASS_THROUGH_PATH_DIRECT_EX structure is used together with an IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\mpio_pass_through_path_direct_ex.htm
 tech.root: storage
@@ -46,61 +46,52 @@ api_name:
  - MPIO_PASS_THROUGH_PATH_DIRECT_EX
 ---
 
-# _MPIO_PASS_THROUGH_PATH_DIRECT_EX structure
-
+# MPIO_PASS_THROUGH_PATH_DIRECT_EX structure
 
 ## -description
 
-The <b>MPIO_PASS_THROUGH_PATH_DIRECT_EX</b> structure is used together with an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a> request to instruct the port driver to send an embedded SCSI command to the target device.
+The **MPIO_PASS_THROUGH_PATH_DIRECT_EX** structure is used together with an [**IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX**](ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex.md) request to instruct the port driver to send an embedded SCSI command to the target device.
 
 ## -struct-fields
 
 ### -field PassThroughOffset
 
-The offset from the beginning of this structure to a <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct_ex">SCSI_PASS_THROUGH_DIRECT_EX</a> structure that is configured in the same manner as it is for an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct_ex">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a> request.
+The offset from the beginning of this structure to a [**SCSI_PASS_THROUGH_DIRECT_EX**](ns-ntddscsi-_scsi_pass_through_direct_ex.md) structure that is configured in the same manner as it is for an [**IOCTL_SCSI_PASS_THROUGH_DIRECT_EX**](ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md) request.
 
 ### -field Version
 
-Should be zero.
+Set to zero.
 
 ### -field Length
 
-The size of the <b>MPIO_PASS_THROUGH_PATH_DIRECT_EX</b> structure.
+The size of the **MPIO_PASS_THROUGH_PATH_DIRECT_EX** structure, in bytes.
 
 ### -field Flags
 
-###### 
+Can be a mask of the following values:
 
-
-
-##########
+* MPIO_IOCTL_FLAG_USE_SCSIADDRESS OR MPIO_IOCTL_FLAG_USE_PATHID
+* MPIO_IOCTL_FLAG_INVOLVE_DSM
 
 ### -field PortNumber
 
-The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this member is zero. If MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set, the <b>PathId</b> and <b>TargetId</b> values are taken from the embedded <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct_ex">SCSI_PASS_THROUGH_DIRECT_EX</a> structure.
+The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this member is zero. If MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set, the **PathId** and **TargetId** values are taken from the embedded [**SCSI_PASS_THROUGH_DIRECT_EX**](ns-ntddscsi-_scsi_pass_through_direct_ex.md) structure.
 
 ### -field MpioPathId
 
-The <b>PathId</b> for the real LUN. This value can be obtained by using a WMI request for the PDO_INFORMATION that is associated with the real LUN. This value is set only if MPIO_IOCTL_FLAG_USE_PATHID is set.
+The **PathId** for the real LUN. This value can be obtained by using a WMI request for the PDO_INFORMATION that is associated with the real LUN. This value is set only if MPIO_IOCTL_FLAG_USE_PATHID is set.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  All 32 bit processes running on a 64 bit version of Windows must use the <b>MPIO_PASS_THROUGH_PATH_DIRECT32_EX</b> structure when issuing an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a> request.</div>
-<div> </div>
+> [!NOTE]
+> All 32-bit processes running on a 64-bit version of Windows must use the **MPIO_PASS_THROUGH_PATH_DIRECT32_EX** structure when issuing an [**IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX**](ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex.md) request.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
+[**IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX**](ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex.md)
 
+[**IOCTL_SCSI_PASS_THROUGH_DIRECT_EX**](ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md)
 
+[**SCSI_PASS_THROUGH_DIRECT_EX**](ns-ntddscsi-_scsi_pass_through_direct_ex.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct_ex">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct_ex">SCSI_PASS_THROUGH_DIRECT_EX</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
-
+[**STORAGE_REQUEST_BLOCK**](../srb/ns-srb-_storage_request_block.md)

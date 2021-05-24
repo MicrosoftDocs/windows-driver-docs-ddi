@@ -49,7 +49,7 @@ api_name:
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl6</b> interface inherits from <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>. <b>IDebugControl6</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

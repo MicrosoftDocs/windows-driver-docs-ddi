@@ -95,7 +95,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 For read, write and IOCTL requests, it is necessary for the driver to call **WdfRequestCompleteWithInformation**
 
-For a non-data transfer request, calling [**WdfRequestComplete**](/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete) instead is an option.
+For a non-data transfer request, calling [**WdfRequestComplete**](./nf-wdfrequest-wdfrequestcomplete.md) instead is an option.
 
 Calling <b>WdfRequestCompleteWithInformation</b> is equivalent to calling <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsetinformation">WdfRequestSetInformation</a> and then calling <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a>.
 
