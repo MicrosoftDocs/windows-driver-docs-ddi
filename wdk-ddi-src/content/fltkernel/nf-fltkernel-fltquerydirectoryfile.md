@@ -174,4 +174,4 @@ Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and
 
 [UNICODE_STRING](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
 
-[ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047")
+[ZwQueryDirectoryFile](../ntifs/nf-ntifs-zwquerydirectoryfile.md)
