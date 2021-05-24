@@ -197,15 +197,15 @@ The caller is querying for how many bytes have been read/write from a solid-stat
 
 ### -field StorageDeviceLedStateProperty
 
-The caller is querying for the LED state of the device. Data is returned using the [**STORAGE_DEVICE_LED_STATE_DESCRIPTOR**](ns-ntddstor-storage_device_led_state_descriptor.md) structure. This property is currently supported only for certain NVMe devices. Supported in Windows 10 version 21H1 and later.
+The caller is querying for the LED state of the device. Data is returned using the [**STORAGE_DEVICE_LED_STATE_DESCRIPTOR**](ns-ntddstor-storage_device_led_state_descriptor.md) structure. This property is currently supported only for certain NVMe devices. Supported in Windows Server 2022 and later.
 
 ### -field StorageDeviceSelfEncryptionProperty
 
-The caller is querying to determine whether the device supports self encryption. Data is returned using the [**STORAGE_DEVICE_SELF_ENCRYPTION_PROPERTY**](ns-ntddstor-storage_device_self_encryption_property.md) structure. Supported in Windows 10 version 21H1 and later.
+The caller is querying to determine whether the device supports self encryption. Data is returned using the [**STORAGE_DEVICE_SELF_ENCRYPTION_PROPERTY**](ns-ntddstor-storage_device_self_encryption_property.md) structure. Supported in Windows Server 2022 and later.
 
 ### -field StorageFruIdProperty
 
-The caller is querying for the ID of a fault replacement unit (FRU). Data is returned using the [**STORAGE_FRU_ID_DESCRIPTOR**](ns-ntddstor-storage_fru_id_descriptor.md) structure. Supported in Windows 10 version 21H1 and later.
+The caller is querying for the ID of a fault replacement unit (FRU). Data is returned using the [**STORAGE_FRU_ID_DESCRIPTOR**](ns-ntddstor-storage_fru_id_descriptor.md) structure. Supported in Windows Server 2022 and later.
 
 ## -remarks
 
