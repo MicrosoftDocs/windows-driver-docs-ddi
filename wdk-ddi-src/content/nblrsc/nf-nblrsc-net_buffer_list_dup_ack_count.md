@@ -59,7 +59,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -remarks
 
-This macro uses the [NET_BUFFER_LIST_INFO](nf-ndis-net_buffer_list_info.md) macro to access the **TcpRecvSegCoalesceInfo** information.
+This macro uses the [NET_BUFFER_LIST_INFO](../nblaccessors/nf-nblaccessors-net_buffer_list_info.md) macro to access the **TcpRecvSegCoalesceInfo** information.
 
 ## -see-also
 
@@ -67,4 +67,4 @@ This macro uses the [NET_BUFFER_LIST_INFO](nf-ndis-net_buffer_list_info.md) macr
 
 [**NDIS_RSC_NBL_INFO**](ns-ndis-_ndis_rsc_nbl_info.md)
 
-[NET_BUFFER_LIST_INFO](nf-ndis-net_buffer_list_info.md)
+[NET_BUFFER_LIST_INFO](../nblaccessors/nf-nblaccessors-net_buffer_list_info.md)

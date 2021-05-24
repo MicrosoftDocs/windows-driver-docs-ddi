@@ -112,7 +112,7 @@ If the reassemble operation succeeds,
     <i>StartOffset</i> in every fragmented NET_BUFFER structure, NDIS concatenates the remaining data in each
     fragmented NET_BUFFER structure into one reassembled NET_BUFFER structure. Reassembled NET_BUFFER_LIST
     structures do not include an initial 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
@@ -130,7 +130,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

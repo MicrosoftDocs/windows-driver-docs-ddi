@@ -75,7 +75,7 @@ A <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">N
 ### -field Context
 
 A pointer to a 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure.
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure.
       Protocol and miniport drivers use this structure to store information about the NET_BUFFER_LIST
       structure. Information stored in the NET_BUFFER_LIST_CONTEXT structure is opaque to NDIS and other
       drivers in the stack.
@@ -489,7 +489,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

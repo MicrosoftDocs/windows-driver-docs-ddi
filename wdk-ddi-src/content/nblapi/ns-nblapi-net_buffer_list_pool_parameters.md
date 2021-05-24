@@ -113,7 +113,7 @@ For more information, see the Remarks section.
 ### -field ContextSize
 
 The size, in bytes, of the preallocated 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
+       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
        data that NDIS should provide for the NET_BUFFER_LIST structures in this pool. The 
        <b>ContextSize</b> must be a multiple of the value that is defined by MEMORY_ALLOCATION_ALIGNMENT.
 

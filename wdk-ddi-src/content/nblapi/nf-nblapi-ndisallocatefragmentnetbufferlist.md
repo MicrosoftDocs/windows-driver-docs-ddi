@@ -166,7 +166,7 @@ If NDIS must allocate memory to supply the data space requested in
 </ul>
 The new fragment NET_BUFFER_LIST structure that 
     <b>NdisAllocateFragmentNetBufferList</b> creates does not include an initial 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
@@ -185,7 +185,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-The **NET_BUFFER_SHARED_MEM_LENGTH** macro gets the shared memory length from a [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md) structure.
+The **NET_BUFFER_SHARED_MEM_LENGTH** macro gets the shared memory length from a [**NET_BUFFER_SHARED_MEMORY**](../nbl/ns-nbl-net_buffer_shared_memory.md) structure.
 
 ## -parameters
 
@@ -59,11 +59,11 @@ A pointer to a **NET_BUFFER_SHARED_MEMORY** structure.
 
 ## -remarks
 
-An NDIS 6.20 or later driver can use the **NET_BUFFER_SHARED_MEM_LENGTH** macro to get the shared memory length that is associated with a [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md) structure. **NET_BUFFER_SHARED_MEM_LENGTH** gets the length from the **SharedMemoryLength** member of the **NET_BUFFER_SHARED_MEMORY** structure. The **SharedMemoryInfo** member of the [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure contains the first **NET_BUFFER_SHARED_MEMORY** structure in a linked list.
+An NDIS 6.20 or later driver can use the **NET_BUFFER_SHARED_MEM_LENGTH** macro to get the shared memory length that is associated with a [**NET_BUFFER_SHARED_MEMORY**](../nbl/ns-nbl-net_buffer_shared_memory.md) structure. **NET_BUFFER_SHARED_MEM_LENGTH** gets the length from the **SharedMemoryLength** member of the **NET_BUFFER_SHARED_MEMORY** structure. The **SharedMemoryInfo** member of the [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure contains the first **NET_BUFFER_SHARED_MEMORY** structure in a linked list.
 
 ## -see-also
 
 [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 
-[**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md)
+[**NET_BUFFER_SHARED_MEMORY**](../nbl/ns-nbl-net_buffer_shared_memory.md)
 

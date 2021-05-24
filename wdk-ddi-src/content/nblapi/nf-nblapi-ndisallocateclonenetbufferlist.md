@@ -120,7 +120,7 @@ The clone <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET
     <i>OriginalNetBufferList</i>. NDIS does not copy the data that is described by the original MDLs to new
     data buffers. Instead, the cloned structures reference the original data buffers. The clone
     <b>NET_BUFFER_LIST</b> structure does not include an initial 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
@@ -139,7 +139,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
