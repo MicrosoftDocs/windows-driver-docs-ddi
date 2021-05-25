@@ -57,7 +57,7 @@ a [**DXGIDDI_PARTITIONING_EVENT_TYPE**](ne-d3dkmddi-dxgiddi_partitioning_event_t
 
 ### -field PartitionId
 
-The notification structure is the same as used elsewhere in the GPU Partitioning DDI (for example, [**DXGKDDI_CREATEVIRTUALGPU**](nc-dispmprt-dxgkddi_createvirtualgpu.md)) and is a number in 0 to (Partitions - 1) when the event refers to something occurring to a virtual function. If the event refers to something occurring in the context of the physical function, it should report ULONG_MAX - 1. To identify events that occur across the entire GPU, it should report ULONG_MAX.
+The notification structure is the same as used elsewhere in the GPU Partitioning DDI (for example, [**DXGKDDI_CREATEVIRTUALGPU**](../dispmprt/nc-dispmprt-dxgkddi_createvirtualgpu.md)) and is a number in 0 to (Partitions - 1) when the event refers to something occurring to a virtual function. If the event refers to something occurring in the context of the physical function, it should report ULONG_MAX - 1. To identify events that occur across the entire GPU, it should report ULONG_MAX.
 
 ### -field EventDescription
 

@@ -41,7 +41,7 @@ api_name:
 A driver can use IOCTL_STORAGE_SET_PROPERTY to set the properties of a storage device or adapter.
 
 > [!NOTE]
-> Due to colliding IOCTL definitions, existing software that uses IOCTL_STORAGE_SET_PROPERTY will need to be recompiled on the next version of Windows 10 after version 2004.
+> Due to colliding IOCTL definitions in Windows 10 version 2004, existing software that uses IOCTL_STORAGE_SET_PROPERTY will need to be recompiled on Windows Server 2022.
 
 ## -ioctlparameters
 
