@@ -1,10 +1,9 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_REGISTER_PARAMS
-tech.root: 
-title: NDIS_WWAN_SET_REGISTER_PARAMS
+tech.root: description: 
 ms.date: 
 targetos: Windows
-description: 
+description: The NDIS_WWAN_SET_REGISTER_PARAMS structure represents data for OID_WWAN_REGISTER_PARAMS set requests.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

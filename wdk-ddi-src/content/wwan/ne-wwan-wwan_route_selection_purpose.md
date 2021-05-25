@@ -2,6 +2,7 @@
 UID: NE:wwan._WWAN_ROUTE_SELECTION_PURPOSE
 tech.root: 
 title: WWAN_ROUTE_SELECTION_PURPOSE
+description: 
 ms.date: 
 targetos: Windows
 description: 

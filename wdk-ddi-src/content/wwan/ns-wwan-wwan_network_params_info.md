@@ -2,9 +2,10 @@
 UID: NS:wwan._WWAN_NETWORK_PARAMS_INFO
 tech.root: 
 title: WWAN_NETWORK_PARAMS_INFO
+description: 
 ms.date: 
 targetos: Windows
-description: 
+description: The WWAN_NETWORK_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-WWAN_NETWORK_PARAMS_INFO is a data structure for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
+The **WWAN_NETWORK_PARAMS_INFO** structure represents data for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
 
 ## -struct-fields
 

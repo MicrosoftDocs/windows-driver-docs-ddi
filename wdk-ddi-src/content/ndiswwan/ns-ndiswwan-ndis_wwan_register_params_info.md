@@ -2,6 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_REGISTER_PARAMS_INFO
 tech.root: 
 title: NDIS_WWAN_REGISTER_PARAMS_INFO
+descriptioh: The NDIS_WWAN_REGISTER_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
 ms.date: 
 targetos: Windows
 description: 

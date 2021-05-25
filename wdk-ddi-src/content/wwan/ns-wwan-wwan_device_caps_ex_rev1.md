@@ -2,6 +2,7 @@
 UID: NS:wwan._WWAN_DEVICE_CAPS_EX_REV1
 tech.root: 
 title: WWAN_DEVICE_CAPS_EX_REV1
+description: The WWAN_DEVICE_CAPS_EX_REV1 structure represents the capabilities of a mobile broadband device.
 ms.date: 
 targetos: Windows
 description: 

@@ -2,6 +2,7 @@
 UID: NS:wwan._WWAN_SINGLE_TAI
 tech.root: 
 title: WWAN_SINGLE_TAI
+description: The WWAN_SINGLE_TAI structure represents a single Tracking Area Identity (TAI).
 ms.date: 
 targetos: Windows
 description: 
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The WWAN_SINGLE_TAI structure represents a single Tracking Area Identity (TAI). The TAI contains the Mobile Country Code (MCC), Mobile Network Code (MNC) and Tracking Area Code (TAC)).
+The **WWAN_SINGLE_TAI** structure represents a single Tracking Area Identity (TAI). The TAI contains the Mobile Country Code (MCC), Mobile Network Code (MNC) and Tracking Area Code (TAC)).
 
 ## -struct-fields
 

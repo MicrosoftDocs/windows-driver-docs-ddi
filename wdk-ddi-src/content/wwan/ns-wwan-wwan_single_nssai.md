@@ -2,6 +2,7 @@
 UID: NS:wwan._WWAN_SINGLE_NSSAI
 tech.root: 
 title: WWAN_SINGLE_NSSAI
+description: The WWAN_SINGLE_NSSAI structure represents a single Network Slice Selection Assistance Information (NSSAI).
 ms.date: 
 targetos: Windows
 description: 
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The WWAN_SINGLE_NSSAI structure represents a single Network Slice Selection Assistance Information (NSSAI). WWAN_SINGLE_NSSAI is used to uniquely identify a network slice.
+The **WWAN_SINGLE_NSSAI** structure represents a single Network Slice Selection Assistance Information (NSSAI). WWAN_SINGLE_NSSAI is used to uniquely identify a network slice.
 
 ## -struct-fields
 

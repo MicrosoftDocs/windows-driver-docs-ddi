@@ -2,6 +2,7 @@
 UID: NS:wwan._WWAN_REJECTED_SNSSAI
 tech.root: 
 title: WWAN_REJECTED_SNSSAI
+description: The WWAN_REJECTED_SNSSAI structure contains information about a single Network Slice Selection Assistance Information (S-NSSAI) that was rejected.
 ms.date: 
 targetos: Windows
 description: 
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The WWAN_REJECTED_SNSSAI structure contains information about a single Network Slice Selection Assistance Information (S-NSSAI) that was rejected.
+The **WWAN_REJECTED_SNSSAI** structure contains information about a single Network Slice Selection Assistance Information (S-NSSAI) that was rejected.
 
 ## -struct-fields
 

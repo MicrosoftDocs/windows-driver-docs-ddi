@@ -2,6 +2,7 @@
 UID: NE:wwan._WWAN_MICO_IND
 tech.root: 
 title: WWAN_MICO_IND
+description: The WWAN_MICO_IND enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode.
 ms.date: 
 targetos: Windows
 description: 
@@ -36,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The WWAN_MICO_IND enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode. MICO is a mode of operation for 5G devices.
+The **WWAN_MICO_IND** enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode. MICO is a mode of operation for 5G devices.
 
 ## -enum-fields
 

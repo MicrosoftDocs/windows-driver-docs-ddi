@@ -2,6 +2,7 @@
 UID: NS:wwan._WWAN_READY_INFO_REV1
 tech.root: 
 title: WWAN_READY_INFO_REV1
+description: The WWAN_READY_INFO_REV1 structure represents the ready-state of the MB device.
 ms.date: 
 targetos: Windows
 description: 
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The WWAN_READY_INFO_REV1 structure represents the ready-state of the MB device. WWAN_READY_INFO_REV1 updates [WWAN_READY_INFO](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info) by removing the *StatusFlags* field.
+The **WWAN_READY_INFO_REV1** structure represents the ready-state of the MB device. WWAN_READY_INFO_REV1 updates [WWAN_READY_INFO](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info) by removing the *StatusFlags* field.
 
 ## -struct-fields
 

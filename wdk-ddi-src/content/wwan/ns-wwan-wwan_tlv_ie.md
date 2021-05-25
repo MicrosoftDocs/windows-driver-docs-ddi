@@ -2,6 +2,7 @@
 UID: NS:wwan._WWAN_TLV_IE
 tech.root: 
 title: WWAN_TLV_IE
+description: WWAN_TLV_IE is a variable-sized data structure for exchanging a wide range of information between a WWAN host and a device.
 ms.date: 
 targetos: Windows
 description: 
@@ -43,7 +44,7 @@ dev_langs:
 
 ## -description
 
-A variable-sized data structure that is capable of exchanging a wide range of information between a WWAN host and a WWAN device.
+**WWAN_TLV_IE** is a variable-sized data structure for exchanging a wide range of information between a WWAN host and a device.
 
 ## -struct-fields
 
