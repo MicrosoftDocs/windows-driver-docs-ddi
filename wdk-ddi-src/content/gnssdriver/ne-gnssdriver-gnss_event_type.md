@@ -4,14 +4,14 @@ title: GNSS_EVENT_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
 old-location: gnss\gnss_event_type.htm
 tech.root: gnss
-ms.date: 11/03/2020
+ms.date: 04/05/2021
 keywords: ["GNSS_EVENT_TYPE enumeration"]
 ms.keywords: GNSS_EVENT_TYPE, GNSS_EVENT_TYPE enumeration [Sensor Devices], GNSS_Event_BreadcrumbAlertEvent, GNSS_Event_Custom, GNSS_Event_DriverRequest, GNSS_Event_Error, GNSS_Event_FixAvailable, GNSS_Event_GeofenceAlertData, GNSS_Event_GeofencesTrackingStatus, GNSS_Event_NiRequest, GNSS_Event_NmeaData, GNSS_Event_RequireAgnss, gnss.gnss_event_type, gnssdriver/GNSS_EVENT_TYPE, gnssdriver/GNSS_Event_BreadcrumbAlertEvent, gnssdriver/GNSS_Event_Custom, gnssdriver/GNSS_Event_DriverRequest, gnssdriver/GNSS_Event_Error, gnssdriver/GNSS_Event_FixAvailable, gnssdriver/GNSS_Event_GeofenceAlertData, gnssdriver/GNSS_Event_GeofencesTrackingStatus, gnssdriver/GNSS_Event_NiRequest, gnssdriver/GNSS_Event_NmeaData, gnssdriver/GNSS_Event_RequireAgnss
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -80,17 +80,23 @@ The GNSS engine is unable to track one or more geofences due to bad signal condi
 
 ### -field GNSS_Event_DriverRequest
 
-Reserved for future extension. The GNSS driver is requesting some out-of-band information from the HLOS.
+Reserved for future extension.
+
+The GNSS driver is requesting some out-of-band information from the HLOS.
 
 ### -field GNSS_Event_BreadcrumbAlertEvent
 
-Reserved for future extension: 0x0012-0x7FFF
+Reserved for future extension: 0x0012-0x7FFF.
 
 For each new event type, there will be a well-defined IOCTL describing the initiation process of this event by the adapter, and a well-defined event data structure describing the data/command associated with this event.
 
+### -field GNSS_Event_FixAvailable_2
+
+The fix data included in the event data in the [GNSS_FIXDATA_2](ns-gnssdriver-gnss_fixdata_2.md) structure.
+
 ### -field GNSS_Event_Custom
 
-Reserved for vendor-specific custom actions: 0x8000-0xFFFF
+Reserved for vendor-specific custom actions: 0x8000-0xFFFF.
 
 The GNSS driver raises this event as needed. The command and data are packaged in an opaque blob as part of the event data. The package is sent up to the adapter for marshaling to the GNSS helper component.
 
