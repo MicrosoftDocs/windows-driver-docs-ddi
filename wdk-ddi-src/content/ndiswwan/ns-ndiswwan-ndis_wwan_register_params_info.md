@@ -2,7 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_REGISTER_PARAMS_INFO
 tech.root: 
 title: NDIS_WWAN_REGISTER_PARAMS_INFO
-descriptioh: The NDIS_WWAN_REGISTER_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
+description: The NDIS_WWAN_REGISTER_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
 ms.date: 
 targetos: Windows
 description: 
@@ -58,7 +58,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_REGIS
 | Revision | NDIS_WWAN_REGISTER_PARAMS_INFO_REVISION_1 |
 | Size | sizeof(NDIS_WWAN_REGISTER_PARAMS_INFO) |
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header).
 
 ### -field uStatus
 
@@ -73,10 +73,10 @@ The status of system capability. The following table shows the possible values f
 
 ### -field RegisterParamsInfo
 
-A formatted [**WWAN_REGISTER_PARAMS_INFO**](../wwan/ns-wwan-wwan_register_params_info.md) structure that describes the parameters.
+A formatted [**WWAN_REGISTER_PARAMS_INFO**](../wwan/ns-wwan-wwan_register_params_info) structure that describes the parameters.
 
 ## -see-also
 
-[**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md)
+[**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header)
 
-[**WWAN_REGISTER_PARAMS_INFO**](../wwan/ns-wwan-wwan_register_params_info.md)
+[**WWAN_REGISTER_PARAMS_INFO**](../wwan/ns-wwan-wwan_register_params_info)
