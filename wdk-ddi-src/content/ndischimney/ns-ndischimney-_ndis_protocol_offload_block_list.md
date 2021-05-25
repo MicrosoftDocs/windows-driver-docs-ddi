@@ -60,7 +60,7 @@ The NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 ### -field Header
 
 The header of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
      NDIS_OBJECT_HEADER structure contains the revision number of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
      structure, the type of offload state that immediately follows the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
      structure in memory, and the size of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure, including the
@@ -495,7 +495,7 @@ When a protocol or intermediate driver specifies a non-<b>NULL</b> value,
       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that can be a
       stand-alone structure or the first structure in a linked list of such structures. Each NET_BUFFER_LIST
       structure in the linked list describes one 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
       maps to a chain of memory descriptor lists (MDLs). The NET_BUFFER_LIST and associated structures are
       locked so that they remain resident in physical memory. However, they are not mapped into system
       memory.
@@ -536,7 +536,7 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -12,8 +12,8 @@ f1_keywords:
 req.header: wdm.h
 req.include-header:
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 10, version [FUTURE]
-req.target-min-winversvr:
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:

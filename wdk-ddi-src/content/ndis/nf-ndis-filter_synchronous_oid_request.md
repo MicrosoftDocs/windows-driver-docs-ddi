@@ -58,7 +58,7 @@ A handle to the context area for the filter module that is the target of this re
 ### -param OidRequest 
 
 [in, out]
-A pointer to an [**NDIS_OID_REQUEST**](ns-ndis-_ndis_oid_request.md) structure that specifies the operation requested.
+A pointer to an [**NDIS_OID_REQUEST**](../oidrequest/ns-oidrequest-ndis_oid_request.md) structure that specifies the operation requested.
 
 ### -param CallContext 
 
@@ -81,7 +81,7 @@ This function returns one of the following appropriate NDIS_STATUS codes:
 
 *FilterSynchronousOidRequest* is an optional function. If a filter driver does not need to observe or modify Synchronous OID requests sent to the miniport driver, the filter driver should set the entry point for this function to **NULL** when it calls [**NdisFRegisterFilterDriver**](nf-ndis-ndisfregisterfilterdriver.md).
 
-NDIS calls the filter driver’s *FilterSynchronousOidRequest* function to process Synchronous OID requests that are originated by overlying drivers. Filter drivers can read or modify some fields in the [**NDIS_OID_REQUEST**](ns-ndis-_ndis_oid_request.md) structure as follows:
+NDIS calls the filter driver’s *FilterSynchronousOidRequest* function to process Synchronous OID requests that are originated by overlying drivers. Filter drivers can read or modify some fields in the [**NDIS_OID_REQUEST**](../oidrequest/ns-oidrequest-ndis_oid_request.md) structure as follows:
 
 | Field | Filter access |
 | --- | --- |

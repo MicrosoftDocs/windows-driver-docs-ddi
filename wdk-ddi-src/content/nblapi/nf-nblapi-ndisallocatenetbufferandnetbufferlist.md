@@ -49,7 +49,7 @@ Call the
   <b>NdisAllocateNetBufferAndNetBufferList</b> function to allocate and initialize a 
   <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is initialized
   with a preallocated 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
 [in]
 The amount of 
      <i>used data space</i> in the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the caller. The 
      <i>ContextSize</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
@@ -117,7 +117,7 @@ The structures that the
     <b>NdisAllocateNetBufferAndNetBufferList</b> function allocates must come from a pool that includes 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are paired
     with preallocated 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. To create such a pool, you
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures. To create such a pool, you
     must call the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
     NdisAllocateNetBufferListPool</a> function with the 
@@ -125,7 +125,7 @@ The structures that the
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, and the 
     <b>DataSize</b> member set to zero.
 
-<div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> and 
+<div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> and 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
     from an NDIS buffer pool. A driver must not allocate and initialize a <b>NET_BUFFER_LIST</b> or <b>NET_BUFFER</b>
     structure from its private memory pool or the stack.</div>
@@ -134,7 +134,7 @@ Call the
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a> function to
     free a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-The preallocated <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
+The preallocated <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
     <b>NET_BUFFER</b>, but the 
     <i>DataOffset</i>, 
     <i>DataLength</i>, 
@@ -150,7 +150,7 @@ For example, if the original MDL chain contains <i>X</i>
 <i>DataLength</i> and <i>Y'</i>
 <i>DataOffset</i>. If 
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 
-    <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>:
+    <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>:
 
 
 ```
@@ -164,7 +164,7 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 
@@ -172,7 +172,7 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

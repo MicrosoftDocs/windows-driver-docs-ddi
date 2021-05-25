@@ -48,7 +48,7 @@ dev_langs:
 ## -description
 
 The NET_BUFFER_LIST structure specifies a linked list of 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Drivers should not access this member directly. Instead, they should call the [*
 
 ### -field FirstNetBuffer
 
-The first [**NET_BUFFER**](ns-ndis-_net_buffer.md) on this **NET_BUFFER_LIST**.
+The first [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) on this **NET_BUFFER_LIST**.
 
 Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_FIRST_NB**](nf-ndis-net_buffer_list_first_nb.md) macro.
 
@@ -75,7 +75,7 @@ A <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">N
 ### -field Context
 
 A pointer to a 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure.
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure.
       Protocol and miniport drivers use this structure to store information about the NET_BUFFER_LIST
       structure. Information stored in the NET_BUFFER_LIST_CONTEXT structure is opaque to NDIS and other
       drivers in the stack.
@@ -406,7 +406,7 @@ The specified NET_BUFFER_LIST structure.
 </li>
 <li>
 The attached 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and MDLs.
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures and MDLs.
 
 </li>
 <li>
@@ -485,11 +485,11 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

@@ -44,7 +44,7 @@ dev_langs:
 ## -description
 
 The <b>NDIS_NET_BUFFER_LIST_INFO</b> enumeration identifies information that is common to all 
-  <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a 
+  <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures in a 
   <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -enum-fields
@@ -141,7 +141,7 @@ Identifies a <b>ULONG_PTR</b> value that is a cancellation identifier for the
 
 Identifies a PVOID value that is the address of a driver-allocated buffer. This buffer contains
      any media-specific out-of-band data that accompanies the 
-     <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with
+     <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that are associated with
      the <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. If a protocol driver allocated the out-of-band data, it configured the
      data for a send operation. If a miniport driver allocated the data, it configured the data for a receive
      indication.
@@ -169,7 +169,7 @@ On the receive path,
 
 On the transmit path, 
      <b>NetBufferListHashValue</b> identifies a <b>ULONG</b> value that is the RSS hash value that TCP/IP calculated,
-     if any. In this case, all <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that TCP/IP submitted
+     if any. In this case, all <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures in a <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that TCP/IP submitted
      belong to the same UDP or TCP connection. Therefore, this hash value applies to all <b>NET_BUFFER</b>
      structures that are in the <b>NET_BUFFER_LIST</b> structure.
 
@@ -227,7 +227,7 @@ Starting with NDIS 6.20, receive indications made by miniport drivers that suppo
 Identifies a pointer to a driver-allocated 
      <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
      NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a> structure. This structure identifies any media-specific
-     out-of-band data that accompanies the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with the <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
+     out-of-band data that accompanies the <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that are associated with the <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
      structure. NDIS 6.20 and later drivers should use the <b>
      NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</b> structure
      to specify media specific information. Any driver in an NDIS driver stack can allocate and manage
@@ -353,7 +353,7 @@ Use these enumeration values with the
 <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info">
    NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a>
 
-<a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 <a href="/windows-hardware/drivers/ddi/content/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 

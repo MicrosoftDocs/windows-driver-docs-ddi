@@ -198,7 +198,7 @@ A pointer to a [*PALLOCATE_COMMON_BUFFER_WITH_BOUNDS*](nc-wdm-pallocate_common_b
 
 ### -field CreateCommonBufferFromMdl
 
-A pointer to a [*PCREATE_COMMON_BUFFER_FROM_MDL*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback function that will create a DMA common buffer from an MDL and maps the backing memory so that it can be accessed by a bus-mastering device and the CPU. This optional is available starting in Windows 10, version [FUTURE].
+A pointer to a [*PCREATE_COMMON_BUFFER_FROM_MDL*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback function that will create a DMA common buffer from an MDL and maps the backing memory so that it can be accessed by a bus-mastering device and the CPU. This optional callback is available starting in Windows Server 2022.
 
 
 ## -remarks

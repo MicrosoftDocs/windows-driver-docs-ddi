@@ -114,7 +114,7 @@ A method request. NDIS forwards such a request to the underlying driver's
 ## -remarks
 
 The NDIS_REQUEST_TYPE enumeration is used in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
 <div class="alert"><b>Note</b>  For any NDIS_REQUEST_TYPE value, the OID_<i>Xxx</i> that is specified in the 
     <b>Oid</b> member of the NDIS_OID_REQUEST structure must be compatible with the type of operation
@@ -127,4 +127,4 @@ The NDIS_REQUEST_TYPE enumeration is used in the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>

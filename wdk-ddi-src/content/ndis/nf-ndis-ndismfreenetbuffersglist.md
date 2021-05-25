@@ -78,7 +78,7 @@ A pointer to a miniport driver scatter/gather list buffer.
 
 [in]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure associated with the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure associated with the
      specified scatter/gather list buffer.
 
 ## -remarks
@@ -91,7 +91,7 @@ Bus-master miniport drivers must call the
     scatter/gather list. Do not call 
     <b>NdisMFreeNetBufferSGList</b> while the driver or hardware is still accessing the memory that is
     described by the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure that is associated with the
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure that is associated with the
     scatter/gather list.
 
 Miniport drivers can free the buffer that was specified in the 
@@ -111,7 +111,7 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

@@ -98,7 +98,7 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
 Specifies that the miniport driver reclaims ownership of the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures and any
-       attached <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures immediately after the call to 
+       attached <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures immediately after the call to 
        <b>NdisMIndicateReceiveNetBufferLists</b> returns.
 
 
@@ -216,7 +216,7 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
 The caller of 
     <b>NdisMIndicateReceiveNetBufferLists</b> must properly initialize the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures,
     attached 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached MDLs.
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures, and any attached MDLs.
 
 ## -see-also
 
@@ -237,7 +237,7 @@ The caller of
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

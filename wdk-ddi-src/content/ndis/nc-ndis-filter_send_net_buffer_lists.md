@@ -65,7 +65,7 @@ A handle to the context area for the filter module. The filter driver created an
 A pointer to a linked list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that specify
      lists of 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> in the
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> in the
      list maps a chain of MDLs that contain the transmit data.
 
 ### -param PortNumber 
@@ -97,7 +97,7 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 
 Specifies that NDIS should check for loopback. By default, NDIS does not loop back data to the
         driver that submitted the send request. An overlying driver can override this behavior by setting
-        this flag. When this flag is set, NDIS identifies all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that contain data
+        this flag. When this flag is set, NDIS identifies all the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures that contain data
         that matches the receive criteria for the binding. NDIS indicates <b>NET_BUFFER</b> structures that match
         the criteria to the overlying driver. This flag has no affect on checking for loopback, or looping
         back, on other bindings.
@@ -147,7 +147,7 @@ The filter driver can call the
 If the filter driver specifies a 
     <i>FilterSendNetBufferLists</i> function, NDIS calls this function to filter the data that is contained in
     a list of 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures over the network. NDIS
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures over the network. NDIS
     specifies a list of <b>NET_BUFFER</b> structures in each 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
@@ -160,7 +160,7 @@ If the filter driver did not specify
     MiniportSendNetBufferLists</a> function.
 
 The filter driver can filter the data and send the filtered data to underlying drivers. For each
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure submitted to 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure submitted to 
     <i>FilterSendNetBufferLists</i>, a filter driver can do the following:
 
 <ul>
@@ -260,7 +260,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

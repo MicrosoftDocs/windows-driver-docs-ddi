@@ -63,7 +63,7 @@ The handle that the
 
 [in]
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 ## -remarks
@@ -72,13 +72,13 @@ Protocol drivers call the
     <b>NdisCancelDirectOidRequest</b> function to cancel a previously issued direct OID request. The request
     ID that is passed at the 
     <i>RequestId</i> parameter must match the request ID in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was passed
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that was passed
     in the call to the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdirectoidrequest">NdisDirectOidRequest</a> function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

@@ -141,7 +141,7 @@ The physical address of the data portion of a frame. This member should be to ze
 ### -field SharedMemoryInfo
 
 A pointer to an 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_shared_memory">
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_shared_memory">
       NET_BUFFER_SHARED_MEMORY</a> structure.
 
 ### -field ScatterGatherList

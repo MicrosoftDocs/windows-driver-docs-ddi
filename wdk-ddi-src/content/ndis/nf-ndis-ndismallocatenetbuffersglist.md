@@ -57,7 +57,7 @@ api_name:
 Bus-master miniport drivers call the 
   <b>NdisMAllocateNetBufferSGList</b> function to obtain a scatter/gather list for the network data that is
   associated with a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 
 ## -parameters
 
@@ -154,7 +154,7 @@ An NDIS bus-master miniport driver calls
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">
     MiniportSendNetBufferLists</a> function. The miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> once for each 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure for which it must obtain a
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure for which it must obtain a
     scatter/gather list.
 
 When a miniport driver calls 
@@ -211,7 +211,7 @@ Miniport drivers must call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

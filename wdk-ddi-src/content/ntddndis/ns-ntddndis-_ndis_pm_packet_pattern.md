@@ -87,7 +87,7 @@ These flags are reserved.
 
 NDIS_PM_PACKET_PATTERN is supplied in the 
     <i>InformationBuffer</i> of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure for following
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure for following
     OIDs:
 
 <ul>
@@ -125,7 +125,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

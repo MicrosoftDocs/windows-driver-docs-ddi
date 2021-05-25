@@ -56,7 +56,7 @@ To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to fil
 ### -field Header
 
 The
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_OID_REQUEST structure. Set the
      <b>Type</b> member of the structure that
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_OID_REQUEST, the
@@ -336,7 +336,7 @@ An area that is reserved for the originating driver. Reserved for the allocator 
 
 The revision of an NDIS structure that was supported by an NDIS 6.0 or later driver when it
      handled an OID request. A revisioned structure is any NDIS 6.0 structure that has an
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure inside it.
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure inside it.
      When the driver succeeds in setting an OID, it must set
      <b>SupportedRevision</b> to the revision number of the structure that it
      supported. For more information about NDIS version information, see
@@ -419,7 +419,7 @@ The
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

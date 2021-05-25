@@ -65,7 +65,7 @@ The NDIS handle that identifies this filter module NDIS passed the handle to the
 
 [in]
 A pointer to a buffer that is formatted as an 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The filter
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure. The filter
      driver obtained this pointer as an input parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request">
      FilterDirectOidRequest</a> function.
@@ -105,7 +105,7 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

@@ -54,7 +54,7 @@ The <b>NDIS_NDK_STATISTICS_INFO</b> structure contains the NDK statistics.
 
 ### -field Header
 
-An <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_STATISTICS_INFO</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+An <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_STATISTICS_INFO</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
@@ -70,7 +70,7 @@ An <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_perform
 
 ## -remarks
 
-The <b>NDIS_NDK_STATISTICS_INFO</b> structure is returned with the <a href="/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a> OID. The <b>InformationBuffer</b> member of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
+The <b>NDIS_NDK_STATISTICS_INFO</b> structure is returned with the <a href="/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a> OID. The <b>InformationBuffer</b> member of the <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
 
 
@@ -82,7 +82,7 @@ The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> mem
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
