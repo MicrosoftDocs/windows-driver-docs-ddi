@@ -54,7 +54,7 @@ The **DxgkCbLogEtwEvent** function logs an Event Tracing for Windows (ETW) event
 
 ### -param Type
 
-[in] A constant that specifies the event type. These constants are defined in *Evntrace.h* and have the form of **EVENT_TRACE_TYPE_XX**.
+[in] A constant that specifies the event type. These constants are defined in *Evntrace.h* and have the form of **EVENT_TRACE_TYPE_XX**. **Type** is ignored when **EventGuid** is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.
 
 ### -param EventBufferSize
 

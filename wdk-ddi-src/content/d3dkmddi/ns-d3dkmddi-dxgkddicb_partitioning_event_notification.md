@@ -85,7 +85,7 @@ An optional fifth parameter that contains additional useful data that may help t
 
 ## -remarks
 
-See [**DxgkCbLogEtwEvent**](../dispmprt/nc-dispmprt-dxgkcb_log_etw_event.md) for details.
+See [**DxgkCbLogEtwEvent**](../dispmprt/nc-dispmprt-dxgkcb_log_etw_event.md) for additional details.
 
 ## -see-also
 
