@@ -5,7 +5,6 @@ title: WWAN_REJECTED_SNSSAI
 description: The WWAN_REJECTED_SNSSAI structure contains information about a single Network Slice Selection Assistance Information (S-NSSAI) that was rejected.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

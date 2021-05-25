@@ -5,7 +5,6 @@ title: WWAN_READY_INFO_REV1
 description: The WWAN_READY_INFO_REV1 structure represents the ready-state of the MB device.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

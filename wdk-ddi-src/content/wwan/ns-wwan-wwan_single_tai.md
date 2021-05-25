@@ -5,7 +5,6 @@ title: WWAN_SINGLE_TAI
 description: The WWAN_SINGLE_TAI structure represents a single Tracking Area Identity (TAI).
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -5,7 +5,6 @@ title: WWAN_SINGLE_NSSAI
 description: The WWAN_SINGLE_NSSAI structure represents a single Network Slice Selection Assistance Information (NSSAI).
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

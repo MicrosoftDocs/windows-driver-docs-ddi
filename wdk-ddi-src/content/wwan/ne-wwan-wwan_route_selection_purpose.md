@@ -5,7 +5,6 @@ title: WWAN_ROUTE_SELECTION_PURPOSE
 description: 
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wwan.h

@@ -5,7 +5,6 @@ title: WWAN_TLV_IE
 description: WWAN_TLV_IE is a variable-sized data structure for exchanging a wide range of information between a WWAN host and a device.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

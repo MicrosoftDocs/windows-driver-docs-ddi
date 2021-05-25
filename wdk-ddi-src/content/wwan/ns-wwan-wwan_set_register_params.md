@@ -5,7 +5,6 @@ title: WWAN_SET_REGISTER_PARAMS
 description: The WWAN_SET_REGISTER_PARAMS structure is used for OID_WWAN_REGISTER_PARAMS set requests.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

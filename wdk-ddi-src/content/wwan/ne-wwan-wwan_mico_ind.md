@@ -5,7 +5,6 @@ title: WWAN_MICO_IND
 description: The WWAN_MICO_IND enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wwan.h

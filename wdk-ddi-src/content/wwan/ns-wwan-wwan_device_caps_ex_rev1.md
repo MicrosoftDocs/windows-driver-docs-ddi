@@ -5,7 +5,6 @@ title: WWAN_DEVICE_CAPS_EX_REV1
 description: The WWAN_DEVICE_CAPS_EX_REV1 structure represents the capabilities of a mobile broadband device.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

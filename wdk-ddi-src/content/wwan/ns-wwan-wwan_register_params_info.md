@@ -5,7 +5,6 @@ title: WWAN_REGISTER_PARAMS_INFO
 description: The WWAN_REGISTER_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
 ms.date: 
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
