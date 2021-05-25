@@ -50,7 +50,7 @@ A handle to the adapter object for the GPU. The driver receives the handle from 
 
 ### -field VidPnSourceId
 
-The [ID of the video present source](ns-d3dkmdt-_d3dkmdt_video_present_source.md) on which cursor support is being changed. The OS fails the [**DxgkCbNotifyCursorSupportChange**](nc-d3dkmddi-dxgkcb_notifycursorsupportchange.md) callback if **VidPnSourceId** isn't valid.
+The [ID of the video present source](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_source.md) on which cursor support is being changed. The OS fails the [**DxgkCbNotifyCursorSupportChange**](nc-d3dkmddi-dxgkcb_notifycursorsupportchange.md) callback if **VidPnSourceId** isn't valid.
 
 ## -remarks
 
