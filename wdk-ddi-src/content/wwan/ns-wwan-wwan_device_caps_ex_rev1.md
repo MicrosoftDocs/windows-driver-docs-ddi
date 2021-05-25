@@ -17,7 +17,6 @@ req.redist:
 req.target-min-winverclnt:  Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
-targetos: Windows
 req.typenames: WWAN_DEVICE_CAPS_EX_REV1, *PWWAN_DEVICE_CAPS_EX_REV1
 req.umdf-ver: 
 req.unicode-ansi: 

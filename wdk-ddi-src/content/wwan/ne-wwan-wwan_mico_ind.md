@@ -14,7 +14,6 @@ req.max-support:
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
-targetos: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:
