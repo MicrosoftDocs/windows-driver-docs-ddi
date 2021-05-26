@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_DATA_LENGTH** is a macro that NDIS drivers use to get the amount of *used data space* in a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_DATA_LENGTH** is a macro that NDIS drivers use to get the amount of *used data space* in a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -55,12 +55,12 @@ A pointer to a **NET_BUFFER** structure.
 
 ## -returns
 
-**NET_BUFFER_DATA_LENGTH** returns the amount of *used data space* in a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_DATA_LENGTH** returns the amount of *used data space* in a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -remarks
 
-**NET_BUFFER_DATA_LENGTH** gets the return value from the **DataLength** member of the [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_DATA_LENGTH** gets the return value from the **DataLength** member of the [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)

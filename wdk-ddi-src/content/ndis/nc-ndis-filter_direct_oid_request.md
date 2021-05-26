@@ -64,7 +64,7 @@ A handle to the context area for the filter module that is the target of this re
 
 [in]
 A pointer to an 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation requested, including the OID_
      <i>Xx</i> code. The structure can specify either a query request or a set
      request
@@ -148,7 +148,7 @@ The buffer that
 <td width="60%">
 For a query operation, the 
        <b>InformationBufferLength</b> member of the 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure does not
+       <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure does not
        match the length that the given OID requires. 
        <i>FilterDirectOidRequest</i> returned the required buffer size, in bytes, in the 
        <b>BytesNeeded</b> member of the NDIS_OID_REQUEST structure.
@@ -224,7 +224,7 @@ NDIS calls the filter driver's
 
 Before the driver calls 
     <b>NdisFDirectOidRequest</b>, the driver must allocate an 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure and transfer the
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure and transfer the
     request information to the new structure by calling the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatecloneoidrequest">
     NdisAllocateCloneOidRequest</a> function.
@@ -302,7 +302,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

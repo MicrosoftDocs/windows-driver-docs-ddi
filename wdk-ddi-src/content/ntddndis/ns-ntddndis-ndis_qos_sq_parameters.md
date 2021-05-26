@@ -49,7 +49,7 @@ The **NDIS_QOS_SQ_PARAMETERS** structure contains the parameters of an NDIS Qual
 
 ### -field Header
 
-The type, revision, and size of the **NDIS_QOS_SQ_PARAMETERS** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the **NDIS_QOS_SQ_PARAMETERS** structure. This member is formatted as an [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md) structure.
 
 The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT, the **Revision** member to NDIS_QOS_SQ_PARAMETERS_REVISION_2, and the **Size** member to NDIS_SIZEOF_QOS_SQ_PARAMETERS_REVISION_2.
 
@@ -131,6 +131,6 @@ The **NDIS_QOS_SQ_PARAMETERS** structure is returned in the OID query request [O
 
 [**NDIS_QOS_SQ_ARRAY**](ns-ntddndis-ndis_qos_sq_parameters_enum_array.md)
 
-[**NDIS_OBJECT_HEADER**](ns-ntddndis-_ndis_object_header.md)
+[**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md)
 
 [NDIS QoS Traffic Classes](/windows-hardware/drivers/network/ndis-qos-traffic-classes)

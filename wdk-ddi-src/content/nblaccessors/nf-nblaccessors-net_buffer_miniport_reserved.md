@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_MINIPORT_RESERVED** is a macro that NDIS drivers use to access the **MiniportReserved** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_MINIPORT_RESERVED** is a macro that NDIS drivers use to access the **MiniportReserved** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -55,16 +55,16 @@ A pointer to a **NET_BUFFER** structure.
 
 ## -returns
 
-**NET_BUFFER_MINIPORT_RESERVED** returns a pointer to the start of the **MiniportReserved** member of the specified [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_MINIPORT_RESERVED** returns a pointer to the start of the **MiniportReserved** member of the specified [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -remarks
 
-Miniport drivers and NDIS intermediate drivers can use **MiniportReserved** for their own purposes. Miniport drivers typically use **MiniportReserved** to maintain [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure context information for outstanding transfers.
+Miniport drivers and NDIS intermediate drivers can use **MiniportReserved** for their own purposes. Miniport drivers typically use **MiniportReserved** to maintain [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure context information for outstanding transfers.
 
 > [!NOTE]
 > Only one driver can use **MiniportReserved**. Therefore, if another driver has used **MiniportReserved**, an intermediate driver cannot use it.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 

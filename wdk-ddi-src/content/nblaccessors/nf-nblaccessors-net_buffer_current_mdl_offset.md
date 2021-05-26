@@ -46,7 +46,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_CURRENT_MDL_OFFSET** is a macro that NDIS drivers use to get the **CurrentMdlOffset** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_CURRENT_MDL_OFFSET** is a macro that NDIS drivers use to get the **CurrentMdlOffset** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -56,12 +56,12 @@ A pointer to a **NET_BUFFER** structure.
 
 ## -returns
 
-**NET_BUFFER_CURRENT_MDL_OFFSET** returns the value of the **CurrentMdlOffset** member of the indicated [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_CURRENT_MDL_OFFSET** returns the value of the **CurrentMdlOffset** member of the indicated [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -remarks
 
-The return value specifies the offset, in bytes, to the beginning of the used data space in the MDL that is specified by the **CurrentMdl** member of the [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+The return value specifies the offset, in bytes, to the beginning of the used data space in the MDL that is specified by the **CurrentMdl** member of the [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)

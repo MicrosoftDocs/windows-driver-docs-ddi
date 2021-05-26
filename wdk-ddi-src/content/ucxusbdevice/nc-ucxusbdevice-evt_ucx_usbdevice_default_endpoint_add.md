@@ -120,8 +120,7 @@ Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd(
                                               Endpoint_EvtUcxEndpointStart,
                                               Endpoint_EvtUcxEndpointAbort,
                                               Endpoint_EvtUcxEndpointOkToCancelTransfers,
-                                              Endpoint_EvtUcxDefaultEndpointUpdate,
-                                              Endpoint_EvtUcxEndpointEnableForwardProgress);
+                                              Endpoint_EvtUcxDefaultEndpointUpdate);
 
     UcxDefaultEndpointInitSetEventCallbacks(EndpointInit, &ucxDefaultEndpointEventCallbacks);
 

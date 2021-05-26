@@ -48,7 +48,7 @@ dev_langs:
 
 The 
   <b>NdisAdjustNetBufferCurrentMdl</b> function updates a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure based on the current data
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure based on the current data
   offset.
 
 ## -parameters
@@ -57,7 +57,7 @@ The
 
 [in]
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 
 ## -remarks
 
@@ -65,7 +65,7 @@ The
     <b>NdisAdjustNetBufferCurrentMdl</b> function recalculates and sets the 
     <b>CurrentMdl</b> and 
     <b>CurrentMdlOffset</b> members of a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure based on the 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure based on the 
     <b>DataOffset</b> member of the NET_BUFFER structure.
 
 Callers of 
@@ -74,4 +74,4 @@ Callers of
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>

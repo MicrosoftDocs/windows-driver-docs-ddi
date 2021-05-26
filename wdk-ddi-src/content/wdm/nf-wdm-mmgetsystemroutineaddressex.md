@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.MmGetSystemRoutineAddressEx
 title: MmGetSystemRoutineAddressEx function
-description: TBD
+description: The MmGetSystemRoutineAddressEx function returns the address of the specified function in the specified system module.
 tech.root: kernel
 ms.date: 03/01/2020
 ms.topic: function
@@ -41,16 +41,15 @@ f1_keywords:
 
 # MmGetSystemRoutineAddressEx function
 
-
 ## -description
 
-This function returns the address of the specified function in the specified system module.
+The **MmGetSystemRoutineAddressEx** function returns the address of the specified function in the specified system module.
 
 ## -parameters
 
 ### -param ModuleName
 
-Supplies a pointer to a UNICODE_STRING that describes the system module.
+Supplies a pointer to a **UNICODE_STRING** that describes the system module.
 
 ### -param FunctionName
 
@@ -63,4 +62,3 @@ If the specified module is not in the loaded module list, the specified loaded m
 ## -remarks
 
 ## -see-also
-

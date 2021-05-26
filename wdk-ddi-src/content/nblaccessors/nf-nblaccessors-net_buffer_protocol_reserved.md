@@ -46,7 +46,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_PROTOCOL_RESERVED** is a macro that NDIS drivers use to get the **ProtocolReserved** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_PROTOCOL_RESERVED** is a macro that NDIS drivers use to get the **ProtocolReserved** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -56,16 +56,16 @@ A pointer to a **NET_BUFFER** structure.
 
 ## -returns
 
-**NET_BUFFER_PROTOCOL_RESERVED** returns the value of the **ProtocolReserved** member of the specified [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_PROTOCOL_RESERVED** returns the value of the **ProtocolReserved** member of the specified [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -remarks
 
-Protocol drivers and NDIS intermediate drivers can use this area for their own purposes. Protocol drivers typically use **ProtocolReserved** to maintain [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure context information for outstanding transfers.
+Protocol drivers and NDIS intermediate drivers can use this area for their own purposes. Protocol drivers typically use **ProtocolReserved** to maintain [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure context information for outstanding transfers.
 
 > [!NOTE]
 > Only one driver can use **ProtocolReserved**. Therefore, if an another driver has used **ProtocolReserved**, an intermediate driver cannot use it.
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 

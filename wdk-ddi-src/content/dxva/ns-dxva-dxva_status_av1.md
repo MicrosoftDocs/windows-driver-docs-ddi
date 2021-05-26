@@ -71,7 +71,6 @@ The status of the operation. **Status** can be one of the following values:
 
 | Value | Description |
 | ----- | ----------- |
-
 | 0     | The operation succeeded. |
 | 1     | Minor problem in the data format. The host decoder should continue processing. |
 | 2     | Significant problem in the data format. The host decoder may continue executing or skip the display of the output picture. |

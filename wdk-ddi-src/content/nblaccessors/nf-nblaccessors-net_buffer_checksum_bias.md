@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_CHECKSUM_BIAS** is a macro that NDIS drivers use to get the **ChecksumBias** member of a [**NET_BUFFER**](ns-ndis-_net_buffer.md) structure.
+**NET_BUFFER_CHECKSUM_BIAS** is a macro that NDIS drivers use to get the **ChecksumBias** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -63,5 +63,5 @@ The return value specifies the number of bytes of data to skip over at the begin
 
 ## -see-also
 
-[**NET_BUFFER**](ns-ndis-_net_buffer.md)
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 

@@ -61,7 +61,7 @@ The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results o
 
 ### -field Header
 
-The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This member is formatted as an <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the members of <b>Header</b> to the following values:
 
@@ -77,7 +77,7 @@ This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1
 
 This member must be set to <b>sizeof</b>(DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS).
 
-For more information about these members, see <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+For more information about these members, see <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 ### -field PeerMacAddr
 
@@ -273,5 +273,5 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

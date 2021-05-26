@@ -59,7 +59,7 @@ The **NDIS_RECEIVE_SCALE_PARAMETERS** structure specifies the [Receive Side Scal
 
 ### -field Header
 
-The [NDIS_OBJECT_HEADER](./ns-ntddndis-_ndis_object_header.md) structure for the **NDIS_RECEIVE_SCALE_PARAMETERS** structure. Set the **Type** member of the structure that **Header** specifies to **NDIS_OBJECT_TYPE_RSS_PARAMETERS**.
+The [NDIS_OBJECT_HEADER](./../objectheader/ns-objectheader-ndis_object_header.md) structure for the **NDIS_RECEIVE_SCALE_PARAMETERS** structure. Set the **Type** member of the structure that **Header** specifies to **NDIS_OBJECT_TYPE_RSS_PARAMETERS**.
 
 * For NDIS  6.60 and later drivers, set the **Revision** member to **NDIS_RECEIVE_SCALE_PARAMETERS_REVISION_3** and the **Size** member to **NDIS_SIZEOF_RECEIVE_SCALE_PARAMETERS_REVISION_3**.
 
@@ -170,7 +170,7 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 [Receive Side Scaling (RSS)](/windows-hardware/drivers/network/ndis-receive-side-scaling2)
 
-[NDIS_OBJECT_HEADER](./ns-ntddndis-_ndis_object_header.md)
+[NDIS_OBJECT_HEADER](./../objectheader/ns-objectheader-ndis_object_header.md)
 
 [NDIS_RSS_HASH_FUNC_FROM_HASH_INFO](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
 

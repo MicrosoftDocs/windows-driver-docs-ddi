@@ -74,7 +74,7 @@ A
 
 [in, optional]
 A 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> pool handle that was obtained from a
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> pool handle that was obtained from a
      previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
@@ -149,7 +149,7 @@ The clone NET_BUFFER_LIST structure describes the same data that is described by
     <b>FwpsAllocateCloneNetBufferList0</b> function does not copy the data that is described by the original
     MDLs to new data buffers. Instead, the clone NET_BUFFER_LIST structure references the original data
     buffers. The clone NET_BUFFER_LIST structure does not include an initial 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 This function sets the 
@@ -164,7 +164,7 @@ A callout driver can modify the clone NET_BUFFER_LIST structure and inject it in
     stack, the callout driver frees the clone NET_BUFFER_LIST structure by calling the 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a> function.
 
-A callout driver can insert or replace individual net buffers (<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>) or MDLs inside the clone net buffer
+A callout driver can insert or replace individual net buffers (<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>) or MDLs inside the clone net buffer
     list. Such a driver must also undo the modifications before it calls the 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">
     FwpsFreeCloneNetBufferList0</a> function.
@@ -191,7 +191,7 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 
@@ -199,7 +199,7 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

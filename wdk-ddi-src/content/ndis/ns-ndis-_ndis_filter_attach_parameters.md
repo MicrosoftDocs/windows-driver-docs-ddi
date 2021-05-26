@@ -59,7 +59,7 @@ The <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure defines the initialization pa
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_ATTACH_PARAMETERS.
@@ -180,7 +180,7 @@ The physical medium type for the base underlying miniport adapter. For more info
 ### -field MiniportMediaSpecificAttributes
 
 A pointer to an 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure that
      identifies a structure that contains miniport media-specific attributes, or <b>NULL</b> if there are no such
      attributes. The 
      <b>Type</b> member of the NDIS_OBJECT_HEADER structure identifies the type of the
@@ -333,7 +333,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -57,7 +57,7 @@ The <b>NDIS_SWITCH_NIC_ARRAY</b> structure specifies an array of  network adapte
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_NIC_ARRAY</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_NIC_ARRAY</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_ARRAY</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -94,7 +94,7 @@ A ULONG value that specifies the size, in bytes, of the <a href="/windows-hardwa
 
 ## -remarks
 
-The <b>NDIS_SWITCH_NIC_ARRAY</b> structure is returned in OID query requests of <a href="/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a>. An array of <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structures follows the <b>NDIS_SWITCH_NIC_ARRAY</b> structure in the information buffer that is associated with the OID query request. The <b>InformationBuffer</b> member of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
+The <b>NDIS_SWITCH_NIC_ARRAY</b> structure is returned in OID query requests of <a href="/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a>. An array of <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structures follows the <b>NDIS_SWITCH_NIC_ARRAY</b> structure in the information buffer that is associated with the OID query request. The <b>InformationBuffer</b> member of the <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
 
 Extensible switch extensions can access individual <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structures inside an <b>NDIS_SWITCH_NIC_ARRAY</b> structure by using the <a href="/windows-hardware/drivers/network/ndis-switch-nic-at-array-index">NDIS_SWITCH_NIC_AT_ARRAY_INDEX</a> macro.
 
@@ -104,7 +104,7 @@ Extensible switch extensions can access individual <a href="/windows-hardware/dr
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

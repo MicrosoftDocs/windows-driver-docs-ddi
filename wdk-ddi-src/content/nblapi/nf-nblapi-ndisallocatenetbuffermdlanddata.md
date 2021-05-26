@@ -70,7 +70,7 @@ The caller must call the
     value, NDIS can preallocate buffers for the caller.
 
 This function allocates a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure, MDL and data in a single
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure, MDL and data in a single
     memory buffer. This is useful to achieve high performance when NET_BUFFER structures are frequently
     allocated and freed. The caller should not call 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a> to allocate
@@ -85,7 +85,7 @@ To free the NET_BUFFER and associated information, call the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 

@@ -84,7 +84,7 @@ A party handle that NDIS passed to the client or stand-alone call manager's
 
 [in]
 A pointer to a buffer that is formatted as an 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The caller of
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure. The caller of
      the 
      <b>NdisCoOidRequest</b> or 
      <b>NdisMCmOidRequest</b> function supplied this buffer.
@@ -127,7 +127,7 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
