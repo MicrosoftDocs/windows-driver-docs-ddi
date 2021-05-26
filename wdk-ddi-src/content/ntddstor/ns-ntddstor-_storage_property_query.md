@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROPERTY_QUERY
-title: _STORAGE_PROPERTY_QUERY (ntddstor.h)
+title: STORAGE_PROPERTY_QUERY (ntddstor.h)
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_property_query.htm
 tech.root: storage
@@ -46,58 +46,42 @@ api_name:
  - STORAGE_PROPERTY_QUERY
 ---
 
-# _STORAGE_PROPERTY_QUERY structure
-
+# STORAGE_PROPERTY_QUERY structure
 
 ## -description
 
-This structure is used in conjunction with <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve the properties of a storage device or adapter.
+This structure is used in conjunction with [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to retrieve the properties of a storage device or adapter.
 
 ## -struct-fields
 
 ### -field PropertyId
 
-Indicates whether the caller is requesting a device descriptor, an adapter descriptor, a write cache property, a device unique ID (DUID), or the device identifiers provided in the device's SCSI vital product data (VPD) page. For a list of the property IDs that can be assigned to this member, see <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>.
+Indicates whether the caller is requesting a device descriptor, an adapter descriptor, a write cache property, a device unique ID (DUID), or the device identifiers provided in the device's SCSI vital product data (VPD) page. For a list of the property IDs that can be assigned to this member, see [**STORAGE_PROPERTY_ID**](ne-ntddstor-storage_property_id.md).
 
 ### -field QueryType
 
-Contains flags indicating the type of query to be performed. For a list of the various query types that can be assigned to this member, see <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_query_type">STORAGE_QUERY_TYPE</a>.
+Contains flags indicating the type of query to be performed. For a list of the various query types that can be assigned to this member, see [**STORAGE_QUERY_TYPE**](ne-ntddstor-_storage_query_type.md).
 
 ### -field AdditionalParameters
 
-Contains an array of bytes with additional input parameters that are needed for the <b>PropertyId</b> query. Not all <b>PropertyId</b> values require additional input parameters.
+Contains an array of bytes with additional input parameters that are needed for the **PropertyId** query. Not all **PropertyId** values require additional input parameters.
 
 ## -remarks
 
-The results of the query can be one of 
-     several structures depending on the value of the <b>PropertyId</b> member. These values are enumerated by the 
-     <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a> enumeration.
+The results of the query can be one of several structures depending on the value of the **PropertyId** member. These values are enumerated by the [**STORAGE_PROPERTY_ID**](ne-ntddstor-storage_property_id.md) enumeration.
 
-If the 
-     <b>QueryType</b> member is set to 
-     <b>PropertyExistsQuery</b>, then no structure is returned. For more info, see <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_query_type">STORAGE_QUERY_TYPE</a>.
+If the **QueryType** member is set to **PropertyExistsQuery**, then no structure is returned. For more info, see [**STORAGE_QUERY_TYPE**](ne-ntddstor-_storage_query_type.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+[**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md)
 
+[**STORAGE_ADAPTER_DESCRIPTOR**](ns-ntddstor-_storage_adapter_descriptor.md)
 
+[**STORAGE_DESCRIPTOR_HEADER**](ns-ntddstor-_storage_descriptor_header.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+[**STORAGE_DEVICE_DESCRIPTOR**](ns-ntddstor-_storage_device_descriptor.md)
 
+[**STORAGE_PROPERTY_ID**](ne-ntddstor-storage_property_id.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_query_type">STORAGE_QUERY_TYPE</a>
-
+[**STORAGE_QUERY_TYPE**](ne-ntddstor-_storage_query_type.md)
