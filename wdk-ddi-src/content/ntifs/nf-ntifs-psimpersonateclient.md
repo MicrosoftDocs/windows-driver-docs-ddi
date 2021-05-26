@@ -119,6 +119,14 @@ Otherwise, to end the impersonation and return the server thread to its original
 
 The <b>PsImpersonateClient</b> routine can fail to successfully return the server thread to the previous impersonation if the thread is already impersonating or there are job restrictions.
 
+The routine ensures whether client impersonation can actually occur by checking various conditions, including the following:
+
+* The token passed by the caller doesn't have an anonymous authentication ID
+* The process's token referenced from the server thread and the given token have equal security identifiers (SIDs)
+* Neither of the tokens are restricted
+
+If none of the conditions are met, the routine makes a copy of the existing token passed to the call and assigns the newly copied token as impersonation token albeit with limited security impersonation level; that is, the server thread can only obtain information about the client. If token copying is not possible, the routine fails with a NTSTATUS code.
+
 It is extremely unsafe to raise the privilege state of an untrusted user thread (take a user's thread and impersonate LocalSystem, for example). If an untrusted user thread had its privilege raised, the user could grab the thread token after it has been elevated and subvert the security of the entire system. 
 
 In cases where a higher privilege state is required, the task should be dispatched to a work queue where the task can be safely handled by system worker thread . This way no impersonation is necessary.
