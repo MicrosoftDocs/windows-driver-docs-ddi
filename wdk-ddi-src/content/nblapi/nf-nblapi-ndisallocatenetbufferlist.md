@@ -56,7 +56,7 @@ Call the
 
 [in]
 A NET_BUFFER_LIST structure pool handle that was previously returned from a call to 
-     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+     <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a>.
 
 ### -param ContextSize 
@@ -96,10 +96,10 @@ You can call the
 <div> </div>
 If you call 
     <b>NdisAllocateNetBufferList</b> and the NET_BUFFER_LIST structure pool was allocated by calling the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+    <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
     NdisAllocateNetBufferListPool</a> function with the 
     <b>fAllocateNetBuffer</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, NDIS allocates a
+    <a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, NDIS allocates a
     NET_BUFFER_LIST, 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>, MDL, and data.
 
@@ -121,7 +121,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 
@@ -130,7 +130,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 

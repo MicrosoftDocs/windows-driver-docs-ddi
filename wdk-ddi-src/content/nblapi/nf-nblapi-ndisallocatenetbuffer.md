@@ -112,7 +112,7 @@ For example, if the original MDL chain contains <i>X</i>
 <i>DataOffset</i>, and 
     <i>CurrentMdl</i> starts with the second MDL (<i>M</i>) in the original MDL chain, 
     <i>CurrentMdlOffset</i> is <i>Z</i>. The 
-    <i>MdlChain</i> field in <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> then needs to point to a new MDL chain that contains <i>X'</i>
+    <i>MdlChain</i> field in <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> then needs to point to a new MDL chain that contains <i>X'</i>
 <i>DataLength</i> and <i>Y'</i>
 <i>DataOffset</i>. If 
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 

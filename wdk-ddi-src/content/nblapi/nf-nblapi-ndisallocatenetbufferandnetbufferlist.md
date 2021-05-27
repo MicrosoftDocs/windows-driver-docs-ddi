@@ -57,10 +57,10 @@ Call the
 
 [in]
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
-     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+     <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. The 
      <b>fAllocateNetBuffer</b> member of the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
+     <a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b> and the 
      <b>DataSize</b> member set to zero.
 
@@ -119,10 +119,10 @@ The structures that the
     with preallocated 
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures. To create such a pool, you
     must call the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+    <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
     NdisAllocateNetBufferListPool</a> function with the 
     <b>fAllocateNetBuffer</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, and the 
+    <a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, and the 
     <b>DataSize</b> member set to zero.
 
 <div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> and 
@@ -146,7 +146,7 @@ For example, if the original MDL chain contains <i>X</i>
 <i>DataOffset</i>, and 
     <i>CurrentMdl</i> starts with the second MDL (<i>M</i>) in the original MDL chain, 
     <i>CurrentMdlOffset</i> is <i>Z</i>. The 
-    <i>MdlChain</i> field in <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> then needs to point to a new MDL chain that contains <i>X'</i>
+    <i>MdlChain</i> field in <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> then needs to point to a new MDL chain that contains <i>X'</i>
 <i>DataLength</i> and <i>Y'</i>
 <i>DataOffset</i>. If 
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 
@@ -176,11 +176,11 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 

@@ -59,7 +59,7 @@ An NDIS handle that was obtained during caller initialization.
 ### -param Parameters 
 
 [in]
-A pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that defines the parameters for the pool.
+A pointer to a <a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that defines the parameters for the pool.
 
 ## -returns
 
@@ -123,7 +123,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 

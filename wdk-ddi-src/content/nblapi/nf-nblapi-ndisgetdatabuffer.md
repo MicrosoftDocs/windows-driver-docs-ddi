@@ -87,7 +87,7 @@ The offset, in bytes, from the alignment multiple.
 
 If the 
       <b>DataLength</b> member of the 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure in the 
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> structure in the 
       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure that the <i>NetBuffer</i>
       parameter points to is less than the value in the 
       <i>BytesNeeded</i> parameter, the return value is <b>NULL</b>.
@@ -124,5 +124,5 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a>
 

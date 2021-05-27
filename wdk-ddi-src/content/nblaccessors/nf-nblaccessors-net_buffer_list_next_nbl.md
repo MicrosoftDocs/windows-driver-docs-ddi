@@ -59,12 +59,12 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -remarks
 
-**NET_BUFFER_LIST_NEXT_NBL** gets the return value from the **Next** member of the [**NET_BUFFER_LIST_DATA**](ns-ndis-_net_buffer_list_data.md) structure in the [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure that the *\_NBL* parameter points to.
+**NET_BUFFER_LIST_NEXT_NBL** gets the return value from the **Next** member of the [**NET_BUFFER_LIST_DATA**](../nbl/ns-nbl-net_buffer_list_data.md) structure in the [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure that the *\_NBL* parameter points to.
 
 ## -see-also
 
 [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
-[**NET_BUFFER_LIST_DATA**](ns-ndis-_net_buffer_list_data.md)
+[**NET_BUFFER_LIST_DATA**](../nbl/ns-nbl-net_buffer_list_data.md)
 
 

@@ -55,7 +55,7 @@ Call the
 
 [in]
 A handle that was obtained from a call to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+     <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function.
 
 ## -remarks
@@ -71,7 +71,7 @@ Before freeing a
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 

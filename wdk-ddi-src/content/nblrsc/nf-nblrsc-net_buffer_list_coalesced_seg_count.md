@@ -55,7 +55,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_COALESCED_SEG_COUNT** returns the **CoalescedSegCount** member of the [**NDIS_RSC_NBL_INFO**](ns-ndis-_ndis_rsc_nbl_info.md) union that is associated with the **TcpRecvSegCoalesceInfo** identifier. The information is retrieved from the **NetBufferListInfo** member of the indicated [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
+**NET_BUFFER_LIST_COALESCED_SEG_COUNT** returns the **CoalescedSegCount** member of the [**NDIS_RSC_NBL_INFO**](../nblrsc/ns-nblrsc-ndis_rsc_nbl_info.md) union that is associated with the **TcpRecvSegCoalesceInfo** identifier. The information is retrieved from the **NetBufferListInfo** member of the indicated [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
 ## -remarks
 
@@ -65,7 +65,7 @@ This macro uses the [NET_BUFFER_LIST_INFO](../nblaccessors/nf-nblaccessors-net_b
 
 [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
-[**NDIS_RSC_NBL_INFO**](ns-ndis-_ndis_rsc_nbl_info.md)
+[**NDIS_RSC_NBL_INFO**](../nblrsc/ns-nblrsc-ndis_rsc_nbl_info.md)
 
 [NET_BUFFER_LIST_INFO](../nblaccessors/nf-nblaccessors-net_buffer_list_info.md)
 
