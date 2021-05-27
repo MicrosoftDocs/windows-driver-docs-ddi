@@ -64,14 +64,14 @@ An array of UUIDs that represent the services for which to query. Each entry can
 
 #### - hConnection
 
-A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect) IOCTL.
+A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md) IOCTL.
 
 ## -remarks
 
-This structure is passed as the input buffer to the [IOCTL_BTH_SDP_SERVICE_SEARCH](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search) IOCTL.
+This structure is passed as the input buffer to the [IOCTL_BTH_SDP_SERVICE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_search.md) IOCTL.
 
 ## -see-also
 
-[IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect)
+[IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)
 
-[IOCTL_BTH_SDP_SERVICE_SEARCH](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search)
+[IOCTL_BTH_SDP_SERVICE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_search.md)

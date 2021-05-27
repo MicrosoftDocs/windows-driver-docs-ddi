@@ -43,15 +43,15 @@ dev_langs:
 
 ### -field DXGK_PHYSICAL_MEMORY_TYPE_MDL
 
-Allocate nonpageable memory in the form of an MDL. This is functionally equivalent to calling [**MmAllocatePagesForMdl**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl).
+Allocate nonpageable memory in the form of an MDL. This is functionally equivalent to calling [**MmAllocatePagesForMdl**](../wdm/nf-wdm-mmallocatepagesformdl.md).
 
 ### -field DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY
 
-Allocate contiguous nonpageable memory. This is functionally equivalent to calling [**MmAllocateContiguousMemory**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatecontiguousmemory).
+Allocate contiguous nonpageable memory. This is functionally equivalent to calling [**MmAllocateContiguousMemory**](../ntddk/nf-ntddk-mmallocatecontiguousmemory.md).
 
 ### -field DXGK_PHYSICAL_MEMORY_TYPE_SECTION
 
-Allocate memory that can be mapped into one or more processes. This represents memory that would normally be allocated from [**ZwCreateSection**](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection).
+Allocate memory that can be mapped into one or more processes. This represents memory that would normally be allocated from [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md).
 
 ### -field DXGK_PHYSICAL_MEMORY_TYPE_IO_SPACE
 

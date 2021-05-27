@@ -71,19 +71,19 @@ Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**.
 
 ### -field Mdl.LowAddress
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](../wdm/nf-wdm-mmallocatepagesformdlex.md) for details.
 
 ### -field Mdl.HighAddress
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](../wdm/nf-wdm-mmallocatepagesformdlex.md) for details.
 
 ### -field Mdl.SkipBytes
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](../wdm/nf-wdm-mmallocatepagesformdlex.md) for details.
 
 ### -field Mdl.Flags
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_MDL**. See [**MmAllocatePagesForMdlEx**](../wdm/nf-wdm-mmallocatepagesformdlex.md) for details.
 
 ### -field ContiguousMemory
 
@@ -91,15 +91,15 @@ Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**.
 
 ### -field ContiguousMemory.LowestAcceptableAddress
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**. See [**MmAllocateContiguousMemorySpecifyCache**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**. See [**MmAllocateContiguousMemorySpecifyCache**](../ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache.md) for details.
 
 ### -field ContiguousMemory.HighestAcceptableAddress
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**. See [**MmAllocateContiguousMemorySpecifyCache**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**. See [**MmAllocateContiguousMemorySpecifyCache**](../ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache.md) for details.
 
 ### -field ContiguousMemory.BoundaryAddressMultiple
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**. See [**MmAllocateContiguousMemorySpecifyCache**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_CONTIGUOUS_MEMORY**. See [**MmAllocateContiguousMemorySpecifyCache**](../ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache.md) for details.
 
 ### -field Section
 
@@ -107,19 +107,19 @@ Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**.
 
 ### -field Section.DesiredAccess
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. See [**ZwCreateSection**](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. See [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md) for details.
 
 ### -field Section.ObjectAttributes
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. See [**ZwCreateSection**](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. See [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md) for details.
 
 ### -field Section.PageProtection
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. This value should be one of the following values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. Do not specify cache attributes (e.g. SEC_WRITECOMBINED) in this field. The allocated attributes of the section object are always SEC_COMMIT (PF-mapped section), and the cache type is determines by **CacheType**. See [**ZwCreateSection**](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. This value should be one of the following values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. Do not specify cache attributes (e.g. SEC_WRITECOMBINED) in this field. The allocated attributes of the section object are always SEC_COMMIT (PF-mapped section), and the cache type is determines by **CacheType**. See [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md) for details.
 
 ### -field Section.AllocationAttributes
 
-Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. See [**ZwCreateSection**](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection) for details.
+Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**. See [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md) for details.
 
 ### -field IOSpace
 
@@ -155,8 +155,8 @@ The *hAdapter* field is optional when creating a physical memory object, but tha
 
 [**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)
 
-[**MmAllocateContiguousMemorySpecifyCache**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache)
+[**MmAllocateContiguousMemorySpecifyCache**](../ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache.md)
 
-[**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex)
+[**MmAllocatePagesForMdlEx**](../wdm/nf-wdm-mmallocatepagesformdlex.md)
 
-[**ZwCreateSection**](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection)
+[**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md)

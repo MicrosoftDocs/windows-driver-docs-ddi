@@ -77,9 +77,9 @@ A pointer to a null-terminated ANSI string that identifies the caller. For examp
 
 Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines that execute during a system bug check.
 
-For descriptions of each type of callback, see [**KBUGCHECK_CALLBACK_REASON**](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_callback_reason).
+For descriptions of each type of callback, see [**KBUGCHECK_CALLBACK_REASON**](./ne-wdm-_kbugcheck_callback_reason.md).
 
-Drivers can use the [**KeDeregisterBugCheckReasonCallback**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckreasoncallback) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
+Drivers can use the [**KeDeregisterBugCheckReasonCallback**](./nf-wdm-kederegisterbugcheckreasoncallback.md) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
 
 For information about how to implement these callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 

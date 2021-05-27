@@ -58,7 +58,7 @@ The **NDIS_RECEIVE_QUEUE_PARAMETERS** structure contains the configuration param
 
 ### -field Header
 
-The type, revision, and size of the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure. This member is formatted as an [NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header) structure.
+The type, revision, and size of the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure. This member is formatted as an [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md) structure.
 
 The miniport driver must set the **Type** member of **Header** to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the **NDIS_NIC_SWITCH_CAPABILITIES** structure, the driver must set the **Revision** member of **Header** to one of the following values:
 
@@ -89,7 +89,7 @@ A **ULONG** value that contains a bitwise **OR** of the following flags. The fol
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION
 
-The miniport driver must not mix network packets for other receive queues with the packets for this queue in a single call to the [NdisMIndicateReceiveNetBufferLists](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists) function.
+The miniport driver must not mix network packets for other receive queues with the packets for this queue in a single call to the [NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md) function.
 
 
 
@@ -129,7 +129,7 @@ The setting in the **QueueName** member changed.
 
 ### -field QueueType
 
-An [NDIS_RECEIVE_QUEUE_TYPE](/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_type) enumeration value that specifies the type of the receive queue.
+An [NDIS_RECEIVE_QUEUE_TYPE](./ne-ntddndis-_ndis_receive_queue_type.md) enumeration value that specifies the type of the receive queue.
 
 ### -field QueueId
 
@@ -191,11 +191,11 @@ In NDIS 6.30, the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure is also used in [N
 
 ## -see-also
 
-[NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
+[NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
 
 
 
-[NDIS_RECEIVE_QUEUE_TYPE](/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_type)
+[NDIS_RECEIVE_QUEUE_TYPE](./ne-ntddndis-_ndis_receive_queue_type.md)
 
 
 
@@ -203,7 +203,7 @@ In NDIS 6.30, the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure is also used in [N
 
 
 
-[NdisMIndicateReceiveNetBufferLists](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists)
+[NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md)
 
 
 
@@ -212,4 +212,3 @@ In NDIS 6.30, the **NDIS_RECEIVE_QUEUE_PARAMETERS** structure is also used in [N
 
 
 [OID_RECEIVE_FILTER_QUEUE_PARAMETERS](/windows-hardware/drivers/network/oid-receive-filter-queue-parameters)
-

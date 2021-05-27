@@ -49,7 +49,7 @@ The *NdkCompleteConnectEx* (*NDK_FN_COMPLETE_CONNECT_EX*) function completes an 
 ### -param pNdkConnector
 
 [in]
-A pointer to an NDK connector object ([NDK_CONNECTOR](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector)).
+A pointer to an NDK connector object ([NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)).
 
 ### -param DisconnectEvent
 
@@ -64,7 +64,7 @@ A context value to pass back to the *NdkDisconnectEventCallback* function that i
 ### -param RequestCompletion 
 
 [in]
-A pointer to a request completion callback *NdkRequestCompletion* function ([NDK_FN_REQUEST_COMPLETION](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion)).
+A pointer to a request completion callback *NdkRequestCompletion* function ([NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)).
 
 ### -param RequestContext 
 
@@ -86,7 +86,7 @@ The *NDK_FN_COMPLETE_CONNECT* function returns one of the following NTSTATUS cod
 
 ## -remarks
 
-The *NdkCompleteConnectEx* function completes a connection request that was  initiated by a previous call to the *NdkConnect* ([NDK_FN_CONNECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect)) function. The NDK consumer calls *NdkCompleteConnectEx* after the peer accepts the connection request.
+The *NdkCompleteConnectEx* function completes a connection request that was  initiated by a previous call to the *NdkConnect* ([NDK_FN_CONNECT](./nc-ndkpi-ndk_fn_connect.md)) function. The NDK consumer calls *NdkCompleteConnectEx* after the peer accepts the connection request.
 
 ## -see-also
 
@@ -96,14 +96,14 @@ The *NdkCompleteConnectEx* function completes a connection request that was  ini
 
 [NDKPI Object Lifetime Requirements](/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements)
 
-[NDK_CONNECTOR](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector)
+[NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)
 
-[NDK_CONNECTOR_DISPATCH](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch)
-
-
-
-[NDK_FN_CONNECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect)
+[NDK_CONNECTOR_DISPATCH](./ns-ndkpi-_ndk_connector_dispatch.md)
 
 
 
-[NDK_FN_REQUEST_COMPLETION](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion)
+[NDK_FN_CONNECT](./nc-ndkpi-ndk_fn_connect.md)
+
+
+
+[NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)

@@ -76,4 +76,4 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 ## -see-also
 
-[SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR](/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor)
+[SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor.md)
