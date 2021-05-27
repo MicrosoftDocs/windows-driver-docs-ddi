@@ -66,7 +66,7 @@ Defines the group network virtualization information for a network buffer list (
 A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</b>. 
       <b>Value</b> contains a pointer value that is type-compatible with the 
       <b>NetBufferListInfo</b> member in the 
-      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
+      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
 
 
 #### - ( unnamed struct )
@@ -114,7 +114,7 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 

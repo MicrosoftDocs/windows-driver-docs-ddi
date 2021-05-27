@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-**NET_BUFFER_CURRENT_MDL** is a macro that NDIS drivers use to get the **CurrentMdl** member of a [**NET_BUFFER_DATA**](ns-ndis-_net_buffer_data.md) structure in a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
+**NET_BUFFER_CURRENT_MDL** is a macro that NDIS drivers use to get the **CurrentMdl** member of a [**NET_BUFFER_DATA**](../nbl/ns-nbl-net_buffer_data.md) structure in a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
 
 ## -parameters
 
@@ -65,5 +65,5 @@ The return value is a pointer to the first MDL that the current driver is using.
 
 [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 
-[**NET_BUFFER_DATA**](ns-ndis-_net_buffer_data.md)
+[**NET_BUFFER_DATA**](../nbl/ns-nbl-net_buffer_data.md)
 

@@ -63,7 +63,7 @@ An ID that indicates the type of information to access from the **NetBufferListI
 
 ## -remarks
 
-For a list of the valid **NetBufferListInfo** IDs, see the [**NDIS_NET_BUFFER_LIST_INFO**](ne-ndis-_ndis_net_buffer_list_info.md) enumeration reference page.
+For a list of the valid **NetBufferListInfo** IDs, see the [**NDIS_NET_BUFFER_LIST_INFO**](../nblinfo/ne-nblinfo-ndis_net_buffer_list_info.md) enumeration reference page.
 
 The following example demonstrates getting a **NetBufferListInfo** value:
 
@@ -79,7 +79,7 @@ NET_BUFFER_LIST_INFO(pNBL, Id) = value;
 
 ## -see-also
 
-[**NDIS_NET_BUFFER_LIST_INFO**](ne-ndis-_ndis_net_buffer_list_info.md)
+[**NDIS_NET_BUFFER_LIST_INFO**](../nblinfo/ne-nblinfo-ndis_net_buffer_list_info.md)
 
 [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
 

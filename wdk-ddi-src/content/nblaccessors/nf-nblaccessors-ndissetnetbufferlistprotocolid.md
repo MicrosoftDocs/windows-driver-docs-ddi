@@ -73,7 +73,7 @@ The NetBEUI protocol.
 
 Drivers that create [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structures should set the protocol identifier by calling the **NdisSetNetBufferListProtocolId** macro or by associating an identifier with a **NET_BUFFER_LIST** pool.
 
-To associate a protocol identifier with a **NET_BUFFER_LIST** pool, call the [**NdisAllocateNetBufferListPool**](nf-ndis-ndisallocatenetbufferlistpool.md) function and specify the protocol identifier in the **ProtocolId** member of the [**NET_BUFFER_LIST_POOL_PARAMETERS**](ns-ndis-_net_buffer_list_pool_parameters.md) structure.
+To associate a protocol identifier with a **NET_BUFFER_LIST** pool, call the [**NdisAllocateNetBufferListPool**](../nblapi/nf-nblapi-ndisallocatenetbufferlistpool.md) function and specify the protocol identifier in the **ProtocolId** member of the [**NET_BUFFER_LIST_POOL_PARAMETERS**](../nblapi/ns-nblapi-net_buffer_list_pool_parameters.md) structure.
 
 Miniport, filter, and intermediate drivers set the protocol identifier to zero.
 
@@ -81,9 +81,9 @@ Miniport, filter, and intermediate drivers set the protocol identifier to zero.
 
 [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
 
-[**NET_BUFFER_LIST_POOL_PARAMETERS**](ns-ndis-_net_buffer_list_pool_parameters.md)
+[**NET_BUFFER_LIST_POOL_PARAMETERS**](../nblapi/ns-nblapi-net_buffer_list_pool_parameters.md)
 
-[**NdisAllocateNetBufferListPool**](nf-ndis-ndisallocatenetbufferlistpool.md)
+[**NdisAllocateNetBufferListPool**](../nblapi/nf-nblapi-ndisallocatenetbufferlistpool.md)
 
-[**NdisGetNetBufferListProtocolId**](nf-ndis-ndisgetnetbufferlistprotocolid.md)
+[**NdisGetNetBufferListProtocolId**](../nblapi/nf-nblapi-ndisgetnetbufferlistprotocolid.md)
 

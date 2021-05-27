@@ -56,7 +56,7 @@ The hash information.
 
 ## -returns
 
-**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO** returns the hash function from the specified hash information. For more information about the hash information, see [**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-ntddndis-ndis_rss_hash_info_from_type_and_func.md).
+**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO** returns the hash function from the specified hash information. For more information about the hash information, see [**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-hashtypes-ndis_rss_hash_info_from_type_and_func.md).
 
 ## -remarks
 
@@ -66,4 +66,4 @@ For more information about the hashing functions, see [RSS Hashing Functions](/w
 
 ## -see-also
 
-[**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-ntddndis-ndis_rss_hash_info_from_type_and_func.md)
+[**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-hashtypes-ndis_rss_hash_info_from_type_and_func.md)

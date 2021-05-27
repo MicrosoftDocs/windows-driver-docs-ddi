@@ -55,7 +55,7 @@ The NET_BUFFER_HEADER structure specifies header information for the
 ### -field NetBufferData
 
 A 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> structure.
 
 ### -field Link
 
@@ -71,5 +71,5 @@ NDIS maintains the information in the NET_BUFFER_HEADER union.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a>
 
