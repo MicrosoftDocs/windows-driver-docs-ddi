@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_35
+UID: NS:gnssdriver.__unnamed_struct_38
 title: GNSS_EVENT (gnssdriver.h)
 description: The GNSS_EVENT structure defines the information required for a GNSS event.
 old-location: gnss\gnss_event.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_25
+UID: NS:gnssdriver.__unnamed_struct_28
 title: GNSS_GEOFENCE_ALERT_DATA (gnssdriver.h)
 description: This structure is used by the GNSS engine to notify a geofence breach alert.
 old-location: gnss\gnss_geofence_alert_data.htm

@@ -1,9 +1,9 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_18
-tech.root: gnss
-title: GNSS_FIXDATA_2
+title: GNSS_FIXDATA_2 (gnssdriver.h)
 ms.date: 04/05/2021
 targetos: Windows
+tech.root: gnss
 description: The GNSS_FIXDATA_2 structure defines the specific data elements associated with a GNSS fix returned from the driver.
 req.construct-type: structure
 req.ddi-compliance: 

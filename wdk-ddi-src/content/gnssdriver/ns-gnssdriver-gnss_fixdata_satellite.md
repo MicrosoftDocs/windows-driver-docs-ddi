@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_14
+UID: NS:gnssdriver.__unnamed_struct_16
 title: GNSS_FIXDATA_SATELLITE (gnssdriver.h)
 description: This structure defines satellite-related information of a fix.
 old-location: gnss\gnss_fixdata_satellite.htm

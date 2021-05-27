@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_33
+UID: NS:gnssdriver.__unnamed_struct_36
 title: GNSS_NI_REQUEST_PARAM (gnssdriver.h)
 description: This structure contains the NI request parameters.
 old-location: gnss\gnss_ni_request_param.htm

@@ -1,9 +1,9 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_39
-tech.root: gnss
-title: GNSS_EVENT_2
+title: GNSS_EVENT_2 (gnssdriver.h)
 ms.date: 04/05/2021
 targetos: Windows
+tech.root: gnss
 description: The GNSS_EVENT_2 structure defines the information required for a GNSS event.
 req.construct-type: structure
 req.ddi-compliance: 
