@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_28
+UID: NS:gnssdriver.__unnamed_struct_31
 title: GNSS_NMEA_DATA (gnssdriver.h)
 description: This structure contains generic (non-parsed) NMEA data.
 old-location: gnss\gnss_nmea_data.htm

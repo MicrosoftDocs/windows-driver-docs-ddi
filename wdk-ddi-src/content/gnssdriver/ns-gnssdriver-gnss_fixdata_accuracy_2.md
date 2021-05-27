@@ -1,9 +1,9 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_14
-tech.root: gnss
-title: GNSS_FIXDATA_ACCURACY_2
+title: GNSS_FIXDATA_ACCURACY_2 (gnssdriver.h)
 ms.date: 04/05/2021
 targetos: Windows
+tech.root: gnss
 description: The GNSS_FIXDATA_ACCURACY_2 structure defines the accuracy details of a fix.
 req.construct-type: structure
 req.ddi-compliance: 
