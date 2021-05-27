@@ -60,10 +60,10 @@ For more information about these members, see [**NDIS_OBJECT_HEADER**](/windows-
 
 ### -field SetRegisterParams
 
-A formatted [**WWAN_SET_REGISTER_PARAMS**](../wwan/ns-wwan-wwan_set_register_params.md) structure that describes the parameters.
+A formatted [**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md) structure that describes the parameters.
 
 ## -see-also
 
 [**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
 
-[**WWAN_SET_REGISTER_PARAMS**](../wwan/ns-wwan-wwan_set_register_params.md)
+[**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md)

@@ -72,10 +72,10 @@ The status of system capability. The following table shows the possible values f
 
 ### -field RegisterParamsInfo
 
-A formatted [**WWAN_REGISTER_PARAMS_INFO**](../wwan/ns-wwan-wwan_register_params_info.md) structure that describes the parameters.
+A formatted [**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md) structure that describes the parameters.
 
 ## -see-also
 
 [**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
 
-[**WWAN_REGISTER_PARAMS_INFO**](../wwan/ns-wwan-wwan_register_params_info.md)
+[**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md)
