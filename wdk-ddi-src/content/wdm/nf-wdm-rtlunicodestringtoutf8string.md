@@ -57,7 +57,7 @@ Pointer to the Unicode source string to be converted to UTF8.
 
 ### -param AllocateDestinationString
 
-**TRUE** if this routine is to allocate the buffer space for the *DestinationString*. If it does, the buffer must be deallocated by calling [RtlFreeUTF8String](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string).
+**TRUE** if this routine is to allocate the buffer space for the *DestinationString*. If it does, the buffer must be deallocated by calling [RtlFreeUTF8String](./nf-wdm-rtlfreeutf8string.md).
 
 ## -returns
 
@@ -65,4 +65,4 @@ If the conversion succeeds, **RtlUnicodeStringToUTF8String** returns STATUS_SUCC
 
 ## -see-also
 
-[RtlFreeUTF8String](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string)
+[RtlFreeUTF8String](./nf-wdm-rtlfreeutf8string.md)

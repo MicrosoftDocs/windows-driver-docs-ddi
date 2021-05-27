@@ -45,7 +45,7 @@ Audio driver can call this IOCTL to query the mute stepped data ranges and min/m
 
 ### -input-buffer
 
-A 0 based index value based on the number of Audio endpoints as reported by the [IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor). This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
+A 0 based index value based on the number of Audio endpoints as reported by the [IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR](./ni-sidebandaudio-ioctl_sbaud_get_device_descriptor.md). This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length 
 
@@ -53,7 +53,7 @@ Size of ULONG.
 
 ### -output-buffer
 
-KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Mute stepped data ranges as documented in [KSPROPERTY_DESCRIPTION](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description) and [KSPROPERTY_MEMBERSHEADER](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader).
+KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Mute stepped data ranges as documented in [KSPROPERTY_DESCRIPTION](../ks/ns-ks-ksproperty_description.md) and [KSPROPERTY_MEMBERSHEADER](../ks/ns-ks-ksproperty_membersheader.md).
 
 If NULL, Irp->IoStatus.Information will be set to the number of bytes required for output buffer.
 
@@ -78,4 +78,4 @@ Audio drivers that implement sideband audio should advertise endpoint Mute throu
 
 [KSNODEPROPERTY_AUDIO_CHANNEL](../ksmedia/ns-ksmedia-ksnodeproperty_audio_channel.md)
 
-[IMiniportAudioEngineNode::GetDeviceChannelCount](/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelcount)
+[IMiniportAudioEngineNode::GetDeviceChannelCount](../portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelcount.md)

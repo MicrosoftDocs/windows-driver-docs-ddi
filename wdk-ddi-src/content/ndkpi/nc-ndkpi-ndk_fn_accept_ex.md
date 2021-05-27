@@ -49,22 +49,22 @@ The *NdkAcceptEx* (*NDK_FN_ACCEPT_EX*) function accepts an incoming connection r
 ### -param pNdkConnector 
 
 [in]
-A pointer to an NDK connector object ([NDK_CONNECTOR](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector)).
+A pointer to an NDK connector object ([NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)).
 
 ### -param pNdkQp 
 
 [in]
-A pointer to an NDK queue pair (QP) object ([NDK_QP](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp)) to associate with the connection.
+A pointer to an NDK queue pair (QP) object ([NDK_QP](./ns-ndkpi-_ndk_qp.md)) to associate with the connection.
 
 ### -param InboundReadLimit 
 
 [in]
-The consumer-supplied maximum number of incoming in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxInboundReadLimit** value in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer-supplied value to the provider maximum. If the peer has a lower *OutboundReadLimit* value, then the provider will use that value as the effective *InboundReadLimit*. The consumer can retrieve the effective *InboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data)).
+The consumer-supplied maximum number of incoming in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxInboundReadLimit** value in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer-supplied value to the provider maximum. If the peer has a lower *OutboundReadLimit* value, then the provider will use that value as the effective *InboundReadLimit*. The consumer can retrieve the effective *InboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)).
 
 ### -param OutboundReadLimit 
 
 [in]
-The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxOutboundReadLimit** value  in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower *InboundReadLimit*, then the provider will use that value as the effective *OutboundReadLimit*. The consumer can retrieve the effective *OutboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data)).
+The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxOutboundReadLimit** value  in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower *InboundReadLimit*, then the provider will use that value as the effective *OutboundReadLimit*. The consumer can retrieve the effective *OutboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)).
 
 ### -param PVOID
 
@@ -88,7 +88,7 @@ A context value to pass to the *DisconnectEventContext* parameter of the  callba
 ### -param RequestCompletion 
 
 [in]
-A pointer to a request completion callback routine *NdkRequestCompletion* ([NDK_FN_REQUEST_COMPLETION](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion)).
+A pointer to a request completion callback routine *NdkRequestCompletion* ([NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)).
 
 ### -param RequestContext 
 
@@ -102,7 +102,7 @@ The *NDK_FN_ACCEPT_EX* function returns one of the following NTSTATUS codes.
 |Return code|Description|
 |--- |--- |
 |**STATUS_SUCCESS**|The operation completed successfully.|
-|**STATUS_PENDING**|The operation is pending and will be completed later. The driver will call the specified _RequestCompletion_ ([NDK_FN_REQUEST_COMPLETION](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion)) function to complete the pending operation.|
+|**STATUS_PENDING**|The operation is pending and will be completed later. The driver will call the specified _RequestCompletion_ ([NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)) function to complete the pending operation.|
 |**STATUS_CONNECTION_ABORTED**|The connecting peer abandoned the pending connection establishment.|
 |**STATUS_IO_TIMEOUT**|The peer did not call the CompleteConnect ([NDK_FN_COMPLETE_CONNECT_EX](nc-ndkpi-ndk_fn_complete_connect_ex.md)) function to complete the pending connection request.|
 |**Other status codes**|An error occurred.|
@@ -112,7 +112,7 @@ The *NDK_FN_ACCEPT_EX* function returns one of the following NTSTATUS codes.
 
 The NDK consumer calls *NdkAcceptEx* to accept an incoming connection request over a listener object.
 
-The *NdkCreateListener* ([NDK_FN_CREATE_LISTENER](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener)) function creates an NDK listener object and provides an *NdkConnectEventCallback* function ([NDK_FN_CONNECT_EVENT_CALLBACK](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect_event_callback)).
+The *NdkCreateListener* ([NDK_FN_CREATE_LISTENER](./nc-ndkpi-ndk_fn_create_listener.md)) function creates an NDK listener object and provides an *NdkConnectEventCallback* function ([NDK_FN_CONNECT_EVENT_CALLBACK](./nc-ndkpi-ndk_fn_connect_event_callback.md)).
 
 The *NdkConnectEventCallback* function is used by the NDK provider to notify the consumer about each incoming connection request.
 
@@ -130,32 +130,32 @@ The *NdkConnectEventCallback* function is used by the NDK provider to notify the
 
 
 
-[NDK_CONNECTOR](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector)
+[NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)
 
 
 
-[NDK_CONNECTOR_DISPATCH](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch)
+[NDK_CONNECTOR_DISPATCH](./ns-ndkpi-_ndk_connector_dispatch.md)
 
 
 
-[NDK_FN_CONNECT_EVENT_CALLBACK](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect_event_callback)
+[NDK_FN_CONNECT_EVENT_CALLBACK](./nc-ndkpi-ndk_fn_connect_event_callback.md)
 
 
 
-[NDK_FN_CREATE_LISTENER](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener)
+[NDK_FN_CREATE_LISTENER](./nc-ndkpi-ndk_fn_create_listener.md)
 
 
 
-[NDK_FN_GET_CONNECTION_DATA](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data)
+[NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)
 
 
 
-[NDK_FN_REJECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_reject)
+[NDK_FN_REJECT](./nc-ndkpi-ndk_fn_reject.md)
 
 
 
-[NDK_FN_REQUEST_COMPLETION](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion)
+[NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)
 
 
 
-[NDK_QP](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp)
+[NDK_QP](./ns-ndkpi-_ndk_qp.md)

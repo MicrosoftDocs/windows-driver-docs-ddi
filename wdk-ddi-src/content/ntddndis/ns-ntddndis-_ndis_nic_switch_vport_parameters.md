@@ -149,7 +149,7 @@ The switch identifier is an integer between zero and the number of switches that
 
 An NDIS_NIC_SWITCH_VPORT_ID value that specifies the identifier of a VPort  on the network adapter. The value is allocated by NDIS,  and is unique across the network adapter. 
 
-The **VPortId** value is within the range from zero to (**NumVPorts** - 1), where **NumVPorts** is the number of VPorts that the miniport driver has configured on the network adapter. The driver specifies this number in the **NumVPorts** member of the [NDIS_NIC_SWITCH_INFO](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info) structure. The driver returns this structure through an OID query request of [OID_NIC_SWITCH_ENUM_SWITCHES](/windows-hardware/drivers/network/oid-nic-switch-enum-switches). 
+The **VPortId** value is within the range from zero to (**NumVPorts** - 1), where **NumVPorts** is the number of VPorts that the miniport driver has configured on the network adapter. The driver specifies this number in the **NumVPorts** member of the [NDIS_NIC_SWITCH_INFO](./ns-ntddndis-_ndis_nic_switch_info.md) structure. The driver returns this structure through an OID query request of [OID_NIC_SWITCH_ENUM_SWITCHES](/windows-hardware/drivers/network/oid-nic-switch-enum-switches). 
 
 
 > [!NOTE]
@@ -172,11 +172,11 @@ One or more queue pairs are configured on a nondefault VPort through an OID meth
 
 ### -field InterruptModeration
 
-An [NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION](/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_nic_switch_vport_interrupt_moderation) value that specifies the interrupt moderation setting of the VPort.
+An [NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION](./ne-ntddndis-_ndis_nic_switch_vport_interrupt_moderation.md) value that specifies the interrupt moderation setting of the VPort.
 
 ### -field VPortState
 
-An [NDIS_NIC_SWITCH_VPORT_STATE](/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_nic_switch_vport_state) value that specifies the current state of the VPort.
+An [NDIS_NIC_SWITCH_VPORT_STATE](./ne-ntddndis-_ndis_nic_switch_vport_state.md) value that specifies the current state of the VPort.
 
 ### -field ProcessorAffinity
 
@@ -205,15 +205,14 @@ For more information about the SR-IOV interface, see [Overview of Single Root I/
 
 ## -see-also
 
-[NDIS_NIC_SWITCH_INFO](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info)
+[NDIS_NIC_SWITCH_INFO](./ns-ntddndis-_ndis_nic_switch_info.md)
 
-[NDIS_NIC_SWITCH_VF_INFO](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vf_info)
+[NDIS_NIC_SWITCH_VF_INFO](./ns-ntddndis-_ndis_nic_switch_vf_info.md)
 
-[NDIS_OBJECT_HEADER](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
+[NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
 
 [OID_NIC_SWITCH_CREATE_VPORT](/windows-hardware/drivers/network/oid-nic-switch-create-vport)
 
 [OID_NIC_SWITCH_ENUM_SWITCHES](/windows-hardware/drivers/network/oid-nic-switch-enum-switches)
 
 [OID_NIC_SWITCH_VPORT_PARAMETERS](/windows-hardware/drivers/network/oid-nic-switch-vport-parameters)
-

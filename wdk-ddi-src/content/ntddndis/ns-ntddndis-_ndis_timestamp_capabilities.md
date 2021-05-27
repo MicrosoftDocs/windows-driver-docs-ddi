@@ -101,7 +101,7 @@ For more information, see [Reporting timestamping capabilities and current confi
 
 [OID_TIMESTAMP_GET_CROSSTIMESTAMP](/windows-hardware/drivers/network/oid-timestamp-get-crosstimestamp)
 
-[**MiniportInitializeEx**](/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
+[**MiniportInitializeEx**](../ndis/nc-ndis-miniport_initialize.md)
 
 [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
 
