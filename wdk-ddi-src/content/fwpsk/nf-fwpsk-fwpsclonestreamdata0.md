@@ -67,7 +67,7 @@ A pointer to the original
 A 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
+     <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 ### -param netBufferPoolHandle 
 

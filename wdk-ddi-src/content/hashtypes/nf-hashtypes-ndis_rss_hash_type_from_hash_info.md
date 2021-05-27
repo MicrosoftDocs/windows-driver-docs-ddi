@@ -51,7 +51,7 @@ The **NDIS_RSS_HASH_TYPE_FROM_HASH_INFO** macro gets the hash type from the hash
 
 ### -param _HashInfo
 
-The hash information. For more information about the hash information, see [**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-ntddndis-ndis_rss_hash_info_from_type_and_func.md).
+The hash information. For more information about the hash information, see [**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-hashtypes-ndis_rss_hash_info_from_type_and_func.md).
 
 ## -returns
 
@@ -65,5 +65,5 @@ For more information about the hash type, see [RSS Hashing Types](/windows-hardw
 
 ## -see-also
 
-[**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-ntddndis-ndis_rss_hash_info_from_type_and_func.md)
+[**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-hashtypes-ndis_rss_hash_info_from_type_and_func.md)
 

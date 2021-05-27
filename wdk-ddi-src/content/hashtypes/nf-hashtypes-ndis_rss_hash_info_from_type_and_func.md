@@ -46,7 +46,7 @@ dev_langs:
 
 ## -description
 
-The **NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC** macro combines a hash type and hash function into hash information and sets the **HashInformation** member in the [**NDIS_RECEIVE_SCALE_PARAMETERS**](ns-ntddndis-_ndis_receive_scale_parameters.md) structure.
+The **NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC** macro combines a hash type and hash function into hash information and sets the **HashInformation** member in the [**NDIS_RECEIVE_SCALE_PARAMETERS**](../ntddndis/ns-ntddndis-_ndis_receive_scale_parameters.md) structure.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ For more information about the hashing functions, see [RSS Hashing Functions](/w
 
 ## -remarks
 
-Use the [**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_type_from_hash_info.md) and [**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_func_from_hash_info.md) macros to get the hash type and hash function from the hash information.
+Use the [**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](../hashtypes/nf-hashtypes-ndis_rss_hash_type_from_hash_info.md) and [**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO**](../hashtypes/nf-hashtypes-ndis_rss_hash_func_from_hash_info.md) macros to get the hash type and hash function from the hash information.
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hash type to identify the portion of received network data that is used to calculate an RSS hash value.
 
@@ -96,9 +96,9 @@ For more information about the hashing functions, see [RSS Hashing Functions](/w
 
 ## -see-also
 
-[**NDIS_RECEIVE_SCALE_PARAMETERS**](ns-ntddndis-_ndis_receive_scale_parameters.md)
+[**NDIS_RECEIVE_SCALE_PARAMETERS**](../ntddndis/ns-ntddndis-_ndis_receive_scale_parameters.md)
 
-[**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_func_from_hash_info.md)
+[**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO**](../hashtypes/nf-hashtypes-ndis_rss_hash_func_from_hash_info.md)
 
-[**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_type_from_hash_info.md)
+[**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](../hashtypes/nf-hashtypes-ndis_rss_hash_type_from_hash_info.md)
 

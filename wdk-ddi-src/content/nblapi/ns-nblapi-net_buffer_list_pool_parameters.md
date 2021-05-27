@@ -150,7 +150,7 @@ If
        <b>fAllocateNetBuffer</b> is <b>TRUE</b>, NDIS allocates the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure but not the data
        buffer.
 
-The <i>Parameters</i> parameter of the <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function contains a pointer to an <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure.
+The <i>Parameters</i> parameter of the <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function contains a pointer to an <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure.
 
 ## -see-also
 
@@ -162,8 +162,8 @@ The <i>Parameters</i> parameter of the <a href="/windows-hardware/drivers/ddi/nd
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_data">NET_BUFFER_LIST_DATA</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_data">NET_BUFFER_LIST_DATA</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a>

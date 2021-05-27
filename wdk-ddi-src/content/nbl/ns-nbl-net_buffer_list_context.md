@@ -120,7 +120,7 @@ The
     NET_BUFFER_LIST_CONTEXT structure. To improve system performance, a driver should preallocate any
     required context data space when the driver allocates a NET_BUFFER_LIST structure pool. To preallocate
     this data space, a driver calls the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+    <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
     NdisAllocateNetBufferListPool</a> function and then specifies the amount of data space required in the 
     <i>ContextSize</i> parameter. Preallocation of this data space saves NDIS from allocating memory in the
     receive and send paths.
@@ -176,7 +176,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 

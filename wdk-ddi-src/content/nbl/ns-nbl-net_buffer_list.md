@@ -56,13 +56,13 @@ The NET_BUFFER_LIST structure specifies a linked list of
 
 The next **NET_BUFFER_LIST** structure in the chain. 
 
-Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_NEXT_NBL**](nf-ndis-net_buffer_list_next_nbl.md) macro.
+Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_NEXT_NBL**](../nblaccessors/nf-nblaccessors-net_buffer_list_next_nbl.md) macro.
 
 ### -field FirstNetBuffer
 
 The first [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) on this **NET_BUFFER_LIST**.
 
-Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_FIRST_NB**](nf-ndis-net_buffer_list_first_nb.md) macro.
+Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_FIRST_NB**](../nblaccessors/nf-nblaccessors-net_buffer_list_first_nb.md) macro.
 
 ### -field Link
 
@@ -354,7 +354,7 @@ An array of values containing information that is common to all NET_BUFFER struc
      This information is often referred to as "out-of-band (OOB) data."
 
 Use the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">
+     <a href="/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info">
      NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
      <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro to set and
      get values in the 
@@ -481,7 +481,7 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 

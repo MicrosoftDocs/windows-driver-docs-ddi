@@ -148,7 +148,7 @@ When
     <b>TCP_DISCONNECT_ABORTIVE_CLOSE</b>, the NET_BUFFER structure associated with the NET_BUFFER_LIST structure referenced by the 
     <i>NetBufferList</i> pointer contains no data. That is, the 
     <b>DataLength</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure in the 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> structure in the 
     <b>NetBufferHeader</b> of the NET_BUFFER structure is zero.
 
 <b>Graceful Disconnect</b>
@@ -219,7 +219,7 @@ The offload target must not free resources for the connection on which it has is
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a>
 
 
 

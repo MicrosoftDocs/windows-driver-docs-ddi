@@ -268,7 +268,7 @@ Reserved for NDIS.
 
 ### -field TcpRecvSegCoalesceInfo
 
-Identifies a pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> union containing receive segment coalescing (RSC) counter information. For more information, see the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
+Identifies a pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/content/nblrsc/ns-nblrsc-ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> union containing receive segment coalescing (RSC) counter information. For more information, see the <a href="/windows-hardware/drivers/ddi/content/nblrsc/ns-nblrsc-ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
 
 ### -field UdpSegmentationOffloadInfo
 
@@ -276,7 +276,7 @@ Identifies information that is used in offloading the segmentation of a large TC
 
 ### -field RscTcpTimestampDelta
 
-Identifies a <b>ULONG</b> value containing RSC timestamp information. For more information, see the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
+Identifies a <b>ULONG</b> value containing RSC timestamp information. For more information, see the <a href="/windows-hardware/drivers/ddi/content/nblrsc/ns-nblrsc-ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
 
 ### -field TcpSendOffloadsSupplementalNetBufferListInfo
 

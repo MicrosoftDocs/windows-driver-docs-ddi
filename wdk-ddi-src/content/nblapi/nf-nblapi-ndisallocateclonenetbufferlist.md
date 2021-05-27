@@ -60,7 +60,7 @@ A pointer to an existing <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_b
 
 [in, optional]
 A handle that was obtained from a call to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+     <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function.
 
 ### -param NetBufferPoolHandle 
@@ -143,7 +143,7 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 
