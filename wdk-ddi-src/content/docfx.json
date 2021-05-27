@@ -1019,6 +1019,7 @@
           "wwan/ne-wwan-_wwan_async_getset_type.md",
           "wwan/ne-wwan-_wwan_network_blacklist_state.md",
           "wwan/ns-wwan-_wwan_device_caps_ex.md",
+          "wwan/ns-wwan-wwan_device_caps_ex_rev1.md",
           "_netvista/index.md"
         ]
       },
