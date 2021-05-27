@@ -76,7 +76,7 @@ The structure that contains the parameters for the SCO connection request.
 
 ### -field Parameters.Connect.Request.LinkType
 
-A value from the [SCO\_LINK\_TYPE](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type) enumeration that indicates the type of incoming connection.
+A value from the [SCO\_LINK\_TYPE](./ne-bthddi-_sco_link_type.md) enumeration that indicates the type of incoming connection.
 
 ### -field Parameters.Disconnect
 
@@ -84,7 +84,7 @@ The structure that contains parameters for the **ScoIndicationRemoteDisconnectSC
 
 ### -field Parameters.Disconnect.Reason
 
-A [SCO\_DISCONNECT\_REASON](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason) value that indicates why the SCO connection was terminated.
+A [SCO\_DISCONNECT\_REASON](./ne-bthddi-_sco_disconnect_reason.md) value that indicates why the SCO connection was terminated.
 
 ### -field Parameters.Disconnect.CloseNow
 
@@ -92,7 +92,7 @@ A Boolean value that a profile driver can set to indicate whether the SCO connec
 
 ## -remarks
 
-A profile driver's [SCO Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback) should process a notification differently depending upon the value that the Bluetooth driver stack passes in the *Indication* parameter of the callback function.
+A profile driver's [SCO Callback Function](./nc-bthddi-pfnsco_indication_callback.md) should process a notification differently depending upon the value that the Bluetooth driver stack passes in the *Indication* parameter of the callback function.
 
 When the Bluetooth driver stack passes **ScoIndicationRemoteConnect**, the callback function should use the **Connect** member of the **Parameters** union.
 
@@ -100,6 +100,6 @@ When the Bluetooth driver stack passes **ScoIndicationRemoteDisconnect**, the ca
 
 ## -see-also
 
-[SCO Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback)
+[SCO Callback Function](./nc-bthddi-pfnsco_indication_callback.md)
 
-[SCO\_DISCONNECT\_REASON](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason)
+[SCO\_DISCONNECT\_REASON](./ne-bthddi-_sco_disconnect_reason.md)

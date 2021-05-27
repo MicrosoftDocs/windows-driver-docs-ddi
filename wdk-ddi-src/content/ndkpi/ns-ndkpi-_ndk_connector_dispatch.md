@@ -114,49 +114,48 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="/windows-har
 
 [NDK_FN_COMPLETE_CONNECT_EX](nc-ndkpi-ndk_fn_complete_connect_ex.md)
 
-[NDK_CONNECTOR](/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector)
+[NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)
 
 
 
-[NDK_FN_ACCEPT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept)
+[NDK_FN_ACCEPT](./nc-ndkpi-ndk_fn_accept.md)
 
 
 
-[NDK_FN_CLOSE_OBJECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_close_object)
+[NDK_FN_CLOSE_OBJECT](./nc-ndkpi-ndk_fn_close_object.md)
 
 
 
-[NDK_FN_COMPLETE_CONNECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_complete_connect)
+[NDK_FN_COMPLETE_CONNECT](./nc-ndkpi-ndk_fn_complete_connect.md)
 
 
 
-[NDK_FN_CONNECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect)
+[NDK_FN_CONNECT](./nc-ndkpi-ndk_fn_connect.md)
 
 
 
-[NDK_FN_CONNECT_WITH_SHARED_ENDPOINT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect_with_shared_endpoint)
+[NDK_FN_CONNECT_WITH_SHARED_ENDPOINT](./nc-ndkpi-ndk_fn_connect_with_shared_endpoint.md)
 
 
 
-[NDK_FN_DISCONNECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_disconnect)
+[NDK_FN_DISCONNECT](./nc-ndkpi-ndk_fn_disconnect.md)
 
 
 
-[NDK_FN_GET_CONNECTION_DATA](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data)
+[NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)
 
 
 
-[NDK_FN_GET_LOCAL_ADDRESS](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_local_address)
+[NDK_FN_GET_LOCAL_ADDRESS](./nc-ndkpi-ndk_fn_get_local_address.md)
 
 
 
-[NDK_FN_GET_PEER_ADDRESS](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_peer_address)
+[NDK_FN_GET_PEER_ADDRESS](./nc-ndkpi-ndk_fn_get_peer_address.md)
 
 
 
-[NDK_FN_QUERY_EXTENSION_INTERFACE](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_query_extension_interface)
+[NDK_FN_QUERY_EXTENSION_INTERFACE](./nc-ndkpi-ndk_fn_query_extension_interface.md)
 
 
 
-[NDK_FN_REJECT](/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_reject)
-
+[NDK_FN_REJECT](./nc-ndkpi-ndk_fn_reject.md)
