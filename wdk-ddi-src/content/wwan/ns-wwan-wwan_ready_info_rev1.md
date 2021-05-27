@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_READY_INFO_REV1
 tech.root: 
 title: WWAN_READY_INFO_REV1
 description: The WWAN_READY_INFO_REV1 structure represents the ready-state of the MB device.
-ms.date: 
+ms.date: 05/27/2021
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

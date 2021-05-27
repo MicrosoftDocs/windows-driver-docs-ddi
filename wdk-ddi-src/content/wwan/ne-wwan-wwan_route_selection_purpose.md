@@ -3,7 +3,7 @@ UID: NE:wwan._WWAN_ROUTE_SELECTION_PURPOSE
 tech.root: 
 title: WWAN_ROUTE_SELECTION_PURPOSE
 description: 
-ms.date: 
+ms.date: 05/27/2021
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

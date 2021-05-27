@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_SINGLE_NSSAI
 tech.root: 
 title: WWAN_SINGLE_NSSAI
 description: The WWAN_SINGLE_NSSAI structure represents a single Network Slice Selection Assistance Information (NSSAI).
-ms.date: 
+ms.date: 05/27/2021
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

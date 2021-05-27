@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_SINGLE_TAI
 tech.root: 
 title: WWAN_SINGLE_TAI
 description: The WWAN_SINGLE_TAI structure represents a single Tracking Area Identity (TAI).
-ms.date: 
+ms.date: 05/27/2021
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

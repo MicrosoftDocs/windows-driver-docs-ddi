@@ -3,7 +3,7 @@ UID: NE:wwan._WWAN_MICO_IND
 tech.root: 
 title: WWAN_MICO_IND
 description: The WWAN_MICO_IND enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode.
-ms.date: 
+ms.date: 05/27/2021
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

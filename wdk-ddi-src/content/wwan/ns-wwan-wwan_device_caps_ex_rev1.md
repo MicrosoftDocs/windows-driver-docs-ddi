@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_DEVICE_CAPS_EX_REV1
 tech.root: 
 title: WWAN_DEVICE_CAPS_EX_REV1
 description: The WWAN_DEVICE_CAPS_EX_REV1 structure represents the capabilities of a mobile broadband device.
-ms.date: 
+ms.date: 05/27/2021
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,7 +46,7 @@ dev_langs:
 > [!IMPORTANT]
 > ### Bias-free communication
 >
-> Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the Microsoft [style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
+> Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the [Microsoft style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
 The **WWAN_DEVICE_CAPS_EX_REV1** structure represents the capabilities of a mobile broadband device. **WWAN_DEVICE_CAPS_EX_REV1** updates the existing [WWAN\_DEVICE\_CAPS\_EX](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps_ex) structure by removing the following fields:
 
@@ -233,9 +233,6 @@ A bitmap that represents the types of authentication methods the MB device suppo
 | WWAN_AUTH_ALGO_CAPS_AKA | The MB device supports the AKA authentication method. |
 | WWAN_AUTH_ALGO_CAPS_AKAP | The MB device supports the AKA' (AKA Prime) authentication method. |
 
-> [!NOTE]
-> This member is valid only in Windows 8 and later, when NDIS_WWAN_DEVICE_CAPS_REVISION_2 is specified in the **Header.Revision** sub-member of the [NDIS\_WWAN\_DEVICE\_CAPS](/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps) structure.</div>
-
 ### -field ExecutorIndex
 
 The **WwanDeviceType** member for **WWAN_DEVICE_CAPS_EX_REV1** no longer refers to the modem device but rather to an individual executor. Each device is an RF executor entity of which the OS is aware.
@@ -341,9 +338,6 @@ A ULONG structure that represents the Microsoft service extensions the underlyin
 
 A formatted WWAN_LIST_HEADER object that represents a list of cellular classes that a multi-mode capable device supports. The **ElementType** member in WWAN_LIST_HEADER should always be set to **WwanStructCellularClass**. The **ElementCount** member in WWAN_LIST_HEADER is set to the number of cellular classes that follow the WWAN_LIST_HEADER structure. MB devices that are not multi-mode capable should set **ElementCount** to 0.
 
-> [!NOTE]
-> This member is valid only in Windows 8 and later, when NDIS_WWAN_DEVICE_CAPS_REVISION_2 is specified in the **Header.Revision** sub-member of the [NDIS\_WWAN\_DEVICE\_CAPS](/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps) structure.
-
 ## -remarks
 
 Miniport drivers should specify WWAN_DATA_CLASS_CUSTOM if the data service supported by the device does not belong to any of the other values defined in the table for the **WwanDataClass** member. If a miniport driver sets the WWAN_DATA_CLASS_CUSTOM flag, the miniport driver should also provide the name of the data-class in the **CustomDataClass** member.
@@ -353,6 +347,8 @@ For GSM-based devices, only GSM-based data-classes must be specified. For exampl
 For CDMA-based devices, only CDMA-related data services must be specified. For example, 1xRTT, 1xEV-DO, 1xEV-DO RevA, and UMB. 1xEV-DO RevB is defined for future use. 1xEV-DV and 3xRTT are also defined for completeness.
 
 ## -see-also
+
+[WWAN\_DEVICE\_CAPS\_EX](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps_ex)
 
 [NDIS\_WWAN\_DEVICE\_CAPS](/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps)
 
