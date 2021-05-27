@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoAcquireKsrPersistentMemory
 title: IoAcquireKsrPersistentMemory function
-description: TBD
+description: Reserved for system use.
 tech.root: kernel
 ms.date: 03/24/2020
 ms.topic: function
@@ -41,7 +41,6 @@ f1_keywords:
 
 # IoAcquireKsrPersistentMemory function
 
-
 ## -description
 
 Reserved for system use.
@@ -58,9 +57,6 @@ Reserved for system use.
 
 ## -returns
 
-This function returns NTSTATUS.
-
 ## -remarks
 
 ## -see-also
-

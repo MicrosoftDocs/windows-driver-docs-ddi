@@ -61,7 +61,7 @@ The NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure contains the entry points for the 
 ### -field Header
 
 The NDIS object header, which is formatted as an 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 ### -field NdisTcpOffloadEventHandler
 
@@ -106,7 +106,7 @@ An offload target copies the entry points in the NDIS_TCP_OFFLOAD_EVENT_HANDLERS
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

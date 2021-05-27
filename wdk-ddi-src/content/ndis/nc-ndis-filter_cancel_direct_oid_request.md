@@ -65,7 +65,7 @@ A handle to the context area for the filter module that is the target of this re
 A cancellation identifier for the request. This identifier specifies the direct OID requests that
      match this value in the 
      <b>RequestId</b> member of the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
 ## -remarks
 
@@ -134,7 +134,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

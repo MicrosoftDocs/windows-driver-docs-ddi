@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoWriteKsrPersistentMemory
 title: IoWriteKsrPersistentMemory function
-description: TBD
+description: Reserved for system use.
 tech.root: kernel
 ms.date: 03/24/2020
 ms.topic: function
@@ -41,8 +41,9 @@ f1_keywords:
 
 # IoWriteKsrPersistentMemory function
 
-
 ## -description
+
+Reserved for system use.
 
 ## -parameters
 
@@ -54,9 +55,6 @@ f1_keywords:
 
 ## -returns
 
-This function returns NTSTATUS.
-
 ## -remarks
 
 ## -see-also
-

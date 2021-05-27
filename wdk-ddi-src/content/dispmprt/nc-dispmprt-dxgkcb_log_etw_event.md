@@ -4,13 +4,13 @@ title: DXGKCB_LOG_ETW_EVENT (dispmprt.h)
 description: The DxgkCbLogEtwEvent function logs an Event Tracing for Windows (ETW) event.
 old-location: display\dxgkcblogetwevent.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 05/13/2021
 keywords: ["DXGKCB_LOG_ETW_EVENT callback function"]
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT callback, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,42 +42,37 @@ api_name:
 
 # DXGKCB_LOG_ETW_EVENT callback function
 
-
 ## -description
 
-The <i>DxgkCbLogEtwEvent</i> function logs an Event Tracing for Windows (ETW) event.
+The **DxgkCbLogEtwEvent** function logs an Event Tracing for Windows (ETW) event.
 
 ## -parameters
 
-### -param LPCGUID
+### -param EventGuid
 
 [in] A GUID that identifies the event to be logged.
 
-### -param Type 
+### -param Type
 
-[in]
-A constant that specifies the event type. These constants  are defined in Evntrace.h and have the form of <b>EVENT_TRACE_TYPE_XX</b>.
+[in] A constant that specifies the event type. These constants are defined in *Evntrace.h* and have the form of **EVENT_TRACE_TYPE_XX**. **Type** is ignored when **EventGuid** is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.
 
-### -param EventBufferSize 
+### -param EventBufferSize
 
-[in]
-The size, in bytes, of the buffer pointed to by <i>EventBuffer</i>. There is a significant performance penalty if the buffer is larger than 256 bytes.
+[in] The size, in bytes, of the buffer pointed to by **EventBuffer**. There is a significant performance penalty if the buffer is larger than 256 bytes.
 
-### -param EventBuffer 
+### -param EventBuffer
 
-[in]
-A pointer to a buffer that contains the information to be logged.
+[in] A pointer to a buffer that contains the information to be logged. This parameter can be NULL, or a pointer to the following structure type depending on the value of **EventGuid**.
 
 ## -remarks
 
-If event logging is not enabled, <i>DxgkCbLogEtwEvent</i> returns immediately without logging the event.
+If event logging is not enabled, **DxgkCbLogEtwEvent** returns immediately without logging the event.
 
-To enable or disable event logging, call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>  function.
+To enable or disable event logging, call the [**DxgkDdiControlEtwLogging**](nc-dispmprt-dxgkddi_control_etw_logging.md) function.
 
-If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i> can be called an any IRQL. If <i>EventBufferSize</i> is greater than 256, <i>DxgkCbLogEtwEvent</i> must be called at IRQL = PASSIVE_LEVEL.
+If **EventBufferSize** is less than or equal to 256, **DxgkCbLogEtwEvent** can be called an any IRQL. If **EventBufferSize** is greater than 256, **DxgkCbLogEtwEvent** must be called at IRQL = PASSIVE_LEVEL.
 
-
-#### Examples
+### Example: Logging an event with the event logger
 
 The following code example shows how to log an event with the event logger.
 
@@ -98,7 +93,24 @@ DummyTrace(
 }
 ```
 
+### Logging Azure driver events
+
+Starting in Windows Server 2022 (WDDM 2.9), a graphics driver's  **DxgkCbLogEtwEvent** callback function can expose important events relevant to Azure triage and monitoring. As Azure adds vGPU offerings, it will become more important to have a mechanism to expose important events that the driver sees. Particularly important for monitoring and health is the exposure of function-level resets (VF TDRs) and whole-GPU resets (adapter-wide TDRs). In the future, this framework will allow the OS to expose additional important events that may involve driver-specific behaviors that have triage value when issues arrive.
+
+A driver should use the following GUID to report specific Azure driver events:
+
+``` cpp
+
+DEFINE_GUID(GUID_DXGKDDI_AZURE_TRIAGE_EVENT,
+0x45125F6F, 0x6132, 0x4082, 0xAD, 0x17, 0xED, 0x27, 0xF8, 0xDD, 0x02, 0xF9);
+```
+
+These events are used by the graphics kernel components to feed triage information into standard Azure monitoring pipelines used for incident triage. They integrate with other graphics events also being exposed to build machine event histories and expose useful queries to be used in the monitoring of the health of the host and the VMs it supports.
+
+When this GUID is used, **EventBuffer** points to a [**DXGKARG_PARTITIONING_EVENT_NOTIFICATION**](../d3dkmddi/ns-d3dkmddi-dxgkddicb_partitioning_event_notification.md) structure.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a>
+[**DXGKARG_PARTITIONING_EVENT_NOTIFICATION**](../d3dkmddi/ns-d3dkmddi-dxgkddicb_partitioning_event_notification.md)
 
+[**DxgkDdiControlEtwLogging**](nc-dispmprt-dxgkddi_control_etw_logging.md)

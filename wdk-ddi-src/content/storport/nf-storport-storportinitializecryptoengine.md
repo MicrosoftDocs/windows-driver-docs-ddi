@@ -10,7 +10,7 @@ ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine rout
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,6 @@ api_name:
 
 # StorPortInitializeCryptoEngine function
 
-
 ## -description
 
 Reserved for system use.
@@ -51,13 +50,12 @@ Reserved for system use.
 
 ### -param HwDeviceExtension
 
-<p>Reserved for system use.</p>
+Reserved for system use.
 
 ### -param CryptoCapabilitiesData
 
-Reserved.
+Reserved for system use.
 
 ## -returns
 
 Reserved for system use.
-

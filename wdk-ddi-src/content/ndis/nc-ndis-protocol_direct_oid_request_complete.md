@@ -66,7 +66,7 @@ A handle to a protocol driver-allocated context area in which the protocol drive
 
 [in]
 A pointer to the protocol driver-supplied 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
      <b>NdisDirectOidRequest</b> function.
 
@@ -94,7 +94,7 @@ If
       <i>Status</i> is NDIS_STATUS_SUCCESS, the 
       <b>BytesRead</b> or 
       <b>BytesWritten</b> member of the 
-      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure has been set
+      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure has been set
       by NDIS or the underlying driver. These values specify how much protocol driver-supplied information
       was transferred from the buffer at 
       <b>InformationBuffer</b> to the NIC in a set operation or how much information
@@ -185,7 +185,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

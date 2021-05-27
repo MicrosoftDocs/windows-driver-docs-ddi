@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_19
+UID: NS:gnssdriver.__unnamed_struct_22
 title: GNSS_BREADCRUMB_LIST (gnssdriver.h)
 description: This structure contains the response to an IOCTL_GNSS_POP_BREADCRUMBS.
 old-location: gnss\gnss_breadcrumb_list.htm

@@ -57,7 +57,7 @@ The <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure specifies an array. Each elem
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure, NDIS sets the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -130,7 +130,7 @@ NDIS returns an <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure when it handles a
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -4,7 +4,6 @@ title: KSDATAFORMAT_WAVEFORMATEXTENSIBLE (ksmedia.h)
 description: The KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure is a convenient wrapper structure for the case in which the WaveFormatExt does not contain extra data.
 tech.root: audio
 ms.date: 01/15/2021
-ms.topic: language-reference
 keywords: ["KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure"]
 ms.keywords: "*PKSDATAFORMAT_WAVEFORMATEXENSIBLE, KSDATAFORMAT_WAVEFORMATEXENSIBLE, KSDATAFORMAT_WAVEFORMATEXENSIBLE structure [Audio Devices], PKSDATAFORMAT_WAVEFORMATEXENSIBLE, PKSDATAFORMAT_WAVEFORMATEXENSIBLE structure pointer [Audio Devices], audio.ksdataformat_waveformatextensible, ksmedia/KSDATAFORMAT_WAVEFORMATEXENSIBLE, ksmedia/PKSDATAFORMAT_WAVEFORMATEXENSIBLE"
 req.header: ksmedia.h
@@ -45,7 +44,6 @@ f1_keywords:
 ---
 
 # KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure
-
 
 ## -description
 

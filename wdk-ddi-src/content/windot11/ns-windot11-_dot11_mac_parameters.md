@@ -59,7 +59,7 @@ product:
 
 ### -field Header
 
-The object header identifying the type and revision of this structure. The required member settings of <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> are the following:
+The object header identifying the type and revision of this structure. The required member settings of <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> are the following:
 
 
 
@@ -118,5 +118,5 @@ typedef struct _DOT11_MAC_PARAMETERS {
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

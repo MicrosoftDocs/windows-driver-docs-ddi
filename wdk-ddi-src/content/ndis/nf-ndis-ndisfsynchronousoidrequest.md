@@ -60,7 +60,7 @@ An NDIS handle that identifies a filter module. NDIS passed the handle to the fi
 ### -param OidRequest 
 
 [in]
-A pointer to an [**NDIS_OID_REQUEST**](ns-ndis-_ndis_oid_request.md) structure that specifies the operation that is requested with a given *OID_Xxx* code. The structure can specify an OID query, set, or method request.
+A pointer to an [**NDIS_OID_REQUEST**](../oidrequest/ns-oidrequest-ndis_oid_request.md) structure that specifies the operation that is requested with a given *OID_Xxx* code. The structure can specify an OID query, set, or method request.
 
 ## -returns
 

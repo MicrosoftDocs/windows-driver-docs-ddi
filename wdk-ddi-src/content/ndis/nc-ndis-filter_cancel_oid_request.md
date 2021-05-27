@@ -63,7 +63,7 @@ A handle to the context area for the filter module that is the target of this re
 
 [in]
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 ## -remarks
@@ -79,7 +79,7 @@ When NDIS calls
     as soon as possible.
 
 The request parameters are defined in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure at 
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure at 
     <i>OidRequest</i> .
 
 If a filter driver does not queue OID requests, the driver is not required to provide a 
@@ -137,7 +137,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

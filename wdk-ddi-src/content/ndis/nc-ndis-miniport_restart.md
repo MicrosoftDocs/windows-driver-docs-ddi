@@ -218,7 +218,7 @@ Should make sure that the
       NDIS_RESTART_GENERAL_ATTRIBUTES structure contains the required information, you should first determine
       the version of the structure by checking the 
       <b>Revision</b> member in the 
-      <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that is
+      <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure that is
       specified in the 
       <b>Header</b> member of the NDIS_RESTART_GENERAL_ATTRIBUTES structure.
 
@@ -297,7 +297,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

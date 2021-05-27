@@ -64,7 +64,7 @@ product:
 
 The type, revision, and size of the DOT11_AVAILABLE_CHANNEL_LIST structure. This member is
      formatted as an
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 
 The miniport driver must set the members of
@@ -92,7 +92,7 @@ This member must be set to
        <b>sizeof</b>(DOT11_AVAILABLE_CHANNEL_LIST).
 
 For more information about these members, see
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 ### -field uNumOfEntries
 
@@ -134,5 +134,5 @@ This structure is used with
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

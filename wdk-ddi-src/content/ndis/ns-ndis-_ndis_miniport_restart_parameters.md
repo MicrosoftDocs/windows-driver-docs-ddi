@@ -59,7 +59,7 @@ The NDIS_MINIPORT_RESTART_PARAMETERS structure defines the restart parameters fo
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_RESTART_PARAMETERS structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specified to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -88,7 +88,7 @@ To define miniport adapter restart parameters, NDIS passes a pointer to an
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -62,7 +62,7 @@ product:
 
 The type, revision, and size of the DOT11_VWIFI_COMBINATION structure. This member is formatted as
      an
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 
 The miniport driver must set the members of
@@ -90,7 +90,7 @@ This member must be set to
        sizeof(DOT11_VWIFI_COMBINATION).
 
 For more information about these members, see
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 ### -field uNumInfrastructure
 
@@ -140,5 +140,5 @@ Starting with Windows 7, the 802.11 miniport driver must only report one or more
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

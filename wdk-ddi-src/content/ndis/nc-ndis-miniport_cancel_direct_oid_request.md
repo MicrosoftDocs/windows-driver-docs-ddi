@@ -65,7 +65,7 @@ A handle to a context area that the miniport driver allocated in its
 A cancellation identifier for the request. This identifier specifies the direct OID requests that
      match this value in the 
      <b>RequestId</b> member of the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
 ## -remarks
 
@@ -88,7 +88,7 @@ NDIS calls
     OID requests, NDIS does not call 
     <i>MiniportCancelDirectOidRequest</i> if the time-out expires. (The time-out is specified at the 
     <b>Timeout</b> member of each 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.)
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure.)
 
 If the request processing is still not complete in a miniport driver, the driver calls the 
     <b>NdisMDirectOidRequestComplete</b> function with the status set to NDIS_STATUS_REQUEST_ABORTED.
@@ -139,7 +139,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

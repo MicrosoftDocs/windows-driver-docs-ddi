@@ -59,7 +59,7 @@ NDIS and underlying drivers use the NDIS_STATUS_INDICATION structure to provide 
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_STATUS_INDICATION structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_STATUS_INDICATION, the 
@@ -167,7 +167,7 @@ In this case, the driver sets the
     <b>RequestId</b> members to the values from the 
     <b>RequestHandle</b> and 
     <b>RequestId</b> members in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure,
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure,
     respectively.
 
 For example, in wireless networking, the processing of an OID request can take a very long time to
@@ -197,11 +197,11 @@ Protocol drivers receive status indications at the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

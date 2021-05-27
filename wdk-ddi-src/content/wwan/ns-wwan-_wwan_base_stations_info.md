@@ -59,6 +59,10 @@ The <b>WWAN_BASE_STATIONS_INFO</b> structure represents information about both s
 
 Indicates the system type (or types) for which serving cell information is valid. This member is a bitmask of one or more system types as defined in the <b>WwanDataClass</b> member of <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
 
+### -field SystemSubType
+
+Indicates the 5G data subclass for which serving cell information is valid. This member is a bitmask of one or more system subtypes as defined in the <b>dataSubclass</b> member of <a href="/windows-hardware/drivers/ddi/wwan/nf-wwan-is_5g_5gc_present">IS_5G_5GC_PRESENT</a>. This member is only valid when the **SystemType** field above indicates that 5G serving cell information is valid. Otherwise, this value should be **WWAN_DATA_SUBCLASS_NONE**.
+
 ### -field GSMServingCellOffset
 
 The offset in bytes, calculated from the beginning of this structure, to the buffer containing the GSM serving cell information. This member can be NULL when the technology of the serving cell is not GSM.
@@ -131,16 +135,26 @@ The offset in bytes, calculated from the beginning of this structure, to the buf
 
 The size, in bytes, of the buffer containing the CDMA measured results list (MRL), which is formatted as <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>.
 
+
+### -field NRServingCellsOffset
+
+The offset in bytes, calculated from the beginning of this structure, to the buffer containing the NR measure results list. This member can be NULL when no NR serving cells are available for devices without 5G capability.
+
+### -field NRServingCellsSize
+
+The size, in bytes, of the buffer containing the 5G NR measured results, which is formatted as <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_nr_serving_cells">WWAN_NR_SERVING_CELLS</a>.
+
+### -field NRNeighborCellsOffset
+
+The offset in bytes, calculated from the beginning of this structure, to the buffer containing the NR neighbor cells measurement results. This member can be NULL when no NR neighbor cells are available.
+
+### -field NRNeighborCellsSize
+
+The size, in bytes, of the buffer containing the NR measured results, which is formatted as <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_nr_neighbor_cells">WWAN_NR_NEIGHBOR_CELLS</a>.
+
 ### -field BaseStationsData
 
- 
-
-
-
-
-#### - BaseStationsData[ANYSIZE_ARRAY]
-
-The data buffer containing the base stations information. This buffer is where the structures specified by the other members of <b>WWAN_BASE_STATIONS_INFO</b> reside: <b>WWAN_GSM_SERVING_CELL_INFO</b>, <b>WWAN_UMTS_SERVING_CELL_INFO</b>, <b>WWAN_TDSCDMA_SERVING_CELL_INFO</b>, <b>WWAN_LTE_SERVING_CELL_INFO</b>, <b>WWAN_GSM_NMR</b>, <b>WWAN_UMTS_MRL</b>, <b>WWAN_TDSCDMA_MRL</b>, <b>WWAN_LTE_MRL</b>, and <b>WWAN_CDMA_MRL</b>.
+[ANYSIZE_ARRAY] The data buffer containing the base stations information. This buffer is where the structures specified by the other members of <b>WWAN_BASE_STATIONS_INFO</b> reside.
 
 ## -see-also
 

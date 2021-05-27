@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_PROTOCOL_SPECIFIC_DATA
-title: _STORAGE_PROTOCOL_SPECIFIC_DATA (ntddstor.h)
+title: STORAGE_PROTOCOL_SPECIFIC_DATA (ntddstor.h)
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_specific_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/25/2021
 keywords: ["STORAGE_PROTOCOL_SPECIFIC_DATA structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], _STORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, storage.storage_protocol_specific_data"
 req.header: ntddstor.h
@@ -47,8 +47,7 @@ api_name:
  - STORAGE_PROTOCOL_SPECIFIC_DATA
 ---
 
-# _STORAGE_PROTOCOL_SPECIFIC_DATA structure
-
+# STORAGE_PROTOCOL_SPECIFIC_DATA structure
 
 ## -description
 
@@ -78,7 +77,7 @@ The offset of the data buffer that is from the beginning of this structure. The 
 
 ### -field ProtocolDataLength
 
-The length of the protocol data.
+The length of the protocol data. **ProtocolDataLength** must be >= 512 bytes.
 
 ### -field FixedProtocolReturnData
 
@@ -124,7 +123,4 @@ To specify a type of ATA protocol-specific information, configure the STORAGE_PR
 
 [STORAGE_PROPERTY_QUERY](./ns-ntddstor-_storage_property_query.md)
 
-[STORAGE_PROTOCOL_SPECIFIC_DATA]()
-
 [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)
-

@@ -60,7 +60,7 @@ The NDIS_DEVICE_OBJECT_ATTRIBUTES structure defines the attributes of a device t
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_DEVICE_OBJECT_ATTRIBUTES structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEVICE_OBJECT_ATTRIBUTES, the 
@@ -147,7 +147,7 @@ An NDIS filter or miniport driver can call the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

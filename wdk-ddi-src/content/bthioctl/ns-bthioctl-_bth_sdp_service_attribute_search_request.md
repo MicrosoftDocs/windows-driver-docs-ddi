@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined SDP service and attribute search. This structure is passed as the input buffer to the [IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search) IOCTL.
+The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined SDP service and attribute search. This structure is passed as the input buffer to the [IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md) IOCTL.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ A variable-length array of [SdpAttributeRange](/windows/win32/api/bthsdpdef/ns-b
 
 #### - hConnection
 
-A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect) IOCTL.
+A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md) IOCTL.
 
 ## -remarks
 
@@ -80,8 +80,8 @@ The Bluetooth driver stack determines the number of array items in the **range**
 
 ## -see-also
 
-[IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect)
+[IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)
 
-[IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search)
+[IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md)
 
 [SdpAttributeRange](/windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange)

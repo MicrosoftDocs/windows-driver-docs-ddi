@@ -79,7 +79,7 @@ NDIS receive filters are used in the following NDIS interfaces:
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -158,7 +158,7 @@ The size, in bytes, of each element in the array.
 The number of bits in a filter identifier. The miniport driver uses
      this number of bits for the filter identifier in the 
      <b>NetBufferListFilteringInfo</b> out-of-band (OOB) data in 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
      in the OOB 
      <b>NetBufferListFilteringInfo</b> data.
 
@@ -240,7 +240,7 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -249,7 +249,7 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

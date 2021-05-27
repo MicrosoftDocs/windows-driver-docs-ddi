@@ -58,7 +58,7 @@ The NDIS_WMI_EVENT_HEADER structure provides information about a GUID event for 
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for this
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for this
      NDIS_WMI_EVENT_HEADER structure. Set the 
      <b>Type</b> member of NDIS_OBJECT_HEADER to NDIS_WMI_OBJECT_TYPE_EVENT, the 
      <b>Revision</b> member to NDIS_WMI_EVENT_HEADER_REVISION_1, and the 
@@ -90,7 +90,7 @@ NDIS or overlying drivers can also use the
      <b>RequestId</b> is zero, the miniport driver can ignore this member.
 
 For more information about this member, see 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>.
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>.
 
 ### -field PortNumber
 
@@ -119,5 +119,5 @@ WMI GUID event indications that are specific to NDIS 6.0 and later versions incl
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 

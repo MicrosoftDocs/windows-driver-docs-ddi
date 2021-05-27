@@ -1,9 +1,9 @@
 ---
 UID: NE:storport._STORPORT_FEATURE_TYPE
 title: STORPORT_FEATURE_TYPE
-description: The STORPORT_FEATURE_TYPE enum identifies the Storport feature type.
+description: The STORPORT_FEATURE_TYPE enum identifies a Storport feature supported by a miniport.
 tech.root: storage
-ms.date: 03/24/2020
+ms.date: 05/13/2021
 ms.topic: enum
 ms.keywords: STORPORT_FEATURE_TYPE, STORPORT_FEATURE_TYPE,
 req.header: storport.h
@@ -37,22 +37,40 @@ product:
 
 # STORPORT_FEATURE_TYPE enumeration
 
-
 ## -description
 
-The **STORPORT_FEATURE_TYPE** enum identifies the Storport feature type.
+The **STORPORT_FEATURE_TYPE** enum identifies a Storport feature supported by a miniport.
 
 ## -enum-fields
 
 ### -field StorportFeatureBusTypeUnitControl
 
-Specifies whether the ScsiUnitQueryBusType control type query is supported.
+ScsiUnitQueryBusType control is supported.
+
+### -field StorportFeatureFruIdUnitControl
+
+ScsiUnitQueryFruId control is supported.
+
+### -field StorportFeatureFruIdAdapterControl
+
+ScsiAdapterQueryFruId control is supported.
+
+### -field StorportFeatureSetEventLoggingAdapterControl
+
+ScsiAdapterSetEventLogging control is supported.
 
 ### -field StorportFeatureMax
 
 ## -remarks
 
+A miniport provides an array of **STORPORT_FEATURE_TYPE** values when it calls [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md).
+
 ## -see-also
 
-[**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md)
+[**STOR_SET_EVENT_LOGGING**](ns-storport-stor_set_event_logging.md)
 
+[**STOR_FRU_ID_DESCRIPTION**](ns-storport-stor_fru_id_description.md)
+
+[**STOR_UNIT_CONTROL_QUERY_BUS_TYPE**](ns-storport-stor_unit_control_query_bus_type.md)
+
+[**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md)

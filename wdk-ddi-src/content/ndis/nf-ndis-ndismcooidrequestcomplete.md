@@ -75,7 +75,7 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
 ### -param Request
 
 A pointer to a buffer that is formatted as an 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The miniport
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure. The miniport
      driver obtained this pointer as an input parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_oid_request">
      MiniportCoOidRequest</a> function.
@@ -114,7 +114,7 @@ A call to
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

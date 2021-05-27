@@ -50,7 +50,7 @@ The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP 
 
 ### -field Hdr
 
-A [BRB_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header) structure that contains information about the current BRB.
+A [BRB_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 ### -field ChannelHandle
 
@@ -205,7 +205,7 @@ A flag that specifies which events should generate a callback routine to notify 
 
 ### -field Callback
 
-The [Enhanced L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback_enhanced) implemented by the profile driver, that the Bluetooth driver stack should call to notify the profile driver about any changes to the enhanced L2CAP connection.
+The [Enhanced L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback_enhanced.md) implemented by the profile driver, that the Bluetooth driver stack should call to notify the profile driver about any changes to the enhanced L2CAP connection.
 
 ### -field CallbackContext
 
@@ -213,11 +213,11 @@ The context to pass to the callback function specified in the **Callback** membe
 
 ### -field ReferenceObject
 
-A pointer to an object to pass to [ObReferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject) and [ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) for which to maintain a reference count.
+A pointer to an object to pass to [ObReferenceObject](../wdm/nf-wdm-obfreferenceobject.md) and [ObDereferenceObject](../wdm/nf-wdm-obdereferenceobject.md) for which to maintain a reference count.
 
 ### -field OutResults
 
-A [CHANNEL_CONFIG_RESULTS_ENHANCED](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results_enhanced) structure that contains configuration parameters negotiated for the outbound request.
+A [CHANNEL_CONFIG_RESULTS_ENHANCED](./ns-bthddi-_channel_config_results_enhanced.md) structure that contains configuration parameters negotiated for the outbound request.
 
 ### -field InResults
 
@@ -233,7 +233,7 @@ Reserved member. Do not use.
 
 #### - ( unnamed struct )
 
-A [BRB_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header) structure that contains information about the current BRB.
+A [BRB_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 #### Response
 

@@ -50,7 +50,7 @@ The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from
 
 ### -field Hdr
 
-A [BRB\_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header) structure that contains information about the current BRB.
+A [BRB\_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 ### -field BtAddress
 
@@ -99,7 +99,7 @@ If both **Buffer** and **BufferMDL** contain non-**NULL** values, then **BufferM
 
 ## -see-also
 
-[BRB\_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header)
+[BRB\_HEADER](./ns-bthddi-_brb_header.md)
 
 [BRB\_SCO\_OPEN\_CHANNEL](/previous-versions/ff536626(v=vs.85))
 

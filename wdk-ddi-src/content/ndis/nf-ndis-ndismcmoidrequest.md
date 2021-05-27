@@ -82,7 +82,7 @@ A handle that identifies the party on a multipoint VC that the caller is request
 ### -param NdisOidRequest
 
 A pointer to a caller-allocated buffer that contains an 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
 ## -returns
 
@@ -126,7 +126,7 @@ The request is being handled asynchronously, and NDIS will call the caller's
 <td width="60%">
 The OID_<i>XXX</i> code that was specified in the 
        <b>Oid</b> member of the 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure at the 
+       <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure at the 
        <i>OidRequest</i> parameter is invalid or unsupported by the underlying driver.
 
 </td>
@@ -156,7 +156,7 @@ The value that was specified in the
 <td width="60%">
 The data that was supplied at 
        <b>InformationBuffer</b> in the given 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure was invalid
+       <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure was invalid
        for the given OID_<i>XXX</i> code.
 
 </td>
@@ -215,7 +215,7 @@ The target driver stopped processing the request.
 To initiate OID requests to CoNDIS clients, MCM drivers call the 
     <b>NdisMCmOidRequest</b> function. Before an MCM driver calls 
     <b>NdisMCmOidRequest</b>, the driver allocates memory for its request and initializes an 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The MCM sets
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure. The MCM sets
     the 
     <b>Oid</b> member of the NDIS_OID_REQUEST structure with a CoNDIS OID code.
 
@@ -249,7 +249,7 @@ For more information about the OIDs that are defined to use with
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

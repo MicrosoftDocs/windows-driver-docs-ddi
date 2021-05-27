@@ -1,7 +1,7 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_35
+UID: NS:gnssdriver.__unnamed_struct_38
 title: GNSS_EVENT (gnssdriver.h)
-description: This structure defines the information required for a GNSS event.
+description: The GNSS_EVENT structure defines the information required for a GNSS event.
 old-location: gnss\gnss_event.htm
 tech.root: gnss
 ms.date: 02/15/2018
@@ -45,10 +45,9 @@ api_name:
 
 # GNSS_EVENT structure
 
-
 ## -description
 
-This structure defines the information required for a  GNSS event.
+The **GNSS_EVENT** structure defines the information required for a GNSS event.
 
 ## -struct-fields
 
@@ -73,6 +72,8 @@ The size of the event data union contained in this event.
 The GNSS driver must fill in appropriate size to avoid excessive data-copy between the layers. The GNSS adapter will access only the initial bytes of the event data, as specified by this element.
 
 ### -field Unused
+
+Unused.
 
 ### -field FixData
 
@@ -112,15 +113,9 @@ This structure is filled if EventType is GNSS_Event_DriverRequest.
 
 ### -field CustomData
 
- 
-
-
-
-
 #### - CustomData[ANYSIZE_ARRAY]
 
 Custom data field.
-
 
 #### - Unused[512]
 
@@ -137,4 +132,3 @@ The notification model allows for adding custom or vendor-specific events in the
 Each event type has associate event-specific data that the GNSS adapter uses to determine how to process the specific event. For example, for assistance requirements (AGNSS), the adapter injects the needed assistance data. For data-retrieval type event, the adapter processes and sends the data to an upper layer. Subsequently the adapter re-registers for same event with the driver through well-defined IOCTLs. All events follow the same overall data-structure.
 
 Events can be of various types. Certain events occur as a result of a previous request initiated by the driver (for example, a start fix request). Certain events are raised for informational purpose. Assistance events are raised when the driver requires the adapter to inject specific assistance data.
-

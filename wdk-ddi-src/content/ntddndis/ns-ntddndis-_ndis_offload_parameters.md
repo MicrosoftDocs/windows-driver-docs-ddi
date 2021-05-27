@@ -60,7 +60,7 @@ The <b>NDIS_OFFLOAD_PARAMETERS</b> structure specifies the current task offload 
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/content/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -830,7 +830,7 @@ The feature that the member specifies is enabled for transmit and receive.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/content/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
