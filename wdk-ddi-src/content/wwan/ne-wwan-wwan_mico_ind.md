@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MICO_IND
-tech.root: 
+tech.root: netvista
 title: WWAN_MICO_IND
 description: The WWAN_MICO_IND enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode.
 ms.date: 05/27/2021

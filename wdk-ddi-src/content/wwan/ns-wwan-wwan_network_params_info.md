@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_NETWORK_PARAMS_INFO
-tech.root: 
+tech.root: netvista
 title: WWAN_NETWORK_PARAMS_INFO
 description: The WWAN_NETWORK_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
 ms.date: 05/27/2021
@@ -59,4 +59,6 @@ Valid only if NetworkConfigurationsNeeded is 1 in the query request.
 
 ## -see-also
 
-[NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-sms-status)
+[NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-network-params-state)
+
+[NDIS_WWAN_NETWORK_PARAMS_INFO](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md)
