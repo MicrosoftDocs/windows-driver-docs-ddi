@@ -1,6 +1,6 @@
 ---
 UID: NS:hidspicx._HIDSPICX_REPORT
-tech.root: 
+tech.root: hid
 title: HIDSPICX_REPORT
 ms.date: 
 targetos: Windows
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: HIDSPICX_REPORT
@@ -41,6 +41,8 @@ dev_langs:
 
 ## -description
 
+Input and Output reports are represented using the **HIDSPICX_REPORT** structure.
+
 ## -struct-fields
 
 ### -field ReportType
@@ -53,5 +55,6 @@ dev_langs:
 
 ## -remarks
 
-## -see-also
+The fields correspond to their meanings as defined in the HIDSPI protocol specification, and the structure above is identical to the body part of a HIDSPI report. This is used rather than the full HIDSPI report structure including header, as the client is expected to marshall the data structures to be sent on the wire.
 
+## -see-also

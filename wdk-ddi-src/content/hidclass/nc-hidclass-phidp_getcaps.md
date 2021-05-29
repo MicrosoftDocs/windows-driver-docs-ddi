@@ -10,7 +10,7 @@ ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices],
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

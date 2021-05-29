@@ -1,6 +1,6 @@
 ---
 UID: NF:hidspicx.HIDSPICX_DEVICE_CONFIG_INIT
-tech.root: 
+tech.root: hid
 title: HIDSPICX_DEVICE_CONFIG_INIT
 ms.date: 
 targetos: Windows
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The **HIDSPICX_DEVICE_CONFIG_INIT** routine is used to initialize a HIDSPICX_DEVICE_CONFIG structure before passing it to the to the **HidSpiCxDeviceConfigure** function.
+
 ## -parameters
 
 ### -param DeviceConfig
+
+Output parameter, pointing to a caller-provided HIDSPICX_DEVICE_CONFIG structure. This may be a stack allocated structure.
 
 ### -param EvtResetDevice
 
@@ -56,5 +60,6 @@ dev_langs:
 
 ## -remarks
 
-## -see-also
+Before passing a PHIDSPICX_DEVICE_CONFIG structure pointer to the HidSpiCxDeviceConfigure function, it must first be initialized by a call to this macro.
 
+## -see-also

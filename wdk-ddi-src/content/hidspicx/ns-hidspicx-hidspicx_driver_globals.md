@@ -1,6 +1,6 @@
 ---
 UID: NS:hidspicx._HIDSPICX_DRIVER_GLOBALS
-tech.root: 
+tech.root: hid
 title: HIDSPICX_DRIVER_GLOBALS
 ms.date: 
 targetos: Windows
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: HIDSPICX_DRIVER_GLOBALS, *PHIDSPICX_DRIVER_GLOBALS

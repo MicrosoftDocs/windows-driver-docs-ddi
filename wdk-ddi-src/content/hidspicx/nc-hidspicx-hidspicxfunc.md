@@ -1,6 +1,6 @@
 ---
 UID: NC:hidspicx.HIDSPICXFUNC
-tech.root: 
+tech.root: hid
 title: HIDSPICXFUNC
 ms.date: 
 targetos: Windows
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

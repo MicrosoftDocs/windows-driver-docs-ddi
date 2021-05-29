@@ -1,6 +1,6 @@
 ---
 UID: NC:hidspicx.PFN_HIDSPICXNOTIFYDEVICERESET
-tech.root: 
+tech.root: hid
 title: PFN_HIDSPICXNOTIFYDEVICERESET
 ms.date: 
 targetos: Windows
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
