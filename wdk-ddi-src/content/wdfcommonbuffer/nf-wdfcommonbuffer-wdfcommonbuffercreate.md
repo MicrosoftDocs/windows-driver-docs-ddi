@@ -60,7 +60,7 @@ A handle to a DMA enabler object that the driver obtained by a previous call to 
 ### -param Length 
 
 [in]
-The desired size, in bytes, of the new buffer.
+The desired size, in bytes, of the new buffer.  The maximum allowed buffer size is (MAXULONG - PAGE_SIZE) bytes.
 
 ### -param Attributes 
 
@@ -134,7 +134,7 @@ The operating system determines whether to enable cached memory in the common bu
 On computers with x86-based, x64-based, and Itanium-based processors, cached memory is enabled.
 On computers with ARM or ARM 64-based processors, the operating system does not automatically enable cached memory for all devices. The system relies on the ACPI_CCA method for each device to determine whether the device is cache-coherent.
 
-The DMA enabler object that the <i>DmaEnabler</i> parameter of <b>WdfCommonBufferCreate</b> specifies becomes the parent object for the new common buffer object. The driver cannot change this parent, and the <b>ParentObject</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure must be <b>NULL</b>. The framework deletes each common buffer object when it deletes the parent DMA enabler object.
+The DMA enabler object that the <i>DmaEnabler</i> parameter of <b>WdfCommonBufferCreate</b> specifies becomes the parent object for the new common buffer object. The driver cannot change this parent, and the <b>ParentObject</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure must be <b>NULL</b>. The framework deletes each common buffer object when it deletes the parent DMA enabler object.  Alternatively, you can delete the common buffer object explicitly by calling WdfObjectDelete.
 
 For more information about common buffers, see <a href="/windows-hardware/drivers/wdf/using-common-buffers">Using Common Buffers</a>.
 
