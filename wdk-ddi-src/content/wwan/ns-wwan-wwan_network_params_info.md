@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_NETWORK_PARAMS_INFO
 tech.root: netvista
 title: WWAN_NETWORK_PARAMS_INFO
 description: The WWAN_NETWORK_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
-ms.date: 05/27/2021
+ms.date: 06/01/2021
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **WWAN_NETWORK_PARAMS_INFO** structure represents data for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
+The **WWAN_NETWORK_PARAMS_INFO** structure represents network configuration data and policy information. Miniport drivers use this structure with [NDIS_WWAN_NETWORK_PARAMS_INFO](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md) and [NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-network-params-state) notifications to notify the host of network parameter updates.
 
 ## -struct-fields
 
