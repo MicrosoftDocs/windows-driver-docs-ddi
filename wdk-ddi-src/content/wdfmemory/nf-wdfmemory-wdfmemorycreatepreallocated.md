@@ -152,7 +152,7 @@ WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = requestHandle;
 
 status = WdfMemoryCreatePreallocated(
-                                     attributes,
+                                     &attributes,
                                      pBuffer,
                                      MY_BUFFER_SIZE,
                                      &memHandle

@@ -250,6 +250,10 @@ Identifies a <b>ULONG</b> value that is the number of data bytes that were recei
 
 Reserved.
 
+### -field UdpRecvSegCoalesceOffloadInfo
+
+Reserved for protocol driver use.
+
 ### -field SwitchForwardingReserved
 
 Reserved for NDIS.
