@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "wdk-ddi-src/content/ndis/nc-ndis-net_buffer_allocate_mdl_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/ndis/nc-ndis-net_buffer_free_mdl_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "wdk-ddi-src/content/ntddndis/ne-ntddndis-_ndis_request_type.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/oidtypes/ne-oidtypes-ndis_request_type",
       "redirect_document_id": false
