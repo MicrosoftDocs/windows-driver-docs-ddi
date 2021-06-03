@@ -47,7 +47,7 @@ api_name:
 
 The 
   <i>NetFreeMdl</i> function frees an MDL that was previously allocated by the 
-  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function.
+  <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a> function.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ If the NDIS driver specifies an entry point for the
     <i>NetFreeMdl</i> to free an MDL and memory.
 
 <i>NetFreeMdl</i> frees the MDL and memory that were allocated by the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function.
+    <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a> function.
 
 When 
     <i>NetFreeMdl</i> frees the memory, it should use the same memory management mechanism that was used in 
@@ -82,5 +82,5 @@ NDIS calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a>
 

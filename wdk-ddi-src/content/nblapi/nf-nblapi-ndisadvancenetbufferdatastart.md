@@ -78,7 +78,7 @@ A BOOLEAN value that, if <b>TRUE</b>, requests NDIS to free any MDLs that become
 
 [in, optional]
 An optional entry point for an 
-     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function. If the caller
+     <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
@@ -95,11 +95,11 @@ If NDIS allocated memory to satisfy a corresponding call to the
     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure is modified.
 
 NDIS calls the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function specified at 
+    <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a> function specified at 
     <i>FreeMdl</i> if 
     <b>NdisAdvanceNetBufferDataStart</b> must free memory. NDIS calls 
     <i>NetFreeMdl</i> only to free the MDLs and memory that the driver allocated in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function.
+    <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a> function.
 
 When protocol drivers call 
     <b>NdisAdvanceNetBufferDataStart</b> on the receive path to access the various transport headers, the MDL
@@ -117,8 +117,8 @@ When protocol drivers call
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a>
