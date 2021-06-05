@@ -55,7 +55,7 @@ Delete any existing cache content.
 
 A driver will not receive both **D3D12DDI_IMPLICIT_SHADER_CACHE_CONTROL_FLAG_0080_DISABLE** and **D3D12DDI_IMPLICIT_SHADER_CACHE_CONTROL_FLAG_0080_ENABLE** at the same time.
 
-See the [D3D12 Shader Cache APIs specification](https://https://microsoft.github.io/DirectX-Specs/d3d/ShaderCache.html) for more information.
+See the [D3D12 Shader Cache APIs specification](https://microsoft.github.io/DirectX-Specs/d3d/ShaderCache.html) for more information.
 
 ## -see-also
 

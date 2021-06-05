@@ -61,7 +61,7 @@ Used for contiguous ADLs. When **Flags.Contiguous** is set, **BasePageNumber** i
 
 Used for non-contiguous ADLs. When **Flags.Contiguous** is not set, **Pages** points to an array of exactly **PageCount** pages. The pages in the array are not guaranteed to be contiguous.
 
-**Pages** is of type **DXGK_PAGE_NUMBER**, which is guaranteed to be the same size as a [**PFN_NUMBER**](/windows-hardware/drivers/kernel/mm-bad-pointer.md). So this array can be substituted in place of an MDL's PFN array when programming the hardware.
+**Pages** is of type **DXGK_PAGE_NUMBER**, which is guaranteed to be the same size as a [**PFN_NUMBER**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray). So this array can be substituted in place of an MDL's PFN array when programming the hardware.
 
 ## -remarks
 
