@@ -515,7 +515,7 @@ Calculate private mesh shader size. See the [Mesh Shader Specification](https://
 
 ### -field pfnImplicitShaderCacheControl
 
-A [**PFND3D12DDI_IMPLICITSHADERCACHECONTROL_0080**](nc-d3d12umddi-pfnd3d12ddi_implicitshadercachecontrol_0080.md) callback function for implicit shader cache control. See the [D3D12 Shader Cache APIs specification](https://https://microsoft.github.io/DirectX-Specs/d3d/ShaderCache.html) for more information.
+A [**PFND3D12DDI_IMPLICITSHADERCACHECONTROL_0080**](nc-d3d12umddi-pfnd3d12ddi_implicitshadercachecontrol_0080.md) callback function for implicit shader cache control. See the [D3D12 Shader Cache APIs specification](https://microsoft.github.io/DirectX-Specs/d3d/ShaderCache.html) for more information.
 
 ## -remarks
 

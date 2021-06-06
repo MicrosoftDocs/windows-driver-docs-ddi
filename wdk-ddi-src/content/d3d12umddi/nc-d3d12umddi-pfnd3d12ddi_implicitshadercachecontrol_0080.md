@@ -59,7 +59,7 @@ The runtime calls **pfnImplicitShaderCacheControl** in response to an applicatio
 
 This callback function is supported only in developer mode.
 
-See the [D3D12 Shader Cache APIs specification](https://https://microsoft.github.io/DirectX-Specs/d3d/ShaderCache.html) for more information.
+See the [D3D12 Shader Cache APIs specification](https://microsoft.github.io/DirectX-Specs/d3d/ShaderCache.html) for more information.
 
 ## -see-also
 
