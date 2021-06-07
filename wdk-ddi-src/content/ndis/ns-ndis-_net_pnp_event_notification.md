@@ -74,7 +74,7 @@ The source port of the event notification. If the status indication is not speci
 ### -field NetPnPEvent
 
 A
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure that describes the
+     <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event">NET_PNP_EVENT</a> structure that describes the
      event.
 
 ### -field Flags
@@ -107,7 +107,7 @@ When the operating system issues a system PnP event or a power management event 
 
 The 
     <b>NetPnPEvent</b> member is a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure. The 
+    <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event">NET_PNP_EVENT</a> structure. The 
     <b>NetEvent</b> member of this NET_PNP_EVENT structure specifies an event code that identifies the network
     PnP event, NDIS PnP event, or power management event.
 
@@ -139,7 +139,7 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a>
+<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event">NET_PNP_EVENT</a>
 
 
 
