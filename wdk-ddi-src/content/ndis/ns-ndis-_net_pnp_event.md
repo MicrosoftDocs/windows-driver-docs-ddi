@@ -371,7 +371,7 @@ The buffer can contain protocol-specific data. The protocol driver is responsibl
 #### NetEventBindList
 
 The buffer contains a revised binding list for the network component that the 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+       <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
        NET_PNP_EVENT_NOTIFICATION</a> structure is being passed to. The bind list, which is a series of
        null-terminated Unicode strings, has a REG_MULTI_SZ format. Each of the strings is an adapter name.
        TDI clients that are bound to a protocol use this bind list to reorder their bindings. The protocol
@@ -433,7 +433,7 @@ The buffer contains an array of port numbers, of type NDIS_PORT_NUMBER (defined 
        divide the value of the 
        <b>BufferLength</b> member, which is in the <b>NET_PNP_EVENT</b> structure that is specified in the 
        <b>NetPnPEvent</b> member of 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>,
+       <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>,
        by 
        sizeof(NDIS_PORT_NUMBER).
 
@@ -526,7 +526,7 @@ An area reserved for used by a TDI client.
 In NDIS 6.0 and later versions, when the operating system issues a system PnP event or a power
     management event to a target device object that represents a miniport adapter, NDIS translates the event
     into a 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+    <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
     NET_PNP_EVENT_NOTIFICATION</a> structure. The 
     <b>NetPnPEvent</b> member of the <b>NET_PNP_EVENT_NOTIFICATION</b> structure is a <b>NET_PNP_EVENT</b> structure.
 
@@ -610,7 +610,7 @@ The
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
