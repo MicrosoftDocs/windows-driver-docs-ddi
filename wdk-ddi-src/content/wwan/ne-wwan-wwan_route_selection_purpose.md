@@ -2,7 +2,7 @@
 UID: NE:wwan._WWAN_ROUTE_SELECTION_PURPOSE
 tech.root: netvista
 title: WWAN_ROUTE_SELECTION_PURPOSE
-ms.date: 
+ms.date: 06/09/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -36,8 +36,6 @@ dev_langs:
 ---
 
 ## -description
-
-The **WWAN_ROUTE_SELECTION_PURPOSE** enumeration defines values 
 
 ## -enum-fields
 
