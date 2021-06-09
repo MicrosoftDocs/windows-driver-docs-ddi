@@ -10,7 +10,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Networking drivers for Windows Vista and later
+# Networking drivers
 
 ## -description
 
