@@ -119,13 +119,13 @@ The miniport must return an error if this value exceeds the **MaxNumSQInputs** v
 
 The **NDIS_QOS_SQ_PARAMETERS** structure is returned in the OID query request [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs), which enumerates SQs created on a NIC switch.
 
-**NDIS_QOS_SQ_PARAMETERS** is also returned in the OID method request [OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq.md), which creates a new SQ on the miniport adapter.
+**NDIS_QOS_SQ_PARAMETERS** is also returned in the OID method request [OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq), which creates a new SQ on the miniport adapter.
 
 ## -see-also
 
 [OID_QOS_OFFLOAD_ENUM_SQS](/windows-hardware/drivers/network/oid-qos-offload-enum-sqs)
 
-[OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq.md)
+[OID_QOS_OFFLOAD_CREATE_SQ](/windows-hardware/drivers/network/oid-qos-offload-create-sq)
 
 [**NDIS_QOS_OFFLOAD_CAPABILITIES**](ns-ntddndis-ndis_qos_offload_capabilities.md)
 

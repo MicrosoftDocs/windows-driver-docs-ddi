@@ -76,7 +76,7 @@ If NDIS must allocate memory, this parameter specifies the amount of data space,
 
 [in, optional]
 An optional entry point for an 
-     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function. If the caller
+     <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetAllocateMdl</i> function, NDIS calls 
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
@@ -136,7 +136,7 @@ An optional entry point for an
 If there isn't enough 
     <i>unused data space</i>, this function allocates a new buffer and an MDL to describe the new buffer and
     chains the new MDL to the beginning of the MDL chain. NDIS calls the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function specified at 
+    <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a> function specified at 
     <i>AllocateMdl</i> to allocate the MDL and memory. The 
     <i>NetAllocateMdl</i> function can use any allocation method that meets the
     driver's design requirements.
@@ -158,4 +158,4 @@ Call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a>

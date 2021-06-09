@@ -75,7 +75,7 @@ If <b>TRUE</b> and NDIS allocated memory to satisfy the corresponding
 ### -param FreeMdlMdlHandler
 
 An optional entry point for an 
-     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function. If the caller
+     <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
@@ -121,8 +121,8 @@ When protocol drivers call
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl">NetAllocateMdl</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a>

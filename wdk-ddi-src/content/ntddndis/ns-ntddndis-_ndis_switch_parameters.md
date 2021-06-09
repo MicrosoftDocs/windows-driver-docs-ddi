@@ -91,7 +91,7 @@ A UINT32 value that specifies the number of ports configured on the extensible s
 
 ### -field IsActive
 
-A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration.
+A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration.
 
 ## -remarks
 
@@ -159,7 +159,7 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NetEventSwitchActivate</a>
+<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event">NetEventSwitchActivate</a>
 
 
 

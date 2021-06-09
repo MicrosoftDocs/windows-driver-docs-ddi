@@ -4,7 +4,7 @@ title: PFND3DDDI_QUERYDLISTFORAPPLICATION1 (d3dumddi.h)
 description: Called during Microsoft Direct3D initialization on a hybrid system to determine which GPU an application should run on. A dList is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 old-location: display\querydlistforapplication1.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 05/13/2021
 keywords: ["PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function"]
 ms.keywords: PFND3DDDI_QUERYDLISTFORAPPLICATION1, PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback, QueryDListForApplication, QueryDListForApplication callback function [Display Devices], d3dumddi/QueryDListForApplication, display.querydlistforapplication1
 req.header: d3dumddi.h
@@ -44,38 +44,38 @@ product:
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function
 
-
 ## -description
 
-Called during Microsoft Direct3D initialization on a <a href="/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
+The **pfnQueryDlistForApplication1Cb** callback function queries a dList for an application.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-*pDefaultToDiscrete* [out]
-
-If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
+[out] If **TRUE**, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
 ### -param unnamedParam2
 
-*pfnEscapeCB* [in]
-
-A function pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
+[in] A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam3*.
 
 ### -param unnamedParam3
 
+[in] Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
+
 ## -returns
 
-Returns <b>S_OK</b>, or an appropriate error result if the operation is not successful.
+Returns **S_OK**, or an appropriate error result if the operation is not successful.
 
 ## -remarks
 
-For more information on how to call this function and set up the DLL that exports it, see <a href="/windows-hardware/drivers/display/hybrid-system-ddi">Hybrid system DDI</a>.
+Starting with WDDM 2.9, drivers must support [**pfnQueryDlistForApplication2Cb**](nc-d3dumddi-pfnd3dddi_querydlistforapplication2.md) instead of **pfnQueryDlistForApplication1Cb**.
 
-For more general information on hybrid systems, see <a href="/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">Using cross-adapter resources in a hybrid system</a>.
+In WDDM versions prior to WDDM 2.9, **pfnQueryDlistForApplication1Cb** is called by the user-mode graphics runtime (DXGI) during Microsoft Direct3D initialization on a [hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system) to determine which GPU an application should run on. A *dList* is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
+
+For more information on how to call this function and set up the DLL that exports it, see [Hybrid system DDI](/windows-hardware/drivers/display/hybrid-system-ddi).
+
+For more general information on hybrid systems, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
-
+[**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md)

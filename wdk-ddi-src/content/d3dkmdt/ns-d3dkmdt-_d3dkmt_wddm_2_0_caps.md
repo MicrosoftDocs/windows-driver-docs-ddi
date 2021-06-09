@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_2_0_CAPS
-title: _D3DKMT_WDDM_2_0_CAPS (d3dkmdt.h)
-description: Indicates the capabilities for Windows Display Driver Model v2.0.
+title: D3DKMT_WDDM_2_0_CAPS (d3dkmdt.h)
+description: Indicates various capabilities starting in Windows Display Driver Model v2.0.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_WDDM_2_0_CAPS structure"]
 ms.keywords: _D3DKMT_WDDM_2_0_CAPS, D3DKMT_WDDM_2_0_CAPS,
@@ -38,12 +38,11 @@ product:
  - Windows
 ---
 
-# _D3DKMT_WDDM_2_0_CAPS structure
-
+# D3DKMT_WDDM_2_0_CAPS structure
 
 ## -description
 
-Indicates the capabilities for Windows Display Driver Model v2.0.
+Indicates various capabilities starting in Windows Display Driver Model v2.0.
 
 ## -struct-fields
 
@@ -77,5 +76,4 @@ Reserved.
 
 ### -field Value
 
-Value.
-
+An alternative way to access the cap bits.
