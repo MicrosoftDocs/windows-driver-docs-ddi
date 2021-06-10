@@ -3,7 +3,7 @@ UID: NF:wdm.RtlUTF8StringToUnicodeString
 title: RtlUTF8StringToUnicodeString function
 description: The RtlUTF8StringToUnicodeString function converts the specified UTF8 source string into a Unicode string in accordance with the current system locale information.
 tech.root: kernel
-ms.date: 03/24/2020
+ms.date: 05/27/2021
 ms.topic: function
 ms.keywords: RtlUTF8StringToUnicodeString
 req.header: wdm.h

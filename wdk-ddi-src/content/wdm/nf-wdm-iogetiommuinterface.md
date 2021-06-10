@@ -39,10 +39,12 @@ api_name:
 
 # IoGetIommuInterface function
 
-
 ## -description
 
 Retrieves a pointer to the interface that contains pointers to IOMMU routines.
+
+>[!IMPORTANT]
+> `IoGetIommuInterface` has been deprecated in Windows 10, version 2103 and has been replaced by [**IoGetIommuInterfaceEx**](nf-wdm-iogetiommuinterfaceex.md).
 
 ## -parameters
 
@@ -62,3 +64,6 @@ This function returns NTKERNELAPI NTSTATUS.
 
 ## -see-also
 
+[**DMA_IOMMU_INTERFACE**](ns-wdm-_dma_iommu_interface.md)
+
+[**IoGetIommuInterfaceEx**](nf-wdm-iogetiommuinterfaceex.md)

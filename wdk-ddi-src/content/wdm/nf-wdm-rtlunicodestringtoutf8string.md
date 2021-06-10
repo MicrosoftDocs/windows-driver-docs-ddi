@@ -3,7 +3,7 @@ UID: NF:wdm.RtlUnicodeStringToUTF8String
 title: RtlUnicodeStringToUTF8String function (wdm.h)
 description: The RtlUnicodeStringToUTF8String function converts the specified Unicode source string into an UTF8 string.
 tech.root: kernel
-ms.date: 03/24/2020
+ms.date: 05/27/2021
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: wdm.h
@@ -49,7 +49,7 @@ The **RtlUnicodeStringToUTF8String** function converts the specified Unicode sou
 
 ### -param DestinationString
 
-Pointer to a [UTF8_STRING](/windows/win32/api/ntdef/ns-ntdef-string) structure to hold the converted UTF8 string.  If *AllocateDestinationString* is **TRUE**, the routine allocates a new buffer to hold the string data, and updates the **Buffer** member of *DestinationString* to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string.  The maximum length field is only set if *AllocateDestinationString* is TRUE.
+Pointer to a [**UTF8_STRING**](/windows/win32/api/ntdef/ns-ntdef-string) structure to hold the converted UTF8 string.  If *AllocateDestinationString* is **TRUE**, the routine allocates a new buffer to hold the string data, and updates the **Buffer** member of *DestinationString* to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string.  The maximum length field is only set if *AllocateDestinationString* is TRUE.
 
 ### -param SourceString
 
@@ -57,7 +57,7 @@ Pointer to the Unicode source string to be converted to UTF8.
 
 ### -param AllocateDestinationString
 
-**TRUE** if this routine is to allocate the buffer space for the *DestinationString*. If it does, the buffer must be deallocated by calling [RtlFreeUTF8String](./nf-wdm-rtlfreeutf8string.md).
+**TRUE** if this routine is to allocate the buffer space for the *DestinationString*. If it does, the buffer must be deallocated by calling [**RtlFreeUTF8String**](./nf-wdm-rtlfreeutf8string.md).
 
 ## -returns
 
@@ -65,4 +65,4 @@ If the conversion succeeds, **RtlUnicodeStringToUTF8String** returns STATUS_SUCC
 
 ## -see-also
 
-[RtlFreeUTF8String](./nf-wdm-rtlfreeutf8string.md)
+[**RtlFreeUTF8String**](./nf-wdm-rtlfreeutf8string.md)

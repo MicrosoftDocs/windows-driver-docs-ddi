@@ -92,4 +92,6 @@ InputMappingId is used only for ACPI-enumerated devices on ARM64. For all other 
 
 If multiple devices are simultaneously attached using the _MappingCount_ value specified in the [_IOMMU_DOMAIN_ATTACH_DEVICE_](nc-wdm-iommu_domain_attach_device.md) call, then those devices can only be detached as a group by specifying an _InputMappingId_ value that is equal to the _InputMappingIdBase_ value of [_IOMMU_DOMAIN_ATTACH_DEVICE_] used when attaching.
 
+This is deprecated. Consider using [**IOMMU_DOMAIN_DETACH_DEVICE_EX**](nc-wdm-iommu_domain_detach_device_ex.md) and [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md).
+
 ## -see-also

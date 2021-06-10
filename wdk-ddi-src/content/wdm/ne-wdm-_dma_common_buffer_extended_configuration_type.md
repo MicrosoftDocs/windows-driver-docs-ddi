@@ -2,7 +2,7 @@
 UID: NE:wdm._DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE
 title: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE (wdm.h)
 description: Provides the types of optional configurations that can be provided when creating a common buffer from an MDL. The configuration values corresponding to the types are held in the DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION structure.
-tech.root:
+tech.root: kernel
 ms.assetid: 7a3c7fc8-e72d-4555-8f93-c1171c07c3f4
 ms.date: 08/19/2020
 keywords: ["DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE enumeration"]
