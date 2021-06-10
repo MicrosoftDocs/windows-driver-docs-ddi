@@ -96,4 +96,6 @@ _InputMappingIdBase_ and _MappingCount_ are intended only to accommodate ACPI-en
 - InputMappingIdBase = 0
 - MappingCount = 1
 
+This is deprecated. Consider using [**IOMMU_DOMAIN_ATTACH_DEVICE_EX**](nc-wdm-iommu_domain_attach_device_ex.md) and [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md).
+
 ## -see-also
