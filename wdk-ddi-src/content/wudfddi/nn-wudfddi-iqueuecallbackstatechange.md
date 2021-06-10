@@ -53,7 +53,7 @@ An I/O queue object raises an event when it changes state. A driver can consume 
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackStateChange</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueueCallbackStateChange</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -remarks
