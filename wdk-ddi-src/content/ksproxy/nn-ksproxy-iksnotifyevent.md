@@ -55,6 +55,4 @@ The IID for this interface is IID_IKsNotifyEvent
 ## -inheritance
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+

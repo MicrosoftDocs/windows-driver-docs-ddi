@@ -50,9 +50,7 @@ The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="/wi
 ## -inheritance
 
 The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+
 
 ## -remarks
 
