@@ -78,6 +78,4 @@ When deleting a subdevice from an adapter's topology, the driver must unregister
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnregisterPhysicalConnection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUnregisterPhysicalConnection</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+
