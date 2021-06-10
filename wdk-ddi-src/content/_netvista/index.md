@@ -25,7 +25,7 @@ For the programming guide, see [Network Driver Design Guide](/windows-hardware/d
 
 ## Network driver headers
 
-To develop Networking drivers for Windows Vista and later, you need these headers. This is a complete list of all headers in the WDK for network drivers; headers that support particular networking technologies are listed in the following sections.
+This is a complete list of all headers in the WDK for network drivers; headers that support particular network technologies are listed in the following sections.
 
 - [Dot11wdi.h](../dot11wdi/index.md)
 - [Checksum.h](../checksum/index.md)
