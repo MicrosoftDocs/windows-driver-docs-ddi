@@ -1,9 +1,9 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_REGISTER_PARAMS_INFO
-tech.root: 
+tech.root: netvista
 title: NDIS_WWAN_REGISTER_PARAMS_INFO
 description: The NDIS_WWAN_REGISTER_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
-ms.date: 05/27/2021
+ms.date: 06/01/2021
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,13 +43,13 @@ dev_langs:
 
 ## -description
 
-The **NDIS_WWAN_REGISTER_PARAMS_INFO** structure represents data for NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE notifications.
+The **NDIS_WWAN_REGISTER_PARAMS_INFO** structure represents data for [**NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE**](/windows-hardware/drivers/network/ndis-status-wwan-register-params-state) notifications.
 
 ## -struct-fields
 
 ### -field Header
 
-The header with type, revision, and size information about the **NDIS_WWAN_REGISTER_PARAMS_INFO** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations. Miniport drivers must set the header with the same values when they send the data structure to the MB service.
+The header with type, revision, and size information about the **NDIS_WWAN_REGISTER_PARAMS_INFO** structure.
 
 | Header submember | Value |
 | --- | --- |
@@ -75,6 +75,8 @@ The status of system capability. The following table shows the possible values f
 A formatted [**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md) structure that describes the parameters.
 
 ## -see-also
+
+[**NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE**](/windows-hardware/drivers/network/ndis-status-wwan-register-params-state)
 
 [**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
 

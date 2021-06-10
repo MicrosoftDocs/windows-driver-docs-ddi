@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SINGLE_TAI
-tech.root: 
+tech.root: netvista
 title: WWAN_SINGLE_TAI
 description: The WWAN_SINGLE_TAI structure represents a single Tracking Area Identity (TAI).
 ms.date: 05/27/2021
