@@ -1,6 +1,6 @@
 ---
 UID: TP:netvista
-title: Networking drivers for Windows Vista and later
+title: Network
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.date: 10/29/2019
 keywords: ["Networking drivers for Windows Vista and later"]
@@ -10,7 +10,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Networking drivers for Windows Vista and later
+# Network
 
 ## -description
 
@@ -19,9 +19,9 @@ ms.topic: portal
 >
 > Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the Microsoft [style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
-This section lists functions, event callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
+This section lists functions, event callbacks, macros, structures, and enumerations used in Windows network device drivers. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 
-For the programming guide, see [Networking drivers for Windows Vista and later](/windows-hardware/drivers/network).
+For the programming guide, see [Network Driver Design Guide](/windows-hardware/drivers/network).
 
 ## Network driver headers
 
