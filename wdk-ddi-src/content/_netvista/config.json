@@ -98,5 +98,5 @@
     "wsk.h",
     "wwan.h"
   ],
-  "displayName": "Networking drivers for Windows Vista and later"
+  "displayName": "Network"
 }
