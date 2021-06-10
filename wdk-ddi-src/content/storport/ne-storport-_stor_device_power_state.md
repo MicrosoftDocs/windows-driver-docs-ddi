@@ -61,11 +61,11 @@ The device power state is unspecified.
 
 ### -field StorPowerDeviceD0
 
-Maximum device power state, which corresponds to [device working state D0](/drivers/kernel/device-working-state-d0).
+Maximum device power state, which corresponds to [device working state D0](/windows-hardware/drivers/kernel/device-working-state-d0).
 
 ### -field StorPowerDeviceD1
 
-The [device sleeping state](/drivers/kernel/device-sleeping-states) that is less than **StorPowerDeviceD0** and greater than **StorPowerDeviceD2**, which corresponds to device power state D1.
+The [device sleeping state](/windows-hardware/drivers/kernel/device-sleeping-states) that is less than **StorPowerDeviceD0** and greater than **StorPowerDeviceD2**, which corresponds to device power state D1.
 
 ### -field StorPowerDeviceD2
 

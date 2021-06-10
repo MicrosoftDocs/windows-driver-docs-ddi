@@ -88,4 +88,6 @@ IOMMU_DOMAIN_CREATE *PIOMMU_DOMAIN_CREATE
 
 ## -remarks
 
+This is deprecated. Consider using [*IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md) and [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md).
+
 ## -see-also

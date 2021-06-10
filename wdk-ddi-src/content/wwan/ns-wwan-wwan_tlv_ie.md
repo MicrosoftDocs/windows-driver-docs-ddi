@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_TLV_IE
-tech.root: 
+tech.root: netvista
 title: WWAN_TLV_IE
 description: WWAN_TLV_IE is a variable-sized data structure for exchanging a wide range of information between a WWAN host and a device.
 ms.date: 05/27/2021

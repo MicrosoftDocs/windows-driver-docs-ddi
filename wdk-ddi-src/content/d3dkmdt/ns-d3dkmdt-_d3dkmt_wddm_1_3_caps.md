@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_1_3_CAPS
 title: _D3DKMT_WDDM_1_3_CAPS (d3dkmdt.h)
-description: Indicates the capabilities for Windows Display Driver Model v1.3.
+description: Indicates various capabilities introduced in Windows Display Driver Model v1.3.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_WDDM_1_3_CAPS structure"]
 ms.keywords: _D3DKMT_WDDM_1_3_CAPS, D3DKMT_WDDM_1_3_CAPS,
@@ -40,10 +40,9 @@ product:
 
 # _D3DKMT_WDDM_1_3_CAPS structure
 
-
 ## -description
 
-Indicates the capabilities for Windows Display Driver Model v1.3.
+Indicates various capabilities introduced in Windows Display Driver Model v1.3.
 
 ## -struct-fields
 
@@ -77,5 +76,4 @@ Reserved.
 
 ### -field Value
 
-Value.
-
+An alternative way to access the cap bits.

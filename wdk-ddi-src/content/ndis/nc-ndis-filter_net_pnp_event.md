@@ -65,7 +65,7 @@ A handle to the context area for the filter module. The filter driver created an
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+     <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the PnP event or Power Management event
      being indicated to the filter driver.
 
@@ -176,7 +176,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 

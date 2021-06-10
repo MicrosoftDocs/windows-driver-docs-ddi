@@ -70,7 +70,7 @@ The handle to a protocol-driver-allocated context area in which this driver main
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+     <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
      NET_PNP_EVENT_NOTIFICATION</a> structure which describes the Plug and Play event or Power Management
      event that NDIS is indicating to the protocol driver.
 
@@ -93,7 +93,7 @@ A pointer to a
 The protocol driver successfully handled the indicated network Plug and Play event, NDIS PnP
        event, or power management event. The meaning of this status code depends on the 
        <b>NetEvent</b> code in the buffered 
-       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+       <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
        NET_PNP_EVENT_NOTIFICATION</a> structure at 
        <i>NetPnPEvent</i>:
        
@@ -260,7 +260,7 @@ The
     event, an NDIS PnP event, or Power Management event has occurred.
 
 The 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+    <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
     NET_PNP_EVENT_NOTIFICATION</a> structure that is passed to 
     <i>ProtocolNetPnPEvent</i> describes the event. 
     <i>ProtocolNetPnPEvent</i> interprets two basic pieces of information in the
@@ -320,7 +320,7 @@ When handling a
     <b>NetEventReconfigure</b> or a 
     <b>NetEventBindList</b>, a protocol driver should validate the data associated
     with the event. For more information about such data, see 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>.
+    <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>.
 
 NDIS calls 
     <i>ProtocolNetPnPEvent</i> at IRQL = PASSIVE_LEVEL.
@@ -354,7 +354,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 

@@ -47,11 +47,11 @@ Deletes an existing domain. The domain must contain no devices in order to be su
 
 ### -param Domain
 
-[_In_] A pointer to the handle to the domain to be deleted.
+[*In*] A pointer to the handle to the domain to be deleted.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Return **STATUS_SUCCESS** if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -75,4 +75,12 @@ IOMMU_DOMAIN_DELETE *PIOMMU_DOMAIN_DELETE
 
 ## -remarks
 
+This can be called on any **IOMMU_DMA_DOMAIN** that was created through either the [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md) or [**DMA_IOMMU_INTERFACE**](ns-wdm-_dma_iommu_interface.md).
+
 ## -see-also
+
+[*IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md)
+
+[**DMA_IOMMU_INTERFACE_V2**](ns-wdm-dma_iommu_interface_v2.md)
+
+[**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md)

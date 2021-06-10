@@ -3,7 +3,7 @@ UID: NC:wdm.IOMMU_DOMAIN_CONFIGURE
 title: IOMMU_DOMAIN_CONFIGURE (wdm.h)
 description: Configures a domain for use.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 05/27/2021
 keywords: ["IOMMU_DOMAIN_CONFIGURE callback function"]
 req.header: wdm.h
 req.include-header: 
@@ -38,7 +38,6 @@ api_name:
 
 # IOMMU_DOMAIN_CONFIGURE callback function
 
-
 ## -description
 
 Configures a domain for use. All DMA blocked until the domain is configured.
@@ -47,11 +46,13 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ### -param Domain
 
-[_In_] A pointer to the handle to the domain.
+[_In_]
+A pointer to the handle to the domain.
 
 ### -param Configuration
 
-[_In_] A pointer to a [**DOMAIN_CONFIGURATION**](ns-wdm-_domain_configuration.md) structure that contains the new configuration for the domain.
+[_In_]
+A pointer to a [**DOMAIN_CONFIGURATION**](ns-wdm-_domain_configuration.md) structure that contains the new configuration for the domain.
 
 ## -returns
 
@@ -68,16 +69,23 @@ IOMMU_DOMAIN_CONFIGURE IommuDomainConfigure;
 
 NTSTATUS IommuDomainConfigure 
 (
-	PIOMMU_DMA_DOMAIN Domain
-	PDOMAIN_CONFIGURATION Configuration
+    PIOMMU_DMA_DOMAIN Domain
+    PDOMAIN_CONFIGURATION Configuration
 )
 {...}
 
 IOMMU_DOMAIN_CONFIGURE *PIOMMU_DOMAIN_CONFIGURE
 
-
 ```
 
 ## -remarks
 
+If the domain being configured is OS managed (via [**IOMMU_DOMAIN_CREATE**](./nc-wdm-iommu_domain_create.md)) or is not of type DomainTypeUnmanaged (via [IOMMU_DOMAIN_CREATE_EX](./nc-wdm-iommu_domain_create_ex.md)) then it cannot be configured and the function will return STATUS_INVALID_PARAMETER_1
+
 ## -see-also
+
+[**IOMMU_DOMAIN_CREATE**](./nc-wdm-iommu_domain_create.md)
+
+[**IOMMU_DOMAIN_CREATE_EX**](./nc-wdm-iommu_domain_create_ex.md)
+
+[**DOMAIN_CONFIGURATION**](ns-wdm-_domain_configuration.md)

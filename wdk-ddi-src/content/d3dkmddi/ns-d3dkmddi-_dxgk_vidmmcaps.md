@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **DXGK_VIDMMCAPS** structure identifies the video memory management capabilities that a display miniport driver can support.
+The **DXGK_VIDMMCAPS** structure identifies the video memory management capabilities that a display miniport driver supports.
 
 ## -struct-fields
 
@@ -69,9 +69,9 @@ Specifies whether the driver supports section-backed primary allocations. Suppor
 
 ### -field CrossAdapterResource
 
-Specifies whether the driver supports cross-adapter resources in a [hybrid system<](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system). Supported starting with Windows 8.1.
+Specifies whether the driver provides tier 1 support of copying to and from cross-adapter resources in a [hybrid system<](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system). Supported starting with Windows 8.1.
 
-Starting in WDDM 2.4, DXGI will be enabling the current hybrid presentation optimizations for the broader scenario wherever rendering is on one GPU and presenting on another GPU’s monitor. This is only possible if both GPUs support cross adapter resources.
+Starting in WDDM 2.4, DXGI enables the current hybrid presentation optimizations for the broader scenario wherever rendering is on one GPU and presenting on another GPU’s monitor. This is only possible if both GPUs support cross-adapter resources.
 
 The cross adapter resource properties are listed below.
 
@@ -122,7 +122,7 @@ The host KMD needs to set the cap if all DDIs are implemented. Supported startin
 
 ### -field IoMmuSecureModeSupported
 
-Indicates that the driver supports IoMmu hardware and isolation. Supported starting with Windows 10 version 1803.
+Indicates that the driver supports IOMMU hardware and isolation. Supported starting with Windows 10 version 1803.
 
 ### -field DisableSelfRefreshVRAMInS3
 
@@ -134,15 +134,32 @@ Indicates that IOMMU hardware and isolation support (referred to by the **IommuS
 
 ### -field MapAperture2Supported
 
-Indicates that the driver supports the **DXGK_OPERATION_MAP_APERTURE_SEGMENT2** [paging buffer command](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md). A driver must enable this support in order to be able to use logical address DMA remapping. Supported starting with Windows Server 2022.
+Supported starting with Windows Server 2022.
 
 ### -field CrossAdapterResourceTexture
 
-Indicates that the driver supports textures as a cross-adapter resource. Supported starting with Windows Server 2022.
+Specifies whether the driver provides tier 2 support of texturing from cross-adapter resources. A driver that indicates support for **CrossAdapterResourceTexture** must also indicate support for **CrossAdapterResource**. Supported starting with WDDM version 2.9.
 
 ### -field CrossAdapterResourceScanout
 
-Indicates that the driver supports scanout as a cross-adapter resource. Supported starting with Windows Server 2022.
+Specifies whether the driver provides tier 3 support of scanning out cross-adapter resources. A driver that indicates support for **CrossAdapterResourceScanout** must also indicate support for **CrossAdapterResource** and **CrossAdapterResourceTexture**. Supported starting with WDDM version 2.9.
+
+Tier 3 support requires that the driver be able to perform the supported flipping capabilities, declared by driver in [**DXGK_FLIPCAPS**](ns-d3dkmddi-_dxgk_flipcaps.md), for cross-adapter resources of the following minimum specifications:
+
+* Cross-adapter primary buffer size of 1920 x 1080 or smaller
+* Buffer pixel format of any of the following supported DisplayScanOut formats:
+  * DXGI_FORMAT_R16G16B16A16_FLOAT
+  * DXGI_FORMAT_R10G10B10A2_UNORM
+  * DXGI_FORMAT_R8G8B8A8_UNORM
+  * DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
+  * DXGI_FORMAT_B8G8R8A8_UNORM
+  * DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM
+  * DXGI_FORMAT_B8G8R8A8_UNORM_SRGB
+
+The DXGI runtime will query for driver's **CrossAdapterResourceScanout** support and if supported, the presentation stack shall go down the 1 copy path. Therefore, drivers that declare support for **CrossAdapterResourceScanout** are also required to:
+
+* Support [**DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3**](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md).
+* Support all the relevant presentation-related DDIs for cross-adapter primaries of the above minimum specifications. A few examples are pfnCreateResource, pfnCheckMultiplaneOverlaySupport and pfnPresentMultiplaneOverlay/pfnPresent1. Please refer to existing specs for the necessary detail, such as MPO spec  and Hybrid spec. Please refer to the section below for more details about falling out of CASO.
 
 ### -field Reserved
 
@@ -155,72 +172,6 @@ This value is used to operate over the members collectively.
 ### -field PagingNode
 
 The zero-based index of the node to use for paging operations. If the driver does not set the **MultiEngineAware** bit-field member of the **SchedulingCaps** member of the [**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md) structure, the DirectX graphics kernel subsystem ignores the setting of **PagingNode**. This member applies to WDDM 1.x only. In WDDM 2.x, **PagingNode** was moved to [**DXGK_PHYSICALADAPTERCAPS**](ns-d3dkmddi-_dxgk_physicaladaptercaps.md).
-
-## -syntax
-
-```cpp
-typedef struct _DXGK_VIDMMCAPS
-{
-    union
-    {
-        struct
-        {
-            UINT    OutOfOrderLock              : 1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7)
-            UINT    DedicatedPagingEngine       : 1; // _ADVSCH_
-            UINT    PagingEngineCanSwizzle      : 1; // _ADVSCH_
-            UINT    SectionBackedPrimary        : 1; // Create primaries using section without need for IO range
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-            UINT    CrossAdapterResource        : 1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-            UINT    VirtualAddressingSupported  : 1;
-            UINT    GpuMmuSupported             : 1;  
-            UINT    IoMmuSupported              : 1;  
-            UINT    ReplicateGdiContent         : 1;  
-            UINT    NonCpuVisiblePrimary        : 1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
-            UINT    ParavirtualizationSupported : 1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_4)
-            UINT    IoMmuSecureModeSupported    : 1;
-            UINT    DisableSelfRefreshVRAMInS3  : 1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_7)
-            UINT    IoMmuSecureModeRequired     : 1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_9)
-            UINT    MapAperture2Supported       : 1;
-            UINT    CrossAdapterResourceTexture : 1;
-            UINT    CrossAdapterResourceScanout : 1;
-            UINT    Reserved                    : 15;
-#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_7
-            UINT    Reserved                    : 18;
-#endif // DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_9
-#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_4
-            UINT    Reserved                    : 19;
-#endif // DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_7
-#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_4
-            UINT    Reserved                    : 21;
-#endif // DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_4
-#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_2
-            UINT    Reserved                    : 22;
-#endif // DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2
-#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM2_0
-            UINT    Reserved                    : 27;
-#endif // DXGKDDI_INTERFACE_VERSION_WDDM2_0
-#else  // ! DXGKDDI_INTERFACE_VERSION_WDDM1_3
-            UINT    Reserved                    : 28;
-#endif // DXGKDDI_INTERFACE_VERSION_WDDM1_3
-#else  // ! DXGKDDI_INTERFACE_VERSION_WIN7
-            UINT    Reserved                    : 31;
-#endif // DXGKDDI_INTERFACE_VERSION_WIN7
-        };
-        UINT        Value;
-    };
-    UINT            PagingNode;
-} DXGK_VIDMMCAPS;
-```
-
-## -remarks
-
-These memory management capabilities are a part of the [**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md) structure.
 
 ## -see-also
 

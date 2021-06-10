@@ -1,7 +1,8 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_REGISTER_PARAMS
-tech.root: 
-ms.date: 05/27/2021
+tech.root: netvista
+title: NDIS_WWAN_SET_REGISTER_PARAMS
+ms.date: 06/01/2021
 targetos: Windows
 description: The NDIS_WWAN_SET_REGISTER_PARAMS structure represents data for OID_WWAN_REGISTER_PARAMS set requests.
 req.construct-type: structure
@@ -42,19 +43,19 @@ dev_langs:
 
 ## -description
 
-The **NDIS_WWAN_SET_REGISTER_PARAMS** structure represents data for OID_WWAN_REGISTER_PARAMS set requests.
+The **NDIS_WWAN_SET_REGISTER_PARAMS** structure represents data for [**OID_WWAN_REGISTER_PARAMS**](/windows-hardware/drivers/network/oid-wwan-register-params) set requests.
 
 ## -struct-fields
 
 ### -field Header
 
-The header with type, revision, and size information about the **NDIS_WWAN_SET_REGISTER_PARAMS** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations. Miniport drivers must set the header with the same values when they send the data structure to the MB service.
+The header with type, revision, and size information about the **NDIS_WWAN_SET_REGISTER_PARAMS** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations.
 
 | Header submember | Value |
 | --- | --- |
 | Type | NDIS_OBJECT_TYPE_DEFAULT |
-| Revision | NDIS_WWAN_REGISTER_PARAMS_INFO_REVISION_1 |
-| Size | sizeof(NDIS_WWAN_REGISTER_PARAMS_INFO) |
+| Revision | NDIS_WWAN_SET_REGISTER_PARAMS_REVISION_1 |
+| Size | sizeof(NDIS_WWAN_SET_REGISTER_PARAMS) |
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header).
 
@@ -63,6 +64,8 @@ For more information about these members, see [**NDIS_OBJECT_HEADER**](/windows-
 A formatted [**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md) structure that describes the parameters.
 
 ## -see-also
+
+[**OID_WWAN_REGISTER_PARAMS**](/windows-hardware/drivers/network/oid-wwan-register-params)
 
 [**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
 
