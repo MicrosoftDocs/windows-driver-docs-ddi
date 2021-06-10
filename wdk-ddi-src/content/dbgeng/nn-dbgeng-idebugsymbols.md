@@ -48,9 +48,7 @@ api_name:
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugSymbols</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+
 
 ## -see-also
 
