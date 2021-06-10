@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_CAPS_EX_REV1
-tech.root: 
+tech.root: netvista
 title: WWAN_DEVICE_CAPS_EX_REV1
 description: The WWAN_DEVICE_CAPS_EX_REV1 structure represents the capabilities of a mobile broadband device.
 ms.date: 05/27/2021
