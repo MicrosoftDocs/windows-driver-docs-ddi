@@ -48,9 +48,7 @@ api_name:
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl5</b> interface inherits from <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>. <b>IDebugControl5</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+
 
 ## -see-also
 

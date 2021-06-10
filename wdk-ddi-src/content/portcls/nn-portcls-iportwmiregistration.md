@@ -52,6 +52,4 @@ ETW provides a mechanism to trace and log events that are raised by user-mode ap
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWMIRegistration</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortWMIRegistration</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+
