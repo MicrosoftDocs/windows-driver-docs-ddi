@@ -42,7 +42,4 @@ dev_langs:
 
 ## -description
 
-## -remarks
-
-## -see-also
-
+This function is reserved for system use and should not be called in your code.

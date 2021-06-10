@@ -42,15 +42,14 @@ dev_langs:
 
 ## -description
 
+This function is reserved for system use and should not be called in your code.
+
 ## -parameters
 
 ### -param DriverGlobals
 
+Reserved.
+
 ### -param Device
 
-## -returns
-
-## -remarks
-
-## -see-also
-
+Reserved.

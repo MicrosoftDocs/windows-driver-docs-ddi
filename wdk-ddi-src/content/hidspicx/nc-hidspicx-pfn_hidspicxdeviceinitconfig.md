@@ -42,22 +42,14 @@ dev_langs:
 
 ## -description
 
-The client driver must call the **HidSpiCxDeviceInitConfig** function in its EVT_WDF_DRIVER_DEVICE_ADD WDF callback, before calling **WdfDeviceCreate**. The class extension initializes private PNP and power hooks for the device.
+This function is reserved for system use and should not be called in your code.
 
 ## -parameters
 
 ### -param DriverGlobals
 
+Reserved.
+
 ### -param DeviceInit
 
-WDF handle to the device init object this method is being called for.
-
-## -returns
-
-NTSTATUS indicating whether HidSpiCx was able to successfully initialize the device init.
-
-## -remarks
-
-The client driver must call this function in its EVT_WDF_DRIVER_DEVICE_ADD WDF callback, before calling WdfDeviceCreate. The class extension initializes private PNP and power hooks for the device.
-
-## -see-also
+Reserved.

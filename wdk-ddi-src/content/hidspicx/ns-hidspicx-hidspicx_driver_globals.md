@@ -44,9 +44,13 @@ dev_langs:
 
 ## -description
 
+The **HIDSPICX_DRIVER_GLOBALS** structure is used internally by the framework. Do not use.
+
 ## -struct-fields
 
 ### -field Reserved
+
+Reserved.
 
 ## -remarks
 

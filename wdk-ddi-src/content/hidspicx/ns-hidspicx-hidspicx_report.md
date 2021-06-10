@@ -41,17 +41,25 @@ dev_langs:
 
 ## -description
 
-Input and Output reports are represented using the **HIDSPICX_REPORT** structure.
+Input and output reports are represented using the **HIDSPICX_REPORT** structure.
 
 ## -struct-fields
 
 ### -field ReportType
 
+The content type of the report.
+
 ### -field ReportContentLength
+
+The length of the *ReportContent* field.
 
 ### -field ReportId
 
+A unique report identifier.
+
 ### -field ReportContent
+
+The raw HID report or command parameters.
 
 ## -remarks
 

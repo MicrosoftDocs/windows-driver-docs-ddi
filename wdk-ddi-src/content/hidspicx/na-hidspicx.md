@@ -43,8 +43,6 @@ dev_langs:
 
 ## -description
 
-## -remarks
+This header is used by hid. For more information, see:
 
-## -see-also
-
-## -examples
+- [Human Interface Devices (HID)](../_hid/index.md)
