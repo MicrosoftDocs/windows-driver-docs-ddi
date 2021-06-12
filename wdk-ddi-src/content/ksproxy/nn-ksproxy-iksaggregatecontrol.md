@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsAggregateControl
 title: IKsAggregateControl (ksproxy.h)
 description: The IKsAggregateControl interface provides methods that add and remove COM servers as aggregate providers on KS objects that support the interface.
-old-location: stream\iksaggregatecontrol.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsAggregateControl interface"]
 ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices],described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,7 +41,6 @@ api_name:
 
 # IKsAggregateControl interface
 
-
 ## -description
 
 The **IKsAggregateControl** interface provides methods that add and remove COM servers as aggregate providers on KS objects that support the interface.
@@ -51,9 +49,7 @@ The interface identifier (IID) for this interface is IID_IKsAggregateControl.
 
 ## -inheritance
 
-The **IKsAggregateControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
-
-- **Methods**
+The **IKsAggregateControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
@@ -87,10 +83,10 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 ## -see-also
 
-[IKsControl](./nn-ksproxy-ikscontrol.md)
+[IKsControl](nn-ksproxy-ikscontrol.md)
 
-[IKsObject::KsGetObjectHandle](./nf-ksproxy-iksobject-ksgetobjecthandle.md)
+[IKsObject::KsGetObjectHandle](nf-ksproxy-iksobject-ksgetobjecthandle.md)
 
-[KsAddAggregate](./nf-ksproxy-iksaggregatecontrol-ksaddaggregate.md)
+[KsAddAggregate](nf-ksproxy-iksaggregatecontrol-ksaddaggregate.md)
 
-[KsRemoveAggregate](./nf-ksproxy-iksaggregatecontrol-ksremoveaggregate.md)
+[KsRemoveAggregate](nf-ksproxy-iksaggregatecontrol-ksremoveaggregate.md)

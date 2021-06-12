@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsPin
 title: IKsPin (ksproxy.h)
 description: The IKsPin interface provides methods that control and retrieve information about a pin.
-old-location: stream\ikspin.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsPin interface"]
 ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices],described, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml, stream.ikspin
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,23 +41,20 @@ api_name:
 
 # IKsPin interface
 
-
 ## -description
 
-The <b>IKsPin</b> interface provides methods that control and retrieve information about a pin.
+The **IKsPin** interface provides methods that control and retrieve information about a pin.
 
 The IID for this interface is IID_IKsPin.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
-
+The **IKsPin** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
-An interface handler (<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type.
+An interface handler ([IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)) uses many of the **IKsPin** methods to route media samples of a particular media type.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>
-
+[IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)

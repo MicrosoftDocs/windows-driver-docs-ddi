@@ -2,9 +2,8 @@
 UID: NN:printerextension.IPrintSchemaDisplayableElement
 title: IPrintSchemaDisplayableElement (printerextension.h)
 description: Provides the displayable string for a PrintCapabilites PrintSchema element.
-old-location: print\iprintschemadisplayableelement_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaDisplayableElement interface"]
 ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices],described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
 req.header: printerextension.h
@@ -42,15 +41,12 @@ api_name:
 
 # IPrintSchemaDisplayableElement interface
 
-
 ## -description
 
 Provides the displayable string for a PrintCapabilites PrintSchema element.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
+[IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)

@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPartImage
 title: IPartImage (filterpipeline.h)
 description: The IPartImage interface is the abstraction for images in an XPS document.
-old-location: print\ipartimage.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPartImage interface"]
 ms.keywords: IPartImage, IPartImage interface [Print Devices], IPartImage interface [Print Devices],described, filterpipeline/IPartImage, filterpipeline_faed49d4-60d1-4063-a4aa-c9ec8c56655d.xml, print.ipartimage
 req.header: filterpipeline.h
@@ -42,18 +41,14 @@ api_name:
 
 # IPartImage interface
 
-
 ## -description
 
-The <b>IPartImage</b> interface is the abstraction for images in an XPS document.
+The **IPartImage** interface is the abstraction for images in an XPS document.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartImage</b> interface inherits from <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartImage</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPartImage** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase). 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>
+[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)

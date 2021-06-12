@@ -2,13 +2,12 @@
 UID: NN:printerextension.IPrinterExtensionEventArgs
 title: IPrinterExtensionEventArgs (printerextension.h)
 description: Represents the context for the desktop printer extension activation.
-old-location: print\iprinterextensioneventargs.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrinterExtensionEventArgs interface"]
 ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices],described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
 req.header: printerextension.h
-req.include-header: 
+req.include-header: Printerextension.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -42,15 +41,12 @@ api_name:
 
 # IPrinterExtensionEventArgs interface
 
-
 ## -description
 
 Represents the context for the desktop printer extension activation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
+[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
 
-
-
-<a href="/windows-hardware/drivers/print/v4-driver-property-bags">V4 Printer Driver Property Bags</a>
+[V4 Printer Driver Property Bags](/windows-hardware/drivers/print/v4-driver-property-bags)

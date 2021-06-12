@@ -1,14 +1,13 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNotifyServerReferral
 title: IPrintAsyncNotifyServerReferral (prnasntp.h)
-description: 
-old-location: print\iprintasyncnotifyserverreferral.htm
+description: Defines the IPrintAsyncNotifyServerReferral interface.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncNotifyServerReferral interface"]
 ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices],described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,12 +41,10 @@ api_name:
 
 # IPrintAsyncNotifyServerReferral interface
 
-
 ## -description
+
+Defines the **IPrintAsyncNotifyServerReferral** interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNotifyServerReferral</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyServerReferral</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintAsyncNotifyServerReferral** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

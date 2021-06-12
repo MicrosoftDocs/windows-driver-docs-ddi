@@ -2,9 +2,8 @@
 UID: NN:printerextension.IPrintSchemaCapabilities
 title: IPrintSchemaCapabilities (printerextension.h)
 description: Provides the primary method to access PrintCapabilities.
-old-location: print\iprintschemacapabilities_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaCapabilities interface"]
 ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], IPrintSchemaCapabilities interface [Print Devices],described, print.iprintschemacapabilities_interface, printerextension/IPrintSchemaCapabilities
 req.header: printerextension.h
@@ -42,43 +41,30 @@ api_name:
 
 # IPrintSchemaCapabilities interface
 
-
 ## -description
 
 Provides the primary method to access PrintCapabilities.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>. <b>IPrintSchemaCapabilities</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-<li><a href="/">Properties</a></li>
-</ul>
+The **IPrintSchemaCapabilities** interface inherits from [IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement).
 
 ## -remarks
 
-To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must first dereference the <i>ppXmlNode</i> parameter of the <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode">XmlNode</a> property (using *ppXmlNode ). This retrieves a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method of the PrintCapabilities object to access the underlying  IXMLDOMDocument2 object.
+To obtain an **IXMLDOMDocument2** object for the PrintCapabilities object, you must first dereference the *ppXmlNode* parameter of the [XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode) property (using *ppXmlNode ). This retrieves a pointer to an interface of type **IUnknown**. 
+
+Use this pointer to  call the **QueryInterface** method of the PrintCapabilities object to access the underlying **IXMLDOMDocument2** object.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/print/v4-printer-driver">Developing v4 print drivers</a>
+[Developing v4 print drivers](/windows-hardware/drivers/print/v4-printer-driver)
 
+[IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
 
+[IPrintSchemaElement::XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
+[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
 
+[IPrintSchemaTicket_GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode">IPrintSchemaElement::XmlNode</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
-
-
-
-<a href="/windows-hardware/drivers/print/v4-driver-localization">V4 Printer Driver Localization</a>
+[V4 Printer Driver Localization](/windows-hardware/drivers/print/v4-driver-localization)

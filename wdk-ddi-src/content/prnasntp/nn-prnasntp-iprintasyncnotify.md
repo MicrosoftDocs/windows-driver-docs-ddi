@@ -1,14 +1,13 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNotify
 title: IPrintAsyncNotify (prnasntp.h)
-description: 
-old-location: print\iprintasyncnotify.htm
+description: Defines the IPrintAsyncNotify interface.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncNotify interface"]
 ms.keywords: IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices],described, print.iprintasyncnotify, prnasntp/IPrintAsyncNotify
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,12 +41,10 @@ api_name:
 
 # IPrintAsyncNotify interface
 
-
 ## -description
+
+Defines the IPrintAsyncNotify interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNotify</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotify</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintAsyncNotify** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

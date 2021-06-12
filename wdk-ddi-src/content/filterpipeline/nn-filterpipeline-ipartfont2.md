@@ -1,10 +1,9 @@
 ---
 UID: NN:filterpipeline.IPartFont2
 title: IPartFont2 (filterpipeline.h)
-description: 
-old-location: print\ipartfont2.htm
+description: The IPartFont2 interface is the abstraction for fonts in a part.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPartFont2 interface"]
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
 req.header: filterpipeline.h
@@ -42,13 +41,10 @@ api_name:
 
 # IPartFont2 interface
 
-
 ## -description
+
+The **IPartFont2** interface is the abstraction for fonts in a part.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartFont2</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartFont2</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
-
+The **IPartFont2** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

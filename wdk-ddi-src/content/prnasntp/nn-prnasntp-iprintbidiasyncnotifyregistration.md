@@ -1,14 +1,13 @@
 ---
 UID: NN:prnasntp.IPrintBidiAsyncNotifyRegistration
 title: IPrintBidiAsyncNotifyRegistration (prnasntp.h)
-description: 
-old-location: print\iprintbidiasyncnotifyregistration.htm
+description: Defines the IPrintBidiAsyncNotifyRegistration interface.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintBidiAsyncNotifyRegistration interface"]
 ms.keywords: IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], IPrintBidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintbidiasyncnotifyregistration, prnasntp/IPrintBidiAsyncNotifyRegistration
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,12 +41,10 @@ api_name:
 
 # IPrintBidiAsyncNotifyRegistration interface
 
-
 ## -description
+
+Defines the IPrintBidiAsyncNotifyRegistration interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintBidiAsyncNotifyRegistration</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintBidiAsyncNotifyRegistration</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintBidiAsyncNotifyRegistration** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

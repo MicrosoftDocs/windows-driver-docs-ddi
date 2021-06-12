@@ -1,14 +1,13 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
 title: IPrintAsyncCookie::FinishAsyncCall (prnasntp.h)
-description: 
-old-location: print\iprintasyncnotify_finishasynccall.htm
+description: Defines the IPrintAsyncCookie::FinishAsyncCall method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncCookie::FinishAsyncCall"]
 ms.keywords: FinishAsyncCall, FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],FinishAsyncCall method, IPrintAsyncCookie.FinishAsyncCall, IPrintAsyncCookie::FinishAsyncCall, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,16 +41,16 @@ api_name:
 
 # IPrintAsyncCookie::FinishAsyncCall
 
-
 ## -description
+
+Defines the **IPrintAsyncCookie::FinishAsyncCall** method.
 
 ## -parameters
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasynccookie">IPrintAsyncCookie</a>
-
+[IPrintAsyncCookie](/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasynccookie)

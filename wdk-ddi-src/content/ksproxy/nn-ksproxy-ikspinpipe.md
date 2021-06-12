@@ -2,9 +2,8 @@
 UID: NN:ksproxy.IKsPinPipe
 title: IKsPinPipe (ksproxy.h)
 description: The IKsPinPipe interface is for proxy use and not recommended for application use. IKsPinPipe provides methods that control a pin pipe.
-old-location: stream\ikspinpipe.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsPinPipe interface"]
 ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices],described, ksproxy/IKsPinPipe, ksproxy_baf35b14-3ad8-491c-86cf-9ac2b76d9504.xml, stream.ikspinpipe
 req.header: ksproxy.h
@@ -42,14 +41,12 @@ api_name:
 
 # IKsPinPipe interface
 
-
 ## -description
 
-The <b>IKsPinPipe</b> interface is for proxy use and not recommended for application use. <b>IKsPinPipe</b> provides methods that control a pin pipe. 
+The **IKsPinPipe** interface is for proxy use and not recommended for application use. **IKsPinPipe** provides methods that control a pin pipe.
 
 The IID for this interface is IID_IKsPinPipe.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPinPipe</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPinPipe</b> also has these types of members:
-
+The **IKsPinPipe** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
