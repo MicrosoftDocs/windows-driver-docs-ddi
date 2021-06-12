@@ -2,9 +2,8 @@
 UID: NF:ksproxy.IKsPinPipe.KsGetFilterName
 title: IKsPinPipe::KsGetFilterName (ksproxy.h)
 description: Returns the name of a filter.
-old-location: stream\ikspinpipe_ksgetfiltername.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsPinPipe::KsGetFilterName"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetFilterName method, IKsPinPipe.KsGetFilterName, IKsPinPipe::KsGetFilterName, KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
 req.header: ksproxy.h
@@ -42,20 +41,16 @@ api_name:
 
 # IKsPinPipe::KsGetFilterName
 
-
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-Returns the name of a filter
+Returns the name of a filter.
 
 ## -parameters
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe">IKsPinPipe</a>
-
+[IKsPinPipe](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe)

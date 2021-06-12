@@ -2,9 +2,8 @@
 UID: NN:printerextension.IPrintJobCollection
 title: IPrintJobCollection (printerextension.h)
 description: This interfaces provides an enumeration of the jobs in the print queue.
-old-location: print\iprintjobcollection.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintJobCollection interface"]
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
 req.header: printerextension.h
@@ -42,7 +41,6 @@ api_name:
 
 # IPrintJobCollection interface
 
-
 ## -description
 
 This interfaces provides an enumeration of the jobs in the print queue.
@@ -51,22 +49,16 @@ The enumerated list of jobs represents a snapshot of the current job status.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-<li><a href="/">Properties</a></li>
-</ul>
+The **IPrintJobCollection** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IPrintJobCollection** also has these types of members:
 
 ## -remarks
 
-The order of print jobs in the enumerated list is the same as the order provided by <a href="/windows/win32/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
+The order of print jobs in the enumerated list is the same as the order provided by [EnumJobs](/windows/win32/printdocs/enumjobs), which is the actual print queue order.
 
-<b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="/windows-hardware/drivers/print/job-management">Job Management</a>.
+**IPrintJobCollection** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](/windows-hardware/drivers/print/job-management).
 
 ## -see-also
 
-<a href="/windows/win32/printdocs/enumjobs">EnumJobs</a>
+[EnumJobs](/windows/win32/printdocs/enumjobs)
 
-
-
-<a href="/windows-hardware/drivers/print/job-management">Job Management</a>
+[Job Management](/windows-hardware/drivers/print/job-management)

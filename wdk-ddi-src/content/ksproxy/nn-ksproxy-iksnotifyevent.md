@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsNotifyEvent
 title: IKsNotifyEvent (ksproxy.h)
 description: The IKsNotifyEvent interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
-old-location: stream\iksnotifyevent.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsNotifyEvent interface"]
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,16 +42,14 @@ api_name:
 
 # IKsNotifyEvent interface
 
-
 ## -description
 
-<b>DirectX 9.0 and later versions only.</b>
+**DirectX 9.0 and later versions only.**
 
-The <b>IKsNotifyEvent</b> interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
+The **IKsNotifyEvent** interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
 
-The IID for this interface is IID_IKsNotifyEvent
+The IID for this interface is IID_IKsNotifyEvent.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
-
+The **IKsNotifyEvent** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

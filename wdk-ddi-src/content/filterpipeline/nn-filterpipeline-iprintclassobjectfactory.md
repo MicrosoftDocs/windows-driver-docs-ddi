@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintClassObjectFactory
 title: IPrintClassObjectFactory (filterpipeline.h)
 description: TheIPrintClassObjectFactory interface creates print filter-related interfaces.
-old-location: print\iprintclassobjectfactory.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintClassObjectFactory interface"]
 ms.keywords: IPrintClassObjectFactory, IPrintClassObjectFactory interface [Print Devices], IPrintClassObjectFactory interface [Print Devices],described, filterpipeline/IPrintClassObjectFactory, filterpipeline_dfad10be-6be6-4a74-8efb-e53182e469b7.xml, print.iprintclassobjectfactory
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintClassObjectFactory interface
 
-
 ## -description
 
-The<b>IPrintClassObjectFactory</b> interface creates print filter-related interfaces.
+The**IPrintClassObjectFactory** interface creates print filter-related interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintClassObjectFactory</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintClassObjectFactory</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintClassObjectFactory** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

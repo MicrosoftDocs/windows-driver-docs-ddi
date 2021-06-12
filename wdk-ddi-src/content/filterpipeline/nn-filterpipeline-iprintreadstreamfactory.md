@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintReadStreamFactory
 title: IPrintReadStreamFactory (filterpipeline.h)
 description: The IPrintReadStreamFactory interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
-old-location: print\iprintreadstreamfactory.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintReadStreamFactory interface"]
 ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices],described, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml, print.iprintreadstreamfactory
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintReadStreamFactory interface
 
-
 ## -description
 
-The <code>IPrintReadStreamFactory</code> interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
+The **IPrintReadStreamFactory** interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintReadStreamFactory</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintReadStreamFactory</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintReadStreamFactory** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

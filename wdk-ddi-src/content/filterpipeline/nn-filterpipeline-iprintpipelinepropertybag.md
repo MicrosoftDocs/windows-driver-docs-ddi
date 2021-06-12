@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintPipelinePropertyBag
 title: IPrintPipelinePropertyBag (filterpipeline.h)
 description: The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.
-old-location: print\iprintpipelinepropertybag.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintPipelinePropertyBag interface"]
 ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices],described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag
 req.header: filterpipeline.h
@@ -42,16 +41,12 @@ api_name:
 
 # IPrintPipelinePropertyBag interface
 
-
 ## -description
 
-The <code>IPrintPipelinePropertyBag</code> interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a> interface. <code>IprintPipelinePropertyBag</code> inherits from the <b>IUnknown</b> interface.
+The **IPrintPipelinePropertyBag** interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the [IPrintPipelineFilter](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter) interface.
 
-The properties of the property bag are described in <a href="/windows-hardware/drivers/print/print-pipeline-property-bag">Print Pipeline Property Bag</a>.
+The properties of the property bag are described in [Print Pipeline Property Bag](/windows-hardware/drivers/print/print-pipeline-property-bag).
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintPipelinePropertyBag</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelinePropertyBag</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintPipelinePropertyBag** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

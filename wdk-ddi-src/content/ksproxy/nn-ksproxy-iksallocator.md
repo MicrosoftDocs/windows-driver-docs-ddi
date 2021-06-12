@@ -2,9 +2,8 @@
 UID: NN:ksproxy.IKsAllocator
 title: IKsAllocator (ksproxy.h)
 description: TheIKsAllocator interface provides methods that control and query an allocator. IKsAllocator is for proxy use and not recommended for application use.
-old-location: stream\iksallocator.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsAllocator interface"]
 ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices],described, ksproxy/IKsAllocator, ksproxy_f3288ae8-cea3-4892-9b5b-f03e2c5ec8c4.xml, stream.iksallocator
 req.header: ksproxy.h
@@ -43,15 +42,13 @@ api_name:
 
 # IKsAllocator interface
 
-
 ## -description
 
-The<b>IKsAllocator</b> interface provides methods that control and query an allocator.  <b>IKsAllocator</b>  is for proxy use and not recommended for application use.
+The**IKsAllocator** interface provides methods that control and query an allocator.  **IKsAllocator**  is for proxy use and not recommended for application use.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocator</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsAllocator</b> also has these types of members:
-
+The **IKsAllocator** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsAllocator** also has these types of members:
 
 ## -remarks
 

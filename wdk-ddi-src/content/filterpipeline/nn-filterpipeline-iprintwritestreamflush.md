@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintWriteStreamFlush
 title: IPrintWriteStreamFlush (filterpipeline.h)
 description: Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a raw stream of bytes from a filter. This interface is retrieved through IPrintWriteStream::QueryInterface().
-old-location: print\iprintwritestreamflush.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintWriteStreamFlush interface"]
 ms.keywords: IPrintWriteStreamFlush, IPrintWriteStreamFlush interface [Print Devices], IPrintWriteStreamFlush interface [Print Devices],described, filterpipeline/IPrintWriteStreamFlush, print.iprintwritestreamflush
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintWriteStreamFlush interface
 
-
 ## -description
 
-Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a raw stream of bytes from a filter.  This interface is retrieved through IPrintWriteStream::QueryInterface().
+Filters use the **IPrintWriteStreamFlush** interface to explicitly flush data as a raw stream of bytes from a filter.  This interface is retrieved through IPrintWriteStream::QueryInterface().
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintWriteStreamFlush</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintWriteStreamFlush</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintWriteStreamFlush** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
