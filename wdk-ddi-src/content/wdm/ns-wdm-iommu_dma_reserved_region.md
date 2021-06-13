@@ -2,14 +2,14 @@
 UID: NS:wdm._IOMMU_DMA_RESERVED_REGION
 tech.root: kernel
 title: IOMMU_DMA_RESERVED_REGION
-ms.date: 04/20/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: 
+description: The IOMMU_DMA_RESERVED_REGION structure describes a region of memory that needs to be marked as reserved during domain creation.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **IOMMU_DMA_RESERVED_REGION** structure describes a region of memory that needs to be marked as reserved during domain creation. This structure is used by [*IOMMU_DOMAIN_CREATE_EX*](./nc-wdm-iommu_domain_create_ex.md).
+The **IOMMU_DMA_RESERVED_REGION** structure describes a region of memory that needs to be marked as reserved during domain creation. This structure is used by [*IOMMU_DOMAIN_CREATE_EX*](nc-wdm-iommu_domain_create_ex.md).
 
 ## -struct-fields
 
@@ -69,4 +69,4 @@ If the domain being created has a logical allocator, the logical address range w
 
 ## -see-also
 
-[IOMMU_DOMAIN_CREATE_EX](./nc-wdm-iommu_domain_create_ex.md)
+[IOMMU_DOMAIN_CREATE_EX](nc-wdm-iommu_domain_create_ex.md)

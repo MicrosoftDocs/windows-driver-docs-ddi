@@ -2,14 +2,14 @@
 UID: NS:wdm._POOL_EXTENDED_PARAMS_SECURE_POOL
 tech.root: kernel
 title: POOL_EXTENDED_PARAMS_SECURE_POOL
-ms.date: 04/20/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: 
+description: Defines the POOL_EXTENDED_PARAMS_SECURE_POOL structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-TBD
+Defines the **POOL_EXTENDED_PARAMS_SECURE_POOL** structure.
 
 ## -struct-fields
 

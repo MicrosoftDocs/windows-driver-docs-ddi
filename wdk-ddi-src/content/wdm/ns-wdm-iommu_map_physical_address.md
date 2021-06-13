@@ -2,14 +2,14 @@
 UID: NS:wdm._IOMMU_MAP_PHYSICAL_ADDRESS
 tech.root: kernel
 title: IOMMU_MAP_PHYSICAL_ADDRESS
-ms.date: 04/20/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: 
+description: The IOMMU_MAP_PHYSICAL_ADDRESS represents a physical address that is to be mapped to a logical address.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -43,13 +43,13 @@ dev_langs:
 
 ## -description
 
-The **IOMMU_MAP_PHYSICAL_ADDRESS** represents a physical address that is to be mapped to a logical address. It is used by [*IOMMU_MAP_LOGICAL_RANGE_EX*](./nc-wdm-iommu_map_logical_range_ex.md) and [*IOMMU_MAP_IDENTITY_RANGE_EX*](./nc-wdm-iommu_map_identity_range_ex.md).
+The **IOMMU_MAP_PHYSICAL_ADDRESS** represents a physical address that is to be mapped to a logical address. It is used by [*IOMMU_MAP_LOGICAL_RANGE_EX*](nc-wdm-iommu_map_logical_range_ex.md) and [*IOMMU_MAP_IDENTITY_RANGE_EX*](nc-wdm-iommu_map_identity_range_ex.md).
 
 ## -struct-fields
 
 ### -field MapType
 
-A [**IOMMU_MAP_PHYSICAL_ADDRESS_TYPE**](./ne-wdm-iommu_map_physical_address_type.md) value that indicates the format the physical address is represented in.
+A [**IOMMU_MAP_PHYSICAL_ADDRESS_TYPE**](ne-wdm-iommu_map_physical_address_type.md) value that indicates the format the physical address is represented in.
 
 ### -field Mdl
 
@@ -85,12 +85,12 @@ The number of PFNs in the PFN array.
 
 ## -remarks
 
-When mapping a physical address using [*IOMMU_MAP_LOGICAL_RANGE_EX*](./nc-wdm-iommu_map_logical_range_ex.md) or [*IOMMU_MAP_IDENTITY_RANGE_EX*](./nc-wdm-iommu_map_identity_range_ex.md), the physical addresses represented must be 4K page aligned and 4K page length.
+When mapping a physical address using [*IOMMU_MAP_LOGICAL_RANGE_EX*](nc-wdm-iommu_map_logical_range_ex.md) or [*IOMMU_MAP_IDENTITY_RANGE_EX*](nc-wdm-iommu_map_identity_range_ex.md), the physical addresses represented must be 4K page aligned and 4K page length.
 
 ## -see-also
 
-[IOMMU_MAP_LOGICAL_RANGE_EX](./nc-wdm-iommu_map_logical_range_ex.md)
+[IOMMU_MAP_LOGICAL_RANGE_EX](nc-wdm-iommu_map_logical_range_ex.md)
 
-[IOMMU_MAP_IDENTITY_RANGE_EX](./nc-wdm-iommu_map_identity_range_ex.md)
+[IOMMU_MAP_IDENTITY_RANGE_EX](nc-wdm-iommu_map_identity_range_ex.md)
 
-[IOMMU_MAP_PHYSICAL_ADDRESS_TYPE](./ne-wdm-iommu_map_physical_address_type.md)
+[IOMMU_MAP_PHYSICAL_ADDRESS_TYPE](ne-wdm-iommu_map_physical_address_type.md)

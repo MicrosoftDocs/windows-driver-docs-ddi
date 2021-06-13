@@ -4,12 +4,12 @@ tech.root: kernel
 title: IOMMU_DMA_LOGICAL_ALLOCATOR_TYPE
 ms.date: 05/27/2021
 targetos: Windows
-description: TBD
+description: The IOMMU_DMA_LOGICAL_ALLOCATOR_TYPE enum indicates the type of logical allocator described in an IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG structure.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **IOMMU_DMA_LOGICAL_ALLOCATOR_TYPE** enum indicates the type of logical allocator described in an [**IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG**](./ns-wdm-iommu_dma_logical_allocator_config.md) structure.
+The **IOMMU_DMA_LOGICAL_ALLOCATOR_TYPE** enum indicates the type of logical allocator described in an [**IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG**](ns-wdm-iommu_dma_logical_allocator_config.md) structure.
 
 ## -enum-fields
 
@@ -55,12 +55,13 @@ The logical allocator configuration describes the system's Buddy Allocator.
 ### -field IommuDmaLogicalAllocatorMax
 
 Invalid logical allocator type.
+
 ## -remarks
 
-For more information about the different logical allocator types available, see the Remarks section of [IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG](./ns-wdm-iommu_dma_logical_allocator_config.md).
+For more information about the different logical allocator types available, see the Remarks section of [**IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG**](ns-wdm-iommu_dma_logical_allocator_config.md).
 
 ## -see-also
 
-[IOMMU_DOMAIN_CREATE_EX](./nc-wdm-iommu_domain_create_ex.md)
+[IOMMU_DOMAIN_CREATE_EX](nc-wdm-iommu_domain_create_ex.md)
 
-[IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG](./ns-wdm-iommu_dma_logical_allocator_config.md)
+[IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG](ns-wdm-iommu_dma_logical_allocator_config.md)
