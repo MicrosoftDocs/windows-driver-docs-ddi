@@ -3,11 +3,11 @@ UID: NF:ntddk.IoAllocateAdapterChannel
 title: IoAllocateAdapterChannel function (ntddk.h)
 description: Deprecated. Use PALLOCATE_ADAPTER_CHANNEL.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 06/13/2021
 keywords: ["IoAllocateAdapterChannel function"]
 ms.keywords: IoAllocateAdapterChannel
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,8 +40,9 @@ api_name:
 
 # IoAllocateAdapterChannel function
 
-
 ## -description
+
+Deprecated.
 
 Do not call this function. Use [**PALLOCATE_ADAPTER_CHANNEL**](../wdm/nc-wdm-pallocate_adapter_channel.md).
 
@@ -49,23 +50,13 @@ Do not call this function. Use [**PALLOCATE_ADAPTER_CHANNEL**](../wdm/nc-wdm-pal
 
 ### -param AdapterObject
 
-TBD
-
 ### -param DeviceObject
-
-TBD
 
 ### -param NumberOfMapRegisters
 
-TBD
-
 ### -param ExecutionRoutine
 
-TBD
-
 ### -param Context
-
-TBD
 
 ## -returns
 
@@ -74,4 +65,3 @@ This function returns NTKERNELAPI NTSTATUS.
 ## -remarks
 
 ## -see-also
-
