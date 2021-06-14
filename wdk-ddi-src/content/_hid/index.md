@@ -28,6 +28,8 @@ To develop Human Interface Devices (HID), you need these headers:
 
 * [hidsdi.h](../hidsdi/index.md)
 
+* [hidspicx.h](../hidspicx/index.md)
+
 * [kbdmou.h](../kbdmou/index.md)
 
 * [ntdd8042.h](../ntdd8042/index.md)
