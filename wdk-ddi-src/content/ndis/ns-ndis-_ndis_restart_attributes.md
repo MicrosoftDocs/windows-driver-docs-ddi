@@ -110,7 +110,7 @@ When it restarts a protocol binding, NDIS provides a pointer to an NDIS_RESTART_
     driver's 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function. The 
     <b>NetPnPEvent</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
     NET_PNP_EVENT_NOTIFICATION</a> structure, that NDIS passes to 
     <i>ProtocolNetPnPEvent</i>, contains a 
     <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event">NET_PNP_EVENT</a> structure. The NET_PNP_EVENT
@@ -159,7 +159,7 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
-<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
