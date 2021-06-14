@@ -1,14 +1,13 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.EnablePDEV
 title: IPrintOemEngine::EnablePDEV (prcomoem.h)
-description: 
-old-location: print\iprintoemengine_enablepdev.htm
+description: Defines the IPrintOemEngine::EnablePDEV method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintOemEngine::EnablePDEV"]
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnablePDEV method, IPrintOemEngine.EnablePDEV, IPrintOemEngine::EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, print.iprintoemengine_enablepdev
 req.header: prcomoem.h
-req.include-header: 
+req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,8 +41,9 @@ api_name:
 
 # IPrintOemEngine::EnablePDEV
 
-
 ## -description
+
+Defines the **IPrintOemEngine::EnablePDEV** method.
 
 ## -parameters
 
@@ -69,9 +69,8 @@ api_name:
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine">IPrintOemEngine</a>
-
+[IPrintOemEngine](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine)

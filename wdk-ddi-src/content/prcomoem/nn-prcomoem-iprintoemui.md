@@ -2,13 +2,12 @@
 UID: NN:prcomoem.IPrintOemUI
 title: IPrintOemUI (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemUI COM interface.
-old-location: print\iprintoemui_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintOemUI interface"]
 ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], IPrintOemUI interface [Print Devices],described, prcomoem/IPrintOemUI, print.iprintoemui_interface, print_unidrv-pscript_ui_d2e42772-2604-4ef1-a667-70139ac8a62a.xml
 req.header: prcomoem.h
-req.include-header: 
+req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -45,11 +44,11 @@ api_name:
 
 ## -description
 
-This section describes the methods defined for the <b>IPrintOemUI</b> COM interface.
+This section describes the methods defined for the **IPrintOemUI** COM interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemUI</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUI</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintOemUI** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IPrintOemUI** also has these types of members:
+
+
+

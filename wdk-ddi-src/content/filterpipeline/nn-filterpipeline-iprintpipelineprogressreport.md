@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintPipelineProgressReport
 title: IPrintPipelineProgressReport (filterpipeline.h)
 description: A rendering filter uses the IPrintPipelineProgressReport interface to send progress status to a spooler.
-old-location: print\iprintpipelineprogressreport.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintPipelineProgressReport interface"]
 ms.keywords: IPrintPipelineProgressReport, IPrintPipelineProgressReport interface [Print Devices], IPrintPipelineProgressReport interface [Print Devices],described, filterpipeline/IPrintPipelineProgressReport, filterpipeline_de104fc6-8ac2-4a10-ab09-09596a093835.xml, print.iprintpipelineprogressreport
 req.header: filterpipeline.h
@@ -42,16 +41,12 @@ api_name:
 
 # IPrintPipelineProgressReport interface
 
-
 ## -description
 
-A rendering filter uses the <code>IPrintPipelineProgressReport</code> interface to send progress status to a spooler. 
+A rendering filter uses the **IPrintPipelineProgressReport** interface to send progress status to a spooler.
 
-A rendering filter should search for the <b>XPS_FP_PROGRESS_REPORT</b> property in a property bag, get the progress, and then remove it from the property bag. If there are no rendering filters, the filter pipeline sends the notifications to the spooler. It is very important for a rendering filter to remove the progress and send progress status to the spooler; if progress status is not handled correctly, the spooler may get conflicting progress reports.
+A rendering filter should search for the **XPS_FP_PROGRESS_REPORT** property in a property bag, get the progress, and then remove it from the property bag. If there are no rendering filters, the filter pipeline sends the notifications to the spooler. It is very important for a rendering filter to remove the progress and send progress status to the spooler; if progress status is not handled correctly, the spooler may get conflicting progress reports.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintPipelineProgressReport</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineProgressReport</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintPipelineProgressReport** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

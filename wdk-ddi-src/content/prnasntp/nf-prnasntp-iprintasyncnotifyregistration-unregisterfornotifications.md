@@ -1,14 +1,13 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.UnregisterForNotifications
 title: IPrintAsyncNotifyRegistration::UnregisterForNotifications (prnasntp.h)
-description: 
-old-location: print\iprintasyncnotifyregistration_unregisterfornotifications.htm
+description: Defines the IPrintAsyncNotifyRegistration::UnregisterForNotifications method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncNotifyRegistration::UnregisterForNotifications"]
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],UnregisterForNotifications method, IPrintAsyncNotifyRegistration.UnregisterForNotifications, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,16 +41,16 @@ api_name:
 
 # IPrintAsyncNotifyRegistration::UnregisterForNotifications
 
-
 ## -description
+
+Defines the **IPrintAsyncNotifyRegistration::UnregisterForNotifications** method.
 
 ## -parameters
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyregistration">IPrintAsyncNotifyRegistration</a>
-
+[IPrintAsyncNotifyRegistration](/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyregistration)

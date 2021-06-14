@@ -2,7 +2,7 @@
 UID: NF:ntddk.RtlLocateSupervisorFeature
 title: RtlLocateSupervisorFeature function (ntddk.h)
 description: Reserved for future use.
-ms.date: 10/19/2018
+ms.date: 06/13/2021
 tech.root: kernel
 keywords: ["RtlLocateSupervisorFeature function"]
 f1_keywords:
@@ -10,7 +10,7 @@ f1_keywords:
  - "RtlLocateSupervisorFeature"
 ms.keywords: RtlLocateSupervisorFeature
 req.header: ntddk.h
-req.include-header:
+req.include-header: Ntddk.h
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
@@ -40,7 +40,6 @@ targetos: Windows
 
 # RtlLocateSupervisorFeature function
 
-
 ## -description
 
 Reserved for future use.
@@ -48,11 +47,10 @@ Reserved for future use.
 ## -parameters
 
 ### -param XStateHeader
-TBD
+
 ### -param FeatureId
-TBD
+
 ### -param Length
-TBD
 
 ## -returns
 

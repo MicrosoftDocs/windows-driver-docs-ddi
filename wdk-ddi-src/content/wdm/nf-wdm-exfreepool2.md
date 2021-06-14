@@ -2,16 +2,16 @@
 UID: NF:wdm.ExFreePool2
 tech.root: kernel
 title: ExFreePool2
-ms.date: 04/20/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: 
+description: Defines the ExFreePool2 function.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
 req.idl: 
-req.include-header: 
+req.include-header: Wdm.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,7 +27,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - DllExport
+ - HeaderDef
 api_location:
  - wdm.h
 api_name:
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-TBD
+Defines the **ExFreePool2** function.
 
 ## -parameters
 

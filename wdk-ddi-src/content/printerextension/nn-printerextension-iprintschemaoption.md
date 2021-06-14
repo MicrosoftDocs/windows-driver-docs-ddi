@@ -2,9 +2,8 @@
 UID: NN:printerextension.IPrintSchemaOption
 title: IPrintSchemaOption (printerextension.h)
 description: Exposes a Print Schema Option object.
-old-location: print\iprintschemaoption_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaOption interface"]
 ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], IPrintSchemaOption interface [Print Devices],described, print.iprintschemaoption_interface, printerextension/IPrintSchemaOption
 req.header: printerextension.h
@@ -42,39 +41,26 @@ api_name:
 
 # IPrintSchemaOption interface
 
-
 ## -description
 
 Exposes a Print Schema Option object.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaOption</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement">IPrintSchemaDisplayableElement</a>. <b>IPrintSchemaOption</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-<li><a href="/">Properties</a></li>
-</ul>
+The **IPrintSchemaOption** interface inherits from [IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement).
 
 ## -remarks
 
-You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a <i>name</i> attribute specified. This attribute is used to build the <b>IPrintSchemaOption</b> and <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a> objects. If the <i>name</i> attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
+You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a *name* attribute specified. This attribute is used to build the **IPrintSchemaOption** and [IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature) objects. If the *name* attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement">IPrintSchemaDisplayableElement</a>
+[IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement)
 
+[IPrintSchemaFeature::GetOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-getoption)
 
+[IPrintSchemaFeature::SelectedOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-get_selectedoption)
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-getoption">IPrintSchemaFeature::GetOption</a>
+[IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-get_selectedoption">IPrintSchemaFeature::SelectedOption</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption">IPrintSchemaPageMediaSizeOption</a>
+[IPrintSchemaPageMediaSizeOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption)

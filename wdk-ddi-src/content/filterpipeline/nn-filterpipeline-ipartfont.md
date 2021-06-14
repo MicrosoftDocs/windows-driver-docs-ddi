@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPartFont
 title: IPartFont (filterpipeline.h)
 description: The IPartFont interface is the abstraction for fonts in a part.
-old-location: print\ipartfont.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPartFont interface"]
 ms.keywords: IPartFont, IPartFont interface [Print Devices], IPartFont interface [Print Devices],described, filterpipeline/IPartFont, filterpipeline_def05492-ca27-43bb-9ec4-273aa432536b.xml, print.ipartfont
 req.header: filterpipeline.h
@@ -42,18 +41,14 @@ api_name:
 
 # IPartFont interface
 
-
 ## -description
 
-The <b>IPartFont</b> interface is the abstraction for fonts in a part.
+The **IPartFont** interface is the abstraction for fonts in a part.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartFont</b> interface inherits from <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartFont</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPartFont** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>
+[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)

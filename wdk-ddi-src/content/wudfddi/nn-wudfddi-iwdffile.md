@@ -53,5 +53,5 @@ The <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFFile</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>

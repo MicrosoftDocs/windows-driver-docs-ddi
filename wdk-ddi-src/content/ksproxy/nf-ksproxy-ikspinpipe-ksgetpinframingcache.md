@@ -2,9 +2,8 @@
 UID: NF:ksproxy.IKsPinPipe.KsGetPinFramingCache
 title: IKsPinPipe::KsGetPinFramingCache (ksproxy.h)
 description: Not recommended for application use.
-old-location: stream\ikspinpipe_ksgetpinframingcache.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsPinPipe::KsGetPinFramingCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinFramingCache method, IKsPinPipe.KsGetPinFramingCache, IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache, KsGetPinFramingCache method [Streaming Media Devices], KsGetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinFramingCache, stream.ikspinpipe_ksgetpinframingcache
 req.header: ksproxy.h
@@ -42,10 +41,7 @@ api_name:
 
 # IKsPinPipe::KsGetPinFramingCache
 
-
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Not recommended for application use.
 
@@ -59,9 +55,8 @@ Not recommended for application use.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe">IKsPinPipe</a>
-
+[IKsPinPipe](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe)

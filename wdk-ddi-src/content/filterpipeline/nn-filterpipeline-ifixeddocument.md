@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IFixedDocument
 title: IFixedDocument (filterpipeline.h)
 description: The IFixedDocument interface represents a fixed document for an XPS document sequence.
-old-location: print\ifixeddocument.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/10/2021
 keywords: ["IFixedDocument interface"]
 ms.keywords: IFixedDocument, IFixedDocument interface [Print Devices], IFixedDocument interface [Print Devices],described, filterpipeline/IFixedDocument, filterpipeline_f295da8e-1444-40c4-8ecf-e3aadc1d324f.xml, print.ifixeddocument
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IFixedDocument interface
 
-
 ## -description
 
-The <b>IFixedDocument</b> interface represents a fixed document for an XPS document sequence.  An XPS fixed document sequence will have one or more fixed documents in it.
+The **IFixedDocument** interface represents a fixed document for an XPS document sequence.  An XPS fixed document sequence will have one or more fixed documents in it.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IFixedDocument</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFixedDocument</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IFixedDocument** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

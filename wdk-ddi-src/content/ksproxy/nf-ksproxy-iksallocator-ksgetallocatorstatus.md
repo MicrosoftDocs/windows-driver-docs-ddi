@@ -2,9 +2,8 @@
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorStatus
 title: IKsAllocator::KsGetAllocatorStatus (ksproxy.h)
 description: Retrieves the status of an allocator.
-old-location: stream\iksallocator_ksgetallocatorstatus.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsAllocator::KsGetAllocatorStatus"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorStatus method, IKsAllocator.KsGetAllocatorStatus, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], KsGetAllocatorStatus method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus
 req.header: ksproxy.h
@@ -42,10 +41,7 @@ api_name:
 
 # IKsAllocator::KsGetAllocatorStatus
 
-
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Retrieves the status of an allocator.
 
@@ -55,9 +51,8 @@ Retrieves the status of an allocator.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>
-
+[IKsAllocator](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator)

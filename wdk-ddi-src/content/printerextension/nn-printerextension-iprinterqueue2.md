@@ -2,13 +2,12 @@
 UID: NN:printerextension.IPrinterQueue2
 title: IPrinterQueue2 (printerextension.h)
 description: Represents a single printer queue.
-old-location: print\iprinterqueue2.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrinterQueue2 interface"]
 ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices],described, print.iprinterqueue2, printerextension/IPrinterQueue2
 req.header: printerextension.h
-req.include-header: 
+req.include-header: Printerextension.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -42,32 +41,24 @@ api_name:
 
 # IPrinterQueue2 interface
 
-
 ## -description
 
-Represents a single printer queue. 
+Represents a single printer queue.
 
-This interface extends <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a> and allows a user to manage print jobs and device maintenance from within a UWP  device app for printers, or from a printer extension.
+This interface extends [IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue) and allows a user to manage print jobs and device maintenance from within a UWP  device app for printers, or from a printer extension.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterQueue2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>. <b>IPrinterQueue2</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrinterQueue2** interface inherits from [IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue).
 
 ## -remarks
 
-<b>IPrinterQueue2</b> also helps to make it possible to perform device maintenance and job management from a UWP  device app or from a printer extension. For more information, see <a href="/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a> and <a href="/windows-hardware/drivers/print/job-management">Job Management</a>.
+**IPrinterQueue2** also helps to make it possible to perform device maintenance and job management from a UWP  device app or from a printer extension. For more information, see [Device Maintenance](/windows-hardware/drivers/print/device-maintenance) and [Job Management](/windows-hardware/drivers/print/job-management).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>
+[Device Maintenance](/windows-hardware/drivers/print/device-maintenance)
 
+[IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
-
-
-
-<a href="/windows-hardware/drivers/print/job-management">Job Management</a>
+[Job Management](/windows-hardware/drivers/print/job-management)

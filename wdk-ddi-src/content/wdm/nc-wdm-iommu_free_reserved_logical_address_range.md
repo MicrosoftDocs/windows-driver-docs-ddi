@@ -2,9 +2,9 @@
 UID: NC:wdm.IOMMU_FREE_RESERVED_LOGICAL_ADDRESS_RANGE
 tech.root: kernel
 title: IOMMU_FREE_RESERVED_LOGICAL_ADDRESS_RANGE
-ms.date: 05/27/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: TBD
+description: Frees a logical address token created by IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: wdm.h
 req.idl: 
-req.include-header: 
+req.include-header: Wdm.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -48,7 +48,8 @@ Frees a logical address token created by [**IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE*
 
 ### -param LogicalAddressToken
 
-[*In*] The [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN**](./ns-wdm-iommu_dma_logical_address_token.md), representing the reserved logical address range, to be freed.
+[in]
+The [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN**](./ns-wdm-iommu_dma_logical_address_token.md), representing the reserved logical address range, to be freed.
 
 ## -returns
 

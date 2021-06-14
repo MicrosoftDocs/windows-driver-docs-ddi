@@ -1,14 +1,13 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNewChannelCookie
 title: IPrintAsyncNewChannelCookie (prnasntp.h)
-description: 
-old-location: print\iprintasyncnewchannelcookie.htm
+description: Defines the IPrintAsyncNewChannelCookie interface.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncNewChannelCookie interface"]
 ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices],described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,12 +41,10 @@ api_name:
 
 # IPrintAsyncNewChannelCookie interface
 
-
 ## -description
+
+Defines the **IPrintAsyncNewChannelCookie** interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNewChannelCookie</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNewChannelCookie</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintAsyncNewChannelCookie** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

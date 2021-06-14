@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IFixedPage
 title: IFixedPage (filterpipeline.h)
 description: A filter uses the IFixedPage interface to work with fixed pages in an XPS document.
-old-location: print\ifixedpage.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/10/2021
 keywords: ["IFixedPage interface"]
 ms.keywords: IFixedPage, IFixedPage interface [Print Devices], IFixedPage interface [Print Devices],described, filterpipeline/IFixedPage, filterpipeline_4070fd54-c1df-432a-b586-a93854bf7aee.xml, print.ifixedpage
 req.header: filterpipeline.h
@@ -42,18 +41,14 @@ api_name:
 
 # IFixedPage interface
 
-
 ## -description
 
-A filter uses the <b>IFixedPage</b> interface to work with fixed pages in an XPS document.
+A filter uses the **IFixedPage** interface to work with fixed pages in an XPS document.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IFixedPage</b> interface inherits from <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IFixedPage</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IFixedPage** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>
+[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)

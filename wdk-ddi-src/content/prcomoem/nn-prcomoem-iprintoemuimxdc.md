@@ -2,13 +2,12 @@
 UID: NN:prcomoem.IPrintOemUIMXDC
 title: IPrintOemUIMXDC (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.
-old-location: print\iprintoemuimxdc_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintOemUIMXDC interface"]
 ms.keywords: IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], IPrintOemUIMXDC interface [Print Devices],described, prcomoem/IPrintOemUIMXDC, print.iprintoemuimxdc_interface, print_unidrv-pscript_ui_120354fc-1e37-41c9-b273-c28fde18079f.xml
 req.header: prcomoem.h
-req.include-header: 
+req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintOemUIMXDC interface
 
-
 ## -description
 
 This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemUIMXDC</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUIMXDC</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintOemUIMXDC** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

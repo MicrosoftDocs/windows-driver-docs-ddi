@@ -1,14 +1,13 @@
 ---
 UID: NF:filterpipeline.IPartFont2.GetFontRestriction
 title: IPartFont2::GetFontRestriction (filterpipeline.h)
-description: 
-old-location: print\ipartfont2_getfontrestriction.htm
+description: Gets the restrictions for the font.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPartFont2::GetFontRestriction"]
 ms.keywords: GetFontRestriction, GetFontRestriction method [Print Devices], GetFontRestriction method [Print Devices],IPartFont2 interface, IPartFont2 interface [Print Devices],GetFontRestriction method, IPartFont2.GetFontRestriction, IPartFont2::GetFontRestriction, filterpipeline/IPartFont2::GetFontRestriction, print.ipartfont2_getfontrestriction
 req.header: filterpipeline.h
-req.include-header: 
+req.include-header: Filterpipeline.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,20 +41,21 @@ api_name:
 
 # IPartFont2::GetFontRestriction
 
-
 ## -description
+
+Gets the restrictions for the font.
 
 ## -parameters
 
-### -param pRestriction 
+### -param pRestriction
 
 [out]
+Restrictions for the font.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont2">IPartFont2</a>
-
+[IPartFont2](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont2)

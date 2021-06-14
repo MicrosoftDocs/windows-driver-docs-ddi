@@ -53,5 +53,5 @@ The <b>IWDFRequestCompletionParams</b> interface exposes methods that drivers ca
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRequestCompletionParams</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWDFRequestCompletionParams</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>

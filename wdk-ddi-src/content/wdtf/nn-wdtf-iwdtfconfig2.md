@@ -52,9 +52,7 @@ Defines operations that control <b>WDTF</b> objects within a test script.
 The <b>IWDTFCONFIG2</b> interface inherits from the <a href="/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 <b>IWDTFCONFIG2</b> also has these types of members:
-<ul>
-<li>Methods</li>
-</ul>
+
 
 ## -remarks
 

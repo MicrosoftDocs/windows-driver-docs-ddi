@@ -2,14 +2,14 @@
 UID: NS:wdm._REG_SAVE_MERGED_KEY_INFORMATION
 tech.root: kernel
 title: REG_SAVE_MERGED_KEY_INFORMATION
-ms.date: 04/20/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: 
+description: Defines the REG_SAVE_MERGED_KEY_INFORMATION structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-TBD
+Defines the **REG_SAVE_MERGED_KEY_INFORMATION** structure.
 
 ## -struct-fields
 

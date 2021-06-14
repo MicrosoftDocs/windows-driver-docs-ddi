@@ -2,13 +2,12 @@
 UID: NN:prcomoem.IPrintCoreHelperUni
 title: IPrintCoreHelperUni (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintCoreHelperUni COM interface.
-old-location: print\iprintcorehelperuni_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintCoreHelperUni interface"]
 ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], IPrintCoreHelperUni interface [Print Devices],described, prcomoem/IPrintCoreHelperUni, print.iprintcorehelperuni_interface, print_unidrv-pscript_allplugins_ca505d1f-1b52-4a61-a2d8-d8fea10cda76.xml
 req.header: prcomoem.h
-req.include-header: 
+req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintCoreHelperUni interface
 
-
 ## -description
 
-This section describes the methods that are defined for the <code>IPrintCoreHelperUni</code> COM interface.
+This section describes the methods that are defined for the **IPrintCoreHelperUni** COM interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreHelperUni</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperUni</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintCoreHelperUni** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

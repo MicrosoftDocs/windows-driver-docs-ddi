@@ -53,5 +53,5 @@ Drivers obtain the <b>IWDFNamedPropertyStore2</b> interface by calling <a href="
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFNamedPropertyStore2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore">IWDFNamedPropertyStore</a>. <b>IWDFNamedPropertyStore2</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>
