@@ -2,15 +2,14 @@
 UID: NS:wdm._REG_LOAD_KEY_INFORMATION
 title: _REG_LOAD_KEY_INFORMATION (wdm.h)
 description: The REG_LOAD_KEY_INFORMATION structure contains information about a registry hive that is being loaded.
-old-location: kernel\reg_load_key_information.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 06/14/2021
 keywords: ["REG_LOAD_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, wdm/PREG_LOAD_KEY_INFORMATION, wdm/REG_LOAD_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -48,10 +47,9 @@ api_name:
 
 # _REG_LOAD_KEY_INFORMATION structure
 
-
 ## -description
 
-The <b>REG_LOAD_KEY_INFORMATION</b> structure contains information about a registry hive that is being loaded.
+The **REG_LOAD_KEY_INFORMATION** structure contains information about a registry hive that is being loaded.
 
 ## -struct-fields
 
@@ -61,11 +59,11 @@ A pointer to the registry key object for the root key of the hive that is about 
 
 ### -field KeyName
 
-A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the root key.
+A pointer to a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the name of the root key.
 
 ### -field SourceFile
 
-A pointer to a <b>UNICODE_STRING</b> structure that contains the path name of a file that contains the registry hive information that is being loaded.
+A pointer to a **UNICODE_STRING** structure that contains the path name of a file that contains the registry hive information that is being loaded.
 
 ### -field Flags
 
@@ -81,19 +79,19 @@ A pointer to an event object that is signaled when the hive is unloaded.
 
 ### -field DesiredAccess
 
-The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the <i>DesiredAccess</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine.
+The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the *DesiredAccess* parameter of the [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine.
 
 ### -field RootHandle
 
-An optional pointer to a location that receives the handle to the root of the hive that is being loaded. This member can be non-<b>NULL</b> if an application hive is  being loaded. In all other cases, this member should be <b>NULL</b>.
+An optional pointer to a location that receives the handle to the root of the hive that is being loaded. This member can be non-**NULL** if an application hive is being loaded. In all other cases, this member should be **NULL**.
 
 ### -field CallContext
 
-Optional driver-defined context information that the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can supply.
+Optional driver-defined context information that the driver's [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can supply.
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a> routine.
+A pointer to driver-defined context information that the driver has associated with a registry object by calling the [CmSetCallbackObjectContext](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext) routine.
 
 ### -field Reserved
 
@@ -101,27 +99,22 @@ Reserved for system use.
 
 ## -remarks
 
-The operating system passes the <b>REG_LOAD_KEY_INFORMATION</b> structure to a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a user-mode thread calls <a href="/windows/win32/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a> to load a registry hive.
+The operating system passes the **REG_LOAD_KEY_INFORMATION** structure to a [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine every time a user-mode thread calls [RegLoadKey](/windows/win32/api/winreg/nf-winreg-regloadkeya) to load a registry hive.
 
-For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+For more information about registry filtering operations, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a>
+[CmSetCallbackObjectContext](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext)
 
+[Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls)
 
+[RegLoadKey](/windows/win32/api/winreg/nf-winreg-regloadkeya)
 
-<a href="/windows/win32/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a>
+[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
 
+[REG_LOAD_KEY_INFORMATION_V2](/windows-hardware/drivers/ddi/wdm/ns-wdm-reg_load_key_information_v2)
 
+[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
-
+[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
