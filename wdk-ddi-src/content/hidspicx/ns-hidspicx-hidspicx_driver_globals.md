@@ -2,7 +2,7 @@
 UID: NS:hidspicx._HIDSPICX_DRIVER_GLOBALS
 tech.root: hid
 title: HIDSPICX_DRIVER_GLOBALS
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true

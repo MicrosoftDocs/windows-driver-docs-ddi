@@ -2,7 +2,7 @@
 UID: NC:hidspicx.PFN_HIDSPICXNOTIFYDEVICERESET
 tech.root: hid
 title: PFN_HIDSPICXNOTIFYDEVICERESET
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true

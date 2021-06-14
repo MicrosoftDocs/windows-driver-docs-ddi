@@ -2,7 +2,7 @@
 UID: NC:hidspicx.HIDSPICXFUNC
 tech.root: hid
 title: HIDSPICXFUNC
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true

@@ -2,7 +2,7 @@
 UID: NC:hidspicx.PFN_HIDSPICXDEVICECONFIGURE
 tech.root: hid
 title: PFN_HIDSPICXDEVICECONFIGURE
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **HidSpiCxDeviceConfigure** function 
+After calling [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), and still in its EVT_WDF_DRIVER_DEVICE_ADD callback, the client driver calls this function with a pointer to a [HIDSPICX_DEVICE_CONFIG](ns-hidspicx-hidspicx_device_config.md) structure, specifying interfaces the class extension will use to communicate with the device.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ NTSTATUS indicating whether HidSpiCx was able to successfully configure the devi
 
 ## -remarks
 
-After calling WdfDeviceCreate (and still in its EVT_WDF_DRIVER_DEVICE_ADD callback), the client driver then calls this function with a pointer to a HIDSPICX_DEVICE_CONFIG structure, specifying interfaces the class extension will use to communicate with the device. The class extension will here initialize internal state, returning whether or not this is successful.
+The class extension will here initialize internal state, returning whether or not this is successful.
 
 The client driver may, if necessary, create a default queue before or after making this callback, in order to handle (non-HID) IOCTLs not handled by the class extension.
 

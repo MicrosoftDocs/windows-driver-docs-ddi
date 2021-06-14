@@ -2,7 +2,7 @@
 UID: NS:hidspicx._HIDSPICX_REPORT
 tech.root: hid
 title: HIDSPICX_REPORT
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true

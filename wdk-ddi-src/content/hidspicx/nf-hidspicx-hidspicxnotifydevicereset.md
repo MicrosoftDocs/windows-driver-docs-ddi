@@ -2,7 +2,7 @@
 UID: NF:hidspicx.HidSpiCxNotifyDeviceReset
 tech.root: hid
 title: HidSpiCxNotifyDeviceReset
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true

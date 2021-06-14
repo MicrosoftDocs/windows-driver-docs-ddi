@@ -2,7 +2,7 @@
 UID: NF:hidspicx.HidSpiCxDeviceConfigure
 tech.root: hid
 title: HidSpiCxDeviceConfigure
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true

@@ -2,7 +2,7 @@
 UID: NC:hidspicx.EVT_HIDSPICX_NOTIFY_POWERDOWN
 tech.root: hid
 title: EVT_HIDSPICX_NOTIFY_POWERDOWN
-ms.date: 
+ms.date: 06/14/2021
 targetos: Windows
 description: 
 prerelease: true
