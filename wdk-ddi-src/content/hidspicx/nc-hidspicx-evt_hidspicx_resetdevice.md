@@ -42,23 +42,22 @@ dev_langs:
 
 ## -description
 
-The **EVT_HIDSPICX_RESETDEVICE** routine returns a NTSTATUS indicating whether the reset was successful or not.
+The **EVT_HIDSPICX_RESETDEVICE** callback function is implemented by the client driver to respond to requests to reset the device.
 
 ## -parameters
 
 ### -param Device
 
-WDF handle to the device object this method is being called for.
+A handle to a framework device object the client driver obtained from a previous call to [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -returns
 
-NTSTATUS indicating whether the reset was successful or not. This method is not expected to fail at runtime, and may result in a failure of the device by HidSpiCx.
+[NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) value indicating whether the reset was successful or not.
 
 ## -remarks
 
-The client driver is expected to implement and provide a reset callback. The class extension will call this function only while the hardware is in a working state (post-D0Entry after Interrupts / DMA enabled, and pre-D0Exit before Interrupts / DMA disbaled), at passive IRQL.
+The class extension will call this function only while the hardware is in a working state, at passive IRQL.
 
-The client driver shall synchronously reset the device, and return a status code indicating whether the physical reset was successful (*not* upon receipt of the reset response ??? which will be later provided to the class extension as an input report).
+The client driver synchronously resets the device and returns a status code indicating whether the reset was successful.
 
 ## -see-also
-

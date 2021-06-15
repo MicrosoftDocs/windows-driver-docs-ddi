@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EvtHidspicxNotifyPowerdown** callback function is implemented by the client driver to receive notifications when a device is about to power down.
+The **EvtHidspicxNotifyPowerdown** callback function is implemented by the client driver to receive notifications when the device is about to transition to a low-power state.
 
 ## -parameters
 

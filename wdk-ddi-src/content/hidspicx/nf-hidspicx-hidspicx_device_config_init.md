@@ -60,6 +60,6 @@ Output parameter, pointing to a caller-provided HIDSPICX_DEVICE_CONFIG structure
 
 ## -remarks
 
-Before passing a PHIDSPICX_DEVICE_CONFIG structure pointer to the HidSpiCxDeviceConfigure function, it must first be initialized by a call to this macro.
+Before passing a HIDSPICX_DEVICE_CONFIG structure pointer to the HidSpiCxDeviceConfigure function, it must first be initialized by a call to this macro.
 
 ## -see-also
