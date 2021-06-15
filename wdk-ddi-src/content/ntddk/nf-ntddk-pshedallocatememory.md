@@ -63,7 +63,7 @@ The size, in bytes, of the block of memory being allocated.
 A PSHED plug-in calls the <b>PshedAllocateMemory</b> function to allocate a block of memory. When the PSHED plug-in is done using the allocated block of memory, it calls the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedfreememory">PshedFreeMemory</a> function to free the memory.
 
 > [!NOTE]
-> To run on versions of Windows prior to Windows 10, version 2004 as well as Windows 10, version 2004 and later should use [**ExAllocatePoolZero**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolzero) to allocate pool memory. See the note in the Remarks section of that page about defining **POOL_ZERO_DOWN_LEVEL_SUPPORT**.
+> If a single PSHED plug-in binary needs to run on versions of Windows prior to Windows 10, version 2004 as well as Windows 10, version 2004 and later and if this binary needs to make other paged or nonpaged pool allocations outside of the **PshedAllocateMemory** APIs then the plugin should use [**ExAllocatePoolUninitialized**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepooluninitialized) or [**ExAllocatePoolZero**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolzero) to allocate pool memory. See the note in the Remarks section of the latter page about defining **POOL_ZERO_DOWN_LEVEL_SUPPORT**.
 
 ## -see-also
 
