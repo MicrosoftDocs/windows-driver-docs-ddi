@@ -66,10 +66,7 @@ Number of satellites in this structure. Not all satellites are actually used for
 
 ### -field SatelliteArray
 
- 
-
-
-
+An array of satellites with each array element representing information about a specific satellite.
 
 #### - SatelliteArray[GNSS_MAXSATELLITE]
 
