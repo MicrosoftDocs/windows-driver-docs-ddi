@@ -2,10 +2,10 @@
 UID: NC:dot11wificxintf.MINIPORT_WDI_ALLOCATE_ADAPTER
 tech.root: netvista
 title: MINIPORT_WDI_ALLOCATE_ADAPTER
-ms.date: 04/30/2021
+ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The MiniportWdiAllocateAdapter handler function allocates a WDI miniport adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
