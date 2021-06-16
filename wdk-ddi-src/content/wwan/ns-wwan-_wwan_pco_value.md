@@ -75,7 +75,7 @@ For example, if the modem received a PCO with 3 protocols and 3 containers, and 
 
 The following figure shows a full PCO structure as defined in the 3G TS24.008 spec.
 
-![Full PCO structure](../images/pco_structure_small.png)
+![Full PCO structure.](../images/pco_structure_small.png)
 
 ## -see-also
 
