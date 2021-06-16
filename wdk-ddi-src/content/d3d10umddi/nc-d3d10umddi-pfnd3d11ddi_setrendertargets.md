@@ -102,7 +102,7 @@ Resource descriptors such as RTVs and UAVs must be bound (put in *input slots*) 
 
 The following image shows an example with five resources.
 
-![RTV and UAV example](images/RtvUavExample.png)
+![RTV and UAV example.](images/RtvUavExample.png)
 
 In the above example:
 
