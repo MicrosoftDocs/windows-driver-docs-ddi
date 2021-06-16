@@ -42,14 +42,20 @@ dev_langs:
 
 ## -description
 
-The client driver may call the **HidSpiCxNotifyDeviceReset** function at any time when the device is in, or transitioning to D0, to inform the class extension of a requirement to reset the device. For example, due to an invalid packet, bus error or other unexpected failure in either the controller or the device necessitating a reset. The class extension will then call the provided EvtResetDevice callback, either before this function returns, or at a later time when appropriate. The device will then be reinitialized by the class extension.
+Informs the class extension of a requirement to reset the device.
 
 ## -parameters
 
 ### -param Device
 
-WDF handle to the device object this method is being called for.
+A handle to a framework device object the client driver obtained from a previous call to [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
 
+The client driver may call the **HidSpiCxNotifyDeviceReset** function at any time when the device is in, or transitioning to D0. The class extension then calls the [EVT_HIDSPICX_RESETDEVICE](nc-hidspicx-evt_hidspicx_resetdevice.md) callback for the device. The device is then reinitialized by the class extension.
+
 ## -see-also
+
+[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+
+[EVT_HIDSPICX_RESETDEVICE](nc-hidspicx-evt_hidspicx_resetdevice.md)

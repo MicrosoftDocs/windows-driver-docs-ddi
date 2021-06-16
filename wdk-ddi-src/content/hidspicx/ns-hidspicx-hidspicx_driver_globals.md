@@ -51,8 +51,3 @@ The **HIDSPICX_DRIVER_GLOBALS** structure is used internally by the framework. D
 ### -field Reserved
 
 Reserved.
-
-## -remarks
-
-## -see-also
-

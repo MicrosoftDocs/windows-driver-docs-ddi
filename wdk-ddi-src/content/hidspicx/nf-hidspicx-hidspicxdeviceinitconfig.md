@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The client driver must call **HidSpiCxDeviceInitConfig** in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) WDF callback, before calling [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+The client driver must call **HidSpiCxDeviceInitConfig** in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, before calling [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -parameters
 
 ### -param DeviceInit
 
-WDF handle to the device init object this method is being called for.
+A pointer to a [WDFDEVICE_INIT](/windows-hardware/drivers/wdf/wdfdevice_init) object that the client received in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) routine.
 
 ## -returns
 
-NTSTATUS indicating whether HidSpiCx was able to successfully initialize the device init.
+[NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) indicating whether the class extension was able to successfully initialize the structure.
 
 ## -remarks
 
-The class extension initializes private PNP and power hooks for the device.
+The class extension initializes private Plug-and-Play and power hooks for the device.
 
 ## -see-also
 

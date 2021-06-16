@@ -56,7 +56,7 @@ Boolean value indicating whether the device will be armed for wake in the target
 
 ## -returns
 
-NTSTATUS indicating whether preparation for the power transition was successful or not. This method is not expected to fail at runtime, and may result in a failure of the device by HidSpiCx.
+[NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) indicating whether preparation for the power transition was successful or not. This method is not expected to fail at runtime, and may result in a failure of the device by HidSpiCx.
 
 ## -remarks
 

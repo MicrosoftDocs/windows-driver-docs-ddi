@@ -63,6 +63,10 @@ The raw HID report or command parameters.
 
 ## -remarks
 
-The fields correspond to their meanings as defined in the HIDSPI protocol specification, and the structure above is identical to the body part of a HIDSPI report. This is used rather than the full HIDSPI report structure including header, as the client is expected to marshall the data structures to be sent on the wire.
+This structure is used rather than the full report structure including the header as the client is expected to marshall the data structures to be sent on the wire.
 
 ## -see-also
+
+[HIDSPICX_DEVICE_CONFIG_INIT](nf-hidspicx-hidspicx_device_config_init.md)
+
+[HIDSPICX_DEVICE_CONFIG](ns-hidspicx-hidspicx_device_config.md)
