@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Input and output reports are represented using the **HIDSPICX_REPORT** structure.
+The **HIDSPICX_REPORT** structure is used to represent input and output reports.
 
 ## -struct-fields
 
