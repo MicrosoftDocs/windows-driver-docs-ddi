@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-After calling [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), the client driver calls this function with a pointer to a [HIDSPICX_DEVICE_CONFIG](ns-hidspicx-hidspicx_device_config.md) structure, specifying interfaces the class extension will use to communicate with the device.
+After calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), the client driver calls this function with a pointer to a [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md) structure, specifying interfaces the class extension will use to communicate with the device.
 
 ## -parameters
 
 ### -param Device
 
-A handle to a framework device object the client driver obtained from a previous call to [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param DeviceConfiguration
 
-Pointer to an initialized [HIDSPICX_DEVICE_CONFIG](ns-hidspicx-hidspicx_device_config.md) structure, specifying the details of the callbacks and queues to be used for communication between the class extension and client driver.
+Pointer to an initialized [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md) structure, specifying the details of the callbacks and queues to be used for communication between the class extension and client driver.
 
 ## -returns
 
-[NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) indicating whether the class extension was able to successfully configure the device.
+[**NTSTATUS**](/windows-hardware/drivers/kernel/using-ntstatus-values) indicating whether the class extension was able to successfully configure the device.
 
 ## -remarks
 
@@ -68,8 +68,8 @@ Client drivers should not attempt to acquire power policy ownership to configure
 
 ## -see-also
 
-[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[HIDSPICX_DEVICE_CONFIG](ns-hidspicx-hidspicx_device_config.md)
+[**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md)
 
 [HIDSPICX_REPORT](ns-hidspicx-hidspicx_report.md)

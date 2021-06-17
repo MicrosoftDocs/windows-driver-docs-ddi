@@ -48,11 +48,11 @@ The **EVT_HIDSPICX_RESETDEVICE** callback function is implemented by the client 
 
 ### -param Device
 
-A handle to a framework device object the client driver obtained from a previous call to [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -returns
 
-[NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) value indicating whether the reset was successful or not.
+[**NTSTATUS**](/windows-hardware/drivers/kernel/using-ntstatus-values) value indicating whether the reset was successful or not.
 
 ## -remarks
 

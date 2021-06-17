@@ -48,14 +48,14 @@ Informs the class extension of a requirement to reset the device.
 
 ### -param Device
 
-A handle to a framework device object the client driver obtained from a previous call to [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
 
-The client driver may call the **HidSpiCxNotifyDeviceReset** function at any time when the device is in, or transitioning to D0. The class extension then calls the [EVT_HIDSPICX_RESETDEVICE](nc-hidspicx-evt_hidspicx_resetdevice.md) callback for the device. The device is then reinitialized by the class extension.
+The client driver may call the **HidSpiCxNotifyDeviceReset** function at any time when the device is in, or transitioning to D0. The class extension then calls the [**EVT_HIDSPICX_RESETDEVICE**](nc-hidspicx-evt_hidspicx_resetdevice.md) callback for the device. The device is then reinitialized by the class extension.
 
 ## -see-also
 
-[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[EVT_HIDSPICX_RESETDEVICE](nc-hidspicx-evt_hidspicx_resetdevice.md)
+[**EVT_HIDSPICX_RESETDEVICE**](nc-hidspicx-evt_hidspicx_resetdevice.md)

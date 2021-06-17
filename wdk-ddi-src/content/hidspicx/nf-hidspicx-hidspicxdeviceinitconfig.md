@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The client driver must call **HidSpiCxDeviceInitConfig** in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, before calling [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+The client driver must call **HidSpiCxDeviceInitConfig** in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, before calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -parameters
 
@@ -52,7 +52,7 @@ A pointer to a [WDFDEVICE_INIT](/windows-hardware/drivers/wdf/wdfdevice_init) ob
 
 ## -returns
 
-[NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) indicating whether the class extension was able to successfully initialize the structure.
+[**NTSTATUS**](/windows-hardware/drivers/kernel/using-ntstatus-values) indicating whether the class extension was able to successfully initialize the structure.
 
 ## -remarks
 
@@ -62,4 +62,4 @@ The class extension initializes private Plug-and-Play and power hooks for the de
 
 [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)

@@ -67,6 +67,6 @@ This structure is used rather than the full report structure including the heade
 
 ## -see-also
 
-[HIDSPICX_DEVICE_CONFIG_INIT](nf-hidspicx-hidspicx_device_config_init.md)
+[**HIDSPICX_DEVICE_CONFIG_INIT**](nf-hidspicx-hidspicx_device_config_init.md)
 
-[HIDSPICX_DEVICE_CONFIG](ns-hidspicx-hidspicx_device_config.md)
+[**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md)

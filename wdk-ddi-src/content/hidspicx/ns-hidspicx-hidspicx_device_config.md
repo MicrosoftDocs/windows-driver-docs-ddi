@@ -50,15 +50,15 @@ The **HIDSPICX_DEVICE_CONFIG** structure provides configuration information to t
 
 ### -field Size
 
-This field is set by the [HIDSPICX_DEVICE_CONFIG_INIT](nf-hidspicx-hidspicx_device_config_init.md) function.
+This field is set by the [**HIDSPICX_DEVICE_CONFIG_INIT**](nf-hidspicx-hidspicx_device_config_init.md) function.
 
 ### -field EvtResetDevice
 
-A pointer to the client driver's implementation of the [EVT_HIDSPICX_RESETDEVICE](nc-hidspicx-evt_hidspicx_resetdevice.md) callback function.
+A pointer to the client driver's implementation of the [**EVT_HIDSPICX_RESETDEVICE**](nc-hidspicx-evt_hidspicx_resetdevice.md) callback function.
 
 ### -field EvtNotifyPowerDown
 
-A pointer to the client driver's implementation of the [EVT_HIDSPICX_NOTIFY_POWERDOWN](nc-hidspicx-evt_hidspicx_notify_powerdown.md) callback function.
+A pointer to the client driver's implementation of the [**EVT_HIDSPICX_NOTIFY_POWERDOWN**](nc-hidspicx-evt_hidspicx_notify_powerdown.md) callback function.
 
 ### -field InputReportQueue
 
@@ -70,7 +70,7 @@ A **WDFQUEUE** handle to a client-created, non-power-managed, queue for receipt 
 
 ### -field NumberOfInputReportRequestsToPend
 
-**Optional** Specifies how many requests are to be placed in the input report queue at a given time. If this is zero, the class extension will choose a default.
+**Optional:** Specifies how many requests are to be placed in the input report queue at a given time. If this is zero, the class extension will choose a default.
 
 ### -field Reserved
 
@@ -78,8 +78,8 @@ Must be zero and should not be explicitly set by client drivers.
 
 ## -remarks
 
-Instances of this structure must be initialized by calling the [HIDSPICX_DEVICE_CONFIG_INIT](nf-hidspicx-hidspicx_device_config_init.md) function.
+Instances of this structure must be initialized by calling the [**HIDSPICX_DEVICE_CONFIG_INIT**](nf-hidspicx-hidspicx_device_config_init.md) function.
 
 ## -see-also
 
-[HIDSPICX_DEVICE_CONFIG_INIT](nf-hidspicx-hidspicx_device_config_init.md)
+[**HIDSPICX_DEVICE_CONFIG_INIT**](nf-hidspicx-hidspicx_device_config_init.md)
