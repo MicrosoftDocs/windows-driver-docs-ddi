@@ -62,7 +62,11 @@ Version number.
 
 ### -field MPC
 
+MPC address and port number.
+
 ### -field PDE
+
+PDE address and port number.
 
 ### -field ApplicationTypeIndicator_MR
 
