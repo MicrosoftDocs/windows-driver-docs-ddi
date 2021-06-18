@@ -1,18 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_PHY_TYPE
 tech.root: netvista
-title: WDI_PHY_TYPE
-ms.date: 04/30/2021
+title: WDI_PHY_TYPE (dot11wificxtypes.h)
+ms.date: 06/17/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_PHY_TYPE enumeration defines PHY types.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -37,70 +37,67 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_PHY_TYPE enumeration defines the PHY types.
 
 ## -enum-fields
 
 ### -field WDI_PHY_TYPE_UNKNOWN
 
-Reserved.
+Specifies an unknown or uninitialized PHY type.
 
 ### -field WDI_PHY_TYPE_ANY
 
-Reserved.
+Specifies an unknown or uninitialized PHY type.
 
 ### -field WDI_PHY_TYPE_FHSS
 
-Reserved.
+Specifies a frequency-hopping spread-spectrum (FHSS) PHY.
 
 ### -field WDI_PHY_TYPE_DSSS
 
-Reserved.
+Specifies a direct sequence spread spectrum (DSSS) PHY.
 
 ### -field WDI_PHY_TYPE_IRBASEBAND
 
-Reserved.
+Specifies an infrared (IR) baseband PHY.
 
 ### -field WDI_PHY_TYPE_OFDM
 
-Reserved.
+Specifies an orthogonal frequency division multiplexing (OFDM) 802.11a PHY.
 
 ### -field WDI_PHY_TYPE_HRDSSS
 
-Reserved.
+Specifies a high-rate DSSS (HRDSSS) 802.11b PHY.
 
 ### -field WDI_PHY_TYPE_ERP
 
-Reserved.
+Specifies an extended-rate 802.11g PHY (ERP).
 
 ### -field WDI_PHY_TYPE_HT
 
-Reserved.
+Specifies a high-throughput (HT) 802.11n PHY. Each 802.11n PHY, whether dual-band or not, is specified as this PHY type.
 
 ### -field WDI_PHY_TYPE_VHT
 
-Reserved.
+Specifies a very high-throughput (VHT) 802.11ac PHY.
 
 ### -field WDI_PHY_TYPE_DMG
 
-Reserved.
+Added in Windows 10, version 1607, WDI version 1.0.21.
+
+Specifies a Directional Multi-Gigabit (DMG) 802.11ad PHY.
 
 ### -field WDI_PHY_TYPE_HE
 
-Reserved.
+Added in Windows 10, version 1809. WDI version 1.1.7.
+
+Specifies a High-Efficiency (HE) 802.11ax PHY.
 
 ### -field WDI_PHY_TYPE_IHV_START
 
-Reserved.
+Specifies the start of the range that is used to define proprietary PHY types that are developed by an independent hardware vendor (IHV).
 
 ### -field WDI_PHY_TYPE_IHV_END
 
-Reserved.
-
-## -remarks
-
-## -see-also
+Specifies the end of the range that is used to define proprietary PHY types that are developed by an IHV.
 

@@ -1,18 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_WPS_CONFIGURATION_METHOD
 tech.root: netvista
-title: WDI_WPS_CONFIGURATION_METHOD
-ms.date: 04/30/2021
+title: WDI_WPS_CONFIGURATION_METHOD (dot11wificxtypes.h)
+ms.date: 06/18/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_WPS_CONFIGURATION_METHOD enum defines WPS configuration methods.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -37,40 +37,37 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_WPS_CONFIGURATION_METHOD enumeration defines WPS configuration methods.
 
 ## -enum-fields
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_NULL
 
-Reserved.
+WFDS.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_DISPLAY
 
-Reserved.
+Pin display.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_NFC_TAG
 
-Reserved.
+NFC tag.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE
 
-Reserved.
+NFC interface.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON
 
-Reserved.
+Push button.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_KEYPAD
 
-Reserved.
+Pin keypad.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT
 
-Reserved.
+WFDS.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE
 

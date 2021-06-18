@@ -1,11 +1,11 @@
 ---
 UID: NS:dot11wificxtypes._WDI_TYPE_NONCE
 tech.root: netvista
-title: WDI_TYPE_NONCE
-ms.date: 04/30/2021
+title: WDI_TYPE_NONCE (dot11wificxtypes.h)
+ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_TYPE_NONCE structure defines the SNonce or ANonce (802.11r).
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_TYPE_NONCE, *PWDI_TYPE_NONCE
@@ -44,16 +44,13 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_TYPE_NONCE structure defines the SNonce or ANonce (802.11r).
 
 ## -struct-fields
 
 ### -field Nonce
 
-Reserved.
+The SNonce or ANonce.
 
 ## -remarks
 

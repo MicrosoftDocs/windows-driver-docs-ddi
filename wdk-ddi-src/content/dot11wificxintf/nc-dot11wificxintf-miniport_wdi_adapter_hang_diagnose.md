@@ -5,7 +5,7 @@ title: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE (dot11wificxintf.h)
 ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: The MiniportWdiAdapterHangDiagnose handler function is used to collect hardware control register states and optionally full firmware state.
+description: The MiniportWdiAdapterHangDiagnose function is used to collect hardware control register states and optionally full firmware state.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
