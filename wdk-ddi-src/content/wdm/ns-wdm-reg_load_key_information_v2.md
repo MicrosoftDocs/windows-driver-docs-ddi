@@ -2,7 +2,7 @@
 UID: NS:wdm._REG_LOAD_KEY_INFORMATION_V2
 tech.root: kernel
 title: REG_LOAD_KEY_INFORMATION_V2
-ms.date: 06/14/2021
+ms.date: 06/21/2021
 targetos: Windows
 description: The REG_LOAD_KEY_INFORMATION_V2 structure contains information about a registry hive that is being loaded.
 req.construct-type: structure
@@ -107,7 +107,7 @@ A pointer to an access token (PACCESS_TOKEN) that impersonates its access level 
 
 [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
 
-[REG_LOAD_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-reg_load_key_information)
+[REG_LOAD_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_load_key_information)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
