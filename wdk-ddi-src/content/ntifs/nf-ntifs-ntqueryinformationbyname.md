@@ -1,9 +1,9 @@
 ---
 UID: NF:ntifs.NtQueryInformationByName
-title: NtQueryInformationByName function (ntifs.h)
+title: NtQueryInformationByName function
 description: NtQueryInformationByName returns the requested information about a file specified by file name.
 tech.root: ifsk
-ms.date: 06/21/2021
+ms.date: 03/12/2021
 ms.topic: function
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
@@ -49,23 +49,23 @@ product:
 
 ### -param ObjectAttributes
 
-[in] Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that contains the file's attributes, including file name.
+Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that contains the file's attributes, including file name.
 
 ### -param IoStatusBlock
 
-[out] Pointer an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure containing the caller's I/O status.
+Pointer an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure containing the caller's I/O status.
 
 ### -param FileInformation
 
-[out] Pointer to the caller-supplied buffer in which to return the requested information about the file. The structure of the buffer is determined by the *FileInformationClass* parameter.
+Pointer to the caller-supplied buffer in which to return the requested information about the file. The structure of the buffer is determined by the *FileInformationClass* parameter.
 
 ### -param Length
 
-[in] Length, in bytes, of the buffer that *FileInformation* points to.
+Length, in bytes, of the buffer that *FileInformation* points to.
 
 ### -param FileInformationClass
 
-[in] A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that identifies the type of file information to return in the buffer that *FileInformation* points to. *FileInformationClass* can be one of the following values.
+A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that identifies the type of file information to return in the buffer that *FileInformation* points to. *FileInformationClass* can be one of the following values.
 
 | FILE_INFORMATION_CLASS Value | Type of Information to Return |
 | ---------------------------- | ----------------------------- |
@@ -84,7 +84,7 @@ product:
 
 ## -remarks
 
-**NtQueryInformationByName** queries and returns the requested information about the file. It does so without opening the actual file, making it more efficient than [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md), which requires a file open (and subsequent file close).
+**NtQueryInformationByName** queries and returns the requested information about the file. It does so without opening the actual file, making it more efficient than [**NtQueryInformationFile**](./nf-ntifs-ntqueryinformationfile.md), which requires a file open (and subsequent file close) .
 
 Callers of **NtQueryInformationByName** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
