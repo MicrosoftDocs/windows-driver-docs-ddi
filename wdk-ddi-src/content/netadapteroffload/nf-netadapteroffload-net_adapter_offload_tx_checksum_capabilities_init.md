@@ -9,7 +9,7 @@ ms.keywords: NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT
 req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 1.29
 req.umdf-ver: 

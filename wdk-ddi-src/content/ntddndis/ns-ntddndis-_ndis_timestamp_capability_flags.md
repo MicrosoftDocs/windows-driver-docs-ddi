@@ -9,7 +9,7 @@ ms.keywords: _NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, 
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: Windows Server 2022. Supported in NDIS 6.82 and later.
 req.kmdf-ver: 
 req.umdf-ver: 
