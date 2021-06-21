@@ -8,7 +8,7 @@ keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM callback function"]
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXT
 req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 1.29
 req.umdf-ver: 

@@ -12,7 +12,7 @@ req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN10_NEXTWIN10_NEXT
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
