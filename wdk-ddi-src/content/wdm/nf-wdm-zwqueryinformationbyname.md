@@ -52,7 +52,7 @@ dev_langs:
 
 ### -param IoStatusBlock
 
-[out] Pointer an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure containing the caller's I/O status.
+[out] Pointer an [IO_STATUS_BLOCK](ns-wdm-_io_status_block.md) structure containing the caller's I/O status.
 
 ### -param FileInformation
 
@@ -64,13 +64,13 @@ dev_langs:
 
 ### -param FileInformationClass
 
-[in] A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that identifies the type of file information to return in the buffer that *FileInformation* points to. *FileInformationClass* can be one of the following values.
+[in] A [FILE_INFORMATION_CLASS](ne-wdm-_file_information_class.md) value that identifies the type of file information to return in the buffer that *FileInformation* points to. *FileInformationClass* can be one of the following values.
 
 | FILE_INFORMATION_CLASS Value | Type of Information to Return |
 | ---------------------------- | ----------------------------- |
-| **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md). Available starting with Windows 10, version 1709. |
-| **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md). Available starting with Windows 10 April 2018 Update. |
-| **FileCaseSensitiveInformation** (71) | [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md). Available starting with Windows 10 April 2018 Update. |
+| **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](../ntifs/ns-ntifs-_file_stat_information.md). Available starting with Windows 10, version 1709. |
+| **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](../ntifs/ns-ntifs-_file_stat_lx_information.md). Available starting with Windows 10 April 2018 Update. |
+| **FileCaseSensitiveInformation** (71) | [FILE_CASE_SENSITIVE_INFORMATION](../ntifs/ns-ntifs-_file_case_sensitive_information.md). Available starting with Windows 10 April 2018 Update. |
 
 ## -returns
 
@@ -89,15 +89,15 @@ Callers of **ZwQueryInformationByName** must be running at IRQL = PASSIVE_LEVEL 
 
 ## -see-also
 
-[FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md)
+[FILE_CASE_SENSITIVE_INFORMATION](../ntifs/ns-ntifs-_file_case_sensitive_information.md)
 
-[FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md)
+[FILE_INFORMATION_CLASS](ne-wdm-_file_information_class.md)
 
-[FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md)
+[FILE_STAT_INFORMATION](../ntifs/ns-ntifs-_file_stat_information.md)
 
-[FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md)
+[FILE_STAT_LX_INFORMATION](../ntifs/ns-ntifs-_file_stat_lx_information.md)
 
-[IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md)
+[IO_STATUS_BLOCK](ns-wdm-_io_status_block.md)
 
 [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes)
 
