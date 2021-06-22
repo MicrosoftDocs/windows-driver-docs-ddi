@@ -3,7 +3,7 @@ UID: NS:ksmedia.__unnamed_struct_133
 title: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure contains a NTP-specific payload that is used to set or disable an NTP server on a Onvif protocol camera.
 tech.root: stream
-ms.date: 08/12/2020
+ms.date: 06/24/2021
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER, *PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
@@ -38,7 +38,6 @@ api_name:
 
 # KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure
 
-
 ## -description
 
 The **KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER** structure contains a NTP-specific payload that is used to set or disable an NTP server on a Onvif protocol camera.
@@ -61,7 +60,20 @@ The local PC's NTP server entry is found by parsing the registry value at SYSTEM
 
 ## -see-also
 
-[KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE](/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_networkcameracontrol_ntpinfo_type)
+[KSPROPERTY_NETWORKCAMERACONTROL_EVENTTOPICS_XML](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-eventtopics-xml)
 
-[KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_networkcameracontrol_property)
+[KSPROPERTY_NETWORKCAMERACONTROL_METADATA](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-metadata)
 
+[KSPROPERTYSETID_NetworkCameraControl](/windows-hardware/drivers/stream/kspropertysetid-networkcameracontrol)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_NTP](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-ntp)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_URI](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-uri)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_EVENT_INFO](ns-ksmedia-ksproperty_networkcameracontrol_event_info.md)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_METADATA_INFO](ns-ksmedia-ksproperty_networkcameracontrol_metadata_info.md)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE](ne-ksmedia-ksproperty_networkcameracontrol_ntpinfo_type.md)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](ne-ksmedia-ksproperty_networkcameracontrol_property.md)
