@@ -5,7 +5,7 @@ title: EVT_HIDSPICX_NOTIFY_POWERDOWN
 ms.date: 06/14/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

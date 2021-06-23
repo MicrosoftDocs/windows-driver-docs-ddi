@@ -5,7 +5,7 @@ title: hidspicx
 ms.date: 06/14/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

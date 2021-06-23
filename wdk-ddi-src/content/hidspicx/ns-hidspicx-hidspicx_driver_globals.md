@@ -5,7 +5,7 @@ title: HIDSPICX_DRIVER_GLOBALS
 ms.date: 06/14/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
