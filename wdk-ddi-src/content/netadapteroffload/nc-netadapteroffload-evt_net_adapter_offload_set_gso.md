@@ -8,7 +8,7 @@ keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_GSO callback function"]
 req.header: netadapteroffload.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt: WIN10_NEXT
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 1.29
 req.umdf-ver: 

@@ -12,7 +12,7 @@ req.header: ieee8021qtypes.h
 req.include-header: netadaptercx.h
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: WIN10_NEXT
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

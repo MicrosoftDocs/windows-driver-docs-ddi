@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: WIN10_NEXT
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
