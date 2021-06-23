@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_20
+UID: NS:storport.__unnamed_struct_25
 title: BLOCK_DEVICE_TOKEN_DESCRIPTOR (storport.h)
 description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.
 old-location: storage\block_device_token_descriptor.htm
