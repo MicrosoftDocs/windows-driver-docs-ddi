@@ -46,3 +46,4 @@ dev_langs:
 This header is used by hid. For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
+- [HIDSPI class extension diagram](/windows-hardware/drivers/hid/architecture-and-overview-for-spi#hidspi-class-extension-hidspicx)
