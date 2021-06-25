@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN10_NEXT 
+req.target-min-winverclnt: Windows 11  
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The WDI_TYPE_PMK_NAME structure defines the PMKR0Name or PMKR1Name (802.11r).
+The **WDI_TYPE_PMK_NAME** structure defines the PMKR0Name or PMKR1Name (802.11r).
 
 ## -struct-fields
 
@@ -54,5 +54,8 @@ The PMKR0Name or PMKR1Name.
 
 ## -remarks
 
+The **WDI_TYPE_PMK_NAME** structure is a paramter of the [WDI_TLV_FT_PMKR0NAME](/windows-hardware/drivers/netcx/wdi-tlv-ft-pmkr0name) TLV.  
+
 ## -see-also
 
+[WDI_TLV_FT_PMKR0NAME](/windows-hardware/drivers/netcx/wdi-tlv-ft-pmkr0name)

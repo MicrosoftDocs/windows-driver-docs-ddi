@@ -1,7 +1,7 @@
 ---
 UID: NE:dot11wificxtypes._WDI_CIPHER_ALGORITHM
 tech.root: netvista
-title: WDI_CIPHER_ALGORITHM
+title: WDI_CIPHER_ALGORITHM (dot11wificxtypes.h)
 ms.date: 06/17/2021
 ms.topic: language-reference
 targetos: Windows
@@ -12,7 +12,7 @@ req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: WIN10_NEXT
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -123,5 +123,8 @@ Specifies the end of the range that is used to define proprietary authentication
 
 ## -remarks
 
+The **WDI_CIPHER_ALGORITHM** enum is a parameter of the [**WDI_TLV_UNICAST_ALGORITHM_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-unicast-algorithm-list) TLV.
+
 ## -see-also
 
+[**WDI_TLV_UNICAST_ALGORITHM_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-unicast-algorithm-list)

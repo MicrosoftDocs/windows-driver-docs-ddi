@@ -1,18 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_P2P_DISCOVER_TYPE
 tech.root: netvista
-title: WDI_P2P_DISCOVER_TYPE
-ms.date: 04/30/2021
+title: WDI_P2P_DISCOVER_TYPE (dot11wificxtypes.h)
+ms.date: 06/24/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_P2P_DISCOVER_TYPE enum defines the Wi-Fi Direct discovery types.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11 Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -37,34 +37,32 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_P2P_DISCOVER_TYPE enumeration defines the Wi-Fi Direct discovery types.
 
 ## -enum-fields
 
 ### -field WDI_P2P_DISCOVER_TYPE_SCAN_ONLY
 
-Reserved.
+Device discovery occurs only during the scan phase. Adapter should scan each channel at least once every 250 milliseconds.
 
 ### -field WDI_P2P_DISCOVER_TYPE_FIND_ONLY
 
-Reserved.
+Device discovery occurs only during the find phase.
 
 ### -field WDI_P2P_DISCOVER_TYPE_AUTO
 
-Reserved.
+Device discovery is determined by the port.
 
 ### -field WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS
 
-Reserved.
+Port must perform device discovery by scanning only Wi-Fi Direct social channels. In this setting, the adapter should scan each social channel at least once every 250 milliseconds.
 
 ### -field WDI_P2P_DISCOVER_TYPE_MAX_VALUE
 
-Reserved.
-
 ## -remarks
+
+The WDI_P2P_DISCOVER_TYPE enum is a parameter of the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
 
 ## -see-also
 
+[**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode)

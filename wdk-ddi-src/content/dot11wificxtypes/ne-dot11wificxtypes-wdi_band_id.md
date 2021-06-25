@@ -1,18 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_BAND_ID
 tech.root: netvista
-title: WDI_BAND_ID
-ms.date: 04/30/2021
+title: WDI_BAND_ID (dot11wificxtypes.h)
+ms.date: 06/22/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_BAND_ID enumeration is a UINT32 value that defines a band ID.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -37,48 +37,61 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_BAND_ID** enumeration is a UINT32 value that defines a band ID.
 
 ## -enum-fields
 
 ### -field WDI_BAND_ID_UNKNOWN
 
-Reserved.
+Value = 0
 
 ### -field WDI_BAND_ID_2400
 
-Reserved.
+2.4 GHz.
+
+Value = 1
 
 ### -field WDI_BAND_ID_5000
 
-Reserved.
+5 GHz.
+
+Value = 2
 
 ### -field WDI_BAND_ID_60000
 
-Reserved.
+60 GHz.
+
+Value = 3
 
 ### -field WDI_BAND_ID_900
 
-Reserved.
+900 GHz.
+
+Value = 4
 
 ### -field WDI_BAND_ID_6000
 
-Reserved.
+6 GHz.
+
+Value = 6
 
 ### -field WDI_BAND_ID_IHV_CUSTOM_START
 
-Reserved.
+Specifies the start of the range that is used to define a band ID reported by an IHV.
+
+Value = 0x80000000
 
 ### -field WDI_BAND_ID_IHV_CUSTOM_END
 
-Reserved.
+Specifies the end of the range that is used to define a band ID reported by an IHV.
+
+Value = 0x81000000
 
 ### -field WDI_BAND_ID_ANY
 
-Reserved.
+All bands. 
+
+Value = 0xFFFFFFFF
 
 ## -remarks
 

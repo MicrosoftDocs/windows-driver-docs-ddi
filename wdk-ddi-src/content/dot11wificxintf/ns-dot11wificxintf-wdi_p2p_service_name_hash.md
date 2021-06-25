@@ -1,11 +1,11 @@
 ---
 UID: NS:dot11wificxintf._WDI_P2P_SERVICE_NAME_HASH
 tech.root: netvista
-title: WDI_P2P_SERVICE_NAME_HASH
-ms.date: 04/30/2021
+title: WDI_P2P_SERVICE_NAME_HASH (dot11wificxintf.h)
+ms.date: 06/24/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_P2P_SERVICE_NAME_HASH struct defines a hash of a WFDS Service Name.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_P2P_SERVICE_NAME_HASH, *PWDI_P2P_SERVICE_NAME_HASH
@@ -44,18 +44,18 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_P2P_SERVICE_NAME_HASH** structure defines a hash of a WFDS Service Name.
 
 ## -struct-fields
 
 ### -field Hash
 
-Reserved.
+Hash of a WFDS Service Name. This may also be a hash of an ASP2 Service Type or ASP2 Service Type and Instance Name.
 
 ## -remarks
 
+The **WDI_P2P_SERVICE_NAME_HASH** structure is a parameter of the [**WDI_TLV_P2P_SERVICE_NAME_HASH**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-service-name-hash) TLV.
+
 ## -see-also
 
+[**WDI_TLV_P2P_SERVICE_NAME_HASH**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-service-name-hash)

@@ -12,7 +12,7 @@ req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: WIN10_NEXT
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -75,5 +75,8 @@ Reserved.
 
 ## -remarks
 
+The **WDI_WPS_CONFIGURATION_METHOD** enum is a parameter of the [WDI_TLV_P2P_CONFIG_METHODS](/windows-hardware/drivers/netcx/wdi-tlv-p2p-config-methods) TLV. 
+
 ## -see-also
 
+[WDI_TLV_P2P_CONFIG_METHODS](/windows-hardware/drivers/netcx/wdi-tlv-p2p-config-methods)
