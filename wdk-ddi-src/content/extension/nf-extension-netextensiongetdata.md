@@ -63,7 +63,7 @@ Returns a pointer to the structure that holds the extension information for this
 Client drivers should not call this function directly. Instead, they should call the appropriate wrapper function for the type of extension they are getting:
 
 - For checksum offload information, the client driver calls [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md).
-- For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md).
+- For Generic Segmentation Offload (GSO) information, the client driver calls [**NetExtensionGetPacketLso**](../gso/nf-gso-netextensiongetpacketgso.md).
 - For Receive Segment Coalescence (RSC) offload information, the client driver calls [**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md).
 
 ## -see-aextension
@@ -74,6 +74,6 @@ Client drivers should not call this function directly. Instead, they should call
 
 [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md)
 
-[**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md)
+[**NetExtensionGetPacketGso**](../gso/nf-gso-netextensiongetpacketgso.md)
 
 [**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md)

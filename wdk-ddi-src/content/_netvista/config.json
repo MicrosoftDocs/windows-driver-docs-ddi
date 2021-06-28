@@ -19,8 +19,6 @@
     "knetpwrdepbroker.h",
     "logicaladdress.h",
     "logicaladdresstypes.h",
-    "lso.h",
-    "lsotypes.h",
     "mbbcx.h",
     "mbbcxtypes.h",
     "mdl.h",
