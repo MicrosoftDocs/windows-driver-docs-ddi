@@ -9,7 +9,7 @@ ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022. Supported in NDIS 6.82 and later.
 req.kmdf-ver: 
 req.umdf-ver: 
