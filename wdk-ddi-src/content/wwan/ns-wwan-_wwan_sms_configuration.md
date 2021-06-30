@@ -57,7 +57,7 @@ The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB 
 
 ### -field ScAddress
 
-A NULL-terminated string with a maximum length of 15 digits that represents the Service Center
+A NULL-terminated string with a maximum length of 20 digits that represents the Service Center
      (SC) address. This member is used by all text messages for sending and receiving. For PDU-style SMS
      messages, this information is used if it is not available in PDU data.
      
