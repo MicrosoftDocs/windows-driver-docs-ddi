@@ -1,11 +1,11 @@
 ---
 UID: NS:dot11wificxtypes._WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 tech.root: netvista
-title: WDI_ETHERTYPE_ENCAPSULATION_ENTRY
-ms.date: 04/30/2021
+title: WDI_ETHERTYPE_ENCAPSULATION_ENTRY (dot11wificxtypes.h)
+ms.date: 06/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_ETHERTYPE_ENCAPSULATION_ENTRY struct defines an EtherType encapsulation entry.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,22 +44,24 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The 
+  WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure defines an EtherType encapsulation entry.
 
 ## -struct-fields
 
 ### -field EtherType
 
-Reserved.
+The value of the IEEE EtherType in big-endian byte order.
 
 ### -field EncapsulationType
 
-Reserved.
+The type of encapsulation to be performed on the specified EtherType.
 
 ## -remarks
 
+The **WDI_ETHERTYPE_ENCAPSULATION_ENTRY** structure is used in the payload buffer of the [**WDI_TLV_ETHERTYPE_ENCAP_TABLE**](/windows-hardware/drivers/netcx/wdi-tlv-ethertype-encap-table) TLV.
+
+
 ## -see-also
 
+[**WDI_TLV_ETHERTYPE_ENCAP_TABLE**](/windows-hardware/drivers/netcx/wdi-tlv-ethertype-encap-table)

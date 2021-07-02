@@ -54,10 +54,7 @@ A Wi-Fi MAC address.
 
 ## -remarks
 
-The **WDI_MAC_ADDRESS** structure is a parameter of the [WDI_TLV_BSSID](/windows-hardware/drivers/netcx/wdi-tlv-bssid) and [WDI_TLV_HESSID](/windows-hardware/drivers/netcx/wdi-tlv-hessid) TLVs.
 
 ## -see-also
 
-[WDI_TLV_BSSID](/windows-hardware/drivers/netcx/wdi-tlv-bssid)
 
-[WDI_TLV_HESSID](/windows-hardware/drivers/netcx/wdi-tlv-hessid)

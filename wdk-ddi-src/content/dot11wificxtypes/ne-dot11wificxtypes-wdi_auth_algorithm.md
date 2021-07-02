@@ -103,8 +103,12 @@ Specifies the end of the range that specifies proprietary authentication algorit
 
 ## -remarks
 
-The **WDI_AUTH_ALGORITHM** enum is a parameter of the [**WDI_TLV_UNICAST_ALGORITHM_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-unicast-algorithm-list) TLV.
+The **WDI_AUTH_ALGORITHM** enum is used in the payload buffers of the [**WDI_TLV_UNICAST_ALGORITHM_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-unicast-algorithm-list), [**WDI_TLV_AUTH_ALGO_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-auth-algo-list), and [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLVs.
 
 ## -see-also
 
 [**WDI_TLV_UNICAST_ALGORITHM_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-unicast-algorithm-list)
+
+[**WDI_TLV_AUTH_ALGO_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-auth-algo-list)
+
+[**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)

@@ -75,7 +75,7 @@ Reserved.
 
 ## -remarks
 
-The **WDI_WPS_CONFIGURATION_METHOD** enum is a parameter of the [WDI_TLV_P2P_CONFIG_METHODS](/windows-hardware/drivers/netcx/wdi-tlv-p2p-config-methods) TLV. 
+The **WDI_WPS_CONFIGURATION_METHOD** enum is used in the payload buffer of the [WDI_TLV_P2P_CONFIG_METHODS](/windows-hardware/drivers/netcx/wdi-tlv-p2p-config-methods) TLV. 
 
 ## -see-also
 

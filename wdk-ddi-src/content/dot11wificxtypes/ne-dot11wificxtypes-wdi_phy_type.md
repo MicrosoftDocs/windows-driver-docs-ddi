@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The WDI_PHY_TYPE enumeration defines the PHY types.
+The **WDI_PHY_TYPE** enumeration defines the PHY types.
 
 ## -enum-fields
 
@@ -100,4 +100,12 @@ Specifies the start of the range that is used to define proprietary PHY types th
 ### -field WDI_PHY_TYPE_IHV_END
 
 Specifies the end of the range that is used to define proprietary PHY types that are developed by an IHV.
+
+## -remarks
+
+The **WDI_PHY_TYPE** enum is used in the payload buffer of the [**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) TLV.
+
+## -see-also
+
+[**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) 
 

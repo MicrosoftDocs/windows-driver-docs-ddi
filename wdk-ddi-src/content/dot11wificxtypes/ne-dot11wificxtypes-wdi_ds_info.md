@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_DS_INFO
 tech.root: netvista
-title: WDI_DS_INFO
-ms.date: 04/30/2021
+title: WDI_DS_INFO (dot11wificxtypes.h)
+ms.date: 06/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_DS_INFO enum defines values that specify whether the port is connected to the same DS that it was previously associated to.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,30 +37,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_DS_INFO** enumeration defines values that specify whether the port is connected to the same DS that it was previously associated to.
 
 ## -enum-fields
 
 ### -field WDI_DS_CHANGED
 
-Reserved.
+New DS.
 
 ### -field WDI_DS_UNCHANGED
 
-Reserved.
+Same DS as previously associated.
 
 ### -field WDI_DS_UNKNOWN
 
-Reserved.
+Unable to determine if the DS has changed.
 
 ### -field WDI_DS_MAX
 
-Reserved.
+
 
 ## -remarks
 
+The **WDI_AUTH_ALGORITHM** enum is used in the payload buffer of the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
+
 ## -see-also
 
+[**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)

@@ -57,7 +57,7 @@ Adapter determines scan type during device discovery. It should prefer using Act
 
 ## -remarks
 
-The WDI_P2P_SCAN_TYPE enumeration is a parameter of the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
+The WDI_P2P_SCAN_TYPE enumeration is used in the payload buffer of the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
 
 ## -see-also
 

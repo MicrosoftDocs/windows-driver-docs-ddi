@@ -61,7 +61,7 @@ Port must perform device discovery by scanning only Wi-Fi Direct social channels
 
 ## -remarks
 
-The WDI_P2P_DISCOVER_TYPE enum is a parameter of the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
+The WDI_P2P_DISCOVER_TYPE enum is used in the payload buffer of the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
 
 ## -see-also
 

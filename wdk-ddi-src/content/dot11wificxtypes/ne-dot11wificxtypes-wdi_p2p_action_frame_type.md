@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_P2P_ACTION_FRAME_TYPE
 tech.root: netvista
-title: WDI_P2P_ACTION_FRAME_TYPE
-ms.date: 04/30/2021
+title: WDI_P2P_ACTION_FRAME_TYPE (dot11wificxtypes.h)
+ms.date: 07/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_P2P_ACTION_FRAME_TYPE enum defines the Wi-Fi Direct action frame types.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,46 +37,46 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_P2P_ACTION_FRAME_TYPE** enumeration defines the Wi-Fi Direct action frame types.
 
 ## -enum-fields
 
 ### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_REQUEST
 
-Reserved.
+Wi-Fi Direct Group Owner Negotiation Request.
 
 ### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_RESPONSE
 
-Reserved.
+Wi-Fi Direct Group Owner Negotiation Response.
 
 ### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_CONFIRM
 
-Reserved.
+Wi-Fi Direct Group Owner Negotiation Confirmation.
 
 ### -field WDI_P2P_ACTION_FRAME_INVITATION_REQUEST
 
-Reserved.
+Wi-Fi Direct Invitation Request.
 
 ### -field WDI_P2P_ACTION_FRAME_INVITATION_RESPONSE
 
-Reserved.
+Wi-Fi Direct Invitation Response.
 
 ### -field WDI_P2P_ACTION_FRAME_PROVISION_DISCOVERY_REQUEST
 
-Reserved.
+Wi-Fi Direct Provision Discovery Request.
 
 ### -field WDI_P2P_ACTION_FRAME_PROVISION_DISCOVERY_RESPONSE
 
-Reserved.
+Wi-Fi Direct Provision Discovery Response.
 
 ### -field WDI_P2P_ACTION_FRAME_MAX_VALUE
 
-Reserved.
-
 ## -remarks
+
+The **WDI_P2P_ACTION_FRAME_TYPE** enum is used in the payload buffer of the [**WDI_TLV_P2P_SEND_ACTION_REQUEST_FRAME_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-send-action-request-frame-parameters) and [**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters.md) TLVs.
 
 ## -see-also
 
+[**WDI_TLV_P2P_SEND_ACTION_REQUEST_FRAME_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-send-action-request-frame-parameters)
+
+[**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters.md)

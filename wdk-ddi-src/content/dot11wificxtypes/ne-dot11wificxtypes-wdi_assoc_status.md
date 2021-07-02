@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The WDI_ASSOC_STATUS enumeration defines the association status values.
+The **WDI_ASSOC_STATUS** enumeration defines the association status values.
 
 ## -enum-fields
 
@@ -167,5 +167,9 @@ Reserved.
 
 ## -remarks
 
-## -see-also
+The **WDI_ASSOC_STATUS** structure is used in the payload buffers of the following TLVS:
+* [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)
+* [**WDI_TLV_CONNECTION_SETTINGS**](/windows-hardware/drivers/netcx/wdi-tlv-connection-settings) 
+* [**WDI_TLV_ROAMING_NEEDED_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-roaming-needed-parameters)
+* [**WDI_TLV_DISASSOCIATION_INDICATION_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-disassociation-indication-parameters)
 
