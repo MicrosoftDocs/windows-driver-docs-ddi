@@ -123,7 +123,6 @@ Specifies the end of the range that is used to define proprietary authentication
 
 ## -remarks
 
-The **WDI_CIPHER_ALGORITHM** enum is used in the payload buffers of the [**WDI_TLV_UNICAST_ALGORITHM_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-unicast-algorithm-list), [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters), and [**WDI_TLV_MULTICAST_CIPHER_ALGO_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-multicast-cipher-algo-list) TLVs.
 
 ## -see-also
 
@@ -132,3 +131,5 @@ The **WDI_CIPHER_ALGORITHM** enum is used in the payload buffers of the [**WDI_T
 [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)
 
 [**WDI_TLV_MULTICAST_CIPHER_ALGO_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-multicast-cipher-algo-list)
+
+[**WDI_TLV_ASSOCIATION_RESPONSE_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-response-result-parameters)
