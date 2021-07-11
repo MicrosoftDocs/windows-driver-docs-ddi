@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_6
+UID: NS:ufs.__unnamed_struct_8
 title: UFS_POWER_DESCRIPTOR (ufs.h)
 description: UFS_POWER_DESCRIPTOR contains information about the power capabilities and power states of the device.
 old-location: storage\ufs_power_descriptor.htm

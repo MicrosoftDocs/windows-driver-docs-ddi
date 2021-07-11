@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_8
+UID: NS:ufs.__unnamed_struct_10
 title: UFS_DEVICE_HEALTH_DESCRIPTOR (ufs.h)
 description: The UFS_DEVICE_HEALTH_DESCRIPTOR structure describes the health of a device.
 old-location: storage\ufs_device_health_descriptor.htm
