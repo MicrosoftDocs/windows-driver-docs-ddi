@@ -58,7 +58,7 @@ Specifies the size of the array pointed to by <b>Interfaces</b>.
 
 ### -field Interfaces
 
-An array of <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structures specifying the interfaces supported by this pin type.
+An array of <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> structures specifying the interfaces supported by this pin type.
 
 ### -field MediumsCount
 
@@ -66,7 +66,7 @@ Specifies the number of elements in the array pointed to by <b>Mediums</b>.
 
 ### -field Mediums
 
-An array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures specifying the mediums supported by this pin type.
+An array of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures specifying the mediums supported by this pin type.
 
 ### -field DataRangesCount
 
@@ -114,7 +114,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
-<a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+<a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a>
 
 
 

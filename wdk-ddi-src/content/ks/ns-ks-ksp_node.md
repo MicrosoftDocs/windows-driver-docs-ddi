@@ -54,7 +54,7 @@ Kernel streaming clients use the KSP_NODE structure to specify the property and 
 
 ### -field Property
 
-Specifies a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure.
+Specifies a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure.
 
 ### -field NodeId
 
@@ -70,5 +70,5 @@ Reserved for system use. Should be set to zero.
 
 
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 

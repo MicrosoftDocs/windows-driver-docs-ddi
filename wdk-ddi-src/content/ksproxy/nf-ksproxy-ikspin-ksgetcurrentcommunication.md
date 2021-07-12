@@ -114,12 +114,12 @@ The pin cannot connect to other pins, but instances may be created on it to rece
 ### -param Interface 
 
 [out, optional]
-Pointer to a variable that receives a <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure that describes the current interface for a pin.
+Pointer to a variable that receives a <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> structure that describes the current interface for a pin.
 
 ### -param Medium 
 
 [out, optional]
-Pointer to a variable that receives a <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure that describes the current medium for a pin.
+Pointer to a variable that receives a <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structure that describes the current medium for a pin.
 
 ## -returns
 
@@ -133,11 +133,11 @@ The current communication direction, interface, and medium of a pin are a subset
 
 ## -see-also
 
-<a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
+<a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a>
 
 
 
-<a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+<a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a>
 
 
 

@@ -54,7 +54,7 @@ The KSPROPERTY_DESCRIPTION structure specifies the size and type of values conta
 
 ### -field AccessFlags
 
-Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>.
 
 ### -field DescriptionSize
 

@@ -52,12 +52,12 @@ The <b>KsCreateSinkPinHandle</b> method creates a pin handle and stores it in th
 ### -param Interface 
 
 [in]
-A type reference to a <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure for the interface that <b>KsCreateSinkPinHandle</b> negotiated for the created pin.
+A type reference to a <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> structure for the interface that <b>KsCreateSinkPinHandle</b> negotiated for the created pin.
 
 ### -param Medium 
 
 [in]
-A type reference to a <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure for the medium that <b>KsCreateSinkPinHandle</b> negotiated for the created pin.
+A type reference to a <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structure for the medium that <b>KsCreateSinkPinHandle</b> negotiated for the created pin.
 
 ## -returns
 
@@ -77,9 +77,9 @@ This method is for proxy use and is not recommended for application use.
 
 
 
-<a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
+<a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a>
 
 
 
-<a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+<a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a>
 

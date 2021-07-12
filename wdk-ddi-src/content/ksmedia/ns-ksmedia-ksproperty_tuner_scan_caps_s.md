@@ -54,7 +54,7 @@ The KSPROPERTY_TUNER_SCAN_CAPS_S structure describes the hardware scanning capab
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field fSupportsHardwareAssistedScanning
 
@@ -76,7 +76,7 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

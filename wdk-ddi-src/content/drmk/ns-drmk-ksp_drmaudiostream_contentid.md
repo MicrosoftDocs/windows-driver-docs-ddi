@@ -54,7 +54,7 @@ The KSP_DRMAUDIOSTREAM_CONTENTID structure specifies the property, request type,
 
 ### -field Property
 
-Specifies the property to get or set. This member is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property to get or set. This member is a structure of type <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>.
 
 ### -field Context
 
@@ -122,7 +122,7 @@ The structure contains function pointers to the DRM library functions in order t
 
 
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

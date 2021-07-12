@@ -338,7 +338,7 @@ Not used.  A member of an unnamed union used to force proper alignment on the un
 
 ## -remarks
 
-The <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>, <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>, and <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical. 
+The <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>, <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>, and <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical. 
 
 The use of an ID within the set allows one to perform a single large compare for a set identifier, then smaller quick compares (for example, by using a switch statement for identifiers within a set). For example, a <i>property set</i> is referred to by a unique GUID identifier, and properties within that set are referred to by the short ID.
 
@@ -356,7 +356,7 @@ The format of the serialization buffer is a <a href="/windows-hardware/drivers/d
 
 KSPROPERTY_TYPE_SERIALIZERAW and KSPROPERTY_TYPE_UNSERIALIZERAW are supported if a property item handler exists. The <b>KsPropertyHandler</b> function invokes the handler provided by the minidriver. The buffer size required for serialization can also be queried by passing a zero-length buffer to a serialize raw request. Because handlers are attached to property items rather than the property set, a specific item within the property set must be specified in the <b>Property</b> parameter. This handler may deal with multiple properties within the set.
 
-The <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>, <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>, and KSPROPERTY structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical.
+The <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>, <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>, and KSPROPERTY structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical.
 
 Microsoft provides several system-defined property set GUIDs. Minidrivers specify one of these GUIDs in the <b>Set</b> member. Kernel streaming property sets typically begin with either a <i>KSPROPSETID</i> or a <i>PROPSETID</i> prefix. Kernel streaming property sets are defined in <i>ks.h</i>, <i>ksmedia.h</i>, <i>bdamedia.h</i>, and possibly other header files.
 
@@ -380,7 +380,7 @@ The medium is also cached by kernel streaming to speed up the search for a possi
 
 An example of use of this structure can be found in a tuner sample, in which KSPIN_MEDIUM represents unique connections between tuners, crossbars, and other tuner components.
 
-The <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>, <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>, <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> and KSDEGRADE structures are aliases for the <b>KSIDENTIFIER</b> structure. As such, their definitions are identical.
+The <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>, <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>, <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> and KSDEGRADE structures are aliases for the <b>KSIDENTIFIER</b> structure. As such, their definitions are identical.
 
 The <b>Flags</b> member can contain different values based on the type of signal degradation that the client employs. See <a href="/windows-hardware/drivers/stream/quality-management">Quality Management</a>. for more details on different strategies for solving QM problems by reducing signal quality.
 
@@ -388,13 +388,13 @@ Because <b>Flags</b> contains a ULONG value, multiple Skip requests may be neede
 
 ## -see-also
 
-<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+<a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>
 
 
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 
 
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 

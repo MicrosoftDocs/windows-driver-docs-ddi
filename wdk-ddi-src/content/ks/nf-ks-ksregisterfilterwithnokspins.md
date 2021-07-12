@@ -73,7 +73,7 @@ A pointer to the first element of an array of Boolean values indicating pin dire
 ### -param MediumList 
 
 [in]
-A pointer to the first element of an array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
+A pointer to the first element of an array of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
 
 ### -param CategoryList 
 

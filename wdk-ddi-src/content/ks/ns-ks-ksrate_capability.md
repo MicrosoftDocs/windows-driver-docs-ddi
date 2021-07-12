@@ -54,7 +54,7 @@ The client uses the KSRATE_CAPABILITY structure in a <a href="/windows-hardware/
 
 ### -field Property
 
-A structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> that specifies the property identifier.
+A structure of type <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> that specifies the property identifier.
 
 ### -field Rate
 

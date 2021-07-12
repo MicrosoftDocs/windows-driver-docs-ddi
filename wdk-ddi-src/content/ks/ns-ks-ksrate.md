@@ -62,7 +62,7 @@ Specifies the duration of the rate in presentation time units.
 
 ### -field Interface
 
-A structure of type <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
+A structure of type <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
 
 ### -field Rate
 

@@ -54,7 +54,7 @@ The VRAM_SURFACE_INFO_PROPERTY_S structure describes property items in the KSPRO
 
 ### -field Property
 
-This member specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+This member specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field pVramSurfaceInfo
 
@@ -62,7 +62,7 @@ This member specifies a pointer to a structure of type <a href="/windows-hardwar
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

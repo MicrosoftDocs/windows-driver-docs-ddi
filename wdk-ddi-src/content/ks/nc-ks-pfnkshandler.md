@@ -57,7 +57,7 @@ Specifies the IRP that contains the method or property request.
 ### -param Request 
 
 [in]
-Specifies an aligned copy of the method parameter. This is typically a pointer to a [KSMETHOD](/previous-versions/ff563398(v=vs.85)) or [KSPROPERTY](/previous-versions/ff564262(v=vs.85)) structure.
+Specifies an aligned copy of the method parameter. This is typically a pointer to a [KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure) or [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure.
 
 ### -param Data 
 
@@ -112,7 +112,7 @@ The handler declaration used for *KStrMethodHandler* and *KStrSupportHandler* is
 
 ## -see-also
 
-[KSMETHOD](/previous-versions/ff563398(v=vs.85))
+[KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
 
 [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
 

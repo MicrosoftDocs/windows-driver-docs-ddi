@@ -83,7 +83,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
-<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+<a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>
 
 
 

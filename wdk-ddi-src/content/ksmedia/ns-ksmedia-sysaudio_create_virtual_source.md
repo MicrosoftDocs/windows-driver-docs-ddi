@@ -54,7 +54,7 @@ The SYSAUDIO_CREATE_VIRTUAL_SOURCE structure is used to create a mixer-line virt
 
 ### -field Property
 
-Specifies the property. This parameter is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property. This parameter is a structure of type <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>.
 
 ### -field PinCategory
 
@@ -70,7 +70,7 @@ This structure is used by the <a href="/windows-hardware/drivers/audio/kspropert
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

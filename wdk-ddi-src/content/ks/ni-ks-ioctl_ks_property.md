@@ -79,11 +79,11 @@ For more information about input and output buffers and their sizes, see <a href
 
 Filters and pins support property sets using the <b>IOCTL_KS_PROPERTY</b> device I/O control. Although this IOCTL is defined with the METHOD_NEITHER flag, the property data is passed as the output buffer to the IOCTL and probed for read access. The <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a> function handles properties requested through <b>IOCTL_KS_PROPERTY</b>.
 
-For a list of valid flags and corresponding descriptions, see the reference page for the <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure.
+For a list of valid flags and corresponding descriptions, see the reference page for the <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure.
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

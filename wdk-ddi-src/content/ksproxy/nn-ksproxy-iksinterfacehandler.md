@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **IKsInterfaceHandler** interface provides methods that marshal samples into the kernel based on the [KSPIN_INTERFACE](/previous-versions/ff563537(v=vs.85)) structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
+The **IKsInterfaceHandler** interface provides methods that marshal samples into the kernel based on the [KSPIN_INTERFACE](/windows-hardware/drivers/stream/kspin-interface-structure) structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
 
 ## -inheritance
 
@@ -55,7 +55,7 @@ In order to keep the proxy neutral with regard to the interface used to stream d
 
 Each interface handler can marshal media samples using its own method. The standard interface handler that KS proxy implements uses IOCTL_KS_WRITE_STREAM for the receive operation and IOCTL_KS_READ_STREAM for the send operation, but a custom interface handler can use some other method.
 
-When a pin is connected, the proxy uses the GUID in the **Set** member of the [KSPIN_INTERFACE](/previous-versions/ff563537(v=vs.85)) structure to determine what interface handler to load. The interface handler is registered as a COM server under that GUID class. The interface handler must handle all variations of the interface within the interface set. Bridge pins are not expected to stream data, and interface handlers are not loaded for them.
+When a pin is connected, the proxy uses the GUID in the **Set** member of the [KSPIN_INTERFACE](/windows-hardware/drivers/stream/kspin-interface-structure) structure to determine what interface handler to load. The interface handler is registered as a COM server under that GUID class. The interface handler must handle all variations of the interface within the interface set. Bridge pins are not expected to stream data, and interface handlers are not loaded for them.
 
 On an interface handler create request through [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), the server is always presented an outer **IUnknown** with which to create the COM object. This **IUnknown** is an interface on the pin object that is loading this interface handler. The **IUnknown** interface pointer can be used to query information or interfaces, such as the **IKsControl** interface, from the pin, although the kernel-mode pin may not have been created at the time the interface handler is loaded. No reference should be left on the outer object through acquiring any interfaces, as it will result in a circular reference count. Using the interfaces without a reference count is acceptable, because the outer object owns the handler and, by definition, is destroyed when the outer object's reference count reaches zero.
 
@@ -65,4 +65,4 @@ On an interface handler create request through [**CoCreateInstance**](/windows/w
 
 [IKsControl](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
 
-[KSPIN_INTERFACE](/previous-versions/ff563537(v=vs.85))
+[KSPIN_INTERFACE](/windows-hardware/drivers/stream/kspin-interface-structure)

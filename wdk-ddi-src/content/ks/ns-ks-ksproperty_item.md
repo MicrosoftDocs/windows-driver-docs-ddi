@@ -66,7 +66,7 @@ Set to <b>TRUE</b> if this property supports get requests, <b>FALSE</b> if it do
 
 ### -field MinProperty
 
-Specifies the minimum buffer length to hold the property identifier. This must be at least <b>sizeof</b>(<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>).
+Specifies the minimum buffer length to hold the property identifier. This must be at least <b>sizeof</b>(<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>).
 
 ### -field MinData
 
@@ -90,7 +90,7 @@ Specifies the number of entries in the array pointed to by the <b>Relations</b> 
 
 ### -field Relations
 
-Points to an array of <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structures representing properties related to this one. Two properties are considered related if changing one property may affect the value of the other property. The <b>Flags</b> member of each entry is unused.
+Points to an array of <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structures representing properties related to this one. Two properties are considered related if changing one property may affect the value of the other property. The <b>Flags</b> member of each entry is unused.
 
 ### -field SupportHandler
 
@@ -98,7 +98,7 @@ Provide this member only if implementing your own format for raw serialization o
 
 ### -field SerializedSize
 
-Specifies the size of the property when serialized in a KSPROPERTY_TYPE_SERIALIZESET request. This should be zero if the property cannot be serialized. See <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> for more information.
+Specifies the size of the property when serialized in a KSPROPERTY_TYPE_SERIALIZESET request. This should be zero if the property cannot be serialized. See <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> for more information.
 
 ## -remarks
 
@@ -180,7 +180,7 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-propertie
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

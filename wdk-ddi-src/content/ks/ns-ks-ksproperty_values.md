@@ -54,7 +54,7 @@ The KSPROPERTY_VALUES structure describes the type and acceptable default values
 
 ### -field PropTypeSet
 
-Specifies a KSIDENTIFIER structure (see [KSEVENT](/previous-versions/ff561744(v=vs.85))) that identifies the data type of the property. The **Set** member of a KSIDENTIFIER structure indicates the set of value types supported, and the **Id** member of the same structure identifies the type within the set.
+Specifies a KSIDENTIFIER structure (see [KSEVENT](/windows-hardware/drivers/stream/ksevent-structure)) that identifies the data type of the property. The **Set** member of a KSIDENTIFIER structure indicates the set of value types supported, and the **Id** member of the same structure identifies the type within the set.
 
 ### -field MembersListCount
 
@@ -92,7 +92,7 @@ For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-pr
 
 ## -see-also
 
-[KSEVENT](/previous-versions/ff561744(v=vs.85))
+[KSEVENT](/windows-hardware/drivers/stream/ksevent-structure)
 
 [KSPROPERTY_DESCRIPTION](./ns-ks-ksproperty_description.md)
 

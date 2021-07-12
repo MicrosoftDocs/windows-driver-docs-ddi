@@ -55,7 +55,7 @@ The <b>BdaMethodCreateTopology</b> function creates a template topology between 
 ### -param pKSMethod 
 
 [in]
-Points to a <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes the method and request type of a method request.
+Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 ### -param pvIgnored 
 
@@ -83,7 +83,7 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
 
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 
 
 

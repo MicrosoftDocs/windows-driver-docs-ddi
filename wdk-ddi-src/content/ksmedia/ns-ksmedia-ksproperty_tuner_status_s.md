@@ -54,7 +54,7 @@ The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning opera
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field CurrentFrequency
 
@@ -172,7 +172,7 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

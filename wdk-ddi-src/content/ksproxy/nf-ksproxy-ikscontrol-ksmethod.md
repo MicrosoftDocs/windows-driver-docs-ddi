@@ -52,7 +52,7 @@ The <b>KsMethod</b> method sends a method to a KS object, along with any other d
 ### -param Method 
 
 [in]
-Pointer to a <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes a method and the request type of the method request.
+Pointer to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes a method and the request type of the method request.
 
 ### -param MethodLength 
 
@@ -86,5 +86,5 @@ To determine the buffer size that is required for a specific method request, you
 
 ## -see-also
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 
