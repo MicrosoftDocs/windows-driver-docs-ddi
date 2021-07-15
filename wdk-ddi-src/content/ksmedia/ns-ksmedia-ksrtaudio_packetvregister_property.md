@@ -39,7 +39,6 @@ api_name:
 
 # KSRTAUDIO_PACKETVREGISTER_PROPERTY structure
 
-
 ## -description
 
 The **KSRTAUDIO_PACKETVREGISTER_PROPERTY** structure contains information about the **KSPROPERTY_RTAUDIO_PACKETVREGISTER** property.
@@ -48,7 +47,7 @@ The **KSRTAUDIO_PACKETVREGISTER_PROPERTY** structure contains information about 
 
 ### -field Property
 
-A KSIDENTIFIER structure that contains the property's set, ID, and flags.
+A **KSIDENTIFIER** structure that contains the property's set, ID, and flags.
 
 ### -field BaseAddress
 
@@ -58,5 +57,4 @@ A PVOID pointer to the property's base address.
 
 ## -see-also
 
-[KSPROPSETID_RTAudio](/windows-hardware/drivers/audio/kspropsetid-rtaudio)
-
+[**KSPROPSETID_RTAudio**](/windows-hardware/drivers/audio/kspropsetid-rtaudio)

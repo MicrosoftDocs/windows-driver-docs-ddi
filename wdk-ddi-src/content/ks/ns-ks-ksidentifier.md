@@ -4,7 +4,7 @@ title: KSIDENTIFIER (ks.h)
 description: The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 old-location: stream\ksidentifier.htm
 tech.root: stream
-ms.date: 07/12/2021
+ms.date: 07/15/2021
 keywords: ["KSIDENTIFIER structure"]
 ms.keywords: "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
 req.header: ks.h
@@ -49,8 +49,7 @@ api_name:
 
 The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 
-> [!NOTE]
-> The [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure), [**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure), [**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure), [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure), and [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) typedefs are aliases for the **KSIDENTIFIER** structure. As such, their definitions are identical.
+The [**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure), [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure), [**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure), [**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure), [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure), and [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) typedefs are aliases for the **KSIDENTIFIER** structure. As such, their definitions are identical. See the individual typedef topics for specifics on usage.
 
 ## -remarks
 
@@ -58,15 +57,19 @@ The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related s
 
 `Set`
 
-Specifies a GUID that identifies a kernel streaming property, event, method, communication bus set. The KSPIN_INTERFACE structure describes a specific interface within an interface set. The KSDEGRADE structure contains specifics of degradation strategies. For more information see **Remarks**
+Specifies a GUID that identifies a kernel streaming property, event, method, communication bus set. The **KSPIN_INTERFACE** structure describes a specific interface within an interface set. The **KSDEGRADE** structure contains specifics of degradation strategies. For more information, see the **Remarks** section below.
 
 `Id`
 
-Specifies the member of the property, event, method set. For KSPIN_MEDIUM, identifies a unique connection on the bus. For KSPIN_INTERFACE, specifies the ID number of this particular interface within the interface set. For KSDEGRADE, specifies the set-specific identifier for an item within the set.
+Specifies the member of the property, event, method set. For **KSPIN_MEDIUM**, identifies a unique connection on the bus. For **KSPIN_INTERFACE**, specifies the ID number of this particular interface within the interface set. For **KSDEGRADE**, specifies the set-specific identifier for an item within the set.
 
 `Flags`
 
 Specifies the request type. If you are writing a stream class minidriver, also see [KSPROPERTY_ITEM](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item) for class-specific flag information. **Flags** should be one of the values listed in the following table. Some of the flags may be combined using a bitwise OR operation.
+
+See the [**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure), [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure), [**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure), [**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure), [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure), and [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) typedef topics for specifics on usage.
+
+Specifies the **KSPROPERTY** request type.
 
 | KSPROPERTY Flag Value | Description |
 |--|--|
@@ -77,13 +80,13 @@ Specifies the request type. If you are writing a stream class minidriver, also s
 | KSPROPERTY_TYPE_DEFAULTVALUES | Queries the default values for the specified property item. Returns a structure of type [KSPROPERTY_VALUES](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values). |
 | KSPROPERTY_TYPE_RELATIONS | Queries all properties with dependencies on the current setting of this property. Specifies that the property relations list is to be returned, or the amount of buffer room required by such a list if the return buffer is the size of a ULONG. Each element is on FILE_QUAD_ALIGNMENT, preceded by a KSMULTIPLE_ITEM structure. This is not valid when querying support of the property set in general. All property sets must support this flag. |
 | KSPROPERTY_TYPE_SERIALIZESET | Serialize the property set, using the standard KSPROPERTY_SERIALHDR and KSPROPERTY_SERIAL structures. |
-| KSPROPERTY_TYPE_UNSERIALIZESET | Unserialize the property set, using the standard KSPROPERTY_SERIALHDR and KSPROPERTY_SERIAL structures. |
+| KSPROPERTY_TYPE_UNSERIALIZESET | Unserialize the property set, using the standard **KSPROPERTY_SERIALHDR** and **KSPROPERTY_SERIAL** structures. |
 | KSPROPERTY_TYPE_SERIALIZESIZE | Returns a ULONG specifying size of the property data when serialized as part of a KSPROPERTY_TYPE_SERIALIZESET request. A size of zero indicates that a property does not need to be serialized. |
 | KSPROPERTY_TYPE_SERIALIZERAW | Specifies that the properties in this set should be serialized by the property set support handler, if one exists. If not, the call fails. The serialization format is private. This operation must be the inverse of KSPROPERTY_TYPE_UNSERIALIZERAW. |
 | KSPROPERTY_TYPE_TOPOLOGY | Property passed is of type [KSP_NODE](/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node), where **NodeId** indicates the numeric ID of the topology node. Do not set this flag on its own; instead, OR it with other flags in this table. |
 | KSPROPERTY_TYPE_UNSERIALIZERAW | Specifies that the provided buffer contains a group of properties that belong to this set that should be unserialized by the property set support handler, if one exists. If not, the call fails. The serialization format is private. This operation must be the inverse of KSPROPERTY_TYPE_SERIALIZERAW. |
 
-Specifies the request type. This flag should be one of the values listed in the following table.
+Specifies the **KSEVENT** request type. This flag should be one of the values listed in the following table.
 
 | KSEVENT Flag Value | Description |
 |--|--|
@@ -95,7 +98,7 @@ Specifies the request type. This flag should be one of the values listed in the 
 | KSEVENT_TYPE_TOPOLOGY | Indicates that the event passed is of type [KSE_NODE](/windows-hardware/drivers/ddi/ks/ns-ks-kse_node), where **NodeId** indicates the numeric ID of the topology node. Do not set this flag on its own; instead, OR it with other flags from this list. |
 | KSEVENT_TYPE_QUERYBUFFER | Retrieves the next buffered event notification. |
 
-Specifies the request type. Also, see the KSMETHOD_TYPE_Xxx flags for [KSMETHOD_ITEM](/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item). A request can contain a combination of the values listed in the following table.
+Specifies the **KSMETHOD** request type. Also, see the KSMETHOD_TYPE_Xxx flags for [KSMETHOD_ITEM](/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item). A request can contain a combination of the values listed in the following table.
 
 | KSMETHOD Flag Value | Description |
 |--|--|
@@ -112,7 +115,7 @@ Not used.  A member of an unnamed union used to force proper alignment on the un
 
 ### Notes
 
-The [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure), [**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure), [**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure), [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure), and [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) typedefs are aliases for the **KSIDENTIFIER**] structure. As such, their definitions are identical.
+See the [**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure), [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure), [**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure), [**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure), [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure), and [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) typedef topics for specifics on usage.
 
 The use of an ID within the set allows one to perform a single large compare for a set identifier, then smaller quick compares (for example, by using a switch statement for identifiers within a set). For example, a *property set* is referred to by a unique GUID identifier, and properties within that set are referred to by the short ID.
 
@@ -144,26 +147,28 @@ For more information about kernel streaming methods, see [KS Properties, Events,
 
 A client can use the IOCTL_KS_METHOD request along with the KSMETHOD structure to execute methods on a kernel streaming object that the minidriver handles. For more information, see [KS Methods](/windows-hardware/drivers/stream/ks-methods).
 
-The KSPIN_MEDIUM structure identifies a medium, with a unique medium GUID and instance identifier, which is generated in a bus-specific manner. There is a reserved identifier value KSMEDIUM_TYPE_ANYINSTANCE that is used when bus instances are not of concern. For example, the KSMEDIUMSETID_Standard refers to the system bus, of which there should only be one. So this instance identifier is always used just as a convenience.
+The **KSPIN_MEDIUM** structure identifies a medium, with a unique medium GUID and instance identifier, which is generated in a bus-specific manner. There is a reserved identifier value KSMEDIUM_TYPE_ANYINSTANCE that is used when bus instances are not of concern. For example, the KSMEDIUMSETID_Standard refers to the system bus, of which there should only be one. So this instance identifier is always used just as a convenience.
 
 A pin may support multiple mediums and interfaces on those mediums. The way in which a pin is described implies that the list of interfaces is supported on all mediums enumerated for a pin. If there is a case in which this is not true, another pin may be used to describe each subset of interfaces for the specific mediums.
 
 The medium is also cached by kernel streaming to speed up the search for a possible connection.
 
-An example of use of this structure can be found in a tuner sample, in which KSPIN_MEDIUM represents unique connections between tuners, crossbars, and other tuner components.
+An example of use of this structure can be found in a tuner sample, in which **KSPIN_MEDIUM** represents unique connections between tuners, crossbars, and other tuner components.
 
-The **Flags** member can contain different values based on the type of signal degradation that the client employs. See [Quality Management](/windows-hardware/drivers/stream/quality-management). for more details on different strategies for solving QM problems by reducing signal quality.
+The **Flags** member can contain different values based on the type of signal degradation that the client employs. See [Quality Management](/windows-hardware/drivers/stream/quality-management). for more details on different strategies for solving quality management problems by reducing signal quality.
 
-Because **Flags** contains a ULONG value, multiple Skip requests may be needed to remedy the QM issue.
+Because **Flags** contains a ULONG value, multiple Skip requests may be needed to remedy the quality management issue.
 
 ## -see-also
 
-[KSEVENT](/windows-hardware/drivers/stream/ksevent-structure)
+[**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure)
 
-[KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
+[**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure)
 
-[KSPIN_INTERFACE](/windows-hardware/drivers/stream/kspin-interface-structure)
+[**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure)
 
-[KSPIN_MEDIUM](/windows-hardware/drivers/stream/kspin-medium-structure)
+[**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure)
 
-[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
+[**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure)
+
+[**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure)
