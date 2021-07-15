@@ -58,7 +58,7 @@ GPU preference was determined by user-specified global preference.
 
 ## -remarks
 
-The factor returned by [**pfnQueryDlistForApplication2Cb**](nc-d3dumddi-pfnd3dddi_querydlistforapplication2.md) has no impact on runtime application behavior.
+The **D3DDDI_DLIST_QUERY_DECISION_FACTOR** value returned by [**pfnQueryDlistForApplication2Cb**](nc-d3dumddi-pfnd3dddi_querydlistforapplication2.md) has no impact on runtime application behavior.
 
 ## -see-also
 
