@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_IHV_TASK_PRIORITY
 tech.root: netvista
-title: WDI_IHV_TASK_PRIORITY
-ms.date: 04/30/2021
+title: WDI_IHV_TASK_PRIORITY (dot11wificxtypes.h)
+ms.date: 07/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_IHV_TASK_PRIORITY enum defines IHV task priorities.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,26 +37,42 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_IHV_TASK_PRIORITY** enumeration defines IHV task priorities.
 
 ## -enum-fields
 
 ### -field WDI_IHV_TASK_PRIORITY_HIGH
 
-Reserved.
+High priority.
 
 ### -field WDI_IHV_TASK_PRIORITY_MEDIUM
 
-Reserved.
+Medium priority.
 
 ### -field WDI_IHV_TASK_PRIORITY_LOW
 
-Reserved.
+Low priority.
+
+## -parameters
+
+## Parameters
+
+### -parameters
+
+### Parameters
+
+## -payload
+
+## Payload
+
+### -payload
+
+### Payload
 
 ## -remarks
 
+The **WDI_IHV_TASK_PRIORITY** enum is used in the payload buffer of the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-ihv-task-request-parameters) TLV.
+
 ## -see-also
 
+[**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-ihv-task-request-parameters)
