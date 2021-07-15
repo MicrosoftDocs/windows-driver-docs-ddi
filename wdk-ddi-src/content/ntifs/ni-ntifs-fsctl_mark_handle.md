@@ -10,13 +10,13 @@ req.construct-type: ioctl
 req.ddi-compliance: 
 req.dll: 
 req.header: ntifs.h
-req.include-header: Windows XP
+req.include-header: 
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
