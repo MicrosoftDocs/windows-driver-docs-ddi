@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATERESOURCE
 title: PFND3D10DDI_CREATERESOURCE (d3d10umddi.h)
-description: Creates a resource.
+description: The PFND3D10DDI_CREATERESOURCE callback function creates a user-mode display driver resource.
 old-location: display\createresource_d3d10_.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CREATERESOURCE callback function"]

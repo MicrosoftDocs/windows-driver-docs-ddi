@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ExAllocatePool
 title: ExAllocatePool function (wdm.h)
-description: The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead.ExAllocatePool allocates pool memory of the specified type and returns a pointer to the allocated block.
+description: The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead. ExAllocatePool allocates pool memory.
 old-location: kernel\exallocatepool.htm
 tech.root: kernel
 ms.date: 01/12/2021

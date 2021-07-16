@@ -1,7 +1,7 @@
 ---
 UID: NS:charging._CAD_POWER_SOURCE_INFO_USB
 title: _CAD_POWER_SOURCE_INFO_USB (charging.h)
-description: This structure is for internal use only.
+description: "Microsoft reserves the CAD_POWER_SOURCE_INFO_USB structure for internal use only. Don't use this structure in your code."
 old-location: battery\cad_power_source_info_usb.htm
 tech.root: battery
 ms.date: 02/15/2018
