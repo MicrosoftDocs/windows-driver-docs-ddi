@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE
 title: PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE (d3d12umddi.h)
-description: The CalcPrivateRasterizerStateSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a rasterizer state.
+description: PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE determines the size of the private memory region used by the user-mode display driver for a rasterizer state.
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE callback function"]

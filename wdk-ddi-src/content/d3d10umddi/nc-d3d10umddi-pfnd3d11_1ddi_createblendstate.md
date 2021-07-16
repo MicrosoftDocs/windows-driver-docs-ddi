@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEBLENDSTATE
 title: PFND3D11_1DDI_CREATEBLENDSTATE (d3d10umddi.h)
-description: Creates a blend state.
+description: The PFND3D11_1DDI_CREATEBLENDSTATE callback function creates a user-mode display driver blend state.
 old-location: display\createblendstate_d3d11_1_.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_CREATEBLENDSTATE callback function"]

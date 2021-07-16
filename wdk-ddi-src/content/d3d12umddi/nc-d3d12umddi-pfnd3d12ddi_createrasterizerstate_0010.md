@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATERASTERIZERSTATE_0010
 title: PFND3D12DDI_CREATERASTERIZERSTATE_0010 (d3d12umddi.h)
-description: Creates a rasterizer state.
+description: The PFND3D12DDI_CREATERASTERIZERSTATE_0010 callback function creates a user-mode display driver rasterizer state.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATERASTERIZERSTATE_0010 callback function"]
 req.header: d3d12umddi.h

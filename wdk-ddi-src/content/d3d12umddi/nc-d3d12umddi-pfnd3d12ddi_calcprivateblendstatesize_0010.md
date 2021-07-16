@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010
 title: PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010 (d3d12umddi.h)
-description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a blend state.
+description: PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010 determines the size of the private memory region used by the user-mode display driver for a blend state.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010 callback function"]
 req.header: d3d12umddi.h
