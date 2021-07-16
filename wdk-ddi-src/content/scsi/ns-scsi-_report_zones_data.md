@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._REPORT_ZONES_DATA
 title: _REPORT_ZONES_DATA (scsi.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: The REPORT_ZONES_DATA structure is for internal use only and should not be called from your code.
 old-location: storage\report_zones_data.htm
 tech.root: storage
 ms.date: 03/29/2018
