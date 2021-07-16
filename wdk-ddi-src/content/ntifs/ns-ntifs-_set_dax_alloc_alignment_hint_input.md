@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 title: _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT (ntifs.h)
-description: This structure is for internal use only and should not be called from your code.
+description: After Windows issues the SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT file system control for a file, it examines allocations to the file.
 old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 tech.root: ifsk
 ms.date: 03/29/2018
