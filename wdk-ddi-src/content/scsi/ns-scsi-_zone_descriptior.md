@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._ZONE_DESCRIPTIOR
 title: _ZONE_DESCRIPTIOR (scsi.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: The ZONE_DESCRIPTIOR structure is for internal use only and should not be called from your code.
 old-location: storage\zone_descriptior.htm
 tech.root: storage
 ms.date: 03/29/2018
