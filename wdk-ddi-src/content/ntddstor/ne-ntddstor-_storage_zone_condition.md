@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddstor._STORAGE_ZONE_CONDITION
 title: _STORAGE_ZONE_CONDITION (ntddstor.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: The STORAGE_ZONE_CONDITION structure is for internal use only and should not be called from your code.
 old-location: storage\storage_zone_condition.htm
 tech.root: storage
 ms.date: 03/29/2018
