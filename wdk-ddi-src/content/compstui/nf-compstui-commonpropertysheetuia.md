@@ -1,7 +1,7 @@
 ---
 UID: NF:compstui.CommonPropertySheetUIA
 title: CommonPropertySheetUIA function (compstui.h)
-description: CPSUI's CommonPropertySheetUI function displays property sheet pages and allows user modifications to displayed values.
+description: The CommonPropertySheetUIA function displays property sheet pages and allows user modifications to displayed values.
 old-location: print\commonpropertysheetui.htm
 tech.root: print
 ms.date: 04/20/2018
