@@ -1,7 +1,7 @@
 ---
 UID: NS:charging._CHARGINGSTATUSCOMPLETE
 title: _CHARGINGSTATUSCOMPLETE (charging.h)
-description: This structure is for internal use only.
+description: The CHARGINGSTATUSCOMPLETE structure is for internal use only and should not be called from your code.
 old-location: battery\chargingstatuscomplete.htm
 tech.root: battery
 ms.date: 02/15/2018

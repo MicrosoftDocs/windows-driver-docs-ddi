@@ -1,7 +1,7 @@
 ---
 UID: NS:charging._BATTERYPROVISIONINGSTATUS
 title: _BATTERYPROVISIONINGSTATUS (charging.h)
-description: This structure is for internal use only.
+description: The BATTERYPROVISIONINGSTATUS structure is for internal use only and should not be called from your code.
 old-location: battery\batteryprovisioningstatus.htm
 tech.root: battery
 ms.date: 02/15/2018
