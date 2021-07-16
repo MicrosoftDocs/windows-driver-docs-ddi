@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATERESOURCE
 title: PFND3D11DDI_CREATERESOURCE (d3d10umddi.h)
-description: Creates a resource.
+description: The PFND3D11DDI_CREATERESOURCE callback function creates a resource.
 old-location: display\createresource_d3d11_.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_CREATERESOURCE callback function"]
