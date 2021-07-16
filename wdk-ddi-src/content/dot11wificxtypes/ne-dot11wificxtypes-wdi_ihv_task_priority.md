@@ -53,25 +53,9 @@ Medium priority.
 
 Low priority.
 
-## -parameters
-
-## Parameters
-
-### -parameters
-
-### Parameters
-
-## -payload
-
-## Payload
-
-### -payload
-
-### Payload
-
 ## -remarks
 
-The **WDI_IHV_TASK_PRIORITY** enum is used in the payload buffer of the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-ihv-task-request-parameters) TLV.
+The **WDI_IHV_TASK_PRIORITY** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-ihv-task-request-parameters) TLV.
 
 ## -see-also
 

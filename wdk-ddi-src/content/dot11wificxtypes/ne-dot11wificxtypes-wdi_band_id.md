@@ -95,7 +95,7 @@ Value = 0xFFFFFFFF
 
 ## -remarks
 
-The **WDI_BAND_ID** enum is used in the payload buffer of the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
+The **WDI_BAND_ID** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
 
 ## -see-also
 

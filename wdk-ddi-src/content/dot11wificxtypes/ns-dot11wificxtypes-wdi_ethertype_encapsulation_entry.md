@@ -59,7 +59,7 @@ The type of encapsulation to be performed on the specified EtherType.
 
 ## -remarks
 
-The **WDI_ETHERTYPE_ENCAPSULATION_ENTRY** structure is used in the payload buffer of the [**WDI_TLV_ETHERTYPE_ENCAP_TABLE**](/windows-hardware/drivers/netcx/wdi-tlv-ethertype-encap-table) TLV.
+The **WDI_ETHERTYPE_ENCAPSULATION_ENTRY** structure is a value in the [**WDI_TLV_ETHERTYPE_ENCAP_TABLE**](/windows-hardware/drivers/netcx/wdi-tlv-ethertype-encap-table) TLV.
 
 
 ## -see-also

@@ -167,7 +167,7 @@ Reserved.
 
 ## -remarks
 
-The **WDI_ASSOC_STATUS** structure is used in the payload buffers of the following TLVS:
+The **WDI_ASSOC_STATUS** structure is a value in the following TLVS:
 * [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)
 * [**WDI_TLV_CONNECTION_SETTINGS**](/windows-hardware/drivers/netcx/wdi-tlv-connection-settings) 
 * [**WDI_TLV_ROAMING_NEEDED_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-roaming-needed-parameters)

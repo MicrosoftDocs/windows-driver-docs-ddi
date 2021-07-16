@@ -57,7 +57,7 @@ The port can perform an active or passive can or can use a combination of both s
 
 ## -remarks
 
-The **WDI_SCAN_TYPE** enum is used in the payload buffer of the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) TLV.
+The **WDI_SCAN_TYPE** enum is a value in the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) TLV.
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Hash of a WFDS Service Name. This may also be a hash of an ASP2 Service Type or 
 
 ## -remarks
 
-The **WDI_P2P_SERVICE_NAME_HASH** structure is used in the payload buffer of the [**WDI_TLV_P2P_SERVICE_NAME_HASH**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-service-name-hash) TLV.
+The **WDI_P2P_SERVICE_NAME_HASH** structure is a value in the [**WDI_TLV_P2P_SERVICE_NAME_HASH**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-service-name-hash) TLV.
 
 ## -see-also
 

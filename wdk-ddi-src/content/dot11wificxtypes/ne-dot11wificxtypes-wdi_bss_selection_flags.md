@@ -56,7 +56,7 @@ Specifies whether this roam was requested by the AP or not (11v BSS Transition m
 
 ## -remarks
 
-The **WDI_TLV_BSS_SELECTION_PARAMETERS** enum is used in the payload buffer of the [WDI_TLV_BSS_SELECTION_PARAMETERS](/windows-hardware/drivers/network/wdi-tlv-bss-selection-parameters) TLV.
+The **WDI_TLV_BSS_SELECTION_PARAMETERS** enum is a value in the [WDI_TLV_BSS_SELECTION_PARAMETERS](/windows-hardware/drivers/network/wdi-tlv-bss-selection-parameters) TLV.
 
 ## -see-also
 

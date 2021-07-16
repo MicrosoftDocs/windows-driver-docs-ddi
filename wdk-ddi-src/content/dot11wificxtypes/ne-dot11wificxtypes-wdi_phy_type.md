@@ -103,7 +103,7 @@ Specifies the end of the range that is used to define proprietary PHY types that
 
 ## -remarks
 
-The **WDI_PHY_TYPE** enum is used in the payload buffer of the [**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) TLV.
+The **WDI_PHY_TYPE** enum is a value in the [**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) TLV.
 
 ## -see-also
 

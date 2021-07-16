@@ -71,7 +71,7 @@ The scan was initiated to search for FTM enabled STAs and the host has additiona
 
 ## -remarks
 
-The **WDI_SCAN_TRIGGER** enum is used in the payload buffer of the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) TLV.
+The **WDI_SCAN_TRIGGER** enum is a value in the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) TLV.
 
 ## -see-also
 

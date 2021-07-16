@@ -59,7 +59,7 @@ Unable to determine if the DS has changed.
 
 ## -remarks
 
-The **WDI_AUTH_ALGORITHM** enum is used in the payload buffer of the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
+The **WDI_AUTH_ALGORITHM** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
 
 ## -see-also
 

@@ -59,7 +59,7 @@ Wi-Fi Direct Group Owner.
 
 ## -remarks
 
-The **WDI_OPERATION_MODE** enum is used in the payload buffer of the [**WDI_TLV_OPERATION_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-operation-mode) TLV.
+The **WDI_OPERATION_MODE** enum is a value in the [**WDI_TLV_OPERATION_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-operation-mode) TLV.
 
 ## -see-also
 
