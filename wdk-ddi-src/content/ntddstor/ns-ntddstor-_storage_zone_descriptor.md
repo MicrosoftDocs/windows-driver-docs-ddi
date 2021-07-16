@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._STORAGE_ZONE_DESCRIPTOR
 title: _STORAGE_ZONE_DESCRIPTOR (ntddstor.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: The STORAGE_ZONE_DESCRIPTOR structure is for internal use only and should not be called from your code.
 old-location: storage\storage_zone_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018
