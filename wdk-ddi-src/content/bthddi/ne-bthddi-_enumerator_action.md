@@ -1,7 +1,7 @@
 ---
 UID: NE:bthddi._ENUMERATOR_ACTION
 title: _ENUMERATOR_ACTION (bthddi.h)
-description: The ENUMERATOR_ACTION structure is for internal use only and should not be called from your code.
+description: The ENUMERATOR_ACTION enumeration is for internal use only and should not be called from your code.
 old-location: bltooth\enumerator_action.htm
 tech.root: bltooth
 ms.date: 04/27/2018

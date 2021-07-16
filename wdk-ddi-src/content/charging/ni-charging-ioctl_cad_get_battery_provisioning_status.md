@@ -1,7 +1,7 @@
 ---
 UID: NI:charging.IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 title: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS (charging.h)
-description: This IOCTL is for internal use only.
+description: The IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS system call is for internal use only and should not be called from your code.
 old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
 tech.root: battery
 ms.date: 02/15/2018
