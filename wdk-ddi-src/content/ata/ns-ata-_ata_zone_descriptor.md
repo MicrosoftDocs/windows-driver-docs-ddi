@@ -1,7 +1,7 @@
 ---
 UID: NS:ata._ATA_ZONE_DESCRIPTOR
 title: _ATA_ZONE_DESCRIPTOR (ata.h)
-description: This structure is for internal use only and should not be called from your code.
+description: The ATA_ZONE_DESCRIPTOR structure is for internal use only and should not be called from your code.
 old-location: storage\ata_zone_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018
