@@ -1,7 +1,7 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 title: IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO (ata.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: The IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure is for internal use only and should not be called from your code.
 old-location: storage\identify_device_data_log_page_zoned_device_info.htm
 tech.root: storage
 ms.date: 03/29/2018
