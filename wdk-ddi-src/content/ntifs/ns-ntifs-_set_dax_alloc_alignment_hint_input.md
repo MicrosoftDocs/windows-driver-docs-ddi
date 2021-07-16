@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 title: _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT (ntifs.h)
-description: This structure is for internal use only and should not be called from your code.
+description: Once SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT is issued for a file, allocations to the file will be examined to see if the given offset is being allocated.
 old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 tech.root: ifsk
 ms.date: 03/29/2018
