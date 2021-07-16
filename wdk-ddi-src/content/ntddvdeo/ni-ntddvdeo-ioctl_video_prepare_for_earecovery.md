@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
 title: IOCTL_VIDEO_PREPARE_FOR_EARECOVERY (ntddvdeo.h)
-description: This IOCTL is for internal use only.
+description: The IOCTL_VIDEO_PREPARE_FOR_EARECOVERY system call is for internal use only and should not be called from your code.
 old-location: display\ioctl_video_prepare_for_earecovery.htm
 tech.root: display
 ms.date: 05/10/2018
