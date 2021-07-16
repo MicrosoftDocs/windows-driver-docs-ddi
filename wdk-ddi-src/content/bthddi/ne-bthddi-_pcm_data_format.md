@@ -1,7 +1,7 @@
 ---
 UID: NE:bthddi._PCM_DATA_FORMAT
 title: _PCM_DATA_FORMAT (bthddi.h)
-description: This enumeration is for internal use only.
+description: The PCM_DATA_FORMAT enumeration is for internal use only and should not be called from your code.
 old-location: bltooth\pcm_data_format.htm
 tech.root: bltooth
 ms.date: 04/27/2018
