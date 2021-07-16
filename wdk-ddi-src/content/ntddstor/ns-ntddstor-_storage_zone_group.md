@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._STORAGE_ZONE_GROUP
 title: _STORAGE_ZONE_GROUP (ntddstor.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: "Microsoft reserves the STORAGE_ZONE_GROUP structure for internal use only. Don't use this structure in your code."
 old-location: storage\storage_zone_group.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._REPORT_ZONES_DATA
 title: _REPORT_ZONES_DATA (storport.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: "Microsoft reserves the REPORT_ZONES_DATA structure for internal use only. Don't use this structure in your code."
 old-location: storage\report_zones_data.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO7_W2K
 title: _GET_LOCAL_HOST_INFO7_W2K (1394.h)
-description: The GET_LOCAL_HOST_INFO7 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request with u.GetLocalHostInformation.nLevel set to GET_HOST_DMA_CAPABILITIES.
+description: The GET_LOCAL_HOST_INFO7_W2K structure is returned by a REQUEST_GET_LOCAL_HOST_INFO request with u.GetLocalHostInformation.nLevel set to GET_HOST_DMA_CAPABILITIES.
 old-location: ieee\get_local_host_info7.htm
 tech.root: IEEE
 ms.date: 02/15/2018

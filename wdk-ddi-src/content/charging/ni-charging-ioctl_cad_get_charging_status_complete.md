@@ -1,7 +1,7 @@
 ---
 UID: NI:charging.IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 title: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE (charging.h)
-description: This IOCTL is for internal use only.
+description: "Microsoft reserves the IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE system call for internal use only. Don't use this system call in your code."
 old-location: battery\ioctl_cad_get_charging_status_complete.htm
 tech.root: battery
 ms.date: 02/15/2018
