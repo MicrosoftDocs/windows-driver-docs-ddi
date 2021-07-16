@@ -1,7 +1,7 @@
 ---
 UID: NF:classpnp.ExAllocatePoolWithQuota
 title: ExAllocatePoolWithQuota macro (classpnp.h)
-description: The ExAllocatePoolWithQuota routine is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
+description: The ExAllocatePoolWithQuota routine (classpnp.h) is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead. ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
 old-location: kernel\exallocatepoolwithquota.htm
 tech.root: kernel
 ms.date: 02/24/2018
