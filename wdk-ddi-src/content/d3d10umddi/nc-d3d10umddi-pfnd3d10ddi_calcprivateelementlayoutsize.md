@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE
 title: PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE (d3d10umddi.h)
-description: The CalcPrivateElementLayoutSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an element layout.
+description: The PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE callback function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an element layout.
 old-location: display\calcprivateelementlayoutsize.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE callback function"]
