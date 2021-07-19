@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryVideoMemoryInfo
 title: D3DKMTQueryVideoMemoryInfo function (d3dkmthk.h)
-description: Queries for video memory info.
+description: The D3DKMTQueryVideoMemoryInfo callback function queries video memory information.
 ms.date: 10/19/2018
 keywords: ["D3DKMTQueryVideoMemoryInfo function"]
 ms.keywords: D3DKMTQueryVideoMemoryInfo
