@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
 title: PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 (d3d10umddi.h)
-description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
+description: "The PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 callback function starts a DirectX Video Acceleration (DXVA) decoding operation on a video frame."
 ms.date: 10/19/2018
 keywords: ["PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 callback function"]
 req.header: d3d10umddi.h

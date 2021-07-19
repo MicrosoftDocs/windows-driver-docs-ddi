@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
 title: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE (d3d10umddi.h)
-description: Indicates the luminance range of YUV data.
+description: The D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration indicates the luminance range of YUV color encoding system data.
 old-location: display\d3d11_1ddi_video_processor_nominal_range.htm
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration"]

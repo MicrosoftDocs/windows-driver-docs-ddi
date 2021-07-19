@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATERESOURCE
 title: D3D11DDIARG_CREATERESOURCE (d3d10umddi.h)
-description: Describes a resource to create.
+description: The D3D11DDIARG_CREATERESOURCE structure describes the parameters that the user-mode display driver uses to create a resource.
 old-location: display\d3d11ddiarg_createresource.htm
 ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_CREATERESOURCE structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041
 title: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041 (d3d12umddi.h)
-description: Flags for indicating a subset of components used with video decode histogram.
+description: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041 enumeration flags that indicate a subset of components used with a video decode histogram.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041, D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS_0041,

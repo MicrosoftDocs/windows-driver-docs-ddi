@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_HDR_METADATA_TYPE
 title: _D3DDDI_HDR_METADATA_TYPE (d3dukmdt.h)
-description: Defines the format of HDR metadata.
+description: "The D3DDDI_HDR_METADATA_TYPE enumeration defines the format of high dynamic range (HDR) metadata."
 old-location: display\d3dddi_hdr_metadata_type.htm
 tech.root: display
 ms.date: 04/16/2018
