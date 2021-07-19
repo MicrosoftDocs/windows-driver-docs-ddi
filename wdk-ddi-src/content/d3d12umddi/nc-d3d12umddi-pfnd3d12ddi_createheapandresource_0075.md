@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0075
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 (d3d12umddi.h)
-description: The PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function simultaneously creates a heap and a resource.
+description: The PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function simultaneously creates a heap and resource.
 old-location: display\pfnd3d12ddi_createheapandresource_0075.htm
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function"]
