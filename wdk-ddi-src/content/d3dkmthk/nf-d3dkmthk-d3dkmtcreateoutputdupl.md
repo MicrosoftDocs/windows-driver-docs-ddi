@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateOutputDupl
 title: D3DKMTCreateOutputDupl function (d3dkmthk.h)
-description: Reserved for system use. Do not use in your driver.
+description: "Microsoft reserves the D3DKMTCreateOutputDupl function for internal use only. Don't use this function in your driver."
 ms.date: 10/19/2018
 keywords: ["D3DKMTCreateOutputDupl function"]
 ms.keywords: D3DKMTCreateOutputDupl

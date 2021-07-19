@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
 title: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 (d3d12umddi.h)
-description: Defines the range of supported values for an image filter.
+description: The D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure defines the range of supported values for an image filter.
 old-location: display\d3d12ddi_video_process_filter_range.htm
 ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure"]
