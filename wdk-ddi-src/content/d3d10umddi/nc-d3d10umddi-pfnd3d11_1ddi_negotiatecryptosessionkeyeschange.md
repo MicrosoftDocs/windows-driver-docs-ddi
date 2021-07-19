@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
 title: PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE (d3d10umddi.h)
-description: Establishes a session key for a cryptographic session object.
+description: The PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback function establishes a session key for a cryptographic session object.
 old-location: display\negotiatecryptosessionkeyexchange.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback function"]

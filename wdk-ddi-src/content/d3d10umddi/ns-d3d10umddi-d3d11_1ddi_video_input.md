@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_INPUT
 title: D3D11_1DDI_VIDEO_INPUT (d3d10umddi.h)
-description: Reserved for system use. Do not use in your driver.
+description: "Microsoft reserves the D3D11_1DDI_VIDEO_INPUT structure for internal use only. Don't use this structure in your driver."
 old-location: display\d3d11_1ddi_video_input.htm
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_INPUT structure"]

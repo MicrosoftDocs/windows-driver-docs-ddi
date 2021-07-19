@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
 title: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS (d3d10umddi.h)
-description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
+description: "The PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding."
 old-location: display\videodecodersubmitbuffers.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function"]

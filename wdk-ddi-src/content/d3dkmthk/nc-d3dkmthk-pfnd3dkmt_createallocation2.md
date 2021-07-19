@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEALLOCATION2
 title: PFND3DKMT_CREATEALLOCATION2 (d3dkmthk.h)
-description: Reserved for system use. Do not use in your driver.
+description: "Microsoft reserves the PFND3DKMT_CREATEALLOCATION2 callback function for internal use only. Don't use this callback function in your driver."
 old-location: display\d3dkmtcreateallocation2.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATEALLOCATION2 callback function"]

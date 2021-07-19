@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEOUTPUTDUPL
 title: PFND3DKMT_CREATEOUTPUTDUPL (d3dkmthk.h)
-description: Reserved for system use. Do not use in your driver.
+description: "Microsoft reserves the PFND3DKMT_CREATEOUTPUTDUPL callback function for internal use only. Don't use this callback function in your driver."
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_CREATEOUTPUTDUPL callback function"]
 req.header: d3dkmthk.h
