@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BEGIN_RENDER_PASS_0053
 title: PFND3D12DDI_BEGIN_RENDER_PASS_0053 (d3d12umddi.h)
-description: Implemented by the client driver to start the Render Pass.
+description: A client driver implements the PFND3D12DDI_BEGIN_RENDER_PASS_0053 callback function to start a render pass.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_BEGIN_RENDER_PASS_0053 callback function"]
 req.header: d3d12umddi.h

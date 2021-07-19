@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
 title: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME (d3d10umddi.h)
-description: A collection of histogram output buffers.
+description: The D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure contains a collection of histogram output buffers.
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure"]
 ms.keywords: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME, D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME,

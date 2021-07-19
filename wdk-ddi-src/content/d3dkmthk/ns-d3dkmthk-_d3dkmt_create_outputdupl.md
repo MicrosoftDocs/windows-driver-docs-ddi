@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATE_OUTPUTDUPL
 title: _D3DKMT_CREATE_OUTPUTDUPL (d3dkmthk.h)
-description: Reserved for system use. Do not use in your driver.
+description: "Microsoft reserves the D3DKMT_CREATE_OUTPUTDUPL structure for internal use only. Don't use this structure in your driver."
 ms.date: 10/19/2018
 keywords: ["D3DKMT_CREATE_OUTPUTDUPL structure"]
 ms.keywords: _D3DKMT_CREATE_OUTPUTDUPL, D3DKMT_CREATE_OUTPUTDUPL,

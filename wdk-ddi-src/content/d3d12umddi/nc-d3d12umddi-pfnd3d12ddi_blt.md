@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BLT
 title: PFND3D12DDI_BLT (d3d12umddi.h)
-description: The Blt function copies the contents of a source surface to a destination surface.
+description: The PFND3D12DDI_BLT callback function copies the contents of a source surface to a destination surface.
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BLT callback function"]

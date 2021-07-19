@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
 title: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC (d3d10umddi.h)
-description: Describes a swizzle pattern.
+description: The D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure describes a display driver swizzle pattern.
 old-location: display\d3dwddm2_2ddi_swizzle_pattern_desc.htm
 ms.date: 05/10/2018
 keywords: ["D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure"]

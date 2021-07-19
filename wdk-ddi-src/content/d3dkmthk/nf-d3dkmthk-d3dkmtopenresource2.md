@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResource2
 title: D3DKMTOpenResource2 function (d3dkmthk.h)
-description: Reserved for system use. Do not use in your driver.
+description: "Microsoft reserves the D3DKMTOpenResource2 function for internal use only. Don't use this function in your driver."
 old-location: display\d3dkmtopenresource2.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenResource2 function"]
