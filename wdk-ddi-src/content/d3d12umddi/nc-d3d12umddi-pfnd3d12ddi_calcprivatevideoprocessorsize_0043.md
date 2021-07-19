@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043
 title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043 (d3d12umddi.h)
-description: Used to calculate the size of a video processor.
+description: The PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043 callback function calculates the size of a video processor.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0043 callback function"]
 req.header: d3d12umddi.h

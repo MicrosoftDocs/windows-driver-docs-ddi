@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032
 title: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 (d3d12umddi.h)
-description: Used to calculate the size of a video decoder.
+description: The PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 callback function calculates the size of a video decoder.
 old-location: display\pfnd3d12ddi_calcprivatevideodecodersize_0032.htm
 ms.date: 04/16/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 callback function"]

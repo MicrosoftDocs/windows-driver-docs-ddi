@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0010
 title: PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0010 (d3d12umddi.h)
-description: Used to calculate the pipeline state size.
+description: The PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0010 callback function calculates the pipeline state size.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0010 callback function"]
 req.header: d3d12umddi.h

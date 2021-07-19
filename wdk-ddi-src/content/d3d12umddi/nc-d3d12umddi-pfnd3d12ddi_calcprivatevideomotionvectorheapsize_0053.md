@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053
 title: PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053 (d3d12umddi.h)
-description: Calculates the video motion vector heap size.
+description: The PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053 callback function calculates the video motion vector heap size.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053 callback function"]
 req.header: d3d12umddi.h
