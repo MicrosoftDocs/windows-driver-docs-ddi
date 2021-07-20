@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SCATTERBLTS
 title: _D3DKMT_SCATTERBLTS (d3dkmthk.h)
-description: Reserved for system use.
+description: "Microsoft reserves the _D3DKMT_SCATTERBLTS structure for internal use only. Don't use this structure in your code."
 ms.date: 10/19/2018
 keywords: ["D3DKMT_SCATTERBLTS structure"]
 ms.keywords: _D3DKMT_SCATTERBLTS, D3DKMT_SCATTERBLTS,
