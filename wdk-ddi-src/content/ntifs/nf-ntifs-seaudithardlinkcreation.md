@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.SeAuditHardLinkCreation
 title: SeAuditHardLinkCreation function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the SeAuditHardLinkCreation function for internal use only. Don't use this function in your code."
 old-location: ifsk\seaudithardlinkcreation.htm
 tech.root: ifsk
 ms.date: 04/16/2018
