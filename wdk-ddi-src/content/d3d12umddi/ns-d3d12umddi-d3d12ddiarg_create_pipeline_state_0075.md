@@ -5,7 +5,7 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: display
-description: Creates a pipeline state.
+description: The D3D12DDIARG_CREATE_PIPELINE_STATE_0075 structure creates a graphics pipeline state object.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
