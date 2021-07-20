@@ -4,7 +4,7 @@ tech.root: kernel
 title: IoEnumerateKsrPersistentMemoryEx
 ms.date: 06/03/2021
 targetos: Windows
-description: Reserved for system use.
+description: "Microsoft reserves the IoEnumerateKsrPersistentMemoryEx function for internal use only. Don't use this function in your code."
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
