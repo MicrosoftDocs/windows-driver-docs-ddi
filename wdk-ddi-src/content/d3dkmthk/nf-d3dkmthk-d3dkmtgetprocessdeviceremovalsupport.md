@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetProcessDeviceRemovalSupport
 title: D3DKMTGetProcessDeviceRemovalSupport function (d3dkmthk.h)
-description: Used to get process device removal support.
+description: The D3DKMTGetProcessDeviceRemovalSupport function determines whether a process using the specified adapter can recover from graphics device removal.
 ms.date: 08/03/2018
 keywords: ["D3DKMTGetProcessDeviceRemovalSupport function"]
 ms.keywords: D3DKMTGetProcessDeviceRemovalSupport

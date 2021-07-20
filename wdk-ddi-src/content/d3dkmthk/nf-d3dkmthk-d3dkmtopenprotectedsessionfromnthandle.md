@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenProtectedSessionFromNtHandle
 title: D3DKMTOpenProtectedSessionFromNtHandle function (d3dkmthk.h)
-description: Used to open a protected session from the NT handle.
+description: The D3DKMTOpenProtectedSessionFromNtHandle function specifies an NT session handle that is used to open a protected kernel session.
 old-location: display\d3dkmtopenprotectedsessionfromnthandle.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenProtectedSessionFromNtHandle function"]
