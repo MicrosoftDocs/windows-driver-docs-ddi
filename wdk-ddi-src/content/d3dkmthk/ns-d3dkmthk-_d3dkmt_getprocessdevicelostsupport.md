@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPROCESSDEVICELOSTSUPPORT
-title: _D3DKMT_GETPROCESSDEVICELOSTSUPPORT (d3dkmthk.h)
+title: D3DKMT_GETPROCESSDEVICELOSTSUPPORT (d3dkmthk.h)
 description: Used to get the indicated process.
 old-location: display\d3dkmt-getprocessdevicelostsupport.htm
 ms.date: 05/10/2018
@@ -40,33 +40,22 @@ tech.root: display
 req.typenames: D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 ---
 
-# _D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure
-
+# D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Used to get the indicated process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hProcess
 
 A handle to the process.
 
-
 ### -field AdapterLuid
 
 LUID of Adapter that is potentially being detached
 
-
 ### -field Support
 
 Indicates whether or not all devices of the process using the adapter can recover from graphics device lost.
-

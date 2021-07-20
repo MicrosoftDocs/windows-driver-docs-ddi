@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PROTECTED_SESSION_STATUS
-title: _DXGK_PROTECTED_SESSION_STATUS (d3dkmddi.h)
+title: DXGK_PROTECTED_SESSION_STATUS (d3dkmddi.h)
 description: Used to indicate the status of the current session.
 old-location: display\dxgk_protected_session_status.htm
 ms.date: 05/10/2018
@@ -43,12 +43,10 @@ api_name:
  - DXGK_PROTECTED_SESSION_STATUS
 ---
 
-# _DXGK_PROTECTED_SESSION_STATUS enumeration
+# DXGK_PROTECTED_SESSION_STATUS enumeration
 
 
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Used to indicate the status of the current session.
 
@@ -61,4 +59,3 @@ Indicates that the status is okay.
 ### -field DXGK_PROTECTED_SESSION_STATUS_INVALID
 
 Indicates that the status is invalid.
-

@@ -42,96 +42,49 @@ api_name:
 
 # StorPortInterlockedRemoveHeadList function
 
-
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structures.
+The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structures.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension for the host bus adapter (HBA).
+[in] A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param ListHead 
+### -param ListHead
 
-[in, out]
-Pointer to the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
+[in, out] Pointer to the [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of the list.
 
 ### -param Result
 
-<p>Pointer to a <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry"><b>STOR_LIST_ENTRY</b></a> structure that represents the entry removed from the list. If the list was empty, the routine returns <b>NULL</b>.</p>
+[in, out] Pointer to a [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the entry removed from the list. If the list was empty, the routine returns **NULL**.
 
-### -param Lock 
+### -param Lock
 
 [in, out]
-A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializespinlock">StorPortInitializeSpinLock</a>.
+A pointer to a **STOR_KSPIN_LOCK** structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling [**StorPortInitializeSpinLock**](nf-storport-storportinitializespinlock.md).
 
- You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.
+ You must use this spin lock only with the **StorPortInterlocked*Xxx*List** routines.
 
 ## -returns
 
-<b>StorPortInterlockedRemoveHeadList</b> returns one of the following status codes:
+**StorPortInterlockedRemoveHeadList** returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The list items were removed successfully or the list is already empty.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_NOT_IMPLEMENTED   | This function is not implemented on the active operating system. |
+| STOR_STATUS_SUCCESS           | The list items were removed successfully or the list is already empty. |
+| STOR_STATUS_INVALID_PARAMETER | A pointer in **ListHead** or **Result** is **NULL**. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
+[**InitializeListHead**](../wdm/nf-wdm-initializelisthead.md)
 
+[**InsertHeadList**](../wdm/nf-wdm-insertheadlist.md)
 
+[**StorPortInitializeSpinLock**](nf-storport-storportinitializespinlock.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
+[**StorPortInterlockedInsertHeadList**](nf-storport-storportinterlockedinsertheadlist.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializespinlock">StorPortInitializeSpinLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedinserttaillist">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
+[**StorPortInterlockedInsertTailList**](nf-storport-storportinterlockedinserttaillist.md)
