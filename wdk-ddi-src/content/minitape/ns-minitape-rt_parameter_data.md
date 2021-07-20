@@ -85,4 +85,4 @@ Reserved for future use.
 
 ## -see-also
 
-[**ST_PARAMETER_DATA**](ns-storport-st_parameter_data.md)
+[**ST_PARAMETER_DATA**](ns-minitape-st_parameter_data.md)
