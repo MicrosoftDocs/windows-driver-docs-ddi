@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEQUERY
 title: _D3DHAL_DP2CREATEQUERY (d3dhal.h)
-description: DirectX 9.0 and later versions only.
+description: The D3DHAL_DP2CREATEQUERY structure is used by the D3dDrawPrimitives2 callback function to create resources for queries.
 old-location: display\d3dhal_dp2createquery.htm
 tech.root: display
 ms.date: 05/10/2018
