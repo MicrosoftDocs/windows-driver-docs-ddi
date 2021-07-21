@@ -5,7 +5,7 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: display
-description: Deprecated - do not use.
+description: "Microsoft has deprecated the D3D12DDI_SAMPLER_FEEDBACK_TARGETED_RESOURCE_0073 structure. Don't use this structure in your code."
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

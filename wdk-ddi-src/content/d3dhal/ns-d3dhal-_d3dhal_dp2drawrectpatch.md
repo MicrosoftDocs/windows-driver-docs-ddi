@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWRECTPATCH
 title: _D3DHAL_DP2DRAWRECTPATCH (d3dhal.h)
-description: DirectX 8.0 and later versions only.
+description: The D3DHAL_DP2DRAWRECTPATCH structure is used by the D3dDrawPrimitives2 callback function to render a rectangular patch.
 old-location: display\d3dhal_dp2drawrectpatch.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060
 title: PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060
-description: Creates the video motion estimator.
+description: The PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060 callback function creates a video motion estimator.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060 callback function"]

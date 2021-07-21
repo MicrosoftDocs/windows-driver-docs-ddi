@@ -5,7 +5,7 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 tech.root: display
 targetos: Windows
-description: Argument structure for PFND3D12DDI_PINRESOURCES_CB_0076 that provides the list of resources to pin.
+description: The D3D12DDI_PIN_RESOURCES_CALLBACKS_0076 structure contains callback functions that pin and unpin resources.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 title: _DEVICE_WRITE_AGGREGATION_DESCRIPTOR (ntddstor.h)
-description: Reserved for system use.
+description: "Microsoft reserves the DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure for internal use only. Don't use this structure in your code."
 old-location: storage\device_write_aggregation_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018

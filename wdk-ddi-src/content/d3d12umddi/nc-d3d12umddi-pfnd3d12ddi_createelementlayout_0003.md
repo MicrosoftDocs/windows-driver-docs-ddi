@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEELEMENTLAYOUT_0003
 title: PFND3D12DDI_CREATEELEMENTLAYOUT_0003 (d3d12umddi.h)
-description: Creates an element layout.
+description: The PFND3D12DDI_CREATEELEMENTLAYOUT_0003 callback function creates a display element layout.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATEELEMENTLAYOUT_0003 callback function"]
 req.header: d3d12umddi.h

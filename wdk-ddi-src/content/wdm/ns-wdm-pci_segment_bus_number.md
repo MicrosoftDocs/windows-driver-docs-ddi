@@ -4,7 +4,7 @@ tech.root: kernel
 title: PCI_SEGMENT_BUS_NUMBER (wdm.h)
 ms.date: 06/03/2021
 targetos: Windows
-description: Reserved for system use.
+description: "Microsoft reserves the PCI_SEGMENT_BUS_NUMBER structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

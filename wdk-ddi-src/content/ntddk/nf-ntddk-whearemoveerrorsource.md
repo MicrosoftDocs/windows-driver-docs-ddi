@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.WheaRemoveErrorSource
 title: WheaRemoveErrorSource function
-description: Reserved for system use.
+description: "Microsoft reserves the WheaRemoveErrorSource function for internal use only. Don't use this function in your code."
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WheaRemoveErrorSource function"]

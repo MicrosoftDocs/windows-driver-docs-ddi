@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
 title: PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030 (d3d12umddi.h)
-description: Used to create a protected resource session.
+description: The PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030 callback function creates a protected resource session.
 old-location: display\pfnd3d12ddi_createprotectedresourcesession_0030.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030 callback function"]

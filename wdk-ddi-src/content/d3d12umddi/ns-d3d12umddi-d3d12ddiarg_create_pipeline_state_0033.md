@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033 (d3d12umddi.h)
-description: Creates a pipeline state.
+description: The D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure creates a graphics pipeline state object.
 old-location: display\d3d12ddiarg-create-pipeline-state-0033.htm
 ms.date: 05/10/2018
 keywords: ["D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure"]

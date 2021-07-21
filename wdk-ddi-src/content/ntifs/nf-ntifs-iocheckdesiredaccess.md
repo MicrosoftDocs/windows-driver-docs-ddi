@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoCheckDesiredAccess
 title: IoCheckDesiredAccess function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the IoCheckDesiredAccess function for internal use only. Don't use this function in your code."
 old-location: ifsk\iocheckdesiredaccess.htm
 tech.root: ifsk
 ms.date: 05/30/2019

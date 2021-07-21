@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0030
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0030 (d3d12umddi.h)
-description: Used to simultaneously create a heap and resource.
+description: The PFND3D12DDI_CREATEHEAPANDRESOURCE_0030 callback function simultaneously creates a heap and resource.
 old-location: display\pfnd3d12ddi_createheapandresource_0030.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_CREATEHEAPANDRESOURCE_0030 callback function"]

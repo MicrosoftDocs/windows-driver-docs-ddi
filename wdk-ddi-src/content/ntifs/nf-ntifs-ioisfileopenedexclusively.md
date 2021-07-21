@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoIsFileOpenedExclusively
 title: IoIsFileOpenedExclusively macro (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the IoIsFileOpenedExclusively macro for internal use only. Don't use this macro in your code."
 old-location: ifsk\ioisfileopenedexclusively.htm
 tech.root: ifsk
 ms.date: 04/16/2018

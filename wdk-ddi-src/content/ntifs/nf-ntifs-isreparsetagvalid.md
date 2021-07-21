@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IsReparseTagValid
 title: IsReparseTagValid macro (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the IsReparseTagValid macro for internal use only. Don't use this macro in your code."
 old-location: ifsk\isreparsetagvalid.htm
 tech.root: ifsk
 ms.date: 04/16/2018

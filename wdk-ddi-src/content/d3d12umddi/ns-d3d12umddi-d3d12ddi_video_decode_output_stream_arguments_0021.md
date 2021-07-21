@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021
 title: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021 (d3d12umddi.h)
-description: Output stream arguments for video decode.
+description: The D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021 structure specifies the output stream arguments for video decode.
 old-location: display\d3d12ddi_video_decode_output_stream_arguments.htm
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021 structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._STOR_CRYPTO_KEY_INFO
 title: STOR_CRYPTO_KEY_INFO (storport.h)
-description: Reserved for system use.
+description: "Microsoft reserves the STOR_CRYPTO_KEY_INFO structure for internal use only. Don't use this structure in your code."
 old-location: storage\stor_crypto_key_info.htm
 tech.root: storage
 ms.date: 03/29/2018

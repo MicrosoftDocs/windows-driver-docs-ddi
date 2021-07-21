@@ -5,7 +5,7 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 tech.root: display
 targetos: Windows
-description: Used to create a video processor.
+description: The D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072 structure is a parameter for creating a video processor.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

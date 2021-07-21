@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._STORAGE_MINIPORT_DESCRIPTOR
 title: _STORAGE_MINIPORT_DESCRIPTOR (ntddstor.h)
-description: Reserved for system use.
+description: "Microsoft reserves the STORAGE_MINIPORT_DESCRIPTOR structure for internal use only. Don't use this structure in your code."
 old-location: storage\storage_miniport_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018

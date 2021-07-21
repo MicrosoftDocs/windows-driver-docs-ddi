@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043
 title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043 (d3d12umddi.h)
-description: Describes input stream properties for the video processor.
+description: The D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043 structure describes input stream properties for a video processor.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043,

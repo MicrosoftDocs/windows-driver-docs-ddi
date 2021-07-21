@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoSetInformation
 title: IoSetInformation function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the IoSetInformation function for internal use only. Don't use this function in your code."
 old-location: ifsk\iosetinformation.htm
 tech.root: ifsk
 ms.date: 04/16/2018

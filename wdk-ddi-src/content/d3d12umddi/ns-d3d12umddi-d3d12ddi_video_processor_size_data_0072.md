@@ -5,7 +5,7 @@ ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: display
-description: Retrieves the memory allocation size of a video processor created with the given properties.
+description: The D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072 structure retrieves the memory allocation size of a video processor created with the given properties.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

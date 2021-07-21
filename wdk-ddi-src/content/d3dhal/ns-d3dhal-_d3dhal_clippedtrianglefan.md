@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dhal._D3DHAL_CLIPPEDTRIANGLEFAN
 title: _D3DHAL_CLIPPEDTRIANGLEFAN (d3dhal.h)
-description: DirectX 8.0 and later versions only.
+description: The D3DHAL_CLIPPEDTRIANGLEFAN structure is used by the D3dDrawPrimitives2 callback function to render clipped triangle fans.
 old-location: display\d3dhal_clippedtrianglefan.htm
 tech.root: display
 ms.date: 05/10/2018

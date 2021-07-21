@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.StorPortInitializeCryptoEngine
 title: StorPortInitializeCryptoEngine function (storport.h)
-description: Reserved for system use.
+description: "Microsoft reserves the StorPortInitializeCryptoEngine function for internal use only. Don't use this function in your code."
 old-location: storage\storportinitializecryptoengine.htm
 tech.root: storage
 ms.date: 03/29/2018

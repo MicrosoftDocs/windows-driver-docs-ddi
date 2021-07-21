@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.SeQuerySessionIdToken
 title: SeQuerySessionIdToken function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the SeQuerySessionIdToken function for internal use only. Don't use this function in your code."
 old-location: ifsk\sequerysessionidtoken.htm
 tech.root: ifsk
 ms.date: 04/16/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWTRIPATCH
 title: _D3DHAL_DP2DRAWTRIPATCH (d3dhal.h)
-description: DirectX 8.0 and later versions only.
+description: The D3DHAL_DP2DRAWTRIPATCH structure is used by the D3dDrawPrimitives2 callback function to render a triangular patch.
 old-location: display\d3dhal_dp2drawtripatch.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.RtlDescribeChunk
 title: RtlDescribeChunk function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the RtlDescribeChunk function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtldescribechunk.htm
 tech.root: ifsk
 ms.date: 04/16/2018

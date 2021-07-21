@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
 title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053 (d3d12umddi.h)
-description: Declares the type of resource access to begin a Render Pass.
+description: The call to begin a render pass uses the D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053 enumeration to specify the type of resource access.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053 enumeration"]
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053,

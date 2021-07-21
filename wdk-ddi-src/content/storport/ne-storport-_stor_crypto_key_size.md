@@ -1,7 +1,7 @@
 ---
 UID: NE:storport._STOR_CRYPTO_KEY_SIZE
 title: STOR_CRYPTO_KEY_SIZE (storport.h)
-description: Reserved for system use.
+description: "Microsoft reserves the STOR_CRYPTO_KEY_SIZE enumeration for internal use only. Don't use this enumeration in your code."
 old-location: storage\stor_crypto_key_size.htm
 tech.root: storage
 ms.date: 03/29/2018

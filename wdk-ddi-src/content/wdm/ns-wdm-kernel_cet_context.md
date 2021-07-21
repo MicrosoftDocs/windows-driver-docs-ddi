@@ -4,7 +4,7 @@ tech.root: kernel
 title: KERNEL_CET_CONTEXT
 ms.date: 06/03/2021
 targetos: Windows
-description: Reserved for system use.
+description: "Microsoft reserves the KERNEL_CET_CONTEXT structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

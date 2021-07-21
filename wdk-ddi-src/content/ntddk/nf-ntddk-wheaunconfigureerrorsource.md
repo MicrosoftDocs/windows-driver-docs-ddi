@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.WheaUnconfigureErrorSource
 title: WheaUnconfigureErrorSource function
-description: Reserved for system use.
+description: "Microsoft reserves the WheaUnconfigureErrorSource function for internal use only. Don't use this function in your code."
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WheaUnconfigureErrorSource function"]

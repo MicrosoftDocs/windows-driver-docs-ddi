@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030
 title: PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 (d3d12umddi.h)
-description: Used to destroy a crypto session.
+description: The PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function destroys a crypto session policy.
 old-location: display\pfnd3d12ddi_destroycryptosessionpolicy_0030.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function"]

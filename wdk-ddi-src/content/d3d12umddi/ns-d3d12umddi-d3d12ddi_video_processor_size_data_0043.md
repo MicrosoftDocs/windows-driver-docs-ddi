@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
 title: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 (d3d12umddi.h)
-description: Retrieves the memory allocation size of a video processor created with the given properties.
+description: The D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure retrieves the memory allocation size of a video processor created with the given properties.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043, D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043,

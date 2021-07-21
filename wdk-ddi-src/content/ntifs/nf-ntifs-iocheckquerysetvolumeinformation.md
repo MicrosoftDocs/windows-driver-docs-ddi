@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoCheckQuerySetVolumeInformation
 title: IoCheckQuerySetVolumeInformation function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the IoCheckQuerySetVolumeInformation function for internal use only. Don't use this function in your code."
 old-location: ifsk\iocheckquerysetvolumeinformation.htm
 tech.root: ifsk
 ms.date: 05/30/2019

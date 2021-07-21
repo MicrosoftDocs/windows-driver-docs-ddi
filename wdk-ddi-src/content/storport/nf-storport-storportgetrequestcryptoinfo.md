@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.StorPortGetRequestCryptoInfo
 title: StorPortGetRequestCryptoInfo function (storport.h)
-description: Reserved for system use.
+description: "Microsoft reserves the StorPortGetRequestCryptoInfo function for internal use only. Don't use this function in your code."
 old-location: storage\storportgetrequestcryptoinfo.htm
 tech.root: storage
 ms.date: 03/29/2018
