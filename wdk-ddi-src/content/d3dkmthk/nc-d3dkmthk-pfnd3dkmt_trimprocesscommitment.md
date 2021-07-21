@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_TRIMPROCESSCOMMITMENT
 title: PFND3DKMT_TRIMPROCESSCOMMITMENT (d3dkmthk.h)
-description: Trim process commitment.
+description: The PFND3DKMT_TRIMPROCESSCOMMITMENT callback function is invoked to trim a process commitment using information in the D3DKMT_TRIMPROCESSCOMMITMENT structure.
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_TRIMPROCESSCOMMITMENT callback function"]
 req.header: d3dkmthk.h

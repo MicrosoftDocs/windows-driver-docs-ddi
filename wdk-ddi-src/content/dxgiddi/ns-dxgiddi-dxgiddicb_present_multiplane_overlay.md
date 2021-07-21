@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 title: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY (dxgiddi.h)
-description: Describes multiplane overlay allocations that content is copied to and from.
+description: The DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY structure contains information that describes multiplane overlay allocations that content is copied to and from.
 old-location: display\dxgiddicb_present_multiplane_overlay.htm
 tech.root: display
 ms.date: 05/10/2018

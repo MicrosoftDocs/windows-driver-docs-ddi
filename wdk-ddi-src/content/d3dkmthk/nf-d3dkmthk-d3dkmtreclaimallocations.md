@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReclaimAllocations
 title: D3DKMTReclaimAllocations function (d3dkmthk.h)
-description: Reclaims video memory allocations.
+description: The D3DKMTReclaimAllocations function reclaims the video memory allocations specified in a D3DKMT_RECLAIMALLOCATIONS structure.
 old-location: display\d3dkmtreclaimallocations.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTReclaimAllocations function"]

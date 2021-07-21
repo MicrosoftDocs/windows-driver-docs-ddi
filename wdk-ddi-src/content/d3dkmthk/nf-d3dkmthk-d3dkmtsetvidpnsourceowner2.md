@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetVidPnSourceOwner2
 title: D3DKMTSetVidPnSourceOwner2 function (d3dkmthk.h)
-description: Used to set the VidPN source owner.
+description: The D3DKMTSetVidPnSourceOwner2 function is used to set the video present network (VidPN) source owner.
 old-location: display\d3dkmtsetvidpnsourceowner2.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetVidPnSourceOwner2 function"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.Request
 title: IDebugAdvanced2::Request (dbgeng.h)
-description: The Request method performs a variety of different operations.
+description: The IDebugAdvanced2 interface Request method performs a variety of different operations specified by the Request parameter.
 old-location: debugger\request.htm
 tech.root: debugger
 ms.date: 05/03/2018

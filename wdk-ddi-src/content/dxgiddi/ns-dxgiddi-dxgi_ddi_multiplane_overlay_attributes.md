@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 title: DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES (dxgiddi.h)
-description: Used by the user-mode display driver to specify overlay plane attributes.
+description: The DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure contains information that is used by the user-mode display driver to specify overlay plane attributes.
 old-location: display\dxgi_ddi_multiplane_overlay_attributes.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSystemObjectInformation
 title: IDebugAdvanced3::GetSystemObjectInformation (dbgeng.h)
-description: The GetSystemObjectInformation method returns information about operating system objects on the target.
+description: The IDebugAdvanced3::GetSystemObjectInformation method returns specified information about operating system objects on the target.
 old-location: debugger\getsystemobjectinformation.htm
 tech.root: debugger
 ms.date: 05/03/2018

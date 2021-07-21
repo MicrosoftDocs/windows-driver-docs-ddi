@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
 title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 (d3dkmthk.h)
-description: Check multiplane overlay plane.
+description: The _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 structure contains information that is used to check the multiplane overlay plane.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 structure"]
 ms.keywords: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2, D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2,
