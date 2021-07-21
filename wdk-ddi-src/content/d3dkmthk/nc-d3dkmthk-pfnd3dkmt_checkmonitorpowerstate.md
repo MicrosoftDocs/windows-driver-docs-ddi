@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKMONITORPOWERSTATE
 title: PFND3DKMT_CHECKMONITORPOWERSTATE (d3dkmthk.h)
-description: The D3DKMTCheckMonitorPowerState function verifies the power state of a monitor.
+description: The PFND3DKMT_CHECKMONITORPOWERSTATE function verifies the power state of a monitor. The function returns STATUS_SUCCESS on successful verification.
 old-location: display\d3dkmtcheckmonitorpowerstate.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHECKMONITORPOWERSTATE callback function"]

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
 title: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 (d3dkmddi.h)
-description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
+description: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 is used by the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check support for a multi-plane overlay configuration.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport3.htm
 ms.date: 04/16/2018
 keywords: ["DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure"]
