@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.OpenDumpFile
 title: IDebugClient3::OpenDumpFile (dbgeng.h)
-description: The OpenDumpFile method opens a dump file as a debugger target.
+description: The OpenDumpFile method opens a dump file as a debugger target. This method belongs to the IDebugClient3 interface.
 old-location: debugger\opendumpfile.htm
 tech.root: debugger
 ms.date: 05/03/2018

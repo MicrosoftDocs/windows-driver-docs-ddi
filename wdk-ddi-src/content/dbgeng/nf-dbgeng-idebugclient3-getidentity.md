@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetIdentity
 title: IDebugClient3::GetIdentity (dbgeng.h)
-description: The GetIdentity method returns a string describing the computer and user this client represents.
+description: The GetIdentity method returns a string describing the computer and user this client represents. This method belongs to the IDebugClient3 interface.
 old-location: debugger\getidentity.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.WaitForProcessServerEnd
 title: IDebugClient2::WaitForProcessServerEnd (dbgeng.h)
-description: The WaitForProcessServerEnd method waits for a local process server to exit.
+description: The WaitForProcessServerEnd method waits for a local process server to exit. This method belongs to the IDebugClient2 interface.
 old-location: debugger\waitforprocessserverend.htm
 tech.root: debugger
 ms.date: 05/03/2018
