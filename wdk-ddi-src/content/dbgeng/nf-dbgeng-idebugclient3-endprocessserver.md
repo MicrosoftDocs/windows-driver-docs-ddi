@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.EndProcessServer
 title: IDebugClient3::EndProcessServer (dbgeng.h)
-description: The EndProcessServer method requests that a process server be shut down.
+description: The EndProcessServer method requests that a process server be shut down. This method belongs to the IDebugClient3 interface.
 old-location: debugger\endprocessserver.htm
 tech.root: debugger
 ms.date: 05/03/2018
