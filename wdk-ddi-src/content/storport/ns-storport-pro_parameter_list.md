@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_12
+UID: NS:storport.__unnamed_struct_17
 title: PRO_PARAMETER_LIST (storport.h)
 description: The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
 old-location: storage\pro_parameter_list.htm
