@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetOtherOutputMask
 title: IDebugClient4::GetOtherOutputMask (dbgeng.h)
-description: The GetOtherOutputMask method returns the output mask for another client.
+description: The GetOtherOutputMask method returns the output mask for another client. This method belongs to the IDebugClient4 interface.
 old-location: debugger\getotheroutputmask.htm
 tech.root: debugger
 ms.date: 05/03/2018

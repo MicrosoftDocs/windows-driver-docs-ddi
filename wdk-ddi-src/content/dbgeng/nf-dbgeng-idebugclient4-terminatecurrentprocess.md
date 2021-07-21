@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.TerminateCurrentProcess
 title: IDebugClient4::TerminateCurrentProcess (dbgeng.h)
-description: The TerminateCurrentProcess method attempts to terminate the current process.
+description: The TerminateCurrentProcess method attempts to terminate the current process. This method belongs to the IDebugClient4 interface.
 old-location: debugger\terminatecurrentprocess.htm
 tech.root: debugger
 ms.date: 05/03/2018

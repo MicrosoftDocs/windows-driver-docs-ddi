@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.DisconnectProcessServer
 title: IDebugClient4::DisconnectProcessServer (dbgeng.h)
-description: The DisconnectProcessServer method disconnects the debugger engine from a process server.
+description: The DisconnectProcessServer method disconnects the debugger engine from a process server. This method belongs to the IDebugClient4 interface.
 old-location: debugger\disconnectprocessserver.htm
 tech.root: debugger
 ms.date: 05/03/2018

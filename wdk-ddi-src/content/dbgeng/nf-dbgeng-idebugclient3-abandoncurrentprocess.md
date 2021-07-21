@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.AbandonCurrentProcess
 title: IDebugClient3::AbandonCurrentProcess (dbgeng.h)
-description: The AbandonCurrentProcess method removes the current process from the debugger engine's process list without detaching or terminating the process.
+description: The IDebugClient3::AbandonCurrentProcess method removes the current process from the engine's process list without detaching or terminating the process.
 old-location: debugger\abandoncurrentprocess.htm
 tech.root: debugger
 ms.date: 05/03/2018

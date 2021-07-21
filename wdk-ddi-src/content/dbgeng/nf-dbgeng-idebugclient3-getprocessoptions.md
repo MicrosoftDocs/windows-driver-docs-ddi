@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetProcessOptions
 title: IDebugClient3::GetProcessOptions (dbgeng.h)
-description: The GetProcessOptions method retrieves the process options affecting the current process.
+description: The GetProcessOptions method retrieves the process options affecting the current process. This method belongs to the IDebugClient3 interface.
 old-location: debugger\getprocessoptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

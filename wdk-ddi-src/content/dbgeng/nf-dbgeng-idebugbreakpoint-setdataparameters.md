@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetDataParameters
 title: IDebugBreakpoint::SetDataParameters (dbgeng.h)
-description: The SetDataParameters method sets the parameters for a processor breakpoint.
+description: The SetDataParameters method sets the parameters for a processor breakpoint. This method belongs to the IDebugBreakpoint interface.
 old-location: debugger\setdataparameters.htm
 tech.root: debugger
 ms.date: 05/03/2018

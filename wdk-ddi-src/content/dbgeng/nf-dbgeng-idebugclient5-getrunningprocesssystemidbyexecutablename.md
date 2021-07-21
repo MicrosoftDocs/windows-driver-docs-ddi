@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetRunningProcessSystemIdByExecutableName
 title: IDebugClient5::GetRunningProcessSystemIdByExecutableName (dbgeng.h)
-description: The GetRunningProcessSystemIdByExecutableName method searches for a process with a given executable file name and return its process ID.
+description: The IDebugClient5::GetRunningProcessSystemIdByExecutableName method searches for a process with a given executable file name and return its process ID.
 old-location: debugger\getrunningprocesssystemidbyexecutablename.htm
 tech.root: debugger
 ms.date: 05/03/2018

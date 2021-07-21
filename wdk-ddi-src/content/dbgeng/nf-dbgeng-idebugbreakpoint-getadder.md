@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetAdder
 title: IDebugBreakpoint::GetAdder (dbgeng.h)
-description: The GetAdder method returns the client that owns the breakpoint.
+description: The GetAdder method returns the client that owns the breakpoint. This method belongs to the IDebugBreakpoint interface.
 old-location: debugger\getadder.htm
 tech.root: debugger
 ms.date: 05/03/2018

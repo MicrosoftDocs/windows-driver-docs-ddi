@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetPassCount
 title: IDebugBreakpoint::SetPassCount (dbgeng.h)
-description: The SetPassCount method sets the number of times that the target must reach the breakpoint location before the breakpoint is triggered.
+description: The IDebugBreakpoint::SetPassCount method sets the number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\setpasscount.htm
 tech.root: debugger
 ms.date: 05/03/2018

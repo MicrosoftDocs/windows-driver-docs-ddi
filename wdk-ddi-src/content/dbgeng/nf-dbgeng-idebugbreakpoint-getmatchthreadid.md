@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetMatchThreadId
 title: IDebugBreakpoint::GetMatchThreadId (dbgeng.h)
-description: The GetMatchThreadId method returns the engine thread ID of the thread that can trigger a breakpoint.
+description: The GetMatchThreadId method returns the engine thread ID of the thread that can trigger a breakpoint. This method belongs to the IDebugBreakpoint interface.
 old-location: debugger\getmatchthreadid.htm
 tech.root: debugger
 ms.date: 05/03/2018

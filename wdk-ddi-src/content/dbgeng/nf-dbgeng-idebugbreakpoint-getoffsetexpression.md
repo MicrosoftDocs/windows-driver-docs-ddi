@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetOffsetExpression
 title: IDebugBreakpoint::GetOffsetExpression (dbgeng.h)
-description: The GetOffsetExpression methods return the expression string that evaluates to the location that triggers a breakpoint.
+description: The IDebugBreakpoint::GetOffsetExpression methods return the expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\getoffsetexpression.htm
 tech.root: debugger
 ms.date: 05/03/2018

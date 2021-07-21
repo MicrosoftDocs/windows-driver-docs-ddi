@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetExitCode
 title: IDebugClient3::GetExitCode (dbgeng.h)
-description: The GetExitCode method returns the exit code of the current process if that process has already run through to completion.
+description: The IDebugClient3::GetExitCode method returns the exit code of the current process if that process has already run through to completion.
 old-location: debugger\getexitcode.htm
 tech.root: debugger
 ms.date: 05/03/2018

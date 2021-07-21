@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.GetOutputCallbacks
 title: IDebugClient2::GetOutputCallbacks (dbgeng.h)
-description: The GetOutputCallbacks method returns the output callbacks object registered with the client.
+description: The GetOutputCallbacks method returns the output callbacks object registered with the client. This method belongs to the IDebugClient2 interface.
 old-location: debugger\getoutputcallbacks.htm
 tech.root: debugger
 ms.date: 05/03/2018

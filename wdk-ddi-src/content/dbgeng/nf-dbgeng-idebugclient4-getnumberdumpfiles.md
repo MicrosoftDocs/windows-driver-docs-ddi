@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetNumberDumpFiles
 title: IDebugClient4::GetNumberDumpFiles (dbgeng.h)
-description: The GetNumberDumpFiles method returns the number of files containing supporting information that were used when opening the current dump target.
+description: The IDebugClient4::GetNumberDumpFiles method returns the number of files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getnumberdumpfiles.htm
 tech.root: debugger
 ms.date: 05/03/2018

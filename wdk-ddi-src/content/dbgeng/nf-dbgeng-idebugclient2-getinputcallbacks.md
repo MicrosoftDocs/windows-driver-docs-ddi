@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.GetInputCallbacks
 title: IDebugClient2::GetInputCallbacks (dbgeng.h)
-description: The GetInputCallbacks method returns the input callbacks object registered with this client.
+description: The GetInputCallbacks method returns the input callbacks object registered with this client. This method belongs to the IDebugClient2 interface.
 old-location: debugger\getinputcallbacks.htm
 tech.root: debugger
 ms.date: 05/03/2018
