@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.WriteVirtualUncached
 title: IDebugDataSpaces::WriteVirtualUncached (dbgeng.h)
-description: The WriteVirtualUncached method writes data to the target's virtual address space.
+description: The WriteVirtualUncached method writes data to the target's virtual address space. This method belongs to the IDebugDataSpaces interface.
 old-location: debugger\writevirtualuncached.htm
 tech.root: debugger
 ms.date: 05/03/2018

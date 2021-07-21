@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetDebuggeeType
 title: IDebugControl::GetDebuggeeType (dbgeng.h)
-description: The GetDebuggeeType method describes the nature of the current target.
+description: The GetDebuggeeType method describes the nature of the current target. This method belongs to the IDebugControl interface.
 old-location: debugger\getdebuggeetype.htm
 tech.root: debugger
 ms.date: 05/03/2018

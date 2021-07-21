@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WritePhysical
 title: IDebugDataSpaces4::WritePhysical (dbgeng.h)
-description: The WritePhysical method writes data to the specified physical address in the target's memory.
+description: The WritePhysical method writes data to the specified physical address in the target's memory. This method belongs to the IDebugDataSpaces4 interface.
 old-location: debugger\writephysical3.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetCurrentTimeDate
 title: IDebugControl3::GetCurrentTimeDate (dbgeng.h)
-description: The GetCurrentTimeDate method returns the time of the current target.
+description: The GetCurrentTimeDate method returns the time of the current target. This method belongs to the IDebugControl3 interface.
 old-location: debugger\getcurrenttimedate.htm
 tech.root: debugger
 ms.date: 05/03/2018

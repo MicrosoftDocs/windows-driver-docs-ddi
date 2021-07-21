@@ -5,7 +5,7 @@ title: IDebugEventContextCallbacks::CreateProcess
 ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: The CreateProcess callback method is called by the engine when a create-process debugging event occurs in the target.
+description: The IDebugEventContextCallbacks::CreateProcess callback method is called by the engine when a create-process debugging event occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

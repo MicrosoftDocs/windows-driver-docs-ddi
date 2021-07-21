@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveTextReplacements
 title: IDebugControl3::RemoveTextReplacements (dbgeng.h)
-description: The RemoveTextReplacements method removes all user-named aliases.
+description: The RemoveTextReplacements method removes all user-named aliases. This method belongs to the IDebugControl3 interface.
 old-location: debugger\removetextreplacements.htm
 tech.root: debugger
 ms.date: 05/03/2018

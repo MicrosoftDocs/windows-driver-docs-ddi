@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.SetInputCallbacks
 title: IDebugClient2::SetInputCallbacks (dbgeng.h)
-description: The SetInputCallbacks method registers an input callbacks object with the client.
+description: The SetInputCallbacks method registers an input callbacks object with the client. This method belongs to the IDebugClient2 interface.
 old-location: debugger\setinputcallbacks.htm
 tech.root: debugger
 ms.date: 05/03/2018
