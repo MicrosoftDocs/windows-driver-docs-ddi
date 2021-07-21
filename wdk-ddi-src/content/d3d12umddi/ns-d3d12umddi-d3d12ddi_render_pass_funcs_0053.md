@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_FUNCS_0053
 title: D3D12DDI_RENDER_PASS_FUNCS_0053 (d3d12umddi.h)
-description: Callback functions used to begin and end a Render Pass.
+description: The D3D12DDI_RENDER_PASS_FUNCS_0053 structure contains callback functions used to begin and end a render pass.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RENDER_PASS_FUNCS_0053 structure"]
 ms.keywords: D3D12DDI_RENDER_PASS_FUNCS_0053, D3D12DDI_RENDER_PASS_FUNCS_0053,

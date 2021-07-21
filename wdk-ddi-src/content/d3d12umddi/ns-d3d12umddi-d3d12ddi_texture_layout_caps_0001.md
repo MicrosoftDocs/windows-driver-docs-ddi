@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 title: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 (d3d12umddi.h)
-description: Specifies texture layout capabilities.
+description: The D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure specifies texture layout capabilities.
 old-location: display\d3d12ddi_texture_layout_caps_0001.htm
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure"]

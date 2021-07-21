@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.WheaInitializeRecordHeader
 title: WheaInitializeRecordHeader function
-description: Reserved for system use.
+description: "Microsoft reserves the WheaInitializeRecordHeader function for internal use only. Don't use this function in your code."
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WheaInitializeRecordHeader function"]

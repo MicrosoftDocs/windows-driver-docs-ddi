@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053
 title: PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 (d3d12umddi.h)
-description: Creates the video motion estimator.
+description: The PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 callback function creates a video motion estimator.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 callback function"]
 req.header: d3d12umddi.h

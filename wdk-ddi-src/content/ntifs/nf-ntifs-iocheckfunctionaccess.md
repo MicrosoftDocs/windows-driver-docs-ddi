@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoCheckFunctionAccess
 title: IoCheckFunctionAccess function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the IoCheckFunctionAccess function for internal use only. Don't use this function in your code."
 old-location: ifsk\iocheckfunctionaccess.htm
 tech.root: ifsk
 ms.date: 05/30/2019

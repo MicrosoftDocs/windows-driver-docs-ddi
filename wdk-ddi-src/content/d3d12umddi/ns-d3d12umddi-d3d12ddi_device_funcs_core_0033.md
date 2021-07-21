@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0033
 title: D3D12DDI_DEVICE_FUNCS_CORE_0033 (d3d12umddi.h)
-description: Core device functions.
+description: The D3D12DDI_DEVICE_FUNCS_CORE_0033 structure contains core device functions for user-mode display drivers.
 old-location: display\d3d12ddi-device-funcs-core-0033.htm
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0033 structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_PIPELINE_STATE_0001
 title: PFND3D12DDI_CREATE_PIPELINE_STATE_0001 (d3d12umddi.h)
-description: The pfnCreatePipelineState callback function creates a pipeline state.
+description: The PFND3D12DDI_CREATE_PIPELINE_STATE_0001 callback function creates a pipeline state.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CREATE_PIPELINE_STATE_0001 callback function"]
 req.header: d3d12umddi.h
