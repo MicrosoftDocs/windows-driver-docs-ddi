@@ -5,7 +5,7 @@ title: IDebugEventContextCallbacks::LoadModule
 ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.
+description: The IDebugEventContextCallbacks::LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

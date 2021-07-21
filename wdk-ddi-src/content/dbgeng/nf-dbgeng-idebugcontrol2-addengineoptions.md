@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.AddEngineOptions
 title: IDebugControl2::AddEngineOptions (dbgeng.h)
-description: The AddEngineOptions method turns on some of the debugger engine's options.
+description: The AddEngineOptions method turns on some of the debugger engine's options. This method belongs to the IDebugControl2 interface.
 old-location: debugger\addengineoptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

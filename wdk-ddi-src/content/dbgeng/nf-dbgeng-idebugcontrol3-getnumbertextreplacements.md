@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberTextReplacements
 title: IDebugControl3::GetNumberTextReplacements (dbgeng.h)
-description: The GetNumberTextReplacements method returns the number of currently defined user-named and automatic aliases.
+description: The GetNumberTextReplacements method returns the number of currently defined user-named and automatic aliases. This method belongs to IDebugControl3.
 old-location: debugger\getnumbertextreplacements.htm
 tech.root: debugger
 ms.date: 05/03/2018

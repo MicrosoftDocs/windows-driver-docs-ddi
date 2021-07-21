@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetFrameOffset
 title: IDebugRegisters::GetFrameOffset (dbgeng.h)
-description: The GetFrameOffset method returns the location of the stack frame for the current function.
+description: The GetFrameOffset method returns the location of the stack frame for the current function. This method belongs to the IDebugRegisters interface.
 old-location: debugger\getframeoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.OutputRegisters
 title: IDebugRegisters2::OutputRegisters (dbgeng.h)
-description: The OutputRegisters method formats and sends the target's registers to the clients as output.
+description: The OutputRegisters method formats and sends the target's registers to the clients as output. This method belongs to the IDebugRegisters2 interface.
 old-location: debugger\outputregisters.htm
 tech.root: debugger
 ms.date: 05/03/2018

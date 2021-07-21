@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ExitProcess
 title: IDebugEventCallbacks::ExitProcess (dbgeng.h)
-description: The ExitProcess callback method is called by the engine when an exit-process debugging event occurs in the target.
+description: The ExitProcess callback method is called by the engine when an exit-process debugging event occurs in the target. This method belongs to IDebugEventCallbacks.
 old-location: debugger\idebugeventcallbacks_exitprocess.htm
 tech.root: debugger
 ms.date: 05/03/2018

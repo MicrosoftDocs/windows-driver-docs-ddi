@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadProcessorSystemData
 title: IDebugDataSpaces3::ReadProcessorSystemData (dbgeng.h)
-description: The ReadProcessorSystemData method returns data about the specified processor.
+description: The ReadProcessorSystemData method returns data about the specified processor. This method belongs to the IDebugDataSpaces3 interface.
 old-location: debugger\readprocessorsystemdata.htm
 tech.root: debugger
 ms.date: 05/03/2018

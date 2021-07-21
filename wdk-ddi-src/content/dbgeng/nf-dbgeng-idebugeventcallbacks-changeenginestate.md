@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ChangeEngineState
 title: IDebugEventCallbacks::ChangeEngineState (dbgeng.h)
-description: The ChangeEngineState callback method is called by the engine when its state has changed.
+description: The ChangeEngineState callback method is called by the engine when its state has changed. This method belongs to the IDebugEventCallbacks interface.
 old-location: debugger\idebugeventcallbacks_changeenginestate.htm
 tech.root: debugger
 ms.date: 05/03/2018

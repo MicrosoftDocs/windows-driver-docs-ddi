@@ -5,7 +5,7 @@ title: IDebugEventContextCallbacks::Exception
 ms.date: 02/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: The Exception callback method is called by the engine when an exception debugging event occurs in the target.
+description: The IDebugEventContextCallbacks::Exception callback method is called by the engine when an exception debugging event occurs in the target.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

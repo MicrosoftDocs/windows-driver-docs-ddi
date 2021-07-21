@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetBreakpointById
 title: IDebugControl::GetBreakpointById (dbgeng.h)
-description: The GetBreakpointById method returns the breakpoint with the specified breakpoint ID.
+description: The GetBreakpointById method returns the breakpoint with the specified breakpoint ID. This method belongs to the IDebugControl interface.
 old-location: debugger\getbreakpointbyid.htm
 tech.root: debugger
 ms.date: 05/03/2018

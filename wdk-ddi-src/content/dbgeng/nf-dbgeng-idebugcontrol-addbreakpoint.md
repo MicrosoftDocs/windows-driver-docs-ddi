@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.AddBreakpoint
 title: IDebugControl::AddBreakpoint (dbgeng.h)
-description: The AddBreakpoint method creates a new breakpoint for the current target.
+description: The AddBreakpoint method creates a new breakpoint for the current target. This method belongs to the IDebugControl interface.
 old-location: debugger\addbreakpoint.htm
 tech.root: debugger
 ms.date: 05/03/2018
