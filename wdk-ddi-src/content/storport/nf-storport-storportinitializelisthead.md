@@ -42,37 +42,26 @@ api_name:
 
 # StorPortInitializeListHead function
 
-
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-The <b>StorPortInitializeListHead</b> routine initializes a <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of a doubly linked list.
+The **StorPortInitializeListHead** routine initializes a [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of a doubly linked list.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension for the host bus adapter (HBA).
+[in] A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param ListHead 
+### -param ListHead
 
-[out]
-Pointer to the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
+[out] Pointer to the [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of the list.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
+[**InitializeListHead**](../wdm/nf-wdm-initializelisthead.md)
 
+[**StorPortInterlockedInsertHeadList**](nf-storport-storportinterlockedinsertheadlist.md)
 
+[**StorPortInterlockedInsertTailList**](nf-storport-storportinterlockedinserttaillist.md)
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedinsertheadlist">StorPortInterlockedInsertHeadList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedinserttaillist">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
+[**StorPortInterlockedRemoveHeadList**](nf-storport-storportinterlockedremoveheadlist.md)

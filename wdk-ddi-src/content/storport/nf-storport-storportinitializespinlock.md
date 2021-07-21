@@ -42,87 +42,41 @@ api_name:
 
 # StorPortInitializeSpinlock function
 
-
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-The <b>StorPortInitializeSpinLock </b>routine initializes a variable of type <b>STOR_KSPIN_LOCK</b>.
+The **StorPortInitializeSpinLock** routine initializes a variable of type **STOR_KSPIN_LOCK**.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension for the host bus adapter (HBA).
+[in] A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Lock 
+### -param Lock
 
-[out]
-Pointer to a spin lock of type <b>STOR_KSPIN_LOCK</b>, for which the caller must provide the storage
+[out] Pointer to a spin lock of type **STOR_KSPIN_LOCK**, for which the caller must provide the storage
 
 ## -returns
 
-<b>StorPortInitializeSpinlock</b> returns one of the following status codes:
+**StorPortInitializeSpinlock** returns a status code such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The list items were removed successfully or the list is already empty.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_NOT_IMPLEMENTED   | This function is not implemented on the active operating system. |
+| STOR_STATUS_SUCCESS           | The list items were removed successfully or the list is already empty. |
 
 ## -remarks
 
-This routine must be called before an initial call to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>, to any other support routine that requires a spin lock as an argument.
+This routine must be called before an initial call to [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md), to any other support routine that requires a spin lock as an argument.
 
-For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/spin-locks).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a>
+[**StorPortAcquireMSISpinLock**](nf-storport-storportacquiremsispinlock.md)
 
+[**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md)
 
+[**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md)
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasemsispinlock">StorPortReleaseMSISpinLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasespinlock">StorPortReleaseSpinLock</a>
+[**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md)
