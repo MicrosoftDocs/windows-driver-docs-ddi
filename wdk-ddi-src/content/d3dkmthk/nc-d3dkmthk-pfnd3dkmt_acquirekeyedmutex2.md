@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ACQUIREKEYEDMUTEX2
 title: PFND3DKMT_ACQUIREKEYEDMUTEX2 (d3dkmthk.h)
-description: Acquires a keyed mutex object that includes private data.
+description: The PFND3DKMT_ACQUIREKEYEDMUTEX2 callback function acquires a keyed mutex object that includes private data.
 old-location: display\d3dkmtacquirekeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_ACQUIREKEYEDMUTEX2 callback function"]

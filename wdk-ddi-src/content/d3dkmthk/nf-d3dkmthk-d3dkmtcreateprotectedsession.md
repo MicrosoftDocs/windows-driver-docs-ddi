@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateProtectedSession
 title: D3DKMTCreateProtectedSession function (d3dkmthk.h)
-description: Used to create a protected session.
+description: The D3DKMTCreateProtectedSession function creates a protected session and returns STATUS_SUCCESS on successful completion.
 old-location: display\d3dkmtcreateprotectedsession.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateProtectedSession function"]

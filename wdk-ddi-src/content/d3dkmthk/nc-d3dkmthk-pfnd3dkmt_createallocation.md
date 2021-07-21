@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEALLOCATION
 title: PFND3DKMT_CREATEALLOCATION (d3dkmthk.h)
-description: The D3DKMTCreateAllocation function creates allocations of system or video memory.
+description: The PFND3DKMT_CREATEALLOCATION function creates or adds allocations of system or video memory. The allocations can be standalone or associated with a resource.
 old-location: display\d3dkmtcreateallocation.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATEALLOCATION callback function"]

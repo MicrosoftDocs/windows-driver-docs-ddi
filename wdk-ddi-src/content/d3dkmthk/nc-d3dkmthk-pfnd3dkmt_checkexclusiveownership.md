@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP
 title: PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP (d3dkmthk.h)
-description: The D3DKMTCheckExclusiveOwnership function checks whether any kernel device object in the operating system has an exclusive level of ownership of any video present sources.
+description: The PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP function checks whether any kernel device object in the operating system is an exclusive owner of any video present sources.
 old-location: display\d3dkmtcheckexclusiveownership.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback function"]

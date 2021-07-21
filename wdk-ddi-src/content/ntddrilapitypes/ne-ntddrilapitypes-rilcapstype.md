@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCAPSTYPE
 title: RILCAPSTYPE (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILCAPSTYPE enumeration for internal use only. Don't use this enumeration in your code."
 old-location: netvista\rilcapstype.htm
 tech.root: netvista
 ms.date: 05/02/2018

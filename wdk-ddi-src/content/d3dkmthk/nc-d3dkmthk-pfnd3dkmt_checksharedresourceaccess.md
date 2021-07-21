@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKSHAREDRESOURCEACCESS
 title: PFND3DKMT_CHECKSHAREDRESOURCEACCESS (d3dkmthk.h)
-description: The D3DKMTCheckSharedResourceAccess function determines if a process can access a shared resource.
+description: The PFND3DKMT_CHECKSHAREDRESOURCEACCESS function determines whether a process can access a shared resource.
 old-location: display\d3dkmtchecksharedresourceaccess.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHECKSHAREDRESOURCEACCESS callback function"]

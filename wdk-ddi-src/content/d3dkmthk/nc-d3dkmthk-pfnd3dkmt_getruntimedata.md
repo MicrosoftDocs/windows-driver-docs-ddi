@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETRUNTIMEDATA
 title: PFND3DKMT_GETRUNTIMEDATA (d3dkmthk.h)
-description: The D3DKMTGetRuntimeData function is for system use only.
+description: "Microsoft reserves the PFND3DKMT_GETRUNTIMEDATA callback function for internal use only. Don't use this function in your code."
 old-location: display\d3dkmtgetruntimedata.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_GETRUNTIMEDATA callback function"]

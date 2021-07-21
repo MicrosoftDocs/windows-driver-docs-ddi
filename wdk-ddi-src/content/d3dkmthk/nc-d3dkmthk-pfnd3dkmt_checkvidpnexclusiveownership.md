@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 title: PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP (d3dkmthk.h)
-description: The D3DKMTCheckVidPnExclusiveOwnership function determines the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
+description: The PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback function determines the video present source with exclusive ownership of a video present network (VidPN).
 old-location: display\d3dkmtcheckvidpnexclusiveownership.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback function"]

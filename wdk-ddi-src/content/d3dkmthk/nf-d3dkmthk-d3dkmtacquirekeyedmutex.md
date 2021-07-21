@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAcquireKeyedMutex
 title: D3DKMTAcquireKeyedMutex function (d3dkmthk.h)
-description: The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object.
+description: The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object. The function returns STATUS_SUCCESS if the keyed mutex object was successfully acquired.
 old-location: display\d3dkmtacquirekeyedmutex.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTAcquireKeyedMutex function"]
