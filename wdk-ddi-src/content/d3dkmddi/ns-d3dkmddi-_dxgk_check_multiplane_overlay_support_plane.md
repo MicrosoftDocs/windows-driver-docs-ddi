@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 title: _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE (d3dkmddi.h)
-description: Specifies the support attributes that the hardware provides for multiplane overlays.
+description: The DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure specifies the support attributes that the hardware provides for multiplane overlays.
 old-location: display\dxgk_check_multiplane_overlay_support_plane.htm
 ms.date: 05/10/2018
 keywords: ["DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure"]

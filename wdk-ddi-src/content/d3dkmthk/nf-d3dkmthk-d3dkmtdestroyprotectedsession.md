@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyProtectedSession
 title: D3DKMTDestroyProtectedSession function (d3dkmthk.h)
-description: Used to destroy a protected session.
+description: The D3DKMTDestroyProtectedSession function destroys a protected session and returns STATUS_SUCCESS on successful completion.
 old-location: display\d3dkmtdestroyprotectedsession.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTDestroyProtectedSession function"]

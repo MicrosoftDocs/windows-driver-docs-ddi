@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_BLEND
 title: _D3DDDI_MULTIPLANE_OVERLAY_BLEND (d3dumddi.h)
-description: Identifies a blend operation to be performed on an overlay plane.
+description: The D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration identifies a blend operation to be performed on an overlay plane.
 old-location: display\d3dddi_multiplane_overlay_blend.htm
 tech.root: display
 ms.date: 05/10/2018

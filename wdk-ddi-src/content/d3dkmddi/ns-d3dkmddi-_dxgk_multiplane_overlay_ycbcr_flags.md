@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 title: _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS (d3dkmddi.h)
-description: Identifies YUV range and conversion info that describes a multiplane overlay.
+description: The DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure identifies YUV range and conversion info that describes a multiplane overlay.
 old-location: display\dxgk_multiplane_overlay_ycbcr_flags.htm
 ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure"]

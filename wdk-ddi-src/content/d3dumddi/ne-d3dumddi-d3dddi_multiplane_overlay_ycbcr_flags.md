@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 title: D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS (d3dumddi.h)
-description: Identifies YUV range and conversion info that describes a multiplane overlay.
+description: The D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration identifies YUV range and conversion info that describes a multiplane overlay.
 old-location: display\d3dddi_multiplane_overlay_ycbcr_flags.htm
 tech.root: display
 ms.date: 05/10/2018

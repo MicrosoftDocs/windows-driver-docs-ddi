@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO
 title: DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO (dxgiddi.h)
-description: Specifies the support attributes that the hardware provides for multiplane overlays.
+description: The DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure specifies the support attributes that the hardware provides for multiplane overlays.
 old-location: display\dxgi_ddi_check_multiplaneoverlaysupport_plane_info.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEPROTECTEDSESSION
 title: _D3DKMT_CREATEPROTECTEDSESSION (d3dkmthk.h)
-description: Used to create a protected session.
+description: The D3DKMT_CREATEPROTECTEDSESSION structure contains data that is used to create a protected session.
 old-location: display\d3dkmt-createprotectedsession.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATEPROTECTEDSESSION structure"]
