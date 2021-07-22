@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 title: _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_started_parameters.htm
 tech.root: netvista
 ms.date: 02/16/2018

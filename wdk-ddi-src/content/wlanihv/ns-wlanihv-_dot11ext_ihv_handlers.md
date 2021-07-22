@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanihv._DOT11EXT_IHV_HANDLERS
 title: _DOT11EXT_IHV_HANDLERS (wlanihv.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11EXT_IHV_HANDLERS structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11ext_ihv_handlers.htm
 tech.root: netvista
 ms.date: 02/16/2018

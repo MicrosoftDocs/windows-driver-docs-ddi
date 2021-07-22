@@ -1,7 +1,7 @@
 ---
 UID: NC:wlanihv.DOT11EXT_ONEX_START
 title: DOT11EXT_ONEX_START (wlanihv.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11EXT_ONEX_START callback function is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11extstartonex.htm
 tech.root: netvista
 ms.date: 02/16/2018
