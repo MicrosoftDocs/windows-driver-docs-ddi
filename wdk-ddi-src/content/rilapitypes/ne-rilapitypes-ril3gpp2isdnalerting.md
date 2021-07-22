@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RIL3GPP2ISDNALERTING
 title: RIL3GPP2ISDNALERTING (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RIL3GPP2ISDNALERTING enumeration for internal use only. Don't use this enumeration in your code."
 old-location: netvista\ril3gpp2isdnalerting.htm
 tech.root: netvista
 ms.date: 05/02/2018

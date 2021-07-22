@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILCOMMANDS
 title: RILCOMMANDS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILCOMMANDS enumeration for internal use only. Don't use this enumeration in your code."
 old-location: netvista\rilcommands.htm
 tech.root: netvista
 ms.date: 05/02/2018

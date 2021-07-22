@@ -1,7 +1,7 @@
 ---
 UID: NF:rilapi.RIL_GetUiccAppPersoCheckState
 title: RIL_GetUiccAppPersoCheckState function (rilapi.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RIL_GetUiccAppPersoCheckState function for internal use only. Don't use this function in your code."
 old-location: netvista\ril_getuiccapppersocheckstate.htm
 tech.root: netvista
 ms.date: 05/02/2018
