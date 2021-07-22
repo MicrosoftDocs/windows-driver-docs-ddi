@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetValues
 title: IDebugRegisters2::GetValues (dbgeng.h)
-description: The GetValues method gets the value of several of the target's registers.
+description: The GetValues method gets the value of several of the target's registers. This method belongs to the IDebugRegisters2 interface.
 old-location: debugger\getvalues.htm
 tech.root: debugger
 ms.date: 05/03/2018

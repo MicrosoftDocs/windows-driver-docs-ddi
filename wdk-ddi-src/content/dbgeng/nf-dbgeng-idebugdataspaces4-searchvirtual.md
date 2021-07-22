@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.SearchVirtual
 title: IDebugDataSpaces4::SearchVirtual (dbgeng.h)
-description: The SearchVirtual method searches the target's virtual memory for a specified pattern of bytes.
+description: The SearchVirtual method searches the target's virtual memory for a specified pattern of bytes. This method belongs to the IDebugDataSpaces4 interface.
 old-location: debugger\searchvirtual.htm
 tech.root: debugger
 ms.date: 05/03/2018

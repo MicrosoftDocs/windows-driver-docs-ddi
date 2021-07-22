@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEODECODER_0072
 title: PFND3D12DDI_CREATEVIDEODECODER_0072 (d3d12umddi.h)
-description: Used to create a video decoder.
+description: The PFND3D12DDI_CREATEVIDEODECODER_0072 callback function creates a video decoder.
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CREATEVIDEODECODER_0072 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0072, PFND3D12DDI_CREATEVIDEODECODER_0072 callback, PFND3D12DDI_CREATEVIDEODECODER_0072 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODER_0072, display.pfnd3d12ddi_createvideodecoder_0072

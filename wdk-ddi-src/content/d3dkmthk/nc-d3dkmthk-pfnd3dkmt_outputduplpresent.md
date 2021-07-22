@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLPRESENT
 title: PFND3DKMT_OUTPUTDUPLPRESENT (d3dkmthk.h)
-description: Submits a present command from the Desktop Duplication API swapchain of the Desktop Window Manager (DWM) to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
+description: PFND3DKMT_OUTPUTDUPLPRESENT issues a present command from the Desktop Duplication API swapchain of the Desktop Window Manager to the DirectX kernel subsystem.
 old-location: display\d3dkmtoutputduplpresent.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_OUTPUTDUPLPRESENT callback function"]

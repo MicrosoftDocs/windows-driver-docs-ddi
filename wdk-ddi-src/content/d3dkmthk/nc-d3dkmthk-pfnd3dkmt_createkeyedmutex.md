@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEKEYEDMUTEX
 title: PFND3DKMT_CREATEKEYEDMUTEX (d3dkmthk.h)
-description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
+description: The PFND3DKMT_CREATEKEYEDMUTEX callback creates a keyed mutex object. The function returns STATUS_SUCCESS on successful creation of the keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
 ms.date: 04/01/2021
 keywords: ["PFND3DKMT_CREATEKEYEDMUTEX callback function"]

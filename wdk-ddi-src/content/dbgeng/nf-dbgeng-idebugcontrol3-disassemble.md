@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.Disassemble
 title: IDebugControl3::Disassemble (dbgeng.h)
-description: The Disassemble method disassembles a processor instruction in the target's memory.
+description: The Disassemble method disassembles a processor instruction in the target's memory. This method belongs to the IDebugControl3 interface.
 old-location: debugger\disassemble.htm
 tech.root: debugger
 ms.date: 05/03/2018

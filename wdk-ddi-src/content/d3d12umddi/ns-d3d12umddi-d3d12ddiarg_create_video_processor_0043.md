@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
 title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043 (d3d12umddi.h)
-description: Used to create a video processor.
+description: The D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043 structure is a parameter for creating a video processor.
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043,

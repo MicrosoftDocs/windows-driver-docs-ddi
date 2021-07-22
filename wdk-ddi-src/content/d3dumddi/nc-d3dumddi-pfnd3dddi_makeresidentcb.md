@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MAKERESIDENTCB
 title: PFND3DDDI_MAKERESIDENTCB (d3dumddi.h)
-description: pfnMakeResidentCb is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
+description: PFND3DDDI_MAKERESIDENTCB instructs the OS to add a resource to the device residency list and to increment the residency reference count on this allocation.
 old-location: display\pfnmakeresidentcb.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
-title: _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE (d3dukmdt.h)
+title: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE (d3dukmdt.h)
 description: Indicates that a power transition has completed.
 old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
 tech.root: display
@@ -43,12 +43,9 @@ api_name:
  - DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 ---
 
-# _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure
-
+# DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure
 
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Indicates that a power transition has completed.
 
@@ -61,4 +58,3 @@ The header that is being operated over.
 ### -field PowerState
 
 Indicates the power state to transition to.
-

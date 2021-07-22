@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWINDEXEDPRIMITIVE
 title: _D3DHAL_DP2DRAWINDEXEDPRIMITIVE (d3dhal.h)
-description: DirectX 8.0 and later versions only.
+description: The D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure is used by the D3dDrawPrimitives2 callback function to render a primitive using vertex indices.
 old-location: display\d3dhal_dp2drawindexedprimitive.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_RICH_DEVICE_DESCRIPTION
-title: _STOR_RICH_DEVICE_DESCRIPTION (storport.h)
+title: STOR_RICH_DEVICE_DESCRIPTION (storport.h)
 description: The STOR_RICH_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA (direct memory access) adapter.
 old-location: storage\stor_rich_device_description.htm
 tech.root: storage
@@ -46,28 +46,25 @@ api_name:
  - STOR_RICH_DEVICE_DESCRIPTION
 ---
 
-# _STOR_RICH_DEVICE_DESCRIPTION structure
-
+# STOR_RICH_DEVICE_DESCRIPTION structure
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-The <b>STOR_RICH_DEVICE_DESCRIPTION</b> structure describes the attributes of the <b> physical device </b> for which a driver is requesting a DMA (direct memory access) adapter.
+The **STOR_RICH_DEVICE_DESCRIPTION** structure describes the attributes of the **physical device** for which a driver is requesting a DMA (direct memory access) adapter.
 
 ## -struct-fields
 
 ### -field Version
 
-The version of the structure. Must be STOR_RICH_DEVICE_DESCRIPTION_STRUCTURE_VERSION.
+The version of the structure. Must be **STOR_RICH_DEVICE_DESCRIPTION_STRUCTURE_VERSION**.
 
 ### -field Size
 
-The size of the structure.
+The size of the structure, in bytes.
 
 ### -field VendorId
 
-A string representing the device’s vendor ID. May be an empty string if ModelNumber is provided.
+A string representing the device’s vendor ID. May be an empty string if **ModelNumber** is provided.
 
 ### -field ModelNumber
 
@@ -79,11 +76,10 @@ A string representing the device’s currently active firmware revision.
 
 ## -remarks
 
-Miniport can choose to support this UnitControl if the device reports longer Model or Firmware information than defined in SCSI.
+A miniport can choose to support this unit control if the device reports longer **ModelNumber** or **FirmwareRevision** information than defined in SCSI.
 
-This is invoked during the Unit enumeration process or the device description update process. ScsiUnitRichDescription is a caller-allocated version of this structure.
+This is invoked during the unit enumeration process or the device description update process. **ScsiUnitRichDescription** is a caller-allocated version of this structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
-
+[**HwStorUnitControl**](nc-storport-hw_unit_control.md)

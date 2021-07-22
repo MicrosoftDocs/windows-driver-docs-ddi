@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.LoadModule
 title: IDebugEventCallbacksWide::LoadModule (dbgeng.h)
-description: The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.
+description: The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target. This method belongs to IDebugEventCallbacksWide.
 old-location: debugger\idebugeventcallbackswide_loadmodule.htm
 tech.root: debugger
 ms.date: 05/03/2018

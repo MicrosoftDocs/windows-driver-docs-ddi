@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckSharedResourceAccess
 title: D3DKMTCheckSharedResourceAccess function (d3dkmthk.h)
-description: The D3DKMTCheckSharedResourceAccess function determines if a process can access a shared resource.
+description: The D3DKMTCheckSharedResourceAccess function determines whether a process can access a shared resource.
 old-location: display\d3dkmtchecksharedresourceaccess.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTCheckSharedResourceAccess function"]

@@ -45,12 +45,9 @@ api_name:
 
 # ST_PARAMETER_DATA structure (scsi.h)
 
-
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-The <b>ST_PARAMETER_DATA</b> structure contains the parameter list for the set timestamp command.
+The **ST_PARAMETER_DATA** structure contains the parameter list for the set timestamp command.
 
 ## -struct-fields
 
@@ -69,5 +66,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>
-
+[**RT_PARAMETER_DATA**](../minitape/ns-minitape-rt_parameter_data.md)

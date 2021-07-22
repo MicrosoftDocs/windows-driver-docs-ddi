@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLRELEASEFRAME
 title: PFND3DKMT_OUTPUTDUPLRELEASEFRAME (d3dkmthk.h)
-description: Indicates that the driver has finished processing the duplicated desktop image.
+description: The PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback function indicates that the driver has finished processing the specified duplicated desktop image.
 old-location: display\d3dkmtoutputduplreleaseframe.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback function"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.StartServer
 title: IDebugClient2::StartServer (dbgeng.h)
-description: The StartServer method starts a debugging server.
+description: The StartServer method starts a debugging server. This method belongs to the IDebugClient2 interface.
 old-location: debugger\startserver.htm
 tech.root: debugger
 ms.date: 05/03/2018

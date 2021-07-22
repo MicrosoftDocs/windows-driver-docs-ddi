@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHANGESURFACEPOINTER
 title: PFND3DKMT_CHANGESURFACEPOINTER (d3dkmthk.h)
-description: The D3DKMTChangeSurfacePointer function is for system use only.
+description: "Microsoft reserves the D3DKMTChangeSurfacePointer callback function for internal use only. Don't use this function in your code."
 old-location: display\d3dkmtchangesurfacepointer.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHANGESURFACEPOINTER callback function"]

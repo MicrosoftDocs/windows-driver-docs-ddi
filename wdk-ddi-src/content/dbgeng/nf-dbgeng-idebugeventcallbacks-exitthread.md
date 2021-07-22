@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ExitThread
 title: IDebugEventCallbacks::ExitThread (dbgeng.h)
-description: The ExitThread callback method is called by the engine when an exit-thread debugging event occurs in the target.
+description: The ExitThread callback method is called by the engine when an exit-thread debugging event occurs in the target. This method belongs to IDebugEventCallbacks.
 old-location: debugger\idebugeventcallbacks_exitthread.htm
 tech.root: debugger
 ms.date: 05/03/2018

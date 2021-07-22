@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAcquireKeyedMutex2
 title: D3DKMTAcquireKeyedMutex2 function (d3dkmthk.h)
-description: Acquires a keyed mutex object that includes private data.
+description: The D3DKMTAcquireKeyedMutex2 function acquires a keyed mutex object that includes private data.
 old-location: display\d3dkmtacquirekeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTAcquireKeyedMutex2 function"]

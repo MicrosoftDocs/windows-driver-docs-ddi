@@ -38,9 +38,6 @@ dev_langs:
 
 ## -description
 
-> [!NOTE]
-> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
 The **IDARG_OUT_GETVERSION** structure identifies the IddCx (Indirect Display Driver Class eXtension) version.
 
 ## -struct-fields

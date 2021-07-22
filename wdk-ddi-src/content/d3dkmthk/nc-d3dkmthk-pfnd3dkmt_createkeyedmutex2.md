@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEKEYEDMUTEX2
 title: PFND3DKMT_CREATEKEYEDMUTEX2 (d3dkmthk.h)
-description: Creates a keyed mutex object that includes private data.
+description: The PFND3DKMT_CREATEKEYEDMUTEX2 callback creates a keyed mutex object that includes private data. The function returns STATUS_SUCCESS on successful creation.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATEKEYEDMUTEX2 callback function"]

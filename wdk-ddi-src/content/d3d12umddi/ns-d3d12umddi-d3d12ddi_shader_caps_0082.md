@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDI_SHADER_CAPS_0082
 ms.date: 05/13/2021
 targetos: Windows
-description: Reserved for system use.
+description: "Microsoft reserves the D3D12DDI_SHADER_CAPS_0082 structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKOCCLUSION
 title: PFND3DKMT_CHECKOCCLUSION (d3dkmthk.h)
-description: The D3DKMTCheckOcclusion function verifies whether the client area of a window is occluded.
+description: The PFND3DKMT_CHECKOCCLUSION callback function verifies whether the client area of a graphics window is occluded.
 old-location: display\d3dkmtcheckocclusion.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHECKOCCLUSION callback function"]

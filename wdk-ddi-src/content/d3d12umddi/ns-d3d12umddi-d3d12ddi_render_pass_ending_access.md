@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_ENDING_ACCESS
 title: D3D12DDI_RENDER_PASS_ENDING_ACCESS (d3d12umddi.h)
-description: Specifies the resources needed to end access to a Render Pass.
+description: The D3D12DDI_RENDER_PASS_ENDING_ACCESS structure specifies the resources needed to end access to a render pass.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RENDER_PASS_ENDING_ACCESS structure"]
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS, D3D12DDI_RENDER_PASS_ENDING_ACCESS,

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEnumAdapters
 title: D3DKMTEnumAdapters function (d3dkmthk.h)
-description: Enumerates all graphics adapters on the system.
+description: The D3DKMTEnumAdapters function enumerates all graphics adapters on the system. The function returns STATUS_SUCCESS if the enumeration was successful.
 old-location: display\d3dkmtenumadapters.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTEnumAdapters function"]

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_REMOVESURFACEFROMSWAPCHAIN
-title: _D3DKMT_REMOVESURFACEFROMSWAPCHAIN (d3dkmthk.h)
+title: D3DKMT_REMOVESURFACEFROMSWAPCHAIN (d3dkmthk.h)
 description: Used to remove a surface from the swap chain.
 old-location: display\d3dkmt-removesurfacefromswapchain.htm
 ms.date: 05/10/2018
@@ -40,38 +40,26 @@ tech.root: display
 req.typenames: D3DKMT_REMOVESURFACEFROMSWAPCHAIN
 ---
 
-# _D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure
-
+# D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Used to remove a surface from the swap chain.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hNtSwapChain
 
 The NT handle for the swapchain in this process.
 
-
 ### -field bProducer
 
 Indicates if the handle is a producer or consumer.
-
 
 ### -field hNtSurfaceHandle
 
 The NT handle of the surface to remove.
 
-
 ### -field BufferIdx
 
 The buffer index of the surface to remove.
-

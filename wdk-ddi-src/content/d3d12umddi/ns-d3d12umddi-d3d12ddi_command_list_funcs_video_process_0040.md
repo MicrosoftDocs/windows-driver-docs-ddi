@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040
 title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040 (d3d12umddi.h)
-description: The command list functions for video processing.
+description: The D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040 structure contains command list functions for video processing.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040 structure"]
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0040,

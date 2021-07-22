@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient5.AttachKernel
 title: IDebugClient5::AttachKernel (dbgeng.h)
-description: The AttachKernel methods connect the debugger engine to a kernel target.
+description: The AttachKernel methods connect the debugger engine to a kernel target. This method belongs to the IDebugClient5 interface.
 old-location: debugger\attachkernel.htm
 tech.root: debugger
 ms.date: 05/03/2018

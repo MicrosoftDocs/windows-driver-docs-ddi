@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.CallExtension
 title: IDebugControl2::CallExtension (dbgeng.h)
-description: The CallExtension method calls a debugger extension.
+description: The CallExtension method calls a debugger extension. This method belongs to the IDebugControl2 interface.
 old-location: debugger\callextension.htm
 tech.root: debugger
 ms.date: 05/03/2018

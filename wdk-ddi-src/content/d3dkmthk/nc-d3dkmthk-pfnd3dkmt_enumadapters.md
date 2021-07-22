@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ENUMADAPTERS
 title: PFND3DKMT_ENUMADAPTERS (d3dkmthk.h)
-description: Enumerates all graphics adapters on the system.
+description: The PFND3DKMT_ENUMADAPTERS callback enumerates all graphics adapters on the system. The function returns STATUS_SUCCESS if the enumeration was successful.
 old-location: display\d3dkmtenumadapters.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_ENUMADAPTERS callback function"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetDumpFile
 title: IDebugClient4::GetDumpFile (dbgeng.h)
-description: The GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
+description: The IDebugClient4::GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfile.htm
 tech.root: debugger
 ms.date: 05/03/2018

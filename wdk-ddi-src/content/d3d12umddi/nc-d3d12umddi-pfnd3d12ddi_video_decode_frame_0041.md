@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041 (d3d12umddi.h)
-description: Implemented by the client driver to decode a video frame.
+description: The PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function decodes a video frame. The function is called by a client driver.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function"]
 req.header: d3d12umddi.h

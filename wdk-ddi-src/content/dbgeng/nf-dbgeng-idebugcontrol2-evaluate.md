@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.Evaluate
 title: IDebugControl2::Evaluate (dbgeng.h)
-description: The Evaluate method evaluates an expression, returning the result.
+description: The Evaluate method evaluates an expression, returning the result. This method belongs to the IDebugControl2 interface.
 old-location: debugger\evaluate.htm
 tech.root: debugger
 ms.date: 05/03/2018

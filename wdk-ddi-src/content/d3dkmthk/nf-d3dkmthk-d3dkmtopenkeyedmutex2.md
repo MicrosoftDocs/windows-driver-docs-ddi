@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutex2
 title: D3DKMTOpenKeyedMutex2 function (d3dkmthk.h)
-description: Opens a keyed mutex object that includes private data.
+description: The D3DKMTOpenKeyedMutex2 function opens a keyed mutex object that includes private data. The function returns STATUS_SUCCESS if the object was opened.
 old-location: display\d3dkmtopenkeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenKeyedMutex2 function"]

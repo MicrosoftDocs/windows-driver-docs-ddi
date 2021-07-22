@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.CoerceValue
 title: IDebugControl::CoerceValue (dbgeng.h)
-description: The CoerceValue method converts a value of one type into a value of another type.
+description: The CoerceValue method converts a value of one type into a value of another type. This method belongs to the IDebugControl interface.
 old-location: debugger\coercevalue.htm
 tech.root: debugger
 ms.date: 05/03/2018

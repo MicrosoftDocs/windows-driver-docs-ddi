@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.Assemble
 title: IDebugControl::Assemble (dbgeng.h)
-description: The Assemble method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
+description: The IDebugControl::Assemble method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemble.htm
 tech.root: debugger
 ms.date: 05/03/2018

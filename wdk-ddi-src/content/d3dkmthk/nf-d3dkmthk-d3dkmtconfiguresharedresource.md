@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTConfigureSharedResource
 title: D3DKMTConfigureSharedResource function (d3dkmthk.h)
-description: The D3DKMTConfigureSharedResource function configures a shared resource.
+description: The D3DKMTConfigureSharedResource function configures a shared resource. The function returns STATUS_SUCCESS on successful configuration.
 old-location: display\d3dkmtconfiguresharedresource.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTConfigureSharedResource function"]

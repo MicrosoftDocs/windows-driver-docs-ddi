@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYDISPLAYIDOUT
 title: _DXGK_QUERYDISPLAYIDOUT (d3dkmddi.h)
-description: Used to query a display ID.
+description: The DXGK_QUERYDISPLAYIDOUT structure is used to query a display ID. The structure contains the ID length and a pointer to the display ID descriptor.
 old-location: display\dxgk_querydisplayidout.htm
 ms.date: 05/10/2018
 keywords: ["DXGK_QUERYDISPLAYIDOUT structure"]

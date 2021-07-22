@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0053
 title: D3D12DDI_DEVICE_FUNCS_VIDEO_0053 (d3d12umddi.h)
-description: The device functions of video.
+description: The D3D12DDI_DEVICE_FUNCS_VIDEO_0053 structure contains video device functions for user-mode display drivers.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0053 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0053, D3D12DDI_DEVICE_FUNCS_VIDEO_0053,

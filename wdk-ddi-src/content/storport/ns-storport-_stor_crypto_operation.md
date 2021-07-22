@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION
 title: STOR_CRYPTO_OPERATION (storport.h)
-description: Reserved for system use.
+description: "Microsoft reserves the STOR_CRYPTO_OPERATION structure for internal use only. Don't use this structure in your code."
 tech.root: storage
 ms.date: 05/13/2021
 keywords: ["STOR_CRYPTO_OPERATION structure"]

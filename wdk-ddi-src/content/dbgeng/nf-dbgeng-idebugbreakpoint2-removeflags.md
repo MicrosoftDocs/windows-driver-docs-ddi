@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.RemoveFlags
 title: IDebugBreakpoint2::RemoveFlags (dbgeng.h)
-description: The RemoveFlags method removes flags from a breakpoint.
+description: The RemoveFlags method removes flags from a breakpoint. This method belongs to the IDebugBreakpoint2 interface.
 old-location: debugger\removeflags.htm
 tech.root: debugger
 ms.date: 05/03/2018

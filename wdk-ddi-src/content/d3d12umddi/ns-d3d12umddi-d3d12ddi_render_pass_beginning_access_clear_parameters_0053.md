@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053
 title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053 (d3d12umddi.h)
-description: Parameters needed to specify whether the application has a dependency on the resource being cleared, to a specific color.
+description: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053 contains parameters that specify whether the application has a dependency on the resource being cleared.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053 structure"]
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053,

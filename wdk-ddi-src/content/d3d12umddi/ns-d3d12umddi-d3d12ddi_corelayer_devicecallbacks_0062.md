@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CORELAYER_DEVICECALLBACKS_0062
 title: D3D12DDI_CORELAYER_DEVICECALLBACKS_0062
-description: Contains Microsoft Direct3D 12 runtime callback functions that the user-mode display driver can use.
+description: The D3D12DDI_CORELAYER_DEVICECALLBACKS_0062 structure contains Microsoft Direct3D 12 runtime callback functions that a user-mode display driver can use.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0062 structure"]
