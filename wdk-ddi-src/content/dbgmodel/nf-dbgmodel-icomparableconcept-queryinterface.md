@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.QueryInterface
 title: IComparableConcept::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IComparableConcept::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 09/21/2018
 keywords: ["IComparableConcept::QueryInterface"]
 ms.keywords: IComparableConcept::QueryInterface, QueryInterface, IComparableConcept.QueryInterface, IComparableConcept::QueryInterface, IComparableConcept.QueryInterface
