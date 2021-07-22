@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSourcePath
 title: IDebugSymbols2::GetSourcePath (dbgeng.h)
-description: The GetSourcePath method returns the source path.
+description: The GetSourcePath method returns the source path. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getsourcepath.htm
 tech.root: debugger
 ms.date: 05/03/2018

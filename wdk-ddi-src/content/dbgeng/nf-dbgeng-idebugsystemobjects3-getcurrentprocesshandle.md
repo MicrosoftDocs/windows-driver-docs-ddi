@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentProcessHandle
 title: IDebugSystemObjects3::GetCurrentProcessHandle (dbgeng.h)
-description: The GetCurrentProcessHandle method returns the system handle for the current process.
+description: The GetCurrentProcessHandle method returns the system handle for the current process. This method belongs to the IDebugSystemObjects3 interface.
 old-location: debugger\getcurrentprocesshandle2.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetTypeId
 title: IDebugSymbols2::GetTypeId (dbgeng.h)
-description: The GetTypeId method looks up the specified type and return its type ID.
+description: The GetTypeId method looks up the specified type and return its type ID. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\gettypeid.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.SetImplicitProcessDataOffset
 title: IDebugSystemObjects2::SetImplicitProcessDataOffset (dbgeng.h)
-description: The SetImplicitProcessDataOffset method sets the implicit process for the current target.
+description: The SetImplicitProcessDataOffset method sets the implicit process for the current target. This method belongs to the IDebugSystemObjects2 interface.
 old-location: debugger\setimplicitprocessdataoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

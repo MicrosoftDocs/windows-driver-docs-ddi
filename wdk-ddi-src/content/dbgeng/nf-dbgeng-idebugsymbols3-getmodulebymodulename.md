@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByModuleName
 title: IDebugSymbols3::GetModuleByModuleName (dbgeng.h)
-description: The GetModuleByModuleName method searches through the target's modules for one with the specified name.
+description: The GetModuleByModuleName method searches through the target's modules for one with the specified name. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getmodulebymodulename.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolName
 title: IDebugSymbolGroup2::GetSymbolName (dbgeng.h)
-description: The GetSymbolName method returns the name of a symbol in a symbol group.
+description: The GetSymbolName method returns the name of a symbol in a symbol group. This method belongs to the IDebugSymbolGroup2 interface.
 old-location: debugger\getsymbolname.htm
 tech.root: debugger
 ms.date: 05/03/2018
