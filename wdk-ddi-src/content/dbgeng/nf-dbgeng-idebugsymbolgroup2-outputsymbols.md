@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.OutputSymbols
 title: IDebugSymbolGroup2::OutputSymbols (dbgeng.h)
-description: The OutputSymbols method prints the specified symbols to the debugger console.
+description: The OutputSymbols method prints the specified symbols to the debugger console. This method belongs to the IDebugSymbolGroup2 interface.
 old-location: debugger\outputsymbols.htm
 tech.root: debugger
 ms.date: 05/03/2018

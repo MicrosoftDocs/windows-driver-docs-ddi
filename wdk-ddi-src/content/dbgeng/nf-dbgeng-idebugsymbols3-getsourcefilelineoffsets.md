@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceFileLineOffsets
 title: IDebugSymbols3::GetSourceFileLineOffsets (dbgeng.h)
-description: The GetSourceFileLineOffsets method maps each line in a source file to a location in the target's memory.
+description: The GetSourceFileLineOffsets method maps each line in a source file to a location in the target's memory. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getsourcefilelineoffsets.htm
 tech.root: debugger
 ms.date: 05/03/2018

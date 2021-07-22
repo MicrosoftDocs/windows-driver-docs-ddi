@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
 title: IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses (dbgeng.h)
-description: The GetTotalNumberThreadsAndProcesses method returns the total number of threads and processes in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
+description: The IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses method returns the number of threads and processes in all the targets the engine is attached to.
 old-location: debugger\gettotalnumberthreadsandprocesses.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSymbolOptions
 title: IDebugSymbols2::GetSymbolOptions (dbgeng.h)
-description: The GetSymbolOptions method returns the engine's global symbol options.
+description: The GetSymbolOptions method returns the engine's global symbol options. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getsymboloptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

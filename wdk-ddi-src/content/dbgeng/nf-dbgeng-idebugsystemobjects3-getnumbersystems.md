@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetNumberSystems
 title: IDebugSystemObjects3::GetNumberSystems (dbgeng.h)
-description: The GetNumberSystems method returns the number of targets to which the engine is currently connected.
+description: The GetNumberSystems method returns the number of targets to which the engine is currently connected. This method belongs to the IDebugSystemObjects3 interface.
 old-location: debugger\getnumbersystems.htm
 tech.root: debugger
 ms.date: 05/03/2018

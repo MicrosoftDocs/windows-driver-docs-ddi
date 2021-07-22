@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.ReadTypedDataPhysical
 title: IDebugSymbols2::ReadTypedDataPhysical (dbgeng.h)
-description: The ReadTypedDataPhysical method reads the value of a variable from the target computer's physical memory.
+description: The ReadTypedDataPhysical method reads the value of a variable from the target computer's physical memory. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\readtypeddataphysical.htm
 tech.root: debugger
 ms.date: 05/03/2018

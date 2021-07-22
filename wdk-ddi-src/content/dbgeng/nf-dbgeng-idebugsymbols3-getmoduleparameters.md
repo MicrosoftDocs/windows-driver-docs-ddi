@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleParameters
 title: IDebugSymbols3::GetModuleParameters (dbgeng.h)
-description: The GetModuleParameters method returns parameters for modules in the target.
+description: The GetModuleParameters method returns parameters for modules in the target. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getmoduleparameters.htm
 tech.root: debugger
 ms.date: 05/03/2018
