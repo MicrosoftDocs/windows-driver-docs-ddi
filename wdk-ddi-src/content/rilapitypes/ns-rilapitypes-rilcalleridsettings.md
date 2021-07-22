@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILCALLERIDSETTINGS
 title: RILCALLERIDSETTINGS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILCALLERIDSETTINGS structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilcalleridsettings.htm
 tech.root: netvista
 ms.date: 05/02/2018
