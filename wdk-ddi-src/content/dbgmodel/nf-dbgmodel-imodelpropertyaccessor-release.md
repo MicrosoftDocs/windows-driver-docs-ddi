@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.Release
 title: IModelPropertyAccessor::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IModelPropertyAccessor::Release method decrements the reference count for an interface on an object."
 ms.date: 08/13/2018
 keywords: ["IModelPropertyAccessor::Release"]
 ms.keywords: IModelPropertyAccessor::Release, Release, IModelPropertyAccessor.Release, IModelPropertyAccessor::Release, IModelPropertyAccessor.Release

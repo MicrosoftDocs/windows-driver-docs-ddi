@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplateEnumerator.Release
 title: IDataModelScriptTemplateEnumerator::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDataModelScriptTemplateEnumerator::Release method decrements the reference count for an interface on an object."
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptTemplateEnumerator::Release"]
 ms.keywords: IDataModelScriptTemplateEnumerator::Release, Release, IDataModelScriptTemplateEnumerator.Release, IDataModelScriptTemplateEnumerator::Release, IDataModelScriptTemplateEnumerator.Release

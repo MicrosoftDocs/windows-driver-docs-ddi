@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.Release
 title: IDynamicConceptProviderConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDynamicConceptProviderConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDynamicConceptProviderConcept::Release"]
 ms.keywords: IDynamicConceptProviderConcept::Release, Release, IDynamicConceptProviderConcept.Release, IDynamicConceptProviderConcept::Release, IDynamicConceptProviderConcept.Release

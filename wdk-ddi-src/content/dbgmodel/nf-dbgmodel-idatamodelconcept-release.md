@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.Release
 title: IDataModelConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDataModelConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDataModelConcept::Release"]
 ms.keywords: IDataModelConcept::Release, Release, IDataModelConcept.Release, IDataModelConcept::Release, IDataModelConcept.Release

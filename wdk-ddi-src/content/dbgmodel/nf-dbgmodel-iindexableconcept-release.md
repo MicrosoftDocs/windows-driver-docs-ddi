@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.Release
 title: IIndexableConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IIndexableConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 09/19/2018
 keywords: ["IIndexableConcept::Release"]
 ms.keywords: IIndexableConcept::Release, Release, IIndexableConcept.Release, IIndexableConcept::Release, IIndexableConcept.Release

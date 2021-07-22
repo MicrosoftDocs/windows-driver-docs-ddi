@@ -5,7 +5,7 @@ title: Wdi_NdisMOidRequestComplete
 ms.date: 04/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the Wdi_NdisMOidRequestComplete function for internal use only. Don't use this function in your code."
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
