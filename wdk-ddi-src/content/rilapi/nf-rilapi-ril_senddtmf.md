@@ -1,7 +1,7 @@
 ---
 UID: NF:rilapi.RIL_SendDTMF
 title: RIL_SendDTMF function (rilapi.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RIL_SendDTMF function for internal use only. Don't use this function in your code."
 old-location: netvista\ril_senddtmf.htm
 tech.root: netvista
 ms.date: 05/02/2018
