@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryResourceInfoFromNtHandle
 title: D3DKMTQueryResourceInfoFromNtHandle function (d3dkmthk.h)
-description: The D3DKMTQueryResourceInfoFromNtHandle function maps a global NT handle to resource information that is needed for a call to the D3DKMTQueryResourceInfo function.
+description: The D3DKMTQueryResourceInfoFromNtHandle function maps a global NT handle to the resource information needed for a call to the D3DKMTQueryResourceInfo function.
 old-location: display\d3dkmtqueryresourceinfofromnthandle.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTQueryResourceInfoFromNtHandle function"]

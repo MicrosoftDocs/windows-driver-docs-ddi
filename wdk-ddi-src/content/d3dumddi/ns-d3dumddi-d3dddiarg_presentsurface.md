@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_PRESENTSURFACE
 title: D3DDDIARG_PRESENTSURFACE (d3dumddi.h)
-description: The D3DDDIARG_PRESENTSURFACE structure contains information that describes a surface to display.
+description: The D3DDDIARG_PRESENTSURFACE structure contains a resource handle and a subresource index that describes a surface to display.
 old-location: display\d3dddiarg_presentsurface.htm
 tech.root: display
 ms.date: 05/10/2018

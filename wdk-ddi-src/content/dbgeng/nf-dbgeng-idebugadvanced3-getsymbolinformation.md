@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSymbolInformation
 title: IDebugAdvanced3::GetSymbolInformation (dbgeng.h)
-description: The IDebugAdvanced3::GetSymbolInformation method returns specified information about a symbol.
+description: The (IDebugAdvanced3) GetSymbolInformation method returns information about a symbol that is specified using the Which parameter.
 old-location: debugger\getsymbolinformation.htm
 tech.root: debugger
 ms.date: 05/03/2018
