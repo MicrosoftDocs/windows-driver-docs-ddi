@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.Release
 title: IStringDisplayableConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IStringDisplayableConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 10/05/2018
 keywords: ["IStringDisplayableConcept::Release"]
 ms.keywords: IStringDisplayableConcept::Release, Release, IStringDisplayableConcept.Release, IStringDisplayableConcept::Release, IStringDisplayableConcept.Release

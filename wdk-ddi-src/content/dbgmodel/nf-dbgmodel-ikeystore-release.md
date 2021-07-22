@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IKeyStore.Release
 title: IKeyStore::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IKeyStore::Release method decrements the reference count for an interface on an object."
 ms.date: 08/13/2018
 keywords: ["IKeyStore::Release"]
 ms.keywords: IKeyStore::Release, Release, IKeyStore.Release, IKeyStore::Release, IKeyStore.Release

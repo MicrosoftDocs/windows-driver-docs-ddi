@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.Release
 title: IIterableConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IIterableConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 09/19/2018
 keywords: ["IIterableConcept::Release"]
 ms.keywords: IIterableConcept::Release, Release, IIterableConcept.Release, IIterableConcept::Release, IIterableConcept.Release

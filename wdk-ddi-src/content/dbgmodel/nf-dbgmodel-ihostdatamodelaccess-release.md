@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.Release
 title: IHostDataModelAccess::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IHostDataModelAccess::Release method decrements the reference count for an interface on an object."
 ms.date: 07/20/2018
 keywords: ["IHostDataModelAccess::Release"]
 ms.keywords: IHostDataModelAccess::Release, Release, IHostDataModelAccess.Release, IHostDataModelAccess::Release, IHostDataModelAccess.Release
