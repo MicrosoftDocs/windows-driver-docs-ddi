@@ -1,7 +1,7 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipeAllocatorFlag
 title: IKsPinPipe::KsGetPipeAllocatorFlag (ksproxy.h)
-description: Not recommended for application use.
+description: The KsGetPipeAllocatorFlag method is not recommended for application use. This method belongs to the IKsPinPipe interface.
 tech.root: stream
 ms.date: 06/11/2021
 keywords: ["IKsPinPipe::KsGetPipeAllocatorFlag"]

@@ -1,7 +1,7 @@
 ---
 UID: NC:ks.PFNQUERYREFERENCESTRING
 title: PFNQUERYREFERENCESTRING (ks.h)
-description: This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool.
+description: The PFNQUERYREFERENCESTRING callback function (ks.h) copies the reference string associated with the PDO into a buffer that is created and freed by the caller.
 old-location: stream\kstrqueryreferencestring.htm
 tech.root: stream
 ms.date: 04/23/2018

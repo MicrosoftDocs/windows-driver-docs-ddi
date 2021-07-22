@@ -1,7 +1,7 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPipe
 title: IKsPinPipe::KsSetPipe (ksproxy.h)
-description: Not recommended for application use.
+description: The KsSetPipe method is not recommended for application use. This method belongs to the IKsPinPipe interface.
 tech.root: stream
 ms.date: 06/11/2021
 keywords: ["IKsPinPipe::KsSetPipe"]
