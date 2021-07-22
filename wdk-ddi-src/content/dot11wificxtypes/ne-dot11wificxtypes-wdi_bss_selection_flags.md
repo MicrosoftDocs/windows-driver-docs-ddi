@@ -5,7 +5,7 @@ title: WDI_BSS_SELECTION_FLAGS
 ms.date: 04/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the WDI_BSS_SELECTION_FLAGS enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
