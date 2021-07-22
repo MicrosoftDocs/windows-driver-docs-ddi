@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILGPPCAUSE
 title: RILGPPCAUSE (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILGPPCAUSE structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilgppcause.htm
 tech.root: netvista
 ms.date: 05/02/2018
