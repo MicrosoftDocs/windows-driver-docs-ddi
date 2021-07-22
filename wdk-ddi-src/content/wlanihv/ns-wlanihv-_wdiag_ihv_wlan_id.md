@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanihv._WDIAG_IHV_WLAN_ID
 title: _WDIAG_IHV_WLAN_ID (wlanihv.h)
-description: The WDIAG_IHV_WLAN_ID structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The WDIAG_IHV_WLAN_ID structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\wdiag_ihv_wlan_id.htm
 tech.root: netvista
 ms.date: 02/16/2018

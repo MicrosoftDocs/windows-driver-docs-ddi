@@ -1,7 +1,7 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_PROCESS_SESSION_CHANGE
 title: DOT11EXTIHV_PROCESS_SESSION_CHANGE (wlanihv.h)
-description: The DOT11EXTIHV_PROCESS_SESSION_CHANGE callback function is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The DOT11EXTIHV_PROCESS_SESSION_CHANGE callback function is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11extihvprocesssessionchange.htm
 tech.root: netvista
 ms.date: 02/16/2018

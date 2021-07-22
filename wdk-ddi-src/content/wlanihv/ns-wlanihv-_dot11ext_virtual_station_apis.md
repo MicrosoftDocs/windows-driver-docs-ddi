@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanihv._DOT11EXT_VIRTUAL_STATION_APIS
 title: _DOT11EXT_VIRTUAL_STATION_APIS (wlanihv.h)
-description: The DOT11EXT_VIRTUAL_STATION_APIS structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The DOT11EXT_VIRTUAL_STATION_APIS structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11ext_virtual_station_apis.htm
 tech.root: netvista
 ms.date: 02/16/2018

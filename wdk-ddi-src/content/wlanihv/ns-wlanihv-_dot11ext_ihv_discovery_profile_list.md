@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanihv._DOT11EXT_IHV_DISCOVERY_PROFILE_LIST
 title: _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST (wlanihv.h)
-description: The DOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The DOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11ext_ihv_discovery_profile_list.htm
 tech.root: netvista
 ms.date: 02/16/2018

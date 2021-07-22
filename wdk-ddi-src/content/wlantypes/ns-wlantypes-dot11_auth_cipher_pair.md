@@ -1,7 +1,7 @@
 ---
 UID: NS:wlantypes.DOT11_AUTH_CIPHER_PAIR
 title: DOT11_AUTH_CIPHER_PAIR (wlantypes.h)
-description: The DOT11_AUTH_CIPHER_PAIR structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The DOT11_AUTH_CIPHER_PAIR structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_auth_cipher_pair.htm
 tech.root: netvista
 ms.date: 02/16/2018

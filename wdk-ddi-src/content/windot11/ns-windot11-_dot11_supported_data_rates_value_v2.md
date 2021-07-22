@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_DATA_RATES_VALUE_V2
 title: _DOT11_SUPPORTED_DATA_RATES_VALUE_V2 (windot11.h)
-description: The DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_supported_data_rates_value_v2.htm
 tech.root: netvista
 ms.date: 02/16/2018

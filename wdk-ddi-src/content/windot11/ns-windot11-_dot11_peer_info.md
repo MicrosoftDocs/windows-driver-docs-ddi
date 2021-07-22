@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11._DOT11_PEER_INFO
 title: _DOT11_PEER_INFO (windot11.h)
-description: The DOT11_PEER_INFO structure is part of Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
+description: The DOT11_PEER_INFO structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_peer_info.htm
 tech.root: netvista
 ms.date: 02/16/2018
