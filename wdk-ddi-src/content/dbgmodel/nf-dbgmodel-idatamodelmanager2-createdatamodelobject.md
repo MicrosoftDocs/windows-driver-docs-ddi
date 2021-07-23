@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateDataModelObject
 title: IDataModelManager2::CreateDataModelObject (dbgmodel.h)
-description: The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects.
+description: "The IDataModelManager2::CreateDataModelObject method is a simple helper wrapper for creating objects that are data models."
 ms.date: 06/10/2019
 keywords: ["IDataModelManager2::CreateDataModelObject"]
 ms.keywords: IDataModelManager2::CreateDataModelObject, CreateDataModelObject, IDataModelManager2.CreateDataModelObject, IDataModelManager2::CreateDataModelObject, IDataModelManager2.CreateDataModelObject

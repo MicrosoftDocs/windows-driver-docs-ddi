@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.QueryInterface
 title: IDataModelScriptDebugVariableSetEnumerator::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IDataModelScriptDebugVariableSetEnumerator::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::QueryInterface"]
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugVariableSetEnumerator.QueryInterface, IDataModelScriptDebugVariableSetEnumerator::QueryInterface, IDataModelScriptDebugVariableSetEnumerator.QueryInterface

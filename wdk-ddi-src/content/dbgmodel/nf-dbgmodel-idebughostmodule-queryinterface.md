@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule.QueryInterface
 title: IDebugHostModule::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IDebugHostModule::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule::QueryInterface"]
 ms.keywords: IDebugHostModule::QueryInterface, QueryInterface, IDebugHostModule.QueryInterface, IDebugHostModule::QueryInterface, IDebugHostModule.QueryInterface

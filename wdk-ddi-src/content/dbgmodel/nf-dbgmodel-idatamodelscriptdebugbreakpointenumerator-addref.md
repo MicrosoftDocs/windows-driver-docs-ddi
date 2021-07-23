@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.AddRef
 title: IDataModelScriptDebugBreakpointEnumerator::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IDataModelScriptDebugBreakpointEnumerator::AddRef method increments the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDataModelScriptDebugBreakpointEnumerator::AddRef"]
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::AddRef, AddRef, IDataModelScriptDebugBreakpointEnumerator.AddRef, IDataModelScriptDebugBreakpointEnumerator::AddRef, IDataModelScriptDebugBreakpointEnumerator.AddRef
