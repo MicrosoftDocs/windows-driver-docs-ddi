@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.GetStack
 title: IDataModelScriptDebug::GetStack (dbgmodel.h)
-description: The GetStack method gets the current call stack at the break position.
+description: "The IDataModelScriptDebug::GetStack method gets the current call stack at the break position in a script debugger session."
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetStack"]
 ms.keywords: IDataModelScriptDebug::GetStack, GetStack, IDataModelScriptDebug.GetStack, IDataModelScriptDebug::GetStack, IDataModelScriptDebug.GetStack
