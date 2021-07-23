@@ -1,7 +1,7 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_REGISTER_ULONG64
 title: READ_REGISTER_ULONG64 function (wudfddi_hwaccess.h)
-description: The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
+description: The READ_REGISTER_ULONG64 function (wudfddi_hwaccess.h) reads a ULONG64 value from the specified register address.
 old-location: wdf\read_register_ulong64.htm
 tech.root: wdf
 ms.date: 02/26/2018

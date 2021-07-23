@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.READ_REGISTER_BUFFER_UCHAR
 title: READ_REGISTER_BUFFER_UCHAR function (wdm.h)
-description: The READ_REGISTER_BUFFER_UCHAR routine reads a number of bytes from the specified register address into a buffer.
+description: The READ_REGISTER_BUFFER_UCHAR function (wdm.h) reads a number of bytes from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_uchar.htm
 tech.root: kernel
 ms.date: 04/30/2018

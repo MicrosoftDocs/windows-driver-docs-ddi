@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_BRIDGE_AER_CAPABILITY
 title: _PCI_EXPRESS_BRIDGE_AER_CAPABILITY (miniport.h)
-description: The PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure describes a PCI Express (PCIe) advanced error reporting capability structure for a PCIe bridge device.
+description: The _PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure (miniport.h) defines the PCI Express (PCIe) advanced error reporting capabilities for a PCIe bridge device.
 old-location: pci\pci_express_bridge_aer_capability.htm
 tech.root: PCI
 ms.date: 02/24/2018

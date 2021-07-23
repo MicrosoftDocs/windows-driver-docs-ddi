@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.InterlockedAnd
 title: InterlockedAnd function (miniport.h)
-description: The InterlockedAnd macro atomically computes a bitwise AND operation.
+description: The InterlockedAnd (miniport.h) macro atomically computes a bitwise AND operation with the specified variable and specified value.
 old-location: kernel\interlockedand.htm
 tech.root: kernel
 ms.date: 04/30/2018

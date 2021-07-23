@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.InterlockedDecrement
 title: InterlockedDecrement function (wdm.h)
-description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
+description: The InterlockedDecrement function (wdm.h) decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
 tech.root: kernel
 ms.date: 04/30/2018

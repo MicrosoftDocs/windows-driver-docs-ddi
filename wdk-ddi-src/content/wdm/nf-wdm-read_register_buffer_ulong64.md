@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.READ_REGISTER_BUFFER_ULONG64
 title: READ_REGISTER_BUFFER_ULONG64 function (wdm.h)
-description: The READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64 values from the specified register address into a buffer.
+description: The READ_REGISTER_BUFFER_ULONG64 function (wdm.h)reads a number of ULONG64 values from the specified register address into a buffer.
 old-location: wdf\read_register_buffer_ulong64.htm
 tech.root: kernel
 ms.date: 09/15/2020
