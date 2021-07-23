@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostBaseClass.GetContext
 title: IDebugHostBaseClass::GetContext (dbgmodel.h)
-description: "The IDebugHostBaseClass::GetContext method when called on a symbol gets the host context in which the symbol is located."
+description: "The IDebugHostBaseClass::GetContext method, when called on a symbol, gets the host context in which the symbol is located."
 ms.date: 08/14/2018
 keywords: ["IDebugHostBaseClass::GetContext"]
 ms.keywords: IDebugHostBaseClass::GetContext, GetContext, IDebugHostBaseClass.GetContext, IDebugHostBaseClass::GetContext, IDebugHostBaseClass.GetContext
