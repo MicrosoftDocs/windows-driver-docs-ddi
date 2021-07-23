@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwOpenEnlistment
 title: ZwOpenEnlistment function (wdm.h)
-description: The ZwOpenEnlistment routine obtains a handle to an existing enlistment object.
+description: Learn how the ZwOpenEnlistment routine obtains a handle to an existing enlistment object.
 old-location: kernel\zwopenenlistment.htm
 tech.root: kernel
 ms.date: 04/30/2018

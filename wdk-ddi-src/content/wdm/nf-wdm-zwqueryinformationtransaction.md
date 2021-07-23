@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwQueryInformationTransaction
 title: ZwQueryInformationTransaction function (wdm.h)
-description: The ZwQueryInformationTransaction routine retrieves information about a specified transaction.
+description: Learn how the ZwQueryInformationTransaction routine retrieves information about a specified transaction.
 old-location: kernel\zwqueryinformationtransaction.htm
 tech.root: kernel
 ms.date: 04/30/2018

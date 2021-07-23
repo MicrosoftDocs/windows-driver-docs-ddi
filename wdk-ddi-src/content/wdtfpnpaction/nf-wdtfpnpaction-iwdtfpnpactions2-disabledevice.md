@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.DisableDevice
 title: IWDTFPNPActions2::DisableDevice (wdtfpnpaction.h)
-description: Disables the target device.
+description: Learn how the method disables the target device.
 old-location: dtf\iwdtfpnpactions2_disabledevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

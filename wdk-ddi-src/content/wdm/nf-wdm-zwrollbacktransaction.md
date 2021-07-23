@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwRollbackTransaction
 title: ZwRollbackTransaction function (wdm.h)
-description: The ZwRollbackTransaction routine initiates a rollback operation for a specified transaction.
+description: Learn how the ZwRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\zwrollbacktransaction.htm
 tech.root: kernel
 ms.date: 04/30/2018
