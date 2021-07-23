@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._INTERFACE
 title: _INTERFACE (miniport.h)
-description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
+description: The _INTERFACE structure (miniport.h) describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
 tech.root: kernel
 ms.date: 04/30/2018

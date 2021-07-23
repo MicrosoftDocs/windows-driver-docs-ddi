@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_LINK_CONTROL_REGISTER
 title: _PCI_EXPRESS_LINK_CONTROL_REGISTER (ntddk.h)
-description: The PCI_EXPRESS_LINK_CONTROL_REGISTER structure describes a PCI Express (PCIe) link control register of a PCIe capability structure.
+description: The _PCI_EXPRESS_LINK_CONTROL_REGISTER structure (ntddk.h) describes a PCI Express (PCIe) link control register of a PCIe capability structure.
 old-location: pci\pci_express_link_control_register.htm
 tech.root: PCI
 ms.date: 02/24/2018

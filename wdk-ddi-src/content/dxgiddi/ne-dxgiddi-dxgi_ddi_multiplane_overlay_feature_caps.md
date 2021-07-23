@@ -1,7 +1,7 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
 title: DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS (dxgiddi.h)
-description: Identifies overlay capabilities.
+description: The DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS enumeration contains values that indicate the capabilities of the overlay plane.
 old-location: display\dxgi_ddi_multiplane_overlay_feature_caps.htm
 tech.root: display
 ms.date: 04/16/2018

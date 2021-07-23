@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.InterlockedDecrement
 title: InterlockedDecrement function (miniport.h)
-description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
+description: The InterlockedDecrement function (miniport.h) decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
 tech.root: kernel
 ms.date: 04/30/2018

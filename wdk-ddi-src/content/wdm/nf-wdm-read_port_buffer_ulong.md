@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.READ_PORT_BUFFER_ULONG
 title: READ_PORT_BUFFER_ULONG function (wdm.h)
-description: The READ_PORT_BUFFER_ULONG routine reads a number of ULONG values from the specified port address into a buffer.
+description: The READ_PORT_BUFFER_ULONG function (wdm.h) reads a number of ULONG values from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_ulong.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryProtectedSessionStatus
 title: D3DKMTQueryProtectedSessionStatus function (d3dkmthk.h)
-description: Used to query the status of the protected session.
+description: The D3DKMTQueryProtectedSessionStatus function is used to query the status of the protected session.
 old-location: display\d3dkmtqueryprotectedsessionstatus.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTQueryProtectedSessionStatus function"]

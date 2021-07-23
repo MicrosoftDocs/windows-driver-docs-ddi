@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTTrimProcessCommitment
 title: D3DKMTTrimProcessCommitment function (d3dkmthk.h)
-description: Trim process commitment.
+description: The D3DKMTTrimProcessCommitment function trims a process commitment using information in the D3DKMT_TRIMPROCESSCOMMITMENT structure.
 ms.date: 10/19/2018
 keywords: ["D3DKMTTrimProcessCommitment function"]
 ms.keywords: D3DKMTTrimProcessCommitment

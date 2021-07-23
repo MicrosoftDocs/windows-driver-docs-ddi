@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.InterlockedExchangePointer
 title: InterlockedExchangePointer function (wdm.h)
-description: The InterlockedExchangePointer routine performs an atomic operation that sets a pointer to a new value.
+description: The InterlockedExchangePointer function (wdm.h) performs an atomic operation that sets a pointer to a new value.
 old-location: kernel\interlockedexchangepointer.htm
 tech.root: kernel
 ms.date: 04/30/2018

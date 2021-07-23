@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTMarkDeviceAsError
 title: D3DKMTMarkDeviceAsError function (d3dkmthk.h)
-description: Marks a device as error.
+description: The D3DKMTMarkDeviceAsError function marks a device as error by using the information in a _D3DKMT_MARKDEVICEASERROR structure.
 ms.date: 10/19/2018
 keywords: ["D3DKMTMarkDeviceAsError function"]
 ms.keywords: D3DKMTMarkDeviceAsError

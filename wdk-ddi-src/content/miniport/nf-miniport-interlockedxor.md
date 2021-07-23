@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.InterlockedXor
 title: InterlockedXor function (miniport.h)
-description: The InterlockedOr routine atomically computes a bitwise exclusive OR operation.
+description: The InterlockedXor function (miniport.h) atomically computes a bitwise exclusive OR operation with the specified variable and specified value.
 old-location: kernel\interlockedxor.htm
 tech.root: kernel
 ms.date: 04/30/2018

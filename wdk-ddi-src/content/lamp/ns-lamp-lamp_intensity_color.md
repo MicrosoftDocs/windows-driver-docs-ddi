@@ -1,7 +1,7 @@
 ---
 UID: NS:lamp.LAMP_INTENSITY_COLOR
 title: LAMP_INTENSITY_COLOR (lamp.h)
-description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_COLOR and IOCTL_LAMP_SET_INTENSITY_COLOR.
+description: The LAMP_INTENSITY_COLOR structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_COLOR and IOCTL_LAMP_SET_INTENSITY_COLOR.
 old-location: stream\lamp_intensity_color.htm
 tech.root: stream
 ms.date: 04/23/2018

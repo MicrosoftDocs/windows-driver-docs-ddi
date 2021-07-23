@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_22
 title: KSPIN_MDL_CACHING_EVENT (ks.h)
-description: This enumeration is used internally by the operating system.
+description: The KSPIN_MDL_CACHING_EVENT enumeration contains values that are used internally by the operating system.
 old-location: stream\kspin_mdl_caching_event.htm
 tech.root: stream
 ms.date: 04/23/2018
