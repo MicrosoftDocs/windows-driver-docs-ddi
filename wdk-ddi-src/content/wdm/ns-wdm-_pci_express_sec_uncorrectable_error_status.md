@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
 title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS (wdm.h)
-description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) secondary uncorrectable error status register of a PCIe advanced error reporting capability structure.
+description: The _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure (wdm.h) describes a PCI Express (PCIe) secondary uncorrectable error status register.
 old-location: pci\pci_express_sec_uncorrectable_error_status.htm
 tech.root: PCI
 ms.date: 02/24/2018

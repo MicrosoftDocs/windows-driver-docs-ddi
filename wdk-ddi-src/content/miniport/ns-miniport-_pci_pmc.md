@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_PMC
 title: _PCI_PMC (miniport.h)
-description: The PCI_PMC structure is used to report the contents of the power management capabilities register.
+description: The _PCI_PMC structure (miniport.h) describes the contents of the power management capabilities register.
 old-location: pci\pci_pmc.htm
 tech.root: PCI
 ms.date: 02/24/2018
