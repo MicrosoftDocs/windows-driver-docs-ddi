@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.AddRef
 title: IDataModelScriptDebug2::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IDataModelScriptDebug2::AddRef method increments the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDataModelScriptDebug2::AddRef"]
 ms.keywords: IDataModelScriptDebug2::AddRef, AddRef, IDataModelScriptDebug2.AddRef, IDataModelScriptDebug2::AddRef, IDataModelScriptDebug2.AddRef

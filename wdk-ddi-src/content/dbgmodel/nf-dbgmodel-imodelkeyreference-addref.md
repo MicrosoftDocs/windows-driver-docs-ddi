@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.AddRef
 title: IModelKeyReference::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IModelKeyReference::AddRef method increments the reference count for an interface on an object."
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference::AddRef"]
 ms.keywords: IModelKeyReference::AddRef, AddRef, IModelKeyReference.AddRef, IModelKeyReference::AddRef, IModelKeyReference.AddRef

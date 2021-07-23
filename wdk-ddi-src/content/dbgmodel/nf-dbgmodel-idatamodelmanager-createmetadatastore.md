@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateMetadataStore
 title: IDataModelManager::CreateMetadataStore (dbgmodel.h)
-description: The CreateMetadataStore method creates a key store which is used to hold metadata that can be associated with properties and a variety of other values.
+description: "The IDataModelManager::CreateMetadataStore method creates a key store that is used to hold metadata that can be associated with properties and other values."
 ms.date: 07/20/2018
 keywords: ["IDataModelManager::CreateMetadataStore"]
 ms.keywords: IDataModelManager::CreateMetadataStore, CreateMetadataStore, IDataModelManager.CreateMetadataStore, IDataModelManager::CreateMetadataStore, IDataModelManager.CreateMetadataStore

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelObject.AddRef
 title: IModelObject::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object.
+description: The AddRef method increments the reference count for an interface on an object. This method belongs to the IModelObject interface.
 ms.date: 07/20/2018
 keywords: ["IModelObject::AddRef"]
 ms.keywords: IModelObject::AddRef, AddRef, IModelObject.AddRef, IModelObject::AddRef, IModelObject.AddRef

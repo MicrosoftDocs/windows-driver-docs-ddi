@@ -1,7 +1,7 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTOFILEOBJECT
 title: PFNDRMFORWARDCONTENTTOFILEOBJECT (drmk.h)
-description: This callback function is reserved for system use.
+description: "Microsoft reserves the PFNDRMFORWARDCONTENTTOFILEOBJECT callback function for internal use only. Don't use this function in your code."
 old-location: audio\pfndrmforwardcontenttofileobject.htm
 tech.root: audio
 ms.date: 05/08/2018
