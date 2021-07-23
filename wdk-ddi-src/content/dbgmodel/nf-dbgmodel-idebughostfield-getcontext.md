@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetContext
 title: IDebugHostField::GetContext (dbgmodel.h)
-description: The GetContext method returns the context where the symbol is valid.
+description: "The IDebugHostField::GetContext method, when called on a symbol, gets the host context in which the symbol is located."
 ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetContext"]
 ms.keywords: IDebugHostField::GetContext, GetContext, IDebugHostField.GetContext, IDebugHostField::GetContext, IDebugHostField.GetContext

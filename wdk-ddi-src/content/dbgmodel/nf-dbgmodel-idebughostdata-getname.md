@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetName
 title: IDebugHostData::GetName (dbgmodel.h)
-description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration.
+description: "The IDebugHostData::GetName method, when called on a symbol, gets the name of the symbol if it has a name."
 ms.date: 09/10/2018
 keywords: ["IDebugHostData::GetName"]
 ms.keywords: IDebugHostData::GetName, GetName, IDebugHostData.GetName, IDebugHostData::GetName, IDebugHostData.GetName
