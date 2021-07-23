@@ -41,57 +41,41 @@ The **WDI_BAND_ID** enumeration is a UINT32 value that defines a band ID.
 
 ## -enum-fields
 
-### -field WDI_BAND_ID_UNKNOWN
+### -field WDI_BAND_ID_UNKNOWN:0
 
-Value = 0
+The band ID is unknown.
 
-### -field WDI_BAND_ID_2400
+### -field WDI_BAND_ID_2400:1
 
 2.4 GHz.
 
-Value = 1
-
-### -field WDI_BAND_ID_5000
+### -field WDI_BAND_ID_5000:2
 
 5 GHz.
 
-Value = 2
-
-### -field WDI_BAND_ID_60000
+### -field WDI_BAND_ID_60000:3
 
 60 GHz.
 
-Value = 3
-
-### -field WDI_BAND_ID_900
+### -field WDI_BAND_ID_900:4
 
 900 GHz.
 
-Value = 4
-
-### -field WDI_BAND_ID_6000
+### -field WDI_BAND_ID_6000:6
 
 6 GHz.
 
-Value = 6
-
-### -field WDI_BAND_ID_IHV_CUSTOM_START
+### -field WDI_BAND_ID_IHV_CUSTOM_START:0x80000000
 
 Specifies the start of the range that is used to define a band ID reported by an IHV.
 
-Value = 0x80000000
-
-### -field WDI_BAND_ID_IHV_CUSTOM_END
+### -field WDI_BAND_ID_IHV_CUSTOM_END:0x81000000
 
 Specifies the end of the range that is used to define a band ID reported by an IHV.
 
-Value = 0x81000000
-
-### -field WDI_BAND_ID_ANY
+### -field WDI_BAND_ID_ANY:0xFFFFFFFF
 
 All bands. 
-
-Value = 0xFFFFFFFF
 
 ## -remarks
 

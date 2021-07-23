@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_FTM_BANDWIDTH
 tech.root: netvista
-title: WDI_FTM_BANDWIDTH
-ms.date: 04/30/2021
+title: WDI_FTM_BANDWIDTH (dot11wificxtypes.h)
+ms.date: 07/19/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_FTM_BANDWIDTH enum defines the negotiated bandwidth between two STAs to exercise the FTM.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,46 +37,47 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+The **WDI_FTM_BANDWIDTH** enumeration defines the negotiated bandwidth between two STAs to exercise the Fine Timing Measurement (FTM).
 
-This function is reserved for system use and should not be called in your code.
 
 ## -enum-fields
 
 ### -field WDI_FTM_BANDWIDTH_5
 
-Reserved.
+5 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_10
 
-Reserved.
+10 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_20
 
-Reserved.
+20 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_40
 
-Reserved.
+40 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_80
 
-Reserved.
+80 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_80_80
 
-Reserved.
+80+80 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_160
 
-Reserved.
+160 MHz.
 
 ### -field WDI_FTM_BANDWIDTH_2160
 
-Reserved.
+2160 MHz.
 
 ## -remarks
 
+The **WDI_FTM_BANDWIDTH** enum is a value in the [**WDI_TLV_FTM_RESPONSE**](/windows-hardware/drivers/netcx/wdi-tlv-ftm-response) TLV.
+
 ## -see-also
 
+[**WDI_TLV_FTM_RESPONSE**](/windows-hardware/drivers/netcx/wdi-tlv-ftm-response)

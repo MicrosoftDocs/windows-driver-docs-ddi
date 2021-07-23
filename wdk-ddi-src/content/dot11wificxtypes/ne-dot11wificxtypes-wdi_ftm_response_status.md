@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **WDI_FTM_RESPONSE_STATUS** defines the response status for a Fine Timing Measurement (FTM) request.
+The **WDI_FTM_RESPONSE_STATUS** enumeration defines the response status for a Fine Timing Measurement (FTM) request.
 
 ## -enum-fields
 
