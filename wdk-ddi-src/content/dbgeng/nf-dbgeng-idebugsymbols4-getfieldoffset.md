@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetFieldOffset
 title: IDebugSymbols4::GetFieldOffset method (dbgeng.h)
-description: The GetFieldOffset function returns the offset of a member from the beginning of a structure.
+description: The GetFieldOffset function returns the offset of a member from the beginning of a structure. This method belongs to the IDebugSymbols4 interface.
 old-location: debugger\getfieldoffset.htm
 tech.root: debugger
 ms.date: 01/19/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByOffset
 title: IDebugSymbols3::GetModuleByOffset (dbgeng.h)
-description: The GetModuleByOffset method searches through the target's modules for one whose memory allocation includes the specified location.
+description: The IDebugSymbols3::GetModuleByOffset method searches through the target's modules for one whose memory allocation includes the specified location.
 old-location: debugger\getmodulebyoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetImplicitThreadDataOffset
 title: IDebugSystemObjects4::GetImplicitThreadDataOffset (dbgeng.h)
-description: The GetImplicitThreadDataOffset method returns the implicit thread for the current process.
+description: The GetImplicitThreadDataOffset method returns the implicit thread for the current process. This method belongs to the IDebugSystemObjects4 interface.
 old-location: debugger\getimplicitthreaddataoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentProcessId
 title: IDebugSystemObjects3::GetCurrentProcessId (dbgeng.h)
-description: The GetCurrentProcessId method returns the engine process ID for the current process.
+description: The GetCurrentProcessId method returns the engine process ID for the current process. This method belongs to the IDebugSystemObjects3 interface.
 old-location: debugger\getcurrentprocessid.htm
 tech.root: debugger
 ms.date: 05/03/2018

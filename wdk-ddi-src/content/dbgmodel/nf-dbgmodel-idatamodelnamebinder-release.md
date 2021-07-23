@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.Release
 title: IDataModelNameBinder::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDataModelNameBinder::Release method decrements the reference count for an interface on an object."
 ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::Release"]
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release

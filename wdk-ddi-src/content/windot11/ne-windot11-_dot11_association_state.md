@@ -1,7 +1,7 @@
 ---
 UID: NE:windot11._DOT11_ASSOCIATION_STATE
 title: _DOT11_ASSOCIATION_STATE (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_ASSOCIATION_STATE enumeration is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_association_state.htm
 tech.root: netvista
 ms.date: 02/16/2018

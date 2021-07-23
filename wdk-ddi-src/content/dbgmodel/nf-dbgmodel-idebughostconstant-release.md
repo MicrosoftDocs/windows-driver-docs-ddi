@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.Release
 title: IDebugHostConstant::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDebugHostConstant::Release method decrements the reference count for an interface on an object."
 ms.date: 10/19/2018
 keywords: ["IDebugHostConstant::Release"]
 ms.keywords: IDebugHostConstant::Release, Release, IDebugHostConstant.Release, IDebugHostConstant::Release, IDebugHostConstant.Release

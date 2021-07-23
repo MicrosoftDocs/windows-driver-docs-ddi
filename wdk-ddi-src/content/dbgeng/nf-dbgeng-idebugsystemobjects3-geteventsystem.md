@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetEventSystem
 title: IDebugSystemObjects3::GetEventSystem (dbgeng.h)
-description: The GetEventSystem method returns the engine target ID for the target in which the last event occurred.
+description: The GetEventSystem method returns the engine target ID for the target in which the last event occurred. This method belongs to IDebugSystemObjects3.
 old-location: debugger\geteventsystem.htm
 tech.root: debugger
 ms.date: 05/03/2018

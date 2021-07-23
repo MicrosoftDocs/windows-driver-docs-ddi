@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetOffsetTypeId
 title: IDebugSymbols2::GetOffsetTypeId (dbgeng.h)
-description: The GetOffsetTypeId method returns the type ID of the symbol closest to the specified memory location.
+description: The GetOffsetTypeId method returns the type ID of the symbol closest to the specified memory location. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getoffsettypeid.htm
 tech.root: debugger
 ms.date: 05/03/2018

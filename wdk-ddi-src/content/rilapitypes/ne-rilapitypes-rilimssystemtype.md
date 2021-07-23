@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILIMSSYSTEMTYPE
 title: RILIMSSYSTEMTYPE (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILIMSSYSTEMTYPE enumeration for internal use only. Don't use this enumeration in your code."
 old-location: netvista\rilimssystemtype_2.htm
 tech.root: netvista
 ms.date: 02/26/2018

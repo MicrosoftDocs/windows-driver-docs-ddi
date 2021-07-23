@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol.Release
 title: IDebugHostSymbol::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDebugHostSymbol::Release method decrements the reference count for an interface on an object."
 ms.date: 08/14/2018
 keywords: ["IDebugHostSymbol::Release"]
 ms.keywords: IDebugHostSymbol::Release, Release, IDebugHostSymbol.Release, IDebugHostSymbol::Release, IDebugHostSymbol.Release

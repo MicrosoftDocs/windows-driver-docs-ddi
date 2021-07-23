@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetSystemIdsByIndex
 title: IDebugSystemObjects4::GetSystemIdsByIndex (dbgeng.h)
-description: The GetSystemIdsByIndex method returns the engine target IDs for the specified targets.
+description: The GetSystemIdsByIndex method returns the engine target IDs for the specified targets. This method belongs to the IDebugSystemObjects4 interface.
 old-location: debugger\getsystemidsbyindex.htm
 tech.root: debugger
 ms.date: 05/03/2018

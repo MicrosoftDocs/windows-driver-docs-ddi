@@ -5,7 +5,7 @@ title: WDI_TX_METADATA
 ms.date: 04/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the WDI_TX_METADATA structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

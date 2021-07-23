@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILSENDMSGACKPARAMS_V2
 title: RILSENDMSGACKPARAMS_V2 (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILSENDMSGACKPARAMS_V2 structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilsendmsgackparams_v2.htm
 tech.root: netvista
 ms.date: 05/02/2018

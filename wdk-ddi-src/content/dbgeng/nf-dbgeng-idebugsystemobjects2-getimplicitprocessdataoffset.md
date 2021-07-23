@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetImplicitProcessDataOffset
 title: IDebugSystemObjects2::GetImplicitProcessDataOffset (dbgeng.h)
-description: The GetImplicitProcessDataOffset method returns the implicit process for the current target.
+description: The GetImplicitProcessDataOffset method returns the implicit process for the current target. This method belongs to the IDebugSystemObjects2 interface.
 old-location: debugger\getimplicitprocessdataoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

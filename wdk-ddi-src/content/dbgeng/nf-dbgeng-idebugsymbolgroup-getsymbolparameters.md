@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.GetSymbolParameters
 title: IDebugSymbolGroup::GetSymbolParameters (dbgeng.h)
-description: The GetSymbolParameters method returns the symbol parameters that describe the specified symbols in a symbol group.
+description: The GetSymbolParameters method returns the symbol parameters that describe the specified symbols in a symbol group. This method belongs to IDebugSymbolGroup.
 old-location: debugger\getsymbolparameters.htm
 tech.root: debugger
 ms.date: 05/03/2018

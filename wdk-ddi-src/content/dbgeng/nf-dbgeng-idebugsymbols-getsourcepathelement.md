@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetSourcePathElement
 title: IDebugSymbols::GetSourcePathElement (dbgeng.h)
-description: The GetSourcePathElement method returns an element from the source path.
+description: The GetSourcePathElement method returns an element from the source path. This method belongs to the IDebugSymbols interface.
 old-location: debugger\getsourcepathelement.htm
 tech.root: debugger
 ms.date: 05/03/2018

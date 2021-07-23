@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILSENDFLASHPARAMS
 title: RILSENDFLASHPARAMS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILSENDFLASHPARAMS structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilsendflashparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

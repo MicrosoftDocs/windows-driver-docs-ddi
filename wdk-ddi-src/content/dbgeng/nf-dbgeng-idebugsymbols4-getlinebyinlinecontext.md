@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetLineByInlineContext
 title: IDebugSymbols4::GetLineByInlineContext (dbgeng.h)
-description: Gets a line by inline context.
+description: The GetLineByInlineContext method gets a line by inline context. This method belongs to the IDebugSymbols4 interface.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontext.htm
 tech.root: debugger
 ms.date: 05/03/2018
