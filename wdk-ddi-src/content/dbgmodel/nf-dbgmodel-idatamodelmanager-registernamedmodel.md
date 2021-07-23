@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.RegisterNamedModel
 title: IDataModelManager::RegisterNamedModel (dbgmodel.h)
-description: The RegisterNamedModel method registers a given data model under a well known name so that it can be found by clients wishing to extend it.
+description: "The IDataModelManager::RegisterNamedModel method registers a given data model under a well known name so that it is easily discoverable."
 ms.date: 07/19/2018
 keywords: ["IDataModelManager::RegisterNamedModel"]
 ms.keywords: IDataModelManager::RegisterNamedModel, RegisterNamedModel, IDataModelManager.RegisterNamedModel, IDataModelManager::RegisterNamedModel, IDataModelManager.RegisterNamedModel
