@@ -1,7 +1,7 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INTERFACE_EX
 title: _USBFN_CLASS_INTERFACE_EX (usbfnbase.h)
-description: Describes an interface and its endpoints.
+description: Learn how USBFN_CLASS_INTERFACE_EX describes an interface and its endpoints.
 old-location: buses\usbfn_class_interface_ex.htm
 tech.root: usbref
 ms.date: 05/07/2018

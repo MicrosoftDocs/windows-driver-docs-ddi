@@ -1,7 +1,7 @@
 ---
 UID: NS:strmini._ACCESS_RANGE
 title: _ACCESS_RANGE (strmini.h)
-description: An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
+description: Learn how an ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\access_range.htm
 tech.root: storage
 ms.date: 08/26/2020

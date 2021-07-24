@@ -1,7 +1,7 @@
 ---
 UID: NE:usbctypes._USBC_PD_POWER_DATA_OBJECT_TYPE
 title: _USBC_PD_POWER_DATA_OBJECT_TYPE (usbctypes.h)
-description: Defines Power Data Object types.
+description: Learn how USBC_PD_POWER_DATA_OBJECT_TYPE defines Power Data Object types.
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]

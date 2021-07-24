@@ -1,7 +1,7 @@
 ---
 UID: NE:usbctypes._USBC_CHARGING_STATE
 title: _USBC_CHARGING_STATE (usbctypes.h)
-description: Defines the charging state of a Type-C connector.
+description: Learn how USBC_CHARGING_STATE defines the charging state of a Type-C connector.
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_CHARGING_STATE enumeration"]

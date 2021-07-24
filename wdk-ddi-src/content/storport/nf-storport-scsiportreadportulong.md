@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.ScsiPortReadPortUlong
 title: ScsiPortReadPortUlong macro (storport.h)
-description: The ScsiPortReadPortUlong routine reads a ULONG value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
+description: Learn how the ScsiPortReadPortUlong routine reads a ULONG value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportulong.htm
 tech.root: storage
 ms.date: 03/29/2018
