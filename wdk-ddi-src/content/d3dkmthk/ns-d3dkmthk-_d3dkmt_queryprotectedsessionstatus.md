@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYPROTECTEDSESSIONSTATUS
 title: _D3DKMT_QUERYPROTECTEDSESSIONSTATUS (d3dkmthk.h)
-description: Used to query the status of the protected session.
+description: The _D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure contains information that is used to Used to query the status of the protected session.
 old-location: display\d3dkmt-queryprotectedsessionstatus.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure"]

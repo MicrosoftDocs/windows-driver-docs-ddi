@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._GROUP_AFFINITY
 title: _GROUP_AFFINITY (minitape.h)
-description: The GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.
+description: The _GROUP_AFFINITY structure (minitape.h) specifies a group number and the processor affinity within that group.
 old-location: kernel\group_affinity.htm
 tech.root: kernel
 ms.date: 02/24/2018

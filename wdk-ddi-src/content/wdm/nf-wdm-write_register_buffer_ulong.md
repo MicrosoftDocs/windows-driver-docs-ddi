@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_BUFFER_ULONG
 title: WRITE_REGISTER_BUFFER_ULONG function (wdm.h)
-description: The WRITE_REGISTER_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified register.
+description: The WRITE_REGISTER_BUFFER_ULONG function (wdm.h) writes a number of ULONG values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ulong.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_OFFER_PRIORITY
 title: _D3DDDI_OFFER_PRIORITY (d3dukmdt.h)
-description: Indicates the importance of video memory resources that the user-mode display driver offers for reuse.
+description: The _D3DDDI_OFFER_PRIORITY enumeration contains values that indicate the importance of video memory resources that the user-mode display driver offers for reuse.
 old-location: display\d3dddi_offer_priority.htm
 tech.root: display
 ms.date: 05/10/2018

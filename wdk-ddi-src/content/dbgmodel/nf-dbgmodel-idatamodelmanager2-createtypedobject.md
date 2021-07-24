@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedObject
 title: IDataModelManager2::CreateTypedObject (dbgmodel.h)
-description: The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target.
+description: "The IDataModelManager2::CreateTypedObject method creates a representation of a native/language object in the address space of a debug target."
 ms.date: 08/21/2018
 keywords: ["IDataModelManager2::CreateTypedObject"]
 ms.keywords: IDataModelManager2::CreateTypedObject, CreateTypedObject, IDataModelManager2.CreateTypedObject, IDataModelManager2::CreateTypedObject, IDataModelManager2.CreateTypedObject

@@ -1,7 +1,7 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipe
 title: IKsPinPipe::KsGetPipe (ksproxy.h)
-description: Not recommended for application use.
+description: The KsGetPipe method is not recommended for application use. This method belongs to the IKsPinPipe interface.
 tech.root: stream
 ms.date: 06/11/2021
 keywords: ["IKsPinPipe::KsGetPipe"]

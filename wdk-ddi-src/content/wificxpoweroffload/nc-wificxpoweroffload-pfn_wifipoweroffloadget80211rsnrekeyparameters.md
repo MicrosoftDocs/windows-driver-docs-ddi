@@ -5,7 +5,7 @@ title: PFN_WIFIPOWEROFFLOADGET80211RSNREKEYPARAMETERS
 ms.date: 04/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the PFN_WIFIPOWEROFFLOADGET80211RSNREKEYPARAMETERS callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

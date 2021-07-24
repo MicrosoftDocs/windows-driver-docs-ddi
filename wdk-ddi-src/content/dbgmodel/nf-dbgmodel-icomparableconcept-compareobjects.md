@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.CompareObjects
 title: IComparableConcept::CompareObjects (dbgmodel.h)
-description: Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
+description: "IComparableConcept::CompareObjects compares this object to another object of arbitrary type. E_NOT_SET is returned if the comparison cannot be performed."
 ms.date: 09/28/2018
 keywords: ["IComparableConcept::CompareObjects"]
 ms.keywords: IComparableConcept::CompareObjects, CompareObjects, IComparableConcept.CompareObjects, IComparableConcept::CompareObjects, IComparableConcept.CompareObjects

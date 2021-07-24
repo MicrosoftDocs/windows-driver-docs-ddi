@@ -1,7 +1,7 @@
 ---
 UID: NC:ks.PFNREFERENCEDEVICEOBJECT
 title: PFNREFERENCEDEVICEOBJECT (ks.h)
-description: The driver can use this routine to increment the reference count of the PDO.
+description: The PFNREFERENCEDEVICEOBJECT callback function (ks.h) can be invoked by the driver to increment the reference count of the Physical Device Object (PDO).
 old-location: stream\kstrreferencedeviceobject.htm
 tech.root: stream
 ms.date: 04/23/2018

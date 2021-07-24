@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 title: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS (dxgiddi.h)
-description: Used by the user-mode display driver to specify overlay plane capabilities.
+description: The DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure contains information that is used by the user-mode display driver to specify overlay plane capabilities.
 old-location: display\dxgi_ddi_multiplane_overlay_caps.htm
 tech.root: display
 ms.date: 05/10/2018

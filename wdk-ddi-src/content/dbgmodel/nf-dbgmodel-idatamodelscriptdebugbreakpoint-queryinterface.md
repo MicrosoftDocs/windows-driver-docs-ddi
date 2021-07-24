@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.QueryInterface
 title: IDataModelScriptDebugBreakpoint::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IDataModelScriptDebugBreakpoint::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpoint::QueryInterface"]
 ms.keywords: IDataModelScriptDebugBreakpoint::QueryInterface, QueryInterface, IDataModelScriptDebugBreakpoint.QueryInterface, IDataModelScriptDebugBreakpoint::QueryInterface, IDataModelScriptDebugBreakpoint.QueryInterface

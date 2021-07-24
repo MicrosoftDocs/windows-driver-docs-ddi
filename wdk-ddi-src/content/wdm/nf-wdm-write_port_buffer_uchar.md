@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.WRITE_PORT_BUFFER_UCHAR
 title: WRITE_PORT_BUFFER_UCHAR function (wdm.h)
-description: The WRITE_PORT_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified port.
+description: The WRITE_PORT_BUFFER_UCHAR function (wdm.h) writes a number of bytes from a buffer to the specified port.
 old-location: kernel\write_port_buffer_uchar.htm
 tech.root: kernel
 ms.date: 04/30/2018

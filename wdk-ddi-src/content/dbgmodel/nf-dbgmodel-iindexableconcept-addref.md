@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.AddRef
 title: IIndexableConcept::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IIndexableConcept::AddRef method increments the reference count for an interface on an object."
 ms.date: 09/19/2018
 keywords: ["IIndexableConcept::AddRef"]
 ms.keywords: IIndexableConcept::AddRef, AddRef, IIndexableConcept.AddRef, IIndexableConcept::AddRef, IIndexableConcept.AddRef

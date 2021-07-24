@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._KINTERRUPT_POLARITY
 title: _KINTERRUPT_POLARITY (wdm.h)
-description: The KINTERRUPT_POLARITY enumeration indicates how a device signals an interrupt request on an interrupt line.
+description: The _KINTERRUPT_POLARITY enumeration (wdm.h) contains values that indicate how a device signals an interrupt request on an interrupt line.
 old-location: kernel\kinterrupt_polarity.htm
 tech.root: kernel
 ms.date: 04/30/2018

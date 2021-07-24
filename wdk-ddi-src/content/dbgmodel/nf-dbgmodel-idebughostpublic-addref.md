@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.AddRef
 title: IDebugHostPublic::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IDebugHostPublic::AddRef method increments the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDebugHostPublic::AddRef"]
 ms.keywords: IDebugHostPublic::AddRef, AddRef, IDebugHostPublic.AddRef, IDebugHostPublic::AddRef, IDebugHostPublic.AddRef

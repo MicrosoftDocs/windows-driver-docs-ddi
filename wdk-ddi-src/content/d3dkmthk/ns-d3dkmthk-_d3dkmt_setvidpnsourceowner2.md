@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEOWNER2
 title: _D3DKMT_SETVIDPNSOURCEOWNER2 (d3dkmthk.h)
-description: Used to set the VidPN source owner.
+description: The _D3DKMT_SETVIDPNSOURCEOWNER2 structure contains information that is used to set the video present network (VidPN) source owner.
 old-location: display\d3dkmt-setvidpnsourceowner2.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMT_SETVIDPNSOURCEOWNER2 structure"]

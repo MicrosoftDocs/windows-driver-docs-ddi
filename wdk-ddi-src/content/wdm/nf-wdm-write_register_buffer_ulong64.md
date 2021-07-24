@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_BUFFER_ULONG64
 title: WRITE_REGISTER_BUFFER_ULONG64 function (wdm.h)
-description: The WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG64 values from a buffer to the specified register.
+description: The WRITE_REGISTER_BUFFER_ULONG64 function (wdm.h) writes a number of ULONG64 values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ulong64.htm
 tech.root: kernel
 ms.date: 02/26/2018

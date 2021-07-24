@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 title: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT (d3dkmthk.h)
-description: Used to get process device removal support.
+description: The _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure contains adapter, process, and support information for the D3DKMTGetProcessDeviceRemovalSupport function.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure"]
 ms.keywords: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT, D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT,
