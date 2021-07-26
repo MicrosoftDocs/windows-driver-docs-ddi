@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Set(PCSTR,ULONG64)
 title: ExtRemoteTyped::Set(PCSTR,ULONG64) (engextcpp.h)
-description: The Set method sets the typed data represented by the ExtRemoteTyped object.
+description: The Set(PCSTR,ULONG64) method sets the typed data represented by the ExtRemoteTyped object. This method does not return a value.
 old-location: debugger\extremotetyped_set_pcstr_ulong64.htm
 tech.root: debugger
 ms.date: 05/03/2018

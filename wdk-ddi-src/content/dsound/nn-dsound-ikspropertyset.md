@@ -1,7 +1,7 @@
 ---
 UID: NN:dsound.IKsPropertySet
 title: IKsPropertySet (dsound.h)
-description: The IKsPropertySet interface provides methods that access properties of KS objects that are implemented in a KS minidriver.
+description: The IKsPropertySet interface in dsound.h provides methods that access properties of KS objects that are implemented in a KS minidriver. 
 old-location: stream\ikspropertyset.htm
 tech.root: stream
 ms.date: 04/23/2018

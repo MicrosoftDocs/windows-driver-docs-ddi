@@ -1,7 +1,7 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlWriteComplete
 title: FltFastIoMdlWriteComplete function (fltkernel.h)
-description: The FltFastIoMdlWriteComplete routine frees the resources that FltFastIoPrepareMdlWrite allocated.
+description: The FltFastIoMdlWriteComplete routine in fltkernel.h frees the resources that FltFastIoPrepareMdlWrite allocated.
 old-location: ifsk\fltfastiomdlwritecomplete.htm
 tech.root: ifsk
 ms.date: 04/16/2018
