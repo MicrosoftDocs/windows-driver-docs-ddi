@@ -1,7 +1,7 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.Get
 title: IKsPropertySet::Get (ksproxy.h)
-description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
+description: The Get method retrieves a property identified by a property-set GUID and a property identifier. This method belongs to IKsPropertySet in ksproxy.h.
 old-location: stream\ikspropertyset_get.htm
 tech.root: stream
 ms.date: 04/23/2018

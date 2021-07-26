@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator-assign(constDEBUG_TYPED_DATA)
 title: ExtRemoteTyped::operator= method (engextcpp.h)
-description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
+description: The operator= method of the ExtRemoteTyped class. The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger
 ms.date: 08/09/2018

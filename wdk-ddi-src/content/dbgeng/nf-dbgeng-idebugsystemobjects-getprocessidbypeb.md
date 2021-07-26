@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetProcessIdByPeb
 title: IDebugSystemObjects::GetProcessIdByPeb (dbgeng.h)
-description: The GetProcessIdByPeb method returns the engine process ID for the specified process. The process is specified by its process environment block (PEB).
+description: The GetProcessIdByPeb method returns the engine process ID for the specified process. This method belongs to the IDebugSystemObjects interface.
 old-location: debugger\getprocessidbypeb.htm
 tech.root: debugger
 ms.date: 05/03/2018
