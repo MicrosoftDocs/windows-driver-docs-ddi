@@ -1,7 +1,7 @@
 ---
 UID: NF:smclib.RtlZeroMemory
 title: RtlZeroMemory macro (smclib.h)
-description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
+description: The RtlZeroMemory macro (smclib.h) fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 old-location: kernel\rtlzeromemory.htm
 tech.root: kernel
 ms.date: 02/24/2018

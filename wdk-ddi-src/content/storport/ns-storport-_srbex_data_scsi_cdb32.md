@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SRBEX_DATA_SCSI_CDB32
 title: _SRBEX_DATA_SCSI_CDB32 (storport.h)
-description: The SRBEX_DATA_SCSI_CDB32 structure contains the extended SRB data for a 32-byte SCSI command data block (CDB).
+description: The _SRBEX_DATA_SCSI_CDB32 structure (storport.h) contains the extended SRB data for a 32-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb32.htm
 tech.root: storage
 ms.date: 03/29/2018

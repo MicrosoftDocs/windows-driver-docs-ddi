@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._SCSI_REQUEST_BLOCK
 title: SCSI_REQUEST_BLOCK (minitape.h)
-description: SCSI_REQUEST_BLOCK structure
+description: The SCSI_REQUEST_BLOCK structure (minitape.h) contains information for SCSI Request Block (SRB) functions.
 old-location: storage\scsi_request_block.htm
 tech.root: storage
 ms.date: 03/29/2018

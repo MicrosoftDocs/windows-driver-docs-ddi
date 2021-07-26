@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 title: _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE (scsi.h)
-description: The SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure contains a vendor specific microcode (i.e., firmware) image for use by the enclosure services process.
+description: The _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure (scsi.h) contains a vendor specific microcode image used by the enclosure services process.
 old-location: storage\ses_download_microcode_control_diagnostic_page.htm
 tech.root: storage
 ms.date: 03/29/2018

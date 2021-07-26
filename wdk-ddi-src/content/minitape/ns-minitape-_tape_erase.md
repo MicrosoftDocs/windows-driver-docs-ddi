@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._TAPE_ERASE
 title: _TAPE_ERASE (minitape.h)
-description: The TAPE_ERASE structure is used in conjunction with the IOCTL_TAPE_ERASE request to erase the current tape partition.
+description: The _TAPE_ERASE structure (minitape.h) contains the information needed to erase the current tape partition.
 old-location: storage\tape_erase.htm
 tech.root: storage
 ms.date: 03/29/2018

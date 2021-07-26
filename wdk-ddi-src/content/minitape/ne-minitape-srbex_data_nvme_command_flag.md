@@ -4,7 +4,7 @@ tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND_FLAG (minitape.h)
 ms.date: 05/13/2021
 targetos: Windows
-description: SRBEX_DATA_NVME_COMMAND_FLAG enumerates the properties of a particular SRBEX Data NVMe command.
+description: The SRBEX_DATA_NVME_COMMAND_FLAG (minitape.h) enumeration contains values that indicate the properties of a particular SRBEX Data NVMe command.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: minitape.h

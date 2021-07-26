@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SRBEX_DATA_SCSI_CDB_VAR
 title: _SRBEX_DATA_SCSI_CDB_VAR (storport.h)
-description: The SRBEX_DATA_SCSI_CDB_VAR structure contains the extended SRB data for a variable length SCSI command data block (CDB).
+description: The _SRBEX_DATA_SCSI_CDB_VAR structure (storport.h) contains the extended SRB data for a variable length SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb_var.htm
 tech.root: storage
 ms.date: 03/29/2018
