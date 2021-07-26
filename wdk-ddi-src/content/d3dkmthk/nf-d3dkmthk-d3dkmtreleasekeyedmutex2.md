@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseKeyedMutex2
 title: D3DKMTReleaseKeyedMutex2 function (d3dkmthk.h)
-description: Releases a keyed mutex object that includes private data.
+description: The D3DKMTReleaseKeyedMutex2 function releases a keyed mutex object that includes private data specified by the caller.
 old-location: display\d3dkmtreleasekeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTReleaseKeyedMutex2 function"]

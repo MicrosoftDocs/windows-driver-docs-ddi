@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._INTERFACE
 title: _INTERFACE (wdm.h)
-description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
+description: The _INTERFACE structure (wdm.h) describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
 tech.root: kernel
 ms.date: 04/30/2018

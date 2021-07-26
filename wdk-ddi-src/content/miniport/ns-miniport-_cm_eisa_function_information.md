@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._CM_EISA_FUNCTION_INFORMATION
 title: _CM_EISA_FUNCTION_INFORMATION (miniport.h)
-description: The CM_EISA_FUNCTION_INFORMATION structure defines detailed EISA configuration information returned by HalGetBusData for the input BusDataType EisaConfiguration, or by HalGetBusDataByOffset for the input BusDataType EisaConfiguration and the Offset zero, assuming the caller-allocated Buffer is of sufficient Length.
+description: The _CM_EISA_FUNCTION_INFORMATION structure (miniport.h) defines detailed EISA configuration information returned by HalGetBusData or HalGetBusDataByOffset.
 old-location: kernel\cm_eisa_function_information.htm
 tech.root: kernel
 ms.date: 04/30/2018

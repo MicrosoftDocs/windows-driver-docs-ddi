@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
 title: _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER (ntddk.h)
-description: The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
+description: The _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure (ntddk.h) describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_root_capabilities_register.htm
 tech.root: PCI
 ms.date: 02/24/2018

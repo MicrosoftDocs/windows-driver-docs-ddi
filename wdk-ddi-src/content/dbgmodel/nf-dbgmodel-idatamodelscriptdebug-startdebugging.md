@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.StartDebugging
 title: IDataModelScriptDebug::StartDebugging (dbgmodel.h)
-description: The StartDebugging method "turns on" the debugger for a particular script.
+description: "The IDataModelScriptDebug::StartDebugging method turns on the debugger for a particular script but does not begin execution break or stepping."
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::StartDebugging"]
 ms.keywords: IDataModelScriptDebug::StartDebugging, StartDebugging, IDataModelScriptDebug.StartDebugging, IDataModelScriptDebug::StartDebugging, IDataModelScriptDebug.StartDebugging

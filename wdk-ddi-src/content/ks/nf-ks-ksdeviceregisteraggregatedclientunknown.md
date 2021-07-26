@@ -1,7 +1,7 @@
 ---
 UID: NF:ks.KsDeviceRegisterAggregatedClientUnknown
 title: KsDeviceRegisterAggregatedClientUnknown function (ks.h)
-description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
+description: TThe KsDeviceRegisterAggregatedClientUnknown function is an inline function that is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\ksdeviceregisteraggregatedclientunknown.htm
 tech.root: stream
 ms.date: 04/23/2018

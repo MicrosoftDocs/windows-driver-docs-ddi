@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.QueryInterface
 title: IKeyEnumerator::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IKeyEnumerator::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::QueryInterface"]
 ms.keywords: IKeyEnumerator::QueryInterface, QueryInterface, IKeyEnumerator.QueryInterface, IKeyEnumerator::QueryInterface, IKeyEnumerator.QueryInterface

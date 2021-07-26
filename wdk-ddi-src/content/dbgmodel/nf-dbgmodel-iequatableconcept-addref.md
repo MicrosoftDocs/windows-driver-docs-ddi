@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.AddRef
 title: IEquatableConcept::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object.
+description: The AddRef method increments the reference count for an interface on an object. This method belongs to the IEquatableConcept interface.
 ms.date: 09/19/2018
 keywords: ["IEquatableConcept::AddRef"]
 ms.keywords: IEquatableConcept::AddRef, AddRef, IEquatableConcept.AddRef, IEquatableConcept::AddRef, IEquatableConcept.AddRef

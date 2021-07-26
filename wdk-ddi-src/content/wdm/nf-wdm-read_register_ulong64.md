@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.READ_REGISTER_ULONG64
 title: READ_REGISTER_ULONG64 function (wdm.h)
-description: The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
+description: The READ_REGISTER_ULONG64 function (wdm.h) reads a ULONG64 value from the specified register address.
 tech.root: kernel
 ms.date: 09/15/2020
 keywords: ["READ_REGISTER_ULONG64 function"]

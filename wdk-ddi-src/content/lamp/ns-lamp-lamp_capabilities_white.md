@@ -1,7 +1,7 @@
 ---
 UID: NS:lamp.LAMP_CAPABILITIES_WHITE
 title: LAMP_CAPABILITIES_WHITE (lamp.h)
-description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_WHITE and IOCTL_LAMP_SET_INTENSITY_WHITE.
+description: The LAMP_CAPABILITIES_WHITE structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_WHITE and IOCTL_LAMP_SET_INTENSITY_WHITE.
 old-location: stream\lamp_capabilities_white.htm
 tech.root: stream
 ms.date: 03/12/2021

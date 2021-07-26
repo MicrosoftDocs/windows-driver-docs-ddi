@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 title: PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE (d3dkmthk.h)
-description: Maps a global NT handle to resource information that is needed for a call to the D3DKMTQueryResourceInfo function.
+description: The PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback function maps a global NT handle to resource information used to call the D3DKMTQueryResourceInfo function.
 old-location: display\d3dkmtqueryresourceinfofromnthandle.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback function"]

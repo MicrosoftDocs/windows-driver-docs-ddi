@@ -1,7 +1,7 @@
 ---
 UID: NF:minitape.FIELD_OFFSET
 title: FIELD_OFFSET macro (minitape.h)
-description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
+description: The FIELD_OFFSET macro (minitape.h) returns the byte offset of the specified field in the specified known structure type.
 old-location: kernel\field_offset.htm
 tech.root: kernel
 ms.date: 02/24/2018

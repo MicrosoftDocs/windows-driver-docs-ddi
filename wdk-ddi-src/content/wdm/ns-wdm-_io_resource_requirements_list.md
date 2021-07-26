@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._IO_RESOURCE_REQUIREMENTS_LIST
 title: _IO_RESOURCE_REQUIREMENTS_LIST (wdm.h)
-description: The IO_RESOURCE_REQUIREMENTS_LIST structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
+description: The _IO_RESOURCE_REQUIREMENTS_LIST structure (wdm.h) describes sets of resource configurations representing  raw resource types used by a device.
 old-location: kernel\io_resource_requirements_list.htm
 tech.root: kernel
 ms.date: 04/30/2018

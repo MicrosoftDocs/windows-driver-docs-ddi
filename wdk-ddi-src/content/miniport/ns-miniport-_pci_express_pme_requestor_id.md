@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_PME_REQUESTOR_ID
 title: _PCI_EXPRESS_PME_REQUESTOR_ID (miniport.h)
-description: The PCI_EXPRESS_PME_REQUESTOR_ID structure describes the identifier of the requester of a power management event (PME).
+description: The _PCI_EXPRESS_PME_REQUESTOR_ID structure (miniport.h) describes the identifier of the requester of a power management event (PME).
 old-location: pci\pci_express_pme_requestor_id.htm
 tech.root: PCI
 ms.date: 02/24/2018

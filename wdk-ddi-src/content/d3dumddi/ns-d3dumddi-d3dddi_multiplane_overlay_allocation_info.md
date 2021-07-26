@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 title: D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO (d3dumddi.h)
-description: Specifies info about a multiplane overlay allocation.
+description: The D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure specifies information about a multiplane overlay allocation.
 old-location: display\d3dddi_multiplane_allocation_info.htm
 tech.root: display
 ms.date: 05/10/2018
