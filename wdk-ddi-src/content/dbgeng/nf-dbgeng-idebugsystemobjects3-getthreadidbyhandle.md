@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetThreadIdByHandle
 title: IDebugSystemObjects3::GetThreadIdByHandle (dbgeng.h)
-description: The IDebugSystemObjects3::GetThreadIdByHandle method returns the engine thread ID for the specified thread. The thread is specified by its system handle.
+description: "The IDebugSystemObjects3::GetThreadIdByHandle method returns the engine thread ID for the specified thread. The thread is specified by its system handle."
 old-location: debugger\getthreadidbyhandle.htm
 tech.root: debugger
 ms.date: 05/03/2018

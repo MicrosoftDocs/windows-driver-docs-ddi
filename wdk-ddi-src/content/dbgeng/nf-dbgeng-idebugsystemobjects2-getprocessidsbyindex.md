@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetProcessIdsByIndex
 title: IDebugSystemObjects2::GetProcessIdsByIndex (dbgeng.h)
-description: The IDebugSystemObjects2::GetProcessIdsByIndex method returns the engine process ID and system process ID for the specified processes in the current target.
+description: "The IDebugSystemObjects2::GetProcessIdsByIndex method returns the engine process ID and system process ID for the specified processes in the current target."
 old-location: debugger\getprocessidsbyindex.htm
 tech.root: debugger
 ms.date: 05/03/2018

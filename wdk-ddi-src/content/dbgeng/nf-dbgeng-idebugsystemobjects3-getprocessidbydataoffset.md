@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetProcessIdByDataOffset
 title: IDebugSystemObjects3::GetProcessIdByDataOffset (dbgeng.h)
-description: The IDebugSystemObjects3::GetProcessIdByDataOffset method returns the engine process ID for the specified process. The process is specified by its data offset.
+description: "The IDebugSystemObjects3::GetProcessIdByDataOffset method returns the engine process ID for the specified process. The process is specified by its data offset."
 old-location: debugger\getprocessidbydataoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018
