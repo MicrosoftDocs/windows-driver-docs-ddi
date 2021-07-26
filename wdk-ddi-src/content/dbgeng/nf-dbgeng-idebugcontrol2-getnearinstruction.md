@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNearInstruction
 title: IDebugControl2::GetNearInstruction (dbgeng.h)
-description: The GetNearInstruction method returns the location of a processor instruction relative to a given location.
+description: Learn about the GetNearInstruction method, which returns the location of a processor instruction relative to a given location.
 old-location: debugger\getnearinstruction.htm
 tech.root: debugger
 ms.date: 05/03/2018
