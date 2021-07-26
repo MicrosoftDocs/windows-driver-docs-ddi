@@ -1,7 +1,7 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTOINTERFACE
 title: PFNDRMFORWARDCONTENTTOINTERFACE (drmk.h)
-description: This callback function is reserved for system use.
+description: "Microsoft reserves the PFNDRMFORWARDCONTENTTOINTERFACE callback function for internal use only. Don't use this function in your code."
 old-location: audio\pfndrmforwardcontenttointerface.htm
 tech.root: audio
 ms.date: 05/08/2018

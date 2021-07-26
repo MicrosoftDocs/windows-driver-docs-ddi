@@ -1,7 +1,7 @@
 ---
 UID: NE:miniport._IRQ_PRIORITY
 title: _IRQ_PRIORITY (miniport.h)
-description: The IRQ_PRIORITY enumeration type indicates the priority the system should give to servicing a device's interrupts.
+description: The _IRQ_PRIORITY enumeration (miniport.h) type indicates the priority the system should give to servicing a device's interrupts.
 old-location: kernel\irq_priority.htm
 tech.root: kernel
 ms.date: 04/30/2018

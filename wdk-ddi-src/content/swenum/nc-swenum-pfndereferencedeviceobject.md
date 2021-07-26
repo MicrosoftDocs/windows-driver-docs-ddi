@@ -1,7 +1,7 @@
 ---
 UID: NC:swenum.PFNDEREFERENCEDEVICEOBJECT
 title: PFNDEREFERENCEDEVICEOBJECT (swenum.h)
-description: The driver can use this routine to decrement the reference count of the PDO.
+description: The PFNDEREFERENCEDEVICEOBJECT callback function (swenum.h) can be invoked by the driver to decrement the reference count of the Physical Device Object (PDO).
 old-location: stream\kstrdereferencedeviceobject.htm
 tech.root: stream
 ms.date: 04/23/2018

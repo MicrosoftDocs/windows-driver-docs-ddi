@@ -1,7 +1,7 @@
 ---
 UID: NC:miniport.PINTERFACE_DEREFERENCE
 title: PINTERFACE_DEREFERENCE (miniport.h)
-description: The InterfaceDereference routine decrements the reference count on a driver-defined interface.
+description: The PINTERFACE_DEREFERENCE callback function (miniport.h) decrements the reference count on a driver-defined interface.
 old-location: kernel\interfacedereference.htm
 tech.root: kernel
 ms.date: 04/30/2018

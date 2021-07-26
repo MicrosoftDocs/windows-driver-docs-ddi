@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._MEMORY_CACHING_TYPE
 title: _MEMORY_CACHING_TYPE (wdm.h)
-description: The MEMORY_CACHING_TYPE enumeration type specifies the permitted caching behavior when allocating or mapping memory.
+description: The _MEMORY_CACHING_TYPE enumeration (wdm.h) type specifies the permitted caching behavior when allocating or mapping memory.
 old-location: kernel\memory_caching_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

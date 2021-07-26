@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateTypedObjectReference
 title: IDataModelManager::CreateTypedObjectReference (dbgmodel.h)
-description: The CreateTypedObjectReference method is semantically similar to the CreateTypedObject method excepting that it creates a reference to the underlying native/language construct.
+description: "The IDataModelManager::CreateTypedObjectReference method creates a reference to an underlying native/language construct."
 ms.date: 07/17/2018
 keywords: ["IDataModelManager::CreateTypedObjectReference"]
 ms.keywords: IDataModelManager::CreateTypedObjectReference, CreateTypedObjectReference, IDataModelManager.CreateTypedObjectReference, IDataModelManager::CreateTypedObjectReference, IDataModelManager.CreateTypedObjectReference

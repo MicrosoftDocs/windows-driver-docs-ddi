@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.QueryInterface
 title: IModelKeyReference2::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IModelKeyReference2::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::QueryInterface"]
 ms.keywords: IModelKeyReference2::QueryInterface, QueryInterface, IModelKeyReference2.QueryInterface, IModelKeyReference2::QueryInterface, IModelKeyReference2.QueryInterface

@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_RELEASEKEYEDMUTEX2
 title: PFND3DKMT_RELEASEKEYEDMUTEX2 (d3dkmthk.h)
-description: Releases a keyed mutex object that includes private data.
+description: The PFND3DKMT_RELEASEKEYEDMUTEX2 callback function releases a keyed mutex object that includes private data specified by the caller.
 old-location: display\d3dkmtreleasekeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_RELEASEKEYEDMUTEX2 callback function"]

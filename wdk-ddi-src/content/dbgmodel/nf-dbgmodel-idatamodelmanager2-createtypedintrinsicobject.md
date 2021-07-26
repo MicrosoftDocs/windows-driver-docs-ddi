@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedIntrinsicObject
 title: IDataModelManager2::CreateTypedIntrinsicObject (dbgmodel.h)
-description: The CreateTypedintrinsicObject method is similar to the CreateIntrinsicObject method excepting that it allows a native/language type to be associated with the data and carried along with the boxed value.
+description: "The IDataModelManager2::CreateTypedIntrinsicObject method boxes intrinsic values together with a native/language type association into IModelObject."
 ms.date: 09/11/2018
 keywords: ["IDataModelManager2::CreateTypedIntrinsicObject"]
 ms.keywords: IDataModelManager2::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject, IDataModelManager2.CreateTypedIntrinsicObject, IDataModelManager2::CreateTypedIntrinsicObject, IDataModelManager2.CreateTypedIntrinsicObject

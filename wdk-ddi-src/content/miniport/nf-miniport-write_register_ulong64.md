@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_ULONG64
 title: WRITE_REGISTER_ULONG64 function (miniport.h)
-description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
+description: The WRITE_REGISTER_ULONG64 function (miniport.h) writes a ULONG64 value to the specified register address.
 old-location: wdf\write_register_ulong64.htm
 tech.root: wdf
 ms.date: 02/26/2018

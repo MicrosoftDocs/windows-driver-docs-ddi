@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.SetUlongPtr
 title: ExtRemoteData::SetUlongPtr method (engextcpp.h)
-description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
+description: The SetUlongPtr convenience method is provided by the ExtRemoteData class, which provides a wrapper for a small section of a target's memory.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
 ms.date: 01/19/2018

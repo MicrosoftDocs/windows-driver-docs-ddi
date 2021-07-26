@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_25
 title: KSPPROPERTY_ALLOCATOR_MDLCACHING (ks.h)
-description: This enumeration is used internally by the operating system.
+description: The KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration contains values that are used internally by the operating system.
 old-location: stream\kspproperty_allocator_mdlcaching.htm
 tech.root: stream
 ms.date: 04/23/2018

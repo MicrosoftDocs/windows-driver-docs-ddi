@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.AddRef
 title: IPreferredRuntimeTypeConcept::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IPreferredRuntimeTypeConcept::AddRef method increments the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IPreferredRuntimeTypeConcept::AddRef"]
 ms.keywords: IPreferredRuntimeTypeConcept::AddRef, AddRef, IPreferredRuntimeTypeConcept.AddRef, IPreferredRuntimeTypeConcept::AddRef, IPreferredRuntimeTypeConcept.AddRef
