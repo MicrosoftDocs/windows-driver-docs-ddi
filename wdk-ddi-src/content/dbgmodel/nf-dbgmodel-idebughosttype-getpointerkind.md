@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetPointerKind
 title: IDebugHostType::GetPointerKind (dbgmodel.h)
-description: For types which are pointers, the GetPointerKind method returns the kind of pointer.
+description: "The IDebugHostType::GetPointerKind method, when called on a type for a pointer, gets the kind of pointer specified by the PointerKind enumeration."
 ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetPointerKind"]
 ms.keywords: IDebugHostType::GetPointerKind, GetPointerKind, IDebugHostType.GetPointerKind, IDebugHostType::GetPointerKind, IDebugHostType.GetPointerKind

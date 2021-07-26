@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.GetContextObject
 title: IModelKeyReference2::GetContextObject (dbgmodel.h)
-description: The GetContextObject method returns the context (this pointer) which will be passed to a property accessor's GetValue or SetValue method if the key in question refers to a property accessor.
+description: "The IModelKeyReference2::GetContextObject method, when called on a key reference for an object, gets the context of the object."
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::GetContextObject"]
 ms.keywords: IModelKeyReference2::GetContextObject, GetContextObject, IModelKeyReference2.GetContextObject, IModelKeyReference2::GetContextObject, IModelKeyReference2.GetContextObject
