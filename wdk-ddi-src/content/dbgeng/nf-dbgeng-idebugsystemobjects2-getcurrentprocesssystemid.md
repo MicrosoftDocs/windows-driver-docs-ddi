@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetCurrentProcessSystemId
 title: IDebugSystemObjects2::GetCurrentProcessSystemId (dbgeng.h)
-description: The GetCurrentProcessSystemId method returns the system process ID of the current process.
+description: The GetCurrentProcessSystemId method returns the system process ID of the current process. This method belongs to the IDebugSystemObjects2 interface.
 old-location: debugger\getcurrentprocesssystemid.htm
 tech.root: debugger
 ms.date: 05/03/2018
