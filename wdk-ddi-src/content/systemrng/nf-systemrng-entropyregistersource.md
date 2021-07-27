@@ -1,7 +1,7 @@
 ---
 UID: NF:systemrng.EntropyRegisterSource
 title: EntropyRegisterSource function (systemrng.h)
-description: 
+description: "Learn more about: EntropyRegisterSource function"
 ms.date: 11/19/2020
 keywords: ["EntropyRegisterSource function"]
 ms.keywords: EntropyRegisterSource

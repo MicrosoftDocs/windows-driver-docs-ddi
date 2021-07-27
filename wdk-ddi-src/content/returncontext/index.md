@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Returncontext.h header"
 UID: NA:returncontext
 title: Returncontext.h header
 ms.assetid: 54F42043-0F6B-45EC-9E91-90505DB1575D

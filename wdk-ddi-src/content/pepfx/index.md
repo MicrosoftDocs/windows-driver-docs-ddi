@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pepfx.h header"
 UID: NA:pepfx
 title: Pepfx.h header
 ms.assetid: 49d516fa-79a0-3209-8812-5b701f4a9c52

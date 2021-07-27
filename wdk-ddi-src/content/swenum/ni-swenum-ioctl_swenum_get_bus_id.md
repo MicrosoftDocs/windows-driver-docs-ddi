@@ -1,7 +1,7 @@
 ---
 UID: NI:swenum.IOCTL_SWENUM_GET_BUS_ID
 title: IOCTL_SWENUM_GET_BUS_ID (swenum.h)
-description: 
+description: "Learn more about: IOCTL_SWENUM_GET_BUS_ID IOCTL"
 old-location: stream\ioctl_swenum_get_bus_id.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._VPD_EXTENDED_INQUIRY_DATA_PAGE
 title: _VPD_EXTENDED_INQUIRY_DATA_PAGE (scsi.h)
-description: 
+description: "Learn more about: _VPD_EXTENDED_INQUIRY_DATA_PAGE structure (scsi.h)"
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["VPD_EXTENDED_INQUIRY_DATA_PAGE structure"]

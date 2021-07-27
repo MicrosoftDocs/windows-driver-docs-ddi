@@ -1,7 +1,7 @@
 ---
 UID: NE:systemrng.__unnamed_enum_0
 title: ENTROPY_SOURCE_TYPE (systemrng.h)
-description: 
+description: "Learn more about: ENTROPY_SOURCE_TYPE enumeration"
 ms.date: 11/19/2020
 keywords: ["ENTROPY_SOURCE_TYPE enumeration"]
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE,

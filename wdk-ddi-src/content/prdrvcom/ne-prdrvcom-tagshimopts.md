@@ -1,7 +1,7 @@
 ---
 UID: NE:prdrvcom.tagSHIMOPTS
 title: tagSHIMOPTS (prdrvcom.h)
-description: 
+description: "Learn more about: tagSHIMOPTS enumeration"
 old-location: print\shimopts.htm
 tech.root: print
 ms.date: 04/20/2018

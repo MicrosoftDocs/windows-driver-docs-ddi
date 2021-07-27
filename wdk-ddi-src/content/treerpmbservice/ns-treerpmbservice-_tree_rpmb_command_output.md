@@ -1,7 +1,7 @@
 ---
 UID: NS:treerpmbservice._TREE_RPMB_COMMAND_OUTPUT
 title: _TREE_RPMB_COMMAND_OUTPUT (treerpmbservice.h)
-description: 
+description: "Learn more about: _TREE_RPMB_COMMAND_OUTPUT structure"
 ms.date: 11/20/2020
 keywords: ["TREE_RPMB_COMMAND_OUTPUT structure"]
 ms.keywords: _TREE_RPMB_COMMAND_OUTPUT, TREE_RPMB_COMMAND_OUTPUT, *PTREE_RPMB_COMMAND_OUTPUT,

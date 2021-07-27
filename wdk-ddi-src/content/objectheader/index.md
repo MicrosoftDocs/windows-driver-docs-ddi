@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Objectheader.h header"
 UID: NA:objectheader
 title: Objectheader.h header
 ms.date: 11/30/2020

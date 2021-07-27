@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIDETONE_PROPERTY
 title: IOCTL_SBAUD_SET_SIDETONE_PROPERTY (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL"]
 req.header: sidebandaudio.h

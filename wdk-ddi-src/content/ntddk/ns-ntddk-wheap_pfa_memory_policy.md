@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_PFA_MEMORY_POLICY
 title: WHEAP_PFA_MEMORY_POLICY
-description: 
+description: "Learn more about: WHEAP_PFA_MEMORY_POLICY structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_POLICY structure"]

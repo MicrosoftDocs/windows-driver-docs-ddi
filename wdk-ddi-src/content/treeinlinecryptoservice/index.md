@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Treeinlinecryptoservice.h header"
 UID: NA:treeinlinecryptoservice
 title: Treeinlinecryptoservice.h header
 ms.assetid: 706ce4d6-553e-33e5-ada1-07b5ce29405e

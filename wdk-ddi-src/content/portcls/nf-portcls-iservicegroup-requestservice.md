@@ -1,7 +1,7 @@
 ---
 UID: NF:portcls.IServiceGroup.RequestService
 title: IServiceGroup::RequestService (portcls.h)
-description: 
+description: "Learn more about: IServiceGroup::RequestService"
 old-location: audio\iservicegroup_requestservice.htm
 tech.root: audio
 ms.date: 09/17/2018

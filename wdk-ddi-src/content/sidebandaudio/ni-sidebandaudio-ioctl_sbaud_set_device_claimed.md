@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_DEVICE_CLAIMED
 title: IOCTL_SBAUD_SET_DEVICE_CLAIMED (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 req.header: sidebandaudio.h

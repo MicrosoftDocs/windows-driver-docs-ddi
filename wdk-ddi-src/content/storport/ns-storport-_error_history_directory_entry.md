@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._ERROR_HISTORY_DIRECTORY_ENTRY
 title: _ERROR_HISTORY_DIRECTORY_ENTRY (storport.h)
-description: 
+description: "Learn more about: _ERROR_HISTORY_DIRECTORY_ENTRY structure (storport.h)"
 tech.root: storage
 ms.date: 10/19/2018
 keywords: ["ERROR_HISTORY_DIRECTORY_ENTRY structure"]

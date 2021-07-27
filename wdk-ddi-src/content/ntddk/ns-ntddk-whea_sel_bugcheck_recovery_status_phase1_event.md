@@ -5,7 +5,7 @@ tech.root: whea
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE1_EVENT"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddmmc.h header"
 UID: NA:ntddmmc
 title: Ntddmmc.h header
 ms.assetid: 92194723-cbdf-38ff-bf3c-b690a37f6943

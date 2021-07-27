@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SAVED_INTERNAL_STATUS_PARAMETER_DATA
 title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA (storport.h)
-description: 
+description: "Learn more about: _SAVED_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)"
 tech.root: storage
 ms.date: 10/19/2018
 keywords: ["SAVED_INTERNAL_STATUS_PARAMETER_DATA structure"]

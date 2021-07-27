@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Stiusd.h header"
 UID: NA:stiusd
 title: Stiusd.h header
 ms.assetid: 5bcc3df5-ecee-349e-be93-b2fe366718e0

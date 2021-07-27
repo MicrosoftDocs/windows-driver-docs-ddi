@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sensorsstructures.h header"
 UID: NA:sensorsstructures
 title: Sensorsstructures.h header
 ms.assetid: 38c4bcab-02e9-432e-a859-997726bd4953

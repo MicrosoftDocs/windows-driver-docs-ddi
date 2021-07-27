@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sddef.h header"
 UID: NA:sddef
 title: Sddef.h header
 ms.assetid: d63221f4-b83a-3728-9842-47f3611e0782

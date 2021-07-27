@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Oemrilapitypes.h header"
 UID: NA:oemrilapitypes
 title: Oemrilapitypes.h header
 ms.assetid: 3b0d3097-7bec-32e3-88b2-c289a5c22c19

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scsiscan.h header"
 UID: NA:scsiscan
 title: Scsiscan.h header
 ms.assetid: fb5a05ac-d1d3-3550-a11a-67ef84846ede

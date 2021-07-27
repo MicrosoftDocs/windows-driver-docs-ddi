@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
