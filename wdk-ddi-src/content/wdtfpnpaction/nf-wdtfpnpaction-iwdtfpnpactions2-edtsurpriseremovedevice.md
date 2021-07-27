@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTSurpriseRemoveDevice
 title: IWDTFPNPActions2::EDTSurpriseRemoveDevice (wdtfpnpaction.h)
-description: Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
+description: Learn how the method sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtsurpriseremovedevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

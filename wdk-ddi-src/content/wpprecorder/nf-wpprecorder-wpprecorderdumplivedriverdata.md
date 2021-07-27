@@ -1,7 +1,7 @@
 ---
 UID: NF:wpprecorder.WppRecorderDumpLiveDriverData
 title: WppRecorderDumpLiveDriverData macro (wpprecorder.h)
-description: The WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log.
+description: Learn how the WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log.
 old-location: devtest\wpprecorderdumplivedriverdata.htm
 tech.root: devtest
 ms.date: 02/23/2018

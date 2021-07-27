@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.put_Context
 title: IWDTFTarget2::put_Context (wdtf.h)
-description: Gets and sets a name-value pair that represents user data for the target.
+description: Learn how the method gets and sets a name-value pair that represents user data for the target.
 old-location: dtf\iwdtftarget2_context.htm
 tech.root: dtf
 ms.date: 04/04/2018

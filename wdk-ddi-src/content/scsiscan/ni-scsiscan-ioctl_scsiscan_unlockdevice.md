@@ -1,7 +1,7 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_UNLOCKDEVICE
 title: IOCTL_SCSISCAN_UNLOCKDEVICE (scsiscan.h)
-description: Reserved for use by Microsoft.
+description: This IOCTL_SCSISCAN_UNLOCKDEVICE article it reserved for use by Microsoft.
 old-location: image\ioctl_scsiscan_unlockdevice.htm
 tech.root: image
 ms.date: 05/03/2018

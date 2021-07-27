@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfcompanion.WdfDeviceInitSetCompanionEventCallbacks
 title: WdfDeviceInitSetCompanionEventCallbacks function (wdfcompanion.h)
-description: For internal use only.
+description: This WdfDeviceInitSetCompanionEventCallbacks function article is for internal use only.
 old-location: wdf\wdfdeviceinitsetcompanioneventcallbacks.htm
 tech.root: wdf
 ms.date: 02/26/2018

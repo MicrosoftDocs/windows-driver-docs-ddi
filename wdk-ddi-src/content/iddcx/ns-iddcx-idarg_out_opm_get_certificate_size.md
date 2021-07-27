@@ -1,7 +1,7 @@
 ---
 UID: NS:iddcx.IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
 title: IDARG_OUT_OPM_GET_CERTIFICATE_SIZE (iddcx.h)
-description: Gives information about the OPM certificate size.
+description: The IDARG_OUT_OPM_GET_CERTIFICATE_SIZE structure in iddcx.h gives information about the OPM certificate size.
 old-location: display\idarg_out_opm_get_certificate_size.htm
 tech.root: display
 ms.date: 05/10/2018

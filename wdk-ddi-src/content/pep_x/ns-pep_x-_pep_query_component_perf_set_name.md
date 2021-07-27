@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_QUERY_COMPONENT_PERF_SET_NAME
 title: _PEP_QUERY_COMPONENT_PERF_SET_NAME (pep_x.h)
-description: The PEP_QUERY_COMPONENT_PERF_SET_NAME structure contains query information about a set of performance state values (P-state set) for a component.
+description: Learn how the PEP_QUERY_COMPONENT_PERF_SET_NAME structure contains query information about a set of performance state values (P-state set) for a component.
 old-location: kernel\pep_query_component_perf_set_name.htm
 tech.root: kernel
 ms.date: 04/30/2018

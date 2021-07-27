@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._WAIT_CONTEXT_BLOCK
 title: _WAIT_CONTEXT_BLOCK (wdm.h)
-description: Reserved. Do not use.
+description: Reserved for WAIT_CONTEXT_BLOCK. Do not use.
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["WAIT_CONTEXT_BLOCK structure"]

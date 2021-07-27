@@ -1,7 +1,7 @@
 ---
 UID: NS:wdbgexts._SEARCHMEMORY
 title: _SEARCHMEMORY (wdbgexts.h)
-description: The SearchMemory function searches the target's virtual memory for a specified pattern of bytes.
+description: Learn how the SearchMemory function searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchmemory.htm
 tech.root: debugger
 ms.date: 02/27/2018

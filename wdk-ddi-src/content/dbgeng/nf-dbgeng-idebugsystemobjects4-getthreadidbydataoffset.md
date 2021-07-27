@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetThreadIdByDataOffset
 title: IDebugSystemObjects4::GetThreadIdByDataOffset (dbgeng.h)
-description: The GetThreadIdByDataOffset method returns the engine thread ID for the specified thread. The thread is specified by its system data structure.
+description: "The IDebugSystemObjects4::GetThreadIdByDataOffset method returns the engine thread ID. The thread is specified by its system data structure."
 old-location: debugger\getthreadidbydataoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

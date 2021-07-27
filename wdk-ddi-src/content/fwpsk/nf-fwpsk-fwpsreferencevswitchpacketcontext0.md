@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpsk.FwpsReferencevSwitchPacketContext0
 title: FwpsReferencevSwitchPacketContext0 function (fwpsk.h)
-description: This function is not supported.
+description: The FwpsReferencevSwitchPacketContext0 function is not supported. It processes the vSwitchPacketContext member in the FWPS_INCOMING_METADATA_VALUES0 structure.
 old-location: netvista\fwpsreferencevswitchpacketcontext0.htm
 tech.root: netvista
 ms.date: 05/02/2018

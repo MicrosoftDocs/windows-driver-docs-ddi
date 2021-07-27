@@ -1,7 +1,7 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 title: EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE (wdfcompanion.h)
-description: For internal use only.
+description: This EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE article is for internal use only.
 old-location: wdf\evt_wdf_companion_pre_prepare_hardware.htm
 tech.root: wdf
 ms.date: 02/26/2018

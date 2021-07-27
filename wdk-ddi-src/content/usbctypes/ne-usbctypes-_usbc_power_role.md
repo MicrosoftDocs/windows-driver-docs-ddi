@@ -1,7 +1,7 @@
 ---
 UID: NE:usbctypes._USBC_POWER_ROLE
 title: _USBC_POWER_ROLE (usbctypes.h)
-description: Defines power roles of USB Type-C connected devices.
+description: Learn how USBC_POWER_ROLE defines power roles of USB Type-C connected devices.
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_POWER_ROLE enumeration"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwRecoverResourceManager
 title: ZwRecoverResourceManager function (wdm.h)
-description: The ZwRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
+description: Learn how the ZwRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\zwrecoverresourcemanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

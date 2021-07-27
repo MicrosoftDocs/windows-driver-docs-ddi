@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwOpenResourceManager
 title: ZwOpenResourceManager function (wdm.h)
-description: The ZwOpenResourceManager routine returns a handle to an existing resource manager object.
+description: Learn how the ZwOpenResourceManager routine returns a handle to an existing resource manager object.
 old-location: kernel\zwopenresourcemanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

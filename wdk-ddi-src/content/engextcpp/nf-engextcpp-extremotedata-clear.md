@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Clear
 title: ExtRemoteData::Clear method (engextcpp.h)
-description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
+description: The Clear convenience method is provided by the ExtRemoteData class, which provides a wrapper for a small section of a target's memory.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
 ms.date: 08/09/2018

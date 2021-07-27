@@ -1,7 +1,7 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_15
 title: GNSS_SATELLITEINFO (gnssdriver.h)
-description: This structure defines satellite-related information of a fix.
+description: The GNSS_SATELLITEINFO structure in the gnssdriver.h file defines satellite-related information of a fix.
 old-location: gnss\gnss_satelliteinfo.htm
 tech.root: gnss
 ms.date: 02/15/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:wudfddi_types._WDF_EVENT_TYPE
 title: _WDF_EVENT_TYPE (wudfddi_types.h)
-description: The WDF_EVENT_TYPE enumeration specifies.
+description: Learn how the WDF_EVENT_TYPE enumeration specifies types of events about which a driver can notify a registered application.
 old-location: wdf\wdf_event_type.htm
 tech.root: wdf
 ms.date: 02/26/2018

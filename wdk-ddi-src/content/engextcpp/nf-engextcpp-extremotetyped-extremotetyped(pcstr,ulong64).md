@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(PCSTR,ULONG64)
 title: ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64) (engextcpp.h)
-description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
+description: "The ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64) constructor creates a new instance of the ExtRemoteTyped class."
 old-location: debugger\extremotetyped_extremotetyped_pcstr_ulong64.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.get_WDTF
 title: IWDTFTarget2::get_WDTF (wdtf.h)
-description: Gets the main WDTF aggregation object.
+description: Learn how the method gets the main WDTF aggregation object.
 old-location: dtf\iwdtftarget2_wdtf.htm
 tech.root: dtf
 ms.date: 04/04/2018

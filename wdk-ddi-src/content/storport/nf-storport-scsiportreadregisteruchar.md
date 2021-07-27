@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.ScsiPortReadRegisterUchar
 title: ScsiPortReadRegisterUchar macro (storport.h)
-description: The ScsiPortReadRegisterUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
+description: Learn how the ScsiPortReadRegisterUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisteruchar.htm
 tech.root: storage
 ms.date: 03/29/2018

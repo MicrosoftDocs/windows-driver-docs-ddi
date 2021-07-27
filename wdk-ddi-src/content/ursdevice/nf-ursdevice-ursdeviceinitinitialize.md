@@ -1,7 +1,7 @@
 ---
 UID: NF:ursdevice.UrsDeviceInitInitialize
 title: UrsDeviceInitInitialize function (ursdevice.h)
-description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
+description: Learn how this function initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\ursdeviceinitinitialize.htm
 tech.root: usbref
 ms.date: 05/07/2018
