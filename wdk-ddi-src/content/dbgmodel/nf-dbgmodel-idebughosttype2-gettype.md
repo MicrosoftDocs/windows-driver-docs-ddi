@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetType
 title: IDebugHostType2::GetType (dbgmodel.h)
-description: Returns the type (e.g. "int *") of the symbol if the symbol has a type.
+description: "The IDebugHostType2::GetType method, when called on a symbol, gets the type of symbol, such as int *."
 ms.date: 09/21/2018
 keywords: ["IDebugHostType2::GetType"]
 ms.keywords: IDebugHostType2::GetType, GetType, IDebugHostType2.GetType, IDebugHostType2::GetType, IDebugHostType2.GetType

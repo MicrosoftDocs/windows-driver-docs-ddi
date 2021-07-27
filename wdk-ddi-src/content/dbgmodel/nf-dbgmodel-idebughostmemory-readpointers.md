@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.ReadPointers
 title: IDebugHostMemory::ReadPointers (dbgmodel.h)
-description: Reads a number of pointer sized objects from the address space of the target as defined by the inpassed context and location.
+description: "The IDebugHostMemory::ReadPointers method reads a number of pointers from the address space of the target for a given context and location."
 ms.date: 09/28/2018
 keywords: ["IDebugHostMemory::ReadPointers"]
 ms.keywords: IDebugHostMemory::ReadPointers, ReadPointers, IDebugHostMemory.ReadPointers, IDebugHostMemory::ReadPointers, IDebugHostMemory.ReadPointers

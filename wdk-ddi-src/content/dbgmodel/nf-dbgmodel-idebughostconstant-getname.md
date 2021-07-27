@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.GetName
 title: IDebugHostConstant::GetName (dbgmodel.h)
-description: Returns the name of the symbol if the symbol has a name.
+description: "The IDebugHostConstant::GetName method, when called on a symbol, gets the name of the symbol if it has a name."
 ms.date: 09/10/2018
 keywords: ["IDebugHostConstant::GetName"]
 ms.keywords: IDebugHostConstant::GetName, GetName, IDebugHostConstant.GetName, IDebugHostConstant::GetName, IDebugHostConstant.GetName
