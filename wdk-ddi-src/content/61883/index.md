@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 61883.h header"
 UID: NA:61883
 title: 61883.h header
 ms.assetid: e401eb24-793e-3800-b0b7-55496f44fbb8

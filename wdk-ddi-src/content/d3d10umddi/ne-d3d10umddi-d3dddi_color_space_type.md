@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10umddi.D3DDDI_COLOR_SPACE_TYPE
 title: D3DDDI_COLOR_SPACE_TYPE
-description: 
+description: "Learn more about: D3DDDI_COLOR_SPACE_TYPE enumeration (d3d10umddi.h)"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3DDDI_COLOR_SPACE_TYPE enumeration"]

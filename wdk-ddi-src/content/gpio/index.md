@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Gpio.h header"
 UID: NA:gpio
 title: Gpio.h header
 ms.assetid: fb30f59c-1b98-32d6-96e1-18971c86caa0

@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_DVBT2_L1_SIGNALLING_DATA
 title: _BDA_DVBT2_L1_SIGNALLING_DATA (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_DVBT2_L1_SIGNALLING_DATA structure"
 old-location: stream\bda_dvbt2_l1_signalling_data.htm
 tech.root: stream
 ms.date: 04/23/2018

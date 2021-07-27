@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checksumtypes.h header"
 UID: NA:checksumtypes
 title: Checksumtypes.h header
 ms.assetid: 191B3590-DB72-4E6F-B716-E536CE042E09

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d9types._D3DBLENDOP
 title: _D3DBLENDOP (d3d9types.h)
-description: 
+description: "Learn more about: _D3DBLENDOP enumeration"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["D3DBLENDOP enumeration"]

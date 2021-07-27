@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D3D9Types.h header"
 UID: NA:d3d9types
 title: D3D9Types.h header
 ms.assetid: aecfe4b9-a3a7-3fee-a0a5-e69e3cfbf81c

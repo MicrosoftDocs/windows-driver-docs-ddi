@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_BUFFER
 title: _BDA_BUFFER (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_BUFFER structure"
 old-location: stream\bda_buffer.htm
 tech.root: stream
 ms.date: 04/23/2018

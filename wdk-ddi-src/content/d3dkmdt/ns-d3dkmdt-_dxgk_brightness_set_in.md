@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_SET_IN
 title: _DXGK_BRIGHTNESS_SET_IN (d3dkmdt.h)
-description: 
+description: "Learn more about: _DXGK_BRIGHTNESS_SET_IN structure"
 ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_SET_IN structure"]
 ms.keywords: _DXGK_BRIGHTNESS_SET_IN, *PDXGK_BRIGHTNESS_SET_IN, DXGK_BRIGHTNESS_SET_IN,

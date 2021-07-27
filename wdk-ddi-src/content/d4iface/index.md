@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D4Iface.h header"
 UID: NA:d4iface
 title: D4Iface.h header
 ms.assetid: 2f0a7093-3d26-3bc3-9fb3-f2806adf417f

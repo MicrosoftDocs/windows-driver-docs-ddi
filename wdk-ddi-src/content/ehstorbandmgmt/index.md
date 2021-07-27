@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ehstorbandmgmt.h header"
 UID: NA:ehstorbandmgmt
 title: Ehstorbandmgmt.h header
 ms.assetid: 5620fe38-a1b7-3b18-8f1d-4366b8866138

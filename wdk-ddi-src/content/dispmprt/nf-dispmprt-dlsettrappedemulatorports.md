@@ -1,7 +1,7 @@
 ---
 UID: NF:dispmprt.DlSetTrappedEmulatorPorts
 title: DlSetTrappedEmulatorPorts function
-description: 
+description: "Learn more about: DlSetTrappedEmulatorPorts function"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DlSetTrappedEmulatorPorts function"]

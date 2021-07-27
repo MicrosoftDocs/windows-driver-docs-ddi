@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: encapsulationconfig.h header"
 UID: NA:encapsulationconfig
 title: encapsulationconfig
 ms.assetid: 

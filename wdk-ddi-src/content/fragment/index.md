@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fragment.h header"
 UID: NA:fragment
 title: Fragment.h header
 ms.assetid: E64EE8F4-DAC5-46E7-8F8E-F60D243BC2C9

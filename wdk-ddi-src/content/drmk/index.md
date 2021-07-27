@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Drmk.h header"
 UID: NA:drmk
 title: Drmk.h header
 ms.assetid: d0869a59-50dc-35f9-a3cc-2e955c1a9812

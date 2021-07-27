@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bdasup.h header"
 UID: NA:bdasup
 title: Bdasup.h header
 ms.assetid: 501c4a0b-90dc-39ca-905e-a662bbbfe6be

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d9types._D3DMATERIALCOLORSOURCE
 title: _D3DMATERIALCOLORSOURCE (d3d9types.h)
-description: 
+description: "Learn more about: _D3DMATERIALCOLORSOURCE enumeration"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["D3DMATERIALCOLORSOURCE enumeration"]

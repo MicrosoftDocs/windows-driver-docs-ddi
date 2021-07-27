@@ -5,7 +5,7 @@ title: PFND3DKMT_QUERYSTATISTICS
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: Learn more about: PFND3DKMT_QUERYSTATISTICS
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -53,4 +53,3 @@ Reserved for system use. Do not use.
 ## -remarks
 
 ## -see-also
-

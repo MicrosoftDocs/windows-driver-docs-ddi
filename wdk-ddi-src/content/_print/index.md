@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Print devices"
 UID: TP:print
 title: Print devices
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1

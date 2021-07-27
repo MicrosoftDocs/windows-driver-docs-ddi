@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dxapi.h header"
 UID: NA:dxapi
 title: Dxapi.h header
 ms.assetid: e45b4941-1567-3e35-b90e-c4b63e233061

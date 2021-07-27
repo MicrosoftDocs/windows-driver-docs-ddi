@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3D12_DOWNLEVEL_DDI_UMDFILENAME
 title: D3D12_DOWNLEVEL_DDI_UMDFILENAME
-description: 
+description: "Learn more about: D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"]

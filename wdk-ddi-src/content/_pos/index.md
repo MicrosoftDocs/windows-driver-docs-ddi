@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Point of Service (POS)"
 UID: TP:pos
 title: Point of Service (POS)
 ms.assetid: 01ba4b30-aac9-383a-b7a2-32c112dfd250

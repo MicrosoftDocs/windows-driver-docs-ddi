@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CHECK_ENTITLEMENTTOKEN
 title: _BDA_CAS_CHECK_ENTITLEMENTTOKEN (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_CAS_CHECK_ENTITLEMENTTOKEN structure"
 old-location: stream\bda_cas_check_entitlementtoken.htm
 tech.root: stream
 ms.date: 04/23/2018
