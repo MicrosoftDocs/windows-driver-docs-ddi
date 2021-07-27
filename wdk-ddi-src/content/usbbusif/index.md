@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbbusif.h header"
 UID: NA:usbbusif
 title: Usbbusif.h header
 ms.assetid: ef304279-d2bf-341c-bda2-c51a3077b4a4

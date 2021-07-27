@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PJOIN_DMA_DOMAIN
 title: PJOIN_DMA_DOMAIN (wdm.h)
-description: 
+description: "Learn more about: PJOIN_DMA_DOMAIN callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PJOIN_DMA_DOMAIN callback function"]

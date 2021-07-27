@@ -1,7 +1,7 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceCompleteAsyncRequest
 title: TrSecureDeviceCompleteAsyncRequest function (trustedruntimeclx.h)
-description: 
+description: "Learn more about: TrSecureDeviceCompleteAsyncRequest function"
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceCompleteAsyncRequest function"]
 ms.keywords: TrSecureDeviceCompleteAsyncRequest

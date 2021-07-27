@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucmtcpcidevice.h header"
 UID: NA:ucmtcpcidevice
 title: Ucmtcpcidevice.h header
 ms.assetid: db4cb714-9dce-3a4e-a734-0c221c5a5dbe

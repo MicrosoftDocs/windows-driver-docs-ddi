@@ -1,7 +1,7 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceLogMessage
 title: TrSecureDeviceLogMessage function (trustedruntimeclx.h)
-description: 
+description: "Learn more about: TrSecureDeviceLogMessage function"
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceLogMessage function"]
 ms.keywords: TrSecureDeviceLogMessage

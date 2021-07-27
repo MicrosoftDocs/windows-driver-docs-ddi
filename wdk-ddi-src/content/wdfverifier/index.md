@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfverifier.h header"
 UID: NA:wdfverifier
 title: Wdfverifier.h header
 ms.assetid: 55be84a6-d71f-3bf0-bac1-713c4f0cd148

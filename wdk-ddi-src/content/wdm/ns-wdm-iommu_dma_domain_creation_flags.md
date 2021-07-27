@@ -4,7 +4,7 @@ tech.root: kernel
 title: IOMMU_DMA_DOMAIN_CREATION_FLAGS
 ms.date: 06/10/2021
 targetos: Windows
-description: 
+description: "Learn more about: IOMMU_DMA_DOMAIN_CREATION_FLAGS"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

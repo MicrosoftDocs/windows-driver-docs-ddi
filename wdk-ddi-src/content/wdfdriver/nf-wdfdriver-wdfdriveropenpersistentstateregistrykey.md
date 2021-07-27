@@ -5,7 +5,7 @@ tech.root: wdf
 ms.date: 
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WdfDriverOpenPersistentStateRegistryKey"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

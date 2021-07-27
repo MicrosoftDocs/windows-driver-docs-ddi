@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
 title: EVT_TR_PROCESS_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_PROCESS_SECURE_SERVICE_REQUEST callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_PROCESS_SECURE_SERVICE_REQUEST callback function"]
 req.header: trustedruntimeclx.h

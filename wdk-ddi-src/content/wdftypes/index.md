@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdftypes.h header"
 UID: NA:wdftypes
 title: Wdftypes.h header
 ms.assetid: 18c58a19-7488-3896-94dd-5655afc9cda3

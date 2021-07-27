@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PFREE_COMMON_BUFFER_VECTOR
 title: PFREE_COMMON_BUFFER_VECTOR
-description: 
+description: "Learn more about: PFREE_COMMON_BUFFER_VECTOR callback function"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PFREE_COMMON_BUFFER_VECTOR callback function"]

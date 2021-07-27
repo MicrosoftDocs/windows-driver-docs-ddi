@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtf.h header"
 UID: NA:wdtf
 title: Wdtf.h header
 ms.assetid: 14e419d2-ee55-3451-99ed-6d9c21181fb2

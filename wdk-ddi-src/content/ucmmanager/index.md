@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucmmanager.h header"
 UID: NA:ucmmanager
 title: Ucmmanager.h header
 ms.assetid: 3e459ad2-db6c-372c-95bd-d836bce39752

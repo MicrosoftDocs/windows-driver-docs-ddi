@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfregistry.h header"
 UID: NA:wdfregistry
 title: Wdfregistry.h header
 ms.assetid: 9925a60e-abc4-3a3b-b2a7-f7d9c91498e1

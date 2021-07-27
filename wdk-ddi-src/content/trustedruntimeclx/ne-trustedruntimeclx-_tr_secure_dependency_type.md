@@ -1,7 +1,7 @@
 ---
 UID: NE:trustedruntimeclx._TR_SECURE_DEPENDENCY_TYPE
 title: _TR_SECURE_DEPENDENCY_TYPE (trustedruntimeclx.h)
-description: 
+description: "Learn more about: _TR_SECURE_DEPENDENCY_TYPE enumeration"
 ms.date: 11/20/2020
 keywords: ["TR_SECURE_DEPENDENCY_TYPE enumeration"]
 ms.keywords: _TR_SECURE_DEPENDENCY_TYPE, TR_SECURE_DEPENDENCY_TYPE,

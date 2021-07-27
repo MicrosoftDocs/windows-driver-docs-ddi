@@ -4,7 +4,7 @@ title: WdfDeviceSetDeviceInterfaceStateEx
 tech.root: wdf
 ms.date: 03/24/2020
 targetos: Windows
-description: 
+description: "Learn more about: WdfDeviceSetDeviceInterfaceStateEx"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

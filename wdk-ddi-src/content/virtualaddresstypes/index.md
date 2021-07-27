@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Virtualaddresstypes.h header"
 UID: NA:virtualaddresstypes
 title: Virtualaddresstypes.h header
 ms.assetid: B2465637-3BF3-4862-A214-7E495F0FF8F0

@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_DEVICE_IO
 title: EVT_TR_PROCESS_OTHER_DEVICE_IO (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_PROCESS_OTHER_DEVICE_IO callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_PROCESS_OTHER_DEVICE_IO callback function"]
 req.header: trustedruntimeclx.h

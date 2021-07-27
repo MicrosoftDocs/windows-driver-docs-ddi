@@ -4,7 +4,7 @@ tech.root:
 title: BYTE_OFFSET
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: BYTE_OFFSET"
 prerelease: false
 req.assembly: 
 req.construct-type: function

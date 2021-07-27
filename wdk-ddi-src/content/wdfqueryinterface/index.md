@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfqueryinterface.h header"
 UID: NA:wdfqueryinterface
 title: Wdfqueryinterface.h header
 ms.assetid: f1e1f714-ecee-3288-bb22-75c85c09b214

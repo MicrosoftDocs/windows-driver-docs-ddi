@@ -1,7 +1,7 @@
 ---
 UID: NE:usbioctl._USB_NOTIFICATION_TYPE
 title: _USB_NOTIFICATION_TYPE (usbioctl.h)
-description: 
+description: "Learn more about: _USB_NOTIFICATION_TYPE enumeration"
 tech.root: usbref
 ms.date: 10/19/2018
 keywords: ["USB_NOTIFICATION_TYPE enumeration"]

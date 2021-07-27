@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucmucsidevice.h header"
 UID: NA:ucmucsidevice
 title: Ucmucsidevice.h header
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1

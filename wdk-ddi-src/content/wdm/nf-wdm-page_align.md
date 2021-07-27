@@ -4,7 +4,7 @@ tech.root:
 title: PAGE_ALIGN
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: PAGE_ALIGN"
 prerelease: false
 req.assembly: 
 req.construct-type: function

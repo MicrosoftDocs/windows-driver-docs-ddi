@@ -4,7 +4,7 @@ tech.root:
 title: IoSkipCurrentIrpStackLocation
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: IoSkipCurrentIrpStackLocation"
 prerelease: false
 req.assembly: 
 req.construct-type: function

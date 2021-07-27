@@ -1,7 +1,7 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceHandoffServiceDeviceControl
 title: TrSecureDeviceHandoffServiceDeviceControl function (trustedruntimeclx.h)
-description: 
+description: "Learn more about: TrSecureDeviceHandoffServiceDeviceControl function"
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceHandoffServiceDeviceControl function"]
 ms.keywords: TrSecureDeviceHandoffServiceDeviceControl

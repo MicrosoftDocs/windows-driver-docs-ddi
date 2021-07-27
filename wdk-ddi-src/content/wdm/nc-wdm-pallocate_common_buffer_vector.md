@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_VECTOR
 title: PALLOCATE_COMMON_BUFFER_VECTOR
-description: 
+description: "Learn more about: PALLOCATE_COMMON_BUFFER_VECTOR callback function"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PALLOCATE_COMMON_BUFFER_VECTOR callback function"]
