@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.ZwDuplicateToken
 title: ZwDuplicateToken function (ntifs.h)
-description: The ZwDuplicateToken function creates a handle to a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
+description: The ZwDuplicateToken function creates a handle to a new access token that duplicates an existing token.
 old-location: kernel\zwduplicatetoken.htm
 tech.root: kernel
 ms.date: 04/30/2018

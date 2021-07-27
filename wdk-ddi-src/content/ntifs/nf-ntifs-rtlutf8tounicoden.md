@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.RtlUTF8ToUnicodeN
 title: RtlUTF8ToUnicodeN function (ntifs.h)
-description: The RtlUTF8ToUnicodeN routine converts a UTF-8 string to a Unicode string.
+description: The RtlUTF8ToUnicodeN routine in ntifs.h converts a UTF-8 string to a Unicode string. The Unicode output is null-terminated only if the UTF-8 input string is.
 old-location: kernel\rtlutf8tounicoden.htm
 tech.root: kernel
 ms.date: 04/30/2018

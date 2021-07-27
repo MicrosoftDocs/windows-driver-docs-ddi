@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeGetProcessorIndexFromNumber
 title: KeGetProcessorIndexFromNumber function (wdm.h)
-description: The KeGetProcessorIndexFromNumber routine converts a group number and a group-relative processor number to a systemwide processor index.
+description: The KeGetProcessorIndexFromNumber routine in wdm.h converts a group number and a group-relative processor number to a systemwide processor index.
 old-location: kernel\kegetprocessorindexfromnumber.htm
 tech.root: kernel
 ms.date: 04/30/2018

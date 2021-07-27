@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.SeLockSubjectContext
 title: SeLockSubjectContext function (ntifs.h)
-description: The SeLockSubjectContext routine locks the primary and impersonation tokens of a captured subject context.
+description: The SeLockSubjectContext routine in ntifs.h locks the primary and impersonation tokens of a captured subject context.
 old-location: ifsk\selocksubjectcontext.htm
 tech.root: ifsk
 ms.date: 04/16/2018

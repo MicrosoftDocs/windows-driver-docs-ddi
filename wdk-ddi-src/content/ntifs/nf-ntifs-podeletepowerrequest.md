@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoDeletePowerRequest
 title: PoDeletePowerRequest function (ntifs.h)
-description: The PoDeletePowerRequest routine deletes a power request object.
+description: The PoDeletePowerRequest routine in ntifs.h deletes a power request object. The driver must delete the power request object before it deletes the device object.
 old-location: kernel\podeletepowerrequest.htm
 tech.root: kernel
 ms.date: 04/30/2018

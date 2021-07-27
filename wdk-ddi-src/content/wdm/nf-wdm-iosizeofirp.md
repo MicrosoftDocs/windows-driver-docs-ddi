@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoSizeOfIrp
 title: IoSizeOfIrp macro (wdm.h)
-description: The IoSizeOfIrp routine determines the size in bytes for an IRP, given the number of stack locations in the IRP.
+description: The IoSizeOfIrp routine in wdm.h determines the size in bytes for an IRP, given the number of stack locations in the IRP.
 old-location: kernel\iosizeofirp.htm
 tech.root: kernel
 ms.date: 04/30/2018

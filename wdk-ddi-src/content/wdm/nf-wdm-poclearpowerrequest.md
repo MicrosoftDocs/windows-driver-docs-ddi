@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PoClearPowerRequest
 title: PoClearPowerRequest function (wdm.h)
-description: The PoClearPowerRequest routine decrements the count for the specified power request type.
+description: The PoClearPowerRequest routine in the wdm.h file decrements the count for the specified power request type.
 old-location: kernel\poclearpowerrequest.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:rx.IoSetTopLevelIrp
 title: IoSetTopLevelIrp macro (rx.h)
-description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
+description: The IoSetTopLevelIrp routine in the rx.h file sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
 tech.root: ifsk
 ms.date: 04/16/2018

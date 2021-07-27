@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.SeReleaseSubjectContext
 title: SeReleaseSubjectContext function (ntifs.h)
-description: The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
+description: The SeReleaseSubjectContext routine in ntifs.h releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
 old-location: ifsk\sereleasesubjectcontext.htm
 tech.root: ifsk
 ms.date: 04/16/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoSetTopLevelIrp
 title: IoSetTopLevelIrp function (wdm.h)
-description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
+description: The IoSetTopLevelIrp routine in wdm.h sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
 tech.root: ifsk
 ms.date: 04/16/2018

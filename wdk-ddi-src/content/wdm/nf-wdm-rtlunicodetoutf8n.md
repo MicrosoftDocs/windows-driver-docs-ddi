@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.RtlUnicodeToUTF8N
 title: RtlUnicodeToUTF8N function (wdm.h)
-description: The RtlUnicodeToUTF8N routine converts a Unicode string to a UTF-8 string.
+description: The RtlUnicodeToUTF8N routine in wdm.h converts a Unicode string to a UTF-8 string. The UTF-8 output is null-terminated only if the Unicode input string is.
 old-location: kernel\rtlunicodetoutf8n.htm
 tech.root: kernel
 ms.date: 04/30/2018

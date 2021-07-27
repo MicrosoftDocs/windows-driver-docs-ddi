@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwSetInformationFile
 title: ZwSetInformationFile function (wdm.h)
-description: The ZwSetInformationFile routine changes various kinds of information about a file object.
+description: The ZwSetInformationFile routine in wdm.h changes various kinds of information about a file object. It ignores unsupported members of FILE_XXX_INFORMATION.
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel
 ms.date: 04/30/2018
