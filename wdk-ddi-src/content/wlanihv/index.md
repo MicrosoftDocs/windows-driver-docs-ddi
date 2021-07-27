@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wlanihv.h header"
 UID: NA:wlanihv
 title: Wlanihv.h header
 ms.assetid: 6ebdf373-6cfd-3d8c-9d68-fedb007caffd

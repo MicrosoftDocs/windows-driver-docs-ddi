@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Winddiui.h header"
 UID: NA:winddiui
 title: Winddiui.h header
 ms.assetid: 53a5312f-9f75-3637-bb7f-d79817f00a15

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wiatwcmp.h header"
 UID: NA:wiatwcmp
 title: Wiatwcmp.h header
 ms.assetid: 9758efe1-bd32-33a6-8e02-a9c21e726bfe

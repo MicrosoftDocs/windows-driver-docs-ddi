@@ -1,7 +1,7 @@
 ---
 UID: NF:winddiui.DOCUMENTEVENT_FLAGS
 title: DOCUMENTEVENT_FLAGS macro (winddiui.h)
-description: 
+description: "Learn more about: DOCUMENTEVENT_FLAGS macro"
 ms.date: 11/18/2020
 keywords: ["DOCUMENTEVENT_FLAGS macro"]
 ms.keywords: DOCUMENTEVENT_FLAGS

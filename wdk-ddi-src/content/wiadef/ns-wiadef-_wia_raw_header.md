@@ -1,7 +1,7 @@
 ---
 UID: NS:wiadef._WIA_RAW_HEADER
 title: _WIA_RAW_HEADER (wiadef.h)
-description: 
+description: "Learn more about: _WIA_RAW_HEADER structure"
 ms.date: 11/18/2020
 keywords: ["WIA_RAW_HEADER structure"]
 ms.keywords: _WIA_RAW_HEADER, WIA_RAW_HEADER, *PWIA_RAW_HEADER,

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windot11.h header"
 UID: NA:windot11
 title: Windot11.h header
 ms.assetid: 8872c564-632e-37f2-91e3-18d831a91cd2

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.SplDeleteSpoolerPortEnd
 title: SplDeleteSpoolerPortEnd function (winsplp.h)
-description: 
+description: "Learn more about: SplDeleteSpoolerPortEnd function"
 old-location: print\spldeletespoolerportend.htm
 tech.root: print
 ms.date: 04/20/2018
