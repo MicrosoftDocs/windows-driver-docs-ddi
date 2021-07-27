@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtOpenFile
 title: NtOpenFile function (ntifs.h)
-description: The NtOpenFile routine in ntifs.h opens an existing file, directory, device, or volume.Once the handle pointed to is no longer in use, the driver must close it.
+description: The NtOpenFile routine in ntifs.h opens an existing file, directory, device, or volume. Once the handle pointed to is no longer in use, the driver must close it.
 old-location: kernel\zwopenfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

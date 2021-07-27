@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtSetQuotaInformationFile
 title: NtSetQuotaInformationFile function (ntifs.h)
-description: The NtSetQuotaInformationFile routine in changes quota entries for the volume associated with the FileHandle parameter.
+description: The NtSetQuotaInformationFile routine changes quota entries for the volume associated with the FileHandle parameter.
 old-location: kernel\zwsetquotainformationfile.htm
 tech.root: kernel
 ms.date: 04/30/2018
