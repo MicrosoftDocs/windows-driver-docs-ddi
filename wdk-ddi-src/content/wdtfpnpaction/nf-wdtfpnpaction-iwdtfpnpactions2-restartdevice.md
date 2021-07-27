@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RestartDevice
 title: IWDTFPNPActions2::RestartDevice (wdtfpnpaction.h)
-description: Initiates a device restart.
+description: Learn how the method initiates a device restart.
 old-location: dtf\iwdtfpnpactions2_restartdevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

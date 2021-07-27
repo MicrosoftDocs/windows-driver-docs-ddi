@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwRollforwardTransactionManager
 title: ZwRollforwardTransactionManager function (wdm.h)
-description: The ZwRollforwardTransactionManager routine initiates recovery operations for all of the in-progress transactions that are assigned to a specified transaction manager.
+description: Learn how the ZwRollforwardTransactionManager routine initiates recovery operations for all of the in-progress transactions that are assigned to a specified transaction manager.
 old-location: kernel\zwrollforwardtransactionmanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

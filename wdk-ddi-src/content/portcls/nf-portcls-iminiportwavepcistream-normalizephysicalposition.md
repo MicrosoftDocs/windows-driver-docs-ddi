@@ -1,7 +1,7 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.NormalizePhysicalPosition
 title: IMiniportWavePciStream::NormalizePhysicalPosition (portcls.h)
-description: The NormalizePhysicalPosition method converts a physical buffer position to a time-based value.
+description: Learn how the NormalizePhysicalPosition method converts a physical buffer position to a time-based value.
 old-location: audio\iminiportwavepcistream_normalizephysicalposition.htm
 tech.root: audio
 ms.date: 05/08/2018

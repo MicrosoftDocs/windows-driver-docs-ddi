@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.RemoveAt
 title: IPortableDevicePropVariantCollection::RemoveAt (portabledevicetypes.h)
-description: Removes the element stored at the location specified by the given index.
+description: Learn how the RemoveAt method removes the element stored at the location specified by the given index.
 old-location: wpddk\iportabledevicepropvariantcollection_removeat.htm
 tech.root: wpd_dk
 ms.date: 02/15/2018

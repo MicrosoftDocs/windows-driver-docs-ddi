@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._SDEV_IDENTIFIER_INTERFACE
 title: _SDEV_IDENTIFIER_INTERFACE (wdm.h)
-description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
+description: This placeholder topic is provided as an example of documentation that may be included in a later release. This material is not yet available.
 old-location: kernel\_sdev_identifier_interface.htm
 tech.root: kernel
 ms.date: 04/30/2018

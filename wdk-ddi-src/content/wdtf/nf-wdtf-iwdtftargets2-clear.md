@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Clear
 title: IWDTFTargets2::Clear (wdtf.h)
-description: Removes all items from the collection.
+description: Learn how the method removes all items from the collection.
 old-location: dtf\iwdtftargets2_clear.htm
 tech.root: dtf
 ms.date: 04/04/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RequestEjectDevice
 title: IWDTFPNPActions2::RequestEjectDevice (wdtfpnpaction.h)
-description: Initiates a device eject.
+description: Learn how the method initiates a device eject.
 old-location: dtf\iwdtfpnpactions2_requestejectdevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

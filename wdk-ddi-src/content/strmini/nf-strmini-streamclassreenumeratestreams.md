@@ -1,7 +1,7 @@
 ---
 UID: NF:strmini.StreamClassReenumerateStreams
 title: StreamClassReenumerateStreams function (strmini.h)
-description: Obsolete. Do not use.
+description: The StreamClassReenumerateStreams function is obsolete. Do not use.
 old-location: stream\streamclassreenumeratestreams.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -1,7 +1,7 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 title: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC (wdfcompanion.h)
-description: For internal use only.
+description: This EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC article is for internal use only.
 old-location: wdf\evt_wdf_task_queue_task_execute_sync.htm
 tech.root: wdf
 ms.date: 02/26/2018

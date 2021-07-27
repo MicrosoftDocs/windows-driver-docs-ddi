@@ -1,7 +1,7 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_POST_D0_EXIT
 title: EVT_WDF_COMPANION_POST_D0_EXIT (wdfcompanion.h)
-description: For internal use only.
+description: This EVT_WDF_COMPANION_POST_D0_EXIT article is for internal use only.
 old-location: wdf\evt_wdf_companion_post_d0_exit.htm
 tech.root: wdf
 ms.date: 02/26/2018

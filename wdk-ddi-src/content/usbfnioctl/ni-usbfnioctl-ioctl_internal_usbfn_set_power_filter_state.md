@@ -1,7 +1,7 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE (usbfnioctl.h)
-description: Do not use.
+description: Do not use this (IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE) article.
 old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
 tech.root: usbref
 ms.date: 05/07/2018

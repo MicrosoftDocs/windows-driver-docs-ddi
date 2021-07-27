@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_QUERY_COMPONENT_PERF_STATES
 title: _PEP_QUERY_COMPONENT_PERF_STATES (pep_x.h)
-description: The PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set.
+description: Learn how the PEP_QUERY_COMPONENT_PERF_STATES structure contains a list of discrete performance state (P-state) values for the specified P-state set.
 old-location: kernel\pep_query_component_perf_states.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:printoem.OEMDisablePDEV
 title: OEMDisablePDEV function (printoem.h)
-description: This function is obsolete.
+description: This function (OEMDisablePDEV) is obsolete.
 old-location: print\oemdisablepdev.htm
 tech.root: print
 ms.date: 11/18/2019

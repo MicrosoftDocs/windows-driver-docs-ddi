@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.put_SleepWakeTimeInSeconds
 title: IWDTFSystemAction2::put_SleepWakeTimeInSeconds (wdtfsystemaction.h)
-description: Gets or sets the time in seconds when the system will wake from the sleep state.
+description: Sets or gets the time in seconds when the system will wake from the sleep state.
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
 tech.root: dtf
 ms.date: 04/04/2018

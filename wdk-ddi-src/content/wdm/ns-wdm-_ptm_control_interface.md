@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PTM_CONTROL_INTERFACE
 title: _PTM_CONTROL_INTERFACE (wdm.h)
-description: Reserved. Do not use.
+description: Reserved for PTM_CONTROL_INTERFACE. Do not use.
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["PTM_CONTROL_INTERFACE structure"]

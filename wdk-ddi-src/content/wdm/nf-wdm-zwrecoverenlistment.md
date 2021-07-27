@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwRecoverEnlistment
 title: ZwRecoverEnlistment function (wdm.h)
-description: The ZwRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
+description: Learn how the ZwRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrecoverenlistment.htm
 tech.root: kernel
 ms.date: 04/30/2018

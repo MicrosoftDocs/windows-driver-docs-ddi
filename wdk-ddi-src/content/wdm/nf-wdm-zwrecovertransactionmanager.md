@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwRecoverTransactionManager
 title: ZwRecoverTransactionManager function (wdm.h)
-description: The ZwRecoverTransactionManager routine reconstructs the state of the transaction manager object (including all transactions, enlistments, and resource managers) from the recovery information that is in the log stream.
+description: Learn how the ZwRecoverTransactionManager routine reconstructs the state of the transaction manager object from the recovery information that is in the log stream.
 old-location: kernel\zwrecovertransactionmanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

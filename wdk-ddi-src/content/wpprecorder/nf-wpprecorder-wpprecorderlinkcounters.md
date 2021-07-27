@@ -1,7 +1,7 @@
 ---
 UID: NF:wpprecorder.WppRecorderLinkCounters
 title: WppRecorderLinkCounters macro (wpprecorder.h)
-description: The WppRecorderLinkCounters.
+description: Learn how the WppRecorderLinkCounters method uses a sequence number to merge logs captured in different buffers by a driver.
 old-location: devtest\wpprecorderlinkcounters.htm
 tech.root: devtest
 ms.date: 02/23/2018

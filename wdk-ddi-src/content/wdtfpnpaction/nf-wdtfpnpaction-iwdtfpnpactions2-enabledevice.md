@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EnableDevice
 title: IWDTFPNPActions2::EnableDevice (wdtfpnpaction.h)
-description: Enables the target device.
+description: Learn how the method enables the target device.
 old-location: dtf\iwdtfpnpactions2_enabledevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmini.StreamClassDebugAssert
 title: StreamClassDebugAssert function (strmini.h)
-description: This function is obsolete.
+description: This function (StreamClassDebugAssert) is obsolete.
 old-location: stream\streamclassdebugassert.htm
 tech.root: stream
 ms.date: 06/02/2020

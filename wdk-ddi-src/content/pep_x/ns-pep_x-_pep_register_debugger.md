@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_REGISTER_DEBUGGER
 title: _PEP_REGISTER_DEBUGGER (pep_x.h)
-description: The PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport.
+description: Learn how the PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport.
 old-location: kernel\pep_register_debugger.htm
 tech.root: kernel
 ms.date: 04/30/2018

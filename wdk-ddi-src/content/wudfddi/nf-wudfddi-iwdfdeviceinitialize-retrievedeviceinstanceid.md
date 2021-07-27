@@ -1,7 +1,7 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.RetrieveDeviceInstanceId
 title: IWDFDeviceInitialize::RetrieveDeviceInstanceId (wudfddi.h)
-description: The RetrieveDeviceInstanceId method retrieves the identifier of an instance of a device.
+description: This article describes how the RetrieveDeviceInstanceId method retrieves the identifier of an instance of a device.
 old-location: wdf\iwdfdeviceinitialize_retrievedeviceinstanceid.htm
 tech.root: wdf
 ms.date: 02/26/2018

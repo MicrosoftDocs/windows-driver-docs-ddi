@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwCreateTransactionManager
 title: ZwCreateTransactionManager function (wdm.h)
-description: The ZwCreateTransactionManager routine creates a new transaction manager object.
+description: Learn how the ZwCreateTransactionManager routine creates a new transaction manager object.
 old-location: kernel\zwcreatetransactionmanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

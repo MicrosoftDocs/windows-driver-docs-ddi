@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RemoveDevice
 title: IWDTFPNPActions2::RemoveDevice (wdtfpnpaction.h)
-description: Removes the device.
+description: Learn how the method removes the device.
 old-location: dtf\iwdtfpnpactions2_removedevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

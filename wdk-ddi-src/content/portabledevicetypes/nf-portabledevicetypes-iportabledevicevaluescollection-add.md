@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.Add
 title: IPortableDeviceValuesCollection::Add (portabledevicetypes.h)
-description: Adds an item to the collection.
+description: Learn how the Add method adds an item to the collection.
 old-location: wpddk\iportabledevicevaluescollection_add.htm
 tech.root: wpd_dk
 ms.date: 02/15/2018

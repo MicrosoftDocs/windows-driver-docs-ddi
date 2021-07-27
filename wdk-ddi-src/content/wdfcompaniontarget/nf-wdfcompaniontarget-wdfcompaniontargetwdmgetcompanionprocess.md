@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetWdmGetCompanionProcess
 title: WdfCompanionTargetWdmGetCompanionProcess function (wdfcompaniontarget.h)
-description: For internal use only.
+description: This  WdfCompanionTargetWdmGetCompanionProcess function article is for internal use only.
 old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
 tech.root: wdf
 ms.date: 02/26/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:usbfnbase._USBFN_INTERFACE_INFO
 title: _USBFN_INTERFACE_INFO (usbfnbase.h)
-description: Describes an interface and its endpoints.
+description: Learn how USBFN_INTERFACE_INFO describes an interface and its endpoints.
 old-location: buses\usbfn_interface_info.htm
 tech.root: usbref
 ms.date: 05/07/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_REGISTER_DEVICE_V2
 title: _PEP_REGISTER_DEVICE_V2 (pep_x.h)
-description: The PEP_REGISTER_DEVICE_V2 structure describes a device whose driver stack has just registered with the Windows power management framework (PoFx).
+description: Learn how the PEP_REGISTER_DEVICE_V2 structure describes a device whose driver stack has just registered with the Windows power management framework (PoFx).
 old-location: kernel\pep_register_device_v2.htm
 tech.root: kernel
 ms.date: 04/30/2018
