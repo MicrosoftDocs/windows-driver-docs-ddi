@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoStartPacket
 title: IoStartPacket function (ntifs.h)
-description: The IoStartPacket routine calls the driver's StartIo routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy.
+description: The IoStartPacket routine in ntifs.h calls the driver's StartIo routine with an IRP or inserts the IRP into the device queue for the given device object.
 old-location: kernel\iostartpacket.htm
 tech.root: kernel
 ms.date: 04/30/2018

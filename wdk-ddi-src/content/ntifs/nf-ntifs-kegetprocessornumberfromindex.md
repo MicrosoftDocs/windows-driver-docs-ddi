@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.KeGetProcessorNumberFromIndex
 title: KeGetProcessorNumberFromIndex function (ntifs.h)
-description: The KeGetProcessorNumberFromIndex routine converts a systemwide processor index to a group number and a group-relative processor number.
+description: The KeGetProcessorNumberFromIndex routine in ntifs.h converts a systemwide processor index to a group number and a group-relative processor number.
 old-location: kernel\kegetprocessornumberfromindex.htm
 tech.root: kernel
 ms.date: 04/30/2018

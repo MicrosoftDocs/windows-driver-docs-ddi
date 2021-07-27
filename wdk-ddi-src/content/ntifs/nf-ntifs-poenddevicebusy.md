@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoEndDeviceBusy
 title: PoEndDeviceBusy function (ntifs.h)
-description: The PoEndDeviceBusy routine marks the end of a period of time in which the device is busy.
+description: The PoEndDeviceBusy routine in ntifs.h marks the end of a period of time in which the device is busy.
 old-location: kernel\poenddevicebusy.htm
 tech.root: kernel
 ms.date: 04/30/2018

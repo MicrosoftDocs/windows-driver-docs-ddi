@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoGetTopLevelIrp
 title: IoGetTopLevelIrp function (ntifs.h)
-description: The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread.
+description: The IoGetTopLevelIrp routine in ntifs.h returns the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iogettoplevelirp.htm
 tech.root: ifsk
 ms.date: 04/16/2018

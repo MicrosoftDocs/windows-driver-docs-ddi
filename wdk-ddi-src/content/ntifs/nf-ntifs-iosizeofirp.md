@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoSizeOfIrp
 title: IoSizeOfIrp macro (ntifs.h)
-description: The IoSizeOfIrp routine determines the size in bytes for an IRP, given the number of stack locations in the IRP.
+description: The IoSizeOfIrp routine in ntifs.h determines the size in bytes for an IRP, given the number of stack locations in the IRP.
 old-location: kernel\iosizeofirp.htm
 tech.root: kernel
 ms.date: 04/30/2018
