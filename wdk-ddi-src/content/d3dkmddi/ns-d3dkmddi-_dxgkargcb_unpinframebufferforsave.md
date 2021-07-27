@@ -8,7 +8,7 @@ ms.keywords: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE, DXGKARGCB_UNPINFRAMEBUFFERFORSA
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ product:
 
 ## -description
 
-The **DXGKARGCB_UNPINFRAMEBUFFERFORSAVE** structure contains the arguments used by the [**DXGKCB_UNPINFRAMEBUFFERFORSAVE**]((nc-d3dkmddi-dxgkcb_unpinframebufferforsave.md)) callback function to release the mapping that was set by [**DXGKCB_PINFRAMEBUFFERFORSAVE**](nc-d3dkmddi-dxgkcb_pinframebufferforsave.md).
+The **DXGKARGCB_UNPINFRAMEBUFFERFORSAVE** structure contains the arguments used by the [**DXGKCB_UNPINFRAMEBUFFERFORSAVE**](nc-d3dkmddi-dxgkcb_unpinframebufferforsave.md) callback function to release the mapping that was set by [**DXGKCB_PINFRAMEBUFFERFORSAVE**](nc-d3dkmddi-dxgkcb_pinframebufferforsave.md).
 
 ## -struct-fields
 
