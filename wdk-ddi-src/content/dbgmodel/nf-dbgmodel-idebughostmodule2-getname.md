@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetName
 title: IDebugHostModule2::GetName (dbgmodel.h)
-description: Returns the name of the symbol if the symbol has a name.
+description: "The IDebugHostModule2::GetName method, when called on a symbol, gets the name of the symbol if it has a name."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::GetName"]
 ms.keywords: IDebugHostModule2::GetName, GetName, IDebugHostModule2.GetName, IDebugHostModule2::GetName, IDebugHostModule2.GetName

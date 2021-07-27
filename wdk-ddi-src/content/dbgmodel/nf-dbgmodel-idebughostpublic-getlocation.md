@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.GetLocation
 title: IDebugHostPublic::GetLocation (dbgmodel.h)
-description: For data which has an address, the GetLocation method will return the abstract location (address) of the field.
+description: "The IDebugHostPublic::GetLocation method, when called on a symbol with a static location, gets the abstract location (address) of the symbol."
 ms.date: 09/18/2018
 keywords: ["IDebugHostPublic::GetLocation"]
 ms.keywords: IDebugHostPublic::GetLocation, GetLocation, IDebugHostPublic.GetLocation, IDebugHostPublic::GetLocation, IDebugHostPublic.GetLocation

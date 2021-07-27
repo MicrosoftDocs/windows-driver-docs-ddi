@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.SetKey
 title: IModelKeyReference2::SetKey (dbgmodel.h)
-description: The SetKey method on a key reference behaves as the SetKey method on IModelObject would.
+description: "The IModelKeyReference2::SetKey method, when called on a key reference, overwrites the object that is the value of the underlying key."
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::SetKey"]
 ms.keywords: IModelKeyReference2::SetKey, SetKey, IModelKeyReference2.SetKey, IModelKeyReference2::SetKey, IModelKeyReference2.SetKey

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.GetType
 title: IDebugHostConstant::GetType (dbgmodel.h)
-description: Returns the type (that is "int *") of the symbol if the symbol has a type.
+description: "The IDebugHostConstant::GetType method, when called on a symbol, gets the type of symbol, such as int *."
 ms.date: 09/21/2018
 keywords: ["IDebugHostConstant::GetType"]
 ms.keywords: IDebugHostConstant::GetType, GetType, IDebugHostConstant.GetType, IDebugHostConstant::GetType, IDebugHostConstant.GetType

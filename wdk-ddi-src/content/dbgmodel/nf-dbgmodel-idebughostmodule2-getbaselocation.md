@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetBaseLocation
 title: IDebugHostModule2::GetBaseLocation (dbgmodel.h)
-description: The GetBaseLocation method returns the base load address of the module as a location structure.
+description: "The IDebugHostModule2::GetBaseLocation method, when called on a module, gets the base loading address of the module as a location structure."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::GetBaseLocation"]
 ms.keywords: IDebugHostModule2::GetBaseLocation, GetBaseLocation, IDebugHostModule2.GetBaseLocation, IDebugHostModule2::GetBaseLocation, IDebugHostModule2.GetBaseLocation
