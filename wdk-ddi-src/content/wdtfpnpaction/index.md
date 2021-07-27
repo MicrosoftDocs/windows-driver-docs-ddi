@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtfpnpaction.h header"
 UID: NA:wdtfpnpaction
 title: Wdtfpnpaction.h header
 ms.assetid: b137902b-ce9b-3b57-a450-c028e6fdfde4

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfdevice.h header"
 UID: NA:wdfdevice
 title: Wdfdevice.h header
 ms.assetid: 24b2e402-56ef-3f36-b4f0-426a9d758500

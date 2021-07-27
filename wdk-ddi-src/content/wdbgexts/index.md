@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdbgexts.h header"
 UID: NA:wdbgexts
 title: Wdbgexts.h header
 ms.assetid: 47d4ebbf-84ee-3898-8135-fa80fd566021

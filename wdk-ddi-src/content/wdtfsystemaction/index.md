@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtfsystemaction.h header"
 UID: NA:wdtfsystemaction
 title: Wdtfsystemaction.h header
 ms.assetid: 132e3c9a-f3dc-3ba8-ba36-20d82a3b6b03

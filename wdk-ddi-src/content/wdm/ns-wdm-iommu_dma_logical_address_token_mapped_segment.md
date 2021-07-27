@@ -4,7 +4,7 @@ tech.root: kernel
 title: IOMMU_DMA_LOGICAL_ADDRESS_TOKEN_MAPPED_SEGMENT
 ms.date: 04/20/2021
 targetos: Windows
-description: 
+description: "Learn more about: IOMMU_DMA_LOGICAL_ADDRESS_TOKEN_MAPPED_SEGMENT"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

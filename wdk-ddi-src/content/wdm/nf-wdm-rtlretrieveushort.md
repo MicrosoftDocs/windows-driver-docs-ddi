@@ -4,7 +4,7 @@ tech.root:
 title: RtlRetrieveUshort
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: RtlRetrieveUshort"
 prerelease: false
 req.assembly: 
 req.construct-type: function

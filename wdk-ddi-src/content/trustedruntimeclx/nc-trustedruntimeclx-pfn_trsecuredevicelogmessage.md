@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICELOGMESSAGE
 title: PFN_TRSECUREDEVICELOGMESSAGE (trustedruntimeclx.h)
-description: 
+description: "Learn more about: *PFN_TRSECUREDEVICELOGMESSAGE callback function"
 ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICELOGMESSAGE callback function"]
 req.header: trustedruntimeclx.h

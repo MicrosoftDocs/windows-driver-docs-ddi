@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfusb.h header"
 UID: NA:wdfusb
 title: Wdfusb.h header
 ms.assetid: 3e6fc683-b610-3c72-8797-368ee1f97630

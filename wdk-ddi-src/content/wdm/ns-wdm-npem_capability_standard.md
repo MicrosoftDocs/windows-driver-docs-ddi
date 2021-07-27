@@ -5,7 +5,7 @@ ms.date: 04/28/2020
 tech.root: PCI
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: NPEM_CAPABILITY_STANDARD"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

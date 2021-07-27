@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PLEAVE_DMA_DOMAIN
 title: PLEAVE_DMA_DOMAIN (wdm.h)
-description: 
+description: "Learn more about: PLEAVE_DMA_DOMAIN callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PLEAVE_DMA_DOMAIN callback function"]

@@ -1,7 +1,7 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_EXECUTE_FUNCTION
 title: IOCTL_TR_EXECUTE_FUNCTION (trustedrt.h)
-description: 
+description: "Learn more about: IOCTL_TR_EXECUTE_FUNCTION IOCTL"
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_EXECUTE_FUNCTION IOCTL"]
 req.header: trustedrt.h

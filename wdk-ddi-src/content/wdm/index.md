@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdm.h header"
 UID: NA:wdm
 title: Wdm.h header
 ms.assetid: 8462c1fe-6be6-3c3a-88f8-fb7aba330515

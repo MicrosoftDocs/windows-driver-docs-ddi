@@ -4,7 +4,7 @@ tech.root:
 title: RtlStoreUlongPtr
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: RtlStoreUlongPtr"
 prerelease: false
 req.assembly: 
 req.construct-type: function

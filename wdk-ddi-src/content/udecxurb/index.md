@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Udecxurb.h header"
 UID: NA:udecxurb
 title: Udecxurb.h header
 ms.assetid: 6cb5d20a-c66a-3e85-8ef2-8930ca44e63a

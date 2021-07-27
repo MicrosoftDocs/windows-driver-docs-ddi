@@ -4,7 +4,7 @@ tech.root:
 title: RtlEqualLuid
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: RtlEqualLuid"
 prerelease: false
 req.assembly: 
 req.construct-type: function

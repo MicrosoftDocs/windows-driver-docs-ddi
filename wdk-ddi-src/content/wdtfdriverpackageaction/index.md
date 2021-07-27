@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtfdriverpackageaction.h header"
 UID: NA:wdtfdriverpackageaction
 title: Wdtfdriverpackageaction.h header
 ms.assetid: 3b7d1682-5abf-3f29-aa0b-4c77e50e2a62

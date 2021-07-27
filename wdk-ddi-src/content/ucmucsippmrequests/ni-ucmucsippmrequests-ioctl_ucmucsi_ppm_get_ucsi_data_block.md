@@ -2,7 +2,7 @@
 UID: NI:ucmucsippmrequests.IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
 title: IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK (ucmucsippmrequests.h)
 tech.root: usbref
-description: 
+description: "Learn more about: IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL"
 ms.date: 09/30/2018
 keywords: ["IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL"]
 req.header: Ucmucsippmrequests.h

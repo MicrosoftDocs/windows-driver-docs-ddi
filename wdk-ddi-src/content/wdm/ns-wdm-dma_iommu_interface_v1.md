@@ -4,7 +4,7 @@ tech.root: kernel
 title: DMA_IOMMU_INTERFACE_V1
 ms.date: 04/20/2021
 targetos: Windows
-description: 
+description: "Learn more about: DMA_IOMMU_INTERFACE_V1"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

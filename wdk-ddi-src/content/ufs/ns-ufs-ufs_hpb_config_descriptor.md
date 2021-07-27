@@ -5,7 +5,7 @@ title: UFS_HPB_CONFIG_DESCRIPTOR
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: UFS_HPB_CONFIG_DESCRIPTOR"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

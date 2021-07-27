@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucmucsippm.h header"
 UID: NA:ucmucsippm
 title: Ucmucsippm.h header
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1

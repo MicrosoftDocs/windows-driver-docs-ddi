@@ -4,7 +4,7 @@ tech.root:
 title: RtlIsZeroLuid
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: RtlIsZeroLuid"
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucmtcpciportcontrollerrequests.h header"
 UID: NA:ucmtcpciportcontrollerrequests
 title: Ucmtcpciportcontrollerrequests.h header
 ms.assetid: 890a830c-7cf8-330c-8a38-9d2db62fcaf4

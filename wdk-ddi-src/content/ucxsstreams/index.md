@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucxsstreams.h header"
 UID: NA:ucxsstreams
 title: Ucxsstreams.h header
 ms.assetid: 0ed0eae9-4b3b-323f-bd5b-a3eb4e7a26ed

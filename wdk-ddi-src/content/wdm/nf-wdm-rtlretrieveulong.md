@@ -4,7 +4,7 @@ tech.root:
 title: RtlRetrieveUlong
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: RtlRetrieveUlong"
 prerelease: false
 req.assembly: 
 req.construct-type: function

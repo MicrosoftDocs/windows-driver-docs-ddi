@@ -4,7 +4,7 @@ tech.root:
 title: MmGetSystemAddressForMdlSafe
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: MmGetSystemAddressForMdlSafe"
 prerelease: false
 req.assembly: 
 req.construct-type: function

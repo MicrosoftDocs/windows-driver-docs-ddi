@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Videoagp.h header"
 UID: NA:videoagp
 title: Videoagp.h header
 ms.assetid: 0fc9df98-c623-3890-a8d0-1ec564589343

@@ -4,7 +4,7 @@ title: WdfPdoInitRemovePowerDependencyOnParent
 ms.date: 03/24/2020
 tech.root: wdf
 targetos: Windows
-description: 
+description: "Learn more about: WdfPdoInitRemovePowerDependencyOnParent"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

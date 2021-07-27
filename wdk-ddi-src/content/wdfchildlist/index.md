@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfchildlist.h header"
 UID: NA:wdfchildlist
 title: Wdfchildlist.h header
 ms.assetid: 6334207f-bf2f-36c9-a6cd-016dd23fc11c

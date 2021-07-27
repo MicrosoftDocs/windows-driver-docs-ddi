@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._SE_IMAGE_TYPE
 title: _SE_IMAGE_TYPE (wdm.h)
-description: 
+description: "Learn more about: _SE_IMAGE_TYPE enumeration"
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["SE_IMAGE_TYPE enumeration"]

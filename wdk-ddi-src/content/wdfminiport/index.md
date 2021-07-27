@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfminiport.h header"
 UID: NA:wdfminiport
 title: Wdfminiport.h header
 ms.assetid: a67115ef-8633-3ecf-ae14-4e1050cebfb8
