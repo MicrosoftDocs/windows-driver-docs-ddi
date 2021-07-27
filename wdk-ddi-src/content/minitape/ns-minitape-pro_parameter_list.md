@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape.__unnamed_struct_12
 title: PRO_PARAMETER_LIST (minitape.h)
-description: The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
+description: The PRO_PARAMETER_LIST structure (minitape.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.
 old-location: storage\pro_parameter_list.htm
 tech.root: storage
 ms.date: 03/29/2018

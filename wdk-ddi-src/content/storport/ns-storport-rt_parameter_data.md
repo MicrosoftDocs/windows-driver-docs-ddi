@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.__unnamed_struct_18
 title: RT_PARAMETER_DATA (storport.h)
-description: The RT_PARAMETER_DATA structure contains the parameter data for the report timestamp command.
+description: The RT_PARAMETER_DATA structure (storport.h) contains the parameter data for the report timestamp command.
 old-location: storage\rt_parameter_data.htm
 tech.root: storage
 ms.date: 03/29/2018

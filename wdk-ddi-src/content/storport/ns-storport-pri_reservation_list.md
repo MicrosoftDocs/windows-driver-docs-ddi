@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.__unnamed_struct_11
 title: PRI_RESERVATION_LIST (storport.h)
-description: The PRI_RESERVATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
+description: The PRI_RESERVATION_LIST structure (storport.h) contains a list of persistent reservations that are active within a device server.
 old-location: storage\pri_reservation_list.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
 title: _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR (scsi.h)
-description: The WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure is the third party copy descriptor for Windows systems.
+description: The _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure (scsi.h) defines the third party copy descriptor for Windows systems.
 old-location: storage\windows_block_device_token_limits_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018
