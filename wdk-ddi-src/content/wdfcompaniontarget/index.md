@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfcompaniontarget.h header"
 UID: NA:wdfcompaniontarget
 title: Wdfcompaniontarget.h header
 ms.assetid: 1b9244b9-b343-3a04-bd61-91ac23ea3ef8

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfcommonbuffer.h header"
 UID: NA:wdfcommonbuffer
 title: Wdfcommonbuffer.h header
 ms.assetid: ebfd5e90-5f7e-327a-ba92-728bb7bc3661

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_EVENT_LOG_ENTRY_FLAGS
 title: WHEA_EVENT_LOG_ENTRY_FLAGS
-description: 
+description: "Learn more about: WHEA_EVENT_LOG_ENTRY_FLAGS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_FLAGS structure"]

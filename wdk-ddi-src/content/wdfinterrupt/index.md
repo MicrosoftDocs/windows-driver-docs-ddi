@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfinterrupt.h header"
 UID: NA:wdfinterrupt
 title: Wdfinterrupt.h header
 ms.assetid: d693610e-50f5-3bb7-9cb0-aed7080ca4dd

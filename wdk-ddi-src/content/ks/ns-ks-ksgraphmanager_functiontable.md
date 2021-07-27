@@ -1,7 +1,7 @@
 ---
 UID: NS:ks.KSGRAPHMANAGER_FUNCTIONTABLE
 title: KSGRAPHMANAGER_FUNCTIONTABLE (ks.h)
-description: 
+description: "Learn more about: KSGRAPHMANAGER_FUNCTIONTABLE structure"
 old-location: stream\ksgraphmanager_functiontable.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
 title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_STREAM_CLOSE IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h

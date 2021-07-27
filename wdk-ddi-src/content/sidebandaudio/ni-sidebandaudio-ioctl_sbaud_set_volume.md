@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_VOLUME
 title: IOCTL_SBAUD_SET_VOLUME (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_SET_VOLUME IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_VOLUME IOCTL"]
 req.header: sidebandaudio.h

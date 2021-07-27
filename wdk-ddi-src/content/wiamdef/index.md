@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wiamdef.h header"
 UID: NA:wiamdef
 title: wiamdef.h header
 ms.assetid: d89bcd90-a043-33c1-b090-5984bd2940ed

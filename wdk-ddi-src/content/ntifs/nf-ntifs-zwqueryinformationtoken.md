@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.ZwQueryInformationToken
 title: ZwQueryInformationToken function (ntifs.h)
-description: The ZwQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
+description: The ZwQueryInformationToken routine retrieves a specified type of information about an access token.
 old-location: kernel\zwqueryinformationtoken.htm
 tech.root: kernel
 ms.date: 04/30/2018

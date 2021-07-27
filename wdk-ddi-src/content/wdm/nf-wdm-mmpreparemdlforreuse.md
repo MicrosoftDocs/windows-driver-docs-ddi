@@ -4,7 +4,7 @@ tech.root:
 title: MmPrepareMdlForReuse
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: MmPrepareMdlForReuse"
 prerelease: false
 req.assembly: 
 req.construct-type: function

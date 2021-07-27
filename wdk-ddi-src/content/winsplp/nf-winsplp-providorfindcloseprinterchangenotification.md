@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.ProvidorFindClosePrinterChangeNotification
 title: ProvidorFindClosePrinterChangeNotification function (winsplp.h)
-description: 
+description: "Learn more about: ProvidorFindClosePrinterChangeNotification function"
 old-location: print\providorfindcloseprinterchangenotification.htm
 tech.root: print
 ms.date: 04/20/2018

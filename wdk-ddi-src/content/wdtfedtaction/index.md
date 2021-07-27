@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtfedtaction.h header"
 UID: NA:wdtfedtaction
 title: Wdtfedtaction.h header
 ms.assetid: 1a37109c-3189-3716-8828-d932cb790efb

@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEQUERYOSSERVICE
 title: PFN_TRSECUREDEVICEQUERYOSSERVICE (trustedruntimeclx.h)
-description: 
+description: "Learn more about: *PFN_TRSECUREDEVICEQUERYOSSERVICE callback function"
 ms.date: 11/20/2020
 keywords: ["*PFN_TRSECUREDEVICEQUERYOSSERVICE callback function"]
 req.header: trustedruntimeclx.h

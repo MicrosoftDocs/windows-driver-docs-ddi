@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtFsControlFile
 title: NtFsControlFile function (ntifs.h)
-description: The ZwFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
+description: The NtFsControlFile routine sends a control code directly to a specified file system or file system filter driver.
 old-location: kernel\zwfscontrolfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

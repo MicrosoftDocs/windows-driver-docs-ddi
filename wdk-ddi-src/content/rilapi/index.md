@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rilapi.h header"
 UID: NA:rilapi
 title: Rilapi.h header
 ms.assetid: 116743fe-9c7e-3dc4-bcad-a68b4eba9491

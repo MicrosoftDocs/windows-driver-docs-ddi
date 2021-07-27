@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetBaseType
 title: IDebugHostType::GetBaseType (dbgmodel.h)
-description: If the type is a derivative of another single type (e.g. as MyStruct * is derived from MyStruct'), the GetBaseType method returns the base type of the derivation.
+description: "The IDebugHostType::GetBaseType method, when called on a type, gets the base type. The base type is the target type for a pointer or element type for an array."
 ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetBaseType"]
 ms.keywords: IDebugHostType::GetBaseType, GetBaseType, IDebugHostType.GetBaseType, IDebugHostType::GetBaseType, IDebugHostType.GetBaseType

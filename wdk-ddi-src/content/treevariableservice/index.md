@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Treevariableservice.h header"
 UID: NA:treevariableservice
 title: Treevariableservice.h header
 ms.assetid: bef41398-1512-3aee-a716-664a76c733e6

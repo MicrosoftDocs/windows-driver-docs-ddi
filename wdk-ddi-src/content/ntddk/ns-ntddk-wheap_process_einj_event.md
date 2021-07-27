@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_PROCESS_EINJ_EVENT
 title: WHEAP_PROCESS_EINJ_EVENT
-description: 
+description: "Learn more about: WHEAP_PROCESS_EINJ_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PROCESS_EINJ_EVENT structure"]

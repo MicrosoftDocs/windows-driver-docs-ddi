@@ -1,7 +1,7 @@
 ---
 UID: NS:strmini._STREAM_TIME_REFERENCE
 title: _STREAM_TIME_REFERENCE (strmini.h)
-description: 
+description: "Learn more about: _STREAM_TIME_REFERENCE structure"
 old-location: stream\stream_time_reference.htm
 tech.root: stream
 ms.date: 04/23/2018

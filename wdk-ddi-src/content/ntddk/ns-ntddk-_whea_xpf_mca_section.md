@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_XPF_MCA_SECTION
 title: _WHEA_XPF_MCA_SECTION (ntddk.h)
-description: 
+description: "Learn more about: _WHEA_XPF_MCA_SECTION structure"
 tech.root: whea
 ms.date: 10/19/2018
 keywords: ["WHEA_XPF_MCA_SECTION structure"]

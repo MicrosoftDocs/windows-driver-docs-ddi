@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nfcsedev.h header"
 UID: NA:nfcsedev
 title: Nfcsedev.h header
 ms.assetid: 71f179ce-e2f5-3602-a35a-5134da7d7128

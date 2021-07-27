@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mbbcxtypes.h header"
 UID: NA:mbbcxtypes
 title: Mbbcxtypes.h header
 ms.assetid: 05AA5A28-0140-4E61-8999-30134D153C5B

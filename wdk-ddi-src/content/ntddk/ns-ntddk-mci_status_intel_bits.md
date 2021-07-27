@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._MCI_STATUS_INTEL_BITS
 title: MCI_STATUS_INTEL_BITS
-description: 
+description: "Learn more about: MCI_STATUS_INTEL_BITS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS_INTEL_BITS structure"]

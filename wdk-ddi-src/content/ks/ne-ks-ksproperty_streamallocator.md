@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_21
 title: KSPROPERTY_STREAMALLOCATOR (ks.h)
-description: 
+description: "Learn more about: KSPROPERTY_STREAMALLOCATOR enumeration"
 old-location: stream\ksproperty_streamallocator.htm
 tech.root: stream
 ms.date: 04/23/2018

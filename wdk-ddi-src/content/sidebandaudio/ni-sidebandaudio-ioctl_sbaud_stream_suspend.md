@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_SUSPEND
 title: IOCTL_SBAUD_STREAM_SUSPEND (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_STREAM_SUSPEND IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_SUSPEND IOCTL"]
 req.header: sidebandaudio.h

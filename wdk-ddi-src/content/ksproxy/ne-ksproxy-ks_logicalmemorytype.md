@@ -1,7 +1,7 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_5
 title: KS_LogicalMemoryType (ksproxy.h)
-description: 
+description: "Learn more about: KS_LogicalMemoryType enumeration"
 old-location: stream\ks_logicalmemorytype.htm
 tech.root: stream
 ms.date: 04/23/2018

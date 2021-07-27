@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Oidtypes.h header"
 UID: NA:oidtypes
 title: Oidtypes.h header
 ms.date: 11/30/2020

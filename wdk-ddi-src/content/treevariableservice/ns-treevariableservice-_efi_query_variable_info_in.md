@@ -1,7 +1,7 @@
 ---
 UID: NS:treevariableservice._EFI_QUERY_VARIABLE_INFO_IN
 title: _EFI_QUERY_VARIABLE_INFO_IN (treevariableservice.h)
-description: 
+description: "Learn more about: _EFI_QUERY_VARIABLE_INFO_IN structure"
 ms.date: 11/20/2020
 keywords: ["EFI_QUERY_VARIABLE_INFO_IN structure"]
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_IN, EFI_QUERY_VARIABLE_INFO_IN, *PEFI_QUERY_VARIABLE_INFO_IN,

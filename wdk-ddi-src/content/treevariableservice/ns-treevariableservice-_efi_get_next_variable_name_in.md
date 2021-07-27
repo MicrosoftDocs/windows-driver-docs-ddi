@@ -1,7 +1,7 @@
 ---
 UID: NS:treevariableservice._EFI_GET_NEXT_VARIABLE_NAME_IN
 title: _EFI_GET_NEXT_VARIABLE_NAME_IN (treevariableservice.h)
-description: 
+description: "Learn more about: _EFI_GET_NEXT_VARIABLE_NAME_IN structure"
 ms.date: 11/20/2020
 keywords: ["EFI_GET_NEXT_VARIABLE_NAME_IN structure"]
 ms.keywords: _EFI_GET_NEXT_VARIABLE_NAME_IN, EFI_GET_NEXT_VARIABLE_NAME_IN, *PEFI_GET_NEXT_VARIABLE_NAME_IN,

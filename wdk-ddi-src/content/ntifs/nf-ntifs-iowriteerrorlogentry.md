@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoWriteErrorLogEntry
 title: IoWriteErrorLogEntry function (ntifs.h)
-description: The IoWriteErrorLogEntry routine queues a given error log packet to the system error logging thread.
+description: The IoWriteErrorLogEntry routine in ntifs.h queues a given error log packet to the system error logging thread.
 old-location: kernel\iowriteerrorlogentry.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:systemrng.EntropyProvideData
 title: EntropyProvideData function (systemrng.h)
-description: 
+description: "Learn more about: EntropyProvideData function"
 ms.date: 11/19/2020
 keywords: ["EntropyProvideData function"]
 ms.keywords: EntropyProvideData

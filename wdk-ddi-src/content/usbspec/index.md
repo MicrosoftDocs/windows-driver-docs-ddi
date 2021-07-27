@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbspec.h header"
 UID: NA:usbspec
 title: Usbspec.h header
 ms.assetid: 399eedeb-abab-3fb2-9a78-c323c5ecb8ef

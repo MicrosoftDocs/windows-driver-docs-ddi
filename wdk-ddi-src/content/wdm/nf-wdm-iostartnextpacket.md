@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoStartNextPacket
 title: IoStartNextPacket function (wdm.h)
-description: The IoStartNextPacket routine dequeues the next IRP, if any, from the given device object's associated device queue and calls the driver's StartIo routine.
+description: The IoStartNextPacket routine in wdm.h dequeues the next IRP from the given device object's associated device queue and calls the driver's StartIo routine.
 old-location: kernel\iostartnextpacket.htm
 tech.root: kernel
 ms.date: 04/30/2018

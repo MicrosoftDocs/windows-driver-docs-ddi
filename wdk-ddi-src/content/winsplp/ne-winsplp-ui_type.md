@@ -1,7 +1,7 @@
 ---
 UID: NE:winsplp.__unnamed_enum_1
 title: UI_TYPE (winsplp.h)
-description: 
+description: "Learn more about: UI_TYPE enumeration"
 old-location: print\ui_type.htm
 tech.root: print
 ms.date: 04/20/2018

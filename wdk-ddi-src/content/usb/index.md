@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usb.h header"
 UID: NA:usb
 title: Usb.h header
 ms.assetid: ab8aa396-e172-3b47-a11f-f0bf7862c545

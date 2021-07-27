@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KBUGCHECK_TRIAGE_DUMP_DATA
 title: _KBUGCHECK_TRIAGE_DUMP_DATA
-description: 
+description: "Learn more about: _KBUGCHECK_TRIAGE_DUMP_DATA structure"
 ms.date: 06/03/2019
 tech.root: devtest
 keywords: ["KBUGCHECK_TRIAGE_DUMP_DATA structure"]

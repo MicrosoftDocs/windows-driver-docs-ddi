@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wmilib.h header"
 UID: NA:wmilib
 title: Wmilib.h header
 ms.assetid: bca56998-667b-3fd4-9561-ba760c2275b6

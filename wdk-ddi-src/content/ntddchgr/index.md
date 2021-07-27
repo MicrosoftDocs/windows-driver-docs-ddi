@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddchgr.h header"
 UID: NA:ntddchgr
 title: Ntddchgr.h header
 ms.assetid: f1bab14a-b109-3e0f-8bfb-f85c148fc4a9

@@ -4,7 +4,7 @@ tech.root: kernel
 title: IOMMU_INTERFACE_STATE_CHANGE
 ms.date: 04/20/2021
 targetos: Windows
-description: 
+description: "Learn more about: IOMMU_INTERFACE_STATE_CHANGE"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

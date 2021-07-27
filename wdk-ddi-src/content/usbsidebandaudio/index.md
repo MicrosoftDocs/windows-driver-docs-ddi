@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbsidebandaudio.h header"
 UID: NA:usbsidebandaudio
 title: Usbsidebandaudio.h header
 ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40240

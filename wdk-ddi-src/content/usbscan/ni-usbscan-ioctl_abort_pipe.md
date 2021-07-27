@@ -1,7 +1,7 @@
 ---
 UID: NI:usbscan.IOCTL_ABORT_PIPE
 title: IOCTL_ABORT_PIPE (usbscan.h)
-description: 
+description: "Learn more about: IOCTL_ABORT_PIPE IOCTL"
 ms.date: 11/18/2020
 keywords: ["IOCTL_ABORT_PIPE IOCTL"]
 req.header: usbscan.h

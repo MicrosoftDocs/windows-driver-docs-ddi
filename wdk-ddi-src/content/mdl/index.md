@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mdl.h header"
 UID: NA:mdl
 title: Mdl.h header
 ms.assetid: 52EB31A7-38CB-4DC1-AE51-91FE88BBD31D

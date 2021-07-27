@@ -4,7 +4,7 @@ tech.root:
 title: ADDRESS_AND_SIZE_TO_SPAN_PAGES
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: ADDRESS_AND_SIZE_TO_SPAN_PAGES"
 prerelease: false
 req.assembly: 
 req.construct-type: function

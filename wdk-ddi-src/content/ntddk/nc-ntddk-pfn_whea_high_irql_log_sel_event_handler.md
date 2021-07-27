@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk.PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
 title: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
-description: 
+description: "Learn more about: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function"]

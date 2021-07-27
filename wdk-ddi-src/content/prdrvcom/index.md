@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prdrvcom.h header"
 UID: NA:prdrvcom
 title: Prdrvcom.h header
 ms.assetid: 6d969209-8a48-364c-a65e-9376eb7fc29c

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
-title: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY (d3dkmddi.h)
-description: Arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function, to allocate contiguous memory.
-ms.date: 10/19/2018
+title: DXGKARGCB_ALLOCATECONTIGUOUSMEMORY (d3dkmddi.h)
+description: The DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure contains the arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function, to allocate contiguous memory.
+ms.date: 07/22/2021
 keywords: ["DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure"]
 ms.keywords: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, *INOUT_PDXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -38,46 +38,46 @@ product:
  - Windows
 ---
 
-# _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure
-
+# DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure
 
 ## -description
 
-Arguments used in the [DXGKCB_ALLOCATECONTIGUOUSMEMORY](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md) callback function, to allocate contiguous memory.
+The **DXGKARGCB_ALLOCATECONTIGUOUSMEMORY** structure contains the arguments used in the [DXGKCB_ALLOCATECONTIGUOUSMEMORY](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md) callback function, to allocate contiguous memory.
 
 ## -struct-fields
 
 ### -field NumberOfBytes
 
-The size, in bytes, of the block of contiguous memory to allocate.
+[in] The size, in bytes, of the block of contiguous memory to allocate.
 
 ### -field LowestAcceptableAddress
 
-The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device should set LowestAcceptableAddress to 0x0000000000800000.
+[in] The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device should set LowestAcceptableAddress to 0x0000000000800000.
 
 ### -field HighestAcceptableAddress
 
-The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set HighestAcceptableAddress to 0x0000000000FFFFFF.
+[in] The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set HighestAcceptableAddress to 0x0000000000FFFFFF.
 
 ### -field BoundaryAddressMultiple
 
-The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions.
+[in] The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions.
 
 ### -field CacheType
 
-The cache type of the pages to allocate. Valid values include non-cached, cached, or writecombined.
+[in] A [**DXGK_MEMORY_CACHING_TYPE**](ne-d3dkmddi-_dxgk_memory_caching_type.md) value that specifies the cache type of the pages to allocate.
 
 ### -field hMemoryHandle
 
-A Dxgkrnl tracking handle for the allocation. This value should be passed to the corresponding [DGXKCB_FREECONTIGUOUSMEMORY](nc-d3dkmddi-dxgkcb_freecontiguousmemory.md) callback function.
+[out] A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DGXKCB_FREECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_freecontiguousmemory.md) callback function.
 
 ### -field pMemory
 
-A contiguous chunk of non-paged physical memory guaranteed to be mapped to the IoMmu for its lifetime.
+[out] A contiguous chunk of non-paged physical memory guaranteed to be mapped to the IOMMU for its lifetime.
 
 ## -remarks
 
+See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
+
 ## -see-also
 
-[DXGKCB_ALLOCATECONTIGUOUSMEMORY](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md)
-
+[**DXGKCB_ALLOCATECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md)

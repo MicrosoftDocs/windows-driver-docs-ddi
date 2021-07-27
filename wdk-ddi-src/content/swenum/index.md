@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Swenum.h header"
 UID: NA:swenum
 title: Swenum.h header
 ms.assetid: 631903f3-c726-3652-b341-ccbe7cdd2a44

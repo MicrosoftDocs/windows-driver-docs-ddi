@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
 title: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX (ntifs.h)
-description: 
+description: "Learn more about: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX structure"
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["VIRTUALIZATION_INSTANCE_INFO_INPUT_EX structure"]

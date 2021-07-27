@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DISCONNECT_SECURE_ENVIRONMENT
 title: EVT_TR_DISCONNECT_SECURE_ENVIRONMENT (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_DISCONNECT_SECURE_ENVIRONMENT callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_DISCONNECT_SECURE_ENVIRONMENT callback function"]
 req.header: trustedruntimeclx.h

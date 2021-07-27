@@ -4,7 +4,7 @@ title: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION
 ms.date: 05/18/2021
 ms.topic: language-reference
 targetos: Windows
-description:
+description: "Learn more about: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION structure"
 req.construct-type: structure
 req.ddi-compliance:
 req.dll:

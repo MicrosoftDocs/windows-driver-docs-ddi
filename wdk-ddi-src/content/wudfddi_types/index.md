@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wudfddi_Types.h header"
 UID: NA:wudfddi_types
 title: Wudfddi_Types.h header
 ms.assetid: 4b61f22a-ca30-3fe9-9635-a2872e82d5dd

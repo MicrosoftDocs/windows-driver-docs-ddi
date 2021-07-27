@@ -5,7 +5,7 @@ title: NET_EUI48_ADDRESS
 ms.date: 04/15/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: NET_EUI48_ADDRESS"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

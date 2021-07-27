@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._FILE_ZERO_DATA_INFORMATION
 title: _FILE_ZERO_DATA_INFORMATION (ntifs.h)
-description: Contains a range of a file to set to zeros.
+description: The _FILE_ZERO_DATA_INFORMATION structure contains a range of a file to set to zeros. This structure is used by the FSCTL_SET_ZERO_DATA control code.
 old-location: ifsk\file_zero_data_information.htm
 tech.root: ifsk
 ms.date: 04/16/2018

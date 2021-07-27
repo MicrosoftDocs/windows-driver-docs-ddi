@@ -5,7 +5,7 @@ title: NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS
 ms.date: 04/15/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS"
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ieee8021qtypes.h

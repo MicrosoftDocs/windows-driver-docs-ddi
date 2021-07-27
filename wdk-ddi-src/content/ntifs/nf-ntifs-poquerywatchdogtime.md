@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoQueryWatchdogTime
 title: PoQueryWatchdogTime function (ntifs.h)
-description: The PoQueryWatchdogTime routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
+description: The PoQueryWatchdogTime routine in ntifs.h indicates whether the power manager has enabled a time-out counter for any power IRP assigned to the device stack.
 old-location: kernel\poquerywatchdogtime.htm
 tech.root: kernel
 ms.date: 04/30/2018

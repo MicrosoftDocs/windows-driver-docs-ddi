@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._DRIVER_DIRECTORY_TYPE
 title: _DRIVER_DIRECTORY_TYPE (wdm.h)
-description: 
+description: "Learn more about: _DRIVER_DIRECTORY_TYPE enumeration"
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["DRIVER_DIRECTORY_TYPE enumeration"]

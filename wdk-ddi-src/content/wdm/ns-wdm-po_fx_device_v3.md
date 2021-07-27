@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PO_FX_DEVICE_V3
 title: PO_FX_DEVICE_V3
-description: 
+description: "Learn more about: PO_FX_DEVICE_V3 structure"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PO_FX_DEVICE_V3 structure"]

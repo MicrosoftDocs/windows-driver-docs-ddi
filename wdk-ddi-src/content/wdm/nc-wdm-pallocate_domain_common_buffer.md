@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PALLOCATE_DOMAIN_COMMON_BUFFER
 title: PALLOCATE_DOMAIN_COMMON_BUFFER (wdm.h)
-description: 
+description: "Learn more about: PALLOCATE_DOMAIN_COMMON_BUFFER callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PALLOCATE_DOMAIN_COMMON_BUFFER callback function"]

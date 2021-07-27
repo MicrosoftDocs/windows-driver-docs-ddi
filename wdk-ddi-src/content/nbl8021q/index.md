@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nbl8021q.h header"
 UID: NA:nbl8021q
 title: Nbl8021q.h header
 ms.date: 11/30/2020

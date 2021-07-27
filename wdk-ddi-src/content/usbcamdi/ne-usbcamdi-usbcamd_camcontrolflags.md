@@ -1,7 +1,7 @@
 ---
 UID: NE:usbcamdi.__unnamed_enum_0
 title: USBCAMD_CamControlFlags (usbcamdi.h)
-description: 
+description: "Learn more about: USBCAMD_CamControlFlags enumeration"
 ms.date: 11/17/2020
 keywords: ["USBCAMD_CamControlFlags enumeration"]
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags,

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_DROPPED_CORRECTED_ERROR_EVENT
 title: WHEAP_DROPPED_CORRECTED_ERROR_EVENT
-description: 
+description: "Learn more about: WHEAP_DROPPED_CORRECTED_ERROR_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_DROPPED_CORRECTED_ERROR_EVENT structure"]

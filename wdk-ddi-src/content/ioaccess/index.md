@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ioaccess.h header"
 UID: NA:ioaccess
 title: Ioaccess.h header
 ms.assetid: 5d64cfe2-da47-3c7e-8bce-9959a6715531

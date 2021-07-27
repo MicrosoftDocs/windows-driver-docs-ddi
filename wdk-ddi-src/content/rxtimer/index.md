@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rxtimer.h header"
 UID: NA:rxtimer
 title: Rxtimer.h header
 ms.assetid: 2ab3b1c1-221c-37dd-9599-6b8c422b887b

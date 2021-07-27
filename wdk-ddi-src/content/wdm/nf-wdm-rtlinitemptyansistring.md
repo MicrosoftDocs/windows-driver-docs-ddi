@@ -4,7 +4,7 @@ tech.root:
 title: RtlInitEmptyAnsiString
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: RtlInitEmptyAnsiString"
 prerelease: false
 req.assembly: 
 req.construct-type: function

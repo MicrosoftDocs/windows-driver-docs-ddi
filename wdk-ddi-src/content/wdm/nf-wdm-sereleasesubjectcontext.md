@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.SeReleaseSubjectContext
 title: SeReleaseSubjectContext function (wdm.h)
-description: The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
+description: The SeReleaseSubjectContext routine in wdm.h releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
 old-location: ifsk\sereleasesubjectcontext.htm
 tech.root: ifsk
 ms.date: 04/16/2018

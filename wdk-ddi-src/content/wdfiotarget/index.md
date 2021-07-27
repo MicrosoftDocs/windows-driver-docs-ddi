@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfiotarget.h header"
 UID: NA:wdfiotarget
 title: Wdfiotarget.h header
 ms.assetid: 65c859a2-b54e-397f-a79a-3c718b10f60c

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prnasntp.h header"
 UID: NA:prnasntp
 title: Prnasntp.h header
 ms.date: 06/12/2021

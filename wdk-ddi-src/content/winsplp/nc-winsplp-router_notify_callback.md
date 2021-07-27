@@ -1,7 +1,7 @@
 ---
 UID: NC:winsplp.ROUTER_NOTIFY_CALLBACK
 title: ROUTER_NOTIFY_CALLBACK (winsplp.h)
-description: 
+description: "Learn more about: ROUTER_NOTIFY_CALLBACK callback function"
 old-location: print\router_notify_callback.htm
 tech.root: print
 ms.date: 04/20/2018

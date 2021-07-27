@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prcomoem.h header"
 UID: NA:prcomoem
 title: Prcomoem.h header
 ms.assetid: 0458b097-7680-3460-8cbd-f14ad4279a69

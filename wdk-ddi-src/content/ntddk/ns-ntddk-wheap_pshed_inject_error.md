@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_PSHED_INJECT_ERROR
 title: WHEAP_PSHED_INJECT_ERROR
-description: 
+description: "Learn more about: WHEAP_PSHED_INJECT_ERROR structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_INJECT_ERROR structure"]

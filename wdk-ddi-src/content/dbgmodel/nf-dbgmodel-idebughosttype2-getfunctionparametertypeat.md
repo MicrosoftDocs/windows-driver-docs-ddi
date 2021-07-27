@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionParameterTypeAt
 title: IDebugHostType2::GetFunctionParameterTypeAt (dbgmodel.h)
-description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function.
+description: "The IDebugHostType2::GetFunctionParameterTypeAt method, when called on a function type, gets the parameter type at a given index in the function's argument list."
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetFunctionParameterTypeAt"]
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt, IDebugHostType2::GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt

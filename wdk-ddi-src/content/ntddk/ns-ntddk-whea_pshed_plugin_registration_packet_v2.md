@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2
 title: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2
-description: 
+description: "Learn more about: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2 structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2 structure"]

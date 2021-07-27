@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetIntrinsicType
 title: IDebugHostType2::GetIntrinsicType (dbgmodel.h)
-description: The GetIntrinsicType method returns information about what kind of intrinsic the type is.
+description: "The IDebugHostType2::GetIntrinsicType method, when called on a type, gets information about what kind of intrinsic the type is."
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetIntrinsicType"]
 ms.keywords: IDebugHostType2::GetIntrinsicType, GetIntrinsicType, IDebugHostType2.GetIntrinsicType, IDebugHostType2::GetIntrinsicType, IDebugHostType2.GetIntrinsicType

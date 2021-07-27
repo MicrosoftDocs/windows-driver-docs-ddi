@@ -4,7 +4,7 @@ tech.root: hid
 title: HIDSPICX_DEVICE_CONFIG
 ms.date: 06/14/2021
 targetos: Windows
-description: 
+description: "Learn more about: HIDSPICX_DEVICE_CONFIG"
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

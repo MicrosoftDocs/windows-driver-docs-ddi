@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._DEVICE_INTERNAL_STATUS_DATA
 title: DEVICE_INTERNAL_STATUS_DATA
-description: 
+description: "Learn more about: DEVICE_INTERNAL_STATUS_DATA structure"
 tech.root: storage
 ms.date: 11/30/2019
 ms.topic: struct

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netadapteroffload.h header"
 UID: NA:netadapteroffload
 title: Netadapteroffload.h header
 ms.assetid: 90917BC6-1C76-4230-848B-AC19532413EE

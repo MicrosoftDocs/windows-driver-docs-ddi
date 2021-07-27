@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_GENERIC_ERR_MEM_MAP_EVENT
 title: WHEAP_GENERIC_ERR_MEM_MAP_EVENT
-description: 
+description: "Learn more about: WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure"]

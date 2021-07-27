@@ -1,7 +1,7 @@
 ---
 UID: NS:ks.__unnamed_struct_28
 title: KSPIN_CINSTANCES (ks.h)
-description: 
+description: "Learn more about: KSPIN_CINSTANCES structure"
 old-location: stream\kspin_cinstances.htm
 tech.root: stream
 ms.date: 04/23/2018

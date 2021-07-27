@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PoCreatePowerRequest
 title: PoCreatePowerRequest function (wdm.h)
-description: The PoCreatePowerRequest routine creates a power request object.
+description: The PoCreatePowerRequest routine in wdm.h creates a power request object. To enable power requests, create one power request object and use it for all calls.
 old-location: kernel\pocreatepowerrequest.htm
 tech.root: kernel
 ms.date: 04/30/2018

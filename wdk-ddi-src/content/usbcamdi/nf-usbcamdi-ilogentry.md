@@ -1,7 +1,7 @@
 ---
 UID: NF:usbcamdi.ILOGENTRY
 title: ILOGENTRY macro (usbcamdi.h)
-description: 
+description: "Learn more about: ILOGENTRY macro"
 ms.date: 11/17/2020
 keywords: ["ILOGENTRY macro"]
 ms.keywords: ILOGENTRY

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfcontrol.h header"
 UID: NA:wdfcontrol
 title: Wdfcontrol.h header
 ms.assetid: df09b3f6-ec88-3410-a704-7ca8e681720e

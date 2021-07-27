@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nbltimestamp.h header"
 UID: NA:nbltimestamp
 title: Nbltimestamp.h header
 ms.date: 11/30/2020

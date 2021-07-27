@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rxlog.h header"
 UID: NA:rxlog
 title: Rxlog.h header
 ms.assetid: 637ff180-be8d-3314-8689-f61b40309939

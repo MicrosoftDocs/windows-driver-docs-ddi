@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.ReplyPrinterChangeNotificationEx
 title: ReplyPrinterChangeNotificationEx function (winsplp.h)
-description: 
+description: "Learn more about: ReplyPrinterChangeNotificationEx function"
 old-location: print\replyprinterchangenotificationex.htm
 tech.root: print
 ms.date: 04/20/2018

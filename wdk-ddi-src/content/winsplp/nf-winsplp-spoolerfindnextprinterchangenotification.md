@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.SpoolerFindNextPrinterChangeNotification
 title: SpoolerFindNextPrinterChangeNotification function (winsplp.h)
-description: 
+description: "Learn more about: SpoolerFindNextPrinterChangeNotification function"
 old-location: print\spoolerfindnextprinterchangenotification.htm
 tech.root: print
 ms.date: 04/20/2018
