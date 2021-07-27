@@ -1,7 +1,7 @@
 ---
 UID: NN:printerextension.IPrinterQueue2
 title: IPrinterQueue2 (printerextension.h)
-description: Represents a single printer queue.
+description: Learn how IPrinterQueue2 represents a single printer queue.
 tech.root: print
 ms.date: 06/11/2021
 keywords: ["IPrinterQueue2 interface"]

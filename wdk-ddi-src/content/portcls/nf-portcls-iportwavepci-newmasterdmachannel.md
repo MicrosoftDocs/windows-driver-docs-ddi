@@ -1,7 +1,7 @@
 ---
 UID: NF:portcls.IPortWavePci.NewMasterDmaChannel
 title: IPortWavePci::NewMasterDmaChannel (portcls.h)
-description: The NewMasterDmaChannel method creates a new instance of a bus-master DMA channel.
+description: Learn how the NewMasterDmaChannel method creates a new instance of a bus-master DMA channel.
 old-location: audio\iportwavepci_newmasterdmachannel.htm
 tech.root: audio
 ms.date: 05/08/2018

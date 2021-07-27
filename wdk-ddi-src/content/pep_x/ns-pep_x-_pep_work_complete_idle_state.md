@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_WORK_COMPLETE_IDLE_STATE
 title: _PEP_WORK_COMPLETE_IDLE_STATE (pep_x.h)
-description: The PEP_WORK_COMPLETE_IDLE_STATE structure identifies a component that the platform extension plug-in (PEP) has prepared for a transition to a new Fx power state.
+description: Learn how the PEP_WORK_COMPLETE_IDLE_STATE structure identifies a component that the platform extension plug-in (PEP) has prepared for a transition to a new Fx power state.
 old-location: kernel\pep_work_complete_idle_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_WORK_COMPLETE_PERF_STATE
 title: _PEP_WORK_COMPLETE_PERF_STATE (pep_x.h)
-description: The PEP_WORK_COMPLETE_PERF_STATE structure describes the completion status of a previously requested update to the performance values assigned to a list of performance state (P-state) sets.
+description: Learn how the PEP_WORK_COMPLETE_PERF_STATE structure describes the completion status of a previously requested update to the performance values assigned to a list of performance state (P-state) sets.
 old-location: kernel\pep_work_complete_perf_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

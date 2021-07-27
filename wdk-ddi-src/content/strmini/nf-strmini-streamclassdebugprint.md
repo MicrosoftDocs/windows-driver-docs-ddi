@@ -1,7 +1,7 @@
 ---
 UID: NF:strmini.StreamClassDebugPrint
 title: StreamClassDebugPrint function (strmini.h)
-description: This function is obsolete.
+description: This function (StreamClassDebugPrint) is obsolete.
 old-location: stream\streamclassdebugprint.htm
 tech.root: stream
 ms.date: 04/23/2018

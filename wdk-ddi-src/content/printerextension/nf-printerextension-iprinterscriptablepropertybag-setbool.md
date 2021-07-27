@@ -1,7 +1,7 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBool
 title: IPrinterScriptablePropertyBag::SetBool (printerextension.h)
-description: Writes a specified boolean property value.
+description: Learn how this method writes a specified boolean property value.
 old-location: print\iprinterscriptablepropertybag_setbool.htm
 tech.root: print
 ms.date: 04/20/2018
