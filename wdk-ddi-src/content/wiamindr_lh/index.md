@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wiamindr_Lh.h header"
 UID: NA:wiamindr_lh
 title: Wiamindr_Lh.h header
 ms.assetid: 8bb4455b-7b9a-3281-8f57-256069118040

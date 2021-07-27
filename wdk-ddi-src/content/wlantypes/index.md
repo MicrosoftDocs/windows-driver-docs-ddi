@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wlantypes.h header"
 UID: NA:wlantypes
 title: Wlantypes.h header
 ms.assetid: a8c636e3-169e-3e30-bdde-bae849febabd

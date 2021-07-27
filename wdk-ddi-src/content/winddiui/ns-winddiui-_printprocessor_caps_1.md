@@ -1,7 +1,7 @@
 ---
 UID: NS:winddiui._PRINTPROCESSOR_CAPS_1
 title: _PRINTPROCESSOR_CAPS_1 (winddiui.h)
-description: 
+description: "Learn more about: _PRINTPROCESSOR_CAPS_1 structure"
 ms.date: 11/18/2020
 keywords: ["PRINTPROCESSOR_CAPS_1 structure"]
 ms.keywords: _PRINTPROCESSOR_CAPS_1, PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1,

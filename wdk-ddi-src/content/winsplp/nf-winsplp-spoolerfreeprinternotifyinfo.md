@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.SpoolerFreePrinterNotifyInfo
 title: SpoolerFreePrinterNotifyInfo function (winsplp.h)
-description: 
+description: "Learn more about: SpoolerFreePrinterNotifyInfo function"
 old-location: print\spoolerfreeprinternotifyinfo.htm
 tech.root: print
 ms.date: 04/20/2018

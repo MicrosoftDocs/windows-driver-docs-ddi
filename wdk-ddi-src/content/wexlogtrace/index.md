@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wexlogtrace.h header"
 UID: NA:wexlogtrace
 title: Wexlogtrace.h header
 ms.assetid: 3aa40561-30b1-310a-b289-97b5253ecbc6

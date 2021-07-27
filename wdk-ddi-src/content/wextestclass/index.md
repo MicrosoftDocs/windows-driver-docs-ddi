@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wextestclass.h header"
 UID: NA:wextestclass
 title: Wextestclass.h header
 ms.assetid: 9fc41607-d4ed-3730-94bb-e2172700583f

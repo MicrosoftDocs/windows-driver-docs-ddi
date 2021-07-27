@@ -1,7 +1,7 @@
 ---
 UID: NE:winsplp._NOTIFICATION_CONFIG_FLAGS
 title: _NOTIFICATION_CONFIG_FLAGS (winsplp.h)
-description: 
+description: "Learn more about: _NOTIFICATION_CONFIG_FLAGS enumeration"
 old-location: print\notification_config_flags.htm
 tech.root: print
 ms.date: 04/20/2018

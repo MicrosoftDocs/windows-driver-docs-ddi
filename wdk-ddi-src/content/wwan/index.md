@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wwan.h header"
 UID: NA:wwan
 title: Wwan.h header
 ms.assetid: 5d64f71a-37de-3e02-bd8a-2f870aefdc5b

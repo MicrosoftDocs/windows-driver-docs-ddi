@@ -1,7 +1,7 @@
 ---
 UID: NF:winspool.GetPrintOutputInfo
 title: GetPrintOutputInfo function (winspool.h)
-description: 
+description: "Learn more about: GetPrintOutputInfo function"
 old-location: print\getprintoutputinfo.htm
 tech.root: print
 ms.date: 04/20/2018

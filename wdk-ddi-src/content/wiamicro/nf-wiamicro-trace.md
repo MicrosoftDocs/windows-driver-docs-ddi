@@ -1,7 +1,7 @@
 ---
 UID: NF:wiamicro.Trace
 title: Trace function (wiamicro.h)
-description: 
+description: "Learn more about: Trace function"
 ms.date: 11/18/2020
 keywords: ["Trace function"]
 ms.keywords: Trace

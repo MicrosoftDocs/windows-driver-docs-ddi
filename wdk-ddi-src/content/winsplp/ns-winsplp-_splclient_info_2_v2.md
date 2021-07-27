@@ -1,7 +1,7 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_2_V2
 title: _SPLCLIENT_INFO_2_V2 (winsplp.h)
-description: 
+description: "Learn more about: _SPLCLIENT_INFO_2_V2 structure"
 old-location: print\splclient_info_2_winxp.htm
 tech.root: print
 ms.date: 04/20/2018

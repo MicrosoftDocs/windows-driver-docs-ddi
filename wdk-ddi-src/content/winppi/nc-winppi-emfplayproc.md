@@ -1,7 +1,7 @@
 ---
 UID: NC:winppi.EMFPLAYPROC
 title: EMFPLAYPROC (winppi.h)
-description: 
+description: "Learn more about: EMFPLAYPROC callback function"
 ms.date: 11/18/2020
 keywords: ["EMFPLAYPROC callback function"]
 req.header: winppi.h

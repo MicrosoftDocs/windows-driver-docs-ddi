@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wificxpoweroffload.h header"
 UID: NA:wificxpoweroffload
 tech.root: netvista
 title: wificxpoweroffload
