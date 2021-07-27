@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fltkernel.h header"
 UID: NA:fltkernel
 title: Fltkernel.h header
 ms.assetid: 4bae9dcd-2c48-3a14-9947-7e0831da3b42

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Kernel"
 UID: TP:kernel
 title: Windows kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e

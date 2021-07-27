@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_EMG_REQ
 title: _BDA_ISDBCAS_EMG_REQ (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_ISDBCAS_EMG_REQ structure"
 ms.date: 11/17/2020
 keywords: ["BDA_ISDBCAS_EMG_REQ structure"]
 ms.keywords: _BDA_ISDBCAS_EMG_REQ, BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ,

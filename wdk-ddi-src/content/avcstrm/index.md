@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Avcstrm.h header"
 UID: NA:avcstrm
 title: Avcstrm.h header
 ms.assetid: 95ad8480-00a5-327d-bbf8-cb0d47180196

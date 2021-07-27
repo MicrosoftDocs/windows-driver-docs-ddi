@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_USERACTIVITY_INTERVAL
 title: _BDA_USERACTIVITY_INTERVAL (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_USERACTIVITY_INTERVAL structure"
 old-location: stream\bda_useractivity_interval.htm
 tech.root: stream
 ms.date: 04/23/2018

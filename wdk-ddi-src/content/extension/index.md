@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extension.h header"
 UID: NA:extension
 title: Extension.h header
 ms.assetid: 76464043-DB76-477A-BC91-D0C7EA5FB1D1

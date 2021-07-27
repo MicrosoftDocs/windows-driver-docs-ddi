@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_TS_SELECTORINFO_ISDBS_EXT
 title: _BDA_TS_SELECTORINFO_ISDBS_EXT (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_TS_SELECTORINFO_ISDBS_EXT structure"
 old-location: stream\bda_ts_selectorinfo_isdbs_ext.htm
 tech.root: stream
 ms.date: 04/23/2018

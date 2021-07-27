@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ACPI"
 UID: TP:acpi
 title: ACPI
 ms.assetid: 6eb30b27-568a-3203-bd11-0f238870d174

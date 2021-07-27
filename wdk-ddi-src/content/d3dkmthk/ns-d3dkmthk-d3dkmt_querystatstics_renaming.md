@@ -5,7 +5,7 @@ title: D3DKMT_QUERYSTATSTICS_RENAMING
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: D3DKMT_QUERYSTATSTICS_RENAMING"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

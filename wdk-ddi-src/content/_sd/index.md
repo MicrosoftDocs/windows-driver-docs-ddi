@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure Digital (SD) card"
 UID: TP:sd
 title: Secure Digital (SD) card
 ms.assetid: c5dfcab7-91d2-3e9f-b28e-f90e20634f51

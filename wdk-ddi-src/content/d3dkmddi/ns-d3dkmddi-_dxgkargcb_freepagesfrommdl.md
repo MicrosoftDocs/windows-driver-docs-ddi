@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_FREEPAGESFROMMDL
 title: _DXGKARGCB_FREEPAGESFROMMDL (d3dkmddi.h)
-description: 
+description: "Learn more about: _DXGKARGCB_FREEPAGESFROMMDL structure"
 ms.date: 10/19/2018
 keywords: ["DXGKARGCB_FREEPAGESFROMMDL structure"]
 ms.keywords: _DXGKARGCB_FREEPAGESFROMMDL, DXGKARGCB_FREEPAGESFROMMDL,

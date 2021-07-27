@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_STATUS
 title: _BDA_WMDRM_STATUS (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_WMDRM_STATUS structure"
 old-location: stream\bda_wmdrm_status.htm
 tech.root: stream
 ms.date: 04/23/2018

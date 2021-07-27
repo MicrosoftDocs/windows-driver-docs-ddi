@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Human Interface Devices (HID)"
 UID: TP:hid
 title: Human Interface Devices (HID)
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065

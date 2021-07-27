@@ -1,7 +1,7 @@
 ---
 UID: NE:dbgmodel.PointerKind
 title: PointerKind (dbgmodel.h)
-description: 
+description: "Learn more about: PointerKind enumeration"
 ms.date: 07/16/2018
 keywords: ["PointerKind enumeration"]
 ms.keywords: PointerKind, ,

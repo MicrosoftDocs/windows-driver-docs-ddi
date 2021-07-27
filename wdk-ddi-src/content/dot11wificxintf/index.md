@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dot11wificxintf.h header"
 UID: NA:dot11wificxintf
 tech.root: netvista
 title: dot11wificxintf.h header

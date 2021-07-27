@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extsfns.h header"
 UID: NA:extsfns
 title: Extsfns.h header
 ms.assetid: 65a44f62-6646-38b2-b962-e5ad09608ad4

@@ -1,7 +1,7 @@
 ---
 UID: NS:d4iface._DOT4_ACTIVITY
 title: _DOT4_ACTIVITY (d4iface.h)
-description: 
+description: "Learn more about: _DOT4_ACTIVITY structure"
 old-location: print\dot4_activity.htm
 tech.root: print
 ms.date: 04/20/2018

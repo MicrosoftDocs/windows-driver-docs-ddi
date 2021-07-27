@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054
 title: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054
-description: 
+description: "Learn more about: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure"
 tech.root: display
 ms.date: 08/19/2019
 keywords: ["D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure"]

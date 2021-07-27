@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_FRAMEINFO
 title: _D3DKMT_OUTPUTDUPL_FRAMEINFO (d3dkmthk.h)
-description: 
+description: "Learn more about: _D3DKMT_OUTPUTDUPL_FRAMEINFO structure"
 ms.date: 10/19/2018
 keywords: ["D3DKMT_OUTPUTDUPL_FRAMEINFO structure"]
 ms.keywords: _D3DKMT_OUTPUTDUPL_FRAMEINFO, D3DKMT_OUTPUTDUPL_FRAMEINFO,
