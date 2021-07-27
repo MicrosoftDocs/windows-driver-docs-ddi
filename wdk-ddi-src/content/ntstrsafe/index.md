@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntstrsafe.h header"
 UID: NA:ntstrsafe
 title: Ntstrsafe.h header
 ms.assetid: 65f21332-b24f-3667-9a7a-dd2844d95ae9

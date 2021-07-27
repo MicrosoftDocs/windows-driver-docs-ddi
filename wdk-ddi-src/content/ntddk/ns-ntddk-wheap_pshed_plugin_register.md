@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_PSHED_PLUGIN_REGISTER
 title: WHEAP_PSHED_PLUGIN_REGISTER
-description: 
+description: "Learn more about: WHEAP_PSHED_PLUGIN_REGISTER structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_PLUGIN_REGISTER structure"]

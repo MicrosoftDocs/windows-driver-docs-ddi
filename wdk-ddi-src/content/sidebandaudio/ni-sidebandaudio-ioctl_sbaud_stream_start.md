@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_START
 title: IOCTL_SBAUD_STREAM_START (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_STREAM_START IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_START IOCTL"]
 req.header: sidebandaudio.h

@@ -1,7 +1,7 @@
 ---
 UID: NE:treeinlinecryptoservice._INLINE_CRYPTO_DATA_UNIT_SIZE
 title: _INLINE_CRYPTO_DATA_UNIT_SIZE (treeinlinecryptoservice.h)
-description: 
+description: "Learn more about: _INLINE_CRYPTO_DATA_UNIT_SIZE enumeration"
 ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_DATA_UNIT_SIZE enumeration"]
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE,

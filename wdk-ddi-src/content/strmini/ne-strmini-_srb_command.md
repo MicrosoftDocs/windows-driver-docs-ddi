@@ -1,7 +1,7 @@
 ---
 UID: NE:strmini._SRB_COMMAND
 title: _SRB_COMMAND (strmini.h)
-description: 
+description: "Learn more about: _SRB_COMMAND enumeration"
 old-location: stream\srb_command.htm
 tech.root: stream
 ms.date: 04/23/2018

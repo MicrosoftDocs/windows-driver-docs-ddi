@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddser.h header"
 UID: NA:ntddser
 title: Ntddser.h header
 ms.assetid: 1ef9acf8-d5d8-39b0-a68c-2a25e1e7e669

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Oidrequest.h header"
 UID: NA:oidrequest
 title: Oidrequest.h header
 ms.date: 11/30/2020

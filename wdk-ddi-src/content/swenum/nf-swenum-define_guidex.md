@@ -1,7 +1,7 @@
 ---
 UID: NF:swenum.DEFINE_GUIDEX
 title: DEFINE_GUIDEX function (swenum.h)
-description: 
+description: "Learn more about: DEFINE_GUIDEX function"
 ms.date: 11/17/2020
 keywords: ["DEFINE_GUIDEX function"]
 ms.keywords: DEFINE_GUIDEX

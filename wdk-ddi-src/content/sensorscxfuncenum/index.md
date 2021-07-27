@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sensorscxfuncenum.h header"
 UID: NA:sensorscxfuncenum
 title: Sensorscxfuncenum.h header
 ms.assetid: 19d1c21c-e570-36c7-a800-a34b1f3fba03

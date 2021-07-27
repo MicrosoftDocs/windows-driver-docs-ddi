@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_FOUND_ERROR_IN_BANK_EVENT
 title: WHEAP_FOUND_ERROR_IN_BANK_EVENT
-description: 
+description: "Learn more about: WHEAP_FOUND_ERROR_IN_BANK_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_FOUND_ERROR_IN_BANK_EVENT structure"]

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ringcollection.h header"
 UID: NA:ringcollection
 title: Ringcollection.h header
 ms.assetid: DC43C490-9458-4378-8F88-0917FA0C5047

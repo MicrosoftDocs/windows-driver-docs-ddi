@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_CREATE_RESPONSE
 title: _NVME_RESERVED_QUEUES_CREATE_RESPONSE (ntddstor.h)
-description: 
+description: "Learn more about: _NVME_RESERVED_QUEUES_CREATE_RESPONSE structure"
 tech.root: storage
 ms.date: 10/19/2018
 keywords: ["NVME_RESERVED_QUEUES_CREATE_RESPONSE structure"]

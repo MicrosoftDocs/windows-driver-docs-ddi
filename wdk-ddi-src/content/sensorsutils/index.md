@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sensorsutils.h header"
 UID: NA:sensorsutils
 title: Sensorsutils.h header
 ms.assetid: 2f24ce41-8f5a-4071-883f-202c58f4c7dd

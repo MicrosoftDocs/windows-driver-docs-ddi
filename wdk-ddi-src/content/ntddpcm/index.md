@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddpcm.h header"
 UID: NA:ntddpcm
 title: Ntddpcm.h header
 ms.assetid: 4c1a57f9-d840-38ed-bb42-d0f3a4965439

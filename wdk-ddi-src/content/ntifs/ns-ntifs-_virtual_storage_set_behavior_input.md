@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
 title: _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT (ntifs.h)
-description: 
+description: "Learn more about: _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure"
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure"]

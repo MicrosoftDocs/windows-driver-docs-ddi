@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_DEFERRED_EVENT
 title: WHEAP_DEFERRED_EVENT
-description: 
+description: "Learn more about: WHEAP_DEFERRED_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_DEFERRED_EVENT structure"]

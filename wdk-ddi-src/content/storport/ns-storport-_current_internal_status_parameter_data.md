@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (storport.h)
-description: 
+description: "Learn more about: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)"
 tech.root: storage
 ms.date: 10/19/2018
 keywords: ["CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]

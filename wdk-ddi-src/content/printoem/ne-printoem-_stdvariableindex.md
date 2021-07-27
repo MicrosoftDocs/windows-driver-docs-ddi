@@ -1,7 +1,7 @@
 ---
 UID: NE:printoem._STDVARIABLEINDEX
 title: _STDVARIABLEINDEX (printoem.h)
-description: 
+description: "Learn more about: _STDVARIABLEINDEX enumeration"
 old-location: print\stdvariableindex.htm
 tech.root: print
 ms.date: 04/20/2018

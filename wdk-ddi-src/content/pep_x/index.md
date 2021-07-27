@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pep_X.h header"
 UID: NA:pep_x
 title: Pep_X.h header
 ms.assetid: 58bb1f9b-0265-3590-af11-186f988fd807
