@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mdlapi.h header"
 UID: NA:mdlapi
 title: Mdlapi.h header
 ms.date: 11/30/2020

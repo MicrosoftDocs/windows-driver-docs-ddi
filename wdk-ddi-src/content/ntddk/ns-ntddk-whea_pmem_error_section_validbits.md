@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_PMEM_ERROR_SECTION_VALIDBITS
 title: WHEA_PMEM_ERROR_SECTION_VALIDBITS
-description: 
+description: "Learn more about: WHEA_PMEM_ERROR_SECTION_VALIDBITS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_ERROR_SECTION_VALIDBITS structure"]

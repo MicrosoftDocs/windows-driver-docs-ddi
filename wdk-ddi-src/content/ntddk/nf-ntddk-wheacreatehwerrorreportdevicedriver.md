@@ -5,7 +5,7 @@ ms.date: 04/01/2020
 ms.topic: language-reference
 tech.root: whea
 targetos: Windows
-description: 
+description: "Learn more about: WheaCreateHwErrorReportDeviceDriver
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

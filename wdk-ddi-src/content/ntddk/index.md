@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddk.h header"
 UID: NA:ntddk
 title: Ntddk.h header
 ms.assetid: 8dc3fa19-767c-3b6c-bd75-864cd70d19d4

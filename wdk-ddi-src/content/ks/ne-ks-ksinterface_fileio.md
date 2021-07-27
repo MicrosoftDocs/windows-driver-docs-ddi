@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_10
 title: KSINTERFACE_FILEIO (ks.h)
-description: 
+description: "Learn more about: KSINTERFACE_FILEIO enumeration"
 old-location: stream\ksinterface_fileio.htm
 tech.root: stream
 ms.date: 04/23/2018

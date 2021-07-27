@@ -5,7 +5,7 @@ ms.date: 04/02/2020
 ms.topic: language-reference
 tech.root: whea
 targetos: Windows
-description: 
+description: "Learn more about: WheaHwErrorReportAbandonDeviceDriver"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

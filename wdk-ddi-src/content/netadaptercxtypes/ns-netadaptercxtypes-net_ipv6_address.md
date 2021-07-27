@@ -1,7 +1,7 @@
 ---
 UID: NS:netadaptercxtypes._NET_IPV6_ADDRESS
 title: NET_IPV6_ADDRESS (netadaptercxtypes.h)
-description: 
+description: "Learn more about: NET_IPV6_ADDRESS structure"
 tech.root: netvista
 ms.date: 
 keywords: ["NET_IPV6_ADDRESS structure"]

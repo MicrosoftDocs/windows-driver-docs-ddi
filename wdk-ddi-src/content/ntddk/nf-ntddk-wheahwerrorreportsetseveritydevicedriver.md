@@ -5,7 +5,7 @@ ms.date: 04/02/2020
 tech.root: whea
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WheaHwErrorReportSetSeverityDeviceDriver"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

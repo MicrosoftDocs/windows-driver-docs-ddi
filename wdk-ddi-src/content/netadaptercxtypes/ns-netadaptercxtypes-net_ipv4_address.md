@@ -1,7 +1,7 @@
 ---
 UID: NS:netadaptercxtypes._NET_IPV4_ADDRESS
 title: NET_IPV4_ADDRESS (netadaptercxtypes.h)
-description: 
+description: "Learn more about: NET_IPV4_ADDRESS structure"
 tech.root: netvista
 ms.date: 
 keywords: ["NET_IPV4_ADDRESS structure"]

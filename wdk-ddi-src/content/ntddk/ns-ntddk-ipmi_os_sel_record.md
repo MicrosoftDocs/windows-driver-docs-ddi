@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._IPMI_OS_SEL_RECORD
 title: IPMI_OS_SEL_RECORD
-description: 
+description: "Learn more about: IPMI_OS_SEL_RECORD structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD structure"]

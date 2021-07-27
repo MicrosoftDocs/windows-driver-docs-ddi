@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nbllso.h header"
 UID: NA:nbllso
 title: Nbllso.h header
 ms.date: 11/30/2020

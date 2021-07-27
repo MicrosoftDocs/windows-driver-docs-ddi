@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddk.IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
 title: IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
-description: 
+description: "Learn more about: IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"]

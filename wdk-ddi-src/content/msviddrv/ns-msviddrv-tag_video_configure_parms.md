@@ -1,7 +1,7 @@
 ---
 UID: NS:msviddrv.tag_video_configure_parms
 title: tag_video_configure_parms (msviddrv.h)
-description: 
+description: "Learn more about: tag_video_configure_parms structure"
 old-location: stream\videoconfigparms.htm
 tech.root: stream
 ms.date: 04/23/2018

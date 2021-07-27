@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._IPMI_OS_SEL_RECORD_TYPE
 title: IPMI_OS_SEL_RECORD_TYPE
-description: 
+description: "Learn more about: IPMI_OS_SEL_RECORD_TYPE enumeration"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD_TYPE enumeration"]

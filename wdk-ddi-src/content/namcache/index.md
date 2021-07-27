@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Namcache.h header"
 UID: NA:namcache
 title: Namcache.h header
 ms.assetid: c527b3d1-92c4-3901-8854-46f3a1d6612b

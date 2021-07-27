@@ -1,7 +1,7 @@
 ---
 UID: NS:ks.__unnamed_struct_27
 title: KSE_PIN (ks.h)
-description: 
+description: "Learn more about: KSE_PIN structure"
 old-location: stream\kse_pin.htm
 tech.root: stream
 ms.date: 04/23/2018

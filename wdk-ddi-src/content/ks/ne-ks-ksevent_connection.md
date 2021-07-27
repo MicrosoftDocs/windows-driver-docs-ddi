@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_28
 title: KSEVENT_CONNECTION (ks.h)
-description: 
+description: "Learn more about: KSEVENT_CONNECTION enumeration"
 old-location: stream\ksevent_connection.htm
 tech.root: stream
 ms.date: 04/23/2018

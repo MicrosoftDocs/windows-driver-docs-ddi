@@ -1,7 +1,7 @@
 ---
 UID: NS:ksi.__unnamed_struct_0
 title: KSIDEFAULTCLOCK (ksi.h)
-description: 
+description: "Learn more about: KSIDEFAULTCLOCK structure"
 old-location: stream\ksidefaultclock.htm
 tech.root: stream
 ms.date: 04/23/2018

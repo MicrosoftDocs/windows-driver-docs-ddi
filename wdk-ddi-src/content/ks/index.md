@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ks.h header"
 UID: NA:ks
 title: Ks.h header
 ms.assetid: fb465859-7c13-31ab-a4d2-3642a43e1ae8

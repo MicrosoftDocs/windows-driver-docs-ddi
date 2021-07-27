@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Iscsiprf.h header"
 UID: NA:iscsiprf
 title: Iscsiprf.h header
 ms.assetid: d1d036d4-5975-3fa7-8004-2b175d96d46a
