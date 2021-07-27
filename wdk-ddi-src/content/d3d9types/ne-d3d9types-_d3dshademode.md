@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d9types._D3DSHADEMODE
 title: _D3DSHADEMODE (d3d9types.h)
-description: 
+description: "Learn more about: _D3DSHADEMODE enumeration"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["D3DSHADEMODE enumeration"]

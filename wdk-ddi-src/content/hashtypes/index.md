@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Hashtypes.h header"
 UID: NA:hashtypes
 title: Hashtypes.h header
 ms.date: 11/30/2020

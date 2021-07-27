@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Near field communications (NFC)"
 UID: TP:nfpdrivers
 title: Near field communications (NFC)
 ms.assetid: e2a2f925-0a75-3b74-b121-38dab2d236ad

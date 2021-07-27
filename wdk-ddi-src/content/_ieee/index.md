@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IEEE 1394 bus"
 UID: TP:ieee
 title: IEEE 1394 bus
 ms.assetid: 59b7bc84-1989-38ca-a623-40657bb0f3b5

@@ -1,7 +1,7 @@
 ---
 UID: NF:d4drvif.CTL_CODE
 title: CTL_CODE macro (d4drvif.h)
-description: 
+description: "Learn more about: CTL_CODE macro"
 ms.date: 10/19/2018
 tech.root: print
 keywords: ["CTL_CODE macro"]

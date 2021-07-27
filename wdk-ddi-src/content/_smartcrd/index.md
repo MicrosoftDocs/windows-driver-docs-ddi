@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Smartcard device drivers"
 UID: TP:smartcrd
 title: Smartcard device drivers
 ms.assetid: 1f409c41-e10c-39aa-8408-18629cc1c604

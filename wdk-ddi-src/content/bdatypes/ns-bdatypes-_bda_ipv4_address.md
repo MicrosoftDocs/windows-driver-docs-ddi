@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_IPv4_ADDRESS
 title: _BDA_IPv4_ADDRESS (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_IPv4_ADDRESS structure"
 old-location: stream\bda_ipv4_address.htm
 tech.root: stream
 ms.date: 04/23/2018

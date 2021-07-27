@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d9types._D3DCULL
 title: _D3DCULL (d3d9types.h)
-description: 
+description: "Learn more about: _D3DCULL enumeration"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["D3DCULL enumeration"]

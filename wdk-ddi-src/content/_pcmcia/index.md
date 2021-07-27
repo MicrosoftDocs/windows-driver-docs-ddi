@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PCMCIA bus drivers"
 UID: TP:pcmcia
 title: PCMCIA bus drivers
 ms.assetid: be0dbb4f-1fa6-3700-9bd4-462e8bb27384

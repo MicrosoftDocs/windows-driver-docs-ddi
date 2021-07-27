@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_DISEQC_RESPONSE
 title: _BDA_DISEQC_RESPONSE (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_DISEQC_RESPONSE structure"
 old-location: stream\bda_diseqc_response.htm
 tech.root: stream
 ms.date: 04/23/2018

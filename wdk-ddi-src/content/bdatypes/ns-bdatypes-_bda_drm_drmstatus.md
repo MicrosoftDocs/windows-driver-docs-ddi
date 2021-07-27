@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_DRM_DRMSTATUS
 title: _BDA_DRM_DRMSTATUS (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_DRM_DRMSTATUS structure"
 old-location: stream\bda_drm_drmstatus.htm
 tech.root: stream
 ms.date: 04/23/2018

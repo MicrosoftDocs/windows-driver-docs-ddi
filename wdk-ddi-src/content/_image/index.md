@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Imaging devices"
 UID: TP:image
 title: Imaging devices
 ms.assetid: 7b3b278b-3cff-355c-a263-9be80b8afde3

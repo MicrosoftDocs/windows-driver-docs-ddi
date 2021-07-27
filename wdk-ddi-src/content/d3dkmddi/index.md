@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D3Dkmddi.h header"
 UID: NA:d3dkmddi
 title: D3Dkmddi.h header
 ms.assetid: a83eb75d-c795-391b-b806-21315243d434

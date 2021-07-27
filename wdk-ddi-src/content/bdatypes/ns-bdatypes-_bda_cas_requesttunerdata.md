@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_CAS_REQUESTTUNERDATA
 title: _BDA_CAS_REQUESTTUNERDATA (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_CAS_REQUESTTUNERDATA structure"
 old-location: stream\bda_cas_requesttunerdata.htm
 tech.root: stream
 ms.date: 04/23/2018

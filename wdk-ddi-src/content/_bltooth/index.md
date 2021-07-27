@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bluetooth"
 UID: TP:bltooth
 title: Bluetooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c

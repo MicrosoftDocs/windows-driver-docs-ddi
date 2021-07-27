@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_SCAN_CAPABILTIES
 title: _BDA_SCAN_CAPABILTIES (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_SCAN_CAPABILTIES structure"
 old-location: stream\bda_scan_capabilties.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0004
 title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0004 (filterpipeline.h)
-description: 
+description: "Learn more about: __MIDL___MIDL_itf_filterpipeline_0000_0000_0004 enumeration"
 old-location: print\expsfontrestriction.htm
 tech.root: print
 ms.date: 04/20/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dxgiddi.h header"
 UID: NA:dxgiddi
 title: Dxgiddi.h header
 ms.assetid: db8c929b-5086-3e52-afc6-b2b5aab32328

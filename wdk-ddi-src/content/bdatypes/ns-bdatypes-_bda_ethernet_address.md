@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_ETHERNET_ADDRESS
 title: _BDA_ETHERNET_ADDRESS (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_ETHERNET_ADDRESS structure"
 old-location: stream\bda_ethernet_address.htm
 tech.root: stream
 ms.date: 04/23/2018

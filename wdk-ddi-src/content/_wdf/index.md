@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Driver Framework (WDF)"
 UID: TP:wdf
 title: Windows Driver Framework
 ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
