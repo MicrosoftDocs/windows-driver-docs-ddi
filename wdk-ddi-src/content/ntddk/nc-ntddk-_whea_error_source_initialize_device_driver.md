@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
 title: _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
-description: 
+description: "Learn more about: _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function"
 tech.root: whea
 ms.date: 03/05/2019
 keywords: ["WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function"]

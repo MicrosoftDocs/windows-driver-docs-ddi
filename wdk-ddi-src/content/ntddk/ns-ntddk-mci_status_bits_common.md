@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._MCI_STATUS_BITS_COMMON
 title: MCI_STATUS_BITS_COMMON
-description: 
+description: "Learn more about: MCI_STATUS_BITS_COMMON structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS_BITS_COMMON structure"]

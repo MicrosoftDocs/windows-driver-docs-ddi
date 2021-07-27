@@ -4,7 +4,7 @@ tech.root: hid
 title: hidspicx
 ms.date: 06/14/2021
 targetos: Windows
-description: 
+description: "Learn more about: hidspicx"
 prerelease: false
 req.assembly: 
 req.construct-type: apiset

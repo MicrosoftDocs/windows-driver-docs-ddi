@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netadapter.h header"
 UID: NA:netadapter
 title: Netadapter.h header
 ms.assetid: a8daa0fe-db44-3a6f-a53f-7c78c290341e

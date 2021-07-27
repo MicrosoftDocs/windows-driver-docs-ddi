@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddcdvd.h header"
 UID: NA:ntddcdvd
 title: Ntddcdvd.h header
 ms.assetid: c19577b0-fb08-3e9e-81f8-18bcb91be067

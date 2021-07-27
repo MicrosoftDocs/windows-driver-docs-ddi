@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netdevice.h header"
 UID: NA:netdevice
 title: Netdevice.h header
 ms.assetid: 0A0806F2-E20A-474C-8A6D-0FD6A2057C06

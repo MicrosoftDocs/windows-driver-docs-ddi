@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mbbcx.h header"
 UID: NA:mbbcx
 title: Mbbcx.h header
 ms.assetid: F42B8B53-33D1-4437-9414-98EA4E7307A7

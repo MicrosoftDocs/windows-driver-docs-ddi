@@ -1,7 +1,7 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_3
 title: PIPE_STATE (ksproxy.h)
-description: 
+description: "Learn more about: PIPE_STATE enumeration"
 old-location: stream\pipe_state.htm
 tech.root: stream
 ms.date: 04/23/2018

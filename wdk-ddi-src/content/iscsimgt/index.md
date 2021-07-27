@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Iscsimgt.h header"
 UID: NA:iscsimgt
 title: Iscsimgt.h header
 ms.assetid: 0b754abf-ab99-3c3d-989c-a58cb88854c3

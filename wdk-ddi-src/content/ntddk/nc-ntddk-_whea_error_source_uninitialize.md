@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_UNINITIALIZE
 title: _WHEA_ERROR_SOURCE_UNINITIALIZE
-description: 
+description: "Learn more about: _WHEA_ERROR_SOURCE_UNINITIALIZE callback function"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_UNINITIALIZE callback function"]

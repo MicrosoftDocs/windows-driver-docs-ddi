@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netpoweroffloadlist.h header"
 UID: NA:netpoweroffloadlist
 title: Netpoweroffloadlist.h header
 ms.assetid: 105DAC6D-B9E6-4CFA-96D6-42EC35748F59

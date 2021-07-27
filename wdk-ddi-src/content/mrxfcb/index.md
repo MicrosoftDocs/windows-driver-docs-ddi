@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mrxfcb.h header"
 UID: NA:mrxfcb
 title: Mrxfcb.h header
 ms.assetid: aff337c4-31e1-3b89-8ffc-8db1958fbde4

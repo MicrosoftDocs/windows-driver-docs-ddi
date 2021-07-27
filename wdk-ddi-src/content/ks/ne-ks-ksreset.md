@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_0
 title: KSRESET (ks.h)
-description: 
+description: "Learn more about: KSRESET enumeration"
 old-location: stream\ksreset.htm
 tech.root: stream
 ms.date: 04/23/2018

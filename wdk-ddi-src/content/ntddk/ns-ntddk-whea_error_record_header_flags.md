@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER_FLAGS
 title: WHEA_ERROR_RECORD_HEADER_FLAGS
-description: 
+description: "Learn more about: WHEA_ERROR_RECORD_HEADER_FLAGS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_RECORD_HEADER_FLAGS structure"]

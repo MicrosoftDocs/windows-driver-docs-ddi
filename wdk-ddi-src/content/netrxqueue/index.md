@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netrxqueue.h header"
 UID: NA:netrxqueue
 title: Netrxqueue.h header
 ms.assetid: 88d9b4af-6ff1-3534-b451-a126ba223490

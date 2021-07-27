@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Math3dhelper.h header"
 UID: NA:math3dhelper
 title: Math3dhelper.h header
 ms.assetid: 7becfbc9-ce8a-436a-95fa-b67bf84583d3

@@ -1,7 +1,7 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUS_INTERFACE_V3
 title: _HDAUDIO_BUS_INTERFACE_V3
-description: 
+description: "Learn more about: _HDAUDIO_BUS_INTERFACE_V3 structure"
 tech.root: audio
 ms.date: 12/19/2018
 keywords: ["HDAUDIO_BUS_INTERFACE_V3 structure"]

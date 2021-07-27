@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_27
 title: KSEVENT_CLOCK_POSITION (ks.h)
-description: 
+description: "Learn more about: KSEVENT_CLOCK_POSITION enumeration"
 old-location: stream\ksevent_clock_position.htm
 tech.root: stream
 ms.date: 04/23/2018

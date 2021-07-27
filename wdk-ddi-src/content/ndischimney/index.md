@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ndischimney.h header"
 UID: NA:ndischimney
 title: Ndischimney.h header
 ms.assetid: 900f2233-6276-3f86-a288-4789cc50ae6f

@@ -4,7 +4,7 @@ tech.root: hid
 title: HIDSPICX_REPORT
 ms.date: 06/14/2021
 targetos: Windows
-description: 
+description: "Learn more about: HIDSPICX_REPORT"
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

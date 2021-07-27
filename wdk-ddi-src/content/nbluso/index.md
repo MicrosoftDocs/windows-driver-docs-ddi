@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nbluso.h header"
 UID: NA:nbluso
 title: Nbluso.h header
 ms.date: 11/30/2020

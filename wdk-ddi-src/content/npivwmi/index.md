@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Npivwmi.h header"
 UID: NA:npivwmi
 title: Npivwmi.h header
 ms.assetid: 3f3ebad4-5170-3ce6-892b-d0f6ff7cae65
