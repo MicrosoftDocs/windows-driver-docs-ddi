@@ -87,7 +87,7 @@ Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authori
 
 When the RSNA PSK algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the RSN IE.
 
-### WDI_AUTH_ALGO_WPA3_ENT_192
+### -field WDI_AUTH_ALGO_WPA3_ENT_192
 
 Specifies a Wi-Fi Protected Access 3 (WPA3) 192-bit enterprise algorithm.
 
