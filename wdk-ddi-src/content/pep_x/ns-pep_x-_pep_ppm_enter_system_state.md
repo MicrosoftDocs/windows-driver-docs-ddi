@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PPM_ENTER_SYSTEM_STATE
 title: _PEP_PPM_ENTER_SYSTEM_STATE (pep_x.h)
-description: Used in the PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE notification to notify PEP that the system is about to enter a system power state.  .
+description: Learn how this method is used in the PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE notification to notify PEP that the system is about to enter a system power state.  .
 old-location: kernel\pep_ppm_enter_system_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

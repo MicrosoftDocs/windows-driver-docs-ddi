@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PPM_TEST_IDLE_STATE
 title: _PEP_PPM_TEST_IDLE_STATE (pep_x.h)
-description: The PEP_PPM_TEST_IDLE_STATE structure contains information about whether the processor can immediately enter a processor idle state.
+description: Learn how the PEP_PPM_TEST_IDLE_STATE structure contains information about whether the processor can immediately enter a processor idle state.
 old-location: kernel\pep_ppm_test_idle_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

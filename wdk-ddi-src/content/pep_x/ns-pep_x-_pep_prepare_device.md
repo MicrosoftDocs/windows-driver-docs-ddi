@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PREPARE_DEVICE
 title: _PEP_PREPARE_DEVICE (pep_x.h)
-description: The PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system.
+description: Learn how the PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system.
 old-location: kernel\pep_prepare_device.htm
 tech.root: kernel
 ms.date: 04/30/2018

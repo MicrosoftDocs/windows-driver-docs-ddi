@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
 title: _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES (pep_x.h)
-description: The PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure is used in the process of converting ACPI resources to BIOS resources by one of the PEP initialization functions.
+description: Learn how the PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure is used in the process of converting ACPI resources to BIOS resources by one of the PEP initialization functions.
 old-location: kernel\pep_acpi_request_convert_to_bios_resources.htm
 tech.root: kernel
 ms.date: 04/30/2018

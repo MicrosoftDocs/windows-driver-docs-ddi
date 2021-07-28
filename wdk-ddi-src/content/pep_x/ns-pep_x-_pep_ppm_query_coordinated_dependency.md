@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_COORDINATED_DEPENDENCY
 title: _PEP_PPM_QUERY_COORDINATED_DEPENDENCY (pep_x.h)
-description: The PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure describes dependencies for coordinated idle states.
+description: Learn how the PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure describes dependencies for coordinated idle states.
 old-location: kernel\pep_ppm_query_coordinated_dependency.htm
 tech.root: kernel
 ms.date: 04/30/2018

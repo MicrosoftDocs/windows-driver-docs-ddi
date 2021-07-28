@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_COORDINATED_DEPENDENCY_OPTION
 title: _PEP_COORDINATED_DEPENDENCY_OPTION (pep_x.h)
-description: The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle state's dependency to the OS.
+description: Learn how the PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle state's dependency to the OS.
 old-location: kernel\pep_coordinated_dependency_option.htm
 tech.root: kernel
 ms.date: 04/30/2018
