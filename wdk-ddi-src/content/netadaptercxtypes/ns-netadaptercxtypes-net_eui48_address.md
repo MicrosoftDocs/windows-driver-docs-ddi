@@ -4,7 +4,7 @@ tech.root: netvista
 title: NET_EUI48_ADDRESS
 ms.date: 04/15/2021
 targetos: Windows
-description: "Learn more about: NET_EUI48_ADDRESS"
+description: The NET_EUI48_ADDRESS union specifies an EUI-48 address.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -40,9 +40,13 @@ dev_langs:
 
 ## -description
 
+The **NET_EUI48_ADDRESS** union specifies an EUI-48 address.
+
 ## -struct-fields
 
 ### -field Value
+
+The EUI-48 address.
 
 ## -remarks
 
