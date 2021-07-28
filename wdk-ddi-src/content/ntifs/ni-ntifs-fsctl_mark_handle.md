@@ -42,7 +42,7 @@ The **FSCTL_MARK_HANDLE** control code marks a specified file or directory and i
 
 ## -remarks
 
-To perform this operation, call [**FltFsControlFile**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
+To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -57,6 +57,6 @@ To perform this operation, call [**FltFsControlFile**](/windows-hardware/drivers
 
 ## -see-also
 
-[**FltFsControlFile**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile)
+[**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
 [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85))

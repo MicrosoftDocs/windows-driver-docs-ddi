@@ -47,6 +47,6 @@ Represents the context for the desktop printer extension activation.
 
 ## -see-also
 
-[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
 [V4 Printer Driver Property Bags](/windows-hardware/drivers/print/v4-driver-property-bags)

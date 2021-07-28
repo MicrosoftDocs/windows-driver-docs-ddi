@@ -43,12 +43,12 @@ api_name:
 
 ## -description
 
-The **IPrintSchemaCapabilities2** interface represents an extension to the [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object, which provides wrapper methods over a print capabilities document.
+The **IPrintSchemaCapabilities2** interface represents an extension to the [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md) object, which provides wrapper methods over a print capabilities document.
 
 ## -inheritance
 
-The **IPrintSchemaCapabilities2** interface inherits from [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities).
+The **IPrintSchemaCapabilities2** interface inherits from [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md).
 
 ## -see-also
 
-[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)

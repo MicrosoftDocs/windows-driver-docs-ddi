@@ -61,4 +61,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IPrinterScriptablePropertyBag2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag2)
+[IPrinterScriptablePropertyBag2](./nn-printerextension-iprinterscriptablepropertybag2.md)

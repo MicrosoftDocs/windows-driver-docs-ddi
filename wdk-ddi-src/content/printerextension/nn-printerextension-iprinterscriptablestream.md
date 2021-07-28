@@ -43,18 +43,18 @@ api_name:
 
 ## -description
 
-The **IPrinterScriptableStream** interface builds on [IPrinterScriptableSequentialStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream) and adds IStream-like semantics.
+The **IPrinterScriptableStream** interface builds on [IPrinterScriptableSequentialStream](./nn-printerextension-iprinterscriptablesequentialstream.md) and adds IStream-like semantics.
 
 ## -inheritance
 
-The **IPrinterScriptableStream** interface inherits from [IPrinterScriptableSequentialStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream).
+The **IPrinterScriptableStream** interface inherits from [IPrinterScriptableSequentialStream](./nn-printerextension-iprinterscriptablesequentialstream.md).
 
 ## -see-also
 
-[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
+[IPrinterScriptablePropertyBag](./nn-printerextension-iprinterscriptablepropertybag.md)
 
-[IPrinterScriptablePropertyBag::GetReadStream](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getreadstream)
+[IPrinterScriptablePropertyBag::GetReadStream](./nf-printerextension-iprinterscriptablepropertybag-getreadstream.md)
 
-[IPrinterScriptablePropertyBag::GetWriteStream](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getwritestream)
+[IPrinterScriptablePropertyBag::GetWriteStream](./nf-printerextension-iprinterscriptablepropertybag-getwritestream.md)
 
-[IPrinterScriptableSequentialStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream)
+[IPrinterScriptableSequentialStream](./nn-printerextension-iprinterscriptablesequentialstream.md)
