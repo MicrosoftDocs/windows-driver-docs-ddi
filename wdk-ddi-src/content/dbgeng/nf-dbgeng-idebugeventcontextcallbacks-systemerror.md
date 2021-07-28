@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.SystemError
 tech.root: debugger
 title: IDebugEventContextCallbacks::SystemError
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The SystemError callback method is called by the engine when a system error occurs in the target. This method belongs to IDebugEventContextCallbacks.
 req.assembly: 

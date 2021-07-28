@@ -3,7 +3,6 @@ UID: NF:storport.StorPortSetSystemGroupAffinityThread
 tech.root: storage
 title: StorPortSetSystemGroupAffinityThread
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortSetSystemGroupAffinityThread changes the group number and affinity mask of the calling thread.
 req.assembly: 

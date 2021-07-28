@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEA_PSHED_PLUGIN_DIMM_MISMATCH
 title: WHEA_PSHED_PLUGIN_DIMM_MISMATCH
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WHEA_PSHED_PLUGIN_DIMM_MISMATCH"
 req.construct-type: structure

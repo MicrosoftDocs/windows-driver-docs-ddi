@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEA_AZCC_SET_POISON_EVENT
 title: WHEA_AZCC_SET_POISON_EVENT
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WHEA_AZCC_SET_POISON_EVENT"
 req.construct-type: structure

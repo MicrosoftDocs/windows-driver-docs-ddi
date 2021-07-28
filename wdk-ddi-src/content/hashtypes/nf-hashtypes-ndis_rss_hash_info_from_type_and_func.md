@@ -2,7 +2,6 @@
 UID: NF:hashtypes.NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 title: NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC macro combines a hash type and hash function into hash information and sets the HashInformation member in the NDIS_RECEIVE_SCALE_PARAMETERS structure.
 tech.root: netvista

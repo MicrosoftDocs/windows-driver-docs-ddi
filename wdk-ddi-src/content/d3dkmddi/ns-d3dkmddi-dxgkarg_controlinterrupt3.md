@@ -2,7 +2,6 @@
 UID: NS:d3dkmddi._DXGKARG_CONTROLINTERRUPT3
 title: DXGKARG_CONTROLINTERRUPT3
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: The DXGKARG_CONTROLINTERRUPT3 structure is used in DxgkDdi_ControlInterrupt3 calls to describe the state of interrupts.

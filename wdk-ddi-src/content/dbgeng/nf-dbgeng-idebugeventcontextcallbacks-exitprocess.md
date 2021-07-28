@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.ExitProcess
 tech.root: debugger
 title: IDebugEventContextCallbacks::ExitProcess
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The IDebugEventContextCallbacks::ExitProcess callback method is called by the engine when an exit-process debugging event occurs in the target.
 req.assembly: 

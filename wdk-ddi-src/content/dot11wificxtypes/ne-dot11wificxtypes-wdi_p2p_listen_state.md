@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_P2P_LISTEN_STATE
 tech.root: netvista
 title: WDI_P2P_LISTEN_STATE
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_P2P_LISTEN_STATE enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration

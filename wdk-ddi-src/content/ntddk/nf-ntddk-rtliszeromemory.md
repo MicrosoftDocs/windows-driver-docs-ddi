@@ -4,7 +4,6 @@ title: RtlIsZeroMemory function
 description: This routine checks if a block of unaligned memory is all zero.
 tech.root: kernel
 ms.date: 06/13/2021
-ms.topic: function
 ms.keywords: RtlIsZeroMemory
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.ChangeDebuggeeState
 tech.root: debugger
 title: IDebugEventContextCallbacks::ChangeDebuggeeState
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: Debuggee state, such as registers or data spaces, has changed.
 req.assembly: 

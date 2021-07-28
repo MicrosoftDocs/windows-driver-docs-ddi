@@ -4,7 +4,6 @@ title: MmMapMemoryDumpMdlEx function
 description: The MmMapMemoryDumpMdlEx function maps an MDL into a specified virtual address.  
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: function
 ms.keywords: MmMapMemoryDumpMdlEx
 req.header: wdm.h
 req.include-header: 

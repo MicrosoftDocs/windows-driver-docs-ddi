@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_LIST_NEXT_NBL
 title: NET_BUFFER_LIST_NEXT_NBL
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_LIST_NEXT_NBL is a macro that NDIS drivers use to get the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_LIST structures.
 tech.root: netvista

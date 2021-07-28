@@ -4,7 +4,6 @@ title: StorPortInitializeEvent function
 description: StorPortInitializeEvent initializes an event object as a synchronization or notification type event, and sets it to a signaled or not-signaled state.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: StorPortInitializeEvent
 req.header: storport.h
 req.include-header: 

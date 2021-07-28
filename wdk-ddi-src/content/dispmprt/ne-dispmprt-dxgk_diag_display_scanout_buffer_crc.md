@@ -2,7 +2,6 @@
 UID: NE:dispmprt._DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
 title: DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC enum provides CRC information for the current buffer being scanned out during diagnostic data collection.
 tech.root: display

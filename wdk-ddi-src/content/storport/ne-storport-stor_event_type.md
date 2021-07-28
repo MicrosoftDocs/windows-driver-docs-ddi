@@ -4,7 +4,6 @@ title: STOR_EVENT_TYPE
 description: The STOR_EVENT_TYPE enum identifies the type of event object initialized by a miniport.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: enum
 ms.keywords: STOR_EVENT_TYPE, STOR_EVENT_TYPE, *PSTOR_EVENT_TYPE,
 req.header: storport.h
 req.include-header: 

@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_DRX_PARAMS
 tech.root: netvista
 title: WWAN_DRX_PARAMS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The **WWAN_DRX_PARAMS** enumeration lists Discontinuous Reception (DRX) settings.
 req.construct-type: enumeration

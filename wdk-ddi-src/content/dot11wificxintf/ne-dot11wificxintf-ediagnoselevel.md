@@ -3,7 +3,6 @@ UID: NE:dot11wificxintf.__unnamed_enum_0
 tech.root: netvista
 title: eDiagnoseLevel
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the eDiagnoseLevel enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration

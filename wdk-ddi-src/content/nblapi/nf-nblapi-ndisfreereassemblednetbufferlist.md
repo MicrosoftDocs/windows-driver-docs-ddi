@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisFreeReassembledNetBufferList
 title: NdisFreeReassembledNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisFreeReassembledNetBufferList function to free a reassembled NET_BUFFER_LIST structure and the associated NET_BUFFER structure and MDL chain.
 tech.root: netvista

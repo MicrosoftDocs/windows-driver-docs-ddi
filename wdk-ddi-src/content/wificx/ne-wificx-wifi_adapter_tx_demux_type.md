@@ -3,7 +3,6 @@ UID: NE:wificx._WIFI_ADAPTER_TX_DEMUX_TYPE
 tech.root: netvista
 title: WIFI_ADAPTER_TX_DEMUX_TYPE
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WIFI_ADAPTER_TX_DEMUX_TYPE enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration

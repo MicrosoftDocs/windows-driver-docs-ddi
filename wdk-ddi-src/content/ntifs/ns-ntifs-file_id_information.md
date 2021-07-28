@@ -3,7 +3,6 @@ UID: NS:ntifs._FILE_ID_INFORMATION
 title: FILE_ID_INFORMATION
 ms.date: 11/20/2020
 tech.root: ifsk
-ms.topic: language-reference
 targetos: Windows
 description: FILE_ID_INFORMATION is used to query file identification information.
 req.construct-type: structure

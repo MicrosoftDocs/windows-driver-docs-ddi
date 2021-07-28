@@ -3,7 +3,6 @@ UID: NF:wdm.ExAllocatePool2
 title: ExAllocatePool2
 tech.root: kernel
 ms.date: 05/12/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: ExAllocatePool2"
 req.assembly: 

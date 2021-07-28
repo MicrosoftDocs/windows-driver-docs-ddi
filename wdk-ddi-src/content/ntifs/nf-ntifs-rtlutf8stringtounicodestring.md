@@ -6,7 +6,6 @@ old-location:
 tech.root: ifsk
 ms.date: 03/24/2020
 ms.keywords: RtlUTF8StringToUnicodeString, RtlUTF8StringToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.RtlUTF8StringToUnicodeString
-ms.topic: function
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal

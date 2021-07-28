@@ -3,7 +3,6 @@ UID: NC:netadapter.EVT_NET_ADAPTER_SET_RECEIVE_FILTER
 tech.root: netvista
 title: EVT_NET_ADAPTER_SET_RECEIVE_FILTER
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The client driver implements EvtNetAdapterSetReceiveFilter to set changes in a network adapter's active receive filtering capabilities.
 req.assembly: 

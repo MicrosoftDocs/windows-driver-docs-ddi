@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
 title: DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DIAG_DISPLAY_SAMPLED_GAMMA structure provides gamma samples during diagnostic data collection.
 tech.root: display

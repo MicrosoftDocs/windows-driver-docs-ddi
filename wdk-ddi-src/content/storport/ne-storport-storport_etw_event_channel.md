@@ -3,7 +3,6 @@ UID: NE:storport._STORPORT_ETW_EVENT_CHANNEL
 tech.root: storage
 title: STORPORT_ETW_EVENT_CHANNEL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STORPORT_ETW_EVENT_CHANNEL identifies the event channels of Storport to which miniport can log an event.
 req.construct-type: enumeration

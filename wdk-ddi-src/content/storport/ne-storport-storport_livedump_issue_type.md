@@ -3,7 +3,6 @@ UID: NE:storport._STORPORT_LIVEDUMP_ISSUE_TYPE
 tech.root: storage
 title: STORPORT_LIVEDUMP_ISSUE_TYPE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STORPORT_LIVEDUMP_ISSUE_TYPE identifies the issue that triggered the live dump capture.
 req.construct-type: enumeration

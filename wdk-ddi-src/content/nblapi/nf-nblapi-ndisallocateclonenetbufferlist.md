@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAllocateCloneNetBufferList
 title: NdisAllocateCloneNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisAllocateCloneNetBufferList function to create a new clone NET_BUFFER_LIST structure.
 tech.root: netvista

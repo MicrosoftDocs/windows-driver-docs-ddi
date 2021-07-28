@@ -3,7 +3,6 @@ UID: NF:netadapter.NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT
 tech.root: netvista
 title: NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT function initializes a NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES structure. 
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.SessionStatus
 tech.root: debugger
 title: IDebugEventContextCallbacks::SessionStatus
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: Session status is synchronous like the other wait callbacks but it is called as the state of the session is changing rather than at specific events so its return value does not influence waiting.
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NC:wificxpoweroffload.PFN_WIFIPOWEROFFLOADGET80211RSNREKEYPARAMETERS
 tech.root: netvista
 title: PFN_WIFIPOWEROFFLOADGET80211RSNREKEYPARAMETERS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the PFN_WIFIPOWEROFFLOADGET80211RSNREKEYPARAMETERS callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

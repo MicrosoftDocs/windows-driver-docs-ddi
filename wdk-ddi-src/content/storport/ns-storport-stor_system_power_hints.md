@@ -3,7 +3,6 @@ UID: NS:storport._STOR_SYSTEM_POWER_HINTS
 tech.root: storage
 title: STOR_SYSTEM_POWER_HINTS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_SYSTEM_POWER_HINTS is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterSystemPowerHints.
 req.construct-type: structure

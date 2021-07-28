@@ -3,7 +3,6 @@ UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT
 tech.root: netvista
 title: NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT initializes a NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES struct when reporting that a EAPOL packet caused a wake-up event.
 req.assembly: 

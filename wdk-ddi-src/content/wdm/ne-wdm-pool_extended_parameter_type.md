@@ -3,7 +3,6 @@ UID: NE:wdm.POOL_EXTENDED_PARAMETER_TYPE
 title: POOL_EXTENDED_PARAMETER_TYPE
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: POOL_EXTENDED_PARAMETER_TYPE"
 req.construct-type: enumeration

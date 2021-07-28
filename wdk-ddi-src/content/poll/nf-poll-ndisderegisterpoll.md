@@ -3,7 +3,6 @@ UID: NF:poll.NdisDeregisterPoll
 tech.root: netvista
 title: NdisDeregisterPoll
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: A miniport driver calls NdisDeregisterPoll to deregister a Poll object.
 req.assembly: 

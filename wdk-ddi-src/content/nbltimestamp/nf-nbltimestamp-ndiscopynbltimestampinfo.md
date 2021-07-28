@@ -2,7 +2,6 @@
 UID: NF:nbltimestamp.NdisCopyNblTimestampInfo
 title: NdisCopyNblTimestampInfo
 ms.date: 01/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: Call NdisCopyNblTimestampInfo to copy a software or hardware timestamp from a source NET_BUFFER_LIST to a destination NET_BUFFER_LIST.
 req.assembly: 

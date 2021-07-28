@@ -4,7 +4,6 @@ title: StorPortSetFeatureList function
 description: StorPortSetFeatureList sets the Storport features that a miniport supports.
 tech.root: storage
 ms.date: 05/13/2021
-ms.topic: function
 ms.keywords: StorPortSetFeatureList
 req.header: storport.h
 req.include-header: 

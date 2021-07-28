@@ -4,7 +4,6 @@ title: RtlFreeUTF8String function
 description: The RtlFreeUTF8String function releases storage that was allocated by RtlUnicodeStringToUTF8String.
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlFreeUTF8String
 req.header: wdm.h
 req.include-header: 

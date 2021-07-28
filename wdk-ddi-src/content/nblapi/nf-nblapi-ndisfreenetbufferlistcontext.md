@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisFreeNetBufferListContext
 title: NdisFreeNetBufferListContext
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisFreeNetBufferListContext function to release context space in the NET_BUFFER_LIST_CONTEXT structure of a NET_BUFFER_LIST structure.
 tech.root: netvista

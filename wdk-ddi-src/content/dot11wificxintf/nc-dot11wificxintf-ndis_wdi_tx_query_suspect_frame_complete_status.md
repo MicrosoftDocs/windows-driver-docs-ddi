@@ -3,7 +3,6 @@ UID: NC:dot11wificxintf.NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
 tech.root: netvista
 title: NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

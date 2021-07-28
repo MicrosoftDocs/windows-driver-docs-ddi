@@ -3,7 +3,6 @@ UID: NE:d3dkmddi._DXGK_PHYSICAL_MEMORY_TYPE
 tech.root: display
 title: DXGK_PHYSICAL_MEMORY_TYPE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DXGK_PHYSICAL_MEMORY_TYPE indicates the type of physical memory being created by the driver.
 req.construct-type: enumeration

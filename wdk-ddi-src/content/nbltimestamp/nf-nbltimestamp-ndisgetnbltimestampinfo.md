@@ -2,7 +2,6 @@
 UID: NF:nbltimestamp.NdisGetNblTimestampInfo
 title: NdisGetNblTimestampInfo
 ms.date: 01/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: NdisGetNblTimestampInfo retrieves a hardware or software timestamp stored in a NET_BUFFER_LIST.
 tech.root: netvista

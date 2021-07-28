@@ -3,7 +3,6 @@ UID: NF:poll.NdisRequestPoll
 tech.root: netvista
 title: NdisRequestPoll
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Miniport drivers call NdisRequestPoll to ask NDIS to execute the NdisPoll callback for this Poll object.
 req.assembly: 

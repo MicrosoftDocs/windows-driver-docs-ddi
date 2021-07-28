@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NdisTestNblFlag
 title: NdisTestNblFlag
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisTestNblFlag macro retrieves the current setting of a flag in a NET_BUFFER_LIST structure.
 tech.root: netvista

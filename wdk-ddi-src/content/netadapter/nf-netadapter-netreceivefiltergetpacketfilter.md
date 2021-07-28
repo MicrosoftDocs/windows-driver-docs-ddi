@@ -3,7 +3,6 @@ UID: NF:netadapter.NetReceiveFilterGetPacketFilter
 tech.root: netvista
 title: NetReceiveFilterGetPacketFilter
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetReceiveFilterGetPacketFilter retrieves the NET_PACKET_FILTER_FLAGS which describe the packet filters the network adapter supports.
 req.assembly: 

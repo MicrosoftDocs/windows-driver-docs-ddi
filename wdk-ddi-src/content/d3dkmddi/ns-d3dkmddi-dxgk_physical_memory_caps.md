@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_PHYSICAL_MEMORY_CAPS
 tech.root: display
 title: DXGK_PHYSICAL_MEMORY_CAPS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_PHYSICAL_MEMORY_CAPS structure provides information about the driver's physical memory restrictions.
 req.construct-type: structure

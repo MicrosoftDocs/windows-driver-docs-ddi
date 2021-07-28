@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES_INIT
 tech.root: netvista
 title: NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES_INIT
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES_INIT initializes a NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES structure.
 req.assembly: 

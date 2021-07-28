@@ -1,7 +1,6 @@
 ---
 UID: NS:netdevice._NET_DEVICE_RESET_CAPABILITIES
 title: NET_DEVICE_RESET_CAPABILITIES
-ms.topic: language-reference
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows

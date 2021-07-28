@@ -3,7 +3,6 @@ UID: NC:dot11wificxintf.NDIS_WDI_TX_INJECT_FRAME_IND
 tech.root: netvista
 title: NDIS_WDI_TX_INJECT_FRAME_IND
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the NDIS_WDI_TX_INJECT_FRAME_IND callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

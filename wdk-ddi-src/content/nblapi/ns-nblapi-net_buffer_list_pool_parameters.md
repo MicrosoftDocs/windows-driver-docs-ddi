@@ -2,7 +2,6 @@
 UID: NS:nblapi._NET_BUFFER_LIST_POOL_PARAMETERS
 title: NET_BUFFER_LIST_POOL_PARAMETERS
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST_POOL_PARAMETERS structure defines the parameters for a pool of NET_BUFFER_LIST structures.
 tech.root: netvista

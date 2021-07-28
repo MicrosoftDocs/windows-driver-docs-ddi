@@ -2,7 +2,6 @@
 UID: NS:nblrsc._NDIS_RSC_NBL_INFO
 title: NDIS_RSC_NBL_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_RSC_NBL_INFO union specifies receive segment coalescing (RSC) counter information that is associated with a NET_BUFFER_LIST structure.
 tech.root: netvista 

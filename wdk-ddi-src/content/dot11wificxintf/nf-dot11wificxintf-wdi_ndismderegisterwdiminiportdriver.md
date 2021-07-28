@@ -3,7 +3,6 @@ UID: NF:dot11wificxintf.Wdi_NdisMDeregisterWdiMiniportDriver
 tech.root: netvista
 title: Wdi_NdisMDeregisterWdiMiniportDriver
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the Wdi_NdisMDeregisterWdiMiniportDriver function for internal use only. Don't use this function in your code."
 req.assembly: 

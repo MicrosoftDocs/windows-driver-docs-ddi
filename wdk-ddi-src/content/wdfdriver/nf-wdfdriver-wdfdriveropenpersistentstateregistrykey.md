@@ -3,7 +3,6 @@ UID: NF:wdfdriver.WdfDriverOpenPersistentStateRegistryKey
 title: WdfDriverOpenPersistentStateRegistryKey
 tech.root: wdf
 ms.date: 07/06/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WdfDriverOpenPersistentStateRegistryKey"
 req.assembly: 

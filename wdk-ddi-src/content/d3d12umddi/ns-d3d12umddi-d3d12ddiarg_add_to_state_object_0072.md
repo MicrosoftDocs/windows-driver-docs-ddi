@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 title: D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Structure used to add subobject(s) to a state object.

@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_MICO_MODE
 tech.root: netvista
 title: WWAN_MICO_MODE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_MICO_MODE enumeration lists Mobile Initiated Connection modes.
 req.construct-type: enumeration

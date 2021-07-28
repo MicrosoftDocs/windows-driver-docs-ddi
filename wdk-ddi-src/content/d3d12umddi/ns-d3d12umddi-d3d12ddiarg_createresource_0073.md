@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDIARG_CREATERESOURCE_0073
 title: D3D12DDIARG_CREATERESOURCE_0073
 ms.date: 03/24/2020
-ms.topic: language-reference
 tech.root: display
 targetos: Windows
 description: The D3D12DDIARG_CREATERESOURCE_0073 structure contains information used to create or calculate the size of a resource.

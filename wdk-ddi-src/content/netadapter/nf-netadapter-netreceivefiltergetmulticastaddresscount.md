@@ -3,7 +3,6 @@ UID: NF:netadapter.NetReceiveFilterGetMulticastAddressCount
 tech.root: netvista
 title: NetReceiveFilterGetMulticastAddressCount
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetReceiveFilterGetMulticastAddressCount retrieves the number of addresses in the multicast address list. 
 req.assembly: 

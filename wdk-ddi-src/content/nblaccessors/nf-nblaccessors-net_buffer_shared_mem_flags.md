@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_SHARED_MEM_FLAGS
 title: NET_BUFFER_SHARED_MEM_FLAGS
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_SHARED_MEM_FLAGS macro gets the shared memory flags from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista

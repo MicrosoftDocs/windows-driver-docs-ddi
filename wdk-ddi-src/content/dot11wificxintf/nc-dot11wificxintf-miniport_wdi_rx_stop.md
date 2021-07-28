@@ -3,7 +3,6 @@ UID: NC:dot11wificxintf.MINIPORT_WDI_RX_STOP
 tech.root: netvista
 title: MINIPORT_WDI_RX_STOP
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the MINIPORT_WDI_RX_STOP callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

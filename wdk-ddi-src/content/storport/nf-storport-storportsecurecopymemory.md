@@ -3,7 +3,6 @@ UID: NF:storport.StorPortSecureCopyMemory
 tech.root: storage
 title: StorPortSecureCopyMemory
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortSecureCopyMemory securely copies bytes between buffers.
 req.assembly: 

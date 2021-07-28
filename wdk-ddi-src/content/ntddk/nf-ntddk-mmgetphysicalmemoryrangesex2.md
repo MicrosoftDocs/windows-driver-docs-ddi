@@ -5,7 +5,6 @@ description: The MmGetPhysicalMemoryRangesEx2 routine returns the virtual addres
 tech.root: kernel
 ms.date: 03/01/2020
 ms.keywords: MmGetPhysicalMemoryRangesEx2
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

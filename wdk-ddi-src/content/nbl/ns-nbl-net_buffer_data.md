@@ -2,7 +2,6 @@
 UID: NS:nbl._NET_BUFFER_DATA
 title: NET_BUFFER_DATA
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to a NET_BUFFER structure, and it identifies the next NET_BUFFER structure in a list of NET_BUFFER structures.
 tech.root: netvista

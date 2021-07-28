@@ -4,7 +4,6 @@ title: IoAcquireKsrPersistentMemory function
 description: "Microsoft reserves the IoAcquireKsrPersistentMemory function for internal use only. Don't use this function in your code."
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: IoAcquireKsrPersistentMemory
 req.header: wdm.h
 req.include-header: 

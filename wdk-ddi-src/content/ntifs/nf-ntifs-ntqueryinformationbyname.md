@@ -4,7 +4,6 @@ title: NtQueryInformationByName function (ntifs.h)
 description: NtQueryInformationByName returns the requested information about a file specified by file name.
 tech.root: ifsk
 ms.date: 06/21/2021
-ms.topic: function
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
 req.include-header: 

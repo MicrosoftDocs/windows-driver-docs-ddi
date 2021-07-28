@@ -3,7 +3,6 @@ UID: NF:ntddk.WheaAddErrorSourceDeviceDriverV1
 title: WheaAddErrorSourceDeviceDriverV1
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WheaAddErrorSourceDeviceDriverV1"
 req.assembly: 

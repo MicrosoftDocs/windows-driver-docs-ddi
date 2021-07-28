@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_ALLOCATE_ADL
 tech.root: display
 title: DXGKARGCB_ALLOCATE_ADL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DXGKARGCB_ALLOCATE_ADL contains the information used by the DxgkCbAllocateAdl callback function to create an address descriptor list (ADL).
 req.construct-type: structure

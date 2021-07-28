@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceReceiveIndication
 tech.root: netvista
 title: WifiDeviceReceiveIndication
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WifiDeviceReceiveIndication function for internal use only. Don't use this function in your code."
 req.assembly: 

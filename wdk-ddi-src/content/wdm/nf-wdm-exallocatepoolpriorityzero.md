@@ -3,7 +3,6 @@ UID: NF:wdm.ExAllocatePoolPriorityZero
 title: ExAllocatePoolPriorityZero
 tech.root: kernel
 ms.date: 12/17/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: ExAllocatePoolPriorityZero"
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterGetType
 tech.root: netvista
 title: WifiAdapterGetType
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WifiAdapterGetType function for internal use only. Don't use this function in your code."
 req.assembly: 

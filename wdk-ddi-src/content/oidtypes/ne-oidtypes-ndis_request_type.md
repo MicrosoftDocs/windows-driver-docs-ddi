@@ -2,7 +2,6 @@
 UID: NE:oidtypes._NDIS_REQUEST_TYPE
 title: NDIS_REQUEST_TYPE
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_REQUEST_TYPE enumeration identifies the request type in an OID request.
 tech.root: netvista 

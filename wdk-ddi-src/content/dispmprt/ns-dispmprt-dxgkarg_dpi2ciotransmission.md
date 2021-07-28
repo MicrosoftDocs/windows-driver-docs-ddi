@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGKARG_DPI2CIOTRANSMISSION
 title: DXGKARG_DPI2CIOTRANSMISSION
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARG_DPI2CIOTRANSMISSION structure is a parameter for the DXGKDDI_DPI2CIOTRANSMISSION callback.
 tech.root: display

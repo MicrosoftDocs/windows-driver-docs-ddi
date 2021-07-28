@@ -2,7 +2,6 @@
 UID: NF:nblhash.NET_BUFFER_LIST_GET_HASH_VALUE
 title: NET_BUFFER_LIST_GET_HASH_VALUE
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST_GET_HASH_VALUE macro gets the hash value information from a NET_BUFFER_LIST structure.
 tech.root: netvista

@@ -2,7 +2,6 @@
 UID: NS:ntddndis._NDIS_QOS_OFFLOAD_CAPABILITIES
 title: NDIS_QOS_OFFLOAD_CAPABILITIES
 ms.date: 10/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_QOS_OFFLOAD_CAPABILITIES structure specifies the hardware and current Hardware Quality of Service (QoS) capabilities of a miniport adapter.
 req.construct-type: structure

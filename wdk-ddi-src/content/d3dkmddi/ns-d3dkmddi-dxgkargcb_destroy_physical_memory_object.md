@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbDestroyPhysicalMemoryObject callback function to destroy physical memory.
 req.construct-type: structure

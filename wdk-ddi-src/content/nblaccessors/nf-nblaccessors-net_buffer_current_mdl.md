@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_CURRENT_MDL
 title: NET_BUFFER_CURRENT_MDL
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_CURRENT_MDL is a macro that NDIS drivers use to get the CurrentMdl member of a NET_BUFFER_DATA structure in a NET_BUFFER structure.
 tech.root: netvista 

@@ -3,7 +3,6 @@ UID: NF:netadapter.NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT
 tech.root: netvista
 title: NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT initializes a NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES structure. 
 req.assembly: 

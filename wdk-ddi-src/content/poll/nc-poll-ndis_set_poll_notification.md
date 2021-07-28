@@ -3,7 +3,6 @@ UID: NC:poll.NDIS_SET_POLL_NOTIFICATION
 tech.root: netvista
 title: NDIS_SET_POLL_NOTIFICATION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Miniport drivers implement the NdisSetPollNotification callback function to enable/disable the interrupt associated with a Poll object.
 req.assembly: 

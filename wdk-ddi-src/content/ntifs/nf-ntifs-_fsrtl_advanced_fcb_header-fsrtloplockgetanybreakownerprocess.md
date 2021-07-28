@@ -4,7 +4,6 @@ title: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess
 description: FsRtlOplockGetAnyBreakOwnerProcess gets an owner of an allegedly breaking oplock.
 tech.root: ifsk
 ms.date: 03/24/2020
-ms.topic: method
 ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess
 req.header: ntifs.h
 f1_keywords:

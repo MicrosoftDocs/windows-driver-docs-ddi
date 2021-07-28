@@ -2,7 +2,6 @@
 UID: NF:netadapteroffload.NetOffloadIsTcpRscIPv6Enabled
 title: NetOffloadIsTcpRscIPv6Enabled
 ms.date: 10/15/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NetOffloadIsTcpRscIPv6Enabled function determines whether a net adapter has RSC offload enabled for IPv6 packets.
 tech.root: netvista

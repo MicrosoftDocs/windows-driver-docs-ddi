@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_BYTE16
 tech.root: netvista
 title: WDI_BYTE16
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_BYTE16 structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

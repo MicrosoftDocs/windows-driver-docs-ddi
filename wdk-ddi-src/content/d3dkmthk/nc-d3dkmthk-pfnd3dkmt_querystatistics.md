@@ -3,7 +3,6 @@ UID: NC:d3dkmthk.PFND3DKMT_QUERYSTATISTICS
 tech.root: display
 title: PFND3DKMT_QUERYSTATISTICS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Learn more about: PFND3DKMT_QUERYSTATISTICS
 req.assembly: 

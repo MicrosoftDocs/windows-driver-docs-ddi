@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._TAL_TXRX_PARAMETERS
 tech.root: netvista
 title: TAL_TXRX_PARAMETERS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the TAL_TXRX_PARAMETERS structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

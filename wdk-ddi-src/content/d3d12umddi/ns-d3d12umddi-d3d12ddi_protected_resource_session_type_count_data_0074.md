@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPE_COUNT_DATA_0074
 title: D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPE_COUNT_DATA_0074
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Count of protected resource session types.

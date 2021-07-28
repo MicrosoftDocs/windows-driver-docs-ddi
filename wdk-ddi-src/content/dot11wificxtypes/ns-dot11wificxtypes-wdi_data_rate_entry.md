@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_DATA_RATE_ENTRY
 tech.root: netvista
 title: WDI_DATA_RATE_ENTRY
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_DATA_RATE_ENTRY structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

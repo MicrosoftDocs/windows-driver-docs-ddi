@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAllocateNetBufferListPool
 title: NdisAllocateNetBufferListPool
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisAllocateNetBufferListPool function to allocate a pool of NET_BUFFER_LIST structures.
 tech.root: netvista

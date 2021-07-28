@@ -4,7 +4,6 @@ title: StorPortWaitForSingleObject function
 description: A miniport can call StorPortWaitForSingleObject function to put the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: StorPortWaitForSingleObject
 req.header: storport.h
 req.include-header: 

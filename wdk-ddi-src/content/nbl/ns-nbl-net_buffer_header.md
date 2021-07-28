@@ -2,7 +2,6 @@
 UID: NS:nbl._NET_BUFFER_HEADER
 title: NET_BUFFER_HEADER
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_HEADER structure specifies header information for the NET_BUFFER structure.
 tech.root: netvista

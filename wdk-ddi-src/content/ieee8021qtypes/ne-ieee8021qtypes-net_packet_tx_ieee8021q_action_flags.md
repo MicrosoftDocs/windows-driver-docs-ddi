@@ -3,7 +3,6 @@ UID: NE:ieee8021qtypes._NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS
 tech.root: netvista 
 title: NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS"
 req.construct-type: enumeration

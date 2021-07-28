@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_DESTROYPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_DESTROYPHYSICALMEMORYOBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkCbDestroyPhysicalMemoryObject callback function destroys physical memory for the driver.
 req.assembly: 

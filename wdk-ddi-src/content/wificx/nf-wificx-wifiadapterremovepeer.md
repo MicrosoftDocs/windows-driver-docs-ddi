@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterRemovePeer
 tech.root: netvista
 title: WifiAdapterRemovePeer
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WifiAdapterRemovePeer function for internal use only. Don't use this function in your code."
 req.assembly: 

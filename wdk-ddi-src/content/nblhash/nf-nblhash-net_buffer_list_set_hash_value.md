@@ -2,7 +2,6 @@
 UID: NF:nblhash.NET_BUFFER_LIST_SET_HASH_VALUE
 title: NET_BUFFER_LIST_SET_HASH_VALUE
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST_SET_HASH_VALUE macro sets the hash value information in a NET_BUFFER_LIST structure.
 tech.root: netvista

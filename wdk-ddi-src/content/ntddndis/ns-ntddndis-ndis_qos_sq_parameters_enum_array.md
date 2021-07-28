@@ -2,7 +2,6 @@
 UID: NS:ntddndis._NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY
 title: NDIS_QOS_SQ_ARRAY
 ms.date: 10/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_QOS_SQ_ARRAY structure is used to enumerate NDIS Quality of Service (QoS) Scheduler Queues (SQs) for parameters and stats.
 req.construct-type: structure

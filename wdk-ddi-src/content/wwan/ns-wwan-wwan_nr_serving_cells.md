@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_NR_SERVING_CELLS
 tech.root: netvista
 title: WWAN_NR_SERVING_CELLS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_NR_SERVING_CELLS structure represents the measured results list of 5G NR serving cells.
 req.construct-type: structure

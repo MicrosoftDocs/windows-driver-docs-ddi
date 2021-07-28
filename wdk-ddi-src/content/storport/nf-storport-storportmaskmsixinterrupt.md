@@ -3,7 +3,6 @@ UID: NF:storport.StorPortMaskMsixInterrupt
 tech.root: storage
 title: StorPortMaskMsixInterrupt
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortMaskMsixInterrupt masks or unmasks the specified MSI-X interrupt.
 req.assembly: 

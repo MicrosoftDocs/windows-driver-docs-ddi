@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 title: D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 ms.date: 03/24/2020
-ms.topic: language-reference
 tech.root: display
 targetos: Windows
 description: Raytracing pipeline flag.

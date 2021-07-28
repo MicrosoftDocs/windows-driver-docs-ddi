@@ -3,7 +3,6 @@ UID: NF:storport.StorPortCaptureLiveDump
 tech.root: storage
 title: StorPortCaptureLiveDump
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortCaptureLiveDump captures a live dump file.
 req.assembly: 

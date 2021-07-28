@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._WDI_P2P_SERVICE_NAME_HASH
 tech.root: netvista
 title: WDI_P2P_SERVICE_NAME_HASH
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_P2P_SERVICE_NAME_HASH structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

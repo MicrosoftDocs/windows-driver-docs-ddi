@@ -3,7 +3,6 @@ UID: NS:wdm._NPEM_CAPABILITY_STANDARD
 title: NPEM_CAPABILITY_STANDARD
 ms.date: 04/28/2020
 tech.root: PCI
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: NPEM_CAPABILITY_STANDARD"
 req.construct-type: structure

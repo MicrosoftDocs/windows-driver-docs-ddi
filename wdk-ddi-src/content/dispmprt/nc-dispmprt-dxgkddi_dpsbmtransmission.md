@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_DPSBMTRANSMISSION
 title: DXGKDDI_DPSBMTRANSMISSION
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKDDI_DPSBMTRANSMISSION callback is used to communicate with DisplayPort (DP) branch devices and sink devices behind branch devices.
 tech.root: display

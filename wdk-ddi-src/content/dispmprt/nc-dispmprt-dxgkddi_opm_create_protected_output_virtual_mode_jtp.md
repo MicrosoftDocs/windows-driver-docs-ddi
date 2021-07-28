@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
 title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP callback function"
 tech.root: display

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_OPENPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_OPENPHYSICALMEMORYOBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DxgkCbOpenPhysicalMemoryObject opens a physical memory object and associates it with an adapter.
 req.assembly: 

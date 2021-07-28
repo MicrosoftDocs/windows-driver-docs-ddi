@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._WDI_TXRX_MPDU_PN
 tech.root: netvista
 title: WDI_TXRX_MPDU_PN
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_TXRX_MPDU_PN structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

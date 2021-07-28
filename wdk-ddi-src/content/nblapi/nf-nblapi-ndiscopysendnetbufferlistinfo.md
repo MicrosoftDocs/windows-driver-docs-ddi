@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisCopySendNetBufferListInfo
 title: NdisCopySendNetBufferListInfo
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Intermediate drivers call the NdisCopySendNetBufferListInfo function to copy the NET_BUFFER_LIST information in a transmit NET_BUFFER_LIST structure.
 tech.root: netvista

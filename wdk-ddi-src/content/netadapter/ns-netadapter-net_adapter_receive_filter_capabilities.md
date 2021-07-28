@@ -3,7 +3,6 @@ UID: NS:netadapter._NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES
 tech.root: netvista
 title: NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES structure specifies a NIC's receive filtering capabilities.
 req.construct-type: structure

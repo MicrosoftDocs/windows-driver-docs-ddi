@@ -3,7 +3,6 @@ UID: NC:storport.STOR_THREAD_START_ROUTINE
 tech.root: storage
 title: STOR_THREAD_START_ROUTINE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_THREAD_START_ROUTINE provides an entry point for a storage miniport-created system thread.
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NS:storport._STOR_POFX_UNIT_POWER_INFO
 tech.root: storage
 title: STOR_POFX_UNIT_POWER_INFO
 ms.date: 5/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_POFX_UNIT_POWER_INFO is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitPoFxPowerInfo.
 req.construct-type: structure

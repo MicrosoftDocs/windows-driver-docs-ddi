@@ -3,7 +3,6 @@ UID: NS:ufs.__unnamed_struct_13
 tech.root: storage
 title: UFS_HPB_UNIT_DESCRIPTOR
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Reserved for system use. Do not use.
 prerelease: true

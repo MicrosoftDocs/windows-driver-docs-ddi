@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAllocateFragmentNetBufferList
 title: NdisAllocateFragmentNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisAllocateFragmentNetBufferList function to create a new fragmented NET_BUFFER_LIST structure based upon the data in an existing NET_BUFFER_LIST structure.
 tech.root: netvista

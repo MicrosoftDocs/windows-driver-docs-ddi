@@ -3,7 +3,6 @@ UID: NC:wificx.EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE
 tech.root: netvista
 title: EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

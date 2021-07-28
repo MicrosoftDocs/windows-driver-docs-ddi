@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_CLOSEPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_CLOSEPHYSICALMEMORYOBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkCbClosePhysicalMemoryObject closes a physical memory object.
 req.assembly: 

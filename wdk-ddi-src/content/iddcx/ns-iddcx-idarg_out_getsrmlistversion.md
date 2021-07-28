@@ -3,7 +3,6 @@ UID: NS:iddcx.IDARG_OUT_GETSRMLISTVERSION
 title: IDARG_OUT_GETSRMLISTVERSION
 ms.date: 10/02/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IDARG_OUT_GETSRMLISTVERSION is the output structure for IddCxMonitorGetSrmListVersion.
 req.construct-type: structure

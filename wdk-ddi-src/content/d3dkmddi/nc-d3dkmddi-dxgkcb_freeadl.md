@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_FREEADL
 tech.root: display
 title: DXGKCB_FREEADL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DxgkCbFreeAdl destroys an address descriptor list (ADL) created in a prior call to DxgkCbAllocateAdl.
 req.assembly: 

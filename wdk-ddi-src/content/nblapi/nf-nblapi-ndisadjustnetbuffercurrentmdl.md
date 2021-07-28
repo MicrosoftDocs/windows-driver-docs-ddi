@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAdjustNetBufferCurrentMdl
 title: NdisAdjustNetBufferCurrentMdl
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisAdjustNetBufferCurrentMdl function updates a NET_BUFFER structure based on the current data offset.
 tech.root: netvista

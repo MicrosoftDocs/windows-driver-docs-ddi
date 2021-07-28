@@ -2,7 +2,6 @@
 UID: NE:ntddndis._NDIS_QOS_SQ_TYPE
 title: NDIS_QOS_SQ_TYPE
 ms.date: 10/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The **NDIS_QOS_SQ_TYPE** enumeration specifies the type of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
 req.construct-type: enumeration

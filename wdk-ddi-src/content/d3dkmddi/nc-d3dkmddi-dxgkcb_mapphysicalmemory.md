@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_MAPPHYSICALMEMORY
 tech.root: display
 title: DXGKCB_MAPPHYSICALMEMORY
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkCbMapPhysicalMemory callback function maps CPU-visible virtual addresses to the underlying physical memory.
 req.assembly: 

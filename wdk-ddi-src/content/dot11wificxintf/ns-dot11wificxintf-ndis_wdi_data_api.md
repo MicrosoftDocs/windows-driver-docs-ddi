@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._NDIS_WDI_DATA_API
 tech.root: netvista
 title: NDIS_WDI_DATA_API
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the NDIS_WDI_DATA_API structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

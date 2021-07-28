@@ -3,7 +3,6 @@ UID: NS:wificxpoweroffloadlist._WIFI_POWER_OFFLOAD_LIST
 tech.root: netvista
 title: WIFI_POWER_OFFLOAD_LIST
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WIFI_POWER_OFFLOAD_LIST structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

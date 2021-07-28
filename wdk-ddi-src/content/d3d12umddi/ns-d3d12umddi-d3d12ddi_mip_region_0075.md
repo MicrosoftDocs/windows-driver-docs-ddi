@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_MIP_REGION_0075
 title: D3D12DDI_MIP_REGION_0075
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: D3D12DDI_MIP_REGION_0075 describes the size of a MIP region.

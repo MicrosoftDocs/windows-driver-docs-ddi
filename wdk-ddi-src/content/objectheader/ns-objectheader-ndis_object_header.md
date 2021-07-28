@@ -2,7 +2,6 @@
 UID: NS:objectheader._NDIS_OBJECT_HEADER
 title: NDIS_OBJECT_HEADER
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_OBJECT_HEADER structure packages the object type, version, and size information that is required in many NDIS 6.0 structures.
 tech.root: netvista

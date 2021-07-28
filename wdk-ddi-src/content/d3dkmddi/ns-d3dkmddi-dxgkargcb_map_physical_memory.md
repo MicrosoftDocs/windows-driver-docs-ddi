@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_MAP_PHYSICAL_MEMORY
 tech.root: display
 title: DXGKARGCB_MAP_PHYSICAL_MEMORY
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARGCB_MAP_PHYSICAL_MEMORY structure contains the information used by the DxgkCbMapPhysicalMemory callback function to map CPU-visible virtual addresses to the underlying physical memory.
 req.construct-type: structure

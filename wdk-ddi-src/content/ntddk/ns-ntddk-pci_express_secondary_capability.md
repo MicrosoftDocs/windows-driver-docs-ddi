@@ -3,7 +3,6 @@ UID: NS:ntddk._PCI_EXPRESS_SECONDARY_CAPABILITY
 title: PCI_EXPRESS_SECONDARY_CAPABILITY
 tech.root: PCI
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: PCI_EXPRESS_SECONDARY_CAPABILITY"
 req.construct-type: structure

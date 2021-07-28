@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAllocateNetBufferMdlAndData
 title: NdisAllocateNetBufferMdlAndData
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NDIS drivers call the NdisAllocateNetBufferMdlAndData function to allocate a NET_BUFFER structure along with the associated MDL and data.
 tech.root: netvista

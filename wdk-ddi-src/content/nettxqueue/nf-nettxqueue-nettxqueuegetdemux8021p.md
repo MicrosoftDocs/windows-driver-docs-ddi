@@ -3,7 +3,6 @@ UID: NF:nettxqueue.NetTxQueueGetDemux8021p
 tech.root: netvista
 title: NetTxQueueGetDemux8021p
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetTxQueueGetDemux8021p retrieves the IEEE 802.1p priority information associated with a transmit queue.
 req.assembly: 

@@ -2,7 +2,6 @@
 UID: NF:nblhash.NET_BUFFER_LIST_SET_HASH_TYPE
 title: NET_BUFFER_LIST_SET_HASH_TYPE
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST_SET_HASH_TYPE macro sets the hash type information in a NET_BUFFER_LIST structure.
 tech.root: netvista

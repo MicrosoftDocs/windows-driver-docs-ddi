@@ -3,7 +3,6 @@ UID: NS:poll._NDIS_POLL_CHARACTERISTICS
 tech.root: netvista
 title: NDIS_POLL_CHARACTERISTICS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_POLL_CHARACTERISTICS structure contains a Poll object’s NdisPoll and NdisSetPollNotification callback pointers.
 req.construct-type: structure

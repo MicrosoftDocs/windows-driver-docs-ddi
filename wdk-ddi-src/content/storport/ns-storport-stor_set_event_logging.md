@@ -3,7 +3,6 @@ UID: NS:storport._STOR_SET_EVENT_LOGGING
 tech.root: storage
 title: STOR_SET_EVENT_LOGGING
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_SET_EVENT_LOGGING is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterSetEventLogging.
 req.construct-type: structure

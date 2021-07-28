@@ -4,7 +4,6 @@ title: StorPortSetEvent function
 description: A miniport can call StorPortSetEvent to set an event object to the signaled state.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: StorPortSetEvent
 req.header: storport.h
 req.include-header: 

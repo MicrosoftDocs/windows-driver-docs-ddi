@@ -2,7 +2,6 @@
 UID: NS:nbl._NET_BUFFER_SHARED_MEMORY
 title: NET_BUFFER_SHARED_MEMORY
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a NET_BUFFER structure.
 tech.root: netvista

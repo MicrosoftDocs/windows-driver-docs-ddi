@@ -6,7 +6,6 @@ old-location: ifsk\OPLOCK_NOTIFY_PARAMS_.htm
 tech.root: ifsk
 ms.date: 03/24/2020
 ms.keywords: "*POPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS structure [File System Drivers], FsRtlCheckOplockEx2"
-ms.topic: struct
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

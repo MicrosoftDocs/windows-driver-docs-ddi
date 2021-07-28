@@ -2,7 +2,6 @@
 UID: NF:netadapteroffload.NetOffloadIsTcpRscIPv4Enabled
 title: NetOffloadIsTcpRscIPv4Enabled
 ms.date: 10/15/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NetOffloadIsTcpRscIPv4Enabled function determines whether a net adapter has RSC offload enabled for IPv4 packets.
 tech.root: netvista

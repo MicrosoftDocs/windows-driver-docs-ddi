@@ -3,7 +3,6 @@ UID: NS:nbl._NET_BUFFER_LIST
 title: NET_BUFFER_LIST
 tech.root: netvista
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER structures.
 req.construct-type: structure

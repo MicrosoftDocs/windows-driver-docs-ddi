@@ -3,7 +3,6 @@ UID: NS:netadapter._NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES
 tech.root: netvista
 title: NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES describes a network adapter's WoL capabilities for waking from an EAPOL packet.
 req.construct-type: structure

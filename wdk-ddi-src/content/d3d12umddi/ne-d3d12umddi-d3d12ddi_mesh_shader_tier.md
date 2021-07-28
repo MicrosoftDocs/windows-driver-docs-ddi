@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_MESH_SHADER_TIER
 title: D3D12DDI_MESH_SHADER_TIER
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: D3D12DDI_MESH_SHADER_TIER specifies the mesh shader tier.

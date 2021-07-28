@@ -3,7 +3,6 @@ UID: NF:netadapter.NetAdapterSetReceiveFilterCapabilities
 tech.root: netvista
 title: NetAdapterSetReceiveFilterCapabilities
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetAdapterSetReceiveFilterCapabilities sets the receive filtering capabilities of a network adapter.
 req.assembly: 

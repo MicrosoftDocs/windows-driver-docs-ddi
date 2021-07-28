@@ -3,7 +3,6 @@ UID: NS:storport._STOR_MAX_OPERATIONAL_POWER
 tech.root: storage
 title: STOR_MAX_OPERATIONAL_POWER
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_MAX_OPERATIONAL_POWER is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterPoFxMaxOperationalPower.
 req.construct-type: structure

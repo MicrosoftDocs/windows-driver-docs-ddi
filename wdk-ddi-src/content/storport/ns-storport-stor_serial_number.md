@@ -3,7 +3,6 @@ UID: NS:storport._STOR_SERIAL_NUMBER
 tech.root: storage
 title: STOR_SERIAL_NUMBER
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_SERIAL_NUMBER is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterSerialNumber.
 req.construct-type: structure

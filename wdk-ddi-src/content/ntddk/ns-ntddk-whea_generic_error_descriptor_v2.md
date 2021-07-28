@@ -2,7 +2,6 @@
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DESCRIPTOR_V2
 title: WHEA_GENERIC_ERROR_DESCRIPTOR_V2
 ms.date: 03/29/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WHEA_GENERIC_ERROR_DESCRIPTOR_V2"
 req.construct-type: structure

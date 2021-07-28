@@ -2,7 +2,6 @@
 UID: NC:ndkpi.NDK_FN_ACCEPT_EX
 title: NDK_FN_ACCEPT_EX
 ms.date: 12/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdkAcceptEx (NDK_FN_ACCEPT_EX) function accepts an incoming connection request over a listener object.
 tech.root: netvista

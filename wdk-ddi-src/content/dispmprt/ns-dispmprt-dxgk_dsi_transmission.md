@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_DSI_TRANSMISSION
 title: DXGK_DSI_TRANSMISSION
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DSI_TRANSMISSION structure is used to transmit Display Serial Interface (DSI) packets to the bus driver (graphics kernel).
 tech.root: display

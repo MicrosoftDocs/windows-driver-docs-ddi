@@ -2,7 +2,6 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
 title: D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: The protected resource support flags for D3D video operations.

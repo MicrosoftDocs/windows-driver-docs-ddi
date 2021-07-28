@@ -3,7 +3,6 @@ UID: NS:iddcx.IDDCX_SYSTEM_BUFFER_INFO
 title: IDDCX_SYSTEM_BUFFER_INFO
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IDDCX_SYSTEM_BUFFER_INFO holds the resulting buffer-specific information after a buffer release and acquire operation.
 req.construct-type: structure

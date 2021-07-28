@@ -3,7 +3,6 @@ UID: NE:wdm._EX_POOL_PRIORITY
 title: EX_POOL_PRIORITY
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: EX_POOL_PRIORITY"
 req.construct-type: enumeration

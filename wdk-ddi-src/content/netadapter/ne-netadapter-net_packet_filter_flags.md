@@ -3,7 +3,6 @@ UID: NE:netadapter._NET_PACKET_FILTER_FLAGS
 tech.root: netvista
 title: NET_PACKET_FILTER_FLAGS
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_PACKET_FILTER_FLAGS describe a network adapter's receive packet filters.
 req.construct-type: enumeration

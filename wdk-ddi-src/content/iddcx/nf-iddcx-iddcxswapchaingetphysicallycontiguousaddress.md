@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxSwapChainGetPhysicallyContiguousAddress
 title: IddCxSwapChainGetPhysicallyContiguousAddress
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IddCxSwapChainGetPhysicallyContiguousAddress retrieves the physical address of the specified swapchain's currently acquired surface.
 req.assembly: 

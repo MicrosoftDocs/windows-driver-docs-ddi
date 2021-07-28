@@ -2,7 +2,6 @@
 UID: NS:nbluso._NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
 title: NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO structure specifies a buffer comprised of one or more NET_PACKET or NET_FRAGMENT structures.
 tech.root: netvista 

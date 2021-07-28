@@ -4,7 +4,6 @@ title: STOR_UNIT_CONTROL_QUERY_BUS_TYPE
 description: STOR_UNIT_CONTROL_QUERY_BUS_TYPE is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitQueryBusType.
 tech.root: storage
 ms.date: 05/13/2021
-ms.topic: struct
 ms.keywords: STOR_UNIT_CONTROL_QUERY_BUS_TYPE, STOR_UNIT_CONTROL_QUERY_BUS_TYPE, *PSTOR_UNIT_CONTROL_QUERY_BUS_TYPE,
 req.header: storport.h
 req.include-header: 

@@ -3,7 +3,6 @@ UID: NF:wificxpoweroffloadlist.WifiDeviceGetPowerOffloadList
 tech.root: netvista
 title: WifiDeviceGetPowerOffloadList
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WifiDeviceGetPowerOffloadList function for internal use only. Don't use this function in your code."
 req.assembly: 

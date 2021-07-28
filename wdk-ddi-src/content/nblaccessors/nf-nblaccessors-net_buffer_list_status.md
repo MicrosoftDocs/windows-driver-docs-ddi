@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_LIST_STATUS
 title: NET_BUFFER_LIST_STATUS
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_LIST_STATUS is a macro that NDIS drivers use to access the StatusCode member of a NET_BUFFER_LIST structure.
 tech.root: netvista 
