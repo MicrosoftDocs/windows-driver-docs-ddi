@@ -50,11 +50,11 @@ The **NET_IPV4_ADDRESS** union specifies an IPv4 address.
 
 ### -field Address
 
-The IPv4 address represented as a UINT 32 value.
+A UINT32 value that represents the IPv4 address.
 
 ### -field Value
 
-The IPv4 address represented as a UINT8 array.
+A UINT8 array that represents the IPv4 address.
 
 
 ## -remarks

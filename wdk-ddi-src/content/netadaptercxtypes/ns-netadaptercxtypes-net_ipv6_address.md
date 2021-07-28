@@ -50,7 +50,7 @@ The **NET_IPV6_ADDRESS** union specifies an IPv6 address.
 
 ### -field Unicast
 
-A structure that contains the **NetworkPrefix** and **InterfaceIdentifier** values.
+A structure that represents a IPv6 unicast address and contains the **NetworkPrefix** and **InterfaceIdentifier** values.
 
 ### -field Unicast.NetworkPrefix
 
@@ -62,7 +62,7 @@ A UINT64 value that represents the interface identifier.
 
 ### -field Value
 
-The IPv6 address.
+A UINT8 array that represents an IPv6 address.
 
 ## -remarks
 
