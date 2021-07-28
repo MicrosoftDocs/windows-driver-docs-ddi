@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.KeGetCurrentNodeNumber
 title: KeGetCurrentNodeNumber function (ntddk.h)
-description: The KeGetCurrentNodeNumber routine gets the NUMA node number for the logical processor that the caller is running on.
+description: The KeGetCurrentNodeNumber function (ntddk.h) returns the NUMA node number for the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentnodenumber.htm
 tech.root: kernel
 ms.date: 04/30/2018
