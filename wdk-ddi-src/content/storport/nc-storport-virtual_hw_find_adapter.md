@@ -83,7 +83,7 @@ Not used.
 | Return code | Description |
 | ----------- | ----------- |
 | SP_RETURN_FOUND      | A supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure. |
-| SP_RETURN_ERROR      | An HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with [**ScsiPortLogError**](..srb/nf-srb-scsiportlogerror.md). |
+| SP_RETURN_ERROR      | An HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with [**ScsiPortLogError**](../srb/nf-srb-scsiportlogerror.md). |
 | SP_RETURN_BAD_CONFIG | The supplied configuration information was invalid for the adapter. |
 | SP_RETURN_NOT_FOUND  | No supported HBA was found for the supplied configuration information. |
 
@@ -146,6 +146,6 @@ The **VIRTUAL_HW_FIND_ADAPTER** function type is defined in the Storport.h heade
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
-[**ScsiPortLogError**](..srb/nf-srb-scsiportlogerror.md)
+[**ScsiPortLogError**](../srb/nf-srb-scsiportlogerror.md)
 
 [**VIRTUAL_HW_INITIALIZATION_DATA**](ns-storport-_virtual_hw_initialization_data.md)
