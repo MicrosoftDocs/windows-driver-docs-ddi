@@ -1,7 +1,7 @@
 ---
 UID: NS:wwan._WWAN_IPV4_ADDRESS
 title: _WWAN_IPV4_ADDRESS (wwan.h)
-description: The WWAN_IPV4_ADDRESS structure represents an IPV4 address of a PDP context.
+description: The WWAN_IPV4_ADDRESS union represents an IPV4 address of a PDP context.
 old-location: netvista\wwan_ipv4_address.htm
 tech.root: netvista
 ms.date: 05/02/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The WWAN_IPV4_ADDRESS structure represents an IPV4 address of a PDP context.
+The WWAN_IPV4_ADDRESS union represents an IPV4 address of a PDP context.
 
 ## -struct-fields
 
