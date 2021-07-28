@@ -4,7 +4,7 @@ tech.root: netvista
 title: WWAN_ROUTE_SELECTION_PURPOSE
 ms.date: 06/09/2021
 targetos: Windows
-description: Learn more about: WWAN_ROUTE_SELECTION_PURPOSE
+description: "Learn more about: WWAN_ROUTE_SELECTION_PURPOSE"
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
