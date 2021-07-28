@@ -1,7 +1,7 @@
 ---
 UID: NC:pep_x.POFXCALLBACKUPDATEPROCESSORIDLESTATE
 title: POFXCALLBACKUPDATEPROCESSORIDLESTATE (pep_x.h)
-description: The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state.
+description: Learn how the UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state.
 old-location: kernel\updateprocessoridlestate.htm
 tech.root: kernel
 ms.date: 04/30/2018

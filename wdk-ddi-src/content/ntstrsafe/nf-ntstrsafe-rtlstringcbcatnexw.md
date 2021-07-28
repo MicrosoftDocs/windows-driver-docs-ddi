@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatNExW
 title: RtlStringCbCatNExW function (ntstrsafe.h)
-description: The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string.
+description: Learn how the RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatnex.htm
 tech.root: kernel
 ms.date: 04/30/2018

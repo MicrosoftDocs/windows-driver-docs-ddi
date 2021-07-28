@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchPrintfExW
 title: RtlStringCchPrintfExW function (ntstrsafe.h)
-description: The RtlStringCchPrintfExW and RtlStringCchPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
+description: Learn how the RtlStringCchPrintfExW and RtlStringCchPrintfExA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchprintfex.htm
 tech.root: kernel
 ms.date: 04/30/2018

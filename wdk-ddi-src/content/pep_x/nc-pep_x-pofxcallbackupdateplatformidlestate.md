@@ -1,7 +1,7 @@
 ---
 UID: NC:pep_x.POFXCALLBACKUPDATEPLATFORMIDLESTATE
 title: POFXCALLBACKUPDATEPLATFORMIDLESTATE (pep_x.h)
-description: The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
+description: Learn how the UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
 old-location: kernel\updateplatformidlestate.htm
 tech.root: kernel
 ms.date: 04/30/2018

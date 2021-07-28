@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm.__unnamed_enum_0
 title: POWER_ACTION
-description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
+description: Learn how the POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 tech.root: kernel
 ms.date: 09/15/2020
 keywords: ["POWER_ACTION enumeration"]

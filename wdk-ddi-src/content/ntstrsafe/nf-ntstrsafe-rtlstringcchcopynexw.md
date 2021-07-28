@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyNExW
 title: RtlStringCchCopyNExW function (ntstrsafe.h)
-description: The RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
+description: Learn how the RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopynex.htm
 tech.root: kernel
 ms.date: 04/30/2018
