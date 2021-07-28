@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeLeaveGuardedRegion
 title: KeLeaveGuardedRegion function (wdm.h)
-description: The KeLeaveGuardedRegion routine exits a guarded region entered by KeEnterGuardedRegion.
+description: Learn how the KeLeaveGuardedRegion routine exits a guarded region entered by KeEnterGuardedRegion.
 old-location: kernel\keleaveguardedregion.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyW
 title: RtlStringCbCopyW function (ntstrsafe.h)
-description: The RtlStringCbCopyW and RtlStringCbCopyA functions copy a byte-counted string into a buffer.
+description: Learn how the RtlStringCbCopyW and RtlStringCbCopyA functions copy a byte-counted string into a buffer.
 old-location: kernel\rtlstringcbcopy.htm
 tech.root: kernel
 ms.date: 04/30/2018

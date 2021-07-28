@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_ABANDON_DEVICE
 title: _PEP_ACPI_ABANDON_DEVICE (pep_x.h)
-description: The PEP_ACPI_ABANDON_DEVICE structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device.
+description: Learn how the PEP_ACPI_ABANDON_DEVICE structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device.
 old-location: kernel\pep_acpi_abandon_device.htm
 tech.root: kernel
 ms.date: 04/30/2018

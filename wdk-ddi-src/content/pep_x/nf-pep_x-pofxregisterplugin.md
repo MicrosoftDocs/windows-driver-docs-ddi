@@ -1,7 +1,7 @@
 ---
 UID: NF:pep_x.PoFxRegisterPlugin
 title: PoFxRegisterPlugin function (pep_x.h)
-description: The PoFxRegisterPlugin routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
+description: Learn how the PoFxRegisterPlugin routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
 old-location: kernel\pofxregisterplugin.htm
 tech.root: kernel
 ms.date: 04/30/2018

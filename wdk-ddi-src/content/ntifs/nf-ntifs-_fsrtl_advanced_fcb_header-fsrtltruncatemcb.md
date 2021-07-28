@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlTruncateMcb
 title: FsRtlTruncateMcb function (ntifs.h)
-description: Obsolete.
+description: The FsRtlTruncateMcb function is obsolete.
 old-location: ifsk\fsrtltruncatemcb.htm
 tech.root: ifsk
 ms.date: 04/16/2018

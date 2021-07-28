@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IMAGE_POLICY_OVERRIDE
 title: IMAGE_POLICY_OVERRIDE macro (wdm.h)
-description: Reserved.
+description: Reserved for the IMAGE_POLICY_OVERRIDE macro.
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["IMAGE_POLICY_OVERRIDE macro"]

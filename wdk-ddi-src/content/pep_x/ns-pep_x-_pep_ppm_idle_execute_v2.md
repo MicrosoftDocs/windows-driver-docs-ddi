@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_EXECUTE_V2
 title: _PEP_PPM_IDLE_EXECUTE_V2 (pep_x.h)
-description: The PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter.
+description: Learn how the PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute_v2.htm
 tech.root: kernel
 ms.date: 04/30/2018

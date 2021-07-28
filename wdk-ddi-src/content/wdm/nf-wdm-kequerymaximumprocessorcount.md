@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryMaximumProcessorCount
 title: KeQueryMaximumProcessorCount function (wdm.h)
-description: The KeQueryMaximumProcessorCount routine returns the maximum number of processors.
+description: Learn how the KeQueryMaximumProcessorCount routine returns the maximum number of processors.
 old-location: kernel\kequerymaximumprocessorcount.htm
 tech.root: kernel
 ms.date: 04/30/2018

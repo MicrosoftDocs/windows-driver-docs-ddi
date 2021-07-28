@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_VETO_REASONS
 title: _PEP_PPM_QUERY_VETO_REASONS (pep_x.h)
-description: The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines.
+description: Learn how the PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines.
 old-location: kernel\pep_ppm_query_veto_reasons.htm
 tech.root: kernel
 ms.date: 04/30/2018

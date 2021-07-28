@@ -1,7 +1,7 @@
 ---
 UID: NE:pep_x._PEP_DEVICE_ACCEPTANCE_TYPE
 title: _PEP_DEVICE_ACCEPTANCE_TYPE (pep_x.h)
-description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
+description: Learn how the PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

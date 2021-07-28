@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.KeAttachProcess
 title: KeAttachProcess function (ntifs.h)
-description: Obsolete.
+description: The KeAttachProcess function is obsolete.
 old-location: ifsk\keattachprocess.htm
 tech.root: ifsk
 ms.date: 04/16/2018

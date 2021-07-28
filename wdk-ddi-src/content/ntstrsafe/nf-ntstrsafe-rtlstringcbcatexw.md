@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatExW
 title: RtlStringCbCatExW function (ntstrsafe.h)
-description: The RtlStringCbCatExW and RtlStringCbCatExA functions concatenate two byte-counted strings.
+description: Learn how the RtlStringCbCatExW and RtlStringCbCatExA functions concatenate two byte-counted strings.
 old-location: kernel\rtlstringcbcatex.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NC:pep_x.POFXCALLBACKCRITICALRESOURCE
 title: POFXCALLBACKCRITICALRESOURCE (pep_x.h)
-description: The TransitionCriticalResource routine changes the active/inactive state of a core system component.
+description: Learn how the TransitionCriticalResource routine changes the active/inactive state of a core system component.
 old-location: kernel\transitioncriticalresource.htm
 tech.root: kernel
 ms.date: 04/30/2018

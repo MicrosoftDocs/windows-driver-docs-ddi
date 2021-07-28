@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlNumberOfRunsInMcb
 title: FsRtlNumberOfRunsInMcb function (ntifs.h)
-description: Obsolete.
+description: The FsRtlNumberOfRunsInMcb function is obsolete.
 old-location: ifsk\fsrtlnumberofrunsinmcb.htm
 tech.root: ifsk
 ms.date: 04/16/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryMaximumGroupCount
 title: KeQueryMaximumGroupCount function (wdm.h)
-description: The KeQueryMaximumGroupCount routine returns the maximum number of groups in a multiprocessor system.
+description: Learn how the KeQueryMaximumGroupCount routine returns the maximum number of groups in a multiprocessor system.
 old-location: kernel\kequerymaximumgroupcount.htm
 tech.root: kernel
 ms.date: 04/30/2018

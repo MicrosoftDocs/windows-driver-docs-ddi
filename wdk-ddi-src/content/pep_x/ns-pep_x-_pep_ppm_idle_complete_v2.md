@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_COMPLETE_V2
 title: _PEP_PPM_IDLE_COMPLETE_V2 (pep_x.h)
-description: The PEP_PPM_IDLE_COMPLETE_V2 structure describe the idle states from which the processor and hardware platform are waking.
+description: Learn how the PEP_PPM_IDLE_COMPLETE_V2 structure describe the idle states from which the processor and hardware platform are waking.
 old-location: kernel\pep_ppm_idle_complete_v2.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_EVALUATE_CONTROL_METHOD
 title: _PEP_ACPI_EVALUATE_CONTROL_METHOD (pep_x.h)
-description: The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
+description: Learn how the PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 tech.root: kernel
 ms.date: 04/30/2018

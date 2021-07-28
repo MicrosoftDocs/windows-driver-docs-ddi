@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryActiveProcessorCount
 title: KeQueryActiveProcessorCount function (wdm.h)
-description: The KeQueryActiveProcessorCount routine returns the number of currently active processors.
+description: Learn how the KeQueryActiveProcessorCount routine returns the number of currently active processors.
 old-location: kernel\kequeryactiveprocessorcount.htm
 tech.root: kernel
 ms.date: 04/30/2018

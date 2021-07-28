@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_RESOURCE
 title: _PEP_ACPI_RESOURCE (pep_x.h)
-description: The PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource.
+description: Learn how the PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource.
 old-location: kernel\pep_acpi_resource.htm
 tech.root: kernel
 ms.date: 04/30/2018

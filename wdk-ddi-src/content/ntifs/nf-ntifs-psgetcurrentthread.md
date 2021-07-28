@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PsGetCurrentThread
 title: PsGetCurrentThread function (ntifs.h)
-description: The PsGetCurrentThread routine identifies the current thread.
+description: Learn how the PsGetCurrentThread routine identifies the current thread.
 old-location: kernel\psgetcurrentthread.htm
 tech.root: kernel
 ms.date: 04/30/2018
