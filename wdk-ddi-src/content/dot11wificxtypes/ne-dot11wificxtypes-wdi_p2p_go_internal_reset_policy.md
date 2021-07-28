@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_P2P_GO_INTERNAL_RESET_POLICY
 tech.root: netvista
-title: WDI_P2P_GO_INTERNAL_RESET_POLICY
-ms.date: 04/30/2021
+title: WDI_P2P_GO_INTERNAL_RESET_POLICY (dot11wificxtypes.h)
+ms.date: 07/28/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_P2P_GO_INTERNAL_RESET_POLICY enum defines the Wi-Fi Direct Group Owner internal reset policies.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,26 +37,24 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_P2P_GO_INTERNAL_RESET_POLICY** enumeration defines the Wi-Fi Direct Group Owner internal reset policies.
 
 ## -enum-fields
 
 ### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL
 
-Reserved.
+If an internal-to-firmware Group Owner reset is performed, post-reset Group Owner must operate on the same operating channel as before the internal reset operation.
 
 ### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION
 
-Reserved.
+If an internal-to-firmware Group Owner reset is performed, firmware may freely decide its new operating channel. For example, firmware may choose to minimize channel switching by adopting station port channel. If there is no optimization to be done, fall back to selecting previous operating channel.
 
 ### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_MAX
 
-Reserved.
-
 ## -remarks
+
+The **WDI_P2P_GO_INTERNAL_RESET_POLICY** enum is a value in the [**WDI_TLV_P2P_GO_INTERNAL_RESET_POLICY**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-go-internal-reset-policy) TLV.
 
 ## -see-also
 
+[**WDI_TLV_P2P_GO_INTERNAL_RESET_POLICY**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-go-internal-reset-policy)

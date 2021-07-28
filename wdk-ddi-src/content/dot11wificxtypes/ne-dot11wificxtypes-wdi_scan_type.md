@@ -41,24 +41,26 @@ The WDI_SCAN_TYPE enumeration defines scan types.
 
 ## -enum-fields
 
-### -field WDI_SCAN_TYPE_ACTIVE_ONLY
+### -field WDI_SCAN_TYPE_ACTIVE_ONLY:1
 
 The port should transmit a probe request on the channels that it scans. Even for active scans, the port must follow regulatory restrictions on the channel and must not scan on channels that would need a passive scan.
 
-### -field WDI_SCAN_TYPE_PASSIVE_ONLY
+### -field WDI_SCAN_TYPE_PASSIVE_ONLY:2
 
 The port should not transmit a probe request on the channels that it scans.
 
-### -field WDI_SCAN_TYPE_AUTO
+### -field WDI_SCAN_TYPE_AUTO:3
 
 The port can perform an active or passive can or can use a combination of both scan types. It should prefer using Active scans when possible. This is the default scan type setting.
 
-### -field WDI_SCAN_TYPE_MAX_VALUE
+### -field WDI_SCAN_TYPE_MAX_VALUE:0xFFFF
 
 ## -remarks
 
-The **WDI_SCAN_TYPE** enum is a value in the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) TLV.
+The **WDI_SCAN_TYPE** enum is a value in the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) and [**WDI_TLV_ADAPTER_NLO_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-adapter-nlo-scan-mode) TLVs.
 
 ## -see-also
 
 [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode)
+
+[**WDI_TLV_ADAPTER_NLO_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-adapter-nlo-scan-mode)

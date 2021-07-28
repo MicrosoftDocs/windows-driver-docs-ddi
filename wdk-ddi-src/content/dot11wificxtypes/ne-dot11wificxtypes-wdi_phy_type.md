@@ -103,9 +103,10 @@ Specifies the end of the range that is used to define proprietary PHY types that
 
 ## -remarks
 
-The **WDI_PHY_TYPE** enum is a value in the [**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) TLV.
+The **WDI_PHY_TYPE** enum is a value in the [**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) and [**WDI_TLV_PHY_STATISTICS**](/windows-hardware/drivers/netcx/wdi-tlv-phy-statistics) TLVs.
 
 ## -see-also
 
 [**WDI_TLV_PHY_TYPE_LIST**](/windows-hardware/drivers/netcx/wdi-tlv-phy-type-list) 
 
+[**WDI_TLV_PHY_STATISTICS**](/windows-hardware/drivers/netcx/wdi-tlv-phy-statistics)
