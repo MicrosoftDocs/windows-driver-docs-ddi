@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **IInterFilterCommunicator** interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the [IPrintPipelineFilter](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter) interface.
+The **IInterFilterCommunicator** interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the [IPrintPipelineFilter](./nn-filterpipeline-iprintpipelinefilter.md) interface.
 
 ## -inheritance
 

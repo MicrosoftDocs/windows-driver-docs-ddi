@@ -47,8 +47,8 @@ The **IPartThumbnail** interface is an abstraction for thumbnails in an XPS docu
 
 ## -inheritance
 
-The **IPartThumbnail** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase).
+The **IPartThumbnail** interface inherits from [IPartBase](./nn-filterpipeline-ipartbase.md).
 
 ## -see-also
 
-[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)
+[IPartBase](./nn-filterpipeline-ipartbase.md)

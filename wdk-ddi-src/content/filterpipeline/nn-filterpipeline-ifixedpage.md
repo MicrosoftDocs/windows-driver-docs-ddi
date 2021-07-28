@@ -47,8 +47,8 @@ A filter uses the **IFixedPage** interface to work with fixed pages in an XPS do
 
 ## -inheritance
 
-The **IFixedPage** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase).
+The **IFixedPage** interface inherits from [IPartBase](./nn-filterpipeline-ipartbase.md).
 
 ## -see-also
 
-[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)
+[IPartBase](./nn-filterpipeline-ipartbase.md)

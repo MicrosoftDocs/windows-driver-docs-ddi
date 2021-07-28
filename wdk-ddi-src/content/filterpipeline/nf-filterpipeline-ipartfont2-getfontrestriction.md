@@ -58,4 +58,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IPartFont2](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont2)
+[IPartFont2](./nn-filterpipeline-ipartfont2.md)

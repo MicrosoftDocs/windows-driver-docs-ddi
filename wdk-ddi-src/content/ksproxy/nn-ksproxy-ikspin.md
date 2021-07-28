@@ -53,8 +53,8 @@ The **IKsPin** interface inherits from the [IUnknown](/windows/win32/api/unknwn/
 
 ## -remarks
 
-An interface handler ([IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)) uses many of the **IKsPin** methods to route media samples of a particular media type.
+An interface handler ([IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md)) uses many of the **IKsPin** methods to route media samples of a particular media type.
 
 ## -see-also
 
-[IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)
+[IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md)

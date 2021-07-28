@@ -55,4 +55,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IKsPinPipe](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe)
+[IKsPinPipe](./nn-ksproxy-ikspinpipe.md)

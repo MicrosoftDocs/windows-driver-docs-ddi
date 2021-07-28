@@ -53,4 +53,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IKsAllocatorEx](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocatorex)
+[IKsAllocatorEx](./nn-ksproxy-iksallocatorex.md)

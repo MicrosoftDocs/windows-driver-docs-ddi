@@ -43,11 +43,11 @@ api_name:
 
 ## -description
 
-The **IKsQualityForwarder** interface inherits the method of the [IKsObject](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject) interface and extends **IKsObject** to provide a method that flushes information from a pin.
+The **IKsQualityForwarder** interface inherits the method of the [IKsObject](./nn-ksproxy-iksobject.md) interface and extends **IKsObject** to provide a method that flushes information from a pin.
 
 ## -inheritance
 
-The **IKsQualityForwarder** interface inherits from [IKsObject](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject).
+The **IKsQualityForwarder** interface inherits from [IKsObject](./nn-ksproxy-iksobject.md).
 
 ## -remarks
 

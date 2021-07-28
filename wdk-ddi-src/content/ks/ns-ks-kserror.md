@@ -69,6 +69,6 @@ For more information, see [Quality Management](/windows-hardware/drivers/stream/
 
 [**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure)
 
-[**KSDEGRADE_STANDARD**](/windows-hardware/drivers/ddi/ks/ne-ks-ksdegrade_standard)
+[**KSDEGRADE_STANDARD**](./ne-ks-ksdegrade_standard.md)
 
 [**KSPROPERTY_QUALITY_ERROR**](/windows-hardware/drivers/stream/ksproperty-quality-error)

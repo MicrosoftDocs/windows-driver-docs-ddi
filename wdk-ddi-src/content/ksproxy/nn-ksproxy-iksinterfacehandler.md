@@ -63,6 +63,6 @@ On an interface handler create request through [**CoCreateInstance**](/windows/w
 
 [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
 
-[IKsControl](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl](./nn-ksproxy-ikscontrol.md)
 
 [KSPIN_INTERFACE](/windows-hardware/drivers/stream/kspin-interface-structure)

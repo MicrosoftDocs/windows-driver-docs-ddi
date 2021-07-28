@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **IPrintPipelineManagerControl** interface is passed to each filter in the [IPrintPipelineFilter::InitializeFilter](/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter) method. Filters use this interface to:
+The **IPrintPipelineManagerControl** interface is passed to each filter in the [IPrintPipelineFilter::InitializeFilter](./nf-filterpipeline-iprintpipelinefilter-initializefilter.md) method. Filters use this interface to:
 
 - Request shutdown in low-memory situations.
 
