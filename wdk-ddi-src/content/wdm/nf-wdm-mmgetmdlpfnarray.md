@@ -60,7 +60,6 @@ The number of entries in the array is **ADDRESS_AND_SIZE_TO_SPAN_PAGES**(**MmGet
 
 **Note** Changing the contents of the array can cause subtle system problems that are difficult to diagnose. We recommend that you do not read or change the contents of this array.
 
-For pageable memory, the contents of the array are valid only for a buffer locked with [**MmProbeAndLockPages**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages). For nonpaged pool, the contents of the array are valid only for an MDL updated with [**MmBuildMdlForNonPagedPool**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool), [**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex), or [**MmAllocatePagesForMdl**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl).
+For pageable memory, the contents of the array are valid only for a buffer locked with [**MmProbeAndLockPages**](./nf-wdm-mmprobeandlockpages.md). For nonpaged pool, the contents of the array are valid only for an MDL updated with [**MmBuildMdlForNonPagedPool**](./nf-wdm-mmbuildmdlfornonpagedpool.md), [**MmAllocatePagesForMdlEx**](./nf-wdm-mmallocatepagesformdlex.md), or [**MmAllocatePagesForMdl**](./nf-wdm-mmallocatepagesformdl.md).
 
 For more information about MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
-

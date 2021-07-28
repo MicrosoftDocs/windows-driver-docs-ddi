@@ -71,5 +71,4 @@ The members of the structure that the _DestinationString_ parameters points to a
 
 *   **Buffer**. _SourceString_.
 
-To initialize a non-empty counted Unicode string, call [**RtlInitUnicodeString**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring).
-
+To initialize a non-empty counted Unicode string, call [**RtlInitUnicodeString**](./nf-wdm-rtlinitunicodestring.md).

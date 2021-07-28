@@ -57,6 +57,6 @@ Pointer to an MDL that describes the buffer for which to return the initial virt
 
 **MmGetMdlVirtualAddress** returns a virtual address that is not necessarily valid in the current thread context. Lower-level drivers should not attempt to use the returned virtual address to access memory, particularly user memory space.
 
-The returned address, used as an index to a physical address entry in the MDL, can be input to [**MapTransfer**](/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer).
+The returned address, used as an index to a physical address entry in the MDL, can be input to [**MapTransfer**](./nc-wdm-pmap_transfer.md).
 
 Callers of **MmGetMdlVirtualAddress** can be running at any IRQL. Usually, the caller is running at IRQL = DISPATCH_LEVEL because this routine is commonly called to obtain the _CurrentVa_ parameter to **MapTransfer**.

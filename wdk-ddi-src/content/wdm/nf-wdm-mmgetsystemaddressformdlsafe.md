@@ -77,21 +77,21 @@ This routine maps the physical pages that are described by the specified MDL int
 
 Drivers of programmed-I/O (PIO) devices call this routine to map a user-mode buffer, which is described by the MDL at **Irp->MdlAddress** and which is already mapped to a user-mode virtual address range, to a range in system address space.
 
-On entry to this routine, the specified MDL must describe physical pages that are locked down. A locked-down MDL can be built by using the [**MmProbeAndLockPages**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages), [**MmBuildMdlForNonPagedPool**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool), [**IoBuildPartialMdl**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl), or [**MmAllocatePagesForMdlEx**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex) routine.
+On entry to this routine, the specified MDL must describe physical pages that are locked down. A locked-down MDL can be built by using the [**MmProbeAndLockPages**](./nf-wdm-mmprobeandlockpages.md), [**MmBuildMdlForNonPagedPool**](./nf-wdm-mmbuildmdlfornonpagedpool.md), [**IoBuildPartialMdl**](./nf-wdm-iobuildpartialmdl.md), or [**MmAllocatePagesForMdlEx**](./nf-wdm-mmallocatepagesformdlex.md) routine.
 
 When the system-address-space mapping that is returned by **MmGetSystemAddressForMdlSafe** is no longer needed, it must be released. The steps that are required to release the mapping depend on how the MDL was built. These are the four possible cases:
 
-*   If the MDL was built by a call to the **MmProbeAndLockPages** routine, it is not necessary to explicitly release the system-address-space mapping. Instead, a call to the [**MmUnlockPages**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpages) routine releases the mapping, if one was allocated.
+*   If the MDL was built by a call to the **MmProbeAndLockPages** routine, it is not necessary to explicitly release the system-address-space mapping. Instead, a call to the [**MmUnlockPages**](./nf-wdm-mmunlockpages.md) routine releases the mapping, if one was allocated.
 
 *   If the MDL was built by a call to the **MmBuildMdlForNonPagedPool** routine, **MmGetSystemAddressForMdlSafe** reuses the existing system-address-space mapping instead of creating a new one. In this case, no cleanup is required (that is, unlocking and unmapping are not necessary).
 
-*   If the MDL was built by a call to the **IoBuildPartialMdl** routine, the driver must call either the **MmPrepareMdlForReuse** routine or the [**IoFreeMdl**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl) routine to release the system-address-space mapping.
+*   If the MDL was built by a call to the **IoBuildPartialMdl** routine, the driver must call either the **MmPrepareMdlForReuse** routine or the [**IoFreeMdl**](./nf-wdm-iofreemdl.md) routine to release the system-address-space mapping.
 
 *   If the MDL was built by a call to the **MmAllocatePagesForMdlEx** routine, the driver must call the **MmUnmapLockedPages** routine to release the system-address-space mapping. If **MmGetSystemAddressForMdlSafe** is called more than one time for an MDL, subsequent **MmGetSystemAddressForMdlSafe** calls simply return the mapping that was created by the first call. One call to **MmUnmapLockedPages** is sufficient to release this mapping.
 
-Starting with Windows 7 and Windows Server 2008 R2, it is not necessary to explicitly call **MmUnmapLockedPages** for an MDL that was created by **MmAllocatePagesForMdlEx**. Instead, a call to the [**MmFreePagesFromMdl**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl) routine releases the system-address-space mapping, if one was allocated.
+Starting with Windows 7 and Windows Server 2008 R2, it is not necessary to explicitly call **MmUnmapLockedPages** for an MDL that was created by **MmAllocatePagesForMdlEx**. Instead, a call to the [**MmFreePagesFromMdl**](./nf-wdm-mmfreepagesfrommdl.md) routine releases the system-address-space mapping, if one was allocated.
 
-To create a new system-address-space mapping, **MmGetSystemAddressForMdlSafe** calls **MmMapLockedPagesSpecifyCache** with the _CacheType_ parameter set to **MmCached**. A driver that requires a cache type other than **MmCached** should call **MmMapLockedPagesSpecifyCache** directly instead of calling **MmGetSystemAddressForMdlSafe**. For more information about the _CacheType_ parameter, see [**MmMapLockedPagesSpecifyCache**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache).
+To create a new system-address-space mapping, **MmGetSystemAddressForMdlSafe** calls **MmMapLockedPagesSpecifyCache** with the _CacheType_ parameter set to **MmCached**. A driver that requires a cache type other than **MmCached** should call **MmMapLockedPagesSpecifyCache** directly instead of calling **MmGetSystemAddressForMdlSafe**. For more information about the _CacheType_ parameter, see [**MmMapLockedPagesSpecifyCache**](./nf-wdm-mmmaplockedpagesspecifycache.md).
 
 In a call to **MmMapLockedPagesSpecifyCache**, the specified cache type is used only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by **MmAllocatePagesForMdl**, which sets the cache type to **MmCached** regardless of the original cache type of the pages.
 
@@ -101,8 +101,8 @@ If a driver must split a request into smaller requests, the driver can allocate 
 
 The returned base address has the same offset as the virtual address in the MDL.
 
-Windows 98 does not support **MmGetSystemAddressForMdlSafe**. Use [**MmGetSystemAddressForMdl**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetsystemaddressformdl) instead.
+Windows 98 does not support **MmGetSystemAddressForMdlSafe**. Use [**MmGetSystemAddressForMdl**](./nf-wdm-mmgetsystemaddressformdl.md) instead.
 
-Because this macro calls [**MmMapLockedPagesSpecifyCache**](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache), using it may require linking to NtosKrnl.lib.
+Because this macro calls [**MmMapLockedPagesSpecifyCache**](./nf-wdm-mmmaplockedpagesspecifycache.md), using it may require linking to NtosKrnl.lib.
 
 ## -see-also
