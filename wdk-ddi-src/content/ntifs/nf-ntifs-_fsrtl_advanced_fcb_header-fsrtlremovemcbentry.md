@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlRemoveMcbEntry
 title: FsRtlRemoveMcbEntry function (ntifs.h)
-description: Obsolete.
+description: The FsRtlRemoveMcbEntry function is obsolete.
 old-location: ifsk\fsrtlremovemcbentry.htm
 tech.root: ifsk
 ms.date: 04/16/2018

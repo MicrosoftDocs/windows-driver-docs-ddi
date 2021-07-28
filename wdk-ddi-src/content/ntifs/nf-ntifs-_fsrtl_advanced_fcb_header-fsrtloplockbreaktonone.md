@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlOplockBreakToNone
 title: FsRtlOplockBreakToNone function (ntifs.h)
-description: Obsolete.
+description: The FsRtlOplockBreakToNone function is obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm
 tech.root: ifsk
 ms.date: 04/16/2018

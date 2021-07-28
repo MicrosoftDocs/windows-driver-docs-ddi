@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_POWER_MANAGEMENT
 title: IOCTL_VIDEO_SET_POWER_MANAGEMENT (ntddvdeo.h)
-description: This IOCTL is obsolete in Windows 2000 and later, and is no longer supported.
+description: Learn how IOCTL is obsolete in Windows 2000 and later, and is no longer supported.
 old-location: display\ioctl_video_set_power_management.htm
 tech.root: display
 ms.date: 05/10/2018

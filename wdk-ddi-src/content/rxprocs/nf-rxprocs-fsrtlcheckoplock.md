@@ -1,7 +1,7 @@
 ---
 UID: NF:rxprocs.FsRtlCheckOplock
 title: FsRtlCheckOplock macro (rxprocs.h)
-description: The FsRtlCheckOplock routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
+description: Learn how the FsRtlCheckOplock routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fsrtlcheckoplock.htm
 tech.root: ifsk
 ms.date: 04/16/2018

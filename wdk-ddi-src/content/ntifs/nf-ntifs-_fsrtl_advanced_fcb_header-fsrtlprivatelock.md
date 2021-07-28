@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlPrivateLock
 title: FsRtlPrivateLock function (ntifs.h)
-description: Obsolete.
+description: The FsRtlPrivateLock function is obsolete.
 old-location: ifsk\fsrtlprivatelock.htm
 tech.root: ifsk
 ms.date: 04/16/2018
