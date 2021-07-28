@@ -47,11 +47,11 @@ Provides the primary method to access PrintCapabilities.
 
 ## -inheritance
 
-The **IPrintSchemaCapabilities** interface inherits from [IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement).
+The **IPrintSchemaCapabilities** interface inherits from [IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md).
 
 ## -remarks
 
-To obtain an **IXMLDOMDocument2** object for the PrintCapabilities object, you must first dereference the *ppXmlNode* parameter of the [XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode) property (using *ppXmlNode ). This retrieves a pointer to an interface of type **IUnknown**. 
+To obtain an **IXMLDOMDocument2** object for the PrintCapabilities object, you must first dereference the *ppXmlNode* parameter of the [XmlNode](./nf-printerextension-iprintschemaelement-get_xmlnode.md) property (using *ppXmlNode ). This retrieves a pointer to an interface of type **IUnknown**. 
 
 Use this pointer to  call the **QueryInterface** method of the PrintCapabilities object to access the underlying **IXMLDOMDocument2** object.
 
@@ -59,12 +59,12 @@ Use this pointer to  call the **QueryInterface** method of the PrintCapabilities
 
 [Developing v4 print drivers](/windows-hardware/drivers/print/v4-printer-driver)
 
-[IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
+[IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)
 
-[IPrintSchemaElement::XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
+[IPrintSchemaElement::XmlNode](./nf-printerextension-iprintschemaelement-get_xmlnode.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
 
-[IPrintSchemaTicket_GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)
+[IPrintSchemaTicket_GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)
 
 [V4 Printer Driver Localization](/windows-hardware/drivers/print/v4-driver-localization)

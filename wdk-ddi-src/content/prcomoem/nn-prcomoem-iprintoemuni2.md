@@ -45,7 +45,7 @@ api_name:
 
 This section describes the methods defined for the **IPrintOemUni2** COM interface.
 
-In addition to the methods that belong to the IPrintOemUni2 COM interface, this interface includes all of the methods that belong to the [IPrintOemUni](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni) COM interface.
+In addition to the methods that belong to the IPrintOemUni2 COM interface, this interface includes all of the methods that belong to the [IPrintOemUni](./nn-prcomoem-iprintoemuni.md) COM interface.
 
 ## -inheritance
 

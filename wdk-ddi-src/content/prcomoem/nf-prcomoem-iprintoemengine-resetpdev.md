@@ -57,4 +57,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IPrintOemEngine](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine)
+[IPrintOemEngine](./nn-prcomoem-iprintoemengine.md)

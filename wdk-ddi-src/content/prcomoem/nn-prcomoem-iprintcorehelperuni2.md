@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The IPrintCoreHelperUni2 interface derives from the [IPrintCoreHelperUni](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni) interface and adds a method.
+The IPrintCoreHelperUni2 interface derives from the [IPrintCoreHelperUni](./nn-prcomoem-iprintcorehelperuni.md) interface and adds a method.
 
 ## -inheritance
 

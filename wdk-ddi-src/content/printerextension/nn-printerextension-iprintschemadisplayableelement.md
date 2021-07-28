@@ -47,6 +47,6 @@ Provides the displayable string for a PrintCapabilites PrintSchema element.
 
 ## -see-also
 
-[IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
+[IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)
 
-[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)
+[IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md)

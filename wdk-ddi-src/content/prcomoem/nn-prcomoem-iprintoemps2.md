@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-This section describes the methods defined for the **IPrintOemPS2** COM interface. In addition to these methods, this interface includes all of the methods defined in the [IPrintOemPS](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemps) COM interface.
+This section describes the methods defined for the **IPrintOemPS2** COM interface. In addition to these methods, this interface includes all of the methods defined in the [IPrintOemPS](./nn-prcomoem-iprintoemps.md) COM interface.
 
 ## -inheritance
 

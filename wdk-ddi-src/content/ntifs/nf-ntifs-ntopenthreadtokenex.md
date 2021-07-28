@@ -54,7 +54,7 @@ The **NtOpenThreadTokenEx** routine opens the access token associated with a thr
 
 ### -param DesiredAccess
 
-[in] [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)) to determine which access rights are granted or denied.
+[in] [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which access rights are granted or denied.
 
 ### -param OpenAsSelf
 
@@ -78,7 +78,7 @@ If this parameter is **FALSE**, the access check is performed using the security
 | ----------- | ----------- |
 | STATUS_ACCESS_DENIED |
 **ThreadHandle** did not have THREAD_QUERY_INFORMATION access. |
-| STATUS_CANT_OPEN_ANONYMOUS | The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see [**SECURITY_IMPERSONATION_LEVEL**](/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level). |
+| STATUS_CANT_OPEN_ANONYMOUS | The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see [**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md). |
 | STATUS_INVALID_HANDLE | **ThreadHandle** was not a valid handle. |
 | STATUS_INVALID_PARAMETER | The specified **HandleAttributes** did not include OBJ_KERNEL_HANDLE. |
 | STATUS_NO_TOKEN | An attempt has been made to open a token associated with a thread that is not currently impersonating a client. |
@@ -102,12 +102,12 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
-[**ACL**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
-[**PsDereferencePrimaryToken**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceprimarytoken)
+[**PsDereferencePrimaryToken**](./nf-ntifs-psdereferenceprimarytoken.md)
 
-[**SECURITY_IMPERSONATION_LEVEL**](/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level)
+[**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md)
 
-[**ZwClose**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[**ZwClose**](./nf-ntifs-ntclose.md)
 
 [**ZwOpenProcessTokenEx**](/previous-versions/ff567024(v=vs.85))

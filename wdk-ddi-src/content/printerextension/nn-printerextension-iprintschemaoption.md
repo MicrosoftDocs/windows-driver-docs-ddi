@@ -47,20 +47,20 @@ Exposes a Print Schema Option object.
 
 ## -inheritance
 
-The **IPrintSchemaOption** interface inherits from [IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement).
+The **IPrintSchemaOption** interface inherits from [IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md).
 
 ## -remarks
 
-You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a *name* attribute specified. This attribute is used to build the **IPrintSchemaOption** and [IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature) objects. If the *name* attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
+You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a *name* attribute specified. This attribute is used to build the **IPrintSchemaOption** and [IPrintSchemaFeature](./nn-printerextension-iprintschemafeature.md) objects. If the *name* attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
 
 ## -see-also
 
-[IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement)
+[IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md)
 
-[IPrintSchemaFeature::GetOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-getoption)
+[IPrintSchemaFeature::GetOption](./nf-printerextension-iprintschemafeature-getoption.md)
 
-[IPrintSchemaFeature::SelectedOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-get_selectedoption)
+[IPrintSchemaFeature::SelectedOption](./nf-printerextension-iprintschemafeature-get_selectedoption.md)
 
-[IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection)
+[IPrintSchemaOptionCollection](./nn-printerextension-iprintschemaoptioncollection.md)
 
-[IPrintSchemaPageMediaSizeOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption)
+[IPrintSchemaPageMediaSizeOption](./nn-printerextension-iprintschemapagemediasizeoption.md)

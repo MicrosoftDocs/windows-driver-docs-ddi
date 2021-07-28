@@ -47,4 +47,4 @@ Exposes a Print Schema PageMediaSize Option element.
 
 ## -see-also
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)

@@ -68,24 +68,24 @@ dev_langs:
 
 ## -remarks
 
-An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. **NtPrivilegeCheck** checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call [**SeQueryInformationToken**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken).
+An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. **NtPrivilegeCheck** checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call [**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md).
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
-[**LUID_AND_ATTRIBUTES**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_luid_and_attributes)
+[**LUID_AND_ATTRIBUTES**](../wdm/ns-wdm-_luid_and_attributes.md)
 
 [**PRIVILEGE_SET**](/previous-versions/windows/hardware/drivers/ff551860(v=vs.85))
 
 [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
 
-[**SeAccessCheck**](/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck)
+[**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md)
 
-[**SeAppendPrivileges**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seappendprivileges)
+[**SeAppendPrivileges**](./nf-ntifs-seappendprivileges.md)
 
-[**SeFreePrivileges**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefreeprivileges)
+[**SeFreePrivileges**](./nf-ntifs-sefreeprivileges.md)
 
-[**SeQueryInformationToken**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken)
+[**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md)
 
-[**SeSinglePrivilegeCheck**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-sesingleprivilegecheck)
+[**SeSinglePrivilegeCheck**](../ntddk/nf-ntddk-sesingleprivilegecheck.md)

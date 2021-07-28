@@ -45,11 +45,10 @@ api_name:
 
 This section describes the methods defined for the **IPrintOemUni3** COM interface.
 
-The **IPrintOemUni3** COM interface includes its own methods as well as those that belong to [IPrintOemUni](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni) COM interface and the [IPrintOemUni2](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni2) COM interface.
+The **IPrintOemUni3** COM interface includes its own methods as well as those that belong to [IPrintOemUni](./nn-prcomoem-iprintoemuni.md) COM interface and the [IPrintOemUni2](./nn-prcomoem-iprintoemuni2.md) COM interface.
 
 The **IPrintOemUni3** COM interface is available in Windows Vista and later.
 
 ## -inheritance
 
 The **IPrintOemUni3** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
-
