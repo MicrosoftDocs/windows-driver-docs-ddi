@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_17
 title: KSPROPERTY_CONNECTION (ks.h)
-description: 
+description: "Learn more about: KSPROPERTY_CONNECTION enumeration"
 old-location: stream\ksproperty_connection.htm
 tech.root: stream
 ms.date: 04/23/2018

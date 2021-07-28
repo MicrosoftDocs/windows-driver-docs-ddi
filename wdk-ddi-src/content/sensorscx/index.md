@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sensorscx.h header"
 UID: NA:sensorscx
 title: Sensorscx.h header
 ms.assetid: 5d44f356-17a0-30d5-84f5-5fb6532ee25b

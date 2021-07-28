@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nblhash.h header"
 UID: NA:nblhash
 title: Nblhash.h header
 ms.date: 11/30/2020

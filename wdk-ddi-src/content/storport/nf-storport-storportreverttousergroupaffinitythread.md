@@ -5,7 +5,7 @@ title: StorPortRevertToUserGroupAffinityThread
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: StorPortRevertToUserGroupAffinityThread"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

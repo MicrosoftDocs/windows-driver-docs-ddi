@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ndkpi.h header"
 UID: NA:ndkpi
 title: Ndkpi.h header
 ms.assetid: 02841f37-13ac-3add-ad38-3b3bca3407aa

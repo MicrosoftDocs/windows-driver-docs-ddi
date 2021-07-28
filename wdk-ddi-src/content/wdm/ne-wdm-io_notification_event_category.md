@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._IO_NOTIFICATION_EVENT_CATEGORY
 title: IO_NOTIFICATION_EVENT_CATEGORY
-description: 
+description: "Learn more about: IO_NOTIFICATION_EVENT_CATEGORY enumeration"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["IO_NOTIFICATION_EVENT_CATEGORY enumeration"]

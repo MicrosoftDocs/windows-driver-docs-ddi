@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sti.h header"
 UID: NA:sti
 title: Sti.h header
 ms.assetid: 68cc0060-fd37-3ec3-a689-419b81682f45

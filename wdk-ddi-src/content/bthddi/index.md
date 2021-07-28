@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bthddi.h header"
 UID: NA:bthddi
 title: Bthddi.h header
 ms.assetid: 075c7427-63f8-368d-8e29-b03b091fac0d

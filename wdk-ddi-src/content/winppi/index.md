@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Winppi.h header"
 UID: NA:winppi
 title: Winppi.h header
 ms.assetid: e15cc1a6-d632-32d8-a54d-773f8b6cfccc

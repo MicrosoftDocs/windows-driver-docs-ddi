@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._DEBUG_DEVICE_DESCRIPTOR
 title: DEBUG_DEVICE_DESCRIPTOR
-description: 
+description: "Learn more about: DEBUG_DEVICE_DESCRIPTOR structure"
 tech.root: devtest
 ms.date: 08/19/2019
 keywords: ["DEBUG_DEVICE_DESCRIPTOR structure"]

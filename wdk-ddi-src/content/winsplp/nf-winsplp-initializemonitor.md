@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.InitializeMonitor
 title: InitializeMonitor function (winsplp.h)
-description: 
+description: "Learn more about: InitializeMonitor function"
 old-location: print\initializemonitor.htm
 tech.root: print
 ms.date: 04/20/2018

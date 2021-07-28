@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatypes.TAG
 title: TAG function (bdatypes.h)
-description: 
+description: "Learn more about: TAG function"
 ms.date: 11/17/2020
 keywords: ["TAG function"]
 ms.keywords: TAG

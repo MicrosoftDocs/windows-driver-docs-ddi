@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D3Dhal.h header"
 UID: NA:d3dhal
 title: D3Dhal.h header
 ms.assetid: 3950cb86-9a27-30dd-bc8a-034bfa07b5c9

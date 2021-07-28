@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KTRIAGE_DUMP_DATA_ARRAY
 title: _KTRIAGE_DUMP_DATA_ARRAY (wdm.h)
-description: 
+description: "Learn more about: _KTRIAGE_DUMP_DATA_ARRAY structure"
 ms.date: 10/19/2018
 tech.root: devtest
 keywords: ["KTRIAGE_DUMP_DATA_ARRAY structure"]

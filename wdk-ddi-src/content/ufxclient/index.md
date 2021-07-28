@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ufxclient.h header"
 UID: NA:ufxclient
 title: Ufxclient.h header
 ms.assetid: a102bd53-90d1-3f5d-ad42-1dedbc9a7679

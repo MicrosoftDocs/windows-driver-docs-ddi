@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: portabledevicetypes.h header"
 UID: NA:portabledevicetypes
 title: portabledevicetypes.h header
 ms.assetid: d1e1b40a-26b6-3527-9981-b4f25be1e45f

@@ -1,7 +1,7 @@
 ---
 UID: NE:strmini._STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
 title: _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE (strmini.h)
-description: 
+description: "Learn more about: _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration"
 old-location: stream\stream_minidriver_device_notification_type.htm
 tech.root: stream
 ms.date: 04/23/2018

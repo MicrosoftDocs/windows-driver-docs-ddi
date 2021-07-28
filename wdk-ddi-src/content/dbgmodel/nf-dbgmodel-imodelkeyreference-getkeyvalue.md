@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetKeyValue
 title: IModelKeyReference::GetKeyValue (dbgmodel.h)
-description: The GetKeyValue method on a key reference behaves as the GetKeyValue method on IModelObject would.
+description: "The IModelKeyReference::GetKeyValue method, when called on a key reference, gets the value of the underlying key and any metadata associated with it."
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference::GetKeyValue"]
 ms.keywords: IModelKeyReference::GetKeyValue, GetKeyValue, IModelKeyReference.GetKeyValue, IModelKeyReference::GetKeyValue, IModelKeyReference.GetKeyValue

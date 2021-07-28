@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h

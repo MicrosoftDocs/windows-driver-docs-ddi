@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_8
 title: KSPROPERTY_GM (ks.h)
-description: 
+description: "Learn more about: KSPROPERTY_GM enumeration"
 old-location: stream\ksproperty_gm.htm
 tech.root: stream
 ms.date: 04/23/2018

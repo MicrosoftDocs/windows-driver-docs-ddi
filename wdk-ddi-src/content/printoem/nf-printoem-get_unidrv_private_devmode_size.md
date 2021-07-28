@@ -1,7 +1,7 @@
 ---
 UID: NF:printoem.GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro (printoem.h)
-description: 
+description: "Learn more about: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"
 ms.date: 11/18/2020
 keywords: ["GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"]
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE

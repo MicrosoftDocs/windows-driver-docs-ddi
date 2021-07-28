@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PoCallDriver
 title: PoCallDriver function (wdm.h)
-description: The PoCallDriver routine passes a power IRP to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.).
+description: The PoCallDriver routine in wdm.h passes a power IRP to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\pocalldriver.htm
 tech.root: kernel
 ms.date: 04/30/2018

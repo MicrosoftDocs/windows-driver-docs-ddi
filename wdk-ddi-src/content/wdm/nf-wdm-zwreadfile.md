@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwReadFile
 title: ZwReadFile function (wdm.h)
-description: The ZwReadFile routine reads data from an open file.
+description: The ZwReadFile routine in wdm.h reads data from an open file. Callers of ZwReadFile must have already called ZwCreateFile.
 old-location: kernel\zwreadfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:treeinlinecryptoservice._INLINE_CRYPTO_PROGRAM_KEY_IN
 title: _INLINE_CRYPTO_PROGRAM_KEY_IN (treeinlinecryptoservice.h)
-description: 
+description: "Learn more about: _INLINE_CRYPTO_PROGRAM_KEY_IN structure"
 ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_PROGRAM_KEY_IN structure"]
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_IN, INLINE_CRYPTO_PROGRAM_KEY_IN, *PINLINE_CRYPTO_PROGRAM_KEY_IN,

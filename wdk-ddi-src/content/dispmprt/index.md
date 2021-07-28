@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dispmprt.h header"
 UID: NA:dispmprt
 title: Dispmprt.h header
 ms.assetid: c88cfcf2-97ac-371a-9a81-20a09d36eb77

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nblchecksum.h header"
 UID: NA:nblchecksum
 title: Nblchecksum.h header
 ms.date: 11/30/2020

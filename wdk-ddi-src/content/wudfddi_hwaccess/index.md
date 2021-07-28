@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wudfddi_Hwaccess.h header"
 UID: NA:wudfddi_hwaccess
 title: Wudfddi_Hwaccess.h header
 ms.assetid: 980bceb7-c24c-3b37-ba92-d94daf1c0aea

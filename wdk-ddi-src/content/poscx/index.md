@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poscx.h header"
 UID: NA:poscx
 title: Poscx.h header
 ms.assetid: 0484e206-0de1-3054-8ac2-1ef67c0f4f2d

@@ -1,7 +1,7 @@
 ---
 UID: NN:prnasntp.IAsyncGetSendNotificationCookie
 title: IAsyncGetSendNotificationCookie (prnasntp.h)
-description: 
+description: "Learn more about: IAsyncGetSendNotificationCookie interface"
 old-location: print\iasyncgetsendnotificationcookie.htm
 tech.root: print
 ms.date: 04/20/2018

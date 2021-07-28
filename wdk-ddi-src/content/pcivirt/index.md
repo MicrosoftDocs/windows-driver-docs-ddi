@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pcivirt.h header"
 UID: NA:pcivirt
 title: Pcivirt.h header
 ms.assetid: bc773e64-8435-30c4-b21e-3a5a58d3b29e

@@ -1,7 +1,7 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceCallOSService
 title: TrSecureDeviceCallOSService function (trustedruntimeclx.h)
-description: 
+description: "Learn more about: TrSecureDeviceCallOSService function"
 ms.date: 11/20/2020
 keywords: ["TrSecureDeviceCallOSService function"]
 ms.keywords: TrSecureDeviceCallOSService

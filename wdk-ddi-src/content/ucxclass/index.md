@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucxclass.h header"
 UID: NA:ucxclass
 title: Ucxclass.h header
 ms.assetid: dbaa665f-bdcf-3bfc-946e-cfe851a0bcac

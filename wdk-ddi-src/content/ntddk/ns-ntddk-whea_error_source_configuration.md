@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_SOURCE_CONFIGURATION
 title: WHEA_ERROR_SOURCE_CONFIGURATION
-description: 
+description: "Learn more about: WHEA_ERROR_SOURCE_CONFIGURATION structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION structure"]

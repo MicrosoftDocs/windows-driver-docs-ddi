@@ -5,7 +5,7 @@ tech.root: wdf
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: EVT_WDF_DEVICE_D0_EXIT_PRE_HARDWARE_DISABLED"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

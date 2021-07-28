@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ndis.h header"
 UID: NA:ndis
 title: Ndis.h header
 ms.assetid: e28f0b17-202f-367c-9cdd-eb5880617eca

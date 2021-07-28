@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Hidclass.h header"
 UID: NA:hidclass
 title: Hidclass.h header
 ms.assetid: de170db5-5638-39ba-ba11-68718e93aef6

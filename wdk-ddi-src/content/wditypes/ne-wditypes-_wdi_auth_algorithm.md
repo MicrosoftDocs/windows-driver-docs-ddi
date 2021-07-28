@@ -4,9 +4,9 @@ title: _WDI_AUTH_ALGORITHM (wditypes.h)
 description: The WDI_AUTH_ALGORITHM enumeration defines the authentication algorithm values.
 old-location: netvista\wdi_auth_algorithm.htm
 tech.root: netvista
-ms.date: 05/06/2021
+ms.date: 07/27/2021
 keywords: ["WDI_AUTH_ALGORITHM enumeration"]
-ms.keywords: WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, _WDI_AUTH_ALGORITHM, netvista.wdi_auth_algorithm, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK
+ms.keywords: WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], _WDI_AUTH_ALGORITHM, WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_PSK, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_WPA3_ENT_192, WDI_AUTH_ALGO_WPA3_SAE, WDI_AUTH_ALGO_OWE, WDI_AUTH_ALGO_WPA3_ENT, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA3_ENT_192, wditypes/WDI_AUTH_ALGO_WPA3_SAE, wditypes/WDI_AUTH_ALGO_OWE, wditypes/WDI_AUTH_ALGO_WPA3_ENT, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_IHV_END, netvista.wdi_auth_algorithm, netvista.wifi_auth_algorithm
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -87,9 +87,9 @@ Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authori
 
 When the RSNA PSK algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the RSN IE.
 
-### -field WDI_AUTH_ALGO_WPA3
+### -field WDI_AUTH_ALGO_WPA3_ENT_192
 
-Specifies a Wi-Fi Protected Access 3 (WPA3) algorithm.
+Specifies a Wi-Fi Protected Access 3 (WPA3) 192-bit enterprise algorithm.
 
 ### -field WDI_AUTH_ALGO_WPA3_SAE
 
@@ -98,6 +98,10 @@ Specifies a WPA3-Simultaneous Authentication of Equals (WPA3-SAE) algorithm.
 ### -field WDI_AUTH_ALGO_OWE
 
 Specifies an opportunistic wireless encryption (OWE) algorithm.
+
+### -field WDI_AUTH_ALGO_WPA3_ENT
+
+Specifies a Wi-Fi Protected Access 3 (WPA3) enterprise algorithm.
 
 ### -field WDI_AUTH_ALGO_IHV_START
 

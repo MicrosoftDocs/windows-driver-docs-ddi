@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Hidpi.h header"
 UID: NA:hidpi
 title: Hidpi.h header
 ms.assetid: 755e703a-2165-39e7-a3dc-27fc70f42714

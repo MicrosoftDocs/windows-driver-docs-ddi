@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Streaming media devices"
 UID: TP:stream
 title: Streaming media devices
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016

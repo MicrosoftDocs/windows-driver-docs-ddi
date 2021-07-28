@@ -4,7 +4,7 @@ tech.root: hid
 title: EVT_HIDSPICX_RESETDEVICE
 ms.date: 06/14/2021
 targetos: Windows
-description: 
+description: "Learn more about: EVT_HIDSPICX_RESETDEVICE"
 prerelease: false
 req.assembly: 
 req.construct-type: function

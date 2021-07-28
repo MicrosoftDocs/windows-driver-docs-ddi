@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prefix.h header"
 UID: NA:prefix
 title: Prefix.h header
 ms.assetid: 40e93800-fca3-3d55-8a33-71ad08228385

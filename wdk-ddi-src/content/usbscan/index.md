@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbscan.h header"
 UID: NA:usbscan
 title: Usbscan.h header
 ms.assetid: 31ca997d-12f9-393e-bfce-cdcf84179963

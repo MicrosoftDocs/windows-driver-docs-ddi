@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfworkitem.h header"
 UID: NA:wdfworkitem
 title: Wdfworkitem.h header
 ms.assetid: e3fcf1e4-b963-3e8e-bd3e-64d46b22f057

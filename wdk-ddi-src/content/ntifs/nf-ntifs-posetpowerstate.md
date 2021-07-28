@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoSetPowerState
 title: PoSetPowerState function (ntifs.h)
-description: The PoSetPowerState routine notifies the system of a change in the device power state for a device.
+description: The PoSetPowerState routine in ntifs.h notifies the system of a change in the device power state for a device.
 old-location: kernel\posetpowerstate.htm
 tech.root: kernel
 ms.date: 04/30/2018

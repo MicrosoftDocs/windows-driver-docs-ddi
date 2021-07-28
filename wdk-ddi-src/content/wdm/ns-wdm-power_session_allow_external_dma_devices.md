@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
 title: POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES (wdm.h)
-description: 
+description: "Learn more about: POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES structure (wdm.h)"
 tech.root: kernel
 ms.date: 04/28/2020
 ms.topic: struct

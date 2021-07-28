@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wsk.h header"
 UID: NA:wsk
 title: Wsk.h header
 ms.assetid: 299d7385-fc5c-3b4d-91f8-ca12894ed875

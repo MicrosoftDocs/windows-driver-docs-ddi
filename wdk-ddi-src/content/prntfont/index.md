@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prntfont.h header"
 UID: NA:prntfont
 title: Prntfont.h header
 ms.assetid: f5e425fd-5595-35f2-a035-642b39d97e9f

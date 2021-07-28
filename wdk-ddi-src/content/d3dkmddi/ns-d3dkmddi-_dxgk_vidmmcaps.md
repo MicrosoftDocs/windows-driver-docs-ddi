@@ -106,7 +106,7 @@ Specifies whether the adapter supports the *GpuMmu* model. An adapter cannot sup
 
 ### -field IoMmuSupported
 
-Specifies whether the adapter supports the *IoMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [IoMmu model](/windows-hardware/drivers/display/iommu-model) for more information. Supported starting with Windows 10.
+Specifies whether the adapter supports the *IoMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [IoMmu model](/windows-hardware/drivers/display/iommu-model) for more information. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field ReplicateGdiContent
 
@@ -118,11 +118,11 @@ Indicates that GDI allocations are not required to be CPU visible. Supported sta
 
 ### -field ParavirtualizationSupported
 
-The host KMD needs to set the cap if all DDIs are implemented. Supported starting with Windows 10 version 1703.
+The host KMD needs to set the cap if all DDIs are implemented. Supported starting with Windows 10 version 1703 (WDDM 2.2).
 
 ### -field IoMmuSecureModeSupported
 
-Indicates that the driver supports IOMMU hardware and isolation. Supported starting with Windows 10 version 1803.
+Indicates that the driver supports [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation). Supported starting with Windows 10 version 1803 (WDDM 2.4).
 
 ### -field DisableSelfRefreshVRAMInS3
 
@@ -130,7 +130,7 @@ Disable support for VRAM self-refresh in S3. Supported starting with Windows 10 
 
 ### -field IoMmuSecureModeRequired
 
-Indicates that IOMMU hardware and isolation support (referred to by the **IommuSecureModeSupported** flag) is required or the OS will otherwise not start the adapter. Supported starting with Windows 10 version 2004.
+Indicates that IOMMU hardware and isolation support (referred to by the **IommuSecureModeSupported** flag) is required or the OS will otherwise not start the adapter. Supported starting with Windows 10 version 2004 (WDDM 2.7).
 
 ### -field MapAperture2Supported
 

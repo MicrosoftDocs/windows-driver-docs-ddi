@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D3Dumddi.h header"
 UID: NA:d3dumddi
 title: D3Dumddi.h header
 ms.assetid: 64c7511b-6379-3c2f-bd00-f08eab970dc2

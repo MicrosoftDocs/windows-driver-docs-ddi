@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Smartcard"
 UID: TP:smartcard
 title: Smartcard
 ms.assetid: ab0dbe83-27f1-338c-9202-5d6bc3470e56

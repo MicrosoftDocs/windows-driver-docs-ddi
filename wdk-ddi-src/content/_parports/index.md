@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Parallel Ports"
 UID: TP:parports
 title: Parallel Ports
 ms.assetid: 38f4cf0c-2fc1-3909-83b7-bf354cf904c1

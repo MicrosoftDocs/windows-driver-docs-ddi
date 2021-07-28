@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfrequest.h header"
 UID: NA:wdfrequest
 title: Wdfrequest.h header
 ms.assetid: 10b9bec4-c13d-3d81-bf4f-3a6c11fa28b5

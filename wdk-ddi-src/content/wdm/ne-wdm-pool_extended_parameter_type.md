@@ -5,7 +5,7 @@ tech.root: kernel
 ms.date: 03/01/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: POOL_EXTENDED_PARAMETER_TYPE"
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wdm.h

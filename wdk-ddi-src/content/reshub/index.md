@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reshub.h header"
 UID: NA:reshub
 title: Reshub.h header
 ms.assetid: 9a7ab989-5fce-3d9d-8e4e-202e0218e137

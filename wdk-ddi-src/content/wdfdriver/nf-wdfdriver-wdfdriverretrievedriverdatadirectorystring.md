@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfdriver.WdfDriverRetrieveDriverDataDirectoryString
 title: WdfDriverRetrieveDriverDataDirectoryString function (wdfdriver.h)
-description: 
+description: "Learn more about: WdfDriverRetrieveDriverDataDirectoryString function"
 tech.root: wdf
 ms.date: 10/19/2018
 keywords: ["WdfDriverRetrieveDriverDataDirectoryString function"]

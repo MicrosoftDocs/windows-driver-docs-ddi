@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_3
 title: KSMETHOD_STREAMIO (ks.h)
-description: 
+description: "Learn more about: KSMETHOD_STREAMIO enumeration"
 old-location: stream\ksmethod_streamio.htm
 tech.root: stream
 ms.date: 04/23/2018

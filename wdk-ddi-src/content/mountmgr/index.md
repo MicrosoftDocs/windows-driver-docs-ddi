@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mountmgr.h header"
 UID: NA:mountmgr
 title: Mountmgr.h header
 ms.assetid: f85c530f-35d6-36ba-99e3-5ed06a65e9c8

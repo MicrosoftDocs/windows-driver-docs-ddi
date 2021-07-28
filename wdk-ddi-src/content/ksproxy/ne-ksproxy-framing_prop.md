@@ -1,7 +1,7 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_1
 title: FRAMING_PROP (ksproxy.h)
-description: 
+description: "Learn more about: FRAMING_PROP enumeration"
 old-location: stream\framing_prop.htm
 tech.root: stream
 ms.date: 04/23/2018

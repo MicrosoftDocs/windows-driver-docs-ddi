@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetVersion
 title: IDebugHostModule2::GetVersion (dbgmodel.h)
-description: The GetVersion method returns version information about the module (assuming that such information can successfully be read out of the headers).
+description: "The IDebugHostModule2::GetVersion method, when called on a module, gets module version information from the module headers."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::GetVersion"]
 ms.keywords: IDebugHostModule2::GetVersion, GetVersion, IDebugHostModule2.GetVersion, IDebugHostModule2::GetVersion, IDebugHostModule2.GetVersion

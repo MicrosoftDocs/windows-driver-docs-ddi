@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoSetPowerRequest
 title: PoSetPowerRequest function (ntifs.h)
-description: The PoSetPowerRequest routine increments the count for the specified power request type.
+description: The PoSetPowerRequest routine in ntifs.h increments the count for the power request type. The power manager counts requests for each power request type.
 old-location: kernel\posetpowerrequest.htm
 tech.root: kernel
 ms.date: 04/30/2018

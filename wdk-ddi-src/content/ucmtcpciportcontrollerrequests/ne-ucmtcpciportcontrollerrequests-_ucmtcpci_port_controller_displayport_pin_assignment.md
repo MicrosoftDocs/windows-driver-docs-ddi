@@ -1,7 +1,7 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 title: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT (ucmtcpciportcontrollerrequests.h)
-description: 
+description: "Learn more about: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration"
 old-location: buses\ucmtcpci_port_controller_displayport_pin_assignment.htm
 tech.root: usbref
 ms.date: 05/07/2018

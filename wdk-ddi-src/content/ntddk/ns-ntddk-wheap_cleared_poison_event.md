@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_CLEARED_POISON_EVENT
 title: WHEAP_CLEARED_POISON_EVENT
-description: 
+description: "Learn more about: WHEAP_CLEARED_POISON_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_CLEARED_POISON_EVENT structure"]

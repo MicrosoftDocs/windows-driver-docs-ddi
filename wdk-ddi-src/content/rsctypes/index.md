@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rsctypes.h header"
 UID: NA:rsctypes
 title: Rsctypes.h header
 ms.assetid: EDDADFDB-8BC5-49C8-B43E-8975D4E975CA

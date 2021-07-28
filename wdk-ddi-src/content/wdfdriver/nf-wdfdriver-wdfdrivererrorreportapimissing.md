@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfdriver.WdfDriverErrorReportApiMissing
 title: WdfDriverErrorReportApiMissing function (wdfdriver.h)
-description: 
+description: "Learn more about: WdfDriverErrorReportApiMissing function"
 tech.root: wdf
 ms.date: 10/19/2018
 keywords: ["WdfDriverErrorReportApiMissing function"]

@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERYPROBEDBARS
 title: DXGKDDI_QUERYPROBEDBARS
-description: 
+description: "Learn more about: DXGKDDI_QUERYPROBEDBARS callback function"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_QUERYPROBEDBARS callback function"]

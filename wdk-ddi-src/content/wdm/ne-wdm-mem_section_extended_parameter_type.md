@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm.MEM_SECTION_EXTENDED_PARAMETER_TYPE
 title: MEM_SECTION_EXTENDED_PARAMETER_TYPE (wdm.h)
-description: 
+description: "Learn more about: MEM_SECTION_EXTENDED_PARAMETER_TYPE enumeration"
 ms.date: 09/30/2018
 tech.root: kernel
 keywords: ["MEM_SECTION_EXTENDED_PARAMETER_TYPE enumeration"]

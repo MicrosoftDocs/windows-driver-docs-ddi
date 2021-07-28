@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Audio"
 UID: TP:audio
 title: Audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764

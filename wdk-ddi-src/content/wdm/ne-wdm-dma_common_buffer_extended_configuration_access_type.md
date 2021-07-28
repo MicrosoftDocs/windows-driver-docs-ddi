@@ -4,7 +4,7 @@ title: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE
 ms.date: 10/28/2020
 ms.topic: language-reference
 targetos: Windows
-description:
+description: "Learn more about: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE"
 req.construct-type: enumeration
 req.ddi-compliance:
 req.header: wdm.h

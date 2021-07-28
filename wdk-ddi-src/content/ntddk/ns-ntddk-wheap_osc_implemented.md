@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_OSC_IMPLEMENTED
 title: WHEAP_OSC_IMPLEMENTED
-description: 
+description: "Learn more about: WHEAP_OSC_IMPLEMENTED structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_OSC_IMPLEMENTED structure"]

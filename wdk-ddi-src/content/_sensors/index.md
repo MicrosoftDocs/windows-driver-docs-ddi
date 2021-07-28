@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sensors"
 UID: TP:sensors
 title: Sensors
 ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d

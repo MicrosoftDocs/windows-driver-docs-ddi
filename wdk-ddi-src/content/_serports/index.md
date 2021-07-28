@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Serial port"
 UID: TP:serports
 title: Serial port
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4

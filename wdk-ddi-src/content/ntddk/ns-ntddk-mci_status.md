@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._MCI_STATUS
 title: MCI_STATUS
-description: 
+description: "Learn more about: MCI_STATUS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS structure"]

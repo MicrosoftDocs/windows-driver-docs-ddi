@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbprint.h header"
 UID: NA:usbprint
 title: Usbprint.h header
 ms.assetid: d4ccb935-1ce5-3e92-bd28-a309ad34ad92

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wudfddi.h header"
 UID: NA:wudfddi
 title: Wudfddi.h header
 ms.assetid: 745c454f-313d-357e-8fd6-1042c8d6f353

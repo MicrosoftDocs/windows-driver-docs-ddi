@@ -5,7 +5,7 @@ title: D3DKMT_QUERYSTATISTICS_PROCESS_INTERFERENCE_COUNTERS
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: D3DKMT_QUERYSTATISTICS_PROCESS_INTERFERENCE_COUNTERS"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwCreateSection
 title: ZwCreateSection function (wdm.h)
-description: The ZwCreateSection routine creates a section object.
+description: The ZwCreateSection routine in wdm.h creates a section object. Once the handle pointed to is no longer in use, the driver must close it.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel
 ms.date: 04/30/2018

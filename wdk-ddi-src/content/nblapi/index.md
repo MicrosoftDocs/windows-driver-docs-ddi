@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nblapi.h header"
 UID: NA:nblapi
 title: blapi.h header
 ms.date: 11/30/2020

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dmusicks.h header"
 UID: NA:dmusicks
 title: Dmusicks.h header
 ms.assetid: c45b3cd8-75b9-3c2a-99f7-976310a605af

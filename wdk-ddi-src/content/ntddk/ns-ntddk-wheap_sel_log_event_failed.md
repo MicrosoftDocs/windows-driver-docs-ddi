@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_SEL_LOG_EVENT_FAILED
 title: WHEAP_SEL_LOG_EVENT_FAILED
-description: 
+description: "Learn more about: WHEAP_SEL_LOG_EVENT_FAILED structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_SEL_LOG_EVENT_FAILED structure"]

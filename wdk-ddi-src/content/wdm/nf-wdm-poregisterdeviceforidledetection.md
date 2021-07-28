@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PoRegisterDeviceForIdleDetection
 title: PoRegisterDeviceForIdleDetection function (wdm.h)
-description: The PoRegisterDeviceForIdleDetection routine enables or cancels idle detection and sets idle time-out values for a device.
+description: The PoRegisterDeviceForIdleDetection routine in wdm.h enables or cancels idle detection and sets idle time-out values for a device.
 old-location: kernel\poregisterdeviceforidledetection.htm
 tech.root: kernel
 ms.date: 04/30/2018

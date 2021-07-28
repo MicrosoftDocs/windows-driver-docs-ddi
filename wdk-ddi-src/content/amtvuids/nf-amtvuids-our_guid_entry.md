@@ -1,7 +1,7 @@
 ---
 UID: NF:amtvuids.OUR_GUID_ENTRY
 title: OUR_GUID_ENTRY macro (amtvuids.h)
-description: 
+description: "Learn more about: OUR_GUID_ENTRY macro"
 ms.date: 11/17/2020
 keywords: ["OUR_GUID_ENTRY macro"]
 ms.keywords: OUR_GUID_ENTRY

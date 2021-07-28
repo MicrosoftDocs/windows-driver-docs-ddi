@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.TRFUNC
 title: TRFUNC (trustedruntimeclx.h)
-description: 
+description: "Learn more about: TRFUNC callback function"
 ms.date: 11/20/2020
 keywords: ["TRFUNC callback function"]
 req.header: trustedruntimeclx.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PoUnregisterSystemState
 title: PoUnregisterSystemState function (wdm.h)
-description: The PoUnregisterSystemState routine cancels a system state registration created by PoRegisterSystemState.
+description: The PoUnregisterSystemState routine in wdm.h cancels a system state registration created by PoRegisterSystemState.
 old-location: kernel\pounregistersystemstate.htm
 tech.root: kernel
 ms.date: 04/30/2018

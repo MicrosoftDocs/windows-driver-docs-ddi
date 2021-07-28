@@ -1,7 +1,7 @@
 ---
 UID: NC:usbcamdi.PSTREAM_RECEIVE_PACKET
 title: PSTREAM_RECEIVE_PACKET (usbcamdi.h)
-description: 
+description: "Learn more about: PSTREAM_RECEIVE_PACKET callback function"
 ms.date: 11/17/2020
 keywords: ["PSTREAM_RECEIVE_PACKET callback function"]
 req.header: usbcamdi.h

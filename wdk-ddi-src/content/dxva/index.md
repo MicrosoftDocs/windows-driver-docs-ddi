@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dxva.h header"
 UID: NA:dxva
 title: Dxva.h header
 ms.assetid: 250929b4-1810-3b6a-a9b5-69d10f2643a0

@@ -1,7 +1,7 @@
 ---
 UID: NE:sidebandaudio._SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 title: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID (sidebandaudio.h)
-description: 
+description: "Learn more about: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration"
 ms.date: 10/19/2018
 keywords: ["SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration"]
 ms.keywords: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID,

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Systemrng.h header"
 UID: NA:systemrng
 title: Systemrng.h header
 ms.assetid: ca8d34e6-cbab-375a-be2d-e46d053e0a33

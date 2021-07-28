@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Keyworddetectoroemadapter.h header"
 UID: NA:keyworddetectoroemadapter
 title: Keyworddetectoroemadapter.h header
 ms.assetid: bf22e8cc-5ff8-3f48-8afe-2cba51a6d8a9

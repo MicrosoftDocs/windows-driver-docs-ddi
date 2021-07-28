@@ -1,7 +1,7 @@
 ---
 UID: NE:scsi._SES_DOWNLOAD_MICROCODE_STATE
 title: _SES_DOWNLOAD_MICROCODE_STATE (scsi.h)
-description: 
+description: "Learn more about: _SES_DOWNLOAD_MICROCODE_STATE enumeration (scsi.h)"
 old-location: storage\ses_download_microcode_state.htm
 tech.root: storage
 ms.date: 03/29/2018

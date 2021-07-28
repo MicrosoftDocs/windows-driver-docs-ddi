@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wificx.h header"
 UID: NA:wificx
 tech.root: netvista
 title: wificx

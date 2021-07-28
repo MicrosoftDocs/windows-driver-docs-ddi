@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netwakesource.h header"
 UID: NA:netwakesource
 title: Netwakesource.h header
 ms.assetid: 4BB252ED-3D1E-4D44-9997-B1BEEF12B490

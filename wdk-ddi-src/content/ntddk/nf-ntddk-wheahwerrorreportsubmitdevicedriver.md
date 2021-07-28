@@ -5,7 +5,7 @@ ms.date: 04/02/2020
 ms.topic: language-reference
 targetos: Windows
 tech.root: whea
-description: 
+description: "Learn more about: WheaHwErrorReportSubmitDeviceDriver"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

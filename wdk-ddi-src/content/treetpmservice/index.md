@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Treetpmservice.h header"
 UID: NA:treetpmservice
 title: Treetpmservice.h header
 ms.assetid: fb540f73-7545-30e7-9383-3f20425030d2

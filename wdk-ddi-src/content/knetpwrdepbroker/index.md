@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Knetpwrdepbroker.h header"
 UID: NA:knetpwrdepbroker
 title: Knetpwrdepbroker.h header
 ms.assetid: 8d07a09f-6987-304d-8dc3-db826ed174ca

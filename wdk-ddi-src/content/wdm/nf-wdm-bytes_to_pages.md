@@ -4,7 +4,7 @@ tech.root:
 title: BYTES_TO_PAGES
 ms.date: 07/16/2021
 targetos: Windows
-description: 
+description: "Learn more about: BYTES_TO_PAGES"
 prerelease: false
 req.assembly: 
 req.construct-type: function

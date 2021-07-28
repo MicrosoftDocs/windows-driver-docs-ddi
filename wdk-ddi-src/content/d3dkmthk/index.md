@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D3Dkmthk.h header"
 UID: NA:d3dkmthk
 title: D3Dkmthk.h header
 ms.assetid: 8e950dfb-b94e-39e1-8e6d-9cc22344d42f

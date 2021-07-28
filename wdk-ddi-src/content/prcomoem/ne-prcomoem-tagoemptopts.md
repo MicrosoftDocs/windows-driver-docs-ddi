@@ -1,7 +1,7 @@
 ---
 UID: NE:prcomoem.tagOEMPTOPTS
 title: tagOEMPTOPTS (prcomoem.h)
-description: 
+description: "Learn more about: tagOEMPTOPTS enumeration"
 old-location: print\oemptopts.htm
 tech.root: print
 ms.date: 04/20/2018

@@ -5,7 +5,7 @@ title: D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS"
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: d3dkmthk.h

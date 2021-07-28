@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.IoSetTopLevelIrp
 title: IoSetTopLevelIrp function (ntifs.h)
-description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
+description: The IoSetTopLevelIrp routine in ntifs.h sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
 tech.root: ifsk
 ms.date: 04/16/2018

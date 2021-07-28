@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_PFA_MEMORY_OFFLINED
 title: WHEAP_PFA_MEMORY_OFFLINED
-description: 
+description: "Learn more about: WHEAP_PFA_MEMORY_OFFLINED structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_OFFLINED structure"]

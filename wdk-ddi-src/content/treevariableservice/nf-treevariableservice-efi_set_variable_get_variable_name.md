@@ -1,7 +1,7 @@
 ---
 UID: NF:treevariableservice.EFI_SET_VARIABLE_GET_VARIABLE_NAME
 title: EFI_SET_VARIABLE_GET_VARIABLE_NAME macro (treevariableservice.h)
-description: 
+description: "Learn more about: EFI_SET_VARIABLE_GET_VARIABLE_NAME macro"
 ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_GET_VARIABLE_NAME macro"]
 ms.keywords: EFI_SET_VARIABLE_GET_VARIABLE_NAME

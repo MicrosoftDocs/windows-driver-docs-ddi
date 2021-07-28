@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mxdc.h header"
 UID: NA:mxdc
 title: Mxdc.h header
 ms.assetid: c814db66-97e8-3874-b493-8fdcf95ba04b

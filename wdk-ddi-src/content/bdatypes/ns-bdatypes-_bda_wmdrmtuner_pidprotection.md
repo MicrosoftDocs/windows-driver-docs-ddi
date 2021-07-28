@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PIDPROTECTION
 title: _BDA_WMDRMTUNER_PIDPROTECTION (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_WMDRMTUNER_PIDPROTECTION structure"
 old-location: stream\bda_wmdrmtuner_pidprotection.htm
 tech.root: stream
 ms.date: 04/23/2018

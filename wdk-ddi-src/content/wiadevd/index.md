@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wiadevd.h header"
 UID: NA:wiadevd
 title: Wiadevd.h header
 ms.assetid: 2bace84f-1c46-33b2-a258-f34f3778f8fb

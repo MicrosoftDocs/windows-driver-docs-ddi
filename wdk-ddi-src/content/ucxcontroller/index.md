@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucxcontroller.h header"
 UID: NA:ucxcontroller
 title: Ucxcontroller.h header
 ms.assetid: d18ef805-5f96-362a-9074-e90dea9d6c26

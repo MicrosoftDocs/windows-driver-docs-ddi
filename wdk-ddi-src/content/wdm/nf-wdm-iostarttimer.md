@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoStartTimer
 title: IoStartTimer function (wdm.h)
-description: The IoStartTimer routine enables the timer associated with a given device object so the driver-supplied IoTimer routine is called once per second.
+description: The IoStartTimer routine in wdm.h enables the timer associated with a given device object so the driver-supplied IoTimer routine is called once per second.
 old-location: kernel\iostarttimer.htm
 tech.root: kernel
 ms.date: 04/30/2018

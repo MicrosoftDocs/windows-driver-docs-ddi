@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_RECOVERY_CONTEXT
 title: WHEA_RECOVERY_CONTEXT
-description: 
+description: "Learn more about: WHEA_RECOVERY_CONTEXT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT structure"]

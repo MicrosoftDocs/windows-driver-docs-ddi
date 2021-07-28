@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Amtvuids.h header"
 UID: NA:amtvuids
 title: Amtvuids.h header
 ms.assetid: 284842fd-1ee7-30f6-945d-13b223b9db60

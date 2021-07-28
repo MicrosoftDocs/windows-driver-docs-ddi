@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ndisndk.h header"
 UID: NA:ndisndk
 title: Ndisndk.h header
 ms.assetid: 97423041-9168-37e0-a61d-87a83c72d7af

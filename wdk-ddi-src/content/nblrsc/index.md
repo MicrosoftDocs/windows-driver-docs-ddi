@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nblrsc.h header"
 UID: NA:nblrsc
 title: Nblrsc.h header
 ms.date: 11/30/2020

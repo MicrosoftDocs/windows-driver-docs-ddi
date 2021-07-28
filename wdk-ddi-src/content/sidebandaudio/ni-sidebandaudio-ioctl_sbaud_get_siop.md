@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIOP
 title: IOCTL_SBAUD_GET_SIOP (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_GET_SIOP IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_SIOP IOCTL"]
 req.header: sidebandaudio.h

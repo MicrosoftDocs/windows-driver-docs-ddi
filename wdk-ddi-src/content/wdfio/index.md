@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfio.h header"
 UID: NA:wdfio
 title: Wdfio.h header
 ms.assetid: 4c6275da-4fdc-3a43-85f1-9db048bee025

@@ -5,7 +5,7 @@ tech.root: kernel
 ms.date: 05/12/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: ExAllocatePool2"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo

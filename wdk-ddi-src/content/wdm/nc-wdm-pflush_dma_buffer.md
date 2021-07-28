@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PFLUSH_DMA_BUFFER
 title: PFLUSH_DMA_BUFFER (wdm.h)
-description: 
+description: "Learn more about: PFLUSH_DMA_BUFFER callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PFLUSH_DMA_BUFFER callback function"]
