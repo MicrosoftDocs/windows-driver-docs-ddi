@@ -1,7 +1,7 @@
 ---
 UID: NS:srb._SCSI_WMI_REQUEST_BLOCK
 title: _SCSI_WMI_REQUEST_BLOCK (srb.h)
-description: This structure is a special version of a SCSI_REQUEST_BLOCK for use with WMI commands.
+description: The _SCSI_WMI_REQUEST_BLOCK structure (srb.h) contains information about a SCSI_REQUEST_BLOCK for use with WMI commands.
 old-location: storage\scsi_wmi_request_block.htm
 tech.root: storage
 ms.date: 03/29/2018

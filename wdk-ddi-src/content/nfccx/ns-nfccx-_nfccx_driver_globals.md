@@ -1,7 +1,7 @@
 ---
 UID: NS:nfccx._NFCCX_DRIVER_GLOBALS
 title: _NFCCX_DRIVER_GLOBALS (nfccx.h)
-description: "."
+description: The _NFCCX_DRIVER_GLOBALS structure contains global values for the Near Field Communications (NFC) CX driver.
 old-location: nfpdrivers\nfccx_driver_globals.htm
 tech.root: nfpdrivers
 ms.date: 02/15/2018

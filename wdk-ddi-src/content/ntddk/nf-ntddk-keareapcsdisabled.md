@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.KeAreApcsDisabled
 title: KeAreApcsDisabled function (ntddk.h)
-description: The KeAreApcsDisabled routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
+description: The KeAreApcsDisabled function (ntddk.h) returns a value that indicates whether the calling thread is within a critical region or a guarded region.
 old-location: kernel\keareapcsdisabled.htm
 tech.root: kernel
 ms.date: 04/30/2018

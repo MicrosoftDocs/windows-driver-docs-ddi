@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._TRACK_INFORMATION2
 title: _TRACK_INFORMATION2 (scsi.h)
-description: The TRACK_INFORMATION2 structure is used to report track information.
+description: The _TRACK_INFORMATION2 structure (scsi.h) contains detailed track information, including location, size, and data mode.
 old-location: storage\track_information2.htm
 tech.root: storage
 ms.date: 03/29/2018

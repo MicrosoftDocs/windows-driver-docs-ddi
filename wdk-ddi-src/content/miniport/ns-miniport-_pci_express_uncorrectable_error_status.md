@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
 title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS (miniport.h)
-description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) uncorrectable error status register of a PCIe advanced error reporting capability structure.
+description: The _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure (miniport.h) describes a PCI Express (PCIe) uncorrectable error status register.
 old-location: pci\pci_express_uncorrectable_error_status.htm
 tech.root: PCI
 ms.date: 02/24/2018

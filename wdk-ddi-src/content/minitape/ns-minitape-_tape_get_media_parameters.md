@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._TAPE_GET_MEDIA_PARAMETERS
 title: _TAPE_GET_MEDIA_PARAMETERS (minitape.h)
-description: The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the TapeMiniGetMediaParameters routine to retrieve tape media parameters.
+description: The _TAPE_GET_MEDIA_PARAMETERS structure (minitape.h) contains information about the parameters of a tape media.
 old-location: storage\tape_get_media_parameters.htm
 tech.root: storage
 ms.date: 03/29/2018

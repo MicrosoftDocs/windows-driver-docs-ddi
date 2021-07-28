@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape.__unnamed_struct_16
 title: POPULATE_TOKEN_HEADER (minitape.h)
-description: A populate token parameter list starts with a POPULATE_TOKEN_HEADER structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
+description: The POPULATE_TOKEN_HEADER structure (minitape.h) contains the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 old-location: storage\populate_token_header.htm
 tech.root: storage
 ms.date: 03/29/2018

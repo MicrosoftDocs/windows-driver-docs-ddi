@@ -1,7 +1,7 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_PARTITION_INFO
 title: IOCTL_DISK_GET_PARTITION_INFO (ntdddisk.h)
-description: Returns information about the type, size, and nature of a disk partition. (Floppy drivers need not handle this request.).
+description: The IOCTL_DISK_GET_PARTITION_INFO IOCTL returns information about the type, size, and nature of a disk partition.
 old-location: storage\ioctl_disk_get_partition_info.htm
 tech.root: storage
 ms.date: 03/29/2018

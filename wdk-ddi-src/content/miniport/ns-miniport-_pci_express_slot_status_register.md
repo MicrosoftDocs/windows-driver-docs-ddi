@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_SLOT_STATUS_REGISTER
 title: _PCI_EXPRESS_SLOT_STATUS_REGISTER (miniport.h)
-description: The PCI_EXPRESS_SLOT_STATUS_REGISTER structure describes a PCI Express (PCIe) slot status register of a PCIe capability structure.
+description: The _PCI_EXPRESS_SLOT_STATUS_REGISTER structure (miniport.h) describes a PCI Express (PCIe) slot status register.
 old-location: pci\pci_express_slot_status_register.htm
 tech.root: PCI
 ms.date: 02/24/2018

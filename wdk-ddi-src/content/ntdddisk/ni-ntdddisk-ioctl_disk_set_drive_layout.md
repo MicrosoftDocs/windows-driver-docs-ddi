@@ -1,7 +1,7 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_DRIVE_LAYOUT
 title: IOCTL_DISK_SET_DRIVE_LAYOUT (ntdddisk.h)
-description: Repartitions a disk as specified. (Floppy drivers need not handle this request.).
+description: The IOCTL_DISK_SET_DRIVE_LAYOUT IOCTL specifies how to repartition a disk by using DRIVE_LAYOUT_INFORMATION values and other parameters.
 old-location: storage\ioctl_disk_set_drive_layout.htm
 tech.root: storage
 ms.date: 03/29/2018

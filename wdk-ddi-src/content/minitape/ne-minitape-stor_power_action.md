@@ -1,7 +1,7 @@
 ---
 UID: NE:minitape.__unnamed_enum_0
 title: STOR_POWER_ACTION (minitape.h)
-description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
+description: The STOR_POWER_ACTION (minitape.h) contains values that indicate the power state that the system is about to enter during a power transition.
 old-location: storage\stor_power_action.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._SRBEX_DATA_WMI
 title: _SRBEX_DATA_WMI (minitape.h)
-description: The SRBEX_DATA_WMI structure contains the request data for an extended WMI SRB.
+description: The _SRBEX_DATA_WMI structure (minitape.h) contains the request data for an extended WMI SCSI Request Block (SRB).
 old-location: storage\srbex_data_wmi.htm
 tech.root: storage
 ms.date: 03/29/2018

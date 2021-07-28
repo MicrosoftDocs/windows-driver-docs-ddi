@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddtape._TAPE_SET_MEDIA_PARAMETERS
 title: _TAPE_SET_MEDIA_PARAMETERS (ntddtape.h)
-description: The TAPE_SET_MEDIA_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_SET_MEDIA_PARAMS request to reset the block size of the media in a tape drive.
+description: The _TAPE_SET_MEDIA_PARAMETERS structure (ntddtape.h) contains the information needed to reset the block size of the media in a tape drive.
 old-location: storage\tape_set_media_parameters.htm
 tech.root: storage
 ms.date: 03/29/2018

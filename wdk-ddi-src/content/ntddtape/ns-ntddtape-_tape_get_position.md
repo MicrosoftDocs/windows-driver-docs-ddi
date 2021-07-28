@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddtape._TAPE_GET_POSITION
 title: _TAPE_GET_POSITION (ntddtape.h)
-description: The TAPE_GET_POSITION structure is used in conjunction with the IOCTL_TAPE_GET_POSITION request to retrieve the current absolute, logical, or pseudological partition and offset position on the tape.
+description: The _TAPE_GET_POSITION structure (ntddtape.h) contains the current absolute, logical, or pseudo logical partition and offset position on the tape.
 old-location: storage\tape_get_position.htm
 tech.root: storage
 ms.date: 03/29/2018

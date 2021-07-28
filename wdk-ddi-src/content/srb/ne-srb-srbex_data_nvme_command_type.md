@@ -4,7 +4,7 @@ tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND_TYPE (srb.h)
 ms.date: 05/13/2021
 targetos: Windows
-description: SRBEX_DATA_NVME_COMMAND_TYPE enumerates the NVMe command types.
+description: The SRBEX_DATA_NVME_COMMAND_TYPE (srb.h) contains values that indicate the SRBEX Data NVMe command types.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: srb.h

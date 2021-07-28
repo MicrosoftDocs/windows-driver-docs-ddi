@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.RtlZeroMemory
 title: RtlZeroMemory macro (storport.h)
-description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
+description: The RtlZeroMemory macro (storport.h) fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 old-location: kernel\rtlzeromemory.htm
 tech.root: kernel
 ms.date: 02/24/2018

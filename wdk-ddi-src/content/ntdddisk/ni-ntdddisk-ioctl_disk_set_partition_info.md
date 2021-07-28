@@ -1,7 +1,7 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_PARTITION_INFO
 title: IOCTL_DISK_SET_PARTITION_INFO (ntdddisk.h)
-description: Changes the partition type of the specified disk partition. (Floppy drivers need not handle this request.).
+description: The IOCTL_DISK_SET_PARTITION_INFO IOCTL changes the partition type of the specified disk partition and returns the status of the operation.
 old-location: storage\ioctl_disk_set_partition_info.htm
 tech.root: storage
 ms.date: 03/29/2018

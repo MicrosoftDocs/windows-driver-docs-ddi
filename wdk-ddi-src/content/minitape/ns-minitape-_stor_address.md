@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._STOR_ADDRESS
 title: _STOR_ADDRESS (minitape.h)
-description: A general structure for holding a storage device address.
+description: The _STOR_ADDRESS structure (minitape.h) contains general information that describes a storage device address.
 old-location: storage\stor_address.htm
 tech.root: storage
 ms.date: 03/29/2018

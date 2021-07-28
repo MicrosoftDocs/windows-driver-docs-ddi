@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddstor.RtlZeroMemory
 title: RtlZeroMemory macro (ntddstor.h)
-description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
+description: The RtlZeroMemory macro (ntddstor.h) fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 tech.root: storage
 ms.date: 09/20/2018
 keywords: ["RtlZeroMemory macro"]

@@ -1,7 +1,7 @@
 ---
 UID: NS:ring._NET_RING
 title: _NET_RING (ring.h)
-description: Specifies a buffer comprised of one or more NET_PACKET or NET_FRAGMENT structures.
+description: The _NET_RING structure specifies a buffer comprised of one or more NET_PACKET or NET_FRAGMENT structures.
 tech.root: netvista
 ms.date: 09/25/2019
 keywords: ["NET_RING structure"]
