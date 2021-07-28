@@ -49,19 +49,19 @@ dev_langs:
 
 ### -field Header
 
-A [KSCAMERA_METADATA_ITEMHEADER](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_metadata_itemheader) structure that contains the metadata header information that is filled by the camera driver.
+A [KSCAMERA_METADATA_ITEMHEADER](./ns-ksmedia-tagkscamera_metadata_itemheader.md) structure that contains the metadata header information that is filled by the camera driver.
 
 ### -field Window
 
-A [KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_setting) structure that contains the x and y origin and size of the digital window in Q24 format.
+A [KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING](./ns-ksmedia-kscamera_extendedprop_digitalwindow_setting.md) structure that contains the x and y origin and size of the digital window in Q24 format.
 
 ## -see-also
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_configcapsheader)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcapsheader.md)
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps.md)
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_setting)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING](./ns-ksmedia-kscamera_extendedprop_digitalwindow_setting.md)
 
 [KSPROPERTY_CAMERACONTROL_EXTENDED_DIGITALWINDOW](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-digitalwindow)
 

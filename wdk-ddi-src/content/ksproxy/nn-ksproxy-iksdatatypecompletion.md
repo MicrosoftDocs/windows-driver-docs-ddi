@@ -53,10 +53,10 @@ The **IKsDataTypeCompletion** interface inherits from the [IUnknown](/windows/wi
 
 ## -remarks
 
-In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the [IKsDataTypeHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler) interface. The **IKsDataTypeCompletion** interface is optional for data type handlers. A data type handler only supports **IKsDataTypeCompletion** if the media format has a partially specified form.
+In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the [IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md) interface. The **IKsDataTypeCompletion** interface is optional for data type handlers. A data type handler only supports **IKsDataTypeCompletion** if the media format has a partially specified form.
 
 A data type handler is typically loaded during the pin connection process, and unloaded when the connection is broken. However, a data type handler is sometimes loaded briefly for other purposes. For instance, if an application uses DirectShow's **IAMStreamConfig::SetFormat** method, the application possibly uses a data type handler to complete a partial media type parameter returned from **IAMStreamConfig::SetFormat**. For more information about **IAMStreamConfig::SetFormat**, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-[IKsDataTypeHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler)
+[IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md)

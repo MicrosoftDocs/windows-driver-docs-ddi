@@ -47,8 +47,8 @@ The **IPartImage** interface is the abstraction for images in an XPS document.
 
 ## -inheritance
 
-The **IPartImage** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase). 
+The **IPartImage** interface inherits from [IPartBase](./nn-filterpipeline-ipartbase.md). 
 
 ## -see-also
 
-[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)
+[IPartBase](./nn-filterpipeline-ipartbase.md)

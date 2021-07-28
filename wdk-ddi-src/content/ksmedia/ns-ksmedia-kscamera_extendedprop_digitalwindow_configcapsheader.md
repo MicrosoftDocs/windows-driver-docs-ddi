@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-**KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER** contains size and count information for the **KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER** and [KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps) structures.
+**KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER** contains size and count information for the **KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER** and [KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps.md) structures.
 
 ## -struct-fields
 
@@ -57,11 +57,11 @@ The number of **KSCAMERA_EXTENDEDPROP_DIGITAL_WINDOW_CONFIGCAPS** structures tha
 
 ## -see-also
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps.md)
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_setting)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING](./ns-ksmedia-kscamera_extendedprop_digitalwindow_setting.md)
 
-[KSCAMERA_METADATA_DIGITALWINDOW](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_metadata_digitalwindow)
+[KSCAMERA_METADATA_DIGITALWINDOW](./ns-ksmedia-kscamera_metadata_digitalwindow.md)
 
 [KSPROPERTY_CAMERACONTROL_EXTENDED_DIGITALWINDOW](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-digitalwindow)
 

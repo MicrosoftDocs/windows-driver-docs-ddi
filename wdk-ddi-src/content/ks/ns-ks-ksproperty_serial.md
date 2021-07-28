@@ -53,7 +53,7 @@ The **KSPROPERTY_SERIAL** structure is a header that is included for each proper
 
 ### -field PropTypeSet
 
-A structure of type [**KSIDENTIFIER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier) that specifies the type of property data. This is the same information obtained from querying Basic Support.
+A structure of type [**KSIDENTIFIER**](./ns-ks-ksidentifier.md) that specifies the type of property data. This is the same information obtained from querying Basic Support.
 
 ### -field Id
 
@@ -71,4 +71,4 @@ A **KSPROPERTY_SERIAL** structure is followed by the property data, with the sta
 
 [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
-[**KSPROPERTY_SERIALHDR**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_serialhdr)
+[**KSPROPERTY_SERIALHDR**](./ns-ks-ksproperty_serialhdr.md)

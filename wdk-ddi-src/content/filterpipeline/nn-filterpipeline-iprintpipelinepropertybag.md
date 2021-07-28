@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **IPrintPipelinePropertyBag** interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the [IPrintPipelineFilter](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter) interface.
+The **IPrintPipelinePropertyBag** interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the [IPrintPipelineFilter](./nn-filterpipeline-iprintpipelinefilter.md) interface.
 
 The properties of the property bag are described in [Print Pipeline Property Bag](/windows-hardware/drivers/print/print-pipeline-property-bag).
 

@@ -61,4 +61,4 @@ See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gp
 
 ## -see-also
 
-[**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory)
+[**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](./ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md)
