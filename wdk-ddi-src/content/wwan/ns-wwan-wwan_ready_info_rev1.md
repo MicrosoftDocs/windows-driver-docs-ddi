@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **WWAN_READY_INFO_REV1** structure represents the ready-state of the MB device. WWAN_READY_INFO_REV1 updates [WWAN_READY_INFO](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info) by removing the *StatusFlags* field.
+The **WWAN_READY_INFO_REV1** structure represents the ready-state of the MB device. WWAN_READY_INFO_REV1 updates [WWAN_READY_INFO](./ns-wwan-_wwan_ready_info.md) by removing the *StatusFlags* field.
 
 ## -struct-fields
 
@@ -53,7 +53,7 @@ The ready-state of the device.
 
 ### -field EmergencyMode
 
-The emergency mode of the device. For more information, see [WWAN\_EMERGENCY\_MODE](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_emergency_mode).
+The emergency mode of the device. For more information, see [WWAN\_EMERGENCY\_MODE](./ne-wwan-_wwan_emergency_mode.md).
 
 ### -field SubscriberId
 
@@ -97,10 +97,10 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-[NDIS\_WWAN\_READY\_INFO](/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_ready_info)
+[NDIS\_WWAN\_READY\_INFO](../ndiswwan/ns-ndiswwan-_ndis_wwan_ready_info.md)
 
-[WWAN\_EMERGENCY\_MODE](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_emergency_mode)
+[WWAN\_EMERGENCY\_MODE](./ne-wwan-_wwan_emergency_mode.md)
 
-[WWAN\_LIST\_HEADER](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header)
+[WWAN\_LIST\_HEADER](./ns-wwan-_wwan_list_header.md)
 
-[WWAN\_READY\_STATE](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ready_state)
+[WWAN\_READY\_STATE](./ne-wwan-_wwan_ready_state.md)

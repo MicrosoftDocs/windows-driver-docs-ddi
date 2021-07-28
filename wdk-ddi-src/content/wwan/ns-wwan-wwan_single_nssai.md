@@ -75,4 +75,4 @@ The slice differentiator is directly related to the *SliceServiceType* and is us
 
 ## -see-also
 
-[WWAN_CONTEXT_STATE](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context_state)
+[WWAN_CONTEXT_STATE](./ns-wwan-_wwan_context_state.md)

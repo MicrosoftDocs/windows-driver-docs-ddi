@@ -73,7 +73,7 @@ A pointer to an event object that is signaled when the hive is unloaded.
 
 ### -field DesiredAccess
 
-The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the *DesiredAccess* parameter of the [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine.
+The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the *DesiredAccess* parameter of the [ZwCreateKey](./nf-wdm-zwcreatekey.md) routine.
 
 ### -field RootHandle
 
@@ -81,11 +81,11 @@ An optional pointer to a location that receives the handle to the root of the hi
 
 ### -field CallContext
 
-Optional driver-defined context information that the driver's [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can supply.
+Optional driver-defined context information that the driver's [RegistryCallback](./nc-wdm-ex_callback_function.md) routine can supply.
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling the [CmSetCallbackObjectContext](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext) routine.
+A pointer to driver-defined context information that the driver has associated with a registry object by calling the [CmSetCallbackObjectContext](./nf-wdm-cmsetcallbackobjectcontext.md) routine.
 
 ### -field Version
 
@@ -99,16 +99,16 @@ A pointer to an access token (PACCESS_TOKEN) that impersonates its access level 
 
 ## -see-also
 
-[CmSetCallbackObjectContext](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext)
+[CmSetCallbackObjectContext](./nf-wdm-cmsetcallbackobjectcontext.md)
 
 [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls)
 
 [RegLoadKey](/windows/win32/api/winreg/nf-winreg-regloadkeya)
 
-[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
+[RegistryCallback](./nc-wdm-ex_callback_function.md)
 
-[REG_LOAD_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_load_key_information)
+[REG_LOAD_KEY_INFORMATION](./ns-wdm-_reg_load_key_information.md)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
