@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.READ_PORT_ULONG
 title: READ_PORT_ULONG function (miniport.h)
-description: The READ_PORT_ULONG routine reads a ULONG value from the specified port address.
+description: The READ_PORT_ULONG function (miniport.h) returns a ULONG value that is read from the specified port address in resident, mapped device memory.
 old-location: kernel\read_port_ulong.htm
 tech.root: kernel
 ms.date: 04/30/2018

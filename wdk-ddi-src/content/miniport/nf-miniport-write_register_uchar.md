@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_UCHAR
 title: WRITE_REGISTER_UCHAR function (miniport.h)
-description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
+description: The WRITE_REGISTER_UCHAR function (miniport.h) writes a byte to the specified register address in resident, mapped device memory.
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel
 ms.date: 04/30/2018

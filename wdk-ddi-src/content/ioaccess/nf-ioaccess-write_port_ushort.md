@@ -1,7 +1,7 @@
 ---
 UID: NF:ioaccess.WRITE_PORT_USHORT
 title: WRITE_PORT_USHORT function (ioaccess.h)
-description: The WRITE_PORT_USHORT routine writes a USHORT value to the specified port address.
+description: The WRITE_PORT_USHORT function (ioaccess.h) writes a USHORT value to the specified port address in resident, mapped device memory.
 old-location: kernel\write_port_ushort.htm
 tech.root: kernel
 ms.date: 04/30/2018

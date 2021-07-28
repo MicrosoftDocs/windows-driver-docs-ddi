@@ -1,7 +1,7 @@
 ---
 UID: NF:dispmprt.DlMapMemory
 title: DlMapMemory function
-description: Maps a range of bus-relative physical addresses of display memory into system space or into the virtual address space of a user-mode process.
+description: The DlMapMemory function maps a range of display memory into system space or into the virtual address space of a user-mode process.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DlMapMemory function"]

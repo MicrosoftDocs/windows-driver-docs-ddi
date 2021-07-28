@@ -1,7 +1,7 @@
 ---
 UID: NF:ioaccess.READ_PORT_USHORT
 title: READ_PORT_USHORT function (ioaccess.h)
-description: The READ_PORT_USHORT routine reads a USHORT value from the specified port address.
+description: The READ_PORT_USHORT function (ioaccess.h) returns a USHORT value that is read from the specified port address in resident, mapped device memory.
 old-location: kernel\read_port_ushort.htm
 tech.root: kernel
 ms.date: 04/30/2018
