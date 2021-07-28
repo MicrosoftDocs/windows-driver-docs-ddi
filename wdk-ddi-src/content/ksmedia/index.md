@@ -1,6 +1,7 @@
 ---
 UID: NA:ksmedia
 title: Ksmedia.h header
+description: "Learn more about: Ksmedia.h header"
 ms.date: 06/24/2021
 keywords: ["Ksmedia.h header"]
 ms.keywords: 

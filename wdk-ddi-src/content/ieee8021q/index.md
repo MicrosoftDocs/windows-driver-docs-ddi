@@ -2,6 +2,7 @@
 UID: NA:ieee8021q
 tech.root: netvista
 title: ieee8021q.h header
+description: "Learn more about: ieee8021q.h header"
 ms.date: 04/15/2021
 keywords: ["ieee8021q.h header"]
 ms.keywords: 
