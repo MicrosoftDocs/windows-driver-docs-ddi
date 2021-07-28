@@ -5,7 +5,7 @@ title: PFND3DKMT_QUERYSTATISTICS
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: Learn more about: PFND3DKMT_QUERYSTATISTICS
+description: PFND3DKMT_QUERYSTATISTICS is reserved for system use.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

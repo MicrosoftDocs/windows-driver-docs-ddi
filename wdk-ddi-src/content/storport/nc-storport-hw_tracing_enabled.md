@@ -42,7 +42,6 @@ api_name:
 
 # HW_TRACING_ENABLED callback function
 
-
 ## -description
 
 The **HwStorTracingEnabled** callback routine enables the Storport to notify a miniport that event tracing is enabled.
@@ -75,4 +74,3 @@ HW_TRACING_ENABLED (
 ## -see-also
 
 [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
-

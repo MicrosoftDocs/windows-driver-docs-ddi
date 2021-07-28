@@ -42,52 +42,46 @@ api_name:
 
 # HW_STATE_CHANGE callback function
 
-
 ## -description
 
-A miniport-provided callback that is called  after a notification from <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> is processed.
+A miniport-provided callback that is called after a notification from [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md) is processed.
 
 ## -parameters
 
 ### -param HwDeviceExtension
 
-### -param Context 
+### -param Context
 
-[in, optional]
-The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>.
+[in, optional] The context supplied as **HwStateChangeContext** by the miniport in the call to [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md).
 
-### -param AddressType 
+### -param AddressType
 
-[in]
-The type of the address in <i>Address</i>.
+[in] The type of the address in **Address**.
 
-### -param Address 
+### -param Address
 
 [in]
-A pointer to a <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a> structure for the entity whose state change was processed.
+A pointer to a [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md) structure for the entity whose state change was processed.
 
-### -param Status 
+### -param Status
 
-[in]
-The processing status for the state change notification.
+[in] The processing status for the state change notification.
 
+#### - DeviceExtension
 
-#### - DeviceExtension [in]
-
-A pointer to the miniport driver's per-HBA storage area.
+[in] A pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
 
-The <i>HwStorStateChange</i> is called with the StartIo lock acquired by Storport.
+The **HwStorStateChange** is called with the StartIo lock acquired by Storport.
 
-This callback enables miniports to do any additional processing that is needed after hardware addition or removal. If a hardware change occurs on the HBA port or bus, the miniport can call <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> to alert the system of the event.
+This callback enables miniports to do any additional processing that is needed after hardware addition or removal. If a hardware change occurs on the HBA port or bus, the miniport can call [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md) to alert the system of the event.
 
-If the value for <i>Status</i> is  < 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
+If the value for **Status** is  < 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
 
-The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+The name **HwStorStateChange** is just a placeholder for the miniport function that is pointed to by the **HwStateChange** parameter of [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md). The actual prototype of this routine is defined in *Storport.h* as follows:
 
-
-```
+``` c
 typedef
 VOID
 HW_STATE_CHANGE (
@@ -101,9 +95,6 @@ HW_STATE_CHANGE (
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
+[**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>
-
+[**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md)

@@ -5,7 +5,7 @@ title: UFS_HPB_DEVICE_DESCRIPTOR
 ms.date: 05/13/2021
 ms.topic: language-reference
 targetos: Windows
-description: Reserved for system use. Do not use.
+description: UFS_HPB_DEVICE_DESCRIPTOR is reserved for system use.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

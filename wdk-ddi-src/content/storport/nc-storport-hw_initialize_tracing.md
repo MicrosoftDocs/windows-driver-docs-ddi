@@ -42,27 +42,25 @@ api_name:
 
 # HW_INITIALIZE_TRACING callback function
 
-
 ## -description
 
-The <b>HwStorInitializeTracing</b> callback routine allows the Storport virtual miniport driver to set up tracing and any related resources.
+The **HwStorInitializeTracing** callback routine allows the Storport virtual miniport driver to set up tracing and any related resources.
 
 ## -parameters
 
 ### -param Arg1
 
-The first parameter that is passed to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>.
+The first parameter that is passed to [**StorPortInitialize**](nf-storport-storportinitialize.md).
 
 ### -param Arg2
 
-The second parameter that is passed to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>.
+The second parameter that is passed to [**StorPortInitialize**](nf-storport-storportinitialize.md).
 
 ## -remarks
 
-The name <b>HwStorInitializeTracing</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
+The name **HwStorInitializeTracing** is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
-
-```
+``` c
 typedef
 VOID
 HW_INITIALIZE_TRACING (
@@ -71,24 +69,21 @@ HW_INITIALIZE_TRACING (
   );
 ```
 
-The port driver calls the Storport virtual miniport's <b>HwStorInitializeTracing</b> at PASSIVE_LEVEL.
+The port driver calls the Storport virtual miniport's **HwStorInitializeTracing** at PASSIVE_LEVEL.
 
+### Examples
 
-#### Examples
+To define an **HwStorInitializeTracing** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-To define an <b>HwStorInitializeTracing</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+ For example, to define a **HwStorInitializeTracing** callback routine that is named **MyHwInitializeTracing**, use the **HW_INITIALIZE_TRACING** type as shown in this code example:
 
- For example, to define a <b>HwStorInitializeTracing</b> callback routine that is named <i>MyHwInitializeTracing</i>, use the <b>HW_INITIALIZE_TRACING</b> type as shown in this code example:
-
-
-```
+``` c
 HW_INITIALIZE_TRACING MyHwInitializeTracing;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 VOID
 MyHwInitializeTracing (
@@ -100,7 +95,4 @@ MyHwInitializeTracing (
   }
 ```
 
-The <b>HW_INITIALIZE_TRACING</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INITIALIZE_TRACING</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
-<div class="code"></div>
-
+The **HW_INITIALIZE_TRACING** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_INITIALIZE_TRACING** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
