@@ -4,7 +4,7 @@ tech.root: storage
 title: UFS_HPB_CONFIG_DESCRIPTOR
 ms.date: 05/13/2021
 targetos: Windows
-description: Reserved for system use. Do not use.
+description: UFS_HPB_CONFIG_DESCRIPTOR is reserved for system use.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

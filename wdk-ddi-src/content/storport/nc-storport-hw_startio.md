@@ -120,7 +120,7 @@ MyHwStartIo (
   }
 ```
 
-The **HW_STARTIO** function type is defined in the **Storport.h** header file. To more accurately identify errors when you run the code analysis tools, be sure to add the ```_Use_decl_annotations_ annotation``` to your function definition. The ```_Use_decl_annotations_ annotation``` ensures that the annotations applied to the **HW_STARTIO** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about ```_Use_decl_annotations_```, see [Annotating Function Behavior](/cpp/code-quality/annotating-function-behavior).
+The **HW_STARTIO** function type is defined in the **Storport.h** header file. To more accurately identify errors when you run the code analysis tools, be sure to add the ```_Use_decl_annotations_ annotation``` to your function definition. The ```_Use_decl_annotations_ annotation``` ensures that the annotations applied to the **HW_STARTIO** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about ```_Use_decl_annotations_```, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
