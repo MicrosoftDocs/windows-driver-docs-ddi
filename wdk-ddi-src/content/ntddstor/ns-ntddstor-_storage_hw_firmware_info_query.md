@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_INFO_QUERY
 title: _STORAGE_HW_FIRMWARE_INFO_QUERY (ntddstor.h)
-description: This structure contains information about the device firmware.
+description: The _STORAGE_HW_FIRMWARE_INFO_QUERY structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info_query.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddvdeo.IOCTL_COLORSPACE_TRANSFORM_SET
 title: IOCTL_COLORSPACE_TRANSFORM_SET
-description: A colorspace transform control IOCTL that must be handled by the monitor, OEM-panel, or port/miniport driver.
+description: IOCTL_COLORSPACE_TRANSFORM_SET is a colorspace transform control IOCTL that must be handled by the monitor, OEM-panel, or port/miniport driver.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["IOCTL_COLORSPACE_TRANSFORM_SET IOCTL"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.NtPowerInformation
 title: NtPowerInformation function (wdm.h)
-description: The ZwPowerInformation routine sets or retrieves system power information.
+description: Learn how the ZwPowerInformation routine sets or retrieves system power information.
 old-location: kernel\zwpowerinformation.htm
 tech.root: kernel
 ms.date: 04/30/2018
