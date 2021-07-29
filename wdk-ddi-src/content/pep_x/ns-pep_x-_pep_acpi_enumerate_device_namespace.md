@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 title: _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE (pep_x.h)
-description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
+description: Learn how the PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbPrintfExW
 title: RtlStringCbPrintfExW function (ntstrsafe.h)
-description: The RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+description: Learn how the RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbprintfex.htm
 tech.root: kernel
 ms.date: 04/30/2018

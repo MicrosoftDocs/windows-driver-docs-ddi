@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.CreateThread
 tech.root: debugger
 title: IDebugEventContextCallbacks::CreateThread
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The IDebugEventContextCallbacks::CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target.
 req.assembly: 

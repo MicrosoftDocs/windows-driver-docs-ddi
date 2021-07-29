@@ -47,12 +47,12 @@ Represents the context for the activation of a UWP device app for printers.
 
 ## -see-also
 
-[IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection)
+[IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md)
 
-[IPrinterExtensionContextCollection::Count](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontextcollection-get_count)
+[IPrinterExtensionContextCollection::Count](./nf-printerextension-iprinterextensioncontextcollection-get_count.md)
 
-[IPrinterExtensionContextCollection::GetAt](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontextcollection-getat)
+[IPrinterExtensionContextCollection::GetAt](./nf-printerextension-iprinterextensioncontextcollection-getat.md)
 
-[IPrinterExtensionEvent::OnPrinterQueuesEnumerated](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated)
+[IPrinterExtensionEvent::OnPrinterQueuesEnumerated](./nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md)
 
 [V4 Printer Driver Property Bags](/windows-hardware/drivers/print/v4-driver-property-bags)

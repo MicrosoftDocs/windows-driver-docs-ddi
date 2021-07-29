@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisFreeNetBufferList
 title: NdisFreeNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisFreeNetBufferList function to free a NET_BUFFER_LIST structure that was previously allocated from a NET_BUFFER_LIST structure pool.
 tech.root: netvista

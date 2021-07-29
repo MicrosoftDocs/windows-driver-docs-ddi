@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDIARG_MESH_IO_SIGNATURES
 title: D3D12DDIARG_MESH_IO_SIGNATURES
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: The D3D12DDIARG_MESH_IO_SIGNATURES structure describes a set of signatures for a given mesh shader's output primitives and vertices.

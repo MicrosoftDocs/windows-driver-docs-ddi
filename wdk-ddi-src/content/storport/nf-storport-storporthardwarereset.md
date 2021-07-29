@@ -4,7 +4,6 @@ title: StorPortHardwareReset function
 description: A miniport can call StorPortHardwareReset to issue a hardware reset.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: StorPortHardwareReset
 req.header: storport.h
 req.include-header: 

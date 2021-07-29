@@ -3,7 +3,6 @@ UID: NF:netadapteroffload.NetAdapterOffloadSetIeee8021qTagCapabilities
 tech.root: netvista
 title: NetAdapterOffloadSetIeee8021qTagCapabilities
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetAdapterOffloadSetIeee8021qTagCapabilities sets the IEEE 802.1 priority and VLAN tagging capabilities of a network adapter.
 req.assembly: 

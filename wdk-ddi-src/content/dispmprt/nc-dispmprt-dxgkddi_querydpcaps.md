@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_QUERYDPCAPS
 title: DXGKDDI_QUERYDPCAPS
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKDDI_QUERYDPCAPS callback functions queries the DisplayPort (DP) capabilities of the GPU and driver supported.
 tech.root: display

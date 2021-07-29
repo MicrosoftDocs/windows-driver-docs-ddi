@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAllocateNetBufferListContext
 title: NdisAllocateNetBufferListContext
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisAllocateNetBufferListContext function to allocate more context space in the NET_BUFFER_LIST_CONTEXT structure of a NET_BUFFER_LIST structure.
 tech.root: netvista

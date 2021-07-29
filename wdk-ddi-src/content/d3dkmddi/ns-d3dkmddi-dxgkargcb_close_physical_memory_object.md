@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbClosePhysicalMemoryObject callback function to close a physical memory object.
 req.construct-type: structure

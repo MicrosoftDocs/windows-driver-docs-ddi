@@ -3,7 +3,6 @@ UID: NS:storport._STOR_UNIT_CONTROL_POWER
 tech.root: storage
 title: STOR_UNIT_CONTROL_POWER
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_UNIT_CONTROL_POWER is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitPower.
 req.construct-type: structure

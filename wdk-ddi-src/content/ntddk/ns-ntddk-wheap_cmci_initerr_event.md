@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEAP_CMCI_INITERR_EVENT
 title: WHEAP_CMCI_INITERR_EVENT
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WHEAP_CMCI_INITERR_EVENT"
 req.construct-type: structure

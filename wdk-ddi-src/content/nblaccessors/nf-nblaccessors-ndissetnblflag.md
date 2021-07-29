@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NdisSetNblFlag
 title: NdisSetNblFlag
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisSetNblFlag macro sets a flag in a NET_BUFFER_LIST structure.
 tech.root: netvista

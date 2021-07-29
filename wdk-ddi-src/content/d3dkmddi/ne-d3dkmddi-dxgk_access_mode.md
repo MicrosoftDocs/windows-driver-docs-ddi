@@ -3,7 +3,6 @@ UID: NE:d3dkmddi._DXGK_ACCESS_MODE
 tech.root: display
 title: DXGK_ACCESS_MODE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DXGK_ACCESS_MODE describes the access mode that DxgkCbMapPhysicalMemory should provide when doing a mapping.
 req.construct-type: enumeration

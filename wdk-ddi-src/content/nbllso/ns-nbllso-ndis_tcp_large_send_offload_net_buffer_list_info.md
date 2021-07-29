@@ -2,7 +2,6 @@
 UID: NS:nbllso._NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
 title: NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure specifies information that is used in offloading large send offload (LSO) tasks from the TCP/IP transport to a miniport adapter.
 tech.root: netvista

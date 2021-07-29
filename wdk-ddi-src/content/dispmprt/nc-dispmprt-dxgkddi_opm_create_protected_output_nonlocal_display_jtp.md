@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP
 title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP callback function"
 tech.root: display

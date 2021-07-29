@@ -3,7 +3,6 @@ UID: NS:ntddstor._STORAGE_RPMB_DESCRIPTOR
 title: STORAGE_RPMB_DESCRIPTOR
 ms.date: 10/28/2020
 tech.root: storage
-ms.topic: language-reference
 targetos: Windows
 description: The STORAGE_RPMB_DESCRIPTOR structure contains information about a device's Replay Protected Memory Block (RPMB) support.
 req.construct-type: structure

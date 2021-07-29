@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072
 title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072
 ms.date: 03/24/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves the memory allocation size of a video decoder heap created with the given properties.
 req.construct-type: structure

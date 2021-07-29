@@ -57,7 +57,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_R
 | Revision | NDIS_WWAN_SET_REGISTER_PARAMS_REVISION_1 |
 | Size | sizeof(NDIS_WWAN_SET_REGISTER_PARAMS) |
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field SetRegisterParams
 
@@ -67,6 +67,6 @@ A formatted [**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registratio
 
 [**OID_WWAN_REGISTER_PARAMS**](/windows-hardware/drivers/network/oid-wwan-register-params)
 
-[**NDIS_OBJECT_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header)
+[**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md)
 
 [**WWAN_REGISTRATION_PARAMS_INFO**](../wwan/ns-wwan-wwan_registration_params_info.md)

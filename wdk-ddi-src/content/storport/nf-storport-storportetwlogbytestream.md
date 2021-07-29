@@ -3,7 +3,6 @@ UID: NF:storport.StorPortEtwLogByteStream
 tech.root: storage
 title: StorPortEtwLogByteStream
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortEtwLogByteStream logs an Event Tracing for Windows (ETW) event with a general purpose byte stream parameter to the specified channel.
 req.assembly: 

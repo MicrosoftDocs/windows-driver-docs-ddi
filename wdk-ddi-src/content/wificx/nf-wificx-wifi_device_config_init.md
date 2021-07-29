@@ -3,7 +3,6 @@ UID: NF:wificx.WIFI_DEVICE_CONFIG_INIT
 tech.root: netvista
 title: WIFI_DEVICE_CONFIG_INIT
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WIFI_DEVICE_CONFIG_INIT function for internal use only. Don't use this function in your code."
 req.assembly: 

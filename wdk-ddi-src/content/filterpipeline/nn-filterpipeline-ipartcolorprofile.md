@@ -47,4 +47,4 @@ The **IPartColorProfile** interface is the abstraction for an XPS color profile.
 
 ## -see-also
 
-[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)
+[IPartBase](./nn-filterpipeline-ipartbase.md)

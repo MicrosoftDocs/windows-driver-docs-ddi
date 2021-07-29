@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
 title: DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: A kernel-mode component that needs to use the display diagnostics interface calls the display miniport driver's DxgkDdiQueryInterface function.
 tech.root: display

@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_QUERYSTATSTICS_SWIZZLING_RANGE
 tech.root: display
 title: D3DKMT_QUERYSTATSTICS_SWIZZLING_RANGE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: D3DKMT_QUERYSTATSTICS_SWIZZLING_RANGE"
 req.construct-type: structure

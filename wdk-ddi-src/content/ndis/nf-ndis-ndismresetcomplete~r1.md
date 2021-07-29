@@ -2,7 +2,6 @@
 UID: NF:ndis.NdisMResetComplete~r1
 title: NdisMResetComplete macro (NDIS 6.x)
 ms.date: 03/02/2021
-ms.topic: language-reference
 tech.root: netvista
 targetos: Windows
 description: "Learn more about: NdisMResetComplete function (NDIS 6.x)"

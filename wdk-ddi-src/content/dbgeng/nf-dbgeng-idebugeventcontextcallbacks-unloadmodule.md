@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.UnloadModule
 tech.root: debugger
 title: IDebugEventContextCallbacks::UnloadModule
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The IDebugEventContextCallbacks::UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 req.assembly: 

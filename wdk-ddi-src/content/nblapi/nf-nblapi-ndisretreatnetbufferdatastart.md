@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisRetreatNetBufferDataStart
 title: NdisRetreatNetBufferDataStart
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisRetreatNetBufferDataStart function to access more used data space in the MDL chain of a NET_BUFFER structure.
 tech.root: netvista

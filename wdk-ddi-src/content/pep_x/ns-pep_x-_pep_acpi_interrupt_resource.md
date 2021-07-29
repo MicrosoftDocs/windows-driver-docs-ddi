@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_INTERRUPT_RESOURCE
 title: _PEP_ACPI_INTERRUPT_RESOURCE (pep_x.h)
-description: The PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource.
+description: Learn how the PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource.
 old-location: kernel\pep_acpi_interrupt_resource.htm
 tech.root: kernel
 ms.date: 04/30/2018

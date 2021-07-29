@@ -1,7 +1,7 @@
 ---
 UID: NS:srb._SRBEX_DATA_SCSI_CDB16
 title: _SRBEX_DATA_SCSI_CDB16 (srb.h)
-description: The SRBEX_DATA_SCSI_CDB16 structure contains the extended SRB data for a 16-byte SCSI command data block (CDB).
+description: The _SRBEX_DATA_SCSI_CDB16 structure (srb.h) contains the extended SRB data for a 16-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb16.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -2,7 +2,6 @@
 UID: NE:dispmprt._DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
 title: DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH enum provides hardware bandwidth information during diagnostic data collection.
 tech.root: display

@@ -3,7 +3,6 @@ UID: NC:wificx.PFN_WIFIDIRECTDEVICECREATE
 tech.root: netvista
 title: PFN_WIFIDIRECTDEVICECREATE
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the PFN_WIFIDIRECTDEVICECREATE callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

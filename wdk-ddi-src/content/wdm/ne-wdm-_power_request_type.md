@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._POWER_REQUEST_TYPE
 title: _POWER_REQUEST_TYPE (wdm.h)
-description: The POWER_REQUEST_TYPE enumeration indicates the power request type.
+description: Learn how the POWER_REQUEST_TYPE enumeration indicates the power request type.
 old-location: kernel\power_request_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

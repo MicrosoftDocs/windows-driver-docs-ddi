@@ -3,7 +3,6 @@ UID: NE:storport.__unnamed_enum_0
 tech.root: storage
 title: STOR_POWER_ACTION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The STOR_POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 req.construct-type: enumeration

@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 72aef86d-8403-451d-8a19-6050d56646c6
 ms.author: windowsdriverdev
 ms.date: 1/29/2021
-ms.topic: macro
 ms.keywords: HidP_UnsetButtons
 req.header: hidpi.h
 req.include-header: hidpi.h

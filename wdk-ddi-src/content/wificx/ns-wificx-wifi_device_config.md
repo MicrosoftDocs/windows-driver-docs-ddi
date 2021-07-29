@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_DEVICE_CONFIG
 tech.root: netvista
 title: WIFI_DEVICE_CONFIG
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WIFI_DEVICE_CONFIG structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

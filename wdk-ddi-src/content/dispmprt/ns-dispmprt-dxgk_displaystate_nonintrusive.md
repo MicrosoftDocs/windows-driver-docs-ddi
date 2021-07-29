@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_DISPLAYSTATE_NONINTRUSIVE
 title: DXGK_DISPLAYSTATE_NONINTRUSIVE
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DISPLAYSTATE_NONINTRUSIVE structure holds display state during nonintrusive diagnostic data collection.
 tech.root: display

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbOpenPhysicalMemoryObject callback function to open a physical memory object.
 req.construct-type: structure

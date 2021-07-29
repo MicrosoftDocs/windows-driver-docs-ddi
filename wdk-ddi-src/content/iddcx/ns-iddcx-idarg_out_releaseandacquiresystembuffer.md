@@ -3,7 +3,6 @@ UID: NS:iddcx.IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER
 title: IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER contains the information resulting from a buffer release and acquire operation.
 req.construct-type: structure

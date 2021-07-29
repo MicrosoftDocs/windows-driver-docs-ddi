@@ -57,4 +57,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IPrintUnidiAsyncNotifyRegistration](/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintunidiasyncnotifyregistration)
+[IPrintUnidiAsyncNotifyRegistration](./nn-prnasntp-iprintunidiasyncnotifyregistration.md)

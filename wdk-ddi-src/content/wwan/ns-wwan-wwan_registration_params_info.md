@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_REGISTRATION_PARAMS_INFO
 tech.root: netvista
 title: WWAN_REGISTRATION_PARAMS_INFO
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_REGISTRATION_PARAMS_INFO structure represents parameters that an MB device uses during 5G registration requests.
 req.construct-type: structure

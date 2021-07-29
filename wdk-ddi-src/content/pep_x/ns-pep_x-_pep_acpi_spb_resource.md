@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_SPB_RESOURCE
 title: _PEP_ACPI_SPB_RESOURCE (pep_x.h)
-description: The PEP_ACPI_SPB_RESOURCE structure describes an ACPI serial bus connection resource.
+description: Learn how the PEP_ACPI_SPB_RESOURCE structure describes an ACPI serial bus connection resource.
 old-location: kernel\pep_acpi_spb_resource.htm
 tech.root: kernel
 ms.date: 04/30/2018

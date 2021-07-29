@@ -2,7 +2,6 @@
 UID: NS:d3dumddi._D3DDDI_BATCHEDMARKERDATA
 title: D3DDDI_BATCHEDMARKERDATA
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: The D3DDDI_BATCHEDMARKERDATA structure provides high-performance marker data from D3D12 drivers.

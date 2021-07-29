@@ -2,7 +2,6 @@
 UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
 title: NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
 ms.date: 08/20/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT function initializes a NET_ADAPTER_WAKE_REASON_PACKET when the wake source is a magic packet.
 tech.root: netvista

@@ -1,7 +1,7 @@
 ---
 UID: NE:wudfddi.__MIDL___MIDL_itf_wudfddi_0000_0000_0001
 title: __MIDL___MIDL_itf_wudfddi_0000_0000_0001 (wudfddi.h)
-description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
+description: Learn how the POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
 tech.root: wdf
 ms.date: 02/26/2018

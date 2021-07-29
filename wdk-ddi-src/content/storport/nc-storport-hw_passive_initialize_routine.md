@@ -42,10 +42,9 @@ api_name:
 
 # HW_PASSIVE_INITIALIZE_ROUTINE callback function
 
-
 ## -description
 
-The <b>HwStorPassiveInitializeRoutine</b> callback routine is called after the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine when the current IRQL is at PASSIVE_LEVEL. The <b>HwStorPassiveInitializeRoutine</b> callback is set by calling the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportenablepassiveinitialization">StorPortEnablePassiveInitialization</a> routine. Initializing of the miniport's deferred procedure calls (DPCs) occurs in the <b>HwStorPassiveInitializeRoutine</b> callback.
+The **HwStorPassiveInitializeRoutine** callback routine is called after the [**HwStorInitialize**](nc-storport-hw_initialize.md) routine when the current IRQL is at PASSIVE_LEVEL. The **HwStorPassiveInitializeRoutine** callback is set by calling the [**StorPortEnablePassiveInitialization**](nf-storport-storportenablepassiveinitialization.md) routine. Initializing of the miniport's deferred procedure calls (DPCs) occurs in the **HwStorPassiveInitializeRoutine** callback.
 
 ## -parameters
 
@@ -57,16 +56,15 @@ A pointer to a per-adapter storage area.
 
 ## -returns
 
-The <b>HwStorPassiveInitializeRoutine</b> routine returns <b>TRUE</b> if the miniport successfully initialized the processing of DPCs, or <b>FALSE</b> if the initialization process failed.
+The **HwStorPassiveInitializeRoutine** routine returns **TRUE** if the miniport successfully initialized the processing of DPCs, or **FALSE** if the initialization process failed.
 
 ## -remarks
 
-The <b>HwStorPassiveInitializeRoutine</b> routine should initialize any DPCs that the miniport driver will use. The port driver calls <b>HwStorPassiveInitializeRoutine</b> at PASSIVE_LEVEL without any spin locks held. Interrupts are enabled while this routine is called.
+The **HwStorPassiveInitializeRoutine** routine should initialize any DPCs that the miniport driver will use. The port driver calls **HwStorPassiveInitializeRoutine** at PASSIVE_LEVEL without any spin locks held. Interrupts are enabled while this routine is called.
 
-The name <b>HwStorPassiveInitializeRoutine</b> is just a placeholder. The actual prototype for this callback routine is defined in <i>storport.h</i>as follows:
+The name **HwStorPassiveInitializeRoutine** is just a placeholder. The actual prototype for this callback routine is defined in *Storport.h* as follows:
 
-
-```
+``` c
 typedef
 BOOLEAN
 (*PHW_PASSIVE_INITIALIZE_ROUTINE) (
@@ -74,24 +72,21 @@ BOOLEAN
   );
 ```
 
-The port driver calls the <b>HwStorPassiveInitializeRoutine</b> routine at PASSIVE IRQL without acquiring any spin locks.
+The port driver calls the **HwStorPassiveInitializeRoutine** routine at PASSIVE IRQL without acquiring any spin locks.
 
+### Examples
 
-#### Examples
+To define an **HwStorPassiveInitializeRoutine** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-To define an <b>HwStorPassiveInitializeRoutine</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+ For example, to define a **HwStorPassiveInitializeRoutine** callback routine that is named **MyHwPassiveInitialize**, use the **HW_PASSIVE_INITIALIZE_ROUTINE** type as shown in this code example:
 
- For example, to define a <b>HwStorPassiveInitializeRoutine</b> callback routine that is named <i>MyHwPassiveInitialize</i>, use the <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> type as shown in this code example:
-
-
-```
+``` c
 HW_PASSIVE_INITIALIZE_ROUTINE MyHwPassiveInitialize;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 BOOLEAN
 MyHwPassiveInitialize (
@@ -102,9 +97,10 @@ MyHwPassiveInitialize (
   }
 ```
 
-The <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+The **HW_PASSIVE_INITIALIZE_ROUTINE** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_PASSIVE_INITIALIZE_ROUTINE** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportenablepassiveinitialization">StorPortEnablePassiveInitialization</a>
+[**HwStorInitialize**](nc-storport-hw_initialize.md)
 
+[**StorPortEnablePassiveInitialization**](nf-storport-storportenablepassiveinitialization.md)

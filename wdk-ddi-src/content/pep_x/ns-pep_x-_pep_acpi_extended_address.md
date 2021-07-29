@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_EXTENDED_ADDRESS
 title: _PEP_ACPI_EXTENDED_ADDRESS (pep_x.h)
-description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
+description: Learn how the PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
 old-location: kernel\pep_acpi_extended_address.htm
 tech.root: kernel
 ms.date: 04/30/2018

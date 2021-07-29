@@ -3,7 +3,6 @@ UID: NS:storport._STOR_RICH_DEVICE_DESCRIPTION
 tech.root: storage
 title: STOR_RICH_DEVICE_DESCRIPTION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_RICH_DEVICE_DESCRIPTION is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitRichDescription.
 req.construct-type: structure

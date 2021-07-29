@@ -3,7 +3,6 @@ UID: NF:storport.StorPortPoFxSetPerfState
 tech.root: storage
 title: StorPortPoFxSetPerfState
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortPoFxSetPerfState sets a component's P-state.
 req.assembly: 

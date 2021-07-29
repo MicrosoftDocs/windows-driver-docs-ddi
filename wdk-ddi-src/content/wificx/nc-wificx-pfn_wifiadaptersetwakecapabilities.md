@@ -3,7 +3,6 @@ UID: NC:wificx.PFN_WIFIADAPTERSETWAKECAPABILITIES
 tech.root: netvista
 title: PFN_WIFIADAPTERSETWAKECAPABILITIES
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the PFN_WIFIADAPTERSETWAKECAPABILITIES callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 

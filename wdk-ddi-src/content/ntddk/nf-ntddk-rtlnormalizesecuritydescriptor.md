@@ -4,7 +4,6 @@ title: RtlNormalizeSecurityDescriptor function
 description: Examines a security descriptor for ways to modify its layout.
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlNormalizeSecurityDescriptor
 req.header: ntddk.h
 req.include-header: Ntddk.h

@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisGetNetBufferListProtocolId
 title: NdisGetNetBufferListProtocolId
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisGetNetBufferListProtocolId function retrieves the protocol identifier from the NetBufferListInfo member of a NET_BUFFER_LIST structure.
 tech.root: netvista

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlLookupLastMcbEntry
 title: FsRtlLookupLastMcbEntry function (ntifs.h)
-description: Obsolete.
+description: The FsRtlLookupLastMcbEntry function is obsolete.
 old-location: ifsk\fsrtllookuplastmcbentry.htm
 tech.root: ifsk
 ms.date: 04/16/2018

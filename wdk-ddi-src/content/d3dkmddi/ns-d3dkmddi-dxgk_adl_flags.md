@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_ADL_FLAGS
 tech.root: display
 title: DXGK_ADL_FLAGS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_ADL_FLAGS structure specifies the flag(s) that apply to an address descriptor list (ADL).
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeEnterCriticalRegion
 title: KeEnterCriticalRegion function (wdm.h)
-description: The KeEnterCriticalRegion routine temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.
+description: The KeEnterCriticalRegion function (wdm.h) temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.
 old-location: kernel\keentercriticalregion.htm
 tech.root: kernel
 ms.date: 04/30/2018

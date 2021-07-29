@@ -47,18 +47,18 @@ Exposes a Print Schema Feature element.
 
 ## -inheritance
 
-The **IPrintSchemaFeature** interface inherits from [IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement).
+The **IPrintSchemaFeature** interface inherits from [IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md).
 
 ## -remarks
 
-You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a *name* attribute specified. This attribute is used to build the [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) and **IPrintSchemaFeature** objects. If the *name* attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
+You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a *name* attribute specified. This attribute is used to build the [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) and **IPrintSchemaFeature** objects. If the *name* attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
 
 ## -see-also
 
-[IPrintSchemaCapabilities::GetFeature](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeature)
+[IPrintSchemaCapabilities::GetFeature](./nf-printerextension-iprintschemacapabilities-getfeature.md)
 
-[IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement)
+[IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md)
 
-[IPrintSchemaTicket::GetFeature](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getfeature)
+[IPrintSchemaTicket::GetFeature](./nf-printerextension-iprintschematicket-getfeature.md)
 
-[IPrintSchemaTicket::GetFeatureByKeyName](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getfeaturebykeyname)
+[IPrintSchemaTicket::GetFeatureByKeyName](./nf-printerextension-iprintschematicket-getfeaturebykeyname.md)

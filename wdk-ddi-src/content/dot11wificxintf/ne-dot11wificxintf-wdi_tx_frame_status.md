@@ -3,7 +3,6 @@ UID: NE:dot11wificxintf._WDI_TX_FRAME_STATUS
 tech.root: netvista
 title: WDI_TX_FRAME_STATUS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_TX_FRAME_STATUS enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration

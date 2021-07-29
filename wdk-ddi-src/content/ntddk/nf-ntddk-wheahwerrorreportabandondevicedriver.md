@@ -2,7 +2,6 @@
 UID: NF:ntddk.WheaHwErrorReportAbandonDeviceDriver
 title: WheaHwErrorReportAbandonDeviceDriver
 ms.date: 04/02/2020
-ms.topic: language-reference
 tech.root: whea
 targetos: Windows
 description: "Learn more about: WheaHwErrorReportAbandonDeviceDriver"

@@ -3,7 +3,6 @@ UID: NS:wificxpoweroffload._WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS
 tech.root: netvista
 title: WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

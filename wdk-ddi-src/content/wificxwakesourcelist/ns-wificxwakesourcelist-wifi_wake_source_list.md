@@ -3,7 +3,6 @@ UID: NS:wificxwakesourcelist._WIFI_WAKE_SOURCE_LIST
 tech.root: netvista
 title: WIFI_WAKE_SOURCE_LIST
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WIFI_WAKE_SOURCE_LIST structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

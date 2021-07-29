@@ -3,7 +3,6 @@ UID: NE:dot11wificxintf._WDI_TXRX_PEER_QOS_CAPS
 tech.root: netvista
 title: WDI_TXRX_PEER_QOS_CAPS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_TXRX_PEER_QOS_CAPS enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration

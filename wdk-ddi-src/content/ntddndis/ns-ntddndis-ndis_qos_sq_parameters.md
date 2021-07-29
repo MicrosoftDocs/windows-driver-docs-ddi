@@ -2,7 +2,6 @@
 UID: NS:ntddndis._NDIS_QOS_SQ_PARAMETERS
 title: NDIS_QOS_SQ_PARAMETERS
 ms.date: 10/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_QOS_SQ_PARAMETERS structure contains the parameters of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
 req.construct-type: structure

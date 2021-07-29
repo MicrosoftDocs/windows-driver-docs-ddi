@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_QUERYSTATISTICS_SYSTEM_MEMORY
 tech.root: display
 title: D3DKMT_QUERYSTATISTICS_SYSTEM_MEMORY
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: D3DKMT_QUERYSTATISTICS_SYSTEM_MEMORY"
 req.construct-type: structure

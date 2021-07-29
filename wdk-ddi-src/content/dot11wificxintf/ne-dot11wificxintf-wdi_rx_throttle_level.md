@@ -3,7 +3,6 @@ UID: NE:dot11wificxintf._WDI_RX_THROTTLE_LEVEL
 tech.root: netvista
 title: WDI_RX_THROTTLE_LEVEL
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_RX_THROTTLE_LEVEL enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration

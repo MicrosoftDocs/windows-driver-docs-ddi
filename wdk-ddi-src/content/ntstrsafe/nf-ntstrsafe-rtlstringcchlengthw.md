@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchLengthW
 title: RtlStringCchLengthW function (ntstrsafe.h)
-description: The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string.
+description: Learn how the RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string.
 old-location: kernel\rtlstringcchlength.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.MmAllocateContiguousMemory
 title: MmAllocateContiguousMemory function (wdm.h)
-description: The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
+description: Learn how the MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemory.htm
 tech.root: kernel
 ms.date: 04/30/2018

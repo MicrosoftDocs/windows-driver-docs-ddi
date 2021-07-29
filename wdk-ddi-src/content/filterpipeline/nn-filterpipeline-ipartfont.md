@@ -47,8 +47,8 @@ The **IPartFont** interface is the abstraction for fonts in a part.
 
 ## -inheritance
 
-The **IPartFont** interface inherits from [IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase).
+The **IPartFont** interface inherits from [IPartBase](./nn-filterpipeline-ipartbase.md).
 
 ## -see-also
 
-[IPartBase](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase)
+[IPartBase](./nn-filterpipeline-ipartbase.md)

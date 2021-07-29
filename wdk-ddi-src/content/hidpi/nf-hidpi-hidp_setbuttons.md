@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 60bba768-dde1-4e31-a30a-fbf977aeb750
 ms.author: windowsdriverdev
 ms.date: 1/29/2021
-ms.topic: macro
 ms.keywords: HidP_SetButtons
 req.header: hidpi.h
 req.include-header: hidpi.h

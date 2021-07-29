@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_DSIRESET
 title: DXGKDDI_DSIRESET
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: DXGKDDI_DSIRESET callback function"
 tech.root: display

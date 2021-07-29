@@ -2,7 +2,6 @@
 UID: NS:encapsulationconfig._NDIS_OFFLOAD_ENCAPSULATION
 title: NDIS_OFFLOAD_ENCAPSULATION
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_OFFLOAD_ENCAPSULATION structure specifies encapsulation settings when it is used with the OID_OFFLOAD_ENCAPSULATION OID.
 tech.root: netvista

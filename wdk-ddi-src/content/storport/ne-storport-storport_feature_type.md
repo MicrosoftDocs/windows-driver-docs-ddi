@@ -4,7 +4,6 @@ title: STORPORT_FEATURE_TYPE
 description: The STORPORT_FEATURE_TYPE enum identifies a Storport feature supported by a miniport.
 tech.root: storage
 ms.date: 05/13/2021
-ms.topic: enum
 ms.keywords: STORPORT_FEATURE_TYPE, STORPORT_FEATURE_TYPE,
 req.header: storport.h
 req.include-header: 

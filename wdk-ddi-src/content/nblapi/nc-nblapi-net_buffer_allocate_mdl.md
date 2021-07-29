@@ -3,7 +3,6 @@ UID: NC:nblapi.NET_BUFFER_ALLOCATE_MDL
 tech.root: netvista
 title: NET_BUFFER_ALLOCATE_MDL
 ms.date: 06/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NetAllocateMdl function allocates an MDL with an associated memory block of a specified size.
 req.assembly: 

@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk.pHalExamineMBR
 title: pHalExamineMBR (ntddk.h)
-description: The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller.
+description: The pHalExamineMBR callback function is invoked to read the master boot record (MBR) of a disk and return the MBR data if the MBR is of the specified type.
 old-location: kernel\halexaminembr.htm
 tech.root: kernel
 ms.date: 04/30/2018

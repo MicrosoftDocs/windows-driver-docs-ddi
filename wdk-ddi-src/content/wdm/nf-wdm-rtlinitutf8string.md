@@ -4,7 +4,6 @@ title: RtlInitUTF8String function
 description: The RtlInitUTF8String function initializes a counted string of UTF-8 characters.
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlInitUTF8String
 req.header: wdm.h
 req.include-header: 

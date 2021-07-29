@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 title: _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE (storport.h)
-description: The Download Microcode Status diagnostic page includes information about the status of one or more download microcode operations.
+description: The _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure (storport.h) contains information about the status of one or more download microcode operations.
 old-location: storage\ses_download_microcode_status_diagnostic_page.htm
 tech.root: storage
 ms.date: 03/29/2018

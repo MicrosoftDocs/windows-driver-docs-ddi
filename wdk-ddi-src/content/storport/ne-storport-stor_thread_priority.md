@@ -3,7 +3,6 @@ UID: NE:storport._STOR_THREAD_PRIORITY
 tech.root: storage
 title: STOR_THREAD_PRIORITY
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_THREAD_PRIORITY specifies the priority for a StorPort miniport-created thread.
 req.construct-type: enumeration

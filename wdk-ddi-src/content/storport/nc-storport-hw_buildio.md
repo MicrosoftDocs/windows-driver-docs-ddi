@@ -42,7 +42,6 @@ api_name:
 
 # HW_BUILDIO callback function
 
-
 ## -description
 
 The **HwStorBuildIo** routine processes the SRB with unsynchronized access to shared system data structures before passing it to [**HwStorStartIo**](nc-storport-hw_startio.md).
@@ -65,7 +64,7 @@ A pointer to the SCSI request block (SRB) to be processed.
 
 The name **HwStorBuildIo** is just a placeholder for the miniport function that is pointed to by the **HwBuildIo** member in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure. The actual prototype of this routine is defined in *Storport.h* as follows:
 
-```cpp
+```c
 typedef
 BOOLEAN
 HW_BUILDIO (
@@ -124,13 +123,13 @@ To define an **HwStorBuildIo** callback function, you must first provide a funct
 
  For example, to define a **HwStorBuildIo** callback routine that is named *MyHwBuildIo*, use the **HW_BUILDIO** type as shown in this code example:
 
-```cpp
+```c
 HW_BUILDIO MyHwBuildIo;
 ```
 
 Then, implement your callback routine as follows:
 
-```cpp
+```c
 _Use_decl_annotations_
 BOOLEAN
 MyHwBuildIo (
@@ -142,7 +141,7 @@ MyHwBuildIo (
   }
 ```
 
-The **HW_BUILDIO** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_BUILDIO** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/cpp/code-quality/annotating-function-behavior?view=vs-2019).
+The **HW_BUILDIO** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_BUILDIO** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/cpp/code-quality/annotating-function-behavior).
 
 ## -see-also
 
@@ -159,4 +158,3 @@ The **HW_BUILDIO** function type is defined in the Storport.h header file. To mo
 [**StorPortAllocatePool**](nf-storport-storportallocatepool.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
-

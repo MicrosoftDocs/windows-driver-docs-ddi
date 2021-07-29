@@ -4,7 +4,7 @@ tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND (srb.h)
 ms.date: 05/13/2021
 targetos: Windows
-description: The SRBEX_DATA_NVME_COMMAND structure enables the user to frame and issue a command in NVMe format.
+description: The SRBEX_DATA_NVME_COMMAND (srb.h) structure enables the user to frame and issue a command in NVMe format.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

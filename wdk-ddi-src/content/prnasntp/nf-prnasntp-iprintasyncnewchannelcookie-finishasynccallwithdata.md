@@ -63,4 +63,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IPrintAsyncNewChannelCookie](/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnewchannelcookie)
+[IPrintAsyncNewChannelCookie](./nn-prnasntp-iprintasyncnewchannelcookie.md)

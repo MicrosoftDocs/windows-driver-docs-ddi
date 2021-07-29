@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 title: D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 ms.date: 03/24/2020
-ms.topic: language-reference
 tech.root: display
 targetos: Windows
 description: The D3D12DDI_PIN_RESOURCES_CALLBACKS_0076 structure contains callback functions that pin and unpin resources.

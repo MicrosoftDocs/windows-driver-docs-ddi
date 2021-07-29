@@ -3,7 +3,6 @@ UID: NC:poll.NDIS_POLL
 tech.root: netvista
 title: NDIS_POLL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Miniport drivers implement the NdisPoll callback to poll for receive indications and send completions.
 req.assembly: 

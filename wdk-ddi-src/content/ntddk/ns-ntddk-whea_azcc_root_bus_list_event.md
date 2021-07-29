@@ -3,7 +3,6 @@ UID: NS:ntddk._WHEA_AZCC_ROOT_BUS_LIST_EVENT
 title: WHEA_AZCC_ROOT_BUS_LIST_EVENT
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: WHEA_AZCC_ROOT_BUS_LIST_EVENT"
 req.construct-type: structure

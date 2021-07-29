@@ -3,7 +3,6 @@ UID: NS:storport._STOR_FILTER_RESOURCE_REQUIREMENTS
 tech.root: storage
 title: STOR_FILTER_RESOURCE_REQUIREMENTS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_FILTER_RESOURCE_REQUIREMENTS is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiAdapterFilterResourceRequirements.
 req.construct-type: structure

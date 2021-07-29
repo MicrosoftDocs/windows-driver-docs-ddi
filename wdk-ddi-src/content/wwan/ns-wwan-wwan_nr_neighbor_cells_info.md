@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_NR_NEIGHBOR_CELLS_INFO
 tech.root: netvista
 title: WWAN_NR_NEIGHBOR_CELLS_INFO
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_NR_NEIGHBOR_CELLS_INFO structure represents information about NR neighbor cells.
 req.construct-type: structure

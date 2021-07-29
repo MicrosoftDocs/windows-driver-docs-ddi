@@ -3,7 +3,6 @@ UID: NS:netadapter._NET_ADAPTER_LINK_LAYER_ADDRESS
 tech.root: netvista
 title: NET_ADAPTER_LINK_LAYER_ADDRESS
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: A NET_ADAPTER_LINK_LAYER_ADDRESS structure describes a link layer address.
 req.construct-type: structure

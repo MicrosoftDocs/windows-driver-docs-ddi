@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryNodeMaximumProcessorCount
 title: KeQueryNodeMaximumProcessorCount function (wdm.h)
-description: The KeQueryNodeMaximumProcessorCount routine returns the maximum number of logical processors that a specified node in a non-uniform memory access (NUMA) multiprocessor system can contain.
+description: Learn how the KeQueryNodeMaximumProcessorCount routine returns the maximum number of logical processors that a specified node in a non-uniform memory access (NUMA) multiprocessor system can contain.
 old-location: kernel\kequerynodemaximumprocessorcount.htm
 tech.root: kernel
 ms.date: 04/30/2018

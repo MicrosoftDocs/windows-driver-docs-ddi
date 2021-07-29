@@ -3,7 +3,6 @@ UID: NI:ntddstor.IOCTL_STORAGE_DIAGNOSTIC
 title: IOCTL_STORAGE_DIAGNOSTIC
 ms.date: 10/28/2020
 tech.root: storage
-ms.topic: language-reference
 targetos: Windows
 description: IOCTL_STORAGE_DIAGNOSTIC is used to query diagnostic data from the storage driver stack.
 req.construct-type: ioctl

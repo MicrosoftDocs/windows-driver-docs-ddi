@@ -51,7 +51,7 @@ The **IPrinterExtensionManager** interface inherits from the [IUnknown](/windows
 
 ## -remarks
 
-Any event sink that implements [IPrinterExtensionEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionevent) is connected to the associated event source, **IPrinterExtensionManager**, via the **IConnectionPoint** mechanism. You must retrieve a pointer to the **IConnectionPoint** interface by invoking **QueryInterface** on the **IPrinterExtensionManager** object.
+Any event sink that implements [IPrinterExtensionEvent](./nn-printerextension-iprinterextensionevent.md) is connected to the associated event source, **IPrinterExtensionManager**, via the **IConnectionPoint** mechanism. You must retrieve a pointer to the **IConnectionPoint** interface by invoking **QueryInterface** on the **IPrinterExtensionManager** object.
 
 It is mandatory to implement **IDispatch::Invoke** on the event sink that implements **IPrinterExtensionEvent**, since that is the mechanism via which events are raised.
 

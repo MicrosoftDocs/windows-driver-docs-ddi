@@ -3,7 +3,6 @@ UID: NE:storport._SCSI_UC_DEVICE_USAGE_TYPE
 tech.root: storage
 title: SCSI_UC_DEVICE_USAGE_TYPE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: SCSI_UC_DEVICE_USAGE_TYPE specifies the device usage type from a PnP device usage notification.
 req.construct-type: enumeration

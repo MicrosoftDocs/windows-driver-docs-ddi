@@ -1,7 +1,7 @@
 ---
 UID: NF:pep_x.PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
 title: PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function (pep_x.h)
-description: The PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_GPIO_RESOURCE structure.
+description: Learn how the PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_GPIO_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_gpio_io_resource.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.__unnamed_struct_9
 title: PRI_REGISTRATION_LIST (storport.h)
-description: The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.
+description: The PRI_REGISTRATION_LIST structure (storport.h) contains information about persistent reservations and reservation keys that are active within a device server.
 old-location: storage\pri_registration_list.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -54,9 +54,7 @@ The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Rese
 
 ### -field Generation
 
-The Generation field contains a 32-bit counter that is maintained by the device server, which is incremented every time a Persistent Reserve Out command requests a REGISTER, REGISTER AND IGNORE
-
-EXISTING KEY, CLEAR, PREEMPT, or PREEMPT AND ABORT service action.
+The Generation field contains a 32-bit counter that is maintained by the device server, which is incremented every time a Persistent Reserve Out command requests a REGISTER, REGISTER AND IGNORE EXISTING KEY, CLEAR, PREEMPT, or PREEMPT AND ABORT service action.
 
 ### -field AdditionalLength
 

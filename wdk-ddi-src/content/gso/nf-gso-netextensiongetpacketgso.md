@@ -3,7 +3,6 @@ UID: NF:gso.NetExtensionGetPacketGso
 tech.root: netvista
 title: NetExtensionGetPacketGso
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NetExtensionGetPacketGso function retrieves Generic Segmentation Offload (GSO) information for a packet.
 req.assembly: 

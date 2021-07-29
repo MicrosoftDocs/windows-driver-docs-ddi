@@ -3,7 +3,6 @@ UID: NS:wdm._FILE_SFIO_RESERVE_INFORMATION
 title: FILE_SFIO_RESERVE_INFORMATION
 ms.date: 11/20/2020
 tech.root: ifsk
-ms.topic: language-reference
 targetos: Windows
 description: FILE_SFIO_RESERVE_INFORMATION is used to query or set a file's reserved bandwidth information for scheduled file I/O (SFIO).
 req.construct-type: structure

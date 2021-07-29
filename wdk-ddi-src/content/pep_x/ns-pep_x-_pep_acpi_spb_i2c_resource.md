@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_SPB_I2C_RESOURCE
 title: _PEP_ACPI_SPB_I2C_RESOURCE (pep_x.h)
-description: The PEP_ACPI_SPB_I2C_RESOURCE structure describes an ACPI I2C serial bus resource.
+description: Learn how the PEP_ACPI_SPB_I2C_RESOURCE structure describes an ACPI I2C serial bus resource.
 old-location: kernel\pep_acpi_spb_i2c_resource.htm
 tech.root: kernel
 ms.date: 04/30/2018

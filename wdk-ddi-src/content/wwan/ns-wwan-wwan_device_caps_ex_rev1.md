@@ -48,7 +48,7 @@ dev_langs:
 >
 > Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the [Microsoft style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
-The **WWAN_DEVICE_CAPS_EX_REV1** structure represents the capabilities of a mobile broadband device. **WWAN_DEVICE_CAPS_EX_REV1** updates the existing [WWAN\_DEVICE\_CAPS\_EX](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps_ex) structure by removing the following fields:
+The **WWAN_DEVICE_CAPS_EX_REV1** structure represents the capabilities of a mobile broadband device. **WWAN_DEVICE_CAPS_EX_REV1** updates the existing [WWAN\_DEVICE\_CAPS\_EX](./ns-wwan-_wwan_device_caps_ex.md) structure by removing the following fields:
 
 - WwanSimClassBitMasks
 - WwanWCDMABandClass
@@ -348,14 +348,14 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
-[WWAN\_DEVICE\_CAPS\_EX](/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps_ex)
+[WWAN\_DEVICE\_CAPS\_EX](./ns-wwan-_wwan_device_caps_ex.md)
 
-[NDIS\_WWAN\_DEVICE\_CAPS](/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps)
+[NDIS\_WWAN\_DEVICE\_CAPS](../ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps.md)
 
-[WWAN\_CELLULAR\_CLASS](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_cellular_class)
+[WWAN\_CELLULAR\_CLASS](./ne-wwan-_wwan_cellular_class.md)
 
-[WWAN\_DEVICE\_TYPE](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_device_type)
+[WWAN\_DEVICE\_TYPE](./ne-wwan-_wwan_device_type.md)
 
-[WWAN\_SIM\_CLASS](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sim_class)
+[WWAN\_SIM\_CLASS](./ne-wwan-_wwan_sim_class.md)
 
-[WWAN\_VOICE\_CLASS](/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_voice_class)
+[WWAN\_VOICE\_CLASS](./ne-wwan-_wwan_voice_class.md)

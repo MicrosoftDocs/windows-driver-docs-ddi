@@ -45,7 +45,7 @@ api_name:
 
 The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.
 
-This interface is the same as [IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag), except that the GetBytes and SetBytes methods operate on JavaScript arrays and the GetReadStream and GetWriteStream methods operate on [IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream) objects.
+This interface is the same as [IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md), except that the GetBytes and SetBytes methods operate on JavaScript arrays and the GetReadStream and GetWriteStream methods operate on [IPrinterScriptableStream](./nn-printerextension-iprinterscriptablestream.md) objects.
 
 ## -inheritance
 
@@ -53,14 +53,14 @@ The **IPrinterScriptablePropertyBag** interface inherits from the [IUnknown](/wi
 
 ## -see-also
 
-[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)
 
-[IPrinterScriptContext::DriverProperties](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptcontext-get_driverproperties)
+[IPrinterScriptContext::DriverProperties](./nf-printerextension-iprinterscriptcontext-get_driverproperties.md)
 
-[IPrinterScriptContext::QueueProperties](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptcontext-get_queueproperties)
+[IPrinterScriptContext::QueueProperties](./nf-printerextension-iprinterscriptcontext-get_queueproperties.md)
 
-[IPrinterScriptContext::UserProperties](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptcontext-get_userproperties)
+[IPrinterScriptContext::UserProperties](./nf-printerextension-iprinterscriptcontext-get_userproperties.md)
 
-[IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream)
+[IPrinterScriptableStream](./nn-printerextension-iprinterscriptablestream.md)
 
 [V4 Printer Driver Property Bags](/windows-hardware/drivers/print/v4-driver-property-bags)

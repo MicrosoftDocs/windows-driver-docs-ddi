@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_FIND_NEW_DEVICES
 title: IOCTL_CDROM_FIND_NEW_DEVICES (ntddcdrm.h)
-description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_FIND_NEW_DEVICES. The only difference between the two IOCTLs is the base value.
+description: The IOCTL_CDROM_FIND_NEW_DEVICES IOCTL is replaced by IOCTL_STORAGE_FIND_NEW_DEVICES In Microsoft Windows 2000 and later operating systems.
 old-location: storage\ioctl_cdrom_find_new_devices.htm
 tech.root: storage
 ms.date: 03/29/2018

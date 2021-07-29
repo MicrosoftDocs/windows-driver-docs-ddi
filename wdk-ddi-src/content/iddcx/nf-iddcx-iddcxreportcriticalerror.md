@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxReportCriticalError
 title: IddCxReportCriticalError
 tech.root: display
 ms.date: 9/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: IddCxReportCriticalError is an OS callback function called by an indirect display driver (IDD) to report a critical error.
 req.assembly: 

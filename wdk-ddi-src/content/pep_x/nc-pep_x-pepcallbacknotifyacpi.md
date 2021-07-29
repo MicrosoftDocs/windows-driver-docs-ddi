@@ -1,7 +1,7 @@
 ---
 UID: NC:pep_x.PEPCALLBACKNOTIFYACPI
 title: PEPCALLBACKNOTIFYACPI (pep_x.h)
-description: An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx).
+description: Learn how an AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptacpinotification.htm
 tech.root: kernel
 ms.date: 04/30/2018

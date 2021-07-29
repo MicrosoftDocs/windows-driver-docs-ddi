@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.ChangeSymbolState
 tech.root: debugger
 title: IDebugEventContextCallbacks::ChangeSymbolState
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The symbol state has changed.
 req.assembly: 

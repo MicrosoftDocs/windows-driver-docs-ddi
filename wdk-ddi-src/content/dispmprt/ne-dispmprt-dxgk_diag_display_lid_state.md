@@ -2,7 +2,6 @@
 UID: NE:dispmprt._DXGK_DIAG_DISPLAY_LID_STATE
 title: DXGK_DIAG_DISPLAY_LID_STATE
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: DXGK_DIAG_DISPLAY_LID_STATE provides the lid state of the target to the operating system (OS) when it is gathering nonintrusive display diagnostic information.
 tech.root: display

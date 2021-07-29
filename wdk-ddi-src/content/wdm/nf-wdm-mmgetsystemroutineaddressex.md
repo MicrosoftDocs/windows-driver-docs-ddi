@@ -4,7 +4,6 @@ title: MmGetSystemRoutineAddressEx function
 description: The MmGetSystemRoutineAddressEx function returns the address of the specified function in the specified system module.
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: function
 ms.keywords: MmGetSystemRoutineAddressEx
 req.header: wdm.h
 req.include-header: 

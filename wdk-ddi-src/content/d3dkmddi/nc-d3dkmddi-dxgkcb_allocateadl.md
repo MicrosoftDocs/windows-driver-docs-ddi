@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_ALLOCATEADL
 tech.root: display
 title: DXGKCB_ALLOCATEADL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DxgkCbAllocateAdl creates an address descriptor list (ADL).
 req.assembly: 

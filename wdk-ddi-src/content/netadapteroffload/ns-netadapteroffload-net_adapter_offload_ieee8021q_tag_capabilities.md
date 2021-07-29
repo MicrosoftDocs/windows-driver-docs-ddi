@@ -3,7 +3,6 @@ UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES
 tech.root: netvista
 title: NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES describes a NIC's IEEE 802.1 priority and VLAN tagging capabilities.
 req.construct-type: structure

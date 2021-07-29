@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.GetInterestMask
 tech.root: debugger
 title: IDebugEventContextCallbacks::GetInterestMask
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The engine calls GetInterestMask once when the event callbacks are set for a client.
 req.assembly: 

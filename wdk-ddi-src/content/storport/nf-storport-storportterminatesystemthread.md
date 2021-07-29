@@ -3,7 +3,6 @@ UID: NF:storport.StorPortTerminateSystemThread
 tech.root: storage
 title: StorPortTerminateSystemThread
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortTerminateSystemThread terminates the current system thread.
 req.assembly: 

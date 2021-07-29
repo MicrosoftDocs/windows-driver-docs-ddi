@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK (wdm.h)
-description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) uncorrectable error mask register of a PCIe advanced error reporting capability structure.
+description: The _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure (wdm.h) describes a PCI Express (PCIe) uncorrectable error mask register.
 old-location: pci\pci_express_uncorrectable_error_mask.htm
 tech.root: PCI
 ms.date: 02/24/2018

@@ -3,7 +3,6 @@ UID: NS:poll._NDIS_POLL_TRANSMIT_DATA
 tech.root: netvista
 title: NDIS_POLL_TRANSMIT_DATA
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Miniport drivers use the NDIS_POLL_TRANSMIT_DATA structure to perform send completions when using a Poll object. 
 req.construct-type: structure

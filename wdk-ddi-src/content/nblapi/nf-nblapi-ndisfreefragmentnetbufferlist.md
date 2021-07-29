@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisFreeFragmentNetBufferList
 title: NdisFreeFragmentNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisFreeFragmentNetBufferList function to free a NET_BUFFER_LIST structure and all associated NET_BUFFER structures and MDL chains that were previously allocated by the calling NdisAllocateFragmentNetBufferList function.
 tech.root: netvista

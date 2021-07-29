@@ -1,7 +1,6 @@
 ---
 UID: NC:netdevice.EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS
 title: EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS (netdevice.h)
-ms.topic: language-reference
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows

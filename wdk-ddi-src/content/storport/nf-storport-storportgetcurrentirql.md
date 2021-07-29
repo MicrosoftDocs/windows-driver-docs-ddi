@@ -3,7 +3,6 @@ UID: NF:storport.StorPortGetCurrentIrql
 tech.root: storage
 title: StorPortGetCurrentIrql
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortGetCurrentIrql retrieves the current interrupt request level (IRQL).
 req.assembly: 

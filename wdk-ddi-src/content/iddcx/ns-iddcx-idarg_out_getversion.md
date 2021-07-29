@@ -2,7 +2,6 @@
 UID: NS:iddcx.IDARG_OUT_GETVERSION
 title: IDARG_OUT_GETVERSION
 ms.date: 10/20/2020
-ms.topic: language-reference
 tech.root: display
 targetos: Windows
 description: The IDARG_OUT_GETVERSION structure is used to store the IddCx (Indirect Display Driver Class eXtension) version.

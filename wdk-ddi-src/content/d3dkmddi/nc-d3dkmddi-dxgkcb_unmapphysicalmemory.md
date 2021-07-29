@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_UNMAPPHYSICALMEMORY
 tech.root: display
 title: DXGKCB_UNMAPPHYSICALMEMORY
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkCbUnmapPhysicalMemory callback function unmaps a CPU-visible virtual address from the underlying physical memory.
 req.assembly: 

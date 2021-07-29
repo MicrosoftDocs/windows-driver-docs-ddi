@@ -3,7 +3,6 @@ UID: NE:storport._STORPORT_LIVEDUMP_DATA_TYPE
 tech.root: storage
 title: STORPORT_LIVEDUMP_DATA_TYPE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STORPORT_LIVEDUMP_DATA_TYPE identifies the data type of the payload to be included in the live dump.
 req.construct-type: enumeration

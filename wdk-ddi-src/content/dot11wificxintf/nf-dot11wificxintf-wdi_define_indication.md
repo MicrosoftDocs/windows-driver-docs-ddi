@@ -3,7 +3,6 @@ UID: NF:dot11wificxintf.WDI_DEFINE_INDICATION
 tech.root: netvista
 title: WDI_DEFINE_INDICATION
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_DEFINE_INDICATION function for internal use only. Don't use this function in your code."
 req.assembly: 

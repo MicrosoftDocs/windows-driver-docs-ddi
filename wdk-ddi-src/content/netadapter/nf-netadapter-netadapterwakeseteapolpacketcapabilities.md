@@ -3,7 +3,6 @@ UID: NF:netadapter.NetAdapterWakeSetEapolPacketCapabilities
 tech.root: netvista
 title: NetAdapterWakeSetEapolPacketCapabilities
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetAdapterWakeSetEapolPacketCapabilities sets a network adapter's EAPOL packet WoL capabilities.
 req.assembly: 

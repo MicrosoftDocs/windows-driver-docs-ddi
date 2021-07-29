@@ -42,10 +42,9 @@ api_name:
 
 # HW_CLEANUP_TRACING callback function
 
-
 ## -description
 
-The <b>HwStorCleanupTracing</b> callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources.
+The **HwStorCleanupTracing** callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources.
 
 ## -parameters
 
@@ -55,10 +54,9 @@ A pointer to the driver object.
 
 ## -remarks
 
-The name <b>HwStorCleanupTracing</b> is  placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
+The name **HwStorCleanupTracing** is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
-
-```
+``` c
 typedef
 VOID
 HW_CLEANUP_TRACING (
@@ -66,24 +64,21 @@ HW_CLEANUP_TRACING (
   );
 ```
 
-The port driver calls the Storport virtual miniport's <b>HwStorCleanupTracing</b> at PASSIVE_LEVEL.
+The port driver calls the Storport virtual miniport's **HwStorCleanupTracing** at PASSIVE_LEVEL.
 
+### Examples
 
-#### Examples
+To define an **HwStorCleanupTracing** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-To define an <b>HwStorCleanupTracing</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+ For example, to define a **HwStorCleanupTracing** callback routine that is named **MyHwCleanupTracing**, use the **HW_CLEANUP_TRACING** type as shown in this code example:
 
- For example, to define a <b>HwStorCleanupTracing</b> callback routine that is named <i>MyHwCleanupTracing</i>, use the <b>HW_CLEANUP_TRACING</b> type as shown in this code example:
-
-
-```
+``` c
 HW_CLEANUP_TRACING MyHwCleanupTracing;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 VOID
 MyHwCleanupTracing (
@@ -94,5 +89,4 @@ MyHwCleanupTracing (
   }
 ```
 
-The <b>HW_CLEANUP_TRACING</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_CLEANUP_TRACING</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
+The **HW_CLEANUP_TRACING** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_CLEANUP_TRACING** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).

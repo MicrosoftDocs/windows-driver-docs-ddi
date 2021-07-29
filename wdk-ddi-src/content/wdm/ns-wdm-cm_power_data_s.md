@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm.CM_Power_Data_s
 title: CM_Power_Data_s (wdm.h)
-description: The CM_POWER_DATA structure contains information about a device's power management state and capabilities.
+description: Learn how the CM_POWER_DATA structure contains information about a device's power management state and capabilities.
 old-location: kernel\cm_power_data.htm
 tech.root: kernel
 ms.date: 04/30/2018

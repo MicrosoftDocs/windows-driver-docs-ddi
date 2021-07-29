@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_CURRENT_MDL_OFFSET
 title: NET_BUFFER_CURRENT_MDL_OFFSET
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_CURRENT_MDL_OFFSET is a macro that NDIS drivers use to get the CurrentMdlOffset member of a NET_BUFFER structure.
 tech.root: netvista 

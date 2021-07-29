@@ -3,7 +3,6 @@ UID: NF:storport.StorPortQueryDpcWatchdogInformation
 tech.root: storage
 title: StorPortQueryDpcWatchdogInformation
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortQueryDpcWatchdogInformation queries DPC watchdog timer values for the current processor.
 req.assembly: 

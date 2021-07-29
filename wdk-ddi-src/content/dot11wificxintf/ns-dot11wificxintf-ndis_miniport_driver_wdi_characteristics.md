@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 tech.root: netvista
 title: NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

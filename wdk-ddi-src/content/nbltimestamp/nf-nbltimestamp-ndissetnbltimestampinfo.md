@@ -2,7 +2,6 @@
 UID: NF:nbltimestamp.NdisSetNblTimestampInfo
 title: NdisSetNblTimestampInfo
 ms.date: 01/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: Miniport drivers call NdisSetNblTimestampInfo to store a hardware or software timestamp in a NET_BUFFER_LIST (NBL).
 tech.root: netvista

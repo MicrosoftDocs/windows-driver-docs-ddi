@@ -3,7 +3,6 @@ UID: NF:storport.StorPortCreateSystemThread
 tech.root: storage
 title: StorPortCreateSystemThread
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortCreateSystemThread creates a system thread and supplies a pointer to a context for the thread.
 req.assembly: 

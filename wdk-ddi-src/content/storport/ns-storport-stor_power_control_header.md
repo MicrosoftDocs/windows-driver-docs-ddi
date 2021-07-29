@@ -3,7 +3,6 @@ UID: NS:storport._STOR_POWER_CONTROL_HEADER
 tech.root: storage
 title: STOR_POWER_CONTROL_HEADER
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_POWER_CONTROL_HEADER is a common power control header for both adapter and unit power-related control parameters.
 req.construct-type: structure

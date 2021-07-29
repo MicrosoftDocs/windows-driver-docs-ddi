@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisQueryNetBufferPhysicalCount
 title: NdisQueryNetBufferPhysicalCount
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisQueryNetBufferPhysicalCount function returns the maximum number of physical breaks mapped by the buffer descriptors that are associated with the given NET_BUFFER structure.
 tech.root: netvista

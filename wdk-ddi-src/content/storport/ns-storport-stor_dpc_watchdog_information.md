@@ -3,7 +3,6 @@ UID: NS:storport._STOR_DPC_WATCHDOG_INFORMATION
 tech.root: storage
 title: STOR_DPC_WATCHDOG_INFORMATION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_DPC_WATCHDOG_INFORMATION holds time-out information about the current deferred procedure call (DPC).
 req.construct-type: structure

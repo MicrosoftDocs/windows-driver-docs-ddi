@@ -4,7 +4,6 @@ title: DEVICE_INTERNAL_STATUS_DATA
 description: "Learn more about: DEVICE_INTERNAL_STATUS_DATA structure"
 tech.root: storage
 ms.date: 11/30/2019
-ms.topic: struct
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA, DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA,
 req.header: ntddstor.h
 req.include-header: 

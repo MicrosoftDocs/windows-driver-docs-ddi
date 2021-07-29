@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisGetPoolFromNetBufferList
 title: NdisGetPoolFromNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisGetPoolFromNetBufferList function to get the NET_BUFFER_LIST structure pool handle that is associated with a specified NET_BUFFER_LIST structure.
 tech.root: netvista

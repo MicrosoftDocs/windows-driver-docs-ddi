@@ -3,7 +3,6 @@ UID: NS:iddcx.IDARG_IN_REPORTCRITICALERROR
 title: IDARG_IN_REPORTCRITICALERROR
 ms.date: 09/24/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: The IDARG_IN_REPORTCRITICALERROR structure contains information about a critical error being reported by an indirect display driver (IDD).
 req.construct-type: structure

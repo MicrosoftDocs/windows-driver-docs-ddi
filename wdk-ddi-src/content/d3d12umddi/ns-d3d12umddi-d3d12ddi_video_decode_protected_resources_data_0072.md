@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_PROTECTED_RESOURCES_DATA_0072
 title: D3D12DDI_VIDEO_DECODE_PROTECTED_RESOURCES_DATA_0072
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Data structure used to check for video decode protected resource support capabilities on a given node index.

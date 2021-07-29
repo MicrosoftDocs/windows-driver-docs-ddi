@@ -3,7 +3,6 @@ UID: NF:poll.NdisRegisterPoll
 tech.root: netvista
 title: NdisRegisterPoll
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: A miniport driver calls the NdisRegisterPoll function to register a Poll object with NDIS. 
 req.assembly: 

@@ -2,7 +2,6 @@
 UID: NF:mdlapi.NdisAllocateMdl
 title: NdisAllocateMdl
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisAllocateMdl function allocates an MDL that describes the memory buffer at the specified virtual address.
 tech.root: netvista

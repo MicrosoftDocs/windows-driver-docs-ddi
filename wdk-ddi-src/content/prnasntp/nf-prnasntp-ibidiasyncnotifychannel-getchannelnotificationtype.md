@@ -53,4 +53,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IBidiAsyncNotifyChannel](/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-ibidiasyncnotifychannel)
+[IBidiAsyncNotifyChannel](./nn-prnasntp-ibidiasyncnotifychannel.md)

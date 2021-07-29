@@ -3,7 +3,6 @@ UID: NS:storport._STOR_POWER_SETTING_INFO
 tech.root: storage
 title: STOR_POWER_SETTING_INFO
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_POWER_SETTING_INFO is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiPowerSettingNotification.
 req.construct-type: structure

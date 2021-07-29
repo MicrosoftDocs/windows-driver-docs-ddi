@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.CreateProcess
 tech.root: debugger
 title: IDebugEventContextCallbacks::CreateProcess
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The IDebugEventContextCallbacks::CreateProcess callback method is called by the engine when a create-process debugging event occurs in the target.
 req.assembly: 

@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGKARG_DISPLAYSTATE_INTRUSIVE
 title: DXGK_DISPLAYSTATE_INTRUSIVE
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The **DXGK_DISPLAYSTATE_INTRUSIVE** structure holds display state during diagnostic data collection.
 tech.root: display

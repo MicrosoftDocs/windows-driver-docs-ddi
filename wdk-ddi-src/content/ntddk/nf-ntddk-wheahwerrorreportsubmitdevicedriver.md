@@ -2,7 +2,6 @@
 UID: NF:ntddk.WheaHwErrorReportSubmitDeviceDriver
 title: WheaHwErrorReportSubmitDeviceDriver
 ms.date: 04/02/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: whea
 description: "Learn more about: WheaHwErrorReportSubmitDeviceDriver"

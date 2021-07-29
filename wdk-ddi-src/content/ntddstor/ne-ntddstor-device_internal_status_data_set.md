@@ -4,7 +4,6 @@ title: DEVICE_INTERNAL_STATUS_DATA_SET
 description: DEVICE_INTERNAL_STATUS_DATA_SET identifies the device internal status data set to query.
 tech.root: storage
 ms.date: 11/30/2019
-ms.topic: enum
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_SET, DEVICE_INTERNAL_STATUS_DATA_SET, *PDEVICE_INTERNAL_STATUS_DATA_SET,
 req.header: ntddstor.h
 req.include-header: 

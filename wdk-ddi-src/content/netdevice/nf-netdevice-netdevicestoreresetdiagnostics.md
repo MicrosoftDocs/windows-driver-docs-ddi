@@ -1,7 +1,6 @@
 ---
 UID: NF:netdevice.NetDeviceStoreResetDiagnostics
 title: NetDeviceStoreResetDiagnostics
-ms.topic: language-reference
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows

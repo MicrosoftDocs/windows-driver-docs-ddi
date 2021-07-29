@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape.__unnamed_struct_17
 title: WRITE_USING_TOKEN_HEADER (minitape.h)
-description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
+description: The WRITE_USING_TOKEN_HEADER structure (minitape.h) describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
 tech.root: storage
 ms.date: 03/29/2018

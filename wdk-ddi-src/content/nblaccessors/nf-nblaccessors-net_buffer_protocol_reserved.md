@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_PROTOCOL_RESERVED
 title: NET_BUFFER_PROTOCOL_RESERVED
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_PROTOCOL_RESERVED is a macro that NDIS drivers use to get the ProtocolReserved member of a NET_BUFFER structure.
 tech.root: netvista

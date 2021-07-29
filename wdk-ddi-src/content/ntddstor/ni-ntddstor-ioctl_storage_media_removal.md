@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_MEDIA_REMOVAL
 title: IOCTL_STORAGE_MEDIA_REMOVAL (ntddstor.h)
-description: Locks the device to prevent removal of the media.
+description: IOCTL_STORAGE_MEDIA_REMOVAL locks the device to prevent removal of the media.
 old-location: storage\ioctl_storage_media_removal.htm
 tech.root: storage
 ms.date: 03/29/2018

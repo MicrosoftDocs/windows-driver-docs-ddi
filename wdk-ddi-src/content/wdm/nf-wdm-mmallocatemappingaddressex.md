@@ -4,7 +4,6 @@ title: MmAllocateMappingAddressEx function
 description: The MmAllocateMappingAddressEx function allocates a system PTE mapping of the requested length that can be used later to map arbitrary addresses.
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: function
 ms.keywords: MmAllocateMappingAddressEx
 req.header: wdm.h
 req.include-header: 

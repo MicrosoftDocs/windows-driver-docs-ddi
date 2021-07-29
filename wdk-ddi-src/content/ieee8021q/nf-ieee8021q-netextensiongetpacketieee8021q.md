@@ -3,7 +3,6 @@ UID: NF:ieee8021q.NetExtensionGetPacketIeee8021Q
 tech.root: netvista 
 title: NetExtensionGetPacketIeee8021Q
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NetExtensionGetPacketIeee8021Q function retrieves the 802.1Q information for a NET_PACKET.
 req.assembly: 

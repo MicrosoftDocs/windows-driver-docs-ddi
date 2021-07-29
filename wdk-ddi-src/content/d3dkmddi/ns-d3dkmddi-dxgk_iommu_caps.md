@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_IOMMU_CAPS
 tech.root: display
 title: DXGK_IOMMU_CAPS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_IOMMU_CAPS structure is used to indicate whether a driver supports IOMMU linear remapping.
 req.construct-type: structure

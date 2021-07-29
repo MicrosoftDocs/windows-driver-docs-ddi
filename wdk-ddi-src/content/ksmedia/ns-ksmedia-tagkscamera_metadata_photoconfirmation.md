@@ -55,7 +55,7 @@ This structure contains the photo confirmation metadata information that is fill
 
 ### -field Header
 
-A [KSCAMERA_METADATA_ITEMHEADER](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_metadata_itemheader) structure that contains the metadata header information that is filled by the camera driver.
+A [KSCAMERA_METADATA_ITEMHEADER](./ns-ksmedia-tagkscamera_metadata_itemheader.md) structure that contains the metadata header information that is filled by the camera driver.
 
 ### -field PhotoConfirmationIndex
 

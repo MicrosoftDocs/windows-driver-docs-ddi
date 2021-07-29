@@ -3,7 +3,6 @@ UID: NS:wwan._WWAN_NR_NEIGHBOR_CELLS
 tech.root: netvista
 title: WWAN_NR_NEIGHBOR_CELLS
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_NR_NEIGHBOR_CELLS structure represents the measured results list of neighboring NR cells.
 req.construct-type: structure

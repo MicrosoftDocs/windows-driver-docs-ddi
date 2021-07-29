@@ -3,7 +3,6 @@ UID: NS:d3dumddi._D3DDDICB_SUBMITHISTORYSEQUENCE
 title: D3DDDICB_SUBMITHISTORYSEQUENCE
 ms.date: 10/05/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: D3DDDICB_SUBMITHISTORYSEQUENCE"
 req.construct-type: structure

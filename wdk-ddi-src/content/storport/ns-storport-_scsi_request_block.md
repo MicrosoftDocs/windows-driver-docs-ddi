@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SCSI_REQUEST_BLOCK
 title: _SCSI_REQUEST_BLOCK (storport.h)
-description: SCSI_REQUEST_BLOCK structure
+description: The _SCSI_REQUEST_BLOCK structure (storport.h) contains information for SCSI Request Block (SRB) functions.
 old-location: storage\scsi_request_block.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_SAMPLER_FEEDBACK_DESC_0073
 title: D3D12DDI_SAMPLER_FEEDBACK_DESC_0073
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: "Microsoft has deprecated the D3D12DDI_SAMPLER_FEEDBACK_DESC_0073 structure. Don't use this structure in your code."

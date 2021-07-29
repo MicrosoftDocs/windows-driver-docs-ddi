@@ -4,7 +4,6 @@ title: RtlUnicodeStringToUTF8String function (wdm.h)
 description: The RtlUnicodeStringToUTF8String function converts the specified Unicode source string into an UTF8 string.
 tech.root: kernel
 ms.date: 05/27/2021
-ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: wdm.h
 req.include-header: 

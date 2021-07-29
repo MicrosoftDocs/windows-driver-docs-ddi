@@ -3,7 +3,6 @@ UID: NF:storport.StorPortQueryTimerMinInterval
 tech.root: storage
 title: StorPortQueryTimerMinInterval
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortQueryTimerMinInterval queries the minimum timer resolution that is supported by the system clock.
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._WDI_MAC_ADDRESS
 tech.root: netvista
 title: WDI_MAC_ADDRESS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Microsoft reserves the WDI_MAC_ADDRESS structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure

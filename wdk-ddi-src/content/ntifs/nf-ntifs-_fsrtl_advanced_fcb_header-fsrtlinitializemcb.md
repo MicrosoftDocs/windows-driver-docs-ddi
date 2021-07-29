@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlInitializeMcb
 title: FsRtlInitializeMcb function (ntifs.h)
-description: Obsolete.
+description: The FsRtlInitializeMcb function is obsolete.
 old-location: ifsk\fsrtlinitializemcb.htm
 tech.root: ifsk
 ms.date: 04/16/2018

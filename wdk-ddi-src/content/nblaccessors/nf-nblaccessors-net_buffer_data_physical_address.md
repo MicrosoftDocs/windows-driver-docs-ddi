@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_DATA_PHYSICAL_ADDRESS
 title: NET_BUFFER_DATA_PHYSICAL_ADDRESS
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_DATA_PHYSICAL_ADDRESS macro retrieves the DataPhysicalAddress member of a NET_BUFFER structure.
 tech.root: netvista 

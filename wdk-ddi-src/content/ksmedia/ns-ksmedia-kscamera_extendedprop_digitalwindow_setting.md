@@ -69,11 +69,11 @@ These parameters are read-only if KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_AUTOFACEFR
 
 ## -see-also
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_configcapsheader)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcapsheader.md)
 
-[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps)
+[KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps.md)
 
-[KSCAMERA_METADATA_DIGITALWINDOW](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_metadata_digitalwindow)
+[KSCAMERA_METADATA_DIGITALWINDOW](./ns-ksmedia-kscamera_metadata_digitalwindow.md)
 
 [KSPROPERTY_CAMERACONTROL_EXTENDED_DIGITALWINDOW](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-digitalwindow)
 

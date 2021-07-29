@@ -2,7 +2,6 @@
 UID: NC:ndkpi.NDK_FN_COMPLETE_CONNECT_EX
 title: NDK_FN_COMPLETE_CONNECT_EX
 ms.date: 12/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdkCompleteConnectEx (NDK_FN_COMPLETE_CONNECT_EX) function completes an asynchronous connection request.
 tech.root: netvista

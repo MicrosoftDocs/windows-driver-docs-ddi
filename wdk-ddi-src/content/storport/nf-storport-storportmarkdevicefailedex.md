@@ -4,7 +4,6 @@ title: StorPortMarkDeviceFailedEx function
 description: The StorPortMarkDeviceFailedEx routine marks a device with failed status and provides data that might be needed for diagnosis.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: StorPortMarkDeviceFailedEx
 req.header: storport.h
 req.include-header: 

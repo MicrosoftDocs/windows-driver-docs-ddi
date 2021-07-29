@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddsysenv.IOCTL_SYSENV_QUERY_VARIABLE_INFO
 title: IOCTL_SYSENV_QUERY_VARIABLE_INFO (ntddsysenv.h)
-description: Returns information about system environment variables using SysEnv device.
+description: IOCTL_SYSENV_QUERY_VARIABLE_INFO returns information about system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_query_variable_info.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_LIST_INFO
 title: NET_BUFFER_LIST_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_LIST_INFO is a macro that NDIS drivers use to get and set information that applies to all the NET_BUFFER structures in a NET_BUFFER_LIST structure.
 tech.root: netvista

@@ -42,10 +42,9 @@ api_name:
 
 # HW_INTERRUPT callback function
 
-
 ## -description
 
-The Storport driver calls the <b>HwStorInterrupt</b> routine after the HBA generates an interrupt request.
+The Storport driver calls the **HwStorInterrupt** routine after the HBA generates an interrupt request.
 
 ## -parameters
 
@@ -55,37 +54,38 @@ A pointer to the miniport driver's per HBA storage area.
 
 ## -returns
 
-If the miniport driver finds that its HBA did not generate the interrupt, <b>HwStorInterrupt</b> should return <b>FALSE</b> as soon as possible. The <b>HwStorInterrupt</b> routine should return within 50 microseconds.
+If the miniport driver finds that its HBA did not generate the interrupt, **HwStorInterrupt** should return **FALSE** as soon as possible. The **HwStorInterrupt** routine should return within 50 microseconds.
 
 ## -remarks
 
-The name <b>HwStorInterrupt</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+The name **HwStorInterrupt** is just a placeholder. The actual prototype of this routine is defined in *Storport.h* as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef
+``` c
+typedef
 BOOLEAN
 HW_INTERRUPT (
   IN PVOID  DeviceExtension
-  );</code></pre>
-The <b>HwStorInterrupt</b> routine should return within 50 microseconds, ideally as short a time as possible. Therefore, all activity does not have to occur at high IRQL should be deferred to the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a> that is defined in the miniport driver and issued by using <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>.  The latency of the DPC is very low, and it will be called immediately after the return from high IRQL.
-
-The port driver calls the <b>HwStorInterrupt</b> routine at DIRQL.
-
-
-#### Examples
-
-To define an <b>HwStorInterrupt</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
- For example, to define a <b>HwStorInterrupt</b> callback routine that is named <i>MyHwInterrupt</i>, use the <b>HW_INTERRUPT</b> type as shown in this code example:
-
+  );
 
 ```
+
+The **HwStorInterrupt** routine should return within 50 microseconds, ideally as short a time as possible. Therefore, all activity does not have to occur at high IRQL should be deferred to the [**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md that is defined in the miniport driver and issued by using [**StorPortIssueDpc**](nf-storport-storportissuedpc.md).  The latency of the DPC is very low, and it will be called immediately after the return from high IRQL.
+
+The port driver calls the **HwStorInterrupt** routine at DIRQL.
+
+### Examples
+
+To define an **HwStorInterrupt** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+ For example, to define a **HwStorInterrupt** callback routine that is named **MyHwInterrupt**, use the **HW_INTERRUPT** type as shown in this code example:
+
+``` c
 HW_INTERRUPT MyHwInterrupt;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 BOOLEAN
 MyHwInterrupt (
@@ -96,13 +96,10 @@ MyHwInterrupt (
   }
 ```
 
-The <b>HW_INTERRUPT</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INTERRUPT</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+The **HW_INTERRUPT** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_INTERRUPT** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a>
+[**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md
 
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
-
+[**StorPortIssueDpc**](nf-storport-storportissuedpc.md)

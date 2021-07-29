@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.ExitThread
 tech.root: debugger
 title: IDebugEventContextCallbacks::ExitThread
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The IDebugEventContextCallbacks::ExitThread callback method is called by the engine when an exit-thread debugging event occurs in the target.
 req.assembly: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoOpenDriverRegistryKey
 title: IoOpenDriverRegistryKey function (wdm.h)
-description: Reserved.
+description: Reserved for the IoOpenDriverRegistryKey function.
 ms.date: 10/19/2018
 keywords: ["IoOpenDriverRegistryKey function"]
 tech.root: kernel

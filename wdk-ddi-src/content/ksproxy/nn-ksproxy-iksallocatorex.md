@@ -49,8 +49,8 @@ The IID for this interface is IID_IKsAllocatorEx.
 
 ## -inheritance
 
-The **IKsAllocatorEx** interface inherits from IUnknown and [IKsAllocator](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator).
+The **IKsAllocatorEx** interface inherits from IUnknown and [IKsAllocator](./nn-ksproxy-iksallocator.md).
 
 ## -see-also
 
-[IKsAllocator](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator)
+[IKsAllocator](./nn-ksproxy-iksallocator.md)

@@ -3,7 +3,6 @@ UID: NC:wdm.NPEM_CONTROL_QUERY_STANDARD_CAPABILITIES
 title: NPEM_CONTROL_QUERY_STANDARD_CAPABILITIES
 ms.date: 04/28/2020
 tech.root: PCI
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: NPEM_CONTROL_QUERY_STANDARD_CAPABILITIES"
 req.assembly: 

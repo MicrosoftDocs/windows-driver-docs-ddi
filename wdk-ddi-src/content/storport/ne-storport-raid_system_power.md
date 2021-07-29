@@ -3,7 +3,6 @@ UID: NE:storport._RAID_SYSTEM_POWER
 tech.root: storage
 title: RAID_SYSTEM_POWER
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: RAID_SYSTEM_POWER is a system power usage indicator.
 req.construct-type: enumeration

@@ -3,7 +3,6 @@ UID: NS:storport._SCSI_SUPPORTED_CONTROL_TYPE_LIST
 tech.root: storage
 title: SCSI_SUPPORTED_CONTROL_TYPE_LIST
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: SCSI_SUPPORTED_CONTROL_TYPE_LIST is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiQuerySupportedUnitControlTypes or HwStorAdapterControl routine is called with a ControlType of ScsiQuerySupportedControlTypes.
 req.construct-type: structure

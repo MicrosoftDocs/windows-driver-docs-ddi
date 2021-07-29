@@ -61,11 +61,11 @@ Specifies total size in bytes of the **KSPROPERTY_DESCRIPTION** structure and an
 
 ### -field PropTypeSet
 
-A structure of type [**KSIDENTIFIER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier). If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
+A structure of type [**KSIDENTIFIER**](./ns-ks-ksidentifier.md). If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
 
 ### -field MembersListCount
 
-Specifies the number of [**KSPROPERTY_MEMBERSHEADER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader) structures to follow this header.
+Specifies the number of [**KSPROPERTY_MEMBERSHEADER**](./ns-ks-ksproperty_membersheader.md) structures to follow this header.
 
 ### -field Reserved
 
@@ -77,18 +77,18 @@ A driver returns the **KSPROPERTY_DESCRIPTION** structure in response to a basic
 
 The property values type set is specified by a **KSIDENTIFIER** structure. The basic set supported is [**KSPROPSETID_General**](/windows-hardware/drivers/stream/kspropsetid-general). The identifiers within that set are the standard VARENUM types used for OLE.
 
-The values information that may follow the **KSPROPERTY_DESCRIPTION** structure is described by a list of [**KSPROPERTY_MEMBERSLIST**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist) structures, each of which contains data range information.
+The values information that may follow the **KSPROPERTY_DESCRIPTION** structure is described by a list of [**KSPROPERTY_MEMBERSLIST**](./ns-ks-ksproperty_memberslist.md) structures, each of which contains data range information.
 
 For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
 
 ## -see-also
 
-[**KSIDENTIFIER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier)
+[**KSIDENTIFIER**](./ns-ks-ksidentifier.md)
 
 [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure)
 
-[**KSPROPERTY_ITEM**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item)
+[**KSPROPERTY_ITEM**](./ns-ks-ksproperty_item.md)
 
-[**KSPROPERTY_MEMBERSHEADER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader)
+[**KSPROPERTY_MEMBERSHEADER**](./ns-ks-ksproperty_membersheader.md)
 
-[**KSPROPERTY_VALUES**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values)
+[**KSPROPERTY_VALUES**](./ns-ks-ksproperty_values.md)

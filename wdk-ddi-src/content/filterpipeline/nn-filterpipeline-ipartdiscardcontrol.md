@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The filter pipeline supports the discard control. Filters can use this object, if they obtain it from [IXpsDocumentProvider::GetXpsPart](/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentprovider-getxpspart) method. In some cases, processing this object might just include forwarding it to the next filter by using the [IXpsDocumentConsumer::SendXpsUnknown](/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown) method.
+The filter pipeline supports the discard control. Filters can use this object, if they obtain it from [IXpsDocumentProvider::GetXpsPart](./nf-filterpipeline-ixpsdocumentprovider-getxpspart.md) method. In some cases, processing this object might just include forwarding it to the next filter by using the [IXpsDocumentConsumer::SendXpsUnknown](./nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown.md) method.
 
 Filters can also create discard controls. To create a discard control, the filter must create an object that implements the **IPartDiscardControl** interface. Because the filter transfers ownership of the discard control when it sends it to the next filter, the filter must manage the lifetime of the discard control. If a filter creates a discard control, the filter DLL must not unload until the discard control has been released.
 

@@ -50,14 +50,14 @@ The IID for this interface is IID_IKsPinEx.
 
 ## -inheritance
 
-The **IKsPinEx** interface inherits from [IKsPin](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin).
+The **IKsPinEx** interface inherits from [IKsPin](./nn-ksproxy-ikspin.md).
 
 ## -remarks
 
-An interface handler ([IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)) uses many of the **IKsPinEx** methods to route media samples of a particular media type.
+An interface handler ([IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md)) uses many of the **IKsPinEx** methods to route media samples of a particular media type.
 
 ## -see-also
 
-[IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)
+[IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md)
 
-[IKsPin](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin)
+[IKsPin](./nn-ksproxy-ikspin.md)

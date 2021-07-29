@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.ChangeEngineState
 tech.root: debugger
 title: IDebugEventContextCallbacks::ChangeEngineState
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The engine state has changed.
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_PINFRAMEBUFFERFORSAVE2
 tech.root: display
 title: DXGKCB_PINFRAMEBUFFERFORSAVE2
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkCbPinFrameBufferForSave2 callback function pins an entire frame buffer at once.
 req.assembly: 

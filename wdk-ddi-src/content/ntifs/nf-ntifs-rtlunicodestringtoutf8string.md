@@ -4,7 +4,6 @@ title: RtlUnicodeStringToUTF8String function (ntifs.h)
 description: RtlUnicodeStringToUTF8String converts the specified Unicode string to a UTF-8 string.
 tech.root: ifsk
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: ntifs.h
 req.include-header: 

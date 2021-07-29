@@ -3,7 +3,6 @@ UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075
 title: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075
 ms.date: 03/24/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075 describes a ray tracing pipeline configuration.
 req.construct-type: structure

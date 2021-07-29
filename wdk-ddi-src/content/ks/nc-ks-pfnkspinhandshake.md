@@ -56,7 +56,7 @@ An AVStream minidriver's *AVStrMiniPinHandshake* routine is called when AVStream
 
 #### - Data [in]
 
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, *AVStrMiniPinHandshake* should fill in this parameter with a pointer to a [**KSHANDSHAKE**](/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake) structure.
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, *AVStrMiniPinHandshake* should fill in this parameter with a pointer to a [**KSHANDSHAKE**](./ns-ks-kshandshake.md) structure.
 
 #### - Irp [in]
 
@@ -64,7 +64,7 @@ Pointer to the IRP containing the handshake request.
 
 #### - Request [in]
 
-Pointer to a [**KSIDENTIFIER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier) structure that contains a GUID identifying the requested protocol.
+Pointer to a [**KSIDENTIFIER**](./ns-ks-ksidentifier.md) structure that contains a GUID identifying the requested protocol.
 
 ## -returns
 
@@ -72,12 +72,12 @@ Returns STATUS_SUCCESS if the pin supports the requested protocol. Otherwise, it
 
 ## -remarks
 
-The minidriver specifies this routine's address in the *Handshake* parameter of a call to [**KsPinRegisterHandshakeCallback**](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterhandshakecallback).
+The minidriver specifies this routine's address in the *Handshake* parameter of a call to [**KsPinRegisterHandshakeCallback**](./nf-ks-kspinregisterhandshakecallback.md).
 
 ## -see-also
 
-[**KSHANDSHAKE**](/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake)
+[**KSHANDSHAKE**](./ns-ks-kshandshake.md)
 
-[**KSIDENTIFIER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier)
+[**KSIDENTIFIER**](./ns-ks-ksidentifier.md)
 
-[**KsPinRegisterHandshakeCallback**](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterhandshakecallback)
+[**KsPinRegisterHandshakeCallback**](./nf-ks-kspinregisterhandshakecallback.md)

@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_OPM_GET_SRM_LIST_VERSION
 title: DXGKDDI_OPM_GET_SRM_LIST_VERSION
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkDdiOPMGetSrmListVersion function retrieves the version number of the output protection manager (OPM) system renewability message (SRM) list currently being used.
 tech.root: display

@@ -45,11 +45,11 @@ api_name:
 
 Represents a single printer queue.
 
-This interface extends [IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue) and allows a user to manage print jobs and device maintenance from within a UWP  device app for printers, or from a printer extension.
+This interface extends [IPrinterQueue](./nn-printerextension-iprinterqueue.md) and allows a user to manage print jobs and device maintenance from within a UWP  device app for printers, or from a printer extension.
 
 ## -inheritance
 
-The **IPrinterQueue2** interface inherits from [IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue).
+The **IPrinterQueue2** interface inherits from [IPrinterQueue](./nn-printerextension-iprinterqueue.md).
 
 ## -remarks
 
@@ -59,6 +59,6 @@ The **IPrinterQueue2** interface inherits from [IPrinterQueue](/windows-hardware
 
 [Device Maintenance](/windows-hardware/drivers/print/device-maintenance)
 
-[IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue)
+[IPrinterQueue](./nn-printerextension-iprinterqueue.md)
 
 [Job Management](/windows-hardware/drivers/print/job-management)

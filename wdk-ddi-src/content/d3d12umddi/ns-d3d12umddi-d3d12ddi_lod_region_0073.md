@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_LOD_REGION_0073
 title: D3D12DDI_LOD_REGION_0073
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Deprecated. Use D3D12DDI_MIP_REGION_0075 instead.

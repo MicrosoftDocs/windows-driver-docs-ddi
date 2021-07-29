@@ -3,7 +3,6 @@ UID: NE:storport._SCSI_ADAPTER_CONTROL_TYPE
 tech.root: storage
 title: SCSI_ADAPTER_CONTROL_TYPE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The SCSI_ADAPTER_CONTROL_TYPE enumeration contains adapter control operations, where each control type initiates an action on an adapter by the miniport driver. Storport specifies the control type when it calls a miniport's HwStorAdapterControl routine.
 req.construct-type: enumeration

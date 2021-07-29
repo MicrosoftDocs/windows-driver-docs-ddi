@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_QUERYSTATISTICS_QUERY_SEGMENT
 tech.root: display
 title: D3DKMT_QUERYSTATISTICS_QUERY_SEGMENT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: D3DKMT_QUERYSTATISTICS_QUERY_SEGMENT"
 req.construct-type: structure

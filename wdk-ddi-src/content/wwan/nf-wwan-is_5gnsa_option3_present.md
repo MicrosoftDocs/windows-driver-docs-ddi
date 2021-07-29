@@ -3,7 +3,6 @@ UID: NF:wwan.IS_5GNSA_OPTION3_PRESENT
 tech.root: netvista
 title: IS_5GNSA_OPTION3_PRESENT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: IS_5GNSA_OPTION3_PRESENT determines whether an MBB device is registered in a 5G NSA (Option 3) network.
 req.assembly: 

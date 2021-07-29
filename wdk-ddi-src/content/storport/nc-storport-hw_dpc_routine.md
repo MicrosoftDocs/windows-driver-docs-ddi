@@ -42,10 +42,9 @@ api_name:
 
 # HW_DPC_ROUTINE callback function
 
-
 ## -description
 
-The <b>HwStorDpcRoutine</b> routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism.
+The **HwStorDpcRoutine** routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism.
 
 ## -parameters
 
@@ -67,14 +66,13 @@ A pointer to caller-supplied information.
 
 ## -remarks
 
-When a miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc">StorPortInitializeDpc</a> to initialize a DPC it must load the <i>HwDpcRoutine</i>  parameter of the <b>StorPortInitializeDpc</b> routine with a pointer to the <b>HwStorDpcRoutine</b> routine. 
+When a miniport driver calls [**StorPortInitializeDpc**](nf-storport-storportinitializedpc.md) to initialize a DPC it must load the **HwDpcRoutine** parameter of the **StorPortInitializeDpc** routine with a pointer to the **HwStorDpcRoutine** routine.
 
-Any particular instance of a DPC routine is guaranteed to be synchronized with other instances of the DPC routine. A DPC routine can synchronize itself with the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine or with the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a> routine by acquiring the appropriate spin lock with a call to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>. For more information about the management of spin locks within DPC routines, see <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>. 
+Any particular instance of a DPC routine is guaranteed to be synchronized with other instances of the DPC routine. A DPC routine can synchronize itself with the [**HwStorStartIo**](nc-storport-hw_startio.md) routine or with the [**HwStorInterrupt**](nc-storport-hw_interrupt.md) routine by acquiring the appropriate spin lock with a call to [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md). For more information about the management of spin locks within DPC routines, see [**StorPortIssueDpc**](nf-storport-storportissuedpc.md).
 
-The name <b>HwStorDpcRoutine</b> is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
+The name **HwStorDpcRoutine** is just a placeholder. The actual prototype of this routine is defined in *storport.h* as follows:
 
-
-```
+``` c
 typedef
 BOOLEAN
 HW_DPC_ROUTINE (
@@ -85,24 +83,21 @@ HW_DPC_ROUTINE (
   );
 ```
 
-The port driver calls the <b>HwStorDpcRoutine</b> routine at DISPATCH IRQL.
+The port driver calls the **HwStorDpcRoutine** routine at DISPATCH IRQL.
 
+### Examples
 
-#### Examples
+To define an **HwStorDpcRoutine** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-To define an <b>HwStorDpcRoutine</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+ For example, to define a **HwStorDpcRoutine** callback routine that is named **MyHwDpcRoutine**, use the **HW_DPC_ROUTINE** type as shown in this code example:
 
- For example, to define a <b>HwStorDpcRoutine</b> callback routine that is named <i>MyHwDpcRoutine</i>, use the <b>HW_DPC_ROUTINE</b> type as shown in this code example:
-
-
-```
+``` c
 HW_DPC_ROUTINE MyHwDpcRoutine;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 BOOLEAN
 MyHwDpcRoutine (
@@ -116,25 +111,20 @@ MyHwDpcRoutine (
   }
 ```
 
-The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_DPC_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+The **HW_DPC_ROUTINE** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_DPC_ROUTINE** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
+When a miniport driver calls  to initialize a DPC it must load the **HwDpcRoutine** parameter of the **StorPortInitializeDpc** routine with a pointer to the **HwStorDpcRoutine** routine.
 
+Any particular instance of a DPC routine is guaranteed to be synchronized with other instances of the DPC routine. A DPC routine can synchronize itself with the  routine or with the  routine by acquiring the appropriate spin lock with a call to . For more information about the management of spin locks within DPC routines, see .
 
+[**HwStorInterrupt**](nc-storport-hw_interrupt.md)
 
-<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a>
+[**HwStorStartIo**](nc-storport-hw_startio.md)
 
+[**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md)
 
+[**StorPortInitializeDpc**](nf-storport-storportinitializedpc.md)
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc">StorPortInitializeDpc</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
-
+[**StorPortIssueDpc**](nf-storport-storportissuedpc.md)

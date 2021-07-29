@@ -3,7 +3,6 @@ UID: NF:wdm.ExAllocatePoolPriorityUninitialized
 title: ExAllocatePoolPriorityUninitialized
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: ExAllocatePoolPriorityUninitialized"
 req.assembly: 

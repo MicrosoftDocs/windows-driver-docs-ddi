@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisFreeNetBufferListPool
 title: NdisFreeNetBufferListPool
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisFreeNetBufferListPool function to free a NET_BUFFER_LIST structure pool.
 tech.root: netvista 

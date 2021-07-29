@@ -3,7 +3,6 @@ UID: NS:d3dkmthk._D3DKMT_QUERYSTATISTICS_COMMITMENT_DATA
 tech.root: display
 title: D3DKMT_QUERYSTATISTICS_COMMITMENT_DATA
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: "Learn more about: D3DKMT_QUERYSTATISTICS_COMMITMENT_DATA"
 req.construct-type: structure

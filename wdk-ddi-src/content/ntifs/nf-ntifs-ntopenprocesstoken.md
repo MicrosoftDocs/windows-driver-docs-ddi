@@ -52,7 +52,7 @@ The **NtOpenProcessToken** routine opens the access token associated with a proc
 
 ### -param DesiredAccess
 
-[in] [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)) to determine which accesses are granted or denied.
+[in] [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which accesses are granted or denied.
 
 ### -param TokenHandle
 
@@ -88,9 +88,9 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
-[**ACL**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
-[**PsDereferencePrimaryToken**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceprimarytoken)
+[**PsDereferencePrimaryToken**](./nf-ntifs-psdereferenceprimarytoken.md)
 
 [**NtClose**](nf-ntifs-ntclose.md)
 

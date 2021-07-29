@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 title: _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER (miniport.h)
-description: The PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) slot capabilities register of a PCIe capability structure.
+description: The _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure (miniport.h) describes a PCI Express (PCIe) slot capabilities register.
 old-location: pci\pci_express_slot_capabilities_register.htm
 tech.root: PCI
 ms.date: 02/24/2018

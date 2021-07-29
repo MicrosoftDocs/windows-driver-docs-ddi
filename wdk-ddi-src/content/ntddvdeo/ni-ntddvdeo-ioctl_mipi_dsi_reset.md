@@ -4,7 +4,6 @@ title: IOCTL_MIPI_DSI_RESET
 description: IOCTL_MIPI_DSI_RESET requests the reset of a device under graphics driver and OS control.
 tech.root: display
 ms.date: 03/24/2020
-ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: 

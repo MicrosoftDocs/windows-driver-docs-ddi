@@ -1,7 +1,7 @@
 ---
 UID: NE:pep_x._GPIO_PIN_CONFIG_TYPE
 title: _GPIO_PIN_CONFIG_TYPE (pep_x.h)
-description: The GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO resource.
+description: Learn how the GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO resource.
 old-location: kernel\gpio_pin_config_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

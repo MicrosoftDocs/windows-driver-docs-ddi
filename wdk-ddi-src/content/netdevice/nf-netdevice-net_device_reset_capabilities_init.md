@@ -2,7 +2,6 @@
 UID: NF:netdevice.NET_DEVICE_RESET_CAPABILITIES_INIT
 title: NET_DEVICE_RESET_CAPABILITIES_INIT
 ms.date: 07/02/2020
-ms.topic: language-reference
 ms.custom: Fe
 keywords: ["NET_DEVICE_RESET_CAPABILITIES_INIT function"]
 targetos: Windows

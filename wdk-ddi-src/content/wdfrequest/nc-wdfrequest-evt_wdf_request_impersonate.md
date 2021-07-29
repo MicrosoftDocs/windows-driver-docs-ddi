@@ -104,7 +104,7 @@ VOID
 
 For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>.
 
-For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+For information about _Use_decl_annotations_, see <a href="/cpp/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 

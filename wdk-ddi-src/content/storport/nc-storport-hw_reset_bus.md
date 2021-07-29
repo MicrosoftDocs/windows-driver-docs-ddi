@@ -42,10 +42,9 @@ api_name:
 
 # HW_RESET_BUS callback function
 
-
 ## -description
 
-The <b>HwStorResetBus</b> routine is called by the port driver to clear error conditions.
+The **HwStorResetBus** routine is called by the port driver to clear error conditions.
 
 ## -parameters
 
@@ -59,14 +58,13 @@ Identifies the SCSI bus to be reset.
 
 ## -returns
 
-If the bus is successfully reset, <b>HwStorResetBus</b> returns <b>TRUE</b>.
+If the bus is successfully reset, **HwStorResetBus** returns **TRUE**.
 
 ## -remarks
 
-The name <b>HwStorResetBus</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+The name **HwStorResetBus** is just a placeholder. The actual prototype of this routine is defined in *Storport.h* as follows:
 
-
-```
+``` c
 typedef
 BOOLEAN
 HW_RESET_BUS (
@@ -75,26 +73,23 @@ HW_RESET_BUS (
   );
 ```
 
-The port driver pauses all device IO queues for the adapter and then calls the <b>HwStorResetBus</b> routine at IRQL DISPATCH_LEVEL after acquiring the StartIo spin lock.  A miniport driver is responsible for completing SRBs received by <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> for <i>PathId</i> during this routine and setting their status to SRB_STATUS_BUS_RESET if necessary.
+The port driver pauses all device IO queues for the adapter and then calls the **HwStorResetBus** routine at IRQL DISPATCH_LEVEL after acquiring the StartIo spin lock.  A miniport driver is responsible for completing SRBs received by [**HwStorStartIo**](nc-storport-hw_startio.md) for **PathId** during this routine and setting their status to SRB_STATUS_BUS_RESET if necessary.
 
-In addition to the StartIo spin lock being taken and subsequently released after <b>HwStorResetBus</b> returns, if the miniport has requested multiple channel support through PERF_CONFIGURATION_DATA, all channel tokens will be taken and, on return of the callback, released.  This ensures that no IO’s are dispatched to <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> during the reset bus phase.
+In addition to the StartIo spin lock being taken and subsequently released after **HwStorResetBus** returns, if the miniport has requested multiple channel support through PERF_CONFIGURATION_DATA, all channel tokens will be taken and, on return of the callback, released.  This ensures that no IO’s are dispatched to [**HwStorStartIo**](nc-storport-hw_startio.md) during the reset bus phase.
 
+### Examples
 
-#### Examples
+To define an **HwStorResetBus** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-To define an <b>HwStorResetBus</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+ For example, to define a **HwStorResetBus** callback routine that is named **MyHwResetBus**, use the **HW_RESET_BUS** type as shown in this code example:
 
- For example, to define a <b>HwStorResetBus</b> callback routine that is named <i>MyHwResetBus</i>, use the <b>HW_RESET_BUS</b> type as shown in this code example:
-
-
-```
+``` c
 HW_RESET_BUS MyHwResetBus;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 BOOLEAN
 MyHwResetBus (
@@ -106,5 +101,4 @@ MyHwResetBus (
   }
 ```
 
-The <b>HW_RESET_BUS</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_RESET_BUS</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
+The **HW_RESET_BUS** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_RESET_BUS** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).

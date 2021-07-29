@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxSwapChainReleaseAndAcquireSystemBuffer
 title: IddCxSwapChainReleaseAndAcquireSystemBuffer
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IddCxSwapChainReleaseAndAcquireSystemBuffer releases and acquires buffers from the swapchain.
 req.assembly: 

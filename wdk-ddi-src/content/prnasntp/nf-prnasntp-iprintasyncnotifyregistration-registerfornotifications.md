@@ -53,4 +53,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IPrintAsyncNotifyRegistration](/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyregistration)
+[IPrintAsyncNotifyRegistration](./nn-prnasntp-iprintasyncnotifyregistration.md)

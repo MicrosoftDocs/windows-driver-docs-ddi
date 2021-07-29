@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NdisTestNblFlags
 title: NdisTestNblFlags
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisTestNblFlags macro tests the setting of a set of flags in a NET_BUFFER_LIST structure.
 tech.root: netvista
