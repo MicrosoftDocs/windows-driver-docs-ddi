@@ -2,9 +2,9 @@
 UID: NS:d3dkmdt._D3DKMT_WDDM_2_9_CAPS
 tech.root: display
 title: D3DKMT_WDDM_2_9_CAPS
-ms.date: 05/13/2021
+ms.date: 07/28/2021
 targetos: Windows
-description: Indicates various capabilities starting in Windows Display Driver Model v2.9.
+description: D3DKMT_WDDM_2_9_CAPS is reserved for system use.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -40,13 +40,13 @@ dev_langs:
 
 ## -description
 
-Indicates various capabilities starting in Windows Display Driver Model v2.9.
+Reserved for system use. Do not use.
 
 ## -struct-fields
 
 ### -field HwSchSupportState
 
-DXGK_FEATURE_SUPPORT_*XXX* value that specifies the driver support state for GPU supported hardware scheduling. This field can be one of the following values:
+DXGK_FEATURE_SUPPORT_*XXX* value that specifies the driver support state for GPU-supported hardware scheduling. This field can be one of the following values:
 
 | Value | Meaning |
 | ----- | ------- |
@@ -70,3 +70,7 @@ Reserved; do not use.
 ### -field Value
 
 An alternative way to access the cap bits.
+
+## -remarks
+
+The graphics kernel uses **D3DKMT_WDDM_2_9_CAPS** to store various capabilities introduced in Windows Display Driver Model (WDDM) version 2.9. The driver provides its support capabilities during initialization, so it already knows all the values specified in this structure.

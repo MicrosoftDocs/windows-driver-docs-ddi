@@ -1,10 +1,10 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_2_7_CAPS
-tech.root: 
+tech.root: display
 title: D3DKMT_WDDM_2_7_CAPS
-ms.date: 
+ms.date: 07/28/2021
 targetos: Windows
-description: 
+description: D3DKMT_WDDM_2_7_CAPS is reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3DKMT_WDDM_2_7_CAPS
@@ -41,21 +41,34 @@ dev_langs:
 
 ## -description
 
+Reserved for system use. Do not use.
+
 ## -struct-fields
 
 ### -field HwSchSupported
 
+Supports hardware-accelerated GPU scheduling.
+
 ### -field HwSchEnabled
+
+Indicates that hardware-accelerated GPU scheduling is enabled.
 
 ### -field HwSchEnabledByDefault
 
+Indicates that hardware-accelerated GPU scheduling is enabled by default.
+
 ### -field IndependentVidPnVSyncControl
+
+The driver supports independent VidPn VSync control.
 
 ### -field Reserved
 
+Reserved.
+
 ### -field Value
+
+An alternative way to access the cap bits.
 
 ## -remarks
 
-## -see-also
-
+The graphics kernel uses **D3DKMT_WDDM_2_7_CAPS** to store various capabilities introduced in Windows Display Driver Model (WDDM) version 2.7. The driver provides its support capabilities during initialization, so it already knows all the values specified in this structure.
