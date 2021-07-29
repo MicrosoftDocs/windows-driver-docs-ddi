@@ -1,10 +1,11 @@
 ---
-UID: NS:d3dkmdt._D3DKMT_WDDM_2_9_CAPS
+UID: NS:d3dkmdt._D3DKMT_WDDM_3_0_CAPS
 tech.root: display
-title: D3DKMT_WDDM_2_9_CAPS
+title: D3DKMT_WDDM_3_0_CAPS
 ms.date: 07/28/2021
 targetos: Windows
-description: D3DKMT_WDDM_2_9_CAPS is reserved for system use.
+description: D3DKMT_WDDM_3_0_CAPS is reserved for system use.
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,10 +15,10 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winverclnt: Windows 11
+req.target-min-winversvr: 
 req.target-type: 
-req.typenames: D3DKMT_WDDM_2_9_CAPS
+req.typenames: D3DKMT_WDDM_3_0_CAPS
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -27,13 +28,13 @@ api_type:
 api_location:
  - d3dkmdt.h
 api_name:
- - _D3DKMT_WDDM_2_9_CAPS
- - D3DKMT_WDDM_2_9_CAPS
+ - _D3DKMT_WDDM_3_0_CAPS
+ - D3DKMT_WDDM_3_0_CAPS
 f1_keywords:
- - _D3DKMT_WDDM_2_9_CAPS
- - d3dkmdt/_D3DKMT_WDDM_2_9_CAPS
- - D3DKMT_WDDM_2_9_CAPS
- - d3dkmdt/D3DKMT_WDDM_2_9_CAPS
+ - _D3DKMT_WDDM_3_0_CAPS
+ - d3dkmdt/_D3DKMT_WDDM_3_0_CAPS
+ - D3DKMT_WDDM_3_0_CAPS
+ - d3dkmdt/D3DKMT_WDDM_3_0_CAPS
 dev_langs:
  - c++
 ---
@@ -44,9 +45,9 @@ Reserved for system use. Do not use.
 
 ## -struct-fields
 
-### -field HwSchSupportState
+### -field HwFlipQueueSupportState
 
-DXGK_FEATURE_SUPPORT_*XXX* value that specifies the driver support state for GPU-supported hardware scheduling. This field can be one of the following values:
+DXGK_FEATURE_SUPPORT_*XXX* value that specifies the driver support state for GPU-supported hardware flip queue. This field can be one of the following values:
 
 | Value | Meaning |
 | ----- | ------- |
@@ -55,17 +56,17 @@ DXGK_FEATURE_SUPPORT_*XXX* value that specifies the driver support state for GPU
 | DXGK_FEATURE_SUPPORT_STABLE       | Driver support for a feature is in the stable state.       |
 | DXGK_FEATURE_SUPPORT_ALWAYS_ON    | Driver support for a feature is in the always on state. The driver doesn't operate without this feature enabled. |
 
-### -field HwSchEnabled
+### -field HwFlipQueueEnabled
 
-Specifies whether the hardware scheduling is currently enabled for this GPU.
+Specifies whether the hardware flip queue is currently enabled for this GPU.
 
-### -field SelfRefreshMemorySupported
+### -field DisplayableSupported
 
-Specifies whether Self Refresh Memory is supported for this GPU.
+Specifies whether displayable feature is supported.
 
 ### -field Reserved
 
-Reserved; do not use.
+Reserved.
 
 ### -field Value
 
@@ -73,4 +74,4 @@ An alternative way to access the cap bits.
 
 ## -remarks
 
-The graphics kernel uses **D3DKMT_WDDM_2_9_CAPS** to store various capabilities introduced in Windows Display Driver Model (WDDM) version 2.9. The driver provides its support capabilities during initialization, so it already knows all the values specified in this structure.
+The graphics kernel uses **D3DKMT_WDDM_3_0_CAPS** to store various capabilities introduced in Windows Display Driver Model (WDDM) version 3.0. The driver provides its support capabilities during initialization, so it already knows all the values specified in this structure.

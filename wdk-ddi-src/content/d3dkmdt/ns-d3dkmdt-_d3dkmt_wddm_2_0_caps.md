@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_2_0_CAPS
 title: D3DKMT_WDDM_2_0_CAPS (d3dkmdt.h)
-description: Indicates various capabilities starting in Windows Display Driver Model v2.0.
-ms.date: 10/19/2018
+description: D3DKMT_WDDM_2_0_CAPS is reserved for system use.
+ms.date: 07/28/2021
 keywords: ["D3DKMT_WDDM_2_0_CAPS structure"]
 ms.keywords: _D3DKMT_WDDM_2_0_CAPS, D3DKMT_WDDM_2_0_CAPS,
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ product:
 
 ## -description
 
-Indicates various capabilities starting in Windows Display Driver Model v2.0.
+Reserved for system use. Do not use.
 
 ## -struct-fields
 
@@ -77,3 +77,7 @@ Reserved.
 ### -field Value
 
 An alternative way to access the cap bits.
+
+## -remarks
+
+The graphics kernel uses **D3DKMT_WDDM_2_0_CAPS** to store various capabilities introduced in Windows Display Driver Model (WDDM) version 2.0. The driver provides its support capabilities during initialization, so it already knows all the values specified in this structure.
