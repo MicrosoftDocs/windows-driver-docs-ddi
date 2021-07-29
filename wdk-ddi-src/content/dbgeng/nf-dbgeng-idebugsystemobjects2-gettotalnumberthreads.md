@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetTotalNumberThreads
 title: IDebugSystemObjects2::GetTotalNumberThreads (dbgeng.h)
-description: The GetTotalNumberThreads method returns the total number of threads for all the processes in the current target, in addition to the largest number of threads in any process for the current target.
+description: The (IDebugSystemObjects2) GetTotalNumberThreads method returns the total number of threads for all processes and the largest number of threads in any process.
 old-location: debugger\gettotalnumberthreads.htm
 tech.root: debugger
 ms.date: 05/03/2018

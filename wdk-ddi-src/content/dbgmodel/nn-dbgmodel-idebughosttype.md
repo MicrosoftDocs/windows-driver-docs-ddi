@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostType
 title: IDebugHostType (dbgmodel.h)
-description: An (IDebugHostSymbol derived) interface to a particular type.
+description: The IDebugHostType (dbgmodel.h) interface is an IDebugHostSymbol derived interface that provides access to a particular type.
 ms.date: 07/13/2018
 keywords: ["IDebugHostType interface"]
 req.header: dbgmodel.h

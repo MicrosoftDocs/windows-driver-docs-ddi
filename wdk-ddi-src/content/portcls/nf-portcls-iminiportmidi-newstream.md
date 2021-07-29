@@ -1,7 +1,7 @@
 ---
 UID: NF:portcls.IMiniportMidi.NewStream
 title: IMiniportMidi::NewStream (portcls.h)
-description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
+description: The (IMiniportMidi) NewStream (portcls.h) method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportmidi_newstream.htm
 tech.root: audio
 ms.date: 05/08/2018

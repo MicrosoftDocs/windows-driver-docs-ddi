@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetThreadIdByTeb
 title: IDebugSystemObjects3::GetThreadIdByTeb (dbgeng.h)
-description: The GetThreadIdByTeb method returns the engine thread ID of the specified thread. The thread is specified by its thread environment block (TEB).
+description: The (IDebugSystemObjects3) GetThreadIdByTeb method returns the engine thread ID for a thread specified by its thread environment block (TEB).
 old-location: debugger\getthreadidbyteb.htm
 tech.root: debugger
 ms.date: 05/03/2018

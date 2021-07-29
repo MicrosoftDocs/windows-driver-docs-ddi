@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetThreadIdByProcessor
 title: IDebugSystemObjects3::GetThreadIdByProcessor (dbgeng.h)
-description: The GetThreadIdByProcessor method returns the engine thread ID for the kernel-modevirtual thread corresponding to the specified processor.
+description: The (IDebugSystemObjects3) GetThreadIdByProcessor method gets the engine thread ID for the kernel-mode virtual thread corresponding to the specified processor.
 old-location: debugger\getthreadidbyprocessor.htm
 tech.root: debugger
 ms.date: 05/03/2018
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>GetThreadIdByProcessor</b> method returns the engine thread ID for the kernel-modevirtual thread corresponding to the specified processor.
+The <b>GetThreadIdByProcessor</b> method returns the engine thread ID for the kernel-mode virtual thread corresponding to the specified processor.
 
 ## -parameters
 

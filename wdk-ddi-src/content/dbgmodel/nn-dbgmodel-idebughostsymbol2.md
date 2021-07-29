@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostSymbol2
 title: IDebugHostSymbol2 (dbgmodel.h)
-description: An interface to a particular symbol.
+description: The IDebugHostSymbol2 (dbgmodel.h) interface defines methods that provide access to a particular symbol.
 ms.date: 06/11/2019
 keywords: ["IDebugHostSymbol2 interface"]
 req.header: dbgmodel.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_ULONG
 title: WRITE_REGISTER_ULONG function (wdm.h)
-description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
+description: The WRITE_REGISTER_ULONG function (wdm.h) writes a ULONG value to the specified register address in resident, mapped device memory.
 old-location: kernel\write_register_ulong.htm
 tech.root: kernel
 ms.date: 04/30/2018

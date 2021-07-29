@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.READ_REGISTER_ULONG
 title: READ_REGISTER_ULONG function (miniport.h)
-description: The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address.
+description: The READ_REGISTER_ULONG function (miniport.h) returns a ULONG value read from the specified register address in resident, mapped device memory.
 old-location: kernel\read_register_ulong.htm
 tech.root: kernel
 ms.date: 04/30/2018
