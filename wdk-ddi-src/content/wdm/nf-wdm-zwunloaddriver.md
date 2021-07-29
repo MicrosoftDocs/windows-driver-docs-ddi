@@ -58,9 +58,11 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 
 <b>ZwUnloadDriver</b> returns STATUS_SUCCESS or an error NTSTATUS value such as STATUS_INVALID_DEVICE_REQUEST.
 
+If the driver specified in <i>DriverServiceName</i> has no <i>DriverUnload</i> callback routine set in its [DRIVER_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST.
+
 ## -remarks
 
-<b>ZwUnloadDriver</b> dynamically unloads a device or file system driver from the currently running system. 
+<b>ZwUnloadDriver</b> dynamically unloads a device or file system driver from the currently running system. It is not recommended that a driver call <b>ZwUnloadDriver</b> on itself.
 
 <i>Note that a file system filter driver cannot safely be unloaded from a running system. Thus a filter should only use </i><b><i>ZwUnloadDriver</i></b><i> for debugging purposes. It should not call this routine in a retail version of the filter. </i>
 
