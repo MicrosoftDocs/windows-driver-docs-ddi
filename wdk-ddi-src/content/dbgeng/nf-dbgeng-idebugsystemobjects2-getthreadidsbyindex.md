@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetThreadIdsByIndex
 title: IDebugSystemObjects2::GetThreadIdsByIndex (dbgeng.h)
-description: The GetThreadIdsByIndex method returns the engine and system thread IDs for the specified threads in the current process.
+description: The (IDebugSystemObjects2) GetThreadIdsByIndex method returns the engine and system thread IDs for the specified threads in the current process.
 old-location: debugger\getthreadidsbyindex.htm
 tech.root: debugger
 ms.date: 05/03/2018

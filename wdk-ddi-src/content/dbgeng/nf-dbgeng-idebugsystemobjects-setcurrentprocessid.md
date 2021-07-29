@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.SetCurrentProcessId
 title: IDebugSystemObjects::SetCurrentProcessId (dbgeng.h)
-description: The SetCurrentProcessId method makes the specified process the current process.
+description: The (IDebugSystemObjects) SetCurrentProcessId method makes the specified process the current process.
 old-location: debugger\setcurrentprocessid.htm
 tech.root: debugger
 ms.date: 05/03/2018
