@@ -4,7 +4,7 @@ title: KeInsertQueueDpc function (wdm.h)
 description: The KeInsertQueueDpc routine queues a DPC for execution.
 old-location: kernel\keinsertqueuedpc.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["KeInsertQueueDpc function"]
 ms.keywords: KeInsertQueueDpc, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml, kernel.keinsertqueuedpc, wdm/KeInsertQueueDpc
 req.header: wdm.h
@@ -42,50 +42,40 @@ api_name:
 
 # KeInsertQueueDpc function
 
-
 ## -description
 
-The <b>KeInsertQueueDpc</b> routine queues a DPC for execution.
+The **KeInsertQueueDpc** routine queues a DPC for execution.
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc
 
-[in, out]
-Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure for the DPC object. This structure must have been initialized by either <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>.
+[in, out] Pointer to the [KDPC](/windows-hardware/drivers/kernel/eprocess) structure for the DPC object. This structure must have been initialized by either [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc) or [KeInitializeThreadedDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc).
 
-### -param SystemArgument1 
+### -param SystemArgument1
 
-[in, optional]
-Specifies driver-determined context data. This value is passed as the <i>SystemArgument1</i> parameter to the DPC object's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine.
+[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument1* parameter to the DPC object's [CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine) or [CustomThreadedDpc](nc-wdm-kdeferred_routine.md) routine.
 
-### -param SystemArgument2 
+### -param SystemArgument2
 
-[in, optional]
-Specifies driver-determined context data. This value is passed as the <i>SystemArgument2</i> parameter to the DPC object's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine.
+[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument2* parameter to the DPC object's [CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine) or *CustomThreadedDpc* routine.
 
 ## -returns
 
-If the specified DPC object is not currently in a DPC queue, <b>KeInsertQueueDpc</b> queues the DPC and returns <b>TRUE</b>.
+If the specified DPC object is not currently in a DPC queue, **KeInsertQueueDpc** queues the DPC and returns **TRUE**.
 
 ## -remarks
 
-If the specified DPC object has already been queued, no operation is performed except to return <b>FALSE</b>. Otherwise, the DPC object is inserted in a DPC queue. For more information about DPC queues, see <a href="/windows-hardware/drivers/kernel/organization-of-dpc-queues">Organization of DPC Queues</a>.
+If the specified DPC object has already been queued, no operation is performed except to return **FALSE**. Otherwise, the DPC object is inserted in a DPC queue. For more information about DPC queues, see [Organization of DPC Queues](/windows-hardware/drivers/kernel/organization-of-dpc-queues).
 
 Note that a particular DPC object and the function that it represents can each be queued for execution only once at any particular time.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a>
+[CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine)
 
+[CustomThreadedDpc](nc-wdm-kdeferred_routine.md)
 
+[KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc">KeRemoveQueueDpc</a>
+[KeRemoveQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc)

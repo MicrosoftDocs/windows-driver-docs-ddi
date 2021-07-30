@@ -4,7 +4,7 @@ title: KeInitializeThreadedDpc function (wdm.h)
 description: The KeInitializeThreadedDpc routine initializes a threaded DPC object, and registers a CustomThreadedDpc routine for that object.
 old-location: kernel\keinitializethreadeddpc.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["KeInitializeThreadedDpc function"]
 ms.keywords: KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc
 req.header: wdm.h
@@ -42,40 +42,32 @@ api_name:
 
 # KeInitializeThreadedDpc function
 
-
 ## -description
 
-The <b>KeInitializeThreadedDpc</b> routine initializes a threaded DPC object, and registers a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine for that object.
+The **KeInitializeThreadedDpc** routine initializes a threaded DPC object, and registers a [CustomThreadedDpc](nc-wdm-kdeferred_routine.md) routine for that object.
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc
 
-[out]
-Pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
+[out] Pointer to a [KDPC](/windows-hardware/drivers/kernel/eprocess) structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
-### -param DeferredRoutine 
+### -param DeferredRoutine
 
-[in]
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine to associate with the DPC.
+[in] Pointer to the *CustomThreadedDpc* routine to associate with the DPC.
 
-### -param DeferredContext 
+### -param DeferredContext
 
-[in, optional]
-Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>.
+[in, optional] Specifies the value to pass as the *DeferredContext* parameter to *CustomThreadedDpc*.
 
 ## -remarks
 
-For more information about threaded DPCs, see <a href="/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs">Introduction to Threaded DPCs</a>.
+For more information about threaded DPCs, see [Introduction to Threaded DPCs](/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs).
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
+[CustomThreadedDpc](nc-wdm-kdeferred_routine.md)
 
+[KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc">KeRemoveQueueDpc</a>
+[KeRemoveQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc)

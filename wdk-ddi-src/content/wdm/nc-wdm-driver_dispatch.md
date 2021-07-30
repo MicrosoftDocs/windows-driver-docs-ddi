@@ -4,7 +4,7 @@ title: DRIVER_DISPATCH (wdm.h)
 description: The callback routine services various IRPs. For a list of function codes, see Remarks.
 old-location: kernel\dispatchcleanup.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["DRIVER_DISPATCH callback function"]
 ms.keywords: DRIVER_DISPATCH, DispatchCleanup, DispatchClose, DispatchCreate, DispatchCreateClose, DispatchDeviceControl, DispatchFlushBuffers, DispatchInternalDeviceControl, DispatchPnP, DispatchPower, DispatchQueryInformation, DispatchRead, DispatchReadWrite, DispatchSetInformation, DispatchShutdown, DispatchSystemControl, DispatchWrite, DrvrRtns_157dfedc-63c2-4924-ad5c-04ff9f746a94.xml, MyDispatch, MyDispatch routine [Kernel-Mode Driver Architecture], kernel.dispatchcleanup, wdm/MyDispatch
 req.header: wdm.h
@@ -42,22 +42,19 @@ api_name:
 
 # DRIVER_DISPATCH callback function
 
-
 ## -description
 
 The callback routine services various IRPs. For a list of function codes, see Remarks.
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject
 
-[in, out]
-Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
+[in, out] Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
 
-### -param Irp 
+### -param Irp
 
-[in, out]
-Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
+[in, out] Caller-supplied pointer to an [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the requested I/O operation.
 
 ## -returns
 
@@ -65,189 +62,44 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 ## -remarks
 
-Input parameters for all <i>Dispatch</i> routines are supplied in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure pointed to by <i>Irp</i>. Additional parameters are supplied in the driver's associated I/O stack location, which is described by the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure and can be obtained by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation">IoGetCurrentIrpStackLocation</a>.
+Input parameters for all *Dispatch* routines are supplied in the [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure pointed to by *Irp*. Additional parameters are supplied in the driver's associated I/O stack location, which is described by the [IO_STACK_LOCATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location) structure and can be obtained by calling [IoGetCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation).
 
-Generally, all <i>Dispatch</i> routines execute in an arbitrary thread context at IRQL = PASSIVE_LEVEL, but there are exceptions. For more information, see <a href="/windows-hardware/drivers/kernel/dispatch-routines-and-irqls">Dispatch Routines and IRQLs</a>.
+Generally, all *Dispatch* routines execute in an arbitrary thread context at IRQL = PASSIVE_LEVEL, but there are exceptions. For more information, see [Dispatch Routines and IRQLs](/windows-hardware/drivers/kernel/dispatch-routines-and-irqls).
 
-For more information about dispatch routines, see <a href="/windows-hardware/drivers/kernel/writing-dispatch-routines">Writing Dispatch Routines</a>. For more information about IRPs, see <a href="/windows-hardware/drivers/kernel/handling-irps">Handling IRPs</a>.
+For more information about dispatch routines, see [Writing Dispatch Routines](/windows-hardware/drivers/kernel/writing-dispatch-routines). For more information about IRPs, see [Handling IRPs](/windows-hardware/drivers/kernel/handling-irps).
 
-<table>
-<tr>
-<th>IRP</th>
-<th>About implementing the callback</th>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-cleanup">IRP_MJ_CLEANUP</a>
-</td>
-<td>
-A driver's <i>DispatchCleanup</i> routine should be named <i>Xxx</i>DispatchCleanup, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchCleanup</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLEANUP].
+| IRP | About implementing the callback |
+|--|--|
+| [IRP_MJ_CLEANUP](/windows-hardware/drivers/ifs/irp-mj-cleanup) | A driver's *DispatchCleanup* routine should be named *Xxx*DispatchCleanup, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchCleanup* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_CLEANUP]. |
+| [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close) | A driver's *DispatchClose* routine should be named ***Xxx*DispatchClose**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchClose* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_CLOSE]. |
+| [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) | A driver's *DispatchCreate* routine should be named *Xxx*DispatchCreate, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchCreate* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_CREATE]. |
+| [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) or [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close) | A driver can provide a single *DispatchCreateClose* routine instead of separate *DispatchCreate* and [DispatchClose](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch) routines.<br><br>A driver's *DispatchCreateClose* routine should be named ***Xxx*DispatchCreateClose**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchCreateClose* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_CREATE] and in *DriverObject*->**MajorFunction**[IRP_MJ_CLOSE]. |
+| [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/ifs/irp-mj-device-control) | A driver's *DispatchDeviceControl* routine should be named ***Xxx*DispatchDeviceControl**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchDeviceControl* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_DEVICE_CONTROL].<br><br>The system uses the FILE_*XXX* flags in the I/O control code to determine whether the IRP sender has the privileges to send the IRP to the device object. Drivers for Windows Server 2003 and later versions of Windows can use the [IoValidateDeviceIoControlAccess](/windows-hardware/drivers/ddi/wdm/nf-wdm-iovalidatedeviceiocontrolaccess) routine to perform stricter access checks within *DispatchDeviceControl*. |
+| [IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) | A driver's *DispatchFlushBuffers* routine should be named *Xxx*DispatchFlushBuffers, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchFlushBuffers* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_FLUSH_BUFFERS]. |
+| [IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control) | A driver's *DispatchInternalDeviceControl* routine should be named ***Xxx*DispatchInternalDeviceControl**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchInternalDeviceControl* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_INTERNAL_DEVICE_CONTROL]. |
+| [IRP_MJ_PNP](/windows-hardware/drivers/ifs/irp-mj-pnp) | A driver's *DispatchPnP* routine should be named *Xxx*DispatchPnP, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchPnP* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_PNP]. |
+| [IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power) | A driver's *DispatchPower* routine should be named ***Xxx*DispatchPower**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchPower* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_POWER]. |
+| [IRP_MJ_QUERY_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-query-information) | A driver's *DispatchQueryInformation* routine should be named ***Xxx*DispatchQueryInformation**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchQueryInformation* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_QUERY_INFORMATION]. |
+| [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read) | A driver's *DispatchRead* routine should be named ***Xxx*DispatchRead**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchRead* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_READ]. |
+| [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read) or [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write) | A driver can provide a single *DispatchReadWrite* routine instead of separate [DispatchRead](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch) and [DispatchWrite](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch) routines.<br><br>A driver's *DispatchReadWrite* routine should be named ***Xxx*DispatchReadWrite**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchReadWrite* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_READ] and in *DriverObject*->**MajorFunction**[IRP_MJ_WRITE]. |
+| [IRP_MJ_SET_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-set-information) | A driver's *DispatchSetInformation* routine should be named ***Xxx*DispatchSetInformation**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchSetInformation* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_SET_INFORMATION]. |
+| [IRP_MJ_SHUTDOWN](/windows-hardware/drivers/ifs/irp-mj-shutdown) | A driver's *DispatchShutdown* routine should be named ***Xxx*DispatchShutdown**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchShutdown* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_SHUTDOWN].<br><br>Additionally, in order to receive **IRP_MJ_SHUTDOWN** requests, a driver must call [IoRegisterShutdownNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification) or [IoRegisterLastChanceShutdownNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification) to register its *DispatchShutdown* routine with the system. |
+| [IRP_MJ_SYSTEM_CONTROL](/windows-hardware/drivers/kernel/irp-mj-system-control) | A driver's *DispatchSystemControl* routine should be named ***Xxx*DispatchSystemControl**, where ***Xxx*** is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchSystemControl* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_SYSTEM_CONTROL]. |
+| [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write) | A driver's *DispatchWrite* routine should be named ***Xxx*DispatchWrite**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *DispatchWrite* routine's address in *DriverObject*->**MajorFunction**[IRP_MJ_WRITE]. |
 
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>
-</td>
-<td>
-A driver's <i>DispatchClose</i> routine should be named <b><i>Xxx</i>DispatchClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchClose</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLOSE].
+### Examples
 
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
-</td>
-<td>
-A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreate, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchCreate</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CREATE].
+To define a callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> or <a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>
-</td>
-<td>
-A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.
+For example, to define a *DispatchCleanup* callback routine that is named `MyDispatchCleanup`, use the DRIVER_DISPATCH type as shown in this code example:
 
-A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>DispatchCreateClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchCreateClose</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CREATE] and in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLOSE].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
-</td>
-<td>
-A driver's <i>DispatchDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchDeviceControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_DEVICE_CONTROL].
-
-The system uses the FILE_<i>XXX</i> flags in the I/O control code to determine whether the IRP sender has the privileges to send the IRP to the device object. Drivers for Windows Server 2003 and later versions of Windows can use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iovalidatedeviceiocontrolaccess">IoValidateDeviceIoControlAccess</a> routine to perform stricter access checks within <i>DispatchDeviceControl</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>
-</td>
-<td>
-A driver's <i>DispatchFlushBuffers</i> routine should be named <i>Xxx</i>DispatchFlushBuffers, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchFlushBuffers</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_FLUSH_BUFFERS].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-</td>
-<td>
-A driver's <i>DispatchInternalDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchInternalDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchInternalDeviceControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_INTERNAL_DEVICE_CONTROL</b>].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>
-</td>
-<td>
-A driver's <i>DispatchPnP</i> routine should be named <i>Xxx</i>DispatchPnP, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchPnP</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_PNP].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a>
-</td>
-<td>
-A driver's <i>DispatchPower</i> routine should be named <b><i>Xxx</i>DispatchPower</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchPower</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_POWER</b>].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a>
-</td>
-<td>
-A driver's <i>DispatchQueryInformation</i> routine should be named <b><i>Xxx</i>DispatchQueryInformation</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchQueryInformation</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_QUERY_INFORMATION].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
-</td>
-<td>
-A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchRead</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_READ].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> or <a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
-</td>
-<td>
-A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchRead</a> and <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchWrite</a> routines.
-
-A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>DispatchReadWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchReadWrite</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_READ</b>] and in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_WRITE</b>].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
-</td>
-<td>
-A driver's <i>DispatchSetInformation</i> routine should be named <b><i>Xxx</i>DispatchSetInformation</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchSetInformation</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SET_INFORMATION].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a>
-</td>
-<td>
-A driver's <i>DispatchShutdown</i> routine should be named <b><i>Xxx</i>DispatchShutdown</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchShutdown</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SHUTDOWN].
-
-Additionally, in order to receive <b>IRP_MJ_SHUTDOWN</b> requests, a driver must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a> to register its <i>DispatchShutdown</i> routine with the system.
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-system-control">IRP_MJ_SYSTEM_CONTROL</a>
-</td>
-<td>
-A driver's <i>DispatchSystemControl</i> routine should be named <b><i>Xxx</i>DispatchSystemControl</b>, where <b><i>Xxx</i></b> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchSystemControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SYSTEM_CONTROL].
-
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
-</td>
-<td>
-A driver's <i>DispatchWrite</i> routine should be named <b><i>Xxx</i>DispatchWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchWrite</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_WRITE].
-
-</td>
-</tr>
-</table>
- 
-
-
-#### Examples
-
-To define a callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
-
-For example, to define a <i>DispatchCleanup</i> callback routine that is named <code>MyDispatchCleanup</code>, use the DRIVER_DISPATCH type as shown in this code example:
-
-
-```
+```cpp
 DRIVER_DISPATCH MyDispatchCleanup;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
-
+```cpp
 _Use_decl_annotations_
 NTSTATUS
   MyDispatchCleanup(
@@ -259,7 +111,4 @@ NTSTATUS
   }
 ```
 
-The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
-
+The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the_Use_decl_annotations_annotation to your function definition. The_Use_decl_annotations_annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).

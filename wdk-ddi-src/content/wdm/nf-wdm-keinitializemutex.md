@@ -4,7 +4,7 @@ title: KeInitializeMutex function (wdm.h)
 description: The KeInitializeMutex routine initializes a mutex object, setting it to a signaled state.
 old-location: kernel\keinitializemutex.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["KeInitializeMutex function"]
 ms.keywords: KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, kernel.keinitializemutex, wdm/KeInitializeMutex
 req.header: wdm.h
@@ -42,53 +42,38 @@ api_name:
 
 # KeInitializeMutex function
 
-
 ## -description
 
-The <b>KeInitializeMutex</b> routine initializes a mutex object, setting it to a signaled state.
+The **KeInitializeMutex** routine initializes a mutex object, setting it to a signaled state.
 
 ## -parameters
 
-### -param Mutex 
+### -param Mutex
 
-[out]
-Pointer to a mutex object, for which the caller provides the storage. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
+[out] Pointer to a mutex object, for which the caller provides the storage. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
-### -param Level 
+### -param Level
 
-[in]
-Reserved. Drivers set this to zero.
+[in] Reserved. Drivers set this to zero.
 
 ## -remarks
 
-For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>. 
+For better performance, use fast mutexes or guarded mutexes. For more information, see [Alternatives to Mutex Objects](/windows-hardware/drivers/kernel/alternatives-to-mutex-objects).
 
-The mutex object is initialized with an initial state of signaled. 
+The mutex object is initialized with an initial state of signaled.
 
 Storage for a mutex object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
-For more information about mutex objects, see <a href="/windows-hardware/drivers/kernel/introduction-to-mutex-objects">Mutex Objects</a>.
+For more information about mutex objects, see [Mutex Objects](/windows-hardware/drivers/kernel/introduction-to-mutex-objects).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
+[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
 
+[KeReadStateMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex)
 
+[KeReleaseMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex">KeReadStateMutex</a>
+[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex">KeReleaseMutex</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)

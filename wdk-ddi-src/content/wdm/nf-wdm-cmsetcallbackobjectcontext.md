@@ -4,7 +4,7 @@ title: CmSetCallbackObjectContext function (wdm.h)
 description: The CmSetCallbackObjectContext routine associates specified context information with a specified registry object.
 old-location: kernel\cmsetcallbackobjectcontext.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["CmSetCallbackObjectContext function"]
 ms.keywords: CmSetCallbackObjectContext, CmSetCallbackObjectContext routine [Kernel-Mode Driver Architecture], ConfigMgrRef_86ecc2b5-c790-4414-973d-6d26475b211d.xml, kernel.cmsetcallbackobjectcontext, wdm/CmSetCallbackObjectContext
 req.header: wdm.h
@@ -42,76 +42,59 @@ api_name:
 
 # CmSetCallbackObjectContext function
 
-
 ## -description
 
-The <b>CmSetCallbackObjectContext</b> routine associates specified context information with a specified registry object.
+The **CmSetCallbackObjectContext** routine associates specified context information with a specified registry object.
 
 ## -parameters
 
-### -param Object 
+### -param Object
 
 [in, out]
-A pointer to the registry key object that the driver is providing context information for. The driver obtains this pointer from the <b>ResultObject</b> member of one of the following structures:
+A pointer to the registry key object that the driver is providing context information for. The driver obtains this pointer from the **ResultObject** member of one of the following structures:
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>
+- [REG_CREATE_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information)
 
-### -param Cookie 
+- [REG_CREATE_KEY_INFORMATION_V1](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1)
 
-[in]
-A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine provided this value when you registered the callback routine.
+- REG_OPEN_KEY_INFORMATION
 
-### -param NewContext 
+- REG_OPEN_KEY_INFORMATION_V1
 
-[in]
-A pointer to driver-defined context information.
+### -param Cookie
 
-### -param OldContext 
+[in] A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex) routine provided this value when you registered the callback routine.
 
-[out, optional]
-A pointer to a location that receives a pointer to context information that the driver previously associated with the specified object and cookie. This parameter is optional and can be <b>NULL</b>.
+### -param NewContext
+
+[in] A pointer to driver-defined context information.
+
+### -param OldContext
+
+[out, optional] A pointer to a location that receives a pointer to context information that the driver previously associated with the specified object and cookie. This parameter is optional and can be **NULL**.
 
 ## -returns
 
-<b>CmSetCallbackObjectContext</b> returns STATUS_SUCCESS or another appropriate <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a>-typed value.
+**CmSetCallbackObjectContext** returns STATUS_SUCCESS or another appropriate [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)-typed value.
 
 ## -remarks
 
-The <b>CmSetCallbackObjectContext</b> routine is available starting with Windows Vista.
+The **CmSetCallbackObjectContext** routine is available starting with Windows Vista.
 
-A driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can call <b>CmSetCallbackObjectContext</b> for any registry key object after the object has been created or opened (that is, during a post-notification for a create operation, an open operation, or any subsequent notification up to the pre-notification of handle closure).
+A driver's [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can call **CmSetCallbackObjectContext** for any registry key object after the object has been created or opened (that is, during a post-notification for a create operation, an open operation, or any subsequent notification up to the pre-notification of handle closure).
 
-If a driver calls <b>CmSetCallbackObjectContext</b>, the driver's <i>RegistryCallback</i> routine will receive a <b>RegNtCallbackObjectContextCleanup</b> notification after the key object's handle has been closed or after the driver calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a> to unregister the <i>RegistryCallback</i> routine. When the <i>RegistryCallback</i> routine receives this notification, the routine should release any resources that it allocated for the object's context.
+If a driver calls **CmSetCallbackObjectContext**, the driver's *RegistryCallback* routine will receive a **RegNtCallbackObjectContextCleanup** notification after the key object's handle has been closed or after the driver calls [CmUnRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback) to unregister the *RegistryCallback* routine. When the *RegistryCallback* routine receives this notification, the routine should release any resources that it allocated for the object's context.
 
-For more information about <b>CmSetCallbackObjectContext</b> and filtering registry operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+For more information about **CmSetCallbackObjectContext** and filtering registry operations, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>
+[CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
 
+[CmUnRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback)
 
+[REG_CREATE_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a>
+[REG_CREATE_KEY_INFORMATION_V1](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
