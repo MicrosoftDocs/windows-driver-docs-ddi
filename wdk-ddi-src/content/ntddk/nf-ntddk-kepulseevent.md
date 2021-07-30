@@ -4,7 +4,7 @@ title: KePulseEvent function (ntddk.h)
 description: The KePulseEvent routine atomically sets an event object to a signaled state, attempts to satisfy as many waits as possible, and then resets the event object to a not-signaled state.
 old-location: kernel\kepulseevent.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/30/2021
 keywords: ["KePulseEvent function"]
 ms.keywords: KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, kernel.kepulseevent, ntddk/KePulseEvent
 req.header: ntddk.h
@@ -42,27 +42,23 @@ api_name:
 
 # KePulseEvent function
 
-
 ## -description
 
-The <b>KePulseEvent</b> routine atomically sets an event object to a signaled state, attempts to satisfy as many waits as possible, and then resets the event object to a not-signaled state.
+The **KePulseEvent** routine atomically sets an event object to a signaled state, attempts to satisfy as many waits as possible, and then resets the event object to a not-signaled state.
 
 ## -parameters
 
-### -param Event 
+### -param Event
 
-[in, out]
-A pointer to a dispatcher object of type KEVENT.
+[in, out] A pointer to a dispatcher object of type KEVENT.
 
-### -param Increment 
+### -param Increment
 
-[in]
-Specifies a boost to apply to the priority of threads which are readied as a result of pulsing the event. Typically set to zero but can be set to one.
+[in] Specifies a boost to apply to the priority of threads which are readied as a result of pulsing the event. Typically set to zero but can be set to one.
 
-### -param Wait 
+### -param Wait
 
-[in]
-Specifies a Boolean value that signifies whether the call to <b>KePulseEvent</b> will be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KePulseEvent</b> call is immediately followed by a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
+[in] Specifies a Boolean value that signifies whether the call to **KePulseEvent** will be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KePulseEvent** call is immediately followed by a call to [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects), **KeWaitForMutexObject**, or [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject). For more information, see the following Remarks section.
 
 ## -returns
 
@@ -70,42 +66,27 @@ The previous signal state of the event object.
 
 ## -remarks
 
-For more information about event objects, see <a href="/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
+For more information about event objects, see [Event Objects](/windows-hardware/drivers/kernel/event-objects).
 
-The <b>KePulseEvent</b> routine might temporarily raise the IRQL. If the <i>Wait</i> parameter is <b>FALSE</b>, the routine, before it returns, restores the IRQL to the original value that it had at the start of the call.
+The **KePulseEvent** routine might temporarily raise the IRQL. If the *Wait* parameter is **FALSE**, the routine, before it returns, restores the IRQL to the original value that it had at the start of the call.
 
-If <i>Wait</i> = <b>TRUE</b>, the routine returns without lowering the IRQL. In this case, the <b>KePulseEvent</b> call must be immediately followed by a <b>KeWait<i>Xxx</i></b> call. By setting <i>Wait</i> = <b>TRUE</b>, the caller can prevent an unnecessary context switch from occurring between the <b>KePulseEvent</b> call and the <b>KeWait<i>Xxx</i></b> call. The <b>KeWait<i>Xxx</i></b> routine, before it returns, restores the IRQL to its original value at the start of the <b>KePulseEvent</b> call. Although the IRQL disables context switches between the two calls, these calls cannot reliably be used as the start and end of an atomic operation. For example, between these two calls, a thread that is running at the same time on another processor might change the state of the event object or of the target of the wait.
+If *Wait* = **TRUE**, the routine returns without lowering the IRQL. In this case, the **KePulseEvent** call must be immediately followed by a **KeWait*Xxx*** call. By setting *Wait* = **TRUE**, the caller can prevent an unnecessary context switch from occurring between the **KePulseEvent** call and the **KeWait*Xxx*** call. The **KeWait*Xxx*** routine, before it returns, restores the IRQL to its original value at the start of the **KePulseEvent** call. Although the IRQL disables context switches between the two calls, these calls cannot reliably be used as the start and end of an atomic operation. For example, between these two calls, a thread that is running at the same time on another processor might change the state of the event object or of the target of the wait.
 
-If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread context, the <i>Timeout</i> parameter to <b>KeWait<i>Xxx</i></b> must be zero.
+If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread context, the *Timeout* parameter to **KeWait*Xxx*** must be zero.
 
-
-<div class="alert"><b>Warning</b>    If a thread waiting for <i>Event</i> is currently running a kernel APC, then, when <b>KePulseEvent</b> is called, this thread's wait is not satisfied. After the kernel APC completes, the thread remains in the wait state.</div>
-<div> </div>
+> [!WARNING]
+> If a thread waiting for *Event* is currently running a kernel APC, then, when **KePulseEvent** is called, this thread's wait is not satisfied. After the kernel APC completes, the thread remains in the wait state.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
+[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
 
+[KeReadStateEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent)
 
+[KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent">KeReadStateEvent</a>
+[KeSetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent)
 
+[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent">KeResetEvent</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent">KeSetEvent</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)

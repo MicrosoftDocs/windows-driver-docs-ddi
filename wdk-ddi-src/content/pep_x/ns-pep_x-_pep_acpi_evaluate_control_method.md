@@ -84,7 +84,7 @@ If the PEP is to evaluate the method asynchronously, set this member to STATUS_P
 
 ### -field CompletionContext
 
-[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the [CompleteWork](https://msdn.microsoft.com/library/windows/hardware/mt186629) routine that notifies the Windows [power management framework](/windows-hardware/drivers/ddi/_kernel/#device-power-management) (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a [PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete) structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
+[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the *CompleteWork* routine that notifies the Windows [power management framework](/windows-hardware/drivers/ddi/_kernel/#device-power-management) (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a [PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete) structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
 
 ### -field InputArgumentCount
 
