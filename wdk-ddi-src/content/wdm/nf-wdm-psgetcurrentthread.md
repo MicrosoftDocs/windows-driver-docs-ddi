@@ -1,10 +1,10 @@
 ---
 UID: NF:wdm.PsGetCurrentThread
 title: PsGetCurrentThread function (wdm.h)
-description: Learn how the PsGetCurrentThread routine identifies the current thread.
+description: Learn how the PsGetCurrentThread routine (wdm.h) identifies the current thread.
 old-location: kernel\psgetcurrentthread.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/30/2021
 keywords: ["PsGetCurrentThread function"]
 ms.keywords: ExGetCurrentResourceThread, PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, kernel.psgetcurrentthread, wdm/PsGetCurrentThread
 req.header: wdm.h
@@ -42,37 +42,26 @@ api_name:
 
 # PsGetCurrentThread function (wdm.h)
 
-
 ## -description
 
-The <b>PsGetCurrentThread</b> routine identifies the current thread.
+The **PsGetCurrentThread** routine identifies the current thread.
 
 ## -parameters
 
 ## -returns
 
-<b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread.
+**PsGetCurrentThread** returns a pointer to the executive thread object that represents the currently executing thread.
 
 ## -remarks
 
-This macro
-
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
+[KeGetCurrentThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
-
-
+[PsCreateSystemThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread)
 
 [PsGetCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
+[PsGetCurrentProcessId](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread">PsIsSystemThread</a>
+[PsIsSystemThread](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread)

@@ -1,10 +1,10 @@
 ---
 UID: NS:pep_x._PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
 title: _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME (pep_x.h)
-description: The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
+description: The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure (pep_x.h) is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
 old-location: kernel\pep_query_soc_subsystem_blocking_time.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/30/2021
 keywords: ["PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, kernel.pep_query_soc_subsystem_blocking_time, pepfx/PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME"
 req.header: pep_x.h
@@ -48,10 +48,9 @@ api_name:
 
 # _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure (pep_x.h)
 
-
 ## -description
 
-The <b>PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME</b> structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a> to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
+The **PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME** structure is used by the [PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification](/windows-hardware/drivers/ddi/index) to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
 
 ## -struct-fields
 
@@ -69,7 +68,7 @@ The <b>PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME</b> structure is used by the <a hre
 
 ### -field BlockingTime
 
-[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>.
+[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous [PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](/windows-hardware/drivers/ddi/index).
 
 ### -field Flags
 
@@ -77,9 +76,6 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a>
+[PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification](/windows-hardware/drivers/ddi/index)
 
-
-
-<a href="/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
-
+[PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](/windows-hardware/drivers/ddi/index)
