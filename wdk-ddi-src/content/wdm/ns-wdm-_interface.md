@@ -84,7 +84,7 @@ The <i>InterfaceReference</i> routine must be called by the driver that exports 
 Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTERFACE</b> or by receiving the interface from another driver) must call the <i>InterfaceDereference</i> routine after it has finished using the interface. After calling the <i>InterfaceDereference</i> routine, a driver cannot use the interface again without first reobtaining it.
 
 > [!NOTE]
-> When introducing a new version of an existing interface, create a new GUID instead of revising the Size or Version fields of this structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of this structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ## -see-also
 
