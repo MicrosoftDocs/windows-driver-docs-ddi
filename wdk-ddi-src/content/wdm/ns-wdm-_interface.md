@@ -4,7 +4,7 @@ title: _INTERFACE (wdm.h)
 description: The _INTERFACE structure (wdm.h) describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/30/2021
 keywords: ["INTERFACE structure"]
 ms.keywords: "*PINTERFACE, INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], _INTERFACE, kernel.interface, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, wdm/PINTERFACE"
 req.header: wdm.h
@@ -82,6 +82,9 @@ The <b>INTERFACE</b> structure must be included as the first member of all struc
 The <i>InterfaceReference</i> routine must be called by the driver that exports the interface, each time the driver supplies that interface in response to <b>IRP_MN_QUERY_INTERFACE</b>. Likewise, if the driver that requests the interface subsequently passes it to another driver, the driver that passes the interface must call <i>InterfaceReference</i> on behalf of the driver that receives it.
 
 Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTERFACE</b> or by receiving the interface from another driver) must call the <i>InterfaceDereference</i> routine after it has finished using the interface. After calling the <i>InterfaceDereference</i> routine, a driver cannot use the interface again without first reobtaining it.
+
+> [!NOTE]
+> When introducing a new version of an existing interface, create a new GUID instead of revising the Size or Version fields of this structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ## -see-also
 
