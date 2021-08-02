@@ -54,7 +54,7 @@ object to send the datagrams from.
 
 ### -param BufferList
 
-[in] A pointer to an initialized [**WSK_BUF_LIST**](ns-wsk-_wsk_buf_list.md) structure that contains the list of datagrams to send.
+[in] A pointer to an initialized [**WSK_BUF_LIST**](ns-wsk-wsk_buf_list.md) structure that contains the list of datagrams to send.
 
 ### -param Flags
 
@@ -100,7 +100,7 @@ Kernel Functions](/windows-hardware/drivers/network/using-irps-with-winsock-kern
 
 [**WSK_SOCKET**](ns-wsk-_wsk_socket.md)
 
-[**WSK_BUF_LIST**](ns-wsk-_wsk_buf_list.md)
+[**WSK_BUF_LIST**](ns-wsk-wsk_buf_list.md)
 
 [**CMSGHDR**](/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr)
 
