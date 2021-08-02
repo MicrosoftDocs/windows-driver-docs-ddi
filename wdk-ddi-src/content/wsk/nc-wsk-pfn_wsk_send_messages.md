@@ -90,7 +90,7 @@ Kernel Functions](/windows-hardware/drivers/network/using-irps-with-winsock-kern
 
 |Return code|Description|
 |--- |--- |
-|**STATUS_SUCCESS**|The datagram was successfully sent over the socket. The IRP will be completed with success status. The **IoStatus.Information** field of the IRP contains the number of bytes that were sent.|
+|**STATUS_SUCCESS**|The datagrams were successfully sent over the socket. The IRP will be completed with success status. The **IoStatus.Information** field of the IRP contains the number of bytes that were sent.|
 |**STATUS_PENDING**|The WSK subsystem could not send the datagrams over the socket immediately. The WSK subsystem will complete the IRP after it has sent the datagrams over the socket. The status of the send operation will be returned in the **IoStatus.Status** field of the IRP. If the operation succeeds, the **IoStatus.Information** field of the IRP will contain the number of bytes that were sent.|
 |**FAILURES**|An error occurred. The IRP will be completed with failure status.|
 
