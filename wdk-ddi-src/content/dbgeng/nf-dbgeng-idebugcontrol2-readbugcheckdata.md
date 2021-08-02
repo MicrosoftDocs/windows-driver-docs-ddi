@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.ReadBugCheckData
 title: IDebugControl2::ReadBugCheckData (dbgeng.h)
-description: The ReadBugCheckData method reads the kernel bug check code and related parameters.
+description: Learn about the ReadBugCheckData method, which reads the kernel bug check code and related parameters.
 old-location: debugger\readbugcheckdata.htm
 tech.root: debugger
 ms.date: 05/03/2018

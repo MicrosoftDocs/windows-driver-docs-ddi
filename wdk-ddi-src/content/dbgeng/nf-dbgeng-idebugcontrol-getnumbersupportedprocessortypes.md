@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetNumberSupportedProcessorTypes
 title: IDebugControl::GetNumberSupportedProcessorTypes (dbgeng.h)
-description: The GetNumberSupportedProcessorTypes method returns the number of processor types supported by the engine.
+description: Learn how the GetNumberSupportedProcessorTypes method returns the number of processor types supported by the engine.
 old-location: debugger\getnumbersupportedprocessortypes.htm
 tech.root: debugger
 ms.date: 05/03/2018

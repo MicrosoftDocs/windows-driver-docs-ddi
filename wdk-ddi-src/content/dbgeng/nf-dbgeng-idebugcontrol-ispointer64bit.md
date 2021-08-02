@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.IsPointer64Bit
 title: IDebugControl::IsPointer64Bit (dbgeng.h)
-description: The IsPointer64Bit method determines if the effective processor uses 64-bit pointers.
+description: Learn how the IsPointer64Bit method determines if the effective processor uses 64-bit pointers.
 old-location: debugger\ispointer64bit.htm
 tech.root: debugger
 ms.date: 05/03/2018

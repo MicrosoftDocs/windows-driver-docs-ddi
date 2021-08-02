@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetSystemErrorControl
 title: IDebugControl::SetSystemErrorControl (dbgeng.h)
-description: The SetSystemErrorControl method sets the control values for handling system errors.
+description: Learn how the IDebugControl.SetSystemErrorControl method sets the control values for handling system errors.
 old-location: debugger\setsystemerrorcontrol.htm
 tech.root: debugger
 ms.date: 05/03/2018

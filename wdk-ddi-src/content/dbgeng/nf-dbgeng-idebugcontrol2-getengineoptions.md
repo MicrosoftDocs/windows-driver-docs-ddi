@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetEngineOptions
 title: IDebugControl2::GetEngineOptions (dbgeng.h)
-description: The GetEngineOptions method returns the engine's options.
+description: Learn how to use the IDebugControl2::GetEngineOptions method, which returns the engine's options.
 old-location: debugger\getengineoptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

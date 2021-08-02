@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetEventFilterCommand
 title: IDebugControl::SetEventFilterCommand (dbgeng.h)
-description: The SetEventFilterCommand method sets a debugger command for the engine to execute when a specified event occurs.
+description: Learn how the SetEventFilterCommand method sets a debugger command for the engine to execute when a specified event occurs.
 old-location: debugger\seteventfiltercommand.htm
 tech.root: debugger
 ms.date: 05/03/2018

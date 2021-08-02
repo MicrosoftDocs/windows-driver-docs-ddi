@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetNumberEventFilters
 title: IDebugControl::GetNumberEventFilters (dbgeng.h)
-description: The GetNumberEventFilters method returns the number of event filters currently used by the engine.
+description: Learn how the GetNumberEventFilters method returns the number of event filters currently used by the engine.
 old-location: debugger\getnumbereventfilters.htm
 tech.root: debugger
 ms.date: 05/03/2018

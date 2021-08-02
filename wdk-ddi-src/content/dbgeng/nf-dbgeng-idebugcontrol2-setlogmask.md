@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetLogMask
 title: IDebugControl2::SetLogMask (dbgeng.h)
-description: The SetLogMask method sets the output mask for the currently open log file.
+description: Learn about the IDebugControl2.SetLogMask method, which sets the output mask for the currently open log file.
 old-location: debugger\setlogmask.htm
 tech.root: debugger
 ms.date: 05/03/2018

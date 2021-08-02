@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadIo
 title: IDebugDataSpaces3::ReadIo (dbgeng.h)
-description: The ReadIo method reads from the system and bus I/O memory.
+description: Learn about the IDebugDataSpaces3.ReadIo method, which reads from the system and bus I/O memory. See the method parameters and their requirements.
 old-location: debugger\readio.htm
 tech.root: debugger
 ms.date: 05/03/2018

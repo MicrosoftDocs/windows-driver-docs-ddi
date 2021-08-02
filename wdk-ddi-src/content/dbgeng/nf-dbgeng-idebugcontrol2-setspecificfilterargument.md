@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetSpecificFilterArgument
 title: IDebugControl2::SetSpecificFilterArgument (dbgeng.h)
-description: The SetSpecificFilterArgument method sets the value of filter argument for the specific filters that can have an argument.
+description: Learn about the SetSpecificFilterArgument method, which sets the value of filter argument for the specific filters that can have an argument.
 old-location: debugger\setspecificfilterargument.htm
 tech.root: debugger
 ms.date: 05/03/2018

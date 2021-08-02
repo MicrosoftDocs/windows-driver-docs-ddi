@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetEngineOptions
 title: IDebugControl::SetEngineOptions (dbgeng.h)
-description: The SetEngineOptions method changes the engine's options.
+description: Learn how the SetEngineOptions method changes the engine's options. You can also see a description of the engine options.
 old-location: debugger\setengineoptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

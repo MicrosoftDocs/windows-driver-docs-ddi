@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.RemoveEngineOptions
 title: IDebugControl::RemoveEngineOptions (dbgeng.h)
-description: The RemoveEngineOptions method turns off some of the engine's options.
+description: Learn how the RemoveEngineOptions method turns off some of the engine's options. You can specify which options to turn off.
 old-location: debugger\removeengineoptions.htm
 tech.root: debugger
 ms.date: 05/03/2018
