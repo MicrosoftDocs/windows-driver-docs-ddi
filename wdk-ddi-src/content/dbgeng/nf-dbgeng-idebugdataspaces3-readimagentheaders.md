@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadImageNtHeaders
 title: IDebugDataSpaces3::ReadImageNtHeaders (dbgeng.h)
-description: The ReadImageNtHeaders method returns the NT headers for the specified image loaded in the target.
+description: Learn about the ReadImageNtHeaders method, which returns the NT headers for the specified image loaded in the target.
 old-location: debugger\readimagentheaders.htm
 tech.root: debugger
 ms.date: 05/03/2018

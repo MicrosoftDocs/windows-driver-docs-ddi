@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetWindbgExtensionApis64
 title: IDebugControl2::GetWindbgExtensionApis64 (dbgeng.h)
-description: The GetWindbgExtensionApis64 method returns a structure that facilitates using the WdbgExts API.
+description: Learn about the GetWindbgExtensionApis64 method, which returns a structure that facilitates using the WdbgExts API.
 old-location: debugger\getwindbgextensionapis64.htm
 tech.root: debugger
 ms.date: 05/03/2018

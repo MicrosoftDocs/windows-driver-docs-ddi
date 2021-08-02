@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetExecutionStatus
 title: IDebugControl2::SetExecutionStatus (dbgeng.h)
-description: The SetExecutionStatus method requests that the debugger engine enter an executable state. Actual execution will not occur until the next time WaitForEvent is called.
+description: The SetExecutionStatus method requests that the debugger engine enter an executable state. Actual execution doesn't occur until the next time WaitForEvent is called.
 old-location: debugger\setexecutionstatus.htm
 tech.root: debugger
 ms.date: 05/03/2018

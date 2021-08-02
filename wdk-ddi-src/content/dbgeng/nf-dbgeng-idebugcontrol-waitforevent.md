@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.WaitForEvent
 title: IDebugControl::WaitForEvent (dbgeng.h)
-description: The WaitForEvent method waits for an event that breaks into the debugger engine application.
+description: Learn how the WaitForEvent method waits for an event that breaks into the debugger engine application.
 old-location: debugger\waitforevent.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetLogFile
 title: IDebugControl::GetLogFile (dbgeng.h)
-description: The GetLogFile method returns the name of the currently open log file.
+description: Learn how the GetLogFile method returns the name of the currently open log file. Includes parameters, returns, and remarks.
 old-location: debugger\getlogfile.htm
 tech.root: debugger
 ms.date: 05/03/2018

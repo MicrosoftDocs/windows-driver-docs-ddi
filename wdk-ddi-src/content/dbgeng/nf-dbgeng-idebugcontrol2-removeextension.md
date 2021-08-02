@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.RemoveExtension
 title: IDebugControl2::RemoveExtension (dbgeng.h)
-description: The RemoveExtension method unloads an extension library.
+description: Learn about the IDebugControl2.RemoveExtension method, which unloads an extension library. You can specify the handle of the extension library to unload.
 old-location: debugger\removeextension.htm
 tech.root: debugger
 ms.date: 05/03/2018

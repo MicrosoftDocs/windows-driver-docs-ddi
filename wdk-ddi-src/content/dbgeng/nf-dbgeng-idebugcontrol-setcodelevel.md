@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetCodeLevel
 title: IDebugControl::SetCodeLevel (dbgeng.h)
-description: The SetCodeLevel method sets the current code level and is mainly used when stepping through code.
+description: Learn how the SetCodeLevel method sets the current code level and is mainly used when stepping through code.
 old-location: debugger\setcodelevel.htm
 tech.root: debugger
 ms.date: 05/03/2018
