@@ -4,7 +4,7 @@ tech.root: netvista
 title: PFN_WSK_SEND_MESSAGES
 ms.date: 08/02/2021
 targetos: Windows
-description: The WskSendMessages function sends multiple datagrams to the specified remote entity or group from the specified datagram socket.
+description: The WskSendMessages function sends multiple datagrams to a remote transport address.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,8 +42,7 @@ dev_langs:
 
 ## -description
 
-The **WskSendMessages** function sends multiple datagrams to the specified remote entity or group from the specified datagram socket. The socket must have been bound to a local
-address.
+The **WskSendMessages** function sends multiple datagrams to a remote transport address.
 
 ## -parameters
 
@@ -92,7 +91,7 @@ Kernel Functions](/windows-hardware/drivers/network/using-irps-with-winsock-kern
 |--- |--- |
 |**STATUS_SUCCESS**|The datagrams were successfully sent over the socket. The IRP will be completed with success status. The **IoStatus.Information** field of the IRP contains the number of bytes that were sent.|
 |**STATUS_PENDING**|The WSK subsystem could not send the datagrams over the socket immediately. The WSK subsystem will complete the IRP after it has sent the datagrams over the socket. The status of the send operation will be returned in the **IoStatus.Status** field of the IRP. If the operation succeeds, the **IoStatus.Information** field of the IRP will contain the number of bytes that were sent.|
-|**FAILURES**|An error occurred. The IRP will be completed with failure status.|
+|**Other status codes**|An error occurred. The IRP will be completed with failure status.|
 
 ## -remarks
 
