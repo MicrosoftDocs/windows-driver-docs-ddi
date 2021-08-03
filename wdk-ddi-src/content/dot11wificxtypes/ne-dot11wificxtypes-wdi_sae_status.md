@@ -41,117 +41,121 @@ The **WDI_SAE_STATUS** enumeration defines SAE authentication failure error stat
 
 ## -enum-fields
 
-### -field WDI_SAE_STATUS_SUCCESS 
+### -field WDI_SAE_STATUS_SUCCESS:0
 
 The operation completed successfully.
 
-### -field WDI_SAE_STATUS_FAILURE 
+### -field WDI_SAE_STATUS_FAILURE:1
 
 The operation completed with failure and none of the other status codes apply.
 
-### -field WDI_SAE_STATUS_RESOURCES 
+### -field WDI_SAE_STATUS_RESOURCES:2
 
 The driver encountered a resource allocation error.
 
-### -field WDI_SAE_STATUS_INTERNAL_AUTH_FAILURE 
+### -field WDI_SAE_STATUS_INTERNAL_AUTH_FAILURE:3
 
 WDI encountered an internal authentication-related failure.
 
-### -field WDI_SAE_STATUS_INVALID_PEER 
+### -field WDI_SAE_STATUS_INVALID_PEER:4
 
 The Commit or Confirm response was received from an AP for which WDI did not provide SAE parameters.
 
-### -field WDI_SAE_STATUS_INITIALIZATION_NO_KEY 
+### -field WDI_SAE_STATUS_INITIALIZATION_NO_KEY:5
 
 WDI doesn't have the password for this association request.
 
-### -field WDI_SAE_STATUS_INITIALIZATION_H2E_NOT_SUPPORTED
+### -field WDI_SAE_STATUS_INITIALIZATION_H2E_NOT_SUPPORTED:6
 
 AP requires Hash-To-Element support but the driver doesn't support Hash-To-Element.
 
-### -field WDI_SAE_STATUS_INITIALIZATION_PWD_ID_NOT_SUPPORTED
+### -field WDI_SAE_STATUS_INITIALIZATION_PWD_ID_NOT_SUPPORTED:7
 
 AP requires Password-Identifier, but no Password-Identifier is available.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_RECEIVED_IN_NOTHING_STATE
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_RECEIVED_IN_NOTHING_STATE:10
 
 Commit message was received in Nothing state.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_MALFORMED_AUTH_FRAME
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_MALFORMED_AUTH_FRAME:11
 
 A bad Commit frame was received.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_FAILURE_FROM_PEER
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_FAILURE_FROM_PEER:12
 
 The commit frame from the peer contained an error code.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_FINITE_GROUP_NOT_PRESENT
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_FINITE_GROUP_NOT_PRESENT:13
 
 The Finite Group was not present in the Commit frame.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_UNSUPPORTED_FINITE_GROUP
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_UNSUPPORTED_FINITE_GROUP:14
 
 The Finite Group specified in the Commit frame is not supported.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_ANTICLOGGING_TOKEN_REQUIRED_BUT_NO_TOKEN
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_ANTICLOGGING_TOKEN_REQUIRED_BUT_NO_TOKEN:15
 
 The Commit frame contained the error code requiring the anti-clogging token, but the frame did not contain the anti-clogging token.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_INVALID_SCALAR_ELEMENT_SIZE
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_INVALID_SCALAR_ELEMENT_SIZE:16
 
 The Commit frame did not contain enough space for the Scalar or Element fields.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_REFLECTION_ATTACK_DETECTED
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_REFLECTION_ATTACK_DETECTED:17
 
 WDI detected a reflection attack.
 
-### -field WDI_SAE_STATUS_COMMIT_MESSAGE_INTERNAL_COMPUTATION_ERROR
+### -field WDI_SAE_STATUS_COMMIT_MESSAGE_INTERNAL_COMPUTATION_ERROR:18
 
 WDI encountered an internal computation error.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_RECEIVED_IN_INVALID_STATE
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_RECEIVED_IN_INVALID_STATE:30
 
 WDI received a Confirm frame when it was not expected.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_MALFORMED_AUTH_FRAME
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_MALFORMED_AUTH_FRAME:31
 
 A bad Confirm frame was received.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_FAILURE_FROM_PEER
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_FAILURE_FROM_PEER:32
 
 An error was received in the Confirm frame.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_BSS_TRANSITION_REQUESTED
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_BSS_TRANSITION_REQUESTED:33
 
 WDI doesn't handle the Bss transition request.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_INTERNAL_COMPUTATION_ERROR
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_INTERNAL_COMPUTATION_ERROR:34
 
 WDI encountered an internal error.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_VERIFICATION_FAILED
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_VERIFICATION_FAILED:35
 
 WDI failed to match the Verifier from the Confirm frame.
 
-### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_RESEND_REQUEST
+### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_RESEND_REQUEST:50
 
 The driver requests a new set of Confirm frame parameters to resend the Confirm request to the AP.
 
-### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_COMMIT_REQUEST
+### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_COMMIT_REQUEST:51
 
 The driver timed out waiting for a Commit Request from the OS.
 
-### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_CONFIRM_REQUEST
+### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_CONFIRM_REQUEST:52
 
 The driver timed out waiting for a Confirm Request from the OS.
 
-### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_STATUS
+### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_STATUS:53
 
 The driver timed out waiting for a Status from the OS.
 
-### -field WDI_SAE_STATUS_CONNECTION_CLEANED_UP
+### -field WDI_SAE_STATUS_CONNECTION_CLEANED_UP:70
 
-### -field WDI_SAE_STATUS_CLEAN_UP_CONTEXT
+Internal handling code.
+
+### -field WDI_SAE_STATUS_CLEAN_UP_CONTEXT:71
+
+Internal handling code.
 
 ## -remarks
 
