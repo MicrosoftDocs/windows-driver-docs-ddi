@@ -112,7 +112,7 @@ For more info <a href="/windows-hardware/drivers/ddi/index">USB Configuration De
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>
+<pre class="syntax"><code>
 hr = pIWDFUsbInterface->SelectSetting(SettingNumber);</code></pre>
 
 ## -see-also

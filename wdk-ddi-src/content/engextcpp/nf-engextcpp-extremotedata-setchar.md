@@ -199,7 +199,7 @@ The <b>ExtRemoteData</b> class includes the following constructors and methods:
 
 
 </dd>
-</dl><pre class="syntax" xml:space="preserve"><code>class ExtRemoteData
+</dl><pre class="syntax"><code>class ExtRemoteData
 {
 public:
     PCSTR  m_Name;

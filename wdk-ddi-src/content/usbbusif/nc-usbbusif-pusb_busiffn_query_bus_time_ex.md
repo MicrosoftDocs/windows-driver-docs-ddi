@@ -106,7 +106,7 @@ The function definition that is provided on this reference page is an example fu
 
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef NTSTATUS
+<pre class="syntax"><code>typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_TIME_EX) (
     IN PVOID,
     IN PULONG</code></pre>

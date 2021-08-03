@@ -77,7 +77,7 @@ The server process can impersonate the client's security context on remote syste
 
 Impersonation is the ability of a process to take on the security attributes of another process.
 
-<div class="alert"><b>Note</b>  Be aware of the following derived types:<pre class="syntax" xml:space="preserve"><code>#define DEFAULT_IMPERSONATION_LEVEL SecurityImpersonation
+<div class="alert"><b>Note</b>  Be aware of the following derived types:<pre class="syntax"><code>#define DEFAULT_IMPERSONATION_LEVEL SecurityImpersonation
 #define SECURITY_MAX_IMPERSONATION_LEVEL SecurityDelegation
 #define SECURITY_MIN_IMPERSONATION_LEVEL SecurityAnonymous // Windows XP and later only</code></pre>
 </div>

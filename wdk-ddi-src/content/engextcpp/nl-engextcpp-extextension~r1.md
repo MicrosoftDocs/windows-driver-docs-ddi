@@ -413,7 +413,7 @@ The <b>ExtExtension</b> class includes the following methods, which can be used 
 
 </dd>
 </dl>The <b>ExtExtension</b> class also contains the following fields that can be used by the subclass:
-<pre class="syntax" xml:space="preserve"><code>class ExtExtension
+<pre class="syntax"><code>class ExtExtension
 {
 public:
     USHORT  m_ExtMajorVersion;

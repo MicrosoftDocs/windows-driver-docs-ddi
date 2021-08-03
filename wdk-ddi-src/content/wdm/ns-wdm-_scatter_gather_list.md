@@ -67,7 +67,7 @@ Reserved for future use.
 
 Specifies an array of scatter/gather elements that comprise a scatter/gather list. Each array element is a structure of type <b>SCATTER_GATHER_ELEMENT</b>, which is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SCATTER_GATHER_ELEMENT {
+<pre class="syntax"><code>typedef struct _SCATTER_GATHER_ELEMENT {
   PHYSICAL_ADDRESS  Address;
   ULONG  Length;
   ULONG_PTR  Reserved;

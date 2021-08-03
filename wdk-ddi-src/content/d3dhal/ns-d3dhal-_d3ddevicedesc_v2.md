@@ -59,7 +59,7 @@ The D3DDEVICEDESC_V2 structure contains fields that are already reported in the
 	 
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _D3DDeviceDesc_V2 {
+<pre class="syntax"><code>typedef struct _D3DDeviceDesc_V2 {
     DWORD             dwSize;
     DWORD             dwFlags;
     D3DCOLORMODEL     dcmColorModel;

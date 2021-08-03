@@ -119,7 +119,7 @@ The <b>ExtRemoteList</b> class includes the following methods:
 
 
 </dd>
-</dl><pre class="syntax" xml:space="preserve"><code>class ExtRemoteList
+</dl><pre class="syntax"><code>class ExtRemoteList
 {
 public:
     ULONG64  m_Head;

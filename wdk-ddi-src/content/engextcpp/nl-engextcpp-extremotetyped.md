@@ -216,7 +216,7 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 
 
 </dd>
-</dl><pre class="syntax" xml:space="preserve"><code>class ExtRemoteTyped : public ExtRemoteData
+</dl><pre class="syntax"><code>class ExtRemoteTyped : public ExtRemoteData
 {
 public:
     DEBUG_TYPED_DATA  m_Typed;

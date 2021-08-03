@@ -108,7 +108,7 @@ When sub-rectangles are transformed to the source surface space, the result is g
 <li>(Xd, Yd) is a point inside the sub-rectangle</li>
 <li>(Xs, Ys) is a point inside the source rectangle</li>
 </ul>
-<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right - SrcRect.left;
+<pre class="syntax"><code>float Ws = SrcRect.right - SrcRect.left;
 float Wd = DstRect.right - DstRect.left;
 int Xs = round((Xd - DstRect.left + 0.5) * Ws/Wd + SrcRect.left - 0.5)
 OR

@@ -61,7 +61,7 @@ Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardwar
 
 The function definition that is provided on this reference page is an example routine whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef BOOLEAN
+<pre class="syntax"><code>typedef BOOLEAN
   (USB_BUSIFFN *PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED) (
     IN PVOID
   );</code></pre>

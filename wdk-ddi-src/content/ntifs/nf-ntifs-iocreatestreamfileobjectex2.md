@@ -54,7 +54,7 @@ The <b>IoCreateStreamFileObjectEx2</b> routine creates a new stream file object 
 [in]
 Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create options for the new stream file object.  <b>IO_CREATE_STREAM_FILE_OPTIONS</b> is defined in <i>ntifs.h</i> as the following.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _IO_CREATE_STREAM_FILE_OPTIONS {
+<pre class="syntax"><code>typedef struct _IO_CREATE_STREAM_FILE_OPTIONS {
     USHORT Size;
     USHORT Flags;
     PDEVICE_OBJECT TargetDeviceObject;

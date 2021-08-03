@@ -87,7 +87,7 @@ A driver that calls <b>MapIoSpace</b> must set the <b>UmdfDirectHardwareAccess</
 
  For more information about  INF directives that UMDF drivers can use, see <a href="/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
 
-The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax" xml:space="preserve"><code>typedef LARGE_INTEGER PHYSICAL_ADDRESS;</code></pre>
+The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax"><code>typedef LARGE_INTEGER PHYSICAL_ADDRESS;</code></pre>
 
 
 

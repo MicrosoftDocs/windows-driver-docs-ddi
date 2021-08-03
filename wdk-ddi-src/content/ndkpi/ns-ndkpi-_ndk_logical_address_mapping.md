@@ -65,7 +65,7 @@ Reserved for the NDK provider's use. The NDK consumer must not modify this membe
 An array of adapter logical addresses. Each logical address in the array corresponds to a page, of <b>PAGE_SIZE</b> bytes in length, and must be <b>PAGE_SIZE</b>-aligned. The array of pages correspond to a virtually contiguous memory region.
 The <b>NDK_LOGICAL_ADDRESS</b> datatype is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef PHYSICAL_ADDRESS NDK_LOGICAL_ADDRESS;</code></pre>
+<pre class="syntax"><code>typedef PHYSICAL_ADDRESS NDK_LOGICAL_ADDRESS;</code></pre>
 
 ## -remarks
 

@@ -69,7 +69,7 @@ A pointer to a variable that receives the value for the property.
 
 The <b>GetNamedValue</b> method allocates memory for a string in the <a href="/windows/win32/api/propidlbase/ns-propidlbase-propvariant">PROPVARIANT</a> structure pointed to by the <i>pv</i> parameter.   The caller must then free this memory by calling the <a href="/windows/win32/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> function, as shown in the following snippet:
 
-<pre class="syntax" xml:space="preserve"><code>hr = pPropStore->GetNamedValue(L"Host", &val);
+<pre class="syntax"><code>hr = pPropStore->GetNamedValue(L"Host", &val);
 ...
 PropVariantClear(&val);</code></pre>
 If the caller does not free the memory, a memory leak may result.
