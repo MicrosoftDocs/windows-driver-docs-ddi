@@ -52,12 +52,10 @@ On the pre-operation:
 
 * If a driver can support BypassIO for the given device, it should forward the request down the stack.
 * If a driver cannot support BypassIO for the given device, it should:
-  * Update the [**BPIO_OUTPUT**](ns-ntddstor-bpio_output.md) structure, including the operation NTSTATUS describing why the enable request was vetoed, the driver's name, and a unique, descriptive string with additional details about why you vetoed the enable request.
+  * Update the [**BPIO_OUTPUT**](ns-ntddstor-bpio_output.md) structure, including the operation NTSTATUS describing why the enable request was vetoed, the driver's name, and a unique, descriptive string with additional details about why it vetoed the enable request.
   * Complete [**IOCTL_STORAGE_MANAGE_BYPASS_IO**](ni-ntddstor-ioctl_storage_manage_bypass_io.md) with STATUS_SUCCESS.
 
 During the post-operation, the driver can see if all drivers below it are capable of supporting BypassIO. If yes, the driver should preserve any needed state for the file and continue completion processing. It is the driver's responsibility to maintain state to properly handle requests that might not be compatible with the BypassIO-enabled state.
-
-During the post-operation processing if a driver determines they can no longer support BypassIO, they can call <TBD> to inform the stack below them that BypassIO is now disabled. The driver should set the appropriate information in [**BPIO_OUTPUT**](ns-ntddstor-bpio_output.md) as to why it can no longer be supported.
 
 The file system maintains a per-volume count of how many files have BypassIO currently enabled. The **BPIO_OP_ENABLE** operation is sent only when this count transitions from zero to one.
 
@@ -77,7 +75,7 @@ This operation should not be failed.
 
 Queries whether BypassIO can be enabled for the given volume or disk.
 
-A storage driver should process this request similar to a **BPIO_OP_ENABLE** operation, calling <TBD> to veto as appropriate, and filling in the same diagnostic information in the appropriate fields in the [**BPIO_OUTPUT**](ns-ntddstor-bpio_output.md) structure. The major difference is that the driver does not enter the BypassIO ENABLE state during a QUERY.
+A storage driver should process this request similar to a **BPIO_OP_ENABLE** operation, filling in the same diagnostic information in the appropriate fields in the [**BPIO_OUTPUT**](ns-ntddstor-bpio_output.md) structure. The major difference is that the driver does not enter the BypassIO ENABLE state during a QUERY.
 
 ## -remarks
 
