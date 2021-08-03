@@ -51,7 +51,7 @@ To obtain the <b>IWDFDevice3</b> interface, drivers call <b>IWDFDevice::QueryInt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice3</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>. <b>IWDFDevice3</b> also has these types of members:
+The <b>IWDFDevice3</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>. <b>IWDFDevice3</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

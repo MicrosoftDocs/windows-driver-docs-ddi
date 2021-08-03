@@ -49,7 +49,7 @@ Defines operations and properties that support the Enhanced Device Test (EDT) fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFEnhancedDeviceTestSupportAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFEnhancedDeviceTestSupportAction2</b> also has these types of members:
+The <b>IWDTFEnhancedDeviceTestSupportAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFEnhancedDeviceTestSupportAction2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 <li><a href="/">Properties</a></li>

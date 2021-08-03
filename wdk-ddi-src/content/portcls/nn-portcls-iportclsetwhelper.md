@@ -51,7 +51,7 @@ The miniport driver uses the information from the helper functions to report gli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsEtwHelper</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsEtwHelper</b> also has these types of members:
+The <b>IPortClsEtwHelper</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsEtwHelper</b> also has these types of members:
 
 ## -see-also
 

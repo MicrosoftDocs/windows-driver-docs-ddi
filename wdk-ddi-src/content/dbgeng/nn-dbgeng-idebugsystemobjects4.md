@@ -47,7 +47,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects4</b> interface inherits from <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>. <b>IDebugSystemObjects4</b> also has these types of members:
+The <b>IDebugSystemObjects4</b> interface inherits from <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>. <b>IDebugSystemObjects4</b> also has these types of members:
 
 
 ## -see-also

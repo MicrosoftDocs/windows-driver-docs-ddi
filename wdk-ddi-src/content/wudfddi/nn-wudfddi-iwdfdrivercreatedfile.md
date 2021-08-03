@@ -51,7 +51,7 @@ The <b>IWDFDriverCreatedFile</b> interface exposes a UMDF driver-created-file ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDriverCreatedFile</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>. <b>IWDFDriverCreatedFile</b> also has these types of members:
+The <b>IWDFDriverCreatedFile</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>. <b>IWDFDriverCreatedFile</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

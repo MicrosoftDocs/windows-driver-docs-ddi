@@ -50,6 +50,6 @@ method returns.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFActions2</b> interface inherits from <b>ITracing</b>. <b>IWDTFActions2</b> also has these types of members:
+The <b>IWDTFActions2</b> interface inherits from <b>ITracing</b>. <b>IWDTFActions2</b> also has these types of members:
 
 

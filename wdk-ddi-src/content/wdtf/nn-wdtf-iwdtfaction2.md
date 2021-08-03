@@ -50,5 +50,5 @@ Defines operations and properties that can control an instance of the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFAction2</b> interface inherits from <b>IAction</b>. <b>IWDTFAction2</b> also has these types of members:
+The <b>IWDTFAction2</b> interface inherits from <b>IAction</b>. <b>IWDTFAction2</b> also has these types of members:
 

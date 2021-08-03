@@ -49,5 +49,5 @@ This interface supports using index values for the current frame.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols5</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugSymbols5</b> also has these types of members:
+The <b>IDebugSymbols5</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugSymbols5</b> also has these types of members:
 

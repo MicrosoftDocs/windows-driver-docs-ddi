@@ -50,7 +50,7 @@ Holds a collection of <b>PROPERTYKEY</b> values. This interface can be retrieved
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceKeyCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceKeyCollection</b> also has these types of members:
+The <b>IPortableDeviceKeyCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceKeyCollection</b> also has these types of members:
 
 
 ## -see-also

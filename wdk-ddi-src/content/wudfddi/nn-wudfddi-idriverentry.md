@@ -51,7 +51,7 @@ The <b>IDriverEntry</b> interface exposes the user-mode driver's main entry and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDriverEntry</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDriverEntry</b> also has these types of members:
+The <b>IDriverEntry</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDriverEntry</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

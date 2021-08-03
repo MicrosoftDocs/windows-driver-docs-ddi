@@ -49,7 +49,7 @@ Defines operations and properties for the Plug and Play (PNP) device-related tes
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFPNPAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFPNPAction2</b> also has these types of members:
+The <b>IWDTFPNPAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFPNPAction2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

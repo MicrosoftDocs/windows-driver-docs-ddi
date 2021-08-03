@@ -51,5 +51,5 @@ An adapter driver forms a miniport/port driver pair by binding an <b>IMiniportWa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWavePci</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortWavePci</b> also has these types of members:
+The <b>IPortWavePci</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortWavePci</b> also has these types of members:
 

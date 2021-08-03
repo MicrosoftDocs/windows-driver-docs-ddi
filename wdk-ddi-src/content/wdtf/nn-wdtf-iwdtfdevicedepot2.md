@@ -49,6 +49,6 @@ Defines properties and operations for the collection of devices on a computer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface inherits from <b>ITracing</b>. <b>IWDTFDeviceDepot2</b> also has these types of members:
+The <b>IWDTFDeviceDepot2</b> interface inherits from <b>ITracing</b>. <b>IWDTFDeviceDepot2</b> also has these types of members:
 
 

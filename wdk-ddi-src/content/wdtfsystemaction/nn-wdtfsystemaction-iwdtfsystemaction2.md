@@ -49,7 +49,7 @@ Defines operations and properties that support driver testing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSystemAction2</b> also has these types of members:
+The <b>IWDTFSystemAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSystemAction2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 <li><a href="/">Properties</a></li>

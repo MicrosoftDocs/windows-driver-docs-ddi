@@ -49,7 +49,7 @@ Defines operations and properties for a collection of numbers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFNumbers2</b> interface inherits from <b>ITracing</b>. <b>IWDTFNumbers2</b> also has these types of members:
+The <b>IWDTFNumbers2</b> interface inherits from <b>ITracing</b>. <b>IWDTFNumbers2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 <li><a href="/">Properties</a></li>

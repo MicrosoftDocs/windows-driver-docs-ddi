@@ -51,5 +51,5 @@ For more information about the <code>IPreFetchOffset</code> interface, see <a hr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreFetchOffset</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreFetchOffset</b> also has these types of members:
+The <b>IPreFetchOffset</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreFetchOffset</b> also has these types of members:
 

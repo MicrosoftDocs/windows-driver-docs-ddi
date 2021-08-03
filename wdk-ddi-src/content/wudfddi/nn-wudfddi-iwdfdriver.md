@@ -51,7 +51,7 @@ The <b>IWDFDriver</b> interface exposes the framework driver object that represe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDriver</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFDriver</b> also has these types of members:
+The <b>IWDFDriver</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFDriver</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

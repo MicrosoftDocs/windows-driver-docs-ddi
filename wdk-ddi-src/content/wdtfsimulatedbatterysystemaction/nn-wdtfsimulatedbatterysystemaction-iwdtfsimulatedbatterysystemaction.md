@@ -49,7 +49,7 @@ IWDTFSimulatedBatterySystemAction Interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimulatedBatterySystemAction</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimulatedBatterySystemAction</b> also has these types of members:
+The <b>IWDTFSimulatedBatterySystemAction</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimulatedBatterySystemAction</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

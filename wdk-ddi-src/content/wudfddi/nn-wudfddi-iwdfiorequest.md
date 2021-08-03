@@ -51,7 +51,7 @@ The <b>IWDFIoRequest</b> interface exposes an I/O request object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFIoRequest</b> also has these types of members:
+The <b>IWDFIoRequest</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFIoRequest</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

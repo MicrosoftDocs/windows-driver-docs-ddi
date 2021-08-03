@@ -49,5 +49,5 @@ The <code>IMasterClock</code> interface provides Microsoft DirectMusic streams w
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMasterClock</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMasterClock</b> also has these types of members:
+The <b>IMasterClock</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMasterClock</b> also has these types of members:
 
