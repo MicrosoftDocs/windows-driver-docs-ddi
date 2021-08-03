@@ -71,17 +71,9 @@ The language used in CDMA message. This is an indicator of the language used in 
 A NULL-terminated string with a maximum length of 15 digits that represents a mobile number. The
      number can be in any of the following formats:
      
+* "+ \0"
+* "\0"
 
-<ul>
-<li>
-"+ <International Country Code> <Mobile Number>\0"
-
-</li>
-<li>
-"<Mobile Number>\0"
-
-</li>
-</ul>
 If 
      <b>MsgStatus</b> is 
      <i>WwanMsgStatusDraft</i> or 
