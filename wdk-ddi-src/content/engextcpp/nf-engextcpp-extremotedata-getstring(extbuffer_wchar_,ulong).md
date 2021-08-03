@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetString(ExtBuffer<WCHAR>,ULONG)
 title: ExtRemoteData::GetString(ExtBuffer<WCHAR>,ULONG) (engextcpp.h)
-description: The GetString(ExtBuffer<WCHAR>,ULONG) method reads a null-terminated string from the target's memory.
+description: The GetString(ExtBuffer\<WCHAR\>,ULONG) method reads a null-terminated string from the target's memory.
 old-location: debugger\extremotedata_getstring.htm
 tech.root: debugger
 ms.date: 05/03/2018
