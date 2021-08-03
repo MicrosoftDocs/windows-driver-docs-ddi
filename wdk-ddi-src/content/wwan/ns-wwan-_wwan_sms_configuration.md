@@ -64,16 +64,9 @@ A NULL-terminated string with a maximum length of 20 digits that represents the 
 
 The number can be in any of the following formats:
 
-<ul>
-<li>
-"+ <International Country Code> <SMS Service Center Number>\0"
+* "+ \0"
+* "\0"
 
-</li>
-<li>
-"<SMS Service Center Number>\0"
-
-</li>
-</ul>
 For set requests, the MB Service can set this member to <b>NULL</b>. In this case, a <b>NULL</b> indicates the
      miniport driver does not need to update the 
      <b>ScAddress</b> member and should not update this member thereafter.
