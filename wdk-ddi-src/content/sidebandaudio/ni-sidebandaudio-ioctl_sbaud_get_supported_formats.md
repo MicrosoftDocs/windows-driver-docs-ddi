@@ -61,11 +61,9 @@ Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supp
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length 
 
-<text></text>
 
 ### -status-block
 

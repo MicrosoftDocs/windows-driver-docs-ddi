@@ -61,11 +61,9 @@ Size of <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_s
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length 
 
-<text></text>
 
 ### -status-block
 

@@ -47,27 +47,21 @@ Reserved for system use.
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length 
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length 
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length 
 
-<text></text>
 
 ### -status-block
 
