@@ -66,7 +66,7 @@ The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operatio
 <p>A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. </p>
   <p>This routine is declared as follows: </p>
   <div class="code">
-    <span codelanguage="">
+    <span>
       <table>
         <tr>
           <th></th>
@@ -111,7 +111,7 @@ The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operatio
 <p>A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. </p>
   <p>This routine is declared as follows: </p>
   <div class="code">
-    <span codelanguage="">
+    <span>
       <table>
         <tr>
           <th></th>

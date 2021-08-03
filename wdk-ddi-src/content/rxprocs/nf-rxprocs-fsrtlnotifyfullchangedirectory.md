@@ -198,7 +198,7 @@ The <b>FsRtlNotifyFullChangeDirectory</b> routine creates a notify structure for
 
 <p>Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:</p>
   <div class="code">
-    <span codelanguage="">
+    <span>
       <table>
         <tr>
           <th></th>
