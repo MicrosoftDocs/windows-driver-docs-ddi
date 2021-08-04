@@ -70,6 +70,6 @@ See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
 
 [**FS_BPIO_OPERATIONS**](ne-ntifs-fs_bpio_operations.md)
 
-[**FS_BPIO_OUTPUT**](ne-ntifs-fs_bpio_output.md)
+[**FS_BPIO_OUTPUT**](ns-ntifs-fs_bpio_output.md)
 
 [**FSCTL_MANAGE_BYPASS_IO**](ni-ntifs-fsctl_manage_bypass_io.md)
