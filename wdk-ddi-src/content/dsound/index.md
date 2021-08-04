@@ -2,8 +2,7 @@
 description: "Learn more about: Dsound.h header"
 UID: NA:dsound
 title: Dsound.h header
-ms.assetid: c5888b7a-72ea-3041-861a-1a6b9212ce26
-ms.date: 05/09/2018
+ms.date: 08/03/2021
 keywords: ["Dsound.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -19,10 +18,8 @@ api_name:
 
 # Dsound.h header
 
-
 ## -description
 
 This header is used by stream. For more information, see:
 
 - [Streaming media devices](../_stream/index.md)
-
