@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLMEDIAVIDEOFLAGPARAMMASK
 title: RILCALLMEDIAVIDEOFLAGPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration for internal use only. Don't use the RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration in your code."
 old-location: netvista\rilcallmediavideoflagparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

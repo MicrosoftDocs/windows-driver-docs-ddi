@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILCALLLIST_V3
 title: RILCALLLIST_V3 (rilapitypes.h)
-description: "Microsoft reserves the RILCALLLIST_V3 structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILCALLLIST_V3 structure for internal use only."
 old-location: netvista\rilcalllist_v3.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLERIDSETTINGSPARAMMASK
 title: RILCALLERIDSETTINGSPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLERIDSETTINGSPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLERIDSETTINGSPARAMMASK enumeration for internal use only. Don't use the RILCALLERIDSETTINGSPARAMMASK enumeration in your code."
 old-location: netvista\rilcalleridsettingsparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

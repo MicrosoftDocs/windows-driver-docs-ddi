@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCLOSEUICCLOGICALCHANNELPARAMS
 title: RILCLOSEUICCLOGICALCHANNELPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCLOSEUICCLOGICALCHANNELPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILCLOSEUICCLOGICALCHANNELPARAMS structure in your code."
 old-location: netvista\rilcloseuicclogicalchannelparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

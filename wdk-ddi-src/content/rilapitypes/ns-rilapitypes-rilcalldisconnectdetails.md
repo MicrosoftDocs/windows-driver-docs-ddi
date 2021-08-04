@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILCALLDISCONNECTDETAILS
 title: RILCALLDISCONNECTDETAILS (rilapitypes.h)
-description: "Microsoft reserves the RILCALLDISCONNECTDETAILS structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILCALLDISCONNECTDETAILS structure for internal use only. "
 old-location: netvista\rilcalldisconnectdetails.htm
 tech.root: netvista
 ms.date: 05/02/2018

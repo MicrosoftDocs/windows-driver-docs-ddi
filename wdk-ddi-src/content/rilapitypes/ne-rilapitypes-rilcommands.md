@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILCOMMANDS
 title: RILCOMMANDS (rilapitypes.h)
-description: "Microsoft reserves the RILCOMMANDS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILCOMMANDS enumeration for internal use only."
 old-location: netvista\rilcommands.htm
 tech.root: netvista
 ms.date: 05/02/2018

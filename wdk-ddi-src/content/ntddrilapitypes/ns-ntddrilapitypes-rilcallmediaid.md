@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLMEDIAID
 title: RILCALLMEDIAID (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLMEDIAID structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILCALLMEDIAID structure for internal use only. Don't use the RILCALLMEDIAID structure in your code."
 old-location: netvista\rilcallmediaid.htm
 tech.root: netvista
 ms.date: 05/02/2018

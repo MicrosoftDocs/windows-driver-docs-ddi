@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILDCSLANG
 title: RILDCSLANG (ntddrilapitypes.h)
-description: "Microsoft reserves the RILDCSLANG enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILDCSLANG enumeration for internal use only. Don't use the RILDCSLANG enumeration in your code."
 old-location: netvista\rildcslang.htm
 tech.root: netvista
 ms.date: 05/02/2018

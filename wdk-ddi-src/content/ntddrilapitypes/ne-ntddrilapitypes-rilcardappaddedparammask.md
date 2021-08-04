@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCARDAPPADDEDPARAMMASK
 title: RILCARDAPPADDEDPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCARDAPPADDEDPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCARDAPPADDEDPARAMMASK enumeration for internal use only. Don't use the RILCARDAPPADDEDPARAMMASK enumeration in your code."
 old-location: netvista\rilcardappaddedparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

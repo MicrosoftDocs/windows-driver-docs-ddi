@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCBGWLCONFIGINFO
 title: RILCBGWLCONFIGINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCBGWLCONFIGINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILCBGWLCONFIGINFO structure for internal use only. Don't use the RILCBGWLCONFIGINFO structure in your code."
 old-location: netvista\rilcbgwlconfiginfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

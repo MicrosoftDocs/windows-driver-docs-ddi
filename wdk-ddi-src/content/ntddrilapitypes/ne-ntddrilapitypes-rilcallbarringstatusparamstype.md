@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLBARRINGSTATUSPARAMSTYPE
 title: RILCALLBARRINGSTATUSPARAMSTYPE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLBARRINGSTATUSPARAMSTYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLBARRINGSTATUSPARAMSTYPE enumeration for internal use only. Don't use the RILCALLBARRINGSTATUSPARAMSTYPE enumeration in your code."
 old-location: netvista\rilcallbarringstatusparamstype.htm
 tech.root: netvista
 ms.date: 05/02/2018

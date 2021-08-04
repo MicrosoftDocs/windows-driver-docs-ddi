@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILCDMAAVOIDANCEREQUESTYPE
 title: RILCDMAAVOIDANCEREQUESTYPE (rilapitypes.h)
-description: "Microsoft reserves the RILCDMAAVOIDANCEREQUESTYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILCDMAAVOIDANCEREQUESTYPE enumeration for internal use only."
 old-location: netvista\rilcdmaavoidancerequestype.htm
 tech.root: netvista
 ms.date: 05/02/2018

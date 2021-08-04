@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILACCESSTECHNOLOGY
 title: RILACCESSTECHNOLOGY (rilapitypes.h)
-description: "Microsoft reserves the RILACCESSTECHNOLOGY structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILACCESSTECHNOLOGY structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilaccesstechnology.htm
 tech.root: netvista
 ms.date: 05/02/2018

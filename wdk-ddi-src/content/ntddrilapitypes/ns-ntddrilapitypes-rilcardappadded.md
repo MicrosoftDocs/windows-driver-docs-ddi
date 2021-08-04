@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCARDAPPADDED
 title: RILCARDAPPADDED (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCARDAPPADDED structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILCARDAPPADDED structure for internal use only. Don't use the RILCARDAPPADDED structure in your code."
 old-location: netvista\rilcardappadded.htm
 tech.root: netvista
 ms.date: 05/02/2018

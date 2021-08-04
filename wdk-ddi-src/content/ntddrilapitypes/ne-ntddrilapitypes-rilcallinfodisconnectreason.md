@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLINFODISCONNECTREASON
 title: RILCALLINFODISCONNECTREASON (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLINFODISCONNECTREASON enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLINFODISCONNECTREASON enumeration for internal use only. Don't use the RILCALLINFODISCONNECTREASON enumeration in your code."
 old-location: netvista\rilcallinfodisconnectreason.htm
 tech.root: netvista
 ms.date: 05/02/2018
