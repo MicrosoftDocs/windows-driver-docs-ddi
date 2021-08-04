@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLMODIFICATIONCAUSECODE
 title: RILCALLMODIFICATIONCAUSECODE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLMODIFICATIONCAUSECODE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLMODIFICATIONCAUSECODE enumeration for internal use only. Don't use the RILCALLMODIFICATIONCAUSECODE enumeration in your code."
 old-location: netvista\rilcallmodificationcausecode.htm
 tech.root: netvista
 ms.date: 05/02/2018

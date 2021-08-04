@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLDISCONNECTDETAILSASCODE
 title: RILCALLDISCONNECTDETAILSASCODE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLDISCONNECTDETAILSASCODE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLDISCONNECTDETAILSASCODE enumeration for internal use only. Don't use the RILCALLDISCONNECTDETAILSASCODE enumeration in your code."
 old-location: netvista\rilcalldisconnectdetailsascode.htm
 tech.root: netvista
 ms.date: 05/02/2018

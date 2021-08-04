@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetExceptionFilterSecondCommand
 title: IDebugControl::GetExceptionFilterSecondCommand (dbgeng.h)
-description: Learn how the GetExceptionFilterSecondCommand method returns the command that's executed by the debugger engine upon the second chance of a specified exception.
+description: The GetExceptionFilterSecondCommand method returns the command that's executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommand.htm
 tech.root: debugger
 ms.date: 05/03/2018

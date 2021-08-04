@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLINFO_V5
 title: RILCALLINFO_V5 (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLINFO_V5 structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILCALLINFO_V5 structure for internal use only. Don't use the RILCALLINFO_V5 structure in your code."
 old-location: netvista\rilcallinfo_v5.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILDISPLAYINFOPARAMMASK
 title: RILDISPLAYINFOPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILDISPLAYINFOPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILDISPLAYINFOPARAMMASK enumeration for internal use only. Don't use the RILDISPLAYINFOPARAMMASK enumeration in your code."
 old-location: netvista\rildisplayinfoparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NC:srb.PHW_STARTIO
 title: PHW_STARTIO (srb.h)
-description: Learn how the PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
+description: The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
 old-location: storage\phw_startio.htm
 tech.root: storage
 ms.date: 03/29/2018

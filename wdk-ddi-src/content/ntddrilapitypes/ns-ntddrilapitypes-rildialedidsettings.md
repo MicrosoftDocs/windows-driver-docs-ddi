@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILDIALEDIDSETTINGS
 title: RILDIALEDIDSETTINGS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILDIALEDIDSETTINGS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILDIALEDIDSETTINGS structure in your code."
 old-location: netvista\rildialedidsettings.htm
 tech.root: netvista
 ms.date: 05/02/2018

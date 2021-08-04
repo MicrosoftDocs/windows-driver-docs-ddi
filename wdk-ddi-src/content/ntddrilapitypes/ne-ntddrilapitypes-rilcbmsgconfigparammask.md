@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCBMSGCONFIGPARAMMASK
 title: RILCBMSGCONFIGPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCBMSGCONFIGPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCBMSGCONFIGPARAMMASK enumeration for internal use only. Don't use the RILCBMSGCONFIGPARAMMASK enumeration in your code."
 old-location: netvista\rilcbmsgconfigparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RIL3GPP2TONE
 title: RIL3GPP2TONE (ntddrilapitypes.h)
-description: "Microsoft reserves the RIL3GPP2TONE enumeration for internal use only. Don't use this enumeration in your code."
+description: Don't use this enumeration in your code. Microsoft reserves the RIL3GPP2TONE enumeration for internal use only. 
 old-location: netvista\ril3gpp2tone.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLVIDEOMEDIASTATEPARAMMASK
 title: RILCALLVIDEOMEDIASTATEPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLVIDEOMEDIASTATEPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILCALLVIDEOMEDIASTATEPARAMMASK enumeration in your code."
 old-location: netvista\rilcallvideomediastateparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

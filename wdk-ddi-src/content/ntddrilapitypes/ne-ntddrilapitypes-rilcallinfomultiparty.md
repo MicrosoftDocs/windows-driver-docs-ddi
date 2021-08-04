@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLINFOMULTIPARTY
 title: RILCALLINFOMULTIPARTY (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLINFOMULTIPARTY enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLINFOMULTIPARTY enumeration for internal use only. Don't use the RILCALLINFOMULTIPARTY enumeration in your code."
 old-location: netvista\rilcallinfomultiparty.htm
 tech.root: netvista
 ms.date: 05/02/2018

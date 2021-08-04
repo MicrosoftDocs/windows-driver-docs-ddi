@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILDELETEMSGPARAMS
 title: RILDELETEMSGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILDELETEMSGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILDELETEMSGPARAMS structure in your code."
 old-location: netvista\rildeletemsgparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

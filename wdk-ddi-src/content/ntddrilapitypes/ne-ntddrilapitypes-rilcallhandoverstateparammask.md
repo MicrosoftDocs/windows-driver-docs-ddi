@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLHANDOVERSTATEPARAMMASK
 title: RILCALLHANDOVERSTATEPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLHANDOVERSTATEPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLHANDOVERSTATEPARAMMASK enumeration for internal use only. Don't use the RILCALLHANDOVERSTATEPARAMMASK enumeration in your code."
 old-location: netvista\rilcallhandoverstateparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

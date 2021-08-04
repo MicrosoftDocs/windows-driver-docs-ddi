@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCBMSGCONFIG
 title: RILCBMSGCONFIG (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCBMSGCONFIG structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILCBMSGCONFIG structure for internal use only. Don't use the RILCBMSGCONFIG structure in your code."
 old-location: netvista\rilcbmsgconfig.htm
 tech.root: netvista
 ms.date: 05/02/2018

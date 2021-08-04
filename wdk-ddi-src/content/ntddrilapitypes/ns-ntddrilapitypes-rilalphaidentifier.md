@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILALPHAIDENTIFIER
 title: RILALPHAIDENTIFIER (ntddrilapitypes.h)
-description: "Microsoft reserves the RILALPHAIDENTIFIER structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILALPHAIDENTIFIER structure for internal use only. Don't use the RILALPHAIDENTIFIER structure in your code."
 old-location: netvista\rilalphaidentifier.htm
 tech.root: netvista
 ms.date: 05/02/2018

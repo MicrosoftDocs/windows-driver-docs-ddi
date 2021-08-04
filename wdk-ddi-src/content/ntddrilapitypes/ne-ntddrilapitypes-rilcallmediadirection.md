@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLMEDIADIRECTION
 title: RILCALLMEDIADIRECTION (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLMEDIADIRECTION enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLMEDIADIRECTION enumeration for internal use only. Don't use the RILCALLMEDIADIRECTION enumeration in your code."
 old-location: netvista\rilcallmediadirection.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILADDCALLFORWARDINGPARAMS
 title: RILADDCALLFORWARDINGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILADDCALLFORWARDINGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILADDCALLFORWARDINGPARAMS structure for internal use only. Don't use the RILADDCALLFORWARDINGPARAMS structure in your code."
 old-location: netvista\riladdcallforwardingparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

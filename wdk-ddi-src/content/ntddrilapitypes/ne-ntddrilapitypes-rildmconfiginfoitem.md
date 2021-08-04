@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILDMCONFIGINFOITEM
 title: RILDMCONFIGINFOITEM (ntddrilapitypes.h)
-description: "Microsoft reserves the RILDMCONFIGINFOITEM enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILDMCONFIGINFOITEM enumeration for internal use only. Don't use the RILDMCONFIGINFOITEM enumeration in your code."
 old-location: netvista\rildmconfiginfoitem.htm
 tech.root: netvista
 ms.date: 05/02/2018

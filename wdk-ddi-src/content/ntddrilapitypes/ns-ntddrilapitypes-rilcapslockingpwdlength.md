@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCAPSLOCKINGPWDLENGTH
 title: RILCAPSLOCKINGPWDLENGTH (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCAPSLOCKINGPWDLENGTH structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILCAPSLOCKINGPWDLENGTH structure for internal use only. Don't use the RILCAPSLOCKINGPWDLENGTH structure in your code."
 old-location: netvista\rilcapslockingpwdlength.htm
 tech.root: netvista
 ms.date: 05/02/2018

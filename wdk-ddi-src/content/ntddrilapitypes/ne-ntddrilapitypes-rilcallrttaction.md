@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLRTTACTION
 title: RILCALLRTTACTION (ntddrilapitypes.h)
-description: "Microsoft reserves the RILCALLRTTACTION enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILCALLRTTACTION enumeration for internal use only. Don't use the RILCALLRTTACTION enumeration in your code."
 old-location: netvista\rilcallrttaction.htm
 tech.root: netvista
 ms.date: 05/02/2018

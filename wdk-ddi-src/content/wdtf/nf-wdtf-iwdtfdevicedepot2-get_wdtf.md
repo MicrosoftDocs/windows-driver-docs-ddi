@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_WDTF
 title: IWDTFDeviceDepot2::get_WDTF (wdtf.h)
-description: Gets the main WDTF aggregation object.
+description: Learn how this property gets the main WDTF aggregation object.
 old-location: dtf\iwdtfdevicedepot2_wdtf.htm
 tech.root: dtf
 ms.date: 04/04/2018

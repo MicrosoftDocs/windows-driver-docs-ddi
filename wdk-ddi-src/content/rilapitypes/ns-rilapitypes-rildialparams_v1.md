@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILDIALPARAMS_V1
 title: RILDIALPARAMS_V1 (rilapitypes.h)
-description: "Microsoft reserves the RILDIALPARAMS_V1 structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILDIALPARAMS_V1 structure for internal use only. "
 old-location: netvista\rildialparams_v1.htm
 tech.root: netvista
 ms.date: 05/02/2018
