@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILMANAGECALLPARAMSCOMMAND
 title: RILMANAGECALLPARAMSCOMMAND (rilapitypes.h)
-description: "Microsoft reserves the RILMANAGECALLPARAMSCOMMAND enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILMANAGECALLPARAMSCOMMAND enumeration for internal use only."
 old-location: netvista\rilmanagecallparamscommand.htm
 tech.root: netvista
 ms.date: 05/02/2018

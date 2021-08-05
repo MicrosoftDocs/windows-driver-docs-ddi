@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMESSAGEFLAGS
 title: RILMESSAGEFLAGS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMESSAGEFLAGS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMESSAGEFLAGS enumeration for internal use only. Don't use the RILMESSAGEFLAGS enumeration in your code."
 old-location: netvista\rilmessageflags.htm
 tech.root: netvista
 ms.date: 05/02/2018

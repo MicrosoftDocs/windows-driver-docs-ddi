@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGACKSTATUS
 title: RILMSGACKSTATUS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGACKSTATUS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMSGACKSTATUS enumeration for internal use only. Don't use the RILMSGACKSTATUS enumeration in your code."
 old-location: netvista\rilmsgackstatus.htm
 tech.root: netvista
 ms.date: 05/02/2018

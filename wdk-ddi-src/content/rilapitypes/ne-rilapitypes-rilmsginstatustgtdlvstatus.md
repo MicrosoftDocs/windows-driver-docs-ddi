@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILMSGINSTATUSTGTDLVSTATUS
 title: RILMSGINSTATUSTGTDLVSTATUS (rilapitypes.h)
-description: "Microsoft reserves the RILMSGINSTATUSTGTDLVSTATUS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILMSGINSTATUSTGTDLVSTATUS enumeration for internal use only."
 old-location: netvista\rilmsginstatustgtdlvstatus.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGDCS
 title: RILMSGDCS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGDCS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILMSGDCS structure for internal use only. Don't use the RILMSGDCS structure in your code."
 old-location: netvista\rilmsgdcs.htm
 tech.root: netvista
 ms.date: 05/02/2018

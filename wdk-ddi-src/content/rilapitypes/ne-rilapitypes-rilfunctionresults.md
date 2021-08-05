@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILFUNCTIONRESULTS
 title: RILFUNCTIONRESULTS (rilapitypes.h)
-description: "Microsoft reserves the RILFUNCTIONRESULTS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILFUNCTIONRESULTS enumeration for internal use only."
 old-location: netvista\rilfunctionresults.htm
 tech.root: netvista
 ms.date: 05/02/2018

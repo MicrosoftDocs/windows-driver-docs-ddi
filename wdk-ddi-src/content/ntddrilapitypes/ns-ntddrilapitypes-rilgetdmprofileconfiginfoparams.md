@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILGETDMPROFILECONFIGINFOPARAMS
 title: RILGETDMPROFILECONFIGINFOPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILGETDMPROFILECONFIGINFOPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILGETDMPROFILECONFIGINFOPARAMS structure in your code."
 old-location: netvista\rilgetdmprofileconfiginfoparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

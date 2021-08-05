@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILMSGIS637INSTATUS
 title: RILMSGIS637INSTATUS (rilapitypes.h)
-description: "Microsoft reserves the RILMSGIS637INSTATUS structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILMSGIS637INSTATUS structure for internal use only."
 old-location: netvista\rilmsgis637instatus.htm
 tech.root: netvista
 ms.date: 05/02/2018

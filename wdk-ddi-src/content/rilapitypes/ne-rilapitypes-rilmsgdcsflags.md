@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILMSGDCSFLAGS
 title: RILMSGDCSFLAGS (rilapitypes.h)
-description: "Microsoft reserves the RILMSGDCSFLAGS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILMSGDCSFLAGS enumeration for internal use only."
 old-location: netvista\rilmsgdcsflags.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGDCSINDICATION
 title: RILMSGDCSINDICATION (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGDCSINDICATION enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMSGDCSINDICATION enumeration for internal use only. Don't use the RILMSGDCSINDICATION enumeration in your code."
 old-location: netvista\rilmsgdcsindication.htm
 tech.root: netvista
 ms.date: 05/02/2018

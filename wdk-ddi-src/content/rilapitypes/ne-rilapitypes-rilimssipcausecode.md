@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILIMSSIPCAUSECODE
 title: RILIMSSIPCAUSECODE (rilapitypes.h)
-description: "Microsoft reserves the RILIMSSIPCAUSECODE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILIMSSIPCAUSECODE enumeration for internal use only. "
 old-location: netvista\rilimssipcausecode.htm
 tech.root: netvista
 ms.date: 05/02/2018
