@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILEMERGENCYNUMBERCATEGORY
 title: RILEMERGENCYNUMBERCATEGORY (ntddrilapitypes.h)
-description: "Microsoft reserves the RILEMERGENCYNUMBERCATEGORY enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILEMERGENCYNUMBERCATEGORY enumeration in your code."
 old-location: netvista\rilemergencynumbercategory.htm
 tech.root: netvista
 ms.date: 05/02/2018

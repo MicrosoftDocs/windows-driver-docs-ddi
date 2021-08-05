@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMALANGUAGE
 title: RILMSGCDMALANGUAGE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGCDMALANGUAGE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMSGCDMALANGUAGE enumeration for internal use only. Don't use the RILMSGCDMALANGUAGE enumeration in your code."
 old-location: netvista\rilmsgcdmalanguage.htm
 tech.root: netvista
 ms.date: 05/02/2018

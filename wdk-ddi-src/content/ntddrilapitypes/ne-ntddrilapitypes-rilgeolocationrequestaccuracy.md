@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILGEOLOCATIONREQUESTACCURACY
 title: RILGEOLOCATIONREQUESTACCURACY (ntddrilapitypes.h)
-description: "Microsoft reserves the RILGEOLOCATIONREQUESTACCURACY enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILGEOLOCATIONREQUESTACCURACY enumeration for internal use only. Don't use the RILGEOLOCATIONREQUESTACCURACY enumeration in your code."
 old-location: netvista\rilgeolocationrequestaccuracy.htm
 tech.root: netvista
 ms.date: 05/02/2018

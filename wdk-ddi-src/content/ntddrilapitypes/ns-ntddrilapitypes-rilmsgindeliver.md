@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGINDELIVER
 title: RILMSGINDELIVER (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGINDELIVER structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILMSGINDELIVER structure for internal use only. Don't use the RILMSGINDELIVER structure in your code."
 old-location: netvista\rilmsgindeliver.htm
 tech.root: netvista
 ms.date: 05/02/2018

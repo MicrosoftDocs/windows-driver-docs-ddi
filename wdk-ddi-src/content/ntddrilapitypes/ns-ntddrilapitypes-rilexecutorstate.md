@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILEXECUTORSTATE
 title: RILEXECUTORSTATE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILEXECUTORSTATE structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILEXECUTORSTATE structure for internal use only. Don't use the RILEXECUTORSTATE structure in your code."
 old-location: netvista\rilexecutorstate.htm
 tech.root: netvista
 ms.date: 05/02/2018

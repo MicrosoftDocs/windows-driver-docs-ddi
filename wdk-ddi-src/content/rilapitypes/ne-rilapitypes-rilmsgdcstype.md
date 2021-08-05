@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILMSGDCSTYPE
 title: RILMSGDCSTYPE (rilapitypes.h)
-description: "Microsoft reserves the RILMSGDCSTYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILMSGDCSTYPE enumeration for internal use only."
 old-location: netvista\rilmsgdcstype.htm
 tech.root: netvista
 ms.date: 05/02/2018

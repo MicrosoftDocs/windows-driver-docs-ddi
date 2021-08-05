@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGMWIPRIORITY
 title: RILMSGMWIPRIORITY (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGMWIPRIORITY enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMSGMWIPRIORITY enumeration for internal use only. Don't use the RILMSGMWIPRIORITY enumeration in your code."
 old-location: netvista\rilmsgmwipriority.htm
 tech.root: netvista
 ms.date: 05/02/2018

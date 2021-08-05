@@ -1,14 +1,14 @@
 ---
 UID: NS:rilapitypes.RILMANAGECALLSPARAMS_V1
 title: RILMANAGECALLSPARAMS_V1 (rilapitypes.h)
-description: "Microsoft reserves the RILMANAGECALLSPARAMS_V1 structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILMANAGECALLSPARAMS_V1 structure for internal use only. "
 old-location: netvista\rilmanagecallsparams_v1.htm
 tech.root: netvista
 ms.date: 05/02/2018
 keywords: ["RILMANAGECALLSPARAMS_V1 structure"]
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v1, ntddrilapitypes/RILMANAGECALLSPARAMS_V1"
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

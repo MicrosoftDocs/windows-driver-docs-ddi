@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILMANAGECALLSPARAMS_V1
 title: RILMANAGECALLSPARAMS_V1 (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMANAGECALLSPARAMS_V1 structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILMANAGECALLSPARAMS_V1 structure for internal use only. Don't use the RILMANAGECALLSPARAMS_V1 structure in your code."
 old-location: netvista\rilmanagecallsparams_v1.htm
 tech.root: netvista
 ms.date: 05/02/2018

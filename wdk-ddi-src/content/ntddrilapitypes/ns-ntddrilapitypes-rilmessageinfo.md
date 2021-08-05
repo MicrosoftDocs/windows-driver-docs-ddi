@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILMESSAGEINFO
 title: RILMESSAGEINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMESSAGEINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILMESSAGEINFO structure for internal use only. Don't use the RILMESSAGEINFO structure in your code."
 old-location: netvista\rilmessageinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

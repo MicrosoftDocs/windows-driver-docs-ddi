@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGDCSFLAGS
 title: RILMSGDCSFLAGS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGDCSFLAGS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMSGDCSFLAGS enumeration for internal use only. Don't use the RILMSGDCSFLAGS enumeration in your code."
 old-location: netvista\rilmsgdcsflags.htm
 tech.root: netvista
 ms.date: 05/02/2018
