@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILGEOLOCATIONREQUESTINFO
 title: RILGEOLOCATIONREQUESTINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILGEOLOCATIONREQUESTINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILGEOLOCATIONREQUESTINFO structure in your code."
 old-location: netvista\rilgeolocationrequestinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

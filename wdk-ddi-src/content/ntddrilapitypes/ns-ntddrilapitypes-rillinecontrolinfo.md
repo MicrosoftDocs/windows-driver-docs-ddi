@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILLINECONTROLINFO
 title: RILLINECONTROLINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILLINECONTROLINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILLINECONTROLINFO structure for internal use only. Don't use the RILLINECONTROLINFO structure in your code."
 old-location: netvista\rillinecontrolinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

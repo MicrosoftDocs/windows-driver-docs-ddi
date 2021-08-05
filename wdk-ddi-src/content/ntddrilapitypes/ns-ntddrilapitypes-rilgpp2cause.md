@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILGPP2CAUSE
 title: RILGPP2CAUSE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILGPP2CAUSE structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILGPP2CAUSE structure for internal use only. Don't use the RILGPP2CAUSE structure in your code."
 old-location: netvista\rilgpp2cause.htm
 tech.root: netvista
 ms.date: 05/02/2018

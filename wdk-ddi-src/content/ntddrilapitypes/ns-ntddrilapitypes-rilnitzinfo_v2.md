@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILNITZINFO_V2
 title: RILNITZINFO_V2 (ntddrilapitypes.h)
-description: "Microsoft reserves the RILNITZINFO_V2 structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILNITZINFO_V2 structure for internal use only. Don't use the RILNITZINFO_V2 structure in your code."
 old-location: netvista\rilnitzinfo_v2.htm
 tech.root: netvista
 ms.date: 05/02/2018

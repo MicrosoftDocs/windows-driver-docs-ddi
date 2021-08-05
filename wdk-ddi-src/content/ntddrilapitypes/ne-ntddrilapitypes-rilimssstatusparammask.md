@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSSTATUSPARAMMASK
 title: RILIMSSSTATUSPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILIMSSSTATUSPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILIMSSSTATUSPARAMMASK enumeration in your code."
 old-location: netvista\rilimssstatusparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

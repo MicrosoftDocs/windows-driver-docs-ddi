@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILMSGINSTATUS
 title: RILMSGINSTATUS (rilapitypes.h)
-description: "Microsoft reserves the RILMSGINSTATUS structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILMSGINSTATUS structure for internal use only."
 old-location: netvista\rilmsginstatus.htm
 tech.root: netvista
 ms.date: 05/02/2018

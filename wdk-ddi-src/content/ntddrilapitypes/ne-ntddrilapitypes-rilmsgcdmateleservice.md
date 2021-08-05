@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMATELESERVICE
 title: RILMSGCDMATELESERVICE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGCDMATELESERVICE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMSGCDMATELESERVICE enumeration for internal use only. Don't use the RILMSGCDMATELESERVICE enumeration in your code."
 old-location: netvista\rilmsgcdmateleservice.htm
 tech.root: netvista
 ms.date: 05/02/2018

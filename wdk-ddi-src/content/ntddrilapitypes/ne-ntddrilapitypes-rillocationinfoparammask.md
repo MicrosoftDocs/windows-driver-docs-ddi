@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILLOCATIONINFOPARAMMASK
 title: RILLOCATIONINFOPARAMMASK (ntddrilapitypes.h)
-description: "Microsoft reserves the RILLOCATIONINFOPARAMMASK enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILLOCATIONINFOPARAMMASK enumeration for internal use only. Don't use the RILLOCATIONINFOPARAMMASK enumeration in your code."
 old-location: netvista\rillocationinfoparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

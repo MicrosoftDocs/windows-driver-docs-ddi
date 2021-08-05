@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILEMERGENCYNUMBERSLIST
 title: RILEMERGENCYNUMBERSLIST (ntddrilapitypes.h)
-description: "Microsoft reserves the RILEMERGENCYNUMBERSLIST structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILEMERGENCYNUMBERSLIST structure for internal use only. Don't use the RILEMERGENCYNUMBERSLIST structure in your code."
 old-location: netvista\rilemergencynumberslist.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMODEMRESETSTATE
 title: RILMODEMRESETSTATE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMODEMRESETSTATE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILMODEMRESETSTATE enumeration for internal use only. Don't use the RILMODEMRESETSTATE enumeration in your code."
 old-location: netvista\rilmodemresetstate.htm
 tech.root: netvista
 ms.date: 05/02/2018

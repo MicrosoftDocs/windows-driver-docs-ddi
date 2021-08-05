@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMABROADCASTSERVICEID
 title: RILMSGCDMABROADCASTSERVICEID (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGCDMABROADCASTSERVICEID enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILMSGCDMABROADCASTSERVICEID enumeration in your code."
 old-location: netvista\rilmsgcdmabroadcastserviceid.htm
 tech.root: netvista
 ms.date: 05/02/2018

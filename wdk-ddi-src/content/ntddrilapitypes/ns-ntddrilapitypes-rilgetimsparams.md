@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILGETIMSPARAMS
 title: RILGETIMSPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILGETIMSPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILGETIMSPARAMS structure for internal use only. Don't use the RILGETIMSPARAMS structure in your code."
 old-location: netvista\rilgetimsparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

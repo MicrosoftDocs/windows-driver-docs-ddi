@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMAMSGSTATUSTYPE
 title: RILMSGCDMAMSGSTATUSTYPE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILMSGCDMAMSGSTATUSTYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILMSGCDMAMSGSTATUSTYPE enumeration in your code."
 old-location: netvista\rilmsgcdmamsgstatustype.htm
 tech.root: netvista
 ms.date: 05/02/2018
