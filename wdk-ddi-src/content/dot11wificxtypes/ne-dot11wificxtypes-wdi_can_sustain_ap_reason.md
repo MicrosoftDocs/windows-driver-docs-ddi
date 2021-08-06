@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_CAN_SUSTAIN_AP_REASON
 tech.root: netvista
-title: WDI_CAN_SUSTAIN_AP_REASON
-ms.date: 04/30/2021
+title: WDI_CAN_SUSTAIN_AP_REASON (dot11wificxtypes.h)
+ms.date: 08/05/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_CAN_SUSTAIN_AP_REASON enum defines the reasons the port is ready to receive a OID_WDI_TASK_START_AP request.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,22 +37,24 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a [OID_WDI_TASK_START_AP](/windows-hardware/drivers/netcx/oid-wdi-task-start-ap) request.
 
 ## -enum-fields
 
-### -field WDI_CAN_SUSTAIN_AP_REASON_IHV_START
+### -field WDI_CAN_SUSTAIN_AP_REASON_IHV_START:0xFF000000
 
-Reserved.
+The start value of possible IHV-specified reasons.
 
-### -field WDI_CAN_SUSTAIN_AP_REASON_IHV_END
+### -field WDI_CAN_SUSTAIN_AP_REASON_IHV_END:0xFFFFFFFF
 
-Reserved.
+The end value of possible IHV-specified reasons.
 
 ## -remarks
 
+The **WDI_CAN_SUSTAIN_AP_REASON** enumeration is a value in the [**WDI\_TLV\_INDICATION\_CAN\_SUSTAIN\_AP**](/windows-hardware/drivers/netcx/wdi-tlv-indication-can-sustain-ap) TLV.
+
 ## -see-also
 
+[OID_WDI_TASK_START_AP](/windows-hardware/drivers/netcx/oid-wdi-task-start-ap)
+
+[**WDI\_TLV\_INDICATION\_CAN\_SUSTAIN\_AP**](/windows-hardware/drivers/netcx/wdi-tlv-indication-can-sustain-ap)

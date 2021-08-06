@@ -41,11 +41,11 @@ The **WDI_CONNECTION_QUALITY_HINT** enumeration defines the Wi-Fi connection qua
 
 ## -enum-fields
 
-### -field WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE
+### -field WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE:1
 
 This hint indicates that the host has no specific preference for the usage of this port. The port should use power saving mechanisms when possible, as well as when other ports require a larger share of bandwidth/radio time. It can be enabled simultaneously on more than one port. This is the default Connection Quality setting for a port.
 
-### -field WDI_CONNECTION_QUALITY_LOW_LATENCY
+### -field WDI_CONNECTION_QUALITY_LOW_LATENCY:2
 
 This hint indicates that the host wants to use this port for low latency operations. The adapter should provide service to this port at a regular interval.
 
@@ -57,7 +57,7 @@ When in this mode, the port can (optionally) use power saving as long as it can 
 
 When a port is in this mode, during roaming the adapter should optimize the AP selection (for example, using different link quality thresholds to not scan or roam too often), the association process (for example, by using cached TSF for synchronization), and security exchange (for example, being more aggressive about using PMKIDs).
 
-### -field WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT
+### -field WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT:3
 
 This hint indicates that the host is performing an operation on the port which is not tolerant to packet loss. The adapter should not power save and should remain on the given port’s operational channel for as long as possible without losing link connectivity on other ports, until this connection quality hint is unset.
 
@@ -65,7 +65,7 @@ This may be set due to L2 protocol (EAP/4-way handshake exchanges/etc), L3 proto
 
 This can only be set on one port.
 
-### -field WDI_CONNECTION_QUALITY_NO_POWER_SAVE
+### -field WDI_CONNECTION_QUALITY_NO_POWER_SAVE:4
 
 This hint indicates that the host does not want the adapter to perform any power saving. There are not specific requirements for data path performance.
 

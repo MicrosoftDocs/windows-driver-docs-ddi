@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_P2P_CHANNEL_INDICATE_REASON
 tech.root: netvista
-title: WDI_P2P_CHANNEL_INDICATE_REASON
-ms.date: 04/30/2021
+title: WDI_P2P_CHANNEL_INDICATE_REASON (dot11wificxtypes.h)
+ms.date: 08/04/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_P2P_CHANNEL_INDICATE_REASON enum defines Wi-Fi Direct channel indication reason values.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,34 +37,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_P2P_CHANNEL_INDICATE_REASON** enumeration defines Wi-Fi Direct channel indication reason values.
 
 ## -enum-fields
 
 ### -field WDI_P2P_CHANNEL_INDICATE_REASON_UNKNOWN
 
-Reserved.
+### -field WDI_P2P_CHANNEL_INDICATE_REASON_NEW_CONNECTION:0x0001
 
-### -field WDI_P2P_CHANNEL_INDICATE_REASON_NEW_CONNECTION
+New connection set up.
 
-Reserved.
+### -field WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_REQUESTED:0x0002
 
-### -field WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_REQUESTED
+eCSA request from the peer.
 
-Reserved.
+### -field WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_GO_INITIATED:0x0003
 
-### -field WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_GO_INITIATED
-
-Reserved.
+eCSA initiated by GO.
 
 ### -field WDI_P2P_CHANNEL_INDICATE_REASON_MAX
 
-Reserved.
-
 ## -remarks
+
+The **WDI_P2P_CHANNEL_INDICATE_REASON** enum is a value in the [**WDI_TLV_P2P_CHANNEL_INDICATE_REASON**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-channel-indicate-reason) TLV.
 
 ## -see-also
 
+[**WDI_TLV_P2P_CHANNEL_INDICATE_REASON**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-channel-indicate-reason)

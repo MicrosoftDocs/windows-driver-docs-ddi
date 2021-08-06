@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_STOP_AP_REASON
 tech.root: netvista
-title: WDI_STOP_AP_REASON
-ms.date: 04/30/2021
+title: WDI_STOP_AP_REASON (dot11wificxtypes.h)
+ms.date: 08/05/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_STOP_AP_REASON enum defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,34 +37,34 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 
 ## -enum-fields
 
-### -field WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
+### -field WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE:0x0001
 
-Reserved.
+The adapter determined that no valid operating frequency is available.
 
-### -field WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
+### -field WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE:0x0002
 
-Reserved.
+The adapter determined that no operating channel is available.
 
-### -field WDI_STOP_AP_REASON_AP_ACTIVE
+### -field WDI_STOP_AP_REASON_AP_ACTIVE:0x0003
 
-Reserved.
+The adapter determined that an AP is already active on another 802.11 MAC entity for this physical wireless LAN adapter.
 
-### -field WDI_STOP_AP_REASON_IHV_START
+### -field WDI_STOP_AP_REASON_IHV_START:0xFF000000
 
-Reserved.
+The start value of possible IHV-specified reasons.
 
-### -field WDI_STOP_AP_REASON_IHV_END
+### -field WDI_STOP_AP_REASON_IHV_END:0xFFFFFFFF
 
-Reserved.
+The end value of possible IHV-specified reasons.
 
 ## -remarks
 
+The **WDI_STOP_AP_REASON** enumeration is a value in the [**WDI_TLV_INDICATION_STOP_AP**](/windows-hardware/drivers/netcx/wdi-tlv-indication-stop-ap) TLV.
+
 ## -see-also
 
+[**WDI_TLV_INDICATION_STOP_AP**](/windows-hardware/drivers/netcx/wdi-tlv-indication-stop-ap)
