@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILUICCCMDPARAMETERS
 title: RILUICCCMDPARAMETERS (rilapitypes.h)
-description: "Microsoft reserves the RILUICCCMDPARAMETERS structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILUICCCMDPARAMETERS structure for internal use only."
 old-location: netvista\riluicccmdparameters.htm
 tech.root: netvista
 ms.date: 05/02/2018

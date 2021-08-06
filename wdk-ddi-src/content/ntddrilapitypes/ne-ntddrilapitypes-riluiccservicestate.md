@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCSERVICESTATE
 title: RILUICCSERVICESTATE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILUICCSERVICESTATE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILUICCSERVICESTATE enumeration in your code."
 old-location: netvista\riluiccservicestate.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCTOOLKITCMD
 title: RILUICCTOOLKITCMD (ntddrilapitypes.h)
-description: "Microsoft reserves the RILUICCTOOLKITCMD structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILUICCTOOLKITCMD structure in your code."
 old-location: netvista\riluicctoolkitcmd.htm
 tech.root: netvista
 ms.date: 05/02/2018

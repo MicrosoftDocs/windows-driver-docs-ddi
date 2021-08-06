@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCSERVICESERVICE
 title: RILUICCSERVICESERVICE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILUICCSERVICESERVICE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILUICCSERVICESERVICE enumeration in your code."
 old-location: netvista\riluiccserviceservice.htm
 tech.root: netvista
 ms.date: 05/02/2018

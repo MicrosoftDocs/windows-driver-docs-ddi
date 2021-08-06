@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILWRITEADDITIONALNUMBERSTRINGPARAMS
 title: RILWRITEADDITIONALNUMBERSTRINGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILWRITEADDITIONALNUMBERSTRINGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILWRITEADDITIONALNUMBERSTRINGPARAMS structure for internal use only."
 old-location: netvista\rilwriteadditionalnumberstringparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

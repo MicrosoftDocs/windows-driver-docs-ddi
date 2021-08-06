@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCPRLID
 title: RILUICCPRLID (ntddrilapitypes.h)
-description: "Microsoft reserves the RILUICCPRLID enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILUICCPRLID enumeration for internal use only. Don't use the RILUICCPRLID enumeration in your code."
 old-location: netvista\riluiccprlid.htm
 tech.root: netvista
 ms.date: 05/02/2018

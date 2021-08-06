@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._ZONE_DESCRIPTIOR
 title: _ZONE_DESCRIPTIOR (scsi.h)
-description: "Microsoft reserves the ZONE_DESCRIPTIOR structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the ZONE_DESCRIPTIOR structure for internal use only."
 old-location: storage\zone_descriptior.htm
 tech.root: storage
 ms.date: 03/29/2018
