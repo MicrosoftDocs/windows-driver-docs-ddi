@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILRESETMODEMKIND
 title: RILRESETMODEMKIND (rilapitypes.h)
-description: "Microsoft reserves the RILRESETMODEMKIND enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILRESETMODEMKIND enumeration for internal use only."
 old-location: netvista\rilresetmodemkind.htm
 tech.root: netvista
 ms.date: 05/02/2018

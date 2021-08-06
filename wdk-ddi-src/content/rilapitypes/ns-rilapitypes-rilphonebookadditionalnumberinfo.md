@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILPHONEBOOKADDITIONALNUMBERINFO
 title: RILPHONEBOOKADDITIONALNUMBERINFO (rilapitypes.h)
-description: "Microsoft reserves the RILPHONEBOOKADDITIONALNUMBERINFO structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILPHONEBOOKADDITIONALNUMBERINFO structure for internal use only."
 old-location: netvista\rilphonebookadditionalnumberinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILPHONEBOOKEMAILADDRESS
 title: RILPHONEBOOKEMAILADDRESS (rilapitypes.h)
-description: "Microsoft reserves the RILPHONEBOOKEMAILADDRESS structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILPHONEBOOKEMAILADDRESS structure for internal use only."
 old-location: netvista\rilphonebookemailaddress.htm
 tech.root: netvista
 ms.date: 05/02/2018

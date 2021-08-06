@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETEXECUTORCONFIGPARAMS
 title: RILSETEXECUTORCONFIGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETEXECUTORCONFIGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETEXECUTORCONFIGPARAMS structure in your code."
 old-location: netvista\rilsetexecutorconfigparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

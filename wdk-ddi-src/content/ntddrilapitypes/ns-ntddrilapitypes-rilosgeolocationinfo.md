@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILOSGEOLOCATIONINFO
 title: RILOSGEOLOCATIONINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILOSGEOLOCATIONINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILOSGEOLOCATIONINFO structure in your code."
 old-location: netvista\rilosgeolocationinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

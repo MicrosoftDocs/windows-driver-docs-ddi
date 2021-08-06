@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILREADPHONEBOOKENTRIESPARAMS
 title: RILREADPHONEBOOKENTRIESPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILREADPHONEBOOKENTRIESPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILREADPHONEBOOKENTRIESPARAMS structure in your code."
 old-location: netvista\rilreadphonebookentriesparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSUBADDRESS
 title: RILSUBADDRESS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSUBADDRESS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILSUBADDRESS structure for internal use only. Don't use the RILSUBADDRESS structure in your code."
 old-location: netvista\rilsubaddress.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILSUPSVCTYPE
 title: RILSUPSVCTYPE (rilapitypes.h)
-description: "Microsoft reserves the RILSUPSVCTYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILSUPSVCTYPE enumeration for internal use only."
 old-location: netvista\rilsupsvctype.htm
 tech.root: netvista
 ms.date: 05/02/2018

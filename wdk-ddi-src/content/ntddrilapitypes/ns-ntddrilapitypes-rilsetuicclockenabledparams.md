@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETUICCLOCKENABLEDPARAMS
 title: RILSETUICCLOCKENABLEDPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETUICCLOCKENABLEDPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETUICCLOCKENABLEDPARAMS structure in your code."
 old-location: netvista\rilsetuicclockenabledparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

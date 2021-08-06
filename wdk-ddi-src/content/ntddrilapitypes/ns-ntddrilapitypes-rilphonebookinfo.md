@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILPHONEBOOKINFO
 title: RILPHONEBOOKINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILPHONEBOOKINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILPHONEBOOKINFO structure for internal use only. Don't use the RILPHONEBOOKINFO structure in your code."
 old-location: netvista\rilphonebookinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

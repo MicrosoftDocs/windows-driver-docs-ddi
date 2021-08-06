@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILSETSYSTEMSELECTIONPREFSFLAG
 title: RILSETSYSTEMSELECTIONPREFSFLAG (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETSYSTEMSELECTIONPREFSFLAG enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILSETSYSTEMSELECTIONPREFSFLAG enumeration in your code."
 old-location: netvista\rilsetsystemselectionprefsflag.htm
 tech.root: netvista
 ms.date: 05/02/2018

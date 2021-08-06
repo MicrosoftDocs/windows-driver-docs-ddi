@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETCALLFORWARDINGSTATUSPARAMS
 title: RILSETCALLFORWARDINGSTATUSPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETCALLFORWARDINGSTATUSPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETCALLFORWARDINGSTATUSPARAMS structure in your code."
 old-location: netvista\rilsetcallforwardingstatusparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

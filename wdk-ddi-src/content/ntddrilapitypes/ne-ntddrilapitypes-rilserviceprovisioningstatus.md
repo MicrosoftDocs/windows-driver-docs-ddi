@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILSERVICEPROVISIONINGSTATUS
 title: RILSERVICEPROVISIONINGSTATUS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSERVICEPROVISIONINGSTATUS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILSERVICEPROVISIONINGSTATUS enumeration in your code."
 old-location: netvista\rilserviceprovisioningstatus.htm
 tech.root: netvista
 ms.date: 05/02/2018
