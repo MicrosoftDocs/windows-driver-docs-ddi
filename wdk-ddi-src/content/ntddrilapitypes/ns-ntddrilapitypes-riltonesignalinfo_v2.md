@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILTONESIGNALINFO_V2
 title: RILTONESIGNALINFO_V2 (ntddrilapitypes.h)
-description: "Microsoft reserves the RILTONESIGNALINFO_V2 structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILTONESIGNALINFO_V2 structure for internal use only. Don't use the RILTONESIGNALINFO_V2 structure in your code."
 old-location: netvista\riltonesignalinfo_v2.htm
 tech.root: netvista
 ms.date: 05/02/2018
