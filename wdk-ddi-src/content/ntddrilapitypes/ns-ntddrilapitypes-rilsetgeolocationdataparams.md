@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETGEOLOCATIONDATAPARAMS
 title: RILSETGEOLOCATIONDATAPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETGEOLOCATIONDATAPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETGEOLOCATIONDATAPARAMS structure in your code."
 old-location: netvista\rilsetgeolocationdataparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETCALLBARRINGSTATUSPARAMS
 title: RILSETCALLBARRINGSTATUSPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETCALLBARRINGSTATUSPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETCALLBARRINGSTATUSPARAMS structure in your code."
 old-location: netvista\rilsetcallbarringstatusparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

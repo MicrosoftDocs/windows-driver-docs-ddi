@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSENDFLASHPARAMS
 title: RILSENDFLASHPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSENDFLASHPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILSENDFLASHPARAMS structure for internal use only. Don't use the RILSENDFLASHPARAMS structure in your code."
 old-location: netvista\rilsendflashparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

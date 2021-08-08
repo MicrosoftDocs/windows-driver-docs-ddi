@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILPHONEBOOKLOCATION
 title: RILPHONEBOOKLOCATION (rilapitypes.h)
-description: "Microsoft reserves the RILPHONEBOOKLOCATION structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILPHONEBOOKLOCATION structure for internal use only."
 old-location: netvista\rilphonebooklocation.htm
 tech.root: netvista
 ms.date: 05/02/2018

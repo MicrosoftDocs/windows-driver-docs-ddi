@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILPARTICIPANTOPERATION
 title: RILPARTICIPANTOPERATION (rilapitypes.h)
-description: "Microsoft reserves the RILPARTICIPANTOPERATION enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILPARTICIPANTOPERATION enumeration for internal use only."
 old-location: netvista\rilparticipantoperation.htm
 tech.root: netvista
 ms.date: 05/02/2018

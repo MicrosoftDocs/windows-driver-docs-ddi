@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILRADIOSTATEPASSWORD
 title: RILRADIOSTATEPASSWORD (rilapitypes.h)
-description: "Microsoft reserves the RILRADIOSTATEPASSWORD structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILRADIOSTATEPASSWORD structure for internal use only."
 old-location: netvista\rilradiostatepassword.htm
 tech.root: netvista
 ms.date: 05/02/2018

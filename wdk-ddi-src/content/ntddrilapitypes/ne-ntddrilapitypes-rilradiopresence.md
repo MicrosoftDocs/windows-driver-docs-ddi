@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILRADIOPRESENCE
 title: RILRADIOPRESENCE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILRADIOPRESENCE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILRADIOPRESENCE enumeration for internal use only. Don't use the RILRADIOPRESENCE enumeration in your code."
 old-location: netvista\rilradiopresence.htm
 tech.root: netvista
 ms.date: 05/02/2018

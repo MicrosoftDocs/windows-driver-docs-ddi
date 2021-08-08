@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILRADIOSTATEITEMATTRIBUTES
 title: RILRADIOSTATEITEMATTRIBUTES (rilapitypes.h)
-description: "Microsoft reserves the RILRADIOSTATEITEMATTRIBUTES enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILRADIOSTATEITEMATTRIBUTES enumeration for internal use only."
 old-location: netvista\rilradiostateitemattributes.htm
 tech.root: netvista
 ms.date: 05/02/2018

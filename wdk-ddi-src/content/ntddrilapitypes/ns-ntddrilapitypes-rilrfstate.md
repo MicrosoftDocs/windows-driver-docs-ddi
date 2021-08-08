@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILRFSTATE
 title: RILRFSTATE (ntddrilapitypes.h)
-description: "Microsoft reserves the RILRFSTATE structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILRFSTATE structure for internal use only. Don't use the RILRFSTATE structure in your code."
 old-location: netvista\rilrfstate.htm
 tech.root: netvista
 ms.date: 05/02/2018

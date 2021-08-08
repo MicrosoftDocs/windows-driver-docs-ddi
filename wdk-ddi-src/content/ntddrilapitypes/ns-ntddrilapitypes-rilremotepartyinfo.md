@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILREMOTEPARTYINFO
 title: RILREMOTEPARTYINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILREMOTEPARTYINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILREMOTEPARTYINFO structure for internal use only. Don't use the RILREMOTEPARTYINFO structure in your code."
 old-location: netvista\rilremotepartyinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

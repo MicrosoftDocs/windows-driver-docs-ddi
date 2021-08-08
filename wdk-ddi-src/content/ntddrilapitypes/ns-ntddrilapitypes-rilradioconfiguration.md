@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILRADIOCONFIGURATION
 title: RILRADIOCONFIGURATION (ntddrilapitypes.h)
-description: "Microsoft reserves the RILRADIOCONFIGURATION structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILRADIOCONFIGURATION structure for internal use only. Don't use the RILRADIOCONFIGURATION structure in your code."
 old-location: netvista\rilradioconfiguration.htm
 tech.root: netvista
 ms.date: 05/02/2018

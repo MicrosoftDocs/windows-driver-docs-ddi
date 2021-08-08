@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSENDMSGPARAMS
 title: RILSENDMSGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSENDMSGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILSENDMSGPARAMS structure for internal use only. Don't use the RILSENDMSGPARAMS structure in your code."
 old-location: netvista\rilsendmsgparams.htm
 tech.root: netvista
 ms.date: 05/02/2018
