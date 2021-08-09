@@ -68,7 +68,7 @@ The maximum number of drivers that can be simultaneously registered to receive l
 
 <ul>
 <li>An update for Windows 8.1 increases the maximum number of drivers registered to receive load-image notifications from eight to 64. This update is installed as part of a cumulative update that is available through Windows Update starting on April 8, 2014. In addition, this cumulative update is available at <a href="https://support.microsoft.com/help/2919355/windows-rt-8-1-windows-8-1-and-windows-server-2012-r2-update-april-201">https://support.microsoft.com/kb/2919355</a>.</li>
-<li>Users of Windows 7 with Service Pack 1 (SP1) can install a hotfix to increase the maximum number of drivers registered to receive load-image notifications from eight to 64. This hotfix is available at <a href="https://support.microsoft.com/help/2922790/some-software-products-function-incorrectly-in-windows">https://support.microsoft.com/kb/2922790</a>.</li>
+<li>Users of Windows 7 with Service Pack 1 (SP1) can install a hotfix to increase the maximum number of drivers registered to receive load-image notifications from 8 to 64. This hotfix is available at <a href="https://support.microsoft.com/help/2922790/some-software-products-function-incorrectly-in-windows">https://support.microsoft.com/kb/2922790</a>.</li>
 </ul>
 A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psremoveloadimagenotifyroutine">PsRemoveLoadImageNotifyRoutine</a> routine.
 
