@@ -62,7 +62,7 @@ Specifies a pointer to an array of <a href="/windows-hardware/drivers/ddi/1394/n
 
 ### -field pAddressRange
 
-Points to the handle that was previously received in <b>IRB.u.AllocateAddressRange.hAddressRange</b> in the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a> request.
+Points to the handle that was previously received in <b>IRB.u.AllocateAddressRange.hAddressRange</b> in the  <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a> request.
 
 ### -field DeviceExtension
 

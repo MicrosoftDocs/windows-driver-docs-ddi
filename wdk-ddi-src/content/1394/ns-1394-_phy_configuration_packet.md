@@ -93,5 +93,5 @@ For an explanation of the function of the PHY configuration packet, see the IEEE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537661">REQUEST_SEND_PHY_CONFIG_PACKET</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_SEND_PHY_CONFIG_PACKET</a>
 

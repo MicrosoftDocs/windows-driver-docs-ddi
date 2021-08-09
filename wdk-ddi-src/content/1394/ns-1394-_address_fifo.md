@@ -69,5 +69,5 @@ Specifies the MDL for the FIFO element described by this entry of the list.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
 

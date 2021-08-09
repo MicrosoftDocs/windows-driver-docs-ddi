@@ -57,7 +57,7 @@ The <b>BUS_RESET_DATA</b> structure specifies the context for the extended bus r
 
 ### -field ResetContext
 
-Pointer to a client driver-defined context when a bus reset occurs. The argument that is specified in the <b>u.BusResetNotification.ResetContext</b> parameter when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537638">REQUEST_BUS_RESET_NOTIFICATION</a> request is sent.
+Pointer to a client driver-defined context when a bus reset occurs. The argument that is specified in the <b>u.BusResetNotification.ResetContext</b> parameter when the <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_BUS_RESET_NOTIFICATION</a> request is sent.
 
 ### -field GenerationCount
 

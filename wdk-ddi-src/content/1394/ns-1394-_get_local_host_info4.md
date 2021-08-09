@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The GET_LOCAL_HOST_INFO4 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_PHYS_ADDR_ROUTINE.
+The GET_LOCAL_HOST_INFO4 structure contains the data returned by a <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_PHYS_ADDR_ROUTINE.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ PhysAddrMappingRoutine (
 );
 ```
 
-The physical mapping routine is invoked on an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
+The physical mapping routine is invoked on an <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
 
 ### -field Context
 
@@ -76,9 +76,9 @@ Specifies the argument that should be passed as the Context argument of the phys
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a>
 

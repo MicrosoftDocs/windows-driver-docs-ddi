@@ -85,5 +85,5 @@ All data will be in big-endian format.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
 

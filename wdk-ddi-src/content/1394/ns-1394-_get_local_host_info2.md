@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The GET_LOCAL_HOST_INFO2 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> GET_HOST_CAPABILITIES.
+The GET_LOCAL_HOST_INFO2 structure contains the data returned by a <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> GET_HOST_CAPABILITIES.
 
 ## -struct-fields
 
@@ -116,11 +116,11 @@ The bus driver fills in this member with the maximum size asynchronous write req
 
 ## -remarks
 
-Port drivers that return the HOST_INFO_PACKET_BASED flag support the IsochAllocateResources request's RESOURCE_USE_PACKET_BASED flag. Port drivers that return the HOST_STREAM_PACKET_BASED flag support stream-based I/O. If the host controller does not support stream-based I/O, the driver must use packet-based I/O, and set the RESOURCE_USE_PACKET_BASED flag when issuing the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>.
+Port drivers that return the HOST_INFO_PACKET_BASED flag support the IsochAllocateResources request's RESOURCE_USE_PACKET_BASED flag. Port drivers that return the HOST_STREAM_PACKET_BASED flag support stream-based I/O. If the host controller does not support stream-based I/O, the driver must use packet-based I/O, and set the RESOURCE_USE_PACKET_BASED flag when issuing the <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>.
 
-Some host controllers automatically strip the packet header off an isochronous packet. If a host controller does not automatically strip the header, the port driver returns the HOST_INFO_SUPPORTS_ISO_HDR flag. Some host controllers allow a driver to configure the host controller to strip off a given number of quadlets; for such controllers the port driver returns the HOST_INFO_SUPPORTS_ISOCH_STRIPPING flag. The driver should check this flag before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a> with the RESOURCE_STRIP_ADDITIONAL_QUADLETS flag.
+Some host controllers automatically strip the packet header off an isochronous packet. If a host controller does not automatically strip the header, the port driver returns the HOST_INFO_SUPPORTS_ISO_HDR flag. Some host controllers allow a driver to configure the host controller to strip off a given number of quadlets; for such controllers the port driver returns the HOST_INFO_SUPPORTS_ISOCH_STRIPPING flag. The driver should check this flag before calling <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ALLOCATE_RESOURCES</a> with the RESOURCE_STRIP_ADDITIONAL_QUADLETS flag.
 
-If a host controller supports synchronizing <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a> requests to the isochronous cycle time, the port driver returns the HOST_INFO_SUPPORTS_START_ON_CYCLE. Drivers should check this flag before attempting to issue an REQUEST_ISOCH_ALLOCATE_RESOURCES request using the RESOURCE_SYNCH_ON_TIME flag, or before attaching a buffer whose <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a> has the DESCRIPTOR_SYNCH_ON_TIME flag set.
+If a host controller supports synchronizing <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_LISTEN</a> and <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_TALK</a> requests to the isochronous cycle time, the port driver returns the HOST_INFO_SUPPORTS_START_ON_CYCLE. Drivers should check this flag before attempting to issue an REQUEST_ISOCH_ALLOCATE_RESOURCES request using the RESOURCE_SYNCH_ON_TIME flag, or before attaching a buffer whose <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a> has the DESCRIPTOR_SYNCH_ON_TIME flag set.
 
 ## -see-also
 
@@ -132,9 +132,9 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
