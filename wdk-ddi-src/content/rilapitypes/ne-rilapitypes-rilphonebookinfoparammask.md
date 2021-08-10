@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILPHONEBOOKINFOPARAMMASK
 title: RILPHONEBOOKINFOPARAMMASK (rilapitypes.h)
-description: "Don't use this enumeration in your code. Microsoft reserves the RILPHONEBOOKINFOPARAMMASK enumeration for internal use only."
+description: "Don't use the RILPHONEBOOKINFOPARAMMASK enumeration in your code. Microsoft reserves the RILPHONEBOOKINFOPARAMMASK enumeration for internal use only."
 old-location: netvista\rilphonebookinfoparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

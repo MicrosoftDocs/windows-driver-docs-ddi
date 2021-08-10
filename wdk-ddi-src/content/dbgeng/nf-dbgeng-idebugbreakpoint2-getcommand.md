@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetCommand
 title: IDebugBreakpoint2::GetCommand (dbgeng.h)
-description: Learn how the GetCommand method returns the command string that is executed when a breakpoint is triggered. This method belongs to the IDebugBreakpoint2 interface.
+description: Learn how the GetCommand method returns the command string that is executed when a breakpoint is triggered.
 old-location: debugger\getcommand.htm
 tech.root: debugger
 ms.date: 05/03/2018
