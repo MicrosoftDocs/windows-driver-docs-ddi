@@ -1,7 +1,7 @@
 ---
 UID: NE:wudfddi_types._WDF_DEVICE_HWACCESS_TARGET_SIZE
 title: _WDF_DEVICE_HWACCESS_TARGET_SIZE (wudfddi_types.h)
-description: This enumeration is used internally by the framework. Do not use.
+description: This enumeration is used internally by the framework. Do not use. This enumeration is defined in wudfddi_types.h.
 old-location: wdf\wdf_device_hwaccess_target_size.htm
 tech.root: wdf
 ms.date: 02/26/2018

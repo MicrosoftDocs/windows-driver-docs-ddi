@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get__NewEnum
 title: IWDTFLongNumbers2::get__NewEnum (wdtf.h)
-description: Learn how the get__NewEnum method gets a new iteration variable that the For Each loop structure implicitly uses.
+description: Learn how the get__NewEnum method of the IWDTFLongNumbers2 interface gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtflongnumbers2__newenum.htm
 tech.root: dtf
 ms.date: 04/04/2018

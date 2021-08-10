@@ -1,7 +1,7 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_HWACCESS_TARGET_TYPE
 title: _WDF_DEVICE_HWACCESS_TARGET_TYPE (wdfdevice.h)
-description: Learn how the WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use.
+description: Learn how the WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use. This enumeration is defined in wdfdevice.h.
 old-location: wdf\wdf_device_hwaccess_target_size.htm
 tech.root: wdf
 ms.date: 02/26/2018
