@@ -3,7 +3,7 @@ UID: NI:ntddk.IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
 title: IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
 description: "Learn more about: IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"
 tech.root: whea
-ms.date: 08/19/2019
+ms.date: 08/04/2021
 keywords: ["IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"]
 req.header: ntddk.h
 req.include-header: 
@@ -18,7 +18,6 @@ req.irql:
 req.ddi-compliance: 
 req.max-support: 
 targetos: Windows
-ms.custom: 19H1
 f1_keywords:
  - IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
  - ntddk/IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
@@ -36,8 +35,9 @@ product:
 
 # IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+## Major Code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -47,26 +47,22 @@ Reserved for system use.
 
 ### -input-buffer
 
-
-### -input-buffer-length 
-
+### -input-buffer-length
 
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
+
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
