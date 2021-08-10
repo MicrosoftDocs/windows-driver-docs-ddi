@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputDisassemblyLines
 title: IDebugControl3::OutputDisassemblyLines (dbgeng.h)
-description: The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
+description: Learn how this method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
 old-location: debugger\outputdisassemblylines.htm
 tech.root: debugger
 ms.date: 05/03/2018

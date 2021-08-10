@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILSYSTEMSELECTIONPREFSROAMINGMODE
 title: RILSYSTEMSELECTIONPREFSROAMINGMODE (ntddrilapitypes.h)
-description: "Don't use this enumeration in your code. Microsoft reserves the RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration for internal use only."
+description: Don't use the enumeration in your code. Microsoft reserves the RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration for internal use only.
 old-location: netvista\rilsystemselectionprefsroamingmode.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCSERVICEPARAMS
 title: RILUICCSERVICEPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves this structure for internal use only. Don't use the RILUICCSERVICEPARAMS structure in your code."
+description: Microsoft reserves this structure for internal use only. Don't use the RILUICCSERVICEPARAMS structure in your code.
 old-location: netvista\riluiccserviceparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

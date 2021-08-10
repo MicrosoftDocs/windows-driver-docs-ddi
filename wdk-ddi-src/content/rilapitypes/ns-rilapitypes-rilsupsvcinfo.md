@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILSUPSVCINFO
 title: RILSUPSVCINFO (rilapitypes.h)
-description: "Don't use this structure in your code. Microsoft reserves the RILSUPSVCINFO structure for internal use only."
+description: Don't use the structure in your code. Microsoft reserves the RILSUPSVCINFO structure for internal use only.
 old-location: netvista\rilsupsvcinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018
