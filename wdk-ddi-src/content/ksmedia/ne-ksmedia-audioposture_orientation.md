@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_127
+UID: NE:ksmedia.__unnamed_enum_128
 title:  AUDIOPOSTURE_ORIENTATION
 ms.date: 08/11/2021
 ms.topic: language-reference
