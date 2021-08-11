@@ -58,4 +58,4 @@ The panel is rotated 270 degrees counter-clockwise.
 
 ## -see-also
 
-[Supporting Audio Posture](https://docs.microsoft.com/windows-hardware/drivers/audio/supporting-audio-posture)
+[Supporting Audio Posture](/windows-hardware/drivers/audio/supporting-audio-posture)
