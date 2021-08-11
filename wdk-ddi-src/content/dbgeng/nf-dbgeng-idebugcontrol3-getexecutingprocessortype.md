@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExecutingProcessorType
 title: IDebugControl3::GetExecutingProcessorType (dbgeng.h)
-description: The GetExecutingProcessorType method returns the executing processor type for the processor for which the last event occurred.
+description: Learn how this method returns the executing processor type for the processor for which the last event occurred.
 old-location: debugger\getexecutingprocessortype.htm
 tech.root: debugger
 ms.date: 05/03/2018

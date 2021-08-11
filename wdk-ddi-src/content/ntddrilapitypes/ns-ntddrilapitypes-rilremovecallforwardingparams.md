@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILREMOVECALLFORWARDINGPARAMS
 title: RILREMOVECALLFORWARDINGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILREMOVECALLFORWARDINGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILREMOVECALLFORWARDINGPARAMS structure in your code."
 old-location: netvista\rilremovecallforwardingparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -51,8 +51,6 @@ The <b>WppRecorderLogGetDefault</b> method gets a handle to the default recorder
 
 ### -param WppCb
 
-TBD
-
 ## -returns
 
 An opaque handle to the default log.

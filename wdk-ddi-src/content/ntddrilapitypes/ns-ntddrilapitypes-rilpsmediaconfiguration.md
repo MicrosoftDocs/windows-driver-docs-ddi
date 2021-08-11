@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILPSMEDIACONFIGURATION
 title: RILPSMEDIACONFIGURATION (ntddrilapitypes.h)
-description: "Microsoft reserves the RILPSMEDIACONFIGURATION structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILPSMEDIACONFIGURATION structure for internal use only. Don't use the RILPSMEDIACONFIGURATION structure in your code."
 old-location: netvista\rilpsmediaconfiguration.htm
 tech.root: netvista
 ms.date: 05/02/2018

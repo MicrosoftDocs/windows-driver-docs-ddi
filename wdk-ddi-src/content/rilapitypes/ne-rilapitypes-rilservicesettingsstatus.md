@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILSERVICESETTINGSSTATUS
 title: RILSERVICESETTINGSSTATUS (rilapitypes.h)
-description: "Microsoft reserves the RILSERVICESETTINGSSTATUS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILSERVICESETTINGSSTATUS enumeration for internal use only. Don't use the RILSERVICESETTINGSSTATUS enumeration in your code."
 old-location: netvista\rilservicesettingsstatus.htm
 tech.root: netvista
 ms.date: 05/02/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILUICCLOCKCREDENTIAL
 title: RILUICCLOCKCREDENTIAL (rilapitypes.h)
-description: "Microsoft reserves the RILUICCLOCKCREDENTIAL structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILUICCLOCKCREDENTIAL structure for internal use only."
 old-location: netvista\riluicclockcredential.htm
 tech.root: netvista
 ms.date: 05/02/2018

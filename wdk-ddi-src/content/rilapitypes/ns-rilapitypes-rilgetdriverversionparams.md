@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILGETDRIVERVERSIONPARAMS
 title: RILGETDRIVERVERSIONPARAMS (rilapitypes.h)
-description: "Microsoft reserves this structure for internal use only. Don't use the RILGETDRIVERVERSIONPARAMS structure in your code."
+description: "Microsoft reserves the structure for internal use only. Don't use the RILGETDRIVERVERSIONPARAMS structure in your code."
 old-location: netvista\rilgetdriverversionparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

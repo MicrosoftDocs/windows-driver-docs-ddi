@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCAPPDATACHANGEENUM
 title: RILUICCAPPDATACHANGEENUM (ntddrilapitypes.h)
-description: "Microsoft reserves the RILUICCAPPDATACHANGEENUM enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILUICCAPPDATACHANGEENUM enumeration in your code."
 old-location: netvista\riluiccappdatachangeenum.htm
 tech.root: netvista
 ms.date: 05/02/2018

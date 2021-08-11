@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILPROVISIONSTATUS
 title: RILPROVISIONSTATUS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILPROVISIONSTATUS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILPROVISIONSTATUS structure for internal use only. Don't use the RILPROVISIONSTATUS structure in your code."
 old-location: netvista\rilprovisionstatus.htm
 tech.root: netvista
 ms.date: 05/02/2018

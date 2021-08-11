@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCCARDINFO
 title: RILUICCCARDINFO (ntddrilapitypes.h)
-description: "Microsoft reserves the RILUICCCARDINFO structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILUICCCARDINFO structure for internal use only. Don't use the RILUICCCARDINFO structure in your code."
 old-location: netvista\riluicccardinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

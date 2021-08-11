@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILRADIOSTATEITEM
 title: RILRADIOSTATEITEM (ntddrilapitypes.h)
-description: "Microsoft reserves the RILRADIOSTATEITEM structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the RILRADIOSTATEITEM structure for internal use only. Don't use the RILRADIOSTATEITEM structure in your code."
 old-location: netvista\rilradiostateitem.htm
 tech.root: netvista
 ms.date: 05/02/2018

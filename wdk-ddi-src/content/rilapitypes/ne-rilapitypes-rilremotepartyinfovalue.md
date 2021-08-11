@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILREMOTEPARTYINFOVALUE
 title: RILREMOTEPARTYINFOVALUE (rilapitypes.h)
-description: "Microsoft reserves the RILREMOTEPARTYINFOVALUE enumeration for internal use only. Don't use this enumeration in your code."
+description: "Don't use this enumeration in your code. Microsoft reserves the RILREMOTEPARTYINFOVALUE enumeration for internal use only."
 old-location: netvista\rilremotepartyinfovalue.htm
 tech.root: netvista
 ms.date: 05/02/2018

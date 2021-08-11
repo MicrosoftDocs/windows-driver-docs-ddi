@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILSMSSUPPORTCAPS
 title: RILSMSSUPPORTCAPS (rilapitypes.h)
-description: "Microsoft reserves the RILSMSSUPPORTCAPS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILSMSSUPPORTCAPS enumeration for internal use only. Don't use the RILSMSSUPPORTCAPS enumeration in your code."
 old-location: netvista\rilsmssupportcaps.htm
 tech.root: netvista
 ms.date: 05/02/2018

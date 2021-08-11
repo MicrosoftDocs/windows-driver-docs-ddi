@@ -51,8 +51,6 @@ The <b>WppRecorderGetCounterHandle</b> method gets the ID of the counter whose c
 
 ### -param WppCb
 
-TBD
-
 ## -returns
 
 ID of the counter whose current value is to be read.

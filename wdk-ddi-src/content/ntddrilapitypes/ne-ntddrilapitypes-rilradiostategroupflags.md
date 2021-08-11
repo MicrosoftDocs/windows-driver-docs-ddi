@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILRADIOSTATEGROUPFLAGS
 title: RILRADIOSTATEGROUPFLAGS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILRADIOSTATEGROUPFLAGS enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILRADIOSTATEGROUPFLAGS enumeration for internal use only. Don't use the RILRADIOSTATEGROUPFLAGS enumeration in your code."
 old-location: netvista\rilradiostategroupflags.htm
 tech.root: netvista
 ms.date: 05/02/2018

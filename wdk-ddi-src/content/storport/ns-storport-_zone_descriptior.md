@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._ZONE_DESCRIPTIOR
 title: _ZONE_DESCRIPTIOR (storport.h)
-description: "Microsoft reserves the ZONE_DESCRIPTIOR structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves the ZONE_DESCRIPTIOR structure for internal use only. Don't use the ZONE_DESCRIPTIOR structure in your code."
 old-location: storage\zone_descriptior.htm
 tech.root: storage
 ms.date: 03/29/2018

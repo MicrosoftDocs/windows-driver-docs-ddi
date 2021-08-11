@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The ISOCH_DESCRIPTOR structure describes a buffer to be attached or detailed from a resource handle, using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a> requests.
+The ISOCH_DESCRIPTOR structure describes a buffer to be attached or detailed from a resource handle, using the <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ATTACH_BUFFERS</a> and <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_DETACH_BUFFERS</a> requests.
 
 ## -struct-fields
 
@@ -194,7 +194,7 @@ Specifies the second parameter when the bus driver calls the routine passed in *
 
 ### -field status
 
-For <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a> requests, this member specifies the status of the attach operation on this buffer.   If an error occurs during the processing of the **REQUEST_ISOCH_ATTACH_BUFFERS** request, the bus driver fills in the **status** member with an appropriate error code.
+For <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ATTACH_BUFFERS</a> requests, this member specifies the status of the attach operation on this buffer.   If an error occurs during the processing of the **REQUEST_ISOCH_ATTACH_BUFFERS** request, the bus driver fills in the **status** member with an appropriate error code.
 
 <div class="alert"><b>Note</b>  The <b>status</b> member must be initialized to STATUS_SUCCESS before the <b>REQUEST_ISOCH_ATTACH_BUFFERS</b> request is made.</div>
 
@@ -243,13 +243,13 @@ If the driver sets the DESCRIPTOR_HEADER_SCATTER_GATHER flag, the host controlle
 
 <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_ATTACH_BUFFERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_DETACH_BUFFERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_LISTEN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ISOCH_TALK</a>
 

@@ -77,5 +77,5 @@ Specifies a vendor-specified textual description of the device.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_CONFIGURATION_INFO</a>
 

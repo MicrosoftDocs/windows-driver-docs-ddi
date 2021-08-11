@@ -166,7 +166,7 @@ address).
 
 ## -remarks
 
-When a driver allocates an address range on the computer's IEEE 1394 address space, it may require that the bus driver notify it for some or all request packets sent to the allocated addresses. As part of the original allocate request, the driver may either require that the bus driver forward each packet for handling, or it may require that the bus driver handle the packet and notify the device driver when it has finished. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>. 
+When a driver allocates an address range on the computer's IEEE 1394 address space, it may require that the bus driver notify it for some or all request packets sent to the allocated addresses. As part of the original allocate request, the driver may either require that the bus driver forward each packet for handling, or it may require that the bus driver handle the packet and notify the device driver when it has finished. For more information, see <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a>. 
 
 If the device driver provides no backing store, the bus driver forwards each packet to the device driver for handling. The bus driver passes <b>NULL</b> for <b>Mdl</b>, and passes the packet in <b>RequestPacket</b>. The bus driver also passes pointers to memory locations that the device driver must fill in with the buffer for the response packet (in <b>ResponsePacket</b>), the buffer length (in <b>ResponseLength</b>), and an MDL for the buffer (in <b>ResponseMdl</b>). The bus driver also supplies a memory location that the driver can use to pass a kernel event object in <b>ResponseEvent</b>. If the device driver provides an event object, the bus driver uses it to signal the driver when it has finished sending the response packet.
 
@@ -176,5 +176,5 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
 

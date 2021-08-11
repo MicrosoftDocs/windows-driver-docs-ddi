@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILAVOIDCDMASYSTEMPARAMS
 title: RILAVOIDCDMASYSTEMPARAMS (ntddrilapitypes.h)
-description: "Don't use this structure in your code. Microsoft reserves the RILAVOIDCDMASYSTEMPARAMS structure for internal use only. "
+description: "Don't use the RILAVOIDCDMASYSTEMPARAMS structure in your code. Microsoft reserves the RILAVOIDCDMASYSTEMPARAMS structure for internal use only. "
 old-location: netvista\rilavoidcdmasystemparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

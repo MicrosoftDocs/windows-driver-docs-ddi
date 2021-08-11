@@ -69,9 +69,6 @@ Reserved for internal use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>
+<a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST structure</a>
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>
 

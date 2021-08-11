@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILRADIOSTATEGROUPS
 title: RILRADIOSTATEGROUPS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILRADIOSTATEGROUPS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILRADIOSTATEGROUPS structure in your code."
 old-location: netvista\rilradiostategroups.htm
 tech.root: netvista
 ms.date: 05/02/2018

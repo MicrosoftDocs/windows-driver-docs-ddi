@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILSMSACKOPT
 title: RILSMSACKOPT (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSMSACKOPT enumeration for internal use only. Don't use this enumeration in your code."
+description: "Microsoft reserves the RILSMSACKOPT enumeration for internal use only. Don't use the RILSMSACKOPT enumeration in your code."
 old-location: netvista\rilsmsackopt.htm
 tech.root: netvista
 ms.date: 05/02/2018

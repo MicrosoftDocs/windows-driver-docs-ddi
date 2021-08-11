@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILTERMINALCAPABILITYINFO
 title: RILTERMINALCAPABILITYINFO (rilapitypes.h)
-description: "Microsoft reserves the RILTERMINALCAPABILITYINFO structure for internal use only. Don't use this structure in your code."
+description: "Don't use this structure in your code. Microsoft reserves the RILTERMINALCAPABILITYINFO structure for internal use only."
 old-location: netvista\rilterminalcapabilityinfo.htm
 tech.root: netvista
 ms.date: 05/02/2018

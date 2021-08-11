@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETCELLBROADCASTMSGCONFIGPARAMS
 title: RILSETCELLBROADCASTMSGCONFIGPARAMS (ntddrilapitypes.h)
-description: "Microsoft reserves the RILSETCELLBROADCASTMSGCONFIGPARAMS structure for internal use only. Don't use this structure in your code."
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETCELLBROADCASTMSGCONFIGPARAMS structure in your code."
 old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 tech.root: netvista
 ms.date: 05/02/2018
