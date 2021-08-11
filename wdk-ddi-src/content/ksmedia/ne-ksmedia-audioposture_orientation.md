@@ -1,12 +1,12 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_127
 title:  AUDIOPOSTURE_ORIENTATION
-ms.date: 08/05/2021
+ms.date: 08/11/2021
 ms.topic: language-reference
 targetos: Windows
 product:
 - Windows
-description: 
+description: The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor. 
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ksmedia.h
@@ -33,7 +33,7 @@ dev_langs:
 ---
 ## -description
 
-The rotation values indicates the orientation of panel in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor. This indicates the UI/shell orientation on the particular panel.
+The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor. This indicates the UI/shell orientation on the particular screen.
 
 ## -enum-fields
 
