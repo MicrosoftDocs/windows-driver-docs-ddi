@@ -47,7 +47,7 @@ No input flag(s) are set.
 
 ## -remarks
 
-See [BypassIO for storage drivers](/windows-hardware/drivers/storage/stornvme-feature-support/bypassio) for more information.
+See [BypassIO for storage drivers](/windows-hardware/drivers/storage/bypassio) for more information.
 
 ## -see-also
 

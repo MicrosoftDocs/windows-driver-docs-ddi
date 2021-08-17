@@ -70,7 +70,7 @@ Receives a unique, descriptive string describing why the driver vetoed the enabl
 
 ## -remarks
 
-See [BypassIO for storage drivers](/windows-hardware/drivers/storage/stornvme-feature-support/bypassio) for more information.
+See [BypassIO for storage drivers](/windows-hardware/drivers/storage/bypassio) for more information.
 
 ## -see-also
 

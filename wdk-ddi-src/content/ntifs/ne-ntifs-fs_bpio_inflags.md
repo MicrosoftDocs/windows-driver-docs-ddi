@@ -53,7 +53,7 @@ This flag suppresses the file system from sending [**IOCTL_STORAGE_MANAGE_BYPASS
 
 **FS_BPIO_INFLAGS** is passed as an [input parameter](ns-ntifs-fs_bpio_input.md) to [**FSCTL_MANAGE_BYPASS_IO**](ni-ntifs-fsctl_manage_bypass_io.md).
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

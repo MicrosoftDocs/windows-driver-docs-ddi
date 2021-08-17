@@ -79,7 +79,7 @@ A storage driver should process this request similar to a **BPIO_OP_ENABLE** ope
 
 ## -remarks
 
-See [BypassIO for storage drivers](/windows-hardware/drivers/storage/stornvme-feature-support/bypassio) for more information.
+See [BypassIO for storage drivers](/windows-hardware/drivers/storage/bypassio) for more information.
 
 ## -see-also
 

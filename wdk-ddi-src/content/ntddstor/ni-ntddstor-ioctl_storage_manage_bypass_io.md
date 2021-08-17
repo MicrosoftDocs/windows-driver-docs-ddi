@@ -66,7 +66,7 @@ The **Status** field can be set to STATUS_SUCCESS, or an error status such as ST
 
 Only file systems send **IOCTL_STORAGE_MANAGE_BYPASS_IO**. A file system sends this IOCTL as appropriate in response to a [**FSCTL_MANAGE_BYPASS_IO**](../ntifs/ni-ntifs-fsctl_manage_bypass_io.md) control code.
 
-See [BypassIO for storage drivers](/windows-hardware/drivers/storage/stornvme-feature-support/bypassio) for more information.
+See [BypassIO for storage drivers](/windows-hardware/drivers/storage/bypassio) for more information.
 
 ## -see-also
 

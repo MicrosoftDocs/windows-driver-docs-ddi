@@ -63,7 +63,7 @@ When set, indicates that the storage driver for this volume is BypassIO-compatib
 
 ## -remarks
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 
