@@ -67,19 +67,20 @@ Indicates the data type of registry value. This parameter must have one of the v
 
 | Registry value data type | Meaning |
 | ------------------------ | ------- |
-| REG_NONE                     | No data type specified. |
-| REG_SZ                       | Indicates a **NULL**-terminated Unicode string. |
-| REG_EXPAND_SZ                | Indicates a **NULL**-terminated Unicode string that includes environment variables that must be expanded to obtain the complete string. For example, a path name might be stored as the following string: "%USERPROFILE%\Application Data ". In this example, the environment variable USERPROFILE must be expanded to obtain the actual pathname. |
-| REG_BINARY                   | Indicates a raw binary data. |
-| REG_DWORD                    | Indicates a 32-bit double word value. |
-| REG_DWORD_LITTLE_ENDIAN      | Indicates a 32-bit double word value, in little-endian order. This is identical to REG_DWORD. |
-| REG_DWORD_BIG_ENDIAN         | Indicates a 32-bit double word value, in big-endian order. |
-| REG_LINK                     | Indicates a Unicode string containing a symbolic link. |
-| REG_MULTI_SZ                 | Indicates a series of **NULL**-terminated strings. |
-| REG_RESOURCE_LIST            | Indicates that the registry value contains a list of hardware resources, also known as the "hardware resource map", that is stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap hive. |
-| REG_FULL_RESOURCE_DESCRIPTOR | Indicates that the registry value contains a description of hardware resources stored under the HKEY_LOCAL_MACHINE\HARDWARE\Description hive. | REG_RESOURCE_REQUIREMENTS_LIST | Indicates that the registry value contains a list of hardware resource requirements stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap tree. |
-| REG_QWORD                    | Indicates that the registry value contains a 64-bit number.   |
-| REG_QWORD_LITTLE_ENDIAN      | Indicates that the registry value contains a 64-bit number. This is the same data type as REG_QWORD. |
+| REG_NONE                       | No data type specified. |
+| REG_SZ                         | Indicates a **NULL**-terminated Unicode string. |
+| REG_EXPAND_SZ                  | Indicates a **NULL**-terminated Unicode string that includes environment variables that must be expanded to obtain the complete string. For example, a path name might be stored as the following string: "%USERPROFILE%\Application Data ". In this example, the environment variable USERPROFILE must be expanded to obtain the actual pathname. |
+| REG_BINARY                     | Indicates a raw binary data. |
+| REG_DWORD                      | Indicates a 32-bit double word value. |
+| REG_DWORD_LITTLE_ENDIAN        | Indicates a 32-bit double word value, in little-endian order. This is identical to REG_DWORD. |
+| REG_DWORD_BIG_ENDIAN           | Indicates a 32-bit double word value, in big-endian order. |
+| REG_LINK                       | Indicates a Unicode string containing a symbolic link. |
+| REG_MULTI_SZ                   | Indicates a series of **NULL**-terminated strings. |
+| REG_RESOURCE_LIST              | Indicates that the registry value contains a list of hardware resources, also known as the "hardware resource map", that is stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap hive. |
+| REG_FULL_RESOURCE_DESCRIPTOR   | Indicates that the registry value contains a description of hardware resources stored under the HKEY_LOCAL_MACHINE\HARDWARE\Description hive. |
+| REG_RESOURCE_REQUIREMENTS_LIST | Indicates that the registry value contains a list of hardware resource requirements stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap tree. |
+| REG_QWORD                      | Indicates that the registry value contains a 64-bit number.   |
+| REG_QWORD_LITTLE_ENDIAN        | Indicates that the registry value contains a 64-bit number. This is the same data type as REG_QWORD. |
 
 ### -param Buffer
 

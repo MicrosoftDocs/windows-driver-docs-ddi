@@ -74,7 +74,7 @@ Available starting in Windows 7.
 
 ### -field EcpList
 
-Pointer to an optional [**ECP_LIST**](https://docs.microsoft.com/en-us/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)) structure that contains the extra create parameter (ECP) list associated with the Create IRP that initiated this query path request.
+Pointer to an optional [**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)) structure that contains the extra create parameter (ECP) list associated with the Create IRP that initiated this query path request.
 
 Available starting in Windows 7.
 
