@@ -2,10 +2,10 @@
 UID: NF:fltkernel.FltVetoBypassIo
 tech.root: ifsk
 title: FltVetoBypassIo
-ms.date: 07/08/2021
+ms.date: 08/12/2021
 targetos: Windows
 description: FltVetoBypassIo retrieves information needed to veto a BypassIO request.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -75,7 +75,9 @@ dev_langs:
 
 ## -remarks
 
-A minifilter calls **FltVetoBypassIo** when it intends to veto a BypassIo enable or query request on a file. This routine should be called only during the pre-operation.
+A minifilter calls **FltVetoBypassIo** when it intends to veto a BypassIo [enable or query request](../ntifs/ne-ntifs-fs_bpio_operations.md) on a file.
+
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

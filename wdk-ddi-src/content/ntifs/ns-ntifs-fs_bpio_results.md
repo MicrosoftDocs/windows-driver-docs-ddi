@@ -72,7 +72,7 @@ Receives a unique, descriptive string describing why the driver vetoed the enabl
 
 **FS_BPIO_RESULTS** is returned in the [**FS_BPIO_OPERATIONS**](ne-ntifs-fs_bpio_operations.md) structure when a driver fails an enable or query BypassIO operation.
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

@@ -78,7 +78,7 @@ A [**BPIO_RESULTS**](ns-ntddstor-bpio_results.md) structure in which to write th
 
 ## -remarks
 
-See [BypassIO for storage drivers](/windows-hardware/drivers/storage/stornvme-feature-support/bypassio) for more information.
+See [BypassIO for storage drivers](/windows-hardware/drivers/storage/bypassio) for more information.
 
 ## -see-also
 

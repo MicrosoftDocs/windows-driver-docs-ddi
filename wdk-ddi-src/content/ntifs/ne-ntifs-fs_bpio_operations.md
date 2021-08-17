@@ -195,7 +195,7 @@ Valid BypassIO operations will be less than this value.
 
 ## -remarks
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

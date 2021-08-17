@@ -66,7 +66,7 @@ Reserved for system use. Must be set to zero.
 
 ## -remarks
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 
