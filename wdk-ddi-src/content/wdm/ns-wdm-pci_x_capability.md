@@ -54,7 +54,7 @@ The PCI_X_CAPABILITY structure reports the contents of the command and status re
 
 ### -field Header
 
-Contains a structure of type [PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header) that identifies the capability and provides a link to the next capability description.
+Contains a structure of type [PCI_CAPABILITIES_HEADER](./ns-wdm-_pci_capabilities_header.md) that identifies the capability and provides a link to the next capability description.
 
 ### -field Command
 
@@ -183,4 +183,4 @@ typedef struct {
 
 ## -see-also
 
-[PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header)
+[PCI_CAPABILITIES_HEADER](./ns-wdm-_pci_capabilities_header.md)

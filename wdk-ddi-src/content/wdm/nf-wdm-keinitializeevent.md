@@ -62,9 +62,9 @@ The **KeInitializeEvent** routine initializes an event object as a synchronizati
 
 ## -remarks
 
-Storage for an event object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. If you allocate the event on the stack, you must specify a **KernelMode** wait when calling [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject), **KeWaitForMutexObject**, or [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects). During a **KernelMode** wait, the stack containing the event will not be paged out.
+Storage for an event object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. If you allocate the event on the stack, you must specify a **KernelMode** wait when calling [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md), **KeWaitForMutexObject**, or [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md). During a **KernelMode** wait, the stack containing the event will not be paged out.
 
-Drivers typically use a **NotificationEvent** to wait for an I/O operation to complete. When a notification event is set to the signaled state, all threads that were waiting for the event to be set to the signaled state become eligible for execution. The event remains in the signaled state until a thread calls [KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent) or [KeClearEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent) to set the event in the not-signaled state.
+Drivers typically use a **NotificationEvent** to wait for an I/O operation to complete. When a notification event is set to the signaled state, all threads that were waiting for the event to be set to the signaled state become eligible for execution. The event remains in the signaled state until a thread calls [KeResetEvent](./nf-wdm-keresetevent.md) or [KeClearEvent](./nf-wdm-keclearevent.md) to set the event in the not-signaled state.
 
 A **SynchronizationEvent** is also called an *autoreset* or *autoclearing* event. When such an event is set, a single waiting thread becomes eligible for execution. The kernel automatically resets the event to the not-signaled state each time a wait is satisfied. A driver might use a synchronization event to protect a shared resource that is used in synchronizing the operations of several threads. Synchronization events are rarely used in a typical driver.
 
@@ -72,14 +72,14 @@ For more information about event objects, see [Event Objects](/windows-hardware/
 
 ## -see-also
 
-[KeClearEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent)
+[KeClearEvent](./nf-wdm-keclearevent.md)
 
-[KeReadStateEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent)
+[KeReadStateEvent](./nf-wdm-kereadstateevent.md)
 
-[KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent)
+[KeResetEvent](./nf-wdm-keresetevent.md)
 
-[KeSetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent)
+[KeSetEvent](./nf-wdm-kesetevent.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

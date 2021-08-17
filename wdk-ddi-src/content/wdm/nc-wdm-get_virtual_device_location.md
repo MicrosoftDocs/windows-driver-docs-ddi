@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The [GetLocation](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location) routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
+The [GetLocation]() routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ The [GetLocation](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_lo
 
 ## -returns
 
-The [GetLocation](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location) routine returns one of the following NTSTATUS values:
+The [GetLocation]() routine returns one of the following NTSTATUS values:
 
 | Return code | Description |
 |--|--|
@@ -95,11 +95,11 @@ NTSTATUS GetLocation(
 
 ## -remarks
 
-The [GetLocation](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location) routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
+The [GetLocation]() routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
 
-Upon a successful return from a call to the [GetLocation](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location) routine, the *FunctionNumber* parameter contains a value that represents the function number for the specified VF on the PCI bus. This value is based on the Alternative Routing Interpretation (ARI) option of the PCI Express 3.0 specification.  ARI treats a PCIe bus as a single device with an 8-bit function space, which allows for 256 functions on the bus.
+Upon a successful return from a call to the [GetLocation]() routine, the *FunctionNumber* parameter contains a value that represents the function number for the specified VF on the PCI bus. This value is based on the Alternative Routing Interpretation (ARI) option of the PCI Express 3.0 specification.  ARI treats a PCIe bus as a single device with an 8-bit function space, which allows for 256 functions on the bus.
 
-The [GetLocation](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location) routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
+The [GetLocation]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
 > [!IMPORTANT]
 > The PCI bus number on which the VF is located can change. We do not recommend that drivers store the device location for a VF in nonvolatile storage such as the registry.

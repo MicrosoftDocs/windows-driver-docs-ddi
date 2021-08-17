@@ -52,12 +52,12 @@ The <b>KeQueryNodeActiveAffinity</b> routine gets the current processor affinity
 ### -param NodeNumber 
 
 [in]
-The node number. If a multiprocessor system contains <i>n</i> nodes, the nodes are numbered from 0 to <i>n</i>-1. To obtain the highest node number (<i>n</i>-1) in the system, call the [KeQueryHighestNodeNumber](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhighestnodenumber) routine.
+The node number. If a multiprocessor system contains <i>n</i> nodes, the nodes are numbered from 0 to <i>n</i>-1. To obtain the highest node number (<i>n</i>-1) in the system, call the [KeQueryHighestNodeNumber](../ntddk/nf-ntddk-kequeryhighestnodenumber.md) routine.
 
 ### -param Affinity 
 
 [out, optional]
-A pointer to a caller-allocated buffer into which the routine writes a [GROUP_AFFINITY](/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity) structure. This structure contains the group number of the group that contains the node that is identified by <i>NodeNumber</i>, and an affinity mask that indicates which logical processors in the node are active. You can set this parameter to <b>NULL</b> if you do not need this information.
+A pointer to a caller-allocated buffer into which the routine writes a [GROUP_AFFINITY](../miniport/ns-miniport-_group_affinity.md) structure. This structure contains the group number of the group that contains the node that is identified by <i>NodeNumber</i>, and an affinity mask that indicates which logical processors in the node are active. You can set this parameter to <b>NULL</b> if you do not need this information.
 
 > [!NOTE]
 > Starting in Windows Server 2022, a node can span more than one group. This happens when a node contains more than 64 processors. In this case, the OS assigns a primary group for each NUMA node. The primary group is always the one containing the most processors. In this case, the group affinity structure returned is for the node's primary group. For more info about this change in behavior, see [NUMA Support](/windows/win32/procthread/numa-support). If your code runs on systems with more than 64 processors per NUMA node, consider instead using [**KeQueryNodeActiveAffinity2**](./nf-wdm-kequerynodeactiveaffinity2.md). 
@@ -82,7 +82,7 @@ The number of processors in a node cannot exceed the number of bits in the affin
 > [!NOTE]
 > **Windows 10, version 2004 and earlier**
 >
-> If, during system initialization, Windows encounters a NUMA hardware node that contains more logical processors than will fit into a group, Windows splits the node into smaller, logical nodes. Each of these nodes does not exceed the maximum group size. The <i>NodeNumber</i> parameter identifies a logical node. To obtain the maximum number of processors per group, call the [KeQueryMaximumProcessorCountEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumprocessorcountex) routine.
+> If, during system initialization, Windows encounters a NUMA hardware node that contains more logical processors than will fit into a group, Windows splits the node into smaller, logical nodes. Each of these nodes does not exceed the maximum group size. The <i>NodeNumber</i> parameter identifies a logical node. To obtain the maximum number of processors per group, call the [KeQueryMaximumProcessorCountEx](../ntddk/nf-ntddk-kequerymaximumprocessorcountex.md) routine.
 
 ## -see-also
 
@@ -90,12 +90,12 @@ The number of processors in a node cannot exceed the number of bits in the affin
 
 [KeQueryLogicalProcessorRelationship](./nf-wdm-kequerylogicalprocessorrelationship.md)
 
-[GROUP_AFFINITY](/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity)
+[GROUP_AFFINITY](../miniport/ns-miniport-_group_affinity.md)
 
 
 
-[KeQueryHighestNodeNumber](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhighestnodenumber)
+[KeQueryHighestNodeNumber](../ntddk/nf-ntddk-kequeryhighestnodenumber.md)
 
 
 
-[KeQueryMaximumProcessorCountEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumprocessorcountex)
+[KeQueryMaximumProcessorCountEx](../ntddk/nf-ntddk-kequerymaximumprocessorcountex.md)

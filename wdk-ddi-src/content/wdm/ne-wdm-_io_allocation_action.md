@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **IO_ALLOCATION_ACTION** enumerated type is used to specify return values for [AdapterControl](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control) and [ControllerControl](/windows-hardware/drivers/kernel/writing-controllercontrolroutines) routines.
+The **IO_ALLOCATION_ACTION** enumerated type is used to specify return values for [AdapterControl](./nc-wdm-driver_control.md) and [ControllerControl](/windows-hardware/drivers/kernel/writing-controllercontrolroutines) routines.
 
 ## -enum-fields
 

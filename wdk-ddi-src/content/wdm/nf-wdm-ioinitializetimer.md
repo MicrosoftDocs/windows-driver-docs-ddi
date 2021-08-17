@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **IoInitializeTimer** routine sets up a driver-supplied [IoTimer](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine) routine associated with a given device object.
+The **IoInitializeTimer** routine sets up a driver-supplied [IoTimer](./nc-wdm-io_timer_routine.md) routine associated with a given device object.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ The **IoInitializeTimer** routine sets up a driver-supplied [IoTimer](/windows-h
 
 **IoInitializeTimer** should be called only once per device object.
 
-A driver's [IoTimer](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine) routine is called once per second after the driver enables the timer by calling [IoStartTimer](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostarttimer). The driver can disable the timer by calling [IoStopTimer](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostoptimer) and can reenable it again with **IoStartTimer**.
+A driver's [IoTimer](./nc-wdm-io_timer_routine.md) routine is called once per second after the driver enables the timer by calling [IoStartTimer](../ntifs/nf-ntifs-iostarttimer.md). The driver can disable the timer by calling [IoStopTimer](../ntifs/nf-ntifs-iostoptimer.md) and can reenable it again with **IoStartTimer**.
 
 The driver's *IoTimer* routine is called at IRQL = DISPATCH_LEVEL and therefore must not contain pageable code.
 
@@ -76,12 +76,12 @@ When the timer is running, the I/O manager calls the driver-supplied *IoTimer* r
 
 ## -see-also
 
-[IoStartTimer](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostarttimer)
+[IoStartTimer](../ntifs/nf-ntifs-iostarttimer.md)
 
-[IoStopTimer](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostoptimer)
+[IoStopTimer](../ntifs/nf-ntifs-iostoptimer.md)
 
-[IoTimer](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine)
+[IoTimer](./nc-wdm-io_timer_routine.md)
 
-[KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer)
+[KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-[KeSetTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer)
+[KeSetTimer](./nf-wdm-kesettimer.md)

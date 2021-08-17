@@ -68,11 +68,11 @@ Pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-Pointer to a driver-supplied [InterfaceReference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference) routine that increments the interface's reference count.
+Pointer to a driver-supplied [InterfaceReference](./nc-wdm-pinterface_reference.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-Pointer to a driver-supplied [InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) routine that decrements the interface's reference count.
+Pointer to a driver-supplied [InterfaceDereference](./nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ## -remarks
 
@@ -89,6 +89,6 @@ Each driver that imports the interface (whether by sending **IRP_MN_QUERY_INTERF
 
 [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
-[InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+[InterfaceDereference](./nc-wdm-pinterface_dereference.md)
 
-[InterfaceReference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)
+[InterfaceReference](./nc-wdm-pinterface_reference.md)

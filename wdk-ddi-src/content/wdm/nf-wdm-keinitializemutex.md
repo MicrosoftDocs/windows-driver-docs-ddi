@@ -68,12 +68,12 @@ For more information about mutex objects, see [Mutex Objects](/windows-hardware/
 
 ## -see-also
 
-[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
+[ExInitializeFastMutex](./nf-wdm-exinitializefastmutex.md)
 
-[KeReadStateMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex)
+[KeReadStateMutex](./nf-wdm-kereadstatemutex.md)
 
-[KeReleaseMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex)
+[KeReleaseMutex](./nf-wdm-kereleasemutex.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

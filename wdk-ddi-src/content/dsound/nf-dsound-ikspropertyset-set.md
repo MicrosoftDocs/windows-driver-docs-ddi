@@ -83,4 +83,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-[IKsPropertySet::Get](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get)
+[IKsPropertySet::Get](../ksproxy/nf-ksproxy-ikspropertyset-get.md)

@@ -44,25 +44,25 @@ api_name:
 
 ## -description
 
-The **MmMapLockedPagesWithReservedMapping** routine maps all or part of an address range that was previously reserved by the [MmAllocateMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress) routine.
+The **MmMapLockedPagesWithReservedMapping** routine maps all or part of an address range that was previously reserved by the [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md) routine.
 
 ## -parameters
 
 ### -param MappingAddress
 
-[in] Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by [MmAllocateMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress).
+[in] Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md).
 
 ### -param PoolTag
 
-[in] Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the *PoolTag* parameter of the call to [MmAllocateMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress) that reserved the buffer.
+[in] Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the *PoolTag* parameter of the call to [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md) that reserved the buffer.
 
 ### -param MemoryDescriptorList
 
-[in] A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the [MmProbeAndLockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages) or [MmAllocatePagesForMdlEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex) routine.
+[in] A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the [MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md) or [MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md) routine.
 
 ### -param CacheType
 
-[in] Specifies the [MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type) value to use to create the mapping.
+[in] Specifies the [MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md) value to use to create the mapping.
 
 ## -returns
 
@@ -70,34 +70,34 @@ The **MmMapLockedPagesWithReservedMapping** routine maps all or part of an addre
 
 ## -remarks
 
-The caller can use **MmMapLockedPagesWithReservedMapping** to map a subrange of the virtual memory range reserved by [MmAllocateMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress) as follows:
+The caller can use **MmMapLockedPagesWithReservedMapping** to map a subrange of the virtual memory range reserved by [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md) as follows:
 
-- Use [IoAllocateMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl) to allocate an MDL. The returned MDL is built using the specified starting address and size of the subrange of the virtual memory range to map.
+- Use [IoAllocateMdl](./nf-wdm-ioallocatemdl.md) to allocate an MDL. The returned MDL is built using the specified starting address and size of the subrange of the virtual memory range to map.
 
-- Use [MmProbeAndLockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages) to lock down the physical pages described by the MDL obtained in step 1.
+- Use [MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md) to lock down the physical pages described by the MDL obtained in step 1.
 
 - Use **MmMapLockedPagesWithReservedMapping** to actually map the virtual memory to the physical memory that was locked down in step 2. Note that the virtual address returned by this function does include the byte offset that the MDL specifies. However, the **MappedSystemVa** field of the MDL that is set by this function does not include the byte offset.
 
-- Once the caller does not need to access the memory, it unmaps the memory with [MmUnmapReservedMapping](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping). The caller can map and unmap the memory buffer as needed, and must unmap it prior to freeing the mapping range with [MmFreeMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress).
+- Once the caller does not need to access the memory, it unmaps the memory with [MmUnmapReservedMapping](./nf-wdm-mmunmapreservedmapping.md). The caller can map and unmap the memory buffer as needed, and must unmap it prior to freeing the mapping range with [MmFreeMappingAddress](./nf-wdm-mmfreemappingaddress.md).
 
-Note that the *MappingAddress* parameter specifies the beginning of the range of memory previously reserved by the caller, not the beginning of the memory subrange to be mapped. The caller specifies the starting address and length of the buffer when it allocates the MDL with [IoAllocateMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl). The buffer must fit inside the reserved memory range, but it can be a strict subset.
+Note that the *MappingAddress* parameter specifies the beginning of the range of memory previously reserved by the caller, not the beginning of the memory subrange to be mapped. The caller specifies the starting address and length of the buffer when it allocates the MDL with [IoAllocateMdl](./nf-wdm-ioallocatemdl.md). The buffer must fit inside the reserved memory range, but it can be a strict subset.
 
-The routine uses the *CacheType* parameter only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by [MmAllocatePagesForMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl), which do not have a specific cache type associated with them. For such pages, the *CacheType* parameter determines the cache type of the mapping.
+The routine uses the *CacheType* parameter only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by [MmAllocatePagesForMdl](./nf-wdm-mmallocatepagesformdl.md), which do not have a specific cache type associated with them. For such pages, the *CacheType* parameter determines the cache type of the mapping.
 
 ## -see-also
 
-[IoAllocateMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl)
+[IoAllocateMdl](./nf-wdm-ioallocatemdl.md)
 
-[MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type)
+[MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md)
 
-[MmAllocateMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress)
+[MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md)
 
-[MmAllocatePagesForMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl)
+[MmAllocatePagesForMdl](./nf-wdm-mmallocatepagesformdl.md)
 
-[MmAllocatePagesForMdlEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex)
+[MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md)
 
-[MmFreeMappingAddress](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress)
+[MmFreeMappingAddress](./nf-wdm-mmfreemappingaddress.md)
 
-[MmProbeAndLockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages)
+[MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md)
 
-[MmUnmapReservedMapping](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping)
+[MmUnmapReservedMapping](./nf-wdm-mmunmapreservedmapping.md)

@@ -78,8 +78,8 @@ The [ControllerControl](/windows-hardware/drivers/kernel/writing-controllercontr
 
 [ControllerControl](/windows-hardware/drivers/kernel/writing-controllercontrolroutines)
 
-[IoCreateController](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatecontroller)
+[IoCreateController](./nf-ntddk-iocreatecontroller.md)
 
-[IoDeleteController](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iodeletecontroller)
+[IoDeleteController](./nf-ntddk-iodeletecontroller.md)
 
-[IoFreeController](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iofreecontroller)
+[IoFreeController](./nf-ntddk-iofreecontroller.md)
