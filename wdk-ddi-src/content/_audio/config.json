@@ -2,6 +2,8 @@
   "tech": "audio",
   "headers": [
     "acxcircuit.h",
+    "acxdevice.h",
+    "acxstream.h",
     "bthhfpddi.h",
     "dmusicks.h",
     "dmusprop.h",
