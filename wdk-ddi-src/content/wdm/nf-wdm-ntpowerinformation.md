@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **ZwPowerInformation** routine sets or retrieves system power information.
+The **NtPowerInformation** routine sets or retrieves system power information.
 
 ## -parameters
 
