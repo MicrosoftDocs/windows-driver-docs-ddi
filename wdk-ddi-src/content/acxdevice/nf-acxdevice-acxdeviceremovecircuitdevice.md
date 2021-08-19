@@ -1,0 +1,65 @@
+---
+UID: NF:acxdevice.AcxDeviceRemoveCircuitDevice
+tech.root: audio
+title: AcxDeviceRemoveCircuitDevice
+ms.date: 08/04/2021
+targetos: Windows
+description: Removes an ACX circuit device from a specified parent device.
+prerelease: true
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: acxdevice.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - acxdevice.h
+api_name:
+ - AcxDeviceRemoveCircuitDevice
+f1_keywords:
+ - AcxDeviceRemoveCircuitDevice
+ - acxdevice/AcxDeviceRemoveCircuitDevice
+dev_langs:
+ - c++
+---
+
+## -description
+
+Removes an ACX circuit device from a specified parent device.
+
+## -parameters
+
+### -param ParentDevice
+
+The parent **WDFDEVICE** from which to remove the ACX circuit device.
+
+### -param Device
+
+The **WDFDEVICE** representing the circuit device to remove from the parent device.
+
+## -returns
+
+**AcxDeviceRemoveCircuitDevice** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
+
+## -remarks
+
+## -see-also
+
+[AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)

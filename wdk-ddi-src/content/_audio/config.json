@@ -1,6 +1,7 @@
 {
   "tech": "audio",
   "headers": [
+    "acxcircuit.h",
     "bthhfpddi.h",
     "dmusicks.h",
     "dmusprop.h",

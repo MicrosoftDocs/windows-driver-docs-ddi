@@ -1,0 +1,71 @@
+---
+UID: NF:acxdevice.AcxDeviceAddCircuit
+tech.root: audio
+title: AcxDeviceAddCircuit
+ms.date: 07/15/2021
+targetos: Windows
+description: Adds an ACX circuit to a WDFDEVICE to create an audio endpoint.
+prerelease: true
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: acxdevice.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - acxdevice.h
+api_name:
+ - AcxDeviceAddCircuit
+f1_keywords:
+ - AcxDeviceAddCircuit
+ - acxdevice/AcxDeviceAddCircuit
+dev_langs:
+ - c++
+---
+
+## -description
+
+Adds an ACX circuit to a **WDFDEVICE** to create an audio endpoint.
+
+## -parameters
+
+### -param Device
+
+A **WDFDEVICE** representing the device to which the circuit will be added.
+
+### -param Circuit
+
+The circuit to add to the *Device*.
+
+## -returns
+
+**AcxDeviceAddCircuit** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
+
+## -remarks
+
+The audio circuit is the core building block of ACX. An audio driver creates one or more ACX circuit objects to represent a partial or complete audio data and control path. ACX assembles these ACX circuit objects together to create a complete audio path which represents an audio endpoint.
+
+## -see-also
+
+[AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)
+
+[AcxDeviceDetachCircuit](nf-acxdevice-acxdevicedetachcircuit.md)
+
+[AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
