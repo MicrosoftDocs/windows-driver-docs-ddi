@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
+The [EnableVirtualization]() routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
@@ -55,7 +55,7 @@ The [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtu
 
 ### -param NumVFs
 
-[in] The number of PCIe virtual functions (VFs) that are to be enabled for the device. The [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine sets the **NumVFs** member of the PCIe SR-IOV Extended Capability structure to the value of the *NumVFs* parameter.
+[in] The number of PCIe virtual functions (VFs) that are to be enabled for the device. The [EnableVirtualization]() routine sets the **NumVFs** member of the PCIe SR-IOV Extended Capability structure to the value of the *NumVFs* parameter.
 
 > [!NOTE]
 > If the *EnableVirtualization* parameter is **FALSE**, the *NumVFs* parameter must be set to zero.
@@ -76,11 +76,11 @@ The [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtu
 
 ### -param EnableVirtualization
 
-[in] A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the *EnableVirtualization* parameter is **TRUE**, the [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine sets the VF Enable bit of the PCIe SR-IOV Control field. The *EnableVirtualization* routine clears this bit if the *EnableVirtualization* parameter is **FALSE**.
+[in] A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the *EnableVirtualization* parameter is **TRUE**, the [EnableVirtualization]() routine sets the VF Enable bit of the PCIe SR-IOV Control field. The *EnableVirtualization* routine clears this bit if the *EnableVirtualization* parameter is **FALSE**.
 
 ## -returns
 
-The [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine returns one of the following NTSTATUS values:
+The [EnableVirtualization]() routine returns one of the following NTSTATUS values:
 
 |Return code  |Description  |
 |---------|---------|
@@ -105,9 +105,9 @@ NTSTATUS EnableVirtualization(
 
 ## -remarks
 
-Drivers call the [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
+Drivers call the [EnableVirtualization]() routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
 
-The [EnableVirtualization](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
+The [EnableVirtualization]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
 ## -see-also
 

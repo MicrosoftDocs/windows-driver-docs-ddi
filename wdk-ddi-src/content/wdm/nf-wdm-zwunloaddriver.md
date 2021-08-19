@@ -58,7 +58,7 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 
 <b>ZwUnloadDriver</b> returns STATUS_SUCCESS or an error NTSTATUS value such as STATUS_INVALID_DEVICE_REQUEST.
 
-If the driver specified in <i>DriverServiceName</i> has no <i>DriverUnload</i> callback routine set in its [DRIVER_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST.
+If the driver specified in <i>DriverServiceName</i> has no <i>DriverUnload</i> callback routine set in its [DRIVER_OBJECT](./ns-wdm-_driver_object.md) structure, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST.
 
 ## -remarks
 
@@ -93,4 +93,3 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwloaddriver">ZwLoadDriver</a>
-

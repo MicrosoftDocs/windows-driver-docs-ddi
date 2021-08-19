@@ -60,18 +60,18 @@ The **PEP_PPM_LPI_COMPLETE** structure describes all the processor performance c
 
 #### - Count
 
-[in] The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities) notification.
+[in] The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](../pepfx/ns-pepfx-_pep_ppm_query_capabilities.md) notification.
 
 #### - Counters
 
-[out] The first element in an array of [PEP_PROCESSOR_FEEDBACK_COUNTER](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_feedback_counter) structures. If this array contains more than one element, the additional elements immediately follow the end of the **PEP_PPM_QUERY_FEEDBACK_COUNTERS** structure. The **Count** member specifies the number of elements in this array. For more information, see Remarks.
+[out] The first element in an array of [PEP_PROCESSOR_FEEDBACK_COUNTER](../pepfx/ns-pepfx-_pep_processor_feedback_counter.md) structures. If this array contains more than one element, the additional elements immediately follow the end of the **PEP_PPM_QUERY_FEEDBACK_COUNTERS** structure. The **Count** member specifies the number of elements in this array. For more information, see Remarks.
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_feedback_counters) notification. The **Count** member of the structure contains an input value that PoFx supplies when this notification is sent. The **Counters** member contains an output value that the PEP writes in response to the notification. The PEP writes any additional **Counters** array elements to the output buffer area that follows the **PEP_PPM_QUERY_FEEDBACK_COUNTERS** structure. The buffer that PoFx allocated for this structure is guaranteed to be large enough to contain any array elements that follow the structure.
+This structure is used by the [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](../pepfx/ns-pepfx-_pep_ppm_query_feedback_counters.md) notification. The **Count** member of the structure contains an input value that PoFx supplies when this notification is sent. The **Counters** member contains an output value that the PEP writes in response to the notification. The PEP writes any additional **Counters** array elements to the output buffer area that follows the **PEP_PPM_QUERY_FEEDBACK_COUNTERS** structure. The buffer that PoFx allocated for this structure is guaranteed to be large enough to contain any array elements that follow the structure.
 
 ## -see-also
 
-[PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_feedback_counters)
+[PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](../pepfx/ns-pepfx-_pep_ppm_query_feedback_counters.md)
 
-[PEP_PROCESSOR_FEEDBACK_COUNTER](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_feedback_counter)
+[PEP_PROCESSOR_FEEDBACK_COUNTER](../pepfx/ns-pepfx-_pep_processor_feedback_counter.md)

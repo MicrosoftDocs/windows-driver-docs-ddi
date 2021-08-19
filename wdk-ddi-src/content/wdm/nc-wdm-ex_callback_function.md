@@ -51,17 +51,17 @@ A filter driver's *RegistryCallback* routine can monitor, block, or modify a reg
 ### -param CallbackContext
 
 [in]
-The value that the driver passed as the *Context* parameter to [CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback) or [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex) when it registered this *RegistryCallback* routine.
+The value that the driver passed as the *Context* parameter to [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) when it registered this *RegistryCallback* routine.
 
 ### -param Argument1
 
 [in, optional]
-A [REG_NOTIFY_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class)-typed value that identifies the type of registry operation that is being performed and whether the *RegistryCallback* routine is being called before or after the registry operation is performed.
+A [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)-typed value that identifies the type of registry operation that is being performed and whether the *RegistryCallback* routine is being called before or after the registry operation is performed.
 
 ### -param Argument2
 
 [in, optional]
-A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [REG_NOTIFY_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class).
+A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md).
 
 | REG_NOTIFY_CLASS value | Structure type |
 |--|--|
@@ -139,11 +139,11 @@ For more information about when a *RegistryCallback* routine should return each 
 
 ## -remarks
 
-To be notified of registry operations, a kernel-mode component (such as the driver component of an antivirus software package) can call [CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback) or [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex) to register a *RegistryCallback* routine.
+To be notified of registry operations, a kernel-mode component (such as the driver component of an antivirus software package) can call [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) to register a *RegistryCallback* routine.
 
-The *RegistryCallback* routine can inspect the contents of the input and output buffers that are supplied for registry operations. A registry operation can be initiated by a user-mode application that calls a user-mode registry routine (such as [RegCreateKeyEx](/windows/win32/api/winreg/nf-winreg-regcreatekeyexa) or [RegOpenKeyEx](/windows/win32/api/winreg/nf-winreg-regopenkeyexa)) or by a driver that calls a kernel-mode registry routine (such as [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)). An *input buffer* is a memory buffer supplied by the initiator from which the registry reads input data for the operation. An *output buffer* is a buffer supplied by the initiator into which the registry writes output data requested by the initiator.
+The *RegistryCallback* routine can inspect the contents of the input and output buffers that are supplied for registry operations. A registry operation can be initiated by a user-mode application that calls a user-mode registry routine (such as [RegCreateKeyEx](/windows/win32/api/winreg/nf-winreg-regcreatekeyexa) or [RegOpenKeyEx](/windows/win32/api/winreg/nf-winreg-regopenkeyexa)) or by a driver that calls a kernel-mode registry routine (such as [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md)). An *input buffer* is a memory buffer supplied by the initiator from which the registry reads input data for the operation. An *output buffer* is a buffer supplied by the initiator into which the registry writes output data requested by the initiator.
 
-Before calling the *RegistryCallback* routine, the kernel probes (to verify alignment and accessibility) all members of the *Argument2* structures that point to output buffers in user-mode memory, but does not capture user-mode output buffers in system memory. The callback routine must enclose any access of an output buffer in a **try**/**except** block. If the callback routine needs to pass an output buffer pointer to a system routine (for example, [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)), and the buffer is in user-mode memory, the callback routine must first capture the buffer.
+Before calling the *RegistryCallback* routine, the kernel probes (to verify alignment and accessibility) all members of the *Argument2* structures that point to output buffers in user-mode memory, but does not capture user-mode output buffers in system memory. The callback routine must enclose any access of an output buffer in a **try**/**except** block. If the callback routine needs to pass an output buffer pointer to a system routine (for example, [ZwOpenKey](./nf-wdm-zwopenkey.md)), and the buffer is in user-mode memory, the callback routine must first capture the buffer.
 
 The handling of input buffers depends on the Windows version. Starting with Windows 8, the kernel captures all input buffers pointed to by members of the *Argument2* structures in system memory before calling the *RegistryCallback* routine. In versions of Windows before Windows 8, the kernel probes all members of the *Argument2* structures that point to input buffers in user-mode memory, but captures only some of these buffers in system memory. In these earlier versions of Windows, the callback routine must enclose any access of an input buffer in a **try**/**except** block. Additionally, if the callback routine needs to pass an input buffer pointer to a system routine (for example, **ZwOpenKey**), and the buffer is in user-mode memory, the callback routine must first capture the buffer.
 
@@ -189,12 +189,12 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-[CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback)
+[CmRegisterCallback](./nf-wdm-cmregistercallback.md)
 
-[CmUnRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback)
+[CmUnRegisterCallback](./nf-wdm-cmunregistercallback.md)
 
-[ProbeForRead](/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread)
+[ProbeForRead](./nf-wdm-probeforread.md)
 
-[REG_NOTIFY_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class)
+[REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)

@@ -74,8 +74,8 @@ For more information on the differences between versions, see [Filtering Registr
 
 ## -see-also
 
-[REG_POST_CREATE_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_create_key_information)
+[REG_POST_CREATE_KEY_INFORMATION](./ns-wdm-_reg_post_create_key_information.md)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)

@@ -56,7 +56,7 @@ The **PEP_ACPI_EVALUATE_CONTROL_METHOD** structure specifies an ACPI control met
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous [PEP_NOTIFY_ACPI_REGISTER_DEVICE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device) notification.
+[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous [PEP_NOTIFY_ACPI_REGISTER_DEVICE](./ns-pepfx-_pep_acpi_register_device.md) notification.
 
 ### -field RequestFlags
 
@@ -80,15 +80,15 @@ The **PEP_ACPI_EVALUATE_CONTROL_METHOD** structure specifies an ACPI control met
 
 [out] An NTSTATUS value that indicates the status of the evaluation of the ACPI control method. Set this member to STATUS_SUCCESS to indicate that the platform extension plug-in (PEP) successfully completed its evaluation of the method. Set to STATUS_NOT_SUPPORTED to indicate that the PEP does not recognize the control method. Set to STATUS_BUFFER_TOO_SMALL to indicate that the output buffer size specified by the **InputArgumentSize** member is not large enough to contain the method results.
 
-If the PEP is to evaluate the method asynchronously, set this member to STATUS_PENDING and return from the [AcceptAcpiNotification](/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbacknotifyacpi) callback. Later, when the evaluation is completed, the PEP calls the *CompleteWork* routine to notify the Windows [power management framework](/windows-hardware/drivers/ddi/_kernel/#device-power-management) (PoFx) that the evaluation of the control method is complete.
+If the PEP is to evaluate the method asynchronously, set this member to STATUS_PENDING and return from the [AcceptAcpiNotification](./nc-pepfx-pepcallbacknotifyacpi.md) callback. Later, when the evaluation is completed, the PEP calls the *CompleteWork* routine to notify the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) that the evaluation of the control method is complete.
 
 ### -field CompletionContext
 
-[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the *CompleteWork* routine that notifies the Windows [power management framework](/windows-hardware/drivers/ddi/_kernel/#device-power-management) (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a [PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete) structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
+[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the *CompleteWork* routine that notifies the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a [PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE](./ns-pepfx-_pep_work_acpi_evaluate_control_method_complete.md) structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
 
 ### -field InputArgumentCount
 
-[in] The number of input arguments in the input buffer pointed to by the **InputArguments** member. Each argument starts with an [ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1) structure that specifies the size of the argument. Currently, the maximum **InputArgumentCount** value is one.
+[in] The number of input arguments in the input buffer pointed to by the **InputArguments** member. Each argument starts with an [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure that specifies the size of the argument. Currently, the maximum **InputArgumentCount** value is one.
 
 ### -field InputArgumentSize
 
@@ -96,11 +96,11 @@ If the PEP is to evaluate the method asynchronously, set this member to STATUS_P
 
 ### -field InputArguments
 
-[in] A pointer to an input buffer that contains an [ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1) structure that specifies the input argument for the specified ACPI control method.
+[in] A pointer to an input buffer that contains an [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure that specifies the input argument for the specified ACPI control method.
 
 ### -field OutputArgumentCount
 
-[in] The number of output arguments in the output buffer pointed to by the **OutputArguments** member. Each argument starts with an [ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1) structure that specifies the size of the argument. Currently, the maximum allowed **OutputArgumentCount** value is one.
+[in] The number of output arguments in the output buffer pointed to by the **OutputArguments** member. Each argument starts with an [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure that specifies the size of the argument. Currently, the maximum allowed **OutputArgumentCount** value is one.
 
 ### -field OutputArgumentSize
 
@@ -108,7 +108,7 @@ If the PEP is to evaluate the method asynchronously, set this member to STATUS_P
 
 ### -field OutputArguments
 
-[in] A pointer to an output buffer to which the PEP writes an [ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1) structure that contains the result of evaluating the specified ACPI control method.
+[in] A pointer to an output buffer to which the PEP writes an [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure that contains the result of evaluating the specified ACPI control method.
 
 #### - ( unnamed union )
 
@@ -118,16 +118,16 @@ If the PEP is to evaluate the method asynchronously, set this member to STATUS_P
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_evaluate_control_method) notification. The **MethodStatus** member contains an output value that the PEP writes to the structure in response to this notification. The **OutputArgumentSize** member contains an input value supplied by PoFx when the notification is sent. The PEP may overwrite this input value with an output value if the input value is less than the required output buffer size. All other members of this structure contain input values that are supplied by PoFx when the notification is sent.
+This structure is used by the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD]() notification. The **MethodStatus** member contains an output value that the PEP writes to the structure in response to this notification. The **OutputArgumentSize** member contains an input value supplied by PoFx when the notification is sent. The PEP may overwrite this input value with an output value if the input value is less than the required output buffer size. All other members of this structure contain input values that are supplied by PoFx when the notification is sent.
 
 The unnamed union in this structure contains either the four-character path-relative control method name (if **RequestFlags** = PEP_ACPI_ECM_FLAG_RELATIVE_NAME) or the fully qualified control method name (if **RequestFlags** = PEP_ACPI_ECM_FLAG_FULLY_QUALIFIED_NAME).
 
 ## -see-also
 
-[ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1)
+[ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md)
 
 [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)
 
-[PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_evaluate_control_method)
+[PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD]()
 
-[PEP_NOTIFY_ACPI_REGISTER_DEVICE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device)
+[PEP_NOTIFY_ACPI_REGISTER_DEVICE](./ns-pepfx-_pep_acpi_register_device.md)

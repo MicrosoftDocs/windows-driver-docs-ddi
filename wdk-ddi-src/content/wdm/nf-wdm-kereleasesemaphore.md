@@ -62,7 +62,7 @@ The **KeReleaseSemaphore** routine releases the specified semaphore object.
 
 ### -param Wait
 
-[in] Specifies whether the call to **KeReleaseSemaphore** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseSemaphore** call must be followed by a call to [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects), **KeWaitForMutexObject**, or [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject). For more information, see the following Remarks section.
+[in] Specifies whether the call to **KeReleaseSemaphore** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseSemaphore** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 
@@ -86,10 +86,10 @@ Callers of **KeReleaseSemaphore** must be running at IRQL <= DISPATCH_LEVEL prov
 
 ## -see-also
 
-[KeInitializeSemaphore](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializesemaphore)
+[KeInitializeSemaphore](./nf-wdm-keinitializesemaphore.md)
 
-[KeReadStateSemaphore](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatesemaphore)
+[KeReadStateSemaphore](./nf-wdm-kereadstatesemaphore.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

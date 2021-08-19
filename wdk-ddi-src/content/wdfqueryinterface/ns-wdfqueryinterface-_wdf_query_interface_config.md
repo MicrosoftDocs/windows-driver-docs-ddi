@@ -70,7 +70,7 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">IN
 A pointer to the GUID that identifies the interface.
 
 > [!NOTE]
-> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of the [**INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of the [**INTERFACE**](../wdm/ns-wdm-_interface.md) structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ### -field SendQueryToParentStack
 
@@ -160,4 +160,3 @@ For more information about driver-defined interfaces, see <a href="/windows-hard
 
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>
-

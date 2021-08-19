@@ -58,7 +58,7 @@ The **KePulseEvent** routine atomically sets an event object to a signaled state
 
 ### -param Wait
 
-[in] Specifies a Boolean value that signifies whether the call to **KePulseEvent** will be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KePulseEvent** call is immediately followed by a call to [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects), **KeWaitForMutexObject**, or [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject). For more information, see the following Remarks section.
+[in] Specifies a Boolean value that signifies whether the call to **KePulseEvent** will be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KePulseEvent** call is immediately followed by a call to [KeWaitForMultipleObjects](../wdm/nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](../wdm/nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 
@@ -79,14 +79,14 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 ## -see-also
 
-[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[KeInitializeEvent](../wdm/nf-wdm-keinitializeevent.md)
 
-[KeReadStateEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent)
+[KeReadStateEvent](../wdm/nf-wdm-kereadstateevent.md)
 
-[KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent)
+[KeResetEvent](../wdm/nf-wdm-keresetevent.md)
 
-[KeSetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent)
+[KeSetEvent](../wdm/nf-wdm-kesetevent.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](../wdm/nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](../wdm/nf-wdm-kewaitforsingleobject.md)

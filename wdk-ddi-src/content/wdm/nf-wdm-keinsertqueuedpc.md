@@ -50,15 +50,15 @@ The **KeInsertQueueDpc** routine queues a DPC for execution.
 
 ### -param Dpc
 
-[in, out] Pointer to the [KDPC](/windows-hardware/drivers/kernel/eprocess) structure for the DPC object. This structure must have been initialized by either [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc) or [KeInitializeThreadedDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc).
+[in, out] Pointer to the [KDPC](/windows-hardware/drivers/kernel/eprocess) structure for the DPC object. This structure must have been initialized by either [KeInitializeDpc](./nf-wdm-keinitializedpc.md) or [KeInitializeThreadedDpc](./nf-wdm-keinitializethreadeddpc.md).
 
 ### -param SystemArgument1
 
-[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument1* parameter to the DPC object's [CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine) or [CustomThreadedDpc](nc-wdm-kdeferred_routine.md) routine.
+[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument1* parameter to the DPC object's [CustomDpc](./nc-wdm-kdeferred_routine.md) or [CustomThreadedDpc](nc-wdm-kdeferred_routine.md) routine.
 
 ### -param SystemArgument2
 
-[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument2* parameter to the DPC object's [CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine) or *CustomThreadedDpc* routine.
+[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument2* parameter to the DPC object's [CustomDpc](./nc-wdm-kdeferred_routine.md) or *CustomThreadedDpc* routine.
 
 ## -returns
 
@@ -72,10 +72,10 @@ Note that a particular DPC object and the function that it represents can each b
 
 ## -see-also
 
-[CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine)
+[CustomDpc](./nc-wdm-kdeferred_routine.md)
 
 [CustomThreadedDpc](nc-wdm-kdeferred_routine.md)
 
-[KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc)
+[KeInitializeDpc](./nf-wdm-keinitializedpc.md)
 
-[KeRemoveQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc)
+[KeRemoveQueueDpc](./nf-wdm-keremovequeuedpc.md)
