@@ -83,7 +83,7 @@ Starting in Windows Server 2022, the operating system no longer splits large NUM
 
 > [!NOTE]
 > To re-enable the legacy node splitting behavior, make the following change to the registry and reboot the system:
-> `reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNumaNodes /t REG_DWORD /v 1`
+> `reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NUMA" /v SplitLargeNodes /t REG_DWORD /d 1`
 
 
 If your driver maps processors to NUMA nodes by calling [**KeQueryNodeActiveAffinity**](./nf-wdm-kequerynodeactiveaffinity.md), and your code runs on systems with more than 64 processors per NUMA node, use one of the following workarounds:
