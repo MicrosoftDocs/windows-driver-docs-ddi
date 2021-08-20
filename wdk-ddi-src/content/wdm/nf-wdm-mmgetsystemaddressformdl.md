@@ -75,7 +75,7 @@ The MDL must describe nonpageable memory. In other words, the input MDL must des
 
 The returned base address has the same offset as the virtual address in the MDL.
 
-Windows 2000 issues a bug check if the attempt to map to system space fails. (Therefore, you should use <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a> instead). In Windows 98, this routine returns <b>NULL</b> in case of failure.
+Windows 2000 issues a bug check if the attempt to map to system space fails. (Therefore, you should use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetsystemaddressformdlsafe.md">MmGetSystemAddressForMdlSafe</a> instead). In Windows 98, this routine returns <b>NULL</b> in case of failure.
 
 ## -see-also
 
@@ -83,7 +83,7 @@ Windows 2000 issues a bug check if the attempt to map to system space fails. (Th
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetsystemaddressformdlsafe.md">MmGetSystemAddressForMdlSafe</a>
 
 
 
