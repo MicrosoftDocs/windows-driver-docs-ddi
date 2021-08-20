@@ -1,11 +1,11 @@
 ---
 UID: NS:wificx._WIFI_DEVICE_CONFIG
 tech.root: netvista
-title: WIFI_DEVICE_CONFIG
-ms.date: 04/30/2021
+title: WIFI_DEVICE_CONFIG (wificx.h)
+ms.date: 08/18/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WIFI_DEVICE_CONFIG structure contains pointers to a client driver's WiFiCx-specific callback functions.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -41,34 +41,43 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+The **WIFI_DEVICE_CONFIG** structure contains pointers to a client driver's WiFiCx-specific callback functions. The client driver must supply an initialized **WIFI_DEVICE_CONFIG** structure as an input parameter to [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
 
-This function is reserved for system use and should not be called in your code.
 
 ## -struct-fields
 
 ### -field Size
 
-Reserved.
+The size of this **WIFI_DEVICE_CONFIG** structure, in bytes.
 
 ### -field WdiVersion
 
-Reserved.
+The WDI version.
 
 ### -field SendCommand
 
-Reserved.
+A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_SEND_COMMAND*](nc-wificx-evt_wifi_device_send_command.md) callback function.
 
 ### -field CreateAdapter
 
-Reserved.
+A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md) callback function.
 
 ### -field CreateWifiDirectDevice
 
-Reserved.
+A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) callback function.
 
 ## -remarks
 
+Call [**WIFI_DEVICE_CONFIG_INIT**](nf-wificx-wifi_device_config_init.md) to initialize this structure.
+
 ## -see-also
 
+[**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
+
+[*EVT_MBB_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md)
+
+[*EVT_WIFI_DEVICE_SEND_COMMAND*](nc-wificx-evt_wifi_device_send_command.md)
+
+[*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md)
+
+[**WIFI_DEVICE_CONFIG_INIT**](nf-wificx-wifi_device_config_init.md)

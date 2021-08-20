@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiDeviceGetOsWdiVersion
 tech.root: netvista
-title: WifiDeviceGetOsWdiVersion
+title: WifiDeviceGetOsWdiVersion (wificx.h)
 ms.date: 04/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiDeviceGetOsWdiVersion function gets the TLV version that WifiCx uses to initialize client driver's TLV parser/generator.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,20 +42,22 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiDeviceGetOsWdiVersion** function gets the TLV version that WifiCx uses to initialize client driver's [TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-parser).
 
 ## -parameters
 
 ### -param Device
 
-Reserved.
+[_In_] A handle to a framework device object that the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -returns
+
+Returns the TLV version that WifiCx uses to initialize client driver's TLV parser/generator.
 
 ## -remarks
 
 ## -see-also
 
+[WiFiCx TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-parser)
+
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)

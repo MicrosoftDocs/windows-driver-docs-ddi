@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WIFI_DEVICE_CONFIG_INIT
 tech.root: netvista
-title: WIFI_DEVICE_CONFIG_INIT
-ms.date: 04/30/2021
+title: WIFI_DEVICE_CONFIG_INIT (wificx.h)
+ms.date: 08/18/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WIFI_DEVICE_CONFIG_INIT function initializes the WIFI_DEVICE_CONFIG structure.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,34 +42,45 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_DEVICE_CONFIG_INIT** function initializes the [**WIFI_DEVICE_CONFIG**](ns-wificx-wifi_device_config.md) structure.
 
 ## -parameters
 
 ### -param Config
 
-Reserved.
+[_Out_] A pointer to the client driver-allocated [**WIFI_DEVICE_CONFIG**](ns-wificx-wifi_device_config.md) structure.
 
 ### -param WdiVersion
 
-Reserved.
+[_In_] The WDI version.
 
 ### -param SendCommand
 
-Reserved.
+[_In_] A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_SEND_COMMAND*](nc-wificx-evt_wifi_device_send_command.md) callback function.
 
 ### -param CreateAdapter
 
-Reserved.
+[_In_] A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md) callback function.
 
-### -param CreateWifiDirectDevice
+### -field CreateWifiDirectDevice
 
-Reserved.
+[_In_] A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) callback function.
 
 ## -remarks
 
+The client driver calls this method from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) event callback function in preparation for calling [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
+
 ## -see-also
+
+[Writing a WiFiCx client driver](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver)
+
+[**WIFI_DEVICE_CONFIG**](ns-wificx-wifi_device_config.md)
+
+[*EVT_WIFI_DEVICE_SEND_COMMAND*](nc-wificx-evt_wifi_device_send_command.md)
+
+[*EVT_WIFI_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md)
+
+[*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md)
+
+[**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
 
