@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitSetComponentId
 tech.root: audio
 title: AcxFactoryCircuitInitSetComponentId
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
-description: 
+description: TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the Acx circuit factory initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the Acx circuit factory initialization process.
+
 ## -parameters
 
 ### -param FactoryInit
@@ -51,13 +53,38 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param ComponentId
 
+A defined GUID that serves as the component ID for the Circuit. For example:
+
+```cpp
+DEFINE_GUID(COMPONENT_GUID, 
+0xf55ba68e, 0x4384, 0x4030, 0x97, 0x19, 0xec, 0xa4, 0xbe, 0x27, 0x6c, 0xc8);
+```
+
 ## -remarks
 
 ### Example
 
 Example usage is shown below.
 
+TBD TBD TBD 
+
+TBD - Is it OK to show the SDC AXU FACTORY GUID? Do we need to put in all zeroes for the code example?
+
+TBD TBD TBD
+
 ```cpp
+DEFINE_GUID(SDCAXU_FACTORY_GUID, 
+0x63434534, 0xBD84, 0x8DFE, 0x7A, 0xAA, 0xFF, 0x84, 0xD8, 0x23, 0xAB, 0xBD);
+
+    //
+    // Get a FactoryCircuitInit structure.
+    //
+    factoryInit = AcxFactoryCircuitInitAllocate(Device);
+
+    //
+    // Add factory identifiers.
+    //
+    AcxFactoryCircuitInitSetComponentId(factoryInit, &SDCAXU_FACTORY_GUID);
 
 ```
 

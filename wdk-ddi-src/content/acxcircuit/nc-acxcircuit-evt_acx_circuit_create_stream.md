@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_CREATE_STREAM
 tech.root: audio
 title: EVT_ACX_CIRCUIT_CREATE_STREAM
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -47,6 +47,9 @@ dev_langs:
 ### -param Device
 
 ### -param Circuit
+
+TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+
 
 ### -param Pin
 

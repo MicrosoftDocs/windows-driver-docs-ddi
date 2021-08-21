@@ -48,6 +48,9 @@ dev_langs:
 
 ### -param Circuit
 
+TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+
+
 ### -param ResourcesTranslated
 
 ## -returns

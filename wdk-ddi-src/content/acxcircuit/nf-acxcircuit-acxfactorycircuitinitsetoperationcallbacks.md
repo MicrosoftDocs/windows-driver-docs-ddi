@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitSetOperationCallbacks
 tech.root: audio
 title: AcxFactoryCircuitInitSetOperationCallbacks
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
-description: 
+description: TBD - The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
+
 ## -parameters
 
 ### -param FactoryInit
@@ -51,6 +53,8 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param EvtOperationCallbacks
 
+An [ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure](ns-acxcircuit-acx_factory_circuit_operation_callbacks.md) that identifies the driver callbacks for ACX factory operations.
+
 ## -remarks
 
 ### Example
@@ -58,6 +62,28 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 Example usage is shown below.
 
 ```cpp
+    //
+    // Get a FactoryCircuitInit structure.
+    //
+    PACXFACTORYCIRCUIT_INIT factoryInit = NULL;
+    factoryInit = AcxFactoryCircuitInitAllocate(Device);
+
+    //
+    // Add factory identifiers.
+    //
+    RETURN_NTSTATUS_IF_FAILED(AcxFactoryCircuitInitAssignComponentUri(factoryInit, &dspFactoryUri));
+    RETURN_NTSTATUS_IF_FAILED(AcxFactoryCircuitInitAssignName(factoryInit, &dspFactoryName));
+
+    //
+    // Assign the circuit's operation-callbacks.
+    //
+    ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS operationCallbacks;
+    ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT(&operationCallbacks);
+
+    operationCallbacks.EvtAcxFactoryCircuitCreateCircuitDevice = Dsp_EvtAcxFactoryCircuitCreateCircuitDevice;
+    operationCallbacks.EvtAcxFactoryCircuitCreateCircuit = Dsp_EvtAcxFactoryCircuitCreateCircuit;
+    AcxFactoryCircuitInitSetOperationCallbacks(factoryInit, &operationCallbacks);
+
 
 ```
 

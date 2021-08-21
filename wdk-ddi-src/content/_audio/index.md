@@ -2,8 +2,8 @@
 UID: TP:audio
 title: Audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
-ms.date: 08/19/2021
-description: This topic describes the headers that are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
+ms.date: 08/20/2021
+description: This topic describes the headers that are used to create Microsoft Windows WDM and ACX audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 keywords: ["Audio"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -17,7 +17,7 @@ ms.topic: portal
 
 These headers are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data. 
 
-To develop portcls audio drivers, you can use these headers:
+To develop WDM portcls audio drivers, you can use these headers:
 
  * [bthhfpddi.h](../bthhfpddi/index.md)
  * [dmusicks.h](../dmusicks/index.md)
@@ -33,6 +33,6 @@ To develop audio class extension (ACX) drivers, you can use these headers:
 
  * [acxcircuit.h](../acxcircuit/index.md)
  * [acxdevice.h](../acxdevice/index.md)
- * [acxstream.h](../acxstream/index.md)
+ * [acxstreams.h](../acxstreams/index.md)
 
 For programming information, see [Audio Devices Design Guide](/windows-hardware/drivers/audio).

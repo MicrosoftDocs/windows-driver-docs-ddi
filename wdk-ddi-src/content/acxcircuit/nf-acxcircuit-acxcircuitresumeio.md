@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitResumeIo
 tech.root: audio
 title: AcxCircuitResumeIo
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
-description: 
+description: TBD - The AcxCircuitResumeIo function is used to resume circuit IO after it has been stopped.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,28 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxCircuitResumeIo function is used to resume circuit IO after it has been stopped.
+
 ## -parameters
 
 ### -param Circuit
 
+TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+
 ## -remarks
+
+TBD - Add resume to this table?
+
+ACX Events are analogous to KS states as described in this table.
+
+| Start State | End State | ACX Driver Event Called | Notes                                                 |
+|-------------|-----------|-------------------------|-------------------------------------------------------|
+| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
+| ACQUIRE     | PAUSE     | Pause                   |                                                       |
+| PAUSE       | RUN       | Run                     |                                                       |
+| RUN         | PAUSE     | Pause                   |                                                       |
+| PAUSE       | ACQUIRE   | No call                 |                                                       |
+| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
 ### Example
 
@@ -54,6 +71,33 @@ Example usage is shown below.
 
 ```cpp
 
+    BOOLEAN                         stoppedIo = FALSE;
+    circuit = AcxPinGetCircuit(pin);
+
+    //
+    // Temporarily disable this circuit's I/Os while we are updating the 
+    // formats. This thread cannot be an I/O dispatched thread else we deadlock.
+    //
+    status = AcxCircuitStopIo(circuit, AcxStopIoNoFlags);
+    if (!NT_SUCCESS(status))
+    {
+        HDTrace(TRACE_LEVEL_ERROR, FLAG_INFO, 
+                "Failed to stop I/O on circuit %p, %!STATUS!", 
+                circuit, status);
+        ASSERT(FALSE);
+        goto exit;
+    }
+    stoppedIo = TRUE;
+
+   // Code to update format list not shown here 
+
+...
+
+    if (stoppedIo)
+    {
+        AcxCircuitResumeIo(circuit);
+        stoppedIo = FALSE;
+    }
 ```
 
 ## -see-also

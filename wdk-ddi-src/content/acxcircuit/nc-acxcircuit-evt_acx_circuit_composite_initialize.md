@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -49,6 +49,9 @@ dev_langs:
 A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
 
 ### -param Circuit
+
+TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+
 
 ### -param CompositeProperties
 

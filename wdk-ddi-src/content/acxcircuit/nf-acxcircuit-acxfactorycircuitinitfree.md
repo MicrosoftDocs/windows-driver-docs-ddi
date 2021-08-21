@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitFree
 tech.root: audio
 title: AcxFactoryCircuitInitFree
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
-description: 
+description: The AcxFactoryCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The AcxFactoryCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
+
 ## -parameters
 
 ### -param FactoryInit
@@ -57,6 +59,23 @@ Example usage is shown below.
 
 ```cpp
 
+// Get a FactoryCircuitInit structure
+
+  ctrlInit = AcxFactoryCircuitInitAllocate(Device);
+
+...
+
+// Example exit routine that shows freeing an example init structure
+
+exit:
+    if (!NT_SUCCESS(status))
+    {
+        if (ctrlInit)
+        {
+            AcxFactoryCircuitInitFree(ctrlInit);
+            ctrlInit = nullptr;
+        }
+    }
 ```
 
 ## -see-also

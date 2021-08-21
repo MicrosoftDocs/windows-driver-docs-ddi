@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIo
 tech.root: audio
 title: AcxCircuitStopIo
-ms.date: 
+ms.date: 08/20/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -46,7 +46,14 @@ dev_langs:
 
 ### -param Circuit
 
+TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+
+
 ### -param Flags
+
+TBD
+TBD - Are any flags defined?
+TBD
 
 ## -remarks
 
