@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIoWithTag
 tech.root: audio
 title: AcxCircuitResumeIoWithTag
-ms.date: 08/20/2021
+ms.date: 08/23/2021
 targetos: Windows
 description: TBD - The AcxCircuitResumeIoWithTag function is used to resume circuit IO after it has been stopped. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitResumeIoWithTag function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information TBD ??. 
+TBD - The AcxCircuitResumeIoWithTag function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information TBD locate a WaveFormat stream tag ???. 
 
 ## -parameters
 
@@ -57,7 +57,7 @@ An optional Tag that is used to TBD. (can be displayed for diagnostic informatio
 
 ## -remarks
 
-TBD - Add resume to this table?
+TBD - Add resume and stop to this table?
 
 ACX Events are analogous to KS states as described in this table.
 

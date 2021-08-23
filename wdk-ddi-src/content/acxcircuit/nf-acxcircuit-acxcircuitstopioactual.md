@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitStopIoActual
 tech.root: audio
 title: AcxCircuitStopIoActual
-ms.date: 08/20/2021
+ms.date: 08/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxCircuitStopIoActual function is used to stop circuit IO after it has been in a run or TBD pause??? state.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,10 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxCircuitStopIoActual function is used to stop circuit IO after it has been in a run or TBD pause??? state.
+
+It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstop.md) in that it can contain additional ObjectTag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
+
 ## -parameters
 
 ### -param Circuit
@@ -50,9 +54,8 @@ TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Objec
 
 ### -param Flags
 
-TBD
-TBD - Are any flags defined?
-TBD
+Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
+TBD - Currently no flags are defined, so set this to `AcxStopIoNoFlags`. 
 
 ### -param ObjectTag
 
@@ -70,7 +73,7 @@ The File that is used to TBD. (can be displayed for diagnostic information??? TB
 
 ## -remarks
 
-TBD - Add resume to this table?
+TBD - Add resume and stop to this table?
 
 ACX Events are analogous to KS states as described in this table.
 
@@ -84,6 +87,8 @@ ACX Events are analogous to KS states as described in this table.
 | ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
 ### Example
+
+TBD - No sample or unit test code found.
 
 Example usage is shown below.
 

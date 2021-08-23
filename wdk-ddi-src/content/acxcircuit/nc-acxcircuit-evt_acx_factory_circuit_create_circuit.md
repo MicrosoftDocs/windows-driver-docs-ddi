@@ -57,6 +57,8 @@ The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to Thi
 
 A pointer to a location that receives a handle to the new framework device object.
 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+
 ### -param Factory
 
   ACXFACTORYCIRCUIT Factory,

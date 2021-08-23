@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignComponentUri
 tech.root: audio
 title: AcxFactoryCircuitInitAssignComponentUri
-ms.date: 08/18/2021
+ms.date: 08/23/2021
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignComponentUri function assigns a ComponentUri that will be used for the circuit initialization.
 prerelease: true
@@ -57,7 +57,9 @@ TBD - A unicode string describes the component that is used as a URI to TBD TBD 
 
 TBD - In one sample this looked like it should match an ACPI value, DISCO or something???
 
-    DECLARE_CONST_UNICODE_STRING(dspFactoryUri, L"acpi:obj-path:\\_SB.PC00.HDAS");
+`DECLARE_CONST_UNICODE_STRING(dspFactoryUri, L"acpi:obj-path:\\_SB.PC00.HDAS");`
+
+TBD TBD TBD
 
 ## -returns
 

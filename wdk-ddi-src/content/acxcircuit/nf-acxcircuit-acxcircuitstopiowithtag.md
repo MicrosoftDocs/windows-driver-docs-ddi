@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitStopIoWithTag
 ms.date: 08/20/2021
 targetos: Windows
-description: 
+description: TBD - The AcxCircuitStopIoWithTag function is used to stop circuit IO after it has been in a run or TBD pause??? state.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,26 +42,26 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxCircuitStopIoWithTag function is used to stop circuit IO after it has been in a run or TBD pause??? state. It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstop.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
+
 ## -parameters
 
 ### -param Circuit
 
 TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
 
-
 ### -param Flags
 
-TBD
-TBD - Are any flags defined?
-TBD
+Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
+TBD - Currently no flags are defined, so set this to `AcxStopIoNoFlags`. 
 
 ### -param Tag
 
-An optional Tag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional Tag that is used to locate the TBD TBD. (can be displayed for diagnostic information??? TBD)
 
 ## -remarks
 
-TBD - Add resume to this table?
+TBD - Add resume and stop to this table?
 
 ACX Events are analogous to KS states as described in this table.
 
@@ -77,6 +77,8 @@ ACX Events are analogous to KS states as described in this table.
 ### Example
 
 Example usage is shown below.
+
+TBD - No sample or unit test code found
 
 ```cpp
 

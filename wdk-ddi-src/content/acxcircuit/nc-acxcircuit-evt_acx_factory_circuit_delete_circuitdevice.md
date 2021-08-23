@@ -50,6 +50,8 @@ dev_langs:
 
 ### -param Device
 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+
 ## -returns
 
 ## -remarks

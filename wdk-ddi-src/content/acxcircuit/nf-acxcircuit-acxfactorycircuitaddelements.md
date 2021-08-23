@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitAddElements
 tech.root: audio
 title: AcxFactoryCircuitAddElements
-ms.date: 08/18/2021
+ms.date: 08/23/2021
 targetos: Windows
-description: 
+description: The AcxFactoryCircuitAddElements function adds elements to an existing or new TBD? circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -41,16 +41,28 @@ dev_langs:
 ---
 
 ## -description
+The AcxFactoryCircuitAddElements function adds elements to an existing or new TBD? circuit.
 
 ## -parameters
 
 ### -param Circuit
 
+TBD - An existing (TBD?) ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+ 
 ### -param Elements
+
+TBD - An ACXELEMENT circuit object (TBD - array?).  (DocsTeam - need link to ACX Object Summary topic).
+ 
+`_In_reads_(ElementsCount) ACXELEMENT*   Elements,`
 
 ### -param ElementsCount
 
+TBD - The number of elements that will be added to the circuit. This is a TBD zero / one based count.
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+
 
 ## -remarks
 
@@ -60,6 +72,15 @@ Example usage is shown below.
 
 ```cpp
 
+    ACXAUDIOMODULE                      audioModuleElement;
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, SYSVAD_PNPEVENT_CONTEXT);
+    attributes.ParentObject = audioModuleElement;
+    status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
+
+    audioModuleCtx->Event = audioModuleEvent;
+
+    status = AcxFactoryCircuitAddElements(Factory, (ACXELEMENT *) &audioModuleElement, 1);
 ```
 
 ## -see-also
