@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
-ms.date: 
+ms.date: 08/23/2021
 targetos: Windows
 description: 
 prerelease: true

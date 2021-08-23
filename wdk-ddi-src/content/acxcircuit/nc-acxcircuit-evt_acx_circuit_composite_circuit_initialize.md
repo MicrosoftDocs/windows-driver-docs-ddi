@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The EvtAcxStreamPause event tells the driver when the stream is paused. ??? TBD
+
 ## -parameters
 
 ### -param Device
