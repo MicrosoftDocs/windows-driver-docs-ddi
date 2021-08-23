@@ -81,7 +81,7 @@ When creating a partial MDL:
 * If the original MDL was not mapped in system space, the partial MDL is not either.  If you need a system mode address, call [**MmGetSystemAddressForMdlSafe**](/windows-hardware/drivers/kernel/mm-bad-pointer) on the partial MDL.
 * If you do not know which of the above applies, it is safe to call [**MmGetSystemAddressForMdlSafe**](/windows-hardware/drivers/kernel/mm-bad-pointer) regardless.  If a partial MDL is built from a source MDL that is already mapped into the system address space, <b>MmGetSystemAddressForMdlSafe</b> uses the existing source mapping. Otherwise, <b>MmGetSystemAddressForMdlSafe</b> creates a new mapping.
 
-To prevent this new mapping from being leaked, drivers must call <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmPrepareMdlForReuse</a> before reusing a partial MDL. In addition, the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl">IoFreeMdl</a> routine releases the system-address-space mapping for a partial MDL, if such a mapping exists.
+To prevent this new mapping from being leaked, drivers must call [MmPrepareMdlForReuse](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpreparemdlforreuse) before reusing a partial MDL. In addition, the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl">IoFreeMdl</a> routine releases the system-address-space mapping for a partial MDL, if such a mapping exists.
 
 For more information about MDLs, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
@@ -107,7 +107,7 @@ For more information about MDLs, see <a href="/windows-hardware/drivers/kernel/u
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmPrepareMdlForReuse</a>
+[MmPrepareMdlForReuse](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpreparemdlforreuse)
 
 
 

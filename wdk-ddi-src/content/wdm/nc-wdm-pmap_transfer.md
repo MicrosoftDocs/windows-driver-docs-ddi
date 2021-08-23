@@ -98,7 +98,7 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
+[ADDRESS_AND_SIZE_TO_SPAN_PAGES](/windows-hardware/drivers/ddi/wdm/nf-wdm-address_and_size_to_span_pages)
 
 
 

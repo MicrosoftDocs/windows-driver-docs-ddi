@@ -57,7 +57,7 @@ Handle to a section object. This handle is created by a successful call to <a hr
 ### -param ProcessHandle 
 
 [in]
-Handle to the object that represents the process that the view should be mapped into. Use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentProcess</a> macro to specify the current process. The handle must have been opened with PROCESS_VM_OPERATION access (described in the Microsoft Windows SDK documentation).
+Handle to the object that represents the process that the view should be mapped into. Use the [ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process. The handle must have been opened with PROCESS_VM_OPERATION access (described in the Microsoft Windows SDK documentation).
 
 ### -param BaseAddress 
 
@@ -206,7 +206,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentProcess</a>
+[ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess)
 
 
 
