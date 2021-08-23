@@ -92,7 +92,7 @@ Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfe
 
 To ensure that a DMA transfer is complete, every driver that performs DMA operations must call <b>FlushAdapterBuffers</b> before completing the IRP that requested the DMA transfer and before freeing the map registers.
 
-A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>. However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation.
+A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md). However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation.
 
 ## -see-also
 
@@ -120,5 +120,5 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 

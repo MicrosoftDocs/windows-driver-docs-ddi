@@ -241,7 +241,7 @@ if(!NT_SUCCESS(status)) {
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 
 
 

@@ -74,7 +74,7 @@ A pointer to an NDK memory window (MW) object (<a href="/windows-hardware/driver
 [in]
 A virtual address that must be greater than or equal to the virtual address of the MDL for the MR and less than the virtual address of the MDL for the MR plus the value in the <i>Length</i> parameter.
 
-Use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro to obtain the virtual address of the MDL for the MR.
+Use the [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md) macro to obtain the virtual address of the MDL for the MR.
 
 ### -param Length 
 
@@ -219,7 +219,7 @@ This function does not support a zero-based virtual address.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 
 
 

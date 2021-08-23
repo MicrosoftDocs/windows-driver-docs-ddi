@@ -103,7 +103,7 @@ For more information about MDLs, see <a href="/windows-hardware/drivers/kernel/u
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+[MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md)
 
 
 

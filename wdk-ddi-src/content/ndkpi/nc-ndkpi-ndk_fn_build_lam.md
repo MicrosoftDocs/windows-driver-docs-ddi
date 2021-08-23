@@ -62,7 +62,7 @@ A pointer to an NDK adapter object (<a href="/windows-hardware/drivers/ddi/ndkpi
 ### -param Length 
 
 [in]
-The number of bytes to map starting from the first MDL's virtual address.  The MDL virtual address can be obtained with the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro. <i>Length</i> must not exceed the total number of bytes represented by the MDL chain.
+The number of bytes to map starting from the first MDL's virtual address.  The MDL virtual address can be obtained with the [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md) macro. <i>Length</i> must not exceed the total number of bytes represented by the MDL chain.
 
 ### -param RequestCompletion 
 
@@ -179,13 +179,13 @@ An NDK consumer can call  the <i>NdkGetPrivilegedMemoryRegionToken</i> (<a href=
 
 All adapter pages returned by an NDK provider must be of <b>PAGE_SIZE</b> bytes in length, where <b>PAGE_SIZE</b> is the memory page size that is supported by the host platform as defined in wdm.h.
 
-The provider must treat the virtual address value that the  <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>   macro returns for the MDL as an index to the start of the memory region being mapped. The provider must not use the virtual address value as a valid virtual address for reading or writing buffer contents.
+The provider must treat the virtual address value that the  [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)   macro returns for the MDL as an index to the start of the memory region being mapped. The provider must not use the virtual address value as a valid virtual address for reading or writing buffer contents.
 
 If a provider has an error while processing an <i>NdkBuildLam</i> request, the provider must release any partial mappings it built internally thus far before completing the request with failure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 
 
 

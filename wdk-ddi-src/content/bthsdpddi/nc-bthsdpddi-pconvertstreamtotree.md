@@ -108,7 +108,7 @@ Each SDP_NODE structure contains an
     <code>Node.hdr.Link.Blink</code>, drivers can obtain the addresses of peer
     nodes in the tree. Keep in mind that the pointers in the LIST_ENTRY structure hold addresses to other
     LIST_ENTRY structures, and that Bluetooth drivers must use the 
-    <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> memory manager macro to
+    [**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record) memory manager macro to
     extract the address of the containing node record.
 
 By using the 
@@ -142,7 +142,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
+[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)
 
 
 
