@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamPause event tells the driver when the stream is paused. ??? TBD
+The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is initialized using the TBD function is called,  TBD TBD. The Circuit object bag will contain TBD that can be used for TBD.
 
 ## -parameters
 
@@ -54,10 +54,16 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
 
-
 ### -param CircuitProperties
 
+TBD - Optional handle to CircuitProperties. This is an existing ACXOBJECTBAG circuit object properties.  (DocsTeam - need link to ACX Object Summary topic).
+
+ACXOBJECTBAG CircuitProperties
+
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -65,7 +71,47 @@ TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Objec
 
 Example usage is shown below.
 
+
+TBD TBD TBD
+
+TBD - This sample code just seems to be showing how to get the object bag, but then doesn't do anything with it?
+
+TBD TBD TBD 
+
 ```cpp
+DspR_EvtCircuitCompositeCircuitInitialize(
+    _In_     WDFDEVICE      Device,
+    _In_     ACXCIRCUIT     Circuit,
+    _In_opt_ ACXOBJECTBAG   CircuitProperties
+    )
+{
+    NTSTATUS status = STATUS_SUCCESS;
+
+    PAGED_CODE();
+    
+    UNREFERENCED_PARAMETER(Device);
+    UNREFERENCED_PARAMETER(Circuit);
+
+    if (CircuitProperties != NULL)
+    {
+        DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(msft, TestUI4);
+        ULONG testUI4;
+
+        status = AcxObjectBagRetrieveUI4(CircuitProperties, &TestUI4, &testUI4);
+        if (!NT_SUCCESS(status))
+        {
+            ASSERT(FALSE);
+            goto exit;
+        }
+    }
+    
+    // All done.
+    status = STATUS_SUCCESS;
+
+exit:
+    return status;
+}
+
 
 ```
 

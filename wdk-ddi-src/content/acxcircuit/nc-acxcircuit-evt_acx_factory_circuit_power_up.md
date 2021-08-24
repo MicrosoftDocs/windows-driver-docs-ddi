@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 ms.date: 08/23/2021
 targetos: Windows
-description: 
+description: TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered up using the TBD function is called,  TBD TBD. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered up using the TBD function is called,  TBD TBD. 
+
 ## -parameters
 
 ### -param Device
@@ -53,6 +55,8 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 ### -param PreviousState
 
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 

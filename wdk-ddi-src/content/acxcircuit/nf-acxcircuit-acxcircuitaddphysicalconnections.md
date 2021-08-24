@@ -48,7 +48,7 @@ The AcxCircuitAddPhysicalConnections function adds physical connections to an ex
 
 ### -param Circuit
 
-TBD - An ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing (TBD?) ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
  
 ### -param Connections
 

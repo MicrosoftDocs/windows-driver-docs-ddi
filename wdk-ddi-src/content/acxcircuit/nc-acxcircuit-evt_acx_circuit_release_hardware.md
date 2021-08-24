@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_RELEASE_HARDWARE
 ms.date: 08/23/2021
 targetos: Windows
-description: 
+description: TBD - The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the release hardware phase, using the TBD function is called,  TBD TBD. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the release hardware phase, using the TBD function is called, or something else... TBD TBD. 
+
 ## -parameters
 
 ### -param Device
@@ -52,10 +54,13 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
 
-
 ### -param ResourcesTranslated
 
+A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -63,8 +68,35 @@ TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Objec
 
 Example usage is shown below.
 
-```cpp
+TBD - Do we have any hardware sample code we can use here with and actual resource list?
 
+```cpp
+EVT_ACX_CIRCUIT_RELEASE_HARDWARE    EvtCircuitReleaseHardware;
+
+NTSTATUS
+EvtCircuitReleaseHardware(
+    _In_ WDFDEVICE      Device,
+    _In_ ACXCIRCUIT     Circuit,
+    _In_ WDFCMRESLIST   ResourcesTranslated
+    )
+{
+    PCIRCUIT_CONTEXT    circuitCtx  = GetCircuitContext(Circuit);
+    CIpcEventReader *   eventReader = circuitCtx->EventReader;
+
+    PAGED_CODE();
+
+    UNREFERENCED_PARAMETER(Device);
+    UNREFERENCED_PARAMETER(ResourcesTranslated);
+
+    //
+    // Disable 'remote' circuit notifications.
+    //
+    ASSERT(eventReader);
+    eventReader->DisableEvents();
+
+    // This should always succeed.
+    return STATUS_SUCCESS;
+}
 ```
 
 ## -see-also

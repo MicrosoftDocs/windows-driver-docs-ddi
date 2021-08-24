@@ -54,6 +54,8 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ## -returns
 
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+
 ## -remarks
 
 ### Example

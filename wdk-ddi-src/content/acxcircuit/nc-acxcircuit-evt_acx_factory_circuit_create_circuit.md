@@ -42,8 +42,9 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to This function is located in the acxcircuit header.
+The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to TBD This function is located in the acxcircuit header.
 
+TBD - The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the release hardware phase, using the TBD function is called,  TBD TBD. 
 
 
 ## -parameters
@@ -53,19 +54,26 @@ The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to Thi
 
 ### -param Device
 
-  WDFDEVICE Device,
-
 A pointer to a location that receives a handle to the new framework device object.
 
 A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
 
 ### -param Factory
 
-  ACXFACTORYCIRCUIT Factory,
+TBD TBD TBD 
+A pointer to a location that receives (TBD??) a handle to the new ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
+
 
 ### -param Config
 
   PACX_FACTORY_CIRCUIT_ADD_CIRCUIT Config,
+
+
+
+TBD- The ACXCIRCUIT_INIT structure that defines the circuit factory initialization. ACXCIRCUIT_INIT is an opaque object used for circuit factory initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+
+
+
 
 ### -param CircuitInit
 
@@ -73,7 +81,8 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 
 ## -returns
 
-TBD
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+
 
 ## -remarks
 
@@ -86,10 +95,63 @@ An AcxCircuit has a dedicated WDF queue. For more information about WDF queues, 
 
 Example usage is shown below.
 
-TBD - No sample code found
+TBD - Should we replace msft with contoso?
 
 ```cpp
+EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT Dsp_EvtAcxFactoryCircuitCreateCircuit;
 
+NTSTATUS
+Dsp_EvtAcxFactoryCircuitCreateCircuit(
+    _In_ WDFDEVICE                          Parent,
+    _In_ WDFDEVICE                          Device,
+    _In_ ACXFACTORYCIRCUIT                  Factory,
+    _In_ PACX_FACTORY_CIRCUIT_ADD_CIRCUIT   CircuitConfig,
+    _In_ PACXCIRCUIT_INIT                   CircuitInit
+)
+{
+    ACXOBJECTBAG circuitProperties;
+
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(msft, CircuitId);
+
+    PAGED_CODE();
+
+    NTSTATUS status = STATUS_SUCCESS;
+
+    // Create object bag from the CompositeProperties
+    ACX_OBJECTBAG_CONFIG propConfig;
+    ACX_OBJECTBAG_CONFIG_INIT(&propConfig);
+    propConfig.Handle = CircuitConfig->CircuitProperties;
+    propConfig.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+    WDF_OBJECT_ATTRIBUTES attributes;
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &propConfig, &circuitProperties));
+
+    auto cleanupPropConfig = scope_exit([=]() {
+        WdfObjectDelete(circuitProperties);
+        }
+    );
+
+    // Retrieve the intended Circuit ID from the object bag
+    GUID circuitId;
+    RETURN_NTSTATUS_IF_FAILED(Dsp_DetermineCircuitGuidFromVendorProperties(circuitProperties, &circuitId));
+
+    AcxCircuitInitSetComponentId(CircuitInit, &circuitId);
+
+    // Call the appropriate CreateCircuitDevice based on the Circuit ID
+    if (IsEqualGUID(circuitId, DSP_CIRCUIT_MICROPHONE_GUID) || IsEqualGUID(circuitId, DSP_CIRCUIT_UNIVERSALJACK_CAPTURE_GUID))
+    {
+        return DspC_EvtAcxFactoryCircuitCreateCircuit(Parent, Device, Factory, CircuitConfig, CircuitInit);
+    }
+    else if (IsEqualGUID(circuitId, DSP_CIRCUIT_SPEAKER_GUID) || IsEqualGUID(circuitId, DSP_CIRCUIT_UNIVERSALJACK_RENDER_GUID))
+    {
+        return DspR_EvtAcxFactoryCircuitCreateCircuit(Parent, Device, Factory, CircuitConfig, CircuitInit);
+    }
+
+    status = STATUS_NOT_SUPPORTED;
+    return status;
+}
 ```
 
 ## -see-also

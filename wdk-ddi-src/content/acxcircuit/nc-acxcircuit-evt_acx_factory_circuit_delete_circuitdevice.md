@@ -44,8 +44,6 @@ dev_langs:
 
 ## -parameters
 
-### -param Parent
-
 ### -param Factory
 
 ### -param Device
@@ -53,6 +51,8 @@ dev_langs:
 A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
 
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 

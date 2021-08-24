@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is de-initialized using the TBD function is called,  TBD TBD. The circuit object bag will contain TBD that can be used by the driver for TBD.
+
 ## -parameters
 
 ### -param Device
@@ -52,17 +54,50 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
 
-
 ### -param CompositeProperties
+
+TBD - Optional handle to CircuitProperties that describes the composite circuit. This is an existing ACXOBJECTBAG circuit object properties.  (DocsTeam - need link to ACX Object Summary topic).
+
+ACXOBJECTBAG CircuitProperties
 
 ## -remarks
 
 ### Example
 
+TBD TBD TBD
+
+TBD - This sample code just seems to be showing how to get the object bag, but then doesn't do anything with it?
+
+TBD TBD TBD 
+
 Example usage is shown below.
 
 ```cpp
+VOID
+DspR_EvtCircuitCompositeDeinitialize(
+    _In_     WDFDEVICE      Device,
+    _In_     ACXCIRCUIT     Circuit,
+    _In_opt_ ACXOBJECTBAG   CompositeProperties
+    )
+{
+    DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+    NTSTATUS    status      = STATUS_SUCCESS;
+    GUID        uniqueId    = {0};
 
+    PAGED_CODE();
+
+    UNREFERENCED_PARAMETER(Device);
+    UNREFERENCED_PARAMETER(Circuit);
+
+    if (CompositeProperties)
+    {
+        status = AcxObjectBagRetrieveGuid(CompositeProperties, &UniqueID, &uniqueId);
+        if (!NT_SUCCESS(status))
+        {
+            ASSERT(FALSE);
+        }
+    }
+}
 ```
 
 ## -see-also

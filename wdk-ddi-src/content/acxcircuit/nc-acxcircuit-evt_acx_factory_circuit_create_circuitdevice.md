@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is used by the driver to allow it to add addtional functionality when the TBD function is called,  TBD TBD.
+The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is used by the driver to allow it to add additional functionality when the TBD function is called,  TBD TBD.
 
 This callback is located in the acxcircuit header.
 
@@ -67,6 +67,7 @@ A pointer to a location that receives a handle to the new framework device objec
 
 ## -returns
 
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 
 ## -remarks
