@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 targetos: Windows
-description: 
+description: TBD - The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is used by the driver to allow it to add additional functionality when the TBD function is called,  and an acx circuit device is created, TBD TBD.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,28 +42,25 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is used by the driver to allow it to add additional functionality when the TBD function is called,  TBD TBD.
-
-This callback is located in the acxcircuit header.
+TBD - The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is used by the driver to allow it to add additional functionality when the TBD function is called,  and an acx circuit device is created, TBD TBD.
 
 ## -parameters
 
 ### -param Parent
 
-WDFDEVICE Parent
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
 
 ### -param Factory
  
-A pointer to a location that receives (TBD??) a handle to the new ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
+TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
 
 ### -param Config
 
-PACX_FACTORY_CIRCUIT_ADD_CIRCUIT Config,
-
+An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) config structure is defines how to add circuits for an ACX circuit factory.
 
 ### -param Device
 
-A pointer to a location that receives a handle to the new framework device object.
+A pointer to a location that receives a handle to the new  WDFDEVICE framework object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
 
 ## -returns
 
@@ -79,11 +76,62 @@ An AcxCircuit has a dedicated WDF queue. For more information about WDF queues, 
 
 ### Example
 
-TBD - No sample code found
-
 Example usage is shown below.
 
 ```cpp
+NTSTATUS
+Dsp_EvtAcxFactoryCircuitCreateCircuitDevice(
+    _In_  WDFDEVICE                         Parent,
+    _In_  ACXFACTORYCIRCUIT                 Factory,
+    _In_  PACX_FACTORY_CIRCUIT_ADD_CIRCUIT  CircuitConfig,
+    _Out_ WDFDEVICE* Device
+)
+{
+    ACXOBJECTBAG circuitProperties;
+
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(msft, CircuitId);
+
+    PAGED_CODE();
+
+    NTSTATUS status = STATUS_SUCCESS;
+    WDF_OBJECT_ATTRIBUTES attributes;
+
+    *Device = NULL;
+
+    // Create object bag from the CircuitProperties
+    ACX_OBJECTBAG_CONFIG propConfig;
+    ACX_OBJECTBAG_CONFIG_INIT(&propConfig);
+    propConfig.Handle = CircuitConfig->CircuitProperties;
+    propConfig.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &propConfig, &circuitProperties));
+
+    auto cleanupPropConfig = scope_exit([=]() {
+        WdfObjectDelete(circuitProperties);
+        }
+    );
+
+    // Retrieve the intended Circuit ID from the object bag
+    GUID circuitId;
+    RETURN_NTSTATUS_IF_FAILED(Dsp_DetermineCircuitGuidFromVendorProperties(circuitProperties, &circuitId));
+
+    // Call the appropriate CreateCircuitDevice based on the Circuit ID
+    if (IsEqualGUID(circuitId, DSP_CIRCUIT_MICROPHONE_GUID) || IsEqualGUID(circuitId, DSP_CIRCUIT_UNIVERSALJACK_CAPTURE_GUID))
+    {
+        return DspC_EvtAcxFactoryCircuitCreateCircuitDevice(Parent, Factory, CircuitConfig, Device);
+    }
+    else if (IsEqualGUID(circuitId, DSP_CIRCUIT_SPEAKER_GUID) || IsEqualGUID(circuitId, DSP_CIRCUIT_UNIVERSALJACK_RENDER_GUID))
+    {
+        return DspR_EvtAcxFactoryCircuitCreateCircuitDevice(Parent, Factory, CircuitConfig, Device);
+    }
+
+    status = STATUS_NOT_SUPPORTED;
+    DrvLogError(g_SDCAVDspLog, FLAG_INIT, L"Unexpected CircuitId %!GUID!, %!STATUS!", &circuitId, status);
+    return status;
+}
+
 
 ```
 

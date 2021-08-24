@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 targetos: Windows
 description: TBD - The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the release hardware phase, using the TBD function is called,  TBD TBD. 
 prerelease: true
@@ -52,7 +52,12 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Factory
 
+TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
+
+
 ### -param ResourcesTranslated
+
+A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
 
 ## -returns
 
@@ -63,6 +68,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 Example usage is shown below.
+
+TBD - No example code or unit tests found.
 
 ```cpp
 

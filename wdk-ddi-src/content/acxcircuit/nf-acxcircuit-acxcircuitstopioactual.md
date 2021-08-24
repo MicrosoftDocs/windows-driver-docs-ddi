@@ -44,7 +44,7 @@ dev_langs:
 
 TBD - The AcxCircuitStopIoActual function is used to stop circuit IO after it has been in a run or TBD pause??? state.
 
-It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstop.md) in that it can contain additional ObjectTag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
+It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) in that it can contain additional ObjectTag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
 
 ## -parameters
 

@@ -24,7 +24,7 @@ This header is used by the ACX audio class extensions.
 
 For more information, see:
 
-- [Audio](../_audio/index.md)<br><br>
+- [Audio](../_audio/index.md)
 
 
 ### Definitions 

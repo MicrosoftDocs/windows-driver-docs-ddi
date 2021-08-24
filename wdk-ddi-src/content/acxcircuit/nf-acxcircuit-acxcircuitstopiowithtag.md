@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitStopIoWithTag function is used to stop circuit IO after it has been in a run or TBD pause??? state. It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstop.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
+TBD - The AcxCircuitStopIoWithTag function is used to stop circuit IO after it has been in a run or TBD pause??? state. It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
 
 ## -parameters
 

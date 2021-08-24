@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 targetos: Windows
-description: 
+description: TBD - The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to allow it to add additional functionality when a circuit is created, using the TBD function is called,  TBD TBD. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,38 +42,25 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to TBD This function is located in the acxcircuit header.
-
-TBD - The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the release hardware phase, using the TBD function is called,  TBD TBD. 
-
+TBD - The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to allow it to add additional functionality when a circuit is created, using the TBD function is called,  TBD TBD. 
 
 ## -parameters
 
 ### -param Parent
-  WDFDEVICE Parent,
-
-### -param Device
-
-A pointer to a location that receives a handle to the new framework device object.
 
 A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
 
+### -param Device
+
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
+
 ### -param Factory
 
-TBD TBD TBD 
-A pointer to a location that receives (TBD??) a handle to the new ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
-
+TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
 
 ### -param Config
 
-  PACX_FACTORY_CIRCUIT_ADD_CIRCUIT Config,
-
-
-
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit factory initialization. ACXCIRCUIT_INIT is an opaque object used for circuit factory initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
-
-
-
+An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) config structure is defines how to add circuits for an ACX circuit factory.
 
 ### -param CircuitInit
 
@@ -82,7 +69,6 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-
 
 ## -remarks
 

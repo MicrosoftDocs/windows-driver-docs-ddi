@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 targetos: Windows
 description: TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered up using the TBD function is called,  TBD TBD. 
 prerelease: true
@@ -52,7 +52,11 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Factory
 
+TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
+
 ### -param PreviousState
+
+A [WDF_POWER_DEVICE_STATE enumeration](/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state) that identifies the previous device power state.
 
 ## -returns
 
@@ -63,6 +67,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 Example usage is shown below.
+
+TBD - No example code or unit tests found.
 
 ```cpp
 
