@@ -69,7 +69,7 @@ A pointer to the [ACX_FACTORY_CIRCUIT_POWER_DOWN callback](nc-acxcircuit-evt_acx
 
 The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure is used as input to the [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md) method.
 
-Your driver should initialize its ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure by calling [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md).
+Your driver should initialize its ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure by calling the [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md) function.
 
 ### Example
 
@@ -90,9 +90,10 @@ Example usage is shown below.
 
 [acxcircuit.h header](index.md)
 
+[ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md)
+
 [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md) 
 
-[ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md)
 
 READY2GO
 

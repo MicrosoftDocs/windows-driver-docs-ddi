@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
-ms.date: 08/20/2021
+ms.date: 08/24/2021
 targetos: Windows
-description: 
+description: TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is de-initialized using the TBD function is called,  TBD TBD.
 prerelease: true
 req.assembly: 
 req.construct-type: function

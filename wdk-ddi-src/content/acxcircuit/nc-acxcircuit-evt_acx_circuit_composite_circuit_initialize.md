@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
 ms.date: 08/20/2021
 targetos: Windows
-description: 
+description: TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is initialized using the TBD function is called,  TBD TBD. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is initialized using the TBD function is called,  TBD TBD. The Circuit object bag will contain TBD that can be used for TBD.
+TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is initialized using the TBD function is called,  TBD TBD. The Circuit object bag will contain TBD that can be used for TBD.
 
 ## -parameters
 

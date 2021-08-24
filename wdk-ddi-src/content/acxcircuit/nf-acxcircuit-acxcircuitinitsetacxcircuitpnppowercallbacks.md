@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitSetAcxCircuitPnpPowerCallbacks
 tech.root: audio
 title: AcxCircuitInitSetAcxCircuitPnpPowerCallbacks
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 targetos: Windows
-description: 
+description: TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
