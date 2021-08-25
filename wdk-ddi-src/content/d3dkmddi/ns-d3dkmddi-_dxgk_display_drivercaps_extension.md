@@ -70,7 +70,7 @@ The display is HDR capable.
 
 ### -field SupportUsb4Targets
 
-Indicates USB4 display support. This value is only valid for WDDM 3.0 drivers.
+Indicates USB4 targets support. This value is only valid for WDDM 3.0 drivers.
 
 ### -field Reserved
 
