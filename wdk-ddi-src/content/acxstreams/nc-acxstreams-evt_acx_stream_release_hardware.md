@@ -2,9 +2,9 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_RELEASE_HARDWARE
-ms.date: 07/09/2021
+ms.date: 08/26/2021
 targetos: Windows
-description: The EvtAcxStreamReleaseHardware event tells the driver when the hardware is being released. (TBD has been released?) 
+description: TBD - The EvtAcxStreamReleaseHardware event tells the driver when the hardware is being released. (TBD has been released?) The driver should clear/uninstall stream hardware in this callback. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamReleaseHardware event tells the driver when the hardware is being released. (TBD has been released?) The driver should clear/uninstall stream h/w in this callback. TBD
+TBD - The EvtAcxStreamReleaseHardware event tells the driver when the hardware is being released. (TBD has been released?) The driver should clear/uninstall stream hardware in this callback. 
 
 ## -parameters
 

@@ -86,8 +86,6 @@ Codec_EvtStreamPrepareHardware(
 
     return streamEngine->PrepareHardware();
 }
-
-
 ```
 
 ## -see-also

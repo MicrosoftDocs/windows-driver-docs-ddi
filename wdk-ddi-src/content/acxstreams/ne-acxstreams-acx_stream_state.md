@@ -2,7 +2,7 @@
 UID: NE:acxstreams._ACX_STREAM_STATE
 tech.root: audio
 title: ACX_STREAM_STATE
-ms.date: 07/07/2021
+ms.date: 08/26/2021
 targetos: Windows
 description: Describes the Acx Stream State flags.
 prerelease: true
@@ -72,9 +72,9 @@ An AcxStream support different states. These states indicate when audio is flowi
 Once the stream is created and the appropriate buffers are allocated, the stream is in the Pause state awaiting stream start. When the client puts the stream into Play state, the ACX framework will call all circuits associated with the stream to indicate the stream state is in Play. The ACXPIN will then be placed in the Play state, at which point data will start flowing. 
 
 Once the stream is created and the resources are allocated, the application will call Start on the stream to start playback.   
-The client starts by prerolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
+The client starts by pre-rolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
 
-Durring ACX device power down and removal, if streams are present, ACX SetState callbacks to transition all circuit’s streams to Pause. This is Stream Instance scoped.
+During ACX device power down and removal, if streams are present, ACX SetState callbacks to transition all circuit’s streams to Pause. This is Stream Instance scoped.
 
 ### Example
 
@@ -83,7 +83,13 @@ TBD - should we show sample code here?
 Example usage is shown below.
 
 ```cpp
-
+    ACX_STREAM_STATE    m_CurrentState;
+...
+    if (m_CurrentState != AcxStreamStatePause)
+    {
+        status = STATUS_INVALID_STATE_TRANSITION;
+        return status;
+    }
 ```
 
 ## -see-also
