@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridgeRemoveStream function removes the specified ACXSTREAM from the [ACXSTREAMBRIDGE] object (DocsTeam - need link to ACX Object Summary topic). 
+The AcxStreamBridgeRemoveStream function removes the specified ACXSTREAM from the ACXSTREAMBRIDGE object . For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Bridge
 
-An [ACXSTREAMBRIDGE] object (DocsTeam - need link to ACX Object Summary topic) is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
+An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
 
 ### -param Stream
 

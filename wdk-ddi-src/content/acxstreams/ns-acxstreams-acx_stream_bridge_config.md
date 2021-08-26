@@ -54,11 +54,11 @@ The length, in bytes, of this structure.
   
 ### -field Flags
 
-Bitwise OR of [ACX_STREAM_BRIDGE_CONFIG_FLAGS]() (DocsTeam - need link to ACX Object Summary topic)
+Bitwise OR of [ACX_STREAM_BRIDGE_CONFIG_FLAGS](ne-acxstreams-acx_stream_bridge_config_flags.md) enum.
 
 ### -field Type
 
-The [ACX_STREAM_BRIDGE_TYPE]() (DocsTeam - need link to ACX Object Summary topic) that defines the type of bridge.
+The [ACX_STREAM_BRIDGE_TYPE](ne-acxstreams-acx_stream_bridge_type.md) enum that defines the type of bridge.
 
 ### -field InModesCount
 
@@ -79,11 +79,12 @@ A pointer to an AUDIO_SIGNALPROCESSINGMODE that defines the audio signal process
 
 ### -field OutStreamVarArguments
 
-And [ACXOBJECTBAG]() (DocsTeam - need link to ACX Object Summary topic) that is used to provide variable arguments for the output stream. This is an optional settings and can be NULL.  
+And ACXOBJECTBAG object that is used to provide variable arguments for the output stream. This is an optional settings and can be NULL.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 
 ### -field TargetStreamAttributes
 
-An [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that is used to define the ACXTARGETSTREAM (DocsTeam - need link to ACX Object Summary topic) attributes.
+An [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that is used to define the ACXTARGETSTREAM object attributes.
 
 ## -remarks
 

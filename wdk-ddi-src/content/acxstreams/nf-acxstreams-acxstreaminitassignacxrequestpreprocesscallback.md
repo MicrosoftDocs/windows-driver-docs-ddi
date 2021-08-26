@@ -48,7 +48,7 @@ The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequ
 
 ### -param StreamInit
 
-Defined by a [ACXSTREAM_INIT object]() (DocsTeam - need link to ACX Object Summary topic) (structure?), that is used to TBD.
+Defined by a ACXSTREAM_INIT object (DocsTeam - need link to ACX Object Summary topic) (structure?), that is used to TBD.
 
 ### -param EvtObjectAcxRequestPreprocess
 

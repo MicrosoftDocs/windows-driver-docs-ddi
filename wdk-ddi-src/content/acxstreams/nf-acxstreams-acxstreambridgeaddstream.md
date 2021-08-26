@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridgeAddStream function adds an existing ACXSTREAM to an existing ACXSTREAMBRIDGE. (DocsTeam - need link to ACX Object Summary topics)
+The AcxStreamBridgeAddStream function adds an existing ACXSTREAM to an existing ACXSTREAMBRIDGE.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Bridge
 
-An [ACXSTREAMBRIDGE] object (DocsTeam - need link to ACX Object Summary topic) is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
+An *ACXSTREAMBRIDGE* object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario. 
 
 ### -param Stream
 
-An [ACXSTREAM Object]() (DocsTeam - need link to ACX Object Summary topic).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
 
 ## -returns
 

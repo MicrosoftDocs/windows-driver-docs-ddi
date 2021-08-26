@@ -50,7 +50,7 @@ An ACXSTREAMBRIDGE is used by a circuit to propagate a stream creation, streamâ€
 
 ### -param AcxCircuit
 
-A pointer to a location that receives a handle to the associated [ACXCIRCUIT Object]() (DocsTeam - need link to ACX Object Summary topic).
+A pointer to a location that receives a handle to the associated ACXCIRCUIT Object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Attributes
 
@@ -62,7 +62,7 @@ An [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_config.md) structu
 
 ### -param StreamBridge
 
-A pointer to a location that receives a handle to the new [ACXSTREAMBRIDGE Object]() (DocsTeam - need link to ACX Object Summary topic).
+A pointer to a location that receives a handle to the new ACXSTREAMBRIDGE Object.
 
 ## -returns
 

@@ -42,19 +42,19 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddEvents adds events to and existing/new (TBD?) stream using an An [AcxEvent]() (DocsTeam - need link to ACX Object Summary topic) object. TBD
+AcxStreamAddEvents adds events to and existing/new (TBD?) stream using an AcxEvent object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new [ACXSTREAM Object]() (DocsTeam - need link to ACX Object Summary topic). An ACXSTREAM Object represents an audio stream created by a circuit. ACX objects are WDF object-like, i.e., the ACX driver interacts with them in the same way as WDF when creating, deleting, and interacting with them. For more information, see [WDF Architecture](/windows-hardware/drivers/wdf/kernel-mode-driver-framework-architecture) and [Framework Object Life Cycle](/windows-hardware/drivers/wdf/framework-object-life-cycle).
+A pointer to a location that receives a handle to the new ACXSTREAM Object.
 
-The ACXSTREAM Object is the driver component that’s created to represent an audio stream, created by a circuit. The Stream is composed of a list of Elements created based on the parent Circuit’s Elements.   An AcxStream aggregates zero or n AcxElements-like objects. By default, AcxElements are connected in the same order of assembly. An AcxStream is associated with only one ACX circuit. ACX supports two types of streams: basic ACX stream objects used by non-streaming circuits, and ACX RT stream objects used by streaming circuits.
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Events
 
-A pointer to a location that receives a handle to the ACXEVENT Object. An [AcxEvent]() (DocsTeam - need link to ACX Object Summary topic) represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.
+A pointer to a location that receives a handle to the ACXEVENT Object. An AcxEvent object that represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param EventsCount
 

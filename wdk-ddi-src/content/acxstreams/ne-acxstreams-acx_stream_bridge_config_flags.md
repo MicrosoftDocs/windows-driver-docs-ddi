@@ -75,7 +75,7 @@ For a capture endpoints, ACX notifies each circuit's stream of a multi-circuit e
 
 ### -field AcxStreamBridgeForwardInStreamVarArguments
 
-When this flag is set, ACX forwards the current stream's variable arguments [ACXOBJECTBAG]() (DocsTeam - need link to ACX Object Summary topic) to the next stream of a multi-circuit endpoint. If there is no variable arguments object-bag associated with the current stream, ACX forwards the variable arguments object-bag specified at stream bridge creation time if present.
+When this flag is set, ACX forwards the current stream's variable arguments *ACXOBJECTBAG* to the next stream of a multi-circuit endpoint. If there is no variable arguments object-bag associated with the current stream, ACX forwards the variable arguments object-bag specified at stream bridge creation time if present. For more information about ACX Objects, such as *ACXOBJECTBAG*, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -field AcxStreamBridgeConfigValidFlags
 
