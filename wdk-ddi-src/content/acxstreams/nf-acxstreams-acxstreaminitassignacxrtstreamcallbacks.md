@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an  [ACXSTREAM_INIT object]() (DocsTeam - need link to ACX Object Summary topic) (structure?) and a [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md). 
+The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an ACXSTREAM_INIT object and a [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md). For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param StreamInit
 
-Defined by a ACXSTREAM_INIT object (DocsTeam - need link to ACX Object Summary topic) (structure?), that is used to define the stream initialization.
+Defined by a ACXSTREAM_INIT object, that is used to define the stream initialization. 
 
 ### -param RtStreamCallbacks
 
@@ -57,7 +57,6 @@ An [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md)
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-
 
 ## -remarks
 

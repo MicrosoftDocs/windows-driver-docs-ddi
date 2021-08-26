@@ -54,7 +54,7 @@ An [ACXSTREAMBRIDGE] object handle.
 
 An [ACXSTREAM] object handle.
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
 
 ## -returns
 

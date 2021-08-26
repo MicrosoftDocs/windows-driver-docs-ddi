@@ -48,19 +48,19 @@ The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequ
 
 ### -param StreamInit
 
-Defined by a ACXSTREAM_INIT object (DocsTeam - need link to ACX Object Summary topic) (structure?), that is used to TBD.
+Defined by a ACXSTREAM_INIT object, that is used to define the stream initialization. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param EvtObjectAcxRequestPreprocess
 
-An optional EvtObjectAcxRequestPreprocess TBD.
+An optional EvtObjectAcxRequestPreprocess TBD TBD TBD.
 
 ### -param DriverContext
 
-And [ACXCONTEXT]() object that represents the current driver context.
+And ACXCONTEXT object that represents the current driver context.
  
 ### -param RequestType
 
-The ACX_REQUEST_TYPE enum](DocsTeam - need link to enum in AcxRequest header) that is that is used to define the request type.
+The [ACX_REQUEST_TYPE enum](DocsTeam - need link to enum in AcxRequest header) that is that is used to define the request type.
 
 ### -param Set
 
