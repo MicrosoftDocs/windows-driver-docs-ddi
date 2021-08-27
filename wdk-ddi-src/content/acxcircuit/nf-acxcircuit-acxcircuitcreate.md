@@ -54,7 +54,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxFactory with the parent WDF device object (TBD???).
 
-TBD - What would be useful set for the driver?
+TBD - What would be useful to set for the driver?
 
 ### -param Config
 
@@ -73,8 +73,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 An AcxCircuit represents a partial audio path to a user perceived audio device (speakers, mic, etc.). 
 An AcxCircuit has at least one input pin and one output pin (ACXPIN), and it aggregates zero or ‘n’ AcxElements-like objects. By default, AcxElements are ‘connected’ in the same order of assembly. 
-An AcxCircuit has a dedicated WDF queue. An AcxCircuit can have zero or ‘n’ number of streams.
-
 
 ### Example
 

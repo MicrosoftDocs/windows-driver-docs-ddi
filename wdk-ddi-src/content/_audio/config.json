@@ -4,6 +4,7 @@
     "acxcircuit.h",
     "acxdevice.h",
     "acxdriver.h",
+    "acxelements.h",
     "acxstreams.h",
     "bthhfpddi.h",
     "dmusicks.h",

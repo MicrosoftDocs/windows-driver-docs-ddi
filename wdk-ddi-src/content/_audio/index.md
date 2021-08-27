@@ -33,6 +33,7 @@ To develop audio class extension (ACX) drivers, you can use these headers:
 
  * [acxcircuit.h](../acxcircuit/index.md)
  * [acxdevice.h](../acxdevice/index.md)
+ * [acxelements.h](../acxelements/index.md)
  * [acxstreams.h](../acxstreams/index.md)
 
 For programming information, see [Audio Devices Design Guide](/windows-hardware/drivers/audio).
