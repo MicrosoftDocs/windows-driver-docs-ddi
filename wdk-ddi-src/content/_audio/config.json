@@ -3,7 +3,8 @@
   "headers": [
     "acxcircuit.h",
     "acxdevice.h",
-    "acxstream.h",
+    "acxdriver.h",
+    "acxstreams.h",
     "bthhfpddi.h",
     "dmusicks.h",
     "dmusprop.h",
