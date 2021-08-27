@@ -2,10 +2,10 @@
 UID: NF:wificx.WifiRequestGetMessageId
 tech.root: netvista
 title: WifiRequestGetMessageId
-ms.date: 04/30/2021
+ms.date: 08/24/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiRequestGetMessageId function returns the ID of a WiFiCx command message. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,20 +42,26 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiRequestGetMessageId** function returns the ID of a WiFiCx command message. 
 
 ## -parameters
 
 ### -param Request
 
-Reserved.
+[_In_] A handle to the framework object which represents a command message from the WiFiCx framework.
 
 ## -returns
 
+Returns the message ID of the command.
+
 ## -remarks
+
+WiFiCx drivers typically call **WifiRequestGetMessageId** in their [*EvtWifiDeviceSendCommand*](nc-wificx-evt_wifi_device_send_command.md) callback function to get the ID of the command message sent by the WiFiCx framework.  
+
+For more information, see [Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages).
 
 ## -see-also
 
+[*EvtWifiDeviceSendCommand*](nc-wificx-evt_wifi_device_send_command.md)
+
+[Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages)

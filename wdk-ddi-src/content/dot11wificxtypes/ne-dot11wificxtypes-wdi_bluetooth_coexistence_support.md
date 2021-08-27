@@ -1,11 +1,11 @@
 ---
 UID: NE:dot11wificxtypes._WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 tech.root: netvista
-title: WDI_BLUETOOTH_COEXISTENCE_SUPPORT
-ms.date: 04/30/2021
+title: WDI_BLUETOOTH_COEXISTENCE_SUPPORT (dot11wificxtypes.h)
+ms.date: 08/26/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enum defines Bluetooth coexistence support values.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
@@ -37,36 +37,32 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enumeration defines Bluetooth coexistence support values.
 
 ## -enum-fields
 
 ### -field WDI_BLUETOOTH_COEXISTENCE_UNKNOWN
 
-Reserved.
+Unknown.
 
 ### -field WDI_BLUETOOTH_COEXISTENCE_PERFORMANCE_MAINTAINED
 
-Reserved.
+Wi-Fi and Bluetooth work at the same performance level during coexistence.
 
 ### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_DEGRADED_TO_1x1
 
-Reserved.
+Wi-Fi centered. On a 2X2 device, Wi-Fi and Bluetooth coexists. Wi-Fi performance is reduced to 1X1 level.
 
 ### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_THROUGHPUT_DEGRADED
 
-Reserved.
+Bluetooth centered. When coexisting, Bluetooth has priority and restricts Wi-Fi performance.
 
 ### -field WDI_BLUETOOTH_COEXISTENCE_MUTUALLY_EXCLUSIVE
 
-Reserved.
+Wi-Fi and Bluetooth are mutually exclusive. One of the two stops working.
 
 ### -field WDI_BLUETOOTH_COEXISTENCE_MAX
 
-Reserved.
 
 ## -remarks
 

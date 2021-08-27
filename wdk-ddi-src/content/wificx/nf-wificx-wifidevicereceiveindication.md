@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiDeviceReceiveIndication
 tech.root: netvista
-title: WifiDeviceReceiveIndication
-ms.date: 04/30/2021
+title: WifiDeviceReceiveIndication (wificx.h)
+ms.date: 08/24/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: WiFiCx drivers call WifiDeviceReceiveIndication to send a status indication to the WiFiCx framework. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,26 +42,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+WiFiCx drivers call the **WifiDeviceReceiveIndication** function to send a status indication to the WiFiCx framework. 
 
 ## -parameters
 
 ### -param Device
 
-Reserved.
+[_In_] A handle to a framework device object that the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param MessageId
 
-Reserved.
+[_In_] When indicating the completion of a task command, set this value to the command message ID that the driver obtained from a previous call to [**WifiRequestGetMessageId**](nf-wificx-wifirequestgetmessageid.md).
+
+When sending an unsolicited indication, set this value to **0**.
 
 ### -param Data
 
-Reserved.
+[_In_] A driver-allocated WDFMEMORY object containing the data to pass to WiFiCx.
 
 ## -remarks
 
+For more information, see [Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages).
+
 ## -see-also
 
+[**WifiRequestGetMessageId**](nf-wificx-wifirequestgetmessageid.md)
+
+[Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages)

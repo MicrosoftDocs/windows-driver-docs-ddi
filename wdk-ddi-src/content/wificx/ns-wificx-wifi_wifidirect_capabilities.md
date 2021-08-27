@@ -1,11 +1,11 @@
 ---
 UID: NS:wificx._WIFI_WIFIDIRECT_CAPABILITIES
 tech.root: netvista
-title: WIFI_WIFIDIRECT_CAPABILITIES
-ms.date: 04/30/2021
+title: WIFI_WIFIDIRECT_CAPABILITIES (wificx.h)
+ms.date: 08/25/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WIFI_WIFIDIRECT_CAPABILITIES structure describes the Wi-Fi Direct capabilities for a WiFiCx device.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -41,138 +41,146 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_WIFIDIRECT_CAPABILITIES** structure describes the Wi-Fi Direct capabilities for a WiFiCx device.
 
 ## -struct-fields
 
 ### -field Size
 
-Reserved.
+The sum (in bytes) of the sizes of all contained elements.
 
 ### -field WFDRoleCount
 
-Reserved.
+Number of supported Wi-Fi Direct Role Ports
 
 ### -field ConcurrentGOCount
 
-Reserved.
+Specifies the concurrent Group Owner count.
 
 ### -field ConcurrentClientCount
 
-Reserved.
+Specifies the concurrent Client count.
 
 ### -field ServiceDiscoverySupported
 
-Reserved.
+Specifies whether Service discovery is supported.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field ServiceNameDiscoverySupported
 
-Reserved.
+Wi-Fi Direct Service Names Discovery support. Specifies whether, when given a list of service name hashes, the adapter can probe for service hashes and indicate the responses as they arrive.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field ServiceInformationDiscoverySupported
 
-Reserved.
+Wi-Fi Direct Service Information Discovery support. Specifies whether, when given a list of service name hashes, the adapter can perform probes and ANQP queries to get full service information.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field ServiceNameAdvertisementsMaxBytesSupported
 
-Reserved.
+Specifies the maximum supported number of Service Name Advertisements bytes (to be sent in the beacon and probe responses). This sets a hard limit on the number of services that can be advertised.
 
 ### -field ServiceInformationAdvertisementsMaxBytesSupported
 
-Reserved.
+Specifies the maximum supported number of Service Information Advertisement bytes the adapter can respond to using the GAS protocol. This is only valid if the device supports responding to Service Advertisement queries. This value is for firmware optimization so that the firmware does not wake up the host to respond to every query. The operating system does not limit the number of service advertisements if the firmware has a limitation because there is a fallback in the operating system. If the firmware cannot handle the ANQP query response, it should pass up the request and the operating system handles it.
 
 ### -field BackgroundDiscoverySupported
 
-Reserved.
+Background discovery of Wi-Fi Direct devices and services. Specifies whether the adapter can periodically query for Wi-Fi Direct devices and service names so any new devices show up within 5 minutes of becoming visible.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field ClientDiscoverabilitySupported
 
-Reserved.
+Specifies whether Client Discoverability is supported.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field InfrastructureManagementSupported
 
-Reserved.
+Specifies whether infrastructure management is supported.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field DeviceAddress
 
-Reserved.
+The device address in network byte order.
 
 ### -field DiscoveryFilterListSize
 
-Reserved.
+The discovery filter list size.
 
 ### -field GOClientTableSize
 
-Reserved.
+The GO client table size.
 
 ### -field MaxVendorSpecificExtensionIESize
 
-Reserved.
+The maximum size, in bytes, of vendor specific extension IEs that can be added to WFD management frames.
 
 ### -field PassiveAvailabilityListenStateSupported
 
-Reserved.
+Specifies whether the ability to listen for P2P Services in the background is supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field OperatingChannelUpdatesSupported
 
-Reserved.
+Specifies whether the adapter supports indicating updates to the GO operating channel(s).
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field GOon5GHzBandSupported
 
-Reserved.
+Specifies whether the adapter supports operating a GO on the 5GHz band.
+Valid values are 0 (not supported) and 1 (supported).
 
 ### -field ScanSSIDListSize
 
-Reserved.
+The scan SSID list size.
 
 ### -field DesiredSSIDListSize
 
-Reserved.
+The desired SSID list size.
 
 ### -field PrivacyExemptionListSize
 
-Reserved.
+The privacy exemption list size.
 
 ### -field AssociationTableSize
 
-Reserved.
+The association table size.
 
 ### -field DefaultKeyTableSize
 
-Reserved.
+The default key table size.
 
 ### -field WEPKeyValueMaxLength
 
-Reserved.
+The maximum length of the WEP key value.
 
 ### -field NumSupportedUnicastAlgorithms
 
-Reserved.
+The number of unicast algorithms supported.
 
 ### -field UnicastAlgorithms
 
-Reserved.
+A pointer to a list of unicast cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
 
 ### -field NumSupportedMulticastDataAlgorithms
 
-Reserved.
+The number of multicast data cipher algorithms supported.
 
 ### -field MulticastDataAlgorithms
 
-Reserved.
+A pointer to a list of multicast data cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
 
 ### -field NumInterfaceAddresses
 
-Reserved.
+The number of interface addresses supported.
 
 ### -field InterfaceAddressList
 
-Reserved.
+A pointer to a list of interface addresses formatted as [**WDI_MAC_ADDRESS**](../dot11wificxintf/ns-dot11wificxintf-wdi_mac_address.md) structures.
 
 ## -remarks
 
+Client drivers pass **WIFI_WIFIDIRECT_CAPABILITIES** as a parameter to [**WifiDeviceSetWiFiDirectCapabilities**](nf-wificx-wifidevicesetwifidirectcapabilities.md) to report Wi-Fi Direct capabilities to WiFiCx.
+
 ## -see-also
 
+[**WifiDeviceSetWiFiDirectCapabilities**](nf-wificx-wifidevicesetwifidirectcapabilities.md)

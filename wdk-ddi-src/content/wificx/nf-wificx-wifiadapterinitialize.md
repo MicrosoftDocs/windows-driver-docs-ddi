@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiAdapterInitialize
 tech.root: netvista
-title: WifiAdapterInitialize
-ms.date: 04/30/2021
+title: WifiAdapterInitialize (wificx.h)
+ms.date: 08/23/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiAdapterInitialize function initializes a newly created NETADAPTER object for WiFiCx.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,20 +42,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiAdapterInitialize** function initializes a newly created NETADAPTER object for WiFiCx.
 
 ## -parameters
 
 ### -param Adapter
 
-Reserved.
+A handle to a NetAdapterCx NETADAPTER object obtained in a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ## -returns
 
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+
+This method might return failure in low resource situations.
+
 ## -remarks
+
+The client driver must call this method from within [*EvtWifiDeviceCreateAdapter*](nc-wificx-evt_wifi_device_create_adapter.md). 
+
+For more information, see [Writing a WiFiCx client driver](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver).
 
 ## -see-also
 
+[**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
+
+[*EvtWifiDeviceCreateAdapter*](nc-wificx-evt_wifi_device_create_adapter.md)
+
+[Writing a WiFiCx client driver](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver)

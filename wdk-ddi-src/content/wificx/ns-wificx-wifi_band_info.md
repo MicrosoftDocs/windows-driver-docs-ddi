@@ -1,11 +1,11 @@
 ---
 UID: NS:wificx._WIFI_BAND_INFO
 tech.root: netvista
-title: WIFI_BAND_INFO
-ms.date: 04/30/2021
+title: WIFI_BAND_INFO (wificx.h)
+ms.date: 08/26/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WIFI_BAND_INFO structure contains band information. 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -41,46 +41,46 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_BAND_INFO** structure contains band information. 
 
 ## -struct-fields
 
 ### -field BandID
 
-Reserved.
+A [**WDI_BAND_ID**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_band_id.md) structure that represents this band ID.
 
-### -field BandState
+### -field BandState9
 
-Reserved.
+Specifies whether this band is enabled or not.
 
 ### -field NumValidPhyTypes
 
-Reserved.
+The number of valid PHY types in this band.
 
 ### -field ValidPhyTypeList
 
-Reserved.
+A pointer to a list of valid PHY types in this band, defined by the [**WDI_PHY_TYPE**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_phy_type.md) enum.
 
 ### -field NumValidChannelTypes
 
-Reserved.
+The number of valid channel types in this band.
 
 ### -field ValidChannelTypes
 
-Reserved.
+A pointer to a list of valid channel numbers in this band formatted as [**WDI_CHANNEL_MAPPING_ENTRY**](../dot11wificxtypes/ns-dot11wificxtypes-wdi_channel_mapping_entry.md) structures.
 
 ### -field NumChannelWidths
 
-Reserved.
+The number of channel widths.
 
 ### -field ChannelWidthList
 
-Reserved.
+A pointer to a list of channel widths in MHz.
 
 ## -remarks
 
+**WIFI_BAND_INFO** is a member of the [**WIFI_BAND_CAPABILITIES**](ns-wificx-wifi_band_capabilities.md) structure.
+
 ## -see-also
 
+[**WIFI_BAND_CAPABILITIES**](ns-wificx-wifi_band_capabilities.md)

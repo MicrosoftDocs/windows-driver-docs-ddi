@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiDeviceSetStationCapabilities
 tech.root: netvista
-title: WifiDeviceSetStationCapabilities
-ms.date: 04/30/2021
+title: WifiDeviceSetStationCapabilities (wificx.h)
+ms.date: 08/26/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiDeviceSetStationCapabilities function sets the station capabilities for a WiFiCx device.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,24 +42,31 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiDeviceSetStationCapabilities** function sets the station capabilities for a WiFiCx device.
 
 ## -parameters
 
 ### -param Device
 
-Reserved.
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param StationCapabilities
 
-Reserved.
+A pointer to a client driver-allocated and initialized [**WIFI_STATION_CAPABILITIES**](ns-wificx-wifi_station_capabilities.md) structure.
 
 ## -returns
 
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
+
 ## -remarks
 
+Client drivers typically call **WifiDeviceSetStationCapabilities** within [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md).
+
+For more information see [Default (station) adapter creation flow](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#default-(station)-adapter-creation-flow).
+
 ## -see-also
+
+[**WIFI_STATION_CAPABILITIES**](ns-wificx-wifi_station_capabilities.md)
+
+[Default (station) adapter creation flow](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#default-(station)-adapter-creation-flow)
 

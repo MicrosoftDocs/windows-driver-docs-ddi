@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiDeviceSetWiFiDirectCapabilities
 tech.root: netvista
-title: WifiDeviceSetWiFiDirectCapabilities
-ms.date: 04/30/2021
+title: WifiDeviceSetWiFiDirectCapabilities (wificx.h)
+ms.date: 08/26/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiDeviceSetWiFiDirectCapabilities function sets the Wi-Fi Direct capabilities for a WiFiCx device.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,24 +42,31 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiDeviceSetWiFiDirectCapabilities** function sets the Wi-Fi Direct capabilities for a WiFiCx device.
 
 ## -parameters
 
 ### -param Device
 
-Reserved.
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param WiFiDirectCapabilities
 
-Reserved.
+A pointer to a client driver-allocated and initialized [**WIFI_WIFIDIRECT_CAPABILITIES**](ns-wificx-wifi_wifidirect_capabilities.md) structure.
 
 ## -returns
 
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
+
 ## -remarks
+
+Client drivers need to call **WifiDeviceSetWiFiDirectCapabilities** in the set device capabilities phase. Typically this is within [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md).
+
+For an example showing how to set Wi-Fi Direct capabilities, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-direct-(p2p)-support)
+
 
 ## -see-also
 
+[**WIFI_WIFIDIRECT_CAPABILITIES**](ns-wificx-wifi_wifidirect_capabilities.md)
+
+[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-direct-(p2p)-support)
