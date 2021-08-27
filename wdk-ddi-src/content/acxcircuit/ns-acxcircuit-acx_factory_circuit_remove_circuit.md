@@ -55,7 +55,9 @@ TBD - The length, in bytes, of this structure.
 
 ### -field Flags
 
-TBD - Bitwise OR of ACX_TBD TBD TBD _FLAGS (DocsTeam - need link to ACX Object Summary topic or flags enum if that is what this is >> ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS)
+TBD - Bitwise OR of ACX_TBD TBD TBD _FLAGS 
+
+(DocsTeam - need link to ACX Object Summary topic or flags enum if that is what this is >> ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS) ???
 
 ### -field CircuitUniqueId
 

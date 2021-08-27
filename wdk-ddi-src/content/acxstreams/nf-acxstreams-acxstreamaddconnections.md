@@ -54,7 +54,9 @@ An ACXSTREAM Object that represents an audio stream created by a circuit. The st
 
 ### -param Connections
 
-An [ACX_CONNECTION structure]() (DocsTeam - need link to this topic when ACXPIN header is documented) that contains the TBD.
+An [ACX_CONNECTION structure]() that contains the TBD.
+
+TODO: DocsTeam - need link to this topic when ACXPIN header is documented.
 
 ### -param ConnectionsCount
 
@@ -69,6 +71,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 Example usage is shown below.
+
+TBD - No sample code or unit tests were located
 
 ```cpp
 

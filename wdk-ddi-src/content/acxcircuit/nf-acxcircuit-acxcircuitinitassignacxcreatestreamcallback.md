@@ -52,12 +52,7 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 
 ### -param EvtCircuitCreateStream
 
-typedef EVT_ACX_CIRCUIT_CREATE_STREAM *PFN_ACX_CIRCUIT_CREATE_STREAM;
-
-PFN_ACX_CIRCUIT_CREATE_STREAM EvtCircuitCreateStream
-
-TBD  - Is this accessed through a pointer function? We may need to document some of those?
-
+TBD - A pointer to a [EVT_ACX_CIRCUIT_CREATE_STREAM](nc-acxcircuit-evt_acx_circuit_create_stream.md) callback. 
 
 ## -returns
 

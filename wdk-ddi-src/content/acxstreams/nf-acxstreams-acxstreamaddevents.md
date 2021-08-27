@@ -68,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-- TBD No sample code was located
+TBD - No sample code or unit tests were located
 
 Example usage is shown below.
 

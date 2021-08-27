@@ -52,7 +52,9 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 
 ### -param Methods
 
-TBD - An ACX_METHOD_ITEM structure that defines a set of TBD TBD and is used to TBD. TODO: DocsTeam add link to this structure in AcxRequest header 
+TBD - An ACX_METHOD_ITEM structure that defines a set of TBD TBD and is used to TBD. 
+
+TODO: DocsTeam add link to this structure in AcxRequest header when available.
 
 ### -param MethodsCount
 

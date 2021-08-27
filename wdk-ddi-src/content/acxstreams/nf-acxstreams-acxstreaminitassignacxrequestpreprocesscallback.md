@@ -60,7 +60,9 @@ And ACXCONTEXT object that represents the current driver context.
  
 ### -param RequestType
 
-The [ACX_REQUEST_TYPE enum](DocsTeam - need link to enum in AcxRequest header) that is that is used to define the request type.
+The [ACX_REQUEST_TYPE enum]() that is that is used to define the request type.
+
+TODO: DocsTeam - need link to this topic when ACXPIN header is documented.
 
 ### -param Set
 

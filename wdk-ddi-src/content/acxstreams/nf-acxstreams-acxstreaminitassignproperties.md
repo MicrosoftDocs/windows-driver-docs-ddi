@@ -52,11 +52,13 @@ Defined by a ACXSTREAM_INIT object, that is used to define the stream initializa
 
 ### -param Properties
 
-An array of [ACX_PROPERTY_ITEM structures]() (DocsTeam - add link to AcxRequest struct) that describe the requested property set, properties and flags.
+An array of [ACX_PROPERTY_ITEM structures]() that describe the requested property set, properties and flags.
+
+TODO: DocsTeam - need link to this struct topic when AcxRequest header is documented.
 
 ### -param PropertiesCount
 
-A zero based (1 TBD?) of count of the number of Properties in the Properties array.
+A zero based (oneTBD?) of count of the number of Properties in the Properties array.
 
 ## -returns
 

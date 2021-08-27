@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (
+TBD - An existing ACXCIRCUIT circuit object. 
 
 ### -param CompositeProperties
 

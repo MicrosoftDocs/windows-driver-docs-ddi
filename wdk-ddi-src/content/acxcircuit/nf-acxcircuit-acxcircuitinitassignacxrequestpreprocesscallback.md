@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxCircuitInitAssignAcxRequestPreprocessCallback
-ms.date: 08/17/2021
+ms.date: 08/27/2021
 targetos: Windows
 description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks.
 prerelease: true
@@ -52,11 +52,9 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 
 ### -param EvtObjectAcxRequestPreprocess
 
-TDB - Not sure on this one - Is it a class making using of a PFN?
+TBD - A pointer to a EVT_ACX_OBJECT_PREPROCESS_REQUEST callback. 
 
-TBD - We were thinking that we didn't need to document most PFNs.
-
-PFN_ACX_OBJECT_PREPROCESS_REQUEST EvtObjectAcxRequestPreprocess,
+DocsTeam - Add link to EVT_ACX_OBJECT_PREPROCESS_REQUEST typedef in AcxRequest header when available.
 
 ### -param DriverContext
 
@@ -64,7 +62,9 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum]()  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. DocsTeam - Add link to enum in AcxRequest header.
+An [ACX_REQUEST_TYPE enum]()  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
+
+TODO:  DocsTeam - Add link to enum in AcxRequest header when available.
 
 ### -param Set
 
