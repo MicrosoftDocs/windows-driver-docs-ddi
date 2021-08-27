@@ -48,11 +48,11 @@ The AcxCircuitAddPins function adds pins to an existing (TBD or new?) Acx circui
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
  
 ### -param Pins
 
-TBD - An existing (or new TBD?) ACXPIN object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing (or new TBD?) ACXPIN object.
 
 ### -param PinsCount
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is de-initialized using the TBD function is called,  TBD TBD. The circuit object bag will contain TBD that can be used by the driver for TBD.
+TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is de-initialized using the TBD function is called,  TBD TBD. The circuit object bag will contain TBD that can be used by the driver for TBD. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -52,13 +52,11 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object.  (
 
 ### -param CompositeProperties
 
-TBD - Optional handle to CircuitProperties that describes the composite circuit. This is an existing ACXOBJECTBAG circuit object properties.  (DocsTeam - need link to ACX Object Summary topic).
-
-ACXOBJECTBAG CircuitProperties
+TBD - Optional handle to CircuitProperties that describes the composite circuit. This is an existing ACXOBJECTBAG circuit object properties.  
 
 ## -remarks
 

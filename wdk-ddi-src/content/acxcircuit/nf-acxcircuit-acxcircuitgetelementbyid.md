@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-When provided a valid ElementID number, the AcxCircuitGetElementById function returns a reference to an existing ACXELEMENT object. (DocsTeam - need link to ACX Object Summary topic).
+When provided a valid ElementID number, the AcxCircuitGetElementById function returns a reference to an existing ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object. 
 
 ### -param ElementId
 
@@ -56,7 +56,7 @@ The Element ID number. This is a TBD zero/one based count.
 
 ## -returns
 
-An existing ACXELEMENT object.  (DocsTeam - need link to ACX Object Summary topic).
+An existing ACXELEMENT object.  
 
 ## -remarks
 

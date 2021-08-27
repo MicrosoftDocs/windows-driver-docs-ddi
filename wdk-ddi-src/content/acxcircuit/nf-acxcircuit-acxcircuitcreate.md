@@ -62,7 +62,7 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit factory initializati
 
 ### -param Circuit
 
-A pointer to a location that receives a handle to the new ACXCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
+A pointer to a location that receives a handle to the new ACXCIRCUIT Object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 

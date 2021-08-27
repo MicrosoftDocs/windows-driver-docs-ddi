@@ -48,7 +48,7 @@ Given an existing Acx Circuit object, the AcxCircuitGetWdfDevice returns the ass
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object.  For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 

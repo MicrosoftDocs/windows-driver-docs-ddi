@@ -48,11 +48,11 @@ The AcxCircuitAddConnections function adds connections to an Acx circuit.
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
   
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure]() That describes the pin structure including the pin IDs. TODO: Docs team add link to this structure in AcxPin header 
+A pointer to an [ACX_CONNECTION structure]() That describes the pin structure including the pin IDs. TODO: DocsTeam add link to this structure in AcxPin header 
 
 ### -param ConnectionsCount
 

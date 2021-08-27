@@ -52,8 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
-
+TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 ### -param ResourcesRaw
 
 A WDF resource list that describes the raw resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about raw resources, see [Hardware Resources for Framework-Based Drivers](/windows-hardware/drivers/wdf/raw-and-translated-resources).

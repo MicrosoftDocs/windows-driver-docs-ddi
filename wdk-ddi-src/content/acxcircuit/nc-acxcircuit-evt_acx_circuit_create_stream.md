@@ -52,19 +52,19 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Pin
 
-TBD - An existing (or new TBD?) ACXPIN object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing (or new TBD?) ACXPIN object.  
 
 ### -param StreamInit
 
-Defined by a [ACXSTREAM_INIT]() (DocsTeam - need link to ACX Object Summary topic) opaque structure, that is used to define the stream initialization.
+Defined by a ACXSTREAM_INIT opaque structure, that is used to define the stream initialization.
 
 ### -param StreamFormat
 
-An ACXDATAFORMAT object that defines the stream data format. (DocsTeam - need link to ACX Object Summary topic) Use the TBD function to initialize the ACXDATAFORMAT object before using it here. 
+An ACXDATAFORMAT object that defines the stream data format.  Use the TBD function to initialize the ACXDATAFORMAT object before using it here. 
 
 ### -param SignalProcessingMode
 

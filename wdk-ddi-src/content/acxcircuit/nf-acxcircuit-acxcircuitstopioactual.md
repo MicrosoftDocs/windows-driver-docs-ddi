@@ -50,7 +50,7 @@ It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) in th
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 

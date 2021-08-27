@@ -48,7 +48,7 @@ The AcxCircuitDispatchAcxRequest dispatches a standard WDFREQUEST object to the 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing ACXCIRCUIT circuit object. For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 

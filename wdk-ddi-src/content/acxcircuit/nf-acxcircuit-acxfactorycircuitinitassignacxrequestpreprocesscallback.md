@@ -53,6 +53,8 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param EvtObjectAcxRequestPreprocess
 
+DocsTeam - Search for these of PFN refs
+
 TDB - Not sure on this one - Is it a class making using of a PFN?
 
 TBD - We were thinking that we didn't need to document most PFNs.
@@ -62,11 +64,11 @@ PFN_ACX_OBJECT_PREPROCESS_REQUEST EvtObjectAcxRequestPreprocess,
 
 ### -param DriverContext
 
-The driver context defined by the ACXCONTEXT object.  (DocsTeam - need link to ACX Object Summary topic).
+The driver context defined by the ACXCONTEXT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum]()  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. DOCS TEAM - Add link to enum in AcxRequest header.
+An [ACX_REQUEST_TYPE enum]()  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. DocsTeam - Add link to enum in AcxRequest header.
 
 ### -param Set
 

@@ -48,7 +48,7 @@ TBD - The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is used by the d
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (DocsTeam - need link to ACX Object Summary topic).
+TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Device
 

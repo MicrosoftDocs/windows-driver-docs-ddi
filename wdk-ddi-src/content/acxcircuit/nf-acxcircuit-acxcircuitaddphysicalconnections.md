@@ -48,11 +48,11 @@ The AcxCircuitAddPhysicalConnections function adds physical connections to an ex
 
 ### -param Circuit
 
-TBD - An existing (TBD?) ACXCIRCUIT circuit object.  (DocsTeam - need link to ACX Object Summary topic).
+TBD - An existing (TBD?) ACXCIRCUIT circuit object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
  
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure]() That describes the pin structure including the pin IDs. TODO: Docs team add link to this structure in AcxPin header.
+A pointer to an [ACX_CONNECTION structure]() That describes the pin structure including the pin IDs. TODO: DocsTeam add link to this structure in AcxPin header.
 
 ### -param ConnectionsCount
 

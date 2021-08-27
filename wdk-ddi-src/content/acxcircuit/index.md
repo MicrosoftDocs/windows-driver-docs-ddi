@@ -25,7 +25,7 @@ For more information, see:
 - [Audio](../_audio/index.md)<br><br>
 
 
-### Definitions 
+## Definitions 
 
 *Endpoint Audio Path* - A group of Circuit objects connected together to represent a single endpoint. The Circuit objects can come from different drivers or from the same driver. 
 
@@ -37,6 +37,6 @@ For more information, see:
 
 *Head Circuit* - The circuit in the Endpoint Audio Path that registers the SINK/SOURCE circuit element. In the case of a single-stack driver model, there would be a single Circuit for the Endpoint Audio Path. 
 
-### Header elements
+## Header elements
 
 acxcircuit.h contains the following programming interfaces:
