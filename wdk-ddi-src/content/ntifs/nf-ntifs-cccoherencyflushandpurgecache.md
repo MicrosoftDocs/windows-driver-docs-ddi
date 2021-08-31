@@ -50,7 +50,7 @@ The **CcCoherencyFlushAndPurgeCache** routine flushes, or flushes and purges, th
 
 ### -param SectionObjectPointer
 
-[in] A pointer to a [**SECTION_OBJECT_POINTERS**](../wdm/ns-wdm-_section_object_pointers) structure that contains the section object pointers of the file object.
+[in] A pointer to a [**SECTION_OBJECT_POINTERS**](../wdm/ns-wdm-_section_object_pointers.md) structure that contains the section object pointers of the file object.
 
 ### -param FileOffset
 
