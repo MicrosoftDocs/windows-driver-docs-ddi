@@ -48,7 +48,7 @@ The **WifiAdapterInitialize** function initializes a newly created NETADAPTER ob
 
 ### -param Adapter
 
-A handle to a NetAdapterCx NETADAPTER object obtained in a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+[_In_] A handle to a NetAdapterCx NETADAPTER object obtained in a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ## -returns
 

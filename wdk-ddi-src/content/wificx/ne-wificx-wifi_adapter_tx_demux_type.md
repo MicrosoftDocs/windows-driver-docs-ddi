@@ -1,11 +1,11 @@
 ---
 UID: NE:wificx._WIFI_ADAPTER_TX_DEMUX_TYPE
 tech.root: netvista
-title: WIFI_ADAPTER_TX_DEMUX_TYPE
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_TX_DEMUX_TYPE (wificx.h)
+ms.date: 08/31/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WIFI_ADAPTER_TX_DEMUX_TYPE enumeration specifies the Tx DEMUX type. 
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wificx.h
@@ -37,22 +37,21 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_TX_DEMUX_TYPE** enumeration specifies the Tx DEMUX type. 
 
 ## -enum-fields
 
-### -field WifiAdapterTxDemuxTypePeerAddress
+### -field WifiAdapterTxDemuxTypePeerAddress:2
 
-Reserved.
 
-### -field WifiAdapterTxDemuxTypeWmmInfo
+### -field WifiAdapterTxDemuxTypeWmmInfo:3
 
-Reserved.
+
 
 ## -remarks
+
+For more information, see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
+
 
 ## -see-also
 

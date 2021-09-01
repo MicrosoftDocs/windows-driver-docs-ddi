@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiDirectDeviceGetPortId
 tech.root: netvista
-title: WifiDirectDeviceGetPortId
-ms.date: 04/30/2021
+title: WifiDirectDeviceGetPortId (wificx.h)
+ms.date: 08/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiDirectDeviceGetPortId function gets the Wi-Fi Direct port ID.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,20 +42,28 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+Gets the Wi-Fi Direct port ID.
 
 ## -parameters
 
 ### -param WifiDirectDevice
 
-Reserved.
+[_In_] A handle to a WIFIDIRECTDEVICE object obtained in a previous call to [**WifiDirectDeviceCreate**](nf-wificx-wifidirectdevicecreate.md).
 
 ## -returns
 
+Returns the Wi-Fi Direct port ID.
+
 ## -remarks
+
+The client calls **WifiDirectDeviceGetPortId** from within its [*EvtWifiDeviceCreateWifiDirectDevice*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) routine.
+
+For a code example of creating a WIFIDIRECTDEVICE object, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support).
 
 ## -see-also
 
+[**WifiDirectDeviceCreate**](nf-wificx-wifidirectdevicecreate.md)
+
+[*EvtWifiDeviceCreateWifiDirectDevice*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) 
+
+[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support)

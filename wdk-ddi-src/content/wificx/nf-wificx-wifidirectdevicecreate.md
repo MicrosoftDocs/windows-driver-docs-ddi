@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiDirectDeviceCreate
 tech.root: netvista
-title: WifiDirectDeviceCreate
-ms.date: 04/30/2021
+title: WifiDirectDeviceCreate (wificx.h)
+ms.date: 08/30/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiDirectDeviceCreate function creates a WIFIDIRECTDEVICE object.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,28 +42,37 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+Creates a WIFIDIRECTDEVICE object.
 
 ## -parameters
 
 ### -param WifiDirectDeviceInit
 
-Reserved.
+[_In_] A pointer to a caller-allocated WIFIDIRECT_DEVICE_INIT object.
 
 ### -param WifiDirectDeviceAttributes
 
-Reserved.
+[_In__opt_] A pointer to a WDF_OBJECT_ATTRIBUTES object that contains driver-supplied attributes for the new WIFIDIRECTDEVICE object.
 
 ### -param WifiDirectDevice
 
-Reserved.
+[_Out_] A pointer to a location that receives a handle to the new WIFIDIRECTDEVICE object.
 
 ## -returns
 
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
+
 ## -remarks
+
+The client calls **WifiDirectDeviceCreate** from within its [*EvtWifiDeviceCreateWifiDirectDevice*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) routine. Call [**WifiDirectDeviceInitialize**](nf-wificx-wifidirectdeviceinitialize.md) to initialize this object. 
+
+For a code example of creating a WIFIDIRECTDEVICE object, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support).
+
 
 ## -see-also
 
+[*EvtWifiDeviceCreateWifiDirectDevice*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md)
+
+[**WifiDirectDeviceInitialize**](nf-wificx-wifidirectdeviceinitialize.md)
+
+[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support)

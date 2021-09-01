@@ -1,11 +1,11 @@
 ---
 UID: NS:wificx._WIFI_ADAPTER_TX_DEMUX
 tech.root: netvista
-title: WIFI_ADAPTER_TX_DEMUX
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_TX_DEMUX (wificx.h)
+ms.date: 08/31/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WIFI_ADAPTER_TX_DEMUX structure specifies Tx DEMUX information. 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -41,26 +41,27 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_TX_DEMUX** structure specifies Tx DEMUX information. 
 
 ## -struct-fields
 
 ### -field Size
 
-Reserved.
+The size of this structure in bytes.
 
 ### -field Type
 
-Reserved.
+The demux type formatted as a [**WIFI_ADAPTER_TX_DEMUX_TYPE**](ne-wificx-wifi_adapter_tx_demux_type.md) enumeration.
 
 ### -field Range
 
-Reserved.
 
 ## -remarks
 
+For more information, see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
+
 ## -see-also
 
+[**WIFI_ADAPTER_TX_DEMUX_TYPE**](ne-wificx-wifi_adapter_tx_demux_type.md)
+
+[Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues)
