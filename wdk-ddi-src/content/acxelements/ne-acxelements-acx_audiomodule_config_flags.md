@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_AUDIOMODULE_CONFIG_FLAGS
 tech.root: audio 
 title: ACX_AUDIOMODULE_CONFIG_FLAGS
-ms.date: 08/27/2021
+ms.date: 08/31/2021
 targetos: Windows
-description: 
+description: The ACX_AUDIOMODULE_CONFIG_FLAGS enumeration defines the config flags for the ACX audio module.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,15 +37,23 @@ dev_langs:
 
 ## -description
 
+The ACX_AUDIOMODULE_CONFIG_FLAGS enumeration defines the config flags for the ACX audio module.
+
 ## -enum-fields
 
 ### -field AcxAudioModuleConfigNoFlags
 
+Indicates that no config flags are set.
+
 ### -field AcxAudioModuleConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ### Example
+
+TBD - No sample code found, just header def.
 
 Example usage is shown below.
 

@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_KEYWORDSPOTTER_CONFIG
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CONFIG
-ms.date: 08/27/2021
+ms.date: 09/01/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -47,6 +47,8 @@ dev_langs:
 ## -struct-fields
 
 ### -field Size
+
+TBD - The length, in bytes, of this structure.
 
 ### -field Id
 

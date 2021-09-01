@@ -52,7 +52,7 @@ TODO: DocsTeam - need link to this struct topic when AcxPint header is documente
 
 ### -field Size
 
-The size of the callbacks structure.
+The size of the callbacks structure TBD in bytes???.
 
 ### -field EvtAcxStreamPrepareHardware
 

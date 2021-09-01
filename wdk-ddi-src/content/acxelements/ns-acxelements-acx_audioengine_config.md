@@ -2,9 +2,9 @@
 UID: NS:acxelements._ACX_AUDIOENGINE_CONFIG
 tech.root: audio 
 title: ACX_AUDIOENGINE_CONFIG
-ms.date: 08/27/2021
+ms.date: 09/01/2021
 targetos: Windows
-description: 
+description: The ACX_AUDIOENGINE_CONFIG structure is used to define the audio engine configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,9 +44,13 @@ dev_langs:
 
 ## -description
 
+The ACX_AUDIOENGINE_CONFIG structure is used to define the audio engine configuration. 
+
 ## -struct-fields
 
 ### -field Size
+
+TBD - The length, in bytes, of this structure.
 
 ### -field Id
 
@@ -75,6 +79,19 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+    ACX_AUDIOENGINE_CONFIG          audioEngineCfg;  
+
+
+
+    ACX_AUDIOENGINE_CONFIG_INIT(&audioEngineCfg);
+    audioEngineCfg.HostPin = Pins[HostPin];
+    audioEngineCfg.OffloadPin = Pins[OffloadPin];
+    audioEngineCfg.LoopbackPin = Pins[LoopbackPin];
+    audioEngineCfg.VolumeElement = volumeElement;
+    audioEngineCfg.MuteElement = muteElement;
+    audioEngineCfg.PeakMeterElement = peakmeterElement;
+    audioEngineCfg.Callbacks = &audioEngineCallbacks;
+
 
 ```
 

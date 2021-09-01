@@ -48,6 +48,8 @@ dev_langs:
 
 ### -field Size
 
+TBD - The length, in bytes, of this structure.
+
 ### -field EvtAcxAudioModuleProcessCommand
 
 ## -remarks

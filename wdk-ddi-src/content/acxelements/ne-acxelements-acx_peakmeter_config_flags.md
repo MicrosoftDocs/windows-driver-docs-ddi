@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_PEAKMETER_CONFIG_FLAGS
 tech.root: audio 
 title: ACX_PEAKMETER_CONFIG_FLAGS
-ms.date: 08/27/2021
+ms.date: 08/31/2021
 targetos: Windows
-description: 
+description: The ACX_PEAKMETER_CONFIG_FLAGS enumeration defines the peak meter config flags for ACX audio.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,15 +37,25 @@ dev_langs:
 
 ## -description
 
+
+The ACX_PEAKMETER_CONFIG_FLAGS enumeration defines the peak meter config flags for ACX audio.
+
+
 ## -enum-fields
 
 ### -field AcxPeakMeterConfigNoFlags
 
+Indicates that no peak meter config flags are set.
+
 ### -field AcxPeakMeterConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ### Example
+
+TBD - No sample code found, just header def.
 
 Example usage is shown below.
 

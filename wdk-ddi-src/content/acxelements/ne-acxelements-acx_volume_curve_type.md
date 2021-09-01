@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_VOLUME_CURVE_TYPE
 tech.root: audio 
 title: ACX_VOLUME_CURVE_TYPE
-ms.date: 08/27/2021
+ms.date: 08/31/2021
 targetos: Windows
-description: 
+description: The ACX_VOLUME_CURVE_TYPE enumeration defines the volume curve type.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,15 +40,23 @@ dev_langs:
 
 ## -description
 
+The ACX_VOLUME_CURVE_TYPE enumeration defines the volume curve type.
+
 ## -enum-fields
 
 ### -field AcxVolumeCurveTypeNone
 
+Indicates that the the volume curve type is none.
+
 ### -field AcxVolumeCurveTypeFade
+
+Indicates that the the volume curve type is fade.
 
 ## -remarks
 
 ### Example
+
+TBD - No useful sample code found, just header def and null test.
 
 Example usage is shown below.
 

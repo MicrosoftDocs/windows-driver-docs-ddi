@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOENGINE_CALLBACKS
 tech.root: audio 
 title: ACX_AUDIOENGINE_CALLBACKS
-ms.date: 08/27/2021
+ms.date: 09/01/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -44,13 +44,21 @@ dev_langs:
 
 ## -description
 
+The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework. 
+
 ## -struct-fields
 
 ### -field Size
 
+TBD - The length, in bytes, of this structure.
+
 ### -field EvtAcxAudioEngineRetrieveBufferSizeLimits
 
+The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-audioengine-retrieve-buffer-size-limits.md) callback.
+
 ### -field EvtAcxAudioEngineAssignEffectsState
+
+The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-audioengine-assign-effects-states.md) callback.
 
 ### -field EvtAcxAudioEngineRetrieveEffectsState
 
@@ -67,6 +75,14 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+  ACX_AUDIOENGINE_CALLBACKS       audioEngineCallbacks;
+
+  ACX_AUDIOENGINE_CALLBACKS_INIT(&audioEngineCallbacks);
+    audioEngineCallbacks.EvtAcxAudioEngineRetrieveBufferSizeLimits = CodecR_EvtAcxAudioEngineRetrieveBufferSizeLimits;
+    audioEngineCallbacks.EvtAcxAudioEngineAssignEffectsState = CodecR_EvtAcxAudioEngineAssignEffectsState;
+    audioEngineCallbacks.EvtAcxAudioEngineRetrieveEffectsState = CodecR_EvtAcxAudioEngineRetrieveEffectsState;
+    audioEngineCallbacks.EvtAcxAudioEngineRetrieveEngineMixFormat = CodecR_EvtAcxAudioEngineRetrieveEngineMixFormat;
+    audioEngineCallbacks.EvtAcxAudioEngineAssignEngineDeviceFormat = CodecR_EvtAcxAudioEngineAssignEngineDeviceFormat;
 
 ```
 

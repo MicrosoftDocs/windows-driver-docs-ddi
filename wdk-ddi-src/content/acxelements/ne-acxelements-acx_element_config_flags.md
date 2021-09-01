@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_ELEMENT_CONFIG_FLAGS
 tech.root: audio 
 title: ACX_ELEMENT_CONFIG_FLAGS
-ms.date: 08/27/2021
+ms.date: 08/31/2021
 targetos: Windows
-description: 
+description: The ACX_ELEMENT_CONFIG_FLAGS enumeration defines the config flags for an ACX element.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,17 +37,25 @@ dev_langs:
 
 ## -description
 
+TBD - The ACX_ELEMENT_CONFIG_FLAGS enumeration defines the config flags for an ACX element.
+
 ## -enum-fields
 
 ### -field AcxElementConfigNoFlags
 
+Indicates that no config flags are set.
+
 ### -field AcxElementConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ### Example
 
 Example usage is shown below.
+
+TBD - No sample code found, just header def.
 
 ```cpp
 

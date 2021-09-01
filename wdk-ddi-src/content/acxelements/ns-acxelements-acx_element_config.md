@@ -48,6 +48,8 @@ dev_langs:
 
 ### -field Size
 
+TBD - The length, in bytes, of this structure.
+
 ### -field Id
 
 ### -field Type
@@ -60,7 +62,13 @@ dev_langs:
 
 ### -field MethodsCount
 
+TBD - The number of methods. This is a TBD zero / one based count.
+
 ### -field Properties
+
+TBD - An ACX_PROPERTY_ITEM structure that defines a set of TBD TBD and is used to TBD. 
+
+TODO: DocsTeam add link to this structure in AcxRequest header when available.
 
 ### -field Methods
 

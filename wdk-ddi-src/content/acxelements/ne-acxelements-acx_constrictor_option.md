@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_CONSTRICTOR_OPTION
 tech.root: audio 
 title: ACX_CONSTRICTOR_OPTION
-ms.date: 08/27/2021
+ms.date: 08/31/2021
 targetos: Windows
-description: 
+description: The ACX_CONSTRICTOR_OPTION enumeration defines the ACX constrictor options.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,15 +37,23 @@ dev_langs:
 
 ## -description
 
+The ACX_CONSTRICTOR_OPTION enumeration defines the ACX constrictor options. And audio constrictor is a used to TBD TBD TBD 
+
 ## -enum-fields
 
 ### -field AcxConstrictorOptionNone
 
+Indicates that there are no constrictor options.
+
 ### -field AcxConstrictorOptionMute
+
+Indicates that the constrictor option is mute.
 
 ## -remarks
 
 ### Example
+
+TBD - No useful sample code found, just header def and null test.
 
 Example usage is shown below.
 
