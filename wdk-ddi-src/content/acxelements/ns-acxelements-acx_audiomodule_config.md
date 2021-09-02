@@ -54,9 +54,17 @@ TBD - The length, in bytes, of this structure.
 
 ### -field Id
 
+A number that represents the ID of the TBD.
+
 ### -field Name
 
+A pointer to a GUID that represents the name of the TBD that will be used for TBD.
+
 ### -field Flags
+
+Audio engine configuration flags defined by the [ACX_AUDIOMODULE_CONFIG_FLAGS enum](ne-acxelements-acx_audiomodule_config_flags.md). 
+
+TBD - No flag bits are currently defined. Set this member to zero - AcxAudioModuleConfigNoFlags
 
 ### -field Descriptor
 

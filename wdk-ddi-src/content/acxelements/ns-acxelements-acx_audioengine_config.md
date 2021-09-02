@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOENGINE_CONFIG
 tech.root: audio 
 title: ACX_AUDIOENGINE_CONFIG
-ms.date: 09/01/2021
+ms.date: 09/02/2021
 targetos: Windows
 description: The ACX_AUDIOENGINE_CONFIG structure is used to define the audio engine configuration. 
 prerelease: true
@@ -54,7 +54,11 @@ TBD - The length, in bytes, of this structure.
 
 ### -field Id
 
+A number that represents the ID of the TBD.
+
 ### -field Name
+
+A pointer to a GUID that represents the name of the TBD that will be used for TBD.
 
 ### -field Flags
 
@@ -64,15 +68,27 @@ TBD - No flag bits are currently defined. Set this member to zero - AcxAudioEngi
 
 ### -field HostPin
 
+TBD - An existing (or new TBD?) ACXPIN object that serves as the host (TBD) for the audio engine. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -field OffloadPin
+
+An existing ACXPIN object that represents the offload pin.
 
 ### -field LoopbackPin
 
+An existing ACXPIN object that represents the loop back pin.
+
 ### -field VolumeElement
+
+An existing ACXVOLUME object that is used for volume operations by the audio engine.
 
 ### -field MuteElement
 
+An existing ACXMUTE object that is used for mute operations by the audio engine.
+
 ### -field PeakMeterElement
+
+An existing ACXMUTE object that is used for mute operations by the audio engine.
 
 ### -field Callbacks
 

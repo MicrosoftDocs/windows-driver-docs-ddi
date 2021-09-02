@@ -54,7 +54,11 @@ TBD - The length, in bytes, of this structure.
 
 ### -field Id
 
+A number that represents the ID of the TBD.
+
 ### -field Name
+
+A pointer to a GUID that represents the name of the TBD that will be used for TBD.
 
 ### -field Flags
 

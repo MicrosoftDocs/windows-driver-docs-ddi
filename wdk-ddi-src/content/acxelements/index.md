@@ -1,22 +1,22 @@
 ---
-UID: NA:acxelement
-title: acxelement.h header
-ms.date: 08/27/2021
-description: The  acxelement.h header is used by the ACX audio class extensions.
-keywords: ["acxelement.h header"]
+UID: NA:acxelements
+title: acxelements.h header
+ms.date: 09/02/2021
+description: The  acxelements.h header is used by the ACX audio class extensions.
+keywords: ["acxelements.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: audio
 f1_keywords:
- - acxelement
- - acxelement/acxelement
+ - acxelements
+ - acxelements/acxelements
 api_name:
- - acxelement
+ - acxelements
 ---
 
-# acxelement.h header
+# acxelements.h header
 
 This header is used by the ACX audio class extensions.
 
@@ -28,5 +28,5 @@ For more information, see:
 
 ## Header elements
 
-acxelement.h contains the following programming interfaces:
+acxelements.h contains the following programming interfaces:
 

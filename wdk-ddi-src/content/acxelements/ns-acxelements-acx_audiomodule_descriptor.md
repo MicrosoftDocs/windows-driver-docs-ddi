@@ -58,6 +58,8 @@ The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor stru
 
 ### -field Name
 
+A pointer to a GUID that represents the name of the TBD that will be used for TBD.
+
 ## -remarks
 
 ### Example
