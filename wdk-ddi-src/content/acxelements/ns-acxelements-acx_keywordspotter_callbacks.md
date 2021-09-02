@@ -48,9 +48,11 @@ dev_langs:
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+TBD - The length, in bytes, of this callbacks structure.
 
 ### -field EvtAcxKeywordSpotterRetrieveArm
+
+nc-acxelements-evt_acx_keywordspotter_retrieve_arm.md
 
 ### -field EvtAcxKeywordSpotterAssignArm
 
@@ -65,7 +67,13 @@ TBD - The length, in bytes, of this structure.
 Example usage is shown below.
 
 ```cpp
+    ACX_KEYWORDSPOTTER_CALLBACKS    keywordSpotterCallbacks;
 
+    ACX_KEYWORDSPOTTER_CALLBACKS_INIT(&keywordSpotterCallbacks);
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterRetrieveArm = CodecC_EvtAcxKeywordSpotterRetrieveArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignArm = CodecC_EvtAcxKeywordSpotterAssignArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignPatterns = CodecC_EvtAcxKeywordSpotterAssignPatterns;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignReset = CodecC_EvtAcxKeywordSpotterAssignReset;
 ```
 
 ## -see-also

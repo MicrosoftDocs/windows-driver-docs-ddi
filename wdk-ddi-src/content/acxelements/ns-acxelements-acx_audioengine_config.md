@@ -58,6 +58,10 @@ TBD - The length, in bytes, of this structure.
 
 ### -field Flags
 
+Audio engine configuration flags defined by the [ACX_AUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_audioengine_config_flags.md). 
+
+TBD - No flag bits are currently defined. Set this member to zero - AcxAudioEngineConfigNoFlags
+
 ### -field HostPin
 
 ### -field OffloadPin
@@ -72,6 +76,8 @@ TBD - The length, in bytes, of this structure.
 
 ### -field Callbacks
 
+An [ACX_AUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_audioengine_callbacks.md) that defines the callbacks for the audio engine. 
+
 ## -remarks
 
 ### Example
@@ -80,10 +86,11 @@ Example usage is shown below.
 
 ```cpp
     ACX_AUDIOENGINE_CONFIG          audioEngineCfg;  
+    ACX_AUDIOENGINE_CALLBACKS       audioEngineCallbacks;
 
-
-
+    // Initialize the config structure
     ACX_AUDIOENGINE_CONFIG_INIT(&audioEngineCfg);
+    // Set the values of the structure
     audioEngineCfg.HostPin = Pins[HostPin];
     audioEngineCfg.OffloadPin = Pins[OffloadPin];
     audioEngineCfg.LoopbackPin = Pins[LoopbackPin];
@@ -91,8 +98,6 @@ Example usage is shown below.
     audioEngineCfg.MuteElement = muteElement;
     audioEngineCfg.PeakMeterElement = peakmeterElement;
     audioEngineCfg.Callbacks = &audioEngineCallbacks;
-
-
 ```
 
 ## -see-also

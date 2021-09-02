@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOENGINE_CALLBACKS
 ms.date: 09/01/2021
 targetos: Windows
-description: 
+description: The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework. 
+The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine. 
 
 ## -struct-fields
 
@@ -54,19 +54,33 @@ TBD - The length, in bytes, of this structure.
 
 ### -field EvtAcxAudioEngineRetrieveBufferSizeLimits
 
-The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-audioengine-retrieve-buffer-size-limits.md) callback.
+The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-evt_audioengine_retrieve_buffer_size_limits.md) callback.
 
 ### -field EvtAcxAudioEngineAssignEffectsState
 
-The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-audioengine-assign-effects-states.md) callback.
+The [EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE](nc-acxelements-evt_acx_audioengine_assign_effects_state.md) callback.
 
 ### -field EvtAcxAudioEngineRetrieveEffectsState
 
+The [EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE](nc-acxelements-evt_acx_audioengine_retrieve_effects_state.md) callback.
+
 ### -field EvtAcxAudioEngineRetrieveEngineMixFormat
+
+The [EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengine_retrieve_engine_format.md) callback.
+
+TBD TBD TBD - was this call back structure changed from MixFormat?
 
 ### -field EvtAcxAudioEngineAssignEngineDeviceFormat
 
+TBD TBD TBD - was this call back structure changed from DeviceFormat?
+
+The [EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengine_assign_engine_format.md) callback.
+
 ### -field EvtAcxAudioEngineProcessRequest
+
+The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback. 
+
+TODO: Docs team need to find this callback
 
 ## -remarks
 
