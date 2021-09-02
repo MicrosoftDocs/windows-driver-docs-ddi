@@ -2,9 +2,9 @@
 UID: NS:acxelements._ACX_PEAKMETER_CALLBACKS
 tech.root: audio 
 title: ACX_PEAKMETER_CALLBACKS
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: 
+description: The ACX_PEAKMETER_CALLBACKS structure identifies the driver callbacks for ACX peakmeter operations.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ dev_langs:
 ---
 
 ## -description
+
+The ACX_PEAKMETER_CALLBACKS structure identifies the driver callbacks for ACX peakmeter operations.
 
 ## -struct-fields
 

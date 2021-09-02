@@ -2,9 +2,9 @@
 UID: NS:acxelements._ACX_STREAMAUDIOENGINE_CONFIG
 tech.root: audio 
 title: ACX_STREAMAUDIOENGINE_CONFIG
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: 
+description: The ACX_STREAMAUDIOENGINE_CONFIG structure is used to define the audio engine stream configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ dev_langs:
 ---
 
 ## -description
+
+The ACX_STREAMAUDIOENGINE_CONFIG structure is used to define the audio engine stream configuration. 
 
 ## -struct-fields
 

@@ -2,9 +2,9 @@
 UID: NS:acxelements._ACX_AUDIOMODULE_CONFIG
 tech.root: audio 
 title: ACX_AUDIOMODULE_CONFIG
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: 
+description: The ACX_AUDIOMODULE_CONFIG structure is used to define the audio module configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ dev_langs:
 ---
 
 ## -description
+
+The ACX_AUDIOMODULE_CONFIG structure is used to define the audio module configuration. 
 
 ## -struct-fields
 

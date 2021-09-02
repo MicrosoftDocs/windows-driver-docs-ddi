@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_KEYWORDSPOTTER_CONFIG
 ms.date: 09/01/2021
 targetos: Windows
-description: 
+description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio key word spotter configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio key word spotter configuration. 
+
 ## -struct-fields
 
 ### -field Size
@@ -67,7 +69,20 @@ TBD - The length, in bytes, of this structure.
 Example usage is shown below.
 
 ```cpp
+    ACX_KEYWORDSPOTTER_CONFIG       keywordSpotterCfg;
+    PCODEC_KEYWORDSPOTTER_CONTEXT   keywordSpotterCtx;
+    ACX_PNPEVENT_CONFIG             keywordEventCfg;
+    ACXPNPEVENT                     keywordEvent;
 
+    ACX_KEYWORDSPOTTER_CALLBACKS_INIT(&keywordSpotterCallbacks);
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterRetrieveArm = CodecC_EvtAcxKeywordSpotterRetrieveArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignArm = CodecC_EvtAcxKeywordSpotterAssignArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignPatterns = CodecC_EvtAcxKeywordSpotterAssignPatterns;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignReset = CodecC_EvtAcxKeywordSpotterAssignReset;
+    
+    ACX_KEYWORDSPOTTER_CONFIG_INIT(&keywordSpotterCfg);
+    keywordSpotterCfg.Pattern = &CONTOSO_KEYWORDCONFIGURATION_IDENTIFIER2;
+    keywordSpotterCfg.Callbacks = &keywordSpotterCallbacks;
 ```
 
 ## -see-also
