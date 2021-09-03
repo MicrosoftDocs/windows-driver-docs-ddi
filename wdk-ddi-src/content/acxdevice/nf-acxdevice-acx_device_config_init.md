@@ -2,9 +2,9 @@
 UID: NF:acxdevice.ACX_DEVICE_CONFIG_INIT
 tech.root: audio
 title: ACX_DEVICE_CONFIG_INIT
-ms.date: 07/09/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Initializes an ACX_DEVICE_CONFIG structure to be used when calling the AcxDeviceInitialize function.
+description: The ACX_DEVICE_CONFIG_INIT function initializes an ACX_DEVICE_CONFIG structure to be used when calling the AcxDeviceInitialize function.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function **ACX_DEVICE_CONFIG_INIT** initializes an [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md) structure to be used when calling the [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md) function.
+The **ACX_DEVICE_CONFIG_INIT** function initializes an [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md) structure to be used when calling the [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md) function.
 
 ## -parameters
 

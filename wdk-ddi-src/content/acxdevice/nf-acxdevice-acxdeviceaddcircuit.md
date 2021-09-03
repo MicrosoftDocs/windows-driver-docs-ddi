@@ -2,9 +2,9 @@
 UID: NF:acxdevice.AcxDeviceAddCircuit
 tech.root: audio
 title: AcxDeviceAddCircuit
-ms.date: 07/15/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Adds an ACX circuit to a WDFDEVICE to create an audio endpoint.
+description: The AcxDeviceAddCircuit function adds an ACX circuit to a WDFDEVICE to create an audio endpoint.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Adds an ACX circuit to a **WDFDEVICE** to create an audio endpoint.
+The **AcxDeviceAddCircuit** function adds an ACX circuit to a **WDFDEVICE** to create an audio endpoint.
 
 ## -parameters
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDeviceRemoveFactoryCircuit
 ms.date: 07/15/2021
 targetos: Windows
-description: Removes a factory circuit for creating audio circuits from a WDFDEVICE.
+description: The AcxDeviceRemoveFactoryCircuit function removes a factory circuit for creating audio circuits from a WDFDEVICE.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Removes a factory circuit for creating audio circuits from a **WDFDEVICE**.
+The **AcxDeviceRemoveFactoryCircuit** function removes a factory circuit for creating audio circuits from a **WDFDEVICE**.
 
 ## -parameters
 

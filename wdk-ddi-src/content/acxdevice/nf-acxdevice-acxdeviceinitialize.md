@@ -2,9 +2,9 @@
 UID: NF:acxdevice.AcxDeviceInitialize
 tech.root: audio
 title: AcxDeviceInitialize
-ms.date: 07/09/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Initializes an audio class extension (ACX) device.
+description: The AcxDeviceInitialize function initializes an audio class extension (ACX) device.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Initializes an audio class extension (ACX) device.
+The **AcxDeviceInitialize** function initializes an audio class extension (ACX) device.
 
 ## -parameters
 

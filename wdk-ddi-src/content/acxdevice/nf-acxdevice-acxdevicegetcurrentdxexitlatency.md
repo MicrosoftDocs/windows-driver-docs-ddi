@@ -2,9 +2,9 @@
 UID: NF:acxdevice.AcxDeviceGetCurrentDxExitLatency
 tech.root: audio
 title: AcxDeviceGetCurrentDxExitLatency
-ms.date: 07/09/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Gets the current audio device sleep state exit latency value.
+description: The AcxDeviceGetCurrentDxExitLatency function gets the current audio device sleep state exit latency value.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets the current audio device sleep state exit latency value.
+The **AcxDeviceGetCurrentDxExitLatency** function gets the current audio device sleep state exit latency value.
 
 ## -parameters
 

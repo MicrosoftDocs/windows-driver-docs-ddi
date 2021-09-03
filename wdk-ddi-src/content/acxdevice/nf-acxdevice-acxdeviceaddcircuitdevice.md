@@ -2,9 +2,9 @@
 UID: NF:acxdevice.AcxDeviceAddCircuitDevice
 tech.root: audio
 title: AcxDeviceAddCircuitDevice
-ms.date: 08/04/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Adds an ACX circuit device to a parent device representing an audio path.
+description: The AcxDeviceAddCircuitDevice function adds an ACX circuit device to a specified parent device representing an audio path.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Adds an ACX circuit device to a specified parent device representing an audio path.
+The **AcxDeviceAddCircuitDevice** function adds an ACX circuit device to a specified parent device representing an audio path.
 
 ## -parameters
 
