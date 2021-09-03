@@ -62,13 +62,15 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_AUDIOMODULE_CONFIG_FLAGS enum](ne-acxelements-acx_audiomodule_config_flags.md). 
+Audio module configuration flags defined by the [ACX_AUDIOMODULE_CONFIG_FLAGS enum](ne-acxelements-acx_audiomodule_config_flags.md). 
 
 TBD - No flag bits are currently defined. Set this member to zero - AcxAudioModuleConfigNoFlags
 
 ### -field Descriptor
 
 ### -field Callbacks
+
+The [ACX_AUDIOMODULE_CALLBACKS structure](ns-acxelements-acx_audiomodule_callbacks.md) that identifies the driver callbacks for ACX audio module operations.
 
 ## -remarks
 

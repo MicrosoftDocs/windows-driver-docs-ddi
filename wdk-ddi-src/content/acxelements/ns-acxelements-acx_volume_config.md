@@ -62,17 +62,35 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
+Audio key word spotter configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md). 
+
+TBD - No flag bits are currently defined. Set this member to zero - AcxVolumeConfigNoFlags
+
 ### -field ChannelsCount
 
 TBD - The number of channels. This is a TBD zero / one based count.
 
 ### -field Maximum
 
+The maximum volume boost level for the volume.
+
+TBD - Does this apply to ACX??
+
+For more information about volume level settings, see [Customizing HD Audio Driver Volume Settings](/windows-hardware/drivers/audio/customizing-default-audio-volume-settings).
+
+TBD - Does this apply to ACX??
+
 ### -field Minimum
+
+The minimum volume boost level for the volume.
 
 ### -field SteppingDelta
 
+The stepping delta for the volume.
+
 ### -field Callbacks
+
+The [ACX_VOLUME_CALLBACKS structure](ns-acxelements-acx_volume_callbacks.md) that identifies the driver callbacks for ACX volume operations.
 
 ## -remarks
 
@@ -81,6 +99,19 @@ TBD - The number of channels. This is a TBD zero / one based count.
 Example usage is shown below.
 
 ```cpp
+    ACX_VOLUME_CALLBACKS            volumeCallbacks;
+    ACX_VOLUME_CONFIG               volumeCfg;
+
+    ACX_VOLUME_CALLBACKS_INIT(&volumeCallbacks);
+    volumeCallbacks.EvtAcxVolumeAssignLevel = CodecC_EvtVolumeAssignLevelCallback;
+    volumeCallbacks.EvtAcxVolumeRetrieveLevel = CodecC_EvtVolumeRetrieveLevelCallback;
+
+    ACX_VOLUME_CONFIG_INIT(&volumeCfg);
+    volumeCfg.ChannelsCount = MAX_CHANNELS;
+    volumeCfg.Minimum = VOLUME_LEVEL_MINIMUM;
+    volumeCfg.Maximum = VOLUME_LEVEL_MAXIMUM;
+    volumeCfg.SteppingDelta = VOLUME_STEPPING;
+    volumeCfg.Callbacks = &volumeCallbacks;
 
 ```
 

@@ -54,11 +54,24 @@ TBD - The length, in bytes, of this structure.
 
 ### -field EvtAcxVolumeAssignLevel
 
+The [EVT_ACX_VOLUME_ASSIGN_LEVEL](nc-acxelements-evt_acx_volume_assign_level.md) callback.
+
 ### -field EvtAcxRampedVolumeAssignLevel
+
+The [EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL](nc-acxelements-evt_acx_ramped_volume_assign_level.md) callback.
 
 ### -field EvtAcxVolumeRetrieveLevel
 
+The [EVT_ACX_VOLUME_RETRIEVE_LEVEL](nc-acxelements-evt_acx_volume_retrieve_level.md) callback.
+
 ### -field EvtAcxVolumeProcessRequest
+
+TBD TBD 
+
+The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback. 
+
+TODO: Docs team need to find this callback - in request.h?
+
 
 ## -remarks
 
@@ -67,7 +80,19 @@ TBD - The length, in bytes, of this structure.
 Example usage is shown below.
 
 ```cpp
+    ACX_VOLUME_CALLBACKS            volumeCallbacks;
+    ACX_VOLUME_CONFIG               volumeCfg;
 
+    ACX_VOLUME_CALLBACKS_INIT(&volumeCallbacks);
+    volumeCallbacks.EvtAcxVolumeAssignLevel = CodecC_EvtVolumeAssignLevelCallback;
+    volumeCallbacks.EvtAcxVolumeRetrieveLevel = CodecC_EvtVolumeRetrieveLevelCallback;
+
+    ACX_VOLUME_CONFIG_INIT(&volumeCfg);
+    volumeCfg.ChannelsCount = MAX_CHANNELS;
+    volumeCfg.Minimum = VOLUME_LEVEL_MINIMUM;
+    volumeCfg.Maximum = VOLUME_LEVEL_MAXIMUM;
+    volumeCfg.SteppingDelta = VOLUME_STEPPING;
+    volumeCfg.Callbacks = &volumeCallbacks;
 ```
 
 ## -see-also

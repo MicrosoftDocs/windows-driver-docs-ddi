@@ -62,13 +62,15 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_AUDIOELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_audioelement_config_flags.md). 
+Audio key word spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_audioelement_config_flags.md). 
 
-TBD - No flag bits are currently defined. Set this member to zero - AcxAudioElementConfigNoFlags
+TBD - No flag bits are currently defined. Set this member to zero - AcxKeywordSpotterConfigNoFlags
 
 ### -field Pattern
 
 ### -field Callbacks
+
+The [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md) that identifies the driver callbacks for the keyword spotter operations.
 
 ## -remarks
 
