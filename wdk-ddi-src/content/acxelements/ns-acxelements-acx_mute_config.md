@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_MUTE_CONFIG
 tech.root: audio 
 title: ACX_MUTE_CONFIG
-ms.date: 09/02/2021
+ms.date: 09/03/2021
 targetos: Windows
 description: The ACX_MUTE_CONFIG structure is used to define the audio mute configuration. 
 prerelease: true
@@ -62,9 +62,9 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_AUDIOELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_audioelement_config_flags.md). 
+Audio key word spotter configuration flags defined by the [ACX_MUTE_CONFIG_FLAGS enum](ne-acxelements-acx_mute_config_flags.md). 
 
-TBD - No flag bits are currently defined. Set this member to zero - AcxAudioElementConfigNoFlags
+TBD - No flag bits are currently defined. Set this member to zero - AcxMuteConfigNoFlags.
 
 ### -field ChannelsCount
 
@@ -81,7 +81,21 @@ The [ACX_MUTE_CALLBACKS structure](ns-acxelements-acx_mute_callbacks.md) that id
 Example usage is shown below.
 
 ```cpp
+    ACX_MUTE_CALLBACKS              muteCallbacks;
+    ACX_MUTE_CONFIG                 muteCfg;
+    ACXMUTE                         muteElement;
 
+    //
+    // Create three elements to handle mute for the audioengine element
+    //
+    ACX_MUTE_CALLBACKS_INIT(&muteCallbacks);
+    muteCallbacks.EvtAcxMuteAssignState = CodecR_EvtMuteAssignState;
+    muteCallbacks.EvtAcxMuteRetrieveState = CodecR_EvtMuteRetrieveState;
+
+    ACX_MUTE_CONFIG_INIT(&muteCfg);
+    muteCfg.ChannelsCount = MAX_CHANNELS;
+    muteCfg.Name = &KSAUDFNAME_WAVE_MUTE;
+    muteCfg.Callbacks = &muteCallbacks;
 ```
 
 ## -see-also

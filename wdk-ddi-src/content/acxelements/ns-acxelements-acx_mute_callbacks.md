@@ -68,7 +68,6 @@ The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback.
 
 TODO: Docs team need to find this callback - in request.h?
 
-
 ## -remarks
 
 ### Example

@@ -72,9 +72,17 @@ TBD - The number of channels. This is a TBD zero / one based count.
 
 ### -field Maximum
 
+TBD - The maximum TBD for the peakmeter.
+
+TBD - Does the value description here apply in ACX?? [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2)
+
 ### -field Minimum
 
+TBD - The maximum TBD for the peakmeter.
+
 ### -field SteppingDelta
+
+TBD - The stepping value for the peakmeter. This is measured in TBD.
 
 ### -field Callbacks
 

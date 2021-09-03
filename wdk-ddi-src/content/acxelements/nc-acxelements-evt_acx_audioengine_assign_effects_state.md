@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver to that the audio engine is (?? TBD Preparing) to assign an effects state.  
+
 ## -parameters
 
 ### -param AudioEngine
@@ -57,7 +59,20 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE        CodecR_EvtAcxAudioEngineAssignEffectsState;
 
+NTSTATUS
+DspR_EvtAcxAudioEngineAssignEffectsState(
+    ACXAUDIOENGINE,
+    ULONG
+)
+{
+    PAGED_CODE();
+    
+    // Custom Code goes here
+
+    return STATUS_SUCCESS;
+}
 ```
 
 ## -see-also

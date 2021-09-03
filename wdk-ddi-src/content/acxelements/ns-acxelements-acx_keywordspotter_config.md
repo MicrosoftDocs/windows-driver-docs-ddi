@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_KEYWORDSPOTTER_CONFIG
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CONFIG
-ms.date: 09/01/2021
+ms.date: 09/03/2021
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio key word spotter configuration. 
 prerelease: true

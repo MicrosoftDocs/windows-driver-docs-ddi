@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOMODULE_DESCRIPTOR
 tech.root: audio 
 title: ACX_AUDIOMODULE_DESCRIPTOR
-ms.date: 09/02/2021
+ms.date: 09/03/2021
 targetos: Windows
 description: The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor structure.
 prerelease: true
@@ -50,11 +50,23 @@ The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor stru
 
 ### -field ClassId
 
+The ClassId that is used to identify the class.
+
+TBD - Just guessing this is likePcNewPort???
+
+Specifies the class GUID, which is passed by reference. This parameter is used only if the function creates objects of multiple classes. Otherwise, it is set to NULL.
+
 ### -field InstanceId
+
+The Instance Id for this audio module.
 
 ### -field VersionMajor
 
+The major version.
+
 ### -field VersionMinor
+
+The minor version.
 
 ### -field Name
 
@@ -63,6 +75,8 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 ## -remarks
 
 ### Example
+
+TBD - No sample code found, just header def.
 
 Example usage is shown below.
 
