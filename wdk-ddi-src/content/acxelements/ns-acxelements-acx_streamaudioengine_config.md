@@ -62,13 +62,25 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
+Audio engine configuration flags defined by the [ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_streamaudioengine_config_flags.md). 
+
+TBD - No flag bits are currently defined. Set this member to zero - AcxStreamAudioEngineConfigNoFlags AcxStreamAudioEngineConfigNoFlags 
+
 ### -field VolumeElement
+
+An existing ACXVOLUME object that is used for volume operations by the audio engine.
 
 ### -field MuteElement
 
+An existing ACXMUTE object that is used for mute operations by the audio engine.
+
 ### -field PeakMeterElement
 
+An existing ACXPEAKMETER object that is used for peakmeter operations by the audio engine.
+
 ### -field Callbacks
+
+The [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md) that identifies the driver callbacks for ACX audio engine streaming operations.
 
 ## -remarks
 
@@ -77,7 +89,12 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 Example usage is shown below.
 
 ```cpp
-
+        ACX_STREAMAUDIOENGINE_CONFIG audioEngineCfg;
+        ACX_STREAMAUDIOENGINE_CONFIG_INIT(&audioEngineCfg);
+        audioEngineCfg.VolumeElement = volumeElement;
+        audioEngineCfg.MuteElement = muteElement;
+        audioEngineCfg.PeakMeterElement = peakmeterElement;
+        audioEngineCfg.Callbacks = &streamAudioEngineCallbacks;
 ```
 
 ## -see-also

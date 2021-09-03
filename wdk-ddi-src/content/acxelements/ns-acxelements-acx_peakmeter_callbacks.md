@@ -54,7 +54,15 @@ TBD - The length, in bytes, of this structure.
 
 ### -field EvtAcxPeakMeterRetrieveLevel
 
+The [ACX_PEAKMETER_RETRIEVE_LEVEL](nc-acxelements-evt_acx_peak-meter-retrieve-level.md) callback.
+
 ### -field EvtAcxPeakMeterProcessRequest
+
+TBD TBD 
+
+The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback. 
+
+TODO: Docs team need to find this callback - in request.h?
 
 ## -remarks
 
@@ -63,7 +71,22 @@ TBD - The length, in bytes, of this structure.
 Example usage is shown below.
 
 ```cpp
+    ACX_PEAKMETER_CALLBACKS         peakmeterCallbacks;
+    ACX_PEAKMETER_CONFIG            peakmeterCfg;
+    ACXPEAKMETER                    peakmeterElement;
 
+...
+        ACX_PEAKMETER_CALLBACKS peakmeterCallbacks;
+        ACX_PEAKMETER_CALLBACKS_INIT(&peakmeterCallbacks);
+        peakmeterCallbacks.EvtAcxPeakMeterRetrieveLevel = CodecR_EvtPeakMeterRetrieveLevelCallback;
+
+        ACX_PEAKMETER_CONFIG peakmeterCfg;
+        ACX_PEAKMETER_CONFIG_INIT(&peakmeterCfg);
+        peakmeterCfg.ChannelsCount = MAX_CHANNELS;
+        peakmeterCfg.Minimum = PEAKMETER_MINIMUM;
+        peakmeterCfg.Maximum = PEAKMETER_MAXIMUM;
+        peakmeterCfg.SteppingDelta = PEAKMETER_STEPPING_DELTA;
+        peakmeterCfg.Callbacks = &peakmeterCallbacks;
 ```
 
 ## -see-also

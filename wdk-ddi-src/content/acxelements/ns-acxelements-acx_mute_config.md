@@ -62,11 +62,17 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
+Audio key word spotter configuration flags defined by the [ACX_AUDIOELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_audioelement_config_flags.md). 
+
+TBD - No flag bits are currently defined. Set this member to zero - AcxAudioElementConfigNoFlags
+
 ### -field ChannelsCount
 
 TBD - The number of channels. This is a TBD zero / one based count.
 
 ### -field Callbacks
+
+The [ACX_MUTE_CALLBACKS structure](ns-acxelements-acx_mute_callbacks.md) that identifies the driver callbacks for ACX mute operations.
 
 ## -remarks
 

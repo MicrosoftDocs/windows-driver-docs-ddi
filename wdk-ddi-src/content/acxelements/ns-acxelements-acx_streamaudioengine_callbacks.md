@@ -54,19 +54,40 @@ TBD - The length, in bytes, of this structure.
 
 ### -field EvtAcxStreamAudioEngineAssignEffectsState
 
+The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE](nc-acxelements-evt_acx_streamaudioengine_assign_effects_state.md) callback.
+
 ### -field EvtAcxStreamAudioEngineRetrieveEffectsState
+
+The [EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE](nc-acxelements-evt_acx_streamaudioengine_retrieve_effects_state.md) callback.
 
 ### -field EvtAcxStreamAudioEngineRetrievePresentationPosition
 
+The [EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION](nc-acxelements-evt_acx_streamaudioengine_retrieve_presentation_position.md) callback.
+
 ### -field EvtAcxStreamAudioEngineAssignCurrentWritePosition
+
+The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION](nc-acxelements-evt_acx_streamaudioengine_assign_current_write_position.md) callback.
 
 ### -field EvtAcxStreamAudioEngineRetrieveLinearBufferPosition
 
+The [EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION](nc-acxelements-evt_acx_streamaudioengine_linear_buffer_position.md) callback.
+
 ### -field EvtAcxStreamAudioEngineAssignLastBufferPosition
+
+The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION](nc-acxelements-evt_acx_streamaudioengine_assign_last_buffer_position.md) callback.
 
 ### -field EvtAcxStreamAudioEngineAssignLoopbackProtection
 
+The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION](nc-acxelements-evt_acx_streamaudioengine_assign_loopback_protection.md) callback.
+
+
 ### -field EvtAcxStreamAudioEngineProcessRequest
+
+TBD TBD 
+
+The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback. 
+
+TODO: Docs team need to find this callback - in request.h?
 
 ## -remarks
 
@@ -75,7 +96,18 @@ TBD - The length, in bytes, of this structure.
 Example usage is shown below.
 
 ```cpp
+        ACX_STREAMAUDIOENGINE_CALLBACKS streamAudioEngineCallbacks;
 
+        // Create the AudioEngine element to control offloaded streaming.
+        ACX_STREAMAUDIOENGINE_CALLBACKS_INIT(&streamAudioEngineCallbacks);
+
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignEffectsState = CodecR_EvtAcxStreamAudioEngineAssignEffectsState;
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineRetrieveEffectsState = CodecR_EvtAcxStreamAudioEngineRetrieveEffectsState;
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineRetrievePresentationPosition = CodecR_EvtAcxStreamAudioEngineRetrievePresentationPosition;
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignCurrentWritePosition = CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition;
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineRetrieveLinearBufferPosition = CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition;
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignLastBufferPosition = CodecR_EvtAcxStreamAudioEngineAssignLastBufferPosition;
+        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignLoopbackProtection = CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection;
 ```
 
 ## -see-also

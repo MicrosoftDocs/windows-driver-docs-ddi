@@ -62,6 +62,10 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
+Audio engine configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md). 
+
+TBD - No flag bits are currently defined. Set this member to zero - AcxPeakMeterConfigNoFlags.
+
 ### -field ChannelsCount
 
 TBD - The number of channels. This is a TBD zero / one based count.
@@ -74,6 +78,8 @@ TBD - The number of channels. This is a TBD zero / one based count.
 
 ### -field Callbacks
 
+The [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.md) that identifies the driver callbacks for ACX audio engine streaming operations.
+
 ## -remarks
 
 ### Example
@@ -81,7 +87,19 @@ TBD - The number of channels. This is a TBD zero / one based count.
 Example usage is shown below.
 
 ```cpp
+    ACX_PEAKMETER_CONFIG            peakmeterCfg;
 
+        ACX_PEAKMETER_CALLBACKS peakmeterCallbacks;
+        ACX_PEAKMETER_CALLBACKS_INIT(&peakmeterCallbacks);
+        peakmeterCallbacks.EvtAcxPeakMeterRetrieveLevel = CodecR_EvtPeakMeterRetrieveLevelCallback;
+
+        ACX_PEAKMETER_CONFIG peakmeterCfg;
+        ACX_PEAKMETER_CONFIG_INIT(&peakmeterCfg);
+        peakmeterCfg.ChannelsCount = MAX_CHANNELS;
+        peakmeterCfg.Minimum = PEAKMETER_MINIMUM;
+        peakmeterCfg.Maximum = PEAKMETER_MAXIMUM;
+        peakmeterCfg.SteppingDelta = PEAKMETER_STEPPING_DELTA;
+        peakmeterCfg.Callbacks = &peakmeterCallbacks;
 ```
 
 ## -see-also

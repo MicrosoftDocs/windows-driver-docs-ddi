@@ -88,7 +88,7 @@ An existing ACXMUTE object that is used for mute operations by the audio engine.
 
 ### -field PeakMeterElement
 
-An existing ACXMUTE object that is used for mute operations by the audio engine.
+An existing ACXPEAKMETER object that is used for peakmeter operations by the audio engine.
 
 ### -field Callbacks
 
