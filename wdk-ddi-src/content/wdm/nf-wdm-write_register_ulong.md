@@ -62,6 +62,7 @@ Specifies a ULONG value to be written to the register.
 
 **WRITE_REGISTER_ULONG** inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to **WRITE_REGISTER_ULONG** will complete before any operation that appears after the call.
 
+For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
 
 Callers of <b>WRITE_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
 
