@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDeviceRemoveCircuit
 ms.date: 07/15/2021
 targetos: Windows
-description: Removes the specified audio circuit from an ACX device.
+description: The AcxDeviceRemoveCircuit function removes the specified audio circuit from an ACX device.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Removes the specified audio circuit from an ACX device.
+The **AcxDeviceRemoveCircuit** function removes the specified audio circuit from an ACX device.
 
 ## -parameters
 

@@ -2,9 +2,9 @@
 UID: NE:acxdevice._ACX_DX_EXIT_LATENCY
 tech.root: audio
 title: ACX_DX_EXIT_LATENCY
-ms.date: 07/09/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Values that define the ACX device exit latency.
+description: The ACX_DX_EXIT_LATENCY enum defines values that define the ACX device exit latency.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-Values that specify an ACX device's sleep state exit latency.
+The **ACX_DX_EXIT_LATENCY** enum defines values that specify an ACX device's sleep state exit latency.
 
 ## -enum-fields
 

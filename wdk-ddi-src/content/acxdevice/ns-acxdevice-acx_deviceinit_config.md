@@ -2,9 +2,9 @@
 UID: NS:acxdevice._ACX_DEVICEINIT_CONFIG
 tech.root: audio
 title: ACX_DEVICEINIT_CONFIG
-ms.date: 07/09/2021
+ms.date: 09/02/2021
 targetos: Windows
-description: Provides configuration information to the class extension.
+description: The ACX_DEVICEINIT_CONFIG structure provides configuration information to the class extension.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
