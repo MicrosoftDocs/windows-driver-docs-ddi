@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT
-ms.date: 08/27/2021
+ms.date: 09/03/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT tells the driver to that the audio engine is (?? TBD has ) assigning an engine format.  
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,25 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT tells the driver to that the audio engine is (?? TBD has ) assigning an engine format.  
+
 ## -parameters
 
 ### -param AudioEngine
 
+An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Format
 
+TBD - An ACXDATAFORMAT object that describes the engine format.
+
+TBD - A TBD type of audio format that is / will be used by the audio engine.
+
+KSPROPERTY_PIN_PROPOSEDATAFORMAT WAVEFORMAT EXTENSIBLE?
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -57,6 +69,20 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT        DspR_EvtAcxAudioEngineAssignEngineDeviceFormat;
+
+NTSTATUS
+DspR_EvtAcxAudioEngineAssignEngineDeviceFormat(
+    ACXAUDIOENGINE,
+    ULONG
+)
+{
+    PAGED_CODE();
+    
+    // Custom Code goes here
+
+    return STATUS_SUCCESS;
+}
 
 ```
 

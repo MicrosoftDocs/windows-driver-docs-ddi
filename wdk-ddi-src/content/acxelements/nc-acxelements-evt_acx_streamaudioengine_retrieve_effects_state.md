@@ -48,7 +48,14 @@ dev_langs:
 
 ### -param State
 
+TBD - is this the retrieved effects state?
+
+TODO: This is a ulong, but wondering if it would better to reference a state enum such as ACX_STREAM_STATE?
+
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 

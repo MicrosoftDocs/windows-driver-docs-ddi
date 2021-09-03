@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
-ms.date: 08/27/2021
+ms.date: 09/03/2021
 targetos: Windows
-description: 
+description: EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver that the audio engine is (?? TBD Preparing) to assign an effects state.  
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,24 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver to that the audio engine is (?? TBD Preparing) to assign an effects state.  
+EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver that the audio engine is (?? TBD Preparing) to assign an effects state.  
 
 ## -parameters
 
 ### -param AudioEngine
 
+An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param State
 
+TBD - is this the target effects state?
+
+TODO: This is a ulong, but wondering if it would better to reference a state enum such as ACX_STREAM_STATE in the acxstreams header?
+
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -59,7 +68,7 @@ EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver to that the audio engi
 Example usage is shown below.
 
 ```cpp
-EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE        CodecR_EvtAcxAudioEngineAssignEffectsState;
+EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE        DspR_EvtAcxAudioEngineAssignEffectsState;
 
 NTSTATUS
 DspR_EvtAcxAudioEngineAssignEffectsState(
