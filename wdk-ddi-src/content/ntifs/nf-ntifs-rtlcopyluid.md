@@ -75,7 +75,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
+[RtlEqualLuid](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalluid)
 
 
 

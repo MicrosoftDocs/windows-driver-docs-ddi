@@ -60,7 +60,7 @@ The <b>PoStartDeviceBusy</b> and <a href="/windows-hardware/drivers/ddi/ntifs/nf
 
 For each device, the <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> maintains a count of the number of outstanding <b>PoStartDeviceBusy</b> calls for which it has not yet received a corresponding <b>PoEndDeviceBusy</b> call. A <b>PoStartDeviceBusy</b> call increments the busy count by one. A <b>PoEndDeviceBusy</b> call decrements the busy count by one. A nonzero busy count disables the idle counter for the device. After the busy count reaches zero, the power manager resets the idle counter to the time-out period and enables the counter.
 
-Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines to reset the idle counter, you can call the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetdevicebusyex">PoSetDeviceBusyEx</a> routine (or the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a> macro). To disable the idle counter during an extended busy period, a driver can call the <b>PoRegisterDeviceForIdleDetection</b> routine to disable and enable idle notifications at the start and end of the busy period. However, <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> are typically more convenient to use for this purpose, and you should consider using these routines in new code that you write for Windows 7 and later versions of Windows.
+Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines to reset the idle counter, you can call the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetdevicebusyex">PoSetDeviceBusyEx</a> routine (or the [PoSetDeviceBusy](/windows-hardware/drivers/ddi/wdm/nf-wdm-posetdevicebusy) macro). To disable the idle counter during an extended busy period, a driver can call the <b>PoRegisterDeviceForIdleDetection</b> routine to disable and enable idle notifications at the start and end of the busy period. However, <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> are typically more convenient to use for this purpose, and you should consider using these routines in new code that you write for Windows 7 and later versions of Windows.
 
 ## -see-also
 
@@ -72,4 +72,4 @@ Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a>
+[PoSetDeviceBusy](/windows-hardware/drivers/ddi/wdm/nf-wdm-posetdevicebusy)

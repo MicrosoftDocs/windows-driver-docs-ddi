@@ -1,6 +1,6 @@
 ---
 UID: TP:audio
-title: Audio
+title: Audio overview
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
 ms.date: 09/02/2021
 description: This topic describes the headers that are used to create Microsoft Windows WDM and ACX audio drivers. These drivers control audio hardware that render and capture streams containing audio data.

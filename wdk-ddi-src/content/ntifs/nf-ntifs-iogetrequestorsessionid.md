@@ -4,7 +4,7 @@ title: IoGetRequestorSessionId function (ntifs.h)
 description: The IoGetRequestorSessionId routine returns the session ID for the process that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorsessionid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 08/26/2021
 keywords: ["IoGetRequestorSessionId function"]
 ms.keywords: IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], ifsk.iogetrequestorsessionid, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ntifs/IoGetRequestorSessionId
 req.header: ntifs.h
@@ -42,31 +42,24 @@ api_name:
 
 # IoGetRequestorSessionId function
 
-
 ## -description
 
-The <b>IoGetRequestorSessionId</b> routine returns the session ID for the process that originally requested a given I/O operation.
+The **IoGetRequestorSessionId** routine returns the session ID for the process that originally requested a given I/O operation.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp
 
-[in]
-A pointer to the I/O request packet (IRP) for the I/O operation.
+[in] A pointer to the I/O request packet (IRP) for the I/O operation.
 
-### -param pSessionId 
+### -param pSessionId
 
-[out]
-A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> fails, this variable is set to -1.
+[out] A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call fails (STATUS_UNSUCCESSFUL), this parameter is set to -1.
 
 ## -returns
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> returns STATUS_SUCCESS if the session ID is successfully returned, STATUS_UNSUCCESSFUL otherwise. STATUS_UNSUCCESSFUL is an error NTSTATUS value.
+**IoGetRequestorSessionId** returns STATUS_SUCCESS if the session ID is successfully returned, and returns STATUS_UNSUCCESSFUL otherwise. STATUS_UNSUCCESSFUL is an error NTSTATUS value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocess">IoGetRequestorProcess</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a>
+[**IoGetRequestorProcess**](nf-ntifs-iogetrequestorprocess.md)
