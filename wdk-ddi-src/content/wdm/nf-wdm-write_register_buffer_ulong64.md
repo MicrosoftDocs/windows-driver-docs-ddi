@@ -4,7 +4,7 @@ title: WRITE_REGISTER_BUFFER_ULONG64 function (wdm.h)
 description: The WRITE_REGISTER_BUFFER_ULONG64 function (wdm.h) writes a number of ULONG64 values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ulong64.htm
 tech.root: kernel
-ms.date: 02/26/2018
+ms.date: 09/07/2021
 keywords: ["WRITE_REGISTER_BUFFER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, WRITE_REGISTER_BUFFER_ULONG64 function, kernel.write_register_buffer_ulong64, kernel.write_register_buffer_ulong64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64
 req.header: wdm.h
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>WRITE_REGISTER_BUFFER_ULONG64</b> function writes a number of ULONG64 values from a buffer to the specified register.
+The **WRITE_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer, inserts a memory barrier, and writes a set of ULONG64 values from a buffer to the specified address.
 
 ## -parameters
 
@@ -66,6 +66,10 @@ A pointer to a buffer into which an array of ULONG64 values is to be written.
 Specifies the number of ULONG64 values to write to the register.
 
 ## -remarks
+
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to **WRITE_REGISTER_ULONG** will complete before any operation that appears after the call.
+
+For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
 
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 

@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The **WRITE_REGISTER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and writes the ULONG value to the specified address.
+The **WRITE_REGISTER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and writes a ULONG value to the specified address.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Specifies a ULONG value to be written to the register.
 
 ## -remarks
 
-**WRITE_REGISTER_ULONG** inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to **WRITE_REGISTER_ULONG** will complete before any operation that appears after the call.
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to **WRITE_REGISTER_ULONG** will complete before any operation that appears after the call.
 
 For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
 
