@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022
 title: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 (d3d12umddi.h)
-description: The pfnCheckExistingResourceAllocationInfo callback function supports checking existing resource allocation information.
+description: The PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 callback function checks existing resource allocation information.
 old-location: display\pfnd3d12ddi_checkexisitingresourceallocationinfo_0022.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 callback function"]

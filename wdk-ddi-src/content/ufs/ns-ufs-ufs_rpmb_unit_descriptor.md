@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_5
+UID: NS:ufs.__unnamed_struct_7
 title: UFS_RPMB_UNIT_DESCRIPTOR (ufs.h)
 description: The UFS_RPMB_UNIT_DESCRIPTOR structure describes the contents of a Replay Protected Memory Block (RBMB) Unit.
 old-location: storage\ufs_rpmb_unit_descriptor.htm

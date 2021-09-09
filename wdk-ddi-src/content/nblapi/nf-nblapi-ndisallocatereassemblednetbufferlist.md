@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAllocateReassembledNetBufferList
 title: NdisAllocateReassembledNetBufferList
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisAllocateReassembledNetBufferList function to reassemble a fragmented NET_BUFFER_LIST structure.
 tech.root: netvista

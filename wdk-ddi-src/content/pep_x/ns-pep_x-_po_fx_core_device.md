@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PO_FX_CORE_DEVICE
 title: _PO_FX_CORE_DEVICE (pep_x.h)
-description: The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
+description: Learn how the PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
 old-location: kernel\po_fx_core_device.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The GET_LOCAL_HOST_INFO1 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> GET_HOST_UNIQUE_ID.
+The GET_LOCAL_HOST_INFO1 structure contains the data returned by a <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> GET_HOST_UNIQUE_ID.
 
 ## -struct-fields
 
@@ -61,5 +61,5 @@ The bus driver fills in this member with the IEEE 1394 globally unique device ID
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a>
 

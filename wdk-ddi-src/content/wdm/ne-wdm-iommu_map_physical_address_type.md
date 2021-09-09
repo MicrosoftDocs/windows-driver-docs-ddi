@@ -2,14 +2,14 @@
 UID: NE:wdm._IOMMU_MAP_PHYSICAL_ADDRESS_TYPE
 tech.root: kernel
 title: IOMMU_MAP_PHYSICAL_ADDRESS_TYPE
-ms.date: 05/27/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: TBD
+description: The IOMMU_MAP_PHYSICAL_ADDRESS_TYPE enum indicates the format of the physical address described in an IOMMU_MAP_PHYSICAL_ADDRESS structure.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **IOMMU_MAP_PHYSICAL_ADDRESS_TYPE** enum indicates the format of the physcial address described in an [**IOMMU_MAP_PHYSICAL_ADDRESS**](./ns-wdm-iommu_map_physical_address.md) structure.
+The **IOMMU_MAP_PHYSICAL_ADDRESS_TYPE** enum indicates the format of the physical address described in an [**IOMMU_MAP_PHYSICAL_ADDRESS**](ns-wdm-iommu_map_physical_address.md) structure.
 
 ## -enum-fields
 
@@ -64,8 +64,8 @@ Invalid physical address format.
 
 ## -see-also
 
-[IOMMU_MAP_PHYSICAL_ADDRESS](./ns-wdm-iommu_map_physical_address.md)
+[IOMMU_MAP_PHYSICAL_ADDRESS](ns-wdm-iommu_map_physical_address.md)
 
-[IOMMU_MAP_LOGICAL_RANGE_EX](./nc-wdm-iommu_map_logical_range_ex.md)
+[IOMMU_MAP_LOGICAL_RANGE_EX](nc-wdm-iommu_map_logical_range_ex.md)
 
-[IOMMU_MAP_IDENTITY_RANGE_EX](./nc-wdm-iommu_map_identity_range_ex.md)
+[IOMMU_MAP_IDENTITY_RANGE_EX](nc-wdm-iommu_map_identity_range_ex.md)

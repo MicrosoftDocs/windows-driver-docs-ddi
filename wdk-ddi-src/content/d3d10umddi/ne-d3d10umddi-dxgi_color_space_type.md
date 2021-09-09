@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10umddi.DXGI_COLOR_SPACE_TYPE
 title: DXGI_COLOR_SPACE_TYPE
-description: Defines stream color space information.
+description: The DXGI_COLOR_SPACE_TYPE enumeration defines stream color space information.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGI_COLOR_SPACE_TYPE enumeration"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get__NewEnum
 title: IWDTFTargets2::get__NewEnum (wdtf.h)
-description: Gets a new iteration variable that the For Each loop structure implicitly uses.
+description: Learn how this IWDTFTargets2 interface method gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtftargets2__newenum.htm
 tech.root: dtf
 ms.date: 04/04/2018

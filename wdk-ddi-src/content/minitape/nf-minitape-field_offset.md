@@ -1,7 +1,7 @@
 ---
 UID: NF:minitape.FIELD_OFFSET
 title: FIELD_OFFSET macro (minitape.h)
-description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
+description: The FIELD_OFFSET macro (minitape.h) returns the byte offset of the specified field in the specified known structure type.
 old-location: kernel\field_offset.htm
 tech.root: kernel
 ms.date: 02/24/2018
@@ -72,4 +72,4 @@ Used by device driver writers to symbolically determine the offset of a known fi
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
+[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)

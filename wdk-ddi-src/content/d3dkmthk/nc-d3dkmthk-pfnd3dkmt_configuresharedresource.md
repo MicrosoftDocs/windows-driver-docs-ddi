@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CONFIGURESHAREDRESOURCE
 title: PFND3DKMT_CONFIGURESHAREDRESOURCE (d3dkmthk.h)
-description: The D3DKMTConfigureSharedResource function configures a shared resource.
+description: The PFND3DKMT_CONFIGURESHAREDRESOURCE callback function configures a shared resource. The function returns STATUS_SUCCESS on successful configuration.
 old-location: display\d3dkmtconfiguresharedresource.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CONFIGURESHAREDRESOURCE callback function"]

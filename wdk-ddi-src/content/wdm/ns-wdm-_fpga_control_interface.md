@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._FPGA_CONTROL_INTERFACE
 title: _FPGA_CONTROL_INTERFACE (wdm.h)
-description: Reserved for future use.
+description: Reserved for future use of FPGA_CONTROL_INTERFACE.
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["FPGA_CONTROL_INTERFACE structure"]

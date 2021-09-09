@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_DISPATCH_MESH_ARGUMENTS
 title: D3D12DDI_DISPATCH_MESH_ARGUMENTS
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Mesh shader threadgroups.

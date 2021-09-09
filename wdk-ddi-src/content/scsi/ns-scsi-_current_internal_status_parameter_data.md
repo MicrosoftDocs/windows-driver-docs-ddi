@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (scsi.h)
-description: 
+description: "Learn more about: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure (scsi.h)"
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]

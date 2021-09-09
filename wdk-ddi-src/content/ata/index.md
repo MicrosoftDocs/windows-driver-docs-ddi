@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ata.h header"
 UID: NA:ata
 title: Ata.h header
 ms.assetid: b28a1ad9-b3f3-3628-ba9c-b13b462c512c

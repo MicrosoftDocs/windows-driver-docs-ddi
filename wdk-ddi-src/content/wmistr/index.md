@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wmistr.h header"
 UID: NA:wmistr
 title: Wmistr.h header
 ms.assetid: 7909a6e9-b4dc-390c-a3f3-8abcbc0cfb2a

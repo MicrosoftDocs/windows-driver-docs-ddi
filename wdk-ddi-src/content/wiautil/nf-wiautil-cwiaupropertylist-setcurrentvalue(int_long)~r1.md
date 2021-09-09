@@ -1,7 +1,7 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,LONG)~r1
 title: CWiauPropertyList::SetCurrentValue (wiautil.h)
-description: The CWiauPropertyList::SetCurrentValue(INT,LONG) method sets the current value of a property of type LONG, and sets its type to VT_I4.
+description: Learn how the CWiauPropertyList::SetCurrentValue(INT,LONG) method sets the current value of a property of type LONG, and sets its type to VT_I4.
 old-location: image\cwiaupropertylist_setcurrentvalue_bstr_.htm
 tech.root: image
 ms.date: 09/21/2020

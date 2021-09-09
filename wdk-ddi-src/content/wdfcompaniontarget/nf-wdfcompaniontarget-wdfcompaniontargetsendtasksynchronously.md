@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetSendTaskSynchronously
 title: WdfCompanionTargetSendTaskSynchronously function (wdfcompaniontarget.h)
-description: For internal use only.
+description: This WdfCompanionTargetSendTaskSynchronously function article is for internal use only.
 old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 tech.root: wdf
 ms.date: 02/26/2018

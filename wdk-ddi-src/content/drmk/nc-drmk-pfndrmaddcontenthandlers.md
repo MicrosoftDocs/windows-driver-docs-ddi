@@ -1,7 +1,7 @@
 ---
 UID: NC:drmk.PFNDRMADDCONTENTHANDLERS
 title: PFNDRMADDCONTENTHANDLERS (drmk.h)
-description: This callback function is reserved for system use.
+description: "Microsoft reserves the PFNDRMADDCONTENTHANDLERS callback function for internal use only. Don't use this function in your code."
 old-location: audio\pfndrmaddcontenthandlers.htm
 tech.root: audio
 ms.date: 05/08/2018

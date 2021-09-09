@@ -4,7 +4,6 @@ title: STOR_EVENT
 description: The STOR_EVENT structure describes an event object.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: struct
 ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT,
 req.header: storport.h
 req.include-header: 

@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisCopyFromNetBufferToNetBuffer
 title: NdisCopyFromNetBufferToNetBuffer
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisCopyFromNetBufferToNetBuffer function to copy data from a source NET_BUFFER structure to a destination NET_BUFFER structure.
 tech.root: netvista

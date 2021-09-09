@@ -3,7 +3,6 @@ UID: NS:storport._STOR_FRU_ID_DESCRIPTION
 tech.root: storage
 title: STOR_FRU_ID_DESCRIPTION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_FRU_ID_DESCRIPTION is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitQueryFruId or HwStorAdapterControl routine is called with a ControlType of ScsiAdapterQueryFruId.
 req.construct-type: structure

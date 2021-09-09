@@ -1,7 +1,7 @@
 ---
 UID: NS:usbioctl._USB_BUS_NOTIFICATION
 title: _USB_BUS_NOTIFICATION (usbioctl.h)
-description: 
+description: "Learn more about: _USB_BUS_NOTIFICATION structure"
 tech.root: usbref
 ms.date: 10/19/2018
 keywords: ["USB_BUS_NOTIFICATION structure"]

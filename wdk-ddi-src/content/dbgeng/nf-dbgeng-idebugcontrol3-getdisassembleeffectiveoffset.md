@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetDisassembleEffectiveOffset
 title: IDebugControl3::GetDisassembleEffectiveOffset (dbgeng.h)
-description: The GetDisassembleEffectiveOffset method returns the address of the last instruction disassembled using Disassemble.
+description: The GetDisassembleEffectiveOffset method returns the address of the last instruction disassembled using Disassemble. This method belongs to IDebugControl3.
 old-location: debugger\getdisassembleeffectiveoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

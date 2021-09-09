@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.SplDeleteSpoolerPortStart
 title: SplDeleteSpoolerPortStart function (winsplp.h)
-description: 
+description: "Learn more about: SplDeleteSpoolerPortStart function"
 old-location: print\spldeletespoolerportstart.htm
 tech.root: print
 ms.date: 04/20/2018

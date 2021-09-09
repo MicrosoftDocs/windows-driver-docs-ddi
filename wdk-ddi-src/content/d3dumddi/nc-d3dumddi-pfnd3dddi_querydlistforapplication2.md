@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **pfnQueryDlistForApplication2Cb** callback function queries a dList for an application.
+The **pfnQueryDlistForApplication2Cb** callback function queries the dList for an application.
 
 ## -parameters
 
@@ -73,9 +73,7 @@ The **pfnQueryDlistForApplication2Cb** callback function is called by the user-m
 
 The [**D3DDDI_DLIST_QUERY_RESULT**](ne-d3dumddi-d3dddi_dlist_query_result.md) and [**D3DDDI_DLIST_QUERY_DECISION_FACTOR**](ne-d3dumddi-d3dddi_dlist_query_decision_factor.md) returned in this DDI help the runtime to ensure and improve the quality of DxDb content updates, by assessing for risk of application regressions for an update.
 
-For more information on how to call this function and set up the DLL that exports it, see [Hybrid system DDI](/windows-hardware/drivers/display/hybrid-system-ddi).
-
-For more general information on hybrid systems, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
+Hybrid system drivers need to [set up and register a dList DLL](/windows-hardware/drivers/display/hybrid-system-ddi) that exports this function. For more information on hybrid systems, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
 ## -see-also
 

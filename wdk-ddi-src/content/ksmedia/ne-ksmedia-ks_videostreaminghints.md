@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_105
+UID: NE:ksmedia.__unnamed_enum_106
 title: KS_VideoStreamingHints (ksmedia.h)
 description: The KS_VideoStreamingHints enumeration defines video compression hints.
 old-location: stream\ks_videostreaminghints.htm

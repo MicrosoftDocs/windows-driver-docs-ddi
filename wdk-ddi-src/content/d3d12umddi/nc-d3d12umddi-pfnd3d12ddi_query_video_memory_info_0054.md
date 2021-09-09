@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054
 title: PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054
-description: Queries for video memory info.
+description: The PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054 callback function queries video memory information.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054 callback function"]

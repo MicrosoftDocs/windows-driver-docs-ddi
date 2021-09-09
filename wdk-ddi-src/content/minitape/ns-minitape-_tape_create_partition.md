@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._TAPE_CREATE_PARTITION
 title: _TAPE_CREATE_PARTITION (minitape.h)
-description: The TAPE_CREATE_PARTITION structure is used in conjunction with the IOCTL_TAPE_CREATE_PARTITION request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
+description: The _TAPE_CREATE_PARTITION structure (minitape.h) contains the information needed to create partitions on a tape media.
 old-location: storage\tape_create_partition.htm
 tech.root: storage
 ms.date: 03/29/2018

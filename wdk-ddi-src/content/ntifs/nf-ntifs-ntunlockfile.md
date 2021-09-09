@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtUnlockFile
 title: NtUnlockFile function (ntifs.h)
-description: The ZwUnlockFile routine unlocks a byte-range lock in a file.
+description: The NtUnlockFile routine in unlocks a byte-range lock in a file. If the call is in user mode, use the name NtUnlockFile instead of ZwUnlockFile.
 old-location: kernel\zwunlockfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Hdaudio.h header"
 UID: NA:hdaudio
 title: Hdaudio.h header
 ms.assetid: 63f66258-129c-388f-83e8-f8b12d118b98

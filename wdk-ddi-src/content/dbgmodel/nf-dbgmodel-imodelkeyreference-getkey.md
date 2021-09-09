@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetKey
 title: IModelKeyReference::GetKey (dbgmodel.h)
-description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would.
+description: "The IModelKeyReference::GetKey method, when called on a key reference, gets the value of the underlying key and any metadata associated with the key."
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference::GetKey"]
 ms.keywords: IModelKeyReference::GetKey, GetKey, IModelKeyReference.GetKey, IModelKeyReference::GetKey, IModelKeyReference.GetKey

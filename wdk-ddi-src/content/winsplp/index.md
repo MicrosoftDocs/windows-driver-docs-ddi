@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Winsplp.h header"
 UID: NA:winsplp
 title: winsplp.h header
 ms.assetid: e65d4581-0840-38bd-9afe-5a9d19c9769b

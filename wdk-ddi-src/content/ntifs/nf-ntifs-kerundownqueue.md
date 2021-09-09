@@ -4,7 +4,7 @@ title: KeRundownQueue function (ntifs.h)
 description: The KeRundownQueue routine cleans up a queue object, flushing any queued entries.
 old-location: ifsk\kerundownqueue.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 08/30/2021
 keywords: ["KeRundownQueue function"]
 ms.keywords: KeRundownQueue, KeRundownQueue routine [Installable File System Drivers], ifsk.kerundownqueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue
 req.header: ntifs.h
@@ -42,34 +42,36 @@ api_name:
 
 # KeRundownQueue function
 
-
 ## -description
 
-The <b>KeRundownQueue</b> routine cleans up a queue object, flushing any queued entries.
+The **KeRundownQueue** routine cleans up a queue object, flushing any queued entries.
 
 ## -parameters
 
-### -param Queue 
+### -param Queue
 
-[in, out]
-Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
+[in, out] Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 ## -returns
 
-If the queue is empty, <b>KeRundownQueue</b> returns <b>NULL</b>; otherwise, it returns the address of the first entry in the queue.
+If the queue is empty, **KeRundownQueue** returns **NULL**; otherwise, it returns the address of the first entry in the queue.
 
 ## -remarks
 
-File systems call <b>KeRundownQueue</b> to discard all entries from a queue before freeing or reusing the queue object.
+File systems call **KeRundownQueue** to discard all entries from a queue before freeing or reusing the queue object.
 
-If the queue object is to be reused, the caller must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinitializequeue">KeInitializeQueue</a> after calling <b>KeRundownQueue</b>, in order to reinitialize the queue object before reusing it. 
+If the queue object is to be reused, the caller must call [**KeInitializeQueue**](nf-ntifs-keinitializequeue.md) after calling **KeRundownQueue**, in order to reinitialize the queue object before reusing it.
 
-<b>KeRundownQueue</b> returns no information about how many queued entries are discarded. 
+**KeRundownQueue** returns no information about how many queued entries are discarded.
 
-<b>KeRundownQueue</b> should never be called for a queue if any threads are waiting on the queue object.
+Starting in Windows 7, **KeRundownQueue** wakes any threads currently waiting on the queue object with STATUS_ABANDONED. After returning from this function, any future threads that try to wait on this queue will immediately fail with STATUS_ABANDONED.
 
-For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues">Driver-Managed Queues</a>.
+Prior to Windows 7, **KeRundownQueue** did not wake waiting threads when the queue was rundown. To avoid the possibility of leaving threads waiting forever on these OS versions, **KeRundownQueue** should never be called for a queue if any threads are waiting on the queue object.
+
+For more information about using driver-managed internal queues, see [Driver-Managed Queues](/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinitializequeue">KeInitializeQueue</a>
+[**KeInitializeQueue**](nf-ntifs-keinitializequeue.md)
+
+[**KeRemoveQueue**](nf-ntifs-keremovequeue.md)

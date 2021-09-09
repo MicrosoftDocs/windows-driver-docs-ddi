@@ -3,7 +3,7 @@ UID: NE:ksmedia.__unnamed_enum_92
 title: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE  (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE enumeration defines the network camera control NTP types.
 tech.root: stream
-ms.date: 08/12/2020
+ms.date: 06/24/2021
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
@@ -32,7 +32,6 @@ api_name:
 
 # KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE enumeration
 
-
 ## -description
 
 The **KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE** enumeration defines the network camera control NTP types.
@@ -59,6 +58,20 @@ If use of a NTP server is disabled on the camera, a get operation will return KS
 
 ## -see-also
 
-[KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER](/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_networkcameracontrol_ntpinfo_header)
+[KSPROPERTY_NETWORKCAMERACONTROL_EVENTTOPICS_XML](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-eventtopics-xml)
 
-[KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_networkcameracontrol_property)
+[KSPROPERTY_NETWORKCAMERACONTROL_METADATA](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-metadata)
+
+[KSPROPERTYSETID_NetworkCameraControl](/windows-hardware/drivers/stream/kspropertysetid-networkcameracontrol)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_NTP](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-ntp)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_URI](/windows-hardware/drivers/stream/ksproperty-networkcameracontrol-uri)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_EVENT_INFO](ns-ksmedia-ksproperty_networkcameracontrol_event_info.md)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_METADATA_INFO](ns-ksmedia-ksproperty_networkcameracontrol_metadata_info.md)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER](ns-ksmedia-ksproperty_networkcameracontrol_ntpinfo_header.md)
+
+[KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](ne-ksmedia-ksproperty_networkcameracontrol_property.md)

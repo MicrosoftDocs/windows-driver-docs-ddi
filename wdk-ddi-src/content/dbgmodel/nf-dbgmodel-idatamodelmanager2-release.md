@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.Release
 title: IDataModelManager2::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDataModelManager2::Release method decrements the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDataModelManager2::Release"]
 ms.keywords: IDataModelManager2::Release, Release, IDataModelManager2.Release, IDataModelManager2::Release, IDataModelManager2.Release

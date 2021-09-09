@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILGSMKIND
 title: RILGSMKIND (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use the RILGSMKIND enumeration in your code. Microsoft reserves the RILGSMKIND enumeration for internal use only."
 old-location: netvista\rilgsmkind.htm
 tech.root: netvista
 ms.date: 05/02/2018

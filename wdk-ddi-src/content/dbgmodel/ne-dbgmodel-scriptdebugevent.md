@@ -1,7 +1,7 @@
 ---
 UID: NE:dbgmodel.ScriptDebugEvent
 title: ScriptDebugEvent (dbgmodel.h)
-description: Defines what debug event occurred.
+description: The ScriptDebugEvent (dbgmodel.h) enumeration defines values that indicate the type of debug event that has occurred.
 ms.date: 07/16/2018
 keywords: ["ScriptDebugEvent enumeration"]
 ms.keywords: ScriptDebugEvent, ,

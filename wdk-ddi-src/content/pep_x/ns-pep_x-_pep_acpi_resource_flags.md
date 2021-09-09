@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_ACPI_RESOURCE_FLAGS
 title: _PEP_ACPI_RESOURCE_FLAGS (pep_x.h)
-description: The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource.
+description: Learn how the PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource.
 old-location: kernel\pep_acpi_resource_flags.htm
 tech.root: kernel
 ms.date: 04/30/2018

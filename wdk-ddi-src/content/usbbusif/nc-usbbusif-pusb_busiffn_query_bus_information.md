@@ -116,7 +116,7 @@ The exact information returned by this routine depends on the value of the <i>Le
 
 The function definition that is provided on this reference page is an example routine whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef NTSTATUS
+<pre class="syntax"><code>typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_INFORMATION) (
     IN PVOID,
     IN ULONG,

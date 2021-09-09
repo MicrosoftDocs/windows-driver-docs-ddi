@@ -1,11 +1,18 @@
 ---
 UID: NF:wificx.WifiAdapterGetPortId
 tech.root: netvista
+<<<<<<< HEAD
 title: WifiAdapterGetPortId (wificx.h)
 ms.date: 08/30/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WifiAdapterGetPortId function gets the Wi-Fi adapter port ID.
+=======
+title: WifiAdapterGetPortId
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the WifiAdapterGetPortId function for internal use only. Don't use this function in your code."
+>>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +26,11 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

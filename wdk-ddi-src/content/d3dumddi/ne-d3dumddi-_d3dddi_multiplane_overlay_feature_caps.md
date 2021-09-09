@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
 title: _D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS (d3dumddi.h)
-description: Identifies overlay capabilities.
+description: The _D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS enumeration contains values that indicate the capabilities of the overlay plane.
 old-location: display\d3dddi_multiplane_overlay_feature_caps.htm
 tech.root: display
 ms.date: 05/10/2018

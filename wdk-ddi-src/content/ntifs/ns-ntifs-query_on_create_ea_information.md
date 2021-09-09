@@ -3,7 +3,6 @@ UID: NS:ntifs._QUERY_ON_CREATE_EA_INFORMATION
 tech.root: ifsk
 title: QUERY_ON_CREATE_EA_INFORMATION
 ms.date: 03/11/2021
-ms.topic: language-reference
 targetos: Windows
 description: The QUERY_ON_CREATE_EA_INFORMATION structure is used to write file information when FltRequestFileInfoOnCreateCompletion is called with the QoCFileEaInformation flag set in the InfoClassFlags parameter.
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_SEL_BUGCHECK_PROGRESS
 title: WHEA_SEL_BUGCHECK_PROGRESS
-description: 
+description: "Learn more about: WHEA_SEL_BUGCHECK_PROGRESS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_SEL_BUGCHECK_PROGRESS structure"]

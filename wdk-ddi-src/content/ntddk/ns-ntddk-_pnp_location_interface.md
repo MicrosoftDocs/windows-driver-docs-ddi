@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The **PNP_LOCATION_INTERFACE** structure describes the [GUID_PNP_LOCATION_INTERFACE](/windows-hardware/drivers/kernel/adding-a-pnp-device-to-a-running-system#using-guidpnplocationinterface) interface.
+The **PNP_LOCATION_INTERFACE** structure describes the [GUID_PNP_LOCATION_INTERFACE](/windows-hardware/drivers/kernel/adding-a-pnp-device-to-a-running-system#using-guid_pnp_location_interface) interface.
 
 ## -struct-fields
 

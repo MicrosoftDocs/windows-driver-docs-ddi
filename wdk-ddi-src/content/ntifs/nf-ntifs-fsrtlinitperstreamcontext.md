@@ -65,7 +65,7 @@ The <b>FsRtlInitPerStreamContext</b> macro initializes a filter driver context s
 
 <p>Pointer to a callback routine that frees the per-stream context structure. Callers must specify a non-<b>NULL</b> value for this parameter. This routine and its parameters are defined as follows: </p>
   <div class="code">
-    <span codelanguage="">
+    <span>
       <table>
         <tr>
           <th></th>

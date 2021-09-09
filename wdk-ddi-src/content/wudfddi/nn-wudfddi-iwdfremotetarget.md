@@ -51,7 +51,7 @@ To obtain the <b>IWDFRemoteTarget</b> interface, drivers call <a href="/windows-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRemoteTarget</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget2">IWDFIoTarget2</a>. <b>IWDFRemoteTarget</b> also has these types of members:
+The <b>IWDFRemoteTarget</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget2">IWDFIoTarget2</a>. <b>IWDFRemoteTarget</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Hpmi.h header"
 UID: NA:hpmi
 title: Hpmi.h header
 ms.assetid: 1a35262f-16ca-31c9-be91-054656a4cb25

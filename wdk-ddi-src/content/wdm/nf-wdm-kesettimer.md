@@ -4,7 +4,7 @@ title: KeSetTimer function (wdm.h)
 description: The KeSetTimer routine sets the absolute or relative interval at which a timer object is to be set to a signaled state and, optionally, supplies a CustomTimerDpc routine to be executed when that interval expires.
 old-location: kernel\kesettimer.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["KeSetTimer function"]
 ms.keywords: KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture], k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer, wdm/KeSetTimer
 req.header: wdm.h
@@ -42,92 +42,69 @@ api_name:
 
 # KeSetTimer function
 
-
 ## -description
 
-The <b>KeSetTimer</b> routine sets the absolute or relative interval at which a timer object is to be set to a signaled state and, optionally, supplies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542983">CustomTimerDpc</a> routine to be executed when that interval expires.
+The **KeSetTimer** routine sets the absolute or relative interval at which a timer object is to be set to a signaled state and, optionally, supplies a [CustomTimerDpc](/windows-hardware/drivers/kernel/using-a-customtimerdpc-routine) routine to be executed when that interval expires.
 
 ## -parameters
 
-### -param Timer 
+### -param Timer
 
 [in, out]
-Pointer to a timer object that was initialized with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex">KeInitializeTimerEx</a>.
+Pointer to a timer object that was initialized with [KeInitializeTimer](./nf-wdm-keinitializetimer.md) or [KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md).
 
-### -param DueTime 
+### -param DueTime
 
 [in]
-Specifies the absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
+Specifies the absolute or relative time at which the timer is to expire. If the value of the *DueTime* parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
-### -param Dpc 
+### -param Dpc
 
 [in, optional]
-Pointer to a DPC object that was initialized by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional.
+Pointer to a DPC object that was initialized by [KeInitializeDpc](./nf-wdm-keinitializedpc.md). This parameter is optional.
 
 ## -returns
 
-If the timer object was already in the system timer queue, <b>KeSetTimer</b> returns <b>TRUE</b>.
+If the timer object was already in the system timer queue, **KeSetTimer** returns **TRUE**.
 
 ## -remarks
 
-The <b>KeSetTimer</b> routine does the following:
+The **KeSetTimer** routine does the following:
 
-<ul>
-<li>
-Computes the expiration time.
+- Computes the expiration time.
 
-</li>
-<li>
-Sets the timer to a not-signaled state.
+- Sets the timer to a not-signaled state.
 
-</li>
-<li>
-Inserts the timer object in the system timer queue.
+- Inserts the timer object in the system timer queue.
 
-</li>
-</ul>
-If the timer object was already in the timer queue, it is implicitly canceled before being set to the new expiration time. A call to <b>KeSetTimer</b> before the previously specified <i>DueTime</i> has expired cancels both the timer and the call to the <i>Dpc</i>, if any, associated with the previous call.
+If the timer object was already in the timer queue, it is implicitly canceled before being set to the new expiration time. A call to **KeSetTimer** before the previously specified *DueTime* has expired cancels both the timer and the call to the *Dpc*, if any, associated with the previous call.
 
-If the <i>Dpc</i> parameter is specified, a DPC object is associated with the timer object. When the timer expires, the timer object is removed from the system timer queue and its state is set to signaled. If a DPC object was associated with the timer when it was set, the DPC object is inserted in the system DPC queue to be executed as soon as conditions permit after the timer interval expires.
+If the *Dpc* parameter is specified, a DPC object is associated with the timer object. When the timer expires, the timer object is removed from the system timer queue and its state is set to signaled. If a DPC object was associated with the timer when it was set, the DPC object is inserted in the system DPC queue to be executed as soon as conditions permit after the timer interval expires.
 
-Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="/windows-hardware/drivers/kernel/timer-accuracy">Timer Accuracy</a>.
+Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see [Timer Accuracy](/windows-hardware/drivers/kernel/timer-accuracy).
 
-Only one instantiation of a given DPC object can be queued at any given moment. To avoid potential race conditions, the DPC passed to <b>KeSetTimer</b> should <u>not</u> be passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>.
+Only one instantiation of a given DPC object can be queued at any given moment. To avoid potential race conditions, the DPC passed to **KeSetTimer** should not be passed to [KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md).
 
-Drivers must cancel any active timers in their <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routines. Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a> to cancel any timers.
+Drivers must cancel any active timers in their [Unload](./nc-wdm-driver_unload.md) routines. Use [KeCancelTimer](./nf-wdm-kecanceltimer.md) to cancel any timers.
 
-Callers of <b>KeSetTimer</b> can specify one expiration time for a timer. To set a recurring timer use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>.
+Callers of **KeSetTimer** can specify one expiration time for a timer. To set a recurring timer use [KeSetTimerEx](./nf-wdm-kesettimerex.md).
 
-For more information about timer objects, see <a href="/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
+For more information about timer objects, see [Timer Objects and DPCs](/windows-hardware/drivers/kernel/timer-objects-and-dpcs).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a>
+[KeCancelTimer](./nf-wdm-kecanceltimer.md)
 
+[KeInitializeDpc](./nf-wdm-keinitializedpc.md)
 
+[KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
+[KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md)
 
+[KeReadStateTimer](./nf-wdm-kereadstatetimer.md)
 
+[KeSetTimerEx](./nf-wdm-kesettimerex.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex">KeInitializeTimerEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatetimer">KeReadStateTimer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

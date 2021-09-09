@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ufs.h header"
 UID: NA:ufs
 title: Ufs.h header
 ms.assetid: 77c0dfa6-2ceb-31c0-bda9-4c80a5be1c49

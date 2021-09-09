@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dumddi.D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT
 title: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT (d3dumddi.h)
-description: Describes precision support options for shaders in the user-mode display driver.
+description: The D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure describes precision support options for shaders in the user-mode display driver.
 old-location: display\d3dddicaps_shader_min_precision_support.htm
 tech.root: display
 ms.date: 05/10/2018

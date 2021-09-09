@@ -1,7 +1,7 @@
 ---
 UID: NF:video._VIDEO_PORT_DEBUG_REPORT_INTERFACE.VOID
 title: VOID function (video.h)
-description: The NdisMapFile function maps an already open file into a caller-accessible buffer if the file is currently unmapped.
+description: The VOID function (video.h) maps an already open file into a caller-accessible buffer if the file is currently unmapped.
 old-location: netvista\ndismapfile.htm
 tech.root: netvista
 ms.date: 02/27/2018

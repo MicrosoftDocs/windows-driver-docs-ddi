@@ -3,7 +3,6 @@ UID: NE:dot11wificxintf._WDI_EXEMPTION_ACTION_TYPE (dot11wificxintf.h)
 tech.root: netvista
 title: WDI_EXEMPTION_ACTION_TYPE
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_EXEMPTION_ACTION_TYPE enum defines the exemption types.
 req.construct-type: enumeration

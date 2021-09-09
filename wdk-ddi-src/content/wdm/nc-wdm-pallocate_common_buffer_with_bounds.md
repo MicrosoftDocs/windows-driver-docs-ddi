@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
-description: 
+description: "Learn more about: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]

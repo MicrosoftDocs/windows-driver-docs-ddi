@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Filterpipeline.h header"
 UID: NA:filterpipeline
 title: Filterpipeline.h header
 ms.assetid: 434b4bef-ac82-3eee-8cc8-8fbfd4bad71c

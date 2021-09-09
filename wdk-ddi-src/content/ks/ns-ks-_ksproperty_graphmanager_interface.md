@@ -1,7 +1,7 @@
 ---
 UID: NS:ks._KSPROPERTY_GRAPHMANAGER_INTERFACE
 title: _KSPROPERTY_GRAPHMANAGER_INTERFACE (ks.h)
-description: 
+description: "Learn more about: _KSPROPERTY_GRAPHMANAGER_INTERFACE structure"
 old-location: stream\ksproperty_graphmanager_interface.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetNameByInlineContext
 title: IDebugSymbols4::GetNameByInlineContext (dbgeng.h)
-description: Gets a name by inline context.
+description: The GetNameByInlineContext method gets a name by inline context. This method belongs to the IDebugSymbols4 interface.
 old-location: debugger\idebugsymbols4_getnamebyinlinecontext.htm
 tech.root: debugger
 ms.date: 05/03/2018

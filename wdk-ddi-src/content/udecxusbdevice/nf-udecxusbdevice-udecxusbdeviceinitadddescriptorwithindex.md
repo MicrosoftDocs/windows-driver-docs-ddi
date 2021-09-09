@@ -1,7 +1,7 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAddDescriptorWithIndex
 title: UdecxUsbDeviceInitAddDescriptorWithIndex function (udecxusbdevice.h)
-description: Adds a USB descriptor to the initialization parameters used to create a virtual USB device.
+description: Learn how the UdecxUsbDeviceInitAddDescriptorWithIndex function adds a USB descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitadddescriptorwithindex.htm
 tech.root: usbref
 ms.date: 05/07/2018

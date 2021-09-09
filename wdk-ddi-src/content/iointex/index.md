@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Iointex.h header"
 UID: NA:iointex
 title: Iointex.h header
 ms.assetid: dc0c0187-51c0-3402-8643-c7e2175b1b69

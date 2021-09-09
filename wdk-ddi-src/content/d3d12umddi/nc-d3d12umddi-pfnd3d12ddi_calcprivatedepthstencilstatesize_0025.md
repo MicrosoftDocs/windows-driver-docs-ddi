@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0025
 title: PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0025 (d3d12umddi.h)
-description: The CalcPrivateDepthStencilStateSize function determines the size of the user-mode display driver's private region of memory for a depth stencil state.
+description: "PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0025 determines the size of the user-mode display driver's private region of memory for a depth stencil state."
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0025 callback function"]
 req.header: d3d12umddi.h

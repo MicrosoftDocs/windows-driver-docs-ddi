@@ -56,10 +56,8 @@ This interface can be retrieved from a method or, if a new object is required, c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceValues</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceValues</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The <b>IPortableDeviceValues</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceValues</b> also has these types of members:
+
 
 ## -see-also
 

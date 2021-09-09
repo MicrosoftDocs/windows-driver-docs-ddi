@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_WORK
 title: _PEP_WORK (pep_x.h)
-description: The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx).
+description: Learn how the PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx).
 old-location: kernel\pep_work.htm
 tech.root: kernel
 ms.date: 04/30/2018

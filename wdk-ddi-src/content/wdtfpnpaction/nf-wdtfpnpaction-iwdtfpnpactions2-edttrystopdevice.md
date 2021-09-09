@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDevice
 title: IWDTFPNPActions2::EDTTryStopDevice (wdtfpnpaction.h)
-description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
+description: Learn how the method attempts to send an IRP_MN_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

@@ -1,6 +1,7 @@
 ---
 UID: NA:gso 
-title: Gso.h
+title: Gso.h overview
+description: "Learn more about: Gso.h header"
 ms.date: 05/13/2021
 keywords: ["Gso.h header"]
 ms.keywords: 

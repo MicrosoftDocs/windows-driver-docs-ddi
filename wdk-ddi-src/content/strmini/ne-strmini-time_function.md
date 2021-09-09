@@ -1,7 +1,7 @@
 ---
 UID: NE:strmini.__unnamed_enum_1
 title: TIME_FUNCTION (strmini.h)
-description: 
+description: "Learn more about: TIME_FUNCTION enumeration"
 old-location: stream\time_function.htm
 tech.root: stream
 ms.date: 04/23/2018

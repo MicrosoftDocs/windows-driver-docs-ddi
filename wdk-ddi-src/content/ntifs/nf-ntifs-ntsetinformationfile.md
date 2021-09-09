@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtSetInformationFile
 title: NtSetInformationFile function (ntifs.h)
-description: The ZwSetInformationFile routine changes various kinds of information about a file object.
+description: The NtSetInformationFile routine in ntifs.h changes various kinds of information about a file object.
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

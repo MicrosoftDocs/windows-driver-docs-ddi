@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetExceptionFilterParameters
 title: IDebugControl2::SetExceptionFilterParameters (dbgeng.h)
-description: The SetExceptionFilterParameters method changes the break status and handling status for some exception filters.
+description: Learn about the SetExceptionFilterParameters method, which changes the break status and handling status for some exception filters.
 old-location: debugger\setexceptionfilterparameters.htm
 tech.root: debugger
 ms.date: 05/03/2018

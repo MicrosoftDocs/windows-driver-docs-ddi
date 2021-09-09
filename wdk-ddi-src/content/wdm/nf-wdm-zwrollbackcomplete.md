@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwRollbackComplete
 title: ZwRollbackComplete function (wdm.h)
-description: The ZwRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
+description: Learn how the ZwRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\zwrollbackcomplete.htm
 tech.root: kernel
 ms.date: 04/30/2018

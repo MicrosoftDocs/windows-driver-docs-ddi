@@ -3,7 +3,6 @@ UID: NS:storport._STOR_POFX_POWER_REQUIRED_CONTEXT
 tech.root: storage
 title: STOR_POFX_POWER_REQUIRED_CONTEXT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_POFX_POWER_REQUIRED_CONTEXT is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitPoFxPowerRequired.
 req.construct-type: structure

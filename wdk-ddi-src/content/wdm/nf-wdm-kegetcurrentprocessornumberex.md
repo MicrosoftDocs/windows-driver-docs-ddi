@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeGetCurrentProcessorNumberEx
 title: KeGetCurrentProcessorNumberEx function (wdm.h)
-description: The KeGetCurrentProcessorNumberEx routine gets the processor number of the logical processor that the caller is running on.
+description: The KeGetCurrentProcessorNumberEx function (wdm.h) returns the processor number of the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentprocessornumberex.htm
 tech.root: kernel
 ms.date: 04/30/2018

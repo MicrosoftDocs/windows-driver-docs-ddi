@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scavengr.h header"
 UID: NA:scavengr
 title: Scavengr.h header
 ms.assetid: 773626f3-b745-3356-92cd-f15505c3683c

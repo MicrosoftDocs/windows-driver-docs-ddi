@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILSETSYSTEMSELECTIONPREFSFLAG
 title: RILSETSYSTEMSELECTIONPREFSFLAG (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this enumeration in your code. Microsoft reserves the RILSETSYSTEMSELECTIONPREFSFLAG enumeration for internal use only."
 old-location: netvista\rilsetsystemselectionprefsflag.htm
 tech.root: netvista
 ms.date: 05/02/2018

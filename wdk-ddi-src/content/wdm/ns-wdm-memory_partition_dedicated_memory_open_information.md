@@ -2,14 +2,14 @@
 UID: NS:wdm._MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION
 tech.root: kernel
 title: MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION
-ms.date: 04/20/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: 
+description: Defines the MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-TBD
+Defines the **MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION** structure.
 
 ## -struct-fields
 

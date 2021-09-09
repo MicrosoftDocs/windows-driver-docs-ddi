@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.IoGetConfigurationInformation
 title: IoGetConfigurationInformation function (ntddk.h)
-description: The IoGetConfigurationInformation routine returns a pointer to the I/O manager's global configuration information structure, which contains the current values for how many physical disk, floppy, CD-ROM, tape, SCSI HBA, serial, and parallel devices have device objects created to represent them by drivers as they are loaded.
+description: The IoGetConfigurationInformation function (ntddk.h) returns a pointer to the I/O manager's global configuration information structure.
 old-location: kernel\iogetconfigurationinformation.htm
 tech.root: kernel
 ms.date: 04/30/2018

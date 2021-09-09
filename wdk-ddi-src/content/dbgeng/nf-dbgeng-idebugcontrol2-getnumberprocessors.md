@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNumberProcessors
 title: IDebugControl2::GetNumberProcessors (dbgeng.h)
-description: The GetNumberProcessors method returns the number of processors on the computer running the current target.
+description: Learn about the GetNumberProcessors method, which returns the number of processors on the computer running the current target.
 old-location: debugger\getnumberprocessors.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_SERVICE_QUERY
 title: IOCTL_TR_SERVICE_QUERY (trustedrt.h)
-description: 
+description: "Learn more about: IOCTL_TR_SERVICE_QUERY IOCTL"
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_SERVICE_QUERY IOCTL"]
 req.header: trustedrt.h

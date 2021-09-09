@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_AMD_EXTENDED_REGISTERS
 title: WHEA_AMD_EXTENDED_REGISTERS
-description: 
+description: "Learn more about: WHEA_AMD_EXTENDED_REGISTERS structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_AMD_EXTENDED_REGISTERS structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._WHEA_RECOVERY_CONTEXT_ERROR_TYPE
 title: WHEA_RECOVERY_CONTEXT_ERROR_TYPE
-description: 
+description: "Learn more about: WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration"]

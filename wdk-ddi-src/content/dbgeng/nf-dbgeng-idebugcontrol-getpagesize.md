@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetPageSize
 title: IDebugControl::GetPageSize (dbgeng.h)
-description: The GetPageSize method returns the page size for the effective processor mode.
+description: Learn how the GetPageSize method returns the page size for the effective processor mode. Includes parameters and returns.
 old-location: debugger\getpagesize.htm
 tech.root: debugger
 ms.date: 05/03/2018

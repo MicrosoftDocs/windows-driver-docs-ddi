@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwCreateEnlistment
 title: ZwCreateEnlistment function (wdm.h)
-description: The ZwCreateEnlistment routine creates a new enlistment object for a transaction.
+description: Learn how the ZwCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\zwcreateenlistment.htm
 tech.root: kernel
 ms.date: 04/30/2018

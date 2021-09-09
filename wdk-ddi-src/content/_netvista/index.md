@@ -1,6 +1,7 @@
 ---
+description: "Learn more about: Network"
 UID: TP:netvista
-title: Network
+title: Network overview
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.date: 10/29/2019
 keywords: ["Networking drivers for Windows Vista and later"]
@@ -41,8 +42,6 @@ This is a complete list of all headers in the WDK for network drivers; headers t
 - [Knetpwrdepbroker.h](../knetpwrdepbroker/index.md)
 - [Logicaladdress.h](../logicaladdress/index.md)
 - [Logicaladdresstypes.h](../logicaladdresstypes/index.md)
-- [Lso.h](../lso/index.md)
-- [Lsotypes.h](../lsotypes/index.md)
 - [Mbbcx.h](../mbbcx/index.md)
 - [Mdl.h](../mdl/index.md)
 - [Mdlapi.h](../mdlapi/index.md)
@@ -125,8 +124,6 @@ Header files that support NetAdapterCx include the following:
 - [ieee8021qtypes.h](../ieee8021qtypes/index.md)
 - [Logicaladdress.h](../logicaladdress/index.md)
 - [Logicaladdresstypes.h](../logicaladdresstypes/index.md)
-- [Lso.h](../lso/index.md)
-- [Lsotypes.h](../lsotypes/index.md)
 - [Mdl.h](../mdl/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
 - [Netadapter.h](../netadapter/index.md)

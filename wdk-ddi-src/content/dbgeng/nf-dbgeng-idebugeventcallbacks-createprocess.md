@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.CreateProcess
 title: IDebugEventCallbacks::CreateProcess (dbgeng.h)
-description: The CreateProcess callback method is called by the engine when a create-process debugging event occurs in the target.
+description: The CreateProcess callback method is called by the engine when a create-process debugging event occurs in the target. This method belongs to IDebugEventCallbacks.
 old-location: debugger\idebugeventcallbacks_createprocess.htm
 tech.root: debugger
 ms.date: 05/03/2018

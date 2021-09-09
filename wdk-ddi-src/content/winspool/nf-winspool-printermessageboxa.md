@@ -1,7 +1,7 @@
 ---
 UID: NF:winspool.PrinterMessageBoxA
 title: PrinterMessageBoxA function (winspool.h)
-description: 
+description: "Learn more about: PrinterMessageBoxA function"
 old-location: print\printermessageboxa.htm
 tech.root: print
 ms.date: 04/20/2018

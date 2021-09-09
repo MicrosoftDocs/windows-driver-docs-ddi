@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk.PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
 title: PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
-description: 
+description: "Learn more about: PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER callback function"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER callback function"]

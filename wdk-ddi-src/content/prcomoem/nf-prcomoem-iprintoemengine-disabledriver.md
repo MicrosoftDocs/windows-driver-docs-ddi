@@ -1,10 +1,9 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.DisableDriver
 title: IPrintOemEngine::DisableDriver (prcomoem.h)
-description: 
-old-location: print\iprintoemengine_disabledriver.htm
+description: Defines the IPrintOemEngine::DisableDriver method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintOemEngine::DisableDriver"]
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],DisableDriver method, IPrintOemEngine.DisableDriver, IPrintOemEngine::DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver
 req.header: prcomoem.h
@@ -42,16 +41,16 @@ api_name:
 
 # IPrintOemEngine::DisableDriver
 
-
 ## -description
+
+Defines the **IPrintOemEngine::DisableDriver** method.
 
 ## -parameters
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine">IPrintOemEngine</a>
-
+[IPrintOemEngine](./nn-prcomoem-iprintoemengine.md)

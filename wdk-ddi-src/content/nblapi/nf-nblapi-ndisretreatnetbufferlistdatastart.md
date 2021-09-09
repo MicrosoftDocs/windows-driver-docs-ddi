@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisRetreatNetBufferListDataStart
 title: NdisRetreatNetBufferListDataStart
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisRetreatNetBufferListDataStart function to increase the used data space in all the NET_BUFFER structures in a NET_BUFFER_LIST structure.
 tech.root: netvista

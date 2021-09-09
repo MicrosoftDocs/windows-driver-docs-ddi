@@ -2,7 +2,6 @@
 UID: NF:netdevice.NET_DEVICE_RESET_CAPABILITIES_INIT
 title: NET_DEVICE_RESET_CAPABILITIES_INIT
 ms.date: 07/02/2020
-ms.topic: language-reference
 ms.custom: Fe
 keywords: ["NET_DEVICE_RESET_CAPABILITIES_INIT function"]
 targetos: Windows
@@ -20,7 +19,7 @@ req.lib:
 req.max-support:
 req.namespace:
 req.redist:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type:
 req.type-library:

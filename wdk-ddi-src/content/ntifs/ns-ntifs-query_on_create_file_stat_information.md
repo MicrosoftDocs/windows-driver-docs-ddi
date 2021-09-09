@@ -3,7 +3,6 @@ UID: NS:ntifs._QUERY_ON_CREATE_FILE_STAT_INFORMATION
 tech.root: ifsk
 title: QUERY_ON_CREATE_FILE_STAT_INFORMATION
 ms.date: 03/11/2021
-ms.topic: language-reference
 targetos: Windows
 description: The QUERY_ON_CREATE_FILE_STAT_INFORMATION structure is used to write file information when FltRequestFileInfoOnCreateCompletion is called with the QoCFileStatInformation flag set in the InfoClassFlags parameter.
 req.construct-type: structure

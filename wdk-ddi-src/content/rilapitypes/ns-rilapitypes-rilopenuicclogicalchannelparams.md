@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILOPENUICCLOGICALCHANNELPARAMS
 title: RILOPENUICCLOGICALCHANNELPARAMS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this structure in your code. Microsoft reserves the RILOPENUICCLOGICALCHANNELPARAMS structure for internal use only."
 old-location: netvista\rilopenuicclogicalchannelparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

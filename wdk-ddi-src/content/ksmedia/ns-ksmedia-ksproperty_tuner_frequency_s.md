@@ -54,7 +54,7 @@ The KSPROPERTY_TUNER_FREQUENCY_S structure describes the frequency of a TV or ra
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Frequency
 
@@ -86,7 +86,7 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

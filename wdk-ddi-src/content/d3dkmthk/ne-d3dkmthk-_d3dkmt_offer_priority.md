@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_OFFER_PRIORITY
 title: _D3DKMT_OFFER_PRIORITY (d3dkmthk.h)
-description: Indicates the importance of video memory resources that the user-mode display driver offers for reuse.
+description: The _D3DKMT_OFFER_PRIORITY enumeration cointains values that indicate the importance of video memory resources that the user-mode display driver offers for reuse.
 old-location: display\d3dkmt_offer_priority.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMT_OFFER_PRIORITY enumeration"]

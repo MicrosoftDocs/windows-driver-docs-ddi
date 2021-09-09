@@ -2,7 +2,6 @@
 UID: NE:dispmprt._DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
 title: DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY provides basic display topology information to the operating system (OS) when it is gathering nonintrusive display diagnostic information.
 tech.root: display

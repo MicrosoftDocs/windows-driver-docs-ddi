@@ -54,7 +54,7 @@ The KSPROPERTY_VIDEOCONTROL_FRAME_RATES structure describes available frame rate
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field StreamIndex
 
@@ -74,7 +74,7 @@ The minidriver should return a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-k
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

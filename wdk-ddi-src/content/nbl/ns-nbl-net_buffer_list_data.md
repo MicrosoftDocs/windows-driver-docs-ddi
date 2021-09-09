@@ -2,7 +2,6 @@
 UID: NS:nbl._NET_BUFFER_LIST_DATA
 title: NET_BUFFER_LIST_DATA
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST_DATA structure contains management data for the NET_BUFFER structures that are linked to a NET_BUFFER_LIST structure.
 tech.root: netvista

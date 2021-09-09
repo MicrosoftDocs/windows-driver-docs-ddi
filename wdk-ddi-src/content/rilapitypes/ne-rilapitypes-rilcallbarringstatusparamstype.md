@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILCALLBARRINGSTATUSPARAMSTYPE
 title: RILCALLBARRINGSTATUSPARAMSTYPE (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this enumeration in your code. Microsoft reserves the RILCALLBARRINGSTATUSPARAMSTYPE enumeration for internal use only. "
 old-location: netvista\rilcallbarringstatusparamstype.htm
 tech.root: netvista
 ms.date: 05/02/2018

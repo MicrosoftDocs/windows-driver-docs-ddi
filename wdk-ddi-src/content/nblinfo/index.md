@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nblinfo.h header"
 UID: NA:nblinfo
 title: Nblinfo.h header
 ms.date: 11/30/2020

@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Set(bool,ULONG64,ULONG,ULONG64)
 title: ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64) (engextcpp.h)
-description: The Set method sets the typed data represented by the ExtRemoteTyped object.
+description: The Set(bool,ULONG64,ULONG,ULONG64) method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger
 ms.date: 05/03/2018

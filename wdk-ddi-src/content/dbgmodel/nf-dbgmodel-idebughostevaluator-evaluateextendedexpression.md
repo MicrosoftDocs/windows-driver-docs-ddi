@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator.EvaluateExtendedExpression
 title: IDebugHostEvaluator::EvaluateExtendedExpression (dbgmodel.h)
-description: The EvaluateExtendedExpression method is similar to the EvaluateExpression method except that it turns back on additional non-language functionality which a particular debug host chooses to add to its expression evaluator.
+description: "The IDebugHostEvaluator::EvaluateExtendedExpression method requests an evaluation of a language expression including any additional non-language evaluation."
 ms.date: 09/12/2018
 keywords: ["IDebugHostEvaluator::EvaluateExtendedExpression"]
 ms.keywords: IDebugHostEvaluator::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator.EvaluateExtendedExpression, IDebugHostEvaluator::EvaluateExtendedExpression, IDebugHostEvaluator.EvaluateExtendedExpression

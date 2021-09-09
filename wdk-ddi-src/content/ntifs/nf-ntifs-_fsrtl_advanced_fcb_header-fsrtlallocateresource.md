@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlAllocateResource
 title: FsRtlAllocateResource function (ntifs.h)
-description: Obsolete.
+description: The FsRtlAllocateResource function is obsolete.
 old-location: ifsk\fsrtlallocateresource.htm
 tech.root: ifsk
 ms.date: 04/16/2018

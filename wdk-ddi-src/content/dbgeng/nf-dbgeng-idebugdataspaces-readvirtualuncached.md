@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadVirtualUncached
 title: IDebugDataSpaces::ReadVirtualUncached (dbgeng.h)
-description: The ReadVirtualUncached method reads memory from the target's virtual address space.
+description: The ReadVirtualUncached method reads memory from the target's virtual address space. This method belongs to the IDebugDataSpaces interface.
 old-location: debugger\readvirtualuncached.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwSetInformationTransaction
 title: ZwSetInformationTransaction function (wdm.h)
-description: The ZwSetInformationTransaction routine sets information for a specified transaction.
+description: Learn how the ZwSetInformationTransaction routine sets information for a specified transaction.
 old-location: kernel\zwsetinformationtransaction.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 title: _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP (1394.h)
-description: This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
+description: The IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure contains the fields necessary for the 1394 bus driver to carry out an IsochAllocateResources request.
 old-location: ieee\irb_req_isoch_allocate_resources_wxp.htm
 tech.root: IEEE
 ms.date: 02/15/2018

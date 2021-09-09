@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.TypeSearchInfo.TypeSearchInfo
 title: TypeSearchInfo function (dbgmodel.h)
-description: The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
+description: The TypeSearchInfo function (dbgmodel.h) constructs a TypeSearchInfo structure, a search record passed to EnumerateChildrenEx for SymbolType searches.
 ms.date: 10/02/2018
 keywords: ["TypeSearchInfo function"]
 ms.keywords: TypeSearchInfo

@@ -3,9 +3,8 @@ UID: NS:d3dkmthk._D3DKMT_QUERYSTATISTICS_PROCESS_ADAPTER_INFORMATION
 tech.root: display
 title: D3DKMT_QUERYSTATISTICS_PROCESS_ADAPTER_INFORMATION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: D3DKMT_QUERYSTATISTICS_PROCESS_ADAPTER_INFORMATION is reserved for system use.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -66,4 +65,3 @@ Reserved for system use. Do not use.
 ## -remarks
 
 ## -see-also
-

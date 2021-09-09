@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._HAL_QUERY_INFORMATION_CLASS
 title: _HAL_QUERY_INFORMATION_CLASS (ntddk.h)
-description: The values are reserved for internal use.
+description: The _HAL_QUERY_INFORMATION_CLASS enumeration defines values used by the pHalQuerySystemInformation callback function that are reserved for internal use.
 tech.root: kernel
 ms.date: 09/30/2018
 keywords: ["HAL_QUERY_INFORMATION_CLASS enumeration"]

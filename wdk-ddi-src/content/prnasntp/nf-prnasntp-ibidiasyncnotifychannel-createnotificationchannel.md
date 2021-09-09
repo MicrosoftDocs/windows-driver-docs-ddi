@@ -1,14 +1,13 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.CreateNotificationChannel
 title: IBidiAsyncNotifyChannel::CreateNotificationChannel (prnasntp.h)
-description: 
-old-location: print\ibidiasyncnotifychannel_createnotificationchannel.htm
+description: Defines the IBidiAsyncNotifyChannel::CreateNotificationChannel method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IBidiAsyncNotifyChannel::CreateNotificationChannel"]
 ms.keywords: CreateNotificationChannel, CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CreateNotificationChannel method, IBidiAsyncNotifyChannel.CreateNotificationChannel, IBidiAsyncNotifyChannel::CreateNotificationChannel, print.ibidiasyncnotifychannel_createnotificationchannel, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,16 +41,16 @@ api_name:
 
 # IBidiAsyncNotifyChannel::CreateNotificationChannel
 
-
 ## -description
+
+Defines the **IBidiAsyncNotifyChannel::CreateNotificationChannel** method.
 
 ## -parameters
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-ibidiasyncnotifychannel">IBidiAsyncNotifyChannel</a>
-
+[IBidiAsyncNotifyChannel](./nn-prnasntp-ibidiasyncnotifychannel.md)

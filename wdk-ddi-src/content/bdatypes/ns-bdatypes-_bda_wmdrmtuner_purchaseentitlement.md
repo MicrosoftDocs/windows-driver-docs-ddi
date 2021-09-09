@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 title: _BDA_WMDRMTUNER_PURCHASEENTITLEMENT (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure"
 old-location: stream\bda_wmdrmtuner_purchaseentitlement.htm
 tech.root: stream
 ms.date: 04/23/2018

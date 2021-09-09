@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._MCG_CAP
-title: MCG_CAP
-description: 
+title: MCG_CAP structure
+description: "Learn more about: MCG_CAP structure"
 tech.root: devtest
 ms.date: 08/19/2019
 keywords: ["MCG_CAP structure"]

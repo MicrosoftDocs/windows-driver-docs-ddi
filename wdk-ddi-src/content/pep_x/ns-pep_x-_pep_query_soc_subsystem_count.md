@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_QUERY_SOC_SUBSYSTEM_COUNT
 title: _PEP_QUERY_SOC_SUBSYSTEM_COUNT (pep_x.h)
-description: The PEP_QUERY_SOC_SUBSYSTEM_COUNT structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state.
+description: Learn how the PEP_QUERY_SOC_SUBSYSTEM_COUNT structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state.
 old-location: kernel\pep_query_soc_subsystem_count.htm
 tech.root: kernel
 ms.date: 04/30/2018

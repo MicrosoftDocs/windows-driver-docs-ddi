@@ -1,7 +1,7 @@
 ---
-UID: NS:storport.__unnamed_struct_13
+UID: NS:storport.__unnamed_struct_18
 title: RT_PARAMETER_DATA (storport.h)
-description: The RT_PARAMETER_DATA structure contains the parameter data for the report timestamp command.
+description: The RT_PARAMETER_DATA structure (storport.h) contains the parameter data for the report timestamp command.
 old-location: storage\rt_parameter_data.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -45,12 +45,9 @@ api_name:
 
 # RT_PARAMETER_DATA structure (storport.h)
 
-
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-The <b>RT_PARAMETER_DATA</b> structure contains the parameter data for the report timestamp command.
+The **RT_PARAMETER_DATA** structure contains the parameter data for the report timestamp command.
 
 ## -struct-fields
 
@@ -62,67 +59,13 @@ Indicates the number of bytes that follow in the parameter data.
 
 Indicates the most recent event that initialized the returned device clock.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Device clock initialized to zero at power on or as the result of a hard reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Device clock initialized by the SET TIMESTAMP command.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-Device clock initialized by an unknown method.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id=""></a><dl>
-<dt><b></b></dt>
-<dt>4 to 7</dt>
-</dl>
-</td>
-<td width="60%">
-Reserved for future use.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| 0     | Device clock initialized to zero at power on or as the result of a hard reset. |
+| 1     | Reserved for future use. |
+| 2     | Device clock initialized by the SET TIMESTAMP command. |
+| 3     | Device clock initialized by an unknown method. |
+| 4 to 7| Reserved for future use. |
 
 ### -field Reserved1
 
@@ -142,5 +85,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/ns-storport-st_parameter_data">ST_PARAMETER_DATA</a>
-
+[**ST_PARAMETER_DATA**](ns-storport-st_parameter_data.md)

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_PARAMETERS
 title: _DEVICE_DSM_LOST_QUERY_PARAMETERS (ntddstor.h)
-description: This structure is reserved for system use only.
+description: The _DEVICE_DSM_LOST_QUERY_PARAMETERS structure is reserved for system use only.
 tech.root: storage
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_LOST_QUERY_PARAMETERS structure"]

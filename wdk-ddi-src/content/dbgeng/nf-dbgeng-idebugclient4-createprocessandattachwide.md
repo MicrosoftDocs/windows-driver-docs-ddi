@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.CreateProcessAndAttachWide
 title: IDebugClient4::CreateProcessAndAttachWide (dbgeng.h)
-description: The CreateProcessAndAttachWide method creates a process from a specified command line, then attach to another user-mode process.
+description: The IDebugClient4::CreateProcessAndAttachWide method creates a process from a specified command line, then attach to another user-mode process.
 old-location: debugger\createprocessandattachwide.htm
 tech.root: debugger
 ms.date: 05/03/2018

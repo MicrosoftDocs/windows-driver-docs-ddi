@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILPHONEBOOKLOCATION
 title: RILPHONEBOOKLOCATION (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILPHONEBOOKLOCATION structure for internal use only. Don't use the RILPHONEBOOKLOCATION structure in your code."
 old-location: netvista\rilphonebooklocation.htm
 tech.root: netvista
 ms.date: 05/02/2018

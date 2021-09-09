@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITPRESENTTOHWQUEUE
 title: PFND3DKMT_SUBMITPRESENTTOHWQUEUE (d3dkmthk.h)
-description: pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue.
+description: The PFND3DKMT_SUBMITPRESENTTOHWQUEUE callback function is invoked by user mode drivers to submit a Blt Present operation to a hardware queue.
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SUBMITPRESENTTOHWQUEUE callback function"]
 req.header: d3dkmthk.h

@@ -51,7 +51,7 @@ An application can use IOCTL_KS_METHOD to execute a method on a KS object. The a
 
 ### -input-buffer
 
-The application places a pointer to a structure of type <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> specifying the method to invoke in the <b>InBuffer</b> parameter, and the size of the method structure at <b>InLength</b>.
+The application places a pointer to a structure of type <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> specifying the method to invoke in the <b>InBuffer</b> parameter, and the size of the method structure at <b>InLength</b>.
 
 ### -input-buffer-length
 
@@ -79,7 +79,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 
 
 

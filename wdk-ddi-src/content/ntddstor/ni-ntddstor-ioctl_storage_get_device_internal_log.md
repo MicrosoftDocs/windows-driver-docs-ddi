@@ -4,7 +4,6 @@ title: IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
 description: A driver can use IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG to get the internal status data from the device.
 tech.root: storage
 ms.date: 08/04/2020
-ms.topic: ioctl
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: 

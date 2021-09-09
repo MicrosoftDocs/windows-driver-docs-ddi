@@ -1,18 +1,29 @@
 ---
 UID: NE:dot11wificxtypes._WDI_CAN_SUSTAIN_AP_REASON
 tech.root: netvista
+<<<<<<< HEAD
 title: WDI_CAN_SUSTAIN_AP_REASON (dot11wificxtypes.h)
 ms.date: 08/05/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_CAN_SUSTAIN_AP_REASON enum defines the reasons the port is ready to receive a OID_WDI_TASK_START_AP request.
+=======
+title: WDI_CAN_SUSTAIN_AP_REASON
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the WDI_CAN_SUSTAIN_AP_REASON enumeration for internal use only. Don't use this enumeration in your code."
+>>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

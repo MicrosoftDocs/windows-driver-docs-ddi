@@ -1,10 +1,10 @@
 ---
 UID: NF:dsound.IKsPropertySet.Get
 title: IKsPropertySet::Get (dsound.h)
-description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
+description: The Get method retrieves a property identified by a property-set GUID and a property identifier.  This method belongs to IKsPropertySet in dsound.h.
 old-location: stream\ikspropertyset_get.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 08/03/2021
 keywords: ["IKsPropertySet::Get"]
 ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
 req.header: dsound.h
@@ -42,60 +42,39 @@ api_name:
 
 # IKsPropertySet::Get (dsound.h)
 
-
 ## -description
 
-The <b>Get</b> method retrieves a property identified by a property-set GUID and a property identifier.
+The **Get** method retrieves a property identified by a property-set GUID and a property identifier.
 
 ## -parameters
 
 ### -param rguidPropSet
 
+[in] GUID that identifies the property set.
+
 ### -param ulId
+
+[in] Identifier of the property within the property set.
 
 ### -param pInstanceData
 
+[in] Pointer to instance data for the property.
+
 ### -param ulInstanceLength
+
+[in] Size, in bytes, of the buffer at *InstanceData*.
 
 ### -param pPropertyData
 
+[out] Pointer to a buffer that receives the value of the property.
+
 ### -param ulDataLength
+
+[in] Size, in bytes, of the buffer at *PropertyData*.
 
 ### -param pulBytesReturned
 
-#### - BytesReturned [out]
-
-Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
-
-
-#### - DataLength [in]
-
-Size, in bytes, of the buffer at <i>PropertyData</i>. 
-
-
-#### - Id [in]
-
-Identifier of the property within the property set. 
-
-
-#### - InstanceData [in]
-
-Pointer to instance data for the property. 
-
-
-#### - InstanceLength [in]
-
-Size, in bytes, of the buffer at <i>InstanceData</i>. 
-
-
-#### - PropSet [in]
-
-GUID that identifies the property set.
-
-
-#### - PropertyData [out]
-
-Pointer to a buffer that receives the value of the property.
+[out] Pointer to a variable that receives the size, in bytes, of the data that **Get** stores in the buffer at *PropertyData*.
 
 ## -returns
 
@@ -103,20 +82,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -remarks
 
-To retrieve a property, allocate a buffer, which <b>Get</b> fills with the property. To determine the necessary buffer size, specify <b>NULL</b> for <i>PropertyData</i> and zero for <i>DataLength</i>. The <b>Get</b> method returns the required buffer size in <i>BytesReturned</i>. 
+To retrieve a property, allocate a buffer, which **Get** fills with the property. To determine the necessary buffer size, specify **NULL** for *PropertyData* and zero for *DataLength*. The **Get** method returns the required buffer size in *BytesReturned*.
 
-<div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
-
-<p class="note">
-
-If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whichever header file the compiler scans first is the one whose definition of <b>IKsPropertySet</b> is used by the compiler.
-
-
-
-</div>
-<div> </div>
+> [!WARNING]
+> Dangerous certain consequences of an actionHeader files *ksproxy.h* and *dsound.h* define similar but incompatible versions of the **IKsPropertySet** interface. Applications that require the KS proxy module should use the version defined in *ksproxy.h*. The DirectSound version of **IKsPropertySet** is described in the DirectSound reference pages in the Microsoft Windows SDK documentation. If an application must include both *ksproxy.h* and *dsound.h*, whichever header file the compiler scans first is the one whose definition of **IKsPropertySet** is used by the compiler.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
-
+[IKsPropertySet::Set](./nf-dsound-ikspropertyset-set.md)

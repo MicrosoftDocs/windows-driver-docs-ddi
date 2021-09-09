@@ -1,8 +1,9 @@
 ---
+description: "Learn more about: Human Interface Devices (HID)"
 UID: TP:hid
 title: Human Interface Devices (HID)
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
-ms.date: 05/09/2018
+ms.date: 06/14/2021
 keywords: ["Human Interface Devices (HID)"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -27,6 +28,8 @@ To develop Human Interface Devices (HID), you need these headers:
 * [hidport.h](../hidport/index.md)
 
 * [hidsdi.h](../hidsdi/index.md)
+
+* [hidspicx.h](../hidspicx/index.md)
 
 * [kbdmou.h](../kbdmou/index.md)
 

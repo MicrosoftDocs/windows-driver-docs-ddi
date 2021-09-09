@@ -1,7 +1,7 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_ULONG
 title: WRITE_REGISTER_ULONG function (wudfddi_hwaccess.h)
-description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
+description: The WRITE_REGISTER_ULONG function (wudfddi_hwaccess.h) writes a ULONG value to the specified register address.
 old-location: wdf\write_register_ulong.htm
 tech.root: wdf
 ms.date: 02/26/2018

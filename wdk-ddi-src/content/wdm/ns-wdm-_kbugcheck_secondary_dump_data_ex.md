@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KBUGCHECK_SECONDARY_DUMP_DATA_EX
 title: _KBUGCHECK_SECONDARY_DUMP_DATA_EX
-description: 
+description: "Learn more about: _KBUGCHECK_SECONDARY_DUMP_DATA_EX structure"
 tech.root: devtest
 ms.date: 06/03/2019
 keywords: ["KBUGCHECK_SECONDARY_DUMP_DATA_EX structure"]

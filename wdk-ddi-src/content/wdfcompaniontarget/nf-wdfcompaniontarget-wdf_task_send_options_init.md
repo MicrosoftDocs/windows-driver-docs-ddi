@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfcompaniontarget.WDF_TASK_SEND_OPTIONS_INIT
 title: WDF_TASK_SEND_OPTIONS_INIT function (wdfcompaniontarget.h)
-description: For internal use only.
+description: This WDF_TASK_SEND_OPTIONS_INIT function article is for internal use only.
 old-location: wdf\wdf_task_send_options_init.htm
 tech.root: wdf
 ms.date: 02/26/2018

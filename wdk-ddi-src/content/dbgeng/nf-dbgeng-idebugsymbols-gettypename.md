@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetTypeName
 title: IDebugSymbols::GetTypeName (dbgeng.h)
-description: The GetTypeName method returns the name of the type symbol specified by its type ID and module.
+description: The GetTypeName method returns the name of the type symbol specified by its type ID and module. This method belongs to the IDebugSymbols interface.
 old-location: debugger\gettypename.htm
 tech.root: debugger
 ms.date: 05/03/2018

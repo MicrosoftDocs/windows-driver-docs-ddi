@@ -1,7 +1,7 @@
 ---
 UID: NF:portcls.IMiniportWavePci.NewStream
 title: IMiniportWavePci::NewStream (portcls.h)
-description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
+description: The (IMiniportWavePci) NewStream (portcls.h) method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportwavepci_newstream.htm
 tech.root: audio
 ms.date: 05/08/2018

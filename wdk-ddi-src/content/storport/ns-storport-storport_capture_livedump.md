@@ -3,7 +3,6 @@ UID: NS:storport._STORPORT_CAPTURE_LIVEDUMP
 tech.root: storage
 title: STORPORT_CAPTURE_LIVEDUMP
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The STORPORT_CAPTURE_LIVEDUMP structure contains the data needed to generate a live dump.
 req.construct-type: structure

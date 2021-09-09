@@ -54,7 +54,7 @@ The KSRTAUDIO_HWREGISTRY_PROPERTY structure appends a register base address to a
 
 ### -field Property
 
-A <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that the client initializes appropriately prior to calling KSPROPERTY_RTAUDIO_POSITIONREGISTER or KSPROPERTY_RTAUDIO_CLOCKREGISTER.
+A <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that the client initializes appropriately prior to calling KSPROPERTY_RTAUDIO_POSITIONREGISTER or KSPROPERTY_RTAUDIO_CLOCKREGISTER.
 
 ### -field BaseAddress
 
@@ -66,7 +66,7 @@ The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardw
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

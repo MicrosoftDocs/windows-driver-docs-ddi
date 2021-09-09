@@ -3,7 +3,6 @@ UID: NS:storport._STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG
 tech.root: storage
 title: STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG contains the payload for a live dump captured by StorPortCaptureLiveDump.
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.EnumerateBreakpoints
 title: IDataModelScriptDebug::EnumerateBreakpoints (dbgmodel.h)
-description: The EnumerateBreakpoints method returns an enumerator capable of enumerating every breakpoint which is set within a particular script.
+description: "The IDataModelScriptDebug::EnumerateBreakpoints method returns an enumerator capable of enumerating every breakpoint when a script debugger is enabled."
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::EnumerateBreakpoints"]
 ms.keywords: IDataModelScriptDebug::EnumerateBreakpoints, EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints, IDataModelScriptDebug::EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints

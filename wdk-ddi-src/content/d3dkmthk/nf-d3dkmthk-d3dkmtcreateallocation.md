@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
 title: D3DKMTCreateAllocation function (d3dkmthk.h)
-description: The D3DKMTCreateAllocation function creates allocations of system or video memory.
+description: The D3DKMTCreateAllocation function creates or adds allocations of system or video memory. The allocations can be standalone or associated with a resource.
 old-location: display\d3dkmtcreateallocation.htm
 ms.date: 04/01/2021
 keywords: ["D3DKMTCreateAllocation function"]

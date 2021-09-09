@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dukmdt.D3DDDI_COLOR_SPACE_TYPE
 title: D3DDDI_COLOR_SPACE_TYPE (d3dukmdt.h)
-description: Defines stream color space information.
+description: The D3DDDI_COLOR_SPACE_TYPE enumeration defines stream color space information.
 old-location: display\d3dddi_color_space_type.htm
 tech.root: display
 ms.date: 04/01/2021

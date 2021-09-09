@@ -3,7 +3,6 @@ UID: NS:ieee8021qtypes._NET_PACKET_IEEE8021Q
 tech.root: netvista
 title: NET_PACKET_IEEE8021Q
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NET_PACKET_IEEE8021Q structure specifies a NET_PACKET's 802.1Q information.
 req.construct-type: structure
@@ -15,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NET_PACKET_IEEE8021Q

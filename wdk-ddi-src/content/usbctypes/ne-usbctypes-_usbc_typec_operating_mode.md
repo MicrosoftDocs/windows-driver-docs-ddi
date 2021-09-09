@@ -1,7 +1,7 @@
 ---
 UID: NE:usbctypes._USBC_TYPEC_OPERATING_MODE
 title: _USBC_TYPEC_OPERATING_MODE (usbctypes.h)
-description: Defines operating modes of a USB Type-C connector.
+description: Learn how USBC_TYPEC_OPERATING_MODE defines operating modes of a USB Type-C connector.
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_TYPEC_OPERATING_MODE enumeration"]

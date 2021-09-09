@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfsync.h header"
 UID: NA:wdfsync
 title: Wdfsync.h header
 ms.assetid: 48b6478c-096f-337a-8dda-9d38136431bc

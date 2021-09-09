@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddvdeo.h header"
 UID: NA:ntddvdeo
 title: Ntddvdeo.h header
 ms.assetid: d139e37c-aaeb-32a4-a038-0fe5f25ee5e9

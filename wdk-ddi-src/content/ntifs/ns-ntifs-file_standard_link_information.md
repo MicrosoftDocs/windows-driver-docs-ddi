@@ -3,7 +3,6 @@ UID: NS:ntifs._FILE_STANDARD_LINK_INFORMATION
 title: FILE_STANDARD_LINK_INFORMATION
 ms.date: 11/20/2020
 tech.root: ifsk
-ms.topic: language-reference
 targetos: Windows
 description: FILE_STANDARD_LINK_INFORMATION is used to query file link information.
 req.construct-type: structure

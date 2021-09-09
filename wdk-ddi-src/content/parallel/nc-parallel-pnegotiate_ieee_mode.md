@@ -77,7 +77,7 @@ Specifies the reverse protocols. <i>ModeMaskRev </i>is a bitwise OR of the const
 
 Specifies the safety mode. Must be set to the SAFE_MODE enumeration value of the PARALLEL_SAFETY enumeration type:
 
-<pre class="syntax" xml:space="preserve"><code>typedef enum {
+<pre class="syntax"><code>typedef enum {
   SAFE_MODE,
   UNSAFE_MODE
 } PARALLEL_SAFETY;</code></pre>

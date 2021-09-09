@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNextSymbolMatch
 title: IDebugSymbols3::GetNextSymbolMatch (dbgeng.h)
-description: The GetNextSymbolMatch method returns the next symbol found in a symbol search.
+description: The GetNextSymbolMatch method returns the next symbol found in a symbol search. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getnextsymbolmatch.htm
 tech.root: debugger
 ms.date: 05/03/2018

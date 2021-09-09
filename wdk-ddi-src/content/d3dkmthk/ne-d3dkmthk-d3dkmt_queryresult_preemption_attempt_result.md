@@ -4,7 +4,7 @@ tech.root: display
 title: D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT
 ms.date: 05/13/2021
 targetos: Windows
-description: 
+description: D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT is reserved for system use.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: d3dkmthk.h

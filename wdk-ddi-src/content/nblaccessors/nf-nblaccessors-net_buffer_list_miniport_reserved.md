@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_LIST_MINIPORT_RESERVED
 title: NET_BUFFER_LIST_MINIPORT_RESERVED
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_LIST_MINIPORT_RESERVED is a macro that NDIS drivers use to access the MiniportReserved member of a NET_BUFFER_LIST structure.
 tech.root: netvista

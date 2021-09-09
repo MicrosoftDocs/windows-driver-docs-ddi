@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_LIST_FIRST_NB
 title: NET_BUFFER_LIST_FIRST_NB
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: NET_BUFFER_LIST_FIRST_NB is a macro that NDIS drivers use to get the first NET_BUFFER structure in a NET_BUFFER_LIST structure.
 tech.root: netvista 

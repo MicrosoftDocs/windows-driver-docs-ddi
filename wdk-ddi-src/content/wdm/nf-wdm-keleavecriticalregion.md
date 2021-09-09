@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeLeaveCriticalRegion
 title: KeLeaveCriticalRegion function (wdm.h)
-description: The KeLeaveCriticalRegion routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
+description: Learn how the KeLeaveCriticalRegion routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
 old-location: kernel\keleavecriticalregion.htm
 tech.root: kernel
 ms.date: 04/30/2018

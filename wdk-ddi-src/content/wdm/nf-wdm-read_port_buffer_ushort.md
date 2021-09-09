@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.READ_PORT_BUFFER_USHORT
 title: READ_PORT_BUFFER_USHORT function (wdm.h)
-description: The READ_PORT_BUFFER_USHORT routine reads a number of USHORT values from the specified port address into a buffer.
+description: The READ_PORT_BUFFER_USHORT function (wdm.h) reads a number of USHORT values from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_ushort.htm
 tech.root: kernel
 ms.date: 04/30/2018

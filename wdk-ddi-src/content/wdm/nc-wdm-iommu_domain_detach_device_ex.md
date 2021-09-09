@@ -2,9 +2,9 @@
 UID: NC:wdm.IOMMU_DOMAIN_DETACH_DEVICE_EX
 tech.root: kernel
 title: IOMMU_DOMAIN_DETACH_DEVICE_EX
-ms.date: 05/27/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: TBD
+description: Detaches a IOMMU_DMA_DEVICE from an existing domain.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: wdm.h
 req.idl: 
-req.include-header: 
+req.include-header: Wdm.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -48,29 +48,16 @@ Detaches a **IOMMU_DMA_DEVICE** from an existing domain.
 
 ### -param DmaDevice
 
-[*In*] A pointer to the **IOMMU_DMA_DEVICE** to be detached.
+[in]
+A pointer to the **IOMMU_DMA_DEVICE** to be detached.
 
 ## -returns
 
 **STATUS_SUCCESS** if the operation is successful. Possible error return values include the following status codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_1</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device could not be detached because it is not currently attached to any domain.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| STATUS_INVALID_PARAMETER_1 | The device could not be detached because it is not currently attached to any domain. |
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
@@ -79,8 +66,6 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 The caller must call `DetachDeviceEx` before attempting to attach the device to another domain.
 
 ## -see-also
-
-**IOMMU_DMA_DEVICE**
 
 [**IOMMU_DOMAIN_ATTACH_DEVICE_EX**](nc-wdm-iommu_domain_attach_device_ex.md)
 

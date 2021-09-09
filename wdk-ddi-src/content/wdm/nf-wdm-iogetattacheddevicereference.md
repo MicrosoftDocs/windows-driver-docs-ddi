@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.IoGetAttachedDeviceReference
 title: IoGetAttachedDeviceReference function (wdm.h)
-description: The IoGetAttachedDeviceReference routine returns a pointer to the highest level device object in a driver stack and increments the reference count on that object.
+description: The IoGetAttachedDeviceReference routine in wdm.h returns a pointer to the highest level device object in a driver stack and increments the reference count.
 old-location: kernel\iogetattacheddevicereference.htm
 tech.root: kernel
 ms.date: 04/30/2018

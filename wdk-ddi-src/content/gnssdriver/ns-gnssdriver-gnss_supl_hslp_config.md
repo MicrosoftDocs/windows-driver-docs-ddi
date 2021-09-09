@@ -62,7 +62,11 @@ Version number.
 
 ### -field SuplHslp
 
+This is the SUPL server address with TCP port. The server address will be a FQDN as indicated in the OMA SUPL specs.
+
 ### -field SuplHslpFromImsi
+
+This is the SUPL server address as derived from IMSI.
 
 ### -field Reserved
 
@@ -70,7 +74,7 @@ Reserved for future use.
 
 ### -field Unused
 
- 
+Padding buffer.
 
 
 

@@ -2,7 +2,6 @@
 UID: NS:nbl._NET_BUFFER
 title: NET_BUFFER
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER structure specifies data that is transmitted or received over the network.
 tech.root: netvista

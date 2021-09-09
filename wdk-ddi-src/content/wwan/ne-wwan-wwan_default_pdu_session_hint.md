@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_DEFAULT_PDU_SESSION_HINT
 tech.root: netvista
 title: WWAN_DEFAULT_PDU_SESSION_HINT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_DEFAULT_PDU_SESSION_HINT enumeration lists protocol data unit (PDU) session hints.
 req.construct-type: enumeration

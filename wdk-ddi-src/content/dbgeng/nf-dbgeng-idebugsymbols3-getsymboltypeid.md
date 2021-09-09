@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolTypeId
 title: IDebugSymbols3::GetSymbolTypeId (dbgeng.h)
-description: The GetSymbolTypeId method returns the type ID and module of the specified symbol.
+description: The GetSymbolTypeId method returns the type ID and module of the specified symbol. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getsymboltypeid.htm
 tech.root: debugger
 ms.date: 05/03/2018

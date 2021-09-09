@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddscsi.IOCTL_ATA_PASS_THROUGH_DIRECT
 title: IOCTL_ATA_PASS_THROUGH_DIRECT (ntddscsi.h)
-description: Allows an application to send almost any ATA command to a target device, with the following restrictions:\_If a class driver for the target type of device exists, the application must send the request to the class driver.
+description: Learn how IOCTL_ATA_PASS_THROUGH_DIRECT allows an application to send almost any ATA command to a target device.
 old-location: storage\ioctl_ata_pass_through_direct.htm
 tech.root: storage
 ms.date: 03/29/2018

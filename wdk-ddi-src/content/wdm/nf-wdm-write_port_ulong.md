@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.WRITE_PORT_ULONG
 title: WRITE_PORT_ULONG function (wdm.h)
-description: The WRITE_PORT_ULONG routine writes a ULONG value to the specified port address.
+description: The WRITE_PORT_ULONG function (wdm.h) writes a ULONG value to the specified port address in resident, mapped device memory.
 old-location: kernel\write_port_ulong.htm
 tech.root: kernel
 ms.date: 04/30/2018

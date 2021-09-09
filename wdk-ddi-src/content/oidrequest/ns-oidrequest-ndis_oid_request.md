@@ -2,7 +2,6 @@
 UID: NS:oidrequest._NDIS_OID_REQUEST
 title: NDIS_OID_REQUEST
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to filter drivers and miniport drivers.
 old-location: netvista\ndis_oid_request.htm

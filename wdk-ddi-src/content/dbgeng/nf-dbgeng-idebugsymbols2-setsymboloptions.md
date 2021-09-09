@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetSymbolOptions
 title: IDebugSymbols2::SetSymbolOptions (dbgeng.h)
-description: The SetSymbolOptions method changes the engine's global symbol options.
+description: The SetSymbolOptions method changes the engine's global symbol options. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\setsymboloptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

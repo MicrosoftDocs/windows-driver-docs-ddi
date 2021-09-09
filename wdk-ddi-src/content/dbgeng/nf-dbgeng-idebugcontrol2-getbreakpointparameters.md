@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetBreakpointParameters
 title: IDebugControl2::GetBreakpointParameters (dbgeng.h)
-description: The GetBreakpointParameters method returns the parameters of one or more breakpoints.
+description: The GetBreakpointParameters method returns the parameters of one or more breakpoints. This method belongs to the IDebugControl2 interface.
 old-location: debugger\getbreakpointparameters.htm
 tech.root: debugger
 ms.date: 05/03/2018

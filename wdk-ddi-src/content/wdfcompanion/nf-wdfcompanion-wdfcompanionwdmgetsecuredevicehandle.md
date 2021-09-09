@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionWdmGetSecureDeviceHandle
 title: WdfCompanionWdmGetSecureDeviceHandle function (wdfcompanion.h)
-description: For internal use only.
+description: This WdfCompanionWdmGetSecureDeviceHandle function article is for internal use only.
 old-location: wdf\wdfcompanionwdmgetsecuredevicehandle.htm
 tech.root: wdf
 ms.date: 02/26/2018

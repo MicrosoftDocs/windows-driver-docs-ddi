@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.IsKernelDebuggerEnabled
 title: IDebugClient2::IsKernelDebuggerEnabled (dbgeng.h)
-description: The IsKernelDebuggerEnabled method checks whether kernel debugging is enabled for the local kernel.
+description: The IsKernelDebuggerEnabled method checks whether kernel debugging is enabled for the local kernel. This method belongs to the IDebugClient2 interface.
 old-location: debugger\iskerneldebuggerenabled.htm
 tech.root: debugger
 ms.date: 05/03/2018

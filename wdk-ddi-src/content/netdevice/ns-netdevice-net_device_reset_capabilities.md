@@ -1,7 +1,6 @@
 ---
 UID: NS:netdevice._NET_DEVICE_RESET_CAPABILITIES
 title: NET_DEVICE_RESET_CAPABILITIES
-ms.topic: language-reference
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
@@ -16,7 +15,7 @@ req.kmdf-ver:
 req.lib:
 req.max-support:
 req.redist:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type:
 req.typenames: NET_DEVICE_RESET_CAPABILITIES

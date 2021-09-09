@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Spbcx.h header"
 UID: NA:spbcx
 title: Spbcx.h header
 ms.assetid: 6b009b60-06dc-3225-88b1-4c355dadc70e

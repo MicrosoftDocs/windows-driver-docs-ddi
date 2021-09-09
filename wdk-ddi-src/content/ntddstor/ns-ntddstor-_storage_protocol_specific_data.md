@@ -85,7 +85,7 @@ The returned data.
 
 ### -field ProtocolDataRequestSubValue2
 
-First additional data sub request value
+First additional data sub request value.
 
 ### -field ProtocolDataRequestSubValue3
 
@@ -95,7 +95,7 @@ Second additional data sub request value.
 
 When using [IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md) to retrieve protocol-specific information in the [STORAGE_PROTOCOL_DATA_DESCRIPTOR](./ns-ntddstor-_storage_protocol_data_descriptor.md), configure the [STORAGE_PROPERTY_QUERY](./ns-ntddstor-_storage_property_query.md) structure as follows:
 
-* Allocate a buffer that can contains both a [STORAGE_PROPERTY_QUERY](./ns-ntddstor-_storage_property_query.md) and a STORAGE_PROTOCOL_SPECIFIC_DATA structure.
+* Allocate a buffer that can contains both a [STORAGE_PROPERTY_QUERY](./ns-ntddstor-_storage_property_query.md) and a **STORAGE_PROTOCOL_SPECIFIC_DATA** structure.
 * Set the **PropertyID**  field to **StorageAdapterProtocolSpecificProperty** or **StorageDeviceProtocolSpecificProperty** for a controller or device/namespace request, respectively.
 * Set the **QueryType**  field to **PropertyStandardQuery**.
 * Fill the STORAGE_PROTOCOL_SPECIFIC_DATA structure with the desired values. The start of STORAGE_PROTOCOL_SPECIFIC_DATA is the **AdditionalParameters** field of [STORAGE_PROPERTY_QUERY](./ns-ntddstor-_storage_property_query.md).

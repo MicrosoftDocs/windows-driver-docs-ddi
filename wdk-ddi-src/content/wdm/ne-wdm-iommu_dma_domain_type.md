@@ -2,14 +2,14 @@
 UID: NE:wdm._IOMMU_DMA_DOMAIN_TYPE
 tech.root: kernel
 title: IOMMU_DMA_DOMAIN_TYPE
-ms.date: 05/27/2021
+ms.date: 06/13/2021
 targetos: Windows
-description: TBD
+description: Describes the domain types that can be created and interacted with via the DMA_IOMMU_INTERFACE_EX.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rxworkq.h header"
 UID: NA:rxworkq
 title: Rxworkq.h header
 ms.assetid: a16d6b4d-e662-310b-8a4f-7845b1de062b

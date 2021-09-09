@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._DEVICE_USAGE_NOTIFICATION_TYPE
 title: DEVICE_USAGE_NOTIFICATION_TYPE
-description: 
+description: "Learn more about: DEVICE_USAGE_NOTIFICATION_TYPE enumeration"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["DEVICE_USAGE_NOTIFICATION_TYPE enumeration"]

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_STARTED_REPORT_HW_ERROR
 title: WHEAP_STARTED_REPORT_HW_ERROR
-description: 
+description: "Learn more about: WHEAP_STARTED_REPORT_HW_ERROR structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_STARTED_REPORT_HW_ERROR structure"]

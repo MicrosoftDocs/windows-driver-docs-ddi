@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.Location.Location
 title: Location function (dbgmodel.h)
-description: Copy constructs a location.
+description: The Location function (dbgmodel.h) copy constructs a new Location. A C-COM access structure that defines the location for an object.
 ms.date: 09/28/2018
 keywords: ["Location function"]
 ms.keywords: Location

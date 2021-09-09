@@ -3,7 +3,6 @@ UID: NF:poll.NdisRequestPoll
 tech.root: netvista
 title: NdisRequestPoll
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: Miniport drivers call NdisRequestPoll to ask NDIS to execute the NdisPoll callback for this Poll object.
 req.assembly: 
@@ -19,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

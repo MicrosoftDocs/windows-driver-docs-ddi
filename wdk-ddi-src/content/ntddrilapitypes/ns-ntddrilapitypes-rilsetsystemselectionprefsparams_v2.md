@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILSETSYSTEMSELECTIONPREFSPARAMS_V2
 title: RILSETSYSTEMSELECTIONPREFSPARAMS_V2 (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves this structure for internal use only. Don't use the RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure in your code."
 old-location: netvista\rilsetsystemselectionprefsparams_v2.htm
 tech.root: netvista
 ms.date: 05/02/2018

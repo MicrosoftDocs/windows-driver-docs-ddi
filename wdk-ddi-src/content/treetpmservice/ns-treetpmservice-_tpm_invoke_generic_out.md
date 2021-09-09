@@ -1,7 +1,7 @@
 ---
 UID: NS:treetpmservice._TPM_INVOKE_GENERIC_OUT
 title: _TPM_INVOKE_GENERIC_OUT (treetpmservice.h)
-description: 
+description: "Learn more about: _TPM_INVOKE_GENERIC_OUT structure"
 ms.date: 11/20/2020
 keywords: ["TPM_INVOKE_GENERIC_OUT structure"]
 ms.keywords: _TPM_INVOKE_GENERIC_OUT, TPM_INVOKE_GENERIC_OUT, *PTPM_INVOKE_GENERIC_OUT,

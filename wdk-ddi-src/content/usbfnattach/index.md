@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbfnattach.h header"
 UID: NA:usbfnattach
 title: Usbfnattach.h header
 ms.assetid: f153fba1-6817-3150-8868-0ae60962b0ac

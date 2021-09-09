@@ -2,7 +2,6 @@
 UID: NF:mdlapi.NdisFreeMdl
 title: NdisFreeMdl
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisFreeMdl function frees an MDL that was allocated by calling the NdisAllocateMdl function.
 tech.root: netvista 

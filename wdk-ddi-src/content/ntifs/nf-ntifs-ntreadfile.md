@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtReadFile
 title: NtReadFile function (ntifs.h)
-description: The ZwReadFile routine reads data from an open file.
+description: The NtReadFile routine in ntifs.h reads data from an open file. If the call to this function is in user mode, use the name NtReadFile instead of ZwReadFile.
 old-location: kernel\zwreadfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

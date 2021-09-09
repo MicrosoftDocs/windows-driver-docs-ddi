@@ -1,7 +1,7 @@
 ---
 UID: NF:wiautil.WIAS_TRACE
 title: WIAS_TRACE macro (wiautil.h)
-description: The WIAS_TRACE macro writes a diagnostic message to the Wiatrace.log file.
+description: Learn how the WIAS_TRACE macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_trace.htm
 tech.root: image
 ms.date: 05/03/2018

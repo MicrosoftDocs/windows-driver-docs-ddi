@@ -4,7 +4,6 @@ title: RtlInitUTF8StringEx function (ntifs.h)
 description: RtlInitUTF8StringEx initializes a counted string of UTF-8 characters.
 tech.root: ifsk
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlInitUTF8StringEx
 req.header: ntifs.h
 req.include-header: 

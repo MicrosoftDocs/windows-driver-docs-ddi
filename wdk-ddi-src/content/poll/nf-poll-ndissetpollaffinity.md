@@ -3,7 +3,6 @@ UID: NF:poll.NdisSetPollAffinity
 tech.root: netvista
 title: NdisSetPollAffinity
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NdisSetPollAffinity function to locks an NdisPoll callback to a set of processors in a group. 
 req.assembly: 
@@ -19,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

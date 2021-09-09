@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 title: _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER (wdm.h)
-description: The PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure describes the header for a PCI Express (PCIe) extended capability structure.
+description: The _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure (wdm.h) describes the header for a PCI Express (PCIe) extended capability structure.
 old-location: pci\pci_express_enhanced_capability_header.htm
 tech.root: PCI
 ms.date: 02/24/2018

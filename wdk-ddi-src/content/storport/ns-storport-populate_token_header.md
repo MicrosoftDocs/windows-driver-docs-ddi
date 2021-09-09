@@ -1,7 +1,7 @@
 ---
-UID: NS:storport.__unnamed_struct_16
+UID: NS:storport.__unnamed_struct_21
 title: POPULATE_TOKEN_HEADER (storport.h)
-description: A populate token parameter list starts with a POPULATE_TOKEN_HEADER structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
+description: The POPULATE_TOKEN_HEADER structure (storport.h) contains the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 old-location: storage\populate_token_header.htm
 tech.root: storage
 ms.date: 05/13/2021

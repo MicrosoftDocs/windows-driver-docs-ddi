@@ -56,7 +56,11 @@ The KSPROPERTY_BOUNDS_LONGLONG structure defines the bounds for a 64-bit propert
 
 ### -field _SIGNED64.SignedMinimum
 
+Specifies a minimum bound as a signed 64-bit value.
+
 ### -field _SIGNED64.SignedMaximum
+
+Specifies a maximum bound as a signed 64-bit value.
 
 ### -field SignedMinimum
 
@@ -70,7 +74,11 @@ Specifies a maximum bound as a signed 64-bit value.
 
 ### -field _UNSIGNED64.UnsignedMinimum
 
+Specifies a minimum bound as an unsigned 64-bit value.
+
 ### -field _UNSIGNED64.UnsignedMaximum
+
+Specifies a maximum bound as an unsigned 64-bit value.
 
 ### -field UnsignedMinimum
 

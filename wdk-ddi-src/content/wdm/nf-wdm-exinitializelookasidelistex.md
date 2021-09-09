@@ -251,7 +251,7 @@ PVOID
 }
 ```
 
-The <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> macro is defined in the Ntdef.h header file. The <i>LookAsideListFreeEx</i> routine can similarly use its <i>Lookaside</i> parameter to access private data.
+The [**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record) macro is defined in the Ntdef.h header file. The <i>LookAsideListFreeEx</i> routine can similarly use its <i>Lookaside</i> parameter to access private data.
 
 After the <code>MyLookasideListAllocateEx</code> routine in this example returns, <b>ExAllocateFromLookasideListEx</b> inserts the buffer pointed to by the <code>NewEntry</code> variable into the lookaside list. To make this insertion operation thread-safe, <b>ExAllocateFromLookasideListEx</b> synchronizes its access of the lookaside list with other list insertion and removal operations that might be performed by other threads. Similarly, when <b>ExFreeFromLookasideListEx</b> removes a buffer from the lookaside list, it synchronizes its access to the list.
 

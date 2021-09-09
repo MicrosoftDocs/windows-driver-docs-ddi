@@ -1,7 +1,7 @@
 ---
 UID: NS:dbgmodel.SymbolSearchInfo
 title: SymbolSearchInfo (dbgmodel.h)
-description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
+description: The SymbolSearchInfo (dbgmodel.h) structure contains a search record that is passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.date: 07/16/2018
 keywords: ["SymbolSearchInfo structure"]
 ms.keywords: SymbolSearchInfo, ,

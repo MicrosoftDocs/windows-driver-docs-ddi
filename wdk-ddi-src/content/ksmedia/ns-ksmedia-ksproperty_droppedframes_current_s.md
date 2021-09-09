@@ -54,7 +54,7 @@ The KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure describes the dropped frame inf
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field PictureNumber
 
@@ -74,7 +74,7 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

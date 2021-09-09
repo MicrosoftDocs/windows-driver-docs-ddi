@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExceptionFilterSecondCommandWide
 title: IDebugControl4::GetExceptionFilterSecondCommandWide (dbgeng.h)
-description: The GetExceptionFilterSecondCommandWide method returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
+description: The IDebugControl4::GetExceptionFilterSecondCommandWide method returns the command to be executed by the debugger engine upon the second chance of an exception.
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_UNMAP_PHYSICAL_MEMORY
 tech.root: display
 title: DXGKARGCB_UNMAP_PHYSICAL_MEMORY
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARGCB_UNMAP_PHYSICAL_MEMORY structure contains information about the physical memory object from which the CPU-visible addresses are being unmapped by the DxgkCbUnmapPhysicalMemory callback function.
 req.construct-type: structure

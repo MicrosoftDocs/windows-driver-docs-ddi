@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d9types._D3DSTENCILOP
 title: _D3DSTENCILOP (d3d9types.h)
-description: 
+description: "Learn more about: _D3DSTENCILOP enumeration"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["D3DSTENCILOP enumeration"]

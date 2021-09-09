@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetSymbolPath
 title: IDebugSymbols::GetSymbolPath (dbgeng.h)
-description: The GetSymbolPath method returns the symbol path.
+description: The GetSymbolPath method returns the symbol path. This method belongs to the IDebugSymbols interface.
 old-location: debugger\getsymbolpath.htm
 tech.root: debugger
 ms.date: 05/03/2018

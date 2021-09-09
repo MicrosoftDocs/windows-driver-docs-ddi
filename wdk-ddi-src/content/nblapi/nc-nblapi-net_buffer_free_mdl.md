@@ -3,7 +3,6 @@ UID: NC:nblapi.NET_BUFFER_FREE_MDL
 tech.root: netvista
 title: NET_BUFFER_FREE_MDL
 ms.date: 06/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NetFreeMdl function frees an MDL that was previously allocated by the NetAllocateMdl function.
 req.assembly: 

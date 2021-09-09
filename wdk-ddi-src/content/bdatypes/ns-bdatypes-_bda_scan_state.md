@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_SCAN_STATE
 title: _BDA_SCAN_STATE (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_SCAN_STATE structure"
 old-location: stream\bda_scan_state.htm
 tech.root: stream
 ms.date: 04/23/2018

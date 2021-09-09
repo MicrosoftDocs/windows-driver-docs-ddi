@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryMaximumProcessorCountEx
 title: KeQueryMaximumProcessorCountEx function (wdm.h)
-description: The KeQueryMaximumProcessorCountEx routine returns the maximum number of logical processors in a specified group in a multiprocessor system.
+description: Learn how the KeQueryMaximumProcessorCountEx routine returns the maximum number of logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerymaximumprocessorcountex.htm
 tech.root: kernel
 ms.date: 04/30/2018

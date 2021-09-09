@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._STORAGE_PREDICT_FAILURE
 title: _STORAGE_PREDICT_FAILURE (minitape.h)
-description: The STORAGE_PREDICT_FAILURE structure is used in conjunction with IOCTL_STORAGE_PREDICT_FAILURE to report whether a device is currently predicting a failure.
+description: The _STORAGE_PREDICT_FAILURE structure (minitape.h) contains information about whether a device is currently predicting a failure.
 old-location: storage\storage_predict_failure.htm
 tech.root: storage
 ms.date: 03/29/2018

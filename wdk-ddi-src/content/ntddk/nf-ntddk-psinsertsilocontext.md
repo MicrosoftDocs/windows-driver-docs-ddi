@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.PsInsertSiloContext
 title: PsInsertSiloContext function (ntddk.h)
-description: This routine inserts an object in an empty slot in a Silo.
+description: Learn how this routine inserts an object in an empty slot in a Silo.
 old-location: kernel\psinsertsilocontext.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_CREATE_GENERIC_RECORD_EVENT
 title: WHEAP_CREATE_GENERIC_RECORD_EVENT
-description: 
+description: "Learn more about: WHEAP_CREATE_GENERIC_RECORD_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_CREATE_GENERIC_RECORD_EVENT structure"]

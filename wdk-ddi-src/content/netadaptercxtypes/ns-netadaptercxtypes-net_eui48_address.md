@@ -3,9 +3,8 @@ UID: NS:netadaptercxtypes._NET_EUI48_ADDRESS
 tech.root: netvista
 title: NET_EUI48_ADDRESS
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: The NET_EUI48_ADDRESS union specifies an EUI-48 address.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NET_EUI48_ADDRESS
@@ -41,9 +40,13 @@ dev_langs:
 
 ## -description
 
+The **NET_EUI48_ADDRESS** union specifies an EUI-48 address.
+
 ## -struct-fields
 
 ### -field Value
+
+The EUI-48 address.
 
 ## -remarks
 

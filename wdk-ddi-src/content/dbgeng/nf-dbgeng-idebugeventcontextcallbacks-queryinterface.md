@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.QueryInterface
 tech.root: debugger
 title: IDebugEventContextCallbacks::QueryInterface
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The standard COM QueryInterface method.
 req.assembly: 

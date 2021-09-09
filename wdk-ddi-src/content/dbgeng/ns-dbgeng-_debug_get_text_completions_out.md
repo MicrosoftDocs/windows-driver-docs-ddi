@@ -1,7 +1,7 @@
 ---
 UID: NS:dbgeng._DEBUG_GET_TEXT_COMPLETIONS_OUT
 title: _DEBUG_GET_TEXT_COMPLETIONS_OUT (dbgeng.h)
-description: Defines information about text completions to get.
+description: The _DEBUG_GET_TEXT_COMPLETIONS_OUT structure defines information about the type of text completions to receive.
 old-location: debugger\debug_get_text_completions_out.htm
 tech.root: debugger
 ms.date: 05/03/2018

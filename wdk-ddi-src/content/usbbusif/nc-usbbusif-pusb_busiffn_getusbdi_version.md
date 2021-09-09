@@ -70,7 +70,7 @@ The function returns the highest USBDI Interface Version supported by the port d
 
 The function definition that is provided on this reference page is an example function whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef VOID
+<pre class="syntax"><code>typedef VOID
   (USB_BUSIFFN *PUSB_BUSIFFN_GETUSBDI_VERSION) (
     IN PVOID,
     IN OUT PUSBD_VERSION_INFORMATION,

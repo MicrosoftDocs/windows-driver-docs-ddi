@@ -1,7 +1,7 @@
 ---
 UID: NF:printoem.OEMSendFontCmd
 title: OEMSendFontCmd function (printoem.h)
-description: This function is obsolete.
+description: This function (OEMSendFontCmdSW) is obsolete.
 old-location: print\oemsendfontcmd.htm
 tech.root: print
 ms.date: 11/18/2019

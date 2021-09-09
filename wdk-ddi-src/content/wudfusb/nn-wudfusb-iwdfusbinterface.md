@@ -52,7 +52,7 @@ The <b>IWDFUsbInterface</b> interface exposes a USB interface that a USB device 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbInterface</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
+The <b>IWDFUsbInterface</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

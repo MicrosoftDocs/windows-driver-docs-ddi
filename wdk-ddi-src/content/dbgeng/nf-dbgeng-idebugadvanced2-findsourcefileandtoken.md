@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.FindSourceFileAndToken
 title: IDebugAdvanced2::FindSourceFileAndToken (dbgeng.h)
-description: The FindSourceFileAndToken method returns the filename of a source file on the source path or return the value of a variable associated with a file token.
+description: The (IDebugAdvanced2) FindSourceFileAndToken method returns the filename of a source file on the source path or a variable value associated with a file token.
 old-location: debugger\findsourcefileandtoken.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CREATE_SECURE_SERVICE_CONTEXT
 title: EVT_TR_CREATE_SECURE_SERVICE_CONTEXT (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_CREATE_SECURE_SERVICE_CONTEXT callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_CREATE_SECURE_SERVICE_CONTEXT callback function"]
 req.header: trustedruntimeclx.h

@@ -49,7 +49,7 @@ Defines operations and properties for a testable item.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTarget2</b> interface inherits from <b>ITracing</b>. <b>IWDTFTarget2</b> also has these types of members:
+The <b>IWDTFTarget2</b> interface inherits from <b>ITracing</b>. <b>IWDTFTarget2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 <li><a href="/">Properties</a></li>

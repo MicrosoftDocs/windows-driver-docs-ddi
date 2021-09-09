@@ -1,7 +1,7 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
 title: PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB (dxgiddi.h)
-description: Implemented by the client driver to submit a present Blt to hardware queue.
+description: The PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function is implemented by the client driver to submit a present Blt to the hardware queue.
 ms.date: 10/19/2018
 keywords: ["PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function"]
 req.header: dxgiddi.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetNearNameByOffset
 title: IDebugSymbols2::GetNearNameByOffset (dbgeng.h)
-description: The GetNearNameByOffset method returns the name of a symbol that is located near the specified location.
+description: The GetNearNameByOffset method returns the name of a symbol that is located near the specified location. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getnearnamebyoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

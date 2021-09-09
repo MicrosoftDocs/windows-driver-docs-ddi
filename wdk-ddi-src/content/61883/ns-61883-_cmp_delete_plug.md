@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-This structure is used to delete a plug.The request deletes a plug control register (iPCR or oPCR) that was created with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>. A driver is responsible for deleting all of the plugs it has created before the system unloads the driver.
+This structure is used to delete a plug.The request deletes a plug control register (iPCR or oPCR) that was created with Av61883_CreatePlug. A driver is responsible for deleting all of the plugs it has created before the system unloads the driver.
 
 ## -struct-fields
 

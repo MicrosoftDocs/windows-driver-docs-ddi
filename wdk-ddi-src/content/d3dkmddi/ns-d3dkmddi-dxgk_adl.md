@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGK_ADL
 tech.root: display
 title: DXGK_ADL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_ADL structure is an address descriptor list (ADL), which is used to describe an array of pages that can be either physical or logical.
 req.construct-type: structure

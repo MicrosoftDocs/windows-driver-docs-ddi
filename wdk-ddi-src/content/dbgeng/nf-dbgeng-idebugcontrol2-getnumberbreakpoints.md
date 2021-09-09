@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNumberBreakpoints
 title: IDebugControl2::GetNumberBreakpoints (dbgeng.h)
-description: The GetNumberBreakpoints method returns the number of breakpoints for the current process.
+description: Learn about the GetNumberBreakpoints method, which returns the number of breakpoints for the current process.
 old-location: debugger\getnumberbreakpoints.htm
 tech.root: debugger
 ms.date: 05/03/2018

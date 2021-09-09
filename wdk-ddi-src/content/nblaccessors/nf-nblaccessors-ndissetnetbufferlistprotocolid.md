@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NdisSetNetBufferListProtocolId
 title: NdisSetNetBufferListProtocolId
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdisSetNetBufferListProtocolId macro sets the protocol identifier in the NetBufferListInfo member of a NET_BUFFER_LIST structure.
 tech.root: netvista

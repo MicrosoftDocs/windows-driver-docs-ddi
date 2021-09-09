@@ -266,7 +266,7 @@ Support for this type started with Windows 10 version 1803.
 
 ### -field KMTQAITYPE_WDDM_2_9_CAPS
 
-**pPrivateDriverData** points to a [**D3DKMT_WDDM_2_9_CAPS**](../d3dkmdt/ns-d3dkmdt-_d3dkmt_wddm_2_9_caps.md) structure with information about supported WDDM 2.9 caps. Supported starting with Windows Server 2022.
+**pPrivateDriverData** points to a [**D3DKMT_WDDM_2_9_CAPS**](../d3dkmdt/ns-d3dkmdt-d3dkmt_wddm_2_9_caps.md) structure with information about supported WDDM 2.9 caps. Supported starting with Windows Server 2022.
 
 ### -field KMTQAITYPE_CROSSADAPTERRESOURCE_SUPPORT
 

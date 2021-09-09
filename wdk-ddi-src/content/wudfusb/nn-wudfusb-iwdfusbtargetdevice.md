@@ -52,7 +52,7 @@ The <b>IWDFUsbTargetDevice</b> interface exposes a USB device I/O target object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetDevice</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>. <b>IWDFUsbTargetDevice</b> also has these types of members:
+The <b>IWDFUsbTargetDevice</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>. <b>IWDFUsbTargetDevice</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryPerformanceCounter
 title: KeQueryPerformanceCounter function (wdm.h)
-description: The KeQueryPerformanceCounter routine retrieves the current value and frequency of the performance counter.Use KeQueryPerformanceCounter to acquire high resolution (<1us) time stamps for time interval measurements.
+description: The KeQueryPerformanceCounter routine in wdm.h retrieves the current value and frequency of the performance counter.
 old-location: kernel\kequeryperformancecounter.htm
 tech.root: kernel
 ms.date: 05/18/2021

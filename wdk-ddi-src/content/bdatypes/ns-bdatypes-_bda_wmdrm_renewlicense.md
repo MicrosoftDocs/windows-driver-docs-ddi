@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_RENEWLICENSE
 title: _BDA_WMDRM_RENEWLICENSE (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_WMDRM_RENEWLICENSE structure"
 old-location: stream\bda_wmdrm_renewlicense.htm
 tech.root: stream
 ms.date: 04/23/2018

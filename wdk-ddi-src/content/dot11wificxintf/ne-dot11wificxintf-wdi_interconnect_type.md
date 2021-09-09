@@ -3,16 +3,19 @@ UID: NE:dot11wificxintf._WDI_INTERCONNECT_TYPE
 tech.root: netvista
 title: WDI_INTERCONNECT_TYPE
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the WDI_INTERCONNECT_TYPE enumeration for internal use only. Don't use this enumeration in your code."
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxintf.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

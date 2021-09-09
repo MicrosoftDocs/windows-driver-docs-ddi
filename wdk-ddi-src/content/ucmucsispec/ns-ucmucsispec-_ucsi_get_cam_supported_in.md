@@ -2,7 +2,7 @@
 UID: NS:ucmucsispec._UCSI_GET_CAM_SUPPORTED_IN
 title: _UCSI_GET_CAM_SUPPORTED_IN (ucmucsispec.h)
 tech.root: usbref
-description: Used in the GET_CAM_SUPPORTED command. See Table 4-27.
+description: Learn how UCSI_GET_CAM_SUPPORTED_IN is used in the GET_CAM_SUPPORTED command. See Table 4-27.
 ms.date: 09/30/2018
 keywords: ["UCSI_GET_CAM_SUPPORTED_IN structure"]
 ms.keywords: _UCSI_GET_CAM_SUPPORTED_IN, UCSI_GET_CAM_SUPPORTED_IN, *PUCSI_GET_CAM_SUPPORTED_IN,

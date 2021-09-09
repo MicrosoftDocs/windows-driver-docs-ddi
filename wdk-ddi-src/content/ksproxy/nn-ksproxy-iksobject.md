@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsObject
 title: IKsObject (ksproxy.h)
 description: The IKsObject interface provides a method to retrieve the file handle of a KS object.
-old-location: stream\iksobject.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsObject interface"]
 ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices],described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,22 +42,18 @@ api_name:
 
 # IKsObject interface
 
-
 ## -description
 
-The <b>IKsObject</b> interface provides a method to retrieve the file handle of a KS object.
+The **IKsObject** interface provides a method to retrieve the file handle of a KS object.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IKsObject** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
 The IID for this interface is IID_IKsObject.
 
-<b>IKsObject</b> is defined in <i>Ksproxy.h</i> within the #ifdef __STREAMS__ section.
+**IKsObject** is defined in *Ksproxy.h* within the `#ifdef __STREAMS__` section.
 
-__STREAMS__ is defined in <i>Stream.h</i>, a header from the DirectX SDK.
+`__STREAMS__` is defined in *Stream.h*, a header from the DirectX SDK.

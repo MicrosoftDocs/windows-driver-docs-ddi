@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwQueryInformationTransactionManager
 title: ZwQueryInformationTransactionManager function (wdm.h)
-description: The ZwQueryInformationTransactionManager routine retrieves information about a specified transaction manager object.
+description: Learn how the ZwQueryInformationTransactionManager routine retrieves information about a specified transaction manager object.
 old-location: kernel\zwqueryinformationtransactionmanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

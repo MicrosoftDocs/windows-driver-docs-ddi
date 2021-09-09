@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXSWAPCHAININSYSTEMMEMORY
 title: PFN_IDDCXSWAPCHAININSYSTEMMEMORY
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: PFN_IDDCXSWAPCHAININSYSTEMMEMORY is a pointer to an OS callback function through which to determine whether swapchain buffers are allocated in system memory.
 req.assembly: 

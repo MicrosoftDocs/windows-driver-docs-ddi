@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._ENCRYPTION_KEY_CTRL_INPUT
 title: _ENCRYPTION_KEY_CTRL_INPUT (ntifs.h)
-description: 
+description: "Learn more about: _ENCRYPTION_KEY_CTRL_INPUT structure"
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["ENCRYPTION_KEY_CTRL_INPUT structure"]

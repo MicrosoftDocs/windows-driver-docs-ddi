@@ -3,7 +3,6 @@ UID: NF:wwan.IS_5G_5GC_PRESENT
 tech.root: netvista
 title: IS_5G_5GC_PRESENT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: IS_5G_5GC_PRESENT determines whether the device is registered in a 5G SA network.
 req.assembly: 
@@ -19,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

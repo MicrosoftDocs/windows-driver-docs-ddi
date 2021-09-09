@@ -1,7 +1,7 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 title: _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD (nfcsedev.h)
-description: "."
+description: The _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure contains a unique connection identifier and NFC Forum RF technology and protocol types.
 old-location: nfpdrivers\secure_element_hce_activation_payload.htm
 tech.root: nfpdrivers
 ms.date: 02/15/2018

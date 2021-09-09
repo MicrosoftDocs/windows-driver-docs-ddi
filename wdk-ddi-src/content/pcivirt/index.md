@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pcivirt.h header"
 UID: NA:pcivirt
 title: Pcivirt.h header
 ms.assetid: bc773e64-8435-30c4-b21e-3a5a58d3b29e
@@ -35,7 +36,7 @@ When a driver running on the VF requests a configuration space read or write, th
 
 The stack uses an I/O MMU to differentiate traffic coming from the various interfaces that the device exposes, enforcing policy about which regions of memory a device can access and which interrupts it can generate.
 
-![PCI virtualization](../images/pcivirt.png)
+![PCI virtualization.](../images/pcivirt.png)
 
  
 ## Hardware requirements

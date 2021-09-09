@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisAdvanceNetBufferListDataStart
 title: NdisAdvanceNetBufferListDataStart
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisAdvanceNetBufferListDataStart function to release data space that was claimed in previous calls to the NdisRetreatNetBufferListDataStart function.
 tech.root: netvista

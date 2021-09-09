@@ -3,9 +3,8 @@ UID: NS:ntddk._WHEAP_ACPI_TIMEOUT_EVENT
 title: WHEAP_ACPI_TIMEOUT_EVENT
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WHEAP_ACPI_TIMEOUT_EVENT"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

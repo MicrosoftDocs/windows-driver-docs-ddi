@@ -68,7 +68,7 @@ This routine replaces the <b>USBD_QueryBusTime</b>  library function provided by
 
 The function definition that is provided on this reference page is an example function whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef NTSTATUS
+<pre class="syntax"><code>typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_TIME) (
     IN PVOID,
     IN PULONG</code></pre>

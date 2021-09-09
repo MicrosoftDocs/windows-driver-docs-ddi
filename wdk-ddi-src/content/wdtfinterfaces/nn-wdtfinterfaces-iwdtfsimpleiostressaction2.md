@@ -49,7 +49,7 @@ Defines operations for a simple asynchronous I/O functionality test.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOStressAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFSimpleIOStressAction2</b> also has these types of members:
+The <b>IWDTFSimpleIOStressAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFSimpleIOStressAction2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

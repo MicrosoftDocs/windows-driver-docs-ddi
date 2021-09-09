@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d9types._D3DCOLORVALUE
 title: _D3DCOLORVALUE (d3d9types.h)
-description: 
+description: "Learn more about: _D3DCOLORVALUE structure"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["D3DCOLORVALUE structure"]

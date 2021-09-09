@@ -1,7 +1,7 @@
 ---
 UID: NC:systemrng.PENTROPY_SOURCE_CALLBACK_FUNCTION
 title: PENTROPY_SOURCE_CALLBACK_FUNCTION (systemrng.h)
-description: 
+description: "Learn more about: PENTROPY_SOURCE_CALLBACK_FUNCTION callback function"
 ms.date: 11/19/2020
 keywords: ["PENTROPY_SOURCE_CALLBACK_FUNCTION callback function"]
 req.header: systemrng.h

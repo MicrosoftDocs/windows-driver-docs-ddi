@@ -3,16 +3,15 @@ UID: NE:ieee8021qtypes._NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS
 tech.root: netvista 
 title: NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS"
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ieee8021qtypes.h
 req.include-header: netadaptercx.h
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pep_x.PoFxRegisterCoreDevice
 title: PoFxRegisterCoreDevice function (pep_x.h)
-description: The PoFxRegisterCoreDevice routine registers a new core system resource with the Windows power management framework (PoFx).
+description: Learn how the PoFxRegisterCoreDevice routine registers a new core system resource with the Windows power management framework (PoFx).
 old-location: kernel\pofxregistercoredevice.htm
 tech.root: kernel
 ms.date: 04/30/2018

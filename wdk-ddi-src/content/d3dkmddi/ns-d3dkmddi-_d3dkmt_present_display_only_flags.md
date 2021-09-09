@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 title: _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS (d3dkmddi.h)
-description: Indicates how a kernel mode display-only driver (KMDOD) is to perform a present operation.
+description: The D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure specifies how a kernel mode display-only driver (KMDOD) will perform a present operation.
 old-location: display\d3dkmt_present_display_only_flags.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]

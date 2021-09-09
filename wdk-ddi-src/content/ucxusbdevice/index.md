@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucxusbdevice.h header"
 UID: NA:ucxusbdevice
 title: Ucxusbdevice.h header
 ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e

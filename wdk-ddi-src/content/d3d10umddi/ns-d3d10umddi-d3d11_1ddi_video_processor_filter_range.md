@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE (d3d10umddi.h)
-description: Defines the range of supported values for an image filter.
+description: The D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure defines the range of supported values for an image filter.
 old-location: display\d3d11_1ddi_video_processor_filter_range.htm
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure"]

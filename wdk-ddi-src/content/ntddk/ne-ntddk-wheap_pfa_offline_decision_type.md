@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._WHEAP_PFA_OFFLINE_DECISION_TYPE
 title: WHEAP_PFA_OFFLINE_DECISION_TYPE
-description: 
+description: "Learn more about: WHEAP_PFA_OFFLINE_DECISION_TYPE enumeration"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_OFFLINE_DECISION_TYPE enumeration"]

@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPartDiscardControl
 title: IPartDiscardControl (filterpipeline.h)
 description: The filter pipeline supports the discard control.
-old-location: print\ipartdiscardcontrol.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/10/2021
 keywords: ["IPartDiscardControl interface"]
 ms.keywords: IPartDiscardControl, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices],described, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml, print.ipartdiscardcontrol
 req.header: filterpipeline.h
@@ -42,16 +41,12 @@ api_name:
 
 # IPartDiscardControl interface
 
-
 ## -description
 
-The filter pipeline supports the discard control. Filters can use this object, if they obtain it from <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentprovider-getxpspart">IXpsDocumentProvider::GetXpsPart</a> method. In some cases, processing this object might just include forwarding it to the next filter by using the <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown">IXpsDocumentConsumer::SendXpsUnknown</a> method.
+The filter pipeline supports the discard control. Filters can use this object, if they obtain it from [IXpsDocumentProvider::GetXpsPart](./nf-filterpipeline-ixpsdocumentprovider-getxpspart.md) method. In some cases, processing this object might just include forwarding it to the next filter by using the [IXpsDocumentConsumer::SendXpsUnknown](./nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown.md) method.
 
-Filters can also create discard controls. To create a discard control, the filter must create an object that implements the <b>IPartDiscardControl</b> interface. Because the filter transfers ownership of the discard control when it sends it to the next filter, the filter must manage the lifetime of the discard control. If a filter creates a discard control, the filter DLL must not unload until the discard control has been released.
+Filters can also create discard controls. To create a discard control, the filter must create an object that implements the **IPartDiscardControl** interface. Because the filter transfers ownership of the discard control when it sends it to the next filter, the filter must manage the lifetime of the discard control. If a filter creates a discard control, the filter DLL must not unload until the discard control has been released.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartDiscardControl</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartDiscardControl</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPartDiscardControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

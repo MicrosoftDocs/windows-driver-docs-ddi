@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_PINFRAMEBUFFERFORSAVE2
 tech.root: display
 title: DXGKARGCB_PINFRAMEBUFFERFORSAVE2
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DXGKARGCB_PINFRAMEBUFFERFORSAVE2 structure contains the information used by the DxgkCbPinFrameBufferForSave2 callback function to pin an entire frame buffer at once.
 req.construct-type: structure

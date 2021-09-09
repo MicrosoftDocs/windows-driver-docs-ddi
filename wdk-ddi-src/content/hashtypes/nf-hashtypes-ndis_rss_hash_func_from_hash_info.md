@@ -2,7 +2,6 @@
 UID: NF:hashtypes.NDIS_RSS_HASH_FUNC_FROM_HASH_INFO
 title: NDIS_RSS_HASH_FUNC_FROM_HASH_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_RSS_HASH_FUNC_FROM_HASH_INFO macro gets the hash function from the hash information.
 tech.root: netvista

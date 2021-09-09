@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_DEVICE_DRIVER_DESCRIPTOR
 title: WHEA_DEVICE_DRIVER_DESCRIPTOR
-description: 
+description: "Learn more about: WHEA_DEVICE_DRIVER_DESCRIPTOR structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_DEVICE_DRIVER_DESCRIPTOR structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.Location.Location(constLocation&)
 title: Location(constLocation&) function (dbgmodel.h)
-description: Copy constructs a location.
+description: The Location(constLocation&) function copy constructs a new Location using the specified address of another Location.
 ms.date: 10/02/2018
 keywords: ["Location function"]
 ms.keywords: Location

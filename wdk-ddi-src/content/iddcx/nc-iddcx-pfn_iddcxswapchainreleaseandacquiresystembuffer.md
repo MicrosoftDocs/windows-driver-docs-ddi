@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
 title: PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER is a pointer to an OS callback function through which to release and acquire buffers from a swapchain.
 req.assembly: 

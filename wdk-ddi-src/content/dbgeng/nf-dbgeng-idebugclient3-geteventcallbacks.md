@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetEventCallbacks
 title: IDebugClient3::GetEventCallbacks (dbgeng.h)
-description: The GetEventCallbacks method returns the event callbacks object registered with this client.
+description: The GetEventCallbacks method returns the event callbacks object registered with this client. This method belongs to the IDebugClient3 interface.
 old-location: debugger\geteventcallbacks.htm
 tech.root: debugger
 ms.date: 05/03/2018

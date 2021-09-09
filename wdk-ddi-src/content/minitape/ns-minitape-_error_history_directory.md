@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._ERROR_HISTORY_DIRECTORY
 title: _ERROR_HISTORY_DIRECTORY (minitape.h)
-description: 
+description: "Learn more about: _ERROR_HISTORY_DIRECTORY structure (minitape.h)"
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["ERROR_HISTORY_DIRECTORY structure"]

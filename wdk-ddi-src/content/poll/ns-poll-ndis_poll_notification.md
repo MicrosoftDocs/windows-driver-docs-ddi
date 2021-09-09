@@ -3,7 +3,6 @@ UID: NS:poll._NDIS_POLL_NOTIFICATION
 tech.root: netvista
 title: NDIS_POLL_NOTIFICATION
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_POLL_NOTIFICATION structure contains the interrupt parameters for a Poll object.
 req.construct-type: structure
@@ -15,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NDIS_POLL_NOTIFICATION

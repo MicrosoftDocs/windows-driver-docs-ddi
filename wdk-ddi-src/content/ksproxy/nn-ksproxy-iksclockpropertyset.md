@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsClockPropertySet
 title: IKsClockPropertySet (ksproxy.h)
 description: The IKsClockPropertySet interface provides methods that let the proxy accurately reflect time.
-old-location: stream\iksclockpropertyset.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsClockPropertySet interface"]
 ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices],described, ksproxy/IKsClockPropertySet, ksproxy_0be3eb82-08b7-4afc-a4e5-3815f7499ad0.xml, stream.iksclockpropertyset
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,17 +42,13 @@ api_name:
 
 # IKsClockPropertySet interface
 
-
 ## -description
 
-The <b>IKsClockPropertySet</b> interface provides methods that let the proxy accurately reflect time.
+The **IKsClockPropertySet** interface provides methods that let the proxy accurately reflect time.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsClockPropertySet</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsClockPropertySet</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IKsClockPropertySet** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 

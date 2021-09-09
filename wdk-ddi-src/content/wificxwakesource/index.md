@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wificxwakesource.h header"
 UID: NA:wificxwakesource
 tech.root: netvista
 title: wificxwakesource

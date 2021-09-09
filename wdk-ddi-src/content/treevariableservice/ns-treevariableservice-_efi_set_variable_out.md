@@ -1,7 +1,7 @@
 ---
 UID: NS:treevariableservice._EFI_SET_VARIABLE_OUT
 title: _EFI_SET_VARIABLE_OUT (treevariableservice.h)
-description: 
+description: "Learn more about: _EFI_SET_VARIABLE_OUT structure"
 ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_OUT structure"]
 ms.keywords: _EFI_SET_VARIABLE_OUT, EFI_SET_VARIABLE_OUT, *PEFI_SET_VARIABLE_OUT,

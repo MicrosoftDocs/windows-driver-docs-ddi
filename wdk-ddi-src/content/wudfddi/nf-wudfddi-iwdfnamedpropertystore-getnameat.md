@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore::GetNameAt (wudfddi.h)
 description: The GetNameAt method retrieves the name of a property.
 old-location: wdf\iwdfnamedpropertystore_getnameat.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 08/09/2021
 keywords: ["IWDFNamedPropertyStore::GetNameAt"]
 ms.keywords: GetNameAt, GetNameAt method, GetNameAt method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNameAt method, IWDFNamedPropertyStore.GetNameAt, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, umdf.iwdfnamedpropertystore_getnameat, wdf.iwdfnamedpropertystore_getnameat, wudfddi/IWDFNamedPropertyStore::GetNameAt
 req.header: wudfddi.h
@@ -59,7 +59,7 @@ The zero-based index of the property that <b>GetNameAt</b> retrieves the name fr
 ### -param ppwszName 
 
 [out]
-A pointer to a variable that receives a pointer to a <b>NULL</b>-terminated string that contains the name of the property.
+A pointer to a variable that receives a pointer to a <b>NULL</b>-terminated string that contains the name of the property. The caller needs to release the returned buffer using delete[].
 
 ## -returns
 

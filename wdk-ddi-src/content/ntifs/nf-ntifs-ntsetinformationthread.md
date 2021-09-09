@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtSetInformationThread
 title: NtSetInformationThread function (ntifs.h)
-description: The ZwSetInformationThread routine sets the priority of a thread.
+description: Learn how the ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
 tech.root: kernel
 ms.date: 04/30/2018
@@ -52,7 +52,7 @@ The <b>NtSetInformationThread</b> routine sets the priority of a thread.
 ### -param ThreadHandle 
 
 [in]
-Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentThread</a> macro.
+Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the [ZwCurrentThread](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
 
 ### -param ThreadInformationClass 
 

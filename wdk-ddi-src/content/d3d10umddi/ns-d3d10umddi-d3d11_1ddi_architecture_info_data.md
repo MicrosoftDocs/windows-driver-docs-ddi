@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_ARCHITECTURE_INFO_DATA
 title: D3D11_1DDI_ARCHITECTURE_INFO_DATA (d3d10umddi.h)
-description: Describes information about display adapter architecture.
+description: The D3D11_1DDI_ARCHITECTURE_INFO_DATA structure provides information about display adapter architecture.
 old-location: display\d3d11_1ddi_architecture_info_data.htm
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_ARCHITECTURE_INFO_DATA structure"]

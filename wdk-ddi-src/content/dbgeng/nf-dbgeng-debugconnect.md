@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.DebugConnect
 title: DebugConnect function (dbgeng.h)
-description: The DebugConnect and DebugConnectWide functions create a new client object and return an interface pointer to it. The client object will be connected to a remote host.
+description: The DebugConnect function creates a new client object and returns an interface pointer to it. The client object will be connected to a remote host.
 old-location: debugger\debugconnect.htm
 tech.root: debugger
 ms.date: 05/03/2018

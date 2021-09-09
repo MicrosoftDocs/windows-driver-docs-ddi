@@ -54,7 +54,7 @@ The KSE_NODE structure specifies an event request on a specific node.
 
 ### -field Event
 
-A structure of type <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a> that identifies the requested event.
+A structure of type <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a> that identifies the requested event.
 
 ### -field NodeId
 

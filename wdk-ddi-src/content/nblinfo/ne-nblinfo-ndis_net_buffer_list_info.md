@@ -2,7 +2,6 @@
 UID: NE:nblinfo._NDIS_NET_BUFFER_LIST_INFO
 title: NDIS_NET_BUFFER_LIST_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_NET_BUFFER_LIST_INFO enumeration identifies information that is common to all NET_BUFFER structures in a NET_BUFFER_LIST structure.
 tech.root: netvista

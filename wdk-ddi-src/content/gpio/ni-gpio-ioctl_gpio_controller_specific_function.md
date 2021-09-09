@@ -55,15 +55,11 @@ The input buffer requirements for this I/O control code are defined by the devel
 
 ### -input-buffer-length
 
-TBD
-
 ### -output-buffer
 
 The output buffer requirements for this I/O control code are defined by the developer of the GPIO controller driver. For more information about output buffers for METHOD_BUFFERED IRPs, see <a href="/windows-hardware/drivers/kernel/buffer-descriptions-for-i-o-control-codes">Buffer Descriptions for I/O Control Codes</a>.
 
 ### -output-buffer-length
-
-TBD
 
 ### -in-out-buffer
 

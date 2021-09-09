@@ -4,7 +4,6 @@ title: STOR_DEVICE_RESET_TYPE
 description: The STOR_DEVICE_RESET_TYPE enum specifies the type of device reset being requested in a call to StorPortHardwareReset.
 tech.root: storage
 ms.date: 03/20/2020
-ms.topic: enum
 ms.keywords: STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE,
 req.header: storport.h
 req.include-header: 

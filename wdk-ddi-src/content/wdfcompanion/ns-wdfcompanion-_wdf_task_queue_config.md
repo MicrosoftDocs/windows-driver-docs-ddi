@@ -1,7 +1,7 @@
 ---
 UID: NS:wdfcompanion._WDF_TASK_QUEUE_CONFIG
 title: _WDF_TASK_QUEUE_CONFIG (wdfcompanion.h)
-description: For internal use only.
+description: This WDF_TASK_QUEUE_CONFIG article is for internal use only.
 old-location: wdf\wdf_task_queue_config.htm
 tech.root: wdf
 ms.date: 02/26/2018

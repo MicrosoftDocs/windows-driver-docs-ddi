@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Smclib.h header"
 UID: NA:smclib
 title: Smclib.h header
 ms.assetid: 48cd2b63-634e-3de2-8512-b526fb95a434

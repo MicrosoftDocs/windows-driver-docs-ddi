@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_CAPABILITIES_HEADER
 title: _PCI_CAPABILITIES_HEADER (miniport.h)
-description: The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure.
+description: The _PCI_CAPABILITIES_HEADER structure (miniport.h) defines a header that is present in every PCI capability structure.
 old-location: pci\pci_capabilities_header.htm
 tech.root: PCI
 ms.date: 02/24/2018

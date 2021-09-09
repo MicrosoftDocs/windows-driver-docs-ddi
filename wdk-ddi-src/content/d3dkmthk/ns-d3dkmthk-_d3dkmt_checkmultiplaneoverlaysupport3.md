@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3
 title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 (d3dkmthk.h)
-description: Check for multiplane overlay support.
+description: The _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure contains information that is used to check for multiplane overlay support.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure"]
 ms.keywords: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3, D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3,

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeSetImportanceDpc
 title: KeSetImportanceDpc function (wdm.h)
-description: The KeSetImportanceDpc routine specifies how soon the DPC routine is run.
+description: Learn how the KeSetImportanceDpc routine specifies how soon the DPC routine is run.
 old-location: kernel\kesetimportancedpc.htm
 tech.root: kernel
 ms.date: 04/30/2018

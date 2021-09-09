@@ -79,7 +79,7 @@ Callers of <b>MmMapLockedPages</b> must be running at IRQL <= DISPATCH_LEVEL if 
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+[MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md)
 
 
 

@@ -1,18 +1,29 @@
 ---
 UID: NE:dot11wificxtypes._WDI_CIPHER_ALGORITHM
 tech.root: netvista
+<<<<<<< HEAD
 title: WDI_CIPHER_ALGORITHM (dot11wificxtypes.h)
 ms.date: 06/17/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_CIPHER_ALGORITHM enum defines the cipher algorithm values.
+=======
+title: WDI_CIPHER_ALGORITHM
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the WDI_CIPHER_ALGORITHM enumeration for internal use only. Don't use this enumeration in your code."
+>>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

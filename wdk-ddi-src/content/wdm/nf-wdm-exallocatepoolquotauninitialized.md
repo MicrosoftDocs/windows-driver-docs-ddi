@@ -3,9 +3,8 @@ UID: NF:wdm.ExAllocatePoolQuotaUninitialized
 title: ExAllocatePoolQuotaUninitialized
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: ExAllocatePoolQuotaUninitialized"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo

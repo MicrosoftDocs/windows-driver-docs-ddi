@@ -3,7 +3,6 @@ UID: NS:ntifs._QUERY_ON_CREATE_ECP_CONTEXT
 tech.root: ifsk
 title: QUERY_ON_CREATE_ECP_CONTEXT
 ms.date: 03/11/2021
-ms.topic: language-reference
 targetos: Windows
 description: QUERY_ON_CREATE_ECP_CONTEXT is reserved for system use.
 req.construct-type: structure

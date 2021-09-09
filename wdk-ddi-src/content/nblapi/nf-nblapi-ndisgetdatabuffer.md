@@ -2,7 +2,6 @@
 UID: NF:nblapi.NdisGetDataBuffer
 title: NdisGetDataBuffer
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: Call the NdisGetDataBuffer function to gain access to a contiguous block of data from a NET_BUFFER structure.
 tech.root: netvista

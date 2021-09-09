@@ -1,11 +1,18 @@
 ---
 UID: NF:wificx.WIFI_DEVICE_CONFIG_INIT
 tech.root: netvista
+<<<<<<< HEAD
 title: WIFI_DEVICE_CONFIG_INIT (wificx.h)
 ms.date: 08/18/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_DEVICE_CONFIG_INIT function initializes the WIFI_DEVICE_CONFIG structure.
+=======
+title: WIFI_DEVICE_CONFIG_INIT
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the WIFI_DEVICE_CONFIG_INIT function for internal use only. Don't use this function in your code."
+>>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +26,11 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

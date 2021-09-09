@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.VslDeleteSecureSection
 title: VslDeleteSecureSection function (wdm.h)
-description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
+description: This VslDeleteSecureSection material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\vsldeletesecuresection.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -81,11 +81,11 @@ This member specifies a Boolean value that, if <b>TRUE</b>, indicates that the c
 
 ### -field ConnectionInterface
 
-This member contains a <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure that identifies the interface being used for the connection. This information is supplied by the graph builder when the pin is created.
+This member contains a <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> structure that identifies the interface being used for the connection. This information is supplied by the graph builder when the pin is created.
 
 ### -field ConnectionMedium
 
-This member contains a <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure that identifies the connection medium this pin should use. This information is supplied by the graph builder when the pin is created.
+This member contains a <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structure that identifies the connection medium this pin should use. This information is supplied by the graph builder when the pin is created.
 
 ### -field ConnectionPriority
 

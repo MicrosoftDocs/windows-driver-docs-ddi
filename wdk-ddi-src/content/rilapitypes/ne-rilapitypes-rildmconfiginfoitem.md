@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILDMCONFIGINFOITEM
 title: RILDMCONFIGINFOITEM (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this enumeration in your code. Microsoft reserves the RILDMCONFIGINFOITEM enumeration for internal use only."
 old-location: netvista\rildmconfiginfoitem.htm
 tech.root: netvista
 ms.date: 05/02/2018

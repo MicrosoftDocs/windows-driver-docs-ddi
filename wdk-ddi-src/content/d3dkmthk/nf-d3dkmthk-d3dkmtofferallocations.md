@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOfferAllocations
 title: D3DKMTOfferAllocations function (d3dkmthk.h)
-description: Offers video memory allocations for reuse.
+description: The D3DKMTOfferAllocations function offers video memory allocations for reuse. The function returns STATUS_SUCCESS if allocations were successfully offered.
 old-location: display\d3dkmtofferallocations.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTOfferAllocations function"]

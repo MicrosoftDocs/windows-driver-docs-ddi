@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.Release
 title: IEquatableConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IEquatableConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IEquatableConcept::Release"]
 ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release

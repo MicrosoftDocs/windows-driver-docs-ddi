@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KBUGCHECK_REMOVE_PAGES
 title: _KBUGCHECK_REMOVE_PAGES
-description: 
+description: "Learn more about: KBUGCHECK_REMOVE_PAGES structure"
 tech.root: devtest
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REMOVE_PAGES structure"]

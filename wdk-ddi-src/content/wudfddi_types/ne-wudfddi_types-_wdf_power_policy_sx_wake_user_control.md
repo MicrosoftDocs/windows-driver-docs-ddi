@@ -1,7 +1,7 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 title: _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL (wudfddi_types.h)
-description: The WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state.
+description: Learn how the WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state.
 old-location: wdf\wdf_power_policy_sx_wake_user_control.htm
 tech.root: wdf
 ms.date: 02/26/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rsc.h header"
 UID: NA:rsc
 title: Rsc.h header
 ms.assetid: D1B06148-6745-469E-B878-EAB79B253A1F

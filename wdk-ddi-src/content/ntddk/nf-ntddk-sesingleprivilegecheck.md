@@ -82,7 +82,7 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
+[RtlEqualLuid](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalluid)
 
 
 

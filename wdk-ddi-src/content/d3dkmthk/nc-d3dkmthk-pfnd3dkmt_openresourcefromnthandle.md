@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENRESOURCEFROMNTHANDLE
 title: PFND3DKMT_OPENRESOURCEFROMNTHANDLE (d3dkmthk.h)
-description: Opens a shared resource from an NT handle.
+description: PFND3DKMT_OPENRESOURCEFROMNTHANDLE opens a shared resource from an NT handle. The callback returns STATUS_SUCCESS if the resource was successfully opened.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback function"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBytes
 title: IPrinterScriptablePropertyBag::SetBytes (printerextension.h)
-description: Writes a byte array property.
+description: Learn how this method writes a byte array property.
 old-location: print\iprinterscriptablepropertybag_setbytes.htm
 tech.root: print
 ms.date: 04/20/2018

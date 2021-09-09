@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdmsec.h header"
 UID: NA:wdmsec
 title: Wdmsec.h header
 ms.assetid: 8944c625-f5bf-3b9f-9d36-13dc0a6d840c

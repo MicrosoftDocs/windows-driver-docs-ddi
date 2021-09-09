@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 title: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS is reserved for system use.
 tech.root: display

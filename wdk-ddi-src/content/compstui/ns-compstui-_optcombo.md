@@ -1,7 +1,7 @@
 ---
 UID: NS:compstui._OPTCOMBO
 title: _OPTCOMBO (compstui.h)
-description: 
+description: "Learn more about: _OPTCOMBO structure"
 old-location: print\optcombo.htm
 tech.root: print
 ms.date: 04/20/2018

@@ -2,9 +2,8 @@
 UID: NS:ksmedia.tagKSCAMERA_METADATA_PHOTOCONFIRMATION
 title: tagKSCAMERA_METADATA_PHOTOCONFIRMATION (ksmedia.h)
 description: This structure contains the photo confirmation metadata information that is filled by the camera driver.
-old-location: stream\kscamera_metadata_photoconfirmation.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/24/2021
 keywords: ["tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure"]
 ms.keywords: "*PKSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION structure [Streaming Media Devices], PKSCAMERA_METADATA_PHOTOCONFIRMATION, PKSCAMERA_METADATA_PHOTOCONFIRMATION structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_METADATA_PHOTOCONFIRMATION, ksmedia/PKSCAMERA_METADATA_PHOTOCONFIRMATION, stream.kscamera_metadata_photoconfirmation, tagKSCAMERA_METADATA_PHOTOCONFIRMATION"
 req.header: ksmedia.h
@@ -48,7 +47,6 @@ api_name:
 
 # tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure
 
-
 ## -description
 
 This structure contains the photo confirmation metadata information that is filled by the camera driver.
@@ -57,7 +55,7 @@ This structure contains the photo confirmation metadata information that is fill
 
 ### -field Header
 
-Contains the header information for the metadata item
+A [KSCAMERA_METADATA_ITEMHEADER](./ns-ksmedia-tagkscamera_metadata_itemheader.md) structure that contains the metadata header information that is filled by the camera driver.
 
 ### -field PhotoConfirmationIndex
 
@@ -66,4 +64,3 @@ Stores the index of the still confirmation frame. For single photo capture, this
 ### -field Reserved
 
 Reserved for future use.
-

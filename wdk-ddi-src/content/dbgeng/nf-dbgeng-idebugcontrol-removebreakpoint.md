@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.RemoveBreakpoint
 title: IDebugControl::RemoveBreakpoint (dbgeng.h)
-description: The RemoveBreakpoint method removes a breakpoint.
+description: Learn how the RemoveBreakpoint method removes a breakpoint. See the parameters, returns, and remarks.
 old-location: debugger\removebreakpoint.htm
 tech.root: debugger
 ms.date: 05/03/2018

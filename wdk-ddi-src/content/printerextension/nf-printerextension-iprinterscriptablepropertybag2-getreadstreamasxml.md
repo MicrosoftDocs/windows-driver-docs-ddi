@@ -1,10 +1,9 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag2.GetReadStreamAsXML
 title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML (printerextension.h)
-description: 
-old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
+description: Defines the IPrinterScriptablePropertyBag2::GetReadStreamAsXML method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrinterScriptablePropertyBag2::GetReadStreamAsXML"]
 ms.keywords: GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices],IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2 interface [Print Devices],GetReadStreamAsXML method, IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 req.header: printerextension.h
@@ -42,24 +41,24 @@ api_name:
 
 # IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 
-
 ## -description
+
+Defines the **IPrinterScriptablePropertyBag2::GetReadStreamAsXML** method.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName
 
 [in]
 
-### -param ppXmlNode 
+### -param ppXmlNode
 
 [out]
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag2">IPrinterScriptablePropertyBag2</a>
-
+[IPrinterScriptablePropertyBag2](./nn-printerextension-iprinterscriptablepropertybag2.md)

@@ -3,7 +3,6 @@ UID: NS:storport._STOR_UC_DEVICE_USAGE
 tech.root: storage
 title: STOR_UC_DEVICE_USAGE
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: STOR_UC_DEVICE_USAGE is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitUsage.
 req.construct-type: structure

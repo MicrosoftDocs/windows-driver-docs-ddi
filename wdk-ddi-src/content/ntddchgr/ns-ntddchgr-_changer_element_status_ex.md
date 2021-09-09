@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddchgr._CHANGER_ELEMENT_STATUS_EX
 title: _CHANGER_ELEMENT_STATUS_EX (ntddchgr.h)
-description: The ChangerGetElementStatus routine returns status information in this structure.
+description: The _CHANGER_ELEMENT_STATUS_EX structure contains the status of the specified CHANGER_ELEMENT if the changer miniclass driver provides product information.
 old-location: storage\changer_element_status_ex.htm
 tech.root: storage
 ms.date: 03/29/2018

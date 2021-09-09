@@ -1,7 +1,7 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 title: _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS (wudfddi_types.h)
-description: WDF_CALLBACK_CONSTRAINT enumeration
+description: This article describes the WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration.
 old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf
 ms.date: 02/26/2018

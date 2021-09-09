@@ -1,7 +1,7 @@
 ---
 UID: NF:winddiui.DOCUMENTEVENT_EVENT
 title: DOCUMENTEVENT_EVENT macro (winddiui.h)
-description: 
+description: "Learn more about: DOCUMENTEVENT_EVENT macro"
 ms.date: 11/18/2020
 keywords: ["DOCUMENTEVENT_EVENT macro"]
 ms.keywords: DOCUMENTEVENT_EVENT

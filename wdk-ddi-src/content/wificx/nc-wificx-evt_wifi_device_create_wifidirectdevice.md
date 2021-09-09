@@ -1,11 +1,18 @@
 ---
 UID: NC:wificx.EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE
 tech.root: netvista
+<<<<<<< HEAD
 title: EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE (wificx.h)
 ms.date: 08/30/2021
 ms.topic: language-reference
 targetos: Windows
 description: WiFiCx client drivers implement EvtWifiDeviceCreateWifiDirectDevice to create a WIFIDIRECTDEVICE object.
+=======
+title: EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE callback function for internal use only. Don't use this callback function in your code."
+>>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +26,11 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

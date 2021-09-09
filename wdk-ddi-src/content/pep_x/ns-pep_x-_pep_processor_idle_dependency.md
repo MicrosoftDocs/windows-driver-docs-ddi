@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_DEPENDENCY
 title: _PEP_PROCESSOR_IDLE_DEPENDENCY (pep_x.h)
-description: The PEP_PROCESSOR_IDLE_DEPENDENCY structure specifies the dependencies of a platform idle state on the specified processor.
+description: Learn how the PEP_PROCESSOR_IDLE_DEPENDENCY structure specifies the dependencies of a platform idle state on the specified processor.
 old-location: kernel\pep_processor_idle_dependency.htm
 tech.root: kernel
 ms.date: 04/30/2018

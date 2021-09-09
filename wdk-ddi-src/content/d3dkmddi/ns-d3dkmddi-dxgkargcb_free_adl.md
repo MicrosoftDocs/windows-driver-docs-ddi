@@ -3,7 +3,6 @@ UID: NS:d3dkmddi._DXGKARGCB_FREE_ADL
 tech.root: display
 title: DXGKARGCB_FREE_ADL
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: DXGKARGCB_FREE_ADL contains the information used by the DxgkCbFreeAdl callback function to destroy an address descriptor list (ADL).
 req.construct-type: structure

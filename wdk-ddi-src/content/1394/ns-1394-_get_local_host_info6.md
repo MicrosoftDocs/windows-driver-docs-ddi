@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The GET_LOCAL_HOST_INFO6 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_HOST_CSR_CONTENTS.
+The GET_LOCAL_HOST_INFO6 structure contains the data returned by a <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_HOST_CSR_CONTENTS.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ SPEED_MAP_LOCATION
 
 </td>
 <td>
-The current speed map. The bus driver converts this from big-endian to machine-native format before it returns the data.<div class="alert"><b>Note</b>  The new 1394 bus driver provided with Windows 7 does not support the SPEED_MAP_LOCATION flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request. The speed map is obsolete in the IEEE-1394a specification.</div>
+The current speed map. The bus driver converts this from big-endian to machine-native format before it returns the data.<div class="alert"><b>Note</b>  The new 1394 bus driver provided with Windows 7 does not support the SPEED_MAP_LOCATION flag in the <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a> request. The speed map is obsolete in the IEEE-1394a specification.</div>
 <div> </div>
 
 
@@ -106,5 +106,5 @@ When submitted in a REQUEST_GET_LOCAL_HOST_INFO request, if the <b>CsrDataLength
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_GET_LOCAL_HOST_INFO</a>
 

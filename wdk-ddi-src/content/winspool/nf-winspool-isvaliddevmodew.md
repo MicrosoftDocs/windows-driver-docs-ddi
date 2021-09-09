@@ -1,7 +1,7 @@
 ---
 UID: NF:winspool.IsValidDevmodeW
 title: IsValidDevmodeW function (winspool.h)
-description: The print spooler's IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
+description: Learn how the print spooler's IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
 old-location: print\isvaliddevmode.htm
 tech.root: print
 ms.date: 04/20/2018

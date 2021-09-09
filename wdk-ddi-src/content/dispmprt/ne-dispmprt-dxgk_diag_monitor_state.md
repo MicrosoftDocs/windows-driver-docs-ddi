@@ -2,7 +2,6 @@
 UID: NE:dispmprt._DXGK_DIAG_MONITOR_STATE
 title: DXGK_DIAG_MONITOR_STATE
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: DXGK_DIAG_MONITOR_STATE specifies the state of the monitors according to the miniport driver, indicating to the operating system (OS) whether the monitors are ready to receive the pixels.
 tech.root: display

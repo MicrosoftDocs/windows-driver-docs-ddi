@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_19
 title: KSEVENT_STREAMALLOCATOR (ks.h)
-description: 
+description: "Learn more about: KSEVENT_STREAMALLOCATOR enumeration"
 old-location: stream\ksevent_streamallocator.htm
 tech.root: stream
 ms.date: 04/23/2018

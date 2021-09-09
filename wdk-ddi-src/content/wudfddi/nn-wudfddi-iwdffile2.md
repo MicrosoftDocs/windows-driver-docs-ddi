@@ -51,7 +51,7 @@ Drivers obtain the <b>IWDFFile2</b> interface by calling <b>IWDFFile::QueryInter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>. <b>IWDFFile2</b> also has these types of members:
+The <b>IWDFFile2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>. <b>IWDFFile2</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

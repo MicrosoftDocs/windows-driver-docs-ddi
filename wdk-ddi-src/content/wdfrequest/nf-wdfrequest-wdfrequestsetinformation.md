@@ -98,15 +98,17 @@ MyEvtIoDeviceControl(
                                      Request,
                                      VALUE_1
                                      );
+            status = STATUS_SUCCESS;                                     
             break;
-            status = STATUS_SUCCESS;
+
       case MY_IOCTL_CODE_2:
             WdfRequestSetInformation(
                                      Request,
                                      VALUE_2
                                      );
+            status = STATUS_SUCCESS;                                     
             break;
-            status = STATUS_SUCCESS;
+
       case MY_IOCTL_CODE_3:
             WdfRequestSetInformation(
                                      Request,
@@ -114,10 +116,12 @@ MyEvtIoDeviceControl(
                                      );
             status = STATUS_SUCCESS;
             break;
+
       default:
-        status = STATUS_INVALID_DEVICE_REQUEST;
-        break;
+            status = STATUS_INVALID_DEVICE_REQUEST;
+            break;
     }
+
     WdfRequestComplete(
                        Request,
                        status

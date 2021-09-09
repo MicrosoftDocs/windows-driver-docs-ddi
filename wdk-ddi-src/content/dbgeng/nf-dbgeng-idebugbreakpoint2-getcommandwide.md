@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetCommandWide
 title: IDebugBreakpoint2::GetCommandWide (dbgeng.h)
-description: The GetCommand method returns the command string that is executed when a breakpoint is triggered.
+description: The GetCommand method returns the command string that is executed when a breakpoint is triggered. This method belongs to the IDebugBreakpoint2 interface.
 old-location: debugger\getcommandwide.htm
 tech.root: debugger
 ms.date: 05/03/2018

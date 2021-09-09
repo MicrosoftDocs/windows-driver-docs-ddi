@@ -4,7 +4,6 @@ title: STOR_DISPATCHER_HEADER
 description: The STOR_DISPATCHER_HEADER structure is an opaque structure that describes a dispatcher object.
 tech.root: storage
 ms.date: 03/24/2020
-ms.topic: struct
 ms.keywords: STOR_DISPATCHER_HEADER, STOR_DISPATCHER_HEADER, *PSTOR_DISPATCHER_HEADER,
 req.header: storport.h
 req.include-header: 

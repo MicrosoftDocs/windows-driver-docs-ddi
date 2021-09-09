@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdftimer.h header"
 UID: NA:wdftimer
 title: Wdftimer.h header
 ms.assetid: 2e3461b3-e5d1-3020-83c8-4e3a677d10f1

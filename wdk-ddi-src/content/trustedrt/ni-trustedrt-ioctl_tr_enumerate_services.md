@@ -1,7 +1,7 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_ENUMERATE_SERVICES
 title: IOCTL_TR_ENUMERATE_SERVICES (trustedrt.h)
-description: 
+description: "Learn more about: IOCTL_TR_ENUMERATE_SERVICES IOCTL"
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_ENUMERATE_SERVICES IOCTL"]
 req.header: trustedrt.h

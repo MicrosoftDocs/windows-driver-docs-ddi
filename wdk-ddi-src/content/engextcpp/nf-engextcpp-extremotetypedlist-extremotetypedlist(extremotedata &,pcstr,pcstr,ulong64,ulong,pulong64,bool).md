@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList(ExtRemoteData&,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
 title: ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool) (engextcpp.h)
-description: The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list.
+description: The ExtRemoteTypedList(ExtRemoteData&,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool) constructor creates an instance that wraps a typed singly- or doubly-linked list.
 old-location: debugger\extremotetypedlist_extremotetypedlist_extremotedata.htm
 tech.root: debugger
 ms.date: 05/03/2018

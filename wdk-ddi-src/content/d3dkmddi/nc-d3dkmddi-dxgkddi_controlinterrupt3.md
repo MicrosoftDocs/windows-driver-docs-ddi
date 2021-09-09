@@ -2,7 +2,6 @@
 UID: NC:d3dkmddi.DXGKDDI_CONTROLINTERRUPT3
 title: DXGKDDI_CONTROLINTERRUPT3
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: The DxgkDdi_ControlInterrupt3 function enables or disables the given interrupt type for the specified VidPnSourceId on the graphics hardware.

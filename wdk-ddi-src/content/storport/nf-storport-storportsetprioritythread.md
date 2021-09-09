@@ -3,7 +3,6 @@ UID: NF:storport.StorPortSetPriorityThread
 tech.root: storage
 title: StorPortSetPriorityThread
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: StorPortSetPriorityThread sets the run-time priority of a miniport-created thread.
 req.assembly: 

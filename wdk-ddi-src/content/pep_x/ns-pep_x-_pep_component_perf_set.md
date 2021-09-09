@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_COMPONENT_PERF_SET
 title: _PEP_COMPONENT_PERF_SET (pep_x.h)
-description: The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set.
+description: Learn how the PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set.
 old-location: kernel\pep_component_perf_set.htm
 tech.root: kernel
 ms.date: 04/30/2018

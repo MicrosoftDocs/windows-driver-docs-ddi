@@ -2,7 +2,6 @@
 UID: NS:ntddndis._NDIS_QOS_SQ_STATS
 title: NDIS_QOS_SQ_STATS
 ms.date: 10/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_QOS_SQ_STATS structure is used by OID_QOS_OFFLOAD_SQ_STATS to query the stats of an NDIS QoS Scheduler Queue (SQ). 
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgiddi.DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 title: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO (dxgiddi.h)
-description: Specifies info about a multiplane overlay allocation.
+description: The DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure specifies information about a multiplane overlay allocation.
 old-location: display\dxgiddi_multiplane_overlay_allocation_info.htm
 tech.root: display
 ms.date: 05/10/2018

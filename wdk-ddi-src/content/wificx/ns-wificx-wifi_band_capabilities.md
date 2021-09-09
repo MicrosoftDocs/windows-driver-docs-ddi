@@ -1,11 +1,18 @@
 ---
 UID: NS:wificx._WIFI_BAND_CAPABILITIES
 tech.root: netvista
+<<<<<<< HEAD
 title: WIFI_BAND_CAPABILITIES (wificx.h)
 ms.date: 08/27/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_BAND_CAPABILITIES structure describes the band capabilities for a WiFiCx device.
+=======
+title: WIFI_BAND_CAPABILITIES
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the WIFI_BAND_CAPABILITIES structure for internal use only. Don't use this structure in your code."
+>>>>>>> main
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +22,11 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_BAND_CAPABILITIES

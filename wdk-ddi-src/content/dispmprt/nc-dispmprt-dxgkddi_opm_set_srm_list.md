@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_OPM_SET_SRM_LIST
 title: DXGKDDI_OPM_SET_SRM_LIST
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkDdiOPMSetSrmList function sets the output protection manager (OPM) system renewability message (SRM) list.
 tech.root: display

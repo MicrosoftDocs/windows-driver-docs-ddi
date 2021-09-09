@@ -3,16 +3,23 @@ UID: NE:dot11wificxtypes._WDI_POWER_MODE_REASON_CODE
 tech.root: netvista
 title: WDI_POWER_MODE_REASON_CODE (dot11wificxtypes.h)
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
+<<<<<<< HEAD
 description: The WDI_POWER_MODE_REASON_CODE enum defines the reasons for entering the Power Save state.
+=======
+description: "Microsoft reserves the WDI_POWER_MODE_REASON_CODE enumeration for internal use only. Don't use this enumeration in your code."
+>>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

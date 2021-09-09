@@ -1,7 +1,7 @@
 ---
 UID: NL:wiamdef.CWiaLogProcEx
 title: CWiaLogProcEx (wiamdef.h)
-description: 
+description: "Learn more about: CWiaLogProcEx class"
 ms.date: 11/18/2020
 keywords: ["CWiaLogProcEx class"]
 req.header: wiamdef.h

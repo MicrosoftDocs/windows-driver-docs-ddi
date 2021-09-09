@@ -77,6 +77,8 @@ A value of FALSE indicates that the driver does not differentiate different HLOS
 
 ### -field RequireAGnssInjection
 
+Indicates whether the GNSS driver requires assistance data to be injected for faster TTFF.
+
 ### -field AgnssFormatSupported
 
 Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) that the driver can handle.

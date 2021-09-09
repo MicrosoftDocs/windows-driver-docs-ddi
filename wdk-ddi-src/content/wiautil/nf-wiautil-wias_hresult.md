@@ -1,7 +1,7 @@
 ---
 UID: NF:wiautil.WIAS_HRESULT
 title: WIAS_HRESULT macro (wiautil.h)
-description: The WIAS_HRESULT macro writes a diagnostic message to the Wiatrace.log file.
+description: Learn how the WIAS_HRESULT macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_hresult.htm
 tech.root: image
 ms.date: 05/03/2018

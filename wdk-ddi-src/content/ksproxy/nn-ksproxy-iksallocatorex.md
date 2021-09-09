@@ -2,9 +2,8 @@
 UID: NN:ksproxy.IKsAllocatorEx
 title: IKsAllocatorEx (ksproxy.h)
 description: The IKsAllocatorEx interface is for proxy use and not recommended for application use. IKsAllocatorEx inherits all the methods of the IKsAllocator interface and extends IKsAllocator to provide methods that further control and query an allocator.
-old-location: stream\iksallocatorex.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsAllocatorEx interface"]
 ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices],described, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml, stream.iksallocatorex
 req.header: ksproxy.h
@@ -42,20 +41,16 @@ api_name:
 
 # IKsAllocatorEx interface
 
-
 ## -description
 
-The <b>IKsAllocatorEx</b> interface is for proxy use and not recommended for application use. <b>IKsAllocatorEx</b> inherits all the methods of the <b>IKsAllocator</b> interface and extends <b>IKsAllocator</b> to provide methods that further control and query an allocator. 
+The **IKsAllocatorEx** interface is for proxy use and not recommended for application use. **IKsAllocatorEx** inherits all the methods of the **IKsAllocator** interface and extends **IKsAllocator** to provide methods that further control and query an allocator.
 
 The IID for this interface is IID_IKsAllocatorEx.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IKsAllocatorEx** interface inherits from IUnknown and [IKsAllocator](./nn-ksproxy-iksallocator.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>
+[IKsAllocator](./nn-ksproxy-iksallocator.md)

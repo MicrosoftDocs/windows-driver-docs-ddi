@@ -3,9 +3,8 @@ UID: NC:dot11wificxintf.NDIS_WDI_TX_SEND_COMPLETE_IND
 tech.root: netvista
 title: NDIS_WDI_TX_SEND_COMPLETE_IND
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the NDIS_WDI_TX_SEND_COMPLETE_IND callback function for internal use only. Don't use this callback function in your code."
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +18,11 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

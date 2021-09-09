@@ -4,7 +4,7 @@ title: KSDEGRADE_STANDARD (ks.h)
 description: The KSDEGRADE_STANDARD enumeration lists different types of degradation.
 old-location: stream\ksdegrade_standard.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/15/2021
 keywords: ["KSDEGRADE_STANDARD enumeration"]
 ms.keywords: KSDEGRADE_STANDARD, KSDEGRADE_STANDARD enumeration [Streaming Media Devices], KSDEGRADE_STANDARD_COMPUTATION, KSDEGRADE_STANDARD_QUALITY, KSDEGRADE_STANDARD_SAMPLE, KSDEGRADE_STANDARD_SKIP, ks-struct_933ec08b-6ad6-47dc-8092-357d6bbe1c72.xml, ks/KSDEGRADE_STANDARD, ks/KSDEGRADE_STANDARD_COMPUTATION, ks/KSDEGRADE_STANDARD_QUALITY, ks/KSDEGRADE_STANDARD_SAMPLE, ks/KSDEGRADE_STANDARD_SKIP, stream.ksdegrade_standard
 req.header: ks.h
@@ -42,7 +42,6 @@ api_name:
 
 # KSDEGRADE_STANDARD enumeration
 
-
 ## -description
 
 The KSDEGRADE_STANDARD enumeration lists different types of degradation.
@@ -67,8 +66,8 @@ Requests to skip ahead a specified delta in the data stream.
 
 ## -remarks
 
-For more information, see <a href="/windows-hardware/drivers/stream/quality-management">Quality Management</a>.
+For more information, see [Quality Management](/windows-hardware/drivers/stream/quality-management).
 
 ## -see-also
 
-<a href="/previous-versions/ff561671(v=vs.85)">KSDEGRADE</a>
+[**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure)

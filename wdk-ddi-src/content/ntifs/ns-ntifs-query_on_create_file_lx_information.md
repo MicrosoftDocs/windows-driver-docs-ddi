@@ -3,7 +3,6 @@ UID: NS:ntifs._QUERY_ON_CREATE_FILE_LX_INFORMATION
 tech.root: ifsk
 title: QUERY_ON_CREATE_FILE_LX_INFORMATION
 ms.date: 03/11/2021
-ms.topic: language-reference
 targetos: Windows
 description: The QUERY_ON_CREATE_FILE_LX_INFORMATION structure is used to write a file's Linux metadata extended attributes when FltRequestFileInfoOnCreateCompletion is called with the QoCFileLxInformation flag set in the InfoClassFlags parameter.
 req.construct-type: structure

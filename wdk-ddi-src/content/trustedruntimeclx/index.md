@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trustedruntimeclx.h header"
 UID: NA:trustedruntimeclx
 title: Trustedruntimeclx.h header
 ms.assetid: 132c53e5-3fd6-3a8a-a610-d6739ae2ebbe

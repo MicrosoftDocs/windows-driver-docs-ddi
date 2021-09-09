@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bthhfpddi.h header"
 UID: NA:bthhfpddi
 title: Bthhfpddi.h header
 ms.assetid: 3204c1dc-a7d6-343c-8591-e2175352866a

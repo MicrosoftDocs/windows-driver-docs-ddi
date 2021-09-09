@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._KUSER_SHARED_DATA
 title: KUSER_SHARED_DATA
-description: 
+description: "Learn more about: KUSER_SHARED_DATA structure"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["KUSER_SHARED_DATA structure"]

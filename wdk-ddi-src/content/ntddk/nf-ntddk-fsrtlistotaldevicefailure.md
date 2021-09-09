@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.FsRtlIsTotalDeviceFailure
 title: FsRtlIsTotalDeviceFailure function (ntddk.h)
-description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
+description: The FsRtlIsTotalDeviceFailure function (ntddk.h) determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
 tech.root: ifsk
 ms.date: 04/16/2018

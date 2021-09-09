@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PLATFORM_IDLE_STATE
 title: _PEP_PLATFORM_IDLE_STATE (pep_x.h)
-description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
+description: Learn how the PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

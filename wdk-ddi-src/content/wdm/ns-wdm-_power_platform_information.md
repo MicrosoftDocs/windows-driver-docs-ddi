@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._POWER_PLATFORM_INFORMATION
 title: _POWER_PLATFORM_INFORMATION (wdm.h)
-description: The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system.
+description: Learn how the POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system.
 old-location: kernel\power_platform_information.htm
 tech.root: kernel
 ms.date: 04/30/2018

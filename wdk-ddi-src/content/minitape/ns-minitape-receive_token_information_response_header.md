@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape.__unnamed_struct_19
 title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER (minitape.h)
-description: A token, created as a representation of data (ROD), for an offload read data operation is returned in a RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure.
+description: The RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure (minitape.h) contains a token that is created as a representation of data (ROD).
 old-location: storage\receive_token_information_response_header.htm
 tech.root: storage
 ms.date: 03/29/2018

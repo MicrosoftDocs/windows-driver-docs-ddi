@@ -2,7 +2,6 @@
 UID: NF:nblaccessors.NET_BUFFER_SHARED_MEM_LENGTH
 title: NET_BUFFER_SHARED_MEM_LENGTH
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_SHARED_MEM_LENGTH macro gets the shared memory length from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista

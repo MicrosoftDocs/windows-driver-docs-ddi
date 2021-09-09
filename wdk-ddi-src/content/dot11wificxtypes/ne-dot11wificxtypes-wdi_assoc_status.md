@@ -1,18 +1,29 @@
 ---
 UID: NE:dot11wificxtypes._WDI_ASSOC_STATUS
 tech.root: netvista
+<<<<<<< HEAD
 title: WDI_ASSOC_STATUS (dot11wificxtypes.h)
 ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_ASSOC_STATUS enum defines association status values.
+=======
+title: WDI_ASSOC_STATUS
+ms.date: 04/30/2021
+targetos: Windows
+description: "Microsoft reserves the WDI_ASSOC_STATUS enumeration for internal use only. Don't use this enumeration in your code."
+>>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

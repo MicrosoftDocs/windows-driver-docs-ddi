@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlGetNextMcbEntry
 title: FsRtlGetNextMcbEntry function (ntifs.h)
-description: Obsolete.
+description: The FsRtlGetNextMcbEntry function is obsolete.
 old-location: ifsk\fsrtlgetnextmcbentry.htm
 tech.root: ifsk
 ms.date: 04/16/2018

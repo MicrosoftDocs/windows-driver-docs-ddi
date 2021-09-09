@@ -1,10 +1,10 @@
 ---
 UID: NS:wdm._INTERFACE
 title: _INTERFACE (wdm.h)
-description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
+description: The _INTERFACE structure (wdm.h) describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/03/2021
 keywords: ["INTERFACE structure"]
 ms.keywords: "*PINTERFACE, INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], _INTERFACE, kernel.interface, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, wdm/PINTERFACE"
 req.header: wdm.h
@@ -48,10 +48,9 @@ api_name:
 
 # _INTERFACE structure (wdm.h)
 
-
 ## -description
 
-The <b>INTERFACE</b> structure describes an interface that is exported by a driver for use by other drivers.
+The **INTERFACE** structure describes an interface that is exported by a driver for use by other drivers.
 
 ## -struct-fields
 
@@ -69,29 +68,27 @@ Pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a> routine that increments the interface's reference count.
+Pointer to a driver-supplied [InterfaceReference](./nc-wdm-pinterface_reference.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a> routine that decrements the interface's reference count.
+Pointer to a driver-supplied [InterfaceDereference](./nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ## -remarks
 
-The <b>INTERFACE</b> structure must be included as the first member of all structures that describe interfaces returned by drivers in response to an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request.
+The **INTERFACE** structure must be included as the first member of all structures that describe interfaces returned by drivers in response to an [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface) request.
 
-The <i>InterfaceReference</i> routine must be called by the driver that exports the interface, each time the driver supplies that interface in response to <b>IRP_MN_QUERY_INTERFACE</b>. Likewise, if the driver that requests the interface subsequently passes it to another driver, the driver that passes the interface must call <i>InterfaceReference</i> on behalf of the driver that receives it.
+The *InterfaceReference* routine must be called by the driver that exports the interface, each time the driver supplies that interface in response to **IRP_MN_QUERY_INTERFACE**. Likewise, if the driver that requests the interface subsequently passes it to another driver, the driver that passes the interface must call *InterfaceReference* on behalf of the driver that receives it.
 
-Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTERFACE</b> or by receiving the interface from another driver) must call the <i>InterfaceDereference</i> routine after it has finished using the interface. After calling the <i>InterfaceDereference</i> routine, a driver cannot use the interface again without first reobtaining it.
+Each driver that imports the interface (whether by sending **IRP_MN_QUERY_INTERFACE** or by receiving the interface from another driver) must call the *InterfaceDereference* routine after it has finished using the interface. After calling the *InterfaceDereference* routine, a driver cannot use the interface again without first reobtaining it.
+
+> [!NOTE]
+> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of this structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
+[IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
+[InterfaceDereference](./nc-wdm-pinterface_dereference.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>
-
+[InterfaceReference](./nc-wdm-pinterface_reference.md)

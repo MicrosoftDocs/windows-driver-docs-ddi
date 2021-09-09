@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_RESUMEVIRTUALGPU
 title: DXGKDDI_RESUMEVIRTUALGPU
-description: Virtual GPU suspend/resume is not supported.
+description: The DXGKDDI_RESUMEVIRTUALGPU callback function resumes execution of the specified virtual GPU. This callback function is not supported and is never used.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_RESUMEVIRTUALGPU callback function"]

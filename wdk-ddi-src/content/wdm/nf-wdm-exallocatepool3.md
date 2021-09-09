@@ -3,9 +3,8 @@ UID: NF:wdm.ExAllocatePool3
 title: ExAllocatePool3
 tech.root: kernel
 ms.date: 05/12/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: ExAllocatePool3"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo

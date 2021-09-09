@@ -2,7 +2,6 @@
 UID: NS:nblchecksum._NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 title: NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure specifies information used in offloading checksum tasks from the TCP/IP transport to a NIC.
 tech.root: netvista 

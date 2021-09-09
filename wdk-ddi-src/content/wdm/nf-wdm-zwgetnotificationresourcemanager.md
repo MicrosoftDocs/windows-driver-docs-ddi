@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwGetNotificationResourceManager
 title: ZwGetNotificationResourceManager function (wdm.h)
-description: The ZwGetNotificationResourceManager routine retrieves the next transaction notification from a specified resource manager's notification queue.
+description: Learn how the ZwGetNotificationResourceManager routine retrieves the next transaction notification from a specified resource manager's notification queue.
 old-location: kernel\zwgetnotificationresourcemanager.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -2,7 +2,6 @@
 UID: NS:nbltimestamp._NET_BUFFER_LIST_TIMESTAMP
 title: NET_BUFFER_LIST_TIMESTAMP
 ms.date: 01/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NET_BUFFER_LIST_TIMESTAMP structure represents a timestamp that the NIC hardware generates on reception or transmission of a packet.
 tech.root: netvista 
@@ -15,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022. Supported in NDIS 6.82 and later.
 req.target-type: 
 req.typenames: NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP

@@ -61,7 +61,7 @@ Points to the IRP for the request to validate that the current pin controls the 
 
 #### - pKSProperty [in]
 
-Points to a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 ## -returns
 
@@ -73,7 +73,7 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

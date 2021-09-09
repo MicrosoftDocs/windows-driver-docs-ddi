@@ -2,7 +2,6 @@
 UID: NF:nbltimestamp.NdisGetNblTimestampInfo
 title: NdisGetNblTimestampInfo
 ms.date: 01/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: NdisGetNblTimestampInfo retrieves a hardware or software timestamp stored in a NET_BUFFER_LIST.
 tech.root: netvista
@@ -19,7 +18,7 @@ req.lib: ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022. Supported in NDIS 6.82 and later.
 req.target-type: Universal
 req.type-library: 

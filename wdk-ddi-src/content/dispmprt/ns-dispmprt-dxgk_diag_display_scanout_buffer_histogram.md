@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
 title: DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM structure provides histogram information for the current buffer being scanned out during diagnostic data collection.
 tech.root: display

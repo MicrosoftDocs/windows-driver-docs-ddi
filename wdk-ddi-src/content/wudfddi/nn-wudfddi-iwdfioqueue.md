@@ -51,7 +51,7 @@ The <b>IWDFIoQueue</b> interface exposes an I/O queue object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoQueue</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFIoQueue</b> also has these types of members:
+The <b>IWDFIoQueue</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFIoQueue</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

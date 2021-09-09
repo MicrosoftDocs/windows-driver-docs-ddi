@@ -52,7 +52,7 @@ The <b>IWDFUsbTargetPipe</b> interface exposes a USB pipe (endpoint), which is a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetPipe</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>. <b>IWDFUsbTargetPipe</b> also has these types of members:
+The <b>IWDFUsbTargetPipe</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>. <b>IWDFUsbTargetPipe</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

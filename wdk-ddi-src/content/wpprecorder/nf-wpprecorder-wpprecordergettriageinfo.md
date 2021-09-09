@@ -1,7 +1,7 @@
 ---
 UID: NF:wpprecorder.WppRecorderGetTriageInfo
 title: WppRecorderGetTriageInfo macro (wpprecorder.h)
-description: The WppRecorderGetTriageInfo.
+description: Learn about the WppRecorderGetTriageInfo method.
 old-location: devtest\wpprecordergettriageinfo.htm
 tech.root: devtest
 ms.date: 01/10/2018

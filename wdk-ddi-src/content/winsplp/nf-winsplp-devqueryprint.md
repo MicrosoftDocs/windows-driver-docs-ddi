@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.DevQueryPrint
 title: DevQueryPrint function (winsplp.h)
-description: 
+description: "Learn more about: DevQueryPrint function"
 old-location: print\devqueryprint.htm
 tech.root: print
 ms.date: 04/20/2018

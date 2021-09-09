@@ -2,14 +2,14 @@
 UID: NS:wdm._IOMMU_DMA_DOMAIN_CREATION_FLAGS
 tech.root: kernel
 title: IOMMU_DMA_DOMAIN_CREATION_FLAGS
-ms.date: 04/20/2021
+ms.date: 06/10/2021
 targetos: Windows
-description: 
+description: "Learn more about: IOMMU_DMA_DOMAIN_CREATION_FLAGS"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -43,13 +43,13 @@ dev_langs:
 
 ## -description
 
-The **IOMMU_DMA_DOMAIN_CREATION_FLAGS** structure defines configuration flags for a domain being created by [**IOMMU_DOMAIN_CREATE_EX**](./nc-wdm-iommu_domain_create_ex.md).
+The **IOMMU_DMA_DOMAIN_CREATION_FLAGS** structure defines configuration flags for a domain being created by [**IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md).
 
 ## -struct-fields
 
 ### -field Reserved
 
-All flags for are currenty reserved. This field must be zero.
+All flags are currently reserved. This field must be zero.
 
 ### -field AsUlonglong
 
@@ -57,8 +57,8 @@ Represents all flags as a single **ULONGLONG**.
 
 ## -remarks
 
-Currently the flags are unused and must be all zero when passed in to [**IOMMU_DOMAIN_CREATE_EX**](./nc-wdm-iommu_domain_create_ex.md).
+Currently the flags are unused and must be all zero when passed in to [**IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md).
 
 ## -see-also
 
-[**IOMMU_DOMAIN_CREATE_EX**](./nc-wdm-iommu_domain_create_ex.md)
+[**IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md)

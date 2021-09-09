@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC
 title: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC (d3d12umddi.h)
-description: Describes the Render Target. This is declared at the start of a Render Pass.
+description: The D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC structure describes the render target. This structure is declared at the start of a render pass.
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC structure"]
 ms.keywords: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC, D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC,

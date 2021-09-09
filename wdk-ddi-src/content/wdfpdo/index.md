@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfpdo.h header"
 UID: NA:wdfpdo
 title: Wdfpdo.h header
 ms.assetid: ac342a18-24b7-36b8-9447-8ee711b42a24

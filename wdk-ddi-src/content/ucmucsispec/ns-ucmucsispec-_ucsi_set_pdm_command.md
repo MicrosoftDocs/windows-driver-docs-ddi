@@ -1,7 +1,7 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_PDM_COMMAND
 title: _UCSI_SET_PDM_COMMAND (ucmucsispec.h)
-description: Obsolete.
+description: _UCSI_SET_PDM_COMMAND is obsolete.
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["UCSI_SET_PDM_COMMAND structure"]

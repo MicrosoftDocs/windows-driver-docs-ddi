@@ -3,9 +3,8 @@ UID: NS:dot11wificxintf._WDI_TXRX_PARAMETERS
 tech.root: netvista
 title: WDI_TXRX_PARAMETERS
 ms.date: 04/30/2021
-ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: "Microsoft reserves the WDI_TXRX_PARAMETERS structure for internal use only. Don't use this structure in your code."
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +14,11 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
+<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
+=======
+req.target-min-winverclnt: Windows 11
+>>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_TXRX_PARAMETERS, *PWDI_TXRX_PARAMETERS

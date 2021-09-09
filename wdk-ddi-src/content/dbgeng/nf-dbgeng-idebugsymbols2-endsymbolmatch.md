@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.EndSymbolMatch
 title: IDebugSymbols2::EndSymbolMatch (dbgeng.h)
-description: The EndSymbolMatch method releases the resources used by a symbol search.
+description: The EndSymbolMatch method releases the resources used by a symbol search. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\endsymbolmatch.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -2,7 +2,6 @@
 UID: NE:dispmprt._DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
 title: DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS specifies the substatus for per target diagnostic data collection.
 tech.root: display

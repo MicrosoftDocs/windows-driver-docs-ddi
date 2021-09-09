@@ -54,7 +54,7 @@ The KSNODEPROPERTY structure specifies a node and a property of that node.
 
 ### -field Property
 
-Specifies the property to get or set. This member is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property to get or set. This member is a structure of type <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>.
 
 ### -field NodeId
 
@@ -72,7 +72,7 @@ See the discussion of the KSNODEPROPERTY structure in <a href="/windows-hardware
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoUnregisterSystemState
 title: PoUnregisterSystemState function (ntifs.h)
-description: The PoUnregisterSystemState routine cancels a system state registration created by PoRegisterSystemState.
+description: The PoUnregisterSystemState routine in ntifs.h cancels a system state registration created by PoRegisterSystemState.
 old-location: kernel\pounregistersystemstate.htm
 tech.root: kernel
 ms.date: 04/30/2018

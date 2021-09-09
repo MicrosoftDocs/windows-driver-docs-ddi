@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtFreeVirtualMemory
 title: NtFreeVirtualMemory function (ntifs.h)
-description: The ZwFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
+description: The NtFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
 old-location: kernel\zwfreevirtualmemory.htm
 tech.root: kernel
 ms.date: 06/21/2019

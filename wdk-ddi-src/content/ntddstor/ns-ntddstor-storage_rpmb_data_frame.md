@@ -3,7 +3,6 @@ UID: NS:ntddstor._STORAGE_RPMB_DATA_FRAME
 title: STORAGE_RPMB_DATA_FRAME
 ms.date: 10/28/2020
 tech.root: storage
-ms.topic: language-reference
 targetos: Windows
 description: The STORAGE_RPMB_DATA_FRAME structure identifies the frame format of a Replay Protected Memory Block (RPMB) payload.
 req.construct-type: structure

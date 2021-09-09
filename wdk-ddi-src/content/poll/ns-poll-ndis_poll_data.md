@@ -3,7 +3,6 @@ UID: NS:poll._NDIS_POLL_DATA
 tech.root: netvista
 title: NDIS_POLL_DATA
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: NDIS_POLL_DATA contains pointers to the NDIS_POLL_TRANSMIT_DATA and NDIS_POLL_RECEIVE_DATA structures that the driver can use to perform receive indications and send completions.
 req.construct-type: structure
@@ -15,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NDIS_POLL_DATA

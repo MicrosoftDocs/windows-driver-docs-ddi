@@ -1,10 +1,9 @@
 ---
 UID: NF:wdm.IoQueryKsrPersistentMemorySize
 title: IoQueryKsrPersistentMemorySize function
-description: Reserved for system use.
+description: "Microsoft reserves the IoQueryKsrPersistentMemorySize function for internal use only. Don't use this function in your code."
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: IoQueryKsrPersistentMemorySize
 req.header: wdm.h
 req.include-header: 

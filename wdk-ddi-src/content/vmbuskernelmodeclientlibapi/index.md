@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Vmbuskernelmodeclientlibapi.h header"
 UID: NA:vmbuskernelmodeclientlibapi
 title: Vmbuskernelmodeclientlibapi.h header
 ms.assetid: 2e84074c-95a8-364a-a58d-1b59a15a0e22

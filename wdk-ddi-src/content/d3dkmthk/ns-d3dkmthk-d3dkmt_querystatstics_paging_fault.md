@@ -3,9 +3,8 @@ UID: NS:d3dkmthk._D3DKMT_QUERYSTATSTICS_PAGING_FAULT
 tech.root: display
 title: D3DKMT_QUERYSTATSTICS_PAGING_FAULT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: D3DKMT_QUERYSTATSTICS_PAGING_FAULT"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

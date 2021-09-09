@@ -1,7 +1,7 @@
 ---
 UID: NE:dbgmodel.ScriptDebugEventFilter
 title: ScriptDebugEventFilter (dbgmodel.h)
-description: Defines what debug event occurred.
+description: The ScriptDebugEventFilter (dbgmodel.h) enumeration defines the set of debug events or exceptions which the script debugger can, potentially, auto-break on.
 ms.date: 07/16/2018
 keywords: ["ScriptDebugEventFilter enumeration"]
 ms.keywords: ScriptDebugEventFilter, ,

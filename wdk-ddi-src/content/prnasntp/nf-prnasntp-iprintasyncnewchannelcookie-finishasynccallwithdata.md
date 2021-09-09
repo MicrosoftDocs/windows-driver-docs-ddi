@@ -1,14 +1,13 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
 title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData (prnasntp.h)
-description: 
-old-location: print\iprintasyncnewchannelcookie_finishasynccallwithdata.htm
+description: Defines the IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncNewChannelCookie::FinishAsyncCallWithData"]
 ms.keywords: FinishAsyncCallWithData, FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices],IPrintAsyncNewChannelCookie interface, IPrintAsyncNewChannelCookie interface [Print Devices],FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,23 +41,26 @@ api_name:
 
 # IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 
-
 ## -description
+
+Defines the **IPrintAsyncNewChannelCookie::FinishAsyncCallWithData** method.
 
 ## -parameters
 
 ## -param
 
-#### - ppChannel [in]
+### - ppChannel
 
+[in] unnamedParam1
 
-#### - uL [in]
+### - uL
+
+[in] unnamedParam2
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnewchannelcookie">IPrintAsyncNewChannelCookie</a>
-
+[IPrintAsyncNewChannelCookie](./nn-prnasntp-iprintasyncnewchannelcookie.md)

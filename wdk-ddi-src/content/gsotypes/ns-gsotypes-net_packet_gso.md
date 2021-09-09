@@ -3,7 +3,6 @@ UID: NS:gsotypes._NET_PACKET_GSO
 tech.root: netvista
 title: NET_PACKET_GSO
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The NET_PACKET_GSO structure contains Generic Segmentation Offload (GSO) information for a packet. 
 req.construct-type: structure
@@ -15,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: NET_PACKET_GSO

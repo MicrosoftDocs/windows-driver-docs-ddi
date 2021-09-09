@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetDescription
 title: IDebugRegisters2::GetDescription (dbgeng.h)
-description: The GetDescription method returns the description of a register.
+description: The GetDescription method returns the description of a register. This method belongs to the IDebugRegisters2 interface.
 old-location: debugger\getdescription.htm
 tech.root: debugger
 ms.date: 05/03/2018

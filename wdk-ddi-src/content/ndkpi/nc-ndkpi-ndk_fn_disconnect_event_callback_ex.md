@@ -2,7 +2,6 @@
 UID: NC:ndkpi.NDK_FN_DISCONNECT_EVENT_CALLBACK_EX
 title: NDK_FN_DISCONNECT_EVENT_CALLBACK_EX
 ms.date: 12/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NdkDisconnectEventCallbackEx (NDK_FN_DISCONNECT_EVENT_CALLBACK_EX) function is called by the NDK provider once when the peer disconnects.
 tech.root: netvista

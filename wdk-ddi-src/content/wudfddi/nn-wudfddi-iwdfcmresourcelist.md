@@ -51,7 +51,7 @@ This interface represents a list of hardware resources for a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFCmResourceList</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFCmResourceList</b> also has these types of members:
+The <b>IWDFCmResourceList</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFCmResourceList</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

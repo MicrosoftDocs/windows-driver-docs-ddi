@@ -60,7 +60,7 @@ Specifies whether a callback should be registered or deactivated. Use REGISTER_P
 
 Points to the notification routine for received PHY packets. The following prototype illustrates the notification routine:
 
-<pre class="syntax" xml:space="preserve"><code>void PhyPacketRoutine(
+<pre class="syntax"><code>void PhyPacketRoutine(
     __in PVOID           Context,
     __in ULONG           GenerationCount,
     __in ULARGE_INTEGER  PhyPacket

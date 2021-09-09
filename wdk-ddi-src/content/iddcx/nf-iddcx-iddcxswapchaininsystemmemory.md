@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxSwapChainInSystemMemory
 title: IddCxSwapChainInSystemMemory
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IddCxSwapChainInSystemMemory checks whether buffers for a swapchain are resident in system memory.
 req.assembly: 

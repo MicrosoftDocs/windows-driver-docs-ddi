@@ -3,9 +3,8 @@ UID: NS:ntddk._WHEA_REPORT_HW_ERROR_DEVICE_DRIVER_FLAGS
 title: WHEA_REPORT_HW_ERROR_DEVICE_DRIVER_FLAGS
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WHEA_REPORT_HW_ERROR_DEVICE_DRIVER_FLAGS"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

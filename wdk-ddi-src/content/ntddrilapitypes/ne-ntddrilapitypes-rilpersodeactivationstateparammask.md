@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILPERSODEACTIVATIONSTATEPARAMMASK
 title: RILPERSODEACTIVATIONSTATEPARAMMASK (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves this enumeration for internal use only. Don't use the RILPERSODEACTIVATIONSTATEPARAMMASK enumeration in your code."
 old-location: netvista\rilpersodeactivationstateparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

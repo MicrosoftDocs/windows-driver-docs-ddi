@@ -3,7 +3,6 @@ UID: NF:netadapter.NetReceiveFilterGetMulticastAddressList
 tech.root: netvista
 title: NetReceiveFilterGetMulticastAddressList
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NetReceiveFilterGetMulticastAddressList retrieves the list of addresses that can receive multicast packets.
 req.assembly: 
@@ -19,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

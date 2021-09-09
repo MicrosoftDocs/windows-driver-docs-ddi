@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_QUERY_SERVICE_CALLBACKS
 title: EVT_TR_QUERY_SERVICE_CALLBACKS (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_QUERY_SERVICE_CALLBACKS callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_QUERY_SERVICE_CALLBACKS callback function"]
 req.header: trustedruntimeclx.h

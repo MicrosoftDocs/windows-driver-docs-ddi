@@ -98,7 +98,7 @@ A driver that calls <b>WdfDeviceMapIoSpace</b> must set the <b>UmdfDirectHardwar
 
 For more information about parsing hardware resources starting in UMDF version 2, see <a href="/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Hardware Resources in a UMDF Driver</a>.
 
-The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax" xml:space="preserve"><code>typedef LARGE_INTEGER PHYSICAL_ADDRESS;</code></pre>
+The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax"><code>typedef LARGE_INTEGER PHYSICAL_ADDRESS;</code></pre>
 
 
 For an example that shows how a driver finds and maps memory-mapped register resources, see <a href="/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers">Reading and Writing to Device Registers</a>.

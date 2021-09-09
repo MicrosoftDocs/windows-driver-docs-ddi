@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetOffset
 title: IDebugBreakpoint::GetOffset (dbgeng.h)
-description: The GetOffset method returns the location that triggers a breakpoint.
+description: The GetOffset method returns the location that triggers a breakpoint. This method belongs to the IDebugBreakpoint interface.
 old-location: debugger\getoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -3,7 +3,6 @@ UID: NF:netadapter.NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT
 tech.root: netvista
 title: NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT
 ms.date: 04/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT initializes a NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES structure. 
 req.assembly: 
@@ -19,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

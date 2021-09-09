@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDICB_UNPIN_RESOURCES_0076
 title: D3D12DDICB_UNPIN_RESOURCES_0076
 ms.date: 03/24/2020
-ms.topic: language-reference
 tech.root: display
 targetos: Windows
 description: Argument structure for PFND3D12DDI_UNPINRESOURCES_CB_0076 that provides the list of resources to unpin.

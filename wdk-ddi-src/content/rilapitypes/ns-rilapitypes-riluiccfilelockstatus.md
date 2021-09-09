@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILUICCFILELOCKSTATUS
 title: RILUICCFILELOCKSTATUS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILUICCFILELOCKSTATUS structure for internal use only. Don't use this structure in your code."
 old-location: netvista\riluiccfilelockstatus_2.htm
 tech.root: netvista
 ms.date: 02/26/2018

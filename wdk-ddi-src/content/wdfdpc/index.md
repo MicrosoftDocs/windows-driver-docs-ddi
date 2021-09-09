@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfdpc.h header"
 UID: NA:wdfdpc
 title: Wdfdpc.h header
 ms.assetid: e2e9ce8e-b03b-3a8f-8754-1634cc244cf0

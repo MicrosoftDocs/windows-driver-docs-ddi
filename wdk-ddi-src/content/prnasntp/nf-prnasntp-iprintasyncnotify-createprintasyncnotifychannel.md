@@ -1,14 +1,13 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
 title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel (prnasntp.h)
-description: 
-old-location: print\iprintasyncnotify_createprintasyncnotifychannel.htm
+description: Defines the IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyChannel"]
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,35 +41,42 @@ api_name:
 
 # IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 
-
 ## -description
+
+Defines the **IPrintAsyncNotify::CreatePrintAsyncNotifyChannel** method.
 
 ## -parameters
 
 ## -param
 
-#### - filter [in]
+#### - filter 
 
+[in]
 
-#### - pCallback [in]
+#### - pCallback
 
+[in]
 
-#### - pType [in]
+#### - pType
 
+[in]
 
-#### - ppChannel [out]
+#### - ppChannel
 
+[out]
 
-#### - style [in]
+#### - style
 
+[in]
 
-#### - uL [in]
+#### - uL
+
+[in]
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotify">IPrintAsyncNotify</a>
-
+[IPrintAsyncNotify](./nn-prnasntp-iprintasyncnotify.md)

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_ERROR_CLEARED_EVENT
 title: WHEAP_ERROR_CLEARED_EVENT
-description: 
+description: "Learn more about: WHEAP_ERROR_CLEARED_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_ERROR_CLEARED_EVENT structure"]

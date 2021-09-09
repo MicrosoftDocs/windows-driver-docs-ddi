@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_USHORT
 title: WRITE_REGISTER_USHORT function (miniport.h)
-description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
+description: The WRITE_REGISTER_USHORT function (miniport.h) writes a USHORT value to the specified register address in resident, mapped device memory.
 old-location: kernel\write_register_ushort.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IComparableConcept
 title: IComparableConcept (dbgmodel.h)
-description: Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
+description: The IComparableConcept interface compares this object to another object of arbitrary type. E_NOT_SET is returned if the comparison cannot be performed.
 ms.date: 07/13/2018
 keywords: ["IComparableConcept interface"]
 req.header: dbgmodel.h

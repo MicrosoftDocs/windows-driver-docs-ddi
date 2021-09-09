@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.WriteVirtual
 title: IDebugDataSpaces2::WriteVirtual (dbgeng.h)
-description: The WriteVirtual method writes data to the target's virtual address space.
+description: The WriteVirtual method writes data to the target's virtual address space. This method belongs to the IDebugDataSpaces2 interface.
 old-location: debugger\writevirtual.htm
 tech.root: debugger
 ms.date: 05/03/2018

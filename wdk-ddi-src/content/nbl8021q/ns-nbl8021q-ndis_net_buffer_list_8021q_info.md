@@ -2,7 +2,6 @@
 UID: NS:nbl8021q._NDIS_NET_BUFFER_LIST_8021Q_INFO
 title: NDIS_NET_BUFFER_LIST_8021Q_INFO
 ms.date: 11/30/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NDIS_NET_BUFFER_LIST_8021Q_INFO structure specifies 802.1Q information that is associated with a NET_BUFFER_LIST structure.
 tech.root: netvista

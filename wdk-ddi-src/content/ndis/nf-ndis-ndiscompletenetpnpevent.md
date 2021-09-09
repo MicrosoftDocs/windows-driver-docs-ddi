@@ -65,7 +65,7 @@ The handle that NDIS provided at the
 ### -param NetPnPEventNotification
 
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
      NET_PNP_EVENT_NOTIFICATION</a> structure that NDIS passed to the caller's 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">
      ProtocolNetPnPEvent</a> function.
@@ -89,7 +89,7 @@ When a protocol driver returns NDIS_STATUS_PENDING from its
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 

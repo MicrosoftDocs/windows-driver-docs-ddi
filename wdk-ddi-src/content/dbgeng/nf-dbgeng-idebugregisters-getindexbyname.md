@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetIndexByName
 title: IDebugRegisters::GetIndexByName (dbgeng.h)
-description: The GetIndexByName method returns the index of the named register.
+description: The GetIndexByName method returns the index of the named register. This method belongs to the IDebugRegisters interface.
 old-location: debugger\getindexbyname.htm
 tech.root: debugger
 ms.date: 05/03/2018

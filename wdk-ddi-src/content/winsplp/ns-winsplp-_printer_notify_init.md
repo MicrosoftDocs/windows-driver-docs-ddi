@@ -1,7 +1,7 @@
 ---
 UID: NS:winsplp._PRINTER_NOTIFY_INIT
 title: _PRINTER_NOTIFY_INIT (winsplp.h)
-description: 
+description: "Learn more about: _PRINTER_NOTIFY_INIT structure"
 old-location: print\printer_notify_init.htm
 tech.root: print
 ms.date: 04/20/2018

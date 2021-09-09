@@ -1,13 +1,12 @@
 ---
 UID: NF:ntddk.RtlNormalizeSecurityDescriptor
 title: RtlNormalizeSecurityDescriptor function
-description: TBD
+description: Examines a security descriptor for ways to modify its layout.
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlNormalizeSecurityDescriptor
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -41,7 +40,6 @@ f1_keywords:
 
 # RtlNormalizeSecurityDescriptor function
 
-
 ## -description
 
 This routine examines a security descriptor for ways to modify its layout, with the goal that any two equivalent security descriptors should be able to be single instanced in $SDS as often as possible, and a secondary goal that the stored security descriptor should be as small as possible.
@@ -58,7 +56,7 @@ Length in bytes of the security descriptor to normalize.
 
 ### -param NewSecurityDescriptor
 
-If present and points to NULL, receives a pointer to a newly allocated security descriptor from paged pool if modications were made, instead of updating **SecurityDescriptor**.
+If present and points to NULL, receives a pointer to a newly allocated security descriptor from paged pool if modifications were made, instead of updating **SecurityDescriptor**.
 
 If present and points to non-NULL, a modified security descriptor is instead constructed directly in the buffer (assumed to be at least of length **SecurityDescriptorLength**) provided by the caller.
 
@@ -80,11 +78,14 @@ If this routine makes any modifications, it returns the modified security descri
 
 The transformations currently supported are:
 
-* Arrange the sections in the order Sacl => Dacl => Owner => Group.
-* Eliminate unnecessary padding (beyond simple alignment) between sections.
-* Zero any alignment bytes between sections.
-* Eliminate any Sacl that contains no ACEs.
-* Eliminate duplicate ALLOW ACEs in the Sacl and Dacl.
+- Arrange the sections in the order Sacl => Dacl => Owner => Group.
+
+- Eliminate unnecessary padding (beyond simple alignment) between sections.
+
+- Zero any alignment bytes between sections.
+
+- Eliminate any Sacl that contains no ACEs.
+
+- Eliminate duplicate ALLOW ACEs in the Sacl and Dacl.
 
 ## -see-also
-

@@ -51,7 +51,7 @@ The <b>IPnpCallback</b> interface is a Plug and Play (PnP) and power management 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallback</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPnpCallback</b> also has these types of members:
+The <b>IPnpCallback</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPnpCallback</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>

@@ -3,9 +3,9 @@ UID: NS:ufs.__unnamed_struct_15
 tech.root: storage
 title: UFS_HPB_CONFIG_DESCRIPTOR
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: UFS_HPB_CONFIG_DESCRIPTOR is reserved for system use.
+prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -40,9 +40,6 @@ dev_langs:
 ---
 
 ## -description
-
-> [!NOTE]
-> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 Reserved for system use. Do not use.
 

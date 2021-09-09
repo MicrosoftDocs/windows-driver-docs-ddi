@@ -54,7 +54,7 @@ The <b>ZwQueryVirtualMemory</b> routine determines the state,
 ### -param ProcessHandle 
 
 [in]
-A handle for the process in whose context the pages to be queried reside. Use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentProcess</a> macro to specify the current process.
+A handle for the process in whose context the pages to be queried reside. Use the [ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process.
 
 ### -param BaseAddress 
 

@@ -3,7 +3,6 @@ UID: NE:wwan._WWAN_LADN_IND_REQUEST
 tech.root: netvista
 title: WWAN_LADN_IND_REQUEST
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WWAN_LADN_IND_REQUEST enumeration lists Local Area Data Networks (LADN) information requests.
 req.construct-type: enumeration

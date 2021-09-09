@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient5.DetachProcesses
 title: IDebugClient5::DetachProcesses (dbgeng.h)
-description: The DetachProcesses method detaches the debugger engine from all processes in all targets, resuming all their threads.
+description: The IDebugClient5::DetachProcesses method detaches the debugger engine from all processes in all targets, resuming all their threads.
 old-location: debugger\detachprocesses.htm
 tech.root: debugger
 ms.date: 05/03/2018

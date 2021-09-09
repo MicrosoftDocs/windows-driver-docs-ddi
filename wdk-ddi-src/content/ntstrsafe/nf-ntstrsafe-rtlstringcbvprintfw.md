@@ -1,7 +1,7 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbVPrintfW
 title: RtlStringCbVPrintfW function (ntstrsafe.h)
-description: The RtlStringCbVPrintfW and RtlStringCbVPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
+description: Learn how the RtlStringCbVPrintfW and RtlStringCbVPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbvprintf.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwReadOnlyEnlistment
 title: ZwReadOnlyEnlistment function (wdm.h)
-description: The ZwReadOnlyEnlistment routine sets a specified enlistment to be read-only.
+description: Learn how the ZwReadOnlyEnlistment routine sets a specified enlistment to be read-only.
 old-location: kernel\zwreadonlyenlistment.htm
 tech.root: kernel
 ms.date: 04/30/2018

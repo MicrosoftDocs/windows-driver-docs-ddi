@@ -1,10 +1,10 @@
 ---
 UID: NF:wdm.READ_REGISTER_BUFFER_ULONG64
 title: READ_REGISTER_BUFFER_ULONG64 function (wdm.h)
-description: The READ_REGISTER_BUFFER_ULONG64 function reads a number of ULONG64 values from the specified register address into a buffer.
+description: The READ_REGISTER_BUFFER_ULONG64 function (wdm.h)reads a number of ULONG64 values from the specified register address into a buffer.
 old-location: wdf\read_register_buffer_ulong64.htm
 tech.root: kernel
-ms.date: 09/15/2020
+ms.date: 09/07/2021
 keywords: ["READ_REGISTER_BUFFER_ULONG64 function"]
 ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function
 req.header: wdm.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The <b>READ_REGISTER_BUFFER_ULONG64</b> macro reads a number of ULONG64 values from the specified register address into a buffer.
+The **READ_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of ULONG64 values from the specified register address into a buffer
 
 ## -parameters
 
@@ -64,6 +64,10 @@ Pointer to a buffer that an array of ULONG64 values is read into.
 Specifies the number of ULONG64 values to be read into the buffer.
 
 ## -remarks
+
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
+
+For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
 
 The size of the *Buffer* buffer must be large enough to contain at least the specified number of ULONG64 values.
 

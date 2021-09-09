@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_ENUMERATE_SECURE_SERVICES
 title: EVT_TR_ENUMERATE_SECURE_SERVICES (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_ENUMERATE_SECURE_SERVICES callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_ENUMERATE_SECURE_SERVICES callback function"]
 req.header: trustedruntimeclx.h

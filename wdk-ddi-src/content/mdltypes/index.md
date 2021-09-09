@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mdltypes.h header"
 UID: NA:mdltypes
 title: Mdltypes.h header
 ms.assetid: A62810CE-785C-4C14-8F45-F1919F057F4F

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfdriver.h header"
 UID: NA:wdfdriver
 title: Wdfdriver.h header
 ms.assetid: e22b5e2d-56ae-3b19-92c1-64c1abda6e8b

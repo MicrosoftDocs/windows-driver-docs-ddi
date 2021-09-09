@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEODEVICEFUNCS
 title: D3D11_1DDI_VIDEODEVICEFUNCS (d3d10umddi.h)
-description: Specifies the video function table for the Microsoft Direct3D driver device object.
+description: The D3D11_1DDI_VIDEODEVICEFUNCS structure specifies the video function table for the Microsoft Direct3D driver device object.
 old-location: display\d3d11_1ddi_videodevicefuncs.htm
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEODEVICEFUNCS structure"]

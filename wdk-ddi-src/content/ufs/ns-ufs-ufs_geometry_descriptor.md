@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_3
+UID: NS:ufs.__unnamed_struct_5
 title: UFS_GEOMETRY_DESCRIPTOR (ufs.h)
 description: UFS_GEOMETRY_DESCRIPTOR describes a device's geometric parameters.
 old-location: storage\ufs_geometry_descriptor.htm

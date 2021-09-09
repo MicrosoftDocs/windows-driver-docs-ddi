@@ -1,7 +1,8 @@
 ---
+description: "Learn more about: Wificx.h header"
 UID: NA:wificx
 tech.root: netvista
-title: wificx
+title: wificx overview
 ms.date: 04/30/2021
 keywords: ["Wificx.h header"]
 ms.keywords: 

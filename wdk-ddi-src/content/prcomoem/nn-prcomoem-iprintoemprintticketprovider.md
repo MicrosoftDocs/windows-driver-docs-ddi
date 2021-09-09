@@ -2,13 +2,12 @@
 UID: NN:prcomoem.IPrintOemPrintTicketProvider
 title: IPrintOemPrintTicketProvider (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.
-old-location: print\iprintoemprintticketprovider_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintOemPrintTicketProvider interface"]
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices],described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
 req.header: prcomoem.h
-req.include-header: 
+req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintOemPrintTicketProvider interface
 
-
 ## -description
 
-This section describes the methods that are defined for the <b>IPrintOemPrintTicketProvider</b> COM interface.
+This section describes the methods that are defined for the **IPrintOemPrintTicketProvider** COM interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemPrintTicketProvider</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemPrintTicketProvider</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintOemPrintTicketProvider** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KBUGCHECK_REASON_CALLBACK_RECORD
 title: KBUGCHECK_REASON_CALLBACK_RECORD
-description: 
+description: "Learn more about: KBUGCHECK_REASON_CALLBACK_RECORD structure"
 tech.root: devtest
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REASON_CALLBACK_RECORD structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteMsr
 title: IDebugDataSpaces4::WriteMsr (dbgeng.h)
-description: The WriteMsr method writes a value to the specified Model-Specific Register (MSR).
+description: The WriteMsr method writes a value to the specified Model-Specific Register (MSR). This method belongs to the IDebugDataSpaces4 interface.
 old-location: debugger\writemsr2.htm
 tech.root: debugger
 ms.date: 05/03/2018

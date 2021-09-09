@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IXpsPartIterator
 title: IXpsPartIterator (filterpipeline.h)
 description: The IXpsPartIterator interface is an iterator for XPS parts.
-old-location: print\ixpspartiterator.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IXpsPartIterator interface"]
 ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices],described, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml, print.ixpspartiterator
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IXpsPartIterator interface
 
-
 ## -description
 
-The <code>IXpsPartIterator</code> interface is an iterator for XPS parts.
+The **IXpsPartIterator** interface is an iterator for XPS parts.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IXpsPartIterator</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsPartIterator</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IXpsPartIterator** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

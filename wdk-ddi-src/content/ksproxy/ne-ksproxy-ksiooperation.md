@@ -1,7 +1,7 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_7
 title: KSIOOPERATION (ksproxy.h)
-description: 
+description: "Learn more about: KSIOOPERATION enumeration"
 old-location: stream\ksiooperation.htm
 tech.root: stream
 ms.date: 04/23/2018

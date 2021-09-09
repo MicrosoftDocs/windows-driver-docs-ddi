@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.AddRef
 title: IDataModelManager2::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
+description: "The IDataModelManager2::AddRef method increments the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IDataModelManager2::AddRef"]
 ms.keywords: IDataModelManager2::AddRef, AddRef, IDataModelManager2.AddRef, IDataModelManager2::AddRef, IDataModelManager2.AddRef

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwPrepareEnlistment
 title: ZwPrepareEnlistment function (wdm.h)
-description: The ZwPrepareEnlistment routine initiates the prepare operation for a specified enlistment's transaction.
+description: Learn how the ZwPrepareEnlistment routine initiates the prepare operation for a specified enlistment's transaction.
 old-location: kernel\zwprepareenlistment.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.PoRegisterPowerSettingCallback
 title: PoRegisterPowerSettingCallback function (ntifs.h)
-description: The PoRegisterPowerSettingCallback routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
+description: The PoRegisterPowerSettingCallback routine in ntifs.h registers a power-setting callback routine to receive notifications of changes in the power setting.
 old-location: kernel\poregisterpowersettingcallback.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -54,7 +54,7 @@ Just as <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> i
 
 ### -field Method
 
-A structure of type <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> that specifies the requested method.
+A structure of type <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> that specifies the requested method.
 
 ### -field NodeId
 

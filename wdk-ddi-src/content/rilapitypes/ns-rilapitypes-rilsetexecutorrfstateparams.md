@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILSETEXECUTORRFSTATEPARAMS
 title: RILSETEXECUTORRFSTATEPARAMS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this structure in your code. Microsoft reserves the RILSETEXECUTORRFSTATEPARAMS structure for internal use only."
 old-location: netvista\rilsetexecutorrfstateparams.htm
 tech.root: netvista
 ms.date: 05/02/2018

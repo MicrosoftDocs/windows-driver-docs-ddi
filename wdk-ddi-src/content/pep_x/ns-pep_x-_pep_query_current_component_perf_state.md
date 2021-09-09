@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 title: _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE (pep_x.h)
-description: The PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set.
+description: Learn how the PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set.
 old-location: kernel\pep_query_current_component_perf_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

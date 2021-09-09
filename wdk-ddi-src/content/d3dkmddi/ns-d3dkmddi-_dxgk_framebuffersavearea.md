@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_FRAMEBUFFERSAVEAREA
-title: _DXGK_FRAMEBUFFERSAVEAREA (d3dkmddi.h)
-description: The size required by the driver to save the frame buffer reserve area during power transitions.
-ms.date: 10/19/2018
+title: DXGK_FRAMEBUFFERSAVEAREA (d3dkmddi.h)
+description: The DXGK_FRAMEBUFFERSAVEAREA structure specifies the size required by the driver to save the frame buffer reserve area during power transitions.
+ms.date: 07/22/2021
 keywords: ["DXGK_FRAMEBUFFERSAVEAREA structure"]
 ms.keywords: _DXGK_FRAMEBUFFERSAVEAREA, DXGK_FRAMEBUFFERSAVEAREA,
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -38,12 +38,11 @@ product:
  - Windows
 ---
 
-# _DXGK_FRAMEBUFFERSAVEAREA structure
-
+# DXGK_FRAMEBUFFERSAVEAREA structure
 
 ## -description
 
-The size required by the driver to save the frame buffer reserve area during power transitions.
+The **DXGK_FRAMEBUFFERSAVEAREA** structure specifies the size required by the driver to save the frame buffer reserve area during power transitions.
 
 ## -struct-fields
 
@@ -51,3 +50,12 @@ The size required by the driver to save the frame buffer reserve area during pow
 
 The maximum size required by the driver to save the frame buffer reserve area during power transitions. This value must be a multiple of PAGE_SIZE.
 
+## -remarks
+
+See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
+
+## -see-also
+
+[**DXGKDDI_QUERYADAPTERINFO**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
+
+[**DXGKQAITYPE_FRAMEBUFFERSAVESIZE**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md)

@@ -51,11 +51,11 @@ An application can use IOCTL_KS_ENABLE_EVENT to request notification of a KS eve
 
 ### -input-buffer
 
-The application places a pointer to a structure of type <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a> in the <b>InBuffer</b> parameter and the size of this structure at <b>InLength</b>.
+The application places a pointer to a structure of type <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a> in the <b>InBuffer</b> parameter and the size of this structure at <b>InLength</b>.
 
 ### -input-buffer-length
 
-Length of <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>.
+Length of <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>.
 
 ### -output-buffer
 
@@ -87,7 +87,7 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
-<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+<a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>
 
 
 

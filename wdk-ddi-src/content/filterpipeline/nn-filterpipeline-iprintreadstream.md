@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintReadStream
 title: IPrintReadStream (filterpipeline.h)
 description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
-old-location: print\iprintreadstream.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintReadStream interface"]
 ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices],described, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml, print.iprintreadstream
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintReadStream interface
 
-
 ## -description
 
-Filters use the <code>IPrintReadStream</code> interface to read data as a raw stream of bytes.
+Filters use the **IPrintReadStream** interface to read data as a raw stream of bytes.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintReadStream</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintReadStream</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintReadStream** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

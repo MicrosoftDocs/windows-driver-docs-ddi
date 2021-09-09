@@ -1,7 +1,6 @@
 ---
 UID: NF:netdevice.NetDeviceStoreResetDiagnostics
 title: NetDeviceStoreResetDiagnostics
-ms.topic: language-reference
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
@@ -21,7 +20,7 @@ req.lib:
 req.max-support:
 req.namespace:
 req.redist:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type:
 req.type-library:

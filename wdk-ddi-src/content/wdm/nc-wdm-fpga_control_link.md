@@ -1,7 +1,7 @@
 ---
 UID: NC:wdm.FPGA_CONTROL_LINK
 title: FPGA_CONTROL_LINK (wdm.h)
-description: Reserved for future use.
+description: Reserved for future use of FPGA_CONTROL_LINK.
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["FPGA_CONTROL_LINK callback function"]

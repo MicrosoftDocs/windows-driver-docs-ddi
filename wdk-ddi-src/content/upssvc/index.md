@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upssvc.h header"
 UID: NA:upssvc
 title: Upssvc.h header
 ms.assetid: 56f0ed8e-9ec7-30ec-98d5-fabcd442174f

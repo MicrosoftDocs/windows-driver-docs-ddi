@@ -165,7 +165,7 @@ See related information about the <a href="/windows-hardware/drivers/stream/usb-
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

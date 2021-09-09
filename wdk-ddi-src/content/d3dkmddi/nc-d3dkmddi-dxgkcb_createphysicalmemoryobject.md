@@ -3,7 +3,6 @@ UID: NC:d3dkmddi.DXGKCB_CREATEPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_CREATEPHYSICALMEMORYOBJECT
 ms.date: 05/13/2021
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkCbCreatePhysicalMemoryObject callback function creates physical memory for the driver.
 req.assembly: 

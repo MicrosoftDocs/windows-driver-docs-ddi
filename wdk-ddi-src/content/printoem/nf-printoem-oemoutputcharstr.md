@@ -1,7 +1,7 @@
 ---
 UID: NF:printoem.OEMOutputCharStr
 title: OEMOutputCharStr function (printoem.h)
-description: This function is obsolete.
+description: This function (OEMOutputCharStr) is obsolete.
 old-location: print\oemoutputcharstr.htm
 tech.root: print
 ms.date: 11/18/2019

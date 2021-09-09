@@ -4,7 +4,6 @@ title: FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2
 description: FsRtlCheckOplockEx2 synchronizes the IRP for a file I/O operation with the current opportunistic lock (oplock) state of the file.
 tech.root: ifsk
 ms.date: 03/24/2020
-ms.topic: method
 ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2
 req.header: ntifs.h
 req.include-header: 

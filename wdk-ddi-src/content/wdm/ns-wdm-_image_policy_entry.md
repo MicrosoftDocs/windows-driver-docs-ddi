@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._IMAGE_POLICY_ENTRY
 title: _IMAGE_POLICY_ENTRY (wdm.h)
-description: This structure is not supported.
+description: The _IMAGE_POLICY_ENTRY structure is not supported.
 old-location: kernel\_image_policy_entry.htm
 tech.root: kernel
 ms.date: 04/30/2018

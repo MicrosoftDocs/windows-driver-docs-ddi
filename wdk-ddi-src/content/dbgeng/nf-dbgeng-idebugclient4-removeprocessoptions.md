@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.RemoveProcessOptions
 title: IDebugClient4::RemoveProcessOptions (dbgeng.h)
-description: The RemoveProcessOptions method removes process options from those options that affect the current process.
+description: The RemoveProcessOptions method removes process options from those options that affect the current process. This method belongs to the IDebugClient4 interface.
 old-location: debugger\removeprocessoptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

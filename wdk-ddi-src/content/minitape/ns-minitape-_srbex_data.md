@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._SRBEX_DATA
 title: _SRBEX_DATA (minitape.h)
-description: The SRBEX_DATA structure is the generalized format for containing extended SRB data.
+description: The _SRBEX_DATA structure (minitape.h) describes the generalized format for containing extended SCSI Request Block (SRB) data.
 old-location: storage\srbex_data.htm
 tech.root: storage
 ms.date: 03/29/2018

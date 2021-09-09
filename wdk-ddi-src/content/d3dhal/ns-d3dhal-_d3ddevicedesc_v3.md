@@ -56,7 +56,7 @@ api_name:
 The D3DDEVICEDESC_V3 structure contains fields that are already reported in the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_d3dextendedcaps">D3DHAL_D3DEXTENDEDCAPS</a> structure when responding to the GUID_D3DExtendedCaps GUID in <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>.
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _D3DDeviceDesc_V3 {
+<pre class="syntax"><code>typedef struct _D3DDeviceDesc_V3 {
     DWORD             dwSize;
     DWORD             dwFlags;
     D3DCOLORMODEL     dcmColorModel; 

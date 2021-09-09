@@ -149,7 +149,7 @@ This function does not need to be called directly.  The macros <a href="/previou
 <div> </div>
 The <b>ReadField</b> and <b>ReadFieldStr</b> macros read a field whose size is less than 8 bytes from a structure initialized with <a href="/previous-versions/ff550953(v=vs.85)">InitTypeRead</a> or <a href="/previous-versions/ff550957(v=vs.85)">InitTypeReadPhysical</a>. 
 
-<pre class="syntax" xml:space="preserve"><code>#define ReadField(Field) \
+<pre class="syntax"><code>#define ReadField(Field) \
     GetShortField(0, #Field, 0)
 
 #define ReadFieldStr(FieldStr) \
@@ -179,7 +179,7 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 The <a href="/previous-versions/ff550953(v=vs.85)">InitTypeRead</a> macro initializes a structure so that its members can be read using <a href="/previous-versions/ff553539(v=vs.85)">ReadField</a>.
 
-<pre class="syntax" xml:space="preserve"><code>#define InitTypeRead(
+<pre class="syntax"><code>#define InitTypeRead(
     Addr,
     Type
 );</code></pre>
@@ -199,7 +199,7 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 The <b>InitTypeReadPhysical</b> and <b>InitTypeStrReadPhysical</b> macros initialize a structure in physical memory so that its members can be read using <a href="/previous-versions/ff553539(v=vs.85)">ReadField</a>.
 
-<pre class="syntax" xml:space="preserve"><code>#define InitTypeReadPhysical(
+<pre class="syntax"><code>#define InitTypeReadPhysical(
     Addr,
     Type,
     TypeStr
@@ -224,7 +224,7 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 The <a href="/previous-versions/ff550953(v=vs.85)">InitTypeRead</a> macro initializes a structure so that its members can be read using <a href="/previous-versions/ff553539(v=vs.85)">ReadField</a>.
 
-<pre class="syntax" xml:space="preserve"><code>#define InitTypeRead(
+<pre class="syntax"><code>#define InitTypeRead(
     Addr,
     TypeStr
 );</code></pre>

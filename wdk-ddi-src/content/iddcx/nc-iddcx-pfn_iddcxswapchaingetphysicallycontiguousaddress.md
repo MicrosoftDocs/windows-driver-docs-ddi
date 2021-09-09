@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS
 title: PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS is a pointer to an OS callback function through which to get the physical contiguous address of a swapchain.
 req.assembly: 

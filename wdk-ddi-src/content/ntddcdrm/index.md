@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddcdrm.h header"
 UID: NA:ntddcdrm
 title: Ntddcdrm.h header
 ms.assetid: 21939472-b0b4-3c10-86e6-842cb8446575

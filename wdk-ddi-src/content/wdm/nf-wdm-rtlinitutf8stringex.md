@@ -4,7 +4,6 @@ title: RtlInitUTF8StringEx function (wdm.h)
 description: The RtlInitUTF8StringEx routine initializes a counted string of UTF-8 characters.
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlInitUTF8StringEx
 req.header: wdm.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_SIGNAL_TIMEOUTS
 title: _BDA_SIGNAL_TIMEOUTS (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_SIGNAL_TIMEOUTS structure"
 old-location: stream\bda_signal_timeouts.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -92,6 +92,10 @@ A pointer to the WSK subsystem's
 
 ### -field WskSendMessages
 
+A pointer to the WSK subsystem's 
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send_messages">WskSendMessages</a> function for the
+     socket.
+
 ## -remarks
 
 The member list of the WSK_PROVIDER_DATAGRAM_DISPATCH structure includes an unnamed 

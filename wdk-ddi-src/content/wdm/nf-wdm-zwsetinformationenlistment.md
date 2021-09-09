@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwSetInformationEnlistment
 title: ZwSetInformationEnlistment function (wdm.h)
-description: The ZwSetInformationEnlistment routine sets information for a specified enlistment object.
+description: Learn how the ZwSetInformationEnlistment routine sets information for a specified enlistment object.
 old-location: kernel\zwsetinformationenlistment.htm
 tech.root: kernel
 ms.date: 04/30/2018

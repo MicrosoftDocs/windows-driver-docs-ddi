@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetInterrupt
 title: IDebugControl2::SetInterrupt (dbgeng.h)
-description: The SetInterrupt method registers a user interrupt or breaks into the debugger.
+description: Learn about the SetInterrupt method, which registers a user interrupt or breaks into the debugger.
 old-location: debugger\setinterrupt.htm
 tech.root: debugger
 ms.date: 05/03/2018

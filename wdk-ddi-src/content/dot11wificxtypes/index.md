@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dot11wificxtypes.h header"
 UID: NA:dot11wificxtypes
 tech.root: netvista
 title: dot11wificxtypes

@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_REQUESTHEADER
 title: _BDA_ISDBCAS_REQUESTHEADER (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_ISDBCAS_REQUESTHEADER structure"
 old-location: stream\bda_isdbcas_requestheader.htm
 tech.root: stream
 ms.date: 04/23/2018

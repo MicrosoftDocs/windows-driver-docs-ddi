@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.StopDebugging
 title: IDataModelScriptDebug::StopDebugging (dbgmodel.h)
-description: The StopDebugging method is called by a client that wants to stop debugging.
+description: "The IDataModelScriptDebug::StopDebugging method stops debugging activity after the StartDebugging method was successfully called."
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::StopDebugging"]
 ms.keywords: IDataModelScriptDebug::StopDebugging, StopDebugging, IDataModelScriptDebug.StopDebugging, IDataModelScriptDebug::StopDebugging, IDataModelScriptDebug.StopDebugging

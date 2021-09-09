@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.SetScope
 title: IDebugSymbols::SetScope (dbgeng.h)
-description: The SetScope method sets the current scope.
+description: The IDebugSymbols::SetScope method sets the current scope. This method belongs to the IDebugSymbols interface.
 old-location: debugger\setscope.htm
 tech.root: debugger
 ms.date: 05/03/2018
