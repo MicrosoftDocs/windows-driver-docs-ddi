@@ -1,29 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_BAND_ID
 tech.root: netvista
-<<<<<<< HEAD
 title: WDI_BAND_ID (dot11wificxtypes.h)
 ms.date: 06/22/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_BAND_ID enumeration is a UINT32 value that defines a band ID.
-=======
-title: WDI_BAND_ID
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WDI_BAND_ID enumeration for internal use only. Don't use this enumeration in your code."
->>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

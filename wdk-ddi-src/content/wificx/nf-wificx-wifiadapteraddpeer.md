@@ -1,18 +1,11 @@
 ---
 UID: NF:wificx.WifiAdapterAddPeer
 tech.root: netvista
-<<<<<<< HEAD
 title: WifiAdapterAddPeer (wificx.h)
 ms.date: 09/07/2021
 ms.topic: language-reference
 targetos: Windows
 description: Client drivers call WifiAdapterAddPeer to tell the WiFiCx framework that a peer has connected with the given address.
-=======
-title: WifiAdapterAddPeer
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WifiAdapterAddPeer function for internal use only. Don't use this function in your code."
->>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -26,11 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

@@ -1,18 +1,11 @@
 ---
 UID: NS:wificx._WIFI_WIFIDIRECT_CAPABILITIES
 tech.root: netvista
-<<<<<<< HEAD
 title: WIFI_WIFIDIRECT_CAPABILITIES (wificx.h)
 ms.date: 08/25/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_WIFIDIRECT_CAPABILITIES structure describes the Wi-Fi Direct capabilities for a WiFiCx device.
-=======
-title: WIFI_WIFIDIRECT_CAPABILITIES
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WIFI_WIFIDIRECT_CAPABILITIES structure for internal use only. Don't use this structure in your code."
->>>>>>> main
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -22,11 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_WIFIDIRECT_CAPABILITIES

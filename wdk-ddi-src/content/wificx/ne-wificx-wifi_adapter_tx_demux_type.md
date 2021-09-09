@@ -1,29 +1,18 @@
 ---
 UID: NE:wificx._WIFI_ADAPTER_TX_DEMUX_TYPE
 tech.root: netvista
-<<<<<<< HEAD
 title: WIFI_ADAPTER_TX_DEMUX_TYPE (wificx.h)
 ms.date: 08/31/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_ADAPTER_TX_DEMUX_TYPE enumeration specifies the Tx DEMUX type. 
-=======
-title: WIFI_ADAPTER_TX_DEMUX_TYPE
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_TX_DEMUX_TYPE enumeration for internal use only. Don't use this enumeration in your code."
->>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wificx.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

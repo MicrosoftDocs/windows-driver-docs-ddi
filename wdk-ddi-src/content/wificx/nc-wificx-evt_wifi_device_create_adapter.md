@@ -1,18 +1,11 @@
 ---
 UID: NC:wificx.EVT_WIFI_DEVICE_CREATE_ADAPTER
 tech.root: netvista
-<<<<<<< HEAD
 title: EVT_WIFI_DEVICE_CREATE_ADAPTER (wificx.h)
 ms.date: 08/23/2021
 ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers implement EvtWifiDeviceCreateAdapter to create a NETADAPTER object.
-=======
-title: EVT_WIFI_DEVICE_CREATE_ADAPTER
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the EVT_WIFI_DEVICE_CREATE_ADAPTER callback function for internal use only. Don't use this callback function in your code."
->>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -26,11 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

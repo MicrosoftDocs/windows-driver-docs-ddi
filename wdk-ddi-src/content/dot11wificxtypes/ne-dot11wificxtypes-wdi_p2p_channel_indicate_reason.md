@@ -1,29 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_P2P_CHANNEL_INDICATE_REASON
 tech.root: netvista
-<<<<<<< HEAD
 title: WDI_P2P_CHANNEL_INDICATE_REASON (dot11wificxtypes.h)
 ms.date: 08/04/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_CHANNEL_INDICATE_REASON enum defines Wi-Fi Direct channel indication reason values.
-=======
-title: WDI_P2P_CHANNEL_INDICATE_REASON
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WDI_P2P_CHANNEL_INDICATE_REASON enumeration for internal use only. Don't use this enumeration in your code."
->>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

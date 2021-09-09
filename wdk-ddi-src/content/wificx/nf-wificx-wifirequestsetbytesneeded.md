@@ -1,18 +1,11 @@
 ---
 UID: NF:wificx.WifiRequestSetBytesNeeded
 tech.root: netvista
-<<<<<<< HEAD
 title: WifiRequestSetBytesNeeded (wificx.h)
 ms.date: 08/24/2021
 ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers call WifiRequestSetBytesNeeded to set a larger buffer size for a command message.
-=======
-title: WifiRequestSetBytesNeeded
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WifiRequestSetBytesNeeded function for internal use only. Don't use this function in your code."
->>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -26,11 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

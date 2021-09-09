@@ -1,29 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_IHV_TASK_PRIORITY
 tech.root: netvista
-<<<<<<< HEAD
 title: WDI_IHV_TASK_PRIORITY (dot11wificxtypes.h)
 ms.date: 07/12/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_IHV_TASK_PRIORITY enum defines IHV task priorities.
-=======
-title: WDI_IHV_TASK_PRIORITY
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WDI_IHV_TASK_PRIORITY enumeration for internal use only. Don't use this enumeration in your code."
->>>>>>> main
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

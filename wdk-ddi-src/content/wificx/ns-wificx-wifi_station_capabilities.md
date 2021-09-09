@@ -1,18 +1,11 @@
 ---
 UID: NS:wificx._WIFI_STATION_CAPABILITIES
 tech.root: netvista
-<<<<<<< HEAD
 title: WIFI_STATION_CAPABILITIES (wificx.h)
 ms.date: 08/26/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_STATION_CAPABILITIES structure describes the station capabilities for a WiFiCx device.
-=======
-title: WIFI_STATION_CAPABILITIES
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WIFI_STATION_CAPABILITIES structure for internal use only. Don't use this structure in your code."
->>>>>>> main
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -22,11 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_STATION_CAPABILITIES

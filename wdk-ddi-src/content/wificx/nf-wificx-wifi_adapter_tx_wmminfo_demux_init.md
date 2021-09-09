@@ -1,18 +1,11 @@
 ---
 UID: NF:wificx.WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT
 tech.root: netvista
-<<<<<<< HEAD
 title: WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT (wificx.h)
 ms.date: 08/31/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT function initializes a WIFI_ADAPTER_TX_DEMUX structure when the Tx DEMUX type is WMMINFO.
-=======
-title: WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT function for internal use only. Don't use this function in your code."
->>>>>>> main
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -26,11 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11 
-=======
-req.target-min-winverclnt: Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 

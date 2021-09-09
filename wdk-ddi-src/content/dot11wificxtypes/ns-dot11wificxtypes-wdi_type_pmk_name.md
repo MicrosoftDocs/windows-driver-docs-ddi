@@ -1,18 +1,11 @@
 ---
 UID: NS:dot11wificxtypes._WDI_TYPE_PMK_NAME
 tech.root: netvista
-<<<<<<< HEAD
 title: WDI_TYPE_PMK_NAME (dot11wificxtypes.h)
 ms.date: 06/18/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_TYPE_PMK_NAME struct defines the PMKR0Name or PMKR1Name (802.11r).
-=======
-title: WDI_TYPE_PMK_NAME
-ms.date: 04/30/2021
-targetos: Windows
-description: "Microsoft reserves the WDI_TYPE_PMK_NAME structure for internal use only. Don't use this structure in your code."
->>>>>>> main
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -22,11 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-<<<<<<< HEAD
 req.target-min-winverclnt: Windows 11  
-=======
-req.target-min-winverclnt: Windows 11Windows 11
->>>>>>> main
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
