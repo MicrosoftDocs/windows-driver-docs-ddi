@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiAdapterAddPeer
 tech.root: netvista
-title: WifiAdapterAddPeer
-ms.date: 04/30/2021
+title: WifiAdapterAddPeer (wificx.h)
+ms.date: 09/07/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: Client drivers call WifiAdapterAddPeer to tell the WiFiCx framework that a peer has connected with the given address.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,22 +42,29 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+Client drivers call the **WifiAdapterAddPeer** function to tell the WiFiCx framework that a peer has connected with the given address. WiFiCx will associate a queue to the peer address. 
 
 ## -parameters
 
 ### -param Adapter
 
-Reserved.
+[_In_] A handle to a NetAdapterCx NETADAPTER object obtained in a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param Address
 
-Reserved.
+The peer address.
 
 ## -remarks
 
+The maximum number of peers that the driver may add shall not exceed the range value provided when adding Tx demultiplexing info.
+
+For more information see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
+
 ## -see-also
 
+[**WifiAdapterRemovePeer**](nf-wificx-wifiadapterremovepeer.md)
+
+[**WifiAdapterInitAddTxDemux**](nf-wificx-wifiadapterinitaddtxdemux.md)
+
+
+[Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues)

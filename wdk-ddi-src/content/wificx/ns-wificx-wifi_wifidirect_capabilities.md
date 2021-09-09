@@ -159,7 +159,7 @@ The number of unicast algorithms supported.
 
 ### -field UnicastAlgorithms
 
-A pointer to a list of unicast cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
+A pointer to an array of unicast cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedUnicastAlgorithms** member.
 
 ### -field NumSupportedMulticastDataAlgorithms
 
@@ -167,7 +167,7 @@ The number of multicast data cipher algorithms supported.
 
 ### -field MulticastDataAlgorithms
 
-A pointer to a list of multicast data cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
+A pointer to an array of multicast data cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedMulticastDataAlgorithms** member.
 
 ### -field NumInterfaceAddresses
 
@@ -175,7 +175,7 @@ The number of interface addresses supported.
 
 ### -field InterfaceAddressList
 
-A pointer to a list of interface addresses formatted as [**WDI_MAC_ADDRESS**](../dot11wificxintf/ns-dot11wificxintf-wdi_mac_address.md) structures.
+A pointer to an array of interface addresses formatted as [**WDI_MAC_ADDRESS**](../dot11wificxintf/ns-dot11wificxintf-wdi_mac_address.md) structures. The length of this array is specified by the **NumInterfaceAddresses** member.
 
 ## -remarks
 

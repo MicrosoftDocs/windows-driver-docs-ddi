@@ -62,3 +62,4 @@ For more information, see [Setting up multiple Tx queues](/windows-hardware/driv
 
 ## -see-also
 
+[Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues)

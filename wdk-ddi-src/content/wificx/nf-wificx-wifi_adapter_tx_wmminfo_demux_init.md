@@ -5,7 +5,7 @@ title: WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT (wificx.h)
 ms.date: 08/31/2021
 ms.topic: language-reference
 targetos: Windows
-description: The WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT function initializes a WIFI_ADAPTER_TX_DEMUX structure.
+description: The WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT function initializes a WIFI_ADAPTER_TX_DEMUX structure when the Tx DEMUX type is WMMINFO.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT** function initializes a [**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md) structure.
+The **WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT** function initializes a [**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md) structure when the Tx DEMUX type is WMMINFO.
 
 ## -parameters
 

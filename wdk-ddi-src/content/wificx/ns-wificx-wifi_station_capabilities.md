@@ -127,7 +127,7 @@ The number of unicast algorithms supported.
 
 ### -field UnicastAlgorithmsList
 
-A pointer to a list of unicast cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
+A pointer to an array of unicast cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedUnicastAlgorithms** member.
 
 ### -field NumSupportedMulticastDataAlgorithms
 
@@ -135,7 +135,7 @@ The number of multicast data cipher algorithms supported.
 
 ### -field MulticastDataAlgorithmsList
 
-A pointer to a list of multicast data cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
+A pointer to an array of multicast data cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedMulticastDataAlgorithms** member.
 
 ### -field NumSupportedMulticastMgmtAlgorithms
 
@@ -143,7 +143,15 @@ The number of multicast management algorithms supported.
 
 ### -field MulticastMgmtAlgorithmsList
 
-A pointer to a list of multicast management algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures.
+A pointer to an array of multicast management algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedMulticastMgmtAlgorithms** member.
+
+### -field NumSecondaryStaBandCombinations
+
+The number of secondary STA band combinations. If this value is **0**, then the Secondary STA capability will not be set.
+
+### -field SecondaryStaBandsCombinations
+
+A pointer to an array of [**WIFI_STA_BANDS_COMBINATION**](ns-wificx-wifi_sta_bands_combination.md) structures. If this value is **NULL**, then the Secondary STA capability will not be set.
 
 ## -remarks
 

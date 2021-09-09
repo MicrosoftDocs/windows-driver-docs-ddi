@@ -43,10 +43,12 @@ The **WIFI_ADAPTER_TX_DEMUX_TYPE** enumeration specifies the Tx DEMUX type.
 
 ### -field WifiAdapterTxDemuxTypePeerAddress:2
 
+The type is PEER_ADDRESS.
+
 
 ### -field WifiAdapterTxDemuxTypeWmmInfo:3
 
-
+The type is WWMINFO.
 
 ## -remarks
 
@@ -55,3 +57,4 @@ For more information, see [Setting up multiple Tx queues](/windows-hardware/driv
 
 ## -see-also
 
+[**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md)

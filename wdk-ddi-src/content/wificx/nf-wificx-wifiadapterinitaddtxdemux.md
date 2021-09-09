@@ -56,7 +56,9 @@ The **WifiAdapterInitAddTxDemux** function adds DEMUX properties for multiple Tx
 
 ## -remarks
 
-For more information, see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
+Before using a NETADAPTER_INIT object to create a NETADAPTER, client drivers add Tx DEMUX properties to the adapter.
+
+For code examples see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
 
 ## -see-also
 

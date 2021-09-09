@@ -1,11 +1,11 @@
 ---
 UID: NF:wificx.WifiTxQueueGetDemuxPeerAddress
 tech.root: netvista
-title: WifiTxQueueGetDemuxPeerAddress
-ms.date: 04/30/2021
+title: WifiTxQueueGetDemuxPeerAddress (wificx.h)
+ms.date: 09/08/2021
 ms.topic: language-reference
 targetos: Windows
-description: This function is reserved for system use and should not be called in your code.
+description: The WifiTxQueueGetDemuxPeerAddress function gets the peer address that the WiFiCx framework will use for this queue.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,7 +13,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,20 +42,25 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiTxQueueGetDemuxPeerAddress** function gets the peer address that the WiFiCx framework will use for this queue.
 
 ## -parameters
 
 ### -param Queue
 
-Reserved.
+[_In_] A handle to this packet queue.
 
 ## -returns
 
+Returns the peer address.
+
 ## -remarks
 
+The client driver should query the peer address from [*EvtPacketQueueStart*](/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_start).
+
+For more information, see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
+
 ## -see-also
+
+[Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues)
 
