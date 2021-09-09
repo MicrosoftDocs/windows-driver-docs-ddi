@@ -4,7 +4,7 @@ title: READ_REGISTER_ULONG function (wdm.h)
 description: The READ_REGISTER_ULONG function (wdm.h) returns a ULONG value read from the specified register address in resident, mapped device memory.
 old-location: kernel\read_register_ulong.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/07/2021
 keywords: ["READ_REGISTER_ULONG function"]
 ms.keywords: READ_REGISTER_ULONG, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, kernel.read_register_ulong, wdm/READ_REGISTER_ULONG
 req.header: wdm.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>READ_REGISTER_ULONG</b> routine reads a ULONG value from the specified register address.
+The **READ_REGISTER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and reads a ULONG value from the specified register address.
 
 ## -parameters
 
@@ -58,6 +58,10 @@ Pointer to the register address, which must be a mapped range in memory space.
 <b>READ_REGISTER_ULONG</b> returns the ULONG value read from the specified register address.
 
 ## -remarks
+
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
+
+For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
 
 Callers of <b>READ_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
 
