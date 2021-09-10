@@ -47,7 +47,7 @@ The *MiniportWdiAdapterHangDiagnose* handler function is used to collect hardwar
 
 This is a WDI miniport handler inside [**NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS**](ns-dot11wificxintf-ndis_miniport_driver_wdi_characteristics.md).
 
->[!NOTE] You must declare the function by using the **MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE** type.
+> [!NOTE] You must declare the function by using the **MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE** type.
 
 ## -parameters
 

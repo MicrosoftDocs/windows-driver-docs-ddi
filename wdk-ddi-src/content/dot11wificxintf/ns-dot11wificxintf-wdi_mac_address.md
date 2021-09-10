@@ -5,7 +5,7 @@ title: WDI_MAC_ADDRESS (dot11wificxintf.h)
 ms.date: 06/17/2021
 ms.topic: language-reference
 targetos: Windows
-description: The WDI_MAC_ADDRESS structure defines an IEEE media access control (MAC) address.
+description: The WDI_MAC_ADDRESS struct defines an IEEE media access control (MAC) address.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

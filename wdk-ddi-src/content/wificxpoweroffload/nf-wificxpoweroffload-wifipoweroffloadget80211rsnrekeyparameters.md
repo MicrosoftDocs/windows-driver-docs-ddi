@@ -4,7 +4,7 @@ tech.root: netvista
 title: WifiPowerOffloadGet80211RSNRekeyParameters
 ms.date: 04/30/2021
 targetos: Windows
-description: "Microsoft reserves the WifiPowerOffloadGet80211RSNRekeyParameters function for internal use only. Don't use this function in your code."
+description: The WifiPowerOffloadGet80211RSNRekeyParameters function gets parameters for an 802.11 RSN rekey low power protocol offload to a Wi-Fi adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,7 +12,7 @@ req.dll:
 req.header: wificxpoweroffload.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -41,22 +41,26 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiPowerOffloadGet80211RSNRekeyParameters** function gets parameters for an 802.11 RSN rekey low power protocol offload to a Wi-Fi adapter.
 
 ## -parameters
 
 ### -param WifiPowerOffload
 
-Reserved.
+The WIFIPOWEROFFLOAD object that represents this protocol offload.
 
 ### -param Parameters
 
-Reserved.
+A pointer to a driver-allocated and initialized [**WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_80211rsnrekey_parameters.md) structure that receives the ARP parameter information.
 
 ## -remarks
 
+Call [**WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS_INIT**](nf-wificxpoweroffload-wifi_power_offload_80211rsnrekey_parameters_init.md) to initialize the [**WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_80211rsnrekey_parameters.md) structure before calling this function.
+
+The client driver must only call **NetPowerOffloadGetArpParameters** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
+
 ## -see-also
 
+[**WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_80211rsnrekey_parameters.md)
+
+[**WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS_INIT**](nf-wificxpoweroffload-wifi_power_offload_80211rsnrekey_parameters_init.md)

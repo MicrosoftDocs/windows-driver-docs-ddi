@@ -5,7 +5,7 @@ title: WDI_TYPE_NONCE (dot11wificxtypes.h)
 ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: The WDI_TYPE_NONCE structure defines the SNonce or ANonce (802.11r).
+description: The WDI_TYPE_NONCE struct defines the SNonce or ANonce (802.11r).
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -5,7 +5,7 @@ title: WDI_P2P_LISTEN_STATE (dot11wificxtypes.h)
 ms.date: 07/22/2021
 ms.topic: language-reference
 targetos: Windows
-description: The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
+description: The WDI_P2P_LISTEN_STATE enum defines the Wi-Fi Direct listen states.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h

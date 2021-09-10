@@ -66,4 +66,4 @@ Client drivers pass **WIFI_BAND_CAPABILITIES** as a parameter to [**WifiDeviceSe
 
 [**WIFI_BAND_INFO**](ns-wificx-wifi_band_info.md)
 
-[**WifiDeviceSetBandCapabilities**](nf-wificx-wifidevicesetbandcapabilities.md.md)
+[**WifiDeviceSetBandCapabilities**](nf-wificx-wifidevicesetbandcapabilities.md)

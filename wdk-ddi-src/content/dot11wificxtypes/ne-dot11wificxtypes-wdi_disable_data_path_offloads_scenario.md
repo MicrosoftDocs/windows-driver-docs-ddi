@@ -4,7 +4,7 @@ tech.root: netvista
 title: WDI_DISABLE_DATA_PATH_OFFLOADS_SCENARIO (dot11wificxtypes.h)
 ms.date: 06/30/2021
 targetos: Windows
-description: 
+description: The WDI_DISABLE_DATA_PATH_OFFLOADS_SCENARIO enumeration is used to instruct the OS to disable datapath offloads for this connection only.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -36,6 +36,8 @@ dev_langs:
 ---
 
 ## -description
+
+The **WDI_DISABLE_DATA_PATH_OFFLOADS_SCENARIO** enumeration is used to instruct the OS to disable datapath offloads for this connection only.
 
 ## -enum-fields
 

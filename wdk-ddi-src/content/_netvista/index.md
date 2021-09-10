@@ -216,6 +216,23 @@ Header files that support MBBCx include the following:
 
 - [Mbbcx.h](../mbbcx/index.md)
 
+## WiFiCx
+
+Starting in Windows 11, the Windows Driver Kit (WDK) includes a Wi-Fi WDF class extension (WiFiCx) that enables you to write a KMDF-based Wi-Fi client driver for Wi-Fi devices. The client driver interacts with WiFiCx for Wi-Fi media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
+
+For more info about WiFiCx, see [Introduction to the Wi-Fi WDF class extension (WiFiCx)](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx).
+
+Header files that support WiFiCx include the following:
+
+- [Dot11wificxintf.h](../dot11wificxintf/index.md)
+- [Dot11wificxtypes.h](../dot11wificxtypes/index.md)
+- [Wificx.h](../wificx/index.md)
+- [Wificxpoweroffload.h](../wificxpoweroffload/index.md)
+- [Wificxpoweroffloadlist.h](../wificxpoweroffloadlist/index.md)
+- [Wificxtypes.h](../wificxtypes/index.md)
+- [Wificxwakesource.h](../wificxwakesource/index.md)
+- [Wificxwakesourcelist.h](../wificxwakesourcelist/index.md)
+
 ## Network Module Registrar
 
 The Network Module Registrar (NMR) is an operating system module that facilitates the attachment of network modules to each other.

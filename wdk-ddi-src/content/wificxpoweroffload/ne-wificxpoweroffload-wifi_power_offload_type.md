@@ -1,10 +1,10 @@
 ---
 UID: NE:wificxpoweroffload._WIFI_POWER_OFFLOAD_TYPE
 tech.root: netvista
-title: WIFI_POWER_OFFLOAD_TYPE
-ms.date: 04/30/2021
+title: WIFI_POWER_OFFLOAD_TYPE (wificxpoweroffload.h)
+ms.date: 09/10/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_POWER_OFFLOAD_TYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: The WIFI_POWER_OFFLOAD_TYPE enumeration specifies the type for a low power offload protocol offload to a Wi-Fi adapter.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wificxpoweroffload.h
@@ -36,18 +36,18 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_POWER_OFFLOAD_TYPE** enumeration specifies the type for a low power offload protocol offload to a Wi-Fi adapter.
 
 ## -enum-fields
 
 ### -field WifiPowerOffloadType80211RsnRekey
 
-Reserved.
+The power offload is the 802.11 RSN rekey protocol.
 
 ## -remarks
 
+Call [**WifiPowerOffloadGetType**](nf-wificxpoweroffload-wifipoweroffloadgettype.md) to get the type for a low power protocol offload to a Wi-Fi adapter.
+
 ## -see-also
 
+[**WifiPowerOffloadGetType**](nf-wificxpoweroffload-wifipoweroffloadgettype.md)
