@@ -4,7 +4,7 @@ title: FsRtlProcessFileLock function (ntifs.h)
 description: The FsRtlProcessFileLock routine processes and completes an IRP for a file lock operation.
 old-location: ifsk\fsrtlprocessfilelock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/10/2021
 keywords: ["FsRtlProcessFileLock function"]
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 req.header: ntifs.h
@@ -45,56 +45,46 @@ dev_langs:
 
 # FsRtlProcessFileLock function
 
-
 ## -description
 
-The <b>FsRtlProcessFileLock</b> routine processes and completes an IRP for a file lock operation.
+The **FsRtlProcessFileLock** routine processes and completes an IRP for a file lock operation.
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock
 
-[in]
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
+[in] Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
-### -param Irp 
+### -param Irp
 
-[in]
-Pointer to the IRP. Must be an IRP for a file-lock operation.
+[in] Pointer to the IRP. Must be an IRP for a file-lock operation.
 
-### -param Context 
+### -param Context
 
-[in, optional]
-Optional context pointer to be used when completing IRPs.
+[in, optional] Optional context pointer to be used when completing IRPs.
 
 ## -returns
 
-<b>FsRtlProcessFileLock</b> returns STATUS_SUCCESS or an error status code. Error status codes include the following:
+**FsRtlProcessFileLock** returns STATUS_SUCCESS on success; otherwise it returns an appropriate error status code.
 
 ## -remarks
 
-<b>FsRtlProcessFileLock</b> performs the specified lock operation on behalf of the process associated with thread that originally requested the operation. 
+**FsRtlProcessFileLock** performs the specified lock operation on behalf of the process associated with thread that originally requested the operation.
 
-On Microsoft Windows XP and later, this is the process to which the thread is currently attached. 
+On Microsoft Windows XP and later, this is the process to which the thread is currently attached.
 
-On Microsoft Windows 2000 and earlier, it is the process that created the thread. 
+On Microsoft Windows 2000 and earlier, it is the process that created the thread.
 
-Callers of <b>FsRtlProcessFileLock</b> relinquish control of the input IRP.
+Callers of **FsRtlProcessFileLock** relinquish control of the input IRP.
 
-Minifilters must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a> instead of <b>FsRtlProcessFileLock</b>.
+Minifilters must call [**FltProcessFileLock**](../fltkernel/nf-fltkernel-fltprocessfilelock.md) instead of **FsRtlProcessFileLock**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>
+[**FltProcessFileLock**](../fltkernel/nf-fltkernel-fltprocessfilelock.md)
 
+[**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 
+[**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a>
+[**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
