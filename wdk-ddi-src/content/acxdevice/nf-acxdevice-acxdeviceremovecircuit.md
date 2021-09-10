@@ -62,8 +62,12 @@ The audio circuit to remove from the WDFDEVICE specified by the *Device* paramet
 
 Use [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md) to add an audio circuit to a **WDFDEVICE**.
 
+This function can only be called from the WDF realease hardware callback (please add a ref here) of this device.
+
 ## -see-also
 
 [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
 
 [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+
+READY2GO

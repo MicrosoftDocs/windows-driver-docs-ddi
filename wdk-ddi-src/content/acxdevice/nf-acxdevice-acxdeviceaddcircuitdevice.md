@@ -60,8 +60,14 @@ A **WDFDEVICE** representing the circuit device to add to the parent device.
 
 ## -remarks
 
+Audio drivers use this function to enumerate a new audio endpoint. 
+
+This function can be called at any time during the driver's life cycle. PnP takes care to serialize the enumeration of the device (and thus, the associated circuits) in relation to other PnP activities on the parent and siblings devices.
+
 ## -see-also
 
 [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
 
 [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+
+READY2GO

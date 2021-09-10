@@ -60,9 +60,13 @@ Reserved.
 
 A [WDF_SYNCHRONIZATION_SCOPE](../wdfobject/ne-wdfobject-_wdf_synchronization_scope.md) value specifying how the framework will synchronize execution of an object's event callback functions.
 
+Internal only. Do not change the default value.
+
 ### -field ExecutionLevel
 
 A [WDF_EXECUTION_LEVEL](../wdfobject/ne-wdfobject-_wdf_execution_level.md) value specifying the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object.
+
+Internal only. Do not change the default value.
 
 ### -field Context
 
@@ -78,6 +82,4 @@ Instances of this structure must be initialized by calling the [ACX_DEVICEINIT_C
 
 [AcxDeviceInitInitialize](nf-acxdevice-acxdeviceinitinitialize.md)
 
-[WDF_EXECUTION_LEVEL](../wdfobject/ne-wdfobject-_wdf_execution_level.md)
-
-[WDF_SYNCHRONIZATION_SCOPE](../wdfobject/ne-wdfobject-_wdf_synchronization_scope.md)
+READY2GO

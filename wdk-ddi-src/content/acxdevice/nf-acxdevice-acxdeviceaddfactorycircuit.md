@@ -64,10 +64,14 @@ An ACX driver may create one or more circuits in the following scenarios:
 
 - At initialization time
 - At run time as side effect of an external event such as detecting a new audio component
-- Because it registered itself with ACX as circuit manager or factory. The ACX framework uses the registered factory to ask the driver to create a new circuit.
+- Because it registered itself with ACX as circuit factory. The ACX framework uses the registered factory to ask the driver to create a new circuit.
 
 Use [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md) to remove a factory circuit from a **WDFDEVICE**.
+
+This function can only be called from the WDF prepare hardware callback (please add a ref here) of this device.
 
 ## -see-also
 
 [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md)
+
+READY2GO

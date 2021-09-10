@@ -58,6 +58,10 @@ The audio circuit to remove from the **WDFDEVICE** specified by the *Device* par
 
 **AcxDeviceDetachCircuit** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
 
+This function can only be called from the WDF release hardware callback (please add ref here) of this device.
+
+AcxDeviceDetachCircuit detaches the circuit from the device. Caller is responsable for deleting the **ACXCIRCUIT** object. 
+
 ## -remarks
 
 ## -see-also
@@ -65,3 +69,5 @@ The audio circuit to remove from the **WDFDEVICE** specified by the *Device* par
 [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 
 [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+
+READY2GO

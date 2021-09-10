@@ -75,3 +75,5 @@ Audio drivers know when to go in [D3Hot](/windows-hardware/drivers/kernel/device
 [System Power Actions](/windows-hardware/drivers/kernel/system-power-actions)
 
 [Power states](/windows-hardware/drivers/nfc/power-states)
+
+READY2GO

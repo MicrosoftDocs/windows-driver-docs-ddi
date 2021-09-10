@@ -64,3 +64,5 @@ A device has different power states. The D0 power state is when the device is up
 [System Power States](/windows-hardware/drivers/kernel/system-power-states)
 
 [PC_EXIT_LATENCY](../portcls/ne-portcls-_pc_exit_latency.md)
+
+READY2GO

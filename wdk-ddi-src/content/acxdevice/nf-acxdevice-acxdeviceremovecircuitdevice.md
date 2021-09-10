@@ -60,6 +60,12 @@ The **WDFDEVICE** representing the circuit device to remove from the parent devi
 
 ## -remarks
 
+Audio drivers use this function to remove an existing audio endpoint. 
+
+This function can be called at any time during the driver's life cycle. PnP takes care to serialize the removal of the device (and thus, the associated circuits) in relation to other PnP activities on the parent and siblings devices.
+
 ## -see-also
 
 [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
+
+READY2GO

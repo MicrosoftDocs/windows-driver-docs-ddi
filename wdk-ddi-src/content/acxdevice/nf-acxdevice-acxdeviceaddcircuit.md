@@ -62,6 +62,8 @@ The circuit to add to the *Device*.
 
 The audio circuit is the core building block of ACX. An audio driver creates one or more ACX circuit objects to represent a partial or complete audio data and control path. ACX assembles these ACX circuit objects together to create a complete audio path which represents an audio endpoint.
 
+This function can only be called from the WDF prepare hardware callback (please add a ref here) of this device.
+
 ## -see-also
 
 [AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)
@@ -69,3 +71,5 @@ The audio circuit is the core building block of ACX. An audio driver creates one
 [AcxDeviceDetachCircuit](nf-acxdevice-acxdevicedetachcircuit.md)
 
 [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
+
+READY2GO

@@ -65,3 +65,5 @@ Pointer to an [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md) structure t
 [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
 
 [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
+
+READY2GO

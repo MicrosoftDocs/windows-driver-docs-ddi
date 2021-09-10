@@ -62,6 +62,8 @@ The ACX factory circuit to remove from the **WDFDEVICE** specified by the *Devic
 
 Use [AcxDeviceAddFactoryCircuit](nf-acxdevice-acxdeviceaddfactorycircuit.md) to add a factory circuit to a **WDFDEVICE**.
 
+This function can only be called from the WDF release hardware callback (please add a ref here) of this device.
+
 ## -see-also
 
 [AcxDeviceAddFactoryCircuit](nf-acxdevice-acxdeviceaddfactorycircuit.md)
@@ -69,3 +71,5 @@ Use [AcxDeviceAddFactoryCircuit](nf-acxdevice-acxdeviceaddfactorycircuit.md) to 
 [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 
 [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+
+READY2GO

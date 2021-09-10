@@ -55,3 +55,5 @@ A pointer to the [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md) 
 ## -see-also
 
 [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)
+
+READY2GO
