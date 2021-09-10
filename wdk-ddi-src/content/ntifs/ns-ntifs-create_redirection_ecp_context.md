@@ -57,6 +57,7 @@ Size of this structure, in bytes.
 The redirection state of the file. Can be one of the following values.
 
 | Flag | Meaning |
+| ---- | ------- |
 | CREATE_REDIRECTION_FLAGS_SERVICED_FROM_LAYER            | This is a redirected file from a layer that is not registered in the LayerRootLocations registry key. |
 | CREATE_REDIRECTION_FLAGS_SERVICED_FROM_SCRATCH          | This is a new or modified file, it is not redirected. |
 | CREATE_REDIRECTION_FLAGS_SERVICED_FROM_REGISTERED_LAYER | This is a redirected file from a layer that is listed in the LayerRootLocations registry key. |
