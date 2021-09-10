@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceRemoveCircuitDevice
 tech.root: audio
 title: AcxDeviceRemoveCircuitDevice
-ms.date: 08/04/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: The AcxDeviceRemoveCircuitDevice function removes an ACX circuit device from a specified parent device.
 prerelease: true
@@ -60,12 +60,12 @@ The **WDFDEVICE** representing the circuit device to remove from the parent devi
 
 ## -remarks
 
-Audio drivers use this function to remove an existing audio endpoint. 
+Audio drivers use this function to remove an existing audio endpoint.
 
-This function can be called at any time during the driver's life cycle. PnP takes care to serialize the removal of the device (and thus, the associated circuits) in relation to other PnP activities on the parent and siblings devices.
+This function can be called at any time during the driver's life cycle. Plug and Play takes care to serialize the removal of the device, and the associated circuits, in relation to other Plug and Play activities on the parent and siblings devices.
 
 ## -see-also
 
-[AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
+* [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 
 READY2GO

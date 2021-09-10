@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceAddFactoryCircuit
 tech.root: audio
 title: AcxDeviceAddFactoryCircuit
-ms.date: 09/02/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: The AcxDeviceAddFactoryCircuit function adds a factory circuit to a WDFDEVICE for creating audio circuits.
 prerelease: true
@@ -62,16 +62,16 @@ The ACX factory circuit to add to the **WDFDEVICE** specified by the *Device* pa
 
 An ACX driver may create one or more circuits in the following scenarios:
 
-- At initialization time
-- At run time as side effect of an external event such as detecting a new audio component
-- Because it registered itself with ACX as circuit factory. The ACX framework uses the registered factory to ask the driver to create a new circuit.
+* At initialization time
+* At run time, as side effect of an external event, such as detecting a new audio component
+* Because it registered itself with ACX as circuit factory. The ACX framework uses the registered factory to ask the driver to create a new circuit.
 
 Use [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md) to remove a factory circuit from a **WDFDEVICE**.
 
-This function can only be called from the WDF prepare hardware callback (please add a ref here) of this device.
+This function can only be called from the [EVT_WDF_DEVICE_PREPARE_HARDWARE](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware) callback function for this device.
 
 ## -see-also
 
-[AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md)
+* [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md)
 
 READY2GO
