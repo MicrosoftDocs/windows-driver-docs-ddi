@@ -4,7 +4,7 @@ title: FsRtlFastLock macro (ntifs.h)
 description: The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 old-location: ifsk\fsrtlfastlock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/10/2021
 keywords: ["FsRtlFastLock macro"]
 ms.keywords: FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock
 req.header: ntifs.h
@@ -42,67 +42,64 @@ api_name:
 
 # FsRtlFastLock macro
 
-
 ## -description
 
-The <b>FsRtlFastLock</b> macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
+The **FsRtlFastLock** macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 
 ## -parameters
 
 ### -param A1
 
-<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock"><b>FsRtlAllocateFileLock</b></a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock"><b>FsRtlInitializeFileLock</b></a>.</p>
+[in] **FileLock**: Pointer to the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
 ### -param A2
 
-<p>Pointer to the file object for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both). </p>
+[in] **FileObject**: Pointer to the [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both).
 
 ### -param A3
 
-<p>Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.</p>
+[in] **FileOffset**: Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
 
 ### -param A4
 
-<p>Pointer to a variable that specifies the length in bytes of the range to be locked.</p>
+[in] **Length**: Pointer to a variable that specifies the length in bytes of the range to be locked.
 
 ### -param A5
 
-<p>Pointer to the process ID for the process requesting the byte-range lock.</p>
+[in] **ProcessId**: Pointer to the [**EPROCESS**](/windows-hardware/drivers/kernel/eprocess) process ID for the process requesting the byte-range lock.
 
 ### -param A6
 
-<p>The key to be assigned to the byte-range lock.</p>
+[in] **Key**: The key to be assigned to the byte-range lock.
 
 ### -param A7
 
-<p>Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. </p>
+[in] **FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to **FALSE**. If it cannot, set **FailImmediately** to **TRUE**.
 
 ### -param A8
 
-<p>Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.</p>
+[in] **ExclusiveLock**: Set to **TRUE** if an exclusive lock is requested, **FALSE** if a shared lock is requested.
 
 ### -param A9
 
-<p>Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. </p>
+[out] **Iosb**: Pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives status information about the lock request.
 
 ### -param A10
 
-<p>Optional pointer to a context to use when releasing the byte-range lock. </p>
+[in] **Context**: Optional pointer to a context to use when releasing the byte-range lock.
 
 ### -param A11
 
-<p>This parameter is obsolete, but is retained for compatibility with legacy drivers.</p>
+[in] **AlreadySynchronized**: This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 ## -remarks
 
-The <b>FsRtlFastLock</b> macro causes the caller to acquire a byte-range lock on a region of the specified file.
+The **FsRtlFastLock** macro causes the caller to acquire a byte-range lock on a region of the specified file.
 
-A return value of <b>TRUE</b> indicates that the IO_STATUS_BLOCK structure pointed to by <i>Iosb</i> received status information about the lock operation. To examine the contents of this structure, use the NT_STATUS macro.
+A return value of **TRUE** indicates that the IO_STATUS_BLOCK structure pointed to by **Iosb** received status information about the lock operation. To examine the contents of this structure, use the NT_STATUS macro.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+[**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
+[**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md)
