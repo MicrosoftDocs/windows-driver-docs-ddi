@@ -50,47 +50,47 @@ The **FsRtlFastLock** macro is used by file systems and filter drivers to reques
 
 ### -param A1
 
-**FileLock**: Pointer to the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
+[in] **FileLock**: Pointer to the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
 ### -param A2
 
-**FileObject**: Pointer to the [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both).
+[in] **FileObject**: Pointer to the [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both).
 
 ### -param A3
 
-**FileOffset**: Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
+[in] **FileOffset**: Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
 
 ### -param A4
 
-**Length**: Pointer to a variable that specifies the length in bytes of the range to be locked.
+[in] **Length**: Pointer to a variable that specifies the length in bytes of the range to be locked.
 
 ### -param A5
 
-**ProcessId**: Pointer to the [**EPROCESS**](/windows-hardware/drivers/kernel/eprocess) process ID for the process requesting the byte-range lock.
+[in] **ProcessId**: Pointer to the [**EPROCESS**](/windows-hardware/drivers/kernel/eprocess) process ID for the process requesting the byte-range lock.
 
 ### -param A6
 
-**Key**: The key to be assigned to the byte-range lock.
+[in] **Key**: The key to be assigned to the byte-range lock.
 
 ### -param A7
 
-**FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to **FALSE**. If it cannot, set **FailImmediately** to **TRUE**.
+[in] **FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to **FALSE**. If it cannot, set **FailImmediately** to **TRUE**.
 
 ### -param A8
 
-**ExclusiveLock**: Set to **TRUE** if an exclusive lock is requested, **FALSE** if a shared lock is requested.
+[in] **ExclusiveLock**: Set to **TRUE** if an exclusive lock is requested, **FALSE** if a shared lock is requested.
 
 ### -param A9
 
-**Iosb**: Pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives status information about the lock request.
+[out] **Iosb**: Pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives status information about the lock request.
 
 ### -param A10
 
-**Context**: Optional pointer to a context to use when releasing the byte-range lock.
+[in] **Context**: Optional pointer to a context to use when releasing the byte-range lock.
 
 ### -param A11
 
-**AlreadySynchronized**: This parameter is obsolete, but is retained for compatibility with legacy drivers.
+[in] **AlreadySynchronized**: This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 ## -remarks
 
