@@ -77,24 +77,26 @@ The **FsRtlRemoveExtraCreateParameter** routine searches an ECP list for an ECP 
 The **FsRtlRemoveExtraCreateParameter** routine searches the ECP list given by the **EcpList** parameter for an ECP context structure given by the **EcpType** parameter.  If the ECP context structure exists in the list, **FsRtlRemoveExtraCreateParameter**  detaches the structure from the list, sets the **EcpContext** parameter to point to the structure, and returns STATUS_SUCCESS. If the ECP context structure does not exist in the list, **FsRtlRemoveExtraCreateParameter** sets the **EcpContext** parameter to **NULL** and returns STATUS_NOT_FOUND.
 
 > [!NOTE]
-> **FsRtlRemoveExtraCreateParameter** does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call **FsRtlRemoveExtraCreateParameter** to detach it from the list and then call the [**FltFreeExtraCreateParameter**](nf-fltkernel-fltfreeextracreateparameter.md) routine to free the memory pool for the ECP context structure.
+> **FsRtlRemoveExtraCreateParameter** does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call **FsRtlRemoveExtraCreateParameter** to detach it from the list and then call the [**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md) routine to free the memory pool for the ECP context structure.
 
 ## -see-also
 
 [**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
-[**FltAllocateExtraCreateParameterFromLookasideList**](nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md)
+[**FsRtlAllocateExtraCreateParameter**](nf-ntifs-fsrtlallocateextracreateparameter.md)
 
-[**FltCreateFileEx2**](nf-fltkernel-fltcreatefileex2.md)
+[**FsRtlAllocateExtraCreateParameterFromLookasideList**](nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md)
 
-[**FltFreeExtraCreateParameter**](nf-fltkernel-fltfreeextracreateparameter.md)
+[**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md)
 
-[**FltGetEcpListFromCallbackData**](nf-fltkernel-fltgetecplistfromcallbackdata.md)
+[**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md)
 
-[**FltInsertExtraCreateParameter**](nf-fltkernel-fltinsertextracreateparameter.md)
+[**FltGetEcpListFromCallbackData**](../fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata.md)
 
-[**FltRemoveExtraCreateParameter**](nf-fltkernel-fltremoveextracreateparameter.md)
+[**FltInsertExtraCreateParameter**](../fltkernel/nf-fltkernel-fltinsertextracreateparameter.md)
 
-[**FltSetEcpListIntoCallbackData**](nf-fltkernel-fltsetecplistintocallbackdata.md)
+[**FltRemoveExtraCreateParameter**](../fltkernel/nf-fltkernel-fltremoveextracreateparameter.md)
+
+[**FltSetEcpListIntoCallbackData**](../fltkernel/nf-fltkernel-fltsetecplistintocallbackdata.md)
 
 [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md)
