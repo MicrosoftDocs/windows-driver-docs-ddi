@@ -69,6 +69,7 @@ The **FsRtlRemoveExtraCreateParameter** routine searches an ECP list for an ECP 
 **FsRtlRemoveExtraCreateParameter** returns an NTSTATUS code such as one of the following:
 
 | Return code      | Description |
+| -----------      | ----------- |
 | STATUS_SUCCESS   | The given ECP context structure was successfully detached from the given ECP list. |
 | STATUS_NOT_FOUND | The given ECP context structure was not found in the given ECP list. |
 
