@@ -1,10 +1,10 @@
 ---
 UID: NF:ucxcontroller.UcxControllerResetComplete
 title: UcxControllerResetComplete function (ucxcontroller.h)
-description: Informs USB Host Controller Extension (UCX) that the reset operation has competed.
+description: Informs USB host controller extension (UCX) that the reset operation has competed.
 old-location: buses\_ucxcontrollerresetcomplete.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 09/13/2021
 keywords: ["UcxControllerResetComplete function"]
 ms.keywords: UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete
 req.header: ucxcontroller.h
@@ -42,22 +42,21 @@ api_name:
 
 # UcxControllerResetComplete function
 
-
 ## -description
 
-Informs USB Host Controller Extension (UCX) that the reset operation has competed.
+Informs USB host controller extension (UCX) that the reset operation has competed.
 
 ## -parameters
 
-### -param Controller 
+### -param Controller
 
 [in]
-A handle to the controller object to reset. The client driver retrieved the handle in a previous call to <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
+A handle to the controller object to reset. The client driver retrieved the handle in a previous call to [UcxControllerCreate](/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)).
 
 ### -param UcxControllerResetCompleteInfo
 
-TBD
+Pointer to information about the UCX controller state after the reset completes.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
+[UcxEndpointCreate](/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate)

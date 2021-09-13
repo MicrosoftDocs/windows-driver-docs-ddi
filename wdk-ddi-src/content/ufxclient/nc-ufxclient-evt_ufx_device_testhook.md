@@ -41,7 +41,6 @@ api_name:
 
 # EVT_UFX_DEVICE_TESTHOOK callback function
 
-
 ## -description
 
 This IOCTL code is not supported.
@@ -49,6 +48,3 @@ This IOCTL code is not supported.
 ## -parameters
 
 ## -returns
-
-TBD
-
