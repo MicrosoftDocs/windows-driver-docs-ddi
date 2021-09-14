@@ -1,10 +1,10 @@
 ---
 UID: NF:wificxwakesource.WifiWakeSourceGetAdapter
 tech.root: netvista
-title: WifiWakeSourceGetAdapter
-ms.date: 04/30/2021
+title: WifiWakeSourceGetAdapter (wificxwakesource.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WifiWakeSourceGetAdapter function for internal use only. Don't use this function in your code."
+description: The WifiWakeSourceGetAdapter function gets the WiFiCx net adapter for a wake-up source.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,7 +12,7 @@ req.dll:
 req.header: wificxwakesource.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -41,20 +41,21 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiWakeSourceGetAdapter** function gets the WiFiCx net adapter for a wake-up source.
 
 ## -parameters
 
 ### -param WakeSource
 
-Reserved.
+[_In_] The WIFIWAKESOURCE object that represents the source of the wake-up event.
 
 ## -returns
 
+Returns the NETADAPTER object that represents the Wi-Fi adapter for this wake source.
+
 ## -remarks
+
+The client driver must only call **WifiWakeSourceGetAdapter** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 
 ## -see-also
 

@@ -1,10 +1,10 @@
 ---
 UID: NS:wificxtypes._WIFI_DRIVER_GLOBALS
 tech.root: netvista
-title: WIFI_DRIVER_GLOBALS
-ms.date: 04/30/2021
+title: WIFI_DRIVER_GLOBALS (wificxtypes.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_DRIVER_GLOBALS structure for internal use only. Don't use this structure in your code."
+description: Call WIFI_DRIVER_GLOBALS_INIT to initialize this structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -43,16 +43,12 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
-
+Call WIFI_DRIVER_GLOBALS_INIT to initialize this structure.
 ## -struct-fields
 
 ### -field Unused
 
-Reserved.
+This member is unused.
 
 ## -remarks
 

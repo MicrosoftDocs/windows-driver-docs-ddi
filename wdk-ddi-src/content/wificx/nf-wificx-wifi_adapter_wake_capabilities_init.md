@@ -1,10 +1,10 @@
 ---
 UID: NF:wificx.WIFI_ADAPTER_WAKE_CAPABILITIES_INIT
 tech.root: netvista
-title: WIFI_ADAPTER_WAKE_CAPABILITIES_INIT
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_WAKE_CAPABILITIES_INIT (wificx.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_WAKE_CAPABILITIES_INIT function for internal use only. Don't use this function in your code."
+description: The WIFI_ADAPTER_WAKE_CAPABILITIES_INIT method initializes a WIFI_ADAPTER_WAKE_CAPABILITIES structure.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,18 +41,20 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_WAKE_CAPABILITIES_INIT** method initializes a [**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md) structure.
 
 ## -parameters
 
 ### -param Capabilities
 
-Reserved.
+[_Out_] A pointer to a driver-allocated [**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md) structure.
 
 ## -remarks
 
+This methods zeroes out the memory of the  **WIFI_ADAPTER_WAKE_CAPABILITIES** structure, then fills in the **Size** member. After calling this method, set the remaining members of the  **WIFI_ADAPTER_WAKE_CAPABILITIES** structure according to your device's capabilities, then call [**WifiAdapterSetWakeCapabilities**](nf-wificx-wifiadaptersetwakecapabilities.md).
+
 ## -see-also
 
+[**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md)
+
+[**WifiAdapterSetWakeCapabilities**](nf-wificx-wifiadaptersetwakecapabilities.md)

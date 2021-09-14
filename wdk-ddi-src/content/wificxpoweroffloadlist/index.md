@@ -3,7 +3,7 @@ description: "Learn more about: Wificxpoweroffloadlist.h header"
 UID: NA:wificxpoweroffloadlist
 tech.root: netvista
 title: wificxpoweroffloadlist
-ms.date: 04/30/2021
+ms.date: 09/14/2021
 keywords: ["Wificxpoweroffloadlist.h header"]
 ms.keywords: 
 ms.prod: windows-hardware

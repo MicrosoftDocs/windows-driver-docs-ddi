@@ -2,9 +2,9 @@
 UID: NF:wificx.WifiAdapterSetWakeCapabilities
 tech.root: netvista
 title: WifiAdapterSetWakeCapabilities
-ms.date: 04/30/2021
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WifiAdapterSetWakeCapabilities function for internal use only. Don't use this function in your code."
+description: The WifiAdapterSetWakeCapabilities method sets the wake capabilities for a WiFiCx device.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,7 +12,7 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -41,22 +41,22 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiAdapterSetWakeCapabilities** method sets the wake capabilities for a WiFiCx device.
 
 ## -parameters
 
 ### -param Adapter
 
-Reserved.
+[_In_] A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param Capabilities
 
-Reserved.
+[_In_] A pointer to a driver-allocated and initialized [**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md) structure.
 
 ## -remarks
 
+The client driver typically calls this method from within [*EVT_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md).
+
 ## -see-also
 
+[**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md) 

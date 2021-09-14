@@ -1,10 +1,10 @@
 ---
 UID: NE:wificx._WIFI_ADAPTER_TYPE
 tech.root: netvista
-title: WIFI_ADAPTER_TYPE
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_TYPE (wificx.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_TYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: The WIFI_ADAPTER_TYPE enumeration specifies the Wi-Fi adapter type.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wificx.h
@@ -36,22 +36,27 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_TYPE** enumeration specifies the Wi-Fi adapter type.
 
 ## -enum-fields
 
 ### -field WIFI_ADAPTER_EXTENSIBLE_STATION
 
-Reserved.
+Extensible station. 
 
 ### -field WIFI_ADAPTER_WIFI_DIRECT_ROLE
 
-Reserved.
+Wi-Fi Direct Role.  
+
+### -field WIFI_ADAPTER_SECONDARY_STATION
+
+Secondary station. 
 
 ## -remarks
 
 ## -see-also
+
+[**WifiAdapterGetType**](nf-wificx-wifiadaptergettype.md)
+
+[**WifiAdapterInitGetType**](nf-wificx-wifiadapterinitgettype.md)
 

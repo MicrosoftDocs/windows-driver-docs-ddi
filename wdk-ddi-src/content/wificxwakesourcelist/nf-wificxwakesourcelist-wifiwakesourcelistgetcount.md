@@ -1,10 +1,10 @@
 ---
 UID: NF:wificxwakesourcelist.WifiWakeSourceListGetCount
 tech.root: netvista
-title: WifiWakeSourceListGetCount
-ms.date: 04/30/2021
+title: WifiWakeSourceListGetCount (wificxwakesourcelist.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WifiWakeSourceListGetCount function for internal use only. Don't use this function in your code."
+description: The WifiWakeSourceListGetCount function gets the number of wake sources for a WiFiCx net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,7 +12,7 @@ req.dll:
 req.header: wificxwakesourcelist.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -41,20 +41,24 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiWakeSourceListGetCount** function gets the number of wake sources for a WiFiCx net adapter.
 
 ## -parameters
 
 ### -param List
 
-Reserved.
+[_In_] A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
 
 ## -returns
 
+Returns the number of wake sources for this net adapter.
+
 ## -remarks
+
+Call [**WIFI_WAKE_SOURCE_LIST_INIT**](nf-wificxwakesourcelist-wifi_wake_source_list_init.md) to initialize the [**WIFI_WAKE_SOURCE_LIST**](ns-wificxwakesourcelist-wifi_wake_source_list.md) structure, then call [**WifiDeviceGetWakeSourceList**](nf-wificxwakesourcelist-wifidevicegetwakesourcelist.md) to retrieve the wake source list. After getting the list, call this function to determine how many wake sources there are for this net adapter.
+
+The client driver must only call **WifiWakeSourceListGetCount** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 
 ## -see-also
 
+[**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)

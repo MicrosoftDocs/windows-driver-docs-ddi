@@ -52,7 +52,7 @@ Gets the Wi-Fi adapter type.
 
 ## -returns
 
-Returns a WIFI_ADAPTER_TYPE object that defines the Wi-Fi adapter type.
+Returns a [**WIFI_ADAPTER_TYPE**](ne-wificx-wifi_adapter_type.md) object that defines the Wi-Fi adapter type.
 
 ## -remarks
 
@@ -63,3 +63,5 @@ For a code example that uses **WifiAdapterGetType** during adapter creation, see
 ## -see-also
 
 [**WifiAdapterInitGetType**](nf-wificx-wifiadapterinitgettype.md)
+
+[**WIFI_ADAPTER_TYPE**](ne-wificx-wifi_adapter_type.md)

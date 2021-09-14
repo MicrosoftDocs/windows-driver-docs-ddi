@@ -52,10 +52,12 @@ A WiFiCx client driver calls the **WifiAdapterInitGetType** function when it nee
 
 ## -returns
 
-Returns a WIFI_ADAPTER_TYPE object that defines the Wi-Fi adapter type.
+Returns a [**WIFI_ADAPTER_TYPE**](ne-wificx-wifi_adapter_type.md) object that defines the Wi-Fi adapter type.
 
 ## -remarks
 
 ## -see-also
 
 [**WifiAdapterGetType**](nf-wificx-wifiadaptergettype.md)
+
+[**WIFI_ADAPTER_TYPE**](ne-wificx-wifi_adapter_type.md)

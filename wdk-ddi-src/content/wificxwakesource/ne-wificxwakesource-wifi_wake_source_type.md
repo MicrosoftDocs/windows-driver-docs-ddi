@@ -1,10 +1,10 @@
 ---
 UID: NE:wificxwakesource._WIFI_WAKE_SOURCE_TYPE
 tech.root: netvista
-title: WIFI_WAKE_SOURCE_TYPE
-ms.date: 04/30/2021
+title: WIFI_WAKE_SOURCE_TYPE (wificxwakesource.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_WAKE_SOURCE_TYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: The WIFI_WAKE_SOURCE_TYPE enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a WiFiCx net adapter.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wificxwakesource.h
@@ -36,28 +36,25 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_WAKE_SOURCE_TYPE** enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a WiFiCx net adapter.
 
 ## -enum-fields
 
 ### -field WifiWakeSourceTypeNloDiscovery
 
-Reserved.
+NLO discovery.
 
 ### -field WifiWakeSourceTypeApAssociationLost
 
-Reserved.
+Access point association lost.
 
 ### -field WifiWakeSourceTypeGtkHandshakeError
 
-Reserved.
+GTK handshake error.
 
 ### -field WifiWakeSourceTypeFourWayHandshakeRequest
 
-Reserved.
+4-Way Handshake request.
 
 ## -remarks
 

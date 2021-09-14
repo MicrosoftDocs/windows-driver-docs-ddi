@@ -48,7 +48,7 @@ The **WifiDeviceGetPowerOffloadList** function gets the list of low power protoc
 
 ### -param Device
 
-[_In_] The WDFDEVICE object associated with the net adapter.
+[_In_] The WDFDEVICE object associated with the Wi-Fi adapter.
 
 ### -param List
 
