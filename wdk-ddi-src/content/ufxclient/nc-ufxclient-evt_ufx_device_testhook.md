@@ -4,7 +4,7 @@ title: EVT_UFX_DEVICE_TESTHOOK (ufxclient.h)
 description: This IOCTL code is not supported.
 old-location: buses\evt_ufx_device_testhook.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 09/13/2021
 keywords: ["EVT_UFX_DEVICE_TESTHOOK callback function"]
 ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EVT_UFX_DEVICE_TESTHOOK callback, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
 req.header: ufxclient.h
