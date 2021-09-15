@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_DISPLAY_DRIVERCAPS_EXTENSION
 title: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION (d3dkmddi.h)
 description: Driver capabilities extension for WDDM 2.0 or later drivers.
-ms.date: 10/19/2018
+ms.date: 08/25/2021
 keywords: ["DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure"]
 ms.keywords: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION, DXGK_DISPLAY_DRIVERCAPS_EXTENSION,
 req.header: d3dkmddi.h
@@ -67,6 +67,10 @@ HDR pixel format scanout capability support.
 ### -field HdrARGB10ScanoutSupport
 
 The display is HDR capable.
+
+### -field SupportUsb4Targets
+
+Indicates USB4 targets support. This value is only valid for WDDM 3.0 drivers.
 
 ### -field Reserved
 

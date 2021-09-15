@@ -2,7 +2,7 @@
 UID: NA:acxdevice
 tech.root: audio
 title: acxdevice.h header
-ms.date: 06/30/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: Header used by audio class extension.
 prerelease: true

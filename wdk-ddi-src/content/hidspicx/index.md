@@ -1,7 +1,7 @@
 ---
 UID: NA:hidspicx
 tech.root: hid
-title: hidspicx
+title: hidspicx overview
 ms.date: 06/14/2021
 targetos: Windows
 description: "Learn more about: hidspicx"

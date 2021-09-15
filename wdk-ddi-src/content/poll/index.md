@@ -1,6 +1,6 @@
 ---
 UID: NA:poll
-title: poll
+title: poll overview
 description: "Learn more about: Poll.h header"
 ms.date: 05/13/2021
 keywords: ["Poll.h header"]

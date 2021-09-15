@@ -1,7 +1,7 @@
 ---
 description: "Learn more about: Sensors"
 UID: TP:sensors
-title: Sensors
+title: Sensors overview
 ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d
 ms.date: 08/01/2018
 keywords: ["Sensors"]

@@ -2,7 +2,7 @@
 UID: NE:acxdevice._ACX_DEVICE_CONFIG_FLAGS
 tech.root: audio
 title: ACX_DEVICE_CONFIG_FLAGS
-ms.date: 09/02/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: The ACX_DEVICE_CONFIG_FLAGS enum defines values used to configure the audio class extension.
 prerelease: true
@@ -52,3 +52,5 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
+
+READY2GO

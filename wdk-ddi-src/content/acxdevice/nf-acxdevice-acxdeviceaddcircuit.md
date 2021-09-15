@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceAddCircuit
 tech.root: audio
 title: AcxDeviceAddCircuit
-ms.date: 09/02/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: The AcxDeviceAddCircuit function adds an ACX circuit to a WDFDEVICE to create an audio endpoint.
 prerelease: true
@@ -62,10 +62,12 @@ The circuit to add to the *Device*.
 
 The audio circuit is the core building block of ACX. An audio driver creates one or more ACX circuit objects to represent a partial or complete audio data and control path. ACX assembles these ACX circuit objects together to create a complete audio path which represents an audio endpoint.
 
+This function can only be called from the [EVT_WDF_DEVICE_PREPARE_HARDWARE](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware) callback function for this device.
+
 ## -see-also
 
-[AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)
+* [AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)
+* [AcxDeviceDetachCircuit](nf-acxdevice-acxdevicedetachcircuit.md)
+* [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 
-[AcxDeviceDetachCircuit](nf-acxdevice-acxdevicedetachcircuit.md)
-
-[AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
+READY2GO

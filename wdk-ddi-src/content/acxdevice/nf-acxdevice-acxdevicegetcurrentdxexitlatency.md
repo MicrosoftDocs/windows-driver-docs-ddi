@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceGetCurrentDxExitLatency
 tech.root: audio
 title: AcxDeviceGetCurrentDxExitLatency
-ms.date: 09/02/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: The AcxDeviceGetCurrentDxExitLatency function gets the current audio device sleep state exit latency value.
 prerelease: true
@@ -70,8 +70,8 @@ Audio drivers know when to go in [D3Hot](/windows-hardware/drivers/kernel/device
 
 ## -see-also
 
-[ACX_DX_EXIT_LATENCY](ne-acxdevice-acx_dx_exit_latency.md)
+* [ACX_DX_EXIT_LATENCY](ne-acxdevice-acx_dx_exit_latency.md)
+* [System Power Actions](/windows-hardware/drivers/kernel/system-power-actions)
+* [Power states](/windows-hardware/drivers/nfc/power-states)
 
-[System Power Actions](/windows-hardware/drivers/kernel/system-power-actions)
-
-[Power states](/windows-hardware/drivers/nfc/power-states)
+READY2GO

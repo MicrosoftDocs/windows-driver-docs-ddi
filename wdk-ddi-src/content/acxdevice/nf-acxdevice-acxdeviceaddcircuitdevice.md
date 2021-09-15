@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceAddCircuitDevice
 tech.root: audio
 title: AcxDeviceAddCircuitDevice
-ms.date: 09/02/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: The AcxDeviceAddCircuitDevice function adds an ACX circuit device to a specified parent device representing an audio path.
 prerelease: true
@@ -60,8 +60,13 @@ A **WDFDEVICE** representing the circuit device to add to the parent device.
 
 ## -remarks
 
+Audio drivers use this function to enumerate a new audio endpoint.
+
+This function can be called at any time during the driver's life cycle. Plug and Play serializes the enumeration of the device, and the associated circuits, in relation to other Plug and Play activities on the parent and siblings devices.
+
 ## -see-also
 
-[AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
+* [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
+* [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
 
-[AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+READY2GO
