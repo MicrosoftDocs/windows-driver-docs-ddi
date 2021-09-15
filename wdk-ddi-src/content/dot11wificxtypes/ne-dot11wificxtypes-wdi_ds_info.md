@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_DS_INFO
 tech.root: netvista
 title: WDI_DS_INFO (dot11wificxtypes.h)
-ms.date: 06/30/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_DS_INFO enum defines values that specify whether the port is connected to the same DS that it was previously associated to.
@@ -41,25 +41,25 @@ The **WDI_DS_INFO** enumeration defines values that specify whether the port is 
 
 ## -enum-fields
 
-### -field WDI_DS_CHANGED
+### -field WDI_DS_CHANGED:1
 
 New DS.
 
-### -field WDI_DS_UNCHANGED
+### -field WDI_DS_UNCHANGED:2
 
 Same DS as previously associated.
 
-### -field WDI_DS_UNKNOWN
+### -field WDI_DS_UNKNOWN:3
 
 Unable to determine if the DS has changed.
 
-### -field WDI_DS_MAX
+### -field WDI_DS_MAX:0xffffffff
 
 
 
 ## -remarks
 
-The **WDI_AUTH_ALGORITHM** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
+The **WDI_DS_INFO** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
 
 ## -see-also
 

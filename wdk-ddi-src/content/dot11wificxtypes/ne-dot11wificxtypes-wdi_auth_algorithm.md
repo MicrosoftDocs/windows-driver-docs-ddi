@@ -41,63 +41,63 @@ The **WDI_AUTH_ALGORITHM** enumeration defines the authentication algorithm valu
 
 ## -enum-fields
 
-### -field WDI_AUTH_ALGO_80211_OPEN
+### -field WDI_AUTH_ALGO_80211_OPEN:1
 
 Specifies an IEEE 802.11 Open System authentication algorithm.
 
-### -field WDI_AUTH_ALGO_80211_SHARED_KEY
+### -field WDI_AUTH_ALGO_80211_SHARED_KEY:2
 
 Specifies an IEEE 802.11 Shared Key authentication algorithm that requires the use of a pre-shared Wired Equivalent Privacy (WEP) key for the 802.11 authentication.
 
-### -field WDI_AUTH_ALGO_WPA
+### -field WDI_AUTH_ALGO_WPA:3
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process. 
 
 When the WPA algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 1 (802.1X) within the WPA information element (IE).
 
-### -field WDI_AUTH_ALGO_WPA_PSK
+### -field WDI_AUTH_ALGO_WPA_PSK:4
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm that uses preshared keys (PSK). IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a preshared key that is used on both the supplicant and authenticator. 
 
 When the WPA PSK algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the WPA IE.
 
-### -field WDI_AUTH_ALGO_WPA_NONE
+### -field WDI_AUTH_ALGO_WPA_NONE:5
 
 This value is not supported.
 
-### -field WDI_AUTH_ALGO_RSNA
+### -field WDI_AUTH_ALGO_RSNA:6
 
 Specifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through the authentication process. 
 
 When the RSNA algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 1 (802.1X) within the Robust Security Network (RSN) IE.
 
-### -field WDI_AUTH_ALGO_RSNA_PSK
+### -field WDI_AUTH_ALGO_RSNA_PSK:7
 
 Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared key that is used on both the supplicant and authenticator. 
 
 When the RSNA PSK algorithm is enabled, the 802.11 station only associates with an access point whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the RSN IE.
 
-### -field WDI_AUTH_ALGO_WPA3_ENT_192
+### -field WDI_AUTH_ALGO_WPA3_ENT_192:8
 
 Specifies a WPA3-Enterprise 192-bit mode algorithm.
 
-### -field WDI_AUTH_ALGO_WPA3_SAE
+### -field WDI_AUTH_ALGO_WPA3_SAE:9
 
 Specifies a WPA3-Simultaneous Authentication of Equals (WPA3-SAE) algorithm.
 
-### -field WDI_AUTH_ALGO_OWE
+### -field WDI_AUTH_ALGO_OWE:10
 
 Specifies an opportunistic wireless encryption (OWE) algorithm.
 
-### -field WDI_AUTH_ALGO_WPA3_ENT
+### -field WDI_AUTH_ALGO_WPA3_ENT:11
 
 Specifies a WPA3-Enterprise algorithm.
 
-### -field WDI_AUTH_ALGO_IHV_START
+### -field WDI_AUTH_ALGO_IHV_START:0x80000000
 
 Specifies the start of the range that specifies proprietary authentication algorithms that are developed by an IHV.
 
-### -field WDI_AUTH_ALGO_IHV_END
+### -field WDI_AUTH_ALGO_IHV_END:0xffffffff
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are developed by an IHV.
 

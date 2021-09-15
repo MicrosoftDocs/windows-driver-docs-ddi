@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_IHV_TASK_PRIORITY
 tech.root: netvista
 title: WDI_IHV_TASK_PRIORITY (dot11wificxtypes.h)
-ms.date: 07/12/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_IHV_TASK_PRIORITY enum defines IHV task priorities.
@@ -41,15 +41,15 @@ The **WDI_IHV_TASK_PRIORITY** enumeration defines IHV task priorities.
 
 ## -enum-fields
 
-### -field WDI_IHV_TASK_PRIORITY_HIGH
+### -field WDI_IHV_TASK_PRIORITY_HIGH:1
 
 High priority.
 
-### -field WDI_IHV_TASK_PRIORITY_MEDIUM
+### -field WDI_IHV_TASK_PRIORITY_MEDIUM:2
 
 Medium priority.
 
-### -field WDI_IHV_TASK_PRIORITY_LOW
+### -field WDI_IHV_TASK_PRIORITY_LOW:3
 
 Low priority.
 

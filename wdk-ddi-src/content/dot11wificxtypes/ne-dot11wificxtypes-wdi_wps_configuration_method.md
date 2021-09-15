@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_WPS_CONFIGURATION_METHOD
 tech.root: netvista
 title: WDI_WPS_CONFIGURATION_METHOD (dot11wificxtypes.h)
-ms.date: 06/18/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_WPS_CONFIGURATION_METHOD enum defines WPS configuration methods.
@@ -37,39 +37,39 @@ dev_langs:
 
 ## -description
 
-The WDI_WPS_CONFIGURATION_METHOD enumeration defines WPS configuration methods.
+The **WDI_WPS_CONFIGURATION_METHOD** enumeration defines WPS configuration methods.
 
 ## -enum-fields
 
-### -field WDI_WPS_CONFIGURATION_METHOD_NULL
+### -field WDI_WPS_CONFIGURATION_METHOD_NULL:0
 
 WFDS.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_DISPLAY
+### -field WDI_WPS_CONFIGURATION_METHOD_DISPLAY:0x0008
 
 Pin display.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_NFC_TAG
+### -field WDI_WPS_CONFIGURATION_METHOD_NFC_TAG:0x0020
 
 NFC tag.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE
+### -field WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE:0x0040
 
 NFC interface.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON
+### -field WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON:0x0080
 
 Push button.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_KEYPAD
+### -field WDI_WPS_CONFIGURATION_METHOD_KEYPAD:0x0100
 
 Pin keypad.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT
+### -field WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT:0x1000
 
 WFDS.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE
+### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE:0xFFFF
 
 Reserved.
 

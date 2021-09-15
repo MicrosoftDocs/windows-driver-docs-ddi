@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_ROAM_TRIGGER
 tech.root: netvista
 title: WDI_ROAM_TRIGGER (dot11wificxtypes.h)
-ms.date: 06/22/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_ROAM_TRIGGER enum defines roam triggers.
@@ -37,15 +37,15 @@ dev_langs:
 
 ## -description
 
-The WDI_ROAM_TRIGGER enumeration defines roam triggers.
+The **WDI_ROAM_TRIGGER** enumeration defines roam triggers.
 
 ## -enum-fields
 
-### -field WDI_ROAM_TRIGGER_OTHER
+### -field WDI_ROAM_TRIGGER_OTHER:0x00000000
 
 None.
 
-### -field WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST
+### -field WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST:0x00000001
 
 This value is for roams due to a BSS Transition Request by the AP with the Disassociation Imminent bit set.
 

@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_FTM_RESPONSE_STATUS
 tech.root: netvista
 title: WDI_FTM_RESPONSE_STATUS (dot11wificxtypes.h)
-ms.date: 07/16/2021
+ms.date: 09/15/2021
 targetos: Windows
 description: The WDI_FTM_RESPONSE_STATUS enum defines the response status for a Fine Timing Measurement (FTM) request.
 prerelease: false
@@ -41,35 +41,35 @@ The **WDI_FTM_RESPONSE_STATUS** enumeration defines the response status for a Fi
 
 ## -enum-fields
 
-### -field WDI_FTM_RESPONSE_STATUS_SUCCESS 
+### -field WDI_FTM_RESPONSE_STATUS_SUCCESS:0 
 
 The FTM was a success.
 
-### -field WDI_FTM_RESPONSE_STATUS_UNREACHABLE 
+### -field WDI_FTM_RESPONSE_STATUS_UNREACHABLE:1
 
 No ACK was received for the FTM request from the target, or no first FTM frame was received afterwards. The application will be advised to first trigger a new scan before retrying.
 
-### -field WDI_FTM_RESPONSE_STATUS_REJECTED 
+### -field WDI_FTM_RESPONSE_STATUS_REJECTED:2
 
 The status indication field from Table 9-256 of the [802-11-2016 standard](https://standards.ieee.org/standard/802_11-2016.html) was set to **3**. A **RetryValue** should be provided and the application will be advised to retry only after that time has passed.
 
-### -field WDI_FTM_RESPONSE_STATUS_INCAPABLE 
+### -field WDI_FTM_RESPONSE_STATUS_INCAPABLE:3
 
 The status indication field from Table 9-256 of the [802-11-2016 standard](https://standards.ieee.org/standard/802_11-2016.html) was set to **2**. The application will be advised not to retry.
 
-### -field WDI_FTM_RESPONSE_STATUS_TIMEOUT 
+### -field WDI_FTM_RESPONSE_STATUS_TIMEOUT:4
 
 The FTM session was started but it did not complete before the timeout expired. A retry to this STA might work.
 
-### -field WDI_FTM_RESPONSE_STATUS_NOT_ATTEMPTED 
+### -field WDI_FTM_RESPONSE_STATUS_NOT_ATTEMPTED:5
 
 The FTM session was not initiated. It is highly likely that a retry to this STA will work.
 
-### -field WDI_FTM_RESPONSE_STATUS_ABORTED 
+### -field WDI_FTM_RESPONSE_STATUS_ABORTED:6
 
 The FTM procedure did not complete because the task was aborted. It is likely that a retry to this STA will work.
 
-### -field WDI_FTM_RESPONSE_STATUS_FAILED 
+### -field WDI_FTM_RESPONSE_STATUS_FAILED:7
 
 The FTM procedure failed with any other failure besides the preceding failure responses. A retry to this STA might or might not work.
 

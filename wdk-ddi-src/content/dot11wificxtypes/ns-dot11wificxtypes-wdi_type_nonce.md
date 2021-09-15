@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The WDI_TYPE_NONCE structure defines the SNonce or ANonce (802.11r).
+The **WDI_TYPE_NONCE** structure defines the SNonce or ANonce (802.11r).
 
 ## -struct-fields
 

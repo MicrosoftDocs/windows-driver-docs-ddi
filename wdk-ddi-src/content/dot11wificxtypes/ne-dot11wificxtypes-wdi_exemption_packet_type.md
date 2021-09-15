@@ -41,15 +41,15 @@ The **WDI_EXEMPTION_PACKET_TYPE** enumeration defines the types of packet exempt
 
 ## -enum-fields
 
-### -field WDI_EXEMPT_PACKET_TYPE_UNICAST
+### -field WDI_EXEMPT_PACKET_TYPE_UNICAST:1
 
 Exempt unicast packets only.
 
-### -field WDI_EXEMPT_PACKET_TYPE_MULTICAST
+### -field WDI_EXEMPT_PACKET_TYPE_MULTICAST:2
 
 Exempt multicast and broadcast packets only.
 
-### -field WDI_EXEMPT_PACKET_TYPE_BOTH
+### -field WDI_EXEMPT_PACKET_TYPE_BOTH:3
 
 Exempt all packet types.
 

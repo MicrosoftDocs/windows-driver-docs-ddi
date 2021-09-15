@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_LCI_REPORT_STATUS
 tech.root: netvista
 title: WDI_LCI_REPORT_STATUS (dot11wificxtypes.h)
-ms.date: 07/30/2021
+ms.date: 09/15/2021
 targetos: Windows
 description: The WDI_LCI_REPORT_STATUS enum defines the response status for an LCI report, if the report were requested in a Fine Timing Measurement (FTM) request.
 prerelease: false
@@ -41,19 +41,19 @@ The **WDI_LCI_REPORT_STATUS** enumeration defines the response status for an LCI
 
 ## -enum-fields
 
-### -field WDI_LCI_REPORT_STATUS_SUCCESS 
+### -field WDI_LCI_REPORT_STATUS_SUCCESS:0
 
 The LCI report was successfully obtained.
 
-### -field WDI_LCI_REPORT_STATUS_FAILURE 
+### -field WDI_LCI_REPORT_STATUS_FAILURE:1
 
 A failure occurred while getting the report.
 
-### -field WDI_LCI_REPORT_STATUS_INCAPABLE 
+### -field WDI_LCI_REPORT_STATUS_INCAPABLE:2 
 
 The **Incapable** bit of the Measurement Report Mode field is set. For more info, see section 9.4.2.22, the Measurement Report element, of the [802-11-2016 standard](https://standards.ieee.org/standard/802_11-2016.html).
 
-### -field WDI_LCI_REPORT_STATUS_REFUSED 
+### -field WDI_LCI_REPORT_STATUS_REFUSED:3
 
 The **Refused** bit of the Measurement Report Mode field is set. For more info, see section 9.4.2.22, the Measurement Report element, of the [802-11-2016 standard](https://standards.ieee.org/standard/802_11-2016.html).
 

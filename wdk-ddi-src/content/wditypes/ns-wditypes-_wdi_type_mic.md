@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The WDI_TYPE_MIC structure defines the MIC (802.11r).
+The **WDI_TYPE_MIC** structure defines the MIC (802.11r).
 
 ## -struct-fields
 

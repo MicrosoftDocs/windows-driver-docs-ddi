@@ -1,8 +1,8 @@
 ---
-UID: NE:dot11wificxtypes._WDI_SAE_INDICATION_TYPE (dot11wificxtypes.h)
+UID: NE:dot11wificxtypes._WDI_SAE_INDICATION_TYPE
 tech.root: netvista
-title: WDI_SAE_INDICATION_TYPE
-ms.date: 07/01/2021
+title: WDI_SAE_INDICATION_TYPE (dot11wificxtypes.h)
+ms.date: 09/15/2021
 targetos: Windows
 description: The WDI_SAE_INDICATION_TYPE enum defines the type of information needed to continue SAE authentication with the BSSID, or notification that authentication cannot continue.
 prerelease: false
@@ -41,23 +41,23 @@ The **WDI_SAE_INDICATION_TYPE** enumeration defines the type of information need
 
 ## -enum-fields
 
-### -field WDI_SAE_INDICATION_TYPE_COMMIT_REQUEST_PARAMS_NEEDED 
+### -field WDI_SAE_INDICATION_TYPE_COMMIT_REQUEST_PARAMS_NEEDED:0 
 
 The initial request for parameters to send a Commit request.
 
-### -field WDI_SAE_INDICATION_TYPE_COMMIT_RESPONSE 
+### -field WDI_SAE_INDICATION_TYPE_COMMIT_RESPONSE :1
 
 Commit response received. The Commit response must be included in the indication.
 
-### -field WDI_SAE_INDICATION_TYPE_CONFIRM_RESPONSE 
+### -field WDI_SAE_INDICATION_TYPE_CONFIRM_RESPONSE:2
 
 Confirm response received. The Confirm response must be included in the indication.
 
-### -field WDI_SAE_INDICATION_TYPE_ERROR 
+### -field WDI_SAE_INDICATION_TYPE_ERROR:3
 
 SAE authentication failed with this BSSID. The SAE status must be included in the indication.
 
-### -field WDI_SAE_INDICATION_TYPE_CONFIRM_REQUEST_RESEND_REQUEST 
+### -field WDI_SAE_INDICATION_TYPE_CONFIRM_REQUEST_RESEND_REQUEST:4
 
 Resending the Confirm request to the AP.
 

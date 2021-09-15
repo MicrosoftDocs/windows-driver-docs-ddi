@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_STOP_AP_REASON
 tech.root: netvista
 title: WDI_STOP_AP_REASON (dot11wificxtypes.h)
-ms.date: 08/05/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_STOP_AP_REASON enum defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
+The **WDI_STOP_AP_REASON** enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 
 ## -enum-fields
 

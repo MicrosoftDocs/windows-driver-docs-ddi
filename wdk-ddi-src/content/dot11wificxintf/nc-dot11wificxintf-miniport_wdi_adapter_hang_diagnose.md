@@ -5,7 +5,7 @@ title: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE (dot11wificxintf.h)
 ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: The MiniportWdiAdapterHangDiagnose function is used to collect hardware control register states and optionally full firmware state.
+description: Microsoft reserves the MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback function for internal use only. Don't use this callback function in your code.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -47,7 +47,8 @@ The *MiniportWdiAdapterHangDiagnose* handler function is used to collect hardwar
 
 This is a WDI miniport handler inside [**NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS**](ns-dot11wificxintf-ndis_miniport_driver_wdi_characteristics.md).
 
-> [!NOTE] You must declare the function by using the **MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE** type.
+> [!NOTE]
+> You must declare the function by using the **MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE** type.
 
 ## -parameters
 

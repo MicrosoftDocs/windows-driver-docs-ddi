@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_P2P_LISTEN_STATE
 tech.root: netvista
 title: WDI_P2P_LISTEN_STATE (dot11wificxtypes.h)
-ms.date: 07/22/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_LISTEN_STATE enum defines the Wi-Fi Direct listen states.
@@ -38,25 +38,25 @@ dev_langs:
 
 ## -description
 
-The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
+The **WDI_P2P_LISTEN_STATE** enumeration defines the Wi-Fi Direct listen states.
 
 ## -enum-fields
 
-### -field WDI_P2P_LISTEN_STATE_OFF
+### -field WDI_P2P_LISTEN_STATE_OFF:0
 
 When this listen state is set:
 
 * The port shall not schedule any time to explicitly listen on social channels for incoming Wi-Fi Direct action frames.
 * The port shall not respond to probe requests as a Wi-Fi Direct Adapter.
 
-### -field WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY:8
 
 When this listen state is set:
 
 * The port must enter into listen state periodically as specified by the ListenDuration parameters.
 * The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the specified channel.
 
-### -field WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY:16
 
 When this listen state is set:
 
@@ -65,7 +65,7 @@ When this listen state is set:
 
 > [!NOTE] The optimized duty cycle for automatic availability listen state is outside the scope of this specification. The most aggressive power saving schedule that may be implemented by the port is being available for a contiguous 500ms out of every 5 seconds.
 
-### -field WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY:24
 
 When this listen state is set:
 

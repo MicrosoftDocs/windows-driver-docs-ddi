@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The WDI_OPERATION_MODE enumeration defines operation modes.
+The **WDI_OPERATION_MODE** enumeration defines operation modes.
 
 ## -enum-fields
 

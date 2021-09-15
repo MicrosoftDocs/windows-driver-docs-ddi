@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_P2P_SCAN_TYPE
 tech.root: netvista
 title: WDI_P2P_SCAN_TYPE (dot11wificxtypes.h)
-ms.date: 06/24/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_SCAN_TYPE enum defines the Wi-Fi Direct scan types.
@@ -37,27 +37,27 @@ dev_langs:
 
 ## -description
 
-The WDI_P2P_SCAN_TYPE enumeration defines the Wi-Fi Direct scan types.
+The **WDI_P2P_SCAN_TYPE** enumeration defines the Wi-Fi Direct scan types.
 
 ## -enum-fields
 
-### -field WDI_P2P_SCAN_TYPE_ACTIVE
+### -field WDI_P2P_SCAN_TYPE_ACTIVE:1
 
 Use active scanning during device discovery. Even for active scans, the port must follow regulatory restrictions on the channel and must not scan on channels that would need a passive scan.
 
-### -field WDI_P2P_SCAN_TYPE_PASSIVE
+### -field WDI_P2P_SCAN_TYPE_PASSIVE:2
 
 Use passive scanning during device discovery.
 
-### -field WDI_P2P_SCAN_TYPE_AUTO
+### -field WDI_P2P_SCAN_TYPE_AUTO:3
 
 Adapter determines scan type during device discovery. It should prefer using Active scans when possible. This is the default scan type setting.
 
-### -field WDI_P2P_SCAN_TYPE_MAX_VALUE
+### -field WDI_P2P_SCAN_TYPE_MAX_VALUE:0xFFFFFFFF
 
 ## -remarks
 
-The WDI_P2P_SCAN_TYPE enumeration is a value in the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
+The **WDI_P2P_SCAN_TYPE** enumeration is a value in the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 
 
 ## -see-also
 

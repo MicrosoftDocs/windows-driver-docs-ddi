@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_P2P_ACTION_FRAME_TYPE
 tech.root: netvista
 title: WDI_P2P_ACTION_FRAME_TYPE (dot11wificxtypes.h)
-ms.date: 07/02/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_ACTION_FRAME_TYPE enum defines the Wi-Fi Direct action frame types.
@@ -41,35 +41,35 @@ The **WDI_P2P_ACTION_FRAME_TYPE** enumeration defines the Wi-Fi Direct action fr
 
 ## -enum-fields
 
-### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_REQUEST
+### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_REQUEST:1
 
 Wi-Fi Direct Group Owner Negotiation Request.
 
-### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_RESPONSE
+### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_RESPONSE:2
 
 Wi-Fi Direct Group Owner Negotiation Response.
 
-### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_CONFIRM
+### -field WDI_P2P_ACTION_FRAME_GO_NEGOTIATION_CONFIRM:3
 
 Wi-Fi Direct Group Owner Negotiation Confirmation.
 
-### -field WDI_P2P_ACTION_FRAME_INVITATION_REQUEST
+### -field WDI_P2P_ACTION_FRAME_INVITATION_REQUEST:4
 
 Wi-Fi Direct Invitation Request.
 
-### -field WDI_P2P_ACTION_FRAME_INVITATION_RESPONSE
+### -field WDI_P2P_ACTION_FRAME_INVITATION_RESPONSE:5
 
 Wi-Fi Direct Invitation Response.
 
-### -field WDI_P2P_ACTION_FRAME_PROVISION_DISCOVERY_REQUEST
+### -field WDI_P2P_ACTION_FRAME_PROVISION_DISCOVERY_REQUEST:6
 
 Wi-Fi Direct Provision Discovery Request.
 
-### -field WDI_P2P_ACTION_FRAME_PROVISION_DISCOVERY_RESPONSE
+### -field WDI_P2P_ACTION_FRAME_PROVISION_DISCOVERY_RESPONSE:7
 
 Wi-Fi Direct Provision Discovery Response.
 
-### -field WDI_P2P_ACTION_FRAME_MAX_VALUE
+### -field WDI_P2P_ACTION_FRAME_MAX_VALUE:0xFFFFFFFF
 
 ## -remarks
 

@@ -5,7 +5,7 @@ title: MINIPORT_WDI_ALLOCATE_ADAPTER
 ms.date: 10/02/2021
 ms.topic: language-reference
 targetos: Windows
-description: The MiniportWdiAllocateAdapter function allocates a WDI miniport adapter.
+description: Microsoft reserves the MINIPORT_WDI_ALLOCATE_ADAPTER callback function for internal use only. Don't use this callback function in your code.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

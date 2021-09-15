@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_FTM_BANDWIDTH
 tech.root: netvista
 title: WDI_FTM_BANDWIDTH (dot11wificxtypes.h)
-ms.date: 07/19/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_FTM_BANDWIDTH enum defines the negotiated bandwidth between two STAs to exercise the FTM.
@@ -42,35 +42,35 @@ The **WDI_FTM_BANDWIDTH** enumeration defines the negotiated bandwidth between t
 
 ## -enum-fields
 
-### -field WDI_FTM_BANDWIDTH_5
+### -field WDI_FTM_BANDWIDTH_5:1
 
 5 MHz.
 
-### -field WDI_FTM_BANDWIDTH_10
+### -field WDI_FTM_BANDWIDTH_10:2
 
 10 MHz.
 
-### -field WDI_FTM_BANDWIDTH_20
+### -field WDI_FTM_BANDWIDTH_20:3
 
 20 MHz.
 
-### -field WDI_FTM_BANDWIDTH_40
+### -field WDI_FTM_BANDWIDTH_40:4
 
 40 MHz.
 
-### -field WDI_FTM_BANDWIDTH_80
+### -field WDI_FTM_BANDWIDTH_80:5
 
 80 MHz.
 
-### -field WDI_FTM_BANDWIDTH_80_80
+### -field WDI_FTM_BANDWIDTH_80_80:6
 
 80+80 MHz.
 
-### -field WDI_FTM_BANDWIDTH_160
+### -field WDI_FTM_BANDWIDTH_160:7
 
 160 MHz.
 
-### -field WDI_FTM_BANDWIDTH_2160
+### -field WDI_FTM_BANDWIDTH_2160:8
 
 2160 MHz.
 

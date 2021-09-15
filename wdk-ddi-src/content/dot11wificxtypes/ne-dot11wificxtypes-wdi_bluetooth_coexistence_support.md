@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 tech.root: netvista
 title: WDI_BLUETOOTH_COEXISTENCE_SUPPORT (dot11wificxtypes.h)
-ms.date: 08/26/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enum defines Bluetooth coexistence support values.
@@ -41,27 +41,27 @@ The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enumeration defines Bluetooth coexistence 
 
 ## -enum-fields
 
-### -field WDI_BLUETOOTH_COEXISTENCE_UNKNOWN
+### -field WDI_BLUETOOTH_COEXISTENCE_UNKNOWN:0
 
 Unknown.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_PERFORMANCE_MAINTAINED
+### -field WDI_BLUETOOTH_COEXISTENCE_PERFORMANCE_MAINTAINED:1
 
 Wi-Fi and Bluetooth work at the same performance level during coexistence.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_DEGRADED_TO_1x1
+### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_DEGRADED_TO_1x1:2
 
 Wi-Fi centered. On a 2X2 device, Wi-Fi and Bluetooth coexists. Wi-Fi performance is reduced to 1X1 level.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_THROUGHPUT_DEGRADED
+### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_THROUGHPUT_DEGRADED:3
 
 Bluetooth centered. When coexisting, Bluetooth has priority and restricts Wi-Fi performance.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_MUTUALLY_EXCLUSIVE
+### -field WDI_BLUETOOTH_COEXISTENCE_MUTUALLY_EXCLUSIVE:4
 
 Wi-Fi and Bluetooth are mutually exclusive. One of the two stops working.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_MAX
+### -field WDI_BLUETOOTH_COEXISTENCE_MAX:5
 
 
 ## -remarks

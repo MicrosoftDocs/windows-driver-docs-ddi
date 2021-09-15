@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_DATA_RATE_FLAGS
 tech.root: netvista
 title: WDI_DATA_RATE_FLAGS (dot11wificxtypes.h)
-ms.date: 06/22/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_DATA_RATE_FLAGS enum defines the data rate flags.
@@ -41,15 +41,15 @@ The **WDI_DATA_RATE_FLAGS** enumeration defines the data rate flags.
 
 ## -enum-fields
 
-### -field WDI_DATA_RATE_NON_STANDARD
+### -field WDI_DATA_RATE_NON_STANDARD:0x01
 
 The data rate is not a standard data rate defined in the IEEE 802.11 standards.
 
-### -field WDI_DATA_RATE_RX_RATE
+### -field WDI_DATA_RATE_RX_RATE:0x02
 
 The data rate can be used for RX.
 
-### -field WDI_DATA_RATE_TX_RATE
+### -field WDI_DATA_RATE_TX_RATE:0x04
 
 The data rate can be used for TX.
 

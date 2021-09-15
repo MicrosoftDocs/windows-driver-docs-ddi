@@ -41,15 +41,15 @@ The **WDI_P2P_GO_INTERNAL_RESET_POLICY** enumeration defines the Wi-Fi Direct Gr
 
 ## -enum-fields
 
-### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL
+### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL:1
 
 If an internal-to-firmware Group Owner reset is performed, post-reset Group Owner must operate on the same operating channel as before the internal reset operation.
 
-### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION
+### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION:2
 
 If an internal-to-firmware Group Owner reset is performed, firmware may freely decide its new operating channel. For example, firmware may choose to minimize channel switching by adopting station port channel. If there is no optimization to be done, fall back to selecting previous operating channel.
 
-### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_MAX
+### -field WDI_P2P_GO_INTERNAL_RESET_POLICY_MAX:0xFFFFFFFF
 
 ## -remarks
 

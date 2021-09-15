@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_P2P_DISCOVER_TYPE
 tech.root: netvista
 title: WDI_P2P_DISCOVER_TYPE (dot11wificxtypes.h)
-ms.date: 06/24/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_DISCOVER_TYPE enum defines the Wi-Fi Direct discovery types.
@@ -37,31 +37,31 @@ dev_langs:
 
 ## -description
 
-The WDI_P2P_DISCOVER_TYPE enumeration defines the Wi-Fi Direct discovery types.
+The **WDI_P2P_DISCOVER_TYPE** enumeration defines the Wi-Fi Direct discovery types.
 
 ## -enum-fields
 
-### -field WDI_P2P_DISCOVER_TYPE_SCAN_ONLY
+### -field WDI_P2P_DISCOVER_TYPE_SCAN_ONLY:1
 
 Device discovery occurs only during the scan phase. Adapter should scan each channel at least once every 250 milliseconds.
 
-### -field WDI_P2P_DISCOVER_TYPE_FIND_ONLY
+### -field WDI_P2P_DISCOVER_TYPE_FIND_ONLY:2
 
 Device discovery occurs only during the find phase.
 
-### -field WDI_P2P_DISCOVER_TYPE_AUTO
+### -field WDI_P2P_DISCOVER_TYPE_AUTO:3
 
 Device discovery is determined by the port.
 
-### -field WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS
+### -field WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS:4
 
 Port must perform device discovery by scanning only Wi-Fi Direct social channels. In this setting, the adapter should scan each social channel at least once every 250 milliseconds.
 
-### -field WDI_P2P_DISCOVER_TYPE_MAX_VALUE
+### -field WDI_P2P_DISCOVER_TYPE_MAX_VALUE:0xFFFFFFFF
 
 ## -remarks
 
-The WDI_P2P_DISCOVER_TYPE enum is a value in the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) and [**WDI_TLV_P2P_BACKGROUND_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-background-discover-mode) TLVs. 
+The **WDI_P2P_DISCOVER_TYPE** enum is a value in the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) and [**WDI_TLV_P2P_BACKGROUND_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-background-discover-mode) TLVs. 
 
 ## -see-also
 

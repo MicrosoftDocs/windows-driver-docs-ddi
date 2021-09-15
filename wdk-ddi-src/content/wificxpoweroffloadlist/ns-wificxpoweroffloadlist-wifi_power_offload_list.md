@@ -54,7 +54,7 @@ Reserved. Client drivers must not read or write to this value directly.
 
 ## -remarks
 
-Call [**WIFI_POWER_OFFLOAD_LIST_INIT**](nf-wificxpoweroffloadlist-wifi_power_offload_list_init.md) to initialize this structure, then call [**WifiDeviceGetPowerOffloadList**](nf-wificxpoweroffloadlist-wifidevicegetpoweroffloadlist.md) to get the list of low power offloads to this Wi-Fi adapter. After you obtain the list, call [**WifiPowerOffloadListGetCount**](nf-wificxpoweroffloadlist-wifipoweroffloadlistgetcount.md) with this structure to get the number of WIFIPOWEROFFLOAD objects that represents the offloads, then loop over the objects and call [**WifiPowerOffloadListGetElement**](nf-wificxpoweroffloadlist-wifipoweroffloadlistgetelement.md) to retrieve each one. Once you have obtained a WIFIPOWEROFFLOAD object, call [**WifiPowerOffloadGetType**](../wificxpoweroffload.nf-wificxpoweroffload-wifipoweroffloadgettype.md) to get the type of that offload so you can call the appropriate function to get the offload's parameters.
+Call [**WIFI_POWER_OFFLOAD_LIST_INIT**](nf-wificxpoweroffloadlist-wifi_power_offload_list_init.md) to initialize this structure, then call [**WifiDeviceGetPowerOffloadList**](nf-wificxpoweroffloadlist-wifidevicegetpoweroffloadlist.md) to get the list of low power offloads to this Wi-Fi adapter. After you obtain the list, call [**WifiPowerOffloadListGetCount**](nf-wificxpoweroffloadlist-wifipoweroffloadlistgetcount.md) with this structure to get the number of WIFIPOWEROFFLOAD objects that represents the offloads, then loop over the objects and call [**WifiPowerOffloadListGetElement**](nf-wificxpoweroffloadlist-wifipoweroffloadlistgetelement.md) to retrieve each one. Once you have obtained a WIFIPOWEROFFLOAD object, call [**WifiPowerOffloadGetType**](../wificxpoweroffload/nf-wificxpoweroffload-wifipoweroffloadgettype.md) to get the type of that offload so you can call the appropriate function to get the offload's parameters.
 
 The client driver must only call power offload-related functions during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 
@@ -68,4 +68,4 @@ The client driver must only call power offload-related functions during a power 
 
 [**WifiPowerOffloadListGetElement**](nf-wificxpoweroffloadlist-wifipoweroffloadlistgetelement.md)
 
-[**WifiPowerOffloadGetType**](../wificxpoweroffload.nf-wificxpoweroffload-wifipoweroffloadgettype.md)
+[**WifiPowerOffloadGetType**](../wificxpoweroffload/nf-wificxpoweroffload-wifipoweroffloadgettype.md)

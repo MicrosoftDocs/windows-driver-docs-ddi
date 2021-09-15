@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_FTM_PROPAGATION
 tech.root: netvista
 title: WDI_FTM_PROPAGATION (dot11wificxtypes.h)
-ms.date: 07/19/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_FTM_PROPAGATION enum defines the propagation properties of a signal tat are estimated by the LE's logic.
@@ -55,7 +55,7 @@ The LE estimated a high accurate measurement due to the detection of the transmi
 
 ## -remarks
 
-The **WDI_FTM_BANDWIDTH** enum is a value in the [**WDI_TLV_FTM_RESPONSE**](/windows-hardware/drivers/netcx/wdi-tlv-ftm-response) TLV.
+The **WDI_FTM_PROPAGATION** enum is a value in the [**WDI_TLV_FTM_RESPONSE**](/windows-hardware/drivers/netcx/wdi-tlv-ftm-response) TLV.
 
 ## -see-also
 
