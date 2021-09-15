@@ -46,9 +46,15 @@ dev_langs:
 
 ### -param KeywordSpotter
 
+An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+
 ### -param EventId
 
+A pointer to a GUID that represents the EventId. 
+
 ### -param Arm
+
+A boolean value indicating if the keyword detection is armed (TBD - will be armed).
 
 ## -returns
 
@@ -56,11 +62,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+For general information about keyword detection, see [Voice Activation](/windows-hardware/drivers/audio/voice-activation) and [Multiple Voice Assistant](/windows-hardware/drivers/audio/voice-activation-mva).
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM     CodecC_EvtAcxKeywordSpotterRetrieveArm;
 
 ```
 

@@ -42,11 +42,17 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET tells the driver to that the keyword spotter (?? TBD has ) reset the keyword detection process.
+
 ## -parameters
 
 ### -param KeywordSpotter
 
+An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+
 ### -param EventId
+
+A pointer to a GUID that represents the EventId. 
 
 ## -returns
 
@@ -54,11 +60,15 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+For general information about keyword detection, see [Voice Activation](/windows-hardware/drivers/audio/voice-activation) and [Multiple Voice Assistant](/windows-hardware/drivers/audio/voice-activation-mva).
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET     CodecC_EvtAcxKeywordSpotterAssignReset;
+
 
 ```
 
