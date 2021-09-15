@@ -4,7 +4,7 @@ tech.root: netvista
 title: WifiPowerOffloadGetAdapter (wificxpoweroffload.h)
 ms.date: 09/10/2021
 targetos: Windows
-description: The WifiPowerOffloadGetAdapter function gets the Wi-Fi adapter for alow power protocol offload.
+description: The WifiPowerOffloadGetAdapter function gets the WiFiCx net adapter for alow power protocol offload.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **WifiPowerOffloadGetAdapter** function gets the Wi-Fi adapter for a low power protocol offload.
+The **WifiPowerOffloadGetAdapter** function gets the WiFiCx net adapter for a low power protocol offload.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ The **WifiPowerOffloadGetAdapter** function gets the Wi-Fi adapter for a low pow
 
 ## -returns
 
-Returns the NETADAPTER object that represents the Wi-Fi adapter for this power offload.
+Returns the NETADAPTER object that represents the WiFiCx net adapter for this power offload.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ tech.root: netvista
 title: WifiPowerOffloadListGetCount (wificxpoweroffloadlist.h)
 ms.date: 09/14/2021
 targetos: Windows
-description: The WifiPowerOffloadListGetCount function gets the number of low power protocol offloads to a Wi-Fi adapter.
+description: The WifiPowerOffloadListGetCount function gets the number of low power protocol offloads to a WiFiCx net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **WifiPowerOffloadListGetCount** function gets the number of low power protocol offloads to a Wi-Fi adapter.
+The **WifiPowerOffloadListGetCount** function gets the number of low power protocol offloads to a WiFiCx net adapter.
 
 ## -parameters
 
@@ -51,11 +51,11 @@ The **WifiPowerOffloadListGetCount** function gets the number of low power proto
 
 ## -returns
 
-Returns the number of low power offloads to this Wi-Fi adapter.
+Returns the number of low power offloads to this WiFiCx net adapter.
 
 ## -remarks
 
-Call [**WIFI_POWER_OFFLOAD_LIST_INIT**](nf-wificxpoweroffloadlist-wifi_power_offload_list_init.md) to initialize the [**WIFI_POWER_OFFLOAD_LIST**](../wificxpoweroffloadlist/ns-wificxpoweroffloadlist-wifi_power_offload_list.md) structure, then call [**WifiDeviceGetPowerOffloadList**](nf-wificxpoweroffloadlist-wifidevicegetpoweroffloadlist.md) to retrieve the low power protocol offload list. After getting the list, call this function to determine how many low power protocol offloads there are to this Wi-Fi adapter.
+Call [**WIFI_POWER_OFFLOAD_LIST_INIT**](nf-wificxpoweroffloadlist-wifi_power_offload_list_init.md) to initialize the [**WIFI_POWER_OFFLOAD_LIST**](../wificxpoweroffloadlist/ns-wificxpoweroffloadlist-wifi_power_offload_list.md) structure, then call [**WifiDeviceGetPowerOffloadList**](nf-wificxpoweroffloadlist-wifidevicegetpoweroffloadlist.md) to retrieve the low power protocol offload list. After getting the list, call this function to determine how many low power protocol offloads there are to this WiFiCx net adapter.
 
 The client driver must only call **WifiPowerOffloadListGetCount** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 

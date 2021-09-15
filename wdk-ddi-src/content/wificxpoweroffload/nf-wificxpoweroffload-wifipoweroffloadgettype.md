@@ -4,7 +4,7 @@ tech.root: netvista
 title: WifiPowerOffloadGetType (wificxpoweroffload.h)
 ms.date: 09/10/2021
 targetos: Windows
-description: The WifiPowerOffloadGetType function gets the power offload type for a low power protocol offload to a Wi-Fi adapter.
+description: The WifiPowerOffloadGetType function gets the power offload type for a low power protocol offload to a WiFiCx net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **WifiPowerOffloadGetType** function gets the Wi-Fi power offload type for a low power protocol offload to a Wi-Fi adapter.
+The **WifiPowerOffloadGetType** function gets the Wi-Fi power offload type for a low power protocol offload to a WiFiCx net adapter.
 
 ## -parameters
 

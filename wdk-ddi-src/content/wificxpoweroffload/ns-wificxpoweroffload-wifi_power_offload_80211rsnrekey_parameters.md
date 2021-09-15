@@ -4,7 +4,7 @@ tech.root: netvista
 title: WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS (wificxpoweroffload.h)
 ms.date: 09/10/2021
 targetos: Windows
-description: The WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS structure contains parameters for an 802.11 RSN rekey low power protocol offload to a Wi-Fi adapter.
+description: The WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS structure contains parameters for an 802.11 RSN rekey low power protocol offload to a WiFiCx net adapter.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS** structure contains parameters for an 802.11 RSN rekey low power protocol offload to a Wi-Fi adapter.
+The **WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS** structure contains parameters for an 802.11 RSN rekey low power protocol offload to a WiFiCx net adapter.
 
 ## -struct-fields
 

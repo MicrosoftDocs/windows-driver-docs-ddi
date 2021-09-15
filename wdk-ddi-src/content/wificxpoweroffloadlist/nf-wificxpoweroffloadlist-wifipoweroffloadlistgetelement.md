@@ -4,7 +4,7 @@ tech.root: netvista
 title: WifiPowerOffloadListGetElement (wificxpoweroffloadlist.h)
 ms.date: 09/14/2021
 targetos: Windows
-description: The WifiPowerOffloadListGetElement function gets a low power protocol offload from a list of offloads to a Wi-Fi adapter.
+description: The WifiPowerOffloadListGetElement function gets a low power protocol offload from a list of offloads to a WiFiCx net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **WifiPowerOffloadListGetElement** function gets a low power protocol offload from a list of offloads to a Wi-Fi adapter.
+The **WifiPowerOffloadListGetElement** function gets a low power protocol offload from a list of offloads to a WiFiCx net adapter.
 
 ## -parameters
 

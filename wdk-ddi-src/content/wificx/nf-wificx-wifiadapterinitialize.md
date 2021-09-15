@@ -52,13 +52,13 @@ The **WifiAdapterInitialize** function initializes a newly created NETADAPTER ob
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
-This method might return failure in low resource situations.
+This function might return failure in low resource situations.
 
 ## -remarks
 
-The client driver must call this method from within [*EvtWifiDeviceCreateAdapter*](nc-wificx-evt_wifi_device_create_adapter.md). 
+The client driver must call this function from within [*EvtWifiDeviceCreateAdapter*](nc-wificx-evt_wifi_device_create_adapter.md). 
 
 For more information, see [Writing a WiFiCx client driver](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver).
 

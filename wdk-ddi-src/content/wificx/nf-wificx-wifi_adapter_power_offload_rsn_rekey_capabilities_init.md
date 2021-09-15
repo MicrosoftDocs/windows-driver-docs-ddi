@@ -51,7 +51,7 @@ The **WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT** function initiali
 
 ## -remarks
 
-This methods zeroes out the memory of the [**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md) structure, fills in the **Size** member, and sets the **Enabled** member to **TRUE**.
+This function zeroes out the memory of the [**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md) structure, fills in the **Size** member, and sets the **Enabled** member to **TRUE**.
 
 Call [**WifiAdapterPowerOffloadSetRsnRekeyCapabilities**](nf-wificx-wifiadapterpoweroffloadsetrsnrekeycapabilities.md) to set the net adapter's RSN rekey power offload capabilities.
 

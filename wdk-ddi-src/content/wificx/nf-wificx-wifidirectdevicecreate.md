@@ -66,7 +66,7 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may r
 
 The client calls **WifiDirectDeviceCreate** from within its [*EvtWifiDeviceCreateWifiDirectDevice*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) routine. Call [**WifiDirectDeviceInitialize**](nf-wificx-wifidirectdeviceinitialize.md) to initialize this object. 
 
-For a code example of creating a WIFIDIRECTDEVICE object, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support).
+For a code example of creating a WIFIDIRECTDEVICE object, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-device-capabilities).
 
 
 ## -see-also
@@ -75,4 +75,4 @@ For a code example of creating a WIFIDIRECTDEVICE object, see [Wi-Fi Direct (P2P
 
 [**WifiDirectDeviceInitialize**](nf-wificx-wifidirectdeviceinitialize.md)
 
-[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support)
+[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-device-capabilities)

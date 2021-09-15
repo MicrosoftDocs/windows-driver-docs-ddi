@@ -4,7 +4,7 @@ tech.root: netvista
 title: WifiDeviceGetPowerOffloadList (wificxpoweroffloadlist.h)
 ms.date: 09/10/2021
 targetos: Windows
-description: The WifiDeviceGetPowerOffloadList function gets the list of low power protocol offloads to a Wi-Fi adapter.
+description: The WifiDeviceGetPowerOffloadList function gets the list of low power protocol offloads to a WiFiCx net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,14 +41,14 @@ dev_langs:
 
 ## -description
 
-The **WifiDeviceGetPowerOffloadList** function gets the list of low power protocol offloads to a Wi-Fi adapter.
+The **WifiDeviceGetPowerOffloadList** function gets the list of low power protocol offloads to a WiFiCx net adapter.
 
 
 ## -parameters
 
 ### -param Device
 
-[_In_] The WDFDEVICE object associated with the Wi-Fi adapter.
+[_In_] The WDFDEVICE object associated with the WiFiCx net adapter.
 
 ### -param List
 

@@ -68,11 +68,11 @@ In its *EvtWifiDeviceCreateWifiDirectDevice* callback, the client driver:
 - Calls [**WifiDirectDeviceInitialize**](nf-wificx-wifidirectdeviceinitialize.md) to initialize the object. 
 - Calls [**WifiDirectDeviceGetPortId**](nf-wificx-wifidirectdevicegetportid.md) to determine the port id (which is used in command messages).
 
-For a code example of implementing *EvtWifiDeviceCreateWifiDirectDevice*, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support).
+For a code example of implementing *EvtWifiDeviceCreateWifiDirectDevice*, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-device-capabilities).
 
 ## -see-also
 
-[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-(p2p)-support)
+[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-driect-device-capabilities)
 
 [**WifiDirectDeviceCreate**](nf-wificx-wifidirectdevicecreate.md)
 

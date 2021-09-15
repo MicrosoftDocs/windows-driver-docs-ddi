@@ -51,7 +51,7 @@ The **WIFI_POWER_OFFLOAD_LIST_INIT** function initializes a [**WIFI_POWER_OFFLOA
 
 ## -remarks
 
-This function zeroes out the memory of the [**WIFI_POWER_OFFLOAD_LIST**](ns-wificxpoweroffloadlist-wifi_power_offload_list.md) structure, then fills in the **Size** member. Client drivers must then call [**WifiDeviceGetPowerOffloadList**](nf-wificxpoweroffloadlist-wifidevicegetpoweroffloadlist.md) with the initialized structure to get the list of low power offloads to this Wi-Fi adapter.
+This function zeroes out the memory of the [**WIFI_POWER_OFFLOAD_LIST**](ns-wificxpoweroffloadlist-wifi_power_offload_list.md) structure, then fills in the **Size** member. Client drivers must then call [**WifiDeviceGetPowerOffloadList**](nf-wificxpoweroffloadlist-wifidevicegetpoweroffloadlist.md) with the initialized structure to get the list of low power offloads to this WiFiCx net adapter.
 
 The client driver must only call **WIFI_POWER_OFFLOAD_LIST_INIT** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 

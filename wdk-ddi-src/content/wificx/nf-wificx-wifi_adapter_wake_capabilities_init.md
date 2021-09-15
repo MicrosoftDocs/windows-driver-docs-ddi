@@ -51,7 +51,7 @@ The **WIFI_ADAPTER_WAKE_CAPABILITIES_INIT** method initializes a [**WIFI_ADAPTER
 
 ## -remarks
 
-This methods zeroes out the memory of the  **WIFI_ADAPTER_WAKE_CAPABILITIES** structure, then fills in the **Size** member. After calling this method, set the remaining members of the  **WIFI_ADAPTER_WAKE_CAPABILITIES** structure according to your device's capabilities, then call [**WifiAdapterSetWakeCapabilities**](nf-wificx-wifiadaptersetwakecapabilities.md).
+This function zeroes out the memory of the  **WIFI_ADAPTER_WAKE_CAPABILITIES** structure, then fills in the **Size** member. After calling this function, set the remaining members of the  **WIFI_ADAPTER_WAKE_CAPABILITIES** structure according to your device's capabilities, then call [**WifiAdapterSetWakeCapabilities**](nf-wificx-wifiadaptersetwakecapabilities.md).
 
 ## -see-also
 

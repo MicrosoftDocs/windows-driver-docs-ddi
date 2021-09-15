@@ -2,7 +2,7 @@
 UID: NF:wificx.WifiDeviceSetWiFiDirectCapabilities
 tech.root: netvista
 title: WifiDeviceSetWiFiDirectCapabilities (wificx.h)
-ms.date: 08/26/2021
+ms.date: 09/15/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceSetWiFiDirectCapabilities function sets the Wi-Fi Direct capabilities for a WiFiCx device.
@@ -62,11 +62,11 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may r
 
 Client drivers need to call **WifiDeviceSetWiFiDirectCapabilities** in the set device capabilities phase. Typically this is within [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md).
 
-For an example showing how to set Wi-Fi Direct capabilities, see [Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-direct-(p2p)-support)
+For an example showing how to set Wi-Fi Direct capabilities, see [Wi-Fi Direct support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-direct-device-capabilities).
 
 
 ## -see-also
 
 [**WIFI_WIFIDIRECT_CAPABILITIES**](ns-wificx-wifi_wifidirect_capabilities.md)
 
-[Wi-Fi Direct (P2P) Support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-direct-(p2p)-support)
+[Wi-Fi Direct support](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#wi-fi-direct-device-capabilities)
