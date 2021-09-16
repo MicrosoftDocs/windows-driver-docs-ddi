@@ -4,7 +4,7 @@ title: UfxDeviceNotifyAttach function (ufxclient.h)
 description: Notifies UFX that the device's USB cable has been attached.
 old-location: buses\ufxdevicenotifyattach.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 09/14/2021
 keywords: ["UfxDeviceNotifyAttach function"]
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
 req.header: ufxclient.h
@@ -42,30 +42,27 @@ api_name:
 
 # UfxDeviceNotifyAttach function
 
-
 ## -description
 
-Notifies UFX that the device's  USB cable has been attached.
+Notifies UFX that the device's USB cable has been attached.
 
 ## -parameters
 
-### -param UfxDevice 
+### -param UfxDevice
 
 [in]
-A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate).
 
 ## -remarks
 
-When the client driver calls <b>UfxDeviceNotifyAttach</b>, the USB function class extension (UFX) does the following:
+When the client driver calls **UfxDeviceNotifyAttach**, the USB function class extension (UFX) does the following:
 
-<ul>
-<li>Moves the device to the <i>Powered</i> state, as defined in the USB specification.</li>
-<li>Allows device enumeration to occur.</li>
-</ul>
-The client driver typically calls <b>UfxDeviceNotifyAttach</b> from its <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function, as shown in the following example.
+* Moves the device to the powered state, as defined in the USB specification.
+* Allows device enumeration to occur.
 
+The client driver typically calls **UfxDeviceNotifyAttach** from its [EVT_WDF_INTERRUPT_DPC](/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc) callback function, as shown in the following example.
 
-```
+```cpp
 VOID 
 DeviceInterrupt_EvtInterruptDpc (
     _In_ WDFINTERRUPT Interrupt,
@@ -75,8 +72,8 @@ DeviceInterrupt_EvtInterruptDpc (
 
 Routine Description:
 
-    'EvtInterruptDpc' handler for the device interrupt object.
-    https://msdn.microsoft.com/library/windows/hardware/ff541721(v=vs.85).aspx
+    'EVT_WDF_INTERRUPT_DPC' handler for the device interrupt object.
+    https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc
 
 Arguments:
 
@@ -145,7 +142,7 @@ Arguments:
     //
     switch (ControllerEvent.Type) {
     case EventTypeDevice:
-        HandleDeviceEvent(WdfDevice,  ControllerEvent.u.DeviceEvent);
+        HandleDeviceEvent(WdfDevice, ControllerEvent.u.DeviceEvent);
         break;
 
     case EventTypeEndpoint:
