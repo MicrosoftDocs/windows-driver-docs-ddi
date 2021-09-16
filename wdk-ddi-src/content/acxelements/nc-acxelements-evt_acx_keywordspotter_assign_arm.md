@@ -42,8 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM tells the driver to that the keyword spotter (?? TBD has ) assigned or armed???.
-
+TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM tells the driver to that the keyword spotter (?? TBD has ) assigned or armed something???.
 
 ## -parameters
 
@@ -51,10 +50,9 @@ TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM tells the driver to that the keyword spo
 
 An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
 
-
 ### -param EventId
 
-A pointer to a GUID that represents the EventId. 
+A pointer to a GUID that represents the EventId for the TBD. 
 
 ### -param Arm
 

@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
-ms.date: 08/27/2021
+ms.date: 09/15/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM tells the driver to that the keyword spotter (?? TBD has ) that the arm status has been or is being??? requested???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM tells the driver to that the keyword spotter (?? TBD has ) that the arm status has been or is being??? requested???.
+
 ## -parameters
 
 ### -param KeywordSpotter
@@ -71,6 +73,24 @@ Example usage is shown below.
 ```cpp
 EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM     CodecC_EvtAcxKeywordSpotterRetrieveArm;
 
+NTSTATUS
+NTAPI
+CodecC_EvtAcxKeywordSpotterRetrieveArm(
+    _In_    ACXKEYWORDSPOTTER   KeywordSpotter,
+    _In_    GUID *              EventId,
+    _Out_   BOOLEAN *           Arm
+    )
+{
+    PAGED_CODE();
+    PCODEC_KEYWORDSPOTTER_CONTEXT keywordSpotterCtx;
+    CKeywordDetector *              keywordDetector = NULL;
+
+    keywordSpotterCtx = GetCodecKeywordSpotterContext(KeywordSpotter);
+
+    keywordDetector = (CKeywordDetector*)keywordSpotterCtx->KeywordDetector;
+
+    return keywordDetector->GetArmed(*EventId, Arm);
+}
 ```
 
 ## -see-also

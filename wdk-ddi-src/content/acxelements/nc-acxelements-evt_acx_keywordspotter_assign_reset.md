@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
-ms.date: 08/27/2021
+ms.date: 09/15/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET tells the driver to that the keyword spotter (?? TBD has ) reset the keyword detection process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -52,7 +52,7 @@ An existing, initialized, ACXKEYWORDSPOTTER object.    For more information abou
 
 ### -param EventId
 
-A pointer to a GUID that represents the EventId. 
+A pointer to a GUID that represents the EventId for the TBD. 
 
 ## -returns
 
@@ -69,7 +69,23 @@ Example usage is shown below.
 ```cpp
 EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET     CodecC_EvtAcxKeywordSpotterAssignReset;
 
+NTSTATUS
+NTAPI
+CodecC_EvtAcxKeywordSpotterAssignReset(
+    _In_    ACXKEYWORDSPOTTER   KeywordSpotter,
+    _In_    GUID *              EventId
+    )
+{
+    PAGED_CODE();
+    PCODEC_KEYWORDSPOTTER_CONTEXT keywordSpotterCtx;
+    CKeywordDetector *            keywordDetector = NULL;
 
+    keywordSpotterCtx = GetCodecKeywordSpotterContext(KeywordSpotter);
+
+    keywordDetector = (CKeywordDetector*)keywordSpotterCtx->KeywordDetector;
+
+    return keywordDetector->ResetDetector(*EventId);
+}
 ```
 
 ## -see-also

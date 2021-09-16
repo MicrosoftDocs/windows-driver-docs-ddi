@@ -68,6 +68,8 @@ TBD - No flag bits are currently defined. Set this member to zero - AcxKeywordSp
 
 ### -field Pattern
 
+TBD - Represents the keyword configuration pattern GUID that is used to identify the keyword configuration.
+
 ### -field Callbacks
 
 The [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md) that identifies the driver callbacks for the keyword spotter operations.

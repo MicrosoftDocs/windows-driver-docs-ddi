@@ -52,11 +52,11 @@ An existing, initialized, ACXKEYWORDSPOTTER object.    For more information abou
 
 ### -param EventId
 
-A pointer to a GUID that represents the EventId. 
+A pointer to a GUID that represents the EventId for the TBD. 
 
 ### -param Pattern
 
-A pointer to the keyword detection pattern which is a TBD.
+TBD - A pointer to the keyword detection pattern which is a TBD.
 
 ### -param PatternSize
 

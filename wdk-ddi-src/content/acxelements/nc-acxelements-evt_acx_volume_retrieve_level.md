@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_VOLUME_RETRIEVE_LEVEL
 tech.root: audio 
 title: EVT_ACX_VOLUME_RETRIEVE_LEVEL
-ms.date: 08/27/2021
+ms.date: 09/16/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_VOLUME_RETRIEVE_LEVEL tells the driver that request to retrieve the volume level has made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,24 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_VOLUME_RETRIEVE_LEVEL tells the driver that request to retrieve the volume level has made???.
+
 ## -parameters
 
 ### -param Volume
 
+An existing, initialized, ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+
 ### -param Channel
 
+TBD - A number that represents the channel that is active (present -TBD?)
+
 ### -param VolumeLevel
+
+TBD - assume fields matches KSAUDIOENGINE_VOLUMELEVEL structure???
+
+Specifies the desired final volume level using the scale defined for the KSPROPERTY_AUDIOENGINE_VOLUMELEVEL property.
+
 
 ## -returns
 
@@ -61,6 +72,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_VOLUME_RETRIEVE_LEVEL       CodecR_EvtVolumeRetrieveLevel;
+
 
 ```
 
