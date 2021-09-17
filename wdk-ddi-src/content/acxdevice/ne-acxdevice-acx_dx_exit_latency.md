@@ -2,10 +2,10 @@
 UID: NE:acxdevice._ACX_DX_EXIT_LATENCY
 tech.root: audio
 title: ACX_DX_EXIT_LATENCY
-ms.date: 09/10/2021
+ms.date: 09/17/2021
 targetos: Windows
 description: The ACX_DX_EXIT_LATENCY enum defines values that define the ACX device exit latency.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxdevice.h

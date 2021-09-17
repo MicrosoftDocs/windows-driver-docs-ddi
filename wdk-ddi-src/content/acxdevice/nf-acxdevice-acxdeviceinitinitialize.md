@@ -2,10 +2,10 @@
 UID: NF:acxdevice.AcxDeviceInitInitialize
 tech.root: audio
 title: AcxDeviceInitInitialize
-ms.date: 09/10/2021
+ms.date: 09/17/2021
 targetos: Windows
 description: The client driver must call AcxDeviceInitInitialize in its EVT_WDF_DRIVER_DEVICE_ADD callback, before calling WdfDeviceCreate.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

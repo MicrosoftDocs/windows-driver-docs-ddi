@@ -1,7 +1,7 @@
 ---
-UID: NA:acxdevice
+UID: NA:acxdriver
 tech.root: audio
-title: acxdevice.h header
+title: acxdriver.h header
 ms.date: 09/17/2021
 targetos: Windows
 description: Header used by audio class extension.
@@ -10,7 +10,7 @@ req.assembly:
 req.construct-type: apiset
 req.ddi-compliance: 
 req.dll: 
-req.header: acxdevice.h
+req.header: acxdriver.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -31,12 +31,12 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - acxdevice.h
+ - acxdriver.h
 api_name:
- - acxdevice
+ - acxdriver
 f1_keywords:
- - acxdevice
- - acxdevice/acxdevice
+ - acxdriver
+ - acxdriver/acxdriver
 dev_langs:
  - c++
 ---

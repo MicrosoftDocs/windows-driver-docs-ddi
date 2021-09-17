@@ -2,10 +2,10 @@
 UID: NF:acxdevice.AcxDeviceRemoveCircuitDevice
 tech.root: audio
 title: AcxDeviceRemoveCircuitDevice
-ms.date: 09/10/2021
+ms.date: 09/17/2021
 targetos: Windows
 description: The AcxDeviceRemoveCircuitDevice function removes an ACX circuit device from a specified parent device.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
