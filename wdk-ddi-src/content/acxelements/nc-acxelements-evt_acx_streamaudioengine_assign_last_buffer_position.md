@@ -46,7 +46,13 @@ dev_langs:
 
 ### -param StreamAudioEngine
 
+An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Position
+
+The stream position in bytes (TBD??). This is a (0/1) based on location.
+
+TBD - Need to better describe if this is relative to the stream, etc. And if still applies [Audio Position Property](/windows-hardware/drivers/audio/audio-position-property)
 
 ## -returns
 
@@ -59,6 +65,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION       CodecR_EvtAcxStreamAudioEngineAssignLastBufferPosition;
+
 
 ```
 

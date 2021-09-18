@@ -52,7 +52,7 @@ An existing, initialized, ACXVOLUME object. For more information about ACX objec
 
 ### -param Channel
 
-TBD - A number that represents the channel that is active (present -TBD?)
+TBD - A number that represents the channel that is active (present -TBD?).
 
 ### -param VolumeLevel
 
@@ -71,9 +71,35 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-EVT_ACX_VOLUME_ASSIGN_LEVEL         CodecR_EvtVolumeAssignLevel;
+EVT_ACX_VOLUME_ASSIGN_LEVEL         HDACodec_EvtVolumeAssignLevelCallback;
 
+NTSTATUS
+HDACodec_EvtVolumeAssignLevelCallback(
+    _In_    ACXVOLUME   Volume,
+    _In_    ULONG       Channel,
+    _In_    LONG        VolumeLevel
+)
+{
+    PAGED_CODE();
 
+    ASSERT(Volume);
+    PCODEC_ACXVOLUME_CONTEXT volumeCtx = GetCodecVolumeElementContext(Volume);
+    ASSERT(volumeCtx);
+
+    if (Channel != ALL_CHANNELS_ID)
+    {
+        volumeCtx->VolumeNodeDescriptor->SetChannelVolume(Channel, VolumeLevel, TRUE);
+    }
+    else
+    {
+        for (LONG i = 0; i < volumeCtx->VolumeNodeDescriptor->NumChannels(); ++i)
+        {
+            volumeCtx->VolumeNodeDescriptor->SetChannelVolume(i, VolumeLevel, TRUE);
+        }
+    }
+
+    return STATUS_SUCCESS;
+}
 ```
 
 ## -see-also

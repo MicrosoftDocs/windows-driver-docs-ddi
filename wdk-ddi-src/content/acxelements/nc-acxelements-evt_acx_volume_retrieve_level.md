@@ -60,7 +60,6 @@ TBD - assume fields matches KSAUDIOENGINE_VOLUMELEVEL structure???
 
 Specifies the desired final volume level using the scale defined for the KSPROPERTY_AUDIOENGINE_VOLUMELEVEL property.
 
-
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -74,7 +73,32 @@ Example usage is shown below.
 ```cpp
 EVT_ACX_VOLUME_RETRIEVE_LEVEL       CodecR_EvtVolumeRetrieveLevel;
 
+NTSTATUS
+NTAPI
+CodecR_EvtVolumeRetrieveLevel(
+    _In_  ACXVOLUME Volume,
+    _In_  ULONG     Channel,
+    _Out_ LONG *    VolumeLevel
+)
+{
+    PCODEC_VOLUME_ELEMENT_CONTEXT   volumeCtx;
 
+    PAGED_CODE();
+
+    volumeCtx = GetCodecVolumeElementContext(Volume);
+    ASSERT(volumeCtx);
+
+    if (Channel != ALL_CHANNELS_ID)
+    {
+        *VolumeLevel = volumeCtx->VolumeLevel[Channel];
+    }
+    else
+    {
+        *VolumeLevel = volumeCtx->VolumeLevel[0];
+    }
+
+    return STATUS_SUCCESS;
+}
 ```
 
 ## -see-also
