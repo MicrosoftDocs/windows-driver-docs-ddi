@@ -2,10 +2,10 @@
 UID: NF:acxdevice.AcxDeviceDetachCircuit
 tech.root: audio
 title: AcxDeviceDetachCircuit
-ms.date: 09/10/2021
+ms.date: 09/17/2021
 targetos: Windows
 description: The AcxDeviceDetachCircuit function detaches an audio circuit from a WDFDEVICE prior to removal.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

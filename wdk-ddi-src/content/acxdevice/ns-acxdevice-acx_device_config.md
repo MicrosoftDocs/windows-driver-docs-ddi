@@ -2,10 +2,10 @@
 UID: NS:acxdevice._ACX_DEVICE_CONFIG
 tech.root: audio
 title: ACX_DEVICE_CONFIG
-ms.date: 09/10/2021
+ms.date: 09/17/2021
 targetos: Windows
 description: The ACX_DEVICE_CONFIG structure provides configuration information to the class extension.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

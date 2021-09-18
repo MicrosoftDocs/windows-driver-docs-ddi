@@ -2,10 +2,10 @@
 UID: NF:acxdevice.AcxDeviceAddFactoryCircuit
 tech.root: audio
 title: AcxDeviceAddFactoryCircuit
-ms.date: 09/10/2021
+ms.date: 09/17/2021
 targetos: Windows
 description: The AcxDeviceAddFactoryCircuit function adds a factory circuit to a WDFDEVICE for creating audio circuits.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

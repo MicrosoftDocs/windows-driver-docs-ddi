@@ -1,16 +1,16 @@
 ---
-UID: NA:acxdevice
+UID: NF:acxdriver.AcxDriverIsVersionAvailable
 tech.root: audio
-title: acxdevice.h header
-ms.date: 09/17/2021
+title: AcxDriverIsVersionAvailable
+ms.date: 
 targetos: Windows
-description: Header used by audio class extension.
+description: 
 prerelease: false
 req.assembly: 
-req.construct-type: apiset
+req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
-req.header: acxdevice.h
+req.header: acxdriver.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -22,27 +22,35 @@ req.redist:
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
- - HeaderDef
+ - 
 api_location:
- - acxdevice.h
+ - acxdriver.h
 api_name:
- - acxdevice
+ - AcxDriverIsVersionAvailable
 f1_keywords:
- - acxdevice
- - acxdevice/acxdevice
+ - AcxDriverIsVersionAvailable
+ - acxdriver/AcxDriverIsVersionAvailable
 dev_langs:
  - c++
 ---
 
 ## -description
 
-This header is used by audio. For more information, see:
+## -parameters
 
-- [Audio](../_audio/index.md)
+### -param Driver
+
+### -param VersionAvailableParams
+
+## -returns
+
+## -remarks
+
+## -see-also
+
