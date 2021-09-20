@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_MUTE_RETRIEVE_STATE
 ms.date: 09/16/2021
 targetos: Windows
-description: TBD - EVT_ACX_MUTE_RETRIEVE_STATE tells the driver that request to retrieve the mute state has made???.
+description: TBD - EVT_ACX_MUTE_RETRIEVE_STATE tells the driver that a request to retrieve the mute state has made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_MUTE_RETRIEVE_STATE tells the driver that request to retrieve the mute state has made???.
+TBD - EVT_ACX_MUTE_RETRIEVE_STATE tells the driver that a request to retrieve the mute state has been made???.
 
 ## -parameters
 

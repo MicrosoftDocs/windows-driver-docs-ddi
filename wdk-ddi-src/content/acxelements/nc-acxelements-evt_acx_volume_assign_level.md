@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_VOLUME_ASSIGN_LEVEL
 ms.date: 09/16/2021
 targetos: Windows
-description: TBD - EVT_ACX_VOLUME_ASSIGN_LEVEL tells the driver that request to assign the volume level has made???.
+description: TBD - EVT_ACX_VOLUME_ASSIGN_LEVEL tells the driver that a request to assign the volume level has made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_VOLUME_ASSIGN_LEVEL tells the driver that request to assign the volume level has made???.
+TBD - EVT_ACX_VOLUME_ASSIGN_LEVEL tells the driver that a request to assign the volume level has made???.
 
 ## -parameters
 

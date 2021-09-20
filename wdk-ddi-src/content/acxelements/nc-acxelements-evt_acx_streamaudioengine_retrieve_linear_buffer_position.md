@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION tells the driver that a request to retrieve the linear buffer position has been made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION tells the driver that a request to retrieve the linear buffer position has been made???.
+
 ## -parameters
 
 ### -param StreamAudioEngine
@@ -65,7 +67,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION   CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition;
 
+NTSTATUS
+CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition(
+    _In_    ACXSTREAMAUDIOENGINE    StreamAudioEngine,
+    _Out_   PULONGLONG              Position
+)
+{
+    NTSTATUS status = STATUS_INVALID_PARAMETER;
+    ACXSTREAM stream;
+    PCODEC_STREAM_CONTEXT ctx;
+    CRenderStreamEngine * streamEngine = NULL;
+
+    PAGED_CODE();
+
+    stream = AcxStreamAudioEngineGetStream(StreamAudioEngine);
+    if (stream)
+    {
+        ctx = GetCodecStreamContext(stream);
+
+        streamEngine = static_cast<CRenderStreamEngine*>(ctx->StreamEngine);
+
+        status = streamEngine->GetLinearBufferPosition(Position);
+    }
+
+    return status;
+}
 ```
 
 ## -see-also

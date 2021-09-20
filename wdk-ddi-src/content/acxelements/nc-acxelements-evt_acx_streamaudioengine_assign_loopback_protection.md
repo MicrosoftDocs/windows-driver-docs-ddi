@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION tells the driver that a request to assign loop back protection has been made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION tells the driver that a request to assign loop back protection has been made???.
+
 ## -parameters
 
 ### -param StreamAudioEngine
@@ -60,9 +62,24 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
+TBD - No call back implementation code found.
+
 ```cpp
 EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION        CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection;
 
+NTSTATUS
+CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection(
+    _In_    ACXSTREAMAUDIOENGINE    StreamAudioEngine,
+    _In_    ACX_CONSTRICTOR_OPTION  ConstrictorOption
+)
+{
+    UNREFERENCED_PARAMETER(StreamAudioEngine);
+    UNREFERENCED_PARAMETER(ConstrictorOption);
+
+    PAGED_CODE();
+
+    return STATUS_SUCCESS;
+}
 
 ```
 

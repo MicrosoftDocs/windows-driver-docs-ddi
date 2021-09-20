@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver that a request to assign the current effects state has made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver that a request to assign the current effects state has been made???.
+
 ## -parameters
 
 ### -param StreamAudioEngine
@@ -65,9 +67,21 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
+TBD - No call back implementation code found.
+
 ```cpp
+EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE              CodecR_EvtAcxStreamAudioEngineAssignEffectsState;
 
-
+NTSTATUS
+DspR_EvtAcxStreamAudioEngineAssignEffectsState(
+    ACXSTREAMAUDIOENGINE,
+    ULONG
+)
+{
+    PAGED_CODE();
+    
+    return STATUS_SUCCESS;
+}
 ```
 
 ## -see-also

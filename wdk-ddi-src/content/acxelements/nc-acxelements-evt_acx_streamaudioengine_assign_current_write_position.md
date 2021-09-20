@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION
 ms.date: 09/16/2021
 targetos: Windows
-description: TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION tells the driver that request to assign the current write position has made???. 
+description: TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION tells the driver that a request to assign the current write position has made???. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,8 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION tells the driver that request to assign the current write position has made???.
-
+TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION tells the driver that a request to assign the current write position has been made???.
 
 ## -parameters
 
@@ -95,7 +94,6 @@ CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition(
 
     return status;
 }
-
 ```
 
 ## -see-also

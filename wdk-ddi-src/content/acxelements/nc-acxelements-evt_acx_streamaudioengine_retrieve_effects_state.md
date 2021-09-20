@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 targetos: Windows
-description: 
+description: TBD - EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE tells the driver that a request to retrieve the effects state has been made???.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+TBD - EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE tells the driver that a request to retrieve the effects state has been made???.
+
 ## -parameters
 
 ### -param StreamAudioEngine
@@ -54,7 +56,6 @@ TBD - is this the retrieved effects state?
 
 TODO: This is a ulong, but wondering if it would better to reference a state enum such as ACX_STREAM_STATE?
 
-
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -65,10 +66,26 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
+TBD - No call back implementation code found.
+
 ```cpp
-EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION   CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition;
+EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE            CodecR_EvtAcxStreamAudioEngineRetrieveEffectsState;
 
+NTSTATUS
+NTAPI
+CodecR_EvtAcxStreamAudioEngineRetrieveEffectsState(
+    _In_    ACXSTREAMAUDIOENGINE    StreamAudioEngine,
+    _Out_   PULONG                  State
+)
+{
+    UNREFERENCED_PARAMETER(StreamAudioEngine);
 
+    PAGED_CODE();
+
+    *State = TRUE;
+
+    return STATUS_SUCCESS;
+}
 ```
 
 ## -see-also

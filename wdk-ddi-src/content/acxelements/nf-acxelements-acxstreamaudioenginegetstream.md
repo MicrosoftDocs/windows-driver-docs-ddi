@@ -60,6 +60,32 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+NTSTATUS
+DspR_EvtAcxStreamAudioEngineRetrievePresentationPosition(
+    _In_    ACXSTREAMAUDIOENGINE    StreamAudioEngine,
+    _Out_   PULONGLONG              PositionInBlocks,
+    _Out_   PULONGLONG              QPCPosition
+)
+{
+    NTSTATUS status = STATUS_INVALID_PARAMETER;
+    ACXSTREAM stream;
+    PDSP_STREAM_CONTEXT ctx;
+    COffloadStreamEngine* streamEngine = NULL;
+
+    PAGED_CODE();
+
+    stream = AcxStreamAudioEngineGetStream(StreamAudioEngine);
+    if (stream)
+    {
+        ctx = GetDspStreamContext(stream);
+
+        streamEngine = static_cast<COffloadStreamEngine*>(ctx->StreamEngine);
+
+        status = streamEngine->GetPresentationPosition(PositionInBlocks, QPCPosition);
+    }
+
+    return status;
+}
 
 ```
 
