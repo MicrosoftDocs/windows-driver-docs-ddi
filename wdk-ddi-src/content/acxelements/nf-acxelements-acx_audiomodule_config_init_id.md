@@ -42,19 +42,30 @@ dev_langs:
 
 ## -description
 
+TBD - The ACX_AUDIOMODULE_CONFIG_INIT_ID function initializes an [ACX_AUDIOMODULE_CONFIG](ns-acxelements-acx_audiomodule_config.md) structure.
+
+It is different from [ACX_AUDIOMODULE_CONFIG_INIT](nf-acxelements-acx_audiomodule_config_init.md) function in that and Id is TBD TBD TBD.
+
 ## -parameters
 
 ### -param Config
 
+An [ACX_AUDIOMODULE_CONFIG](ns-acxelements-acx_audiomodule_config.md) structure.
+
 ### -param Id
+
+TBD TBD - An Id that is used to TBD
 
 ## -remarks
 
 ### Example
 
+TBD - No example usage found
+
 Example usage is shown below.
 
 ```cpp
+
 
 ```
 

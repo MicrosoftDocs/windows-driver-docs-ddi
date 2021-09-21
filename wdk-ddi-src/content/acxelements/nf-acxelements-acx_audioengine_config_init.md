@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_AUDIOENGINE_CONFIG_INIT
 tech.root: audio 
 title: ACX_AUDIOENGINE_CONFIG_INIT
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 targetos: Windows
-description: 
+description: TBD - The ACX_AUDIOENGINE_CONFIG_INIT function initializes an ACX_AUDIOENGINE_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The ACX_AUDIOENGINE_CONFIG_INIT function initializes an [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.
+
 ## -parameters
 
 ### -param cfg
+
+An [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.
 
 ## -remarks
 
@@ -54,6 +58,9 @@ Example usage is shown below.
 
 ```cpp
 
+  ACX_AUDIOENGINE_CONFIG          audioEngineCfg;
+
+  ACX_AUDIOENGINE_CONFIG_INIT(&audioEngineCfg);
 ```
 
 ## -see-also

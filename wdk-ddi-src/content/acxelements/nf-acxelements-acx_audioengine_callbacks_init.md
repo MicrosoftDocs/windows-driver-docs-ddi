@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_AUDIOENGINE_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_AUDIOENGINE_CALLBACKS_INIT
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 targetos: Windows
-description: 
+description: The ACX_AUDIOENGINE_CALLBACKS_INIT function initializes the ACX audio engine callbacks.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The ACX_AUDIOENGINE_CALLBACKS_INIT function initializes the ACX audio engine callbacks.
+
 ## -parameters
 
 ### -param Callbacks
+
+An [ACX_AUDIOENGINE_CALLBACKS](ns-acxelements-acx_audioengine_callbacks.md) structure. 
 
 ## -remarks
 
@@ -53,7 +57,9 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+    ACX_AUDIOENGINE_CALLBACKS       audioEngineCallbacks;
 
+    ACX_AUDIOENGINE_CALLBACKS_INIT(&audioEngineCallbacks);
 ```
 
 ## -see-also
