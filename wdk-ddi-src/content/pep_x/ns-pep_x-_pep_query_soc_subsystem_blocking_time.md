@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME** structure is used by the [PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification](/windows-hardware/drivers/ddi/index) to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
+The **PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME** structure is used by the [PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification](../index.yml) to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The **PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME** structure is used by the [PEP_DPM_
 
 ### -field BlockingTime
 
-[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous [PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](/windows-hardware/drivers/ddi/index).
+[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous [PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](../index.yml).
 
 ### -field Flags
 
@@ -76,6 +76,6 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-[PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification](/windows-hardware/drivers/ddi/index)
+[PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification](../index.yml)
 
-[PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](/windows-hardware/drivers/ddi/index)
+[PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](../index.yml)

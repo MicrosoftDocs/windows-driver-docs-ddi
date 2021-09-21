@@ -84,22 +84,22 @@ Be aware of the following derived types:
 
 ## -see-also
 
-[LUID](/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)
+[LUID](../igpupvdev/ns-igpupvdev-_luid.md)
 
-[LUID_AND_ATTRIBUTES](/windows-hardware/drivers/ddi/wdm/ns-wdm-_luid_and_attributes)
+[LUID_AND_ATTRIBUTES](./ns-wdm-_luid_and_attributes.md)
 
 [PRIVILEGE_SET](/previous-versions/windows/hardware/drivers/ff551860(v=vs.85))
 
-[PsImpersonateClient](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psimpersonateclient)
+[PsImpersonateClient](../ntifs/nf-ntifs-psimpersonateclient.md)
 
-[PsReferenceImpersonationToken](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psreferenceimpersonationtoken)
+[PsReferenceImpersonationToken](../ntifs/nf-ntifs-psreferenceimpersonationtoken.md)
 
 [SECURITY_SUBJECT_CONTEXT](/windows-hardware/drivers/kernel/eprocess)
 
-[SID_AND_ATTRIBUTES](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes)
+[SID_AND_ATTRIBUTES](../ntifs/ns-ntifs-_sid_and_attributes.md)
 
-[SeAccessCheck](/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck)
+[SeAccessCheck](./nf-wdm-seaccesscheck.md)
 
-[SeQueryInformationToken](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken)
+[SeQueryInformationToken](../ntifs/nf-ntifs-sequeryinformationtoken.md)
 
 [ZwQueryInformationToken](/previous-versions/ff567055(v=vs.85))

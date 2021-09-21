@@ -50,7 +50,7 @@ The **KeSetTimerEx** routine sets the absolute or relative interval at which a t
 
 ### -param Timer
 
-[in, out] Pointer to a timer object that was initialized with [KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer) or [KeInitializeTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex).
+[in, out] Pointer to a timer object that was initialized with [KeInitializeTimer](./nf-wdm-keinitializetimer.md) or [KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md).
 
 ### -param DueTime
 
@@ -62,7 +62,7 @@ The **KeSetTimerEx** routine sets the absolute or relative interval at which a t
 
 ### -param Dpc
 
-[in, optional] Pointer to a DPC object that was initialized by [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc). This parameter is optional.
+[in, optional] Pointer to a DPC object that was initialized by [KeInitializeDpc](./nf-wdm-keinitializedpc.md). This parameter is optional.
 
 ## -returns
 
@@ -90,24 +90,24 @@ A DPC routine cannot deallocate a periodic timer. A DPC routine can deallocate a
 
 Note that a periodic timer is automatically restarted as soon as it expires. Thus, on a multiprocessor machine, the DPC for a periodic timer can be running on two processors simultaneously.
 
-Only one instantiation of a given DPC object can be queued at any given moment. To avoid potential race conditions, the DPC passed to **KeSetTimerEx** should not be passed to [KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc).
+Only one instantiation of a given DPC object can be queued at any given moment. To avoid potential race conditions, the DPC passed to **KeSetTimerEx** should not be passed to [KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md).
 
-Drivers must cancel any active timers in their [Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload) routines. Use [KeCancelTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer) to cancel any timers.
+Drivers must cancel any active timers in their [Unload](./nc-wdm-driver_unload.md) routines. Use [KeCancelTimer](./nf-wdm-kecanceltimer.md) to cancel any timers.
 
 For more information about timer objects, see [Timer Objects and DPCs](/windows-hardware/drivers/kernel/timer-objects-and-dpcs).
 
 ## -see-also
 
-[KeCancelTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer)
+[KeCancelTimer](./nf-wdm-kecanceltimer.md)
 
-[KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc)
+[KeInitializeDpc](./nf-wdm-keinitializedpc.md)
 
-[KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer)
+[KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-[KeInitializeTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex)
+[KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md)
 
-[KeReadStateTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatetimer)
+[KeReadStateTimer](./nf-wdm-kereadstatetimer.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

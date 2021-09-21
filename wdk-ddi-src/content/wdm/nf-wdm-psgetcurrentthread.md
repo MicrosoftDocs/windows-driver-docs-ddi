@@ -56,12 +56,12 @@ The **PsGetCurrentThread** routine identifies the current thread.
 
 ## -see-also
 
-[KeGetCurrentThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread)
+[KeGetCurrentThread](./nf-wdm-kegetcurrentthread.md)
 
-[PsCreateSystemThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread)
+[PsCreateSystemThread](./nf-wdm-pscreatesystemthread.md)
 
 [PsGetCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
-[PsGetCurrentProcessId](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid)
+[PsGetCurrentProcessId](../ntddk/nf-ntddk-psgetcurrentprocessid.md)
 
-[PsIsSystemThread](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread)
+[PsIsSystemThread](../ntifs/nf-ntifs-psissystemthread.md)

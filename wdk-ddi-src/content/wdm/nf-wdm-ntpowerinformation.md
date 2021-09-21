@@ -66,11 +66,11 @@ The **ZwPowerInformation** routine sets or retrieves system power information.
 
 ### -param OutputBuffer
 
-[out, optional] A pointer to an output buffer. The data type of this buffer depends on the information level requested in the *InformationLevel* parameter. For the **PlatformInformation** level, the only currently supported value, the *OutputBuffer* parameter is required and should be of the [POWER_PLATFORM_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information) type.
+[out, optional] A pointer to an output buffer. The data type of this buffer depends on the information level requested in the *InformationLevel* parameter. For the **PlatformInformation** level, the only currently supported value, the *OutputBuffer* parameter is required and should be of the [POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md) type.
 
 ### -param OutputBufferLength
 
-[in] Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. *PlatformInformation*, the only currently supported value, requires a buffer that is the size of a [POWER_PLATFORM_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information) structure.
+[in] Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. *PlatformInformation*, the only currently supported value, requires a buffer that is the size of a [POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md) structure.
 
 ## -returns
 
@@ -84,7 +84,7 @@ Returns STATUS_SUCCESS if the call is successful. If the call fails, possible er
 
 ## -remarks
 
-[NtPowerInformation](/windows-hardware/drivers/ddi/wdm/nf-wdm-ntpowerinformation) and **ZwPowerInformation** are two versions of the same Windows Native System Services routine.
+[NtPowerInformation]() and **ZwPowerInformation** are two versions of the same Windows Native System Services routine.
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
@@ -99,6 +99,6 @@ NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo
 
 ## -see-also
 
-[POWER_PLATFORM_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information)
+[POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)

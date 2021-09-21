@@ -68,6 +68,6 @@ For more information about threaded DPCs, see [Introduction to Threaded DPCs](/w
 
 [CustomThreadedDpc](nc-wdm-kdeferred_routine.md)
 
-[KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc)
+[KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md)
 
-[KeRemoveQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc)
+[KeRemoveQueueDpc](./nf-wdm-keremovequeuedpc.md)

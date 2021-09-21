@@ -58,7 +58,7 @@ The **KeSetEvent** routine sets an event object to a signaled state if the event
 
 ### -param Wait
 
-[in] Specifies whether the call to **KeSetEvent** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeSetEvent** call must be followed by a call to [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects), **KeWaitForMutexObject**, or [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject). For more information, see the following Remarks section.
+[in] Specifies whether the call to **KeSetEvent** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeSetEvent** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 
@@ -66,7 +66,7 @@ If the previous state of the event object was signaled, a nonzero value is retur
 
 ## -remarks
 
-Calling **KeSetEvent** causes the event to attain a signaled state. If the event is a notification event, the system attempts to satisfy as many waits as possible on the event object. The event remains signaled until a call to [KeClearEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent) or [KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent) clears it. If the event is a synchronization event, one wait is satisfied before the system automatically clears the event.
+Calling **KeSetEvent** causes the event to attain a signaled state. If the event is a notification event, the system attempts to satisfy as many waits as possible on the event object. The event remains signaled until a call to [KeClearEvent](./nf-wdm-keclearevent.md) or [KeResetEvent](./nf-wdm-keresetevent.md) clears it. If the event is a synchronization event, one wait is satisfied before the system automatically clears the event.
 
 The **KeSetEvent** routine might temporarily raise the IRQL. If the *Wait* parameter is **FALSE**, the routine, before it returns, restores the IRQL to the original value that it had at the start of the call.
 
@@ -80,16 +80,16 @@ If *Wait* is set to **FALSE**, the caller can be running at IRQL <= DISPATCH_LEV
 
 ## -see-also
 
-[KeClearEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent)
+[KeClearEvent](./nf-wdm-keclearevent.md)
 
-[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[KeInitializeEvent](./nf-wdm-keinitializeevent.md)
 
-[KeReadStateEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstateevent)
+[KeReadStateEvent](./nf-wdm-kereadstateevent.md)
 
-[KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent)
+[KeResetEvent](./nf-wdm-keresetevent.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)
 
 [Specifying Priority Boosts When Completing I/O Requests](/windows-hardware/drivers/wdf/specifying-priority-boosts-when-completing-i-o-requests)

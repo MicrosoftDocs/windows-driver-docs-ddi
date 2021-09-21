@@ -68,19 +68,19 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an [InterfaceReference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference) routine that increments the interface's reference count.
+A pointer to an [InterfaceReference](./nc-wdm-pinterface_reference.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-A pointer to an [InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](./nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ### -field TranslateBusAddress
 
-A pointer to a [TranslateBusAddress](/windows-hardware/drivers/ddi/wdm/nc-wdm-translate_bus_address) routine that translates addresses on the parent bus to logical addresses.
+A pointer to a [TranslateBusAddress](./nc-wdm-translate_bus_address.md) routine that translates addresses on the parent bus to logical addresses.
 
 ### -field GetDmaAdapter
 
-A pointer to a [GetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_dma_adapter) routine that returns a DMA adapter structure ([DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter)) for the target device.
+A pointer to a [GetDmaAdapter](./nc-wdm-get_dma_adapter.md) routine that returns a DMA adapter structure ([DMA_ADAPTER](./ns-wdm-_dma_adapter.md)) for the target device.
 
 ### -field SetBusData
 
@@ -88,11 +88,11 @@ A pointer to a [SetBusData](/previous-versions/windows/hardware/drivers/gg604856
 
 ### -field GetBusData
 
-A pointer to a [GetBusData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_set_device_data) routine that reads data from the device's configuration space.
+A pointer to a [GetBusData](./nc-wdm-get_set_device_data.md) routine that reads data from the device's configuration space.
 
 ## -remarks
 
-The **BUS_INTERFACE_STANDARD** structure is an extension of the [INTERFACE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) structure.
+The **BUS_INTERFACE_STANDARD** structure is an extension of the [INTERFACE](./ns-wdm-_interface.md) structure.
 
 Some operations on a device are reserved for the device's parent bus driver. These operations might include accessing the device-specific configuration space of a bus or programming a DMA controller.
 
@@ -100,29 +100,29 @@ To read from or write to a device's configuration space, a device driver must re
 
 - By sending the I/O request packets (IRPs) [IRP_MN_READ_CONFIG](/windows-hardware/drivers/kernel/irp-mn-read-config) and [IRP_MN_WRITE_CONFIG](/windows-hardware/drivers/kernel/irp-mn-write-config) to the bus driver.
 
-- By obtaining an interface from the bus driver. The device driver can then access its device's configuration space by making direct calls to the bus driver routines provided by the **BUS_INTERFACE_STANDARD** interface structure. Its member routines, [GetBusData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_set_device_data) and [SetBusData](/previous-versions/windows/hardware/drivers/gg604856(v=vs.85)), can be used to read from and write to a device's configuration space, respectively.
+- By obtaining an interface from the bus driver. The device driver can then access its device's configuration space by making direct calls to the bus driver routines provided by the **BUS_INTERFACE_STANDARD** interface structure. Its member routines, [GetBusData](./nc-wdm-get_set_device_data.md) and [SetBusData](/previous-versions/windows/hardware/drivers/gg604856(v=vs.85)), can be used to read from and write to a device's configuration space, respectively.
 
 For more information about the ways to access configuration space, see [Accessing Device Configuration Space](/windows-hardware/drivers/kernel/accessing-device-configuration-space).
 
 Some types of devices, such as a bus-mastering storage device, have on-board DMA controllers. However, the device drivers for these devices cannot program these DMA controllers directly. Instead they must rely on routines provided by the parent bus driver. For a device driver to program the DMA controller for its device, it must first request an adapter object from the parent bus driver. The adapter object contains the routines supplied by the bus driver that can be used to program the device's DMA controller. Device drivers must rely on the **BUS_INTERFACE_STANDARD**, either directly or indirectly, to obtain the adapter object.
 
-If the driver is executing at IRQL = PASSIVE_LEVEL, it should obtain a device's DMA adapter object by calling [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter). **IoGetDmaAdapter** detects whether the bus driver supports the **BUS_INTERFACE_STANDARD** interface.   If it does, **IoGetDmaAdapter** calls the routine pointed to by the [GetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_dma_adapter) member of this interface to obtain the adapter object. Otherwise, **IoGetDmaAdapter** calls an equivalent legacy routine.
+If the driver is executing at IRQL = PASSIVE_LEVEL, it should obtain a device's DMA adapter object by calling [IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md). **IoGetDmaAdapter** detects whether the bus driver supports the **BUS_INTERFACE_STANDARD** interface.   If it does, **IoGetDmaAdapter** calls the routine pointed to by the [GetDmaAdapter](./nc-wdm-get_dma_adapter.md) member of this interface to obtain the adapter object. Otherwise, **IoGetDmaAdapter** calls an equivalent legacy routine.
 
-However, if a driver must obtain an adapter object while running at IRQL >= DISPATCH_LEVEL, it cannot do so with [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter). In this case, the driver must query for the **BUS_INTERFACE_STANDARD** interface while still at IRQL = PASSIVE_LEVEL by using [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface).
+However, if a driver must obtain an adapter object while running at IRQL >= DISPATCH_LEVEL, it cannot do so with [IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md). In this case, the driver must query for the **BUS_INTERFACE_STANDARD** interface while still at IRQL = PASSIVE_LEVEL by using [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface).
 
 ## -see-also
 
-[DEVICE_DESCRIPTION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description)
+[DEVICE_DESCRIPTION](./ns-wdm-_device_description.md)
 
-[DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter)
+[DMA_ADAPTER](./ns-wdm-_dma_adapter.md)
 
 [GUID_BUS_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/obtaining-device-configuration-information-at-irql---dispatch-level)
 
-[GetBusData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_set_device_data)
+[GetBusData](./nc-wdm-get_set_device_data.md)
 
-[GetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_dma_adapter)
+[GetDmaAdapter](./nc-wdm-get_dma_adapter.md)
 
-[INTERFACE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface)
+[INTERFACE](./ns-wdm-_interface.md)
 
 [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
@@ -130,12 +130,12 @@ However, if a driver must obtain an adapter object while running at IRQL >= DISP
 
 [IRP_MN_WRITE_CONFIG](/windows-hardware/drivers/kernel/irp-mn-write-config)
 
-[InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+[InterfaceDereference](./nc-wdm-pinterface_dereference.md)
 
-[InterfaceReference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)
+[InterfaceReference](./nc-wdm-pinterface_reference.md)
 
-[IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter)
+[IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md)
 
 [SetBusData](/previous-versions/windows/hardware/drivers/gg604856(v=vs.85))
 
-[TranslateBusAddress](/windows-hardware/drivers/ddi/wdm/nc-wdm-translate_bus_address)
+[TranslateBusAddress](./nc-wdm-translate_bus_address.md)

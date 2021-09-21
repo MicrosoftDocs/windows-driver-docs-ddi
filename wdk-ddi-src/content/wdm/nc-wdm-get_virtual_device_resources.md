@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The [GetResources](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources) routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The [GetResources]() routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
@@ -94,7 +94,7 @@ If the device needs more PCIe Requestor IDs (RIDs) in order to enable all  of it
 
 The difference between these two register values represents the number of captured bus numbers.
 
-The [GetResources](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources) routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
+The [GetResources]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
 ## -see-also
 

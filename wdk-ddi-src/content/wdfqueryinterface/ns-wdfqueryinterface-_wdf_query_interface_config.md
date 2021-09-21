@@ -48,7 +48,6 @@ api_name:
 
 # _WDF_QUERY_INTERFACE_CONFIG structure
 
-
 ## -description
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
@@ -70,7 +69,7 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">IN
 A pointer to the GUID that identifies the interface.
 
 > [!NOTE]
-> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of the [**INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of the [**INTERFACE**](../wdm/ns-wdm-_interface.md) structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ### -field SendQueryToParentStack
 
@@ -82,21 +81,21 @@ A pointer to your driver's <a href="/windows-hardware/drivers/ddi/wdfqueryinterf
 
 ### -field ImportInterface
 
-If <b>TRUE</b>, the interface supports two-way communication between your driver and drivers that request the interface. 
+If <b>TRUE</b>, the interface supports two-way communication between your driver and drivers that request the interface.
 
 If this member is <b>FALSE</b>, the interface supports one-way communication from your driver to drivers that request the interface.
 
 ## -remarks
 
-The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure is used as input to the <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a> method. 
+The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure is used as input to the <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a> method.
 
-For each driver-defined interface that your driver exports, you must allocate a WDF_QUERY_INTERFACE_CONFIG structure that represents the interface. Other drivers can request access to the interface by calling <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>. 
+For each driver-defined interface that your driver exports, you must allocate a WDF_QUERY_INTERFACE_CONFIG structure that represents the interface. Other drivers can request access to the interface by calling <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>.
 
 If you want your interface to support two-way communication between the requesting driver and your driver, set the <b>ImportInterface</b> member to <b>TRUE</b>. If <b>ImportInterface</b> is <b>TRUE</b>, the structure that is provided by the requesting driver can contain data that your driver can read. In this case:
 
 <ul>
 <li>
-The <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a> callback function is required, and it must initialize the interface structure that the requesting driver provides. 
+The <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a> callback function is required, and it must initialize the interface structure that the requesting driver provides.
 
 </li>
 <li>
@@ -121,7 +120,7 @@ The <b>Interface</b> member cannot be <b>NULL</b>. The framework verifies that t
 
 </li>
 </ul>
-Additionally, the <b>Interface</b> member can be <b>NULL</b> if the value of the <b>SendQueryToParentStack</b> member is <b>TRUE</b>. 
+Additionally, the <b>Interface</b> member can be <b>NULL</b> if the value of the <b>SendQueryToParentStack</b> member is <b>TRUE</b>.
 
 If the <b>Interface</b> member is non-<b>NULL</b>, the framework copies the value to internal storage space. Therefore, the driver can allocate the INTERFACE structure in local, temporary storage space.
 
@@ -137,27 +136,14 @@ For more information about driver-defined interfaces, see <a href="/windows-hard
 
 <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdf_query_interface_config_init">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop">WdfDeviceInterfaceDereferenceNoOp</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop">WdfDeviceInterfaceReferenceNoOp</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>
-

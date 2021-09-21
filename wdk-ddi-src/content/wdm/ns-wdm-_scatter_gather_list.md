@@ -78,14 +78,14 @@ The **SCATTER_GATHER_ELEMENT** structure specifies the length, in bytes, of a ph
 
 ## -remarks
 
-For a driver that performs scatter/gather DMA, the [GetScatterGatherList](/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list) or [BuildScatterGatherList](/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list) routine creates a scatter/gather list and passes this list to the driver's [AdapterListControl](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control) routine. This scatter/gather list consists of a **SCATTER_GATHER_LIST** structure that is immediately followed in memory by a **SCATTER_GATHER_ELEMENT** array. The number of elements in this array is specified by the **NumberOfElements** member of the **SCATTER_GATHER_LIST** structure.
+For a driver that performs scatter/gather DMA, the [GetScatterGatherList](./nc-wdm-pget_scatter_gather_list.md) or [BuildScatterGatherList](./nc-wdm-pbuild_scatter_gather_list.md) routine creates a scatter/gather list and passes this list to the driver's [AdapterListControl](./nc-wdm-driver_list_control.md) routine. This scatter/gather list consists of a **SCATTER_GATHER_LIST** structure that is immediately followed in memory by a **SCATTER_GATHER_ELEMENT** array. The number of elements in this array is specified by the **NumberOfElements** member of the **SCATTER_GATHER_LIST** structure.
 
 For more information about scatter/gather lists, see [Using Scatter/Gather DMA](/windows-hardware/drivers/kernel/using-scatter-gather-dma).
 
 ## -see-also
 
-[AdapterListControl](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control)
+[AdapterListControl](./nc-wdm-driver_list_control.md)
 
-[BuildScatterGatherList](/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list)
+[BuildScatterGatherList](./nc-wdm-pbuild_scatter_gather_list.md)
 
-[GetScatterGatherList](/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list)
+[GetScatterGatherList](./nc-wdm-pget_scatter_gather_list.md)

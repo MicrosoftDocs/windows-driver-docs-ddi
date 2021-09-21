@@ -149,14 +149,14 @@ Callers of **KeWaitForMultipleObjects** can be running at IRQL <= DISPATCH_LEVEL
 
 ## -see-also
 
-[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
+[ExInitializeFastMutex](./nf-wdm-exinitializefastmutex.md)
 
-[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[KeInitializeEvent](./nf-wdm-keinitializeevent.md)
 
-[KeInitializeMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex)
+[KeInitializeMutex](./nf-wdm-keinitializemutex.md)
 
-[KeInitializeSemaphore](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializesemaphore)
+[KeInitializeSemaphore](./nf-wdm-keinitializesemaphore.md)
 
-[KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer)
+[KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

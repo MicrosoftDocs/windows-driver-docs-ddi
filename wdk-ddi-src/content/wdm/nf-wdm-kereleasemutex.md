@@ -54,7 +54,7 @@ The **KeReleaseMutex** routine releases a mutex object, and specifies whether th
 
 ### -param Wait
 
-[in] Specifies whether the call to **KeReleaseMutex** is to be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseMutex** call must be followed by a call to [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects), **KeWaitForMutexObject**, or [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject). For more information, see the following Remarks section.
+[in] Specifies whether the call to **KeReleaseMutex** is to be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseMutex** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 
@@ -86,10 +86,10 @@ For more information about mutex objects, see [Mutex Objects](/windows-hardware/
 
 [ExReleaseFastMutexUnsafe](/previous-versions/windows/hardware/drivers/ff545567(v=vs.85))
 
-[KeInitializeMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex)
+[KeInitializeMutex](./nf-wdm-keinitializemutex.md)
 
-[KeReadStateMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex)
+[KeReadStateMutex](./nf-wdm-kereadstatemutex.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

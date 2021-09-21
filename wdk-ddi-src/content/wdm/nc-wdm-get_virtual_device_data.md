@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The  [GetVirtualFunctionData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data) routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The  [GetVirtualFunctionData]() routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ The  [GetVirtualFunctionData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtu
 
 ## -returns
 
-The [GetVirtualFunctionData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data) routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
+The [GetVirtualFunctionData]() routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
 
 ## -prototype
 
@@ -90,12 +90,12 @@ ULONG GetVirtualFunctionData(
 
 ## -remarks
 
-The [GetVirtualFunctionData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data) routine resembles the [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
+The [GetVirtualFunctionData]() routine resembles the [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
 
-The [GetVirtualFunctionData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data) routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface. The [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine is provided by the **GUID_BUS_INTERFACE_STANDARD** interface.
+The [GetVirtualFunctionData]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface. The [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine is provided by the **GUID_BUS_INTERFACE_STANDARD** interface.
 
 > [!NOTE]
-> The virtualization stack calls [GetVirtualFunctionData](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data) when a driver that is running in the guest operating system calls the [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine.
+> The virtualization stack calls [GetVirtualFunctionData]() when a driver that is running in the guest operating system calls the [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine.
 
 ## -see-also
 

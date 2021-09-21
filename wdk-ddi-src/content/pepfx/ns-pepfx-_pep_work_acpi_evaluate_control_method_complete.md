@@ -56,7 +56,7 @@ The **PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE** structure contains the re
 
 ### -field DeviceHandle
 
-A POHANDLE value that represents the registration of the device with the Windows [power management framework](/windows-hardware/drivers/ddi/_kernel/#device-power-management) (PoFx). The PEP previously received this handle from PoFx during the [PEP_NOTIFY_ACPI_REGISTER_DEVICE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device) notification in which the PEP elected to provide ACPI services for the device.
+A POHANDLE value that represents the registration of the device with the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx). The PEP previously received this handle from PoFx during the [PEP_NOTIFY_ACPI_REGISTER_DEVICE](./ns-pepfx-_pep_acpi_register_device.md) notification in which the PEP elected to provide ACPI services for the device.
 
 ### -field CompletionFlags
 
@@ -66,7 +66,7 @@ A set of completion flags. No flags are currently defined for this member, which
 
 ### -field CompletionContext
 
-A pointer to a completion context value. This is the same pointer that PoFx passed to the PEP in the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_evaluate_control_method) notification that initiated the asynchronous evaluation of the ACPI control method.
+A pointer to a completion context value. This is the same pointer that PoFx passed to the PEP in the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](./ns-pepfx-_pep_acpi_evaluate_control_method.md) notification that initiated the asynchronous evaluation of the ACPI control method.
 
 ### -field OutputArgumentSize
 
@@ -74,20 +74,20 @@ The size, in bytes, of the buffer pointed to by the **OutputArguments** member.
 
 ### -field OutputArguments
 
-A pointer to a buffer to which the PEP has written the result of evaluating the ACPI control method. This buffer starts with a [ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1) structure, which might be followed by additional output data. PoFx allocated this buffer and passed the buffer pointer to the PEP in the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_evaluate_control_method) notification that initiated the asynchronous evaluation of the ACPI control method.
+A pointer to a buffer to which the PEP has written the result of evaluating the ACPI control method. This buffer starts with a [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure, which might be followed by additional output data. PoFx allocated this buffer and passed the buffer pointer to the PEP in the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](./ns-pepfx-_pep_acpi_evaluate_control_method.md) notification that initiated the asynchronous evaluation of the ACPI control method.
 
 ## -remarks
 
-The **ControlMethodComplete** member of the [PEP_WORK_INFORMATION](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information) structure is a **PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE** structure.
+The **ControlMethodComplete** member of the [PEP_WORK_INFORMATION](./ns-pepfx-_pep_work_information.md) structure is a **PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE** structure.
 
-A **PEP_WORK_INFORMATION** structure is included in the input parameters to the *CompleteWork* routine. The PEP writes the control method results to the **ControlMethodComplete** member of this structure before calling the routine. Evaluation of the control method was initiated by a previous [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_evaluate_control_method) notification.
+A **PEP_WORK_INFORMATION** structure is included in the input parameters to the *CompleteWork* routine. The PEP writes the control method results to the **ControlMethodComplete** member of this structure before calling the routine. Evaluation of the control method was initiated by a previous [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](./ns-pepfx-_pep_acpi_evaluate_control_method.md) notification.
 
 ## -see-also
 
-[ACPI_METHOD_ARGUMENT](/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_method_argument_v1)
+[ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md)
 
-[PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_evaluate_control_method)
+[PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](./ns-pepfx-_pep_acpi_evaluate_control_method.md)
 
-[PEP_NOTIFY_ACPI_REGISTER_DEVICE](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device)
+[PEP_NOTIFY_ACPI_REGISTER_DEVICE](./ns-pepfx-_pep_acpi_register_device.md)
 
-[PEP_WORK_INFORMATION](/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information)
+[PEP_WORK_INFORMATION](./ns-pepfx-_pep_work_information.md)
