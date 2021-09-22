@@ -109,11 +109,15 @@ FsRtlFastLock( A1,   /* FileLock            */
 
 [in] **AlreadySynchronized**: This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
+## -returns
+
+**FsRtlFastLock** returns **TRUE** to indicate that the IO_STATUS_BLOCK structure pointed to by **Iosb** received status information about the lock operation; otherwise it returns FALSE.
+
 ## -remarks
 
 The **FsRtlFastLock** macro causes the caller to acquire a byte-range lock on a region of the specified file.
 
-A return value of **TRUE** indicates that the IO_STATUS_BLOCK structure pointed to by **Iosb** received status information about the lock operation. To examine the contents of this structure, use the NT_STATUS macro.
+To examine the contents of the structure that **Iosb** points to, use the NT_STATUS macro.
 
 ## -see-also
 
