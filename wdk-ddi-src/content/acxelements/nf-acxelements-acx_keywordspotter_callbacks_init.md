@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_KEYWORDSPOTTER_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CALLBACKS_INIT
-ms.date: 08/27/2021
+ms.date: 09/21/2021
 targetos: Windows
-description: 
+description: The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a ACX_KEYWORDSPOTTER_CALLBACKS structure. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md). 
+
 ## -parameters
 
 ### -param Callbacks
+
+A pointer to an initialized [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md). 
 
 ## -remarks
 
@@ -53,7 +57,14 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
-
+    ACX_KEYWORDSPOTTER_CALLBACKS    keywordSpotterCallbacks;
+ 
+    ACX_KEYWORDSPOTTER_CALLBACKS_INIT(&keywordSpotterCallbacks);
+ 
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterRetrieveArm = CodecC_EvtAcxKeywordSpotterRetrieveArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignArm = CodecC_EvtAcxKeywordSpotterAssignArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignPatterns = CodecC_EvtAcxKeywordSpotterAssignPatterns;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignReset = CodecC_EvtAcxKeywordSpotterAssignReset;
 ```
 
 ## -see-also

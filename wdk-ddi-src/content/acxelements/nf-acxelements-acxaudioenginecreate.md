@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxAudioEngineCreate
 tech.root: audio 
 title: AcxAudioEngineCreate
-ms.date: 08/27/2021
+ms.date: 09/22/2021
 targetos: Windows
-description: 
+description: TBD - The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,25 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object (TBD???) parent. 
+
 ## -parameters
 
 ### -param Object
 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+
 ### -param Attributes
+
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxAudioEngine with the parent circuit object (TBD???).
 
 ### -param Config
 
+An initialized [ACX_AUDIOENGINE_CONFIG structure](ns-acxelements-acx_audioengine_config.md) that describes the configuration of the audio engine.
+
 ### -param AudioEngine
 
-An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to a location that receives the handle to the new ACXAUDIOENGINE object that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -65,7 +73,24 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+    NTSTATUS                        status;
+    WDF_OBJECT_ATTRIBUTES           attributes;
+    ACX_AUDIOENGINE_CONFIG          audioEngineCfg;
 
+    ACX_AUDIOENGINE_CONFIG_INIT(&audioEngineCfg);
+
+    audioEngineCfg.HostPin = Pins[HostPin];
+    audioEngineCfg.OffloadPin = Pins[OffloadPin];
+    audioEngineCfg.LoopbackPin = Pins[LoopbackPin];
+    audioEngineCfg.VolumeElement = volumeElement;
+    audioEngineCfg.MuteElement = muteElement;
+    audioEngineCfg.PeakMeterElement = peakmeterElement;
+    audioEngineCfg.Callbacks = &audioEngineCallbacks;
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_ENGINE_CONTEXT);
+    attributes.ParentObject = Circuit;
+
+    status = AcxAudioEngineCreate(Circuit, &attributes, &audioEngineCfg, AudioEngine);
 ```
 
 ## -see-also

@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxKeywordSpotterCreate
 tech.root: audio 
 title: AcxKeywordSpotterCreate
-ms.date: 08/27/2021
+ms.date: 09/22/2021
 targetos: Windows
-description: 
+description: TBD - The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,25 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object (TBD???) parent. 
+
 ## -parameters
 
 ### -param Object
 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. TBD - conditional on something to determine if this is the parent?
+
 ### -param Attributes
+
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the  KeywordSpotter object with the parent WDF device object (TBD???).
 
 ### -param Config
 
+An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywordspotter_config.md) that describes the configuration of the key word spotter.
+
 ### -param KeywordSpotter
 
-An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+A pointer to a location that receives the handle to the newly created KeywordSpotter object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -returns
 
@@ -65,7 +73,20 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-
+    ACX_KEYWORDSPOTTER_CALLBACKS_INIT(&keywordSpotterCallbacks);
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterRetrieveArm = CodecC_EvtAcxKeywordSpotterRetrieveArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignArm = CodecC_EvtAcxKeywordSpotterAssignArm;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignPatterns = CodecC_EvtAcxKeywordSpotterAssignPatterns;
+    keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignReset = CodecC_EvtAcxKeywordSpotterAssignReset;
+    
+    ACX_KEYWORDSPOTTER_CONFIG_INIT(&keywordSpotterCfg);
+    keywordSpotterCfg.Pattern = &CONTOSO_KEYWORDCONFIGURATION_IDENTIFIER2;
+    keywordSpotterCfg.Callbacks = &keywordSpotterCallbacks;
+    
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_KEYWORDSPOTTER_CONTEXT);
+    attributes.ParentObject = Circuit;
+    
+    status = AcxKeywordSpotterCreate(Circuit, &attributes, &keywordSpotterCfg, Element);
 ```
 
 ## -see-also

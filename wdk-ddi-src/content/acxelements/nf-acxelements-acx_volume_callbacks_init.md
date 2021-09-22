@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_VOLUME_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_VOLUME_CALLBACKS_INIT
-ms.date: 08/27/2021
+ms.date: 09/21/2021
 targetos: Windows
-description: 
+description: The ACX_VOLUME_CALLBACKS_INIT function initializes a ACX_VOLUME_CALLBACKS structure. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The ACX_VOLUME_CALLBACKS_INIT function initializes a [ACX_VOLUME_CALLBACKS structure](ns-acxelements-acx_volume_callbacks.md). 
+
 ## -parameters
 
 ### -param Callbacks
+
+A pointer to an initialized [ACX_VOLUME_CALLBACKS structure](ns-acxelements-acx_volume_callbacks.md).
 
 ## -remarks
 
@@ -53,7 +57,11 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+    ACX_VOLUME_CALLBACKS            volumeCallbacks;
 
+    ACX_VOLUME_CALLBACKS_INIT(&volumeCallbacks);
+    volumeCallbacks.EvtAcxVolumeAssignLevel = CodecC_EvtVolumeAssignLevelCallback;
+    volumeCallbacks.EvtAcxVolumeRetrieveLevel = CodecC_EvtVolumeRetrieveLevelCallback;
 ```
 
 ## -see-also

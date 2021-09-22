@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_VOLUME_CONFIG_INIT
 tech.root: audio 
 title: ACX_VOLUME_CONFIG_INIT
-ms.date: 08/27/2021
+ms.date: 09/21/2021
 targetos: Windows
-description: 
+description: TBD - The ACX_VOLUME_CONFIG_INIT function initializes an ACX_VOLUME_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The ACX_VOLUME_CONFIG_INIT function initializes an [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
+
 ## -parameters
 
 ### -param cfg
+
+An [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
 
 ## -remarks
 
@@ -53,7 +57,14 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+    ACX_VOLUME_CONFIG               volumeCfg;
 
+    ACX_VOLUME_CONFIG_INIT(&volumeCfg);
+    volumeCfg.ChannelsCount = MAX_CHANNELS;
+    volumeCfg.Minimum = VOLUME_LEVEL_MINIMUM;
+    volumeCfg.Maximum = VOLUME_LEVEL_MAXIMUM;
+    volumeCfg.SteppingDelta = VOLUME_STEPPING;
+    volumeCfg.Callbacks = &volumeCallbacks;
 ```
 
 ## -see-also

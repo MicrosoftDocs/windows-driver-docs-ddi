@@ -54,11 +54,17 @@ An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to 
 
 ### -param Attributes
 
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxFactory with the parent WDF device object (TBD???).
+
+TBD - What would be useful to set for the driver?
+
 ### -param Config
+
+An initialized [ACX_ACXAUDIOENGINE_CONFIG structure](ns-acxelements-acx_audioengine_config.md) that describes the configuration of the audio engine.
 
 ### -param StreamAudioEngine
 
-An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to a location that receives the handle to the newly created ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 

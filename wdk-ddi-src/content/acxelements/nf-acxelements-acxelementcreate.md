@@ -42,15 +42,26 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxElementCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object (TBD???) parent. 
+
 ## -parameters
 
 ### -param Object
 
 ### -param Attributes
 
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxFactory with the parent WDF device object (TBD???).
+
+TBD - What would be useful to set for the driver?
+
 ### -param Config
 
+An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywordspotter_config.md) that describes the configuration of the key word spotter.
+
 ### -param Element
+
+
+A pointer to a location that receives the handle to the newly created ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -returns
 
@@ -63,7 +74,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+    NTSTATUS                        status;
+    WDF_OBJECT_ATTRIBUTES           attributes;
 
+    ACX_AUDIOENGINE_CALLBACKS       audioEngineCallbacks;
+    ACX_AUDIOENGINE_CONFIG          audioEngineCfg;
 ```
 
 ## -see-also
