@@ -4,7 +4,7 @@ title: FsRtlFastLock macro (ntifs.h)
 description: The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 old-location: ifsk\fsrtlfastlock.htm
 tech.root: ifsk
-ms.date: 09/10/2021
+ms.date: 09/22/2021
 keywords: ["FsRtlFastLock macro"]
 ms.keywords: FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock
 req.header: ntifs.h
@@ -45,6 +45,23 @@ api_name:
 ## -description
 
 The **FsRtlFastLock** macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
+
+## -syntax
+
+```cpp
+BOOLEAN
+FsRtlFastLock( A1,   /* FileLock            */
+               A2,   /* FileObject          */
+               A3,   /* FileOffset          */
+               A4,   /* Length              */
+               A5,   /* ProcessId           */
+               A6,   /* Key                 */
+               A7,   /* FailImmediately     */
+               A8,   /* ExclusiveLock       */
+               A9,   /* Iosb                */
+               A10,  /* Context             */
+               A11   /* AlreadySynchronized */ )
+```
 
 ## -parameters
 
