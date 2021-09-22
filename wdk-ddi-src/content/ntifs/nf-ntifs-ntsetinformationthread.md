@@ -52,7 +52,7 @@ The <b>NtSetInformationThread</b> routine sets the priority of a thread.
 ### -param ThreadHandle 
 
 [in]
-Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentThread</a> macro.
+Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the [ZwCurrentThread](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
 
 ### -param ThreadInformationClass 
 

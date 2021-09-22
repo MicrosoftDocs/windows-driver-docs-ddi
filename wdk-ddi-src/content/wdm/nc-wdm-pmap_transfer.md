@@ -92,13 +92,13 @@ The <i>DmaAdapter</i> must have already been allocated as a result of the driver
 
 The number of map registers that can be set up cannot exceed the maximum returned when the driver called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>.
 
-A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>. However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation.
+A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md). However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation.
 
 The driver of a bus-master device with scatter/gather support can use the returned logical address and updated <i>Length</i> value to build a scatter/gather list, calling <b>MapTransfer</b> repeatedly until it has used all available map registers for the transfer operation. However, such a driver could more simply use the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a> routine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
+[ADDRESS_AND_SIZE_TO_SPAN_PAGES](/windows-hardware/drivers/ddi/wdm/nf-wdm-address_and_size_to_span_pages)
 
 
 
@@ -134,5 +134,5 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 

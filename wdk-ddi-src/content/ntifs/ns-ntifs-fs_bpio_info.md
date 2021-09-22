@@ -64,7 +64,7 @@ Receives a string that specifies the name of the storage driver for this volume.
 
 **FS_BPIO_INFO** is returned when the requested BypassIO operation is **FS_BPIO_OP_GET_INFO**, and in the [**FS_BPIO_OPERATIONS**](ne-ntifs-fs_bpio_operations.md) structure when the requested BypassIO operation is **FS_BPIO_OP_ENABLE** or **FS_BPIO_OP_QUERY**.
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

@@ -55,7 +55,7 @@ To perform this operation, call [**FltFsControlFile**](/windows-hardware/drivers
 | **OutputBuffer** | [out] Pointer to a [**FS_BPIO_OUTPUT**](ns-ntifs-fs_bpio_output.md) structure in which to return information about the BypassIO operation. |
 | **OutputBufferLength** | [out] Size of the buffer that **OutputBuffer** points to, in bytes. |
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

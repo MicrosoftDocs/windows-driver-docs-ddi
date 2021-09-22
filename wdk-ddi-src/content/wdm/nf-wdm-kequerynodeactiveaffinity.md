@@ -93,4 +93,6 @@ The number of processors in a node cannot exceed the number of bits in the affin
 
 [KeQueryHighestNodeNumber](../ntddk/nf-ntddk-kequeryhighestnodenumber.md)
 
+[KeQueryHighestNodeNumber](../ntddk/nf-ntddk-kequeryhighestnodenumber.md)
+
 [KeQueryMaximumProcessorCountEx](../ntddk/nf-ntddk-kequerymaximumprocessorcountex.md)

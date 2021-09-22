@@ -73,4 +73,4 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmInitializeMdl</a>
+[MmInitializeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mminitializemdl)

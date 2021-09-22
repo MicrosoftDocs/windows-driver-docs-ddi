@@ -106,5 +106,3 @@ For more information about timer objects, see [Timer Objects and DPCs](/windows-
 [KeSetTimerEx](./nf-wdm-kesettimerex.md)
 
 [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
-
-[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)
