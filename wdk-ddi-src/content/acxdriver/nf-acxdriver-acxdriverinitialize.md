@@ -56,6 +56,8 @@ Pointer to a [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure th
 
 ## -returns
 
+**AcxDriverInitialize** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
+
 ## -remarks
 
 ## -see-also

@@ -56,7 +56,7 @@ Pointer to an [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_vers
 
 ## -returns
 
-A Boolean value indicating if the specified driver version is available.
+**AcxDriverIsVersionAvailable** returns a Boolean value indicating if the specified driver version is available.
 
 ## -remarks
 
