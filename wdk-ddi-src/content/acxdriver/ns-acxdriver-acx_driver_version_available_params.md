@@ -2,9 +2,9 @@
 UID: NS:acxdriver._ACX_DRIVER_VERSION_AVAILABLE_PARAMS
 tech.root: audio
 title: ACX_DRIVER_VERSION_AVAILABLE_PARAMS
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure is passed as a parameter to the AcxDriverIsVersionAvailable function.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,15 +44,27 @@ dev_langs:
 
 ## -description
 
+The **ACX_DRIVER_VERSION_AVAILABLE_PARAMS** structure is passed as a parameter to the [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md) function.
+
 ## -struct-fields
 
 ### -field Size
 
+This field is set by the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md) function.
+
 ### -field MajorVersion
+
+The major version of the audio driver for which to check.
 
 ### -field MinorVersion
 
+The minor version of the audio driver for which to check.
+
 ## -remarks
+
+Instances of this structure must be initialized by calling the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md) function. A pointer to an **ACX_DRIVER_VERSION_AVAILABLE_PARAMS** structure is passed as a parameter to the [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md) function.
 
 ## -see-also
 
+* [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)
+* [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md)

@@ -2,9 +2,9 @@
 UID: NE:acxdriver._ACX_DRIVER_CONFIG_FLAGS
 tech.root: audio
 title: ACX_DRIVER_CONFIG_FLAGS
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The ACX_DRIVER_CONFIG_FLAGS enum defines values used to configure the audio class extension.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,13 +37,18 @@ dev_langs:
 
 ## -description
 
+The **ACX_DRIVER_CONFIG_FLAGS** enum defines values used to configure the audio class extension.
+
 ## -enum-fields
 
 ### -field AcxDriverConfigNoFlags
 
+Indicates that no flags are set.
+
 ### -field AcxDriverConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
-

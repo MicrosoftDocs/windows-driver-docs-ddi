@@ -2,9 +2,9 @@
 UID: NF:acxdriver.ACX_DRIVER_CONFIG_INIT
 tech.root: audio
 title: ACX_DRIVER_CONFIG_INIT
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The ACX_DRIVER_CONFIG_INIT function initializes an ACX_DRIVER_CONFIG structure before calling AcxDriverInitialize.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,17 @@ dev_langs:
 
 ## -description
 
+The **ACX_DRIVER_CONFIG_INIT** function initializes an [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md) structure before calling the [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md) function.
+
 ## -parameters
 
 ### -param Config
+
+Pointer to an [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md) structure.
 
 ## -remarks
 
 ## -see-also
 
+* [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md)
+* [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md)

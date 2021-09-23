@@ -2,9 +2,9 @@
 UID: NF:acxdriver.AcxDriverInitialize
 tech.root: audio
 title: AcxDriverInitialize
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The AcxDriverInitialize function initializes the specified audio driver.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,17 @@ dev_langs:
 
 ## -description
 
+The **AcxDriverInitialize** function initializes the specified audio driver.
+
 ## -parameters
 
 ### -param Driver
 
+The **WDFDRIVER** object representing the audio driver to initialize.
+
 ### -param DriverConfig
+
+Pointer to a [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure that was previously initialized by calling the [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md) function.
 
 ## -returns
 
@@ -54,3 +60,5 @@ dev_langs:
 
 ## -see-also
 
+* [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md)
+* [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md)
