@@ -54,7 +54,7 @@ TBD - The length, in bytes, of this structure.
 
 ### -field EvtAcxPeakMeterRetrieveLevel
 
-The [ACX_PEAKMETER_RETRIEVE_LEVEL](nc-acxelements-evt_acx_peak-meter-retrieve-level.md) callback.
+The [ACX_PEAKMETER_RETRIEVE_LEVEL](nc-acxelements-evt_acx_peakmeter_retrieve_level.md) callback.
 
 ### -field EvtAcxPeakMeterProcessRequest
 

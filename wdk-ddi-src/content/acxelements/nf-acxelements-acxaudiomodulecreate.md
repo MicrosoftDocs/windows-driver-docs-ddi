@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxAudioModuleCreate
 tech.root: audio 
 title: AcxAudioModuleCreate
-ms.date: 08/27/2021
+ms.date: 09/22/2021
 targetos: Windows
-description: 
+description: TBD - The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,25 +42,25 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxAudioModuleCreate function is used to create an audio module that that will be associated with a circuit WDFDEVICE device object (TBD???) parent. 
+TBD - The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object (TBD???) parent. 
 
 ## -parameters
 
 ### -param Object
 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxFactory with the parent WDF device object (TBD???).
-
-TBD - What would be useful to set for the driver?
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the audio module with the ACX circuit object (TBD???).
 
 ### -param Config
 
-An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywordspotter_config.md) that describes the configuration of the key word spotter.
+An initialized [ACX_AUDIOMODULE_CONFIG structure](ns-acxelements-acx_audiomodule_config.md) that describes the configuration of the audio module.
 
 ### -param AudioModule
 
-A pointer to a location that receives the handle to the new ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the new ACXMODULE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -returns
 
@@ -75,19 +75,38 @@ Example usage is shown below.
 ```cpp
     NTSTATUS                        status;
     WDF_OBJECT_ATTRIBUTES           attributes;
-    ACX_MUTE_CALLBACKS              muteCallbacks;
-    ACX_MUTE_CONFIG                 muteCfg;
-    ACXMUTE                         muteElement;
-    ACX_VOLUME_CALLBACKS            volumeCallbacks;
-    ACX_VOLUME_CONFIG               volumeCfg;
-    ACXVOLUME                       volumeElement;
-    ACX_PEAKMETER_CALLBACKS         peakmeterCallbacks;
-    ACX_PEAKMETER_CONFIG            peakmeterCfg;
-    ACXPEAKMETER                    peakmeterElement;
-    CODEC_PEAKMETER_ELEMENT_CONTEXT*peakmeterCtx;
-    ACX_AUDIOENGINE_CALLBACKS       audioEngineCallbacks;
-    ACX_AUDIOENGINE_CONFIG          audioEngineCfg;
+    ACX_AUDIOMODULE_CALLBACKS       audioModuleCallbacks;
+    ACX_AUDIOMODULE_CONFIG          audioModuleCfg;
+    ACXAUDIOMODULE                  audioModuleElement;
+    PCODEC_AUDIOMODULE0_CONTEXT     audioModule0Ctx;
+    PCODEC_AUDIOMODULE1_CONTEXT     audioModule1Ctx;
+    PCODEC_AUDIOMODULE2_CONTEXT     audioModule2Ctx;
+    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
+    ACXPNPEVENT                     audioModuleEvent;
 
+    // Now add audio modules to the circuit
+    // module 0
+
+    ACX_AUDIOMODULE_CALLBACKS_INIT(&audioModuleCallbacks);
+    audioModuleCallbacks.EvtAcxAudioModuleProcessCommand = CodecR_EvtProcessCommand0;
+
+    ACX_AUDIOMODULE_CONFIG_INIT(&audioModuleCfg);
+
+    audioModuleCfg.Name = &AudioModule0Id;
+    audioModuleCfg.Descriptor.ClassId = AudioModule0Id;
+    audioModuleCfg.Descriptor.InstanceId = AUDIOMODULE_INSTANCE_ID(0,0);
+    audioModuleCfg.Descriptor.VersionMajor = AUDIOMODULE0_MAJOR;
+    audioModuleCfg.Descriptor.VersionMinor = AUDIOMODULE0_MINOR;
+    wcsncpy_s(audioModuleCfg.Descriptor.Name,
+                ACX_AUDIOMODULE_MAX_NAME_CCH_SIZE,
+                AUDIOMODULE0DESCRIPTION,
+                wcslen(AUDIOMODULE0DESCRIPTION));
+    audioModuleCfg.Callbacks = &audioModuleCallbacks;
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_AUDIOMODULE0_CONTEXT);
+    attributes.ParentObject = Circuit;
+
+    status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
 ```
 
 ## -see-also

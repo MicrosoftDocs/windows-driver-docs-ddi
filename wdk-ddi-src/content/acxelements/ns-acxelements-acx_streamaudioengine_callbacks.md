@@ -70,7 +70,7 @@ The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION](nc-acxelements-evt
 
 ### -field EvtAcxStreamAudioEngineRetrieveLinearBufferPosition
 
-The [EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION](nc-acxelements-evt_acx_streamaudioengine_linear_buffer_position.md) callback.
+The [EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION](nc-acxelements-evt_acx_streamaudioengine_retrieve_linear_buffer_position.md) callback.
 
 ### -field EvtAcxStreamAudioEngineAssignLastBufferPosition
 

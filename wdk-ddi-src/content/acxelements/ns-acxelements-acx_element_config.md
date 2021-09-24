@@ -71,7 +71,7 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
-Audio element configuration flags defined by the [ACX_AUDIOELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_audioelement_config_flags.md). 
+Audio element configuration flags defined by the [ACX_ELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_element_config_flags.md). 
 
 TBD - No flag bits are currently defined. Set this member to zero - AcxAudioElementConfigNoFlags
 

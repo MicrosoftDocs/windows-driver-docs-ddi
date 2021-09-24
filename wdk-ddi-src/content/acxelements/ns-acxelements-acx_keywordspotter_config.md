@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the TBD that will be used for TB
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_audioelement_config_flags.md). 
+Audio key word spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_keywordspotter_config_flags.md). 
 
 TBD - No flag bits are currently defined. Set this member to zero - AcxKeywordSpotterConfigNoFlags
 

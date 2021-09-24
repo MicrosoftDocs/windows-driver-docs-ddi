@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxElementCreate
 tech.root: audio 
 title: AcxElementCreate
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,26 +42,27 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxElementCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object (TBD???) parent. 
+TBD - The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
 
 ## -parameters
 
 ### -param Object
 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxFactory with the parent WDF device object (TBD???).
-
-TBD - What would be useful to set for the driver?
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the ACX element with the parent stream object.
 
 ### -param Config
 
-An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywordspotter_config.md) that describes the configuration of the key word spotter.
+An initialized [ACX_ELEMENT_CONFIG structure](ns-acxelements-acx_element_config.md) that describes the configuration of the element.
 
 ### -param Element
 
+TBD - A pointer to a location that receives the handle to the newly created ACXELEMENT object(s). TBD - that is an array????
 
-A pointer to a location that receives the handle to the newly created ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -returns
 
@@ -77,8 +78,17 @@ Example usage is shown below.
     NTSTATUS                        status;
     WDF_OBJECT_ATTRIBUTES           attributes;
 
-    ACX_AUDIOENGINE_CALLBACKS       audioEngineCallbacks;
-    ACX_AUDIOENGINE_CONFIG          audioEngineCfg;
+    ACXSTREAM                       stream;
+
+    ACXELEMENT                      elements[2] = {0};
+    ACX_ELEMENT_CONFIG              elementCfg;
+    CODEC_ELEMENT_CONTEXT *         elementCtx;
+
+    ACX_ELEMENT_CONFIG_INIT(&elementCfg);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_ELEMENT_CONTEXT);
+    attributes.ParentObject = stream;
+
+    status = AcxElementCreate(stream, &attributes, &elementCfg, &elements[0]);
 ```
 
 ## -see-also

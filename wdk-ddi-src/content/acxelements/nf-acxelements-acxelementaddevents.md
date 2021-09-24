@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxElementAddEvents
 tech.root: audio 
 title: AcxElementAddEvents
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,21 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object. 
+
 ## -parameters
 
 ### -param Element
 
+TBD - An ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+
 ### -param Events
 
+TBD - An ACXEVENT object. TBD - array?
+
 ### -param EventsCount
+
+A count of the events. This is a (TBD 0 or1??) based count.
 
 ## -returns
 
@@ -59,6 +67,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 Example usage is shown below.
+
+TBD - No example code found
 
 ```cpp
 

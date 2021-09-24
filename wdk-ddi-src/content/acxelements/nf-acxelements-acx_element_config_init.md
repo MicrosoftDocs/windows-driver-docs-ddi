@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_ELEMENT_CONFIG_INIT
 tech.root: audio 
 title: ACX_ELEMENT_CONFIG_INIT
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The ACX_ELEMENT_CONFIG_INIT function initializes an ACX_ELEMENT_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function

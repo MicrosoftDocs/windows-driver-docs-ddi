@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxVolumeChangeLevelNotification
 tech.root: audio 
 title: AcxVolumeChangeLevelNotification
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxVolumeChangeLevelNotification function provides the ability to notify TBD of volume level changes.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxVolumeChangeLevelNotification function provides the ability to notify (TBD - what??) of volume level changes.
+
 ## -parameters
 
 ### -param Volume
+
+An ACXVOLUME Object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -remarks
 
@@ -53,7 +57,16 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+    PCODEC_VOLUME_TIMER_CONTEXT timerCtx = GetCodecVolumeTimerContext(Timer);
+    PCODEC_VOLUME_ELEMENT_CONTEXT volumeCtx = GetCodecVolumeElementContext(timerCtx->VolumeElement);
 
+    // Toggle volume between max and min
+    for (ULONG i = 0; i < MAX_CHANNELS; ++i)
+    {
+        volumeCtx->VolumeLevel[i] = volumeCtx->VolumeLevel[i] == VOLUME_LEVEL_MAXIMUM ? VOLUME_LEVEL_MINIMUM : VOLUME_LEVEL_MAXIMUM;
+    }
+
+    AcxVolumeChangeLevelNotification(timerCtx->VolumeElement);
 ```
 
 ## -see-also

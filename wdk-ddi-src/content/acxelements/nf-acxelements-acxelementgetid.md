@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxElementGetId
 tech.root: audio 
 title: AcxElementGetId
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxElementGetId function retrieves an Id for a given ACX element object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxElementGetId function retrieves an Id for a given ACX element object.
+
 ## -parameters
 
 ### -param Element
+
+TBD - An ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -returns
 
@@ -55,6 +59,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 Example usage is shown below.
+
+TBD - No sample code found.
 
 ```cpp
 

@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxAudioEngineGetDeviceFormatList
 tech.root: audio 
 title: AcxAudioEngineGetDeviceFormatList
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ## -parameters
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. 
 
 ## -returns
 
@@ -59,7 +61,23 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+    status = AcxDataFormatCreate(Device, &attributes, &formatCfg, &formatPcm44100c2);
+    formatCtx = GetCodecFormatContext(formatPcm44100c2);
 
+    // Configure audio engine formats
+    circuitCtx->AudioEngineElement = audioEngineElement;
+    audioEngineCtx = GetCodecEngineContext(audioEngineElement);
+
+    // Get the current audio engine device format list
+    formatList = AcxAudioEngineGetDeviceFormatList(audioEngineElement);
+    if (formatList == NULL)
+    {
+        status = STATUS_INSUFFICIENT_RESOURCES;
+        goto exit;
+    }
+
+    // Add our supported formats to the audio engine device format list
+    status = AcxDataFormatListAddDataFormat(formatList, formatPcm44100c2);
 ```
 
 ## -see-also

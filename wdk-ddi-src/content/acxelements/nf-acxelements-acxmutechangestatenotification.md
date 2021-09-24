@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxMuteChangeStateNotification
 tech.root: audio 
 title: AcxMuteChangeStateNotification
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxMuteChangeStateNotification function provides the ability to notify mute state changes.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxMuteChangeStateNotification function provides the ability to notify (What??? TBD) of mute state changes.
+
 ## -parameters
 
 ### -param Mute
+
+An ACXMUTE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -remarks
 
@@ -53,7 +57,16 @@ dev_langs:
 Example usage is shown below.
 
 ```cpp
+    PCODEC_MUTE_TIMER_CONTEXT timerCtx = GetCodecMuteTimerContext(Timer);
+    PCODEC_MUTE_ELEMENT_CONTEXT muteCtx = GetCodecMuteElementContext(timerCtx->MuteElement);
 
+    // update settings 0 <-> 1 
+    for (ULONG i = 0; i < MAX_CHANNELS; ++i)
+    {
+        muteCtx->MuteState[i] = !muteCtx->MuteState[i];
+    }
+
+    AcxMuteChangeStateNotification(timerCtx->MuteElement);
 ```
 
 ## -see-also

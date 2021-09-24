@@ -54,7 +54,7 @@ TBD - The length, in bytes, of this structure.
 
 ### -field EvtAcxAudioEngineRetrieveBufferSizeLimits
 
-The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-evt_audioengine_retrieve_buffer_size_limits.md) callback.
+The [EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS](nc-acxelements-evt_acx_audioengine_retrieve_buffer_size_limits.md) callback.
 
 ### -field EvtAcxAudioEngineAssignEffectsState
 

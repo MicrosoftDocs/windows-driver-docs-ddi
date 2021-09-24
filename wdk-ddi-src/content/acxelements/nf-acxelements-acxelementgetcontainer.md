@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxElementGetContainer
 tech.root: audio 
 title: AcxElementGetContainer
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The AcxElementGetContainer function retrieves the associated container for the provided ACX element. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The AcxElementGetContainer function retrieves the associated container for the provided ACX element. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ## -parameters
 
 ### -param Element
+
+TBD - An ACXELEMENT object. 
 
 ## -returns
 
@@ -57,7 +61,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-
+    ACXCIRCUIT          circuit     = (ACXCIRCUIT)AcxElementGetContainer((ACXELEMENT)Mute);
 ```
 
 ## -see-also

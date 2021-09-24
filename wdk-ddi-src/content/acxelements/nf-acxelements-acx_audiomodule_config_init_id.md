@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_AUDIOMODULE_CONFIG_INIT_ID
 tech.root: audio 
 title: ACX_AUDIOMODULE_CONFIG_INIT_ID
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: TBD - The ACX_AUDIOMODULE_CONFIG_INIT_ID function initializes an ACX_AUDIOMODULE_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
