@@ -2,9 +2,9 @@
 UID: NF:acxdriver.AcxDriverIsVersionAvailable
 tech.root: audio
 title: AcxDriverIsVersionAvailable
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The AcxDriverIsVersionAvailable function returns a Boolean value indicating if the specified driver version is available.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,27 @@ dev_langs:
 
 ## -description
 
+The **AcxDriverIsVersionAvailable** function returns a Boolean value indicating if the specified driver version is available.
+
 ## -parameters
 
 ### -param Driver
 
+The **WDFDRIVER** object to check for the version specified by *VersionAvailableParams*.
+
 ### -param VersionAvailableParams
+
+Pointer to an [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md) structure that indicates the version of the audio driver you are seeking.
 
 ## -returns
 
+**AcxDriverIsVersionAvailable** returns a Boolean value indicating if the specified driver version is available.
+
 ## -remarks
+
+Call the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md) function to initialize the *VersionAvailableParams* structure before calling this function.
 
 ## -see-also
 
+* [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md)
+* [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)

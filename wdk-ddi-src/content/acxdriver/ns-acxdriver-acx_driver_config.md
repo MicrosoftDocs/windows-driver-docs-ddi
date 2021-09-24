@@ -2,9 +2,9 @@
 UID: NS:acxdriver._ACX_DRIVER_CONFIG
 tech.root: audio
 title: ACX_DRIVER_CONFIG
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The ACX_DRIVER_CONFIG structure provides configuration information to the class extension.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,24 @@ dev_langs:
 
 ## -description
 
+The **ACX_DRIVER_CONFIG** structure provides configuration information to the class extension.
+
 ## -struct-fields
 
 ### -field Size
 
+This field is set by the [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md) function.
+
 ### -field Flags
+
+An [ACX_DRIVER_CONFIG_FLAGS](ne-acxdriver-acx_driver_config_flags.md) value.
 
 ## -remarks
 
+Instances of this structure must be initialized by calling the [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md) function. A pointer to an **ACX_DRIVER_CONFIG** structure is passed as a parameter to the [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md) function.
+
 ## -see-also
 
+* [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md)
+* [ACX_DRIVER_CONFIG_FLAGS](ne-acxdriver-acx_driver_config_flags.md)
+* [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md)

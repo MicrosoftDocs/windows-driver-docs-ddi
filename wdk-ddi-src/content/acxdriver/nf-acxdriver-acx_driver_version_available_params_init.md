@@ -2,9 +2,9 @@
 UID: NF:acxdriver.ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
 tech.root: audio
 title: ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
-ms.date: 
+ms.date: 09/23/2021
 targetos: Windows
-description: 
+description: The ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes an ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure before calling the AcxDriverIsVersionAvailable function.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,25 @@ dev_langs:
 
 ## -description
 
+The **ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT** function initializes an [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md) structure before calling the [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md) function.
+
 ## -parameters
 
 ### -param Params
 
+Pointer to an [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md) structure.
+
 ### -param MajorVersion
 
+The major version of the audio driver for which to check.
+
 ### -param MinorVersion
+
+The minor version of the audio driver for which to check.
 
 ## -remarks
 
 ## -see-also
 
+* [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md)
+* [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md)
