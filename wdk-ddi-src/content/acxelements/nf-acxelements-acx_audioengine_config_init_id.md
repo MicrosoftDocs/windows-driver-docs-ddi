@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOENGINE_CONFIG_INIT_ID
 ms.date: 09/20/2021
 targetos: Windows
-description: TBD - The ACX_AUDIOENGINE_CONFIG_INIT_ID function initializes an TBD TBD TBD  [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_config.md) structure.
+description: TBD - The ACX_AUDIOENGINE_CONFIG_INIT_ID function initializes an TBD TBD TBD ACX_STREAM_BRIDGE_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
