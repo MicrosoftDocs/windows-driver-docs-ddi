@@ -51,7 +51,7 @@ An array of [**NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY**](ns-netreceivesca
 
 ### -field Length
 
-The length, in bytes, of **Entries**.
+The number of elements in **Entries**.
 
 ## -remarks
 

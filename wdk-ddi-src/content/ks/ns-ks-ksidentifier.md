@@ -5,6 +5,7 @@ description: The KSIDENTIFIER structure specifies a GUID that uniquely identifie
 old-location: stream\ksidentifier.htm
 tech.root: stream
 ms.date: 07/15/2021
+ms.custom: contperf-fy22q1
 keywords: ["KSIDENTIFIER structure"]
 ms.keywords: "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
 req.header: ks.h
