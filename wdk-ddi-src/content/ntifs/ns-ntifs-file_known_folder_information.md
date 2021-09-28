@@ -66,6 +66,6 @@ When a function is called to set or query information for a file object with a [
 
 [**NtSetInformationFile**](nf-ntifs-ntsetinformationfile.md)
 
-[**ZwQueryInformationFile**](../wdm/nf-wdm-zwqueryinformationfile)
+[**ZwQueryInformationFile**](../wdm/nf-wdm-zwqueryinformationfile.md)
 
 [**ZwSetInformationFile**](../wdm/nf-wdm-zwsetinformationfile.md)
