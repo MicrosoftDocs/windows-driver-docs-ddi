@@ -2,7 +2,7 @@
 UID: NF:acxdriver.ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
 tech.root: audio
 title: ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
-ms.date: 09/23/2021
+ms.date: 09/29/2021
 targetos: Windows
 description: The ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes an ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure before calling the AcxDriverIsVersionAvailable function.
 prerelease: false
@@ -59,6 +59,13 @@ The major version of the audio driver for which to check.
 The minor version of the audio driver for which to check.
 
 ## -remarks
+
+### Example
+
+```cpp
+ACX_DRIVER_VERSION_AVAILABLE_PARAMS ver;
+ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);
+```
 
 ## -see-also
 

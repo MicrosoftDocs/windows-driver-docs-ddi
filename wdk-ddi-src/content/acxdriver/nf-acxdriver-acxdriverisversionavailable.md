@@ -2,7 +2,7 @@
 UID: NF:acxdriver.AcxDriverIsVersionAvailable
 tech.root: audio
 title: AcxDriverIsVersionAvailable
-ms.date: 09/23/2021
+ms.date: 09/29/2021
 targetos: Windows
 description: The AcxDriverIsVersionAvailable function returns a Boolean value indicating if the specified driver version is available.
 prerelease: false
@@ -61,6 +61,25 @@ Pointer to an [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_vers
 ## -remarks
 
 Call the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md) function to initialize the *VersionAvailableParams* structure before calling this function.
+
+### Example
+
+```cpp
+WDFDRIVER                           driver;
+ACX_DRIVER_VERSION_AVAILABLE_PARAMS ver;
+
+// Code to initialize the WDFDRIVER object...
+
+// Initialize the audio driver version available structure
+ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);
+
+// Check if version 1.0 is available
+if (!AcxDriverIsVersionAvailable(driver, &ver)) 
+{
+    DbgPrint("Unexpected library version.\n");
+    ASSERT(FALSE);
+}
+```
 
 ## -see-also
 
