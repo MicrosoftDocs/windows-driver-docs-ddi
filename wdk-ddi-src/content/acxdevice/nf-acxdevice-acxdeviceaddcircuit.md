@@ -64,6 +64,30 @@ The audio circuit is the core building block of ACX. An audio driver creates one
 
 This function can only be called from the [EVT_WDF_DEVICE_PREPARE_HARDWARE](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware) callback function for this device.
 
+### Example
+
+```cpp
+WDFDEVICE             Device;
+NTSTATUS              status;
+PCODEC_DEVICE_CONTEXT devCtx;
+
+// Code to initialize the WDFDEVICE...
+
+devCtx = GetCodecDeviceContext(Device);
+ASSERT(devCtx != NULL);
+
+//
+// Add static circuit to device's list.
+//
+ASSERT(devCtx->Render);
+status = AcxDeviceAddCircuit(Device, devCtx->Render);
+
+if (!NT_SUCCESS(status)) 
+{
+    ASSERT(FALSE);
+}
+```
+
 ## -see-also
 
 * [AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)

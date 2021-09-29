@@ -52,6 +52,13 @@ A pointer to the [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md) 
 
 ## -remarks
 
+### Example
+
+```cpp
+ACX_DEVICEINIT_CONFIG devInitCfg;
+ACX_DEVICEINIT_CONFIG_INIT(&devInitCfg);
+```
+
 ## -see-also
 
 * [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)

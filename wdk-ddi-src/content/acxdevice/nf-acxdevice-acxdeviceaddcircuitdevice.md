@@ -64,6 +64,27 @@ Audio drivers use this function to enumerate a new audio endpoint.
 
 This function can be called at any time during the driver's life cycle. Plug and Play serializes the enumeration of the device, and the associated circuits, in relation to other Plug and Play activities on the parent and siblings devices.
 
+### Example
+
+```cpp
+WDFDEVICE Device;
+WDFDEVICE renderDevice = NULL;
+NTSTATUS  status;
+
+// Code to initialize the WDFDEVICE...
+
+// Code to create the WDFDEVICE renderDevice...
+
+//
+// Add circuit to device's dynamic circuit device list.
+//
+status = AcxDeviceAddCircuitDevice(Device, renderDevice);
+if (!NT_SUCCESS(status)) 
+{
+    ASSERT(FALSE);
+}
+```
+
 ## -see-also
 
 * [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
