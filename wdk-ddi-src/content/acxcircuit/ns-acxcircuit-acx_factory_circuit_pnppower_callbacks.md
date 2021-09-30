@@ -2,7 +2,7 @@
 UID: NS:acxcircuit._ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS
-ms.date: 08/23/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure contains pointers to an ACXFACTORYCIRCUITs Plug and Play and power event callback functions.
 prerelease: true

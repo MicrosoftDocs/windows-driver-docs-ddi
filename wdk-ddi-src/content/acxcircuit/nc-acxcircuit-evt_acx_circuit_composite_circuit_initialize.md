@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
-ms.date: 08/20/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
 prerelease: true
@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Circuit
 
-The ACXCIRCUIT object being initialized.  
+The ACXCIRCUIT object being initialized.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ### -param CircuitProperties
 
@@ -65,8 +65,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -remarks
 
 ### Example
-
-Example usage is shown below.
 
 This sample code shows how the driver retrieves a circuit property from the specified circuit property object bag.
 
@@ -116,3 +114,5 @@ exit:
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

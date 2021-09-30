@@ -2,7 +2,7 @@
 UID: NS:acxcircuit._ACX_FACTORY_CIRCUIT_ADD_CIRCUIT
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT
-ms.date: 08/27/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure is used to add circuits by an ACX circuit factory.
 prerelease: true
@@ -54,9 +54,7 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS 
-
-(DocsTeam - need link to ACX Object Summary topic or flags enum if that is what this is >> ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS) ???
+Bitwise OR of [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS](ne-acxcircuit-acx_factory_circuit_add_circuit_flags.md). 
 
 ### -field CircuitUniqueId
 
@@ -80,10 +78,13 @@ Optional string that provides the target symbolic link name.
 
 ## -remarks
 
-ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when a new ACXCIRCUIT is needed.
+ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when a new ACXCIRCUIT object is needed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+
 Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing parameter.
 
 ### Example
+
+Example pending.
 
 ```cpp
 
@@ -94,3 +95,5 @@ Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing 
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
