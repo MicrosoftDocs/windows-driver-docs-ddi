@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceInitialize
 tech.root: audio
 title: AcxDeviceInitialize
-ms.date: 09/17/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The AcxDeviceInitialize function initializes an audio class extension (ACX) device.
 prerelease: false
@@ -60,9 +60,29 @@ Pointer to an [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md) structure t
 
 ## -remarks
 
+### Example
+
+TBD - review code snippet
+
+```cpp
+NTSTATUS          status;
+WDFDEVICE         device = NULL;
+ACX_DEVICE_CONFIG devCfg;
+
+// Code to initialize WDFDEVICE...
+
+ACX_DEVICE_CONFIG_INIT(&devCfg);
+
+status = AcxDeviceInitialize(device, &devCfg);
+
+if (!NT_SUCCESS(status)) 
+{
+    ASSERT(FALSE);
+    goto exit;
+}
+```
+
 ## -see-also
 
 * [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
 * [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
-
-READY2GO

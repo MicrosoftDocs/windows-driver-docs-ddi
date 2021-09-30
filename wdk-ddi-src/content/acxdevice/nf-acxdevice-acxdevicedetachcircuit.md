@@ -64,9 +64,24 @@ This function can only be called from the [EVT_WDF_DEVICE_RELEASE_HARDWARE](/win
 
 ## -remarks
 
+### Example
+
+TBD - review code snippet
+
+```cpp
+WDFDEVICE                    Device;
+NTSTATUS                     status;
+PCODEC_RENDER_DEVICE_CONTEXT renderDevCtx = NULL;
+
+// Code to initialize WDFDEVICE...
+
+renderDevCtx = GetRenderDeviceContext(Device);
+
+ASSERT(renderDevCtx->Circuit);
+status = AcxDeviceDetachCircuit(Device, renderDevCtx->Circuit);
+```
+
 ## -see-also
 
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
-
-READY2GO

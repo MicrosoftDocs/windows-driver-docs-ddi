@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceInitInitialize
 tech.root: audio
 title: AcxDeviceInitInitialize
-ms.date: 09/17/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The client driver must call AcxDeviceInitInitialize in its EVT_WDF_DRIVER_DEVICE_ADD callback, before calling WdfDeviceCreate.
 prerelease: false
@@ -60,6 +60,46 @@ Pointer to an [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md) str
 
 ## -remarks
 
+### Example
+
+TBD - review code snippet
+
+```cpp
+WDFDEVICE             Parent;
+NTSTATUS              status;
+PWDFDEVICE_INIT       devInit = NULL;
+ACX_DEVICEINIT_CONFIG devInitCfg;
+
+// Code to initialize WDFDEVICE...
+
+//
+// Create a child audio device for this circuit.
+//
+devInit = WdfPdoInitAllocate(Parent);
+
+if (NULL == devInit) 
+{
+    status = STATUS_INSUFFICIENT_RESOURCES;
+    ASSERT(FALSE);
+    goto exit;
+}
+
+//
+// Allow ACX to add any pre-requirement it needs on this device.
+//
+ACX_DEVICEINIT_CONFIG_INIT(&devInitCfg);
+
+devInitCfg.Flags |= AcxDeviceInitConfigRawDevice; 
+
+status = AcxDeviceInitInitialize(devInit, &devInitCfg);
+
+if (!NT_SUCCESS(status)) 
+{
+    ASSERT(FALSE);
+    goto exit;
+}
+```
+
 ## -see-also
 
 * [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
@@ -68,5 +108,3 @@ Pointer to an [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md) str
 * [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)
 * [ACX_DEVICEINIT_CONFIG_INIT](nf-acxdevice-acx_deviceinit_config_init.md)
 * [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)
-
-READY2GO
