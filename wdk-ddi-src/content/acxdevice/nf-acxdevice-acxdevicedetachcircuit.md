@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceDetachCircuit
 tech.root: audio
 title: AcxDeviceDetachCircuit
-ms.date: 09/17/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The AcxDeviceDetachCircuit function detaches an audio circuit from a WDFDEVICE prior to removal.
 prerelease: false
@@ -64,9 +64,30 @@ This function can only be called from the [EVT_WDF_DEVICE_RELEASE_HARDWARE](/win
 
 ## -remarks
 
+### Example
+
+TBD - review code snippet
+
+```cpp
+WDFDEVICE                    Device;
+NTSTATUS                     status;
+PCODEC_RENDER_DEVICE_CONTEXT renderDevCtx = NULL;
+
+// Code to initialize WDFDEVICE...
+
+renderDevCtx = GetRenderDeviceContext(Device);
+
+ASSERT(renderDevCtx->Circuit);
+status = AcxDeviceDetachCircuit(Device, renderDevCtx->Circuit);
+
+if (!NT_SUCCESS(status))
+{
+    ASSERT(FALSE);
+    goto exit;
+}
+```
+
 ## -see-also
 
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
-
-READY2GO

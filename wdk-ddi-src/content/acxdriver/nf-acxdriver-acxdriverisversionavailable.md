@@ -64,6 +64,8 @@ Call the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_vers
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 WDFDRIVER                           driver;
 ACX_DRIVER_VERSION_AVAILABLE_PARAMS ver;

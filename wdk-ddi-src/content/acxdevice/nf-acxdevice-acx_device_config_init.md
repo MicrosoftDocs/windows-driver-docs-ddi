@@ -2,7 +2,7 @@
 UID: NF:acxdevice.ACX_DEVICE_CONFIG_INIT
 tech.root: audio
 title: ACX_DEVICE_CONFIG_INIT
-ms.date: 09/29/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_DEVICE_CONFIG_INIT function initializes an ACX_DEVICE_CONFIG structure to be used when calling the AcxDeviceInitialize function.
 prerelease: false
@@ -54,6 +54,8 @@ Pointer to an [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md) structure.
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 ACX_DEVICE_CONFIG devCfg;
 ACX_DEVICE_CONFIG_INIT(&devCfg);
@@ -63,5 +65,3 @@ ACX_DEVICE_CONFIG_INIT(&devCfg);
 
 * [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
 * [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md)
-
-READY2GO
