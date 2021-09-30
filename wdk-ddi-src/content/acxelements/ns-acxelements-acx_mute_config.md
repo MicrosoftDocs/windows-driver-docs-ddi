@@ -50,7 +50,7 @@ The ACX_MUTE_CONFIG structure is used to define the audio mute configuration.
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+The length, in bytes, of this structure.
 
 ### -field Id
 

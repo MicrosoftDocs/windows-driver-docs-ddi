@@ -50,7 +50,7 @@ The ACX_KEYWORDSPOTTER_CALLBACKS structure identifies the driver callbacks for k
 
 ### -field Size
 
-TBD - The length, in bytes, of this callbacks structure.
+The length, in bytes, of this callbacks structure.
 
 ### -field EvtAcxKeywordSpotterRetrieveArm
 

@@ -42,9 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_VOLUME_CONFIG_INIT_ID function initializes an [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
-
-It is different from [ACX_PEAKMETER_CONFIG_INIT](nf-acxelements-acx_volume_config_init.md) function in that an Id is TBD TBD TBD.
+In the current ACX implementation, The ACX_VOLUME_CONFIG_INIT_ID provides the same functionality as [ACX_VOLUME_CONFIG_INIT](nf-acxelements-acx_volume_config_init.md). The ACX_VOLUME_CONFIG_INIT function initializes an [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
 
 ## -parameters
 
@@ -54,19 +52,11 @@ An [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
 
 ### -param Id
 
-TBD TBD - An Id that is used to TBD
+Set only to AcxElementIdDefault that is defined in the AcxElements header.
 
 ## -remarks
 
-### Example
-
-TBD - No example usage found
-
-Example usage is shown below.
-
-```cpp
-
-```
+As the The ACX_VOLUME_CONFIG_INIT_ID provides the same functionality as [ACX_VOLUME_CONFIG_INIT](nf-acxelements-acx_volume_config_init.md), the use of ACX_VOLUME_CONFIG_INIT is recommended.
 
 ## -see-also
 

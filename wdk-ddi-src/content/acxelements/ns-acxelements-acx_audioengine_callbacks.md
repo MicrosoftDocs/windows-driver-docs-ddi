@@ -50,7 +50,7 @@ The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engi
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+The length, in bytes, of this structure.
 
 ### -field EvtAcxAudioEngineRetrieveBufferSizeLimits
 

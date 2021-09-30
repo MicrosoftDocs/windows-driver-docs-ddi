@@ -50,7 +50,7 @@ The ACX_RTPACKET structure represents a single allocated packet. The PacketBuffe
 
 ### -field Size
 
-The size of the completed (TBD?) ACX_RTPACKET structure in bytes (TBD?).
+The size of the completed (TBD?) ACX_RTPACKET structure in bytes.
 
 ### -field RtPacketBuffer
 
