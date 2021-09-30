@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
 ms.date: 08/20/2021
 targetos: Windows
-description: TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is initialized using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is initialized using the TBD function is called,  TBD TBD. The Circuit object bag will contain TBD that can be used for TBD. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  
+The ACXCIRCUIT object being initialized.  
 
 ### -param CircuitProperties
 
-TBD - Optional handle to CircuitProperties. This is an existing ACXOBJECTBAG circuit object properties. 
+Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties. 
 
 ## -returns
 
@@ -68,12 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-
-TBD TBD TBD
-
-TBD - This sample code just seems to be showing how to get the object bag, but then doesn't do anything with it?
-
-TBD TBD TBD 
+This sample code shows how the driver retrieves a circuit property from the specified circuit property object bag.
 
 ```cpp
 DspR_EvtCircuitCompositeCircuitInitialize(
@@ -97,11 +92,15 @@ DspR_EvtCircuitCompositeCircuitInitialize(
         status = AcxObjectBagRetrieveUI4(CircuitProperties, &TestUI4, &testUI4);
         if (!NT_SUCCESS(status))
         {
-            ASSERT(FALSE);
+            // Log error.
             goto exit;
         }
+
+        //...
     }
     
+    //...
+
     // All done.
     status = STATUS_SUCCESS;
 
@@ -116,3 +115,4 @@ exit:
 
 [acxcircuit.h header](index.md)
 
+READY2GO
