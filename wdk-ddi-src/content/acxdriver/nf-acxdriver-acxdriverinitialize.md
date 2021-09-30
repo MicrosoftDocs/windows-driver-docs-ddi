@@ -62,6 +62,8 @@ Pointer to a [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure th
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 ACX_DRIVER_CONFIG acxCfg;
 WDFDRIVER         driver;
