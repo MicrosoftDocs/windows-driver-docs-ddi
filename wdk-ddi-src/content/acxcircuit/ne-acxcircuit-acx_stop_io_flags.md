@@ -51,11 +51,9 @@ For internal validation, do not use.
 
 ## -remarks
 
+There are no flags currently defined for this type.
+
 ### Example
-
-Example usage is shown below.
-
-TBD - No sample code found.
 
 ```cpp
 
@@ -65,3 +63,5 @@ TBD - No sample code found.
 ## -see-also
 
 [acxcircuit.h header](index.md)
+
+READY2GO
