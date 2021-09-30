@@ -50,7 +50,7 @@ The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure identifies the driver call
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure. 
+The length, in bytes, of this structure. 
 
 ### -field EvtAcxFactoryCircuitCreateCircuitDevice
 
@@ -89,3 +89,4 @@ Example usage is shown below.
 
 [acxcircuit.h header](index.md)
 
+READY2GO

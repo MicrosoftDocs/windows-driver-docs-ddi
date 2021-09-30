@@ -50,7 +50,7 @@ The ACX_CIRCUIT_COMPOSITE_CALLBACKS structure identifies the driver callbacks fo
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure. 
+The length, in bytes, of this structure. 
 
 ### -field EvtAcxCircuitCompositeCircuitInitialize
 
@@ -87,3 +87,4 @@ Example usage is shown below.
 
 [acxcircuit.h header](index.md)
 
+READY2GO

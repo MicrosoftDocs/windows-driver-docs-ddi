@@ -50,12 +50,12 @@ The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure is used to remove ACX circuit f
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure. 
+The length, in bytes, of this structure. 
 
 
 ### -field Flags
 
-TBD - Bitwise OR of ACX_TBD TBD TBD _FLAGS 
+Bitwise OR of ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS 
 
 (DocsTeam - need link to ACX Object Summary topic or flags enum if that is what this is >> ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS) ???
 
@@ -65,11 +65,10 @@ A GUID that is used to uniquely identify the circuit.
 
 ## -remarks
 
+ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when an existing ACXCIRCUIT must be removed.
+Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing parameter.
+
 ### Example
-
-Example usage is shown below.
-
-TBD - No sample code found
 
 ```cpp
 
@@ -79,3 +78,4 @@ TBD - No sample code found
 
 [acxcircuit.h header](index.md)
 
+READY2GO

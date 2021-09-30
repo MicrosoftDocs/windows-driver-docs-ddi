@@ -50,11 +50,11 @@ The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure is used to add circuits by an ACX 
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure. 
+The length, in bytes, of this structure. 
 
 ### -field Flags
 
-TBD - Bitwise OR of ACX_TBD TBD TBD _FLAGS 
+Bitwise OR of ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS 
 
 (DocsTeam - need link to ACX Object Summary topic or flags enum if that is what this is >> ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS) ???
 
@@ -80,11 +80,10 @@ Optional string that provides the target symbolic link name.
 
 ## -remarks
 
+ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when a new ACXCIRCUIT is needed.
+Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing parameter.
+
 ### Example
-
-Example usage is shown below.
-
-TBD - No sample code found
 
 ```cpp
 
@@ -94,3 +93,4 @@ TBD - No sample code found
 
 [acxcircuit.h header](index.md)
 
+READY2GO
