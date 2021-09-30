@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
 ms.date: 08/24/2021
 targetos: Windows
-description: TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is de-initialized using the TBD function is called,  TBD TBD.
+description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,31 +42,29 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to allow it to add additional functionality when a composite circuit is de-initialized using the TBD function is called,  TBD TBD. The circuit object bag will contain TBD that can be used by the driver for TBD. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object. 
+The ACXCIRCUIT object being de-initialized.
 
 ### -param CompositeProperties
 
-TBD - Optional handle to CircuitProperties that describes the composite circuit. This is an existing ACXOBJECTBAG circuit object properties.  
+Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties. 
 
 ## -remarks
 
+ACX is able to invoke this callback for a composite ACXCIRCUIT only if the associated WDFDEVICE is present. I.e., if the associated WDFDEVICE is surprise-removed (SR), ACX will not be able to invoke the callback b/c its associated PnP interfaces are turned off.
+
 ### Example
 
-TBD TBD TBD
-
-TBD - This sample code just seems to be showing how to get the object bag, but then doesn't do anything with it?
-
-TBD TBD TBD 
+This sample code shows how the driver retrieves a circuit property from the specified circuit property object bag.
 
 Example usage is shown below.
 
@@ -92,7 +90,7 @@ DspR_EvtCircuitCompositeDeinitialize(
         status = AcxObjectBagRetrieveGuid(CompositeProperties, &UniqueID, &uniqueId);
         if (!NT_SUCCESS(status))
         {
-            ASSERT(FALSE);
+            // Log error.
         }
     }
 }
@@ -102,3 +100,4 @@ DspR_EvtCircuitCompositeDeinitialize(
 
 [acxcircuit.h header](index.md)
 
+READY2GO
