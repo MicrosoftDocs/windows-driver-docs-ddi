@@ -2,7 +2,7 @@
 UID: NE:acxcircuit._ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS
-ms.date: 07/20/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS enumeration defines factory circuit add flags.
 prerelease: true
@@ -55,6 +55,8 @@ There are no flags currently defined for this type.
 
 ### Example
 
+Example Pending
+
 ```cpp
 
 ```
@@ -64,3 +66,5 @@ There are no flags currently defined for this type.
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

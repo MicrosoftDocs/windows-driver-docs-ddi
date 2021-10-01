@@ -2,7 +2,7 @@
 UID: NS:acxcircuit._ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT
-ms.date: 07/21/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure is used to remove ACX circuit factory circuits.
 prerelease: true
@@ -52,12 +52,9 @@ The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure is used to remove ACX circuit f
 
 The length, in bytes, of this structure. 
 
-
 ### -field Flags
 
-Bitwise OR of ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS 
-
-(DocsTeam - need link to ACX Object Summary topic or flags enum if that is what this is >> ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS) ???
+Bitwise OR of [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS](ne-acxcircuit-acx_factory_circuit_remove_circuit_flags.md) 
 
 ### -field CircuitUniqueId
 
@@ -65,10 +62,15 @@ A GUID that is used to uniquely identify the circuit.
 
 ## -remarks
 
-ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when an existing ACXCIRCUIT must be removed.
+ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when an existing ACXCIRCUIT object must be removed. 
+
 Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing parameter.
 
+For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+
 ### Example
+
+Example pending.
 
 ```cpp
 
@@ -79,3 +81,5 @@ Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing 
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

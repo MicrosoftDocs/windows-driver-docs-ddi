@@ -2,7 +2,7 @@
 UID: NF:acxdriver.AcxDriverInitialize
 tech.root: audio
 title: AcxDriverInitialize
-ms.date: 09/29/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The AcxDriverInitialize function initializes the specified audio driver.
 prerelease: false
@@ -62,6 +62,8 @@ Pointer to a [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure th
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 ACX_DRIVER_CONFIG acxCfg;
 WDFDRIVER         driver;
@@ -75,9 +77,10 @@ ACX_DRIVER_CONFIG_INIT(&acxCfg);
 // Initialize the audio driver
 status = AcxDriverInitialize(driver, &acxCfg);
 
-if (!NT_SUCCESS(status)) 
+if (!NT_SUCCESS(status))
 {
     ASSERT(FALSE);
+    goto exit;
 }
 ```
 

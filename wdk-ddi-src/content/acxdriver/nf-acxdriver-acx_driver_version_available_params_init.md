@@ -62,6 +62,8 @@ The minor version of the audio driver for which to check.
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 ACX_DRIVER_VERSION_AVAILABLE_PARAMS ver;
 ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);

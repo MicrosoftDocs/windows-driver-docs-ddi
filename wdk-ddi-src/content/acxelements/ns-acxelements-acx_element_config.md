@@ -50,7 +50,7 @@ The ACX_ELEMENT_CONFIG structure is used to define the audio element configurati
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+The length, in bytes, of this structure.
 
 ### -field Id
 

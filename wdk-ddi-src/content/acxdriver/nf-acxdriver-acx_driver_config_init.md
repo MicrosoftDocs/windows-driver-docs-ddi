@@ -54,6 +54,8 @@ Pointer to an [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md) struc
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 ACX_DRIVER_CONFIG acxCfg;
 ACX_DRIVER_CONFIG_INIT(&acxCfg);

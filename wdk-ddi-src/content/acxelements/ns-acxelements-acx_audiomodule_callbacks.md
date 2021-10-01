@@ -50,7 +50,7 @@ The ACX_AUDIOMODULE_CALLBACKS structure identifies the driver callbacks for ACX 
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+The length, in bytes, of this structure.
 
 ### -field EvtAcxAudioModuleProcessCommand
 

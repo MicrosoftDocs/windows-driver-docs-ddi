@@ -2,7 +2,7 @@
 UID: NS:acxcircuit._ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS
-ms.date: 07/21/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure identifies the driver callbacks for ACX factory operations.
 prerelease: true
@@ -90,3 +90,5 @@ Example usage is shown below.
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

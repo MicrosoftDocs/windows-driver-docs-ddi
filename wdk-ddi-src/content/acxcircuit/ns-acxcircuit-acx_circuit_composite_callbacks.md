@@ -2,7 +2,7 @@
 UID: NS:acxcircuit._ACX_CIRCUIT_COMPOSITE_CALLBACKS
 tech.root: audio
 title: ACX_CIRCUIT_COMPOSITE_CALLBACKS
-ms.date: 07/19/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS structure identifies the driver callbacks for ACX composite circuit  operations.
 prerelease: true
@@ -88,3 +88,5 @@ Example usage is shown below.
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

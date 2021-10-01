@@ -50,7 +50,7 @@ The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the 
 
 ### -field Size
 
-The size of the TBD in TBDs.
+The length, in bytes, of this structure.
 
 ### -field EvtAcxStreamGetHwLatency
 

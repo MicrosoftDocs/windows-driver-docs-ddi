@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
-ms.date: 08/24/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
 prerelease: true
@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Circuit
 
-The ACXCIRCUIT object being de-initialized.
+The ACXCIRCUIT object being de-initialized. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ### -param CompositeProperties
 
@@ -60,7 +60,7 @@ Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object fo
 
 ## -remarks
 
-ACX is able to invoke this callback for a composite ACXCIRCUIT only if the associated WDFDEVICE is present. I.e., if the associated WDFDEVICE is surprise-removed (SR), ACX will not be able to invoke the callback b/c its associated PnP interfaces are turned off.
+ACX is able to invoke this callback for a composite ACXCIRCUIT only if the associated WDFDEVICE is present. That is, if the associated WDFDEVICE is surprise-removed (SR), ACX will not be able to invoke the callback because its associated PnP interfaces are turned off.
 
 ### Example
 
@@ -101,3 +101,5 @@ DspR_EvtCircuitCompositeDeinitialize(
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

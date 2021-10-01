@@ -50,7 +50,7 @@ The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks fo
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+The length, in bytes, of this structure.
 
 ### -field EvtAcxStreamAudioEngineAssignEffectsState
 

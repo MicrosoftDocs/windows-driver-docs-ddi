@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceAddCircuit
 tech.root: audio
 title: AcxDeviceAddCircuit
-ms.date: 09/17/2021
+ms.date: 09/30/2021
 targetos: Windows
 description: The AcxDeviceAddCircuit function adds an ACX circuit to a WDFDEVICE to create an audio endpoint.
 prerelease: false
@@ -66,6 +66,8 @@ This function can only be called from the [EVT_WDF_DEVICE_PREPARE_HARDWARE](/win
 
 ### Example
 
+TBD - review code snippet
+
 ```cpp
 WDFDEVICE             Device;
 NTSTATUS              status;
@@ -85,6 +87,7 @@ status = AcxDeviceAddCircuit(Device, devCtx->Render);
 if (!NT_SUCCESS(status)) 
 {
     ASSERT(FALSE);
+    goto exit;
 }
 ```
 
@@ -93,5 +96,3 @@ if (!NT_SUCCESS(status))
 * [AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)
 * [AcxDeviceDetachCircuit](nf-acxdevice-acxdevicedetachcircuit.md)
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
-
-READY2GO
