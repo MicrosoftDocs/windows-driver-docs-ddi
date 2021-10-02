@@ -53,16 +53,6 @@ For internal validation, do not use.
 
 ## -remarks
 
-### Example
-
-TBD - No sample code found, just header def.
-
-Example usage is shown below.
-
-```cpp
-
-```
-
 ## -see-also
 
 [acxelements.h header](index.md)

@@ -46,23 +46,14 @@ The ACX_VOLUME_CURVE_TYPE enumeration defines the volume curve type.
 
 ### -field AcxVolumeCurveTypeNone
 
-Indicates that the the volume curve type is none.
+Indicates that the volume curve type is none.
 
 ### -field AcxVolumeCurveTypeFade
 
-Indicates that the the volume curve type is fade.
+Indicates that the volume curve type is fade.
 
 ## -remarks
 
-### Example
-
-TBD - No useful sample code found, just header def and null test.
-
-Example usage is shown below.
-
-```cpp
-
-```
 
 ## -see-also
 

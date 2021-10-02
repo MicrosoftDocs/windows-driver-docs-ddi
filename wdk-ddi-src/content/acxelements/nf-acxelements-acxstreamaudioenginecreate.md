@@ -56,7 +56,7 @@ An ACXAUDIOENGINE audio engine object  that is used in a render circuit, to repr
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the stream audio engine with the parent stream object (TBD???).
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the stream audio engine with the parent stream object.
 
 ### -param Config
 
