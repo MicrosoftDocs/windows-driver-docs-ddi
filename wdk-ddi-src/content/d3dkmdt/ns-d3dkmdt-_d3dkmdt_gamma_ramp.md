@@ -74,7 +74,7 @@ If <b>Type</b> is equal to D3DDDI_GAMMARAMP_DXGI_1, this member is a pointer to 
 
 ### -field Data.p3x4
 
-Pointer to a D3DDDI_3x4_COLORSPACE_TRANSFORM which describes the 3 by 4 matrix color space transform to be applied.
+Pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dkmdt_3x4_colorspace_transform">D3DDDI_3x4_COLORSPACE_TRANSFORM structure which describes the 3 by 4 matrix color space transform to be applied, a scalar multiplier, and a lookup table.
 
 ### -field Data.pRaw
 
