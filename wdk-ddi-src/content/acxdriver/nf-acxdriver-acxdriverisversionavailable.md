@@ -2,7 +2,7 @@
 UID: NF:acxdriver.AcxDriverIsVersionAvailable
 tech.root: audio
 title: AcxDriverIsVersionAvailable
-ms.date: 09/29/2021
+ms.date: 10/05/2021
 targetos: Windows
 description: The AcxDriverIsVersionAvailable function returns a Boolean value indicating if the specified driver version is available.
 prerelease: false

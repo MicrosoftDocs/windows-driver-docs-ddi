@@ -85,6 +85,7 @@ PCAPTURE_DEVICE_CONTEXT  devCtx;
 // Add control circuit to child's list.
 //
 status = AcxDeviceAddFactoryCircuit(Device, devCtx->CtrlCircuit);
+
 if (!NT_SUCCESS(status))
 {
     ASSERT(FALSE);
