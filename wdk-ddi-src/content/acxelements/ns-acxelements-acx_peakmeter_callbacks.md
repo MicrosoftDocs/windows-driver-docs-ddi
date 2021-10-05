@@ -50,7 +50,7 @@ The ACX_PEAKMETER_CALLBACKS structure identifies the driver callbacks for ACX pe
 
 ### -field Size
 
-TBD - The length, in bytes, of this structure.
+The length, in bytes, of this structure.
 
 ### -field EvtAcxPeakMeterRetrieveLevel
 

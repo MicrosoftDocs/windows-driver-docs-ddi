@@ -52,13 +52,13 @@ An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circui
 
 ### -param PositionInBlocks
 
-TBD TBD TBD - This is from the the KSAUDIO_PRESENTATION_POSITION structure, should that be used here?
+TBD TBD TBD - This is from the KSAUDIO_PRESENTATION_POSITION structure, should that be used here?
 
 Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. A "block" refers to the group of channels in the same sample. So, for example, in a PCM stream a block is the same as a frame. However, for compressed formats a block is a single sample within a frame. This means that for a typical MP3 stream that has 1152 samples in a frame, there are 1152 blocks. 
 
 ### -param QPCPosition
 
-TBD TBD TBD - This is from the the KSAUDIO_PRESENTATION_POSITION structure, should that be used here?
+TBD TBD TBD - This is from the KSAUDIO_PRESENTATION_POSITION structure, should that be used here?
 
 Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the KSAUDIO_PRESENTATION_POSITION call (TBD Something else in ACX???) . A driver writes to this field with the value read from calling KeQueryPerformanceCounter when a snapshot is taken of the presentation position.
 

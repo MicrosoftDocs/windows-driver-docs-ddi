@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_KEYWORDSPOTTER_CONFIG_INIT_ID
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CONFIG_INIT_ID
-ms.date: 09/20/2021
+ms.date: 10/01/2021
 targetos: Windows
-description: TBD - The ACX_KEYWORDSPOTTER_CONFIG_INIT_ID function initializes an ACX_KEYWORDSPOTTER_CONFIG structure.
+description: As the The ACX_KEYWORDSPOTTER_CONFIG_INIT_ID provides the same functionality as [ACX_KEYWORDSPOTTER_CONFIG_INIT, the use of ACX_KEYWORDSPOTTER_CONFIG_INIT is recommended.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,10 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_KEYWORDSPOTTER_CONFIG_INIT_ID function initializes an [ACX_KEYWORDSPOTTER_CONFIG](ns-acxelements-acx_keywordspotter_config.md) structure.
-
-
-It is different from [ACX_KEYWORDSPOTTER_CONFIG_INIT](nf-acxelements-acx_keywordspotter_config_init.md) function in that an Id is TBD TBD TBD.
+At this time, the ACX_KEYWORDSPOTTER_CONFIG_INIT_ID can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_KEYWORDSPOTTER_CONFIG_INIT. Because of this, [ACX_KEYWORDSPOTTER_CONFIG_INIT](nf-acxelements-acx_keywordspotter_config_init.md) is recommended.
 
 ## -parameters
 
@@ -55,19 +52,12 @@ An [ACX_KEYWORDSPOTTER_CONFIG](ns-acxelements-acx_keywordspotter_config.md) stru
 
 ### -param Id
 
-TBD TBD - An Id that is used to TBD
+Set only to AcxElementIdDefault that is defined in the AcxElements header.
 
 ## -remarks
 
-### Example
+As the ACX_KEYWORDSPOTTER_CONFIG_INIT_ID provides the same functionality as [ACX_KEYWORDSPOTTER_CONFIG_INIT](nf-acxelements-acx_keywordspotter_config_init.md), the use of ACX_KEYWORDSPOTTER_CONFIG_INIT is recommended.
 
-TBD - No example usage found
-
-Example usage is shown below.
-
-```cpp
-
-```
 
 ## -see-also
 

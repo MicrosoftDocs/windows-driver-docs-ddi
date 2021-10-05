@@ -53,13 +53,6 @@ For internal validation, do not use.
 
 ### Example
 
-TBD - No sample code found, just header def.
-
-Example usage is shown below.
-
-```cpp
-
-```
 
 ## -see-also
 

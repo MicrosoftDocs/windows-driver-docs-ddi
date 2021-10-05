@@ -53,14 +53,6 @@ Indicates that the constrictor option is mute.
 
 ### Example
 
-TBD - No useful sample code found, just header def and null test.
-
-Example usage is shown below.
-
-```cpp
-
-```
-
 ## -see-also
 
 [acxelements.h header](index.md)
