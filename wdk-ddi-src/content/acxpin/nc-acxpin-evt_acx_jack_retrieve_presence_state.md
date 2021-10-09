@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE
 tech.root: audio
 title: EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE
-ms.date: 10/05/2021
+ms.date: 10/08/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -42,15 +42,22 @@ dev_langs:
 
 ## -description
 
+The **EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE** callback function is implemented by the driver and is called when the state is requested for the specified jack.
+
 ## -parameters
 
 ### -param Jack
 
+The physical terminal for which the presence state has been requested.
+
 ### -param IsConnected
 
+A Boolean value indicating if the terminal specified by the *Jack* parameter is present and connected.
+
 ## -returns
+
+**EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-
