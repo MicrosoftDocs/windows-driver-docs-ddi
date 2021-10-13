@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_RETRIEVE_NAME
 tech.root: audio
 title: EVT_ACX_PIN_RETRIEVE_NAME
-ms.date: 10/05/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -42,15 +42,22 @@ dev_langs:
 
 ## -description
 
+The **EVT_ACX_PIN_RETRIEVE_NAME** callback function is implemented by the driver and is called when the name is requested for the specified pin.
+
 ## -parameters
 
 ### -param Pin
 
+An [ACXPIN](index.md) object representing the specific pin for which the name is being requested.
+
 ### -param Name
 
+A pointer to a Unicode string to be populated with the requested pin name.
+
 ## -returns
+
+**EVT_ACX_PIN_RETRIEVE_NAME** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-

@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO
 tech.root: audio
 title: EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO
-ms.date: 10/05/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -42,15 +42,22 @@ dev_langs:
 
 ## -description
 
+The **EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO** callback function is implemented by the driver and is called when sink information is requested for the specified pin.
+
 ## -parameters
 
 ### -param Pin
 
+An [ACXPIN](index.md) object representing the specific pin for which sink information is requested.
+
 ### -param SinkInfo
 
+A pointer to an [ACX_JACK_SINK_INFORMATION](ns-acxpin-acx_jack_sink_information.md) structure to be populated with the requested sink information.
+
 ## -returns
+
+**EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO** returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-
