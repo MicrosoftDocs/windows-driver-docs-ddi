@@ -3,18 +3,18 @@ UID: NC:d3dkmddi.DXGKCB_SAVEMEMORYFORHOTUPDATE
 title: DXGKCB_SAVEMEMORYFORHOTUPDATE
 description: Implemented by the client driver to save adapter memory to support driver hot update.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 10/13/2021
 keywords: ["DXGKCB_SAVEMEMORYFORHOTUPDATE callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winverclnt: Windows 10, version 1903 (WDDM 2.6)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -41,10 +41,9 @@ dev_langs:
 
 # DXGKCB_SAVEMEMORYFORHOTUPDATE callback function
 
-
 ## -description
 
-Implemented by the client driver to save adapter memory to support driver hot update.
+A kernel-mode display miniport driver can call **DXGKCB_SAVEMEMORYFORHOTUPDATE** to save adapter memory to support driver hot update.
 
 ## -parameters
 
@@ -58,37 +57,24 @@ Implemented by the client driver to save adapter memory to support driver hot up
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds.
-
-## -prototype
-
-```
-//Declaration
-
-DXGKCB_SAVEMEMORYFORHOTUPDATE DxgkcbSavememoryforhotupdate; 
-
-// Definition
-
-NTSTATUS DxgkcbSavememoryforhotupdate 
-(
-	IN_CONST_HANDLE hAdapter
-	IN_CONST_PDXGKARGCB_SAVEMEMORYFORHOTUPDATE pArgs
-)
-{...}
-
-```
+**DXGKCB_SAVEMEMORYFORHOTUPDATE** returns STATUS_SUCCESS if the operation succeeds; otherwise it returns an error code from *Ntstatus.h*.
 
 ## -remarks
 
-Each call to **DxgkCbSaveMemoryForHotUpdate** saves a block of physical memory pages and optionally metadata, which the driver wants to associate with the memory block. When the pages are restored, the driver will get a separate call for each saved memory block together with metadata.
+Each call to **DXGKCB_SAVEMEMORYFORHOTUPDATE** saves a block of physical memory pages, as well as optionally metadata that the driver wants to associate with the memory block. When the pages are restored, the driver will get a separate call for each saved memory block together with metadata.
 
 For convenience, the callback provides 3 options to save physical memory:
 
-* As an array of contiguous physical memory ranges  (*pDataMemoryRanges*)
-* As an MDL (*pDataMdl*)
-* As virtual memory buffer (*pData*)
+* As an array of contiguous physical memory ranges (**pDataMemoryRanges**)
+* As an MDL (**pDataMdl**)
+* As virtual memory buffer (**pData**)
 
-One (and only one) of the pointers to data (pDataMemoryRanges, pDataMdl or pData) must be not NULL.
+One (and only one) of the pointers to data (**pDataMemoryRanges**, **pDataMdl** or **pData**) must be not NULL.
+
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_SAVEMEMORYFORHOTUPDATE**](ns-d3dkmddi-dxgkargcb_savememoryforhotupdate.md) and then call **DxgkCbSaveMemoryForHotUpdate** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
+[DXGKARGCB_SAVEMEMORYFORHOTUPDATE](ns-d3dkmddi-dxgkargcb_savememoryforhotupdate.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)
