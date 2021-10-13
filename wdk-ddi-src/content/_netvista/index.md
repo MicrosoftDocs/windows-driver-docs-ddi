@@ -189,24 +189,9 @@ Header files that support virtualized networking include the following:
 
 ## Wireless Networking
 
-Windows network drivers support both Wi-Fi and Mobile Broadband. For Windows Vista, Windows 7, Windows 8, and Windows 8.1, Wi-Fi drivers use the Native 802.11 Wireless LAN model. For Windows 10 and later, Wi-Fi drivers use the WLAN Universal Windows driver model, or WDI.
+Windows network drivers support both Wi-Fi and Mobile Broadband. 
 
-For more info about wireless networking, see [Wireless Networking](/windows-hardware/drivers/network/wireless-networking2).
-
-Header files that support wireless networking include the following:
-
-- [Dot11Wdi.h](../dot11wdi/index.md)
-- [Ndis.h](../ndis/index.md)
-- [Ndiswwan.h](../ndiswwan/index.md)
-- [Ntddndis.h](../ntddndis/index.md)
-- [Wditypes.hpp](../wditypes/index.md)
-- [Windot11.h](../windot11/index.md)
-- [Wlanihv.h](../wlanihv/index.md)
-- [Wlantypes.h](../wlantypes/index.md)
-- [Wlclient.h](../wlclient/index.md)
-- [Wwan.h](../wwan/index.md)
-
-## MBBCx
+### MBBCx
 
 Starting in Windows 10, version 1809, the Windows Driver Kit (WDK) includes a class extension module (MBBCx) that enables you to write a KMDF-based mobile broadband (MBB) client driver for MBB devices. The client driver interacts with MBBCx for mobile broadband media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
 
@@ -216,7 +201,7 @@ Header files that support MBBCx include the following:
 
 - [Mbbcx.h](../mbbcx/index.md)
 
-## WiFiCx
+### WiFiCx
 
 Starting in Windows 11, the Windows Driver Kit (WDK) includes a Wi-Fi WDF class extension (WiFiCx) that enables you to write a KMDF-based Wi-Fi client driver for Wi-Fi devices. The client driver interacts with WiFiCx for Wi-Fi media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
 
@@ -232,6 +217,25 @@ Header files that support WiFiCx include the following:
 - [Wificxtypes.h](../wificxtypes/index.md)
 - [Wificxwakesource.h](../wificxwakesource/index.md)
 - [Wificxwakesourcelist.h](../wificxwakesourcelist/index.md)
+
+### Older wireless networking models
+
+For Windows Vista, Windows 7, Windows 8, and Windows 8.1, Wi-Fi drivers use the Native 802.11 Wireless LAN model. For Windows 10 and later, Wi-Fi drivers use the WLAN Universal Windows driver model, or WDI.
+
+For more info, see [Wireless Networking](/windows-hardware/drivers/network/wireless-networking2).
+
+Header files that support wireless networking include the following:
+
+- [Dot11Wdi.h](../dot11wdi/index.md)
+- [Ndis.h](../ndis/index.md)
+- [Ndiswwan.h](../ndiswwan/index.md)
+- [Ntddndis.h](../ntddndis/index.md)
+- [Wditypes.hpp](../wditypes/index.md)
+- [Windot11.h](../windot11/index.md)
+- [Wlanihv.h](../wlanihv/index.md)
+- [Wlantypes.h](../wlantypes/index.md)
+- [Wlclient.h](../wlclient/index.md)
+- [Wwan.h](../wwan/index.md)
 
 ## Network Module Registrar
 

@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WIFI_STA_BANDS_COMBINATION
@@ -48,7 +48,9 @@ The number bands.
 
 ### -field BandIDs
 
-An array of [**WDI_BAND_ID**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_band_id.md) structures. 
+An array of [**WDI_BAND_ID**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_band_id.md) structures. Currently **MAX_SIMULTANEOUS_BAND_CONNECTIONS_ALLOWED** is defined as follows:
+
+```#define MAX_SIMULTANEOUS_BAND_CONNECTIONS_ALLOWED 4```
 
 ## -remarks
 
