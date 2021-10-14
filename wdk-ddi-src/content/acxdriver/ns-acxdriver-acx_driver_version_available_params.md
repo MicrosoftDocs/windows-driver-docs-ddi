@@ -68,3 +68,5 @@ Instances of this structure must be initialized by calling the [ACX_DRIVER_VERSI
 
 * [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)
 * [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md)
+
+READY2GO

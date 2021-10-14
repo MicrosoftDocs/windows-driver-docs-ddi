@@ -62,8 +62,6 @@ Pointer to a [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure th
 
 ### Example
 
-TBD - review code snippet
-
 ```cpp
 ACX_DRIVER_CONFIG acxCfg;
 WDFDRIVER         driver;
@@ -79,7 +77,8 @@ status = AcxDriverInitialize(driver, &acxCfg);
 
 if (!NT_SUCCESS(status))
 {
-    ASSERT(FALSE);
+    // Log error...
+
     goto exit;
 }
 ```
@@ -88,3 +87,5 @@ if (!NT_SUCCESS(status))
 
 * [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md)
 * [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md)
+
+READY2GO

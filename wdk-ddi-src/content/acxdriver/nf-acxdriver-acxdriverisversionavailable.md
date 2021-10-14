@@ -64,8 +64,6 @@ Call the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_vers
 
 ### Example
 
-TBD - review code snippet
-
 ```cpp
 WDFDRIVER                           driver;
 ACX_DRIVER_VERSION_AVAILABLE_PARAMS ver;
@@ -79,7 +77,7 @@ ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);
 if (!AcxDriverIsVersionAvailable(driver, &ver)) 
 {
     DbgPrint("Unexpected library version.\n");
-    ASSERT(FALSE);
+    return STATUS_REVISION_MISMATCH;
 }
 ```
 
@@ -87,3 +85,5 @@ if (!AcxDriverIsVersionAvailable(driver, &ver))
 
 * [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md)
 * [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)
+
+READY2GO
