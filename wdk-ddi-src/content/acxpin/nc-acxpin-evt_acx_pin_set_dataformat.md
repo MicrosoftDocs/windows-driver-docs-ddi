@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_SET_DATAFORMAT
 tech.root: audio
 title: EVT_ACX_PIN_SET_DATAFORMAT
-ms.date: 10/13/2021
+ms.date: 10/14/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_PIN_SET_DATAFORMAT** callback function is implemented by the driver and is called to set the data format for the specified pin.
+The **EVT_ACX_PIN_SET_DATAFORMAT** callback function is implemented by the driver and is called to TBD
 
 ## -parameters
 
 ### -param Pin
 
-An [ACXPIN](index.md) object representing the specific pin for which to set the data format.
+An [ACXPIN](index.md) object representing the specific pin for which to TBD
 
 ### -param DataFormat
 
