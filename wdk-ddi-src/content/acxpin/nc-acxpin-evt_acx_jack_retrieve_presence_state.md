@@ -2,9 +2,9 @@
 UID: NC:acxpin.EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE
 tech.root: audio
 title: EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE
-ms.date: 10/08/2021
+ms.date: 10/14/2021
 targetos: Windows
-description: 
+description: The EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE callback function is implemented by the driver and is called when the state is requested for the specified jack.
 prerelease: false
 req.assembly: 
 req.construct-type: function

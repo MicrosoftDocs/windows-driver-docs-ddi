@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_PIN_SET_DATAFORMAT
 ms.date: 10/14/2021
 targetos: Windows
-description: 
+description: The EVT_ACX_PIN_SET_DATAFORMAT callback function is implemented by the driver and is called to set the data format for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
