@@ -1,6 +1,6 @@
 ---
 UID: NF:acxpin.ACX_PHYSICAL_CONNECTION_INIT
-tech.root: 
+tech.root: audio
 title: ACX_PHYSICAL_CONNECTION_INIT
 ms.date: 10/05/2021
 targetos: Windows
