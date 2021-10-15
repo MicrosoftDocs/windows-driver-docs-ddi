@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md.md) callback function to destroy physical memory.
+The **DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) callback function to destroy physical memory.
 
 ## -struct-fields
 
@@ -61,3 +61,5 @@ If the driver attempts to destroy a physical object that still has an existing A
 [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
 
 [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
+
+[**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)

@@ -54,7 +54,7 @@ api_name:
 
 ### -param Flags
 
-[in] Additional flags defined by the [**DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS**](ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags) enumeration.
+[in] Additional flags defined by the [**DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS**](ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md) enumeration.
 
 ## -remarks
 
@@ -64,6 +64,6 @@ The kernel-mode display miniport driver should always call **DXGKCB_HARDWARECONT
 
 ## -see-also
 
-[**DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS**](ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags)
+[**DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS**](ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md)
 
 [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

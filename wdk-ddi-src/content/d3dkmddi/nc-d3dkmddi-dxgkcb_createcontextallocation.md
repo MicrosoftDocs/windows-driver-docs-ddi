@@ -83,7 +83,7 @@ The display miniport driver calls [**DXGKCB_DESTROYCONTEXTALLOCATION**](nc-d3dkm
 To ensure that the operating system sets a valid (non-NULL) virtual address for the destination context allocation (**InitContextResource->Destination->VirtualAddress** member of the [**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md) structure), when the display miniport driver calls **DxgkCbCreateContextAllocation** it must:
 
 * Set the **CpuVisible** and **Protected** members of the [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md) structure.
-* Page in the allocation only to aperture segments by setting  the **SupportedSegmentSet** member of the [**DXGKARGCB_CREATECONTEXTALLOCATION**](d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure.
+* Page in the allocation only to aperture segments by setting  the **SupportedSegmentSet** member of the [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure.
 
 ## -see-also
 

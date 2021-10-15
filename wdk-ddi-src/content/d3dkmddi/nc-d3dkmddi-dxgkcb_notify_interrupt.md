@@ -68,7 +68,7 @@ If the display miniport driver uses multiple interrupt handlers that correspond 
 
 Similarly, if message-signaled interrupts are used, the display miniport driver can call **DXGKCB_NOTIFY_INTERRUPT** from an interrupt handler that corresponds to a fixed message number. The driver must report the message number that is used for notification in the **InterruptMessageNumber** member of the [**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md) structure, when the **DXGKQAITYPE_DRIVERCAPS** enumeration value is specified in the **Type** member of the [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure in a call to the driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
 
-After the display miniport driver calls **DXGKCB_NOTIFY_INTERRUPT** but before the driver exits its ISR, the driver must queue a deferred procedure call (DPC) by using the [**DxgkCbQueueDpc**](../ddi/dispmprt/nc-dispmprt-dxgkcb_queue_dpc.md) function. This DPC must be queued because the GPU scheduler must also be notified, when the driver's DPC callback routine calls the [**DXGKCB_NOTIFY_DPC**](nc-d3dkmddi-dxgkcb_notify_dpc.md) function, about the same event at DPC time. A certain amount of processing that is related to graphics hardware events can be only performed by the operating system at DPC time.
+After the display miniport driver calls **DXGKCB_NOTIFY_INTERRUPT** but before the driver exits its ISR, the driver must queue a deferred procedure call (DPC) by using the [**DxgkCbQueueDpc**](../dispmprt/nc-dispmprt-dxgkcb_queue_dpc.md) function. This DPC must be queued because the GPU scheduler must also be notified, when the driver's DPC callback routine calls the [**DXGKCB_NOTIFY_DPC**](nc-d3dkmddi-dxgkcb_notify_dpc.md) function, about the same event at DPC time. A certain amount of processing that is related to graphics hardware events can be only performed by the operating system at DPC time.
 
 If the display miniport driver determines that more than one interrupt was triggered in hardware and the driver must call **DXGKCB_NOTIFY_INTERRUPT** for each interrupt to report the interrupt to the operating system, the driver should report DMA-type interrupts before a CRTC-type interrupt. For more information about interrupt types, see [**DXGK_INTERRUPT_TYPE**](ne-d3dkmddi-_dxgk_interrupt_type.md).
 
@@ -138,7 +138,7 @@ BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
 
 [**DXGKCB_NOTIFY_DPC**](nc-d3dkmddi-dxgkcb_notify_dpc.md)
 
-[**DxgkCbQueueDpc**](../ddi/dispmprt/nc-dispmprt-dxgkcb_queue_dpc.md)
+[**DxgkCbQueueDpc**](../dispmprt/nc-dispmprt-dxgkcb_queue_dpc.md)
 
 [**DxgkDdiInterruptRoutine**](../dispmprt/nc-dispmprt-dxgkddi_interrupt_routine.md)
 

@@ -69,6 +69,8 @@ A [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](./ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_fla
 
 ## -see-also
 
+[**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info3.md)
+
 [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md)
 
 [**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md)

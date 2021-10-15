@@ -414,15 +414,15 @@ The physical adapter mask where the vertical sync occurs. If this member contain
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.MultiPlaneOverlayVsyncInfoCount
 
-The number of overlay planes that are available to display. Supported starting with Windows Server 2022 (WDDM 2.9).
+The number of overlay planes that are available to display. Supported starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.pMultiPlaneOverlayVsyncInfo
 
-A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info3.md) structure that specifies information for each overlay plane updated by the VSync. Windows Server 2022 (WDDM 2.9).
+A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info3.md) structure that specifies information for each overlay plane updated by the VSync. Supported starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.GpuFrequency
 
-The frequency of the GPU clock counter. Windows Server 2022 (WDDM 2.9).
+The frequency of the GPU clock counter. Supported starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.GpuClockCounter
 
