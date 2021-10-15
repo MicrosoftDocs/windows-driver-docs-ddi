@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxJackChangeStateNotification
 tech.root: audio
 title: AcxJackChangeStateNotification
-ms.date: 10/05/2021
+ms.date: 10/14/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - acxpin.h
 api_name:

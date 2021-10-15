@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_JACK_CONFIG_INIT_ID
 tech.root: audio
 title: ACX_JACK_CONFIG_INIT_ID
-ms.date: 10/05/2021
+ms.date: 10/14/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - acxpin.h
 api_name:
