@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinRetrieveModeDataFormatList
 tech.root: audio
 title: AcxPinRetrieveModeDataFormatList
-ms.date: 10/05/2021
+ms.date: 10/14/2021
 targetos: Windows
 description: 
 prerelease: false
