@@ -418,7 +418,7 @@ The number of overlay planes that are available to display. Supported starting i
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.pMultiPlaneOverlayVsyncInfo
 
-A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info3.md) structure that specifies information for each overlay plane updated by the VSync. Supported starting in Windows Server 2022 (WDDM 2.9).
+A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-dxgk_multiplane_overlay_vsync_info3.md) structure that specifies information for each overlay plane updated by the VSync. Supported starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.GpuFrequency
 
