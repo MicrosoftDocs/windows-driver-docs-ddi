@@ -2,9 +2,9 @@
 UID: NA:acxdriver
 tech.root: audio
 title: acxdriver.h header
-ms.date: 09/17/2021
+ms.date: 10/14/2021
 targetos: Windows
-description: Header used by audio class extension.
+description: acxdriver.h header
 prerelease: false
 req.assembly: 
 req.construct-type: apiset

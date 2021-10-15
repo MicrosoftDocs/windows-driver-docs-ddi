@@ -2,9 +2,9 @@
 UID: NA:acxpin
 tech.root: audio
 title: acxpin.h header
-ms.date: 10/05/2021
+ms.date: 10/14/2021
 targetos: Windows
-description: Header used by audio class extension.
+description: acxpin.h header
 prerelease: false
 req.assembly: 
 req.construct-type: apiset

@@ -15,27 +15,27 @@ ms.topic: portal
 
 ## -description
 
-These headers are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data. 
+These headers are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 
 To develop WDM portcls audio drivers, use these headers:
 
- * [bthhfpddi.h](../bthhfpddi/index.md)
- * [dmusicks.h](../dmusicks/index.md)
- * [dmusprop.h](../dmusprop/index.md)
- * [drmk.h](../drmk/index.md)
- * [eventdetectoroemadapter.h](../eventdetectoroemadapter/index.md)
- * [hdaudio.h](../hdaudio/index.md)
- * [keyworddetectoroemadapter.h](../keyworddetectoroemadapter/index.md)
- * [ksmedia.h](../ksmedia/index.md)
- * [portcls.h](../portcls/index.md)
+* [bthhfpddi.h](../bthhfpddi/index.md)
+* [dmusicks.h](../dmusicks/index.md)
+* [dmusprop.h](../dmusprop/index.md)
+* [drmk.h](../drmk/index.md)
+* [eventdetectoroemadapter.h](../eventdetectoroemadapter/index.md)
+* [hdaudio.h](../hdaudio/index.md)
+* [keyworddetectoroemadapter.h](../keyworddetectoroemadapter/index.md)
+* [ksmedia.h](../ksmedia/index.md)
+* [portcls.h](../portcls/index.md)
 
 To develop audio class extension (ACX) drivers, use these headers:
 
- * [acxcircuit.h](../acxcircuit/index.md)
- * [acxdevice.h](../acxdevice/index.md)
- * [acxdriver.h](../acxdriver/index.md)
- * [acxelements.h](../acxelements/index.md)
- * [acxpin.h](../acxpin/index.md)
- * [acxstreams.h](../acxstreams/index.md)
+* [acxcircuit.h](../acxcircuit/index.md)
+* [acxdevice.h](../acxdevice/index.md)
+* [acxdriver.h](../acxdriver/index.md)
+* [acxelements.h](../acxelements/index.md)
+* [acxpin.h](../acxpin/index.md)
+* [acxstreams.h](../acxstreams/index.md)
 
 For programming information, see [Audio Devices Design Guide](/windows-hardware/drivers/audio).
