@@ -4,7 +4,7 @@ tech.root: audio
 title: acxdevice.h header
 ms.date: 09/17/2021
 targetos: Windows
-description: Header used by audio class extension.
+description: acxdevice.h header
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
