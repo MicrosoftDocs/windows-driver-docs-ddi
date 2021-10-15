@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_ALLOCATE_RTPACKETS
 tech.root: audio
 title: EVT_ACX_STREAM_ALLOCATE_RTPACKETS
-ms.date: 07/08/2021
+ms.date: 10/15/2021
 targetos: Windows
 description: The EvtAcxStreamAllocateRtPackets event tells the driver to allocate RtPackets for streaming.
 prerelease: true
@@ -75,13 +75,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 The initial ACX version will call with PacketCount = 1 or PacketCount = 2 when the StreamModel is AcxStreamModelRtPacket. With PacketCount = 2, the driver can allocate a single buffer that is shared between the two packets or the driver can allocate two separate buffers.
 
-If the driver allocates a single buffer to be shared across two packets, the second ACX_RTPACKET structure should have a WDF_MERMORY_DESCRIPTOR_TYPE = WdfMemoryDescriptorTypeInvalid. The RtPacketOffset for the second ACX_RTPACKET structure should be a valid offset into the RtPacketBuffer of the first ACX_RTPACKET structure and should align with the first ACX_RTPACKET structure's RtPacketOffset + RtPacketSize.
+If the driver allocates a single buffer to be shared across two packets, the second ACX_RTPACKET structure should have a WDF_MEMORY_DESCRIPTOR_TYPE = WdfMemoryDescriptorTypeInvalid. The RtPacketOffset for the second ACX_RTPACKET structure should be a valid offset into the RtPacketBuffer of the first ACX_RTPACKET structure and should align with the first ACX_RTPACKET structure's RtPacketOffset + RtPacketSize.
 
 ### Example
 
 Example usage is shown below.
-
-TBD - Please review code snip
 
 ```cpp
     //
