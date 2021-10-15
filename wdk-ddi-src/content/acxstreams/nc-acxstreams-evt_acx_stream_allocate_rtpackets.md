@@ -65,7 +65,7 @@ The packet size, measured in bytes.
 
 A pointer to a [ACX_RTPACKET structure](ns-acxstreams-acx_rtpacket.md) that describes the location and size of the packets.
 
-The initial ACX version supports only WdfMemoryDescriptorTypeMdl buffers for the ACX_RTPACKET. The RtPacketBuffer must be page-aligned and have a page-aligned byte count.
+The initial ACX version supports only WdfMemoryDescriptorTypeMdl buffers for the ACX_RTPACKET RtPacketBuffer member. The RtPacketBuffer must be page-aligned and have a page-aligned byte count.
 
 ## -returns
 
@@ -205,3 +205,4 @@ exit:
 
 [acxstreams.h header](index.md)
 
+READY2GO
