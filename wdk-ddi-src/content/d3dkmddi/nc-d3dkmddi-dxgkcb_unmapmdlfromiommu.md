@@ -2,12 +2,12 @@
 UID: NC:d3dkmddi.DXGKCB_UNMAPMDLFROMIOMMU
 title: DXGKCB_UNMAPMDLFROMIOMMU (d3dkmddi.h)
 description: DXGKCB_UNMAPMDLFROMIOMMU releases the mapping that was set by DXGKCB_MAPMDLTOIOMMU.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKCB_UNMAPMDLFROMIOMMU callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -56,10 +56,14 @@ product:
 
 ## -remarks
 
-To use this callback function, the kernel-mode driver sets the appropriate members of [**DXGKARGCB_UNMAPMDLFROMIOMMU**](ns-d3dkmddi-_dxgkargcb_unmapmdlfromiommu.md) and then calls **DxgkCbUnmapMdlFromIoMmu** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_UNMAPMDLFROMIOMMU**](ns-d3dkmddi-_dxgkargcb_unmapmdlfromiommu.md) and then calls **DxgkCbUnmapMdlFromIoMmu** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
 
 ## -see-also
 
+[**DXGKARGCB_UNMAPMDLFROMIOMMU**](ns-d3dkmddi-_dxgkargcb_unmapmdlfromiommu.md)
+
 [**DXGKCB_MAPMDLTOIOMMU**](nc-d3dkmddi-dxgkcb_mapmdltoiommu.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

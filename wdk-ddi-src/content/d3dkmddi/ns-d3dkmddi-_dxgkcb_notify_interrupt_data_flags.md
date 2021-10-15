@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
-title: _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS (d3dkmddi.h)
+title: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS (d3dkmddi.h)
 description: The DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure indicates whether the display miniport driver provides a physical adapter mask in a call to the DxgkCbNotifyInterrupt function.
 old-location: display\dxgkcb_notify_interrupt_data_flags.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure"]
 ms.keywords: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure [Display Devices], DmStructs_bfff264e-44a2-458c-ab0d-c103d4b76f71.xml, _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, d3dkmddi/DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, display.dxgkcb_notify_interrupt_data_flags
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,20 +43,19 @@ api_name:
  - DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
 ---
 
-# _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure
-
+# DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure
 
 ## -description
 
-The DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure indicates whether the display miniport driver provides a physical adapter mask in a call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a> function.
+The **DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS** structure indicates whether the display miniport driver provides a physical adapter mask in a call to the [**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md) function.
 
 ## -struct-fields
 
 ### -field ValidPhysicalAdapterMask
 
-A UINT value that specifies whether the driver provides a physical adapter mask. If this member is set, the driver provides a physical adapter mask in the <b>PhysicalAdapterMask</b> member of the <b>CrtcVsync</b> structure that is contained in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure. 
+A UINT value that specifies whether the driver provides a physical adapter mask. If this member is set, the driver provides a physical adapter mask in the **PhysicalAdapterMask** member of the **CrtcVsync** structure that is contained in the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure.
 
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
+Setting this member is equivalent to setting the first bit of the 32-bit **Value** member (0x00000001).
 
 ### -field HsyncFlipCompletion
 
@@ -64,17 +63,14 @@ A UINT value that specifies whether the Hsync flip has been completed.
 
 ### -field Reserved
 
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
+This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit **Value** member to zeros.
 
 ### -field Value
 
-A member in the union that DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS contains that can hold a 32-bit value.
+The 32-bit value that indicates all of the flags set in the union.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
-
+[**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md)

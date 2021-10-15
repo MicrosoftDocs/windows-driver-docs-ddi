@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbCreatePhysicalMemoryObject callback function to create physical memory.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT
 req.umdf-ver: 
@@ -40,13 +40,13 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) callback function to create physical memory.
+The **DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) callback function to create physical memory.
 
 ## -struct-fields
 
 ### -field hAdapter
 
-The adapter for which this physical memory will be associated. This parameter is optional and can be NULL. If it is NULL, the driver must call [**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) before creating an address descriptor list (ADL). See Remarks for more information.
+The adapter for which this physical memory will be associated. This parameter is optional and can be NULL. If it is NULL, the driver must call [**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) before creating an address descriptor list (ADL). See Remarks for more information.
 
 ### -field Size
 
@@ -130,29 +130,29 @@ Used only when **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_IO_SPACE**. Specifies the
 
 ### -field hPhysicalMemoryObject
 
-On a successful call to [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md), this is an opaque handle back to a *Dxgkrnl*-managed physical memory object. The physical memory object can be provided to other documented memory management functions to map a virtual address for CPU access. This handle can be closed by calling [**DxgkCbDestroyPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md).
+On a successful call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md), this is an opaque handle back to a *Dxgkrnl*-managed physical memory object. The physical memory object can be provided to other documented memory management functions to map a virtual address for CPU access. This handle can be closed by calling [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md).
 
 ### -field hAdapterMemoryObject
 
-On a successful call to [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md), this is an opaque handle back to a *Dxgkrnl*-managed adapter memory object. The adapter memory object can be provided to other documented memory management functions to generate an ADL for GPU access. If **hAdapter** is NULL, this value will be NULL and the driver must call [**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) to create this handle. This handle can be closed by calling [**DxgkCbClosePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md), or may be provided to [**DxgkCbDestroyPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) (but not both).
+On a successful call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md), this is an opaque handle back to a *Dxgkrnl*-managed adapter memory object. The adapter memory object can be provided to other documented memory management functions to generate an ADL for GPU access. If **hAdapter** is NULL, this value will be NULL and the driver must call [**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) to create this handle. This handle can be closed by calling [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md), or may be provided to [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) (but not both).
 
 ## -remarks
 
-The *hAdapter* field is optional when creating a physical memory object, but that object must be opened against an adapter in a call to [**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) before an [ADL can be created](nc-d3dkmddi-dxgkcb_allocateadl.md). This is because an ADL represents logical memory, and each logical adapter has a unique domain. It does not matter which physical adapter the memory is created against. It will be opened by the logical adapter that the physical adapter belongs to and will be mapped to all linked physical adapters.
+The *hAdapter* field is optional when creating a physical memory object, but that object must be opened against an adapter in a call to [**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) before an [ADL can be created](nc-d3dkmddi-dxgkcb_allocateadl.md). This is because an ADL represents logical memory, and each logical adapter has a unique domain. It does not matter which physical adapter the memory is created against. It will be opened by the logical adapter that the physical adapter belongs to and will be mapped to all linked physical adapters.
 
 ## -see-also
 
 [**DXGK_PHYSICAL_MEMORY_TYPE**](ne-d3dkmddi-dxgk_physical_memory_type.md)
 
-[**DxgkCbAllocateAdl**](nc-d3dkmddi-dxgkcb_allocateadl.md)
+[**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md)
 
-[**DxgkCbClosePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
+[**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
 
-[**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md)
+[**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md)
 
-[**DxgkCbDestroyPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
+[**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
 
-[**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)
+[**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)
 
 [**MmAllocateContiguousMemorySpecifyCache**](../ntddk/nf-ntddk-mmallocatecontiguousmemoryspecifycache.md)
 

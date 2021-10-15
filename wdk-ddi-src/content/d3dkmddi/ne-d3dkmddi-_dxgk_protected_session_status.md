@@ -3,13 +3,13 @@ UID: NE:d3dkmddi._DXGK_PROTECTED_SESSION_STATUS
 title: DXGK_PROTECTED_SESSION_STATUS (d3dkmddi.h)
 description: Used to indicate the status of the current session.
 old-location: display\dxgk_protected_session_status.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGK_PROTECTED_SESSION_STATUS enumeration"]
 ms.keywords: DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], DXGK_PROTECTED_SESSION_STATUS_INVALID, DXGK_PROTECTED_SESSION_STATUS_OK, _DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, display.dxgk_protected_session_status
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1709 (WDDM 2.3)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,17 +45,20 @@ api_name:
 
 # DXGK_PROTECTED_SESSION_STATUS enumeration
 
-
 ## -description
 
-Used to indicate the status of the current session.
+**DXGK_PROTECTED_SESSION_STATUS** indicates the validity of a protected session.
 
 ## -enum-fields
 
 ### -field DXGK_PROTECTED_SESSION_STATUS_OK
 
-Indicates that the status is okay.
+The protected session status is okay.
 
 ### -field DXGK_PROTECTED_SESSION_STATUS_INVALID
 
-Indicates that the status is invalid.
+The protected session status is invalid.
+
+## -see-also
+
+[**DXGKARGCB_PROTECTEDSESSIONSTATUS**](ns-d3dkmddi-_dxgkargcb_protectedsessionstatus.md)

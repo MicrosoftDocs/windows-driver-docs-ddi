@@ -2,12 +2,12 @@
 UID: NC:d3dkmddi.DXGKCB_MAPFRAMEBUFFERPOINTER
 title: DXGKCB_MAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: DXGKCB_MAPFRAMEBUFFERPOINTER obtains a pointer to a subregion of the section object that was created for each physical adapter.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKCB_MAPFRAMEBUFFERPOINTER callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -56,14 +56,16 @@ product:
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
+**DXGKCB_MAPFRAMEBUFFERPOINTER** returns STATUS_SUCCESS if the operation succeeds. Otherwise, it returns an appropriate NTSTATUS error code.
 
 ## -remarks
 
-To use this callback function, the kernel-mode driver sets the appropriate members of [**DXGKARGCB_MAPFRAMEBUFFERPOINTER**](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) and then calls **DXGKCB_MAPFRAMEBUFFERPOINTER** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_MAPFRAMEBUFFERPOINTER**](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) and then call **DxgkCbMapFrameBufferPointer** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
 
 ## -see-also
 
 [**DXGKCB_UNMAPFRAMEBUFFERPOINTER**](nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

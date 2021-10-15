@@ -3,13 +3,13 @@ UID: NC:d3dkmddi.DXGKCB_NOTIFY_DPC
 title: DXGKCB_NOTIFY_DPC (d3dkmddi.h)
 description: The DxgkCbNotifyDpc function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at deferred-procedure-call (DPC) time.
 old-location: display\dxgkcbnotifydpc.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_NOTIFY_DPC callback function"]
 ms.keywords: DXGKCB_NOTIFY_DPC, DXGKCB_NOTIFY_DPC callback, DpFunctions_a1e9512a-ae77-4e3b-9876-5ce247b811e5.xml, DxgkCbNotifyDpc, DxgkCbNotifyDpc callback function [Display Devices], d3dkmddi/DxgkCbNotifyDpc, display.dxgkcbnotifydpc
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,23 +44,23 @@ product:
 
 # DXGKCB_NOTIFY_DPC callback function
 
-
 ## -description
 
-The <b>DxgkCbNotifyDpc</b> function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at deferred-procedure-call (DPC) time.
+A kernel-mode display miniport driver calls **DXGKCB_NOTIFY_DPC** to inform the graphics processing unit (GPU) scheduler about a graphics hardware update at deferred procedure call (DPC) time.
 
 ## -parameters
 
 ### -param hAdapter
 
-[in] A handle to the adapter object for the GPU. The driver receives the handle from the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure in a call to its <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+[in] A handle to the adapter object for the GPU. The driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
 ## -remarks
 
-The display miniport driver's DPC callback routine calls the <b>DxgkCbNotifyDpc</b> function to inform the GPU scheduler about an update to a fence through a direct memory access (DMA) stream to the graphics hardware. 
+The display miniport driver's DPC callback routine calls **DXGKCB_NOTIFY_DPC** to inform the GPU scheduler about an update to a fence through a direct memory access (DMA) stream to the graphics hardware.
 
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, call **DxgkCbNotifyDpc** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
-#### Examples
+### Examples
 
 The following code example shows how to notify the GPU scheduler about the DMA or V-Sync interrupt.
 
@@ -88,17 +88,10 @@ D3DDDINotifyDPC(
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a>
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)
 
+[**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
+[**DxgkCbQueueDpc**](../dispmprt/nc-dispmprt-dxgkcb_queue_dpc.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_queue_dpc">DxgkCbQueueDpc</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
-
+[**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md)

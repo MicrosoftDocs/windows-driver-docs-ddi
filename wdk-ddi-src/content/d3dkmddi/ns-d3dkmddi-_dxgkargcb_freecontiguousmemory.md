@@ -2,13 +2,13 @@
 UID: NS:d3dkmddi._DXGKARGCB_FREECONTIGUOUSMEMORY
 title: DXGKARGCB_FREECONTIGUOUSMEMORY (d3dkmddi.h)
 description: The DXGKARGCB_FREECONTIGUOUSMEMORY structure contains the arguments used in the DXGKCB_FREECONTIGUOUSMEMORY callback function, to free the contiguous memory.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_FREECONTIGUOUSMEMORY structure"]
 ms.keywords: _DXGKARGCB_FREECONTIGUOUSMEMORY, DXGKARGCB_FREECONTIGUOUSMEMORY,
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

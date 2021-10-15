@@ -3,13 +3,13 @@ UID: NC:d3dkmddi.DXGKCB_DESTROYCONTEXTALLOCATION
 title: DXGKCB_DESTROYCONTEXTALLOCATION (d3dkmddi.h)
 description: Called by a WDDM 1.2 or later display miniport driver to free a resource that was previously allocated for a GPU or device-specific context.
 old-location: display\dxgkcbdestroycontextallocation.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_DESTROYCONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_DESTROYCONTEXTALLOCATION, DXGKCB_DESTROYCONTEXTALLOCATION callback, DxgkCbDestroyContextAllocation, DxgkCbDestroyContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbDestroyContextAllocation, display.dxgkcbdestroycontextallocation
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8 (WDDM 1.2)
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,36 +42,34 @@ api_name:
 
 # DXGKCB_DESTROYCONTEXTALLOCATION callback function
 
-
 ## -description
 
-Called by a WDDM 1.2 or later display miniport driver to free a resource that was previously allocated for a GPU or device-specific context.
+**DXGKCB_DESTROYCONTEXTALLOCATION** frees a resource that was previously allocated for a GPU or device-specific context.
 
 ## -parameters
 
 ### -param hAdapter
 
-[in] A handle to the graphics adapter for which the allocation was created. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure in a call to its <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+[in] Handle to the graphics adapter for which the allocation was created. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
 ### -param hAllocation
 
-[in] A handle that was assigned by the DirectX graphics subsystem to the allocation. The display miniport driver receives the handle from the <b>hAllocation</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure in the call to the<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a> function.
+[in] Handle that was assigned by the DirectX graphics subsystem (*Dxgkrnl*) to the context allocation. The display miniport driver receives the handle from the **hAllocation** member of the [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure in a call to the [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md) function.
 
 ## -returns
 
-<i>DxgkCbDestroyContextAllocation</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+**DXGKCB_DESTROYCONTEXTALLOCATION** returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in *Ntstatus.h*.
 
 ## -remarks
 
-The driver allocates  context resources by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>.
+The display miniport driver calls [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md) to allocate a context resource. After such a call, the driver can call **DXGKCB_DESTROYCONTEXTALLOCATION** at any time to free the resource.
 
-After the display miniport driver calls <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a> to allocate a context resource, it can call <i>DxgkCbDestroyContextAllocation</i> to free the resource at any time.
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, call **DxgkCbDestroyContextAllocation** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+[**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md)
 
+[**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>
-
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

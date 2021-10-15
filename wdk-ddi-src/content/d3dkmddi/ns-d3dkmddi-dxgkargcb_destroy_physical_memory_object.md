@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbDestroyPhysicalMemoryObject callback function to destroy physical memory.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
 req.umdf-ver: 
@@ -40,17 +40,17 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the DxgkCbDestroyPhysicalMemoryObject callback function to destroy physical memory.
+The **DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) callback function to destroy physical memory.
 
 ## -struct-fields
 
 ### -field hPhysicalMemoryObject
 
-Handle to the physical memory object created via [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) to destroy.
+[in] Handle to the physical memory object created via [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) to destroy.
 
 ### -field hAdapterMemoryObject
 
-Optional handle to an adapter memory object to close at the same time. This handle is provided for the purpose of creating a convenient mirror mapping with destroy. If **hAdapterMemoryObject** is not NULL, the driver must not also call [**DxgkCbClosePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md).
+[in] Optional handle to an adapter memory object to close at the same time. This handle is provided for the purpose of creating a convenient mirror mapping with destroy. If **hAdapterMemoryObject** is not NULL, the driver must not also call [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md).
 
 ## -remarks
 
@@ -58,6 +58,8 @@ If the driver attempts to destroy a physical object that still has an existing A
 
 ## -see-also
 
-[**DxgkCbClosePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
+[**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
 
-[**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
+[**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
+
+[**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)

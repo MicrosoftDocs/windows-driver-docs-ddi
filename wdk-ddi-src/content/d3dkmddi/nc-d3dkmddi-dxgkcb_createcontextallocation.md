@@ -3,13 +3,13 @@ UID: NC:d3dkmddi.DXGKCB_CREATECONTEXTALLOCATION
 title: DXGKCB_CREATECONTEXTALLOCATION (d3dkmddi.h)
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to allocate a GPU context or device-specific context.
 old-location: display\dxgkcbcreatecontextallocation.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_CREATECONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DXGKCB_CREATECONTEXTALLOCATION callback, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8 (WDDM 1.2)
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,78 +42,65 @@ api_name:
 
 # DXGKCB_CREATECONTEXTALLOCATION callback function
 
-
 ## -description
 
-Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to allocate a GPU context or device-specific context.
+**DXGKCB_CREATECONTEXTALLOCATION** allocates a GPU context or device-specific context.
 
 ## -parameters
 
-### -param 
+### -param ContextAllocation
 
-*ContextAllocation* 
-
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure that specifies the attributes of the context to be allocated.
+[in/out] A pointer to a [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure that specifies the attributes of the context to be allocated.
 
 ## -returns
 
-<i>DxgkCbCreateContextAllocation</i> returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+**DXGKCB_CREATECONTEXTALLOCATION** returns **STATUS_SUCCESS** if it succeeds. Otherwise, it returns one of the error codes defined in *Ntstatus.h*.
 
 ## -remarks
 
-Starting with WDDM 1.2, display miniport drivers can allocate a GPU-specific context (<i>GPU context allocation</i>) or a device-specific context (<i>device context allocation</i>).
+Starting with WDDM 1.2, display miniport drivers can allocate a GPU-specific context (**GPU context allocation**) or a device-specific context (**device context allocation**).
 
-A GPU context allocation allows GPUs to store context state from DMA buffers that are preempted in the middle of their execution. Drivers create allocations associated with a GPU context to save its state when it is necessary. The operating system ensures that the context allocation is resident before a command from this context is placed in the GPU's hardware execution queue.
-The context will stay resident until a command from another context is placed in the hardware execution queue. 
+A GPU context allocation allows GPUs to store context state from DMA buffers that are preempted in the middle of their execution. Drivers create allocations associated with a GPU context to save its state when it is necessary. The operating system ensures that the context allocation is resident before a command from this context is placed in the GPU's hardware execution queue. The context will stay resident until a command from another context is placed in the hardware execution queue.
 
-In addition, the operating system  supports lazy GPU context switching by assuming that hardware context state is retained on the GPU after completing a command that belongs to the context. In this way, contexts are only switched on the GPU when a command from a different context is submitted to the hardware queue.
+In addition, the operating system supports lazy GPU context switching by assuming that hardware context state is retained on the GPU after completing a command that belongs to the context. In this way, contexts are only switched on the GPU when a command from a different context is submitted to the hardware queue.
 
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) and then call **DxgkCbCreateContextAllocation** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
-<h3><a id="GPU_context_allocations"></a><a id="gpu_context_allocations"></a><a id="GPU_CONTEXT_ALLOCATIONS"></a>GPU context allocations</h3>
-GPU context allocations can only be made for non-system contexts. The display miniport driver creates these contexts by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>. To create a non-system context, the driver sets the <b>SystemContext</b> member of a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createcontextflags">DXGK_CREATECONTEXTFLAGS</a> structure to zero, and passes a pointer to this structure in the <i>pCreateContext</i> parameter.
+### GPU context allocations
 
-A device context allocation   follows a similar model, except that it will remain resident for any context that belongs to the device that it’s associated with. This model allows drivers to use GPU context allocations for storing GPU context save area (CSA) data and to use device context allocations for storing page table data.
+GPU context allocations can only be made for non-system contexts. The display miniport driver creates these contexts by calling [**DxgkDdiCreateContext**](nc-d3dkmddi-dxgkddi_createcontext.md). To create a non-system context, the driver sets the **SystemContext** member of a [**DXGK_CREATECONTEXTFLAGS**](ns-d3dkmddi-_dxgk_createcontextflags.md) structure to zero, and passes a pointer to this structure in the **pCreateContext** parameter.
 
-<h3><a id="Device_context_allocations"></a><a id="device_context_allocations"></a><a id="DEVICE_CONTEXT_ALLOCATIONS"></a>Device context allocations</h3>
-Device context allocations can only be made for non-system devices. The display miniport driver creates these devices by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>. To create a non-system device, the driver sets the <b>Flags.SystemDevice</b> member of a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createdeviceflags">DXGK_CREATEDEVICEFLAGS</a>  structure to zero, and passes a pointer to this structure in the <i>pCreateDevice</i> parameter.
+A device context allocation follows a similar model, except that it will remain resident for any context that belongs to the device that it’s associated with. This model allows drivers to use GPU context allocations for storing GPU context save area (CSA) data and to use device context allocations for storing page table data.
 
-The display miniport driver  calls <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_destroycontextallocation">DxgkCbDestroyContextAllocation</a> to free the context resources that were allocated through <i>DxgkCbCreateContextAllocation</i>.
+### Device context allocations
 
-<h3><a id="virtual_addresses"></a><a id="VIRTUAL_ADDRESSES"></a>Virtual addresses for destination context allocations</h3>
-To ensure that the operating system sets a valid (non-<b>NULL</b>) virtual address for the destination context allocation (<b>InitContextResource</b>-><b>Destination</b>-><b>VirtualAddress</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a> structure), when the display miniport driver calls <i>DxgkCbCreateContextAllocation</i> it must:<ul>
-<li>Set the <b>CpuVisible</b> and <b>Protected</b> members of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfoflags">DXGK_ALLOCATIONINFOFLAGS</a> structure.</li>
-<li>Page in the allocation only to aperture segments by setting  the <b>SupportedSegmentSet</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure.</li>
-</ul>
+Device context allocations can only be made for non-system devices. The display miniport driver creates these devices by calling [**DxgkDdiCreateDevice**](nc-d3dkmddi-dxgkddi_createdevice.md). To create a non-system device, the driver sets the **Flags.SystemDevice** member of a [**DXGK_CREATEDEVICEFLAGS**](ns-d3dkmddi-_dxgk_createdeviceflags.md) structure to zero, and passes a pointer to this structure in the **pCreateDevice** parameter.
+
+The display miniport driver calls [**DXGKCB_DESTROYCONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_destroycontextallocation.md) to free the context resources that were allocated through **DxgkCbCreateContextAllocation**.
+
+### Virtual addresses for destination context allocations
+
+To ensure that the operating system sets a valid (non-NULL) virtual address for the destination context allocation (**InitContextResource->Destination->VirtualAddress** member of the [**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md) structure), when the display miniport driver calls **DxgkCbCreateContextAllocation** it must:
+
+* Set the **CpuVisible** and **Protected** members of the [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md) structure.
+* Page in the allocation only to aperture segments by setting  the **SupportedSegmentSet** member of the [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+[**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md)
 
+[**DXGK_CREATECONTEXTFLAGS**](ns-d3dkmddi-_dxgk_createcontextflags.md)
 
+[**DXGK_CREATEDEVICEFLAGS**](ns-d3dkmddi-_dxgk_createdeviceflags.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a>
+[**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md)
 
+[**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md)
 
+[**DXGKCB_DESTROYCONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_destroycontextallocation.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfoflags">DXGK_ALLOCATIONINFOFLAGS</a>
+[**DxgkDdiCreateContext**](nc-d3dkmddi-dxgkddi_createcontext.md)
 
+[**DxgkDdiCreateDevice**](nc-d3dkmddi-dxgkddi_createdevice.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createcontextflags">DXGK_CREATECONTEXTFLAGS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createdeviceflags">DXGK_CREATEDEVICEFLAGS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_destroycontextallocation">DxgkCbDestroyContextAllocation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
-
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

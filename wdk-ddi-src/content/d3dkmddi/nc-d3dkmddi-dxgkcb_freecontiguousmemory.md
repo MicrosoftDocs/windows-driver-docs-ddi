@@ -2,12 +2,12 @@
 UID: NC:d3dkmddi.DXGKCB_FREECONTIGUOUSMEMORY
 title: DXGKCB_FREECONTIGUOUSMEMORY (d3dkmddi.h)
 description: DXGKCB_FREECONTIGUOUSMEMORY frees a range of physically contiguous memory that was allocated by DXGKCB_ALLOCATECONTIGUOUSMEMORY.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKCB_FREECONTIGUOUSMEMORY callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -56,14 +56,18 @@ product:
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS error code.
 
 ## -remarks
 
-To use this callback function, the kernel-mode driver sets the appropriate members of [**DXGKARGCB_FREECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_freecontiguousmemory.md) and then calling **DxgkCbFreeContiguousMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_FREECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_freecontiguousmemory.md) and then call **DxgkCbFreeContiguousMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
 
 ## -see-also
 
+[**DXGKARGCB_FREECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_freecontiguousmemory.md)
+
 [**DXGKCB_ALLOCATECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

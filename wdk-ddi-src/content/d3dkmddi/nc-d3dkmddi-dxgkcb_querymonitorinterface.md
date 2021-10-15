@@ -3,13 +3,13 @@ UID: NC:d3dkmddi.DXGKCB_QUERYMONITORINTERFACE
 title: DXGKCB_QUERYMONITORINTERFACE (d3dkmddi.h)
 description: The DxgkCbQueryMonitorInterface function returns a pointer to a DXGK_MONITOR_INTERFACE structure.
 old-location: display\dxgkcbquerymonitorinterface.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_QUERYMONITORINTERFACE callback function"]
 ms.keywords: DXGKCB_QUERYMONITORINTERFACE, DXGKCB_QUERYMONITORINTERFACE callback, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml, DxgkCbQueryMonitorInterface, DxgkCbQueryMonitorInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryMonitorInterface, display.dxgkcbquerymonitorinterface
 req.header: d3dkmddi.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,30 +44,34 @@ product:
 
 # DXGKCB_QUERYMONITORINTERFACE callback function
 
-
 ## -description
 
-The <b>DxgkCbQueryMonitorInterface</b> function returns a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface">DXGK_MONITOR_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to obtain other interfaces that provide access to monitor descriptors, modes, and frequency ranges.
+**DXGKCB_QUERYMONITORINTERFACE** obtains a pointer to a [**DXGK_MONITOR_INTERFACE**](ns-d3dkmddi-_dxgk_monitor_interface.md) structure, which contains pointers to functions that the display miniport driver can call to obtain other interfaces that provide access to monitor descriptors, modes, and frequency ranges.
 
 ## -parameters
 
 ### -param hAdapter
 
-[in] A handle that represents a display adapter. The VidPN manager provided this handle to the display miniport driver in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>, <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>.
+[in] A handle that represents a display adapter. The VidPN manager provided this handle to the display miniport driver in a call to [**DxgkDdiRecommendFunctionalVidPn**](nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md), [**DxgkDdiIsSupportedVidPn**](nc-d3dkmddi-dxgkddi_issupportedvidpn.md), [**DxgkDdiEnumVidPnCofuncModality**](nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md), or [**DxgkDdiCommitVidPn**](nc-d3dkmddi-dxgkddi_commitvidpn.md).
 
 ### -param MonitorInterfaceVersion
 
-[in] A value from the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_monitor_interface_version">DXGK_MONITOR_INTERFACE_VERSION</a> enumeration that specifies the version of the monitor interface being requested.
+[in] A value from the [**DXGK_MONITOR_INTERFACE_VERSION**](ne-d3dkmddi-_dxgk_monitor_interface_version.md) enumeration that specifies the version of the monitor interface being requested.
 
 ### -param ppMonitorInterface
 
-[out] A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface">DXGK_MONITOR_INTERFACE</a> structure.
+[out] A pointer to a pointer to the [**DXGK_MONITOR_INTERFACE**](ns-d3dkmddi-_dxgk_monitor_interface.md) structure.
 
 ## -returns
 
-<b>DxgkCbQueryMonitorInterface</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.</i>h.
+**DXGKCB_QUERYMONITORINTERFACE** returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in *Ntstatus.h*.
+
+## -remarks
+
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, call **DxgkCbQueryMonitorInterface** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">Monitor Interface</a>
+[**DXGK_MONITOR_INTERFACE**](ns-d3dkmddi-_dxgk_monitor_interface.md)
 
+[**DXGK_MONITOR_INTERFACE_VERSION**](ne-d3dkmddi-_dxgk_monitor_interface_version.md)
