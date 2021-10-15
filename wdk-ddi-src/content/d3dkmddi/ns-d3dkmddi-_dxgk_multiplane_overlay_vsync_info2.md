@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
-title: _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 (d3dkmddi.h)
+title: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 (d3dkmddi.h)
 description: Used by new drivers to report per-plane flip completion after a VSYNC.
 old-location: display\dxgk_multiplane_overlay_vsync_info2.htm
-ms.date: 05/27/2020
+ms.date: 10/13/2021
 keywords: ["DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1607 (WDDM 2.1)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,10 +45,9 @@ api_name:
 
 # DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure
 
-
 ## -description
 
-Used by new drivers to report per-plane flip completion after a VSYNC.
+The **DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2** structure is used by display miniport drivers to report per-plane flip completion after a VSYNC.
 
 ## -struct-fields
 
@@ -72,9 +71,10 @@ A [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](./ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_fla
 
 [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md)
 
+[**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md)
+
 [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](./ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags.md)
 
 [**DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT**](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md)
 
 [**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](./nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)
-

@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbClosePhysicalMemoryObject callback function to close a physical memory object.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
 req.umdf-ver: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DxgkCbClosePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md) callback function to close a physical memory object.
+The **DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md) callback function to close a physical memory object.
 
 ## -struct-fields
 
@@ -50,12 +50,12 @@ The adapter memory object to close.
 
 ## -remarks
 
-If the driver chooses to specify **hAdapterMemoryObject** as part of the [**DxgkCbDestroyPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) call, then it is not necessary to close it via **DxgkCbClosePhysicalMemoryObject** as well.
+If the driver chooses to specify **hAdapterMemoryObject** as part of the [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) call, then it is not necessary to close it via **DXGKCB_CLOSEPHYSICALMEMORYOBJECT** as well.
 
 ## -see-also
 
-[**DxgkCbClosePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
+[**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md)
 
-[**DxgkCbDestroyPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
+[**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md)
 
-[**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)
+[**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)

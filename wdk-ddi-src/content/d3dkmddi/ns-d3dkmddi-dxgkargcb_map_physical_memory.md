@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_MAP_PHYSICAL_MEMORY
 tech.root: display
 title: DXGKARGCB_MAP_PHYSICAL_MEMORY
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_MAP_PHYSICAL_MEMORY structure contains the information used by the DxgkCbMapPhysicalMemory callback function to map CPU-visible virtual addresses to the underlying physical memory.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_MAP_PHYSICAL_MEMORY
 req.umdf-ver: 
@@ -40,13 +40,13 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_MAP_PHYSICAL_MEMORY** structure contains the information used by the [**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md) callback function to map a CPU-visible virtual address to the underlying physical memory.
+The **DXGKARGCB_MAP_PHYSICAL_MEMORY** structure contains the information used by the [**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md) callback function to map a CPU-visible virtual address to the underlying physical memory.
 
 ## -struct-fields
 
 ### -field hPhysicalMemoryObject
 
-[in] The physical memory object that describes the underlying physical pages to be mapped. This object was created in a prior call to [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
+[in] The physical memory object that describes the underlying physical pages to be mapped. This object was created in a prior call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
 
 ### -field AccessMode
 
@@ -62,7 +62,7 @@ The **DXGKARGCB_MAP_PHYSICAL_MEMORY** structure contains the information used by
 
 ### -field pMappedAddress
 
-[out] On a successful call to [**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md), this is a pointer to the underlying physical memory mapping. The start of the mapped memory range might not be exactly equal to the offset requested by the driver if rounding or alignment was required. As a result, the output value of **Offset** refers to the offset from the base address to the data requested by the driver. That is, ActualAddress = BaseAddress + Offset.
+[out] On a successful call to [**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md), this is a pointer to the underlying physical memory mapping. The start of the mapped memory range might not be exactly equal to the offset requested by the driver if rounding or alignment was required. As a result, the output value of **Offset** refers to the offset from the base address to the data requested by the driver. That is, ActualAddress = BaseAddress + Offset.
 
 ## -remarks
 
@@ -72,4 +72,4 @@ The **DXGKARGCB_MAP_PHYSICAL_MEMORY** structure contains the information used by
 
 [**DXGK_ACCESS_MODE**](ne-d3dkmddi-dxgk_access_mode.md)
 
-[**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md)
+[**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md)

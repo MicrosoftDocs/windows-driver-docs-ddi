@@ -2,13 +2,13 @@
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 title: DXGKARGCB_ALLOCATECONTIGUOUSMEMORY (d3dkmddi.h)
 description: The DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure contains the arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function, to allocate contiguous memory.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_ALLOCATECONTIGUOUSMEMORY structure"]
 ms.keywords: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, *INOUT_PDXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ product:
 
 ## -description
 
-The **DXGKARGCB_ALLOCATECONTIGUOUSMEMORY** structure contains the arguments used in the [DXGKCB_ALLOCATECONTIGUOUSMEMORY](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md) callback function, to allocate contiguous memory.
+The **DXGKARGCB_ALLOCATECONTIGUOUSMEMORY** structure contains the arguments used in the [**DXGKCB_ALLOCATECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md) callback function, to allocate contiguous memory.
 
 ## -struct-fields
 

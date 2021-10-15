@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_NOTIFYCURSORSUPPORTCHANGE
 tech.root: display
 title: DXGKCB_NOTIFYCURSORSUPPORTCHANGE
-ms.date: 10/13/2021/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DxgkCbNotifyCursorSupportChange callback function is called by the kernel-mode driver to notify the OS that cursor support has been changed.
 req.assembly: 

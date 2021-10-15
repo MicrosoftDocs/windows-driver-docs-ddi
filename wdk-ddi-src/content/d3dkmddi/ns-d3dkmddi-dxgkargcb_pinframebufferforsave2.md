@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_PINFRAMEBUFFERFORSAVE2
 tech.root: display
 title: DXGKARGCB_PINFRAMEBUFFERFORSAVE2
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_PINFRAMEBUFFERFORSAVE2 structure contains the information used by the DxgkCbPinFrameBufferForSave2 callback function to pin an entire frame buffer at once.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_PINFRAMEBUFFERFORSAVE2
 req.umdf-ver: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_PINFRAMEBUFFERFORSAVE2** structure contains the information used by the [**DxgkCbPinFrameBufferForSave2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md) callback function to pin an entire frame buffer at once.
+The **DXGKARGCB_PINFRAMEBUFFERFORSAVE2** structure contains the information used by the [**DXGKCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md) callback function to pin an entire frame buffer at once.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ An alternative way to access the **Flags** bits.
 
 ### -field pAdl
 
-[out] On a successful call to [**DxgkCbPinFrameBufferForSave2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md), points to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of pages of the frame buffer save area. These pages are guaranteed to be mapped to the IoMmu.
+[out] On a successful call to [**DXGKCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md), points to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of pages of the frame buffer save area. These pages are guaranteed to be mapped to the IoMmu.
 
 ## -remarks
 
@@ -78,6 +78,6 @@ An alternative way to access the **Flags** bits.
 
 [**DXGK_FRAMEBUFFERSAVEAREA**](ns-d3dkmddi-_dxgk_framebuffersavearea.md)
 
-[**DxgkCbPinFrameBufferForSave2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md)
+[**DXGKCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md)
 
 [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
