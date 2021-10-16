@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_KEYWORDSPOTTER_CONFIG
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CONFIG
-ms.date: 09/03/2021
+ms.date: 10/15/2021
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio key word spotter configuration. 
 prerelease: true
@@ -54,21 +54,21 @@ The length, in bytes, of this structure.
 
 ### -field Id
 
-A number that represents the ID of the TBD.
+A number that represents the element ID.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of the TBD that will be used for TBD.
+A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_keywordspotter_config_flags.md). 
-
-TBD - No flag bits are currently defined. Set this member to zero - AcxKeywordSpotterConfigNoFlags
+Audio key word spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_keywordspotter_config_flags.md).  No flag bits are currently defined. Set this member to zero - AcxKeywordSpotterConfigNoFlags
 
 ### -field Pattern
 
 TBD - Represents the keyword configuration pattern GUID that is used to identify the keyword configuration.
+
+GUID identifying the KWS pattern. This maps to SOUNDDETECTOR_PATTERNHEADER.PatternType, for portcls solutions
 
 ### -field Callbacks
 

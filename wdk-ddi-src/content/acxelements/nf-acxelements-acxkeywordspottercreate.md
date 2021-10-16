@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxKeywordSpotterCreate
 tech.root: audio 
 title: AcxKeywordSpotterCreate
-ms.date: 09/22/2021
+ms.date: 10/15/2021
 targetos: Windows
-description: TBD - The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object parent. 
+description: The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object (TBD???) parent. 
+The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object parent. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. TBD - conditional on something to determine if this is the parent?
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
 
 ### -param Attributes
 

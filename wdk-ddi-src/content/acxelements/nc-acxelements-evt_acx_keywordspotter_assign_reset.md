@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
-ms.date: 09/15/2021
+ms.date: 10/15/2021
 targetos: Windows
-description: TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET tells the driver to that the keyword spotter (?? TBD has ) reset the keyword detection process.
+description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET resets the keyword spotter detector to an unarmed state with no pattern set.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET tells the driver to that the keyword spotter (?? TBD has ) reset the keyword detection process.
+EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET resets the keyword spotter detector to an unarmed state with no pattern set. 
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An existing, initialized, ACXKEYWORDSPOTTER object.    For more information abou
 
 ### -param EventId
 
-A pointer to a GUID that represents the EventId for the TBD. 
+A pointer to a GUID that represents the EventId. 
 
 ## -returns
 

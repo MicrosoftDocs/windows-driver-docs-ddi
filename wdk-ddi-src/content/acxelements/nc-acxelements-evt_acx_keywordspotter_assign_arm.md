@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM
-ms.date: 09/15/2021
+ms.date: 10/15/2021
 targetos: Windows
-description: TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM tells the driver to that the keyword spotter (?? TBD has ) assigned or armed???.
+description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM sets the arm state of the keyword spotter.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM tells the driver to that the keyword spotter (?? TBD has ) assigned or armed something???.
+EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM sets the arm state of the keyword spotter.
 
 ## -parameters
 
@@ -52,11 +52,11 @@ An existing, initialized, ACXKEYWORDSPOTTER object.    For more information abou
 
 ### -param EventId
 
-A pointer to a GUID that represents the EventId for the TBD. 
+A pointer to a GUID that represents the EventId. 
 
 ### -param Arm
 
-A boolean value indicating if the keyword detection is armed (TBD - will be armed).
+A boolean value indicating if the keyword detection is armed.
 
 ## -returns
 

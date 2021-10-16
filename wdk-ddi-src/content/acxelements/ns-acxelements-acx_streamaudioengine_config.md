@@ -54,11 +54,11 @@ The length, in bytes, of this structure.
 
 ### -field Id
 
-A number that represents the ID of the TBD.
-
+A number that represents the element ID.
+ 
 ### -field Name
 
-A pointer to a GUID that represents the name of the TBD that will be used for TBD.
+A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
 
 ### -field Flags
 
