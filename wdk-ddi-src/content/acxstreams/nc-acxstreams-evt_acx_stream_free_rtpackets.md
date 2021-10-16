@@ -52,18 +52,16 @@ An ACXSTREAM Object represents an audio stream created by a circuit. The stream 
 
 ### -param Packets
 
-A pointer to a [ACX_RTPACKET structure](ns-acxstreams-acx_rtpacket.md) that describes the location and size of the packets to be freed.
+A pointer to an array of [ACX_RTPACKET structures](ns-acxstreams-acx_rtpacket.md) that describes the location and size of the packets to be freed.
 
 ### -param PacketCount
 
-The number of packets in (since?) a TBD. This is 0/1 TBD based count. These packets will be freed (TBD?).
+Specifies the number of packets to be freed. Valid values are 1 or 2.
 
 ## -remarks
 
 
 ### Example
-
-TBD - should we show more code here?
 
 Example usage is shown below.
 
@@ -76,15 +74,43 @@ Example usage is shown below.
 
     RETURN_NTSTATUS_IF_FAILED(AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks));
 
-    // Later in the code need to free the packets...
-    //
-    callbacks = GetRtStreamCallbacks();
+// Later in the code need to free the packets...
+#pragma code_seg("PAGE")
+VOID
+Codec_EvtStreamFreeRtPackets(
+    _In_ ACXSTREAM Stream,
+    _In_ PACX_RTPACKET Packets,
+    _In_ ULONG PacketCount
+    )
+{
+    PCODEC_STREAM_CONTEXT ctx;
+    ULONG i;
+    PVOID buffer;
 
-    callbacks->EvtAcxStreamFreeRtPackets((ACXSTREAM)Object, packets, packetsToAllocate);
-    packets = NULL;
+    PAGED_CODE();
+
+    ctx = GetCodecStreamContext(Stream);
+
+    for (i = 0; i < PacketCount; ++i)
+    {
+        if (Packets[i].RtPacketBuffer.u.MdlType.Mdl)
+        {
+            buffer = MmGetMdlVirtualAddress(Packets[i].RtPacketBuffer.u.MdlType.Mdl);
+            IoFreeMdl(Packets[i].RtPacketBuffer.u.MdlType.Mdl);
+            ExFreePool(buffer);
+        }
+    }
+
+    ExFreePool(Packets);
+
+    ctx->PacketsCount = 0;
+    ctx->PacketSize = 0;
+    ctx->FirstPacketOffset = 0;
+}
 ```
 
 ## -see-also
 
 [acxstreams.h header](index.md)
 
+READY2GO

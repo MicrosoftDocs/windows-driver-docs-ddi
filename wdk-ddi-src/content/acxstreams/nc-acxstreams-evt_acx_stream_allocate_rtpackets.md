@@ -49,8 +49,6 @@ The EvtAcxStreamAllocateRtPackets event tells the driver to allocate RtPackets f
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
 An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PacketCount
@@ -63,9 +61,9 @@ The packet size, measured in bytes.
 
 ### -param Packets
 
-A pointer to a [ACX_RTPACKET structure](ns-acxstreams-acx_rtpacket.md) that describes the location and size of the packets.
+A pointer that receives a pointer to an array of [ACX_RTPACKET structures](ns-acxstreams-acx_rtpacket.md) that describes the location and size of the packets.
 
-The initial ACX version supports only WdfMemoryDescriptorTypeMdl buffers for the ACX_RTPACKET. The RtPacketBuffer must be page-aligned and have a page-aligned byte count.
+The initial ACX version supports only WdfMemoryDescriptorTypeMdl buffers for the ACX_RTPACKET RtPacketBuffer member. The RtPacketBuffer must be page-aligned and have a page-aligned byte count.
 
 ## -returns
 
@@ -205,3 +203,4 @@ exit:
 
 [acxstreams.h header](index.md)
 
+READY2GO
