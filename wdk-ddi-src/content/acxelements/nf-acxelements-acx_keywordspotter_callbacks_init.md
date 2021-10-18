@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_KEYWORDSPOTTER_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CALLBACKS_INIT
-ms.date: 09/21/2021
+ms.date: 10/15/2021
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a ACX_KEYWORDSPOTTER_CALLBACKS structure. 
 prerelease: true
@@ -71,3 +71,4 @@ Example usage is shown below.
 
 [acxelements.h header](index.md)
 
+READY2GO

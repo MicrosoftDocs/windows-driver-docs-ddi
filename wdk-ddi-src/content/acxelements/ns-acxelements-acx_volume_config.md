@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_VOLUME_CONFIG
 tech.root: audio 
 title: ACX_VOLUME_CONFIG
-ms.date: 09/02/2021
+ms.date: 10/15/2021
 targetos: Windows
 description: The ACX_VOLUME_CONFIG structure is used to define the audio volume operations configuration. 
 prerelease: true
@@ -54,21 +54,21 @@ The length, in bytes, of this structure.
 
 ### -field Id
 
-A number that represents the ID of the TBD.
+A number that represents the element ID.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of the TBD that will be used for TBD.
+A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
 
 ### -field Flags
 
 Audio key word spotter configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md). 
 
-TBD - No flag bits are currently defined. Set this member to zero - AcxVolumeConfigNoFlags
+No flag bits are currently defined. Set this member to zero - AcxVolumeConfigNoFlags
 
 ### -field ChannelsCount
 
-TBD - The number of channels. This is a TBD zero / one based count.
+The number of channels. This is a TBD zero / one based count.
 
 ### -field Maximum
 
@@ -78,7 +78,6 @@ TBD - Does this apply to ACX??
 
 For more information about volume level settings, see [Customizing HD Audio Driver Volume Settings](/windows-hardware/drivers/audio/customizing-default-audio-volume-settings).
 
-TBD - Does this apply to ACX??
 
 ### -field Minimum
 

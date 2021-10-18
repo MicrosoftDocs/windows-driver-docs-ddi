@@ -70,7 +70,7 @@ The minor version.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of the TBD that will be used for TBD.
+A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
 
 ## -remarks
 

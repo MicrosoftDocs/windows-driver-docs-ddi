@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
-ms.date: 09/15/2021
+ms.date: 10/15/2021
 targetos: Windows
-description: TBD - EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM tells the driver to that the keyword spotter (?? TBD has ) that the arm status has been or is being??? requested???.
+description: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM retrieves the current arm state of the keyword spotter.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM tells the driver to that the keyword spotter (?? TBD has ) that the arm status has been or is being??? requested???.
+EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM retrieves the current arm state of the keyword spotter.
 
 ## -parameters
 
 ### -param KeywordSpotter
 
-An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+An existing, initialized, ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
 
 ### -param EventId
 
@@ -56,7 +56,7 @@ A pointer to a GUID that represents the EventId.
 
 ### -param Arm
 
-A boolean value indicating if the keyword detection is armed (TBD - will be armed).
+A boolean value indicating if the keyword detection is armed.
 
 ## -returns
 

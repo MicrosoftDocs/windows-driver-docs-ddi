@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS
-ms.date: 09/15/2021
+ms.date: 10/15/2021
 targetos: Windows
-description: TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS tells the driver to that the keyword spotter (?? TBD has ) assigned detection patterns for keyword detection.
+description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS assigns detection patterns for keyword detection to be used by the keyword spotter.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,25 +42,25 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS tells the driver to that the keyword spotter (?? TBD has ) assigned detection patterns for keyword detection.
+EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS assigns detection patterns for keyword detection to be used by the keyword spotter.
 
 ## -parameters
 
 ### -param KeywordSpotter
 
-An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+An existing, initialized, ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
 
 ### -param EventId
 
-A pointer to a GUID that represents the EventId for the TBD. 
+A pointer to a GUID that represents the EventId. 
 
 ### -param Pattern
 
-TBD - A pointer to the keyword detection pattern which is a TBD.
+A GUID identifying the keyword spotter detection pattern. 
 
 ### -param PatternSize
 
-TBD - The length, in bytes, of the keyword detection pattern.
+The length, in bytes, of the keyword detection pattern.
 
 ## -returns
 
@@ -162,8 +162,9 @@ CodecC_EvtAcxKeywordSpotterAssignPatterns(
 
     return keywordDetector->DownloadDetectorData(*EventId, pattern->ContosoDetectorConfigurationData);
 }
-
 ```
+
+READY2GO
 
 ## -see-also
 

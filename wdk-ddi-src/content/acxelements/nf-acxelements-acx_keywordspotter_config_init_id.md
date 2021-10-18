@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_KEYWORDSPOTTER_CONFIG_INIT_ID
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CONFIG_INIT_ID
-ms.date: 10/01/2021
+ms.date: 10/15/2021
 targetos: Windows
-description: As the The ACX_KEYWORDSPOTTER_CONFIG_INIT_ID provides the same functionality as [ACX_KEYWORDSPOTTER_CONFIG_INIT, the use of ACX_KEYWORDSPOTTER_CONFIG_INIT is recommended.
+description: As the The ACX_KEYWORDSPOTTER_CONFIG_INIT_ID provides the same functionality as ACX_KEYWORDSPOTTER_CONFIG_INIT, the use of ACX_KEYWORDSPOTTER_CONFIG_INIT is recommended.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -62,4 +62,6 @@ As the ACX_KEYWORDSPOTTER_CONFIG_INIT_ID provides the same functionality as [ACX
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 
