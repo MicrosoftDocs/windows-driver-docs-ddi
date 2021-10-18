@@ -1,9 +1,9 @@
 ---
 UID: NE:wdm.__unnamed_enum_0
-title: POWER_ACTION
-description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
+title: POWER_ACTION (wdm.h)
+description: Learn how the POWER_ACTION enumeration (wdm.h) identifies the system power actions that can occur on a computer.
 tech.root: kernel
-ms.date: 09/15/2020
+ms.date: 07/30/2021
 keywords: ["POWER_ACTION enumeration"]
 ms.keywords: POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject
 req.header: wdm.h
@@ -45,10 +45,9 @@ api_name:
 
 # POWER_ACTION enumeration (wdm.h)
 
-
 ## -description
 
-The <b>POWER_ACTION</b> enumeration identifies the <a href="/windows-hardware/drivers/kernel/system-power-actions">system power actions</a> that can occur on a computer.
+The **POWER_ACTION** enumeration identifies the [system power actions](/windows-hardware/drivers/kernel/system-power-actions) that can occur on a computer.
 
 ## -enum-fields
 
@@ -62,15 +61,15 @@ Reserved for system use.
 
 ### -field PowerActionSleep
 
-The computer is entering a <a href="/windows-hardware/drivers/kernel/system-sleeping-states">system sleeping (S1, S2, or S3) state</a>.
+The computer is entering a [system sleeping (S1, S2, or S3) state](/windows-hardware/drivers/kernel/system-sleeping-states).
 
 ### -field PowerActionHibernate
 
-The computer is entering its <a href="/windows-hardware/drivers/kernel/system-sleeping-states">hibernation (S4) state</a>.
+The computer is entering its [hibernation (S4) state](/windows-hardware/drivers/kernel/system-sleeping-states).
 
 ### -field PowerActionShutdown
 
-The computer is entering its <a href="/windows-hardware/drivers/kernel/system-shutdown-state-s5">shutdown (S5) state</a>. After all devices have entered their <a href="/windows-hardware/drivers/kernel/device-sleeping-states">off (D3) state</a>, the computer remains powered on until an administrator presses the power button.
+The computer is entering its [shutdown (S5) state](/windows-hardware/drivers/kernel/system-shutdown-state-s5). After all devices have entered their [off (D3) state](/windows-hardware/drivers/kernel/device-sleeping-states), the computer remains powered on until an administrator presses the power button.
 
 ### -field PowerActionShutdownReset
 
@@ -87,4 +86,3 @@ The computer is being ejected from an ACPI-compatible dock device. Typically, th
 ### -field PowerActionDisplayOff
 
 ## -remarks
-

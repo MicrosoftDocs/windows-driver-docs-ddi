@@ -51,7 +51,7 @@ The <b>IKsControl::KsEvent</b> method enables or disables an event, together wit
 
 ### -param Event
 
-Pointer to a <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
+Pointer to a <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
 
 ### -param EventLength
 
@@ -79,7 +79,7 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 ## -see-also
 
-<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+<a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>
 
 
 

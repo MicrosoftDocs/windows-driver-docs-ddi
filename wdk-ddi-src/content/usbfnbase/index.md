@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbfnbase.h header"
 UID: NA:usbfnbase
 title: Usbfnbase.h header
 ms.assetid: f54db437-6d89-377b-8e79-ed49a7490c17

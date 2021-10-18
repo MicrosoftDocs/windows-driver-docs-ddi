@@ -54,7 +54,7 @@ The KSP_TIMEFORMAT structure corresponds to <a href="/windows-hardware/drivers/s
 
 ### -field Property
 
-Specifies a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure.
+Specifies a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure.
 
 ### -field SourceFormat
 

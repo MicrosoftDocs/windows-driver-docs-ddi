@@ -1,7 +1,7 @@
 ---
 UID: NF:dispmprt._Function_class_DXGK_
 title: _Function_class_DXGK_ macro
-description: Allows drivers to use the updated annotations.
+description: The (dispmprt.h) _Function_class_DXGK_ macro allows drivers to use the updated annotations to assist code analysis tools.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["Function_class_DXGK_ macro"]

@@ -1,7 +1,7 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATE
 title: _POWERSOURCEUPDATE (charging.h)
-description: This structure is for internal use only.
+description: "Microsoft reserves the POWERSOURCEUPDATE structure for internal use only. Don't use this structure in your code."
 old-location: battery\powersourceupdate.htm
 tech.root: battery
 ms.date: 02/15/2018

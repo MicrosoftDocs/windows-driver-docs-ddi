@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._WHEA_EVENT_LOG_ENTRY_ID
 title: WHEA_EVENT_LOG_ENTRY_ID
-description: 
+description: "Learn more about: WHEA_EVENT_LOG_ENTRY_ID enumeration"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_ID enumeration"]

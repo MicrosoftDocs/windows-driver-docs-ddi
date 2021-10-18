@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_29
+UID: NS:gnssdriver.__unnamed_struct_32
 title: GNSS_AGNSS_REQUEST_PARAM (gnssdriver.h)
 description: This structure defines AGNSS request parameters.
 old-location: gnss\gnss_agnss_request_param.htm

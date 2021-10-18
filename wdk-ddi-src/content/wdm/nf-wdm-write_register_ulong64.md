@@ -1,9 +1,9 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_ULONG64
 title: WRITE_REGISTER_ULONG64 function (wdm.h)
-description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
+description: The WRITE_REGISTER_ULONG64 function (wdm.h) writes a ULONG64 value to the specified register address.
 tech.root: kernel
-ms.date: 09/15/2020
+ms.date: 09/07/2021
 keywords: ["WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function
 req.header: wdm.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The <b>WRITE_REGISTER_ULONG64</b> macro writes a ULONG64 value to the specified address.
+The **WRITE_REGISTER_ULONG64** routine dereferences the supplied pointer, inserts a memory barrier, and writes a ULONG64 value to the specified address.
 
 ## -parameters
 
@@ -59,6 +59,10 @@ Pointer to the register, which must be a mapped range in memory space.
 Specifies a ULONG64 value to write to the register.
 
 ## -remarks
+
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
+
+For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
 
 Callers of the **WRITE_REGISTER_ULONG64** macro can be running at any IRQL, assuming the *Register* register is resident, mapped device memory. 
 

@@ -3,9 +3,8 @@ UID: NF:wdm.ExAllocatePoolPriorityZero
 title: ExAllocatePoolPriorityZero
 tech.root: kernel
 ms.date: 12/17/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: ExAllocatePoolPriorityZero"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: IrqlExAllocatePool, IrqlExFree2, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo

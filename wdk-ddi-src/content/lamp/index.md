@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lamp.h header"
 UID: NA:lamp
 title: Lamp.h header
 ms.assetid: 833c0c85-940a-38d0-b008-ca5d75808679

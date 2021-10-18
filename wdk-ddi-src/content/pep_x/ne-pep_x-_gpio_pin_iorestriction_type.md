@@ -1,7 +1,7 @@
 ---
 UID: NE:pep_x._GPIO_PIN_IORESTRICTION_TYPE
 title: _GPIO_PIN_IORESTRICTION_TYPE (pep_x.h)
-description: The GPIO_PIN_IORESTRICTION_TYPE enumeration describes the functions that a GPIO pin is limited to performing.
+description: Learn how the GPIO_PIN_IORESTRICTION_TYPE enumeration describes the functions that a GPIO pin is limited to performing.
 old-location: kernel\gpio_pin_iorestriction_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:ioaccess.READ_PORT_UCHAR
 title: READ_PORT_UCHAR function (ioaccess.h)
-description: The READ_PORT_UCHAR routine reads a byte from the specified port address.
+description: The READ_PORT_UCHAR function (ioaccess.h) returns a byte that is read from the specified port address in resident, mapped device memory.
 old-location: kernel\read_port_uchar.htm
 tech.root: kernel
 ms.date: 04/30/2018

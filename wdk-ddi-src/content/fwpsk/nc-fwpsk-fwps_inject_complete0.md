@@ -90,17 +90,17 @@ typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn
 
 The 
     <b>Status</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 
     <i>NetBufferList</i> indicates the result of the injection operation.
 
-After packet data in a cloned or created <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain has successfully been
+After packet data in a cloned or created <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure chain has successfully been
     injected into the network stack by one of the 
     <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, 
     <i>completionFn</i> is called.
 
 If the 
     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a> function is
-    called to inject a chain of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures, 
+    called to inject a chain of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures, 
     <i>completionFn</i> will be called once for each <b>NET_BUFFER_LIST</b> in the chain, each time using the same 
     <i>completionContext</i> parameter specified in 
     <b>FwpsStreamInjectAsync0</b>. In this case, the callout driver's 
@@ -141,7 +141,7 @@ The filter engine calls a callout's
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

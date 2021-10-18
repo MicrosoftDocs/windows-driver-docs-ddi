@@ -1,7 +1,7 @@
 ---
 UID: NS:netdispumdddi.__unnamed_union_0
 title: MIRACAST_CHUNK_ID (netdispumdddi.h)
-description: Stores info that identifies a wireless display (Miracast) encode chunk.
+description: Learn how MIRACAST_CHUNK_ID stores info that identifies a wireless display (Miracast) encode chunk.
 old-location: display\miracast_chunk_id.htm
 tech.root: display
 ms.date: 05/10/2018

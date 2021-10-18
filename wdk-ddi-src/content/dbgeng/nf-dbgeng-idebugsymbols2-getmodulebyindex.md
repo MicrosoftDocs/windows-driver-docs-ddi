@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleByIndex
 title: IDebugSymbols2::GetModuleByIndex (dbgeng.h)
-description: The GetModuleByIndex method returns the location of the module with the specified index.
+description: The GetModuleByIndex method returns the location of the module with the specified index. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getmodulebyindex.htm
 tech.root: debugger
 ms.date: 05/03/2018

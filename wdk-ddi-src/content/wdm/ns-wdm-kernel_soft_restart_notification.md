@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KERNEL_SOFT_RESTART_NOTIFICATION
 title: KERNEL_SOFT_RESTART_NOTIFICATION
-description: 
+description: "Learn more about: KERNEL_SOFT_RESTART_NOTIFICATION structure"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["KERNEL_SOFT_RESTART_NOTIFICATION structure"]

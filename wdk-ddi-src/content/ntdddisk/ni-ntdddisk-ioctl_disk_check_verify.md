@@ -1,7 +1,7 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_CHECK_VERIFY
 title: IOCTL_DISK_CHECK_VERIFY (ntdddisk.h)
-description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_CHECK_VERIFY. The only difference between the two IOCTLs is the base value.
+description: The IOCTL_DISK_CHECK_VERIFY IOCTL is replaced by IOCTL_STORAGE_CHECK_VERIFY In Microsoft Windows 2000 and later operating systems.
 old-location: storage\ioctl_disk_check_verify.htm
 tech.root: storage
 ms.date: 03/29/2018

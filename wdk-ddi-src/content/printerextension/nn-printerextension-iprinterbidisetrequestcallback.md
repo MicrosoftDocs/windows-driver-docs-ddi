@@ -2,13 +2,12 @@
 UID: NN:printerextension.IPrinterBidiSetRequestCallback
 title: IPrinterBidiSetRequestCallback (printerextension.h)
 description: Describes the signature of the callback object that receives the Bidi response.
-old-location: print\iprinterbidisetrequestcallback.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrinterBidiSetRequestCallback interface"]
 ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices],described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
 req.header: printerextension.h
-req.include-header: 
+req.include-header: Printerextension.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -42,32 +41,24 @@ api_name:
 
 # IPrinterBidiSetRequestCallback interface
 
-
 ## -description
 
 Describes the signature of the callback object that receives the Bidi response.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterBidiSetRequestCallback</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterBidiSetRequestCallback</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrinterBidiSetRequestCallback** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
-<b>IPrinterBidiSetRequestCallback</b> provides the Bidi response string, and <b>HRESULT</b> value returned from the <a href="/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring">IBidiSpl2::SendRecvXmlString</a> method. In other words,  this interface provides the results of the attempt to send data to the device. 
+**IPrinterBidiSetRequestCallback** provides the Bidi response string, and **HRESULT** value returned from the [IBidiSpl2::SendRecvXmlString](../bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring.md) method. In other words,  this interface provides the results of the attempt to send data to the device. 
 
-<b>IPrinterBidiSetRequestCallback</b>  helps to make it possible to perform device maintenance from a UWP  device app or from a printer extension. For more information, see <a href="/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>.
+**IPrinterBidiSetRequestCallback**  helps to make it possible to perform device maintenance from a UWP  device app or from a printer extension. For more information, see [Device Maintenance](/windows-hardware/drivers/print/device-maintenance).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>
+[Device Maintenance](/windows-hardware/drivers/print/device-maintenance)
 
+[IBidiSpl2::SendRecvXmlString](../bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring.md)
 
-
-<a href="/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring">IBidiSpl2::SendRecvXmlString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync">SendBidiSetRequestAsync</a>
+[SendBidiSetRequestAsync](./nf-printerextension-iprinterqueue2-sendbidisetrequestasync.md)

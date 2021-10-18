@@ -109,7 +109,7 @@ The number of entries in the array that begins at the address in the <b>Mediums<
 
 ### -field Mediums
 
-Pointer to the beginning of the array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures supported by this stream. If the minidriver does not specify a medium, the class driver uses the KSMEDIUMSETID_STANDARD, KSMEDIUM_TYPE_ANYINSTANCE medium as the default.
+Pointer to the beginning of the array of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures supported by this stream. If the minidriver does not specify a medium, the class driver uses the KSMEDIUMSETID_STANDARD, KSMEDIUM_TYPE_ANYINSTANCE medium as the default.
 
 ### -field BridgeStream
 

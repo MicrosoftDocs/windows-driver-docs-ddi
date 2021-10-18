@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_DEVICE_CLAIMED
 title: IOCTL_SBAUD_SET_DEVICE_CLAIMED (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 req.header: sidebandaudio.h
@@ -49,27 +49,21 @@ This control codes used by an audio driver when cooperating with the Audio class
 - TRUE indicates device was claimed by client
 - FALSE indicates device was not claimed and should be inband.
 
-<text></text>
 
 ### -input-buffer-length 
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length 
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length 
 
-<text></text>
 
 ### -status-block
 

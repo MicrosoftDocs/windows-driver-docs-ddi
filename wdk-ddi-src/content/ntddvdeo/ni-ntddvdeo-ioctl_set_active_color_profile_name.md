@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddvdeo.IOCTL_SET_ACTIVE_COLOR_PROFILE_NAME
 title: IOCTL_SET_ACTIVE_COLOR_PROFILE_NAME
-description: A colorspace transform control IOCTL that must be handled by the monitor, OEM-panel, or port/miniport driver.
+description: IOCTL_SET_ACTIVE_COLOR_PROFILE_NAME is a colorspace transform control IOCTL that must be handled by the monitor, OEM-panel, or port/miniport driver.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["IOCTL_SET_ACTIVE_COLOR_PROFILE_NAME IOCTL"]
@@ -47,27 +47,21 @@ A colorspace transform control IOCTL that must be handled by the monitor, OEM-pa
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length 
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length 
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length 
 
-<text></text>
 
 ### -status-block
 

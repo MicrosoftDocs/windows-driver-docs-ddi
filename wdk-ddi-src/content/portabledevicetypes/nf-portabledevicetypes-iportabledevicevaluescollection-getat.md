@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.GetAt
 title: IPortableDeviceValuesCollection::GetAt (portabledevicetypes.h)
-description: Retrieves an item from the collection by a zero-based index.
+description: Learn how this method retrieves an item from the collection by a zero-based index.
 old-location: wpddk\iportabledevicevaluescollection_getat.htm
 tech.root: wpd_dk
 ms.date: 02/15/2018

@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_STATE_V2
 title: _PEP_PROCESSOR_IDLE_STATE_V2 (pep_x.h)
-description: The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports.
+description: Learn how the PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_processor_idle_state_v2.htm
 tech.root: kernel
 ms.date: 04/30/2018

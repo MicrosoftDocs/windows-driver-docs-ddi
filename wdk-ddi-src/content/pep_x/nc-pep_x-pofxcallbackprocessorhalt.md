@@ -1,7 +1,7 @@
 ---
 UID: NC:pep_x.POFXCALLBACKPROCESSORHALT
 title: POFXCALLBACKPROCESSORHALT (pep_x.h)
-description: The ProcessorHalt routine prepares the processor to be halted.
+description: Learn how the ProcessorHalt routine prepares the processor to be halted.
 old-location: kernel\processorhalt.htm
 tech.root: kernel
 ms.date: 04/30/2018

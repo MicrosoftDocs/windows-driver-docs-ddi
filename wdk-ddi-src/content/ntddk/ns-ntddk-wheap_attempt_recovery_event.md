@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_ATTEMPT_RECOVERY_EVENT
 title: WHEAP_ATTEMPT_RECOVERY_EVENT
-description: 
+description: "Learn more about: WHEAP_ATTEMPT_RECOVERY_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_ATTEMPT_RECOVERY_EVENT structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm.MEM_EXTENDED_PARAMETER
 title: MEM_EXTENDED_PARAMETER (wdm.h)
-description: 
+description: "Learn more about: MEM_EXTENDED_PARAMETER structure"
 ms.date: 09/30/2018
 tech.root: kernel
 keywords: ["MEM_EXTENDED_PARAMETER structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetConstantName
 title: IDebugSymbols3::GetConstantName (dbgeng.h)
-description: The GetConstantName method returns the name of the specified constant.
+description: The GetConstantName method returns the name of the specified constant. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getconstantname.htm
 tech.root: debugger
 ms.date: 05/03/2018

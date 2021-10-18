@@ -56,8 +56,6 @@ The <b>PEP_DEVICE_REGISTER</b> structure describes all the components in a parti
 
 ### -field Flags
 
-TBD
-
 ### -field ComponentCount
 
 The number of components in this device, which is also the number of elements in the <b>Components</b> array. The <b>ComponentCount</b> value must be greater than or equal to one.

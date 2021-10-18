@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENKEYEDMUTEX2
 title: PFND3DKMT_OPENKEYEDMUTEX2 (d3dkmthk.h)
-description: Opens a keyed mutex object that includes private data.
+description: The PFND3DKMT_OPENKEYEDMUTEX2 callback opens a keyed mutex object that includes private data. The function returns STATUS_SUCCESS if the object was opened.
 old-location: display\d3dkmtopenkeyedmutex2.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_OPENKEYEDMUTEX2 callback function"]

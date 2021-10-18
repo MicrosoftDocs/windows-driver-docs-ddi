@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ucmtypes.h header"
 UID: NA:ucmtypes
 title: Ucmtypes.h header
 ms.assetid: 2e88b0b8-5fcc-378d-baf2-43106003f3b8

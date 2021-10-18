@@ -51,8 +51,6 @@ The <b>WppRecorderIsDefaultLogAvailable</b> method determines whether the defaul
 
 ### -param WppCb
 
-TBD
-
 ## -returns
 
 TRUE if the default log is available; otherwise, FALSE.

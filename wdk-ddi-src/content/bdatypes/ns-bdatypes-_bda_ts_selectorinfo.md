@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_TS_SELECTORINFO
 title: _BDA_TS_SELECTORINFO (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_TS_SELECTORINFO structure"
 old-location: stream\bda_ts_selectorinfo.htm
 tech.root: stream
 ms.date: 04/23/2018

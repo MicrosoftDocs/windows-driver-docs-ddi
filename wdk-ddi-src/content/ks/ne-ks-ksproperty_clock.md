@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_26
 title: KSPROPERTY_CLOCK (ks.h)
-description: 
+description: "Learn more about: KSPROPERTY_CLOCK enumeration"
 old-location: stream\ksproperty_clock.htm
 tech.root: stream
 ms.date: 04/23/2018

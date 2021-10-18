@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netreceivescaling.h header"
 UID: NA:netreceivescaling
 title: Netreceivescaling.h header
 ms.assetid: b76ca427-86f2-3158-8375-477be3d9484f
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

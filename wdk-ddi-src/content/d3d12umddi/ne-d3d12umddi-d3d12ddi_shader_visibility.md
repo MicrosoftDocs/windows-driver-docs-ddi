@@ -4,7 +4,6 @@ title: D3D12DDI_SHADER_VISIBILITY
 description: Specifies the shaders that can access the contents of a given root signature slot.
 tech.root: display
 ms.date: 03/24/2020
-ms.topic: enum
 ms.keywords: D3D12DDI_SHADER_VISIBILITY, D3D12DDI_SHADER_VISIBILITY,
 req.header: d3d12umddi.h
 req.include-header: 

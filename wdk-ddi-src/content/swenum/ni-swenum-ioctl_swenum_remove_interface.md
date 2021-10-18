@@ -1,7 +1,7 @@
 ---
 UID: NI:swenum.IOCTL_SWENUM_REMOVE_INTERFACE
 title: IOCTL_SWENUM_REMOVE_INTERFACE (swenum.h)
-description: 
+description: "Learn more about: IOCTL_SWENUM_REMOVE_INTERFACE IOCTL"
 old-location: stream\ioctl_swenum_remove_interface.htm
 tech.root: stream
 ms.date: 04/23/2018

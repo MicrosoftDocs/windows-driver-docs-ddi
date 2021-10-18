@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.SeCaptureSubjectContext
 title: SeCaptureSubjectContext function (ntifs.h)
-description: The SeCaptureSubjectContext routine captures the security context of the calling thread for access validation and auditing.
+description: The SeCaptureSubjectContext routine in ntifs.h captures the security context of the calling thread for access validation and auditing.
 old-location: ifsk\secapturesubjectcontext.htm
 tech.root: ifsk
 ms.date: 04/16/2018

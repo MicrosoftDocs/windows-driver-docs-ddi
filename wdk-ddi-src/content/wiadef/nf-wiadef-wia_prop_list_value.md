@@ -1,7 +1,7 @@
 ---
 UID: NF:wiadef.WIA_PROP_LIST_VALUE
 title: WIA_PROP_LIST_VALUE macro (wiadef.h)
-description: 
+description: "Learn more about: WIA_PROP_LIST_VALUE macro"
 ms.date: 11/18/2020
 keywords: ["WIA_PROP_LIST_VALUE macro"]
 ms.keywords: WIA_PROP_LIST_VALUE

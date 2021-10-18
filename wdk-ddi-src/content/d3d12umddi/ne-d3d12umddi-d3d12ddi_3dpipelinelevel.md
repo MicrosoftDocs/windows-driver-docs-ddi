@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_3DPIPELINELEVEL
 title: D3D12DDI_3DPIPELINELEVEL
 description: Contains values that identify the pipeline level that the driver supports.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 05/13/2021
 keywords: ["D3D12DDI_3DPIPELINELEVEL enumeration"]
 ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL,
 ms.prod: windows-hardware
@@ -39,10 +39,9 @@ dev_langs:
 
 # D3D12DDI_3DPIPELINELEVEL enumeration
 
-
 ## -description
 
-Contains values that identify the pipeline level that the driver supports. Drivers only report the maximum level they support.
+Contains values that identify the pipeline level that the driver supports.
 
 ## -enum-fields
 
@@ -66,7 +65,18 @@ The driver supports Direct3D version 12.0 pipeline.
 
 The driver supports Direct3D version 12.1 pipeline.
 
+### -field D3D12DDI_3DPIPELINELEVEL_12_2
+
+The driver supports Direct3D version 12.2 pipeline.
+
 ## -remarks
+
+ Drivers only report the maximum level they support.
 
 ## -see-also
 
+[**D3D12DDI_3DPIPELINESUPPORT1_DATA_0081**](ns-d3d12umddi-d3d12ddi_3dpipelinesupport1_data_0081.md)
+
+[**D3D12DDIARG_GETCAPS**](../d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps.md)
+
+[**PFND3DDDI_GETCAPS**](../d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps.md)

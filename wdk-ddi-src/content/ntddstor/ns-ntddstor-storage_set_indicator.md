@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddstor._STORAGE_SET_INDICATOR
 title: STORAGE_SET_INDICATOR
-description: 
+description: "Learn more about: STORAGE_SET_INDICATOR structure"
 tech.root: storage
 ms.date: 11/30/2019
-ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_SET_INDICATOR"
  - "STORAGE_SET_INDICATOR"

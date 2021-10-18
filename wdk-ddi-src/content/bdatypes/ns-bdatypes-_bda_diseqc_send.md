@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_DISEQC_SEND
 title: _BDA_DISEQC_SEND (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_DISEQC_SEND structure"
 old-location: stream\bda_diseqc_send.htm
 tech.root: stream
 ms.date: 04/23/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.GetSourceFileInformation
 title: IDebugAdvanced2::GetSourceFileInformation (dbgeng.h)
-description: The GetSourceFileInformation method returns specified information about a source file.
+description: The (IDebugAdvanced2) GetSourceFileInformation method returns information about a source file that is specified using the Which parameter.
 old-location: debugger\getsourcefileinformation.htm
 tech.root: debugger
 ms.date: 05/03/2018

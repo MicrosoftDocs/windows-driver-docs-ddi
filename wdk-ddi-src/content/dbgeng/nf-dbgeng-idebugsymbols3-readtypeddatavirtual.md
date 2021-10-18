@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.ReadTypedDataVirtual
 title: IDebugSymbols3::ReadTypedDataVirtual (dbgeng.h)
-description: The ReadTypedDataVirtual method reads the value of a variable in the target's virtual memory.
+description: The ReadTypedDataVirtual method reads the value of a variable in the target's virtual memory. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\readtypeddatavirtual.htm
 tech.root: debugger
 ms.date: 05/03/2018

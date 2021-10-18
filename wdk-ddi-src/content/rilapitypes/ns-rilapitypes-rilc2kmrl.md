@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILC2KMRL
 title: RILC2KMRL (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILC2KMRL structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilc2kmrl_2.htm
 tech.root: netvista
 ms.date: 02/26/2018

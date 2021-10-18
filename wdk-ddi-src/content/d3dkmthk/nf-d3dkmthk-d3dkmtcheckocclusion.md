@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckOcclusion
 title: D3DKMTCheckOcclusion function (d3dkmthk.h)
-description: The D3DKMTCheckOcclusion function verifies whether the client area of a window is occluded.
+description: The D3DKMTCheckOcclusion function verifies whether the client area of a graphics window is occluded.
 old-location: display\d3dkmtcheckocclusion.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTCheckOcclusion function"]

@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013
 title: PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013 (d3d12umddi.h)
-description: Calculates the driver's root signature size.
+description: "The PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013 callback function calculates the driver's root signature size."
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013 callback function"]

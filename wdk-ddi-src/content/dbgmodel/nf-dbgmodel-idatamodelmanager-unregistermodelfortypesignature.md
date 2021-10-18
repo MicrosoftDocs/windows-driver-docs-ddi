@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.UnregisterModelForTypeSignature
 title: IDataModelManager::UnregisterModelForTypeSignature (dbgmodel.h)
-description: The UnregisterModelForTypeSignature method undoes a prior call to the RegisterModelForTypeSignature method.
+description: "The IDataModelManager::UnregisterModelForTypeSignature method undoes a prior call to the RegisterModelForTypeSignature method."
 ms.date: 07/19/2018
 keywords: ["IDataModelManager::UnregisterModelForTypeSignature"]
 ms.keywords: IDataModelManager::UnregisterModelForTypeSignature, UnregisterModelForTypeSignature, IDataModelManager.UnregisterModelForTypeSignature, IDataModelManager::UnregisterModelForTypeSignature, IDataModelManager.UnregisterModelForTypeSignature

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041
 title: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041 (d3d12umddi.h)
-description: Specifies the arguments for decode output conversion.
+description: The D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041 structure specifies the arguments for decode output conversion.
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041,

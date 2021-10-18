@@ -217,7 +217,7 @@ For more information, see <a href="/windows-hardware/drivers/stream/ks-events">K
 
 
 
-<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
+<a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>
 
 
 

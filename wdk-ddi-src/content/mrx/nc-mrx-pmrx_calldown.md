@@ -690,7 +690,7 @@ The <b>LowIoContext.ParamsFor.Locks.LockList</b> member is set to a list of LOWI
 
 The byte ranges to be unlocked are specified in the <b>LowIoContext.ParamsFor.Locks.LockList</b> member of the RX_CONTEXT structure. The LOWIO_LOCK_LIST structure is as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _LOWIO_LOCK_LIST {
+<pre class="syntax"><code>typedef struct _LOWIO_LOCK_LIST {
   struct  _LOWIO_LOCK_LIST  *Next;
   ULONG  LockNumber;
   RXVBO  ByteOffset;

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.SeImpersonateClient
 title: SeImpersonateClient function (ntifs.h)
-description: Obsolete.
+description: The SeImpersonateClient function is obsolete.
 old-location: ifsk\seimpersonateclient.htm
 tech.root: ifsk
 ms.date: 04/16/2018

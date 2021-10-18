@@ -2,9 +2,8 @@
 UID: NN:printerextension.IPrintSchemaCapabilities2
 title: IPrintSchemaCapabilities2 (printerextension.h)
 description: The IPrintSchemaCapabilities2 interface represents an extension to the IPrintSchemaCapabilities object, which provides wrapper methods over a print capabilities document.
-old-location: print\iprintschemacapabilities2.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaCapabilities2 interface"]
 ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices],described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
 req.header: printerextension.h
@@ -42,18 +41,14 @@ api_name:
 
 # IPrintSchemaCapabilities2 interface
 
-
 ## -description
 
-The <b>IPrintSchemaCapabilities2</b> interface represents an extension to the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object, which provides wrapper methods over a print capabilities document.
+The **IPrintSchemaCapabilities2** interface represents an extension to the [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md) object, which provides wrapper methods over a print capabilities document.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>. <b>IPrintSchemaCapabilities2</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintSchemaCapabilities2** interface inherits from [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)

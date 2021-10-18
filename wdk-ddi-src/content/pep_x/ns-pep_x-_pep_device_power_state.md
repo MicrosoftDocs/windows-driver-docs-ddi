@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_POWER_STATE
 title: _PEP_DEVICE_POWER_STATE (pep_x.h)
-description: The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state.
+description: Learn how the PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state.
 old-location: kernel\pep_device_power_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

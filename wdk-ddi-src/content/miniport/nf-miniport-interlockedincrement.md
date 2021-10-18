@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.InterlockedIncrement
 title: InterlockedIncrement function (miniport.h)
-description: The InterlockedIncrement routine increments a caller-supplied variable as an atomic operation.
+description: The InterlockedIncrement function (miniport.h) increments a caller-supplied variable as an atomic operation.
 old-location: kernel\interlockedincrement.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -62,7 +62,7 @@ The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offloa
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to 
@@ -75,7 +75,7 @@ The
 ### -field Encapsulation
 
 An 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_offload_encapsulation">
+     <a href="/windows-hardware/drivers/ddi/encapsulationconfig/ns-encapsulationconfig-ndis_offload_encapsulation">
      NDIS_OFFLOAD_ENCAPSULATION</a> structure that contains encapsulation settings for TCP chimney
      offload.
 
@@ -175,11 +175,11 @@ The
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_offload_encapsulation">NDIS_OFFLOAD_ENCAPSULATION</a>
+<a href="/windows-hardware/drivers/ddi/encapsulationconfig/ns-encapsulationconfig-ndis_offload_encapsulation">NDIS_OFFLOAD_ENCAPSULATION</a>
 
 
 

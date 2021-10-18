@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetTextReplacement
 title: IDebugControl3::SetTextReplacement (dbgeng.h)
-description: The SetTextReplacement method sets the value of a user-named alias.
+description: The SetTextReplacement method sets the value of a user-named alias. This method belongs to the IDebugControl3 interface.
 old-location: debugger\settextreplacement.htm
 tech.root: debugger
 ms.date: 05/03/2018

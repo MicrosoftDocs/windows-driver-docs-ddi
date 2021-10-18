@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILMSGDCSPARAMMASK
 title: RILMSGDCSPARAMMASK (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this enumeration in your code. Microsoft reserves the RILMSGDCSPARAMMASK enumeration for internal use only."
 old-location: netvista\rilmsgdcsparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

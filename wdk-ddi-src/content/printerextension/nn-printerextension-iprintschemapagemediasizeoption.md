@@ -2,13 +2,12 @@
 UID: NN:printerextension.IPrintSchemaPageMediaSizeOption
 title: IPrintSchemaPageMediaSizeOption (printerextension.h)
 description: Exposes a Print Schema PageMediaSize Option element.
-old-location: print\iprintschemapagemediasizeoption_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaPageMediaSizeOption interface"]
 ms.keywords: IPrintSchemaPageMediaSizeOption, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices],described, print.iprintschemapagemediasizeoption_interface, printerextension/IPrintSchemaPageMediaSizeOption
 req.header: printerextension.h
-req.include-header: 
+req.include-header: printerextension.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -42,11 +41,10 @@ api_name:
 
 # IPrintSchemaPageMediaSizeOption interface
 
-
 ## -description
 
 Exposes a Print Schema PageMediaSize Option element.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)

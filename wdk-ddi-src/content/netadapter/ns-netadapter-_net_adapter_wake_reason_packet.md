@@ -73,6 +73,8 @@ Call [**NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT**](nf-netadapter-net_adapter_w
 
 Call [**NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_filter_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypePacketFilterMatch.
 
+Call [**NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_eapol_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypeEapolPacket.
+
 A **NET_ADAPTER_WAKE_REASON_PACKET** structure is passed as an input parameter to [**NetAdapterReportWakeReasonPacket**](../netadapter/nf-netadapter-netadapterreportwakereasonpacket.md).
 
 ## -see-also

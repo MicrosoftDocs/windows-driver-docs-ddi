@@ -1,7 +1,7 @@
 ---
 UID: NF:video.VideoPortGetRomImage
 title: VideoPortGetRomImage function (video.h)
-description: Reads the device's read-only memory (ROM).
+description: The VideoPortGetRomImage function (video.h) reads the device's read-only memory (ROM) and returns a pointer to a buffer containing the device's ROM (BIOS) data.
 old-location: display\videoportgetromimage.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -55,7 +55,7 @@ The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a te
 ### -param pKSProperty 
 
 [in]
-Points to a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 ### -param pNodeDescriptorProperty
 
@@ -80,7 +80,7 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

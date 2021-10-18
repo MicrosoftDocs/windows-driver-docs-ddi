@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadControl
 title: IDebugDataSpaces::ReadControl (dbgeng.h)
-description: The ReadControl method reads implementation-specific system data.
+description: Learn about the ReadControl method, which reads implementation-specific system data. You can specify which processor's data to read.
 old-location: debugger\readcontrol.htm
 tech.root: debugger
 ms.date: 05/03/2018

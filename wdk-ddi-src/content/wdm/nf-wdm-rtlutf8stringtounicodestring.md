@@ -1,10 +1,9 @@
 ---
 UID: NF:wdm.RtlUTF8StringToUnicodeString
 title: RtlUTF8StringToUnicodeString function
-description: TBD
+description: The RtlUTF8StringToUnicodeString function converts the specified UTF8 source string into a Unicode string in accordance with the current system locale information.
 tech.root: kernel
-ms.date: 03/24/2020
-ms.topic: function
+ms.date: 05/27/2021
 ms.keywords: RtlUTF8StringToUnicodeString
 req.header: wdm.h
 req.include-header: 
@@ -41,18 +40,17 @@ f1_keywords:
 
 # RtlUTF8StringToUnicodeString function (wdm.h)
 
-
 ## -description
 
-**RtlUTF8StringToUnicodeString** converts the specified UTF8 source string into a Unicode string in accordance with the current system locale information.
+The **RtlUTF8StringToUnicodeString** function converts the specified UTF8 source string into a Unicode string in accordance with the current system locale information.
 
 ## -parameters
 
 ### -param DestinationString
 
-Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string.
+Pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure to hold the converted Unicode string.
 
-If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer, and set the maximum length field. Otherwise, the routine uses the currently-specified buffer to hold the string.
+If *AllocateDestinationString* is **TRUE**, the routine allocates a new buffer to hold the string data, updates the **Buffer** member of *DestinationString* to point to the new buffer, and set the maximum length field. Otherwise, the routine uses the currently-specified buffer to hold the string.
 
 ### -param SourceString
 
@@ -60,12 +58,12 @@ Pointer to the UTF8 string to be converted to Unicode.
 
 ### -param AllocateDestinationString
 
-Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
+Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling [**RtlFreeUnicodeString**](./nf-wdm-rtlfreeunicodestring.md).
 
 ## -returns
 
-If the conversion succeeds, <b>RtlUTF8StringToUnicodeString</b> returns STATUS_SUCCESS. On failure, the routine does not allocate memory or perform a conversion.
+If the conversion succeeds, **RtlUTF8StringToUnicodeString** returns STATUS_SUCCESS. On failure, the routine does not allocate memory or perform a conversion.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
+[**RtlFreeUnicodeString**](./nf-wdm-rtlfreeunicodestring.md)

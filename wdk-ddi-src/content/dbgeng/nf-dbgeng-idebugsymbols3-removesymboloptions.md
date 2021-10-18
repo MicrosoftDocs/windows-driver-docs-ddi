@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.RemoveSymbolOptions
 title: IDebugSymbols3::RemoveSymbolOptions (dbgeng.h)
-description: The RemoveSymbolOptions method turns off some of the engine's global symbol options.
+description: The RemoveSymbolOptions method turns off some of the engine's global symbol options. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\removesymboloptions.htm
 tech.root: debugger
 ms.date: 05/03/2018

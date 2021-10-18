@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rilapitypes.h header"
 UID: NA:rilapitypes
 title: Rilapitypes.h header
 ms.assetid: 0f0aa59c-dd6b-34a9-8dd0-d14f7bbbaf7c
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

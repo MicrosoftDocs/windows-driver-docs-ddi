@@ -54,7 +54,7 @@ The KSPROPERTY_TUNER_IF_MEDIUM_S structure returns the Medium GUID for the pin t
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field IFMedium
 
@@ -66,7 +66,7 @@ Support for the <a href="/windows-hardware/drivers/stream/ksproperty-tuner-if-me
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

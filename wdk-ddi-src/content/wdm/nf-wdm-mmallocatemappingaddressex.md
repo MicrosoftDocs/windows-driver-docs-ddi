@@ -1,10 +1,9 @@
 ---
 UID: NF:wdm.MmAllocateMappingAddressEx
 title: MmAllocateMappingAddressEx function
-description: TBD
+description: The MmAllocateMappingAddressEx function allocates a system PTE mapping of the requested length that can be used later to map arbitrary addresses.
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: function
 ms.keywords: MmAllocateMappingAddressEx
 req.header: wdm.h
 req.include-header: 
@@ -41,10 +40,9 @@ f1_keywords:
 
 # MmAllocateMappingAddressEx function
 
-
 ## -description
 
-This function allocates a system PTE mapping of the requested length that can be used later to map arbitrary addresses.
+The **MmAllocateMappingAddressEx** function allocates a system PTE mapping of the requested length that can be used later to map arbitrary addresses.
 
 ## -parameters
 
@@ -58,8 +56,6 @@ Supplies a pool tag to associate this mapping to the caller.
 
 ### -param Flags
 
-TBD
-
 ## -returns
 
 Returns a virtual address where to use for later mappings.
@@ -67,4 +63,3 @@ Returns a virtual address where to use for later mappings.
 ## -remarks
 
 ## -see-also
-

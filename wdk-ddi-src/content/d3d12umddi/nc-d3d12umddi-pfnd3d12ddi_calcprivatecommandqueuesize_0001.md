@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001
 title: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001 (d3d12umddi.h)
-description: The pfnCalcPrivateCommandQueueSize callback function is used to calculate the size of a private command queue.
+description: The PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001 callback function calculates the size of a private command queue.
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001 callback function"]
 req.header: d3d12umddi.h

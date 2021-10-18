@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.WriteSymbol
 title: IDebugSymbolGroup2::WriteSymbol (dbgeng.h)
-description: The WriteSymbol methods set the value of the specified symbol.
+description: The WriteSymbol methods set the value of the specified symbol. This method belongs to the IDebugSymbolGroup2 interface.
 old-location: debugger\writesymbol.htm
 tech.root: debugger
 ms.date: 05/03/2018

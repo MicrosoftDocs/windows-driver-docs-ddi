@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dot11Wdi.h header"
 UID: NA:dot11wdi
 title: Dot11Wdi.h header
 ms.assetid: b9b9a3d0-411a-3f22-b90a-dd065eaf4aa0
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

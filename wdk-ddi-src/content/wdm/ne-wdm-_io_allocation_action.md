@@ -4,7 +4,7 @@ title: _IO_ALLOCATION_ACTION (wdm.h)
 description: The IO_ALLOCATION_ACTION enumerated type is used to specify return values for AdapterControl and ControllerControl routines.
 old-location: kernel\io_allocation_action.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/29/2021
 keywords: ["IO_ALLOCATION_ACTION enumeration"]
 ms.keywords: "*PIO_ALLOCATION_ACTION, DeallocateObject, DeallocateObjectKeepRegisters, IO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], KeepObject, PIO_ALLOCATION_ACTION, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], _IO_ALLOCATION_ACTION, kernel.io_allocation_action, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, wdm/DeallocateObject, wdm/DeallocateObjectKeepRegisters, wdm/IO_ALLOCATION_ACTION, wdm/KeepObject, wdm/PIO_ALLOCATION_ACTION"
 req.header: wdm.h
@@ -48,10 +48,9 @@ api_name:
 
 # _IO_ALLOCATION_ACTION enumeration
 
-
 ## -description
 
-The <b>IO_ALLOCATION_ACTION</b> enumerated type is used to specify return values for <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a> routines.
+The **IO_ALLOCATION_ACTION** enumerated type is used to specify return values for [AdapterControl](./nc-wdm-driver_control.md) and [ControllerControl](/windows-hardware/drivers/kernel/writing-controllercontrolroutines) routines.
 
 ## -enum-fields
 
@@ -65,13 +64,12 @@ Indicates that you do not want the driver to retain ownership of the adapter or 
 
 ### -field DeallocateObjectKeepRegisters
 
-<u>For adapter objects only.</u> Indicates that you do not want the driver to retain ownership of the adapter object, but you do want the driver to retain ownership of the allocated map registers.
+For adapter objects only. Indicates that you do not want the driver to retain ownership of the adapter object, but you do want the driver to retain ownership of the allocated map registers.
 
 ## -remarks
 
-If an <i>AdapterControl</i> or <i>ControllerControl</i> routine completes an IRP, or if it can set up an operation (such as a disk seek) for a target device object that could be overlapped with an operation for another device object, it should return <b>DeallocateObject</b>.
+If an *AdapterControl* or *ControllerControl* routine completes an IRP, or if it can set up an operation (such as a disk seek) for a target device object that could be overlapped with an operation for another device object, it should return **DeallocateObject**.
 
-If a driver uses packet-based bus-master DMA, its <i>AdapterControl</i> routine should return <b>DeallocateObjectKeepRegisters</b>.
+If a driver uses packet-based bus-master DMA, its *AdapterControl* routine should return **DeallocateObjectKeepRegisters**.
 
-Otherwise, the driver should return <b>KeepObject</b>.
-
+Otherwise, the driver should return **KeepObject**.

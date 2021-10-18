@@ -1,16 +1,18 @@
 ---
+description: "Learn more about: Network"
 UID: TP:netvista
-title: Networking drivers for Windows Vista and later
+title: Network overview
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
-ms.date: 10/29/2019
+ms.date: 10/30/2021
 keywords: ["Networking drivers for Windows Vista and later"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+ms.custom: contperf-fy22q2
 ---
 
-# Networking drivers for Windows Vista and later
+# Network
 
 ## -description
 
@@ -19,29 +21,43 @@ ms.topic: portal
 >
 > Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the Microsoft [style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
-This section lists functions, event callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
+This section lists functions, event callbacks, macros, structures, and enumerations used in Windows network device drivers. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 
-For the programming guide, see [Networking drivers for Windows Vista and later](/windows-hardware/drivers/network).
+For the programming guide, see [Network Driver Design Guide](/windows-hardware/drivers/network).
 
 ## Network driver headers
 
-To develop Networking drivers for Windows Vista and later, you need these headers. This is a complete list of all headers in the WDK for network drivers; headers that support particular networking technologies are listed in the following sections.
+This is a complete list of all headers in the WDK for network drivers; headers that support particular network technologies are listed in the following sections.
 
 - [Dot11wdi.h](../dot11wdi/index.md)
 - [Checksum.h](../checksum/index.md)
 - [Checksumtypes.h](../checksumtypes/index.md)
+- [Encapsulationconfig.h](../encapsulationconfig/index.md)
 - [Extension.h](../extension/index.md)
 - [Fragment.h](../fragment/index.md)
 - [Fwpmk.h](../fwpmk/index.md)
 - [Fwpsk.h](../fwpsk/index.md)
+- [Hashtypes.h](../hashtypes/index.md)
+- [ieee8021q.h](../ieee8021q/index.md)
+- [ieee8021qtypes.h](../ieee8021qtypes/index.md)
 - [Knetpwrdepbroker.h](../knetpwrdepbroker/index.md)
 - [Logicaladdress.h](../logicaladdress/index.md)
 - [Logicaladdresstypes.h](../logicaladdresstypes/index.md)
-- [Lso.h](../lso/index.md)
-- [Lsotypes.h](../lsotypes/index.md)
 - [Mbbcx.h](../mbbcx/index.md)
 - [Mdl.h](../mdl/index.md)
+- [Mdlapi.h](../mdlapi/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
+- [Nbl.h](../nbl/index.md)
+- [Nbl8021q.h](../nbl8021q/index.md)
+- [Nblaccessors.h](../nblaccessors/index.md)
+- [Nblapi.h](../nblapi/index.md)
+- [Nblchecksum.h](../nblchecksum/index.md)
+- [Nblhash.h](../nblhash/index.md)
+- [Nblinfo.h](../nblinfo/index.md)
+- [Nbllso.h](../nbllso/index.md)
+- [Nblrsc.h](../nblrsc/index.md)
+- [Nbltimestamp.h](../nbltimestamp/index.md)
+- [Nbluso.h](../nbluso/index.md)
 - [Ndis.h](../ndis/index.md)
 - [Ndischimney.h](../ndischimney/index.md)
 - [Ndisndk.h](../ndisndk/index.md)
@@ -65,8 +81,12 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Netwakesourcelist.h](../netwakesource/index.md)
 - [Ntddndis.h](../ntddndis/index.md)
 - [Ntddrilapitypes.h](../ntddrilapitypes/index.md)
+- [Objectheader.h](../objectheader/index.md)
 - [Oemrilapitypes.h](../oemrilapitypes/index.md)
+- [Oidrequest.h](../oidrequest/index.md)
+- [Oidtypes.h](../oidtypes/index.md)
 - [Packet.h](../packet/index.md)
+- [Poll.h](../poll/index.md)
 - [Returncontext.h](../returncontext/index.md)
 - [Returncontexttypes.h](../returncontexttypes/index.md)
 - [Rilapi.h](../rilapi/index.md)
@@ -101,10 +121,10 @@ Header files that support NetAdapterCx include the following:
 - [Checksumtypes.h](../checksumtypes/index.md)
 - [Extension.h](../extension/index.md)
 - [Fragment.h](../fragment/index.md)
+- [ieee8021q.h](../ieee8021q/index.md)
+- [ieee8021qtypes.h](../ieee8021qtypes/index.md)
 - [Logicaladdress.h](../logicaladdress/index.md)
 - [Logicaladdresstypes.h](../logicaladdresstypes/index.md)
-- [Lso.h](../lso/index.md)
-- [Lsotypes.h](../lsotypes/index.md)
 - [Mdl.h](../mdl/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
 - [Netadapter.h](../netadapter/index.md)

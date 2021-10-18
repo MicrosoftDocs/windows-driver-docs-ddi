@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEA_PMEM_PAGE_RANGE
 title: WHEA_PMEM_PAGE_RANGE
-description: 
+description: "Learn more about: WHEA_PMEM_PAGE_RANGE structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_PAGE_RANGE structure"]

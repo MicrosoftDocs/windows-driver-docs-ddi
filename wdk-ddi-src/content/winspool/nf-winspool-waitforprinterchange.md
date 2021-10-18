@@ -1,7 +1,7 @@
 ---
 UID: NF:winspool.WaitForPrinterChange
 title: WaitForPrinterChange function (winspool.h)
-description: 
+description: "Learn more about: WaitForPrinterChange function"
 old-location: print\waitforprinterchange.htm
 tech.root: print
 ms.date: 04/20/2018

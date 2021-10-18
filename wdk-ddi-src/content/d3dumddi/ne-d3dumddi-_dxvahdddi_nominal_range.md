@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_NOMINAL_RANGE
 title: _DXVAHDDDI_NOMINAL_RANGE (d3dumddi.h)
-description: Indicates the luminance range of YUV data.
+description: The DXVAHDDDI_NOMINAL_RANGE enumeration indicates the luminance range of YUV color encoding system data.
 old-location: display\dxvahdddi_nominal_range.htm
 tech.root: display
 ms.date: 05/10/2018

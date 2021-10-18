@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_ERR_SRC_INVALID_EVENT
 title: WHEAP_ERR_SRC_INVALID_EVENT
-description: 
+description: "Learn more about: WHEAP_ERR_SRC_INVALID_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_ERR_SRC_INVALID_EVENT structure"]

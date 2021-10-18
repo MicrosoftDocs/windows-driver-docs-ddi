@@ -126,7 +126,7 @@ The number of bytes in the portion of the data stream.
 ### -field netBufferListChain
 
 A pointer to a 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the portion of the data stream.
 
 ## -remarks
@@ -153,7 +153,7 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

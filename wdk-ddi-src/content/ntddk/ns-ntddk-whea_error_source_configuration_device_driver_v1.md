@@ -3,9 +3,8 @@ UID: NS:ntddk._WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
 title: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

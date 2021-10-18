@@ -75,7 +75,7 @@ NDIS specifies the size of the associated memory block at
 
 <i>NetAllocateMdl</i> can use any allocation method that meets the driver's design requirements. When NDIS
     calls the 
-    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function to free the memory, the
+    <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a> function to free the memory, the
     NDIS driver should free the memory by using the same memory management mechanism that it used to allocate
     the memory.
 
@@ -89,5 +89,5 @@ NDIS calls
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>
+<a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a>
 

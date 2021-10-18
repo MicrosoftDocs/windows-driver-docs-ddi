@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_DIAG_SCANOUT_BUFFER_CONTENT
 title: DXGK_DIAG_SCANOUT_BUFFER_CONTENT
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DIAG_SCANOUT_BUFFER_CONTENT structure provides information about the current buffer being scanned out during diagnostic data collection.
 tech.root: display

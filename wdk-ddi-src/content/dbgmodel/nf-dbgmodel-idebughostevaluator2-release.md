@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator2.Release
 title: IDebugHostEvaluator2::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDebugHostEvaluator2::Release method decrements the reference count for an interface on an object."
 ms.date: 09/12/2018
 keywords: ["IDebugHostEvaluator2::Release"]
 ms.keywords: IDebugHostEvaluator2::Release, Release, IDebugHostEvaluator2.Release, IDebugHostEvaluator2::Release, IDebugHostEvaluator2.Release

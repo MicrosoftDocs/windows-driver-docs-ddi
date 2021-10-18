@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetCurrentThreadTeb
 title: IDebugSystemObjects::GetCurrentThreadTeb (dbgeng.h)
-description: The GetCurrentThreadTeb method returns the location of the thread environment block (TEB) for the current thread.
+description: The GetCurrentThreadTeb method returns the location of the thread environment block (TEB) for the current thread. This method belongs to IDebugSystemObjects.
 old-location: debugger\getcurrentthreadteb.htm
 tech.root: debugger
 ms.date: 05/03/2018

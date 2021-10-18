@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_4
+UID: NS:ufs.__unnamed_struct_6
 title: UFS_UNIT_DESCRIPTOR (ufs.h)
 description: The UFS_UNIT_DESCRIPTOR structure describes a generic unit descriptor.
 old-location: storage\ufs_unit_descriptor.htm
@@ -45,10 +45,9 @@ api_name:
 
 # UFS_UNIT_DESCRIPTOR structure
 
-
 ## -description
 
-The <b>UFS_UNIT_DESCRIPTOR</b> structure describes a generic unit descriptor.
+The **UFS_UNIT_DESCRIPTOR** structure describes a generic unit descriptor.
 
 ## -struct-fields
 
@@ -58,7 +57,7 @@ Specifies the length, in bytes, of this descriptor.
 
 ### -field bDescriptorIDN
 
-Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_UNIT_IDN</b>.
+Specifies the type of the descriptor. This descriptor will have a value of **UFS_DESC_UNIT_IDN**.
 
 ### -field bUnitIndex
 
@@ -66,7 +65,7 @@ Specifies unit index
 
 ### -field bLUEnable
 
-Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equal to 0x00, the logical unit is disabled.
+Specifies if the logic unit number (LUN) is enabled. If **bLUEnable** is equal to 0x00, the logical unit is disabled.
 
 ### -field bBootLunID
 
@@ -74,24 +73,11 @@ Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equa
 
 Specifies if the logical unit is write-protected. Contains one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>0x00</td>
-<td>The logical unit is not write protected.</td>
-</tr>
-<tr>
-<td>0x01</td>
-<td>The logical unit is write protected.</td>
-</tr>
-<tr>
-<td>0x02 </td>
-<td>The logical unit is permanently write protected.</td>
-</tr>
-</table>
+| Value | Description |
+| ----- | ----------- |
+| 0x00  | The logical unit is not write protected. |
+| 0x01  | The logical unit is write protected. |
+| 0x02  | The logical unit is permanently write protected. |
 
 ### -field bLUQueueDepth
 
@@ -101,24 +87,14 @@ Specifies the logical unit queue depth. Can be any value from 0x00 to 0xff.
 
 Specifies if the logical unit is sensitive to soldering. Contains one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>0x00</td>
-<td>The logical unit is not sensitive to soldering.</td>
-</tr>
-<tr>
-<td>0x01</td>
-<td>The logical unit is sensitive to soldering.</td>
-</tr>
-</table>
+| Value | Description |
+| ----- | ----------- |
+| 0x00  | The logical unit is not sensitive to soldering. |
+| 0x01  | The logical unit is sensitive to soldering. |
 
 ### -field bMemoryType
 
-Specifies the desired memory type. The <b>wSupportedMemoryTypes</b> parameter in the <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a> indicates which memory types are supported by the device
+Specifies the desired memory type. The **wSupportedMemoryTypes** parameter in the [**UFS_GEOMETRY_DESCRIPTOR**](ns-ufs-ufs_geometry_descriptor.md) structure indicates which memory types are supported by the device.
 
 ### -field bDataReliability
 
@@ -126,7 +102,7 @@ Specifies if the device is protected against a power failure during a write oper
 
 ### -field bLogicalBlockSize
 
-Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in <b>dOptimalLogicalBlockSize</b> of <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a> for the specific logical unit memory type.
+Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in **dOptimalLogicalBlockSize** of [**UFS_GEOMETRY_DESCRIPTOR**](ns-ufs-ufs_geometry_descriptor.md) for the specific logical unit memory type.
 
 ### -field qLogicalBlockCount
 
@@ -152,20 +128,22 @@ Specifies the number of contexts to be supported in each logical unit.
 
 Specifies the Large Unit granularity, minus one.
 
+### -field wLUMaxActiveHPBRegions
 
-#### - bBootLUNID
+### -field wHPBPinnedRegionStartIdx
 
-Specifies the boot LUN id.
+### -field wNumHPBPinnedRegions
+
+### -field Reserved
+
+Reserved for future use.
 
 ## -remarks
 
-<b>bPSASensitive</b> and<b> dEraseBlockSize</b> are updated automatically after device configuration.
+**bPSASensitive** and **dEraseBlockSize** are updated automatically after device configuration.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a>
+[**UFS_GEOMETRY_DESCRIPTOR**](ns-ufs-ufs_geometry_descriptor.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
+[**UFS_RPMB_UNIT_DESCRIPTOR**](ns-ufs-ufs_rpmb_unit_descriptor.md)

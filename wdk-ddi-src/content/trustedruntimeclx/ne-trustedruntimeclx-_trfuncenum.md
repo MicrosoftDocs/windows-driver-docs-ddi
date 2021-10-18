@@ -1,7 +1,7 @@
 ---
 UID: NE:trustedruntimeclx._TRFUNCENUM
 title: _TRFUNCENUM (trustedruntimeclx.h)
-description: 
+description: "Learn more about: _TRFUNCENUM enumeration"
 ms.date: 11/20/2020
 keywords: ["TRFUNCENUM enumeration"]
 ms.keywords: _TRFUNCENUM, TRFUNCENUM,

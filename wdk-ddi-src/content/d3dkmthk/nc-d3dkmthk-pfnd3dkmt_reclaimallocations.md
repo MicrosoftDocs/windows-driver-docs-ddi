@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_RECLAIMALLOCATIONS
 title: PFND3DKMT_RECLAIMALLOCATIONS (d3dkmthk.h)
-description: Reclaims video memory allocations.
+description: The PFND3DKMT_RECLAIMALLOCATIONS callback function reclaims the video memory allocations specified in a D3DKMT_RECLAIMALLOCATIONS structure.
 old-location: display\d3dkmtreclaimallocations.htm
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_RECLAIMALLOCATIONS callback function"]

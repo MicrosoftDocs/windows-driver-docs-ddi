@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.QueryInterface
 title: IModelPropertyAccessor::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IModelPropertyAccessor::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 09/21/2018
 keywords: ["IModelPropertyAccessor::QueryInterface"]
 ms.keywords: IModelPropertyAccessor::QueryInterface, QueryInterface, IModelPropertyAccessor.QueryInterface, IModelPropertyAccessor::QueryInterface, IModelPropertyAccessor.QueryInterface

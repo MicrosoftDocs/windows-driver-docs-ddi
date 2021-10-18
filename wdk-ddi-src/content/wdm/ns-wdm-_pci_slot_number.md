@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCI_SLOT_NUMBER
 title: _PCI_SLOT_NUMBER (wdm.h)
-description: The PCI_SLOT_NUMBER structure is obsolete.
+description: The _PCI_SLOT_NUMBER structure (wdm.h) is obsolete. It defines the format of the Slot parameter to the obsolete HalXxxBusData routines.
 old-location: kernel\pci_slot_number.htm
 tech.root: kernel
 ms.date: 04/30/2018

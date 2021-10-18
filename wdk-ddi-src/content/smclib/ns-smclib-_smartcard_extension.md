@@ -254,7 +254,7 @@ The corresponding WDM driver library adds a pointer to the request in <b>Smartca
 
 Because this call can have an indefinite duration and the caller can terminate the request before it is complete, it is important to mark this IRP as cancelable.
 
-<pre xml:space="preserve"><code>MyDriverCardSupervision(
+<pre><code>MyDriverCardSupervision(
 SmartcardExtension, 
 OtherParameters)
 //

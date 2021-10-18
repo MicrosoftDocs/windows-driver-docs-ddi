@@ -1,7 +1,7 @@
 ---
 UID: NE:bthddi._ENUMERATOR_ACTION
 title: _ENUMERATOR_ACTION (bthddi.h)
-description: Reserved for internal use.
+description: "Microsoft reserves the ENUMERATOR_ACTION enumeration for internal use only. Don't use this enumeration in your code."
 old-location: bltooth\enumerator_action.htm
 tech.root: bltooth
 ms.date: 04/27/2018

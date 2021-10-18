@@ -42,10 +42,9 @@ api_name:
 
 # HW_COMPLETE_SERVICE_IRP callback function
 
-
 ## -description
 
-The <b>HwStorCompleteServiceIrp</b> routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in <b>HwStorCompleteServiceIrp</b>.
+The **HwStorCompleteServiceIrp** routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in **HwStorCompleteServiceIrp**.
 
 ## -parameters
 
@@ -55,10 +54,9 @@ A pointer to the virtual miniport driver's per-adapter storage area.
 
 ## -remarks
 
-The name <b>HwStorCompleteServiceIrp</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
+The name **HwStorCompleteServiceIrp** is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
-
-```
+``` c
 typedef
 VOID
 HW_COMPLETE_SERVICE_IRP (
@@ -66,24 +64,21 @@ HW_COMPLETE_SERVICE_IRP (
   );
 ```
 
-The port driver calls the Storport virtual miniport driver's <b>HwStorCompleteServiceIrp</b>routine at PASSIVE_LEVEL without holding any spin locks. The virtual miniport driver completes the IRP by calling the <b>HwStorCompleteServiceIrp</b> routine.
+The port driver calls the Storport virtual miniport driver's **HwStorCompleteServiceIrp**routine at PASSIVE_LEVEL without holding any spin locks. The virtual miniport driver completes the IRP by calling the **HwStorCompleteServiceIrp** routine.
 
+### Examples
 
-#### Examples
+To define an **HwStorCompleteServiceIrp** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
-To define an <b>HwStorCompleteServiceIrp</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+ For example, to define a **HwStorCompleteServiceIrp** callback routine that is named *&**MyHwCompleteServiceIrp**, use the **HW_COMPLETE_SERVICE_IRP** type as shown in this code example:
 
- For example, to define a <b>HwStorCompleteServiceIrp</b> callback routine that is named <i>MyHwCompleteServiceIrp</i>, use the <b>HW_COMPLETE_SERVICE_IRP</b> type as shown in this code example:
-
-
-```
+``` c
 HW_COMPLETE_SERVICE_IRP MyHwCompleteServiceIrp;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+``` c
 _Use_decl_annotations_
 VOID
 MyHwCompleteServiceIrp (
@@ -94,15 +89,10 @@ MyHwCompleteServiceIrp (
   }
 ```
 
-The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_COMPLETE_SERVICE_IRP</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The **HW_COMPLETE_SERVICE_IRP** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_COMPLETE_SERVICE_IRP** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a>
+[**HwStorProcessServiceRequest**](nc-storport-hw_process_service_request.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportcompleteserviceirp">StorPortCompleteServiceIrp</a>
-
+[**StorPortCompleteServiceIrp**](nf-storport-storportcompleteserviceirp.md)

@@ -2,10 +2,9 @@
 UID: NF:ntddk.WheaAddHwErrorReportSectionDeviceDriver
 title: WheaAddHwErrorReportSectionDeviceDriver
 ms.date: 04/01/2020
-ms.topic: language-reference
 tech.root: whea
 targetos: Windows
-description: 
+description: "Learn more about: WheaAddHwErrorReportSectionDeviceDriver"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

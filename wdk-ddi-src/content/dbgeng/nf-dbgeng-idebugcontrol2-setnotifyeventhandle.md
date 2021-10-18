@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetNotifyEventHandle
 title: IDebugControl2::SetNotifyEventHandle (dbgeng.h)
-description: The SetNotifyEventHandle method sets the event that will be signaled after the next exception in a target.
+description: Learn about the SetNotifyEventHandle method, which sets the event that will be signaled after the next exception in a target.
 old-location: debugger\setnotifyeventhandle.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Usbdlib.h header"
 UID: NA:usbdlib
 title: Usbdlib.h header
 ms.assetid: e417fbda-5320-3e5a-a7d9-7f8a4a5448cd

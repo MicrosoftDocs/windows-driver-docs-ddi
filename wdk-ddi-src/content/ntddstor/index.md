@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddstor.h header"
 UID: NA:ntddstor
 title: Ntddstor.h header
 ms.assetid: 10772569-e4d6-31f4-93aa-6bf1fcf4cb77

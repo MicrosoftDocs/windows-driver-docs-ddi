@@ -1,7 +1,7 @@
 ---
 UID: NE:igpupvdev.__MIDL_IGPUPMitigationDevice_0003
 title: __MIDL_IGPUPMitigationDevice_0003 (igpupvdev.h)
-description: 
+description: "Learn more about: __MIDL_IGPUPMitigationDevice_0003 enumeration"
 ms.date: 10/19/2018
 tech.root: display
 keywords: ["_MIDL_IGPUPMitigationDevice_0003 enumeration"]

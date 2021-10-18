@@ -1,10 +1,10 @@
 ---
-UID: NS:storport.__unnamed_struct_20
+UID: NS:storport.__unnamed_struct_25
 title: BLOCK_DEVICE_TOKEN_DESCRIPTOR (storport.h)
-description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.
+description: The BLOCK_DEVICE_TOKEN_DESCRIPTOR structure (scsi.h) contains the token returned from the POPULATE TOKEN command for an offload read data operation.
 old-location: storage\block_device_token_descriptor.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/13/2021
 keywords: ["BLOCK_DEVICE_TOKEN_DESCRIPTOR structure"]
 ms.keywords: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor"
 req.header: storport.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtSetInformationToken
 title: NtSetInformationToken function (ntifs.h)
-description: The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
+description: The NtSetInformationToken routine modifies information in a specified token. The calling process must have access rights to set the information.
 old-location: kernel\zwsetinformationtoken.htm
 tech.root: kernel
 ms.date: 04/30/2018

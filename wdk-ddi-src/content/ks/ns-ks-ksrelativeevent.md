@@ -71,7 +71,7 @@ Reserved and set to zero.
 
 ### -field Event
 
-A <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that contains the event to be used.
+A <a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a> structure that contains the event to be used.
 
 ### -field EventData
 

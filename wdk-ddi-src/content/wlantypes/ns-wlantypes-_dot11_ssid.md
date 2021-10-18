@@ -1,7 +1,7 @@
 ---
 UID: NS:wlantypes._DOT11_SSID
 title: _DOT11_SSID (wlantypes.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_SSID structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_ssid.htm
 tech.root: netvista
 ms.date: 02/16/2018

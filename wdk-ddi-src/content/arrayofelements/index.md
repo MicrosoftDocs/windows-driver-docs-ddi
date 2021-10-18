@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Arrayofelements.h header"
 UID: NA:arrayofelements
 title: Arrayofelements.h header
 ms.assetid: 467e5627-4547-3535-a408-d23128a36471
@@ -20,7 +21,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

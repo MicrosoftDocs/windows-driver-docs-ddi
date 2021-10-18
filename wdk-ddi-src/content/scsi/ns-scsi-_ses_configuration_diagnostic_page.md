@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._SES_CONFIGURATION_DIAGNOSTIC_PAGE
-title: _SES_CONFIGURATION_DIAGNOSTIC_PAGE (scsi.h)
-description: 
+title: SES_CONFIGURATION_DIAGNOSTIC_PAGE (scsi.h)
+description: "Learn more about: SES_CONFIGURATION_DIAGNOSTIC_PAGE structure (scsi.h)"
 old-location: storage\ses_configuration_diagnostic_page.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -46,12 +46,9 @@ api_name:
  - SES_CONFIGURATION_DIAGNOSTIC_PAGE
 ---
 
-# _SES_CONFIGURATION_DIAGNOSTIC_PAGE structure (scsi.h)
-
+# SES_CONFIGURATION_DIAGNOSTIC_PAGE structure (scsi.h)
 
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The **SES_CONFIGURATION_DIAGNOSTIC_PAGE** structure provides enclosure descriptor information and parameters.
 
@@ -77,4 +74,3 @@ Specifies the value of the generation code.
 ### -field Descriptors
 
 Specifies the enclosure descriptors for the primary and secondary enclosures. The primary enclosure is the first index.
-

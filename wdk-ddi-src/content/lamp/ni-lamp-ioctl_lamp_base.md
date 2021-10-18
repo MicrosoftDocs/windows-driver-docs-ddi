@@ -1,7 +1,7 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_BASE
 title: IOCTL_LAMP_BASE (lamp.h)
-description: 
+description: "Learn more about: IOCTL_LAMP_BASE IOCTL"
 ms.date: 11/17/2020
 keywords: ["IOCTL_LAMP_BASE IOCTL"]
 req.header: lamp.h

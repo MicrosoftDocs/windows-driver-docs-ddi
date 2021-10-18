@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionCreate
 title: WdfCompanionCreate function (wdfcompanion.h)
-description: For internal use only.
+description: This WdfCompanionCreate function article is for internal use only.
 old-location: wdf\wdfcompanioncreate.htm
 tech.root: wdf
 ms.date: 02/26/2018

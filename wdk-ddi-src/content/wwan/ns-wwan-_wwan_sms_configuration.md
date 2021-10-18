@@ -57,23 +57,16 @@ The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB 
 
 ### -field ScAddress
 
-A NULL-terminated string with a maximum length of 15 digits that represents the Service Center
+A NULL-terminated string with a maximum length of 20 digits that represents the Service Center
      (SC) address. This member is used by all text messages for sending and receiving. For PDU-style SMS
      messages, this information is used if it is not available in PDU data.
      
 
 The number can be in any of the following formats:
 
-<ul>
-<li>
-"+ <International Country Code> <SMS Service Center Number>\0"
+* "+ \0"
+* "\0"
 
-</li>
-<li>
-"<SMS Service Center Number>\0"
-
-</li>
-</ul>
 For set requests, the MB Service can set this member to <b>NULL</b>. In this case, a <b>NULL</b> indicates the
      miniport driver does not need to update the 
      <b>ScAddress</b> member and should not update this member thereafter.

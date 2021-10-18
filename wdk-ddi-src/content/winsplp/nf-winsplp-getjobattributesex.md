@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.GetJobAttributesEx
 title: GetJobAttributesEx function (winsplp.h)
-description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
+description: Learn how the GetJobAttributesEx function obtains information about a print job, including N-up and reverse printing options.
 old-location: print\getjobattributesex.htm
 tech.root: print
 ms.date: 04/20/2018

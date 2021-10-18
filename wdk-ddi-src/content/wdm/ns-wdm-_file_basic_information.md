@@ -4,7 +4,7 @@ title: FILE_BASIC_INFORMATION (wdm.h)
 description: The FILE_BASIC_INFORMATION structure contains timestamps and basic attributes of a file. It is used as an argument to routines that query or set file information.
 old-location: kernel\file_basic_information.htm
 tech.root: kernel
-ms.date: 01/22/2019
+ms.date: 05/18/2021
 keywords: ["FILE_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_BASIC_INFORMATION, kernel.file_basic_information, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, wdm/FILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION"
 req.header: wdm.h
@@ -48,7 +48,6 @@ api_name:
 
 # FILE_BASIC_INFORMATION structure
 
-
 ## -description
 
 The **FILE_BASIC_INFORMATION** structure contains timestamps and basic attributes of a file. It is used as an argument to routines that query or set file information.
@@ -89,11 +88,10 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 
 ## -see-also
 
-[KeQuerySystemTime](./nf-wdm-kequerysystemtime~r1.md)
+[KeQuerySystemTime](./nf-wdm-kequerysystemtime-r1.md)
 
 [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)
 
 [ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
 [ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md)
-

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.CreateClient
 title: IDebugClient3::CreateClient (dbgeng.h)
-description: The CreateClient method creates a new client object for the current thread.
+description: The CreateClient method creates a new client object for the current thread. This method belongs to the IDebugClient3 interface.
 old-location: debugger\createclient.htm
 tech.root: debugger
 ms.date: 05/03/2018

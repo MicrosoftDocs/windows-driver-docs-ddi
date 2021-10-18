@@ -1,7 +1,7 @@
 ---
 UID: NL:engextcpp.ExtRemoteTyped
 title: ExtRemoteTyped (engextcpp.h)
-description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
+description: The ExtRemoteTyped subclass of the ExtRemoteTyped class. The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger
 ms.date: 08/09/2018
@@ -216,7 +216,7 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 
 
 </dd>
-</dl><pre class="syntax" xml:space="preserve"><code>class ExtRemoteTyped : public ExtRemoteData
+</dl><pre class="syntax"><code>class ExtRemoteTyped : public ExtRemoteData
 {
 public:
     DEBUG_TYPED_DATA  m_Typed;

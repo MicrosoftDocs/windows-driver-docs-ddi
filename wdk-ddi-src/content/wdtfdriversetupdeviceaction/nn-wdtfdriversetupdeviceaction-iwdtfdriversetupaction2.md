@@ -54,7 +54,7 @@ Defines operations that control the target device during driver setup.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverSetupAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverSetupAction2</b> also has these types of members:
+The <b>IWDTFDriverSetupAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverSetupAction2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

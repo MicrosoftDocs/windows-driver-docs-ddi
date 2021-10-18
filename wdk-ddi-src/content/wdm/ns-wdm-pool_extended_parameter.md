@@ -3,9 +3,8 @@ UID: NS:wdm._POOL_EXTENDED_PARAMETER
 title: POOL_EXTENDED_PARAMETER
 tech.root: kernel
 ms.date: 03/01/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: POOL_EXTENDED_PARAMETER"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

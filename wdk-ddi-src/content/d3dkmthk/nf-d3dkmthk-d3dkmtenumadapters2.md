@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEnumAdapters2
 title: D3DKMTEnumAdapters2 function (d3dkmthk.h)
-description: Supplies information for enumerating all graphics adapters on the system.
+description: The D3DKMTEnumAdapters2 function Supplies information for enumerating all graphics adapters on the system.
 ms.date: 11/21/2018
 keywords: ["D3DKMTEnumAdapters2 function"]
 ms.keywords: D3DKMTEnumAdapters2

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netconfiguration.h header"
 UID: NA:netconfiguration
 title: Netconfiguration.h header
 ms.assetid: 511aa490-3d63-3b72-a325-bdea5ca35ecb
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

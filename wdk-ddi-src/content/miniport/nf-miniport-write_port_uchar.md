@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.WRITE_PORT_UCHAR
 title: WRITE_PORT_UCHAR function (miniport.h)
-description: The WRITE_PORT_UCHAR routine writes a byte to the specified port address.
+description: The WRITE_PORT_UCHAR function (miniport.h) writes a byte to the specified port address in resident, mapped device memory.
 old-location: kernel\write_port_uchar.htm
 tech.root: kernel
 ms.date: 04/30/2018

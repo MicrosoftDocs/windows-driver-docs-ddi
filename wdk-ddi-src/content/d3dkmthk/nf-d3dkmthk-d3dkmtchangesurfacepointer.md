@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTChangeSurfacePointer
 title: D3DKMTChangeSurfacePointer function (d3dkmthk.h)
-description: The D3DKMTChangeSurfacePointer function is for system use only.
+description: "Microsoft reserves the D3DKMTChangeSurfacePointer function for internal use only. Don't use this function in your code."
 old-location: display\d3dkmtchangesurfacepointer.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTChangeSurfacePointer function"]

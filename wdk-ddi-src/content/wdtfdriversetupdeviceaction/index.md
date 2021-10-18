@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtfdriversetupdeviceaction.h header"
 UID: NA:wdtfdriversetupdeviceaction
 title: Wdtfdriversetupdeviceaction.h header
 ms.assetid: fcc3feb1-8123-3c95-9906-57b8beda2993

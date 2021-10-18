@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.SetPtr
 title: ExtRemoteData::SetPtr method (engextcpp.h)
-description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
+description: The SetPtr convenience method is provided by the ExtRemoteData class, which provides a wrapper for a small section of a target's memory.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
 ms.date: 01/19/2018
@@ -199,7 +199,7 @@ The <b>ExtRemoteData</b> class includes the following constructors and methods:
 
 
 </dd>
-</dl><pre class="syntax" xml:space="preserve"><code>class ExtRemoteData
+</dl><pre class="syntax"><code>class ExtRemoteData
 {
 public:
     PCSTR  m_Name;

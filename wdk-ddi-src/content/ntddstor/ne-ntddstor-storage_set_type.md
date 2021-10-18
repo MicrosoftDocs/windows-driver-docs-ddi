@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddstor._STORAGE_SET_TYPE
 title: STORAGE_SET_TYPE
-description: 
+description: "Learn more about: STORAGE_SET_TYPE enumeration"
 tech.root: storage
 ms.date: 03/21/2019
 keywords: ["STORAGE_SET_TYPE enumeration"]

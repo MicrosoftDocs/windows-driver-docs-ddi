@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateContext
 title: D3DKMTCreateContext function (d3dkmthk.h)
-description: The D3DKMTCreateContext function creates a kernel-mode device context.
+description: The D3DKMTCreateContext function creates a kernel-mode device context. The function returns STATUS_SUCCESS on successful creation of the device context.
 old-location: display\d3dkmtcreatecontext.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateContext function"]

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fltuserstructures.h header"
 UID: NA:fltuserstructures
 title: Fltuserstructures.h header
 ms.assetid: 4d06680b-ef7a-3bca-aa48-aeb3044966ac

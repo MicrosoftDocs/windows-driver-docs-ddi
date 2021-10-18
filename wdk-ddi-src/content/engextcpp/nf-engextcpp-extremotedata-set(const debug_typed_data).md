@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Set(constDEBUG_TYPED_DATA)
 title: ExtRemoteData::Set(const DEBUG_TYPED_DATA) (engextcpp.h)
-description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
+description: The Set(constDEBUG_TYPED_DATA) method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_typed.htm
 tech.root: debugger
 ms.date: 05/03/2018

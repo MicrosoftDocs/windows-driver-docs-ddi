@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_40
+UID: NS:gnssdriver.__unnamed_struct_44
 title: GNSS_SUPL_HSLP_CONFIG (gnssdriver.h)
 description: This structure contains SUPL H-SLP configuration information.
 old-location: gnss\gnss_supl_hslp_config.htm
@@ -62,7 +62,11 @@ Version number.
 
 ### -field SuplHslp
 
+This is the SUPL server address with TCP port. The server address will be a FQDN as indicated in the OMA SUPL specs.
+
 ### -field SuplHslpFromImsi
+
+This is the SUPL server address as derived from IMSI.
 
 ### -field Reserved
 
@@ -70,7 +74,7 @@ Reserved for future use.
 
 ### -field Unused
 
- 
+Padding buffer.
 
 
 

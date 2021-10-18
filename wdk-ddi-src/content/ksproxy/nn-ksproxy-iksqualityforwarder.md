@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsQualityForwarder
 title: IKsQualityForwarder (ksproxy.h)
 description: The IKsQualityForwarder interface inherits the method of the IKsObject interface and extends IKsObject to provide a method that flushes information from a pin.
-old-location: stream\iksqualityforwarder.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsQualityForwarder interface"]
 ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices],described, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml, stream.iksqualityforwarder
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,17 +41,13 @@ api_name:
 
 # IKsQualityForwarder interface
 
-
 ## -description
 
-The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin.
+The **IKsQualityForwarder** interface inherits the method of the [IKsObject](./nn-ksproxy-iksobject.md) interface and extends **IKsObject** to provide a method that flushes information from a pin.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IKsQualityForwarder** interface inherits from [IKsObject](./nn-ksproxy-iksobject.md).
 
 ## -remarks
 

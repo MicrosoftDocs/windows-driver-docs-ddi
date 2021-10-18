@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTCancelStopDevice
 title: IWDTFPNPActions2::EDTCancelStopDevice (wdtfpnpaction.h)
-description: Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
+description: Learn how the method sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtcancelstopdevice.htm
 tech.root: dtf
 ms.date: 04/04/2018

@@ -4,7 +4,6 @@ title: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 description: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE identifies the data type to be queried.
 tech.root: storage
 ms.date: 11/30/2019
-ms.topic: enum
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE,
 req.header: ntddstor.h
 req.include-header: 

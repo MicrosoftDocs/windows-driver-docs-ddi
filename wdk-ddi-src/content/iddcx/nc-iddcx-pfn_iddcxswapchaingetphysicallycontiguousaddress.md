@@ -3,7 +3,6 @@ UID: NC:iddcx.PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS
 title: PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS
 ms.date: 10/20/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS is a pointer to an OS callback function through which to get the physical contiguous address of a swapchain.
 req.assembly: 
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 21H1
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -41,9 +40,6 @@ dev_langs:
 ---
 
 ## -description
-
-> [!NOTE]
-> Some information on this page relates to a pre-released product which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 **PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS** is a pointer to an OS callback function through which to retrieve the physical address of the specified swapchain's currently acquired surface.
 

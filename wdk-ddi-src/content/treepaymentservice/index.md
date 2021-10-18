@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Treepaymentservice.h header"
 UID: NA:treepaymentservice
 title: Treepaymentservice.h header
 ms.assetid: 80d8fc9e-4f8b-394e-95cf-e754b58e720a

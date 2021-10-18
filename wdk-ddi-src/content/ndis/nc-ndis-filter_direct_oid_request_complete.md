@@ -64,7 +64,7 @@ A handle to the context area for the filter module. The filter driver created an
 
 [in]
 A pointer to the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that the filter
+     <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that the filter
      driver previously passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfdirectoidrequest">
      NdisFDirectOidRequest</a> function.
@@ -100,7 +100,7 @@ If a filter driver forwarded a request that it received in the
     NdisFDirectOidRequestComplete</a> function. In this case, the filter driver must call 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreecloneoidrequest">NdisFreeCloneOidRequest</a>, to free
     the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure, before it calls    
+    <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure, before it calls    
     <b>NdisFDirectOidRequestComplete</b>.
 
 A filter driver should keep track of requests that it originates and ensure that it does not call 
@@ -148,7 +148,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

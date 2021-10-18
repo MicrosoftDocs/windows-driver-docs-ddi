@@ -54,11 +54,11 @@ Clients use the KSPIN_CONNECT structure to describe the connection they request 
 
 ### -field Interface
 
-Specifies the <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> to use for this connection.
+Specifies the <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> to use for this connection.
 
 ### -field Medium
 
-A structure of type <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> that specifies the medium to use for this connection.
+A structure of type <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> that specifies the medium to use for this connection.
 
 ### -field PinId
 
@@ -78,7 +78,7 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 ## -see-also
 
-<a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
+<a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a>
 
 
 

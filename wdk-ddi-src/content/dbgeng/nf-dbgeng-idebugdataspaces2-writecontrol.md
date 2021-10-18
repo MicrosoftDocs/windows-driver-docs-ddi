@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.WriteControl
 title: IDebugDataSpaces2::WriteControl (dbgeng.h)
-description: The WriteControl method writes implementation-specific system data.
+description: The WriteControl method writes implementation-specific system data. This method belongs to the IDebugDataSpaces2 interface.
 old-location: debugger\writecontrol.htm
 tech.root: debugger
 ms.date: 05/03/2018

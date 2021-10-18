@@ -1,10 +1,10 @@
 ---
 UID: NF:storport.StorPortRegistryReadAdapterKey
 title: StorPortRegistryReadAdapterKey function (storport.h)
-description: The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/<Instance path>/DeviceParameters/...
+description: The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/\<Instance path\>/DeviceParameters/...
 old-location: storage\storportregistryreadadapterkey.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/12/2021
 keywords: ["StorPortRegistryReadAdapterKey function"]
 ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
 req.header: storport.h
@@ -43,185 +43,56 @@ api_name:
 
 # StorPortRegistryReadAdapterKey function
 
-
 ## -description
 
-The <b>StorPortRegistryReadAdapterKey</b> routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/<Instance path>/DeviceParameters/... these keys are read from in the <a href="/windows-hardware/drivers/install/inf-ddinstall-hw-section">INF DDInstall.HW Section</a>.
+The **StorPortRegistryReadAdapterKey** routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/*Instance path*/DeviceParameters/... these keys are read from in the [INF DDInstall.HW Section](/windows-hardware/drivers/install/inf-ddinstall-hw-section).
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
-[in]
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
+[in] A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
-### -param SubKeyName 
+### -param SubKeyName
 
-[in, optional]
-The miniport subkey.
+[in, optional] The miniport subkey.
 
-### -param ValueName 
+### -param ValueName
 
-[in]
-The name of the Value under the key.
+[in] The name of the Value under the key.
 
-### -param ValueType 
+### -param ValueType
 
-[in]
-One of the following registry data types.
+[in] One of the following registry data types.
 
-<table>
-<tr>
-<th>Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-REG_SZ
+| Type | Meaning |
+| ---- | ------- |
+| REG_SZ                         | Unicode null-terminated string. |
+| REG_EXPAND_SZ                  | Unicode null-terminated string with environment variable references. |
+| REG_BINARY                     | Binary data. |
+| REG_DWORD                      | 32-bit double word. |
+| REG_DWORD_LITTLE_ENDIAN        | 32-bit double word with a little-endian format. |
+| REG_DWORD_BIG_ENDIAN           | 32-bit double word with a big-endian format. |
+| REG_LINK                       | Unicode string that specifies a symbolic link. |
+| REG_MULTI_SZ                   | Multiple Unicode strings. |
+| REG_RESOURCE_LIST              | Resource list in the resource map. |
+| REG_FULL_RESOURCE_DESCRIPTOR   | Resource list in the hardware description. |
+| REG_RESOURCE_REQUIREMENTS_LIST | Resource requirement list. |
+| REG_QWORD                      | 64-bit quadlet number. |
+| REG_QWORD_LITTLE_ENDIAN        | 64-bit quadlet number with a little-endian format. |
 
-</td>
-<td>
-Unicode null-terminated string.
+### -param ValueData
 
-</td>
-</tr>
-<tr>
-<td>
-REG_EXPAND_SZ
+[in, out] Pointer to a the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
 
-</td>
-<td>
-Unicode null-terminated string with environment variable references.
+### -param ValueDataLength
 
-</td>
-</tr>
-<tr>
-<td>
-REG_BINARY
-
-</td>
-<td>
-Binary data.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_DWORD
-
-</td>
-<td>
-32-bit double word.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_DWORD_LITTLE_ENDIAN
-
-</td>
-<td>
-32-bit double word with a little-endian format.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_DWORD_BIG_ENDIAN
-
-</td>
-<td>
-32-bit double word with a big-endian format.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_LINK
-
-</td>
-<td>
-Unicode string that specifies a symbolic link.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_MULTI_SZ
-
-</td>
-<td>
-Multiple Unicode strings.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_RESOURCE_LIST
-
-</td>
-<td>
-Resource list in the resource map.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_FULL_RESOURCE_DESCRIPTOR
-
-</td>
-<td>
-Resource list in the hardware description.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_RESOURCE_REQUIREMENTS_LIST
-
-</td>
-<td>
-Resource requirement list.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_QWORD
-
-</td>
-<td>
-64-bit quadlet number.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_QWORD_LITTLE_ENDIAN
-
-</td>
-<td>
-64-bit quadlet number with a little-endian format.
-
-</td>
-</tr>
-</table>
-
-### -param ValueData 
-
-[in, out]
-Pointer to a the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
-
-### -param ValueDataLength 
-
-[in, out]
-Specifies the size of the data pointed to by <i>ValueData</i>.
+[in, out] Specifies the size of the data pointed to by **ValueData**.
 
 ## -returns
 
-            Returns STOR_STATUS_SUCCESS when the operation is successful, otherwise the appropriate error code.
+Returns STOR_STATUS_SUCCESS when the operation is successful, otherwise the appropriate error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
-
+[**StorPortInitialize**](nf-storport-storportinitialize.md)

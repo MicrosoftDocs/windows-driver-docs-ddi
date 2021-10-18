@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.InterlockedExchangeAdd
 title: InterlockedExchangeAdd function (miniport.h)
-description: The InterlockedExchangeAdd routine adds a value to a given integer as an atomic operation and returns the original value of the given integer.
+description: The InterlockedExchangeAdd function (miniport.h) adds a value to a given integer as an atomic operation and returns the original value of the given integer.
 old-location: kernel\interlockedexchangeadd.htm
 tech.root: kernel
 ms.date: 04/30/2018

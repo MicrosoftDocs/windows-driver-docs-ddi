@@ -1,7 +1,7 @@
 ---
 UID: NS:treetpmservice._TPM_INVOKE_GENERIC_IN
 title: _TPM_INVOKE_GENERIC_IN (treetpmservice.h)
-description: 
+description: "Learn more about: _TPM_INVOKE_GENERIC_IN structure"
 ms.date: 11/20/2020
 keywords: ["TPM_INVOKE_GENERIC_IN structure"]
 ms.keywords: _TPM_INVOKE_GENERIC_IN, TPM_INVOKE_GENERIC_IN, *PTPM_INVOKE_GENERIC_IN,

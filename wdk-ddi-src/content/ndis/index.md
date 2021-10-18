@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ndis.h header"
 UID: NA:ndis
 title: Ndis.h header
 ms.assetid: e28f0b17-202f-367c-9cdd-eb5880617eca
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

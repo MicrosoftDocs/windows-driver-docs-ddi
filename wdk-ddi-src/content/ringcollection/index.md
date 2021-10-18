@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ringcollection.h header"
 UID: NA:ringcollection
 title: Ringcollection.h header
 ms.assetid: DC43C490-9458-4378-8F88-0917FA0C5047
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

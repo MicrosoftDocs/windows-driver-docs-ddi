@@ -1,7 +1,7 @@
 ---
 UID: NF:wiadef.WIA_PROP_LIST_COUNT
 title: WIA_PROP_LIST_COUNT macro (wiadef.h)
-description: 
+description: "Learn more about: WIA_PROP_LIST_COUNT macro"
 ms.date: 11/18/2020
 keywords: ["WIA_PROP_LIST_COUNT macro"]
 ms.keywords: WIA_PROP_LIST_COUNT

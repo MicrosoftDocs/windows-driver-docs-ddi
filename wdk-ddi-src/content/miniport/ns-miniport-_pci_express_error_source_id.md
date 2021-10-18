@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ERROR_SOURCE_ID
 title: _PCI_EXPRESS_ERROR_SOURCE_ID (miniport.h)
-description: The PCI_EXPRESS_ERROR_SOURCE_ID structure describes the identifiers of the first correctable error and the first uncorrectable error that are reported in the PCI Express (PCIe) root error status register.
+description: The _PCI_EXPRESS_ERROR_SOURCE_ID structure (miniport.h) describes the IDs of the first correctable and first uncorrectable error in the error status register.
 old-location: pci\pci_express_error_source_id.htm
 tech.root: PCI
 ms.date: 02/24/2018

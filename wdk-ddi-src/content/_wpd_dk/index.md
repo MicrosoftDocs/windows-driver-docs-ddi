@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Portable Devices"
 UID: TP:wpd_dk
 title: Windows Portable Devices
 ms.assetid: 8753468e-1676-47c6-ba70-36c57057f832

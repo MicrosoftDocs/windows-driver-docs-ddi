@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddsfio.h header"
 UID: NA:ntddsfio
 title: Ntddsfio.h header
 ms.assetid: 5d4c34cb-40ca-34ee-8aa4-3727973c1c67

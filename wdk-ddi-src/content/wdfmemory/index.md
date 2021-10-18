@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfmemory.h header"
 UID: NA:wdfmemory
 title: Wdfmemory.h header
 ms.assetid: abbf138a-21f3-364c-9c5f-ea0dedb411c8

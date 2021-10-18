@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient2.WriteDumpFile2
 title: IDebugClient2::WriteDumpFile2 (dbgeng.h)
-description: The WriteDumpFile2 method creates a user-mode or kernel-modecrash dump file.
+description: The WriteDumpFile2 method creates a user-mode or kernel-modecrash dump file. This method belongs to the IDebugClient2 interface.
 old-location: debugger\writedumpfile2.htm
 tech.root: debugger
 ms.date: 05/03/2018

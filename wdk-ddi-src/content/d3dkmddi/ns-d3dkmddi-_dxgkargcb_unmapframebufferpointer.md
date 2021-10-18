@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
-title: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER (d3dkmddi.h)
-description: Arguments used by the DxgkcbUnmapFrameBufferPointer callback function to release a mapping.
-ms.date: 10/19/2018
+title: DXGKARGCB_UNMAPFRAMEBUFFERPOINTER (d3dkmddi.h)
+description: The DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure contains the arguments used by the DXGKCB_UNMAPFRAMEBUFFERPOINTER callback function to release a mapping.
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure"]
 ms.keywords: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER, DXGKARGCB_UNMAPFRAMEBUFFERPOINTER,
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -38,26 +38,26 @@ product:
  - Windows
 ---
 
-# _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure
-
+# DXGKARGCB_UNMAPFRAMEBUFFERPOINTER structure
 
 ## -description
 
-Arguments used by the [DxgkcbUnmapFrameBufferPointer](nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md) callback function to release a mapping.
+The **DXGKARGCB_UNMAPFRAMEBUFFERPOINTER** structure contains the arguments used by the [**DXGKCB_UNMAPFRAMEBUFFERPOINTER**](nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md) callback function to release a mapping.
 
 ## -struct-fields
 
 ### -field PhysicalAdapterIndex
 
-The index of the physical adapter.
+[in] The index of the physical adapter.
 
 ### -field pBaseAddress
 
-A CPU accessible base address pointer to the mapped subregion of the section object.
+[in] A CPU accessible base address pointer to the mapped subregion of the section object.
 
 ## -remarks
 
+See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
+
 ## -see-also
 
-[DxgkcbUnmapFrameBufferPointer](nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md)
-
+[**DXGKCB_UNMAPFRAMEBUFFERPOINTER**](nc-d3dkmddi-dxgkcb_unmapframebufferpointer.md)

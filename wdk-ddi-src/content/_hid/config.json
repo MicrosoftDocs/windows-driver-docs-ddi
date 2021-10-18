@@ -6,6 +6,7 @@
     "hidpi.h",
     "hidport.h",
     "hidsdi.h",
+    "hidspicx.h",
     "kbdmou.h",
     "ntdd8042.h",
     "vhf.h"

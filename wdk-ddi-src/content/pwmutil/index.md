@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pwmutil.h header"
 UID: NA:pwmutil
 title: Pwmutil.h header
 ms.assetid: b99cfd83-b486-3074-858e-6a79e4967733

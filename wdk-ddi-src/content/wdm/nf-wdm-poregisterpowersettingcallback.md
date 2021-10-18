@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PoRegisterPowerSettingCallback
 title: PoRegisterPowerSettingCallback function (wdm.h)
-description: The PoRegisterPowerSettingCallback routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
+description: The PoRegisterPowerSettingCallback routine in wdm.h registers a power-setting callback routine to receive notifications of changes in the specified power setting.
 old-location: kernel\poregisterpowersettingcallback.htm
 tech.root: kernel
 ms.date: 04/30/2018

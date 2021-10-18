@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputStackTrace
 title: IDebugControl::OutputStackTrace (dbgeng.h)
-description: The OutputStackTrace method outputs either the supplied stack frame or the current stack frames.
+description: Learn how the OutputStackTrace method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\outputstacktrace.htm
 tech.root: debugger
 ms.date: 05/03/2018

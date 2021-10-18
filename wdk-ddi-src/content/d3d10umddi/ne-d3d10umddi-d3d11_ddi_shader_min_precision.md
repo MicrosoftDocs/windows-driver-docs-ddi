@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10umddi.D3D11_DDI_SHADER_MIN_PRECISION
 title: D3D11_DDI_SHADER_MIN_PRECISION (d3d10umddi.h)
-description: Specifies minimum precision levels that the user-mode driver supports in shaders.
+description: The D3D11_DDI_SHADER_MIN_PRECISION enumeration specifies minimum precision levels that the user-mode driver supports in shaders.
 old-location: display\d3d11_ddi_shader_min_precision.htm
 ms.date: 05/10/2018
 keywords: ["D3D11_DDI_SHADER_MIN_PRECISION enumeration"]

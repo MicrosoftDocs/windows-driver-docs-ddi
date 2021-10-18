@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwPrepareComplete
 title: ZwPrepareComplete function (wdm.h)
-description: The ZwPrepareComplete routine notifies KTM that the calling resource manager has finished preparing a transaction's data.
+description: Learn how the ZwPrepareComplete routine notifies KTM that the calling resource manager has finished preparing a transaction's data.
 old-location: kernel\zwpreparecomplete.htm
 tech.root: kernel
 ms.date: 04/30/2018

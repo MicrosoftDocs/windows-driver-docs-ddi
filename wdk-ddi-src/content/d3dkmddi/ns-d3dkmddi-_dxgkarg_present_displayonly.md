@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_PRESENT_DISPLAYONLY
 title: _DXGKARG_PRESENT_DISPLAYONLY (d3dkmddi.h)
-description: Indicates how a kernel mode display-only driver (KMDOD) is to perform a present operation.
+description: The DXGKARG_PRESENT_DISPLAYONLY structure specifies how a kernel mode display-only driver (KMDOD) will perform a present operation.
 old-location: display\dxgkarg_present_displayonly.htm
 ms.date: 05/10/2018
 keywords: ["DXGKARG_PRESENT_DISPLAYONLY structure"]

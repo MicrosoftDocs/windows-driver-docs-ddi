@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_KEYINFOLIST
 title: _BDA_WMDRM_KEYINFOLIST (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_WMDRM_KEYINFOLIST structure"
 old-location: stream\bda_wmdrm_keyinfolist.htm
 tech.root: stream
 ms.date: 04/23/2018

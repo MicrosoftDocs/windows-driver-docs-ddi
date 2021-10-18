@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfstring.h header"
 UID: NA:wdfstring
 title: Wdfstring.h header
 ms.assetid: ab1b74ff-0900-32d7-980a-ef0b45a7e065

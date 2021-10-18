@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Printerextension.h header"
 UID: NA:printerextension
 title: Printerextension.h header
 ms.assetid: 39fec125-0979-3b7b-9916-abfd53378c86

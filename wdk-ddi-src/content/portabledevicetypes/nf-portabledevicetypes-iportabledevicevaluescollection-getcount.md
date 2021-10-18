@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.GetCount
 title: IPortableDeviceValuesCollection::GetCount (portabledevicetypes.h)
-description: Retrieves the number of items in the collection.
+description: Learn how this method retrieves the number of items in the collection.
 old-location: wpddk\iportabledevicevaluescollection_getcount.htm
 tech.root: wpd_dk
 ms.date: 02/15/2018

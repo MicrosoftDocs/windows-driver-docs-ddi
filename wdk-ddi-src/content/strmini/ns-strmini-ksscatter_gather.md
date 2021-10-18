@@ -1,7 +1,7 @@
 ---
 UID: NS:strmini.__unnamed_struct_0
 title: KSSCATTER_GATHER (strmini.h)
-description: 
+description: "Learn more about: KSSCATTER_GATHER structure"
 old-location: stream\ksscatter_gather.htm
 tech.root: stream
 ms.date: 04/23/2018

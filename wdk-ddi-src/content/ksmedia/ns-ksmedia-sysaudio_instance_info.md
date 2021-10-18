@@ -54,7 +54,7 @@ The SYSAUDIO_INSTANCE_INFO structure specifies which virtual audio device to ope
 
 ### -field Property
 
-Specifies the property. This parameter is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property. This parameter is a structure of type <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>.
 
 ### -field Flags
 
@@ -76,7 +76,7 @@ This property is similar to <a href="/windows-hardware/drivers/audio/ksproperty-
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

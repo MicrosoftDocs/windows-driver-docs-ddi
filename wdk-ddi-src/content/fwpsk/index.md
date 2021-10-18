@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fwpsk.h header"
 UID: NA:fwpsk
 title: Fwpsk.h header
 ms.assetid: 00f1dfc4-856a-3863-bd1f-7de65b87a71b
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

@@ -4,7 +4,7 @@ title: ENABLE_VIRTUALIZATION (wdm.h)
 description: The EnableVirtualization routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\enablevirtualization.htm
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/29/2021
 keywords: ["ENABLE_VIRTUALIZATION callback"]
 ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 req.header: wdm.h
@@ -43,94 +43,50 @@ api_name:
 
 # ENABLE_VIRTUALIZATION callback
 
-
 ## -description
 
-The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
+The [EnableVirtualization]() routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
-### -param Context 
+### -param Context
 
-[in, out]
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
+[in, out] A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
 
-### -param NumVFs 
+### -param NumVFs
 
-[in]
-The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter.
+[in] The number of PCIe virtual functions (VFs) that are to be enabled for the device. The [EnableVirtualization]() routine sets the **NumVFs** member of the PCIe SR-IOV Extended Capability structure to the value of the *NumVFs* parameter.
 
+> [!NOTE]
+> If the *EnableVirtualization* parameter is **FALSE**, the *NumVFs* parameter must be set to zero.
 
+### -param EnableVfMigration
 
-<div class="alert"><b>Note</b>  If the <i>EnableVirtualization</i> parameter is <b>FALSE</b>, the <i>NumVFs</i> parameter must be set to zero.
+[in] A BOOLEAN value that indicates whether the multi-root I/O virtualization (MR-IOV) base function (BF) can dynamically reprovision the PCIe physical function (PF) of the device   as a VF at run time.
 
-</div>
-<div> </div>
+> [!NOTE]
+> This parameter is only applicable to devices that support both the SR-IOV and MR-IOV interfaces. The driver must set this parameter to **FALSE** if the device supports only the SR-IOV interface and not the MR-IOV interface.
 
-### -param EnableVfMigration 
+### -param EnableMigrationInterrupt
 
-[in]
-A BOOLEAN value that indicates whether the multi-root I/O virtualization (MR-IOV) base function (BF) can dynamically reprovision the PCIe physical function (PF) of the device   as a VF at run time.
+[in] A BOOLEAN value that indicates whether the interrupt associated with the PF should be masked or unmasked during VF migration.
 
-<div class="alert"><b>Note</b>  This parameter is only applicable to devices that support both the SR-IOV and MR-IOV interfaces. The driver must set this parameter to <b>FALSE</b> if the device supports only the SR-IOV interface and not the MR-IOV interface.</div>
-<div> </div>
+> [!NOTE]
+> If the *EnableVfMigration* parameters is **FALSE**, the driver must also set this parameter to **FALSE**.
 
-### -param EnableMigrationInterrupt 
+### -param EnableVirtualization
 
-[in]
-A BOOLEAN value that indicates whether the interrupt associated with the PF should be masked or unmasked during VF migration.
-
-<div class="alert"><b>Note</b>  If the <i>EnableVfMigration</i> parameters is <b>FALSE</b>, the driver must also set this parameter to <b>FALSE</b>.</div>
-<div> </div>
-
-### -param EnableVirtualization 
-
-[in]
-A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the <i>EnableVirtualization</i> parameter is <b>TRUE</b>, the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine sets the VF Enable bit of the PCIe SR-IOV Control field. The <i>EnableVirtualization</i> routine clears this bit if the <i>EnableVirtualization</i> parameter is <b>FALSE</b>.
+[in] A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the *EnableVirtualization* parameter is **TRUE**, the [EnableVirtualization]() routine sets the VF Enable bit of the PCIe SR-IOV Control field. The *EnableVirtualization* routine clears this bit if the *EnableVirtualization* parameter is **FALSE**.
 
 ## -returns
 
-The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine returns one of the following NTSTATUS values:
+The [EnableVirtualization]() routine returns one of the following NTSTATUS values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>NumVFs</i> parameter is either zero or  is larger than the value of the <b>TotalVFs</b> member of the SR-IOV Extended Capability structure for the device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_DEVICE_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Virtualization is already enabled on the device and the <i>EnableVirtualization</i> parameter is <b>TRUE</b>, or virtualization is already disabled on the device and the <i>EnableVirtualization</i> parameter is <b>FALSE</b>.
-
-</td>
-</tr>
-</table>
+|Return code  |Description  |
+|---------|---------|
+|**STATUS_SUCCESS**     |     The operation completed successfully.    |
+|**STATUS_INVALID_PARAMETER**     |     The *NumVFs* parameter is either zero or  is larger than the value of the **TotalVFs** member of the SR-IOV Extended Capability structure for the device.    |
+|**STATUS_INVALID_DEVICE_STATE**     |    Virtualization is already enabled on the device and the *EnableVirtualization* parameter is **TRUE**, or virtualization is already disabled on the device and the *EnableVirtualization* parameter is **FALSE**.     |
 
 ## -prototype
 
@@ -149,21 +105,10 @@ NTSTATUS EnableVirtualization(
 
 ## -remarks
 
-Drivers call the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
+Drivers call the [EnableVirtualization]() routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
 
-
-
-The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
+The [EnableVirtualization]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
-<b></b>
-
+[PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85))

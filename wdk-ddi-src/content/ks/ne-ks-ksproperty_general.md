@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_2
 title: KSPROPERTY_GENERAL (ks.h)
-description: 
+description: "Learn more about: KSPROPERTY_GENERAL enumeration"
 old-location: stream\ksproperty_general.htm
 tech.root: stream
 ms.date: 04/23/2018

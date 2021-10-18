@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Packet.h header"
 UID: NA:packet
 title: Packet.h header
 ms.assetid: D3BF3662-53D2-4661-8347-99459CB9B34B
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLLIST_V1
 title: RILCALLLIST_V1 (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILCALLLIST_V1 structure for internal use only. Don't use the RILCALLLIST_V1- structure in your code."
 old-location: netvista\rilcalllist_v1.htm
 tech.root: netvista
 ms.date: 05/02/2018

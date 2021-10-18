@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveDeviceDirectoryString
 title: WdfDeviceRetrieveDeviceDirectoryString function (wdfdevice.h)
-description: 
+description: "Learn more about: WdfDeviceRetrieveDeviceDirectoryString function"
 tech.root: wdf
 ms.date: 10/19/2018
 keywords: ["WdfDeviceRetrieveDeviceDirectoryString function"]

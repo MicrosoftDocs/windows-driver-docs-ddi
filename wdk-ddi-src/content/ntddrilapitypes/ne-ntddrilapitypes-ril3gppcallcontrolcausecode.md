@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RIL3GPPCALLCONTROLCAUSECODE
 title: RIL3GPPCALLCONTROLCAUSECODE (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: Don't use the RIL3GPPCALLCONTROLCAUSECODE enumeration in your code. Microsoft reserves the enumeration for internal use only. 
 old-location: netvista\ril3gppcallcontrolcausecode.htm
 tech.root: netvista
 ms.date: 05/02/2018

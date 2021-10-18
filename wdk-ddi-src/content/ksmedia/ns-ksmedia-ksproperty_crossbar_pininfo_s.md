@@ -54,7 +54,7 @@ The KSPROPERTY_CROSSBAR_PININFO_S structure describes the crossbar pin informati
 
 ### -field Property
 
-Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Direction
 
@@ -122,7 +122,7 @@ Specifies the optional pin index of a pin that is related to the pin specified i
 
 ### -field Medium
 
-Specifies a <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure that represents the hardware connection for the pin. This information is returned by the minidriver.
+Specifies a <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structure that represents the hardware connection for the pin. This information is returned by the minidriver.
 
 ## -remarks
 
@@ -130,7 +130,7 @@ All index values are zero-based, and input pins are counted separately from outp
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

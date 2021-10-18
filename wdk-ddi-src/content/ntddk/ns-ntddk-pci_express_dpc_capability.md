@@ -3,9 +3,8 @@ UID: NS:ntddk._PCI_EXPRESS_DPC_CAPABILITY
 title: PCI_EXPRESS_DPC_CAPABILITY
 tech.root: PCI
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: PCI_EXPRESS_DPC_CAPABILITY"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

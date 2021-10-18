@@ -1,7 +1,7 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CONNECT_SECURE_SERVICE
 title: EVT_TR_CONNECT_SECURE_SERVICE (trustedruntimeclx.h)
-description: 
+description: "Learn more about: EVT_TR_CONNECT_SECURE_SERVICE callback function"
 ms.date: 11/20/2020
 keywords: ["EVT_TR_CONNECT_SECURE_SERVICE callback function"]
 req.header: trustedruntimeclx.h

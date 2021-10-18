@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 title: _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE (scsi.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: "Don't use this structure in your code. Microsoft reserves the VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure for internal use only."
 old-location: storage\vpd_zoned_block_device_characteristics_page.htm
 tech.root: storage
 ms.date: 03/29/2018

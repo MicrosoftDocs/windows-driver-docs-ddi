@@ -2,7 +2,6 @@
 UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
 title: NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
 ms.date: 08/20/2020
-ms.topic: language-reference
 targetos: Windows
 description: The NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT function initializes a NET_ADAPTER_WAKE_REASON_PACKET when the wake source is a magic packet.
 tech.root: netvista
@@ -19,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: Universal
 req.type-library: 

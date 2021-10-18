@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IPrintWriteStream
 title: IPrintWriteStream (filterpipeline.h)
 description: Filters use the IPrintWriteStream interface to write data as a raw stream of bytes.
-old-location: print\iprintwritestream.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintWriteStream interface"]
 ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices],described, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml, print.iprintwritestream
 req.header: filterpipeline.h
@@ -42,14 +41,10 @@ api_name:
 
 # IPrintWriteStream interface
 
-
 ## -description
 
-Filters use the <code>IPrintWriteStream</code> interface to write data as a raw stream of bytes.
+Filters use the **IPrintWriteStream** interface to write data as a raw stream of bytes.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintWriteStream</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintWriteStream</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IPrintWriteStream** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

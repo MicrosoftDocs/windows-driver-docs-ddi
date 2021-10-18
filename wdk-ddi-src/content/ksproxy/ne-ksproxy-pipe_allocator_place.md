@@ -1,7 +1,7 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_4
 title: PIPE_ALLOCATOR_PLACE (ksproxy.h)
-description: 
+description: "Learn more about: PIPE_ALLOCATOR_PLACE enumeration"
 old-location: stream\pipe_allocator_place.htm
 tech.root: stream
 ms.date: 04/23/2018

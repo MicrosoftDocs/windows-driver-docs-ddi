@@ -1,7 +1,7 @@
 ---
 UID: NI:usbscan.IOCTL_INDEX
 title: IOCTL_INDEX (usbscan.h)
-description: 
+description: "Learn more about: IOCTL_INDEX IOCTL"
 ms.date: 11/18/2020
 keywords: ["IOCTL_INDEX IOCTL"]
 req.header: usbscan.h

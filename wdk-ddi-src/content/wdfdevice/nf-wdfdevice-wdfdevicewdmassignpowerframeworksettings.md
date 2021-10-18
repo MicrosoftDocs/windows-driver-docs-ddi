@@ -4,7 +4,7 @@ title: WdfDeviceWdmAssignPowerFrameworkSettings function (wdfdevice.h)
 description: The WdfDeviceWdmAssignPowerFrameworkSettings method registers power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 04/22/2021
 keywords: ["WdfDeviceWdmAssignPowerFrameworkSettings function"]
 ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 req.header: wdfdevice.h
@@ -13,7 +13,7 @@ req.target-type: Universal
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
-req.umdf-ver: 
+req.umdf-ver: 2.33
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF only]</p>
+<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method registers  power management framework (PoFx) settings for single-component devices.
@@ -114,7 +114,7 @@ This method also might return other <a href="/windows-hardware/drivers/kernel/nt
 
 The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method applies only to single-component devices.
 
-After calling this method, the client driver must call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings">WdfDeviceAssignS0IdleSettings</a> and set the <b>IdleTimeoutType</b> field of the <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure to <b>SystemManagedIdleTimeout</b> or <b>SystemManagedIdleTimeoutWithHint</b>.
+Before calling this method, the client driver must first successfully call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings">WdfDeviceAssignS0IdleSettings</a> and set the <b>IdleTimeoutType</b> field of the <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure to <b>SystemManagedIdleTimeout</b> or <b>SystemManagedIdleTimeoutWithHint</b>.
 
 A driver must call <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> before or during the first time a device starts. Because a device can start more than once, for example if resource rebalancing occurs, a driver might call this method from within <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>  or  <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init">EvtDeviceSelfManagedIoInit</a>. The framework calls these functions only once, even if the device is started more than once.
 

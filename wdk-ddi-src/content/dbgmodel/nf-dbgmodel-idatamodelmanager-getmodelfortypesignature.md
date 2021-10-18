@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.GetModelForTypeSignature
 title: IDataModelManager::GetModelForTypeSignature (dbgmodel.h)
-description: The GetModelForTypeSignature method returns the data model that was registered against a particular type signature via a prior call to the RegisterModelForTypeSignature method.
+description: "The IDataModelManager::GetModelForTypeSignature method returns the data model that was previously registered for a given type signature."
 ms.date: 07/19/2018
 keywords: ["IDataModelManager::GetModelForTypeSignature"]
 ms.keywords: IDataModelManager::GetModelForTypeSignature, GetModelForTypeSignature, IDataModelManager.GetModelForTypeSignature, IDataModelManager::GetModelForTypeSignature, IDataModelManager.GetModelForTypeSignature

@@ -59,11 +59,9 @@ SET_LOCAL_HOST_PROPS2 sets a lower bound on the value the bus will use for its g
 
 Specifies lower bound of the gap count.
 
-## -remarks
 
-See the <a href="https://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for a description of the gap count.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
+<a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
 

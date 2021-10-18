@@ -141,7 +141,7 @@ A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b>
 <p>A pointer to a caller-supplied callback routine to be called if <b>FsRtlCheckUpperOplock</b> will return STATUS_PENDING. This parameter is optional and can be <b>NULL</b>. </p>
   <p>This routine is declared as follows: </p>
   <div class="code">
-    <span codelanguage="">
+    <span>
       <table>
         <tr>
           <th></th>

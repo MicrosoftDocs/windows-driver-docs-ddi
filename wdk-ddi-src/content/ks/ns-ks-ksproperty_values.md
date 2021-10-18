@@ -4,7 +4,7 @@ title: KSPROPERTY_VALUES (ks.h)
 description: The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
 old-location: stream\ksproperty_values.htm
 tech.root: stream
-ms.date: 10/16/2020
+ms.date: 07/15/2021
 keywords: ["KSPROPERTY_VALUES structure"]
 ms.keywords: "*PKSPROPERTY_VALUES, KSPROPERTY_VALUES, KSPROPERTY_VALUES structure [Streaming Media Devices], PKSPROPERTY_VALUES, PKSPROPERTY_VALUES structure pointer [Streaming Media Devices], ks-struct_a9156948-e21f-41d4-bb63-9c85fdbf57f3.xml, ks/KSPROPERTY_VALUES, ks/PKSPROPERTY_VALUES, stream.ksproperty_values"
 req.header: ks.h
@@ -45,16 +45,15 @@ api_name:
 
 # KSPROPERTY_VALUES structure
 
-
 ## -description
 
-The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
+The **KSPROPERTY_VALUES** structure describes the type and acceptable default values of a property.
 
 ## -struct-fields
 
 ### -field PropTypeSet
 
-Specifies a KSIDENTIFIER structure (see [KSEVENT](/previous-versions/ff561744(v=vs.85))) that identifies the data type of the property. The **Set** member of a KSIDENTIFIER structure indicates the set of value types supported, and the **Id** member of the same structure identifies the type within the set.
+Specifies a **KSIDENTIFIER** structure (see [KSEVENT](/windows-hardware/drivers/stream/ksevent-structure)) that identifies the data type of the property. The **Set** member of a **KSIDENTIFIER** structure indicates the set of value types supported, and the **Id** member of the same structure identifies the type within the set.
 
 ### -field MembersListCount
 
@@ -66,7 +65,7 @@ Points to an array of [KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md
 
 ## -remarks
 
-**PropTypeSet.Set** almost always equals KSPROPTYPESETID_General. The individual value types in KSPROPTYPESETID_General correspond to the VARENUM types documented in the Microsoft Windows SDK.
+**PropTypeSet.Set** almost always equals KSPROPTYPESETID_General. The individual value types in **KSPROPTYPESETID_General** correspond to the [**VARENUM**](./ne-ks-varenum.md) enumeration types.
 
 Possible values for PropTypeSet.Id in streaming media (audio/camera) include:
 
@@ -84,19 +83,20 @@ Possible values for PropTypeSet.Id in streaming media (audio/camera) include:
 | VT_UI4 | An unsigned 4-byte integer. |
 | VT_UI8 | An unsigned 8-byte integer. |
 
-For more information, see [VARENUM enumeration (ks.h)](./ne-ks-varenum.md).
+For more information, see the [**VARENUM**](./ne-ks-varenum.md) enumeration.
 
-A driver can specify a pointer to a KSPROPERTY_VALUES structure in the relevant KSPROPERTY_ITEM for a property.
+A driver can specify a pointer to a **KSPROPERTY_VALUES** structure in the relevant **KSPROPERTY_ITEM** for a property.
 
 For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
 
 ## -see-also
 
-[KSEVENT](/previous-versions/ff561744(v=vs.85))
+[**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure)
 
-[KSPROPERTY_DESCRIPTION](./ns-ks-ksproperty_description.md)
+[**KSPROPERTY_DESCRIPTION**](./ns-ks-ksproperty_description.md)
 
-[KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md)
+[**KSPROPERTY_ITEM**](./ns-ks-ksproperty_item.md)
 
-[KSPROPERTY_MEMBERSLIST](./ns-ks-ksproperty_memberslist.md)
+[**KSPROPERTY_MEMBERSLIST**](./ns-ks-ksproperty_memberslist.md)
 
+[**VARENUM**](./ne-ks-varenum.md)

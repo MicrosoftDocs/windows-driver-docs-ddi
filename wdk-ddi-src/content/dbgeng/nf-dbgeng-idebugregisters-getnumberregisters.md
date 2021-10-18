@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetNumberRegisters
 title: IDebugRegisters::GetNumberRegisters (dbgeng.h)
-description: The GetNumberRegisters method returns the number of registers on the target computer.
+description: The GetNumberRegisters method returns the number of registers on the target computer. This method belongs to the IDebugRegisters interface.
 old-location: debugger\getnumberregisters.htm
 tech.root: debugger
 ms.date: 05/03/2018

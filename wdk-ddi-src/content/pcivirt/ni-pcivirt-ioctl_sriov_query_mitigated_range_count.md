@@ -77,8 +77,6 @@ The size of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov
 
 ### -status-block
 
-TBD
-
 <b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks

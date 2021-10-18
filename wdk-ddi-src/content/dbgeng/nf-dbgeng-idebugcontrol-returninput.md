@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.ReturnInput
 title: IDebugControl::ReturnInput (dbgeng.h)
-description: The ReturnInput method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
+description: Learn how the ReturnInput method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninput.htm
 tech.root: debugger
 ms.date: 05/03/2018

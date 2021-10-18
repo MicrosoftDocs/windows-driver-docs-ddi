@@ -59,7 +59,7 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfr
 ### -param EventGuid 
 
 [in]
-A GUID that identifies the event type. Event GUIDs are defined by the components that support such GUIDs. Some <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface classes</a> provide event GUIDs, and some driver provide custom events.
+A GUID that identifies the event type. Event GUIDs are defined by the components that support such GUIDs. Some <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface classes</a> provide event GUIDs, and some driver provide custom events.
 
 ### -param pbData 
 

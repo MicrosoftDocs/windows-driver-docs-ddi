@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_ROOTPORT_AER_CAPABILITY
 title: _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY (wdm.h)
-description: The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI Express (PCIe) advanced error reporting capability structure for a root port or a root complex event collector.
+description: The _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure (wdm.h) describes a PCI Express (PCIe) advanced error reporting capability structure.
 old-location: pci\pci_express_rootport_aer_capability.htm
 tech.root: PCI
 ms.date: 02/24/2018

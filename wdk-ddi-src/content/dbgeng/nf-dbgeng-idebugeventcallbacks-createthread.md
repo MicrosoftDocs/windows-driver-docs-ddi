@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.CreateThread
 title: IDebugEventCallbacks::CreateThread (dbgeng.h)
-description: The CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target.
+description: The CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target. This method belongs to IDebugEventCallbacks.
 old-location: debugger\idebugeventcallbacks_createthread.htm
 tech.root: debugger
 ms.date: 05/03/2018

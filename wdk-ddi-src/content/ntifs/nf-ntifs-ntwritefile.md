@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtWriteFile
 title: NtWriteFile function (ntifs.h)
-description: The ZwWriteFile routine writes data to an open file.
+description: The NtWriteFile routine in ntifs.h writes data to an open file. If the call to this function is in user mode, use the name NtWriteFile instead of ZwWriteFile.
 old-location: kernel\zwwritefile.htm
 tech.root: kernel
 ms.date: 04/30/2018

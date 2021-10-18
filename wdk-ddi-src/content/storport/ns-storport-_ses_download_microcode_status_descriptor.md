@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 title: _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR (storport.h)
-description: The SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure specifies the status and additional status of a download microcode.
+description: The _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure (storport.h) specifies the status and additional status of a download microcode.
 old-location: storage\ses_download_microcode_status_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018

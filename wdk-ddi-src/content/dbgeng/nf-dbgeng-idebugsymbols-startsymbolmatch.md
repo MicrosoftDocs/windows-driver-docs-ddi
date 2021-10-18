@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.StartSymbolMatch
 title: IDebugSymbols::StartSymbolMatch (dbgeng.h)
-description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern.
+description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern. This method belongs to the IDebugSymbols interface.
 old-location: debugger\startsymbolmatch.htm
 tech.root: debugger
 ms.date: 05/03/2018

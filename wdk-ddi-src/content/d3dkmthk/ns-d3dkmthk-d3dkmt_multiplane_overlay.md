@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY
 title: D3DKMT_MULTIPLANE_OVERLAY (d3dkmthk.h)
-description: Multiplane overlay structure.
+description: The D3DKMT_MULTIPLANE_OVERLAY structure contains information that is used to define a multiplane overlay.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY structure"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY, D3DKMT_MULTIPLANE_OVERLAY,

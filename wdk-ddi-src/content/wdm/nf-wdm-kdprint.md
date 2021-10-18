@@ -56,7 +56,7 @@ A call to **KdPrint** requires double parentheses.
 ### -param _x_ 
 
 [in]
-Specifies a pointer to the format string to print. The *Format* string supports most of the **printf**-style [format specification fields](/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=vs-2019). However, the Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can only be used with IRQL = PASSIVE_LEVEL. The **KdPrint** routine does not support any of the floating point types (**%f**, **%e**, **%E**, **%g**, **%G**, **%a**, or **%A**).
+Specifies a pointer to the format string to print. The *Format* string supports most of the **printf**-style [format specification syntax](/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions). However, the Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can only be used with IRQL = PASSIVE_LEVEL. The **KdPrint** routine does not support any of the floating point types (**%f**, **%e**, **%E**, **%g**, **%G**, **%a**, or **%A**).
 
 ## -remarks
 

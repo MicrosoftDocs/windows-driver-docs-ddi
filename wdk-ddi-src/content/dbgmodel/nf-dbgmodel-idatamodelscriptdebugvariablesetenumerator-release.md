@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.Release
 title: IDataModelScriptDebugVariableSetEnumerator::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDataModelScriptDebugVariableSetEnumerator::Release method decrements the reference count for an interface on an object."
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::Release"]
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Release, Release, IDataModelScriptDebugVariableSetEnumerator.Release, IDataModelScriptDebugVariableSetEnumerator::Release, IDataModelScriptDebugVariableSetEnumerator.Release

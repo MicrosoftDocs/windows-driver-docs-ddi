@@ -50,7 +50,7 @@ The _BRB_L2CA_OPEN_CHANNEL structure describes a L2CAP channel to open to a remo
 
 ### -field Hdr
 
-A [BRB\_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header) structure that contains information about the current BRB.
+A [BRB\_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 ### -field ChannelHandle
 
@@ -170,7 +170,7 @@ A flag that specifies which events should generate a callback routine to notify 
 
 ### -field Callback
 
-The [L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback) implemented by the profile driver, that the Bluetooth driver stack should call to notify the profile driver about any changes to the L2CAP connection.
+The [L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback.md) implemented by the profile driver, that the Bluetooth driver stack should call to notify the profile driver about any changes to the L2CAP connection.
 
 ### -field CallbackContext
 
@@ -178,11 +178,11 @@ The context to pass to the callback function specified in the **Callback** membe
 
 ### -field ReferenceObject
 
-A pointer to an object to pass to [ObReferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject) and [ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) for which to maintain a reference count of.
+A pointer to an object to pass to [ObReferenceObject](../wdm/nf-wdm-obfreferenceobject.md) and [ObDereferenceObject](../wdm/nf-wdm-obdereferenceobject.md) for which to maintain a reference count of.
 
 ### -field OutResults
 
-A [CHANNEL\_CONFIG\_RESULTS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results) structure that contains configuration parameters for the outbound request.
+A [CHANNEL\_CONFIG\_RESULTS](./ns-bthddi-_channel_config_results.md) structure that contains configuration parameters for the outbound request.
 
 ### -field InResults
 
@@ -194,7 +194,7 @@ Specifies the incoming queue length in message transfer units (MTUs).
 
 #### - ( unnamed struct )
 
-A [BRB\_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header) structure that contains information about the current BRB.
+A [BRB\_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 #### Response
 
@@ -237,13 +237,13 @@ If the **BRB_L2CA_OPEN_CHANNEL** request completes successfully, a variety of in
 
 Several of the configuration parameters passed in this structure, such as the **Mtu** member, are ranges used for negotiation with the remote radio. Clients should provide as wide a range as possible to increase the chances of successful channel negotiation. Specifying a minimum MTU size greater than the basic Bluetooth minimum MTU size should only be done when absolutely necessary. If negotiation fails, the connection will fail.
 
-Profile drivers must allocate the memory to store the array that is stored in the **ExtraOptions** member and should not free this memory until the callback function defined in the **Callback** member returns with an **IndicationFreeExtraOptions** notification [INDICATION\_CODE](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code) value passed in its *Indication* parameter.
+Profile drivers must allocate the memory to store the array that is stored in the **ExtraOptions** member and should not free this memory until the callback function defined in the **Callback** member returns with an **IndicationFreeExtraOptions** notification [INDICATION\_CODE](./ne-bthddi-_indication_code.md) value passed in its *Indication* parameter.
 
 The **IncomingQueueDepth** member of the _BRB_L2CA_OPEN_CHANNEL structure specifies the maximum number of MTUs that the Bluetooth driver stack will receive and queue on the connection before it begins to discard them. Setting this value to a very small number increases the chances of data loss, while setting it to a very large number can increase memory usage. Setting this member to 10 is an effective compromise.
 
 To accept or reject an incoming L2CAP connection request initiated by a remote device, profile drivers should [build and send](/previous-versions/ff536657(v=vs.85)) a [ BRB\_L2CA\_OPEN\_CHANNEL\_RESPONSE](/previous-versions/ff536616(v=vs.85)) request.
 
-A profile driver should build and send a **BRB_L2CA_OPEN_CHANNEL_RESPONSE** request when the Bluetooth driver stack calls the profile driver's [L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback) and passes **IndicationRemoteConnect** in the callback function's *Indication* parameter.
+A profile driver should build and send a **BRB_L2CA_OPEN_CHANNEL_RESPONSE** request when the Bluetooth driver stack calls the profile driver's [L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback.md) and passes **IndicationRemoteConnect** in the callback function's *Indication* parameter.
 
 Based on the value of the **Response** member of this structure, the Bluetooth driver stack will then accept or reject the connection request.
 
@@ -255,7 +255,7 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 ## -see-also
 
-[BRB\_HEADER](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header)
+[BRB\_HEADER](./ns-bthddi-_brb_header.md)
 
 [BRB\_L2CA\_OPEN\_CHANNEL](/previous-versions/ff536615(v=vs.85))
 
@@ -263,16 +263,16 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 [BRB\_L2CA\_REGISTER\_SERVER](/previous-versions/ff536618(v=vs.85))
 
-[CHANNEL\_CONFIG\_RESULTS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results)
+[CHANNEL\_CONFIG\_RESULTS](./ns-bthddi-_channel_config_results.md)
 
-[INDICATION\_CODE](/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code)
+[INDICATION\_CODE](./ne-bthddi-_indication_code.md)
 
-[INDICATION\_PARAMETERS](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters)
+[INDICATION\_PARAMETERS](./ns-bthddi-_indication_parameters.md)
 
-[L2CAP Callback Function](/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback)
+[L2CAP Callback Function](./nc-bthddi-pfnbthport_indication_callback.md)
 
-[L2CAP\_CONFIG\_OPTION](/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_option)
+[L2CAP\_CONFIG\_OPTION](./ns-bthddi-_l2cap_config_option.md)
 
-[ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[ObDereferenceObject](../wdm/nf-wdm-obdereferenceobject.md)
 
-[ObReferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject)
+[ObReferenceObject](../wdm/nf-wdm-obfreferenceobject.md)

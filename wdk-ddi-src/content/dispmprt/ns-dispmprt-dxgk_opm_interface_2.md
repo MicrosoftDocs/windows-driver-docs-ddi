@@ -2,7 +2,6 @@
 UID: NS:dispmprt._DXGK_OPM_INTERFACE_2
 title: DXGK_OPM_INTERFACE_2
 ms.date: 08/21/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DXGK_OPM_INTERFACE_2 structure contains pointers to functions in the Output Protection Manager (OPM) Interface, which is implemented by the display miniport driver.
 tech.root: display

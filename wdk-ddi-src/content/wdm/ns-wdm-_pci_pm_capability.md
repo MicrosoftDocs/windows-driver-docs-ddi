@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCI_PM_CAPABILITY
 title: _PCI_PM_CAPABILITY (wdm.h)
-description: The PCI_PM_CAPABILITY structure reports the power management capabilities of the device.
+description: The _PCI_PM_CAPABILITY structure (wdm.h) contains fields that describe the power management capabilities of the device.
 old-location: pci\pci_pm_capability.htm
 tech.root: PCI
 ms.date: 02/24/2018

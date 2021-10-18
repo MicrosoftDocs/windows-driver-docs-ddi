@@ -161,7 +161,7 @@ A callout driver specifies this flag to indicate that the callout supports recei
 </dl>
 </td>
 <td width="60%">
-A callout driver specifies this flag when registering a callout that will be added at layer 2, to indicate that its <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function can classify multiple chained <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. For more info, see <a href="/windows-hardware/drivers/network/using-layer-2-filtering">Using Layer 2 Filtering</a>.
+A callout driver specifies this flag when registering a callout that will be added at layer 2, to indicate that its <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function can classify multiple chained <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. For more info, see <a href="/windows-hardware/drivers/network/using-layer-2-filtering">Using Layer 2 Filtering</a>.
 
 <div class="alert"><b>Caution</b>  <p class="note">If a callout driver sets this flag, it cannot use the following functions to modify NET_BUFFER_LISTs.
 
@@ -180,11 +180,19 @@ A callout driver specifies this flag when registering a callout that will be add
 </li>
 </ul>
 <p class="note">With this flag set, <b>FwpsAllocateCloneNetBufferList0</b> will always return an <b>INVALID_PARAMETER</b> error. This may unexpectedly cause a 3rd party callout driver to fail to manage the reference count of NET_BUFFER_LISTs, causing send and receive operations to stop.
-
 </div>
-<div> </div>
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="FWP_CALLOUT_FLAG_ALLOW_USO"></a><a id="fwp_callout_flag_allow_uso"></a><dl>
+<dt><b>FWP_CALLOUT_FLAG_ALLOW_USO</b></dt>
+<dt>0x00000100</dt>
+</dl>
+</td>
+<td width="60%">
+A callout driver specifies this flag to indicate that the callout supports UDP segmentation offload (USO) with packets larger than the MTU of the network medium. If this flag is not specified, and a callout is registered, then USO is disabled for all traffic that is processed by any filters that specify the callout for the filter's action.
+</td>
+</tr>  
 </table>
 
 ### -field classifyFn

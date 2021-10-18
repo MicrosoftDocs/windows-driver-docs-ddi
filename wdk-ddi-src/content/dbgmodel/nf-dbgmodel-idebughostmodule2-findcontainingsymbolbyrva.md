@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.FindContainingSymbolByRVA
 title: IDebugHostModule2::FindContainingSymbolByRVA (dbgmodel.h)
-description: The FindSymbolByRVA method will find a single matching symbol at the given relative virtual address within the module.
+description: "The IDebugHostModule2::FindContainingSymbolByRVA method, when called on a module, retrieves a symbol at a given relative virtual address within the module."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::FindContainingSymbolByRVA"]
 ms.keywords: IDebugHostModule2::FindContainingSymbolByRVA, FindContainingSymbolByRVA, IDebugHostModule2.FindContainingSymbolByRVA, IDebugHostModule2::FindContainingSymbolByRVA, IDebugHostModule2.FindContainingSymbolByRVA

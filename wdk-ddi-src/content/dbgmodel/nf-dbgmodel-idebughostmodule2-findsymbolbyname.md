@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.FindSymbolByName
 title: IDebugHostModule2::FindSymbolByName (dbgmodel.h)
-description: The FindSymbolByName method will find a single global symbol of the given name within the module.
+description: "The IDebugHostModule2::FindSymbolByName method, when called on a module, retrieves a global symbol by name from within the module."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::FindSymbolByName"]
 ms.keywords: IDebugHostModule2::FindSymbolByName, FindSymbolByName, IDebugHostModule2.FindSymbolByName, IDebugHostModule2::FindSymbolByName, IDebugHostModule2.FindSymbolByName

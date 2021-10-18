@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IModelKeyReference2
 title: IModelKeyReference2 (dbgmodel.h)
-description: A reference to a key on a data model object.
+description: The IModelKeyReference2 (dbgmodel.h) interface defines methods that provide a reference to a key on a data model object.
 ms.date: 06/11/2019
 keywords: ["IModelKeyReference2 interface"]
 req.header: dbgmodel.h

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddstor._STORAGE_ZONES_ATTRIBUTES
 title: _STORAGE_ZONES_ATTRIBUTES (ntddstor.h)
-description: Note  This structure is for internal use only and should not be called from your code. .
+description: "Microsoft reserves the STORAGE_ZONES_ATTRIBUTES enumeration for internal use only. Don't use this enumeration in your code."
 old-location: storage\storage_zones_attributes.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetSpecificFilterParameters
 title: IDebugControl::GetSpecificFilterParameters (dbgeng.h)
-description: The GetSpecificFilterParameters method returns the parameters for specific event filters.
+description: Learn how the GetSpecificFilterParameters method returns the parameters for specific event filters.
 old-location: debugger\getspecificfilterparameters.htm
 tech.root: debugger
 ms.date: 05/03/2018

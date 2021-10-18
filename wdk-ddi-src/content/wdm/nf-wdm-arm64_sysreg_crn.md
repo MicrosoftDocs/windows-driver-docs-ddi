@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ARM64_SYSREG_CRN
 title: ARM64_SYSREG_CRN macro (wdm.h)
-description: Returns the CRn field for a given ARM system register.
+description: Learn how the method returns the CRn field for a given ARM system register.
 ms.date: 10/19/2018
 tech.root: kernel
 keywords: ["ARM64_SYSREG_CRN macro"]

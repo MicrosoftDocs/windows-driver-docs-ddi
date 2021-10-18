@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION_INSERT_KEY
-title: _STOR_CRYPTO_OPERATION_INSERT_KEY (storport.h)
-description: Reserved for system use.
+title: STOR_CRYPTO_OPERATION_INSERT_KEY (storport.h)
+description: "Microsoft reserves the STOR_CRYPTO_OPERATION_INSERT_KEY structure for internal use only. Don't use this structure in your code."
 old-location: storage\stor_crypto_operation_insert_key.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -10,7 +10,7 @@ ms.keywords: "*PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,8 +46,7 @@ api_name:
  - STOR_CRYPTO_OPERATION_INSERT_KEY
 ---
 
-# _STOR_CRYPTO_OPERATION_INSERT_KEY structure
-
+# STOR_CRYPTO_OPERATION_INSERT_KEY structure
 
 ## -description
 
@@ -55,3 +54,38 @@ Reserved for system use.
 
 ## -struct-fields
 
+### -field Version
+
+Reserved for system use.
+
+### -field Size
+
+Reserved for system use.
+
+### -field KeyIndex
+
+Reserved for system use.
+
+### -field CryptoCapabilityIndex
+
+Reserved for system use.
+
+### -field DataUnitSizeBitmask
+
+Reserved for system use.
+
+### -field KeySize
+
+Reserved for system use.
+
+### -field Reserved
+
+Reserved for system use.
+
+### -field KeyVirtualAddress
+
+Reserved for system use.
+
+### -field KeyPhysicalAddress
+
+Reserved for system use.

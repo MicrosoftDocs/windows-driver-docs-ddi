@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.Reload
 title: IDebugSymbols::Reload (dbgeng.h)
-description: The Reload method deletes the engine's symbol information for the specified module and reload these symbols as needed.
+description: The Reload method deletes the engine's symbol information for the specified module and reload these symbols as needed. This method belongs to IDebugSymbols.
 old-location: debugger\reload.htm
 tech.root: debugger
 ms.date: 05/03/2018

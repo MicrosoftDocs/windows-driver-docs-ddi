@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11.DOT11_PHY_ATTRIBUTES
 title: DOT11_PHY_ATTRIBUTES (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_PHY_ATTRIBUTES structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_phy_attributes.htm
 tech.root: netvista
 ms.date: 02/16/2018
@@ -60,7 +60,7 @@ product:
 ### -field Header
 
 The type, revision, and size of the DOT11_PHY_ATTRIBUTES structure. This member is formatted as an
-      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+      <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the members of
       <b>Header</b> to the following values:
@@ -83,7 +83,7 @@ This member must be set to
         sizeof(DOT11_PHY_ATTRIBUTES).
 
 For more information about these members, see
-      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+      <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 ### -field PhyType
 
@@ -290,5 +290,5 @@ The
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

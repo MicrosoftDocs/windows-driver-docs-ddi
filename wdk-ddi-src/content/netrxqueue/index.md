@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netrxqueue.h header"
 UID: NA:netrxqueue
 title: Netrxqueue.h header
 ms.assetid: 88d9b4af-6ff1-3534-b451-a126ba223490
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

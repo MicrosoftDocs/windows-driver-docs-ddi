@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pointofservicedriverinterface.h header"
 UID: NA:pointofservicedriverinterface
 title: Pointofservicedriverinterface.h header
 ms.assetid: d8f3ae77-dab5-34d2-a88f-30aa2fd8701d

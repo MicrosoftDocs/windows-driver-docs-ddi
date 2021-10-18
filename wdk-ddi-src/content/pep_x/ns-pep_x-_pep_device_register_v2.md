@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_REGISTER_V2
 title: _PEP_DEVICE_REGISTER_V2 (pep_x.h)
-description: The PEP_DEVICE_REGISTER structure describes all the components in a particular device.
+description: Learn how the PEP_DEVICE_REGISTER structure describes all the components in a particular device.
 old-location: kernel\pep_device_register_v2.htm
 tech.root: kernel
 ms.date: 04/30/2018
@@ -55,8 +55,6 @@ The <b>PEP_DEVICE_REGISTER</b> structure describes all the components in a parti
 ## -struct-fields
 
 ### -field Flags
-
-TBD
 
 ### -field ComponentCount
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D3Dukmdt.h header"
 UID: NA:d3dukmdt
 title: D3Dukmdt.h header
 ms.assetid: 6289317f-0eb5-3a62-9de4-ff14a76b6bb0

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.EndEnumTagged
 title: IDebugDataSpaces3::EndEnumTagged (dbgeng.h)
-description: The EndEnumTagged method releases the resources used by the specified enumeration.
+description: Learn about the EndEnumTagged method, which releases the resources used by the specified enumeration.
 old-location: debugger\endenumtagged.htm
 tech.root: debugger
 ms.date: 05/03/2018

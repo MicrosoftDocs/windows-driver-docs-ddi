@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SUPPORTED_FORMATS
 title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS (sidebandaudio.h)
-description: 
+description: "Learn more about: IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"]
 req.header: sidebandaudio.h
@@ -61,11 +61,9 @@ Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supp
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length 
 
-<text></text>
 
 ### -status-block
 

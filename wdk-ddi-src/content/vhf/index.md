@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Vhf.h header"
 UID: NA:vhf
 title: Vhf.h header
 ms.assetid: 6241ba6a-2367-3ead-8146-3f3598ed3ab0

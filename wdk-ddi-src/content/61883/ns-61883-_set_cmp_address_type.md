@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The SET_CMP_ADDRESS_TYPE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a> request to set the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets.
+The SET_CMP_ADDRESS_TYPE structure is used in conjunction with the Av61883_SetUnitInfo request to set the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets.
 
 ## -struct-fields
 
@@ -75,5 +75,5 @@ This flag must be set before any plugs are created or removed within the driver.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>
+<a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST structure</a>
 

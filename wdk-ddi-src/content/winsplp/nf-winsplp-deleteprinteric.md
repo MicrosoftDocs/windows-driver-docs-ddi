@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.DeletePrinterIC
 title: DeletePrinterIC function (winsplp.h)
-description: 
+description: "Learn more about: DeletePrinterIC function"
 old-location: print\deleteprinteric.htm
 tech.root: print
 ms.date: 04/20/2018

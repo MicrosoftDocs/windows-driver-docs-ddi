@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpxcv._PORT_DATA_LIST_1
 title: _PORT_DATA_LIST_1 (tcpxcv.h)
-description: 
+description: "Learn more about: _PORT_DATA_LIST_1 structure"
 ms.date: 10/19/2018
 tech.root: print
 keywords: ["PORT_DATA_LIST_1 structure"]

@@ -1,15 +1,15 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION
-title: _STOR_CRYPTO_OPERATION (storport.h)
-description: 
+title: STOR_CRYPTO_OPERATION (storport.h)
+description: "Microsoft reserves the STOR_CRYPTO_OPERATION structure for internal use only. Don't use this structure in your code."
 tech.root: storage
-ms.date: 10/19/2018
+ms.date: 05/13/2021
 keywords: ["STOR_CRYPTO_OPERATION structure"]
 ms.keywords: _STOR_CRYPTO_OPERATION, STOR_CRYPTO_OPERATION, *PSTOR_CRYPTO_OPERATION,
 req.header: storport.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,20 +39,24 @@ api_name:
  - STOR_CRYPTO_OPERATION
 ---
 
-# _STOR_CRYPTO_OPERATION structure
-
-
 ## -description
+
+Reserved for system use.
 
 ## -struct-fields
 
 ### -field OperationType
 
+Reserved for system use.
+
 ### -field OperationBufferLength
+
+Reserved for system use.
 
 ### -field OperationBuffer
 
+Reserved for system use.
+
 ## -remarks
 
-## -see-also
-
+Structure pointed to by the **Parameters** parameter when a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiAdapterCryptoOperation**.

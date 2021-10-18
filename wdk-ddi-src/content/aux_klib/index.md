@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Aux_Klib.h header"
 UID: NA:aux_klib
 title: Aux_Klib.h header
 ms.assetid: c8496ac9-e318-30df-baca-c0ea009e04d1

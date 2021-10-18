@@ -1,7 +1,7 @@
 ---
 UID: NF:systemrng.EntropyPoolTriggerReseedForIum
 title: EntropyPoolTriggerReseedForIum function (systemrng.h)
-description: 
+description: "Learn more about: EntropyPoolTriggerReseedForIum function"
 ms.date: 11/19/2020
 keywords: ["EntropyPoolTriggerReseedForIum function"]
 ms.keywords: EntropyPoolTriggerReseedForIum

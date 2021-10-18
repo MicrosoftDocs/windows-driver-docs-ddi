@@ -1,7 +1,7 @@
 ---
 UID: NE:storport._STOR_CRYPTO_ALGORITHM_ID
-title: _STOR_CRYPTO_ALGORITHM_ID (storport.h)
-description: Reserved for system use.
+title: STOR_CRYPTO_ALGORITHM_ID (storport.h)
+description: "Microsoft reserves the STOR_CRYPTO_ALGORITHM_ID enumeration for internal use only. Don't use this enumeration in your code."
 old-location: storage\stor_crypto_algorithm_id.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -10,7 +10,7 @@ ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPT
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,24 +46,34 @@ api_name:
  - STOR_CRYPTO_ALGORITHM_ID
 ---
 
-# _STOR_CRYPTO_ALGORITHM_ID enumeration
-
+# STOR_CRYPTO_ALGORITHM_ID enumeration
 
 ## -description
 
-Reserved for system use
+Reserved for system use.
 
 ## -enum-fields
 
 ### -field StorCryptoAlgorithmUnknown
 
+Reserved for system use.
+
 ### -field StorCryptoAlgorithmXTSAES
+
+Reserved for system use.
 
 ### -field StorCryptoAlgorithmBitlockerAESCBC
 
+Reserved for system use.
+
 ### -field StorCryptoAlgorithmAESECB
+
+Reserved for system use.
 
 ### -field StorCryptoAlgorithmESSIVAESCBC
 
+Reserved for system use.
+
 ### -field StorCryptoAlgorithmMax
 
+Reserved for system use.

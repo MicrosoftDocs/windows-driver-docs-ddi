@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOutputDuplReleaseFrame
 title: D3DKMTOutputDuplReleaseFrame function (d3dkmthk.h)
-description: Indicates that the driver has finished processing the duplicated desktop image.
+description: The D3DKMTOutputDuplReleaseFrame function indicates that the driver has finished processing the specified duplicated desktop image.
 old-location: display\d3dkmtoutputduplreleaseframe.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTOutputDuplReleaseFrame function"]

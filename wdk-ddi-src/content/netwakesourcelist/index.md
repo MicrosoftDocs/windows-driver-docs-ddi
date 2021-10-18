@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netwakesourcelist.h header"
 UID: NA:netwakesourcelist
 title: Netwakesourcelist.h header
 ms.assetid: 0BF4BAFD-CF34-4726-8C74-223CE0AB5BF5
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

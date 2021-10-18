@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Spb.h header"
 UID: NA:spb
 title: Spb.h header
 ms.assetid: e794df0d-60f5-3c88-a345-ed17d683adf2

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient3.StartProcessServer
 title: IDebugClient3::StartProcessServer (dbgeng.h)
-description: The StartProcessServer method starts a process server.
+description: The StartProcessServer method starts a process server. This method belongs to the IDebugClient3 interface.
 old-location: debugger\startprocessserver.htm
 tech.root: debugger
 ms.date: 05/03/2018

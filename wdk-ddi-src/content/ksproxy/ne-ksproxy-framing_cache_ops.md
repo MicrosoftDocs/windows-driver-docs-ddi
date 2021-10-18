@@ -1,7 +1,7 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_2
 title: FRAMING_CACHE_OPS (ksproxy.h)
-description: 
+description: "Learn more about: FRAMING_CACHE_OPS enumeration"
 old-location: stream\framing_cache_ops.htm
 tech.root: stream
 ms.date: 04/23/2018

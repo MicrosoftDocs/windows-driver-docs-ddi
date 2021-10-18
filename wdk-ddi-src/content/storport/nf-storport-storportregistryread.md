@@ -4,7 +4,7 @@ title: StorPortRegistryRead function (storport.h)
 description: The StorPortRegistryRead routine reads the registry data for the indicated device and value.
 old-location: storage\storportregistryread.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/12/2021
 keywords: ["StorPortRegistryRead function"]
 ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 req.header: storport.h
@@ -43,16 +43,15 @@ api_name:
 
 # StorPortRegistryRead function
 
-
 ## -description
 
-The <b>StorPortRegistryRead</b> routine reads the registry data for the indicated device and value.
+The **StorPortRegistryRead** routine reads the registry data for the indicated device and value.
 
 ## -parameters
 
 ### -param HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 ### -param ValueName
 
@@ -60,160 +59,28 @@ Pointer to a UCHAR that specifies the registry value name whose content is to be
 
 ### -param Global
 
-Indicates, when nonzero, that the port driver reads the contents of the registry value specified by <i>ValueName</i> under the Parameters\Device subkey. The values under the Device key apply to all adapters in the system. When <i>Global</i> is zero, the port driver reads the contents of the registry value specified by <i>ValueName</i> under the Parameters\Device(d) subkey, where (d) is a decimal value that corresponds to the port number of a particular adapter. In this case, the data retrieved is adapter-specific.
+Indicates, when nonzero, that the port driver reads the contents of the registry value specified by **ValueName** under the Parameters\Device subkey. The values under the Device key apply to all adapters in the system. When **Global** is zero, the port driver reads the contents of the registry value specified by **ValueName** under the Parameters\Device(d) subkey, where (d) is a decimal value that corresponds to the port number of a particular adapter. In this case, the data retrieved is adapter-specific.
 
 ### -param Type
 
 Indicates the data type of registry value. This parameter must have one of the values in the following table.
 
-<table>
-<tr>
-<th>Registry value data type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-REG_NONE
-
-</td>
-<td>
-No data type specified. 
-
-</td>
-</tr>
-<tr>
-<td>
-REG_SZ
-
-</td>
-<td>
-Indicates a <b>NULL</b>-terminated Unicode string.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_EXPAND_SZ
-
-</td>
-<td>
-Indicates a <b>NULL</b>-terminated Unicode string that includes environment variables that must be expanded to obtain the complete string. For example, a path name might be stored as the following string: "%USERPROFILE%\Application Data ".
-
-In this example, the environment variable USERPROFILE must be expanded to obtain the actual pathname.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_BINARY
-
-</td>
-<td>
-Indicates a raw binary data.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_DWORD
-
-</td>
-<td>
-Indicates a 32-bit double word value.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_DWORD_LITTLE_ENDIAN
-
-</td>
-<td>
-Indicates a 32-bit double word value, in little-endian order. This is identical to REG_DWORD.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_DWORD_BIG_ENDIAN
-
-</td>
-<td>
-Indicates a 32-bit double word value, in big-endian order. 
-
-</td>
-</tr>
-<tr>
-<td>
-REG_LINK
-
-</td>
-<td>
-Indicates a Unicode string containing a symbolic link. 
-
-</td>
-</tr>
-<tr>
-<td>
-REG_MULTI_SZ
-
-</td>
-<td>
-Indicates a series of <b>NULL</b>-terminated strings.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_RESOURCE_LIST
-
-</td>
-<td>
-Indicates that the registry value contains a list of hardware resources, also known as the "hardware resource map", that is stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap hive.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_FULL_RESOURCE_DESCRIPTOR
-
-</td>
-<td>
-Indicates that the registry value contains a description of hardware resources stored under the HKEY_LOCAL_MACHINE\HARDWARE\Description hive.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_RESOURCE_REQUIREMENTS_LIST
-
-</td>
-<td>
-Indicates that the registry value contains a list of hardware resource requirements stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap tree.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_QWORD
-
-</td>
-<td>
-Indicates that the registry value contains a 64-bit number.
-
-</td>
-</tr>
-<tr>
-<td>
-REG_QWORD_LITTLE_ENDIAN
-
-</td>
-<td>
-Indicates that the registry value contains a 64-bit number. This is the same data type as REG_QWORD. 
-
-</td>
-</tr>
-</table>
+| Registry value data type | Meaning |
+| ------------------------ | ------- |
+| REG_NONE                       | No data type specified. |
+| REG_SZ                         | Indicates a **NULL**-terminated Unicode string. |
+| REG_EXPAND_SZ                  | Indicates a **NULL**-terminated Unicode string that includes environment variables that must be expanded to obtain the complete string. For example, a path name might be stored as the following string: "%USERPROFILE%\Application Data ". In this example, the environment variable USERPROFILE must be expanded to obtain the actual pathname. |
+| REG_BINARY                     | Indicates a raw binary data. |
+| REG_DWORD                      | Indicates a 32-bit double word value. |
+| REG_DWORD_LITTLE_ENDIAN        | Indicates a 32-bit double word value, in little-endian order. This is identical to REG_DWORD. |
+| REG_DWORD_BIG_ENDIAN           | Indicates a 32-bit double word value, in big-endian order. |
+| REG_LINK                       | Indicates a Unicode string containing a symbolic link. |
+| REG_MULTI_SZ                   | Indicates a series of **NULL**-terminated strings. |
+| REG_RESOURCE_LIST              | Indicates that the registry value contains a list of hardware resources, also known as the "hardware resource map", that is stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap hive. |
+| REG_FULL_RESOURCE_DESCRIPTOR   | Indicates that the registry value contains a description of hardware resources stored under the HKEY_LOCAL_MACHINE\HARDWARE\Description hive. |
+| REG_RESOURCE_REQUIREMENTS_LIST | Indicates that the registry value contains a list of hardware resource requirements stored under the HKEY_LOCAL_MACHINE\HARDWARE\ResourceMap tree. |
+| REG_QWORD                      | Indicates that the registry value contains a 64-bit number.   |
+| REG_QWORD_LITTLE_ENDIAN        | Indicates that the registry value contains a 64-bit number. This is the same data type as REG_QWORD. |
 
 ### -param Buffer
 
@@ -225,18 +92,18 @@ Pointer to a ULONG that contains the size, in bytes, of the registry data return
 
 ## -returns
 
-<b>StorPortRegistryRead</b> returns a Boolean value of <b>TRUE</b> if the data pointed to by <i>ValueName</i> is successfully converted into ASCII and copied into the buffer. This routine returns <b>FALSE</b> in the event of an error.
+**StorPortRegistryRead** returns a Boolean value of **TRUE** if the data pointed to by **ValueName** is successfully converted into ASCII and copied into the buffer. This routine returns **FALSE** in the event of an error.
 
 ## -remarks
 
-If <b>StorPortRegistryRead</b> returns <b>FALSE</b> with a nonzero value in the <i>BufferLength</i> parameter, the buffer that was passed was too small and the <i>BufferLength</i> parameter reflects the correct buffer size that should be used. If the routine returns <b>FALSE</b> with the <i>BufferLength</i> parameter set to zero, another error has occurred.
+If **StorPortRegistryRead** returns **FALSE** with a nonzero value in the **BufferLength** parameter, the buffer that was passed was too small and the **BufferLength** parameter reflects the correct buffer size that should be used. If the routine returns **FALSE** with the **BufferLength** parameter set to zero, another error has occurred.
 
-The buffer used in this routine is allocated by calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a> and freed by calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeregistrybuffer">StorPortFreeRegistryBuffer</a>.
+The buffer used in this routine is allocated by calling [**StorPortAllocateRegistryBuffer**](nf-storport-storportallocateregistrybuffer.md) and freed by calling [**StorPortFreeRegistryBuffer**](nf-storport-storportfreeregistrybuffer.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>
+[**StorPortAllocateRegistryBuffer**](nf-storport-storportallocateregistrybuffer.md)
 
+[**StorPortFreeRegistryBuffer**](nf-storport-storportfreeregistrybuffer.md)
 
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeregistrybuffer">StorPortFreeRegistryBuffer</a>
+[**StorPortInitialize**](nf-storport-storportinitialize.md)

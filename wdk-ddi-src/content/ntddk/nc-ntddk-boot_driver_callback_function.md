@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk.BOOT_DRIVER_CALLBACK_FUNCTION
 title: BOOT_DRIVER_CALLBACK_FUNCTION (ntddk.h)
-description: 
+description: "Learn more about: BOOT_DRIVER_CALLBACK_FUNCTION callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["BOOT_DRIVER_CALLBACK_FUNCTION callback function"]

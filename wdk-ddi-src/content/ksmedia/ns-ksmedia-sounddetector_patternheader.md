@@ -1,7 +1,7 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_40
 title: SOUNDDETECTOR_PATTERNHEADER (ksmedia.h)
-description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the pattern header for the sound detector in the KSPROPERTY_SOUNDDETECTOR_PATTERNS property.
+description: The SOUNDDETECTOR_PATTERNHEADER structure (ksmedia.h) specifies the pattern header for the sound detector.
 old-location: audio\sounddetector_patternheader.htm
 tech.root: audio
 ms.date: 04/30/2019

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtQueryDirectoryFile
 title: NtQueryDirectoryFile function (ntifs.h)
-description: The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
+description: The NtQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
 old-location: kernel\zwquerydirectoryfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

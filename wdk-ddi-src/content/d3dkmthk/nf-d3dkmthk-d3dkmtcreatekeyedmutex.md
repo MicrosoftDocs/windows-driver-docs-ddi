@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateKeyedMutex
 title: D3DKMTCreateKeyedMutex function (d3dkmthk.h)
-description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
+description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object. The function returns STATUS_SUCCESS on successful creation of the keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateKeyedMutex function"]

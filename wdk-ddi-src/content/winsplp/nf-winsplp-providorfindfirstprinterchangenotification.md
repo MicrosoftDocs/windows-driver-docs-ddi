@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.ProvidorFindFirstPrinterChangeNotification
 title: ProvidorFindFirstPrinterChangeNotification function (winsplp.h)
-description: 
+description: "Learn more about: ProvidorFindFirstPrinterChangeNotification function"
 old-location: print\providorfindfirstprinterchangenotification.htm
 tech.root: print
 ms.date: 04/20/2018

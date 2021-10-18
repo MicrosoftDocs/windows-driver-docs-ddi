@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlAddMcbEntry
 title: FsRtlAddMcbEntry function (ntifs.h)
-description: Obsolete.
+description: The FsRtlAddMcbEntry function is obsolete.
 old-location: ifsk\fsrtladdmcbentry.htm
 tech.root: ifsk
 ms.date: 04/16/2018

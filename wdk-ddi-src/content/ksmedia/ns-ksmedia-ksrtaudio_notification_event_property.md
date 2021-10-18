@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure appends an event handle to a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure
+The KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure appends an event handle to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The <b>NotificationEvent</b> member is a user-mode event handle that, when regis
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

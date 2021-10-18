@@ -1,7 +1,7 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 title: _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY (miniport.h)
-description: The PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure describes a serial number for a PCI Express (PCIe) device.
+description: The _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure (miniport.h) describes a serial number for a PCI Express (PCIe) device.
 old-location: pci\pci_express_serial_number_capability.htm
 tech.root: PCI
 ms.date: 02/24/2018

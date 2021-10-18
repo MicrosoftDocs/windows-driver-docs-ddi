@@ -73,7 +73,7 @@ Specifies a <i>PinCount</i>-sized array of Boolean values, one for each pin on t
 ### -param MediumList 
 
 [in]
-Specifies a <i>PinCount</i>-sized array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures, one for each pin on the filter.
+Specifies a <i>PinCount</i>-sized array of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures, one for each pin on the filter.
 
 ### -param CategoryList 
 
@@ -86,4 +86,4 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
-<a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+<a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a>

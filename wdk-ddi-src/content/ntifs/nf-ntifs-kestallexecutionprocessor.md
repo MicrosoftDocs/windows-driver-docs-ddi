@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.KeStallExecutionProcessor
 title: KeStallExecutionProcessor function (ntifs.h)
-description: The KeStallExecutionProcessor routine stalls the caller on the current processor for a specified time interval.
+description: The KeStallExecutionProcessor routine in ntifs.h stalls the caller on the current processor for a specified time interval.
 old-location: kernel\kestallexecutionprocessor.htm
 tech.root: kernel
 ms.date: 04/30/2018

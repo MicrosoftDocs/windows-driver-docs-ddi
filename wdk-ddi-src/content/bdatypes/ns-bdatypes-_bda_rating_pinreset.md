@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_RATING_PINRESET
 title: _BDA_RATING_PINRESET (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_RATING_PINRESET structure"
 old-location: stream\bda_rating_pinreset.htm
 tech.root: stream
 ms.date: 04/23/2018

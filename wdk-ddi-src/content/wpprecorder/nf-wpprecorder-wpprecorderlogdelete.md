@@ -1,7 +1,7 @@
 ---
 UID: NF:wpprecorder.WppRecorderLogDelete
 title: WppRecorderLogDelete macro (wpprecorder.h)
-description: The WppRecorderLogDelete method deletes the specified recorder log.
+description: Learn how the WppRecorderLogDelete method deletes the specified recorder log.
 old-location: devtest\wpprecorderlogdelete.htm
 tech.root: devtest
 ms.date: 02/23/2018

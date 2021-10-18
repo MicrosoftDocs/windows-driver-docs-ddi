@@ -1,7 +1,7 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OFFERALLOCATIONS2CB
 title: PFND3DDDI_OFFERALLOCATIONS2CB (d3dumddi.h)
-description: Called by the user-mode display driver to offer video memory allocations for reuse.
+description: The PFND3DDDI_OFFERALLOCATIONS2CB callback function is called by the user-mode display driver to offer video memory allocations for reuse.
 old-location: display\pfnofferallocations2cb.htm
 tech.root: display
 ms.date: 05/10/2018

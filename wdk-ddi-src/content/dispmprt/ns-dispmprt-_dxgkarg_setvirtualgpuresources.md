@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGKARG_SETVIRTUALGPURESOURCES
 title: _DXGKARG_SETVIRTUALGPURESOURCES
-description: 
+description: "Learn more about: _DXGKARG_SETVIRTUALGPURESOURCES structure"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPURESOURCES structure"]

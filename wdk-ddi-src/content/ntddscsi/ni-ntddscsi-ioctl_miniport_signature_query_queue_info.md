@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddscsi.IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
 title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO (ntddscsi.h)
-description: 
+description: "Learn more about: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO IOCTL"
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO IOCTL"]

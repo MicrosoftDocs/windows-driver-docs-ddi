@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.Release
 title: IDataModelScript::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IDataModelScript::Release method decrements the reference count for an interface on an object."
 ms.date: 08/20/2018
 keywords: ["IDataModelScript::Release"]
 ms.keywords: IDataModelScript::Release, Release, IDataModelScript.Release, IDataModelScript::Release, IDataModelScript.Release

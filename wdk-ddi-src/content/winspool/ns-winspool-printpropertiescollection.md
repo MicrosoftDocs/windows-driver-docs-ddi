@@ -1,7 +1,7 @@
 ---
 UID: NS:winspool.__unnamed_struct_2
 title: PrintPropertiesCollection (winspool.h)
-description: 
+description: "Learn more about: PrintPropertiesCollection structure"
 old-location: print\printpropertiescollection.htm
 tech.root: print
 ms.date: 04/20/2018

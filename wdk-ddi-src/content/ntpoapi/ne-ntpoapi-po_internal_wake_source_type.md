@@ -1,7 +1,7 @@
 ---
 UID: NE:ntpoapi.__unnamed_enum_10
 title: PO_INTERNAL_WAKE_SOURCE_TYPE
-description: 
+description: "Learn more about: PO_INTERNAL_WAKE_SOURCE_TYPE enumeration"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["PO_INTERNAL_WAKE_SOURCE_TYPE enumeration"]

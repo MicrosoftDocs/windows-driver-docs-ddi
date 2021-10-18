@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostModule
 title: IDebugHostModule (dbgmodel.h)
-description: An (IDebugHostSymbol derived) interface to a particular module.
+description: The IDebugHostModule (dbgmodel.h) interface is an IDebugHostSymbol derived interface that provides access to a particular module.
 ms.date: 07/13/2018
 keywords: ["IDebugHostModule interface"]
 req.header: dbgmodel.h

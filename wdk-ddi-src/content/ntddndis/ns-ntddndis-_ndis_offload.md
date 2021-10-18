@@ -6,7 +6,6 @@ old-location: netvista\ndis_offload.htm
 tech.root: netvista
 ms.date: 02/27/2020
 ms.keywords: "*PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, NDIS_OFFLOAD, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD, netvista.ndis_offload, ntddndis/NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml"
-ms.topic: struct
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -58,12 +57,12 @@ The NDIS_OFFLOAD structure specifies several computational <a href="/windows-har
 ### -field Header
 
 The 
-     <a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/content/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_OFFLOAD.
 
-Set the <b>Revision</b> and <b>Size</b> members of the <a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure as follows:
+Set the <b>Revision</b> and <b>Size</b> members of the <a href="/windows-hardware/drivers/ddi/content/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure as follows:
 
 <ul>
 <li>For NDIS 6.83 and later drivers:
@@ -201,7 +200,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 <li>The <b>DefaultOffloadConfiguration</b> member of the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure</li>
 <li>The <b>DefaultOffloadConfiguration</b> member of the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure</li>
 <li>The <b>DefaultOffloadConfiguration</b> member of the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a> structure</li>
-<li>The <b>InformationBuffer</b> member of the <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure (which is used in the <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID request)</li>
+<li>The <b>InformationBuffer</b> member of the <a href="/windows-hardware/drivers/ddi/content/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure (which is used in the <a href="/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID request)</li>
 <li>The <b>StatusBuffer</b> member of the <a href="/windows-hardware/drivers/network/ndis-status-task-offload-current-config">NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication</li>
 </ul>
 
@@ -220,9 +219,9 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
-<a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/content/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
-<a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/content/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a>
 
 <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a>
 

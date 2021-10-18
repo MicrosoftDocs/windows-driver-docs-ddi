@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ring.h header"
 UID: NA:ring
 title: Ring.h header
 ms.assetid: ff6dffd6-f19c-3c42-902d-befaf5da009d
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

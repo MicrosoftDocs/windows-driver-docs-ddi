@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.SystemError
 title: IDebugEventCallbacks::SystemError (dbgeng.h)
-description: The SystemError callback method is called by the engine when a system error occurs in the target.
+description: The SystemError callback method is called by the engine when a system error occurs in the target. This method belongs to the IDebugEventCallbacks interface.
 old-location: debugger\idebugeventcallbacks_systemerror.htm
 tech.root: debugger
 ms.date: 05/03/2018

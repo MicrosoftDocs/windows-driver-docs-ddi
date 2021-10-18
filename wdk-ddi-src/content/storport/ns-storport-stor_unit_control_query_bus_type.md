@@ -1,10 +1,9 @@
 ---
 UID: NS:storport._STOR_UNIT_CONTROL_QUERY_BUS_TYPE
 title: STOR_UNIT_CONTROL_QUERY_BUS_TYPE
-description: The STOR_UNIT_CONTROL_QUERY_BUS_TYPE structure is a parameter to a miniport driver for ScsiUnitQueryBusType, which the miniport can use to specify the device bus type.
+description: STOR_UNIT_CONTROL_QUERY_BUS_TYPE is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitQueryBusType.
 tech.root: storage
-ms.date: 03/24/2020
-ms.topic: struct
+ms.date: 05/13/2021
 ms.keywords: STOR_UNIT_CONTROL_QUERY_BUS_TYPE, STOR_UNIT_CONTROL_QUERY_BUS_TYPE, *PSTOR_UNIT_CONTROL_QUERY_BUS_TYPE,
 req.header: storport.h
 req.include-header: 
@@ -45,7 +44,7 @@ f1_keywords:
 
 ## -description
 
-The **STOR_UNIT_CONTROL_QUERY_BUS_TYPE** structure is a parameter to a miniport driver for ScsiUnitQueryBusType, which the miniport can use to specify the device bus type.
+**STOR_UNIT_CONTROL_QUERY_BUS_TYPE** is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorUnitControl**](nc-storport-hw_unit_control.md) routine is called with a **ControlType** of **ScsiUnitQueryBusType**.
 
 ## -struct-fields
 
@@ -59,7 +58,7 @@ The bus type specified by the miniport for the unit. This value must be one of t
 
 ## -remarks
 
-ScsiUnitQueryBusType is optional. A miniport can use it to specify a device bus type if the device and controller have different bus types.
+A miniport can use it to specify a device bus type if the device and controller have different bus types.
 
 ## -see-also
 

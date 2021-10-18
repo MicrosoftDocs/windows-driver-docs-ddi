@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11._DOT11_VWIFI_COMBINATION_V2
 title: _DOT11_VWIFI_COMBINATION_V2 (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_VWIFI_COMBINATION_V2 structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_vwifi_combination_v2.htm
 tech.root: netvista
 ms.date: 02/16/2018
@@ -62,7 +62,7 @@ product:
 
 The type, revision, and size of the DOT11_VWIFI_COMBINATION_V2 structure. This member is formatted
      as an
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 
 The miniport driver must set the members of
@@ -90,7 +90,7 @@ This member must be set to
        sizeof(DOT11_VWIFI_COMBINATION_V2).
 
 For more information about these members, see
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 ### -field uNumInfrastructure
 
@@ -174,5 +174,5 @@ Starting with Windows 7, the 802.11 miniport driver must only report one or more
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

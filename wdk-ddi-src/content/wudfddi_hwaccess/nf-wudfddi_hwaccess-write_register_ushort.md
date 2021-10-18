@@ -1,7 +1,7 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_USHORT
 title: WRITE_REGISTER_USHORT function (wudfddi_hwaccess.h)
-description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
+description: The WRITE_REGISTER_USHORT function (wudfddi_hwaccess.h) writes a USHORT value to the specified register address.
 old-location: wdf\write_register_ushort.htm
 tech.root: wdf
 ms.date: 02/26/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Virtualaddresstypes.h header"
 UID: NA:virtualaddresstypes
 title: Virtualaddresstypes.h header
 ms.assetid: B2465637-3BF3-4862-A214-7E495F0FF8F0
@@ -24,7 +25,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Xpsrassvc.h header"
 UID: NA:xpsrassvc
 title: Xpsrassvc.h header
 ms.assetid: 333d36bb-cab5-375c-9e40-5fba63531711

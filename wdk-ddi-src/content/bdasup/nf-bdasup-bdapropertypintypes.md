@@ -55,7 +55,7 @@ The <b>BdaPropertyPinTypes</b> function retrieves a list of pin types in a templ
 ### -param pKSProperty 
 
 [in]
-Points to a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 ### -param pulProperty 
 
@@ -77,7 +77,7 @@ A BDA minidriver calls the <b>BdaPropertyPinTypes</b> function to retrieve the l
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

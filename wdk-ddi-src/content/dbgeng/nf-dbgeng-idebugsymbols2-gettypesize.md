@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetTypeSize
 title: IDebugSymbols2::GetTypeSize (dbgeng.h)
-description: The GetTypeSize method returns the number of bytes of memory an instance of the specified type requires.
+description: The GetTypeSize method returns the number of bytes of memory an instance of the specified type requires. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\gettypesize2.htm
 tech.root: debugger
 ms.date: 05/03/2018

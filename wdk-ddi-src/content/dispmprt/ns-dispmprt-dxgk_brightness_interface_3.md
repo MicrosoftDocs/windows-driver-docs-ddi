@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
 title: DXGK_BRIGHTNESS_INTERFACE_3 (dispmprt.h)
-description:
+description: "Learn more about: DXGK_BRIGHTNESS_INTERFACE_3 structure"
 ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_3 structure"]
 f1_keywords:

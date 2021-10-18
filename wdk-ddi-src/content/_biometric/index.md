@@ -1,6 +1,7 @@
 ---
+description: "Learn more about: Biometric"
 UID: TP:biometric
-title: Biometric
+title: Biometric overview
 ms.assetid: 5af9b578-0fef-3edc-b459-8e62ce9c45f8
 ms.date: 05/09/2018
 keywords: ["Biometric"]

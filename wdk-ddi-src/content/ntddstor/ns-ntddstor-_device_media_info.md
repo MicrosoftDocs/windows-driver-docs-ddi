@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._DEVICE_MEDIA_INFO
 title: _DEVICE_MEDIA_INFO (ntddstor.h)
-description: A storage class driver returns an array of DEVICE_MEDIA_INFO structures, embedded in a GET_MEDIA_TYPES structure, in response to an IOCTL_STORAGE_GET_MEDIA_TYPES_EX device-control request.
+description: The _DEVICE_MEDIA_INFO structure (ntddstor.h) contains detailed information about the characteristics of a media device.
 old-location: storage\device_media_info.htm
 tech.root: storage
 ms.date: 04/01/2021

@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostMemory2
 title: IDebugHostMemory2 (dbgmodel.h)
-description: The memory access interface to the underlying debugger.
+description: The IDebugHostMemory2 (dbgmodel.h) interface defines methods that provide memory access to the underlying debugger.
 ms.date: 06/11/2019
 keywords: ["IDebugHostMemory2 interface"]
 req.header: dbgmodel.h

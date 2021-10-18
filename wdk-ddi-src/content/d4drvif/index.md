@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: D4Drvif.h header"
 UID: NA:d4drvif
 title: D4Drvif.h header
 ms.assetid: caf37378-22f9-3683-8178-815716ae30bc

@@ -77,7 +77,7 @@ Here is the definition of the  keyboard class service callback routine.
 
 Kbdclass uses an <a href="/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
 
-<pre class="syntax" xml:space="preserve"><code>
+<pre class="syntax"><code>
 /*
 DeviceObject [in] 
 Pointer to the class device object.
@@ -108,7 +108,7 @@ VOID KeyboardClassServiceCallback(
 Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_mouse_connect">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
 
 
-<pre class="syntax" xml:space="preserve"><code>
+<pre class="syntax"><code>
 /*
 DeviceObject [in] 
 Pointer to the class device object.

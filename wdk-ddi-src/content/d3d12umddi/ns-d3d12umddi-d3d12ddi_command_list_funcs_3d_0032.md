@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0032
 title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 (d3d12umddi.h)
-description: The command list functions for 3D.
+description: The D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 structure contains command list functions for 3D.
 old-location: display\d3d12ddi-command-list-funcs-3d-0032.htm
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 structure"]

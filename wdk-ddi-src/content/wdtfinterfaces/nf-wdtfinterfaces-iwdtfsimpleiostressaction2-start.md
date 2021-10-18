@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Start
 title: IWDTFSimpleIOStressAction2::Start (wdtfinterfaces.h)
-description: Opens the device.
+description: Learn how the method opens the device.
 old-location: dtf\iwdtfsimpleiostressaction2_start.htm
 tech.root: dtf
 ms.date: 04/04/2018

@@ -3,7 +3,6 @@ UID: NF:dbgeng.IDebugEventContextCallbacks.Release
 tech.root: debugger
 title: IDebugEventContextCallbacks::Release
 ms.date: 02/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The standard COM Release method.
 req.assembly: 

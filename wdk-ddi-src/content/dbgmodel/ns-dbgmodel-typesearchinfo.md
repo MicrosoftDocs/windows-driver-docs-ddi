@@ -1,7 +1,7 @@
 ---
 UID: NS:dbgmodel.TypeSearchInfo
 title: TypeSearchInfo (dbgmodel.h)
-description: The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
+description: The TypeSearchInfo (dbgmodel.h) structure contains a search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 ms.date: 07/16/2018
 keywords: ["TypeSearchInfo structure"]
 ms.keywords: TypeSearchInfo, ,

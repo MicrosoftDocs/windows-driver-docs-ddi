@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.RemoveSymbolByName
 title: IDebugSymbolGroup::RemoveSymbolByName (dbgeng.h)
-description: The RemoveSymbolByName method removes the specified symbol from a symbol group.
+description: The RemoveSymbolByName method removes the specified symbol from a symbol group. This method belongs to the IDebugSymbolGroup interface.
 old-location: debugger\removesymbolbyname.htm
 tech.root: debugger
 ms.date: 05/03/2018

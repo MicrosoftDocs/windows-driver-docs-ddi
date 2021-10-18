@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentSystemServerNameWide
 title: IDebugSystemObjects4::GetCurrentSystemServerNameWide (dbgeng.h)
-description: Gets the server name for the current process.
+description: Gets the server name for the current process. This method belongs to the IDebugSystemObjects4 interface.
 old-location: debugger\idebugsystemobjects4_getcurrentsystemservernamewide.htm
 tech.root: debugger
 ms.date: 05/03/2018

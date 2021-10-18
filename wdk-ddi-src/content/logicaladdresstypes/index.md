@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logicaladdresstypes.h header"
 UID: NA:logicaladdresstypes
 title: Logicaladdresstypes.h header
 ms.assetid: 1891D2AF-ED3C-4CF2-8B4E-DF5E710712DB
@@ -24,7 +25,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
 title: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
 ms.date: 03/24/2020
-ms.topic: language-reference
 tech.root: display
 targetos: Windows
 description: Structure used to create a video decoder heap for a decode session.

@@ -2,9 +2,8 @@
 UID: NN:filterpipeline.IXpsDocumentProvider
 title: IXpsDocumentProvider (filterpipeline.h)
 description: The IxpsDocumentProvider interface provides interfaces to consume parts of a document.
-old-location: print\ixpsdocumentprovider.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IXpsDocumentProvider interface"]
 ms.keywords: IXpsDocumentProvider, IXpsDocumentProvider interface [Print Devices], IXpsDocumentProvider interface [Print Devices],described, filterpipeline/IXpsDocumentProvider, filterpipeline_5c7b0fb9-f191-47c7-b0fc-96371c21f993.xml, print.ixpsdocumentprovider
 req.header: filterpipeline.h
@@ -42,15 +41,13 @@ api_name:
 
 # IXpsDocumentProvider interface
 
-
 ## -description
 
-The <code>IxpsDocumentProvider</code> interface provides interfaces to consume parts of a document.
-<div class="alert"><b>Note</b>    The XPS print filter pipeline does not preserve digital signatures or story fragments. You may be able to work around this by using stream filters.</div><div> </div>
+The **IxpsDocumentProvider** interface provides interfaces to consume parts of a document.
+
+> [!NOTE]
+> The XPS print filter pipeline does not preserve digital signatures or story fragments. You may be able to work around this by using stream filters.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IXpsDocumentProvider</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentProvider</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IXpsDocumentProvider** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

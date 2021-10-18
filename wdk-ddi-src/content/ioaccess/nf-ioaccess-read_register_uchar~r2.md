@@ -1,7 +1,7 @@
 ---
 UID: NF:ioaccess.READ_REGISTER_UCHAR~r2
 title: READ_REGISTER_UCHAR function (ioaccess.h)
-description: The READ_REGISTER_UCHAR routine reads a byte from the specified register address.
+description: The READ_REGISTER_UCHAR function (ioaccess.h) returns a byte read from the specified register address in resident, mapped device memory.
 old-location: kernel\read_register_uchar.htm
 tech.root: kernel
 ms.date: 03/01/2018

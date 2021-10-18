@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netdevice.h header"
 UID: NA:netdevice
 title: Netdevice.h header
 ms.assetid: 0A0806F2-E20A-474C-8A6D-0FD6A2057C06
@@ -22,7 +23,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

@@ -2,13 +2,12 @@
 UID: NN:printerextension.IPrintSchemaFeature
 title: IPrintSchemaFeature (printerextension.h)
 description: Exposes a Print Schema Feature element.
-old-location: print\iprintschemafeature_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaFeature interface"]
 ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], IPrintSchemaFeature interface [Print Devices],described, print.iprintschemafeature_interface, printerextension/IPrintSchemaFeature
 req.header: printerextension.h
-req.include-header: 
+req.include-header: Printerextension.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -42,35 +41,24 @@ api_name:
 
 # IPrintSchemaFeature interface
 
-
 ## -description
 
 Exposes a Print Schema Feature element.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaFeature</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement">IPrintSchemaDisplayableElement</a>. <b>IPrintSchemaFeature</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-<li><a href="/">Properties</a></li>
-</ul>
+The **IPrintSchemaFeature** interface inherits from [IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md).
 
 ## -remarks
 
-You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a <i>name</i> attribute specified. This attribute is used to build the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> and <b>IPrintSchemaFeature</b> objects. If the <i>name</i> attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
+You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a *name* attribute specified. This attribute is used to build the [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) and **IPrintSchemaFeature** objects. If the *name* attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeature">IPrintSchemaCapabilities::GetFeature</a>
+[IPrintSchemaCapabilities::GetFeature](./nf-printerextension-iprintschemacapabilities-getfeature.md)
 
+[IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md)
 
+[IPrintSchemaTicket::GetFeature](./nf-printerextension-iprintschematicket-getfeature.md)
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement">IPrintSchemaDisplayableElement</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getfeature">IPrintSchemaTicket::GetFeature</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getfeaturebykeyname">IPrintSchemaTicket::GetFeatureByKeyName</a>
+[IPrintSchemaTicket::GetFeatureByKeyName](./nf-printerextension-iprintschematicket-getfeaturebykeyname.md)

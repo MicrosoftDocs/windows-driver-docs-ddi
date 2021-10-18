@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11.DOT11_ASSOCIATION_COMPLETION_PARAMETERS
 title: DOT11_ASSOCIATION_COMPLETION_PARAMETERS (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_association_completion_parameters.htm
 tech.root: netvista
 ms.date: 02/16/2018
@@ -59,7 +59,7 @@ The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of t
 
 ### -field Header
 
-The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member is formatted as an [NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member is formatted as an [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md) structure.
 
 The miniport driver must set the members of *Header* to the following values:
 
@@ -75,7 +75,7 @@ This member must be set to DOT11_ASSOCIATION_COMPLETION_PARAMETERS_REVISION_1.
 
 This member must be set to `sizeof(DOT11_ASSOCIATION_COMPLETION_PARAMETERS)`.
 
-For more information about these members, see [NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field MacAddr
 
@@ -348,5 +348,5 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](/windows-hardware/drivers/network/ndis-status-dot11-association-completion)
 
-[NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md)
+[NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)
 

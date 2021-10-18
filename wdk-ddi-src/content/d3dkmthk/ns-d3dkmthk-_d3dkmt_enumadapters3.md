@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS3
 title: _D3DKMT_ENUMADAPTERS3 (d3dkmthk.h)
-description: Supplies information for enumerating all graphics adapters on the system.
+description: The D3DKMTEnumAdapters3 structure contains information used by the D3DKMTEnumAdapters3 function to enumerate all graphics adapters on the system.
 ms.date: 03/24/2020
 keywords: ["D3DKMT_ENUMADAPTERS3 structure"]
 ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3,

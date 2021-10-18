@@ -1,7 +1,7 @@
 ---
 UID: NF:printoem.OEMMemoryUsage
 title: OEMMemoryUsage function (printoem.h)
-description: This function is obsolete.
+description: This function (OEMMemoryUsage) is obsolete.
 old-location: print\oemmemoryusage__function_.htm
 tech.root: print
 ms.date: 11/18/2019

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddrilapitypes.RILIMSSTATUS_V3
 title: RILIMSSTATUS_V3 (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILIMSSTATUS_V3 structure for internal use only. Don't use the RILIMSSTATUS_V3 structure in your code."
 old-location: netvista\rilimsstatus_v3.htm
 tech.root: netvista
 ms.date: 05/02/2018

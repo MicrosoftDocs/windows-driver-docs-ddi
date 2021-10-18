@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdtfinterfaces.h header"
 UID: NA:wdtfinterfaces
 title: Wdtfinterfaces.h header
 ms.assetid: e172752b-c698-3669-8615-778188cafdb6

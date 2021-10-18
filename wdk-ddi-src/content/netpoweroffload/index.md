@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netpoweroffload.h header"
 UID: NA:netpoweroffload
 title: Netpoweroffload.h header
 ms.assetid: 9B91C837-8556-46B5-A700-E48E8DB2AC58
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

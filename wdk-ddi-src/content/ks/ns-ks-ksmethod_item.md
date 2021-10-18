@@ -147,7 +147,7 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 
 
 

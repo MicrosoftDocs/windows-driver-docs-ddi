@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_SYSTEM_LATENCY
 title: _PEP_SYSTEM_LATENCY (pep_x.h)
-description: The PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance.
+description: Learn how the PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance.
 old-location: kernel\pep_system_latency.htm
 tech.root: kernel
 ms.date: 04/30/2018

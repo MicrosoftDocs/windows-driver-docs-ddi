@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sdplib.h header"
 UID: NA:sdplib
 title: Sdplib.h header
 ms.assetid: d5daf162-7204-3a25-aff6-0e76f58d3a9f

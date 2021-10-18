@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fwpmk.h header"
 UID: NA:fwpmk
 title: Fwpmk.h header
 ms.assetid: 8f2f932d-18da-3dec-85cf-ff744e0bedb4
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

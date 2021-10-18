@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fragment.h header"
 UID: NA:fragment
 title: Fragment.h header
 ms.assetid: E64EE8F4-DAC5-46E7-8F8E-F60D243BC2C9
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

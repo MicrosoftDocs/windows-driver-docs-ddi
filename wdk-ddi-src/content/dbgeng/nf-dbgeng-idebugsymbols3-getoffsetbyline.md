@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByLine
 title: IDebugSymbols3::GetOffsetByLine (dbgeng.h)
-description: The GetOffsetByLine method returns the location of the instruction that corresponds to a specified line in the source code.
+description: The IDebugSymbols3::GetOffsetByLine method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbyline.htm
 tech.root: debugger
 ms.date: 05/03/2018

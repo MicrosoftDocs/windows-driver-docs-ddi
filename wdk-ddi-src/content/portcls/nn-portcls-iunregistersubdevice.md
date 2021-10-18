@@ -75,7 +75,5 @@ The <code>IUnregisterSubdevice</code> object maintains its own internal referenc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnregisterSubdevice</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUnregisterSubdevice</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The <b>IUnregisterSubdevice</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUnregisterSubdevice</b> also has these types of members:
+

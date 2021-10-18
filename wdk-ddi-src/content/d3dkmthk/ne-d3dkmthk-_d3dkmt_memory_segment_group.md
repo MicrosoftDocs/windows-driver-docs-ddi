@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_MEMORY_SEGMENT_GROUP
 title: _D3DKMT_MEMORY_SEGMENT_GROUP (d3dkmthk.h)
-description: Memory segment group types.
+description: The D3DKMT_MEMORY_SEGMENT_GROUP enumeration contains local and non-local memory segment group types.
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MEMORY_SEGMENT_GROUP enumeration"]
 ms.keywords: _D3DKMT_MEMORY_SEGMENT_GROUP, D3DKMT_MEMORY_SEGMENT_GROUP,

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_TIERING_QUERY_INPUT
 title: DEVICE_DSM_TIERING_QUERY_INPUT
-description: This structure is reserved for system use only.
+description: Learn how the DEVICE_DSM_TIERING_QUERY_INPUT structure is reserved for system use only.
 tech.root: storage
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_TIERING_QUERY_INPUT structure"]

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.SetValues
 title: IDebugRegisters::SetValues (dbgeng.h)
-description: The SetValues method sets the value of several of the target's registers.
+description: The SetValues method sets the value of several of the target's registers. This method belongs to the IDebugRegisters interface.
 old-location: debugger\setvalues.htm
 tech.root: debugger
 ms.date: 05/03/2018

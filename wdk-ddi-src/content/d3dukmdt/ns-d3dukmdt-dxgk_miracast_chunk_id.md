@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dukmdt.__unnamed_union_16
 title: DXGK_MIRACAST_CHUNK_ID (d3dukmdt.h)
-description: Stores info that identifies a wireless display (Miracast) encode chunk.
+description: Learn how DXGK_MIRACAST_CHUNK_ID stores info that identifies a wireless display (Miracast) encode chunk.
 old-location: display\dxgk_miracast_chunk_id.htm
 tech.root: display
 ms.date: 05/10/2018

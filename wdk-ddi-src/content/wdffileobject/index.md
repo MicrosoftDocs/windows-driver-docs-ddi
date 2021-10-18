@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdffileobject.h header"
 UID: NA:wdffileobject
 title: Wdffileobject.h header
 ms.assetid: 90b55e9f-4c2f-3ec8-9b52-55f348298e80

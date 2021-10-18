@@ -1,7 +1,7 @@
 ---
 UID: NS:ksi.__unnamed_struct_1
 title: KSCLOCKINSTANCE (ksi.h)
-description: 
+description: "Learn more about: KSCLOCKINSTANCE structure"
 old-location: stream\ksclockinstance.htm
 tech.root: stream
 ms.date: 04/23/2018

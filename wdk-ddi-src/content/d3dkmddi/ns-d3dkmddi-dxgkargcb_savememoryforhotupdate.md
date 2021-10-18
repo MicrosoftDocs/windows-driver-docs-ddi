@@ -3,13 +3,13 @@ UID: NS:d3dkmddi._DXGKARGCB_SAVEMEMORYFORHOTUPDATE
 title: DXGKARGCB_SAVEMEMORYFORHOTUPDATE
 description: Arguments used in the DXGKCB_SAVEMEMORYFORHOTUPDATE callback function, to save memory for driver hot update.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure"]
 ms.keywords: DXGKARGCB_SAVEMEMORYFORHOTUPDATE, DXGKARGCB_SAVEMEMORYFORHOTUPDATE,
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winverclnt: Windows 10, version 1903 (WDDM 2.6)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,16 +41,15 @@ dev_langs:
 
 # DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure
 
-
 ## -description
 
-Arguments used in the [DXGKCB_SAVEMEMORYFORHOTUPDATE](nc-d3dkmddi-dxgkcb_savememoryforhotupdate.md) callback function, to save memory for driver hot update.
+The **DXGKARGCB_SAVEMEMORYFORHOTUPDATE** structure contains the information used by the [**DXGKCB_SAVEMEMORYFORHOTUPDATE**](nc-d3dkmddi-dxgkcb_savememoryforhotupdate.md) callback function, to save memory for a driver hot update.
 
 ## -struct-fields
 
 ### -field NumDataMemoryRanges
 
-[in] The number of physical memory ranges in the *pDataMemoryRanges* array.
+[in] The number of physical memory ranges in the **pDataMemoryRanges** array.
 
 ### -field pDataMemoryRanges
 
@@ -58,21 +57,21 @@ Arguments used in the [DXGKCB_SAVEMEMORYFORHOTUPDATE](nc-d3dkmddi-dxgkcb_savemem
 
 ### -field pDataMdl
 
-[in, optional] Pointer to an MDL (memory descriptor list), which describes physical memory pages.
+[in, optional] Pointer to a memory descriptor list (MDL) that describes the physical memory pages.
 
-When passing *pDataMdl* the driver should do the following:
+When passing **pDataMdl**, the driver should do the following:
 
-* Compute how much memory to allocated
+* Compute how much memory to allocate
 * [MmAllocatePagesForMdlEx](../wdm/nf-wdm-mmallocatepagesformdlex.md)
 * [MmMapLockedPagesSpecifyCache](../wdm/nf-wdm-mmmaplockedpagesspecifycache.md)
 * Copy description of the data to the buffer
 * Copy data into pages from internal data structures
 * [MmUnmapLockedPages](../wdm/nf-wdm-mmunmaplockedpages.md)
-* Give MDL to Dxgkrnl
+* Give MDL to *Dxgkrnl*
 
 ### -field DataSize
 
-[in] The number of bytes in the buffer that *pData* points to.
+[in] The number of bytes in the buffer that **pData** points to.
 
 ### -field pData
 
@@ -92,3 +91,4 @@ The driver must not save the same physical page twice.
 
 ## -see-also
 
+[**DXGKCB_SAVEMEMORYFORHOTUPDATE**](nc-d3dkmddi-dxgkcb_savememoryforhotupdate.md)

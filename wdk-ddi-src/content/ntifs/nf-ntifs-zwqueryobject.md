@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.ZwQueryObject
 title: ZwQueryObject function (ntifs.h)
-description: The ZwQueryObject routine provides information about a supplied object.
+description: The ZwQueryObject routine provides information about a supplied object. If the call to NtQueryObject is in user mode, use the name NtQueryObject.
 old-location: kernel\zwqueryobject.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient4.SetOutputMask
 title: IDebugClient4::SetOutputMask (dbgeng.h)
-description: The SetOutputMask method sets the output mask for the client.
+description: The SetOutputMask method sets the output mask for the client. This method belongs to the IDebugClient4 interface.
 old-location: debugger\setoutputmask.htm
 tech.root: debugger
 ms.date: 05/03/2018

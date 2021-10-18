@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.__unnamed_struct_10
 title: PRI_RESERVATION_DESCRIPTOR (storport.h)
-description: The PRI_RESERVATION_DESCRIPTOR structure is used to construct the PRI_RESERVATION_LIST structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
+description: The PRI_RESERVATION_DESCRIPTOR structure (storport.h) describes a persistent reservation that is active within a device server.
 old-location: storage\pri_reservation_descriptor.htm
 tech.root: storage
 ms.date: 03/29/2018

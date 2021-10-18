@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wditypes.h header"
 UID: NA:wditypes
 title: Wditypes.h header
 ms.assetid: 1d30a1e9-569c-3c34-a668-04e872d0716f
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

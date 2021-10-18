@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk.pHalQuerySystemInformation
 title: pHalQuerySystemInformation (ntddk.h)
-description: 
+description: "Learn more about: pHalQuerySystemInformation callback function"
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["pHalQuerySystemInformation callback function"]

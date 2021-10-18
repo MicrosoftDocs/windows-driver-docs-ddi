@@ -1,7 +1,7 @@
 ---
 UID: NF:systemrng.EntropyUnregisterSource
 title: EntropyUnregisterSource function (systemrng.h)
-description: 
+description: "Learn more about: EntropyUnregisterSource function"
 ms.date: 11/19/2020
 keywords: ["EntropyUnregisterSource function"]
 ms.keywords: EntropyUnregisterSource

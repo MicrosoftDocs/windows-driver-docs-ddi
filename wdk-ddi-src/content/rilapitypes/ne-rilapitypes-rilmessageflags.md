@@ -1,7 +1,7 @@
 ---
 UID: NE:rilapitypes.RILMESSAGEFLAGS
 title: RILMESSAGEFLAGS (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this enumeration in your code. SWMicrosoft reserves the RILMESSAGEFLAGS enumeration for internal use only."
 old-location: netvista\rilmessageflags.htm
 tech.root: netvista
 ms.date: 05/02/2018

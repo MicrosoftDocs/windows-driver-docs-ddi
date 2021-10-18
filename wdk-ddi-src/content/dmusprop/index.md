@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dmusprop.h header"
 UID: NA:dmusprop
 title: Dmusprop.h header
 ms.assetid: 8c375ed6-386a-38cc-8d32-9ad589db65cc

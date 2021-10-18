@@ -1,7 +1,7 @@
 ---
 UID: NI:charging.IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 title: IOCTL_CAD_POWER_SOURCE_UPDATE_EX (charging.h)
-description: This IOCTL is for internal use only.
+description: "Microsoft reserves the IOCTL_CAD_POWER_SOURCE_UPDATE_EX system call for internal use only. Don't use this system call in your code."
 old-location: battery\ioctl_cad_power_source_update_ex.htm
 tech.root: battery
 ms.date: 02/15/2018

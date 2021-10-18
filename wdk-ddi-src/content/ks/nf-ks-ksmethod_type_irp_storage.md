@@ -66,7 +66,7 @@ The macro is defined as follows:
 
 ## -see-also
 
-[KSMETHOD](/previous-versions/ff563398(v=vs.85))
+[KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
 
 [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
 

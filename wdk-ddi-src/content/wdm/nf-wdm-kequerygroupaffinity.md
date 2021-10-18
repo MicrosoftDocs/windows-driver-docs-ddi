@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeQueryGroupAffinity
 title: KeQueryGroupAffinity function (wdm.h)
-description: The KeQueryGroupAffinity routine returns an affinity mask that identifies the active logical processors in a specified group in a multiprocessor system.
+description: Learn how the KeQueryGroupAffinity routine returns an affinity mask that identifies the active logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerygroupaffinity.htm
 tech.root: kernel
 ms.date: 04/30/2018

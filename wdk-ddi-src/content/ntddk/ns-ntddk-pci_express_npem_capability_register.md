@@ -3,9 +3,8 @@ UID: NS:ntddk._PCI_EXPRESS_NPEM_CAPABILITY_REGISTER
 title: PCI_EXPRESS_NPEM_CAPABILITY_REGISTER
 tech.root: PCI
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: PCI_EXPRESS_NPEM_CAPABILITY_REGISTER"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

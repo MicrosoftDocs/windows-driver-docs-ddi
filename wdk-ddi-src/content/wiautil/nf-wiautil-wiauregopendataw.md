@@ -1,7 +1,7 @@
 ---
 UID: NF:wiautil.wiauRegOpenDataW
 title: wiauRegOpenDataW function (wiautil.h)
-description: The wiauRegOpenData function opens the DeviceData registry key.
+description: Learn how the wiauRegOpenData function opens the DeviceData registry key.
 old-location: image\wiauregopendata.htm
 tech.root: image
 ms.date: 05/03/2018

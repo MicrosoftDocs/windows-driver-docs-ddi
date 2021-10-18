@@ -3,9 +3,8 @@ UID: NF:ntddk.WheaLogInternalEvent
 title: WheaLogInternalEvent
 tech.root: whea
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: WheaLogInternalEvent"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

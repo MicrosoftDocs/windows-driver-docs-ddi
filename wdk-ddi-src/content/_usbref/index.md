@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Universal Serial Bus (USB)"
 UID: TP:usbref
 title: Universal Serial Bus (USB)
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78

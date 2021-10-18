@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.WriteBusData
 title: IDebugDataSpaces::WriteBusData (dbgeng.h)
-description: The WriteBusData method writes data to a system bus.
+description: The WriteBusData method writes data to a system bus. This method belongs to the IDebugDataSpaces interface.
 old-location: debugger\writebusdata.htm
 tech.root: debugger
 ms.date: 05/03/2018

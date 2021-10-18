@@ -4,7 +4,6 @@ title: _OPLOCK_NOTIFY_REASON (ntifs.h)
 description: OPLOCK_NOTIFY_REASON specifies the reason for calling the notification callback provided to FsRtlCheckOplockEx2.
 tech.root: ifsk
 ms.date: 03/24/2020
-ms.topic: enum
 ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON,
 req.header: ntifs.h
 req.include-header: 

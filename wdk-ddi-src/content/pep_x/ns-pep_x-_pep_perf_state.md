@@ -1,7 +1,7 @@
 ---
 UID: NS:pep_x._PEP_PERF_STATE
 title: _PEP_PERF_STATE (pep_x.h)
-description: The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values.
+description: Learn how the PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values.
 old-location: kernel\pep_perf_state.htm
 tech.root: kernel
 ms.date: 04/30/2018

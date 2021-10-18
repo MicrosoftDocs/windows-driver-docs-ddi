@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetOffset
 title: IDebugBreakpoint2::SetOffset (dbgeng.h)
-description: The SetOffset method sets the location that triggers a breakpoint.
+description: The SetOffset method sets the location that triggers a breakpoint. This method belongs to the IDebugBreakpoint2 interface.
 old-location: debugger\setoffset.htm
 tech.root: debugger
 ms.date: 05/03/2018

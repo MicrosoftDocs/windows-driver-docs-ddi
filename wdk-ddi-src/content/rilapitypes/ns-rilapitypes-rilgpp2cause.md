@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILGPP2CAUSE
 title: RILGPP2CAUSE (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this structure in your code. Microsoft reserves the RILGPP2CAUSE structure for internal use only."
 old-location: netvista\rilgpp2cause.htm
 tech.root: netvista
 ms.date: 05/02/2018

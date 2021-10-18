@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scsi.h header"
 UID: NA:scsi
 title: Scsi.h header
 ms.assetid: d987f035-b9cc-3444-846c-aa2433c79d04

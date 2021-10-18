@@ -1,7 +1,7 @@
 ---
 UID: NF:winsplp.CreatePrinterIC
 title: CreatePrinterIC function (winsplp.h)
-description: 
+description: "Learn more about: CreatePrinterIC function"
 old-location: print\createprinteric.htm
 tech.root: print
 ms.date: 04/20/2018

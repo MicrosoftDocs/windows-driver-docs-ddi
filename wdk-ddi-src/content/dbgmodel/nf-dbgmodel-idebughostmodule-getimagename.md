@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule.GetImageName
 title: IDebugHostModule::GetImageName (dbgmodel.h)
-description: The GetImageName method returns the image name of the module.
+description: "The IDebugHostModule::GetImageName method gets the image name or full path of the module as an allocated string."
 ms.date: 09/18/2018
 keywords: ["IDebugHostModule::GetImageName"]
 ms.keywords: IDebugHostModule::GetImageName, GetImageName, IDebugHostModule.GetImageName, IDebugHostModule::GetImageName, IDebugHostModule.GetImageName

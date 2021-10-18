@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Storport.h header"
 UID: NA:storport
 title: Storport.h header
 ms.assetid: 366530f2-be44-3f7d-92e4-e74a385c6480

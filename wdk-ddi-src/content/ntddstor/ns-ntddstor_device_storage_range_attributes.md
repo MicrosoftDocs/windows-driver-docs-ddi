@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddstor._DEVICE_STORAGE_RANGE_ATTRIBUTES
 title: DEVICE_STORAGE_RANGE_ATTRIBUTES
-description: 
+description: "Learn more about: DEVICE_STORAGE_RANGE_ATTRIBUTES structure"
 tech.root: storage
 ms.date: 08/23/2019
 keywords: ["DEVICE_STORAGE_RANGE_ATTRIBUTES structure"]

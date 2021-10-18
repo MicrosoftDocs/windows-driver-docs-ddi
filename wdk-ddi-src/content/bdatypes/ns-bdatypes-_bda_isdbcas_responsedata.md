@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_RESPONSEDATA
 title: _BDA_ISDBCAS_RESPONSEDATA (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_ISDBCAS_RESPONSEDATA structure"
 old-location: stream\bda_isdbcas_responsedata.htm
 tech.root: stream
 ms.date: 04/23/2018

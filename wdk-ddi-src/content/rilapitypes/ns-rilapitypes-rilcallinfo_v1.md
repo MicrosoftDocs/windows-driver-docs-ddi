@@ -1,7 +1,7 @@
 ---
 UID: NS:rilapitypes.RILCALLINFO_V1
 title: RILCALLINFO_V1 (rilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Don't use this structure in your code. Microsoft reserves the RILCALLINFO_V1 structure for internal use only."
 old-location: netvista\rilcallinfo_v1.htm
 tech.root: netvista
 ms.date: 05/02/2018

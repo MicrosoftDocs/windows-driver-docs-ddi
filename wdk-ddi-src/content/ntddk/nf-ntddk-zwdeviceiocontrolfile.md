@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.ZwDeviceIoControlFile
 title: ZwDeviceIoControlFile function (ntddk.h)
-description: The ZwDeviceIoControlFile routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
+description: This routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
 old-location: kernel\zwdeviceiocontrolfile.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -4,7 +4,7 @@ title: KSPROPERTY_MEDIAAVAILABLE (ks.h)
 description: The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter.
 old-location: stream\ksproperty_mediaavailable.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 08/09/2021
 keywords: ["KSPROPERTY_MEDIAAVAILABLE structure"]
 ms.keywords: "*PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], PKSPROPERTY_MEDIAAVAILABLE, PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices], ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, ks/KSPROPERTY_MEDIAAVAILABLE, ks/PKSPROPERTY_MEDIAAVAILABLE, stream.ksproperty_mediaavailable"
 req.header: ks.h
@@ -45,10 +45,9 @@ api_name:
 
 # KSPROPERTY_MEDIAAVAILABLE structure
 
-
 ## -description
 
-The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter. KSPROPERTY_MEDIAAVAILABLE is used in conjunction with the <a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-available">KSPROPERTY_MEDIASEEKING_AVAILABLE</a> property request.
+The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter. KSPROPERTY_MEDIAAVAILABLE is used in conjunction with the [KSPROPERTY_MEDIASEEKING_AVAILABLE](/windows-hardware/drivers/stream/ksproperty-mediaseeking-available) property request.
 
 ## -struct-fields
 
@@ -62,9 +61,8 @@ Pointer to a variable that receives the latest time for efficient seeking.
 
 ## -remarks
 
-This structure corresponds with DirectShow's <b>IMediaSeeking::GetAvailable</b>.
+This structure corresponds with DirectShow's **IMediaSeeking::GetAvailable**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-available">KSPROPERTY_MEDIASEEKING_AVAILABLE</a>
-
+[KSPROPERTY_MEDIASEEKING_AVAILABLE](/windows-hardware/drivers/stream/ksproperty-mediaseeking-available)

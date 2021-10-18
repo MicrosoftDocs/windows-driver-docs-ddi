@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendSourcePath
 title: IDebugSymbols3::AppendSourcePath (dbgeng.h)
-description: The AppendSourcePath method appends directories to the source path.
+description: The AppendSourcePath method appends directories to the source path. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\appendsourcepath.htm
 tech.root: debugger
 ms.date: 05/03/2018

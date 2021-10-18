@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
 title: WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
-description: 
+description: "Learn more about: WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT structure"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT structure"]

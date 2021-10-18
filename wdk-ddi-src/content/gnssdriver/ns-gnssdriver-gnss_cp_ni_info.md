@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_31
+UID: NS:gnssdriver.__unnamed_struct_34
 title: GNSS_CP_NI_INFO (gnssdriver.h)
 description: This structure contains CP NI information.
 old-location: gnss\gnss_cp_ni_info.htm
@@ -62,11 +62,15 @@ Version number.
 
 ### -field RequestorId
 
+Requestor ID.
+
+This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
+
 ### -field NotificationText
 
- 
+Name of the client that requests the location of the device.
 
-
+This will be displayed on the notification dialog to the user. The GNSS Driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 
 
 #### - NotificationText[MAX_PATH]

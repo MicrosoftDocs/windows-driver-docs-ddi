@@ -3,7 +3,6 @@ UID: NS:ntifs._FS_FILTER_CALLBACKS
 title: FS_FILTER_CALLBACKS
 ms.date: 11/23/2020
 tech.root: ifsk
-ms.topic: language-reference
 targetos: Windows
 description: The FS_FILTER_CALLBACKS structure contains the entry points of caller-supplied notification callback routines.
 req.construct-type: structure

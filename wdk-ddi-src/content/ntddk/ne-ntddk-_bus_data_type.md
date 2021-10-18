@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._BUS_DATA_TYPE
 title: _BUS_DATA_TYPE (ntddk.h)
-description: The BUS_DATA_TYPE enumeration indicates the type of bus configuration space.
+description: The _BUS_DATA_TYPE enumeration (ntddk.h) defines values that indicate the type of bus configuration space.
 old-location: kernel\bus_data_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

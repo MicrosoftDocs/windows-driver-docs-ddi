@@ -1,7 +1,7 @@
 ---
 UID: NF:dispmprt.DlGetRomImage
 title: DlGetRomImage function
-description: Reads the device's read-only memory (ROM).
+description: The DlGetRomImage function (dispmprt.h) takes a handle that represents a display adapter and reads the device's read-only memory (ROM).
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DlGetRomImage function"]

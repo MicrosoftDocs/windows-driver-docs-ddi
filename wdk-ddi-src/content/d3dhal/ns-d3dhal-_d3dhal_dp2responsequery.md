@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RESPONSEQUERY
 title: _D3DHAL_DP2RESPONSEQUERY (d3dhal.h)
-description: DirectX 9.0 and later versions only.
+description: The D3DHAL_DP2RESPONSEQUERY structure is returned by the D3dDrawPrimitives2 callback and specifies the availability of responses to previously issued queries.
 old-location: display\d3dhal_dp2responsequery.htm
 tech.root: display
 ms.date: 05/10/2018

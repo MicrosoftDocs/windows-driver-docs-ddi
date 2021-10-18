@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_RESOURCES_0074
 title: D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_RESOURCES_0074
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Device functions for D3D12 protected resources.

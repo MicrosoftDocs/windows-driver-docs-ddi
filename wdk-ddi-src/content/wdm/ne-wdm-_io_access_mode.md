@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._IO_ACCESS_MODE
 title: _IO_ACCESS_MODE (wdm.h)
-description: Defines the types of access mode for Scheduled File I/O (SFIO).
+description: _IO_ACCESS_MODE defines the types of access mode for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_mode.htm
 tech.root: kernel
 ms.date: 04/30/2018

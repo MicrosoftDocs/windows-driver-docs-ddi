@@ -67,4 +67,4 @@ Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlByteOffset</a>
+[MmGetMdlByteOffset](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetmdlbyteoffset)

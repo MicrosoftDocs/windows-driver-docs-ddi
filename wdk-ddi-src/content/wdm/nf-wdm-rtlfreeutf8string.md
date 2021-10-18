@@ -1,10 +1,9 @@
 ---
 UID: NF:wdm.RtlFreeUTF8String
 title: RtlFreeUTF8String function
-description: TBD
+description: The RtlFreeUTF8String function releases storage that was allocated by RtlUnicodeStringToUTF8String.
 tech.root: kernel
 ms.date: 03/24/2020
-ms.topic: function
 ms.keywords: RtlFreeUTF8String
 req.header: wdm.h
 req.include-header: 
@@ -41,20 +40,19 @@ f1_keywords:
 
 # RtlFreeUTF8String function
 
-
 ## -description
 
-The <b>RtlFreeUTF8String</b> routine releases storage that was allocated by <b>RtlUnicodeStringToUTF8String</b>.
+The **RtlFreeUTF8String** function releases storage that was allocated by [**RtlUnicodeStringToUTF8String**](./nf-wdm-rtlunicodestringtoutf8string.md).
 
 ## -parameters
 
 ### -param utf8String
 
-Pointer to the UTF8 string buffer previously allocated by <b>RtlUnicodeStringToUTF8String</b>.
+Pointer to the UTF8 string buffer previously allocated by **RtlUnicodeStringToUTF8String**.
 
 ## -remarks
 
-This routine only releases the UTF8 string buffer passed to it; it does not release the Unicode string buffer passed to <b>RtlUnicodeStringToUTF8String</b>.
+This routine only releases the UTF8 string buffer passed to it; it does not release the Unicode string buffer passed to **RtlUnicodeStringToUTF8String**.
 
 ## -see-also
 

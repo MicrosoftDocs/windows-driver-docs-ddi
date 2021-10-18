@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netadaptercxtypes.h header"
 UID: NA:netadaptercxtypes
 title: Netadaptercxtypes.h header
 ms.assetid: 4b4f1110-fd98-3433-b533-f460e5c4a0ec
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:scsiscan.SRB_STATUS
 title: SRB_STATUS macro (scsiscan.h)
-description: 
+description: "Learn more about: SRB_STATUS macro"
 ms.date: 11/18/2020
 keywords: ["SRB_STATUS macro"]
 ms.keywords: SRB_STATUS

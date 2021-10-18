@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netpacketqueue.h header"
 UID: NA:netpacketqueue
 title: Netpacketqueue.h header
 ms.assetid: FE0047C3-F4F9-4A60-A6E8-CC9D422CE4ED
@@ -22,7 +23,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

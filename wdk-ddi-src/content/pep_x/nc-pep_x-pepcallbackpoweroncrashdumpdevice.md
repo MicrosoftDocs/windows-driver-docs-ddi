@@ -1,7 +1,7 @@
 ---
 UID: NC:pep_x.PEPCALLBACKPOWERONCRASHDUMPDEVICE
 title: PEPCALLBACKPOWERONCRASHDUMPDEVICE (pep_x.h)
-description: The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
+description: Learn how the PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
 old-location: kernel\powerondumpdevicecallback.htm
 tech.root: kernel
 ms.date: 04/30/2018

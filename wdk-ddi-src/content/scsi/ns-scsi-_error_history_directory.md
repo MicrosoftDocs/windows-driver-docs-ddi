@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._ERROR_HISTORY_DIRECTORY
 title: _ERROR_HISTORY_DIRECTORY (scsi.h)
-description: 
+description: "Learn more about: _ERROR_HISTORY_DIRECTORY structure (scsi.h)"
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["ERROR_HISTORY_DIRECTORY structure"]

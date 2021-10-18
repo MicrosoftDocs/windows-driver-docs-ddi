@@ -51,9 +51,9 @@ The <b>IWDFPropertyStoreFactory</b> interface is a factory interface that is use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFPropertyStoreFactory</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWDFPropertyStoreFactory</b> also has these types of members:
+The <b>IWDFPropertyStoreFactory</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWDFPropertyStoreFactory</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -remarks

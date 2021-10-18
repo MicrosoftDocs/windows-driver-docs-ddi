@@ -1,10 +1,9 @@
 ---
 UID: NS:strmini._ACCESS_RANGE
 title: _ACCESS_RANGE (strmini.h)
-description: An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
-old-location: storage\access_range.htm
+description: Learn how an ACCESS_RANGE structure (strmini.h) describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 tech.root: storage
-ms.date: 08/26/2020
+ms.date: 07/30/2021
 keywords: ["ACCESS_RANGE structure"]
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
 req.header: strmini.h
@@ -48,7 +47,6 @@ api_name:
 ---
 
 # _ACCESS_RANGE structure (strmini.h)
-
 
 ## -description
 
@@ -110,4 +108,3 @@ The corresponding base logical address returned by **ScsiPortGetDeviceBase** sho
 [ScsiPortConvertUlongToPhysicalAddress](../srb/nf-srb-scsiportconvertulongtophysicaladdress.md)
 
 [HwScsiFindAdapter](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85))
-

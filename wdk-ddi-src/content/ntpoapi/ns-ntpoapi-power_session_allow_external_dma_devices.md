@@ -3,9 +3,8 @@ UID: NS:ntpoapi._POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
 title: POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES (ntpoapi.h)
 tech.root: kernel
 ms.date: 04/28/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES"
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

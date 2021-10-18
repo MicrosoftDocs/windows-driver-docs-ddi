@@ -4,7 +4,7 @@ title: PoFxReportDevicePoweredOn function (wdm.h)
 description: The PoFxReportDevicePoweredOn routine notifies the power management framework (PoFx) that the device completed the requested transition to the D0 (fully on) power state.
 old-location: kernel\pofxreportdevicepoweredon.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/14/2021
 keywords: ["PoFxReportDevicePoweredOn function"]
 ms.keywords: PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], kernel.pofxreportdevicepoweredon, wdm/PoFxReportDevicePoweredOn
 req.header: wdm.h
@@ -56,10 +56,11 @@ A handle that represents the registration of the device with the power managemen
 
 ## -remarks
 
-The driver for a registered device must call <b>PoFxReportDevicePoweredOn</b> after either of the following occurrences:
+The driver for a registered device must call <b>PoFxReportDevicePoweredOn</b> after any of the following occurrences:
 
 <ul>
 <li>PoFx calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a> callback routine to notify the driver that the device must enter the D0 power state.</li>
+<li>PoFx calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_directed_power_up_callback">DirectedPowerUpCallback</a> callback routine to notify the driver that the device must enter the D0 power state.</li>
 <li>PoFx sends the driver an S0 IRP (an <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request) to notify the driver of a pending system transition to the S0 power state.</li>
 </ul>
 In response to either occurrence, the driver sends D0 IRP (an <b>IRP_MN_SET_POWER</b> request) down its device stack to initiate a transition to the D0 power state, if the device is not already in the D0 state. After the driver completes (and all lower drivers complete) the transition to the D0 state, the driver calls <b>PoFxReportDevicePoweredOn</b> to notify PoFx.

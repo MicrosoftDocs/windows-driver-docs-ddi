@@ -51,9 +51,9 @@ The <b>IWDFDeviceInitialize2</b> interface is a helper interface that allows a d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDeviceInitialize2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>. <b>IWDFDeviceInitialize2</b> also has these types of members:
+The <b>IWDFDeviceInitialize2</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>. <b>IWDFDeviceInitialize2</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -remarks

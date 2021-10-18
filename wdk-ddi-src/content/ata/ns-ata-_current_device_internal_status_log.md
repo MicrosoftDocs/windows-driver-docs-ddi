@@ -1,7 +1,7 @@
 ---
 UID: NS:ata._CURRENT_DEVICE_INTERNAL_STATUS_LOG
 title: _CURRENT_DEVICE_INTERNAL_STATUS_LOG (ata.h)
-description: 
+description: "Learn more about: _CURRENT_DEVICE_INTERNAL_STATUS_LOG structure"
 ms.date: 10/19/2018
 tech.root: storage
 keywords: ["CURRENT_DEVICE_INTERNAL_STATUS_LOG structure"]

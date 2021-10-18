@@ -1,7 +1,7 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_12
+UID: NS:gnssdriver.__unnamed_struct_13
 title: GNSS_FIXDATA_ACCURACY (gnssdriver.h)
-description: This structure defines the accuracy details of a fix.
+description: The GNSS_FIXDATA_ACCURACY structure defines the accuracy details of a fix.
 old-location: gnss\gnss_fixdata_accuracy.htm
 tech.root: gnss
 ms.date: 02/15/2018
@@ -45,10 +45,9 @@ api_name:
 
 # GNSS_FIXDATA_ACCURACY structure
 
-
 ## -description
 
-This structure defines the accuracy details of a fix.
+The **GNSS_FIXDATA_ACCURACY** structure defines the accuracy details of a fix.
 
 ## -struct-fields
 
@@ -66,15 +65,15 @@ Accuracy reported with 95% confidence.
 
 ### -field HorizontalErrorMajorAxis
 
-Horizontal uncertainty ellipse semi-major axis with  95% confidence accuracy.
+Horizontal uncertainty ellipse semi-major axis with 95% confidence accuracy.
 
 ### -field HorizontalErrorMinorAxis
 
-Horizontal uncertainty ellipse semi-minor axis with  95% confidence accuracy.
+Horizontal uncertainty ellipse semi-minor axis with 95% confidence accuracy.
 
 ### -field HorizontalErrorAngle
 
-Horizontal uncertainty ellipse orientation angle with  95% confidence accuracy.
+Horizontal uncertainty ellipse orientation angle with 95% confidence accuracy.
 
 ### -field HeadingAccuracy
 
@@ -117,4 +116,3 @@ Horizontal dilution of precision (HDOP).
 ### -field VerticalDilutionOfPrecision
 
 Vertical dilution of precision (VDOP).
-

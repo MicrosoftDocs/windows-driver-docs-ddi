@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Netadapter.h header"
 UID: NA:netadapter
 title: Netadapter.h header
 ms.assetid: a8daa0fe-db44-3a6f-a53f-7c78c290341e
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

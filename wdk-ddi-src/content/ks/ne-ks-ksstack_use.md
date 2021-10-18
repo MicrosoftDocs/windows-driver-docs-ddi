@@ -1,7 +1,7 @@
 ---
 UID: NE:ks.__unnamed_enum_36
 title: KSSTACK_USE (ks.h)
-description: 
+description: "Learn more about: KSSTACK_USE enumeration"
 old-location: stream\ksstack_use.htm
 tech.root: stream
 ms.date: 04/23/2018

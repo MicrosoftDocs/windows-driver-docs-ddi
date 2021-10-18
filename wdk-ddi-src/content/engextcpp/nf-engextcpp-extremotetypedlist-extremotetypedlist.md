@@ -80,7 +80,7 @@ The <b>ExtRemoteTypedList</b> class includes the following constructors and meth
 
 
 </dd>
-</dl><pre class="syntax" xml:space="preserve"><code>class ExtRemoteTypedList : public ExtRemoteList
+</dl><pre class="syntax"><code>class ExtRemoteTypedList : public ExtRemoteList
 {
 public:
     PCSTR  m_Type;

@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._TAPE_GET_DRIVE_PARAMETERS
 title: _TAPE_GET_DRIVE_PARAMETERS (minitape.h)
-description: The TAPE_GET_DRIVE_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_GET_DRIVE_PARAMS request to retrieve information about capabilities of the tape drive.
+description: The _TAPE_GET_DRIVE_PARAMETERS structure (minitape.h) contains information about the capabilities of a tape drive.
 old-location: storage\tape_get_drive_parameters.htm
 tech.root: storage
 ms.date: 03/29/2018

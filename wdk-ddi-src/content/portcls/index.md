@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Portcls.h header"
 UID: NA:portcls
 title: Portcls.h header
 ms.assetid: 6e1a2bb6-6b07-3266-83bb-aa08030d97d6

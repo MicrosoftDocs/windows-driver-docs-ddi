@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.Release
 title: IComparableConcept::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IComparableConcept::Release method decrements the reference count for an interface on an object."
 ms.date: 09/21/2018
 keywords: ["IComparableConcept::Release"]
 ms.keywords: IComparableConcept::Release, Release, IComparableConcept.Release, IComparableConcept::Release, IComparableConcept.Release

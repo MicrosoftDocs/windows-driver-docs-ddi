@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.ZwOpenProcess
 title: ZwOpenProcess function (ntddk.h)
-description: The ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
+description: Learn how the ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
 old-location: kernel\zwopenprocess.htm
 tech.root: kernel
 ms.date: 04/30/2018

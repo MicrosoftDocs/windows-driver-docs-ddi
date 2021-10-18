@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetBitField
 title: IDebugHostType2::GetBitField (dbgmodel.h)
-description: If a given member of a data structure is a bitfield (e.g. ULONG MyBits:8), the type information for the field carries with it information about the bitfield placement.
+description: "The IDebugHostType2::GetBitField method, when called on a type for a bitmap, gets information about the bitmap structure."
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetBitField"]
 ms.keywords: IDebugHostType2::GetBitField, GetBitField, IDebugHostType2.GetBitField, IDebugHostType2::GetBitField, IDebugHostType2.GetBitField

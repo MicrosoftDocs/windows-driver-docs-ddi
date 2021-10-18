@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Device Testing Framework (WDTF)"
 UID: TP:dtf
 title: Windows Device Testing Framework (WDTF)
 ms.assetid: d5452dd2-c8e3-30e9-8760-2f451dbe92d2

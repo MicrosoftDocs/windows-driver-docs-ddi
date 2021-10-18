@@ -2,13 +2,12 @@
 UID: NN:ksproxy.IKsTopology
 title: IKsTopology (ksproxy.h)
 description: The IKsTopology interface provides a method that opens topology node objects contained within a filter.
-old-location: stream\ikstopology.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 06/11/2021
 keywords: ["IKsTopology interface"]
 ms.keywords: IKsTopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices],described, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml, stream.ikstopology
 req.header: ksproxy.h
-req.include-header: 
+req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,20 +41,16 @@ api_name:
 
 # IKsTopology interface
 
-
 ## -description
 
-The <b>IKsTopology</b> interface provides a method that opens topology node objects contained within a filter.
+The **IKsTopology** interface provides a method that opens topology node objects contained within a filter.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsTopology</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsTopology</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The **IKsTopology** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
 The IID for this interface is IID_IKsTopology.
 
-The <b>IKsTopology</b> interface is supported by filters.
+The **IKsTopology** interface is supported by filters.

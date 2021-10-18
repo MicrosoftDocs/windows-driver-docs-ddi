@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Iscsicfg.h header"
 UID: NA:iscsicfg
 title: Iscsicfg.h header
 ms.assetid: 526d85fd-c30d-3693-9720-182fd504ff50

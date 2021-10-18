@@ -4,13 +4,13 @@ title: IoAcquireRemoveLock macro (wdm.h)
 description: The IoAcquireRemoveLock routine increments the count for a remove lock, indicating that the associated device object should not be detached from the device stack or deleted.
 old-location: kernel\ioacquireremovelock.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/19/2021
 keywords: ["IoAcquireRemoveLock macro"]
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,35 +42,9 @@ api_name:
 
 # IoAcquireRemoveLock macro
 
-
 ## -description
 
-The <b>IoAcquireRemoveLock</b> routine increments the count for a remove lock, 
-   indicating that the associated device object should not be detached from the device stack or deleted.
-
-## -parameters
-
-### -param RemoveLock 
-
-[in]
-Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller initialized with a 
-      previous call to 
-      <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>.
-
-### -param Tag 
-
-[in, optional]
-Optionally points to a caller-supplied tag that identifies this instance of acquiring the remove lock. For 
-       example, a driver Dispatch routine typically sets this parameter to a pointer to the IRP the routine is 
-       processing.
-
-If a driver specifies a <i>Tag</i> on a call to 
-       <b>IoAcquireRemoveLock</b>, the driver must supply the same 
-       <i>Tag</i> in the corresponding call to 
-       <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelock">IoReleaseRemoveLock</a>.
-
-The <i>Tag</i> does not have to be unique, but should be something meaningful during 
-       debugging.
+The **IoAcquireRemoveLock** routine increments the count for a remove lock, indicating that the associated device object should not be detached from the device stack or deleted.
 
 ## -syntax
 
@@ -82,36 +56,45 @@ IoAcquireRemoveLock (
     );
 ```
 
+## -parameters
+
+### -param RemoveLock
+
+[in]
+Pointer to an **IO_REMOVE_LOCK** structure that the caller initialized with a previous call to [IoInitializeRemoveLock](nf-wdm-ioinitializeremovelock.md).
+
+### -param Tag
+
+[in, optional]
+Optionally points to a caller-supplied tag that identifies this instance of acquiring the remove lock. For example, a driver Dispatch routine typically sets this parameter to a pointer to the IRP the routine is processing.
+
+If a driver specifies a *Tag* on a call to **IoAcquireRemoveLock**, the driver must supply the same *Tag* in the corresponding call to [IoReleaseRemoveLock](nf-wdm-ioreleaseremovelock.md).
+
+The *Tag* does not have to be unique, but should be something meaningful during debugging.
+
+## -returns
+
+The **IoAcquireRemoveLock** macro wraps and assumes the return value of **IoAcquireRemoveLockEx**, which is NTSTATUS:
+
+| Return value | Description |
+|--|--|
+| STATUS_SUCCESS | Indicates the call was successful. |
+| STATUS_DELETE_PENDING | Error value indicating the driver has received an IRP_MN_REMOVE_DEVICE for the device and has called **IoReleaseRemoveLockandWait**. That routine is waiting for all remove locks to clear before returning control to the driver. |
+
 ## -remarks
-
-This macro wraps and assumes the return value of **IoAcquireRemoveLockEx**, which is NTSTATUS.
-
-**IoAcquireRemoveLock** returns STATUS_SUCCESS if the call was successful. One possible error return value is the following:
-
-STATUS_DELETE_PENDING: The driver has received an IRP_MN_REMOVE_DEVICE for the device and has called IoReleaseRemoveLockandWait. That routine is waiting for all remove locks to clear before returning control to the driver.
 
 If the routine returns any value besides STATUS_SUCCESS, do not start any new operations on the device.
 
+A driver must initialize a remove lock with a call to [IoInitializeRemoveLock](nf-wdm-ioinitializeremovelock.md) before using the lock.
 
+A driver must call [IoReleaseRemoveLock](nf-wdm-ioreleaseremovelock.md) to release the lock when it is no longer needed.
 
-
-A driver must initialize a remove lock with a call to 
-     <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a> before using the 
-     lock.
-
-A driver must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelock">IoReleaseRemoveLock</a> to 
-     release the lock when it is no longer needed.
-
-For more information, see <a href="/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
+For more information, see [Using Remove Locks](/windows-hardware/drivers/kernel/using-remove-locks).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>
+[IoInitializeRemoveLock](nf-wdm-ioinitializeremovelock.md)
 
+[IoReleaseRemoveLock](nf-wdm-ioreleaseremovelock.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelock">IoReleaseRemoveLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>
+[IoReleaseRemoveLockAndWait](nf-wdm-ioreleaseremovelockandwait.md)

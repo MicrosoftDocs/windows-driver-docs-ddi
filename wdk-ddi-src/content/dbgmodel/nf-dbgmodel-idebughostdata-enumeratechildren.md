@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.EnumerateChildren
 title: IDebugHostData::EnumerateChildren (dbgmodel.h)
-description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
+description: "The IDebugHostData::EnumerateChildren method gets an enumerator capable of enumerating all children of a given symbol."
 ms.date: 09/10/2018
 keywords: ["IDebugHostData::EnumerateChildren"]
 ms.keywords: IDebugHostData::EnumerateChildren, EnumerateChildren, IDebugHostData.EnumerateChildren, IDebugHostData::EnumerateChildren, IDebugHostData.EnumerateChildren

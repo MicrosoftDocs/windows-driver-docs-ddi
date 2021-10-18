@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPresentMultiPlaneOverlay
 title: D3DKMTPresentMultiPlaneOverlay function (d3dkmthk.h)
-description: Copies content from a source multiplane overlay allocation to a destination allocation.
+description: The D3DKMTPresentMultiPlaneOverlay function copies content from a source multiplane overlay allocation to a destination allocation.
 ms.date: 10/19/2018
 keywords: ["D3DKMTPresentMultiPlaneOverlay function"]
 ms.keywords: D3DKMTPresentMultiPlaneOverlay

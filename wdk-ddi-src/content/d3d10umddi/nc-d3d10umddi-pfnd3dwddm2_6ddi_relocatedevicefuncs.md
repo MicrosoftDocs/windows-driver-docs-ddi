@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS
 title: PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS
-description: The RelocateDeviceFuncs function notifies the user-mode display driver about the new location of the driver function table.
+description: The PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS function notifies the user-mode display driver about the new location of the driver function table.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS callback function"]

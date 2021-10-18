@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._IO_RESOURCE_LIST
 title: _IO_RESOURCE_LIST (wdm.h)
-description: The IO_RESOURCE_LIST structure describes a range of raw hardware resources, of various types, that can be used by a device.
+description: The _IO_RESOURCE_LIST structure (wdm.h) describes a range of raw hardware resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_list.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Returncontexttypes.h header"
 UID: NA:returncontexttypes
 title: Returncontexttypes.h header
 ms.assetid: E49E170F-BBDA-404C-9467-4A2FADCDC12F
@@ -24,7 +25,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

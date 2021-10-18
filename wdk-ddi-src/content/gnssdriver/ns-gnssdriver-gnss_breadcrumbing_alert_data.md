@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_17
+UID: NS:gnssdriver.__unnamed_struct_20
 title: GNSS_BREADCRUMBING_ALERT_DATA (gnssdriver.h)
 description: This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 old-location: gnss\gnss_breadcrumbing_alert_data.htm

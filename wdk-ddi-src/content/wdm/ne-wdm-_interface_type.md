@@ -1,7 +1,7 @@
 ---
 UID: NE:wdm._INTERFACE_TYPE
 title: _INTERFACE_TYPE (wdm.h)
-description: The INTERFACE_TYPE enumeration indicates the bus type.
+description: The _INTERFACE_TYPE enumeration (wdm.h) defines values that indicate the type of bus driver that published the interface.
 old-location: kernel\interface_type.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:ufxbase._UFX_CLASS_FUNCTIONS
 title: _UFX_CLASS_FUNCTIONS (ufxbase.h)
-description: 
+description: "Learn more about: _UFX_CLASS_FUNCTIONS enumeration"
 tech.root: usbref
 ms.date: 10/19/2018
 keywords: ["UFX_CLASS_FUNCTIONS enumeration"]

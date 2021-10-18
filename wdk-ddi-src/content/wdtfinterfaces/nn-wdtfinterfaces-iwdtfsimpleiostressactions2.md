@@ -50,7 +50,7 @@ Defines operations for a collection of simple asynchronous I/O functionality tes
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOStressActions2</b> interface inherits from <b>IWDTFSimpleIOStressActionsBase2</b>. <b>IWDTFSimpleIOStressActions2</b> also has these types of members:
+The <b>IWDTFSimpleIOStressActions2</b> interface inherits from <b>IWDTFSimpleIOStressActionsBase2</b>. <b>IWDTFSimpleIOStressActions2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

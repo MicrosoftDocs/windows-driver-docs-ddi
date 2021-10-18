@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddrilapitypes.h header"
 UID: NA:ntddrilapitypes
 title: Ntddrilapitypes.h header
 ms.assetid: 005b5749-3839-3c4f-87c6-27625d720a56
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

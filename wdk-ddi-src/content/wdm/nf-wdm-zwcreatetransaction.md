@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ZwCreateTransaction
 title: ZwCreateTransaction function (wdm.h)
-description: The ZwCreateTransaction routine creates a transaction object.
+description: Learn how the ZwCreateTransaction routine creates a transaction object.
 old-location: kernel\zwcreatetransaction.htm
 tech.root: kernel
 ms.date: 04/30/2018

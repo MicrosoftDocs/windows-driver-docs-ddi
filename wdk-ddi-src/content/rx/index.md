@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rx.h header"
 UID: NA:rx
 title: Rx.h header
 ms.assetid: 22d59328-4d0a-31bc-b0cd-e6fc10024ad3

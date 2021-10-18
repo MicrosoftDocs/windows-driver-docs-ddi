@@ -55,7 +55,7 @@ The <b>BdaMethodDeletePin</b> function deletes a pin factory.
 ### -param pKSMethod 
 
 [in]
-Points to a <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes the method and request type of a method request.
+Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 ### -param pvIgnored
 
@@ -86,7 +86,7 @@ If a BDA minidriver must delete a pin without relying on the network provider, t
 
 
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 
 
 

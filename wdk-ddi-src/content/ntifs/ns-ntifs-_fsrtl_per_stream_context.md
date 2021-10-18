@@ -101,7 +101,7 @@ The <b>FSRTL_PER_STREAM_CONTEXT</b> structure can be allocated from paged or non
 
 The <b>FsRtlSupportsPerStreamContexts</b> macro determines whether a file system supports per-stream contexts for a given file stream. 
 
-<pre class="syntax" xml:space="preserve"><code>BOOLEAN FsRtlSupportsPerStreamContexts(
+<pre class="syntax"><code>BOOLEAN FsRtlSupportsPerStreamContexts(
   [in] PFILE_OBJECT FileObject
 );
 </code></pre>

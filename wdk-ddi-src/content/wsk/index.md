@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wsk.h header"
 UID: NA:wsk
 title: Wsk.h header
 ms.assetid: 299d7385-fc5c-3b4d-91f8-ca12894ed875
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

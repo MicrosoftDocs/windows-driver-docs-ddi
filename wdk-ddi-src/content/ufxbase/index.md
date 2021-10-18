@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ufxbase.h header"
 UID: NA:ufxbase
 title: Ufxbase.h header
 ms.assetid: 852c4c2e-5b6d-36ca-9232-1ebba63ec849

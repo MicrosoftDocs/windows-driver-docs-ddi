@@ -1,7 +1,7 @@
 ---
 UID: NF:miniport.READ_PORT_BUFFER_UCHAR
 title: READ_PORT_BUFFER_UCHAR function (miniport.h)
-description: The READ_PORT_BUFFER_UCHAR routine reads a number of bytes from the specified port address into a buffer.
+description: The READ_PORT_BUFFER_UCHAR function (miniport.h) reads a number of bytes from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_uchar.htm
 tech.root: kernel
 ms.date: 04/30/2018

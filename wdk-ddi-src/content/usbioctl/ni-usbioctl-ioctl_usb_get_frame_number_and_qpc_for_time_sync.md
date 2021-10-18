@@ -1,7 +1,7 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
 title: IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC (usbioctl.h)
-description: "."
+description: The IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC IOCTL function gets the system query performance counter (QPC) value for a specific frame and microframe.
 old-location: buses\_ioctl_usb_get_frame_number_and_qpc_for_time_sync.htm
 tech.root: usbref
 ms.date: 05/07/2018

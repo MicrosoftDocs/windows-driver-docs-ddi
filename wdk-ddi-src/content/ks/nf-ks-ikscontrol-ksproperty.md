@@ -52,7 +52,7 @@ The <b>IKsControl::KsProperty</b> method sets a property or retrieves property i
 ### -param Property 
 
 [in]
-Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
+Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
 
 ### -param PropertyLength 
 
@@ -84,7 +84,7 @@ To determine the buffer size that is required for a specific property request, y
 
 ## -see-also
 
-<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
 
 

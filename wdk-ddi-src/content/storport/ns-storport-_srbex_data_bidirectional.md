@@ -1,7 +1,7 @@
 ---
 UID: NS:storport._SRBEX_DATA_BIDIRECTIONAL
 title: _SRBEX_DATA_BIDIRECTIONAL (storport.h)
-description: The SRBEX_DATA_BIDIRECTIONAL structure contains the extended SRB data for bi-directional transfer commands.
+description: The _SRBEX_DATA_BIDIRECTIONAL structure (storport.h) contains the extended SCSI Request Block (SRB) data for bi-directional transfer commands.
 old-location: storage\srbex_data_bidirectional.htm
 tech.root: storage
 ms.date: 03/29/2018

@@ -53,7 +53,5 @@ The allocator also abstracts the allocation of the additional memory that is nee
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAllocatorMXF</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAllocatorMXF</b> also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-</ul>
+The <b>IAllocatorMXF</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAllocatorMXF</b> also has these types of members:
+

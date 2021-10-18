@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETCAPTUREADDRESS
-title: _DXGKARGCB_GETCAPTUREADDRESS (d3dkmddi.h)
+title: DXGKARGCB_GETCAPTUREADDRESS (d3dkmddi.h)
 description: The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
 old-location: display\dxgkargcb_getcaptureaddress.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_GETCAPTUREADDRESS structure"]
 ms.keywords: "*INOUT_PDXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, _DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,12 +43,11 @@ api_name:
  - DXGKARGCB_GETCAPTUREADDRESS
 ---
 
-# _DXGKARGCB_GETCAPTUREADDRESS structure
-
+# DXGKARGCB_GETCAPTUREADDRESS structure
 
 ## -description
 
-The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
+The **DXGKARGCB_GETCAPTUREADDRESS** structure contains the arguments used in the [**DXGKCB_GETCAPTUREADDRESS**](nc-d3dkmddi-dxgkcb_getcaptureaddress.md) callback function, to retrieve information about a capture buffer that is associated with an allocation.
 
 ## -struct-fields
 
@@ -66,5 +65,4 @@ The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving in
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_getcaptureaddress">DxgkCbGetCaptureAddress</a>
-
+[**DXGKCB_GETCAPTUREADDRESS**](nc-d3dkmddi-dxgkcb_getcaptureaddress.md)

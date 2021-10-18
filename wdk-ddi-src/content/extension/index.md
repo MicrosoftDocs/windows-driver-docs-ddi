@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extension.h header"
 UID: NA:extension
 title: Extension.h header
 ms.assetid: 76464043-DB76-477A-BC91-D0C7EA5FB1D1
@@ -21,7 +22,7 @@ api_name:
 
 ## -description
 
-This header is used by netvista. For more information, see:
+This header is used by network. For more information, see:
 
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+- [Network](../_netvista/index.md)
 

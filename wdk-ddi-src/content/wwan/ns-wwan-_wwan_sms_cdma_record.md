@@ -74,16 +74,10 @@ A NULL-terminated string with a maximum length of 15 digits that represents a mo
      number can be in any of the following formats:
      
 
-<ul>
-<li>
-"+ <International Country Code> <Mobile Number>\0"
 
-</li>
-<li>
-"<Mobile Number>\0"
+* "+ \0"
+* "\0"
 
-</li>
-</ul>
 If 
      <b>MsgStatus</b> is 
      <b>WwanMsgStatusDraft</b> or 

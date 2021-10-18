@@ -81,5 +81,5 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies t
 
 
 
-<a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
+<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
 

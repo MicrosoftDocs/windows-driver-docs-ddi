@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 description: Describes the parameters that the display driver uses to create a command signature.
 tech.root: display
 ms.date: 03/24/2020
-ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001,
 req.header: d3d12umddi.h
 req.include-header: 

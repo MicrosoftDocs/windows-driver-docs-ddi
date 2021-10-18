@@ -1,14 +1,13 @@
 ---
 UID: NF:prnasntp.IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
 title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel (prnasntp.h)
-description: 
-old-location: print\iprintbidiasyncnotifyregistration_asyncgetnewchannel.htm
+description: Defines the IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 06/12/2021
 keywords: ["IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel"]
 ms.keywords: AsyncGetNewChannel, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices],IPrintBidiAsyncNotifyRegistration interface, IPrintBidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 req.header: prnasntp.h
-req.include-header: 
+req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,8 +41,9 @@ api_name:
 
 # IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 
-
 ## -description
+
+Defines the **IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel** method.
 
 ## -parameters
 
@@ -53,9 +53,8 @@ api_name:
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintbidiasyncnotifyregistration">IPrintBidiAsyncNotifyRegistration</a>
-
+[IPrintBidiAsyncNotifyRegistration](./nn-prnasntp-iprintbidiasyncnotifyregistration.md)

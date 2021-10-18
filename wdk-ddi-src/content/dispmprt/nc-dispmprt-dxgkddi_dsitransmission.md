@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_DSITRANSMISSION
 title: DXGKDDI_DSITRANSMISSION
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The DxgkddiDsiTransmission callback function performs a Display Serial Interface (DSI) transmission.
 tech.root: display

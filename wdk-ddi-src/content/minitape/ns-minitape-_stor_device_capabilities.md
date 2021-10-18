@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._STOR_DEVICE_CAPABILITIES
 title: _STOR_DEVICE_CAPABILITIES (minitape.h)
-description: The STOR_DEVICE_CAPABILITIES structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
+description: The _STOR_DEVICE_CAPABILITIES structure (minitape.h) contains device capabilities information relevant to storage devices.
 old-location: storage\stor_device_capabilities.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -77,6 +77,10 @@ Specifies whether the device supports software-controlled device ejection while 
 
 ### -field Removable
 
+Specifies whether the device can be dynamically removed from its immediate parent. If <b>Removable</b> is set to <b>TRUE</b>, the device does not belong to the same physical object as its parent. 
+
+If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the Unplug or Eject Hardware program, unless <b>SurpriseRemovalOK</b> is also set to <b>TRUE</b>.
+
 ### -field DockDevice
 
 Specifies whether the device is a docking peripheral.
@@ -101,13 +105,6 @@ Do not display the device in the user interface. If this bit is set, the device 
 #### - RawDeviceOK
 
 Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called raw mode.
-
-
-#### - Removeable
-
-Specifies whether the device can be dynamically removed from its immediate parent. If <b>Removable</b> is set to <b>TRUE</b>, the device does not belong to the same physical object as its parent. 
-
-If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the Unplug or Eject Hardware program, unless <b>SurpriseRemovalOK</b> is also set to <b>TRUE</b>.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.FillVirtual
 title: IDebugDataSpaces3::FillVirtual (dbgeng.h)
-description: The FillVirtual method writes a pattern of bytes to the target's virtual memory. The pattern is written repeatedly until the specified memory range is filled.
+description: The FillVirtual method writes a pattern of bytes to target's virtual memory. The pattern is written repeatedly until the specified memory range is filled.
 old-location: debugger\fillvirtual.htm
 tech.root: debugger
 ms.date: 05/03/2018

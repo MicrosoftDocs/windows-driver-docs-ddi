@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY (dispmprt.h)
-description: Reports the colorimetry values selected by the OS for a target.
+description: The DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function reports the colorimetry values selected by the OS for a target.
 old-location: display\dxgkddi_settargetadjustedcolorimetry.htm
 tech.root: display
 ms.date: 05/10/2018

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.AddSymbol
 title: IDebugSymbolGroup2::AddSymbol (dbgeng.h)
-description: The AddSymbol method adds a symbol to a symbol group.
+description: The AddSymbol method adds a symbol to a symbol group. This method belongs to the IDebugSymbolGroup2 interface.
 old-location: debugger\addsymbol.htm
 tech.root: debugger
 ms.date: 05/03/2018

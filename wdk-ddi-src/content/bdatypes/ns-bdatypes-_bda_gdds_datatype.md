@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_GDDS_DATATYPE
 title: _BDA_GDDS_DATATYPE (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_GDDS_DATATYPE structure"
 old-location: stream\bda_gdds_datatype.htm
 tech.root: stream
 ms.date: 04/23/2018

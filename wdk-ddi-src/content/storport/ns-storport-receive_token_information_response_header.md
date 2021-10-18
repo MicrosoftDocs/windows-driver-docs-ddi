@@ -1,10 +1,10 @@
 ---
-UID: NS:storport.__unnamed_struct_19
+UID: NS:storport.__unnamed_struct_24
 title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER (storport.h)
-description: A token, created as a representation of data (ROD), for an offload read data operation is returned in a RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure.
+description: The RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure (storport.h) contains a token that is created as a representation of data (ROD).
 old-location: storage\receive_token_information_response_header.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/13/2021
 keywords: ["RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure"]
 ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, storage.receive_token_information_response_header"
 req.header: storport.h

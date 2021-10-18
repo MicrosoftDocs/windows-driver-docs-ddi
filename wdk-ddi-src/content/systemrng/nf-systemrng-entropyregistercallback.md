@@ -1,7 +1,7 @@
 ---
 UID: NF:systemrng.EntropyRegisterCallback
 title: EntropyRegisterCallback function (systemrng.h)
-description: 
+description: "Learn more about: EntropyRegisterCallback function"
 ms.date: 11/19/2020
 keywords: ["EntropyRegisterCallback function"]
 ms.keywords: EntropyRegisterCallback

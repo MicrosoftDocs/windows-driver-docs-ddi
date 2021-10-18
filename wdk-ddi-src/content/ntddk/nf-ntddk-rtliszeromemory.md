@@ -1,13 +1,12 @@
 ---
 UID: NF:ntddk.RtlIsZeroMemory
 title: RtlIsZeroMemory function
-description: TBD
+description: This routine checks if a block of unaligned memory is all zero.
 tech.root: kernel
-ms.date: 03/24/2020
-ms.topic: function
+ms.date: 06/13/2021
 ms.keywords: RtlIsZeroMemory
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -41,7 +40,6 @@ f1_keywords:
 
 # RtlIsZeroMemory function
 
-
 ## -description
 
 This routine checks if a block of unaligned memory is all zero.
@@ -58,9 +56,8 @@ Length, in bytes, of the memory buffer.
 
 ## -returns
 
-This function returns TRUE if the memory is all zero and FALSE otherwise.
+This function returns **TRUE** if the memory is all zero and **FALSE** otherwise.
 
 ## -remarks
 
 ## -see-also
-

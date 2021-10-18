@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputVaList
 title: IDebugControl2::OutputVaList (dbgeng.h)
-description: The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
+description: Learn about the OutputVaList method, which formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalist.htm
 tech.root: debugger
 ms.date: 05/03/2018

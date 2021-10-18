@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetNumberThreads
 title: IDebugSystemObjects2::GetNumberThreads (dbgeng.h)
-description: The GetNumberThreads method returns the number of threads in the current process.
+description: The GetNumberThreads method returns the number of threads in the current process. This method belongs to the IDebugSystemObjects2 interface.
 old-location: debugger\getnumberthreads.htm
 tech.root: debugger
 ms.date: 05/03/2018

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_MEMORY_SEGMENT_GROUP_0054
 title: D3D12DDI_MEMORY_SEGMENT_GROUP_0054
-description: Memory segment group types.
+description: The D3D12DDI_MEMORY_SEGMENT_GROUP_0054 enumeration contains local and non-local memory segment group types.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_MEMORY_SEGMENT_GROUP_0054 enumeration"]

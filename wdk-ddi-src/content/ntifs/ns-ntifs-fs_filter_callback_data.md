@@ -3,7 +3,6 @@ UID: NS:ntifs._FS_FILTER_CALLBACK_DATA
 title: FS_FILTER_CALLBACK_DATA
 ms.date: 11/23/2020
 tech.root: ifsk
-ms.topic: language-reference
 targetos: Windows
 description: FS_FILTER_CALLBACK_DATA is the callback data structure for a FS_FILTER_CALLBACKS's FS_FILTER_CALLBACK or FS_FILTER_COMPLETION_CALLBACK operation.
 req.construct-type: structure

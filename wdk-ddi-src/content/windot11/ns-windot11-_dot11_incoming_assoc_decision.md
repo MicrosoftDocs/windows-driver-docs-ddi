@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_DECISION
 title: _DOT11_INCOMING_ASSOC_DECISION (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_INCOMING_ASSOC_DECISION structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_decision.htm
 tech.root: netvista
 ms.date: 02/16/2018
@@ -62,7 +62,7 @@ product:
 
 The type, revision, and size of the DOT11_INCOMING_ASSOC_DECISION structure. This member is
      formatted as an
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 
 The miniport driver must set the members of
@@ -108,7 +108,7 @@ This member must be set to
  
 
 For more information about these members, see
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 ### -field PeerMacAddr
 
@@ -165,5 +165,5 @@ This structure is used with
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\objectheader\ns-objectheader-ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

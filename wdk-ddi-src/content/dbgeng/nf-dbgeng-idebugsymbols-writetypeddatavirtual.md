@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.WriteTypedDataVirtual
 title: IDebugSymbols::WriteTypedDataVirtual (dbgeng.h)
-description: The WriteTypedDataVirtual method writes data to the target's virtual address space. The number of bytes written is the size of the specified type.
+description: The IDebugSymbols::WriteTypedDataVirtual method writes data to the target's virtual address space. The number of bytes written is the size of the specified type.
 old-location: debugger\writetypeddatavirtual.htm
 tech.root: debugger
 ms.date: 05/03/2018

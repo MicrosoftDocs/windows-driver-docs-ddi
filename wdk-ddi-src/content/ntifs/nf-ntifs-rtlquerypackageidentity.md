@@ -4,7 +4,6 @@ title: RtlQueryPackageIdentity function
 description: RtlQueryPackageIdentity
 tech.root: ifsk
 ms.date: 10/30/2019
-ms.topic: function
 ms.keywords: RtlQueryPackageIdentity returns the associated full package name, if any, of a token object. It can optionally also return the package relative application name, and whether an application is considered packaged.
 req.header: ntifs.h
 req.include-header: 

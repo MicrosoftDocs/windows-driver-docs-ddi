@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.StorPortGetRequestCryptoInfo
 title: StorPortGetRequestCryptoInfo function (storport.h)
-description: Reserved for system use.
+description: "Microsoft reserves the StorPortGetRequestCryptoInfo function for internal use only. Don't use this function in your code."
 old-location: storage\storportgetrequestcryptoinfo.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -10,7 +10,7 @@ ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine 
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,6 @@ api_name:
 
 # StorPortGetRequestCryptoInfo function
 
-
 ## -description
 
 Reserved for system use.
@@ -51,7 +50,7 @@ Reserved for system use.
 
 ### -param HwDeviceExtension
 
-<p>Reserved for system use.</p>
+Reserved for system use.
 
 ### -param Srb
 
@@ -64,4 +63,3 @@ Reserved.
 ## -returns
 
 Reserved for system use.
-

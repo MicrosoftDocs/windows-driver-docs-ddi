@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._KMUTANT
-title: KMUTANT
-description: 
+title: KMUTANT structure
+description: "Learn more about: KMUTANT structure"
 tech.root: kernel
 ms.date: 08/19/2019
 keywords: ["KMUTANT structure"]

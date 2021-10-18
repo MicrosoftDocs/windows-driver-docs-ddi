@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_LIST_ENTRY
-title: _STOR_LIST_ENTRY (storport.h)
+title: STOR_LIST_ENTRY (storport.h)
 description: A STOR_LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
 old-location: storage\stor_list_entry.htm
 tech.root: storage
@@ -46,75 +46,52 @@ api_name:
  - STOR_LIST_ENTRY
 ---
 
-# _STOR_LIST_ENTRY structure
-
+# STOR_LIST_ENTRY structure
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-A <b>STOR_LIST_ENTRY</b> structure describes an entry in a doubly linked list or serves as the header for such a list.
+A **STOR_LIST_ENTRY** structure describes an entry in a doubly linked list or serves as the header for such a list.
 
 ## -struct-fields
 
 ### -field Flink
 
-For a <b>LIST_ENTRY</b> structure that serves as a list entry, the <b>Flink</b> member points to the next entry in the list or to the list header if there is no next entry in the list. 
+For a **LIST_ENTRY** structure that serves as a list entry, the **Flink** member points to the next entry in the list or to the list header if there is no next entry in the list.
 
-For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Flink</b> member points to the first entry in the list or to the LIST_ENTRY structure itself if the list is empty.
+For a **LIST_ENTRY** structure that serves as the list header, the **Flink** member points to the first entry in the list or to the LIST_ENTRY structure itself if the list is empty.
 
 ### -field Blink
 
-For a <b>LIST_ENTRY</b> structure that serves as a list entry, the <b>Blink</b> member points to the previous entry in the list or to the list header if there is no previous entry in the list.
+For a **LIST_ENTRY** structure that serves as a list entry, the **Blink** member points to the previous entry in the list or to the list header if there is no previous entry in the list.
 
-For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Blink</b> member points to the last entry in the list or to the <b>LIST_ENTRY</b> structure itself if the list is empty.
+For a **LIST_ENTRY** structure that serves as the list header, the **Blink** member points to the last entry in the list or to the **LIST_ENTRY** structure itself if the list is empty.
 
 ## -remarks
 
-A <b>STOR_LIST_ENTRY</b> structure that describes the list head must have been initialized by calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializelisthead">StorPortInitializeListHead
-</a>.
+A **STOR_LIST_ENTRY** structure that describes the list head must have been initialized by calling [**StorPortInitializeListHead**](nf-storport-storportinitializelisthead.md).
 
-A driver can access the <b>Flink</b> or <b>Blink</b> members of a <b>STOR_LIST_ENTRY</b>, but the members must only be updated by the system routines supplied for this purpose.
+A driver can access the **Flink** or **Blink** members of a **STOR_LIST_ENTRY**, but the members must only be updated by the system routines supplied for this purpose.
 
-For more information about how to use <b>STOR_LIST_ENTRY</b> structures to implement a doubly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+For more information about how to use **STOR_LIST_ENTRY** structures to implement a doubly linked list, see [Singly and Doubly Linked Lists](/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
+[**InitializeListHead**](../wdm/nf-wdm-initializelisthead.md)
 
+[**InsertHeadList**](../wdm/nf-wdm-insertheadlist.md)
 
+[**InsertTailList**](../wdm/nf-wdm-inserttaillist.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
+[**IsListEmpty**](../wdm/nf-wdm-islistempty.md)
 
+[**RemoveEntryList**](../wdm/nf-wdm-removeentrylist.md)
 
+[**RemoveHeadList**](../wdm/nf-wdm-removeheadlist.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-inserttaillist">InsertTailList</a>
+[**RemoveTailList**](../wdm/nf-wdm-removetaillist.md)
 
+[**StorPortInterlockedInsertHeadList**](nf-storport-storportinterlockedinsertheadlist.md)
 
+[**StorPortInterlockedInsertTailList**](nf-storport-storportinterlockedinserttaillist.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedinsertheadlist">StorPortInterlockedInsertHeadList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedinserttaillist">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
-
+[**StorPortInterlockedRemoveHeadList**](nf-storport-storportinterlockedremoveheadlist.md)

@@ -4,7 +4,7 @@ title: SePrivilegeCheck function (ntifs.h)
 description: The SePrivilegeCheck routine determines whether a specified set of privileges is enabled in the subject's access token.
 old-location: ifsk\seprivilegecheck.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 06/21/2021
 keywords: ["SePrivilegeCheck function"]
 ms.keywords: SePrivilegeCheck, SePrivilegeCheck routine [Installable File System Drivers], ifsk.seprivilegecheck, ntifs/SePrivilegeCheck, seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml
 req.header: ntifs.h
@@ -42,68 +42,50 @@ api_name:
 
 # SePrivilegeCheck function
 
-
 ## -description
 
-The <b>SePrivilegeCheck</b> routine determines whether a specified set of privileges is enabled in the subject's access token.
+The **SePrivilegeCheck** routine determines whether a specified set of privileges is enabled in the subject's access token.
 
 ## -parameters
 
-### -param RequiredPrivileges 
+### -param RequiredPrivileges
 
-[in, out]
-Pointer to a PRIVILEGE_SET structure. The <b>Privilege</b> member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling <b>SePrivilegeCheck</b>, use the <b>Privilege</b> array to indicate the set of privileges to check. Set the <b>Control</b> member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled. 
+[in, out] Pointer to a PRIVILEGE_SET structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
 
-When <b>SePrivilegeCheck</b> returns, the <b>Attributes</b> member of each LUID_AND_ATTRIBUTES structure is set to SE_PRIVILEGE_USED_FOR_ACCESS if the corresponding privilege is enabled.
+When **SePrivilegeCheck** returns, the **Attributes** member of each LUID_AND_ATTRIBUTES structure is set to SE_PRIVILEGE_USED_FOR_ACCESS if the corresponding privilege is enabled.
 
-### -param SubjectSecurityContext 
+### -param SubjectSecurityContext
 
-[in]
-Pointer to the subject's captured security context.
+[in] Pointer to the subject's captured security context.
 
-### -param AccessMode 
+### -param AccessMode
 
-[in]
-The access mode to use for the privilege check. Either <b>UserMode</b> or <b>KernelMode</b>. If <i>AccessMode</i> is set to <b>KernelMode</b>, then all privileges are marked as being possessed by the subject, and <b>SePrivilegeCheck</b> returns <b>TRUE</b>.
+[in] The access mode to use for the privilege check. Either **UserMode** or **KernelMode**. If **AccessMode** is set to **KernelMode**, then all privileges are marked as being possessed by the subject, and **SePrivilegeCheck** returns **TRUE**.
 
 ## -returns
 
-<b>SePrivilegeCheck</b> returns <b>TRUE</b> if all specified privileges are held by the subject, <b>FALSE</b> otherwise.
+**SePrivilegeCheck** returns **TRUE** if all specified privileges are held by the subject, **FALSE** otherwise.
 
 ## -remarks
 
-An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. <b>SePrivilegeCheck</b> checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call <b>SeQueryInformationToken</b>. 
+An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. **SePrivilegeCheck** checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call [**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md).
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
+[**LUID_AND_ATTRIBUTES**](../wdm/ns-wdm-_luid_and_attributes.md)
 
+[**PRIVILEGE_SET**](/previous-versions/windows/hardware/drivers/ff551860(v=vs.85))
 
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
 
-<a href="/previous-versions/windows/hardware/drivers/ff551860(v=vs.85)">PRIVILEGE_SET</a>
+[**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md)
 
+[**SeAppendPrivileges**](./nf-ntifs-seappendprivileges.md)
 
+[**SeFreePrivileges**](./nf-ntifs-sefreeprivileges.md)
 
-<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
+[**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seappendprivileges">SeAppendPrivileges</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefreeprivileges">SeFreePrivileges</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-sesingleprivilegecheck">SeSinglePrivilegeCheck</a>
+[**SeSinglePrivilegeCheck**](../ntddk/nf-ntddk-sesingleprivilegecheck.md)

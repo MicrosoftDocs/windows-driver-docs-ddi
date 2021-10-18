@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckMultiPlaneOverlaySupport2
 title: D3DKMTCheckMultiPlaneOverlaySupport2 function (d3dkmthk.h)
-description: Checks multiplane overlay support.
+description: The D3DKMTCheckMultiPlaneOverlaySupport2 function uses the specified D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 structure to check for multiplane overlay support.
 ms.date: 10/19/2018
 keywords: ["D3DKMTCheckMultiPlaneOverlaySupport2 function"]
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport2

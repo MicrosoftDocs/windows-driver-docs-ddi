@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddrilapitypes.RILMESSAGEPARAMMASK
 title: RILMESSAGEPARAMMASK (ntddrilapitypes.h)
-description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+description: "Microsoft reserves the RILMESSAGEPARAMMASK enumeration for internal use only. Don't use the RILMESSAGEPARAMMASK enumeration in your code."
 old-location: netvista\rilmessageparammask.htm
 tech.root: netvista
 ms.date: 05/02/2018

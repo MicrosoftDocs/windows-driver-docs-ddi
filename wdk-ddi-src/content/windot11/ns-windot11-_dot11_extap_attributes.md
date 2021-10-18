@@ -1,7 +1,7 @@
 ---
 UID: NS:windot11._DOT11_EXTAP_ATTRIBUTES
 title: _DOT11_EXTAP_ATTRIBUTES (windot11.h)
-description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+description: The DOT11_EXTAP_ATTRIBUTES structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_extap_attributes.htm
 tech.root: netvista
 ms.date: 02/16/2018
@@ -62,7 +62,7 @@ The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attribut
 
 ### -field Header
 
-The type, revision, and size of the DOT11_EXTAP_ATTRIBUTES structure. This member is formatted as an [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the DOT11_EXTAP_ATTRIBUTES structure. This member is formatted as an [NDIS_OBJECT_HEADER](..\objectheader\ns-objectheader-ndis_object_header.md) structure.
 
 
 The miniport driver must set the members of **Header** to the following values:
@@ -82,7 +82,7 @@ This member must be set to DOT11_EXTAP_ATTRIBUTES_REVISION_1.
 
 This member must be set to **sizeof**(DOT11_EXTAP_ATTRIBUTES).
 
-For more information about these members, see [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [NDIS_OBJECT_HEADER](..\objectheader\ns-objectheader-ndis_object_header.md).
 
 ### -field uScanSSIDListSize
 
@@ -213,5 +213,5 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 
 
 
-[NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)
+[NDIS_OBJECT_HEADER](..\objectheader\ns-objectheader-ndis_object_header.md)
 

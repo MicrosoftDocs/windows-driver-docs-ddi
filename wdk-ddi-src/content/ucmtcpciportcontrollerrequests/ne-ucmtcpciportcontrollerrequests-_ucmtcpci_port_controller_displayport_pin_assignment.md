@@ -1,10 +1,10 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 title: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT (ucmtcpciportcontrollerrequests.h)
-description: 
+description: "Learn more about: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration"
 old-location: buses\ucmtcpci_port_controller_displayport_pin_assignment.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 09/13/2021
 keywords: ["UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration [Buses], UcmTcpciPortControllerDFPDPinAssignmentA, UcmTcpciPortControllerDFPDPinAssignmentB, UcmTcpciPortControllerDFPDPinAssignmentC, UcmTcpciPortControllerDFPDPinAssignmentD, UcmTcpciPortControllerDFPDPinAssignmentE, UcmTcpciPortControllerDFPDPinAssignmentF, UcmTcpciPortControllerPinAssignmentInvalid, UcmTcpciPortControllerUFPDPinAssignmentA, UcmTcpciPortControllerUFPDPinAssignmentB, UcmTcpciPortControllerUFPDPinAssignmentC, UcmTcpciPortControllerUFPDPinAssignmentD, UcmTcpciPortControllerUFPDPinAssignmentE, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, buses.ucmtcpci_port_controller_displayport_pin_assignment, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentF, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerPinAssignmentInvalid, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentE
 req.header: ucmtcpciportcontrollerrequests.h
@@ -44,58 +44,56 @@ api_name:
 
 # _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration
 
-
 ## -description
 
-TBD
+The **_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT** enumeration defines values used to identify DisplayPort pin assignments.
 
 ## -enum-fields
 
 ### -field UcmTcpciPortControllerPinAssignmentInvalid
 
-Invalid pin assignment.
+Invalid pin assignment
 
 ### -field UcmTcpciPortControllerDFPDPinAssignmentA
 
-TBD
+DFPD pin assignment A
 
 ### -field UcmTcpciPortControllerDFPDPinAssignmentB
 
-TBD
+DFPD pin assignment B
 
 ### -field UcmTcpciPortControllerDFPDPinAssignmentC
 
-TBD
+DFPD pin assignment C
 
 ### -field UcmTcpciPortControllerDFPDPinAssignmentD
 
-TBD
+DFPD pin assignment D
 
 ### -field UcmTcpciPortControllerDFPDPinAssignmentE
 
-TBD
+DFPD pin assignment E
 
 ### -field UcmTcpciPortControllerDFPDPinAssignmentF
 
-TBD
+DFPD pin assignment F
 
 ### -field UcmTcpciPortControllerUFPDPinAssignmentA
 
-TBD
+UFPD pin assignment A
 
 ### -field UcmTcpciPortControllerUFPDPinAssignmentB
 
-TBD
+UFPD pin assignment B
 
 ### -field UcmTcpciPortControllerUFPDPinAssignmentC
 
-TBD
+UFPD pin assignment C
 
 ### -field UcmTcpciPortControllerUFPDPinAssignmentD
 
-TBD
+UFPD pin assignment D
 
 ### -field UcmTcpciPortControllerUFPDPinAssignmentE
 
-TBD
-
+UFPD pin assignment E

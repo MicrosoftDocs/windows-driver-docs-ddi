@@ -2,7 +2,6 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0076
 title: D3D12DDI_DEVICE_FUNCS_VIDEO_0076
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 tech.root: display
 description: Contains device functions for core features in video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0076.

@@ -2,7 +2,6 @@
 UID: NC:dispmprt.DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 title: DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
 description: The operating system calls a display miniport driver's DxgkDdiGetDisplayStateNonIntrusive routine to collect display state information from the driver.
 tech.root: display

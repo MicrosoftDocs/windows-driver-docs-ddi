@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wdfdmatransaction.h header"
 UID: NA:wdfdmatransaction
 title: Wdfdmatransaction.h header
 ms.assetid: 09e21580-15ec-3bb5-835c-b303aad3067a

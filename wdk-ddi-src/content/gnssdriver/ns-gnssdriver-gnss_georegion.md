@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_21
+UID: NS:gnssdriver.__unnamed_struct_24
 title: GNSS_GEOREGION (gnssdriver.h)
 description: This structure defines the geographical shape of a geofence.
 old-location: gnss\gnss_georegion.htm

@@ -1,19 +1,19 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_ALLOCATEPAGESFORMDL
 title: DXGKCB_ALLOCATEPAGESFORMDL (d3dkmddi.h)
-description: Implemented by the client driver to allocate physical memory pages for a memory descriptor list (MDL) from the GPU to the IoMmu's logical address space.
-ms.date: 10/19/2018
+description: DXGKCB_ALLOCATEPAGESFORMDL allocates physical memory pages for a memory descriptor list (MDL) to be mapped to the IOMMU's logical address space.
+ms.date: 10/13/2021
 keywords: ["DXGKCB_ALLOCATEPAGESFORMDL callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -40,54 +40,41 @@ product:
 
 # DXGKCB_ALLOCATEPAGESFORMDL callback function
 
-
 ## -description
 
-Implemented by the client driver to allocate physical memory pages for a memory descriptor list (MDL) from the GPU to the IoMmu's logical address space. This callback function is a Windows graphics port driver function equivalent to the [MmAllocatePagesForMdl function](../wdm/nf-wdm-mmallocatepagesformdl.md) of the kernel mode driver.
+**DXGKCB_ALLOCATEPAGESFORMDL** allocates physical memory pages for a memory descriptor list (MDL) to be mapped to the IOMMU's logical address space.
 
 ## -parameters
 
 ### -param hAdapter
 
-A handle to the display adapter.
+[in] A handle to the display adapter.
 
 ### -param pAllocatePagesForMdl
 
-Pointer to a [DXGKARGCB_ALLOCATEPAGESFORMDL](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) structure that contains arguments to allocate pages for MDL.
+[in/out] Pointer to a [**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) structure that contains arguments to allocate pages for MDL.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
-
-## -prototype
-
-```cpp
-//Declaration
-
-DXGKCB_ALLOCATEPAGESFORMDL DxgkcbAllocatepagesformdl;
-
-// Definition
-
-NTSTATUS DxgkcbAllocatepagesformdl
-(
-	IN_CONST_HANDLE hAdapter
-	INOUT_PDXGKARGCB_ALLOCATEPAGESFORMDL pAllocatePagesForMdl
-)
-{...}
-
-DXGKCB_ALLOCATEPAGESFORMDL
-
-
-```
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS error code.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of DXGKARGCB_ALLOCATEPAGESFORMDL and then calling DxgkCbAllocatePagesForMdl.
+This callback function is a Windows graphics port driver function equivalent to the [**MmAllocatePagesForMdl** function](../wdm/nf-wdm-mmallocatepagesformdl.md).
 
-All memory accessed by the GPU during paging operations, or mapped via the GpuMmu must be mapped to the IoMmu. The Dxgkrnl provides callbacks to the KMD to allow the allocation and remapping in one step.
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) and then call **DxgkCbAllocatePagesForMdl** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
-> [!NOTE] 
-> Calls to DxgkCbAllocatePagesForMdl are limited to the 4GB PAGE_SIZE MDL restriction, and DirectX graphics kernel always specifies the *MM_ALLOCATE_FULLY_REQUIRED* flag in the internal call to [MmAllocatePagesForMdlEx function](../wdm/nf-wdm-mmallocatepagesformdl.md). The driver should also not lock any memory. Dxgkrnl will manage locked pages for the driver, and once the memory is remapped, the logical address of the pages provided to the driver may no longer match the physical addresses.
+All memory accessed by the GPU during paging operations, or mapped via the GpuMmu must be mapped to the IOMMU. *Dxgkrnl* provides callbacks to the kernel-mode driver to allow the allocation and remapping in one step.
+
+> [!NOTE]
+> Calls to **DXGKCB_ALLOCATEPAGESFORMDL** are limited to the 4GB PAGE_SIZE MDL restriction, and *Dxgkrnl* always specifies the **MM_ALLOCATE_FULLY_REQUIRED** flag in the internal call to [**MmAllocatePagesForMdlEx** function](../wdm/nf-wdm-mmallocatepagesformdl.md). The driver should also not lock any memory. *Dxgkrnl* will manage locked pages for the driver, and once the memory is remapped, the logical address of the pages provided to the driver may no longer match the physical addresses.
+
+See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) for more information.
 
 ## -see-also
 
+[**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md)
+
+[**DXGKCB_FREEPAGESFROMMDL**](nc-d3dkmddi-dxgkcb_freepagesfrommdl.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

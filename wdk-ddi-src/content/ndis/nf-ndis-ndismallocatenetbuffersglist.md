@@ -57,7 +57,7 @@ api_name:
 Bus-master miniport drivers call the 
   <b>NdisMAllocateNetBufferSGList</b> function to obtain a scatter/gather list for the network data that is
   associated with a 
-  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+  <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 
 ## -parameters
 
@@ -77,7 +77,7 @@ A pointer to a NET_BUFFER structure.
      associated with this NET_BUFFER structure. The scatter/gather list is generated from the data starting
      at the beginning of the MDL that is specified at the 
      <b>CurrentMdl</b> member of the associated 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure.
+     <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> structure.
 
 ### -param Context 
 
@@ -154,7 +154,7 @@ An NDIS bus-master miniport driver calls
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">
     MiniportSendNetBufferLists</a> function. The miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> once for each 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure for which it must obtain a
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure for which it must obtain a
     scatter/gather list.
 
 When a miniport driver calls 
@@ -189,7 +189,7 @@ NDIS might allocate a buffer even if the miniport driver specifies a buffer in t
 To improve system performance, the scatter/gather list is generated from the network data starting at
     the beginning of the MDL that is specified at the 
     <b>CurrentMdl</b> member of the associated 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure. The start of the
+    <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> structure. The start of the
     network data in the SG list is offset from the beginning of the SG list by the value specified in the 
     <b>CurrentMdlOffset</b> member of the associated NET_BUFFER_DATA structure.
 
@@ -211,11 +211,11 @@ Miniport drivers must call the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
+<a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a>
 
 
 

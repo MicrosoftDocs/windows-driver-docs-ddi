@@ -1,7 +1,7 @@
 ---
 UID: NE:usbctypes._USBC_CURRENT
 title: _USBC_CURRENT (usbctypes.h)
-description: Defines different Type-C current levels, as defined in the Type-C specification.
+description: Learn how USBC_CURRENT defines different Type-C current levels, as defined in the Type-C specification.
 tech.root: usbref
 ms.date: 09/30/2018
 keywords: ["USBC_CURRENT enumeration"]

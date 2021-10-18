@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IKeyStore.QueryInterface
 title: IKeyStore::QueryInterface (dbgmodel.h)
-description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
+description: "The IKeyStore::QueryInterface method retrieves pointers to the supported interfaces on an object."
 ms.date: 08/13/2018
 keywords: ["IKeyStore::QueryInterface"]
 ms.keywords: IKeyStore::QueryInterface, QueryInterface, IKeyStore.QueryInterface, IKeyStore::QueryInterface, IKeyStore.QueryInterface

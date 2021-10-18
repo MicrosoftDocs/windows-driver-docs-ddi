@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelMethod.Release
 title: IModelMethod::Release (dbgmodel.h)
-description: Decrements the reference count for an interface on an object.
+description: "The IModelMethod::Release method decrements the reference count for an interface on an object."
 ms.date: 08/13/2018
 keywords: ["IModelMethod::Release"]
 ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release

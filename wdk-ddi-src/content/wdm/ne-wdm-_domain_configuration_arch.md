@@ -38,7 +38,6 @@ api_name:
 
 # _DOMAIN_CONFIGURATION_ARCH enumeration
 
-
 ## -description
 
 Defines values for type of system architecture specified in the [_IOMMU_DOMAIN_CONFIGURE_](nc-wdm-iommu_domain_configure.md) callback function.
@@ -49,6 +48,10 @@ Defines values for type of system architecture specified in the [_IOMMU_DOMAIN_C
 
 ARM64 architecture.
 
+### -field DomainConfigurationX64
+
+x64 architecture. Reserved for system use only.
+
 ### -field DomainConfigurationInvalid
 
 The architecture type is not valid.
@@ -56,4 +59,3 @@ The architecture type is not valid.
 ## -remarks
 
 ## -see-also
-

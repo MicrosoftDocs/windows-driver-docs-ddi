@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_CREATE_RECORD
 title: _WHEA_ERROR_SOURCE_CREATE_RECORD
-description: 
+description: "Learn more about: _WHEA_ERROR_SOURCE_CREATE_RECORD callback function"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CREATE_RECORD callback function"]

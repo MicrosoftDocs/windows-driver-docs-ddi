@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ExFreePool
 title: ExFreePool function (wdm.h)
-description: The ExFreePool routine deallocates a block of pool memory.
+description: The ExFreePool function (wdm.h) deallocates a specified block of pool memory that was previously allocated.
 old-location: kernel\exfreepool.htm
 tech.root: kernel
 ms.date: 04/30/2018

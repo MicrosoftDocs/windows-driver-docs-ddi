@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.SetSymbolPath
 title: IDebugSymbols::SetSymbolPath (dbgeng.h)
-description: The SetSymbolPath method sets the symbol path.
+description: The IDebugSymbols::SetSymbolPath method sets the symbol path. This method belongs to the IDebugSymbols interface.
 old-location: debugger\setsymbolpath.htm
 tech.root: debugger
 ms.date: 05/03/2018

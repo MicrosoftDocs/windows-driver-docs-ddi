@@ -1,7 +1,7 @@
 ---
 UID: NS:bdatypes._BDA_MUX_PIDLISTITEM
 title: _BDA_MUX_PIDLISTITEM (bdatypes.h)
-description: 
+description: "Learn more about: _BDA_MUX_PIDLISTITEM structure"
 ms.date: 11/17/2020
 keywords: ["BDA_MUX_PIDLISTITEM structure"]
 ms.keywords: _BDA_MUX_PIDLISTITEM, BDA_MUX_PIDLISTITEM, *PBDA_MUX_PIDLISTITEM,

@@ -51,9 +51,9 @@ To obtain the <b>IWDFIoRequest3</b> interface, drivers call <b>IWDFIoRequest::Qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest3</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
+The <b>IWDFIoRequest3</b> interface inherits from <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
 <ul>
-<li><a href="/">Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -see-also

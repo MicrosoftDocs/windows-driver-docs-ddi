@@ -69,7 +69,7 @@ Specifies the instruction pointer. If no specific value is desired, this should 
 [out]
 Receives the stack information. <i>StackFrames</i> must be a pointer to a buffer that is large enough to hold the number of stack frames specified by <i>Frames</i>. The stack frames are stored in the following data structure:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _tagEXTSTACKTRACE {
+<pre class="syntax"><code>typedef struct _tagEXTSTACKTRACE {
     ULONG       FramePointer;
     ULONG       ProgramCounter;
     ULONG       ReturnAddress;

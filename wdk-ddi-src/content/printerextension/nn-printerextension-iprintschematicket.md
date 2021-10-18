@@ -4,11 +4,11 @@ title: IPrintSchemaTicket (printerextension.h)
 description: Provides the primary method to access and validate a PrintTicket.
 old-location: print\iprintschematicket_interface.htm
 tech.root: print
-ms.date: 10/19/2018
+ms.date: 06/11/2021
 keywords: ["IPrintSchemaTicket interface"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices],described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket
 req.header: printerextension.h
-req.include-header: 
+req.include-header: Printerextension.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -42,22 +42,17 @@ api_name:
 
 # IPrintSchemaTicket interface
 
-
 ## -description
 
 Provides the primary method to access and validate a PrintTicket.
 
 ## -inheritance
 
-The **IPrintSchemaTicket** interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>. **IPrintSchemaTicket** also has these types of members:
-<ul>
-<li><a href="/">Methods</a></li>
-<li><a href="/">Properties</a></li>
-</ul>
+The **IPrintSchemaTicket** interface inherits from [IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md).
 
 ## -remarks
 
-For C++ clients, to obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first dereference the <i>ppXmlNode</i> parameter of the <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode">XmlNode</a> property (using *ppXmlNode ). This retrieves a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method of the PrintTicket object to access the underlying IXMLDOMDocument2 object.
+For C++ clients, to obtain an **IXMLDOMDocument2** object for the PrintTicket object, you must first dereference the *ppXmlNode* parameter of the [XmlNode](./nf-printerextension-iprintschemaelement-get_xmlnode.md) property (using *ppXmlNode ). This retrieves a pointer to an interface of type **IUnknown**. Use this pointer to  call the **QueryInterface** method of the PrintTicket object to access the underlying IXMLDOMDocument2 object.
 
 For C# and JavaScript clients, use printerextension.h GetReadStream or GetWriteStream methods to access a IPrintSchemaElement XmlNode.
 

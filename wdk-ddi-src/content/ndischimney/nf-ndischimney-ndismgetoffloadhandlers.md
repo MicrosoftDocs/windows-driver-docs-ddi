@@ -105,7 +105,7 @@ This structure contains the following member:
 #### Header
 
 Specifies an NDIS object header, which is formatted as an 
-       <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+       <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 ## -returns
 
@@ -155,7 +155,7 @@ If the call to the
     <b>NdisMGetOffloadHandlers</b> function succeeds, NDIS supplies a valid 
     <i>OffloadHandlers</i> pointer, which points to an NDIS_OFFLOAD_EVENT_HANDLERS structure. This structure
     contains an 
-    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The offload
+    <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The offload
     target examines the 
     <b>Type</b>, 
     <b>Revision</b>, and 
@@ -207,7 +207,7 @@ The offload target copies the entry points from the chimney-specific structure i
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

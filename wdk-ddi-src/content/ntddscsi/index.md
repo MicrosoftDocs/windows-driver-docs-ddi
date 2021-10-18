@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddscsi.h header"
 UID: NA:ntddscsi
 title: Ntddscsi.h header
 ms.assetid: 77408c2c-0fca-30f4-a739-547207f848ef

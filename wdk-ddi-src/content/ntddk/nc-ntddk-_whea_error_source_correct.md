@@ -1,7 +1,7 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_CORRECT
 title: _WHEA_ERROR_SOURCE_CORRECT
-description: 
+description: "Learn more about: _WHEA_ERROR_SOURCE_CORRECT callback function"
 tech.root: whea
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CORRECT callback function"]

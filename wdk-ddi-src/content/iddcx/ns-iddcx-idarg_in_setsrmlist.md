@@ -3,7 +3,6 @@ UID: NS:iddcx.IDARG_IN_SETSRMLIST
 title: IDARG_IN_SETSRMLIST
 ms.date: 10/02/2020
 tech.root: display
-ms.topic: language-reference
 targetos: Windows
 description: IDARG_IN_SETSRMLIST is the input structure for IddCxMonitorSetSrmList.
 req.construct-type: structure

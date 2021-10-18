@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ntddvol.h header"
 UID: NA:ntddvol
 title: Ntddvol.h header
 ms.assetid: 8e87c3d1-6f05-3860-b49c-2ea9e281b96f

@@ -2,9 +2,8 @@
 UID: NC:dispmprt.DXGKDDI_GETDPADDRESS
 title: DXGKDDI_GETDPADDRESS
 ms.date: 03/24/2020
-ms.topic: language-reference
 targetos: Windows
-description: 
+description: "Learn more about: DXGKDDI_GETDPADDRESS callback function"
 tech.root: display
 req.assembly: 
 req.construct-type: function

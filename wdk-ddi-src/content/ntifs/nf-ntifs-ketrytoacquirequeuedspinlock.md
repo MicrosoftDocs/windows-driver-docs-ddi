@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.KeTryToAcquireQueuedSpinLock
 title: KeTryToAcquireQueuedSpinLock function (ntifs.h)
-description: Reserved for system use.
+description: "Microsoft reserves the KeTryToAcquireQueuedSpinLock function for internal use only. Don't use this function in your code."
 old-location: ifsk\ketrytoacquirequeuedspinlock.htm
 tech.root: ifsk
 ms.date: 04/16/2018
