@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
 description: Describes the characteristics of the audio Endpoint driver.
-ms.date: 09/06/2018
+ms.date: 10/18/2021
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR,
 req.header: sidebandaudio.h
@@ -80,6 +80,11 @@ If remote volume control is supported, this member contains the size of the data
 ### -field SidetoneVolumePropertyValueSize
 
 If remote volume control is supported, this member contains the size of the data returned by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a> request.
+
+
+### -field  MutePropertyValuesSize
+
+If remote mute is supported, TBD, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
 
 ## -remarks
 
