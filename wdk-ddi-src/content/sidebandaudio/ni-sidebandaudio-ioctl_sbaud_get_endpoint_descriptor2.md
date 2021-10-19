@@ -39,7 +39,6 @@ api_name:
 
 ## -description
 
-
 The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2</b> control code to get information about an Audio endpoint exposed through Sideband Audio device interface.
 
 ## -ioctlparameters
@@ -77,4 +76,4 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 ## -see-also
 
-[SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor.md)
+[SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor2.md)

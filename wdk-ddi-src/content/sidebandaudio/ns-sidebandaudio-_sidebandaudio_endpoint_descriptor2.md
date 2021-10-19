@@ -1,7 +1,7 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
-description: Describes the characteristics of the audio Endpoint driver.
+description: The second version of the SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR struct. It describes the characteristics of the audio Endpoint driver.
 ms.date: 10/18/2021
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2,
@@ -42,10 +42,11 @@ api_name:
 
 # _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 structure
 
-
 ## -description
 
-Describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
+The second version of the SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR struct. This version allows the controller driver to provide custom device properties to add to the audio device's interface.
+
+It describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
 
 ## -struct-fields
 
@@ -67,7 +68,7 @@ Specifies either KSPIN_DATAFLOW_IN or KSPIN_DATAFLOW_OUT. See <a href="/windows-
 
 ### -field Capabilities
 
- Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
+ Capabilities of the endpoint like (mute, volume, sidetone, etc.). See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
 
 ### -field FriendlyName
 
@@ -81,10 +82,17 @@ If remote volume control is supported, this member contains the size of the data
 
 If remote volume control is supported, this member contains the size of the data returned by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a> request.
 
+### -field MutePropertyValuesSize
 
-### -field  MutePropertyValuesSize
+If remote mute is supported, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
 
-If remote mute is supported, TBD, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
+### -field FilterInterfacePropertyCount
+
+The number of device properties that shall be added to the audio filter factory interface.
+
+### -field FilterInterfaceProperties
+
+A [DEVPROPERTY structure](/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)) that defines custom device properties that are added to the audio device's interface.
 
 ## -remarks
 

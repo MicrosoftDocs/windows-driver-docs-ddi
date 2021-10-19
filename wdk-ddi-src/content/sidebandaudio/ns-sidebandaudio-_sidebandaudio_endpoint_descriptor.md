@@ -82,7 +82,7 @@ If remote volume control is supported, this member contains the size of the data
 If remote volume control is supported, this member contains the size of the data returned by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a> request.
 
 
-### -field  MutePropertyValuesSize
+### -field MutePropertyValuesSize
 
 If remote mute is supported, TBD, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
 
