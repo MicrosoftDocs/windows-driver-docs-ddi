@@ -60,7 +60,7 @@ Number of Input parameters.
 
 ### -field Alignment
 
-TBD
+Alignment - Allows for byte alignment.
 
 ## -remarks
 

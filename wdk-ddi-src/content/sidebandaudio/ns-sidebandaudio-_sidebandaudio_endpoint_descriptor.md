@@ -67,7 +67,7 @@ Specifies either KSPIN_DATAFLOW_IN or KSPIN_DATAFLOW_OUT. See <a href="/windows-
 
 ### -field Capabilities
 
- Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
+Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
 
 ### -field FriendlyName
 
@@ -81,10 +81,9 @@ If remote volume control is supported, this member contains the size of the data
 
 If remote volume control is supported, this member contains the size of the data returned by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a> request.
 
-
 ### -field MutePropertyValuesSize
 
-If remote mute is supported, TBD, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
+If remote mute is supported, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
 
 ## -remarks
 

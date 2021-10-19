@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.__unnamed_union_0
 title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
 description: Describes the size and type of parameter.
-ms.date: 09/07/2018
+ms.date: 10/19/2021
 keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER,
 req.header: sidebandaudio.h
@@ -39,7 +39,6 @@ api_name:
 
 # SIDEBANDAUDIO_IO_PARAM_HEADER structure
 
-
 ## -description
 
 Describes the size and type of parameter.
@@ -60,7 +59,7 @@ Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicat
 
 ### -field Alignment
 
-TBD
+Allows for byte alignment.
 
 ## -remarks
 

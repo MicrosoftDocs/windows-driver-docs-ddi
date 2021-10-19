@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
 description: The second version of the SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR struct. It describes the characteristics of the audio Endpoint driver.
-ms.date: 10/18/2021
+ms.date: 10/19/2021
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2,
 req.header: sidebandaudio.h
@@ -60,7 +60,7 @@ Pnp Container ID for connected device. See <a href="/windows-hardware/drivers/au
 
 ### -field Category
 
- KSPIN_DESCRIPTOR.Category to indicate form factor. Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in Ksmedia.h. See <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>.
+KSPIN_DESCRIPTOR.Category to indicate form factor. Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in Ksmedia.h. See <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>.
 
 ### -field Direction
 
