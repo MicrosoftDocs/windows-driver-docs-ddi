@@ -42,9 +42,9 @@ api_name:
 
 ## -description
 
-Describes the variable I/O parameter.
+Describes the variable SIOP request parameter.
 
-## -struct-fields
+## -union-fields
 
 ### -field EpIndex
 

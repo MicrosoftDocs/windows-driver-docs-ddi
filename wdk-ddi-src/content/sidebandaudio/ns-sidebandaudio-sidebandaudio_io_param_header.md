@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Describes the size and type of parameter.
+Describes the size and type of the IO parameter.
 
 ## -struct-fields
 
