@@ -56,11 +56,13 @@ The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](ns
 
 ### -field Alignment
 
-Alignment - Allows for byte alignment.
+Allows for byte alignment.
 
 ## -remarks
 
-Union fields described here.
+#### Alignment
+
+Allows for byte alignment.
 
 #### EpIndex
 
