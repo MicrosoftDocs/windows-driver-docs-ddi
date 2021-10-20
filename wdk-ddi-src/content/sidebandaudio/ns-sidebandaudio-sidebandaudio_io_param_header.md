@@ -63,6 +63,20 @@ Allows for byte alignment.
 
 ## -remarks
 
+Union fields described here.
+
+#### ParamSet
+
+Parameter Set - This could be Microsoft Standard set or IHV defined.
+
+#### TypeId
+
+Type of parameter.
+
+#### Size
+
+Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicate size of any extra input parameter.
+
 ## -see-also
 
 [sidebandaudio.h](index.md)

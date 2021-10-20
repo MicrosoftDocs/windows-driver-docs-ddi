@@ -60,6 +60,17 @@ Alignment - Allows for byte alignment.
 
 ## -remarks
 
+Union fields described here.
+
+#### EpIndex
+
+0 based index indicating the Endpoint on device.
+
+#### RequestedSiop
+
+The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](sidebandaudio\ns-sidebandaudio-sidebandaudio_io_param_header.md). 
+
+
 ## -see-also
 
 [sidebandaudio.h](index.md)

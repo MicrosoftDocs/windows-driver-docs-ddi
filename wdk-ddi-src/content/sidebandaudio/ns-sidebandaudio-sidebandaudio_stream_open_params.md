@@ -46,7 +46,7 @@ Describes the variable I/O parameters for IOCTLs.
 
 ## -struct-fields
 
-### -field .EpIndex
+### -field EpIndex
 
 0 based index indicating the Endpoint on device.
 
@@ -63,6 +63,20 @@ Number of Input parameters.
 Alignment - Allows for byte alignment.
 
 ## -remarks
+
+Union fields described here.
+
+#### EpIndex
+
+0 based index indicating the Endpoint on device.
+
+#### Format
+
+Stream Format KSDATAFORMAT.
+
+#### SiopCount
+
+Number of Input parameters.
 
 ## -see-also
 
