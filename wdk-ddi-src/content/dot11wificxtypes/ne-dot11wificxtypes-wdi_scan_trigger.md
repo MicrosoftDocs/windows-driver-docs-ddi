@@ -1,7 +1,7 @@
 ---
-UID: NE:dot11wificxtypes._WDI_SCAN_TRIGGER (dot11wificxtypes.h)
+UID: NE:dot11wificxtypes._WDI_SCAN_TRIGGER
 tech.root: netvista
-title: WDI_SCAN_TRIGGER
+title: WDI_SCAN_TRIGGER (dot11wificxtypes.h)
 ms.date: 06/23/2021
 ms.topic: language-reference
 targetos: Windows
