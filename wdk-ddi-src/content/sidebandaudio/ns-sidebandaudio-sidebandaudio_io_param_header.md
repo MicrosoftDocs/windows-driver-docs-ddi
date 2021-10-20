@@ -45,15 +45,15 @@ Describes the size and type of the IO parameter.
 
 ## -struct-fields
 
-### -field ParamSet
+### -field .ParamSet
 
 Parameter Set - This could be Microsoft Standard set or IHV defined.
 
-### -field TypeId
+### -field .TypeId
 
 Type of parameter.
 
-### -field Size
+### -field .Size
 
 Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicate size of any extra input parameter.
 

@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.__unnamed_union_1
 title: SIDEBANDAUDIO_SIOP_REQUEST_PARAM (sidebandaudio.h)
 description: Describes the variable I/O parameter.
-ms.date: 10/19/2021
+ms.date: 10/20/2021
 keywords: ["SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure"]
 ms.keywords: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM,
 req.header: sidebandaudio.h
@@ -46,13 +46,13 @@ Describes the variable SIOP request parameter.
 
 ## -union-fields
 
-### -field EpIndex
+### -field .EpIndex
 
 0 based index indicating the Endpoint on device.
 
-### -field RequestedSiop
+### -field .RequestedSiop
 
-The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](sidebandaudio\ns-sidebandaudio-sidebandaudio_io_param_header.md). 
+The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](ns-sidebandaudio-sidebandaudio_io_param_header.md). 
 
 ### -field Alignment
 
@@ -68,7 +68,7 @@ Union fields described here.
 
 #### RequestedSiop
 
-The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](sidebandaudio\ns-sidebandaudio-sidebandaudio_io_param_header.md). 
+The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](ns-sidebandaudio-sidebandaudio_io_param_header.md). 
 
 
 ## -see-also

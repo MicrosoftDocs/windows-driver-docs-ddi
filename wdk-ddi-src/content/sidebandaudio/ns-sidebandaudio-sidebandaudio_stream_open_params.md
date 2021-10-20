@@ -50,11 +50,11 @@ Describes the variable I/O parameters for IOCTLs.
 
 0 based index indicating the Endpoint on device.
 
-### -field .Format
+### -field Format
 
 Stream Format KSDATAFORMAT.
 
-### -field .SiopCount
+### -field SiopCount
 
 Number of Input parameters.
 
