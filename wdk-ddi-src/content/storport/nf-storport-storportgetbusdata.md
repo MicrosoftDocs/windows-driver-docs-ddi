@@ -4,7 +4,7 @@ title: StorPortGetBusData function (storport.h)
 description: The StorPortGetBusData routine retrieves the bus-specific configuration information necessary to initialize the HBA.
 old-location: storage\storportgetbusdata.htm
 tech.root: storage
-ms.date: 10/19/2021
+ms.date: 10/20/2021
 keywords: ["StorPortGetBusData function"]
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 req.header: storport.h
@@ -89,7 +89,7 @@ If **PCIConfiguration** is specified as the *BusDataType*, this parameter must b
 A miniport driver can call **StorPortGetBusData** from the following routines:
 
 * From its [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) callback routine.
-* From its [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) only when the [**ControlType** is **ScsiSetRunningConfig**](ne-storport-scsi_adapter_control_type).
+* From its [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) only when the [**ControlType** is **ScsiSetRunningConfig**](ne-storport-scsi_adapter_control_type.md).
 
 Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
@@ -97,6 +97,10 @@ Configuration data returned by **StorPortGetBusData** is valid only until the mi
 
 ## -see-also
 
+[**HwStorAdapterControl**](nc-storport-hw_adapter_control.md)
+
 [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md)
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
+
+[**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md)
