@@ -62,7 +62,7 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
 Every driver must call <b>IoGetCurrentIrpStackLocation</b> with each IRP it is sent in order to get any parameters for the current request. Unless a driver supplies a dispatch routine for each <b>IRP_MJ_<i>XXX</i></b> code that the driver handles, the driver also must check its I/O stack location in the IRP to determine what operation is being requested.
 
-If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> or [IoSkipCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioskipcurrentirpstacklocation) instead of getting a pointer to the next-lower stack location and copying the parameters manually.
+If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> or [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md) instead of getting a pointer to the next-lower stack location and copying the parameters manually.
 
 ## -see-also
 

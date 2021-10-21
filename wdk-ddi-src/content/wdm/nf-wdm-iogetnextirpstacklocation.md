@@ -62,7 +62,7 @@ A pointer to the IRP.
 
 Each driver that passes IRPs on to lower drivers must set up the stack location for the next lower driver. A driver calls <b>IoGetNextIrpStackLocation</b> to get a pointer to the next-lower driver's I/O stack location.
 
-If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> or [IoSkipCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioskipcurrentirpstacklocation) instead of getting a pointer to the next-lower stack location and copying the parameters manually.
+If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> or [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md) instead of getting a pointer to the next-lower stack location and copying the parameters manually.
 
 The return value is a pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure. For more information, see <a href="/windows-hardware/drivers/kernel/i-o-stack-locations">I/O Stack Locations</a>.
 
@@ -88,4 +88,4 @@ The return value is a pointer to an <a href="/windows-hardware/drivers/ddi/wdm/n
 
 
 
-[IoSkipCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioskipcurrentirpstacklocation)
+[IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md)

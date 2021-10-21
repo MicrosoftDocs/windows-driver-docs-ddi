@@ -45,14 +45,14 @@ api_name:
 
 ## -description
 
-Initializes a [UDECX_USB_ENDPOINT_CALLBACKS](/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks) structure before a [UdecxUsbEndpointCreate](/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate) call.
+Initializes a [UDECX_USB_ENDPOINT_CALLBACKS](./ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks.md) structure before a [UdecxUsbEndpointCreate](./nf-udecxusbendpoint-udecxusbendpointcreate.md) call.
 
 ## -parameters
 
 ### -param Callbacks
 
 [out]
-A pointer to a [UDECX_USB_ENDPOINT_CALLBACKS](/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks) to initialize.
+A pointer to a [UDECX_USB_ENDPOINT_CALLBACKS](./ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks.md) to initialize.
 
 ### -param EvtUsbEndpointReset
 
@@ -60,4 +60,4 @@ Pointer to an [EVT_UDECX_USB_ENDPOINT_RESET](nc-udecxusbendpoint-evt_udecx_usb_e
 
 ## -see-also
 
-[UdecxUsbEndpointCreate](/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate)
+[UdecxUsbEndpointCreate](./nf-udecxusbendpoint-udecxusbendpointcreate.md)

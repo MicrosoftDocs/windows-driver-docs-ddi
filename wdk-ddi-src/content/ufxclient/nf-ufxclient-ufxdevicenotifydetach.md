@@ -51,13 +51,13 @@ Notifies UFX that the device's USB cable has been detached.
 ### -param UfxDevice
 
 [in]
-A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate).
+A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](./nf-ufxclient-ufxdevicecreate.md).
 
 ## -remarks
 
 This method is called by the client driver when it receives a USB cable detach event. Once the detach event is processed, all endpoints should be disabled and device should move to a low power mode.
 
-The client driver typically calls **UfxDeviceNotifyDetach** from its [EVT_WDF_INTERRUPT_DPC](/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc) callback function, as shown in the following example.
+The client driver typically calls **UfxDeviceNotifyDetach** from its [EVT_WDF_INTERRUPT_DPC](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc.md) callback function, as shown in the following example.
 
 ```cpp
 VOID 

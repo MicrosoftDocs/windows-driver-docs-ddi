@@ -91,7 +91,7 @@ To disable idle detection for a device
 
 </li>
 </ul>
-After enabling a device for idle detection, a driver calls [PoSetDeviceBusy](/windows-hardware/drivers/ddi/wdm/nf-wdm-posetdevicebusy) whenever the device is in use, passing the non-<b>NULL</b> idle pointer returned by <b>PoRegisterDeviceForIdleDetection</b>. Calling <b>PoSetDeviceBusy</b> restarts the idle countdown. Note that a driver must not pass a <b>NULL</b> pointer to <b>PoSetDeviceBusy</b>.
+After enabling a device for idle detection, a driver calls [PoSetDeviceBusy](./nf-wdm-posetdevicebusy.md) whenever the device is in use, passing the non-<b>NULL</b> idle pointer returned by <b>PoRegisterDeviceForIdleDetection</b>. Calling <b>PoSetDeviceBusy</b> restarts the idle countdown. Note that a driver must not pass a <b>NULL</b> pointer to <b>PoSetDeviceBusy</b>.
 
 Whenever the device satisfies the current idle time-out value, the power manager sends an <b>IRP_MN_SET_POWER</b> request to the top of the device stack, specifying device power state <i>State</i>. In response to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>, each driver performs any device-specific tasks required before the power state transition, then passes the IRP to the next-lower driver. When the IRP reaches the bus driver, that driver puts the device in the requested lower power state and completes the IRP.
 
@@ -115,4 +115,4 @@ If both <i>ConservationIdleTime</i> and <i>PerformanceIdleTime</i> are zero, thi
 
 
 
-[PoSetDeviceBusy](/windows-hardware/drivers/ddi/wdm/nf-wdm-posetdevicebusy)
+[PoSetDeviceBusy](./nf-wdm-posetdevicebusy.md)

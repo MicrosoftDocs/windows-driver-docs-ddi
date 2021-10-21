@@ -56,7 +56,7 @@ A WDFDEVICE handle to the [framework device object](/windows-hardware/drivers/wd
 ### -param Target
 
 [in]
-An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect) callback that opened the connection to the target.
+An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md) callback that opened the connection to the target.
 
 ### -param Request
 
@@ -82,7 +82,7 @@ If the write operation completes in full, the callback function should set the c
 
 If a transmission error occurs during the write operation, the driver should set the completion status in the I/O request to an appropriate error code. Not all buses provide a mechanism for a target device to report a transport error or a partially completed transfer, and not all controllers can detect these conditions.
 
-To register an *EvtSpbControllerIoWrite* callback function, call the [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize) method.
+To register an *EvtSpbControllerIoWrite* callback function, call the [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md) method.
 
 ### Examples
 
@@ -112,10 +112,10 @@ The EVT_SPB_CONTROLLER_WRITE function type is defined in the Spbcx.h header file
 
 ## -see-also
 
-* [EvtSpbControllerIoRead](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_read)
-* [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect)
+* [EvtSpbControllerIoRead](./nc-spbcx-evt_spb_controller_read.md)
+* [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md)
 * [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
 * [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write)
 * [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles)
 * [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles)
-* [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize)
+* [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md)

@@ -56,7 +56,7 @@ A WDFDEVICE handle to the [framework device object](/windows-hardware/drivers/wd
 ### -param Target
 
 [in]
-An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect) callback that opened the connection to the target.
+An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md) callback that opened the connection to the target.
 
 ### -param Request
 
@@ -78,7 +78,7 @@ An *EvtSpbControllerIoSequence* callback is asynchronous. That is, the callback 
 
 The SPB controller driver can retrieve the parameter values from the I/O request to determine the maximum length of the transfers within the sequence.  The driver can use this length to allocate DMA resources that it can reuse for each transfer within the sequence.
 
-The SPB controller driver can call the [SpbRequestGetTransferParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters) method to retrieve the control parameters and data buffer for each transfer in the sequence. The buffer is a WDFMEMORY object that, in the current implementation, encapsulates a chained MDL. For more information about chained MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
+The SPB controller driver can call the [SpbRequestGetTransferParameters](./nf-spbcx-spbrequestgettransferparameters.md) method to retrieve the control parameters and data buffer for each transfer in the sequence. The buffer is a WDFMEMORY object that, in the current implementation, encapsulates a chained MDL. For more information about chained MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 The SPB controller should keep the target device selected for the entire sequence operation. If the target is selected by a device-select line, the line can be asserted continuously from the start of the first transfer in the sequence until the last transfer ends. This line can be asserted as early as the lock operation at the start of the sequence and can remain asserted until the unlock operation at the end of the sequence.
 
@@ -91,7 +91,7 @@ The SPB controller driver should complete the I/O request with an error status c
 * The SPB controller cannot select the target device (for example, a target device on an I<sup>2</sup>C bus signals a NACK when the controller transmits the address byte).
 * The SPB controller driver gets an error status from a call to a WDF or WDM service while processing the sequence operation.
 
-To register an *EvtSpbControllerIoSequence* callback function, call the [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize) method.
+To register an *EvtSpbControllerIoSequence* callback function, call the [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md) method.
 
 ### Examples
 
@@ -121,11 +121,11 @@ The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header f
 
 ## -see-also
 
-* [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect)
+* [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md)
 * [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
 * [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read)
 * [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write)
 * [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles)
 * [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles)
-* [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize)
-* [SpbRequestGetTransferParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters)
+* [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md)
+* [SpbRequestGetTransferParameters](./nf-spbcx-spbrequestgettransferparameters.md)

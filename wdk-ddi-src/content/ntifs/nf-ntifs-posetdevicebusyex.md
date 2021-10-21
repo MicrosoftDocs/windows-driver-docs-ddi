@@ -56,7 +56,7 @@ A pointer to an idle counter. This is a pointer value that was previously return
 
 ## -remarks
 
-This routine is a direct replacement for the [PoSetDeviceBusy](/windows-hardware/drivers/ddi/wdm/nf-wdm-posetdevicebusy) macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call <b>PoSetDeviceBusyEx</b> instead of <b>PoSetDeviceBusy</b>.
+This routine is a direct replacement for the [PoSetDeviceBusy](../wdm/nf-wdm-posetdevicebusy.md) macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call <b>PoSetDeviceBusyEx</b> instead of <b>PoSetDeviceBusy</b>.
 
 A driver calls the <b>PoSetDeviceBusyEx</b> and <b>PoRegisterDeviceForIdleDetection</b> routines to enable system idle detection for its device. If a device that is registered for idle detection stays idle for the driver-specified time-out period, the power manager sends an <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request to put the device in a requested sleep state.
 
@@ -80,7 +80,7 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 
-[PoSetDeviceBusy](/windows-hardware/drivers/ddi/wdm/nf-wdm-posetdevicebusy)
+[PoSetDeviceBusy](../wdm/nf-wdm-posetdevicebusy.md)
 
 
 

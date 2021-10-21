@@ -52,7 +52,7 @@ The <b>KeRegisterBugCheckCallback</b> routine registers a <a href="/windows-hard
 ### -param CallbackRecord 
 
 [out]
-Pointer to a callback record that was previously initialized by [KeInitializeCallbackRecord](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializecallbackrecord), for which the caller provides nonpaged storage.
+Pointer to a callback record that was previously initialized by [KeInitializeCallbackRecord](./nf-wdm-keinitializecallbackrecord.md), for which the caller provides nonpaged storage.
 
 ### -param CallbackRoutine 
 
@@ -124,6 +124,6 @@ To more accurately identify errors when you run the code analysis tools, be sure
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckcallback">KeDeregisterBugCheckCallback</a>
 
-[KeInitializeCallbackRecord](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializecallbackrecord)
+[KeInitializeCallbackRecord](./nf-wdm-keinitializecallbackrecord.md)
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>

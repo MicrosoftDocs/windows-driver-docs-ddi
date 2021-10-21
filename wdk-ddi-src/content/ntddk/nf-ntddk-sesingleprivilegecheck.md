@@ -82,7 +82,7 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
-[RtlEqualLuid](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalluid)
+[RtlEqualLuid](../wdm/nf-wdm-rtlequalluid.md)
 
 
 
