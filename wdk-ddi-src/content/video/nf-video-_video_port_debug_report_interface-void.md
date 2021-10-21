@@ -58,13 +58,13 @@ A pointer to a caller-supplied variable in which this function returns the statu
 * NDIS_STATUS_SUCCESS - The caller has exclusive access to the file contents until the <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
 * NDIS_STATUS_ALREADY_MAPPED - The caller cannot access the file contents at this time.
 
-### -param MappedBuffer 
+### -param MappedBuffer [out]
 
-[out] A pointer to a caller-supplied variable in which this function returns the base virtual address of the mapped file contents or <b>NULL</b>.
+A pointer to a caller-supplied variable in which this function returns the base virtual address of the mapped file contents or <b>NULL</b>.
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in] The handle that was returned by a preceding call to the <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
+The handle that was returned by a preceding call to the <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
 
 ## -returns
 

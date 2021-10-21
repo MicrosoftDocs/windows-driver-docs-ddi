@@ -51,14 +51,14 @@ The <b>USBD_UrbFree</b> routine releases the <a href="/windows-hardware/drivers/
 
 ## -parameters
 
-### -param USBDHandle 
+### -param USBDHandle [in]
 
-[in]
+
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
-### -param Urb 
+### -param Urb [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure to be released.
 
 ## -remarks

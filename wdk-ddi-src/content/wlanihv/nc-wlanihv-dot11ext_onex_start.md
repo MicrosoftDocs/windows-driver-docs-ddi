@@ -53,9 +53,9 @@ api_name:
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV

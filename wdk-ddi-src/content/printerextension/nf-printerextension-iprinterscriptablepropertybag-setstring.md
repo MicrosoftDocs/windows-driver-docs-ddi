@@ -49,14 +49,14 @@ Writes a string property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to set.
 
-### -param bstrValue 
+### -param bstrValue [in]
 
-[in]
+
 The property value to set.
 
 ## -returns

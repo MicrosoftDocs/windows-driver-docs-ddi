@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param ClientPort 
+### -param ClientPort [out]
 
-[out]
+
 Pointer to a variable that contains the opaque port handle for the client port to be closed. On return, the variable receives <b>NULL</b>. This parameter is required and cannot be <b>NULL</b> on input.
 
 ## -returns

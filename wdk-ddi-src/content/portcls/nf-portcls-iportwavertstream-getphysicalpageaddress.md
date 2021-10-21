@@ -49,14 +49,14 @@ The <code>GetPhysicalPageAddress</code> method returns the physical address for 
 
 ## -parameters
 
-### -param MemoryDescriptorList 
+### -param MemoryDescriptorList [in]
 
-[in]
+
 Pointer to the MDL.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Index to the target page within the MDL.
 
 ## -returns

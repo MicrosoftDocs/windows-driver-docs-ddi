@@ -49,13 +49,13 @@ Describes a surface to display.
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource that contains the surface. <b>hResource</b> can be <b>NULL</b> if the user-mode display driver should perform a color-fill operation to the screen.
+A handle to the resource that contains the surface. <b>hResource</b> can be <b>NULL</b> if the user-mode display driver should perform a color-fill operation to the screen.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource or surface to display.
+The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource or surface to display.
 
 ## -see-also
 

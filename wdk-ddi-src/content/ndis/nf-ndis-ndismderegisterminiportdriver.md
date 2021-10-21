@@ -53,9 +53,9 @@ A miniport driver calls the
 
 ## -parameters
 
-### -param NdisMiniportDriverHandle 
+### -param NdisMiniportDriverHandle [in]
 
-[in]
+
 The handle that the miniport driver obtained in a previous call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>.
 

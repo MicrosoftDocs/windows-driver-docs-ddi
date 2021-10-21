@@ -45,13 +45,13 @@ A kernel-mode display miniport driver calls **DXGKCB_PINFRAMEBUFFERFORSAVE2** to
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the main/lead device in the linked display adapter (LDA) chain.
+A handle to a display adapter. The driver provides this handle for the main/lead device in the linked display adapter (LDA) chain.
 
-### -param pPinFrameBufferForSave2
+### -param pPinFrameBufferForSave2 [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_PINFRAMEBUFFERFORSAVE2**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) structure that contains information about the frame buffer to save.
+Pointer to a [**DXGKARGCB_PINFRAMEBUFFERFORSAVE2**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) structure that contains information about the frame buffer to save.
 
 ## -returns
 

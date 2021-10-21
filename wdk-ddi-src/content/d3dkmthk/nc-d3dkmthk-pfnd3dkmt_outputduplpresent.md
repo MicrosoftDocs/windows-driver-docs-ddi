@@ -49,11 +49,11 @@ Submits a present command from the <a href="/windows/desktop/direct3ddxgi/deskto
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
 *pData* 
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresent">D3DKMT_OUTPUTDUPLPRESENT</a> structure that describes parameters for the present operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresent">D3DKMT_OUTPUTDUPLPRESENT</a> structure that describes parameters for the present operation.
 
 ## -returns
 

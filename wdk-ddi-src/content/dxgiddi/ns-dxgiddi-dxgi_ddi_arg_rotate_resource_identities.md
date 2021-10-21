@@ -49,19 +49,19 @@ Describes a list of resources to rotate.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) on which the driver rotates resources. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
+A handle to the display device (graphics context) on which the driver rotates resources. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
 
-### -field pResources
+### -field pResources [in]
 
-[in] A pointer to an array of handles to the resources to rotate.
+A pointer to an array of handles to the resources to rotate.
 
 Beginning in Windows 8, the driver must support rotation of stereo back buffers.
 
-### -field Resources
+### -field Resources [in]
 
-[in] The number of elements in the <i>pResources</i> array.
+The number of elements in the <i>pResources</i> array.
 
 ## -see-also
 

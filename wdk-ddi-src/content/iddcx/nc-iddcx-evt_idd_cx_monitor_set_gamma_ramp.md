@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
+
 A handle by the OS to identify the monitor to set a gamma ramp for.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments used by <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b>.
 
 ## -returns

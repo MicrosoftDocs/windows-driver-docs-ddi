@@ -52,18 +52,18 @@ api_name:
 
 ## -parameters
 
-### -param dwVerNumUsed 
+### -param dwVerNumUsed [in]
 
-[in]
+
 The interface version used by the operating system. The value of this parameter must be between
      the ranges of version numbers returned in the
      <i>pDot11IHVVersionInfo</i> parameter of the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">
      Dot11ExtIhvGetVersionInfo</a> IHV Handler function.
 
-### -param pDot11ExtAPI 
+### -param pDot11ExtAPI [in]
 
-[in]
+
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a> structure, which contains the
      addresses of the IHV Extensibility functions that are supported by the operating system. The operating
@@ -74,9 +74,9 @@ A pointer to a
 
 This parameter is reserved for use by the operating system.
 
-### -param pDot11IHVHandlers 
+### -param pDot11IHVHandlers [out]
 
-[out]
+
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a> structure,
      which contains the addresses of the IHV Handler functions supported by the IHV Extensions DLL. The DLL

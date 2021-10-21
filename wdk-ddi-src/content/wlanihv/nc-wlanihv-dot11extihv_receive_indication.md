@@ -52,30 +52,30 @@ api_name:
 
 ## -parameters
 
-### -param hIhvExtAdapter 
+### -param hIhvExtAdapter [in, optional]
 
-[in, optional]
+
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param indicationType 
+### -param indicationType [in]
 
-[in]
+
 The
      <a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">
      DOT11EXT_IHV_INDICATION_TYPE</a> indication type.
 
-### -param uBufferLength 
+### -param uBufferLength [in]
 
-[in]
+
 The length, in bytes, of the data within the buffer that is referenced by the
      <i>pvBuffer</i> parameter.
 
-### -param pvBuffer 
+### -param pvBuffer [in, optional]
 
-[in, optional]
+
 The pointer to a buffer, allocated by the operating system, which contains the notification data.
      The IHV is responsible for defining the format of the notification data.
 

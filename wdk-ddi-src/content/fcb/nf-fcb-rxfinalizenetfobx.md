@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param ThisFobx 
+### -param ThisFobx [out]
 
-[out]
+
 A pointer to the FOBX structure to finalize.
 
-### -param RecursiveFinalize 
+### -param RecursiveFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be done recursively. This parameter is not currently used.
 
-### -param ForceFinalize 
+### -param ForceFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
 If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the FOBX structure pointed to by <i>ThisFobx </i>must be 0 for the FOBX to be finalized.

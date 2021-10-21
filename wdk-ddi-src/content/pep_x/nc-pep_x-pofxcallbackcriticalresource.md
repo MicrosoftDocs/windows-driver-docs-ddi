@@ -49,19 +49,19 @@ The <b>TransitionCriticalResource</b> routine changes the active/inactive state 
 
 ## -parameters
 
-### -param DeviceHandle 
+### -param DeviceHandle [in]
 
-[in]
+
 A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
-### -param Component 
+### -param Component [in]
 
-[in]
+
 [in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
-### -param Active 
+### -param Active [in]
 
-[in]
+
 Whether to transition the device from inactive to active, or vice versa. Set to TRUE to transition the device from inactive to active, or to FALSE to transition the device from active to inactive.
 
 ## -remarks

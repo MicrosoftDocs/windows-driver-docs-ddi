@@ -52,13 +52,13 @@ Describes information that is required for an in-process (in-proc) Microsoft Dir
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context to retrieve scheduling priority for.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context to retrieve scheduling priority for.
 
-### -field Priority
+### -field Priority [out]
 
-[out] The priority level that is retrieved for the device context relative to other device contexts within the same process.
+The priority level that is retrieved for the device context relative to other device contexts within the same process.
 
 A value of zero indicates that the context is scheduled with the same priority as other contexts within the same process.
 

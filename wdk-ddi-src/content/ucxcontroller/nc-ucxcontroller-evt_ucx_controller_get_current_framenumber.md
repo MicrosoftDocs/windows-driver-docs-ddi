@@ -49,14 +49,14 @@ The client driver's implementation that UCX calls to retrieve the current 32-bit
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param FrameNumber 
+### -param FrameNumber [out]
 
-[out]
+
 A pointer to the current 32-bit frame number.
 
 ## -returns

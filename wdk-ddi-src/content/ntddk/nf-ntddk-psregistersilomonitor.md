@@ -53,14 +53,14 @@ This routine registers a server silo monitor that can receive notifications abou
 
 ## -parameters
 
-### -param Registration 
+### -param Registration [in]
 
-[in]
+
 Specifies the server silo monitor to be registered, of type <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_silo_monitor_registration">SILO_MONITOR_REGISTRATION</a>.
 
-### -param ReturnedMonitor 
+### -param ReturnedMonitor [out]
 
-[out]
+
 Receives a pointer to the monitor. This pointer is used to make further monitor-related calls.
 
 ## -returns

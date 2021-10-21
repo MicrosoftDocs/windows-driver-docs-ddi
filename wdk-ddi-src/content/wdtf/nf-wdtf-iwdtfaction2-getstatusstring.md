@@ -49,9 +49,9 @@ Returns the status for the last operation as a string.
 
 ## -parameters
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 The status for the last operation.
 
 ## -returns

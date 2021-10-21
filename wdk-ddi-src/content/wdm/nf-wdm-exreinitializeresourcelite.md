@@ -49,9 +49,9 @@ The <b>ExReinitializeResourceLite</b> routine reinitializes an existing resource
 
 ## -parameters
 
-### -param Resource 
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to the caller-supplied resource variable to be reinitialized.
 
 ## -returns

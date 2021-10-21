@@ -50,14 +50,14 @@ The <b><i>IdeHwBuildIo</i></b> miniport driver routine is called one time for ev
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the miniport driver channel extension.
 
-### -param Irb 
+### -param Irb [in]
 
-[in]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the Integrated Device Electronics (IDE) input/output request block (IRB) to process.
 
 ## -returns

@@ -49,19 +49,19 @@ The <b>StartProcessServerWide</b> method starts a process server.
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the class of the targets that will be available through the process server.  This must be set to DEBUG_CLASS_USER_WINDOWS.
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the connections options for this process server.  These are the same options given to the <b>-t</b> option of the DbgSrv command line.  For details on the syntax of this string, see <a href="/windows-hardware/drivers/debugger/activating-a-process-server">Activating a Process Server</a>.
 
-### -param Reserved 
+### -param Reserved [in, optional]
 
-[in, optional]
+
 Set to <b>NULL</b>.
 
 ## -returns

@@ -49,14 +49,14 @@ This routine retrieves an object that was inserted in the <i>Silo</i> without in
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 The silo in which the object was inserted. This parameter is required and it cannot be <b>NULL</b>.
 
-### -param ContextSlot 
+### -param ContextSlot [in]
 
-[in]
+
 The read-only slot that was previously allocated by<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> and made read-only by <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psmakesilocontextpermanent">PsMakeSiloContextPermanent</a>.
 
 ### -param ReturnedSiloContext

@@ -53,22 +53,22 @@ NDIS calls a protocol driver's
 
 ## -parameters
 
-### -param ProtocolDriverContext 
+### -param ProtocolDriverContext [in]
 
-[in]
+
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The protocol driver passed this context area to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
-### -param BindContext 
+### -param BindContext [in]
 
-[in]
+
 The handle that identifies the NDIS context area for this bind operation.
 
-### -param BindParameters 
+### -param BindParameters [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure that
      NDIS created.

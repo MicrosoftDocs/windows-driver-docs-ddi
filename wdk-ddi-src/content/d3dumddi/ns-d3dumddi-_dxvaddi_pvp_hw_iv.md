@@ -52,13 +52,13 @@ The DXVADDI_PVP_HW_IV structure contains two 64-bit values that combine to form 
 
 ## -struct-fields
 
-### -field IV
+### -field IV [in]
 
-[in] A 64-bit initialization vector.
+A 64-bit initialization vector.
 
-### -field Count
+### -field Count [in]
 
-[in] A 64-bit number.
+A 64-bit number.
 
 ## -see-also
 

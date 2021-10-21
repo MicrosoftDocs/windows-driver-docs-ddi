@@ -49,39 +49,39 @@ AVStream calls a minidriver's <i>AVStrMiniDeviceQueryPower</i> routine when it r
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure that dispatched the <a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a> issued by <i>Device</i>.
 
-### -param DeviceTo 
+### -param DeviceTo [in]
 
-[in]
+
 The power state requested by the issuer of <i>Irp</i>.
 
-### -param DeviceFrom 
+### -param DeviceFrom [in]
 
-[in]
+
 The current device power state.
 
-### -param SystemTo 
+### -param SystemTo [in]
 
-[in]
+
 System state to transition to, specified when a system power state transition is being queried. This value is unspecified if the call is due to a device power state change query.
 
-### -param SystemFrom 
+### -param SystemFrom [in]
 
-[in]
+
 Current system state, specified when a system power state transition is being queried. This value is unspecified if the call is due to a device power state change query.
 
-### -param Action 
+### -param Action [in]
 
-[in]
+
 Specifies additional information about the requested transition. Possible values are enumerators of the POWER_ACTION type.
 
 ## -returns

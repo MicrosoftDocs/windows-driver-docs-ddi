@@ -51,19 +51,19 @@ The <b>ScsiPortWriteRegisterBufferUlong</b> routine transfers a given number of 
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer containing the data to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG values to be transferred to the HBA.
 
 ## -returns

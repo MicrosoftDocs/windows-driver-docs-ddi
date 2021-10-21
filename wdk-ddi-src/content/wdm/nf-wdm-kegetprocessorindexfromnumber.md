@@ -49,9 +49,9 @@ The <b>KeGetProcessorIndexFromNumber</b> routine converts a group number and a g
 
 ## -parameters
 
-### -param ProcNumber 
+### -param ProcNumber [in]
 
-[in]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
 
 ## -returns

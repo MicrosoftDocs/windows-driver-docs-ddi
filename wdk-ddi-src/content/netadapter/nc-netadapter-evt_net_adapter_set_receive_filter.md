@@ -45,13 +45,13 @@ The client driver implements the *EvtNetAdapterSetReceiveFilter* callback functi
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
-[_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param unnamedParam2
+### -param unnamedParam2 [_In_]
 
-[_In_] A handle to a NETRECEIVEFILTER object.
+A handle to a NETRECEIVEFILTER object.
 
 ## -remarks
 

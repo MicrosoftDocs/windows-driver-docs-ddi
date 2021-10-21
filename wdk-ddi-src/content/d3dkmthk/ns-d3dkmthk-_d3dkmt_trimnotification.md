@@ -52,17 +52,17 @@ api_name:
 
 ## -struct-fields
 
-### -field Context
+### -field Context [in]
 
-[in] The caller-supplied context for the callback notification.
+The caller-supplied context for the callback notification.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_trimresidencyset_flags">D3DDDI_TRIMRESIDENCYSET_FLAGS</a> structure containing the trimming behavior flags.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_trimresidencyset_flags">D3DDDI_TRIMRESIDENCYSET_FLAGS</a> structure containing the trimming behavior flags.
 
-### -field NumBytesToTrim
+### -field NumBytesToTrim [in]
 
-[in] When <b>TrimToBudget</b> is set, this value specifies how much the application should evict in order to meet its current memory budget.
+When <b>TrimToBudget</b> is set, this value specifies how much the application should evict in order to meet its current memory budget.
 
 ## -see-also
 

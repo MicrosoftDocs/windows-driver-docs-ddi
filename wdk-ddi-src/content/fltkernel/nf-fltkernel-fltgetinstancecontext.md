@@ -48,13 +48,13 @@ The **FltGetInstanceContext** routine retrieves a context that was set for an in
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer for the instance.
+Opaque instance pointer for the instance.
 
-### -param Context
+### -param Context [out]
 
-[out] Pointer to a caller-allocated variable that receives the address of the instance context.
+Pointer to a caller-allocated variable that receives the address of the instance context.
 
 ## -returns
 

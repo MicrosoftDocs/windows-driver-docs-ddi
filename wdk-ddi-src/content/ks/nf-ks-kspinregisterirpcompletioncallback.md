@@ -50,14 +50,14 @@ The <b>KsPinRegisterIrpCompletionCallback</b> function registers a minidriver-de
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to register a completion callback.
 
-### -param IrpCompletion 
+### -param IrpCompletion [in]
 
-[in]
+
 This parameter supplies the address of a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinirpcompletion">AVStrMiniPinIrpCompletion</a> routine to be called when an IRP completes its traversal of the circuit and is about to be recycled or retired.
 
 ## -remarks

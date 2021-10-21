@@ -50,17 +50,17 @@ A client driver implements **PFND3D12DDI_MAPHEAP** to map a heap.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] *hDisplayDevice*: Handle to the display device (graphics context).
+*hDisplayDevice*: Handle to the display device (graphics context).
 
-### -param unnamedParam2
+### -param unnamedParam2 [in]
 
-[in] *hHeap*: Handle to a display device-managed heap that needs to be mapped.
+*hHeap*: Handle to a display device-managed heap that needs to be mapped.
 
-### -param unnamedParam3
+### -param unnamedParam3 [out]
 
-[out] *ppData**: A pointer to the mapped heap data.
+*ppData**: A pointer to the mapped heap data.
 
 ## -returns
 

@@ -51,9 +51,9 @@ The <b>RetrieveNextRequest</b> method retrieves the next I/O request from an I/O
 
 ## -parameters
 
-### -param ppRequest 
+### -param ppRequest [out]
 
-[out]
+
 A pointer to a buffer that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the next request object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
 ## -returns

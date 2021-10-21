@@ -49,29 +49,29 @@ The <code>GetMapping</code> method obtains a mapping from the port driver and as
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Specifies a tag value to associate with the mapping. The port driver can use this tag in a subsequent <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-revokemappings">IMiniportWavePciStream::RevokeMappings</a> call to identify the mapping in the list of mappings to be revoked. The miniport driver uses the tag to identify the mapping in the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepcistream-releasemapping">IPortWavePciStream::ReleaseMapping</a> call that releases the mapping.
 
-### -param PhysicalAddress 
+### -param PhysicalAddress [out]
 
-[out]
+
 Output pointer for the physical address. This parameter points to a caller-allocated pointer variable into which the method writes the physical address of the mapping. Specify a valid, non-NULL pointer value for this parameter.
 
-### -param VirtualAddress 
+### -param VirtualAddress [out]
 
-[out]
+
 Output pointer for the virtual address. This parameter points to a caller-allocated pointer variable into which the method writes the virtual address of the mapping. Specify a valid, non-NULL pointer value for this parameter.
 
-### -param ByteCount 
+### -param ByteCount [out]
 
-[out]
+
 Output pointer for the byte count. This parameter points to a caller-allocated ULONG variable into which the method writes the number of bytes in the mapping. Specify a valid, non-NULL pointer value for this parameter.
 
-### -param Flags 
+### -param Flags [out]
 
-[out]
+
 Output pointer for the status flag. This parameter points to a caller-allocated ULONG variable into which the method writes a status flag. Specify a valid, non-NULL pointer value for this parameter. A nonzero flag value indicates that the mapping acquired in this call is the last mapping in an I/O packet. This flag can be used to signal that the hardware should interrupt the miniport driver when it is done with this mapping. In response to the interrupt, the miniport driver can obtain new mappings to deliver to the hardware. The miniport driver is not obligated to use the flag in this way.
 
 ## -returns

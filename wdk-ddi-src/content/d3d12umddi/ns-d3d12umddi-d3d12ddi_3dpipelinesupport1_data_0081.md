@@ -41,13 +41,13 @@ dev_langs:
 
 ## -struct-fields
 
-### -field HighestRuntimeSupportedFeatureLevel
+### -field HighestRuntimeSupportedFeatureLevel [in]
 
-[in] A [**D3D12DDI_3DPIPELINELEVEL**](ne-d3d12umddi-d3d12ddi_3dpipelinelevel.md) value that indicates the runtime's highest supported 3D pipeline feature level.
+A [**D3D12DDI_3DPIPELINELEVEL**](ne-d3d12umddi-d3d12ddi_3dpipelinelevel.md) value that indicates the runtime's highest supported 3D pipeline feature level.
 
-### -field MaximumDriverSupportedFeatureLevel
+### -field MaximumDriverSupportedFeatureLevel [out]
 
-[out] A [**D3D12DDI_3DPIPELINELEVEL**](ne-d3d12umddi-d3d12ddi_3dpipelinelevel.md) value that indicates the driver's maximum supported 3D pipeline feature level. **MaximumDriverSupportedFeatureLevel** must be less than or equal to **HighestRuntimeSupportedFeatureLevel**.
+A [**D3D12DDI_3DPIPELINELEVEL**](ne-d3d12umddi-d3d12ddi_3dpipelinelevel.md) value that indicates the driver's maximum supported 3D pipeline feature level. **MaximumDriverSupportedFeatureLevel** must be less than or equal to **HighestRuntimeSupportedFeatureLevel**.
 
 ## -remarks
 

@@ -51,13 +51,13 @@ The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the sp
 
 ## -parameters
 
-### -param hOverlay
+### -param hOverlay [in]
 
-[in] A handle to the overlay to be flipped. The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure.
+A handle to the overlay to be flipped. The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure.
 
-### -param pFlipOverlay
+### -param pFlipOverlay [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_flipoverlay">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_flipoverlay">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 ## -returns
 

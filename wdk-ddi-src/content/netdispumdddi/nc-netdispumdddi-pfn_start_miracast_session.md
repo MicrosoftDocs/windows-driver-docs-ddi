@@ -49,29 +49,29 @@ Called by the operating system to start a Miracast connected session.
 
 ## -parameters
 
-### -param pMiracastContext 
+### -param pMiracastContext [in]
 
-[in]
+
 A pointer to a context associated with a display adapter.
 
 The operating system obtained the context when it called the Miracast user-mode driver's <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
-### -param MiracastRTSPSocket 
+### -param MiracastRTSPSocket [in]
 
-[in]
+
 The operating system-supplied network socket handle of the Real Time Streaming Protocol (RTSP). 
 
 <div class="alert"><b>Note</b>  The Miracast user-mode driver should not close this socket. When the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a> function is called, the operating system will close this socket.</div>
 <div> </div>
 
-### -param pWfdConnectionStats 
+### -param pWfdConnectionStats [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_wfd_connection_stats">MIRACAST_WFD_CONNECTION_STATS</a> structure that indicates the Wi-Fi Direct connection statistics.
 
-### -param pSessionInfo 
+### -param pSessionInfo [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_session_info">MIRACAST_SESSION_INFO</a> structure that the Miracast user-mode driver should complete after it has obtained the capabilities of the Miracast sink.
 
 ## -returns

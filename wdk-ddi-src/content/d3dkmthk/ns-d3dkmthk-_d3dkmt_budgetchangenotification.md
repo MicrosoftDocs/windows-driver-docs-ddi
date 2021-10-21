@@ -48,12 +48,12 @@ Arguments used to create a budget change notification.
 
 ## -struct-fields
 
-### -field Context
+### -field Context [in]
 
-[in] The context at Register.
+The context at Register.
 
-### -field Budget
+### -field Budget [in]
 
  
-[in] The new budget.
+The new budget.
 

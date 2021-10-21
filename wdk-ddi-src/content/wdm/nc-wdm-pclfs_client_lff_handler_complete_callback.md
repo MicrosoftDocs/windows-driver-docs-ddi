@@ -49,24 +49,24 @@ The <i>ClfsLogGrowthCompleteCallback</i> function implements the actions that th
 
 ## -parameters
 
-### -param LogFile 
+### -param LogFile [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose log has finished growing.
 
-### -param OperationStatus 
+### -param OperationStatus [in]
 
-[in]
+
 The status of the client's earlier request to handle a log file full condition. This will be either STATUS_SUCCESS or an error status that indicates the reason that the request could not be completed successfully.
 
-### -param LogIsPinned 
+### -param LogIsPinned [in]
 
-[in]
+
 If <b>TRUE</b>, specifies that the log tail is currently pinned;  <b>FALSE</b> if the log tail is not pinned.
 
-### -param ClientData 
+### -param ClientData [in]
 
-[in]
+
 A pointer to client-supplied information.
 
 ## -remarks

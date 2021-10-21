@@ -49,49 +49,49 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_event_callbacks">UCX_ENDPOINT_EVENT_CALLBACKS</a> structure that contains pointers to the client driver's event callback functions.
 
-### -param EvtEndpointPurge 
+### -param EvtEndpointPurge [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_purge">EVT_UCX_ENDPOINT_PURGE</a>                     event callback function.
 
-### -param EvtEndpointStart 
+### -param EvtEndpointStart [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_start">EVT_UCX_ENDPOINT_START</a>                     event callback function.
 
-### -param EvtEndpointAbort 
+### -param EvtEndpointAbort [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_abort">EVT_UCX_ENDPOINT_ABORT</a>                     event callback function.
 
-### -param EvtEndpointReset 
+### -param EvtEndpointReset [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a>                     event callback function.
 
-### -param EvtEndpointOkToCancelTransfers 
+### -param EvtEndpointOkToCancelTransfers [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_ok_to_cancel_transfers">EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS</a>    event callback function.
 
-### -param EvtEndpointStaticStreamsAdd 
+### -param EvtEndpointStaticStreamsAdd [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_add">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>        event callback function.
 
-### -param EvtEndpointStaticStreamsEnable 
+### -param EvtEndpointStaticStreamsEnable [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a>     event callback function.
 
-### -param EvtEndpointStaticStreamsDisable 
+### -param EvtEndpointStaticStreamsDisable [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_disable">EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE</a>    event callback function.
 
 ## -see-also

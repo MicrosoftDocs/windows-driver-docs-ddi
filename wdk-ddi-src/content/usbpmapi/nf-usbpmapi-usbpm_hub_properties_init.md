@@ -47,9 +47,9 @@ Initializes a [**USBPM_HUB_PROPERTIES**](ns-usbpmapi-_usbpm_hub_properties.md) s
 
 ## -parameters
 
-### -param Properties
+### -param Properties [Out]
 
-[Out] A pointer to a [**USBPM_HUB_PROPERTIES**](ns-usbpmapi-_usbpm_hub_properties.md) structure to initialize.
+A pointer to a [**USBPM_HUB_PROPERTIES**](ns-usbpmapi-_usbpm_hub_properties.md) structure to initialize.
 
 ## -remarks
 

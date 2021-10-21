@@ -49,19 +49,19 @@ The <code>Init</code> method initializes the topology miniport object.
 
 ## -parameters
 
-### -param UnknownAdapter 
+### -param UnknownAdapter [in]
 
-[in]
+
 Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
-### -param ResourceList 
+### -param ResourceList [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iporttopology">IPortTopology</a> object that is bound to this miniport object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 ## -returns

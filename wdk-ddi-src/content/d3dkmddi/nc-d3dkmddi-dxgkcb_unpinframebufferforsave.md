@@ -46,13 +46,13 @@ A kernel-mode display miniport driver calls **DXGKCB_UNPINFRAMEBUFFERFORSAVE** t
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
 
-### -param pUnpinFrameBufferForSave
+### -param pUnpinFrameBufferForSave [in]
 
-[in] A pointer to the [**DXGKARGCB_UNPINFRAMEBUFFERFORSAVE**](ns-d3dkmddi-_dxgkargcb_unpinframebufferforsave.md) structure that contains a handle to the memory to be unmapped.
+A pointer to the [**DXGKARGCB_UNPINFRAMEBUFFERFORSAVE**](ns-d3dkmddi-_dxgkargcb_unpinframebufferforsave.md) structure that contains a handle to the memory to be unmapped.
 
 ## -returns
 

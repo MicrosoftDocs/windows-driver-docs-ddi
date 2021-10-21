@@ -52,29 +52,29 @@ Instead, use the <a href="/windows-hardware/drivers/ddi/wdfhwaccess/">WDF Regist
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
 
-### -param Type 
 
-[in]
+### -param Type [in]
 
-### -param Size 
 
-[in]
 
-### -param TargetAddress 
+### -param Size [in]
 
-[in]
 
-### -param Buffer 
 
-[out, optional]
+### -param TargetAddress [in]
 
-### -param Count 
 
-[in, optional]
+
+### -param Buffer [out, optional]
+
+
+
+### -param Count [in, optional]
+
+
 
 ## -see-also
 

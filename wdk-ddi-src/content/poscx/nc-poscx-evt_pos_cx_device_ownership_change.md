@@ -51,18 +51,18 @@ The
 
 ## -parameters
 
-### -param device 
+### -param device [in]
 
-[in]
+
 A handle to a framework device object that represents the device.
 
-### -param oldOwnerFileObj 
+### -param oldOwnerFileObj [in, optional]
 
-[in, optional]
+
 The file object of the previous claim owner. This may be NULL if no previous owner.
 
-### -param newOwnerFileObj 
+### -param newOwnerFileObj [in, optional]
 
-[in, optional]
+
 The file object of the new claim owner. This may be NULL if the device was released without a pending claim request.
 

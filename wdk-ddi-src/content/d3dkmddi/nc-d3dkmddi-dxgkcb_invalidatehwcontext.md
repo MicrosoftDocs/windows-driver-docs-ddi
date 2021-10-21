@@ -46,9 +46,9 @@ dev_langs:
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] Pointer to a [**DXGKARGCB_INVALIDATEHWCONTEXT**](ns-d3dkmddi-_dxgkargcb_invalidatehwcontext.md) structure that contains information to use when invalidating the hardware context.
+Pointer to a [**DXGKARGCB_INVALIDATEHWCONTEXT**](ns-d3dkmddi-_dxgkargcb_invalidatehwcontext.md) structure that contains information to use when invalidating the hardware context.
 
 ## -returns
 

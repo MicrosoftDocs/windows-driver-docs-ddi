@@ -54,19 +54,19 @@ The <b>WdfIoTargetCreate</b> method creates a <a href="/windows-hardware/drivers
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param IoTargetAttributes 
+### -param IoTargetAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the I/O target object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param IoTarget 
+### -param IoTarget [out]
 
-[out]
+
 A pointer to a location that receives a handle to an I/O target object.
 
 ## -returns

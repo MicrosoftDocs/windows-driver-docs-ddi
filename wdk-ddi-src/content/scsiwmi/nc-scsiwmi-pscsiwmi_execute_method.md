@@ -50,44 +50,44 @@ A miniport driver's <b>HwScsiWmiExecuteMethod</b> routine is called to execute a
 
 ## -parameters
 
-### -param DeviceContext 
+### -param DeviceContext [in]
 
-[in]
+
 Points to the miniport driver-defined context value passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param RequestContext 
+### -param RequestContext [in]
 
-[in]
+
 Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param GuidIndex 
+### -param GuidIndex [in]
 
-[in]
+
 Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param InstanceIndex 
+### -param InstanceIndex [in]
 
-[in]
+
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> specifies the instance.
 
-### -param MethodId 
+### -param MethodId [in]
 
-[in]
+
 Specifies the ID of the method to execute. The miniport driver defines the method ID as an item in a data block.
 
-### -param InBufferSize 
+### -param InBufferSize [in]
 
-[in]
+
 Indicates the size in bytes of the input data. If there is no input data, <i>InBufferSize</i> is zero.
 
-### -param OutBufferSize 
+### -param OutBufferSize [in]
 
-[in]
+
 Indicates the number of bytes available in the buffer for output data.
 
-### -param Buffer 
+### -param Buffer [in, out]
 
-[in, out]
+
 Points to a buffer that holds the input data and receives the output data, if any, from the method. If the buffer is too small to receive all of the output, the miniport driver calls <b>ScsiPortWmiPostProcess</b> with SRB_STATUS_DATA_OVERRUN and the size required.
 
 ## -returns

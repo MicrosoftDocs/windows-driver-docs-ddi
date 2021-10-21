@@ -52,19 +52,19 @@ Used in a call to the <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) for which overlay plane capabilities are needed.
+A handle to the display device (graphics context) for which overlay plane capabilities are needed.
 
 The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> routine.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
+The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
 
-### -field MultiplaneOverlayCaps
+### -field MultiplaneOverlayCaps [out]
 
-[out] The overlay plane capabilities, given as a <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a> structure.
+The overlay plane capabilities, given as a <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a> structure.
 
 ## -see-also
 

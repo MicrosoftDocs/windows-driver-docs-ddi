@@ -48,17 +48,17 @@ Call the **CcSetAdditionalCacheAttributes** routine to enable or disable read-ah
 
 ## -parameters
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] Pointer to a file object for the cached file.
+Pointer to a file object for the cached file.
 
-### -param DisableReadAhead
+### -param DisableReadAhead [in]
 
-[in] Boolean value set to **TRUE** to disable read-ahead, or **FALSE** to enable it.
+Boolean value set to **TRUE** to disable read-ahead, or **FALSE** to enable it.
 
-### -param DisableWriteBehind
+### -param DisableWriteBehind [in]
 
-[in] Boolean value set to **TRUE** to disable write-behind, or **FALSE** to enable it.
+Boolean value set to **TRUE** to disable write-behind, or **FALSE** to enable it.
 
 ## -remarks
 

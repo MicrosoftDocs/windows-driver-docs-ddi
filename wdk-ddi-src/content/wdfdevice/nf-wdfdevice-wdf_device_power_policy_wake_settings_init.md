@@ -51,9 +51,9 @@ The <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</b> function initializes a dri
 
 ## -parameters
 
-### -param Settings 
+### -param Settings [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_wake_settings">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure.
 
 ## -remarks

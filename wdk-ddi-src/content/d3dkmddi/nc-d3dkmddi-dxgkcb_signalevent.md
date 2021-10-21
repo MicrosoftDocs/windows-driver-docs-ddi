@@ -47,9 +47,9 @@ A kernel-mode display miniport driver on the host can call **DXGKCB_SIGNALEVENT*
 
 ## -parameters
 
-### -param unnamedParam
+### -param unnamedParam [in]
 
-[in] Pointer to a [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) structure that contains arguments for this call.
+Pointer to a [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) structure that contains arguments for this call.
 
 ## -returns
 

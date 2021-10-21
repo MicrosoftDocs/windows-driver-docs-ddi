@@ -56,16 +56,16 @@ The
 
 ## -parameters
 
-### -param netBufferList 
+### -param netBufferList [in, out]
 
-[in, out]
+
 A pointer to the clone 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      freed.
 
-### -param freeCloneFlags 
+### -param freeCloneFlags [in]
 
-[in]
+
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 

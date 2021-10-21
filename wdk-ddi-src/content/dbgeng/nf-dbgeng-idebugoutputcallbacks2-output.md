@@ -49,14 +49,14 @@ This method is not used.
 
 ## -parameters
 
-### -param Mask 
+### -param Mask [in]
 
-[in]
+
 This value is not used.
 
-### -param Text 
+### -param Text [in]
 
-[in]
+
 This value is not used.
 
 ## -returns

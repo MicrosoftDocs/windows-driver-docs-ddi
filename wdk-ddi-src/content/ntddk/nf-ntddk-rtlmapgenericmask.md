@@ -49,14 +49,14 @@ The <b>RtlMapGenericMask</b> routine determines the nongeneric access rights spe
 
 ## -parameters
 
-### -param AccessMask 
+### -param AccessMask [in, out]
 
-[in, out]
+
 Pointer to an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> variable. The routine updates this to contain only those access rights that are not also granted by any GENERIC_<i>XXX</i> access rights originally specified the variable. The routine also clears any GENERIC_<i>XXX</i> bits that are set.
 
-### -param GenericMapping 
+### -param GenericMapping [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure that describes the specific access rights that correspond to each generic access right.
 
 ## -returns

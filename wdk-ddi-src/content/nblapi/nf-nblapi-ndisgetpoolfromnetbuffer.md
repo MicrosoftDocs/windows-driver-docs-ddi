@@ -51,9 +51,9 @@ Call the
 
 ## -parameters
 
-### -param NetBuffer 
+### -param NetBuffer [in]
 
-[in]
+
 A pointer to a previously allocated 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 

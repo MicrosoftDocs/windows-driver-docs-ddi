@@ -49,14 +49,14 @@ The <code>IPrintCoreHelperUni::CreateDefaultGDLSnapshot</code> method gets a GDL
 
 ## -parameters
 
-### -param dwFlags 
+### -param dwFlags [in]
 
-[in]
+
 This parameter is reserved and must be set to zero.
 
-### -param ppSnapshotStream 
+### -param ppSnapshotStream [out]
 
-[out]
+
 A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 ## -returns

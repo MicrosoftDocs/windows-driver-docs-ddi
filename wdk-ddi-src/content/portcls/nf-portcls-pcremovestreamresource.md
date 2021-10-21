@@ -49,9 +49,9 @@ PcRemoveStreamResource removes an existing  stream resource. PcRemoveStreamResou
 
 ## -parameters
 
-### -param ResourceHandle 
+### -param ResourceHandle [in]
 
-[in]
+
 PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource.  
 For more information, see <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>.
 

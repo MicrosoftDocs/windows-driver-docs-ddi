@@ -49,19 +49,19 @@ The <b>Input</b>  method requests an input string from the <a href="/windows-har
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Receives the input string from the engine.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param InputSize 
+### -param InputSize [out, optional]
 
-[out, optional]
+
 Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

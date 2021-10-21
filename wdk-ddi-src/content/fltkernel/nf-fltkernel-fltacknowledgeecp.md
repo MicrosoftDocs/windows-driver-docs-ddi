@@ -50,14 +50,14 @@ The <b>FltAcknowledgeEcp</b> routine is used to mark an extra create parameter c
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 Pointer to the ECP to mark as acknowledged.
 
 ## -returns

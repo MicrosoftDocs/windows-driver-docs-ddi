@@ -51,14 +51,14 @@ A driver's <i>EvtDeviceWdmIrpPreprocess</i> event callback function receives an 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
 ## -returns

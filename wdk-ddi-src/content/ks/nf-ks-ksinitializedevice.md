@@ -50,26 +50,26 @@ The<b> KsInitializeDevice </b>function is called by AVStream to initialize the A
 
 ## -parameters
 
-### -param FunctionalDeviceObject 
+### -param FunctionalDeviceObject [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the WDM functional device object for the device being initialized. 
 
 Normally, this is returned from an <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> call. Minidrivers calling this function directly are responsible for calling <b>IoCreateDevice</b> and attaching themselves to the device stack.
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the WDM physical device object for the device being initialized.
 
-### -param NextDeviceObject 
+### -param NextDeviceObject [in]
 
-[in]
+
 A pointer to the next <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure in the device stack as determined by a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
-### -param Descriptor 
+### -param Descriptor [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device being initialized. If this parameter is <b>NULL</b>, the device is initialized with the default characteristics and has no associated filter factories.
 
 ## -returns

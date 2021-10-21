@@ -58,28 +58,28 @@ The miniport adapter handle that NDIS passed to the
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param WhichSpace 
+### -param WhichSpace [in]
 
-[in]
+
 The type of bus data to be read. For further information, see the discussion of the 
      <i>WhichSpace</i> parameter on the reference page for 
      <a href="/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The byte offset in the configuration space, specified by 
      <i>WhichSpace</i>, from which data is read.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a buffer that receives the data read from the bus. Must be at least as large as 
      <i>Length</i> .
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the data to read.
 
 ## -returns

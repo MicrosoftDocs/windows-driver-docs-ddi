@@ -49,19 +49,19 @@ The <b>KeInitializeDpc</b> routine initializes a DPC object, and registers a <a 
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc [out]
 
-[out]
+
 Pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
-### -param DeferredRoutine 
+### -param DeferredRoutine [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> routine to associate with the DPC.
 
-### -param DeferredContext 
+### -param DeferredContext [in, optional]
 
-[in, optional]
+
 Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a>.
 
 ## -remarks

@@ -48,17 +48,17 @@ The **FltGetVolumeContext** routine retrieves a context that was set for a volum
 
 ## -parameters
 
-### -param Filter
+### -param Filter [in]
 
-[in] Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
+Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be **NULL**.
+Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be **NULL**.
 
-### -param Context
+### -param Context [out]
 
-[out] Pointer to a caller-allocated variable that receives the address of the requested context.
+Pointer to a caller-allocated variable that receives the address of the requested context.
 
 ## -returns
 

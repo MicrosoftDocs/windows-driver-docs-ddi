@@ -49,24 +49,24 @@ A PSHED plug-in's <i>RetrieveErrorInfo</i> callback function retrieves platform-
 
 ## -parameters
 
-### -param PluginContext 
+### -param PluginContext [in, out, optional]
 
-[in, out, optional]
+
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
-### -param ErrorSource 
+### -param ErrorSource [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes the error source that reported the hardware error.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by the <i>Packet</i> parameter.
 
-### -param Packet 
+### -param Packet [in, out]
 
-[in, out]
+
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure that describes the hardware error packet for the hardware error.
 
 ## -returns

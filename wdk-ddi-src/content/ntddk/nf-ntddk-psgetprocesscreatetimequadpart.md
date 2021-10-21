@@ -49,9 +49,9 @@ The <b>PsGetProcessCreateTimeQuadPart</b> routine returns a LONGLONG value that 
 
 ## -parameters
 
-### -param Process 
+### -param Process [in]
 
-[in]
+
 A pointer to the EPROCESS structure that represents the process. Drivers can use the [PsGetCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess) and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> routines to obtain a pointer to the EPROCESS structure for a process.
 
 ## -returns

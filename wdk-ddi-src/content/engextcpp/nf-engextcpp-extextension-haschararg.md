@@ -49,9 +49,9 @@ The <b>HasCharArg</b> method indicates whether a specified single-character name
 
 ## -parameters
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 Specifies the name of the argument.
 
 ## -returns

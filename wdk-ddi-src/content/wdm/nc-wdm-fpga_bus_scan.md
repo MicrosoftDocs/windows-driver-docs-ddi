@@ -47,9 +47,9 @@ Triggers a bus scan at the parent of the FPGA device.
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_reads_opt_(_Inexpressible_("varies"))]
 
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the bus extension.
+The handle to the bus extension.
 
 ## -prototype
 

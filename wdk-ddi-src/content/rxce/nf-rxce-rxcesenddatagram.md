@@ -53,28 +53,28 @@ api_name:
 
 <p>A pointer to the transport along which the TSDU is to be sent.</p>
 
-### -param pConnectionInformation 
+### -param pConnectionInformation [in]
 
-[in]
+
 A pointer to connection information that contains the remote address.
 
 ### -param SendOptions
 
 <p>A pointer to connection information that contains the remote address.</p>
 
-### -param pMdl 
+### -param pMdl [in]
 
-[in]
+
 A pointer to the buffer to be sent.
 
-### -param SendLength 
+### -param SendLength [in]
 
-[in]
+
 The length of data to be sent.
 
-### -param pCompletionContext 
+### -param pCompletionContext [in]
 
-[in]
+
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 
 ## -returns

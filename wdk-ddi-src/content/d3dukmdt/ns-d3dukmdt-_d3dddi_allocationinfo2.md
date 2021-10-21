@@ -48,29 +48,29 @@ The D3DDDI_ALLOCATIONINFO2 structure describes an allocation.
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [out]
 
-[out] Private driver data for the allocation.
+Private driver data for the allocation.
 
-### -field hSection
+### -field hSection [in]
 
-[in] A handle to valid section object.
+A handle to valid section object.
 
-### -field pSystemMem
+### -field pSystemMem [in]
 
-[in] A pointer to pre-allocated system memory.
+A pointer to pre-allocated system memory.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in, out, opts]
 
-[in, out, opts] Private data for each allocation.
+Private data for each allocation.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] Size of the private data.
+Size of the private data.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] VidPN source ID if this is a primary.
+VidPN source ID if this is a primary.
 
 ### -field Flags
 
@@ -92,13 +92,13 @@ Reserved.
 
 ### -field Flags.Value
 
-### -field GpuVirtualAddress
+### -field GpuVirtualAddress [out]
 
-[out] GPU Virtual address of the allocation created.
+GPU Virtual address of the allocation created.
 
-### -field Priority
+### -field Priority [in]
 
-[in] Priority of allocation.
+Priority of allocation.
 
 ### -field Unused
 

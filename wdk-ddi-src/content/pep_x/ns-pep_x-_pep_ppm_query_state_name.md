@@ -55,18 +55,18 @@ The <b>PEP_PPM_QUERY_STATE_NAME</b> structure contains information about a speci
 
 ## -struct-fields
 
-### -field StateIndex
+### -field StateIndex [in]
 
-[in] The index of the state that the OS is querying about.
+The index of the state that the OS is querying about.
 
-### -field NameSize
+### -field NameSize [in/out]
 
-[in/out] If <b>Name</b> is <b>NULL</b>, returns the size of the buffer required to hold <b>Name</b> (including the trailing <b>UNICODE_NULL</b> character), in WCHARs.
+If <b>Name</b> is <b>NULL</b>, returns the size of the buffer required to hold <b>Name</b> (including the trailing <b>UNICODE_NULL</b> character), in WCHARs.
 If <b>Name</b> is not <b>NULL</b>, supplies the size of the <b>Name</b> buffer, in WCHARs.
 
-### -field Name
+### -field Name [in]
 
-[in] A pointer to a buffer to copy the name of the state to, or <b>NULL</b>.
+A pointer to a buffer to copy the name of the state to, or <b>NULL</b>.
 
 ## -see-also
 

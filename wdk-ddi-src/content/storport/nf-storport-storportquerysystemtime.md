@@ -50,9 +50,9 @@ The <b>StoriPortQuerySystemTime</b> routine obtains the current system time.
 
 ## -parameters
 
-### -param CurrentTime 
+### -param CurrentTime [out]
 
-[out]
+
 Pointer to the current time, on return.
 
 ## -returns

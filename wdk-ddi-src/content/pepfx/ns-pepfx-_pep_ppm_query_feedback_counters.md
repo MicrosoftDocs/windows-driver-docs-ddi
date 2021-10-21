@@ -55,13 +55,13 @@ The <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure describes all the processor
 
 ## -struct-fields
 
-### -field Count
+### -field Count [in]
 
-[in] The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
+The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
-### -field Counters
+### -field Counters [out]
 
-[out] The first element in an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_feedback_counter">PEP_PROCESSOR_FEEDBACK_COUNTER</a> structures. If this array contains more than one element, the additional elements immediately follow the end of the <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure. The <b>Count</b> member specifies the number of elements in this array. For more information, see Remarks.
+The first element in an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_feedback_counter">PEP_PROCESSOR_FEEDBACK_COUNTER</a> structures. If this array contains more than one element, the additional elements immediately follow the end of the <b>PEP_PPM_QUERY_FEEDBACK_COUNTERS</b> structure. The <b>Count</b> member specifies the number of elements in this array. For more information, see Remarks.
 
 ## -remarks
 

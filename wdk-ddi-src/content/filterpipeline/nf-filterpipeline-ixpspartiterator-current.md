@@ -49,14 +49,14 @@ The <code>Current</code> method provides the current URI and part.
 
 ## -parameters
 
-### -param pUri 
+### -param pUri [out]
 
-[out]
+
 A pointer to the URI of the part. If <b>NULL</b>, the <i>ppXpsPartparameter</i> might still be valid.
 
-### -param ppXpsPart 
+### -param ppXpsPart [out]
 
-[out]
+
 The current part in the iterator. If <b>NULL</b>, the <i>pUri</i> parameter might still be valid.
 
 ## -returns

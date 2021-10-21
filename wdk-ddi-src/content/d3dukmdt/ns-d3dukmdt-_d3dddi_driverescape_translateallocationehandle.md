@@ -48,10 +48,10 @@ Used to translate the guest allocation to the corresponding host handle.
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
  
-[in] A handle to a DirectX Graphics allocation, returned from [DxgkCreateAllocation](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
+A handle to a DirectX Graphics allocation, returned from [DxgkCreateAllocation](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
 
 [out] A handle, which can be sent to the kernel mode driver and used in [DxgkCbAcquireHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_acquirehandledata.md), [DxgkCbReleaseHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_releasehandledata.md), [DxgkCbGetHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata.md), and [DxgkCbGetHandleParent](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandleparent.md).
 

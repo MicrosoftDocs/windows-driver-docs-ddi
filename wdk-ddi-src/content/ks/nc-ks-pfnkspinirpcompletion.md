@@ -49,14 +49,14 @@ An AVStream minidriver's <i>AVStrMiniPinIrpCompletion</i> routine is called when
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Points to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which the callback is registered.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Points to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
 
 ## -remarks

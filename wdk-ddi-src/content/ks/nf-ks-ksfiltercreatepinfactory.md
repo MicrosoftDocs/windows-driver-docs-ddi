@@ -50,19 +50,19 @@ The<b> KsFilterCreatePinFactory</b> function creates a new pin factory on the sp
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to create a new pin factory.
 
-### -param PinDescriptor 
+### -param PinDescriptor [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
-### -param PinID 
+### -param PinID [out]
 
-[out]
+
 A pointer to the location containing the ID of the new factory.
 
 ## -returns

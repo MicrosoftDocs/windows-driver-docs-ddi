@@ -51,9 +51,9 @@ The <b>pfnAllocateCb</b> function allocates system or video memory.
 
 ## -parameters
 
-### -param hDevice
+### -param hDevice [in]
 
-[in] A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 ### -param unnamedParam2
 

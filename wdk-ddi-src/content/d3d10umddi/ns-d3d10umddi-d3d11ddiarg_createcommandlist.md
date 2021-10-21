@@ -49,9 +49,9 @@ The D3D11DDIARG_CREATECOMMANDLIST structure contains a handle to the deferred co
 
 ## -struct-fields
 
-### -field hDeferredContext
+### -field hDeferredContext [in]
 
-[in] A handle to the deferred context.
+A handle to the deferred context.
 
 ## -see-also
 

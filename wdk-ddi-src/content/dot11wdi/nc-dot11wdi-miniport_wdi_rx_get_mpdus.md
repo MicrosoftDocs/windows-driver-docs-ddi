@@ -54,24 +54,24 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID.
 
-### -param ExTid 
+### -param ExTid [in]
 
-[in]
+
 The extended TID.
 
-### -param ppNBL 
+### -param ppNBL [out]
 
-[out]
+
 Pointer to a pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain from the IHV miniport.
 
 ## -remarks

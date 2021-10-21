@@ -52,21 +52,21 @@ The D3DDDIARG_BUFFERBLT structure describes the parameters of a buffer bit-block
 
 ## -struct-fields
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination vertex or index buffer.
+A handle to the destination vertex or index buffer.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source vertex or index buffer.
+A handle to the source vertex or index buffer.
 
-### -field Offset
+### -field Offset [in]
 
-[in] The offset, in bytes, of the destination buffer that the copy should be directed into.
+The offset, in bytes, of the destination buffer that the copy should be directed into.
 
-### -field SrcRange
+### -field SrcRange [in]
 
-[in] A D3DDDIRANGE structure that indicates what range of the source buffer should be copied. This D3DDDIRANGE specifies an offset and size, in bytes.
+A D3DDDIRANGE structure that indicates what range of the source buffer should be copied. This D3DDDIRANGE specifies an offset and size, in bytes.
 
 ## -see-also
 

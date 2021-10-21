@@ -49,9 +49,9 @@ The <b>MmIsDriverVerifyingByAddress</b> routine checks whether the kernel-mode  
 
 ## -parameters
 
-### -param AddressWithinSection 
+### -param AddressWithinSection [in]
 
-[in]
+
 A pointer to the virtual address within the driver image. <b>MmIsDriverVerifyingByAddress</b> uses this address to determine which driver to check.
 
 ## -returns

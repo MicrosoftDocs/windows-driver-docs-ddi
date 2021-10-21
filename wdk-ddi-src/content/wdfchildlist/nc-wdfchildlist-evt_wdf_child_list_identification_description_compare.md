@@ -51,19 +51,19 @@ A driver's <i>EvtChildListIdentificationDescriptionCompare</i> event callback fu
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList [in]
 
-[in]
+
 A handle to a framework child-list object.
 
-### -param FirstIdentificationDescription 
+### -param FirstIdentificationDescription [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies the one child identification description.
 
-### -param SecondIdentificationDescription 
+### -param SecondIdentificationDescription [in]
 
-[in]
+
 A pointer to a WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure that identifies another child identification description.
 
 ## -returns

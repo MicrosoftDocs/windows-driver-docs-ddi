@@ -50,9 +50,9 @@ The <b>RtlIsNtDdiVersionAvailable</b> routine determines if a specified version 
 
 ## -parameters
 
-### -param Version 
+### -param Version [in]
 
-[in]
+
 The version of the Windows DDI that is available. The following table lists the possible values for the <i>Version</i> parameter.
 
 <table>

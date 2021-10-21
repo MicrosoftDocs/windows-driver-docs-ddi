@@ -49,9 +49,9 @@ The <b>SetPassCount</b> method sets the number of times that the target must rea
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 The number of times that the target must hit the breakpoint before it is triggered.  The number of times the target must pass the breakpoint without triggering it is the value of <i>Count</i>, minus one.
 
 ## -returns

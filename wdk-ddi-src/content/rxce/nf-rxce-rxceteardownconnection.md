@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pConnection 
+### -param pConnection [in]
 
-[in]
+
 A pointer to an connection to be torn down.
 
 ## -returns

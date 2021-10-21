@@ -54,38 +54,38 @@ The <b>WdfMemoryCreate</b> method creates a framework memory object and allocate
 
 ## -parameters
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated.
 
-### -param PoolTag 
+### -param PoolTag [in, optional]
 
-[in, optional]
+
 A driver-defined pool tag for the allocated memory. Debuggers display this tag. Drivers typically specify a character string of up to four characters, delimited by single quotation marks, in reverse order (for example, 'dcba'). The ASCII value of each character in the tag must be between 0 and 127. Debugging your driver is easier if each pool tag is unique. 
 
 If <i>PoolTag</i> is zero, the framework provides a default pool tag that uses the first four characters of your driver's kernel-mode service name. If the service name begins with "WDF" (the name is not case sensitive and does not include the quotation marks), the next four characters are used. If fewer than four characters are available, "FxDr" is used. 
 
 For KMDF versions 1.5 and later, your driver can use the <b>DriverPoolTag</b> member of the <a href="/windows-hardware/drivers/ddi/wdfdriver/ns-wdfdriver-_wdf_driver_config">WDF_DRIVER_CONFIG</a> structure to specify a default pool tag.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The nonzero specified size, in bytes, of the buffer.
 
-### -param Memory 
+### -param Memory [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new memory object.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives a pointer to the buffer that is associated with the new memory object. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

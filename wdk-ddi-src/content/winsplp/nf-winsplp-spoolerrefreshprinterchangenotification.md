@@ -47,19 +47,19 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
 
-### -param dwColor 
 
-[in]
+### -param dwColor [in]
 
-### -param pOptions 
 
-[in]
 
-### -param ppInfo 
+### -param pOptions [in]
 
-[in, out, optional]
+
+
+### -param ppInfo [in, out, optional]
+
+
 

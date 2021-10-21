@@ -49,9 +49,9 @@ The <b>SetExecutionStatus</b> method requests that the debugger engine enter an 
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the mode for the engine to use when executing.  Possible values are those values in the table in <a href="/windows-hardware/drivers/debugger/debug-status-xxx">DEBUG_STATUS_XXX</a> whose precedence lies between DEBUG_STATUS_GO and DEBUG_STATUS_STEP_INTO.
 
 ## -returns

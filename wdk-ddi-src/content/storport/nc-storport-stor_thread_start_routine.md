@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param StartContext
+### -param StartContext [in]
 
-[in] A caller-supplied pointer to miniport-defined context information that was specified in the **StartContext** parameter in a previous call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md). **StartContext** can be NULL.
+A caller-supplied pointer to miniport-defined context information that was specified in the **StartContext** parameter in a previous call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md). **StartContext** can be NULL.
 
 ## -remarks
 

@@ -49,34 +49,34 @@ api_name:
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Specifies the file object on which the request was made.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Specifies the original property parameter. This will always be on FILE_LONG_ALIGNMENT, but cannot be on FILE_QUAD_ALIGNMENT.
 
-### -param RequestLength 
+### -param RequestLength [in]
 
-[in]
+
 Specifies the length indicated by the caller of the property parameter.
 
-### -param Data 
+### -param Data [in, out]
 
-[in, out]
+
 Specifies the original unaligned data parameter.
 
-### -param DataLength 
+### -param DataLength [in]
 
-[in]
+
 Specifies the length indicated by the caller of the data parameter.
 
-### -param IoStatus 
+### -param IoStatus [out]
 
-[out]
+
 Specifies an aligned structure that is used to return error status and information. This information is then copied to the original I/O status structure on completion.
 
 ## -returns

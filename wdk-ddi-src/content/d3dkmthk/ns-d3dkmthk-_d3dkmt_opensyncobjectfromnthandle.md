@@ -52,11 +52,11 @@ Describes information that is required to map an NT process handle to a graphics
 
 ## -struct-fields
 
-### -field hNtHandle
+### -field hNtHandle [in]
 
-[in] An NT handle to the process.
+An NT handle to the process.
 
-### -field hSyncObject
+### -field hSyncObject [out]
 
-[out] A handle of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the kernel-mode synchronization object.
+A handle of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the kernel-mode synchronization object.
 

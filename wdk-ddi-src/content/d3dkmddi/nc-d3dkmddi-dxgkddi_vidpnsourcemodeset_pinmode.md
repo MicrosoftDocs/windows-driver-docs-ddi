@@ -51,13 +51,13 @@ The <b>pfnPinMode</b> function pins a specified mode in a VidPN source mode set.
 
 ## -parameters
 
-### -param hVidPnSourceModeSet
+### -param hVidPnSourceModeSet [in]
 
-[in] A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset">pfnAcquireSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
+A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset">pfnAcquireSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
 
-### -param VidPnSourceModeId
+### -param VidPnSourceModeId [in]
 
-[in] An integer that identifies the mode to be pinned.
+An integer that identifies the mode to be pinned.
 
 ## -returns
 

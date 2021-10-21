@@ -51,14 +51,14 @@ The <b>TmReferenceEnlistmentKey</b> routine increments the reference count for t
 
 ## -parameters
 
-### -param Enlistment 
+### -param Enlistment [in]
 
-[in]
+
 A pointer to an enlistment object. Your component can receive this pointer as input to a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ptm_rm_notification">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-tmcreateenlistment">TmCreateEnlistment</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenenlistment">ZwOpenEnlistment</a> provided.
 
-### -param Key 
+### -param Key [out]
 
-[out]
+
 A pointer to a variable that receives the enlistment object's enlistment key. The caller assigns an enlistment key when it calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-tmcreateenlistment">TmCreateEnlistment</a>.
 
 ## -returns

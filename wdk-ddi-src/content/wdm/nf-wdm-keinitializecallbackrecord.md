@@ -46,9 +46,9 @@ The **KeInitializeCallbackRecord** macro initializes a [**KBUGCHECK_CALLBACK_REC
 
 ## -parameters
 
-### -param CallbackRecord
+### -param CallbackRecord [in]
 
-[in]
+
 Pointer to either a **KBUGCHECK_CALLBACK_RECORD** or a **KBUGCHECK_REASON_CALLBACK_RECORD** structure. The structure must be in resident memory, such as nonpaged pool.
 
 ## -remarks

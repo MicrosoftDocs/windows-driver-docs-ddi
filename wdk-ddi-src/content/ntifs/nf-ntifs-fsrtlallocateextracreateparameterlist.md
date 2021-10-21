@@ -49,14 +49,14 @@ The <b>FsRtlAllocateExtraCreateParameterList</b> routine allocates paged pool me
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Defines pool allocation options.  If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is combined with the <i>Flags</i> parameter by using a bitwise OR operation, any pool allocated by <b>FsRtlAllocateExtraCreateParameterList</b>  will be charged against the current process' memory quota.
 
-### -param EcpList 
+### -param EcpList [out]
 
-[out]
+
 Receives a pointer to an initialized ECP list structure.  If <b>FsRtlAllocateExtraCreateParameterList</b>  failed to allocate sufficient pool, <i>*EcpList</i> will be <b>NULL</b> and <b>FsRtlAllocateExtraCreateParameterList</b>  will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

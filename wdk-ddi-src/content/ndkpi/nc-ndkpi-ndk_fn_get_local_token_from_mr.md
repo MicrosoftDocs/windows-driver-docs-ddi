@@ -49,9 +49,9 @@ The <i>NdkGetLocalTokenFromMr</i> (<i>NDK_FN_GET_LOCAL_TOKEN_FROM_MR</i>) functi
 
 ## -parameters
 
-### -param pNdkMr 
+### -param pNdkMr [in]
 
-[in]
+
 A pointer to an NDK memory region (MR) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
 ## -returns

@@ -49,14 +49,14 @@ The <i>DxgkDdiAddDevice</i> function creates a context block for a display adapt
 
 ## -parameters
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in]
 
-[in]
+
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [out]
 
-[out]
+
 A pointer to a variable that receives a handle, created by the display miniport driver, that will represent the display adapter identified by <i>PhysicalDeviceObject</i>. The display miniport driver can return <b>NULL</b> in this parameter to indicate that it will not support the display adapter identified by <i>PhysicalDeviceObject</i>.
 
 ## -returns

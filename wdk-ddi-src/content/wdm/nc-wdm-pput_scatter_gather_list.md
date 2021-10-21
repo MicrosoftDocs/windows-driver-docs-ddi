@@ -49,19 +49,19 @@ The <b>PutScatterGatherList</b> routine frees the previously allocated map regis
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param ScatterGather 
+### -param ScatterGather [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure previously returned by <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a>.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Indicates the direction of the DMA transfer: specify <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise.
 
 ## -remarks

@@ -49,59 +49,59 @@ The <b>RtlSelfRelativeToAbsoluteSD</b> routine creates a new security descriptor
 
 ## -parameters
 
-### -param SelfRelativeSecurityDescriptor 
+### -param SelfRelativeSecurityDescriptor [in]
 
-[in]
+
 Pointer to a caller-allocated buffer that contains a SECURITY_DESCRIPTOR structure in self-relative format. <b>RtlSelfRelativeToAbsoluteSD</b> creates a version of this security descriptor in absolute format without modifying the original.
 
-### -param AbsoluteSecurityDescriptor 
+### -param AbsoluteSecurityDescriptor [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the main body of an absolute-format security descriptor. This information is formatted as a SECURITY_DESCRIPTOR structure.
 
-### -param AbsoluteSecurityDescriptorSize 
+### -param AbsoluteSecurityDescriptorSize [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>AbsoluteSecurityDescriptor</i> parameter. If the buffer is not large enough to hold the security descriptor, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size.
 
-### -param Dacl 
+### -param Dacl [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the DACL of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer.
 
-### -param DaclSize 
+### -param DaclSize [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>Dacl</i> parameter. If the buffer is not large enough to hold the DACL, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size.
 
-### -param Sacl 
+### -param Sacl [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the SACL of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer.
 
-### -param SaclSize 
+### -param SaclSize [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>Sacl</i> parameter. If the buffer is not large enough to hold the SACL, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size.
 
-### -param Owner 
+### -param Owner [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the SID of the owner of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer.
 
-### -param OwnerSize 
+### -param OwnerSize [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>Owner</i> parameter. If the buffer is not large enough to hold the SID, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size.
 
-### -param PrimaryGroup 
+### -param PrimaryGroup [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the SID of the primary group of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer.
 
-### -param PrimaryGroupSize 
+### -param PrimaryGroupSize [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>PrimaryGroup</i> parameter. If the buffer is not large enough to hold the SID, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size.
 
 ## -returns

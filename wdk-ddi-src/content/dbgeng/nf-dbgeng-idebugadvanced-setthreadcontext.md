@@ -50,14 +50,14 @@ The <b>SetThreadContext</b> method sets the current <a href="/windows-hardware/d
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Specifies the thread context. The type of the thread context is the CONTEXT structure for the target's effective processor.  The buffer <i>Context</i> must be large enough to hold this structure.
 
-### -param ContextSize 
+### -param ContextSize [in]
 
-[in]
+
 Specifies the size of the buffer <i>Context</i>.
 
 ## -returns

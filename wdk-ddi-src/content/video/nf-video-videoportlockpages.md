@@ -51,29 +51,29 @@ The <b>VideoPortLockPages</b> function is <b>obsolete</b> in Windows 2000 and la
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pVrp 
+### -param pVrp [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure. The miniport driver must have set <b>InputBuffer</b> and <b>InputBufferLength</b> to contain the virtual address and the size in bytes, respectively, of the memory to be locked for the transfer. This memory was allocated by the display driver and passed to the miniport driver through an IOCTL. The video port returns a pointer to and the size in bytes of the scatter/gather list in <b>OutputBuffer</b> and <b>OutputBufferLength</b>, respectively.
 
-### -param pUEvent 
+### -param pUEvent [in]
 
-[in]
+
 Pointer to a mapped user event that is to be set by the miniport driver, or <b>NULL</b>. The user event was mapped by the display driver and passed to the miniport driver through an IOCTL.
 
-### -param pDisplayEvent 
+### -param pDisplayEvent [in]
 
-[in]
+
 Pointer to an event that is to be set by the miniport driver, or <b>NULL</b>. This event was created by and received from the display driver through an IOCTL.
 
-### -param DmaFlags 
+### -param DmaFlags [in]
 
-[in]
+
 Specifies the action to be performed. This parameter must be one of the following values:
 
 |Value|Meaning|

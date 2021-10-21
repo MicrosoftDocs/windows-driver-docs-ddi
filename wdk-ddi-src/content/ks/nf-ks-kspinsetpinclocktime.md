@@ -50,14 +50,14 @@ The<b> KsPinSetPinClockTime </b>function sets the current time on the clock expo
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the AVStream pin object for which the exposed clock is set to the time specified by <i>Time</i>.
 
-### -param Time 
+### -param Time [in]
 
-[in]
+
 This parameter specifies the time that is set on the clock exposed by <i>Pin</i>. To determine time measurement units, use <a href="/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getresolution">IKsReferenceClock::GetResolution</a>.
 
 ## -returns

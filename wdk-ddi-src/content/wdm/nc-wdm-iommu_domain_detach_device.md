@@ -45,17 +45,17 @@ Detaches a device from an existing domain.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param PhysicalDeviceObject
+### -param PhysicalDeviceObject [_In_]
 
-[_In_] A pointer the physical device object (PDO) in the device stack of the device.
+A pointer the physical device object (PDO) in the device stack of the device.
 
-### -param InputMappingId
+### -param InputMappingId [_In_]
 
-[_In_] The input mapping for the device's desired stream.
+The input mapping for the device's desired stream.
 
 ## -returns
 

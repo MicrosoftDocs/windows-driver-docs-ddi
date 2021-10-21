@@ -51,24 +51,24 @@ The <b>FormatRequestForControlTransfer</b> method formats an I/O request object 
 
 ## -parameters
 
-### -param pRequest 
+### -param pRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format.
 
-### -param SetupPacket 
+### -param SetupPacket [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/winusb/ns-winusb-winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
 
-### -param pMemory 
+### -param pMemory [in, optional]
 
-[in, optional]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the buffer that is used for the control transfer. This parameter is optional.
 
-### -param TransferOffset 
+### -param TransferOffset [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the memory offset that is used for the control transfer. This parameter is optional.
 
 ## -returns

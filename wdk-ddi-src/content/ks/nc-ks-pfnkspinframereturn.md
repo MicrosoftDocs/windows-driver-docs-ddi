@@ -49,31 +49,31 @@ An AVStream minidriver's <i>AVStrMiniFrameReturn</i> routine is called when an i
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which the frame was injected.
 
-### -param Data 
+### -param Data [in, optional]
 
-[in, optional]
+
 Pointer to the buffer originally specified in the call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 
 ### -param OPTIONAL
 
-### -param Mdl 
+### -param Mdl [in, optional]
 
-[in, optional]
+
 Pointer to a memory descriptor list describing the injected frame as in the call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a><b>.</b>
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Pointer to the minidriver-supplied context buffer attached to the frame when the frame was injected into the circuit.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requested frame was attached.
 
 

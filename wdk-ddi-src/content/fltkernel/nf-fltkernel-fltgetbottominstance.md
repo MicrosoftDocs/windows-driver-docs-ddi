@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Volume 
+### -param Volume [in]
 
-[in]
+
 Opaque pointer for the volume.
 
-### -param Instance 
+### -param Instance [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the bottom instance for this volume. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

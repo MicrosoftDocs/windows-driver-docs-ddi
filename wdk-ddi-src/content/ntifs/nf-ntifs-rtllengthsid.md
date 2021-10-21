@@ -50,9 +50,9 @@ The <b>RtlLengthSid</b> routine returns the length, in bytes, of a valid securit
 
 ## -parameters
 
-### -param Sid 
+### -param Sid [in]
 
-[in]
+
 Pointer to the SID structure. Must point to a valid SID.
 
 ## -returns

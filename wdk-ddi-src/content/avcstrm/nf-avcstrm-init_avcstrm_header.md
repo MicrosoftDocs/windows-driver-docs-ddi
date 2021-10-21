@@ -49,14 +49,14 @@ The **INIT_AVCSTRM_HEADER** macro initializes the **SizeOfThisBlock**, **Version
 
 ## -parameters
 
-### -param AVCStrm 
+### -param AVCStrm [in]
 
-[in]
+
 Points to a caller-allocated AVC_STREAM_REQUEST_BLOCK structure.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Indicates the type of the request (function code) from the [AVCSTRM_FUNCTION](./ne-avcstrm-_avcstrm_function.md) enumeration. Each function code is documented under the [IOCTL_AVCSTRM_CLASS](./ni-avcstrm-ioctl_avcstrm_class.md) topic.
 
 ## -remarks

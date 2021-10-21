@@ -52,15 +52,15 @@ Describes information that is required to open an NT handle to the process from 
 
 ## -struct-fields
 
-### -field dwDesiredAccess
+### -field dwDesiredAccess [in]
 
-[in] Specifies read and write access for the resource.
+Specifies read and write access for the resource.
 
-### -field pObjAttrib
+### -field pObjAttrib [in]
 
-[in] A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
+A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
 
-### -field hNtHandle
+### -field hNtHandle [out]
 
-[out] An NT handle to the process.
+An NT handle to the process.
 

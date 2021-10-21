@@ -50,19 +50,19 @@ The **KsAddItemToObjectBag** function adds an object or block of memory to the g
 
 ## -parameters
 
-### -param ObjectBag 
+### -param ObjectBag [in]
 
-[in]
+
 The KSOBJECT_BAG (equivalent to type PVOID) to which to add the requested item. Every AVStream object (for example, [KSFILTER](./ns-ks-_ksfilter.md) and [KSPIN](./ns-ks-_kspin.md)) contains a member called *Bag*. Pass that member in this parameter.
 
-### -param Item 
+### -param Item [in]
 
-[in]
+
 A pointer to the item to add to the object bag.
 
-### -param Free 
+### -param Free [in, optional]
 
-[in, optional]
+
 A function that is called when the item is removed from the object bag or when the object bag is deleted. This function typically is used to free any dynamic memory associated with *Item*. The function should be prototyped as follows:
 
 ```cpp

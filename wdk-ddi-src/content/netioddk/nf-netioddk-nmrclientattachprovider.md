@@ -51,17 +51,17 @@ The
 
 ## -parameters
 
-### -param NmrBindingHandle 
+### -param NmrBindingHandle [in]
 
-[in]
+
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
      <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
      function.
 
-### -param ClientBindingContext 
+### -param ClientBindingContext [in]
 
-[in]
+
 A pointer to a caller-supplied context for the binding between the client module and the provider
      module. The client module uses this context to keep track of the state of the binding. The contents of
      the client module's binding context are opaque to the provider module. The provider module passes this
@@ -70,9 +70,9 @@ A pointer to a caller-supplied context for the binding between the client module
      require the client module's binding context. The client module must make sure that this context remains
      valid and resident in memory as long as the provider module is attached to the client module.
 
-### -param ClientDispatch 
+### -param ClientDispatch [in]
 
-[in]
+
 A pointer to a constant structure that contains the dispatch table of 
      <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
      client module. The client module must make sure that this structure remains valid and resident in memory
@@ -81,9 +81,9 @@ A pointer to a constant structure that contains the dispatch table of
      NPI does not define a client
      dispatch table structure, the client module must set this parameter to <b>NULL</b>.
 
-### -param ProviderBindingContext 
+### -param ProviderBindingContext [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the provider module's context for the binding
      between the client module and the provider module. The provider module uses this context to keep track
      of the state of the binding. The contents of the provider module's binding context are opaque to the
@@ -92,9 +92,9 @@ A pointer to a variable that receives a pointer to the provider module's context
      <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
      provider module's binding context.
 
-### -param ProviderDispatch 
+### -param ProviderDispatch [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to a structure that contains the dispatch table of     
      <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
      module. The contents of the structure are 

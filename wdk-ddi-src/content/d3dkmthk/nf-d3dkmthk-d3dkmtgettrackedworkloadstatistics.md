@@ -51,9 +51,9 @@ Note that this function returns only stats for work that is currently completed.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in/out]
 
-[in/out] Pointer to a [D3DKMT_GETTRACKEDWORKLOADSTATISTICS](ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics.md) structure to get the tracked workload statistics.
+Pointer to a [D3DKMT_GETTRACKEDWORKLOADSTATISTICS](ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics.md) structure to get the tracked workload statistics.
 
 ## -returns
 

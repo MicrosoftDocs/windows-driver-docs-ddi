@@ -49,14 +49,14 @@ The <b>PCMCIA_SET_VPP</b> interface routine sets the power level of the Vpp PCMC
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Pointer to the context for the interface routine.
 
-### -param VppLevel 
+### -param VppLevel [in]
 
-[in]
+
 Specifies the voltage level to set on the Vpp pin. <i>VppLevel</i> must be one of the following values:
 
 

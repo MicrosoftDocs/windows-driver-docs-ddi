@@ -54,14 +54,14 @@ The <b>WdfCollectionRemoveItem</b> method removes a specified object from an obj
 
 ## -parameters
 
-### -param Collection 
+### -param Collection [in]
 
-[in]
+
 A handle to a collection object.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 A zero-based index that identifies the object to remove.
 
 ## -remarks

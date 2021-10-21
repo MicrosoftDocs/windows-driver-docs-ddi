@@ -46,17 +46,17 @@ dev_langs:
 
 ## -parameters
 
-### -param ClientToken
+### -param ClientToken [in]
 
-[in] A handle to a token object representing a client attempting access. This handle must be obtained from a communication session layer, such as from an LPC Port or Local Named Pipe, to prevent possible security policy violations.
+A handle to a token object representing a client attempting access. This handle must be obtained from a communication session layer, such as from an LPC Port or Local Named Pipe, to prevent possible security policy violations.
 
-### -param RequiredPrivileges
+### -param RequiredPrivileges [in, out]
 
-[in, out] Pointer to a PRIVILEGE_SET structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
+Pointer to a PRIVILEGE_SET structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
 
-### -param Result
+### -param Result [out]
 
-[out] Receives a boolean flag indicating whether the client has all the specified privileges. A value of TRUE indicates the client has all the specified privileges; otherwise a value of FALSE is returned.
+Receives a boolean flag indicating whether the client has all the specified privileges. A value of TRUE indicates the client has all the specified privileges; otherwise a value of FALSE is returned.
 
 ## -returns
 

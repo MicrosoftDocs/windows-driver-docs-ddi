@@ -49,24 +49,24 @@ The <code>Init</code> method initializes the WavePci miniport object. Initializa
 
 ## -parameters
 
-### -param UnknownAdapter 
+### -param UnknownAdapter [in]
 
-[in]
+
 Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. For more information, see the following Remarks section.
 
-### -param ResourceList 
+### -param ResourceList [in]
 
-[in]
+
 Pointer to <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> interface of resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the port driver's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a> interface object. The caller specifies a valid, non-NULL pointer value for this parameter.
 
-### -param ServiceGroup 
+### -param ServiceGroup [out]
 
-[out]
+
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the miniport driver's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-NULL pointer value for this parameter.
 
 ## -returns

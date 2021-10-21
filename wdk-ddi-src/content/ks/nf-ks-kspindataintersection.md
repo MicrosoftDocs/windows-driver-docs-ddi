@@ -50,34 +50,34 @@ The <b>KsPinDataIntersection</b> function handles the <a href="/windows-hardware
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP that describes the property request.
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Specifies the specific property that is being queried.
 
-### -param Data 
+### -param Data [out, optional]
 
-[out, optional]
+
 Specifies the pin property-specific data.
 
-### -param DescriptorsCount 
+### -param DescriptorsCount [in]
 
-[in]
+
 Specifies the number of descriptor structures.
 
-### -param Descriptor 
+### -param Descriptor [in]
 
-[in]
+
 Specifies the pointer to the list of pin information structures.
 
-### -param IntersectHandler 
+### -param IntersectHandler [in]
 
-[in]
+
 Specifies the minidriver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksintersecthandler">KStrIntersectHandler</a> callback function to compare a data range.
 
 ## -returns

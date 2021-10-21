@@ -57,14 +57,14 @@ An AVStream minidriver's routine is called when an activity on the pin is perfor
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> that was just created.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the  IRP for <i>Pin</i>.
 
 ## -returns

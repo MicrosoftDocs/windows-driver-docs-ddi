@@ -52,48 +52,48 @@ The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the r
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource to be locked.
+A handle to the resource to be locked.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be locked.
+The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be locked.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_lockasyncflags">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_lockasyncflags">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
 
 <div class="alert"><b>Note</b>    Some flags are mutually exclusive with other flags. For more information, see the following Remarks section.</div>
 <div> </div>
 
-### -field Range
+### -field Range [in]
 
-[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
-### -field Area
+### -field Area [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
-### -field Box
+### -field Box [in]
 
-[in] A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
-### -field hCookie
+### -field hCookie [out]
 
-[out] A handle that represents the renamed resource. This handle is valid only if the <b>Discard</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+A handle that represents the renamed resource. This handle is valid only if the <b>Discard</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
-### -field pSurfData
+### -field pSurfData [out]
 
-[out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this pointer to the Microsoft Direct3D runtime.
+A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this pointer to the Microsoft Direct3D runtime.
 
-### -field Pitch
+### -field Pitch [out]
 
-[out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this pitch value to the Direct3D runtime.
+The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this pitch value to the Direct3D runtime.
 
-### -field SlicePitch
+### -field SlicePitch [out]
 
-[out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this slice pitch value to the Direct3D runtime.
+The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this slice pitch value to the Direct3D runtime.
 
 ### -field GpuVirtualAddress
 

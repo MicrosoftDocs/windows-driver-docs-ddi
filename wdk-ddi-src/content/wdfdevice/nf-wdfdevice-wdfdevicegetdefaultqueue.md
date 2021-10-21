@@ -54,9 +54,9 @@ The <b>WdfDeviceGetDefaultQueue</b> method returns a handle to a device's defaul
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

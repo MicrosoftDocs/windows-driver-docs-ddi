@@ -51,33 +51,33 @@ api_name:
 
 ## -struct-fields
 
-### -field hDxgkProcess
+### -field hDxgkProcess [in]
 
-[in] The process handle that was passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md).
+The process handle that was passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md).
 
-### -field SizeInBytes
+### -field SizeInBytes [in]
 
-[in] The size in bytes of the virtual address range. **SizeInBytes** must be set to an integral multiple of the address space covered by a single page table entry.
+The size in bytes of the virtual address range. **SizeInBytes** must be set to an integral multiple of the address space covered by a single page table entry.
 
-### -field Alignment
+### -field Alignment [in]
 
-[in] The number of bytes to align the start address to. Must be a multiple of the address space covered by a single page table entry and a power of 2.
+The number of bytes to align the start address to. Must be a multiple of the address space covered by a single page table entry and a power of 2.
 
-### -field StartVirtualAddress
+### -field StartVirtualAddress [out]
 
-[out] The starting location of the reserved address range.
+The starting location of the reserved address range.
 
-### -field BaseAddress
+### -field BaseAddress [in]
 
-[in] The base virtual address of the virtual address range in bytes. It must be aligned to the size of the address space, covered by a single page table entry.
+The base virtual address of the virtual address range in bytes. It must be aligned to the size of the address space, covered by a single page table entry.
 
-### -field AllowUserModeMapping
+### -field AllowUserModeMapping [in]
 
-[in] When set, allows the user-mode driver to map allocations to the range.
+When set, allows the user-mode driver to map allocations to the range.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A single value containing the flags set in the structure.
+A single value containing the flags set in the structure.
 
 ## -see-also
 

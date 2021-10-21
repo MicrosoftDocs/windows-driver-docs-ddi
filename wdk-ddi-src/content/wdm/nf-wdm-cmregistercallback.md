@@ -51,19 +51,19 @@ The <b>CmRegisterCallback</b> routine registers a <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param Function 
+### -param Function [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine to register.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A driver-defined value that the configuration manager will pass as the <i>CallbackContext</i> parameter to the <i>RegistryCallback</i> routine
 
-### -param Cookie 
+### -param Cookie [out]
 
-[out]
+
 A pointer to a LARGE_INTEGER variable that receives the value that identifies the callback routine. When you unregister the callback routine, pass this value as the <i>Cookie</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a>.
 
 ## -returns

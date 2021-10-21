@@ -51,9 +51,9 @@ This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 ## -returns

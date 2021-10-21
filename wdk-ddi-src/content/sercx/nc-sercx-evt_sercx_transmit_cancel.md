@@ -49,9 +49,9 @@ The <i>EvtSerCxTransmitCancel</i> event callback function notifies the serial co
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 ## -remarks

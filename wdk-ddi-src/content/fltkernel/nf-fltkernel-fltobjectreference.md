@@ -49,9 +49,9 @@ The <b>FltObjectReference</b> routine adds a rundown reference to an opaque filt
 
 ## -parameters
 
-### -param FltObject 
+### -param FltObject [in, out]
 
-[in, out]
+
 Opaque filter pointer (PFLT_FILTER), instance pointer (PFLT_INSTANCE), or volume pointer (PFLT_VOLUME).
 
 ## -returns

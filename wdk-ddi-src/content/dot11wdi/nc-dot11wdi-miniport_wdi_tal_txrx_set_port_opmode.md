@@ -54,19 +54,19 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 Port ID for the port.
 
-### -param Opmode 
+### -param Opmode [in]
 
-[in]
+
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_operation_mode">WDI_OPERATION_MODE</a> value that specifies the operation mode for the port.
 

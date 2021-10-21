@@ -49,9 +49,9 @@ The <b>KsMediaSamplesCompleted</b> method informs a pin that a stream segment co
 
 ## -parameters
 
-### -param StreamSegment 
+### -param StreamSegment [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a> structure that contains header information for a completed stream segment.
 
 ## -returns

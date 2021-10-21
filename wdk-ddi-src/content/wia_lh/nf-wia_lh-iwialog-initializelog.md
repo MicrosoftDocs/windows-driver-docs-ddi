@@ -51,9 +51,9 @@ The **IWiaLog::InitializeLog** method initializes the **lWiaLog** interface.
 
 ## -parameters
 
-### -param hInstance 
+### -param hInstance [in]
 
-[in]
+
 Specifies the module handle. This parameter indicates which module is calling the method.
 
 ## -returns

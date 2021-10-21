@@ -49,9 +49,9 @@ The <b>PoGetSystemWake</b> routine determines whether a specified IRP has been m
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to an IRP.
 
 ## -returns

@@ -45,9 +45,9 @@ The **PoSetSystemWakeDevice** function attempts to extract a PDO from the suppli
 
 ## -parameters
 
-### -param DeviceObject
+### -param DeviceObject [in]
 
-[in]
+
 Supplies a pointer to the device object that has wait/wake IRPs contributing to waking the system from a sleep state.
 
 ## -remarks

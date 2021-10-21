@@ -49,9 +49,9 @@ The <b>MmGetPhysicalAddress</b> routine returns the physical address correspondi
 
 ## -parameters
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
+
 Pointer to the virtual address for which to return the physical address.
 
 ## -returns

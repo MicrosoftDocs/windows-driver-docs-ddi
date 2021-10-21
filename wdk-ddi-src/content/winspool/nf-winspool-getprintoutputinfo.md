@@ -47,21 +47,21 @@ api_name:
 
 ## -parameters
 
-### -param hWnd 
+### -param hWnd [in]
 
-[in]
 
-### -param pszPrinter 
 
-[in]
+### -param pszPrinter [in]
 
-### -param phFile 
 
-[out]
 
-### -param ppszOutputFile 
+### -param phFile [out]
 
-[out]
+
+
+### -param ppszOutputFile [out]
+
+
 
 ## -returns
 

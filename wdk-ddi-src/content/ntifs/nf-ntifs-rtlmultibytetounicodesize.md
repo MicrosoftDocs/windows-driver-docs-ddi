@@ -49,19 +49,19 @@ The <b>RtlMultiByteToUnicodeSize</b> routine determines the number of bytes that
 
 ## -parameters
 
-### -param BytesInUnicodeString 
+### -param BytesInUnicodeString [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the number of bytes that are required to store the translated string.
 
-### -param MultiByteString 
+### -param MultiByteString [in]
 
-[in]
+
 Pointer to the source string for which the Unicode length is to be calculated.
 
-### -param BytesInMultiByteString 
+### -param BytesInMultiByteString [in]
 
-[in]
+
 Length, in bytes, of the source string.
 
 ## -returns

@@ -46,34 +46,34 @@ Preallocates logical address space that can be used for future mappings. This gr
 
 ## -parameters
 
-### -param Domain
+### -param Domain [in]
 
-[in]
+
 A pointer to the **IOMMU_DMA_DOMAIN** that the reserved logical address will belong to. The domain must be of type *DomainTypeTranslate*. For more information about domain types, see [IOMMU_DMA_DOMAIN_TYPE](ne-wdm-iommu_dma_domain_type.md).
 
-### -param Size
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the logical address range to reserve. This value must represent a whole number of pages.
 
-### -param ExplicitLogicalAddress
+### -param ExplicitLogicalAddress [in, optional]
 
-[in, optional]
+
 The domain logical address that should be reserved. If the domain was not created with a registered logical allocator, then this field is required. If the domain was created with a registered logical allocator that does not support explicit logical address allocation, then this field must be *NULL*.
 
-### -param MinLogicalAddress
+### -param MinLogicalAddress [in, optional]
 
-[in, optional]
+
 The minimum (inclusive) allowable logical address that can be reserved. If the domain was not created with a registered logical allocator, then this field will be ignored.
 
-### -param MaxLogicalAddress
+### -param MaxLogicalAddress [in, optional]
 
-[in, optional]
+
 The maximum (inclusive) allowable logical address that can be reserved. If the domain was not created with a registered logical allocator, then this field will be ignored.
 
-### -param LogicalAddressToken
+### -param LogicalAddressToken [out]
 
-[out]
+
 Returns a [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN**](ns-wdm-iommu_dma_logical_address_token.md) representing the reserved logical address range.
 
 ## -returns

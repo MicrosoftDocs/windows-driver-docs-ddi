@@ -54,24 +54,24 @@ The <b>WdfDeviceRetrieveDeviceInterfaceString</b> method retrieves the symbolic 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param InterfaceClassGUID 
+### -param InterfaceClassGUID [in]
 
-[in]
+
 A pointer to a GUID that identifies the device interface class.
 
-### -param ReferenceString 
+### -param ReferenceString [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreatedeviceinterface">WdfDeviceCreateDeviceInterface</a>.
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A handle to a <a href="/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
 
 ## -returns

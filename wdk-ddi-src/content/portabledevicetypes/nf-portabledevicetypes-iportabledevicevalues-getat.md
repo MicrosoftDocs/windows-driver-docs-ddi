@@ -50,19 +50,19 @@ Retrieves a value from the collection, by a zero-based index.
 
 ## -parameters
 
-### -param index 
+### -param index [in]
 
-[in]
+
 A <b>DWORD</b> that specifies a zero-based index in the collection.
 
-### -param pKey 
+### -param pKey [in, out]
 
-[in, out]
+
 An optional <b>PROPERTYKEY</b> pointer that retrieves the key of the specified item.
 
-### -param pValue 
+### -param pValue [in, out]
 
-[in, out]
+
 An optional <b>PROPVARIANT</b> that retrieves the value of the specified item. The caller must free the memory by calling <b>PropVariantClear</b> when done with it.
 
 ## -returns

@@ -49,24 +49,24 @@ A miniport should mark memory used for the dump file or the hibernation file. Ma
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 The starting address of the memory range to mark.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length of the marked memory range.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Dump memory marking flags. The *Flags* parameter must be 0 or contain only the following value.
 
 | Value | Meaning |

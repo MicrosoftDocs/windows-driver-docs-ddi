@@ -49,17 +49,17 @@ This callback function returns a list of data fields supported by the specified 
 
 ## -parameters
 
-### -param Sensor
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pDataFields
+### -param pDataFields [in, out, optional]
 
-[in, out, optional] A list of data fields that are supported by the given **Sensor**. For more information see [SENSOR_PROPERTY_LIST](../sensorsdef/ns-sensorsdef-sensor_property_list.md).
+A list of data fields that are supported by the given **Sensor**. For more information see [SENSOR_PROPERTY_LIST](../sensorsdef/ns-sensorsdef-sensor_property_list.md).
 
-### -param pSize
+### -param pSize [out]
 
-[out] The size of *pDataFields*.
+The size of *pDataFields*.
 
 ## -returns
 

@@ -49,14 +49,14 @@ The <i>EvtSerCxPurge</i> event callback function is called by the serial framewo
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-### -param PurgeMask 
+### -param PurgeMask [in]
 
-[in]
+
 A set of flags that describe the hardware buffers that are to be purged.  Currently, no flags are defined for purge operations that are performed by the serial controller. For more information, see Remarks.
 
 ## -returns

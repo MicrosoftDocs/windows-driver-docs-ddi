@@ -49,9 +49,9 @@ The <b>PshedRegisterPlugin</b> function registers a PSHED plug-in with the PSHED
 
 ## -parameters
 
-### -param Packet 
+### -param Packet [in, out]
 
-[in, out]
+
 A pointer to an initialized  <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure that describes the PSHED plug-in's registration information.
 
 ## -returns

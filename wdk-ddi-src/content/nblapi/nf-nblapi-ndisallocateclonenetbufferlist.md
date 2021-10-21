@@ -50,30 +50,30 @@ Call the
 
 ## -parameters
 
-### -param OriginalNetBufferList 
+### -param OriginalNetBufferList [in]
 
-[in]
+
 A pointer to an existing <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-### -param NetBufferListPoolHandle 
+### -param NetBufferListPoolHandle [in, optional]
 
-[in, optional]
+
 A handle that was obtained from a call to the 
      <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function.
 
-### -param NetBufferPoolHandle 
+### -param NetBufferPoolHandle [in, optional]
 
-[in, optional]
+
 A 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure pool handle that was
      previously returned from a call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a>.
 
-### -param AllocateCloneFlags 
+### -param AllocateCloneFlags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. The following flags are defined:
      
 

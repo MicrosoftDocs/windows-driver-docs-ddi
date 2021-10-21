@@ -47,9 +47,9 @@ dev_langs:
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] A [**DXGKARGCB_RELEASEHANDLEDATA**](ns-d3dkmddi-dxgkargcb_releasehandledata.md) structure containing information about the allocation to be released.
+A [**DXGKARGCB_RELEASEHANDLEDATA**](ns-d3dkmddi-dxgkargcb_releasehandledata.md) structure containing information about the allocation to be released.
 
 ## -returns
 

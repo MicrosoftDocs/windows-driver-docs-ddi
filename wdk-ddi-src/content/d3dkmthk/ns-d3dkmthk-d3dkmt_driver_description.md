@@ -48,10 +48,10 @@ Describes the kernel mode display driver.
 
 ## -struct-fields
 
-### -field DriverDescription
+### -field DriverDescription [out]
 
  
-[out] Pointer to a string of characters that represent the driver description.
+Pointer to a string of characters that represent the driver description.
 
 ## -remarks
 

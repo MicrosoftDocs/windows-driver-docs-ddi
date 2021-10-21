@@ -49,18 +49,18 @@ The <b>GetSetSympath</b> function can be used to either get or set the symbol se
 
 ## -parameters
 
-### -param Arg 
+### -param Arg [in]
 
-[in]
+
 Specifies the new search path. If this argument is <b>NULL</b> or the string is empty, the search path is not set and the current setting is returned in <i>Result</i>.
 
 ### -param OPTIONAL
 
 <p>Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current search path in the buffer pointed to by <i>Result</i>.</p>
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the size of the buffer for storing the result.
 
 ## -returns

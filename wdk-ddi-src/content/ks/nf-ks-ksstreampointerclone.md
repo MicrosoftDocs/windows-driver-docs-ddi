@@ -50,24 +50,24 @@ The<b> KsStreamPointerClone </b>function creates a clone of a given stream point
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer that is to be cloned.
 
-### -param CancelCallback 
+### -param CancelCallback [in, optional]
 
-[in, optional]
+
 Optional. A pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksstreampointer">AVStrMiniCancelCallback</a> routine. AVStream calls this routine if the IRP associated with <i>CloneStreamPointer</i> is canceled.
 
-### -param ContextSize 
+### -param ContextSize [in]
 
-[in]
+
 This parameter indicates how many bytes of minidriver context information the resulting clone stream pointer should have. If nonzero, the requested number of bytes are allocated immediately after the returned stream pointer, and the <i>Context</i> field of <i>CloneStreamPointer</i> points to the allocated memory.
 
-### -param CloneStreamPointer 
+### -param CloneStreamPointer [out]
 
-[out]
+
 A pointer to a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure. Upon successful completion of the cloning operation, <i>CloneStreamPointer</i> contains a pointer to the address of the cloned stream pointer.
 
 ## -returns

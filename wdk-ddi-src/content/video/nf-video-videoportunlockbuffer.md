@@ -49,14 +49,14 @@ The <b>VideoPortUnLockBuffer</b> function unlocks physical pages described by th
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 Pointer to the MDL of the buffer to be released. This parameter should be the same pointer that was returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>.
 
 ## -returns

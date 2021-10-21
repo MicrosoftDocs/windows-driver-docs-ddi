@@ -50,29 +50,29 @@ api_name:
 
 ## -parameters
 
-### -param Entry 
+### -param Entry [in]
 
-[in]
+
 An entry as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param Regions 
+### -param Regions [out]
 
-[out]
+
 The memory regions associated with the source entry.
 
-### -param RegionsCount 
+### -param RegionsCount [in]
 
-[in]
+
 The number of regions associated with the entry.
 
-### -param RegionsAvail 
+### -param RegionsAvail [out, optional]
 
-[out, optional]
+
 A pointer to the number of regions available to the entry.
 
 ## -returns

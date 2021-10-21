@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param pData
+### -param pData [in/out]
 
-[in/out] A pointer to a [**DXGKARGCB_GETCAPTUREADDRESS**](ns-d3dkmddi-_dxgkargcb_getcaptureaddress.md) structure that describes parameters for retrieving information about a capture buffer.
+A pointer to a [**DXGKARGCB_GETCAPTUREADDRESS**](ns-d3dkmddi-_dxgkargcb_getcaptureaddress.md) structure that describes parameters for retrieving information about a capture buffer.
 
 ## -returns
 

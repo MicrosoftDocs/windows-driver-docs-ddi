@@ -51,9 +51,9 @@ The <b>GetDefaultIoQueue</b> method retrieves the interface of the default I/O q
 
 ## -parameters
 
-### -param ppWdfIoQueue 
+### -param ppWdfIoQueue [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the default I/O queue object.
 
 ## -remarks

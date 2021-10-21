@@ -49,9 +49,9 @@ The <b>IsReparseTagMicrosoft</b> macro determines whether a reparse point tag in
 
 ## -parameters
 
-### -param _tag 
+### -param _tag [in]
 
-[in]
+
 Reparse point tag to be tested.
 
 ## -remarks

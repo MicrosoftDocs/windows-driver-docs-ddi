@@ -53,24 +53,24 @@ The
 
 ## -parameters
 
-### -param injectionHandle 
+### -param injectionHandle [in]
 
-[in]
+
 An injection handle that was previously created by a call to the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
-### -param netBufferList 
+### -param netBufferList [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being classified. The packet can originate from the network stack, or it can be
      injected into the network stack by a WFP callout driver.
 
-### -param injectionContext 
+### -param injectionContext [out, optional]
 
-[out, optional]
+
 An optional handle to the injection context. If the pointer is specified, and if the packet
      injection state 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> associated with the injection handle is FWPS_PACKET_INJECTED_BY_SELF

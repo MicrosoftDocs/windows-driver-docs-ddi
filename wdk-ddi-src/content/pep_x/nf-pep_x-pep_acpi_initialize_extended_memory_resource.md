@@ -49,31 +49,31 @@ The <b>PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE</b> function initializes a p
 
 ## -parameters
 
-### -param ResourceUsage 
+### -param ResourceUsage [in]
 
-[in]
+
 This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
-### -param Decode 
+### -param Decode [in]
 
-[in]
+
 When set, indicates that this bridge subtractively decodes the address. This applies to top level bridges only. 
 
 When not set, indicates that this bridge positively decodes this address.
 
-### -param IsMinFixed 
+### -param IsMinFixed [in]
 
-[in]
+
 When set, indicates that the minimum address is fixed.
 
-### -param IsMaxFixed 
+### -param IsMaxFixed [in]
 
-[in]
+
 When set, indicates that the maximum address is fixed.
 
-### -param Cacheable 
+### -param Cacheable [in]
 
-[in]
+
 The caching flag for the resource.
 
 <table>
@@ -127,50 +127,50 @@ The memory is cacheable and prefetchable.
 </tr>
 </table>
 
-### -param ReadWrite 
+### -param ReadWrite [in]
 
-[in]
+
 When true, indicates that the resource is available for read/write access. Otherwise, it's read-only.
 
-### -param AddressGranularity 
+### -param AddressGranularity [in]
 
-[in]
+
 A bit mask indicating which bits have been decoded.
 
-### -param AddressMinimum 
+### -param AddressMinimum [in]
 
-[in]
+
 For bridges that translate addresses, this indicates the minimum starting address on the secondary side of the bridge.
 
-### -param AddressMaximum 
+### -param AddressMaximum [in]
 
-[in]
+
 For bridges that translate addresses, this indicates the maximum starting address on the secondary side of the bridge.
 
-### -param AddressTranslation 
+### -param AddressTranslation [in]
 
-[in]
+
 For bridges that translate addresses across the bridge, this is the
 address on the primary side.
 
-### -param RangeLength 
+### -param RangeLength [in]
 
-[in]
+
 The length of the address range.
 
-### -param TypeSpecificAttributes 
+### -param TypeSpecificAttributes [in]
 
-[in]
+
 The type-specific attributes for this resource.
 
-### -param DescriptorName 
+### -param DescriptorName [in]
 
-[in]
+
 The name of the resource descriptor.
 
-### -param MemoryRangeType 
+### -param MemoryRangeType [in]
 
-[in]
+
 This parameter identifies the type of memory range provided by this resource.
 
 <table>
@@ -234,9 +234,9 @@ an NVS sleep.
 
 <p>When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.</p>
 
-### -param Resource 
+### -param Resource [out]
 
-[out]
+
 This is cast to *<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 ## -see-also

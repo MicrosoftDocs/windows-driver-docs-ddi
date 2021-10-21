@@ -49,14 +49,14 @@ This function initializes the sensor in the class extension.
 
 ## -parameters
 
-### -param FxDevice 
+### -param FxDevice [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
-### -param pSensorConfig 
+### -param pSensorConfig [in]
 
-[in]
+
 A list of functions that the driver implements. For more information, see <a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>.
 
 ## -returns

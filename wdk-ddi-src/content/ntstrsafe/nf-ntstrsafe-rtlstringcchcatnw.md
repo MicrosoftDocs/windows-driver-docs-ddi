@@ -50,19 +50,19 @@ The <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> functions concatenate 
 
 ## -parameters
 
-### -param pszDest 
+### -param pszDest [in, out]
 
-[in, out]
+
 A pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cchMaxAppend</i> characters, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
 
-### -param cchDest 
+### -param cchDest [in]
 
-[in]
+
 The size of the destination buffer, in characters. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH.
 
-### -param pszSrc 
+### -param pszSrc [in]
 
-[in]
+
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>.
 
 ### -param cchToAppend

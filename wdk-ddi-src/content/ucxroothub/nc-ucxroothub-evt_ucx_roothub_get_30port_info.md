@@ -49,14 +49,14 @@ The client driver's implementation that UCX calls when it receives a request for
 
 ## -parameters
 
-### -param UcxRootHub 
+### -param UcxRootHub [in]
 
-[in]
+
 A handle to a UCX object that represents the root hub.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A structure of type <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a>.
 
 ## -remarks

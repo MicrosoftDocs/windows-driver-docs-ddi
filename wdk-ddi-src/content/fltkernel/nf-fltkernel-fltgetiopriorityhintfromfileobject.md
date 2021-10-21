@@ -49,9 +49,9 @@ The <b>FltGetIoPriorityHintFromFileObject</b> routine is used by a minifilter dr
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to a file object. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

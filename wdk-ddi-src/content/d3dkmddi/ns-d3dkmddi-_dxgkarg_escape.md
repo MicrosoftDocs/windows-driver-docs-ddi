@@ -52,25 +52,25 @@ The DXGKARG_ESCAPE structure describes information that the user-mode display dr
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) that was originally passed to the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function.
+A handle to the display device (graphics context) that was originally passed to the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in/out]
 
-[in/out] A pointer to a buffer that contains the information that the display miniport driver and the user-mode display driver share.
+A pointer to a buffer that contains the information that the display miniport driver and the user-mode display driver share.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in/out]
 
-[in/out] The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to the context that was originally passed to the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> function.
+A handle to the context that was originally passed to the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> function.
 
 ### -field hKmdProcessHandle
 

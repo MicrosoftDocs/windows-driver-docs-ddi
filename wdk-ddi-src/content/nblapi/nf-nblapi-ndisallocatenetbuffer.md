@@ -51,22 +51,22 @@ Call the
 
 ## -parameters
 
-### -param PoolHandle 
+### -param PoolHandle [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure pool handle that was previously returned from a call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a>.
 
-### -param MdlChain 
+### -param MdlChain [in, optional]
 
-[in, optional]
+
 A pointer to an MDL chain that NDIS uses to initialize the new <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure. 
      <i>MdlChain</i> can be <b>NULL</b>.
 
-### -param DataOffset 
+### -param DataOffset [in]
 
-[in]
+
 The initial offset, in bytes, from the start of the buffer to the start of the 
      <i>used data space</i> in the MDL chain. Data space ahead of this offset is 
      <i>unused data space</i>. Therefore, this value also represents the initial amount of available backfill
@@ -74,9 +74,9 @@ The initial offset, in bytes, from the start of the buffer to the start of the
      <i>MdlChain</i> is <b>NULL</b>, 
      <i>DataOffset</i> must be 0.
 
-### -param DataLength 
+### -param DataLength [in]
 
-[in]
+
 The length of the 
      <i>used data space</i>, in bytes, in the MDL chain. If 
      <i>MdlChain</i> is <b>NULL</b>, 

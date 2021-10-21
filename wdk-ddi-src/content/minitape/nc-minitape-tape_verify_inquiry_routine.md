@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param InquiryData 
+### -param InquiryData [in]
 
-[in]
+
 Pointer to SCSI inquiry data for the device.
 
-### -param ModeCapabilitiesPage 
+### -param ModeCapabilitiesPage [in]
 
-[in]
+
 Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level information about the device. The format of this structure is defined by the QIC 157 standard and is subject to change. The pointer is <b>NULL</b> if the tape device does not support a mode capabilities page.
 
 ## -returns

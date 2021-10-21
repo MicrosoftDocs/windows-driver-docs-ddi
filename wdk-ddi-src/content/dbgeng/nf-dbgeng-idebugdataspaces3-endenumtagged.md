@@ -49,9 +49,9 @@ The <b>EndEnumTagged</b> method releases the resources used by the specified enu
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Specifies the handle identifying the enumeration.  This is the handle returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>.
 
 ## -returns

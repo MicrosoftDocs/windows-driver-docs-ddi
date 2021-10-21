@@ -51,13 +51,13 @@ A kernel-mode display miniport driver can call **DXGKCB_RESERVEGPUVIRTUALADDRESS
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the display adapter.
+A handle to the display adapter.
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] A [**DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE**](ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md) structure that describes the operation.
+A [**DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE**](ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md) structure that describes the operation.
 
 ## -returns
 

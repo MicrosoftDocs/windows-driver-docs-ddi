@@ -54,14 +54,14 @@ The <b>WdfDeviceInitSetPowerPolicyEventCallbacks</b> method registers a driver's
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A caller-supplied pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param PowerPolicyEventCallbacks 
+### -param PowerPolicyEventCallbacks [in]
 
-[in]
+
 A pointer to a caller-initialized <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_policy_event_callbacks">WDF_POWER_POLICY_EVENT_CALLBACKS</a> structure.
 
 ## -remarks

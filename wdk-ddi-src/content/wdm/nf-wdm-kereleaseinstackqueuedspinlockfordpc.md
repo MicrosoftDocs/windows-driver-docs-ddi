@@ -49,9 +49,9 @@ The <b>KeReleaseInStackQueuedSpinLockForDpc</b> routine releases a queued spin l
 
 ## -parameters
 
-### -param LockHandle 
+### -param LockHandle [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a> structure that <a href="/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a> initialized when the queued spin lock was acquired.
 
 ## -remarks

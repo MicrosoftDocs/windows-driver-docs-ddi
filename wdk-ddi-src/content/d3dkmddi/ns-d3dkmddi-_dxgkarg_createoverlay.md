@@ -52,17 +52,17 @@ The DXGKARG_CREATEOVERLAY structure describes parameters to create an overlay.
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the overlay is displayed on.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the overlay is displayed on.
 
-### -field OverlayInfo
+### -field OverlayInfo [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to create the overlay.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to create the overlay.
 
-### -field hOverlay
+### -field hOverlay [out]
 
-[out] A handle to the newly created overlay.
+A handle to the newly created overlay.
 
 ## -see-also
 

@@ -52,13 +52,13 @@ The DXGKARG_CLOSEALLOCATION structure describes allocations that the display min
 
 ## -struct-fields
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of elements in the array that <b>pOpenHandleList</b> specifies.
+The number of elements in the array that <b>pOpenHandleList</b> specifies.
 
-### -field pOpenHandleList
+### -field pOpenHandleList [in]
 
-[in] An array of handles to device-specific allocations to close.
+An array of handles to device-specific allocations to close.
 
 ## -see-also
 

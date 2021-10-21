@@ -49,11 +49,11 @@ For internal use only.
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
 
-### -param CompanionTarget 
 
-[out]
+### -param CompanionTarget [out]
+
+
 

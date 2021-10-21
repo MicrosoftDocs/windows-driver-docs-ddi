@@ -49,9 +49,9 @@ The <b>FltReleasePushLock</b> routine releases a specified push lock owned by th
 
 ## -parameters
 
-### -param Lock 
+### -param Lock [in, out]
 
-[in, out]
+
 Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
 
 ## -remarks

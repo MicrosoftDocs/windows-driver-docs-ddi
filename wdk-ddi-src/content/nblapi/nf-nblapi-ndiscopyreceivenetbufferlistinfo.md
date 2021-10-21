@@ -51,14 +51,14 @@ Intermediate drivers call the
 
 ## -parameters
 
-### -param DestNetBufferList 
+### -param DestNetBufferList [in]
 
-[in]
+
 A pointer to the destination <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-### -param SrcNetBufferList 
+### -param SrcNetBufferList [in]
 
-[in]
+
 A pointer to the source <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -remarks

@@ -48,46 +48,46 @@ The virtual address (VA) range description.
 
 ## -struct-fields
 
-### -field VadAddress
+### -field VadAddress [in]
 
-[in] The video acceleration display (VAD) address.
+The video acceleration display (VAD) address.
 
-### -field VaRangeIndex
+### -field VaRangeIndex [in]
 
-[in] The virtual address range index.
+The virtual address range index.
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The physical adapter index in the LDA (linked display adapter) chain.
+The physical adapter index in the LDA (linked display adapter) chain.
 
-### -field StartAddress
+### -field StartAddress [out]
 
-[out] The start address.
+The start address.
 
-### -field EndAddress
+### -field EndAddress [out]
 
-[out] The end address.
+The end address.
 
-### -field DriverProtection
+### -field DriverProtection [out]
 
-[out] The driver protection.
+The driver protection.
 
-### -field OwnerType
+### -field OwnerType [out]
 
-[out] A VIDMM_VAD_OWNER_TYPE owner type.
+A VIDMM_VAD_OWNER_TYPE owner type.
 
-### -field pOwner
+### -field pOwner [out]
 
-[out] Pointer to the owner.
+Pointer to the owner.
 
-### -field OwnerOffset
+### -field OwnerOffset [out]
 
-[out] The owner offset.
+The owner offset.
 
-### -field Protection
+### -field Protection [out]
 
  
-[out] A D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE protection type.
+A D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE protection type.
 
 ## -remarks
 

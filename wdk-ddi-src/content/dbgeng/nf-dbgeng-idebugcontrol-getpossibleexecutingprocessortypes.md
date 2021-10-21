@@ -49,19 +49,19 @@ The <b>GetPossibleExecutingProcessorTypes</b> method returns the processor types
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first processor type to return.  The processor types are indexed by numbers zero through to the number of processor types supported by the current target minus one.  The number of processor types supported by the current target can be found using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberpossibleexecutingprocessortypes">GetNumberPossibleExecutingProcessorTypes</a>.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies how many processor types to return.
 
-### -param Types 
+### -param Types [out]
 
-[out]
+
 Receives the list of processor types.  The number of elements this array holds is <i>Count</i>.  For a description of the processor types see <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a>.
 
 ## -returns

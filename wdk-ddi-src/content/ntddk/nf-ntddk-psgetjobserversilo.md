@@ -53,14 +53,14 @@ This routine returns the effective <i>ServerSilo</i> for the job. The returned p
 
 ## -parameters
 
-### -param Job 
+### -param Job [in, optional]
 
-[in, optional]
+
 A job object.
 
-### -param ServerSilo 
+### -param ServerSilo [out]
 
-[out]
+
  A pointer that receives the server silo for the job.
 
 ## -returns

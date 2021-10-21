@@ -45,9 +45,9 @@ Reads a byte from the specified port.
 
 ## -parameters
 
-### -param Port
+### -param Port [_In_]
 
-[_In_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that was received during port initialization.
+A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that was received during port initialization.
 
 ### -param Index
 

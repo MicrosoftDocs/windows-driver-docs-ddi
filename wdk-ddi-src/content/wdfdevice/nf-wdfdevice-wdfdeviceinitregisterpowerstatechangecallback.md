@@ -55,24 +55,24 @@ The <b>WdfDeviceInitRegisterPowerStateChangeCallback</b> method registers a driv
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A caller-supplied pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param PowerState 
+### -param PowerState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a> enumerator that identifies the power machine state for which the driver is requesting notification.
 
-### -param EvtDevicePowerStateChange 
+### -param EvtDevicePowerStateChange [in]
 
-[in]
+
 A caller-supplied pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_state_change_notification">EvtDevicePowerStateChange</a> event callback function.
 
-### -param CallbackTypes 
+### -param CallbackTypes [in]
 
-[in]
+
 An ORed combination of <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 
 ## -returns

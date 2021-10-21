@@ -49,14 +49,14 @@ The <b>FltGetFilterFromInstance</b> routine returns an opaque filter pointer for
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the instance.
 
-### -param RetFilter 
+### -param RetFilter [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives an opaque filter pointer for the minifilter driver. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

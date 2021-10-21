@@ -52,14 +52,14 @@ The <b>BdaPropertyPinTypes</b> function retrieves a list of pin types in a templ
 
 ### -param pIrp
 
-### -param pKSProperty 
+### -param pKSProperty [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
-### -param pulProperty 
+### -param pulProperty [out]
 
-[out]
+
 Points to an array that receives the list of pin types. 
 
 

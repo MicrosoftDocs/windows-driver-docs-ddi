@@ -49,9 +49,9 @@ The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the
 
 ## -parameters
 
-### -param dwTimeOut 
+### -param dwTimeOut [in]
 
-[in]
+
 Caller-supplied time-out value, in milliseconds. If the lock is not obtained in this time period, an error is returned.
 
 ## -returns

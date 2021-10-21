@@ -50,9 +50,9 @@ A kernel-mode display miniport driver calls **DXGKCB_INDICATE_CONNECTOR_CHANGE**
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle that identifies the adapter.
+Handle that identifies the adapter.
 
 ## -returns
 

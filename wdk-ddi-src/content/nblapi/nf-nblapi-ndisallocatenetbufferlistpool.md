@@ -50,14 +50,14 @@ Call the
 
 ## -parameters
 
-### -param NdisHandle 
+### -param NdisHandle [in, optional]
 
-[in, optional]
+
 An NDIS handle that was obtained during caller initialization.
 
-### -param Parameters 
+### -param Parameters [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that defines the parameters for the pool.
 
 ## -returns

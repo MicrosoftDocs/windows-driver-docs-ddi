@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A value in  the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 ## -returns

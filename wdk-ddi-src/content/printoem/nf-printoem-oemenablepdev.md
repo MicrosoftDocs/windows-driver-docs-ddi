@@ -49,29 +49,29 @@ api_name:
 
 ### -param pdevobj
 
-### -param pPrinterName 
+### -param pPrinterName [in]
 
-[in]
+
 
 ### -param cPatterns
 
-### -param phsurfPatterns 
+### -param phsurfPatterns [in]
 
-[in]
+
 
 ### -param cjGdiInfo
 
-### -param pGdiInfo 
+### -param pGdiInfo [in, out]
 
-[in, out]
+
 
 ### -param cjDevInfo
 
-### -param pDevInfo 
+### -param pDevInfo [in, out]
 
-[in, out]
 
-### -param pded 
 
-[in]
+### -param pded [in]
+
+
 

@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param NameCacheCtl 
+### -param NameCacheCtl [in]
 
-[in]
+
 A pointer to the NAME_CACHE_CONTROL structure to initialize.
 
-### -param MRxNameCacheSize 
+### -param MRxNameCacheSize [in]
 
-[in]
+
 The size, in bytes, of the network mini-redirector portion of the NAME_CACHE entry.
 
-### -param MaximumEntries 
+### -param MaximumEntries [in]
 
-[in]
+
 The maximum number of entries that will ever be allocated. This value prevents an errant program that opens a large number of files with bad names from using all of the paged pool memory.
 
 ## -see-also

@@ -50,14 +50,14 @@ Queries the data read from
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param BaseRegisterValues 
+### -param BaseRegisterValues [out]
 
-[out]
+
 A pointer to an array of variables that is bounded by the number of BARs in a PCI device.
 
 ## -returns

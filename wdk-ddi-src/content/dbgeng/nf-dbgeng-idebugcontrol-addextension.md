@@ -49,19 +49,19 @@ The <b>AddExtension</b>  method loads an extension library into the <a href="/wi
 
 ## -parameters
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the fully qualified path and file name of the extension library to load.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to zero.
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 Receives the handle of the loaded extension library.
 
 ## -returns

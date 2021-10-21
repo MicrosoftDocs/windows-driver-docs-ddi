@@ -54,34 +54,34 @@ The <b>WdfIoTargetSendReadSynchronously</b> method builds a read request and sen
 
 ## -parameters
 
-### -param IoTarget 
+### -param IoTarget [in]
 
-[in]
+
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a> or from a method that a specialized I/O target supplies.
 
-### -param Request 
+### -param Request [in, optional]
 
-[in, optional]
+
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
-### -param OutputBuffer 
+### -param OutputBuffer [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes the buffer that will receive data from the device.This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
-### -param DeviceOffset 
+### -param DeviceOffset [in, optional]
 
-[in, optional]
+
 A pointer to a location that specifies a starting offset for the transfer. The I/O target (that is, the next-lower driver) defines how to use this value. For example, the drivers in a disk's driver stack might specify an offset from the beginning of the disk. The I/O target obtains this information in the <b>Parameters.Read.DeviceOffset</b> member of the request's <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure. This pointer is optional. Most drivers set this pointer to <b>NULL</b>.
 
-### -param RequestOptions 
+### -param RequestOptions [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the read request. This pointer is optional and can be <b>NULL</b>.
 
-### -param BytesRead 
+### -param BytesRead [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives the number of bytes read, if the operation succeeds. This pointer is optional and can be <b>NULL</b>.
 
 ## -returns

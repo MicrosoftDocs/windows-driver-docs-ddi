@@ -52,25 +52,25 @@ The <b>D3DDDI_ALLOCATIONLIST</b> structure describes information about an alloca
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] The allocation handle returned by the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenresource">D3DKMTOpenResource</a> function in the <b>hAllocation</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_openallocationinfo">D3DDDI_OPENALLOCATIONINFO</a>   structure, or by the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a> function in the <b>hAllocation</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo">D3DDDI_ALLOCATIONINFO</a> structure.
+The allocation handle returned by the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenresource">D3DKMTOpenResource</a> function in the <b>hAllocation</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_openallocationinfo">D3DDDI_OPENALLOCATIONINFO</a>   structure, or by the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a> function in the <b>hAllocation</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo">D3DDDI_ALLOCATIONINFO</a> structure.
 
-### -field WriteOperation
+### -field WriteOperation [in]
 
-[in] A UINT that can hold information about whether the allocation can be written to. Setting to 1 indicates the allocation can be written to.
+A UINT that can hold information about whether the allocation can be written to. Setting to 1 indicates the allocation can be written to.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-### -field DoNotRetireInstance
+### -field DoNotRetireInstance [in]
 
-[in] A UINT that can hold information about whether the allocation can be retired. Setting to 1 indicates that the video memory manager should not retire the instance of the allocation because the driver will reference it again in a subsequent DMA buffer (for example, a manual broadcast of a DMA buffer to multiple contexts). All instances of an allocation are eventually retired. This flag is rarely used.
+A UINT that can hold information about whether the allocation can be retired. Setting to 1 indicates that the video memory manager should not retire the instance of the allocation because the driver will reference it again in a subsequent DMA buffer (for example, a manual broadcast of a DMA buffer to multiple contexts). All instances of an allocation are eventually retired. This flag is rarely used.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
-### -field OfferPriority
+### -field OfferPriority [in]
 
-[in] A value from the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> enumeration that indicates the importance of video memory resources  that the user-mode display driver offers for reuse.
+A value from the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> enumeration that indicates the importance of video memory resources  that the user-mode display driver offers for reuse.
 
 If <b>OfferPriority</b> does not have a value of <b>D3DDDI_OFFER_PRIORITY_NONE</b>, the allocation is considered to be offered after the DMA buffer is processed.
 
@@ -78,9 +78,9 @@ Setting this member is equivalent to setting bits 3 through 5 of the 32-bit <b>V
 
 Supported starting with Windows 8.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] This member is reserved and should be set to zero.
+This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros. 
 
@@ -90,9 +90,9 @@ Supported starting with Windows 8.
 
 Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
-### -field Value
+### -field Value [in]
 
-[in] A 32-bit value that identifies information about an allocation specification used in DMA buffering.
+A 32-bit value that identifies information about an allocation specification used in DMA buffering.
 
 ## -see-also
 

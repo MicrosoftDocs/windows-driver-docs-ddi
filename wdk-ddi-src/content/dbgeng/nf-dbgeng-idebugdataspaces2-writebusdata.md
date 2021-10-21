@@ -49,39 +49,39 @@ The <b>WriteBusData</b> method writes data to a system bus.
 
 ## -parameters
 
-### -param BusDataType 
+### -param BusDataType [in]
 
-[in]
+
 Specifies the bus data type of the bus to write to.  For details of allowed values see the documentation for the BUS_DATA_TYPE enumeration in the Microsoft Windows SDK.
 
-### -param BusNumber 
+### -param BusNumber [in]
 
-[in]
+
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same bus data type.
 
-### -param SlotNumber 
+### -param SlotNumber [in]
 
-[in]
+
 Specifies the logical slot number on the bus.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the offset in the bus data to start writing to.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the data to write to the bus.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
-### -param BytesWritten 
+### -param BytesWritten [out, optional]
 
-[out, optional]
+
 Receives the number of bytes written to the bus.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

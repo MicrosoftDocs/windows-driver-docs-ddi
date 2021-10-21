@@ -49,9 +49,9 @@ The <b>IoReportRootDevice</b> routine reports a device that cannot be detected b
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to the driver object of the driver that detected the device.
 
 ## -returns

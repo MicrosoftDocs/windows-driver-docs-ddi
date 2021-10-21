@@ -49,14 +49,14 @@ Reads a string property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
-### -param pbstrValue 
+### -param pbstrValue [out, retval]
 
-[out, retval]
+
 The value read.
 
 ## -returns

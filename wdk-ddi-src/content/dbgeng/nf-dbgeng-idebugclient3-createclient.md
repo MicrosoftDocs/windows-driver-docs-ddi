@@ -49,9 +49,9 @@ The <b>CreateClient</b> method creates a new client object for the current threa
 
 ## -parameters
 
-### -param Client 
+### -param Client [out]
 
-[out]
+
 Receives an interface pointer for the new client.
 
 ## -returns

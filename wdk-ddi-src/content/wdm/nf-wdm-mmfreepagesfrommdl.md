@@ -49,9 +49,9 @@ The <b>MmFreePagesFromMdl</b> routine frees all the physical pages that are desc
 
 ## -parameters
 
-### -param MemoryDescriptorList 
+### -param MemoryDescriptorList [in]
 
-[in]
+
 Pointer to an MDL that was created by <b>MmAllocatePagesForMdl</b>.
 
 ## -remarks

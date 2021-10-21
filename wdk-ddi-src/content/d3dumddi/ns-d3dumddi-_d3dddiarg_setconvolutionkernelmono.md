@@ -52,21 +52,21 @@ The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for settin
 
 ## -struct-fields
 
-### -field Width
+### -field Width [in]
 
-[in] The width, which is the resolution of the filter kernel in the horizontal direction. Valid values for this member are from 1 to 7.
+The width, which is the resolution of the filter kernel in the horizontal direction. Valid values for this member are from 1 to 7.
 
-### -field Height
+### -field Height [in]
 
-[in] The height, which is the resolution of the filter kernel in the vertical direction. Valid values for this member are from 1 to 7.
+The height, which is the resolution of the filter kernel in the vertical direction. Valid values for this member are from 1 to 7.
 
-### -field pKernelRow
+### -field pKernelRow [in]
 
-[in] A pointer to weights in the horizontal direction of a separable filter. In Microsoft Direct3D 9.L and later, <b>pKernelRow</b> must be <b>NULL</b>, which indicates that all of the weights are 1.0.
+A pointer to weights in the horizontal direction of a separable filter. In Microsoft Direct3D 9.L and later, <b>pKernelRow</b> must be <b>NULL</b>, which indicates that all of the weights are 1.0.
 
-### -field pKernelCol
+### -field pKernelCol [in]
 
-[in] A pointer to weights in the vertical direction of a separable filter. In Direct3D 9.L and later, <b>pKernelCol</b> must be <b>NULL</b>, which indicates that all of the weights are 1.0.
+A pointer to weights in the vertical direction of a separable filter. In Direct3D 9.L and later, <b>pKernelCol</b> must be <b>NULL</b>, which indicates that all of the weights are 1.0.
 
 ## -see-also
 

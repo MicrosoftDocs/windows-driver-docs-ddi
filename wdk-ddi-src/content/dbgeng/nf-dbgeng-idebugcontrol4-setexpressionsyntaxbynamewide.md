@@ -49,9 +49,9 @@ The  <b>SetExpressionSyntaxByNameWide</b> method sets the syntax that the engine
 
 ## -parameters
 
-### -param AbbrevName 
+### -param AbbrevName [in]
 
-[in]
+
 Specifies the abbreviated name of the syntax.  It can be one of the following strings:
 
 

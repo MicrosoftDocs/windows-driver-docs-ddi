@@ -51,9 +51,9 @@ Call the
 
 ## -parameters
 
-### -param NetBufferList 
+### -param NetBufferList [in]
 
-[in]
+
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlist">NdisAllocateNetBufferList</a> or 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">

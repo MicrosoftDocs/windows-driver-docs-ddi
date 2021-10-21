@@ -52,13 +52,13 @@ The D3DDDIARG_CREATEVERTEXSHADERFUNC structure specifies a shader handle to asso
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in]
 
-[in] The size, in bytes, of the vertex shader code that is passed to the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderfunc">CreateVertexShaderFunc</a> function.
+The size, in bytes, of the vertex shader code that is passed to the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderfunc">CreateVertexShaderFunc</a> function.
 
-### -field ShaderHandle
+### -field ShaderHandle [out]
 
-[out] A handle to the vertex shader code.
+A handle to the vertex shader code.
 
 ## -remarks
 

@@ -49,9 +49,9 @@ The <i>CLIENT_EnableInterrupt</i> event callback function enables interrupts on 
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 ### -param EnableParameters

@@ -50,9 +50,9 @@ Notifies the USB connector manager framework extension (UcmCx) when the partner 
 
 ## -parameters
 
-### -param Connector 
+### -param Connector [in]
 
-[in]
+
 Handle to the connector object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
 ## -returns

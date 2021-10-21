@@ -49,29 +49,29 @@ A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the 
 
 ## -parameters
 
-### -param InitializationContext 
+### -param InitializationContext [in]
 
-[in]
+
 Pointer to the filter device object of the driver that supplies the callback.
 
-### -param SynchFuncContext 
+### -param SynchFuncContext [in]
 
-[in]
+
 Pointer to the context for the callbacks that are pointed to by <i>ReadPort</i> and <i>Writeport.</i>
 
-### -param ReadPort 
+### -param ReadPort [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_synch_read_port">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
 
-### -param WritePort 
+### -param WritePort [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_synch_write_port">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
 
-### -param TurnTranslationOn 
+### -param TurnTranslationOn [out]
 
-[out]
+
 Specifies whether to turn translation on or off. If <i>TranslationOn</i> is <b>TRUE</b>, translation is turned on; otherwise, translation is turned off.
 
 ## -returns

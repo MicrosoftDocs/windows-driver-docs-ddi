@@ -48,29 +48,29 @@ Unlike [**IOMMU_MAP_LOGICAL_RANGE_EX**](nc-wdm-iommu_map_logical_range_ex.md), t
 
 ## -parameters
 
-### -param LogicalAddressToken
+### -param LogicalAddressToken [in, out]
 
-[in, out]
+
 The [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN**](ns-wdm-iommu_dma_logical_address_token.md) to be mapped to.
 
-### -param Offset
+### -param Offset [in]
 
-[in]
+
 The offset, in bytes, into the logical address token, representing the base logical address to be mapped.
 
-### -param Permissions
+### -param Permissions [in]
 
-[in]
+
 A bit-field representing the permissions to be set for the range being mapped. See Remarks for the available permission bits.
 
-### -param PhysicalAddressToMap
+### -param PhysicalAddressToMap [in]
 
-[in]
+
 The [**IOMMU_MAP_PHYSICAL_ADDRESS**](ns-wdm-iommu_map_physical_address.md) that will be mapped to the domain.
 
-### -param MappedSegment
+### -param MappedSegment [out]
 
-[out]
+
 Returns the [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN_MAPPED_SEGMENT**](ns-wdm-iommu_dma_logical_address_token_mapped_segment.md) representing a segment of the logical address token that is now mapped.
 
 ## -returns

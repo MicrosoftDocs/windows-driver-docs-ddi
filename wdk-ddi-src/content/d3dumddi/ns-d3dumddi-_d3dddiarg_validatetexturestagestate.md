@@ -52,9 +52,9 @@ The D3DDDIARG_VALIDATETEXTURESTAGESTATE structure contains the number of passes 
 
 ## -struct-fields
 
-### -field NumPasses
+### -field NumPasses [in]
 
-[in] The number of passes in which the hardware can perform the blending operations that are specified in the current state.
+The number of passes in which the hardware can perform the blending operations that are specified in the current state.
 
 ## -see-also
 

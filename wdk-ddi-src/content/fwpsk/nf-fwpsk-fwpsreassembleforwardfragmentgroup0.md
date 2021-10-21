@@ -53,9 +53,9 @@ The
 
 ## -parameters
 
-### -param addressFamily 
+### -param addressFamily [in]
 
-[in]
+
 One of the following address families:
      
 
@@ -73,17 +73,17 @@ The IPv4 address family.
 
 The IPv6 address family.
 
-### -param fragmentGroupNblChain 
+### -param fragmentGroupNblChain [in, out]
 
-[in, out]
+
 A pointer to the 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain of IP fragments to
      reassemble into a single packet. For more information on the usage of
      this parameter, see Remarks.
 
-### -param netBufferAndNetBufferListPoolHandle 
+### -param netBufferAndNetBufferListPoolHandle [in, optional]
 
-[in, optional]
+
 An optional 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure pool handle that
      was previously returned from the 
@@ -94,21 +94,21 @@ An optional
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
      <b>DataSize</b> member set to zero. If this parameter is <b>NULL</b>, NDIS uses an internal pool.
 
-### -param dataBackFill 
+### -param dataBackFill [in]
 
-[in]
+
 If allocation of 
      unused data space (backfill space) is required, this parameter specifies the number of bytes of
      unused data space to allocate.
 
-### -param flags 
+### -param flags [in]
 
-[in]
+
 Reserved. Callout drivers must set this parameter to zero.
 
-### -param reassembledNbl 
+### -param reassembledNbl [out]
 
-[out]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pointer that receives the
      address of the reassembled single network buffer list.

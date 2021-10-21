@@ -45,9 +45,9 @@ A kernel-mode display miniport driver calls **DXGKCB_OPENPHYSICALMEMORYOBJECT** 
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) structure that contains information about the physical memory object to open.
+Pointer to a [**DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) structure that contains information about the physical memory object to open.
 
 ## -returns
 

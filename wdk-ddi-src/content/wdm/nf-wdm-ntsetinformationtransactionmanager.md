@@ -49,21 +49,21 @@ Do not call this routine from kernel-mode code.
 
 ## -parameters
 
-### -param TmHandle 
+### -param TmHandle [in, optional]
 
-[in, optional]
 
-### -param TransactionManagerInformationClass 
 
-[in]
+### -param TransactionManagerInformationClass [in]
 
-### -param TransactionManagerInformation 
 
-[in]
 
-### -param TransactionManagerInformationLength 
+### -param TransactionManagerInformation [in]
 
-[in]
+
+
+### -param TransactionManagerInformationLength [in]
+
+
 
 ## -returns
 

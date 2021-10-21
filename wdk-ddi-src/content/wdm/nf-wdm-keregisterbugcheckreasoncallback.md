@@ -48,24 +48,24 @@ The **KeRegisterBugCheckReasonCallback** function registers a callback routine t
 
 ## -parameters
 
-### -param CallbackRecord
+### -param CallbackRecord [out]
 
-[out]
+
 A pointer to a [**KBUGCHECK_REASON_CALLBACK_RECORD**](./ns-wdm-_kbugcheck_reason_callback_record.md) structure that was initialized by a call to the KeInitializeCallbackRecord routine described in the [Windows kernel macros](/windows-hardware/drivers/kernel/mm-bad-pointer).
 
-### -param CallbackRoutine
+### -param CallbackRoutine [in]
 
-[in]
+
 A pointer to a callback routine of type [**KBUGCHECK_REASON_CALLBACK_ROUTINE**](./nc-wdm-kbugcheck_reason_callback_routine.md) to register. For information about how to implement this callback routine, see [Writing a Bug Check Callback Routine](/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine).
 
-### -param Reason
+### -param Reason [in]
 
-[in]
+
 An enumeration of type [**KBUGCHECK_CALLBACK_REASON**](./ne-wdm-_kbugcheck_callback_reason.md) that specifies the type of callback routine that *CallbackRoutine* points to.
 
-### -param Component
+### -param Component [in]
 
-[in]
+
 A pointer to a null-terminated ANSI string that identifies the caller. For example, you can select a string that describes the device driver, or that contains the device name. You can use the [!bugdump](/windows-hardware/drivers/debugger/-bugdump) debugger extension to display the crash dump data that is associated with this string.
 
 ## -returns

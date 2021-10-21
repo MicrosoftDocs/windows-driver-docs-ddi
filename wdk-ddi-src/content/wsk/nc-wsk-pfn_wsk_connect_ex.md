@@ -53,23 +53,23 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being connected to a remote transport address.
 
-### -param RemoteAddress 
+### -param RemoteAddress [in]
 
-[in]
+
 A pointer to a structure that specifies the remote transport address to which to connect the
      socket. This pointer must be a pointer to the specific <a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure type that corresponds to the
      address family that the WSK application specified when it created the socket.
 
-### -param Buffer 
+### -param Buffer [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure, which contains the data to send during or after connection synchronization. The maximum allowed size in bytes is 65,535.
 
 ### -param Flags
@@ -77,9 +77,9 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_B
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the connect operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

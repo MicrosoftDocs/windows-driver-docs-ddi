@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, optional]
 
-[in, optional]
+
 A pointer to the IRP to be encapsulated by this RX_CONTEXT structure.
 
-### -param RxDeviceObject 
+### -param RxDeviceObject [in]
 
-[in]
+
 A pointer to the device object to which this RX_CONTEXT and IRP apply.
 
-### -param InitialContextFlags 
+### -param InitialContextFlags [in]
 
-[in]
+
 The set of initial values for <i>Flags</i> member of the RX_CONTEXT data structure to be stored in the RX_CONTEXT structure. These initial values can be any combination of the following enumerations:
 
 
@@ -84,9 +84,9 @@ When this value is set, the operation must succeed. This value is not currently 
 
 When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers.
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 Pointer to the RX_CONTEXT to be initialized.
 
 ## -remarks

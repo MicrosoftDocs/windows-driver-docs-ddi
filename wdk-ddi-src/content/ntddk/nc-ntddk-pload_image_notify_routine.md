@@ -50,19 +50,19 @@ Called by the operating system to notify the driver when a driver image or a use
 
 ## -parameters
 
-### -param FullImageName 
+### -param FullImageName [in, optional]
 
-[in, optional]
+
 A pointer to a buffered Unicode string that identifies the executable image file. (The <i>FullImageName</i> parameter can be <b>NULL</b> in cases in which the operating system is unable to obtain the full name of the image at process creation time.)
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 The process ID of the process in which the image has been mapped, but this handle is zero if the newly loaded image is a driver.
 
-### -param ImageInfo 
+### -param ImageInfo [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a> structure that contains image information. See Remarks.
 
 ## -remarks

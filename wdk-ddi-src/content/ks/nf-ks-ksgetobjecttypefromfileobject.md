@@ -49,9 +49,9 @@ The **KsGetObjectTypeFromFileObject** function returns the AVStream object type 
 
 ## -parameters
 
-### -param FileObject
+### -param FileObject [in]
 
-[in]
+
 A pointer to the [FILE_OBJECT](../wdm/ns-wdm-_file_object.md) structure for which to determine the associated AVStream object type.
 
 ## -returns

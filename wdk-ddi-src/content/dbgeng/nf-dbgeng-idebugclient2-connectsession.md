@@ -49,9 +49,9 @@ The <b>ConnectSession</b> method joins the client to an existing debugger sessio
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set of option flags for connecting to the session.  The possible values of these flags are:
 
 <table>
@@ -81,9 +81,9 @@ Do not output a message notifying other clients that this client has connected.
 </tr>
 </table>
 
-### -param HistoryLimit 
+### -param HistoryLimit [in]
 
-[in]
+
 Specifies the maximum number of characters from the session's history to send to this client's output upon connection.
 
 ## -returns

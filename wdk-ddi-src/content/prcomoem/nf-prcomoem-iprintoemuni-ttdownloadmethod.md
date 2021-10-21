@@ -57,9 +57,9 @@ Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-
 
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure.
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
+
 Receives one of the following method-supplied constant values:
 
 <table>

@@ -49,29 +49,29 @@ Retrieves information about the current location of the PCI device on the bus, s
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this read operation applies.
 
-### -param SegmentNumber 
+### -param SegmentNumber [out]
 
-[out]
+
 A pointer to a variable that is filled in with the current Segment Number, which describes the group of PCI Buses to which this device is attached.
 
-### -param BusNumber 
+### -param BusNumber [out]
 
-[out]
+
 A pointer to a variable that is filled in with the current Bus Number, which describes which PCI Bus to which this device is attached.
 
-### -param FunctionNumber 
+### -param FunctionNumber [out]
 
-[out]
+
 A pointer to a variable that is filled in with the FunctionNumber, which further describes where on this bus the device can be found.
 
 ## -prototype

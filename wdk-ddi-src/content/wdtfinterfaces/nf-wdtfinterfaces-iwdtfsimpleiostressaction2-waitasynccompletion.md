@@ -49,9 +49,9 @@ Waits for the completion of any of the asynchronous events.
 
 ## -parameters
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the last asynchronous event succeeded; otherwise, false.
 
 ## -returns

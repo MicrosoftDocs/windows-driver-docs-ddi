@@ -49,29 +49,29 @@ D3DDDI_UPDATEALLOCPROPERTY describes the parameters needed to update an allocati
 
 ## -struct-fields
 
-### -field hPagingQueue
+### -field hPagingQueue [in]
 
-[in] A Handle to the paging queue used to synchronize paging operations for this call.
+A Handle to the paging queue used to synchronize paging operations for this call.
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A handle to the allocation that will be updated.
+A handle to the allocation that will be updated.
 
-### -field SupportedSegmentSet
+### -field SupportedSegmentSet [in]
 
-[in] An index for the new supported segment set. If the current supported segment set is the same, then this will be ignored.
+An index for the new supported segment set. If the current supported segment set is the same, then this will be ignored.
 
-### -field PreferredSegment
+### -field PreferredSegment [in]
 
-[in] An index for the new preferred segment set. If the current preferred segment set is the same, then this will be ignored.
+An index for the new preferred segment set. If the current preferred segment set is the same, then this will be ignored.
 
-### -field Flags
+### -field Flags [in]
 
-[in] The flags that will be used to update the allocation.
+The flags that will be used to update the allocation.
 
-### -field PagingFenceValue
+### -field PagingFenceValue [out]
 
-[out] The paging fence value that will be synchronized with before using the new allocation. Applies to the monitored fence synchronization object associated with hPagingQueue.
+The paging fence value that will be synchronized with before using the new allocation. Applies to the monitored fence synchronization object associated with hPagingQueue.
 
 ### -field SetAccessedPhysically
 

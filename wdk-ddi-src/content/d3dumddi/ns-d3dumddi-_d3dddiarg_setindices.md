@@ -52,13 +52,13 @@ The D3DDDIARG_SETINDICES structure describes parameters for setting the current 
 
 ## -struct-fields
 
-### -field hIndexBuffer
+### -field hIndexBuffer [in]
 
-[in] A handle to the surface that is associated with the index buffer.
+A handle to the surface that is associated with the index buffer.
 
-### -field Stride
+### -field Stride [in]
 
-[in] The size, in bytes, of the indices that are contained in the index buffer. The value of this member is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities.
+The size, in bytes, of the indices that are contained in the index buffer. The value of this member is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities.
 
 ## -see-also
 

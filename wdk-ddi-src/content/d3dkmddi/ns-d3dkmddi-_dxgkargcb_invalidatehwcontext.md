@@ -46,17 +46,17 @@ The **DXGKARGCB_INVALIDATEHWCONTEXT** structure contains the arguments used in t
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] Handle to the display adapter.
+Handle to the display adapter.
 
-### -field hHwContext
+### -field hHwContext [in]
 
-[in] For contexts that were invalidated by a hardware engine reset operation, the *Dxgkrnl*-assigned value for the context that was passed to [**DxgkDdiCreateContext**](nc-d3dkmddi-dxgkddi_createcontext.md).
+For contexts that were invalidated by a hardware engine reset operation, the *Dxgkrnl*-assigned value for the context that was passed to [**DxgkDdiCreateContext**](nc-d3dkmddi-dxgkddi_createcontext.md).
 
-### -field Flags
+### -field Flags [in]
 
-[in] A [**DXGK_INVALIDATEHWCONTEXTFLAGS**](ns-d3dkmddi-_dxgk_invalidatehwcontextflags.md) structure that contains flag values associated with the context being invalidated.
+A [**DXGK_INVALIDATEHWCONTEXTFLAGS**](ns-d3dkmddi-_dxgk_invalidatehwcontextflags.md) structure that contains flag values associated with the context being invalidated.
 
 ## -see-also
 

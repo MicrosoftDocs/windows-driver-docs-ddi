@@ -48,9 +48,9 @@ The **KeRundownQueue** routine cleans up a queue object, flushing any queued ent
 
 ## -parameters
 
-### -param Queue
+### -param Queue [in, out]
 
-[in, out] Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
+Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 ## -returns
 

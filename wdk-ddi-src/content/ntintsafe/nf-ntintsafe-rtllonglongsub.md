@@ -49,19 +49,19 @@ Subtracts one value of type <b>LONGLONG</b> from another.
 
 ## -parameters
 
-### -param llMinuend 
+### -param llMinuend [in]
 
-[in]
+
 The value from which <i>llSubtrahend</i> is subtracted.
 
-### -param llSubtrahend 
+### -param llSubtrahend [in]
 
-[in]
+
 The value to subtract from <i>llMinuend</i>.
 
-### -param pllResult 
+### -param pllResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

@@ -47,21 +47,21 @@ The **DXGK_DIAG_DISPLAY_SAMPLED_GAMMA** structure provides gamma samples during 
 
 ## -struct-fields
 
-### -field Red
+### -field Red [out]
 
-[out] MAX_NUM_OF_GAMMA_SAMPLES_FOR_DIAGNOSTICS gamma samples from the red channel, where the samples are equally spaced as much as is possible.
+MAX_NUM_OF_GAMMA_SAMPLES_FOR_DIAGNOSTICS gamma samples from the red channel, where the samples are equally spaced as much as is possible.
 
-### -field Green
+### -field Green [out]
 
-[out] MAX_NUM_OF_GAMMA_SAMPLES_FOR_DIAGNOSTICS gamma samples from the green channel, where the samples are equally spaced as much as is possible.
+MAX_NUM_OF_GAMMA_SAMPLES_FOR_DIAGNOSTICS gamma samples from the green channel, where the samples are equally spaced as much as is possible.
 
-### -field Blue
+### -field Blue [out]
 
-[out] MAX_NUM_OF_GAMMA_SAMPLES_FOR_DIAGNOSTICS gamma samples from the blue channel, where the samples are equally spaced as much as is possible.
+MAX_NUM_OF_GAMMA_SAMPLES_FOR_DIAGNOSTICS gamma samples from the blue channel, where the samples are equally spaced as much as is possible.
 
-### -field ColorMatrix
+### -field ColorMatrix [out]
 
-[out] A 3X3 matrix should contain any global scalar multiplier baked in if applicable. If the driver has 3X4 matrix then it is ok to just ignore the last column.
+A 3X3 matrix should contain any global scalar multiplier baked in if applicable. If the driver has 3X4 matrix then it is ok to just ignore the last column.
 
 ## -remarks
 

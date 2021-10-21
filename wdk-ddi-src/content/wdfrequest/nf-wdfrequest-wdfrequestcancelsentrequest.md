@@ -54,9 +54,9 @@ The <b>WdfRequestCancelSentRequest</b> method attempts to cancel an I/O request 
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

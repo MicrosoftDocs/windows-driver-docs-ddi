@@ -47,9 +47,9 @@ dev_langs:
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] Pointer to a [**DXGKARGCB_GETHANDLEDATA**](ns-d3dkmddi-_dxgkargcb_gethandledata.md) structure that describes an allocation handle returned by [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md).
+Pointer to a [**DXGKARGCB_GETHANDLEDATA**](ns-d3dkmddi-_dxgkargcb_gethandledata.md) structure that describes an allocation handle returned by [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md).
 
 ## -param Arg2
 

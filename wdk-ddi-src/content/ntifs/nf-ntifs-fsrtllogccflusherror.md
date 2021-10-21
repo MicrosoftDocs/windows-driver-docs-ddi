@@ -49,29 +49,29 @@ The <b>FsRtlLogCcFlushError</b> routine logs a lost delayed-write error and disp
 
 ## -parameters
 
-### -param FileName 
+### -param FileName [in]
 
-[in]
+
 The name of the file that could not be flushed.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the device object that this log entry should be filed against.
 
-### -param SectionObjectPointer 
+### -param SectionObjectPointer [in]
 
-[in]
+
 A pointer to the section object for the file on which the flush failed.
 
-### -param FlushError 
+### -param FlushError [in]
 
-[in]
+
 The error returned by the call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccflushcache">CcFlushCache</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A value of 0 or a bitwise combination of one or more of the following flags:
 
 <table>

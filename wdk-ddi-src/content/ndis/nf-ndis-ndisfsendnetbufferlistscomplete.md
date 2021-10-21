@@ -53,9 +53,9 @@ Filter drivers call the
 
 ## -parameters
 
-### -param NdisFilterHandle 
+### -param NdisFilterHandle [in]
 
-[in]
+
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
@@ -67,9 +67,9 @@ A pointer to a linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists">
      FilterSendNetBufferLists</a> function.
 
-### -param SendCompleteFlags 
+### -param SendCompleteFlags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the following flags:
 
 

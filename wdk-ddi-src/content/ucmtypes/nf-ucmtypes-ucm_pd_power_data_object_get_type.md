@@ -49,9 +49,9 @@ Retrieves the type of Power Data Object from the <a href="/windows-hardware/driv
 
 ## -parameters
 
-### -param Pdo 
+### -param Pdo [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure that contains the type of Power Data Object.
 
 ## -returns

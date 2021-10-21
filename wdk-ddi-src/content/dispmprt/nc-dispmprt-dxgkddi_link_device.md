@@ -49,19 +49,19 @@ The optional <i>DxgkDdiLinkDevice</i> function queries the display miniport driv
 
 ## -parameters
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in]
 
-[in]
+
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param LinkedDevice 
+### -param LinkedDevice [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_linked_device">LINKED_DEVICE</a> structure that contains information on the linked display adapter configuration.
 
 ## -returns

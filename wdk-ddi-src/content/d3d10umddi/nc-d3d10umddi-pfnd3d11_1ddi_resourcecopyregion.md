@@ -107,9 +107,9 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d
 
 If the members of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_box">D3D10_DDI_BOX</a> structure are such that <b>left</b>>=<b>right</b>, <b>top</b>>=<b>bottom</b>, or <b>front</b>>=<b>back</b>, then <i>pSrcBox</i> is considered empty, and <i>ResourceCopyRegion(D3D11_1)</i> must not perform any copy operation.
 
-### -param CopyFlags
+### -param CopyFlags [in]
 
-[in] A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1_ddi_copy_flags">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1_ddi_copy_flags">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
 
 ## -remarks
 

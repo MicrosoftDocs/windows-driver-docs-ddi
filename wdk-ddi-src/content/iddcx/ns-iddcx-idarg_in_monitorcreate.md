@@ -54,7 +54,7 @@ api_name:
                      
                  Indicates object attributes for the monitor.
 
-### -field pMonitorInfo
+### -field pMonitorInfo [in]
 
-[in] Pointer to the information about this monitor.
+Pointer to the information about this monitor.
 

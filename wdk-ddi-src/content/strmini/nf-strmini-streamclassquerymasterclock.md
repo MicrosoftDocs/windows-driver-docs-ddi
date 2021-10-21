@@ -50,24 +50,24 @@ When the minidriver calls the **StreamClassQueryMasterClock** routine, the class
 
 ## -parameters
 
-### -param HwStreamObject 
+### -param HwStreamObject [in]
 
-[in]
+
 Pointer to a [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md) indicating the stream that is querying its master clock. The stream may only have one query pending at a time. The class driver passes this value to the callback in the **HwStreamObject** member of the callback's *TimeContext* parameter.
 
-### -param MasterClockHandle 
+### -param MasterClockHandle [in]
 
-[in]
+
 Specifies the handle for the master clock that is being queried. The class driver passes this in the SRB_INDICATE_MASTER_CLOCK request to the minidriver's [StrMiniReceiveStreamControlPacket](/previous-versions/ff568467(v=vs.85)) routine.
 
-### -param TimeFunction 
+### -param TimeFunction [in]
 
-[in]
+
 Specifies what time function to query the master clock for. See [HW_TIME_CONTEXT](./ns-strmini-_hw_time_context.md) for the possible values. The class driver passes this value to the callback in the **Function** member of the *TimeContext* parameter.
 
-### -param ClockCallbackRoutine 
+### -param ClockCallbackRoutine [in]
 
-[in]
+
 Specifies the routine to which the class driver passes the results. The function prototype must be:
 
 ```cpp

@@ -54,9 +54,9 @@ The <b>WdfIoQueueStart</b> method enables an I/O queue to start receiving and de
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
 ## -remarks

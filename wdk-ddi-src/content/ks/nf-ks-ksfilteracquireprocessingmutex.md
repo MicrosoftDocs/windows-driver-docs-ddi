@@ -50,9 +50,9 @@ The<b> KsFilterAcquireProcessingMutex </b>function acquires the processing mutex
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to acquire the processing mutex.
 
 ## -remarks

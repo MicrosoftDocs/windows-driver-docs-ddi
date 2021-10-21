@@ -45,17 +45,17 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] Pointer to the miniport's hardware device extension.
+Pointer to the miniport's hardware device extension.
 
-### -param ThreadContext
+### -param ThreadContext [in]
 
-[in] Pointer to the thread context received in a prior call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md).
+Pointer to the thread context received in a prior call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md).
 
-### -param Priority
+### -param Priority [in]
 
-[in] A [**STOR_THREAD_PRIORITY**](ne-storport-stor_thread_priority.md) enum value that specifies the thread priority to set.
+A [**STOR_THREAD_PRIORITY**](ne-storport-stor_thread_priority.md) enum value that specifies the thread priority to set.
 
 ## -returns
 

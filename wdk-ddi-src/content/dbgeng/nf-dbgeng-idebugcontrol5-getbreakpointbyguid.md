@@ -49,14 +49,14 @@ The GetBreakpointByGuid method returns the breakpoint with the specified breakpo
 
 ## -parameters
 
-### -param Guid 
+### -param Guid [in]
 
-[in]
+
 Specifies the breakpoint GUID of the breakpoint to return.
 
-### -param Bp 
+### -param Bp [out]
 
-[out]
+
 Receives the breakpoint.
 
 ## -returns

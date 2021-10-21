@@ -54,14 +54,14 @@ The <b>WdfCollectionAdd</b> method adds a specified framework object to an objec
 
 ## -parameters
 
-### -param Collection 
+### -param Collection [in]
 
-[in]
+
 A handle to a collection object.
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A handle to the framework object that will be added to the collection.
 
 ## -returns

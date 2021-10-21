@@ -49,26 +49,26 @@ Creates a USB device object on the specified controller.
 
 ## -parameters
 
-### -param Controller 
+### -param Controller [in]
 
-[in]
+
 A handle to the controller object. The client driver retrieved the handle in a previous call to <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
 
-### -param UsbDeviceInit 
+### -param UsbDeviceInit [out]
 
-[out]
+
 A pointer to a <b>UCXUSBDEVICE_INIT</b> structure that describes various configuration
         operations for creating the USB device object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object.
 
-### -param UsbDevice 
+### -param UsbDevice [out]
 
-[out]
+
 A pointer to a variable that receives a handle to the new USB device object.
 
 ## -returns

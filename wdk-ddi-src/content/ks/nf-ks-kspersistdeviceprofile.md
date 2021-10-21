@@ -50,9 +50,9 @@ The <b>KsPersistDeviceProfile</b> API commits the profile information to the per
 
 ## -parameters
 
-### -param FilterFactory 
+### -param FilterFactory [in]
 
-[in]
+
 This is the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> that was used to initialize the profile store in <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedeviceprofile">KsInitializeDeviceProfile</a>.
 
 ## -returns

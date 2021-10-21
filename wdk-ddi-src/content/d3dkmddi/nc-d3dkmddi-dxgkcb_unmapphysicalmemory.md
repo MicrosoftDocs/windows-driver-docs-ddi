@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_physical_memory.md) structure that contains information about the physical memory object from which the CPU-visible address is being unmapped.
+Pointer to a [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_physical_memory.md) structure that contains information about the physical memory object from which the CPU-visible address is being unmapped.
 
 ## -remarks
 

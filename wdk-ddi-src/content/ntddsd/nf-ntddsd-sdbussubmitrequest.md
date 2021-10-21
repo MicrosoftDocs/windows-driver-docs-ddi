@@ -49,9 +49,9 @@ The <b>SdBusSubmitRequest</b> routine sends a synchronous Secure Digital (SD) re
 
 ## -parameters
 
-### -param InterfaceContext 
+### -param InterfaceContext [in]
 
-[in]
+
 Contains the context information returned by the <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine in the <b>Context</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> structure.
 
 ### -param Packet

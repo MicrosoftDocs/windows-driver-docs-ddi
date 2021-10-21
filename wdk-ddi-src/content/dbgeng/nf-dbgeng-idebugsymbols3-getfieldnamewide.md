@@ -49,34 +49,34 @@ The <b>GetFieldNameWide</b>  method returns the name of a field within a structu
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module in which the structure was defined.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the structure.
 
-### -param FieldIndex 
+### -param FieldIndex [in]
 
-[in]
+
 Specifies the index of the desired field within the structure.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the field's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
+
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the field's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

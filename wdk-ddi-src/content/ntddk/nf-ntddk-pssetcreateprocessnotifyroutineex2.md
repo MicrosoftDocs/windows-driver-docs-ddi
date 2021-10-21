@@ -49,19 +49,19 @@ The <b>PsSetCreateProcessNotifyRoutineEx2</b> routine registers or removes a cal
 
 ## -parameters
 
-### -param NotifyType 
+### -param NotifyType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_pscreateprocessnotifytype">PSCREATEPROCESSNOTIFYTYPE</a>-type value that indicates the type of process notification.
 
-### -param NotifyInformation 
+### -param NotifyInformation [in]
 
-[in]
+
 The address of the notification information for the specified type of process notification. If <i>NotifyType</i> is <b>PsCreateProcessNotifySubsystems</b>, <i>NotifyInformation</i> is a  <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_process_notify_routine_ex">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> that specifies the entry point of the caller-supplied process-creation callback.
 
-### -param Remove 
+### -param Remove [in]
 
-[in]
+
 A Boolean value that specifies whether <b>PsSetCreateProcessNotifyRoutineEx2</b> will add or remove a specified routine from the list of callback routines. If this parameter is <b>TRUE</b>, the specified routine is removed from the list of callback routines. If this parameter is <b>FALSE</b>, the specified routine is added to the list of callback routines. If <i>Remove</i> is <b>TRUE</b>, the system also waits for all in-flight callback routines to complete before returning.
 
 ## -returns

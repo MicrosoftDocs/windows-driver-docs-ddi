@@ -52,13 +52,13 @@ The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for 
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the capture resource that <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
+A handle to the capture resource that <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
 
-### -field hAllocation
+### -field hAllocation [out]
 
-[out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation that is associated with the resource that <b>hResource</b> specifies.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation that is associated with the resource that <b>hResource</b> specifies.
 
 ## -see-also
 

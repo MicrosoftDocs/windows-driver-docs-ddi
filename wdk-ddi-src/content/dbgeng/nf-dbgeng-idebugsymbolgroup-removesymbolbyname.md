@@ -49,9 +49,9 @@ The <b>RemoveSymbolByName</b>  method removes the specified symbol from a symbol
 
 ## -parameters
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 The name of the symbol to remove from the symbol group.
 
 ## -returns

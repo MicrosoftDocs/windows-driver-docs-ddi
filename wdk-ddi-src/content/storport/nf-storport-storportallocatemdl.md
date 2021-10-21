@@ -49,24 +49,24 @@ The <b>StorPortAllocateMdl</b> routine allocates an MDL to describe the given no
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param BufferPointer 
+### -param BufferPointer [in]
 
-[in]
+
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 This parameter specifies the length, in bytes, of the buffer that the MDL is to describe.
 
-### -param Mdl 
+### -param Mdl [out]
 
-[out]
+
 A pointer to receive the allocated MDL.
 
 ## -returns

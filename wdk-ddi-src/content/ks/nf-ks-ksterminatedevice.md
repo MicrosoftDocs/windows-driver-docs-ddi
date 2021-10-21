@@ -50,9 +50,9 @@ The<b> KsTerminateDevice </b>function removes an AVStream device.
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure corresponding to the device for which to remove AVStream support.
 
 ## -remarks

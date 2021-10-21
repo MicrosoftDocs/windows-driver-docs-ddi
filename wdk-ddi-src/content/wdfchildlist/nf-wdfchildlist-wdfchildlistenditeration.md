@@ -52,14 +52,14 @@ The <b>WdfChildListEndIteration</b> method processes modifications to a specifie
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList [in]
 
-[in]
+
 The same handle to a framework child-list object that the driver previously specified to <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistbeginiteration">WdfChildListBeginIteration</a>.
 
-### -param Iterator 
+### -param Iterator [in]
 
-[in]
+
 A pointer to the same caller-allocated <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_iterator">WDF_CHILD_LIST_ITERATOR</a> structure that the driver previously supplied to <b>WdfChildListEndIteration</b>.
 
 ## -remarks

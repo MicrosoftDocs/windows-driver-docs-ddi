@@ -50,9 +50,9 @@ The <b>KeQuerySystemTime</b> routine obtains the current system time.
 
 ## -parameters
 
-### -param CurrentCount
+### -param CurrentCount [out]
 
-[out] Pointer to LARGE_INTEGER variable that receives the current time.
+Pointer to LARGE_INTEGER variable that receives the current time.
 
 ## -remarks
 

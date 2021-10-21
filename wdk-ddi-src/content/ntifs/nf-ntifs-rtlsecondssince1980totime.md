@@ -49,14 +49,14 @@ The <b>RtlSecondsSince1980ToTime</b> routine converts the elapsed time, in secon
 
 ## -parameters
 
-### -param ElapsedSeconds 
+### -param ElapsedSeconds [in]
 
-[in]
+
 Number of seconds from midnight, December 31, 1979, to the current date and time.
 
-### -param Time 
+### -param Time [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the corresponding current system time.
 
 ## -returns

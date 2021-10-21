@@ -49,9 +49,9 @@ The IoGetInitiatorProcess routine retrieves the process which initiated the crea
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 The file object from which to retrieve the initiator process.
 
 ## -returns

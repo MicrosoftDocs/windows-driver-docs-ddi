@@ -50,14 +50,14 @@ Initializes a <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/ns-udecxwdfd
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/ns-udecxwdfdevice-_udecx_wdf_device_config">UDECX_WDF_DEVICE_CONFIG</a> structure to initialize.
 
-### -param EvtUdecxWdfDeviceQueryUsbCapability 
+### -param EvtUdecxWdfDeviceQueryUsbCapability [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_query_usb_capability">EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY</a> callback function.
 
 ## -see-also

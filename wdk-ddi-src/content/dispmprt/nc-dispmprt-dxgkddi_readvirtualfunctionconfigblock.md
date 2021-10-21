@@ -50,13 +50,13 @@ This routine supplies the non-privileged virtual machine (VM) with configuration
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in, out]
 
-[in, out] A pointer to the DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK structure.
+A pointer to the DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK structure.
 
 ## -returns
 

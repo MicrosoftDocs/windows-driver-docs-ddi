@@ -49,14 +49,14 @@ The **WdmlibRtlInitUnicodeStringEx** function initializes a counted string of Un
 
 ## -parameters
 
-### -param DestinationString 
+### -param DestinationString [out]
 
-[out]
+
 A pointer to the [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure to be initialized.
 
-### -param SourceString 
+### -param SourceString [in, optional]
 
-[in, optional]
+
 A pointer to a null-terminated wide-character string. This string is used to initialize the counted string pointed to by *DestinationString*.
 
 ## -remarks

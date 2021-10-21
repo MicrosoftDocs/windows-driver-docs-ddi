@@ -54,19 +54,19 @@ The <b>WdfUsbInterfaceGetConfiguredPipe</b> method returns a handle to the frame
 
 ## -parameters
 
-### -param UsbInterface 
+### -param UsbInterface [in]
 
-[in]
+
 A handle to a USB interface object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>.
 
-### -param PipeIndex 
+### -param PipeIndex [in]
 
-[in]
+
 A zero-based index into the set of framework pipe objects that are associated with the specified interface object.
 
-### -param PipeInfo 
+### -param PipeInfo [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

@@ -50,9 +50,9 @@ Copies all the values from a collection into an <b>IPropertyStore</b> interface.
 
 ## -parameters
 
-### -param pStore 
+### -param pStore [in]
 
-[in]
+
 Pointer to a store object.
 
 ## -returns

@@ -44,13 +44,13 @@ The **DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT** structure contains the informat
 
 ## -struct-fields
 
-### -field hPhysicalMemoryObject
+### -field hPhysicalMemoryObject [in]
 
-[in] Handle to the physical memory object created via [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) to destroy.
+Handle to the physical memory object created via [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) to destroy.
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [in]
 
-[in] Optional handle to an adapter memory object to close at the same time. This handle is provided for the purpose of creating a convenient mirror mapping with destroy. If **hAdapterMemoryObject** is not NULL, the driver must not also call [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md).
+Optional handle to an adapter memory object to close at the same time. This handle is provided for the purpose of creating a convenient mirror mapping with destroy. If **hAdapterMemoryObject** is not NULL, the driver must not also call [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md).
 
 ## -remarks
 

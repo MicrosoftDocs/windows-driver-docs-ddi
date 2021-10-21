@@ -50,9 +50,9 @@ The<b> BdaFilterFactoryUpdateCacheData</b> function updates the pin data cache f
 
 ## -parameters
 
-### -param pFilterFactory 
+### -param pFilterFactory [in]
 
-[in]
+
 Points to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to update the pin data cache.
 
 ### -param OPTIONAL

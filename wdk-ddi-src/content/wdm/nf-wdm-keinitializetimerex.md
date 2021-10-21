@@ -49,14 +49,14 @@ The <b>KeInitializeTimerEx</b> routine initializes an extended kernel timer obje
 
 ## -parameters
 
-### -param Timer 
+### -param Timer [out]
 
-[out]
+
 Pointer to a timer object, for which the caller provides the storage.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Specifies the type of the timer object, either <b>NotificationTimer</b> or <b>SynchronizationTimer</b>.
 
 ## -remarks

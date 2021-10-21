@@ -45,9 +45,9 @@ Writes a data byte to the UART device.
 
 ## -parameters
 
-### -param Port
+### -param Port [_Inout_]
 
-[_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
+A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
 
 ### -param Byte
 

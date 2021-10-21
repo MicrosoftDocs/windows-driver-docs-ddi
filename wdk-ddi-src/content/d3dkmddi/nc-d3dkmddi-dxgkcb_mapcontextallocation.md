@@ -50,13 +50,13 @@ A kernel-mode display miniport driver calls **DXGKCB_MAPCONTEXTALLOCATION** to m
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the display adapter.
+A handle to the display adapter.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**DXGKARGCB_MAPCONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_mapcontextallocation.md) structure that describes the operation.
+Pointer to a [**DXGKARGCB_MAPCONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_mapcontextallocation.md) structure that describes the operation.
 
 ## -returns
 

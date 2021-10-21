@@ -49,9 +49,9 @@ The <b>KsGetTime</b> method retrieves the time of the underlying clock.
 
 ## -parameters
 
-### -param Time 
+### -param Time [out]
 
-[out]
+
 Pointer to a variable that receives the current clock time.
 
 ## -returns

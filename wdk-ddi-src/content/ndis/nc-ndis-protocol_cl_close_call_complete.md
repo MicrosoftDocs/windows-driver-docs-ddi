@@ -56,9 +56,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client's request to close this call, which can be one of the
      following:
      
@@ -81,18 +81,18 @@ The call manager failed the request to close the call for some CM-determined rea
        <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">ProtocolCmCloseCall</a> function to
        the client.
 
-### -param ProtocolVcContext 
+### -param ProtocolVcContext [in]
 
-[in]
+
 Specifies the handle to the client's per-VC context area This is the handle that the client
      originally passed to NDIS with 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> or returned to NDIS from
      its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-### -param ProtocolPartyContext 
+### -param ProtocolPartyContext [in, optional]
 
-[in, optional]
+
 Specifies the handle to the client's per-party context area for the last remaining party on the
      client-created VC representing a multipoint connection. Otherwise, this parameter is <b>NULL</b>.
 

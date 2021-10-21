@@ -46,9 +46,9 @@ dev_langs:
 
 ## -parameters
 
-### -param AePushLock
+### -param AePushLock [in]
 
-[in] Pointer to an auto-expand push lock that was allocated by [**FsRtlAllocateAePushLock**](nf-ntifs-fsrtlallocateaepushlock.md).
+Pointer to an auto-expand push lock that was allocated by [**FsRtlAllocateAePushLock**](nf-ntifs-fsrtlallocateaepushlock.md).
 
 ## -remarks
 

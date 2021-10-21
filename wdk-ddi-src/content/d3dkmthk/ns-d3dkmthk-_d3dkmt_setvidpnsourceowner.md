@@ -52,13 +52,13 @@ The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that acquires or releases the VidPN source owner.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that acquires or releases the VidPN source owner.
 
-### -field pType
+### -field pType [in]
 
-[in] An array of owner types. Elements of the array can contain the following values from the D3DKMT_VIDPNSOURCEOWNER_TYPE enumeration type.
+An array of owner types. Elements of the array can contain the following values from the D3DKMT_VIDPNSOURCEOWNER_TYPE enumeration type.
 
 |Value|Meaning|
 |--- |--- |
@@ -67,9 +67,9 @@ The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or
 |D3DKMT_VIDPNSOURCEOWNER_EXCLUSIVE (2)|An exclusive owner without shared GDI primary.|
 |D3DKMT_VIDPNSOURCEOWNER_EXCLUSIVEGDI (3)|An exclusive owner with shared GDI primary. This owner must exclusively own all of the VidPn sources. This type is available only to legacy devices.|
 
-### -field pVidPnSourceId
+### -field pVidPnSourceId [in]
 
-[in] An array of zero-based identification numbers of the video present sources in paths of a video present network (VidPN) topology.
+An array of zero-based identification numbers of the video present sources in paths of a video present network (VidPN) topology.
 
 ### -field VidPnSourceCount
 

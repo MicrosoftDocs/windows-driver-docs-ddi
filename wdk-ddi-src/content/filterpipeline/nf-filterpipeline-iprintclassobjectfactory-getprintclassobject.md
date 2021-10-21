@@ -49,19 +49,19 @@ The <b>GetPrintClassObject</b> method creates a print filter-related object for 
 
 ## -parameters
 
-### -param pszPrinterName 
+### -param pszPrinterName [in]
 
-[in]
+
 The printer name.
 
-### -param riid 
+### -param riid [in]
 
-[in]
+
 The IID of the interface to create. Filters should use IID_IPrintAsyncNotify to create notification channels.
 
-### -param ppNewObject 
+### -param ppNewObject [out]
 
-[out]
+
 The new object that this method creates.
 
 ## -returns

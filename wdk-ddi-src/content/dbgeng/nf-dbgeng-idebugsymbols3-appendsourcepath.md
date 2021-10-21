@@ -49,9 +49,9 @@ The <b>AppendSourcePath</b>  method appends directories to the source path.
 
 ## -parameters
 
-### -param Addition 
+### -param Addition [in]
 
-[in]
+
 Specifies the directories to append to the source path.  This is a string that contains source path elements separated by semicolons (;).  Each source path element can specify either a directory or a source server.
 
 ## -returns

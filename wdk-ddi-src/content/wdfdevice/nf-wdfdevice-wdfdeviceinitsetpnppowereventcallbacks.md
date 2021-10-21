@@ -54,14 +54,14 @@ The <b>WdfDeviceInitSetPnpPowerEventCallbacks</b> method registers a driver's Pl
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A caller-supplied pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param PnpPowerEventCallbacks 
+### -param PnpPowerEventCallbacks [in]
 
-[in]
+
 A pointer to a caller-initialized <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_pnppower_event_callbacks">WDF_PNPPOWER_EVENT_CALLBACKS</a> structure.
 
 ## -remarks

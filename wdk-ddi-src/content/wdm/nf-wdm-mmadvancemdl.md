@@ -49,14 +49,14 @@ The <b>MmAdvanceMdl</b> routine advances the beginning of an MDL's virtual memor
 
 ## -parameters
 
-### -param Mdl 
+### -param Mdl [in, out]
 
-[in, out]
+
 Specifies the MDL to advance.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies the number of bytes to advance the beginning of the MDL.
 
 ## -returns

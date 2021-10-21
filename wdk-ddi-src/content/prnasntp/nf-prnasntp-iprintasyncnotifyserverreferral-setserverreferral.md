@@ -47,9 +47,9 @@ Defines the **IPrintAsyncNotifyServerReferral::SetServerReferral** method.
 
 ## -parameters
 
-### -param pRmtServerReferral
+### -param pRmtServerReferral [in]
 
-[in]
+
 
 ## -returns
 

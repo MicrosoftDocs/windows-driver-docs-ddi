@@ -49,9 +49,9 @@ The <b>GetThumbnailProperties</b> method gets the thumbnail properties.
 
 ## -parameters
 
-### -param pContentType 
+### -param pContentType [out]
 
-[out]
+
 A pointer to the content type of the thumbnail.
 
 ## -returns

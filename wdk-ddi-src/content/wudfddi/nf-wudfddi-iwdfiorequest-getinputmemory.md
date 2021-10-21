@@ -51,9 +51,9 @@ The <b>GetInputMemory</b> method retrieves the memory object that represents the
 
 ## -parameters
 
-### -param ppWdfMemory 
+### -param ppWdfMemory [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the reference-counted <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no input memory is associated with the I/O request.
 
 ## -remarks

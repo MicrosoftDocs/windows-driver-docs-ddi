@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pAddress 
+### -param pAddress [in]
 
-[in]
+
 A pointer to the RDBSS connection engine address to deregister.
 
 ## -returns

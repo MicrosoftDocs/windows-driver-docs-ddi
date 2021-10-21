@@ -50,9 +50,9 @@ Completes an asynchronous request for canceling all I/O requests queued to the s
 
 ## -parameters
 
-### -param UdecxUsbEndpoint 
+### -param UdecxUsbEndpoint [in]
 
-[in]
+
 A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
 
 ## -see-also

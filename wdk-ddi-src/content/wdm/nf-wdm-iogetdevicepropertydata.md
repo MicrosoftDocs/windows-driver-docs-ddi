@@ -49,43 +49,43 @@ The <b>IoGetDevicePropertyData</b> routine retrieves the current setting for a d
 
 ## -parameters
 
-### -param Pdo 
+### -param Pdo [in]
 
-[in]
+
 A pointer to the physical device object (PDO) for the device that is being queried.
 
-### -param PropertyKey 
+### -param PropertyKey [in]
 
-[in]
+
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
 
-### -param Lcid 
+### -param Lcid [in]
 
-[in]
+
 A locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
 ### -param Flags
 
 Reserved for system use. Drivers should set this value to 0.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the buffer that <i>Data</i> points to.
 
-### -param Data 
+### -param Data [out]
 
-[out]
+
 A pointer to the device property data.
 
-### -param RequiredSize 
+### -param RequiredSize [out]
 
-[out]
+
 A pointer to a ULONG to receive the size of the property information that is returned at <i>Data</i>. If <b>IoGetDevicePropertyData</b> returns STATUS_BUFFER_TOO_SMALL, the caller can use this value to allocate a buffer of the correct size.
 
-### -param Type 
+### -param Type [out]
 
-[out]
+
 A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value. If <b>IoGetDevicePropertyData</b> completes successfully, the routine uses <i>Type</i> to supply the type of data that is returned in the <i>Data</i> buffer.
 
 ## -returns

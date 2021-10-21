@@ -49,19 +49,19 @@ The <b>ProbeForWrite</b> routine checks that a user-mode buffer actually resides
 
 ## -parameters
 
-### -param Address 
+### -param Address [in, out]
 
-[in, out]
+
 Specifies the beginning of the user-mode buffer.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the user-mode buffer.
 
-### -param Alignment 
+### -param Alignment [in]
 
-[in]
+
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 
 ## -remarks

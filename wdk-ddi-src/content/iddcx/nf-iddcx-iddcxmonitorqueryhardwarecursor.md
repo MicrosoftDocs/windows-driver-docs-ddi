@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
+
 This is the OS context handle for this monitor returned by the <a href="/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxmonitorarrival">IddCxMonitorArrival</a> call
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments of the function
 
-### -param pOutArgs 
+### -param pOutArgs [out]
 
-[out]
+
 Output arguments of the function
 
 ## -returns

@@ -49,24 +49,24 @@ The <i>EvtSerCx2CustomReceiveTransactionInitialize</i> event callback function i
 
 ## -parameters
 
-### -param CustomReceiveTransaction 
+### -param CustomReceiveTransaction [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive-transaction object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the memory pages that are spanned by the read buffer for the custom-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The starting offset for the data transfer. This parameter is a byte offset from the start of the buffer region described by the MDL. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Offset</i> are in the range 0 to N–1.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The size, in bytes, of the data transfer. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
 ## -remarks

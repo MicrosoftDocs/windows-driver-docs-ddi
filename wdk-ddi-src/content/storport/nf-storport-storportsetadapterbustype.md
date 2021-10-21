@@ -49,13 +49,13 @@ api_name:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
-### -param BusType
+### -param BusType [in]
 
-[in] Contains a [**STORAGE_BUS_TYPE**](../ntddstor/ne-ntddstor-storage_bus_type.md) value that specifies the type of bus-specific configuration data to be set.
+Contains a [**STORAGE_BUS_TYPE**](../ntddstor/ne-ntddstor-storage_bus_type.md) value that specifies the type of bus-specific configuration data to be set.
 
 ## -returns
 

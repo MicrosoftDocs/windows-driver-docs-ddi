@@ -49,19 +49,19 @@ The <b>ExInterlockedAddUlong</b> routine adds an unsigned long value to a given 
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in, out]
 
-[in, out]
+
 A pointer to an unsigned long integer whose value is to be adjusted by the <i>Increment</i> value.
 
-### -param Increment 
+### -param Increment [in]
 
-[in]
+
 Specifies an unsigned long integer to be added.
 
-### -param Lock 
+### -param Lock [in, out]
 
-[in, out]
+
 A pointer to a spin lock to be used to synchronize access to the <i>Addend</i>.
 
 ## -returns

@@ -50,14 +50,14 @@ The <b>NFC_CX_CLIENT_CONFIG_INIT</b> function initializes the <a href="/windows-
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
 
-### -param BusType 
+### -param BusType [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_transport_type">NFC_CX_TRANSPORT_TYPE</a> enumeration.
 
 ## -see-also

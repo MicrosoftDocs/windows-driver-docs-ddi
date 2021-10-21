@@ -50,19 +50,19 @@ The <b>RtlGetOwnerSecurityDescriptor</b> routine returns the owner information f
 
 ## -parameters
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the security descriptor.
 
-### -param Owner 
+### -param Owner [out]
 
-[out]
+
 Pointer to an address to receive a pointer to the owner security identifier (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>). If the security descriptor does not currently contain an owner SID, <i>Owner</i> receives <b>NULL</b>.
 
-### -param OwnerDefaulted 
+### -param OwnerDefaulted [out]
 
-[out]
+
 Pointer to a Boolean variable that receives <b>TRUE</b> if the owner information is derived from a default mechanism, rather than by the original provider of the security descriptor explicitly, <b>FALSE</b> otherwise. Valid only if <i>Owner</i> receives a non-<b>NULL</b> value.
 
 ## -returns

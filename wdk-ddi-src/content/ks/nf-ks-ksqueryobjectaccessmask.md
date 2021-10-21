@@ -50,9 +50,9 @@ The <b>KsQueryObjectAccessMask</b> function returns the access originally grante
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <b>KsAllocateObjectHeader</b> whose access-granted mask pointer is to be returned.
 
 ## -returns

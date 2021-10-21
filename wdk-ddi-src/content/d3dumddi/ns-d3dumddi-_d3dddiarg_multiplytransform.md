@@ -52,9 +52,9 @@ The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current tr
 
 ## -struct-fields
 
-### -field TransformType
+### -field TransformType [in]
 
-[in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of the transform that is being modified. This member can be one of the following values.
+A D3DTRANSFORMSTATETYPE-typed value that indicates the type of the transform that is being modified. This member can be one of the following values.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -62,9 +62,9 @@ The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current tr
 | D3DTRANSFORMSTATE_VIEW | View transformation | 
 | D3DTRANSFORMSTATE_WORLD | World transformation |
 
-### -field Matrix
+### -field Matrix [in]
 
-[in] A D3DMATRIX structure that describes the matrix that is used to modify the current transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
+A D3DMATRIX structure that describes the matrix that is used to modify the current transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
 
 ## -remarks
 

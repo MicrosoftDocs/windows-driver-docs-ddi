@@ -51,17 +51,17 @@ The **DXGKARGCB_GETCAPTUREADDRESS** structure contains the arguments used in the
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A handle to the allocation that is associated with the capture buffer to retrieve information on.
+A handle to the allocation that is associated with the capture buffer to retrieve information on.
 
-### -field SegmentId
+### -field SegmentId [out]
 
-[out] The identifier of the segment for the capture buffer. The allocation that is associated with the capture buffer is currently paged in this segment.
+The identifier of the segment for the capture buffer. The allocation that is associated with the capture buffer is currently paged in this segment.
 
-### -field PhysicalAddress
+### -field PhysicalAddress [out]
 
-[out] The physical address of the capture buffer.
+The physical address of the capture buffer.
 
 ## -see-also
 

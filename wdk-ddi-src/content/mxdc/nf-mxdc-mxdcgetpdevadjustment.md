@@ -49,34 +49,34 @@ The **MxdcGetPDEVAdjustment** function is exported by a printer interface DLL an
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 The handle of the currently instantiated printer.
 
-### -param cbDevMode 
+### -param cbDevMode [in]
 
-[in]
+
 The size of the [DEVMODE](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure, in bytes, including the driver's private DEVMODE data.
 
-### -param pDevMode 
+### -param pDevMode [in]
 
-[in]
+
 A copy of the DEVMODE structure that the MXDC received. The printer interface DLL uses information from this structure to return the requested data.
 
-### -param cbIn 
+### -param cbIn [in]
 
-[in]
+
 An input parameter that designates the size of the *pvIn* parameter, in bytes. This parameter is currently not used and its value is zero.
 
-### -param pvIn 
+### -param pvIn [in, optional]
 
-[in, optional]
+
 A parameter that consists of data that is sent to the printer interface DLL from the MXDC. This parameter is currently not used and its value is **NULL**.
 
-### -param cbPrintPropertiesCollection 
+### -param cbPrintPropertiesCollection [in]
 
-[in]
+
 The size of the [PrintPropertiesCollection](/windows-hardware/drivers/print/xps-driver-document-events) data structure, in bytes.
 
 ### -param pPrintPropertiesCollection

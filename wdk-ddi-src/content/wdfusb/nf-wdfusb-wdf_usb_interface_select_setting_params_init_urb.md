@@ -51,14 +51,14 @@ The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB</b> function initializes
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_interface_select_setting_params">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
 
-### -param Urb 
+### -param Urb [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
 ## -remarks

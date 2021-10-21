@@ -54,9 +54,9 @@ Protocol drivers call the
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. The handle
@@ -70,9 +70,9 @@ A pointer to a
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">
      ProtocolNetPnPEvent</a> function.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The protocol driver's response to the pending Plug and Play or Power Management event
      notification. To succeed such an event, specify NDIS_STATUS_SUCCESS. For information about other status
      values, see the return values of the 

@@ -49,14 +49,14 @@ The <b>SeImpersonateClientEx</b> routine causes a thread to impersonate a user.
 
 ## -parameters
 
-### -param ClientContext 
+### -param ClientContext [in]
 
-[in]
+
 Pointer to the user's security client context.
 
-### -param ServerThread 
+### -param ServerThread [in, optional]
 
-[in, optional]
+
 Pointer to the thread that is to impersonate the user. If not specified, the calling thread is used.
 
 ## -returns

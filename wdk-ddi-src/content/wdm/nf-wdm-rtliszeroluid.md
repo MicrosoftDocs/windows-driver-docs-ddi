@@ -46,9 +46,9 @@ The **RtlIsZeroLuid** macro determines if the specified LUID is the zero LUID.
 
 ## -parameters
 
-### -param L1
+### -param L1 [in]
 
-[in]
+
 Specifies the [**LUID**](/windows/win32/api/ntdef/ns-ntdef-luid) to check.
 
 ## -remarks

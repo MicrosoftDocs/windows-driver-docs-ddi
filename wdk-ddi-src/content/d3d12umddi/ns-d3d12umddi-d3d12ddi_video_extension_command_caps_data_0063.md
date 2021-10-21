@@ -45,30 +45,30 @@ D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA is the data structure used in the que
 
 ## -struct-fields
 
-### -field NodeIndex
+### -field NodeIndex [in]
 
-[in] For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
-### -field CommandId
+### -field CommandId [in]
 
-[in] The unique identifier for the video extension command.
+The unique identifier for the video extension command.
 
-### -field pInputData
+### -field pInputData [in]
 
-[in] Input data for the capability query allocated by the caller with a size of **InputDataSizeInBytes**. This struct is enumerable as the **D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_INPUT** parameter stage of the [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063](ne-d3d12umddi-d3d12ddi_video_extension_command_parameter_stage_0063.md) enumeration.
+Input data for the capability query allocated by the caller with a size of **InputDataSizeInBytes**. This struct is enumerable as the **D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_INPUT** parameter stage of the [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063](ne-d3d12umddi-d3d12ddi_video_extension_command_parameter_stage_0063.md) enumeration.
 
-### -field InputDataSizeInBytes
+### -field InputDataSizeInBytes [in]
 
-[in] The byte size of the input data allocation.
+The byte size of the input data allocation.
 
-### -field pOutputData
+### -field pOutputData [out]
 
-[out] Output data for the capability query allocated by the caller with a size of OutputDataSizeInBytes. This struct is enumerable as the **D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_OUTPUT** parameter stage of the [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063](ne-d3d12umddi-d3d12ddi_video_extension_command_parameter_stage_0063.md) enumeration.
+Output data for the capability query allocated by the caller with a size of OutputDataSizeInBytes. This struct is enumerable as the **D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_OUTPUT** parameter stage of the [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063](ne-d3d12umddi-d3d12ddi_video_extension_command_parameter_stage_0063.md) enumeration.
 
-### -field OutputDataSizeInBytes
+### -field OutputDataSizeInBytes [out]
 
  
-[out] The byte size of the output data allocation.
+The byte size of the output data allocation.
 
 ## -remarks
 

@@ -76,9 +76,9 @@ Setting this member is equivalent to setting the second bit of a 32-bit value (0
 
 Supported starting with Windows 8.
 
-### -field ModePruningReason
+### -field ModePruningReason [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
+A value of type <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmdt_mode_pruning_reason">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
 
 Setting this member is equivalent to setting bits 4 through 7 of a 32-bit value (0x0000003C).
 
@@ -88,9 +88,9 @@ This member is equivalent to bits 4 through 7 of a 32-bit value (0x0000003C).
 
 Supported starting with Windows 8.
 
-### -field Stereo
+### -field Stereo [in]
 
-[in] 
+
 
 A UINT value that specifies whether stereo is supported by the monitor that the display mode will be displayed on.
 
@@ -98,9 +98,9 @@ Setting this member is equivalent to setting the eighth bit of a 32-bit value (0
 
 Supported starting with Windows 8.
 
-### -field AdvancedScanCapable
+### -field AdvancedScanCapable [in]
 
-[in] A UINT value that specifies whether the driver supports the advanced scan capability.
+A UINT value that specifies whether the driver supports the advanced scan capability.
 
 The driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to <b>D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN</b>.
 

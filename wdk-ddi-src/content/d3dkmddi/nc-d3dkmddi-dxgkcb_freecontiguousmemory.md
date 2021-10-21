@@ -46,13 +46,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to a display adapter.
+Handle to a display adapter.
 
-### -param pFreeContiguousMemory
+### -param pFreeContiguousMemory [in]
 
-[in] Pointer to a [**DXGKARGCB_FREECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_freecontiguousmemory.md) structure that contains a handle to the contiguous memory to be freed.
+Pointer to a [**DXGKARGCB_FREECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_freecontiguousmemory.md) structure that contains a handle to the contiguous memory to be freed.
 
 ## -returns
 

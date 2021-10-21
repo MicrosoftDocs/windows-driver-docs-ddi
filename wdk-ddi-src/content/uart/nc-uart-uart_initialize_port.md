@@ -49,9 +49,9 @@ Initializes or resets the UART hardware. This callback function is called before
 
  [_In_opt_Optional _Null_terminated_] A null-terminated load option string.
 
-### -param Port
+### -param Port [_Inout_]
 
-[_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that is filled with information about port initialization.
+A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that is filled with information about port initialization.
 
 ### -param MemoryMapped
 

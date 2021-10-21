@@ -49,9 +49,9 @@ The <b>KsGetCorrelatedPhysicalTime</b> method retrieves the physical time and th
 
 ## -parameters
 
-### -param CorrelatedTime 
+### -param CorrelatedTime [out]
 
-[out]
+
 Pointer to a variable that receives a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time.
 
 ## -returns

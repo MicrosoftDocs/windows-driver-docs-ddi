@@ -49,9 +49,9 @@ The <b>SetFontOptions</b> method sets the options for the font.
 
 ## -parameters
 
-### -param options 
+### -param options [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0002">ExpsFontOptions</a>-typed value that describes the options for the font.
 
 ## -returns

@@ -54,14 +54,14 @@ The <b>AtaPortAllocateQueueTag</b> routine returns a queue tag for the specified
 
 <p>A pointer to the channel extension.</p>
 
-### -param TargetId 
+### -param TargetId [in]
 
-[in]
+
 Specifies the target identifier of the device.
 
-### -param Lun 
+### -param Lun [in]
 
-[in]
+
 Specifies the logical unit number (LUN) of the device.
 
 ## -returns

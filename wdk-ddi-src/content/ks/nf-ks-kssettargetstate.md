@@ -50,14 +50,14 @@ Sets the enabled state of a target device associated with the specified object h
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>.
 
-### -param TargetState 
+### -param TargetState [in]
 
-[in]
+
 Contains the new state of the target associated with this object header. This may be either KSTARGET_STATE_DISABLED or KSTARGET_STATE_ENABLED.
 
 ## -returns

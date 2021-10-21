@@ -53,9 +53,9 @@ The <b>DrvQueryColorProfile</b> function allows a printer interface DLL to speci
 
 Caller-supplied printer handle.
 
-### -param pdevmode 
+### -param pdevmode [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 ### -param ulQueryMode
@@ -89,19 +89,19 @@ The caller is requesting a source profile.
 </tr>
 </table>
 
-### -param pvProfileData 
+### -param pvProfileData [out]
 
-[out]
+
 Caller-supplied pointer to a buffer to receive profile information.
 
-### -param pcbProfileData 
+### -param pcbProfileData [out]
 
-[out]
+
 Caller-supplied pointer to a value representing the size, in bytes, of the buffer pointed to by <i>pvProfileData</i>.
 
-### -param pflProfileData 
+### -param pflProfileData [out]
 
-[out]
+
 One of the following function-supplied bit flags, indicating the type of information the function is returning.
 
 <table>

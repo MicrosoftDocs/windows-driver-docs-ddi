@@ -45,29 +45,29 @@ The **NtManagePartition** function gets and sets information for a partition.
 
 ## -parameters
 
-### -param TargetHandle
+### -param TargetHandle [in]
 
-[in]
+
 Supplies a handle to a partition.
 
-### -param SourceHandle
+### -param SourceHandle [in, optional]
 
-[in, optional]
+
 Optionally supplies a handle to a source partition. This handle is only used for particular information classes.
 
-### -param PartitionInformationClass
+### -param PartitionInformationClass [in]
 
-[in]
+
 Supplies the partition object information class which is to be managed.
 
-### -param PartitionInformation
+### -param PartitionInformation [in, out]
 
-[in, out]
+
 Supplies a pointer to a buffer which contains the specified information. The format and content of the buffer depends on the partition class.
 
-### -param PartitionInformationLength
+### -param PartitionInformationLength [in]
 
-[in]
+
 Supplies the length, in bytes, of the partition information buffer.
 
 ## -returns

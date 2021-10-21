@@ -49,14 +49,14 @@ The <b>RtlNextUnicodePrefix</b> routine is used to enumerate the elements in a U
 
 ## -parameters
 
-### -param PrefixTable 
+### -param PrefixTable [in]
 
-[in]
+
 Pointer to the prefix table. The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
-### -param Restart 
+### -param Restart [in]
 
-[in]
+
 Set to <b>TRUE</b> if the enumeration is to start at the first element in the table. Set to <b>FALSE</b> if resuming the enumeration from a previous call.
 
 To enumerate all elements in the table, use <b>RtlNextUnicodePrefix</b> as follows:

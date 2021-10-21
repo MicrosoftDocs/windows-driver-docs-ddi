@@ -49,9 +49,9 @@ The <code>ReleaseMapping</code> method releases a mapping that was obtained by a
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Specifies a tag value identifying the mapping that is to be released. For more information, see the following Remarks section.
 
 ## -returns

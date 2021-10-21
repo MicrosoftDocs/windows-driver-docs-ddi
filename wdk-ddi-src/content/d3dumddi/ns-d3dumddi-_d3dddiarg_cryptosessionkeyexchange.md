@@ -52,17 +52,17 @@ The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contain
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
+A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
-### -field DataSize
+### -field DataSize [in/out]
 
-[in/out] The size, in bytes, of the data that the <b>pData</b> member points to.
+The size, in bytes, of the data that the <b>pData</b> member points to.
 
-### -field pData
+### -field pData [in/out]
 
-[in/out] A pointer to a buffer that contains the session key.
+A pointer to a buffer that contains the session key.
 
 ## -see-also
 

@@ -49,19 +49,19 @@ The <b>RtlInsertUnicodePrefix</b> routine inserts a new element into a Unicode p
 
 ## -parameters
 
-### -param PrefixTable 
+### -param PrefixTable [in]
 
-[in]
+
 Pointer to the prefix table. The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
-### -param Prefix 
+### -param Prefix [in]
 
-[in]
+
 Pointer to the name string to be inserted with the element at <i>PrefixTableEntry</i>.
 
-### -param PrefixTableEntry 
+### -param PrefixTableEntry [out]
 
-[out]
+
 Pointer to caller-allocated storage, which must be at least <b>sizeof</b>(UNICODE_PREFIX_TABLE_ENTRY), for the element to be inserted for the new prefix. <b>RtlInsertUnicodePrefix</b> initializes this element, which should be considered opaque by the caller.
 
 ## -returns

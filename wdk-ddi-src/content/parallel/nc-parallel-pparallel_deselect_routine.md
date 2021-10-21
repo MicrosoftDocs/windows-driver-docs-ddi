@@ -49,14 +49,14 @@ The <i>PPARALLEL_DESELECT_ROUTINE</i>-typed callback routine deselects either an
 
 ## -parameters
 
-### -param DeselectContext 
+### -param DeselectContext [in]
 
-[in]
+
 Pointer to the device extension of a functional device object (<a href="/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
 
-### -param DeselectCommand 
+### -param DeselectCommand [in]
 
-[in]
+
 Pointer to a PARALLEL_1284_COMMAND structure. The caller specifies the following members:
 
 

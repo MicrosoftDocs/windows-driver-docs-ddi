@@ -52,9 +52,9 @@ The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hard
 
 ## -struct-fields
 
-### -field SrcRect
+### -field SrcRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
 
 The source rectangle will never exceed the bounds of the source surface, so it will never overhang the source surface. 
 
@@ -62,33 +62,33 @@ This rectangle is mapped to the destination rectangle defined by <b>DstRect</b>.
 
 For more information, see the Remarks section.
 
-### -field DstRect
+### -field DstRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
 The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the destination surface, but sub-rectangles cannot. Additionally, all sub-rectangles are guaranteed to fit inside the destination surface. Sub-rectangles can be constrained further by a bounding rectangle that is smaller than the destination rectangle. 
 
 For more information, see the Remarks section.
 
-### -field DstAllocationIndex
+### -field DstAllocationIndex [in]
 
-[in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
+An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
 
-### -field SrcAllocationIndex
+### -field SrcAllocationIndex [in]
 
-[in] An index of the element in the allocation list that specifies the allocation that is referenced by the SrcRect source rectangle.
+An index of the element in the allocation list that specifies the allocation that is referenced by the SrcRect source rectangle.
 
 ### -field NumSubRects
 
 The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
 
-### -field pSubRects
+### -field pSubRects [in]
 
-[in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
+A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
 
-### -field Mode
+### -field Mode [in]
 
-[in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
+Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
 		  
         
        
@@ -100,21 +100,21 @@ The number of sub-rectangles in the destination surface space that is bounded by
 
 This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
 
-### -field MirrorX
+### -field MirrorX [in]
 
-[in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
+Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
 
-### -field MirrorY
+### -field MirrorY [in]
 
-[in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
+Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Optional UINT value that can be used to debug driver code.
+Optional UINT value that can be used to debug driver code.
 
-### -field SrcPitch
+### -field SrcPitch [in]
 
-[in] The pitch of the source surface, in bytes.
+The pitch of the source surface, in bytes.
 
 ## -remarks
 

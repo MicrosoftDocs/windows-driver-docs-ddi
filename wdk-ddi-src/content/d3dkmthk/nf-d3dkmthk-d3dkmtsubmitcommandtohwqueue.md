@@ -49,9 +49,9 @@ Used to submit a command to the hardware queue.
 
 ## -parameters
 
-### -param D3DKMT_SUBMITCOMMANDTOHWQUEUE
+### -param D3DKMT_SUBMITCOMMANDTOHWQUEUE [in]
 
-[in] A structure holding the information needed to submit a command to the hardware queue.
+A structure holding the information needed to submit a command to the hardware queue.
 
 ## -returns
 

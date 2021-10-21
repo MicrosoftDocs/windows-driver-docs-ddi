@@ -51,9 +51,9 @@ The <b>DeleteNamedValue</b> method deletes a value name from the registry.
 
 ## -parameters
 
-### -param pwszName 
+### -param pwszName [in]
 
-[in]
+
 A pointer to a <b>null</b>-terminated string that contains a registry value name.
 
 ## -returns

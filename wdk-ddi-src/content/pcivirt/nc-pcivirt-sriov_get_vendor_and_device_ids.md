@@ -49,26 +49,26 @@ Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF)
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this write operation applies.
 
-### -param VendorId 
+### -param VendorId [out]
 
-[out]
+
 
 
 A pointer to a USHORT variable that is filled with the vendor ID of the VF.
 
-### -param DeviceId 
+### -param DeviceId [out]
 
-[out]
+
 
 
 A pointer to a USHORT variable that is filled with the device ID of the VF.

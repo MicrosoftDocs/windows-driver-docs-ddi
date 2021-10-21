@@ -49,29 +49,29 @@ The <b>IoAllocateMdl</b> routine allocates a memory descriptor list (MDL) large 
 
 ## -parameters
 
-### -param VirtualAddress 
+### -param VirtualAddress [in, optional]
 
-[in, optional]
+
 Pointer to the base virtual address of the buffer the MDL is to describe.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer that the MDL is to describe. For more information, see the following Remarks section.
 
-### -param SecondaryBuffer 
+### -param SecondaryBuffer [in]
 
-[in]
+
 Indicates whether the buffer is a primary or secondary buffer. This parameter determines how the MDL is to be linked to the IRP. All buffers except the first buffer described by an MDL in an IRP are considered secondary buffers. This field must be <b>FALSE</b> if no IRP is associated with the MDL. For more information, see the following Remarks section.
 
-### -param ChargeQuota 
+### -param ChargeQuota [in]
 
-[in]
+
 Reserved for system use. Drivers must set this parameter to <b>FALSE</b>.
 
-### -param Irp 
+### -param Irp [in, out, optional]
 
-[in, out, optional]
+
 Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is non-<b>NULL</b>, the allocated MDL is associated with the specified IRP's MDL list, according to the value of <i>SecondaryBuffer</i>.
 
 ## -returns

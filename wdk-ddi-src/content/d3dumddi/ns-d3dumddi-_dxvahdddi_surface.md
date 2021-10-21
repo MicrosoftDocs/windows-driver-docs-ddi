@@ -52,13 +52,13 @@ The DXVAHDDDI_SURFACE structure describes a surface.
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource that contains the surface.
+A handle to the resource that contains the surface.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource, which the handle in the <b>hResource</b> member specifies. The <b>SubResourceIndex</b> index indicates the surface.
+The zero-based index into the resource, which the handle in the <b>hResource</b> member specifies. The <b>SubResourceIndex</b> index indicates the surface.
 
 ## -remarks
 

@@ -49,44 +49,44 @@ The <b>VideoPortStartDma</b> function prepares the system for a DMA operation. A
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param VpDmaAdapter 
+### -param VpDmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure is returned from a call to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the buffer. This pointer is returned from a call to the video port driver's <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a> function.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the byte offset in the buffer at which the DMA operation begins. The <i>Mdl</i> parameter describes this buffer.
 
-### -param pLength 
+### -param pLength [in, out]
 
-[in, out]
+
 Pointer to a variable that specifies the requested transfer size, in bytes, and that will receive the actual size to be transferred. The variable will be updated when either of the following events occurs: <b>VideoPortStartDma</b> returns or <a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> is called. It is therefore safe to read this variable from within <i>HwVidExecuteDma</i> even before <b>VideoPortStartDma</b> returns.
 
-### -param ExecuteDmaRoutine 
+### -param ExecuteDmaRoutine [in]
 
-[in]
+
 Pointer to a miniport driver-supplied <a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback routine. <b>VideoPortStartDma</b> calls this routine to program the hardware registers and start the actual DMA operation.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the driver-determined context to be passed to the miniport driver's <i>HwVidExecuteDma</i> callback routine. Since the <i>HwVidExecuteDma</i> callback routine runs at DISPATCH_LEVEL, the data that <i>Context</i> points to should be in nonpaged memory.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Specifies the direction of the DMA transfer. A value of <b>TRUE</b> denotes a transfer from the buffer to the device, and a value of <b>FALSE</b> denotes a transfer from the device to the buffer.
 
 ## -returns

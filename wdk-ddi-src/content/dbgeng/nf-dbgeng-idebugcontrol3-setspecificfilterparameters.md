@@ -49,19 +49,19 @@ The <b>SetSpecificFilterParameters</b> method changes the <a href="/windows-hard
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first specific event filter whose parameters will be changed.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of specific event filters whose parameters will be changed.
 
-### -param Params 
+### -param Params [in]
 
-[in]
+
 Specifies an array of specific event filter parameters of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_specific_filter_parameters">DEBUG_SPECIFIC_FILTER_PARAMETERS</a>.  Only the <b>ExecutionOption</b> and <b>ContinueOption</b> members are used.  <b>ExceptionOption</b> specifies the new break status and <b>ContinueOption</b> specifies the new handling status.
 
 ## -returns

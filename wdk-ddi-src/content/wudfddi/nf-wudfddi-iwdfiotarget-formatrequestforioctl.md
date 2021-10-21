@@ -51,39 +51,39 @@ The <b>FormatRequestForIoctl</b> method formats an I/O request object for an I/O
 
 ## -parameters
 
-### -param pRequest 
+### -param pRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format.
 
-### -param IoctlCode 
+### -param IoctlCode [in]
 
-[in]
+
 A control code that identifies a specific operation to perform.
 
-### -param pFile 
+### -param pFile [in, optional]
 
-[in, optional]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the I/O control request. For the default I/O target, this parameter must be non-NULL.
 
-### -param pInputMemory 
+### -param pInputMemory [in, optional]
 
-[in, optional]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the input buffer for the request. This parameter is optional.
 
-### -param pInputMemoryOffset 
+### -param pInputMemoryOffset [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the input memory offset for the request. This parameter is optional.
 
-### -param pOutputMemory 
+### -param pOutputMemory [in, optional]
 
-[in, optional]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the output buffer for the request. This parameter is optional.
 
-### -param pOutputMemoryOffset 
+### -param pOutputMemoryOffset [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the output memory offset for the request. This parameter is optional.
 
 ## -returns

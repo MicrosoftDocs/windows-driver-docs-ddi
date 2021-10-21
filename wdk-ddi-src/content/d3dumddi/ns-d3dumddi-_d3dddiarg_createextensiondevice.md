@@ -52,17 +52,17 @@ The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Vide
 
 ## -struct-fields
 
-### -field pGuid
+### -field pGuid [in]
 
-[in] A pointer to the GUID that represents the DirectX VA extension type. The Microsoft Direct3D runtime calls the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the supported extension GUIDs.
+A pointer to the GUID that represents the DirectX VA extension type. The Microsoft Direct3D runtime calls the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the supported extension GUIDs.
 
-### -field pPrivate
+### -field pPrivate [in]
 
-[in] A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to create the extension device.
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to create the extension device.
 
-### -field hExtension
+### -field hExtension [in/out]
 
-[in/out] A handle to the extension device. The user-mode display driver must set this handle to a value that the Direct3D runtime can use to identify the extension device in subsequent calls.
+A handle to the extension device. The user-mode display driver must set this handle to a value that the Direct3D runtime can use to identify the extension device in subsequent calls.
 
 ## -see-also
 

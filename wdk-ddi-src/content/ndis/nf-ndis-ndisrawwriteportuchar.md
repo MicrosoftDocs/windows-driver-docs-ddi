@@ -49,16 +49,16 @@ api_name:
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 Specifies the byte to be written.
 
 ## -remarks

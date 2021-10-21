@@ -50,9 +50,9 @@ A language or port monitor's <b>ClosePort</b> function closes a printer port.
 
 ## -parameters
 
-### -param hPort 
+### -param hPort [in]
 
-[in]
+
 Caller-supplied pointer to a port handle.
 
 ## -returns

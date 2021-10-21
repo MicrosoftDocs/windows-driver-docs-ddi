@@ -58,19 +58,19 @@ This means:
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID.
 
-### -param ExTidBitmask 
+### -param ExTidBitmask [in]
 
-[in]
+
 The Extended TID bitmask.
 
 ## -remarks

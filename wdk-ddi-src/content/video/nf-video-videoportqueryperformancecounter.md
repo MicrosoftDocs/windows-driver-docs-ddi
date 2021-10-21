@@ -49,9 +49,9 @@ The <b>VideoPortQueryPerformanceCounter</b> function provides the finest-grained
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
 ### -param OPTIONAL

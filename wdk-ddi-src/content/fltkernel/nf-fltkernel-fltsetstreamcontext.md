@@ -48,30 +48,30 @@ The **FltSetStreamContext** routine sets a context for a file stream.
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] An opaque instance pointer for the minifilter driver instance whose context is to be inserted into, removed from, or replaced in the list of contexts attached to the file stream.
+An opaque instance pointer for the minifilter driver instance whose context is to be inserted into, removed from, or replaced in the list of contexts attached to the file stream.
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] A pointer to a [file object](../wdm/ns-wdm-_file_object.md) for the file stream.
+A pointer to a [file object](../wdm/ns-wdm-_file_object.md) for the file stream.
 
-### -param Operation
+### -param Operation [in]
 
-[in] Flag specifying details of the operation to be performed. This parameter must be one of the following:
+Flag specifying details of the operation to be performed. This parameter must be one of the following:
 
 | Flag | Meaning |
 | ---- | ------- |
 | FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for *Instance*, **FltSetStreamContext** will replace it with the context specified in *NewContext*. Otherwise, it will insert *NewContext* into the list of contexts for the file stream. |
 | FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for this *Instance*, **FltSetStreamContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, the routine will insert *NewContext* into the list of contexts for the file stream and increment the reference count. |
 
-### -param NewContext
+### -param NewContext [in]
 
-[in] A pointer to the new context to be set for the file stream. This parameter is required and cannot be **NULL**.
+A pointer to the new context to be set for the file stream. This parameter is required and cannot be **NULL**.
 
-### -param OldContext
+### -param OldContext [out]
 
-[out] A pointer to a caller-allocated variable that receives the address of the existing stream context for the *Instance* parameter, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
+A pointer to a caller-allocated variable that receives the address of the existing stream context for the *Instance* parameter, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 

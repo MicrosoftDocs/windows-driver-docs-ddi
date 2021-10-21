@@ -48,13 +48,13 @@ The **NtFlushBuffersFileEx** routine sends a flush request for a given file to t
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [in]
 
-[in] Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
+Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
-### -param Flags
+### -param Flags [in]
 
-[in] Flush operation flags. *Flags* can be one of the following values:
+Flush operation flags. *Flags* can be one of the following values:
 
 | Value | Meaning |
 | ----- | ------- |
@@ -63,17 +63,17 @@ The **NtFlushBuffersFileEx** routine sends a flush request for a given file to t
 | FLUSH_FLAGS_NO_SYNC | File data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. Windows file systems supported: NTFS, FAT, exFAT. |
 | FLUSH_FLAGS_FILE_DATA_SYNC_ONLY | Data from the given file will be written from the Windows in-memory cache. Only metadata that is necessary for data retrieval will be flushed (timestamp updating will be skipped as much as possible). The underlying storage is synchronized to flush its cache. This flag is not valid with volume or directory handles. Windows file systems supported: NTFS. |
 
-### -param Parameters
+### -param Parameters [in]
 
-[in] Pointer to a block with additional parameters. This parameter must currently be set to NULL.
+Pointer to a block with additional parameters. This parameter must currently be set to NULL.
 
-### -param ParametersSize
+### -param ParametersSize [in]
 
-[in] The size, in bytes, of the block that *Parameters* point to. This parameter must currently be set to 0.
+The size, in bytes, of the block that *Parameters* point to. This parameter must currently be set to 0.
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Address of the caller's I/O status block. This parameter is required and cannot be NULL.
+Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns
 

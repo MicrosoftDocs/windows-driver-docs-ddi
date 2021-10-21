@@ -52,9 +52,9 @@ NDIS calls a filter driver's
 
 ## -parameters
 
-### -param FilterModuleContext 
+### -param FilterModuleContext [in]
 
-[in]
+
 A handle to the context area for the filter module that NDIS will remove from the driver stack.
      The filter driver created and initialized this context area in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.

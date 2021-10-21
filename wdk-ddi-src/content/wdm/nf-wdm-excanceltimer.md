@@ -50,14 +50,14 @@ The <b>ExCancelTimer</b> routine cancels a timer that was set by a previous call
 
 ## -parameters
 
-### -param Timer 
+### -param Timer [in, out]
 
-[in, out]
+
 A pointer to an <a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
-### -param Parameters 
+### -param Parameters [in, optional]
 
-[in, optional]
+
 Drivers must set this parameter to <b>NULL</b>.
 
 ## -returns

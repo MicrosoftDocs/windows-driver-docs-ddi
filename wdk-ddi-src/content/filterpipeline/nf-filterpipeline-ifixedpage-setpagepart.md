@@ -49,9 +49,9 @@ The <b>SetPagePart</b> method associates a new part with the page.
 
 ## -parameters
 
-### -param pUnk 
+### -param pUnk [in]
 
-[in]
+
 A pointer to the new part.
 
 ## -returns

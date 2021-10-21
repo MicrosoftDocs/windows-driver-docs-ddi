@@ -50,19 +50,19 @@ The <b>RtlSetGroupSecurityDescriptor</b> routine sets the primary group informat
 
 ## -parameters
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure whose primary group is to be set. <b>RtlSetGroupSecurityDescriptor</b> replaces any existing primary group with the new primary group.
 
-### -param Group 
+### -param Group [in, optional]
 
-[in, optional]
+
 Pointer to a security identifier (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) structure for the security descriptor's new primary owner. This pointer, not the SID structure itself, is copied into the security descriptor. If <i>Group</i> is <b>NULL</b>, <b>RtlSetGroupSecurityDescriptor</b> clears the security descriptor's primary group information. This marks the security descriptor as having no primary group.
 
-### -param GroupDefaulted 
+### -param GroupDefaulted [in, optional]
 
-[in, optional]
+
 Set this Boolean variable to <b>TRUE</b> if the primary group information is derived from a default mechanism. If this parameter is <b>TRUE</b>, <b>RtlSetGroupSecurityDescriptor</b> sets the SE_GROUP_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL field. If this parameter is <b>FALSE</b>, <b>RtlSetGroupSecurityDescriptor</b> clears the SE_GROUP_DEFAULTED flag.
 
 ## -returns

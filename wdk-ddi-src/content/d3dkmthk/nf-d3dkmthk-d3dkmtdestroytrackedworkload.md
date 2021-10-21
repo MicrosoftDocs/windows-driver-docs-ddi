@@ -48,9 +48,9 @@ Destroys a tracked workload instance.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] Pointer to a [D3DKMT_DESTROYTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_destroytrackedworkload.md) structure to destroy.
+Pointer to a [D3DKMT_DESTROYTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_destroytrackedworkload.md) structure to destroy.
 
 ## -returns
 

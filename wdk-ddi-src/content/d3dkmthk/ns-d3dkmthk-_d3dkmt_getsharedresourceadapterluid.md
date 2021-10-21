@@ -52,15 +52,15 @@ Provides information that describes a shared resource and the graphics adapter t
 
 ## -struct-fields
 
-### -field hGlobalShare
+### -field hGlobalShare [in]
 
-[in] A handle to the shared resource.
+A handle to the shared resource.
 
-### -field hNtHandle
+### -field hNtHandle [in]
 
-[in] An NT handle to the process.
+An NT handle to the process.
 
-### -field AdapterLuid
+### -field AdapterLuid [out]
 
-[out] A LUID that serves as an identifier for the device that the resource indicated by <b>hGlobalShare</b> was created on. <b>LUID</b> is defined in Dxgi.h.
+A LUID that serves as an identifier for the device that the resource indicated by <b>hGlobalShare</b> was created on. <b>LUID</b> is defined in Dxgi.h.
 

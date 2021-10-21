@@ -49,9 +49,9 @@ The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE oper
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 ## -returns

@@ -50,44 +50,44 @@ The <b>HidP_GetUsageValue</b> routine extracts the data associated with a HID co
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
-### -param UsagePage 
+### -param UsagePage [in]
 
-[in]
+
 Specifies the value's <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a>.
 
-### -param LinkCollection 
+### -param LinkCollection [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the value. If <i>LinkCollection</i> is nonzero, the routine only searches for the usage in this link collection; otherwise, if <i>LinkCollection</i> is zero, the routine searches for the usage in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
-### -param Usage 
+### -param Usage [in]
 
-[in]
+
 Specifies the usage of the value.
 
-### -param UsageValue 
+### -param UsageValue [out]
 
-[out]
+
 Pointer to a buffer in which the routine returns the value data.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-### -param Report 
+### -param Report [in]
 
-[in]
+
 Pointer to a report that contains values.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 ## -returns

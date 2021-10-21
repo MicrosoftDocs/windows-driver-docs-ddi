@@ -47,9 +47,9 @@ Raises the hardware priority to the specified IRQL value, thereby masking off in
 
 ## -parameters
 
-### -param NewIrql
+### -param NewIrql [in]
 
-[in] Specifies the new IRQL to which the hardware priority is to be raised.
+Specifies the new IRQL to which the hardware priority is to be raised.
 
 ## -returns
 

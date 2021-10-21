@@ -54,9 +54,9 @@ This routine removes a thread from a silo which was added by an attach. For more
 
 ## -parameters
 
-### -param PreviousSilo 
+### -param PreviousSilo [in]
 
-[in]
+
 The value returned from the silo attach call.
 
 ## -see-also

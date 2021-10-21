@@ -49,29 +49,29 @@ The <b>IoWMIQuerySingleInstanceMultiple</b> routine returns all WMI data block i
 
 ## -parameters
 
-### -param DataBlockObjectList 
+### -param DataBlockObjectList [in]
 
-[in]
+
 Pointer to an array of pointers of WMI data block objects. The caller opens a data block object for each WMI class with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. Each object must be opened with the WMIGUID_QUERY access right.
 
-### -param InstanceNames 
+### -param InstanceNames [in]
 
-[in]
+
 Pointer to an array of <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures containing instance names. The <i>n</i>th instance name in the array corresponds to the value of the <b>InstanceName</b> property for the <i>n</i>th WMI class specified in the array pointed to by the <i>DataBlockObjectList</i> parameter.
 
-### -param ObjectCount 
+### -param ObjectCount [in]
 
-[in]
+
 Specifies the number of entries in the arrays passed in the <i>DataBlockObjectList</i> and <i>InstanceNames</i> parameters.
 
-### -param InOutBufferSize 
+### -param InOutBufferSize [in, out]
 
-[in, out]
+
 Pointer to a memory location that specifies the size of the buffer passed in the <i>OutBuffer</i> parameter. If the routine succeeds, it updates the memory location to specify the number of bytes actually stored in <i>OutBuffer</i>. If the routine fails with STATUS_BUFFER_TOO_SMALL, it returns the number of bytes required to return the data.
 
-### -param OutBuffer 
+### -param OutBuffer [out, optional]
 
-[out, optional]
+
 Pointer to the buffer where the routine returns the WMI data. The routine returns a sequence of variable-sized <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_single_instance">WNODE_SINGLE_INSTANCE</a> structures, one for each data block instance. The <b>WnodeHeader.Linkage</b> member of each <b>WNODE_SINGLE_INSTANCE</b> structure contains the offset from the beginning of the current <b>WNODE_SINGLE_INSTANCE</b> to the beginning of the next <b>WNODE_SINGLE_INSTANCE</b>. The final block in the chain has <b>WnodeHeader.Linkage</b> set to zero. Each distinct data block instance corresponds to a single matching WMI class and instance name. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool.
 
 ## -returns

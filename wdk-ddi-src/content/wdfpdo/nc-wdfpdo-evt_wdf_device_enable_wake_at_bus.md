@@ -51,14 +51,14 @@ A bus driver's <i>EvtDeviceEnableWakeAtBus</i> event callback function performs 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PowerState 
+### -param PowerState [in]
 
-[in]
+
 A SYSTEM_POWER_STATE-typed enumerator that identifies the system power state that the system or device will wake from.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>KsSetCorrelatedTime</b> method sets the current time with the correlated 
 
 ## -parameters
 
-### -param CorrelatedTime 
+### -param CorrelatedTime [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a> structure that contains the current clock time along with the correlated system time to which to set the underlying clock.
 
 ## -returns

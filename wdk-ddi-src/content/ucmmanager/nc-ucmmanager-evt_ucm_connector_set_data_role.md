@@ -49,14 +49,14 @@ The client driver's implementation of the <i>EVT_UCM_CONNECTOR_SET_DATA_ROLE</i>
 
 ## -parameters
 
-### -param Connector 
+### -param Connector [in]
 
-[in]
+
 Handle to the connector that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a> method.
 
-### -param DataRole 
+### -param DataRole [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner">UCM_TYPEC_PARTNER</a>-typed flag that specifies the role to set.
 
 ## -returns

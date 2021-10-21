@@ -52,25 +52,25 @@ The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the o
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device that the overlay is associated with.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device that the overlay is associated with.
 
-### -field hOverlay
+### -field hOverlay [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to be flipped.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to be flipped.
 
-### -field hSource
+### -field hSource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] A pointer to a block of private data, which is passed from the OpenGL ICD to the display miniport driver.
+A pointer to a block of private data, which is passed from the OpenGL ICD to the display miniport driver.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 ## -see-also
 

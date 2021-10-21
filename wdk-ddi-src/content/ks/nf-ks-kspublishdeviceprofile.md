@@ -50,14 +50,14 @@ The <b>KsPublishDeviceProfile</b> API is called to publish device profile inform
 
 ## -parameters
 
-### -param FilterFactory 
+### -param FilterFactory [in]
 
-[in]
+
 This is the same <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> used in the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedeviceprofile">KsInitializeDeviceProfile</a> API.
 
-### -param Profile 
+### -param Profile [in]
 
-[in]
+
 This is a camera profile of type <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksdevice_profile_info">KSDEVICE_PROFILE_INFO</a>.
 
 ## -returns

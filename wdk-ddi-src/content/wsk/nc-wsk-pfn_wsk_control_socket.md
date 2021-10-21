@@ -50,16 +50,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket on which the control operation is being performed.
 
-### -param RequestType 
+### -param RequestType [in]
 
-[in]
+
 A value that specifies the type of control operation that is being performed. A WSK application
      sets this parameter to one of the following values:
      
@@ -84,9 +84,9 @@ Get the state or value of a socket option.
 
 Perform an I/O control operation.
 
-### -param ControlCode 
+### -param ControlCode [in]
 
-[in]
+
 If the 
      <i>RequestType</i> parameter is set to 
      <b>WskSetOption</b> or 
@@ -105,9 +105,9 @@ If the
      <a href="/windows-hardware/drivers/network/sio-wsk-query-ideal-send-backlog">WSK Socket IOCTL Operations</a>. The
      underlying network protocol might support additional socket I/O control operations.
 
-### -param Level 
+### -param Level [in]
 
-[in]
+
 The level in the network stack at which the value for a socket option is being either set or
      retrieved. For WSK subsystem level socket options, the WSK application should set this parameter to
      SOL_SOCKET. For transport protocol or network protocol level socket options, the WSK application should
@@ -119,37 +119,37 @@ If the
      <b>WskIoctl</b>, the 
      <i>Level</i> parameter is ignored.
 
-### -param InputSize 
+### -param InputSize [in]
 
-[in]
+
 The number of bytes of data in the buffer that is pointed to by the 
      <i>InputBuffer</i> parameter.
 
-### -param InputBuffer 
+### -param InputBuffer [in, optional]
 
-[in, optional]
+
 A caller-allocated buffer that supplies any input data that is required to perform the specified
      control operation. If no input data is required for the specified control operation, the WSK application
      should set this parameter to <b>NULL</b> and set the 
      <i>InputSize</i> parameter to zero.
 
-### -param OutputSize 
+### -param OutputSize [in]
 
-[in]
+
 The size of the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter.
 
-### -param OutputBuffer 
+### -param OutputBuffer [out, optional]
 
-[out, optional]
+
 A caller-allocated buffer that receives any output data that is returned by the specified control
      operation. If no output data is returned by the specified control operation, the WSK application should
      set this parameter to <b>NULL</b> and set the 
      <i>OutputSize</i> parameter to zero.
 
-### -param OutputSizeReturned 
+### -param OutputSizeReturned [out, optional]
 
-[out, optional]
+
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
      the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter. A WSK application should set the 
@@ -174,9 +174,9 @@ The number of bytes of output data that is returned by the operation that is bei
 </li>
 </ul>
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

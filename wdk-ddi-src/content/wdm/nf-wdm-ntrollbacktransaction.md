@@ -49,14 +49,14 @@ The <b>ZwRollbackTransaction</b> routine initiates a rollback operation for a sp
 
 ## -parameters
 
-### -param TransactionHandle 
+### -param TransactionHandle [in]
 
-[in]
+
 A handle to a <a href="/windows-hardware/drivers/kernel/transaction-objects">transaction object</a> that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a>. The handle must have TRANSACTION_ROLLBACK access to the object.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or <b>FALSE</b> for asynchronous operation. If this parameter is set to <b>TRUE</b>, the call does not return until the rollback operation is complete.
 
 ## -returns

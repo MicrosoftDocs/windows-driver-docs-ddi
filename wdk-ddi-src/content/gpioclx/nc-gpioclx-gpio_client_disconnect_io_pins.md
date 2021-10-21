@@ -49,14 +49,14 @@ The <i>CLIENT_DisconnectIoPins</i> event callback function closes a logical conn
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-### -param DisconnectParameters 
+### -param DisconnectParameters [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_disconnect_io_pins_parameters">GPIO_DISCONNECT_IO_PINS_PARAMETERS</a> structure that describes the set of GPIO pins that are to be disconnected.
 
 ## -returns

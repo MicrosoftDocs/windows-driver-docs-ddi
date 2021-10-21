@@ -51,14 +51,14 @@ The <b>WDF_DPC_CONFIG_INIT</b> function initializes a driver's <a href="/windows
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a> structure.
 
-### -param EvtDpcFunc 
+### -param EvtDpcFunc [in]
 
-[in]
+
 A pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a> callback function.
 
 ## -remarks

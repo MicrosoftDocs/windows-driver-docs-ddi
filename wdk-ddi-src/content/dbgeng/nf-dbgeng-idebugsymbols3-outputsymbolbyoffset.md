@@ -49,14 +49,14 @@ The <b>OutputSymbolByOffset</b> method looks up a symbol by address and prints t
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies where to send the output. For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the flags used to determine what information is printed with the symbol.
 
 The following flags can be present:
@@ -100,9 +100,9 @@ This allows the <i>Offset</i> parameter to specify any address within the symbol
 </tr>
 </table>
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the process's virtual address space of the symbol to be printed.
 
 ## -returns

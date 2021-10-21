@@ -51,14 +51,14 @@ The <b>WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</b> function sets a new IRP in a dri
 
 ## -parameters
 
-### -param Params 
+### -param Params [in, out]
 
-[in, out]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
-### -param NewIrp 
+### -param NewIrp [in]
 
-[in]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
 ## -remarks

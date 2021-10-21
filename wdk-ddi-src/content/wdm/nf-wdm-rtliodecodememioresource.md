@@ -49,24 +49,24 @@ The <b>RtlIoDecodeMemIoResource</b> routine provides the address information tha
 
 ## -parameters
 
-### -param Descriptor 
+### -param Descriptor [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to provide the address information for.
 
-### -param Alignment 
+### -param Alignment [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the alignment, in bytes, of the address range. This parameter can be <b>NULL</b>.
 
-### -param MinimumAddress 
+### -param MinimumAddress [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the minimum address of the address range. This parameter can be <b>NULL</b>.
 
-### -param MaximumAddress 
+### -param MaximumAddress [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the maximum address of the address range. This parameter can be <b>NULL</b>.
 
 ## -returns

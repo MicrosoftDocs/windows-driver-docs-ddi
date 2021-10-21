@@ -49,14 +49,14 @@ The <b>FltIsEcpAcknowledged</b> routine is used to determine if a given extra cr
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 Pointer to the ECP to test for acknowledgment.
 
 ## -returns

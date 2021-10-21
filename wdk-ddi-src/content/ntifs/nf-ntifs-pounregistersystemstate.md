@@ -49,9 +49,9 @@ The <b>PoUnregisterSystemState</b> routine cancels a system state registration c
 
 ## -parameters
 
-### -param StateHandle 
+### -param StateHandle [in, out]
 
-[in, out]
+
 A pointer to a handle previously returned by <b>PoRegisterSystemState</b>.
 
 ## -remarks

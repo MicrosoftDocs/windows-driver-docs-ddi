@@ -49,19 +49,19 @@ The <b>RtlFillMemoryUlonglong</b> routine fills a given range of memory with one
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 Pointer to the start of the range of memory to be filled. This address must be ULONGLONG-aligned.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Number of bytes to fill. This value must be a multiple of <b>sizeof(</b>ULONGLONG<b>)</b>. (Note: SIZE_T is defined in <i>basetsd.h</i>.)
 
-### -param Pattern 
+### -param Pattern [in]
 
-[in]
+
 ULONGLONG value with which to fill the range starting at <i>Destination</i> and extending for <i>Length</i> bytes.
 
 ## -remarks

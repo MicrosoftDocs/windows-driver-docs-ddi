@@ -51,9 +51,9 @@ Profile drivers implement a L2CAP callback function to provide the Bluetooth dri
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
      <b>IndicationCallbackContext</b> member of the 
@@ -63,16 +63,16 @@ For incoming remote connection request indications, this is the context specifie
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
      <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> BRB.
 
-### -param Indication 
+### -param Indication [in]
 
-[in]
+
 An 
      <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> value that indicates the type
      of L2CAP event.
 
-### -param Parameters 
+### -param Parameters [in]
 
-[in]
+
 An 
      <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a> structure that
      contains event-specific parameters.

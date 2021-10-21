@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param ThisVNetRoot 
+### -param ThisVNetRoot [out]
 
-[out]
+
 A pointer to the V_NET_ROOT structure to finalize.
 
-### -param RecursiveFinalize 
+### -param RecursiveFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be done recursively. This parameter in not currently used.
 
-### -param ForceFinalize 
+### -param ForceFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
 If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the V_NET_ROOT structure pointed to by <i>ThisVNetRoot</i> must be 1 for the V_NET_ROOT to be finalized.

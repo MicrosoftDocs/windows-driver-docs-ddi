@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param RxDeviceObject 
+### -param RxDeviceObject [in]
 
-[in]
+
 A pointer to the RDBSS device object for this network redirector.
 
 ## -remarks

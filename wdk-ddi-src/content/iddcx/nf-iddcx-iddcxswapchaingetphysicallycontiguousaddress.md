@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param SwapChainObject
+### -param SwapChainObject [in]
 
-[in] The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object used to query the physical address of the currently acquired surface.
+The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object used to query the physical address of the currently acquired surface.
 
-### -param pSurfaceAddresss
+### -param pSurfaceAddresss [out]
 
-[out] Pointer to a PHYSICAL_ADDRESS variable that is filled in with either the physical address of a surface or nullptr.
+Pointer to a PHYSICAL_ADDRESS variable that is filled in with either the physical address of a surface or nullptr.
 
 ## -returns
 

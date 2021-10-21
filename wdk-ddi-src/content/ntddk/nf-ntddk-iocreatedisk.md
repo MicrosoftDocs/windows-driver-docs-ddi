@@ -49,14 +49,14 @@ The <b>IoCreateDisk</b> routine initializes a raw disk by creating a new partiti
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the raw disk.
 
-### -param Disk 
+### -param Disk [in, optional]
 
-[in, optional]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_create_disk">CREATE_DISK</a> structure that specifies the type and parameters for the partition table. If <i>Disk</i> is <b>NULL</b>, the routine deletes the partition table on the disk.
 
 ## -returns

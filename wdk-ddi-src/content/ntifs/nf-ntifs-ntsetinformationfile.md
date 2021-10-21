@@ -48,25 +48,25 @@ The **NtSetInformationFile** routine changes various kinds of information about 
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [in]
 
-[in] Handle to the file object. This handle is created by a successful call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](nf-ntifs-ntopenfile.md).
+Handle to the file object. This handle is created by a successful call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](nf-ntifs-ntopenfile.md).
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. The **Information** member receives the number of bytes set on the file.
+Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. The **Information** member receives the number of bytes set on the file.
 
-### -param FileInformation
+### -param FileInformation [in]
 
-[in] Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the **FileInformationClass** parameter. For example, if the **FileInformationClass** parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](../ntddk/ns-ntddk-_file_disposition_information_ex.md) structure.
+Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the **FileInformationClass** parameter. For example, if the **FileInformationClass** parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](../ntddk/ns-ntddk-_file_disposition_information_ex.md) structure.
 
-### -param Length
+### -param Length [in]
 
-[in] The size, in bytes, of the **FileInformation** buffer.
+The size, in bytes, of the **FileInformation** buffer.
 
-### -param FileInformationClass
+### -param FileInformationClass [in]
 
-[in] The type of information, supplied in the buffer pointed to by **FileInformation**, to set for the file. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md) values.
+The type of information, supplied in the buffer pointed to by **FileInformation**, to set for the file. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md) values.
 
 |FILE_INFORMATION_CLASS value|Type of information returned|
 |----|----|

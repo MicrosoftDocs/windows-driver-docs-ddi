@@ -49,9 +49,9 @@ The <b>IoDisconnectInterrupt</b> routine releases a device driver's set of inter
 
 ## -parameters
 
-### -param InterruptObject 
+### -param InterruptObject [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure. The caller obtained this pointer from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> call that previously connected the interrupt or interrupts.
 
 ## -remarks

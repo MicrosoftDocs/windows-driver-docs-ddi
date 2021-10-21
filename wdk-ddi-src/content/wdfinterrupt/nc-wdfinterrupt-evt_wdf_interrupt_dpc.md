@@ -51,14 +51,14 @@ A driver's <i>EvtInterruptDpc</i> event callback function processes interrupt in
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
-### -param AssociatedObject 
+### -param AssociatedObject [in]
 
-[in]
+
 A handle to the framework device object that the driver passed to <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
 ## -remarks

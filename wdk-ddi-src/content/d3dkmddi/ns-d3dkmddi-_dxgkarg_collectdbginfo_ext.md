@@ -52,13 +52,13 @@ The DXGKARG_COLLECTDBGINFO_EXT structure describes extension information for a d
 
 ## -struct-fields
 
-### -field BucketingKey
+### -field BucketingKey [out]
 
-[out] The optional integer key for Microsoft Online Crash Analysis (OCA) bucketing (that is, the categorizing of minidumps).
+The optional integer key for Microsoft Online Crash Analysis (OCA) bucketing (that is, the categorizing of minidumps).
 
-### -field CurrentDmaBufferOffset
+### -field CurrentDmaBufferOffset [out]
 
-[out] The optional execution offset into the current DMA buffer. The operating system uses the offset to optimize DMA data collection.
+The optional execution offset into the current DMA buffer. The operating system uses the offset to optimize DMA data collection.
 
 ### -field Reserved2
 

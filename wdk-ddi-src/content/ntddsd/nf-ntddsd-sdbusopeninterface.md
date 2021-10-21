@@ -49,24 +49,24 @@ The <b>SdBusOpenInterface</b> routine obtains an interface from the Secure Digit
 
 ## -parameters
 
-### -param Pdo 
+### -param Pdo [in]
 
-[in]
+
 Pointer to the physical device object that the SD bus driver created for the SD device that the device driver manages. The system passes this pointer to the device driver when it calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-### -param InterfaceStandard 
+### -param InterfaceStandard [out]
 
-[out]
+
 Contains, on input, a pointer to a structure of type <a href="/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> supplied by the caller. On output, this structure holds pointers to the SD bus interface routines. This structure also contains some context information in its <b>Context</b> member that the caller should pass in every time it calls an interface routine.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Contains the size, in bytes, of the structure pointed to by <i>InterfaceStandard</i>.
 
-### -param Version 
+### -param Version [in]
 
-[in]
+
 Must be set to SDBUS_INTERFACE_VERSION.
 
 ## -returns

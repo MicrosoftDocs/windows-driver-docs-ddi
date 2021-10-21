@@ -50,19 +50,19 @@ Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of th
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure to initialize.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call.
 
-### -param ReportDescriptorLength 
+### -param ReportDescriptorLength [in]
 
-[in]
+
 The length of the HID Report Descriptor contained in a buffer pointer by <i>ReportDescriptor</i>.
 
 ### -param ReportDescriptor

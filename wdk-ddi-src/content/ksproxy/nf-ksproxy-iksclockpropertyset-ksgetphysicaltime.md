@@ -49,9 +49,9 @@ The <b>KsGetPhysicalTime</b> method retrieves the physical time from the underly
 
 ## -parameters
 
-### -param Time 
+### -param Time [out]
 
-[out]
+
 Pointer to a variable that receives the current physical time.
 
 ## -returns

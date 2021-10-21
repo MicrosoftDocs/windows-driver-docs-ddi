@@ -52,19 +52,19 @@ The <b>WdfWmiInstanceFireEvent</b> method sends a WMI event to WMI clients that 
 
 ## -parameters
 
-### -param WmiInstance 
+### -param WmiInstance [in]
 
-[in]
+
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>.
 
-### -param EventDataSize 
+### -param EventDataSize [in, optional]
 
-[in, optional]
+
 The size, in bytes, of the event data that <i>EventData</i> points to.
 
-### -param EventData 
+### -param EventData [in, optional]
 
-[in, optional]
+
 A pointer to the event data, or <b>NULL</b> if there is no event data.
 
 ## -returns

@@ -52,14 +52,14 @@ The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes a <a hr
 
 ## -parameters
 
-### -param RequirementsList 
+### -param RequirementsList [in]
 
-[in]
+
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
-### -param IoResList 
+### -param IoResList [in]
 
-[in]
+
 A handle to a framework resource-range-list object that represents the logical configuration to be removed from the resource requirements list that <i>RequirementsList</i> specifies.
 
 ## -remarks

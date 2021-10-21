@@ -52,13 +52,13 @@ The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primar
 
 ## -struct-fields
 
-### -field AdapterLuid
+### -field AdapterLuid [in]
 
-[in] The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which the GDI shared primary surface exists.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which the GDI shared primary surface exists.
 
 ## -see-also
 

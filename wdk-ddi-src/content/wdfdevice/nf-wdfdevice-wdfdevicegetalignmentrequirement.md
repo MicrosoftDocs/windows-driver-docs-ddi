@@ -52,9 +52,9 @@ The <b>WdfDeviceGetAlignmentRequirement</b> method retrieves a device's address 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

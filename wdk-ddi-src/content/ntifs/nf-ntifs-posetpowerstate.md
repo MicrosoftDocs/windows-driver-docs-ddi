@@ -49,19 +49,19 @@ The <b>PoSetPowerState</b> routine notifies the system of a change in the <a hre
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the target <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Indicates a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_power_state_type">POWER_STATE_TYPE</a> value. Drivers must specify <b>DevicePowerState</b>.
 
-### -param State 
+### -param State [in]
 
-[in]
+
 Specifies the power state to be set. Drivers must specify a <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> value.
 
 ## -returns

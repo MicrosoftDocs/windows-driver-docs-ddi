@@ -49,34 +49,34 @@ The <b>ZwOpenTransactionManager</b> routine obtains a handle to an existing tran
 
 ## -parameters
 
-### -param TmHandle 
+### -param TmHandle [out]
 
-[out]
+
 A pointer to a caller-allocated variable that receives a handle to the <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a> if <b>ZwOpenTransactionManager</b> returns STATUS_SUCCESS.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction manager object. For information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransactionmanager">ZwCreateTransactionManager</a>.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in, optional]
 
-[in, optional]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>.
 
-### -param LogFileName 
+### -param LogFileName [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of the <a href="/windows-hardware/drivers/kernel/using-log-streams-with-ktm">log file stream</a> that was created when the transaction manager object was created. For more information, see the <i>LogFileName</i> parameter of <b>ZwCreateTransactionManager</b>. This parameter is optional and can be <b>NULL</b>.
 
-### -param TmIdentity 
+### -param TmIdentity [in, optional]
 
-[in, optional]
+
 A pointer to a GUID that identifies the transaction manager object.  This parameter is optional and can be <b>NULL</b>.
 
-### -param OpenOptions 
+### -param OpenOptions [in, optional]
 
-[in, optional]
+
 This parameter is not used and must be zero.
 
 ## -returns

@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to an [**IDARG_OUT_GETVERSION**](ns-iddcx-idarg_out_getversion.md) structure in which the current IddCx version is returned. See Remarks.
+Pointer to an [**IDARG_OUT_GETVERSION**](ns-iddcx-idarg_out_getversion.md) structure in which the current IddCx version is returned. See Remarks.
 
 ## -returns
 

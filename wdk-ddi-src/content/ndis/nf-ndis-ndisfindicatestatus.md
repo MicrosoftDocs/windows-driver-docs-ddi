@@ -52,16 +52,16 @@ The
 
 ## -parameters
 
-### -param NdisFilterHandle 
+### -param NdisFilterHandle [in]
 
-[in]
+
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param StatusIndication 
+### -param StatusIndication [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.

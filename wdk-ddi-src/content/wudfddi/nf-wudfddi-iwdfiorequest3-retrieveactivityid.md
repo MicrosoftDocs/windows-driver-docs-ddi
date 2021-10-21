@@ -53,9 +53,9 @@ api_name:
 
 ## -parameters
 
-### -param ActivityId 
+### -param ActivityId [out]
 
-[out]
+
 A pointer to a location to store the retrieved GUID.
 
 ## -returns

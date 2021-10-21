@@ -49,19 +49,19 @@ The <code>AllocateContiguousPagesForMdl</code> method allocates a list of contig
 
 ## -parameters
 
-### -param LowAddress 
+### -param LowAddress [in]
 
-[in]
+
 Specifies the low end of the address range from which the storage for the MDL can be allocated.
 
-### -param HighAddress 
+### -param HighAddress [in]
 
-[in]
+
 Specifies the high end of the address range from which the storage for the MDL can be allocated.
 
-### -param TotalBytes 
+### -param TotalBytes [in]
 
-[in]
+
 Specifies the total number of bytes to allocate for the MDL. This method always allocates an integral number of memory pages.
 
 ## -returns

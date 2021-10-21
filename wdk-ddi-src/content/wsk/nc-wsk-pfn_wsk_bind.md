@@ -50,16 +50,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being bound.
 
-### -param LocalAddress 
+### -param LocalAddress [in]
 
-[in]
+
 A pointer to a structure that specifies the local transport address to which to bind the socket.
      This pointer must be a pointer to the specific SOCKADDR structure type that corresponds to the address
      family that the WSK application specified when it created the socket.
@@ -69,9 +69,9 @@ A pointer to a structure that specifies the local transport address to which to 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the bind operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

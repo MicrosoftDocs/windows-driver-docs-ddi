@@ -56,24 +56,24 @@ This request is never made when <b>TargetPriorityQueueing</b> is set to true.
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 The port ID.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID.
 
-### -param bBacklogged 
+### -param bBacklogged [in]
 
-[in]
+
 The backlog state.
 
 ## -see-also

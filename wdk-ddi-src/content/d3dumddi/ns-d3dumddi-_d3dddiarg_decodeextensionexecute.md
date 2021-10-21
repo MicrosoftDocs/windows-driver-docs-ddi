@@ -52,25 +52,25 @@ The D3DDDIARG_DECODEEXTENSIONEXECUTE structure describes a nonstandard Microsoft
 
 ## -struct-fields
 
-### -field hDecode
+### -field hDecode [in]
 
-[in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
+A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
 
-### -field Function
+### -field Function [in]
 
-[in] A specific decode operation to perform. The possible values for this member are defined by the nonstandard decode device.
+A specific decode operation to perform. The possible values for this member are defined by the nonstandard decode device.
 
-### -field pPrivateInput
+### -field pPrivateInput [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the decode operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the decode operation.
 
-### -field pPrivateOutput
+### -field pPrivateOutput [out]
 
-[out] A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the decode operation that the driver returns.
+A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the decode operation that the driver returns.
 
-### -field NumBuffers
+### -field NumBuffers [in]
 
-[in] The number of buffers in the list that is pointed to by <b>pBuffers</b>.
+The number of buffers in the list that is pointed to by <b>pBuffers</b>.
 
 ### -field pBuffers
 

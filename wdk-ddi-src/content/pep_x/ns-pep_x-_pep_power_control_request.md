@@ -55,37 +55,37 @@ The <b>PEP_POWER_CONTROL_REQUEST</b> structure contains a request from a driver 
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
-### -field PowerControlCode
+### -field PowerControlCode [in]
 
-[in] A pointer to a GUID value that specifies the power control operation to perform. This is the same value that the requesting driver supplied as the <i>PowerControlCode</i> parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a> routine.
+A pointer to a GUID value that specifies the power control operation to perform. This is the same value that the requesting driver supplied as the <i>PowerControlCode</i> parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a> routine.
 
-### -field InBuffer
+### -field InBuffer [in]
 
-[in] A pointer to a driver-allocated input buffer that contains the input parameters for this power control operation. This is the same value that the requesting driver supplied as the <i>InBuffer</i> parameter to the <b>PoFxPowerControl</b> routine.
+A pointer to a driver-allocated input buffer that contains the input parameters for this power control operation. This is the same value that the requesting driver supplied as the <i>InBuffer</i> parameter to the <b>PoFxPowerControl</b> routine.
 
-### -field InBufferSize
+### -field InBufferSize [in]
 
-[in] The size in bytes of the buffer pointed to by <b>InBuffer</b>. This is the same value that the requesting driver supplied as the <i>InBufferSize</i> parameter to the <b>PoFxPowerControl</b> routine.
+The size in bytes of the buffer pointed to by <b>InBuffer</b>. This is the same value that the requesting driver supplied as the <i>InBufferSize</i> parameter to the <b>PoFxPowerControl</b> routine.
 
-### -field OutBuffer
+### -field OutBuffer [in]
 
-[in] A pointer to a driver-allocated output buffer to which the PEP writes the results of this power control operation. This is the same value that the requesting driver supplied as the <i>OutBuffer</i> parameter to the <b>PoFxPowerControl</b> routine.
+A pointer to a driver-allocated output buffer to which the PEP writes the results of this power control operation. This is the same value that the requesting driver supplied as the <i>OutBuffer</i> parameter to the <b>PoFxPowerControl</b> routine.
 
-### -field OutBufferSize
+### -field OutBufferSize [in]
 
-[in] The size in bytes of the buffer pointed to by <b>OutBuffer</b>.
+The size in bytes of the buffer pointed to by <b>OutBuffer</b>.
 
-### -field BytesReturned
+### -field BytesReturned [out]
 
-[out] The number of bytes that the PEP wrote to the output buffer pointed to by <b>OutBuffer</b>.
+The number of bytes that the PEP wrote to the output buffer pointed to by <b>OutBuffer</b>.
 
-### -field Status
+### -field Status [out]
 
-[out] The status of the requested power control operation. If the operation is successful, the PEP sets this member to STATUS_SUCCESS. Otherwise, the PEP sets this member to an appropriate error status code.
+The status of the requested power control operation. If the operation is successful, the PEP sets this member to STATUS_SUCCESS. Otherwise, the PEP sets this member to an appropriate error status code.
 
 ## -remarks
 

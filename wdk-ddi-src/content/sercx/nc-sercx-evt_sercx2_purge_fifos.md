@@ -49,19 +49,19 @@ The <i>EvtSerCx2PurgeFifos</i> event callback function is called by version 2 of
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>.
 
-### -param PurgeRxFifo 
+### -param PurgeRxFifo [in]
 
-[in]
+
 Whether to purge the receive FIFO. If this parameter is set to <b>TRUE</b>, purge the receive FIFO. If <b>FALSE</b>, do not purge the receive FIFO.
 
-### -param PurgeTxFifo 
+### -param PurgeTxFifo [in]
 
-[in]
+
 Whether to purge the transmit FIFO. If this parameter is set to <b>TRUE</b>, purge the transmit FIFO. If <b>FALSE</b>, do not purge the transmit FIFO.
 
 ## -remarks

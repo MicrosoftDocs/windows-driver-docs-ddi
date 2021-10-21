@@ -49,9 +49,9 @@ The <b>KsGetResolution</b> method retrieves the clock resolution from the underl
 
 ## -parameters
 
-### -param Resolution 
+### -param Resolution [out]
 
-[out]
+
 Pointer to a variable that receives a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
 
 ## -returns

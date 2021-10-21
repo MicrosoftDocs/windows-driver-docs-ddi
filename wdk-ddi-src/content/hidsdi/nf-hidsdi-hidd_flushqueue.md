@@ -49,9 +49,9 @@ The <b>HidD_FlushQueue</b> routine deletes all pending input reports in a <a hre
 
 ## -parameters
 
-### -param HidDeviceObject 
+### -param HidDeviceObject [in]
 
-[in]
+
 Specifies an open handle to the top-level collection whose input queue is flushed.
 
 ## -returns

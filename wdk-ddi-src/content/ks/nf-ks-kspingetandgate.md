@@ -50,9 +50,9 @@ The<b> KsPinGetAndGate</b> function returns the processing control gate for <i>P
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> for which to return the processing control gate.
 
 ## -returns

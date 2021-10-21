@@ -51,23 +51,23 @@ The
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 A pointer to a system-space buffer that is the destination of the move. This buffer must be at
      least 
      <i>Length</i> bytes in size.
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 A pointer to a system-space buffer from which this function copies the data to the destination
      buffer. This buffer must be at least 
      <i>Length</i> bytes in size.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to copy.
 
 ## -remarks

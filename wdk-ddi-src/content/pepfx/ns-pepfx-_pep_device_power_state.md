@@ -55,21 +55,21 @@ The <b>PEP_DEVICE_POWER_STATE</b> structure indicates the status of a transition
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] The PEPHANDLE value that identifies this device. The PEP previously created this handle in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification from the Windows <a href="/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">power management framework</a> (PoFx).
+The PEPHANDLE value that identifies this device. The PEP previously created this handle in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification from the Windows <a href="/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">power management framework</a> (PoFx).
 
-### -field PowerState
+### -field PowerState [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration value that specifies the new device power state.
+A <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration value that specifies the new device power state.
 
-### -field Complete
+### -field Complete [in]
 
-[in] Whether the transition to the new device power state has just been initiated or has just completed. If TRUE, the transition to the target device power state has completed. If FALSE, the power policy owner (PPO) has initiated the transition by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine, but the Windows power manager has not yet issued the D<i>x</i> IRP (an <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request of type <b>DevicePowerState</b>) to the device's driver stack.
+Whether the transition to the new device power state has just been initiated or has just completed. If TRUE, the transition to the target device power state has completed. If FALSE, the power policy owner (PPO) has initiated the transition by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine, but the Windows power manager has not yet issued the D<i>x</i> IRP (an <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request of type <b>DevicePowerState</b>) to the device's driver stack.
 
-### -field SystemTransition
+### -field SystemTransition [in]
 
-[in] Always set to FALSE.
+Always set to FALSE.
 
 ## -remarks
 

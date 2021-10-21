@@ -51,9 +51,9 @@ The <b>OnSelfManagedIoFlush</b> method flushes the device for a device's self-ma
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device that is flushed.
 
 ## -remarks

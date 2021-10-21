@@ -52,44 +52,44 @@ The <b>FsRtlFastUnlockSingle</b> routine releases a byte-range lock that was acq
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object for the file.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 A pointer to a variable that specifies the starting byte offset within the file of the range to be unlocked.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 A pointer to a variable that specifies the length, in bytes, of the range to be unlocked.
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 A pointer to the process ID for the process.
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 The key for the byte-range lock.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 An optional context pointer to be used when completing IRPs.
 
-### -param AlreadySynchronized 
+### -param AlreadySynchronized [in]
 
-[in]
+
 This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 ## -returns

@@ -48,9 +48,9 @@ The SetFormat method sets the data format of the wave stream.
 
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
 
-[in]
+
 Pointer to a [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) structure that describes the requested data format.
 
 ## -returns

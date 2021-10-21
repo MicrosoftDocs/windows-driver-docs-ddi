@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param ThisSrvCall 
+### -param ThisSrvCall [out]
 
-[out]
+
 A pointer to the SRV_CALL structure to finalize.
 
-### -param ForceFinalize 
+### -param ForceFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
 If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the SRV_CALL structure pointed to by <i>ThisSrvCall</i> must be 1 for the SRV_CALL to be finalized.

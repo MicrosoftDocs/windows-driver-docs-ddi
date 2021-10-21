@@ -46,13 +46,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to a display adapter.
+Handle to a display adapter.
 
-### -param pAllocateContiguousMemory
+### -param pAllocateContiguousMemory [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md) structure that contains arguments to allocate contiguous memory.
+Pointer to a [**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md) structure that contains arguments to allocate contiguous memory.
 
 ## -returns
 

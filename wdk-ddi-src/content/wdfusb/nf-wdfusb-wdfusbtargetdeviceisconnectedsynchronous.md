@@ -52,9 +52,9 @@ The <b>WdfUsbTargetDeviceIsConnectedSynchronous</b> method determines if the spe
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to a USB device object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 ## -returns

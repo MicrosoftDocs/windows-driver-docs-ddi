@@ -49,17 +49,17 @@ This callback function returns the properties for a given sensor.
 
 ## -parameters
 
-### -param Sensor
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pProperties
+### -param pProperties [in, out, optional]
 
-[in, out, optional] A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
+A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
-### -param pSize
+### -param pSize [out]
 
-[out] The size of pProperties.
+The size of pProperties.
 
 ## -returns
 

@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param SwapChainObject
+### -param SwapChainObject [in]
 
-[in] The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object whose allocation is to be checked.
+The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object whose allocation is to be checked.
 
-### -param pInSystemMemory
+### -param pInSystemMemory [out]
 
-[out] The result of the check. Set to TRUE when buffers are resident in system memory; otherwise set to FALSE.
+The result of the check. Set to TRUE when buffers are resident in system memory; otherwise set to FALSE.
 
 ## -returns
 

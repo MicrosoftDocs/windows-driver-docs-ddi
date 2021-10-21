@@ -49,29 +49,29 @@ api_name:
 
 ## -parameters
 
-### -param pDeviceObject 
+### -param pDeviceObject [in]
 
-[in]
+
 A pointer to the device object to be associated with this timer.
 
-### -param pWorkItem 
+### -param pWorkItem [in]
 
-[in]
+
 A pointer to the worker item.
 
-### -param Routine 
+### -param Routine [in]
 
-[in]
+
 A pointer to the worker thread routine to call when this timer expires.
 
-### -param pContext 
+### -param pContext [in]
 
-[in]
+
 A pointer to the context parameter associated with this timer.
 
-### -param TimeInterval 
+### -param TimeInterval [in]
 
-[in]
+
 The time interval, in 100-nanosecond ticks.
 
 ## -returns

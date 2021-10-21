@@ -52,31 +52,31 @@ Arguments to the [DxgkDdiGetMultiPlaneOverlayCaps](nc-d3dkmddi-dxgkddi_getmultip
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] Indicates the VidPn source for which we are querying multiplane overlay capabilities.
+Indicates the VidPn source for which we are querying multiplane overlay capabilities.
 
-### -field MaxPlanes
+### -field MaxPlanes [out]
 
-[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
+Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
 
-### -field MaxRGBPlanes
+### -field MaxRGBPlanes [out]
 
-[out] Indicates the total number of RGB planes, including the DWM’s primary, that can be supported simultaneously.
+Indicates the total number of RGB planes, including the DWM’s primary, that can be supported simultaneously.
 
-### -field MaxYUVPlanes
+### -field MaxYUVPlanes [out]
 
-[out] Indicates the total number of YUV planes that can be supported simultaneously.
+Indicates the total number of YUV planes that can be supported simultaneously.
 
-### -field OverlayCaps
+### -field OverlayCaps [out]
 
-[out] A [DXGK_MULTIPLANEOVERLAYCAPS](ns-d3dkmddi-_dxgk_multiplaneoverlaycaps.md) structure indicating the plane capabilities.
+A [DXGK_MULTIPLANEOVERLAYCAPS](ns-d3dkmddi-_dxgk_multiplaneoverlaycaps.md) structure indicating the plane capabilities.
 
-### -field MaxStretchFactor
+### -field MaxStretchFactor [out]
 
-[out] Indicates the maximum stretch factor that can be applied to a plane.
+Indicates the maximum stretch factor that can be applied to a plane.
 
-### -field MaxShrinkFactor
+### -field MaxShrinkFactor [out]
 
-[out] Indicates the maximum shrink factor that can be applied to a plane.
+Indicates the maximum shrink factor that can be applied to a plane.
 

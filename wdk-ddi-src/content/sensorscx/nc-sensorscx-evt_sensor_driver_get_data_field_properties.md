@@ -49,21 +49,21 @@ This callback function returns the properties of a given data field associated w
 
 ## -parameters
 
-### -param Sensor
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pDataField
+### -param pDataField [in]
 
-[in] A reference to a data field. For more information see [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields).
+A reference to a data field. For more information see [Sensor data fields](/windows-hardware/drivers/sensors/common-data-fields).
 
-### -param pProperties
+### -param pProperties [in, out, optional]
 
-[in, out, optional] A list of properties and their values for the specified **Sensor**. For more information see [SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md)
+A list of properties and their values for the specified **Sensor**. For more information see [SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md)
 
-### -param pSize
+### -param pSize [out]
 
-[out] The size of **pDataField**.
+The size of **pDataField**.
 
 ## -returns
 

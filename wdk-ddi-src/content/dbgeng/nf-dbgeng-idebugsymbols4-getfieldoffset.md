@@ -53,9 +53,9 @@ The <b>GetFieldOffset</b> function returns the offset of a member from the begin
 
 ### -param TypeId
 
-### -param Field 
+### -param Field [in]
 
-[in]
+
 Specifies the name of the member in the structure.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
 ### -param Offset

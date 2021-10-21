@@ -51,19 +51,19 @@ A driver's <i>EvtWmiProviderFunctionControl</i> callback function enables and di
 
 ## -parameters
 
-### -param WmiProvider 
+### -param WmiProvider [in]
 
-[in]
+
 A handle to a WMI provider object.
 
-### -param Control 
+### -param Control [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfwmi/ne-wdfwmi-_wdf_wmi_provider_control">WDF_WMI_PROVIDER_CONTROL</a>-typed value that identifies a capability that the driver must enable or disable.
 
-### -param Enable 
+### -param Enable [in]
 
-[in]
+
 A Boolean value that, if <b>TRUE</b>, indicates that the driver must enable the capability that <i>Control</i> specifies. If <b>FALSE</b>, the driver must disable the capability.
 
 ## -returns

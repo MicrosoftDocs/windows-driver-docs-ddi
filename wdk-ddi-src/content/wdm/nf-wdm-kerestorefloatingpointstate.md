@@ -49,9 +49,9 @@ The <b>KeRestoreFloatingPointState</b> routine restores the nonvolatile floating
 
 ## -parameters
 
-### -param FloatSave 
+### -param FloatSave [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a> structure that was passed in the preceding call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>.
 
 ## -returns

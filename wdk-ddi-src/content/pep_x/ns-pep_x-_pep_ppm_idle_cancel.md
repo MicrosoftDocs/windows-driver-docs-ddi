@@ -55,9 +55,9 @@ The <b>PEP_PPM_IDLE_CANCEL</b> structure indicates why the processor could not e
 
 ## -struct-fields
 
-### -field CancelCode
+### -field CancelCode [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/pep_x/ne-pep_x-pep_processor_idle_cancel_code">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
+A <a href="/windows-hardware/drivers/ddi/pep_x/ne-pep_x-pep_processor_idle_cancel_code">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
 
 ## -remarks
 

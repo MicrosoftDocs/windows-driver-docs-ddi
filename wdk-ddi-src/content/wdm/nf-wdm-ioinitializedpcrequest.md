@@ -49,14 +49,14 @@ The <b>IoInitializeDpcRequest</b> routine registers a driver-supplied <a href="/
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Supplies a pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the physical device that generates interrupts.
 
-### -param DpcRoutine 
+### -param DpcRoutine [in]
 
-[in]
+
 Supplies a pointer to the driver-supplied <i>DpcForIsr</i> routine.
 
 ## -remarks

@@ -51,14 +51,14 @@ api_name:
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-### -param TargetState 
+### -param TargetState [in]
 
-[in]
+
 Specifies the target DRIPS device power state. Possible values are defined in the <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration. This value must
     be lower than the existing device constraint.  A device power state
     of <b>PowerDeviceUnspecified</b> resets to the PEP provided constraint.

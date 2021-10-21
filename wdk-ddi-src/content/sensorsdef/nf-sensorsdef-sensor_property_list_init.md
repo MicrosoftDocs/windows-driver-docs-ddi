@@ -49,14 +49,14 @@ This function initializes a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns
 
 ## -parameters
 
-### -param pPropertyList 
+### -param pPropertyList [out]
 
-[out]
+
 The list of PROPERTYKEY elements.
 
-### -param PropertyListSize 
+### -param PropertyListSize [in]
 
-[in]
+
 The size of pPropertyList.
 
 ## -see-also

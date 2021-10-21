@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pullLinearBufferPosition 
+### -param pullLinearBufferPosition [out]
 
-[out]
+
 The number of bytes that the DMA has fetched.
 
 ## -returns

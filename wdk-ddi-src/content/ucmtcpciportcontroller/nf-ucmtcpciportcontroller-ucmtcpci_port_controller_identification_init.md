@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Identification 
+### -param Identification [out]
 
-[out]
+
 A pointer to the driver-allocated <b>UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</b> structure.
 
 ## -see-also

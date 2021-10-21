@@ -52,31 +52,31 @@ Protocol drivers call the
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 A handle that identifies the target adapter. A previous call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> returned this
      handle.
 
-### -param NetBufferLists 
+### -param NetBufferLists [in]
 
-[in]
+
 A pointer to a linked list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures.
 
-### -param PortNumber 
+### -param PortNumber [in]
 
-[in]
+
 A port number that identifies a miniport adapter port. The default port number of a miniport
      adapter is zero. Protocol drivers that do not use miniport adapter ports should specify the default
      port.
 
-### -param SendFlags 
+### -param SendFlags [in]
 
-[in]
+
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
      

@@ -49,9 +49,9 @@ The <b>HidD_GetHidGuid</b> routine returns the <a href="/windows-hardware/driver
 
 ## -parameters
 
-### -param HidGuid 
+### -param HidGuid [out]
 
-[out]
+
 Pointer to a caller-allocated GUID buffer that the routine uses to return the <a href="/windows-hardware/drivers/install/guid-devinterface-hid">device interface GUID for HIDClass devices</a>.
 
 ## -remarks

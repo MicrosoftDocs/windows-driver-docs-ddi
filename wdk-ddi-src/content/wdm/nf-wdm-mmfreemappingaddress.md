@@ -49,14 +49,14 @@ The <b>MmFreeMappingAddress</b> routine frees a range of virtual memory reserved
 
 ## -parameters
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
+
 Pointer to the beginning of the reserved memory buffer to free. This must be an address previously returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>.
 
-### -param PoolTag 
+### -param PoolTag [in]
 
-[in]
+
 Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that reserved the buffer.
 
 ## -remarks

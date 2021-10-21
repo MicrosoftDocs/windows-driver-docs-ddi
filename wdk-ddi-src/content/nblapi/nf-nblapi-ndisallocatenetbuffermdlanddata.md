@@ -51,9 +51,9 @@ NDIS drivers call the
 
 ## -parameters
 
-### -param PoolHandle 
+### -param PoolHandle [in]
 
-[in]
+
 A NET_BUFFER structure pool handle that was previously returned from a call to the 
      <b>NdisAllocateNetBufferPool</b> function.
 

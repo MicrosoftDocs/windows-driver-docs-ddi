@@ -49,9 +49,9 @@ Puts the system into the desired sleep state.
 
 ## -parameters
 
-### -param nSleepState 
+### -param nSleepState [in]
 
-[in]
+
 The sleep state.
 
 ## -returns

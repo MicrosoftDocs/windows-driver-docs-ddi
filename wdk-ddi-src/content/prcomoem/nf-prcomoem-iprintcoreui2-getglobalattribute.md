@@ -49,39 +49,39 @@ The <code>IPrintCoreUI2::GetGlobalAttribute</code> method retrieves the global a
 
 ## -parameters
 
-### -param poemuiobj 
+### -param poemuiobj [in]
 
-[in]
+
 Pointer to the current context, an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-### -param dwFlags 
+### -param dwFlags [in]
 
-[in]
+
 Is reserved and must be set to zero.
 
-### -param pszAttribute 
+### -param pszAttribute [in]
 
-[in]
+
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported global attribute names, as opposed to specifying a specific global attribute name.
 
-### -param pdwDataType 
+### -param pdwDataType [out]
 
-[out]
+
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
-### -param pbData 
+### -param pbData [out]
 
-[out]
+
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
-### -param cbSize 
+### -param cbSize [in]
 
-[in]
+
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
-### -param pcbNeeded 
+### -param pcbNeeded [out]
 
-[out]
+
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
 ## -returns

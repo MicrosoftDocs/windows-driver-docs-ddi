@@ -49,19 +49,19 @@ Sets the volume level for a given channel of the audio device.
 
 ## -parameters
 
-### -param ulNodeId 
+### -param ulNodeId [in]
 
-[in]
+
 The ID for the node that represents the audio device.
 
-### -param ulChannel 
+### -param ulChannel [in]
 
-[in]
+
 The audio device channel.
 
-### -param lVolume 
+### -param lVolume [in]
 
-[in]
+
 The volume level to which the channel will be set.
 
 ## -returns

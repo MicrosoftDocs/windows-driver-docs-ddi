@@ -54,9 +54,9 @@ The <b>WdfWorkItemFlush</b> method returns after a specified work item has been 
 
 ## -parameters
 
-### -param WorkItem 
+### -param WorkItem [in]
 
-[in]
+
 A handle to a framework work-item object that is obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
 
 ## -remarks

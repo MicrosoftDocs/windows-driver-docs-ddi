@@ -49,24 +49,24 @@ The <i>DxgkDdiGetPossibleBrightness</i> function retrieves the brightness levels
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 [in] The size, in bytes, of the buffer that is passed in the <i>BrightnessLevels</i> parameter.
 
-### -param LevelCount 
+### -param LevelCount [out]
 
-[out]
+
 [out] A pointer to a variable that receives the number of brightness levels that the driver returns in the buffer that the <i>BrightnessLevels</i> parameter points to.
 
-### -param BrightnessLevels 
+### -param BrightnessLevels [out]
 
-[out]
+
 [in/out] A pointer to a buffer that receives the brightness levels that an integrated display panel supports.
 
 ## -returns

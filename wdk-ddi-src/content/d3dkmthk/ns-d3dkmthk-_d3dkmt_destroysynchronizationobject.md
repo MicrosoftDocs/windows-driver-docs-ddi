@@ -52,9 +52,9 @@ The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synch
 
 ## -struct-fields
 
-### -field hSyncObject
+### -field hSyncObject [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy.
 
 ## -see-also
 

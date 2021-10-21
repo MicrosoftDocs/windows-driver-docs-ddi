@@ -49,9 +49,9 @@ The <b>MmBuildMdlForNonPagedPool</b> routine receives an MDL that specifies a no
 
 ## -parameters
 
-### -param MemoryDescriptorList 
+### -param MemoryDescriptorList [in, out]
 
-[in, out]
+
 A pointer to an MDL that specifies a virtual memory buffer in nonpaged memory. The caller used the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl">IoAllocateMdl</a> routine to create the MDL for this buffer.
 
 ## -remarks

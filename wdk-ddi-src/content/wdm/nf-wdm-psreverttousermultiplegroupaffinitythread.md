@@ -47,9 +47,9 @@ The given affinity token must have been filled in by a successful call to [**PsS
 
 ## -parameters
 
-### -param AffinityToken
+### -param AffinityToken [in]
 
-[in]
+
 Supplies a pointer to an affinity token.
 
 ## -remarks

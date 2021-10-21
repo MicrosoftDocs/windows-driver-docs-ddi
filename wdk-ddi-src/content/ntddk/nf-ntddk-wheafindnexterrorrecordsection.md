@@ -49,29 +49,29 @@ The <b>WheaFindNextErrorRecordSection</b> function allows a caller to iterativel
 
 ## -parameters
 
-### -param Record 
+### -param Record [in]
 
-[in]
+
 A pointer to a WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
 
-### -param Context 
+### -param Context [in, out]
 
-[in, out]
+
 A pointer to a ULONG variable that maintains the current state of the search. 
 
 <div class="alert"><b>Note</b>  This variable must be initialized to zero before the first call to the <b>WheaFindNextErrorRecordSection </b>function<b>.</b></div>
 <div> </div>
 
-### -param SectionDescriptor 
+### -param SectionDescriptor [out]
 
-[out]
+
 The address of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> pointer. 
 
 If the <b>WheaFindNextErrorRecordSection </b>function locates the next WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>, the function sets the <i>SectionDescriptor </i>parameter to the address of that structure within the specified WHEA error record.
 
-### -param SectionData 
+### -param SectionData [out, optional]
 
-[out, optional]
+
 The address of a PVOID pointer.
 
 If the <b>WheaFindNextErrorRecordSection</b> function locates the next <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>, the function sets the <i>SectionData</i> parameter to the address of the hardware error data associated with that descriptor.

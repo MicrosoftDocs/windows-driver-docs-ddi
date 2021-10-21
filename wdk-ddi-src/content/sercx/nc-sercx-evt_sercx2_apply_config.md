@@ -49,14 +49,14 @@ The <i>EvtSerCx2ApplyConfig</i> event callback function is called by version 2 o
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>.
 
-### -param ConnectionParameters 
+### -param ConnectionParameters [in]
 
-[in]
+
 A pointer to the connection parameters structure. This function must cast the pointer to the appropriate pointer type, parse the data structure to obtain the configuration settings, and apply these settings to the serial controller hardware. The connection parameters structure is defined by the hardware platform vendor and is opaque to both SerCx2 and the operating system. For more information, see Remarks.
 
 ## -returns

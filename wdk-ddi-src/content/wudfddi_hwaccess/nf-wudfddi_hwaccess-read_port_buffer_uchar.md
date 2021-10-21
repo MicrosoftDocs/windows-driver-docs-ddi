@@ -51,24 +51,24 @@ The <b>READ_PORT_BUFFER_UCHAR</b> function reads a number of bytes from the spec
 
 ## -parameters
 
-### -param pDevice 
+### -param pDevice [in]
 
-[in]
+
 Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the port address, which must be a mapped memory range in I/O space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a buffer into which an array of UCHAR values is read.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of bytes to be read into the buffer.
 
 ## -remarks

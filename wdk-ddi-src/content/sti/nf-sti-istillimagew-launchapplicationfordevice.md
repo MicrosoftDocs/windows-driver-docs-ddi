@@ -49,19 +49,19 @@ The **IStillImage::LaunchApplicationForDevice** method starts a specified applic
 
 ## -parameters
 
-### -param pwszDeviceName 
+### -param pwszDeviceName [in]
 
-[in]
+
 Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)) or [IStillImage::GetDeviceList](/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)).
 
-### -param pwszAppName 
+### -param pwszAppName [in]
 
-[in]
+
 Caller-supplied pointer to a string representing the short name of an application that was registered by calling [IStillImage::RegisterLaunchApplication](/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)).
 
-### -param pStiNotify 
+### -param pStiNotify [in]
 
-[in]
+
 Caller-supplied pointer to an [STINOTIFY](./ns-sti-_stinotify.md) structure describing a device event. Typically,  the event's GUID is obtained by calling [IStiDevice::GetLastNotificationData](./nf-sti-istidevice-getlastnotificationdata.md).
 
 ## -returns

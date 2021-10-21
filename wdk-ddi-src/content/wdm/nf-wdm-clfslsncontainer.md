@@ -50,9 +50,9 @@ The <b>ClfsLsnContainer</b> routine returns the logical container identifier con
 
 ## -parameters
 
-### -param plsn 
+### -param plsn [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure from which the container identifier is retrieved.
 
 ## -returns

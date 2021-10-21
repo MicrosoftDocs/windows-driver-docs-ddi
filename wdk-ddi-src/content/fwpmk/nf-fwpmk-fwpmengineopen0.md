@@ -52,29 +52,29 @@ The **FwpmEngineOpen0** function opens a session to the filter engine.
 
 ## -parameters
 
-### -param serverName 
+### -param serverName [in, optional]
 
-[in, optional]
+
 A pointer to a NULL-terminated string that specifies the standard DNS name of the system on which the session to the filter engine is opened. Callout drivers must specify <b>NULL</b> for this parameter.
 
-### -param authnService 
+### -param authnService [in]
 
-[in]
+
 The authentication service to use. For a list of valid choices for this parameter, see Authentication-Service Constants in the RPC section in the Microsoft Windows SDK documentation. Callout drivers must specify either RPC_C_AUTHN_WINNT or RPC_C_AUTHN_DEFAULT for this parameter.
 
-### -param authIdentity 
+### -param authIdentity [in, optional]
 
-[in, optional]
+
 A pointer to a **SEC_WINNT_AUTH_IDENTITY_W** structure that contains the authentication and authorization credentials for accessing the filter engine. This parameter is ignored when the **FwpmEngineOpen0** function is called from a callout driver. Callout drivers should set this parameter to **NULL**.
 
-### -param session 
+### -param session [in, optional]
 
-[in, optional]
+
 A pointer to an [FWPM_SESSION0](/previous-versions/windows/hardware/drivers/ff550083(v=vs.85)) structure that defines session-specific parameters for the session being opened. This pointer is optional and can be **NULL**.
 
-### -param engineHandle 
+### -param engineHandle [out]
 
-[out]
+
 A pointer to a variable that receives a handle for the open session to the filter engine.
 
 ## -returns

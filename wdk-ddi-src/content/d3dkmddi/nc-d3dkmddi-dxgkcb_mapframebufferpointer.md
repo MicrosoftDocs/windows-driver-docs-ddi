@@ -46,13 +46,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
 
-### -param pMapFrameBufferPointer
+### -param pMapFrameBufferPointer [in/out]
 
-[in/out] Pointer to [**DXGKARGCB_MAPFRAMEBUFFERPOINTER**](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) structure that contains a pointer to the subregion of the section object.
+Pointer to [**DXGKARGCB_MAPFRAMEBUFFERPOINTER**](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) structure that contains a pointer to the subregion of the section object.
 
 ## -returns
 

@@ -51,23 +51,23 @@ Describes an I/O signature.
 
 ### -field pInputSignatureDeprecated
 
-### -field pInputSignature
+### -field pInputSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
 
-### -field NumInputSignatureEntries
+### -field NumInputSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
+The number of entries in the array that the <b>pInputSignature</b> member specifies.
 
 ### -field pOutputSignatureDeprecated
 
-### -field pOutputSignature
+### -field pOutputSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
 
-### -field NumOutputSignatureEntries
+### -field NumOutputSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
+The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
 ## -remarks
 

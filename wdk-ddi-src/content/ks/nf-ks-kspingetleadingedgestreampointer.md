@@ -50,14 +50,14 @@ The<b> KsPinGetLeadingEdgeStreamPointer</b> function acquires the leading edge s
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure owning the queue for which the leading edge stream pointer should be acquired.
 
-### -param State 
+### -param State [in]
 
-[in]
+
 This parameter specifies how to acquire the leading edge stream pointer. Can be one of the following:
 
 

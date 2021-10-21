@@ -52,9 +52,9 @@ The <b>WdfUsbTargetPipeWdmGetPipeHandle</b> method returns the USBD_PIPE_HANDLE-
 
 ## -parameters
 
-### -param UsbPipe 
+### -param UsbPipe [in]
 
-[in]
+
 A handle to a framework pipe object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 ## -returns

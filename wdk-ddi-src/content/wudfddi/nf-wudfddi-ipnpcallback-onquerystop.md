@@ -51,9 +51,9 @@ The <b>OnQueryStop</b> method notifies a driver before a device is stopped.
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device that will be stopped.
 
 ## -returns

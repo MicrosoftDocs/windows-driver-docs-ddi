@@ -48,17 +48,17 @@ An indirect display driver (IDD) calls **IddCxMonitorCreate** to create a monito
 
 ## -parameters
 
-### -param AdapterObject
+### -param AdapterObject [in]
 
-[in] The [IDDCX_ADAPTER](/windows-hardware/drivers/display/iddcx-objects) object that is hosting the newly arrived monitor.
+The [IDDCX_ADAPTER](/windows-hardware/drivers/display/iddcx-objects) object that is hosting the newly arrived monitor.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_MONITORCREATE**](ns-iddcx-idarg_in_monitorcreate.md) structure containing information about the monitor.
+Pointer to an [**IDARG_IN_MONITORCREATE**](ns-iddcx-idarg_in_monitorcreate.md) structure containing information about the monitor.
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to an [**IDARG_OUT_MONITORCREATE**](ns-iddcx-idarg_out_monitorcreate.md) structure in which the [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object is returned.
+Pointer to an [**IDARG_OUT_MONITORCREATE**](ns-iddcx-idarg_out_monitorcreate.md) structure in which the [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object is returned.
 
 ## -returns
 

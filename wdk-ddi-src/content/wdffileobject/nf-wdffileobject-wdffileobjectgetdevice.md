@@ -54,9 +54,9 @@ The <b>WdfFileObjectGetDevice</b> method returns the framework device object tha
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A handle to a framework file object.
 
 ## -returns

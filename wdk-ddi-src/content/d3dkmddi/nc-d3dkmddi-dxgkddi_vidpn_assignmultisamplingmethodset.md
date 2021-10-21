@@ -51,21 +51,21 @@ The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampli
 
 ## -parameters
 
-### -param hVidPn
+### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>.
+A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>.
 
-### -param VidPnSourceId
+### -param VidPnSourceId [in]
 
-[in] An integer that identifies one of the video present sources associated with the VidPN object.
+An integer that identifies one of the video present sources associated with the VidPN object.
 
-### -param NumMethods
+### -param NumMethods [in]
 
-[in] The number of elements in the <i>pSupportedMethodSet</i> array.
+The number of elements in the <i>pSupportedMethodSet</i> array.
 
-### -param unnamedParam4
+### -param unnamedParam4 [in]
 
-[in] A pointer to an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_multisamplingmethod">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_multisamplingmethod">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
 
 ## -returns
 

@@ -51,19 +51,19 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</b> function initializes a <a href="/wi
 
 ## -parameters
 
-### -param Descriptor 
+### -param Descriptor [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a memory buffer.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 The size, in bytes, of the memory buffer that <i>Buffer</i> points to.
 
 ## -remarks

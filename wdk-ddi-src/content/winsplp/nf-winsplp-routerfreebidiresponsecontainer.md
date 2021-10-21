@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pData 
+### -param pData [in]
 
-[in]
+
 Pointer to the BIDI_RESPONSE_CONTAINER structure to be freed.
 
 ## -returns

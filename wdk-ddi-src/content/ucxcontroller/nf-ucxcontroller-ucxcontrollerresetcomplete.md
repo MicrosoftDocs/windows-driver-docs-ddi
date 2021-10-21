@@ -48,9 +48,9 @@ Informs USB host controller extension (UCX) that the reset operation has compete
 
 ## -parameters
 
-### -param Controller
+### -param Controller [in]
 
-[in]
+
 A handle to the controller object to reset. The client driver retrieved the handle in a previous call to [UcxControllerCreate](/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)).
 
 ### -param UcxControllerResetCompleteInfo

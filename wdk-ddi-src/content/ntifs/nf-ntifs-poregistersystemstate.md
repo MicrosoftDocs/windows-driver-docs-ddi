@@ -49,14 +49,14 @@ The <b>PoRegisterSystemState</b> routine registers the system as busy due to cer
 
 ## -parameters
 
-### -param StateHandle 
+### -param StateHandle [in, out]
 
-[in, out]
+
 A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is <b>sizeof</b>(ULONG). If <b>NULL</b>, this is a new registration. If non-<b>NULL</b>, this parameter points to a handle that was returned by a previous call to <b>PoRegisterSystemState</b>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Indicates the type of activity, as specified by a bitwise OR of one or more of the following values:
 
 

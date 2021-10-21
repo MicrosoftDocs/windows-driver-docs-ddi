@@ -52,14 +52,14 @@ The <b>WDF_USB_DEVICE_CREATE_CONFIG_INIT</b> function
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_create_config">WDF_USB_DEVICE_CREATE_CONFIG</a> structure.
 
-### -param USBDClientContractVersion 
+### -param USBDClientContractVersion [in]
 
-[in]
+
 The contract version that the client driver supports. <b>USBDClientContractVersion</b> must be USBD_CLIENT_CONTRACT_VERSION_602.
 
 ## -remarks

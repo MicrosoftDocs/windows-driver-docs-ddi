@@ -54,24 +54,24 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 The port ID.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID.
 
-### -param pWifiStatus 
+### -param pWifiStatus [out]
 
-[out]
+
 Pointer to a status of the MiniportWdiTxAbort, which should be set by the IHV miniport.  See the <i>Remarks</i> section for more information.
 
 ## -remarks

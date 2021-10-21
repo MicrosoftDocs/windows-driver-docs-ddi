@@ -49,9 +49,9 @@ The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="/windows
 
 ## -parameters
 
-### -param Descriptor 
+### -param Descriptor [out]
 
-[out]
+
 A pointer to the <b>SERCX_BUFFER_DESCRIPTOR</b> structure that is to be initialized.
 
 ## -see-also

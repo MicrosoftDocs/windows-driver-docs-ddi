@@ -49,39 +49,39 @@ The <b>SearchVirtual2</b> method searches the process's virtual memory for a spe
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the process's virtual address space to start searching for the pattern.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies how far to search for the pattern.  A successful match requires the entire pattern to be found before <i>Length</i> bytes have been examined.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit field of flags for the search.  Currently, the only bit-flag that can be set is DEBUG_VSEARCH_WRITABLE_ONLY, which restricts the search to writable memory.
 
-### -param Pattern 
+### -param Pattern [in]
 
-[in]
+
 Specifies the pattern to search for.
 
-### -param PatternSize 
+### -param PatternSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the pattern.  This must be a multiple of the granularity of the pattern.
 
-### -param PatternGranularity 
+### -param PatternGranularity [in]
 
-[in]
+
 Specifies the granularity of the pattern.  For a successful match, the difference between the location of the found pattern and <i>Offset</i> must be a multiple of <i>PatternGranularity</i>.
 
-### -param MatchOffset 
+### -param MatchOffset [out]
 
-[out]
+
 Receives the location in the process's virtual address space of the pattern, if it was found.
 
 ## -returns

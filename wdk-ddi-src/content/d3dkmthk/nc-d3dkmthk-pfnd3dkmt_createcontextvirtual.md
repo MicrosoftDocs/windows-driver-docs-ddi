@@ -48,9 +48,9 @@ The D3dkmtCreateContextVirtual callback function creates a virtual context.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
-[in, out] Pointer to a [D3DKMT_CREATECONTEXTVIRTUAL](ns-d3dkmthk-_d3dkmt_createcontextvirtual.md) structure.
+Pointer to a [D3DKMT_CREATECONTEXTVIRTUAL](ns-d3dkmthk-_d3dkmt_createcontextvirtual.md) structure.
 
 ## -returns
 

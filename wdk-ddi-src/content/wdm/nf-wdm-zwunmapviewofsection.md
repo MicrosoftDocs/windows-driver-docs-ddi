@@ -49,14 +49,14 @@ The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="/windows-hardware/test
 
 ## -parameters
 
-### -param ProcessHandle 
+### -param ProcessHandle [in]
 
-[in]
+
 Handle to a process object that was previously passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmapviewofsection">ZwMapViewOfSection</a>.
 
-### -param BaseAddress 
+### -param BaseAddress [in, optional]
 
-[in, optional]
+
 Pointer to the base virtual address of the view to unmap. This value can be any virtual address within the view.
 
 ## -returns

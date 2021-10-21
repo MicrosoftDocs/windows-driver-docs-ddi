@@ -54,39 +54,39 @@ The <b>WdfUsbTargetDeviceQueryString</b> method retrieves the Unicode string tha
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to a USB device object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-### -param Request 
+### -param Request [in, optional]
 
-[in, optional]
+
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-### -param RequestOptions 
+### -param RequestOptions [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-### -param String 
+### -param String [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer that receives the requested Unicode string. The string is NULL-terminated only if the device supplies a NULL-terminated string. If this pointer is <b>NULL</b>, <b>WdfUsbTargetDeviceQueryString</b> returns the required buffer size (that is, the required number of Unicode characters) in the location that <i>NumCharacters</i> points to.
 
-### -param NumCharacters 
+### -param NumCharacters [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated variable. The caller supplies the number of Unicode characters that the buffer can hold. When <b>WdfUsbTargetDeviceQueryString</b> returns, the variable receives the number of characters (including the NULL terminator, if supplied) that are in the Unicode string that the <i>String</i> buffer receives.
 
-### -param StringIndex 
+### -param StringIndex [in]
 
-[in]
+
 An index value that identifies the Unicode string. This index value is obtained from a <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_device_descriptor">USB_DEVICE_DESCRIPTOR</a>, <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a>, or <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure.
 
-### -param LangID 
+### -param LangID [in, optional]
 
-[in, optional]
+
 A language identifier. The Unicode string will be retrieved for the language that this identifier specifies. For information about obtaining a device's supported language identifiers, see the USB specification.
 
 ## -returns

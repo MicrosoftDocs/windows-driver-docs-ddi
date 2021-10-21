@@ -52,13 +52,13 @@ The DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure describes stream-state data th
 
 ## -struct-fields
 
-### -field Count
+### -field Count [in]
 
-[in] The number of palette entries in the array that the <b>pEntries</b> member specifies. The default value is 0.
+The number of palette entries in the array that the <b>pEntries</b> member specifies. The default value is 0.
 
-### -field pEntries
+### -field pEntries [in]
 
-[in] An array of palette entries in either D3DFMT_A8R8G8B8 or "AYUV" <a href="/windows-hardware/drivers/">FOURCC</a> format type. <b>pEntries</b> is set to <b>NULL</b> to retrieve the number of palette entries. The default value is <b>NULL</b>.
+An array of palette entries in either D3DFMT_A8R8G8B8 or "AYUV" <a href="/windows-hardware/drivers/">FOURCC</a> format type. <b>pEntries</b> is set to <b>NULL</b> to retrieve the number of palette entries. The default value is <b>NULL</b>.
 
 ## -remarks
 

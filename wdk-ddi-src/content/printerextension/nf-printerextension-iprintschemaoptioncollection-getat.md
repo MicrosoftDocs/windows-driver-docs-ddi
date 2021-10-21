@@ -49,14 +49,14 @@ Gets a pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-
 
 ## -parameters
 
-### -param ulIndex 
+### -param ulIndex [in]
 
-[in]
+
 Index of the <b>IPrintSchemaOption</b> object within the collection.
 
-### -param ppOption 
+### -param ppOption [out, retval, optional]
 
-[out, retval, optional]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
 
 ## -returns

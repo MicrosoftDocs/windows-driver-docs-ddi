@@ -50,9 +50,9 @@ The
 
 ## -parameters
 
-### -param _ListHead 
+### -param _ListHead [in]
 
-[in]
+
 A pointer to driver-allocated nonpaged storage for the head of the interlocked queue or
      list.
 

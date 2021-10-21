@@ -52,9 +52,9 @@ The <b>WdfDriverMiniportUnload</b> method deletes a specified miniport driver's 
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 ## -remarks

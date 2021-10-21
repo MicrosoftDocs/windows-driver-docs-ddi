@@ -55,24 +55,24 @@ The <b>WdfDeviceInitRegisterPnpStateChangeCallback</b> method registers a driver
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A caller-supplied pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param PnpState 
+### -param PnpState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_pnp_state">WDF_DEVICE_PNP_STATE</a> enumerator that identifies the Plug and Play machine state for which the driver is requesting notification.
 
-### -param EvtDevicePnpStateChange 
+### -param EvtDevicePnpStateChange [in]
 
-[in]
+
 A caller-supplied pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_pnp_state_change_notification">EvtDevicePnpStateChange</a> event callback function.
 
-### -param CallbackTypes 
+### -param CallbackTypes [in]
 
-[in]
+
 An ORed combination of <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 
 ## -returns

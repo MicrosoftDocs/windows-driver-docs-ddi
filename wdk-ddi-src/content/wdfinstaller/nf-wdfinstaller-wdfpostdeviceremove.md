@@ -52,14 +52,14 @@ The co-installer's <b>WdfPostDeviceRemove</b> function performs any operations t
 
 ## -parameters
 
-### -param InfPath 
+### -param InfPath [in]
 
-[in]
+
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <b>GetCurrentDirectory</b>, which is described in the Microsoft Windows SDK.
 
-### -param InfSectionName 
+### -param InfSectionName [in, optional]
 
-[in, optional]
+
 A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
 ## -returns

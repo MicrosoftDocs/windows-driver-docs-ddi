@@ -51,14 +51,14 @@ A driver's <b>OnReaderFailure</b> event callback function informs the driver tha
 
 ## -parameters
 
-### -param pPipe 
+### -param pPipe [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a> interface for the USB pipe on which the driver has enabled a continuous reader.
 
-### -param hrStatus 
+### -param hrStatus [in]
 
-[in]
+
 The HRESULT-typed status value that the USB pipe's I/O target returned.
 
 ## -returns

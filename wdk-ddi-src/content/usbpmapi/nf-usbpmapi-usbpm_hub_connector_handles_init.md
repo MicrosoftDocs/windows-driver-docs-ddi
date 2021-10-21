@@ -47,17 +47,17 @@ Initializes a [**USBPM_HUB_CONNECTOR_HANDLES**](ns-usbpmapi-_usbpm_hub_connector
 
 ## -parameters
 
-### -param HubConnectorHandles
+### -param HubConnectorHandles [Out]
 
-[Out] A pointer to a [**USBPM_HUB_CONNECTOR_HANDLES**](ns-usbpmapi-_usbpm_hub_connector_handles.md) structure to initialize.
+A pointer to a [**USBPM_HUB_CONNECTOR_HANDLES**](ns-usbpmapi-_usbpm_hub_connector_handles.md) structure to initialize.
 
-### -param ConnectorCount
+### -param ConnectorCount [In]
 
-[In] The number of connectors on this hub.
+The number of connectors on this hub.
 
-### -param ConnectorHandlesBuffer
+### -param ConnectorHandlesBuffer [Out]
 
-[Out] A pointer to a connector handle array of all the connectors on this hub.
+A pointer to a connector handle array of all the connectors on this hub.
 
 ## -remarks
 

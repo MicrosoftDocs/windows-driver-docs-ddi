@@ -50,29 +50,29 @@ The <b>KsPinPropertyHandler</b> function performs standard handling of the stati
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP handling the connection request.
 
-### -param Property 
+### -param Property [in]
 
-[in]
+
 Specifies the specific property information.
 
-### -param Data 
+### -param Data [in, out]
 
-[in, out]
+
 Specifies the data parameter mapped to a system address. This is the same parameter passed to a property handler through a <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a> callback.
 
-### -param DescriptorsCount 
+### -param DescriptorsCount [in]
 
-[in]
+
 Specifies the number of pin descriptors being passed.
 
-### -param Descriptor 
+### -param Descriptor [in]
 
-[in]
+
 Specifies the pointer to the list of pin descriptors.
 
 ## -returns

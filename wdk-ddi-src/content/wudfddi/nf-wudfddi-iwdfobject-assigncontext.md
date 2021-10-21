@@ -51,14 +51,14 @@ The <b>AssignContext</b> method registers a context and a driver-supplied cleanu
 
 ## -parameters
 
-### -param pCleanupCallback 
+### -param pCleanupCallback [in, optional]
 
-[in, optional]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iobjectcleanup">IObjectCleanup</a> interface that contains the cleanup callback function, which performs cleanup operations for the object if it becomes invalid. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification when the object is cleaned up.
 
-### -param pContext 
+### -param pContext [in, optional]
 
-[in, optional]
+
 A pointer to the context to register. <b>NULL</b> is a valid context.
 
 ## -returns

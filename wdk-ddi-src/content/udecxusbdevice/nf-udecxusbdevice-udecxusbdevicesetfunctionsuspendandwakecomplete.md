@@ -50,14 +50,14 @@ Completes an asynchronous request for changing the power state of a particular f
 
 ## -parameters
 
-### -param UdecxUsbDevice 
+### -param UdecxUsbDevice [in]
 
-[in]
+
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
-### -param CompletionStatus 
+### -param CompletionStatus [in]
 
-[in]
+
 An appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code that indicates the success or failure of the asynchronous operation.
 
 ## -see-also

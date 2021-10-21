@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param pVc 
+### -param pVc [in]
 
-[in]
+
 A pointer to the virtual circuit associated with this connection.
 
-### -param InformationClass 
+### -param InformationClass [in]
 
-[in]
+
 The desired information class for this query type. The value specified for <i>InformationClass</i> determines the type of information that is returned. This parameter is an enumeration defined in <i>rxcehdlr.h</i> and can be one of the following values:
 
 
@@ -85,14 +85,14 @@ Query the transport For information about the connection endpoint. An RXCE_CONNE
 
 Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success.
 
-### -param pInformation 
+### -param pInformation [out]
 
-[out]
+
 The caller-supplied buffer for returning information.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length of  the buffer.
 
 ## -returns

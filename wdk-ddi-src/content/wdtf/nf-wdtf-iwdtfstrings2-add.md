@@ -49,9 +49,9 @@ Adds a single string to the collection.
 
 ## -parameters
 
-### -param pString 
+### -param pString [in]
 
-[in]
+
 The string to add to this collection.
 
 ## -returns

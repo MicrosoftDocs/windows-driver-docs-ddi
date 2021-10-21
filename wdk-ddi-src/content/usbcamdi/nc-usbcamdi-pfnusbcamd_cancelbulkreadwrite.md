@@ -49,14 +49,14 @@ The <b>USBCAMD_CancelBulkReadWrite</b> service cancels a pending bulk read or wr
 
 ## -parameters
 
-### -param DeviceContext 
+### -param DeviceContext [in]
 
-[in]
+
 Pointer to device-specific context.
 
-### -param PipeIndex 
+### -param PipeIndex [in]
 
-[in]
+
 Specifies the index of the bulk pipe to cancel the read or write request.
 
 ## -returns

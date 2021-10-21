@@ -50,14 +50,14 @@ The<b> KsPinRegisterHandshakeCallback</b> function registers a minidriver-provid
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to register a handshake callback.
 
-### -param Handshake 
+### -param Handshake [in]
 
-[in]
+
 A pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinhandshake">AVStrMiniPinHandshake</a> routine to be called when AVStream receives a protocol handshake request on <i>Pin</i> that it does not handle.
 
 ## -remarks

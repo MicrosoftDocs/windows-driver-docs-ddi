@@ -49,24 +49,24 @@ The <b>PsReferenceImpersonationToken</b> routine increments the reference count 
 
 ## -parameters
 
-### -param Thread 
+### -param Thread [in, out]
 
-[in, out]
+
 Address of the thread whose impersonation token's reference count is to be incremented.
 
-### -param CopyOnOpen 
+### -param CopyOnOpen [out]
 
-[out]
+
 Pointer to a caller-allocated Boolean variable. On return, this parameter receives <b>TRUE</b> if the token cannot be opened directly. In this case, the token must be duplicated, and the duplicate token must be used instead. If the token can be opened directly, this parameter receives <b>FALSE</b>.
 
-### -param EffectiveOnly 
+### -param EffectiveOnly [out]
 
-[out]
+
 Pointer to a caller-allocated Boolean variable. On return, this parameter receives <b>FALSE</b> if the thread is allowed to enable groups and privileges that are currently disabled in the client security context, <b>TRUE</b> otherwise.
 
-### -param ImpersonationLevel 
+### -param ImpersonationLevel [out]
 
-[out]
+
 Pointer to a caller-allocated SECURITY_IMPERSONATION_LEVEL variable. On return, this parameter receives a value that specifies the impersonation level at which the thread is allowed to access the token.
 
 ## -returns

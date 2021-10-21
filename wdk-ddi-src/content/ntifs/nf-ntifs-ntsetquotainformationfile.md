@@ -49,24 +49,24 @@ The <b>NtSetQuotaInformationFile</b> routine changes quota entries for the volum
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 A handle for the file object that represents the file or volume for which the quota information is to be modified.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 The address of the caller's I/O status block.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A buffer containing the new quota entries that should be applied to the volume. The quota information must be formatted as one or more <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length in bytes of the buffer.
 
 ## -returns

@@ -49,13 +49,13 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject
+### -param MonitorObject [in]
 
-[in] An opaque, driver-created IDDCX_MONITOR handle used by the OS to identify the monitor that has been affected by the mode change.
+An opaque, driver-created IDDCX_MONITOR handle used by the OS to identify the monitor that has been affected by the mode change.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_SETSWAPCHAIN**](ns-iddcx-idarg_in_setswapchain.md) structure containing information for the driver to use to set the indirect swapchain.
+Pointer to an [**IDARG_IN_SETSWAPCHAIN**](ns-iddcx-idarg_in_setswapchain.md) structure containing information for the driver to use to set the indirect swapchain.
 
 ## -returns
 

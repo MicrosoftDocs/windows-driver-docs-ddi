@@ -52,13 +52,13 @@ The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to asso
 
 ## -struct-fields
 
-### -field NumVertexElements
+### -field NumVertexElements [in]
 
-[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderdecl">CreateVertexShaderDecl</a> function.
+The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderdecl">CreateVertexShaderDecl</a> function.
 
-### -field ShaderHandle
+### -field ShaderHandle [out]
 
-[out] A handle to the vertex shader declaration.
+A handle to the vertex shader declaration.
 
 ## -remarks
 

@@ -49,14 +49,14 @@ The <b>FltGetRequestorSessionId</b> routine returns the session ID of the proces
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure specifying the I/O operation.
 
-### -param SessionId 
+### -param SessionId [out]
 
-[out]
+
 A pointer to the session ID for the requesting operation.
 
 ## -returns

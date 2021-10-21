@@ -49,26 +49,26 @@ Creates an endpoint on the specified USB device object.
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to the USB device object that contains the endpoint. The client driver retrieved the handle in a previous call to <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>.
 
-### -param EndpointInit 
+### -param EndpointInit [out]
 
-[out]
+
 A pointer to a <b>UCXENDPOINT_INIT</b> structure that describes various configuration
         operations for creating the endpoint object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the endpoint object.
 
-### -param Endpoint 
+### -param Endpoint [out]
 
-[out]
+
 A pointer to a variable that receives a handle to the new endpoint object.
 
 ## -returns

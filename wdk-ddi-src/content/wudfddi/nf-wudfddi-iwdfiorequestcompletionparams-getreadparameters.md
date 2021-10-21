@@ -51,23 +51,23 @@ The <b>GetReadParameters</b> method retrieves parameters that are associated wit
 
 ## -parameters
 
-### -param ppReadMemory 
+### -param ppReadMemory [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for access to the read buffer for the completion of the read request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.
 
-### -param pBytesRead 
+### -param pBytesRead [out]
 
-[out]
+
 A pointer to a variable that receives the size, in bytes, of the read buffer for the completion of the read request.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.
 
-### -param pReadMemoryOffset 
+### -param pReadMemoryOffset [out]
 
-[out]
+
 A pointer to a variable that receives the offset, in bytes, into the read buffer for the completion of the read request.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.

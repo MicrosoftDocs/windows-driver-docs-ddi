@@ -50,14 +50,14 @@ retrieve hub properties.
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Contains the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_hub_info">USBDEVICE_HUB_INFO</a> structure.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>Request</b> method performs a variety of different operations.
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Specifies which operation to perform.  <b>Request</b> can be one of the values in the following table.  Details of each operation can be found by following the link in the "Request" column.
 
 <table>
@@ -217,29 +217,29 @@ Perform a variety of different operations that aid in the interpretation of type
 </tr>
 </table>
 
-### -param InBuffer 
+### -param InBuffer [in, optional]
 
-[in, optional]
+
 Specifies the input to this method.  The type and interpretation of the input depends on the <i>Request</i> parameter.
 
-### -param InBufferSize 
+### -param InBufferSize [in]
 
-[in]
+
 Specifies the size of the input buffer <i>InBuffer</i>.  If the request requires no input, <i>InBufferSize</i> should be set to zero.
 
-### -param OutBuffer 
+### -param OutBuffer [out, optional]
 
-[out, optional]
+
 Receives the output from this method.  The type and interpretation of the output depends on the <i>Request</i> parameter.  If <i>OutBuffer</i> is <b>NULL</b>, the output is not returned.
 
-### -param OutBufferSize 
+### -param OutBufferSize [in]
 
-[in]
+
 Specifies the size of the output buffer <i>OutBufferSize</i>.  If the type of the output returned to <i>OutBuffer</i> has a known size, <i>OutBufferSize</i> is usually expected to be exactly that size, even if <i>OutBuffer</i> is set to <b>NULL</b>.
 
-### -param OutSize 
+### -param OutSize [out, optional]
 
-[out, optional]
+
 Receives the size of the output returned in the output buffer <i>OutBuffer</i>.  If <i>OutSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

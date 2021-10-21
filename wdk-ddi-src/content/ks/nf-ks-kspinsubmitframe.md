@@ -50,26 +50,26 @@ If a pin has been placed into injection mode by a call to <a href="/windows-hard
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure on which to submit a frame.
 
-### -param Data 
+### -param Data [in, optional]
 
-[in, optional]
+
 A pointer to a frame buffer. This should be <b>NULL</b> if and only if <i>Size</i> is equal to 0. Optional.
 
 ### -param OPTIONAL
 
-### -param StreamHeader 
+### -param StreamHeader [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated buffer. AVStream provides this pointer to the frame return callback registered through a call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>. Optional.
 
 

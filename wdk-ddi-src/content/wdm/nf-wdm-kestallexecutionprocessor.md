@@ -49,9 +49,9 @@ The <b>KeStallExecutionProcessor</b> routine stalls the caller on the current pr
 
 ## -parameters
 
-### -param MicroSeconds 
+### -param MicroSeconds [in]
 
-[in]
+
 Specifies the number of microseconds to stall.
 
 ## -returns

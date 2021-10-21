@@ -61,9 +61,9 @@ A handle to the display device (graphics context).
 
 A handle to the compute shader code object.
 
-### -param NumClassInstances 
+### -param NumClassInstances [in]
 
-[in]
+
 The number of class instances for implementations of the interfaces.
 
 ### -param unnamedParam4

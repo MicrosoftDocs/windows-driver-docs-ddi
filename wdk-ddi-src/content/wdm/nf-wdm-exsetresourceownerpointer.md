@@ -49,14 +49,14 @@ The <b>ExSetResourceOwnerPointer</b> routine sets the owner thread pointer for a
 
 ## -parameters
 
-### -param Resource 
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to an executive resource owned by the current thread.
 
-### -param OwnerPointer 
+### -param OwnerPointer [in]
 
-[in]
+
 A pointer to an owner thread pointer of type ERESOURCE_THREAD (for additional requirements, see the following Remarks section).
 
 ## -remarks

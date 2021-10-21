@@ -51,19 +51,19 @@ api_name:
 
 ## -parameters
 
-### -param pPrinterName 
+### -param pPrinterName [in]
 
-[in]
+
 Caller-supplied pointer to a NULL-terminated Unicode string containing the printer name.
 
-### -param pDevmode 
+### -param pDevmode [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
 
-### -param pAttributeInfo 
+### -param pAttributeInfo [out]
 
-[out]
+
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
 
 ## -returns

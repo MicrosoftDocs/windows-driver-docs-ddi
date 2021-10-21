@@ -52,14 +52,14 @@ The <b>WdfPdoRetrieveAddressDescription</b> method retrieves the <a href="/windo
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object that represents the device's physical device object (PDO).
 
-### -param AddressDescription 
+### -param AddressDescription [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
 ## -returns

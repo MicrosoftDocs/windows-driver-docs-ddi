@@ -52,19 +52,19 @@ Describes video memory resources that are to be reclaimed and that the driver  p
 
 ## -struct-fields
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in]  The number of items in <b>pDiscarded</b> and whichever of <b>pResources</b> or <b>HandleList</b> is non-NULL.
+ The number of items in <b>pDiscarded</b> and whichever of <b>pResources</b> or <b>HandleList</b> is non-NULL.
 
-### -field HandleList
+### -field HandleList [in]
 
-[in]  An array of allocation handles. If non-NULL, <b>pResources</b> must be NULL.
+ An array of allocation handles. If non-NULL, <b>pResources</b> must be NULL.
 
-### -field pDiscarded
+### -field pDiscarded [out]
 
-[out] Optional array of boolean values specifying whether each resource or allocation was discarded.
+Optional array of boolean values specifying whether each resource or allocation was discarded.
 
-### -field PagingFenceValue
+### -field PagingFenceValue [out]
 
-[out] The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
+The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
 

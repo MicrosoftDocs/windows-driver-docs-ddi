@@ -49,9 +49,9 @@ The <b>SetPrint</b> method sets the typed data represented by the <a href="/wind
 
 ## -parameters
 
-### -param Format 
+### -param Format [in]
 
-[in]
+
 The format string used to create the expression.  This is the same as the format string used by the C <b>printf</b> function.
 
 <div class="alert"><b>Note</b>   While other methods and functions in the debugger engine API provide additional, debugger-specific conversion characters, <b>SetPrint</b> only supports the conversion characters used by <b>printf</b>.</div>

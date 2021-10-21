@@ -45,9 +45,9 @@ This routine returns the number of active processors in the given NUMA node acro
 
 ## -parameters
 
-### -param NodeNumber
+### -param NodeNumber [in]
 
-[in]
+
 
 A value of type USHORT that specifies the node number of the node to query.
 

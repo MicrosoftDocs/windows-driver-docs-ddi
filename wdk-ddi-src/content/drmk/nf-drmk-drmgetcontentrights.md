@@ -50,14 +50,14 @@ The <code>DrmGetContentRights</code> function retrieves the DRM content rights a
 
 ## -parameters
 
-### -param ContentId 
+### -param ContentId [in]
 
-[in]
+
 Specifies the DRM content ID. This parameter identifies a KS audio stream.
 
-### -param DrmRights 
+### -param DrmRights [out]
 
-[out]
+
 Specifies the DRM content rights that are assigned to the stream that is identified by <i>ContentId</i>. This parameter is a pointer to a <a href="/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure.
 
 ## -returns

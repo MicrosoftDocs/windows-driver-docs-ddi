@@ -53,9 +53,9 @@ api_name:
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to an initialized DMA transaction object from which to retrieve the transfer context.
 
 ## -returns

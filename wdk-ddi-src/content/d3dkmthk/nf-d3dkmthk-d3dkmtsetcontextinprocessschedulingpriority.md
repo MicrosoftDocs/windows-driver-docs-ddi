@@ -49,9 +49,9 @@ Called by an in-process (in-proc) Microsoft Direct3D composition device to set t
 
 ## -parameters
 
-### -param D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+### -param D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setcontextinprocessschedulingpriority">D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setcontextinprocessschedulingpriority">D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
 
 ## -returns
 

@@ -46,9 +46,9 @@ The **DXGKARGCB_FREECONTIGUOUSMEMORY** structure contains the arguments used in 
 
 ## -struct-fields
 
-### -field hMemoryHandle
+### -field hMemoryHandle [in]
 
-[in] A *Dxgkrnl* tracking handle for the memory allocation. *Dxgkrnl* returns this handle from [**DXGKCB_ALLOCATECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md)
+A *Dxgkrnl* tracking handle for the memory allocation. *Dxgkrnl* returns this handle from [**DXGKCB_ALLOCATECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_allocatecontiguousmemory.md)
 
 ## -remarks
 

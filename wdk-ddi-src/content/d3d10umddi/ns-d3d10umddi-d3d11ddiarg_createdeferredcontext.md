@@ -50,21 +50,21 @@ The D3D11DDIARG_CREATEDEFERREDCONTEXT structure describes the deferred context t
 
 ## -struct-fields
 
-### -field p11ContextFuncs
+### -field p11ContextFuncs [in/out]
 
-[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_devicefuncs">D3D11DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_devicefuncs">D3D11DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 For a list of the functions that are not leveraged for deferred contexts, see <a href="/windows-hardware/drivers/display/excluding-ddi-functions-for-deferred-contexts">Excluding DDI Functions for Deferred Contexts</a>.
 
-### -field p11_1ContextFuncs
+### -field p11_1ContextFuncs [in/out]
 
-[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 Supported starting with Windows 8.
 
-### -field pWDDM1_3ContextFuncs
+### -field pWDDM1_3ContextFuncs [in/out]
 
-[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 Supported starting with Windows 8.1.
 
@@ -76,25 +76,25 @@ Supported starting with Windows 8.1.
 
 ### -field pWDDM2_6ContextFuncs
 
-### -field hDrvContext
+### -field hDrvContext [in]
 
-[in] A handle to the driver context for the driver-private handle storage.
+A handle to the driver context for the driver-private handle storage.
 
-### -field hRTCoreLayer
+### -field hRTCoreLayer [in]
 
-[in] A handle that the driver should use when it calls back into the Direct3D runtime to access core Direct3D 11 functionality (that is, when the driver calls functions that the <b>p11UMCallbacks</b> member specifies).
+A handle that the driver should use when it calls back into the Direct3D runtime to access core Direct3D 11 functionality (that is, when the driver calls functions that the <b>p11UMCallbacks</b> member specifies).
 
-### -field p11UMCallbacks
+### -field p11UMCallbacks [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks">D3D11DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 11 runtime callback functions that the driver can use to access core user-mode runtime functionality.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks">D3D11DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 11 runtime callback functions that the driver can use to access core user-mode runtime functionality.
 
 ### -field pWDDM2_0UMCallbacks
 
 ### -field pWDDM2_2UMCallbacks
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
+A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
 
 
 

@@ -53,14 +53,14 @@ api_name:
 
 ## -parameters
 
-### -param RemoveLockOptions 
+### -param RemoveLockOptions [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_remove_lock_options">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_remove_lock_options_flags">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>-typed flags.
 

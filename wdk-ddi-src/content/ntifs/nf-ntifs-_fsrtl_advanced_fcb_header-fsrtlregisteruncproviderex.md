@@ -52,24 +52,24 @@ The <b>FsRtlRegisterUncProviderEx</b> routine registers a network redirector as 
 
 ## -parameters
 
-### -param MupHandle 
+### -param MupHandle [out]
 
-[out]
+
 A pointer to a location in which to return a MUP handle to be used when calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlderegisteruncprovider">FsRtlDeregisterUncProvider</a> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProviderEx</b> returns STATUS_SUCCESS.
 
-### -param RedirDevName 
+### -param RedirDevName [in]
 
-[in]
+
 A pointer to a Unicode string that contains the device name of the network redirector. MUP uses this device name to create a symbolic link in the Object Manager namespace whose target is \Device\Mup.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to an unnamed device object that represents the network redirector.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitmask that indicates features supported by the network redirector. A network redirector sets a bit to indicate that a feature is supported. The <i>Flags</i> parameter has two options: 
 
 FSRTL_UNC_PROVIDER_FLAGS_MAILSLOTS_SUPPORTED

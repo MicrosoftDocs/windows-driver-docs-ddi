@@ -52,19 +52,19 @@ Describes video memory resources that are to be reclaimed and that the user-mode
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) on which the driver offers resources for reuse.
+A handle to the display device (graphics context) on which the driver offers resources for reuse.
 
 The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> routine.
 
-### -field pResources
+### -field pResources [in]
 
-[in] A pointer to an array of handles to the resources that are to be reclaimed.
+A pointer to an array of handles to the resources that are to be reclaimed.
 
-### -field pDiscarded
+### -field pDiscarded [out]
 
-[out] An optional array of Boolean values that specify whether each resource or allocation was discarded.
+An optional array of Boolean values that specify whether each resource or allocation was discarded.
 
 Each Boolean value in this array corresponds to a resource at the same index location in the structure pointed to by <b>pResources</b>.
 
@@ -72,9 +72,9 @@ The driver sets each Boolean value to <b>TRUE</b> if the correponding resource w
 
 If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
-### -field Resources
+### -field Resources [in]
 
-[in] The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
+The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
 
 ## -see-also
 

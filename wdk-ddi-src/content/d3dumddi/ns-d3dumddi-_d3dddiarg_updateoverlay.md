@@ -52,13 +52,13 @@ The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modify.
 
 ## -struct-fields
 
-### -field hOverlay
+### -field hOverlay [in]
 
-[in] A handle to the overlay to modify.
+A handle to the overlay to modify.
 
-### -field OverlayInfo
+### -field OverlayInfo [in]
 
-[in] A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay.
+A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay.
 
 ## -see-also
 

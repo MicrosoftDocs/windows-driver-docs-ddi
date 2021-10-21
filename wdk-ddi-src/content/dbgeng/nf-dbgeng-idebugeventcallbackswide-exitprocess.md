@@ -49,9 +49,9 @@ The <b>ExitProcess</b> callback method is called by the engine when an exit-proc
 
 ## -parameters
 
-### -param ExitCode 
+### -param ExitCode [in]
 
-[in]
+
 Specifies the exit code for the process.
 
 ## -returns

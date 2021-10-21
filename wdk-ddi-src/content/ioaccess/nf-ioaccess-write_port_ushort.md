@@ -50,14 +50,14 @@ The <b>WRITE_PORT_USHORT</b> routine writes a USHORT value to the specified port
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a USHORT value to be written to the port.
 
 ## -remarks

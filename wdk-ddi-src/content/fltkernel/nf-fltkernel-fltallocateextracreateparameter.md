@@ -50,24 +50,24 @@ The **FltAllocateExtraCreateParameter** routine allocates paged memory pool for 
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpType 
+### -param EcpType [in]
 
-[in]
+
 Pointer to a user-defined GUID indicating the type of the ECP context structure.  See [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
 
-### -param SizeOfContext 
+### -param SizeOfContext [in]
 
-[in]
+
 The size, in bytes, of the user-defined context structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Defines pool allocation options.  The following describes how pool will be allocated when one or more of the listed flag values are combined with the *Flags* parameter by using a bitwise OR operation:  
 
 - FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL - Non-paged pool will be allocated.  If this flag value is not used, paged pool will be allocated.
@@ -76,19 +76,19 @@ Defines pool allocation options.  The following describes how pool will be alloc
 
 If more than one flag is used, all of the effects associated with the utilized flag values will occur.
 
-### -param CleanupCallback 
+### -param CleanupCallback [in, optional]
 
-[in, optional]
+
 Optional pointer to a minifilter-defined cleanup callback routine of type <a href="/previous-versions/ff551124(v=vs.85)">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>.  The cleanup callback routine is called when the ECP structure (created by the **FltAllocateExtraCreateParameter** routine) is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
-### -param PoolTag 
+### -param PoolTag [in]
 
-[in]
+
 Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](../wdm/nf-wdm-exallocatepoolwithtag.md).
 
-### -param EcpContext 
+### -param EcpContext [out]
 
-[out]
+
 Receives a pointer to the allocated ECP context structure.  If the routine failed to allocate sufficient pool, *\*EcpContext* will be **NULL** and the routine will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

@@ -52,29 +52,29 @@ The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex
 
 ## -struct-fields
 
-### -field Stream
+### -field Stream [in]
 
-[in] The number of the stream.
+The number of the stream.
 
-### -field Offset
+### -field Offset [in]
 
-[in] The offset (if any), in bytes, from the beginning of the stream to the start of the data.
+The offset (if any), in bytes, from the beginning of the stream to the start of the data.
 
-### -field Type
+### -field Type [in]
 
-[in] One of several predefined data types that define the data size. For more information about these types, see the D3DDECLTYPE enumeration type in the Microsoft Windows SDK documentation.
+One of several predefined data types that define the data size. For more information about these types, see the D3DDECLTYPE enumeration type in the Microsoft Windows SDK documentation.
 
-### -field Method
+### -field Method [in]
 
-[in] The tessellator processing method. This method determines how the tessellator interprets and operates on the vertex data. For more information about these methods, see the D3DDECLMETHOD enumeration type in the Windows SDK documentation.
+The tessellator processing method. This method determines how the tessellator interprets and operates on the vertex data. For more information about these methods, see the D3DDECLMETHOD enumeration type in the Windows SDK documentation.
 
-### -field Usage
+### -field Usage [in]
 
-[in] The intended use of the vertex data. For more information about the possible uses, see the D3DDECLUSAGE enumeration type in the Windows SDK documentation.
+The intended use of the vertex data. For more information about the possible uses, see the D3DDECLUSAGE enumeration type in the Windows SDK documentation.
 
-### -field UsageIndex
+### -field UsageIndex [in]
 
-[in] A modification to the usage data that is specified in the <b>Usage</b> member. This modification enables multiple usage types to be specified.
+A modification to the usage data that is specified in the <b>Usage</b> member. This modification enables multiple usage types to be specified.
 
 ## -see-also
 

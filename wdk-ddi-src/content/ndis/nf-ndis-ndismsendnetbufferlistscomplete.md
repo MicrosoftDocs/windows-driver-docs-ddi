@@ -51,18 +51,18 @@ Miniport drivers call the
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport handle that NDIS passed to the [MiniportInitializeEx](./nc-ndis-miniport_initialize.md) function.
 
 ### -param NetBufferList
 
 A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the NET_BUFFER_LIST structures in previous calls to its [MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md) function.
 
-### -param SendCompleteFlags 
+### -param SendCompleteFlags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see [Dispatch IRQL Tracking](/windows-hardware/drivers/network/dispatch-irql-tracking).
 
 ## -remarks

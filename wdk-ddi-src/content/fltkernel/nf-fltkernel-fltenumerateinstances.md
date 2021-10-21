@@ -50,29 +50,29 @@ The <b>FltEnumerateInstances</b> routine enumerates minifilter driver instances 
 
 ## -parameters
 
-### -param Volume 
+### -param Volume [in, optional]
 
-[in, optional]
+
 Opaque pointer for the volume for which the caller wants to enumerate minifilter driver instances. If <b>NULL</b>, instances for all volumes are enumerated. Must be non-<b>NULL</b> if <i>Filter</i> is <b>NULL</b>.
 
-### -param Filter 
+### -param Filter [in, optional]
 
-[in, optional]
+
 Opaque filter pointer for the minifilter driver whose instances are to be enumerated. If <b>NULL</b>, instances for all minifilter drivers are enumerated. Must be non-<b>NULL</b> if <i>Volume</i> is <b>NULL</b>.
 
-### -param InstanceList 
+### -param InstanceList [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives an array of opaque instance pointers.
 
-### -param InstanceListSize 
+### -param InstanceListSize [in]
 
-[in]
+
 Number of opaque instance pointers that the buffer that <i>InstanceList</i> points to can hold.
 
-### -param NumberInstancesReturned 
+### -param NumberInstancesReturned [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the number of opaque instance pointers returned in the array that <i>InstanceList </i>points to. If <i>InstanceListSize</i> is too small, <b>FltEnumerateInstances</b> returns STATUS_BUFFER_TOO_SMALL and sets <i>NumberInstancesReturned</i> to point to the number of matching instances found.
 
 ## -returns

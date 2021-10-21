@@ -49,34 +49,34 @@ The <b>IoWMISetSingleItem</b> routine sets a single property in the data block i
 
 ## -parameters
 
-### -param DataBlockObject 
+### -param DataBlockObject [in]
 
-[in]
+
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right.
 
-### -param InstanceName 
+### -param InstanceName [in]
 
-[in]
+
 Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block.
 
-### -param DataItemId 
+### -param DataItemId [in]
 
-[in]
+
 Specifies the data item ID for the property to be set. The value of this parameter corresponds to the value declared in the <b>WmiDataId</b> qualifier for the property.
 
-### -param Version 
+### -param Version [in]
 
-[in]
+
 Reserved for future use. Callers must set this parameter to zero.
 
-### -param ValueBufferSize 
+### -param ValueBufferSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer passed in the <i>ValueBuffer</i> parameter.
 
-### -param ValueBuffer 
+### -param ValueBuffer [in]
 
-[in]
+
 Pointer to the buffer that contains the new value for the property specified by the <i>DataItemId</i> parameter.
 
 ## -returns

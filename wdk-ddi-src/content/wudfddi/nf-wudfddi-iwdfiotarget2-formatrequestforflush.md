@@ -51,14 +51,14 @@ The <b>FormatRequestForFlush</b> method builds an I/O request for a flush operat
 
 ## -parameters
 
-### -param pRequest 
+### -param pRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface of the request object that represents the I/O request.
 
-### -param pFile 
+### -param pFile [in, optional]
 
-[in, optional]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is optional and can be <b>NULL</b>, but it is required for the default I/O target.
 
 ## -returns

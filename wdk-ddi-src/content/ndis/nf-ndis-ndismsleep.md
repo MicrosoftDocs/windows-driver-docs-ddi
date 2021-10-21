@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param MicrosecondsToSleep 
+### -param MicrosecondsToSleep [in]
 
-[in]
+
 The number of microseconds to delay.
 
 ## -remarks

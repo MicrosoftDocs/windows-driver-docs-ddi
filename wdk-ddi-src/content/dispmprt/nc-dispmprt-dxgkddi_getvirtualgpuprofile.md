@@ -50,13 +50,13 @@ Returns information about the vGPU profile, which is supported by the physical G
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
 
-### -param pArgs 
+### -param pArgs [in, out]
 
-[in, out] A pointer to the DXGKARG_GETVIRTUALGPUPROFILE structure.
+A pointer to the DXGKARG_GETVIRTUALGPUPROFILE structure.
 
 ## -returns
 

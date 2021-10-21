@@ -53,20 +53,20 @@ A callout driver calls **FwpsCompleteClassify0** to asynchronously complete a pe
 
 ## -parameters
 
-### -param classifyHandle
+### -param classifyHandle [in]
 
-[in]
+
 The classification handle that identifies the callout driver's processing at the current layer. This handle is obtained by calling [FwpsAcquireClassifyHandle0](./nf-fwpsk-fwpsacquireclassifyhandle0.md).
 
-### -param flags
+### -param flags [in]
 
-[in]
+
 
 This parameter is reserved for future use. Set to zero.
 
-### -param classifyOut
+### -param classifyOut [in, optional]
 
-[in, optional] A pointer to a deep copy of the [FWPS_CLASSIFY_OUT0](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0) structure that was originally passed to the [classifyFn](../_netvista/index.md) call when the classification was pended. When classifying asynchronously, the members of this structure can be set the same way as they would be in the callout driver's *classifyFn* function when classifying inline.
+A pointer to a deep copy of the [FWPS_CLASSIFY_OUT0](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0) structure that was originally passed to the [classifyFn](../_netvista/index.md) call when the classification was pended. When classifying asynchronously, the members of this structure can be set the same way as they would be in the callout driver's *classifyFn* function when classifying inline.
 
 If this parameter is used, the classification is taken as the callout driver's final decision. If set to **NULL**, the indication will be reauthorized.
 

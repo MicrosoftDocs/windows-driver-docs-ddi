@@ -51,23 +51,23 @@ The <b>WDF_READ_REGISTER_BUFFER_ULONG</b> function reads a number of ULONG value
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a buffer into which an array of ULONG values is read.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG values to be read into the buffer.
 

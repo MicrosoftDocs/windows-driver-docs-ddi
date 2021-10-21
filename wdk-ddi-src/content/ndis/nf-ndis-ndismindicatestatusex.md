@@ -51,17 +51,17 @@ The
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport adapter handle that NDIS passed at the 
      <i>MiniportAdapterHandle</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param StatusIndication 
+### -param StatusIndication [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.

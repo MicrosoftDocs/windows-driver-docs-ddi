@@ -54,19 +54,19 @@ The <b>WdfRegistryQueryString</b> method retrieves the string data that is curre
 
 ## -parameters
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 A handle to a registry-key object that represents an opened registry key.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a name for the registry value.
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A handle to a framework string object. The framework will assign the registry value's string data to this object.
 
 ## -returns

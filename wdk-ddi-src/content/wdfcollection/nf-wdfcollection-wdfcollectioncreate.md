@@ -54,14 +54,14 @@ The <b>WdfCollectionCreate</b> method creates a framework collection object.
 
 ## -parameters
 
-### -param CollectionAttributes 
+### -param CollectionAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Collection 
+### -param Collection [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new collection object.
 
 ## -returns

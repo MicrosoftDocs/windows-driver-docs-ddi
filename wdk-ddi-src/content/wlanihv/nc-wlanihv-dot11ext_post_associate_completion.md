@@ -56,24 +56,24 @@ The IHV Extensions DLL calls the
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param hSecuritySessionID 
+### -param hSecuritySessionID [in, optional]
 
-[in, optional]
+
 The handle of the security session identifier (ID) returned through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
      Dot11ExtIhvPerformPostAssociate</a> IHV Handler function.
 
-### -param pPeer 
+### -param pPeer [in, optional]
 
-[in, optional]
+
 The media access control (MAC) address of the access point (AP) with which the IHV Extensions DLL
      performed a security operation. This parameter is formatted as a
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> structure.
@@ -82,9 +82,9 @@ The media access control (MAC) address of the access point (AP) with which the I
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div>
 
-### -param dwReasonCode 
+### -param dwReasonCode [in]
 
-[in]
+
 A value that provides additional information for the completion status of the post-association
      operation. The IHV Extensions DLL must set
      <i>dwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in
@@ -97,9 +97,9 @@ The IHV Extensions DLL returns the general completion status of the post-associa
      <i>dwReasonCode</i> to a value within the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_CODE_IHV_BASE+
      L2_REASON_CODE_GROUP_SIZE-1).
 
-### -param dwWin32Error 
+### -param dwWin32Error [in]
 
-[in]
+
 The completion status of the post-association operation as defined by an error code within
      Winerror.h. If the operation completes successfully, the IHV Extensions DLL must set
      <i>dwWin32Error</i> to ERROR_SUCCESS.

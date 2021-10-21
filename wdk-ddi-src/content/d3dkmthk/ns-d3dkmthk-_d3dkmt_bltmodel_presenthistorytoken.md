@@ -52,21 +52,21 @@ The D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN structure identifies a bit-block transfe
 
 ## -struct-fields
 
-### -field hLogicalSurface
+### -field hLogicalSurface [in]
 
-[in] A 64-bit value that specifies the handle to a logical surface to copy from.
+A 64-bit value that specifies the handle to a logical surface to copy from.
 
-### -field hPhysicalSurface
+### -field hPhysicalSurface [in]
 
-[in] A 64-bit value that specifies the handle to a physical surface to copy to.
+A 64-bit value that specifies the handle to a physical surface to copy to.
 
-### -field EventId
+### -field EventId [in]
 
-[in] A 64-bit value that identifies the bitblt event.
+A 64-bit value that identifies the bitblt event.
 
-### -field DirtyRegions
+### -field DirtyRegions [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_dirtyregions">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the bitblt surface.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_dirtyregions">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the bitblt surface.
 
 ## -see-also
 

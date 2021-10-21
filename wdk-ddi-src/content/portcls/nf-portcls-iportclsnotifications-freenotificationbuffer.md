@@ -52,9 +52,9 @@ For more information about audio modules, see <a href="/windows-hardware/drivers
 
 ## -parameters
 
-### -param NotificationBuffer 
+### -param NotificationBuffer [in]
 
-[in]
+
 The address of the notification buffer returned in the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a> call.
 
 ## -see-also

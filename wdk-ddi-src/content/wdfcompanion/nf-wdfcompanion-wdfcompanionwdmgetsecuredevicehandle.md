@@ -49,7 +49,7 @@ api_name:
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
+
 

@@ -49,44 +49,44 @@ The <b>IoCreateSystemThread</b> routine creates a system thread that executes in
 
 ## -parameters
 
-### -param IoObject 
+### -param IoObject [in, out]
 
-[in, out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> or <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> to associate with          the created thread. <b>IoCreateSystemThread</b> takes a counted reference to this object. The I/O manager later releases this reference when the thread exits. For more information, see Remarks.
 
-### -param ThreadHandle 
+### -param ThreadHandle [out]
 
-[out]
+
 A pointer to a variable to which the routine writes the kernel handle for the created thread. When the handle is no longer needed, the driver must close the handle by calling the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> routine.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 The <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the types of access the caller requests to the created thread.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in, optional]
 
-[in, optional]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the thread object's attributes. The OBJ_PERMANENT, OBJ_EXCLUSIVE, and OBJ_OPENIF attributes are not valid attributes for a thread object. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute in the <b>OBJECT_ATTRIBUTES</b> structure.
 
-### -param ProcessHandle 
+### -param ProcessHandle [in, optional]
 
-[in, optional]
+
 An open handle for the process in whose address space the created thread is to run. The caller's thread must have PROCESS_CREATE_THREAD access to this process. If this parameter is <b>NULL</b>, the thread will be created in the initial system process. This parameter should be <b>NULL</b> for a driver-created thread. Use the <b>NtCurrentProcess</b> macro, defined in the Wdm.h header file, to specify the current process.
 
-### -param ClientId 
+### -param ClientId [out, optional]
 
-[out, optional]
+
 A pointer to a structure to which the routine writes the client identifier for the created thread. This parameter should be <b>NULL</b> for a driver-created thread.
 
-### -param StartRoutine 
+### -param StartRoutine [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine that is the entry point for the created thread.
 
-### -param StartContext 
+### -param StartContext [in, optional]
 
-[in, optional]
+
 A context pointer that is passed as the <i>StartContext</i> parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine when the created thread starts to run.
 
 ## -returns

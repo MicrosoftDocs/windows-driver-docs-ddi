@@ -49,9 +49,9 @@ The Read method reads bytes from the stream and returns them as a JavaScript arr
 
 ## -parameters
 
-### -param cbRead 
+### -param cbRead [in]
 
-[in]
+
 The number of bytes to read.
 
 ### -param ppArray

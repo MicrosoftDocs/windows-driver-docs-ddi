@@ -50,9 +50,9 @@ The<b> KsPinGetParentFilter</b> function returns the parent filter of <i>Pin</i>
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> for which to return the parent filter.
 
 ## -returns

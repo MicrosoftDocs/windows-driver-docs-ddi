@@ -50,9 +50,9 @@ Gets the width of an output line for
 
 ## -parameters
 
-### -param Columns 
+### -param Columns [out]
 
-[out]
+
 The number of columns in the output.
 
 ## -returns

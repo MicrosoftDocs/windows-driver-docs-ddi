@@ -50,9 +50,9 @@ The <b>RtlValidSid</b> routine validates a security identifier (SID) by verifyin
 
 ## -parameters
 
-### -param Sid 
+### -param Sid [in]
 
-[in]
+
 Pointer to the SID structure to validate.
 
 ## -returns

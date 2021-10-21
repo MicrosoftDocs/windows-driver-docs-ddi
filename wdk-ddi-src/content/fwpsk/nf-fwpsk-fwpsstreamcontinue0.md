@@ -53,26 +53,26 @@ The
 
 ## -parameters
 
-### -param flowId 
+### -param flowId [in]
 
-[in]
+
 A run-time identifier that specifies the data flow that is being resumed. The run-time identifier
      for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE metadata
      value that the filter engine provided to the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-### -param calloutId 
+### -param calloutId [in]
 
-[in]
+
 The run-time identifier for the callout that deferred the inbound data stream. This identifier was
      returned when the callout driver called either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
-### -param layerId 
+### -param layerId [in]
 
-[in]
+
 The run-time identifier for the filtering layer at which the data stream is being processed. This
      value must be either FWPS_LAYER_STREAM_V4 or FWPS_LAYER_STREAM_V6. The run-time identifier for the layer
      at which the data stream is being processed is provided to a callout in the 
@@ -81,9 +81,9 @@ The run-time identifier for the filtering layer at which the data stream is bein
      the filter engine passed to the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-### -param streamFlags 
+### -param streamFlags [in]
 
-[in]
+
 Flags that specify characteristics of the inbound data stream that is being resumed. A callout
      driver should specify the same stream flags that were set in the 
      <b>streamFlags</b> member of the 

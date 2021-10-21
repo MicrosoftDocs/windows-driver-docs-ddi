@@ -51,16 +51,16 @@ api_name:
 
 ## -parameters
 
-### -param TapiCallId 
+### -param TapiCallId [in]
 
-[in]
+
 Unicode string that identifies a particular VC. This string is the Unicode version of a string
      identifier that was previously returned by the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscogettapicallid">NdisCoGetTapiCallID</a> function.
 
-### -param ProtocolVcContext 
+### -param ProtocolVcContext [out]
 
-[out]
+
 Pointer to a caller-allocated NDIS_HANDLE that receives a handle to the client context for the VC.
      The client supplied this context to NDIS on return from its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> handler.

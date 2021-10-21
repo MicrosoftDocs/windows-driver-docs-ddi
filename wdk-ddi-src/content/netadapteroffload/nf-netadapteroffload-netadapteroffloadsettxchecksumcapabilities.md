@@ -56,13 +56,13 @@ The **NetAdapterOffloadSetTxChecksumCapabilities** function sets the hardware Tx
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
-[_In_] A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param HardwareCapabilities
+### -param HardwareCapabilities [_In_]
 
-[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
 
 ## -remarks
 

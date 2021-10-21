@@ -51,17 +51,17 @@ The
 
 ## -parameters
 
-### -param SocketContext 
+### -param SocketContext [in, optional]
 
-[in, optional]
+
 A pointer to the socket context for the datagram socket that has received the datagrams. The WSK
      application provided this pointer to the WSK subsystem when it called the 
      <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the datagram
      socket.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
 
@@ -90,9 +90,9 @@ The WSK subsystem called the
        the WSK subsystem might have called the 
        <i>WskReceiveFromEvent</i> event callback function at any IRQL <= DISPATCH_LEVEL.
 
-### -param DataIndication 
+### -param DataIndication [in, optional]
 
-[in, optional]
+
 A pointer to a linked list of 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_datagram_indication">WSK_DATAGRAM_INDICATION</a> structures
      that describe the received datagrams. If this parameter is <b>NULL</b>, the socket is no longer functional and

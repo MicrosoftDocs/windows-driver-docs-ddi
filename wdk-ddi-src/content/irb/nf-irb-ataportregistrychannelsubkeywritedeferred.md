@@ -50,24 +50,24 @@ The <b>AtaPortRegistryChannelSubKeyWriteDeferred</b> routine writes data asynchr
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param ControllerNumber 
+### -param ControllerNumber [in]
 
-[in]
+
 Contains the controller number.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 Contains the name of the registry value to write to.
 
-### -param ValueType 
+### -param ValueType [in]
 
-[in]
+
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 
 <table>
@@ -107,9 +107,9 @@ A null-terminated. Unicode string.
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to the source buffer that contains the data to be written to the registry.
 
 ### -param BufferLength

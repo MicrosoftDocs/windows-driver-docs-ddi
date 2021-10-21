@@ -49,9 +49,9 @@ Acquires the swap chain resource.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
-[in, out] Pointer to a [D3DKMT_ACQUIRESWAPCHAIN](ns-d3dkmthk-_d3dkmt_acquireswapchain.md) structure.
+Pointer to a [D3DKMT_ACQUIRESWAPCHAIN](ns-d3dkmthk-_d3dkmt_acquireswapchain.md) structure.
 
 ## -returns
 

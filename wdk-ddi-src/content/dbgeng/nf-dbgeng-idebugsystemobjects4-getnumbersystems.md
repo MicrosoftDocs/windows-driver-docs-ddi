@@ -49,9 +49,9 @@ The <b>GetNumberSystems</b> method returns the number of targets to which the en
 
 ## -parameters
 
-### -param Number 
+### -param Number [out]
 
-[out]
+
 Receives the number of targets.
 
 ## -returns

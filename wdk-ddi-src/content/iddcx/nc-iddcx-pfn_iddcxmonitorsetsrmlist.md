@@ -46,17 +46,17 @@ product:
 
 ## -parameters
 
-### -param DriverGlobals
+### -param DriverGlobals [in]
 
-[in] Contains system-defined per-driver data.
+Contains system-defined per-driver data.
 
-### -param MonitorObject
+### -param MonitorObject [in]
 
-[in] The monitor object that the SRM list is associated with.
+The monitor object that the SRM list is associated with.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Input arguments of function.
+Input arguments of function.
 
 ## -returns
 

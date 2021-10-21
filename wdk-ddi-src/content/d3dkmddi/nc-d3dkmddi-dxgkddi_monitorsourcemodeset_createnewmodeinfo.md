@@ -51,13 +51,13 @@ The <b>pfnCreateNewModeInfo</b> function returns a pointer to a <a href="/window
 
 ## -parameters
 
-### -param hMonitorSourceModeSet
+### -param hMonitorSourceModeSet [in]
 
-[in] A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
-### -param ppNewMonitorSourceModeInfo
+### -param ppNewMonitorSourceModeInfo [out]
 
-[out] A pointer to a variable that receives a pointer to a newly created D3DKMDT_MONITOR_SOURCE_MODE structure allocated by the VidPN manager.
+A pointer to a variable that receives a pointer to a newly created D3DKMDT_MONITOR_SOURCE_MODE structure allocated by the VidPN manager.
 
 ## -returns
 

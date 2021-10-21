@@ -51,19 +51,19 @@ The <b>WDF_INTERRUPT_CONFIG_INIT</b> function initializes a <a href="/windows-ha
 
 ## -parameters
 
-### -param Configuration 
+### -param Configuration [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure.
 
-### -param EvtInterruptIsr 
+### -param EvtInterruptIsr [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function.
 
-### -param EvtInterruptDpc 
+### -param EvtInterruptDpc [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function, or <b>NULL</b>.
 
 ## -remarks

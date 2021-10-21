@@ -51,17 +51,17 @@ Structure to describe the three programmable sub-stages of the 3 by 4 matrix col
 
 ## -struct-fields
 
-### -field ColorMatrix3x4
+### -field ColorMatrix3x4 [in]
 
-[in] A 3x3 matrix and 3x1 addition to be applied to each pixel, stored in row-major order. Transforms colors within CIEXYZ.
+A 3x3 matrix and 3x1 addition to be applied to each pixel, stored in row-major order. Transforms colors within CIEXYZ.
 
-### -field ScalarMultiplier
+### -field ScalarMultiplier [in]
 
-[in] A scalar to be multiplied into each element of ColorMatrix3x4.
+A scalar to be multiplied into each element of ColorMatrix3x4.
 
-### -field LookupTable1D
+### -field LookupTable1D [in]
 
-[in] 1D look-up table. Transforms colors within the color space specified by [DXGK_SET_TIMING_PATH_INFO](../d3dkmddi/ns-d3dkmddi-_dxgk_set_timing_path_info.md).
+1D look-up table. Transforms colors within the color space specified by [DXGK_SET_TIMING_PATH_INFO](../d3dkmddi/ns-d3dkmddi-_dxgk_set_timing_path_info.md).
 
 ## -remarks
 

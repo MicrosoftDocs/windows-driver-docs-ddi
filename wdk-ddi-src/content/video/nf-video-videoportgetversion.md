@@ -49,14 +49,14 @@ The <b>VideoPortGetVersion</b> function gets version information about the curre
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pVpOsVersionInfo 
+### -param pVpOsVersionInfo [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_vposversioninfo">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
 
 ## -returns

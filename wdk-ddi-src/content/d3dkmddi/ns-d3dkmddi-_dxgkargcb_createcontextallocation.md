@@ -51,25 +51,25 @@ The **DXGKARGCB_CREATECONTEXTALLOCATION** structure contains the allocation attr
 
 ## -struct-fields
 
-### -field ContextAllocationFlags
+### -field ContextAllocationFlags [in]
 
-[in] A [**DXGK_CREATECONTEXTALLOCATIONFLAGS**](ns-d3dkmddi-_dxgk_createcontextallocationflags.md) structure that specifies the properties of the allocation.
+A [**DXGK_CREATECONTEXTALLOCATIONFLAGS**](ns-d3dkmddi-_dxgk_createcontextallocationflags.md) structure that specifies the properties of the allocation.
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter for which the context allocation is created.
+A handle to the graphics adapter for which the context allocation is created.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device that was originally passed by the DirectX graphics subsystem to the display miniport driver's [**DxgkDdiCreateDevice**](nc-d3dkmddi-dxgkddi_createdevice.md) function.
+A handle to the display device that was originally passed by the DirectX graphics subsystem to the display miniport driver's [**DxgkDdiCreateDevice**](nc-d3dkmddi-dxgkddi_createdevice.md) function.
 
 > [!NOTE]
 >
 > This member is set to NULL for a system device.
 
-### -field hContext
+### -field hContext [in]
 
-[in] If **ContextAllocationFlags.SharedAcrossContexts** is set to a value of 0, this member contains the value assigned by the DirectX graphics subsystem for the context that was passed to the [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md) function.
+If **ContextAllocationFlags.SharedAcrossContexts** is set to a value of 0, this member contains the value assigned by the DirectX graphics subsystem for the context that was passed to the [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md) function.
 
 If **ContextAllocationFlags.SharedAcrossContexts** is set to a value of 1, this member should be set to **NULL**.
 
@@ -77,45 +77,45 @@ If **ContextAllocationFlags.SharedAcrossContexts** is set to a value of 1, this 
 >
 > This member is also set to NULL for a system context.
 
-### -field hDriverAllocation
+### -field hDriverAllocation [in]
 
-[in] A handle created by the display miniport driver that identifies the created allocation. The value of this member is subsequently passed as the **Transfer.hAllocation** member of the [**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md) structure that is pointed to by the **pBuildPagingBuffer** parameter of the [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) function.
+A handle created by the display miniport driver that identifies the created allocation. The value of this member is subsequently passed as the **Transfer.hAllocation** member of the [**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md) structure that is pointed to by the **pBuildPagingBuffer** parameter of the [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) function.
 
-### -field Size
+### -field Size [in]
 
-[in] The size, in bytes, that is required for the allocation.
+The size, in bytes, that is required for the allocation.
 
-### -field Alignment
+### -field Alignment [in]
 
-[in] The required alignment, in bytes, for the allocation.
+The required alignment, in bytes, for the allocation.
 
-### -field SupportedSegmentSet
+### -field SupportedSegmentSet [in]
 
-[in] Segment identifiers that the display miniport driver can set in the **PreferredSegment** member for read or write operations.
+Segment identifiers that the display miniport driver can set in the **PreferredSegment** member for read or write operations.
 
-### -field EvictionSegmentSet
+### -field EvictionSegmentSet [in]
 
-[in] Identifiers of segments that can be used for eviction.
+Identifiers of segments that can be used for eviction.
 
-### -field PreferredSegment
+### -field PreferredSegment [in]
 
-[in] A [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that indicates the preferred segment identifiers that the display miniport driver requests that the video memory manager use to page-in the allocation.
+A [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that indicates the preferred segment identifiers that the display miniport driver requests that the video memory manager use to page-in the allocation.
 
-### -field HintedBank
+### -field HintedBank [in]
 
-[in] A [**DXGK_SEGMENTBANKPREFERENCE**](ns-d3dkmddi-_dxgk_segmentbankpreference.md) structure that indicates the bank ordering preferences that the display miniport driver requests that the video memory manager use to page-in the allocation.
+A [**DXGK_SEGMENTBANKPREFERENCE**](ns-d3dkmddi-_dxgk_segmentbankpreference.md) structure that indicates the bank ordering preferences that the display miniport driver requests that the video memory manager use to page-in the allocation.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md) structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager. See Remarks for restrictions on flag values.
+A [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md) structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager. See Remarks for restrictions on flag values.
 
-### -field hAllocation
+### -field hAllocation [out]
 
-[out] A handle that has been assigned by the DirectX graphics subsystem to the allocation. This value is subsequently passed as the **hAllocation** parameter of the  [**DXGKCB_DESTROYCONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_destroycontextallocation.md) function.
+A handle that has been assigned by the DirectX graphics subsystem to the allocation. This value is subsequently passed as the **hAllocation** parameter of the  [**DXGKCB_DESTROYCONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_destroycontextallocation.md) function.
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The index of the physical adapter. This field is available starting in WDDM 2.0.
+The index of the physical adapter. This field is available starting in WDDM 2.0.
 
 ## -remarks
 

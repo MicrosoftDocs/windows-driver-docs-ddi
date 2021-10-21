@@ -49,19 +49,19 @@ This function creates an instance of a sensor in the class extension.
 
 ## -parameters
 
-### -param FxDevice 
+### -param FxDevice [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
-### -param pSensorAttributes 
+### -param pSensorAttributes [in]
 
-[in]
+
 A reference to <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>.
 
-### -param pSensor 
+### -param pSensor [out]
 
-[out]
+
 A reference to a sensor object that is used within the class extension.
 
 ## -returns

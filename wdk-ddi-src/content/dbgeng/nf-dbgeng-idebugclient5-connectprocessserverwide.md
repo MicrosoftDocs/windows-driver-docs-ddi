@@ -49,14 +49,14 @@ The <b>ConnectProcessServerWide</b> method connects to a <a href="/windows-hardw
 
 ## -parameters
 
-### -param RemoteOptions 
+### -param RemoteOptions [in]
 
-[in]
+
 Specifies how the <a href="/windows-hardware/drivers/debugger/d">debugger engine</a> will connect with the process server.  These are the same options passed to the <b>-premote</b> option on the WinDbg and CDB command lines.  For details on the syntax of this string, see <a href="/windows-hardware/drivers/debugger/activating-a-smart-client">Activating a Smart Client</a>.
 
-### -param Server 
+### -param Server [out]
 
-[out]
+
 Receives a handle for the process server.  This handle is used when creating or attaching to processes by using the process server.
 
 ## -returns

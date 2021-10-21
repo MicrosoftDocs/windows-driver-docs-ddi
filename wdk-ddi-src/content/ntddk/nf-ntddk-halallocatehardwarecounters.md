@@ -54,19 +54,19 @@ The [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) r
 
 <p>A pointer to a set of <b>GROUP_AFFINITY</b> structures indicating which processors' counter resources the consumer requests. If this parameter is <b>NULL</b>, then the request indicates an allocation across all processors in the system.</p>
 
-### -param GroupCount 
+### -param GroupCount [in]
 
-[in]
+
 Supplies the number of <b>GROUP_AFFINITY</b> structures provided by the GroupAffinty parameter, or zero if GroupAffinity is <b>NULL</b>.
 
-### -param ResourceList 
+### -param ResourceList [in]
 
-[in]
+
 A pointer to a <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> containing the resources required by the consumer. If this parameter is <b>NULL</b>, then the consumer is requesting exclusive ownership of the performance monitoring unit.
 
-### -param CounterSetHandle 
+### -param CounterSetHandle [out]
 
-[out]
+
 A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

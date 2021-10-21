@@ -49,19 +49,19 @@ The <b>StorPortGetNodeAffinity</b> routine constructs a mask of the active proce
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param NodeNumber 
+### -param NodeNumber [in]
 
-[in]
+
 The NUMA node from which to return the processor mask.
 
-### -param NodeAffinityMask 
+### -param NodeAffinityMask [out]
 
-[out]
+
 A pointer to a variable that holds the affinity mask of the given node.
 
 ## -returns

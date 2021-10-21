@@ -47,13 +47,13 @@ Registers the client driver with the Policy Manager to report hub arrival/remova
 
 ## -parameters
 
-### -param ClientConfig
+### -param ClientConfig [In]
 
-[In] The pointer to a caller-supplied [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) structure. Initialize the structure by calling macro [**USBPM_CLIENT_CONFIG_INIT**](nf-usbpmapi-usbpm_client_config_init.md).
+The pointer to a caller-supplied [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) structure. Initialize the structure by calling macro [**USBPM_CLIENT_CONFIG_INIT**](nf-usbpmapi-usbpm_client_config_init.md).
 
-### -param ClientHandle
+### -param ClientHandle [Out]
 
-[Out] A pointer to a location that receives a handle to the registration operation.
+A pointer to a location that receives a handle to the registration operation.
 
 ## -returns
 

@@ -49,24 +49,24 @@ The <b>ObReferenceObjectByPointerWithTag</b> routine increments the reference co
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the types of access to the object that the caller requests. This parameter is a bitmask of type <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>. The interpretation of this field depends on the object type. Do not use any generic access rights.
 
-### -param ObjectType 
+### -param ObjectType [in, optional]
 
-[in, optional]
+
 A pointer to an opaque structure that specifies the object type. This parameter points to an <a href="/windows-hardware/drivers/kernel/eprocess">OBJECT_TYPE</a> structure. Set <i>ObjectType</i> to <b>NULL</b> or to one of the following pointer values, which are declared in the Wdm.h header file: <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsProcessType</b>, <b>*PsThreadType</b>, <b>*SeTokenObjectType</b>, <b>*TmEnlistmentObjectType</b>, <b>*TmResourceManagerObjectType</b>, <b>*TmTransactionManagerObjectType</b>, or <b>*TmTransactionObjectType</b>. This parameter can be <b>NULL</b> if <i>AccessMode</i> is <b>KernelMode</b>. If <i>ObjectType</i> is not <b>NULL</b>, the routine verifies that the supplied object type matches the object type of the object that the <i>Handle</i> parameter specifies.
 
-### -param AccessMode 
+### -param AccessMode [in]
 
-[in]
+
 Indicates the access mode to use for the access check. Set this parameter to one of the following <b>MODE</b> enumeration values:
 
 <ul>
@@ -81,9 +81,9 @@ Indicates the access mode to use for the access check. Set this parameter to one
 </ul>
 Lower-level drivers should specify <b>KernelMode</b>.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
 ## -returns

@@ -53,9 +53,9 @@ The <b>AddUlong</b> method adds a new <a href="/windows-hardware/drivers/debugge
 
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_ULONG</b>.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 The <b>ULONG</b> value to be written to the data block of the new <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 ## -returns

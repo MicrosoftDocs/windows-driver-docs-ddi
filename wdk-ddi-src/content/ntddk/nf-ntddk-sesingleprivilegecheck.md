@@ -50,14 +50,14 @@ The
 
 ## -parameters
 
-### -param PrivilegeValue 
+### -param PrivilegeValue [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a> value of the privilege being checked.
 
-### -param PreviousMode 
+### -param PreviousMode [in]
 
-[in]
+
 Specifies the previous execution mode, one of <b>UserMode</b> or <b>KernelMode</b>.
 
 ## -returns

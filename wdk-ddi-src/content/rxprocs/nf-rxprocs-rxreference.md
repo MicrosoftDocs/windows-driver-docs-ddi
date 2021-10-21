@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in, out]
 
-[in, out]
+
 A pointer to the reference-counted data structure to be referenced (incremented).
 
 ## -remarks

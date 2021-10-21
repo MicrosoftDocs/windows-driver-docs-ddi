@@ -51,13 +51,13 @@ The <b>pfnGetNumDescriptors</b> function returns the number of descriptors in a 
 
 ## -parameters
 
-### -param hMonitorDescriptorSet
+### -param hMonitorDescriptorSet [in]
 
-[in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset">pfnGetMonitorDescriptorSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset">pfnGetMonitorDescriptorSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
-### -param pNumMonitorDescriptors
+### -param pNumMonitorDescriptors [out]
 
-[out] A SIZE_T-typed variable that receives the number of descriptors in the set.
+A SIZE_T-typed variable that receives the number of descriptors in the set.
 
 ## -returns
 

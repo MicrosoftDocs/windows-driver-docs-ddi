@@ -50,14 +50,14 @@ Frees the slot for the specified create item.
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to the device header on which the create item is attached.
 
-### -param CreateItem 
+### -param CreateItem [in]
 
-[in]
+
 Contains the name of the create item to free.
 
 ## -returns

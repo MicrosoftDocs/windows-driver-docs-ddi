@@ -49,14 +49,14 @@ The<i>MRxStart</i> routine is called by <a href="/windows-hardware/drivers/ifs/t
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that requested the network mini-redirector to start.
 
-### -param RxDeviceObject 
+### -param RxDeviceObject [in, out]
 
-[in, out]
+
 A pointer to the RDBSS_DEVICE_OBJECT structure for this network mini-redirector.
 
 ## -returns

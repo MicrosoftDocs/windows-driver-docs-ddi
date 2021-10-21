@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param MinitapeExtension 
+### -param MinitapeExtension [in]
 
-[in]
+
 Pointer to the driver-specific minitape extension. This is <b>NULL</b> if the miniclass driver did not request a minitape extension when it initialized.
 
-### -param Srb 
+### -param Srb [in]
 
-[in]
+
 Pointer to the SRB for the operation that failed.
 
-### -param TapeStatus 
+### -param TapeStatus [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a> set by the tape class driver. The tape miniclass driver can change the TAPE_STATUS or leave it unchanged.
 
 ## -remarks

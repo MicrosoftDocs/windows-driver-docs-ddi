@@ -49,9 +49,9 @@ The <b>GetEffectiveProcessorType</b> method returns the effective processor type
 
 ## -parameters
 
-### -param Type 
+### -param Type [out]
 
-[out]
+
 Receives the type of the processor.  For possible values, see the <i>Type</i> parameter in <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a>.
 
 ## -returns

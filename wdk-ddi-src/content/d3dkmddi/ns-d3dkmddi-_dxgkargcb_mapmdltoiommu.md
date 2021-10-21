@@ -46,13 +46,13 @@ The **DXGKARGCB_MAPMDLTOIOMMU** structure contains the arguments used by the [**
 
 ## -struct-fields
 
-### -field pMdl
+### -field pMdl [in]
 
-[in] An MDL which must be populated with valid pages. The MDL and the pages it points to must remain unchanged until the corresponding unmap call is made.
+An MDL which must be populated with valid pages. The MDL and the pages it points to must remain unchanged until the corresponding unmap call is made.
 
-### -field hMemoryHandle
+### -field hMemoryHandle [out]
 
-[out] A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DXGKCB_UNMAPMDLFROMIOMMU**](nc-d3dkmddi-dxgkcb_unmapmdlfromiommu.md) function.
+A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DXGKCB_UNMAPMDLFROMIOMMU**](nc-d3dkmddi-dxgkcb_unmapmdlfromiommu.md) function.
 
 ## -remarks
 

@@ -45,21 +45,21 @@ Attempts to find input mapping IDs which are valid for the given device and popu
 
 ## -parameters
 
-### -param PhysicalDeviceObject
+### -param PhysicalDeviceObject [_In_]
 
-[_In_] A pointer to the physical device object (PDO) in the device stack.
+A pointer to the physical device object (PDO) in the device stack.
 
-### -param Buffer
+### -param Buffer [_Inout_]
 
-[_Inout_] A pointer to the buffer of the type [**INPUT_MAPPING_ELEMENT**](ns-wdm-_input_mapping_element.md) that is populated with the input mapping IDs.
+A pointer to the buffer of the type [**INPUT_MAPPING_ELEMENT**](ns-wdm-_input_mapping_element.md) that is populated with the input mapping IDs.
 
-### -param BufferLength
+### -param BufferLength [_In_]
 
-[_In_] The length of the buffer pointed to by _Buffer_.
+The length of the buffer pointed to by _Buffer_.
 
-### -param ReturnLength: 
+### -param ReturnLength: [_Out_opt]
 
-[_Out_opt] Optional. A pointer to store the amount of data written (or data that would be written if a buffer of sufficient size was provided).
+Optional. A pointer to store the amount of data written (or data that would be written if a buffer of sufficient size was provided).
 
 ## -returns
 

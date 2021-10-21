@@ -49,14 +49,14 @@ Miniport drivers call **NdisGetNblTimestampInfo** to retrieve a hardware or soft
 
 ## -parameters
 
-### -param Nbl
+### -param Nbl [_In_]
 
-[_In_]
+
 A pointer to the NBL where the miniport stored the timestamp.
 
-### -param NblTimestamp
+### -param NblTimestamp [_Out_]
 
-[_Out_] 
+
 A pointer to a [**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md) structure. When this function returns, this member contains the timestamp that the miniport stored in the NBL.
 
 

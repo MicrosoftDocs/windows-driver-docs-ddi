@@ -49,9 +49,9 @@ The <b>IoWMIWriteEvent</b> routine delivers a given event to the user-mode WMI c
 
 ## -parameters
 
-### -param WnodeEventItem 
+### -param WnodeEventItem [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event.
 
 ## -returns

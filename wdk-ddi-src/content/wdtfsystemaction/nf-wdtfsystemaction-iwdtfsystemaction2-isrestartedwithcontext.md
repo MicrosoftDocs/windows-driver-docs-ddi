@@ -51,9 +51,9 @@ Gets a value that indicates whether the test script was restarted for a specific
 
 ### -param psContextName
 
-### -param pbIsRestarted 
+### -param pbIsRestarted [out, retval]
 
-[out, retval]
+
 True if the script was restarted with the context; otherwise, false.
 
 

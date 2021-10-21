@@ -52,13 +52,13 @@ The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of 
 
 ## -parameters
 
-### -param MonitorObject
+### -param MonitorObject [in]
 
-[in] The context for the monitor this OPM context should be created on.
+The context for the monitor this OPM context should be created on.
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to a [IDARG_OUT_MONITORGETPHYSICALSIZE](ns-iddcx-idarg_out_monitorgetphysicalsize.md) structure that contains information about the monitor size.
+Pointer to a [IDARG_OUT_MONITORGETPHYSICALSIZE](ns-iddcx-idarg_out_monitorgetphysicalsize.md) structure that contains information about the monitor size.
 
 ## -returns
 

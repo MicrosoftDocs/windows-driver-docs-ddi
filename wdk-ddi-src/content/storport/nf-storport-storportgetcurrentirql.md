@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param Irql
+### -param Irql [out]
 
-[out] Pointer to a KIRQL structure in which the current IRQL will be stored. **Irql** cannot be NULL.
+Pointer to a KIRQL structure in which the current IRQL will be stored. **Irql** cannot be NULL.
 
 ## -returns
 

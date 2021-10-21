@@ -48,13 +48,13 @@ api_name:
 
 ## -parameters
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_ADAPTER_INIT**](ns-iddcx-idarg_in_adapter_init.md) structure containing the information needed to initialize an adapter that will be hosted on a WDF device.
+Pointer to an [**IDARG_IN_ADAPTER_INIT**](ns-iddcx-idarg_in_adapter_init.md) structure containing the information needed to initialize an adapter that will be hosted on a WDF device.
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to an [**IDARG_OUT_ADAPTER_INIT**](ns-iddcx-idarg_out_adapter_init.md) structure in which the IDD returns information about the initialized adapter.
+Pointer to an [**IDARG_OUT_ADAPTER_INIT**](ns-iddcx-idarg_out_adapter_init.md) structure in which the IDD returns information about the initialized adapter.
 
 ## -returns
 

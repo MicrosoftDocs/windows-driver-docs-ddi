@@ -49,24 +49,24 @@ The <b>GetValidRegionVirtual</b> method locates the first valid region of memory
 
 ## -parameters
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 Specifies the address of the beginning of the memory range to search for valid memory.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the size, in bytes, of the memory range to search.
 
-### -param ValidBase 
+### -param ValidBase [out]
 
-[out]
+
 Receives the address of the beginning of the found valid memory.
 
-### -param ValidSize 
+### -param ValidSize [out]
 
-[out]
+
 Receives the size, in bytes, of the valid memory.
 
 ## -returns

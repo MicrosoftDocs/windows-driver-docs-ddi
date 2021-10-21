@@ -49,9 +49,9 @@ This routine terminates the specified silo.
 
 ## -parameters
 
-### -param ServerSilo 
+### -param ServerSilo [in]
 
-[in]
+
 A pointer to the silo being terminated.
 
 ### -param ExitStatus

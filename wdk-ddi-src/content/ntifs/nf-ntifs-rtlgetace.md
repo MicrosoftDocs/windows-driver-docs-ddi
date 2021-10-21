@@ -50,19 +50,19 @@ The <b>RtlGetAce</b> routine obtains a pointer to an access control entry (ACE) 
 
 ## -parameters
 
-### -param Acl 
+### -param Acl [in]
 
-[in]
+
 Pointer to an ACL containing the ACE to be retrieved.
 
-### -param AceIndex 
+### -param AceIndex [in]
 
-[in]
+
 Specifies the ACE to which a pointer is retrieved. A value of zero corresponds to the first ACE in the ACL, 1 to the second ACE, and so on.
 
-### -param Ace 
+### -param Ace [out]
 
-[out]
+
 Pointer to a caller-allocated variable to receive the address of the ACE within the ACL.
 
 ## -returns

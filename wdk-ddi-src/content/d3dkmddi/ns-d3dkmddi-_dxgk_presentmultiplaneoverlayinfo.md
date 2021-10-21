@@ -52,17 +52,17 @@ Specifies info on a VidPN input and an overlay plane to display.
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input that is to be displayed.
+The zero-based video present network (VidPN) source identification number of the input that is to be displayed.
 
-### -field PlaneListCount
+### -field PlaneListCount [in]
 
-[in] The number of overlay planes that are available to display.
+The number of overlay planes that are available to display.
 
-### -field pPlaneList
+### -field pPlaneList [in]
 
-[in] A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
+A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
 
 ## -see-also
 

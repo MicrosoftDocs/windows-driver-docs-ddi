@@ -52,21 +52,21 @@ The DXGKARG_DESTROYALLOCATION structure describes how the display miniport drive
 
 ## -struct-fields
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of elements in the array that <b>pAllocationList</b> specifies, which represents the number of allocations to release.
+The number of elements in the array that <b>pAllocationList</b> specifies, which represents the number of allocations to release.
 
-### -field pAllocationList
+### -field pAllocationList [in]
 
-[in] An array of handles to the allocations to release.
+An array of handles to the allocations to release.
 
-### -field hResource
+### -field hResource [in/out]
 
-[in/out] A handle to a resource. The display miniport driver cleans up this handle if it must release the resource along with the allocations.
+A handle to a resource. The display miniport driver cleans up this handle if it must release the resource along with the allocations.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_destroyallocationflags">DXGK_DESTROYALLOCATIONFLAGS</a> structure that identifies how to release the allocations.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_destroyallocationflags">DXGK_DESTROYALLOCATIONFLAGS</a> structure that identifies how to release the allocations.
 
 ## -remarks
 

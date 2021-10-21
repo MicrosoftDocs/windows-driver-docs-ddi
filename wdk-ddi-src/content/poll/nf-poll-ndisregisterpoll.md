@@ -45,21 +45,21 @@ A miniport driver calls the **NdisRegisterPoll** function to register a Poll obj
 
 ## -parameters
 
-### -param NdisHandle
+### -param NdisHandle [_In_]
 
-[_In_] An NDIS-supplied miniport handle given to the driver in their [*MiniportInitialize*](../ndis/nc-ndis-miniport_initialize.md) callback.
+An NDIS-supplied miniport handle given to the driver in their [*MiniportInitialize*](../ndis/nc-ndis-miniport_initialize.md) callback.
 
-### -param Context
+### -param Context [_In_opt_]
 
-[_In_opt_] A pointer to a block of driver-allocated context that stores information about the Poll object. NDIS passes this context information in calls to [*NdisPoll*](nc-poll-ndis_poll.md) and [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md).
+A pointer to a block of driver-allocated context that stores information about the Poll object. NDIS passes this context information in calls to [*NdisPoll*](nc-poll-ndis_poll.md) and [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md).
 
-### -param Characteristics
+### -param Characteristics [_In_]
 
-[_In_] A pointer to a driver-initialized [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) structure.
+A pointer to a driver-initialized [**NDIS_POLL_CHARACTERISTICS**](ns-poll-ndis_poll_characteristics.md) structure.
 
-### -param PollHandle
+### -param PollHandle [_Out_]
 
-[_Out_] On a successful return this location contains a handle for the new Poll object.
+On a successful return this location contains a handle for the new Poll object.
 
 ## -returns
 

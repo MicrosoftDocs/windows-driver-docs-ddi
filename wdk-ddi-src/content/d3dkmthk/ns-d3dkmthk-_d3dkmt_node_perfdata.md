@@ -47,39 +47,39 @@ Represents performance data collected per engine from an adapter on an interval 
 
 ## -struct-fields
 
-### -field NodeOrdinal
+### -field NodeOrdinal [in]
 
-[in] Node ordinal of the requested engine.
+Node ordinal of the requested engine.
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The physical adapter index in the LDA (linked display adapter) chain.
+The physical adapter index in the LDA (linked display adapter) chain.
 
-### -field Frequency
+### -field Frequency [out]
 
-[out] Clock frequency of the requested engine, represented in hertz.
+Clock frequency of the requested engine, represented in hertz.
 
-### -field MaxFrequency
+### -field MaxFrequency [out]
 
-[out] The max frequency the engine can normally reach in hertz while not overclocked.
+The max frequency the engine can normally reach in hertz while not overclocked.
 
-### -field MaxFrequencyOC
+### -field MaxFrequencyOC [out]
 
-[out] The max frequency the engine can reach with it’s current overclock in hertz.
+The max frequency the engine can reach with it’s current overclock in hertz.
 
-### -field Voltage
+### -field Voltage [out]
 
-[out] Voltage of the requested engine, represented in milli volts.
+Voltage of the requested engine, represented in milli volts.
 
-### -field VoltageMax
+### -field VoltageMax [out]
 
-[out] The max voltage of the engine in milli volts while not overclocked.
+The max voltage of the engine in milli volts while not overclocked.
 
-### -field VoltageMaxOC
+### -field VoltageMaxOC [out]
 
-[out] The max voltage of the engine while overclocked in milli volts.
+The max voltage of the engine while overclocked in milli volts.
 
-### -field MaxTransitionLatency
+### -field MaxTransitionLatency [out]
 
-[out] The max transition latency to change the frequency, in 100 nanoseconds.
+The max transition latency to change the frequency, in 100 nanoseconds.
 

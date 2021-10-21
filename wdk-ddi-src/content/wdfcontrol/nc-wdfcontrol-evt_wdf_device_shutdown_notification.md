@@ -51,9 +51,9 @@ A driver's <i>EvtDeviceShutdownNotification</i> event callback function notifies
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object that the driver initialized by calling <a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
 ## -remarks

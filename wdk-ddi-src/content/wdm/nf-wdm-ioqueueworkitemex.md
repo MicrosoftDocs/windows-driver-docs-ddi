@@ -49,24 +49,24 @@ The <b>IoQueueWorkItemEx</b> routine associates a <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param IoWorkItem 
+### -param IoWorkItem [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure that was allocated by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a> or initialized by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>.
 
-### -param WorkerRoutine 
+### -param WorkerRoutine [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_workitem_routine_ex">WorkItemEx</a> routine.
 
-### -param QueueType 
+### -param QueueType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_work_queue_type">WORK_QUEUE_TYPE</a> value that stipulates the type of system worker thread to handle the work item. Drivers must specify <b>DelayedWorkQueue</b>.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Specifies driver-specific information for the work item. The system passes this value as the <i>Context</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_workitem_routine_ex">WorkItemEx</a>.
 
 ## -remarks
