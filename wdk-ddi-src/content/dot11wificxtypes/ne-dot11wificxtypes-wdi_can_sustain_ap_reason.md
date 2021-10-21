@@ -37,6 +37,9 @@ dev_langs:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx.md). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide.md) is in maintenance mode and will only receive high priority fixes.
+
 The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a [OID_WDI_TASK_START_AP](/windows-hardware/drivers/netcx/oid-wdi-task-start-ap) request.
 
 ## -enum-fields

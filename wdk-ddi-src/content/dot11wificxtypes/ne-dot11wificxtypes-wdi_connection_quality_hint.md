@@ -37,6 +37,9 @@ dev_langs:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx.md). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide.md) is in maintenance mode and will only receive high priority fixes.
+
 The **WDI_CONNECTION_QUALITY_HINT** enumeration defines the Wi-Fi connection quality hints.
 
 ## -enum-fields
