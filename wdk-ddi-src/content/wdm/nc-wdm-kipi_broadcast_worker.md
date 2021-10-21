@@ -49,9 +49,9 @@ The <i>IpiGenericCall</i> routine runs simultaneously on all processors.
 
 ## -parameters
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Supplies the value that was passed to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keipigenericcall">KeIpiGenericCall</a> routine that called <i>IpiGenericCall</i>.
 
 ## -returns

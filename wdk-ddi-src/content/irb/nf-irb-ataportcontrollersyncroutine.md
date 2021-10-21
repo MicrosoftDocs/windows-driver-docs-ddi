@@ -50,9 +50,9 @@ The <b>AtaPortControllerSyncRoutine</b> routine provides synchronized access to 
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
 ### -param CallBackRoutine

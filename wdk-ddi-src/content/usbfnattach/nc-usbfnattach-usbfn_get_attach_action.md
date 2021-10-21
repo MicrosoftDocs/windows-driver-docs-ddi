@@ -49,14 +49,14 @@ The filter driver's implementation that gets invoked when charger is attached to
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
     A pointer to a driver-defined context.
 
-### -param OnAttach 
+### -param OnAttach [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/usbfnattach/ns-usbfnattach-_usbfn_on_attach">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port.
 
 ## -returns

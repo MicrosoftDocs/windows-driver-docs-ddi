@@ -47,17 +47,17 @@ Implemented by the client driver to retrieve the brightness control capabilities
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] A handle to a context block that is associated with a display adapter.
+A handle to a context block that is associated with a display adapter.
 
-### -param ChildUid
+### -param ChildUid [in]
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
-### -param pBrightnessCaps:
+### -param pBrightnessCaps: [out]
 
-[out] Pointer to a [DXGK_BRIGHTNESS_CAPS](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_caps.md) structure that represents the brightness control capabilities of the display panel.
+Pointer to a [DXGK_BRIGHTNESS_CAPS](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_caps.md) structure that represents the brightness control capabilities of the display panel.
 
 ## -returns
 

@@ -53,17 +53,17 @@ The
 
 ## -parameters
 
-### -param classifyHandle 
+### -param classifyHandle [in]
 
-[in]
+
 A handle for the classify request.
      This handle is obtained by calling 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
-### -param filterId 
+### -param filterId [in]
 
-[in]
+
 The value of the 
      <b>FilterId</b> member of the 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
@@ -71,21 +71,21 @@ The value of the
      <b>FilterId</b> member, see 
      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1">FWPS_FILTER1</a>.
 
-### -param flags 
+### -param flags [in]
 
-[in]
+
 Reserved for future use. Set to zero.
 
-### -param writableLayerData 
+### -param writableLayerData [out]
 
-[out]
+
 A data buffer that contains the modifiable data for the layer. The supported data types, which are listed in the following Remarks section, are defined as
      structures. On return, the data can be accessed by casting the void pointer to the appropriate structure
      type.
 
-### -param classifyOut 
+### -param classifyOut [in, out]
 
-[in, out]
+
 Set to the 
      <i>classifyOut</i> parameter of the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function. The 

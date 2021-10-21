@@ -50,16 +50,16 @@ The <b>BdaPropertyGetPinControl</b> function retrieves either the identifier or 
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Points to the IRP for the request to retrieve pin information. The BDA minidriver receives this IRP with either the <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request.
 
 ### -param Property
 
-### -param pulProperty 
+### -param pulProperty [out, optional]
 
-[out, optional]
+
 Points to a variable that receives either the identifier or type of a pin. 
 
 

@@ -50,14 +50,14 @@ The <b>FltCheckAndGrowNameControl</b> routine checks whether the buffer in a <a 
 
 ## -parameters
 
-### -param NameCtrl 
+### -param NameCtrl [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_name_control">FLT_NAME_CONTROL</a> structure containing file name information.
 
-### -param NewSize 
+### -param NewSize [in]
 
-[in]
+
 Required size, in bytes, of the new name control buffer.
 
 ## -returns

@@ -49,19 +49,19 @@ The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to a
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a context supplied by I8042prt.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the UCHAR value to write to an i8042 port.
 
-### -param WaitForACK 
+### -param WaitForACK [in]
 
-[in]
+
 Specifies, if <b>TRUE</b>, that the routine waits until the write is acknowledged by the i8042 port. Otherwise, the routine returns without waiting for an acknowledgment from the port.
 
 ## -returns

@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param SListHead 
+### -param SListHead [in]
 
-[in]
+
 A pointer to the caller-supplied list head to be initialized, which must be in resident
      memory. The structure must be 16-byte aligned on 64-bit platforms.
 

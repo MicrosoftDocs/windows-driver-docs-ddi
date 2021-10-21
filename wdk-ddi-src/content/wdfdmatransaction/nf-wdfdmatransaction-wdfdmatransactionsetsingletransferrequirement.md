@@ -52,14 +52,14 @@ The <b>WdfDmaTransactionSetSingleTransferRequirement</b> method specifies that a
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
-### -param RequireSingleTransfer 
+### -param RequireSingleTransfer [in]
 
-[in]
+
 A Boolean value that, if <b>TRUE</b>, specifies that the DMA transaction requires a single transfer.
 
 ## -remarks

@@ -49,46 +49,46 @@ The <b>NtQueryDirectoryFile</b> routine returns various kinds of information abo
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 A handle returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a> for the file object that represents the directory for which information is being requested. The file object must have been opened for asynchronous I/O if the caller specifies a non-<b>NULL</b> value for <i>Event</i> or <i>ApcRoutine</i>.
 
-### -param Event 
+### -param Event [in, optional]
 
-[in, optional]
+
 An optional handle for a caller-created event. If this parameter is supplied, the caller will be put into a wait state until the requested operation is completed and the given event is set to the Signaled state. This parameter is optional and can be <b>NULL</b>. It must be <b>NULL</b> if the caller will wait for the <i>FileHandle</i> to be set to the Signaled state.
 
-### -param ApcRoutine 
+### -param ApcRoutine [in, optional]
 
-[in, optional]
+
 An address of an optional, caller-supplied APC routine to be called when the requested operation completes. This parameter is optional and can be <b>NULL</b>. If there is an I/O completion object associated with the file object, this parameter must be <b>NULL</b>.
 
-### -param ApcContext 
+### -param ApcContext [in, optional]
 
-[in, optional]
+
 An optional pointer to a caller-determined context area if the caller supplies an APC or if an I/O completion object is associated with the file object. When the operation completes, this context is passed to the APC, if one was specified, or is included as part of the completion message that the I/O Manager posts to the associated I/O completion object. 
 
 This parameter is optional and can be <b>NULL</b>. It must be <b>NULL</b> if <i>ApcRoutine</i> is <b>NULL</b> and there is no I/O completion object associated with the file object.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. For successful calls that return data, the number of bytes written to the <i>FileInformation</i> buffer is returned in the structure's <b>Information</b> member.
 
-### -param FileInformation 
+### -param FileInformation [out]
 
-[out]
+
 A pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the <i>FileInformationClass</i> parameter.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>FileInformation</i>. The caller should set this parameter according to the given <i>FileInformationClass</i>.
 
-### -param FileInformationClass 
+### -param FileInformationClass [in]
 
-[in]
+
 The type of information to be returned about files in the directory. One of the following. 
 
 <table>
@@ -178,23 +178,23 @@ Return a single <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_repa
 </tr>
 </table>
 
-### -param ReturnSingleEntry 
+### -param ReturnSingleEntry [in]
 
-[in]
+
 Set to <b>TRUE</b> if only a single entry should be returned, <b>FALSE</b> otherwise. If this parameter is <b>TRUE</b>, <b>NtQueryDirectoryFile</b> returns only the first entry that is found.
 
-### -param FileName 
+### -param FileName [in, optional]
 
-[in, optional]
+
 An optional pointer to a caller-allocated Unicode string containing the name of a file (or multiple files, if wildcards are used) within the directory specified by <i>FileHandle</i>. This parameter is optional and can be <b>NULL</b>. 
 
 If <i>FileName</i> is not <b>NULL</b>, only files whose names match the <i>FileName</i> string are included in the directory scan. If <i>FileName</i> is <b>NULL</b>, all files are included. 
 
 The <i>FileName</i> is used as a search expression and is captured on the very first call to <b>NtQueryDirectoryFile</b> for a given handle. Subsequent calls to <b>NtQueryDirectoryFile</b> will use the search expression set in the first call. The <i>FileName</i> parameter passed to subsequent calls will be ignored.
 
-### -param RestartScan 
+### -param RestartScan [in]
 
-[in]
+
 Set to <b>TRUE</b> if the scan is to start at the first entry in the directory. Set to <b>FALSE</b> if resuming the scan from a previous call.
 
 When the <b>NtQueryDirectoryFile</b> routine is called for a particular handle, the <i>RestartScan</i> parameter is treated as if it were set to <b>TRUE</b>, regardless of its value. On subsequent <b>NtQueryDirectoryFile</b> calls, the value of the <i>RestartScan</i> parameter is honored.

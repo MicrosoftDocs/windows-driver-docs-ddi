@@ -48,17 +48,17 @@ api_name:
 
 ## -parameters
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be **NULL**.
+Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be **NULL**.
 
-### -param VolumeGuidName
+### -param VolumeGuidName [in/out, optional]
 
-[in/out, optional] Pointer to a caller-allocated [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that receives the volume's GUID name. If **VolumeGuidName** is **NULL** and **BufferSizeNeeded** is not **NULL**, **FltGetVolumeGuidName** stores the buffer size needed for the requested volume GUID in the **BufferSizeNeeded** parameter and returns STATUS_BUFFER_TOO_SMALL. See Remarks.
+Pointer to a caller-allocated [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that receives the volume's GUID name. If **VolumeGuidName** is **NULL** and **BufferSizeNeeded** is not **NULL**, **FltGetVolumeGuidName** stores the buffer size needed for the requested volume GUID in the **BufferSizeNeeded** parameter and returns STATUS_BUFFER_TOO_SMALL. See Remarks.
 
-### -param BufferSizeNeeded
+### -param BufferSizeNeeded [out, optional]
 
-[out, optional] Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. This parameter is optional and can be **NULL**. If **BufferSizeNeeded** is not **NULL** and **FltGetVolumeGuidName** returns STATUS_BUFFER_TOO_SMALL, you can use the value stored in **BufferSizeNeeded** to determine the required size of the structure that **VolumeGuidName** points to.
+Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. This parameter is optional and can be **NULL**. If **BufferSizeNeeded** is not **NULL** and **FltGetVolumeGuidName** returns STATUS_BUFFER_TOO_SMALL, you can use the value stored in **BufferSizeNeeded** to determine the required size of the structure that **VolumeGuidName** points to.
 
 ## -returns
 

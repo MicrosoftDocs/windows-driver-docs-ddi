@@ -53,17 +53,17 @@ in Windows 8 and later.</div><div> </div>The
 
 ## -parameters
 
-### -param NetDmaProviderHandle 
+### -param NetDmaProviderHandle [in]
 
-[in]
+
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
      <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
-### -param ProviderAttributes 
+### -param ProviderAttributes [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_attributes">
      NET_DMA_PROVIDER_ATTRIBUTES</a> structure that defines the DMA device attributes of the DMA

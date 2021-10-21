@@ -52,24 +52,24 @@ The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified ANSI or
 
 ## -parameters
 
-### -param DbcsName 
+### -param DbcsName [in]
 
-[in]
+
 A pointer to the string to be tested.
 
-### -param WildCardsPermissible 
+### -param WildCardsPermissible [in]
 
-[in]
+
 Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
-### -param PathNamePermissible 
+### -param PathNamePermissible [in]
 
-[in]
+
 Set to <b>TRUE</b> if <i>DbcsName</i> can be a full pathname containing backslash characters, <b>FALSE</b> if it can only be a file name.
 
-### -param LeadingBackslashPermissible 
+### -param LeadingBackslashPermissible [in]
 
-[in]
+
 Set to <b>TRUE</b> if a single leading backslash is permissible in the file or pathname, <b>FALSE</b> otherwise.
 
 ## -returns

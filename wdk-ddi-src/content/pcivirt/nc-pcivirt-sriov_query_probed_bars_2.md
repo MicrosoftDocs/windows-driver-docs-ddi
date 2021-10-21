@@ -50,19 +50,19 @@ Queries the data read from
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF that is being queried.
 
-### -param BaseRegisterValues 
+### -param BaseRegisterValues [out]
 
-[out]
+
 A pointer to an array of variables that is bounded by the number of BARs in a PCI device.
 
 ## -returns

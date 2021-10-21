@@ -49,9 +49,9 @@ The <b>FsRtlDeregisterUncProvider</b> routine deregisters a redirector that was 
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 MUP handle returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider">FsRtlRegisterUncProvider</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>.
 
 ## -remarks

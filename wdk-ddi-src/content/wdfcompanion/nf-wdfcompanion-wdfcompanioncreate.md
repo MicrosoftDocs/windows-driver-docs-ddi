@@ -49,15 +49,15 @@ api_name:
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in, out]
 
-[in, out]
 
-### -param DeviceAttributes 
 
-[in, optional]
+### -param DeviceAttributes [in, optional]
 
-### -param Companion 
 
-[out]
+
+### -param Companion [out]
+
+
 

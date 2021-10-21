@@ -49,14 +49,14 @@ This routine creates a buffer from the paged pool and copies the reference strin
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a device extension of the device's PDO.
 
-### -param String 
+### -param String [in, out]
 
-[in, out]
+
 Pointer to a string containing the reference string associated with the PDO.
 
 ## -returns

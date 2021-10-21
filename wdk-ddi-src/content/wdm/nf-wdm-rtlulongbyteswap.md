@@ -49,9 +49,9 @@ The <b>RtlUlongByteSwap</b> routine reverses the ordering of the four bytes in a
 
 ## -parameters
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 A ULONG value to convert to a byte-swapped version.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>HidD_GetNumInputBuffers</b> routine returns the current size, in number o
 
 ## -parameters
 
-### -param HidDeviceObject 
+### -param HidDeviceObject [in]
 
-[in]
+
 Specifies an open handle to a top-level collection.
 
-### -param NumberBuffers 
+### -param NumberBuffers [out]
 
-[out]
+
 Pointer to a caller-allocated variable that the routine uses to return the maximum number of input reports the ring buffer can hold.
 
 ## -returns

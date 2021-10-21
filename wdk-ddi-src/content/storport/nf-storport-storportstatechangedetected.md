@@ -49,14 +49,14 @@ Notifies the Storport port driver of a state change for a logical unit number (L
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
-### -param ChangedEntity 
+### -param ChangedEntity [in]
 
-[in]
+
 Flags indicating the entities whose state has changed. This is a bitwise <b>OR</b> combination of these values:
 
 <table>
@@ -99,14 +99,14 @@ Target state has changed.
 </tr>
 </table>
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 The address of the entity with the state change. <i>Address</i> value cannot change until the callback at  <i>HwStateChange</i> is invoked. If <i>Address</i> is allocated in memory, the memory should be freed by the callback routine.
 
-### -param Attributes 
+### -param Attributes [in]
 
-[in]
+
 Attributes associated with the entity. These are a bitwise <b>OR</b> combination of the following:
 
 <table>
@@ -126,14 +126,14 @@ LUNs are reserved for virtual machine use.
 </tr>
 </table>
 
-### -param HwStateChange 
+### -param HwStateChange [in, optional]
 
-[in, optional]
+
 A pointer to a callback routine supplied by the miniport. If present, the Storport driver will call this routine when the driver is finished processing this state change notification.
 
-### -param HwStateChangeContext 
+### -param HwStateChangeContext [in, optional]
 
-[in, optional]
+
 A miniport-supplied context value that is included when the routine set in <i>HwStateChange</i> is called.
 
 ## -returns

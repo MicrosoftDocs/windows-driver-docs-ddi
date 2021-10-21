@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param AdapterObject 
+### -param AdapterObject [in]
 
-[in]
+
 The object for the adapter that the OPM certificate size will be gotten for.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
 
-### -param pOutArgs 
+### -param pOutArgs [out]
 
-[out]
+
 Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b>.
 
 ## -returns

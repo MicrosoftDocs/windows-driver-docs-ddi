@@ -49,34 +49,34 @@ The <b>MapTransfer</b> routine sets up map registers for an adapter object to ma
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the DMA adapter object returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> and previously passed to <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a> for the current IRP's transfer request.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 Pointer to one of the following: the MDL that describes the buffer at <b>MdlAddress</b> in the current IRP or the MDL that describes the common buffer set up by the driver of a subordinate device (auto-initialize mode).
 
-### -param MapRegisterBase 
+### -param MapRegisterBase [in]
 
-[in]
+
 Specifies the map registers allocated for the DMA operation.  The system passes this value  to the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine.
 
-### -param CurrentVa 
+### -param CurrentVa [in]
 
-[in]
+
 Pointer to the current virtual address of the data to be transferred for a DMA transfer operation.
 
-### -param Length 
+### -param Length [in, out]
 
-[in, out]
+
 Specifies the length, in bytes, to be mapped. If the driver indicated that its device was a bus master with scatter/gather support when it called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>, the value of <i>Length</i> on return from <b>MapTransfer</b> indicates how many bytes were mapped. Otherwise, the input and output values of <i>Length</i> are identical.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Indicates the direction of the transfer operation: <b>TRUE</b> for a transfer from the locked-down buffer to the device.
 
 ## -returns

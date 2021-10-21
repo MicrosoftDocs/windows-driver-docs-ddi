@@ -45,21 +45,21 @@ Maps a range of pages into the address space of the specified domain.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param Permissions
+### -param Permissions [_In_]
 
-[_In_] A ULONG variable that specifies the permissions with which to map the pages.
+A ULONG variable that specifies the permissions with which to map the pages.
 
-### -param Mdl
+### -param Mdl [_In_]
 
-[_In_] A pointer to the MDL to map. The provided MDL must specify a whole number of page.
+A pointer to the MDL to map. The provided MDL must specify a whole number of page.
 
-### -param LogicalAddress
+### -param LogicalAddress [_In_]
 
-[_In_] The logical address at which mapping begins. The address must be page aligned.
+The logical address at which mapping begins. The address must be page aligned.
 
 ## -returns
 

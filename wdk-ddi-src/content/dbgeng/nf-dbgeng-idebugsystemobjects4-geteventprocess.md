@@ -49,9 +49,9 @@ The <b>GetEventProcess</b> method returns the engine process ID for the process 
 
 ## -parameters
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine process ID.
 
 ## -returns

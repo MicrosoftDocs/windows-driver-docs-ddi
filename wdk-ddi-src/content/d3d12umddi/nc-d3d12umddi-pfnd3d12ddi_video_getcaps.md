@@ -55,9 +55,9 @@ The <i>pfnGetCaps</i> callback function defines an entry point for video specifi
 
 The handle of a device.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Values used to get capabilities.
+Values used to get capabilities.
 
 ## -returns
 

@@ -50,9 +50,9 @@ The<b> KsPinGetFirstCloneStreamPointer</b> function returns the first cloned str
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure on which to return the first clone stream pointer.
 
 ## -returns

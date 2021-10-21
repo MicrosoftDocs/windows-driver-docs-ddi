@@ -48,9 +48,9 @@ An indirect display driver (IDD) calls **IddCxMonitorDeparture** to report a mon
 
 ## -parameters
 
-### -param MonitorObject
+### -param MonitorObject [in]
 
-[in] The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that is departing.
+The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that is departing.
 
 ## -returns
 

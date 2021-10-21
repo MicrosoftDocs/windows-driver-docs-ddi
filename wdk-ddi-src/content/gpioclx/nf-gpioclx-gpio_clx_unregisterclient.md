@@ -50,9 +50,9 @@ The <b>GPIO_CLX_UnregisterClient</b> method removes a general-purpose I/O (GPIO)
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
 ## -returns

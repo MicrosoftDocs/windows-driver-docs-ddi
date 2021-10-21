@@ -51,9 +51,9 @@ The **D3DKMTPresent** function submits a present command to the Microsoft Direct
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] **pData**: A pointer to a [**D3DKMT_PRESENT**](ns-d3dkmthk-_d3dkmt_present.md) structure that describes parameters for presenting.
+**pData**: A pointer to a [**D3DKMT_PRESENT**](ns-d3dkmthk-_d3dkmt_present.md) structure that describes parameters for presenting.
 
 ## -returns
 

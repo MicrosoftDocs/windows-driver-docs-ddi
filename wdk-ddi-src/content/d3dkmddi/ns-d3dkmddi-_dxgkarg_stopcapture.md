@@ -52,9 +52,9 @@ The DXGKARG_STOPCAPTURE structure contains the handle to the allocation that is 
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A handle to the allocation that is used for a capture buffer. The display miniport driver stops the capture hardware from using the allocation.
+A handle to the allocation that is used for a capture buffer. The display miniport driver stops the capture hardware from using the allocation.
 
 ## -see-also
 

@@ -50,39 +50,39 @@ The
 
 ## -parameters
 
-### -param ParentDescriptor 
+### -param ParentDescriptor [in, optional]
 
-[in, optional]
+
 Pointer to a buffer containing the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> for the parent directory, if any, containing the new object being created. <i>ParentDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> system access control list (<a href="/windows-hardware/drivers/">SACL</a>) or a <b>NULL</b> discretionary access control list (<a href="/windows-hardware/drivers/">DACL</a>).
 
-### -param ExplicitDescriptor 
+### -param ExplicitDescriptor [in, optional]
 
-[in, optional]
+
 Pointer to a buffer containing the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> specified by the user that is applied to the new object. <i>ExplicitDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> SACL or a <b>NULL</b> DACL.
 
-### -param NewDescriptor 
+### -param NewDescriptor [out]
 
-[out]
+
 Receives a pointer to the returned <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>. <b>SeAssignSecurity</b> allocates the buffer from the paged memory pool.
 
-### -param IsDirectoryObject 
+### -param IsDirectoryObject [in]
 
-[in]
+
 Specifies whether the new object is a directory object. <b>TRUE</b> indicates the object contains other objects.
 
-### -param SubjectContext 
+### -param SubjectContext [in]
 
-[in]
+
 Pointer to a buffer containing the security context of the subject creating the object. This is used to retrieve default security information for the new object, such as the default owner, the primary group, and discretionary access control.
 
-### -param GenericMapping 
+### -param GenericMapping [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure that describes the mapping from each generic right to the implied nongeneric rights.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 This parameter is unused.  The buffer to hold the new security descriptor is always allocated from paged pool.
 
 ## -returns

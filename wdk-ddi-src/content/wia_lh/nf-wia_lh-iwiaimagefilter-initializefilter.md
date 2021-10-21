@@ -49,14 +49,14 @@ The <b>IWiaImageFilter::InitializeFilter</b> method stores the references to <i>
 
 ## -parameters
 
-### -param pWiaItem2 
+### -param pWiaItem2 [in]
 
-[in]
+
 Points to the <b>IWiaItem2</b> item that the image acquisition was initiated for by the application. In the case of <b>IWiaTransfer::Download</b>, it is the WIA item from which we obtained the <b>IWiaTransfer</b> interface, and in the case of the Preview component, it is the item that we pass into the <b>IWiaPreview::GetNewPreview</b> method.
 
-### -param pWiaTransferCallback 
+### -param pWiaTransferCallback [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback</a> interface. The IWiaTransferCallback interface is the application's callback interface, which is passed to <b>IWiaTransfer::Download</b> and <b>IWiaPreview::GetNewPreview</b>.
 
 ## -returns

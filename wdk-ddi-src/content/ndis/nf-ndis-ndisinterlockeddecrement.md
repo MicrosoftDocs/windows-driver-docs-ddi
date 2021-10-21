@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in]
 
-[in]
+
 A pointer to the variable to be decremented.
 
 ## -returns

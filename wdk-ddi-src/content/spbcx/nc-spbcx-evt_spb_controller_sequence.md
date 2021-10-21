@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_SEQUENCE (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoSequence event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 old-location: spb\evtspbcontrolleriosequence.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 09/14/2021
 keywords: ["EVT_SPB_CONTROLLER_SEQUENCE callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
 req.header: spbcx.h
@@ -42,75 +42,70 @@ api_name:
 
 # EVT_SPB_CONTROLLER_SEQUENCE callback function
 
-
 ## -description
 
-An SPB controller driver's <i>EvtSpbControllerIoSequence</i> event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
+An SPB controller driver's *EvtSpbControllerIoSequence* event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 
 ## -parameters
 
-### -param Controller 
+### -param Controller [in]
 
-[in]
-A WDFDEVICE handle to the <a href="/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
-### -param Target 
+A WDFDEVICE handle to the [framework device object](/windows-hardware/drivers/wdf/framework-device-object) that represents the SPB controller.
 
-[in]
-An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
+### -param Target [in]
 
-### -param Request 
 
-[in]
-The <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
+An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect) callback that opened the connection to the target.
 
-### -param TransferCount 
+### -param Request [in]
 
-[in]
+
+The [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the I/O request. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see [Remarks](#remarks).
+
+### -param TransferCount [in]
+
+
 The number of individual transfers in this I/O transfer sequence. Each individual transfer is a simple read or write operation.
 
 ## -remarks
 
-SpbCx manages the I/O queue for the SPB controller. SpbCx calls the SPB controller driver's <i>EvtSpbControllerIoSequence</i> callback function when a client (peripheral driver) of the SPB controller sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request to a target device that is attached to the bus. The <i>Request</i> parameter value is a handle that encapsulates this request.
+SpbCx manages the I/O queue for the SPB controller. SpbCx calls the SPB controller driver's *EvtSpbControllerIoSequence* callback function when a client (peripheral driver) of the SPB controller sends an [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence) request to a target device that is attached to the bus. The *Request* parameter value is a handle that encapsulates this request.
 
-An <i>EvtSpbControllerIoSequence</i> callback does not return a status value. Instead, the SPB controller driver indicates the status of the sequence operation in the completion status for the I/O request.
+An *EvtSpbControllerIoSequence* callback does not return a status value. Instead, the SPB controller driver indicates the status of the sequence operation in the completion status for the I/O request.
 
-An <i>EvtSpbControllerIoSequence</i> callback is asynchronous. That is, the callback function should initiate the requested sequence (or the first part of the sequence) operation and then return without waiting for the operation to complete. Later, the SPB controller driver continues processing the request or completes it during interrupt DPCs or timer DPCs.
+An *EvtSpbControllerIoSequence* callback is asynchronous. That is, the callback function should initiate the requested sequence (or the first part of the sequence) operation and then return without waiting for the operation to complete. Later, the SPB controller driver continues processing the request or completes it during interrupt DPCs or timer DPCs.
 
 The SPB controller driver can retrieve the parameter values from the I/O request to determine the maximum length of the transfers within the sequence.  The driver can use this length to allocate DMA resources that it can reuse for each transfer within the sequence.
 
-The SPB controller driver can call the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters">SpbRequestGetTransferParameters</a> method to retrieve the control parameters and data buffer for each transfer in the sequence.  The buffer is a WDFMEMORY object that, in the current implementation, encapsulates a chained MDL. For more information about chained MDLs, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
+The SPB controller driver can call the [SpbRequestGetTransferParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters) method to retrieve the control parameters and data buffer for each transfer in the sequence. The buffer is a WDFMEMORY object that, in the current implementation, encapsulates a chained MDL. For more information about chained MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 The SPB controller should keep the target device selected for the entire sequence operation. If the target is selected by a device-select line, the line can be asserted continuously from the start of the first transfer in the sequence until the last transfer ends. This line can be asserted as early as the lock operation at the start of the sequence and can remain asserted until the unlock operation at the end of the sequence.
 
-An optional delay can be specified for each transfer in a sequence.  The SPB controller driver is responsible for delaying at least that number of microseconds before starting the transfer.  If the first transfer in the sequence has an associated delay, the driver should first transmit the address or assert the device-select line of the target device, and then delay for the specified time before starting the data transfer.  During this delay, the target should remain selected  but the controller should not run the clock on the bus.
+An optional delay can be specified for each transfer in a sequence. The SPB controller driver is responsible for delaying at least that number of microseconds before starting the transfer. If the first transfer in the sequence has an associated delay, the driver should first transmit the address or assert the device-select line of the target device, and then delay for the specified time before starting the data transfer. During this delay, the target should remain selected but the controller should not run the clock on the bus.
 
-If the target device signals a NACK during a transfer in a sequence, the SPB controller stops the sequence.  (That is, the controller does not retry the failing transfer and does not try to perform the remaining transfers in the sequence.) If this occurs, the SPB controller driver should set the completion status of the I/O request to STATUS_SUCCESS, set the <b>Information</b> field in the I/O status block to the number of bytes actually transferred (not counting the data lost in the transfer that received the NACK), and complete the request.
+If the target device signals a NACK during a transfer in a sequence, the SPB controller stops the sequence. (That is, the controller does not retry the failing transfer and does not try to perform the remaining transfers in the sequence.) If this occurs, the SPB controller driver should set the completion status of the I/O request to STATUS_SUCCESS, set the **Information** field in the I/O status block to the number of bytes actually transferred (not counting the data lost in the transfer that received the NACK), and complete the request.
 
 The SPB controller driver should complete the I/O request with an error status code only if one of the following conditions occurs:
 
-<ul>
-<li>The SPB controller cannot select the target device (for example, a target device on an I²C bus signals a NACK when the controller transmits the address byte).</li>
-<li>The SPB controller driver gets an error status  from a call to a WDF or WDM service while processing the sequence operation.</li>
-</ul>
-To register an <i>EvtSpbControllerIoSequence</i> callback function, call the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a> method.
+* The SPB controller cannot select the target device (for example, a target device on an I<sup>2</sup>C bus signals a NACK when the controller transmits the address byte).
+* The SPB controller driver gets an error status from a call to a WDF or WDM service while processing the sequence operation.
 
+To register an *EvtSpbControllerIoSequence* callback function, call the [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize) method.
 
-#### Examples
+### Examples
 
-To define an <i>EvtSpbControllerIoSequence</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define an *EvtSpbControllerIoSequence* callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-For example, to define an <i>EvtSpbControllerIoSequence</i> callback function that is named <code>MyEvtSpbControllerIoSequence</code>, use the EVT_SPB_CONTROLLER_SEQUENCE function type, as shown in this code example:
+For example, to define an *EvtSpbControllerIoSequence* callback function that is named `MyEvtSpbControllerIoSequence`, use the EVT_SPB_CONTROLLER_SEQUENCE function type, as shown in this code example:
 
-
-```
+```cpp
 EVT_SPB_CONTROLLER_SEQUENCE  MyEvtSpbControllerIoSequence;
 ```
 
 Then, implement your callback function as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 VOID
   MyEvtSpbControllerIoSequence(
@@ -122,39 +117,15 @@ VOID
 { ... }
 ```
 
-The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_SEQUENCE function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the *Use_decl_annotations* annotation to your function definition. The *Use_decl_annotations* annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_SEQUENCE function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for KMDF Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers). For more information about *Use_decl_annotations*, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
-
-
-
-<a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
-<a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters">SpbRequestGetTransferParameters</a>
-
+* [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect)
+* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+* [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read)
+* [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write)
+* [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles)
+* [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles)
+* [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize)
+* [SpbRequestGetTransferParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgettransferparameters)

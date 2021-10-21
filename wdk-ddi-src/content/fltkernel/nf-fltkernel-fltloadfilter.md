@@ -49,9 +49,9 @@ The <b>FltLoadFilter</b> routine dynamically loads a minifilter driver into the 
 
 ## -parameters
 
-### -param FilterName 
+### -param FilterName [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the service name for the minifilter driver.
 
 ## -returns

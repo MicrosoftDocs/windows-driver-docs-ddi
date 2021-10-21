@@ -51,9 +51,9 @@ Miniport drivers call the
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport handle that NDIS passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
@@ -64,24 +64,24 @@ A linked list of
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
-### -param PortNumber 
+### -param PortNumber [in]
 
-[in]
+
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
 
-### -param NumberOfNetBufferLists 
+### -param NumberOfNetBufferLists [in]
 
-[in]
+
 The number of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
      <i>NetBufferLists</i> .
 
-### -param ReceiveFlags 
+### -param ReceiveFlags [in]
 
-[in]
+
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
      

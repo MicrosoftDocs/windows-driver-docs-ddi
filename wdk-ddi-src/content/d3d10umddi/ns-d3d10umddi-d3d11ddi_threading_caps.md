@@ -49,9 +49,9 @@ The D3D11DDI_THREADING_CAPS structure contains display device threading capabili
 
 ## -struct-fields
 
-### -field Caps
+### -field Caps [in]
 
-[in] A valid bitwise OR of values that describe the threading capabilities of the driver. The Direct3D runtime supports the following values.
+A valid bitwise OR of values that describe the threading capabilities of the driver. The Direct3D runtime supports the following values.
 
 |Value|Meaning|
 |--- |--- |

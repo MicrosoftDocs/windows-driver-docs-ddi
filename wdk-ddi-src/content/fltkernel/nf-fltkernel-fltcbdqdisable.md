@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Cbdq 
+### -param Cbdq [in, out]
 
-[in, out]
+
 Pointer to the callback data queue.
 
 ## -returns

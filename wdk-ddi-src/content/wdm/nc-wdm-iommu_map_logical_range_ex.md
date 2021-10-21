@@ -46,39 +46,39 @@ Maps physical address space into the logical address space of an **IOMMU_DMA_DOM
 
 ## -parameters
 
-### -param Domain
+### -param Domain [in]
 
-[in]
+
 A pointer to the **IOMMU_DMA_DOMAIN** that the mapped logical address will belong to. The domain must be of type *DomainTypeTranslate*. For more information about domain types, see [IOMMU_DMA_DOMAIN_TYPE](ne-wdm-iommu_dma_domain_type.md).
 
-### -param Permissions
+### -param Permissions [in]
 
-[in]
+
 A bit-field representing the permissions to be set for the range being mapped. See Remarks for the available permission bits.
 
-### -param PhysicalAddressToMap
+### -param PhysicalAddressToMap [in]
 
-[in]
+
 The [**IOMMU_MAP_PHYSICAL_ADDRESS**](ns-wdm-iommu_map_physical_address.md) that will be mapped to the domain.
 
-### -param ExplicitLogicalAddress
+### -param ExplicitLogicalAddress [in, optional]
 
-[in, optional]
+
 The domain logical address that the physical address should be mapped to. If the domain was not created with a registered logical allocator, then this field is required. If the domain was created with a registered logical allocator that does not support explicit logical address allocation, then this field must be *NULL*.
 
-### -param MinLogicalAddress
+### -param MinLogicalAddress [in, optional]
 
-[in, optional]
+
 The minimum (inclusive) allowable logical address that the physical address should be mapped to. If the domain was not created with a registered logical allocator, then this field will be ignored.
 
-### -param MaxLogicalAddress
+### -param MaxLogicalAddress [in, optional]
 
-[in, optional]
+
 The maximum (inclusive) allowable logical address that the physical address should be mapped to. If the domain was not created with a registered logical allocator, then this field will be ignored.
 
-### -param LogicalAddressOut
+### -param LogicalAddressOut [out]
 
-[out]
+
 Returns the resulting logical address from the mapping.
 
 ## -returns

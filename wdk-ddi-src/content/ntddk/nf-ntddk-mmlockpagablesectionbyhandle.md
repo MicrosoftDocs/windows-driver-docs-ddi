@@ -49,9 +49,9 @@ The <b>MmLockPagableSectionByHandle</b> routine locks a pageable code or data se
 
 ## -parameters
 
-### -param ImageSectionHandle 
+### -param ImageSectionHandle [in]
 
-[in]
+
 The handle to a pageable code or data section. The caller obtained this handle from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagablecodesection">MmLockPagableCodeSection</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a> routine.
 
 ## -remarks

@@ -51,9 +51,9 @@ The <b>OnInitialize</b> method performs any operations that are necessary to ini
 
 ## -parameters
 
-### -param pWdfDriver 
+### -param pWdfDriver [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface for the framework driver object that represents the driver that is loaded in the host process.
 
 ## -returns

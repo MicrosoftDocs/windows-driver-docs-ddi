@@ -51,14 +51,14 @@ The <b>RetrieveSymbolicLink</b> method retrieves the symbolic link name that the
 
 ## -parameters
 
-### -param pSymbolicLink 
+### -param pSymbolicLink [out, optional]
 
-[out, optional]
+
 A pointer to a buffer that receives a <b>null</b>-terminated Unicode character string that represents the symbolic link name. Set this pointer to <b>NULL</b> to obtain the required buffer size.
 
-### -param pdwSymbolicLinkLengthInChars 
+### -param pdwSymbolicLinkLengthInChars [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated location. On input, this location must contain the caller-supplied length of the buffer that <i>pSymbolicLink</i> points to. On output, the location receives the length, in characters, of the symbolic link name, including the <b>NULL</b> terminating character.
 
 ## -returns

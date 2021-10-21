@@ -49,21 +49,21 @@ This routine gets the nth INT64 value from a PROPVARIANT within a collection lis
 
 ## -parameters
 
-### -param pList
+### -param pList [in]
 
-[in] Pointer to the list of PROPVARIANT collection.
+Pointer to the list of PROPVARIANT collection.
 
-### -param pKey
+### -param pKey [in]
 
-[in] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+Pointer to a PROPERTYKEY for the target PROPVARIANT.
 
-### -param Occurrence
+### -param Occurrence [in]
 
-[in] Zero based number of occurrence the PROPERTYKEY must be found before returning the value.
+Zero based number of occurrence the PROPERTYKEY must be found before returning the value.
 
-### -param pRetValue
+### -param pRetValue [out]
 
-[out] Pointer to the output buffer.
+Pointer to the output buffer.
 
 ## -returns
 

@@ -54,9 +54,9 @@ The <b>WdfInterruptEnable</b> method enables a specified device interrupt by cal
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
 ## -remarks

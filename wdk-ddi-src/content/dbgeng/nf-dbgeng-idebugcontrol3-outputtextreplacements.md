@@ -49,14 +49,14 @@ The <b>OutputTextReplacements</b> method prints all the currently defined user-n
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies the output control to use when printing the aliases.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Must be set to DEBUG_OUT_TEXT_REPL_DEFAULT.
 
 ## -returns

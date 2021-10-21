@@ -49,14 +49,14 @@ The <i>NdkSrqNotificationCallback</i> (<i>NDK_FN_SRQ_NOTIFICATION_CALLBACK</i>) 
 
 ## -parameters
 
-### -param SrqNotificationContext 
+### -param SrqNotificationContext [in, optional]
 
-[in, optional]
+
 A context area that was specified in the <i>SrqNotificationContext</i> parameter of the <i>NdkCreateSrq</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_srq">NDK_FN_CREATE_SRQ</a>) function when the SRQ  object was created.
 
-### -param SrqStatus 
+### -param SrqStatus [in]
 
-[in]
+
 Indicates if a fatal SRQ error occurred. The following status codes are defined:
 
 

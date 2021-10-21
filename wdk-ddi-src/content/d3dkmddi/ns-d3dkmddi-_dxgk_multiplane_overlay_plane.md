@@ -66,13 +66,13 @@ If <b>FALSE</b>, the display miniport driver should disable the specified overla
 
 If a plane was enabled during a previous call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>, the driver should continue to display the plane without flipping it.
 
-### -field AllocationSegment
+### -field AllocationSegment [in]
 
-[in] The identifier of a segment that data is read from.
+The identifier of a segment that data is read from.
 
-### -field AllocationAddress
+### -field AllocationAddress [in]
 
-[in] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>AllocationSegment</b> specifies, where the data is read.
+A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>AllocationSegment</b> specifies, where the data is read.
 
 ### -field hAllocation
 

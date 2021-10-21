@@ -64,21 +64,21 @@ The identifier of the segment that contains the source's primary surface.
 
 The address, within the segment identified by <i>PrimarySegment</i>, of the source's primary surface.
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] If non-NULL, a handle that the display miniport driver assigned to the allocation and returned from its call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function. The driver must reprogram graphics hardware according to the specific private properties of the allocation, which include but are not limited to pitch size, swizzle format, and so on.
+If non-NULL, a handle that the display miniport driver assigned to the allocation and returned from its call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function. The driver must reprogram graphics hardware according to the specific private properties of the allocation, which include but are not limited to pitch size, swizzle format, and so on.
 
-### -field ContextCount
+### -field ContextCount [in]
 
-[in] The number of contexts in the array that the <b>Context</b> member specifies.
+The number of contexts in the array that the <b>Context</b> member specifies.
 
-### -field Context
+### -field Context [in]
 
-[in] An array of handles to the contexts that contributed to a display operation.
+An array of handles to the contexts that contributed to a display operation.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
 
 ### -field Duration
 

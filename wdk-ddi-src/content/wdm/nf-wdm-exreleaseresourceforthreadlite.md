@@ -49,14 +49,14 @@ The **ExReleaseResourceForThreadLite** routine releases the input resource of th
 
 ## -parameters
 
-### -param param
+### -param param [in, out]
 
-[in, out]
+
 A pointer to the resource to release.
 
-### -param ResourceThreadId
+### -param ResourceThreadId [in]
 
-[in]
+
 Identifies the thread that originally acquired the resource. If this is not the currently executing thread, the caller must have transferred ownership of the resource by calling the [ExSetResourceOwnerPointerEx](nf-wdm-exsetresourceownerpointerex.md) routine first on the thread that originally acquired the resource.
 
 ## -remarks

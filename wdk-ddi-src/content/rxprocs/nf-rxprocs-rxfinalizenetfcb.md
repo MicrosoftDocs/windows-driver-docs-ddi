@@ -49,26 +49,26 @@ api_name:
 
 ## -parameters
 
-### -param ThisFcb 
+### -param ThisFcb [out]
 
-[out]
+
 A pointer to the FCB structure to finalize.
 
-### -param RecursiveFinalize 
+### -param RecursiveFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be done recursively.
 
-### -param ForceFinalize 
+### -param ForceFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
 If this parameter is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the FCB must be 1 for the FCB to be finalized.
 
-### -param ReferenceCount 
+### -param ReferenceCount [in]
 
-[in]
+
 The reference count on the FCB that will still allow forced finalization.
 
 ## -returns

@@ -45,21 +45,21 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] Pointer to the miniport's hardware device extension.
+Pointer to the miniport's hardware device extension.
 
-### -param ThreadContext
+### -param ThreadContext [in/optional]
 
-[in/optional] Pointer to the thread context received in a prior call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md).
+Pointer to the thread context received in a prior call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md).
 
-### -param Affinity
+### -param Affinity [in]
 
-[in] Pointer to a caller-allocated [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md) structure that specifies the new group number and group-relative affinity mask for the calling thread.
+Pointer to a caller-allocated [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md) structure that specifies the new group number and group-relative affinity mask for the calling thread.
 
-### -param PreviousAffinity
+### -param PreviousAffinity [out/optional]
 
-[out/optional] Pointer to a [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md) structure in which this routine writes the group number and affinity mask for the calling thread prior to the call. This parameter is optional and can be NULL.
+Pointer to a [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md) structure in which this routine writes the group number and affinity mask for the calling thread prior to the call. This parameter is optional and can be NULL.
 
 ## -returns
 

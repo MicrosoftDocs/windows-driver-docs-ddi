@@ -49,9 +49,9 @@ The <b>FltLockUserBuffer</b> routine locks the user buffer for a given I/O opera
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 Pointer to the callback data  structure for the I/O operation (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>).
 
 ## -returns

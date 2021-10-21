@@ -55,19 +55,19 @@ The <b>StreamClassRegisterMinidriver</b> routine registers a stream minidriver w
 
 ## -parameters
 
-### -param Argument1 
+### -param Argument1 [in]
 
-[in]
+
 Points to the first argument to the minidriver's <b>DriverEntry</b> routine.
 
-### -param Argument2 
+### -param Argument2 [in]
 
-[in]
+
 Points to the second argument to the minidriver's <b>DriverEntry</b> routine.
 
-### -param HwInitializationData 
+### -param HwInitializationData [in]
 
-[in]
+
 Points to an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure that provides the information the class driver needs to begin initializing the minidriver.
 
 ## -returns

@@ -49,26 +49,26 @@ The <b>ZwSetInformationEnlistment</b> routine sets information for a specified <
 
 ## -parameters
 
-### -param EnlistmentHandle 
+### -param EnlistmentHandle [in]
 
-[in]
+
 A handle to an enlistment object that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenenlistment">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SET_INFORMATION access to the object.
 
-### -param EnlistmentInformationClass 
+### -param EnlistmentInformationClass [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_enlistment_information_class">ENLISTMENT_INFORMATION_CLASS</a>-typed enumeration value that specifies the type of information to be set. This value must be <b>EnlistmentRecoveryInformation</b>.
 
 The enumeration's <b>EnlistmentBasicInformation</b> and <b>EnlistmentFullInformation</b> values are not used with <b>ZwSetInformationEnlistment</b>.
 
-### -param EnlistmentInformation 
+### -param EnlistmentInformation [in]
 
-[in]
+
 A pointer to a caller-allocated buffer that contains caller-defined recovery information for the enlistment.
 
-### -param EnlistmentInformationLength 
+### -param EnlistmentInformationLength [in]
 
-[in]
+
 The length, in bytes, of the buffer that the <i>EnlistmentInformation</i> parameter points to.
 
 ## -returns

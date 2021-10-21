@@ -50,19 +50,19 @@ The <b>KsOpenDefaultDevice</b> function opens a handle to the first device that 
 
 ## -parameters
 
-### -param Category 
+### -param Category [in]
 
-[in]
+
 Identifier of the PnP category to enumerate.
 
-### -param Access 
+### -param Access [in]
 
-[in]
+
 An ACCESS_MASK bitmask specifying how to access the default device.
 
-### -param DeviceHandle 
+### -param DeviceHandle [out]
 
-[out]
+
 Pointer to a variable that receives the handle to the default device that is opened.
 
 ## -returns

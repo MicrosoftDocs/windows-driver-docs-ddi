@@ -49,14 +49,14 @@ The <b>GetThreadIdByProcessor</b> method returns the engine thread ID for the ke
 
 ## -parameters
 
-### -param Processor 
+### -param Processor [in]
 
-[in]
+
 Specifies the processor corresponding to the desired thread.
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine thread ID.
 
 ## -returns

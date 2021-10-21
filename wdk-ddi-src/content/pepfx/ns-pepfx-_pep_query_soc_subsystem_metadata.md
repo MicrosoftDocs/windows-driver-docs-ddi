@@ -55,29 +55,29 @@ The <b>PEP_QUERY_SOC_SUBSYSTEM_METADATA</b> structure is used with the <b>PEP_DP
 
 ## -struct-fields
 
-### -field PlatformIdleStateIndex
+### -field PlatformIdleStateIndex [in]
 
-[in] The platform idle state index for the SoC subsystem that the OS is querying.
+The platform idle state index for the SoC subsystem that the OS is querying.
 
-### -field SubsystemHandle
+### -field SubsystemHandle [in]
 
-[in] A context pointer that the PEP previously provided on subsystem initialization. The context pointer is optional, so if none was provided then the value will be zero. The PEP is free to ignore this field.
+A context pointer that the PEP previously provided on subsystem initialization. The context pointer is optional, so if none was provided then the value will be zero. The PEP is free to ignore this field.
 
-### -field SubsystemName
+### -field SubsystemName [in]
 
-[in] The name of the subsystem whose metadata is being queried.
+The name of the subsystem whose metadata is being queried.
 
 ### -field Flags
 
 This member is reserved and should be set to zero.
 
-### -field MetadataCount
+### -field MetadataCount [in]
 
-[in] The number of entries in the <b>Metadata</b> array.  The PEP previously provided this value as <b>PEP_QUERY_SOC_SUBSYSTEM.MetadataCount</b>.
+The number of entries in the <b>Metadata</b> array.  The PEP previously provided this value as <b>PEP_QUERY_SOC_SUBSYSTEM.MetadataCount</b>.
 
-### -field Metadata
+### -field Metadata [in/out]
 
-[in/out] An array of pointers to <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
+An array of pointers to <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
 
 ## -see-also
 

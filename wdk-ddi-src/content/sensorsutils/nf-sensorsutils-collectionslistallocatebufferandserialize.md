@@ -49,17 +49,17 @@ This routine allocates a buffer and then serializes a sensor collection list to 
 
 ## -parameters
 
-### -param SourceCollection
+### -param SourceCollection [in]
 
-[in] Pointer to a collection list.
+Pointer to a collection list.
 
-### -param pTargetBufferSizeInBytes
+### -param pTargetBufferSizeInBytes [out]
 
-[out] The allocated buffer size (in bytes).
+The allocated buffer size (in bytes).
 
-### -param pTargetBuffer
+### -param pTargetBuffer [out]
 
-[out] Pointer to the allocated buffer, to hold the serialized data.
+Pointer to the allocated buffer, to hold the serialized data.
 
 ## -returns
 

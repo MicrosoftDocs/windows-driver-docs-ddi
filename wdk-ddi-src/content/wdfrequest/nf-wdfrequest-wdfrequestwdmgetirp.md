@@ -52,9 +52,9 @@ The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="/windows-hardware
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

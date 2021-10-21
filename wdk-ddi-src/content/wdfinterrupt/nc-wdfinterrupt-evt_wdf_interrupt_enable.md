@@ -51,14 +51,14 @@ A driver's <i>EvtInterruptEnable</i> event callback function enables a specified
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
-### -param AssociatedDevice 
+### -param AssociatedDevice [in]
 
-[in]
+
 A handle to the framework device object that the driver passed to <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
 ## -returns

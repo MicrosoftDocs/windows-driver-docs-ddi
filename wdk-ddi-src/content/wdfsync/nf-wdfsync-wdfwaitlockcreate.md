@@ -54,14 +54,14 @@ The <b>WdfWaitLockCreate</b> method creates a framework wait-lock object.
 
 ## -parameters
 
-### -param LockAttributes 
+### -param LockAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the wait-lock object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Lock 
+### -param Lock [out]
 
-[out]
+
 A pointer to a location that receives a handle to a new framework wait-lock object.
 
 ## -returns

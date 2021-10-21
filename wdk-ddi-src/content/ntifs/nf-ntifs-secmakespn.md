@@ -50,28 +50,28 @@ api_name:
 
 ## -parameters
 
-### -param ServiceClass 
+### -param ServiceClass [in]
 
-[in]
+
 A pointer to a Unicode string specifying the service class for the security service provider.
 
-### -param ServiceName 
+### -param ServiceName [in]
 
-[in]
+
 A pointer to a Unicode string specifying the service name for the security service provider.
 
 ### -param OPTIONAL
 
 <p>A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. </p>
 
-### -param Spn 
+### -param Spn [in, out]
 
-[in, out]
+
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
-### -param Allocate 
+### -param Allocate [in]
 
-[in]
+
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
 ## -returns

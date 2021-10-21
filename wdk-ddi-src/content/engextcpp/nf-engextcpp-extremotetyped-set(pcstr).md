@@ -50,9 +50,9 @@ The <b>Set</b> method sets the typed data represented by the <a href="/windows-h
 
 ## -parameters
 
-### -param Expr 
+### -param Expr [in]
 
-[in]
+
 An expression that evaluates to the desired symbol.  This expression is evaluated by the default expression evaluator.
 
 ## -returns

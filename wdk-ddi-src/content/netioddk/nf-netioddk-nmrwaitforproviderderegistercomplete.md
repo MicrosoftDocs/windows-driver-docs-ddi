@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param NmrProviderHandle 
+### -param NmrProviderHandle [in]
 
-[in]
+
 A handle used by the NMR to represent the registration of the provider module. The NMR returns
      this handle to the provider module when the provider module calls the 
      <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function.

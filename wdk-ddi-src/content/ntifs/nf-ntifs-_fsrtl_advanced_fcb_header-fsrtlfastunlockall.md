@@ -52,24 +52,24 @@ The <b>FsRtlFastUnlockAll</b> routine releases all byte-range locks that were ac
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to the file object for the file.
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 Pointer to the process ID for the process.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Optional context pointer to be used when completing IRPs.
 
 ## -returns

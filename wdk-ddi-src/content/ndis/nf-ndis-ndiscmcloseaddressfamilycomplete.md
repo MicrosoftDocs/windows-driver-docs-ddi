@@ -52,14 +52,14 @@ api_name:
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The call manager sets this to NDIS_STATUS_SUCCESS.
 
-### -param NdisAfHandle 
+### -param NdisAfHandle [in]
 
-[in]
+
 Specifies the NDIS-supplied handle passed to the call manager's 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.

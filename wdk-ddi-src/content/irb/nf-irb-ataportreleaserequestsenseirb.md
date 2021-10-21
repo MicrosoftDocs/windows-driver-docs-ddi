@@ -53,14 +53,14 @@ The <b>AtaPortReleaseRequestSenseIrb</b> routine frees the request sense IRB tha
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param Irb 
+### -param Irb [in]
 
-[in]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the request sense IRB.
 
 ## -remarks

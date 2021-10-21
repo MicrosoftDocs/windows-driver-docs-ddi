@@ -49,9 +49,9 @@ The<i> MRxExtendForCache</i> routine is called by <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 ### -param NewFileSize

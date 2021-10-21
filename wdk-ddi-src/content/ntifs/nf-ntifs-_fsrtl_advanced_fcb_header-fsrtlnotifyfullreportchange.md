@@ -52,44 +52,44 @@ The <b>FsRtlNotifyFullReportChange</b> routine completes pending notify change I
 
 ## -parameters
 
-### -param NotifySync 
+### -param NotifySync [in]
 
-[in]
+
 A pointer to an opaque synchronization object for the current volume.
 
-### -param NotifyList 
+### -param NotifyList [in]
 
-[in]
+
 A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
 
-### -param FullTargetName 
+### -param FullTargetName [in]
 
-[in]
+
 A pointer to an ANSI or Unicode string that contains the full pathname of the file.
 
-### -param TargetNameOffset 
+### -param TargetNameOffset [in]
 
-[in]
+
 Offset within the <i>FullTargetName</i> string of the final component of the name.
 
-### -param StreamName 
+### -param StreamName [in, optional]
 
-[in, optional]
+
 Optional pointer to an ANSI or Unicode string that contains a stream name to store with the file name.
 
-### -param NormalizedParentName 
+### -param NormalizedParentName [in, optional]
 
-[in, optional]
+
 Optional pointer to an ANSI or Unicode string that contains the same path as in the <i>FullTargetName</i> string, but with all short names replaced by the corresponding long names.
 
-### -param FilterMatch 
+### -param FilterMatch [in]
 
-[in]
+
 A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
 
-### -param Action 
+### -param Action [in]
 
-[in]
+
 Specifies the action code to store in the user's buffer if present. The action code can be one of the values described following.
 
 <table>
@@ -209,9 +209,9 @@ An object ID for a file could not be tunneled because the file already has an ob
 </tr>
 </table>
 
-### -param TargetContext 
+### -param TargetContext [in, optional]
 
-[in, optional]
+
 Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
 
 ## -remarks

@@ -50,16 +50,16 @@ api_name:
 
 ## -parameters
 
-### -param NdisAdapterHandle 
+### -param NdisAdapterHandle [in]
 
-[in]
+
 Specifies the handle representing the NIC that is the cause of the I/O error to be logged. This
      handle is an input parameter to 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param ErrorCode 
+### -param ErrorCode [in]
 
-[in]
+
 Specifies the NDIS_ERROR_CODE_<i>XXX</i> code that best describes the I/O error as one of the following values:
      
 
@@ -155,9 +155,9 @@ The amount of receive buffer memory that is available is too small to receive da
 
 The network adapter hardware is disabled.
 
-### -param NumberOfErrorValues 
+### -param NumberOfErrorValues [in]
 
-[in]
+
 Specifies the number of ULONG values to follow this parameter.
 
 ### -param ...

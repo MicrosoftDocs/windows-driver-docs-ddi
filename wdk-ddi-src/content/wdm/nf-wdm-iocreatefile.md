@@ -49,74 +49,74 @@ The **IoCreateFile** routine either causes a new file or directory to be created
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [out]
 
-[out]
+
 Pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with [**ZwClose**](../ntifs/nf-ntifs-ntclose.md) once the handle is no longer in use.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information about this parameter and for the list of flag values.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more information and for a description of each structure member.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 Pointer to an [**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md).
 
-### -param AllocationSize 
+### -param AllocationSize [in, optional]
 
-[in, optional]
+
 Optionally specifies the initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-### -param FileAttributes 
+### -param FileAttributes [in]
 
-[in]
+
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) in the Microsoft Windows SDK documentation.
 
-### -param ShareAccess 
+### -param ShareAccess [in]
 
-[in]
+
 Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for more details and for the list of flags.
 
-### -param Disposition 
+### -param Disposition [in]
 
-[in]
+
 Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible values.
 
-### -param CreateOptions 
+### -param CreateOptions [in]
 
-[in]
+
 Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md).
 
-### -param EaBuffer 
+### -param EaBuffer [in, optional]
 
-[in, optional]
+
 For device and intermediate drivers, this parameter must be a **NULL** pointer.
 
-### -param EaLength 
+### -param EaLength [in]
 
-[in]
+
 For device and intermediate drivers, this parameter must be zero.
 
-### -param CreateFileType 
+### -param CreateFileType [in]
 
-[in]
+
 Drivers must set this parameter to **CreateFileTypeNone**.
 
-### -param InternalParameters 
+### -param InternalParameters [in, optional]
 
-[in, optional]
+
 Drivers must set this parameter to **NULL**.
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) for the list of possible options.
 
 ## -returns

@@ -49,14 +49,14 @@ NDIS calls the *MiniportIdleNotification* handler function to start the NDIS sel
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 A handle to a context area that the miniport driver allocated in its [MiniportInitializeEx](nc-ndis-miniport_initialize.md) function. The miniport driver uses this context area to maintain state information for a network adapter.
 
-### -param ForceIdle 
+### -param ForceIdle [in]
 
-[in]
+
 A **BOOLEAN** value that, when set to **TRUE**, specifies that the miniport driver must not veto the idle notification and must continue with the low-power state transition.
 
 For more information about the *ForceIdle* parameter, see the Remarks section.

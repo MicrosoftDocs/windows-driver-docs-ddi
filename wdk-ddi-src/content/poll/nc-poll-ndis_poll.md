@@ -45,13 +45,13 @@ Miniport drivers implement the *NdisPoll* callback function that NDIS will poll 
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_]
 
-[_In_] A pointer to the context information that the driver provided when it created the Poll object.
+A pointer to the context information that the driver provided when it created the Poll object.
 
-### -param PollData
+### -param PollData [_Inout_]
 
-[_Inout_] A pointer to an [**NDIS_POLL_DATA**](ns-poll-ndis_poll_data.md) structure that the driver should use to perform receive indications and send completions. It also contains details about how many NBLs need to be indicated.
+A pointer to an [**NDIS_POLL_DATA**](ns-poll-ndis_poll_data.md) structure that the driver should use to perform receive indications and send completions. It also contains details about how many NBLs need to be indicated.
 
 ## -returns
 

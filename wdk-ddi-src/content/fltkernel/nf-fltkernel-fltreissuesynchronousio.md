@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param InitiatingInstance 
+### -param InitiatingInstance [in]
 
-[in]
+
 An opaque instance pointer to the minifilter driver instance that is reissuing the I/O operation. Must be the same instance that initiated the previous I/O operation. This parameter is required and cannot be set to <b>NULL</b>.
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 A pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure from a previously synchronized I/O operation. This parameter is required and cannot be set to <b>NULL</b>.
 
 ## -returns

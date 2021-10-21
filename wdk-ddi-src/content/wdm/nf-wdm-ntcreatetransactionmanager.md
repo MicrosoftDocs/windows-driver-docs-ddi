@@ -49,14 +49,14 @@ The <b>ZwCreateTransactionManager</b> routine creates a new transaction manager 
 
 ## -parameters
 
-### -param TmHandle 
+### -param TmHandle [out]
 
-[out]
+
 A pointer to a caller-allocated variable that receives a handle to the new <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction manager object. In addition to the access rights that are defined for all kinds of objects (see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify any of the following access right flags for transaction manager objects. 
 
 <table>
@@ -166,19 +166,19 @@ STANDARD_RIGHTS_REQUIRED, TRANSACTIONMANAGER_GENERIC_READ, TRANSACTIONMANAGER_GE
 </tr>
 </table>
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in, optional]
 
-[in, optional]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>.
 
-### -param LogFileName 
+### -param LogFileName [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of a <a href="/windows-hardware/drivers/kernel/using-log-streams-with-ktm">CLFS log file stream</a> to be associated with the transaction manager object. This parameter must be <b>NULL</b> if the <i>CreateOptions</i> parameter is TRANSACTION_MANAGER_VOLATILE. Otherwise, this parameter must be non-<b>NULL</b>. For more information, see the following Remarks section.
 
-### -param CreateOptions 
+### -param CreateOptions [in, optional]
 
-[in, optional]
+
 Optional object creation flags. The following table contains the available flags, which are defined in Ktmtypes.h.
 
 <table>
@@ -258,9 +258,9 @@ For internal use only.
 </tr>
 </table>
 
-### -param CommitStrength 
+### -param CommitStrength [in, optional]
 
-[in, optional]
+
 Reserved for future use. This parameter must be zero.
 
 ## -returns

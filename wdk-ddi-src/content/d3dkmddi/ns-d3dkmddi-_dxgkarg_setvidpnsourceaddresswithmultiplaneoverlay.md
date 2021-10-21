@@ -52,17 +52,17 @@ Contains arguments for the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3
 
 ## -struct-fields
 
-### -field ContextCount
+### -field ContextCount [in]
 
-[in] The number of contexts in the array that the <b>Context</b> member specifies.
+The number of contexts in the array that the <b>Context</b> member specifies.
 
-### -field Context
+### -field Context [in]
 
-[in] An array of handles to the contexts that contributed to a display operation.
+An array of handles to the contexts that contributed to a display operation.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
 
 ### -field VidPnSourceId
 

@@ -49,14 +49,14 @@ The <b>IoOpenDeviceRegistryKey</b> routine returns a handle to a registry state 
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the [physical device object (PDO)](/windows-hardware/drivers/kernel/when-are-wdm-device-objects-created-) of the device instance for which the registry state location is to be opened.
 
-### -param DevInstKeyType 
+### -param DevInstKeyType [in]
 
-[in]
+
 Specifies flags indicating whether to open a device-specific hardware key or a driver-specific software key. The flags also indicate whether the key is relative to the current hardware profile. For more information about hardware and software keys, see  [Introduction to Registry Keys for Drivers](/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers).
 
 The flags are defined as follows:
@@ -84,14 +84,14 @@ Open the device's software key, a device-specific registry state location for st
 
 Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. 
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that represents the access the caller needs to the key. See the [ZwCreateKey](./nf-wdm-zwcreatekey.md) routine for a description of each KEY_*XXX* access right.
 
-### -param DeviceRegKey 
+### -param DeviceRegKey [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that, on successful return, contains a handle to the requested registry state location.
 
 ## -returns

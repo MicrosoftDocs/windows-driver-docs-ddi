@@ -47,27 +47,27 @@ api_name:
 
 ## -parameters
 
-### -param dwCommand 
+### -param dwCommand [in]
 
-[in]
 
-### -param pContext 
 
-[in]
+### -param pContext [in]
 
-### -param dwColor 
 
-[in]
 
-### -param pNofityInfo 
+### -param dwColor [in]
 
-[in]
 
-### -param fdwFlags 
 
-[in]
+### -param pNofityInfo [in]
 
-### -param pdwResult 
 
-[out]
+
+### -param fdwFlags [in]
+
+
+
+### -param pdwResult [out]
+
+
 

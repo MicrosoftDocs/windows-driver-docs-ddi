@@ -50,33 +50,33 @@ The **StorPortValidateRange** routine determines whether a specified range of I/
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
-### -param BusType 
+### -param BusType [in]
 
-[in]
+
 Contains a value of type [**STORAGE_BUS_TYPE**](/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)) that indicates the bus type.
 
 ### -param SystemIoBusNumber
 
 Contains an integer identifying a system bus.
 
-### -param IoAddress 
+### -param IoAddress [in]
 
-[in]
+
 Contains the beginning address of the range of addresses to be validated.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Contains the length in bytes of the range of addresses to be validated.
 
-### -param InIoSpace 
+### -param InIoSpace [in]
 
-[in]
+
 Indicates, when **TRUE**, that the address range is in I/O space. If **FALSE**, the address is in memory space.
 
 ## -returns

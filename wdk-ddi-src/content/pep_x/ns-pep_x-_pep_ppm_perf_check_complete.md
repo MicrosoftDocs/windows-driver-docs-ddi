@@ -55,9 +55,9 @@ The <b>PEP_PPM_PERF_CHECK_COMPLETE</b> structure is used to inform the PEP of de
 
 ## -struct-fields
 
-### -field EvaluationTime
+### -field EvaluationTime [in]
 
-[in] The interrupt time of the performance check evaluation that initiated this notification.
+The interrupt time of the performance check evaluation that initiated this notification.
 
 ## -see-also
 

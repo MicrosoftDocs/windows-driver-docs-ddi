@@ -51,19 +51,19 @@ The <b>SetPipePolicy</b> method sets the WinUsb pipe policy.
 
 ## -parameters
 
-### -param PolicyType 
+### -param PolicyType [in]
 
-[in]
+
 The type of WinUsb pipe policy that the UMDF driver sets.
 
-### -param ValueLength 
+### -param ValueLength [in]
 
-[in]
+
 The size, in bytes, of the buffer that <b>SetPipePolicy</b> supplies for <i>Value</i>.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 A pointer to the buffer that contains the WinUsb pipe policy.
 
 ## -returns

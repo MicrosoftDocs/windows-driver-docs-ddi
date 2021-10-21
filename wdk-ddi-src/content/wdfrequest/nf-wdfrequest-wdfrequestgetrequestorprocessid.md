@@ -51,9 +51,9 @@ The <b>WdfRequestGetRequestorProcessId</b> method retrieves the identifier of th
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

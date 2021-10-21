@@ -49,24 +49,24 @@ The <b>SerCx2CustomTransmitTransactionCreate</b> method creates a custom-transmi
 
 ## -parameters
 
-### -param CustomTransmit 
+### -param CustomTransmit [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a> method to create this object.
 
-### -param CustomTransmitTransactionConfig 
+### -param CustomTransmitTransactionConfig [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_transaction_config">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a> structure. Before calling this method, the caller must call the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2_custom_transmit_transaction_config_init">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</a> function to initialize the structure. This structure contains pointers to a set of event callback routines that are implemented by the serial controller driver. SerCx2 calls these functions to do an I/O transaction that uses the custom data-transfer mechanism to write data to the serial controller to be transmitted.
 
-### -param Attributes 
+### -param Attributes [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes the attributes to assign to the new custom-transmit-transaction object. Before calling this method, the caller must call the <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> function to initialize the structure. This parameter is optional and can be specified as WDF_NO_OBJECT_ATTRIBUTES if the serial controller driver does not need to assign attributes to the object. For more information, see Remarks.
 
-### -param CustomTransmitTransaction 
+### -param CustomTransmitTransaction [out]
 
-[out]
+
 A pointer to a location to which this method writes a <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to the newly created custom-transmit-transaction object. SerCx2 and the serial controller driver use this handle in subsequent calls to refer to this object.
 
 ## -returns

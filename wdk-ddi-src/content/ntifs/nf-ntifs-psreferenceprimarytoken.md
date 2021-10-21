@@ -49,9 +49,9 @@ The <b>PsReferencePrimaryToken</b> routine increments the reference count of the
 
 ## -parameters
 
-### -param Process 
+### -param Process [in, out]
 
-[in, out]
+
 Pointer to the process whose primary token's reference count is to be incremented.
 
 ## -returns

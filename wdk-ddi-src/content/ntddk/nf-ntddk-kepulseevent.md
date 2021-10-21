@@ -48,17 +48,17 @@ The **KePulseEvent** routine atomically sets an event object to a signaled state
 
 ## -parameters
 
-### -param Event
+### -param Event [in, out]
 
-[in, out] A pointer to a dispatcher object of type KEVENT.
+A pointer to a dispatcher object of type KEVENT.
 
-### -param Increment
+### -param Increment [in]
 
-[in] Specifies a boost to apply to the priority of threads which are readied as a result of pulsing the event. Typically set to zero but can be set to one.
+Specifies a boost to apply to the priority of threads which are readied as a result of pulsing the event. Typically set to zero but can be set to one.
 
-### -param Wait
+### -param Wait [in]
 
-[in] Specifies a Boolean value that signifies whether the call to **KePulseEvent** will be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KePulseEvent** call is immediately followed by a call to [KeWaitForMultipleObjects](../wdm/nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](../wdm/nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
+Specifies a Boolean value that signifies whether the call to **KePulseEvent** will be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KePulseEvent** call is immediately followed by a call to [KeWaitForMultipleObjects](../wdm/nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](../wdm/nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 

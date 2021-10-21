@@ -51,9 +51,9 @@ The <code>OEMStartDoc</code> function is called by GDI when it is ready to start
 
 ### -param pso
 
-### -param pwszDocName 
+### -param pwszDocName [in]
 
-[in]
+
 
 ### -param dwJobId
 

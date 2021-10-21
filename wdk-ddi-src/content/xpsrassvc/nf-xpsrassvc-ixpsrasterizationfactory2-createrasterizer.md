@@ -55,9 +55,9 @@ The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can con
 
 ### -param DPIY
 
-### -param nonTextRenderingMode 
+### -param nonTextRenderingMode [in]
 
-[in]
+
 Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001">XPSRAS_RENDERING_MODE</a> enumeration values:
 
 <ul>
@@ -71,9 +71,9 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param textRenderingMode 
+### -param textRenderingMode [in]
 
-[in]
+
 Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following XPSRAS_RENDERING_MODE enumeration values:
 
 <ul>
@@ -87,9 +87,9 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param pixelFormat 
+### -param pixelFormat [in]
 
-[in]
+
 Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001">XPSRAS_PIXEL_FORMAT</a> enumeration values:
 
 <ul>
@@ -107,9 +107,9 @@ XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB
 </li>
 </ul>
 
-### -param backgroundColor 
+### -param backgroundColor [in]
 
-[in]
+
 Allows a caller to select background color. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
 
 <ul>

@@ -52,21 +52,21 @@ The
 
 ## -parameters
 
-### -param _Addend 
+### -param _Addend [in]
 
-[in]
+
 A pointer to the variable for which the value is to be adjusted by the given 
      <i>Increment</i> .
 
-### -param _Increment 
+### -param _Increment [in]
 
-[in]
+
 The value to be added to that at 
      <i>Addend</i> .
 
-### -param _SpinLock 
+### -param _SpinLock [in]
 
-[in]
+
 A pointer to a caller-initialized spin lock.
 
 ## -remarks

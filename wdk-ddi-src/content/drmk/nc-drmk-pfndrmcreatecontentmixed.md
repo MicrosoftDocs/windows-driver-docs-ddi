@@ -49,19 +49,19 @@ This callback function is reserved for system use.
 
 ## -parameters
 
-### -param paContentId 
+### -param paContentId [in]
 
-[in]
+
 This parameter is reserved for system use.
 
-### -param cContentId 
+### -param cContentId [in]
 
-[in]
+
 This parameter is reserved for system use.
 
-### -param pMixedContentId 
+### -param pMixedContentId [out]
 
-[out]
+
 This parameter is reserved for system use.
 
 ## -returns

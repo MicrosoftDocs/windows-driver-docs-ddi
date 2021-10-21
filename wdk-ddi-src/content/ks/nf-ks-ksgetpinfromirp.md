@@ -50,9 +50,9 @@ The<b> KsGetPinFromIrp</b> function returns the AVStream pin object associated w
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> for which to return the associated pin.
 
 ## -returns

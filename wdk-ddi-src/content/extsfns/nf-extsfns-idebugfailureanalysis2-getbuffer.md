@@ -49,19 +49,19 @@ The <b>GetBuffer</b> method searches a <a href="/windows-hardware/drivers/ddi/ex
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param Buf 
+### -param Buf [out]
 
-[out]
+
 A pointer to a buffer that receives the entry's data block.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
 ## -returns

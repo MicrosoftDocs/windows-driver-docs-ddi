@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] A pointer to the context to delete. This parameter is required and cannot be **NULL**.
+A pointer to the context to delete. This parameter is required and cannot be **NULL**.
 
 ## -returns
 

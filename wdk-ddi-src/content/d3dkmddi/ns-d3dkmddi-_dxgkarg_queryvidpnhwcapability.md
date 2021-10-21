@@ -52,21 +52,21 @@ The DXGKARG_QUERYVIDPNHWCAPABILITY structure is used by the display miniport dri
 
 ## -struct-fields
 
-### -field hFunctionalVidPn
+### -field hFunctionalVidPn [in]
 
-[in] A handle to a functional VidPN object for which the hardware capabilities are being queried.
+A handle to a functional VidPN object for which the hardware capabilities are being queried.
 
-### -field SourceId
+### -field SourceId [in]
 
-[in] An integer that identifies a video present source on the display adapter.
+An integer that identifies a video present source on the display adapter.
 
-### -field TargetId
+### -field TargetId [in]
 
-[in] An integer that identifies a video present target on the display adapter.
+An integer that identifies a video present target on the display adapter.
 
-### -field VidPnHWCaps
+### -field VidPnHWCaps [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_hw_capability">D3DKMDT_VIDPN_HW_CAPABILITY</a> structure that describes the capabilities of the display miniport driver to perform display operations without dedicated GPU hardware support.
+A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_hw_capability">D3DKMDT_VIDPN_HW_CAPABILITY</a> structure that describes the capabilities of the display miniport driver to perform display operations without dedicated GPU hardware support.
 
 ## -remarks
 

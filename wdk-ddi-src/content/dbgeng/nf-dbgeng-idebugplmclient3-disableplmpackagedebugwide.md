@@ -49,14 +49,14 @@ Disables a Process Lifecycle Management (PLM) package debug.
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the package.
 
-### -param PackageFullName 
+### -param PackageFullName [in]
 
-[in]
+
 A pointer to the package name.
 
 ## -returns

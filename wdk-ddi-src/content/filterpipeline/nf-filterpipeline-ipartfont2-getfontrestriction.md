@@ -47,9 +47,9 @@ Gets the restrictions for the font.
 
 ## -parameters
 
-### -param pRestriction
+### -param pRestriction [out]
 
-[out]
+
 Restrictions for the font.
 
 ## -returns

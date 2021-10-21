@@ -48,13 +48,13 @@ api_name:
 
 ## -parameters
 
-### -param ContextsSize
+### -param ContextsSize [in]
 
-[in] The size, in bytes, of the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure pointed to by *Contexts*. Set to **sizeof**(FLT_RELATED_CONTEXTS_EX).
+The size, in bytes, of the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure pointed to by *Contexts*. Set to **sizeof**(FLT_RELATED_CONTEXTS_EX).
 
-### -param Contexts
+### -param Contexts [in]
 
-[in] Pointer to the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure.
+Pointer to the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure.
 
 ## -returns
 

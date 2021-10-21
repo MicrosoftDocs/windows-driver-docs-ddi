@@ -49,23 +49,23 @@ The **wiasGetContextFromName** function retrieves the item context for an item n
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param lFlags
 
 Reserved for system use and should be set to 0.
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 Specifies the name of the context that is being searched for.
 
-### -param ppWiasContext 
+### -param ppWiasContext [out]
 
-[out]
+
 Pointer to a memory location that receives the address of the WIA item context.
 
 ## -returns

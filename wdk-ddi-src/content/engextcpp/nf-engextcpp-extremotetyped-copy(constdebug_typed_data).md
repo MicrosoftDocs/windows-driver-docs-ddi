@@ -49,9 +49,9 @@ The <b>Copy</b> method sets the typed data represented by the <a href="/windows-
 
 ## -parameters
 
-### -param Typed 
+### -param Typed [in]
 
-[in]
+
 The typed data description to copy. This becomes the typed data represented by this object.
 
 ## -returns

@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the driver-allocated <a href="/windows-hardware/drivers/ddi/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
 
 ## -see-also

@@ -56,9 +56,9 @@ api_name:
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
 ## -remarks

@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param FileNameInformation 
+### -param FileNameInformation [in]
 
-[in]
+
 Pointer to the file name information (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>) structure. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

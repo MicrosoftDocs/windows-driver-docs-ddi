@@ -53,23 +53,23 @@ api_name:
 
 ## -parameters
 
-### -param guidUIRequest 
+### -param guidUIRequest [in]
 
-[in]
+
 The GUID that identifies the request. This GUID value was created by the IHV Extensions DLL and
      passed through the
      <i>pIhvUIRequest</i> parameter of the call to
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>.
 
-### -param dwByteCount 
+### -param dwByteCount [in]
 
-[in]
+
 The length, in bytes, of the data referenced through the
      <i>pvResponseBuffer</i> parameter.
 
-### -param pvResponseBuffer 
+### -param pvResponseBuffer [in, optional]
 
-[in, optional]
+
 A pointer to the buffer that contains the user data.
 
 ## -returns

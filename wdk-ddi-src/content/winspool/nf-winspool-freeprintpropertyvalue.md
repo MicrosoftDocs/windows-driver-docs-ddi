@@ -50,7 +50,7 @@ Frees the value that is retrieved using the [GetJobNamedPropertyValue](./nf-wins
 
 ## -parameters
 
-### -param pValue 
+### -param pValue [in, out]
 
-[in, out]
+
 Pointer to **PrintPropertyValue** structure that is returned from [GetJobNamedPropertyValue](./nf-winspool-getjobnamedpropertyvalue.md).

@@ -45,13 +45,13 @@ The **NetAdapterWakeSetEapolPacketCapabilities** function sets a network adapter
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
-[_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param Capabilities
+### -param Capabilities [_In_]
 
-[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure that describes the network adapter's EAPOL packet WoL capabilities.
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure that describes the network adapter's EAPOL packet WoL capabilities.
 
 ## -remarks
 

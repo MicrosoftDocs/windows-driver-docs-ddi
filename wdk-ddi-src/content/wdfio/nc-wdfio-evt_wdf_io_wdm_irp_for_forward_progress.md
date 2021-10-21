@@ -51,14 +51,14 @@ A driver's <i>EvtIoWdmIrpForForwardProgress</i> callback function examines an I/
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to an I/O queue object.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to an IRP structure.
 
 ## -returns

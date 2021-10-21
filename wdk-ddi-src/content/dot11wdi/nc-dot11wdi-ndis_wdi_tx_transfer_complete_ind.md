@@ -57,19 +57,19 @@ This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param WifiTxFrameStatus 
+### -param WifiTxFrameStatus [in]
 
-[in]
+
 The TX status, specified as a <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a> value.
 
-### -param pNBL 
+### -param pNBL [in]
 
-[in]
+
 The null-terminated list of frame buffers that have been transferred to the target.
 
 ## -see-also

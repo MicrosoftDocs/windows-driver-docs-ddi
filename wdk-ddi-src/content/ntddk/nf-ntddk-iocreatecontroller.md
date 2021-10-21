@@ -49,9 +49,9 @@ The <b>IoCreateController</b> routine allocates memory for and initializes a con
 
 ## -parameters
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the number of bytes to be allocated for the controller extension.
 
 ## -returns

@@ -47,9 +47,9 @@ Determines whether the given thread is a silo.
 
 ## -parameters
 
-### -param Thread
+### -param Thread [In]
 
-[In] A pointer to the job being examined.
+A pointer to the job being examined.
 
 ## -returns
 

@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param NdisDeviceHandle 
+### -param NdisDeviceHandle [in]
 
-[in]
+
 The handle returned by 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> that identifies
      the device object to be deregistered.

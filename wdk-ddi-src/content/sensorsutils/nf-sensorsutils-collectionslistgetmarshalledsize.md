@@ -47,9 +47,9 @@ This routine is maintained for compatibility. It returns the size needed to acco
 
 ## -parameters
 
-### -param Collection
+### -param Collection [in]
 
-[in] Pointer to a sensor collection list.
+Pointer to a sensor collection list.
 
 ## -returns
 

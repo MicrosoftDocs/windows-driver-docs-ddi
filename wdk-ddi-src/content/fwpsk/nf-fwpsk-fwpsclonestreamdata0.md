@@ -53,40 +53,40 @@ The
 
 ## -parameters
 
-### -param calloutStreamData 
+### -param calloutStreamData [in, out]
 
-[in, out]
+
 A pointer to the original 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a> structure that is to
      have its 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure cloned.
 
-### -param netBufferListPoolHandle 
+### -param netBufferListPoolHandle [in, optional]
 
-[in, optional]
+
 A 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
-### -param netBufferPoolHandle 
+### -param netBufferPoolHandle [in, optional]
 
-[in, optional]
+
 A 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> pool handle that was obtained from a
      previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
-### -param allocateCloneFlags 
+### -param allocateCloneFlags [in]
 
-[in]
+
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
-### -param netBufferListChain 
+### -param netBufferListChain [out]
 
-[out]
+
 A pointer to a location that receives a pointer to a chain of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that describe
      all of the cloned stream data.

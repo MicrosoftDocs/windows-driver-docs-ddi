@@ -49,14 +49,14 @@ Evaluates whether all items in the collection match an SDEL statement.
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 The SDEL query string.
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if all items match; otherwise, false.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>SetLogMask</b> method sets the output mask for the currently open log fil
 
 ## -parameters
 
-### -param Mask 
+### -param Mask [in]
 
-[in]
+
 Specifies the new output mask for the log file.  See <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for details about this value.
 
 ## -returns

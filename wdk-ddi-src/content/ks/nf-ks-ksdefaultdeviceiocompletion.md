@@ -50,14 +50,14 @@ The <b>KsDefaultDeviceIoCompletion</b> function is used to return a default resp
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies the device object dispatched to.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP to return a default response to.
 
 ## -returns

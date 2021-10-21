@@ -50,16 +50,16 @@ api_name:
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
      <a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 Specifies the caller-supplied USHORT that this function transfers to the 
      <i>Register</i> .
 

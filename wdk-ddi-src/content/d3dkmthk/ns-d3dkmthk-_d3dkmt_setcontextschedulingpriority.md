@@ -52,13 +52,13 @@ The D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure describes parameters for setti
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context that scheduling priority is set on.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context that scheduling priority is set on.
 
-### -field Priority
+### -field Priority [in]
 
-[in] The priority level to set for the device context.
+The priority level to set for the device context.
 
 ## -see-also
 

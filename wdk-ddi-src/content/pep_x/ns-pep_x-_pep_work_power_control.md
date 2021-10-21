@@ -59,29 +59,29 @@ The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a hre
 
 A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
-### -field PowerControlCode
+### -field PowerControlCode [in]
 
-[in] A pointer to a GUID value that specifies the power control operation to perform.
+A pointer to a GUID value that specifies the power control operation to perform.
 
 ### -field RequestContext
 
 A pointer to a PEP-defined context value. The PEP might use this value to uniquely identify a power control request message (in case the PEP issues multiple requests with the same control code to the same device).
 
-### -field InBuffer
+### -field InBuffer [in]
 
-[in] A pointer to a driver-allocated input buffer that contains the input parameters for this power control operation.
+A pointer to a driver-allocated input buffer that contains the input parameters for this power control operation.
 
-### -field InBufferSize
+### -field InBufferSize [in]
 
-[in] The size in bytes of the buffer pointed to by <b>InBuffer</b>.
+The size in bytes of the buffer pointed to by <b>InBuffer</b>.
 
-### -field OutBuffer
+### -field OutBuffer [in]
 
-[in] A pointer to a driver-allocated output buffer to which the PEP writes the results of this power control operation.
+A pointer to a driver-allocated output buffer to which the PEP writes the results of this power control operation.
 
-### -field OutBufferSize
+### -field OutBufferSize [in]
 
-[in] The size in bytes of the buffer pointed to by <b>OutBuffer</b>.
+The size in bytes of the buffer pointed to by <b>OutBuffer</b>.
 
 ## -remarks
 

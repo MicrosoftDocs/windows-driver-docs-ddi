@@ -51,26 +51,26 @@ api_name:
 
 ## -parameters
 
-### -param VirtualAddress 
+### -param VirtualAddress [out]
 
-[out]
+
 Pointer to a caller-supplied variable that is set to the converted virtual address if the call is
      successful.
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 Specifies the handle input to 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param PhysicalAddress 
+### -param PhysicalAddress [in]
 
-[in]
+
 Specifies the bus-relative base physical address of the device memory range to be mapped.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to be mapped.
 
 ## -returns

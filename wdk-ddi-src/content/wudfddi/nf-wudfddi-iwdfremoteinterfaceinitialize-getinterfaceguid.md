@@ -51,9 +51,9 @@ The <b>GetInterfaceGuid</b> method retrieves the GUID that identifies a <a href=
 
 ## -parameters
 
-### -param pDeviceInterfaceGuid 
+### -param pDeviceInterfaceGuid [out]
 
-[out]
+
 A pointer to a driver-allocated GUID structure that receives the device interface GUID.
 
 ## -remarks

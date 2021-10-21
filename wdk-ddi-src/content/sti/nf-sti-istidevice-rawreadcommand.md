@@ -49,19 +49,19 @@ The <b>IStiDevice::RawReadCommand</b> method reads command information from a st
 
 ## -parameters
 
-### -param lpBuffer 
+### -param lpBuffer [in, out]
 
-[in, out]
+
 Caller-supplied pointer to a buffer to receive data read from the device.
 
-### -param lpdwNumberOfBytes 
+### -param lpdwNumberOfBytes [in, out]
 
-[in, out]
+
 Caller-supplied pointer to a DWORD. The caller must load the DWORD with the number of bytes in the buffer pointed to by <i>lpBuffer</i>. On return, it will contain the number of bytes actually read.
 
-### -param lpOverlapped 
+### -param lpOverlapped [in, optional]
 
-[in, optional]
+
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 
 ## -returns

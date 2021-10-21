@@ -49,9 +49,9 @@ The <b>EtwActivityIdControl</b> function creates, queries, and sets the current 
 
 ## -parameters
 
-### -param ControlCode 
+### -param ControlCode [in]
 
-[in]
+
 The <i>ControlCode</i> parameter can be one of the following defined values.
 
 <table>
@@ -115,9 +115,9 @@ Copies the current thread's activity identifier. Creates a new identifier and se
 </tr>
 </table>
 
-### -param ActivityId 
+### -param ActivityId [in, out]
 
-[in, out]
+
 The identifier that indicates the activity associated with the event. The <i>ActivityId</i> parameter provides a way to group related events and is used in end-to-end tracing.
 
 ## -returns

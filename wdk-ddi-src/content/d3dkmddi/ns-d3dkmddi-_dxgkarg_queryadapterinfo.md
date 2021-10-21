@@ -52,25 +52,25 @@ The DXGKARG_QUERYADAPTERINFO structure contains parameters for a query.
 
 ## -struct-fields
 
-### -field Type
+### -field Type [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype">DXGK_QUERYADAPTERINFOTYPE</a>-typed value that indicates the type of information to retrieve.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype">DXGK_QUERYADAPTERINFOTYPE</a>-typed value that indicates the type of information to retrieve.
 
-### -field pInputData
+### -field pInputData [in]
 
-[in] A pointer to input information for the query.
+A pointer to input information for the query.
 
 When <b>Type</b> specifies DXGKQAITYPE_UMDRIVERPRIVATE, <b>pInputData</b> points to a proprietary buffer that contains information about the query. When <b>Type</b> specifies DXGKQAITYPE_QUERYSEGMENT, <b>pInputData</b> points to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentin">DXGK_QUERYSEGMENTIN</a> structure. When <b>Type</b> specifies <b>DXGKQAITYPE_POWERCOMPONENTINFO</b>, <b>pInputData</b> points to an input buffer that contains the power component index.
 
 An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVERCAPS value.
 
-### -field InputDataSize
+### -field InputDataSize [in]
 
-[in] The size, in bytes, of the input data that <b>pInputData</b> points to.
+The size, in bytes, of the input data that <b>pInputData</b> points to.
 
-### -field pOutputData
+### -field pOutputData [out]
 
-[out] A pointer to an output buffer that the display miniport driver fills with the required information.
+A pointer to an output buffer that the display miniport driver fills with the required information.
 
 | **Value of Type** | **Contents of output buffer pointed to by pOutputData** |
 |:--|:--|
@@ -81,17 +81,17 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 | **DXGKQAITYPE_NUMPOWERCOMPONENTS** | A UINT value that specifies the number of power components used by the display miniport driver. |
 | **DXGKQAITYPE_POWERCOMPONENTINFO** | Populated [DXGK_POWER_RUNTIME_COMPONENT](./ns-d3dkmddi-_dxgk_power_runtime_component.md) structure that provides information about the nth power component, where n is the component index specified by pInputData in a call to the [DxgkDdiQueryAdapterInfo](./nc-d3dkmddi-dxgkddi_queryadapterinfo.md)  function. |
 
-### -field OutputDataSize
+### -field OutputDataSize [in]
 
-[in] The size, in bytes, of the output data that <b>pOutputData</b> points to.
+The size, in bytes, of the output data that <b>pOutputData</b> points to.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A set of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_queryadapterinfoflags.md">DXGK_QUERYADAPTERINFOFLAGS</a>-typed flags that indicates the query of graphics information.
+A set of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_queryadapterinfoflags.md">DXGK_QUERYADAPTERINFOFLAGS</a>-typed flags that indicates the query of graphics information.
 
-### -field hKmdProcessHandle
+### -field hKmdProcessHandle [in]
 
-[in] A handle, return by the KMD from DxgkDdiCreateProcess. The driver must check the value for NULL. Note that hKmdProcessHandle is created when the first DXG device is created for the adapter, and destroyed when the last adapter handle in the process is closed.
+A handle, return by the KMD from DxgkDdiCreateProcess. The driver must check the value for NULL. Note that hKmdProcessHandle is created when the first DXG device is created for the adapter, and destroyed when the last adapter handle in the process is closed.
 
 ## -see-also
 

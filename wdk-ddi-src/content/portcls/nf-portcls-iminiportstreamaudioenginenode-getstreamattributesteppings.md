@@ -49,19 +49,19 @@ Gets the allowed stepping value for the audio stream attribute.
 
 ## -parameters
 
-### -param targetType 
+### -param targetType [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a> enumerated value that specifies the  target node type.
 
-### -param pKsPropStepLong 
+### -param pKsPropStepLong [out]
 
-[out]
+
 A structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_stepping_long">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the audio stream attribute.
 
-### -param ui32DataSize 
+### -param ui32DataSize [in]
 
-[in]
+
 The allowed stepping value.
 
 ## -returns

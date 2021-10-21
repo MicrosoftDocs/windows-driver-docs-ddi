@@ -52,9 +52,9 @@ The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the us
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the surface that the driver uses as a shared surface or in GDI interoperability.
+A handle to the surface that the driver uses as a shared surface or in GDI interoperability.
 
 ## -see-also
 

@@ -50,14 +50,14 @@ The <b>Set</b> method sets the typed data represented by the <a href="/windows-h
 
 ## -parameters
 
-### -param Expr 
+### -param Expr [in]
 
-[in]
+
 An expression that evaluates to the desired symbol.  This expression is evaluated by the default expression evaluator.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies an additional parameter that can be used when evaluating the <i>Expr</i> expression.  This additional parameter is available in the expression as the <b>$extin</b> pseudo-register.  For example, to specify a process environment block (PEB) at a particular location, you could set <i>Expr</i> to the C++ expression <code>(ntdll!_PEB *)@$extin</code>. This casts the pseudo-register <b>$extin</b> to a pointer to a PEB. Then, set <i>Offset</i> to the location of the PEB instance.
 
 ## -returns

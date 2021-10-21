@@ -49,34 +49,34 @@ The <b>ZwEnumerateValueKey</b> routine gets information about the value entries 
 
 ## -parameters
 
-### -param KeyHandle 
+### -param KeyHandle [in]
 
-[in]
+
 Handle to the registry key that you want to enumerate value entries for. A successful call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a> creates this handle.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The zero-based index of the subkey that you want value information for.
 
-### -param KeyValueInformationClass 
+### -param KeyValueInformationClass [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_value_information_class">KEY_VALUE_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>KeyValueInformation</i> buffer.
 
-### -param KeyValueInformation 
+### -param KeyValueInformation [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated buffer that receives the requested information.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the size, in bytes, of the <i>KeyValueInformation</i> buffer.
 
-### -param ResultLength 
+### -param ResultLength [out]
 
-[out]
+
 Pointer to a variable that receives the size, in bytes, of the value information. If this routine returns STATUS_SUCCESS, the variable indicates the amount of data returned. If this routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, the variable indicates the buffer size that is required to hold the value information.
 
 ## -returns

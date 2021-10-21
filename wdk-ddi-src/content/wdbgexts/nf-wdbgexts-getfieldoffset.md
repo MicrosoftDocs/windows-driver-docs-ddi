@@ -49,19 +49,19 @@ The <b>GetFieldOffset</b> function returns the offset of a member from the begin
 
 ## -parameters
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Specifies the name of the type of the structure.  This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
-### -param Field 
+### -param Field [in]
 
-[in]
+
 Specifies the name of the member in the structure.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
-### -param pOffset 
+### -param pOffset [out]
 
-[out]
+
 Receives the offset of the member from the beginning of an instance of the structure.
 
 ## -returns

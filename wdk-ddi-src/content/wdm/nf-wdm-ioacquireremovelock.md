@@ -58,14 +58,14 @@ IoAcquireRemoveLock (
 
 ## -parameters
 
-### -param RemoveLock
+### -param RemoveLock [in]
 
-[in]
+
 Pointer to an **IO_REMOVE_LOCK** structure that the caller initialized with a previous call to [IoInitializeRemoveLock](nf-wdm-ioinitializeremovelock.md).
 
-### -param Tag
+### -param Tag [in, optional]
 
-[in, optional]
+
 Optionally points to a caller-supplied tag that identifies this instance of acquiring the remove lock. For example, a driver Dispatch routine typically sets this parameter to a pointer to the IRP the routine is processing.
 
 If a driver specifies a *Tag* on a call to **IoAcquireRemoveLock**, the driver must supply the same *Tag* in the corresponding call to [IoReleaseRemoveLock](nf-wdm-ioreleaseremovelock.md).

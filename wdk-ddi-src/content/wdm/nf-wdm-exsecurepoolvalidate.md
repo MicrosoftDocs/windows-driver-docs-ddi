@@ -45,24 +45,24 @@ The **ExSecurePoolValidate** function validates that the secure pool provided is
 
 ## -parameters
 
-### -param SecurePoolHandle
+### -param SecurePoolHandle [in]
 
-[in]
+
 Supplies the handle for the heap.
 
-### -param Tag
+### -param Tag [in]
 
-[in]
+
 Supplies the pool tag for this allocation.
 
-### -param Allocation
+### -param Allocation [in]
 
-[in]
+
 Supplies a pointer to the allocation it wants to validate.
 
-### -param Cookie
+### -param Cookie [in]
 
-[in]
+
 Supplies a cookie value used for identifying this allocation.
 
 ## -returns

@@ -51,14 +51,14 @@ The
 
 ## -parameters
 
-### -param pBrb 
+### -param pBrb [in, out]
 
-[in, out]
+
 Pointer to the BRB to initialize.
 
-### -param brbType 
+### -param brbType [in]
 
-[in]
+
 Specifies a value from the 
      <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a> enumeration to initialize the BRB
      with.

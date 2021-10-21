@@ -55,29 +55,29 @@ The <b>PEP_PPM_QUERY_PERF_CAPABILITIES</b> structure describes the performance c
 
 ## -struct-fields
 
-### -field HighestPerformance
+### -field HighestPerformance [out]
 
-[out] The highest performance level in platform-specific units. For more information, see Remarks.
+The highest performance level in platform-specific units. For more information, see Remarks.
 
-### -field NominalPerformance
+### -field NominalPerformance [out]
 
-[out] The nominal performance level in platform-specific units. For more information, see Remarks.
+The nominal performance level in platform-specific units. For more information, see Remarks.
 
-### -field LowestNonlinearPerformance
+### -field LowestNonlinearPerformance [out]
 
-[out] The lowest nonlinear performance level in platform-specific units. For more information, see Remarks.
+The lowest nonlinear performance level in platform-specific units. For more information, see Remarks.
 
-### -field LowestPerformance
+### -field LowestPerformance [out]
 
-[out] The lowest performance level in platform-specific units. For more information, see Remarks.
+The lowest performance level in platform-specific units. For more information, see Remarks.
 
-### -field DomainId
+### -field DomainId [out]
 
-[out] The domain ID of the processor performance domain.
+The domain ID of the processor performance domain.
 
-### -field DomainMembers
+### -field DomainMembers [out]
 
-[out] The number of processors in this performance domain.
+The number of processors in this performance domain.
 
 ## -remarks
 

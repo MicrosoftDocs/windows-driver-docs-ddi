@@ -50,9 +50,9 @@ loop structure implicitly uses.
 
 ## -parameters
 
-### -param ppNewEnum 
+### -param ppNewEnum [out]
 
-[out]
+
 The iteration variable.
 
 ## -returns

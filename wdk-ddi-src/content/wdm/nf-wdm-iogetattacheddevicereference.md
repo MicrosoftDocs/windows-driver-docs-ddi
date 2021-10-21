@@ -49,9 +49,9 @@ The <b>IoGetAttachedDeviceReference</b> routine returns a pointer to the highest
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for which the topmost attached device object is retrieved.
 
 ## -returns

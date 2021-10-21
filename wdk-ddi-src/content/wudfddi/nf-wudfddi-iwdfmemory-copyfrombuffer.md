@@ -51,16 +51,16 @@ The <b>CopyFromBuffer</b> method safely copies data from the specified source bu
 
 ## -parameters
 
-### -param DestOffset 
+### -param DestOffset [in]
 
-[in]
+
 The offset, in bytes, into the memory object to start to copy data to.
 
 ### -param SourceBuffer
 
-### -param NumOfBytesToCopyFrom 
+### -param NumOfBytesToCopyFrom [in]
 
-[in]
+
 The number of bytes to copy from the buffer that <i>pSourceBuffer</i> points to.
 
 

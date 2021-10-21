@@ -49,29 +49,29 @@ The <b>AddSyntheticModule</b>  method adds a synthetic module to the module list
 
 ## -parameters
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 Specifies the location in the process's virtual address space of the base of the synthetic module.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the size in bytes of the synthetic module.
 
-### -param ImagePath 
+### -param ImagePath [in]
 
-[in]
+
 Specifies the image name of the synthetic module.  This is the name that will be returned as the name of the executable file for the synthetic module.  The full path should be included if known.
 
-### -param ModuleName 
+### -param ModuleName [in]
 
-[in]
+
 Specifies the module name for the synthetic module.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to DEBUG_ADDSYNTHMOD_DEFAULT.
 
 ## -returns

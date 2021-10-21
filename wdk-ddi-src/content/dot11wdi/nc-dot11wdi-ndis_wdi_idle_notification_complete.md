@@ -54,9 +54,9 @@ This is a control path callback inside <a href="/windows-hardware/drivers/ddi/do
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport handle.
 
 ## -see-also

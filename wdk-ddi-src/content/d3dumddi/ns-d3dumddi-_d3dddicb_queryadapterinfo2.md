@@ -51,11 +51,11 @@ Contains information that describes the graphics adapter.
 
 The type of query.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [out]
 
-[out] A pointer to a buffer that the display miniport driver can fill with information about the graphics adapter.
+A pointer to a buffer that the display miniport driver can fill with information about the graphics adapter.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in/out]
 
-[in/out] The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 

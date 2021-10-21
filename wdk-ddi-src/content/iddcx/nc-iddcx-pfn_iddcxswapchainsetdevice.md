@@ -46,17 +46,17 @@ product:
 
 ## -parameters
 
-### -param DriverGlobals
+### -param DriverGlobals [in]
 
-[in] Contains system-defined per-driver data.
+Contains system-defined per-driver data.
 
-### -param SwapChainObject
+### -param SwapChainObject [in]
 
-[in] The swap-chain object passed to the EVT_IDD_CX_MONITOR_SET_SWAPCHAIN call.
+The swap-chain object passed to the EVT_IDD_CX_MONITOR_SET_SWAPCHAIN call.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Input arguments to the function.
+Input arguments to the function.
 
 ## -returns
 

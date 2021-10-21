@@ -48,54 +48,54 @@ api_name:
 
 ## -parameters
 
-### -param SecurityDescriptor
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that describes the security descriptor protecting the object being accessed.
 
-### -param SubjectSecurityContext
+### -param SubjectSecurityContext [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_security_subject_context">SECURITY_SUBJECT_CONTEXT</a> structure that specifies the subject's captured security context.
 
-### -param SubjectContextLocked 
+### -param SubjectContextLocked [in]
 
-[in]
+
 Indicates whether the user's subject context is locked, so that it does not have to be locked again.
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> bitmask for the access rights that the caller is attempting to acquire.  If the caller sets the MAXIMUM_ALLOWED bit, the routine performs all DACL checks. However, the routine does not do any privilege checks, unless the caller specifically requests them by setting the ACCESS_SYSTEM_SECURITY or WRITE_OWNER bits.
 
-### -param PreviouslyGrantedAccess
+### -param PreviouslyGrantedAccess [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> bitmask of access rights already granted, such as access rights granted as a result of holding a privilege.
 
-### -param Privileges
+### -param Privileges [out]
 
-[out]
+
 Pointer to a caller-supplied variable to be set to the address of the <a href="/previous-versions/windows/hardware/drivers/ff551860(v=vs.85)">PRIVILEGE_SET</a> structure that will be used as part of the access validation, or this parameter can be <b>NULL</b>. The returned buffer, if any, must be released by the caller with <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefreeprivileges">SeFreePrivileges</a>.
 
-### -param GenericMapping
+### -param GenericMapping [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure associated with this object type. This value specifies the specific access rights implied by each GENERIC_<i>XXX</i> access right.
 
-### -param AccessMode
+### -param AccessMode [in]
 
-[in]
+
 Specifies the access mode to be used in the check, either <b>UserMode</b> or <b>KernelMode</b>.
 
-### -param GrantedAccess
+### -param GrantedAccess [out]
 
-[out]
+
 Pointer to a returned access mask indicating the granted access. If the caller specifies MAXIMUM_ALLOWED, and the DACL in <i>SecurityDescriptor</i> is <b>NULL</b>, then the routine returns GENERIC_ALL plus any additional access the caller explicitly requests.
 
-### -param AccessStatus
+### -param AccessStatus [out]
 
-[out]
+
 Pointer to the status value indicating why access was denied.
 
 ## -returns

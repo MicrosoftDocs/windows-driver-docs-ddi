@@ -49,19 +49,19 @@ The <b>IoGetDeviceInterfaceAlias</b> routine returns the alias device interface 
 
 ## -parameters
 
-### -param SymbolicLinkName 
+### -param SymbolicLinkName [in]
 
-[in]
+
 Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a> or in a PnP notification structure.
 
-### -param AliasInterfaceClassGuid 
+### -param AliasInterfaceClassGuid [in]
 
-[in]
+
 Pointer to a GUID specifying the interface class of the alias to retrieve.
 
-### -param AliasSymbolicLinkName 
+### -param AliasSymbolicLinkName [out]
 
-[out]
+
 Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
 
 ## -returns

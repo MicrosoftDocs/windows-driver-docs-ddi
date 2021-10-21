@@ -49,9 +49,9 @@ The <b>SetCommand</b>  method sets the command that is executed when a breakpoin
 
 ## -parameters
 
-### -param Command 
+### -param Command [in]
 
-[in]
+
 The command string that is executed when the breakpoint is triggered.
 
 ## -returns

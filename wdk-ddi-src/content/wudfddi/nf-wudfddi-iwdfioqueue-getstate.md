@@ -51,14 +51,14 @@ The <b>GetState</b> method retrieves the state of an I/O queue.
 
 ## -parameters
 
-### -param pulNumOfRequestsInQueue 
+### -param pulNumOfRequestsInQueue [out]
 
-[out]
+
 A pointer to a variable that receives the number of I/O requests that are currently in the I/O queue (that is, that have not been delivered to the driver).
 
-### -param pulNumOfRequestsInDriver 
+### -param pulNumOfRequestsInDriver [out]
 
-[out]
+
 A pointer to a variable that receives the number of I/O requests that the driver accepted from the I/O queue but that the driver has not completed, canceled, or forwarded to another I/O queue.
 
 ## -returns

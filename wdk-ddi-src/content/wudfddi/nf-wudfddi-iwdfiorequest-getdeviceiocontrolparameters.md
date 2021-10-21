@@ -51,23 +51,23 @@ The <b>GetDeviceIoControlParameters</b> method retrieves the request parameters 
 
 ## -parameters
 
-### -param pControlCode 
+### -param pControlCode [out]
 
-[out]
+
 A pointer to a variable that receives the control code that identifies the specific operation to be performed.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.
 
-### -param pInBufferSize 
+### -param pInBufferSize [out]
 
-[out]
+
 A pointer to a variable that receives the size, in bytes, of the input data buffer for the request. To retrieve the input data buffer, the driver calls the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFIoRequest::GetInputMemory</a> method.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.
 
-### -param pOutBufferSize 
+### -param pOutBufferSize [out]
 
-[out]
+
 A pointer to a variable that receives the size, in bytes, of the output data buffer for the request. To retrieve the output data buffer, the driver calls the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a> method.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.

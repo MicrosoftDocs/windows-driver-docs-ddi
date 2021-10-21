@@ -51,9 +51,9 @@ A driver's <b>OnArmWakeFromSx</b> event callback function arms (that is, enables
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
 ## -returns

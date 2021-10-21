@@ -51,26 +51,26 @@ The filter engine calls a callout's
 
 ## -parameters
 
-### -param layerId 
+### -param layerId [in]
 
-[in]
+
 The run-time identifier for the filtering layer at which the data flow is being terminated. For
      more information, see 
      <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer
      Identifiers</a>.
 
-### -param calloutId 
+### -param calloutId [in]
 
-[in]
+
 The run-time identifier for the callout in the filter engine. This is the same identifier that was
      returned when the callout driver called either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
-### -param flowContext 
+### -param flowContext [in]
 
-[in]
+
 The most recent context that has been associated with the data flow by a call to the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowassociatecontext0">FwpsFlowAssociateContext0</a> function.
 

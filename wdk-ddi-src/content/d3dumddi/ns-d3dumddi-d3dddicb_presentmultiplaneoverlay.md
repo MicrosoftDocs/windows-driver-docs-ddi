@@ -49,25 +49,25 @@ Describes multiplane overlay allocations that content is copied to and from.
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to the context that the driver submits the copy operation to. The user-mode display driver previously created this context by calling the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function.
+A handle to the context that the driver submits the copy operation to. The user-mode display driver previously created this context by calling the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function.
 
-### -field BroadcastContextCount
+### -field BroadcastContextCount [in]
 
-[in] The number of additional contexts in the array that the <b>BroadcastContext</b> member specifies.
+The number of additional contexts in the array that the <b>BroadcastContext</b> member specifies.
 
-### -field BroadcastContext
+### -field BroadcastContext [in]
 
-[in] An array of handles to the additional contexts to broadcast the current present operation to. The <b>D3DDDI_MAX_BROADCAST_CONTEXT</b> constant, which is defined as 64, defines the maximum number of additional contexts that the user-mode display driver can broadcast the current present operation to. 
+An array of handles to the additional contexts to broadcast the current present operation to. The <b>D3DDDI_MAX_BROADCAST_CONTEXT</b> constant, which is defined as 64, defines the maximum number of additional contexts that the user-mode display driver can broadcast the current present operation to. 
 
 Broadcasting is supported only for flip operations. To broadcast a flip operation, the display miniport driver must support memory mapped I/O (MMIO)-based flips. To indicate support of MMIO flips, the display miniport driver sets the <b>FlipOnVSyncMmIo</b> bit-field flag in the <b>FlipCaps</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
 
 The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context.
 
-### -field AllocationInfoCount
+### -field AllocationInfoCount [in]
 
-[in] The number of allocations in the array that the <b>AllocationInfo</b> member specifies. The maximum number is 16, the value of the <b>D3DDDI_MAX_MULTIPLANE_OVERLAY_ALLOCATIONS</b> constant.
+The number of allocations in the array that the <b>AllocationInfo</b> member specifies. The maximum number is 16, the value of the <b>D3DDDI_MAX_MULTIPLANE_OVERLAY_ALLOCATIONS</b> constant.
 
 ### -field AllocationInfo
 

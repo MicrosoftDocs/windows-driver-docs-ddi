@@ -52,17 +52,17 @@ The D3DKMT_FLIPQUEUEINFO structure describes information about the graphics adap
 
 ## -struct-fields
 
-### -field MaxHardwareFlipQueueLength
+### -field MaxHardwareFlipQueueLength [out]
 
-[out] The maximum number of flip operations that can be queued for hardware-flip queuing.
+The maximum number of flip operations that can be queued for hardware-flip queuing.
 
-### -field MaxSoftwareFlipQueueLength
+### -field MaxSoftwareFlipQueueLength [out]
 
-[out] The maximum number of flip operations that can be queued for software-flip queuing  on hardware that supports memory mapped I/O (MMIO)-based flips.
+The maximum number of flip operations that can be queued for software-flip queuing  on hardware that supports memory mapped I/O (MMIO)-based flips.
 
-### -field FlipFlags
+### -field FlipFlags [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_flipinfoflags">D3DKMT_FLIPINFOFLAGS</a> structure that indicates, in bit-field flags, flipping capabilities.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_flipinfoflags">D3DKMT_FLIPINFOFLAGS</a> structure that indicates, in bit-field flags, flipping capabilities.
 
 ## -see-also
 

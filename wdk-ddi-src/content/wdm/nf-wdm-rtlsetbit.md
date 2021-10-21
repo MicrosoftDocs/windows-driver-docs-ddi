@@ -49,14 +49,14 @@ The <b>RtlSetBit</b> routine sets the specified bit in a bitmap to one.
 
 ## -parameters
 
-### -param BitMapHeader 
+### -param BitMapHeader [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
-### -param BitNumber 
+### -param BitNumber [in]
 
-[in]
+
 Specifies the zero-based index of the bit within the bitmap. The routine sets this bit to one.
 
 ## -returns

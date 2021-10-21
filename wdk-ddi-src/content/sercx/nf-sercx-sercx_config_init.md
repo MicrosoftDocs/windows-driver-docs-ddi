@@ -49,9 +49,9 @@ The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="/windows-hardware/d
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <b>SERCX_CONFIG</b> structure that is to be initialized.
 
 ## -see-also

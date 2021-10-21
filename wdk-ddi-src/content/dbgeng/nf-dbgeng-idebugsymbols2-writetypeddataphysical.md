@@ -49,34 +49,34 @@ The <b>WriteTypedDataPhysical</b> method writes the value of a variable in the t
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the physical address in the target computer's memory of the variable.
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module containing the type of the variable.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the type of the variable.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the buffer containing the data to be written.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be written.
 
-### -param BytesWritten 
+### -param BytesWritten [out, optional]
 
-[out, optional]
+
 Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

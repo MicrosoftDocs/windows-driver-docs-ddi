@@ -2,13 +2,13 @@
 UID: NS:d3dkmddi._DXGKARGCB_MAPMDLTOIOMMU
 title: DXGKARGCB_MAPMDLTOIOMMU (d3dkmddi.h)
 description: The DXGKARGCB_MAPMDLTOIOMMU structure contains the arguments used by the DXGKCB_MAPMDLTOIOMMU callback function, to map a memory descriptor list (MDL) to the IOMMU.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_MAPMDLTOIOMMU structure"]
 ms.keywords: _DXGKARGCB_MAPMDLTOIOMMU, DXGKARGCB_MAPMDLTOIOMMU, *INOUT_PDXGKARGCB_MAPMDLTOIOMMU
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,13 +46,13 @@ The **DXGKARGCB_MAPMDLTOIOMMU** structure contains the arguments used by the [**
 
 ## -struct-fields
 
-### -field pMdl
+### -field pMdl [in]
 
-[in] An MDL which must be populated with valid pages. The MDL and the pages it points to must remain unchanged until the corresponding unmap call is made.
+An MDL which must be populated with valid pages. The MDL and the pages it points to must remain unchanged until the corresponding unmap call is made.
 
-### -field hMemoryHandle
+### -field hMemoryHandle [out]
 
-[out] A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DXGKCB_UNMAPMDLFROMIOMMU**](nc-d3dkmddi-dxgkcb_unmapmdlfromiommu.md) function.
+A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DXGKCB_UNMAPMDLFROMIOMMU**](nc-d3dkmddi-dxgkcb_unmapmdlfromiommu.md) function.
 
 ## -remarks
 

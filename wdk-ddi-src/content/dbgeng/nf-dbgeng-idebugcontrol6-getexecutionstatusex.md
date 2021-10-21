@@ -49,9 +49,9 @@ The GetExecutionStatusEx method returns information about the execution status o
 
 ## -parameters
 
-### -param Status 
+### -param Status [out]
 
-[out]
+
 Receives the extended execution status.  This will be set to values described in  <a href="/windows-hardware/drivers/debugger/debug-status-xxx">DEBUG_STATUS_XXX</a>.
 
 ## -returns

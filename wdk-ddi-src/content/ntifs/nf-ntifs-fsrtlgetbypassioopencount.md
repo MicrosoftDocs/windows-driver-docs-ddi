@@ -54,7 +54,7 @@ The file object on which the query is being made.
 
 When [**FSRTL_ADVANCED_FCB_HEADER.Version**](ns-ntifs-_fsrtl_advanced_fcb_header.md) is >= FSRTL_FCB_HEADER_V4, **FsRtlGetBypassIoOpenCountPtr** returns the current value of that structure's **BypassIoOpenCount** field. This routine returns zero for earlier version numbers, which do not have a **BypassIoOpenCount** field.
 
-See [BypassIO](/windows-hardware/drivers/ifs/bypass.io) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 
 ## -see-also
 

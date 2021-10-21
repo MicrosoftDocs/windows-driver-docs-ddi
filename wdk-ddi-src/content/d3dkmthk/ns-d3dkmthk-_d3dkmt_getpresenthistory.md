@@ -52,33 +52,33 @@ The D3DKMT_GETPRESENTHISTORY structure describes the state of copying history.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] The handle to the graphics adapter.
+The handle to the graphics adapter.
 
-### -field ProvidedSize
-
-Supported in Windows 7 and later versions.
-
-[in] The size, in bytes, of the provided buffer that the <b>pTokens</b> member points to.
-
-### -field WrittenSize
+### -field ProvidedSize [in]
 
 Supported in Windows 7 and later versions.
 
-[out] The size, in bytes, that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token.
+The size, in bytes, of the provided buffer that the <b>pTokens</b> member points to.
 
-### -field pTokens
-
-Supported in Windows 7 and later versions.
-
-[in/out] A pointer to the buffer that receives the tokens. Each token is described by a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure.
-
-### -field NumTokens
+### -field WrittenSize [out]
 
 Supported in Windows 7 and later versions.
 
-[out] The number of tokens that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to.
+The size, in bytes, that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token.
+
+### -field pTokens [in/out]
+
+Supported in Windows 7 and later versions.
+
+A pointer to the buffer that receives the tokens. Each token is described by a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure.
+
+### -field NumTokens [out]
+
+Supported in Windows 7 and later versions.
+
+The number of tokens that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to.
 
 ## -see-also
 

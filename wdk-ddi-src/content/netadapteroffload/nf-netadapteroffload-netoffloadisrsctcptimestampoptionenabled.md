@@ -53,9 +53,9 @@ The **NetOffloadIsRscTcpTimestampOptionEnabled** function determines whether a n
 
 ## -parameters
 
-### -param Offload
+### -param Offload [_In_]
 
-[_In_] A NETOFFLOAD object that represents the net adapter's RSC capabilities.
+A NETOFFLOAD object that represents the net adapter's RSC capabilities.
 
 ## -returns
 

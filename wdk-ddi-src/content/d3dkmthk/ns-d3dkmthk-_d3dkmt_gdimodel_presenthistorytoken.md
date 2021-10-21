@@ -52,13 +52,13 @@ The D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure identifies a GDI present-histo
 
 ## -struct-fields
 
-### -field hLogicalSurface
+### -field hLogicalSurface [in]
 
-[in] A 64-bit value that specifies the handle to a logical surface to copy from.
+A 64-bit value that specifies the handle to a logical surface to copy from.
 
-### -field hPhysicalSurface
+### -field hPhysicalSurface [in]
 
-[in] A 64-bit value that specifies the handle to a physical surface to copy to.
+A 64-bit value that specifies the handle to a physical surface to copy to.
 
 ### -field ScrollRect
 
@@ -72,9 +72,9 @@ This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
-### -field DirtyRegions
+### -field DirtyRegions [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_dirtyregions">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the GDI surface.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_dirtyregions">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the GDI surface.
 
 ## -see-also
 

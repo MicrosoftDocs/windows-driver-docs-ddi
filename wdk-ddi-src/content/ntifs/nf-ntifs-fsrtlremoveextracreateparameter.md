@@ -4,7 +4,7 @@ title: FsRtlRemoveExtraCreateParameter function (ntifs.h)
 description: The FsRtlRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fsrtlremoveextracreateparameter.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/10/2021
 keywords: ["FsRtlRemoveExtraCreateParameter function"]
 ms.keywords: FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ifsk.fsrtlremoveextracreateparameter, ntifs/FsRtlRemoveExtraCreateParameter
 req.header: ntifs.h
@@ -42,105 +42,62 @@ api_name:
 
 # FsRtlRemoveExtraCreateParameter function
 
-
 ## -description
 
-The <b>FsRtlRemoveExtraCreateParameter</b> routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
+The **FsRtlRemoveExtraCreateParameter** routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 
 ## -parameters
 
-### -param EcpList 
+### -param EcpList [in, out]
 
-[in, out]
 Pointer to the extra create parameter (ECP) list that contains the ECP context structure to be detached from the given list.
 
-### -param EcpType 
+### -param EcpType [in]
 
-[in]
-Pointer to a user-defined GUID that uniquely identifies the ECP context structure to be detached from the list.
+Pointer to a GUID that uniquely identifies the ECP context structure to be detached from the list.
 
-### -param EcpContext 
+### -param EcpContext [out]
 
-[out]
-Pointer to the detached ECP context structure.  If the ECP context structure is successfully detached from the given list, this parameter will be set to point to the detached ECP context structure.  If the ECP context structure is not found in the given ECP list, this parameter is set to <b>NULL</b>.
+Pointer to the detached ECP context structure.  If the ECP context structure is successfully detached from the given list, this parameter will be set to point to the detached ECP context structure.  If the ECP context structure is not found in the given ECP list, this parameter is set to **NULL**.
 
-### -param EcpContextSize 
+### -param EcpContextSize [out, optional]
 
-[out, optional]
 Optional parameter that receives the size of the detached ECP context structure.  If this parameter is present when the routine is called, the parameter will receive the size, in bytes, of the detached ECP context structure.  If the given ECP context structure was not found in the given ECP list, this parameter is undefined.
 
 ## -returns
 
-<b>FsRtlRemoveExtraCreateParameter</b> returns one of the following NTSTATUS values:
+**FsRtlRemoveExtraCreateParameter** returns an NTSTATUS code such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The given ECP context structure was successfully detached from the given ECP list.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The given ECP context structure was not found in the given ECP list.
-
-</td>
-</tr>
-</table>
+| Return code      | Description |
+| -----------      | ----------- |
+| STATUS_SUCCESS   | The given ECP context structure was successfully detached from the given ECP list. |
+| STATUS_NOT_FOUND | The given ECP context structure was not found in the given ECP list. |
 
 ## -remarks
 
-The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given by the <i>EcpList</i> parameter for an ECP context structure given by the <i>EcpType</i> parameter.  If the ECP context structure exists in the list, <b>FsRtlRemoveExtraCreateParameter</b>  detaches the structure from the list, sets the <i>EcpContext</i> parameter to point to the structure, and returns STATUS_SUCCESS. If the ECP context structure does not exist in the list, <b>FsRtlRemoveExtraCreateParameter</b> sets the <i>EcpContext</i> parameter to <b>NULL</b> and returns STATUS_NOT_FOUND.
+The **FsRtlRemoveExtraCreateParameter** routine searches the ECP list given by the **EcpList** parameter for an ECP context structure given by the **EcpType** parameter.  If the ECP context structure exists in the list, **FsRtlRemoveExtraCreateParameter**  detaches the structure from the list, sets the **EcpContext** parameter to point to the structure, and returns STATUS_SUCCESS. If the ECP context structure does not exist in the list, **FsRtlRemoveExtraCreateParameter** sets the **EcpContext** parameter to **NULL** and returns STATUS_NOT_FOUND.
 
-<div class="alert"><b>Note</b>  <b>FsRtlRemoveExtraCreateParameter</b> does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call <b>FsRtlRemoveExtraCreateParameter</b> to detach it from the list and then call the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a> routine to free the memory pool for the ECP context structure.</div>
-<div> </div>
+> [!NOTE]
+> **FsRtlRemoveExtraCreateParameter** does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call **FsRtlRemoveExtraCreateParameter** to detach it from the list and then call the [**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md) routine to free the memory pool for the ECP context structure.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+[**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
+[**FsRtlAllocateExtraCreateParameter**](nf-ntifs-fsrtlallocateextracreateparameter.md)
 
+[**FsRtlAllocateExtraCreateParameterFromLookasideList**](nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md)
 
-<b>FltAllocateExtraCreateParameterFromLookasideList</b>
+[**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md)
 
+[**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md)
 
+[**FltGetEcpListFromCallbackData**](../fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
+[**FltInsertExtraCreateParameter**](../fltkernel/nf-fltkernel-fltinsertextracreateparameter.md)
 
+[**FltRemoveExtraCreateParameter**](../fltkernel/nf-fltkernel-fltremoveextracreateparameter.md)
 
+[**FltSetEcpListIntoCallbackData**](../fltkernel/nf-fltkernel-fltsetecplistintocallbackdata.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata">FltGetEcpListFromCallbackData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
+[**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md)

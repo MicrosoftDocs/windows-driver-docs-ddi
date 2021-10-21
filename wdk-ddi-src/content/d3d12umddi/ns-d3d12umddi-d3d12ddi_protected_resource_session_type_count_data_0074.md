@@ -41,13 +41,13 @@ Count of protected resource session types.
 
 ## -struct-fields
 
-### -field NodeIndex
+### -field NodeIndex [in]
 
-[in] In multi-adapter operation, **NodeIndex** indicates which physical adapter of the device this operation applies to.
+In multi-adapter operation, **NodeIndex** indicates which physical adapter of the device this operation applies to.
 
-### -field Count
+### -field Count [out]
 
-[out] Number of protected resource session types supported by the driver.
+Number of protected resource session types supported by the driver.
 
 ## -remarks
 

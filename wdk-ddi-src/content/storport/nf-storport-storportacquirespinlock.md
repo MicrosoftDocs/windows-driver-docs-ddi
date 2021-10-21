@@ -48,21 +48,21 @@ The **StorPortAcquireSpinLock** routine acquires the specified spin lock.
 
 ## -parameters
 
-### -param DeviceExtension
+### -param DeviceExtension [in]
 
-[in] A pointer to the miniport driver per-adapter device extension.
+A pointer to the miniport driver per-adapter device extension.
 
-### -param SpinLock
+### -param SpinLock [in]
 
-[in] Contains an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire.
+Contains an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire.
 
-### -param LockContext
+### -param LockContext [in]
 
-[in] A pointer to the DPC object for which the lock is held if *SpinLock* indicates a type of **DpcLock**. This member should be **NULL** if *SpinLock* indicates a type of either **InterruptLock** or **StartIoLock**.
+A pointer to the DPC object for which the lock is held if *SpinLock* indicates a type of **DpcLock**. This member should be **NULL** if *SpinLock* indicates a type of either **InterruptLock** or **StartIoLock**.
 
-### -param LockHandle
+### -param LockHandle [in, out]
 
-[in, out] A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md) routine.
+A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md) routine.
 
 ## -remarks
 

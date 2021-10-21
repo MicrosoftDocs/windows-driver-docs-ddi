@@ -52,29 +52,29 @@ The
 
 ## -parameters
 
-### -param engineHandle 
+### -param engineHandle [in]
 
-[in]
+
 A handle for an open session to the filter engine. A callout driver calls the 
      <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
-### -param callout 
+### -param callout [in]
 
-[in]
+
 A pointer to a constant 
      <a href="/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a> structure that contains the
      data that is required to add the callout to the filter engine.
 
-### -param sd 
+### -param sd [in, optional]
 
-[in, optional]
+
 A pointer to a constant <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that describes the security descriptor for
      the callout that is being added to the filter engine. This parameter is optional and can be <b>NULL</b>.
 
-### -param id 
+### -param id [out, optional]
 
-[out, optional]
+
 A pointer to a UINT32-typed variable that receives a run-time identifier that identifies the
      callout in the filter engine. This is the same identifier that is returned when a callout driver
      registers the callout driver's callout functions with the filter engine. The callout driver passes this

@@ -50,9 +50,9 @@ The<b> KsGetDeviceForDeviceObject</b> function returns the AVStream device struc
 
 ## -parameters
 
-### -param FunctionalDeviceObject 
+### -param FunctionalDeviceObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for which to return the corresponding <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure.
 
 ## -returns

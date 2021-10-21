@@ -49,14 +49,14 @@ The <b>PsLookupThreadByThreadId</b> routine accepts the thread ID of a thread an
 
 ## -parameters
 
-### -param ThreadId 
+### -param ThreadId [in]
 
-[in]
+
 Specifies the thread ID of the thread.
 
-### -param Thread 
+### -param Thread [out]
 
-[out]
+
 Returns a referenced pointer to the ETHREAD structure of thread specified by the <i>ThreadId</i>.
 
 ## -returns

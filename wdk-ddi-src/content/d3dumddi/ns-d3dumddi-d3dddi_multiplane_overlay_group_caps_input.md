@@ -49,13 +49,13 @@ Specifies info on a multiplane overlay capability group.
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
+The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
 
-### -field GroupIndex
+### -field GroupIndex [in]
 
-[in] The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddi_multiplane_overlay_caps">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
+The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddi_multiplane_overlay_caps">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
 
 ## -see-also
 

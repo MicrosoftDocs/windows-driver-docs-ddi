@@ -49,9 +49,9 @@ The <code>ReportProgress</code> method reports the progress of the XPS job consu
 
 ## -parameters
 
-### -param update 
+### -param update [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
 
 ## -returns

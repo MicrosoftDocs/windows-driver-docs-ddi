@@ -49,9 +49,9 @@ The <b>ZwMakeTemporaryObject</b> routine changes the attributes of an object to 
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Handle to an object of any type.
 
 ## -returns

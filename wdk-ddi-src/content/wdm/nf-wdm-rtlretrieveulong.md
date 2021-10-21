@@ -46,14 +46,14 @@ The **RtlRetrieveUlong** macro retrieves a ULONG value from the source address, 
 
 ## -parameters
 
-### -param DEST_ADDRESS
+### -param DEST_ADDRESS [out]
 
-[out]
+
 Pointer to a ULONG-aligned location in which to store the ULONG value.
 
-### -param SRC_ADDRESS
+### -param SRC_ADDRESS [in]
 
-[in]
+
 Pointer to a location from which to retrieve the ULONG value.
 
 ## -remarks

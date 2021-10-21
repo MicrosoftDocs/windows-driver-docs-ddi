@@ -49,14 +49,14 @@ The <b>InsertTailList</b> routine inserts an entry at the tail of a doubly linke
 
 ## -parameters
 
-### -param ListHead 
+### -param ListHead [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list.
 
-### -param Entry 
+### -param Entry [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted in the list.
 
 ## -remarks

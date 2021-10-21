@@ -50,13 +50,13 @@ This function allows the non-privileged virtual machine to write configuration d
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] A pointer to a DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure.
+A pointer to a DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure.
 
 ## -returns
 

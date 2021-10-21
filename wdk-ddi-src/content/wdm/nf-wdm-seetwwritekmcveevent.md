@@ -49,14 +49,14 @@ The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing 
 
 ## -parameters
 
-### -param CveId 
+### -param CveId [in]
 
-[in]
+
 A pointer to a string mentioning the CVE-ID associated with the vulnerability for which this event is being raised. Technical guidance for handling the CVE-ID is shared <a href="https://go.microsoft.com/fwlink/?LinkId=798519">here</a>
 
-### -param AdditionalDetails 
+### -param AdditionalDetails [in, optional]
 
-[in, optional]
+
 A pointer to a string giving additional details that the event producer may want to provide to the consumer of this event.
 
 ## -returns

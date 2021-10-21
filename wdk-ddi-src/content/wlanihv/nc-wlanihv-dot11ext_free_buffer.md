@@ -52,9 +52,9 @@ api_name:
 
 ## -parameters
 
-### -param pvMemory 
+### -param pvMemory [in, optional]
 
-[in, optional]
+
 A pointer to the buffer to be freed. If the value of
      <i>pvMemory</i> is <b>NULL</b>, the
      <b>Dot11ExtFreeBuffer</b> function returns immediately.

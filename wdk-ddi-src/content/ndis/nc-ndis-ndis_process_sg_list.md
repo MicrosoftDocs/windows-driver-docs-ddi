@@ -51,26 +51,26 @@ The
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
-### -param Reserved 
+### -param Reserved [in]
 
-[in]
+
 Reserved for NDIS.
 
-### -param ScatterGatherListBuffer 
+### -param ScatterGatherListBuffer [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a block of driver-allocated context information that contains information about the
      scatter gather list. The driver provided this context information in the 
      <b>Context</b> member of the 

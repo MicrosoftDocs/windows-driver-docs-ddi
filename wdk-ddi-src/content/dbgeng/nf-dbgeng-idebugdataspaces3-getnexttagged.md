@@ -49,19 +49,19 @@ The <b>GetNextTagged</b> method returns the GUID for the next block of tagged da
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Specifies the handle identifying the enumeration.  This is the handle returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>.
 
-### -param Tag 
+### -param Tag [out]
 
-[out]
+
 Receives the GUID identifying the tagged data.  The data may be retrieved by passing this GUID to <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readtagged">ReadTagged</a>.
 
-### -param Size 
+### -param Size [out]
 
-[out]
+
 Receives the size of the data identified by the GUID <i>Tag</i>.
 
 ## -returns

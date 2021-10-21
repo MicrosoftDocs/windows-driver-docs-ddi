@@ -2,12 +2,12 @@
 UID: NC:d3dkmddi.DXGKCB_ALLOCATECONTIGUOUSMEMORY
 title: DXGKCB_ALLOCATECONTIGUOUSMEMORY (d3dkmddi.h)
 description: DXGKCB_ALLOCATECONTIGUOUSMEMORY allocates contiguous memory regions in the IOMMU's logical address space.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,23 +46,23 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to a display adapter.
+Handle to a display adapter.
 
-### -param pAllocateContiguousMemory
+### -param pAllocateContiguousMemory [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md) structure that contains arguments to allocate contiguous memory.
+Pointer to a [**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md) structure that contains arguments to allocate contiguous memory.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS error code.
 
 ## -remarks
 
- This callback function is a Windows graphics port driver function equivalent to the [**MmAllocateContiguousMemory** function](../wdm/nf-wdm-mmallocatecontiguousmemory.md).
+ This callback function is *Dxgkrnl*'s equivalent to the [**MmAllocateContiguousMemory** function](../wdm/nf-wdm-mmallocatecontiguousmemory.md).
 
-To use this callback function, the kernel-mode driver sets the appropriate members of [**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md) and then calls **DxgkCbAllocateContiguousMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md) and then call **DxgkCbAllocateContiguousMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 All memory accessed by the GPU during paging operations, or mapped via the GpuMmu must be mapped to the IOMMU. The *Dxgkrnl* provides callbacks to the KMD to allow the allocation and remapping in one step.
 
@@ -73,4 +73,8 @@ See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gp
 
 ## -see-also
 
+[**DXGKARGCB_ALLOCATECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_allocatecontiguousmemory.md)
+
 [**DXGKCB_FREECONTIGUOUSMEMORY**](ns-d3dkmddi-_dxgkargcb_freecontiguousmemory.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

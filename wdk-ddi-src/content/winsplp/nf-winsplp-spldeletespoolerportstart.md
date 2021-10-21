@@ -47,7 +47,7 @@ api_name:
 
 ## -parameters
 
-### -param pPortName 
+### -param pPortName [in]
 
-[in]
+
 

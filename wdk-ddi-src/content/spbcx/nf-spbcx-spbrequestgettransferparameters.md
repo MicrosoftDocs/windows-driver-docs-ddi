@@ -43,48 +43,45 @@ api_name:
 
 # SpbRequestGetTransferParameters function
 
-
 ## -description
 
-The <b>SpbRequestGetTransferParameters</b> method retrieves the transfer parameters for an individual transfer in an <a href="/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
+The *SpbRequestGetTransferParameters* method retrieves the transfer parameters for an individual transfer in an [I/O transfer sequence](/windows-hardware/drivers/spb/i-o-transfer-sequences).
 
 ## -parameters
 
-### -param SpbRequest 
+### -param SpbRequest [in]
 
-[in]
-An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request from which to retrieve the transfer parameters. This parameter must be a handle to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request.
 
-### -param Index 
+An [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the I/O request from which to retrieve the transfer parameters. This parameter must be a handle to an [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence) request.
 
-[in]
+### -param Index [in]
+
+
 The index of a transfer in the I/O transfer sequence. For more information, see the following Remarks section.
 
-### -param TransferDescriptor 
+### -param TransferDescriptor [out, optional]
 
-[out, optional]
-A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a> structure into which  the method writes the transfer parameters. The <i>TransferDescriptor</i> parameter is optional and can be specified as NULL if the caller does not require the transfer parameters. For more information, see the following Remarks section.
 
-### -param TransferBuffer 
+A pointer to a caller-allocated [SPB_TRANSFER_DESCRIPTOR](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor) structure into which the method writes the transfer parameters. The *TransferDescriptor* parameter is optional and can be specified as NULL if the caller does not require the transfer parameters. For more information, see the [Remarks](#remarks) section.
 
-[out, optional]
-A pointer to a location into which the method writes a pointer to an MDL (or an MDL chain) that describes the physical memory in the transfer buffer.  The caller must not modify the contents of this MDL. This parameter is optional and can be set to NULL if the MDL is not needed. For more information, see the following Remarks section.
+### -param TransferBuffer [out, optional]
+
+
+A pointer to a location into which the method writes a pointer to an MDL (or an MDL chain) that describes the physical memory in the transfer buffer. The caller must not modify the contents of this MDL. This parameter is optional and can be set to NULL if the MDL is not needed. For more information, see the following Remarks section.
 
 ## -remarks
 
-To request an I/O transfer sequence, a client (peripheral driver) of the SPB controller driver sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request that contains a list of the transfers in the sequence. Your controller driver can call <b>SpbRequestGetTransferParameters</b> to obtain information about a particular transfer in the sequence.
+To request an I/O transfer sequence, a client (peripheral driver) of the SPB controller driver sends an [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence) request that contains a list of the transfers in the sequence. Your controller driver can call *SpbRequestGetTransferParameters* to obtain information about a particular transfer in the sequence.
 
-The <i>Index</i> parameter is an index that identifies a particular transfer in the sequence.   If N is the number of transfers in the sequence, valid indexes range from 0 to N–1. To determine the number of transfers in the sequence, call the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a> method. This method retrieves an <a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a> structure that contains the request parameters. The <b>TransferCount</b> member of this structure specifies the number of transfers in the sequence.
+The *Index* parameter is an index that identifies a particular transfer in the sequence. If N is the number of transfers in the sequence, valid indexes range from 0 to N–1. To determine the number of transfers in the sequence, call the [SpbRequestGetParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters) method. This method retrieves an [SPB_TRANSFER_DESCRIPTOR](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor) structure that contains the request parameters. The *TransferCount* member of this structure specifies the number of transfers in the sequence.
 
-If <i>TransferDescriptor</i> is non-NULL, the caller must call the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_transfer_descriptor_init">SPB_TRANSFER_DESCRIPTOR_INIT</a> function to initialize the structure before calling  <b>SpbRequestGetTransferParameters</b>.  After the structure is initialized, it can be reused as many times as needed without being reinitialized.
+If *TransferDescriptor* is non-NULL, the caller must call the [SPB_TRANSFER_DESCRIPTOR_INIT](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_transfer_descriptor_init) function to initialize the structure before calling *SpbRequestGetTransferParameters*. After the structure is initialized, it can be reused as many times as needed without being reinitialized.
 
-<i>TransferBuffer</i> is an optional pointer into which <b>SpbRequestGetTransferParameters</b> writes a pointer to an MDL that describes the physical page layout for the transfer buffer. The transfer buffer can be described by a single MDL or by an MDL chain. A simple buffer, which consists of a contiguous block of virtual memory, is described by a single MDL. If a transfer buffer is formatted as a scatter-gather list, each contiguous block of virtual memory in the buffer is described by an MDL in an MDL chain. For more information about MDLs, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
+*TransferBuffer* is an optional pointer into which *SpbRequestGetTransferParameters* writes a pointer to an MDL that describes the physical page layout for the transfer buffer. The transfer buffer can be described by a single MDL or by an MDL chain. A simple buffer, which consists of a contiguous block of virtual memory, is described by a single MDL. If a transfer buffer is formatted as a scatter-gather list, each contiguous block of virtual memory in the buffer is described by an MDL in an MDL chain. For more information about MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
+### Examples
 
-#### Examples
-
-
-```
+```cpp
 //
 // Note that this snippet shows a transfer completing synchronously. This
 // is a horrible thing for a driver to do, but demonstrates the DDI nicely.
@@ -109,27 +106,12 @@ for (ULONG i = 0; i < parameters.SequenceCount; i += 1)
                             transfer,
                             buffer);
 }
-
-
 ```
-
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_transfer_descriptor_init">SPB_TRANSFER_DESCRIPTOR_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
+* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+* [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles)
+* [SPB_TRANSFER_DESCRIPTOR](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor)
+* [SPB_TRANSFER_DESCRIPTOR_INIT](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_transfer_descriptor_init)
+* [SpbRequestGetParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters)

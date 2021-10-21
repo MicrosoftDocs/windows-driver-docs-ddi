@@ -49,21 +49,21 @@ This routine finds the PROPVARIANT from a collection list based on the PROPERTYK
 
 ## -parameters
 
-### -param pList
+### -param pList [in]
 
-[in] Pointer to the list of PROPVARIANT collection.
+Pointer to the list of PROPVARIANT collection.
 
-### -param pKey
+### -param pKey [in]
 
-[in] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+Pointer to a PROPERTYKEY for the target PROPVARIANT.
 
-### -param TypeCheck
+### -param TypeCheck [in]
 
-[in] If TRUE, the function validates whether a  *pValue* type matches one of the value types found in *pList*.
+If TRUE, the function validates whether a  *pValue* type matches one of the value types found in *pList*.
 
-### -param pValue
+### -param pValue [in/out]
 
-[in/out] Pointer to the target PROPVARIANT.
+Pointer to the target PROPVARIANT.
 
 ## -returns
 

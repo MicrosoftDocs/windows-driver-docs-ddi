@@ -49,19 +49,19 @@ Subtracts one value of type <b>ULONG</b> from another.
 
 ## -parameters
 
-### -param ulMinuend 
+### -param ulMinuend [in]
 
-[in]
+
 The value from which <i>ulSubtrahend</i> is subtracted.
 
-### -param ulSubtrahend 
+### -param ulSubtrahend [in]
 
-[in]
+
 The value to subtract from <i>ulMinuend</i>.
 
-### -param pulResult 
+### -param pulResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

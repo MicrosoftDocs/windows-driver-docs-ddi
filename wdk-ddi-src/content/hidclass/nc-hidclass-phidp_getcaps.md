@@ -49,14 +49,14 @@ The <b>HidP_GetCaps</b> routine returns a <a href="/windows-hardware/drivers/hid
 
 ## -parameters
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-### -param Capabilities 
+### -param Capabilities [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that the routine uses to return a collection's HIDP_CAPS structure.
 
 ## -returns

@@ -52,17 +52,17 @@ The D3DKMDT_STAGINGSURFACEDATA structure describes the lockable staging surface 
 
 ## -struct-fields
 
-### -field Width
+### -field Width [in]
 
-[in] The width of the staging buffer, in pixels.
+The width of the staging buffer, in pixels.
 
-### -field Height
+### -field Height [in]
 
-[in] The height of the staging buffer, in pixels.
+The height of the staging buffer, in pixels.
 
-### -field Pitch
+### -field Pitch [out]
 
-[out] The width of the staging buffer, in bytes. The driver must return the pitch value because the staging buffer is lockable.
+The width of the staging buffer, in bytes. The driver must return the pitch value because the staging buffer is lockable.
 
 ## -remarks
 

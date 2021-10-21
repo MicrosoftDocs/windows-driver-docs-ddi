@@ -52,9 +52,9 @@ The <b>BdaMethodDeletePin</b> function deletes a pin factory.
 
 ### -param pIrp
 
-### -param pKSMethod 
+### -param pKSMethod [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 ### -param pvIgnored

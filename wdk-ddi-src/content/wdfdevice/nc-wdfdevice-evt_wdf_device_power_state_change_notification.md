@@ -54,14 +54,14 @@ A driver's <i>EvtDevicePowerStateChange</i> event callback function informs the 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param NotificationData 
+### -param NotificationData [in]
 
-[in]
+
 A pointer to a framework-supplied <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_notification_data">WDF_DEVICE_POWER_NOTIFICATION_DATA</a> structure that identifies the state machine's old and new states.
 
 ## -remarks

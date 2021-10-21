@@ -46,9 +46,9 @@ Starts recording history in the sensor.
 
 ## -parameters
 
-### -param Sensor
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
 ## -returns
 

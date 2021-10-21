@@ -52,9 +52,9 @@ The D3DDDIARG_CREATELIGHT structure contains the index into the light array.
 
 ## -struct-fields
 
-### -field Index
+### -field Index [in]
 
-[in] The index of the light to create.
+The index of the light to create.
 
 ## -see-also
 

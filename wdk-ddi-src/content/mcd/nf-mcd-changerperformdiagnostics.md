@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object that represents the changer.
 
 ### -param changerDeviceError

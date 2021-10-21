@@ -49,32 +49,32 @@ The <b>ReadMultiByteStringVirtual</b> method reads a null-terminated, multibyte 
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location of the string in the process's virtual address space.
 
-### -param MaxBytes 
+### -param MaxBytes [in]
 
-[in]
+
 Specifies the maximum number of bytes to read from the target.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 <div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div>
 <div> </div>
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-### -param StringBytes 
+### -param StringBytes [out, optional]
 
-[out, optional]
+
 Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

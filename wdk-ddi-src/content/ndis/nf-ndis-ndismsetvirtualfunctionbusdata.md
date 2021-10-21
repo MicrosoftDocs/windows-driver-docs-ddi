@@ -51,31 +51,31 @@ A miniport driver calls the <b>NdisMSetVirtualFunctionBusData</b> function to wr
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param VFId 
+### -param VFId [in]
 
-[in]
+
 The identifier of the VF to which data is written to its  PCI configuration space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a buffer that contains the data to be written to the PCI configuration space.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The offset, in units of bytes, in the PCI configuration space to which data is written.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in units of bytes, of the data to be written.
 
 ## -returns

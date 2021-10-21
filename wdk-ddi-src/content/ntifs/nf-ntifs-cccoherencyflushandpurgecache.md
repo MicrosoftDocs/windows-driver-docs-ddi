@@ -48,25 +48,25 @@ The **CcCoherencyFlushAndPurgeCache** routine flushes, or flushes and purges, th
 
 ## -parameters
 
-### -param SectionObjectPointer
+### -param SectionObjectPointer [in]
 
-[in] A pointer to a [**SECTION_OBJECT_POINTERS**](../wdm/ns-wdm-_section_object_pointers.md) structure that contains the section object pointers of the file object.
+A pointer to a [**SECTION_OBJECT_POINTERS**](../wdm/ns-wdm-_section_object_pointers.md) structure that contains the section object pointers of the file object.
 
-### -param FileOffset
+### -param FileOffset [in, optional]
 
-[in, optional] A pointer to a variable that specifies the starting byte offset to flush, or to flush and purge.
+A pointer to a variable that specifies the starting byte offset to flush, or to flush and purge.
 
-### -param Length
+### -param Length [in]
 
-[in] The length in bytes of the data to flush, or to flush and purge, starting at **FileOffset**. This parameter is ignored if a **NULL** pointer is passed to **FileOffset**.
+The length in bytes of the data to flush, or to flush and purge, starting at **FileOffset**. This parameter is ignored if a **NULL** pointer is passed to **FileOffset**.
 
-### -param IoStatus
+### -param IoStatus [out]
 
-[out] A pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the operation.
+A pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the operation.
 
-### -param Flags
+### -param Flags [in, optional]
 
-[in, optional] A bitmask of the following flags that specify how the operation is to be performed:
+A bitmask of the following flags that specify how the operation is to be performed:
 
 | Value | Meaning |
 | ----- | ------- |

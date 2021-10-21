@@ -49,9 +49,9 @@ The **wiasGetDrvItem** function retrieves a driver item.
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param ppIWiaDrvItem

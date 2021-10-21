@@ -55,21 +55,21 @@ The <b>PEP_PPM_QUERY_CAPABILITIES</b> structure contains information about the p
 
 ## -struct-fields
 
-### -field FeedbackCounterCount
+### -field FeedbackCounterCount [out]
 
-[out] The number of processor performance feedback counters supported by the PEP for this processor. On x86/AMD64 platforms, this must be zero.
+The number of processor performance feedback counters supported by the PEP for this processor. On x86/AMD64 platforms, this must be zero.
 
-### -field IdleStateCount
+### -field IdleStateCount [out]
 
-[out] The number of processor idle states that the PEP supports. The PEP is not required to support the same number of idle states for all processors. The PEP can set <b>IdleStateCount</b> = 0 to indicate that it doesn't support any idle states, in which case the PEP doesn't need to implement any other notifications that deal with processor idle states.
+The number of processor idle states that the PEP supports. The PEP is not required to support the same number of idle states for all processors. The PEP can set <b>IdleStateCount</b> = 0 to indicate that it doesn't support any idle states, in which case the PEP doesn't need to implement any other notifications that deal with processor idle states.
 
-### -field PerformanceStatesSupported
+### -field PerformanceStatesSupported [out]
 
-[out] Whether the PEP supports performance state controls. Set to TRUE if the PEP supports performance states, or to FALSE if it does not.
+Whether the PEP supports performance state controls. Set to TRUE if the PEP supports performance states, or to FALSE if it does not.
 
-### -field ParkingSupported
+### -field ParkingSupported [out]
 
-[out] Whether the PEP supports supplying core parking hints. Set to TRUE if the PEP can indicate which cores to park, or to FALSE if it cannot.
+Whether the PEP supports supplying core parking hints. Set to TRUE if the PEP can indicate which cores to park, or to FALSE if it cannot.
 
 ### -field DiscretePerformanceStateCount
 

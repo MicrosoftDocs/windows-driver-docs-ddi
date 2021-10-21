@@ -51,29 +51,29 @@ A driver's <i>EvtIoDeviceControl</i> event callback function processes a specifi
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to the framework queue object that is associated with the I/O request.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param OutputBufferLength 
+### -param OutputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
-### -param InputBufferLength 
+### -param InputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
-### -param IoControlCode 
+### -param IoControlCode [in]
 
-[in]
+
 The driver-defined or system-defined I/O control code (IOCTL) that is associated with the request.
 
 ## -remarks

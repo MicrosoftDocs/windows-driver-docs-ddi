@@ -52,25 +52,25 @@ The D3DKMT_PRESENT_STATS structure describes present status for a rendering devi
 
 ## -struct-fields
 
-### -field PresentCount
+### -field PresentCount [out]
 
-[out] A UINT value that indicates the number of times that the OpenGL installable client driver (ICD) called the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function on a rendering device or swap chain. After the maximum value is reached, <b>PresentCount</b> starts over at zero. When a new rendering device is created, <b>PresentCount</b> is initialized to zero. The operating system maintains a present counter for each swap chain that is created.
+A UINT value that indicates the number of times that the OpenGL installable client driver (ICD) called the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function on a rendering device or swap chain. After the maximum value is reached, <b>PresentCount</b> starts over at zero. When a new rendering device is created, <b>PresentCount</b> is initialized to zero. The operating system maintains a present counter for each swap chain that is created.
 
-### -field PresentRefreshCount
+### -field PresentRefreshCount [out]
 
-[out] A UINT value that indicates the number of times the display controller outputs a new video frame, which occurs at the beginning of each vertical retrace period. The operating system maintains a present refresh counter for each video display controller output in the operating system. <b>PresentRefreshCount</b> is initialized to an unspecified value.
+A UINT value that indicates the number of times the display controller outputs a new video frame, which occurs at the beginning of each vertical retrace period. The operating system maintains a present refresh counter for each video display controller output in the operating system. <b>PresentRefreshCount</b> is initialized to an unspecified value.
 
-### -field SyncRefreshCount
+### -field SyncRefreshCount [out]
 
-[out] A UINT value that indicates the number of the most recent capture of the timing information in the <b>SyncQPCTime</b> and <b>SyncGPUTime</b> members.
+A UINT value that indicates the number of the most recent capture of the timing information in the <b>SyncQPCTime</b> and <b>SyncGPUTime</b> members.
 
-### -field SyncQPCTime
+### -field SyncQPCTime [out]
 
-[out] The computer processing unit (CPU) time that the current video frame was output at (that is, the CPU time that the vertical retrace started).
+The computer processing unit (CPU) time that the current video frame was output at (that is, the CPU time that the vertical retrace started).
 
-### -field SyncGPUTime
+### -field SyncGPUTime [out]
 
-[out] The graphics processing unit (GPU) time that the current video frame was output at (that is, the GPU time that the vertical retrace started).
+The graphics processing unit (GPU) time that the current video frame was output at (that is, the GPU time that the vertical retrace started).
 
 ## -remarks
 

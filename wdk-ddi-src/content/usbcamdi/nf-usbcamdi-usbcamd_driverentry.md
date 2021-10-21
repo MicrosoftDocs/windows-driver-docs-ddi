@@ -50,26 +50,26 @@ The <b>USBCAMD_DriverEntry</b> function registers the minidriver with USBCAMD, e
 
 ## -parameters
 
-### -param Context1 
+### -param Context1 [in]
 
-[in]
+
 Pointer to the first argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the driver object that is created by the system and passed to DriverEntry.
 
-### -param Context2 
+### -param Context2 [in]
 
-[in]
+
 Pointer to the second argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the registry path that describes the minidriver's registry key.
 
-### -param DeviceContextSize 
+### -param DeviceContextSize [in]
 
-[in]
+
 Specifies the size, in bytes, required for the minidriver's device-specific context.
 
 ### -param FrameCOntextSize
 
-### -param ReceivePacket 
+### -param ReceivePacket [in]
 
-[in]
+
 Pointer to the minidriver-defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
 

@@ -52,9 +52,9 @@ The <b>RtlCaptureContext </b>function retrieves a context record in the context 
 
 ## -parameters
 
-### -param ContextRecord 
+### -param ContextRecord [out]
 
-[out]
+
 A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 ## -returns

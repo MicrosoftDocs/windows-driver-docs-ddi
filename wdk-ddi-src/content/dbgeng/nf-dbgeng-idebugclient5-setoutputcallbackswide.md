@@ -49,9 +49,9 @@ The <b>SetOutputCallbacksWide</b> method registers an <a href="/windows-hardware
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [in]
 
-[in]
+
 Specifies the interface pointer to the output callbacks object to register with this client.
 
 ## -returns

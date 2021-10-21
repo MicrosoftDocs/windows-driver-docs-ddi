@@ -49,19 +49,19 @@ The filter driver's implementation to set the device state and operating bus spe
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
     A pointer to a driver-defined context.
 
-### -param DeviceState 
+### -param DeviceState [in]
 
-[in]
+
     A <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_device_state">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
 
-### -param BusSpeed 
+### -param BusSpeed [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
 
 ## -returns

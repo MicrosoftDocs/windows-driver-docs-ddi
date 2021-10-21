@@ -50,24 +50,24 @@ The <b>StorPortReadPortBufferUlong</b> routine reads a value from a specified po
 
 ## -parameters
 
-### -param h 
+### -param h [in]
 
-[in]
+
 A pointer to the hardware device extension.
 
-### -param p 
+### -param p [in]
 
-[in]
+
 Pointer to the address from which to read.
 
-### -param b 
+### -param b [in]
 
-[in]
+
 A pointer to the buffer that receives the data that is read.
 
-### -param c 
+### -param c [in]
 
-[in]
+
 Specifies the number of data items to be read. Each data item has a size of sizeof(ULONG). 
 
 

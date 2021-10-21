@@ -49,9 +49,9 @@ An AVStream minidriver's <i>AVStrMiniAllocate</i> routine allocates a frame usin
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the allocator's context structure created in <i>AVStrMiniInitializeAllocator</i>.
 
 ## -returns

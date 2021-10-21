@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param pLocalAddress 
+### -param pLocalAddress [in]
 
-[in]
+
 A pointer to the local RDBSS connection engine address on which the previously issued connection request was made.
 
-### -param pServerName 
+### -param pServerName [in]
 
-[in]
+
 A pointer to the name of the server on which the previous connection request was made.
 
-### -param pConnectionInformation 
+### -param pConnectionInformation [in]
 
-[in]
+
 A pointer to the connection information that specifies the remote address. on which the previously issued connection request was made.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>AddDumpInformationFile</b> method registers additional files containing s
 
 ## -parameters
 
-### -param InfoFile 
+### -param InfoFile [in]
 
-[in]
+
 Specifies the name of the file containing the supporting information.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Specifies the type of the file <i>InfoFile</i>.  Currently, only files containing paging file information are supported, and <i>Type</i> must be set to DEBUG_DUMP_FILE_PAGE_FILE_DUMP.
 
 ## -returns

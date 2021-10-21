@@ -49,11 +49,11 @@ The <b>D3DKMTGetRuntimeData</b> function is for system use only.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
 *pData* 
 
-[in, out] Reserved for system use.
+Reserved for system use.
 
 ## -remarks
 

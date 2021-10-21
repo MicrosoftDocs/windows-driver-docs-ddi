@@ -49,9 +49,9 @@ The <b>IoReuseIrp</b> routine reinitializes an IRP so that it can be reused.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Pointer to the IRP to be reinitialized for reuse. 
 
 

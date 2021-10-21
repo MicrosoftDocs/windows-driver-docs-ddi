@@ -55,9 +55,9 @@ The Bluetooth
 
 <p>A pointer to the 128-bit UUID value that is used to initialize the SDP_NODE structure.</p>
 
-### -param tag 
+### -param tag [in]
 
-[in]
+
 A profile driver defined tag to associate with the node.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>RtlRightChild</b> routine returns a pointer to the right child of the spe
 
 ## -parameters
 
-### -param Links 
+### -param Links [in]
 
-[in]
+
 Pointer to the node whose right child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -remarks

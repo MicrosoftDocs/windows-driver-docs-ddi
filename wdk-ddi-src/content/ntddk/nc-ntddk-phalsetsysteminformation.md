@@ -45,17 +45,17 @@ Register MCA driver with the HAL.
 
 ## -parameters
 
-### -param InformationClass
+### -param InformationClass [in]
 
-[in] The HalMcaRegisterDriver to register MCA driver's callback routines with the HAL. There are two callback routines: ExceptionCallback and DpcCallback. The ExceptionCallback routine is called during the Machine Check Exception (MCE) handler nonrestartable error processing, before it issues a bug check for the system. The DpcCallback routine is called when the MCA error is restartable. For Itanium systems, specify HalCmcRegisterDriver to register a driver's Corrected CPU Error DpcCallback routine, and HalCpeRegisterDriver to register a driver's Corrected Platform Error DpcCallback.
+The HalMcaRegisterDriver to register MCA driver's callback routines with the HAL. There are two callback routines: ExceptionCallback and DpcCallback. The ExceptionCallback routine is called during the Machine Check Exception (MCE) handler nonrestartable error processing, before it issues a bug check for the system. The DpcCallback routine is called when the MCA error is restartable. For Itanium systems, specify HalCmcRegisterDriver to register a driver's Corrected CPU Error DpcCallback routine, and HalCpeRegisterDriver to register a driver's Corrected Platform Error DpcCallback.
 
-### -param BufferSize
+### -param BufferSize [in]
 
-[in] The size, in bytes, of the buffer that the caller supplies.
+The size, in bytes, of the buffer that the caller supplies.
 
-### -param Buffer
+### -param Buffer [out]
 
-[out] A pointer to a caller-supplied buffer of type MCA_DRIVER_INFO, which is defined as follows.
+A pointer to a caller-supplied buffer of type MCA_DRIVER_INFO, which is defined as follows.
 
 ```cpp
 typedef struct _MCA_DRIVER_INFO {

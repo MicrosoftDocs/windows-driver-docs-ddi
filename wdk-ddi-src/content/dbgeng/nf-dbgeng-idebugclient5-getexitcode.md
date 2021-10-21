@@ -49,9 +49,9 @@ The <b>GetExitCode</b> method returns the exit code of the current process if th
 
 ## -parameters
 
-### -param Code 
+### -param Code [out]
 
-[out]
+
 Receives the exit code of the process.  If the process is still running, <i>Code</i> will be set to STILL_ACTIVE.
 
 ## -returns

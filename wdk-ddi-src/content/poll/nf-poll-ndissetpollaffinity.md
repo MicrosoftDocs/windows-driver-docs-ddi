@@ -45,13 +45,13 @@ A miniport driver calls the **NdisSetPollAffinity** function to lock an [*NdisPo
 
 ## -parameters
 
-### -param PollHandle
+### -param PollHandle [_In_]
 
-[_In_] A handle to the Poll object returned by a successful call to [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
+A handle to the Poll object returned by a successful call to [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
 
-### -param PollAffinity
+### -param PollAffinity [_In_]
 
-[_In_] A pointer to a driver-initialized [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure that describes the core on which the driver wants the [*NdisPoll*](nc-poll-ndis_poll.md) callback for this object to be called.
+A pointer to a driver-initialized [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure that describes the core on which the driver wants the [*NdisPoll*](nc-poll-ndis_poll.md) callback for this object to be called.
 
 ## -remarks
 

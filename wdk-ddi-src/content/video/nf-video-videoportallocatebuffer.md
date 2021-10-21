@@ -51,19 +51,19 @@ The <b>VideoPortAllocateBuffer</b> function is <b>obsolete</b> in Windows 2000 a
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the size of the buffer to allocate, in bytes.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Is the location in which the video port driver returns a pointer to a pointer to the allocated pool memory.
 
 ## -returns

@@ -50,19 +50,19 @@ A callback routine implemented by a driver to notify the caller when a thread is
 
 ## -parameters
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 The process ID of the process.
 
-### -param ThreadId 
+### -param ThreadId [in]
 
-[in]
+
 The thread ID of the thread.
 
-### -param Create 
+### -param Create [in]
 
-[in]
+
 Indicates whether the thread was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
 
 ## -remarks

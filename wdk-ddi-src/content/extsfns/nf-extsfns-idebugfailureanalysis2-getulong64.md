@@ -53,9 +53,9 @@ The <b>GetUlong64</b> method searches a <a href="/windows-hardware/drivers/ddi/e
 
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 A pointer to a <b>ULONG64</b> that receives the value from the entry's data block.
 
 ## -returns

@@ -56,18 +56,18 @@ The Bluetooth
 <p>The top level of the SDP record to which the 
      <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.</p>
 
-### -param AttribId 
+### -param AttribId [in]
 
-[in]
+
 The identifier of the attribute to attach.
 
 ### -param AttribValue
 
 <p>Pointer to the SDP node to be added as an attribute.</p>
 
-### -param tag 
+### -param tag [in]
 
-[in]
+
 Specifies a 4-byte 
      <a href="/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 

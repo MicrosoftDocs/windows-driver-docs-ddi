@@ -49,9 +49,9 @@ The <b>READ_REGISTER_USHORT</b> routine reads a USHORT value from the specified 
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register address, which must be a mapped range in memory space.
 
 ## -returns

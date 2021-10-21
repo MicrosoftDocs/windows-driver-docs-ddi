@@ -49,34 +49,34 @@ The <b>EtwWriteTransfer</b> function marks an event that links two activities to
 
 ## -parameters
 
-### -param RegHandle 
+### -param RegHandle [in]
 
-[in]
+
 A pointer to the event provider registration handle, which is returned by the <b>EtwRegister</b> function if the event provider registration is successful.
 
-### -param EventDescriptor 
+### -param EventDescriptor [in]
 
-[in]
+
 A pointer to the EVENT_DESCRIPTOR structure.
 
-### -param ActivityId 
+### -param ActivityId [in, optional]
 
-[in, optional]
+
 The identifier that indicates the activity associated with the event. The <i>ActivityId</i> provides a way to group related events and is used in end-to-end tracing. This identifier is optional and can be <b>NULL</b>.
 
-### -param RelatedActivityId 
+### -param RelatedActivityId [in, optional]
 
-[in, optional]
+
 The identifier that indicates related activity associated with the event. The <i>RelatedActivityID</i> provides a way to group related events and is used in end-to-end tracing.
 
-### -param UserDataCount 
+### -param UserDataCount [in]
 
-[in]
+
 The number of elements in an array of EVENT_DATA_DESCRIPTOR structures.
 
-### -param UserData 
+### -param UserData [in, optional]
 
-[in, optional]
+
 The pointer to the first element in an array of EVENT_DATA_DESCRIPTOR structures.
 
 ## -returns

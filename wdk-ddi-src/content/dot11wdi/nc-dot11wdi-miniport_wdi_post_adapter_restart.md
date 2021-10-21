@@ -58,14 +58,14 @@ The NDIS <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">M
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 The handle to the context area that the miniport driver allocated.
 
-### -param RestartParameters 
+### -param RestartParameters [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_restart_parameters">NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport adapter.
 
 ## -returns

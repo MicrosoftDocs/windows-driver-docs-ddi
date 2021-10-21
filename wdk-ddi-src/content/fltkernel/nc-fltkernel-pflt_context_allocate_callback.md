@@ -49,9 +49,9 @@ A minifilter driver can register a routine of type PFLT_CONTEXT_ALLOCATE_CALLBAC
 
 ## -parameters
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 The type of pool to allocate. This parameter is required and must be one of the following: 
 
 <b>NonPagedPool</b>
@@ -60,14 +60,14 @@ The type of pool to allocate. This parameter is required and must be one of the 
 
 Must be <b>NonPagedPool</b> if the <i>ContextType</i> parameter is FLT_VOLUME_CONTEXT.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the entire context, including both the portion defined by the filter manager and the portion defined by the minifilter driver.
 
-### -param ContextType 
+### -param ContextType [in]
 
-[in]
+
 The type of context. This parameter is required and must be one of the following values: 
 
 FLT_FILE_CONTEXT (starting with Windows Vista)

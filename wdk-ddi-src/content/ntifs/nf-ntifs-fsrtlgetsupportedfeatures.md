@@ -49,14 +49,14 @@ The **FsRtlGetSupportedFeatures** routine returns the supported features of a vo
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 The target device object attached to a volume.
 
-### -param SupportedFeatures 
+### -param SupportedFeatures [out]
 
-[out]
+
 A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume.
 
 The supported features are a bitwise OR combination of the following flags.

@@ -55,25 +55,25 @@ The <b>PEP_POWER_CONTROL_COMPLETE</b> structure contains status information for 
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
-### -field PowerControlCode
+### -field PowerControlCode [in]
 
-[in] A pointer to a GUID value that specifies the power control operation that was performed. This is the same value that the PEP supplied in response to the <a href="/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to initiate the power control operation.
+A pointer to a GUID value that specifies the power control operation that was performed. This is the same value that the PEP supplied in response to the <a href="/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to initiate the power control operation.
 
-### -field RequestContext
+### -field RequestContext [in]
 
-[in] A pointer to the request context that was sent by the PEP in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
+A pointer to the request context that was sent by the PEP in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
 
-### -field BytesReturned
+### -field BytesReturned [in]
 
-[in] The size, in bytes, of the result data stored by the driver in the output buffer. For more information about this buffer, see the description of the <b>RequestContext</b> member.
+The size, in bytes, of the result data stored by the driver in the output buffer. For more information about this buffer, see the description of the <b>RequestContext</b> member.
 
-### -field Status
+### -field Status [in]
 
-[in] The status of the power control operation. If the operation was successful, the PEP sets this member to STATUS_SUCCESS. Otherwise, the PEP sets this member to an appropriate error status code.
+The status of the power control operation. If the operation was successful, the PEP sets this member to STATUS_SUCCESS. Otherwise, the PEP sets this member to an appropriate error status code.
 
 ## -remarks
 

@@ -49,19 +49,19 @@ Gets the audio data format for the audio engine mixer.
 
 ## -parameters
 
-### -param ulNodeId 
+### -param ulNodeId [in]
 
-[in]
+
 The ID of the mixer node.
 
-### -param pFormat 
+### -param pFormat [out]
 
-[out]
+
 A structure of type <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format.
 
-### -param ulBufferSize 
+### -param ulBufferSize [in]
 
-[in]
+
 The data buffer size.
 
 ## -returns

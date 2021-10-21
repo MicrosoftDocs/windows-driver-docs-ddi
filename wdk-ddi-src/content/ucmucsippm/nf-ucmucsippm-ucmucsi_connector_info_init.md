@@ -47,9 +47,9 @@ Initializes a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info
 
 ## -parameters
 
-### -param ConnectorInfo 
+### -param ConnectorInfo [out]
 
-[out]A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure to initialize.
+A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure to initialize.
 
 ## -remarks
 

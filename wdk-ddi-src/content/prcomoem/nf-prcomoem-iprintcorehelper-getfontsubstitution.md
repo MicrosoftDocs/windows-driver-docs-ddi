@@ -49,14 +49,14 @@ The <b>IPrintCoreHelper::GetFontSubstitution</b> method indicates which device f
 
 ## -parameters
 
-### -param pszTrueTypeFontName 
+### -param pszTrueTypeFontName [in]
 
-[in]
+
 A pointer to a null-terminated Unicode string that contains the name of a TrueType font.
 
-### -param ppszDevFontName 
+### -param ppszDevFontName [out]
 
-[out]
+
 A pointer to a variable that receives the address of a null-terminated Unicode string. This string contains the name of the device font that will be used in place of the TrueType font specified in the <i>pszFontName</i> parameter. If there is no device font that can serve as a substitute for the specified TrueType font, this parameter is set to <b>NULL</b>.
 
 ## -returns

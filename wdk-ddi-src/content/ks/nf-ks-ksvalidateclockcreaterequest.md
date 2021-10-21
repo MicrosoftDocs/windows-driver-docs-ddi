@@ -54,9 +54,9 @@ This can only be called at PASSIVE_LEVEL.
 
 ### -param Irp
 
-### -param ClockCreate 
+### -param ClockCreate [out]
 
-[out]
+
 Specifies the clock create structure pointer passed to the create request.
 
 

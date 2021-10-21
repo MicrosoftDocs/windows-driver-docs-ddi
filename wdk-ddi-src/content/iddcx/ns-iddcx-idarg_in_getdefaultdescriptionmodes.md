@@ -49,12 +49,12 @@ api_name:
 
 ## -struct-fields
 
-### -field DefaultMonitorModeBufferInputCount
+### -field DefaultMonitorModeBufferInputCount [in]
 
-[in] The number of monitor modes the <b>pDefaultsMonitorModes</b> buffer being passed into the driver can hold. A value of zero indicates that the driver should not copy the monitor mode list into the provided buffer, but should set the output buffer size to the size required.
+The number of monitor modes the <b>pDefaultsMonitorModes</b> buffer being passed into the driver can hold. A value of zero indicates that the driver should not copy the monitor mode list into the provided buffer, but should set the output buffer size to the size required.
 
-### -field pDefaultMonitorModes
+### -field pDefaultMonitorModes [out]
 
-[out]
+
                      Pointer to the buffer that the driver should copy the monitor modes to if the value is non-NULL. If value is NULL, then driver should not copy any data and should just set <b>DefaultMonitorModeBufferOutputCount</b> to indicate the size of buffer required to store the modes.
 

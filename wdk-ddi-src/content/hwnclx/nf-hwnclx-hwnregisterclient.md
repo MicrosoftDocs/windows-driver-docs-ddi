@@ -50,19 +50,19 @@ Registers the hardware notification client driver and its callback functions wit
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 Handle to the client drivers framework driver object.
 
-### -param RegistrationPacket 
+### -param RegistrationPacket [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> structure that contains function pointers to the callback functions defined in the client driver implementation and required by the class extension.
 
-### -param RegistryPath 
+### -param RegistryPath [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key.
 
 ## -returns

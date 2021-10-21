@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param VolumeName 
+### -param VolumeName [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the volume name (for example, "\Device\HarddiskVolume1", "\DosDevices\D:", "\\??\D:", or "D:"). This parameter is required and cannot be <b>NULL</b>.
 
-### -param RetVolume 
+### -param RetVolume [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

@@ -49,19 +49,19 @@ The <b>GetCommand</b>  method returns the command string that is executed when a
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 The command string that is executed when the breakpoint is triggered.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size, in characters, of the buffer that <i>Buffer</i> points to.
 
-### -param CommandSize 
+### -param CommandSize [out, optional]
 
-[out, optional]
+
 The size of the command string.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

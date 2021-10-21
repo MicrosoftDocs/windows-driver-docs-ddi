@@ -50,9 +50,9 @@ Sends a notification to the listening UWP apps, to allow for communications betw
 
 ## -parameters
 
-### -param NotificationId 
+### -param NotificationId [in]
 
-[in]
+
 KSNOTIFICATIONID_AudioModule
 
 ### -param NotificationBuffer

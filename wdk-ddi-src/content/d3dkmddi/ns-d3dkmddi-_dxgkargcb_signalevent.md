@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_SIGNALEVENT
-title: _DXGKARGCB_SIGNALEVENT (d3dkmddi.h)
+title: DXGKARGCB_SIGNALEVENT (d3dkmddi.h)
 description: Arguments used in the call to DXGKCB_SIGNALEVENT.
-ms.date: 10/19/2018
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_SIGNALEVENT structure"]
 ms.keywords: _DXGKARGCB_SIGNALEVENT, DXGKARGCB_SIGNALEVENT,
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1809
+req.target-min-winverclnt: Windows 10, version 1809 (WDDM 2.5)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,35 +39,44 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARGCB_SIGNALEVENT structure
-
+# DXGKARGCB_SIGNALEVENT structure
 
 ## -description
 
-Arguments used in the call to [DXGKCB_SIGNALEVENT](nc-d3dkmddi-dxgkcb_signalevent.md).
+**DXGKARGCB_SIGNALEVENT** contains the arguments used by the [**DXGKCB_SIGNALEVENT**](nc-d3dkmddi-dxgkcb_signalevent.md) callback function, to signal an event.
 
 ## -struct-fields
 
-### -field hDxgkProcess
+### -field hDxgkProcess [in]
 
-Handle to the DXG process object, which is passed to [DxgkDdiCreateProcess](nc-d3dkmddi-dxgkddi_createprocess.md). The process must be created for a virtual machine, where DXGK_CREATEPROCESSFLAGS::VirtualMachineProcess is set in DxgkDdiCreateProcess.
+Handle to the DXGK process object that is passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md). The process must be created for a virtual machine, where DXGK_CREATEPROCESSFLAGS::VirtualMachineProcess is set in **DxgkDdiCreateProcess**.
 
-The driver must synchronize the callback with [DxgkDdiDestroyProcess](nc-d3dkmddi-dxgkddi_destroyprocess.md) to ensure that the process is not destroyed during the callback.
+The driver must synchronize the callback with [**DxgkDdiDestroyProcess**](nc-d3dkmddi-dxgkddi_destroyprocess.md) to ensure that the process is not destroyed during the callback.
 
-### -field hEvent
+### -field hEvent [in]
 
-User mode event handle, which needs to be signaled. The handle is valid in the context of the DXG process, identified by *hDxgkProcess*. The user mode driver in the guest could send the user mode event handle to kernel mode driver via [DXGKDDI_ESCAPE](nc-d3dkmddi-dxgkddi_escape.md) or other APIs, which allow private driver data.
+The user-mode event handle that needs to be signaled. The handle is valid in the context of the DXGK process, identified by **hDxgkProcess**. The user-mode driver on the guest can send the user-mode event handle to the kernel-mode driver via [**DXGKDDI_ESCAPE**](nc-d3dkmddi-dxgkddi_escape.md) or other APIs that allow private driver data.
 
-### -field Reserved
+### -field CpuEventObject [in]
 
-Reserved. Should be zero.
+When set, indicates the event is a CPU event object. Supported starting in Windows 11 (WDDM 3.0).
 
-### -field Flags
+### -field Reserved [in]
 
- 
-The driver must call the callback with the *LastUse* flag during process or device cleanup.
+Reserved; set to zero.
+
+### -field Flags [in]
+
+A single value containing the flags set in the structure.
 
 ## -remarks
 
 ## -see-also
 
+[**DXGKCB_SIGNALEVENT**](nc-d3dkmddi-dxgkcb_signalevent.md)
+
+[**DXGKDDI_ESCAPE**](nc-d3dkmddi-dxgkddi_escape.md)
+
+[**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)
+
+[**DxgkDdiDestroyProcess**](nc-d3dkmddi-dxgkddi_destroyprocess.md)

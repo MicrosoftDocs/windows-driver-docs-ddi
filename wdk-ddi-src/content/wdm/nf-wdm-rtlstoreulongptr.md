@@ -46,14 +46,14 @@ The **RtlStoreUlongPtr** macro stores a specified ULONG_PTR value at a specified
 
 ## -parameters
 
-### -param ADDRESS
+### -param ADDRESS [out]
 
-[out]
+
 A pointer to a location in which to store the ULONG_PTR value.
 
-### -param VALUE
+### -param VALUE [in]
 
-[in]
+
 Specifies the ULONG_PTR value to be stored.
 
 ## -remarks

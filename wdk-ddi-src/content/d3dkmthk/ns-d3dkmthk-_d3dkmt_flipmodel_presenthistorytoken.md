@@ -52,13 +52,13 @@ The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-his
 
 ## -struct-fields
 
-### -field FenceValue
+### -field FenceValue [in]
 
-[in] A 64-bit value that specifies the fence value that is used for the flip.
+A 64-bit value that specifies the fence value that is used for the flip.
 
-### -field hLogicalSurface
+### -field hLogicalSurface [in]
 
-[in] A 64-bit value that specifies the handle to a logical surface.
+A 64-bit value that specifies the handle to a logical surface.
 
 ### -field dxgContext
 
@@ -68,21 +68,21 @@ The DirectX graphics context.
 
 The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field SwapChainIndex
+### -field SwapChainIndex [in]
 
-[in] The index of the surface in the swap chain that is used for the flip.
+The index of the surface in the swap chain that is used for the flip.
 
-### -field PresentLimitSemaphoreId
+### -field PresentLimitSemaphoreId [in]
 
-[in] A 64-bit value that identifies the present-limit semaphore.
+A 64-bit value that identifies the present-limit semaphore.
 
-### -field FlipInterval
+### -field FlipInterval [in]
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
+A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a> structure that identifies, in bit-field flags, attributes of a flip present-history operation.
+A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a> structure that identifies, in bit-field flags, attributes of a flip present-history operation.
 
 ### -field hCompSurf
 
@@ -182,9 +182,9 @@ The target rectangle.
 
 The color space of the data.
 
-### -field DirtyRegions
+### -field DirtyRegions [in]
 
-[in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
+A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
 
 ### -field HDRMetaDataHDR10
 

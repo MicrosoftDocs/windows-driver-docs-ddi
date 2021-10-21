@@ -49,17 +49,17 @@ The D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure describes a buffer that is 
 
 ## -struct-fields
 
-### -field FirstElement
+### -field FirstElement [in]
 
-[in] The offset, in bytes, to the first element in the buffer.
+The offset, in bytes, to the first element in the buffer.
 
-### -field NumElements
+### -field NumElements [in]
 
-[in] The number of elements in the buffer.
+The number of elements in the buffer.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of flag values that describe the buffer. The Direct3D runtime supports the following values.
+A valid bitwise OR of flag values that describe the buffer. The Direct3D runtime supports the following values.
 
 |Value|Meaning|
 |--- |--- |

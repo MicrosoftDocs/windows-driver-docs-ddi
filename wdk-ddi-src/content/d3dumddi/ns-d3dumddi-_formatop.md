@@ -52,13 +52,13 @@ The <b>FORMATOP</b> structure describes a surface format and operations that can
 
 ## -struct-fields
 
-### -field Format
+### -field Format [in]
 
-[in] The <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
+The <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
 
-### -field Operations
+### -field Operations [out]
 
-[out] A valid bitwise <b>OR</b> of the following flags that indicate the operations that can be performed on surfaces with the pixel format that is specified in the <b>Format</b> member. Some of the following flags imply that other flags should be used. If a driver sets a flag that implies other flags, the driver is not required to set the implied flags, and the Direct3D runtime determines the use of the implied flags.
+A valid bitwise <b>OR</b> of the following flags that indicate the operations that can be performed on surfaces with the pixel format that is specified in the <b>Format</b> member. Some of the following flags imply that other flags should be used. If a driver sets a flag that implies other flags, the driver is not required to set the implied flags, and the Direct3D runtime determines the use of the implied flags.
 
 
 
@@ -242,17 +242,17 @@ Surfaces of this format support a multiplane overlay.
 
 Supported starting with Windows 8.
 
-### -field FlipMsTypes
+### -field FlipMsTypes [out]
 
-[out] A 32-bitmask for full-screen multiple sampling.
+A 32-bitmask for full-screen multiple sampling.
 
-### -field BltMsTypes
+### -field BltMsTypes [out]
 
-[out] A 32-bitmask for windowed multiple sampling.
+A 32-bitmask for windowed multiple sampling.
 
-### -field PrivateFormatBitCount
+### -field PrivateFormatBitCount [out]
 
-[out] The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration type).
+The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration type).
 
 ## -see-also
 

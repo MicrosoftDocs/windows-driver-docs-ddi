@@ -49,9 +49,9 @@ The <b>IoCancelIrp</b> routine sets the cancel bit in a given IRP and calls the 
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the IRP to be canceled.
 
 ## -returns

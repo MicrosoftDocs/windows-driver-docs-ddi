@@ -49,9 +49,9 @@ The <i>InterfaceReference</i> routine increments the reference count on a driver
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure for the interface.
 
 ## -remarks

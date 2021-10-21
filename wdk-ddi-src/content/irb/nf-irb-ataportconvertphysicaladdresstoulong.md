@@ -53,9 +53,9 @@ The <b>AtaPortConvertPhysicalAddressToUlong</b> routine truncates an address of 
 
 ## -parameters
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 Specifies a value of type IDE_PHYSICAL_ADDRESS.
 
 ## -returns

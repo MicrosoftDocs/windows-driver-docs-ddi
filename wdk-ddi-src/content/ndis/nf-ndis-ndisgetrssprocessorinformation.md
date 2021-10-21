@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param NdisHandle 
+### -param NdisHandle [in]
 
-[in]
+
 An NDIS instance handle that was obtained during caller initialization. NDIS drivers can use the
      handles from the following functions:
      
@@ -66,9 +66,9 @@ An NDIS instance handle that was obtained during caller initialization. NDIS dri
 
 <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
-### -param RssProcessorInfo 
+### -param RssProcessorInfo [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer where NDIS puts the 
      <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a> structure
      and an array of 
@@ -76,9 +76,9 @@ A pointer to a caller-allocated buffer where NDIS puts the
      contain information about the RSS processor set. The caller provides the length of the buffer in the 
      <i>Size</i> parameter.
 
-### -param Size 
+### -param Size [in, out]
 
-[in, out]
+
 A pointer to a value that is the size, in bytes, of the buffer that the caller provided. When the
      function returns, this member contains either the amount of data that NDIS put in the buffer or the
      required size of the buffer if the buffer was too short.

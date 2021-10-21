@@ -47,13 +47,13 @@ Provides a framework queue object that is used to dispatch UCSI commands to the 
 
 ## -parameters
 
-### -param PpmObject 
+### -param PpmObject [in]
 
-[in]A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
+A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
 
-### -param PpmRequestQueue 
+### -param PpmRequestQueue [in]
 
-[in]A WDFQUEUE handle that the client driver in a previous call to [**WdfIoQueueCreate**](../wdfio/nf-wdfio-wdfioqueuecreate.md)
+A WDFQUEUE handle that the client driver in a previous call to [**WdfIoQueueCreate**](../wdfio/nf-wdfio-wdfioqueuecreate.md)
 
 ## -remarks
 

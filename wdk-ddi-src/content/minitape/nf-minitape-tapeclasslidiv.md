@@ -50,14 +50,14 @@ The <b>TapeClassLiDiv</b> routine performs a division of the two indicated integ
 
 ## -parameters
 
-### -param Dividend 
+### -param Dividend [in]
 
-[in]
+
 Contains the dividend.
 
-### -param Divisor 
+### -param Divisor [in]
 
-[in]
+
 Contains the divisor.
 
 ## -returns

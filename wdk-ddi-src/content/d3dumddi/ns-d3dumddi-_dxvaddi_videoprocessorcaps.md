@@ -52,27 +52,27 @@ The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabili
 
 ## -struct-fields
 
-### -field InputPool
+### -field InputPool [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the interlaced source surfaces should be allocated.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the interlaced source surfaces should be allocated.
 
-### -field NumForwardRefSamples
+### -field NumForwardRefSamples [out]
 
-[out] The required number of forward reference samples for the defined deinterlace mode. The samples are in subsequent fields. This value is zero for bob and line blending and can be other values (such as 1, 2, or 3) for adaptive deinterlacing and frame-rate conversion.
+The required number of forward reference samples for the defined deinterlace mode. The samples are in subsequent fields. This value is zero for bob and line blending and can be other values (such as 1, 2, or 3) for adaptive deinterlacing and frame-rate conversion.
 
-### -field NumBackwardRefSamples
+### -field NumBackwardRefSamples [out]
 
-[out] The required backward reference samples for the defined deinterlace mode. The samples are in former fields. This value is zero for bob, 1 for line blending and can be other values (such as 1, 2, or 3) for adaptive deinterlacing and frame-rate conversion.
+The required backward reference samples for the defined deinterlace mode. The samples are in former fields. This value is zero for bob, 1 for line blending and can be other values (such as 1, 2, or 3) for adaptive deinterlacing and frame-rate conversion.
 
-### -field OutputFormat
+### -field OutputFormat [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the uncompressed output frames. Typically, a deinterlace algorithm outputs frames in a pixel format that matches the input sample format. This member ensures that the Video Mixing Renderer (VMR) or other video renderer is able to supply the correct output frame surfaces to the deinterlacing hardware.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the uncompressed output frames. Typically, a deinterlace algorithm outputs frames in a pixel format that matches the input sample format. This member ensures that the Video Mixing Renderer (VMR) or other video renderer is able to supply the correct output frame surfaces to the deinterlacing hardware.
 
 Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoProcessorOperations</b> member, the VMR determines that valid output formats are specified by this member as well as an D3DFMT_X8R8G8B8 format.
 
-### -field DeinterlaceTechnology
+### -field DeinterlaceTechnology [out]
 
-[out] A bitwise OR of the following values to indicate the underlying deinterlacing technology that is used to implement the deinterlacing algorithm. The values can be combined as required to most closely match the algorithm's implementation.
+A bitwise OR of the following values to indicate the underlying deinterlacing technology that is used to implement the deinterlacing algorithm. The values can be combined as required to most closely match the algorithm's implementation.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -87,9 +87,9 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 | DXVADDI_DEINTERLACETECH_MOTIONVECTORSTEERED | Objects within a sequence of video fields. The missing pixels are recreated after first aligning the movement axis of the individual objects in the scene to make them parallel with the time axis. | 
 | DXVADDI_DEINTERLACETECH_INVERSETELECINE | A deinterlace algorithm that can undo the 3:2 pull-down process that is used for displaying 24Hz-content on 60Hz-displays, 25Hz-content on 50Hz-displays, or so on. |
 
-### -field ProcAmpControlCaps
+### -field ProcAmpControlCaps [out]
 
-[out] A bitwise OR of the following values to indicate the ProcAmp operations that the hardware supports.
+A bitwise OR of the following values to indicate the ProcAmp operations that the hardware supports.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -99,9 +99,9 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 | DXVADDI_PROCAMP_HUE | Hue adjustments to the video image are allowed. | 
 | DXVADDI_PROCAMP_SATURATION | Saturation adjustments to the video image are allowed. |
 
-### -field VideoProcessorOperations
+### -field VideoProcessorOperations [out]
 
-[out] A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a> operation.
+A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a> operation.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -123,9 +123,9 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 | DXVADDI_VIDEOPROCESS_GAMMACOMPENSATED | The video processing device can perform gamma conversion on the video stream. | 
 | DXVADDI_VIDEOPROCESS_MAINTAINSORIGINALFIELDDATA | The video processing device can maintain the original field data. |
 
-### -field NoiseFilterTechnology
+### -field NoiseFilterTechnology [out]
 
-[out] A bitwise OR of the following values to indicate the underlying technology that is used to implement noise filtering. The values can be combined as required to most closely match the noise-filter implementation. 
+A bitwise OR of the following values to indicate the underlying technology that is used to implement noise filtering. The values can be combined as required to most closely match the noise-filter implementation. 
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -136,9 +136,9 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 | DXVADDI_NOISEFILTERTECH_BLOCKNOISE | The video processing device uses block noise filtering. | 
 | DXVADDI_NOISEFILTERTECH_MOSQUITONOISE | The video processing device uses mosquito noise filtering. |
 
-### -field DetailFilterTechnology
+### -field DetailFilterTechnology [out]
 
-[out] A bitwise OR of the following values to indicate the underlying technology that is used to implement detail filtering. The values can be combined as required to most closely match the detail-filter implementation.  
+A bitwise OR of the following values to indicate the underlying technology that is used to implement detail filtering. The values can be combined as required to most closely match the detail-filter implementation.  
 
 | **Value** | **Meaning** | 
 |:--|:--|

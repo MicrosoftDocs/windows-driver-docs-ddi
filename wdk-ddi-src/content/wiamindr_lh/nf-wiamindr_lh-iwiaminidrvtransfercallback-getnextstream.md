@@ -49,24 +49,24 @@ Called by the WIA mini-driver to obtain a stream for the current data transfer (
 
 ## -parameters
 
-### -param lFlags 
+### -param lFlags [in]
 
-[in]
+
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
-### -param bstrItemName 
+### -param bstrItemName [in]
 
-[in]
+
 The name of the item that will perform the data transfer. For more information, see  [WIA_IPA_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-item-name).
 
-### -param bstrFullItemName 
+### -param bstrFullItemName [in]
 
-[in]
+
 The full name of the item that will perform the data transfer. For more information, see [WIA_IPA_FULL_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-full-item-name).
 
-### -param ppIStream 
+### -param ppIStream [out]
 
-[out]
+
 A pointer to an **IStream** object.
 
 ## -returns

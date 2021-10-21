@@ -52,14 +52,14 @@ The
 
 ## -parameters
 
-### -param Event 
+### -param Event [in]
 
-[in]
+
 A pointer to an initialized event object for which the caller provides the storage.
 
-### -param MsToWait 
+### -param MsToWait [in]
 
-[in]
+
 The number of milliseconds the caller will wait if the event is not set to the 
      <i>signaled</i> state within that interval. A value of zero specifies that the caller will wait for the
      event indefinitely.

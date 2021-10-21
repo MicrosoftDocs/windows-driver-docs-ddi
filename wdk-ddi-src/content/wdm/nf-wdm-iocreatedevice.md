@@ -49,42 +49,42 @@ The **IoCreateDevice** routine creates a device object for use by a driver.
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its [DriverEntry](./nc-wdm-driver_initialize.md) routine. WDM function and filter drivers also receive a driver object pointer in their [AddDevice](./nc-wdm-driver_add_device.md) routines.
 
-### -param DeviceExtensionSize 
+### -param DeviceExtensionSize [in]
 
-[in]
+
 Specifies the driver-determined number of bytes to be allocated for the [device extension](/windows-hardware/drivers/kernel/device-extensions) of the device object. The internal structure of the device extension is driver-defined.
 
-### -param DeviceName 
+### -param DeviceName [in, optional]
 
-[in, optional]
+
 Optionally points to a buffer containing a null-terminated Unicode string that names the device object. The string must be a full path name. WDM filter and function drivers do not name their device objects. For more information, see [Named Device Objects](/windows-hardware/drivers/kernel/named-device-objects).
 
 > [!IMPORTANT]
 > If a device name is not supplied (that is, *DeviceName* is **NULL**), the device object created by **IoCreateDevice** will not (and cannot) have a discretionary access control list (DACL) associated with it. For additional information, see [Security Descriptors](/windows-hardware/drivers/kernel/security-descriptors).
 
-### -param DeviceType 
+### -param DeviceType [in]
 
-[in]
+
 Specifies one of the system-defined FILE_DEVICE_*XXX* constants that indicate the type of device (such as FILE_DEVICE_DISK or FILE_DEVICE_KEYBOARD) or a vendor-defined value for a new type of device. For more information, see [Specifying Device Types](/windows-hardware/drivers/kernel/specifying-device-types).
 
-### -param DeviceCharacteristics 
+### -param DeviceCharacteristics [in]
 
-[in]
+
 Specifies one or more system-defined constants, ORed together, that provide additional information about the driver's device. For a list of possible device characteristics, see [DEVICE_OBJECT](./ns-wdm-_device_object.md). For more information about how to specify device characteristics, see [Specifying Device Characteristics](/windows-hardware/drivers/kernel/specifying-device-characteristics). Most drivers specify FILE_DEVICE_SECURE_OPEN for this parameter.
 
-### -param Exclusive 
+### -param Exclusive [in]
 
-[in]
+
 Specifies if the device object represents an [exclusive device](/windows-hardware/drivers/). Most drivers set this value to **FALSE**. For more information about exclusive access, see [Specifying Exclusive Access to Device Objects](/windows-hardware/drivers/kernel/specifying-exclusive-access-to-device-objects).
 
-### -param DeviceObject 
+### -param DeviceObject [out]
 
-[out]
+
 Pointer to a variable that receives a pointer to the newly created [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. The **DEVICE_OBJECT** structure is allocated from nonpaged pool. The device extension of the device object is zeroed.
 
 ## -returns

@@ -47,21 +47,21 @@ Initializes a [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) str
 
 ## -parameters
 
-### -param ClientConfig
+### -param ClientConfig [Out]
 
-[Out] A pointer to a [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) to initialize.
+A pointer to a [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) to initialize.
 
-### -param AccessDesired
+### -param AccessDesired [In]
 
-[In] A bitwise-OR of the flags defined by the [**USBPM_ACCESS_TYPE**](ne-usbpmapi-_usbpm_access_type.md) enumeration that indicates the type of access the client driver requires.
+A bitwise-OR of the flags defined by the [**USBPM_ACCESS_TYPE**](ne-usbpmapi-_usbpm_access_type.md) enumeration that indicates the type of access the client driver requires.
 
-### -param EventCallback
+### -param EventCallback [In]
 
-[In] A pointer to the [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md) callback function implemented by the client driver.
+A pointer to the [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md) callback function implemented by the client driver.
 
-### -param ExtraInfo
+### -param ExtraInfo [In]
 
-[In] A pointer to a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_config_extra_info.md) structure that contains optional information such as the WDM device object.
+A pointer to a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_config_extra_info.md) structure that contains optional information such as the WDM device object.
 
 ## -remarks
 

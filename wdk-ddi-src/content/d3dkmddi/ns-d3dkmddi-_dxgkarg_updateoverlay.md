@@ -52,9 +52,9 @@ The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overla
 
 ## -struct-fields
 
-### -field OverlayInfo
+### -field OverlayInfo [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to modify the overlay.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_overlayinfo">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to modify the overlay.
 
 ## -see-also
 

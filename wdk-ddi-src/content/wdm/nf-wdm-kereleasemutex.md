@@ -48,13 +48,13 @@ The **KeReleaseMutex** routine releases a mutex object, and specifies whether th
 
 ## -parameters
 
-### -param Mutex
+### -param Mutex [in, out]
 
-[in, out] A pointer to an initialized mutex object for which the caller provides the storage.
+A pointer to an initialized mutex object for which the caller provides the storage.
 
-### -param Wait
+### -param Wait [in]
 
-[in] Specifies whether the call to **KeReleaseMutex** is to be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseMutex** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
+Specifies whether the call to **KeReleaseMutex** is to be immediately followed by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseMutex** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 

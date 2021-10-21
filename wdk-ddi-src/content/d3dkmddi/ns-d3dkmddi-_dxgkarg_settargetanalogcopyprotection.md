@@ -52,19 +52,19 @@ Holds information to set analog copy protection on a display adapter's video pre
 
 ## -struct-fields
 
-### -field TargetId
+### -field TargetId [in]
 
-[in] The identifier of a display adapter's video present target.
+The identifier of a display adapter's video present target.
 
-### -field CopyProtectionType
+### -field CopyProtectionType [in]
 
-[in] A value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enum indicating the type of analog copy protection being requested.
+A value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enum indicating the type of analog copy protection being requested.
 
-### -field APSTriggerBits
+### -field APSTriggerBits [in]
 
-[in] A value that describes copy protection for an OEM device. A value of 0 indicates no copy protection, and values of 1, 2, and 3 indicate low, medium, and high levels of copy protection, respectively. Values greater than 3 are not allowed.
+A value that describes copy protection for an OEM device. A value of 0 indicates no copy protection, and values of 1, 2, and 3 indicate low, medium, and high levels of copy protection, respectively. Values greater than 3 are not allowed.
 
-### -field CopyProtectionSupport
+### -field CopyProtectionSupport [in]
 
-[in] A D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure containing flags indicating the analog copy protection support being requested.
+A D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure containing flags indicating the analog copy protection support being requested.
 

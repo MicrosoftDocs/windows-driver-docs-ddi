@@ -51,19 +51,19 @@ The <b>ScsiPortWritePortBufferUchar</b> routine transfers a given number of unsi
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of bytes to be written to the HBA.
 
 ## -see-also

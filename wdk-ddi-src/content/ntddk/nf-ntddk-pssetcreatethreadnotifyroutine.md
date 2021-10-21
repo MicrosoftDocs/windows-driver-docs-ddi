@@ -49,9 +49,9 @@ The <b>PsSetCreateThreadNotifyRoutine</b> routine registers a driver-supplied ca
 
 ## -parameters
 
-### -param NotifyRoutine 
+### -param NotifyRoutine [in]
 
-[in]
+
 A pointer to the driver's implementation of <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_thread_notify_routine">PCREATE_THREAD_NOTIFY_ROUTINE</a> routine.
 
 ## -returns

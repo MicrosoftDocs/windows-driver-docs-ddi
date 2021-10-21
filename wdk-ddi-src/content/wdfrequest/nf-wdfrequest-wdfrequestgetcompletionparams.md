@@ -54,14 +54,14 @@ The <b>WdfRequestGetCompletionParams</b> method retrieves the I/O completion par
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
 ## -remarks

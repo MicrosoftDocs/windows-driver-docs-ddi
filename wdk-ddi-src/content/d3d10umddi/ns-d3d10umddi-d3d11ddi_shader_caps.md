@@ -49,9 +49,9 @@ The D3D11DDI_SHADER_CAPS structure contains display device shader capabilities.
 
 ## -struct-fields
 
-### -field Caps
+### -field Caps [in]
 
-[in] A valid bitwise <b>OR</b> of values that describe the shader capabilities of the display device. The Direct3D runtime supports the following values.
+A valid bitwise <b>OR</b> of values that describe the shader capabilities of the display device. The Direct3D runtime supports the following values.
 
 
 

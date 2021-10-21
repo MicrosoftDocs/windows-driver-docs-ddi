@@ -52,14 +52,14 @@ The <b>WdfRequestRetrieveOutputWdmMdl</b> method retrieves a memory descriptor l
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param Mdl 
+### -param Mdl [out]
 
-[out]
+
 A pointer to a location that receives a pointer to an MDL.
 
 ## -returns

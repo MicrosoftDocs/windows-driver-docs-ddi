@@ -52,13 +52,13 @@ The D3DKMT_SETDISPLAYMODE_FLAGS structure identifies attributes for setting the 
 
 ## -struct-fields
 
-### -field PreserveVidPn
+### -field PreserveVidPn [in]
 
-[in] A Boolean value that specifies whether the video present network (VidPN) for a monitor is preserved.
+A Boolean value that specifies whether the video present network (VidPN) for a monitor is preserved.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] This member is reserved and should be set to zero.
+This member is reserved and should be set to zero.
 
 ## -remarks
 

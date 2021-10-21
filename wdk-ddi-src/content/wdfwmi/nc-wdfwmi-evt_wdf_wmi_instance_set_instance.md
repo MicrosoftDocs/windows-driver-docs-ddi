@@ -51,19 +51,19 @@ A driver's <i>EvtWmiInstanceSetInstance</i> callback function sets all of a WMI 
 
 ## -parameters
 
-### -param WmiInstance 
+### -param WmiInstance [in]
 
-[in]
+
 A handle to a WMI instance object.
 
-### -param InBufferSize 
+### -param InBufferSize [in]
 
-[in]
+
 The size, in bytes, of the input buffer that <i>InBuffer</i> points to.
 
-### -param InBuffer 
+### -param InBuffer [in]
 
-[in]
+
 A pointer to the input buffer.
 
 ## -returns

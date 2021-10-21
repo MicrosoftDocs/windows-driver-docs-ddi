@@ -49,14 +49,14 @@ The <b>VideoPortSetEvent</b> function sets an event object to the signaled state
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pEvent 
+### -param pEvent [in]
 
-[in]
+
 Pointer to the event object whose state is to be set.
 
 ## -returns

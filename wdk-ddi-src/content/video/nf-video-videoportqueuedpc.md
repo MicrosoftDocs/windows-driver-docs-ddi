@@ -49,19 +49,19 @@ The <b>VideoPortQueueDpc</b> function allows a miniport driver to queue a DPC.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param CallbackRoutine 
+### -param CallbackRoutine [in]
 
-[in]
+
 Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a> to be called when the DPC is scheduled. The callback routine must be nonpaged.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the miniport driver-supplied context that will be passed to <i>CallbackRoutine</i>.
 
 ## -returns

@@ -49,9 +49,9 @@ Specifies info about the location of an Event Tracing for Windows (ETW) marker e
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function will be called on.
+A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function will be called on.
 
 ### -field APISequenceNumber
 

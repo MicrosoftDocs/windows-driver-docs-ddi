@@ -50,9 +50,9 @@ The <b>READ_PORT_ULONG</b> routine reads a ULONG value from the specified port a
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the port address, which must be a mapped range in I/O space.
 
 ## -returns

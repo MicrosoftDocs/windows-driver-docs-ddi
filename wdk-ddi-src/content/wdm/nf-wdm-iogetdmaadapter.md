@@ -49,19 +49,19 @@ The <b>IoGetDmaAdapter</b> routine returns a pointer to the DMA adapter structur
 
 ## -parameters
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in, optional]
 
-[in, optional]
+
 Pointer to the physical device object for the device requesting the DMA adapter structure.
 
-### -param DeviceDescription 
+### -param DeviceDescription [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device. Regardless of the version set in the DEVICE_DESCRIPTION structure, this function always returns `DMA_ADAPTER->Version == 1`.
 
-### -param NumberOfMapRegisters 
+### -param NumberOfMapRegisters [out]
 
-[out]
+
 A pointer to, on output, the maximum number of map registers that the driver can allocate for any DMA transfer operation.
 
 ## -returns

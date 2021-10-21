@@ -49,9 +49,9 @@ Pauses the I/O.
 
 ## -parameters
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the I/O operation after the last 
 <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a> or 
 <a href="/windows-hardware/drivers/ddi/index">Continue</a> succeeded; 

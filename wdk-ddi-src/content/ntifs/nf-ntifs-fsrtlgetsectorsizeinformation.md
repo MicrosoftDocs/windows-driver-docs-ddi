@@ -53,9 +53,9 @@ The <b>FsRtlGetSectorSizeInformation</b> routine retrieves the physical and logi
 
 <p>The target device object for a storage device.</p>
 
-### -param SectorSizeInfo 
+### -param SectorSizeInfo [out]
 
-[out]
+
 A pointer to a caller supplied <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_sector_size_information">FILE_FS_SECTOR_SIZE_INFORMATION</a> structure.
 
 ## -returns

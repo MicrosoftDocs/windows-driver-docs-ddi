@@ -50,9 +50,9 @@ Retrieves the number of items in this collection.
 
 ## -parameters
 
-### -param pcElems 
+### -param pcElems [in]
 
-[in]
+
 Pointer to a <b>DWORD</b> that contains the number of items in the collection.
 
 ## -returns

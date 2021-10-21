@@ -49,9 +49,9 @@ The <b>GetEventThread</b> method returns the engine thread ID for the thread on 
 
 ## -parameters
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine thread ID.
 
 ## -returns

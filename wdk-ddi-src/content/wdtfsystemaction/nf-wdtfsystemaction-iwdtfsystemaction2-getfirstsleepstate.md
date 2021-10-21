@@ -49,9 +49,9 @@ Returns the first supported sleep state.
 
 ## -parameters
 
-### -param pnSleepState 
+### -param pnSleepState [out, retval]
 
-[out, retval]
+
 The sleep state.
 
 ## -returns

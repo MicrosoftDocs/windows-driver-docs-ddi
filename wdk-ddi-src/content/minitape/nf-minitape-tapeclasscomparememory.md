@@ -50,19 +50,19 @@ The <b>TapeClassCompareMemory</b> routine compares two memory buffers and return
 
 ## -parameters
 
-### -param Source1 
+### -param Source1 [in, out]
 
-[in, out]
+
 Pointer to the first buffer to be compared.
 
-### -param Source2 
+### -param Source2 [in, out]
 
-[in, out]
+
 Pointer to the second buffer to be compared.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to be compared.
 
 ## -returns

@@ -49,16 +49,16 @@ The client driver's implementation that UCX calls to reset the controller’s pr
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 ### -param UcxEndpoint
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object that the client driver completes when the reset operation is finished.
 
 

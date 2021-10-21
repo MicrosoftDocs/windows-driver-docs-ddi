@@ -49,39 +49,39 @@ The <b>IoReportResourceForDetection</b> routine claims hardware resources in the
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to the driver object that was input to the driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
 
-### -param DriverList 
+### -param DriverList [in, optional]
 
-[in, optional]
+
 Optionally points to a caller-supplied buffer that contains the driver's resource list, if the driver claims the same resources for all its devices. If the caller specifies a <i>DeviceList</i>, this parameter is ignored.
 
-### -param DriverListSize 
+### -param DriverListSize [in, optional]
 
-[in, optional]
+
 Specifies the size in bytes of an optional <i>DriverList</i>. If <i>DriverList</i> is <b>NULL</b>, this parameter should be zero.
 
-### -param DeviceObject 
+### -param DeviceObject [in, optional]
 
-[in, optional]
+
 Optionally points to the device object representing device for which the driver is attempting to claim resources.
 
-### -param DeviceList 
+### -param DeviceList [in, optional]
 
-[in, optional]
+
 Optionally points to a caller-supplied buffer containing the device's resource list. If the driver claims the same resources for all its devices, the caller can specify a <i>DriverList</i> instead.
 
-### -param DeviceListSize 
+### -param DeviceListSize [in, optional]
 
-[in, optional]
+
 Specifies the size in bytes of an optional <i>DeviceList</i>. If <i>DeviceList</i> is <b>NULL</b>, this parameter should be zero.
 
-### -param ConflictDetected 
+### -param ConflictDetected [out]
 
-[out]
+
 Pointer to a caller-supplied Boolean value that is set to <b>TRUE</b> on return if the resources are not available.
 
 ## -returns

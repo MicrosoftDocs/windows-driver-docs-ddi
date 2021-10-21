@@ -52,33 +52,33 @@ The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to cre
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device to create the device context on.
+A handle to the device to create the device context on.
 
-### -field NodeOrdinal
+### -field NodeOrdinal [in]
 
-[in] The zero-based index of the node that the context is scheduled on.
+The zero-based index of the node that the context is scheduled on.
 
-### -field EngineAffinity
+### -field EngineAffinity [in]
 
-[in] The engine affinity for the context.
+The engine affinity for the context.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] A pointer to private data that is passed to the display miniport driver.
+A pointer to private data that is passed to the display miniport driver.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
 
-### -field ClientHint
+### -field ClientHint [in]
 
-[in] A D3DKMT_CLIENTHINT-typed value that indicates the type of client that creates the context. The following table lists the possible values.
+A D3DKMT_CLIENTHINT-typed value that indicates the type of client that creates the context. The following table lists the possible values.
 
 |Value|Meaning|
 |--- |--- |
@@ -90,45 +90,45 @@ The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to cre
 |D3DKMT_CLIENTHINT_DX9 (9)|The client is the DirectX 9.0 runtime.|
 |D3DKMT_CLIENTHINT_DX10 (10)|The client is the DirectX 10.0 runtime.|
 
-### -field hContext
+### -field hContext [out]
 
-[out] A handle to the device context that the DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function.
+A handle to the device context that the DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function.
 
-### -field pCommandBuffer
+### -field pCommandBuffer [out]
 
-[out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this memory pointer.
+A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this memory pointer.
 
-### -field CommandBufferSize
+### -field CommandBufferSize [out]
 
-[out] The size, in bytes, of the memory block that <b>pCommandBuffer</b> points to. The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this size value.
+The size, in bytes, of the memory block that <b>pCommandBuffer</b> points to. The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this size value.
 
-### -field pAllocationList
+### -field pAllocationList [out]
 
-[out] An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD inserts referenced allocations in.
-
-The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this array.
-
-### -field AllocationListSize
-
-[out] The number of elements in the array of allocations that <b>pAllocationList</b> points to. This quantity of allocations is available when the DirectX graphics kernel subsystem submits the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
-
-The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this number.
-
-### -field pPatchLocationList
-
-[out] An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD inserts patching information in.
+An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD inserts referenced allocations in.
 
 The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this array.
 
-### -field PatchLocationListSize
+### -field AllocationListSize [out]
 
-[out] The number of elements in the patch-location list that <b>pPatchLocationList</b> points to. This quantity of patch locations is available when the DirectX graphics kernel subsystem submits the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
+The number of elements in the array of allocations that <b>pAllocationList</b> points to. This quantity of allocations is available when the DirectX graphics kernel subsystem submits the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
 
 The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this number.
 
-### -field CommandBuffer
+### -field pPatchLocationList [out]
 
-[out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this memory pointer.
+An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD inserts patching information in.
+
+The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this array.
+
+### -field PatchLocationListSize [out]
+
+The number of elements in the patch-location list that <b>pPatchLocationList</b> points to. This quantity of patch locations is available when the DirectX graphics kernel subsystem submits the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
+
+The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this number.
+
+### -field CommandBuffer [out]
+
+A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function returns this memory pointer.
 
 ## -see-also
 

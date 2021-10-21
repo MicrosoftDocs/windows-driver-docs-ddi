@@ -49,19 +49,19 @@ For a "legacy" file system filter driver, the <b>FsRtlRemovePerFileObjectContext
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to a file object for which to remove context information.
 
-### -param OwnerId 
+### -param OwnerId [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated variable that uniquely identifies the owning filter of the per-file-object context structure. The format of this variable is filter-driver-specific.
 
-### -param InstanceId 
+### -param InstanceId [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated variable that can be used to distinguish among per-file-object context structures created by the same filter driver. The format of this variable is filter-driver-specific. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

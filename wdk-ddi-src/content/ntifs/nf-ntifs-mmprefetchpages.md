@@ -49,13 +49,13 @@ The **MmPrefetchPages** routine reads groups of pages from secondary storage in 
 
 ## -parameters
 
-### -param NumberOfLists
+### -param NumberOfLists [in]
 
-[in] The number of read-lists in the array passed in the *ReadLists* parameter.
+The number of read-lists in the array passed in the *ReadLists* parameter.
 
-### -param ReadLists
+### -param ReadLists [in]
 
-[in] A pointer to an array of read-lists to be prefetched.
+A pointer to an array of read-lists to be prefetched.
 
 ## -returns
 

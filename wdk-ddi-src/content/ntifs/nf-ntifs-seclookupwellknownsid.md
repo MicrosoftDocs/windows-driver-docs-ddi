@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param SidType
+### -param SidType [in]
 
-[in] An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE.
+An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -118,13 +118,13 @@ api_name:
 | WinBuiltinTerminalServerLicenseServersSid | Indicates a SID is present in a server that can issue Terminal Server licenses. |
 | WinBuiltinDCOMUsersSid | Indicates a SID that matches the DCOM users group. |
 
-### -param Sid
+### -param Sid [out]
 
-[out] A pointer to a buffer that receives the SID structure that corresponds to the *SidType* parameter. If this parameter is **NULL**, *SidBufferSize* must be zero.
+A pointer to a buffer that receives the SID structure that corresponds to the *SidType* parameter. If this parameter is **NULL**, *SidBufferSize* must be zero.
 
-### -param SidBufferSize
+### -param SidBufferSize [in]
 
-[in] A variable that specifies the size of the *Sid* buffer in bytes.
+A variable that specifies the size of the *Sid* buffer in bytes.
 
 ### -param OPTIONAL
 

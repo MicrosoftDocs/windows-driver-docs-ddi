@@ -52,34 +52,34 @@ The
 
 ## -parameters
 
-### -param MiniportDmaHandle 
+### -param MiniportDmaHandle [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns a handle the miniport
      driver uses in subsequent calls to the 
      <b>NdisM<i>Xxx</i></b> system DMA functions.
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport adapter handle input to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param DmaChannel 
+### -param DmaChannel [in]
 
-[in]
+
 Ignored. Set the DMA channel, if any, at 
      <i>DmaDescription</i> .
 
-### -param Dma32BitAddresses 
+### -param Dma32BitAddresses [in]
 
-[in]
+
 A boolean value that is <b>TRUE</b> if the NIC has 32 address lines. Otherwise, it is <b>FALSE</b>.
 
-### -param DmaDescription 
+### -param DmaDescription [in]
 
-[in]
+
 A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This structure is defined
      as follows: 
      
@@ -155,9 +155,9 @@ This member refers to the MCA bus, which is no longer supported. This member mus
 
 The bus-relative number of the system DMA controller channel used by the NIC.
 
-### -param MaximumLength 
+### -param MaximumLength [in]
 
-[in]
+
 The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
      unlimited transfer capacity, set this parameter to -1.
 

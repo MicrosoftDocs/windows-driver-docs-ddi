@@ -52,21 +52,21 @@ The D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure describes authenticated-channe
 
 ## -struct-fields
 
-### -field InputSize
+### -field InputSize [in]
 
-[in] The size, in bytes, of the input data that the <b>pInputData</b> member points to.
+The size, in bytes, of the input data that the <b>pInputData</b> member points to.
 
-### -field pInputData
+### -field pInputData [in]
 
-[in] A pointer to a buffer that describes the information to query. The buffer that <b>pInputData</b> points to is defined identically to the input buffer that is passed to the <b>IDirect3DAuthenticatedChannel::Query</b> method. For more information about <b>IDirect3DAuthenticatedChannel::Query</b>, see the Windows SDK documentation.
+A pointer to a buffer that describes the information to query. The buffer that <b>pInputData</b> points to is defined identically to the input buffer that is passed to the <b>IDirect3DAuthenticatedChannel::Query</b> method. For more information about <b>IDirect3DAuthenticatedChannel::Query</b>, see the Windows SDK documentation.
 
-### -field OutputSize
+### -field OutputSize [in]
 
-[in] The size, in bytes, of the output data that the <b>pOutputData</b> member points to.
+The size, in bytes, of the output data that the <b>pOutputData</b> member points to.
 
-### -field pOutputData
+### -field pOutputData [in/out]
 
-[in/out] A pointer to a buffer that describes the information that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel">QueryAuthenticatedChannel</a> function returns. The buffer that <b>pOutputData</b> points to is defined identically to the output buffer that the <b>IDirect3DAuthenticatedChannel::Query</b> method returns.
+A pointer to a buffer that describes the information that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel">QueryAuthenticatedChannel</a> function returns. The buffer that <b>pOutputData</b> points to is defined identically to the output buffer that the <b>IDirect3DAuthenticatedChannel::Query</b> method returns.
 
 ## -remarks
 

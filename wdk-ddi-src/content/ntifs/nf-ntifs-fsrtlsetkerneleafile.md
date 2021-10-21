@@ -52,19 +52,19 @@ The routine <b>FsRtlQueryKernelEaFile</b> is used to set, modify and/or delete e
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
-### -param EaBuffer 
+### -param EaBuffer [in]
 
-[in]
+
 A pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length of the EA buffer.
 
 ## -returns

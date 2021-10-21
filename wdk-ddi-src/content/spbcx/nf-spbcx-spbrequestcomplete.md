@@ -50,14 +50,14 @@ The <b>SpbRequestComplete</b> method completes an I/O request and supplies a com
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request to complete. The SPB controller driver previously received this handle through one of its registered <a href="/previous-versions/hh450911(v=vs.85)">event callback functions</a>.
 
-### -param CompletionStatus 
+### -param CompletionStatus [in]
 
-[in]
+
 An NTSTATUS value that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
 

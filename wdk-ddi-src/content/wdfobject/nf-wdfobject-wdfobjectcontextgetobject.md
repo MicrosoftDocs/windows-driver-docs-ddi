@@ -54,9 +54,9 @@ The <b>WdfObjectContextGetObject</b> method returns a handle to the framework ob
 
 ## -parameters
 
-### -param ContextPointer 
+### -param ContextPointer [in]
 
-[in]
+
 A pointer to object context space. The driver can obtain this pointer by calling <a href="/windows-hardware/drivers/wdf/wdfobjectgettypedcontext">WdfObjectGetTypedContext</a>.
 
 ## -returns

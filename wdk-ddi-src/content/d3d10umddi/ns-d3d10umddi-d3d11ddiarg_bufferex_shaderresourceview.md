@@ -49,25 +49,25 @@ The D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure describes a buffer that is
 
 ## -struct-fields
 
-### -field FirstElement
+### -field FirstElement [in]
 
-[in] The offset, in bytes, to the first element in the buffer.
+The offset, in bytes, to the first element in the buffer.
 
-### -field ElementOffset
+### -field ElementOffset [in]
 
-[in] The offset, in bytes, to the first element in the buffer.
+The offset, in bytes, to the first element in the buffer.
 
-### -field NumElements
+### -field NumElements [in]
 
-[in] The number of elements in the buffer.
+The number of elements in the buffer.
 
-### -field ElementWidth
+### -field ElementWidth [in]
 
-[in] The width, in elements, in the buffer.
+The width, in elements, in the buffer.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format.
+A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format.
 
 ## -see-also
 

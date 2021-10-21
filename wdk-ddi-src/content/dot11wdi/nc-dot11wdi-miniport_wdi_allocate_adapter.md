@@ -56,29 +56,29 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The NDIS-supplied handle that identifies the miniport adapter.
 
-### -param MiniportDriverContext 
+### -param MiniportDriverContext [in]
 
-[in]
+
 The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="/windows-hardware/drivers/ddi/dot11wdi/nf-dot11wdi-ndismregisterwdiminiportdriver">NdisMRegisterWdiMiniportDriver</a> function.
 
-### -param MiniportInitParameters 
+### -param MiniportInitParameters [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_init_parameters">NDIS_MINIPORT_INIT_PARAMETERS</a> structure that defines the initialization parameters for the miniport adapter.
 
-### -param NdisWdiInitParameters 
+### -param NdisWdiInitParameters [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a> structure that defines the WDI initialization parameters for the miniport adapter.
 
-### -param RegistrationAttributes 
+### -param RegistrationAttributes [in, out]
 
-[in, out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_registration_attributes">NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure that defines registration attributes that are associated with the miniport adapter.
 
 ## -returns

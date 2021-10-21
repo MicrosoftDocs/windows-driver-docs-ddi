@@ -49,19 +49,19 @@ The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whe
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in]
 
-[in]
+
 A pointer to a caller-allocated block of memory to compare.
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to be compared.
 
 ## -returns

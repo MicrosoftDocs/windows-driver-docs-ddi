@@ -54,18 +54,18 @@ A miniport driver must provide a
 
 ## -parameters
 
-### -param MiniportInterruptContext 
+### -param MiniportInterruptContext [in]
 
-[in]
+
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
-### -param MessageId 
+### -param MessageId [in]
 
-[in]
+
 A message-signaled interrupt (MSI) message identifier. 
      <i>MessageId</i> is an index to an 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info_entry">
@@ -76,9 +76,9 @@ A message-signaled interrupt (MSI) message identifier.
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a> function.
 
-### -param MiniportDpcContext 
+### -param MiniportDpcContext [in]
 
-[in]
+
 A pointer to a context area that the miniport driver supplied when it called the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismqueuedpcex">NdisMQueueDpcEx</a> or 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismqueuedpc">NdisMQueueDpc</a> function. If NDIS called 
@@ -88,9 +88,9 @@ A pointer to a context area that the miniport driver supplied when it called the
      MiniportMessageInterrupt</a> function, then 
      <i>MiniportDpcContext</i> is <b>NULL</b>.
 
-### -param ReceiveThrottleParameters 
+### -param ReceiveThrottleParameters [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure specifies the maximum number of 
@@ -104,9 +104,9 @@ A pointer to an
 
 Reserved for NDIS.
 
-### -param NdisReserved2 
+### -param NdisReserved2 [in]
 
-[in]
+
 Reserved for NDIS.
 
 <div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter's datatype is <b>PULONG</b>.</div>

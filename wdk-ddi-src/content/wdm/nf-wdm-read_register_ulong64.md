@@ -48,9 +48,9 @@ The **READ_REGISTER_ULONG64** routine dereferences the supplied pointer, inserts
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register address, which must be a mapped range in memory space.
 
 ## -returns

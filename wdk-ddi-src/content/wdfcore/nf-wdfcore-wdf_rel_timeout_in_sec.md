@@ -52,9 +52,9 @@ The <b>WDF_REL_TIMEOUT_IN_SEC</b> function converts a specified number of second
 
 ## -parameters
 
-### -param Time 
+### -param Time [in]
 
-[in]
+
 The number of seconds to convert.
 
 ## -returns

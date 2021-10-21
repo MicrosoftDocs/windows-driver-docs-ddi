@@ -50,9 +50,9 @@ The<b> KsStreamPointerLock </b>function attempts to lock the specified stream po
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer to attempt to lock.
 
 ## -returns

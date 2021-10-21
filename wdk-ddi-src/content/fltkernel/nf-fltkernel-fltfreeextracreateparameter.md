@@ -49,14 +49,14 @@ The <b>FltFreeExtraCreateParameter</b> routine frees the memory for an ECP conte
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 Pointer to the extra create parameter (ECP) context structure to be freed.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>GetData</b> method returns the contents of the target's memory, represent
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Number of bytes requested.  This must be the same as the size of the memory specified by the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a> constructor or the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a> or <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set(Offset Bytes)</a> methods.  If it is not the same, <b>ExtRemoteException</b> is thrown.
 
 ## -returns

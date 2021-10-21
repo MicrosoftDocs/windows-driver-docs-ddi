@@ -57,19 +57,19 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param pNBL 
+### -param pNBL [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> for which the RSSI is requested.
 
-### -param pRssi 
+### -param pRssi [out]
 
-[out]
+
 The absolute value of RSSI, in dB.
 
 ## -see-also

@@ -50,14 +50,14 @@ The HID source driver calls this method to submit a HID Read (Input) Report to V
 
 ## -parameters
 
-### -param VhfHandle 
+### -param VhfHandle [in]
 
-[in]
+
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a>.
 
-### -param HidTransferPacket 
+### -param HidTransferPacket [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure that describes the HID report.
 
 ## -returns

@@ -63,9 +63,9 @@ A handle to the display device (graphics context).
 
 The offset to the first sampler to set.
 
-### -param NumSamplers
+### -param NumSamplers [in]
 
-[in] The total number of samplers to set.
+The total number of samplers to set.
 
 ### -param unnamedParam4
 

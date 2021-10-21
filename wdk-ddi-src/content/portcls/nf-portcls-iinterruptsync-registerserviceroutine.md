@@ -49,19 +49,19 @@ The <code>RegisterServiceRoutine</code> method registers an interrupt service ro
 
 ## -parameters
 
-### -param Routine 
+### -param Routine [in]
 
-[in]
+
 Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
 
-### -param DynamicContext 
+### -param DynamicContext [in]
 
-[in]
+
 Specifies a context value that is passed to the routine when it is called.
 
-### -param First 
+### -param First [in]
 
-[in]
+
 Specifies whether the routine is added at the head or tail of the list of ISRs. If <b>TRUE</b>, the routine is added at the head of the list. If <b>FALSE</b>, it is added at the tail.
 
 ## -returns

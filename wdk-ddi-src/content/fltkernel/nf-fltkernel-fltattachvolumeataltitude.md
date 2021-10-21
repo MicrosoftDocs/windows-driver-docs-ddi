@@ -50,29 +50,29 @@ api_name:
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in, out]
 
-[in, out]
+
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Volume 
+### -param Volume [in, out]
 
-[in, out]
+
 Opaque volume pointer for the volume that the minifilter driver instance is to be attached to. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Altitude 
+### -param Altitude [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the altitude string for the instance. This parameter is required and cannot be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
 
-### -param InstanceName 
+### -param InstanceName [in, optional]
 
-[in, optional]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolumeAtAltitude</b> generates an instance name from the minifilter driver name and the altitude string that <i>Altitude </i>points to. The generated name is truncated, if necessary, to INSTANCE_NAME_MAX_CHARS characters.
 
-### -param RetInstance 
+### -param RetInstance [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the newly created instance. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

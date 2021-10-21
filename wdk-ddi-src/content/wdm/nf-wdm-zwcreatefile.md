@@ -49,14 +49,14 @@ The <b>ZwCreateFile</b> routine creates a new file or opens an existing file.
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [out]
 
-[out]
+
 A pointer to a HANDLE variable that receives a handle to the file.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
 
 <table>
@@ -233,14 +233,14 @@ Traverse the directory, in other words, include the directory in the path of a f
 
 For more information about access rights, see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation. In particular, the <b>Information</b> member receives one of the following values:
 
 <ul>
@@ -270,19 +270,19 @@ FILE_DOES_NOT_EXIST
 </li>
 </ul>
 
-### -param AllocationSize 
+### -param AllocationSize [in, optional]
 
-[in, optional]
+
 A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If <i>AllocationSize</i> is <b>NULL</b>, no allocation size is specified. If no file is created or overwritten, <i>AllocationSize</i> is ignored.
 
-### -param FileAttributes 
+### -param FileAttributes [in]
 
-[in]
+
 Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
 
-### -param ShareAccess 
+### -param ShareAccess [in]
 
-[in]
+
 Type of share access, which is specified as zero or any combination of the following flags.
 
 <table>
@@ -325,9 +325,9 @@ Delete the file
 
 Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
 
-### -param CreateDisposition 
+### -param CreateDisposition [in]
 
-[in]
+
 Specifies the action to perform if the file does or does not exist. <i>CreateDisposition</i> can be one of the values in the following table.
 
 <table>
@@ -422,9 +422,9 @@ Create the file.
 </tr>
 </table>
 
-### -param CreateOptions 
+### -param CreateOptions [in]
 
-[in]
+
 Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
 
 <table>
@@ -642,14 +642,14 @@ The client opening the file or device is session aware and per session access is
 </tr>
 </table>
 
-### -param EaBuffer 
+### -param EaBuffer [in, optional]
 
-[in, optional]
+
 For device and intermediate drivers, this parameter must be a <b>NULL</b> pointer.
 
-### -param EaLength 
+### -param EaLength [in]
 
-[in]
+
 For device and intermediate drivers, this parameter must be zero.
 
 ## -returns

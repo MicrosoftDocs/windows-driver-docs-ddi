@@ -49,34 +49,34 @@ The <b>GetLineByOffsetWide</b>  method returns the source filename and the line 
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's virtual address space of the instruction for which to return the source file and line number.
 
-### -param Line 
+### -param Line [out, optional]
 
-[out, optional]
+
 Receives the line number within the source file of the instruction specified by <i>Offset</i>.  If <i>Line</i> is <b>NULL</b>, this information is not returned.
 
-### -param FileBuffer 
+### -param FileBuffer [out, optional]
 
-[out, optional]
+
 Receives the file name of the file that contains the instruction specified by <i>Offset</i>.  If <i>FileBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param FileBufferSize 
+### -param FileBufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the <i>FileBuffer</i> buffer.
 
-### -param FileSize 
+### -param FileSize [out, optional]
 
-[out, optional]
+
 Specifies the size, in characters, of the source filename.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
-### -param Displacement 
+### -param Displacement [out, optional]
 
-[out, optional]
+
 Receives the difference between the location specified in <i>Offset</i> and the location of the first instruction of the returned line.  If <i>Displacement</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

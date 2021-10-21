@@ -50,14 +50,14 @@ The <b>BdaInitFilter</b> function initializes the BDA filter context associated 
 
 ## -parameters
 
-### -param pKSFilter 
+### -param pKSFilter [in]
 
-[in]
+
 Points to the filter in which to initialize the BDA filter context.
 
-### -param pBdaFilterTemplate 
+### -param pBdaFilterTemplate [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template">BDA_FILTER_TEMPLATE</a> structure that describes the filter template for the BDA device. To determine topology for and configure the initialized filter, the network provider uses information referenced in this BDA_FILTER_TEMPLATE structure.
 
 ## -returns

@@ -50,9 +50,9 @@ Gets a pointer to the enumerants of <a href="/windows-hardware/drivers/ddi/print
 
 ## -parameters
 
-### -param ppUnk 
+### -param ppUnk [out, retval]
 
-[out, retval]
+
 
 ## -returns
 

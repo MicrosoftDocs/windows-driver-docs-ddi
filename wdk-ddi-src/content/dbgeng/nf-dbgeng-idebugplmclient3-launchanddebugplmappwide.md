@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the application.
 
-### -param PackageFullName 
+### -param PackageFullName [in]
 
-[in]
+
 A pointer to the package name.
 
-### -param AppName 
+### -param AppName [in]
 
-[in]
+
 A pointer to the application name.
 
-### -param Arguments 
+### -param Arguments [in]
 
-[in]
+
 A pointer to an arguments string.
 
 ## -returns

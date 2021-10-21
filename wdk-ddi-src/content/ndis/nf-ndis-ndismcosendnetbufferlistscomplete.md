@@ -53,27 +53,27 @@ The
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 A handle that identifies a virtual connection (VC). The miniport driver obtained this handle as an
      input parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function, either
      when a client set up an outgoing call or when the call manager created a VC for a client-registered
      service access point (SAP) to indicate an incoming-call notification on.
 
-### -param NetBufferLists 
+### -param NetBufferLists [in]
 
-[in]
+
 A pointer to a linked list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures. The miniport
      driver received the NET_BUFFER_LIST structures in previous calls to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_send_net_buffer_lists">
      MiniportCoSendNetBufferLists</a> function.
 
-### -param SendCompleteFlags 
+### -param SendCompleteFlags [in]
 
-[in]
+
 NDIS flags that can be combined with a bitwise OR operation. To clear all of the flags, set this
      parameter to zero. 
      <b>NdisMCoSendNetBufferListsComplete</b> supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag,

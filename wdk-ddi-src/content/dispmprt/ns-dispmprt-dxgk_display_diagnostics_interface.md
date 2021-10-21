@@ -50,33 +50,33 @@ A kernel-mode component that needs to use the display diagnostics interface call
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in]
 
-[in] Size, in bytes, of this structure.
+Size, in bytes, of this structure.
 
-### -field Version
+### -field Version [in]
 
-[in] Version number of the display diagnostics interface. Version number constants are defined in *dispmprt.h* (for example, DXGK_DISPLAY_DIAGNOSTICS_INTERFACE_VERSION_1).
+Version number of the display diagnostics interface. Version number constants are defined in *dispmprt.h* (for example, DXGK_DISPLAY_DIAGNOSTICS_INTERFACE_VERSION_1).
 
-### -field Context
+### -field Context [out]
 
-[out] Pointer to a private context block provided by the display miniport driver. The operating system will provide this *Context* back to the driver in interface DDI calls. The driver should ensure that this context is adapter-specific and not driver-global because the operating system stores the interface information per adapter.
+Pointer to a private context block provided by the display miniport driver. The operating system will provide this *Context* back to the driver in interface DDI calls. The driver should ensure that this context is adapter-specific and not driver-global because the operating system stores the interface information per adapter.
 
-### -field InterfaceReference
+### -field InterfaceReference [out]
 
-[out] Pointer to the display miniport driver's [interface reference function](../wdm/nc-wdm-pinterface_reference.md).
+Pointer to the display miniport driver's [interface reference function](../wdm/nc-wdm-pinterface_reference.md).
 
-### -field InterfaceDereference
+### -field InterfaceDereference [out]
 
-[out] Pointer the display miniport driver's [interface dereference function](../wdm/nc-wdm-pinterface_dereference.md).
+Pointer the display miniport driver's [interface dereference function](../wdm/nc-wdm-pinterface_dereference.md).
 
-### -field DxgkDdiGetDisplayStateNonIntrusive
+### -field DxgkDdiGetDisplayStateNonIntrusive [out]
 
-[out] Pointer to the display miniport driver's [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) function.
+Pointer to the display miniport driver's [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) function.
 
-### -field DxgkDdiGetDisplayStateIntrusive
+### -field DxgkDdiGetDisplayStateIntrusive [out]
 
-[out] Pointer to the display miniport driver's [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) function.
+Pointer to the display miniport driver's [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) function.
 
 ## -remarks
 

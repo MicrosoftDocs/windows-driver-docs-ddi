@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param pDeviceObject 
+### -param pDeviceObject [in]
 
-[in]
+
 A pointer to the device object that initialized the timer. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
-### -param Routine 
+### -param Routine [in]
 
-[in]
+
 A pointer to the worker thread routine to call when this timer expires. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
-### -param pContext 
+### -param pContext [in]
 
-[in]
+
 A pointer to the context parameter that was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this timer was initialized.
 
 ## -returns

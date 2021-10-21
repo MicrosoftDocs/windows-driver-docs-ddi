@@ -49,9 +49,9 @@ The <b>PsDereferenceImpersonationToken</b> routine decrements the reference coun
 
 ## -parameters
 
-### -param ImpersonationToken 
+### -param ImpersonationToken [in]
 
-[in]
+
 Pointer to the impersonation token whose reference count is to be decremented. If this is a <b>NULL</b> pointer, <b>PsDereferenceImpersonationToken</b> does nothing.
 
 ## -remarks

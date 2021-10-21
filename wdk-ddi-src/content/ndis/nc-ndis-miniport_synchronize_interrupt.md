@@ -56,9 +56,9 @@ For message signaled interrupts, the miniport driver provides a <i>MiniportSynch
 
 ## -parameters
 
-### -param SynchronizeContext 
+### -param SynchronizeContext [in]
 
-[in]
+
 A handle to a context area that is supplied when the miniport driver's 
      <i>MiniportXxx</i> or internal function called the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsynchronizewithinterruptex">

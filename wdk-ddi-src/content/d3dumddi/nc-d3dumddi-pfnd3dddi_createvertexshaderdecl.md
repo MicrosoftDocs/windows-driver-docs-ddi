@@ -49,9 +49,9 @@ The <b>CreateVertexShaderDecl</b> function converts the vertex shader declaratio
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

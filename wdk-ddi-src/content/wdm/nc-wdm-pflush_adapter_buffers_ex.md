@@ -49,34 +49,34 @@ The  <b>FlushAdapterBuffersEx</b> routine flushes any data that remains in the d
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel or bus-master device. The caller obtained this pointer from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 A pointer to the MDL chain that describes the pages of memory that are to be flushed.  Set this parameter to point to the MDL chain that was used for the DMA transfer. For more information, see the description of the <i>Mdl</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>, <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>.
 
-### -param MapRegisterBase 
+### -param MapRegisterBase [in]
 
-[in]
+
 A handle to the map registers that were previously allocated for the adapter object.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The starting offset relative to the start of the MDL chain to use for the flush operation. Set this parameter to the value that was used as the starting offset for the DMA transfer. For more information, see the description of the <i>Offset</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>, <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes of data to flush. Set this parameter to the value that was used as the transfer length for the DMA transfer. For more information, see the description of the <i>Length</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>, <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 The direction of the DMA transfer. Set this parameter to the value that was used as the transfer direction for the DMA transfer. For more information, see the description of the <i>WriteToDevice</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>, <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>.
 
 ## -returns

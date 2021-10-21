@@ -50,9 +50,9 @@ The <b>RtlIsServicePackVersionInstalled</b> routine determines if a specified se
 
 ## -parameters
 
-### -param Version 
+### -param Version [in]
 
-[in]
+
 The service pack version of the Windows DDI that is available. The following table lists the possible values for <i>Version</i>.
 
 <table>

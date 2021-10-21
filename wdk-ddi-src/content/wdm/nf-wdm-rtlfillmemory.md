@@ -51,19 +51,19 @@ The <b>RtlFillMemory</b> routine fills a block of memory with the specified fill
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 A pointer to the block of memory to be filled.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes in the block of memory to be filled.
 
-### -param Fill 
+### -param Fill [in]
 
-[in]
+
 The value to fill the destination memory block with. This value is copied to every byte in the memory block that is defined by <i>Destination</i> and <i>Length</i>.
 
 ## -syntax

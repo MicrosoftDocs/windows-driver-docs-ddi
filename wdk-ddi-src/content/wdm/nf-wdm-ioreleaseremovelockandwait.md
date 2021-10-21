@@ -49,14 +49,14 @@ The <b>IoReleaseRemoveLockAndWait</b> routine releases a remove lock that the dr
 
 ## -parameters
 
-### -param RemoveLock 
+### -param RemoveLock [in]
 
-[in]
+
 Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller passed in a previous call to <b>IoAcquireRemoveLock</b>.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Pointer to a caller-supplied tag that was passed in a previous call to <b>IoAcquireRemoveLock</b>. 
 
 If a driver specified a <i>Tag</i> when it acquired the lock, the driver must specify the same <i>Tag</i> when releasing the lock. 

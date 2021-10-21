@@ -49,9 +49,9 @@ The <code>Notify</code> method should be called from the miniport driver's inter
 
 ## -parameters
 
-### -param ServiceGroup 
+### -param ServiceGroup [in, optional]
 
-[in, optional]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 ## -remarks

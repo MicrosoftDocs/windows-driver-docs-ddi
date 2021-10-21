@@ -51,24 +51,24 @@ The <b>IoSetPartitionInformation</b> routine is <b>obsolete</b> and is provided 
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object representing the device on which the partition type is to be set.
 
-### -param SectorSize 
+### -param SectorSize [in]
 
-[in]
+
 Specifies the size, in bytes, of sectors on the disk.
 
-### -param PartitionNumber 
+### -param PartitionNumber [in]
 
-[in]
+
 Specifies the partition number on the device whose partition type is to be set.
 
-### -param PartitionType 
+### -param PartitionType [in]
 
-[in]
+
 Specifies the type for the partition. For a list of some of the key partition types see <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a>.
 
 ## -returns

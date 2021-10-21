@@ -49,31 +49,31 @@ api_name:
 
 ## -parameters
 
-### -param CompanionTarget 
+### -param CompanionTarget [in]
 
-[in]
 
-### -param TaskQueueIdentifier 
 
-[in]
+### -param TaskQueueIdentifier [in]
 
-### -param TaskOperationCode 
 
-[in]
 
-### -param InputBuffer 
+### -param TaskOperationCode [in]
 
-[in, optional]
 
-### -param OutputBuffer 
 
-[in, optional]
+### -param InputBuffer [in, optional]
 
-### -param TaskOptions 
 
-[in, optional]
 
-### -param BytesReturned 
+### -param OutputBuffer [in, optional]
 
-[out]
+
+
+### -param TaskOptions [in, optional]
+
+
+
+### -param BytesReturned [out]
+
+
 

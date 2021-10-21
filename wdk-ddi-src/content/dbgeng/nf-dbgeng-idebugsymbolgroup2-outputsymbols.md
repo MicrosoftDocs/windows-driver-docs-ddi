@@ -49,14 +49,14 @@ The <b>OutputSymbols</b> method prints the specified <a href="/windows-hardware/
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 The output control to use when printing the symbols' information.  For more information about possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 The flags that determine what information is printed for each symbol.  By default, the output includes the symbol's name, offset, value, and type.  The format for the output is as follows:
 
 <code>Name**NAME**Offset**OFF**Value**VALUE**Type**TYPE**</code>
@@ -110,14 +110,14 @@ Suppress output of the symbol's type.
 </tr>
 </table>
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 The index of the first symbol in the symbol group to print.  The index of a symbol is an identification number. This number ranges from zero through the number of symbols in the symbol group minus one.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 The number of symbols to print.
 
 ## -returns

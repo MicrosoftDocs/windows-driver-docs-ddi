@@ -52,14 +52,14 @@ The <b>WdfDeviceEnqueueRequest</b> method delivers a specified I/O request to th
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

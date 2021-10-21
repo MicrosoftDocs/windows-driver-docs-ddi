@@ -49,14 +49,14 @@ A streaming minidriver's <i>KStrCancelTimer</i> routine is called to cancel a cu
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
-### -param Timer 
+### -param Timer [in]
 
-[in]
+
 Pointer to the minidriver's custom timer object to cancel.
 
 ## -returns

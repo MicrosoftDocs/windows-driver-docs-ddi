@@ -48,22 +48,22 @@ Used to set sync refresh count for wait target.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field hDevice
+### -field hDevice [in, opt]
 
-[in, opt] A handle to the device.
+A handle to the device.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field TargetSyncRefreshCount
+### -field TargetSyncRefreshCount [in]
 
  
-[in] The target sync refresh count.
+The target sync refresh count.
 
 ## -remarks
 

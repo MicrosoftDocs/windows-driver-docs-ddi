@@ -49,9 +49,9 @@ The <b>CreateVertexShaderFunc</b> function converts vertex shader code into a ha
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

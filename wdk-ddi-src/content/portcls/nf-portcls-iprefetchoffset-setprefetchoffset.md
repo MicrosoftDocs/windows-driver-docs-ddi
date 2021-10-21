@@ -49,9 +49,9 @@ The <code>SetPreFetchOffset</code> method sets the prefetch offset, which is the
 
 ## -parameters
 
-### -param PreFetchOffset 
+### -param PreFetchOffset [in]
 
-[in]
+
 Specifies the prefetch offset size in bytes.
 
 ## -remarks

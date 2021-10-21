@@ -44,17 +44,17 @@ Arguments used the by the [DXGKDDI_SUBMITTARGETCONTROL](nc-d3dkmddi-dxgkddi_subm
 
 ## -struct-fields
 
-### -field TargetId
+### -field TargetId [in]
 
-[in] The target to be modified.
+The target to be modified.
 
-### -field Type
+### -field Type [in]
 
-[in] The target control type.
+The target control type.
 
-### -field pDsi2Transmission
+### -field pDsi2Transmission [in, out]
  
-[in, out] A pointer to a [DXGK_DSI2_TRANSMISSION](ns-d3dkmddi-dxgk_dsi2_transmission.md) that represents the Dsi2 transmission.
+A pointer to a [DXGK_DSI2_TRANSMISSION](ns-d3dkmddi-dxgk_dsi2_transmission.md) that represents the Dsi2 transmission.
 
 ## -remarks
 

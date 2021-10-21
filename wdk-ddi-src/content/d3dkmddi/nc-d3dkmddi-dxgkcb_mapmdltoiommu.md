@@ -2,12 +2,12 @@
 UID: NC:d3dkmddi.DXGKCB_MAPMDLTOIOMMU
 title: DXGKCB_MAPMDLTOIOMMU (d3dkmddi.h)
 description: DXGKCB_MAPMDLTOIOMMU maps a memory descriptor list (MDL) to the IOMMU so that the underlying memory can be accessed by the GPU.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKCB_MAPMDLTOIOMMU callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,17 +42,17 @@ product:
 
 ## -description
 
-**DXGKCB_MAPMDLTOIOMMU** maps a memory descriptor list (MDL) to the IOMMU so that the underlying memory can be accessed by the GPU.
+A kernel-mode display miniport driver calls **DXGKCB_MAPMDLTOIOMMU** to map a memory descriptor list (MDL) to the IOMMU so that the underlying memory can be accessed by the GPU.
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
 
-### -param pMapMdlToIoMmu
+### -param pMapMdlToIoMmu [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_MAPMDLTOIOMMU**](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md) structure that contains a handle to the memory.
+Pointer to a [**DXGKARGCB_MAPMDLTOIOMMU**](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md) structure that contains a handle to the memory.
 
 ## -returns
 
@@ -60,7 +60,7 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 ## -remarks
 
-To use this callback function, the kernel-mode driver sets the appropriate member of [DXGKARGCB_MAPMDLTOIOMMU](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md) and then calls **DxgkCbMapMdlToIoMmu** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate member of [DXGKARGCB_MAPMDLTOIOMMU](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md) and then call **DxgkCbMapMdlToIoMmu** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 If the driver uses this callback, it is responsible for ensuring that the lifetime of the MDL exceeds the corresponding [**DXGKCB_UNMAPMDLFROMIOMMU**](nc-d3dkmddi-dxgkcb_unmapmdlfromiommu.md) call. Otherwise the **DXGKCB_UNMAPMDLFROMIOMMU** call has undefined behavior and may lead to compromised security of the pages from the MDL. The pages could get repurposed by Mm by the time they are unmapped.
 
@@ -68,4 +68,8 @@ See [IOMMU-based GPU isolation](/windows-hardware/drivers/display/iommu-based-gp
 
 ## -see-also
 
+[DXGKARGCB_MAPMDLTOIOMMU](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md)
+
 [**DXGKCB_UNMAPMDLFROMIOMMU**](nc-d3dkmddi-dxgkcb_unmapmdlfromiommu.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

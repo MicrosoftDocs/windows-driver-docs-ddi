@@ -49,9 +49,9 @@ Gets a stream in order to read from a stream property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
 ### -param ppValue

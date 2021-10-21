@@ -48,13 +48,13 @@ The D3D12DDICB_OFFERALLOCATIONS structure is used to offer allocations.
 
 ## -struct-fields
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of allocations in the HandleList array.
+The number of allocations in the HandleList array.
 
-### -field HandleList
+### -field HandleList [in]
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations.
+An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations.
 
 ### -field Priority
 

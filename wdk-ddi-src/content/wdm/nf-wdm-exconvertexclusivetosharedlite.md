@@ -50,9 +50,9 @@ The <b>ExConvertExclusiveToSharedLite</b> routine converts a given resource from
 
 ## -parameters
 
-### -param Resource 
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to the resource for which the access should be converted.
 
 ## -remarks

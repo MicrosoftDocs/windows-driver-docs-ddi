@@ -54,14 +54,14 @@ The <b>WdfDeviceGetDeviceState</b> method retrieves the device state for a speci
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param DeviceState 
+### -param DeviceState [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure that receives the device's state information.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>GetPassCount</b> method returns the number of times that the target was o
 
 ## -parameters
 
-### -param Count 
+### -param Count [out]
 
-[out]
+
 The number of times that the target was originally required to hit the breakpoint before it is triggered.  The number of times that the target was originally required to pass the breakpoint without triggering it is the value that is returned to <i>Count</i>, minus one.
 
 ## -returns

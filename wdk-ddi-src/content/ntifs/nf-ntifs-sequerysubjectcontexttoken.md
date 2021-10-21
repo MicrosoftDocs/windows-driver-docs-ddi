@@ -48,9 +48,9 @@ The **SeQuerySubjectContextToken** macro retrieves the access token for a securi
 
 ## -parameters
 
-### -param SubjectContext
+### -param SubjectContext [in]
 
-[in] Pointer to a [**SECURITY_SUBJECT_CONTEXT**](../wdm/ns-wdm-_security_subject_context.md) structure containing the subject context to query.
+Pointer to a [**SECURITY_SUBJECT_CONTEXT**](../wdm/ns-wdm-_security_subject_context.md) structure containing the subject context to query.
 
 ## -returns
 

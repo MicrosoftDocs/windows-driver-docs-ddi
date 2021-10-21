@@ -53,14 +53,14 @@ This routine returns the first job in the hierarchy that is a <i>Silo</i>.  The 
 
 ## -parameters
 
-### -param Job 
+### -param Job [in]
 
-[in]
+
 A job object.
 
-### -param Silo 
+### -param Silo [out]
 
-[out]
+
  A pointer that receives the silo for the job.
 
 ## -returns

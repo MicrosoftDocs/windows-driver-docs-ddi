@@ -49,14 +49,14 @@ The <b>NtDuplicateToken</b> function creates a handle to a new <a href="/windows
 
 ## -parameters
 
-### -param ExistingTokenHandle 
+### -param ExistingTokenHandle [in]
 
-[in]
+
 A handle to an existing access token that was opened with the TOKEN_DUPLICATE access right. This parameter is required and cannot be <b>NULL</b>.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Bitmask that specifies the requested access rights for the new token. <b>NtDuplicateToken</b> compares the requested access rights with the existing token's discretionary access control list (DACL) to determine which rights are granted or denied to the new token. To request the same access rights as the existing token, specify zero. To request all access rights that are valid for the caller, specify MAXIMUM_ALLOWED. This parameter is optional and can either be zero, MAXIMUM_ALLOWED, or a bitwise OR combination of one or more of the following values:
 
 <table>
@@ -299,9 +299,9 @@ Combines all possible token access permissions for a token.
 
 For additional information, see <a href="/windows/win32/secauthz/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> in the Microsoft Windows SDK. Note that access tokens do not support the SYNCHRONIZE right.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
 
 When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
@@ -321,14 +321,14 @@ If the existing token is a primary token and no impersonation level information 
 </li>
 </ul>
 
-### -param EffectiveOnly 
+### -param EffectiveOnly [in]
 
-[in]
+
 A Boolean value that indicates whether the entire existing token should be duplicated into the new token or just the effective (currently enabled) part of the token. If set to <b>TRUE</b>, only the currently enabled parts of the source token will be duplicated. If set to <b>FALSE</b>, the entire existing token will be duplicated. This provides a means for a caller of a protected subsystem to limit which optional groups and privileges are made available to the protected subsystem. For example, if <i>EffectiveOnly</i> is <b>TRUE</b>, the caller could duplicate a token but remove the Administrators group and the SeTcbPrivilege right. The resulting token could then be passed to a child process (<a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>), which would restrict what the child process can do. This parameter is required.
 
-### -param TokenType 
+### -param TokenType [in]
 
-[in]
+
 Specifies one of the following values from the <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a> enumeration.
 
 <table>
@@ -361,9 +361,9 @@ The new token is an impersonation token. If the existing token is an impersonati
 
 The <i>TokenType</i> parameter is required and cannot be <b>NULL</b>.
 
-### -param NewTokenHandle 
+### -param NewTokenHandle [out]
 
-[out]
+
 A pointer to a caller-allocated variable, of type HANDLE, that receives a handle to the new token. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

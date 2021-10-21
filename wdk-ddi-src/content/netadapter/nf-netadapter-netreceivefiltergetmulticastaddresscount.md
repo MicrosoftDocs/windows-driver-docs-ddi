@@ -45,9 +45,9 @@ The **NetReceiveFilterGetMulticastAddressCount** function retrieves the number o
 
 ## -parameters
 
-### -param ReceiveFilter
+### -param ReceiveFilter [_In_]
 
-[_In_] A handle to a NETRECEIVEFILTER object.
+A handle to a NETRECEIVEFILTER object.
 
 ## -returns
 

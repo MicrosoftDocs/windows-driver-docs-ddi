@@ -54,19 +54,19 @@ The <b>WdfTimerCreate</b> method creates a framework timer object.
 
 ## -parameters
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure.
 
-### -param Attributes 
+### -param Attributes [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new timer object.
 
-### -param Timer 
+### -param Timer [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new framework timer object.
 
 ## -returns

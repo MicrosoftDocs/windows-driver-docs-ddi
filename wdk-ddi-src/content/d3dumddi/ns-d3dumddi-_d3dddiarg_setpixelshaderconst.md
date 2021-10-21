@@ -52,13 +52,13 @@ The D3DDDIARG_SETPIXELSHADERCONST structure describes how to set the pixel shade
 
 ## -struct-fields
 
-### -field Register
+### -field Register [in]
 
-[in] The index of the first pixel shader constant register whose value is set.
+The index of the first pixel shader constant register whose value is set.
 
-### -field Count
+### -field Count [in]
 
-[in] The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconst">SetPixelShaderConst</a>, <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconsti">SetPixelShaderConstI</a>, or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconstb">SetPixelShaderConstB</a> function.
+The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconst">SetPixelShaderConst</a>, <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconsti">SetPixelShaderConstI</a>, or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconstb">SetPixelShaderConstB</a> function.
 
 ## -remarks
 

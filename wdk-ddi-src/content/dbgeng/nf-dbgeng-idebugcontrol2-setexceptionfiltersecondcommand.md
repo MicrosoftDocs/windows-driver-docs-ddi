@@ -49,14 +49,14 @@ The <b>SetExceptionFilterSecondCommand</b>  method sets the command that will be
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the exception filter whose second-chance command will be set.  <i>Index</i> must not refer to the specific event filters as these are not exception filters and only exception events get a second chance.  If <i>Index</i> refers to the default exception filter, the second-chance command is set for all exceptions that do not have an exception filter.
 
-### -param Command 
+### -param Command [in]
 
-[in]
+
 Receives the second-chance command for the exception filter.
 
 ## -returns

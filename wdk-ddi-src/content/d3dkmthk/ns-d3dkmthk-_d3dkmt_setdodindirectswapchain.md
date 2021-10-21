@@ -44,25 +44,25 @@ Used to set the device owner display's (DOD) indirect swap chain resources.
 
 ## -struct-fields
 
-### -field hDodAdapter
+### -field hDodAdapter [in]
 
-[in] A handle to the DOD (device owner's display) adapter.
+A handle to the DOD (device owner's display) adapter.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device.
+A handle to the device.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field hNtSwapChain
+### -field hNtSwapChain [in]
 
-[in] NT handle for swap chain in this process.
+NT handle for swap chain in this process.
 
-### -field bTerminateOutput
+### -field bTerminateOutput [in]
  
-[in] Swap chain owner is reporting a device timeout.
+Swap chain owner is reporting a device timeout.
 
 ## -remarks
 

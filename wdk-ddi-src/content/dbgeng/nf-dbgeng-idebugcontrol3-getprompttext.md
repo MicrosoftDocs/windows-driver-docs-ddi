@@ -49,19 +49,19 @@ The <b>GetPromptText</b>  method returns the standard prompt text that will be p
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the prompt text.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-### -param TextSize 
+### -param TextSize [out, optional]
 
-[out, optional]
+
 Receives the size, in characters, of the prompt text.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

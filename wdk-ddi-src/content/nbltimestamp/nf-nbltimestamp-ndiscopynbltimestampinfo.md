@@ -48,14 +48,14 @@ Miniport drivers call the **NdisCopyNblTimestampInfo** function to copy a softwa
 
 ## -parameters
 
-### -param NblDest
+### -param NblDest [_Inout_]
 
-[_Inout_]
+
 A pointer to a destination [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
 
-### -param NblSrc
+### -param NblSrc [_In_]
 
-[_In_]
+
 A pointer to the source **NET_BUFFER_LIST** structure where the miniport driver stored the timestamp.
 
 ## -remarks

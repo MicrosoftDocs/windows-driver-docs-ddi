@@ -50,9 +50,9 @@ Converts all items in the collection to the specified <b>VARTYPE</b>.
 
 ## -parameters
 
-### -param vt 
+### -param vt [in]
 
-[in]
+
 Specifies the <b>VARTYPE</b> to which you want to convert all items in the collection.
 
 ## -returns

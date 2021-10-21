@@ -48,17 +48,17 @@ A miniport driver's **HwStorAdapterControl** routine is called to perform synchr
 
 ## -parameters
 
-### -param DeviceExtension
+### -param DeviceExtension [in]
 
-[in] A pointer to the miniport driver's per-HBA storage area.
+A pointer to the miniport driver's per-HBA storage area.
 
-### -param ControlType
+### -param ControlType [in]
 
-[in] A [**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md) value that specifies an adapter-control operation, where each control type initiates an action by the miniport driver. See **SCSI_ADAPTER_CONTROL_TYPE** for details.
+A [**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md) value that specifies an adapter-control operation, where each control type initiates an action by the miniport driver. See **SCSI_ADAPTER_CONTROL_TYPE** for details.
 
-### -param Parameters
+### -param Parameters [in]
 
-[in] Pointer to a structure or value that contains information related to the **ControlType**, or NULL if the control type doesn't use a structure. All structures are caller-allocated. See [**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md) for details.
+Pointer to a structure or value that contains information related to the **ControlType**, or NULL if the control type doesn't use a structure. All structures are caller-allocated. See [**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md) for details.
 
 ## -returns
 

@@ -46,9 +46,9 @@ The **NetDeviceRequestReset** function triggers the NetAdapterCx framework to pe
 
 ## -parameters
 
-### -param Device
+### -param Device [_In_]
 
-[_In_] The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
 

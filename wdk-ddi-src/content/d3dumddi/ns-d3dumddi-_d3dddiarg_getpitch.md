@@ -52,21 +52,21 @@ The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the <a
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] A handle to the encryption session.
+A handle to the encryption session.
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource.
+A handle to the resource.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource, which the <b>hResource</b> handle specifies. This index indicates the encrypted surface.
+The zero-based index into the resource, which the <b>hResource</b> handle specifies. This index indicates the encrypted surface.
 
-### -field Pitch
+### -field Pitch [out]
 
-[out] The pitch, in bytes, of the encrypted surface. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a> function returns this pitch value to the Direct3D runtime.
+The pitch, in bytes, of the encrypted surface. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a> function returns this pitch value to the Direct3D runtime.
 
 ## -see-also
 

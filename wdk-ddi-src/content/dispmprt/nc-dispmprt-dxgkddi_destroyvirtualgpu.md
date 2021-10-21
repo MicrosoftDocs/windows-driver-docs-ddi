@@ -50,13 +50,13 @@ The DxgkDdiDestroyVirtualGpu function destroys a previously created virtual GPU.
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [DXGKARG_DESTROYVIRTUALGPU](ns-dispmprt-_dxgkarg_destroyvirtualgpu.md) structure.
+Pointer to a [DXGKARG_DESTROYVIRTUALGPU](ns-dispmprt-_dxgkarg_destroyvirtualgpu.md) structure.
 
 ## -returns
 

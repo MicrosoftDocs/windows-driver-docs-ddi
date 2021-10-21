@@ -49,14 +49,14 @@ This function notifies the class extension that the driver has retrieved data.
 
 ## -parameters
 
-### -param Sensor 
+### -param Sensor [in]
 
-[in]
+
 A reference to a sensor object.
 
-### -param pSensorData 
+### -param pSensorData [in]
 
-[in]
+
 A list of <a href="/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ## -returns

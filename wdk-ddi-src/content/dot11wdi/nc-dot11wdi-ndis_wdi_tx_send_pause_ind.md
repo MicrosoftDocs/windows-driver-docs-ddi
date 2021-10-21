@@ -54,29 +54,29 @@ This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 The port ID. Wildcards are accepted.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID. Wildcards are accepted.
 
-### -param ExTidBitmask 
+### -param ExTidBitmask [in]
 
-[in]
+
 The Extended TID bitmask. See <i>Remarks</i> section for more information.
 
-### -param TxPauseReason 
+### -param TxPauseReason [in]
 
-[in]
+
 TX pause reason bitmask, specified as <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a> value(s). See <i>Remarks</i> section for more information.
 
 ## -remarks

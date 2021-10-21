@@ -48,17 +48,17 @@ The **KeInsertQueueDpc** routine queues a DPC for execution.
 
 ## -parameters
 
-### -param Dpc
+### -param Dpc [in, out]
 
-[in, out] Pointer to the [KDPC](/windows-hardware/drivers/kernel/eprocess) structure for the DPC object. This structure must have been initialized by either [KeInitializeDpc](./nf-wdm-keinitializedpc.md) or [KeInitializeThreadedDpc](./nf-wdm-keinitializethreadeddpc.md).
+Pointer to the [KDPC](/windows-hardware/drivers/kernel/eprocess) structure for the DPC object. This structure must have been initialized by either [KeInitializeDpc](./nf-wdm-keinitializedpc.md) or [KeInitializeThreadedDpc](./nf-wdm-keinitializethreadeddpc.md).
 
-### -param SystemArgument1
+### -param SystemArgument1 [in, optional]
 
-[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument1* parameter to the DPC object's [CustomDpc](./nc-wdm-kdeferred_routine.md) or [CustomThreadedDpc](nc-wdm-kdeferred_routine.md) routine.
+Specifies driver-determined context data. This value is passed as the *SystemArgument1* parameter to the DPC object's [CustomDpc](./nc-wdm-kdeferred_routine.md) or [CustomThreadedDpc](nc-wdm-kdeferred_routine.md) routine.
 
-### -param SystemArgument2
+### -param SystemArgument2 [in, optional]
 
-[in, optional] Specifies driver-determined context data. This value is passed as the *SystemArgument2* parameter to the DPC object's [CustomDpc](./nc-wdm-kdeferred_routine.md) or *CustomThreadedDpc* routine.
+Specifies driver-determined context data. This value is passed as the *SystemArgument2* parameter to the DPC object's [CustomDpc](./nc-wdm-kdeferred_routine.md) or *CustomThreadedDpc* routine.
 
 ## -returns
 

@@ -49,24 +49,24 @@ The <b>RtlHashUnicodeString </b>routine creates a hash value from a given Unicod
 
 ## -parameters
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the Unicode string to be converted to a hash value.
 
-### -param CaseInSensitive 
+### -param CaseInSensitive [in]
 
-[in]
+
 Specifies whether to treat the Unicode string as case sensitive when computing the hash value. If <i>CaseInSensitive</i> is <b>TRUE</b>, a lowercase and uppercase string hash to the same value.
 
-### -param HashAlgorithm 
+### -param HashAlgorithm [in]
 
-[in]
+
 The hash algorithm to use. If <i>HashAlgorithm</i> is HASH_STRING_ALGORITHM_X65599, <b>RtlHashUnicodeString</b> uses the x65599 hashing algorithm. If <i>HashAlgorithm</i> is HASH_STRING_ALGORITHM_DEFAULT, <b>RtlHashUnicodeString</b> uses the default algorithm. Currently, the default algorithm is the x65599 hashing algorithm.
 
-### -param HashValue 
+### -param HashValue [out]
 
-[out]
+
 A pointer to a ULONG variable that receives the hash value.
 
 ## -returns

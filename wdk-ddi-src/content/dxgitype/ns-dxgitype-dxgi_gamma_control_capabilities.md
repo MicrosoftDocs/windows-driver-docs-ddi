@@ -49,25 +49,25 @@ The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities.
 
 ## -struct-fields
 
-### -field ScaleAndOffsetSupported
+### -field ScaleAndOffsetSupported [out]
 
-[out] A BOOL value that indicates whether the device supports scale and offset. <b>TRUE</b> indicates that the device supports scale and offset; <b>FALSE</b> indicates that the device does not support scale and offset.
+A BOOL value that indicates whether the device supports scale and offset. <b>TRUE</b> indicates that the device supports scale and offset; <b>FALSE</b> indicates that the device does not support scale and offset.
 
-### -field MaxConvertedValue
+### -field MaxConvertedValue [out]
 
-[out] A single-precision float vector for the maximum converted value for the gamma control.
+A single-precision float vector for the maximum converted value for the gamma control.
 
-### -field MinConvertedValue
+### -field MinConvertedValue [out]
 
-[out] A single-precision float vector for the minimum converted value for the gamma control.
+A single-precision float vector for the minimum converted value for the gamma control.
 
-### -field NumGammaControlPoints
+### -field NumGammaControlPoints [out]
 
-[out] The number of elements in the array that the <b>ControlPointPositions</b> member specifies.
+The number of elements in the array that the <b>ControlPointPositions</b> member specifies.
 
-### -field ControlPointPositions
+### -field ControlPointPositions [out]
 
-[out] An array of single-precision float vectors that describe the gamma control point positions.
+An array of single-precision float vectors that describe the gamma control point positions.
 
 ## -see-also
 

@@ -55,9 +55,9 @@ Call the
 
 A pointer to the NET_BUFFER_LIST structure to reassemble.
 
-### -param NetBufferAndNetBufferListPoolHandle 
+### -param NetBufferAndNetBufferListPoolHandle [in, optional]
 
-[in, optional]
+
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
      <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. The 
@@ -66,31 +66,31 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
      <b>DataSize</b> member set to zero. If this parameter is <b>NULL</b>, NDIS uses an internal pool.
 
-### -param StartOffset 
+### -param StartOffset [in]
 
-[in]
+
 The amount of data to skip at the beginning of each source 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure. This amount is in addition
      to the value that is specified in the 
      <b>DataOffset</b> member of the NET_BUFFER structure.
 
-### -param DataOffsetDelta 
+### -param DataOffsetDelta [in]
 
-[in]
+
 The number of bytes of 
      <i>used data space</i> to add to in the reassembled NET_BUFFER structure.
 
-### -param DataBackFill 
+### -param DataBackFill [in]
 
-[in]
+
 If allocation of 
      <i>unused data space</i> (backfill space) is required, this parameter specifies the number of bytes of 
      <i>unused data space</i> in addition to 
      <i>DataOffsetDelta</i> to allocate.
 
-### -param AllocateReassembleFlags 
+### -param AllocateReassembleFlags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
 

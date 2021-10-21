@@ -49,24 +49,24 @@ The <i>HwVidBugcheckCallback</i> function enables the miniport driver to append 
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
-### -param BugcheckCode 
+### -param BugcheckCode [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check code</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to the memory location where the miniport driver can store the data that is to be appended to the dump file.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer pointed to by the <i>Buffer</i> parameter.
 
 ## -remarks

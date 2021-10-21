@@ -53,14 +53,14 @@ The <b>FltFlushBuffers</b> routine is used by the minifilter driver to send a fl
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer for the file to be flushed. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

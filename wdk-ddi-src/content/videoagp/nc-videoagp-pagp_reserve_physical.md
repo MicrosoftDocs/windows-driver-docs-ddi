@@ -49,19 +49,19 @@ The <b>AgpReservePhysical</b> function reserves a range of physical addresses on
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param Pages 
+### -param Pages [in]
 
-[in]
+
 Specifies the number of pages that the video port driver should reserve.
 
-### -param Caching 
+### -param Caching [in]
 
-[in]
+
 Specifies the type of caching that the system should use. This parameter can be set to one of the following values.
 
 | **Value** | **Meaning** | 
@@ -70,9 +70,9 @@ Specifies the type of caching that the system should use. This parameter can be 
 | **VpWriteCombined** | The system should use write-combined (WC) caching. For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](/previous-versions/windows/hardware/design/dn642116(v=vs.85))  website article. | 
 | **VpCached** | The system should use ordinary caching. |
 
-### -param PhysicalReserveContext 
+### -param PhysicalReserveContext [out]
 
-[out]
+
 Specifies the location in which the video port driver writes a context handle that identifies the reserved physical address space.
 
 ## -returns

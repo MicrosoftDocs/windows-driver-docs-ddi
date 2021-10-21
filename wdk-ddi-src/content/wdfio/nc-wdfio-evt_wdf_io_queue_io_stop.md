@@ -51,19 +51,19 @@ A driver's <i>EvtIoStop</i> event callback function completes, requeues, or susp
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to the framework queue object that is associated with the I/O request.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param ActionFlags 
+### -param ActionFlags [in]
 
-[in]
+
 A bitwise OR of one or more <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_stop_action_flags">WDF_REQUEST_STOP_ACTION_FLAGS</a>-typed flags that identify the reason that the callback function is being called and whether the request is cancelable.
 
 ## -remarks

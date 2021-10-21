@@ -52,19 +52,19 @@ The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function initializes a <a href="/windo
 
 ## -parameters
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure.
 
-### -param EvtTimerFunc 
+### -param EvtTimerFunc [in]
 
-[in]
+
 A pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function.
 
-### -param Period 
+### -param Period [in]
 
-[in]
+
 A time value. For more information about specifying this value, see <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>.
 
 ## -remarks

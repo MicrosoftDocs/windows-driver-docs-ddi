@@ -47,17 +47,17 @@ Retrieves the properties of a hub. The properties are static, which do not chang
 
 ## -parameters
 
-### -param ClientHandle
+### -param ClientHandle [In]
 
-[In] The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
+The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
 
-### -param HubHandle
+### -param HubHandle [In]
 
-[In] The hub handle provided by Policy Manager when it calls the driver's implementation of [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md). The handle is set in the **EventData.HubArrivalRemoval.HubHandle** member of the _Params_ value.
+The hub handle provided by Policy Manager when it calls the driver's implementation of [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md). The handle is set in the **EventData.HubArrivalRemoval.HubHandle** member of the _Params_ value.
 
-### -param HubProperties
+### -param HubProperties [Out]
 
-[Out] A pointer to a driver-provided [**USBPM_HUB_PROPERTIES**](ns-usbpmapi-_usbpm_hub_properties.md) structure that receives the hub properties. Initialize the structure by calling  [**USBPM_HUB_PROPERTIES_INIT**](nf-usbpmapi-usbpm_hub_properties_init.md).
+A pointer to a driver-provided [**USBPM_HUB_PROPERTIES**](ns-usbpmapi-_usbpm_hub_properties.md) structure that receives the hub properties. Initialize the structure by calling  [**USBPM_HUB_PROPERTIES_INIT**](nf-usbpmapi-usbpm_hub_properties_init.md).
 
 ## -returns
 

@@ -49,14 +49,14 @@ The <b>PoQueryWatchdogTime</b> routine indicates whether the power manager has e
 
 ## -parameters
 
-### -param Pdo 
+### -param Pdo [in]
 
-[in]
+
 A pointer to a physical device object (PDO). This parameter points to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device.
 
-### -param SecondsRemaining 
+### -param SecondsRemaining [out]
 
-[out]
+
 A pointer to a location into which the routine writes the time, in seconds, that remains before the next power watchdog time-out is set to occur.
 
 ## -returns

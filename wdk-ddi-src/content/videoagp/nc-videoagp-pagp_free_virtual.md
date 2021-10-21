@@ -49,24 +49,24 @@ The <b>AgpFreeVirtual</b> function frees virtual memory committed by a previous 
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param VirtualReserveContext 
+### -param VirtualReserveContext [in]
 
-[in]
+
 Identifies a reserved virtual address range. This context handle was obtained from <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>.
 
-### -param Pages 
+### -param Pages [in]
 
-[in]
+
 Specifies the number of pages of virtual memory that the video port driver should unmap.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the page offset into the reserved virtual address range identified by <b>VirtualReserveContext</b> that indicates the actual base address at which to unmap virtual memory.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>GetEventCallbacksWide</b> method returns the event callbacks object regis
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 Receives an interface pointer to the event callbacks object registered with this client.
 
 ## -returns

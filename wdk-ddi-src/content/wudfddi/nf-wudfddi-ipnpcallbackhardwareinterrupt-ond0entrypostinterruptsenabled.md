@@ -53,9 +53,9 @@ A driver's <b>OnD0EntryPostInterruptsEnabled</b> event callback function perform
 
 ### -param pDevice
 
-### -param PreviousState 
+### -param PreviousState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
 
 

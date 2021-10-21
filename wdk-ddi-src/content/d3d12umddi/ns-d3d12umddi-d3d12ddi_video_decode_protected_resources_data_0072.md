@@ -41,17 +41,17 @@ Data structure used to check for video decode protected resource support capabil
 
 ## -struct-fields
 
-### -field NodeIndex
+### -field NodeIndex [in]
 
-[in] In multi-adapter operation, this value indicates which physical adapter of the device that this operation applies to.
+In multi-adapter operation, this value indicates which physical adapter of the device that this operation applies to.
 
-### -field Configuration
+### -field Configuration [in]
 
-[in] A [**D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020**](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure containing video decode configuration information.
+A [**D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020**](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure containing video decode configuration information.
 
-### -field SupportFlags
+### -field SupportFlags [out]
 
-[out] A [**D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072**](ne-d3d12umddi-d3d12ddi_video_protected_resource_support_flags_0072.md) value in which to return the video decode protected resource support level.
+A [**D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072**](ne-d3d12umddi-d3d12ddi_video_protected_resource_support_flags_0072.md) value in which to return the video decode protected resource support level.
 
 ## -remarks
 

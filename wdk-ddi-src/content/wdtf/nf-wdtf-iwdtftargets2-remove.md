@@ -49,9 +49,9 @@ Removes an item from the collection.
 
 ## -parameters
 
-### -param pTarget 
+### -param pTarget [in]
 
-[in]
+
 The item to remove from this collection.
 
 ## -returns

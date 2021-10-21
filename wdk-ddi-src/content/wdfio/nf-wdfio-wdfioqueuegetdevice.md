@@ -54,9 +54,9 @@ The <b>WdfIoQueueGetDevice</b> method returns a handle to the framework device o
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
 ## -returns

@@ -49,19 +49,19 @@ The <b>IoInitializeIrp</b> routine initializes a given IRP that was allocated by
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Pointer to the IRP to be initialized.
 
-### -param PacketSize 
+### -param PacketSize [in]
 
-[in]
+
 Specifies the size in bytes of the IRP.
 
-### -param StackSize 
+### -param StackSize [in]
 
-[in]
+
 Specifies the number of stack locations in the IRP.
 
 ## -remarks

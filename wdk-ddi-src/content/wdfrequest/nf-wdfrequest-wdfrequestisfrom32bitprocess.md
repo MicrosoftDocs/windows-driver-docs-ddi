@@ -54,9 +54,9 @@ The <b>WdfRequestIsFrom32BitProcess</b> method checks whether the originator of 
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>FltSetIoPriorityHintIntoFileObject</b> routine is used by a minifilter dr
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object to modify. This parameter is required and cannot be <b>NULL</b>.
 
-### -param PriorityHint 
+### -param PriorityHint [in]
 
-[in]
+
 The <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> enumeration value to set for the file object pointed to by <i>FileObject</i>.
 
 ## -returns

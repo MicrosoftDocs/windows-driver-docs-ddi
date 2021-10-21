@@ -49,9 +49,9 @@ The <b>GetNumberInputCallbacks</b> method returns the number of <a href="/window
 
 ## -parameters
 
-### -param Count 
+### -param Count [out]
 
-[out]
+
 Receives the number of input callbacks that have been registered.
 
 ## -returns

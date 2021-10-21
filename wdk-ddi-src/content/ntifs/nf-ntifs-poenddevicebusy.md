@@ -49,9 +49,9 @@ The <b>PoEndDeviceBusy</b> routine marks the end of a period of time in which th
 
 ## -parameters
 
-### -param IdlePointer 
+### -param IdlePointer [in, out]
 
-[in, out]
+
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterdeviceforidledetection">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoEndDeviceBusy</b>.
 
 ## -remarks

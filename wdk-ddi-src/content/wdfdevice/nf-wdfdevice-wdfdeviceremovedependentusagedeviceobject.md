@@ -52,14 +52,14 @@ The <b>WdfDeviceRemoveDependentUsageDeviceObject</b> method indicates that a spe
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param DependentDevice 
+### -param DependentDevice [in]
 
-[in]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that identifies a device that <i>Device</i> depends on.
 
 ## -remarks

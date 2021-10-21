@@ -54,9 +54,9 @@ The <b>InterlockedDecrement</b> routine decrements a caller-supplied variable of
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in, out]
 
-[in, out]
+
 A pointer to a variable to be decremented.
 
 ## -returns

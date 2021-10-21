@@ -51,9 +51,9 @@ A driver's <i>OnWorkItem</i> event callback function performs the work that is a
 
 ## -parameters
 
-### -param pWorkItem 
+### -param pWorkItem [in]
 
-[in]
+
 A pointer to an  <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a> interface.
 
 ## -remarks

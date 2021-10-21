@@ -49,14 +49,14 @@ Gets a pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-
 
 ## -parameters
 
-### -param ulIndex 
+### -param ulIndex [in]
 
-[in]
+
 The index of the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object within the collection.
 
-### -param ppContext 
+### -param ppContext [out, retval]
 
-[out, retval]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> interface.
 
 ## -returns

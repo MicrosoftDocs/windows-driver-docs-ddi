@@ -52,19 +52,19 @@ The <b>FsRtlInitializeFileLock</b> routine initializes a FILE_LOCK structure.
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 Pointer to an uninitialized FILE_LOCK structure.
 
-### -param CompleteLockIrpRoutine 
+### -param CompleteLockIrpRoutine [in, optional]
 
-[in, optional]
+
 Pointer to a <a href="/windows-hardware/drivers/ifs/pcomplete-lock-irp-routine">PCOMPLETE_LOCK_IRP_ROUTINE</a>-typed callback routine to be called when an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>.
 
-### -param UnlockRoutine 
+### -param UnlockRoutine [in, optional]
 
-[in, optional]
+
 Pointer to a <a href="/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>.
 
 ## -remarks

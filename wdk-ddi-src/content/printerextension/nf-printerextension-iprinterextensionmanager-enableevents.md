@@ -49,9 +49,9 @@ The EnableEvents method allows events to be generated for the specified printer 
 
 ## -parameters
 
-### -param printerDriverId 
+### -param printerDriverId [in]
 
-[in]
+
 The GUID representing the specified driver for which to enable events. This GUID is specified in the INF file, and is also specified by the manifest file directive 'PrinterDriverID'.
 
 ## -returns

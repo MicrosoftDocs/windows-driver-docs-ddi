@@ -52,13 +52,13 @@ The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a 
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to check.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to check.
 
-### -field ClientPid
+### -field ClientPid [in]
 
-[in] A UINT value that represents the process identifier (PID) for the client process that requires access to the shared resource that the <b>hProcess</b> member specifies.
+A UINT value that represents the process identifier (PID) for the client process that requires access to the shared resource that the <b>hProcess</b> member specifies.
 
 ## -see-also
 

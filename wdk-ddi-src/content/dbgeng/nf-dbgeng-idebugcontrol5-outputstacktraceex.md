@@ -49,24 +49,24 @@ The OutputStackTraceEx method outputs either the supplied stack frame or the cur
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies where to send the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Frames 
+### -param Frames [in, optional]
 
-[in, optional]
+
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frames are used.
 
-### -param FramesSize 
+### -param FramesSize [in]
 
-[in]
+
 Specifies the number of frames to output.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>

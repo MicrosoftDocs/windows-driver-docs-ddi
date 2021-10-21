@@ -50,14 +50,14 @@ The <b>KsProbeStreamIrp</b> function makes the specified modifications to the in
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Specifies the IRP whose input and output buffers are to be mapped. The requester mode of the IRP is used when probing the buffers.
 
-### -param ProbeFlags 
+### -param ProbeFlags [in]
 
-[in]
+
 Specifies flags specifying how to probe the streaming IRP; the flags are listed in the following table.
 
 ### -param OPTIONAL

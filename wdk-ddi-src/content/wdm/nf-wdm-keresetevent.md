@@ -49,9 +49,9 @@ The <b>KeResetEvent</b> routine resets a specified event object to a not-signale
 
 ## -parameters
 
-### -param Event 
+### -param Event [in, out]
 
-[in, out]
+
 A pointer to an initialized dispatcher object of type event for which the caller provides the storage.
 
 ## -returns

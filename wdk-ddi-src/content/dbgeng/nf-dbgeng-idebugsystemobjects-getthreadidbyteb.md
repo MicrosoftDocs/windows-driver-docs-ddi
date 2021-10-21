@@ -49,14 +49,14 @@ The <b>GetThreadIdByTeb</b> method returns the engine thread ID of the specified
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location of the thread's TEB.
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine thread ID.
 
 ## -returns

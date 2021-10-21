@@ -49,14 +49,14 @@ The <b>UnloadModule</b> callback method is called by the engine when a module-un
 
 ## -parameters
 
-### -param ImageBaseName 
+### -param ImageBaseName [in, optional]
 
-[in, optional]
+
 Specifies the name of the module's image file, which can include the path.  If this information is not available, <i>ImageBaseName</i> will be <b>NULL</b>.
 
-### -param BaseOffset 
+### -param BaseOffset [in]
 
-[in]
+
 Specifies the base address of the module in the target's memory address space.    If this information is not available, <i>BaseOffset</i> will be <b>NULL</b>.
 
 ## -returns

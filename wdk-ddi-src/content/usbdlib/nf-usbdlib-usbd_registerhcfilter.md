@@ -52,14 +52,14 @@ On  Windows XP and later operating systems, a filter driver that is installed be
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object that is the current top of the stack as reported by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
-### -param FilterDeviceObject 
+### -param FilterDeviceObject [in]
 
-[in]
+
 Pointer to the filter device object created by the filter driver for its operations.
 
 ## -remarks

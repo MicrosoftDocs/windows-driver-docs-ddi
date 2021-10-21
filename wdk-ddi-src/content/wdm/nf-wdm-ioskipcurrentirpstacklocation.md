@@ -46,9 +46,9 @@ The **IoSkipCurrentIrpStackLocation** macro modifies the system's [**IO_STACK_LO
 
 ## -parameters
 
-### -param Irp
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to the IRP.
 
 ## -remarks

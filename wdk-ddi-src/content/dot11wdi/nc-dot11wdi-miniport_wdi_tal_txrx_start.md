@@ -57,19 +57,19 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param pWifiTxRxConfiguration 
+### -param pWifiTxRxConfiguration [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_target_configuration">WDI_TXRX_TARGET_CONFIGURATION</a> structure specified by the target device as part of initialization.
 
-### -param pTalTxRxParameters 
+### -param pTalTxRxParameters [out]
 
-[out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_tal_txrx_parameters">TAL_TXRX_PARAMETERS</a> structure that specifies the TAL parameters used by the TxMgr or RxMgr.
 
 ## -returns

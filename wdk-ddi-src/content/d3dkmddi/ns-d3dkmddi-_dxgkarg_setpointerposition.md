@@ -52,21 +52,21 @@ The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the 
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the mouse pointer is located on.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the mouse pointer is located on.
 
-### -field X
+### -field X [in]
 
-[in] The column, in pixels, that the mouse pointer is located on from the top left.
+The column, in pixels, that the mouse pointer is located on from the top left.
 
-### -field Y
+### -field Y [in]
 
-[in] The row, in pixels, that the mouse pointer is located on from the top left.
+The row, in pixels, that the mouse pointer is located on from the top left.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setpointerpositionflags">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setpointerpositionflags">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
 
 ## -see-also
 

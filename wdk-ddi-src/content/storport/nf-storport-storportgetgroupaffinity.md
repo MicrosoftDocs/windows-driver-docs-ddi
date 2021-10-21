@@ -49,19 +49,19 @@ The <b>StorPortGetGroupAffinity</b> routine constructs a mask of the active proc
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param GroupNumber 
+### -param GroupNumber [in]
 
-[in]
+
 The group from which to return the processor mask.
 
-### -param GroupAffinityMask 
+### -param GroupAffinityMask [out]
 
-[out]
+
 A pointer to a variable that holds the affinity mask of the given group.
 
 ## -returns

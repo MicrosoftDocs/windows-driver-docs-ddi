@@ -49,9 +49,9 @@ Converts a value of type <b>SHORT</b> to a value of type <b>UINT8</b>.
 
 ## -parameters
 
-### -param sOperand 
+### -param sOperand [in]
 
-[in]
+
 The value to be converted.
 
 ### -param pui8Result

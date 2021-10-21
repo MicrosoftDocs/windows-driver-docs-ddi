@@ -51,19 +51,19 @@ The keyword name and keyword namespace URI specify the **IPrintSchemaParameterIn
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The keyword name.
 
-### -param bstrNamespaceUri 
+### -param bstrNamespaceUri [in]
 
-[in]
+
 The keyword namespace URI.
 
-### -param ppParameterInitializer 
+### -param ppParameterInitializer [out, retval]
 
-[out, retval]
+
 The [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md) object.
 
 ## -returns

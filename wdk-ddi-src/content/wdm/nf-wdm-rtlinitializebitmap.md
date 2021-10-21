@@ -50,19 +50,19 @@ The <b>RtlInitializeBitMap</b> routine initializes the header of a bitmap variab
 
 ## -parameters
 
-### -param BitMapHeader 
+### -param BitMapHeader [out]
 
-[out]
+
 Pointer to an empty <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure.
 
-### -param BitMapBuffer 
+### -param BitMapBuffer [in]
 
-[in]
+
 Pointer to caller-allocated memory for the bitmap itself. The base address of this buffer must be ULONG-aligned. The size of the allocated buffer must be an integer multiple of <b>sizeof</b>(ULONG) bytes.
 
-### -param SizeOfBitMap 
+### -param SizeOfBitMap [in]
 
-[in]
+
 Specifies the number of bits in the bitmap. This value can be any number of bits that will fit in the buffer allocated for the bitmap.
 
 ## -returns

@@ -49,9 +49,9 @@ The <code>SendXpsUnknown</code> method sends an XPS document part that cannot be
 
 ## -parameters
 
-### -param pUnknown 
+### -param pUnknown [in]
 
-[in]
+
 A pointer to an unrecognized document part interface.
 
 ## -returns

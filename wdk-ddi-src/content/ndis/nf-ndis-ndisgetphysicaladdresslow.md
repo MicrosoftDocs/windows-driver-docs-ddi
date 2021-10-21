@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param _PhysicalAddress 
+### -param _PhysicalAddress [in]
 
-[in]
+
 Specifies a physical address of an OS-dependent size.
 
 ## -see-also

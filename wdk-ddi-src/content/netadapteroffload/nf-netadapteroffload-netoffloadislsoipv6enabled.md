@@ -48,9 +48,9 @@ The **NetOffloadIsLsoIPv6Enabled** function determines whether a net adapter has
 
 ## -parameters
 
-### -param Offload
+### -param Offload [_In_]
 
-[_In_] A NETOFFLOAD object that represents the net adapter's generic send offload (GSO) capabilities.
+A NETOFFLOAD object that represents the net adapter's generic send offload (GSO) capabilities.
 
 ## -returns
 

@@ -50,9 +50,9 @@ The<b> KsGetOuterUnknown </b>function returns the outer <b>IUnknown</b> of a giv
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A pointer to an AVStream object for which to return the outer <b>IUnknown</b> interface.
 
 ## -returns

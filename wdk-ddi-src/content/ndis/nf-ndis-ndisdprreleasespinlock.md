@@ -54,9 +54,9 @@ The
 
 ## -parameters
 
-### -param _SpinLock 
+### -param _SpinLock [in]
 
-[in]
+
 Pointer to the acquired spin lock to be released.
 
 ## -remarks

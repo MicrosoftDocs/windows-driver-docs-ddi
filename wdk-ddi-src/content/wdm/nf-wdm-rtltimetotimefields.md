@@ -50,14 +50,14 @@ The RtlTimeToTimeFields routine converts system time into a <b>TIME_FIELDS</b> s
 
 ## -parameters
 
-### -param Time 
+### -param Time [in]
 
-[in]
+
 Pointer to a buffer containing the absolute system time as a large integer, accurate to 100-nanosecond resolution.
 
-### -param TimeFields 
+### -param TimeFields [out]
 
-[out]
+
 Pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<b>TIME_FIELDS</b>), to contain the returned information.
 
 ## -returns

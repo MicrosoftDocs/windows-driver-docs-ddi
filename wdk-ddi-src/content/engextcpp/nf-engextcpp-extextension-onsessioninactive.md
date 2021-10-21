@@ -49,9 +49,9 @@ The <b>OnSessionInactive</b> method is called by the engine to inform the EngExt
 
 ## -parameters
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Set to zero. (Reserved for future use).
 
 ## -returns

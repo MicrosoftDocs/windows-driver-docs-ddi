@@ -49,9 +49,9 @@ An AVStream minidriver's <i>AVStrMiniDeleteAllocator</i> routine deletes the all
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the allocator's context structure created by <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a>.
 
 ## -remarks

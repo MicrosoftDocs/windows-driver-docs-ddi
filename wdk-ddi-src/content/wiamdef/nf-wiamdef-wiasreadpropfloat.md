@@ -49,23 +49,23 @@ The <b>wiasReadPropFloat </b>function retrieves a floating-point property value 
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid
 
 Specifies the property identifier.
 
-### -param pfVal 
+### -param pfVal [out]
 
-[out]
+
 Pointer to a memory location that receives the floating-point value of the property.
 
-### -param pfValOld 
+### -param pfValOld [out, optional]
 
-[out, optional]
+
 Pointer to a memory location that receives the former floating-point value of the property. If this information is not needed, set this parameter to <b>NULL</b>.
 
 ### -param bMustExist

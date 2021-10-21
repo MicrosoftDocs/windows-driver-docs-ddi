@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
+
 The monitor object being updated
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments of function
 
 ## -returns

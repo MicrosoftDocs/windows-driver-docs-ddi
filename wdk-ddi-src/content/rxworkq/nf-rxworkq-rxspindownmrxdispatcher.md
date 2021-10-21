@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pMRxDeviceObject 
+### -param pMRxDeviceObject [in, out]
 
-[in, out]
+
 A pointer to the device object of the corresponding network mini-redirector driver.
 
 ## -returns

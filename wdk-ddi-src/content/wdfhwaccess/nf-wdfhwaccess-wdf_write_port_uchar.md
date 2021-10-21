@@ -51,18 +51,18 @@ The <b>WDF_WRITE_PORT_UCHAR</b> function writes a byte to the specified port add
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 A pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a byte to be written to the port.
 

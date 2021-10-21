@@ -53,17 +53,17 @@ in Windows 8 and later.</div><div> </div>The
 
 ## -parameters
 
-### -param NetDmaChannelHandle 
+### -param NetDmaChannelHandle [in]
 
-[in]
+
 A handle that identifies the DMA channel. The DMA provider driver received this handle from NetDMA
      in a call to the 
      <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
-### -param DmaDescriptor 
+### -param DmaDescriptor [in, optional]
 
-[in, optional]
+
 A pointer to the last DMA descriptor that was processed.
 
 ## -returns

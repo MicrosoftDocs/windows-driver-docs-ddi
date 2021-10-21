@@ -49,9 +49,9 @@ The <b>GetOutputMask</b> method returns the output mask currently set for the cl
 
 ## -parameters
 
-### -param Mask 
+### -param Mask [out]
 
-[out]
+
 Receives the output mask for the client.  See <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for details on how to interpret this value.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>MmAllocateNonCachedMemory</b> routine allocates a virtual address range o
 
 ## -parameters
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies the size in bytes of the range to be allocated.
 
 ## -returns

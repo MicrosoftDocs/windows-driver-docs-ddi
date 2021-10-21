@@ -53,9 +53,9 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 
 ## -parameters
 
-### -param Notify 
+### -param Notify [in]
 
-[in]
+
 Can be any of the following values:
 
 <table>
@@ -105,9 +105,9 @@ The debugging session has started running and is now inaccessible.
 </tr>
 </table>
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Set to zero. (Reserved for future use.)
 
 ## -remarks

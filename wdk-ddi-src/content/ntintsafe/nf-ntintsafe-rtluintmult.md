@@ -49,19 +49,19 @@ Multiplies one value of type <b>UINT</b> by another.
 
 ## -parameters
 
-### -param uMultiplicand 
+### -param uMultiplicand [in]
 
-[in]
+
 The value to be multiplied by <i>uMultiplier</i>.
 
-### -param uMultiplier 
+### -param uMultiplier [in]
 
-[in]
+
 The value by which to multiply <i>uMultiplicand</i>.
 
-### -param puResult 
+### -param puResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

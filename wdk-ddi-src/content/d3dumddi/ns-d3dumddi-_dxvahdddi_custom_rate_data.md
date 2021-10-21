@@ -56,17 +56,17 @@ The DXVAHDDDI_CUSTOM_RATE_DATA structure describes the video content that a deco
 
       [in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the input and output frame rate.
 
-### -field OutputFrames
+### -field OutputFrames [in]
 
-[in] The number of frames that the driver outputs.
+The number of frames that the driver outputs.
 
-### -field InputInterlaced
+### -field InputInterlaced [in]
 
-[in] A Boolean value that specifies whether the input stream is progressive (frame) or interlaced (field).
+A Boolean value that specifies whether the input stream is progressive (frame) or interlaced (field).
 
-### -field InputFramesOrFields
+### -field InputFramesOrFields [in]
 
-[in] The number of the input frames or fields.
+The number of the input frames or fields.
 
 ## -remarks
 

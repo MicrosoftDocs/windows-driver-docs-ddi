@@ -52,13 +52,13 @@ The DXVADDI_FREQUENCY structure describes the video frame rate in Hertz (Hz). Fo
 
 ## -struct-fields
 
-### -field Numerator
+### -field Numerator [in]
 
-[in] The numerator of the frequency fraction.
+The numerator of the frequency fraction.
 
-### -field Denominator
+### -field Denominator [in]
 
-[in] The denominator of the frequency fraction.
+The denominator of the frequency fraction.
 
 ## -remarks
 

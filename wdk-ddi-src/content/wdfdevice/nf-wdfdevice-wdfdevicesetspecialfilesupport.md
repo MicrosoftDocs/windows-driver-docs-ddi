@@ -52,19 +52,19 @@ The <b>WdfDeviceSetSpecialFileSupport</b> method enables or disables a function 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param FileType 
+### -param FileType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_special_file_type">WDF_SPECIAL_FILE_TYPE</a>-typed enumerator that identifies the type of special file that the driver supports.
 
-### -param FileTypeIsSupported 
+### -param FileTypeIsSupported [in]
 
-[in]
+
 Supplies a Boolean value which, if <b>TRUE</b>, enables support for the special file type and, if <b>FALSE</b>, disables support the special file type.
 
 ## -remarks

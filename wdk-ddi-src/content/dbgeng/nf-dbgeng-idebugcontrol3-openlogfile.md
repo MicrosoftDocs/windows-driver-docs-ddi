@@ -49,14 +49,14 @@ The <b>OpenLogFile</b>  method opens a log file that will receive output from th
 
 ## -parameters
 
-### -param File 
+### -param File [in]
 
-[in]
+
 Specifies the name of the log file.  <i>File</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger  was started.  If the file does not exist, it will be created.
 
-### -param Append 
+### -param Append [in]
 
-[in]
+
 Specifies whether or not to append log messages to an existing log file.  If <b>TRUE</b>, log messages will be appended to the file; if <b>FALSE</b>, the contents of any existing file matching <i>File</i> are discarded.
 
 ## -returns

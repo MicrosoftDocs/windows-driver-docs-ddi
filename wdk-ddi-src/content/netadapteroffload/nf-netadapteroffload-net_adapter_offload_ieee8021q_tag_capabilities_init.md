@@ -45,13 +45,13 @@ The **NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES_INIT** function initializes
 
 ## -parameters
 
-### -param Ieee8021qCapabilities
+### -param Ieee8021qCapabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md) structure.
 
-### -param Flags
+### -param Flags [_In_]
 
-[_In_] Flags specifying whether the NIC can perform IEEE 802.1 priority and VLAN tagging.
+Flags specifying whether the NIC can perform IEEE 802.1 priority and VLAN tagging.
 
 ## -remarks
 

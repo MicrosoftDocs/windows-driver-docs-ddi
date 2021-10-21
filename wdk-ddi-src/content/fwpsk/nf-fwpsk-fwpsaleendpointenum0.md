@@ -52,38 +52,38 @@ The
 
 ## -parameters
 
-### -param engineHandle 
+### -param engineHandle [in]
 
-[in]
+
 The handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
-### -param enumHandle 
+### -param enumHandle [in]
 
-[in]
+
 The enumeration handle created by a previous call to 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">FwpsAleEndpointDestroyEnumHandle0</a>.
 
-### -param numEntriesRequested 
+### -param numEntriesRequested [in]
 
-[in]
+
 The maximum number of endpoint property entries to return. The actual number of entries enumerated
      is returned in 
      <i>numEntriesReturned</i>. The actual number is less than the requested number only if fewer endpoints
      than the requested are present.
 
-### -param entries 
+### -param entries [out]
 
-[out]
+
 A pointer to an array of 
      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0">FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure pointers. Each structure contains the properties of a
      single endpoint. The array contains as many elements as the value returned in 
      <i>numEntriesReturned</i>.
 
-### -param numEntriesReturned 
+### -param numEntriesReturned [out]
 
-[out]
+
 On return, the number of elements in the array of endpoint property structures pointed to by 
      <i>entries</i>.
 

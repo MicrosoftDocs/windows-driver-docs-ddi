@@ -49,14 +49,14 @@ The <b>FltIsVolumeSnapshot</b> routine determines whether a volume or minifilter
 
 ## -parameters
 
-### -param FltObject 
+### -param FltObject [in]
 
-[in]
+
 An opaque pointer to the volume or instance.
 
-### -param IsSnapshotVolume 
+### -param IsSnapshotVolume [out]
 
-[out]
+
 A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if the volume or instance is attached to a snapshot volume. Otherwise, the variable receives <b>FALSE</b>.
 
 ## -returns

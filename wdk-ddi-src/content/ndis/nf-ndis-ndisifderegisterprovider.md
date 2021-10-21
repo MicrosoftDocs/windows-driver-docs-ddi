@@ -54,9 +54,9 @@ The
 
 ## -parameters
 
-### -param NdisProviderHandle 
+### -param NdisProviderHandle [in]
 
-[in]
+
 A handle that identifies the network interface provider. The caller obtained this handle from a
      previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">

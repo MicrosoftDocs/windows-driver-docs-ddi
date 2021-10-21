@@ -48,33 +48,33 @@ The **Get** method retrieves a property identified by a property-set GUID and a 
 
 ## -parameters
 
-### -param rguidPropSet
+### -param rguidPropSet [in]
 
-[in] GUID that identifies the property set.
+GUID that identifies the property set.
 
-### -param ulId
+### -param ulId [in]
 
-[in] Identifier of the property within the property set.
+Identifier of the property within the property set.
 
-### -param pInstanceData
+### -param pInstanceData [in]
 
-[in] Pointer to instance data for the property.
+Pointer to instance data for the property.
 
-### -param ulInstanceLength
+### -param ulInstanceLength [in]
 
-[in] Size, in bytes, of the buffer at *InstanceData*.
+Size, in bytes, of the buffer at *InstanceData*.
 
-### -param pPropertyData
+### -param pPropertyData [out]
 
-[out] Pointer to a buffer that receives the value of the property.
+Pointer to a buffer that receives the value of the property.
 
-### -param ulDataLength
+### -param ulDataLength [in]
 
-[in] Size, in bytes, of the buffer at *PropertyData*.
+Size, in bytes, of the buffer at *PropertyData*.
 
-### -param pulBytesReturned
+### -param pulBytesReturned [out]
 
-[out] Pointer to a variable that receives the size, in bytes, of the data that **Get** stores in the buffer at *PropertyData*.
+Pointer to a variable that receives the size, in bytes, of the data that **Get** stores in the buffer at *PropertyData*.
 
 ## -returns
 

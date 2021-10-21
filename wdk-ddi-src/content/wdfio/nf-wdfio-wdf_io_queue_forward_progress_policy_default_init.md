@@ -51,14 +51,14 @@ The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT</b> function initialize
 
 ## -parameters
 
-### -param Policy 
+### -param Policy [out]
 
-[out]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
 
-### -param TotalForwardProgressRequests 
+### -param TotalForwardProgressRequests [in]
 
-[in]
+
 The number of request objects that the framework will attempt to reserve for use in low-memory situations. This number must be greater than zero.
 
 ## -remarks

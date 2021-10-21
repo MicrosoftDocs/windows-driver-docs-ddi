@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [out]
 
-[out]
+
 A pointer to the RX_CONTEXT structure describing a create operation.
 
-### -param MrxSrvOpen 
+### -param MrxSrvOpen [in]
 
-[in]
+
 A pointer to the associated SRV_OPEN structure.
 
 ## -returns

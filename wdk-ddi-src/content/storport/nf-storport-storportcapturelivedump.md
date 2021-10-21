@@ -45,17 +45,17 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] Pointer to the miniport's hardware device extension.
+Pointer to the miniport's hardware device extension.
 
-### -param StorAddress
+### -param StorAddress [in/optional]
 
-[in/optional] Pointer to a [**STOR_ADDRESS**](ns-storport-_stor_address.md) structure that holds the address specifying the unit object. Set **StorAddress** to NULL if the device is an adapter.
+Pointer to a [**STOR_ADDRESS**](ns-storport-_stor_address.md) structure that holds the address specifying the unit object. Set **StorAddress** to NULL if the device is an adapter.
 
-### -param CaptureLivedump
+### -param CaptureLivedump [in]
 
-[in] Pointer to a [**STORPORT_CAPTURE_LIVEDUMP**](ns-storport-storport_capture_livedump.md) structure containing the data needed to generate the live dump.
+Pointer to a [**STORPORT_CAPTURE_LIVEDUMP**](ns-storport-storport_capture_livedump.md) structure containing the data needed to generate the live dump.
 
 ## -returns
 

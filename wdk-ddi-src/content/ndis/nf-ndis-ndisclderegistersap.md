@@ -50,9 +50,9 @@ api_name:
 
 ## -parameters
 
-### -param NdisSapHandle 
+### -param NdisSapHandle [in]
 
-[in]
+
 Specifies the handle returned by 
      <b>NdisClRegisterSap</b>.
 

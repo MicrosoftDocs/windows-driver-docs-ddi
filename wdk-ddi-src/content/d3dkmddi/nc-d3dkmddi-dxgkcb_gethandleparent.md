@@ -3,13 +3,13 @@ UID: NC:d3dkmddi.DXGKCB_GETHANDLEPARENT
 title: DXGKCB_GETHANDLEPARENT (d3dkmddi.h)
 description: The DxgkCbGetHandleParent function retrieves the parent resource from the specified allocation.
 old-location: display\dxgkcbgethandleparent.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_GETHANDLEPARENT callback function"]
 ms.keywords: DXGKCB_GETHANDLEPARENT, DXGKCB_GETHANDLEPARENT callback, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,32 +42,33 @@ api_name:
 
 # DXGKCB_GETHANDLEPARENT callback function
 
-
 ## -description
 
-The <b>DxgkCbGetHandleParent</b> function retrieves the parent resource from the specified allocation.
+**DXGKCB_GETHANDLEPARENT** retrieves the parent resource from the specified allocation.
 
 ## -parameters
 
-### -param hAllocation
+### -param hAllocation [in]
 
-[in] A handle to an allocation. This handle must be the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) assigned for the allocation.
+A handle to an allocation. This handle must be the kernel-mode handle that the DirectX graphics kernel subsystem (*Dxgkrnl.sys*) assigned for the allocation.
 
 ## -returns
 
-<b>DxgkCbGetHandleParent</b> returns a graphics subsystem-specific handle to the parent resource for the allocation that is associated with the handle that the <i>hAllocation</i> parameter specifies.
+**DXGKCB_GETHANDLEPARENT** returns a graphics subsystem-specific handle to the parent resource for the allocation that is associated with the handle that the **hAllocation** parameter specifies.
 
-If <i>DxgkCbGetHandleParent</i> returns a <b>NULL</b> handle, the DirectX graphics kernel subsystem was unable to resolve the handle to the parent resource because, for example, of the following possible reasons:
+If **DXGKCB_GETHANDLEPARENT** returns a NULL handle, *Dxgkrnl.sys* was unable to resolve the handle to the parent resource for a reason such as the following possibilities:
 
+* An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug.
+* Allocations had lifetime issues.
 
-
-<ul>
-<li>An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug.</li>
-<li>Allocations had lifetime issues. </li>
-</ul>
-If a <b>NULL</b> handle is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
+If a NULL handle is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
 
 ## -remarks
 
-For <b>DxgkCbGetHandleParent</b> to return a resource handle, the handle in <i>hAllocation</i> must be an allocation handle that is associated with a resource; otherwise, <b>DxgkCbGetHandleParent</b> returns <b>NULL</b>.
+For **DXGKCB_GETHANDLEPARENT** to return a resource handle, the handle in **hAllocation** must be an allocation handle that is associated with a resource; otherwise, **DXGKCB_GETHANDLEPARENT** returns NULL.
 
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, call **DxgkCbGetHandleParent** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+
+## -see-also
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

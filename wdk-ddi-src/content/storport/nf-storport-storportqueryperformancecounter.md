@@ -49,19 +49,19 @@ The current system performance counter value is queried is returned by the <b>St
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param PerformanceFrequency 
+### -param PerformanceFrequency [out, optional]
 
-[out, optional]
+
  A pointer to a large integer to receive the current system performance frequency value. This parameter is optional and can be NULL.
 
-### -param PerformanceCounter 
+### -param PerformanceCounter [out]
 
-[out]
+
 A pointer to a large integer to receive the current system performance counter value.
 
 ## -returns

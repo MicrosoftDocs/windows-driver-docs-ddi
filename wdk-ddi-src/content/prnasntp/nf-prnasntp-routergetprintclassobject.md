@@ -49,19 +49,19 @@ The <code>RouterGetPrintClassObject</code> function enumerates the list of print
 
 ## -parameters
 
-### -param pPrinter 
+### -param pPrinter [in]
 
-[in]
+
 A pointer to a null-terminated string that contains the name of the printer or print server.
 
-### -param riid 
+### -param riid [in]
 
-[in]
+
 The identifier of the requested COM interface.
 
-### -param ppv 
+### -param ppv [out]
 
-[out]
+
 A pointer to a variable that supplies the address of the COM interface requested in the <i>iid</i> parameter.
 
 ## -returns

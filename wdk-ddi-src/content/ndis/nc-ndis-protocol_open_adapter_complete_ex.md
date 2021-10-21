@@ -54,17 +54,17 @@ NDIS calls a protocol driver's
 
 ## -parameters
 
-### -param ProtocolBindingContext 
+### -param ProtocolBindingContext [in]
 
-[in]
+
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called 
      <b>NdisOpenAdapterEx</b>.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The final status of the open operation for the underlying miniport driver. This status value is
      NDIS_STATUS_SUCCESS if the binding was established or any error status that the underlying driver
      determines.

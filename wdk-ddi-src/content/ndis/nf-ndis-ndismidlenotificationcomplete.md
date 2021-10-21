@@ -50,9 +50,9 @@ Miniport drivers call <b>NdisMIdleNotificationComplete</b> to complete a pending
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ## -remarks

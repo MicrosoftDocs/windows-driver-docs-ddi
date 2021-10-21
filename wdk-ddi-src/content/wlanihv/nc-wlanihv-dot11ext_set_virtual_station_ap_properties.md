@@ -54,33 +54,33 @@ The IHV Extensions DLL calls the
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 An optional handle used by the operating system to reference the primary physical wireless LAN
      (WLAN) adapter. This handle value was received as the
      <i>hDot11SvcHandle</i> parameter through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param hConnectSession 
+### -param hConnectSession [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the current connection session with the basic
      service set (BSS) network. This handle value was received as the
      <i>hConnectSession</i> parameter through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
-### -param dwNumProperties 
+### -param dwNumProperties [in]
 
-[in]
+
 The number of elements in the array of structures pointed to by the
      <i>pProperties</i> parameter.
 
-### -param pProperties 
+### -param pProperties [in]
 
-[in]
+
 A pointer to an array of
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_ap_property.md">
      DOT11EXT_VIRTUAL_STATION_AP_PROPERTY</a> structures that specify the properties of access points (APs)

@@ -50,9 +50,9 @@ The <b>KsUnregisterWorker</b> function allows clients to unregister a worker. Th
 
 ## -parameters
 
-### -param Worker 
+### -param Worker [in]
 
-[in]
+
 Specifies the previously allocated worker to be unregistered. The function will wait until any outstanding work item is completed.
 
 ## -returns

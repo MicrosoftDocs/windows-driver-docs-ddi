@@ -49,9 +49,9 @@ The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes the parameter
 
 ## -struct-fields
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
+A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
 
 
 

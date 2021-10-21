@@ -52,9 +52,9 @@ The <b>WdfIoResourceListGetCount</b> method returns the number of resource descr
 
 ## -parameters
 
-### -param ResourceList 
+### -param ResourceList [in]
 
-[in]
+
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 ## -returns

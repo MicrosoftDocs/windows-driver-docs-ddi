@@ -49,17 +49,17 @@ The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the drive
 
 ## -struct-fields
 
-### -field pData
+### -field pData [out]
 
-[out] A pointer to a buffer that contains the contents of the subresource.
+A pointer to a buffer that contains the contents of the subresource.
 
-### -field RowPitch
+### -field RowPitch [out]
 
-[out] The row pitch,  width, or physical size (in bytes) of the data.
+The row pitch,  width, or physical size (in bytes) of the data.
 
-### -field DepthPitch
+### -field DepthPitch [out]
 
-[out] The deptch pitch,  width, or physical size (in bytes) of the data.
+The deptch pitch,  width, or physical size (in bytes) of the data.
 
 ## -remarks
 

@@ -50,9 +50,9 @@ The<b> KsStreamPointerGetMdl </b>function returns the MDL associated with the fr
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
 
 ## -returns

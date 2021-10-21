@@ -49,9 +49,9 @@ The <b>VideoPortAcquireDeviceLock</b> function acquires the device lock maintain
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
 ## -returns

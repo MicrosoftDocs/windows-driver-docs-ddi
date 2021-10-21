@@ -53,9 +53,9 @@ An AVStream minidriver's callback routine is called when:
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Pointer to the relevant <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>, serving as a sink pin.
 
 ## -remarks

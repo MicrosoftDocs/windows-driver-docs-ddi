@@ -51,19 +51,19 @@ The <b>AssignDeviceInterfaceState</b> method enables or disables the specified d
 
 ## -parameters
 
-### -param pDeviceInterfaceGuid 
+### -param pDeviceInterfaceGuid [in]
 
-[in]
+
 A pointer to the GUID for a device interface class.
 
-### -param pReferenceString 
+### -param pReferenceString [in, optional]
 
-[in, optional]
+
 A pointer to a <b>NULL</b>-terminated string that contains the name of the instance of the device interface. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\\").
 
-### -param Enable 
+### -param Enable [in]
 
-[in]
+
 A BOOL value that specifies whether the device interface instance should be enabled or disabled. <b>TRUE</b> indicates to enable; <b>FALSE</b> indicates to disable.
 
 ## -returns

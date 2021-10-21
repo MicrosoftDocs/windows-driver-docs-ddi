@@ -49,36 +49,36 @@ The <code>IPrintCoreUI2::EnumConstrainedOptions</code> method determines which o
 
 ## -parameters
 
-### -param poemuiobj 
+### -param poemuiobj [in]
 
-[in]
+
 Pointer to the current context, an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-### -param dwFlags 
+### -param dwFlags [in]
 
-[in]
+
 Is reserved and must be set to zero.
 
-### -param pszFeatureKeyword 
+### -param pszFeatureKeyword [in]
 
-[in]
+
 Pointer to a caller-supplied buffer containing the single feature keyword of interest to the caller.
 
-### -param pmszConstrainedOptionList 
+### -param pmszConstrainedOptionList [out]
 
-[out]
+
 Pointer to a caller-supplied buffer that receives the list of option keywords, in MULTI_SZ format, for this feature. Each keyword represents an option that is constrained in the current configuration. 
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the constrained option list without having the list filled in.
 
-### -param cbSize 
+### -param cbSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszConstrainedOptionList</i>.
 
-### -param pcbNeeded 
+### -param pcbNeeded [out]
 
-[out]
+
 Pointer to a memory location that receives the actual size, in bytes, of the constrained option list.
 
 ## -returns

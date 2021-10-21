@@ -51,17 +51,17 @@ The **KsNotifyEvent** method requests that the KS object that owns the given Dir
 
 ## -parameters
 
-### -param Event
+### -param Event [in]
 
-[in] Identifies the type of DirectShow event.
+Identifies the type of DirectShow event.
 
-### -param lParam1
+### -param lParam1 [in]
 
-[in] Specifies the first data parameter for the event.
+Specifies the first data parameter for the event.
 
-### -param lParam2
+### -param lParam2 [in]
 
-[in] Specifies the second data parameter for the event.
+Specifies the second data parameter for the event.
 
 ## -returns
 

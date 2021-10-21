@@ -52,9 +52,9 @@ Specifies the properties of the context to be allocated.
 
 ## -struct-fields
 
-### -field SharedAcrossContexts
+### -field SharedAcrossContexts [in]
 
-[in] A UINT value that specifies the association of the context.
+A UINT value that specifies the association of the context.
 
 If <b>SharedAcrossContexts</b> is set to one, the allocation is associated with all contexts specified by the <b>hDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure. The allocated context will be made resident when any context that belongs to <b>hDevice</b> is
                                                             scheduled to run on the GPU.
@@ -63,13 +63,13 @@ If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with
 
 ### -field MapGpuVirtualAddress
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the most significant 31 bits (0xFFFFFFFE) to zeros.
+This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the most significant 31 bits (0xFFFFFFFE) to zeros.
 
-### -field Value
+### -field Value [in]
 
-[in] A 32-bit value that specifies the context allocation flags.
+A 32-bit value that specifies the context allocation flags.
 
 ## -remarks
 

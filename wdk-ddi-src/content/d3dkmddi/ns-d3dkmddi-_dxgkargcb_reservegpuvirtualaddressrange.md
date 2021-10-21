@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
-title: _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE (d3dkmddi.h)
+title: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE (d3dkmddi.h)
 description: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE is used with the DxgkCbReserveGpuVirtualAddressRangedevice driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
 old-location: display\dxgkargcb_reservegpuvirtualaddressrange.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure"]
 ms.keywords: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, *INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,48 +43,44 @@ api_name:
  - DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 ---
 
-# _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure
-
+# DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure
 
 ## -description
 
-<b>DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</b> is used with the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange">DxgkCbReserveGpuVirtualAddressRange</a>device driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
+**DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE** contains the arguments used by the [**DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE**](nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md) callback function, to allow the kernel-mode display driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
 
 ## -struct-fields
 
-### -field hDxgkProcess
+### -field hDxgkProcess [in]
 
-The handle that was passed to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>.
+The process handle that was passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md).
 
-### -field SizeInBytes
+### -field SizeInBytes [in]
 
-The size of the address range in bytes, this must be set to an integral multiple of the address space covered by a single page table entry.
+The size in bytes of the virtual address range. **SizeInBytes** must be set to an integral multiple of the address space covered by a single page table entry.
 
-### -field Alignment
+### -field Alignment [in]
 
 The number of bytes to align the start address to. Must be a multiple of the address space covered by a single page table entry and a power of 2.
 
-### -field StartVirtualAddress
+### -field StartVirtualAddress [out]
 
 The starting location of the reserved address range.
 
-### -field BaseAddress
+### -field BaseAddress [in]
 
 The base virtual address of the virtual address range in bytes. It must be aligned to the size of the address space, covered by a single page table entry.
 
-### -field AllowUserModeMapping
+### -field AllowUserModeMapping [in]
 
-Allow the user mode driver to map allocations to the range.
+When set, allows the user-mode driver to map allocations to the range.
 
-### -field Flags
+### -field Flags [in]
 
 A single value containing the flags set in the structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange">DxgkCbReserveGpuVirtualAddressRange</a>
+[**DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE**](nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
-
+[**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)

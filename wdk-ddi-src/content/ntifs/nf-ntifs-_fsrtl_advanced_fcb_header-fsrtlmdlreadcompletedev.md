@@ -52,19 +52,19 @@ The <b>FsRtlMdlReadCompleteDev</b> routine completes the read operation that the
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object.
 
-### -param MdlChain 
+### -param MdlChain [in]
 
-[in]
+
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 
-### -param DeviceObject 
+### -param DeviceObject [ in, optional ]
 
-[ in, optional ]
+
 A pointer to a device object on which the file is opened.
 
 ## -returns

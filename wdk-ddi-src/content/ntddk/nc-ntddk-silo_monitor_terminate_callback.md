@@ -49,9 +49,9 @@ This callback is invoked when a silo is terminated.
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 The silo to be terminated.
 
 ## -remarks

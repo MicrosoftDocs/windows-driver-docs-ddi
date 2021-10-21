@@ -53,9 +53,9 @@ api_name:
 
 ## -parameters
 
-### -param ActivityId 
+### -param ActivityId [in]
 
-[in]
+
 A pointer to the activity identifier GUID to store in the I/O request.
 
 ## -remarks

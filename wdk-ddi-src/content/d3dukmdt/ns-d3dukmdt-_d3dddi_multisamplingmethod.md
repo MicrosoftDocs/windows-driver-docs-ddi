@@ -52,13 +52,13 @@ The D3DDDI_MULTISAMPLINGMETHOD structure describes a multiple-sampling method.
 
 ## -struct-fields
 
-### -field NumSamples
+### -field NumSamples [out]
 
-[out] The number of subpixels that are used in the multiple-sampling method (for example, 2 for 2x and 8 for 8x multiple-sampling).
+The number of subpixels that are used in the multiple-sampling method (for example, 2 for 2x and 8 for 8x multiple-sampling).
 
-### -field NumQualityLevels
+### -field NumQualityLevels [out]
 
-[out] The upper bound on the quality range that is supported for the multiple-sampling method. The range includes values from 0 through the reported maximum quality setting.
+The upper bound on the quality range that is supported for the multiple-sampling method. The range includes values from 0 through the reported maximum quality setting.
 
 ## -remarks
 

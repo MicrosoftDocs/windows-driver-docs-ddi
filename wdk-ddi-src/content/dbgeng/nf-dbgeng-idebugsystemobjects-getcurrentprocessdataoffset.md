@@ -49,9 +49,9 @@ The <b>GetCurrentProcessDataOffset</b> method returns the location of the system
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the location in the target's virtual address space of the system data structure describing the current process.
 
 ## -returns

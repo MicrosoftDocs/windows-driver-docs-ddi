@@ -54,25 +54,25 @@ NDIS drivers call the
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 A handle that identifies the target adapter. This handle was returned by a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. All of the 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that are
      specified in this call must be from the binding that this handle identifies.
 
-### -param NetBufferLists 
+### -param NetBufferLists [in]
 
-[in]
+
 A pointer to a linked list of NET_BUFFER_LIST structures that are to be returned to the underlying
      driver. The linked list can contain NET_BUFFER_LIST structures from multiple previous calls to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
      ProtocolReceiveNetBufferLists</a> function.
 
-### -param ReturnFlags 
+### -param ReturnFlags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero. This function supports the NDIS_RETURN_FLAGS_DISPATCH_LEVEL flag which; if set, indicates that the
      current IRQL is DISPATCH_LEVEL. For more information about this flag, see 

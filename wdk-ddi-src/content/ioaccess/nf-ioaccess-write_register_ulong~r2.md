@@ -49,14 +49,14 @@ The <b>WRITE_REGISTER_ULONG</b> routine writes a ULONG value to the specified ad
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register which must be a mapped range in memory space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a ULONG value to be written to the register.
 
 ## -syntax

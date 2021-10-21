@@ -58,14 +58,14 @@ This is a WDI miniport handler inside [NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS]
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 The handle to the context area that the miniport driver allocated.
 
-### -param ForceIdle 
+### -param ForceIdle [in]
 
-[in]
+
 A BOOLEAN value that, when set to TRUE, specifies that the miniport driver must not veto the idle notification and must continue with the low-power state transition.
 
 For more information about the ForceIdle parameter, see the Remarks section.

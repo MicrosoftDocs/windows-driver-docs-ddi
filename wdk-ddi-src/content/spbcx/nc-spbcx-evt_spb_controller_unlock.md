@@ -4,7 +4,7 @@ title: EVT_SPB_CONTROLLER_UNLOCK (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerUnlock event callback function unlocks the SPB controller, which was locked by a previous call to the EvtSpbControllerLock event callback function.
 old-location: spb\evtspbcontrollerunlock.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 09/14/2021
 keywords: ["EVT_SPB_CONTROLLER_UNLOCK callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 req.header: spbcx.h
@@ -42,60 +42,56 @@ api_name:
 
 # EVT_SPB_CONTROLLER_UNLOCK callback function
 
-
 ## -description
 
-An SPB controller driver's <i>EvtSpbControllerUnlock</i> event callback function unlocks the SPB controller, which was locked by a previous call to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a> event callback function.
+An SPB controller driver's *EvtSpbControllerUnlock* event callback function unlocks the SPB controller, which was locked by a previous call to the [EvtSpbControllerLock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock) event callback function.
 
 ## -parameters
 
-### -param Controller 
+### -param Controller [in]
 
-[in]
-A WDFDEVICE handle to the <a href="/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
-### -param Target 
+A WDFDEVICE handle to the [framework device object](/windows-hardware/drivers/wdf/framework-device-object) that represents the SPB controller.
 
-[in]
-An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
+### -param Target [in]
 
-### -param UnlockRequest 
 
-[in]
-An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to an I/O control request to unlock the controller. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
+An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect) callback that opened the connection to the target.
+
+### -param UnlockRequest [in]
+
+
+An [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles) handle to an I/O control request to unlock the controller. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see [Remarks](#remarks).
 
 ## -remarks
 
-SpbCx manages the I/O queue for the SPB controller. SpbCx calls this function when a client (peripheral driver) of the controller sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a> request to a target on the bus. The <i>UnlockRequest</i> parameter value is a handle that encapsulates this request.
+SpbCx manages the I/O queue for the SPB controller. SpbCx calls this function when a client (peripheral driver) of the controller sends an [IOCTL_SPB_UNLOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_controller-control-code) request to a target on the bus. The *UnlockRequest* parameter value is a handle that encapsulates this request.
 
-The <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a> and <i>EvtSpbControllerUnlock</i> functions perform complementary operations. Both functions are optional. If your SPB controller driver implements an <i>EvtSpbControllerUnlock</i> function, the driver is not required to implement an <i>EvtSpbControllerLock</i> function, but might do so. However, if your SPB controller driver implements an <i>EvtSpbControllerLock</i> function, it must also implement an <i>EvtSpbControllerUnlock</i> function. For more information, see Remarks in <a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a>.
+The [EvtSpbControllerLock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock) and *EvtSpbControllerUnlock* functions perform complementary operations. Both functions are optional. If your SPB controller driver implements an *EvtSpbControllerUnlock* function, the driver is not required to implement an *EvtSpbControllerLock* function, but might do so. However, if your SPB controller driver implements an *EvtSpbControllerLock* function, it must also implement an *EvtSpbControllerUnlock* function. For more information, see Remarks in [SPB_CONTROLLER_CONFIG](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config).
 
-If the SPB controller driver needs to change the mode of its controller to restore normal target selection, it can do so during the <i>EvtSpbControllerUnlock</i> callback.  If this change of mode involves a long delay or requires the driver to wait for a device interrupt, the driver should initiate the mode change and then return from the callback without delay. Later, the driver can complete the unlock request in an interrupt DPC or a timer DPC.
+If the SPB controller driver needs to change the mode of its controller to restore normal target selection, it can do so during the *EvtSpbControllerUnlock* callback. If this change of mode involves a long delay or requires the driver to wait for a device interrupt, the driver should initiate the mode change and then return from the callback without delay. Later, the driver can complete the unlock request in an interrupt DPC or a timer DPC.
 
-An <i>EvtSpbControllerUnlock</i> callback must avoid failing an unlock request. If <a href="/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> is enabled, such a failure  will trigger a verifier trap, which will report to the Plug and Play manager that the controller has failed.  SpbCx ignores the failure of an unlock request and does not try to handle or mitigate the failure.
+An *EvtSpbControllerUnlock* callback must avoid failing an unlock request. If [Driver Verifier](/windows-hardware/drivers/what-s-new-in-driver-development) is enabled, such a failure will trigger a verifier trap, which will report to the Plug and Play manager that the controller has failed. SpbCx ignores the failure of an unlock request and does not try to handle or mitigate the failure.
 
-The <i>EvtSpbControllerUnlock</i> function does not return a value. Instead, the SPB controller driver indicates the status of the unlock operation in the completion status of the I/O request that is identified by the <i>UnlockRequest</i> parameter. Set the completion status to STATUS_SUCCESS.
+The *EvtSpbControllerUnlock* function does not return a value. Instead, the SPB controller driver indicates the status of the unlock operation in the completion status of the I/O request that is identified by the *UnlockRequest* parameter. Set the completion status to STATUS_SUCCESS.
 
-To register an <i>EvtSpbControllerUnlock</i> callback function, call the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a> method.
+To register an *EvtSpbControllerUnlock* callback function, call the [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize) method.
 
-For more information about the <i>EvtSpbControllerUnlock</i> function, see <a href="/windows-hardware/drivers/spb/handling-client-implemented-sequences">Handling Client-Implemented Sequences</a>.
+For more information about the *EvtSpbControllerUnlock* function, see [Handling Client-Implemented Sequences](/windows-hardware/drivers/spb/handling-client-implemented-sequences).
 
+### Examples
 
-#### Examples
+To define an *EvtSpbControllerUnlock* callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define an <i>EvtSpbControllerUnlock</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define an *EvtSpbControllerUnlock* callback function that is named `MyEvtSpbControllerUnlock`, use the EVT_SPB_CONTROLLER_UNLOCK function type, as shown in this code example:
 
-For example, to define an <i>EvtSpbControllerUnlock</i> callback function that is named <code>MyEvtSpbControllerUnlock</code>, use the EVT_SPB_CONTROLLER_UNLOCK function type, as shown in this code example:
-
-
-```
+```cpp
 EVT_SPB_CONTROLLER_UNLOCK  MyEvtSpbControllerUnlock;
 ```
 
 Then, implement your callback function as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 VOID
   MyEvtSpbControllerUnlock(
@@ -106,31 +102,13 @@ VOID
 { ... }
 ```
 
-The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_UNLOCK function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the *Use_decl_annotations* annotation to your function definition. The *Use_decl_annotations* annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_UNLOCK function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for KMDF Drivers](/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers). For more information about *Use_decl_annotations*, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
-
-
-
-<a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
-
+* [EvtSpbControllerLock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock)
+* [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect)
+* [IOCTL_SPB_UNLOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_controller-control-code)
+* [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles)
+* [SPB_CONTROLLER_CONFIG](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config)
+* [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize)

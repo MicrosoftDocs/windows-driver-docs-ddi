@@ -52,13 +52,13 @@ The D3DDDIARG_GENERATEMIPSUBLEVELS structure describes how to generate the suble
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the MIP-map texture surface.
+A handle to the MIP-map texture surface.
 
-### -field Filter
+### -field Filter [in]
 
-[in] A D3DDDITEXTUREFILTERTYPE-typed value that indicates the texture magnification or minification filter type that is used in generating the sublevels of the MIP-map texture. This member can be one of the following values.
+A D3DDDITEXTUREFILTERTYPE-typed value that indicates the texture magnification or minification filter type that is used in generating the sublevels of the MIP-map texture. This member can be one of the following values.
 
 | **Value** | **Meaning** | 
 |:--|:--|

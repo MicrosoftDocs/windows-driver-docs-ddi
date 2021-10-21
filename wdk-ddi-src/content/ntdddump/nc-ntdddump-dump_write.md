@@ -49,19 +49,19 @@ The <i>Dump_Write</i> callback routine is called before the write to the dump po
 
 ## -parameters
 
-### -param FilterExtension 
+### -param FilterExtension [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
-### -param DiskByteOffset 
+### -param DiskByteOffset [in, out]
 
-[in, out]
+
 The value, in bytes, relative to the destination partition for the crash dump or hibernation. Filter drivers should not modify this field.
 
-### -param Mdl 
+### -param Mdl [in, out]
 
-[in, out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> structure that describes the data buffer. If the <b>MDL</b> is modified, the size of the write operation cannot change.
 
 ## -returns

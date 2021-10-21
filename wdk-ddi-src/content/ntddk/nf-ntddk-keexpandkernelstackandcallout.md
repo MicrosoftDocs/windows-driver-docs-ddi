@@ -49,19 +49,19 @@ The <b>KeExpandKernelStackAndCallout</b> routine calls a routine with a guarante
 
 ## -parameters
 
-### -param Callout 
+### -param Callout [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout">ExpandedStackCall</a> routine.
 
-### -param Parameter 
+### -param Parameter [in, optional]
 
-[in, optional]
+
 Specifies the parameter to pass to the <i>ExpandedStackCall</i> routine.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the number of bytes on the stack to provide to the <i>ExpandedStackCall</i> routine. This value must be large enough to accommodate the stack usage of the <i>ExpandedStackCall</i> routine and any call that this routine might make. This value must not exceed MAXIMUM_EXPANSION_SIZE.
 
 ## -returns

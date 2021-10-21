@@ -49,9 +49,9 @@ The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Specifies the value returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a> when the NMI callback was registered.
 
 ## -returns

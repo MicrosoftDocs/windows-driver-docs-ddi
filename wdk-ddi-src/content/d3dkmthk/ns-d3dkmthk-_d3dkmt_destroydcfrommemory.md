@@ -52,13 +52,13 @@ The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the 
 
 ## -struct-fields
 
-### -field hDc
+### -field hDc [in]
 
-[in] A handle to the display context.
+A handle to the display context.
 
-### -field hBitmap
+### -field hBitmap [in]
 
-[in] A handle to a bitmap that is related to the display context.
+A handle to a bitmap that is related to the display context.
 
 ## -see-also
 

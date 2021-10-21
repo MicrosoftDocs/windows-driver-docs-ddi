@@ -55,21 +55,21 @@ The <b>PEP_PPM_PARK_SELECTION_V2</b> structure indicates the preferences of the 
 
 ## -struct-fields
 
-### -field AdditionalUnparkedProcessors
+### -field AdditionalUnparkedProcessors [in]
 
-[in] The number of additional processors that need to be unparked.
+The number of additional processors that need to be unparked.
 
 This number includes all processors in the <b>Processors</b> array for which the PEP sets <b>PepPreference</b> to PROCESSOR_PARK_PREFERENCE_PARKED but the operating system sets <b>PoPreference</b> to either PROCESSOR_PARK_PREFERENCE_UNPARKED or PROCESSOR_PARK_PREFERENCE_NONE. For more information about these values, see <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>.
 
 This number does not include processors in the <b>Processors</b> array for which the operating system sets the <b>PoPreference</b> value to PROCESSOR_PARK_PREFERENCE_PARKED.
 
-### -field Count
+### -field Count [in]
 
-[in] The number of elements in the array pointed to by the <b>Processors</b> member.
+The number of elements in the array pointed to by the <b>Processors</b> member.
 
-### -field Processors
+### -field Processors [in/out]
 
-[in/out] A pointer to an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. Each array element indicates the parking preferences for a particular processor. The <b>Count</b> member specifies the number of elements in the array.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. Each array element indicates the parking preferences for a particular processor. The <b>Count</b> member specifies the number of elements in the array.
 
 ### -field EvaluationTime
 

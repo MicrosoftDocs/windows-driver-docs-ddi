@@ -52,31 +52,31 @@ api_name:
 
 ## -struct-fields
 
-### -field hPagingQueue
+### -field hPagingQueue [in]
 
-[in] A handle to the device that created the allocations.
+A handle to the device that created the allocations.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
+The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
 
-### -field pResources
+### -field pResources [in]
 
-[in] An array of <b>D3DKMT_HANDLE</b> data types that represent Direct3D runtime resource handles.
+An array of <b>D3DKMT_HANDLE</b> data types that represent Direct3D runtime resource handles.
 
-### -field HandleList
+### -field HandleList [in]
 
-[in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations that are to be reclaimed.
+An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations that are to be reclaimed.
 
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
-### -field pResults
+### -field pResults [in]
 
-[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
+Required array of values specifying whether the surface is valid, discarded, or list commitment.
 
-### -field pDiscarded
+### -field pDiscarded [out]
 
-[out] Optional array of boolean variables specifying whether each resource or allocation was discarded.
+Optional array of boolean variables specifying whether each resource or allocation was discarded.
 
 *pResults*
 

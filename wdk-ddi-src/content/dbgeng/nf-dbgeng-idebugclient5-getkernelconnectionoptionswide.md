@@ -49,19 +49,19 @@ The <b>GetKernelConnectionOptionsWide</b> method returns the connection options 
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Specifies the buffer to receive the connection options.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
-### -param OptionsSize 
+### -param OptionsSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the connection options.  If <i>OptionsSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

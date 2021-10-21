@@ -49,19 +49,19 @@ Gets the local unique identifier of the PCI Express SR-IOV Virtual Function (VF)
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF that is being queried.
 
-### -param Luid 
+### -param Luid [out]
 
-[out]
+
 A pointer to the local unique
 identifier of the SR_IOV device implementing the interface.
 

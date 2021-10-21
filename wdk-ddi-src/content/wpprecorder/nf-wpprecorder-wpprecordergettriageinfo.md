@@ -52,9 +52,9 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 ## -parameters
 
-### -param WppTriageInfo 
+### -param WppTriageInfo [out]
 
-[out]
+
 Pointer to a <a href="..\wpprecorder\ns-wpprecorder-_wpp_triage_info.md">WPP_TRIAGE_INFO</a> structure.
 
 ## -syntax

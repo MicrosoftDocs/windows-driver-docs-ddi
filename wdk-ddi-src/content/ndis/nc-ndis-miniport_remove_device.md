@@ -54,9 +54,9 @@ The
 
 ## -parameters
 
-### -param MiniportAddDeviceContext 
+### -param MiniportAddDeviceContext [in]
 
-[in]
+
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
 

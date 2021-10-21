@@ -56,24 +56,24 @@ The IHV Extensions DLL calls the
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param pKey 
+### -param pKey [in]
 
-[in]
+
 A pointer to a
      <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
      DOT11_CIPHER_DEFAULT_KEY_VALUE</a> structure, which defines the cipher key.
 
-### -param dot11Direction 
+### -param dot11Direction [in]
 
-[in]
+
 A
      <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a> value that specifies whether
      the key can be used only for received packets (DOT11_DIR_INBOUND) or both received and sent packets

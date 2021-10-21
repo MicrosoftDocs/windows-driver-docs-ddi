@@ -50,9 +50,9 @@ The <b>RtlDowncaseUnicodeChar</b> routine converts the specified Unicode charact
 
 ## -parameters
 
-### -param SourceCharacter 
+### -param SourceCharacter [in]
 
-[in]
+
 Specifies the character to convert.
 
 ## -returns

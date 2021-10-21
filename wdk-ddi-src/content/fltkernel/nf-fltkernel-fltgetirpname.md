@@ -48,9 +48,9 @@ The **FltGetIrpName** routine returns the name for a major function code as a pr
 
 ## -parameters
 
-### -param IrpMajorCode
+### -param IrpMajorCode [in]
 
-[in] The IRP major function code whose name is to be returned.
+The IRP major function code whose name is to be returned.
 
 ## -returns
 

@@ -49,14 +49,14 @@ The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQ
 
 ## -parameters
 
-### -param a 
+### -param a [in]
 
-[in]
+
 The **NewIrql** parameter specifies the new KIRQL value to which the hardware priority is to be raised.
 
-### -param b 
+### -param b [out]
 
-[out]
+
 The **OldIrql** parameter is a pointer to the storage for the original (unraised) KIRQL value to be used in a subsequent call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql">KeLowerIrql</a>.
 
 ## -syntax

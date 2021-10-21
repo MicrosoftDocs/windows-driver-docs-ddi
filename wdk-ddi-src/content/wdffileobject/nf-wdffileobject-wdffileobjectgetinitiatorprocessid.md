@@ -51,9 +51,9 @@ The <b>WdfFileObjectGetInitiatorProcessId</b> function retrieves the initiator p
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A handle to a framework file object.
 
 ## -returns

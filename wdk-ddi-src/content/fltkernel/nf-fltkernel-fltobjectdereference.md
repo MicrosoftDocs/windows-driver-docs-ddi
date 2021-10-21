@@ -49,9 +49,9 @@ The <b>FltObjectDereference</b> routine removes a rundown reference from an opaq
 
 ## -parameters
 
-### -param FltObject 
+### -param FltObject [in, out]
 
-[in, out]
+
 Opaque filter pointer (PFLT_FILTER), instance pointer (PFLT_INSTANCE), or volume pointer (PFLT_VOLUME).
 
 ## -returns

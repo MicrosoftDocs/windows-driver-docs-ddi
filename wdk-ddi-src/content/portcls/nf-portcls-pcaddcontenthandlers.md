@@ -50,19 +50,19 @@ The <b>PcAddContentHandlers</b> function provides the system with a list of func
 
 ## -parameters
 
-### -param ContentId 
+### -param ContentId [in]
 
-[in]
+
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
-### -param paHandlers 
+### -param paHandlers [in]
 
-[in]
+
 Pointer to an array of function pointers. Each array element points to a content handler.
 
-### -param NumHandlers 
+### -param NumHandlers [in]
 
-[in]
+
 Specifies the number of function pointers in the <i>paHandlers</i> array.
 
 ## -returns

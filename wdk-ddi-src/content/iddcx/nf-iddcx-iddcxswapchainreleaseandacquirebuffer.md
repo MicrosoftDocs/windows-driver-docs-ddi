@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param SwapChainObject 
+### -param SwapChainObject [in]
 
-[in]
+
 The swap-chain object passed to the <a href="/windows-hardware/drivers/ddi/iddcx/nc-iddcx-evt_idd_cx_monitor_assign_swapchain">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
 
-### -param pOutArgs 
+### -param pOutArgs [out]
 
-[out]
+
 Output arguments of function
 
 ## -returns

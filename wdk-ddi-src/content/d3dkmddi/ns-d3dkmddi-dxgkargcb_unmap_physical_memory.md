@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_UNMAP_PHYSICAL_MEMORY
 tech.root: display
 title: DXGKARGCB_UNMAP_PHYSICAL_MEMORY
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_UNMAP_PHYSICAL_MEMORY structure contains information about the physical memory object from which the CPU-visible addresses are being unmapped by the DxgkCbUnmapPhysicalMemory callback function.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_UNMAP_PHYSICAL_MEMORY
 req.umdf-ver: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_UNMAP_PHYSICAL_MEMORY** structure contains information about the physical memory object from which the CPU-visible address is being unmapped by the [**DxgkCbUnmapPhysicalMemory**](nc-d3dkmddi-dxgkcb_unmapphysicalmemory.md) callback function.
+The **DXGKARGCB_UNMAP_PHYSICAL_MEMORY** structure contains information about the physical memory object from which the CPU-visible address is being unmapped by the [**DXGKCB_UNMAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_unmapphysicalmemory.md) callback function.
 
 ## -struct-fields
 
@@ -50,7 +50,7 @@ The physical memory object from which the CPU-visible address is being unmapped.
 
 ### -field pBaseAddress
 
-The base address returned from [**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md) that is being unmapped.
+The base address returned from [**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md) that is being unmapped.
 
 ### -field Size
 
@@ -58,6 +58,6 @@ The size, in bytes, of the mapped region. This should match the mapped **Size** 
 
 ## -see-also
 
-[**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md)
+[**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md)
 
-[**DxgkCbUnmapPhysicalMemory**](nc-d3dkmddi-dxgkcb_unmapphysicalmemory.md)
+[**DXGKCB_UNMAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_unmapphysicalmemory.md)

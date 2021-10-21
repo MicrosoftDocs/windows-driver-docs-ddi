@@ -52,13 +52,13 @@ The D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure describes the priv
 
 ## -struct-fields
 
-### -field hVideoProcessor
+### -field hVideoProcessor [in]
 
-[in] A handle to the video processor whose private bitblt state the runtime requests.
+A handle to the video processor whose private bitblt state the runtime requests.
 
-### -field pData
+### -field pData [in/out]
 
-[in/out] A pointer to <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_private_data">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a> structure that identifies the private bitblt state to retrieve. The driver uses DXVAHDDDI_BLT_STATE_PRIVATE_DATA to return the private bitblt data.
+A pointer to <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_private_data">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a> structure that identifies the private bitblt state to retrieve. The driver uses DXVAHDDDI_BLT_STATE_PRIVATE_DATA to return the private bitblt data.
 
 ## -see-also
 

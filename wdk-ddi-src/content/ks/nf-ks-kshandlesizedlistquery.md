@@ -50,24 +50,24 @@ The <b>KsHandleSizedListQuery</b> function, depending on the length of the syste
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP with the identifier list request.
 
-### -param DataItemsCount 
+### -param DataItemsCount [in]
 
-[in]
+
 Specifies the number of items in the identifier list.
 
-### -param DataItemSize 
+### -param DataItemSize [in]
 
-[in]
+
 Specifies the size of a data item.
 
-### -param DataItems 
+### -param DataItems [in]
 
-[in]
+
 Specifies the list of data items.
 
 ## -returns

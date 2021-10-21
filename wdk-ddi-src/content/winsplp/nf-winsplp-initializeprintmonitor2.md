@@ -49,14 +49,14 @@ A print monitor's **InitializePrintMonitor2** function initializes a print monit
 
 ## -parameters
 
-### -param pMonitorInit 
+### -param pMonitorInit [in]
 
-[in]
+
 Caller-supplied pointer to a [MONITORINIT](./ns-winsplp-_monitorinit.md) structure.
 
-### -param phMonitor 
+### -param phMonitor [out]
 
-[out]
+
 Caller-supplied location in which the function returns a monitor handle.
 
 ## -returns

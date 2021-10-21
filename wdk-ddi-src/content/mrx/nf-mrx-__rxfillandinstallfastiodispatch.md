@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param RxDeviceObject 
+### -param RxDeviceObject [in]
 
-[in]
+
 A pointer to the RDBSS device object for this network redirector.
 
-### -param FastIoDispatch 
+### -param FastIoDispatch [in, out]
 
-[in, out]
+
 A pointer to the fast I/O dispatch table to fill in and use.
 
-### -param FastIoDispatchSize 
+### -param FastIoDispatchSize [in]
 
-[in]
+
 The size, in bytes, of the fast I/O dispatch table passed.
 
 ## -remarks

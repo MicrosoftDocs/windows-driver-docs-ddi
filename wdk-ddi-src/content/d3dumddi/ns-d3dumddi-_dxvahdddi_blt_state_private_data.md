@@ -52,17 +52,17 @@ The DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure describes data that specifies the
 
 ## -struct-fields
 
-### -field Guid
+### -field Guid [in]
 
-[in] A GUID that identifies the private bitblt state.
+A GUID that identifies the private bitblt state.
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The size, in bytes, of the private bitblt state data.
+The size, in bytes, of the private bitblt state data.
 
-### -field pData
+### -field pData [in/out]
 
-[in/out] A pointer to the private bitblt state data. The caller sets <b>pData</b> to <b>NULL</b> to retrieve the size of the private bitblt state data.
+A pointer to the private bitblt state data. The caller sets <b>pData</b> to <b>NULL</b> to retrieve the size of the private bitblt state data.
 
 ## -remarks
 

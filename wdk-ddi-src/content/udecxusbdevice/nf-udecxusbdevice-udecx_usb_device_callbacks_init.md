@@ -50,9 +50,9 @@ Initializes a <a href="/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbd
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_usb_device_state_change_callbacks">UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</a> structure to initialize.
 
 ## -see-also

@@ -50,44 +50,44 @@ The <b>KsDispatchFastReadFailure</b> function is used in a KSDISPATCH_TABLE.Fast
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Not used.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 Not used.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Not used.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 Not used.
 
-### -param LockKey 
+### -param LockKey [in]
 
-[in]
+
 Not used.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Not used.
 
-### -param IoStatus 
+### -param IoStatus [out]
 
-[out]
+
 Not used.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Not used.
 
 ## -returns

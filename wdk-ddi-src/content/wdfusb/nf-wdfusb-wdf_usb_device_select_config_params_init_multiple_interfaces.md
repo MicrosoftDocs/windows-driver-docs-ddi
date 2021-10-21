@@ -51,19 +51,19 @@ The <b>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</b> function
 
 ## -parameters
 
-### -param Params 
+### -param Params [in, out]
 
-[in, out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_select_config_params">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure.
 
-### -param NumberInterfaces 
+### -param NumberInterfaces [in, optional]
 
-[in, optional]
+
 The number of elements in the <i>SettingPairs</i> array. If <i>SettingPairs</i> is not <b>NULL</b>, this parameter must be greater than zero.
 
-### -param SettingPairs 
+### -param SettingPairs [in, optional]
 
-[in, optional]
+
 An array of <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_interface_setting_pair">WDF_USB_INTERFACE_SETTING_PAIR</a> structures. This parameter is optional and can be <b>NULL</b>.
 
 ## -remarks

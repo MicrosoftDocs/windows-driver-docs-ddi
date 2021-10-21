@@ -52,17 +52,17 @@ dev_langs:
 
 ## -parameters
 
-### -param DriverGlobals
+### -param DriverGlobals [in]
 
-[in] Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
+Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
 
-### -param AdapterObject
+### -param AdapterObject [in]
 
-[in] The adapter object of the adapter for which the rendering adapter preference is being set.
+The adapter object of the adapter for which the rendering adapter preference is being set.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Input arguments.
+Input arguments.
 
 ## -remarks
 

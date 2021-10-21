@@ -53,19 +53,19 @@ The <b>AtaPortWriteRegisterBufferUshort</b> routine transfers the indicated numb
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Contains the destination register address where the transfer should begin. This address value must be within the range of mapped I/O space addresses that are obtained by a call to <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the source buffer.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to write to the HBA.
 
 ## -see-also

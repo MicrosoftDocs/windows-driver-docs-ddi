@@ -50,9 +50,9 @@ The <b>GetString</b> method reads a null-terminated string from the target's mem
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Receives the null-terminated string read from the target.  The type of <i>Buffer</i> must be the same as the type of the string on the target.  If the string is a Unicode string, the type of <i>Buffer</i> must be PWSTR.  If the string is a multibyte string, the type of <i>Buffer</i> must be PSTR.
 
 <div class="alert"><b>Note</b>   the remainder of the <i>Buffer</i> buffer, after the string, can be overwritten by this method.</div>
@@ -62,9 +62,9 @@ Receives the null-terminated string read from the target.  The type of <i>Buffer
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-### -param MaxChars 
+### -param MaxChars [in]
 
-[in]
+
 Specifies the maximum number of characters to read from the target.
 
 
