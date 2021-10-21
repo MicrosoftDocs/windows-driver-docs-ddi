@@ -4,7 +4,7 @@ title: FltGetFileNameInformation function (fltkernel.h)
 description: The FltGetFileNameInformation routine returns name information for a file or directory.
 old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
-ms.date: 07/27/2020
+ms.date: 10/21/2021
 keywords: ["FltGetFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
 req.header: fltkernel.h
@@ -42,22 +42,19 @@ api_name:
 
 # FltGetFileNameInformation function
 
-
 ## -description
 
 The **FltGetFileNameInformation** routine returns name information for a file or directory.
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData
 
-[in]
-Pointer to a [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) structure, which is the callback data structure for the I/O operation. This parameter is required and cannot be **NULL**.
+[in] Pointer to a [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) structure, which is the callback data structure for the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param NameOptions 
+### -param NameOptions
 
-[in]
-A [**FLT_FILE_NAME_OPTIONS**](/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. (Additional flags can be used by name provider minifilter drivers to specify name query options.) This parameter is required and cannot be **NULL**.
+[in] A [**FLT_FILE_NAME_OPTIONS**](/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. (Additional flags can be used by name provider minifilter drivers to specify name query options.) This parameter is required and cannot be **NULL**.
 
 The following are the file name format flag values. Only one of the following flags can be specified. For an explanation of these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
 
@@ -84,10 +81,9 @@ Name provider minifilters use the following flags to specify the properties of f
 | FLT_FILE_NAME_DO_NOT_CACHE | This flag denotes that the name retrieved from this query should not be cached. Name provider minifilters use this flag as they perform intermediate queries to generate a name. |
 | FLT_FILE_NAME_ALLOW_QUERY_ON_REPARSE | A name provider minifilter can use this flag to specify that it is safe to query the name in the post-create path even if STATUS_REPARSE was returned. It is the caller's responsibility to ensure that the **FileObject->FileName** field was not changed. Do not use this flag with mount points or symbolic link reparse points. |
 
-### -param FileNameInformation 
+### -param FileNameInformation
 
-[out]
-Pointer to a caller-allocated variable that receives the address of a system-allocated [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md) structure containing the file name information. **FltGetFileNameInformation** allocates this structure from paged pool. This parameter is required and cannot be **NULL**.
+[out] Pointer to a caller-allocated variable that receives the address of a system-allocated [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md) structure containing the file name information. **FltGetFileNameInformation** allocates this structure from paged pool. This parameter is required and cannot be **NULL**.
 
 ## -returns
 
@@ -247,7 +243,7 @@ If **FltGetFileNameInformation** is called in the preoperation callback routine 
 
 > [!NOTE]
 >
-> Starting in Windows 10, you cannot query normalized file names on a remote volume because the Server Message Block (SMB) Protocol does not support queries for normalized paths.
+> Server Message Block (SMB) support for querying normalized file names on a remote volume varies on different Windows 10 versions. See the [MS-SMB2 Protocol](/openspecs/windows_protocols/ms-smb2/5606ad47-5ee0-437a-817e-70c366052962) for details.
 
 In create, hard-link, and rename operations, file name tunneling can cause the final component in normalized file name information that a minifilter driver retrieves in a preoperation callback routine to be invalidated. If a minifilter driver retrieves normalized file name information in a preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)) routine by calling a routine such as **FltGetFileNameInformation**, it must call [FltGetTunneledName](nf-fltkernel-fltgettunneledname.md) from its postoperation callback ([PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)) routine to retrieve the correct file name information for the file.
 
