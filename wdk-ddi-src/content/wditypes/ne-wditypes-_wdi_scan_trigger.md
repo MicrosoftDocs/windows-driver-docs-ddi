@@ -48,8 +48,6 @@ api_name:
 
 ## -description
 
-[!INCLUDE [WDI topic note](../includes/wdi-version-warning.md)]
-
 The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 
 ## -enum-fields
