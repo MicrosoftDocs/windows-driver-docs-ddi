@@ -50,9 +50,9 @@ The <b>ExTryConvertSharedSpinLockExclusive</b> routine attempts to convert the a
 
 ## -parameters
 
-### -param SpinLock 
+### -param SpinLock [in, out]
 
-[in, out]
+
 A pointer to the spin lock whose access state is to be converted to exclusive access.  The caller must already own this spin lock for shared access.
 
 ## -returns

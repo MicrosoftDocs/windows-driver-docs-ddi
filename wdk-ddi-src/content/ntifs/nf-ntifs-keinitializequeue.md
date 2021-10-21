@@ -49,9 +49,9 @@ The <b>KeInitializeQueue</b> routine initializes a queue object on which threads
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [out]
 
-[out]
+
 Pointer to a KQUEUE structure for which the caller must provide resident storage in nonpaged pool. This structure is defined as follows:
 
 
@@ -122,9 +122,9 @@ Pointer to the first entry in the thread list.
 </tr>
 </table>
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 The maximum number of threads for which the waits on the queue object can be satisfied concurrently. If this parameter is not supplied, the number of processors in the machine is used.
 
 ## -remarks

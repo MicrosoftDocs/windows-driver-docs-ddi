@@ -50,14 +50,14 @@ The <b>KsQueueWorkItem</b> function queues the specified work item with a worker
 
 ## -parameters
 
-### -param Worker 
+### -param Worker [in]
 
-[in]
+
 Specifies the previously allocated worker.
 
-### -param WorkItem 
+### -param WorkItem [in]
 
-[in]
+
 Specifies the initialized work item to queue. This work item is only associated with the worker as long as the worker is on a queue. The work item must have been initialized by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>.
 
 ## -returns

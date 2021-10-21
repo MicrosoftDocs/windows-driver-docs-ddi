@@ -52,9 +52,9 @@ fully configured but before any packets have been delivered.  This occurs when t
 
 ## -parameters
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 The channel which is started.
 
 ## -remarks

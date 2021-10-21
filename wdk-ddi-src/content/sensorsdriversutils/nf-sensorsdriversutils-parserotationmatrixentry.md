@@ -48,17 +48,17 @@ The ParseRotationMatrixEntry function parses a string of three floats.
 
 ## -parameters
 
-### -param RotationEntry
+### -param RotationEntry [in]
 
-[in] A string that represents three floats.
+A string that represents three floats.
 
-### -param Length
+### -param Length [in]
 
-[in] Length of the string.
+Length of the string.
 
-### -param Data
+### -param Data [out]
 
-[out] Out buffer for floats.
+Out buffer for floats.
 
 ## -returns
 

@@ -45,14 +45,14 @@ Retrieves the number of supported video extension commands.
 
 ## -struct-fields
 
-### -field NodeIndex
+### -field NodeIndex [in]
 
-[in] For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
-### -field CommandCount
+### -field CommandCount [out]
 
  
-[out] The number of video extension commands supported.
+The number of video extension commands supported.
 
 ## -remarks
 

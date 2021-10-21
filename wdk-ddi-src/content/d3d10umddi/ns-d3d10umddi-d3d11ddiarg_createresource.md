@@ -49,55 +49,55 @@ Describes a resource to create.
 
 ## -struct-fields
 
-### -field pMipInfoList
+### -field pMipInfoList [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_mipinfo">D3D10DDI_MIPINFO</a> structures that contains dimensions for MIP levels. For resource formats where a single pixel or texel cannot be referenced directly with a byte address, the dimensions of the physical resource are typically larger or equal to the texel dimensions, in order to satisfy the necessary space requirements. For example, to create a fully mipped BC1 Texture2D, where the most detailed level is 8x8, the <b>pMipInfoList</b> array is:  { { 8, 8, 1, 8, 8, 1 }, { 4, 4, 1, 4, 4, 1 }, { 2, 2, 1, 4, 4, 1 }, { 1, 1, 1, 4, 4, 1 } }.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_mipinfo">D3D10DDI_MIPINFO</a> structures that contains dimensions for MIP levels. For resource formats where a single pixel or texel cannot be referenced directly with a byte address, the dimensions of the physical resource are typically larger or equal to the texel dimensions, in order to satisfy the necessary space requirements. For example, to create a fully mipped BC1 Texture2D, where the most detailed level is 8x8, the <b>pMipInfoList</b> array is:  { { 8, 8, 1, 8, 8, 1 }, { 4, 4, 1, 4, 4, 1 }, { 2, 2, 1, 4, 4, 1 }, { 1, 1, 1, 4, 4, 1 } }.
 
-### -field pInitialDataUP
+### -field pInitialDataUP [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddiarg_subresource_up">D3D10_DDIARG_SUBRESOURCE_UP</a> structures that provides initialization information for the resource's list of subresources.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddiarg_subresource_up">D3D10_DDIARG_SUBRESOURCE_UP</a> structures that provides initialization information for the resource's list of subresources.
 
-### -field ResourceDimension
+### -field ResourceDimension [in]
 
-[in] A value of type <a href="/previous-versions/windows/hardware/drivers/ff541810(v=vs.85)">D3D10DDIRESOURCE_TYPE</a> that indicates the resource type and dimensionality.
+A value of type <a href="/previous-versions/windows/hardware/drivers/ff541810(v=vs.85)">D3D10DDIRESOURCE_TYPE</a> that indicates the resource type and dimensionality.
 
-### -field Usage
+### -field Usage [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_usage">D3D10_DDI_RESOURCE_USAGE</a> that indicates how the resource is used.
+A value of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_usage">D3D10_DDI_RESOURCE_USAGE</a> that indicates how the resource is used.
 
-### -field BindFlags
+### -field BindFlags [in]
 
-[in] A valid bitwise OR of values of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a> that indicates how the resource is bound.
+A valid bitwise OR of values of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a> that indicates how the resource is bound.
 
-### -field MapFlags
+### -field MapFlags [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_map">D3D10_DDI_MAP</a> that indicates the access level to map to the resource.
+A value of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_map">D3D10_DDI_MAP</a> that indicates the access level to map to the resource.
 
-### -field MiscFlags
+### -field MiscFlags [in]
 
-[in] A valid bitwise OR of values of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_misc_flag">D3D10_DDI_RESOURCE_MISC_FLAG</a> that indicates miscellaneous information about the resource.
+A valid bitwise OR of values of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_misc_flag">D3D10_DDI_RESOURCE_MISC_FLAG</a> that indicates miscellaneous information about the resource.
 
-### -field Format
+### -field Format [in]
 
-[in] A value of type <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> that indicates the pixel format of the resource.
+A value of type <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> that indicates the pixel format of the resource.
 
-### -field SampleDesc
+### -field SampleDesc [in]
 
-[in] A value of type <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> that describes the sample count and quality of the resource.
+A value of type <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> that describes the sample count and quality of the resource.
 
-### -field MipLevels
+### -field MipLevels [in]
 
-[in] The number of MIP-map levels for the resource.
+The number of MIP-map levels for the resource.
 
-### -field ArraySize
+### -field ArraySize [in]
 
-[in] The number of array elements for a 2-D texture or 1-D texture. <b>ArraySize</b> must be set to 6 for a cube texture.
+The number of array elements for a 2-D texture or 1-D texture. <b>ArraySize</b> must be set to 6 for a cube texture.
 
 Beginning in Windows 8, if the driver must create a stereo back buffer, it should set the <b>ArraySize</b> member of the <b>D3D11DDIARG_CREATERESOURCE</b> structure to a value of 2.
 
-### -field pPrimaryDesc
+### -field pPrimaryDesc [in, out]
 
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_primary_desc">DXGI_DDI_PRIMARY_DESC</a> structure that describes a resource that is used as a primary.
+A pointer to a <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_primary_desc">DXGI_DDI_PRIMARY_DESC</a> structure that describes a resource that is used as a primary.
 
 The Microsoft Direct3D runtime sets <b>pPrimaryDesc</b> to a non-<b>NULL</b> value only if the D3D10_DDI_BIND_PRESENT bit is set in the <b>BindFlags</b> member; however, even if D3D10_DDI_BIND_PRESENT is set, the runtime does not always set <b>pPrimaryDesc</b> to non-<b>NULL</b>. Setting <b>pPrimaryDesc</b> to non-<b>NULL</b> indicates that the runtime will use the created resource as a primary (that is, the resource is scanned out to the display) and in flip-style present operations. 
 
@@ -105,13 +105,13 @@ The user-mode display driver can return the DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCAN
 
 If <b>pPrimaryDesc</b> is set to <b>NULL</b>, the runtime will use the created resource in; copy-style (bit-block transfer) present operations.
 
-### -field ByteStride
+### -field ByteStride [in]
 
-[in] The size, in bytes, from one scan line to the next scan line in the surface.
+The size, in bytes, from one scan line to the next scan line in the surface.
 
-### -field DecoderBufferType
+### -field DecoderBufferType [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> that indicates the  buffer type used by the video decoder.
+A value of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> that indicates the  buffer type used by the video decoder.
 
 If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION >= 3 before accessing this  structure member, it should access this member only when the D3D11_DDI_BIND_DECODER flag is set in the <b>BindFlags</b> member.
 

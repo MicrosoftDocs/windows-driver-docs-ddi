@@ -49,9 +49,9 @@ The <b>RtlValidSecurityDescriptor</b> routine checks a given security descriptor
 
 ## -parameters
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> to be checked.
 
 ## -returns

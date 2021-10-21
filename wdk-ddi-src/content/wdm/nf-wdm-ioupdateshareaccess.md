@@ -49,14 +49,14 @@ The <b>IoUpdateShareAccess</b> routine updates the share access for the given fi
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a referenced file object representing the file or associated device object for which to update the share access.
 
-### -param ShareAccess 
+### -param ShareAccess [in, out]
 
-[in, out]
+
 Pointer to the common <b>SHARE_ACCESS</b> structure associated with the <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 ## -remarks

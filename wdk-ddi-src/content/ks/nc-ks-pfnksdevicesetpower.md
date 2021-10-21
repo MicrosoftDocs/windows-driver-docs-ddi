@@ -49,24 +49,24 @@ AVStream calls a minidriver's <i>AVStrMiniDeviceSetPower</i> routine when it rec
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure that received the <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 The <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> issued by <i>Device</i>.
 
-### -param To 
+### -param To [in]
 
-[in]
+
 The target device power state.
 
-### -param From 
+### -param From [in]
 
-[in]
+
 The current device power state.
 
 ## -remarks

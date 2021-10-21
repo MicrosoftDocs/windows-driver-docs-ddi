@@ -49,19 +49,19 @@ Adds two values of type <b>UINT</b>.
 
 ## -parameters
 
-### -param uAugend 
+### -param uAugend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param uAddend 
+### -param uAddend [in]
 
-[in]
+
 The value to add to <i>uAugend</i>.
 
-### -param puResult 
+### -param puResult [out]
 
-[out]
+
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

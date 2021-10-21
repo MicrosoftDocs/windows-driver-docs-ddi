@@ -53,14 +53,14 @@ api_name:
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to the framework device object for which PoFx settings are being specified.
 
-### -param PowerFrameworkSettings 
+### -param PowerFrameworkSettings [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_framework_settings">WDF_POWER_FRAMEWORK_SETTINGS</a> structure that describes the client driver’s PoFx settings.
 
 ## -returns

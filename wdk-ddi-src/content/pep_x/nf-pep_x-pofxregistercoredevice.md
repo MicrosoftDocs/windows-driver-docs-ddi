@@ -50,19 +50,19 @@ The <b>PoFxRegisterCoreDevice</b> routine registers a new core system resource w
 
 ## -parameters
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 A string that uniquely identifies the core system resource. This member is a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 A pointer to a location to which the routine writes a POHANDLE value. This handle represents the registration of the core system resource with PoFx.
 
 ## -returns

@@ -52,13 +52,13 @@ Describes information that is required to map a GDI display name to a remote vid
 
 ## -struct-fields
 
-### -field DeviceName
+### -field DeviceName [in]
 
-[in] The name of the GDI device on which to open an adapter instance.
+The name of the GDI device on which to open an adapter instance.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [out]
 
-[out] The zero-based video present network (VidPN) source identifier for the display device that is represented by the <b>DeviceName</b> member.
+The zero-based video present network (VidPN) source identifier for the display device that is represented by the <b>DeviceName</b> member.
 
 ## -see-also
 

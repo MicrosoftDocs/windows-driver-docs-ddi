@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the size in bytes of the given security descriptor.
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the self-relative <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>, which must be buffered somewhere in system space.
 
 ## -returns

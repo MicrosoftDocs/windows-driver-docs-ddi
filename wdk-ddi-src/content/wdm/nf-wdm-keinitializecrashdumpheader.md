@@ -49,29 +49,29 @@ The <b>KeInitializeCrashDumpHeader</b> routine supplies the header information t
 
 ## -parameters
 
-### -param DumpType 
+### -param DumpType [in]
 
-[in]
+
 Specifies the type of dump file. The only valid value is DUMP_TYPE_FULL.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies flags for the dump file. The only valid value is 0.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to the buffer that receives the header information.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer pointed to by <i>Buffer</i>.
 
-### -param BufferNeeded 
+### -param BufferNeeded [out, optional]
 
-[out, optional]
+
 Optionally, a pointer to a variable that receives the size necessary to hold the complete header information.
 
 ## -returns

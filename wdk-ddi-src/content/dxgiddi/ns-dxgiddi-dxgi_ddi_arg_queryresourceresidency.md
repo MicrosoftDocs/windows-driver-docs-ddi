@@ -49,17 +49,17 @@ The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) on which the driver determines resource residency status. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
+A handle to the display device (graphics context) on which the driver determines resource residency status. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
 
-### -field pResources
+### -field pResources [in]
 
-[in] An array of handles to the resources to query for residency on.
+An array of handles to the resources to query for residency on.
 
-### -field pStatus
+### -field pStatus [out]
 
-[out] A pointer to an array of DXGI_DDI_RESIDENCY values. The number of elements in the array is specified by the <b>Resources</b> member, and each element receives one of the following values to indicate the residency status of the corresponding resource in the array that <b>pResources</b> specifies. 
+A pointer to an array of DXGI_DDI_RESIDENCY values. The number of elements in the array is specified by the <b>Resources</b> member, and each element receives one of the following values to indicate the residency status of the corresponding resource in the array that <b>pResources</b> specifies. 
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -67,9 +67,9 @@ The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status
 | DXGI_DDI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY (2) | The resources reside in shared memory. | 
 | DXGI_DDI_RESIDENCY_EVICTED_TO_DISK (3) | The resources are nonresident, which is the lowest residency status. |
 
-### -field Resources
+### -field Resources [in]
 
-[in] The number of elements in the <i>pResources</i> and <i>pStatus</i> arrays.
+The number of elements in the <i>pResources</i> and <i>pStatus</i> arrays.
 
 ## -see-also
 

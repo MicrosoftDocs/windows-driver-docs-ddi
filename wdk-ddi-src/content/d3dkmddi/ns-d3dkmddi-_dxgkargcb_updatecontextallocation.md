@@ -51,17 +51,17 @@ api_name:
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] Handle to the context allocation being updated. The allocation defines a physical adapter in a linked display adapter link.
+Handle to the context allocation being updated. The allocation defines a physical adapter in a linked display adapter link.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] Pointer to a private driver data buffer to be passed to the [**DXGKCB_UPDATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_updatecontextallocation.md) paging operation.
+Pointer to a private driver data buffer to be passed to the [**DXGKCB_UPDATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_updatecontextallocation.md) paging operation.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size of the driver private data, in bytes.
+The size of the driver private data, in bytes.
 
 ## -see-also
 

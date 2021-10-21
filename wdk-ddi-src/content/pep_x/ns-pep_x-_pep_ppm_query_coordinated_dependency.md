@@ -55,29 +55,29 @@ The <b>PEP_PPM_QUERY_COORDINATED_DEPENDENCY</b> structure describes dependencies
 
 ## -struct-fields
 
-### -field StateIndex
+### -field StateIndex [in]
 
-[in] The index of the coordinated idle state which is having its dependencies queried.
+The index of the coordinated idle state which is having its dependencies queried.
 
-### -field DependencyIndex
+### -field DependencyIndex [in]
 
-[in] The index of the dependency being queried.
+The index of the dependency being queried.
 
-### -field DependencySize
+### -field DependencySize [in]
 
-[in] The size of the <b>Dependencies</b> array.
+The size of the <b>Dependencies</b> array.
 
-### -field DependencySizeUsed
+### -field DependencySizeUsed [out]
 
-[out] The number of elements of the <b>Dependencies</b> array filled in by the PEP.
+The number of elements of the <b>Dependencies</b> array filled in by the PEP.
 
-### -field TargetProcessor
+### -field TargetProcessor [out]
 
-[out] The <b>POHANDLE</b> corresponding to the processor being targeted by this dependency, or <b>NULL</b> if this is a coordinated state dependency.
+The <b>POHANDLE</b> corresponding to the processor being targeted by this dependency, or <b>NULL</b> if this is a coordinated state dependency.
 
-### -field Options
+### -field Options [out]
 
-[out] A list of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_dependency_option">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
+A list of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_dependency_option">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
 
 ## -see-also
 

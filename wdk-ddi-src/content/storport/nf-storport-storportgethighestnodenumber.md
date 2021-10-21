@@ -49,14 +49,14 @@ The <b>StorPortGetHighestNodeNumber</b> routine returns the largest possible nod
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param HighestNode 
+### -param HighestNode [out]
 
-[out]
+
 A pointer to a variable that holds the highest-numbered node.
 
 ## -returns

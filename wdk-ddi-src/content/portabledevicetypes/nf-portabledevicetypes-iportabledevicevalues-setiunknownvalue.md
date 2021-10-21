@@ -50,14 +50,14 @@ Adds a new <b>IUnknown</b> value (type VT_UNKNOWN) or overwrites an existing one
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-### -param pValue 
+### -param pValue [in]
 
-[in]
+
 A pointer to an <b>IUnknown</b> interface that specifies the new value. The SDK copies a reference to the submitted interface and calls <b>AddRef</b> on it.
 
 ## -returns

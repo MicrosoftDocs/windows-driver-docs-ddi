@@ -49,9 +49,9 @@ The <code>SendFixedDocument</code> method sends a fixed document object to the p
 
 ## -parameters
 
-### -param pIFixedDocument 
+### -param pIFixedDocument [in]
 
-[in]
+
 A pointer to an XPS fixed document object.
 
 ## -returns

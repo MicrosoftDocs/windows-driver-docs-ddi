@@ -49,14 +49,14 @@ The <b>GetThreadIdBySystemId</b> method returns the engine thread ID for the spe
 
 ## -parameters
 
-### -param SysId 
+### -param SysId [in]
 
-[in]
+
 Specifies the system thread ID.
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine thread ID.
 
 ## -returns

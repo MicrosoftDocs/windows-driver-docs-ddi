@@ -52,14 +52,14 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 ## -parameters
 
-### -param ProviderHandle 
+### -param ProviderHandle [in]
 
-[in]
+
 A provider handle that identifies the PD-capable miniport driver's provider object.
 
-### -param QueueParameters 
+### -param QueueParameters [in]
 
-[in]
+
 All the parameters that are associated with the Queue. For more information see the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue_parameters">NDIS_PD_QUEUE_PARAMETERS</a> structure.
 
 ### -param NdisPDQueue

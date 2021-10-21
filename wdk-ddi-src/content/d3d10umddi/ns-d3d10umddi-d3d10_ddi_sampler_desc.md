@@ -49,45 +49,45 @@ The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 
 ## -struct-fields
 
-### -field Filter
+### -field Filter [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_filter">D3D10_DDI_FILTER</a>-typed value that indicates the filter property for a sampler.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_filter">D3D10_DDI_FILTER</a>-typed value that indicates the filter property for a sampler.
 
-### -field AddressU
+### -field AddressU [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the u coordinate.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the u coordinate.
 
-### -field AddressV
+### -field AddressV [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the v coordinate.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the v coordinate.
 
-### -field AddressW
+### -field AddressW [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the w coordinate.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the w coordinate.
 
-### -field MipLODBias
+### -field MipLODBias [in]
 
-[in] A single-precision float that affects the level that the driver selects for MIP-map level of detail (LOD).
+A single-precision float that affects the level that the driver selects for MIP-map level of detail (LOD).
 
-### -field MaxAnisotropy
+### -field MaxAnisotropy [in]
 
-[in] The maximum valid value for the anisotropy texture-stage state.
+The maximum valid value for the anisotropy texture-stage state.
 
-### -field ComparisonFunc
+### -field ComparisonFunc [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_comparison_func">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the sampler-comparison function to perform.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_comparison_func">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the sampler-comparison function to perform.
 
-### -field BorderColor
+### -field BorderColor [in]
 
-[in] A four-element array of single-precision float vectors for RGBA, where Red == 0. The border color is used when the D3D10_DDI_TEXTURE_ADDRESS_BORDER value is specified in the <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b> member. The float should be converted to the appropriate resource format.
+A four-element array of single-precision float vectors for RGBA, where Red == 0. The border color is used when the D3D10_DDI_TEXTURE_ADDRESS_BORDER value is specified in the <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b> member. The float should be converted to the appropriate resource format.
 
-### -field MinLOD
+### -field MinLOD [in]
 
-[in] A single-precision float vector for the minimum level of detail (LOD) for the sampler.
+A single-precision float vector for the minimum level of detail (LOD) for the sampler.
 
-### -field MaxLOD
+### -field MaxLOD [in]
 
-[in] A single-precision float vector for the maximum level of detail (LOD) for the sampler.
+A single-precision float vector for the maximum level of detail (LOD) for the sampler.
 
 ## -see-also
 

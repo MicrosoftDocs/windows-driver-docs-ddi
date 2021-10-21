@@ -50,9 +50,9 @@ This routine update embedded pointers. It should be called when marshalled colle
 
 ## -parameters
 
-### -param Collection
+### -param Collection [in/out]
 
-[in/out] A pointer to a sensor collection list.
+A pointer to a sensor collection list.
 
 ## -returns
 

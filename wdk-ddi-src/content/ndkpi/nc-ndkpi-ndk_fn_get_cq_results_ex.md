@@ -49,9 +49,9 @@ The <i>NdkGetCqResultsEx</i> (<i>NDK_FN_GET_CQ_RESULTS_EX</i>) function removes 
 
 ## -parameters
 
-### -param pNdkCq 
+### -param pNdkCq [in]
 
-[in]
+
 A pointer to an NDK completion queue (CQ) object  (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 
 ### -param Results
@@ -59,9 +59,9 @@ A pointer to an NDK completion queue (CQ) object  (<a href="/windows-hardware/dr
 []
 An array of <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structures that will be filled with completion results that were removed from the CQ.
 
-### -param nResults 
+### -param nResults [in]
 
-[in]
+
 The size, in elements, of the <i>Results</i> array. That is, the maximum number of completions to remove from the CQ.
 
 ## -returns

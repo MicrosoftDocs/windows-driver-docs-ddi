@@ -53,9 +53,9 @@ NDIS calls the
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
@@ -64,17 +64,17 @@ The handle to an offload-target allocated context area in which the offload targ
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param MiniportOffloadContext 
+### -param MiniportOffloadContext [in]
 
-[in]
+
 A pointer to a memory location that contains a PVOID value. This PVOID value references the
      miniport offload context that contains the state object for the TCP connection on which the receive
      requests are being posted. The offload target supplied this PVOID value when it offloaded the TCP
      connection state object.
 
-### -param NetBufferList 
+### -param NetBufferList [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.

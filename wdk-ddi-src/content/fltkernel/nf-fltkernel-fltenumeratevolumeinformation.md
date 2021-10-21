@@ -50,19 +50,19 @@ The <b>FltEnumerateVolumeInformation</b> routine provides information about volu
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Zero-based index of the volume for which the information is requested.
 
-### -param InformationClass 
+### -param InformationClass [in]
 
-[in]
+
 Type of information requested. This parameter can have one of the following values. 
 
 <table>
@@ -92,19 +92,19 @@ The <i>Buffer</i> parameter receives a <a href="/windows-hardware/drivers/ddi/fl
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value.
 
-### -param BytesReturned 
+### -param BytesReturned [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltEnumerateVolumeInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

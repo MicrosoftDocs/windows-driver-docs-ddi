@@ -51,19 +51,19 @@ The <b>OnRead</b> method is called to handle a read request when an application 
 
 ## -parameters
 
-### -param pWdfQueue 
+### -param pWdfQueue [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from.
 
-### -param pWdfRequest 
+### -param pWdfRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object.
 
-### -param NumOfBytesToRead 
+### -param NumOfBytesToRead [in]
 
-[in]
+
 The size, in bytes, of the read buffer for the request.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>MmGetSystemRoutineAddress</b> routine returns a pointer to a function spe
 
 ## -parameters
 
-### -param SystemRoutineName 
+### -param SystemRoutineName [in]
 
-[in]
+
 Specifies the name of the system routine to resolve.
 
 ## -returns

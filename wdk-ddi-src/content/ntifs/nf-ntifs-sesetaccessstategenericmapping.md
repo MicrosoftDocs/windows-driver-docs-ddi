@@ -49,14 +49,14 @@ The <b>SeSetAccessStateGenericMapping</b> routine sets the generic mapping field
 
 ## -parameters
 
-### -param AccessState 
+### -param AccessState [in, out]
 
-[in, out]
+
 Pointer to the ACCESS_STATE structure to be modified.
 
-### -param GenericMapping 
+### -param GenericMapping [in]
 
-[in]
+
 Pointer to a GENERIC<b>_</b>MAPPING structure to be copied into the ACCESS_STATE structure specified by <i>AccessState</i>.
 
 ## -remarks

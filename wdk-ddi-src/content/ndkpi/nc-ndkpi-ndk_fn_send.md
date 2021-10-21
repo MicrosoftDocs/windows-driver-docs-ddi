@@ -49,30 +49,30 @@ The <i>NdkSend</i> (<i>NDK_FN_SEND</i>) function posts a send request on an NDK 
 
 ## -parameters
 
-### -param pNdkQp 
+### -param pNdkQp [in]
 
-[in]
+
 A pointer to an NDK queue pair (QP) object
 (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value to be returned in the <b>RequestContext</b> member of the <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
 ### -param NDK_SGE
 
 An array of SGE structures (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>)  that represent the buffers holding the data to send.
 
-### -param nSge 
+### -param nSge [in]
 
-[in]
+
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>

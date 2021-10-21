@@ -49,9 +49,9 @@ The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document 
 
 ## -parameters
 
-### -param pPrintTicket 
+### -param pPrintTicket [in]
 
-[in]
+
 A pointer to the print ticket to be inserted.
 
 ## -returns

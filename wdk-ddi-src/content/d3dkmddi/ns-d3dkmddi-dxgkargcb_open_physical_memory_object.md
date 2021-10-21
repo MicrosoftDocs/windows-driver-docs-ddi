@@ -44,17 +44,17 @@ The **DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT** structure contains the information
 
 ## -struct-fields
 
-### -field hPhysicalMemoryObject
+### -field hPhysicalMemoryObject [in]
 
-[in] The physical memory object handle that was returned from a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
+The physical memory object handle that was returned from a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to any adapter that is part of the logical adapter to open the physical object against. This can be any physical adapter that is linked together in a linked display adapter (LDA) chain.
+A handle to any adapter that is part of the logical adapter to open the physical object against. This can be any physical adapter that is linked together in a linked display adapter (LDA) chain.
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [out]
 
-[out] Field in which a handle to the opened physical memory object for this adapter is returned.
+Field in which a handle to the opened physical memory object for this adapter is returned.
 
 ## -remarks
 

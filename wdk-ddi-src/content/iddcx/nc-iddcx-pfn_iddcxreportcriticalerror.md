@@ -46,17 +46,17 @@ product:
 
 ## -parameters
 
-### -param DriverGlobals
+### -param DriverGlobals [in]
 
-[in] Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
+Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
 
-### -param AdapterObject
+### -param AdapterObject [in, opt]
 
-[in, opt] The adapter object of the adapter on which the critical error occurred. If the error occurred before an IDDCX_ADAPTER object was created, pass in ```nullptr``` for this value.
+The adapter object of the adapter on which the critical error occurred. If the error occurred before an IDDCX_ADAPTER object was created, pass in ```nullptr``` for this value.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_REPORTCRITICALERROR**](ns-iddcx-idarg_in_reportcriticalerror.md) structure containing input arguments to the function.
+Pointer to an [**IDARG_IN_REPORTCRITICALERROR**](ns-iddcx-idarg_in_reportcriticalerror.md) structure containing input arguments to the function.
 
 ## -returns
 

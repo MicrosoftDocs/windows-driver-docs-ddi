@@ -48,17 +48,17 @@ The **KeInitializeEvent** routine initializes an event object as a synchronizati
 
 ## -parameters
 
-### -param Event
+### -param Event [out]
 
-[out] Pointer to an event object, for which the caller provides the storage.
+Pointer to an event object, for which the caller provides the storage.
 
-### -param Type
+### -param Type [in]
 
-[in] Specifies the event type, either **NotificationEvent** or **SynchronizationEvent**.
+Specifies the event type, either **NotificationEvent** or **SynchronizationEvent**.
 
-### -param State
+### -param State [in]
 
-[in] Specifies the initial state of the event. **TRUE** indicates a signaled state.
+Specifies the initial state of the event. **TRUE** indicates a signaled state.
 
 ## -remarks
 

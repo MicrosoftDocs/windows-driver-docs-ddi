@@ -49,19 +49,19 @@ The <b>NtSetInformationToken</b> routine modifies information in a specified tok
 
 ## -parameters
 
-### -param TokenHandle 
+### -param TokenHandle [in]
 
-[in]
+
 Handle for an access token in which information is to be modified.
 
-### -param TokenInformationClass 
+### -param TokenInformationClass [in]
 
-[in]
+
 A value from the <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a> enumerated type identifying the type of information to be modified. The possible values for this parameter are listed in the <i>TokenInformationClass</i> Value column of the table shown in the description of the <i>TokenInformation</i> parameter.
 
-### -param TokenInformation 
+### -param TokenInformation [in]
 
-[in]
+
 Pointer to a caller-supplied buffer containing the information to be modified in the token. The structure of the information in this buffer depends upon the value of <i>TokenInformationClass</i>, as shown in the following table. All structures must be aligned on a 32-bit boundary. 
 
 <table>
@@ -151,9 +151,9 @@ Not a valid information class. This information is read-only.
 </tr>
 </table>
 
-### -param TokenInformationLength 
+### -param TokenInformationLength [in]
 
-[in]
+
 Size, in bytes, of the structure passed in the <i>TokenInformation</i> buffer. Must be greater than or equal to the minimum value given in the following table. 
 
 <table>

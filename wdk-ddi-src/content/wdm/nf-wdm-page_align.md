@@ -46,9 +46,9 @@ The **PAGE_ALIGN** macro returns a page-aligned virtual address for a given virt
 
 ## -parameters
 
-### -param Va
+### -param Va [in]
 
-[in]
+
 Pointer to the virtual address.
 
 ## -remarks

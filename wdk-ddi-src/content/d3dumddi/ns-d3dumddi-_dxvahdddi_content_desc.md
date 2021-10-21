@@ -52,33 +52,33 @@ The DXVAHDDDI_CONTENT_DESC structure describes the video content that a decode d
 
 ## -struct-fields
 
-### -field InputFrameFormat
+### -field InputFrameFormat [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_frame_format">DXVAHDDDI_FRAME_FORMAT</a>-typed value that indicates the frame format of the input video stream.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_frame_format">DXVAHDDDI_FRAME_FORMAT</a>-typed value that indicates the frame format of the input video stream.
 
 ### -field InputFrameRate
 
       [in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the input video stream.
 
-### -field InputWidth
+### -field InputWidth [in]
 
-[in] The width, in pixels, of the input video stream.
+The width, in pixels, of the input video stream.
 
-### -field InputHeight
+### -field InputHeight [in]
 
-[in] The height, in pixels, of the input video stream.
+The height, in pixels, of the input video stream.
 
 ### -field OutputFrameRate
 
       [in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the output.
 
-### -field OutputWidth
+### -field OutputWidth [in]
 
-[in] The width, in pixels, of the output video stream.
+The width, in pixels, of the output video stream.
 
-### -field OutputHeight
+### -field OutputHeight [in]
 
-[in] The height, in pixels, of the output video stream.
+The height, in pixels, of the output video stream.
 
 ## -remarks
 

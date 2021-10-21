@@ -49,9 +49,9 @@ The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="/windows-hardware
 
 ## -parameters
 
-### -param Activity 
+### -param Activity [out]
 
-[out]
+
 A pointer to the <b>SERCX_ACTIVITY</b> structure that is to be initialized.
 
 ## -see-also

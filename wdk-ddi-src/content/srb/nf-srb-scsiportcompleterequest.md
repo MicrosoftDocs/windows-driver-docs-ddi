@@ -51,29 +51,29 @@ The <b>ScsiPortCompleteRequest</b> routine completes all of the active requests 
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device.
 
-### -param PathId 
+### -param PathId [in]
 
-[in]
+
 Identifies the SCSI bus; SP_UNTAGGED indicates all buses controlled by the HBA.
 
-### -param TargetId 
+### -param TargetId [in]
 
-[in]
+
 Identifies the target controller or device on the given buses; SP_UNTAGGED indicates all targets on the bus.
 
-### -param Lun 
+### -param Lun [in]
 
-[in]
+
 Identifies the logical unit for the given target controller or device; SP_UNTAGGED indicates all logical units for the given target controllers on the given buses.
 
-### -param SrbStatus 
+### -param SrbStatus [in]
 
-[in]
+
 Specifies the completion status to be set in the <b>SrbStatus </b>member of each SRB.
 
 ## -returns

@@ -52,9 +52,9 @@ The <b>WdfWmiProviderGetTracingHandle</b> method returns a handle to the event l
 
 ## -parameters
 
-### -param WmiProvider 
+### -param WmiProvider [in]
 
-[in]
+
 A handle to a WMI provider object that the driver obtained by calling <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidercreate">WdfWmiProviderCreate</a> or <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancegetprovider">WdfWmiInstanceGetProvider</a>.
 
 ## -returns

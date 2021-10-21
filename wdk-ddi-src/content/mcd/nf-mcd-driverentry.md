@@ -50,14 +50,14 @@ The <b><i>DriverEntry</i></b> miniport driver routine is called when the minipor
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 A pointer to an opaque structure to be used as the first parameter when this routine calls the <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> routine.
 
-### -param RegistryPath 
+### -param RegistryPath [in]
 
-[in]
+
 A pointer to an opaque structure to be used as the second parameter when this routine calls the <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> routine.
 
 ## -returns

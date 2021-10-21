@@ -49,17 +49,17 @@ The <b>RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER</b> method initializes the
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure.
 
-### -param LogIdentifier 
+### -param LogIdentifier [in, optional]
 
-[in, optional]
+
 String identifier for the log.
 
-### -param LogIdentifierAppendPointer 
+### -param LogIdentifierAppendPointer [in]
 
-[in]
+
 A pointer from each debug message to its IFR’s metadata structure.

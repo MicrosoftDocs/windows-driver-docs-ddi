@@ -52,17 +52,17 @@ The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that i
 
 ## -struct-fields
 
-### -field InputSize
+### -field InputSize [in]
 
-[in] The size, in bytes, of the input data that the <b>pInputData</b> member points to.
+The size, in bytes, of the input data that the <b>pInputData</b> member points to.
 
-### -field pInputData
+### -field pInputData [in]
 
-[in] A pointer to a buffer that describes the configuration data to set. The definition of the input buffer depends on the configuration data that is set. The buffer that <b>pInputData</b> points to is defined identically to the input buffer that is passed to the <b>IDirect3DAuthenticatedChannel::Configure</b> method. For more information about <b>IDirect3DAuthenticatedChannel::Configure</b>, see the Windows SDK documentation.
+A pointer to a buffer that describes the configuration data to set. The definition of the input buffer depends on the configuration data that is set. The buffer that <b>pInputData</b> points to is defined identically to the input buffer that is passed to the <b>IDirect3DAuthenticatedChannel::Configure</b> method. For more information about <b>IDirect3DAuthenticatedChannel::Configure</b>, see the Windows SDK documentation.
 
-### -field pOutputData
+### -field pOutputData [in/out]
 
-[in/out] A pointer to a buffer that describes the information that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a> function returns.
+A pointer to a buffer that describes the information that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a> function returns.
 
 ## -remarks
 

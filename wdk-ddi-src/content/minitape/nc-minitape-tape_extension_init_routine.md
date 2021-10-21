@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param MinitapeExtension 
+### -param MinitapeExtension [in]
 
-[in]
+
 Pointer to a buffer of the size requested by the tape miniclass driver when it initialized.
 
-### -param InquiryData 
+### -param InquiryData [in]
 
-[in]
+
 Pointer to the SCSI inquiry data for the tape device.
 
-### -param ModeCapabilitiesPage 
+### -param ModeCapabilitiesPage [in]
 
-[in]
+
 Pointer to a buffer that contains low-level information for the tape device. The format of this page is defined by the QIC 157 standard and is subject to change. This is <b>NULL</b> if the device does not support a mode capabilities page.
 
 ## -remarks

@@ -48,21 +48,21 @@ The D3DDDI_OPENALLOCATIONINFO2 structure describes an allocation to be opened.
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] Handle for this allocation in this process.
+Handle for this allocation in this process.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] Pointer to driver private buffer for this allocation.
+Pointer to driver private buffer for this allocation.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] Size in bytes of driver private buffer for this allocation.
+Size in bytes of driver private buffer for this allocation.
 
-### -field GpuVirtualAddress
+### -field GpuVirtualAddress [out]
 
-[out] The GPU virtual address of the allocation opened.
+The GPU virtual address of the allocation opened.
 
 ### -field Reserved
 

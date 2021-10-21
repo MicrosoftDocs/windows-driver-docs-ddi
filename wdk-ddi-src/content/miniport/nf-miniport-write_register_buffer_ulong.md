@@ -49,19 +49,19 @@ The <b>WRITE_REGISTER_BUFFER_ULONG</b> routine writes a number of ULONG values f
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer from which an array of ULONG values is to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG values to be written to the register.
 
 ## -remarks

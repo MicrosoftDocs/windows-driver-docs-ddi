@@ -51,14 +51,14 @@ The function pointer type for a <code>GetDeviceInformation</code> routine is def
 
 ## -parameters
 
-### -param _context 
+### -param _context [in]
 
-[in]
+
 Specifies the context value from the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a> or the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
-### -param DeviceInformation 
+### -param DeviceInformation [in, out]
 
-[in, out]
+
 Retrieves information about the HD Audio controller device. This parameter points to a caller-allocated <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_device_information">HDAUDIO_DEVICE_INFORMATION</a> structure into which the routine writes the device information.
 
 ## -returns

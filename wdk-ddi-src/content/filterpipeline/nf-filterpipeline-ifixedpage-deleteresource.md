@@ -49,9 +49,9 @@ The <b>DeleteResource</b> method deletes a resource that is associated with the 
 
 ## -parameters
 
-### -param uri 
+### -param uri [in]
 
-[in]
+
 The URI to the resource that should be unassociated from the page.
 
 ## -returns

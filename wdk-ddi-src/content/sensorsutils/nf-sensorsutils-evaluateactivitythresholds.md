@@ -49,17 +49,17 @@ Note that the samples must be sorted and filtered data. Use CollectionsListSortS
 
 ## -parameters
 
-### -param newSample
+### -param newSample [in]
 
-[in] Incoming activity data, as a sensor collection list.
+Incoming activity data, as a sensor collection list.
 
-### -param oldSample
+### -param oldSample [in]
 
-[in] Last reported activity data, as a sensor collection list.
+Last reported activity data, as a sensor collection list.
 
-### -param thresholds
+### -param thresholds [in]
 
-[in] Activity detection thresholds, as a sensor collection list.
+Activity detection thresholds, as a sensor collection list.
 
 ## -returns
 

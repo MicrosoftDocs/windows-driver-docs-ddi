@@ -52,17 +52,17 @@ api_name:
 
 ## -struct-fields
 
-### -field dwDesiredAccess
+### -field dwDesiredAccess [in]
 
-[in] Access attributes for opening a shared monitored fence sync object, such as <b>D3DDDI_SYNC_OBJECT_WAIT</b>, <b>D3DDDI_SYNC_OBJECT_SIGNAL</b>, or <b>D3DDDI_SYNC_OBJECT_ALL_ACCESS</b>.
+Access attributes for opening a shared monitored fence sync object, such as <b>D3DDDI_SYNC_OBJECT_WAIT</b>, <b>D3DDDI_SYNC_OBJECT_SIGNAL</b>, or <b>D3DDDI_SYNC_OBJECT_ALL_ACCESS</b>.
 
-### -field pObjAttrib
+### -field pObjAttrib [in]
 
-[in] Object attributes for opening the object handle, including the shared object name information.
+Object attributes for opening the object handle, including the shared object name information.
 
-### -field hNtHandle
+### -field hNtHandle [out]
 
-[out] NT handle to the sync object that can be used to open it via <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>.
+NT handle to the sync object that can be used to open it via <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>.
 
 ## -see-also
 

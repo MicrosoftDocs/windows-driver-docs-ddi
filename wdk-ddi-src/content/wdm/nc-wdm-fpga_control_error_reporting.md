@@ -46,21 +46,21 @@ Toggles the error reporting for the FPGA device and its parent bridge.
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_reads_opt_(_Inexpressible_("varies"))]
 
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the bus extension.
+The handle to the bus extension.
 
-### -param UncorrectableMask
+### -param UncorrectableMask [_In_]
 
-[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](./ns-wdm-_pci_express_uncorrectable_error_mask.md) that indicates the uncorrectable masks to be toggled.
+A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](./ns-wdm-_pci_express_uncorrectable_error_mask.md) that indicates the uncorrectable masks to be toggled.
 
-### -param CorrectableMask
+### -param CorrectableMask [_In_]
 
-[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](./ns-wdm-_pci_express_correctable_error_mask.md) that indicates the correctable masks to be toggled.
+ A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](./ns-wdm-_pci_express_correctable_error_mask.md) that indicates the correctable masks to be toggled.
 
-### -param DisableErrorReporting
+### -param DisableErrorReporting [_In_]
 
-[_In_] A flag indicates whether the error reporting is being disabled or enabled.
+A flag indicates whether the error reporting is being disabled or enabled.
 
 ## -returns
 

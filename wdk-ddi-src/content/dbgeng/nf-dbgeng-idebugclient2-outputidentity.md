@@ -49,19 +49,19 @@ The <b>OutputIdentity</b> method formats and outputs a string describing the com
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies where to send the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to zero.
 
-### -param Format 
+### -param Format [in]
 
-[in]
+
 Specifies a format string similar to the <b>printf</b> format string.  However, this format string must only contain one formatting directive, <b>%s</b>, which will be replaced by a description of the computer and user this client represents.
 
 ## -returns

@@ -54,9 +54,9 @@ The <b>WdfDevStateNormalize</b> method removes extra bits from a specified frame
 
 ## -parameters
 
-### -param State 
+### -param State [in]
 
-[in]
+
 A state machine value that is returned from <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicepnpstate">WdfDeviceGetDevicePnpState</a>, <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicepowerstate">WdfDeviceGetDevicePowerState</a>, or <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicepowerpolicystate">WdfDeviceGetDevicePowerPolicyState</a>.
 
 ## -returns

@@ -45,13 +45,13 @@ The *DxgkDdi_ControlInterrupt3* function enables or disables the given interrupt
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the *MiniportDeviceContext* parameter from a call to its [*DxgkDdiAddDevice*](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function.
+A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the *MiniportDeviceContext* parameter from a call to its [*DxgkDdiAddDevice*](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function.
 
-### -param InterruptControl
+### -param InterruptControl [in]
 
-[in] A [**DXGKARG_CONTROLINTERRUPT3**](ns-d3dkmddi-dxgkarg_controlinterrupt3.md) structure that supplies the interrupt type, the VSYNC state, and the VidPnSourceId.
+A [**DXGKARG_CONTROLINTERRUPT3**](ns-d3dkmddi-dxgkarg_controlinterrupt3.md) structure that supplies the interrupt type, the VSYNC state, and the VidPnSourceId.
 
 ## -returns
 

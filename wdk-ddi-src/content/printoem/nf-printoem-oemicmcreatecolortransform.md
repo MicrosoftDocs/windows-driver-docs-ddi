@@ -53,21 +53,21 @@ The <code>OEMIcmCreateColorTransform</code> function creates an ICM color transf
 
 ### -param pLogColorSpace
 
-### -param pvSourceProfile 
+### -param pvSourceProfile [in, optional]
 
-[in, optional]
+
 
 ### -param cjSourceProfile
 
-### -param pvDestProfile 
+### -param pvDestProfile [in]
 
-[in]
+
 
 ### -param cjDestProfile
 
-### -param pvTargetProfile 
+### -param pvTargetProfile [in, optional]
 
-[in, optional]
+
 
 ### -param cjTargetProfile
 

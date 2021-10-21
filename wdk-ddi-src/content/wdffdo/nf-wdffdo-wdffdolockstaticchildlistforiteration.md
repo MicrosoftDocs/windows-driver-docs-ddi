@@ -52,9 +52,9 @@ The <b>WdfFdoLockStaticChildListForIteration</b> method prepares the framework f
 
 ## -parameters
 
-### -param Fdo 
+### -param Fdo [in]
 
-[in]
+
 A handle to a framework device object that represents the parent device.
 
 ## -remarks

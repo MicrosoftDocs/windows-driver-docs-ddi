@@ -55,13 +55,13 @@ The <b>PEP_PPM_QUERY_COORDINATED_STATES</b> structure contains information about
 
 ## -struct-fields
 
-### -field Count
+### -field Count [in]
 
-[in] The size of the <b>States</b> array. This will be equal to the <b>PlatformStateCount</b> returned from the query platform states notification.
+The size of the <b>States</b> array. This will be equal to the <b>PlatformStateCount</b> returned from the query platform states notification.
 
-### -field States
+### -field States [out]
 
-[out] An array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE</a> structures that contains information about each coordinated idle state that the PEP supports.
+An array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE</a> structures that contains information about each coordinated idle state that the PEP supports.
 
 ## -see-also
 

@@ -49,13 +49,13 @@ This callback function sets the threshold for one or more data fields associated
 
 ## -parameters
 
-### -param Sensor 
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pThresholds 
+### -param pThresholds [in]
 
-[in] A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
+A list of thresholds and their values that are set for the <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ## -returns
 

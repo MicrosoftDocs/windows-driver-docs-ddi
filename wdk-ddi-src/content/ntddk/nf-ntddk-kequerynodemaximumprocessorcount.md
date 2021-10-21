@@ -49,9 +49,9 @@ The <b>KeQueryNodeMaximumProcessorCount</b> routine returns the maximum number o
 
 ## -parameters
 
-### -param NodeNumber 
+### -param NodeNumber [in]
 
-[in]
+
 The node number. If a NUMA multiprocessor system contains <i>n</i> nodes, valid node numbers are in the range 0 to <i>n</i>-1. To get the highest node number (<i>n</i>-1) in the system, call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhighestnodenumber">KeQueryHighestNodeNumber</a> routine.
 
 ## -returns

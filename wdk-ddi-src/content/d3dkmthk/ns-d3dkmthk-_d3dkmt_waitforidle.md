@@ -52,9 +52,9 @@ The D3DKMT_WAITFORIDLE structure specifies a display device to wait for an idle 
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device.
+A handle to the display device.
 
 ## -see-also
 

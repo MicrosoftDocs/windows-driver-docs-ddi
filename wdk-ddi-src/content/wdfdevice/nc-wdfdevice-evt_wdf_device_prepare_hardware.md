@@ -51,19 +51,19 @@ A driver's <i>EvtDevicePrepareHardware</i> event callback function performs any 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param ResourcesRaw 
+### -param ResourcesRaw [in]
 
-[in]
+
 A handle to a framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
-### -param ResourcesTranslated 
+### -param ResourcesTranslated [in]
 
-[in]
+
 A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 ## -returns

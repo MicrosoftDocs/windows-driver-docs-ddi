@@ -54,14 +54,14 @@ The <b>WdfDeviceCreateSymbolicLink</b> method creates a symbolic link to a speci
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param SymbolicLinkName 
+### -param SymbolicLinkName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-visible name for the device.
 
 ## -returns

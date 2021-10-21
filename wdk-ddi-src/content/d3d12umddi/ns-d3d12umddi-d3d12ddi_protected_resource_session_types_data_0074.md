@@ -41,17 +41,17 @@ Protected resource session types data.
 
 ## -struct-fields
 
-### -field NodeIndex
+### -field NodeIndex [in]
 
-[in] In multi-adapter operation, **NodeIndex** indicates which physical adapter of the device this operation applies to.
+In multi-adapter operation, **NodeIndex** indicates which physical adapter of the device this operation applies to.
 
-### -field Count
+### -field Count [in]
 
-[in] Size of the **pTypes** array. This value must match the count returned through the D3D12_FEATURE_PROTECTED_RESOURCE_SESSION_TYPE_COUNT check.
+Size of the **pTypes** array. This value must match the count returned through the D3D12_FEATURE_PROTECTED_RESOURCE_SESSION_TYPE_COUNT check.
 
-### -field pTypes
+### -field pTypes [out]
 
-[out] On return, this array is populated with the supported protected resource session types.
+On return, this array is populated with the supported protected resource session types.
 
 ## -remarks
 

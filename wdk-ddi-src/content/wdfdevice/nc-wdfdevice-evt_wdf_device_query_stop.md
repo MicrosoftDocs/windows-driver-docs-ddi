@@ -51,9 +51,9 @@ A driver's <i>EvtDeviceQueryStop</i> event callback function determines whether 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

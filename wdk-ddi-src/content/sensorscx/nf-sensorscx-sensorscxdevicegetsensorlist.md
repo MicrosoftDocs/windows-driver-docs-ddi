@@ -49,19 +49,19 @@ This function returns a list of sensor instances associated with a WDFDEVICE.
 
 ## -parameters
 
-### -param FxDevice 
+### -param FxDevice [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
-### -param pSensorList 
+### -param pSensorList [out]
 
-[out]
+
 A list of sensor instances.
 
-### -param pListCount 
+### -param pListCount [in, out]
 
-[in, out]
+
 The number of SENSOROBJECTS in pSensorInstanceList.
 
 ## -returns

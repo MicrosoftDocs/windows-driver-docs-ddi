@@ -49,24 +49,24 @@ The <b>GetSymbolTypeName</b>  methods return the name of the specified symbol's 
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of the symbol whose type name you want. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 The name of the symbol's type.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size, in characters, of the <i>Buffer</i> buffer.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 The size, in characters, of the name of the symbol's type.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

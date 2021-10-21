@@ -53,24 +53,24 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in, out]
 
-[in, out]
+
 A pointer to the transmit or receive queue that will receive posted buffers and will have completed buffers removed.
 
-### -param PostBufferListHead 
+### -param PostBufferListHead [in, out]
 
-[in, out]
+
 The head of the post list. The provider removes the buffers in this list and adds them into the <b>Queue</b>.
 
-### -param DrainBufferListTail 
+### -param DrainBufferListTail [in, out]
 
-[in, out]
+
 The tail of the drain list. The provider removes any completed buffers from the <b>Queue</b> and adds them to this list.
 
-### -param MaxDrainCount 
+### -param MaxDrainCount [in]
 
-[in]
+
 The maximum amount of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to drain. The provider must ensure not exceed this amount. A set of partial <b>PD_BUFFER</b> structures that make up a single L2 packet count is 1.
 
 ## -returns

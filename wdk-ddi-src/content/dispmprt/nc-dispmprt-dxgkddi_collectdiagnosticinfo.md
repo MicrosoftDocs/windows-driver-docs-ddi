@@ -50,13 +50,13 @@ In Windows 10, version 1903, the driver will be called to collect private inform
 
 ## -parameters
 
-### -param PhysicalDeviceObject
+### -param PhysicalDeviceObject [in]
 
-[in] A pointer to a physical device object (PDO) that identifies a display adapter.
+A pointer to a physical device object (PDO) that identifies a display adapter.
 
-### -param pCollectDiagnosticInfo
+### -param pCollectDiagnosticInfo [in, out]
 
-[in, out] A pointer to a [DXGKARG_COLLECTDIAGNOSTICINFO](ns-dispmprt-dxgkarg_collectdiagnosticinfo.md) structure which describes information collected by the driver.
+A pointer to a [DXGKARG_COLLECTDIAGNOSTICINFO](ns-dispmprt-dxgkarg_collectdiagnosticinfo.md) structure which describes information collected by the driver.
 
 ## -returns
 

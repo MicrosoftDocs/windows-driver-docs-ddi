@@ -53,29 +53,29 @@ api_name:
 
 <p>A pointer to the local RDBSS connection engine address.</p>
 
-### -param pConnectionInformation 
+### -param pConnectionInformation [in]
 
-[in]
+
 A pointer to the connection information that specifies the remote address.
 
-### -param pHandler 
+### -param pHandler [in]
 
-[in]
+
 A pointer to the event handler for processing receive indications.
 
-### -param pEventContext 
+### -param pEventContext [in]
 
-[in]
+
 A pointer to the context parameter to be passed back to the event handler and used for indications.
 
-### -param pConnection 
+### -param pConnection [in, out]
 
-[in, out]
+
 On input, this parameter contains a pointer to an uninitialized RDBSS connection. On output when this call is successful, the connection is properly initialized.
 
-### -param pVc 
+### -param pVc [in, out]
 
-[in, out]
+
 On input, this parameter contains a pointer to an uninitialized RDBSS virtual circuit. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit is properly initialized.
 
 ## -returns

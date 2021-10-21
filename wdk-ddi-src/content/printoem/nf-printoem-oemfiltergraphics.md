@@ -49,9 +49,9 @@ api_name:
 
 ### -param pdevobj
 
-### -param pBuf 
+### -param pBuf [in]
 
-[in]
+
 
 ### -param dwLen
 

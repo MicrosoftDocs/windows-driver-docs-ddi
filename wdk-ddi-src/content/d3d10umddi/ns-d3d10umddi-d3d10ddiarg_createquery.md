@@ -49,13 +49,13 @@ The D3D10DDIARG_CREATEQUERY structure describes the query to create.
 
 ## -struct-fields
 
-### -field Query
+### -field Query [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10ddi_query">D3D10DDI_QUERY</a>-typed value that identifies the type of query to create.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10ddi_query">D3D10DDI_QUERY</a>-typed value that identifies the type of query to create.
 
-### -field MiscFlags
+### -field MiscFlags [in]
 
-[in] A valid bitwise OR of flag values for the query. Currently, the Direct3D runtime supports only the D3D10DDI_QUERY_MISCFLAG_PREDICATEHINT (0x1) flag. This flag is set along with a D3DQUERYTYPE_OCCLUSIONPREDICATE query type to indicate that the predicate query is a hint. If a predicate query is indicated as a hint (versus guaranteed), no result is ever propagated back to the calling application.
+A valid bitwise OR of flag values for the query. Currently, the Direct3D runtime supports only the D3D10DDI_QUERY_MISCFLAG_PREDICATEHINT (0x1) flag. This flag is set along with a D3DQUERYTYPE_OCCLUSIONPREDICATE query type to indicate that the predicate query is a hint. If a predicate query is indicated as a hint (versus guaranteed), no result is ever propagated back to the calling application.
 
 ## -remarks
 

@@ -47,13 +47,13 @@ This routine initializes a PROPVARIANT with the given float.
 
 ## -parameters
 
-### -param fltVal
+### -param fltVal [in]
 
-[in] Float value to initialize to.
+Float value to initialize to.
 
-### -param ppropvar
+### -param ppropvar [out]
 
-[out] Pointer to a PROPVARIANT to be initialized.
+Pointer to a PROPVARIANT to be initialized.
 
 ## -returns
 

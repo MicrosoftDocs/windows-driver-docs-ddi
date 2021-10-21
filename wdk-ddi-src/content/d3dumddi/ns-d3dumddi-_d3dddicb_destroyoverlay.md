@@ -52,9 +52,9 @@ The D3DDDICB_DESTROYOVERLAY structure contains the handle to the overlay to dest
 
 ## -struct-fields
 
-### -field hKernelOverlay
+### -field hKernelOverlay [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to destroy.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to destroy.
 
 ## -see-also
 

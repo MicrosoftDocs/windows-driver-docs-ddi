@@ -51,18 +51,18 @@ The <b>GetWriteParameters</b> method retrieves the request parameters for a writ
 
 ## -parameters
 
-### -param pSizeInBytes 
+### -param pSizeInBytes [out]
 
-[out]
+
 A pointer to a variable that receives the size, in bytes, to write. To retrieve the data for writing, the driver calls the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFIoRequest::GetInputMemory</a> method.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.
 
 ### -param pullOffset
 
-### -param pulKey 
+### -param pulKey [out]
 
-[out]
+
 A pointer to a variable that receives a key that the driver can use to sort the I/O request in a way that the driver determines. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 

@@ -49,9 +49,9 @@ The <b>GetNumberRegisters</b> method returns the number of <a href="/windows-har
 
 ## -parameters
 
-### -param Number 
+### -param Number [out]
 
-[out]
+
 Receives the number of registers on the target's computer.
 
 ## -returns

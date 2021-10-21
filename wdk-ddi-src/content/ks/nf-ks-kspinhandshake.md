@@ -49,19 +49,19 @@ The<b> KsPinHandshake </b>function attempts a protocol handshake with a connecte
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is initiating the handshake. The handshake request is passed on to the pin connected to this object.
 
-### -param In 
+### -param In [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure containing the handshake information to be passed to the connected pin.
 
-### -param Out 
+### -param Out [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure that is filled in with handshake information by the connected pin.
 
 ## -returns

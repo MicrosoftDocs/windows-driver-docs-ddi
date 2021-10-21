@@ -49,34 +49,34 @@ The <b>GetPseudoDescriptionWide</b> method returns a description of a pseudo-reg
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Specifies the index of the pseudo-register whose description is requested.  The index is always between zero and the number of pseudo-registers (returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getnumberpseudoregisters">GetNumberPseudoRegisters</a>) minus one.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the name of the pseudo-register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the name of the pseudo-register.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
-### -param TypeModule 
+### -param TypeModule [out, optional]
 
-[out, optional]
+
 Receives the base address of the module to which the register's type belongs.  If the type of the register is not known, zero is returned.  If <i>TypeModule</i> is <b>NULL</b>, no information is returned.
 
-### -param TypeId 
+### -param TypeId [out, optional]
 
-[out, optional]
+
 Receives the type ID of the type within the module returned in <i>TypeModule</i>.  If the type ID is not known, zero is returned.  If <i>TypeId</i> is <b>NULL</b>, no information is returned.
 
 ## -returns

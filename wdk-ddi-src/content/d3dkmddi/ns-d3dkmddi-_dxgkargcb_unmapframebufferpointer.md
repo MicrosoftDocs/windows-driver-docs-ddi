@@ -46,13 +46,13 @@ The **DXGKARGCB_UNMAPFRAMEBUFFERPOINTER** structure contains the arguments used 
 
 ## -struct-fields
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The index of the physical adapter.
+The index of the physical adapter.
 
-### -field pBaseAddress
+### -field pBaseAddress [in]
 
-[in] A CPU accessible base address pointer to the mapped subregion of the section object.
+A CPU accessible base address pointer to the mapped subregion of the section object.
 
 ## -remarks
 

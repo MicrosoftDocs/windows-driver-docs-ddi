@@ -55,29 +55,29 @@ The <b>WdfDeviceAssignInterfaceProperty</b> method modifies the current value of
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PropertyData 
+### -param PropertyData [in]
 
-[in]
+
 A pointer to <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 A <b>DEVPROPTYPE</b>-typed value that specifies the type of the data that is provided in <i>PropertyBuffer</i>.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer that <i>PropertyBuffer</i> points to.
 
-### -param PropertyBuffer 
+### -param PropertyBuffer [in, optional]
 
-[in, optional]
+
 A pointer to the device interface property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
 ## -returns

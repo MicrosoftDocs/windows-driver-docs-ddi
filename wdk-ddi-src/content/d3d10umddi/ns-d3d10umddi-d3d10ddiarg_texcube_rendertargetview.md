@@ -49,17 +49,17 @@ The D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure describes a cube texture that
 
 ## -struct-fields
 
-### -field MipSlice
+### -field MipSlice [in]
 
-[in] The identifier of the MIP-map slice.
+The identifier of the MIP-map slice.
 
-### -field FirstArraySlice
+### -field FirstArraySlice [in]
 
-[in] The identifier of the first array slice.
+The identifier of the first array slice.
 
-### -field ArraySize
+### -field ArraySize [in]
 
-[in] The number of array slices for the texture.
+The number of array slices for the texture.
 
 ## -see-also
 

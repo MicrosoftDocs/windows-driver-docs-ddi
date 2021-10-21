@@ -49,21 +49,21 @@ The <b>CoerceValues</b> method converts an array of values into an array of valu
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of values to convert.
 
-### -param In 
+### -param In [in]
 
-[in]
+
 Specifies the array of values to convert.  The number of elements that this array holds is <i>Count</i>.
 
 ### -param OutTypes
 
-### -param Out 
+### -param Out [out]
 
-[out]
+
 Specifies the array to be populated by the converted values.  The types of these values are specified by <i>OutType</i>.  The number of elements that this array holds is <i>Count</i>.
 
 

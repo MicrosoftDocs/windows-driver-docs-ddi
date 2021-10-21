@@ -44,13 +44,13 @@ The **DXGKARGCB_NOTIFYCURSORSUPPORTCHANGE** structure contains arguments for the
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A handle to the adapter object for the GPU. The driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+A handle to the adapter object for the GPU. The driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The [ID of the video present source](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_source.md) on which cursor support is being changed. The OS fails the [**DXGKCB_NOTIFYCURSORSUPPORTCHANGE**](nc-d3dkmddi-dxgkcb_notifycursorsupportchange.md) callback if **VidPnSourceId** isn't valid.
+The [ID of the video present source](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_source.md) on which cursor support is being changed. The OS fails the [**DXGKCB_NOTIFYCURSORSUPPORTCHANGE**](nc-d3dkmddi-dxgkcb_notifycursorsupportchange.md) callback if **VidPnSourceId** isn't valid.
 
 ## -see-also
 

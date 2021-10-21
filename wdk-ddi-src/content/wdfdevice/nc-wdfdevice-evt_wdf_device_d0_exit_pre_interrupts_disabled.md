@@ -51,14 +51,14 @@ A driver's <i>EvtDeviceD0ExitPreInterruptsDisabled</i> event callback function p
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param TargetState 
+### -param TargetState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the device power state that the device is about to enter.
 
 ## -returns

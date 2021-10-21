@@ -49,9 +49,9 @@ The <b>FsRtlInitializeExtraCreateParameterList</b> routine initializes an extra 
 
 ## -parameters
 
-### -param EcpList 
+### -param EcpList [in, out]
 
-[in, out]
+
 Pointer to the <a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a> structure to initialize.
 
 ## -returns

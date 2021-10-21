@@ -54,14 +54,14 @@ The <b>WdfDeviceSetStaticStopRemove</b> method informs the framework whether a d
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Stoppable 
+### -param Stoppable [in]
 
-[in]
+
 A Boolean value that indicates whether the specified device can be stopped and removed. If <b>TRUE</b>, the device can be stopped and removed. If <b>FALSE</b>, the device cannot be stopped and removed.
 
 ## -remarks

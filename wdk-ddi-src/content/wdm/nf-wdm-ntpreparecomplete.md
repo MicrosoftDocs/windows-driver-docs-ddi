@@ -49,14 +49,14 @@ The <b>ZwPrepareComplete</b> routine notifies KTM that the calling resource mana
 
 ## -parameters
 
-### -param EnlistmentHandle 
+### -param EnlistmentHandle [in]
 
-[in]
+
 A handle to an <a href="/windows-hardware/drivers/kernel/enlistment-objects">enlistment object</a> that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenenlistment">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SUBORDINATE_RIGHTS access to the object.
 
-### -param TmVirtualClock 
+### -param TmVirtualClock [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/kernel/using-virtual-clock-values">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

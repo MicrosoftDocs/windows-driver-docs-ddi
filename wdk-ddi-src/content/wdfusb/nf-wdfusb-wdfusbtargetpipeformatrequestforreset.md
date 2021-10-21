@@ -54,14 +54,14 @@ The <b>WdfUsbTargetPipeFormatRequestForReset</b> method builds a reset request f
 
 ## -parameters
 
-### -param Pipe 
+### -param Pipe [in]
 
-[in]
+
 A handle to a framework pipe object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object. For more information, see the following Remarks section.
 
 ## -returns

@@ -54,14 +54,14 @@ The <b>WdfInterruptSetExtendedPolicy</b> method specifies the interrupt priority
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
-### -param PolicyAndGroup 
+### -param PolicyAndGroup [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_extended_policy">WDF_INTERRUPT_EXTENDED_POLICY</a> structure that the caller allocates and initializes.
 
 ## -remarks

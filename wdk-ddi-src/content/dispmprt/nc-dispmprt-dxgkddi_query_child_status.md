@@ -49,19 +49,19 @@ The <i>DxgkDdiQueryChildStatus</i> function returns the status of an individual 
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param ChildStatus 
+### -param ChildStatus [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_status">DXGK_CHILD_STATUS</a> structure. The caller supplies ChildStatus->Type and ChildStatus->ChildUid. On return, the remaining structure member (a union) receives the requested status.
 
-### -param NonDestructiveOnly 
+### -param NonDestructiveOnly [in]
 
-[in]
+
 A BOOLEAN value that specifies whether the display miniport driver is permitted to determine the requested status in a way that causes visual artifacts. If the caller sets this parameter to <b>TRUE</b>, then the display miniport driver is not permitted to cause artifacts. If the caller sets this parameter to <b>FALSE</b>, then the display miniport driver is permitted to cause artifacts.
 
 ## -returns

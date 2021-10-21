@@ -52,14 +52,14 @@ The <b>BdaPropertyNodeProperties</b> function retrieves a list of properties tha
 
 ### -param pIrp
 
-### -param pKSProperty 
+### -param pKSProperty [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
-### -param pguidProperty 
+### -param pguidProperty [out, optional]
 
-[out, optional]
+
 Points to an array that receives the list of GUIDs for the properties supported by a node.
 
 

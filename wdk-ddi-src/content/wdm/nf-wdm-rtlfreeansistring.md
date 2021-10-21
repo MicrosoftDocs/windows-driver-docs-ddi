@@ -49,9 +49,9 @@ The <b>RtlFreeAnsiString</b> routine releases storage that was allocated by <b>R
 
 ## -parameters
 
-### -param AnsiString 
+### -param AnsiString [in, out]
 
-[in, out]
+
 Pointer to the ANSI string buffer previously allocated by <b>RtlUnicodeStringToAnsiString</b>.
 
 ## -returns

@@ -51,19 +51,19 @@ The <b>ScsiPortWritePortBufferUshort</b> routine transfers a given number of USH
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to the buffer.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to be written to the HBA.
 
 ## -see-also

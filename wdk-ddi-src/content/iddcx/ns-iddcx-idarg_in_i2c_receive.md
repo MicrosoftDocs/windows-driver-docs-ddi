@@ -48,18 +48,18 @@ Gives information about I2C data being received by the OS.
 
 ## -struct-fields
 
-### -field SevenBitI2CAddress
+### -field SevenBitI2CAddress [in]
 
-[in] The address of the I2C device from which data will be received.
+The address of the I2C device from which data will be received.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Flags for the receive operation.
+Flags for the receive operation.
 
-### -field DataSizeInBytes
+### -field DataSizeInBytes [in]
 
-[in] The size, in bytes, of the buffer pointed to by <b>pData</b>.
+The size, in bytes, of the buffer pointed to by <b>pData</b>.
 
-### -field pData
+### -field pData [out]
 
-[out] A pointer to a buffer that receives the data.
+A pointer to a buffer that receives the data.

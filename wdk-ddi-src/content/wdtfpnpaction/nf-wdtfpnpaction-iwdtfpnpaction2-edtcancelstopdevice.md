@@ -49,9 +49,9 @@ Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
 
 ## -parameters
 
-### -param pbSuccess 
+### -param pbSuccess [out, retval]
 
-[out, retval]
+
 True if the operation succeeds; otherwise, false.
 
 ## -returns

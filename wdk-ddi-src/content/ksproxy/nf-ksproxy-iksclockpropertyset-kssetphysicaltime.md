@@ -49,9 +49,9 @@ The <b>KsSetPhysicalTime</b> method sets the physical time on the underlying clo
 
 ## -parameters
 
-### -param Time 
+### -param Time [in]
 
-[in]
+
 Physical time to which to set the underlying clock.
 
 ## -returns

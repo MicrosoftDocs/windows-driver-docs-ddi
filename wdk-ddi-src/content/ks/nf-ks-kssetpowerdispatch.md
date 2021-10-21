@@ -52,19 +52,19 @@ This has the effect of adding this object header to a list of object headers tha
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <b>KsAllocateObjectHeader</b>.
 
-### -param PowerDispatch 
+### -param PowerDispatch [in, optional]
 
-[in, optional]
+
 Optionally contains the power dispatch function that will be called, or <b>NULL</b> if the function is to be removed from the list of functions being called. This function must not complete the power IRP sent. The return value of this function must be STATUS_SUCCESS. <b>KsSetPowerDispatch</b> can be called while executing this power dispatch routine if the purpose is to manipulate this list entry only. Manipulating other list entries may confuse the current enumeration.
 
-### -param PowerContext 
+### -param PowerContext [in, optional]
 
-[in, optional]
+
 Optionally contains the context parameter to pass to the power dispatch function.
 
 ## -returns

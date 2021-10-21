@@ -50,9 +50,9 @@ The <b>ScsiPortWmiGetInstanceName</b> routine returns a pointer to the instance 
 
 ## -parameters
 
-### -param RequestContext 
+### -param RequestContext [in]
 
-[in]
+
 Pointer to a structure of type <a href="/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a> that contains the request context for a WMI SRB.
 
 ## -returns

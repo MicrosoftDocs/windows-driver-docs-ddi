@@ -50,14 +50,14 @@ The <b>USBD_QueryUsbCapability</b> routine is called by a WDM client driver to d
 
 ## -parameters
 
-### -param USBDHandle 
+### -param USBDHandle [in]
 
-[in]
+
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
-### -param CapabilityType 
+### -param CapabilityType [in]
 
-[in]
+
 Pointer to a GUID that represents the capability for which the client driver wants to retrieve information. The possible  <i>PGUID</i>  values are  as follows:
 
 <ul>
@@ -72,21 +72,21 @@ Pointer to a GUID that represents the capability for which the client driver wan
 <li>GUID_USB_CAPABILITY_TIME_SYNC</li>
 </ul>
 
-### -param OutputBufferLength 
+### -param OutputBufferLength [in]
 
-[in]
+
 Length, in bytes, of the buffer pointed to by <i>OutputBuffer</i>.
 
-### -param OutputBuffer 
+### -param OutputBuffer [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer. Certain capability requests return additional information in an output buffer. For those requests, you must allocate the buffer and provide a pointer to the buffer in the <i>OutputBuffer</i> parameter. Currently, only the static-streams capability request requires an output buffer of the type USHORT. The buffer is filled by <b>USBD_QueryUsbCapability</b> with the maximum number of streams supported per endpoint.
 
 Other capability requests do not require an output buffer. For those requests, you must set  <i>OutputBuffer</i> to NULL and  <i>OutputBufferLength</i> to 0.
 
-### -param ResultLength 
+### -param ResultLength [out, optional]
 
-[out, optional]
+
 Pointer to a ULONG variable that receives the actual number of bytes in the buffer pointed to by <i>OutputBuffer</i>.   The caller can pass NULL in <i>ResultLength</i>. If <i>ResultLength</i> is not NULL, the received value is less than or equal to the <i>OutputBufferLength</i> value.
 
 ## -returns

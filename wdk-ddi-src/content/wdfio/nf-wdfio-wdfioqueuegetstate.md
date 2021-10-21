@@ -54,19 +54,19 @@ The <b>WdfIoQueueGetState</b> method returns the status of a specified I/O queue
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
-### -param QueueRequests 
+### -param QueueRequests [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives the number of I/O requests that are currently in the I/O queue and have not been delivered to the driver. This pointer is optional and can be <b>NULL</b>.
 
-### -param DriverRequests 
+### -param DriverRequests [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives the number of I/O requests that have been delivered to the driver but that the driver has not completed or canceled. This pointer is optional and can be <b>NULL</b>.
 
 ## -returns

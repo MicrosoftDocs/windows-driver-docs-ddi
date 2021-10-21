@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param MiniportDmaHandle 
+### -param MiniportDmaHandle [in]
 
-[in]
+
 The handle returned when the miniport driver called the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> function
      during initialization.

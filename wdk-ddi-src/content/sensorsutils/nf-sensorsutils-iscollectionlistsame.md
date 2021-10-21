@@ -49,13 +49,13 @@ This routine compares two collection lists and determines if they are the same.
 
 ## -parameters
 
-### -param ListA
+### -param ListA [in]
 
-[in] Pointer to a collection list.
+Pointer to a collection list.
 
-### -param ListB
+### -param ListB [in]
 
-[in] Pointer to a second collection list to compare against the first.
+Pointer to a second collection list to compare against the first.
 
 ## -returns
 

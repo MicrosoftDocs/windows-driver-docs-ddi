@@ -52,14 +52,14 @@ There is a check that verifies whether the miniport driver has the query interfa
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 Can be  <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>, <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>, or <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>. Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 KSDEVICE_THERMAL_STATE_LOW or KSDEVICE_THERMAL_STATE_HIGH
 
 ## -returns

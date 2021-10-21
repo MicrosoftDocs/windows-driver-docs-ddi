@@ -51,14 +51,14 @@ A driver's <i>EvtInterruptSynchronize</i> event callback function performs opera
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Driver-supplied information that the driver specifies when it calls <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsynchronize">WdfInterruptSynchronize</a>.
 
 ## -returns

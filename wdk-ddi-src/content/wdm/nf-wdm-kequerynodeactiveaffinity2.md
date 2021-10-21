@@ -45,27 +45,27 @@ This routine returns the current multi-group processor affinity of the given NUM
 
 ## -parameters
 
-### -param NodeNumber
+### -param NodeNumber [in]
 
-[in]
+
 
 Supplies the node number of the node to query.
 
-### -param GroupAffinities
+### -param GroupAffinities [out]
 
-[out]
+
 
 Supplies a pointer to an array of <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structures that upon success receive a group number and the affinity mask of the identified group.
 
-### -param GroupAffinitiesCount
+### -param GroupAffinitiesCount [in]
 
-[in]
+
 
 A value of type USHORT that specifies the number of elements in the group affinities array. If the array is too small to hold the node affinity then **STATUS_BUFFER_TOO_SMALL** is returned and the number of elements required is returned in *GroupAffinitiesRequired*.
 
-### -param GroupAffinitiesRequired
+### -param GroupAffinitiesRequired [out]
 
-[out]
+
 
 A pointer to a value of type USHORT that receives the number of group affinities required to represent the node affinity. In the case of a memory-only NUMA node, zero is returned.
 

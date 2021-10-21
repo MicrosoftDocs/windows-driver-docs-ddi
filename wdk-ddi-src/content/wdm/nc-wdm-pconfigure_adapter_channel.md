@@ -49,19 +49,19 @@ The <b>ConfigureAdapterChannel</b> routine invokes a custom function that is imp
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel. The caller obtained this pointer from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
-### -param FunctionNumber 
+### -param FunctionNumber [in]
 
-[in]
+
 The number of the custom function to select. For more information, see the Remarks section.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the configuration parameters for the custom function that is specified by <i>FunctionNumber</i>. The function is implemented by the DMA controller and can be accessed by a device driver through the adapter object. The DMA controller and the device driver must agree on the meaning of these configuration parameters. The data that <i>Context</i> points to is opaque to the operating system.
 
 ## -returns

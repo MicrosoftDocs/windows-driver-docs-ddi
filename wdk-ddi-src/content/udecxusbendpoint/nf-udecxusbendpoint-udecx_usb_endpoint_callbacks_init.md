@@ -49,9 +49,9 @@ Initializes a [UDECX_USB_ENDPOINT_CALLBACKS](/windows-hardware/drivers/ddi/udecx
 
 ## -parameters
 
-### -param Callbacks
+### -param Callbacks [out]
 
-[out]
+
 A pointer to a [UDECX_USB_ENDPOINT_CALLBACKS](/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks) to initialize.
 
 ### -param EvtUsbEndpointReset

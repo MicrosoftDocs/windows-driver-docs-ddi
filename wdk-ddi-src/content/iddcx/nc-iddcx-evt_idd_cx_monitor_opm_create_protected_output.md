@@ -49,17 +49,17 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject
+### -param MonitorObject [in]
 
-[in] A handle used by the OS to identify the monitor that the OPM context should be created on.
+A handle used by the OS to identify the monitor that the OPM context should be created on.
 
-### -param OpmCxtObject
+### -param OpmCxtObject [in]
 
-[in] A context used by the OS to identify the OPM context the call is for.
+A context used by the OS to identify the OPM context the call is for.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Input arguments used by **EVT_IDD_CX_MONITOR_OPM CREATE_PROTECTED_OUTPUT**.
+Input arguments used by **EVT_IDD_CX_MONITOR_OPM CREATE_PROTECTED_OUTPUT**.
 
 ## -returns
 

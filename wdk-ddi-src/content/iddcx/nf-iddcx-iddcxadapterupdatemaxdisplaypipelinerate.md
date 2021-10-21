@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param hOsAdapterContext 
+### -param hOsAdapterContext [in]
 
-[in]
+
 This is the OS context handle for this adapter returned by the <b>IddCxStart</b> call
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments to the function
 
 ## -returns

@@ -50,14 +50,14 @@ The<b> KsStreamPointerUnlock </b>function unlocks a stream pointer that has prev
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer to unlock.
 
-### -param Eject 
+### -param Eject [in]
 
-[in]
+
 This parameter specifies whether to advance <i>StreamPointer</i> to the next data frame. A value of <b>TRUE</b> advances the stream pointer.
 
 ## -remarks

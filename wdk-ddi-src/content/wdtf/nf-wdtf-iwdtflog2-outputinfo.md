@@ -49,9 +49,9 @@ Writes an informational entry to the test case log.
 
 ## -parameters
 
-### -param sInfoString 
+### -param sInfoString [in]
 
-[in]
+
 The information string.
 
 ## -returns

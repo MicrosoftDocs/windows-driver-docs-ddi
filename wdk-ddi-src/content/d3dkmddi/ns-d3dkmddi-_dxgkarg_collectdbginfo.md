@@ -52,9 +52,9 @@ The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 
 ## -struct-fields
 
-### -field Reason
+### -field Reason [in]
 
-[in] The <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug-check code</a> for which to return debug information in the buffer that <b>pBuffer</b> points to. These are possible values:
+The <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug-check code</a> for which to return debug information in the buffer that <b>pBuffer</b> points to. These are possible values:
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -62,17 +62,17 @@ The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 | **VIDEO_ENGINE_TIMEOUT_DETECTED** 0x141|A [DxgkDdiResetEngine](./nc-d3dkmddi-dxgkddi_resetengine.md)  operation has reset one or more nodes within a physical adapter.
 Available starting in Windows 8. |
 
-### -field pBuffer
+### -field pBuffer [out]
 
-[out] A pointer to a buffer that receives the debug information that <b>Reason</b> specifies.
+A pointer to a buffer that receives the debug information that <b>Reason</b> specifies.
 
-### -field BufferSize
+### -field BufferSize [in]
 
-[in] The maximum size, in bytes, to copy to the buffer that <b>pBuffer</b> points to.
+The maximum size, in bytes, to copy to the buffer that <b>pBuffer</b> points to.
 
-### -field pExtension
+### -field pExtension [out]
 
-[out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_collectdbginfo_ext">DXGKARG_COLLECTDBGINFO_EXT</a> structure that is allocated by the operating system and that the driver optionally populates with debug extension information.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_collectdbginfo_ext">DXGKARG_COLLECTDBGINFO_EXT</a> structure that is allocated by the operating system and that the driver optionally populates with debug extension information.
 
 ## -see-also
 

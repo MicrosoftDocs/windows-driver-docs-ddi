@@ -49,14 +49,14 @@ The<i> MRxPreparseName</i> routine is called by <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 A pointer to a Unicode string that contains the name string.
 
 ## -returns

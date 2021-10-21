@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclasscallatnewpriority">StreamClassCallAtNewPriority</a>.
 
 ## -remarks

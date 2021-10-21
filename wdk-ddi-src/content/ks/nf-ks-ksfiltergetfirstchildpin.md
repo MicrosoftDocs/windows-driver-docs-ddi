@@ -50,14 +50,14 @@ The<b> KsFilterGetFirstChildPin</b> function returns the first instantiated pin 
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure to query for instantiated pins.
 
-### -param PinId 
+### -param PinId [in]
 
-[in]
+
 The numeric ID of the pin type for which to find the first instantiated member.
 
 ## -returns

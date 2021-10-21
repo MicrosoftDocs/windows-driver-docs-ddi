@@ -52,29 +52,29 @@ This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param Quantum 
+### -param Quantum [in]
 
-[in]
+
 The quantum. For more information, see the <i>Host - target TX transfer scheduling</i> section in <a href="/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>.
 
-### -param MaxNumFrames 
+### -param MaxNumFrames [in]
 
-[in]
+
 Maximum frame count.
 
-### -param Credit 
+### -param Credit [in]
 
-[in]
+
 Credit value. For more information, see <i>The target-credit scheme and the pause/resume mechanism</i> section in <a href="/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>.
 
-### -param ppNBL 
+### -param ppNBL [out]
 
-[out]
+
 Pointer to a pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> chain dequeued by WDI.
 
 ## -remarks

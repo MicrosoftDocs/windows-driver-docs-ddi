@@ -52,14 +52,14 @@ The <b>WdfFdoAddStaticChild</b> method adds a specified device to a function dri
 
 ## -parameters
 
-### -param Fdo 
+### -param Fdo [in]
 
-[in]
+
 A handle to a framework device object that represents the parent device.
 
-### -param Child 
+### -param Child [in]
 
-[in]
+
 A handle to a framework device object that represents the child device.
 
 ## -returns

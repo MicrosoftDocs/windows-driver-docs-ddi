@@ -49,19 +49,19 @@ The <b>GetSpecificFilterParameters</b> method returns the parameters for specifi
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first specific event filter whose parameters will be returned.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of specific event filters to return parameters for.
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 Receives the parameters for the specific event filters.  <i>Params</i> is an array of elements of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_specific_filter_parameters">DEBUG_SPECIFIC_FILTER_PARAMETERS</a>.
 
 ## -returns

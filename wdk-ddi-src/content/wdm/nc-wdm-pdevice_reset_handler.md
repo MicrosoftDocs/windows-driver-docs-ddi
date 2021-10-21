@@ -49,14 +49,14 @@ The <i>DeviceReset</i> routine is used to reset and recover a malfunctioning dev
 
 ## -parameters
 
-### -param InterfaceContext 
+### -param InterfaceContext [in]
 
-[in]
+
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_reset_interface_standard">DEVICE_RESET_INTERFACE_STANDARD</a> structure for the interface.
 
-### -param ResetType 
+### -param ResetType [in]
 
-[in]
+
 The type of reset being  requested. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_device_reset_type">DEVICE_RESET_TYPE</a> enumeration values.
 
 <ul>
@@ -66,14 +66,14 @@ The type of reset being  requested. Set this parameter to one of the following <
 
 For more information about how function-level and platform-level resets are implemented in the device stack, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to 0. Currently, no flags are defined for this routine.
 
-### -param ResetParameters 
+### -param ResetParameters [in, optional]
 
-[in, optional]
+
 If the caller is requesting a  function-level device reset, this optional parameter can point to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_function_level_device_reset_parameters">FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS</a> structure that specifies a callback routine that is called when the reset is completed.
 
 ## -returns

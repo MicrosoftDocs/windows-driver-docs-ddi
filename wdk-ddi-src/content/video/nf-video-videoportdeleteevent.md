@@ -49,14 +49,14 @@ The <b>VideoPortDeleteEvent</b> function deletes the specified event object.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pEvent 
+### -param pEvent [in]
 
-[in]
+
 Pointer to the event object to be deleted.
 
 ## -returns

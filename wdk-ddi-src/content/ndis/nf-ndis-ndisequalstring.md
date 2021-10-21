@@ -52,19 +52,19 @@ The
 
 ## -parameters
 
-### -param _String1 
+### -param _String1 [in]
 
-[in]
+
 A pointer to an NDIS_STRING type that describes the first string.
 
-### -param _String2 
+### -param _String2 [in]
 
-[in]
+
 A pointer to an NDIS_STRING type that describes the second string.
 
-### -param _CaseInsensitive 
+### -param _CaseInsensitive [in]
 
-[in]
+
 A boolean value that is <b>TRUE</b> if case should be ignored when doing the comparison. Otherwise, it is
      <b>FALSE</b>.
 

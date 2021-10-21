@@ -49,9 +49,9 @@ Gets the server for the current process.
 
 ## -parameters
 
-### -param Server 
+### -param Server [out]
 
-[out]
+
 A pointer to the returned server value.
 
 ## -returns

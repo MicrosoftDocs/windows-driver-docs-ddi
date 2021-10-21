@@ -48,13 +48,13 @@ api_name:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to the graphics adapter for which the allocation was created. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+Handle to the graphics adapter for which the allocation was created. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
-### -param hAllocation
+### -param hAllocation [in]
 
-[in] Handle that was assigned by the DirectX graphics subsystem (*Dxgkrnl*) to the context allocation. The display miniport driver receives the handle from the **hAllocation** member of the [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure in a call to the [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md) function.
+Handle that was assigned by the DirectX graphics subsystem (*Dxgkrnl*) to the context allocation. The display miniport driver receives the handle from the **hAllocation** member of the [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure in a call to the [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md) function.
 
 ## -returns
 

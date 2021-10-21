@@ -50,29 +50,29 @@ api_name:
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [out, optional]
 
-[out, optional]
+
 A pointer to flags from the debugging APIs.
 
-### -param WhichString 
+### -param WhichString [in]
 
-[in]
+
 A value that controls which string to use.
 
-### -param String 
+### -param String [out]
 
-[out]
+
 A pointer to a Unicode character string from the debugging APIs.
 
-### -param StringSize 
+### -param StringSize [in]
 
-[in]
+
 The size of the string.
 
-### -param StringNeeded 
+### -param StringNeeded [out, optional]
 
-[out, optional]
+
 A pointer to an output string.
 
 ## -returns

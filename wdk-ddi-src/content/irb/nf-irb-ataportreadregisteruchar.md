@@ -53,9 +53,9 @@ The <b>AtaPortReadRegisterUchar</b> routine reads an unsigned byte value from th
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register to read. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
 ## -returns

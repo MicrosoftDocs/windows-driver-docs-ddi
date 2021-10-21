@@ -50,9 +50,9 @@ Increments the current worker count, and optionally queues the counted work item
 
 ## -parameters
 
-### -param Worker 
+### -param Worker [in]
 
-[in]
+
 Contains the previously allocated worker.
 
 ## -returns

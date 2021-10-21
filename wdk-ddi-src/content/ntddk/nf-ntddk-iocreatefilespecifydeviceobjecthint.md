@@ -49,14 +49,14 @@ The <b>IoCreateFileSpecifyDeviceObjectHint</b> routine is used by file system fi
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [out]
 
-[out]
+
 A pointer to a variable that receives a handle for the file object if this call is successful.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects.
 
 <table>
@@ -277,9 +277,9 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 
 The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA <i>DesiredAccess</i> flags are incompatible with creating or opening a directory file.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
 
 <table>
@@ -339,9 +339,9 @@ A set of flags that controls the file object attributes. If the caller is runnin
 </tr>
 </table>
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
 
 FILE_CREATED
@@ -356,14 +356,14 @@ FILE_EXISTS
 
 FILE_DOES_NOT_EXIST
 
-### -param AllocationSize 
+### -param AllocationSize [in, optional]
 
-[in, optional]
+
 Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-### -param FileAttributes 
+### -param FileAttributes [in]
 
-[in]
+
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by any other flag or by an ORed combination of compatible flags. Possible <i>FileAttributes</i> flags include the following. 
 
 <table>
@@ -433,9 +433,9 @@ A temporary file should be created.
 </tr>
 </table>
 
-### -param ShareAccess 
+### -param ShareAccess [in]
 
-[in]
+
 Specifies the type of share access to the file that the caller would like, as zero, or one, or a combination of the following flags. To request exclusive access, set this parameter to zero. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the <i>Options</i> parameter, the I/O manager ignores this parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
 
 <table>
@@ -475,9 +475,9 @@ The file can be opened for delete access by other threads.
 </tr>
 </table>
 
-### -param Disposition 
+### -param Disposition [in]
 
-[in]
+
 Specifies a value that determines the action to be taken, depending on whether the file already exists. The value can be any of those described following.
 
 <table>
@@ -547,9 +547,9 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </tr>
 </table>
 
-### -param CreateOptions 
+### -param CreateOptions [in]
 
-[in]
+
 Specifies the options to be applied when creating or opening the file. These options are specified as a compatible combination of the following flags.
 
 <table>
@@ -731,29 +731,29 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 </tr>
 </table>
 
-### -param EaBuffer 
+### -param EaBuffer [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file.
 
-### -param EaLength 
+### -param EaLength [in]
 
-[in]
+
 The length, in bytes, of <i>EaBuffer</i>.
 
-### -param CreateFileType 
+### -param CreateFileType [in]
 
-[in]
+
 Drivers must set this parameter to CreateFileTypeNone.
 
-### -param InternalParameters 
+### -param InternalParameters [in, optional]
 
-[in, optional]
+
 Drivers must set this parameter to <b>NULL</b>.
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies options to be used during the creation of the create request. The following table lists the available options.
 
 <table>
@@ -783,9 +783,9 @@ Indicates that the I/O manager should not perform share-access checks on the fil
 </tr>
 </table>
 
-### -param DeviceObject 
+### -param DeviceObject [in, optional]
 
-[in, optional]
+
 A pointer to the device object to which the create request is to be sent. The device object must be a filter or file system device object in the file system driver stack for the volume on which the file or directory resides. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request will be sent to the device object at the top of the driver stack.
 
 ## -returns

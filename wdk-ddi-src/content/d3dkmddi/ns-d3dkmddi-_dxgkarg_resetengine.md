@@ -52,17 +52,17 @@ Specifies a node within the physical display adapter that can be reset when the 
 
 ## -struct-fields
 
-### -field NodeOrdinal
+### -field NodeOrdinal [in]
 
-[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being reset in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>.
+An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being reset in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>.
 
-### -field EngineOrdinal
+### -field EngineOrdinal [in]
 
-[in] An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
+An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
 
-### -field LastAbortedFenceId
+### -field LastAbortedFenceId [out]
 
-[out] The fence identifier for the last packet that was aborted in the middle of execution.
+The fence identifier for the last packet that was aborted in the middle of execution.
 
 ## -remarks
 

@@ -49,9 +49,9 @@ The <b>GetScopeSymbolGroup2</b>  method returns a symbol group containing the sy
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set used to determine which symbols to include in the symbol group.  To include all symbols, set <i>Flags</i> to DEBUG_SCOPE_GROUP_ALL.  The following bit-flags determine which symbols are included.
 
 <table>
@@ -81,14 +81,14 @@ Include the local variables for the current scope.
 </tr>
 </table>
 
-### -param Update 
+### -param Update [in, optional]
 
-[in, optional]
+
 Specifies a previously created symbol group that will be updated to reflect the current scope.  If <i>Update</i> is <b>NULL</b>, a new symbol group interface object is created.
 
-### -param Symbols 
+### -param Symbols [out]
 
-[out]
+
 Receives the symbol group interface object for the current scope.  For details on this interface, see <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup">IDebugSymbolGroup</a>
 
 ## -returns

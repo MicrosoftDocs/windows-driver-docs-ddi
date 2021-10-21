@@ -52,13 +52,13 @@ Specifies the support attributes that the hardware provides for multiplane overl
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [out]
 
-[out] A handle to the allocation. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the allocation.
+A handle to the allocation. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the allocation.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input for which the support levels are queried.
+The zero-based video present network (VidPN) source identification number of the input for which the support levels are queried.
 
 ### -field PlaneAttributes
 

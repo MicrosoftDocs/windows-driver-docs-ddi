@@ -47,9 +47,9 @@ Gets the ContainerId for the given Silo.
 
 ## -parameters
 
-### -param Silo
+### -param Silo [in]
 
-[in] A pointer to the Silo being queried.
+A pointer to the Silo being queried.
 
 ## -returns
 

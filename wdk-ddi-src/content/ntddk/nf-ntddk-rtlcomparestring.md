@@ -50,19 +50,19 @@ The <b>RtlCompareString</b> routine compares two counted strings.
 
 ## -parameters
 
-### -param String1 
+### -param String1 [in]
 
-[in]
+
 Pointer to the first string.
 
-### -param String2 
+### -param String2 [in]
 
-[in]
+
 Pointer to the second string.
 
-### -param CaseInSensitive 
+### -param CaseInSensitive [in]
 
-[in]
+
 If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -returns

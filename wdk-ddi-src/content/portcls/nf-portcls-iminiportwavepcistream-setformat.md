@@ -49,9 +49,9 @@ The <code>SetFormat</code> method sets the KS data format of the wave stream.
 
 ## -parameters
 
-### -param DataFormat 
+### -param DataFormat [in]
 
-[in]
+
 Pointer to <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that describes the new format of the stream.
 
 ## -returns

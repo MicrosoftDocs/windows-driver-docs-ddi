@@ -50,39 +50,39 @@ For example, the OS will call the DXGKDDI_COLLECTDIAGNOSTICINFO callback functio
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in, optional]
 
-[in, optional] A handle to a context block associated with a display adapter.
+A handle to a context block associated with a display adapter.
 
 Prior to WDDM 2.6, the display miniport driver's [DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function provided this handle to the DirectX graphics kernel subsystem. This parameter is optional and can be NULL if the driver failed to provide the handle to the OS.
 
-### -field Type
+### -field Type [in]
 
-[in] A [DXGK_DIAGNOSTICINFO_TYPE](ne-dispmprt-dxgk_diagnosticinfo_type.md) enumeration value that indicates the type of information the driver needs to collect.
+A [DXGK_DIAGNOSTICINFO_TYPE](ne-dispmprt-dxgk_diagnosticinfo_type.md) enumeration value that indicates the type of information the driver needs to collect.
 
-### -field BucketingString
+### -field BucketingString [out]
 
-[out] A fixed size buffer provided for a string that the driver should use to identify the issue for bucketing purposes. This string should be consistent between driver versions for the same issue so it should not contain elements such as source references, driver versions, or instance specific details like fence numbers or target ids. It may contain information such as an identifier of the internal sub-component which failed, or the name of a module, for example `mismatched_driver_ihvxseries.sys`. The valid codes are `0x21-0x7E` and the underscore (`0x5f`) should be used instead of the space (`0x20`).
+A fixed size buffer provided for a string that the driver should use to identify the issue for bucketing purposes. This string should be consistent between driver versions for the same issue so it should not contain elements such as source references, driver versions, or instance specific details like fence numbers or target ids. It may contain information such as an identifier of the internal sub-component which failed, or the name of a module, for example `mismatched_driver_ihvxseries.sys`. The valid codes are `0x21-0x7E` and the underscore (`0x5f`) should be used instead of the space (`0x20`).
 
-### -field DescriptionString
+### -field DescriptionString [out, optional]
 
-[out, optional] A fixed size buffer provided for a string that the driver should use to describe instance specific details which are not used for bucketing, but may be used to give more details about a specific issue, for example `mismatched_driver_versions_kmd_10.22.1111.1121,_ihvxseries:10.22.1111.1122`. The valid codes are `0x21-0x7E` and the underscore (`0x5f`) should be used instead of the space (`0x20`).
+A fixed size buffer provided for a string that the driver should use to describe instance specific details which are not used for bucketing, but may be used to give more details about a specific issue, for example `mismatched_driver_versions_kmd_10.22.1111.1121,_ihvxseries:10.22.1111.1122`. The valid codes are `0x21-0x7E` and the underscore (`0x5f`) should be used instead of the space (`0x20`).
 
-### -field pReserved
+### -field pReserved [out, optional]
 
-[out, optional] A pointer to VOID in an unnamed union that is reserved as a placeholder for a pointer to a type-specific argument the OS might supply for some *Types*. This value is NULL for *Types* which don’t require any extended information.
+A pointer to VOID in an unnamed union that is reserved as a placeholder for a pointer to a type-specific argument the OS might supply for some *Types*. This value is NULL for *Types* which don’t require any extended information.
 
-### -field BufferSizeIn
+### -field BufferSizeIn [in]
 
-[in] A variable that provides the size, in bytes, of the OS allocated buffer. For *Type* value of **DXGK_DI_ADDDEVICE** and **DXGK_DI_STARTDEVICE** the size will be around 0x80000.
+A variable that provides the size, in bytes, of the OS allocated buffer. For *Type* value of **DXGK_DI_ADDDEVICE** and **DXGK_DI_STARTDEVICE** the size will be around 0x80000.
 
-### -field BufferSizeOut
+### -field BufferSizeOut [out]
 
-[out] A variable that the driver should update with an actual size filled with its private data. If no private data is provided, the driver should assign 0 to the variable.
+A variable that the driver should update with an actual size filled with its private data. If no private data is provided, the driver should assign 0 to the variable.
 
-### -field pBuffer
+### -field pBuffer [out]
 
-[out] A pointer to a buffer that receives the private driver data.
+A pointer to a buffer that receives the private driver data.
 
 ## -remarks
 

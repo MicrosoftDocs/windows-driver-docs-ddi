@@ -52,43 +52,43 @@ The DXGK_TRANSFERFLAGS structure identifies the type of transfer operation to se
 
 ## -struct-fields
 
-### -field Swizzle
+### -field Swizzle [in]
 
-[in] A UINT value that specifies whether the driver should swizzle the source to the destination during the transfer. Note that for multiple-level allocations (for example, MIP-map textures), the driver should swizzle all levels of the allocations. For more information about swizzling allocations, see <a href="/windows-hardware/drivers/display/locking-swizzled-allocations">Locking Swizzled Allocations</a>.
+A UINT value that specifies whether the driver should swizzle the source to the destination during the transfer. Note that for multiple-level allocations (for example, MIP-map textures), the driver should swizzle all levels of the allocations. For more information about swizzling allocations, see <a href="/windows-hardware/drivers/display/locking-swizzled-allocations">Locking Swizzled Allocations</a>.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-### -field Unswizzle
+### -field Unswizzle [in]
 
-[in] A UINT value that specifies whether the driver should unswizzle the source to the destination during the transfer. Note that for multiple-level allocations (for example, MIP-map textures), the driver should unswizzle all levels of the allocations. For more information about swizzling allocations, see <a href="/windows-hardware/drivers/display/locking-swizzled-allocations">Locking Swizzled Allocations</a>.
+A UINT value that specifies whether the driver should unswizzle the source to the destination during the transfer. Note that for multiple-level allocations (for example, MIP-map textures), the driver should unswizzle all levels of the allocations. For more information about swizzling allocations, see <a href="/windows-hardware/drivers/display/locking-swizzled-allocations">Locking Swizzled Allocations</a>.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
-### -field AllocationIsIdle
+### -field AllocationIsIdle [in]
 
-[in] A UINT value that specifies whether the graphics processing unit (GPU) is using the given allocation. If this member is set, the GPU is not using the given allocation; that is, no work was queued or will be queued to the GPU until the call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> returns.
+A UINT value that specifies whether the graphics processing unit (GPU) is using the given allocation. If this member is set, the GPU is not using the given allocation; that is, no work was queued or will be queued to the GPU until the call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> returns.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
-### -field TransferStart
+### -field TransferStart [in]
 
-[in] A UINT value that specifies whether the transfer operation is starting. If this member is set, the transfer operation is starting.
+A UINT value that specifies whether the transfer operation is starting. If this member is set, the transfer operation is starting.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
-### -field TransferEnd
+### -field TransferEnd [in]
 
-[in] A UINT value that specifies whether the transfer operation is ending. If this member is set, the transfer operation is ending.
+A UINT value that specifies whether the transfer operation is ending. If this member is set, the transfer operation is ending.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros.
+This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros.
 
-### -field Value
+### -field Value [in]
 
-[in] A member in the union that DXGK_TRANSFERFLAGS contains that can hold a 32-bit value that identifies the transfer-operation type.
+A member in the union that DXGK_TRANSFERFLAGS contains that can hold a 32-bit value that identifies the transfer-operation type.
 
 ## -remarks
 

@@ -49,9 +49,9 @@ The <b>wiasSetValidListGuid </b>function sets valid values for a WIA_PROP_LIST p
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid

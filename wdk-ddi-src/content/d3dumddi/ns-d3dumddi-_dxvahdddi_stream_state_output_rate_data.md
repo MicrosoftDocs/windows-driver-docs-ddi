@@ -52,17 +52,17 @@ The DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure describes stream-state dat
 
 ## -struct-fields
 
-### -field RepeatFrame
+### -field RepeatFrame [in]
 
-[in] A Boolean value that specifies whether the frame rate conversion repeats or interpolates the frames. The driver refers to <b>RepeatFrame</b> only when it uses the frame rate conversion. The default value is <b>FALSE</b>, which indicates that the frame rate conversion interpolates the frames.
+A Boolean value that specifies whether the frame rate conversion repeats or interpolates the frames. The driver refers to <b>RepeatFrame</b> only when it uses the frame rate conversion. The default value is <b>FALSE</b>, which indicates that the frame rate conversion interpolates the frames.
 
-### -field OutputRate
+### -field OutputRate [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_output_rate">DXVAHDDDI_OUTPUT_RATE</a>-typed value that indicates the output rate of the input stream. The default value is DXVAHDDDI_OUTPUT_RATE_NORMAL.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_output_rate">DXVAHDDDI_OUTPUT_RATE</a>-typed value that indicates the output rate of the input stream. The default value is DXVAHDDDI_OUTPUT_RATE_NORMAL.
 
-### -field CustomRate
+### -field CustomRate [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents a custom output rate. The driver refers to <b>CustomRate</b> only when the value that is specified in <b>OutputRate</b> is DXVAHDDDI_OUTPUT_RATE_CUSTOM. The default value is 1/1.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_rational">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents a custom output rate. The driver refers to <b>CustomRate</b> only when the value that is specified in <b>OutputRate</b> is DXVAHDDDI_OUTPUT_RATE_CUSTOM. The default value is 1/1.
 
 ## -remarks
 

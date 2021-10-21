@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param RxDeviceObject 
+### -param RxDeviceObject [in]
 
-[in]
+
 A pointer to the where the created device object is to be stored.
 
 ## -remarks

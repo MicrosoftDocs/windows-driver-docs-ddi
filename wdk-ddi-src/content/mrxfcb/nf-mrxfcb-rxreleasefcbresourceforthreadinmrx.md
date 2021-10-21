@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param pRxContext 
+### -param pRxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT structure.
 
-### -param MrxFcb 
+### -param MrxFcb [in, out]
 
-[in, out]
+
 A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>.
 
-### -param ResourceThreadId 
+### -param ResourceThreadId [in]
 
-[in]
+
 The thread ID that originally acquired the resource.
 
 ## -remarks

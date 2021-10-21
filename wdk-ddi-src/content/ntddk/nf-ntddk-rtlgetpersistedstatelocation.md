@@ -46,33 +46,33 @@ Retrieves the redirected location for the specified SourceID from the redirectio
 
 ## -parameters
 
-### -param SourceID
+### -param SourceID [_In_]
 
-[_In_] The identifier to lookup in the redirection map.
+The identifier to lookup in the redirection map.
 
-### -param CustomValue
+### -param CustomValue [_In_opt_]
 
-[_In_opt_] Optional. The value to retrieve, if it's different than the default value.
+Optional. The value to retrieve, if it's different than the default value.
 
-### -param DefaultPath
+### -param DefaultPath [_In_opt_]
 
-[_In_opt_] Optional. If an entry for the **SourceID** value cannot be found in the map, returns this value.
+Optional. If an entry for the **SourceID** value cannot be found in the map, returns this value.
 
-### -param StateLocationType
+### -param StateLocationType [_In_]
 
-[_In_] A [**STATE_LOCATION_TYPE**](ne-ntddk-_state_location_type.md)-type value that indicates the type of State to look up; registry or file system.
+A [**STATE_LOCATION_TYPE**](ne-ntddk-_state_location_type.md)-type value that indicates the type of State to look up; registry or file system.
 
-### -param TargetPath
+### -param TargetPath [_In_]
 
-[_In_] A pointer to a Unicode string that receives the value. If the call is successful. The string is null-terminated.
+A pointer to a Unicode string that receives the value. If the call is successful. The string is null-terminated.
 
-### -param BufferLengthIn
+### -param BufferLengthIn [_In_]
 
-[_In_] The size of the string pointed to by _TargetPath_, in bytes.
+The size of the string pointed to by _TargetPath_, in bytes.
 
-### -param BufferLengthOut
+### -param BufferLengthOut [_Out_opt_]
 
-[_Out_opt_] Optional. If specified, returns the number of bytes written to the buffer in case the call is successful; number of bytes required if the call fails with the STATUS_BUFFER_OVERFLOW error code.
+Optional. If specified, returns the number of bytes written to the buffer in case the call is successful; number of bytes required if the call fails with the STATUS_BUFFER_OVERFLOW error code.
 
 ## -returns
 

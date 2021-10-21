@@ -49,14 +49,14 @@ The <b>IoQueryFileDosDeviceName</b> routine retrieves an MS-DOS device name for 
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the file.
 
-### -param ObjectNameInformation 
+### -param ObjectNameInformation [out]
 
-[out]
+
 A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure. This structure is filled in on successful return with the MS-DOS device name information. The structure is defined as follows: 
 
 

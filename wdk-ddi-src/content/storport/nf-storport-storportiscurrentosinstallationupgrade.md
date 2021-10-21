@@ -49,14 +49,14 @@ The <b>StorPortIsCurrentOsInstallationUpgrade</b>  routine checks if the current
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Upgraded 
+### -param Upgraded [out]
 
-[out]
+
 The value pointed to by <i>Upgraded</i> is set to <b>TRUE</b> if the current operating system installation was upgraded from a previous version. Otherwise, it is set to <b>FALSE</b>.
 
 ## -returns

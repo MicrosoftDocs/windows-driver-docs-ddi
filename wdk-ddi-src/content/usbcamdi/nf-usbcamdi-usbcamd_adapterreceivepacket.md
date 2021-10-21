@@ -50,24 +50,24 @@ The <b>USBCAMD_AdapterReceivePacket</b> function allows USBCAMD to process an ad
 
 ## -parameters
 
-### -param Srb 
+### -param Srb [in]
 
-[in]
+
 Pointer to the SRB passed to the camera minidriver's <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> callback function.
 
-### -param DeviceData 
+### -param DeviceData [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data">USBCAMD_DEVICE_DATA</a> structure that contains entry points to the camera minidriver's callback functions.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device's physical device object (PDO).
 
-### -param NeedsCompletion 
+### -param NeedsCompletion [in]
 
-[in]
+
 Specifies if USBCAMD is to process and complete the SRB request. Specify <b>TRUE</b> if USBCAMD is to complete the SRB request Specify <b>FALSE</b> to make USBCAMD ignore the SRB request and return the device context pointer.
 
 ## -returns

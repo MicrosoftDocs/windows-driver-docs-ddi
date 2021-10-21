@@ -50,19 +50,19 @@ The <b>PcForwardContentToDeviceObject</b> function accepts a device object repre
 
 ## -parameters
 
-### -param ContentId 
+### -param ContentId [in]
 
-[in]
+
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
-### -param Reserved 
+### -param Reserved [in, optional]
 
-[in, optional]
+
 Reserved for future use. Set to <b>NULL</b>.
 
-### -param DrmForward 
+### -param DrmForward [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmforward">DRMFORWARD</a> structure specifying a device object and file object that identify the target device and a KS audio pin on that device, respectively. The structure also contains the context value that the <a href="/previous-versions/ff537351(v=vs.85)">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request passes to the device.
 
 ## -returns

@@ -49,24 +49,24 @@ Reads the device's read-only memory (ROM).
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the miniport driver's device extension.
 
-### -param Unused1 
+### -param Unused1 [in]
 
-[in]
+
 Currently ignored by the video port driver; should be set to <b>NULL</b>.
 
-### -param Unused2 
+### -param Unused2 [in]
 
-[in]
+
 Currently ignored by the video port driver; should be set to zero.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Either the number of bytes of ROM data that the video port driver should read and return, or zero.
 
 ## -returns

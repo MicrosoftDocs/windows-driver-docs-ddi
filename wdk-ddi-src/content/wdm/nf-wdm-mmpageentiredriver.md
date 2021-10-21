@@ -49,9 +49,9 @@ The <b>MmPageEntireDriver</b> routine causes all of a driver's code and data to 
 
 ## -parameters
 
-### -param AddressWithinSection 
+### -param AddressWithinSection [in]
 
-[in]
+
 Pointer to a virtual address within the driver (for example, the address of the <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine).
 
 ## -returns

@@ -49,9 +49,9 @@ This routine unregisters a server silo monitor.
 
 ## -parameters
 
-### -param Monitor 
+### -param Monitor [in]
 
-[in]
+
 The server silo monitor to unregister.
 
 ## -remarks

@@ -52,25 +52,25 @@ The D3DDDIARG_CAPTURETOSYSMEM structure describes the parameters of a bit-block 
 
 ## -struct-fields
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source resource.
+A handle to the source resource.
 
-### -field SrcRect
+### -field SrcRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the source rectangle.
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the source rectangle.
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination resource.
+A handle to the destination resource.
 
-### -field DstSubResourceIndex
+### -field DstSubResourceIndex [in]
 
-[in] The index to the destination surface within the resource.
+The index to the destination surface within the resource.
 
-### -field DstRect
+### -field DstRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the destination rectangle.
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure for the destination rectangle.
 
 ## -remarks
 

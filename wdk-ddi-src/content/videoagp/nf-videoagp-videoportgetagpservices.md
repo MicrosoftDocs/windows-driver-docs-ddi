@@ -51,14 +51,14 @@ The <b>VideoPortGetAgpServices</b> function is <b>obsolete</b> and is supported 
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param AgpServices 
+### -param AgpServices [in]
 
-[in]
+
 Pointer to an uninitialized, miniport driver-allocated <a href="/windows-hardware/drivers/ddi/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a> structure.
 
 ## -returns

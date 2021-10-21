@@ -51,9 +51,9 @@ A driver's <i>EvtDpcFunc</i> callback function performs driver-defined operation
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc [in]
 
-[in]
+
 A handle to a framework DPC object.
 
 ## -remarks

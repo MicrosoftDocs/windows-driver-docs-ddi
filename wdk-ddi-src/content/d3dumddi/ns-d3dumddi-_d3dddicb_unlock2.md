@@ -52,7 +52,7 @@ api_name:
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A driver specified <b>D3DKMT_HANDLE</b> to the allocation to unlock.
+A driver specified <b>D3DKMT_HANDLE</b> to the allocation to unlock.
 

@@ -59,13 +59,13 @@ The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device i
 
 ### -field VidPnFromAllocation
 
-### -field VidPnFromAllocation.hPrimaryAllocation
+### -field VidPnFromAllocation.hPrimaryAllocation [in]
 
-[in] The primary allocation handle.
+The primary allocation handle.
 
-### -field VidPnFromAllocation.VidPnSourceId
+### -field VidPnFromAllocation.VidPnSourceId [out]
 
-[out] The VidPN source ID of the primary allocation.
+The VidPN source ID of the primary allocation.
 
 ## -see-also
 

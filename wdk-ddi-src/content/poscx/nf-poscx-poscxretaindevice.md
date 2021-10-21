@@ -50,14 +50,14 @@ PosCxRetainDevice is called to extend the ownership of the device.
 
 ## -parameters
 
-### -param device 
+### -param device [in]
 
-[in]
+
 A handle to a framework device object that represents the device.
 
-### -param request 
+### -param request [in]
 
-[in]
+
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue. The caller must always complete the request.
 
 ## -returns

@@ -49,19 +49,19 @@ FltCbdqInitialize initializes a minifilter driver's callback data queue dispatch
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the instance whose callback data queue is to be initialized.
 
-### -param Cbdq 
+### -param Cbdq [in, out]
 
-[in, out]
+
 Pointer to a callback data queue allocated by the minifilter driver.
 
-### -param CbdqInsertIo 
+### -param CbdqInsertIo [in]
 
-[in]
+
 Pointer to a caller-supplied insert callback routine. The Filter Manager calls this routine to insert the specified callback data structure into the queue. This routine is declared as follows: 
 
 
@@ -94,9 +94,9 @@ Pointer to the callback data structure to be inserted into the queue.
 
 Context information pointer that was passed as the <i>InsertContext</i> parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>.
 
-### -param CbdqRemoveIo 
+### -param CbdqRemoveIo [in]
 
-[in]
+
 Pointer to a caller-supplied remove callback routine. The Filter Manager calls this routine to remove the specified callback data structure from the queue. This routine is declared as follows: 
 
 
@@ -122,9 +122,9 @@ Pointer to the minifilter driver's cancel-safe callback data queue. This queue m
 
 Pointer to the callback data structure to be removed from the queue.
 
-### -param CbdqPeekNextIo 
+### -param CbdqPeekNextIo [in]
 
-[in]
+
 Pointer to a caller-supplied peek callback routine. The Filter Manager calls this function to get a pointer to the next I/O operation matching <i>PeekContext</i> in the queue; or, if <i>Cbd</i> is <b>NULL</b>, to get a pointer to the first matching I/O operation in the queue. The minifilter driver entirely defines the meaning of <i>PeekContext</i> and defines when an I/O operation matches a given <i>PeekContext</i>. This routine is declared as follows: 
 
 
@@ -157,9 +157,9 @@ Pointer to the callback data structure marking the position in the queue to begi
 
 Context information pointer that was passed as the <i>PeekContext</i> parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>.
 
-### -param CbdqAcquire 
+### -param CbdqAcquire [in]
 
-[in]
+
 Pointer to a caller-supplied acquire queue lock callback routine. The Filter Manager calls this routine to acquire the lock on the queue before attempting to insert or remove an item from the queue. This routine is declared as follows: 
 
 
@@ -185,9 +185,9 @@ Pointer to the minifilter driver's cancel-safe callback data queue. This queue m
 
 Pointer to a system-supplied variable that receives the current IRQL. The same variable is passed to the corresponding <i>CbdqRelease</i> routine.
 
-### -param CbdqRelease 
+### -param CbdqRelease [in]
 
-[in]
+
 Pointer to a caller-supplied release queue lock callback routine. The Filter Manager calls this routine to release the lock that it obtained by calling the corresponding <i>CbdqAcquire</i> routine. This routine is declared as follows: 
 
 
@@ -213,9 +213,9 @@ Pointer to the minifilter driver's cancel-safe callback data queue. This queue m
 
 The same system-supplied variable that received the current IRQL as the <i>Irql</i> parameter to the corresponding <i>CbdqAcquire</i> routine.
 
-### -param CbdqCompleteCanceledIo 
+### -param CbdqCompleteCanceledIo [in]
 
-[in]
+
 Pointer to a caller-supplied cancel routine. The Filter Manager calls this routine to signal to the minifilter driver to complete a canceled I/O operation. This routine is declared as follows: 
 
 

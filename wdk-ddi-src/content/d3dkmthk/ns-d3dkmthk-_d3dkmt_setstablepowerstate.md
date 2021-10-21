@@ -48,14 +48,14 @@ Used to set stable power state.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] The adapter to enable or disable stable power for.
+The adapter to enable or disable stable power for.
 
-### -field Enabled
+### -field Enabled [in]
 
  
-[in] Indicates whether or not stable power is being requested on or off.
+Indicates whether or not stable power is being requested on or off.
 
 ## -remarks
 

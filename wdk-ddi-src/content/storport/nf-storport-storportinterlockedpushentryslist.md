@@ -49,24 +49,24 @@ Inserts  an item at the front of a Storport managed singly linked list. Access t
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param SListHead 
+### -param SListHead [in, out]
 
-[in, out]
+
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
-### -param SListEntry 
+### -param SListEntry [in, out]
 
-[in, out]
+
 A pointer to an <b>STOR_SLIST_ENTRY</b> structure that represents the item to insert into the singly linked list.
 
-### -param Result 
+### -param Result [out]
 
-[out]
+
 A pointer to a list entry pointer. The value returned is a pointer to  the previous item that existed  at the front of the list. This pervious item remains in the list behind the item new item added from <i>SListEntry</i>. If the list is empty, then <b>NULL</b> is returned in value pointed to by <i>Result</i>.
 
 ## -returns

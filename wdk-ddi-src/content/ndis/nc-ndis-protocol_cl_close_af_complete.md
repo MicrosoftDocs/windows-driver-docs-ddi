@@ -55,9 +55,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client-initiated request to close the address family, which can
      be one of the following:
      
@@ -81,9 +81,9 @@ Either the AF has associated VC(s) and/or registered SAP(s) that the client must
        <b>NdisClCloseAddressFamily</b> twice because NDIS discovered that the AF state was marked as
        "closing."
 
-### -param ProtocolAfContext 
+### -param ProtocolAfContext [in]
 
-[in]
+
 Specifies the client-supplied handle to its per-AF context area. The client originally set up this
      context area and passed this handle to NDIS with 
      <b>NdisClOpenAddressFamilyEx</b>.

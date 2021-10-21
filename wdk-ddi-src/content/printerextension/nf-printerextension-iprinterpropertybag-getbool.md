@@ -49,14 +49,14 @@ Reads a specified boolean property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The name of the property.
 
-### -param pbValue 
+### -param pbValue [out, retval]
 
-[out, retval]
+
 The returned property value.
 
 ## -returns

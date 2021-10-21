@@ -55,9 +55,9 @@ NDIS calls a protocol driver's or intermediate driver's
 
 ## -parameters
 
-### -param OffloadContext 
+### -param OffloadContext [in]
 
-[in]
+
 A pointer to the protocol or intermediate driver's 
      <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_offload_handle">NDIS_OFFLOAD_HANDLE</a> structure for the
      TCP connection on which the indication is being made. The protocol or intermediate driver supplied this
@@ -65,9 +65,9 @@ A pointer to the protocol or intermediate driver's
      <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisinitiateoffload">NdisInitiateOffload</a> function when
      offloading the connection.
 
-### -param EventType 
+### -param EventType [in]
 
-[in]
+
 The event being indicated as one of the following TCP_OFFLOAD_EVENT_TYPE values:
      
 
@@ -100,9 +100,9 @@ Indicates that the remote host initiated an abortive disconnect by sending an ac
 
 Indicates a change in the preferred send backlog size.
 
-### -param EventSpecificInformation 
+### -param EventSpecificInformation [in]
 
-[in]
+
 Specifies additional information about the event being indicated as follows:
      
 

@@ -49,19 +49,19 @@ The <b>PoCreatePowerRequest</b> routine creates a power request object.
 
 ## -parameters
 
-### -param PowerRequest 
+### -param PowerRequest [out]
 
-[out]
+
 A pointer to a location into which the routine writes a pointer to the newly created power request object. If the call fails, the routine writes <b>NULL</b> to this location.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the device object of the caller (a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure).
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_counted_reason_context">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
 
 ## -returns

@@ -52,9 +52,9 @@ The <b>WdfPdoInitAllowForwardingRequestToParent</b> method enables a driver's ab
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 ## -remarks

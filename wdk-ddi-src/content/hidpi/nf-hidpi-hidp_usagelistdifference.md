@@ -50,29 +50,29 @@ The <b>HidP_UsageListDifference</b> routine returns the differences between two 
 
 ## -parameters
 
-### -param PreviousUsageList 
+### -param PreviousUsageList [in]
 
-[in]
+
 Pointer to a list of usages that the routine compares with the list of usages in <i>CurrentUsageList</i>.
 
-### -param CurrentUsageList 
+### -param CurrentUsageList [in]
 
-[in]
+
 Pointer to a list of usages that the routine compares with the list of usages in <i>PreviousUsageList</i>.
 
-### -param BreakUsageList 
+### -param BreakUsageList [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that, on return, contains a list of the usages that are in <i>PreviousUsageList</i>, but not in <i>CurrentUsageList</i>.
 
-### -param MakeUsageList 
+### -param MakeUsageList [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that, on return, contains a list of the usages that are in <i>CurrentUsageList</i>, but not in <i>PreviousUsageList</i>.
 
-### -param UsageListLength 
+### -param UsageListLength [in]
 
-[in]
+
 Specifies the length, in array elements, of the buffers provided at <i>CurrentUsageList </i>and <i>PreviousUsageList</i>.
 
 ## -returns

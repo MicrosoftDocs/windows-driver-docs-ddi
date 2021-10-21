@@ -49,14 +49,14 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 
 ## -parameters
 
-### -param UdecxUsbDevice 
+### -param UdecxUsbDevice [in]
 
-[in]
+
 A handle to the UDE device object for which the client driver creates the default endpoint. The driver created this object in a previous call to <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
-### -param UdecxEndpointInit 
+### -param UdecxEndpointInit [in]
 
-[in]
+
 A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 ## -returns

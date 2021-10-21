@@ -46,13 +46,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the display adapter.
+A handle to the display adapter.
 
-### -param pAllocatePagesForMdl
+### -param pAllocatePagesForMdl [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) structure that contains arguments to allocate pages for MDL.
+Pointer to a [**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) structure that contains arguments to allocate pages for MDL.
 
 ## -returns
 

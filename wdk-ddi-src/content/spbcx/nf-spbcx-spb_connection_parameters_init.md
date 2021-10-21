@@ -49,9 +49,9 @@ The <b>SPB_CONNECTION_PARAMETERS_INIT</b> function initializes an  <a href="/win
 
 ## -parameters
 
-### -param Parameters 
+### -param Parameters [out]
 
-[out]
+
 A pointer to the <b>SPB_CONNECTION_PARAMETERS</b> structure that is to be initialized.
 
 ## -remarks

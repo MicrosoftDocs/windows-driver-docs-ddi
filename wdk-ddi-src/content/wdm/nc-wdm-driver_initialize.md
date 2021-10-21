@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
-### -param RegistryPath 
+### -param RegistryPath [in]
 
-[in]
+
 A pointer to a counted Unicode string specifying the path to the driver's registry key.
 
 ## -returns

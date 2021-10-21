@@ -50,14 +50,14 @@ Calculates the buffer size that is required to hold a serialized <b>IPortableDev
 
 ## -parameters
 
-### -param pSource 
+### -param pSource [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface whose size you want to request.
 
-### -param pdwSize 
+### -param pdwSize [out]
 
-[out]
+
 Pointer to a <b>DWORD</b> that indicates the buffer size that is required to serialize <i>pSource</i>, in bytes.
 
 ## -returns

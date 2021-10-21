@@ -51,21 +51,21 @@ api_name:
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 Specifies the handle originally input to 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param VirtualAddress 
+### -param VirtualAddress [in]
 
-[in]
+
 Specifies the base virtual address for the mapped range that was returned by 
      <b>NdisMMapIoSpace</b>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes in the range that was mapped with 
      <b>NdisMMapIoSpace</b>.
 

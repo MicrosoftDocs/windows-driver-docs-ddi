@@ -46,19 +46,19 @@ The **RtlInitEmptyAnsiString** macro initializes an empty counted ANSI string.
 
 ## -parameters
 
-### -param AnsiString
+### -param AnsiString [out]
 
-[out]
+
 Pointer to the [**ANSI_STRING**](/windows/win32/api/ntdef/ns-ntdef-string) structure to be initialized.
 
-### -param Buffer
+### -param Buffer [in]
 
-[in]
+
 Pointer to a caller-allocated buffer to be used to contain a WCHAR string.
 
-### -param BufferSize
+### -param BufferSize [in]
 
-[in]
+
 Length, in bytes, of the buffer that _Buffer_ points to.
 
 ## -remarks

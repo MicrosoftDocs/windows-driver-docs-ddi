@@ -49,19 +49,19 @@ The **WRITE_REGISTER_BUFFER_USHORT** routine dereferences the supplied pointer, 
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer from which an array of USHORT values is to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to be written to the register.
 
 ## -remarks

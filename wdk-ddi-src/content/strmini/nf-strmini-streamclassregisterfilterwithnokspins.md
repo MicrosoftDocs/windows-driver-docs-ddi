@@ -50,34 +50,34 @@ The <b>StreamClassRegisterFilterWithNoKSPins</b> routine is used to register fil
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Points to the driver's device object.
 
-### -param InterfaceClassGUID 
+### -param InterfaceClassGUID [in]
 
-[in]
+
 Specifies the interface class GUID to register.
 
-### -param PinCount 
+### -param PinCount [in]
 
-[in]
+
 Specifies the number of pins on the filter.
 
-### -param PinDirection 
+### -param PinDirection [in]
 
-[in]
+
 Specifies a <i>PinCount</i>-sized array of Boolean values, one for each pin on the filter. The values indicate the pin direction for each pin. If <b>TRUE</b>, this pin is an output pin. If <b>FALSE</b>, the pin is an input pin.
 
-### -param MediumList 
+### -param MediumList [in]
 
-[in]
+
 Specifies a <i>PinCount</i>-sized array of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures, one for each pin on the filter.
 
-### -param CategoryList 
+### -param CategoryList [in, optional]
 
-[in, optional]
+
 If non-NULL, specifies an array of pin category GUIDs, one for each pin on the filter.
 
 ## -returns

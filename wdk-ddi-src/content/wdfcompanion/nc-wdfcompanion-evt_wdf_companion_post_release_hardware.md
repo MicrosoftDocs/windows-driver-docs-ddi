@@ -49,11 +49,11 @@ api_name:
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
 
-### -param ResourcesTranslated 
 
-[in]
+### -param ResourcesTranslated [in]
+
+
 

@@ -49,14 +49,14 @@ Gets a feature from the PrintTicket based on the specified key name.
 
 ## -parameters
 
-### -param bstrKeyName 
+### -param bstrKeyName [in]
 
-[in]
+
 The key name of the feature.
 
-### -param ppFeature 
+### -param ppFeature [out, retval]
 
-[out, retval]
+
 The returned feature.
 
 ## -returns

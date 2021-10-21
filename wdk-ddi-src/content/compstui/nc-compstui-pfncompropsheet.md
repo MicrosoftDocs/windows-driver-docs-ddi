@@ -49,27 +49,27 @@ The <i>ComPropSheet</i> function is supplied by <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param hComPropSheet 
+### -param hComPropSheet [in]
 
-[in]
+
 Caller-supplied handle to a property sheet <a href="/windows-hardware/drivers/print/group-parent">group parent</a>. For more information, see the following Remarks section.
 
-### -param Function 
+### -param Function [in]
 
-[in]
+
 Caller-supplied, CPSFUNC_-prefixed ComPropSheet function codes specifying the operation to be performed by the <i>ComPropSheet</i> function.
 
 <div class="alert"><b>Note</b>  See the <b>ComPropSheet</b> function codes table in the <b>Remarks</b> section below.</div>
 <div> </div>
 
-### -param lParam1 
+### -param lParam1 [in]
 
-[in]
+
 Caller-supplied value that depends on the <i>ComPropSheet</i> function code supplied for <i>Function</i>.
 
-### -param lParam2 
+### -param lParam2 [in]
 
-[in]
+
 Caller-supplied value that depends on the <i>ComPropSheet</i> function code supplied for <i>Function</i>.
 
 ## -returns

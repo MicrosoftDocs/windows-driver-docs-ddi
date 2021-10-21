@@ -52,21 +52,21 @@ The DXVADDI_AYUVSAMPLE8 structure describes 8-bit Cr, Cb, and Y color values and
 
 ## -struct-fields
 
-### -field Cr
+### -field Cr [in]
 
-[in] An 8-bit chrominance (V) sample value.
+An 8-bit chrominance (V) sample value.
 
-### -field Cb
+### -field Cb [in]
 
-[in] An 8-bit chrominance (U) sample value.
+An 8-bit chrominance (U) sample value.
 
-### -field Y
+### -field Y [in]
 
-[in] An 8-bit luminance (Y) sample value.
+An 8-bit luminance (Y) sample value.
 
-### -field Alpha
+### -field Alpha [in]
 
-[in] The 8-bit opacity of the pixel when it is used as a source graphic for blending with another picture.
+The 8-bit opacity of the pixel when it is used as a source graphic for blending with another picture.
 
 ## -remarks
 

@@ -50,14 +50,14 @@ Retrieves an <b>IPortableDeviceValuesCollection</b> (type VT_UNKNOWN) value spec
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-### -param ppValue 
+### -param ppValue [out]
 
-[out]
+
 Address of a variable that receives a pointer to the retrieved <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
 ## -returns

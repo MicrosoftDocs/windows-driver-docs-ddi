@@ -51,16 +51,16 @@ api_name:
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 Specifies the NDIS handle to the VC. This handle was supplied by NDIS when the VC was originally
      created with the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function.
 
-### -param TapiCallId 
+### -param TapiCallId [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer that receives a data structure of type VAR_STRING. Upon
      successful return, this structure describes a string that TAPI applications can use to identify the
      VC.

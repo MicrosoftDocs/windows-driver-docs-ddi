@@ -50,9 +50,9 @@ Copies the contents of an <b>IPropertyStore</b> into the collection.
 
 ## -parameters
 
-### -param pStore 
+### -param pStore [in]
 
-[in]
+
 Pointer to an <b>IPropertyStore</b> to copy into the collection.
 
 ## -returns

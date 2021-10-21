@@ -53,17 +53,17 @@ api_name:
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param pKey 
+### -param pKey [in]
 
-[in]
+
 A pointer to a
      <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
      DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure, which defines the cipher key.

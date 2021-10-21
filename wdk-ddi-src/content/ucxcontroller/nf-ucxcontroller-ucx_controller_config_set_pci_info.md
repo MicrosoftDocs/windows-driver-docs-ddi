@@ -49,39 +49,39 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontrol
 
 ## -parameters
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
-### -param VendorId 
+### -param VendorId [in]
 
-[in]
+
 Specifies the vendor identifier for the device as assigned by the PCI SIG.
 
-### -param DeviceId 
+### -param DeviceId [in]
 
-[in]
+
 Specifies the device identifier assigned by the manufacturer.
 
-### -param RevisionId 
+### -param RevisionId [in]
 
-[in]
+
 Specifies the revision level of the device described by the <b>DeviceID</b> member.
 
-### -param BusNumber 
+### -param BusNumber [in]
 
-[in]
+
 Specifies the bus number that identifies the bus instance that a device instance is attached to.
 
-### -param DeviceNumber 
+### -param DeviceNumber [in]
 
-[in]
+
 Specifies the device number that is assigned to the logical PCI slot.
 
-### -param FunctionNumber 
+### -param FunctionNumber [in]
 
-[in]
+
 Specifies the specific function on the device that is located in the logical PCI slot.
 
 ## -see-also

@@ -49,9 +49,9 @@ This routine  frees the specified slot and makes it available in the system. It 
 
 ## -parameters
 
-### -param ContextSlot 
+### -param ContextSlot [in]
 
-[in]
+
 A slot allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine. 
 
 <div class="alert"><b>Warning</b>  Setting this parameter to a slot that is still in use causes the system to execute bug check.</div>

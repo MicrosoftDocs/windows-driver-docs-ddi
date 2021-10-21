@@ -48,9 +48,9 @@ The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function checks the detail
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
-[in, out] Pointer to a [D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md) structure.
+Pointer to a [D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md) structure.
 
 ## -returns
 

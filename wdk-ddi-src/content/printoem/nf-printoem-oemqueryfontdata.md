@@ -59,9 +59,9 @@ The <code>OEMQueryFontData</code> function retrieves information about a realize
 
 ### -param pgd
 
-### -param pv 
+### -param pv [out]
 
-[out]
+
 
 ### -param cjSize
 

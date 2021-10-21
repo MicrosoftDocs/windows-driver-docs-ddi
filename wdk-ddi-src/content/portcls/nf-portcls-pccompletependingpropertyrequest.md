@@ -50,14 +50,14 @@ The <b>PcCompletePendingPropertyRequest</b> function is called to complete a pen
 
 ## -parameters
 
-### -param PropertyRequest 
+### -param PropertyRequest [in]
 
-[in]
+
 Pointer to the property request that was passed to the property handler. The request is a structure of type <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>.
 
-### -param NtStatus 
+### -param NtStatus [in]
 
-[in]
+
 Specifies the completion status of the request. See the list of NTSTATUS values defined in header file ntstatus.h.
 
 ## -returns

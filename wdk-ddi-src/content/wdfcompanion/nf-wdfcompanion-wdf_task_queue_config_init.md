@@ -49,15 +49,15 @@ api_name:
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
 
-### -param TaskQueueId 
 
-[in]
+### -param TaskQueueId [in]
 
-### -param DispatchType 
 
-[in]
+
+### -param DispatchType [in]
+
+
 

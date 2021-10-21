@@ -52,21 +52,21 @@ The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.
 
 ## -struct-fields
 
-### -field R
+### -field R [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the red component of the RGB color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the red component of the RGB color.
 
-### -field G
+### -field G [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the green component of the RGB color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the green component of the RGB color.
 
-### -field B
+### -field B [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the blue component of the RGB color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the blue component of the RGB color.
 
-### -field A
+### -field A [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the alpha component (that is, the transparency level) of the RGB color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the alpha component (that is, the transparency level) of the RGB color.
 
 ## -remarks
 

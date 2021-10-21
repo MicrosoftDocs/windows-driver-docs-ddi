@@ -49,9 +49,9 @@ The <b>SetEventCallbacksWide</b> method registers an event callbacks object with
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [in]
 
-[in]
+
 Specifies the interface pointer to the event callbacks object to register with this client.
 
 ## -returns

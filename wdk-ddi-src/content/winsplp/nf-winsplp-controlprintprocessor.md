@@ -50,14 +50,14 @@ A print processor's <b>ControlPrintProcessor</b> function allows the spooler to 
 
 ## -parameters
 
-### -param hPrintProcessor 
+### -param hPrintProcessor [in]
 
-[in]
+
 Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>.
 
-### -param Command 
+### -param Command [in]
 
-[in]
+
 Caller-supplied command indicating the type of operation to perform. The following commands are valid:
 
 <table>

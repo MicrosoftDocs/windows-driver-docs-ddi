@@ -52,17 +52,17 @@ The DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA structure describes stream-state data t
 
 ## -struct-fields
 
-### -field Enable
+### -field Enable [in]
 
-[in] A Boolean value that specifies whether the luma key is enabled. The default value is <b>FALSE</b>, which indicates that the luma key is disabled.
+A Boolean value that specifies whether the luma key is enabled. The default value is <b>FALSE</b>, which indicates that the luma key is disabled.
 
-### -field Lower
+### -field Lower [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that describes the lower luma-key value. The default value is 0.0.
+A FLOAT value in the 0.0 to 1.0 range that describes the lower luma-key value. The default value is 0.0.
 
-### -field Upper
+### -field Upper [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that describes the upper luma-key value. The default value is 0.0.
+A FLOAT value in the 0.0 to 1.0 range that describes the upper luma-key value. The default value is 0.0.
 
 ## -remarks
 

@@ -49,21 +49,21 @@ Returns a collection of related targets.
 
 ## -parameters
 
-### -param RelationSDEL 
+### -param RelationSDEL [in]
 
-[in]
+
 An SDEL statement that contains one or more relation tokens 
 that specify the desired targets.
 
-### -param MatchSDEL 
+### -param MatchSDEL [in]
 
-[in]
+
 The SDEL statement that each returned target must match.
 If <i>MatchSDEL</i> is empty, all targets are returned.
 
-### -param ppRelations 
+### -param ppRelations [out, retval]
 
-[out, retval]
+
 The address of the variable that will receive the 
 result of this method.
 

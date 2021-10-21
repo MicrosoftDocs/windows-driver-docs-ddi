@@ -50,14 +50,14 @@ api_name:
 
 ## -parameters
 
-### -param InterfaceDescriptor 
+### -param InterfaceDescriptor [in]
 
-[in]
+
 Pointer to a interface descriptor for which to obtain the length.
 
-### -param BufferEnd 
+### -param BufferEnd [in]
 
-[in]
+
 Pointer to the position within a buffer at which to stop searching for the length of the interface and associated endpoints.
 
 ## -returns

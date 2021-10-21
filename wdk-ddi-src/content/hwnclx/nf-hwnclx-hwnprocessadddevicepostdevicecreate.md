@@ -50,19 +50,19 @@ api_name:
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 Handle to the client drivers framework driver object.
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 Handle to the framework device object.
 
-### -param DeviceGuid 
+### -param DeviceGuid [in]
 
-[in]
+
 Pointer to the GUID for the client driver. Valid values are defined in Hwn.h, which ships with Window SDK.
 
 ## -returns

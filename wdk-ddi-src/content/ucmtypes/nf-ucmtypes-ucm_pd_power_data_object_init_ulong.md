@@ -49,14 +49,14 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_p
 
 ## -parameters
 
-### -param Pdo 
+### -param Pdo [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure.
 
-### -param UlongInLittleEndian 
+### -param UlongInLittleEndian [in]
 
-[in]
+
 The ULONG value to set in the <b>Ul</b> member of   <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a>.
 
 ## -remarks

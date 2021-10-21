@@ -51,13 +51,13 @@ dev_langs:
 
 ## -parameters
 
-### -param AdapterObject
+### -param AdapterObject [in]
 
-[in] Adapter object of the adapter for which the rendering adapter preference is being set.
+Adapter object of the adapter for which the rendering adapter preference is being set.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_ADAPTERSETRENDERADAPTER**](ns-iddcx-idarg_in_adaptersetrenderadapter.md) structure containing input arguments to the function.
+Pointer to an [**IDARG_IN_ADAPTERSETRENDERADAPTER**](ns-iddcx-idarg_in_adaptersetrenderadapter.md) structure containing input arguments to the function.
 
 ## -returns
 

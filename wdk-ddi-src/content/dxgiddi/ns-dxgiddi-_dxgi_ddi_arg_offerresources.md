@@ -52,23 +52,23 @@ Describes video memory resources that the user-mode display driver offers for re
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) on which the driver offers resources for reuse.
+A handle to the display device (graphics context) on which the driver offers resources for reuse.
 
 The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> routine.
 
-### -field pResources
+### -field pResources [in]
 
-[in] A pointer to an array of handles to the video memory resources that the driver offers.
+A pointer to an array of handles to the video memory resources that the driver offers.
 
-### -field Resources
+### -field Resources [in]
 
-[in] The number of elements in the array pointed to by <b>pResources</b>.
+The number of elements in the array pointed to by <b>pResources</b>.
 
-### -field Priority
+### -field Priority [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> that indicates the importance of the resources pointed to by <b>pResources</b>.
+A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> that indicates the importance of the resources pointed to by <b>pResources</b>.
 
 ## -see-also
 

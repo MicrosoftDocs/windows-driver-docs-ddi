@@ -56,13 +56,13 @@ The **NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT** function initializes a
 
 ## -parameters
 
-### -param Capabilities
+### -param Capabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure.
 
-### -param EvtAdapterOffloadSetRxChecksum
+### -param EvtAdapterOffloadSetRxChecksum [_In_]
 
-[_In_] A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md) callback function.
 
 ## -remarks
 

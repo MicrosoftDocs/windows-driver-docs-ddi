@@ -50,9 +50,9 @@ Decrements the current worker count of a worker previous created by <a href="/wi
 
 ## -parameters
 
-### -param Worker 
+### -param Worker [in]
 
-[in]
+
 Contains the previously allocated worker.
 
 ## -returns

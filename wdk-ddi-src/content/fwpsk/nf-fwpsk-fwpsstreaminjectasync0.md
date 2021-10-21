@@ -52,43 +52,43 @@ The
 
 ## -parameters
 
-### -param injectionHandle 
+### -param injectionHandle [in]
 
-[in]
+
 An injection handle that was previously created by a call to the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
-### -param injectionContext 
+### -param injectionContext [in, optional]
 
-[in, optional]
+
 An optional handle to the injection context.
 
-### -param flags 
+### -param flags [in]
 
-[in]
+
 Reserved. Callout drivers should set this parameter to zero.
 
-### -param flowId 
+### -param flowId [in]
 
-[in]
+
 A run-time identifier that specifies the data flow into which to inject the data. The run-time
      identifier for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE
      metadata value that the filter engine provided to the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-### -param calloutId 
+### -param calloutId [in]
 
-[in]
+
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
-### -param layerId 
+### -param layerId [in]
 
-[in]
+
 The run-time identifier for the filtering layer at which the data stream is being processed. This
      value must be either FWPS_LAYER_STREAM_V4 or FWPS_LAYER_STREAM_V6. The run-time identifier for the layer
      at which the data stream is being processed is provided to a callout in the 
@@ -97,9 +97,9 @@ The run-time identifier for the filtering layer at which the data stream is bein
      the filter engine passed to the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-### -param streamFlags 
+### -param streamFlags [in]
 
-[in]
+
 Flags that specify characteristics of the data stream into which the data is to be injected.
      
 
@@ -176,9 +176,9 @@ Specifies that the stream is to be disconnected after the data being injected in
 <div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_SEND</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div>
 <div> </div>
 
-### -param netBufferList 
+### -param netBufferList [in, out]
 
-[in, out]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the data that is being injected into the data stream. A callout driver allocates a <b>NET_BUFFER_LIST</b>
@@ -191,14 +191,14 @@ A pointer to a
      <i>streamFlags</i> parameter is <b>FWPS_STREAM_FLAG_RECEIVE_DISCONNECT</b> or <b>FWPS_STREAM_FLAG_SEND_DISCONNECT</b>, 
      <i>netBufferList</i> can be <b>NULL</b>.
 
-### -param dataLength 
+### -param dataLength [in]
 
-[in]
+
 The number of bytes of data being injected into the data stream.
 
-### -param completionFn 
+### -param completionFn [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function provided by
      the callout driver. The filter engine calls this function after the packet data, described by the 
@@ -214,9 +214,9 @@ If the
 
 This parameter is required and cannot be <b>NULL</b>. If it is <b>NULL</b>, <b>STATUS_FWP_NULL_POINTER</b> will be returned.
 
-### -param completionContext 
+### -param completionContext [in, optional]
 
-[in, optional]
+
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
      by the 
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.

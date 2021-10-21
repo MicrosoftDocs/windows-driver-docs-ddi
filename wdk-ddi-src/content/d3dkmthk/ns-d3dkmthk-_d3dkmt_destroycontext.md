@@ -52,9 +52,9 @@ The D3DKMT_DESTROYCONTEXT structure contains a handle to a kernel-mode device co
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function.
+A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontext">D3DKMTCreateContext</a> function.
 
 ## -see-also
 

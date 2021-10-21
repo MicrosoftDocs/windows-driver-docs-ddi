@@ -50,14 +50,14 @@ The <b>USBCAMD_SelectAlternateInterface</b> function selects an alternate settin
 
 ## -parameters
 
-### -param DeviceContext 
+### -param DeviceContext [in]
 
-[in]
+
 Pointer to a device-specific context.
 
-### -param RequestInterface 
+### -param RequestInterface [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_information">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 ## -returns

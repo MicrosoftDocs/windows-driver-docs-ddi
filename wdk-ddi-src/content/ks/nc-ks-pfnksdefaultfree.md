@@ -49,14 +49,14 @@ An AVStream minidriver's <i>AVStrMiniAllocatorFreeFrame</i> routine frees the sp
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the allocator's context structure created in <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to the frame to be freed.
 
 ## -remarks

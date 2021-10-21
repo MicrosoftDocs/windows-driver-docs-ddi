@@ -52,14 +52,14 @@ The <b>KsGetBusEnumPnpDeviceObject</b> function retrieves the Plug and Play devi
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object from which to retrieve the Plug and Play device object.
 
-### -param PnpDeviceObject 
+### -param PnpDeviceObject [out]
 
-[out]
+
 Pointer to the device object to receive the Plug and Play device object pointer.
 
 ## -returns

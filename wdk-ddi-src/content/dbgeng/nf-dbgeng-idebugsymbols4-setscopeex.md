@@ -49,24 +49,24 @@ Sets the scope as an extended frame structure.
 
 ## -parameters
 
-### -param InstructionOffset 
+### -param InstructionOffset [in]
 
-[in]
+
 The offset of the instruction for the scope.
 
-### -param ScopeFrame 
+### -param ScopeFrame [in, optional]
 
-[in, optional]
+
 The scope frame to set as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a> structure.
 
-### -param ScopeContext 
+### -param ScopeContext [in]
 
-[in]
+
 A pointer to a scope context.
 
-### -param ScopeContextSize 
+### -param ScopeContextSize [in]
 
-[in]
+
 The size of the scope context.
 
 ## -returns

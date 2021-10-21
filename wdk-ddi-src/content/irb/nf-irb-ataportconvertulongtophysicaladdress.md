@@ -53,9 +53,9 @@ The <b>AtaPortConvertUlongToPhysicalAddress</b> routine converts a given ULONG a
 
 ## -parameters
 
-### -param UlongAddress 
+### -param UlongAddress [in]
 
-[in]
+
 Specifies a value of type ULONG.
 
 ## -returns

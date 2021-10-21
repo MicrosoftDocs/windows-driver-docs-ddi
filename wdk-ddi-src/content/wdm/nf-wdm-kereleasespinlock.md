@@ -50,14 +50,14 @@ The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the origi
 
 ## -parameters
 
-### -param SpinLock 
+### -param SpinLock [in]
 
-[in]
+
 Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
 
-### -param NewIrql 
+### -param NewIrql [in, out]
 
-[in, out]
+
 Specifies the KIRQL value saved from the preceding call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>.
 
 ## -syntax

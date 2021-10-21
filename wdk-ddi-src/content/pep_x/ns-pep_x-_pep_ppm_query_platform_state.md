@@ -55,13 +55,13 @@ The <b>PEP_PPM_QUERY_PLATFORM_STATE</b> structure contains information about a p
 
 ## -struct-fields
 
-### -field StateIndex
+### -field StateIndex [in]
 
-[in] The index of this platform idle state. If the hardware platform supports N platform idle states, the states are numbered 0 to N-1. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) previously sent a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification to the platform extension plug-in (PEP) to determine the number of supported platform idle states.
+The index of this platform idle state. If the hardware platform supports N platform idle states, the states are numbered 0 to N-1. The Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) previously sent a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification to the platform extension plug-in (PEP) to determine the number of supported platform idle states.
 
-### -field State
+### -field State [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_platform_idle_state">PEP_PLATFORM_IDLE_STATE</a> structure that describes the platform idle state.
+A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_platform_idle_state">PEP_PLATFORM_IDLE_STATE</a> structure that describes the platform idle state.
 
 ## -remarks
 

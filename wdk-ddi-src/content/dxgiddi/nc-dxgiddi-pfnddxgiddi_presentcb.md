@@ -49,9 +49,9 @@ The <b>pfnPresentCbDXGI</b> function copies content from a source allocation to 
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in] A handle to a display device (graphics context).
+A handle to a display device (graphics context).
 
 ### -param 
 

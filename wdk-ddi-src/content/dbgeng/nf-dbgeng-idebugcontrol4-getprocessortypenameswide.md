@@ -49,39 +49,39 @@ The <b>GetProcessorTypeNamesWide</b>  method returns the full name and abbreviat
 
 ## -parameters
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Specifies the type of the processor whose name is requested.  See <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a> for a list of possible values.
 
-### -param FullNameBuffer 
+### -param FullNameBuffer [out, optional]
 
-[out, optional]
+
 Receives the full name of the processor type.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param FullNameBufferSize 
+### -param FullNameBufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the buffer that <i>FullNameBuffer</i> specifies.
 
-### -param FullNameSize 
+### -param FullNameSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the full name of the processor type.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
-### -param AbbrevNameBuffer 
+### -param AbbrevNameBuffer [out, optional]
 
-[out, optional]
+
 Receives the abbreviated name of the processor type.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param AbbrevNameBufferSize 
+### -param AbbrevNameBufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the buffer that <i>AbbrevNameBuffer</i> specifies.
 
-### -param AbbrevNameSize 
+### -param AbbrevNameSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the abbreviated name of the processor type.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

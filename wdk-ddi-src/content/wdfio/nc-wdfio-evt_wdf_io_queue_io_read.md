@@ -51,19 +51,19 @@ A driver's <i>EvtIoRead</i> event callback function processes a specified read r
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to the framework queue object that is associated with the I/O request.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to be read.
 
 ## -remarks

@@ -55,13 +55,13 @@ The <b>PEP_REGISTER_CRASHDUMP_DEVICE</b> structure provides a callback routine t
 
 ## -struct-fields
 
-### -field PowerOnDumpDeviceCallback
+### -field PowerOnDumpDeviceCallback [out]
 
-[out] A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbackpoweroncrashdumpdevice">PowerOnDumpDeviceCallback</a> callback routine that is implemented by the platform extension plug-in (PEP). This routine handles requests from the Windows kernel to turn on the crash-dump device so that a crash dump can be saved. For more information, see <a href="/windows-hardware/drivers/debugger/kernel-mode-dump-files">Kernel-Mode Dump Files</a>.
+A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbackpoweroncrashdumpdevice">PowerOnDumpDeviceCallback</a> callback routine that is implemented by the platform extension plug-in (PEP). This routine handles requests from the Windows kernel to turn on the crash-dump device so that a crash dump can be saved. For more information, see <a href="/windows-hardware/drivers/debugger/kernel-mode-dump-files">Kernel-Mode Dump Files</a>.
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A PEPHANDLE value that identifies the crash-dump device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+A PEPHANDLE value that identifies the crash-dump device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 ## -remarks
 

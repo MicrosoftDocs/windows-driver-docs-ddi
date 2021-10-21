@@ -49,13 +49,13 @@ This callback function returns the thresholds that are associated with a sensor.
 
 ## -parameters
 
-### -param Sensor
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pThresholds
+### -param pThresholds [out]
 
-[out] A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
+A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ### -param pSize
 

@@ -54,14 +54,14 @@ The routine
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
-### -param SystemTime 
+### -param SystemTime [out]
 
-[out]
+
 A pointer to a 64-bit integer containing the number of clock ticks since system boot.
 
 ## -returns

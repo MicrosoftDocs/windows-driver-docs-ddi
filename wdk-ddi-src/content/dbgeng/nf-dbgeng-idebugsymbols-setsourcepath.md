@@ -49,9 +49,9 @@ The <b>SetSourcePath</b>  method sets the source path.
 
 ## -parameters
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the new source path.  This is a string that contains source path elements separated by semicolons (<b>;</b>).  Each source path element can specify either a directory or a source server.
 
 ## -returns

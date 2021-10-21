@@ -49,9 +49,9 @@ The `PcwCloseInstance` function closes a counterset instance that was created us
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] A pointer to the counterset instance to close.
+A pointer to the counterset instance to close.
 
 ## -remarks
 

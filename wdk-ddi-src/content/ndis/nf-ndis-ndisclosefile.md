@@ -53,9 +53,9 @@ The
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 The handle that was returned in a preceding call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function.
 

@@ -51,19 +51,19 @@ This method allows the user to perform device maintenance tasks from within a UW
 
 ## -parameters
 
-### -param bstrBidiRequest 
+### -param bstrBidiRequest [in]
 
-[in]
+
 XML string that is used to transfer the data for the  Set request.
 
-### -param pCallback 
+### -param pCallback [in]
 
-[in]
+
 Callback object for the Bidi Set request.
 
-### -param ppAsyncOperation 
+### -param ppAsyncOperation [out, retval]
 
-[out, retval]
+
 Context object associated with the asynchronous Bidi Set  request (operation).
 
 ## -returns

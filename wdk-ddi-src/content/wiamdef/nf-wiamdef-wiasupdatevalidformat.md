@@ -49,19 +49,19 @@ The <b>wiasUpdateValidFormat</b> function updates the valid format of the proper
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
-### -param pContext 
+### -param pContext [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure containing a property context.
 
-### -param pIMiniDrv 
+### -param pIMiniDrv [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv Interface</a> of the current minidriver.
 
 ## -returns

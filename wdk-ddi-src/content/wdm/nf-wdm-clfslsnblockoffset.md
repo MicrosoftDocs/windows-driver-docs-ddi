@@ -50,9 +50,9 @@ The <b>ClfsLsnBlockOffset</b> routine returns the sector-aligned block offset co
 
 ## -parameters
 
-### -param plsn 
+### -param plsn [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure from which the block offset is retrieved.
 
 ## -returns

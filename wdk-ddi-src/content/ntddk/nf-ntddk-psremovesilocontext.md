@@ -49,14 +49,14 @@ This routine removes an object that was inserted in the <i>Silo</i>.
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 The silo from which the object is to be removed. This parameter is required and it cannot be <b>NULL</b>.
 
-### -param ContextSlot 
+### -param ContextSlot [in]
 
-[in]
+
 A slot allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 ### -param RemovedSiloContext

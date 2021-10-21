@@ -48,33 +48,33 @@ A kernel-mode display miniport driver calls **DXGKCB_POWERRUNTIMECONTROLREQUEST*
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the display adapter. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+A handle to the display adapter. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
-### -param PowerControlCode
+### -param PowerControlCode [in]
 
-[in] A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
+A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
 
-### -param InBuffer
+### -param InBuffer [in, optional]
 
-[in, optional] An optional pointer to an input buffer.
+An optional pointer to an input buffer.
 
-### -param InBufferSize
+### -param InBufferSize [in]
 
-[in] The size, in bytes, of the optional buffer that **InBuffer** points to. Set to zero if no **InBuffer** is provided.
+The size, in bytes, of the optional buffer that **InBuffer** points to. Set to zero if no **InBuffer** is provided.
 
-### -param OutBuffer
+### -param OutBuffer [in, optional]
 
-[in, optional] An optional pointer to an output buffer.
+An optional pointer to an output buffer.
 
-### -param OutBufferSize
+### -param OutBufferSize [in]
 
-[in] The size, in bytes, of the optional buffer that **OutBuffer** points to. Set to zero if no **OutBuffer** is provided.
+The size, in bytes, of the optional buffer that **OutBuffer** points to. Set to zero if no **OutBuffer** is provided.
 
-### -param BytesReturned
+### -param BytesReturned [out]
 
-[out] The number of actual bytes returned in the buffer that **OutBuffer** points to. The returned value will be <= **OutBufferSize**.
+The number of actual bytes returned in the buffer that **OutBuffer** points to. The returned value will be <= **OutBufferSize**.
 
 ## -returns
 

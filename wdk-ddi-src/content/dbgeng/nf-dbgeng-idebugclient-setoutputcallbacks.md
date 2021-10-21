@@ -49,9 +49,9 @@ The <b>SetOutputCallbacks</b> method registers an <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [in, optional]
 
-[in, optional]
+
 Specifies the interface pointer to the output callbacks object to register with this client.
 
 ## -returns

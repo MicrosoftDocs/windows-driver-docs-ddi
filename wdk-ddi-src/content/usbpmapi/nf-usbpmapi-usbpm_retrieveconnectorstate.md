@@ -47,17 +47,17 @@ Retrieves the current state of a connector. Unlike connector properties, state i
 
 ## -parameters
 
-### -param ClientHandle
+### -param ClientHandle [In]
 
-[In] The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
+The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
 
-### -param ConnectorHandle
+### -param ConnectorHandle [In]
 
-[In] The connector handle provided by Policy Manager when it calls the driver's implementation of [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md). The handle is set in the **EventData.ConnectorStateChange.ConnectorHandle** member of the _Params_ value.
+The connector handle provided by Policy Manager when it calls the driver's implementation of [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md). The handle is set in the **EventData.ConnectorStateChange.ConnectorHandle** member of the _Params_ value.
 
-### -param ConnectorState
+### -param ConnectorState [Out]
 
-[Out] A pointer to a driver-provided [**USBPM_CONNECTOR_STATE**](ns-usbpmapi-_usbpm_connector_state.md) structure that receives the connector state. Initialize the structure by calling  [**USBPM_CONNECTOR_STATE_INIT**](nf-usbpmapi-usbpm_connector_state_init.md).
+A pointer to a driver-provided [**USBPM_CONNECTOR_STATE**](ns-usbpmapi-_usbpm_connector_state.md) structure that receives the connector state. Initialize the structure by calling  [**USBPM_CONNECTOR_STATE_INIT**](nf-usbpmapi-usbpm_connector_state_init.md).
 
 ## -returns
 

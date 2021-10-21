@@ -49,14 +49,14 @@ The <i>CLIENT_ReconfigureInterrupt</i> event callback function reconfigures a ge
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-### -param ReconfigureParameters 
+### -param ReconfigureParameters [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_reconfigure_interrupts_parameters">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a> structure that specifies how to reconfigure the GPIO interrupt pin.
 
 ## -returns

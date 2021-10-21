@@ -45,25 +45,25 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] Pointer to the miniport's hardware device extension.
+Pointer to the miniport's hardware device extension.
 
-### -param StartRoutine
+### -param StartRoutine [in]
 
-[in] Pointer to the entry point for the newly created system thread. This parameter is a function pointer to a [**STOR_THREAD_START_ROUTINE**](nc-storport-stor_thread_start_routine.md) callback that receives a single argument, which is the **StartContext** parameter value.
+Pointer to the entry point for the newly created system thread. This parameter is a function pointer to a [**STOR_THREAD_START_ROUTINE**](nc-storport-stor_thread_start_routine.md) callback that receives a single argument, which is the **StartContext** parameter value.
 
-### -param StartContext
+### -param StartContext [in/optional]
 
-[in/optional] Pointer to a single argument that is passed to the thread when it begins execution.
+Pointer to a single argument that is passed to the thread when it begins execution.
 
-### -param Priority
+### -param Priority [in/optional]
 
-[in/optional] Pointer to a [**STOR_THREAD_PRIORITY**](ne-storport-stor_thread_priority.md) enum value that specifies the thread priority.
+Pointer to a [**STOR_THREAD_PRIORITY**](ne-storport-stor_thread_priority.md) enum value that specifies the thread priority.
 
-### -param ThreadContext
+### -param ThreadContext [out/optional]
 
-[out/optional] Pointer to a variable that will receive the thread context.
+Pointer to a variable that will receive the thread context.
 
 ## -returns
 

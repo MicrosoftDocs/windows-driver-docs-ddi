@@ -49,24 +49,24 @@ The <b>GetModuleByOffset</b> method searches through the target's <a href="/wind
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies a location in the target's virtual address space which is inside the desired module's memory allocation -- for example, the address of a symbol belonging to the module.
 
-### -param StartIndex 
+### -param StartIndex [in]
 
-[in]
+
 Specifies the index to start searching from.
 
-### -param Index 
+### -param Index [out, optional]
 
-[out, optional]
+
 Receives the index of the module.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
-### -param Base 
+### -param Base [out, optional]
 
-[out, optional]
+
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

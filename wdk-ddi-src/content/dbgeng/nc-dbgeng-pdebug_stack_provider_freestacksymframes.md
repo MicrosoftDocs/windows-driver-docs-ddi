@@ -53,9 +53,9 @@ The <i>FreeStackSymFrames</i> callback function frees memory from a stack provid
 
 ## -parameters
 
-### -param StackSymFrames 
+### -param StackSymFrames [in, optional]
 
-[in, optional]
+
 A stack to free.
 
 ## -returns

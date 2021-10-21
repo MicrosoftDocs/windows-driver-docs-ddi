@@ -52,9 +52,9 @@ The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryp
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] The handle to the encryption session to end.
+The handle to the encryption session to end.
 
 ## -see-also
 

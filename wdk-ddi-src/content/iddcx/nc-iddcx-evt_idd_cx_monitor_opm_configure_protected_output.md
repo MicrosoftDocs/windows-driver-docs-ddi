@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param OpmCxtObject 
+### -param OpmCxtObject [in]
 
-[in]
+
 A context used by the OS to identify the OPM context to configure output for.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM CONFIGURE_PROTECTED_OUTPUT</b>.
 
 ## -returns

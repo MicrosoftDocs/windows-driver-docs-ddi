@@ -50,24 +50,24 @@ The <b>KsGetMediaType</b> function retrieves information about a media type on a
 
 ## -parameters
 
-### -param Position 
+### -param Position [in]
 
-[in]
+
 Offset into the data range item that <b>KsGetMediaType</b> fills. Note that the data type of <i>Position</i> is <b>int</b> to conform to underlying calls.
 
-### -param AmMediaType 
+### -param AmMediaType [out]
 
-[out]
+
 Pointer to a variable that receives information in a AM_MEDIA_TYPE structure.
 
-### -param FilterHandle 
+### -param FilterHandle [in]
 
-[in]
+
 Handle to the filter that contains the pin factory to query.
 
-### -param PinFactoryId 
+### -param PinFactoryId [in]
 
-[in]
+
 Identifier of the pin factory against which the information for a media type is being returned.
 
 ## -returns

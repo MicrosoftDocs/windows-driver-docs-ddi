@@ -49,19 +49,19 @@ The <b>IoReplaceFileObjectName</b> routine replaces the name of a file object.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to the file object whose file name is being replaced.
 
-### -param NewFileName 
+### -param NewFileName [in]
 
-[in]
+
 Pointer to the string buffer for the new name for the file object.
 
-### -param FileNameLength 
+### -param FileNameLength [in]
 
-[in]
+
 Length, in bytes, of the new name for the file object.
 
 ## -returns

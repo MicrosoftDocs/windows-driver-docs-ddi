@@ -49,14 +49,14 @@ The <b>RtlEnumerateGenericTableWithoutSplaying</b> routine is used to enumerate 
 
 ## -parameters
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 A pointer to the generic table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
-### -param RestartKey 
+### -param RestartKey [in, out]
 
-[in, out]
+
 An address of the element returned by the previous call to <b>RtlEnumerateGenericTableWithoutSplaying</b>. Should be set to <b>NULL</b> if the enumeration is to start at the first element in the table. 
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTableWithoutSplaying</b> as follows:

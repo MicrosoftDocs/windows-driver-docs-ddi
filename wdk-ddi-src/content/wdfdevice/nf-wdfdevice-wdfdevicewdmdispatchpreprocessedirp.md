@@ -52,14 +52,14 @@ The <b>WdfDeviceWdmDispatchPreprocessedIrp</b> method returns a  preprocessed IR
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
 ## -returns

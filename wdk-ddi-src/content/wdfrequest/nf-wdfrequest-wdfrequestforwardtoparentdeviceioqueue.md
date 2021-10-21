@@ -52,19 +52,19 @@ The <b>WdfRequestForwardToParentDeviceIoQueue</b> method requeues an I/O request
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param ParentDeviceQueue 
+### -param ParentDeviceQueue [in]
 
-[in]
+
 A handle to a framework queue object.
 
-### -param ForwardOptions 
+### -param ForwardOptions [in]
 
-[in]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_forward_options">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 
 ## -returns

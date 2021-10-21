@@ -51,9 +51,9 @@ A driver's <i>EvtDeviceSelfManagedIoFlush</i> event callback function handles fl
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -remarks

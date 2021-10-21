@@ -48,19 +48,19 @@ An SPB controller driver's *EvtSpbControllerLock* event callback function locks 
 
 ## -parameters
 
-### -param Controller
+### -param Controller [in]
 
-[in]
+
 A WDFDEVICE handle to the [framework device object](/windows-hardware/drivers/wdf/framework-device-object) that represents the SPB controller.
 
-### -param Target
+### -param Target [in]
 
-[in]
+
 An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect) callback that opened the connection to the target.
 
-### -param LockRequest
+### -param LockRequest [in]
 
-[in]
+
 An [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles) handle to an I/O control request to lock the controller. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see [Remarks](#remarks).
 
 ## -remarks

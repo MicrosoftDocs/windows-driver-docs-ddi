@@ -49,19 +49,19 @@ The <b>FsRtlRemovePerFileContext</b> routine returns a pointer to a <a href="/pr
 
 ## -parameters
 
-### -param PerFileContextPointer 
+### -param PerFileContextPointer [in]
 
-[in]
+
 A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To obtain this pointer from a file object, use the <a href="/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
-### -param OwnerId 
+### -param OwnerId [in, optional]
 
-[in, optional]
+
 A pointer to a filter driver-allocated variable that uniquely identifies the owner of the per-file context structure.  This parameter is optional, but must be non-<b>NULL</b> if <i>InstanceId</i> is non-<b>NULL</b>.
 
-### -param InstanceId 
+### -param InstanceId [in, optional]
 
-[in, optional]
+
 A pointer to a filter driver-allocated variable that can be used to distinguish among per-file context structures that are created by the same filter driver.  This parameter is optional.
 
 ## -returns

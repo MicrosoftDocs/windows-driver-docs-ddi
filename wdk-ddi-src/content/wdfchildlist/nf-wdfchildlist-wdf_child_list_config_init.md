@@ -51,19 +51,19 @@ The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function initializes a <a href="/windows-h
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a> structure.
 
-### -param IdentificationDescriptionSize 
+### -param IdentificationDescriptionSize [in]
 
-[in]
+
 The size, in bytes, of each child device's <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>.
 
-### -param EvtChildListCreateDevice 
+### -param EvtChildListCreateDevice [in]
 
-[in]
+
 The address of a driver-supplied <a href="/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_create_device">EvtChildListCreateDevice</a> event callback function.
 
 ## -remarks

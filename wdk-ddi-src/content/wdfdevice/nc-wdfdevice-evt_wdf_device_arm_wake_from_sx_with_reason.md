@@ -51,19 +51,19 @@ A driver's <i>EvtDeviceArmWakeFromSxWithReason</i> event callback function arms 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param DeviceWakeEnabled 
+### -param DeviceWakeEnabled [in]
 
-[in]
+
 A Boolean value that, if <b>TRUE</b>, indicates that the device's ability to wake the system is enabled.
 
-### -param ChildrenArmedForWake 
+### -param ChildrenArmedForWake [in]
 
-[in]
+
 A Boolean value that, if <b>TRUE</b>, indicates that the ability of one or more child devices to wake the system is enabled.
 
 ## -returns

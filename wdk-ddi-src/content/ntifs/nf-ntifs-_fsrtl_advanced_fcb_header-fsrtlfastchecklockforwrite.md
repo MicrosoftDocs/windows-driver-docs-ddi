@@ -52,34 +52,34 @@ The <b>FsRtlFastCheckLockForWrite</b> routine determines whether the specified p
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
-### -param StartingByte 
+### -param StartingByte [in]
 
-[in]
+
 A pointer to a variable that specifies the starting byte offset within the file of the byte range to check.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 A pointer to a variable that specifies the length, in bytes, of the range to check.
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 The key for the byte range lock.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object for the file.
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 A pointer to the EPROCESS for the process.
 
 ## -returns

@@ -63,9 +63,9 @@ The interface type that the index was allocated for. The caller must provide the
      For a list of interface types, see 
      <a href="/windows-hardware/drivers/network/ndis-interface-types">NDIS Interface Types</a>.
 
-### -param NetLuidIndex 
+### -param NetLuidIndex [in]
 
-[in]
+
 The NET_LUID index value that NDIS should free. This index was allocated in a previous call to 
      <b>NdisIfAllocateNetLuidIndex</b>.
 

@@ -49,14 +49,14 @@ The <b>StorPortReadRegisterUlong64</b> routine reads a 64-bit value from a speci
 
 ## -parameters
 
-### -param h 
+### -param h [in]
 
-[in]
+
 A pointer to the hardware device extension.
 
-### -param r 
+### -param r [in]
 
-[in]
+
 A pointer to the register where the data is to be read.
 
 ## -remarks

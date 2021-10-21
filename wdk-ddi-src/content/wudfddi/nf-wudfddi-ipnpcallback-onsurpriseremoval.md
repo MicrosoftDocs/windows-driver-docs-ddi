@@ -51,9 +51,9 @@ The <b>OnSurpriseRemoval</b> method notifies a driver after a device is removed 
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device that is removed unexpectedly.
 
 ## -remarks

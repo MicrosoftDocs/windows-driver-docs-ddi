@@ -50,19 +50,19 @@ Adds a USB descriptor to the initialization parameters used to create a virtual 
 
 ## -parameters
 
-### -param UdecxUsbDeviceInit 
+### -param UdecxUsbDeviceInit [in, out]
 
-[in, out]
+
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>.
 
-### -param Descriptor 
+### -param Descriptor [in]
 
-[in]
+
 A caller-allocated buffer that contains the USB descriptor to add to the device.
 
-### -param DescriptorLength 
+### -param DescriptorLength [in]
 
-[in]
+
 The length of the descriptor buffer.
 
 ## -returns

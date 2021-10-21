@@ -49,14 +49,14 @@ The <b>PoClearPowerRequest</b> routine decrements the count for the specified po
 
 ## -parameters
 
-### -param PowerRequest 
+### -param PowerRequest [in, out]
 
-[in, out]
+
 A pointer to a power request object that was created by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 The type of the power request. Set this parameter to the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_power_request_type">POWER_REQUEST_TYPE</a> enumeration value:
 
 <ul>

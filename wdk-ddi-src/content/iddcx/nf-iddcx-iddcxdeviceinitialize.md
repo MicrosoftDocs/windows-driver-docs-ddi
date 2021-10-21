@@ -49,9 +49,9 @@ Initializes a WDF device
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 The WDF device that is being initialized.
 
 ## -returns

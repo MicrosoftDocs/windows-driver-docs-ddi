@@ -49,19 +49,19 @@ The **ZwFreeVirtualMemory** routine releases, decommits, or both, a region of pa
 
 ## -parameters
 
-### -param ProcessHandle
+### -param ProcessHandle [in]
 
-[in] A handle for the process in whose context the pages to be freed reside. Use the **NtCurrentProcess** macro, defined in Ntddk.h, to specify the current process.
+A handle for the process in whose context the pages to be freed reside. Use the **NtCurrentProcess** macro, defined in Ntddk.h, to specify the current process.
 
-### -param BaseAddress
+### -param BaseAddress [in, out]
 
-[in, out] A pointer to a variable that will receive the virtual address of the freed region of pages.
+A pointer to a variable that will receive the virtual address of the freed region of pages.
 
 If the MEM_RELEASE flag is set in the *FreeType* parameter, *BaseAddress* must be the base address returned by [**ZwAllocateVirtualMemory**](nf-ntifs-zwallocatevirtualmemory.md) when the region was reserved.
 
-### -param RegionSize
+### -param RegionSize [in, out]
 
-[in, out] A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
+A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
 If the MEM_RELEASE flag is set in the *FreeType* parameter, the variable pointed to by *RegionSize* must be zero. **ZwFreeVirtualMemory** frees the entire region that was reserved in the initial allocation call to [**ZwAllocateVirtualMemory**](nf-ntifs-zwallocatevirtualmemory.md).
 
@@ -73,9 +73,9 @@ If the MEM_DECOMMIT flag is set in the *FreeType* parameter, **ZwFreeVirtualMemo
 * *BaseAddress* is the base address returned by **ZwAllocateVirtualMemory** when the region was reserved.
 * *RegionSize<* is zero.
 
-### -param FreeType
+### -param FreeType [in]
 
-[in] A bitmask that contains flags that describe the type of free operation that **ZwFreeVirtualMemory** will perform for the specified region of pages. The possible values are listed in the following table.
+A bitmask that contains flags that describe the type of free operation that **ZwFreeVirtualMemory** will perform for the specified region of pages. The possible values are listed in the following table.
 
 <table>
 <tr>

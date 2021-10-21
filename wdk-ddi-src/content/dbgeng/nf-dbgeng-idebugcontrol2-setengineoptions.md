@@ -49,9 +49,9 @@ The <b>SetEngineOptions</b> method changes the engine's options.
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the engine's new options.  <i>Options</i> is a bit-set; it will replace the existing symbol options.  For a description of the engine options, see Remarks.
 
 ## -returns

@@ -49,21 +49,21 @@ The **StorPortGetLogicalUnit** routine returns a pointer to the miniport driver'
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] Pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine is called. The port driver frees this memory when it removes the device.
+Pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine is called. The port driver frees this memory when it removes the device.
 
-### -param PathId
+### -param PathId [in]
 
-[in] Identifies the SCSI bus.
+Identifies the SCSI bus.
 
-### -param TargetId
+### -param TargetId [in]
 
-[in] Identifies the target controller or device on the bus.
+Identifies the target controller or device on the bus.
 
-### -param Lun
+### -param Lun [in]
 
-[in] Identifies the logical unit (LU) number of the target device.
+Identifies the logical unit (LU) number of the target device.
 
 ## -returns
 

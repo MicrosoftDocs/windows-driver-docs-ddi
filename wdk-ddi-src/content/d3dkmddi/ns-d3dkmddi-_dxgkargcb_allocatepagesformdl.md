@@ -46,37 +46,37 @@ The **DXGKARGCB_ALLOCATEPAGESFORMDL** structure contains the arguments used in t
 
 ## -struct-fields
 
-### -field LowAddress
+### -field LowAddress [in]
 
-[in] Specifies the physical address of the start of the first address range from which the allocated pages can come.
+Specifies the physical address of the start of the first address range from which the allocated pages can come.
 
-### -field HighAddress
+### -field HighAddress [in]
 
-[in] Specifies the physical address of the end of the first address range from which the allocated pages can come.
+Specifies the physical address of the end of the first address range from which the allocated pages can come.
 
-### -field SkipBytes
+### -field SkipBytes [in]
 
-[in] Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. SkipBytes must be an integer multiple of the virtual memory page size, in bytes.
+Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. SkipBytes must be an integer multiple of the virtual memory page size, in bytes.
 
-### -field TotalBytes
+### -field TotalBytes [in]
 
-[in] Specifies the total number of bytes to allocate for the MDL.
+Specifies the total number of bytes to allocate for the MDL.
 
-### -field CacheType
+### -field CacheType [in]
 
-[in] Indicates the type of caching that is allowed for the requested memory.
+Indicates the type of caching that is allowed for the requested memory.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Specifies the flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](../wdm/nf-wdm-mmallocatepagesformdlex.md).
+Specifies the flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](../wdm/nf-wdm-mmallocatepagesformdlex.md).
 
-### -field hMemoryHandle
+### -field hMemoryHandle [out]
 
-[out] A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DGXKCB_FREEPAGESFROMMDL**](nc-d3dkmddi-dxgkcb_freepagesfrommdl.md) callback function.
+A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DGXKCB_FREEPAGESFROMMDL**](nc-d3dkmddi-dxgkcb_freepagesfrommdl.md) callback function.
 
-### -field pMdl
+### -field pMdl [out]
 
-[out] An MDL of non-paged memory guaranteed to be mapped to the IOMMU for its lifetime.
+An MDL of non-paged memory guaranteed to be mapped to the IOMMU for its lifetime.
 
 ## -remarks
 

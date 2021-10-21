@@ -52,14 +52,14 @@ The <b>WdfDmaTransactionDmaCompleted</b> method notifies the framework that a de
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
-### -param Status 
+### -param Status [out]
 
-[out]
+
 A pointer to a location that receives the status of the DMA transfer. For more information, see the following Remarks section.
 
 ## -returns

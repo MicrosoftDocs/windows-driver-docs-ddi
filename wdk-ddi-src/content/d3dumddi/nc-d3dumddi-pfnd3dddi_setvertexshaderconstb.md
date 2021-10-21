@@ -49,9 +49,9 @@ The <i>SetVertexShaderConstB</i> function sets one or more vertex shader constan
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

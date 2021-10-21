@@ -49,24 +49,24 @@ The <b>FltSetQuotaInformationFile</b> routine modifies quota entries for a file 
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 The file object pointer for the file.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that contains the quota information entries to be set.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
 ## -returns

@@ -50,9 +50,9 @@ The<b> KsGetNodeIdFromIrp </b>function returns the node ID of the node to which 
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to determine the associated node ID. This IRP must have been sent to a file object corresponding to a filter, pin, or node.
 
 ## -returns

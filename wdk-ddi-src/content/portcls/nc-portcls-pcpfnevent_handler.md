@@ -49,9 +49,9 @@ An <code>EventHandler</code> routine processes event requests.
 
 ## -parameters
 
-### -param EventRequest 
+### -param EventRequest [in]
 
-[in]
+
 Pointer to an initialized <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a> structure
 
 ## -returns

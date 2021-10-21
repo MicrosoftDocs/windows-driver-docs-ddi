@@ -54,9 +54,9 @@ The
 
 ## -parameters
 
-### -param injectionHandle 
+### -param injectionHandle [in]
 
-[in]
+
 The injection handle being destroyed.
 
 ## -returns

@@ -54,9 +54,9 @@ NDIS calls a protocol driver's
 
 ## -parameters
 
-### -param ProtocolBindingContext 
+### -param ProtocolBindingContext [in]
 
-[in]
+
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 

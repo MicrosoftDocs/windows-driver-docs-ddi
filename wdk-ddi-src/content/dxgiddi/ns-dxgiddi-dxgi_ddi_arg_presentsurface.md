@@ -49,9 +49,9 @@ Describes a surface to display.
 
 ## -struct-fields
 
-### -field hSurface
+### -field hSurface [in]
 
-[in] A handle to the resource that contains the surface.
+A handle to the resource that contains the surface.
 
 ### -field SubResourceIndex
 

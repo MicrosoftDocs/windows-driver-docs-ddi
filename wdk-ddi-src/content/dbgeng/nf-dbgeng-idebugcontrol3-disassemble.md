@@ -49,34 +49,34 @@ The <b>Disassemble</b>  method disassembles a processor instruction in the targe
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's memory of the instruction to disassemble.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the bit-flags that affect the behavior of this method.  Currently the only flag that can be set is DEBUG_DISASM_EFFECTIVE_ADDRESS; when set, the engine will compute the effective address from the current register information and display it.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the disassembled instruction.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-### -param DisassemblySize 
+### -param DisassemblySize [out, optional]
 
-[out, optional]
+
 Receives the size, in characters, of the disassembled instruction.  If <i>DisassemblySize</i> is <b>NULL</b>, this information is not returned.
 
-### -param EndOffset 
+### -param EndOffset [out]
 
-[out]
+
 Receives the location in the target's memory of the instruction following the disassembled instruction.
 
 ## -returns

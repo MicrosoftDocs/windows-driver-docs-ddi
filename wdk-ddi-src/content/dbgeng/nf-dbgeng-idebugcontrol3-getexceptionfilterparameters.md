@@ -49,24 +49,24 @@ The <b>GetExceptionFilterParameters</b> method returns the parameters for except
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of exception filters for which to return parameters.
 
-### -param Codes 
+### -param Codes [in, optional]
 
-[in, optional]
+
 Specifies an array of exception codes.  The parameters for the exception filters with these exception codes will be returned.  If <i>Codes</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first exception filter.  The parameters for the exception filters starting at <i>Start</i> will be returned.  If <i>Codes</i> is not <b>NULL</b>, <i>Start</i> is ignored.
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 Receives the parameters for the exception filters specified by <i>Codes</i> or <i>Start</i>.  <i>Params</i> is an array of elements of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_exception_filter_parameters">DEBUG_EXCEPTION_FILTER_PARAMETERS</a>.
 
 ## -returns

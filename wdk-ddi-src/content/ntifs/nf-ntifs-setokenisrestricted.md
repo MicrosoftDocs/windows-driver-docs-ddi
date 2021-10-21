@@ -49,9 +49,9 @@ The <b>SeTokenIsRestricted</b> routine determines whether a token contains a lis
 
 ## -parameters
 
-### -param Token 
+### -param Token [in]
 
-[in]
+
 Pointer to the access token to test.
 
 ## -returns

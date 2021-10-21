@@ -47,19 +47,19 @@ api_name:
 
 ## -parameters
 
-### -param hNotify 
+### -param hNotify [in]
 
-[in]
+
 
 ### -param dwColor
 
 ### -param fdwFlags
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
 
-### -param pPrinterNotifyInfo 
 
-[in]
+### -param pPrinterNotifyInfo [in]
+
+
 

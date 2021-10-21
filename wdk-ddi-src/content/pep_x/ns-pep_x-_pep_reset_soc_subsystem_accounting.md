@@ -55,9 +55,9 @@ The <b>PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING</b> structure is provided to the platf
 
 ## -struct-fields
 
-### -field PlatformIdleStateIndex
+### -field PlatformIdleStateIndex [in]
 
-[in] The platform idle state index for the subsystem accounting to be reset.
+The platform idle state index for the subsystem accounting to be reset.
 
 ### -field Flags
 

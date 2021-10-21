@@ -49,14 +49,14 @@ Is called when asynchronous PrintSchema operation that is represented by an <a h
 
 ## -parameters
 
-### -param pTicket 
+### -param pTicket [in]
 
-[in]
+
 The print ticket.
 
-### -param hrOperation 
+### -param hrOperation [in]
 
-[in]
+
 The result of the completed operation.
 
 ## -returns

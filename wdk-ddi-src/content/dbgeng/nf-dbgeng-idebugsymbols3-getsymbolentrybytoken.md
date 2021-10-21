@@ -49,19 +49,19 @@ Looks up a symbol by using a managed metadata token.
 
 ## -parameters
 
-### -param ModuleBase 
+### -param ModuleBase [in]
 
-[in]
+
 The base of the module.
 
-### -param Token 
+### -param Token [in]
 
-[in]
+
 The token to use to look up the symbol.
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 A pointer to the module as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure.
 
 ## -returns

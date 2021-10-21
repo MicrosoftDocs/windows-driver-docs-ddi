@@ -53,7 +53,7 @@ api_name:
 
 ### -param hGlyph
 
-### -param pdwWidth 
+### -param pdwWidth [out]
 
-[out]
+
 

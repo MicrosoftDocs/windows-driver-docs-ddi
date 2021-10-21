@@ -52,17 +52,17 @@ api_name:
 
 ## -struct-fields
 
-### -field pResources
+### -field pResources [in]
 
-[in] A pointer to an array of handles to the video memory resources that the driver offers.
+A pointer to an array of handles to the video memory resources that the driver offers.
 
-### -field Resources
+### -field Resources [in]
 
-[in] The number of elements in the array pointed to by <b>pResources</b>.
+The number of elements in the array pointed to by <b>pResources</b>.
 
-### -field Priority
+### -field Priority [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> that indicates the importance of the resources pointed to by <b>pResources</b>.
+A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> that indicates the importance of the resources pointed to by <b>pResources</b>.
 
 ## -remarks
 

@@ -60,9 +60,9 @@ A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_gammaramp_
 
 The size, in bytes, of the lookup table pointed to by <i>Data</i>.
 
-### -field Data
+### -field Data [in]
 
-[in] A union that contains one of the following ways to access the lookup table data depending on the value in the Type member:
+A union that contains one of the following ways to access the lookup table data depending on the value in the Type member:
 
 ### -field Data.pRgb256x3x16
 

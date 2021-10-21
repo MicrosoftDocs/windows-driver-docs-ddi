@@ -49,24 +49,24 @@ The<b> KsGateInitialize</b> function initializes a gate for use.
 
 ## -parameters
 
-### -param Gate 
+### -param Gate [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure to initialize.
 
-### -param InitialCount 
+### -param InitialCount [in]
 
-[in]
+
 This parameter specifies the initial count to place on the gate. Fills in <i>Gate -> Count</i>. For a new AND gate, this should be 1 (1 − 0 off inputs), and for a new OR gate, this should be 0 (0 on inputs). For more information, see <a href="/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
-### -param NextGate 
+### -param NextGate [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure to which <i>Gate</i> should attach its output for state transitions. If this optional parameter is unspecified, <i>Gate</i> is not be attached to a subsequent gate.
 
-### -param StateToPropagate 
+### -param StateToPropagate [in]
 
-[in]
+
 This parameter specifies whether to propagate ON transitions or OFF transitions. For an OR gate, set to <b>TRUE</b>; for an AND gate, set to <b>FALSE</b>.
 
 ## -remarks

@@ -51,9 +51,9 @@ The <b>Complete</b> method completes an I/O request.
 
 ## -parameters
 
-### -param CompletionStatus 
+### -param CompletionStatus [in]
 
-[in]
+
 A status value to complete the request with.
 
 ## -remarks

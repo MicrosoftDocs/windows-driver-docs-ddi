@@ -49,19 +49,19 @@ An AVStream minidriver's <i>AVStrMiniDeviceQueryCapabilities</i> routine is call
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> that dispatched the <a href="/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a>.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 The <a href="/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a> issued by <i>Device</i>.
 
-### -param Capabilities 
+### -param Capabilities [in, out]
 
-[in, out]
+
 Pointer to the DEVICE_CAPABILITIES structure that describes PnP and Power capabilities of <i>Device</i>.
 
 ## -returns

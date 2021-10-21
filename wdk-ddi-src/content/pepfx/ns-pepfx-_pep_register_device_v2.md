@@ -55,25 +55,25 @@ The <b>PEP_REGISTER_DEVICE_V2</b> structure describes a device whose driver stac
 
 ## -struct-fields
 
-### -field DeviceId
+### -field DeviceId [in]
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+A string that uniquely identifies the device. This member is a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
-### -field KernelHandle
+### -field KernelHandle [in]
 
-[in] A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
+A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
-### -field Register
+### -field Register [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that describes the power management attributes of all the components in the device. For more information, see Remarks.
+A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that describes the power management attributes of all the components in the device. For more information, see Remarks.
 
-### -field DeviceHandle
+### -field DeviceHandle [out]
 
-[out] A PEPHANDLE value that the PEP creates to identify this device.  PoFx will use this handle to identify the device in future <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
+A PEPHANDLE value that the PEP creates to identify this device.  PoFx will use this handle to identify the device in future <a href="/windows-hardware/drivers/kernel/dpm-notifications">Device power management (DPM) notifications</a>.
 
-### -field DeviceAccepted
+### -field DeviceAccepted [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_device_acceptance_type">PEP_DEVICE_ACCEPTANCE_TYPE</a> enumeration value that indicates whether the PEP claims ownership of the device. The PEP that claims ownership is responsible for handling DPM notifications for the device.
+A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_device_acceptance_type">PEP_DEVICE_ACCEPTANCE_TYPE</a> enumeration value that indicates whether the PEP claims ownership of the device. The PEP that claims ownership is responsible for handling DPM notifications for the device.
 
 ## -remarks
 

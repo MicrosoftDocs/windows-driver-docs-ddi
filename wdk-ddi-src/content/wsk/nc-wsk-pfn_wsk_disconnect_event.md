@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param SocketContext 
+### -param SocketContext [in, optional]
 
-[in, optional]
+
 A pointer to the socket context for the connection-oriented socket that has been disconnected. The
      WSK application provided this pointer to the WSK subsystem in one of the following ways:
      
@@ -84,9 +84,9 @@ Its
 </li>
 </ul>
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
 

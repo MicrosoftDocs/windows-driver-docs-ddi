@@ -49,14 +49,14 @@ The <b>KeQueryLogicalProcessorRelationship</b> routine gets information about th
 
 ## -parameters
 
-### -param ProcessorNumber 
+### -param ProcessorNumber [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure that identifies the logical processor for which the caller requests relationship information. To request information about <u>all</u> logical processors in the system, set this parameter to <b>NULL</b>.
 
-### -param RelationshipType 
+### -param RelationshipType [in]
 
-[in]
+
 Specifies the type of relationship information that is requested by the caller. Set this parameter to one of the following <a href="/windows/win32/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> enumeration values:
 
 <ul>
@@ -104,14 +104,14 @@ Specifies the type of relationship information that is requested by the caller. 
 </li>
 </ul>
 
-### -param Information 
+### -param Information [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer into which the routine writes an array of one or more <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures that contain the information requested by the caller. If the function fails, the contents of this buffer are undefined. Set <i>Information</i> = <b>NULL</b> to obtain the required buffer length before you allocate the buffer. For more information, see the following Remarks section.
 
-### -param Length 
+### -param Length [in, out]
 
-[in, out]
+
 A pointer to a location that contains the size, in bytes, of the buffer that is pointed to by <i>Information</i>. On entry, *<i>Length</i> contains the size of the caller-allocated buffer that is pointed to by <i>Information</i>. During the call, the routine overwrites the value that is pointed to by <i>Length</i> with the buffer size that is required to contain the requested relationship information.
 
 ## -returns

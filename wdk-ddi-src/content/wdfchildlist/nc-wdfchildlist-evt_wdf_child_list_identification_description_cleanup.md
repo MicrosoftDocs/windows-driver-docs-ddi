@@ -51,14 +51,14 @@ A driver's <i>EvtChildListIdentificationDescriptionCleanup</i> event callback fu
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList [in]
 
-[in]
+
 A handle to a framework child-list object.
 
-### -param IdentificationDescription 
+### -param IdentificationDescription [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies an identification description.
 
 ## -remarks

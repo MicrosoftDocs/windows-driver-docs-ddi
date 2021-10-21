@@ -49,9 +49,9 @@ The <b>SetKernelConnectionOptions</b>  method updates some of the connection opt
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the connection options to update.  The possible values are:
 
 <table>

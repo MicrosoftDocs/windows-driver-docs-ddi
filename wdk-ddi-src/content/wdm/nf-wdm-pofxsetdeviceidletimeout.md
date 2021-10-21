@@ -49,14 +49,14 @@ The <b>PoFxSetDeviceIdleTimeout</b> routine specifies the minimum time interval 
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-### -param IdleTimeout 
+### -param IdleTimeout [in]
 
-[in]
+
 The idle time-out interval in 100-nanosecond units. For more information, see Remarks.
 
 ## -remarks

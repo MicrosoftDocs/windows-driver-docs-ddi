@@ -48,21 +48,21 @@ The **MmMapLockedPagesWithReservedMapping** routine maps all or part of an addre
 
 ## -parameters
 
-### -param MappingAddress
+### -param MappingAddress [in]
 
-[in] Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md).
+Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md).
 
-### -param PoolTag
+### -param PoolTag [in]
 
-[in] Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the *PoolTag* parameter of the call to [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md) that reserved the buffer.
+Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the *PoolTag* parameter of the call to [MmAllocateMappingAddress](./nf-wdm-mmallocatemappingaddress.md) that reserved the buffer.
 
-### -param MemoryDescriptorList
+### -param MemoryDescriptorList [in]
 
-[in] A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the [MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md) or [MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md) routine.
+A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the [MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md) or [MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md) routine.
 
-### -param CacheType
+### -param CacheType [in]
 
-[in] Specifies the [MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md) value to use to create the mapping.
+Specifies the [MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md) value to use to create the mapping.
 
 ## -returns
 

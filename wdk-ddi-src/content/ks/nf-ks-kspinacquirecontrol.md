@@ -49,9 +49,9 @@ The<b> KsPinAcquireControl</b> function acquires the control mutex for the AVStr
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> for which to acquire the control mutex.
 
 ## -remarks

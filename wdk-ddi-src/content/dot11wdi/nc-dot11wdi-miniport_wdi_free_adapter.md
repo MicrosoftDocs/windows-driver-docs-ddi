@@ -53,9 +53,9 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 The handle to the context area that the miniport driver allocated.
 
 ## -see-also

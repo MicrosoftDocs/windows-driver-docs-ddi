@@ -52,13 +52,13 @@ The D3DDDIARG_WINFO structure describes a w range for w buffering.
 
 ## -struct-fields
 
-### -field WNear
+### -field WNear [in]
 
-[in] A FLOAT value that indicates the near limit in the w range.
+A FLOAT value that indicates the near limit in the w range.
 
-### -field WFar
+### -field WFar [in]
 
-[in] A FLOAT value that indicates the far limit in the w range.
+A FLOAT value that indicates the far limit in the w range.
 
 ## -see-also
 

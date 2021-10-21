@@ -49,9 +49,9 @@ The <b>PoStartNextPowerIrp</b> routine signals the <a href="/windows-hardware/dr
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to an IRP in which the major function code is <a href="/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a>.
 
 ## -remarks

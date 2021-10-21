@@ -50,24 +50,24 @@ The <b>KsSetInformationFile</b> function performs an information set against the
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Specifies the file object to set the standard information on.
 
-### -param FileInformation 
+### -param FileInformation [in]
 
-[in]
+
 Indicates the place in which to put the file information. The file information is assumed to be a valid or probed address.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the correct length of the <i>FileInformation</i> buffer.
 
-### -param FileInformationClass 
+### -param FileInformationClass [in]
 
-[in]
+
 Specifies the class of information being set.
 
 ## -returns

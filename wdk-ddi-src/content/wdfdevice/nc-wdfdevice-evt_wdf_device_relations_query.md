@@ -51,14 +51,14 @@ A driver's <i>EvtDeviceRelationsQuery</i> event callback reports changes in the 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param RelationType 
+### -param RelationType [in]
 
-[in]
+
 A DEVICE_RELATION_TYPE-typed enumerator value. The DEVICE_RELATION_TYPE enumeration is defined in <i>wdm.h</i>.
 
 ## -remarks

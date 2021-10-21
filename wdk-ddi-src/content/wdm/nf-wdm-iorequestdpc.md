@@ -49,19 +49,19 @@ The <b>IoRequestDpc</b> routine queues a driver-supplied <a href="/windows-hardw
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for which the request that caused the interrupt is being processed.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the current IRP for the specified device.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a driver-determined context to be passed to the DPC routine.
 
 ## -remarks

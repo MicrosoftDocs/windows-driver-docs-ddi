@@ -49,14 +49,14 @@ The <b>ZwCreateKey</b> routine creates a new registry key or opens an existing o
 
 ## -parameters
 
-### -param KeyHandle 
+### -param KeyHandle [out]
 
-[out]
+
 Pointer to a HANDLE variable that receives a handle to the key.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify one or more of the following access rights, which are specific to object directories:
 
 <table>
@@ -176,23 +176,23 @@ STANDARD_RIGHTS_ALL, KEY_QUERY_VALUE, KEY_SET_VALUE, KEY_CREATE_SUB_KEY, KEY_ENU
 </tr>
 </table>
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 ### -param TitleIndex
 
 Device and intermediate drivers set this parameter to zero.
 
-### -param Class 
+### -param Class [in, optional]
 
-[in, optional]
+
 Pointer to a Unicode string that contains the key's object class. This information is used by the configuration manager.
 
-### -param CreateOptions 
+### -param CreateOptions [in]
 
-[in]
+
 Specifies the options to apply when creating or opening a key, specified as a compatible combination of the following flags.
 
 <table>
@@ -242,9 +242,9 @@ Key should be created or opened with special privileges that allow backup and re
 </tr>
 </table>
 
-### -param Disposition 
+### -param Disposition [out, optional]
 
-[out, optional]
+
 Pointer to a variable that receives a value indicating whether a new key was created or an existing one opened.
 
 <table>

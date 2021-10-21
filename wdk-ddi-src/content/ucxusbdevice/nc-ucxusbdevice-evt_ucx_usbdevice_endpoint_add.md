@@ -49,34 +49,34 @@ The client driver's implementation that UCX calls to add a new endpoint for a US
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param UcxUsbDevice 
+### -param UcxUsbDevice [in]
 
-[in]
+
 A handle to a UCX object that represents the USB device.
 
-### -param UsbEndpointDescriptor 
+### -param UsbEndpointDescriptor [in]
 
-[in]
+
 A pointer to a location containing a USB descriptor for the endpoint being created.
 
-### -param UsbEndpointDescriptorBufferLength 
+### -param UsbEndpointDescriptorBufferLength [in]
 
-[in]
+
 Length in bytes of the descriptor.
 
-### -param SuperSpeedEndpointCompanionDescriptor 
+### -param SuperSpeedEndpointCompanionDescriptor [in, optional]
 
-[in, optional]
+
 An additional descriptor for a super speed port. This parameter is optional and may be <b>NULL</b>.
 
-### -param UcxEndpointInit 
+### -param UcxEndpointInit [in]
 
-[in]
+
 A pointer to an opaque structure containing initialization
     information.  Callbacks for the endpoint object are associated with this
     structure.  This structure is managed by UCX.

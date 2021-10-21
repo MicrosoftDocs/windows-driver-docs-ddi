@@ -51,39 +51,39 @@ Starting with Windows 8, the operating system calls this function during a bugc
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 A pointer to the start address of the source image to be written to the bugcheck screen that displays information about the system stop error.
 
-### -param SourceWidth 
+### -param SourceWidth [in]
 
-[in]
+
 A UINT value that specifies the width, in units of pixels, of the specified source image.
 
-### -param SourceHeight 
+### -param SourceHeight [in]
 
-[in]
+
 A UINT value that specifies the height, in units of pixels, of the specified source image.
 
-### -param SourceStride 
+### -param SourceStride [in]
 
-[in]
+
 A UINT value that specifies the number of bytes for each line of the specified source image.
 
-### -param PositionX 
+### -param PositionX [in]
 
-[in]
+
 A UINT value that specifies the starting X coordinate that the specified source image should be written to on the display device.
 
-### -param PositionY 
+### -param PositionY [in]
 
-[in]
+
 A UINT value that specifies the starting Y coordinate that the specified source image should be written to on the display device.
 
 ## -remarks

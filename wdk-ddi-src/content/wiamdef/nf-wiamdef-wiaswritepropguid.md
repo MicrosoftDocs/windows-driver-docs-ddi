@@ -49,9 +49,9 @@ The <b>wiasWritePropGuid </b>function writes a single GUID property value to a W
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid

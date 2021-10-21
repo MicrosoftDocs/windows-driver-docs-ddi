@@ -49,9 +49,9 @@ The <b>CcRemapBcb</b> routine maps a buffer control block (BCB) an additional ti
 
 ## -parameters
 
-### -param Bcb 
+### -param Bcb [in]
 
-[in]
+
 Pointer to the BCB to be remapped.
 
 ## -returns

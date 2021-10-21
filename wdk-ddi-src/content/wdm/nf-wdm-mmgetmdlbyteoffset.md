@@ -46,9 +46,9 @@ The **MmGetMdlByteOffset** macro returns the byte offset within the initial page
 
 ## -parameters
 
-### -param Mdl
+### -param Mdl [in]
 
-[in]
+
 Pointer to an MDL.
 
 ## -remarks

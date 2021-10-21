@@ -49,9 +49,9 @@ Gets a byte array property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
 ### -param ppArray

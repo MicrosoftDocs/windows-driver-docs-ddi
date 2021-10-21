@@ -53,16 +53,16 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 A handle to a context area that the miniport driver allocated in its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for an miniport adapter.
 
-### -param NetDevicePnPEvent 
+### -param NetDevicePnPEvent [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_device_pnp_event">NET_DEVICE_PNP_EVENT</a> structure that
      describes a device Plug and Play event.

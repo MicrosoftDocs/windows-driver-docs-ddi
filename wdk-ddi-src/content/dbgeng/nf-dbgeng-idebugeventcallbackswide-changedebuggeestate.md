@@ -49,9 +49,9 @@ The <b>ChangeDebuggeeState</b> callback method is called by the engine when it m
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the type of changes made to the target.  <i>Flags</i> may take one of the following values:
 
 <table>
@@ -91,9 +91,9 @@ The target's data space has changed.
 </tr>
 </table>
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Provides additional information about the change in the target. The interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
 <dl>

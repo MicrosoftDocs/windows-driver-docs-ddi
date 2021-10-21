@@ -49,24 +49,24 @@ Returns information about captured data.
 
 ## -parameters
 
-### -param PacketNumber 
+### -param PacketNumber [out]
 
-[out]
+
 Returns the packet number relative to the start of capture.
 
-### -param Flags 
+### -param Flags [out]
 
-[out]
+
 Reserved for future use. Must be set to 0.
 
-### -param PerformanceCounterValue 
+### -param PerformanceCounterValue [out]
 
-[out]
+
 Returns the performance counter value corresponding to the sampling instant of the first sample in the packet.
 
-### -param MoreData 
+### -param MoreData [out]
 
-[out]
+
  Returns <b>TRUE</b> if there is more data ready immediately. The OS may optionally immediately call this routine again after processing the packet to get the next packet information. If the driver returns <b>FALSE</b>, then capture is operating at real time.
 
 ## -returns

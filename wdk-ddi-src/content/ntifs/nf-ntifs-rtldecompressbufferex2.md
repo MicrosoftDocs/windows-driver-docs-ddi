@@ -49,9 +49,9 @@ The <b>RtlDecompressBufferEx2</b> function decompresses an entire compressed buf
 
 ## -parameters
 
-### -param CompressionFormat 
+### -param CompressionFormat [in]
 
-[in]
+
 A bitmask that specifies the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows.
 
 <table>
@@ -111,39 +111,39 @@ The function will perform Xpress Huffman decompression.
 </tr>
 </table>
 
-### -param UncompressedBuffer 
+### -param UncompressedBuffer [out]
 
-[out]
+
 A pointer to a caller-allocated buffer (allocated from a  paged or non-paged pool) that receives the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
-### -param UncompressedBufferSize 
+### -param UncompressedBufferSize [in]
 
-[in]
+
 The size, in bytes, of the <i>UncompressedBuffer</i> buffer.
 
-### -param CompressedBuffer 
+### -param CompressedBuffer [in]
 
-[in]
+
 A pointer to the buffer that contains the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
-### -param CompressedBufferSize 
+### -param CompressedBufferSize [in]
 
-[in]
+
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
-### -param UncompressedChunkSize 
+### -param UncompressedChunkSize [in]
 
-[in]
+
 The size, in bytes, of each chunk within the compression buffer.  Valid values are 512, 1024, 2048 and 4096.
 
-### -param FinalUncompressedSize 
+### -param FinalUncompressedSize [out]
 
-[out]
+
 A pointer to a caller-allocated variable that receives the size, in bytes, of the decompressed data stored in <i>UncompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
-### -param WorkSpace 
+### -param WorkSpace [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressBufferEx2</b> function during decompression. Use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetcompressionworkspacesize">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
 ## -returns

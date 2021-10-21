@@ -52,9 +52,9 @@ channel which has been offered to it.
 
 ## -parameters
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 The channel that the guest virtual machine opens.
 
 ## -returns

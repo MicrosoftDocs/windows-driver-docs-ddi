@@ -49,9 +49,9 @@ Sets the current cursor position in the audio data stream that is being captured
 
 ## -parameters
 
-### -param ulCurrentWritePosition 
+### -param ulCurrentWritePosition [in]
 
-[in]
+
 The current cursor position in the audio data stream.
 
 ## -returns

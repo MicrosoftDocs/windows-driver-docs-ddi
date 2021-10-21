@@ -49,9 +49,9 @@ The <b>KsQueryExtendedSize</b> method retrieves extended header information requ
 
 ## -parameters
 
-### -param ExtendedSize 
+### -param ExtendedSize [out]
 
-[out]
+
 Pointer to a variable that receives the extended header size in bytes.
 
 ## -returns

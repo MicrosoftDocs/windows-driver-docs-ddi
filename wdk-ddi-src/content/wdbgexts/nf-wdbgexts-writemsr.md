@@ -49,14 +49,14 @@ The <b>WriteMsr</b> function writes to a Model-Specific Register (MSR).
 
 ## -parameters
 
-### -param MsrReg 
+### -param MsrReg [in]
 
-[in]
+
 Specifies the ID number of the MSR.
 
-### -param MsrValue 
+### -param MsrValue [in]
 
-[in]
+
 Specifies the new value of the MSR.
 
 ## -remarks

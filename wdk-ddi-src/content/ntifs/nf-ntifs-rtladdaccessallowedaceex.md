@@ -49,29 +49,29 @@ The <b>RtlAddAccessAllowedAceEx</b> routine adds an access-allowed access contro
 
 ## -parameters
 
-### -param Acl 
+### -param Acl [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated buffer that contains the ACL to be modified. <b>RtlAddAccessAllowedAceEx</b> adds an access-allowed ACE to the end of this ACL. The ACE is in the form of an <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
 
-### -param AceRevision 
+### -param AceRevision [in]
 
-[in]
+
 ACL revision level of the ACE to be added. This value can be ACL_REVISION or ACL_REVISION_DS. It must be ACL_REVISION_DS if the ACL contains an object-specific ACE.
 
-### -param AceFlags 
+### -param AceFlags [in]
 
-[in]
+
 Bitmask specifying the inherit flags of the ACE to be added.
 
-### -param AccessMask 
+### -param AccessMask [in]
 
-[in]
+
 A bitmask of one or more <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags that specify the access rights to be granted to the specified SID. For more information, see the description of the <i>DesiredAccess</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
-### -param Sid 
+### -param Sid [in]
 
-[in]
+
 A pointer to the SID structure that represents a user, group, or logon account that is being granted access.
 
 ## -returns

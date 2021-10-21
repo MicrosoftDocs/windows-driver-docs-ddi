@@ -51,7 +51,7 @@ api_name:
 
 ### -param cbSize
 
-### -param pded 
+### -param pded [out]
 
-[out]
+
 

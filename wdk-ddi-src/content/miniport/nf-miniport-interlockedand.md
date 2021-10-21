@@ -49,14 +49,14 @@ The <b>InterlockedAnd</b> macro atomically computes a bitwise AND operation.
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in, out]
 
-[in, out]
+
 A pointer to the variable to be ANDed with <i>Value</i>. The result of the operation is stored in the variable.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value to be ANDed with the variable that is pointed to by <i>Destination</i>.
 
 ## -returns

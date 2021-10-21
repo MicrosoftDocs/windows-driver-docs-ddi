@@ -52,17 +52,17 @@ The D3DKMDT_GDISURFACEDATA structure describes surfaces that are used by GDI har
 
 ## -struct-fields
 
-### -field Width
+### -field Width [in]
 
-[in] The width of the surface, in pixels.
+The width of the surface, in pixels.
 
-### -field Height
+### -field Height [in]
 
-[in] The height of the surface, in pixels.
+The height of the surface, in pixels.
 
-### -field Format
+### -field Format [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The following formats are supported:
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The following formats are supported:
 
 D3DDDIFMT_A8B8G8R8
 
@@ -76,17 +76,17 @@ D3DDDIFMT_A8
 
 The D3DDDIFMT_A8 format is used only for D3DKMDT_GDISURFACE_STAGING and D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE staging surface types from the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a> enumeration.
 
-### -field Type
+### -field Type [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a>-typed value that indicates the surface type.
+A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a>-typed value that indicates the surface type.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Reserved for future use. Must be zero.
+Reserved for future use. Must be zero.
 
-### -field Pitch
+### -field Pitch [out]
 
-[out] The width of the surface, which includes padding, in bytes. The display miniport driver must return the pitch value for all allocations of <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a> type D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE,  D3DKMDT_GDISURFACE_EXISTINGSYSMEM, and D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER.
+The width of the surface, which includes padding, in bytes. The display miniport driver must return the pitch value for all allocations of <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a> type D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE,  D3DKMDT_GDISURFACE_EXISTINGSYSMEM, and D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER.
 
 ## -remarks
 

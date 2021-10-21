@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns the status of the open file
      operation, which can be one of the following:
      
@@ -89,29 +89,29 @@ NDIS could not allocate the resources it needed to open the file and allocate a 
 The specified file's data could not be read into system memory for subsequent access by the
        caller.
 
-### -param FileHandle 
+### -param FileHandle [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns the handle of the opened
      file if the call succeeds.
 
-### -param FileLength 
+### -param FileLength [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function writes the number of bytes of data
      in the opened file if the call succeeds.
 
-### -param FileName 
+### -param FileName [in]
 
-[in]
+
 A pointer to an NDIS_STRING type containing an initialized counted string, in the system-default
      character set, naming the file to be opened. For Windows 2000 and later drivers, this string contains
      Unicode characters. That is, for Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
-### -param HighestAcceptableAddress 
+### -param HighestAcceptableAddress [in]
 
-[in]
+
 The highest physical address in which the file data can be stored, or specifies -1 if the driver
      places no restrictions.
 

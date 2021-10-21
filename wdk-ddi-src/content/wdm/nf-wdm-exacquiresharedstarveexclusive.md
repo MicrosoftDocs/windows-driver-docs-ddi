@@ -49,14 +49,14 @@ The <b>ExAcquireSharedStarveExclusive</b> routine acquires a given resource for 
 
 ## -parameters
 
-### -param Resource 
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to the resource to be acquired for shared access.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
 
 ## -returns

@@ -52,14 +52,14 @@ The <b>WdfDeviceInitAssignSDDLString</b> method assigns a security setting for a
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param SDDLString 
+### -param SDDLString [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is an SDDL representation of a security descriptor.
 
 ## -returns

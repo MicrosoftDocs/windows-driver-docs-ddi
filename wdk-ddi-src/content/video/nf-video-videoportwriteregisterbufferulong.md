@@ -53,9 +53,9 @@ The <b>VideoPortWriteRegisterBufferUlong</b> function writes a number of ULONG v
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer containing the ULONG values to be written.
 
 ### -param Count

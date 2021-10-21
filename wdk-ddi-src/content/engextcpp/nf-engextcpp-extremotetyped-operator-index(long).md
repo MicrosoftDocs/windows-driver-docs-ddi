@@ -49,9 +49,9 @@ The <b>operator[]</b> overloaded operator returns the typed data in the specifie
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of the array element.
 
 ## -returns

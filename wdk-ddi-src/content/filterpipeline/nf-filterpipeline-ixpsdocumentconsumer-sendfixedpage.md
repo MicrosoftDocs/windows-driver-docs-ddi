@@ -49,9 +49,9 @@ The <code>SendFixedPage</code> method sends a fixed page of an XPS document to t
 
 ## -parameters
 
-### -param pIFixedPage 
+### -param pIFixedPage [in]
 
-[in]
+
 A pointer to an XPS fixed page object.
 
 ## -returns

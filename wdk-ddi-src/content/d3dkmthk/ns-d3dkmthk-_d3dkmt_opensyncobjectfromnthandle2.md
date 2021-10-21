@@ -52,37 +52,37 @@ api_name:
 
 ## -struct-fields
 
-### -field hNtHandle
+### -field hNtHandle [in]
 
-[in] NT handle for the sync object to be opened.
+NT handle for the sync object to be opened.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] Device handle to use this sync object on.
+Device handle to use this sync object on.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Specifies the desired sync object behavior for this device, such as wait and signal semantics and TDR handling.
+Specifies the desired sync object behavior for this device, such as wait and signal semantics and TDR handling.
 
-### -field hSyncObject
+### -field hSyncObject [out]
 
-[out] Handle to the sync object that can be used in this process.
+Handle to the sync object that can be used in this process.
 
 ### -field MonitoredFence
 
 Contains sync object virtual addresses that can be used in this process.
 
-### -field MonitoredFence.FenceValueCPUVirtualAddress
+### -field MonitoredFence.FenceValueCPUVirtualAddress [out]
 
-[out] A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as <code>InterlockedCompareExchange64(pointer,0,0)</code>, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
+A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as <code>InterlockedCompareExchange64(pointer,0,0)</code>, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
 
-### -field MonitoredFence.FenceValueGPUVirtualAddress
+### -field MonitoredFence.FenceValueGPUVirtualAddress [out]
 
-[out] A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics  kernel will unblock waiters for this fence object value. This GPU virtual address is mapped asynchronously, and the driver should wait for the device that opened or created the monitored fence synchronization object to reach <b>PagingFenceValue</b> on its paging fence object prior to accessing this GPU virtual address. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
+A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics  kernel will unblock waiters for this fence object value. This GPU virtual address is mapped asynchronously, and the driver should wait for the device that opened or created the monitored fence synchronization object to reach <b>PagingFenceValue</b> on its paging fence object prior to accessing this GPU virtual address. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
 
-### -field MonitoredFence.EngineAffinity
+### -field MonitoredFence.EngineAffinity [in]
 
-[in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
+A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
 
 ### -field Reserved
 

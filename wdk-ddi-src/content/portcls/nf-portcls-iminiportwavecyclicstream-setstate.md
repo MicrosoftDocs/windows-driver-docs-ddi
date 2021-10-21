@@ -49,9 +49,9 @@ The <code>SetState</code> method sets the new state of playback or recording for
 
 ## -parameters
 
-### -param State 
+### -param State [in]
 
-[in]
+
 Specifies the new state for the stream. This parameter is a <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 ## -returns

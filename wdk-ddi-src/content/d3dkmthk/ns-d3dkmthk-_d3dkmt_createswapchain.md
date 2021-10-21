@@ -43,38 +43,38 @@ Used to create a swap chain.
 
 ## -struct-fields
 
-### -field bProducer
+### -field bProducer [in]
 
-[in] Indicates if producer or consumer.
+Indicates if producer or consumer.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] Handle to the device.
+Handle to the device.
 
-### -field pObjectAttributes
+### -field pObjectAttributes [in]
 
-[in] Security attribute of swap chain.
+Security attribute of swap chain.
 
-### -field DesiredAccess
+### -field DesiredAccess [in]
 
-[in] Desired access for swap chain.
+Desired access for swap chain.
 
-### -field SurfaceCount
+### -field SurfaceCount [in]
 
-[in] Number of buffers.
+Number of buffers.
 
-### -field pNtSurfaceHandles
+### -field pNtSurfaceHandles [in]
 
-[in] Array of NT handles.
+Array of NT handles.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Flags.
+Flags.
 
-### -field BufferAvailableEvent
+### -field BufferAvailableEvent [in_opt]
 
-[in_opt] Option handle to event.
+Option handle to event.
 
-### -field hNtSwapChain
+### -field hNtSwapChain [out]
 
-[out] NT handle for swap chain in this process.
+NT handle for swap chain in this process.

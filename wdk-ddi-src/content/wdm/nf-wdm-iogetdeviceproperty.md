@@ -49,14 +49,14 @@ The **IoGetDeviceProperty** routine retrieves information about a device such as
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the physical device object (PDO) for the device being queried.
 
-### -param DeviceProperty 
+### -param DeviceProperty [in]
 
-[in]
+
 Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](./ne-wdm-device_registry_property.md) enumeration values:
 
 #### DevicePropertyAddress
@@ -143,19 +143,19 @@ Requests a number associated with the device that can be displayed in the user i
 
 This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Specifies the size, in bytes, of the caller-supplied *PropertyBuffer*.
 
-### -param PropertyBuffer 
+### -param PropertyBuffer [out, optional]
 
-[out, optional]
+
 Pointer to a caller-supplied buffer to receive the property information. The buffer can be allocated from pageable memory. The type of the buffer is determined by the *DeviceProperty* (see above).
 
-### -param ResultLength 
+### -param ResultLength [out]
 
-[out]
+
 Pointer to a ULONG to receive the size of the property information returned at *PropertyBuffer*. If **IoGetDeviceProperty** returns STATUS_BUFFER_TOO_SMALL, it sets this parameter to the required buffer length.
 
 ## -returns

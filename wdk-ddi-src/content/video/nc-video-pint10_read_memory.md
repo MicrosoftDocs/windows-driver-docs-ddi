@@ -49,29 +49,29 @@ The <i>Int10ReadMemory </i>function reads a block of memory in the context of an
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a> returns.
 
-### -param Seg 
+### -param Seg [in]
 
-[in]
+
 Specifies the segment address of the buffer to be read.
 
-### -param Off 
+### -param Off [in]
 
-[in]
+
 Specifies the offset within the segment indicated by the <i>Seg</i> parameter.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a memory location that indicates the beginning of the output buffer.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Is the length, in bytes, of the output buffer specified by the <i>Buffer</i> parameter.
 
 ## -returns

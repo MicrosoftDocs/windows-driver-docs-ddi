@@ -49,9 +49,9 @@ The <b>RtlCheckRegistryKey</b> routine checks for the existence of a given named
 
 ## -parameters
 
-### -param RelativeTo 
+### -param RelativeTo [in]
 
-[in]
+
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 
 <table>
@@ -131,9 +131,9 @@ This value should not be passed into this routine. Despite the redundancy of a c
 </tr>
 </table>
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REGISTRY_HANDLE is set, <i>Path</i> is a handle to be used directly.
 
 ## -returns

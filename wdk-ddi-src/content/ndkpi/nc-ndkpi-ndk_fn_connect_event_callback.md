@@ -49,14 +49,14 @@ The <i>NdkConnectEventCallback</i> (<i>NDK_FN_CONNECT_EVENT_CALLBACK</i>) functi
 
 ## -parameters
 
-### -param ConnectEventContext 
+### -param ConnectEventContext [in, optional]
 
-[in, optional]
+
 A context area that was specified in the <i>ConnectEventContext</i> parameter of the <i>NdkCreateListener</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_listener">NDK_FN_CREATE_LISTENER</a>) function when the listener object was created.
 
-### -param pNdkConnector 
+### -param pNdkConnector [in]
 
-[in]
+
 A pointer to an NDK connector object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>) that represents a new incoming connection request.
 
 ## -remarks

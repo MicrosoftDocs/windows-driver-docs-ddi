@@ -51,9 +51,9 @@ A driver's <i>EvtDeviceSelfManagedIoCleanup</i> event callback function handles 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -remarks

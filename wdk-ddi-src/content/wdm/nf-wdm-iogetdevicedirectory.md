@@ -46,25 +46,25 @@ Returns a handle to a directory on disk, in which drivers can store files. The f
 
 ## -parameters
 
-### -param PhysicalDeviceObject
+### -param PhysicalDeviceObject [_In_]
 
-[_In_] A pointer to the [physical device object](ns-wdm-_device_object.md) being queried in the device stack of a particular device instance. Must not be NULL.
+A pointer to the [physical device object](ns-wdm-_device_object.md) being queried in the device stack of a particular device instance. Must not be NULL.
 
-### -param DirectoryType
+### -param DirectoryType [_In_]
 
-[_In_] A [**_DEVICE_DIRECTORY_TYPE**](ne-wdm-_device_directory_type.md)-type value that indicates the type of requested directory.
+A [**_DEVICE_DIRECTORY_TYPE**](ne-wdm-_device_directory_type.md)-type value that indicates the type of requested directory.
 
-### -param Flags
+### -param Flags [_In_]
 
-[_In_] Must be 0.
+Must be 0.
 
-### -param Reserved
+### -param Reserved [_In_]
 
-[_In_] Reserved. Must be NULL.
+Reserved. Must be NULL.
 
-### -param DeviceDirectoryHandle
+### -param DeviceDirectoryHandle [_Out_]
 
-[_Out_] A pointer to a variable that receives a HANDLE to the requested device directory. The caller must not pass NULL.
+A pointer to a variable that receives a HANDLE to the requested device directory. The caller must not pass NULL.
 
 ## -returns
 

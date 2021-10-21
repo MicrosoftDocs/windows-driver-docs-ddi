@@ -51,19 +51,19 @@ The <b>Send</b> method sends a request to the specified I/O target.
 
 ## -parameters
 
-### -param pIoTarget 
+### -param pIoTarget [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface for the I/O target object, which typically represents a lower driver in the stack.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A valid bitwise OR of <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags.
 
-### -param Timeout 
+### -param Timeout [in]
 
-[in]
+
 The amount of time, in system time units (100-nanosecond intervals), that can elapse before the framework automatically cancels the I/O request.
 
 <ul>

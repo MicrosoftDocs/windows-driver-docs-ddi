@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param DeviceExtension 
+### -param DeviceExtension [in]
 
-[in]
+
 Pointer to the minidriver's device extension.
 
 ## -returns

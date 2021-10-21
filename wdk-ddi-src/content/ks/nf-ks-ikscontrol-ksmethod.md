@@ -49,29 +49,29 @@ The <b>IKsControl::KsMethod</b> method sends a method to a KS object, together w
 
 ## -parameters
 
-### -param Method 
+### -param Method [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes a method and the request type of the method request.
 
-### -param MethodLength 
+### -param MethodLength [in]
 
-[in]
+
 Specifies size, in bytes, of the buffer at <i>Method</i>.
 
-### -param MethodData 
+### -param MethodData [in, out]
 
-[in, out]
+
 Pointer to a buffer that contains data and buffer space for a KSMETHOD_TYPE_SEND operation, or buffer space that receives data for all other operations.
 
-### -param DataLength 
+### -param DataLength [in]
 
-[in]
+
 Specifies size, in bytes, of the buffer at <i>MethodData</i>.
 
-### -param BytesReturned 
+### -param BytesReturned [out]
 
-[out]
+
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsMethod</b> stores in the buffer at <i>MethodData</i>.
 
 ## -returns

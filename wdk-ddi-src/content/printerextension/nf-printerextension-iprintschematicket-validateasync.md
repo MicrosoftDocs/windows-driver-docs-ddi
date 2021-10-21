@@ -49,9 +49,9 @@ Gets an asynchronous PrintTicket validation operation context.
 
 ## -parameters
 
-### -param ppAsyncOperation 
+### -param ppAsyncOperation [out]
 
-[out]
+
 The asynchronous validation operation context.
 
 ## -returns

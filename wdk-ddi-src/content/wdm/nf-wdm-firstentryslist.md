@@ -49,9 +49,9 @@ The <b>FirstEntrySList</b> routine returns the first entry in a sequenced singly
 
 ## -parameters
 
-### -param SListHead 
+### -param SListHead [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 
 ## -returns

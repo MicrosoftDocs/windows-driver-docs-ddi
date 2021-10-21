@@ -49,9 +49,9 @@ The <code>RegisterServiceGroup</code> method registers the service group to be u
 
 ## -parameters
 
-### -param ServiceGroup 
+### -param ServiceGroup [in]
 
-[in]
+
 Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object that is being registered.
 
 ## -returns

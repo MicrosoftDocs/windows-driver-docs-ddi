@@ -49,14 +49,14 @@ An <i>InterruptMessageService</i> routine services a message-signaled interrupt.
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure for the interrupt. The driver received this pointer in the call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine that registered the driver's <i>InterruptMessageService</i> routine.
 
-### -param ServiceContext 
+### -param ServiceContext [in]
 
-[in]
+
 The <i>ServiceContext</i> value that the driver passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> when the <i>InterruptMessageService</i> routine was registered.
 
 ### -param MessageID

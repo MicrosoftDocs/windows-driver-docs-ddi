@@ -50,19 +50,19 @@ The <b>PcForwardContentToInterface</b> function accepts a pointer to the COM int
 
 ## -parameters
 
-### -param ContentId 
+### -param ContentId [in]
 
-[in]
+
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
-### -param pUnknown 
+### -param pUnknown [in]
 
-[in]
+
 Pointer to a COM interface that directly receives KS audio stream data for a KS audio filter.
 
-### -param NumMethods 
+### -param NumMethods [in]
 
-[in]
+
 Specifies the total number of methods in the COM interface that <i>pUnknown</i> points to, including all the methods in its base interfaces.
 
 ## -returns

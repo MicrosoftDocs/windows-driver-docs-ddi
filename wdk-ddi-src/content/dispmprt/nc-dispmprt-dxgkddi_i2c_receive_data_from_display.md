@@ -49,24 +49,24 @@ The <i>DxgkDdiI2CReceiveDataFromDisplay</i> returns data received from an I2C de
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param VidPnTargetId 
+### -param VidPnTargetId [in]
 
-[in]
+
 An integer that identifies one of the video present targets on the display adapter.
 
-### -param SevenBitI2CAddress 
+### -param SevenBitI2CAddress [in]
 
-[in]
+
 The address of the I2C device from which data will be received.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A value that specifies whether the length of the data is supplied as part of the data transmitted by the I2C device. This parameter must be set to one of the following values.
 
 |Value|Meaning|
@@ -74,14 +74,14 @@ A value that specifies whether the length of the data is supplied as part of the
 |I2C_NO_FLAGS|The data length is supplied by the DataLength parameter. The I2C device does not supply the data length as part of the data that it transmits.|
 |I2C_DEVICE_TRANSMITS_DATA_LENGTH|The data length is supplied by the I2C device as part of the data that it transmits. The I2C device transmits at least two bytes. The seven least significant bits of the second byte transmitted contain the intermediate length. You can calculate the number of bytes that will be transmitted after the byte that contains the intermediate length by adding one to the intermediate length.|
 
-### -param DataLength 
+### -param DataLength [in]
 
-[in]
+
 The length, in bytes, of the buffer pointed to by <i>Data</i>.
 
-### -param Data 
+### -param Data [out]
 
-[out]
+
 A pointer to a buffer that receives the data. The buffer can be in paged memory.
 
 ## -returns

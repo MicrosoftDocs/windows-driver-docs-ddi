@@ -56,9 +56,9 @@ The
 A pointer to the head of the already initialized sequenced, singly linked list from which the
      entry is to be returned.
 
-### -param Lock 
+### -param Lock [in]
 
-[in]
+
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 ## -remarks

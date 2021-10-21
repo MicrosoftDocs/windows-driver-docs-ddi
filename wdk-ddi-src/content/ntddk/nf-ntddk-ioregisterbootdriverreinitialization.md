@@ -49,19 +49,19 @@ The <b>IoRegisterBootDriverReinitialization</b> routine is called by a boot driv
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to the driver object for the boot driver to be reinitialized.
 
-### -param DriverReinitializationRoutine 
+### -param DriverReinitializationRoutine [in]
 
-[in]
+
 Pointer to the driver's <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a> routine.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Optional context pointer to be passed to the driver's reinitialization routine.
 
 ## -remarks

@@ -48,9 +48,9 @@ The PFND3DKMT_CREATEOVERLAY callback function enables the overlay hardware if th
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
-[in, out] Pointer to a [D3DKMT_CREATEOVERLAY](ns-d3dkmthk-_d3dkmt_createoverlay.md) structure.
+Pointer to a [D3DKMT_CREATEOVERLAY](ns-d3dkmthk-_d3dkmt_createoverlay.md) structure.
 
 ## -returns
 

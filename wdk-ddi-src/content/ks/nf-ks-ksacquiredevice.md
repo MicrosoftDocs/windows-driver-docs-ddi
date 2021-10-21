@@ -50,9 +50,9 @@ The<b> KsAcquireDevice</b> function gains synchronous access for <i>Device</i> b
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 An AVStream device for which synchronous control should be acquired.
 
 ## -remarks

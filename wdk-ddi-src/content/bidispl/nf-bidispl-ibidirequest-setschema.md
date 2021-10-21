@@ -49,9 +49,9 @@ The <b>SetSchema</b> method sets the bidi schema string.
 
 ## -parameters
 
-### -param pszSchema 
+### -param pszSchema [in]
 
-[in]
+
 Pointer to a schema string.
 
 ## -returns

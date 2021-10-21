@@ -51,9 +51,9 @@ Removes the element stored at the location specified by the given index.
 
 ## -parameters
 
-### -param dwIndex 
+### -param dwIndex [in]
 
-[in]
+
 Specifies the index of the element to be removed.
 
 ## -returns

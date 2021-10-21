@@ -51,13 +51,13 @@ The **DXGKARGCB_ENUMHANDLECHILDREN** structure contains the arguments used in th
 
 ## -struct-fields
 
-### -field hObject
+### -field hObject [in]
 
-[in] A handle to the parent resource of a group of child allocations. This handle is the kernel-mode handle that the DirectX graphics kernel subsystem (part of *Dxgkrnl.sys*) assigned for the parent resource.
+A handle to the parent resource of a group of child allocations. This handle is the kernel-mode handle that the DirectX graphics kernel subsystem (part of *Dxgkrnl.sys*) assigned for the parent resource.
 
-### -field Index
+### -field Index [in]
 
-[in] The index into the array of child allocations that belongs to the resource that **hObject** specifies.
+The index into the array of child allocations that belongs to the resource that **hObject** specifies.
 
 ## -see-also
 

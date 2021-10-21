@@ -49,14 +49,14 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_u
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
 
-### -param PdConnState 
+### -param PdConnState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_pd_conn_state">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
 
 ## -see-also

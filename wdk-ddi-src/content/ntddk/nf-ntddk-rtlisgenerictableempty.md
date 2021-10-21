@@ -49,9 +49,9 @@ The <b>RtlIsGenericTableEmpty</b> routine determines if a generic table is empty
 
 ## -parameters
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 Pointer to the generic table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
 ## -returns

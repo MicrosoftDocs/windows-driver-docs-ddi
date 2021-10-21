@@ -49,9 +49,9 @@ The <b>ExFlushLookasideListEx</b> routine flushes all entries from the specified
 
 ## -parameters
 
-### -param Lookaside 
+### -param Lookaside [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a> structure that describes a lookaside list. This structure was previously initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex">ExInitializeLookasideListEx</a> routine.
 
 ## -remarks

@@ -49,14 +49,14 @@ The <b>SetSpecificFilterArgumentWide</b>  method sets the value of filter argume
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the specific filter whose argument will be set.  <i>Index</i> must be the index of a specific filter that has an argument.
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Specifies the argument for the specific filter.  The interpretation of this argument depends on the specific filter.
 
 ## -returns

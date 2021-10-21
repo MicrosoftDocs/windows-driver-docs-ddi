@@ -50,9 +50,9 @@ api_name:
 
 ## -parameters
 
-### -param Columns 
+### -param Columns [in]
 
-[in]
+
 The number of columns in the output.
 
 ## -returns

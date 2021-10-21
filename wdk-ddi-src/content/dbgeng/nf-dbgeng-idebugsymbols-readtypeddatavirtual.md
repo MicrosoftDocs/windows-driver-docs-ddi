@@ -49,34 +49,34 @@ The <b>ReadTypedDataVirtual</b> method reads the value of a variable in the targ
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's virtual address space of the variable to read.
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module containing the type of the variable.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the type.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Receives the data that is read.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be read.
 
-### -param BytesRead 
+### -param BytesRead [out, optional]
 
-[out, optional]
+
 Receives the number of bytes that were read.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

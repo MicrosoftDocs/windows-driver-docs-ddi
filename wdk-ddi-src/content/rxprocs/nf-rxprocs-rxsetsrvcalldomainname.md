@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param SrvCall 
+### -param SrvCall [in]
 
-[in]
+
 A pointer to the SRV_CALL structure.
 
-### -param DomainName 
+### -param DomainName [in]
 
-[in]
+
 A pointer to a buffer containing a zero-terminated Unicode string that names the domain to which this server belongs.
 
 ## -returns

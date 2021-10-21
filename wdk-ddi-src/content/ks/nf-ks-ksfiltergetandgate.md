@@ -50,9 +50,9 @@ The<b> KsFilterGetAndGate </b>function returns <i>Filter</i>'s AND gate.
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to acquire the corresponding AND gate.
 
 ## -returns

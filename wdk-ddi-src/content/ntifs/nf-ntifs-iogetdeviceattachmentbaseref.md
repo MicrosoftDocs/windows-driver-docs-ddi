@@ -49,9 +49,9 @@ The <b>IoGetDeviceAttachmentBaseRef</b> routine returns a pointer to the lowest-
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to a device object in the stack.
 
 ## -returns

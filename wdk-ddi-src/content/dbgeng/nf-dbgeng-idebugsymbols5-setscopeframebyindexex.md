@@ -49,14 +49,14 @@ Sets the current frame by using an index.
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 An index by which to set the frame.
 
 ## -returns

@@ -52,69 +52,69 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 
 ## -struct-fields
 
-### -field PixelClock
+### -field PixelClock [in]
 
-[in] The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
+The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
 
-### -field AspectRatio
+### -field AspectRatio [in]
 
-[in] The display aspect ratio, which must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_aspect_ratio">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
+The display aspect ratio, which must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_aspect_ratio">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] Reserved for system use.
+Reserved for system use.
 
-### -field ScanningType
+### -field ScanningType [in]
 
-[in] The frame scanning type. Must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_scanning_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
+The frame scanning type. Must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_scanning_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
 
-### -field StereoMode
+### -field StereoMode [in]
 
-[in] The display stereo vision mode. Must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_stereo_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
+The display stereo vision mode. Must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_stereo_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
 
 ### -field PreferredTiming
 
        [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="/windows-hardware/drivers/">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
 
-### -field HorizontalActivePixels
+### -field HorizontalActivePixels [in]
 
-[in] The number of active pixels in the horizontal direction.
+The number of active pixels in the horizontal direction.
 
-### -field HorizontalBlankPixels
+### -field HorizontalBlankPixels [in]
 
-[in] The number of blank pixels in the horizontal direction.
+The number of blank pixels in the horizontal direction.
 
-### -field HorizontalFrontPorch
+### -field HorizontalFrontPorch [in]
 
-[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
+The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
 
-### -field HorizontalSyncPolarity
+### -field HorizontalSyncPolarity [in]
 
-[in] The horizontal sync polarity, which must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+The horizontal sync polarity, which must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
-### -field HorizontalSyncWidth
+### -field HorizontalSyncWidth [in]
 
-[in] The horizontal sync interval, in pixels.
+The horizontal sync interval, in pixels.
 
-### -field VerticalActiveLines
+### -field VerticalActiveLines [in]
 
-[in] The number of active scan lines.
+The number of active scan lines.
 
-### -field VerticalBlankLines
+### -field VerticalBlankLines [in]
 
-[in] The number of blank scan lines.
+The number of blank scan lines.
 
-### -field VerticalFrontPorch
+### -field VerticalFrontPorch [in]
 
-[in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
+The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
 
-### -field VerticalSyncPolarity
+### -field VerticalSyncPolarity [in]
 
-[in] The vertical sync polarity. Must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+The vertical sync polarity. Must be one of the values in the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
-### -field VerticalSyncWidth
+### -field VerticalSyncWidth [in]
 
-[in] The vertical sync interval, in number of lines.
+The vertical sync interval, in number of lines.
 
 ## -remarks
 

@@ -49,34 +49,34 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_default_endpoint_event_callbacks">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS</a> structure that contains pointers to the client driver's event callback functions.
 
-### -param EvtEndpointPurge 
+### -param EvtEndpointPurge [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_purge">EVT_UCX_ENDPOINT_PURGE</a>                     event callback function.
 
-### -param EvtEndpointStart 
+### -param EvtEndpointStart [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_start">EVT_UCX_ENDPOINT_START</a>                     event callback function.
 
-### -param EvtEndpointAbort 
+### -param EvtEndpointAbort [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_abort">EVT_UCX_ENDPOINT_ABORT</a>                     event callback function.
 
-### -param EvtEndpointOkToCancelTransfers 
+### -param EvtEndpointOkToCancelTransfers [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_ok_to_cancel_transfers">EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS</a>    event callback function.
 
-### -param EvtDefaultEndpointUpdate 
+### -param EvtDefaultEndpointUpdate [in]
 
-[in]
+
 A pointer to client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>    event callback function.
 
 ## -see-also

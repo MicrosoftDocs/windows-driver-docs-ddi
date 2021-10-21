@@ -49,9 +49,9 @@ The <b>ChangeEngineState</b> callback method is called by the engine when its st
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set indicating the type of changes that occurred in the engine's state.  The following bit flags might be set:
 
 <table>
@@ -211,9 +211,9 @@ Text replacements have changed.
 </tr>
 </table>
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Provides additional information about the change to the engine's state.  If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
 

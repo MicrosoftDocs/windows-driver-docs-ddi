@@ -54,24 +54,24 @@ The
 
 ## -parameters
 
-### -param injectionHandle 
+### -param injectionHandle [in]
 
-[in]
+
 An injection handle that was previously created by a call to the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
-### -param injectionContext 
+### -param injectionContext [in, optional]
 
-[in, optional]
+
 An optional handle to the injection context. If specified, it can be obtained by calling the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">FwpsQueryPacketInjectionState0</a> function when the packet injection state 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> is
      <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>.
 
-### -param endpointHandle 
+### -param endpointHandle [in]
 
-[in]
+
 A handle that indicates the stack transport endpoint in the send data path into which the packet
      is to be injected. This endpoint handle is provided to a callout through the 
      <b>transportEndpointHandle</b> member of the 
@@ -82,23 +82,23 @@ A handle that indicates the stack transport endpoint in the send data path into 
      possible, before the socket associated with the stack endpoint is closed and the handle becomes no
      longer valid.
 
-### -param flags 
+### -param flags [in]
 
-[in]
+
 This parameter is reserved. Callout drivers must set this parameter to zero.
 
-### -param sendArgs 
+### -param sendArgs [in, optional]
 
-[in, optional]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_transport_send_params1_">
      FWPS_TRANSPORT_SEND_PARAMS1</a> structure that specifies the properties of the current outbound
      packet. This parameter can be <b>NULL</b> only if the net buffer list to be injected contains an IP header (for
      example, if the packet is sent through a raw socket).
 
-### -param addressFamily 
+### -param addressFamily [in]
 
-[in]
+
 One of the following address families:
      
 
@@ -116,9 +116,9 @@ The IPv4 address family.
 
 The IPv6 address family.
 
-### -param compartmentId 
+### -param compartmentId [in]
 
-[in]
+
 The identifier of the routing compartment into which the packet data is injected, specified as a 
      <a href="/windows/win32/api/winnt/ne-winnt-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
      to a callout through the 
@@ -130,9 +130,9 @@ The identifier of the routing compartment into which the packet data is injected
      the 
      <b>currentMetadataValues</b> member. Otherwise, set this parameter to UNSPECIFIED_COMPARTMENT_ID.
 
-### -param netBufferList 
+### -param netBufferList [in, out]
 
-[in, out]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a <b>NET_BUFFER_LIST</b> structure to use to
@@ -142,17 +142,17 @@ A pointer to a
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">
      FwpsAllocateNetBufferAndNetBufferList0</a> function.
 
-### -param completionFn 
+### -param completionFn [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function provided by
      the callout driver. The filter engine calls this function after the packet data, described by the 
      <i>netBufferList</i> parameter, has been injected into the network stack.
 
-### -param completionContext 
+### -param completionContext [in, optional]
 
-[in, optional]
+
 A pointer to a callout driver-provided context that is passed to the callout function pointed to
      by the 
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.

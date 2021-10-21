@@ -50,9 +50,9 @@ The <b>KsAcquireControl</b> function acquires the filter control mutex for <i>Ob
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A pointer to the object for which to acquire the filter control mutex. This should be a pointer to either a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> or a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>, cast to PVOID.
 
 ## -remarks

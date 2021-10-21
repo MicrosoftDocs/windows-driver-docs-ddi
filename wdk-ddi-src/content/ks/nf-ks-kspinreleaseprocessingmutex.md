@@ -50,9 +50,9 @@ The<b> KsPinReleaseProcessingMutex </b>function releases the processing mutex fo
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the AVStream pin object for which to acquire the processing mutex.
 
 ## -remarks

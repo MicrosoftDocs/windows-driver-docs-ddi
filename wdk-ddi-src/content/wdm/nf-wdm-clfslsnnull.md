@@ -50,9 +50,9 @@ The <b>ClfsLsnNull</b> routine determines whether a specified LSN is equal to th
 
 ## -parameters
 
-### -param plsn 
+### -param plsn [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the LSN to be tested.
 
 ## -returns

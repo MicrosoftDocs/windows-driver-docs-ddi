@@ -49,9 +49,9 @@ Supplies information for enumerating graphics and display adapters on the system
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in/out]
 
-[in/out] A [D3DKMT_ENUMADAPTERS3](ns-d3dkmthk-_d3dkmt_enumadapters3.md) structure. The caller passes in the array size and an empty array space. The callee verifies that there is enough room in the array, fills out the array, and passes back how much of the array was used.
+A [D3DKMT_ENUMADAPTERS3](ns-d3dkmthk-_d3dkmt_enumadapters3.md) structure. The caller passes in the array size and an empty array space. The callee verifies that there is enough room in the array, fills out the array, and passes back how much of the array was used.
 
 ## -returns
 

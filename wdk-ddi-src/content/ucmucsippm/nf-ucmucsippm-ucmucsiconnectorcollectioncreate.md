@@ -47,17 +47,17 @@ Creates a connector collection object with UcmUcsiCx.
 
 ## -parameters
 
-### -param WdfDevice 
+### -param WdfDevice [in]
 
-[in]A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
-### -param Attributes  
+### -param Attributes [in]
 
-[in]A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param ConnectorCollection 
+### -param ConnectorCollection [out]
 
-[out]A pointer to a location that receives a handle to the new connector collection object.
+A pointer to a location that receives a handle to the new connector collection object.
 
 ## -returns
 

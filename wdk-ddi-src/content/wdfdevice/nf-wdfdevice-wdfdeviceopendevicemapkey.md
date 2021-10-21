@@ -54,33 +54,33 @@ The <b>WdfDeviceOpenDevicemapKey</b> method opens the <b>DEVICEMAP</b> key and c
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param KeyName 
+### -param KeyName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the name of the subkey to open under <b>DEVICEMAP</b>.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies access rights that the driver is requesting for the specified registry key.
 
 A KMDF driver typically requests <b>KEY_READ</b>, <b>KEY_WRITE</b>, or <b>KEY_READ | KEY_WRITE</b>.
 
 A UMDF driver typically requests <b>KEY_READ</b> or <b>KEY_SET_VALUE</b>.
 
-### -param KeyAttributes 
+### -param KeyAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Key 
+### -param Key [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new registry-key object.  The
 
 ## -returns

@@ -48,9 +48,9 @@ The SetState method changes the transport state of the audio stream.
 
 ## -parameters
 
-### -param State
+### -param State [in]
 
-[in]
+
 
 Specifies the new state of the stream. This parameter is a [KSSTATE](../ks/ne-ks-ksstate.md) enumeration value.
 

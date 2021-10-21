@@ -51,14 +51,14 @@ This function sets the enumeration properties of a sensor.
 
 ## -parameters
 
-### -param Sensor 
+### -param Sensor [in]
 
-[in]
+
 A reference to a sensor object.
 
-### -param pSensorConfig 
+### -param pSensorConfig [in]
 
-[in]
+
 A list of enumeration properties. For more information, see <a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a>.
 
 ## -returns

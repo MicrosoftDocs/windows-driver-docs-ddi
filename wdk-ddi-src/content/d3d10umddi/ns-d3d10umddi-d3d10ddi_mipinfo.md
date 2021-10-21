@@ -49,29 +49,29 @@ The D3D10DDI_MIPINFO structure describes the MIP-level texture and physical coor
 
 ## -struct-fields
 
-### -field TexelWidth
+### -field TexelWidth [in]
 
-[in] The width, in texels, of the surface or volume, or the length, in texels, of the linear resource.
+The width, in texels, of the surface or volume, or the length, in texels, of the linear resource.
 
-### -field TexelHeight
+### -field TexelHeight [in]
 
-[in] The height, in texels, of the surface or volume.
+The height, in texels, of the surface or volume.
 
-### -field TexelDepth
+### -field TexelDepth [in]
 
-[in] The depth, in texels, of the volume.
+The depth, in texels, of the volume.
 
-### -field PhysicalWidth
+### -field PhysicalWidth [in]
 
-[in] The width, in pixels, of the surface or volume, or the length, in pixels, of the linear resource.
+The width, in pixels, of the surface or volume, or the length, in pixels, of the linear resource.
 
-### -field PhysicalHeight
+### -field PhysicalHeight [in]
 
-[in] The height, in pixels, of the surface or volume.
+The height, in pixels, of the surface or volume.
 
-### -field PhysicalDepth
+### -field PhysicalDepth [in]
 
-[in] The depth, in pixels, of the volume.
+The depth, in pixels, of the volume.
 
 ## -see-also
 

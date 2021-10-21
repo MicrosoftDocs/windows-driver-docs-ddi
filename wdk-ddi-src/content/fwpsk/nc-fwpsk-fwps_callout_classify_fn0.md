@@ -51,24 +51,24 @@ The filter engine calls a callout's
 
 ## -parameters
 
-### -param inFixedValues 
+### -param inFixedValues [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0">FWPS_INCOMING_VALUES0</a> structure. This
      structure contains the values for each of the data fields at the layer being filtered.
 
-### -param inMetaValues 
+### -param inMetaValues [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
      FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer being filtered.
 
-### -param layerData 
+### -param layerData [in, out]
 
-[in, out]
+
 A pointer to a structure that describes the raw data at the layer being filtered. This parameter
      might be <b>NULL</b>, depending on the layer being filtered and the conditions under which the 
      <i>classifyFn0</i> callout function is called. For the stream layer, this parameter points to an 
@@ -77,24 +77,24 @@ A pointer to a structure that describes the raw data at the layer being filtered
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure if it is not
      <b>NULL</b>.
 
-### -param filter 
+### -param filter [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0">FWPS_FILTER0</a> structure. This structure
      describes the filter that specifies the callout for the filter's action.
 
-### -param flowContext 
+### -param flowContext [in]
 
-[in]
+
 A UINT64-typed variable that contains the context associated with the data flow. If no context is
      associated with the data flow, then this parameter is zero. If the callout is added to the filter engine
      at a filtering layer that does not support data flows, the 
      <i>classifyFn0</i> callout function should ignore this parameter.
 
-### -param classifyOut 
+### -param classifyOut [in, out]
 
-[in, out]
+
 A pointer to an 
      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0">FWPS_CLASSIFY_OUT0</a> structure that
      receives any data that the 

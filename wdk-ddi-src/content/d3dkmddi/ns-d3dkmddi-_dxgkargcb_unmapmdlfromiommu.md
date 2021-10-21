@@ -46,9 +46,9 @@ The **DXGKARGCB_UNMAPMDLFROMIOMMU** structure contains the arguments used by the
 
 ## -struct-fields
 
-### -field hMemoryHandle
+### -field hMemoryHandle [in]
 
-[in] A *Dxgkrnl* tracking handle for the allocation to be released.
+A *Dxgkrnl* tracking handle for the allocation to be released.
 
 ## -remarks
 

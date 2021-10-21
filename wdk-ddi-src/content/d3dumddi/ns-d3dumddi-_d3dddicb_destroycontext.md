@@ -52,9 +52,9 @@ The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destro
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle that the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function returns and that identifies the context to destroy.
+A handle that the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function returns and that identifies the context to destroy.
 
 ## -see-also
 

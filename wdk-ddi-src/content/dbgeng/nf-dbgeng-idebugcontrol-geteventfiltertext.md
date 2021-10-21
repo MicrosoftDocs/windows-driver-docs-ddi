@@ -49,24 +49,24 @@ The <b>GetEventFilterText</b>  method returns a short description of an event fo
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the event filter whose description will be returned.  Only the specific filters have a description attached to them; <i>Index</i> must refer to a specific filter.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the description of the specific filter.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param TextSize 
+### -param TextSize [out, optional]
 
-[out, optional]
+
 Receives the size of the event description.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

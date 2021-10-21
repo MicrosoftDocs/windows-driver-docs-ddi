@@ -49,14 +49,14 @@ A minifilter driver can register a routine of type <b>PFLT_COMPLETE_LOCK_CALLBAC
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Context pointer that was passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>.
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 Pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> operation that is being completed. The lock request type will be one of the following: 
 
 IRP_MN_LOCK

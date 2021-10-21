@@ -51,38 +51,38 @@ Call the
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in]
 
-[in]
+
 A pointer to a previously allocated destination NET_BUFFER structure.
 
-### -param DestinationOffset 
+### -param DestinationOffset [in]
 
-[in]
+
 The byte offset within the destination NET_BUFFER structure at which to begin writing the copied
      data. For more information about 
      <i>DestinationOffset</i>, see the following Remarks section.
 
-### -param BytesToCopy 
+### -param BytesToCopy [in]
 
-[in]
+
 The number of bytes to copy.
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 A pointer to a previously allocated source NET_BUFFER structure.
 
-### -param SourceOffset 
+### -param SourceOffset [in]
 
-[in]
+
 The byte offset within the source NET_BUFFER structure at which to begin copying the data. For
      more information about 
      <i>SourceOffset</i>, see the following Remarks section.
 
-### -param BytesCopied 
+### -param BytesCopied [out]
 
-[out]
+
 A pointer to the caller-supplied variable in which this function returns the number of bytes
      actually copied. This number can be less than the value of 
      <i>BytesToCopy</i> if the source runs out of data or the destination runs out of space.

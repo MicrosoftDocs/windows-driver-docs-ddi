@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_close_physical_memory_object.md) structure that contains information about the physical memory object to close.
+Pointer to a [**DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_close_physical_memory_object.md) structure that contains information about the physical memory object to close.
 
 ## -remarks
 

@@ -49,14 +49,14 @@ The <b>RtlLookupElementGenericTableAvl</b> routine searches a generic table for 
 
 ## -parameters
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 Pointer to the generic Adelson-Velsky/Landis (AVL) table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A buffer of search data to pass to the <i>CompareRoutine</i> that was registered when <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a> initialized the generic table. For more information, see the description of <b>RtlInitializeGenericTableAvl</b>.
 
 ## -returns

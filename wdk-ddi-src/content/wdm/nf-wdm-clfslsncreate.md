@@ -50,19 +50,19 @@ The <b>ClfsLsnCreate</b> routine creates a log sequence number (LSN), given a co
 
 ## -parameters
 
-### -param cidContainer 
+### -param cidContainer [in]
 
-[in]
+
 An integer in the range 0x0 through 0xFFFFFFFF that supplies the container identifier.
 
-### -param offBlock 
+### -param offBlock [in]
 
-[in]
+
 The block offset. This parameter must be a multiple of 512.
 
-### -param cRecord 
+### -param cRecord [in]
 
-[in]
+
 An integer in the range 0 - 511 that supplies the record sequence number.
 
 ## -returns

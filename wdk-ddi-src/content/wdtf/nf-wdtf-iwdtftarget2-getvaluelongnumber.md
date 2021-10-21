@@ -49,14 +49,14 @@ Returns a long number value from the target that is associated with a specified 
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 An SDEL statement that specifies the attribute value to retrieve.
 
-### -param pValue 
+### -param pValue [out, retval]
 
-[out, retval]
+
 The address of a variable that receives the result of this method.
 
 ## -returns

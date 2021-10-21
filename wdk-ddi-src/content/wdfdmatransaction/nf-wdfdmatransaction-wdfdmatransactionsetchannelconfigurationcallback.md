@@ -53,19 +53,19 @@ api_name:
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to an initialized DMA transaction object for which to set or clear the channel configuration callback.
 
-### -param ConfigureRoutine 
+### -param ConfigureRoutine [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL to clear it.
 
-### -param ConfigureContext 
+### -param ConfigureContext [in, optional]
 
-[in, optional]
+
 A pointer to a buffer containing the context to be provided to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL.
 
 ## -remarks

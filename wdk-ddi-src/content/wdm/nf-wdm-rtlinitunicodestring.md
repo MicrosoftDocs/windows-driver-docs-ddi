@@ -49,14 +49,14 @@ For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-
 
 ## -parameters
 
-### -param DestinationString 
+### -param DestinationString [out]
 
-[out]
+
 For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
-### -param SourceString 
+### -param SourceString [in, optional]
 
-[in, optional]
+
 For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 ## -returns

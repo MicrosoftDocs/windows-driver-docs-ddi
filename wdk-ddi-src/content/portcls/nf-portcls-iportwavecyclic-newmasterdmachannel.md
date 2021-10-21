@@ -49,44 +49,44 @@ The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-mast
 
 ## -parameters
 
-### -param DmaChannel 
+### -param DmaChannel [out]
 
-[out]
+
 Pointer to a caller-allocated pointer variable into which the method writes a pointer to the new <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
-### -param OuterUnknown 
+### -param OuterUnknown [in]
 
-[in]
+
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
-### -param ResourceList 
+### -param ResourceList [in, optional]
 
-[in, optional]
+
 Pointer to the miniport driver's resource list, which is an <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
-### -param MaximumLength 
+### -param MaximumLength [in]
 
-[in]
+
 Maximum length in bytes of the cyclic DMA buffer that will be associated with this channel.
 
-### -param Dma32BitAddresses 
+### -param Dma32BitAddresses [in]
 
-[in]
+
 Specifies the use of 32-bit addresses.
 
-### -param Dma64BitAddresses 
+### -param Dma64BitAddresses [in]
 
-[in]
+
 Specifies the use of 64-bit addresses.
 
-### -param DmaWidth 
+### -param DmaWidth [in]
 
-[in]
+
 Not used. Set to (DMA_WIDTH)(-1).
 
-### -param DmaSpeed 
+### -param DmaSpeed [in]
 
-[in]
+
 Not used. Set to (DMA_SPEED)(-1).
 
 ## -returns

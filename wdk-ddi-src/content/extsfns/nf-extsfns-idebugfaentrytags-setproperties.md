@@ -49,24 +49,24 @@ The <b>SetProperties</b> method sets the name or description (or both) of a tag 
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. This method sets the name or description (or both) of this tag.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 A pointer to a null-terminated string that specifies the name to be set. If the tag already has a name, this method overwrites the old name. If this parameter is <b>NULL</b>, the name of the tag is not changed.
 
-### -param Description 
+### -param Description [in]
 
-[in]
+
 A pointer to a null-terminated string that specifies the description to be set. If the tag already has a description, this method overwrites the old description. If this parameter is <b>NULL</b>, the description of the tag is not changed.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Reserved. Set this parameter to <b>NULL</b>.
 
 ## -returns

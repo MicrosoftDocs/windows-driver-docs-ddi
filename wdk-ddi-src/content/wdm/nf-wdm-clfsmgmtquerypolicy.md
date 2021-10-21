@@ -50,24 +50,24 @@ The <b>ClfsMgmtQueryPolicy</b> routine retrieves a specific <a href="/windows-ha
 
 ## -parameters
 
-### -param LogFile 
+### -param LogFile [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log whose policy is being retrieved.
 
-### -param PolicyType 
+### -param PolicyType [in]
 
-[in]
+
 A value of the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that identifies the type of policy to be retrieved.
 
-### -param Policy 
+### -param Policy [out]
 
-[out]
+
 An instance of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that contains the policy.
 
-### -param PolicyLength 
+### -param PolicyLength [out]
 
-[out]
+
 The length of the <i>Policy</i> parameter.
 
 ## -returns

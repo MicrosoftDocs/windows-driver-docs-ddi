@@ -49,9 +49,9 @@ Creates a tracked workload instance.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in/out]
 
-[in/out] Pointer to a [D3DKMT_CREATETRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_createtrackedworkload.md) structure to create a tracked workload instance.
+Pointer to a [D3DKMT_CREATETRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_createtrackedworkload.md) structure to create a tracked workload instance.
 
 ## -returns
 

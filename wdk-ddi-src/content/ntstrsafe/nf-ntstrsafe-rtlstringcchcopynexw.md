@@ -50,38 +50,38 @@ The <b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b> functions copy a
 
 ## -parameters
 
-### -param pszDest 
+### -param pszDest [out, optional]
 
-[out, optional]
+
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-### -param cchDest 
+### -param cchDest [in]
 
-[in]
+
 The size, in characters, of the destination buffer. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. If <i>pszDest</i> is <b>NULL</b>, <i>cchDest</i> must be zero.
 
-### -param pszSrc 
+### -param pszSrc [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied, null-terminated string.
 
 ### -param cchToCopy
 
 <p>The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.</p>
 
-### -param ppszDestEnd 
+### -param ppszDestEnd [out, optional]
 
-[out, optional]
+
 If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator.
 
-### -param pcchRemaining 
+### -param pcchRemaining [out, optional]
 
-[out, optional]
+
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters that are in the buffer pointed to by <i>pszDest</i>, including the terminating null character.
 
-### -param dwFlags 
+### -param dwFlags [in]
 
-[in]
+
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
 <table>

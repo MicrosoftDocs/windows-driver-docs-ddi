@@ -49,14 +49,14 @@ The <b>StorPortGetSystemPortNumber</b> routine retrieves the system assigned por
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Address 
+### -param Address [in, out]
 
-[in, out]
+
 A pointer to a storage address structure formatted as <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
 
 ## -returns

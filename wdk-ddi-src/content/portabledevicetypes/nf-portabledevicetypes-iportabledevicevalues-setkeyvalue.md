@@ -50,14 +50,14 @@ Adds a new <b>REFPROPERTYKEY</b> value (type VT_UNKNOWN) or overwrites an existi
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the new value.
 
 ## -returns

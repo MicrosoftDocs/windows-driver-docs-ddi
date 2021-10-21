@@ -70,9 +70,9 @@ The smallest supported desired duration of a single present operation on the giv
 
 See Remarks for more limitations on this value.
 
-### -field ClosestLargerDuration
+### -field ClosestLargerDuration [out]
 
-[out] The largest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≥ <b>DesiredPresentDuration</b>.
+The largest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≥ <b>DesiredPresentDuration</b>.
 
 See Remarks for more limitations on this value.
 

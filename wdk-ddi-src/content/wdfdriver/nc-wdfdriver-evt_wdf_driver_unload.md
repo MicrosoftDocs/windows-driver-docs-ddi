@@ -51,9 +51,9 @@ A driver's <i>EvtDriverUnload</i> event callback function performs operations th
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A handle to a framework driver object.
 
 ## -remarks

@@ -46,33 +46,33 @@ The **DXGKARGCB_ALLOCATECONTIGUOUSMEMORY** structure contains the arguments used
 
 ## -struct-fields
 
-### -field NumberOfBytes
+### -field NumberOfBytes [in]
 
-[in] The size, in bytes, of the block of contiguous memory to allocate.
+The size, in bytes, of the block of contiguous memory to allocate.
 
-### -field LowestAcceptableAddress
+### -field LowestAcceptableAddress [in]
 
-[in] The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device should set LowestAcceptableAddress to 0x0000000000800000.
+The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device should set LowestAcceptableAddress to 0x0000000000800000.
 
-### -field HighestAcceptableAddress
+### -field HighestAcceptableAddress [in]
 
-[in] The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set HighestAcceptableAddress to 0x0000000000FFFFFF.
+The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set HighestAcceptableAddress to 0x0000000000FFFFFF.
 
-### -field BoundaryAddressMultiple
+### -field BoundaryAddressMultiple [in]
 
-[in] The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions.
+The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions.
 
-### -field CacheType
+### -field CacheType [in]
 
-[in] A [**DXGK_MEMORY_CACHING_TYPE**](ne-d3dkmddi-_dxgk_memory_caching_type.md) value that specifies the cache type of the pages to allocate.
+A [**DXGK_MEMORY_CACHING_TYPE**](ne-d3dkmddi-_dxgk_memory_caching_type.md) value that specifies the cache type of the pages to allocate.
 
-### -field hMemoryHandle
+### -field hMemoryHandle [out]
 
-[out] A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DGXKCB_FREECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_freecontiguousmemory.md) callback function.
+A *Dxgkrnl* tracking handle for the allocation. This value should be passed to the corresponding [**DGXKCB_FREECONTIGUOUSMEMORY**](nc-d3dkmddi-dxgkcb_freecontiguousmemory.md) callback function.
 
-### -field pMemory
+### -field pMemory [out]
 
-[out] A contiguous chunk of non-paged physical memory guaranteed to be mapped to the IOMMU for its lifetime.
+A contiguous chunk of non-paged physical memory guaranteed to be mapped to the IOMMU for its lifetime.
 
 ## -remarks
 

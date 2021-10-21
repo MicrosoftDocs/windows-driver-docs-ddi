@@ -49,14 +49,14 @@ The <b>IoSetIoPriorityHint</b> routine sets the <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP to set the priority hint value for.
 
-### -param PriorityHint 
+### -param PriorityHint [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> value that indicates the new priority hint.
 
 ## -returns

@@ -47,17 +47,17 @@ Initializes a [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**](nf-usbpmapi-usbpm_
 
 ## -parameters
 
-### -param Params
+### -param Params [Out]
 
-[Out] A pointer to a [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**](nf-usbpmapi-usbpm_assign_connector_power_level_params_init.md) structure to initialize.
+A pointer to a [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**](nf-usbpmapi-usbpm_assign_connector_power_level_params_init.md) structure to initialize.
 
-### -param PowerRole
+### -param PowerRole [In]
 
-[In] The USB Type-C power role of the connector to set. The values are defined in the [**USBC_POWER_ROLE**](../usbctypes/ne-usbctypes-_usbc_power_role.md) enumeration.
+The USB Type-C power role of the connector to set. The values are defined in the [**USBC_POWER_ROLE**](../usbctypes/ne-usbctypes-_usbc_power_role.md) enumeration.
 
-### -param Format
+### -param Format [In]
 
-[In] The USB Type-C format, defined in [**USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT**](ne-usbpmapi-_usbpm_assign_power_level_params_format.md)
+The USB Type-C format, defined in [**USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT**](ne-usbpmapi-_usbpm_assign_power_level_params_format.md)
 
 ## -remarks
 

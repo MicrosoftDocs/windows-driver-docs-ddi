@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 [in] A pointer to a 
      <a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -62,9 +62,9 @@ The
      <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
-### -param AddrInfo 
+### -param AddrInfo [in]
 
-[in]
+
 [in] A pointer to a linked list of one or more <a href="/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
      information about the host. This pointer was returned through the 
      <i>Result</i> parameter of the 

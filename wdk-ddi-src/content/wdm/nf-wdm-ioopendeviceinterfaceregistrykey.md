@@ -49,19 +49,19 @@ The <b>IoOpenDeviceInterfaceRegistryKey</b> routine returns a handle to a regist
 
 ## -parameters
 
-### -param SymbolicLinkName 
+### -param SymbolicLinkName [in]
 
-[in]
+
 Pointer to a string identifying the device interface instance. This string was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfacealias">IoGetDeviceInterfaceAlias</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the access the caller requires to the key, such as KEY_READ, KEY_WRITE, or KEY_ALL_ACCESS. See <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> for a description of each KEY_<i>XXX</i> access right.
 
-### -param DeviceInterfaceRegKey 
+### -param DeviceInterfaceRegKey [out]
 
-[out]
+
 Pointer to a returned handle to the requested registry key if the call is successful.
 
 ## -returns

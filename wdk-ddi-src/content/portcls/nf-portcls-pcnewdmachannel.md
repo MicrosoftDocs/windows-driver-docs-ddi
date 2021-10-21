@@ -50,29 +50,29 @@ The <b>PcNewDmaChannel</b> function creates a new DMA-channel object. This funct
 
 ## -parameters
 
-### -param OutDmaChannel 
+### -param OutDmaChannel [out]
 
-[out]
+
 Output pointer for the DMA-channel object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
-### -param OuterUnknown 
+### -param OuterUnknown [in, optional]
 
-[in, optional]
+
 Pointer to the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 Specifies the type of storage pool from which the object is to be allocated. This is a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
-### -param DeviceDescription 
+### -param DeviceDescription [in]
 
-[in]
+
 Pointer to a description of the physical device for which the caller is requesting a DMA object. This parameter points to a structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a>.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for the physical adapter device. This parameter points to a system structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 ## -returns

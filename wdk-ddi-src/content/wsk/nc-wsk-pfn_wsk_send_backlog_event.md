@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param SocketContext 
+### -param SocketContext [in, optional]
 
-[in, optional]
+
 A pointer to the socket context for the connection-oriented socket that is notifying the WSK
      application about a change to its ideal send backlog size. The WSK application provided this pointer to
      the WSK subsystem in one of the following ways:
@@ -85,9 +85,9 @@ Its
 </li>
 </ul>
 
-### -param IdealBacklogSize 
+### -param IdealBacklogSize [in]
 
-[in]
+
 A variable that contains the new ideal send backlog size.
 
 ## -returns

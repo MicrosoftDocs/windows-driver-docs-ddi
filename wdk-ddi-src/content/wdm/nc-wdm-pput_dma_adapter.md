@@ -49,9 +49,9 @@ The <b>PutDmaAdapter</b> routine frees a <a href="/windows-hardware/drivers/ddi/
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure to be released.
 
 ## -remarks

@@ -49,23 +49,23 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT structure containing the IRP describing a create operation.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 A pointer to the name to be inserted in the name table.
 
 ### -param OPTIONAL
 
 <p>A pointer to an optional inner prefix name to be inserted into the name table with the <i>Name</i>.</p>
 
-### -param RxConnectionId 
+### -param RxConnectionId [in]
 
-[in]
+
 A pointer to the connection ID to be associated with the name to be inserted in the prefix name table. This parameter can be <b>NULL</b> in which case no connection ID will be associated with the name inserted in the prefix name table.
 
 ## -returns

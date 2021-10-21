@@ -50,16 +50,16 @@ The <b>BdaPropertyGetControllingPinId</b> function retrieves the identifier of a
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Points to the IRP for the request to retrieve the controlling pin for a node. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a> request.
 
 ### -param Property
 
-### -param pulControllingPinId 
+### -param pulControllingPinId [out, optional]
 
-[out, optional]
+
 Points to a variable that receives the identifier of the controlling pin for a node. 
 
 

@@ -47,11 +47,11 @@ api_name:
 
 ## -parameters
 
-### -param pRegistryRoot 
+### -param pRegistryRoot [in]
 
-[in]
 
-### -param pMonitor 
 
-[out]
+### -param pMonitor [out]
+
+
 

@@ -49,19 +49,19 @@ The <b>StorPortInitializePerfOpts</b> function initializes the performance optim
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA). This parameter must not be <b>NULL</b>.
 
-### -param Query 
+### -param Query [in]
 
-[in]
+
 If set to <b>TRUE</b>, Storport will set the flags in <i>PerfConfigData</i> corresponding to the optimizations Storport supports. If set to <b>FALSE</b>, Storport will initialize the optimizations specified by the flags in <i>PerfConfigData</i>.
 
-### -param PerfConfigData 
+### -param PerfConfigData [in, out]
 
-[in, out]
+
 A pointer to a PERF_CONFIGURATION_DATA structure that is supplied by the miniport driver. This parameter must not be <b>NULL</b>.
 
 ## -returns

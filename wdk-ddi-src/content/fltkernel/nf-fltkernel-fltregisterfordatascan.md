@@ -49,9 +49,9 @@ The **FltRegisterForDataScan** routine enables data scanning for the volume atta
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 An opaque instance pointer for the minifilter driver instance to register for data scanning.
 
 ## -returns

@@ -52,19 +52,19 @@ The <b>WdfIoResourceListUpdateDescriptor</b> method updates a resource descripto
 
 ## -parameters
 
-### -param ResourceList 
+### -param ResourceList [in]
 
-[in]
+
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
-### -param Descriptor 
+### -param Descriptor [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 A zero-based value that is used as an index into the set of resource descriptors that are already in the logical configuration that <i>ResourceList</i> specifies.
 
 ## -remarks

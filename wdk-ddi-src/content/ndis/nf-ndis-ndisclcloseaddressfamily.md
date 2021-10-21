@@ -52,9 +52,9 @@ api_name:
 
 ## -parameters
 
-### -param NdisAfHandle 
+### -param NdisAfHandle [in]
 
-[in]
+
 Specifies the NDIS-supplied handle returned by 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a>.

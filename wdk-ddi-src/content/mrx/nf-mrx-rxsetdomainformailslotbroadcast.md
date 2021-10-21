@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param DomainName 
+### -param DomainName [in]
 
-[in]
+
 A pointer to a buffer that contains a zero-terminated Unicode string that names the domain to use for mailslots.
 
 ## -returns

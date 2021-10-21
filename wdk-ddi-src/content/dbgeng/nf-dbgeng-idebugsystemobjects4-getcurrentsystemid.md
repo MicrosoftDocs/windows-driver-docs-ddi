@@ -49,9 +49,9 @@ The <b>GetCurrentSystemId</b> method returns the engine target ID for the curren
 
 ## -parameters
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine target ID.
 
 ## -returns

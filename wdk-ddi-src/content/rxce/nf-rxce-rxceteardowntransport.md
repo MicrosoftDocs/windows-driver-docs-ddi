@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pTransport 
+### -param pTransport [in]
 
-[in]
+
 A pointer to the RDBSS transport to be torn down.
 
 ## -returns

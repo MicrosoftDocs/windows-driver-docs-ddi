@@ -54,14 +54,14 @@ The <b>WdfRequestComplete</b> method completes a specified I/O request and suppl
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to the framework request object that represents the I/O request that is being completed.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS value</a> that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
 

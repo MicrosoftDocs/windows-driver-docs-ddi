@@ -50,14 +50,14 @@ The <b>ClfsMgmtTailAdvanceFailure</b> routine notifies CLFS management that the 
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 A pointer to the client. This is the value that was obtained through a call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 
-### -param Reason 
+### -param Reason [in]
 
-[in]
+
 A value that indicates why the log's tail could not be advanced.
 
 ## -returns

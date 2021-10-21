@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] Pointer to the file object to test.
+Pointer to the file object to test.
 
 ## -returns
 

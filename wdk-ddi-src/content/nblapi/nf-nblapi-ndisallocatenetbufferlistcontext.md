@@ -52,27 +52,27 @@ Call the
 
 ## -parameters
 
-### -param NetBufferList 
+### -param NetBufferList [in]
 
-[in]
+
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
-### -param ContextSize 
+### -param ContextSize [in]
 
-[in]
+
 The amount of context space to allocate in the NET_BUFFER_LIST_CONTEXT structure. This amount must
      be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
-### -param ContextBackFill 
+### -param ContextBackFill [in]
 
-[in]
+
 The amount of memory, in addition to the value of 
      <i>ContextSize</i>, to allocate if NDIS must allocate memory to satisfy the request. This amount must be
      a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
-### -param PoolTag 
+### -param PoolTag [in]
 
-[in]
+
 A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_CONTEXT structure,
      if allocation is required. The tag is a string, delimited by single quotation marks, with up to four
      characters, usually specified in reversed order. The kernel pool tag helps NDIS to identify the owner of

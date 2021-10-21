@@ -48,13 +48,13 @@ dev_langs:
 
 ## -parameters
 
-### -param MonitorObject
+### -param MonitorObject [in]
 
-[in] The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object that the SRM list is associated with.
+The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object that the SRM list is associated with.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_SETSRMLIST**](ns-iddcx-idarg_in_setsrmlist.md) structure with input parameters.
+Pointer to an [**IDARG_IN_SETSRMLIST**](ns-iddcx-idarg_in_setsrmlist.md) structure with input parameters.
 
 ## -returns
 

@@ -52,15 +52,15 @@ Arguments for the DxgkDdiGetPostCompositionCaps function.
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] Indicates the VidPn source for which post composition capabilities are queried.
+Indicates the VidPn source for which post composition capabilities are queried.
 
-### -field MaxStretchFactor
+### -field MaxStretchFactor [out]
 
-[out] Indicates the maximum stretch factor that can be applied.
+Indicates the maximum stretch factor that can be applied.
 
-### -field MaxShrinkFactor
+### -field MaxShrinkFactor [out]
 
-[out] Indicates the maximum shrink factor that can be applied.
+Indicates the maximum shrink factor that can be applied.
 

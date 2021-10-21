@@ -49,19 +49,19 @@ The <b>HidD_GetPhysicalDescriptor</b> routine returns the embedded string of a <
 
 ## -parameters
 
-### -param HidDeviceObject 
+### -param HidDeviceObject [in]
 
-[in]
+
 Specifies an open handle to a top-level collection.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that the routine uses to return the requested physical descriptor.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer at <i>Buffer</i>.
 
 ## -returns

@@ -49,24 +49,24 @@ The <code>SplPromptUIInUsersSession</code> function displays a standard message 
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 Handle to the printer.
 
-### -param JobId 
+### -param JobId [in]
 
-[in]
+
 Specifies the print job.
 
-### -param pUIParams 
+### -param pUIParams [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-showuiparams">SHOWUIPARAMS</a> structure that contains values that determine the appearance and behavior of the message box.
 
-### -param pResponse 
+### -param pResponse [out]
 
-[out]
+
 Pointer to a memory location that contains either the user's response or the IDASYNC constant. For more information, see the Remarks section.
 
 ## -returns

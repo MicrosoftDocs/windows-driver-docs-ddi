@@ -50,19 +50,19 @@ The <b>RtlSetOwnerSecurityDescriptor</b> routine sets the owner information of a
 
 ## -parameters
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in, out]
 
-[in, out]
+
 Pointer to the SECURITY_DESCRIPTOR structure whose owner is to be set. <b>RtlSetOwnerSecurityDescriptor</b> replaces any existing owner with the new owner.
 
-### -param Owner 
+### -param Owner [in, optional]
 
-[in, optional]
+
 Pointer to a security identifier (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) structure for the security descriptor's new primary owner. This pointer, not the SID structure itself, is copied into the security descriptor. If this parameter is <b>NULL</b>, <b>RtlSetOwnerSecurityDescriptor</b> clears the security descriptor's owner information. This marks the security descriptor as having no owner.
 
-### -param OwnerDefaulted 
+### -param OwnerDefaulted [in, optional]
 
-[in, optional]
+
 Set to <b>TRUE</b> if the owner information is derived from a default mechanism. If this value is <b>TRUE</b>, it is default information. <b>RtlSetOwnerSecurityDescriptor</b> sets the SE_OWNER_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL field. If this parameter is <b>FALSE</b>, the SE_OWNER_DEFAULTED flag is cleared.
 
 ## -returns

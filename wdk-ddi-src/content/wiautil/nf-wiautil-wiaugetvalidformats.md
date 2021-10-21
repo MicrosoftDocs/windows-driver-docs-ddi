@@ -49,28 +49,28 @@ The <b>wiauGetValidFormats</b> function calls the <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param pDrv 
+### -param pDrv [in]
 
-[in]
+
 Points to the WIA minidriver object. This parameter should be set to <b>this</b>.
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param TymedValue
 
 Specifies the tymed value to search for.
 
-### -param pNumFormats 
+### -param pNumFormats [out]
 
-[out]
+
 Pointer to a memory location that receives the number of formats.
 
-### -param ppFormatArray 
+### -param ppFormatArray [out]
 
-[out]
+
 Pointer to a memory location that receives the address of the array of format GUIDs.
 
 ## -returns

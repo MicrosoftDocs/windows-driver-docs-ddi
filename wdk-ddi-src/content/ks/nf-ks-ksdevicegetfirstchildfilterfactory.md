@@ -49,9 +49,9 @@ The<b> KsDeviceGetFirstChildFilterFactory</b> function returns the first child f
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device for which to find the first child filter factory.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>GetNumberModules</b> method returns the number of <a href="/windows-hardw
 
 ## -parameters
 
-### -param Loaded 
+### -param Loaded [out]
 
-[out]
+
 Receives the number of loaded modules in the current process's module list.
 
-### -param Unloaded 
+### -param Unloaded [out]
 
-[out]
+
 Receives the number of unloaded modules in the current process's module list. This number will be zero if the version of Microsoft Windows running on the target computer does not track unloaded modules.
 
 ## -returns

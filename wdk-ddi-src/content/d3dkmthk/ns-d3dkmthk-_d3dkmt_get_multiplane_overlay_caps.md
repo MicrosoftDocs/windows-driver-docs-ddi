@@ -48,38 +48,38 @@ Used to get multiplane overlay capabilities.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field MaxPlanes
+### -field MaxPlanes [out]
 
-[out] The total number of planes currently supported.
+The total number of planes currently supported.
 
-### -field MaxRGBPlanes
+### -field MaxRGBPlanes [out]
 
-[out] The number of RGB planes currently supported.
+The number of RGB planes currently supported.
 
-### -field MaxYUVPlanes
+### -field MaxYUVPlanes [out]
 
-[out] The number of YUV planes currently supported.
+The number of YUV planes currently supported.
 
-### -field OverlayCaps
+### -field OverlayCaps [out]
 
-[out] Overlay capabilities.
+Overlay capabilities.
 
-### -field MaxStretchFactor
+### -field MaxStretchFactor [out]
 
-[out] The maximum stretch factor.
+The maximum stretch factor.
 
-### -field MaxShrinkFactor
+### -field MaxShrinkFactor [out]
 
  
-[out] The maximum shrink factor.
+The maximum shrink factor.
 
 ## -remarks
 

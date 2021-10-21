@@ -49,18 +49,18 @@ The <b>wiasWritePropStr</b> function writes a single string property value to a 
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid
 
 Specifies the property identifier.
 
-### -param bstr 
+### -param bstr [in, optional]
 
-[in, optional]
+
 Specifies the string property value to write to the item.
 
 ## -returns

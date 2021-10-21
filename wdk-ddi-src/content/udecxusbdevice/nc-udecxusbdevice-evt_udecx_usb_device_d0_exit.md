@@ -49,19 +49,19 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 
 ## -parameters
 
-### -param UdecxWdfDevice 
+### -param UdecxWdfDevice [in]
 
-[in]
+
 A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
-### -param UdecxUsbDevice 
+### -param UdecxUsbDevice [in]
 
-[in]
+
 A handle to UDE device object. The client driver created this object in a previous call to <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
-### -param WakeSetting 
+### -param WakeSetting [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_usb_device_wake_setting">UDECX_USB_DEVICE_WAKE_SETTING</a>-type value that indicates remote wake capability of the USB device.
 
 ## -returns

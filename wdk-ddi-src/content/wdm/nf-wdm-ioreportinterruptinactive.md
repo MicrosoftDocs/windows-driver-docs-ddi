@@ -49,9 +49,9 @@ The <b>IoReportInterruptInactive</b> routine informs the operating system that a
 
 ## -parameters
 
-### -param Parameters 
+### -param Parameters [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_report_interrupt_active_state_parameters">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a> structure that contains the connection context associated with the interrupt. The caller received this context from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> call that registered the ISR.
 
 ## -remarks

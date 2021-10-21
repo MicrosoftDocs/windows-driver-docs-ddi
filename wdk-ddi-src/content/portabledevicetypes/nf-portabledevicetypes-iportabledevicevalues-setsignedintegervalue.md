@@ -50,14 +50,14 @@ Adds a new <b>LONG</b> value (type VT_I4) or overwrites an existing one.
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 A <b>LONG</b> that specifies the new value.
 
 ## -returns

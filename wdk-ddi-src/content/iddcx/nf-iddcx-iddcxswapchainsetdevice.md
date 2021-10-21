@@ -49,14 +49,14 @@ An OS callback function the driver calls within its SetSwapChain routine to setu
 
 ## -parameters
 
-### -param SwapChainObject 
+### -param SwapChainObject [in]
 
-[in]
+
 The swap-chain object that will be setup with a particular DXGI device.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments to the function
 
 ## -returns

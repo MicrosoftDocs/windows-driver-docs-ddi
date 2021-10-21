@@ -49,9 +49,9 @@ The<b> KsFilterGetDevice </b>function returns the AVStream device to which <i>Fi
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to find the owning AVStream device.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>VideoPortInterlockedIncrement</b> function increments a caller-supplied v
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in]
 
-[in]
+
 Pointer to the variable to be incremented.
 
 ## -returns

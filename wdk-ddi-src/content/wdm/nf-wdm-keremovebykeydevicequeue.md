@@ -49,14 +49,14 @@ The <b>KeRemoveByKeyDeviceQueue</b> routine removes an entry, selected according
 
 ## -parameters
 
-### -param DeviceQueue 
+### -param DeviceQueue [in, out]
 
-[in, out]
+
 Pointer to an initialized device queue object for which the caller provides the storage.
 
-### -param SortKey 
+### -param SortKey [in]
 
-[in]
+
 Specifies the key to be used when searching the <i>DeviceQueue</i>.
 
 ## -returns

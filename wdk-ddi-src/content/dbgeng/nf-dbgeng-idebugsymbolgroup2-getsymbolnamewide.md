@@ -49,24 +49,24 @@ The <b>GetSymbolNameWide</b> method returns the name of a symbol in a symbol gro
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of the symbol whose name you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size of the buffer that <i>Buffer </i>points to.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

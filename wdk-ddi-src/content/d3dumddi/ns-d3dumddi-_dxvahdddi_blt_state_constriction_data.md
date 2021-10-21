@@ -52,13 +52,13 @@ The DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure describes data that specifie
 
 ## -struct-fields
 
-### -field Enable
+### -field Enable [in]
 
-[in] A Boolean value that specifies whether constriction is enabled. The default value is <b>FALSE</b>, which indicates that constriction is disabled.
+A Boolean value that specifies whether constriction is enabled. The default value is <b>FALSE</b>, which indicates that constriction is disabled.
 
-### -field Size
+### -field Size [in]
 
-[in] A <a href="/windows-hardware/customize/desktop/unattend/microsoft-windows-smbserver-size">SIZE</a> structure that specifies the sampling size to which the output image is reduced. <b>Size</b> should be from (1, 1) to (width, height) of the target rectangle. <b>Size</b> should be (0, 0) to represent no constriction. The default value is (1, 1).
+A <a href="/windows-hardware/customize/desktop/unattend/microsoft-windows-smbserver-size">SIZE</a> structure that specifies the sampling size to which the output image is reduced. <b>Size</b> should be from (1, 1) to (width, height) of the target rectangle. <b>Size</b> should be (0, 0) to represent no constriction. The default value is (1, 1).
 
 ## -remarks
 

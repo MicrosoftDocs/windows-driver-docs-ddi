@@ -50,14 +50,14 @@ Initializes the USB connector manager framework extension (UcmCx).
 
 ## -parameters
 
-### -param WdfDevice 
+### -param WdfDevice [in]
 
-[in]
+
 A handle to a framework device object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_manager_config">UCM_MANAGER_CONFIG</a> structure that is initialized by calling <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_manager_config_init">UCM_MANAGER_CONFIG_INIT</a>.
 
 ## -returns

@@ -51,14 +51,14 @@ A driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b> to get the user-
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PseudoBaseAddress 
+### -param PseudoBaseAddress [in]
 
-[in]
+
 The address of a location that receives a pointer to the pseudo base address.
 
 ## -returns

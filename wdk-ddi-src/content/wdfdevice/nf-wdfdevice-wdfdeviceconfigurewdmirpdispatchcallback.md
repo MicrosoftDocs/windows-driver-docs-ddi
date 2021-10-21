@@ -54,28 +54,28 @@ The <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method registers a driver's 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Driver 
+### -param Driver [in, optional]
 
-[in, optional]
+
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.  This parameter is optional.
 
-### -param MajorFunction 
+### -param MajorFunction [in]
 
-[in]
+
 One of the following IRP major function codes: IRP_MJ_DEVICE_CONTROL, IRP_MJ_INTERNAL_DEVICE_CONTROL, IRP_MJ_READ, IRP_MJ_WRITE.
 
 ### -param EvtDeviceWdmIrpDisptach
 
 <p>A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch"><i>EvtDeviceWdmIrpDispatch</i></a> callback function.</p>
 
-### -param DriverContext 
+### -param DriverContext [in, optional]
 
-[in, optional]
+
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a> callback function. This parameter is optional and can be NULL.
 
 ## -returns

@@ -52,9 +52,9 @@ The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryptio
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] The handle to the encryption session that the driver destroys.
+The handle to the encryption session that the driver destroys.
 
 ## -see-also
 

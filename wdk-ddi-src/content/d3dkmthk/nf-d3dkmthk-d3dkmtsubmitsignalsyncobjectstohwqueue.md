@@ -49,9 +49,9 @@ Used to submit a signal to the hardware queue.
 
 ## -parameters
 
-### -param D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+### -param D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE [in]
 
-[in] A structure holding the information needed to submit a signal to the hardware queue.
+A structure holding the information needed to submit a signal to the hardware queue.
 
 ## -returns
 

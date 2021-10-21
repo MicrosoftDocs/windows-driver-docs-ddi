@@ -50,19 +50,19 @@ The <b>FltFreePoolAlignedWithTag</b> routine frees a cache-aligned buffer that w
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for a caller-owned minifilter driver instance that is attached to the volume. Must be the same instance pointer as the one used in the call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Address of the block of pool memory to be freed.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Tag used to mark the pool block. Must be the same tag as the one used in the call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>.
 
 ## -returns

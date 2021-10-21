@@ -49,14 +49,14 @@ The <b>AgpReleaseVirtual</b> function frees system memory reserved by a previous
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param VirtualReserveContext 
+### -param VirtualReserveContext [in]
 
-[in]
+
 Is the context handle that identifies the reserved virtual address range to be released. This context was obtained from <b>AgpReleaseVirtual</b>.
 
 ## -remarks

@@ -49,11 +49,11 @@ Specifies info about a multiplane overlay allocation.
 
 ## -struct-fields
 
-### -field PresentAllocation
+### -field PresentAllocation [in]
 
-[in] A handle to the multiplane overlay allocation.
+A handle to the multiplane overlay allocation.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource which the handle in the <b>PresentAllocation</b> member specifies. This index indicates the display surface.
+The zero-based index into the resource which the handle in the <b>PresentAllocation</b> member specifies. This index indicates the display surface.
 

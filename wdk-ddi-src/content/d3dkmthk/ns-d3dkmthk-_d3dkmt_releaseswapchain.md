@@ -43,27 +43,27 @@ Release the swap chain.
 
 ## -struct-fields
 
-### -field hNtSwapChain
+### -field hNtSwapChain [in]
 
-[in] NT handle for swap chain in this process.
+NT handle for swap chain in this process.
 
-### -field bProducer
+### -field bProducer [in]
 
-[in] Indicates if producer or consumer.
+Indicates if producer or consumer.
 
-### -field MetaDataSize
+### -field MetaDataSize [in]
 
-[in] Size of metadata.
+Size of metadata.
 
-### -field pMetaData
+### -field pMetaData [in]
 
-[in] Point to metadata for frame.
+Point to metadata for frame.
 
-### -field DeferredFreeListSize
+### -field DeferredFreeListSize [in/out]
 
-[in/out] On entry the size of the pDeferredFreeList table, on exit the number of entries used.
+On entry the size of the pDeferredFreeList table, on exit the number of entries used.
 
-### -field pDeferredFreeList
+### -field pDeferredFreeList [out]
 
-[out] List of surfaces that have been removed.
+List of surfaces that have been removed.
 

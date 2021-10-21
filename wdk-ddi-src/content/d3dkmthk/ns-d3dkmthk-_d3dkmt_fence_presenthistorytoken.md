@@ -52,9 +52,9 @@ The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-histor
 
 ## -struct-fields
 
-### -field Key
+### -field Key [in]
 
-[in] A 64-bit value that specifies the key for the fence.
+A 64-bit value that specifies the key for the fence.
 
 ## -see-also
 

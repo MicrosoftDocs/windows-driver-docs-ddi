@@ -53,14 +53,14 @@ This is a control path callback inside <a href="/windows-hardware/drivers/ddi/do
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport handle.
 
-### -param DeviceIdlePowerState 
+### -param DeviceIdlePowerState [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_device_power_state">NDIS_DEVICE_POWER_STATE</a> enumeration value that specifies the lowest power state that the network adapter supports for a low-power state transition.
 
 <div class="alert"><b>Note</b>  For USB network adapters, this parameter must be <b>NdisDeviceStateD2</b>.</div>

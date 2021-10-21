@@ -52,9 +52,9 @@ The <b>FsRtlDeleteKeyFromTunnelCache</b> routine deletes any tunnel cache entrie
 
 ## -parameters
 
-### -param Cache 
+### -param Cache [in]
 
-[in]
+
 A pointer to a tunnel cache that was initialized by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache">FsRtlInitializeTunnelCache</a>.
 
 ### -param DirectoryKey

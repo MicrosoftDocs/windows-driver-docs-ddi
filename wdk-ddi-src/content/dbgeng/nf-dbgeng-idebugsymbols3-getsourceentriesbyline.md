@@ -49,19 +49,19 @@ The <b>GetSourceEntriesByLine</b>  method queries symbol information and returns
 
 ## -parameters
 
-### -param Line 
+### -param Line [in]
 
-[in]
+
 Specifies the line in the source file for which to query.  The number for the first line is <b>1</b>.
 
-### -param File 
+### -param File [in]
 
-[in]
+
 Specifies the source file.  The symbols for each module in the target are queried for this file.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies bit flags that control the behavior of this method.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>
@@ -116,14 +116,14 @@ Only return at most one result.  If DEBUG_GSEL_ALLOW_LOWER or DEBUG_GSEL_ALLOW_H
 
 To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This has all the flags in the previous table turned off.
 
-### -param Entries 
+### -param Entries [out, optional]
 
-[out, optional]
+
 Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
 
-### -param EntriesCount 
+### -param EntriesCount [in]
 
-[in]
+
 Specifies the number of entries in the <i>Entries</i> array.
 
 ### -param EntriesAvail

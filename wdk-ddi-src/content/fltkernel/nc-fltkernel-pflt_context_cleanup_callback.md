@@ -49,14 +49,14 @@ A minifilter driver can register a routine of type PFLT_CONTEXT_CLEANUP_CALLBACK
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the minifilter driver's portion of the context.
 
-### -param ContextType 
+### -param ContextType [in]
 
-[in]
+
 The type of context. Must be one of the following values: 
 
 FLT_FILE_CONTEXT (starting with  Windows Vista)

@@ -49,24 +49,24 @@ This routine  creates an object that will be inserted in a <i>Silo</i>.
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the portion of the object defined by the caller.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 The type of pool to allocate from. This parameter is required and must be one of the following: <b>NonPagedPoolNx</b> or <b>PagedPool</b>.
 
-### -param ContextCleanupCallback 
+### -param ContextCleanupCallback [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>.
 
 ### -param ReturnedSiloContext

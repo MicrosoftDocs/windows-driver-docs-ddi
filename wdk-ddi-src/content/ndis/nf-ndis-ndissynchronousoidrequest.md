@@ -50,14 +50,14 @@ Protocol drivers call the <b>NdisSynchronousOidRequest</b> function to originate
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 The handle returned by the <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function that identifies the target miniport adapter on the binding.
 
-### -param OidRequest 
+### -param OidRequest [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation that is requested with a given OID_<i>Xxx</i> code. The structure can specify an OID query, set, or method request.

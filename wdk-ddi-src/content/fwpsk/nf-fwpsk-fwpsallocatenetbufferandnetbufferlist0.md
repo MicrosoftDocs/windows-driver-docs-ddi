@@ -53,54 +53,54 @@ The
 
 ## -parameters
 
-### -param poolHandle 
+### -param poolHandle [in]
 
-[in]
+
 A 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function.
 
-### -param contextSize 
+### -param contextSize [in]
 
-[in]
+
 The size, in bytes, of used data space in the 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the callout driver. The value of this parameter must be a multiple of the value defined
      by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
-### -param contextBackFill 
+### -param contextBackFill [in]
 
-[in]
+
 The size, in bytes, of 
      unused data space (backfill space) that the callout driver requires. The 
      <b>FwpsAllocateNetBufferAndNetBufferList0</b> function adds this value to the value specified in the 
      <i>ContextSize</i> parameter and allocates additional space. The value of this parameter must be a
      multiple of the value defined by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
-### -param mdlChain 
+### -param mdlChain [in, optional]
 
-[in, optional]
+
 A pointer to an MDL chain that is used to initialize the preallocated NET_BUFFER structure. This
      parameter is optional and can be <b>NULL</b>.
 
-### -param dataOffset 
+### -param dataOffset [in]
 
-[in]
+
 The initial offset, in bytes, from the start of the buffer to the start of the 
      used data space in the MDL chain. Data space ahead of this offset is 
      unused data space. Therefore, this value also represents the initial amount of available backfill
      space in the MDL chain.
 
-### -param dataLength 
+### -param dataLength [in]
 
-[in]
+
 The length, in bytes, of the 
      used data space in the MDL chain.
 
-### -param netBufferList 
+### -param netBufferList [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the new 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure.
 

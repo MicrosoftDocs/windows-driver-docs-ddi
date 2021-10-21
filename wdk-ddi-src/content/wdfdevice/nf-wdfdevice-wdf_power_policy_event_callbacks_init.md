@@ -51,9 +51,9 @@ The <b>WDF_POWER_POLICY_EVENT_CALLBACKS_INIT</b> function initializes a driver's
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_policy_event_callbacks">WDF_POWER_POLICY_EVENT_CALLBACKS</a> structure.
 
 ## -remarks

@@ -51,9 +51,9 @@ The <b>WDF_IO_TYPE_CONFIG_INIT</b> function initializes a driver's <a href="/win
 
 ## -parameters
 
-### -param IoTypeConfig 
+### -param IoTypeConfig [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure.
 
 ## -remarks

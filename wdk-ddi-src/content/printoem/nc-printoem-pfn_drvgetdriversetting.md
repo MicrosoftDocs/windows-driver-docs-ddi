@@ -61,11 +61,11 @@ This function pointer type defines the type of the <b>DrvGetDriverSetting</b> me
 
 ### -param cbSize
 
-### -param pcbNeeded 
+### -param pcbNeeded [out, optional]
 
-[out, optional]
 
-### -param pdwOptionsReturned 
 
-[out, optional]
+### -param pdwOptionsReturned [out, optional]
+
+
 

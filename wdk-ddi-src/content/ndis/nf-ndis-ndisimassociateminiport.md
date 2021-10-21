@@ -52,16 +52,16 @@ The
 
 ## -parameters
 
-### -param DriverHandle 
+### -param DriverHandle [in]
 
-[in]
+
 The handle to the miniport driver interface that the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function returns.
 
-### -param ProtocolHandle 
+### -param ProtocolHandle [in]
 
-[in]
+
 The handle to the protocol interface that the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function returns.

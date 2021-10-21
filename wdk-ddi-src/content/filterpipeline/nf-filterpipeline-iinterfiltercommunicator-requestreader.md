@@ -49,9 +49,9 @@ The <b>RequestReader</b> method retrieves the reader interface for an <b>IInterF
 
 ## -parameters
 
-### -param ppIReader 
+### -param ppIReader [out]
 
-[out]
+
 A variable that receives the reader interface object when <b>RequestReader</b> retrieves.
 
 ## -returns

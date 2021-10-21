@@ -49,9 +49,9 @@ The <b>FltIsFltMgrVolumeDeviceObject</b> routine determines whether the given de
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the device object (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>) to test.
 
 ## -returns

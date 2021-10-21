@@ -49,14 +49,14 @@ The <i>EvtSerCxApplyConfig</i> event callback function instructs the serial cont
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-### -param ConnectionParameters 
+### -param ConnectionParameters [in]
 
-[in]
+
 A pointer to the connection parameters structure.  This function must cast this parameter to the appropriate pointer type, parse the data structure to obtain the configuration settings, and apply these settings to the serial controller hardware. The connection parameters structure is defined by the hardware platform vendor and is opaque to both the serial framework extension (SerCx) and the operating system.
 
 ## -returns

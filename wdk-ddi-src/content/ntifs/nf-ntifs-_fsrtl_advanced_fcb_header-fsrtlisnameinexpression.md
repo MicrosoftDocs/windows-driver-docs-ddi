@@ -52,24 +52,24 @@ The **FsRtlIsNameInExpression** routine determines whether a Unicode string matc
 
 ## -parameters
 
-### -param Expression 
+### -param Expression [in]
 
-[in]
+
 A pointer to the pattern string. Can contain wildcard characters. If *IgnoreCase* is **TRUE**, *Expression* must be uppercase.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
-### -param IgnoreCase 
+### -param IgnoreCase [in]
 
-[in]
+
 Set to **TRUE** for case-insensitive matching, **FALSE** otherwise.
 
-### -param UpcaseTable 
+### -param UpcaseTable [in, optional]
 
-[in, optional]
+
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 
 ## -returns

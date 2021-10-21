@@ -50,44 +50,44 @@ The <b>HidP_GetScaledUsageValue</b> routine returns the signed and scaled result
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <b>HIDP_REPORT_TYPE</b> enumerator value that identifies the type of HID report that contains the <a href="/windows-hardware/drivers/hid/hid-usages">HID usage</a> value.
 
-### -param UsagePage 
+### -param UsagePage [in]
 
-[in]
+
 Specifies the usage page of the value to extract.
 
-### -param LinkCollection 
+### -param LinkCollection [in]
 
-[in]
+
 Specifies the link collection identifier of the value to extract. A LinkCollection value of zero identifies the top-level collection.
 
-### -param Usage 
+### -param Usage [in]
 
-[in]
+
 Specifies the usage of the value to extract.
 
-### -param UsageValue 
+### -param UsageValue [out]
 
-[out]
+
 Pointer to the buffer in which the routine returns the signed and scaled value.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that generated the report located at <i>Report</i>.
 
-### -param Report 
+### -param Report [in]
 
-[in]
+
 Pointer to the report that contains the usage.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 ## -returns

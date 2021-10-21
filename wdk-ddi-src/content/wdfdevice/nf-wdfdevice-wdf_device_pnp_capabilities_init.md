@@ -51,9 +51,9 @@ The <b>WDF_DEVICE_PNP_CAPABILITIES_INIT</b> function initializes a <a href="/win
 
 ## -parameters
 
-### -param Caps 
+### -param Caps [out]
 
-[out]
+
 A pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a> structure.
 
 ## -remarks

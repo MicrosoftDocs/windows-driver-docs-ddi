@@ -48,13 +48,13 @@ The operating system (OS) calls a display miniport driver's **DxgkDdiGetDisplayS
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] Pointer to a private context returned by [**DxgkDdiQueryInterface**](nc-dispmprt-dxgkddi_query_interface.md).
+Pointer to a private context returned by [**DxgkDdiQueryInterface**](nc-dispmprt-dxgkddi_query_interface.md).
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] Pointer to a [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md) structure.
+Pointer to a [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md) structure.
 
 ## -returns
 

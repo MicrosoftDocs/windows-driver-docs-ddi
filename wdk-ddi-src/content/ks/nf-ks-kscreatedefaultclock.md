@@ -52,14 +52,14 @@ The **KsCreateDefaultClock** function can only be called at PASSIVE_LEVEL.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP with the clock-create request being handled.
 
-### -param DefaultClock 
+### -param DefaultClock [in]
 
-[in]
+
 Specifies an initialize default clock structure that is shared among any instance of the default clock for the parent.
 
 ## -returns

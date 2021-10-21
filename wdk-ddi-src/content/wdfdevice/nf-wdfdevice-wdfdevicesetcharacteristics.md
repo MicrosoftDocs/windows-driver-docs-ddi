@@ -52,14 +52,14 @@ The <b>WdfDeviceSetCharacteristics</b> method sets device characteristics for a 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param DeviceCharacteristics 
+### -param DeviceCharacteristics [in]
 
-[in]
+
 A value that consists of ORed system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
 ## -remarks

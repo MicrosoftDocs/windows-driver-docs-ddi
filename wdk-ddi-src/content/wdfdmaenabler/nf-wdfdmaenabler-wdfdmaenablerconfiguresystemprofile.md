@@ -54,19 +54,19 @@ api_name:
 
 ## -parameters
 
-### -param DmaEnabler 
+### -param DmaEnabler [in]
 
-[in]
+
 A handle to a DMA enabler object.
 
-### -param ProfileConfig 
+### -param ProfileConfig [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_system_profile_config_init">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>.
 
-### -param ConfigDirection 
+### -param ConfigDirection [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer operation. If the <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_profile">WDF_DMA_PROFILE</a> value for this enabler is not <b>WdfDmaProfileSystemDuplex</b>, the framework ignores this parameter.
 
 ## -returns

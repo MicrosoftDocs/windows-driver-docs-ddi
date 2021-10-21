@@ -49,24 +49,24 @@ Returns notifications for the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-d
 
 ## -parameters
 
-### -param Which 
+### -param Which [in]
 
-[in]
+
 The kind of DEBUG_OUTCB_XXX notification that is coming in. The DEBUG_OUTCB_XXX notifications are defined in the dbgeng.h header using  #defines. For more information, see [DEBUG_OUTCB_XXX](/windows-hardware/drivers/debugger/debug-outcb-xxx).
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Flags that are part of the notification payload.
 
-### -param Arg 
+### -param Arg [in]
 
-[in]
+
 Arguments that are part of the notification payload.
 
-### -param Text 
+### -param Text [in, optional]
 
-[in, optional]
+
 A pointer to text that is part of the notification payload.
 
 ## -returns

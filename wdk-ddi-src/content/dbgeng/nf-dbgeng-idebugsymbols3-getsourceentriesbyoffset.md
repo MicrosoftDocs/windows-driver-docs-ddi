@@ -49,29 +49,29 @@ Queries symbol information and returns locations in the target's memory by using
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The  offset of the entry.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param Entries 
+### -param Entries [out]
 
-[out]
+
 A pointer to a returned entry as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure.
 
-### -param EntriesCount 
+### -param EntriesCount [in]
 
-[in]
+
 The number of entries.
 
-### -param EntriesAvail 
+### -param EntriesAvail [out, optional]
 
-[out, optional]
+
 A pointer to the number of entries available.
 
 ## -returns

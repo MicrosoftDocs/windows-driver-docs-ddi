@@ -49,14 +49,14 @@ The <b>MmProtectMdlSystemAddress</b> routine sets the protection type for a memo
 
 ## -parameters
 
-### -param MemoryDescriptorList 
+### -param MemoryDescriptorList [in]
 
-[in]
+
 Specifies the memory address range to set the protection type for.
 
-### -param NewProtect 
+### -param NewProtect [in]
 
-[in]
+
 Specifies the new protection setting for the memory pages. Drivers should specify one of the following values:
 
 

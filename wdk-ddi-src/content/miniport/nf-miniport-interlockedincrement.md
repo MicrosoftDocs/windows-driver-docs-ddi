@@ -54,9 +54,9 @@ The <b>InterlockedIncrement</b> routine increments a caller-supplied variable as
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in, out]
 
-[in, out]
+
 A pointer to a variable of type LONG.
 
 ## -returns

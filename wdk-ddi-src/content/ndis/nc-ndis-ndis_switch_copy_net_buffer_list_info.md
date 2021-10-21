@@ -49,24 +49,24 @@ The Hyper-V extensible switch extension calls the <i>CopyNetBufferListInfo</i> f
 
 ## -parameters
 
-### -param NdisSwitchContext 
+### -param NdisSwitchContext [in]
 
-[in]
+
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the extension is attached. When the extension calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
-### -param DestNetBufferList 
+### -param DestNetBufferList [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet to which the extensible switch forwarding context is copied.
 
-### -param SrcNetBufferList 
+### -param SrcNetBufferList [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for the source packet from which the extensible switch forwarding context is copied.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A UINT32 value. When the NDIS_SWITCH_COPY_NBL_INFO_FLAGS_PRESERVE_DESTINATIONS flag is specified, the function copies the extensible switch destination ports from the source packet to the destination packet.
 
 The data that is contained within the source packet's <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a> union is always copied to the extensible switch forwarding context in the destination packet. This data includes the source port identifiers and index of the network adapter connection from which the packet originated. Depending on the number of extensible switch destination ports that are copied to the destination packet, the NumAvailableDestinations member of the <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> union is updated in the destination packet.

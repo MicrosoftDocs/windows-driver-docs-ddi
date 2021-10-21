@@ -49,9 +49,9 @@ This function calculates the number of PROPERTYKEY elements.
 
 ## -parameters
 
-### -param pPropertyList 
+### -param pPropertyList [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a> structure.
 
 ## -returns

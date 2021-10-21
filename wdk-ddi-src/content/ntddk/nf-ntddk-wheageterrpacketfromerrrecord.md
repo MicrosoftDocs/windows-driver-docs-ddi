@@ -49,9 +49,9 @@ The <b>WheaGetErrPacketFromErrRecord</b> function returns a pointer to the hardw
 
 ## -parameters
 
-### -param Record 
+### -param Record [in]
 
-[in]
+
 A pointer to a WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
 
 ## -returns

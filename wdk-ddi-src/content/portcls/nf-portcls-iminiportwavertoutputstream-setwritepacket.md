@@ -49,21 +49,21 @@ SetWritePacket informs the driver that the OS has written valid data to the Wave
 
 ## -parameters
 
-### -param PacketNumber 
+### -param PacketNumber [in]
 
-[in]
+
 The number of the packet written by the OS to the WaveRT buffer.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Additional attributes related to the packet or stream.
 
 KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM - This flag indicates that this packet represents the end of the data stream.
 
-### -param EosPacketLength 
+### -param EosPacketLength [in]
 
-[in]
+
 The length of the EOS packet if KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is specified in Flags. Zero is a valid value. If KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is not specified in Flags, this parameter is ignored.
 
 ## -returns

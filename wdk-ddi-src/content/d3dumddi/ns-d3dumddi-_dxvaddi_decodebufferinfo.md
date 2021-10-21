@@ -52,25 +52,25 @@ The DXVADDI_DECODEBUFFERINFO structure describes information about a particular 
 
 ## -struct-fields
 
-### -field CompressedBufferType
+### -field CompressedBufferType [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the buffer.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the buffer.
 
-### -field CreationWidth
+### -field CreationWidth [out]
 
-[out] The width of the data in the buffer as the number of units of bits. For example, AYUV data is specified in 32-bit units, IA44/AI44 data is specified in 8-bit units, and DPXD data is specified in 2-bit units.
+The width of the data in the buffer as the number of units of bits. For example, AYUV data is specified in 32-bit units, IA44/AI44 data is specified in 8-bit units, and DPXD data is specified in 2-bit units.
 
 The driver must assign a value to <b>CreationWidth</b> that is a multiple of 2 and does not exceed 65535.
 
-### -field CreationHeight
+### -field CreationHeight [out]
 
-[out] The height of the data in the buffer as the number of units of bits. For example, AYUV data is specified in 32-bit units, IA44/AI44 data is specified in 8-bit units, and DPXD data is specified in 2-bit units.
+The height of the data in the buffer as the number of units of bits. For example, AYUV data is specified in 32-bit units, IA44/AI44 data is specified in 8-bit units, and DPXD data is specified in 2-bit units.
 
 The driver must assign a value to <b>CreationHeight</b> that does not exceed 65535.
 
-### -field CreationPool
+### -field CreationPool [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the type of memory that the buffer exists in.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the type of memory that the buffer exists in.
 
 ## -remarks
 

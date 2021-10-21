@@ -49,24 +49,24 @@ The <b>GetThreadIdsByIndex</b> method returns the engine and system thread IDs f
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first thread whose IDs are requested.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of threads whose IDs are requested.
 
-### -param Ids 
+### -param Ids [out, optional]
 
-[out, optional]
+
 Receives the engine thread IDs.  If <i>Ids</i> is <b>NULL</b>, this information is not returned; otherwise, <i>Ids</i> is treated as an array of <i>Count</i> ULONG valuess.
 
-### -param SysIds 
+### -param SysIds [out, optional]
 
-[out, optional]
+
 Receives the system thread IDs.  If <i>SysIds</i> is <b>NULL</b>, this information is not returned; otherwise, <i>SysIds</i> is treated as an array of <i>Count</i> ULONG values.
 
 ## -returns

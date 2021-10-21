@@ -50,37 +50,37 @@ A port monitor server DLL's <b>XcvDataPort</b> function receives information fro
 
 ## -parameters
 
-### -param hXcv 
+### -param hXcv [in]
 
-[in]
+
 Caller-supplied printer handle, obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function.
 
-### -param pszDataName 
+### -param pszDataName [in]
 
-[in]
+
 Caller-supplied pointer to a string representing the name of the data being requested. For more information, see the following Remarks section.
 
-### -param pInputData 
+### -param pInputData [in]
 
-[in]
+
 Caller-supplied pointer to a buffer containing input data.
 
 ### -param cbInputData
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pInputData</i>.
 
-### -param pOutputData 
+### -param pOutputData [out]
 
-[out]
+
 Caller-supplied pointer to a buffer to receive output data.
 
 ### -param cbOutputData
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputData</i>.
 
-### -param pcbOutputNeeded 
+### -param pcbOutputNeeded [out]
 
-[out]
+
 Caller-supplied pointer to a location to receive the minimum size, in bytes, required for the buffer pointed to by <i>pOutputData</i>.
 
 ## -returns

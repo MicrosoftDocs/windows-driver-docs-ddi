@@ -49,9 +49,9 @@ When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, 
 
 ## -parameters
 
-### -param SectionObjectPointer 
+### -param SectionObjectPointer [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
 ## -returns

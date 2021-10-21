@@ -51,9 +51,9 @@ A driver's <i>EvtDmaEnablerSelfManagedIoStart</i> event callback function starts
 
 ## -parameters
 
-### -param DmaEnabler 
+### -param DmaEnabler [in]
 
-[in]
+
 A handle to a DMA enabler object.
 
 ## -returns

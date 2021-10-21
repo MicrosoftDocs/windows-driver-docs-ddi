@@ -44,13 +44,13 @@ dev_langs:
 
 ## -struct-fields
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [in]
 
-[in] The adapter memory object that was used to create the ADL.
+The adapter memory object that was used to create the ADL.
 
-### -field pAdl
+### -field pAdl [in]
 
-[in] Pointer to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) object that is being freed.
+Pointer to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) object that is being freed.
 
 ## -see-also
 

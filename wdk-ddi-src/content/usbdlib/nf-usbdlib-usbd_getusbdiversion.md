@@ -51,9 +51,9 @@ The <b>USBD_GetUSBDIVersion</b> routine returns version information about the ho
 
 ## -parameters
 
-### -param VersionInformation 
+### -param VersionInformation [out]
 
-[out]
+
 Pointer to caller-allocated memory for a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a> structure that on return from the routine, contains version information about the HCD.
 
 ## -remarks

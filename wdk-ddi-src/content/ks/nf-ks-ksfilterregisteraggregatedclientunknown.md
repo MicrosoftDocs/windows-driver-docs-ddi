@@ -49,14 +49,14 @@ This inline function is a wrapper for <a href="/windows-hardware/drivers/ddi/ks/
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the specified AVStream <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure.
 
-### -param ClientUnknown 
+### -param ClientUnknown [in]
 
-[in]
+
 The client <b>IUnknown</b> interface object.
 
 ## -returns

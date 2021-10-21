@@ -52,25 +52,25 @@ The D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE structure describes the stream s
 
 ## -struct-fields
 
-### -field hVideoProcessor
+### -field hVideoProcessor [in]
 
-[in] A handle to the video processor whose stream state is changed.
+A handle to the video processor whose stream state is changed.
 
-### -field StreamNumber
+### -field StreamNumber [in]
 
-[in] A zero-based stream index number. This number must be less than the number that the driver set in the <b>MaxStreamStates</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure.
+A zero-based stream index number. This number must be less than the number that the driver set in the <b>MaxStreamStates</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure.
 
-### -field State
+### -field State [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_stream_state">DXVAHDDDI_STREAM_STATE</a>-typed value that indicates the stream state to modify.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_stream_state">DXVAHDDDI_STREAM_STATE</a>-typed value that indicates the stream state to modify.
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The size, in bytes, of the data that is used to change the stream state.
+The size, in bytes, of the data that is used to change the stream state.
 
-### -field pData
+### -field pData [in]
 
-[in] A pointer to the data that is used to change the stream state. For more information about the types of data that <b>pData</b> can point to, see the values of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_stream_state">DXVAHDDDI_STREAM_STATE</a> enumeration.
+A pointer to the data that is used to change the stream state. For more information about the types of data that <b>pData</b> can point to, see the values of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_stream_state">DXVAHDDDI_STREAM_STATE</a> enumeration.
 
 ## -see-also
 

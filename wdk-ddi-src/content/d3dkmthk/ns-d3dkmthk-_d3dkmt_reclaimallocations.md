@@ -52,23 +52,23 @@ Describes video memory resources that are to be reclaimed and that the driver  p
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents a handle to the device that created the allocations.
+A D3DKMT_HANDLE data type that represents a handle to the device that created the allocations.
 
-### -field pResources
+### -field pResources [in]
 
-[in] An array of <b>D3DKMT_HANDLE</b> data types that represent Direct3D runtime resource handles.
+An array of <b>D3DKMT_HANDLE</b> data types that represent Direct3D runtime resource handles.
 
-### -field HandleList
+### -field HandleList [in]
 
-[in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations that are to be reclaimed.
+An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations that are to be reclaimed.
 
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
-### -field pDiscarded
+### -field pDiscarded [out]
 
-[out] An  array of Boolean values that specify whether each resource or allocation was discarded.
+An  array of Boolean values that specify whether each resource or allocation was discarded.
 
 Each Boolean value in this array corresponds to a resource at the same index location in the arrays pointed to by <b>pResources</b> or   <b>HandleList.</b>
 
@@ -76,9 +76,9 @@ The DirectX graphics kernel subsystem sets each Boolean value to <b>TRUE</b> if 
 
 The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>NULL</b>, the content of the resource or allocation can be assumed to be lost. If the driver does not need the content of the resource or allocation, setting <b>pDiscarded</b> to <b>NULL</b> might improve performance.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
+The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
 
 ## -see-also
 

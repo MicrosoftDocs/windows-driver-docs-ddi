@@ -49,19 +49,19 @@ The <i>DxgkDdiDispatchIoRequest</i> function handles I/O control (IOCTL) request
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param VidPnSourceId 
+### -param VidPnSourceId [in]
 
-[in]
+
 An integer that identifies the video present source associated with the I/O request.
 
-### -param VideoRequestPacket 
+### -param VideoRequestPacket [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure that describes the I/O request.
 
 ## -returns

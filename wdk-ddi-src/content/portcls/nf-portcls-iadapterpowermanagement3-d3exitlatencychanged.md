@@ -49,9 +49,9 @@ PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) 
 
 ## -parameters
 
-### -param NewD3ExitLatency 
+### -param NewD3ExitLatency [in]
 
-[in]
+
 The  <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-_pc_exit_latency">PC_EXIT_LATENCY</a> enumerated value that Portcls has determined for the device.
 
 ## -returns

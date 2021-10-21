@@ -49,21 +49,21 @@ The D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure describes a two-dimensional (
 
 ## -struct-fields
 
-### -field MostDetailedMip
+### -field MostDetailedMip [in]
 
-[in] The identifier of the most detailed MIP-map.
+The identifier of the most detailed MIP-map.
 
-### -field FirstArraySlice
+### -field FirstArraySlice [in]
 
-[in] The identifier of the first array slice.
+The identifier of the first array slice.
 
-### -field MipLevels
+### -field MipLevels [in]
 
-[in] The number of MIP-map levels for the texture.
+The number of MIP-map levels for the texture.
 
-### -field ArraySize
+### -field ArraySize [in]
 
-[in] The number of array slices for the texture.
+The number of array slices for the texture.
 
 ## -remarks
 

@@ -51,14 +51,14 @@ The WDF_DRIVER_CONFIG_INIT function initializes a driver's <a href="/windows-har
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdfdriver/ns-wdfdriver-_wdf_driver_config">WDF_DRIVER_CONFIG</a> structure that the function will initialize.
 
-### -param EvtDriverDeviceAdd 
+### -param EvtDriverDeviceAdd [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
 ## -remarks

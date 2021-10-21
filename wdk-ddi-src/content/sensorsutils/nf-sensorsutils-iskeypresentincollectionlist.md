@@ -49,13 +49,13 @@ This routine determine if a key is present in a collection list.
 
 ## -parameters
 
-### -param pList
+### -param pList [in]
 
-[in] Pointer to the list of collection.
+Pointer to the list of collection.
 
-### -param pKey
+### -param pKey [in]
 
-[in] Pointer to a PROPERTYKEY.
+Pointer to a PROPERTYKEY.
 
 ## -returns
 

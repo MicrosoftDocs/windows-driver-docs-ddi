@@ -52,14 +52,14 @@ The <i>BugCheckCallback</i> routine is executed whenever the system issues a bug
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the buffer that was specified when the callback was registered.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer that is pointed to by the <i>Buffer</i> parameter.
 
 ## -remarks

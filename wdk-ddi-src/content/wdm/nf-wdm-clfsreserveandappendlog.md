@@ -50,44 +50,44 @@ The <b>ClfsReserveAndAppendLog</b> routine reserves space in a marshalling area 
 
 ## -parameters
 
-### -param pvMarshalContext 
+### -param pvMarshalContext [in]
 
-[in]
+
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
-### -param rgWriteEntries 
+### -param rgWriteEntries [in, optional]
 
-[in, optional]
+
 A pointer to an array of <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_write_entry">CLFS_WRITE_ENTRY</a> structures, each of which holds a pointer to a buffer of data that will become part of the record that is appended to the log. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
 
-### -param cWriteEntries 
+### -param cWriteEntries [in]
 
-[in]
+
 The number of elements in the array pointed to by <i>rgWriteEntries</i>. This parameter must be zero if <i>rgWriteEntries</i> is <b>NULL</b>.
 
-### -param plsnUndoNext 
+### -param plsnUndoNext [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the undo-next LSN of the record to be appended.
 
-### -param plsnPrevious 
+### -param plsnPrevious [in, optional]
 
-[in, optional]
+
 A pointer to a CLFS_LSN structure that supplies the previous LSN of the record to be appended.
 
-### -param cReserveRecords 
+### -param cReserveRecords [in]
 
-[in]
+
 The number of elements in the array pointed to by <i>rgcbReservation</i>. This parameter must be zero if <i>rgcbReservation</i> is <b>NULL</b> or the CLFS_FLAG_USE_RESERVATION flag of <i>fFlags</i> is set.
 
-### -param rgcbReservation 
+### -param rgcbReservation [in, out]
 
-[in, out]
+
 A pointer to an array of LONGLONG-typed variables. The caller sets each element of the array to the size, in bytes, of a record that must have space reserved for it. On return, each array element receives that actual size of the space reserved for the record. This includes the space required for headers and alignment. If the reservation value is negative, a reserved record that most nearly matches the absolute value of the provided negative value will be freed. This parameter can be <b>NULL</b> if <i>cReserveRecords</i> is zero and must be <b>NULL</b> if the CLFS_FLAG_USE_RESERVATION flag of <i>fFlags</i> is set.
 
-### -param fFlags 
+### -param fFlags [in]
 
-[in]
+
 This parameter can be zero or any combination of the following flags.
 
 <table>
@@ -127,9 +127,9 @@ The current record is placed in reserved space in a log I/O block within the mar
 </tr>
 </table>
 
-### -param plsn 
+### -param plsn [out, optional]
 
-[out, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that receives the LSN of the appended record. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
 
 ## -returns

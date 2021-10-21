@@ -49,19 +49,19 @@ An AVStream minidriver's <i>AVStrMiniInitializeAllocator</i> routine initializes
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure describing the pin with which the allocator is to be associated.
 
-### -param AllocatorFraming 
+### -param AllocatorFraming [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure describing the framing requirements that the allocator should use.
 
-### -param Context 
+### -param Context [out]
 
-[out]
+
 Pointer to a context for the allocator that will be passed as a parameter to the other routines for this structure. For example, the driver could store pin or allocator framing structures for later reference by the other callback routines. Note that other routines for <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksallocator_dispatch">KSALLOCATOR_DISPATCH</a> must have at least an indirect way of referencing <i>Pin</i>. (For instance, <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksdefaultallocate">AVStrMiniAllocate</a> will need to be able to access the <i>AllocatorFraming</i> information for <i>Pin</i>, and <i>Context</i> is the only parameter that AVStream will pass it.)
 
 ## -returns

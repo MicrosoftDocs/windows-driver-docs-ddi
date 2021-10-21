@@ -53,19 +53,19 @@ The <b>AtaPortWritePortBufferUshort</b> routine transfers the indicated number o
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 The pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the source buffer.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to write to the HBA.
 
 ## -see-also

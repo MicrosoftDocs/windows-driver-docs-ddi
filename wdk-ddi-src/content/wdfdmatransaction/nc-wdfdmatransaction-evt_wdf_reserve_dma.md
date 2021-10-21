@@ -53,14 +53,14 @@ api_name:
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to the DMA transaction object that represents the transaction to which DMA resources were assigned.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 The context pointer that the driver specified in a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionallocateresources">WdfDmaTransactionAllocateResources</a>.
 
 ## -remarks

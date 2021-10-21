@@ -49,9 +49,9 @@ The <b>IoUninitializeWorkItem</b> routine uninitializes a work item that was ini
 
 ## -parameters
 
-### -param IoWorkItem 
+### -param IoWorkItem [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure to uninitialize.
 
 ## -remarks

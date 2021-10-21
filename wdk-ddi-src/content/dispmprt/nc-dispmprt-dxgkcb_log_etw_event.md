@@ -48,21 +48,21 @@ The **DxgkCbLogEtwEvent** function logs an Event Tracing for Windows (ETW) event
 
 ## -parameters
 
-### -param EventGuid
+### -param EventGuid [in]
 
-[in] A GUID that identifies the event to be logged.
+A GUID that identifies the event to be logged.
 
-### -param Type
+### -param Type [in]
 
-[in] A constant that specifies the event type. These constants are defined in *Evntrace.h* and have the form of **EVENT_TRACE_TYPE_XX**. **Type** is ignored when **EventGuid** is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.
+A constant that specifies the event type. These constants are defined in *Evntrace.h* and have the form of **EVENT_TRACE_TYPE_XX**. **Type** is ignored when **EventGuid** is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.
 
-### -param EventBufferSize
+### -param EventBufferSize [in]
 
-[in] The size, in bytes, of the buffer pointed to by **EventBuffer**. There is a significant performance penalty if the buffer is larger than 256 bytes.
+The size, in bytes, of the buffer pointed to by **EventBuffer**. There is a significant performance penalty if the buffer is larger than 256 bytes.
 
-### -param EventBuffer
+### -param EventBuffer [in]
 
-[in] A pointer to a buffer that contains the information to be logged. This parameter can be NULL, or a pointer to the following structure type depending on the value of **EventGuid**.
+A pointer to a buffer that contains the information to be logged. This parameter can be NULL, or a pointer to the following structure type depending on the value of **EventGuid**.
 
 ## -remarks
 

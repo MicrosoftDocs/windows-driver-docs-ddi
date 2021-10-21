@@ -49,14 +49,14 @@ The <i>DxgkDdiQueryInterface</i> function returns a functional interface that is
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param QueryInterface 
+### -param QueryInterface [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_query_interface">QUERY_INTERFACE</a> structure in which the display miniport driver should return information about the interface it supports.
 
 ## -returns

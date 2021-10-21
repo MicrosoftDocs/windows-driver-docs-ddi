@@ -49,14 +49,14 @@ For a "legacy" file system filter driver, the <b>FsRtlInsertPerFileObjectContext
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object for which to associate context information (given by the <i>Ptr</i> parameter).
 
-### -param Ptr 
+### -param Ptr [in]
 
-[in]
+
 A pointer to a caller-allocated and initialized FSRTL_PER_FILEOBJECT_CONTEXT structure to be associated with <i>FileObject</i>. The structure can be used as-is or embedded in a driver-defined, per-file-object context information structure. To initialize the structure, use the <a href="/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a> macro.
 
 ## -returns

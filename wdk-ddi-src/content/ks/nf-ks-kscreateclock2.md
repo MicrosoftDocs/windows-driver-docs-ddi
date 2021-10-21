@@ -51,19 +51,19 @@ Supported starting in Windows 8.
 
 ## -parameters
 
-### -param ConnectionHandle 
+### -param ConnectionHandle [in]
 
-[in]
+
 Specifies the handle to the connection on which to create the clock.
 
-### -param ClockCreate 
+### -param ClockCreate [in]
 
-[in]
+
 Specifies clock create parameters. This currently consists of a flag that must be set to zero.
 
-### -param ClockHandle 
+### -param ClockHandle [out]
 
-[out]
+
 Specifies the new clock handle.
 
 ## -returns

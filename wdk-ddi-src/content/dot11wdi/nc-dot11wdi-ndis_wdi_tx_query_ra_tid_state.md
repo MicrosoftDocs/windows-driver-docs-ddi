@@ -51,34 +51,34 @@ This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 The port ID.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID.
 
-### -param ExTid 
+### -param ExTid [in]
 
-[in]
+
 The Extended Traffic ID (TID)
 
-### -param pWifiStatus 
+### -param pWifiStatus [out]
 
-[out]
+
 Indicates the result of the query operation.  See the <i>Remarks</i> section for more information.
 
-### -param pQueueLength 
+### -param pQueueLength [out]
 
-[out]
+
 The number of backlogged frames in the specified RA/TID  or Port queue.
 
 ## -remarks

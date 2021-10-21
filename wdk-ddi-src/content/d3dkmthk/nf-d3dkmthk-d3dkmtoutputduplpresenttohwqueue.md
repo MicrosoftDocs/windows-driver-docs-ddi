@@ -51,9 +51,9 @@ The D3DKMTOutputDuplPresentToHwQueue function outputs the duplicate handle of a 
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] Pointer to a D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure.
+Pointer to a D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure.
 
 ## -returns
 

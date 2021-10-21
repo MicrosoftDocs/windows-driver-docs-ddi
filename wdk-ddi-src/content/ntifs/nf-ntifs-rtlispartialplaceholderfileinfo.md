@@ -50,21 +50,21 @@ The <b>RtlIsPartialPlaceholderFileInfo</b> routine determines if a file is a kno
 
 ## -parameters
 
-### -param InfoBuffer 
+### -param InfoBuffer [in]
 
-[in]
+
 Specifies a pointer to a caller-allocated buffer which contains information about the file object. If this is from a call
         to <b>NtQueryDirectoryFile</b>, this may point to the first or any subsequent
         subsequent entry in the buffer (found by walking the buffer).
 
-### -param InfoClass 
+### -param InfoClass [in]
 
-[in]
+
  Specifies which File Information class to use to query InfoBuffer.
 
-### -param IsPartialPlaceholder 
+### -param IsPartialPlaceholder [out]
 
-[out]
+
 <b>IsPartialPlaceholder</b> is a pointer to a boolean which returns <b>TRUE</b> if the file or directory is a placeholder. It  returns <b>FALSE</b> if either the
         file or directory is not a placeholder or is a full placeholder. Returns undefined on failure.
 

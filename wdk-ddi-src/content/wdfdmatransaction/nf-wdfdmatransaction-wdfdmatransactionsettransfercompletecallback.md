@@ -53,19 +53,19 @@ api_name:
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to an initialized DMA transaction object for which to set or clear the transfer completion callback.
 
-### -param DmaCompletionRoutine 
+### -param DmaCompletionRoutine [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL to clear a previously set callback function.
 
-### -param DmaCompletionContext 
+### -param DmaCompletionContext [in, optional]
 
-[in, optional]
+
 A pointer to a buffer containing the driver-specified context to be provided to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL.
 
 ## -remarks

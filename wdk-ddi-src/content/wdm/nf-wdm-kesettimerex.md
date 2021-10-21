@@ -48,21 +48,21 @@ The **KeSetTimerEx** routine sets the absolute or relative interval at which a t
 
 ## -parameters
 
-### -param Timer
+### -param Timer [in, out]
 
-[in, out] Pointer to a timer object that was initialized with [KeInitializeTimer](./nf-wdm-keinitializetimer.md) or [KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md).
+Pointer to a timer object that was initialized with [KeInitializeTimer](./nf-wdm-keinitializetimer.md) or [KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md).
 
-### -param DueTime
+### -param DueTime [in]
 
-[in] Specifies the absolute or relative time at which the timer is to expire. If the value of the *DueTime* parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
+Specifies the absolute or relative time at which the timer is to expire. If the value of the *DueTime* parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
-### -param Period
+### -param Period [in]
 
-[in] Specifies an optional recurring interval for the timer in milliseconds. Must be a value that is greater than or equal to zero. If the value of this parameter is zero, the timer is a nonperiodic timer that does not automatically re-queue itself.
+Specifies an optional recurring interval for the timer in milliseconds. Must be a value that is greater than or equal to zero. If the value of this parameter is zero, the timer is a nonperiodic timer that does not automatically re-queue itself.
 
-### -param Dpc
+### -param Dpc [in, optional]
 
-[in, optional] Pointer to a DPC object that was initialized by [KeInitializeDpc](./nf-wdm-keinitializedpc.md). This parameter is optional.
+Pointer to a DPC object that was initialized by [KeInitializeDpc](./nf-wdm-keinitializedpc.md). This parameter is optional.
 
 ## -returns
 

@@ -57,14 +57,14 @@ Called by the client driver during its AddDevice routine to perform DeviceInit f
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
 
 ## -returns

@@ -49,19 +49,19 @@ Sets the seek pointer.
 
 ## -parameters
 
-### -param lOffset 
+### -param lOffset [in]
 
-[in]
+
 The displacement to be added to the location indicated by the <i>streamSeek</i> parameter.
 
-### -param streamSeek 
+### -param streamSeek [in]
 
-[in]
+
 The origin for the displacement specified <i>lOffset</i>.
 
-### -param plPosition 
+### -param plPosition [out, retval]
 
-[out, retval]
+
 The new pointer position.
 
 ## -returns

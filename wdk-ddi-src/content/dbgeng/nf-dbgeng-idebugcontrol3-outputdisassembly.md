@@ -49,19 +49,19 @@ The <b>OutputDisassembly</b> method disassembles a processor instruction and sen
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies the output control that determines which client's output callbacks receive the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's memory of the instruction to disassemble.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the bit-flags that affect the behavior of this method.  The following table lists the bits that can be set.
 
 <table>
@@ -111,9 +111,9 @@ Include the source file name in the output.
 </tr>
 </table>
 
-### -param EndOffset 
+### -param EndOffset [out]
 
-[out]
+
 Receives the location in the target's memory of the instruction that follows the disassembled instruction.
 
 ## -returns

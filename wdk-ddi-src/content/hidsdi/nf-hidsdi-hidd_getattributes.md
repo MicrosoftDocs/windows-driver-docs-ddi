@@ -49,14 +49,14 @@ The <b>HidD_GetAttributes</b> routine returns the attributes of a specified <a h
 
 ## -parameters
 
-### -param HidDeviceObject 
+### -param HidDeviceObject [in]
 
-[in]
+
 Specifies an open handle to a top-level collection.
 
-### -param Attributes 
+### -param Attributes [out]
 
-[out]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/hidsdi/ns-hidsdi-_hidd_attributes">HIDD_ATTRIBUTES</a> structure that returns the attributes of the collection specified by <i>HidDeviceObject</i>.
 
 ## -returns

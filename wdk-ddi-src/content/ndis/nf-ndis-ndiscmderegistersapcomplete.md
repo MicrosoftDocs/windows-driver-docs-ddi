@@ -51,14 +51,14 @@ api_name:
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies NDIS_STATUS_SUCCESS.
 
-### -param NdisSapHandle 
+### -param NdisSapHandle [in]
 
-[in]
+
 Specifies the handle identifying the SAP.
 
 ## -remarks

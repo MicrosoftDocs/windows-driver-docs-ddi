@@ -50,9 +50,9 @@ The <b>PcGetTimeInterval</b> function returns the time elapsed since a specified
 
 ## -parameters
 
-### -param Since 
+### -param Since [in]
 
-[in]
+
 Specifies the time from which to measure the interval. Typically, this function is called once with a "since" of zero to get the current time, and is called subsequently with a "since" of the recorded current time to get time intervals from that time.
 
 ## -returns

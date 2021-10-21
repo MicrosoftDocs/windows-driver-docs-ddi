@@ -50,9 +50,9 @@ The
 
 ## -parameters
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 A pointer to the MDL that NDIS should free.
 
 ## -see-also

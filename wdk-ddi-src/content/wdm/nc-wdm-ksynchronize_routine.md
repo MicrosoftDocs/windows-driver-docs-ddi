@@ -49,9 +49,9 @@ The <i>SynchCritSection</i> routine is used to access hardware resources or driv
 
 ## -parameters
 
-### -param SynchronizeContext 
+### -param SynchronizeContext [in]
 
-[in]
+
 Caller-supplied context information, specified by the driver's call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>.
 
 ## -returns

@@ -54,24 +54,24 @@ The <b>WdfMemoryCopyToBuffer</b> method copies the contents of a specified memor
 
 ## -parameters
 
-### -param SourceMemory 
+### -param SourceMemory [in]
 
-[in]
+
 A handle to a framework memory object that represents the source buffer.
 
-### -param SourceOffset 
+### -param SourceOffset [in]
 
-[in]
+
 An offset, in bytes, from the beginning of the source buffer. The copy operation begins at the specified offset in the source buffer.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a destination buffer.
 
-### -param NumBytesToCopyTo 
+### -param NumBytesToCopyTo [in]
 
-[in]
+
 The number of bytes to copy from the source buffer to the destination buffer. This value must not be greater than the size of the source buffer.
 
 ## -returns

@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] Pointer to the miniport's hardware device extension.
+Pointer to the miniport's hardware device extension.
 
-### -param ThreadContext
+### -param ThreadContext [in/optional]
 
-[in/optional] Pointer to the thread context received in a prior call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md).
+Pointer to the thread context received in a prior call to [**StorPortCreateSystemThread**](nf-storport-storportcreatesystemthread.md).
 
 ## -remarks
 

@@ -50,17 +50,17 @@ The **pfnQueryDlistForApplication1Cb** callback function queries a dList for an 
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [out]
 
-[out] If **TRUE**, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
+If **TRUE**, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
-### -param unnamedParam2
+### -param unnamedParam2 [in]
 
-[in] A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam3*.
+A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam3*.
 
-### -param unnamedParam3
+### -param unnamedParam3 [in]
 
-[in] Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
+Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
 
 ## -returns
 

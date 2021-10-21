@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in, out]
 
-[in, out]
+
 A pointer to the reference-counted data structure to be dereferenced.
 
-### -param LockHoldingState 
+### -param LockHoldingState [in]
 
-[in]
+
 The mode in which the appropriate lock for this data structure is held. This parameter can be one of the following values for the LOCK_HOLDING_STATE enumeration:
 
 

@@ -46,14 +46,14 @@ The **RtlStoreUshort** macro stores a USHORT value at a particular address, avoi
 
 ## -parameters
 
-### -param ADDRESS
+### -param ADDRESS [out]
 
-[out]
+
 A pointer to a location in which to store the specified USHORT value.
 
-### -param VALUE
+### -param VALUE [in]
 
-[in]
+
 Specifies a USHORT value to be stored.
 
 ## -remarks

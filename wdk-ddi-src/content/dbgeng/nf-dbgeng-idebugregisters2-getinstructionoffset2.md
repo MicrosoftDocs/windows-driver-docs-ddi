@@ -49,9 +49,9 @@ The <b>GetInstructionOffset2</b> method returns the location of the current thre
 
 ## -parameters
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -95,9 +95,9 @@ Fetch register information from the current scope's register context.
 </tr>
 </table>
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the location in the process's virtual address space of the current instruction of the current thread.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>HasArg</b> method indicates whether a specified named argument is present
 
 ## -parameters
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 Specifies the name of the argument.
 
 ## -returns

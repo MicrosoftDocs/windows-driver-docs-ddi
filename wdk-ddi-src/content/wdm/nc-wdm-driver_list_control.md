@@ -49,24 +49,24 @@ The <i>AdapterListControl</i> routine starts a direct memory access (DMA) scatte
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation, if the driver has a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine. Otherwise, not used.
 
-### -param ScatterGather 
+### -param ScatterGather [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure describing scatter/gather regions.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>.
 
 ## -remarks

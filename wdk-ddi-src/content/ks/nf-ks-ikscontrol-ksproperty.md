@@ -49,29 +49,29 @@ The <b>IKsControl::KsProperty</b> method sets a property or retrieves property i
 
 ## -parameters
 
-### -param Property 
+### -param Property [in]
 
-[in]
+
 Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
 
-### -param PropertyLength 
+### -param PropertyLength [in]
 
-[in]
+
 Specifies size, in bytes, of the buffer at <i>Property</i>.
 
-### -param PropertyData 
+### -param PropertyData [in, out]
 
-[in, out]
+
 Pointer to a buffer that contains data for a KSPROPERTY_TYPE_SET, KSPROPERTY_TYPE_UNSERIALIZESET, or KSPROPERTY_TYPE_UNSERIALIZERAW operation, or buffer space that receives data for all other operations.
 
-### -param DataLength 
+### -param DataLength [in]
 
-[in]
+
 Specifies size, in bytes, of the buffer at <i>PropertyData</i>.
 
-### -param BytesReturned 
+### -param BytesReturned [out]
 
-[out]
+
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsProperty</b> stores in the buffer at <i>PropertyData</i>. If no data is stored, the size is zero.
 
 ## -returns

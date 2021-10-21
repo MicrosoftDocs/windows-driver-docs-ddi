@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param pData
+### -param pData [in]
 
-[in] Pointer to a [**DXGKARGCB_ENUMHANDLECHILDREN**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md) structure that describes the parent resource and the index of the child allocation to retrieve.
+Pointer to a [**DXGKARGCB_ENUMHANDLECHILDREN**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md) structure that describes the parent resource and the index of the child allocation to retrieve.
 
 ## -returns
 

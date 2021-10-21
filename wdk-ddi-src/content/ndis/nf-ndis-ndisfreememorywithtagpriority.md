@@ -53,9 +53,9 @@ The
 
 ## -parameters
 
-### -param NdisHandle 
+### -param NdisHandle [in]
 
-[in]
+
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that the driver passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">
@@ -82,16 +82,16 @@ An NDIS driver or instance handle that was obtained during caller initialization
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
-### -param VirtualAddress 
+### -param VirtualAddress [in]
 
-[in]
+
 A pointer to the base virtual address of the allocated memory. This address was returned by the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">
      NdisAllocateMemoryWithTagPriority</a> function.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A string, delimited by single quotation marks, with up to four characters, usually specified in
      reversed order. The NDIS-supplied default tag for this call is 'maDN', but the caller can override this
      default by supplying an explicit value.

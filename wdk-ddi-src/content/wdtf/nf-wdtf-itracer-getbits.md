@@ -49,19 +49,19 @@ The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bi
 
 ## -parameters
 
-### -param ClassID 
+### -param ClassID [in]
 
-[in]
+
 The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="/windows-hardware/drivers/ddi/index">TraceLevel Path</a> to be defined as HKCR\CLSID\<<i>ClassID</i>>.
 
-### -param Level 
+### -param Level [in]
 
-[in]
+
 The tracing level that is requested. A value of <b>Trace_Default</b> indicates that <b>GetBits</b> will search the interface's TraceLevel Path for the default level. TraceLevel Path is specified by using either <i>ClassID</i> or <i>pszTraceLevelPath</i>. .
 
-### -param pBits 
+### -param pBits [out, retval]
 
-[out, retval]
+
 The returned set of flags as a bit mask.
 
 ## -returns

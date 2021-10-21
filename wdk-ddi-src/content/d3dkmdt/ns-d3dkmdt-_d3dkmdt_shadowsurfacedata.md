@@ -52,21 +52,21 @@ The D3DKMDT_SHADOWSURFACEDATA structure describes a lockable shadow surface, whi
 
 ## -struct-fields
 
-### -field Width
+### -field Width [in]
 
-[in] The width of the surface, in pixels. The driver returns the width value.
+The width of the surface, in pixels. The driver returns the width value.
 
-### -field Height
+### -field Height [in]
 
-[in] The height of the surface, in pixels. The driver returns the height value.
+The height of the surface, in pixels. The driver returns the height value.
 
-### -field Format
+### -field Format [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The driver returns the format value.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The driver returns the format value.
 
-### -field Pitch
+### -field Pitch [out]
 
-[out] The width of the surface, in bytes. The driver must return the pitch value because the shadow surface is lockable.
+The width of the surface, in bytes. The driver must return the pitch value because the shadow surface is lockable.
 
 ## -remarks
 

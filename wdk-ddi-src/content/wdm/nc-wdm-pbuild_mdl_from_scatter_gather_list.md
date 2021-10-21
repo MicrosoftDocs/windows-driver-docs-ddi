@@ -50,24 +50,24 @@ The <b>BuildMdlFromScatterGatherList</b> routine builds an MDL from a scatter/ga
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param ScatterGather 
+### -param ScatterGather [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure passed to the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine.
 
-### -param OriginalMdl 
+### -param OriginalMdl [in]
 
-[in]
+
 Pointer to the original MDL that the driver used to build the scatter/gather list.
 
-### -param TargetMdl 
+### -param TargetMdl [out]
 
-[out]
+
 Pointer to a variable the routine uses to return the MDL created to hold the buffer described by the scatter/gather list. The value returned can be the same as <i>OriginalMdl</i>.
 
 ## -returns

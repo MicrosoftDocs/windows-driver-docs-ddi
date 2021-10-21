@@ -53,15 +53,15 @@ The
 
 ## -parameters
 
-### -param completionContext 
+### -param completionContext [in]
 
-[in]
+
 A completion context handle that was previously created by a call to the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a> function.
 
-### -param netBufferList 
+### -param netBufferList [in, optional]
 
-[in, optional]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data for which processing has been suspended pending completion of another operation.

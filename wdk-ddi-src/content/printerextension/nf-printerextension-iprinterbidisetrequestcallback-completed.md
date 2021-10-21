@@ -49,14 +49,14 @@ Invoked when the Bidi “Set”” operation is completed.
 
 ## -parameters
 
-### -param bstrResponse 
+### -param bstrResponse [in]
 
-[in]
+
 The received response.
 
-### -param hrStatus 
+### -param hrStatus [in]
 
-[in]
+
 An HRESULT value.
 
 ## -returns

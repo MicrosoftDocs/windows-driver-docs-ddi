@@ -48,17 +48,17 @@ api_name:
 
 ## -parameters
 
-### -param Oplock
+### -param Oplock [in]
 
-[in] Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FltInitializeOplock**](./nf-fltkernel-fltinitializeoplock.md).
+Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FltInitializeOplock**](./nf-fltkernel-fltinitializeoplock.md).
 
-### -param CallbackData
+### -param CallbackData [in]
 
-[in] Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure for the I/O operation. This parameter is required and cannot be **NULL**.
+Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure for the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param OpenCount
+### -param OpenCount [in]
 
-[in] Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see [Oplock Overview](/windows-hardware/drivers/ifs/oplock-overview).
+Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see [Oplock Overview](/windows-hardware/drivers/ifs/oplock-overview).
 
 ## -returns
 

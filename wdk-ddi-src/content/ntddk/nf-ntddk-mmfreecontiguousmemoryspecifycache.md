@@ -49,19 +49,19 @@ The <b>MmFreeContiguousMemorySpecifyCache</b> routine frees a buffer that was al
 
 ## -parameters
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
+
 Specifies the base address of the buffer to be freed. Must match the address returned by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> call that allocated the buffer.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies the size in bytes of the buffer to be freed. Must match the size requested when the buffer was allocated by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> routine.
 
-### -param CacheType 
+### -param CacheType [in]
 
-[in]
+
 Specifies the cache type of the buffer to be freed. Must match the cache type requested when the buffer was allocated by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> routine.
 
 ## -remarks

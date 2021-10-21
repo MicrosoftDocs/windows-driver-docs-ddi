@@ -49,19 +49,19 @@ The <b>GetSourcePath</b>  method returns the source path.
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the source path.  This is a string that contains source path elements separated by semicolons (<b>;</b>).  Each source path element can specify either a directory or a source server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-### -param PathSize 
+### -param PathSize [out, optional]
 
-[out, optional]
+
 Receives the size, in characters, of the source path.
 
 ## -returns

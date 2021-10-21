@@ -52,14 +52,14 @@ The <b>WdfCmResourceListRemove</b> method removes a resource descriptor from a s
 
 ## -parameters
 
-### -param List 
+### -param List [in]
 
-[in]
+
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 A zero-based value that is used as an index into the resource list that <i>List</i> specifies.
 
 ## -remarks

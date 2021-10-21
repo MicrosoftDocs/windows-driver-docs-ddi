@@ -52,21 +52,21 @@ The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A Handle to the allocation that will be updated.
+A Handle to the allocation that will be updated.
 
-### -field SupportedSegmentSet
+### -field SupportedSegmentSet [in]
 
-[in] An index for the new supported segment set. If the current supported segment set is the same, then this will be ignored.
+An index for the new supported segment set. If the current supported segment set is the same, then this will be ignored.
 
-### -field PreferredSegment
+### -field PreferredSegment [in]
 
-[in] An index for the new preferred segment set. If the current preferred segment set is the same, then this will be ignored.
+An index for the new preferred segment set. If the current preferred segment set is the same, then this will be ignored.
 
-### -field Flags
+### -field Flags [in]
 
-[in] The flags that will be used to update the allocation.
+The flags that will be used to update the allocation.
 
 ### -field SetAccessedPhysically
 

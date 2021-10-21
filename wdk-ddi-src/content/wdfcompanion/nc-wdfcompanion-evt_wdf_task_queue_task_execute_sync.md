@@ -49,31 +49,31 @@ api_name:
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
 
-### -param InputBuffer 
 
-[in, optional]
+### -param InputBuffer [in, optional]
 
-### -param OutputBuffer 
 
-[out, optional]
 
-### -param InputBufferLength 
+### -param OutputBuffer [out, optional]
 
-[in]
 
-### -param OutputBufferLength 
 
-[in]
+### -param InputBufferLength [in]
 
-### -param BytesWritten 
 
-[in]
 
-### -param TaskOperationCode 
+### -param OutputBufferLength [in]
 
-[in]
+
+
+### -param BytesWritten [in]
+
+
+
+### -param TaskOperationCode [in]
+
+
 

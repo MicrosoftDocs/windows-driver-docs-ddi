@@ -52,17 +52,17 @@ The
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 An NDIS-supplied handle that identifies a miniport adapter. This handle is an input parameter to
      the MCM's 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param AddressFamily 
+### -param AddressFamily [in]
 
-[in]
+
 A pointer to a 
      <a href="/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that identifies
      the AF that the MCM driver supports. 

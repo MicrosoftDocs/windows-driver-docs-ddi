@@ -50,9 +50,9 @@ POS_CX_ATTRIBUTES_INIT initializes a <a href="/windows-hardware/drivers/ddi/posc
 
 ## -parameters
 
-### -param PosCxAttrPtr 
+### -param PosCxAttrPtr [out]
 
-[out]
+
 A pointer to the caller-allocated <a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTE</a> structure to initialize.
 
 ## -see-also

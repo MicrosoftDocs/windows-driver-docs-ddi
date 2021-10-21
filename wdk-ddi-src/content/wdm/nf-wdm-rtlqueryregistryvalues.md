@@ -49,9 +49,9 @@ The <b>RtlQueryRegistryValues</b> routine allows the caller to query several val
 
 ## -parameters
 
-### -param RelativeTo 
+### -param RelativeTo [in]
 
-[in]
+
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
 
 <table>
@@ -147,14 +147,14 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use.
 </tr>
 </table>
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Pointer to either an absolute registry path or a path relative to the known location specified by the <i>RelativeTo</i> parameter. Note that the names of keys in such a path must be known to the caller, including the last key in the path. If the RTL_REGISTRY_HANDLE flag is specified, this parameter is a registry handle for an already opened key to be queried directly.
 
-### -param QueryTable 
+### -param QueryTable [in, out]
 
-[in, out]
+
 Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> function that will be called for each value name that exists in the registry. The table must be terminated with a <b>NULL</b> table entry, which is a table entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The structure for query table entries is defined as follows:
 
 
@@ -323,14 +323,14 @@ A pointer to the default value to be returned if no matching key is found and th
 
 Specifies the length, in bytes, of the <b>DefaultData</b> member. If <b>DefaultType</b> is REG_SZ, REG_EXPAND_SZ, or REG_MULTI_SZ, callers can optionally specify zero to indicate <b>RtlQueryRegistryValues</b> should compute the length based on the default data value. If <b>DefaultType</b> = REG_NONE, this member is ignored.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Specifies the value passed as the <i>Context</i> parameter of a <i>QueryRoutine</i> function each time it is called.
 
-### -param Environment 
+### -param Environment [in, optional]
 
-[in, optional]
+
 Pointer to the environment used when expanding variable values in REG_EXPAND_SZ registry values, or a <b>NULL</b> pointer (optional).
 
 ## -returns

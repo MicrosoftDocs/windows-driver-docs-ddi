@@ -52,9 +52,9 @@ The DXGK_ALLOCATIONUSAGEINFO1 structure describes how an allocation can be used 
 
 ## -struct-fields
 
-### -field Flags
+### -field Flags [out]
 
-[out] A union that contains either a structure (with the first eight members that are described below) or a 32-bit value (in the <b>Value</b> member) that identifies how the allocation is used:
+A union that contains either a structure (with the first eight members that are described below) or a 32-bit value (in the <b>Value</b> member) that identifies how the allocation is used:
 
 ### -field Flags.PrivateFormat
 
@@ -106,41 +106,41 @@ This member is reserved and should be set to zero. Setting this to zero is equiv
 
 Specifies a member in the union contained in the <b>Flags</b> member that can hold one 32-bit value that identifies how the allocation is used.
 
-### -field Format
+### -field Format [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 0 (FALSE).
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 0 (FALSE).
 
-### -field PrivateFormat
+### -field PrivateFormat [out]
 
-[out] A private format value for the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 1 (TRUE).
+A private format value for the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 1 (TRUE).
 
-### -field SwizzledFormat
+### -field SwizzledFormat [out]
 
-[out] A swizzled format value for the allocation that is private to a specific vendor.
+A swizzled format value for the allocation that is private to a specific vendor.
 
-### -field ByteOffset
+### -field ByteOffset [out]
 
-[out] The offset, in bytes, into the video memory manager's allocation that marks the start of the driver's version of the allocation.
+The offset, in bytes, into the video memory manager's allocation that marks the start of the driver's version of the allocation.
 
-### -field Width
+### -field Width [out]
 
-[out] The width, in pixels, of the allocation.
+The width, in pixels, of the allocation.
 
-### -field Height
+### -field Height [out]
 
-[out] The height, in number of lines, of the allocation.
+The height, in number of lines, of the allocation.
 
-### -field Pitch
+### -field Pitch [out]
 
-[out] The pitch, in bytes, of the allocation--that is, the distance, in bytes, to the start of the next line.
+The pitch, in bytes, of the allocation--that is, the distance, in bytes, to the start of the next line.
 
-### -field Depth
+### -field Depth [out]
 
-[out] The depth, in levels, of the allocation (for MIP-mapped and volume textures only).
+The depth, in levels, of the allocation (for MIP-mapped and volume textures only).
 
-### -field SlicePitch
+### -field SlicePitch [out]
 
-[out] The slice pitch, in bytes, from level to level (for cube and volume textures only).
+The slice pitch, in bytes, from level to level (for cube and volume textures only).
 
 ## -see-also
 

@@ -51,14 +51,14 @@ The <b>WDF_COMMON_BUFFER_CONFIG_INIT</b> function initializes a <a href="/window
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfcommonbuffer/ns-wdfcommonbuffer-_wdf_common_buffer_config">WDF_COMMON_BUFFER_CONFIG</a> structure.
 
-### -param AlignmentRequirement 
+### -param AlignmentRequirement [in]
 
-[in]
+
 A value for the <b>AlignmentRequirement</b> member of the <a href="/windows-hardware/drivers/ddi/wdfcommonbuffer/ns-wdfcommonbuffer-_wdf_common_buffer_config">WDF_COMMON_BUFFER_CONFIG</a> structure. This value specifies the alignment requirement for the common buffer that the structure describes.
 
 ## -remarks

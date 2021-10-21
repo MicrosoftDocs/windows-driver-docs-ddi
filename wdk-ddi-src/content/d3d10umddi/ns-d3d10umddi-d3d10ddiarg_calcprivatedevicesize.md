@@ -49,19 +49,19 @@ The D3D10DDIARG_CALCPRIVATEDEVICESIZE structure describes the parameters that th
 
 ## -struct-fields
 
-### -field Interface
+### -field Interface [in]
 
-[in] The Microsoft Direct3D interface version. The high 16 bits store the major release number (such as 10, 11, and so on); the low 16 bits store the minor release number (such as 0, 1, 2, and so on). The minor release number will be increased when a change to the interface is released.
+The Microsoft Direct3D interface version. The high 16 bits store the major release number (such as 10, 11, and so on); the low 16 bits store the minor release number (such as 0, 1, 2, and so on). The minor release number will be increased when a change to the interface is released.
 
-### -field Version
+### -field Version [in]
 
-[in] A number that the driver can use to identify when the Direct3D runtime was built. The high 16 bits represent the build number; the low 16 bits represent the revision number. 
+A number that the driver can use to identify when the Direct3D runtime was built. The high 16 bits represent the build number; the low 16 bits represent the revision number. 
 
 The driver is required only to monitor the high 16 bits. The driver should ensure that the runtime build version that is passed in is greater than or equal to the current build version of the driver. The driver should return a failure from its <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivatedevicesize">CalcPrivateDeviceSize</a> function if the passed in build version is incompatible.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
+A valid bitwise OR of flag values that identify how to create a rendering device. The Direct3D runtime supports the following flags:  
 
 
 

@@ -49,14 +49,14 @@ The <b>PshedSynchronizeExecution</b> function synchronizes the execution of a gi
 
 ## -parameters
 
-### -param ErrorSource 
+### -param ErrorSource [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes an error source.
 
-### -param SynchronizeRoutine 
+### -param SynchronizeRoutine [in]
 
-[in]
+
 A pointer to a caller-supplied function whose execution is synchronized with the hardware error processing for the error source described by the <i>ErrorSource</i> parameter. A <i>SynchronizeRoutine</i> function is declared as follows:
 
 
@@ -75,9 +75,9 @@ SynchronizeRoutine(
 
 The context value that is passed in the <i>SynchronizeContext</i> parameter to the <b>PshedSynchronizeExecution</b> function.
 
-### -param SynchronizeContext 
+### -param SynchronizeContext [in]
 
-[in]
+
 A pointer to a caller-supplied context area that is passed to the function pointed to by the <i>SynchronizeRoutine</i> parameter.
 
 ## -returns

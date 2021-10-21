@@ -49,9 +49,9 @@ The <b>GetParameters</b> method returns the parameters for a breakpoint.
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 The breakpoint's parameters.  For more information about the parameters, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_breakpoint_parameters">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
 ## -returns

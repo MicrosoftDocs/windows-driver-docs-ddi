@@ -50,19 +50,19 @@ The<b> KsPinGetAvailableByteCount</b> routine outputs the number of bytes of inp
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to calculate these queue parameters.
 
-### -param InputDataBytes 
+### -param InputDataBytes [out, optional]
 
-[out, optional]
+
 A pointer to a LONG value in which the routine returns the number of input data bytes ahead of the leading edge. Caller sets to <b>NULL</b> if this value is not requested.
 
-### -param OutputBufferBytes 
+### -param OutputBufferBytes [out, optional]
 
-[out, optional]
+
 A pointer to  a LONG value in which the routine returns the number of output buffer bytes ahead of the leading edge. Caller sets to <b>NULL</b> if this value is not requested.
 
 ## -returns

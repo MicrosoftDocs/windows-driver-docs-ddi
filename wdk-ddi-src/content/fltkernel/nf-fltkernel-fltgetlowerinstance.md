@@ -49,14 +49,14 @@ The <b>FltGetLowerInstance</b> routine returns an opaque instance pointer for th
 
 ## -parameters
 
-### -param CurrentInstance 
+### -param CurrentInstance [in]
 
-[in]
+
 Opaque instance pointer for the minifilter driver instance for which the lower minifilter driver instance is requested.
 
-### -param LowerInstance 
+### -param LowerInstance [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives an opaque minifilter driver instance pointer for the next lower minifilter driver instance. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

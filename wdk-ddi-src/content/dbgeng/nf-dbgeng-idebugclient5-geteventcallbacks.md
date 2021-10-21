@@ -49,9 +49,9 @@ The <b>GetEventCallbacks</b>  method returns the event callbacks object register
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 Receives an interface pointer to the event callbacks object registered with this client.
 
 ## -returns

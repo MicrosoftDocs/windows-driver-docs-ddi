@@ -49,14 +49,14 @@ Sets stream information for each stream enabled by the client driver.
 
 ## -parameters
 
-### -param StaticStreams 
+### -param StaticStreams [in]
 
-[in]
+
                 The handle to the Static Streams object just been created.
 
-### -param StreamInfo 
+### -param StreamInfo [in]
 
-[in]
+
                 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxsstreams/ns-ucxsstreams-_stream_info">STREAM_INFO</a> structure that contains static stream-related information.
 
 ## -remarks

@@ -54,9 +54,9 @@ The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="/windows-ha
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

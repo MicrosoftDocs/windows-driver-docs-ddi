@@ -49,9 +49,9 @@ Sets a quit lock string.
 
 ## -parameters
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A pointer to the quit lock string.
 
 ## -returns

@@ -50,9 +50,9 @@ api_name:
 
 ## -parameters
 
-### -param LogHandle 
+### -param LogHandle [in]
 
-[in]
+
 Specifies the handle returned by 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>.
 

@@ -49,19 +49,19 @@ The <b>CcMdlWriteComplete</b> routine frees the memory descriptor lists (MDL) cr
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer that was passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 Value of <i>FileOffset</i> that was passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>.
 
-### -param MdlChain 
+### -param MdlChain [in]
 
-[in]
+
 Address of the MDL chain returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>.
 
 ## -remarks

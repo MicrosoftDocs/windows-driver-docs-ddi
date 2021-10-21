@@ -49,9 +49,9 @@ The <b>FltGetRoutineAddress</b> routine returns a pointer to a routine specified
 
 ## -parameters
 
-### -param FltMgrRoutineName 
+### -param FltMgrRoutineName [in]
 
-[in]
+
 Name of the filter manager routine to resolve.
 
 ## -returns

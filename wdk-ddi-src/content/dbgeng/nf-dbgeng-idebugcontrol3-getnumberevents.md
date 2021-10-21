@@ -49,9 +49,9 @@ The <b>GetNumberEvents</b> method returns the number of <a href="/windows-hardwa
 
 ## -parameters
 
-### -param Events 
+### -param Events [out]
 
-[out]
+
 Receives the number of events stored in the target.  If the target offers multiple events, <i>Events</i> will be set to the number of events available.  Otherwise, <i>Events</i> will be set to one.
 
 ## -returns
