@@ -1,10 +1,11 @@
 ---
 UID: NS:dot11wificxtypes._WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 tech.root: netvista
-title: WDI_ETHERTYPE_ENCAPSULATION_ENTRY
-ms.date: 04/30/2021
+title: WDI_ETHERTYPE_ENCAPSULATION_ENTRY (dot11wificxtypes.h)
+ms.date: 09/15/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure for internal use only. Don't use this structure in your code."
+description: The WDI_ETHERTYPE_ENCAPSULATION_ENTRY struct defines an EtherType encapsulation entry.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_ETHERTYPE_ENCAPSULATION_ENTRY, *PWDI_ETHERTYPE_ENCAPSULATION_ENTRY
@@ -43,22 +44,26 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_ETHERTYPE_ENCAPSULATION_ENTRY** structure defines an EtherType encapsulation entry.
 
 ## -struct-fields
 
 ### -field EtherType
 
-Reserved.
+The value of the IEEE EtherType in big-endian byte order.
 
 ### -field EncapsulationType
 
-Reserved.
+The type of encapsulation to be performed on the specified EtherType.
 
 ## -remarks
 
+The **WDI_ETHERTYPE_ENCAPSULATION_ENTRY** structure is a value in the [**WDI_TLV_ETHERTYPE_ENCAP_TABLE**](/windows-hardware/drivers/netcx/wdi-tlv-ethertype-encap-table) TLV.
+
+
 ## -see-also
 
+[**WDI_TLV_ETHERTYPE_ENCAP_TABLE**](/windows-hardware/drivers/netcx/wdi-tlv-ethertype-encap-table)

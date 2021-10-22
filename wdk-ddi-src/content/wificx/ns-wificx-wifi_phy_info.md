@@ -1,10 +1,11 @@
 ---
 UID: NS:wificx._WIFI_PHY_INFO
 tech.root: netvista
-title: WIFI_PHY_INFO
-ms.date: 04/30/2021
+title: WIFI_PHY_INFO (wificx.h)
+ms.date: 08/27/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WIFI_PHY_INFO structure for internal use only. Don't use this structure in your code."
+description: The WIFI_PHY_INFO structure contains PHY information. 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_PHY_INFO
@@ -40,26 +41,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_PHY_INFO** structure contains PHY information. 
 
 ## -struct-fields
 
 ### -field PhyType
 
-Reserved.
+An [**WDI_PHY_TYPE**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_phy_type.md) enum that specifies the PHY type.
 
 ### -field NumberDataRateEntries
 
-Reserved.
+The number of data rate entries.
 
 ### -field DataRateList
 
-Reserved.
+An array of [**WDI_DATA_RATE_ENTRY**](../dot11wificxtypes/ns-dot11wificxtypes-wdi_data_rate_entry.md) structures. 
 
 ## -remarks
 
+**WIFI_PHY_INFO** is a member of the [**WIFI_PHY_CAPABILITIES**](ns-wificx-wifi_phy_capabilities.md) structure.
+
 ## -see-also
 
+[**WDI_PHY_TYPE**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_phy_type.md)
+
+[**WIFI_PHY_CAPABILITIES**](ns-wificx-wifi_phy_capabilities.md)
+
+[**WDI_DATA_RATE_ENTRY**](../dot11wificxtypes/ns-dot11wificxtypes-wdi_data_rate_entry.md)

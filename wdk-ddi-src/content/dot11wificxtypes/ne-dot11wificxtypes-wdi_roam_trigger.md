@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_ROAM_TRIGGER
 tech.root: netvista
-title: WDI_ROAM_TRIGGER
-ms.date: 04/30/2021
+title: WDI_ROAM_TRIGGER (dot11wificxtypes.h)
+ms.date: 09/15/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_ROAM_TRIGGER enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_ROAM_TRIGGER enum defines roam triggers.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,20 +37,21 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_ROAM_TRIGGER** enumeration defines roam triggers.
 
 ## -enum-fields
 
-### -field WDI_ROAM_TRIGGER_OTHER
+### -field WDI_ROAM_TRIGGER_OTHER:0x00000000
 
-Reserved.
+None.
 
-### -field WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST
+### -field WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST:0x00000001
 
-Reserved.
+This value is for roams due to a BSS Transition Request by the AP with the Disassociation Imminent bit set.
+
 
 ## -remarks
 

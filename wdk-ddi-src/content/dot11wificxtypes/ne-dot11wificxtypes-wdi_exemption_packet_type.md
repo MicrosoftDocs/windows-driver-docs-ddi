@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_EXEMPTION_PACKET_TYPE
 tech.root: netvista
-title: WDI_EXEMPTION_PACKET_TYPE
-ms.date: 04/30/2021
+title: WDI_EXEMPTION_PACKET_TYPE (dot11wificxtypes.h)
+ms.date: 07/22/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_EXEMPTION_PACKET_TYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_EXEMPTION_PACKET_TYPE enum defines the types of packet exemptions.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,26 +37,29 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_EXEMPTION_PACKET_TYPE** enumeration defines the types of packet exemptions.
 
 ## -enum-fields
 
-### -field WDI_EXEMPT_PACKET_TYPE_UNICAST
+### -field WDI_EXEMPT_PACKET_TYPE_UNICAST:1
 
-Reserved.
+Exempt unicast packets only.
 
-### -field WDI_EXEMPT_PACKET_TYPE_MULTICAST
+### -field WDI_EXEMPT_PACKET_TYPE_MULTICAST:2
 
-Reserved.
+Exempt multicast and broadcast packets only.
 
-### -field WDI_EXEMPT_PACKET_TYPE_BOTH
+### -field WDI_EXEMPT_PACKET_TYPE_BOTH:3
 
-Reserved.
+Exempt all packet types.
 
 ## -remarks
 
+The **WDI_EXEMPTION_PACKET_TYPE** enum is a value in the [**WDI_TLV_PRIVACY_EXEMPTION_ENTRY**](/windows-hardware/drivers/netcx/wdi-tlv-privacy-exemption-entry) TLV.
+
 ## -see-also
 
+[**WDI_TLV_PRIVACY_EXEMPTION_ENTRY**](/windows-hardware/drivers/netcx/wdi-tlv-privacy-exemption-entry)

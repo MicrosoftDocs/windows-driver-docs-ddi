@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 tech.root: netvista
-title: WDI_BLUETOOTH_COEXISTENCE_SUPPORT
-ms.date: 04/30/2021
+title: WDI_BLUETOOTH_COEXISTENCE_SUPPORT (dot11wificxtypes.h)
+ms.date: 09/15/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_BLUETOOTH_COEXISTENCE_SUPPORT enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enum defines Bluetooth coexistence support values.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,36 +37,35 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enumeration defines Bluetooth coexistence support values.
 
 ## -enum-fields
 
-### -field WDI_BLUETOOTH_COEXISTENCE_UNKNOWN
+### -field WDI_BLUETOOTH_COEXISTENCE_UNKNOWN:0
 
-Reserved.
+Unknown.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_PERFORMANCE_MAINTAINED
+### -field WDI_BLUETOOTH_COEXISTENCE_PERFORMANCE_MAINTAINED:1
 
-Reserved.
+Wi-Fi and Bluetooth work at the same performance level during coexistence.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_DEGRADED_TO_1x1
+### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_DEGRADED_TO_1x1:2
 
-Reserved.
+Wi-Fi centered. On a 2X2 device, Wi-Fi and Bluetooth coexists. Wi-Fi performance is reduced to 1X1 level.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_THROUGHPUT_DEGRADED
+### -field WDI_BLUETOOTH_COEXISTENCE_WIFI_THROUGHPUT_DEGRADED:3
 
-Reserved.
+Bluetooth centered. When coexisting, Bluetooth has priority and restricts Wi-Fi performance.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_MUTUALLY_EXCLUSIVE
+### -field WDI_BLUETOOTH_COEXISTENCE_MUTUALLY_EXCLUSIVE:4
 
-Reserved.
+Wi-Fi and Bluetooth are mutually exclusive. One of the two stops working.
 
-### -field WDI_BLUETOOTH_COEXISTENCE_MAX
+### -field WDI_BLUETOOTH_COEXISTENCE_MAX:5
 
-Reserved.
 
 ## -remarks
 

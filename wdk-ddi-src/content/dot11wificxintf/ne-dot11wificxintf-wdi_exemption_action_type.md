@@ -1,17 +1,17 @@
 ---
 UID: NE:dot11wificxintf._WDI_EXEMPTION_ACTION_TYPE
 tech.root: netvista
-title: WDI_EXEMPTION_ACTION_TYPE
-ms.date: 04/30/2021
+title: WDI_EXEMPTION_ACTION_TYPE (dot11wificxintf.h)
+ms.date: 09/15/2021
 targetos: Windows
-description: "Microsoft reserves the WDI_EXEMPTION_ACTION_TYPE enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_EXEMPTION_ACTION_TYPE enum defines exemption types.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxintf.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,26 +36,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is now in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_EXEMPTION_ACTION_TYPE** enumeration defines exemption types.
 
 ## -enum-fields
 
-### -field WDI_EXEMPT_NO_EXEMPTION
+### -field WDI_EXEMPT_NO_EXEMPTION:0
 
-Reserved.
+Packets are not exempt from any cipher operations performed by the port.
 
-### -field WDI_EXEMPT_ALWAYS
+### -field WDI_EXEMPT_ALWAYS:1
 
-Reserved.
+On send, packets are exempt from cipher operations and are transmitted unencrypted. On receive, the received packet is discarded if the Protected Frame subfield of the Frame Control field in the 802.11 MAC header is set to 1.
 
-### -field WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
+### -field WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE:2
 
-Reserved.
+On send, packets are exempt from cipher operations if there is no key-mapping key for the packet's destination MAC address. On receive, the received packet is discarded if a key-mapping key for the source MAC address is available and the Protected Frame subfield of the Frame Control field in the 802.11 MAC header is set to **zero**.
+
 
 ## -remarks
 
+The **WDI_EXEMPTION_ACTION_TYPE** enum is a value in the [**WDI_TLV_PRIVACY_EXEMPTION_ENTRY**](/windows-hardware/drivers/netcx/wdi-tlv-privacy-exemption-entry) TLV.
+
 ## -see-also
 
+[**WDI_TLV_PRIVACY_EXEMPTION_ENTRY**](/windows-hardware/drivers/netcx/wdi-tlv-privacy-exemption-entry)
