@@ -5,6 +5,7 @@
     "acxdevice.h",
     "acxdriver.h",
     "acxelements.h",
+    "acxevents.h",
     "acxpin.h",
     "acxstreams.h",
     "bthhfpddi.h",

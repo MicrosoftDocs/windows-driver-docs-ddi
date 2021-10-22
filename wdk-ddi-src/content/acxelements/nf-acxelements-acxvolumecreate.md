@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxVolumeCreate
 tech.root: audio 
 title: AcxVolumeCreate
-ms.date: 09/22/2021
+ms.date: 10/21/2021
 targetos: Windows
-description: TBD - The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object (TBD???) parent. 
+description: The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object (TBD???) parent. 
+The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object parent. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
 
 ### -param Attributes
 

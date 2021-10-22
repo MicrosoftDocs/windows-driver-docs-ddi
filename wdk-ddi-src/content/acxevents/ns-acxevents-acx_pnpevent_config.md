@@ -1,10 +1,10 @@
 ---
 UID: NS:acxevents._ACX_PNPEVENT_CONFIG
-tech.root: 
+tech.root: audio
 title: ACX_PNPEVENT_CONFIG
-ms.date: 
+ms.date:  10/21/2021
 targetos: Windows
-description: 
+description: TBD
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

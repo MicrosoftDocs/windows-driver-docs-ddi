@@ -1,10 +1,10 @@
 ---
 UID: NC:acxevents.PFN_ACXPNPEVENTGENERATEEVENT
-tech.root: 
+tech.root: audio
 title: PFN_ACXPNPEVENTGENERATEEVENT
-ms.date: 
+ms.date:  10/21/2021
 targetos: Windows
-description: 
+description: TBD
 prerelease: true
 req.assembly: 
 req.construct-type: function

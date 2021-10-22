@@ -1,10 +1,10 @@
 ---
 UID: NC:acxevents.EVT_ACX_EVENT_ENABLE
-tech.root: 
+tech.root: audio
 title: EVT_ACX_EVENT_ENABLE
-ms.date: 
+ms.date:  10/21/2021
 targetos: Windows
-description: 
+description: TBD
 prerelease: true
 req.assembly: 
 req.construct-type: function

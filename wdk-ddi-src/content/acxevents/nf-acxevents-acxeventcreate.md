@@ -1,10 +1,10 @@
 ---
 UID: NF:acxevents.AcxEventCreate
-tech.root: 
+tech.root: audio
 title: AcxEventCreate
-ms.date: 
+ms.date:  10/21/2021
 targetos: Windows
-description: 
+description: TBD
 prerelease: true
 req.assembly: 
 req.construct-type: function

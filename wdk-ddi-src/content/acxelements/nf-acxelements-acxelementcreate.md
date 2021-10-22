@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxElementCreate
 tech.root: audio 
 title: AcxElementCreate
-ms.date: 09/23/2021
+ms.date: 10/21/2021
 targetos: Windows
-description: TBD - The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
+description: The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
+The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that that that will be associated with the stream. 
 
 ### -param Attributes
 

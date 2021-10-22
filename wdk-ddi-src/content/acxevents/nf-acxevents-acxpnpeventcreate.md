@@ -1,10 +1,10 @@
 ---
 UID: NF:acxevents.AcxPnpEventCreate
-tech.root: 
+tech.root: audio
 title: AcxPnpEventCreate
-ms.date: 
+ms.date:  10/21/2021
 targetos: Windows
-description: 
+description: TBD
 prerelease: true
 req.assembly: 
 req.construct-type: function

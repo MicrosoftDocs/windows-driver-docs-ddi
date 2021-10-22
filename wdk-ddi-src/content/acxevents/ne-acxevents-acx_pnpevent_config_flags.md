@@ -1,10 +1,10 @@
 ---
 UID: NE:acxevents._ACX_PNPEVENT_CONFIG_FLAGS
-tech.root: 
+tech.root: audio
 title: ACX_PNPEVENT_CONFIG_FLAGS
-ms.date: 
+ms.date:  10/21/2021
 targetos: Windows
-description: 
+description: TBD
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxAudioEngineCreate
 tech.root: audio 
 title: AcxAudioEngineCreate
-ms.date: 09/22/2021
+ms.date: 10/21/2021
 targetos: Windows
-description: TBD - The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent. 
+description: The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object (TBD???) parent. 
+The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit.
 
 ### -param Attributes
 
