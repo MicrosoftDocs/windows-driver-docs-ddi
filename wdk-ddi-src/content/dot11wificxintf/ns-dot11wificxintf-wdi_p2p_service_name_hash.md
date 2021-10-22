@@ -44,6 +44,9 @@ dev_langs:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is now in maintenance mode and will only receive high priority fixes.
+
 The **WDI_P2P_SERVICE_NAME_HASH** structure defines a hash of a WFDS Service Name.
 
 ## -struct-fields
