@@ -51,7 +51,7 @@ Notifies UFX that the device's USB cable has been attached.
 ### -param UfxDevice [in]
 
 
-A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate).
+A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](./nf-ufxclient-ufxdevicecreate.md).
 
 ## -remarks
 
@@ -60,7 +60,7 @@ When the client driver calls **UfxDeviceNotifyAttach**, the USB function class e
 * Moves the device to the powered state, as defined in the USB specification.
 * Allows device enumeration to occur.
 
-The client driver typically calls **UfxDeviceNotifyAttach** from its [EVT_WDF_INTERRUPT_DPC](/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc) callback function, as shown in the following example.
+The client driver typically calls **UfxDeviceNotifyAttach** from its [EVT_WDF_INTERRUPT_DPC](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc.md) callback function, as shown in the following example.
 
 ```cpp
 VOID 

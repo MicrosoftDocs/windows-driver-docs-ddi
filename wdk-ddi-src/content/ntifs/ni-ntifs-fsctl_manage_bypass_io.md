@@ -42,7 +42,7 @@ The **FSCTL_MANAGE_BYPASS_IO** control code controls BypassIO operations on a gi
 
 ## -remarks
 
-To perform this operation, call [**FltFsControlFile**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
+To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -59,7 +59,7 @@ See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for mo
 
 ## -see-also
 
-[**FltFsControlFile**](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile)
+[**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
 [**FS_BPIO_INPUT**](ns-ntifs-fs_bpio_input.md)
 

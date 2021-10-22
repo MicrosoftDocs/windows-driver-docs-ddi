@@ -59,4 +59,4 @@ Pointer to information about the UCX controller state after the reset completes.
 
 ## -see-also
 
-[UcxEndpointCreate](/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate)
+[UcxEndpointCreate](../ucxendpoint/nf-ucxendpoint-ucxendpointcreate.md)

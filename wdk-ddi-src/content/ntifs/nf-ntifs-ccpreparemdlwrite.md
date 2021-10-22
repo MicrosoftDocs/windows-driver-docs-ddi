@@ -116,7 +116,7 @@ To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccini
 
 
 
-[MmGetMdlByteOffset](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetmdlbyteoffset)
+[MmGetMdlByteOffset](../wdm/nf-wdm-mmgetmdlbyteoffset.md)
 
 
 
@@ -136,7 +136,7 @@ To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccini
 
 
 
-[MmInitializeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mminitializemdl)
+[MmInitializeMdl](../wdm/nf-wdm-mminitializemdl.md)
 
 
 
@@ -144,7 +144,7 @@ To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccini
 
 
 
-[MmPrepareMdlForReuse](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpreparemdlforreuse)
+[MmPrepareMdlForReuse](../wdm/nf-wdm-mmpreparemdlforreuse.md)
 
 
 

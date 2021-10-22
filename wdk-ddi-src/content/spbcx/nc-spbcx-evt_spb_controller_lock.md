@@ -56,7 +56,7 @@ A WDFDEVICE handle to the [framework device object](/windows-hardware/drivers/wd
 ### -param Target [in]
 
 
-An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect) callback that opened the connection to the target.
+An [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles) handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md) callback that opened the connection to the target.
 
 ### -param LockRequest [in]
 
@@ -67,7 +67,7 @@ An [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles) handle to an
 
 SpbCx manages the I/O queue for the SPB controller. If the SPB controller driver registers an *EvtSpbControllerLock* callback function, SpbCx calls this function when a client (peripheral driver) of the controller sends an [IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_controller-control-code) request to a target on the bus. The *LockRequest* parameter value is a handle that encapsulates this request.
 
-The *EvtSpbControllerLock* and [EvtSpbControllerUnlock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock) functions perform complementary operations. Both functions are optional. If your SPB controller driver implements an *EvtSpbControllerUnlock* function, the driver is not required to implement an *EvtSpbControllerLock* function, but might do so. However, if your SPB controller driver implements an *EvtSpbControllerLock* function, it must also implement an *EvtSpbControllerUnlock* function. For more information, see Remarks in [SPB_CONTROLLER_CONFIG](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config).
+The *EvtSpbControllerLock* and [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md) functions perform complementary operations. Both functions are optional. If your SPB controller driver implements an *EvtSpbControllerUnlock* function, the driver is not required to implement an *EvtSpbControllerLock* function, but might do so. However, if your SPB controller driver implements an *EvtSpbControllerLock* function, it must also implement an *EvtSpbControllerUnlock* function. For more information, see Remarks in [SPB_CONTROLLER_CONFIG](./ns-spbcx-_spb_controller_config.md).
 
 While the lock is in effect, the controller must not allow accesses to targets on the bus other than the target designated by the *LockRequest* parameter.
 
@@ -79,9 +79,9 @@ An *EvtSpbControllerLock* callback must avoid failing a lock request. If [Driver
 
 The *EvtSpbControllerLock* function does not return a value. Instead, the SPB controller driver indicates the status of the lock operation in the completion status of the I/O request that is identified by the *LockRequest* parameter. Set the completion status to STATUS_SUCCESS.
 
-SpbCx calls the [EvtSpbControllerUnlock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock) event callback function to unlock a controller that was previously locked by an *EvtSpbControllerLock* callback.
+SpbCx calls the [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md) event callback function to unlock a controller that was previously locked by an *EvtSpbControllerLock* callback.
 
-To register an *EvtSpbControllerLock* callback function, call the [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize) method.
+To register an *EvtSpbControllerLock* callback function, call the [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md) method.
 
 For more information about the *EvtSpbControllerLock* function, see [Handling Client-Implemented Sequences](/windows-hardware/drivers/spb/handling-client-implemented-sequences).
 
@@ -112,11 +112,11 @@ The EVT_SPB_CONTROLLER_LOCK function type is defined in the Spbcx.h header file.
 
 ## -see-also
 
-* [EvtSpbControllerUnlock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock)
-* [EvtSpbTargetConnect](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect)
+* [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md)
+* [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md)
 * [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
 * [IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_controller-control-code)
 * [SPBREQUEST](/windows-hardware/drivers/spb/spbcx-object-handles)
 * [SPBTARGET](/windows-hardware/drivers/spb/spbcx-object-handles)
-* [SPB_CONTROLLER_CONFIG](/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config)
-* [SpbDeviceInitialize](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize)
+* [SPB_CONTROLLER_CONFIG](./ns-spbcx-_spb_controller_config.md)
+* [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md)

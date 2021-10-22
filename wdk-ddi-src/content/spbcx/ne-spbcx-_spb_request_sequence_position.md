@@ -94,7 +94,7 @@ For internal use only.
 
 A client (peripheral driver) of the SPB controller can perform an I/O transfer sequence by sending a series of read and write requests to a target device on the bus. Each read or write request in the series occupies a position in the list of transfers for the sequence. The values in the **SPB_REQUEST_SEQUENCE_POSITION** enumeration indicate the relative positions of the read and write requests in this list.
 
-The [SpbRequestGetParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters) method retrieves the SPB-specific parameter values from an I/O request and writes them to an [SPB_REQUEST_PARAMETERS](/previous-versions/hh406209(v=vs.85)) structure. Included in these parameters is an **SPB_REQUEST_SEQUENCE_POSITION** enumeration value that indicates the position of the I/O request in the I/O transfer sequence of which it is part.
+The [SpbRequestGetParameters](./nf-spbcx-spbrequestgetparameters.md) method retrieves the SPB-specific parameter values from an I/O request and writes them to an [SPB_REQUEST_PARAMETERS](/previous-versions/hh406209(v=vs.85)) structure. Included in these parameters is an **SPB_REQUEST_SEQUENCE_POSITION** enumeration value that indicates the position of the I/O request in the I/O transfer sequence of which it is part.
 
 If **SpbRequestGetParameters** is called to retrieve the position value of an I/O request that is not a part of a sequence, this method assigns an appropriate **SPB_REQUEST_SEQUENCE_POSITION** enumeration value to the request.
 
@@ -106,19 +106,19 @@ If the client sends a lock (**IOCTL_SPB_LOCK_CONTROLLER**) request to signal the
 
 For lock requests, the position value is set to **SpbRequestSequencePositionFirst**. For unlock requests, the position value is set to **SpbRequestSequencePositionLast**.
 
-Some controllers might support special operations, such as full-duplex bus transfers that simultaneously read from and write to a target device. A client can perform a custom sequence operation by locking the controller and sending a series of custom I/O requests, which SpbCx passes to the SPB controller driver's [EvtSpbControllerIoOther](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_other) callback function. In this case, the position value for the first custom I/O request in the sequence is **SpbRequestSequencePositionFirst**, and the position value for the remaining custom I/O requests in the sequence is **SpbRequestSequencePositionContinue**. The sequence ends when the client unlocks the controller. If the *EvtSpbControllerIoOther* callback function receives a custom I/O request that is not part of a sequence, the position value for this request is **SpbRequestSequencePositionSingle**.
+Some controllers might support special operations, such as full-duplex bus transfers that simultaneously read from and write to a target device. A client can perform a custom sequence operation by locking the controller and sending a series of custom I/O requests, which SpbCx passes to the SPB controller driver's [EvtSpbControllerIoOther](./nc-spbcx-evt_spb_controller_other.md) callback function. In this case, the position value for the first custom I/O request in the sequence is **SpbRequestSequencePositionFirst**, and the position value for the remaining custom I/O requests in the sequence is **SpbRequestSequencePositionContinue**. The sequence ends when the client unlocks the controller. If the *EvtSpbControllerIoOther* callback function receives a custom I/O request that is not part of a sequence, the position value for this request is **SpbRequestSequencePositionSingle**.
 
 For a position value of **SpbRequestSequencePositionLast**, the **Length** member of the **SPB_REQUEST_PARAMETERS** structure can be 0 to indicate that the target should simply be released and that no I/O data should be transferred (or, equivalently, to indicate that a 0-byte transfer should occur, if the controller cannot release the device without running the clock).
 
-For position values of **SpbRequestSequencePositionContinue** and **SpbRequestSequencePositionLast**, the transfer direction might have changed from the previous transfer and the SPB controller driver might need to indicate this possible direction change on the bus (for example, an I<sup>2</sup>C controller issues a new START condition). For more information about transfer directions, see [SPB_TRANSFER_DIRECTION](/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_direction).
+For position values of **SpbRequestSequencePositionContinue** and **SpbRequestSequencePositionLast**, the transfer direction might have changed from the previous transfer and the SPB controller driver might need to indicate this possible direction change on the bus (for example, an I<sup>2</sup>C controller issues a new START condition). For more information about transfer directions, see [SPB_TRANSFER_DIRECTION](../spb/ne-spb-spb_transfer_direction.md).
 
 ## -see-also
 
-* [EvtSpbControllerIoSequence](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence)
+* [EvtSpbControllerIoSequence](./nc-spbcx-evt_spb_controller_sequence.md)
 * [IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_controller-control-code)
 * [IOCTL_SPB_UNLOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_controller-control-code)
 * [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read)
 * [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write)
 * [SPB_REQUEST_PARAMETERS](/previous-versions/hh406209(v=vs.85))
-* [SPB_TRANSFER_DIRECTION](/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_direction)
-* [SpbRequestGetParameters](/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters)
+* [SPB_TRANSFER_DIRECTION](../spb/ne-spb-spb_transfer_direction.md)
+* [SpbRequestGetParameters](./nf-spbcx-spbrequestgetparameters.md)
