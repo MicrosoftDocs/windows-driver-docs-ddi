@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_JACK_CONFIG_FLAGS
 tech.root: audio
 title: ACX_JACK_CONFIG_FLAGS
-ms.date: 10/05/2021
+ms.date: 10/22/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -41,11 +41,16 @@ dev_langs:
 
 ### -field AcxJackConfigNoFlags
 
+Indicates that there are no flags set.
+
 ### -field AcxJackConfigJackDetection
 
+Indicates if the audio hardware can detect whether a device is plugged in.
+
 ### -field AcxJackConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
-
