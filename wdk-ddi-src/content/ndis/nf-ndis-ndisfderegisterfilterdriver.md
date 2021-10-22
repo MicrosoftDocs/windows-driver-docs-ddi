@@ -53,9 +53,9 @@ A filter drivers calls the
 
 ## -parameters
 
-### -param NdisFilterDriverHandle 
+### -param NdisFilterDriverHandle [in]
 
-[in]
+
 The filter driver handle that identifies this filter driver. NDIS returned the handle to the
      filter driver in a call to 
      <b>NdisFRegisterFilterDriver</b>.

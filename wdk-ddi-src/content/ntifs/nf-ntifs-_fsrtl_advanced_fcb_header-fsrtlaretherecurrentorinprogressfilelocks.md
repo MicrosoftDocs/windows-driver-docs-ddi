@@ -49,9 +49,9 @@ The<b>FsRtlAreThereCurrentOrInProgressFileLocks </b>routine determines if there 
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure for the file to be checked.
 
 ## -returns

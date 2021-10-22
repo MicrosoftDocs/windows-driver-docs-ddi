@@ -55,13 +55,13 @@ The <code>OEMQueryAdvanceWidths</code> function returns character advance widths
 
 ### -param iMode
 
-### -param phg 
+### -param phg [in]
 
-[in]
 
-### -param pvWidths 
 
-[out]
+### -param pvWidths [out]
+
+
 
 ### -param cGlyphs
 

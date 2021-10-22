@@ -49,9 +49,9 @@ The <b>IoFreeWorkItem</b> routine frees a work item that was allocated by <a hre
 
 ## -parameters
 
-### -param IoWorkItem 
+### -param IoWorkItem [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure that was returned by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>.
 
 ## -remarks

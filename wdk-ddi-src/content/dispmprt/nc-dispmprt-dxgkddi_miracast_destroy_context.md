@@ -49,14 +49,14 @@ Destroys an instance of a Miracast device.
 
 ## -parameters
 
-### -param DriverContext 
+### -param DriverContext [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param MiracastContext 
+### -param MiracastContext [in]
 
-[in]
+
 The Miracast device context, supplied by the operating system. This context was previously provided by the driver in a call to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
 ## -remarks

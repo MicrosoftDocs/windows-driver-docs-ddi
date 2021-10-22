@@ -49,29 +49,29 @@ The D3D10_DDI_VIEWPORT structure describes a viewport.
 
 ## -struct-fields
 
-### -field TopLeftX
+### -field TopLeftX [in]
 
-[in] A single-precision float vector for the top-left x-coordinate of the viewport.
+A single-precision float vector for the top-left x-coordinate of the viewport.
 
-### -field TopLeftY
+### -field TopLeftY [in]
 
-[in] A single-precision float vector for the top-left y-coordinate of the viewport.
+A single-precision float vector for the top-left y-coordinate of the viewport.
 
 ### -field Width
 
       [in] A single-precision float vector for the width of the viewport.
 
-### -field Height
+### -field Height [in]
 
-[in] A single-precision float vector for the height of the viewport.
+A single-precision float vector for the height of the viewport.
 
-### -field MinDepth
+### -field MinDepth [in]
 
-[in] A single-precision float vector for the minimum depth of the viewport.
+A single-precision float vector for the minimum depth of the viewport.
 
-### -field MaxDepth
+### -field MaxDepth [in]
 
-[in] A single-precision float vector for the maximum depth of the viewport.
+A single-precision float vector for the maximum depth of the viewport.
 
 ## -see-also
 

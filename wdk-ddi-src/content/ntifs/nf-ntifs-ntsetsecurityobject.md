@@ -49,13 +49,13 @@ The **NtSetSecurityObject** routine sets an object's security state.
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in] Handle for the object whose security state is to be set. This handle must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter.
+Handle for the object whose security state is to be set. This handle must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter.
 
-### -param SecurityInformation 
+### -param SecurityInformation [in]
 
-[in] [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
+[**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
 
 | Value | Meaning |
 | ----- | ------- |
@@ -64,9 +64,9 @@ The **NtSetSecurityObject** routine sets an object's security state.
 | SACL_SECURITY_INFORMATION | Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYSTEM_SECURITY access. |
 | DACL_SECURITY_INFORMATION | Indicates the discretionary access control list (DACL) of the object is to be set. Requires WRITE_DAC access. |
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in] Pointer to the security descriptor to be set for the object.
+Pointer to the security descriptor to be set for the object.
 
 ## -returns
 

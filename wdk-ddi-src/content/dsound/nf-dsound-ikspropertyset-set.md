@@ -48,29 +48,29 @@ The **Set** method sets a property identified by a property-set GUID and a prope
 
 ## -parameters
 
-### -param rguidPropSet
+### -param rguidPropSet [in]
 
-[in] GUID that identifies the property set.
+GUID that identifies the property set.
 
-### -param ulId
+### -param ulId [in]
 
-[in] Identifier of the property within the property set.
+Identifier of the property within the property set.
 
-### -param pInstanceData
+### -param pInstanceData [in]
 
-[in] Pointer to instance data for the property.
+Pointer to instance data for the property.
 
-### -param ulInstanceLength
+### -param ulInstanceLength [in]
 
-[in] Size, in bytes, of the buffer at *InstanceData*.
+Size, in bytes, of the buffer at *InstanceData*.
 
-### -param pPropertyData
+### -param pPropertyData [in]
 
-[in] Pointer to a buffer that contains the value of the property to set.
+Pointer to a buffer that contains the value of the property to set.
 
-### -param ulDataLength
+### -param ulDataLength [in]
 
-[in] Size, in bytes, of the buffer at *PropertyData*.
+Size, in bytes, of the buffer at *PropertyData*.
 
 ## -returns
 

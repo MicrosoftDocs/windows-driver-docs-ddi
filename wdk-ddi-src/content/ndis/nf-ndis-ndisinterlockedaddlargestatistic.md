@@ -51,15 +51,15 @@ The
 
 ## -parameters
 
-### -param _Addend 
+### -param _Addend [in]
 
-[in]
+
 A pointer to a LARGE_INTEGER value that is incremented by the value of 
      <i>Increment</i> .
 
-### -param _Increment 
+### -param _Increment [in]
 
-[in]
+
 A ULONG value that is added to the value to which the 
      <i>Addend</i> parameter points.
 

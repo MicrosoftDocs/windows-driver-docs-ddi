@@ -50,17 +50,17 @@ dev_langs:
 
 ## -parameters
 
-### -param Filter
+### -param Filter [in]
 
-[in] Opaque filter pointer that uniquely identifies the minifilter driver. It is returned by [**FltRegisterFilter**](nf-fltkernel-fltregisterfilter.md), and remains constant as long as the minifilter driver is loaded.
+Opaque filter pointer that uniquely identifies the minifilter driver. It is returned by [**FltRegisterFilter**](nf-fltkernel-fltregisterfilter.md), and remains constant as long as the minifilter driver is loaded.
 
-### -param Data
+### -param Data [in]
 
-[in] Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data representing the I/O operation.
+Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data representing the I/O operation.
 
-### -param InfoClass
+### -param InfoClass [in]
 
-[in] Flag that indicates the type of file information to return. Note that flags cannot be combined. Can be one of the following values:
+Flag that indicates the type of file information to return. Note that flags cannot be combined. Can be one of the following values:
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -68,13 +68,13 @@ dev_langs:
 | **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a [**QUERY_ON_CREATE_FILE_LX_INFORMATION**](../ntifs/ns-ntifs-query_on_create_file_lx_information.md) structure. |
 | **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a [**QUERY_ON_CREATE_EA_INFORMATION**](../ntifs/ns-ntifs-query_on_create_ea_information.md) structure. |
 
-### -param RetInfoSize
+### -param RetInfoSize [out]
 
-[out] Pointer to a ULONG that receives the size, in bytes, of the buffer that **RetInfoBuffer** points to.
+Pointer to a ULONG that receives the size, in bytes, of the buffer that **RetInfoBuffer** points to.
 
-### -param RetInfoBuffer
+### -param RetInfoBuffer [out]
 
-[out] Receives a pointer to the requested **InfoClass** structure. If the file system is able to process the request but can't find the requested file information, this parameter is set to NULL.
+Receives a pointer to the requested **InfoClass** structure. If the file system is able to process the request but can't find the requested file information, this parameter is set to NULL.
 
 ## -returns
 

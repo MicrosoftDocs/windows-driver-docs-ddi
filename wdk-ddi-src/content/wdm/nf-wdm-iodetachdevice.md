@@ -49,9 +49,9 @@ The <b>IoDetachDevice</b> routine releases an attachment between the caller's de
 
 ## -parameters
 
-### -param TargetDevice 
+### -param TargetDevice [in, out]
 
-[in, out]
+
 Pointer to the lower driver's device object. The caller previously called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevice">IoAttachDevice</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a> successfully to get this pointer.
 
 ## -remarks

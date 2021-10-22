@@ -50,23 +50,23 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 
 ### -param Error
 
-### -param hWnd 
+### -param hWnd [in]
 
-[in]
 
-### -param pText 
 
-[in]
+### -param pText [in]
 
-### -param pCaption 
 
-[in]
+
+### -param pCaption [in]
+
+
 
 ### -param dwType
 

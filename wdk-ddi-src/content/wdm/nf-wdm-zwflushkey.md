@@ -49,9 +49,9 @@ The <b>ZwFlushKey</b> routine forces a registry key to be committed to disk.
 
 ## -parameters
 
-### -param KeyHandle 
+### -param KeyHandle [in]
 
-[in]
+
 Handle to the registry key to be flushed to disk. This handle is created by a successful call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
 
 ## -returns

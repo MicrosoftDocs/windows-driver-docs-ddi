@@ -49,14 +49,14 @@ The <b>GetSymbolEntryInformation</b> method returns the symbol entry information
 
 ## -parameters
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 Specifies the module and symbol ID of the desired symbol.  For details on this structure, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a>.
 
-### -param Info 
+### -param Info [out]
 
-[out]
+
 Receives the symbol entry information for the symbol.  For details on this structure, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_entry">DEBUG_SYMBOL_ENTRY</a>.
 
 ## -returns

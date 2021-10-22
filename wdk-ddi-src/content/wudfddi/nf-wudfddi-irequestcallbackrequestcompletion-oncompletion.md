@@ -51,24 +51,24 @@ The <b>OnCompletion</b> method completes the specified request.
 
 ## -parameters
 
-### -param pWdfRequest 
+### -param pWdfRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object.
 
-### -param pIoTarget 
+### -param pIoTarget [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface for the I/O target object that represents the lower driver in the stack where the request was previously sent.
 
-### -param pParams 
+### -param pParams [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a> interface for the parameters object for the completion request.
 
-### -param pContext 
+### -param pContext [in]
 
-[in]
+
 A pointer to a buffer that contains context information that is related to the completion request.
 
 ## -remarks

@@ -50,14 +50,14 @@ The <b>TapeClassAllocateSrbBuffer</b> routine allocates an <b>Srb->DataBuffer</b
 
 ## -parameters
 
-### -param Srb 
+### -param Srb [in, out]
 
-[in, out]
+
 Pointer to the SRB.
 
-### -param SrbBufferSize 
+### -param SrbBufferSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the <b>DataBuffer</b> to be allocated.
 
 ## -returns

@@ -49,14 +49,14 @@ Called by the user-mode display driver to report the statistics of the Miracast 
 
 ## -parameters
 
-### -param hMiracastDeviceHandle 
+### -param hMiracastDeviceHandle [in]
 
-[in]
+
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
-### -param pStatistics 
+### -param pStatistics [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
 
 ## -remarks

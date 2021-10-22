@@ -49,14 +49,14 @@ The <b>CcGetFlushedValidData</b> routine determines how much of a cached file ha
 
 ## -parameters
 
-### -param SectionObjectPointer 
+### -param SectionObjectPointer [in]
 
-[in]
+
 Pointer to a structure containing the file object's section object pointers.
 
-### -param BcbListHeld 
+### -param BcbListHeld [in]
 
-[in]
+
 Reserved for system use. Must be <b>FALSE</b>.
 
 ## -returns

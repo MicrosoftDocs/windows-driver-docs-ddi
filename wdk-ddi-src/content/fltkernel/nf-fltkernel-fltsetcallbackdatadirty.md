@@ -49,9 +49,9 @@ A minifilter driver's preoperation or postoperation callback routine calls <b>Fl
 
 ## -parameters
 
-### -param Data 
+### -param Data [in, out]
 
-[in, out]
+
 A pointer to a callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure.
 
 ## -returns

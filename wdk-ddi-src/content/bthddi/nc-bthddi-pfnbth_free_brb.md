@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param pBrb 
+### -param pBrb [in]
 
-[in]
+
 Pointer to the BRB to free.
 
 ## -remarks

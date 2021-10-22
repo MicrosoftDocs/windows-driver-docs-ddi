@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param NameCacheCtl 
+### -param NameCacheCtl [in]
 
-[in]
+
 A pointer to the NAME_CACHE_CONTROL structure from which to allocate the entry.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 A pointer to the Unicode name string with which to initialize the name cache entry.
 
-### -param CaseInsensitive 
+### -param CaseInsensitive [in]
 
-[in]
+
 A Boolean value that indicates if case insensitive comparions should be used when comparing the <i>Name</i> parameter.
 
 ## -returns

@@ -53,9 +53,9 @@ The **NetOffloadIsTcpRscIPv6Enabled** function determines whether a net adapter 
 
 ## -parameters
 
-### -param Offload
+### -param Offload [_In_]
 
-[_In_] A NETOFFLOAD object that represents the net adapter's RSC capabilities.
+A NETOFFLOAD object that represents the net adapter's RSC capabilities.
 
 ## -returns
 

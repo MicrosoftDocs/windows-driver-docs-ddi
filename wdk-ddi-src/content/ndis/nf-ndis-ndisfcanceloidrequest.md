@@ -51,16 +51,16 @@ Filter drivers call the
 
 ## -parameters
 
-### -param NdisFilterHandle 
+### -param NdisFilterHandle [in]
 
-[in]
+
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param RequestId 
+### -param RequestId [in]
 
-[in]
+
 A cancellation identifier for the request. This identifier specifies the 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.

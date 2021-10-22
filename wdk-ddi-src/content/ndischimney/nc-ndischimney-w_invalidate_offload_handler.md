@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
@@ -63,9 +63,9 @@ The handle to an offload-target allocated context area in which the offload targ
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param OffloadBlockList 
+### -param OffloadBlockList [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such

@@ -49,9 +49,9 @@ The <b>FsRtlNotifyUninitializeSync</b> routine deallocates the synchronization o
 
 ## -parameters
 
-### -param NotifySync 
+### -param NotifySync [in]
 
-[in]
+
 A pointer to a location that contains a pointer to the opaque synchronization object.
 
 ## -remarks

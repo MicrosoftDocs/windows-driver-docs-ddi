@@ -52,21 +52,21 @@ The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device that the resource and allocations are associated with.
+A handle to the device that the resource and allocations are associated with.
 
-### -field hGlobalShare
+### -field hGlobalShare [in]
 
-[in] A handle to the shared resource to open.
+A handle to the shared resource to open.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of elements in the array that <b>pOpenAllocationInfo</b> specifies, which represents the number of allocations that are associated with the resource.
+The number of elements in the array that <b>pOpenAllocationInfo</b> specifies, which represents the number of allocations that are associated with the resource.
 
-### -field pOpenAllocationInfo
+### -field pOpenAllocationInfo [in/out]
 
-[in/out] An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_openallocationinfo">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
+An array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_openallocationinfo">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
 
 ### -field pOpenAllocationInfo2
 
@@ -74,33 +74,33 @@ This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
-### -field pPrivateRuntimeData
+### -field pPrivateRuntimeData [in]
 
-[in] A pointer to a caller-supplied buffer where the OpenGL runtime copies private data that is associated with the resource.
+A pointer to a caller-supplied buffer where the OpenGL runtime copies private data that is associated with the resource.
 
-### -field PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize [in]
 
-[in] The size, in bytes, of the buffer that <b>pPrivateRuntimeData</b> points to.
+The size, in bytes, of the buffer that <b>pPrivateRuntimeData</b> points to.
 
-### -field pResourcePrivateDriverData
+### -field pResourcePrivateDriverData [in/out]
 
-[in/out] A pointer to a buffer that receives the private data that is associated with the resource. This data is per resource and not per allocation.
+A pointer to a buffer that receives the private data that is associated with the resource. This data is per resource and not per allocation.
 
-### -field ResourcePrivateDriverDataSize
+### -field ResourcePrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the buffer that <b>pResourcePrivateDriverData</b> points to.
+The size, in bytes, of the buffer that <b>pResourcePrivateDriverData</b> points to.
 
-### -field pTotalPrivateDriverDataBuffer
+### -field pTotalPrivateDriverDataBuffer [in/out]
 
-[in/out] A pointer to a buffer that receives the private data for all of the allocations that are associated with the resource. The caller should never access this private data directly.
+A pointer to a buffer that receives the private data for all of the allocations that are associated with the resource. The caller should never access this private data directly.
 
-### -field TotalPrivateDriverDataBufferSize
+### -field TotalPrivateDriverDataBufferSize [in/out]
 
-[in/out] On input, the size, in bytes, of the buffer that <b>pTotalPrivateDriverDataBuffer</b> points to. On output, this member specifies the size, in bytes, of data that is written to the buffer that <b>pTotalPrivateDriverDataBuffer</b> points to.
+On input, the size, in bytes, of the buffer that <b>pTotalPrivateDriverDataBuffer</b> points to. On output, this member specifies the size, in bytes, of data that is written to the buffer that <b>pTotalPrivateDriverDataBuffer</b> points to.
 
-### -field hResource
+### -field hResource [out]
 
-[out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the newly opened shared resource that is associated with the allocations.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the newly opened shared resource that is associated with the allocations.
 
 ## -see-also
 

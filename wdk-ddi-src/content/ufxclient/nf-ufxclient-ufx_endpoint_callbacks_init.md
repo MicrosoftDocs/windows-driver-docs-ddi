@@ -52,9 +52,9 @@ The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="/windows-h
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.
 
 ## -remarks

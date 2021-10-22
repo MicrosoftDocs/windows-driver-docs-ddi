@@ -49,35 +49,35 @@ The <b>MmMapLockedPagesSpecifyCache</b> routine maps the physical pages that are
 
 ## -parameters
 
-### -param MemoryDescriptorList 
+### -param MemoryDescriptorList [in]
 
-[in]
+
 A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine. For mappings to user space, MDLs that are built by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> routine can be used.
 
-### -param AccessMode 
+### -param AccessMode [in]
 
-[in]
+
 Specifies the access mode in which to map the MDL: <b>KernelMode</b> or <b>UserMode</b>. Almost all drivers should use <b>KernelMode</b>.
 
-### -param CacheType 
+### -param CacheType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the MDL. For more information, see the following Remarks section.
 
-### -param RequestedAddress
+### -param RequestedAddress [in, optional]
 
-[in, optional]
+
 
 If <i>AccessMode</i> = <b>UserMode</b>, this parameter specifies the starting user virtual address to map the MDL to, or set to <b>NULL</b> to allow the system to choose the starting address. The system might round down the requested address to fit address boundary requirements, so callers must check the return value.
 
-### -param BugCheckOnFailure 
+### -param BugCheckOnFailure [in]
 
-[in]
+
 Specifies the behavior of the routine for <i>AccessMode</i> = <b>KernelMode</b> if the MDL cannot be mapped because of low system resources. If <b>TRUE</b>, the system issues a bug check. If <b>FALSE</b>, the routine returns <b>NULL</b>. Drivers must set this parameter to <b>FALSE</b>.
 
-### -param Priority 
+### -param Priority [in]
 
-[in]
+
 An <b>MM_PAGE_PRIORITY</b> value that indicates the importance of success when page table entries (PTEs) are scarce. Starting with Windows 8, the specified priority value can be bitwise-ORed with the <b>MdlMappingNoWrite</b> or <b>MdlMappingNoExecute</b> flags to specify memory in which writes or instruction execution are disabled. For more information about the possible values for <i>Priority</i>, see [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md).
 
 ## -returns

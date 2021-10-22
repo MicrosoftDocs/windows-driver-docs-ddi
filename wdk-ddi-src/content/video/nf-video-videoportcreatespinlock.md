@@ -49,14 +49,14 @@ The <b>VideoPortCreateSpinLock</b> function creates a spin lock.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param SpinLock 
+### -param SpinLock [out]
 
-[out]
+
 Pointer to a memory location that will receive a pointer to the newly created spin lock.
 
 ## -returns

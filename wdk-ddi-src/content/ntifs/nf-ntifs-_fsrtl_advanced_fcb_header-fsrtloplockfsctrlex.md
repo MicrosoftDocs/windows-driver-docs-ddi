@@ -51,22 +51,22 @@ The **FsRtlOplockFsctrlEx** routine performs various opportunistic lock (oplock)
 
 ## -parameters
 
-### -param Oplock
+### -param Oplock [in]
 
-[in] Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FsRtlInitializeOplock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md).
+Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [**FsRtlInitializeOplock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md).
 
-### -param Irp
+### -param Irp [in]
 
-[in] Pointer to the IRP for the I/O operation. This parameter is required and cannot be **NULL**.
+Pointer to the IRP for the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param OpenCount
+### -param OpenCount [in]
 
-[in]
+
 Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see [Oplock Overview](/windows-hardware/drivers/ifs/oplock-overview).
 
-### -param Flags
+### -param Flags [in]
 
-[in] A bitmask for the associated oplock operations. A file system or filter driver sets bits to specify the behavior of **FsRtlOplockFsctrlEx**. This parameter has the following options:
+A bitmask for the associated oplock operations. A file system or filter driver sets bits to specify the behavior of **FsRtlOplockFsctrlEx**. This parameter has the following options:
 
 | Flag | Meaning |
 | ---- | ------- |

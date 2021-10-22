@@ -49,14 +49,14 @@ The <i>IoTimer</i> routine is a DPC that, if registered, is called once per seco
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>.
 
 ## -remarks

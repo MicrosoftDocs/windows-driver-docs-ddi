@@ -51,19 +51,19 @@ The <b>ScsiPortMoveMemory</b> routine copies data from one location to another.
 
 ## -parameters
 
-### -param WriteBuffer 
+### -param WriteBuffer [in]
 
-[in]
+
 Pointer to the destination buffer.
 
-### -param ReadBuffer 
+### -param ReadBuffer [in]
 
-[in]
+
 Pointer to the source buffer.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
 
 ## -returns

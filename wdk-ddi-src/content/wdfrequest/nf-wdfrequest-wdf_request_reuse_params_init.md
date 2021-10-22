@@ -51,20 +51,20 @@ The <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> function initializes a driver's <a href
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 
 <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_reuse_flags">WDF_REQUEST_REUSE_FLAGS</a>-typed flags.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 An NTSTATUS value that the framework assigns to the request.
 
 ## -remarks

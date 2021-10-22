@@ -48,41 +48,41 @@ The **KeWaitForMultipleObjects** routine puts the current thread into an alertab
 
 ## -parameters
 
-### -param Count
+### -param Count [in]
 
-[in] The number of objects to be waited on. This parameter specifies the number of elements in the array pointed to by the *Object* parameter.
+The number of objects to be waited on. This parameter specifies the number of elements in the array pointed to by the *Object* parameter.
 
-### -param Object
+### -param Object [in]
 
-[in] A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage. Both the pointer array and the dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
+A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage. Both the pointer array and the dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
 
-### -param WaitType
+### -param WaitType [in]
 
-[in] The type of wait operation to perform. Specify either **WaitAll**, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or **WaitAny**, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
+The type of wait operation to perform. Specify either **WaitAll**, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or **WaitAny**, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
 
-### -param WaitReason
+### -param WaitReason [in]
 
-[in] The reason for the wait. Drivers should set this value to **Executive** or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to **UserRequest**.
+The reason for the wait. Drivers should set this value to **Executive** or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to **UserRequest**.
 
-### -param WaitMode
+### -param WaitMode [in]
 
-[in] Whether the caller waits in **KernelMode** or **UserMode**. Intermediate and lowest-level drivers should specify **KernelMode**. If the set of objects waited on includes a mutex, the caller must specify **KernelMode**.
+Whether the caller waits in **KernelMode** or **UserMode**. Intermediate and lowest-level drivers should specify **KernelMode**. If the set of objects waited on includes a mutex, the caller must specify **KernelMode**.
 
-### -param Alertable
+### -param Alertable [in]
 
-[in] A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
+A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
 
-### -param Timeout
+### -param Timeout [in, optional]
 
-[in, optional] A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
+A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
 If **Timeout* = 0, the routine returns without waiting. If the caller supplies a **NULL** pointer, the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state. For more information, see the following Remarks section.
 
-### -param WaitBlockArray
+### -param WaitBlockArray [out, optional]
 
-[out, optional] A pointer to a caller-allocated **KWAIT_BLOCK** array. If *Count* <= THREAD_WAIT_OBJECTS, then *WaitBlockArray* can be **NULL**. Otherwise, this parameter must point to a memory buffer of **sizeof**(**KWAIT_BLOCK**) \* *Count* bytes. The routine uses this buffer for record-keeping while performing the wait operation. The *WaitBlockArray* buffer must reside in nonpaged system memory. For more information, see Remarks.
+A pointer to a caller-allocated **KWAIT_BLOCK** array. If *Count* <= THREAD_WAIT_OBJECTS, then *WaitBlockArray* can be **NULL**. Otherwise, this parameter must point to a memory buffer of **sizeof**(**KWAIT_BLOCK**) \* *Count* bytes. The routine uses this buffer for record-keeping while performing the wait operation. The *WaitBlockArray* buffer must reside in nonpaged system memory. For more information, see Remarks.
 
 ## -returns
 

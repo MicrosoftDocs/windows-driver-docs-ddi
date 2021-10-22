@@ -50,9 +50,9 @@ The<b> KsGetFilterFromIrp </b>function returns the AVStream filter object associ
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to return the associated filter.
 
 ## -returns

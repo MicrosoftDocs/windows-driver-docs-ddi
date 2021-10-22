@@ -49,19 +49,19 @@ The <code>WriteBytes</code> method writes a specified number of bytes to a strea
 
 ## -parameters
 
-### -param pvBuffer 
+### -param pvBuffer [in]
 
-[in]
+
 A pointer to the buffer that the bytes will be written from.
 
-### -param cbBuffer 
+### -param cbBuffer [in]
 
-[in]
+
 The size of the buffer to be read from.
 
-### -param pcbWritten 
+### -param pcbWritten [out]
 
-[out]
+
 A pointer to the number of bytes actually written.
 
 ## -returns

@@ -49,9 +49,9 @@ Called when a driver event occurs.
 
 ## -parameters
 
-### -param pEventArgs 
+### -param pEventArgs [in]
 
-[in]
+
 The event arguments.
 
 ## -returns

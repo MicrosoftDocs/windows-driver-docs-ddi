@@ -45,22 +45,22 @@ Retrieves the number of parameters for a parameter stage.
 
 ## -struct-fields
 
-### -field CommandId
+### -field CommandId [in]
 
-[in] The unique identifier for the video extension command.
+The unique identifier for the video extension command.
 
-### -field Stage
+### -field Stage [in]
 
-[in] The parameter stage to query.
+The parameter stage to query.
 
-### -field ParameterCount
+### -field ParameterCount [out]
 
-[out] The number of parameters in the stage parameter structure.
+The number of parameters in the stage parameter structure.
 
-### -field ParameterPacking
+### -field ParameterPacking [out]
 
  
-[out] Indicates struct member packing.
+Indicates struct member packing.
 
 ## -remarks
 

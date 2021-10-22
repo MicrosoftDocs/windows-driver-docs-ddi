@@ -57,13 +57,13 @@ The <i>SetViewports</i> function sets viewports.
 
 A handle to the display device (graphics context).
 
-### -param NumViewports
+### -param NumViewports [in]
 
-[in] The total number of viewports that the <i>pViewports</i> parameter specifies.
+The total number of viewports that the <i>pViewports</i> parameter specifies.
 
-### -param ClearViewports
+### -param ClearViewports [in]
 
-[in] The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
+The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
 
 Note that the number that <i>ClearViewports</i> specifies is only an optimization aid because the user-mode display driver could calculate this number.
 

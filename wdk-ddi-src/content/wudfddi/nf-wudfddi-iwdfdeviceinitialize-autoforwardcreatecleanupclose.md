@@ -51,9 +51,9 @@ The <b>AutoForwardCreateCleanupClose</b> method controls when create, cleanup, a
 
 ## -parameters
 
-### -param State 
+### -param State [in]
 
-[in]
+
 A WDF_TRI_STATE-typed value that identifies the state of automatic forwarding. The following table shows the possible values.
 
 <table>

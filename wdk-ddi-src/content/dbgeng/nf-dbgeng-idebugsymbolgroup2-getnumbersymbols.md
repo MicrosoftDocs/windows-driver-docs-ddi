@@ -49,9 +49,9 @@ The <b>GetNumberSymbols</b> method returns the number of <a href="/windows-hardw
 
 ## -parameters
 
-### -param Number 
+### -param Number [out]
 
-[out]
+
 The number of symbols that are contained in this symbol group.
 
 ## -returns

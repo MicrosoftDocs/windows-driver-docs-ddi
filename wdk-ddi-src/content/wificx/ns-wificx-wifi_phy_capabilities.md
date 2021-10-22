@@ -1,10 +1,11 @@
 ---
 UID: NS:wificx._WIFI_PHY_CAPABILITIES
 tech.root: netvista
-title: WIFI_PHY_CAPABILITIES
-ms.date: 04/30/2021
+title: WIFI_PHY_CAPABILITIES (wificx.h)
+ms.date: 09/15/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WIFI_PHY_CAPABILITIES structure for internal use only. Don't use this structure in your code."
+description: The WIFI_PHY_CAPABILITIES structure describes the PHY capabilities for a WiFiCx device.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_PHY_CAPABILITIES
@@ -40,26 +41,28 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_PHY_CAPABILITIES** structure describes the PHY capabilities for a WiFiCx device.
 
 ## -struct-fields
 
 ### -field Size
 
-Reserved.
+The sum (in bytes) of the sizes of all contained elements.
 
 ### -field NumPhyTypes
 
-Reserved.
+The number of PHY types supported. 
 
 ### -field PhyInfoList
 
-Reserved.
+A pointer to a list of [**WIFI_PHY_INFO**](ns-wificx-wifi_phy_info.md) structures.
 
 ## -remarks
 
+Client drivers pass **WIFI_PHY_CAPABILITIES** as a parameter to [**WifiDeviceSetPhyCapabilities**](nf-wificx-wifidevicesetphycapabilities.md) to report PHY capabilities to WiFiCx.
+
 ## -see-also
 
+[**WifiDeviceSetPhyCapabilities**](nf-wificx-wifidevicesetphycapabilities.md)
+
+[**WIFI_PHY_INFO**](ns-wificx-wifi_phy_info.md)

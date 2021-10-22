@@ -49,9 +49,9 @@ The <b>GetEngineOptions</b> method returns the engine's options.
 
 ## -parameters
 
-### -param Options 
+### -param Options [out]
 
-[out]
+
 Receives a bit-set that contains the engine's options. For a description of the engine options, see <a href="/previous-versions/ff541475(v=vs.85)">DEBUG_ENGOPT_XXX</a>.
 
 ## -returns

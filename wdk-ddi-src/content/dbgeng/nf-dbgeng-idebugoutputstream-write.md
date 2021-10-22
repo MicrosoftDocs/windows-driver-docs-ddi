@@ -49,9 +49,9 @@ Writes to the debug output stream.
 
 ## -parameters
 
-### -param psz 
+### -param psz [in]
 
-[in]
+
 A pointer to a Unicode character string of content to write.
 
 ## -returns

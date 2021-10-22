@@ -49,9 +49,9 @@ The <b>RemoveSymbolByIndex</b> method removes the specified symbol from a symbol
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of the symbol to remove. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 ## -returns

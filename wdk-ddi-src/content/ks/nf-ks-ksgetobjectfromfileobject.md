@@ -49,9 +49,9 @@ The **KsGetObjectFromFileObject** function returns the AVStream object cast to P
 
 ## -parameters
 
-### -param FileObject
+### -param FileObject [in]
 
-[in]
+
 A pointer to the [FILE_OBJECT](../wdm/ns-wdm-_file_object.md) structure for which to determine the associated AVStream object.
 
 ## -returns

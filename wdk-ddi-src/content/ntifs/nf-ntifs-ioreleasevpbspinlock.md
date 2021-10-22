@@ -49,9 +49,9 @@ The <b>IoReleaseVpbSpinLock</b> routine releases the Volume Parameter Block (VPB
 
 ## -parameters
 
-### -param Irql 
+### -param Irql [in]
 
-[in]
+
 Saved IRQL value returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioacquirevpbspinlock">IoAcquireVpbSpinLock</a> when the VPB spin lock was acquired.
 
 ## -remarks

@@ -49,14 +49,14 @@ A streaming minidriver's <i>KStrContextDispatch</i> routine is called to process
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kssetpowerdispatch">KsSetPowerDispatch</a> function.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the power IRP to be processed.
 
 ## -returns

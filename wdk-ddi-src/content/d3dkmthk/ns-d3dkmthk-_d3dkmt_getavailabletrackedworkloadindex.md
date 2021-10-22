@@ -56,9 +56,9 @@ A handle to the tracked workload instance.
 
 The fence value for the completed workloads.
 
-### -field AvailableTrackedWorkloadIndex
+### -field AvailableTrackedWorkloadIndex [out]
  
-[out] The first available tracked workload index.
+The first available tracked workload index.
 
 ## -remarks
 

@@ -50,9 +50,9 @@ This macro returns a pointer to the [KSMETHOD_SET](./ns-ks-ksmethod_set.md) in w
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP passed to the handler routine.
 
 ## -remarks

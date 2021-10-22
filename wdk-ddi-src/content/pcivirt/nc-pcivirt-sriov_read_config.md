@@ -49,29 +49,29 @@ Reads data from  the configuration space of the specified PCI Express SR-IOV Vir
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param Data 
+### -param Data [out]
 
-[out]
+
 A pointer to buffer that contains the configuration information to be read from the VF's configuration space.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this read operation applies.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 An offset in bytes to the start of the VF’s configuration space where the read begins.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the data to read from the configuration space.
 
 ## -returns

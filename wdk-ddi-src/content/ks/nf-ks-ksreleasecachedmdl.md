@@ -50,19 +50,19 @@ The <b>KsReleaseCachedMdl</b> function is used to release the MDL acquired by th
 
 ## -parameters
 
-### -param Guid 
+### -param Guid [in]
 
-[in]
+
 The GUID extracted from the <b>MFSampleExtension_MDLCacheCookie</b> attribute item of the <b>IMFSample</b> passed by the pipeline.
 
-### -param MdlAddr 
+### -param MdlAddr [in]
 
-[in]
+
 MDL address retrieved in the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call. This should not be touched after the <b>KsReleaseCachedMdl</b> call.
 
-### -param ReleaseContext 
+### -param ReleaseContext [in]
 
-[in]
+
 The context passed as an output in the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
 
 ## -returns

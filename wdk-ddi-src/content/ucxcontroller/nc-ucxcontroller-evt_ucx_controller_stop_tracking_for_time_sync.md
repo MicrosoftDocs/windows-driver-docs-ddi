@@ -49,25 +49,25 @@ UCX invokes this callback function to the stop  time tracking functionality in t
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param WdfRequest 
+### -param WdfRequest [in]
 
-[in]
+
 A framework request object that contains the request to stop time tracking.
 
-### -param OutputBufferLength 
+### -param OutputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the request's output buffer, if an output buffer
         is available. This value is the size of the <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_stop_tracking_for_time_sync_information">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.
 
-### -param InputBufferLength 
+### -param InputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the request's input buffer, if an input buffer
         is available. This value is the size of the <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_stop_tracking_for_time_sync_information">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.
 

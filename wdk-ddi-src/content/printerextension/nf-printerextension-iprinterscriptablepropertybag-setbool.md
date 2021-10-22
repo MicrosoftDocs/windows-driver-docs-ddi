@@ -49,14 +49,14 @@ Writes a specified boolean property value.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to set.
 
-### -param bValue 
+### -param bValue [in]
 
-[in]
+
 The value to set.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>VideoPortClearEvent</b> function sets a given event object to the nonsign
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pEvent 
+### -param pEvent [in]
 
-[in]
+
 Pointer to the event object.
 
 ## -returns

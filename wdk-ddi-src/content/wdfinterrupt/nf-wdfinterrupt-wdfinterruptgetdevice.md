@@ -54,9 +54,9 @@ The <b>WdfInterruptGetDevice</b> method returns a handle to the framework device
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
 ## -returns

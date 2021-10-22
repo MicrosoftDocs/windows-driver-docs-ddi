@@ -49,14 +49,14 @@ The <b>SeAppendPrivileges</b> routine appends additional privileges to the privi
 
 ## -parameters
 
-### -param AccessState 
+### -param AccessState [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated ACCESS_STATE structure representing the current access request.
 
-### -param Privileges 
+### -param Privileges [in]
 
-[in]
+
 Pointer to a caller-allocated PRIVILEGE_SET structure containing the privileges to be added.
 
 ## -returns

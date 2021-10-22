@@ -54,14 +54,14 @@ The <b>WdfUsbTargetDeviceGetDeviceDescriptor</b> method retrieves the USB device
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to a USB device object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-### -param UsbDeviceDescriptor 
+### -param UsbDeviceDescriptor [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_device_descriptor">USB_DEVICE_DESCRIPTOR</a> structure that receives the USB device descriptor.
 
 ## -remarks

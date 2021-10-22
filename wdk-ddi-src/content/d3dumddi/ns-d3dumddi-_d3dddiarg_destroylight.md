@@ -52,9 +52,9 @@ The D3DDDIARG_DESTROYLIGHT structure contains the index into a light array for t
 
 ## -struct-fields
 
-### -field Index
+### -field Index [in]
 
-[in] The index of the light to destroy.
+The index of the light to destroy.
 
 ## -see-also
 

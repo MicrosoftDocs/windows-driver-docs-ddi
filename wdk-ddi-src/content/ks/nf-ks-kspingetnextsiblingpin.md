@@ -50,9 +50,9 @@ The<b> KsPinGetNextSiblingPin</b> function returns the next instantiated pin of 
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to find the next instantiated sibling pin.
 
 ## -returns

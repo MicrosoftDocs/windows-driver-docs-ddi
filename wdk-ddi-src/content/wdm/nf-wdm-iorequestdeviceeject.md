@@ -49,9 +49,9 @@ The <b>IoRequestDeviceEject</b> routine notifies the PnP manager that the device
 
 ## -parameters
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in]
 
-[in]
+
 Pointer to the PDO for the device.
 
 ## -remarks

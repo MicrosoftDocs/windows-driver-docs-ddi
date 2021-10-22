@@ -52,33 +52,33 @@ The DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure describes stream-sta
 
 ## -struct-fields
 
-### -field Type
+### -field Type [in]
 
-[in] A UINT value that specifies whether the input stream is video or graphics. The driver can optimize the processing and the filtering based on the stream type. The default value is 0, which indicates a video stream.
+A UINT value that specifies whether the input stream is video or graphics. The driver can optimize the processing and the filtering based on the stream type. The default value is 0, which indicates a video stream.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-### -field RGB_Range
+### -field RGB_Range [in]
 
-[in] A UINT value that specifies whether the input stream is full range RGB (that is, 0 to 255) or limited range RGB (that is, 16 to 235). The default value is 0, which indicates full range RGB.
+A UINT value that specifies whether the input stream is full range RGB (that is, 0 to 255) or limited range RGB (that is, 16 to 235). The default value is 0, which indicates full range RGB.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
-### -field YCbCr_Matrix
+### -field YCbCr_Matrix [in]
 
-[in] A UINT value that specifies whether the input stream is BT.601 (for standard digital television) or BT.709 (for high-definition television). The default value is 0, which indicates BT.601.
+A UINT value that specifies whether the input stream is BT.601 (for standard digital television) or BT.709 (for high-definition television). The default value is 0, which indicates BT.601.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
-### -field YCbCr_xvYCC
+### -field YCbCr_xvYCC [in]
 
-[in] A UINT value that specifies whether the input stream is conventional YCbCr or extended YCbCr (xvYCC). The default is 0, which indicates conventional YCbCr.
+A UINT value that specifies whether the input stream is conventional YCbCr or extended YCbCr (xvYCC). The default is 0, which indicates conventional YCbCr.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
-### -field Nominal_Range
+### -field Nominal_Range [in]
 
-[in] A UINT value that specifies that the luminance range of YUV data is described by the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_nominal_range">DXVAHDDDI_NOMINAL_RANGE</a> enumeration. The default is zero, which indicates the studio luminance range of 16 to 255, inclusive [16, 235].
+A UINT value that specifies that the luminance range of YUV data is described by the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_nominal_range">DXVAHDDDI_NOMINAL_RANGE</a> enumeration. The default is zero, which indicates the studio luminance range of 16 to 255, inclusive [16, 235].
 
 For more information on luminance range, see <a href="/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
 
@@ -86,15 +86,15 @@ Setting this member is equivalent to setting the fifth and sixth bits of the 32-
 
 Supported starting with Windows 8.1.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] Reserved. Must be zero.
+Reserved. Must be zero.
 
 This member is equivalent to the remaining 26 bits (0xFFFFFFC0) of the 32-bit <b>Value</b> member.
 
-### -field Value
+### -field Value [in]
 
-[in] A 32-bit value that describes stream-state data that specifies the color space of the input stream.
+A 32-bit value that describes stream-state data that specifies the color space of the input stream.
 
 ## -remarks
 

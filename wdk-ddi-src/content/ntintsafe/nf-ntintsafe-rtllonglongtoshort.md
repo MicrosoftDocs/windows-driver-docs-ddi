@@ -49,14 +49,14 @@ Converts a value of type <b>LONGLONG</b> to a value of type <b>SHORT</b>.
 
 ## -parameters
 
-### -param llOperand 
+### -param llOperand [in]
 
-[in]
+
 The value to be converted.
 
-### -param psResult 
+### -param psResult [out]
 
-[out]
+
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

@@ -52,9 +52,9 @@ The <b>WdfDeviceWdmGetAttachedDevice</b> method returns the next-lower WDM devic
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

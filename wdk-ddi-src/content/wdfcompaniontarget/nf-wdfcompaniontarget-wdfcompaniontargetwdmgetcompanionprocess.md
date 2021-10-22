@@ -49,7 +49,7 @@ api_name:
 
 ## -parameters
 
-### -param CompanionTarget 
+### -param CompanionTarget [in]
 
-[in]
+
 

@@ -48,13 +48,13 @@ An indirect display driver (IDD) calls **IddCxMonitorArrival** to report a monit
 
 ## -parameters
 
-### -param AdapterObject
+### -param AdapterObject [in]
 
-[in] The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that arrived.
+The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that arrived.
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to an [**IDARG_OUT_MONITORARRIVAL**](ns-iddcx-idarg_out_monitorarrival.md) structure in which to return details about the monitor that arrived.
+Pointer to an [**IDARG_OUT_MONITORARRIVAL**](ns-iddcx-idarg_out_monitorarrival.md) structure in which to return details about the monitor that arrived.
 
 ## -returns
 

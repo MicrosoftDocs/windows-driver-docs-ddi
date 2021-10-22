@@ -50,9 +50,9 @@ This routine returns the larger of the two sizes to provide for sufficient buffe
 
 ## -parameters
 
-### -param Collection
+### -param Collection [in]
 
-[in] Pointer to a collection list.
+Pointer to a collection list.
 
 ## -returns
 

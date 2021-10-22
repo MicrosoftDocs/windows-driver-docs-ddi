@@ -46,9 +46,9 @@ The
 
 ## -parameters
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size of the memory block, in bytes. When calling 
      <i>NetAllocateMdl</i>, NDIS passes in the requested size.
 

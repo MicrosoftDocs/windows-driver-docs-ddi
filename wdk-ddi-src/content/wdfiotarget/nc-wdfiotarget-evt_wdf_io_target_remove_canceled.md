@@ -51,9 +51,9 @@ A driver's <i>EvtIoTargetRemoveCanceled</i> event callback function performs ope
 
 ## -parameters
 
-### -param IoTarget 
+### -param IoTarget [in]
 
-[in]
+
 A handle to an I/O target object.
 
 ## -remarks

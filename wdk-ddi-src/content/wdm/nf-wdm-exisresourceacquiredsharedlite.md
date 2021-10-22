@@ -49,9 +49,9 @@ The <b>ExIsResourceAcquiredSharedLite</b> routine returns whether the current th
 
 ## -parameters
 
-### -param Resource 
+### -param Resource [in]
 
-[in]
+
 A pointer to the resource to be queried.
 
 ## -returns

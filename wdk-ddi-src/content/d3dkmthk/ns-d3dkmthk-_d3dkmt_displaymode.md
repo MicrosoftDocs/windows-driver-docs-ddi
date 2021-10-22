@@ -52,41 +52,41 @@ The D3DKMT_DISPLAYMODE structure describes a display mode.
 
 ## -struct-fields
 
-### -field Width
+### -field Width [out]
 
-[out] The screen width of the display mode, in pixels.
+The screen width of the display mode, in pixels.
 
-### -field Height
+### -field Height [out]
 
-[out] The screen height of the display mode, in pixels.
+The screen height of the display mode, in pixels.
 
-### -field Format
+### -field Format [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the display mode.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the display mode.
 
-### -field IntegerRefreshRate
+### -field IntegerRefreshRate [out]
 
-[out] A UINT value that indicates the refresh rate of the display mode.
+A UINT value that indicates the refresh rate of the display mode.
 
-### -field RefreshRate
+### -field RefreshRate [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_rational">D3DDDI_RATIONAL</a> structure that indicates the refresh rate of the display mode.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_rational">D3DDDI_RATIONAL</a> structure that indicates the refresh rate of the display mode.
 
-### -field ScanLineOrdering
+### -field ScanLineOrdering [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>-typed value that indicates how scan lines are ordered in the display mode.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>-typed value that indicates how scan lines are ordered in the display mode.
 
-### -field DisplayOrientation
+### -field DisplayOrientation [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_rotation">D3DDDI_ROTATION</a>-typed value that identifies the orientation of the display mode.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_rotation">D3DDDI_ROTATION</a>-typed value that identifies the orientation of the display mode.
 
-### -field DisplayFixedOutput
+### -field DisplayFixedOutput [out]
 
-[out] The fixed output of the display mode.
+The fixed output of the display mode.
 
-### -field Flags
+### -field Flags [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmdt_displaymode_flags">D3DKMDT_DISPLAYMODE_FLAGS</a> structure that indicates information about the display mode.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmdt_displaymode_flags">D3DKMDT_DISPLAYMODE_FLAGS</a> structure that indicates information about the display mode.
 
 ## -see-also
 

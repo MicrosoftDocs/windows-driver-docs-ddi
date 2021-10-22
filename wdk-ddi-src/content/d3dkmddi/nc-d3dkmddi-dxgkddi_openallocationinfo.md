@@ -51,13 +51,13 @@ The <i>DxgkDdiOpenAllocation</i> function binds non-device-specific allocations 
 
 ## -parameters
 
-### -param hDevice
+### -param hDevice [in]
 
-[in] A handle to the graphics context device that the allocations are bound from. The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure.
+A handle to the graphics context device that the allocations are bound from. The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure.
 
-### -param pOpenAllocation
+### -param pOpenAllocation [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_openallocation">DXGKARG_OPENALLOCATION</a> structure that contains information about binding allocations.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_openallocation">DXGKARG_OPENALLOCATION</a> structure that contains information about binding allocations.
 
 ## -returns
 

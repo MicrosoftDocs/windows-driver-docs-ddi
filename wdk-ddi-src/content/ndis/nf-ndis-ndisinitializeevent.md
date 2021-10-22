@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param Event 
+### -param Event [out]
 
-[out]
+
 A pointer to caller-supplied storage for the event object, which is opaque to drivers.
 
 ## -remarks

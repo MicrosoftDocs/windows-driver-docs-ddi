@@ -51,14 +51,14 @@ The client driver's implementation that UCX calls to enable the static streams.
 
 ### -param UcxEndpoint
 
-### -param UcxStaticStreams 
+### -param UcxStaticStreams [in]
 
-[in]
+
 A handle to a UCX object that represents the static streams.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Contains the URB for the <b>URB_FUNCTION_OPEN_STATIC_STREAMS</b>.
 
 

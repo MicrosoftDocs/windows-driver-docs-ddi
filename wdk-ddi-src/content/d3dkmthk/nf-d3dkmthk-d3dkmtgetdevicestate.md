@@ -52,11 +52,11 @@ The <b>D3DKMTGetDeviceState</b> function retrieves the state of a device.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in/out]
 
 *pData* [in, out]
 
-[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
 
 ## -returns
 

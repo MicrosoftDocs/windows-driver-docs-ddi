@@ -49,14 +49,14 @@ The <i>EvtSerCx2SystemDmaTransmitInitializeTransaction</i> event callback functi
 
 ## -parameters
 
-### -param SystemDmaTransmit 
+### -param SystemDmaTransmit [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to be transferred in the system-DMA-transmit transaction.
 
 ## -remarks

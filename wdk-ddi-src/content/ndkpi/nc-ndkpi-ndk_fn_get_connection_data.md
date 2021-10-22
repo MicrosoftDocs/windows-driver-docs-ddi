@@ -49,19 +49,19 @@ The <i>NdkGetConnectionData</i>  (<i>NDK_FN_GET_CONNECTION_DATA</i>) function ge
 
 ## -parameters
 
-### -param pNdkConnector 
+### -param pNdkConnector [in]
 
-[in]
+
 A pointer to an NDK connector object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
-### -param pInboundReadLimit 
+### -param pInboundReadLimit [out, optional]
 
-[out, optional]
+
 The maximum number of incoming in-progress read operations to allow on the QP is returned in this location.
 
-### -param pOutboundReadLimit 
+### -param pOutboundReadLimit [out, optional]
 
-[out, optional]
+
 The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
 
 ### -param pPrivateData

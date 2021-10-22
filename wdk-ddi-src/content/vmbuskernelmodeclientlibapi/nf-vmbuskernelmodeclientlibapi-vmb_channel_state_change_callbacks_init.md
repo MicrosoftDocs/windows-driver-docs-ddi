@@ -51,8 +51,8 @@ The <b>VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</b> function saves callback funct
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A structure to save callback functions that relate to the state changes for a channel.
 

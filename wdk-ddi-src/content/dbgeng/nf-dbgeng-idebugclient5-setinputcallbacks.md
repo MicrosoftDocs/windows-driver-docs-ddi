@@ -49,9 +49,9 @@ The <b>SetInputCallbacks</b> method registers an <a href="/windows-hardware/driv
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [in, optional]
 
-[in, optional]
+
 Specifies the interface pointer to the input callbacks object to register with this client.
 
 ## -returns

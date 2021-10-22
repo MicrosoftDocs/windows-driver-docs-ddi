@@ -49,9 +49,9 @@ The <b>FltInitializeOplock</b> routine initializes an opportunistic lock (oplock
 
 ## -parameters
 
-### -param Oplock 
+### -param Oplock [out]
 
-[out]
+
 Caller-supplied pointer variable that receives the initialized opaque oplock pointer. This variable must be initialized to <b>NULL</b> before the initial call to <b>FltInitializeOplock</b>.
 
 ## -returns

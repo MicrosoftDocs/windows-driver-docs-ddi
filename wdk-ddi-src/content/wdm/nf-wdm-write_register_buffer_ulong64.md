@@ -50,26 +50,26 @@ The **WRITE_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer,
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a buffer into which an array of ULONG64 values is to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG64 values to write to the register.
 
 ## -remarks
 
 This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
-For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
 
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 

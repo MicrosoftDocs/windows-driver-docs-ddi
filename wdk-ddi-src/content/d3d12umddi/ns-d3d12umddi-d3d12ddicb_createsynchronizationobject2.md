@@ -49,14 +49,14 @@ Used to create a synchronized object.
 
 ## -struct-fields
 
-### -field Info
+### -field Info [in, out]
 
-[in, out] Attributes of the synchronization object to create.
+Attributes of the synchronization object to create.
 
-### -field hSyncObject
+### -field hSyncObject [out]
 
  
-[out] Handle to the created object.
+Handle to the created object.
 
 ## -remarks
 

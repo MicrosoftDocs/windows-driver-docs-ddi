@@ -49,19 +49,19 @@ The <b>GetSupportedProcessorTypes</b> method returns the processor types support
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first processor type to return.  The supported processor types are indexed by the numbers zero through the number of supported processor types minus one.  The number of supported processor types can be found using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumbersupportedprocessortypes">GetNumberSupportedProcessorTypes</a>.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of processor types to return.
 
-### -param Types 
+### -param Types [out]
 
-[out]
+
 Receives the list of processor types.  The number of elements this array holds is <i>Count</i>.  For a description of the processor types, see <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a>.
 
 ## -returns

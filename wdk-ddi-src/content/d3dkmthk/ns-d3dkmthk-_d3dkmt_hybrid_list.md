@@ -52,9 +52,9 @@ Describes the Direct 3D kernel mode hybrid list.
 
 The GPU preference query state.
 
-### -field AdapterLuid
+### -field AdapterLuid [in,opt]
 
-[in,opt] Adapter LUID to per-adapter DList state. Optional, if *bUserPreferenceQuery* is true. 
+Adapter LUID to per-adapter DList state. Optional, if *bUserPreferenceQuery* is true. 
 
 For more info about DList, see *Setting up the dList DLL* in [Hybrid system DDI](/windows-hardware/drivers/display/hybrid-system-ddi).
 

@@ -49,14 +49,14 @@ Gets an integer property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
-### -param pnValue 
+### -param pnValue [out, retval]
 
-[out, retval]
+
 The value read.
 
 ## -returns

@@ -54,9 +54,9 @@ Used to calculate the size of a video decoder. The D3D runtime allocates memory 
 
 The hardware device being processed.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**D3D12DDIARG_CREATE_VIDEO_DECODER_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_decoder_0072.md) structure with arguments used to create a video decoder.
+Pointer to a [**D3D12DDIARG_CREATE_VIDEO_DECODER_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_decoder_0072.md) structure with arguments used to create a video decoder.
 
 ## -returns
 

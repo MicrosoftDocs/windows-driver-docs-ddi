@@ -47,17 +47,17 @@ Implemented by the client driver to set the level of optimization used to contro
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] Context pointer provided when querying the interface.
+Context pointer provided when querying the interface.
 
-### -param ChildUid
+### -param ChildUid [in]
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
-### -param OptimizationLevel
+### -param OptimizationLevel [in]
 
-[in] A value of type [DXGK_BACKLIGHT_OPTIMIZATION_LEVEL](../d3dkmdt/ne-d3dkmdt-dxgk_backlight_optimization_level.md) that indicates the optimization level of brightness control.
+A value of type [DXGK_BACKLIGHT_OPTIMIZATION_LEVEL](../d3dkmdt/ne-d3dkmdt-dxgk_backlight_optimization_level.md) that indicates the optimization level of brightness control.
 
 ## -returns
 

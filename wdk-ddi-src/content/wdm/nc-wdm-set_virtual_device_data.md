@@ -49,25 +49,25 @@ The  [SetVirtualFunctionData]() routine writes data to the PCI Express (PCIe) co
 
 ## -parameters
 
-### -param Context
+### -param Context [in, out]
 
-[in, out] A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
 
-### -param VirtualFunction
+### -param VirtualFunction [in]
 
-[in] A zero-based value that specifies the VF on the device from which data is to be written.
+A zero-based value that specifies the VF on the device from which data is to be written.
 
-### -param Buffer
+### -param Buffer [in]
 
-[in] A pointer to the buffer that contains the configuration information to be written to the PCIe configuration space of the VF.
+A pointer to the buffer that contains the configuration information to be written to the PCIe configuration space of the VF.
 
-### -param Offset
+### -param Offset [in]
 
-[in] The offset into the PCIe configuration space data of the VF. This member specifies where this write operation begins.
+The offset into the PCIe configuration space data of the VF. This member specifies where this write operation begins.
 
-### -param Length
+### -param Length [in]
 
-[in] The length, in bytes, of the data to be written.
+The length, in bytes, of the data to be written.
 
 ## -returns
 

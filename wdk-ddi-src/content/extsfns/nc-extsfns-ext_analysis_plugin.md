@@ -49,19 +49,19 @@ When you write an <a href="/windows-hardware/drivers/debugger/writing-an-analysi
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a> interface.
 
-### -param CallPhase 
+### -param CallPhase [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/ddi/extsfns/ne-extsfns-_fa_extension_plugin_phase">FA_EXTENSION_PLUGIN_PHASE</a> enumeration that specifies which phase of the analysis is currently in progress. Analysis phases include initialization, stack analysis, prebucketing, and post bucketing.
 
-### -param pAnalysis 
+### -param pAnalysis [in]
 
-[in]
+
 A pointer to a <b>IDebugFailureAnalysis2</b> interface.
 
 ## -returns

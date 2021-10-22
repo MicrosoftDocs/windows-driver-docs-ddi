@@ -61,9 +61,9 @@ Caller-supplied pointer to a buffer containing data to be sent to the print spoo
 
 Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
+
 Receives a method-supplied value representing the number of bytes sent to the spooler.
 
 ## -returns

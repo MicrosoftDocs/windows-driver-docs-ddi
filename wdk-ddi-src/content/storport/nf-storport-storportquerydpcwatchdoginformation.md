@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param DpcWatchdogInformation
+### -param DpcWatchdogInformation [out]
 
-[out] Pointer to a [**STOR_DPC_WATCHDOG_INFORMATION**](ns-storport-stor_dpc_watchdog_information.md) structure in which the DPC watchdog information will be written.
+Pointer to a [**STOR_DPC_WATCHDOG_INFORMATION**](ns-storport-stor_dpc_watchdog_information.md) structure in which the DPC watchdog information will be written.
 
 ## -returns
 

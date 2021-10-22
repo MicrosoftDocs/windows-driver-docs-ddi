@@ -53,22 +53,22 @@ The
 
 ## -parameters
 
-### -param netBufferList 
+### -param netBufferList [in, out, optional]
 
-[in, out, optional]
+
 A network buffer list that indicates one or more packets of interest to the callout driver. This
      parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the function will remove the context from all associated network
      buffer lists.
 
-### -param contextTag 
+### -param contextTag [in]
 
-[in]
+
 The context tag that was passed in the <i>contextTag</i> parameter to 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">FwpsNetBufferListAssociateContext0</a>.
 
-### -param flags 
+### -param flags [in]
 
-[in]
+
 This parameter is reserved for future use and must be zero.
 
 ## -returns

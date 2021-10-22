@@ -51,39 +51,39 @@ The <b>GetPropertyData</b> method retrieves the current setting for a device pro
 
 ## -parameters
 
-### -param PropertyKey 
+### -param PropertyKey [in]
 
-[in]
+
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
 
-### -param Lcid 
+### -param Lcid [in]
 
-[in]
+
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Reserved for system use. Drivers should set this value to 0.
 
-### -param PropertyDataSize 
+### -param PropertyDataSize [in]
 
-[in]
+
 The size, in bytes, of the buffer that <i>PropertyData</i> points to.
 
-### -param PropertyData 
+### -param PropertyData [out, optional]
 
-[out, optional]
+
 A pointer to the device property data.
 
-### -param PropertyDataRequiredSize 
+### -param PropertyDataRequiredSize [out]
 
-[out]
+
 A pointer to a ULONG to receive the size of the property information that is returned in <i>PropertyData</i>.
 
-### -param PropertyType 
+### -param PropertyType [out]
 
-[out]
+
 A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value. If <b>GetPropertyData</b> completes successfully, the method uses <i>PropertyType</i> to supply the type of data that is returned in the <i>PropertyData</i> buffer.
 
 ## -returns

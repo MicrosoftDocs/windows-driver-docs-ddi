@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in]
 
-[in]
+
 A pointer to a variable of type LONG.
 
 ## -remarks

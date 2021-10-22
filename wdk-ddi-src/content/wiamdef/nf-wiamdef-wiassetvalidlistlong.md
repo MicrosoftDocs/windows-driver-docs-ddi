@@ -49,9 +49,9 @@ The <b>wiasSetValidListLong </b>function sets the valid values for a WIA_PROP_LI
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid

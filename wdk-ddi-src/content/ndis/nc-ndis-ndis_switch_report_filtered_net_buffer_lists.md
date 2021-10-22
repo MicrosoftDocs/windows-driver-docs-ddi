@@ -49,45 +49,45 @@ The <i>ReportFilteredNetBufferLists</i> function reports on one or more network 
 
 ## -parameters
 
-### -param NdisSwitchContext 
+### -param NdisSwitchContext [in]
 
-[in]
+
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
-### -param ExtensionGuid 
+### -param ExtensionGuid [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the GUID of the extension. NDIS specifies this GUID in the <b>FilterModuleGuidName</b> member of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a> structure. NDIS passes a pointer to this structure in the <i>AttachParameters</i> parameter when it calls the extension's <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param ExtensionFriendlyName 
+### -param ExtensionFriendlyName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the user-friendly name of the extension. This name is defined by the <b>DisplayName</b>     entry in the <a href="/windows-hardware/drivers/install/inf-addservice-directive">AddService Directive</a>
 of the extension's INF file.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 An NDIS_SWITCH_PORT_ID value that specifies an extensible switch port. For more information, see the Remarks section.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A UINT32 value. When the NDIS_SWITCH_REPORT_FILTERED_NBL_FLAGS_IS_INCOMING flag is specified, it indicates that the <b>PortId</b> member defines the source of the dropped packet. When it is not specified, the PortId member defines the destination extensible switch port. For more information, see the Remarks section.
 
-### -param NumberOfNetBufferLists 
+### -param NumberOfNetBufferLists [in]
 
-[in]
+
 A UINT32 value that contains the number of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that is specified by the <i>NetBufferLists</i> parameter.
 
-### -param NetBufferLists 
+### -param NetBufferLists [in]
 
-[in]
+
 A pointer to a linked list of <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures.
 
-### -param FilterReason 
+### -param FilterReason [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-friendly description of the reason for the drop or exclusion of the packets. For more information, see the Remarks section.
 
 ## -remarks

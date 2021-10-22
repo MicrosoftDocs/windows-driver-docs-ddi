@@ -1,10 +1,11 @@
 ---
 UID: NF:wificx.WifiDeviceInitConfig
 tech.root: netvista
-title: WifiDeviceInitConfig
-ms.date: 04/30/2021
+title: WifiDeviceInitConfig (wificx.h)
+ms.date: 08/12/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WifiDeviceInitConfig function for internal use only. Don't use this function in your code."
+description: The WifiDeviceInitConfig function initializes WiFiCx device initialization operations.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,13 +13,13 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -41,20 +42,30 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiDeviceInitConfig** function initializes WiFiCx device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 
 ## -parameters
 
 ### -param DeviceInit
 
-Reserved.
+[_Inout_] A pointer to a [**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init) object that the client driver received in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) routine.
 
 ## -returns
 
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
+
 ## -remarks
+
+In its [*EVT_WDF_DRIVER_DEVICE_ADD*](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) callback function, a WifiCx client driver calls **WifiDeviceInitConfig** after calling [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md) but before calling [**WdfDeviceCreate**](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate).
+
+The driver must reference the same [**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init) object passed in by the framework.
 
 ## -see-also
 
+[**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init)
+
+[*EVT_WDF_DRIVER_DEVICE_ADD*](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) 
+
+[**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md)
+
+[**WdfDeviceCreate**](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate)

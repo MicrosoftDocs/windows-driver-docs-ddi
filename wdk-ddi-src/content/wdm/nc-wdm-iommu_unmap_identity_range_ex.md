@@ -46,14 +46,14 @@ Deletes an identity mapping created by *IOMMU_MAP_IDENTITY_RANGE_EX*.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [in]
 
-[in]
+
 A pointer to the **IOMMU_DMA_DOMAIN** that the identity mapped physical address belongs to. The domain must be of type *DomainTypeTranslate* or *DomainTypePassThrough*. For more information about domain types, see [IOMMU_DMA_DOMAIN_TYPE](ne-wdm-iommu_dma_domain_type.md).
 
-### -param MappedPhysicalAddress
+### -param MappedPhysicalAddress [in]
 
-[in]
+
 The [**IOMMU_MAP_PHYSICAL_ADDRESS**](ns-wdm-iommu_map_physical_address.md) representing the identity mapped address to delete.
 
 ## -returns

@@ -48,25 +48,25 @@ The **FltQueryDirectoryFile** routine returns various kinds of information about
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque pointer to the filter driver instance that initiates the I/O.
+Opaque pointer to the filter driver instance that initiates the I/O.
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] Pointer to the file object that represents the directory to be scanned.
+Pointer to the file object that represents the directory to be scanned.
 
-### -param FileInformation
+### -param FileInformation [out]
 
-[out] Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
+Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
 
-### -param Length
+### -param Length [in]
 
-[in] Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
+Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
 
-### -param FileInformationClass
+### -param FileInformationClass [in]
 
-[in] Type of information to be returned about files in the directory. One of the values in the following table can be used.
+Type of information to be returned about files in the directory. One of the values in the following table can be used.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -83,23 +83,23 @@ The **FltQueryDirectoryFile** routine returns various kinds of information about
 | **FileQuotaInformation** | Return a single [**FILE_QUOTA_INFORMATION**](../ntifs/ns-ntifs-_file_quota_information.md) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
 | **FileReparsePointInformation** | Return a single [**FILE_REPARSE_POINT_INFORMATION**](../ntifs/ns-ntifs-_file_reparse_point_information.md) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
 
-### -param ReturnSingleEntry
+### -param ReturnSingleEntry [in]
 
-[in] Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
+Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
 
-### -param FileName
+### -param FileName [in, optional]
 
-[in, optional] Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
+Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If *FileName* is **NULL**, all files are included. If *RestartScan* is **FALSE**, the value of *FileName* is ignored.
 
-### -param RestartScan
+### -param RestartScan [in]
 
-[in] Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile** for the first time.
+Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile** for the first time.
 
-### -param LengthReturned
+### -param LengthReturned [out, optional]
 
-[out, optional] Receives the number of bytes actually written to the given *FileInformation* buffer.
+Receives the number of bytes actually written to the given *FileInformation* buffer.
 
 ## -returns
 

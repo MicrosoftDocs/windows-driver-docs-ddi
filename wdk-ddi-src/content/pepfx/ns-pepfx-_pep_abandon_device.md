@@ -55,13 +55,13 @@ The <b>PEP_ABANDON_DEVICE</b> structure identifies a device that has been abando
 
 ## -struct-fields
 
-### -field DeviceId
+### -field DeviceId [in]
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+A string that uniquely identifies the device. This member is a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
-### -field DeviceAccepted
+### -field DeviceAccepted [out]
 
-[out] Whether the PEP claims ownership of the device. The PEP sets this member to TRUE to claim ownership of the device, or to FALSE to indicate that it does not own the device.
+Whether the PEP claims ownership of the device. The PEP sets this member to TRUE to claim ownership of the device, or to FALSE to indicate that it does not own the device.
 
 ## -remarks
 

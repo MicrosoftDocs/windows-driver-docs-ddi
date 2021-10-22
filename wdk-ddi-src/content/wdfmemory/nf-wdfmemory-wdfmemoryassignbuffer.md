@@ -54,19 +54,19 @@ The <b>WdfMemoryAssignBuffer</b> method assigns a specified buffer to a memory o
 
 ## -parameters
 
-### -param Memory 
+### -param Memory [in]
 
-[in]
+
 A handle to a framework memory object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated">WdfMemoryCreatePreallocated</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a driver-supplied buffer.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 
 ## -returns

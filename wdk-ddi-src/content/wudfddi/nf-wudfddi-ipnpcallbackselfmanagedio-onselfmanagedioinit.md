@@ -51,9 +51,9 @@ The <b>OnSelfManagedIoInit</b> method initializes a device's self-managed I/O op
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device for which the self-managed I/O operations are initialized.
 
 ## -returns

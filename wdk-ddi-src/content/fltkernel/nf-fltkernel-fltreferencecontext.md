@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] Pointer to the context. This parameter is required and cannot be **NULL**.
+Pointer to the context. This parameter is required and cannot be **NULL**.
 
 ## -returns
 

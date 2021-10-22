@@ -49,9 +49,9 @@ ImpersonatePrinterClient resumes impersonation of the client, completing the ope
 
 ## -parameters
 
-### -param hToken 
+### -param hToken [in]
 
-[in]
+
 Caller-supplied handle to a thread. This parameter must have been previously returned by a call to <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>.
 
 ## -returns

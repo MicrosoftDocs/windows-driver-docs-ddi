@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT containing the IRP to be queued to a worker thread.
 
 ## -returns

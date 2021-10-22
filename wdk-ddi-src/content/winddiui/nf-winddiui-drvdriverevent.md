@@ -124,9 +124,9 @@ DRIVER_INFO_3
 
 The DRIVER_INFO_<i>N</i> structures are described in the Microsoft Windows SDK documentation.
 
-### -param pDriverInfo 
+### -param pDriverInfo [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to a structure whose type is identified by the <i>dwLevel</i> parameter.
 
 ### -param lParam

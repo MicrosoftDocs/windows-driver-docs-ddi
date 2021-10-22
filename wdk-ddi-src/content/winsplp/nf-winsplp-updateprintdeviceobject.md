@@ -51,14 +51,14 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 The HANDLE to an open printer. This should be a handle that was returned by the <b>AddPrinter</b> or <b>OpenPrinter</b> spooler functions.
 
-### -param hDeviceObject 
+### -param hDeviceObject [in]
 
-[in]
+
 The HANDLE to the device object to be updated. This should be a device object that was created with <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
 
 ## -returns

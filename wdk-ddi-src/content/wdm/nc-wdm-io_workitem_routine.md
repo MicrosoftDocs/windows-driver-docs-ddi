@@ -49,14 +49,14 @@ A <i>WorkItem</i> routine performs the processing for a work item that was queue
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to one of the caller's device objects. This is the pointer that was passed as the <i>DeviceObject</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a> when the work item was allocated, or as the <i>IoObject</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a> when the work item was initialized.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Specifies driver-specific context information. This is the value that was passed as the <i>Context</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> when the work item was queued.
 
 ## -remarks

@@ -51,9 +51,9 @@ NDIS drivers call the
 
 ## -parameters
 
-### -param NdisObjectHandle 
+### -param NdisObjectHandle [in]
 
-[in]
+
 The handle of an NDIS object that is associated with a device object or driver object.
 
 ## -returns

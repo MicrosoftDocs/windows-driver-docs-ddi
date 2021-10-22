@@ -52,17 +52,17 @@ The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="
 
 ## -struct-fields
 
-### -field InitialValue
+### -field InitialValue [in]
 
-[in] A 64-bit value that specifies the initial value to create the keyed mutex for.
+A 64-bit value that specifies the initial value to create the keyed mutex for.
 
-### -field hSharedHandle
+### -field hSharedHandle [out]
 
-[out] A D3DKMT_HANDLE data type that represents a kernel-mode shared global handle to the keyed mutex object.
+A D3DKMT_HANDLE data type that represents a kernel-mode shared global handle to the keyed mutex object.
 
-### -field hKeyedMutex
+### -field hKeyedMutex [out]
 
-[out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object in the current process.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object in the current process.
 
 ## -see-also
 

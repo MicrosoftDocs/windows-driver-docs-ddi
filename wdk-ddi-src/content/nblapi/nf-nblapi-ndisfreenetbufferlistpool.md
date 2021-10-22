@@ -50,9 +50,9 @@ Call the
 
 ## -parameters
 
-### -param PoolHandle 
+### -param PoolHandle [in]
 
-[in]
+
 A handle that was obtained from a call to the 
      <a href="/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function.

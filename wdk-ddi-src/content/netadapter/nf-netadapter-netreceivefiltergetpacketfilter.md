@@ -45,9 +45,9 @@ The **NetReceiveFilterGetPacketFilter** function retrieves the **NET_PACKET_FILT
 
 ## -parameters
 
-### -param ReceiveFilter
+### -param ReceiveFilter [_In_]
 
-[_In_] A handle to a NETRECEIVEFILTER object.
+A handle to a NETRECEIVEFILTER object.
 
 ## -returns
 

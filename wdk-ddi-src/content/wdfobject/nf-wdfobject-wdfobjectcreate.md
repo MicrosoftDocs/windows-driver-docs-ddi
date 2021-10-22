@@ -54,14 +54,14 @@ The <b>WdfObjectCreate</b> method creates a general framework object.
 
 ## -parameters
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Object 
+### -param Object [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new framework object.
 
 ## -returns

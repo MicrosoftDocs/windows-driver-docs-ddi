@@ -51,14 +51,14 @@ A driver's <i>EvtDeviceD0EntryPostInterruptsEnabled</i> event callback function 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PreviousState 
+### -param PreviousState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
 
 ## -returns

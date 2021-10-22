@@ -3,13 +3,13 @@ UID: NC:d3dkmddi.DXGKCB_ENUMHANDLECHILDREN
 title: DXGKCB_ENUMHANDLECHILDREN (d3dkmddi.h)
 description: The DxgkCbEnumHandleChildren function enumerates all of the allocations that are associated with a given resource, one allocation at a time.
 old-location: display\dxgkcbenumhandlechildren.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKCB_ENUMHANDLECHILDREN callback function"]
 ms.keywords: DXGKCB_ENUMHANDLECHILDREN, DXGKCB_ENUMHANDLECHILDREN callback, DpFunctions_9690e256-00e7-4c6e-88cc-d2e1c32580a2.xml, DxgkCbEnumHandleChildren, DxgkCbEnumHandleChildren callback function [Display Devices], d3dkmddi/DxgkCbEnumHandleChildren, display.dxgkcbenumhandlechildren
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: < DISPATCH_LEVEL
+req.irql: PASSIVE_LEVEL
 targetos: Windows
 tech.root: display
 req.typenames: 
@@ -42,40 +42,39 @@ api_name:
 
 # DXGKCB_ENUMHANDLECHILDREN callback function
 
-
 ## -description
 
-The <b>DxgkCbEnumHandleChildren</b> function enumerates all of the allocations that are associated with a given resource, one allocation at a time.
+**DXGKCB_ENUMHANDLECHILDREN** enumerates the allocations associated with a given resource, one allocation at a time.
 
 ## -parameters
 
-### -param 
+### -param pData [in]
 
-*pData*
-
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_enumhandlechildren">DXGKARGCB_ENUMHANDLECHILDREN</a> structure that describes the parent resource and the index of the child allocation to retrieve.
+Pointer to a [**DXGKARGCB_ENUMHANDLECHILDREN**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md) structure that describes the parent resource and the index of the child allocation to retrieve.
 
 ## -returns
 
-<i>DxgkCbEnumHandleChildren</i> returns the graphics subsystem-specific handle to the child allocation that the <i>pData</i> parameter describes. To retrieve the device-specific data for the handle, the display miniport driver must call the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a> function.
+**DXGKCB_ENUMHANDLECHILDREN** returns the *Dxgkrnl*-specific handle to the child allocation that **pData** describes. To retrieve the device-specific *data* for the handle, the display miniport driver must call the [**DXGKCB_GETHANDLEDATA**](nc-d3dkmddi-dxgkcb_gethandledata.md) function.
 
-<i>DxgkCbEnumHandleChildren</i> returns a <b>NULL</b> handle if the child-allocation index that the <b>Index</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_enumhandlechildren">DXGKARGCB_ENUMHANDLECHILDREN</a> structure supplies exceeds the number of allocations that are associated with the parent resource. If <i>DxgkCbEnumHandleChildren</i> unexpectedly returns a <b>NULL</b> handle, the Microsoft DirectX graphics kernel subsystem was unable to resolve the handle to the parent resource because, for example, of the following possible reasons:
+**DXGKCB_ENUMHANDLECHILDREN** returns a NULL handle if the child-allocation index value supplied in the **Index** member of the [**DXGKARGCB_ENUMHANDLECHILDREN**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md) structure exceeds the number of allocations that are associated with the parent resource. If **DXGKCB_ENUMHANDLECHILDREN** unexpectedly returns a NULL handle, the DirectX graphics kernel subsystem was unable to resolve the handle to the parent resource, for a reason such as the following possibilities:
 
-<ul>
-<li>An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug. </li>
-<li>Allocations had lifetime issues. </li>
-</ul>
-If a <b>NULL</b> handle is returned unexpectedly, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
+* An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug.
+* Allocations had lifetime issues.
+
+If a **NULL** handle is returned unexpectedly, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
 
 ## -remarks
 
-The display miniport driver can call the <b>DxgkCbEnumHandleChildren</b> function in a loop to enumerate all of the allocations that are associated with a resource. If the display miniport driver sets the <b>Index</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_enumhandlechildren">DXGKARGCB_ENUMHANDLECHILDREN</a> structure that is pointed to by the <i>pData</i> parameter to 0, <b>DxgkCbEnumHandleChildren</b> returns the first allocation handle; if <b>Index</b> is set to 1, <b>DxgkCbEnumHandleChildren</b> returns the second allocation handle; and so on. If <b>Index</b> is greater than the number of allocations that are associated with the resource, <b>DxgkCbEnumHandleChildren</b> returns <b>NULL</b>.
+A display miniport driver can call **DXGKCB_ENUMHANDLECHILDREN** in a loop to enumerate all of the allocations that are associated with a resource.
+
+The allocation handle indices are zero-based. If the display miniport driver sets [**pData->Index**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md) to 0, **DXGKCB_ENUMHANDLECHILDREN** returns the first allocation handle; if **Index** is set to 1, **DXGKCB_ENUMHANDLECHILDREN** returns the second allocation handle; and so on. If **Index** is greater than the number of allocations that are associated with the resource, **DXGKCB_ENUMHANDLECHILDREN** returns **NULL**.
+
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_ENUMHANDLECHILDREN**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md) and then call **DxgkCbEnumHandleChildren** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_enumhandlechildren">DXGKARGCB_ENUMHANDLECHILDREN</a>
+[**DXGKARGCB_ENUMHANDLECHILDREN**](ns-d3dkmddi-_dxgkargcb_enumhandlechildren.md)
 
+[**DXGKCB_GETHANDLEDATA**](nc-d3dkmddi-dxgkcb_gethandledata.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a>
-
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

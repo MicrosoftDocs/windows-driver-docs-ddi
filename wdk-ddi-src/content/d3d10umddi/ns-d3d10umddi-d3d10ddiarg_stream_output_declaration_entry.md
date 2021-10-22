@@ -49,17 +49,17 @@ The D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of
 
 ## -struct-fields
 
-### -field OutputSlot
+### -field OutputSlot [in]
 
-[in] The number of the slot for the portion of the stream output.
+The number of the slot for the portion of the stream output.
 
-### -field RegisterIndex
+### -field RegisterIndex [in]
 
-[in] The number of the register for the portion of the stream output.
+The number of the register for the portion of the stream output.
 
-### -field RegisterMask
+### -field RegisterMask [in]
 
-[in] The xyzw register mask for the portion of the stream output. That is, the four least signifigant bits (LSBs) of the mask represent xyzw respectively.
+The xyzw register mask for the portion of the stream output. That is, the four least signifigant bits (LSBs) of the mask represent xyzw respectively.
 
 ## -see-also
 

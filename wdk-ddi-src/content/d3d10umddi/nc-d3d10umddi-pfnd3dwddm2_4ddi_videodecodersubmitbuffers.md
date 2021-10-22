@@ -47,21 +47,21 @@ Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) de
 
 ## -parameters
 
-### -param hDevice
+### -param hDevice [in]
 
-[in] A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
-### -param hDecode
+### -param hDecode [in]
 
-[in] A handle to the video decoder object that was created through a call to the CreateVideoDecoder function.
+A handle to the video decoder object that was created through a call to the CreateVideoDecoder function.
 
-### -param BufferCount
+### -param BufferCount [in]
 
-[in] The number of buffers in the array that is referenced by the pBufferDesc parameter.
+The number of buffers in the array that is referenced by the pBufferDesc parameter.
 
-### -param pBufferDesc
+### -param pBufferDesc [in]
 
-[in] A pointer to an array of one or more D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structures. For more information, see the Remarks section.
+A pointer to an array of one or more D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC structures. For more information, see the Remarks section.
 
 ## -returns
 

@@ -49,34 +49,34 @@ The <i>DpWmiSetDataBlock</i> routine changes all data items in a single instance
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the driver's WDM <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP.
 
-### -param GuidIndex 
+### -param GuidIndex [in]
 
-[in]
+
 Specifies the data block by its zero-based index into the list of GUIDs provided by the driver in the <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.
 
-### -param InstanceIndex 
+### -param InstanceIndex [in]
 
-[in]
+
 If the block specified by <i>GuidIndex </i>has multiple instances, <i>InstanceIndex</i> specifies the instance.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer that contains new values for the instance.
 
 ## -returns

@@ -49,29 +49,29 @@ The <b>MmAllocateContiguousNodeMemory</b> routine allocates a range of contiguou
 
 ## -parameters
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 The size, in bytes, of the block of contiguous memory to allocate. For more information, see Remarks.
 
-### -param LowestAcceptableAddress 
+### -param LowestAcceptableAddress [in]
 
-[in]
+
 The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device  should set <i>LowestAcceptableAddress</i> to 0x0000000000800000.
 
-### -param HighestAcceptableAddress 
+### -param HighestAcceptableAddress [in]
 
-[in]
+
 The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set <i>HighestAcceptableAddress</i> to 0x0000000000FFFFFF.
 
-### -param BoundaryAddressMultiple 
+### -param BoundaryAddressMultiple [in, optional]
 
-[in, optional]
+
 The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions. For more information, see Remarks.
 
-### -param Protect 
+### -param Protect [in]
 
-[in]
+
 Flag bits that specify the protection to use for the allocated memory. The caller must set one (but not both) of the following flag bits in the <i>Protect</i> parameter.
 
 <table>
@@ -110,9 +110,9 @@ In addition, the caller can set one (but not both) of the following optional fla
 
 If neither PAGE_NOCACHE nor PAGE_WRITECOMBINE is specified, the allocated memory is fully cached. In this case, the effect is similar to calling <b>MmAllocateContiguousMemorySpecifyCache</b> with <i>CacheType</i> set to <b>MmCached</b>.
 
-### -param PreferredNode 
+### -param PreferredNode [in]
 
-[in]
+
 The preferred node number. If a multiprocessor system contains N nodes, the nodes are numbered from 0 to N-1. If the caller sets <i>PreferredNode</i> to MM_ANY_NODE_OK, the routine chooses which node to allocate memory from. Otherwise, if memory in the specified address range cannot be allocated from the preferred node, the routine returns <b>NULL</b>.
 
 ## -returns

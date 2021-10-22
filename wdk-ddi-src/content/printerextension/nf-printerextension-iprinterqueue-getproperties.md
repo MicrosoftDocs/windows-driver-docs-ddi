@@ -49,9 +49,9 @@ Gets the properties in the property bag for the queue.
 
 ## -parameters
 
-### -param ppPropertyBag 
+### -param ppPropertyBag [out, retval]
 
-[out, retval]
+
 A pointer to the property bag.
 
 ## -returns

@@ -51,14 +51,14 @@ The <b>PWINDBG_SET_THREAD_CONTEXT_ROUTINE</b> (<b>SetContext</b>) function is si
 
 ### -param Processor
 
-### -param lpContext 
+### -param lpContext [out]
 
-[out]
+
 Points to the address of a context structure that contains the context to be set for the process being debugged. The context structure is highly machine-specific.
 
-### -param cbSizeOfContext 
+### -param cbSizeOfContext [in]
 
-[in]
+
 Specifies the size of the context structure.
 
 

@@ -47,7 +47,7 @@ api_name:
 
 ## -parameters
 
-### -param pRegistryRoot 
+### -param pRegistryRoot [in]
 
-[in]
+
 

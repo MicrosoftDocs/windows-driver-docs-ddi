@@ -49,9 +49,9 @@ The <b>OnSessionAccessible</b> method is called by the engine to inform the EngE
 
 ## -parameters
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Set to zero. (Reserved for future use).
 
 ## -returns

@@ -50,29 +50,29 @@ The <b>StreamClassReadWriteConfig</b> routine reads or writes configuration data
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
-### -param Read 
+### -param Read [in]
 
-[in]
+
 Specifies whether to read or write the configuration information. A value of <b>TRUE</b> indicates that a read is requested. A value of <b>FALSE</b> indicates that a write should be performed.
 
-### -param Buffer 
+### -param Buffer [in, out]
 
-[in, out]
+
 Points to the buffer to use to read/write the configuration information.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the offset within the configuration information to begin the read/write operation.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length of the data to read or write.
 
 ## -returns

@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param NameCacheCtl 
+### -param NameCacheCtl [in]
 
-[in]
+
 A pointer to the NAME_CACHE_CONTROL structure on which to activate the entry.
 
-### -param NameCache 
+### -param NameCache [in]
 
-[in]
+
 A pointer to the NAME_CACHE structure to activate.
 
-### -param LifeTime 
+### -param LifeTime [in]
 
-[in]
+
 A value that indicates the valid lifetime in seconds of the cache entry. A value of 0 means to leave the current value unchanged. A value of 0 is used for reactivations after a match where you want the original lifetime preserved.
 
-### -param MRxContext 
+### -param MRxContext [in]
 
-[in]
+
 A value of context supplied by the network mini-redirector for equality checking when making a valid entry check. An <i>MRxContext</i> value of 0 means to leave the current value unchanged. A value of 0 is used for reactivations after a match where you want the original <i>MRxContext</i> preserved.
 
 ## -remarks

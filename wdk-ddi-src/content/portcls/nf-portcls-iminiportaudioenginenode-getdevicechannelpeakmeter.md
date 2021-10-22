@@ -49,19 +49,19 @@ Gets the PeakMeter value  for the audio device channel.
 
 ## -parameters
 
-### -param ulNodeId 
+### -param ulNodeId [in]
 
-[in]
+
 The ID for the node that represents the audio device.
 
-### -param ulChannel 
+### -param ulChannel [in]
 
-[in]
+
 The audio device channel.
 
-### -param plPeakMeter 
+### -param plPeakMeter [out]
 
-[out]
+
 The PeakMeter value for the audio device channel.
 
 ## -returns

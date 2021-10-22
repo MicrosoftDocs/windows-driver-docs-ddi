@@ -52,11 +52,11 @@ The <b>D3DKMTGetMultisampleMethodList</b> function retrieves a list of multiple-
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
 *pData* 
 
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist">D3DKMT_GETMULTISAMPLEMETHODLIST</a> structure that describes the list of multiple-sample methods for an allocation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist">D3DKMT_GETMULTISAMPLEMETHODLIST</a> structure that describes the list of multiple-sample methods for an allocation.
 
 ## -returns
 

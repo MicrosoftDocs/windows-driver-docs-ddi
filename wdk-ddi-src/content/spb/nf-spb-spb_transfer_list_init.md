@@ -49,14 +49,14 @@ The <b>SPB_TRANSFER_LIST_INIT</b> function initializes an <a href="/windows-hard
 
 ## -parameters
 
-### -param TransferList 
+### -param TransferList [out]
 
-[out]
+
 A pointer to the <b>SPB_TRANSFER_LIST</b> structure that is to be initialized.
 
-### -param TransferCount 
+### -param TransferCount [in]
 
-[in]
+
 The number of entries in the transfer list. The function writes this value to the <b>TransferCount</b> member of the  <b>SPB_TRANSFER_LIST</b> structure.
 
 ## -remarks

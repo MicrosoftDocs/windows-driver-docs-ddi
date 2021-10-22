@@ -50,14 +50,14 @@ The <b>RtlEqualSid</b> routine determines whether two security identifier (SID) 
 
 ## -parameters
 
-### -param Sid1 
+### -param Sid1 [in]
 
-[in]
+
 Pointer to the first SID structure to compare. Must point to a valid SID.
 
-### -param Sid2 
+### -param Sid2 [in]
 
-[in]
+
 Pointer to the second SID structure to compare. Must point to a valid SID.
 
 ## -returns

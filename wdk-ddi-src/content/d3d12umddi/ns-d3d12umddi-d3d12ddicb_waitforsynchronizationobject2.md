@@ -49,22 +49,22 @@ Waits for synchronization object.
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to the context that should be waiting.
+A handle to the context that should be waiting.
 
-### -field ObjectCount
+### -field ObjectCount [in]
 
-[in] The number of objects to wait on.
+The number of objects to wait on.
 
-### -field ObjectHandleArray
+### -field ObjectHandleArray [in]
 
-[in] A handle to and array of synchronization objects to wait on.
+A handle to and array of synchronization objects to wait on.
 
-### -field FenceValue
+### -field FenceValue [in]
 
  
-[in] Fence value to be waited.
+Fence value to be waited.
 
 ## -remarks
 

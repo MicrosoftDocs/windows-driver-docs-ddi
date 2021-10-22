@@ -54,16 +54,16 @@ NDIS calls a filter driver's
 
 ## -parameters
 
-### -param FilterModuleContext 
+### -param FilterModuleContext [in]
 
-[in]
+
 A handle to a context area that the filter driver allocated in its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function. The filter driver
      uses this context area to maintain state information for a filter module.
 
-### -param CancelId 
+### -param CancelId [in]
 
-[in]
+
 A cancellation identifier. This identifier specifies the NET_BUFFER_LIST structures that are being
      canceled.
 

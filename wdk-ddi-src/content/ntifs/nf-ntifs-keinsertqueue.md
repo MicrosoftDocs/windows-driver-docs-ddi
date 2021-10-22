@@ -49,14 +49,14 @@ The <b>KeInsertQueue</b> routine inserts an entry at the tail of the given queue
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in, out]
 
-[in, out]
+
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
-### -param Entry 
+### -param Entry [in, out]
 
-[in, out]
+
 Pointer to an entry to be queued. This pointer must be a resident system-space address.
 
 ## -returns

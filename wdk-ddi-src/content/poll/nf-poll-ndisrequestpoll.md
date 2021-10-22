@@ -45,9 +45,9 @@ Miniport drivers call **NdisRequestPoll** to ask NDIS to execute the [*NdisPoll*
 
 ## -parameters
 
-### -param PollHandle
+### -param PollHandle [_In_]
 
-[_In_] A handle to the Poll object returned by a successful call to [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
+A handle to the Poll object returned by a successful call to [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md).
 
 ### -param Reserved
 

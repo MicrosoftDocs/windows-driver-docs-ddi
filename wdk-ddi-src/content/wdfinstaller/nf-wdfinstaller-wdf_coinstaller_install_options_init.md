@@ -51,9 +51,9 @@ The <b>WDF_COINSTALLER_INSTALL_OPTIONS_INIT</b> function initializes a <a href="
 
 ## -parameters
 
-### -param ClientOptions 
+### -param ClientOptions [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
 
 ## -remarks

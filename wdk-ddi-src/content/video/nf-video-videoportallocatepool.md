@@ -49,14 +49,14 @@ The <b>VideoPortAllocatePool</b> function allocates a block of pool memory, inse
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 Specifies the type of memory pool to allocate. This parameter can be set to one of the following:
 
 |Value|Meaning|
@@ -66,14 +66,14 @@ Specifies the type of memory pool to allocate. This parameter can be set to one 
 |VpNonPagedPoolCacheAligned|The pool is from cache-aligned, nonpaged memory.|
 |VpPagedPoolCacheAligned|The pool is from cache-aligned, paged memory.|
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies the number of bytes of memory to allocate.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Specifies a four-byte allocation tag, consisting of up to four ASCII characters, that uniquely identifies the driver that is allocating the memory. The tag string is delimited with single quotes.
 
 ## -returns

@@ -52,14 +52,14 @@ The <b>WdfPdoUpdateAddressDescription</b> method updates the <a href="/windows-h
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object that represents a device's physical device object (PDO).
 
-### -param AddressDescription 
+### -param AddressDescription [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated buffer that contains an address description. The address description must contain a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
 ## -returns

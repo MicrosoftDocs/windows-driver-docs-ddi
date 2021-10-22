@@ -49,9 +49,9 @@ The <i>SetStreamSourceUM</i> function binds a vertex stream source to a user mem
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

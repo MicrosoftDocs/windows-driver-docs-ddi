@@ -49,9 +49,9 @@ The <b>ExitThread</b> callback method is called by the engine when an exit-threa
 
 ## -parameters
 
-### -param ExitCode 
+### -param ExitCode [in]
 
-[in]
+
 Specifies the exit code for the thread.
 
 ## -returns

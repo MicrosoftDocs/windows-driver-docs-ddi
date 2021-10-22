@@ -52,17 +52,17 @@ The DXGK_QUERYSEGMENTIN structure describes relevant information for a memory-se
 
 ## -struct-fields
 
-### -field AgpApertureBase
+### -field AgpApertureBase [in]
 
-[in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the base address of the AGP aperture.
+A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the base address of the AGP aperture.
 
-### -field AgpApertureSize
+### -field AgpApertureSize [in]
 
-[in] A LARGE_INTEGER that indicates the size, in bytes, of the available AGP aperture.
+A LARGE_INTEGER that indicates the size, in bytes, of the available AGP aperture.
 
-### -field AgpFlags
+### -field AgpFlags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentflags">DXGK_SEGMENTFLAGS</a> structure that identifies properties for the available AGP aperture in bit-field flags.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentflags">DXGK_SEGMENTFLAGS</a> structure that identifies properties for the available AGP aperture in bit-field flags.
 
 ## -see-also
 

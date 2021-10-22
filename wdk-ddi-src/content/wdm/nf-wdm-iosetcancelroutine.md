@@ -49,14 +49,14 @@ The <b>IoSetCancelRoutine</b> routine sets up a driver-supplied <a href="/window
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP being put into or removed from a cancelable state.
 
-### -param CancelRoutine 
+### -param CancelRoutine [in]
 
-[in]
+
 Specifies the entry point of the caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_cancel">Cancel</a> routine to be called if the specified IRP is canceled or is <b>NULL</b> if the given IRP is being removed from the cancelable state. This routine is declared as follows:
 
 

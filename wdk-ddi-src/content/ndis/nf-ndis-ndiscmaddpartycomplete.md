@@ -51,28 +51,28 @@ api_name:
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the call manager's add-party operation, either NDIS_STATUS_SUCCESS
      or any NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
-### -param NdisPartyHandle 
+### -param NdisPartyHandle [in]
 
-[in]
+
 Specifies the handle identifying the party. This handle was input to the call manager's 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
-### -param CallMgrPartyContext 
+### -param CallMgrPartyContext [in, optional]
 
-[in, optional]
+
 Specifies the handle to a caller-allocated resident context area in which the call manager will
      maintain party-specific state information if the add-party operation succeeded. Otherwise, this
      parameter can be <b>NULL</b> because it is ignored.
 
-### -param CallParameters 
+### -param CallParameters [in]
 
-[in]
+
 Pointer to a structure of type 
      <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.

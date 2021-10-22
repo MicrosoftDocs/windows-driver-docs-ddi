@@ -49,16 +49,16 @@ The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagn
 
 ## -parameters
 
-### -param lFlags 
+### -param lFlags [in]
 
-[in]
+
 Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA_TRACE or WIA_ERROR.
 
 ### -param lResID
 
-### -param lDetail 
+### -param lDetail [in]
 
-[in]
+
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
 
 | Level | Description |
@@ -69,9 +69,9 @@ Specifies the diagnostic detail level of the message. This parameter can be one 
 | WIALOG_LEVEL4 | Logs additional details for WIALOG_LEVEL3. |
 | WIALOG_LEVELXXX | User-defined log levels. |
 
-### -param bstrText 
+### -param bstrText [in]
 
-[in]
+
 Specifies the error text. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 #### - lResId [in]

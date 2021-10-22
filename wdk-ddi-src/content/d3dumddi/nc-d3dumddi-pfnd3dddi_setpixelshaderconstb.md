@@ -49,9 +49,9 @@ The <i>SetPixelShaderConstB</i> function sets one or more pixel shader constant 
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in] A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 ### -param unnamedParam2
 

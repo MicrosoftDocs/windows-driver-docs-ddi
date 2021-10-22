@@ -49,19 +49,19 @@ The <b>Execute</b>  method executes the specified debugger commands.
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies the output control to use while executing the command.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-### -param Command 
+### -param Command [in]
 
-[in]
+
 Specifies the command string to execute.  The command is interpreted like those typed into a debugger command window.  This command string can contain multiple commands for the engine to execute.  See <a href="/windows-hardware/drivers/debugger/debugger-commands">Debugger Commands</a> for the command reference.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit field of execution options for the command.  The default options are to log the command but to not send it to the output.  The following table lists the bits that can be set.
 
 <table>

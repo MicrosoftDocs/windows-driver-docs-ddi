@@ -49,9 +49,9 @@ Performs a small amount of simple I/O to the device.
 
 ## -parameters
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the operation succeeds; otherwise, false.
 
 ## -returns

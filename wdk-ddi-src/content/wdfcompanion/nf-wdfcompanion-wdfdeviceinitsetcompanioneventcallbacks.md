@@ -49,11 +49,11 @@ api_name:
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
 
-### -param CompanionEventCallbacks 
 
-[in]
+### -param CompanionEventCallbacks [in]
+
+
 

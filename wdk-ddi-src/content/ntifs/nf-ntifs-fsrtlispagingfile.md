@@ -49,9 +49,9 @@ The <b>FsRtlIsPagingFile</b> routine determines whether a given file is a paging
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the file.
 
 ## -returns

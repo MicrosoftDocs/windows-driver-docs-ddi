@@ -52,25 +52,25 @@ The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode o
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation to be displayed.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation to be displayed.
 
-### -field DstRect
+### -field DstRect [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay destination rectangle in device coordinates.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay destination rectangle in device coordinates.
 
-### -field SrcRect
+### -field SrcRect [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay source rectangle in device coordinates.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay source rectangle in device coordinates.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] A pointer to a block of private data, which is passed from the user-mode display driver to the display miniport driver.
+A pointer to a block of private data, which is passed from the user-mode display driver to the display miniport driver.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
+The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 
 ## -see-also
 

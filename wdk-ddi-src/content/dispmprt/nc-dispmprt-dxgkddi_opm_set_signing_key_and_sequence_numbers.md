@@ -49,17 +49,17 @@ The **DxgkDdiOPMSetSigningKeyAndSequenceNumbers** function sets the given protec
 
 ## -parameters
 
-### -param MiniportDeviceContext
+### -param MiniportDeviceContext [in]
 
-[in] A handle to a context block associated with a display adapter. Previously, the display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md) function provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. Previously, the display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md) function provided this handle to the DirectX graphics kernel subsystem.
 
-### -param ProtectedOutputHandle
+### -param ProtectedOutputHandle [in]
 
-[in] The handle to a protected output object. The [**DxgkDdiOPMCreateProtectedOutput**](nc-dispmprt-dxgkddi_opm_create_protected_output.md) function creates the protected output object and returns the handle to the object.
+The handle to a protected output object. The [**DxgkDdiOPMCreateProtectedOutput**](nc-dispmprt-dxgkddi_opm_create_protected_output.md) function creates the protected output object and returns the handle to the object.
 
-### -param EncryptedParameters
+### -param EncryptedParameters [in]
 
-[in] A pointer to a [**DXGKMDT_OPM_ENCRYPTED_PARAMETERS**](..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_encrypted_parameters.md) structure that contains a 256-byte array. The array contains between 40 and 256 bytes of data that is encrypted with the public key from the appropriate certificate. For more information about the public key, download the Output Content Protection document from [Supporting Output Protection Manager](/windows-hardware/drivers/display/supporting-output-protection-manager). If the protected output has OPM semantics, the data is encrypted with the public key from the display miniport driver's OPM certificate. If the protected output has Certified Output Protection Protocol (COPP) semantics, the data is encrypted with the public key from the display miniport driver's COPP certificate.
+A pointer to a [**DXGKMDT_OPM_ENCRYPTED_PARAMETERS**](..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_encrypted_parameters.md) structure that contains a 256-byte array. The array contains between 40 and 256 bytes of data that is encrypted with the public key from the appropriate certificate. For more information about the public key, download the Output Content Protection document from [Supporting Output Protection Manager](/windows-hardware/drivers/display/supporting-output-protection-manager). If the protected output has OPM semantics, the data is encrypted with the public key from the display miniport driver's OPM certificate. If the protected output has Certified Output Protection Protocol (COPP) semantics, the data is encrypted with the public key from the display miniport driver's COPP certificate.
 
 The algorithm that the display miniport driver should use to decrypt the data in the array depends on the semantics of the protected output. Protected outputs with OPM semantics use the RSAES-OAEP encryption scheme to decrypt the data. For more information about RSAES-OAEP, see the [RSA Laboratories](https://www.rsa.com/) website. Protected outputs with COPP semantics use the standard RSA encryption algorithm to decrypt the encrypted data.
 

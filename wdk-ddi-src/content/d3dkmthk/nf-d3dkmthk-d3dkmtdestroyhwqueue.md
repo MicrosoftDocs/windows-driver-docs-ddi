@@ -49,9 +49,9 @@ Used to destroy a hardware queue.
 
 ## -parameters
 
-### -param D3DKMT_DESTROYHWQUEUE
+### -param D3DKMT_DESTROYHWQUEUE [in]
 
-[in] A structure holding the information needed to destroy a hardware queue.
+A structure holding the information needed to destroy a hardware queue.
 
 ## -returns
 

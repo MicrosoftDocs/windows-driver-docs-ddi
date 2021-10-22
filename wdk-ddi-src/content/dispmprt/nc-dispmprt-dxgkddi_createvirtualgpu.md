@@ -50,13 +50,13 @@ This function creates a virtual GPU with provided parameters and re-tunes inform
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [DXGKARG_CREATEVIRTUALGPU](ns-dispmprt-_dxgkarg_createvirtualgpu.md) structure.
+Pointer to a [DXGKARG_CREATEVIRTUALGPU](ns-dispmprt-_dxgkarg_createvirtualgpu.md) structure.
 
 ## -returns
 

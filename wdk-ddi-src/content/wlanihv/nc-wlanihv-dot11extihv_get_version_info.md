@@ -52,9 +52,9 @@ api_name:
 
 ## -parameters
 
-### -param pDot11IHVVersionInfo 
+### -param pDot11IHVVersionInfo [out]
 
-[out]
+
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a> structure,
      which contains the interface version numbers.

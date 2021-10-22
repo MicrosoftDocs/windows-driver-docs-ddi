@@ -51,9 +51,9 @@ The <b>CancelSentRequestsForFile</b> method cancels all I/O requests that have b
 
 ## -parameters
 
-### -param pFile 
+### -param pFile [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object to cancel all I/O requests for.
 
 ## -see-also

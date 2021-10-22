@@ -43,30 +43,30 @@ Used to get information about the swap chain.
 
 ## -struct-fields
 
-### -field hNtSwapChain
+### -field hNtSwapChain [in]
 
-[in] NT handle for the swap chain in this process.
+NT handle for the swap chain in this process.
 
-### -field bReleaseBeforeAcquire
+### -field bReleaseBeforeAcquire [in]
 
-[in] Indicates if the caller wants to release the current buffer before acquire.
+Indicates if the caller wants to release the current buffer before acquire.
 
-### -field bProducer
+### -field bProducer [in]
 
-[in] Indicates if producer or consumer.
+Indicates if producer or consumer.
 
-### -field ReleaseInfo
+### -field ReleaseInfo [in/out]
 
-[in/out] Release info.
+Release info.
 
-### -field AcquiredBufferIdx
+### -field AcquiredBufferIdx [out]
 
-[out] Index of the buffer that was just acquired.
+Index of the buffer that was just acquired.
 
-### -field OpenerAcquiredSurfaceHandle
+### -field OpenerAcquiredSurfaceHandle [out]
 
-[out] Nt handle of texture that was just acquired, used only for non-sequential openers.
+Nt handle of texture that was just acquired, used only for non-sequential openers.
 
-### -field AcquireMetadataSize
+### -field AcquireMetadataSize [out]
 
-[out] Size of the metadata.
+Size of the metadata.

@@ -55,19 +55,19 @@ The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> function initializes a driver's <a
 
 <p>A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config"><b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b></a> structure.</p>
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 The translated address of the register to target for DMA. For more information, see Remarks.
 
-### -param DmaWidth 
+### -param DmaWidth [in]
 
-[in]
+
 The width of the register specified by <b>Address</b>.
 
-### -param DmaDescriptor 
+### -param DmaDescriptor [in]
 
-[in]
+
 The translated resource descriptor for the DMA channel assigned 
       the device during <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>.
 

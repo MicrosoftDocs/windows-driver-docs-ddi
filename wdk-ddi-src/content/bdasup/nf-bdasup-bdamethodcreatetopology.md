@@ -52,14 +52,14 @@ The <b>BdaMethodCreateTopology</b> function creates a template topology between 
 
 ### -param pIrp
 
-### -param pKSMethod 
+### -param pKSMethod [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
-### -param pvIgnored 
+### -param pvIgnored [optional]
 
-[optional]
+
 Points to a buffer that is ignored. 
 
 

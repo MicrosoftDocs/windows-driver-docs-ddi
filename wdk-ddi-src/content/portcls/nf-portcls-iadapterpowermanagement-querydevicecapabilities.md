@@ -49,9 +49,9 @@ The <code>QueryDeviceCapabilities</code> method is called by PortCls in response
 
 ## -parameters
 
-### -param PowerDeviceCaps 
+### -param PowerDeviceCaps [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
 
 ## -returns

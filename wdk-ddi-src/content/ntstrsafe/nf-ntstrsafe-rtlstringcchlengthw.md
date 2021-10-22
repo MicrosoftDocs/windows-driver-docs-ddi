@@ -50,14 +50,14 @@ The <b>RtlStringCchLengthW</b> and <b>RtlStringCchLengthA</b> functions determin
 
 ## -parameters
 
-### -param psz 
+### -param psz [in]
 
-[in]
+
 A pointer to a buffer that contains a null-terminated string, the length of which will be checked.
 
-### -param cchMax 
+### -param cchMax [in]
 
-[in]
+
 The maximum number of characters allowed in the buffer pointed to by <i>psz</i>, including the terminating null character. This value cannot exceed NTSTRSAFE_MAX_CCH.
 
 ### -param pcchLength

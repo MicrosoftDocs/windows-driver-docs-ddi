@@ -49,14 +49,14 @@ The<b> KsGateInitializeOr</b> function initializes a <a href="/windows-hardware/
 
 ## -parameters
 
-### -param OrGate 
+### -param OrGate [in]
 
-[in]
+
 A pointer to the KSGATE structure to initialize as a new OR gate.
 
-### -param NextAndGate 
+### -param NextAndGate [in, optional]
 
-[in, optional]
+
 A pointer to an existing KSGATE structure to which <i>OrGate</i> attaches. Optional.
 
 ## -remarks

@@ -50,19 +50,19 @@ The <b>ExQueryTimerResolution</b> routine reports the range of timer resolutions
 
 ## -parameters
 
-### -param MaximumTime 
+### -param MaximumTime [out]
 
-[out]
+
 A pointer to a location to which the routine writes the maximum time interval, in 100-nanosecond units, between successive ticks of the system clock. A <i>tick</i> is an interrupt caused by the system clock timer.
 
-### -param MinimumTime 
+### -param MinimumTime [out]
 
-[out]
+
 A pointer to a location to which the routine writes the minimum time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
-### -param CurrentTime 
+### -param CurrentTime [out]
 
-[out]
+
 A pointer to a location to which the routine writes the current time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
 ## -remarks

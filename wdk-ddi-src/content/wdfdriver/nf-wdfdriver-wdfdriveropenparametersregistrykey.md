@@ -54,14 +54,14 @@ The <b>WdfDriverOpenParametersRegistryKey</b> method opens the driver's <b>Param
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies an access mask for the <b>Parameters</b> registry key.
 
 A KMDF driver typically requests <b>KEY_READ</b>, <b>KEY_WRITE</b>, or <b>KEY_READ | KEY_WRITE</b>.
@@ -70,14 +70,14 @@ If you are writing a UMDF driver, use <b>KEY_READ</b> or <b>KEY_READ | KEY_SET_V
 
 As a best practice, ask for only the types of access that your driver needs.
 
-### -param KeyAttributes 
+### -param KeyAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Key 
+### -param Key [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework registry-key object.
 
 ## -returns

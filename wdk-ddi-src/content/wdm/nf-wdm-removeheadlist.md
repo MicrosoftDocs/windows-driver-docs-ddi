@@ -49,9 +49,9 @@ The <b>RemoveHeadList</b> routine removes an entry from the beginning of a doubl
 
 ## -parameters
 
-### -param ListHead 
+### -param ListHead [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 ## -returns

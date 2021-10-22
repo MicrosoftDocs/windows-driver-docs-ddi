@@ -226,9 +226,9 @@ GDI is about to process a call to its <b>StartPage</b> function.
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pvIn</i>.
 
-### -param pvIn 
+### -param pvIn [in]
 
-[in]
+
 Caller-supplied pointer, the use of which is dependent on the value supplied for <i>iEsc</i>, as follows:
 
 <table>
@@ -404,9 +404,9 @@ Caller-supplied size, in bytes, of the buffer pointer to by <i>pvOut</i>.
 
 Not used.
 
-### -param pvOut 
+### -param pvOut [out]
 
-[out]
+
 Function-supplied pointer to an output buffer, the use of which is dependent on the value supplied for <i>iEsc</i>, as follows. <b>CreateDC</b>, <b>ExtEscape</b>, and <b>ResetDC</b> are described in the Windows SDK documentation.
 
 <table>

@@ -49,19 +49,19 @@ The <b>CreateProcessWide</b> method creates a process from the specified command
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 Specifies the process server to use when attaching to the process.  If <i>Server</i> is zero, the engine will create a local process without using a process server.
 
-### -param CommandLine 
+### -param CommandLine [in]
 
-[in]
+
 Specifies the command line to execute to create the new process. The <b>CreateProcessWide</b> method might modify the contents of the string that you supply in this parameter. Therefore, this parameter cannot be a pointer to read-only memory (such as a const variable or a literal string). Passing a constant string in this parameter can lead to an access violation.
 
-### -param CreateFlags 
+### -param CreateFlags [in]
 
-[in]
+
 Specifies the flags to use when creating the process.  For details on these flags, see the <b>CreateFlags</b> member of the <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_create_process_options">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
 
 ## -returns

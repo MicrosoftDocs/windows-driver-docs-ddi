@@ -52,9 +52,9 @@ Call the
 
 ## -parameters
 
-### -param NetBuffer 
+### -param NetBuffer [in]
 
-[in]
+
 A pointer to a NET_BUFFER structure that was allocated by calling 
      <b>NdisAllocateNetBuffer</b>.
 

@@ -55,9 +55,9 @@ The <b>PEP_PPM_INITIATE_WAKE</b> structure indicates whether a processor require
 
 ## -struct-fields
 
-### -field NeedInterruptForCompletion
+### -field NeedInterruptForCompletion [out]
 
-[out] Whether the processor requires an interrupt finish waking up from an idle state. Set to <b>TRUE</b> if the processor requires an interrupt, or to <b>FALSE</b> if it does not.
+Whether the processor requires an interrupt finish waking up from an idle state. Set to <b>TRUE</b> if the processor requires an interrupt, or to <b>FALSE</b> if it does not.
 
 ## -remarks
 

@@ -50,19 +50,19 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in, optional]
 
-[in, optional]
+
 File object pointer to be used in the I/O operation. This parameter is optional and can be <b>NULL</b>.
 
-### -param RetNewCallbackData 
+### -param RetNewCallbackData [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure.
 
 ## -returns

@@ -49,9 +49,9 @@ Returns the command queue previously created by <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param UfxEndpoint 
+### -param UfxEndpoint [in]
 
-[in]
+
 A handle to an endpoint object returned from a previous call to <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
 
 ## -returns

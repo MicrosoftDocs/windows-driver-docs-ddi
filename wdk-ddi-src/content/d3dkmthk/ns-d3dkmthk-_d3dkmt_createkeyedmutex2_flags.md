@@ -64,9 +64,9 @@ If <b>NtSecuritySharing</b> is set to zero (<b>FALSE</b>), the keyed mutex has a
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros.
 
-### -field Value
+### -field Value [in]
 
-[in] A member in the union that <b>D3DKMT_CREATEKEYEDMUTEX2_FLAGS</b> contains that can hold a 32-bit value that identifies the keyed mutex  sharing type.
+A member in the union that <b>D3DKMT_CREATEKEYEDMUTEX2_FLAGS</b> contains that can hold a 32-bit value that identifies the keyed mutex  sharing type.
 
 ## -see-also
 

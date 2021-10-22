@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param calloutId 
+### -param calloutId [in]
 
-[in]
+
 The run-time identifier for the callout that is being unregistered from the filter engine. This
      must be the run-time identifier that was returned when the callout driver called either the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 

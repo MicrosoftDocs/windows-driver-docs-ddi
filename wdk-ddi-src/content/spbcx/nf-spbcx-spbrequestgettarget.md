@@ -50,9 +50,9 @@ The <b>SpbRequestGetTarget</b> method retrieves the SPBTARGET handle from the sp
 
 ## -parameters
 
-### -param SpbRequest 
+### -param SpbRequest [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="/previous-versions/hh450911(v=vs.85)">event callback functions</a>.
 
 ## -returns

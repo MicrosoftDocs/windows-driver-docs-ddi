@@ -49,19 +49,19 @@ The <i>GetDmaAdapter</i> routine returns a <a href="/windows-hardware/drivers/dd
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard">BUS_INTERFACE_STANDARD</a> structure for the interface.
 
-### -param DeviceDescriptor 
+### -param DeviceDescriptor [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure that describes the attributes of the physical device.
 
-### -param NumberOfMapRegisters 
+### -param NumberOfMapRegisters [out]
 
-[out]
+
 A pointer to, on output, the maximum number of map registers that the driver can allocate for any DMA transfer operation. The caller must allocate a <b>LONG</b> variable to receive this data.
 
 ## -returns

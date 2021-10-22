@@ -46,24 +46,24 @@ This function is the extended version of the [StorPortFreeContiguousMemorySpecif
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
+
 The base virtual address to free.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the [StorPortAllocateContiguousMemorySpecifyCacheNode](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md) routine was previously called.
 
-### -param CacheType 
+### -param CacheType [in]
 
-[in]
+
 The cache type that is used in the call to the [StorPortAllocateContiguousMemorySpecifyCacheNode](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md) routine.
 
 ## -returns

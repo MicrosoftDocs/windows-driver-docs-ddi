@@ -49,13 +49,13 @@ Used to offer allocations.
 
 An array of Direct3D runtime resource handles.
 
-### -field HandleList
+### -field HandleList [in]
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations.
+An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of elements in the allocation list.
+The number of elements in the allocation list.
 
 ### -field Priority
 

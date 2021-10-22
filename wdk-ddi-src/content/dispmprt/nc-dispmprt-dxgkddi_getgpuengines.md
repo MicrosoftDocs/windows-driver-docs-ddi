@@ -50,13 +50,13 @@ This function is no longer used and maybe be deleted in the near future.  It is 
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
 
-### -param pArgs 
+### -param pArgs [in]
 
-[in] A pointer to the DXGKARG_GETGPUENGINES structure.
+A pointer to the DXGKARG_GETGPUENGINES structure.
 
 ## -returns
 

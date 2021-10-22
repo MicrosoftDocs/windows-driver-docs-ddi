@@ -52,19 +52,19 @@ Given an ANSI or double-byte character set (DBCS) pathname string, the <b>FsRtlD
 
 ## -parameters
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 The pathname string to be parsed.
 
-### -param FirstName 
+### -param FirstName [out]
 
-[out]
+
 A pointer to the first file name in the pathname string.
 
-### -param RemainingName 
+### -param RemainingName [out]
 
-[out]
+
 A pointer to the remaining unparsed portion of the pathname string.
 
 ## -remarks

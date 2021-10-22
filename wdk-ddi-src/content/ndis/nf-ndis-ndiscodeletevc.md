@@ -50,9 +50,9 @@ api_name:
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 Specifies the handle identifying the VC to be deleted. The caller originally obtained this handle
      from 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>.

@@ -49,19 +49,19 @@ An AVStream minidriver's <i>AVStrMiniAddEvent</i> routine is called when a clien
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP describing the event add request.
 
-### -param EventData 
+### -param EventData [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure describing the notification method for this event.
 
-### -param EventEntry 
+### -param EventEntry [in]
 
-[in]
+
 Pointer to an AVStream-generated <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing how the event is triggered.
 
 ## -returns

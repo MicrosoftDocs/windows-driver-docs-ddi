@@ -48,26 +48,26 @@ api_name:
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer for the instance.
+Opaque instance pointer for the instance.
 
-### -param Operation
+### -param Operation [in]
 
-[in] Flag specifying details of the operation to be performed. This parameter must be one of the following:
+Flag specifying details of the operation to be performed. This parameter must be one of the following:
 
 | Flag | Meaning |
 | ---- | ------- |
 | FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for the instance that the *Instance* parameter points to, **FltSetInstanceContext** will replace that context with the context specified in *NewContext*. Otherwise, it will set *NewContext* as the context for *Instance*. |
 | FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for this *Instance*, **FltSetInstanceContext** returns STATUS_FLT_CONTEXT_ALREADY_DEFINED, and does not replace the existing context or increment the reference count. If a context is not already set, the routine will set *NewContext* as the context for *Instance* and increment the reference count. |
 
-### -param NewContext
+### -param NewContext [in]
 
-[in] Pointer to the new context to be set for the instance. This parameter is required and cannot be **NULL**.
+Pointer to the new context to be set for the instance. This parameter is required and cannot be **NULL**.
 
-### -param OldContext
+### -param OldContext [out]
 
-[out] Pointer to a caller-allocated variable that receives the address of the existing instance context, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
+Pointer to a caller-allocated variable that receives the address of the existing instance context, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 

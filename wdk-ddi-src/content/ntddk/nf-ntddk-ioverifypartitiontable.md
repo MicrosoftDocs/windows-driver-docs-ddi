@@ -50,14 +50,14 @@ The <b>IoVerifyPartitionTable</b> routine checks the validity of the partition t
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies the device object of the disk to verify.
 
-### -param FixErrors 
+### -param FixErrors [in]
 
-[in]
+
 Specifies if the routine should correct any correctable errors in the partition table.
 
 ## -returns

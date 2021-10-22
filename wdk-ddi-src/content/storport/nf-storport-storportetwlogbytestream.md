@@ -45,29 +45,29 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param Address
+### -param Address [in, optional]
 
-[in, optional] The storage unit device address. This parameter is NULL for adapter devices.
+The storage unit device address. This parameter is NULL for adapter devices.
 
-### -param EventChannel
+### -param EventChannel [in]
 
-[in] A [**STORPORT_ETW_EVENT_CHANNEL**](ne-storport-storport_etw_event_channel.md) value that identifies the ETW channel in which to log the event.
+A [**STORPORT_ETW_EVENT_CHANNEL**](ne-storport-storport_etw_event_channel.md) value that identifies the ETW channel in which to log the event.
 
-### -param EventId
+### -param EventId [in]
 
-[in] A miniport-defined event ID that uniquely identifies the event.
+A miniport-defined event ID that uniquely identifies the event.
 
-### -param EventDescription
+### -param EventDescription [in]
 
-[in] A short string describing the event. *EventDescription* is required and must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH characters, not including the NULL terminator.
+A short string describing the event. *EventDescription* is required and must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH characters, not including the NULL terminator.
 
-### -param EventKeywords
+### -param EventKeywords [in]
 
-[in] Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
+Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -76,9 +76,9 @@ dev_langs:
 | STORPORT_ETW_EVENT_KEYWORD_POWER | The event is related to device power. |
 | STORPORT_ETW_EVENT_KEYWORD_ENUMERATION | The event is related to device enumeration. |
 
-### -param EventLevel
+### -param EventLevel [in]
 
-[in] The event level. This value can indicate the importance or severity of the event. This is one of the following values.
+The event level. This value can indicate the importance or severity of the event. This is one of the following values.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -89,9 +89,9 @@ dev_langs:
 | StorportEtwLevelInformational | Informational event. |
 | StorportEtwLevelVerbose | Verbose event information provided. |
 
-### -param EventOpcode
+### -param EventOpcode [in]
 
-[in] The operational nature of the event. This is one of the following values.
+The operational nature of the event. This is one of the following values.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -106,13 +106,13 @@ dev_langs:
 | StorportEtwEventOpcodeSuspend | Device or unit is suspended pending completion of another operation. |
 | StorportEtwEventOpcodeReceive | Transfer of activity is received from another component. |
 
-### -param DataLength
+### -param DataLength [in]
 
-[in] Length, in bytes, of the byte stream that *Data* points to, where 1 <= *DataLength* <= STORPORT_ETW_MAX_BYTE_STREAM_LENGTH.
+Length, in bytes, of the byte stream that *Data* points to, where 1 <= *DataLength* <= STORPORT_ETW_MAX_BYTE_STREAM_LENGTH.
 
-### -param Data
+### -param Data [in]
 
-[in] Pointer to the miniport's custom ETW byte stream.
+Pointer to the miniport's custom ETW byte stream.
 
 ## -returns
 

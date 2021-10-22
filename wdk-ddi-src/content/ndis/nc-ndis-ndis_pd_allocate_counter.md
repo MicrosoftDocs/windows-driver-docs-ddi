@@ -66,19 +66,19 @@ Filter counters are used for tracking filter match activity.
 
 ## -parameters
 
-### -param ProviderHandle 
+### -param ProviderHandle [in]
 
-[in]
+
 A provider handle that identifies the PD-capable miniport driver's provider object.
 
-### -param CounterParameters 
+### -param CounterParameters [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_counter_parameters">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
 
-### -param CounterHandle 
+### -param CounterHandle [out]
 
-[out]
+
 A pointer to a driver-allocated counter handle variable. If the counter allocation succeeds, the miniport driver returns a handle to the newly allocated counter in this variable.
 
 ## -returns

@@ -49,14 +49,14 @@ The IoGetActivityIdIrp routine retrieves the current activity ID associated with
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 The IRP from which to retrieve the activity ID.
 
-### -param Guid 
+### -param Guid [out]
 
-[out]
+
 A pointer to a location  to store the retrieved GUID.
 
 ## -returns

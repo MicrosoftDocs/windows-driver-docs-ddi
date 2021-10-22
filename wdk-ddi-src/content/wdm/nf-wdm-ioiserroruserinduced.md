@@ -49,9 +49,9 @@ The <b>IoIsErrorUserInduced</b> routine determines whether an I/O error encounte
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the current NTSTATUS value, usually within the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine.
 
 ## -syntax

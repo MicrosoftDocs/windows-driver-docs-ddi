@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 An NDIS handle that identifies the miniport adapter for the NIC. This handle was originally passed
      to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">

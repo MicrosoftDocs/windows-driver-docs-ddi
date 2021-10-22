@@ -52,10 +52,10 @@ Used to translate the resource handle to the corresponding host handle.
 
 A [D3DDDI_DRIVERESCAPETYPE](ne-d3dukmdt-_d3dddi_driverescapetype.md).
 
-### -field hResource
+### -field hResource [in]
 
  
-[in] A handle to DirectX Graphics resource, returned from [DxgkDdiCreateAllocation](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
+A handle to DirectX Graphics resource, returned from [DxgkDdiCreateAllocation](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
 
 [out] A handle, which can be sent to the kernel mode driver and used in [DxgkCbAcquireHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_acquirehandledata.md), [DxgkCbReleaseHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_releasehandledata.md), [DxgCbEnumHandleChildren](../d3dkmddi/nc-d3dkmddi-dxgkcb_enumhandlechildren.md), and [DxgkCbGetHandleData](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata.md).
 

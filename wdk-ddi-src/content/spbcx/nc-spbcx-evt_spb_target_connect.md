@@ -49,14 +49,14 @@ An SPB controller driver's <i>EvtSpbTargetConnect</i> event callback function op
 
 ## -parameters
 
-### -param Controller 
+### -param Controller [in]
 
-[in]
+
 A WDFDEVICE handle to the <a href="/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
-### -param Target 
+### -param Target [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target to open.  The target is a peripheral device or port that is attached to the bus.
 
 ## -returns

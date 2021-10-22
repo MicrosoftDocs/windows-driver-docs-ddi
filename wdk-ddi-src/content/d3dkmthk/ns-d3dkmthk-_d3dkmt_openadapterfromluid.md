@@ -56,9 +56,9 @@ Describes the mapping of the given locally unique identifier (LUID) of a device 
 
  [in] A LUID that serves as an identifier for the device. <b>LUID</b> is defined in Dxgi.h.
 
-### -field hAdapter
+### -field hAdapter [out]
 
-[out] A handle to the graphics adapter for the device that the <b>AdapterLuid</b> member specifies. The adapter handle is returned from a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromluid">D3DKMTOpenAdapterFromLuid</a> function.
+A handle to the graphics adapter for the device that the <b>AdapterLuid</b> member specifies. The adapter handle is returned from a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromluid">D3DKMTOpenAdapterFromLuid</a> function.
 
 ## -see-also
 

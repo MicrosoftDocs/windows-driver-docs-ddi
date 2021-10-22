@@ -49,14 +49,14 @@ Gets a stream and uses it  to write to a stream property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to write.
 
-### -param ppStream 
+### -param ppStream [out, retval]
 
-[out, retval]
+
 The retrieved stream.
 
 ## -returns

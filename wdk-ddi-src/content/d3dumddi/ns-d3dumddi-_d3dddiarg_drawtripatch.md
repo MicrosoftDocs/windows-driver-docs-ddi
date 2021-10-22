@@ -52,9 +52,9 @@ The D3DDDIARG_DRAWTRIPATCH structure describes a triangular patch to draw.
 
 ## -struct-fields
 
-### -field Handle
+### -field Handle [in]
 
-[in] The handle to the patch surface.
+The handle to the patch surface.
 
 ## -remarks
 

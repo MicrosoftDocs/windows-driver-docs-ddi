@@ -49,19 +49,19 @@ The <code>GetPinName</code> method retrieves the friendly name of an audio endpo
 
 ## -parameters
 
-### -param Irp
+### -param Irp [in]
 
-[in]
+
 Specifies a pointer to an I/O request packet (IRP) structure. For more information about IRPs, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> and <a href="/windows-hardware/drivers/gettingstarted/i-o-request-packets">I/O request packets</a>.
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Specifies a pointer to the underlying kernel streaming (KS) pin.
 
-### -param Data 
+### -param Data [out]
 
-[out]
+
 Specifies a pointer to the buffer that holds the data for the <code>GetPinName</code> method.
 
 ## -returns

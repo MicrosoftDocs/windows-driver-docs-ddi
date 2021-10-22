@@ -52,17 +52,17 @@ The D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure identifies a GDI system
 
 ## -struct-fields
 
-### -field hlsurf
+### -field hlsurf [in]
 
-[in] A 64-bit value that specifies the handle to a logical surface to copy from.
+A 64-bit value that specifies the handle to a logical surface to copy from.
 
-### -field dwDirtyFlags
+### -field dwDirtyFlags [in]
 
-[in] A set of flags in a 32-bit value that identifies the active rectangles (dirty regions) of the GDI surface.
+A set of flags in a 32-bit value that identifies the active rectangles (dirty regions) of the GDI surface.
 
-### -field uiCookie
+### -field uiCookie [in]
 
-[in] A 64-bit value that specifies the handle to a physical surface to copy to.
+A 64-bit value that specifies the handle to a physical surface to copy to.
 
 ## -see-also
 

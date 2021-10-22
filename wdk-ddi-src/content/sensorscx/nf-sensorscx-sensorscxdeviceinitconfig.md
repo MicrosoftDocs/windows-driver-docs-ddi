@@ -49,19 +49,19 @@ This function configures the sensor device.
 
 ## -parameters
 
-### -param pFxDeviceInit 
+### -param pFxDeviceInit [in, out]
 
-[in, out]
+
 A reference to WDFDEVICE_INIT.
 
-### -param pFdoAttributes 
+### -param pFdoAttributes [in, out]
 
-[in, out]
+
 A reference to WDF_OBJECT_ATTRIBUTES.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 The flags for the sensor driver. Reserved set to 0.
 
 ## -returns

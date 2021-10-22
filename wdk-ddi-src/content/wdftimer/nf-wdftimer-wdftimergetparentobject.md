@@ -54,9 +54,9 @@ The <b>WdfTimerGetParentObject</b> method returns a handle to the parent object 
 
 ## -parameters
 
-### -param Timer 
+### -param Timer [in]
 
-[in]
+
 A handle to a framework timer object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 ## -returns

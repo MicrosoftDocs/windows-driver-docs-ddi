@@ -52,24 +52,24 @@ The <b>FsRtlAreNamesEqual</b> routine determines whether two Unicode strings are
 
 ## -parameters
 
-### -param ConstantNameA 
+### -param ConstantNameA [in]
 
-[in]
+
 A pointer to first string. Cannot contain wildcard characters.
 
-### -param ConstantNameB 
+### -param ConstantNameB [in]
 
-[in]
+
 A pointer to second string. Cannot contain wildcard characters.
 
-### -param IgnoreCase 
+### -param IgnoreCase [in]
 
-[in]
+
 Set to <b>TRUE</b> for case-insensitive matching, <b>FALSE</b> otherwise.
 
-### -param UpcaseTable 
+### -param UpcaseTable [in, optional]
 
-[in, optional]
+
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 
 ## -returns

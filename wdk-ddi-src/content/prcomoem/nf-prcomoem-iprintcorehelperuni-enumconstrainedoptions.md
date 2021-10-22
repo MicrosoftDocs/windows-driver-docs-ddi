@@ -49,26 +49,26 @@ The <code>IPrintCoreHelperUni::EnumConstrainedOptions</code> method provides a l
 
 ## -parameters
 
-### -param pDevmode 
+### -param pDevmode [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::EnumConstrainedOptions</code> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode">IPrintOemUni::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
-### -param cbSize 
+### -param cbSize [in]
 
-[in]
+
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
 
-### -param pszFeatureKeyword 
+### -param pszFeatureKeyword [in]
 
-[in]
+
 A string of ANSI characters that contains the feature name.
 
 ### -param pConstrainedOptionList
 
-### -param pdwNumOptions 
+### -param pdwNumOptions [out]
 
-[out]
+
 A pointer to a variable that receives the number of constrained options in the array that is pointed to by the <i>pConstrainedOptionList</i> parameter.
 
 

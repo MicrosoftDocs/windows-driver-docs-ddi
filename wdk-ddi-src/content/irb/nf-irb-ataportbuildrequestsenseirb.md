@@ -53,14 +53,14 @@ The <b>AtaPortBuildRequestSenseIrb</b> routine builds and returns an IRB for ope
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param Irb 
+### -param Irb [in]
 
-[in]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the failed IDE request block (IRB) for which the request sense will be issued.
 
 ## -returns

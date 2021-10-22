@@ -49,9 +49,9 @@ The <b>KeQueryTickCount</b> routine maintains a count of the interval timer inte
 
 ## -parameters
 
-### -param CurrentCount 
+### -param CurrentCount [out]
 
-[out]
+
 Pointer to the LARGE_INTEGER tick count value on return from <b>KeQueryTickCount</b>.
 
 ## -remarks

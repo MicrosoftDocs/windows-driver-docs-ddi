@@ -53,9 +53,9 @@ The <b>AtaPortReadPortUlong</b> routine reads a ULONG value from the HBA.
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
 ## -returns

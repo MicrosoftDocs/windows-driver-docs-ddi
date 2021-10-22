@@ -49,18 +49,18 @@ Describes a rasterizer state. Used by Windows Display Driver Model (WDDM) 1.2 an
 
 ## -struct-fields
 
-### -field FillMode
+### -field FillMode [in]
 
-[in] A value that specifies the fill mode for primitives. This member must be set to one of the following values from the D3D10_DDI_FILL_MODE enumeration.
+A value that specifies the fill mode for primitives. This member must be set to one of the following values from the D3D10_DDI_FILL_MODE enumeration.
 
 |Value|Meaning|
 |--- |--- |
 |D3D10_DDI_FILL_WIREFRAME (2)|Fills wireframes.|
 |D3D10_DDI_FILL_SOLID (3)|Fills solids.|
 
-### -field CullMode
+### -field CullMode [in]
 
-[in] A value that specifies how back-facing triangles are culled, if at all. This member must be set to one of the following values from the D3D10_DDI_CULL_MODE enumeration.
+A value that specifies how back-facing triangles are culled, if at all. This member must be set to one of the following values from the D3D10_DDI_CULL_MODE enumeration.
 
 |Value|Meaning|
 |--- |--- |
@@ -68,41 +68,41 @@ Describes a rasterizer state. Used by Windows Display Driver Model (WDDM) 1.2 an
 |D3D10_DDI_CULL_FRONT (2)|Cull front faces.|
 |D3D10_DDI_CULL_BACK (3)|Cull back faces.|
 
-### -field FrontCounterClockwise
+### -field FrontCounterClockwise [in]
 
-[in] A Boolean value that specifies whether vertices that are provided in a counter-clockwise order (with respect to the rasterizer) are front facing. <b>TRUE</b> indicates they are; <b>FALSE</b> indicates that counter-clockwise vertices indicate back facing.
+A Boolean value that specifies whether vertices that are provided in a counter-clockwise order (with respect to the rasterizer) are front facing. <b>TRUE</b> indicates they are; <b>FALSE</b> indicates that counter-clockwise vertices indicate back facing.
 
-### -field DepthBias
+### -field DepthBias [in]
 
-[in] A depth-bias constant to use in biasing formulas. For more information about <b>DepthBias</b>, see the Remarks section.
+A depth-bias constant to use in biasing formulas. For more information about <b>DepthBias</b>, see the Remarks section.
 
-### -field DepthBiasClamp
+### -field DepthBiasClamp [in]
 
-[in] A single-precision float vector that is used in biasing formulas. For more information about <b>DepthBiasClamp</b>, see the Remarks section.
+A single-precision float vector that is used in biasing formulas. For more information about <b>DepthBiasClamp</b>, see the Remarks section.
 
-### -field SlopeScaledDepthBias
+### -field SlopeScaledDepthBias [in]
 
-[in] A single-precision float vector that is used in biasing formulas. For more information about <b>SlopeScaledDepthBias</b>, see the Remarks section.
+A single-precision float vector that is used in biasing formulas. For more information about <b>SlopeScaledDepthBias</b>, see the Remarks section.
 
-### -field DepthClipEnable
+### -field DepthClipEnable [in]
 
-[in] A Boolean value that specifies whether the driver should clip vertex z coordinates against the viewport depth range. <b>TRUE</b> indicates to clip; <b>FALSE</b> indicates not to clip.
+A Boolean value that specifies whether the driver should clip vertex z coordinates against the viewport depth range. <b>TRUE</b> indicates to clip; <b>FALSE</b> indicates not to clip.
 
-### -field ScissorEnable
+### -field ScissorEnable [in]
 
-[in] A Boolean value that specifies whether the driver should discard pixels that fall outside the appropriate scissor rectangular area. <b>TRUE</b> indicates to discard; <b>FALSE</b> indicates not to discard.
+A Boolean value that specifies whether the driver should discard pixels that fall outside the appropriate scissor rectangular area. <b>TRUE</b> indicates to discard; <b>FALSE</b> indicates not to discard.
 
-### -field MultisampleEnable
+### -field MultisampleEnable [in]
 
-[in] A Boolean value that specifies whether the driver must follow multiple-sampled rasterization rules. <b>TRUE</b> indicates to follow the rules; <b>FALSE</b> indicates following the rules is not required. Multiple-sampled rasterization rules hold true even if render targets contain only a single sample.
+A Boolean value that specifies whether the driver must follow multiple-sampled rasterization rules. <b>TRUE</b> indicates to follow the rules; <b>FALSE</b> indicates following the rules is not required. Multiple-sampled rasterization rules hold true even if render targets contain only a single sample.
 
-### -field AntialiasedLineEnable
+### -field AntialiasedLineEnable [in]
 
-[in] A Boolean value that specifies whether the driver should render lines that follow the antialiased line rasterization rules. <b>TRUE</b> indicates to follow the rules; <b>FALSE</b> indicates following the rules is not required. The driver ignores the value in <b>AntialiasedLineEnable</b> if multiple-sampling rasterization rules are used instead.
+A Boolean value that specifies whether the driver should render lines that follow the antialiased line rasterization rules. <b>TRUE</b> indicates to follow the rules; <b>FALSE</b> indicates following the rules is not required. The driver ignores the value in <b>AntialiasedLineEnable</b> if multiple-sampling rasterization rules are used instead.
 
-### -field ForcedSampleCount
+### -field ForcedSampleCount [in]
 
-[in] During rendering of unordered access views (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
+During rendering of unordered access views (UAVs) or rendering target views (RTVs), specifies whether to force a sample count, and if so, the maximum sample count. Valid values are 0, 1, 4, 8, and 16.
 
 If zero, the driver should not force a sample count.
 

@@ -49,23 +49,23 @@ The <b>wiasReadPropLong </b>function retrieves a long integer property value fro
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid
 
 Specifies the property identifier.
 
-### -param plVal 
+### -param plVal [out]
 
-[out]
+
 Pointer to a memory location that receives the value of the property.
 
-### -param plValOld 
+### -param plValOld [out, optional]
 
-[out, optional]
+
 Pointer to a memory location that receives the property's previous value. If this information is not needed, set this parameter to <b>NULL</b>.
 
 ### -param bMustExist

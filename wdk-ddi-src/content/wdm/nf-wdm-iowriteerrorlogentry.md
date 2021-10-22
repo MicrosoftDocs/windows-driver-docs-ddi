@@ -49,9 +49,9 @@ The <b>IoWriteErrorLogEntry</b> routine queues a given error log packet to the s
 
 ## -parameters
 
-### -param ElEntry 
+### -param ElEntry [in]
 
-[in]
+
 Pointer to the error log packet the driver has allocated with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a> and filled in by the caller.
 
 ## -remarks

@@ -51,21 +51,21 @@ The <b>pfnGetMonitorDescriptorSet</b> function returns a handle to a monitor des
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
-### -param VideoPresentTargetId
+### -param VideoPresentTargetId [in]
 
-[in] An integer that identifies one of the video present targets on the display adapter. The returned monitor descriptor set object contains descriptors for the monitor that is connected to this video present target.
+An integer that identifies one of the video present targets on the display adapter. The returned monitor descriptor set object contains descriptors for the monitor that is connected to this video present target.
 
-### -param phMonitorDescriptorSet
+### -param phMonitorDescriptorSet [out]
 
-[out] A pointer to a variable that receives a handle to a monitor descriptor set object.
+A pointer to a variable that receives a handle to a monitor descriptor set object.
 
-### -param ppMonitorDescriptorSetInterface
+### -param ppMonitorDescriptorSetInterface [out]
 
-[out] A pointer to a variable that receives a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitordescriptorset_interface">DXGK_MONITORDESCRIPTORSET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor descriptor set object.
+A pointer to a variable that receives a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitordescriptorset_interface">DXGK_MONITORDESCRIPTORSET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor descriptor set object.
 
 ## -returns
 

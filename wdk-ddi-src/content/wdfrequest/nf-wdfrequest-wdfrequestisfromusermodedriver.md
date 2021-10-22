@@ -51,9 +51,9 @@ The <b>WdfRequestIsFromUserModeDriver</b> method indicates whether an I/O reques
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

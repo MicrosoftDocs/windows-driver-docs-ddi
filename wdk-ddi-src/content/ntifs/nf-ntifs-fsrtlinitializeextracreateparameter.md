@@ -49,34 +49,34 @@ The <b>FsRtlInitializeExtraCreateParameter</b> routine initializes an extra crea
 
 ## -parameters
 
-### -param Ecp 
+### -param Ecp [in]
 
-[in]
+
 Pointer to the ECP context structure to initialize.
 
-### -param EcpFlags 
+### -param EcpFlags [in]
 
-[in]
+
 Defines initialization options. Currently, no flags are defined.
 
-### -param CleanupCallback 
+### -param CleanupCallback [in, optional]
 
-[in, optional]
+
 Optional pointer to a filter-defined cleanup callback routine of type <a href="/previous-versions/ff551124(v=vs.85)">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>. The cleanup callback routine is called when the ECP context structure (created by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameter">FsRtlAllocateExtraCreateParameter</a> routine) is deleted. Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable.
 
-### -param TotalSize 
+### -param TotalSize [in]
 
-[in]
+
 The size, in bytes, of the ECP context structure to initialize.
 
-### -param EcpType 
+### -param EcpType [in]
 
-[in]
+
 Pointer to a GUID that indicates the type of ECP for which the context structure will be initialized. For more information about ECPs, see <a href="/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>.
 
-### -param ListAllocatedFrom 
+### -param ListAllocatedFrom [in, optional]
 
-[in, optional]
+
 Optional pointer to the list from which the ECP context structure is allocated.
 
 ## -see-also

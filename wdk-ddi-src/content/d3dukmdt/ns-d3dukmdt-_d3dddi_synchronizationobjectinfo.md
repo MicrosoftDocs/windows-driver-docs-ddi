@@ -52,9 +52,9 @@ The D3DDDI_SYNCHRONIZATIONOBJECTINFO structure contains information about a sync
 
 ## -struct-fields
 
-### -field Type
+### -field Type [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_synchronizationobject_type">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_synchronizationobject_type">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
 
 ### -field SynchronizationMutex
 

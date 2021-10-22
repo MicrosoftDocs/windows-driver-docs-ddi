@@ -50,14 +50,14 @@ The <b>KsAcquireDeviceSecurityLock</b> function acquires the security lock assoc
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a driver-allocated device header, previously allocated by <b>KsAllocateDeviceHeader,</b> for the device object described by the KSDEVICE_HEADER structure.
 
-### -param Exclusive 
+### -param Exclusive [in]
 
-[in]
+
 Indicates, if set to <b>TRUE</b>, that the lock is to be acquired exclusively.
 
 ## -returns

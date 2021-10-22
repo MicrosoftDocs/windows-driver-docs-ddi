@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param SrvCall 
+### -param SrvCall [in]
 
-[in]
+
 A pointer to the associated SRV_CALL structure.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 A pointer to the name to be inserted in the name table.
 
-### -param NetRootFlags 
+### -param NetRootFlags [in]
 
-[in]
+
 The value to set the <b>Flags</b> member of the NET_ROOT which is used to denote the state of the NET_ROOT structure.
 
-### -param RxConnectionId 
+### -param RxConnectionId [in, optional]
 
-[in, optional]
+
 A pointer to the connection ID to be associated with the name to be inserted in the prefix name table. This parameter can be <b>NULL</b> in which case no connection ID will be associated with the name inserted in the prefix name table.
 
 ## -returns

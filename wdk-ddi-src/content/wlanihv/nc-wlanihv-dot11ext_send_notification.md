@@ -54,17 +54,17 @@ The IHV Extensions DLL calls the
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param pNotificationData 
+### -param pNotificationData [in]
 
-[in]
+
 A pointer to an
      <a href="/windows/win32/api/l2cmn/ns-l2cmn-l2_notification_data">L2_NOTIFICATION_DATA</a> structure.
 

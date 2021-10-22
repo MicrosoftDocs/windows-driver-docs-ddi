@@ -53,9 +53,9 @@ The <b>SerCx2CustomReceiveTransactionReportProgress</b> method reports whether p
 
 <p>A <a href="/windows-hardware/drivers/serports/sercx2-object-handles"><b>SERCX2CUSTOMRECEIVETRANSACTION</b></a> handle to a custom-receive object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate"><b>SerCx2CustomReceiveTransactionCreate</b></a> method to create this object.</p>
 
-### -param Progress 
+### -param Progress [in]
 
-[in]
+
 Whether progress is being made toward completing the custom-receive transaction. Set this parameter to one of the following enumeration constants:
 
 <ul>

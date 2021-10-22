@@ -48,14 +48,14 @@ Refer to [IDebugEventCallbacks::Breakpoint](nf-dbgeng-idebugeventcallbacks-break
 
 ## -parameters
 
-### -param Bp
+### -param Bp [in]
 
-[in]
+
 Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> object corresponding to the breakpoint that was triggered.
 
-### -param Context
+### -param Context [in]
 
-[in]
+
 Specifies the [DEBUG_EVENT_CONTEXT structure](ns-dbgeng-_debug_event_context.md) as the “context” parameter of each event callback. The context structure contains additional information about the debug event that occurred.
 
 ### -param ContextSize [in]

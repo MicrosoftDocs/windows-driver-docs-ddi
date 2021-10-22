@@ -53,14 +53,14 @@ The <b>AtaPortRegistryFreeBuffer</b> routine frees the registry buffer that was 
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the buffer to free.
 
 ## -remarks

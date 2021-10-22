@@ -49,9 +49,9 @@ The <b>KeReleaseInStackQueuedSpinLockFromDpcLevel</b> routine releases a queued 
 
 ## -parameters
 
-### -param LockHandle 
+### -param LockHandle [in]
 
-[in]
+
 Specifies the queued spin lock handle initialized by the call to <a href="/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a> that acquired the lock.
 
 ## -remarks

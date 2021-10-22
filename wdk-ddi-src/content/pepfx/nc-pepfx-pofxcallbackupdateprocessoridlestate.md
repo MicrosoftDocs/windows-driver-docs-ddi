@@ -49,19 +49,19 @@ The <b>UpdateProcessorIdleState</b> routine is called by the platform extension 
 
 ## -parameters
 
-### -param ProcessorHandle 
+### -param ProcessorHandle [in]
 
-[in]
+
 A POHANDLE value that represents the registration of the processor (as a device) with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the processor had been registered with PoFx.
 
-### -param ProcessorState 
+### -param ProcessorState [in]
 
-[in]
+
 An index that identifies the processor idle state whose properties are to be updated. In response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification, the PEP specified the number of supported processor idle states and the properties of these states. If the PEP specified N processor idle states, valid processor idle state indexes range from 0 to N-1.
 
-### -param Update 
+### -param Update [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_state_update">PEP_PROCESSOR_IDLE_STATE_UPDATE</a> structure that contains the updated properties of the processor idle state.
 
 ## -returns

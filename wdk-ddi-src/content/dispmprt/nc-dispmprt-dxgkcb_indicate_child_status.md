@@ -49,14 +49,14 @@ The <b>DxgkCbIndicateChildStatus</b> function records the current status of a sp
 
 ## -parameters
 
-### -param DeviceHandle 
+### -param DeviceHandle [in]
 
-[in]
+
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
-### -param ChildStatus 
+### -param ChildStatus [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_status">DXGK_CHILD_STATUS</a> structure that identifies the child device and describes the current status of the child device.
 
 ## -returns

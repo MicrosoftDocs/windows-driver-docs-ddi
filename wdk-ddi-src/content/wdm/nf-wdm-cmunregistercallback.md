@@ -49,9 +49,9 @@ The <b>CmUnRegisterCallback</b> routine unregisters a <a href="/windows-hardware
 
 ## -parameters
 
-### -param Cookie 
+### -param Cookie [in]
 
-[in]
+
 A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmRegisterCallback</b> provided this value when you registered the callback routine.
 
 ## -returns

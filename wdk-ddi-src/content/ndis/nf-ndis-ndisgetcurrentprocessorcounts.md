@@ -52,21 +52,21 @@ The
 
 ## -parameters
 
-### -param pIdleCount 
+### -param pIdleCount [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns the cumulative idle time
      for the processor since the system was booted.
 
-### -param pKernelAndUser 
+### -param pKernelAndUser [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns the cumulative processing
      time (kernel-mode time plus user-mode time) for the processor since the system was booted.
 
-### -param pIndex 
+### -param pIndex [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns a zero-based index that
      identifies the processor within the computer.
 

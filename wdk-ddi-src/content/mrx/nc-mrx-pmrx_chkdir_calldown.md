@@ -49,14 +49,14 @@ The<i>MRxIsValidDirectory</i> routine is called by <a href="/windows-hardware/dr
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
-### -param DirectoryName 
+### -param DirectoryName [in]
 
-[in]
+
 A pointer to a Unicode string that contains the name of the remote directory.
 
 ## -returns

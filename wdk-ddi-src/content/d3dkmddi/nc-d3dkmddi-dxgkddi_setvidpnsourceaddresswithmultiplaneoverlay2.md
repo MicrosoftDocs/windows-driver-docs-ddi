@@ -57,9 +57,9 @@ product:
 
 Identifies the adapter containing the overlay hardware.
 
-### -param pSetVidPnSourceAddressWithMultiPlaneOverlay
+### -param pSetVidPnSourceAddressWithMultiPlaneOverlay [in]
 
-[in] A pointer to a [DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md) structure that describes the surfaces and display options to present.
+A pointer to a [DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md) structure that describes the surfaces and display options to present.
 
 ## -returns
 

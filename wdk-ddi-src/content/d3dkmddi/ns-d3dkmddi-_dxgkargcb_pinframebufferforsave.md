@@ -2,13 +2,13 @@
 UID: NS:d3dkmddi._DXGKARGCB_PINFRAMEBUFFERFORSAVE
 title: DXGKARGCB_PINFRAMEBUFFERFORSAVE (d3dkmddi.h)
 description: The DXGKARGCB_PINFRAMEBUFFERFORSAVE structure contains the arguments used by the DXGKCB_PINFRAMEBUFFERFORSAVE callback function, to pin the frame buffer for save.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_PINFRAMEBUFFERFORSAVE structure"]
 ms.keywords: _DXGKARGCB_PINFRAMEBUFFERFORSAVE, DXGKARGCB_PINFRAMEBUFFERFORSAVE, *INOUT_PDXGKARGCB_PINFRAMEBUFFERFORSAVE
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,17 +46,17 @@ The **DXGKARGCB_PINFRAMEBUFFERFORSAVE** structure contains the arguments used by
 
 ## -struct-fields
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The index of the physical adapter.
+The index of the physical adapter.
 
-### -field CommitSize
+### -field CommitSize [in]
 
-[in] The size, in bytes, that the driver requires to pin. This size must be a multiple of PAGE_SIZE and must be less than or equal to the maximum size specified by the driver during initialization in [**DXGK_FRAMEBUFFERSAVEAREA**](ns-d3dkmddi-_dxgk_framebuffersavearea.md) (during [**DXGKQAITYPE_FRAMEBUFFERSAVESIZE**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md)).
+The size, in bytes, that the driver requires to pin. This size must be a multiple of PAGE_SIZE and must be less than or equal to the maximum size specified by the driver during initialization in [**DXGK_FRAMEBUFFERSAVEAREA**](ns-d3dkmddi-_dxgk_framebuffersavearea.md) (during [**DXGKQAITYPE_FRAMEBUFFERSAVESIZE**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md)).
 
-### -field pMdl
+### -field pMdl [out]
 
-[out] An MDL pointing to the pages of the frame buffer save area. These pages are guaranteed to be mapped to the IoMmu.
+An MDL pointing to the pages of the frame buffer save area. These pages are guaranteed to be mapped to the IoMmu.
 
 ## -remarks
 

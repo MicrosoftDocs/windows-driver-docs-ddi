@@ -50,13 +50,13 @@ This routine allows a non-privileged virtual machine to find out what would have
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in, out]
 
-[in, out] Pointer to the DXGKARG_QUERYPROBEDBARS structure.
+Pointer to the DXGKARG_QUERYPROBEDBARS structure.
 
 ## -prototype
 

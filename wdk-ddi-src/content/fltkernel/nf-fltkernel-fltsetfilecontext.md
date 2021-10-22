@@ -48,30 +48,30 @@ The **FltSetFileContext** routine sets a context for a file.
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] An opaque pointer to a minifilter driver instance for the caller. This parameter is required and cannot be **NULL**.
+An opaque pointer to a minifilter driver instance for the caller. This parameter is required and cannot be **NULL**.
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] Pointer to a [file object](../wdm/ns-wdm-_file_object.md) for the file. This parameter is required and cannot be **NULL**.
+Pointer to a [file object](../wdm/ns-wdm-_file_object.md) for the file. This parameter is required and cannot be **NULL**.
 
-### -param Operation
+### -param Operation [in]
 
-[in] A flag that specifies the type of operation for **FltSetFileContext** to perform. This parameter must be one of the following flags:  
+A flag that specifies the type of operation for **FltSetFileContext** to perform. This parameter must be one of the following flags:  
 
 | Flag | Meaning |
 | ---- | ------- |
 | FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for the file that the *FileObject* parameter points to, **FltSetFileContext** will replace that context with the context specified in *NewContext*. Otherwise, it will insert  *NewContext* into the list of contexts for the file. |
 | FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for the file that  *FileObject*  points to, **FltSetFileContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, the routine will insert the context specified in *NewContext* into the list of contexts for the file and increment the reference count. |
 
-### -param NewContext
+### -param NewContext [in]
 
-[in] A pointer to the new context to be set for the file. This parameter is required and cannot be **NULL**.
+A pointer to the new context to be set for the file. This parameter is required and cannot be **NULL**.
 
-### -param OldContext
+### -param OldContext [out]
 
-[out] A pointer to a caller-allocated variable that receives the address of the existing file context for the instance pointed to by the *Instance* parameter, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
+A pointer to a caller-allocated variable that receives the address of the existing file context for the instance pointed to by the *Instance* parameter, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 

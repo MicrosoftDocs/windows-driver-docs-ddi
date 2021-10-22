@@ -52,13 +52,13 @@ When the driver report that it does support the GUID_DXGKDDI_FLEXIOV_DEVICE_INTE
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
 
-### -param pArgs 
+### -param pArgs [in, out]
 
-[in, out] A pointer to the DXGKARG_GETRESOURCEFORBAR that contains arguments for this function.
+A pointer to the DXGKARG_GETRESOURCEFORBAR that contains arguments for this function.
 
 ## -returns
 

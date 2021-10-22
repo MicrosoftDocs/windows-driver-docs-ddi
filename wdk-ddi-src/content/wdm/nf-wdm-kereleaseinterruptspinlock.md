@@ -49,14 +49,14 @@ The <b>KeReleaseInterruptSpinLock</b> routine releases an interrupt spin lock ac
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in, out]
 
-[in, out]
+
 Specifies the value of the <i>Interrupt</i> parameter passed to <a href="/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>.
 
-### -param OldIrql 
+### -param OldIrql [in]
 
-[in]
+
 Specifies the IRQL value returned by <b>KeAcquireInterruptSpinLock</b>.
 
 ## -remarks

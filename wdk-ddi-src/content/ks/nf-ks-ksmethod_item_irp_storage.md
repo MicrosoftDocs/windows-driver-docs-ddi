@@ -50,9 +50,9 @@ This macro accesses a pointer to the relevant [KSMETHOD_ITEM](./ns-ks-ksmethod_i
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP passed to the handler routine.
 
 ## -remarks

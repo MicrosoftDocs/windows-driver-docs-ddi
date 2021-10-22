@@ -50,9 +50,9 @@ The <b>SpbTargetGetFileObject</b> method accepts, as an input parameter, an SPBT
 
 ## -parameters
 
-### -param Target 
+### -param Target [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to a target device on the bus.
 
 ## -returns

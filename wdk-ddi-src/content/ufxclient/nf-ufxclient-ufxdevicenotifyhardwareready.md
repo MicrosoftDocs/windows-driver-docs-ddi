@@ -49,9 +49,9 @@ Notifies UFX that the hardware is ready.
 
 ## -parameters
 
-### -param UfxDevice 
+### -param UfxDevice [in]
 
-[in]
+
 A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ## -remarks

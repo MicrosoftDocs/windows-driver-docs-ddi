@@ -49,14 +49,14 @@ The <b>SerCx2PioTransmitInitializeTransactionComplete</b> method notifies versio
 
 ## -parameters
 
-### -param PioTransmit 
+### -param PioTransmit [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
-### -param InitSuccess 
+### -param InitSuccess [in]
 
-[in]
+
 Whether the initialization was successful. If <b>TRUE</b>, the initialization succeeded. If <b>FALSE</b>, the initialization failed.
 
 ## -remarks

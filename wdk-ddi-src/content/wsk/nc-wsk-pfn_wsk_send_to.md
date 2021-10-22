@@ -50,16 +50,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket over which to send the datagram.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to an initialized 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
      that contains the datagram that is being sent over the socket.
@@ -69,9 +69,9 @@ A pointer to an initialized
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
-### -param RemoteAddress 
+### -param RemoteAddress [in, optional]
 
-[in, optional]
+
 A pointer to a structure that specifies the remote transport address to which to send the
      datagram. This pointer must be a pointer to the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the socket.
@@ -90,25 +90,25 @@ For more information about setting a fixed destination transport address for a d
      <a href="/windows-hardware/drivers/network/sio-wsk-set-sendto-address">
      SIO_WSK_SET_SENDTO_ADDRESS</a>.
 
-### -param ControlInfoLength 
+### -param ControlInfoLength [in]
 
-[in]
+
 The number of bytes of data in the buffer that is pointed to by the 
      <i>ControlInfo</i> parameter. If there is no control information associated with the datagram, the 
      <i>ControlInfoLength</i> parameter must be zero.
 
-### -param ControlInfo 
+### -param ControlInfo [in, optional]
 
-[in, optional]
+
 A pointer to a buffer that contains control information that is associated with the datagram that
      is being sent. The control information data consists of one or more control data objects, each of which
      begins with a 
      <a href="/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information that is associated with the datagram, this parameter should be <b>NULL</b>.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

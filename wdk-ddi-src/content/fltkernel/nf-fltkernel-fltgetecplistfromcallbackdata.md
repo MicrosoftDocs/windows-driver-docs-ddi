@@ -49,18 +49,18 @@ The <b>FltGetEcpListFromCallbackData </b>routine returns a pointer to an extra c
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 An opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 ### -param CallbackData
 
 <p>A pointer to a callback-data object of type <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data"><b>FLT_CALLBACK_DATA</b></a>, which represents the create operation.</p>
 
-### -param EcpList 
+### -param EcpList [out]
 
-[out]
+
 Receives a pointer to the ECP list that is associated with the <i>CallbackData</i> callback-data object.
 
 ## -returns

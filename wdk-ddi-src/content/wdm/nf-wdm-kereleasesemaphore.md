@@ -48,21 +48,21 @@ The **KeReleaseSemaphore** routine releases the specified semaphore object.
 
 ## -parameters
 
-### -param Semaphore
+### -param Semaphore [in, out]
 
-[in, out] A pointer to an initialized semaphore object for which the caller provides the storage.
+A pointer to an initialized semaphore object for which the caller provides the storage.
 
-### -param Increment
+### -param Increment [in]
 
-[in] Specifies the priority increment to be applied if releasing the semaphore causes a wait to be satisfied.
+Specifies the priority increment to be applied if releasing the semaphore causes a wait to be satisfied.
 
-### -param Adjustment
+### -param Adjustment [in]
 
-[in] Specifies a value to be added to the current semaphore count. This value must be positive.
+Specifies a value to be added to the current semaphore count. This value must be positive.
 
-### -param Wait
+### -param Wait [in]
 
-[in] Specifies whether the call to **KeReleaseSemaphore** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseSemaphore** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
+Specifies whether the call to **KeReleaseSemaphore** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeReleaseSemaphore** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 

@@ -52,19 +52,19 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 ## -parameters
 
-### -param ProviderHandle 
+### -param ProviderHandle [in]
 
-[in]
+
 A provider handle that identifies the PD-capable miniport driver's provider object.
 
-### -param FilterParameters 
+### -param FilterParameters [in]
 
-[in]
+
 Parameters that identify any necessary information for the filter. For more information, see the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_filter_parameters">NDIS_PD_FILTER_PARAMETERS</a> structure.
 
-### -param FilterHandle 
+### -param FilterHandle [out]
 
-[out]
+
 A handle to the filter.
 
 ## -returns

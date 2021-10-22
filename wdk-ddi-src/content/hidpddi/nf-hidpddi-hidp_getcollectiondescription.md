@@ -53,24 +53,24 @@ Fills a device description
 
 ## -parameters
 
-### -param ReportDesc 
+### -param ReportDesc [in]
 
-[in]
+
 A pointer to a UCHAR array that contains the raw report descriptor.
 
-### -param DescLength 
+### -param DescLength [in]
 
-[in]
+
 The length of the report descriptor array.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> array element of <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a>, each <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
 
-### -param DeviceDescription 
+### -param DeviceDescription [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_device_desc">HIDP_DEVICE_DESC</a> structure that is populated with device description block filled in
                          collection descriptors as linked lists. This is a caller-allocated structure. However, its <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> array elements and <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> array elements are allocated by this function.
 

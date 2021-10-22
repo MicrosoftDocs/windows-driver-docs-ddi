@@ -45,9 +45,9 @@ The **PsAllocateAffinityToken** function allocates a thread affinity token. Afte
 
 ## -parameters
 
-### -param AffinityToken
+### -param AffinityToken [out]
 
-[out]
+
 Supplies a pointer to a buffer which, on success, receives a pointer to the newly allocate affinity token.
 
 ## -returns

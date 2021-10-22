@@ -49,9 +49,9 @@ The <b>VideoPortZeroDeviceMemory</b> function fills an adapter <a href="/windows
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 Specifies the base address of the adapter memory area. This value must be a mapped logical address returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
 ### -param Length

@@ -52,19 +52,19 @@ The <b>WdfIoResourceRequirementsListInsertIoResList</b> method inserts a <a href
 
 ## -parameters
 
-### -param RequirementsList 
+### -param RequirementsList [in]
 
-[in]
+
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
-### -param IoResList 
+### -param IoResList [in]
 
-[in]
+
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 A zero-based value that is used as an index into the set of logical configurations that are already in the resource requirements list that <i>RequirementsList</i> specifies. To add a configuration to the end of the list, specify WDF_INSERT_AT_END or the return value from <a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetcount">WdfIoResourceRequirementsListGetCount</a>.
 
 ## -returns

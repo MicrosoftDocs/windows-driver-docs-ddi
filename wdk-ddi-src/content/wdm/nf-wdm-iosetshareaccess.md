@@ -49,14 +49,14 @@ The <b>IoSetShareAccess</b> routine sets the access rights for sharing the given
 
 ## -parameters
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the type of access requested for the <i>FileObject</i>. See <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess </i>flags.
 
-### -param DesiredShareAccess 
+### -param DesiredShareAccess [in]
 
-[in]
+
 Specifies the type of share access to be set for the file object. This value can be zero, or any combination of the following:
 
 FILE_SHARE_READ
@@ -65,14 +65,14 @@ FILE_SHARE_WRITE
 
 FILE_SHARE_DELETE
 
-### -param FileObject 
+### -param FileObject [in, out]
 
-[in, out]
+
 Pointer to the file object whose share access is being set or reset.
 
-### -param ShareAccess 
+### -param ShareAccess [out]
 
-[out]
+
 Pointer to the SHARE_ACCESS structure associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 ## -remarks

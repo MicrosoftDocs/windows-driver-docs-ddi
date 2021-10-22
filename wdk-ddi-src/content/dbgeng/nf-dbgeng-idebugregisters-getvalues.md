@@ -49,24 +49,24 @@ The <b>GetValues</b> method gets the value of several of the target's <a href="/
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of registers whose values are requested.
 
-### -param Indices 
+### -param Indices [in, optional]
 
-[in, optional]
+
 Specifies an array that contains the indices of the registers from which to get the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 If <i>Indices</i> is <b>NULL</b>, the registers will be read consecutively starting at this index.  Otherwise it is ignored.
 
-### -param Values 
+### -param Values [out]
 
-[out]
+
 Receives the values of the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 ## -returns

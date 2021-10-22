@@ -49,19 +49,19 @@ The <b>IoCheckQuotaBufferValidity</b> routine checks whether the specified quota
 
 ## -parameters
 
-### -param QuotaBuffer 
+### -param QuotaBuffer [in]
 
-[in]
+
 Pointer to the buffer containing the quota entries to be checked.
 
-### -param QuotaLength 
+### -param QuotaLength [in]
 
-[in]
+
 Length, in bytes, of <i>QuotaBuffer</i>.
 
-### -param ErrorOffset 
+### -param ErrorOffset [out]
 
-[out]
+
 A variable to receive the offset of the offending entry in the quota buffer if an error is found. This variable is only valid if an error occurs.
 
 ## -returns

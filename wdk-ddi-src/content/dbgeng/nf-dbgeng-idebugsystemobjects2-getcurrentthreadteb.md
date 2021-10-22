@@ -49,9 +49,9 @@ The <b>GetCurrentThreadTeb</b> method returns the location of the thread environ
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the location in the target's virtual address space of the TEB for the current thread.
 
 ## -returns

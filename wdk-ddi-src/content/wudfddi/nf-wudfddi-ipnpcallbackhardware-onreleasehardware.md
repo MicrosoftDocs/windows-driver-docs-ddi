@@ -51,9 +51,9 @@ The <b>OnReleaseHardware</b> method notifies a driver to perform operations that
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device that is no longer accessible.
 
 ## -returns

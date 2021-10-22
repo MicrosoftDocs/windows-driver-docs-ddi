@@ -52,19 +52,19 @@ Contains arguments for the [DxgkDdiPostMultiPlaneOverlayPresent](nc-d3dkmddi-dxg
 
 ## -struct-fields
 
-### -field VidPnTargetId
+### -field VidPnTargetId [in]
 
-[in] The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
+The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
 
-### -field PhysicalAdapterMask
+### -field PhysicalAdapterMask [in]
 
-[in] The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
+The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
 
-### -field LayerIndex
+### -field LayerIndex [in]
 
-[in] The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
+The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
 
-### -field PresentID
+### -field PresentID [in]
 
-[in] 64 bit integer value representing each flip request for a particular MPO plane.
+64 bit integer value representing each flip request for a particular MPO plane.
 

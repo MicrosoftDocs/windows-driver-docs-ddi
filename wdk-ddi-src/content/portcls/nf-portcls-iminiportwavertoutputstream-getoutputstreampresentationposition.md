@@ -49,9 +49,9 @@ Returns stream presentation information.
 
 ## -parameters
 
-### -param pPresentationPosition 
+### -param pPresentationPosition [out]
 
-[out]
+
  pPresentationPosition returns a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a> structure that represents a recent presentation position in the audio data stream. For more information, see <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreampresentationposition">IMiniportStreamAudioEngineNode::GetStreamPresentationPosition</a>.
 
 ## -returns

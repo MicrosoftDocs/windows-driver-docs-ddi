@@ -49,9 +49,9 @@ Enables the target device.
 
 ## -parameters
 
-### -param pbRebootRequired 
+### -param pbRebootRequired [out, retval]
 
-[out, retval]
+
 True if the operation requires a restart to complete; otherwise, false.
 
 ## -returns

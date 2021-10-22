@@ -50,19 +50,19 @@ The <b>FltCommitFinalizeComplete</b> routine acknowledges a TRANSACTION_NOTIFY_C
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque pointer to an instance of a minifilter driver. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Transaction 
+### -param Transaction [in]
 
-[in]
+
 Opaque pointer to the transaction the minifilter driver is currently enlisted in. This parameter is required and cannot be <b>NULL</b>.
 
-### -param TransactionContext 
+### -param TransactionContext [in, optional]
 
-[in, optional]
+
 Pointer to the minifilter driver's context for the transaction. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

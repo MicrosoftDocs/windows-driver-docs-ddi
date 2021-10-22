@@ -52,33 +52,33 @@ The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted b
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] A handle to the encryption session.
+A handle to the encryption session.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source resource.
+A handle to the source resource.
 
-### -field SrcSubResourceIndex
+### -field SrcSubResourceIndex [in]
 
-[in] The index to the source surface within the resource.
+The index to the source surface within the resource.
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination resource.
+A handle to the destination resource.
 
-### -field DstSubResourceIndex
+### -field DstSubResourceIndex [in]
 
-[in] The index to the destination surface within the resource.
+The index to the destination surface within the resource.
 
-### -field DstResourceSize
+### -field DstResourceSize [in]
 
-[in] The size, in bytes, of the destination resource.
+The size, in bytes, of the destination resource.
 
-### -field pIV
+### -field pIV [out]
 
-[out] A pointer to a block of memory in which <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_encryptionblt">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back.
+A pointer to a block of memory in which <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_encryptionblt">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back.
 
 ## -see-also
 

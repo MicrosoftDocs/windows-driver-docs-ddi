@@ -49,9 +49,9 @@ The <code>SetMinimalLineWidth</code> method allows the caller to set the minimum
 
 ## -parameters
 
-### -param width 
+### -param width [in]
 
-[in]
+
 The minimum thickness (in pixels) of the lines the device is capable of rendering. The value should be greater than 1.
 
 ## -returns

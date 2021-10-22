@@ -49,33 +49,33 @@ The **SetRenderTargets(D3D11)** function sets render target surfaces.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] **hDevice**: A handle to the display device (graphics context).
+**hDevice**: A handle to the display device (graphics context).
 
-### -param unnamedParam2
+### -param unnamedParam2 [in]
 
-[in] **phRenderTargetView**: An array of handles to the render target view (RTV) objects to set. Note that some handle values can be **NULL**.
+**phRenderTargetView**: An array of handles to the render target view (RTV) objects to set. Note that some handle values can be **NULL**.
 
-### -param NumRTVs
+### -param NumRTVs [in]
 
-[in] The number of elements in the array provided in **phRenderTargetView** for the RTVs to set.
+The number of elements in the array provided in **phRenderTargetView** for the RTVs to set.
 
-### -param ClearSlots
+### -param ClearSlots [in]
 
-[in] The number of RTV objects to unbind; that is, those render target view objects that were previously bound but no longer need to be bound.
+The number of RTV objects to unbind; that is, those render target view objects that were previously bound but no longer need to be bound.
 
-### -param unnamedParam5
+### -param unnamedParam5 [in]
 
-[in] **hDepthStencilView**: A handle to the depth-stencil buffer to set.
+**hDepthStencilView**: A handle to the depth-stencil buffer to set.
 
-### -param unnamedParam6
+### -param unnamedParam6 [in]
 
-[in] **phUnorderedAccessView**: An array of handles to the unordered access view (UAV) objects to set.
+**phUnorderedAccessView**: An array of handles to the unordered access view (UAV) objects to set.
 
-### -param unnamedParam7
+### -param unnamedParam7 [in]
 
-[in] **pUAVInitialCounts**: An array of append and consume buffer offsets. This parameter is only relevant for UAVs of the **phUnorderedAccessView** array that were created with either **D3D11_DDI_BUFFER_UAV_FLAG_APPEND**  or **D3D11_DDI_BUFFER_UAV_FLAG_COUNTER** set in the **Flags** member of the [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md) structure when the UAV was created; otherwise, it is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
+**pUAVInitialCounts**: An array of append and consume buffer offsets. This parameter is only relevant for UAVs of the **phUnorderedAccessView** array that were created with either **D3D11_DDI_BUFFER_UAV_FLAG_APPEND**  or **D3D11_DDI_BUFFER_UAV_FLAG_COUNTER** set in the **Flags** member of the [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md) structure when the UAV was created; otherwise, it is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
 
 ### -param UAVStartSlot
 
@@ -84,17 +84,17 @@ Index of the first UAV to bind. **UAVStartSlot** must be at least as great as th
 > [!NOTE]
 > Only one shared set of binding points exists for RTVs and UAVs. RTVs are bound first, followed by UAVs.
 
-### -param NumUAVs
+### -param NumUAVs [in]
 
-[in] The number of UAVs to bind.
+The number of UAVs to bind.
 
-### -param UAVRangeStart
+### -param UAVRangeStart [in]
 
-[in] The first UAV in the set of all updated UAVs (which includes **NULL** bindings).
+The first UAV in the set of all updated UAVs (which includes **NULL** bindings).
 
-### -param UAVRangeSize
+### -param UAVRangeSize [in]
 
-[in] The number of UAVs in the set of all updated UAVs (which includes **NULL** bindings).
+The number of UAVs in the set of all updated UAVs (which includes **NULL** bindings).
 
 ## -remarks
 

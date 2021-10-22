@@ -50,9 +50,9 @@ Unregisters the hardware notification client driver and its callback functions w
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 Handle to the client drivers framework driver object.
 
 ## -returns

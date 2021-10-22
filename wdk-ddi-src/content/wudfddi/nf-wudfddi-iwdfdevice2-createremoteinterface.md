@@ -51,19 +51,19 @@ The <b>CreateRemoteInterface</b> method creates a remote interface object that r
 
 ## -parameters
 
-### -param pRemoteInterfaceInit 
+### -param pRemoteInterfaceInit [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterfaceinitialize">IWDFRemoteInterfaceInitialize</a> interface that the driver's <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function received.
 
-### -param pCallbackInterface 
+### -param pCallbackInterface [in, optional]
 
-[in, optional]
+
 A pointer to an optional, driver-supplied callback interface. The <b>IUnknown::QueryInterface</b> method of this interface must return a pointer to the driver's <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iremoteinterfacecallbackevent">IRemoteInterfaceCallbackEvent</a> and <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iremoteinterfacecallbackremoval">IRemoteInterfaceCallbackRemoval</a> interfaces, if the driver supports those interfaces. This parameter is optional and can be <b>NULL</b>.
 
-### -param ppRemoteInterface 
+### -param ppRemoteInterface [out]
 
-[out]
+
 A pointer to a driver-supplied location that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterface">IWDFRemoteInterface</a> interface of the new remote interface object.
 
 ## -returns

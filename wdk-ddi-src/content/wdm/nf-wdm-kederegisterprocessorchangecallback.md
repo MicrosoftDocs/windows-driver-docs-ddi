@@ -49,9 +49,9 @@ The <b>KeDeregisterProcessorChangeCallback</b> routine unregisters a callback fu
 
 ## -parameters
 
-### -param CallbackHandle 
+### -param CallbackHandle [in]
 
-[in]
+
 The callback registration handle that was returned by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a> routine when the callback function was registered with the operating system.
 
 ## -remarks

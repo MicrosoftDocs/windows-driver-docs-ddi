@@ -49,14 +49,14 @@ The <b>SeDeleteObjectAuditAlarm</b> routine generates audit and alarm messages f
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 Address of the object.
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 A unique 32-bit value representing the client's handle to the object.
 
 ## -remarks

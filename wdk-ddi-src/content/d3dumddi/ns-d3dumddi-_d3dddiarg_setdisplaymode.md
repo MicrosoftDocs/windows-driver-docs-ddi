@@ -52,13 +52,13 @@ The D3DDDIARG_SETDISPLAYMODE structure describes parameters for setting the disp
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource that contains the display surface.
+A handle to the resource that contains the display surface.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the display surface.
+The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the display surface.
 
 ## -see-also
 

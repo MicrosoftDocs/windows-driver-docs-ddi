@@ -49,14 +49,14 @@ The <b>IoVerifyVolume</b> routine sends a volume verify request to the given rem
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for the device on which the volume is to be verified.
 
-### -param AllowRawMount 
+### -param AllowRawMount [in]
 
-[in]
+
 Set to <b>TRUE</b> if this verify request is being issued on behalf of a DASD open request and a raw mount should be performed if the verify request fails.
 
 ## -returns

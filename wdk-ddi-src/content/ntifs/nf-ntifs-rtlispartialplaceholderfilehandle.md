@@ -50,14 +50,14 @@ The <b>RtlIsPartialPlaceholderFileHandle</b> routine determines if a file is a k
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 <b>FileHandle</b> is a handle to the placeholder file whose partial state is to be queried. The file handle must have at least <b>FILE_READ_ATTRIBUTES</b> access.
 
-### -param IsPartialPlaceholder 
+### -param IsPartialPlaceholder [out]
 
-[out]
+
 <b>IsPartialPlaceholder</b> is a pointer to a boolean which is <b>TRUE</b> if the file or directory is a placeholder. It  returns <b>FALSE</b> if either the
         file or directory is not a placeholder or is a full placeholder; undefined on failure.
 

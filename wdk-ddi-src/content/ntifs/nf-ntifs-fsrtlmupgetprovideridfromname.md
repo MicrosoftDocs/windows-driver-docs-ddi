@@ -49,14 +49,14 @@ The <b>FsRtlMupGetProviderIdFromName</b> routine gets the provider identifier of
 
 ## -parameters
 
-### -param pProviderName 
+### -param pProviderName [in]
 
-[in]
+
 A pointer to a Unicode string that contains the device name of the network redirector.
 
-### -param pProviderId 
+### -param pProviderId [out]
 
-[out]
+
 A pointer to a ULONG32-typed variable that receives the provider identifier of the network redirector.
 
 ## -returns

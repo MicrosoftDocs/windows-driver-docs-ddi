@@ -49,19 +49,19 @@ The <b>IoCreateStreamFileObjectEx</b> routine creates a new stream file object.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in, optional]
 
-[in, optional]
+
 Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>.
 
-### -param DeviceObject 
+### -param DeviceObject [in, optional]
 
-[in, optional]
+
 Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>.
 
-### -param FileHandle 
+### -param FileHandle [out, optional]
 
-[out, optional]
+
 A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

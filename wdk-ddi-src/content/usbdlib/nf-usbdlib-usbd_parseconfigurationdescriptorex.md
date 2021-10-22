@@ -50,39 +50,39 @@ The <b>USBD_ParseConfigurationDescriptorEx</b> routine searches a given configur
 
 ## -parameters
 
-### -param ConfigurationDescriptor 
+### -param ConfigurationDescriptor [in]
 
-[in]
+
 Pointer to a USB configuration descriptor that contains the interface for which to search.
 
-### -param StartPosition 
+### -param StartPosition [in]
 
-[in]
+
 Pointer to the address within the configuration descriptor, provided at <i>ConfigurationDescriptor</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>ConfigurationDescriptor</i> and <i>StartPosition</i> must be the same address.
 
-### -param InterfaceNumber 
+### -param InterfaceNumber [in]
 
-[in]
+
 Specifies the device-defined index of the interface to be retrieved. This should be set to -1 if it should not be a search criterion.
 
-### -param AlternateSetting 
+### -param AlternateSetting [in]
 
-[in]
+
 Specifies the device-defined alternate-setting index of the interface to be retrieved. If the caller does not wish the alternate setting value to be a search criterion, this parameter should be set to -1.
 
-### -param InterfaceClass 
+### -param InterfaceClass [in]
 
-[in]
+
 Specifies the device- or USB-defined identifier for the interface class of the interface to be retrieved. If the caller does not wish the interface class value to be a search criterion, this parameter should be set to -1.
 
-### -param InterfaceSubClass 
+### -param InterfaceSubClass [in]
 
-[in]
+
 Specifies the device- or USB-defined identifier for the interface subclass of the interface to be retrieved. If the caller does not wish the interface subclass value to be a search criterion, this parameter should be set to -1.
 
-### -param InterfaceProtocol 
+### -param InterfaceProtocol [in]
 
-[in]
+
 Specifies the device- or USB-defined identifier for the interface protocol of the interface to be retrieved. If the caller does not wish the interface protocol value to be a search criterion, this parameter should be set to -1.
 
 ## -returns

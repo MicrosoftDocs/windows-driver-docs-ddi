@@ -49,9 +49,9 @@ The <b>IoCopyCurrentIrpStackLocationToNext</b> routine copies the IRP stack para
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to the IRP.
 
 ## -remarks

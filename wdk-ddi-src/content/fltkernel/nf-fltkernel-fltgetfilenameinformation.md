@@ -49,14 +49,14 @@ The **FltGetFileNameInformation** routine returns name information for a file or
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 Pointer to a [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) structure, which is the callback data structure for the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param NameOptions 
+### -param NameOptions [in]
 
-[in]
+
 A [**FLT_FILE_NAME_OPTIONS**](/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. (Additional flags can be used by name provider minifilter drivers to specify name query options.) This parameter is required and cannot be **NULL**.
 
 The following are the file name format flag values. Only one of the following flags can be specified. For an explanation of these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
@@ -84,9 +84,9 @@ Name provider minifilters use the following flags to specify the properties of f
 | FLT_FILE_NAME_DO_NOT_CACHE | This flag denotes that the name retrieved from this query should not be cached. Name provider minifilters use this flag as they perform intermediate queries to generate a name. |
 | FLT_FILE_NAME_ALLOW_QUERY_ON_REPARSE | A name provider minifilter can use this flag to specify that it is safe to query the name in the post-create path even if STATUS_REPARSE was returned. It is the caller's responsibility to ensure that the **FileObject->FileName** field was not changed. Do not use this flag with mount points or symbolic link reparse points. |
 
-### -param FileNameInformation 
+### -param FileNameInformation [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the address of a system-allocated [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md) structure containing the file name information. **FltGetFileNameInformation** allocates this structure from paged pool. This parameter is required and cannot be **NULL**.
 
 ## -returns

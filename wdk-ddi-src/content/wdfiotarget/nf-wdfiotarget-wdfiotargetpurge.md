@@ -54,14 +54,14 @@ The <b>WdfIoTargetPurge</b> method cancels all I/O requests queued to a local, r
 
 ## -parameters
 
-### -param IoTarget 
+### -param IoTarget [in]
 
-[in]
+
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method supplied by a specialized I/O target, such as <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetiotarget">WdfUsbTargetPipeGetIoTarget</a>.
 
-### -param Action 
+### -param Action [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_purge_io_action">WDF_IO_TARGET_PURGE_IO_ACTION</a>-typed value that indicates whether the framework should wait to return from  <b>WdfIoTargetPurge</b> until all delivered requests are completed or canceled.
 
 ## -remarks

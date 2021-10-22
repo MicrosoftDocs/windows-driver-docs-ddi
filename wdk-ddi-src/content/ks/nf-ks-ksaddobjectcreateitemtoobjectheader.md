@@ -50,29 +50,29 @@ The <b>KsAddObjectCreateItemToObjectHeader</b> function adds the specified creat
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to the object header that contains the previously allocated child- create table.
 
-### -param Create 
+### -param Create [in]
 
-[in]
+
 Specifies the create dispatch function to use.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Specifies the context parameter.
 
-### -param ObjectClass 
+### -param ObjectClass [in]
 
-[in]
+
 Specifies a pointer to a <b>NULL</b>-terminated character string that is used for comparison on create requests. This pointer must remain valid while the object is active.
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in, optional]
 
-[in, optional]
+
 Specifies the security descriptor. This must remain valid while the object is active.
 
 ## -returns

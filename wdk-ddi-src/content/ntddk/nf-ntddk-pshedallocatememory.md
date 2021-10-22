@@ -49,9 +49,9 @@ The <b>PshedAllocateMemory</b> function allocates a block of memory from the non
 
 ## -parameters
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the block of memory being allocated.
 
 ## -returns

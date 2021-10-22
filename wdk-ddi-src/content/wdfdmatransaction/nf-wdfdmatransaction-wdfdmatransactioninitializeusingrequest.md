@@ -52,24 +52,24 @@ The <b>WdfDmaTransactionInitializeUsingRequest</b> method initializes a specifie
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param EvtProgramDmaFunction 
+### -param EvtProgramDmaFunction [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> event callback function.
 
-### -param DmaDirection 
+### -param DmaDirection [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer.
 
 ## -returns

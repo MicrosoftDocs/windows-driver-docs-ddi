@@ -49,14 +49,14 @@ The <b>StartSymbolMatch</b> method initializes a search for symbols whose names 
 
 ## -parameters
 
-### -param Pattern 
+### -param Pattern [in]
 
-[in]
+
 Specifies the pattern for which to search.  The search will return all symbols whose names match this pattern.  For details of the syntax of the pattern, see <a href="/windows-hardware/drivers/debugger/symbol-syntax-and-symbol-matching">Symbol Syntax and Symbol Matching</a> and <a href="/windows-hardware/drivers/debugger/string-wildcard-syntax">String Wildcard Syntax</a>.
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 Receives the handle identifying the search.  This handle can be passed to <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getnextsymbolmatch">GetNextSymbolMatch</a> and <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-endsymbolmatch">EndSymbolMatch</a>.
 
 ## -returns

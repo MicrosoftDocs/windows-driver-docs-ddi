@@ -58,13 +58,13 @@ This routine rearranges activity data collection for following:
 
 ## -parameters
 
-### -param thresholds
+### -param thresholds [in]
 
-[in] A pointer to a sensor collection list that contains the activity detection thresholds.
+A pointer to a sensor collection list that contains the activity detection thresholds.
 
-### -param pCollection
+### -param pCollection [in]
 
-[in] A pointer to a sensor collection list.
+A pointer to a sensor collection list.
 
 ## -returns
 

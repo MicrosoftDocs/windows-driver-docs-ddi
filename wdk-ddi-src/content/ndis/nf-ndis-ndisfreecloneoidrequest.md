@@ -52,15 +52,15 @@ The
 
 ## -parameters
 
-### -param SourceHandle 
+### -param SourceHandle [in]
 
-[in]
+
 An NDIS handle that identifies a filter module or an intermediate driver's protocol
      binding.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A pointer to the 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that is to be
      freed.

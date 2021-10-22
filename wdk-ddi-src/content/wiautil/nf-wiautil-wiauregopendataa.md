@@ -52,14 +52,14 @@ The <b>wiauRegOpenData</b> function opens the <b>DeviceData</b> registry key.
 
 ## -parameters
 
-### -param hkeyAncestor 
+### -param hkeyAncestor [in]
 
-[in]
+
 Specifies the key handle of the parent. This parameter should be set to the value used in the call to the <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
 
-### -param phkeyDeviceData 
+### -param phkeyDeviceData [in, out]
 
-[in, out]
+
 Pointer to a memory location that receives the opened key handle.
 
 ## -returns

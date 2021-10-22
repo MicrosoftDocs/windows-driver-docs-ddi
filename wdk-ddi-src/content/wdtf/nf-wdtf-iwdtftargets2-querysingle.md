@@ -49,14 +49,14 @@ Returns a single item from the collection.
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 The SDEL query string.
 
-### -param ppTarget 
+### -param ppTarget [out, retval]
 
-[out, retval]
+
 The requested item.
 
 ## -returns

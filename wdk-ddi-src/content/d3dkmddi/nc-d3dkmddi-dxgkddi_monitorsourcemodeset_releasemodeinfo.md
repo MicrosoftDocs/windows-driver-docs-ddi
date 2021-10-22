@@ -51,13 +51,13 @@ The <b>pfnReleaseModeInfo</b> function releases a <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param hMonitorSourceModeSet
+### -param hMonitorSourceModeSet [in]
 
-[in] A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
-### -param pMonitorSourceModeInfo
+### -param pMonitorSourceModeInfo [in]
 
-[in] A pointer to the D3DKMDT_MONITOR_SOURCE_MODE structure that is to be released.
+A pointer to the D3DKMDT_MONITOR_SOURCE_MODE structure that is to be released.
 
 ## -returns
 

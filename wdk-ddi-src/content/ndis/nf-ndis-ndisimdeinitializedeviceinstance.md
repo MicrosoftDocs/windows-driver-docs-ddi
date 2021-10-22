@@ -53,9 +53,9 @@ The
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The handle that NDIS supplied to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.

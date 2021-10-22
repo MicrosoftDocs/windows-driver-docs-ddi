@@ -50,34 +50,34 @@ The<b> KsRegisterFilterWithNoKSPins </b>function registers with DirectShow filte
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
 
-### -param InterfaceClassGUID 
+### -param InterfaceClassGUID [in]
 
-[in]
+
 A pointer to the GUID representing the class to register. For instance, this would point to KSCATEGORY_TVTUNER for a TvTuner filter.
 
-### -param PinCount 
+### -param PinCount [in]
 
-[in]
+
 The count of the number of pins on the filter.
 
-### -param PinDirection 
+### -param PinDirection [in]
 
-[in]
+
 A pointer to the first element of an array of Boolean values indicating pin direction for each pin on the filter. Output pins are <b>TRUE</b>; input pins are <b>FALSE</b>. This array must be <i>PinCount</i> in length.
 
-### -param MediumList 
+### -param MediumList [in]
 
-[in]
+
 A pointer to the first element of an array of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
 
-### -param CategoryList 
+### -param CategoryList [in, optional]
 
-[in, optional]
+
 A pointer to the first element of an array of GUIDs defining the categories for each pin on the filter. If this parameter is present, it must be <i>PinCount</i> in length.
 
 ## -returns

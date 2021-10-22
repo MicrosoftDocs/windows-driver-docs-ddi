@@ -49,19 +49,19 @@ The **FltGetTunneledName** routine retrieves the tunneled name for a file, given
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 Pointer to the callback data structure for the I/O operation ([FLT_CALLBACK_DATA](./ns-fltkernel-_flt_callback_data.md)). This parameter is required and cannot be **NULL**.
 
-### -param FileNameInformation 
+### -param FileNameInformation [in]
 
-[in]
+
 Pointer to an [FLT_FILE_NAME_INFORMATION](./ns-fltkernel-_flt_file_name_information.md) structure containing normalized name information returned by a previous call to [**FltGetFileNameInformation**](./nf-fltkernel-fltgetfilenameinformation.md), [**FltGetFileNameInformationUnsafe**](./nf-fltkernel-fltgetfilenameinformationunsafe.md), or [**FltGetDestinationFileNameInformation**](./nf-fltkernel-fltgetdestinationfilenameinformation.md) for the file.
 
-### -param RetTunneledFileNameInformation 
+### -param RetTunneledFileNameInformation [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives the address of a newly allocated structure containing the tunneled file name. If no tunneled name is found, this variable receives **NULL**. This parameter is required and cannot be **NULL** on input.
 
 ## -returns

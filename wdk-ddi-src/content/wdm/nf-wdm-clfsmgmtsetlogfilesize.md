@@ -50,14 +50,14 @@ The <b>ClfsMgmtSetLogFileSize</b> routine adds containers to a log or deletes co
 
 ## -parameters
 
-### -param LogFile 
+### -param LogFile [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log, or a stream within the log, to which containers are being added or deleted.
 
-### -param NewSizeInContainers 
+### -param NewSizeInContainers [in]
 
-[in]
+
 A pointer to the requested log size. The caller sets this parameter to one of the following values.
 
 <table>
@@ -113,19 +113,19 @@ If a maximum size policy is installed, the log expands to the maximum number of 
 
 To determine the actual log size, which might be different from the requested size, use the <i>ResultingSizeInContainers</i> parameter.
 
-### -param ResultingSizeInContainers 
+### -param ResultingSizeInContainers [out]
 
-[out]
+
 A pointer to the resulting log size. If successful, the routine writes the actual size of the log, expressed as the number of containers in the log, to the location pointed to by this parameter.
 
-### -param CompletionRoutine 
+### -param CompletionRoutine [in, optional]
 
-[in, optional]
+
  Not used.  Set to NULL.
 
-### -param CompletionRoutineData 
+### -param CompletionRoutineData [in, optional]
 
-[in, optional]
+
  Not used. Set to NULL.
 
 ## -returns

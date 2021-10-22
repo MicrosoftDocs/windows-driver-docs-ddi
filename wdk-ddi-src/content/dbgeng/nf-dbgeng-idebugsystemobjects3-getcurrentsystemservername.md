@@ -49,19 +49,19 @@ Gets the server name for the current process.
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to an output buffer.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size of the buffer.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 A pointer to the name size.
 
 ## -returns

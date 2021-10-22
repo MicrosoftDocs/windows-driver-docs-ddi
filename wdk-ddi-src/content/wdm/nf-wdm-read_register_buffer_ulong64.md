@@ -48,26 +48,26 @@ The **READ_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer, 
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register address, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer that an array of ULONG64 values is read into. 
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG64 values to be read into the buffer.
 
 ## -remarks
 
 This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
-For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
 
 The size of the *Buffer* buffer must be large enough to contain at least the specified number of ULONG64 values.
 

@@ -57,14 +57,14 @@ Reserved parameter, use <b>NULL</b>.
 
 Reserved parameter, use <b>NULL</b>.
 
-### -param pdwItemsReturned 
+### -param pdwItemsReturned [out]
 
-[out]
+
 Receives the number of STI_DEVICE_INFORMATION structures supplied in the buffer referenced by <i>ppBuffer</i>.
 
-### -param ppBuffer 
+### -param ppBuffer [out]
 
-[out]
+
 Receives a handle to an STI-allocated buffer. This buffer will contain an array of <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structures.
 
 ## -returns

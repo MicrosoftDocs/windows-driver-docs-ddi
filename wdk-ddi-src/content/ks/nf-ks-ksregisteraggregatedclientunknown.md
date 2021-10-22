@@ -50,14 +50,14 @@ In a manner very similar to COM, the <b>KsRegisterAggregatedClientUnknown</b> fu
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A pointer to the AVStream object to become the outer unknown interface.
 
-### -param ClientUnknown 
+### -param ClientUnknown [in]
 
-[in]
+
 A pointer to an <b>IUnknown</b> interface.
 
 ## -returns

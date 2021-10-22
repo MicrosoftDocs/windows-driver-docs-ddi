@@ -51,9 +51,9 @@ The <b>RetrieveOutputMemory</b> method retrieves the <a href="/windows-hardware/
 
 ## -parameters
 
-### -param Memory 
+### -param Memory [out]
 
-[out]
+
 The address of a location that receives a pointer to the <b>IWDFMemory</b> interface of a UMDF memory object.
 
 ## -returns

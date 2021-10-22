@@ -52,9 +52,9 @@ The D3DDDIARG_SETDEPTHSTENCIL structure specifies a depth buffer.
 
 ## -struct-fields
 
-### -field hZBuffer
+### -field hZBuffer [in]
 
-[in] A handle to the depth buffer.
+A handle to the depth buffer.
 
 ## -see-also
 

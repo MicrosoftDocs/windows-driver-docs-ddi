@@ -49,9 +49,9 @@ A printer interface DLL's <b>DevQueryPrintEx</b> function determines if a specif
 
 ## -parameters
 
-### -param pDQPInfo 
+### -param pDQPInfo [in, out]
 
-[in, out]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_devqueryprint_info">DEVQUERYPRINT_INFO</a> structure.
 
 ## -returns

@@ -51,14 +51,14 @@ The <b>OnD0Entry</b> method notifies a driver when a device enters the D0 power 
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device that enters the D0 power state.
 
-### -param previousState 
+### -param previousState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed value that identifies the power state of the device before it entered the D0 power state.
 
 ## -returns

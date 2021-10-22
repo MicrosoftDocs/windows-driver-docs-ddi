@@ -52,9 +52,9 @@ The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted cl
 
 ## -struct-fields
 
-### -field Flags
+### -field Flags [in]
 
-[in] A UINT value that specifies which buffers the driver should clear and how the clear operation should be performed. This member can be a bitwise OR of the following values. For more information, see the Remarks section in the <a href="/windows-hardware/drivers/ddi/index">Clear</a> reference page.
+A UINT value that specifies which buffers the driver should clear and how the clear operation should be performed. This member can be a bitwise OR of the following values. For more information, see the Remarks section in the <a href="/windows-hardware/drivers/ddi/index">Clear</a> reference page.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -63,17 +63,17 @@ The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted cl
 | D3DCLEAR_ZBUFFER (0x00000002l) | The driver should clear the context's depth buffer to the depth that is specified by the FillDepth member. This value is defined in D3d8types.h. | 
 | D3DCLEAR_COMPUTERECTS (0x00000008l) | If rectangles are specified for clearing, the driver should clip them against the current viewport. If no rectangles are specified, the driver should clear the entire viewport. This value is defined in D3dhal.h. |
 
-### -field FillColor
+### -field FillColor [in]
 
-[in] The color value that the driver should clear the context's render target to.
+The color value that the driver should clear the context's render target to.
 
-### -field FillDepth
+### -field FillDepth [in]
 
-[in] The value that the driver should use to set the depth in the context's depth buffer. This member can be a value in the range from 0.0 through 1.0.
+The value that the driver should use to set the depth in the context's depth buffer. This member can be a value in the range from 0.0 through 1.0.
 
-### -field FillStencil
+### -field FillStencil [in]
 
-[in] The value that the driver should clear the context's stencil buffer to. This member can be an integer in the range from 0 through 2ⁿ-1, where <i>n</i> is the number of bits in the stencil buffer.
+The value that the driver should clear the context's stencil buffer to. This member can be an integer in the range from 0 through 2ⁿ-1, where <i>n</i> is the number of bits in the stencil buffer.
 
 ## -remarks
 

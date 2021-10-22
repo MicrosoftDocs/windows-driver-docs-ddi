@@ -55,7 +55,7 @@ Use [IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage
 
 Pointer to device object.
 
-### -param pMemoryUsage 
+### -param pMemoryUsage [in, out]
 
-[in, out]
+
 Pointer to OEMMEMORYUSAGE structure.

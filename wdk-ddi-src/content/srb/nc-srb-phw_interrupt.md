@@ -50,9 +50,9 @@ The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt han
 
 ## -parameters
 
-### -param DeviceExtension 
+### -param DeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's per-HBA storage area.
 
 ## -returns

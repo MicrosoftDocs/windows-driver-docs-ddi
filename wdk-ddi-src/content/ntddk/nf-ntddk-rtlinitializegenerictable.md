@@ -49,14 +49,14 @@ The <b>RtlInitializeGenericTable</b> routine initializes a generic table.
 
 ## -parameters
 
-### -param Table 
+### -param Table [out]
 
-[out]
+
 A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>) bytes in size, to contain the initialized generic table structure.
 
-### -param CompareRoutine 
+### -param CompareRoutine [in]
 
-[in]
+
 An entry point of a comparison callback routine, declared as follows:
 
 
@@ -95,9 +95,9 @@ The <i>CompareRoutine</i> must strictly track the ordering of all elements in th
 
 Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan</b>, <b>GenericGreaterThan</b>, or <b>GenericEqual</b>.
 
-### -param AllocateRoutine 
+### -param AllocateRoutine [in]
 
-[in]
+
 An entry point of an allocation callback routine, declared as follows:
 
 
@@ -127,9 +127,9 @@ The number of bytes to allocate.
 
 For each new element, the <i>AllocateRoutine</i> is called to allocate memory for caller-supplied data plus some additional memory for use by the <i>Rtl...GenericTable</i> routines. Note that because of this "additional memory," caller-supplied routines must not access the first (<b>sizeof</b>(RTL_SPLAY_LINKS) + <b>sizeof</b>(LIST_ENTRY)) bytes of any element in the generic table.
 
-### -param FreeRoutine 
+### -param FreeRoutine [in]
 
-[in]
+
 An entry point of a deallocation callback routine, declared as follows:
 
 
@@ -159,9 +159,9 @@ A pointer to the element that is being deleted.
 
 <i>Rtl...GenericTable</i> routines call the <i>FreeRoutine</i> to deallocate memory for elements to be deleted from the generic table. The <i>FreeRoutine</i> is the opposite of the <i>AllocateRoutine</i>.
 
-### -param TableContext 
+### -param TableContext [in, optional]
 
-[in, optional]
+
 An optional pointer to a caller-supplied context for the generic table. This parameter can be <b>NULL</b>.
 
 ## -returns

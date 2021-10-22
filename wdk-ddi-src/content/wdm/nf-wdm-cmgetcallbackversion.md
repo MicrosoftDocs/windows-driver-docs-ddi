@@ -48,13 +48,13 @@ The **CmGetCallbackVersion** routine retrieves the major and minor version numbe
 
 ## -parameters
 
-### -param Major
+### -param Major [out, optional]
 
-[out, optional] A pointer to a location that receives the major version number.
+A pointer to a location that receives the major version number.
 
-### -param Minor
+### -param Minor [out, optional]
 
-[out, optional] A pointer to a location that receives the minor version number.
+A pointer to a location that receives the minor version number.
 
 ## -remarks
 

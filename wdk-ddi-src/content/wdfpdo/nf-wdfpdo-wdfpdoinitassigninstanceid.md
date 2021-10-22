@@ -52,14 +52,14 @@ The <b>WdfPdoInitAssignInstanceID</b> method updates the <a href="/windows-hardw
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param InstanceID 
+### -param InstanceID [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="/windows-hardware/drivers/install/instance-ids">instance ID</a> string. The driver can allocate the string's buffer from paged pool.
 
 ## -returns

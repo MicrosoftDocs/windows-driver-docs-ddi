@@ -49,9 +49,9 @@ A minifilter driver that has loaded a supporting minifilter driver by calling <a
 
 ## -parameters
 
-### -param FilterName 
+### -param FilterName [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the minifilter driver service name that was passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>.
 
 ## -returns

@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbOpenPhysicalMemoryObject callback function to open a physical memory object.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
 req.umdf-ver: 
@@ -40,19 +40,19 @@ dev_langs:
 
 ## -description
 
-The **DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) callback function to open a physical memory object.
+The **DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) callback function to open a physical memory object.
 
 ## -struct-fields
 
-### -field hPhysicalMemoryObject
+### -field hPhysicalMemoryObject [in]
 
-The physical memory object handle that was returned from a call to [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
+The physical memory object handle that was returned from a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
 
-### -field hAdapter
+### -field hAdapter [in]
 
 A handle to any adapter that is part of the logical adapter to open the physical object against. This can be any physical adapter that is linked together in a linked display adapter (LDA) chain.
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [out]
 
 Field in which a handle to the opened physical memory object for this adapter is returned.
 
@@ -66,6 +66,6 @@ Opening a physical memory object against one physical adapter is sufficient. Thi
 
 ## -see-also
 
-[**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md)
+[**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md)
 
-[**DxgkCbOpenPhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)
+[**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md)

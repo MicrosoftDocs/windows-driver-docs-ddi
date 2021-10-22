@@ -49,19 +49,19 @@ The<i>MRxComputeNewBufferingState</i> routine is called by <a href="/windows-har
 
 ## -parameters
 
-### -param SrvOpen 
+### -param SrvOpen [in, out]
 
-[in, out]
+
 A pointer to the SRV_OPEN structure and the associated FCB structure.
 
-### -param MRxContext 
+### -param MRxContext [in]
 
-[in]
+
 A pointer to a context parameter for use by the network mini-redirector callback.
 
-### -param NewBufferingState 
+### -param NewBufferingState [out]
 
-[out]
+
 A pointer to where the new buffering state is stored when the routine returns.
 
 ## -returns

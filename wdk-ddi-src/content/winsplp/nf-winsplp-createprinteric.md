@@ -47,11 +47,11 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
 
-### -param pDevMode 
 
-[in, optional]
+### -param pDevMode [in, optional]
+
+
 

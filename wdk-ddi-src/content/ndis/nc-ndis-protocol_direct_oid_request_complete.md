@@ -55,24 +55,24 @@ The
 
 ## -parameters
 
-### -param ProtocolBindingContext 
+### -param ProtocolBindingContext [in]
 
-[in]
+
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-### -param OidRequest 
+### -param OidRequest [in]
 
-[in]
+
 A pointer to the protocol driver-supplied 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
      <b>NdisDirectOidRequest</b> function.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The final status of the request. The underlying driver or NDIS determines this final status. This
      parameter determines what 
      <i>ProtocolDirectOidRequestComplete</i> does with the information at 

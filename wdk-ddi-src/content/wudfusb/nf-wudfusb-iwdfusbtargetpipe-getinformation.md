@@ -51,9 +51,9 @@ The <b>GetInformation</b> method retrieves information about a USB pipe (endpoin
 
 ## -parameters
 
-### -param pInfo 
+### -param pInfo [out]
 
-[out]
+
 A pointer to a variable that receives USB pipe information.
 
 ## -remarks

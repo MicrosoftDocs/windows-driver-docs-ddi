@@ -52,14 +52,14 @@ The <b>WdfDeviceInitSetIoInCallerContextCallback</b> method registers a driver's
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param EvtIoInCallerContext 
+### -param EvtIoInCallerContext [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function.
 
 ## -remarks

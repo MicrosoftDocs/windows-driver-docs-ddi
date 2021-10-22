@@ -47,31 +47,31 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 
 ### -param fdwFilterFlags
 
 ### -param fdwOptions
 
-### -param pPrinterNotifyOptions 
+### -param pPrinterNotifyOptions [in]
 
-[in]
 
-### -param pvReserved 
 
-[in, optional]
+### -param pvReserved [in, optional]
 
-### -param pNotificationConfig 
 
-[in]
 
-### -param phNotify 
+### -param pNotificationConfig [in]
 
-[out, optional]
 
-### -param phEvent 
 
-[out, optional]
+### -param phNotify [out, optional]
+
+
+
+### -param phEvent [out, optional]
+
+
 

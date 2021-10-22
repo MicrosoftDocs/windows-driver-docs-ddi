@@ -52,21 +52,21 @@ The DXGKARG_SETPALETTE structure describes the palette to set for a display.
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the palette is set on.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the palette is set on.
 
-### -field FirstEntry
+### -field FirstEntry [in]
 
-[in] The location in the device palette that the first entry in the array of color entries that <b>pLookupTable</b> specifies is copied to. The remaining entries that <b>pLookupTable</b> specifies are copied sequentially, from this starting point into the device's palette.
+The location in the device palette that the first entry in the array of color entries that <b>pLookupTable</b> specifies is copied to. The remaining entries that <b>pLookupTable</b> specifies are copied sequentially, from this starting point into the device's palette.
 
-### -field NumEntries
+### -field NumEntries [in]
 
-[in] The number of color entries in the array that <b>pLookupTable</b> specifies.
+The number of color entries in the array that <b>pLookupTable</b> specifies.
 
-### -field pLookupTable
+### -field pLookupTable [in]
 
-[in] An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_palettedata">D3DKMDT_PALETTEDATA</a> structure.
+An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_palettedata">D3DKMDT_PALETTEDATA</a> structure.
 
 ## -see-also
 

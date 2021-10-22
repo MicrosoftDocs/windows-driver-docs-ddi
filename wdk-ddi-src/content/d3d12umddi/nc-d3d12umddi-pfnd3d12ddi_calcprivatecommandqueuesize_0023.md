@@ -57,9 +57,9 @@ A handle to the display device (graphics context).
 
 The CreateCommandQueue argument is used to create a command queue.
 
-### -param CreateCommandQueue 
+### -param CreateCommandQueue [in]
 
-[in]
+
 An argument used to create a command queue.
 
 ### -param hDevice

@@ -49,14 +49,14 @@ Sets a framework queue  on the specified endpoint object.
 
 ## -parameters
 
-### -param Endpoint 
+### -param Endpoint [in]
 
-[in]
+
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
-### -param WdfQueue 
+### -param WdfQueue [in]
 
-[in]
+
 A handle to the framework queue object to set on the endpoint.
 
 ## -remarks

@@ -54,14 +54,14 @@ The <b>WdfDeviceInitSetIoTypeEx</b> method sets the method or preference for how
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param IoTypeConfig 
+### -param IoTypeConfig [in]
 
-[in]
+
 Pointer to <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure initialized using WDF_IO_TYPE_CONFIG_INIT macro.
 
 ## -remarks

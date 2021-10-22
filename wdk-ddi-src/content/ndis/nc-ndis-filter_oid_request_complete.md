@@ -53,24 +53,24 @@ NDIS calls the
 
 ## -parameters
 
-### -param FilterModuleContext 
+### -param FilterModuleContext [in]
 
-[in]
+
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param OidRequest 
+### -param OidRequest [in]
 
-[in]
+
 A pointer to the 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that the filter
      driver previously passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a> function.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The final status of the request set by an underlying driver or by NDIS. This parameter determines
      what 
      <i>FilterOidRequestComplete</i> does with the information at 

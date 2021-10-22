@@ -49,9 +49,9 @@ Notifies UCX that a purge operation has been completed  on the specified endpoin
 
 ## -parameters
 
-### -param Endpoint 
+### -param Endpoint [in]
 
-[in]
+
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
 ## -see-also

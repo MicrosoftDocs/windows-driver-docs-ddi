@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_DS_INFO
 tech.root: netvista
-title: WDI_DS_INFO
-ms.date: 04/30/2021
+title: WDI_DS_INFO (dot11wificxtypes.h)
+ms.date: 09/15/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_DS_INFO enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_DS_INFO enum defines values that specify whether the port is connected to the same DS that it was previously associated to.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,30 +37,33 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_DS_INFO** enumeration defines values that specify whether the port is connected to the same DS that it was previously associated to.
 
 ## -enum-fields
 
-### -field WDI_DS_CHANGED
+### -field WDI_DS_CHANGED:1
 
-Reserved.
+New DS.
 
-### -field WDI_DS_UNCHANGED
+### -field WDI_DS_UNCHANGED:2
 
-Reserved.
+Same DS as previously associated.
 
-### -field WDI_DS_UNKNOWN
+### -field WDI_DS_UNKNOWN:3
 
-Reserved.
+Unable to determine if the DS has changed.
 
-### -field WDI_DS_MAX
+### -field WDI_DS_MAX:0xffffffff
 
-Reserved.
+
 
 ## -remarks
 
+The **WDI_DS_INFO** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
+
 ## -see-also
 
+[**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)

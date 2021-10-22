@@ -50,21 +50,21 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the caller. This parameter is required and cannot be 
       <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer for the object whose security descriptor is being queried. This parameter is required 
       and cannot be <b>NULL</b>.
 
-### -param SecurityInformation 
+### -param SecurityInformation [in]
 
-[in]
+
 
 <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value. This parameter is 
        required and must be one of the following:
@@ -120,22 +120,22 @@ The system ACL (SACL) of the object is being queried. Requires
 </tr>
 </table>
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in, out]
 
-[in, out]
+
 Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the 
       specified object. The <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> 
       structure is returned in self-relative format. This parameter is optional and can be 
       <b>NULL</b>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size, in bytes, of the <i>SecurityDescriptor</i> buffer.
 
-### -param LengthNeeded 
+### -param LengthNeeded [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated variable that receives the number of bytes required to store the copied 
       security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i> 
       parameter. This parameter is optional and can be <b>NULL</b>.

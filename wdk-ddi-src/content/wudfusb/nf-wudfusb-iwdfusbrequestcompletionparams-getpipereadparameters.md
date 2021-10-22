@@ -51,19 +51,19 @@ The <b>GetPipeReadParameters</b> method retrieves parameters that are associated
 
 ## -parameters
 
-### -param ppReadMemory 
+### -param ppReadMemory [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface, for access to the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
-### -param pBytesRead 
+### -param pBytesRead [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the size, in bytes, of the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
-### -param pReadMemoryOffset 
+### -param pReadMemoryOffset [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the offset, in bytes, into the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
 ## -see-also

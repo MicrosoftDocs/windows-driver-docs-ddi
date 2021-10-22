@@ -49,9 +49,9 @@ This function returns the size of the property list.
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 The number of PROPERTYKEY elements.
 
 ## -returns

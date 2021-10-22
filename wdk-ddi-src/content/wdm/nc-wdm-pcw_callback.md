@@ -49,17 +49,17 @@ Providers can optionally implement a `PCW_CALLBACK` function to receive notifica
 
 ## -parameters
 
-### -param Type
+### -param Type [in]
 
-[in] A [PCW_CALLBACK_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback was invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
+A [PCW_CALLBACK_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback was invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
 
-### -param Info
+### -param Info [in]
 
-[in] A pointer to a [PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the field corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
+A pointer to a [PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the field corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
 
-### -param Context
+### -param Context [in, optional]
 
-[in, optional] The callback context that was supplied by the provider when calling [PcwRegister](nf-wdm-pcwregister.md) or when calling the CTRPP-generated Register function (which invokes `PcwRegister`).
+The callback context that was supplied by the provider when calling [PcwRegister](nf-wdm-pcwregister.md) or when calling the CTRPP-generated Register function (which invokes `PcwRegister`).
 
 ## -returns
 

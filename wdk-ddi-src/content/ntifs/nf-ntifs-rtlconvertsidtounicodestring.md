@@ -49,19 +49,19 @@ The <b>RtlConvertSidToUnicodeString</b> routine generates a printable Unicode st
 
 ## -parameters
 
-### -param UnicodeString 
+### -param UnicodeString [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to contain the generated Unicode string.  The <i>UnicodeString->MaximumLength</i> member is set only if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
-### -param Sid 
+### -param Sid [in]
 
-[in]
+
 A pointer to the SID structure that is to be converted to Unicode (the SID structure is unaffected).
 
-### -param AllocateDestinationString 
+### -param AllocateDestinationString [in]
 
-[in]
+
 A Boolean flag that indicates whether this routine will allocate the UnicodeString buffer. If <b>TRUE</b>, only the <i>UnicodeString->Buffer</i> member is allocated and the rest of the <i>UnicodeString</i> structure must be allocated by the caller.
 
 ## -returns

@@ -49,17 +49,17 @@ api_name:
 
 ## -parameters
 
-### -param Filter
+### -param Filter [in]
 
-[in] Opaque filter pointer for the caller.
+Opaque filter pointer for the caller.
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque volume pointer for the volume.
+Opaque volume pointer for the volume.
 
-### -param OldContext
+### -param OldContext [out, optional]
 
-[out, optional] Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
+Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 

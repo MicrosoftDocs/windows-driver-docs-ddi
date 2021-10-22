@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
+
 A handle used by the OS to identify the monitor to return I2C data to.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments used by <b>EVT_IDD_CX_MONITOR_I2C_TRANSMIT</b>.
 
 ## -returns

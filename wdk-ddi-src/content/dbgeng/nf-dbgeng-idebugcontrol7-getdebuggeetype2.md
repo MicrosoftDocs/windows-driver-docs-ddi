@@ -49,9 +49,9 @@ The GetDebuggeeType2 method describes the nature of the current target.
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Takes a single flag, DEBUG_EXEC_FLAGS_NONBLOCK, that indicates whether the function GetDebuggeeType2 should own the engine critical section object (g_EngineLock) before finding the debuggee type.
 
 
@@ -61,9 +61,9 @@ If the Flag is present, then the function  will try to own the critical section.
 
 If the flag is not passed in, then the function will wait for the engine critical section to become available before continuing.
 
-### -param Class 
+### -param Class [out]
 
-[out]
+
 Receives the class of the current target.  It will be set to one of the values in the following table.
 
 <table>
@@ -103,9 +103,9 @@ The current target is a user-mode target.
 </tr>
 </table>
 
-### -param Qualifier 
+### -param Qualifier [out]
 
-[out]
+
 Provides more details about the type of the target.  Its interpretation depends on the value of <i>Class</i>.  When class is DEBUG_CLASS_UNINITIALIZED, <i>Qualifier</i> returns zero.  The following values are applicable for kernel-mode targets.
 
 <table>

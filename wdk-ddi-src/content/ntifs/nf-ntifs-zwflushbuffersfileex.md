@@ -49,9 +49,9 @@ The <b>ZwFlushBuffersFileEx</b> routine is called by a file system filter driver
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 Handle returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a> for the file whose buffers will be flushed. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param FLags
@@ -101,9 +101,9 @@ Handle returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreat
 
 The size, in bytes, of the parameters block.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

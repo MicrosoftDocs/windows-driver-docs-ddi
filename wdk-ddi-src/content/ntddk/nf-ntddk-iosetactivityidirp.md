@@ -49,14 +49,14 @@ The IoSetActivityIdIrp routine associates an activity ID with an IRP.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 The IRP to associate the activity ID with.
 
-### -param Guid 
+### -param Guid [in, optional]
 
-[in, optional]
+
 A pointer to the GUID that represents the ID to store in the IRP.  If NULL, IoSetActivityIdIrp attempts to retrieve the activity ID from the current thread if it was the thread that originally issued the request.
 
 ## -returns

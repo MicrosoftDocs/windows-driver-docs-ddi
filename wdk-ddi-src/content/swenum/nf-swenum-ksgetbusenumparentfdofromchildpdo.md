@@ -52,14 +52,14 @@ The <b>KsGetBusEnumParentFDOFromChildPDO </b>function retrieves the FDO of the p
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the child's PDO.
 
-### -param FunctionalDeviceObject 
+### -param FunctionalDeviceObject [out]
 
-[out]
+
 Pointer to the device object to receive the parent's FDO.
 
 ## -returns

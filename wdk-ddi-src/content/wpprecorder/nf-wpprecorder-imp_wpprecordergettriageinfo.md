@@ -53,9 +53,9 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 <p>Pointer to a <a href="/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_wpp_triage_info"><b>WPP_TRIAGE_INFO</b></a> structure.</p>
 
-### -param WppTriageInfo 
+### -param WppTriageInfo [out]
 
-[out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_wpp_triage_info">WPP_TRIAGE_INFO</a> structure.
 
 ## -returns

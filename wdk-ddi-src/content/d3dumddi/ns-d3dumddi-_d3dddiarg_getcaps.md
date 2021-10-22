@@ -52,21 +52,21 @@ The D3DDDIARG_GETCAPS structure contains display device capabilities of a partic
 
 ## -struct-fields
 
-### -field Type
+### -field Type [in]
 
-[in] The type of capabilities to retrieve. The Microsoft Direct3D runtime can supply one of the values from the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a> enumeration type, possibly along with information in the buffer that is pointed to by <b>pInfo</b>, to retrieve particular capability data in the buffer at <b>pData</b>.
+The type of capabilities to retrieve. The Microsoft Direct3D runtime can supply one of the values from the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a> enumeration type, possibly along with information in the buffer that is pointed to by <b>pInfo</b>, to retrieve particular capability data in the buffer at <b>pData</b>.
 
-### -field pInfo
+### -field pInfo [in]
 
-[in] A pointer to a buffer that contains data that specifies the specific condition on which to retrieve the capabilities of the type that is specified by the <b>Type</b> member.
+A pointer to a buffer that contains data that specifies the specific condition on which to retrieve the capabilities of the type that is specified by the <b>Type</b> member.
 
-### -field pData
+### -field pData [out]
 
-[out] A pointer to a buffer that is filled with capabilities of the type that is specified by the <b>Type</b> member and possibly determined by the condition that is specified in the buffer at <b>pInfo</b>.
+A pointer to a buffer that is filled with capabilities of the type that is specified by the <b>Type</b> member and possibly determined by the condition that is specified in the buffer at <b>pInfo</b>.
 
-### -field DataSize
+### -field DataSize [in/out]
 
-[in/out] The size, in bytes, of the buffer at <b>pData</b>.
+The size, in bytes, of the buffer at <b>pData</b>.
 
 ## -remarks
 

@@ -49,13 +49,13 @@ The IoTransferActivityId routine logs an ETW transfer event using the I/O tracin
 
 ## -parameters
 
-### -param ActivityId 
+### -param ActivityId [in]
 
-[in]
+
 The source activity ID.
 
-### -param RelatedActivityId 
+### -param RelatedActivityId [in]
 
-[in]
+
 The new activity ID to be transferred from the source activity ID.
 

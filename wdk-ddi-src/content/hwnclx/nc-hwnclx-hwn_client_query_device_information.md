@@ -49,14 +49,14 @@ Implemented by the client driver to retrieve hardware notification component att
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and <a href="/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
-### -param Information 
+### -param Information [out]
 
-[out]
+
 Pointer to a buffer that receives the controller’s attributes.
 
 ## -returns

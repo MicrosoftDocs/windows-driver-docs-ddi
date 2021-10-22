@@ -49,19 +49,19 @@ The <b>RtlCharToInteger</b> routine converts a single-byte character string to a
 
 ## -parameters
 
-### -param String 
+### -param String [in]
 
-[in]
+
 Pointer to a null-terminated, single-byte character string.
 
-### -param Base 
+### -param Base [in, optional]
 
-[in, optional]
+
 Specifies decimal, binary, octal, or hexadecimal base. If this parameter is not given, the routine will look for 0x, 0o, and 0b prefixes in the input string to determine if the base should be decimal (default), binary, octal, or hexadecimal.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 Pointer to a location to which the converted value is returned.
 
 ## -returns

@@ -47,13 +47,13 @@ Adds a connector to the connector collection object.
 
 ## -parameters
 
-### -param ConnectorCollectionObject 
+### -param ConnectorCollectionObject [in]
 
-[in]The handle to the connector collection object that the client driver retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
+The handle to the connector collection object that the client driver retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
 
-### -param ConnectorInfo 
+### -param ConnectorInfo [in]
 
-[in]A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure that contains information about the connector to add.
+A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure that contains information about the connector to add.
 
 ## -returns
 

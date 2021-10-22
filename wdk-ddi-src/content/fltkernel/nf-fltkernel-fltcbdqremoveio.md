@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Cbdq 
+### -param Cbdq [in, out]
 
-[in, out]
+
 Pointer to a cancel-safe callback data queue. This queue must have been initialized by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinitialize">FltCbdqInitialize</a>.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Context pointer for the item to be removed. This context is initialized by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a> when the I/O request is first inserted in the queue. This parameter is required and must be non-<b>NULL</b>.
 
 ## -returns

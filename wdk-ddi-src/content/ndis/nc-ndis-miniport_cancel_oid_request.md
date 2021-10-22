@@ -52,16 +52,16 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 A handle to a context area that the miniport driver allocated in its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
-### -param RequestId 
+### -param RequestId [in]
 
-[in]
+
 A cancellation identifier for the request. This identifier specifies the 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.

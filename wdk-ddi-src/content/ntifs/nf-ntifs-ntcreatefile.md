@@ -48,13 +48,13 @@ The **NtCreateFile** routine creates a new file or opens an existing file.
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [out]
 
-[out] A pointer to a HANDLE variable that receives a handle to the file.
+A pointer to a HANDLE variable that receives a handle to the file.
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in] Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object.
+Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object.
 
 In addition to the *standard* access rights that are defined for all types of objects, the caller can specify any of the following *specific* access rights; that is, rights that are specific to files.
 
@@ -97,13 +97,13 @@ If the file is actually a directory, the caller can also specify the following g
 
 For more information about access rights, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) and [Access Rights](/windows-hardware/drivers/kernel/access-rights).
 
-### -param ObjectAttributes
+### -param ObjectAttributes [in]
 
-[in] A pointer to an [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
+A pointer to an [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] A pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
+A pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
 
 * FILE_CREATED
 * FILE_OPENED
@@ -112,17 +112,17 @@ For more information about access rights, see [ACCESS_MASK](/windows-hardware/dr
 * FILE_EXISTS
 * FILE_DOES_NOT_EXIST
 
-### -param AllocationSize
+### -param AllocationSize [in, optional]
 
-[in, optional] A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If *AllocationSize* is **NULL**, no allocation size is specified. If no file is created or overwritten, *AllocationSize* is ignored.
+A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If *AllocationSize* is **NULL**, no allocation size is specified. If no file is created or overwritten, *AllocationSize* is ignored.
 
-### -param FileAttributes
+### -param FileAttributes [in]
 
-[in] Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
+Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
 
-### -param ShareAccess
+### -param ShareAccess [in]
 
-[in] Type of share access, which is specified as zero or any combination of the following flags.
+Type of share access, which is specified as zero or any combination of the following flags.
 
 | *ShareAccess* flag | Allows other threads to do this |
 | ------------------ | ------------------------------- |
@@ -132,9 +132,9 @@ For more information about access rights, see [ACCESS_MASK](/windows-hardware/dr
 
 Device and intermediate drivers usually set *ShareAccess* to zero, which gives the caller exclusive access to the open file.
 
-### -param CreateDisposition
+### -param CreateDisposition [in]
 
-[in] Specifies the action to perform if the file does or does not exist. *CreateDisposition* can be one of the values in the following table.
+Specifies the action to perform if the file does or does not exist. *CreateDisposition* can be one of the values in the following table.
 
 | *CreateDisposition* value | Action if file exists            | Action if file does not exist |
 | ------------------------- | ---------------------            | ----------------------------- |
@@ -145,9 +145,9 @@ Device and intermediate drivers usually set *ShareAccess* to zero, which gives t
 | FILE_OVERWRITE            | Open the file, and overwrite it. | Return an error. |
 | FILE_OVERWRITE_IF         | Open the file, and overwrite it. | Create the file. |
 
-### -param CreateOptions
+### -param CreateOptions [in]
 
-[in] Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
+Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
 
 | CreateOptions flag | Meaning |
 | -------------------- | ------- |
@@ -170,13 +170,13 @@ Device and intermediate drivers usually set *ShareAccess* to zero, which gives t
 | FILE_OPEN_REQUIRING_OPLOCK | The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and will fail the create with a return code of STATUS_CANNOT_BREAK_OPLOCK if the result would be to break an existing oplock. This flag is available starting with Windows 7 and Windows Server 2008 R2. |
 | FILE_SESSION_AWARE | The client opening the file or device is session aware and per session access is validated if necessary. This flag is available starting with Windows 8. |
 
-### -param EaBuffer
+### -param EaBuffer [in, optional]
 
-[in, optional] For device and intermediate drivers, this parameter must be a **NULL** pointer.
+For device and intermediate drivers, this parameter must be a **NULL** pointer.
 
-### -param EaLength
+### -param EaLength [in]
 
-[in] For device and intermediate drivers, this parameter must be zero.
+For device and intermediate drivers, this parameter must be zero.
 
 ## -returns
 

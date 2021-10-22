@@ -53,20 +53,20 @@ This routine removes an <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPA
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 The filter to dereference.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 The create operation to remove open reparse information
                        from.
 
-### -param OpenReparseEntry 
+### -param OpenReparseEntry [in]
 
-[in]
+
 The open reparse information to remove, of type <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPARSE_LIST_ENTRY</a>.
 
 ## -returns

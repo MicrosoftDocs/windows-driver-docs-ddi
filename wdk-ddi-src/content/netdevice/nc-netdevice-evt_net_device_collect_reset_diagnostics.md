@@ -48,9 +48,9 @@ Implement this optional callback to collect diagnostics from a failed hardware d
 
 ## -parameters
 
-### -param Device
+### -param Device [_In_]
 
-[_In_] The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
 

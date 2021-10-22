@@ -59,9 +59,9 @@ A handle to the display device (graphics context).
 
 The starting vertex buffer to set.
 
-### -param NumBuffers 
+### -param NumBuffers [in]
 
-[in]
+
 The total number of buffers to set.
 
 ### -param unnamedParam4

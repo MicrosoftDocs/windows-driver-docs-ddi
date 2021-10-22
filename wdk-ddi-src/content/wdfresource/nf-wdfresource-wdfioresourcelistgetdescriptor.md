@@ -52,14 +52,14 @@ The <b>WdfIoResourceListGetDescriptor</b> method returns a pointer to a resource
 
 ## -parameters
 
-### -param ResourceList 
+### -param ResourceList [in]
 
-[in]
+
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 A zero-based value that is used as an index into the logical configuration that <i>ResourceList</i> specifies.
 
 ## -returns

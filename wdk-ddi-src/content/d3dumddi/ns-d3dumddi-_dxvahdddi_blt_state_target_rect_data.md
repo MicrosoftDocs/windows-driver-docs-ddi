@@ -52,13 +52,13 @@ The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies
 
 ## -struct-fields
 
-### -field Enable
+### -field Enable [in]
 
-[in] A Boolean value that specifies whether the driver should use the <b>TargetRect</b> member or the entire output surface as the target. The default value is <b>FALSE</b>, which indicates that the entire output surface is the target.
+A Boolean value that specifies whether the driver should use the <b>TargetRect</b> member or the entire output surface as the target. The default value is <b>FALSE</b>, which indicates that the entire output surface is the target.
 
-### -field TargetRect
+### -field TargetRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the target rectangle in the coordinates of the output surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the target rectangle in the coordinates of the output surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
 
 ## -remarks
 

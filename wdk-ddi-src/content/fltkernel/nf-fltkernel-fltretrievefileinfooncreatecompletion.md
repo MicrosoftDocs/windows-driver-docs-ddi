@@ -47,17 +47,17 @@ product:
 
 ## -parameters
 
-### -param Filter
+### -param Filter [in]
 
-[in] Opaque filter pointer that uniquely identifies the minifilter driver.
+Opaque filter pointer that uniquely identifies the minifilter driver.
 
-### -param Data
+### -param Data [in]
 
-[in] Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback data representing the I/O operation.
+Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback data representing the I/O operation.
 
-### -param InfoClass
+### -param InfoClass [in]
 
-[in] Flag that indicates the type of information to return. Note that flags cannot be combined. Can be one of the following values:
+Flag that indicates the type of information to return. Note that flags cannot be combined. Can be one of the following values:
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -65,9 +65,9 @@ product:
 | **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure. |
 | **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure. |
 
-### -param Size
+### -param Size [out]
 
-[out] Pointer to a ULONG that specifies the size, in bytes, of the buffer that this function returns.
+Pointer to a ULONG that specifies the size, in bytes, of the buffer that this function returns.
 
 ## -returns
 

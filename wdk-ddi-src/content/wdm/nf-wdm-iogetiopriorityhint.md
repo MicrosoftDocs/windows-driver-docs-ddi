@@ -49,9 +49,9 @@ The <b>IoGetIoPriorityHint</b> routine gets the <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP to obtain the priority hint from.
 
 ## -returns

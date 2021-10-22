@@ -49,14 +49,14 @@ Gets the state of the Mute node in the path of the audio stream.
 
 ## -parameters
 
-### -param ulChannel 
+### -param ulChannel [in]
 
-[in]
+
 The audio stream channel.
 
-### -param pbMute 
+### -param pbMute [out]
 
-[out]
+
 The state of the Mute node.
 
 ## -returns

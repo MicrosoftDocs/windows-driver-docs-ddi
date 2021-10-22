@@ -52,27 +52,27 @@ The <b>DXGK_SETPOINTERPOSITIONFLAGS</b> structure identifies, in bit-field flags
 
 ## -struct-fields
 
-### -field Visible
+### -field Visible [in]
 
-[in] A <b>UINT</b> value that specifies whether the mouse pointer is visible. If this member is set, the mouse pointer is visible; if this member is not set, the mouse pointer is invisible. The driver should ignore the values in the <b>X</b> and <b>Y</b> members of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a> structure if <b>Visible</b> is not set (that is, <b>Visible</b> is set to 0). 
+A <b>UINT</b> value that specifies whether the mouse pointer is visible. If this member is set, the mouse pointer is visible; if this member is not set, the mouse pointer is invisible. The driver should ignore the values in the <b>X</b> and <b>Y</b> members of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a> structure if <b>Visible</b> is not set (that is, <b>Visible</b> is set to 0). 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-### -field Procedural
+### -field Procedural [in]
 
-[in] A <b>UINT</b> value that specifies whether the mouse pointer position was set by an application with the <a href="https://msdn.microsoft.com/b17cf57f-dd96-4695-a51e-ee1e1f00f85f">SetCursorPos</a> or similar cursor function instead of coming from user device input.
+A <b>UINT</b> value that specifies whether the mouse pointer position was set by an application with the <a href="https://msdn.microsoft.com/b17cf57f-dd96-4695-a51e-ee1e1f00f85f">SetCursorPos</a> or similar cursor function instead of coming from user device input.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 Supported starting with Windows 8.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
+This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
-### -field Value
+### -field Value [in]
 
-[in] A member in the union that <b>DXGK_SETPOINTERPOSITIONFLAGS</b> contains that can hold one 32-bit value that indicates information about a mouse pointer.
+A member in the union that <b>DXGK_SETPOINTERPOSITIONFLAGS</b> contains that can hold one 32-bit value that indicates information about a mouse pointer.
 
 ## -see-also
 

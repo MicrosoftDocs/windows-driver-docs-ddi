@@ -49,34 +49,34 @@ The <i>EvtSerCx2SelectNextTransmitTransactionType</i> event callback function is
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the memory pages that are spanned by the write buffer for the next transmit transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The starting offset for the next data transfer. This parameter is a byte offset from the start of the buffer region described by the MDL. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Offset</i> are in the range 0 to N–1.
 
-### -param RemainingLength 
+### -param RemainingLength [in]
 
-[in]
+
 The total number of bytes of data that remain to be transferred in the current write (<a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) request. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
-### -param CustomTransmit 
+### -param CustomTransmit [out]
 
-[out]
+
 A pointer to a location to which the function writes the <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a> handle to the custom-transmit object. If the function returns <b>SerCx2TransactionTypeCustom</b>, the function must supply the object handle that the serial controller driver created in a previous call to the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a> method. If the return value is not <b>SerCx2TransactionTypeCustom</b>, this output value is ignored by SerCx2.
 
-### -param NextTransactionLength 
+### -param NextTransactionLength [out]
 
-[out]
+
 A pointer to a location to which the function writes the number of bytes to transfer in the next transmit transaction. If the return value is <b>SerCx2TransactionTypeDefault</b>, this output value is ignored by SerCx2.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>GetDumpFormatFlags</b> method returns the flags that describe what inform
 
 ## -parameters
 
-### -param FormatFlags 
+### -param FormatFlags [out]
 
-[out]
+
 Receives the flags that describe the information included in a dump file.  Different dump files support different sets of format information.  For example, see <a href="/previous-versions/ff541497(v=vs.85)">DEBUG_FORMAT_XXX</a> for a description of the flags used for user-mode Minidump files.
 
 ## -returns

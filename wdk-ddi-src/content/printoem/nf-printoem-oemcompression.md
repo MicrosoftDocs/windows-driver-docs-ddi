@@ -49,13 +49,13 @@ api_name:
 
 ### -param pdevobj
 
-### -param pInBuf 
+### -param pInBuf [in]
 
-[in]
 
-### -param pOutBuf 
 
-[out]
+### -param pOutBuf [out]
+
+
 
 ### -param dwInLen
 

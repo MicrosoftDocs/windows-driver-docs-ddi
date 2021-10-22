@@ -52,17 +52,17 @@ The D3DDDIARG_RENAME structure describes a resource or a surface within the reso
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource to be renamed.
+A handle to the resource to be renamed.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be renamed.
+The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be renamed.
 
-### -field hCookie
+### -field hCookie [in]
 
-[in] A handle that represents the renamed surface instance that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function previously returned.
+A handle that represents the renamed surface instance that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function previously returned.
 
 ### -field GpuVirtualAddress
 

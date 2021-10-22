@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param pVc 
+### -param pVc [in]
 
-[in]
+
 A pointer to the virtual circuit along which the TSDU is to be sent.
 
-### -param SendOptions 
+### -param SendOptions [in]
 
-[in]
+
 The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>SendOptions</i> parameter consists of a set of bits defined in <i>rxce.h</i>. The <i>SendOptions</i> parameter can be a combination of the following bits:
 
 
@@ -93,19 +93,19 @@ Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only porti
 
 Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
 
-### -param pMdl 
+### -param pMdl [in]
 
-[in]
+
 A pointer to the buffer to be sent.
 
-### -param SendLength 
+### -param SendLength [in]
 
-[in]
+
 The length of data to be sent.
 
-### -param pCompletionContext 
+### -param pCompletionContext [in]
 
-[in]
+
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>SendOptions</i> parameter requests a synchronous send operation.
 
 ## -returns

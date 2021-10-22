@@ -50,14 +50,14 @@ The **KsDiscard**macro removes a given item from an object bag.
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](./ns-ks-_ksdevice.md), [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md), [KSFILTER](./ns-ks-_ksfilter.md), or [KSPIN](./ns-ks-_kspin.md).
 
-### -param Pointer 
+### -param Pointer [in]
 
-[in]
+
 A pointer to the item to be removed from the requested object's bag.
 
 ## -remarks

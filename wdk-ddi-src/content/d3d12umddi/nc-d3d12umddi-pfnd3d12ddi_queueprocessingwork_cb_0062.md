@@ -52,21 +52,21 @@ The runtime is responsible for managing threads, either directly, or through a T
 
 ## -parameters
 
-### -param hRTDevice
+### -param hRTDevice [in]
 
-[in] The handle of the device for the driver to use when it calls back into the runtime.
+The handle of the device for the driver to use when it calls back into the runtime.
 
-### -param pfnCallback
+### -param pfnCallback [in]
 
-[in] Pointer to a [PFND3D12DDI_UMD_CALLBACK_METHOD](nc-d3d12umddi-pfnd3d12ddi_umd_callback_method.md) callback that is called from the thread where work is being performed.
+Pointer to a [PFND3D12DDI_UMD_CALLBACK_METHOD](nc-d3d12umddi-pfnd3d12ddi_umd_callback_method.md) callback that is called from the thread where work is being performed.
 
-### -param pfnCancel
+### -param pfnCancel [in, opt]
 
-[in, opt] Pointer to a [PFND3D12DDI_UMD_CALLBACK_METHOD](nc-d3d12umddi-pfnd3d12ddi_umd_callback_method.md) callback that is called if the device is destroyed before *pfnCallback* has executed.
+Pointer to a [PFND3D12DDI_UMD_CALLBACK_METHOD](nc-d3d12umddi-pfnd3d12ddi_umd_callback_method.md) callback that is called if the device is destroyed before *pfnCallback* has executed.
 
-### -param pContext
+### -param pContext [in, opt]
 
-[in, opt] Pointer to a device context that is passed to *pfnCallback* or *pfnCancel*.
+Pointer to a device context that is passed to *pfnCallback* or *pfnCancel*.
 
 ## -returns
 

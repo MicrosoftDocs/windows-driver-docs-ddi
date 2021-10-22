@@ -46,13 +46,13 @@ The **DXGK_DIAG_SCANOUT_BUFFER_CONTENT** structure provides information about th
 
 ## -struct-fields
 
-### -field ScanoutBufferCrc
+### -field ScanoutBufferCrc [out]
 
-[out] A [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC**](ne-dispmprt-dxgk_diag_display_scanout_buffer_crc.md) value.
+A [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC**](ne-dispmprt-dxgk_diag_display_scanout_buffer_crc.md) value.
 
-### -field ScanoutBufferHistogram
+### -field ScanoutBufferHistogram [out]
 
-[out] A [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM**](ns-dispmprt-dxgk_diag_display_scanout_buffer_histogram.md) structure.
+A [**DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM**](ns-dispmprt-dxgk_diag_display_scanout_buffer_histogram.md) structure.
 
 ## -remarks
 

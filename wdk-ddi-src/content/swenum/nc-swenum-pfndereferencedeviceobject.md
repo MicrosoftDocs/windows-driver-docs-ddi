@@ -49,9 +49,9 @@ The driver can use this routine to decrement the reference count of the PDO.
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a device extension of the device's PDO.
 
 ## -remarks

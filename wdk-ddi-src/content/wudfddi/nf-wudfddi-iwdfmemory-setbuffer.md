@@ -51,14 +51,14 @@ The <b>SetBuffer</b> method assigns a specified buffer to a memory object that a
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a driver-supplied buffer.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 
 ## -remarks

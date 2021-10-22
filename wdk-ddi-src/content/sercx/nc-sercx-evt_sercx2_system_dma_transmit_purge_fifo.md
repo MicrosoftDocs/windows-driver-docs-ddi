@@ -49,14 +49,14 @@ The <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> event callback function is called
 
 ## -parameters
 
-### -param SystemDmaTransmit 
+### -param SystemDmaTransmit [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
-### -param BytesAlreadyTransmittedToHardware 
+### -param BytesAlreadyTransmittedToHardware [in]
 
-[in]
+
 The number of bytes that have already been loaded into the transmit FIFO during the current system-DMA-transmit transaction.
 
 ## -remarks

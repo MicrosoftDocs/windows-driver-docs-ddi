@@ -49,14 +49,14 @@ The URS class extension invokes this event callback when it requires the client 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
-### -param Role 
+### -param Role [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/urstypes/ne-urstypes-_urs_role">URS_ROLE</a> type value that indicates the role to set for the controller device.
 
 ## -returns

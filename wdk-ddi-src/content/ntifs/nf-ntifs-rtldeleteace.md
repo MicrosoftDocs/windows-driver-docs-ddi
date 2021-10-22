@@ -49,14 +49,14 @@ The <b>RtlDeleteAce</b> routine deletes an access control entry (ACE) from a spe
 
 ## -parameters
 
-### -param Acl 
+### -param Acl [in, out]
 
-[in, out]
+
 Pointer to the ACL to be modified. <b>RtlDeleteAce</b> deletes the specified ACE from this ACL.
 
-### -param AceIndex 
+### -param AceIndex [in]
 
-[in]
+
 Specifies the ACE to delete. A value of zero corresponds to the first ACE in the ACL, 1 to the second ACE, and so on.
 
 ## -returns

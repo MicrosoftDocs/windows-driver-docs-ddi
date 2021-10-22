@@ -51,20 +51,20 @@ api_name:
 
 ## -parameters
 
-### -param LogHandle 
+### -param LogHandle [in]
 
-[in]
+
 Specifies the handle returned by 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>.
 
-### -param LogBuffer 
+### -param LogBuffer [in]
 
-[in]
+
 Pointer to a driver-allocated buffer containing the information to be written.
 
-### -param LogBufferSize 
+### -param LogBufferSize [in]
 
-[in]
+
 Specifies how many bytes of data to copy into the log file.
 
 ## -returns

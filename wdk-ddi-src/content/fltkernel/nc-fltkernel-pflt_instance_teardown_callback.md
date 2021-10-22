@@ -49,14 +49,14 @@ A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CAL
 
 ## -parameters
 
-### -param FltObjects 
+### -param FltObjects [in]
 
-[in]
+
 Pointer to an [FLT_RELATED_OBJECTS](./ns-fltkernel-_flt_related_objects.md) structure that contains opaque pointers for the objects related to the current I/O operation.
 
-### -param Reason 
+### -param Reason [in]
 
-[in]
+
 Flag that indicates why the minifilter driver instance is being torn down. One of the following:
 
 | Flag | Meaning |

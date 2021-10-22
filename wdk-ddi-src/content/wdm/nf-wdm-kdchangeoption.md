@@ -49,24 +49,24 @@ The <b>KdChangeOption</b> routine accesses and changes state in the kernel that 
 
 ## -parameters
 
-### -param Option 
+### -param Option [in]
 
-[in]
+
 A value from the KD_OPTION enumeration that indicates the kernel state to access and change. The value of this parameter determines the format and required length of the <i>InBuffer</i> and <i>OutBuffer</i>. Currently, the only valid value is KD_OPTION_SET_BLOCK_ENABLE.
 
-### -param OPTIONAL 
+### -param OPTIONAL [in, optional]
 
-[in, optional]
+
 The size, in bytes, of the buffer at <i>InBuffer</i>. This value is optional.
 
-### -param InBuffer 
+### -param InBuffer [in]
 
-[in]
+
 A pointer to a caller-allocated input buffer that contains information about the kernel state to change. If <i>Option</i> specifies a kernel state that does not require input data, this pointer can be <b>NULL</b>.
 
-### -param OutBuffer 
+### -param OutBuffer [out]
 
-[out]
+
 A pointer to a caller-allocated output buffer in which information that pertains to the kernel state is returned. If <i>Option</i> specifies a kernel state that does not produce output data, this pointer can be <b>NULL</b>.
 
 ## -returns

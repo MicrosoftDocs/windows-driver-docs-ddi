@@ -49,14 +49,14 @@ Sets the range of print jobs being monitored.
 
 ## -parameters
 
-### -param ulViewOffset 
+### -param ulViewOffset [in]
 
-[in]
+
 The start of the range of jobs being monitored. Note that the offset value uses a zero-based index.
 
-### -param ulViewSize 
+### -param ulViewSize [in]
 
-[in]
+
 The  size of the range of jobs being monitored.
 
 ## -returns

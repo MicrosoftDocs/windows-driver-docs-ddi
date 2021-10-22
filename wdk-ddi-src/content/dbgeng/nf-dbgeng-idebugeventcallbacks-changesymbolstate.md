@@ -49,9 +49,9 @@ The <b>ChangeSymbolState</b> callback method is called by the engine when the sy
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set indicating the nature of the change to the symbol state.  The following bit flags might be set.
 
 <table>
@@ -121,9 +121,9 @@ The type options have changed.
 </tr>
 </table>
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 Provides additional information about the change to the symbol state.   If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
 

@@ -55,36 +55,36 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
-### -param MiniportAdapterContext 
+### -param MiniportAdapterContext [in]
 
-[in]
+
 The handle to a context area allocated by the miniport driver in which the driver maintains state
      information for a NIC. The driver allocates this context area in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param VirtualAddress 
+### -param VirtualAddress [in]
 
-[in]
+
 The base virtual address of the shared memory that the miniport driver allocated by calling 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>. 
      <i>VirtualAddress</i> is <b>NULL</b> if the allocation attempt failed.
 
-### -param PhysicalAddress 
+### -param PhysicalAddress [in]
 
-[in]
+
 The base physical address for the NIC to use that is mapped to the address that the 
      <i>VirtualAddress</i> parameter specifies.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes that 
      <b>NdisMAllocateSharedMemoryAsyncEx</b> allocated.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a context area that the miniport driver specified in the preceding call to 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 

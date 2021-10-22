@@ -48,9 +48,9 @@ The **ExDeleteResourceLite** routine deletes a given resource from the system's 
 
 ## -parameters
 
-### -param Resource
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to the caller-supplied storage for the initialized resource variable to be deleted.
 
 ## -returns

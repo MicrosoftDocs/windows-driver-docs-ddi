@@ -49,9 +49,9 @@ The <b>IKsReferenceClock::GetCorrelatedPhysicalTime</b> method queries the assoc
 
 ## -parameters
 
-### -param SystemTime 
+### -param SystemTime [out]
 
-[out]
+
 Specifies the current system time in 100 nanosecond units.
 
 ## -returns

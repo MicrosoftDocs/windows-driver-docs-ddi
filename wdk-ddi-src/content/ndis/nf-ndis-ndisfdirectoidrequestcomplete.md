@@ -54,25 +54,25 @@ Filter drivers call the
 
 ## -parameters
 
-### -param NdisFilterHandle 
+### -param NdisFilterHandle [in]
 
-[in]
+
 The NDIS handle that identifies this filter module NDIS passed the handle to the filter driver in
      a call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param OidRequest 
+### -param OidRequest [in]
 
-[in]
+
 A pointer to a buffer that is formatted as an 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure. The filter
      driver obtained this pointer as an input parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request">
      FilterDirectOidRequest</a> function.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The final status of the request operation: NDIS_STATUS_SUCCESS or any driver-determined
      NDIS_STATUS_<i>Xxx</i> value except NDIS_STATUS_PENDING.
 

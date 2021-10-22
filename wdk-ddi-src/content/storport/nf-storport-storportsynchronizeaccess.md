@@ -50,19 +50,19 @@ The <b>StorPortSynchronizeAccess</b> routine provides synchronized access to a m
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
-### -param SynchronizedAccessRoutine 
+### -param SynchronizedAccessRoutine [in]
 
-[in]
+
 Pointer to a caller-supplied routine whose execution is to be synchronized with the execution of the ISR associated with the interrupt objects. For a prototype of this routine, see the Remarks section later in this topic.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Pointer to a context area to be passed to the caller-supplied callback routine when it is called.
 
 ## -returns

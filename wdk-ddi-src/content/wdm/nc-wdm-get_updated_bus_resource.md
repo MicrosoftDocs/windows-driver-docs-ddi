@@ -46,17 +46,17 @@ Reports the latest resource lists.
 
 ## -parameters
 
-### -param Context
+### -param Context [In]
 
-[In] A pointer to interface-specific context information. For this parameter, the caller supplies the value from the **Context** member of the [**BUS_RESOURCE_UPDATE_INTERFACE**](ns-wdm-_bus_resource_update_interface.md) structure for the interface.
+A pointer to interface-specific context information. For this parameter, the caller supplies the value from the **Context** member of the [**BUS_RESOURCE_UPDATE_INTERFACE**](ns-wdm-_bus_resource_update_interface.md) structure for the interface.
 
-### -param UpdatedResourceList
+### -param UpdatedResourceList [Out]
 
-[Out] A pointer to the resource list in [**CM_RESOURCE_LIST**](ns-wdm-_cm_resource_list.md) structures that the driver used to detect the device. Resources in this list are in raw, untranslated form.
+A pointer to the resource list in [**CM_RESOURCE_LIST**](ns-wdm-_cm_resource_list.md) structures that the driver used to detect the device. Resources in this list are in raw, untranslated form.
 
-### -param UpdatedTranslatedResourceList
+### -param UpdatedTranslatedResourceList [Out]
 
-[Out] A pointer to the resource list in [**CM_RESOURCE_LIST**](ns-wdm-_cm_resource_list.md) structures. Resources in this list are translated.
+A pointer to the resource list in [**CM_RESOURCE_LIST**](ns-wdm-_cm_resource_list.md) structures. Resources in this list are translated.
 
 ## -returns
 

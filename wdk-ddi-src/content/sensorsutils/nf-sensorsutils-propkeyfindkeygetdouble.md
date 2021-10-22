@@ -49,17 +49,17 @@ This routine gets a double precision floating point value from a PROPVARIANT wit
 
 ## -parameters
 
-### -param pList
+### -param pList [in]
 
-[in] Pointer to the list of PROPVARIANT collection.
+Pointer to the list of PROPVARIANT collection.
 
-### -param pKey
+### -param pKey [in]
 
-[in] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+Pointer to a PROPERTYKEY for the target PROPVARIANT.
 
-### -param pRetValue
+### -param pRetValue [out]
 
-[out] Pointer to a PROPERTYKEY for the target PROPVARIANT.
+Pointer to a PROPERTYKEY for the target PROPVARIANT.
 
 ## -returns
 

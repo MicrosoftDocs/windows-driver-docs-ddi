@@ -55,13 +55,13 @@ The <b>CsSetConstantBuffers</b> function sets constant buffers for a compute sha
 
 A handle to the display device (graphics context).
 
-### -param StartSlot
+### -param StartSlot [in]
 
-[in] The starting constant buffer to set.
+The starting constant buffer to set.
 
-### -param NumBuffers 
+### -param NumBuffers [in]
 
-[in] The total number of buffers to set.
+The total number of buffers to set.
 
 ### -param unnamedParam4
 

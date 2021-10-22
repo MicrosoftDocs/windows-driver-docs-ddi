@@ -49,14 +49,14 @@ The <code>SyncToMaster</code> method allows synchronization to the master clock 
 
 ## -parameters
 
-### -param rfTime 
+### -param rfTime [in]
 
-[in]
+
 Specifies the reference time from the master clock. Reference time is measured in 100-nanosecond units.
 
-### -param fStart 
+### -param fStart [in]
 
-[in]
+
 Specifies whether the sample clock is to be reset to zero with this reference time. If <b>TRUE</b>, the sample clock must be reset to zero at time <i>rtTime</i>. If <b>FALSE</b>, the sample clock is not reset.
 
 ## -returns

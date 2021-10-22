@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param InitiatingInstance 
+### -param InitiatingInstance [in]
 
-[in]
+
 Opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the file that the data is to be read from. This file object must be currently open. Calling <b>FltReadFile</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>.
 
-### -param ByteOffset 
+### -param ByteOffset [in, optional]
 
-[in, optional]
+
 Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the read operation is to begin. 
 
 If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag is specified in the <i>Flags</i> parameter, <b>FltReadFile</b> does not update the file object's <b>CurrentByteOffset</b> field. 
@@ -70,19 +70,19 @@ If the file object that <i>FileObject</i> points to was opened for synchronous I
 
 If the file object that <i>FileObject</i> points to was opened for asynchronous I/O, this parameter is required and cannot be <b>NULL</b>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives the data that is read from the file.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Bitmask of flags specifying the type of read operation to be performed. 
 
 <table>
@@ -135,19 +135,19 @@ This flag is available for Windows Vista and later versions of the Windows opera
 </tr>
 </table>
 
-### -param BytesRead 
+### -param BytesRead [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated variable that receives the number of bytes read from the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>.
 
-### -param CallbackRoutine 
+### -param CallbackRoutine [in, optional]
 
-[in, optional]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>.
 
-### -param CallbackContext 
+### -param CallbackContext [in, optional]
 
-[in, optional]
+
 Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored.
 
 ## -returns

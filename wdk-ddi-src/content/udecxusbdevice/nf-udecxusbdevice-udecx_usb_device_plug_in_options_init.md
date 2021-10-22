@@ -50,9 +50,9 @@ Initializes a <a href="/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbd
 
 ## -parameters
 
-### -param Options 
+### -param Options [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_usb_device_plug_in_options">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure to initialize.
 
 ## -remarks

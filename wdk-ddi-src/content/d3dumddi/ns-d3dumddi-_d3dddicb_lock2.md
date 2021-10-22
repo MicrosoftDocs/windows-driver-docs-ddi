@@ -52,17 +52,17 @@ api_name:
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A driver specified <b>D3DKMT_HANDLE</b> to the allocation to lock.
+A driver specified <b>D3DKMT_HANDLE</b> to the allocation to lock.
 
 ### -field Flags
 
 A set of flags to pass to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lock2flags">D3DDDICB_LOCK2FLAGS</a> for details.
 
-### -field pData
+### -field pData [out]
 
-[out] A CPU virtual address pointing a valid memory location pointing to the CPU backing store or the GPU frame buffer.
+A CPU virtual address pointing a valid memory location pointing to the CPU backing store or the GPU frame buffer.
 
 ## -see-also
 

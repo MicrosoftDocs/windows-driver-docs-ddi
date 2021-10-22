@@ -49,14 +49,14 @@ Subtracts one value of type <b>INT</b> from another.
 
 ## -parameters
 
-### -param iMinuend 
+### -param iMinuend [in]
 
-[in]
+
 The value from which <i>iSubtrahend</i> is subtracted.
 
-### -param iSubtrahend 
+### -param iSubtrahend [in]
 
-[in]
+
 The value to subtract from <i>iMinuend</i>.
 
 ### -param piResult

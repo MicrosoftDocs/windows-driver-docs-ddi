@@ -52,13 +52,13 @@ The D3DKMT_GETDEVICESCHEDULINGPRIORITY structure describes parameters for retrie
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context to retrieve scheduling priority for.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context to retrieve scheduling priority for.
 
-### -field Priority
+### -field Priority [out]
 
-[out] The priority level that is retrieved for the device context.
+The priority level that is retrieved for the device context.
 
 ## -see-also
 

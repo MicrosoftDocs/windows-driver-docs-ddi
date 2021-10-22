@@ -50,20 +50,20 @@ The
 
 ## -parameters
 
-### -param AddressWithinSection
+### -param AddressWithinSection [in]
 
-[in]
+
  A pointer to a valid data section belonging to a driver image. The data section should not be already executable, otherwise the API will fail with STATUS_INVALID_PAGE_PROTECTION. 
 
-### -param Size
+### -param Size [in]
 
-[in]
+
  This parameter is currently reserved for future usage and should be set to 0.
 
 
-### -param Flags
+### -param Flags [in]
 
-[in]
+
  Specify the flags which controls the operation: 
  MM_PROTECT_DRIVER_SECTION_ALLOW_UNLOAD – Used to specify that the driver can still be unloaded after the section has been protected. 
 

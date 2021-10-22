@@ -53,29 +53,29 @@ The <i>ReconstructStack</i> callback function queries dump stream provider on a 
 
 ## -parameters
 
-### -param SystemThreadId 
+### -param SystemThreadId [in]
 
-[in]
+
 A system thread ID.
 
-### -param NativeFrames 
+### -param NativeFrames [in]
 
-[in]
+
 Native frames.
 
-### -param CountNativeFrames 
+### -param CountNativeFrames [in]
 
-[in]
+
 Specifies the number of native frames.
 
-### -param StackSymFrames 
+### -param StackSymFrames [out]
 
-[out]
+
 A pointer to a symbol frames stack.
 
-### -param StackSymFramesFilled 
+### -param StackSymFramesFilled [out]
 
-[out]
+
 Symbol frames stack filled value.
 
 ## -returns

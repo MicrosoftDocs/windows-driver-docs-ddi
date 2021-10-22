@@ -50,9 +50,9 @@ Release the resources that were allocated by the  <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param Init 
+### -param Init [in]
 
-[in]
+
 A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 ## -see-also

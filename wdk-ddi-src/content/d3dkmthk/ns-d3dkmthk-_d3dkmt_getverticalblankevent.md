@@ -48,22 +48,22 @@ Used to get vertical blank events.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device.
+A handle to the device.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field phEvent
+### -field phEvent [in, out]
 
  
-[in, out] Pointer to an event handle.
+Pointer to an event handle.
 
 ## -remarks
 

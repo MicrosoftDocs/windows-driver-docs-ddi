@@ -50,14 +50,14 @@ The <b>SpbControllerSetRequestAttributes</b> method  sets object attributes that
 
 ## -parameters
 
-### -param FxDevice 
+### -param FxDevice [in]
 
-[in]
+
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
-### -param RequestAttributes 
+### -param RequestAttributes [in]
 
-[in]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the SPB controller's SPBREQUEST objects.
 
 ## -remarks

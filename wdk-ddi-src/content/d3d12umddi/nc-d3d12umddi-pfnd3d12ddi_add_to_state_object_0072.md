@@ -54,9 +54,9 @@ dev_langs:
 
 A handle to the display device (graphics context).
 
-### -param unnamedParam2
+### -param unnamedParam2 [in]
 
-[in] Pointer to a [**D3D12DDIARG_ADD_TO_STATE_OBJECT_0072**] structure containing subobject(s) to add to a state object.
+Pointer to a [**D3D12DDIARG_ADD_TO_STATE_OBJECT_0072**] structure containing subobject(s) to add to a state object.
 
 ### -param unnamedParam3
 

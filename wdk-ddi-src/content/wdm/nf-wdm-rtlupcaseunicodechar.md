@@ -50,9 +50,9 @@ The <b>RtlUpcaseUnicodeChar</b> routine converts the specified Unicode character
 
 ## -parameters
 
-### -param SourceCharacter 
+### -param SourceCharacter [in]
 
-[in]
+
 Specifies the character to convert.
 
 ## -returns

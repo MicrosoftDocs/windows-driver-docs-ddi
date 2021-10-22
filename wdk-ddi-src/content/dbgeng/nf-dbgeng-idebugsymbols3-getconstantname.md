@@ -49,34 +49,34 @@ The <b>GetConstantName</b>  method returns the name of the specified constant.
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module in which the constant was defined.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the constant.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value of the constant.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the constant's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
+
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the constant's name.
 
 ## -returns

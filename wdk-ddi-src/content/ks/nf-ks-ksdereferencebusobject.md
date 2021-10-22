@@ -50,9 +50,9 @@ Dereferences the bus Physical Device Object.
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b> that also contains the PnP device stack object.
 
 ## -returns

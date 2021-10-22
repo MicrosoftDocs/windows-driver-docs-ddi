@@ -49,19 +49,19 @@ Subtracts one value of type <b>INT_PTR</b> from another.
 
 ## -parameters
 
-### -param iMinuend 
+### -param iMinuend [in]
 
-[in]
+
 The value from which <i>iSubtrahend</i> is subtracted.
 
-### -param iSubtrahend 
+### -param iSubtrahend [in]
 
-[in]
+
 The value to subtract from <i>iMinuend</i>.
 
-### -param piResult 
+### -param piResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

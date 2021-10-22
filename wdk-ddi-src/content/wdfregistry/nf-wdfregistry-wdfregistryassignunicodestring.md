@@ -54,19 +54,19 @@ The <b>WdfRegistryAssignUnicodeString</b> method assigns a specified Unicode str
 
 ## -parameters
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 A handle to a registry-key object that represents an opened registry key.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 A pointer to a UNICODE_STRING structure that contains the string to be assigned to the value name that <i>ValueName</i> specifies.
 
 ## -returns

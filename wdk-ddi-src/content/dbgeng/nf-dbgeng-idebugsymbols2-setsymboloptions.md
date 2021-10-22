@@ -49,9 +49,9 @@ The <b>SetSymbolOptions</b> method changes the engine's global symbol options.
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the new symbol options.  <i>Options</i> is a bit-set; it will replace the existing symbol options.  For a description of the bit flags, see <a href="/windows-hardware/drivers/debugger/symbol-options">Setting Symbol Options</a>.
 
 ## -returns

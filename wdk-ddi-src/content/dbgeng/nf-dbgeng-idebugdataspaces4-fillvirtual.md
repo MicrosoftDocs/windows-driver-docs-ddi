@@ -49,29 +49,29 @@ The <b>FillVirtual</b> method writes a pattern of bytes to the target's virtual 
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the location in the target's virtual address space at which to start writing the pattern.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies how many bytes to write to the target's memory.
 
-### -param Pattern 
+### -param Pattern [in]
 
-[in]
+
 Specifies the memory location of the pattern.
 
-### -param PatternSize 
+### -param PatternSize [in]
 
-[in]
+
 Specifies the size in bytes of the pattern.
 
-### -param Filled 
+### -param Filled [out, optional]
 
-[out, optional]
+
 Receives the number of bytes written.  If it is set to <b>NULL</b>, this information isn't returned.
 
 ## -returns

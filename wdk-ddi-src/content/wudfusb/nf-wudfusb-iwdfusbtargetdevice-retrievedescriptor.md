@@ -51,33 +51,33 @@ The <b>RetrieveDescriptor</b> method retrieves a USB descriptor, which can descr
 
 ## -parameters
 
-### -param DescriptorType 
+### -param DescriptorType [in]
 
-[in]
+
 A value that specifies the type of descriptor to return. This parameter corresponds to the <b>bDescriptorType</b> field of a standard device descriptor, whose values are described in the <i>Universal Serial Bus</i> specification. (This resource may not be available in some languages 
 
 and countries.) Some of these values are listed in the description of the DescriptorType member of the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of the descriptor, according to the <i>Universal Serial Bus</i> specification. (This resource may not be available in some languages 
 
 and countries.)
 
-### -param LanguageID 
+### -param LanguageID [in]
 
-[in]
+
 The identifier of the language, if the UMDF driver requests a string descriptor; otherwise, this parameter is zero.
 
-### -param BufferLength 
+### -param BufferLength [in, out]
 
-[in, out]
+
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that the <i>Buffer</i> points to. If the operation succeeds, the variable receives the number of bytes that the framework copied into the buffer.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a caller-supplied buffer that receives the USB descriptor. The type of buffer should match the value specified in <i>DescriptorType</i>.
 
 ## -returns

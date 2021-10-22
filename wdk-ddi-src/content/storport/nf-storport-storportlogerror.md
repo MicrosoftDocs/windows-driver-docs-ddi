@@ -50,34 +50,34 @@ The <b>StorPortLogError</b> routine notifies the port driver that an error occur
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
-### -param Srb 
+### -param Srb [in, optional]
 
-[in, optional]
+
 Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
 
-### -param PathId 
+### -param PathId [in]
 
-[in]
+
 Identifies the SCSI bus.
 
-### -param TargetId 
+### -param TargetId [in]
 
-[in]
+
 Identifies the target controller or device on the bus.
 
-### -param Lun 
+### -param Lun [in]
 
-[in]
+
 Identifies the logical unit number of the target device.
 
-### -param ErrorCode 
+### -param ErrorCode [in]
 
-[in]
+
 Specifies an error code indicating one of the following values as the type of error.
 
 <table>
@@ -187,9 +187,9 @@ Indicates that a target disconnected unexpectedly.
 </tr>
 </table>
 
-### -param UniqueId 
+### -param UniqueId [in]
 
-[in]
+
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i> value. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
 
 ## -returns

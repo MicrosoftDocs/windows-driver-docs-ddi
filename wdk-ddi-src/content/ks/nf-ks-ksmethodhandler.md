@@ -50,19 +50,19 @@ The <b>KsMethodHandler</b> function handles methods requested through IOCTL_KS_M
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP with the method request being handled.
 
-### -param MethodSetsCount 
+### -param MethodSetsCount [in]
 
-[in]
+
 Indicates the number of method set structures being passed.
 
-### -param MethodSet 
+### -param MethodSet [in]
 
-[in]
+
 Specifies the pointer to the list of method set information.
 
 ## -returns

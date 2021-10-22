@@ -45,21 +45,21 @@ Flushes the TLB for all entries that match the specified domain's ASID and one o
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param LastLevel
+### -param LastLevel [_In_]
 
-[_In_] A boolean value that indicates whether only entries pertaining to the last level of translation require flushing.
+A boolean value that indicates whether only entries pertaining to the last level of translation require flushing.
 
-### -param Number
+### -param Number [_In_]
 
-[_In_] The number of entries in the VA list.
+The number of entries in the VA list.
 
-### -param VaList 
+### -param VaList [_In_]
 
-[_In_] A pointer to a list of flush addresses.
+A pointer to a list of flush addresses.
 
 ## -returns
 

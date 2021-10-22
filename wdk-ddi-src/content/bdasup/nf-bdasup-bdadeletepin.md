@@ -50,14 +50,14 @@ The <b>BdaDeletePin</b> function deletes a pin from the specified filter.
 
 ## -parameters
 
-### -param pKSFilter 
+### -param pKSFilter [in]
 
-[in]
+
 Points to the filter in which to delete a pin.
 
-### -param pulPinId 
+### -param pulPinId [out, optional]
 
-[out, optional]
+
 Points to a variable that contains the identifier for the pin to delete.
 
 ## -returns

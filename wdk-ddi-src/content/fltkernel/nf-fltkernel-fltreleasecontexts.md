@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param Contexts
+### -param Contexts [in]
 
-[in] Pointer to the [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure.
+Pointer to the [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure.
 
 ## -returns
 

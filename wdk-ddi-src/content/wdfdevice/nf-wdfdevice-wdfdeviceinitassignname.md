@@ -52,14 +52,14 @@ The <b>WdfDeviceInitAssignName</b> method assigns a device name to a device's de
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param DeviceName 
+### -param DeviceName [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that represents the device name.
 
 ## -returns

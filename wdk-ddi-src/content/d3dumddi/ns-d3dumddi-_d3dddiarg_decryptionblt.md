@@ -52,41 +52,41 @@ The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of an decrypted b
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] A handle to the encryption session.
+A handle to the encryption session.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source resource.
+A handle to the source resource.
 
-### -field SrcSubResourceIndex
+### -field SrcSubResourceIndex [in]
 
-[in] The index to the source surface within the resource.
+The index to the source surface within the resource.
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination resource.
+A handle to the destination resource.
 
-### -field DstSubResourceIndex
+### -field DstSubResourceIndex [in]
 
-[in] The index to the destination surface within the resource.
+The index to the destination surface within the resource.
 
-### -field SrcResourceSize
+### -field SrcResourceSize [in]
 
-[in] The size, in bytes, of the source resource.
+The size, in bytes, of the source resource.
 
-### -field pEncryptedBlockInfo
+### -field pEncryptedBlockInfo [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiencrypted_block_info">D3DDDIENCRYPTED_BLOCK_INFO</a> structure that describes the portions of the buffer that are encrypted.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiencrypted_block_info">D3DDDIENCRYPTED_BLOCK_INFO</a> structure that describes the portions of the buffer that are encrypted.
 
-### -field pContentKey
+### -field pContentKey [in]
 
-[in] A pointer to a block of memory that contains the content key that is required to decrypt the bitblt data. If <b>pContentKey</b> is <b>NULL</b>, hardware does not require a separate content key to decrypt the data. That is, the session key is used to encrypt the data.
+A pointer to a block of memory that contains the content key that is required to decrypt the bitblt data. If <b>pContentKey</b> is <b>NULL</b>, hardware does not require a separate content key to decrypt the data. That is, the session key is used to encrypt the data.
 
-### -field pIV
+### -field pIV [in]
 
-[in] A pointer to a block of memory that contains the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate initialization vector to decrypt the data. That is, the session key is used to encrypt the data.
+A pointer to a block of memory that contains the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate initialization vector to decrypt the data. That is, the session key is used to encrypt the data.
 
 ## -remarks
 

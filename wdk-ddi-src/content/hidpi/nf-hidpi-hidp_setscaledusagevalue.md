@@ -50,44 +50,44 @@ The <b>HidP_SetScaledUsageValue</b> routine converts a signed and scaled physica
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
-### -param UsagePage 
+### -param UsagePage [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> of a usage.
 
-### -param LinkCollection 
+### -param LinkCollection [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usage. If <i>LinkCollection</i> is nonzero, the routine only sets the usage, if one exists, in this link collection. If <i>LinkCollection</i> is zero, the routine sets the first usage it finds in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
-### -param Usage 
+### -param Usage [in]
 
-[in]
+
 Specifies the usage.
 
-### -param UsageValue 
+### -param UsageValue [in]
 
-[in]
+
 Specifies the signed and scaled physical number, which the routine converts to the usage's logical value.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to a top-level's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-### -param Report 
+### -param Report [in, out]
 
-[in, out]
+
 Pointer to a HID report.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
 
 ## -returns

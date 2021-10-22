@@ -52,29 +52,29 @@ The D3DDDIARG_VOLUMEBLT structure describes parameters for a volume bit-block tr
 
 ## -struct-fields
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination surface.
+A handle to the destination surface.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source surface.
+A handle to the source surface.
 
-### -field DstX
+### -field DstX [in]
 
-[in] The width, in screen coordinates, of the destination volume in which the source volume is copied.
+The width, in screen coordinates, of the destination volume in which the source volume is copied.
 
-### -field DstY
+### -field DstY [in]
 
-[in] The height, in screen coordinates, of the destination volume in which the source volume is copied.
+The height, in screen coordinates, of the destination volume in which the source volume is copied.
 
-### -field DstZ
+### -field DstZ [in]
 
-[in] The depth, in screen coordinates, of the destination volume in which the source volume is copied.
+The depth, in screen coordinates, of the destination volume in which the source volume is copied.
 
-### -field SrcBox
+### -field SrcBox [in]
 
-[in] A D3DDDIBOX structure that describes the source volume texture to copy to the destination.
+A D3DDDIBOX structure that describes the source volume texture to copy to the destination.
 
 ## -see-also
 

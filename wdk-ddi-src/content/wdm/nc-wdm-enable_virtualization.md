@@ -49,34 +49,34 @@ The [EnableVirtualization]() routine enables or disables virtualization for a PC
 
 ## -parameters
 
-### -param Context
+### -param Context [in, out]
 
-[in, out] A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
 
-### -param NumVFs
+### -param NumVFs [in]
 
-[in] The number of PCIe virtual functions (VFs) that are to be enabled for the device. The [EnableVirtualization]() routine sets the **NumVFs** member of the PCIe SR-IOV Extended Capability structure to the value of the *NumVFs* parameter.
+The number of PCIe virtual functions (VFs) that are to be enabled for the device. The [EnableVirtualization]() routine sets the **NumVFs** member of the PCIe SR-IOV Extended Capability structure to the value of the *NumVFs* parameter.
 
 > [!NOTE]
 > If the *EnableVirtualization* parameter is **FALSE**, the *NumVFs* parameter must be set to zero.
 
-### -param EnableVfMigration
+### -param EnableVfMigration [in]
 
-[in] A BOOLEAN value that indicates whether the multi-root I/O virtualization (MR-IOV) base function (BF) can dynamically reprovision the PCIe physical function (PF) of the device   as a VF at run time.
+A BOOLEAN value that indicates whether the multi-root I/O virtualization (MR-IOV) base function (BF) can dynamically reprovision the PCIe physical function (PF) of the device   as a VF at run time.
 
 > [!NOTE]
 > This parameter is only applicable to devices that support both the SR-IOV and MR-IOV interfaces. The driver must set this parameter to **FALSE** if the device supports only the SR-IOV interface and not the MR-IOV interface.
 
-### -param EnableMigrationInterrupt
+### -param EnableMigrationInterrupt [in]
 
-[in] A BOOLEAN value that indicates whether the interrupt associated with the PF should be masked or unmasked during VF migration.
+A BOOLEAN value that indicates whether the interrupt associated with the PF should be masked or unmasked during VF migration.
 
 > [!NOTE]
 > If the *EnableVfMigration* parameters is **FALSE**, the driver must also set this parameter to **FALSE**.
 
-### -param EnableVirtualization
+### -param EnableVirtualization [in]
 
-[in] A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the *EnableVirtualization* parameter is **TRUE**, the [EnableVirtualization]() routine sets the VF Enable bit of the PCIe SR-IOV Control field. The *EnableVirtualization* routine clears this bit if the *EnableVirtualization* parameter is **FALSE**.
+A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the *EnableVirtualization* parameter is **TRUE**, the [EnableVirtualization]() routine sets the VF Enable bit of the PCIe SR-IOV Control field. The *EnableVirtualization* routine clears this bit if the *EnableVirtualization* parameter is **FALSE**.
 
 ## -returns
 

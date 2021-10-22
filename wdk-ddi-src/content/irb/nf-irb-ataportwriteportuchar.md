@@ -53,14 +53,14 @@ The <b>AtaPortWritePortUchar</b> routine transfers an unsigned byte to the HBA.
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value to write to the HBA's I/O port
 
 ## -see-also

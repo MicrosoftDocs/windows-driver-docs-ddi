@@ -49,9 +49,9 @@ The <b>PCMCIA_IS_WRITE_PROTECTED</b> interface routine returns the write-protect
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Pointer to the context for the interface routine.
 
 ## -returns

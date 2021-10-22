@@ -49,19 +49,19 @@ Subtracts one value of type <b>SIZE_T</b> from another.
 
 ## -parameters
 
-### -param Minuend 
+### -param Minuend [in]
 
-[in]
+
 The value from which <i>Subtrahend</i> is subtracted.
 
-### -param Subtrahend 
+### -param Subtrahend [in]
 
-[in]
+
 The value to subtract from <i>Minuend</i>.
 
-### -param pResult 
+### -param pResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

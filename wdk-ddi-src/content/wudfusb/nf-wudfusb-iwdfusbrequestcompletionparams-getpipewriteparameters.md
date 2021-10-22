@@ -51,19 +51,19 @@ The <b>GetPipeWriteParameters</b> method retrieves parameters that are associate
 
 ## -parameters
 
-### -param ppWriteMemory 
+### -param ppWriteMemory [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface, for access to the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
-### -param pBytesWritten 
+### -param pBytesWritten [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the size, in bytes, of the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
-### -param pWriteMemoryOffset 
+### -param pWriteMemoryOffset [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the offset, in bytes, into the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
 ## -see-also

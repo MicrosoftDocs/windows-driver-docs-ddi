@@ -50,9 +50,9 @@ The
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -60,16 +60,16 @@ A pointer to a
      <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
-### -param AddressFamily 
+### -param AddressFamily [in]
 
-[in]
+
 The address family for the socket that is being created. For more information about supported
      address families, see 
      <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
-### -param SocketType 
+### -param SocketType [in]
 
-[in]
+
 The type of socket that is being created. The following socket types are supported:
      
 
@@ -96,16 +96,16 @@ Supports raw access to the transport protocol.
 For more information about the socket types that are supported for each supported address family, see     
      <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
-### -param Protocol 
+### -param Protocol [in]
 
-[in]
+
 The transport protocol for the socket that is being created. For more information about the
      protocols that are supported for each supported address family, see 
      <a href="/windows-hardware/drivers/network/ws2def-h">WSK Address Families</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A flag that specifies the WSK 
      <a href="/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> for the
      socket that is being created. This parameter can be one of the following flags:
@@ -149,18 +149,18 @@ A stream socket will be created that can either be used to listen for incoming c
 If a WSK application does not specify any of the preceding flags, 
      <b>WskSocket</b> creates a basic socket.
 
-### -param SocketContext 
+### -param SocketContext [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied context for the socket that is being created. The WSK subsystem
      passes this pointer to the socket's event callback functions. The context information is opaque to the
      WSK subsystem and must be stored in non-paged memory. If the WSK application will not be enabling any
      event callback functions on the new socket, it should set this pointer to <b>NULL</b>. For a basic socket, this
      pointer should always be <b>NULL</b>.
 
-### -param Dispatch 
+### -param Dispatch [in, optional]
 
-[in, optional]
+
 A pointer to a constant client dispatch structure. This structure is a dispatch table that
      contains pointers to the event callback functions for the new socket. Depending on the WSK 
      <a href="/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the socket
@@ -232,25 +232,25 @@ If the WSK application will not be enabling all of the event callback functions 
      it should set the 
      <i>Dispatch</i> pointer to <b>NULL</b>. For a basic socket, this pointer should always be <b>NULL</b>.
 
-### -param OwningProcess 
+### -param OwningProcess [in, optional]
 
-[in, optional]
+
 A pointer to the process from which the WSK subsystem will retrieve the security context to use
      when it binds the socket. The WSK subsystem uses the security context to determine whether the local
      transport address can be shared if that address is already in use. To specify the current process, a WSK
      application sets this pointer to <b>NULL</b>.
 
-### -param OwningThread 
+### -param OwningThread [in, optional]
 
-[in, optional]
+
 A pointer to a specific thread from which the WSK subsystem will retrieve the security context to
      use when it binds the socket. The WSK subsystem uses the security context to determine whether the local
      transport address can be shared if that address is already in use. If a WSK application does not need to
      specify a specific thread, it sets this pointer to <b>NULL</b>.
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in, optional]
 
-[in, optional]
+
 A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descriptor to apply to
      the socket that is being created. The security descriptor controls the sharing of the local transport
      address to which the socket is bound. If a WSK application specifies a non-<b>NULL</b> pointer, it must specify
@@ -265,9 +265,9 @@ A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descrip
 For more information about the SECURITY_DESCRIPTOR structure, see the reference page for
      SECURITY_DESCRIPTOR in the Microsoft Windows SDK documentation.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the creation of the
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

@@ -52,25 +52,25 @@ The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the 
 
 ## -struct-fields
 
-### -field hSource
+### -field hSource [in]
 
-[in] A handle to the source allocation to be displayed.
+A handle to the source allocation to be displayed.
 
-### -field SrcPhysicalAddress
+### -field SrcPhysicalAddress [in]
 
-[in] The physical address, within the segment that <b>SrcSegmentId</b> specifies, of the allocation to be displayed.
+The physical address, within the segment that <b>SrcSegmentId</b> specifies, of the allocation to be displayed.
 
-### -field SrcSegmentId
+### -field SrcSegmentId [in]
 
-[in] The identifier of a segment in which the allocation is currently paged.
+The identifier of a segment in which the allocation is currently paged.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver.
+A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 ## -see-also
 

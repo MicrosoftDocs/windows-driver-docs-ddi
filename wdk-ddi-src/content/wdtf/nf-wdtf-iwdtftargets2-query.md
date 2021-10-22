@@ -49,14 +49,14 @@ Returns a subset of the items in the collection.
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 The SDEL query string.
 
-### -param ppTargets 
+### -param ppTargets [out, retval]
 
-[out, retval]
+
 The collection of items.
 
 ## -returns

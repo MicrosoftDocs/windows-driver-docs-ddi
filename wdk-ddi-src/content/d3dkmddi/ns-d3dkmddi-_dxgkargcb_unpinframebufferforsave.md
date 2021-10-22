@@ -8,7 +8,7 @@ ms.keywords: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE, DXGKARGCB_UNPINFRAMEBUFFERFORSA
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,9 +46,9 @@ The **DXGKARGCB_UNPINFRAMEBUFFERFORSAVE** structure contains the arguments used 
 
 ## -struct-fields
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The index of the physical adapter.
+The index of the physical adapter.
 
 ## -remarks
 

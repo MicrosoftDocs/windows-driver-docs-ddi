@@ -48,13 +48,13 @@ Before the driver is unloaded, it must call the DXGKDDI_SAVEMEMORYFORHOTUPDATE c
 
 ## -parameters
 
-### -param hContext
+### -param hContext [in]
 
-[in] A handle to the miniport context that is returned by the driver in DXGKDDI_DRIVERHOTUPDATE_INTERFACE.
+A handle to the miniport context that is returned by the driver in DXGKDDI_DRIVERHOTUPDATE_INTERFACE.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] A pointer to a [PDXGKARG_SAVEMEMORYFORHOTUPDATE](ns-d3dkmddi-dxgkarg_savememoryforhotupdate.md) structure.
+A pointer to a [PDXGKARG_SAVEMEMORYFORHOTUPDATE](ns-d3dkmddi-dxgkarg_savememoryforhotupdate.md) structure.
 
 ## -returns
 

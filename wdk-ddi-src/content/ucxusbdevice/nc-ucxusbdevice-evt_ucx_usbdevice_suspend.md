@@ -49,14 +49,14 @@ UCX invokes this callback function to send a device suspend state.
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param UcxUsbDevice 
+### -param UcxUsbDevice [in]
 
-[in]
+
 A handle to a UCX object that represents the USB device that the client driver received in a previous call to the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
 
 ## -remarks

@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_UNMAPPHYSICALMEMORY
 tech.root: display
 title: DXGKCB_UNMAPPHYSICALMEMORY
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: The DxgkCbUnmapPhysicalMemory callback function unmaps a CPU-visible virtual address from the underlying physical memory.
 req.assembly: 
@@ -12,14 +12,14 @@ req.dll:
 req.header: d3dkmddi.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -41,32 +41,22 @@ dev_langs:
 
 ## -description
 
-The **DxgkCbUnmapPhysicalMemory** callback function unmaps a CPU-visible virtual address from the underlying physical memory.
+**DXGKCB_UNMAPPHYSICALMEMORY** unmaps a CPU-visible virtual address from the underlying physical memory.
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in]
 
 Pointer to a [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_physical_memory.md) structure that contains information about the physical memory object from which the CPU-visible address is being unmapped.
 
-## -prototype
+## -remarks
 
-```cpp
-//Declaration
-
-DXGKCB_UNMAPPHYSICALMEMORY DxgkCbUnmapPhysicalMemory;
-
-// Definition
-VOID
-DxgkCbUnmapPhysicalMemory(
-    DXGKARGCB_UNMAP_PHYSICAL_MEMORY *Args
-    );
-{...}
-
-```
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_physical_memory.md) and then call **DxgkCbUnmapPhysicalMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
 [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_physical_memory.md)
 
-[**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md)
+[**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md)
+
+[**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

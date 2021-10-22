@@ -50,17 +50,17 @@ api_name:
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 Specifies the handle to the VC for which the client wants to modify the QoS. The client originally
      obtained this handle by calling 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, and, more recently,
      retrieved this handle from its per-VC state area.
 
-### -param CallParameters 
+### -param CallParameters [in]
 
-[in]
+
 Pointer to a structure of type CO_CALL_PARAMETERS that specifies the new QoS requested by the
      caller.
 

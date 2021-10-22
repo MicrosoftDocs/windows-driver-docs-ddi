@@ -49,26 +49,26 @@ The <b>WheaFindErrorRecordSection</b> function searches for a specified Windows 
 
 ## -parameters
 
-### -param Record 
+### -param Record [in]
 
-[in]
+
 A pointer to a WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
 
-### -param SectionType 
+### -param SectionType [in]
 
-[in]
+
 A GUID that specifies the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure to be located within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>.
 
-### -param SectionDescriptor 
+### -param SectionDescriptor [out]
 
-[out]
+
 The address of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> pointer. 
 
 If the <b>WheaFindErrorRecordSection</b> function locates the specified WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure, the function sets the <i>SectionDescriptor </i>parameter to the address of that structure within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>.
 
-### -param SectionData 
+### -param SectionData [out, optional]
 
-[out, optional]
+
 The address of a PVOID pointer.
 
 If the <b>WheaFindErrorRecordSection</b> function locates the specified <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure, the function sets the <i>SectionData</i> parameter to the address of the hardware error data associated with that descriptor within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>.

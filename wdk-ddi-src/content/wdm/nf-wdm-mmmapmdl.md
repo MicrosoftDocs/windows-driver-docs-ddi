@@ -50,24 +50,24 @@ This function maps physical pages described by a memory descriptor
 
 ## -parameters
 
-### -param MemoryDescriptorList 
+### -param MemoryDescriptorList [in]
 
-[in]
+
 A pointer to a valid MDL.
 
-### -param Protection 
+### -param Protection [in]
 
-[in]
+
 A bitwise of flags that indicates the protection to set for the pages. Possible values are PAGE_Xxx constants defined in Wdm.h.
 
-### -param DriverRoutine 
+### -param DriverRoutine [in]
 
-[in]
+
  A pointer to a driver-supplied callback routine (<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-mm_mdl_routine">MM_MDL_ROUTINE</a>) that is invoked after the MDL is mapped.
 
-### -param DriverContext 
+### -param DriverContext [in]
 
-[in]
+
 A pointer to a driver-defined context. The driver's callback function can store any status information  in the driver context and then examine the value, when the callback is invoked.
 
 ## -returns

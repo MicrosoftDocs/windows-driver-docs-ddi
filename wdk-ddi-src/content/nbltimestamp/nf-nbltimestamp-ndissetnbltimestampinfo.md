@@ -49,14 +49,14 @@ Miniport drivers call **NdisSetNblTimestampInfo** to store a hardware or softwar
 
 ## -parameters
 
-### -param Nbl
+### -param Nbl [_Inout_]
 
-[_Inout_]
+
 A pointer to a **NET_BUFFER_LIST** structure.
 
-### -param NblTimestamp
+### -param NblTimestamp [_In_]
 
-[_In_]
+
 A pointer to an initialized [**NET_BUFFER_LIST_TIMESTAMP**](ns-nbltimestamp-net_buffer_list_timestamp.md) structure.
 
 ## -remarks

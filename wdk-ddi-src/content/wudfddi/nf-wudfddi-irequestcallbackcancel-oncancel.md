@@ -51,9 +51,9 @@ The <b>OnCancel</b> method is called when an application cancels an I/O operatio
 
 ## -parameters
 
-### -param pWdfRequest 
+### -param pWdfRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object to cancel.
 
 ## -remarks

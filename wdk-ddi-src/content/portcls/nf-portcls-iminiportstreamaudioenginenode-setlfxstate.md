@@ -49,9 +49,9 @@ Sets the state of the local effects (LFX) node that is in the path of the audio 
 
 ## -parameters
 
-### -param bEnable 
+### -param bEnable [in]
 
-[in]
+
 The state to which the LFX node will be set.
 
 ## -returns

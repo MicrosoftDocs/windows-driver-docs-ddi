@@ -52,38 +52,38 @@ The <b>FsRtlFindInTunnelCache</b> routine searches for a matching entry in the t
 
 ## -parameters
 
-### -param Cache 
+### -param Cache [in]
 
-[in]
+
 Pointer to a tunnel cache initialized by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache">FsRtlInitializeTunnelCache</a>.
 
 ### -param DirectoryKey
 
 <p>Key value of the directory containing the file that is being created or renamed.</p>
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 Pointer to a Unicode string containing the new name for the file that is being renamed or created.
 
-### -param ShortName 
+### -param ShortName [out]
 
-[out]
+
 Pointer to a caller-allocated Unicode string to receive the short name of the tunneled file. This string must be long enough to hold a full 8.3 file name. (Unlike <i>LongName</i>, <i>ShortName</i> is not grown dynamically.)
 
-### -param LongName 
+### -param LongName [out]
 
-[out]
+
 Pointer to a caller-allocated Unicode string to receive the long name of the tunneled file. If this string is not large enough to hold the tunneled name, <b>FsRtlFindInTunnelCache</b> replaces it with a larger system-allocated string. If such a string is allocated, the caller is responsible for detecting this case and freeing the new system-allocated string as well as the original caller-allocated string.
 
-### -param DataLength 
+### -param DataLength [in, out]
 
-[in, out]
+
 On input, this is a pointer to a variable that specifies the length of the buffer pointed to by <i>Data</i>. On output, the same variable receives the length in bytes of the data written to the buffer.
 
-### -param Data 
+### -param Data [out]
 
-[out]
+
 Pointer to a caller-allocated buffer to receive the data found in the tunnel cache.
 
 ## -returns

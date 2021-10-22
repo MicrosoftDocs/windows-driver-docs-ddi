@@ -51,15 +51,15 @@ The D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is use
 
 ### -field FirstElement
 
-### -field ElementOffset
+### -field ElementOffset [in]
 
-[in] The offset (that is, the number of elements) between the beginning of the buffer and the first element that is to be used in the view, starting at 0.
+The offset (that is, the number of elements) between the beginning of the buffer and the first element that is to be used in the view, starting at 0.
 
 ### -field NumElements
 
-### -field ElementWidth
+### -field ElementWidth [in]
 
-[in] The number of elements in the view.
+The number of elements in the view.
 
 ## -see-also
 

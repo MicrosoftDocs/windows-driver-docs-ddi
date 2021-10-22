@@ -52,14 +52,14 @@ on a network device and allows the driver to do additional work. This callback i
 
 ## -parameters
 
-### -param device 
+### -param device [in]
 
-[in]
+
 A handle to a framework device object that represents the device.
 
-### -param deviceInterfaceTag 
+### -param deviceInterfaceTag [in]
 
-[in]
+
 An identifier used to specify which interface is being retained in a multi-function device.  For a single-interface device, this value should be 0.
 
 ## -returns

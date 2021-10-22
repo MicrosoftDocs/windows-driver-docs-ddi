@@ -68,9 +68,9 @@ A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_monitor_con
 
 A handle to the primary allocation associated with the video present source identified by <i>AffectedVidPnSourceId</i>.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_commitvidpn_flags">DXGKARG_COMMITVIDPN_FLAGS</a> structure that identifies details about a call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a> function.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_commitvidpn_flags">DXGKARG_COMMITVIDPN_FLAGS</a> structure that identifies details about a call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a> function.
 
 ## -remarks
 

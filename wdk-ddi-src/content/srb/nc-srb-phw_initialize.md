@@ -50,9 +50,9 @@ The PHW_INITIALIZE routine prototype declares a routine that initializes the min
 
 ## -parameters
 
-### -param DeviceExtension 
+### -param DeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's per-HBA storage area.
 
 ## -returns

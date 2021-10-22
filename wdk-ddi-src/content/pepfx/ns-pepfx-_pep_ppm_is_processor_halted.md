@@ -55,9 +55,9 @@ The <b>PEP_PPM_IS_PROCESSOR_HALTED</b> structure indicates whether the processor
 
 ## -struct-fields
 
-### -field Halted
+### -field Halted [out]
 
-[out] Whether the processor is halted. Set to <b>TRUE</b> if the processor is halted, or to <b>FALSE</b> if it is not halted.
+Whether the processor is halted. Set to <b>TRUE</b> if the processor is halted, or to <b>FALSE</b> if it is not halted.
 
 ## -remarks
 

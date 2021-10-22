@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
 
-### -param Config 
 
-[in]
+### -param Config [in]
 
-### -param QueueAttributes 
 
-[in, optional]
 
-### -param Queue 
+### -param QueueAttributes [in, optional]
 
-[out, optional]
+
+
+### -param Queue [out, optional]
+
+
 

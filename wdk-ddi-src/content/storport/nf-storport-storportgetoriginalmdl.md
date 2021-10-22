@@ -49,19 +49,19 @@ The <b>StorPortGetOriginalMdl</b> routine returns the MDL associated with the gi
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Srb 
+### -param Srb [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> structure.
 
-### -param Mdl 
+### -param Mdl [out]
 
-[out]
+
 A pointer to receive the MDL.
 
 ## -returns

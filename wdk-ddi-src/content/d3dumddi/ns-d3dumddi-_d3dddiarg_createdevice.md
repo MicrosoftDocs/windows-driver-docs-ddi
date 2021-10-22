@@ -52,55 +52,55 @@ The D3DDDIARG_CREATEDEVICE structure contains information that describes the dis
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in/out]
 
-[in/out] A handle to the display device (graphics context). On input to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> function, <b>hDevice</b> specifies the handle that the driver should use when it calls back into the Microsoft Direct3D runtime. 
+A handle to the display device (graphics context). On input to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> function, <b>hDevice</b> specifies the handle that the driver should use when it calls back into the Microsoft Direct3D runtime. 
 
 The driver generates a unique handle and passes it back to the Direct3D runtime. On output from the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> function, <b>hDevice</b> specifies the handle that the Direct3D runtime uses in subsequent driver calls to identify the display device.
 
-### -field Interface
+### -field Interface [in]
 
-[in] The Direct3D/DirectDraw interface version (for example, 7, 8, or 9) that creates the device.
+The Direct3D/DirectDraw interface version (for example, 7, 8, or 9) that creates the device.
 
-### -field Version
+### -field Version [in]
 
-[in] A number that the driver can use to identify when the Direct3D/DirectDraw runtime was built. For example, the driver can use the version number to differentiate between a runtime that is released with Windows Vista and a runtime that is released with a subsequent service pack, which might contain a fix that the driver requires.
+A number that the driver can use to identify when the Direct3D/DirectDraw runtime was built. For example, the driver can use the version number to differentiate between a runtime that is released with Windows Vista and a runtime that is released with a subsequent service pack, which might contain a fix that the driver requires.
 
-### -field pCallbacks
+### -field pCallbacks [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use.
 
-### -field pCommandBuffer
+### -field pCommandBuffer [in]
 
-[in] Obsolete. To receive a pointer to the first buffer that the user-mode display driver can use to batch commands, the driver must first call the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function to create a context for the newly created device.
+Obsolete. To receive a pointer to the first buffer that the user-mode display driver can use to batch commands, the driver must first call the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function to create a context for the newly created device.
 
-### -field CommandBufferSize
+### -field CommandBufferSize [in]
 
-[in] Obsolete.
+Obsolete.
 
-### -field pAllocationList
+### -field pAllocationList [in]
 
-[in] Obsolete. To receive an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a> structures for the starting allocation list, the driver must first call the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function to create a context for the newly created device.
+Obsolete. To receive an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a> structures for the starting allocation list, the driver must first call the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function to create a context for the newly created device.
 
-### -field AllocationListSize
+### -field AllocationListSize [in]
 
-[in] Obsolete.
+Obsolete.
 
-### -field pPatchLocationList
+### -field pPatchLocationList [in]
 
-[in] Obsolete. To receive an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures for the starting patch-location list, the driver must first call the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function to create a context for the newly created device.
+Obsolete. To receive an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures for the starting patch-location list, the driver must first call the <a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function to create a context for the newly created device.
 
-### -field PatchLocationListSize
+### -field PatchLocationListSize [in]
 
-[in] Obsolete.
+Obsolete.
 
 ### -field pDeviceFuncs
 
       [out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_createdeviceflags">D3DDDI_CREATEDEVICEFLAGS</a> structure that identifies how to create the device.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_createdeviceflags">D3DDDI_CREATEDEVICEFLAGS</a> structure that identifies how to create the device.
 
 ### -field CommandBuffer
 

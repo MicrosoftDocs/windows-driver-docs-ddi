@@ -49,39 +49,39 @@ The <i>NdkRead</i> (<i>NDK_FN_READ</i>) function posts a read request on an NDK 
 
 ## -parameters
 
-### -param pNdkQp 
+### -param pNdkQp [in]
 
-[in]
+
 A pointer to an NDK queue pair (QP) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value to be returned in the <b>RequestContext</b> member of the <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
 ### -param NDK_SGE
 
 An array of SGE structures (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>) that represent the buffers to place incoming data into.
 
-### -param nSge 
+### -param nSge [in]
 
-[in]
+
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
-### -param RemoteAddress 
+### -param RemoteAddress [in]
 
-[in]
+
 A remote address to read from that is presented in the local host's byte order. The NDK consumer can   add  an offset  to the remotely-provided value.
 
-### -param RemoteToken 
+### -param RemoteToken [in]
 
-[in]
+
 A remotely-provided memory token that  is an opaque array of bytes from the NDK consumer.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>

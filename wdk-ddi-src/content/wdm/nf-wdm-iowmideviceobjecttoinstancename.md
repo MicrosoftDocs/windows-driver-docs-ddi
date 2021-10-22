@@ -49,19 +49,19 @@ The <b>IoWMIDeviceObjectToInstanceName</b> routine determines the instance name 
 
 ## -parameters
 
-### -param DataBlockObject 
+### -param DataBlockObject [in]
 
-[in]
+
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies a device object. The routine returns the instance name for the driver corresponding to the device object.
 
-### -param InstanceName 
+### -param InstanceName [out]
 
-[out]
+
 Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that the routine uses to return the instance name. The caller frees the returned buffer within <b>UNICODE_STRING</b>.
 
 ## -returns

@@ -49,14 +49,14 @@ Informs UFX that the client driver has completed processing a UFX callback funct
 
 ## -parameters
 
-### -param UfxDevice 
+### -param UfxDevice [in]
 
-[in]
+
 A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Status of the event being completed.
 
 ## -remarks

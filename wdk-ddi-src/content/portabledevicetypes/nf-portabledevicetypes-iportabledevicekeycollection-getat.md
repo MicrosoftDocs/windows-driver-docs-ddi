@@ -50,14 +50,14 @@ Retrieves a <b>PROPERTYKEY</b> from the collection by index.
 
 ## -parameters
 
-### -param dwIndex 
+### -param dwIndex [in]
 
-[in]
+
 <b>DWORD</b> that contains the zero-based index of the key to be retrieved.
 
-### -param pKey 
+### -param pKey [out]
 
-[out]
+
 Pointer to a <b>PROPERTYKEY</b>.
 
 ## -returns

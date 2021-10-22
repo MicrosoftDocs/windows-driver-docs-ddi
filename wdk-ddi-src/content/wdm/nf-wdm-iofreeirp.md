@@ -49,9 +49,9 @@ The <b>IoFreeIrp</b> routine releases a caller-allocated IRP from the caller's <
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP that is to be released.
 
 ## -remarks

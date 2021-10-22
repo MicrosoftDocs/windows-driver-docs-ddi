@@ -50,16 +50,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being queried.
 
-### -param LocalAddress 
+### -param LocalAddress [out]
 
-[out]
+
 A pointer to a caller-allocated buffer that receives the local transport address for the socket.
      The buffer must be located in non-paged memory. The buffer must also be large enough to contain the
      specific SOCKADDR structure type that corresponds to the address family that the WSK application
@@ -70,9 +70,9 @@ For a connection-oriented socket that the WSK application accepted on a listenin
      family is the same as the address family that the WSK application specified when it created the
      listening socket.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the retrieve operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

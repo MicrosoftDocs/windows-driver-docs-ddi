@@ -51,29 +51,29 @@ Gets the Memory-Mapped I/O space of the specified PCI Express SR-IOV Virtual Fun
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this read operation applies.
 
-### -param BlockId 
+### -param BlockId [in]
 
-[in]
+
 A number identifying the block to be read.  This is defined by the provider of the PF driver.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a buffer that receives the data read from the VF's  MMIO space.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length in bytes of this read operation.
 
 ## -returns

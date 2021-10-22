@@ -50,19 +50,19 @@ A port monitor UI DLL's <b>ConfigurePortUI</b> function obtains port configurati
 
 ## -parameters
 
-### -param pszServer 
+### -param pszServer [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local. (The port monitor can ignore this parameter.)
 
-### -param hWnd 
+### -param hWnd [in]
 
-[in]
+
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
-### -param pszPortName 
+### -param pszPortName [in]
 
-[in]
+
 Caller-supplied pointer to a string representing the name of the port to be configured.
 
 ## -returns

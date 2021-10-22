@@ -49,14 +49,14 @@ The <b>RtlFindLongestRunClear</b> routine searches for the largest contiguous ra
 
 ## -parameters
 
-### -param BitMapHeader 
+### -param BitMapHeader [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
-### -param StartingIndex 
+### -param StartingIndex [out]
 
-[out]
+
 Pointer to a variable in which the starting index of the longest clear run in the bitmap is returned. This is a zero-based value indicating the bit position of the first clear bit in the returned range.
 
 ## -returns

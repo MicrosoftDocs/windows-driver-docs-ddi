@@ -49,17 +49,17 @@ The D3D10_DDIARG_SUBRESOURCE_UP structure describes initialization information a
 
 ## -struct-fields
 
-### -field pSysMem
+### -field pSysMem [in]
 
-[in] A pointer to a buffer that contains the contents of the subresource to copy from.
+A pointer to a buffer that contains the contents of the subresource to copy from.
 
-### -field SysMemPitch
+### -field SysMemPitch [in]
 
-[in] The pitch, in bytes, of the surface--that is, the distance, in bytes, to the start of the next row.
+The pitch, in bytes, of the surface--that is, the distance, in bytes, to the start of the next row.
 
-### -field SysMemSlicePitch
+### -field SysMemSlicePitch [in]
 
-[in] The pitch, in bytes, of the depth slice--that is, the distance, in bytes, to the start of the next depth, where a 3-D subresource is composed of width x rows x depth.
+The pitch, in bytes, of the depth slice--that is, the distance, in bytes, to the start of the next depth, where a 3-D subresource is composed of width x rows x depth.
 
 ## -see-also
 

@@ -54,14 +54,14 @@ The <b>WdfStringGetUnicodeString</b> method retrieves the Unicode string that is
 
 ## -parameters
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A handle to a framework string object.
 
-### -param UnicodeString 
+### -param UnicodeString [out]
 
-[out]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
 
 ## -remarks

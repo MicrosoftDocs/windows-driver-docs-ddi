@@ -49,14 +49,14 @@ The <b>FsRtlInsertPerFileContext</b> routine associates a <a href="/previous-ver
 
 ## -parameters
 
-### -param PerFileContextPointer 
+### -param PerFileContextPointer [in]
 
-[in]
+
 A pointer to an opaque pointer used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
-### -param Ptr 
+### -param Ptr [in]
 
-[in]
+
 A pointer to the driver-specific context structure.
 
 ## -returns

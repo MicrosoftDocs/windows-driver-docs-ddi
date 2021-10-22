@@ -52,29 +52,29 @@ The D3DDDIARG_DRAWINDEXEDPRIMITIVE structure describes an indexed primitive to d
 
 ## -struct-fields
 
-### -field PrimitiveType
+### -field PrimitiveType [in]
 
-[in] A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
+A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
 
-### -field BaseVertexIndex
+### -field BaseVertexIndex [in]
 
-[in] The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
+The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
 
-### -field MinIndex
+### -field MinIndex [in]
 
-[in] The minimum index of a range of vertices that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
+The minimum index of a range of vertices that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
-### -field NumVertices
+### -field NumVertices [in]
 
-[in] The number of vertices in a range that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
+The number of vertices in a range that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
-### -field StartIndex
+### -field StartIndex [in]
 
-[in] The first index in the index buffer from which indices are read to draw the primitives.
+The first index in the index buffer from which indices are read to draw the primitives.
 
-### -field PrimitiveCount
+### -field PrimitiveCount [in]
 
-[in] The number of triangles, lines, or points to draw for the given primitive.
+The number of triangles, lines, or points to draw for the given primitive.
 
 ## -remarks
 

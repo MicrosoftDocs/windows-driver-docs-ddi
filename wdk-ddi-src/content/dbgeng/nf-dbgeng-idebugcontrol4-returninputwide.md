@@ -49,9 +49,9 @@ The <b>ReturnInputWide</b>  method is used by <b>IDebugInputCallbacks</b> object
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the input string being sent to the engine.
 
 ## -returns

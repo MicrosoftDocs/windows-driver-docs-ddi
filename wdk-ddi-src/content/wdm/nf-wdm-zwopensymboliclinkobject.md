@@ -49,19 +49,19 @@ The <b>ZwOpenSymbolicLinkObject</b> routine opens an existing symbolic link.
 
 ## -parameters
 
-### -param LinkHandle 
+### -param LinkHandle [out]
 
-[out]
+
 Pointer to a HANDLE variable that receives a handle to the symbolic link object.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. The caller usually specified GENERIC_READ, so that the handle can be passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerysymboliclinkobject">ZwQuerySymbolicLinkObject</a>.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 ## -returns

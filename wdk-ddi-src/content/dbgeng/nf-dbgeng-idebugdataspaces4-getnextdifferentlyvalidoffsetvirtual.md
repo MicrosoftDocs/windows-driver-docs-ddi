@@ -49,14 +49,14 @@ The <b>GetNextDifferentlyValidOffsetVirtual</b> method returns the offset of the
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies a start address.  The address returned in <i>NextOffset</i> will be the next address whose validity might be defined differently from this one.
 
-### -param NextOffset 
+### -param NextOffset [out]
 
-[out]
+
 Receives the address of the next address whose validity might be defined differently from the address in <i>Offset</i>.
 
 ## -returns

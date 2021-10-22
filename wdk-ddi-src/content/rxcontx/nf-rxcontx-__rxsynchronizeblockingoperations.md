@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT of the operation being synchronized.
 
-### -param Fcb 
+### -param Fcb [in]
 
-[in]
+
 A pointer to the FCB.
 
-### -param BlockingIoQ 
+### -param BlockingIoQ [in, out]
 
-[in, out]
+
 A pointer to the LIST_ENTRY for the queue.
 
-### -param DropFcbLock 
+### -param DropFcbLock [in]
 
-[in]
+
 A Boolean value that indicates if the FCB resource should be released. If this parameter is <b>TRUE</b>, then the FCB resource will be released.
 
 ## -returns

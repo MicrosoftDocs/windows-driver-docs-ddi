@@ -51,9 +51,9 @@ The <b>WDF_DEVICE_STATE_INIT</b> function initializes a driver's <a href="/windo
 
 ## -parameters
 
-### -param PnpDeviceState 
+### -param PnpDeviceState [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure.
 
 ## -remarks

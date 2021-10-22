@@ -53,25 +53,25 @@ in Windows 8 and later.</div><div> </div>The
 
 ## -parameters
 
-### -param ProviderContext 
+### -param ProviderContext [in]
 
-[in]
+
 A pointer that identifies a DMA provider's context area. The DMA provider driver passed this
      pointer to NetDMA in a call to the 
      <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
-### -param CpuAffinityArray 
+### -param CpuAffinityArray [in]
 
-[in]
+
 A pointer to an array of 
      <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_cpu_affinity">
      NET_DMA_CHANNEL_CPU_AFFINITY</a> structures that specify the CPU affinities for the DMA channels that
      are associated with the DMA provider.
 
-### -param CpuAffinityArraySize 
+### -param CpuAffinityArraySize [in]
 
-[in]
+
 The length, in bytes, of the buffer at 
      <i>CpuAffinityArray</i> .
 

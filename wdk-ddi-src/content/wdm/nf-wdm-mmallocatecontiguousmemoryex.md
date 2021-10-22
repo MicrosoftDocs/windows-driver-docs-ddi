@@ -45,56 +45,56 @@ The **MmAllocateContiguousMemoryEx** function allocates a range of physically co
 
 ## -parameters
 
-### -param NumberOfBytes
+### -param NumberOfBytes [in]
 
-[in]
+
 On entry, supplies the number of bytes to allocate. On successful return, receives the amount allocated.
 
-### -param LowestAcceptableAddress
+### -param LowestAcceptableAddress [in]
 
-[in]
+
 Supplies the lowest physical address which is valid for the allocation. For example, if the device can only reference physical memory in the 8M to 16MB range, this value would be set to 0x800000 (8Mb).
 
-### -param HighestAcceptableAddress
+### -param HighestAcceptableAddress [in]
 
-[in]
+
 Supplies the highest physical address which is valid for the allocation. For example, if the device can only reference physical memory below 16MB, this value would be set to 0xFFFFFF (16Mb - 1).
 
-### -param BoundaryAddressMultiple
+### -param BoundaryAddressMultiple [in]
 
-[in]
+
 Supplies the physical address multiple this allocation must not cross.
 
-### -param PreferredNode
+### -param PreferredNode [in]
 
-[in]
+
 Supplies the preferred node the allocation should be made from if pages are available on that node. MM_ANY_NODE_OK is used to signify no node preference.
 
-### -param Protect
+### -param Protect [in]
 
-[in]
+
 Supplies the desired protection (including cache type) for the mapping.
 
-### -param PartitionObject
+### -param PartitionObject [in, optional]
 
-[in, optional]
+
 If specified, supplies a partition object to allocate the physical memory from.  If not specified, the memory will come from the system partition.
 
-### -param Tag
+### -param Tag [in]
 
-[in]
+
 Supplies the tag for the allocation.
 
-### -param Flags
+### -param Flags [in]
 
-[in]
+
 Various flags:
 
 - **MM_ALLOCATE_CONTIGUOUS_MEMORY_FAST_ONLY** - Allocate desired contiguous memory only if it can be satisfied quickly. Fail if prolonged physical memory searching and trading must take place to satisfy the allocation.
 
-### -param BaseAddress
+### -param BaseAddress [out]
 
-[out]
+
 On success, receives the base virtual address of the contiguous memory.
 
 ## -returns

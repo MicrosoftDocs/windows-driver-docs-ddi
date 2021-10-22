@@ -49,14 +49,14 @@ The <b>wiauStrW2W</b> function copies a Unicode string to another Unicode string
 
 ## -parameters
 
-### -param pwszSrc 
+### -param pwszSrc [in]
 
-[in]
+
 Points to the Unicode string to be copied.
 
-### -param pwszDst 
+### -param pwszDst [out]
 
-[out]
+
 Pointer to a memory location that receives the copied string.
 
 ### -param iSize

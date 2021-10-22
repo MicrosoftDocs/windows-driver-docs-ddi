@@ -49,9 +49,9 @@ The <b>FsRtlIsEcpFromUserMode</b> routine determines whether an extra create par
 
 ## -parameters
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 Pointer to the ECP context structure to test.
 
 ## -returns

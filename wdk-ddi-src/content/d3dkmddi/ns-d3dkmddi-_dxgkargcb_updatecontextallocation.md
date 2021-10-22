@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_UPDATECONTEXTALLOCATION
-title: _DXGKARGCB_UPDATECONTEXTALLOCATION (d3dkmddi.h)
+title: DXGKARGCB_UPDATECONTEXTALLOCATION (d3dkmddi.h)
 description: DXGKARGCB_UPDATECONTEXTALLOCATION contains the data used to call DxgkCbUpdateContextAllocation.
 old-location: display\dxgkargcb_updatecontextallocation.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_UPDATECONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,28 +43,26 @@ api_name:
  - DXGKARGCB_UPDATECONTEXTALLOCATION
 ---
 
-# _DXGKARGCB_UPDATECONTEXTALLOCATION structure
-
+# DXGKARGCB_UPDATECONTEXTALLOCATION structure
 
 ## -description
 
-<b>DXGKARGCB_UPDATECONTEXTALLOCATION</b> contains the data used to call <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>.
+**DXGKARGCB_UPDATECONTEXTALLOCATION** contains the arguments used by the [**DXGKCB_UPDATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_updatecontextallocation.md) callback function, to update the contents of a context allocation.
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
 Handle to the context allocation being updated. The allocation defines a physical adapter in a linked display adapter link.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-Pointer to a private driver data buffer to be passed to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a> paging operation.
+Pointer to a private driver data buffer to be passed to the [**DXGKCB_UPDATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_updatecontextallocation.md) paging operation.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-Specify the size of the driver private data.
+The size of the driver private data, in bytes.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
-
+[**DXGKCB_UPDATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_updatecontextallocation.md)

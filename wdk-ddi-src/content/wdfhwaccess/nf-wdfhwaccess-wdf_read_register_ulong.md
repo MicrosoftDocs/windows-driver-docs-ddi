@@ -51,14 +51,14 @@ The <b>WDF_READ_REGISTER_ULONG</b> function reads a ULONG value from the specifi
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register address, which must be a mapped range in memory space.
 
 ## -returns

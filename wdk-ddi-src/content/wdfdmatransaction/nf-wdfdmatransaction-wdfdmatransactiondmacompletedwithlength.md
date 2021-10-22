@@ -52,19 +52,19 @@ The <b>WdfDmaTransactionDmaCompletedWithLength</b> method notifies the framework
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
-### -param TransferredLength 
+### -param TransferredLength [in]
 
-[in]
+
 The number of bytes that the device transferred in the current DMA transfer.
 
-### -param Status 
+### -param Status [out]
 
-[out]
+
 A pointer to a location that receives the status of the DMA transfer. For more information, see the Remarks section for <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactiondmacompleted">WdfDmaTransactionDmaCompleted</a>.
 
 ## -returns

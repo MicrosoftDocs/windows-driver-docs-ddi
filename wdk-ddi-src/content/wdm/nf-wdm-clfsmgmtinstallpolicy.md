@@ -50,19 +50,19 @@ The <b>ClfsMgmtInstallPolicy</b> routine adds a <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param LogFile 
+### -param LogFile [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log that this instance of the <b>CLFS_MGMT_POLICY</b> structure will apply to. The policy applies to all streams within the log, even if a single stream within the log was specified.
 
-### -param Policy 
+### -param Policy [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that contains the policy to be installed.
 
-### -param PolicyLength 
+### -param PolicyLength [in]
 
-[in]
+
 The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter.
 
 ## -returns

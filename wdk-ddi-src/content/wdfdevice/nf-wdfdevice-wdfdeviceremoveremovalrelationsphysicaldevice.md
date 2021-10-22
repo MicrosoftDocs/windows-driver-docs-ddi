@@ -52,14 +52,14 @@ The <b>WdfDeviceRemoveRemovalRelationsPhysicalDevice</b> method removes a specif
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PhysicalDevice 
+### -param PhysicalDevice [in]
 
-[in]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
 ## -remarks

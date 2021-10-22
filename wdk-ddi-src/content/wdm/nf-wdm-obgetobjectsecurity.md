@@ -49,19 +49,19 @@ The **ObGetObjectSecurity** routine gets the security descriptor for a given obj
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 Pointer to the object.
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [out]
 
-[out]
+
 Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the [SECURITY_DESCRIPTOR](../ntifs/ns-ntifs-_security_descriptor.md) for the given object. If the given object has no security descriptor, this variable is set to **NULL** on return from **ObGetObjectSecurity**.
 
-### -param MemoryAllocated 
+### -param MemoryAllocated [out]
 
-[out]
+
 Pointer to a caller-supplied variable that this routine sets to **TRUE** if it allocated a buffer to contain the security descriptor.
 
 ## -returns

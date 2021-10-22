@@ -51,9 +51,9 @@ The <b>StopIdle</b> method informs the framework that the device must be placed 
 
 ## -parameters
 
-### -param WaitForD0 
+### -param WaitForD0 [in]
 
-[in]
+
 A Boolean value that indicates when <b>StopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device enters the D0 device power state. If <b>FALSE</b>, the method returns immediately.
 
 ## -returns

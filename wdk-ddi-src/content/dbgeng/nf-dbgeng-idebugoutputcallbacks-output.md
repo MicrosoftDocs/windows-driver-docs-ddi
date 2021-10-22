@@ -49,14 +49,14 @@ The <b>Output</b> callback method is called by the engine to send output from th
 
 ## -parameters
 
-### -param Mask 
+### -param Mask [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> bit flags that indicate the nature of the output.
 
-### -param Text 
+### -param Text [in]
 
-[in]
+
 Specifies the output that is being sent.
 
 ## -returns

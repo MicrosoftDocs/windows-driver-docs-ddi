@@ -52,13 +52,13 @@ The D3DDDIARG_CREATEQUERY structure identifies a query to create.
 
 ## -struct-fields
 
-### -field QueryType
+### -field QueryType [in]
 
-[in] A [D3DDDIQUERYTYPE](ne-d3dumddi-_d3dddiquerytype.md)-typed value that indicates the query type to create resources for.
+A [D3DDDIQUERYTYPE](ne-d3dumddi-_d3dddiquerytype.md)-typed value that indicates the query type to create resources for.
 
-### -field hQuery
+### -field hQuery [out]
 
-[out] A handle to the query. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function returns this handle to the Microsoft Direct3D runtime.
+A handle to the query. The user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function returns this handle to the Microsoft Direct3D runtime.
 
 ## -remarks
 

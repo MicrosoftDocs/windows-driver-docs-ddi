@@ -49,9 +49,9 @@ The <b>RemoveTailList</b> routine removes an entry from the end of a doubly link
 
 ## -parameters
 
-### -param ListHead 
+### -param ListHead [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 ## -returns

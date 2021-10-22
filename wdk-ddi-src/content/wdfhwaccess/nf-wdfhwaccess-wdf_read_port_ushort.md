@@ -51,14 +51,14 @@ The <b>WDF_READ_PORT_USHORT</b>  function reads a USHORT value from the specifie
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 ## -returns

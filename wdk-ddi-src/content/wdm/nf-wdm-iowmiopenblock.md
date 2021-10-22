@@ -49,14 +49,14 @@ The <b>IoWMIOpenBlock</b> routine opens the WMI data block object for the specif
 
 ## -parameters
 
-### -param Guid
+### -param Guid [in]
 
-[in]
+
 Specifies the GUID for WMI class.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the desired access rights to the data block object. The caller must have particular access rights to perform certain operations. 
 
 The following is a description of each access right bit and the operations it allows:
@@ -87,9 +87,9 @@ The data block object can be used to query WMI class properties. This flag must 
 
 The data block object can be used to set WMI class properties. This flag must be set to use any of the <b>IoWMISet<i>Xxx</i></b> routines on the data block object.
 
-### -param DataBlockObject 
+### -param DataBlockObject [out]
 
-[out]
+
 Pointer to a memory location where the routine returns a pointer to the data block object.
 
 ## -returns

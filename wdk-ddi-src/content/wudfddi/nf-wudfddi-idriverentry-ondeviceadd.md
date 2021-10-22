@@ -51,14 +51,14 @@ The <b>OnDeviceAdd</b> method adds a new device to a system.
 
 ## -parameters
 
-### -param pWdfDriver 
+### -param pWdfDriver [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface for the parent driver object that the new device belongs to.
 
-### -param pWdfDeviceInit 
+### -param pWdfDeviceInit [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a> interface that the driver uses to initialize the newly created device.
 
 ## -returns

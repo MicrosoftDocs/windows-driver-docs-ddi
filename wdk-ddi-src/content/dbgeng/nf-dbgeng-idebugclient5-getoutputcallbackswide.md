@@ -49,9 +49,9 @@ The <b>GetOutputCallbacksWide</b> method returns the <a href="/windows-hardware/
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 Receives an interface pointer to the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> object registered with the client.
 
 ## -returns

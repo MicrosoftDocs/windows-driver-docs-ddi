@@ -49,9 +49,9 @@ The <b>RemoveExtension</b> method unloads an extension library.
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Specifies the handle of the extension library to unload.  This is the handle returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addextension">AddExtension</a>.
 
 ## -returns

@@ -57,9 +57,9 @@ Sets constant buffers for a compute shader.
 
 A handle to the display device (graphics context).
 
-### -param StartSlot
+### -param StartSlot [in]
 
-[in] The starting constant buffer to set.
+The starting constant buffer to set.
 
 ### -param NumBuffers
 

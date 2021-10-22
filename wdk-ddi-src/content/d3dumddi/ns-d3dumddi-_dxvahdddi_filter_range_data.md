@@ -52,21 +52,21 @@ The **DXVAHDDDI_FILTER_RANGE_DATA** structure describes a filter range.
 
 ## -struct-fields
 
-### -field Minimum
+### -field Minimum [in]
 
-[in] An **INT** that specifies the minimum value in the filter range.
+An **INT** that specifies the minimum value in the filter range.
 
-### -field Maximum
+### -field Maximum [in]
 
-[in] An **INT** that specifies the maximum value in the filter range.
+An **INT** that specifies the maximum value in the filter range.
 
-### -field Default
+### -field Default [in]
 
-[in] An **INT** that specifies the default value for the filter range.
+An **INT** that specifies the default value for the filter range.
 
-### -field Multiplier
+### -field Multiplier [in]
 
-[in] A **FLOAT** value that specifies a multiplier to calculate the actual filter value.
+A **FLOAT** value that specifies a multiplier to calculate the actual filter value.
 
 ## -remarks
 

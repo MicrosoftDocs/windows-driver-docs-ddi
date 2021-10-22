@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Entry 
+### -param Entry [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure. The search starts after this <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>. If this parameter is <b>NULL</b>, the starts at the beginning of the collection of FA entries.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param TagMask 
+### -param TagMask [in]
 
-[in]
+
 A mask that restricts the search to a subset of all possible tags. See Remarks. To search all possible tags, set this parameter to <b>DEBUG_FLR_MASK_ALL</b>.
 
 ## -returns

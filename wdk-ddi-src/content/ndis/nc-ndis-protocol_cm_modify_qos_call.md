@@ -56,16 +56,16 @@ The
 
 ## -parameters
 
-### -param CallMgrVcContext 
+### -param CallMgrVcContext [in]
 
-[in]
+
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS for its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-### -param CallParameters 
+### -param CallParameters [in]
 
-[in]
+
 Pointer to a 
      <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
      the new call parameters, as specified by a connection-oriented client, for the VC.

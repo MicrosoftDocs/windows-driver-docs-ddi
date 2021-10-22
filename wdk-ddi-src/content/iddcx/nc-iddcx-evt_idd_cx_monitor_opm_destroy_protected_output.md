@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param OpmCxtObject 
+### -param OpmCxtObject [in]
 
-[in]
+
 The object for the OPM context that will be destroyed.
 
 ## -returns

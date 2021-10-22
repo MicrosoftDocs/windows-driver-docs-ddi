@@ -49,29 +49,29 @@ The <b>KeRegisterBugCheckCallback</b> routine registers a <a href="/windows-hard
 
 ## -parameters
 
-### -param CallbackRecord 
+### -param CallbackRecord [out]
 
-[out]
+
 Pointer to a callback record that was previously initialized by [KeInitializeCallbackRecord](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializecallbackrecord), for which the caller provides nonpaged storage.
 
-### -param CallbackRoutine 
+### -param CallbackRoutine [in]
 
-[in]
+
 Pointer to the driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_callback_routine">KBUGCHECK_CALLBACK_ROUTINE callback function</a>.
 
-### -param Buffer 
+### -param Buffer [in, optional]
 
-[in, optional]
+
 Pointer to a caller-supplied buffer, which must be in resident memory, such as nonpaged pool.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the size in bytes of the caller-allocated buffer.
 
-### -param Component 
+### -param Component [in]
 
-[in]
+
 Pointer to a null-terminated ANSI string that identifies the caller. This string usually contains the name of the device driver, or possibly of its device.
 
 ## -returns

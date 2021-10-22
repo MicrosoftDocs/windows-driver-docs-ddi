@@ -51,17 +51,17 @@ The **FsRtlProcessFileLock** routine processes and completes an IRP for a file l
 
 ## -parameters
 
-### -param FileLock
+### -param FileLock [in]
 
-[in] Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
-### -param Irp
+### -param Irp [in]
 
-[in] Pointer to the IRP. Must be an IRP for a file-lock operation.
+Pointer to the IRP. Must be an IRP for a file-lock operation.
 
-### -param Context
+### -param Context [in, optional]
 
-[in, optional] Optional context pointer to be used when completing IRPs.
+Optional context pointer to be used when completing IRPs.
 
 ## -returns
 

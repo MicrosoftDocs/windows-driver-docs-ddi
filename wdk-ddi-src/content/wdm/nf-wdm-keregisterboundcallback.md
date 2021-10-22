@@ -49,9 +49,9 @@ The <b>KeRegisterBoundCallback</b> routine registers a routine to be called when
 
 ## -parameters
 
-### -param CallbackRoutine 
+### -param CallbackRoutine [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a> function.
 
 ## -returns

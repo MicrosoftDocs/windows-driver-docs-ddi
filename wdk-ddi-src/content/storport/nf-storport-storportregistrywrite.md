@@ -50,24 +50,24 @@ The <b>StorPortRegistryWrite</b> routine is called by the miniport driver to con
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 Pointer to a string that specifies the value name.
 
-### -param Global 
+### -param Global [in]
 
-[in]
+
 Indicates whether the operation is to be adapter specific or to relate to all adapters.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 One of the following registry data types.
 
 <table>
@@ -207,14 +207,14 @@ REG_QWORD_LITTLE_ENDIAN
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer that contains the registry data to be written.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Specifies the size of the buffer pointed to by <i>Buffer</i>.
 
 ## -returns

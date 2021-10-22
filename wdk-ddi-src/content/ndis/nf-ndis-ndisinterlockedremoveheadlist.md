@@ -52,14 +52,14 @@ The
 
 ## -parameters
 
-### -param _ListHead 
+### -param _ListHead [in]
 
-[in]
+
 A pointer to the head of the doubly linked list from which an entry is to be removed.
 
-### -param _SpinLock 
+### -param _SpinLock [in]
 
-[in]
+
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
 ## -remarks

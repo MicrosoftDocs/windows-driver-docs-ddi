@@ -50,14 +50,14 @@ The <b>PoFxRegisterPluginEx</b> routine registers a platform extension plug-in (
 
 ## -parameters
 
-### -param PepInformation 
+### -param PepInformation [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a> structure that contains pointers to one or more callback routines that are implemented by the PEP. These routines handle notifications that are sent to the PEP by PoFx.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A set of flag bits for configuring the PEP interface. Set this member to zero or to the following value.
 
 <table>
@@ -71,9 +71,9 @@ A set of flag bits for configuring the PEP interface. Set this member to zero or
 </tr>
 </table>
 
-### -param KernelInformation 
+### -param KernelInformation [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_kernel_information_struct_v1">PEP_KERNEL_INFORMATION</a> structure.
 
 ## -returns

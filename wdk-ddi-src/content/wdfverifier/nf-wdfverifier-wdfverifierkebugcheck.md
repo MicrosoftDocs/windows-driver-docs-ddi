@@ -54,29 +54,29 @@ The <b>WdfVerifierKeBugCheck</b> function creates a bug check.
 
 ## -parameters
 
-### -param BugCheckCode 
+### -param BugCheckCode [in]
 
-[in]
+
 One of the <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a> that are defined in <i>Bugcodes.h</i>.
 
-### -param BugCheckParameter1 
+### -param BugCheckParameter1 [in]
 
-[in]
+
 For information about this parameter, see the specified bug check code's description.
 
-### -param BugCheckParameter2 
+### -param BugCheckParameter2 [in]
 
-[in]
+
 For information about this parameter, see the specified bug check code's description.
 
-### -param BugCheckParameter3 
+### -param BugCheckParameter3 [in]
 
-[in]
+
 For information about this parameter, see the specified bug check code's description.
 
-### -param BugCheckParameter4 
+### -param BugCheckParameter4 [in]
 
-[in]
+
 For information about this parameter, see the specified bug check code's description.
 
 ## -remarks

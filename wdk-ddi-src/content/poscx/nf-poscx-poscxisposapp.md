@@ -50,14 +50,14 @@ PosCxIsPosApp checks if the open instance is associated with a point-of-service 
 
 ## -parameters
 
-### -param device 
+### -param device [in]
 
-[in]
+
 A handle to a framework device object that represents the device.
 
-### -param fileObject 
+### -param fileObject [in]
 
-[in]
+
 A handle to a framework file object that identifies the caller, usually acquired with <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>.
 
 ## -returns

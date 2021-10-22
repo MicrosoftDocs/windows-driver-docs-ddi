@@ -49,24 +49,24 @@ The <b>StorPortFreeContiguousMemorySpecifyCache</b> routine deallocates a range 
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
+
 The base virtual address to free.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine was previously called.
 
-### -param CacheType 
+### -param CacheType [in]
 
-[in]
+
 The cache type that is used in the call to the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine.
 
 ## -returns

@@ -48,21 +48,20 @@ The **WRITE_REGISTER_ULONG64** routine dereferences the supplied pointer, insert
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a ULONG64 value to write to the register.
 
 ## -remarks
 
 This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
-For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
 
-Callers of the **WRITE_REGISTER_ULONG64** macro can be running at any IRQL, assuming the *Register* register is resident, mapped device memory. 
-
+Callers of the **WRITE_REGISTER_ULONG64** macro can be running at any IRQL, assuming the *Register* register is resident, mapped device memory.

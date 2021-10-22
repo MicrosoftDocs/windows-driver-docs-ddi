@@ -49,39 +49,39 @@ The <b>USBCAMD_WaitOnDeviceEvent</b> service is used to perform a read from the 
 
 ## -parameters
 
-### -param DeviceContext 
+### -param DeviceContext [in]
 
-[in]
+
 A pointer to device-specific context.
 
-### -param PipeIndex 
+### -param PipeIndex [in]
 
-[in]
+
 Specifies the index of the interrupt pipe.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the read buffer.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Length of the read buffer, in bytes.
 
-### -param EventComplete 
+### -param EventComplete [in]
 
-[in]
+
 Pointer to a camera minidriver defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>, which is called when the interrupt read is completed This value can be <b>NULL</b>.
 
-### -param EventContext 
+### -param EventContext [in]
 
-[in]
+
 Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>.
 
-### -param LoopBack 
+### -param LoopBack [in]
 
-[in]
+
 Specifies if USBCAMD is to resubmit another read request to the interrupt pipe every time an interrupt read is completed. Set to <b>TRUE</b>
 
 ## -returns

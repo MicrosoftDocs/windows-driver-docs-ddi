@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Mode 
+### -param Mode [in]
 
-[in]
+
 Specifies the placeholder compatibility mode to set.
 
 ## -returns

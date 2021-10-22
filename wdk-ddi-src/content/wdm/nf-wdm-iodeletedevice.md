@@ -49,9 +49,9 @@ The <b>IoDeleteDevice</b> routine removes a device object from the system, for e
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object to be deleted.
 
 ## -remarks

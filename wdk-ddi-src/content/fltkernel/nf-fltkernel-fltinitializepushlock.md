@@ -49,9 +49,9 @@ The <b>FltInitializePushLock</b> routine initializes a push lock variable.
 
 ## -parameters
 
-### -param PushLock 
+### -param PushLock [out]
 
-[out]
+
 Pointer to the caller-supplied storage, which must be at least the value of <b>sizeof(</b>EX_PUSH_LOCK<b>)</b>, for the push lock variable to be initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -returns

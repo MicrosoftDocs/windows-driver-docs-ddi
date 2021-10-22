@@ -49,14 +49,14 @@ The <b>InitializeDmaTransferContext</b> routine initializes an opaque DMA transf
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
-### -param DmaTransferContext 
+### -param DmaTransferContext [out]
 
-[out]
+
 A pointer to a caller-allocated buffer into which <b>InitializeDmaTransferContext</b> writes the initial values for the DMA transfer context.  This context is opaque to the caller. The caller must allocate a buffer that is large enough to contain the DMA transfer context. The size, in bytes, of this context is specified by the <b>DMA_TRANSFER_CONTEXT_SIZE_V1</b> constant in the Wdm.h header file.
 
 ## -returns

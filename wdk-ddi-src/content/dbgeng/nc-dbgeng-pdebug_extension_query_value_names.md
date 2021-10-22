@@ -53,29 +53,29 @@ The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="/wi
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 A client to use if the extension needs DbgEng functions.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Provides behavioral flags. This parameter is currently reserved.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A string buffer that the caller provides, to be filled with the set of value names that the client wants to expose.
 
-### -param BufferChars 
+### -param BufferChars [in]
 
-[in]
+
 The count of wide characters in <i>Buffer</i>.
 
-### -param BufferNeeded 
+### -param BufferNeeded [out]
 
-[out]
+
 The number of wide characters that this function needs to complete successfully.
 
 ## -returns

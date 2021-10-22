@@ -69,9 +69,9 @@ Caller-supplied length of the input data.
 
 Caller-supplied length of the output buffer.
 
-### -param piResult 
+### -param piResult [out]
 
-[out]
+
 Receives a method-supplied result value. If the operation succeeds, this value should be the number of compressed bytes, which must not be larger than the value received for <i>dwOutLen</i>. If an error occurs, or if the method cannot compress, the result value should be -1.
 
 ## -returns

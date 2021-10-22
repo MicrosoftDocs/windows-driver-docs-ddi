@@ -55,9 +55,9 @@ The **NetOffloadIsTxChecksumUdpEnabled** function determines whether a net adapt
 
 ## -parameters
 
-### -param Offload
+### -param Offload [_In_]
 
-[_In_] A NETOFFLOAD object that represents the net adapter's Tx checksum capabilities.
+A NETOFFLOAD object that represents the net adapter's Tx checksum capabilities.
 
 ## -returns
 

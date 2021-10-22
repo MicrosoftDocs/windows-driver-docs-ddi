@@ -51,14 +51,14 @@ A driver's <i>EvtIoAllocateResourcesForReservedRequest</i> callback function all
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to an I/O queue object.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a request object that the framework has created for use during future low-memory situations.
 
 ## -returns

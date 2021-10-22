@@ -49,29 +49,29 @@ The <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT</b> function initializes a <a href=
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_system_dma_receive_config">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a> structure that is to be initialized.
 
-### -param MaximumTransferLength 
+### -param MaximumTransferLength [in]
 
-[in]
+
 The value to load into the <b>MaximumTransferLength</b> member of the <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_system_dma_receive_config">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>.
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 The value to load into the <b>DeviceAddress</b> member of the <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_system_dma_receive_config">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>.
 
-### -param DmaWidth 
+### -param DmaWidth [in]
 
-[in]
+
 The value to load into the <b>DmaWidth</b> member of the <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_system_dma_receive_config">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>.
 
-### -param DmaDescriptor 
+### -param DmaDescriptor [in]
 
-[in]
+
 The value to load into the <b>DmaDescriptor</b> member of the <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_system_dma_receive_config">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>.
 
 ## -remarks

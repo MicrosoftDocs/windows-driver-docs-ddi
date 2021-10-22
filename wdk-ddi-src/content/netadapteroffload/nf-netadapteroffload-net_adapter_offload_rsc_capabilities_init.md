@@ -56,21 +56,21 @@ The **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT** function initializes a [**NET_
 
 ## -parameters
 
-### -param RscCapabilities
+### -param RscCapabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure.
 
-### -param Layer3Flags
+### -param Layer3Flags [_In_]
 
-[_In_] Flags specifying the layer 3 protocols that the NIC can successfully perform RSC on.
+Flags specifying the layer 3 protocols that the NIC can successfully perform RSC on.
 
-### -param Layer4Flags
+### -param Layer4Flags [_In_]
 
-[_In_] Flags specifying the layer 4 protocols that the NIC can successfully perform RSC on.
+Flags specifying the layer 4 protocols that the NIC can successfully perform RSC on.
 
-### -param EvtAdapterOffloadSetRsc
+### -param EvtAdapterOffloadSetRsc [_In_]
 
-[_In_] A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
 
 ## -returns
 

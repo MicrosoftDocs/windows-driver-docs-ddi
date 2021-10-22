@@ -49,19 +49,19 @@ The <b>KsPrepareIoOperation</b> method initializes the extended header and prepa
 
 ## -parameters
 
-### -param Sample 
+### -param Sample [in, out]
 
-[in, out]
+
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
-### -param StreamHeader 
+### -param StreamHeader [in, out]
 
-[in, out]
+
 Pointer to a buffer that contains the extended header information.
 
-### -param IoOperation 
+### -param IoOperation [in]
 
-[in]
+
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 
 <table>

@@ -49,24 +49,24 @@ The <b>CcCanIWrite</b> routine determines whether the caller can write to a cach
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the cached file.
 
-### -param BytesToWrite 
+### -param BytesToWrite [in]
 
-[in]
+
 Number of bytes to be written.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 Set to <b>TRUE</b> if the caller can be put into a wait state until it can write to the cached file, <b>FALSE</b> otherwise.
 
-### -param Retrying 
+### -param Retrying [in]
 
-[in]
+
 Set to <b>FALSE</b> if this is the first time <b>CcCanIWrite</b> is being called for this write request, <b>TRUE</b> otherwise.
 
 ## -returns

@@ -49,9 +49,9 @@ This routine decrements the reference count on the object.
 
 ## -parameters
 
-### -param SiloContext 
+### -param SiloContext [in]
 
-[in]
+
 A pointer to the object created by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. This parameter is required and it cannot be <b>NULL</b>.
 
 ## -remarks

@@ -48,9 +48,9 @@ Notifies UFX that the device's USB cable has been detached.
 
 ## -parameters
 
-### -param UfxDevice
+### -param UfxDevice [in]
 
-[in]
+
 A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate).
 
 ## -remarks

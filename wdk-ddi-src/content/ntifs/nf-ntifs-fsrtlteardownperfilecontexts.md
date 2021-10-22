@@ -49,9 +49,9 @@ File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href
 
 ## -parameters
 
-### -param PerFileContextPointer 
+### -param PerFileContextPointer [in]
 
-[in]
+
 A pointer to an opaque pointer that identifies the per file context structure. To retrieve this pointer from a file object, use the <a href="/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
 ## -remarks

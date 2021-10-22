@@ -49,24 +49,24 @@ Specifies an output symbol by using an inline context.
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 An output control.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 An offset.
 
-### -param InlineContext 
+### -param InlineContext [in]
 
-[in]
+
 An inline context.
 
 ## -returns

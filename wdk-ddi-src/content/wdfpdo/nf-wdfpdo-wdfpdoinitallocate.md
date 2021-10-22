@@ -52,9 +52,9 @@ The <b>WdfPdoInitAllocate</b> method allocates a <a href="/windows-hardware/driv
 
 ## -parameters
 
-### -param ParentDevice 
+### -param ParentDevice [in]
 
-[in]
+
 A handle to a framework device object that represents the parent device of the new device. The framework device object must represent a functional device object (FDO).
 
 ## -returns

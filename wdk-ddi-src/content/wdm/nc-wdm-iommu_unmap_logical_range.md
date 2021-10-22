@@ -45,17 +45,17 @@ Unmaps a linear range from a domain.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param LogicalAddress
+### -param LogicalAddress [_In_]
 
-[_In_] The logical address at which unmapping begins. The address must be page aligned.
+The logical address at which unmapping begins. The address must be page aligned.
 
-### -param NumberOfPages
+### -param NumberOfPages [_In_]
 
-[_In_] The number of pages to unmap.
+The number of pages to unmap.
 
 ## -returns
 

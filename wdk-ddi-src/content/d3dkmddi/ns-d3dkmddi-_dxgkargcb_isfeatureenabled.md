@@ -3,7 +3,7 @@ UID: NS:d3dkmddi._DXGKARGCB_ISFEATUREENABLED
 title: _DXGKARGCB_ISFEATUREENABLED
 description: Arguments used to query the driver feature is enabled.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_ISFEATUREENABLED structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDX
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winverclnt: Windows 10, version 1903 (WDDM 2.6)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,30 +43,26 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARGCB_ISFEATUREENABLED structure
-
+# DXGKARGCB_ISFEATUREENABLED structure
 
 ## -description
 
-Arguments used to query the driver feature's enabled state.
+The **DXGKARGCB_ISFEATUREENABLED** structure contains the arguments used in the [**DXGKCB_ISFEATUREENABLED**](nc-d3dkmddi-dxgkcb_isfeatureenabled.md) callback function, to query a driver feature's enabled state.
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
- 
-[in] Device handle that was passed to the driver [DxgkDdiStartDevice](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+Device handle that was passed to the driver [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
-### -field FeatureId
+### -field FeatureId [in]
 
-[in] Feature ID to query enabled state for.
+Feature ID to query enabled state for.
 
-### -field Enabled
+### -field Enabled [out]
 
- 
-[out] FALSE if the OS instructs the driver not to enable the feature. TRUE if the OS allows the driver to enable the feature.
-
-## -remarks
+FALSE if the OS instructs the driver not to enable the feature. TRUE if the OS allows the driver to enable the feature.
 
 ## -see-also
 
+[**DXGKCB_ISFEATUREENABLED**](nc-d3dkmddi-dxgkcb_isfeatureenabled.md)

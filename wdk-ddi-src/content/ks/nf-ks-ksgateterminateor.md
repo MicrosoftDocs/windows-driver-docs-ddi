@@ -49,9 +49,9 @@ The<b> KsGateTerminateOr</b> function deletes an existing OR gate and removes an
 
 ## -parameters
 
-### -param OrGate 
+### -param OrGate [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure that is the OR gate to delete. This gate must be at the beginning of a gate chain.
 
 ## -remarks

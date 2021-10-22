@@ -49,14 +49,14 @@ The <b>RtlRunOnceComplete</b> routine completes the one-time initialization bega
 
 ## -parameters
 
-### -param RunOnce 
+### -param RunOnce [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Drivers can optionally specify one or more of the following flags:
 
 
@@ -73,9 +73,9 @@ Operate in asynchronous mode. This mode enables multiple completion attempts to 
 
 The initialization attempt failed.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Specifies the initialized data.
 
 ## -returns

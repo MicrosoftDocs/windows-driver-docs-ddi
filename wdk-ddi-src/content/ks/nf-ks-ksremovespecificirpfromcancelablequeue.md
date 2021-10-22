@@ -50,9 +50,9 @@ The <b>KsRemoveSpecificIrpFromCancelableQueue</b> function removes the specified
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Points to I/O request packet.
 
 ## -returns

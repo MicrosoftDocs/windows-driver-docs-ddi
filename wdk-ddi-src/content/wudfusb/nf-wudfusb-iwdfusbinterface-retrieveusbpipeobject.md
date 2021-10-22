@@ -51,14 +51,14 @@ The <b>RetrieveUsbPipeObject</b> method retrieves a USB pipe object for the spec
 
 ## -parameters
 
-### -param PipeIndex 
+### -param PipeIndex [in]
 
-[in]
+
 The index of the USB pipe object to retrieve.
 
-### -param ppPipe 
+### -param ppPipe [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a> interface for the USB pipe object whose index is specified by <i>PipeIndex</i>.
 
 ## -returns

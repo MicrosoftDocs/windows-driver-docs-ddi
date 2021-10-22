@@ -49,9 +49,9 @@ The <b>RtlFindMostSignificantBit</b> routine returns the zero-based position of 
 
 ## -parameters
 
-### -param Set 
+### -param Set [in]
 
-[in]
+
 The 64-bit value to be searched for its most significant nonzero bit.
 
 ## -returns

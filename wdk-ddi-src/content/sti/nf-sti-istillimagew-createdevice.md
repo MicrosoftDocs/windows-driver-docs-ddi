@@ -49,9 +49,9 @@ The <b>IStillImage::CreateDevice</b> method creates an instance of the COM objec
 
 ## -parameters
 
-### -param pwszDeviceName 
+### -param pwszDeviceName [in]
 
-[in]
+
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
 
 ### -param dwMode
@@ -95,14 +95,14 @@ The device is being opened only for obtaining status information.
 </tr>
 </table>
 
-### -param pDevice 
+### -param pDevice [out]
 
-[out]
+
 Receives a pointer to the <a href="/windows-hardware/drivers/image/istidevice-com-interface">IStiDevice COM Interface</a>.
 
-### -param punkOuter 
+### -param punkOuter [in, optional]
 
-[in, optional]
+
 Optional, caller-supplied pointer to the "controlling unknown" for object aggregation. See the following <b>Remarks</b> section.
 
 ## -returns

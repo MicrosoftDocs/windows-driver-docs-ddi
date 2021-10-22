@@ -49,9 +49,9 @@ The <b>RtlSubtreeSuccessor</b> routine returns a pointer to the successor of the
 
 ## -parameters
 
-### -param Links 
+### -param Links [in]
 
-[in]
+
 A pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -returns

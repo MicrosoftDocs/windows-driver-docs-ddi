@@ -50,19 +50,19 @@ The **FltAllocateExtraCreateParameterList** routine allocates paged pool memory 
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Defines pool allocation options.  If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is combined with the *Flags* parameter by using a bitwise OR operation, any pool allocated by the routine will be charged against the current process' memory quota.
 
-### -param EcpList 
+### -param EcpList [out]
 
-[out]
+
 Receives a pointer to an initialized ECP list structure.  If the routine failed to allocate sufficient pool, *\*EcpList* will be **NULL** and the routine will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

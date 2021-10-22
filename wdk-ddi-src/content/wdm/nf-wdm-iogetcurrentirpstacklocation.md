@@ -49,9 +49,9 @@ The <b>IoGetCurrentIrpStackLocation</b> routine returns a pointer to the caller'
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>.
 
 ## -returns

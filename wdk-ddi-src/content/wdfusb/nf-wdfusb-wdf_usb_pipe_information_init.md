@@ -51,9 +51,9 @@ The <b>WDF_USB_PIPE_INFORMATION_INIT</b> function initializes a <a href="/window
 
 ## -parameters
 
-### -param Info 
+### -param Info [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure.
 
 ## -remarks

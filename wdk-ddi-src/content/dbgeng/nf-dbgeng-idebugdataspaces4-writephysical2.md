@@ -49,14 +49,14 @@ The <b>WritePhysical2</b> method writes data to the specified physical address i
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the physical address of the memory to write the data to.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the properties of the physical memory to be written to.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 
 <table>
@@ -106,19 +106,19 @@ The physical memory is write-combined.
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the data to write.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the <i>Buffer</i> buffer.  This is the maximum number of bytes that will be written.
 
-### -param BytesWritten 
+### -param BytesWritten [out, optional]
 
-[out, optional]
+
 Receives the number of bytes written to the target's memory.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

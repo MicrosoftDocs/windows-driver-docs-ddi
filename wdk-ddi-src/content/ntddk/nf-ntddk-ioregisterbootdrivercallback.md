@@ -49,14 +49,14 @@ The <b>IoRegisterBootDriverCallback</b> routine registers a <b>[**BOOT_DRIVER_CA
 
 ## -parameters
 
-### -param CallbackFunction 
+### -param CallbackFunction [in]
 
-[in]
+
 A pointer to the <b>[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)</b> routine to be called when initializing a boot-start driver or DLL.
 
-### -param CallbackContext 
+### -param CallbackContext [in, optional]
 
-[in, optional]
+
 A driver-defined context to be passed to the <b>[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)</b> routine pointed to by <i>CallbackFunction</i>.
 
 ## -returns

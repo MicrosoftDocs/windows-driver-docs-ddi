@@ -51,26 +51,26 @@ A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the <b>Nd
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param BlockId 
+### -param BlockId [in]
 
-[in]
+
 A ULONG value that specifies the identifier of the configuration block to be written to. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the miniport drivers for the PF and VF on the network adapter.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a caller-allocated buffer that contains the configuration data to be written.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to write to the configuration block.
 
 ## -returns

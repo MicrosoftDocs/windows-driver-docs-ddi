@@ -52,13 +52,13 @@ The D3DKMT_DESTROYOVERLAY structure contains the handle to the overlay to destro
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device that the overlay is associated with.
+A handle to the device that the overlay is associated with.
 
-### -field hOverlay
+### -field hOverlay [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to destroy.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to destroy.
 
 ## -see-also
 

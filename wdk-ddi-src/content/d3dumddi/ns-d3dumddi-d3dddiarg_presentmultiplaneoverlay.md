@@ -49,29 +49,29 @@ Specifies a multiplane overlay resource to display.
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input that is to be displayed.
+The zero-based video present network (VidPN) source identification number of the input that is to be displayed.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_presentflags">D3DDDI_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_presentflags">D3DDDI_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display.
 
-### -field FlipInterval
+### -field FlipInterval [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a> that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
+A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a> that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
-### -field PresentPlaneCount
+### -field PresentPlaneCount [in]
 
-[in] The number of overlay planes that are available to display.
+The number of overlay planes that are available to display.
 
-### -field pPresentPlanes
+### -field pPresentPlanes [in]
 
-[in] A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_present_multiplane_overlay">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a> that  describes the overlay plane to display.
+A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_present_multiplane_overlay">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a> that  describes the overlay plane to display.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] Reserved for system use. The driver should ignore this member.
+Reserved for system use. The driver should ignore this member.
 
 ## -see-also
 

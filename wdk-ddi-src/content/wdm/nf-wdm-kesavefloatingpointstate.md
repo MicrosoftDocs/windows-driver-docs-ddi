@@ -49,9 +49,9 @@ The <b>KeSaveFloatingPointState</b> routine saves the nonvolatile floating-point
 
 ## -parameters
 
-### -param FloatSave 
+### -param FloatSave [out]
 
-[out]
+
 Pointer to a caller-allocated resident buffer, which must be at least <b>sizeof</b>(<a href="/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a>).
 
 ## -returns

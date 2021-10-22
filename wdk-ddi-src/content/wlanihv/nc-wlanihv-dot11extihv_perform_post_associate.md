@@ -52,38 +52,38 @@ api_name:
 
 ## -parameters
 
-### -param hIhvExtAdapter 
+### -param hIhvExtAdapter [in, optional]
 
-[in, optional]
+
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param hSecuritySessionID 
+### -param hSecuritySessionID [in, optional]
 
-[in, optional]
+
 The handle of the security session. The IHV Extensions DLL must use this handle value when it
      calls
      <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
      Dot11ExtPostAssociateCompletion</a> to asynchronously complete the post-association operation.
 
-### -param pPortState 
+### -param pPortState [in]
 
-[in]
+
 A pointer to a
      <a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a> structure, which
      specifies the current port state of the security session.
 
-### -param uDot11AssocParamsBytes 
+### -param uDot11AssocParamsBytes [in]
 
-[in]
+
 The length, in bytes, of the data referenced through the
      <i>pDot11AssocParams</i> parameter.
 
-### -param pDot11AssocParams 
+### -param pDot11AssocParams [in]
 
-[in]
+
 A pointer to a
      <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
      DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a> structure, which specifies the result of the association

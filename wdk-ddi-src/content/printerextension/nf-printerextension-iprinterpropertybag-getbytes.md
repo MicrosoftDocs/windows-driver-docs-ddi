@@ -51,14 +51,14 @@ The <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
-### -param pcbValue 
+### -param pcbValue [out]
 
-[out]
+
 The number of bytes read.
 
 ### -param ppValue

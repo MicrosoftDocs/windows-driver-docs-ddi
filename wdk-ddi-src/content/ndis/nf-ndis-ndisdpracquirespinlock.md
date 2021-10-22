@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param _SpinLock 
+### -param _SpinLock [in]
 
-[in]
+
 Pointer to an opaque spin lock, already initialized by the caller.
 
 ## -remarks

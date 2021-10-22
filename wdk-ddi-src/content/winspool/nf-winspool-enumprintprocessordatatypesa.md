@@ -52,37 +52,37 @@ A print processor's <b>EnumPrintProcessorDatatypes</b> function enumerates the d
 
 ## -parameters
 
-### -param pName 
+### -param pName [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to a string representing name of the server on which the print processor is installed. If <b>NULL</b>, the server is the local system.
 
-### -param pPrintProcessorName 
+### -param pPrintProcessorName [in]
 
-[in]
+
 Caller-supplied pointer to a string representing the print processor name.
 
 ### -param Level
 
 Caller-supplied value indicating the type of the structures to be returned in the buffer pointed to by <i>pDatatypes</i>. This value must be 1, indicating that the structure is DATATYPES_INFO_1.
 
-### -param pDatatypes 
+### -param pDatatypes [out, optional]
 
-[out, optional]
+
 Caller-supplied pointer to a buffer to receive an array of DATATYPES_INFO_1 structures, followed by a set of character strings representing data type names. The DATATYPES_INFO_1 structure is described in the Microsoft Windows SDK documentation. The structure member <i>pName</i> must be of type LPWSTR.
 
 ### -param cbBuf
 
 Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pDatatypes</i>.
 
-### -param pcbNeeded 
+### -param pcbNeeded [out]
 
-[out]
+
 Caller-supplied pointer to a location to receive the minimum required size for the buffer pointed to by <i>pDatatypes</i>.
 
-### -param pcReturned 
+### -param pcReturned [out]
 
-[out]
+
 Caller-supplied pointer to a location to receive the number of DATATYPES_INFO_1 structures returned in the buffer pointed to by <i>pDatatypes</i>.
 
 ## -returns

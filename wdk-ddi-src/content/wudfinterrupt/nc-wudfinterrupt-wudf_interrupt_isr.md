@@ -53,14 +53,14 @@ A driver's <i>OnInterruptIsr</i> event callback function services a hardware int
 
 ### -param Interrupt
 
-### -param MessageID 
+### -param MessageID [in]
 
-[in]
+
 If the device is using message-signaled interrupts (MSIs), this parameter is the message number that identifies the device's hardware interrupt message. Otherwise, this value is 0.
 
-### -param Reserved 
+### -param Reserved [in]
 
-[in]
+
 Reserved for system use.
 
 

@@ -49,9 +49,9 @@ The <b>Reload</b>  method deletes the engine's symbol information for the specif
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the module to reload.
 
 ## -returns

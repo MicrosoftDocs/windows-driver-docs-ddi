@@ -49,9 +49,9 @@ The <b>KsQueryInterfaces</b> method retrieves interfaces that a pin supports.
 
 ## -parameters
 
-### -param InterfaceList 
+### -param InterfaceList [out]
 
-[out]
+
 Pointer to a buffer that receives a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="/windows-hardware/drivers/stream/kspin-interface-structure">KSPIN_INTERFACE</a> structures that describe interface types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 ## -returns

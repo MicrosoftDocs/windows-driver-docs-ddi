@@ -52,24 +52,24 @@ The routine is called by a driver that replaces the Microsoft-provided composite
 
 ## -parameters
 
-### -param USBDHandle 
+### -param USBDHandle [in]
 
-[in]
+
 A USBD handle that is retrieved in a previous call to the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
-### -param CapabilityFlags 
+### -param CapabilityFlags [in]
 
-[in]
+
 A caller-allocated <a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a> structure that indicates the capabilities that are supported by the composite driver. For instance, to   indicate that the composite driver supports function suspend, set the <b>CapabilityFunctionSuspend</b> member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 1.
 
-### -param FunctionCount 
+### -param FunctionCount [in]
 
-[in]
+
 The number of physical device objects (PDOs) to be created by the parent driver. The <i>FunctionCount</i> value cannot exceed 255.
 
-### -param RegisterCompositeDevice 
+### -param RegisterCompositeDevice [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_register_composite_device">REGISTER_COMPOSITE_DEVICE</a> structure. Upon completion, the structure is populated with the specified registration  information. To register the composite driver, send the <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_register_composite_device">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a> I/O request and pass the populated structure.
 
 ## -see-also

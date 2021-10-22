@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT structure associated with the IRP to complete.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the IRP to complete.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The status value to return when the IRP request is complete. This is the value that will be stored in the <b>IoStatus.Status</b> member of the associated IRP on completion.
 
 ## -remarks

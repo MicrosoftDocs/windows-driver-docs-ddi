@@ -49,9 +49,9 @@ The <i>UpdatePalette</i> function updates a texture palette.
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

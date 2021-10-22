@@ -1,10 +1,11 @@
 ---
 UID: NF:wificx.WifiRequestGetInOutBuffer
 tech.root: netvista
-title: WifiRequestGetInOutBuffer
-ms.date: 04/30/2021
+title: WifiRequestGetInOutBuffer (wificx.h)
+ms.date: 08/24/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WifiRequestGetInOutBuffer function for internal use only. Don't use this function in your code."
+description: WiFiCx drivers call WifiRequestGetInOutBuffer to get the input/output buffer for a command message.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,13 +13,13 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -41,28 +42,32 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+WiFiCx drivers call the **WifiRequestGetInOutBuffer** function to get the input/output buffer for a command message.
 
 ## -parameters
 
 ### -param Request
 
-Reserved.
+[_In_] A handle to the framework object which represents a command message from the WiFiCx framework.
 
 ### -param InputBufferLength
 
-Reserved.
+[_Out_opt_] A pointer to the location that receives the length, in bytes, of the command message input buffer.
 
 ### -param OutBufferLength
 
-Reserved.
+[_Out_opt_] A pointer to the location that receives the length, in bytes, of the command message output buffer.
 
 ## -returns
 
+Returns a pointer to the memory location where the command message is stored.
+
 ## -remarks
+
+For more information, see [Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages).
 
 ## -see-also
 
+[*EvtWifiDeviceSendCommand*](nc-wificx-evt_wifi_device_send_command.md)
+
+[Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages)

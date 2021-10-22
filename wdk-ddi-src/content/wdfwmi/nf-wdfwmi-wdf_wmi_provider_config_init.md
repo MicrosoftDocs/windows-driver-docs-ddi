@@ -51,14 +51,14 @@ The <b>WDF_WMI_PROVIDER_CONFIG_INIT</b> function initializes a <a href="/windows
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_provider_config">WDF_WMI_PROVIDER_CONFIG</a> structure.
 
-### -param Guid 
+### -param Guid [in]
 
-[in]
+
 A pointer to a GUID that identifies a WMI data provider's data block.
 
 ## -remarks

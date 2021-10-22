@@ -52,17 +52,17 @@ The DXVADDI_VIDEOPROCESSORINPUT structure describes a video stream that is proce
 
 ## -struct-fields
 
-### -field pVideoProcGuid
+### -field pVideoProcGuid [in]
 
-[in] A pointer to a GUID that represents the video processing device type.
+A pointer to a GUID that represents the video processing device type.
 
-### -field VideoDesc
+### -field VideoDesc [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure that describes the video stream.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure that describes the video stream.
 
-### -field RenderTargetFormat
+### -field RenderTargetFormat [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
 
 ## -remarks
 

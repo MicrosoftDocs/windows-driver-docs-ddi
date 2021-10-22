@@ -49,32 +49,32 @@ The <b>IStiDevice::Escape</b> method sends a request for a vendor-specific I/O o
 
 ## -parameters
 
-### -param EscapeFunction 
+### -param EscapeFunction [in]
 
-[in]
+
 Caller-supplied, vendor-defined, DWORD-sized value representing an I/O operation. The device's minidriver must recognize this value and must export an <b>IStiUSD</b> interface. Vendor-defined values must be greater than STI_RAW_RESERVED, which is defined in <i>Sti.h</i>.
 
-### -param lpInData 
+### -param lpInData [in]
 
-[in]
+
 Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 ### -param cbInDataSize
 
 Caller-supplied length, in bytes, of the data contained in the buffer pointed to by <i>lpInData</i>.
 
-### -param pOutData 
+### -param pOutData [in, out]
 
-[in, out]
+
 Caller-supplied pointer to a memory buffer to receive data from the device.
 
 ### -param dwOutDataSize
 
 Caller-supplied length, in bytes, of the buffer pointed to by <i>lpOutData</i>.
 
-### -param pdwActualData 
+### -param pdwActualData [out]
 
-[out]
+
 Receives the number of bytes actually written to <i>pOutData</i>.
 
 ## -returns

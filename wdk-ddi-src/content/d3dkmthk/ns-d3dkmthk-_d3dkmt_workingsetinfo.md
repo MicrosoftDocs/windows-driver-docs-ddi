@@ -52,17 +52,17 @@ The D3DKMT_WORKINGSETINFO structure describes information about the graphics ada
 
 ## -struct-fields
 
-### -field Flags
+### -field Flags [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_workingsetflags">D3DKMT_WORKINGSETFLAGS</a> structure that indicates, in bit-field flags, working-set properties.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_workingsetflags">D3DKMT_WORKINGSETFLAGS</a> structure that indicates, in bit-field flags, working-set properties.
 
-### -field MinimumWorkingSetPercentile
+### -field MinimumWorkingSetPercentile [out]
 
-[out] The minimum working-set percentile.
+The minimum working-set percentile.
 
-### -field MaximumWorkingSetPercentile
+### -field MaximumWorkingSetPercentile [out]
 
-[out] The maximum working-set percentile.
+The maximum working-set percentile.
 
 ## -see-also
 

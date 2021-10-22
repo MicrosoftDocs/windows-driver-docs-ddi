@@ -49,9 +49,9 @@ Remove an action from the collection.
 
 ## -parameters
 
-### -param pAction 
+### -param pAction [in]
 
-[in]
+
 The action to remove from this collection.
 
 ## -returns

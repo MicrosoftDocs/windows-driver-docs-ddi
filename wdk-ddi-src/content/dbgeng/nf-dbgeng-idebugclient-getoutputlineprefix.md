@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to the buffer to get the prefix.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size of the buffer.
 
-### -param PrefixSize 
+### -param PrefixSize [out, optional]
 
-[out, optional]
+
 A pointer to the size of the buffer.
 
 ## -returns

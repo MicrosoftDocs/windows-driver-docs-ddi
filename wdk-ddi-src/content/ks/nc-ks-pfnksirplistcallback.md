@@ -49,14 +49,14 @@ A streaming minidriver's <i>KStrIrpListCallback</i> routine is called to determi
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP to possibly move to the destination list from the source list.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Passed from <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksmoveirpsoncancelablequeue">KsMoveIrpsOnCancelableQueue</a>.
 
 ## -returns

@@ -52,7 +52,7 @@ Used to hold the arguments for <a href="/windows-hardware/drivers/ddi/d3dkmddi/n
 
 ## -struct-fields
 
-### -field ConnectionChange
+### -field ConnectionChange [out]
 
-[out] Buffer into which the oldest available change is copied by driver.
+Buffer into which the oldest available change is copied by driver.
 

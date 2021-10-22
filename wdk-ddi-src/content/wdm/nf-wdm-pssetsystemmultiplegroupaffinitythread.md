@@ -45,19 +45,19 @@ The **PsSetSystemMultipleGroupAffinityThread** function sets the multi-group sys
 
 ## -parameters
 
-### -param GroupAffinities
+### -param GroupAffinities [in]
 
-[in]
+
 Supplies a pointer to an array of group affinity structures, which describe the new system affinity of the current thread.
 
-### -param GroupCount
+### -param GroupCount [in]
 
-[in]
+
 Supplies the number of elements in the group affinity array.
 
-### -param AffinityToken
+### -param AffinityToken [in, out]
 
-[in, out]
+
 Supplies a pointer to an affinity token structure which must be returned by [**PsAllocateAffinityToken**](nf-wdm-psallocateaffinitytoken.md). On output it receives an opaque affinity token that must be passed to [**PsRevertToUserMultipleGroupAffinity**](nf-wdm-psreverttousermultiplegroupaffinitythread.md) to revert the thread to its previous affinity.
 
 ## -returns

@@ -49,14 +49,14 @@ The <i>CLIENT_WriteGpioPins</i> event callback function writes to a set of gener
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-### -param WriteParameters 
+### -param WriteParameters [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_write_pins_parameters">GPIO_WRITE_PINS_PARAMETERS</a> structure that describes a bank of GPIO pins and that contains the data to write to these pins.
 
 ## -returns

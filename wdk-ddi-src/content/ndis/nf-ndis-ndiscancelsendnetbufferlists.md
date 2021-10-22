@@ -51,16 +51,16 @@ Protocol drivers call the
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 The handle returned by the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function that
      identifies the miniport driver or virtual miniport to which the cancellation applies.
 
-### -param CancelId 
+### -param CancelId [in]
 
-[in]
+
 The cancellation identifier. This identifier specifies the network data for which transmission is
      being canceled.
 

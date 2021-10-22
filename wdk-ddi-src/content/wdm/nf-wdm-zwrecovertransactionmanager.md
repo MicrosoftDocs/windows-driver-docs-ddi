@@ -49,9 +49,9 @@ The <b>ZwRecoverTransactionManager</b> routine reconstructs the state of the tra
 
 ## -parameters
 
-### -param TransactionManagerHandle 
+### -param TransactionManagerHandle [in]
 
-[in]
+
 A handle to a <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a> that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransactionmanager">ZwCreateTransactionManager</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransactionmanager">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_RECOVER access to the object.
 
 ## -returns

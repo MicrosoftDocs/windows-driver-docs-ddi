@@ -48,17 +48,17 @@ The **FltGetSectionContext** routine retrieves a section context that was create
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] An opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
+An opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] A pointer to a file object for the stream.
+A pointer to a file object for the stream.
 
-### -param Context
+### -param Context [out]
 
-[out] A pointer to a caller-allocated variable that receives the address of the context.
+A pointer to a caller-allocated variable that receives the address of the context.
 
 ## -returns
 

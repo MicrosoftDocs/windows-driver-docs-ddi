@@ -46,14 +46,14 @@ The **MmGetSystemAddressForMdlSafe** macro returns a nonpaged system-space virtu
 
 ## -parameters
 
-### -param Mdl
+### -param Mdl [in]
 
-[in]
+
 Pointer to a buffer whose corresponding base virtual address is to be mapped.
 
-### -param Priority
+### -param Priority [in]
 
-[in]
+
 Specifies an **MM_PAGE_PRIORITY** value that indicates the importance of success under low available PTE conditions. Specify a priority value of **LowPagePriority**, **NormalPagePriority**, or **HighPagePriority**. Starting with Windows 8, the specified priority value can be bitwise-ORed with the **MdlMappingNoWrite** or **MdlMappingNoExecute** flags.
 
 *   **LowPagePriority** indicates that the mapping request can fail if the system is fairly low on resources. An example of this situation is a noncritical network connection where the driver can handle the mapping failure.

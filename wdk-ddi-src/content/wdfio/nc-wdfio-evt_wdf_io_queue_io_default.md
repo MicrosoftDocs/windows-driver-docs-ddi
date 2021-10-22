@@ -51,14 +51,14 @@ A driver's <i>EvtIoDefault</i> event callback function processes a specified I/O
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to the framework queue object that is associated with the I/O request.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -remarks

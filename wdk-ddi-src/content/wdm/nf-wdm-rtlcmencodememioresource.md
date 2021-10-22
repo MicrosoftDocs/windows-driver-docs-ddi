@@ -49,24 +49,24 @@ The <b>RtlCmEncodeMemIoResource</b> routine updates a <a href="/windows-hardware
 
 ## -parameters
 
-### -param Descriptor 
+### -param Descriptor [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to update.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 The resource type of the memory. This parameter can be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the range of allocated addresses.
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 The starting address of the range of memory or I/O port addresses.
 
 ## -returns

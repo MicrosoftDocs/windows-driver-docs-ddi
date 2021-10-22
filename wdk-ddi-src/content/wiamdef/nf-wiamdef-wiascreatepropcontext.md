@@ -53,23 +53,23 @@ The **wiasCreatePropContext** function allocates a property context to indicate 
 
 Specifies the total number of PROPSPEC structures in the *pPropSpec* array.
 
-### -param pPropSpec 
+### -param pPropSpec [in]
 
-[in]
+
 Pointer to the first element of an array of PROPSPEC structures identifying which properties are changing.
 
 ### -param cProps
 
 Specifies the number of property identifiers stored in this context.
 
-### -param pProps 
+### -param pProps [in, optional]
 
-[in, optional]
+
 Pointer to the first element of an array of property identifiers that indicate the properties to put into this property context.
 
-### -param pContext 
+### -param pContext [in]
 
-[in]
+
 Pointer to a [WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md) structure that contains a property context.
 
 ## -returns

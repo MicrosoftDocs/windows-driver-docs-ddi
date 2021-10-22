@@ -49,9 +49,9 @@ The <code>RegisterServiceGroup</code> method registers a service group with the 
 
 ## -parameters
 
-### -param ServiceGroup 
+### -param ServiceGroup [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. This is the service group that is to be registered.
 
 ## -remarks

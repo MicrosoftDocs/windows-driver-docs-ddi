@@ -49,9 +49,9 @@ The<b> KsGateRemoveOnInputFromAnd </b>function removes an existing input that is
 
 ## -parameters
 
-### -param AndGate 
+### -param AndGate [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the AND gate from which to remove an ON input.
 
 ## -remarks

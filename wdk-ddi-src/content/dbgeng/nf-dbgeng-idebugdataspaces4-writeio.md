@@ -49,39 +49,39 @@ The <b>WriteIo</b> method writes to the system and bus I/O memory.
 
 ## -parameters
 
-### -param InterfaceType 
+### -param InterfaceType [in]
 
-[in]
+
 Specifies the interface type of the I/O bus.  This parameter may take values in the INTERFACE_TYPE enumeration defined in wdm.h.
 
-### -param BusNumber 
+### -param BusNumber [in]
 
-[in]
+
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same interface type.
 
-### -param AddressSpace 
+### -param AddressSpace [in]
 
-[in]
+
 Set to one.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location of the requested data.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the data to write to the I/O bus.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
-### -param BytesWritten 
+### -param BytesWritten [out, optional]
 
-[out, optional]
+
 Receives the number of bytes written to I/O bus.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

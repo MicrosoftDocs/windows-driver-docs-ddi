@@ -49,34 +49,34 @@ The <b>CcCopyWriteEx</b> routine copies data from a user buffer to a cached file
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to a file object for the cached file to which the data is to be written.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length in bytes of the data to be written.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the buffer from which the data is to be copied.
 
-### -param IoIssuerThread 
+### -param IoIssuerThread [in]
 
-[in]
+
 The thread issuing the write request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
 ## -returns

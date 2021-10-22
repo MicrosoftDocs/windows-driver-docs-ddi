@@ -49,19 +49,19 @@ The <b>RtlGetGroupSecurityDescriptor</b> routine returns the primary group infor
 
 ## -parameters
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the security descriptor whose primary group information is to be returned.
 
-### -param Group 
+### -param Group [out]
 
-[out]
+
 Pointer to a variable that receives a pointer to the security identifier (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) for the primary group. If the security descriptor does not contain a primary group, <i>*Group</i> receives <b>NULL</b>.
 
-### -param GroupDefaulted 
+### -param GroupDefaulted [out]
 
-[out]
+
 Pointer to a Boolean variable that receives the value of the SE_GROUP_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL structure. This value is valid only if <i>*Group</i> receives a non-<b>NULL</b> value.
 
 ## -returns

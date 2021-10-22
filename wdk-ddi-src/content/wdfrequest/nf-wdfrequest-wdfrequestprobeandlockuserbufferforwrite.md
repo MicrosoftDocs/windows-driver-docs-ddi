@@ -52,24 +52,24 @@ The <b>WdfRequestProbeAndLockUserBufferForWrite</b> method verifies that an I/O 
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the request's output buffer. For more information, see the following Remarks section.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the request's output buffer.
 
-### -param MemoryObject 
+### -param MemoryObject [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework memory object that represents the user output buffer.
 
 ## -returns
