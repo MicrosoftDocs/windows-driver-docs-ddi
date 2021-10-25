@@ -72,7 +72,7 @@ Specifies the unsigned long integer to convert.
 
 
 
-[RtlEqualLuid](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalluid)
+[RtlEqualLuid](../wdm/nf-wdm-rtlequalluid.md)
 
 
 

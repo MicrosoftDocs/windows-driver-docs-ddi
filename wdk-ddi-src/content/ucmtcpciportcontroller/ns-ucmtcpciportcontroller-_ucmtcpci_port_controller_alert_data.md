@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains information about hardware alerts received on the port controller object. This structure is used in the [UcmTcpciPortControllerAlert](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert) call. Call [UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_alert_data_init) to initialize this structure.
+Contains information about hardware alerts received on the port controller object. This structure is used in the [UcmTcpciPortControllerAlert](./nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md) call. Call [UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT](./nf-ucmtcpciportcontroller-ucmtcpci_port_controller_alert_data_init.md) to initialize this structure.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Size of this structure.
 
 ### -field AlertType
 
-A [UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/ne-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_type) value that indicates the type of hardware alert.
+A [UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE](./ne-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_type.md) value that indicates the type of hardware alert.
 
 ### -field CCStatus
 
@@ -80,4 +80,4 @@ A pointer to a **UCMTCPCI_PORT_CONTROLLER_RECEIVE_BUFFER** structure that repres
 
 ## -see-also
 
-[UcmTcpciPortControllerAlert](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert)
+[UcmTcpciPortControllerAlert](./nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md)

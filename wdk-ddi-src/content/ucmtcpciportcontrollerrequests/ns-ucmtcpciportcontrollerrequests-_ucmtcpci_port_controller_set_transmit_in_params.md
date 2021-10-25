@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Stores the values of TRANSMIT Register. This structure is used in the [IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT](/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_transmit) request.
+Stores the values of TRANSMIT Register. This structure is used in the [IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT](./ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_transmit.md) request.
 
 ## -struct-fields
 
 ### -field PortControllerObject
 
-Handle to the port controller object that the client driver received in the previous call to [UcmTcpciPortControllerCreate](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate).
+Handle to the port controller object that the client driver received in the previous call to [UcmTcpciPortControllerCreate](../ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md).
 
 ### -field Transmit
 
@@ -64,4 +64,4 @@ A pointer to the **UCMTCPCI_PORT_CONTROLLER_TRANSMIT** structure that contains t
 
 ## -see-also
 
-[IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT](/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_transmit)
+[IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT](./ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_transmit.md)
