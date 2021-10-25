@@ -68,7 +68,7 @@ Starting in Windows 7, **KeRundownQueue** wakes any threads currently waiting on
 
 Prior to Windows 7, **KeRundownQueue** did not wake waiting threads when the queue was rundown. To avoid the possibility of leaving threads waiting forever on these OS versions, **KeRundownQueue** should never be called for a queue if any threads are waiting on the queue object.
 
-For more information about using driver-managed internal queues, see [Driver-Managed Queues](/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues).
+For more information about using driver-managed internal queues, see [Driver-Managed Queues](../_kernel/index.md#driver-managed-queues).
 
 ## -see-also
 

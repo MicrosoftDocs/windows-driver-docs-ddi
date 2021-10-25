@@ -73,4 +73,4 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 
 
-[MmInitializeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mminitializemdl)
+[MmInitializeMdl](./nf-wdm-mminitializemdl.md)
