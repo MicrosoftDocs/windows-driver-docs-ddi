@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The GetModes method, Gets the audio signal processing modes supported by an audio pin.
+The GetModes method retrieves the audio signal processing modes supported by an audio pin.
 
 ## -parameters
 
