@@ -48,34 +48,31 @@ The driver defines/specifies this callback to create circuit stream instances.
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXCIRCUIT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)) associated with the new stream instance.
 
 ### -param Pin
 
-TBD - An existing (or new TBD?) ACXPIN object.  
+The ACXPIN object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) associated with the new stream instance.  
 
 ### -param StreamInit
 
-Defined by a ACXSTREAM_INIT opaque structure, that is used to define the stream initialization.
+The ACXSTREAM_INIT object. This is an opaque structure, that is used to define the stream initialization.
 
 ### -param StreamFormat
 
-An ACXDATAFORMAT object that defines the stream data format.  Use the TBD function to initialize the ACXDATAFORMAT object before using it here. 
+An ACXDATAFORMAT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) that defines the stream data format. 
 
 ### -param SignalProcessingMode
 
-The AUDIO_SIGNALPROCESSINGMODE to be used for new stream circuits. These are the signal processing modes that TBD. For more information about audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
-
-TBD single GUID - `_In_    const GUID    * SignalProcessingMode`
+A GUID identifying the audio signal processing mode of the new stream circuit. For more information about audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
 
 ### -param VarArguments
 
-Additional arguments that are provided to TBD. TBD - if these additional arguments are not currently required, for your stream creation, they do not need to implemented???? TBD 
-
+An optional ACXOBJECTBAG object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) containing additional arguments to be used to initialize the stream.
 
 ## -returns
 
@@ -83,29 +80,32 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-The first step in Stream Creation is creating the ACXSTREAM instance for each ACXCIRCUIT in the Endpoint Audio Path. ACX will call each circuit’s EvtAcxCircuitCreateStream. ACX will start with the head circuit and call each circuit’s CreateStream in order, ending with the tail circuit. The order can be reversed by specifying the AcxStreamBridgeInvertChangeStateSequence flag for the Stream Bridge. After all circuits have created a stream object, the stream objects will handle the following logic. Depending on requirements, a 3rd party Endpoint Manager may be given the opportunity to specify different ordering.  
+The first step in Stream Creation is creating the ACXSTREAM instance for each ACXCIRCUIT in the Endpoint Audio Path. ACX will call each circuit’s EvtAcxCircuitCreateStream. ACX will start with the head circuit and call each circuit’s CreateStream in order, ending with the tail circuit.
+The drivers have an opportunity to do any initialization before or after the next circuit in the chain is invoked, see ACXSTREAMBRIDGE object for more information.
 
-The Stream Creation Request is sent to the appropriate PIN generated as part of the head circuit’s topology generation by calling the EvtAcxCircuitCreateStream specified during head circuit creation.  
+The Stream Creation Request is sent to the appropriate ACXPIN exposed as part of the head circuit’s topology generation by calling the EvtAcxCircuitCreateStream specified during head circuit creation.  
 
-The circuit is the circuit that initially handles the stream creation request.   
+The driver receiving the stream creation callback performs the following operations:   
 
-- It allocates the AcxStreamConfig structure and fills it in  
-- It creates the ACXSTREAM object   
-- It creates any stream-specific elements (e.g. ACXVOLUME)  
+- It initializes the ACXSTREAM_INIT opaque stracture by using ACX defined DDIs (AcxStreamInit*)
+- It creates the ACXSTREAM object using the AcxStreamCreate or AcxRtStreamCreate ACX DDI. The AcxRtStreamCreate is only used for streaming ACXPIN connected to upper user mode audio pipeline, all other circuits of the endpoint path must use the AcxStreamCreate DDI instead. 
+- It creates any stream-specific elements (e.g. ACXAUDIOENGINE)
 - It adds the elements to the ACXSTREAM object  
-- It returns the ACXSTREAM object that was created to the ACX framework  
+- It returns STATUS_SUCCESS to indicate that the stream creation callback completed successfully.
 
-The communication channel between circuits in an audio path uses ACXTARGETSTREAM objects. I will assume for this design that each circuit will have access to an IO Queue for the circuit in front of it and the circuit behind it in the Endpoint Audio Path. It is assumed that an Endpoint Audio Path is linear and bi-directional. The actual IO Queue handling will be performed by the ACX framework. 
+The stream communication channel between circuits in an audio path uses ACXTARGETSTREAM objects.
   
 Once the default target circuit creates the ACXSTREAM object, each circuit will be given an opportunity to perform circuit-specific handling for the stream. Each circuit in turn performs one or more of the following actions:  
 
-- Create and add a Context object to the ACXSTREAM with circuit-specific configuration or data  
+- Create and add a Context object to the ACXSTREAM with stream driver specific configuration or data  
 - Return control to the ACX framework, which will perform the same action with the next circuit in the Endpoint Audio Path  
 
 
 ### Example
 
 TBD - Thinking we should refer to the main ACX driver sample, as the code for this call back, I believe is 100s of lines.
+
+Yes, please check the up-to-date sample. the code below is more a unit-test and not a real code, for example the elements added below, they didn't do anything. please take a look at the single stack example (which adds an audio engine). 
 
 Example usage is shown below.
 
@@ -179,3 +179,4 @@ Return Value:
 
 [acxcircuit.h header](index.md)
 
+READY2GO (with some comments above about the sample).
