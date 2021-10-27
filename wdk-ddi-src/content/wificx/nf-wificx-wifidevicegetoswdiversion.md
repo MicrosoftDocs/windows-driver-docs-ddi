@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **WifiDeviceGetOsWdiVersion** function gets the TLV version that WifiCx uses to initialize client driver's [TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-parser).
+The **WifiDeviceGetOsWdiVersion** function gets the TLV version that WifiCx uses to initialize client driver's [TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-interface).
 
 ## -parameters
 
@@ -57,6 +57,6 @@ Returns the TLV version that WifiCx uses to initialize client driver's TLV parse
 
 ## -see-also
 
-[WiFiCx TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-parser)
+[WiFiCx TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-interface)
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)

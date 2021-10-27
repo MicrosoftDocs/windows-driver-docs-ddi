@@ -70,7 +70,7 @@ This enumeration is a value in the [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardwa
 
 ## -see-also
 
-[WPA3-SAE Authentication](/windows-hardware/drivers/netcx/wpa3-sae-authentication)
+[WPA3-SAE Authentication](/windows-hardware/drivers/netcx/wificx-wpa3-sae-authentication)
 
 [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
 
