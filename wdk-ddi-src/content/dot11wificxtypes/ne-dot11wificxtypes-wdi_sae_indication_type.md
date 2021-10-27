@@ -70,6 +70,6 @@ This enumeration is a value in the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_N
 
 ## -see-also
 
-[WPA3-SAE Authentication](/windows-hardware/drivers/netcx/wpa3-sae-authentication)
+[WPA3-SAE Authentication](/windows-hardware/drivers/netcx/wificx-wpa3-sae-authentication)
 
 [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/netcx/ndis-status-wdi-indication-sae-auth-params-needed)
