@@ -49,9 +49,9 @@ Removes a string from the collection.
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The 0-based index value of the string to remove.
 
 ## -returns

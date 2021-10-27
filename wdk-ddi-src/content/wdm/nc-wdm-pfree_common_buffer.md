@@ -49,29 +49,29 @@ The <b>FreeCommonBuffer</b> routine frees a common buffer allocated by <a href="
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to deallocate.
 
-### -param LogicalAddress 
+### -param LogicalAddress [in]
 
-[in]
+
 Specifies the logical address of the allocated memory range.
 
-### -param VirtualAddress 
+### -param VirtualAddress [in]
 
-[in]
+
 Pointer to the corresponding virtual address of the allocated memory range.
 
-### -param CacheEnabled 
+### -param CacheEnabled [in]
 
-[in]
+
 Indicates whether the allocated memory is cached.
 
 ## -remarks

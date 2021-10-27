@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_list_entry.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 09/14/2021
 keywords: ["SPB_TRANSFER_LIST_ENTRY structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_list_entry, SPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_LIST_ENTRY, spb/SPB_TRANSFER_LIST_ENTRY"
 req.header: spb.h
@@ -45,51 +45,35 @@ api_name:
 
 # SPB_TRANSFER_LIST_ENTRY structure
 
-
 ## -description
 
-The <b>SPB_TRANSFER_LIST_ENTRY</b> structure describes a single transfer in an <a href="/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
+The **SPB_TRANSFER_LIST_ENTRY** structure describes a single transfer in an [I/O transfer sequence](/windows-hardware/drivers/spb/i-o-transfer-sequences).
 
 ## -struct-fields
 
 ### -field Direction
 
-The direction of the transfer.  This member is set to one of the following <a href="/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_direction">SPB_TRANSFER_DIRECTION</a> enumeration values:
+The direction of the transfer. This member is set to one of the following [SPB_TRANSFER_DIRECTION](./ne-spb-spb_transfer_direction.md) enumeration values:
 
-<ul>
-<li><b>SpbTransferDirectionFromDevice</b></li>
-<li><b>SpbTransferDirectionToDevice</b></li>
-</ul>
+* **SpbTransferDirectionFromDevice**
+* **SpbTransferDirectionToDevice**
 
 ### -field DelayInUs
 
-An optional delay, in microseconds, before this transfer begins. For more information, see the description of the <b>DelayInUs</b> member in <a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a>.
+An optional delay, in microseconds, before this transfer begins. For more information, see the description of the **DelayInUs** member in [SPB_TRANSFER_DESCRIPTOR](../spbcx/ns-spbcx-spb_transfer_descriptor.md).
 
 ### -field Buffer
 
-The buffer for this transfer. This member uses one of the following buffer formats: simple buffer, scatter-gather list, or (for kernel-mode clients) MDL. For more information about buffer formats, see <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>.
+The buffer for this transfer. This member uses one of the following buffer formats: simple buffer, scatter-gather list, or (for kernel-mode clients) MDL. For more information about buffer formats, see [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md).
 
 ## -remarks
 
-To request an I/O transfer sequence for a target device on the bus, a client (peripheral driver) of the SPB controller driver sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request that describes the sequence. The transfers in the sequence are described by an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a> structure that is followed by an array of one or more <b>SPB_TRANSFER_LIST_ENTRY</b> structures. Each element in this array describes an individual transfer in the sequence.
+To request an I/O transfer sequence for a target device on the bus, a client (peripheral driver) of the SPB controller driver sends an [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence) request that describes the sequence. The transfers in the sequence are described by an [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md) structure that is followed by an array of one or more **SPB_TRANSFER_LIST_ENTRY** structures. Each element in this array describes an individual transfer in the sequence.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_direction">SPB_TRANSFER_DIRECTION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a>
-
+* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+* [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md)
+* [SPB_TRANSFER_DESCRIPTOR](../spbcx/ns-spbcx-spb_transfer_descriptor.md)
+* [SPB_TRANSFER_DIRECTION](./ne-spb-spb_transfer_direction.md)
+* [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)

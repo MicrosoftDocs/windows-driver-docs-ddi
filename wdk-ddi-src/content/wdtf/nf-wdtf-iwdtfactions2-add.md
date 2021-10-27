@@ -49,9 +49,9 @@ Add a single action to the collection.
 
 ## -parameters
 
-### -param pAction 
+### -param pAction [in]
 
-[in]
+
 The action to add to this collection.
 
 ## -returns

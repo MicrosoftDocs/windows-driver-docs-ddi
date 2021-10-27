@@ -49,9 +49,9 @@ The <b>SetImagePathWide</b>  method sets the executable image path.
 
 ## -parameters
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the new executable image path.  This is a string that contains directories separated by semicolons (;).
 
 ## -returns

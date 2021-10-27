@@ -49,28 +49,28 @@ The <b>wiasSetPropertyAttributes </b>function sets the access flags and valid va
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param cPropSpec
 
 Specifies the number of properties.
 
-### -param pPropSpec 
+### -param pPropSpec [in]
 
-[in]
+
 Pointer to a PROPSPEC structure indicating the properties for which to set valid values and access flags.
 
-### -param pulAccessFlags 
+### -param pulAccessFlags [in]
 
-[in]
+
 Pointer to an array that contains the access flags to be written.
 
-### -param pPropVar 
+### -param pPropVar [out]
 
-[out]
+
 Pointer to an array of PROPVARIANT structures that contains the valid values to be written.
 
 ## -returns

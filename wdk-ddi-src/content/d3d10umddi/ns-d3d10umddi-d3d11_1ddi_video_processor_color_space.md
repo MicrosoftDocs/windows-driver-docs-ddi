@@ -88,9 +88,9 @@ Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). 
 |0|Conventional YCbCr|
 |1|Extended YCbCr (xvYCC)|
 
-### -field Nominal_Range
+### -field Nominal_Range [in]
 
-[in] A UINT value that specifies that the luminance range of YUV data is described by the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> enumeration. The default state value is zero, which indicates the studio luminance range of 16 to 235, inclusive [16, 235].
+A UINT value that specifies that the luminance range of YUV data is described by the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> enumeration. The default state value is zero, which indicates the studio luminance range of 16 to 235, inclusive [16, 235].
 
 When YUV-format data is converted to RGB format, the luminance range specified by <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> is applied to the YUV data before the conversion to RGB.
 

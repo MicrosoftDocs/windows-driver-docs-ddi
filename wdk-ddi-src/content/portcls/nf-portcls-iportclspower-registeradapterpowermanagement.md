@@ -49,14 +49,14 @@ The <code>RegisterAdapterPowerManagement</code> method registers the power manag
 
 ## -parameters
 
-### -param _pUnknown 
+### -param _pUnknown [in]
 
-[in]
+
 Specifies a pointer to <b>IUnknown</b>. . PortCls queries this <b>IUnknown</b> object for the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> or the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement2">IAdapterPowerManagement2</a> interface of the adapter.
 
-### -param _DeviceObject 
+### -param _DeviceObject [in]
 
-[in]
+
 Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 ## -returns

@@ -51,29 +51,29 @@ The <b>WdfDevicePostEvent</b> method asynchronously notifies applications that a
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param EventGuid 
+### -param EventGuid [in]
 
-[in]
+
 The GUID for the event. The GUID is determined by the application and the driver and is opaque to the framework.
 
-### -param WdfEventType 
+### -param WdfEventType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_event_type">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 A pointer to a buffer that contains data that is associated with the event. <b>NULL</b> is a valid value.
 
-### -param DataSizeCb 
+### -param DataSizeCb [in]
 
-[in]
+
 The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size value if <i>Data</i> is set to <b>NULL</b>.
 
 ## -returns

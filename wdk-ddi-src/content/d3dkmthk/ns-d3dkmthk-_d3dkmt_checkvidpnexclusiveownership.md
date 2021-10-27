@@ -52,13 +52,13 @@ The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to de
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the graphics adapter.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the graphics adapter.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to check about.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to check about.
 
 ## -see-also
 

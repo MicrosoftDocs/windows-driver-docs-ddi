@@ -50,9 +50,9 @@ A port monitor server DLL's <code>XcvClosePort</code> function closes a printer 
 
 ## -parameters
 
-### -param hXcv 
+### -param hXcv [in]
 
-[in]
+
 Caller-supplied printer handle obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>.
 
 ## -returns

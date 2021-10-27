@@ -48,22 +48,22 @@ Used to register budget change notification.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device.
+A handle to the device.
 
-### -field Callback
+### -field Callback [in]
 
-[in] Pointer to the [PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK](nc-d3dkmthk-pfnd3dkmt_budgetchangenotificationcallback.md) callback.
+Pointer to the [PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK](nc-d3dkmthk-pfnd3dkmt_budgetchangenotificationcallback.md) callback.
 
-### -field Context
+### -field Context [in]
 
-[in] The callback context.
+The callback context.
 
-### -field Handle
+### -field Handle [out]
 
  
-[out] A handle to unregister.
+A handle to unregister.
 
 ## -remarks
 

@@ -53,14 +53,14 @@ A driver's <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_devic
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to the framework device object to which resources will be assigned.
 
-### -param IoResourceRequirementsList 
+### -param IoResourceRequirementsList [in]
 
-[in]
+
 A handle to a resource-requirements-list object, which represents the device's <a href="/windows-hardware/drivers/kernel/hardware-resources">resource requirements list</a>.
 
 ## -returns

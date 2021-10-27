@@ -45,21 +45,21 @@ Attaches a device to an existing domain.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param PhysicalDeviceObject
+### -param PhysicalDeviceObject [_In_]
 
-[_In_] A pointer the physical device object (PDO) in the device stack of the device.
+A pointer the physical device object (PDO) in the device stack of the device.
 
-### -param InputMappingIdBase
+### -param InputMappingIdBase [_In_]
 
-[_In_] The input mapping base for the device's desired stream.
+The input mapping base for the device's desired stream.
 
-### -param MappingCount
+### -param MappingCount [_In_]
 
-[_In_] The count of mappings beginning at the base.
+The count of mappings beginning at the base.
 
 ## -returns
 

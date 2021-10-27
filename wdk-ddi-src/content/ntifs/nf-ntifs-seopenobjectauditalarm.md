@@ -49,49 +49,49 @@ The <b>SeOpenObjectAuditAlarm</b> routine generates audit and alarm messages whe
 
 ## -parameters
 
-### -param ObjectTypeName 
+### -param ObjectTypeName [in]
 
-[in]
+
 Pointer to a null-terminated string specifying the type of object to which the client is requesting access. This string appears in any audit message that is generated.
 
-### -param Object 
+### -param Object [in, optional]
 
-[in, optional]
+
 Address of the object being opened. This value is needed only to enter into log messages. If the open attempt fails, the value of <i>Object</i> is ignored. Otherwise, it must be provided.
 
-### -param AbsoluteObjectName 
+### -param AbsoluteObjectName [in, optional]
 
-[in, optional]
+
 Pointer to a null-terminated string specifying the name of the object being opened. This string appears in any audit message that is generated.
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 A pointer to the security descriptor structure for the object being opened.
 
-### -param AccessState 
+### -param AccessState [in]
 
-[in]
+
 Pointer to an access state structure containing the object's subject context, remaining desired access types, granted access types, and, optionally, a privilege set to indicate which privileges were used to permit the access.
 
-### -param ObjectCreated 
+### -param ObjectCreated [in]
 
-[in]
+
 Set to <b>TRUE</b> if the open operation causes a new object to be created, or <b>FALSE</b> if an existing object is opened.
 
-### -param AccessGranted 
+### -param AccessGranted [in]
 
-[in]
+
 Set to <b>TRUE</b> if open access was granted based on a previous access check or privilege check, or <b>FALSE</b> if it was denied.
 
-### -param AccessMode 
+### -param AccessMode [in]
 
-[in]
+
 Access mode used for the access check. Either <b>UserMode</b> or <b>KernelMode</b>.
 
-### -param GenerateOnClose 
+### -param GenerateOnClose [out]
 
-[out]
+
 Pointer to a flag set by the audit generation routine when <b>SeOpenObjectAuditAlarm</b> returns.
 
 ## -remarks

@@ -44,33 +44,33 @@ api_name:
 
 ## -description
 
-The **ZwPowerInformation** routine sets or retrieves system power information.
+The **NtPowerInformation** routine sets or retrieves system power information.
 
 ## -parameters
 
-### -param InformationLevel
+### -param InformationLevel [in]
 
-[in] Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported *POWER_INFORMATION_LEVEL* value is **PlatformInformation**.
+Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported *POWER_INFORMATION_LEVEL* value is **PlatformInformation**.
 
 | Value | Description |
 |--|--|
 | **PlatformInformation** | Information represents the currently supported power capabilities of the system. Information may change as drivers are installed. For example, the installation of legacy device drivers that do not support power management might modify the capabilities of the system. |
 
-### -param InputBuffer
+### -param InputBuffer [in, optional]
 
-[in, optional] Pointer to a caller-allocated input buffer. This parameter must be **NULL**, otherwise **ERROR_INVALID_PARAMETER** is returned.
+Pointer to a caller-allocated input buffer. This parameter must be **NULL**, otherwise **ERROR_INVALID_PARAMETER** is returned.
 
-### -param InputBufferLength
+### -param InputBufferLength [in]
 
-[in] Size, in bytes, of the buffer at *InputBuffer*. The parameter must be set to zero.
+Size, in bytes, of the buffer at *InputBuffer*. The parameter must be set to zero.
 
-### -param OutputBuffer
+### -param OutputBuffer [out, optional]
 
-[out, optional] A pointer to an output buffer. The data type of this buffer depends on the information level requested in the *InformationLevel* parameter. For the **PlatformInformation** level, the only currently supported value, the *OutputBuffer* parameter is required and should be of the [POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md) type.
+A pointer to an output buffer. The data type of this buffer depends on the information level requested in the *InformationLevel* parameter. For the **PlatformInformation** level, the only currently supported value, the *OutputBuffer* parameter is required and should be of the [POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md) type.
 
-### -param OutputBufferLength
+### -param OutputBufferLength [in]
 
-[in] Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. *PlatformInformation*, the only currently supported value, requires a buffer that is the size of a [POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md) structure.
+Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. *PlatformInformation*, the only currently supported value, requires a buffer that is the size of a [POWER_PLATFORM_INFORMATION](./ns-wdm-_power_platform_information.md) structure.
 
 ## -returns
 

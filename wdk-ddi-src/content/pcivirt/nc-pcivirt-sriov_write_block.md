@@ -49,24 +49,24 @@ Writes data to the specified configuration block of a PCI Express SR-IOV Virtual
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this write operation applies.
 
-### -param BlockId 
+### -param BlockId [in]
 
-[in]
+
 A number identifying the block to be written.  This is defined by the provider of the PF driver.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a buffer that contains the data to write to the VF's  configuration space.
 
 ### -param Length

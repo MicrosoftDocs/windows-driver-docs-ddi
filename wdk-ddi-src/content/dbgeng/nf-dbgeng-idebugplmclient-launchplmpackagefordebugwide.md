@@ -49,39 +49,39 @@ Launches a suspended Process Lifecycle Management (PLM) application.
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the application.
 
-### -param Timeout 
+### -param Timeout [in]
 
-[in]
+
 A time-out value.
 
-### -param PackageFullName 
+### -param PackageFullName [in]
 
-[in]
+
 A pointer to the package name.
 
-### -param AppName 
+### -param AppName [in]
 
-[in]
+
 A pointer to the application name.
 
-### -param Arguments 
+### -param Arguments [in, optional]
 
-[in, optional]
+
 A pointer an arguments string.
 
-### -param ProcessId 
+### -param ProcessId [out]
 
-[out]
+
 A pointer to a process ID output.
 
-### -param ThreadId 
+### -param ThreadId [out]
 
-[out]
+
 A pointer to a thread ID output.
 
 ## -returns

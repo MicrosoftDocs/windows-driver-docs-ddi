@@ -49,19 +49,19 @@ The <b>ZwQuerySymbolicLinkObject</b> routine returns a Unicode string that conta
 
 ## -parameters
 
-### -param LinkHandle 
+### -param LinkHandle [in]
 
-[in]
+
 Handle to the symbolic-link object that you want to query. This handle is created by a successful call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>.
 
-### -param LinkTarget 
+### -param LinkTarget [in, out]
 
-[in, out]
+
 Pointer to an initialized Unicode string that receives the target of the symbolic link.
 
-### -param ReturnedLength 
+### -param ReturnedLength [out, optional]
 
-[out, optional]
+
  contains the maximum number of bytes to copy into the Unicode string at <i>LinkTarget</i>. On output, the unsigned long integer contains the length of the Unicode string naming the target of the symbolic link.
 
 ## -returns

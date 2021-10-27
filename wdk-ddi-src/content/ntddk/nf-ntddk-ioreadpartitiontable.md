@@ -49,24 +49,24 @@ The <b>IoReadPartitionTable</b> routine is <b>obsolete</b> and is provided only 
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for the disk whose partitions are to be read.
 
-### -param SectorSize 
+### -param SectorSize [in]
 
-[in]
+
 Specifies the size of the sectors on the disk.
 
-### -param ReturnRecognizedPartitions 
+### -param ReturnRecognizedPartitions [in]
 
-[in]
+
 Indicates whether only recognized partitions or all partition entries should be returned.
 
-### -param PartitionBuffer 
+### -param PartitionBuffer [out]
 
-[out]
+
 Pointer to an uninitialized address. If successful, <b>IoReadPartitionTable</b> allocates the memory for this buffer from nonpaged pool and returns the drive layout information in it.
 
 ## -returns

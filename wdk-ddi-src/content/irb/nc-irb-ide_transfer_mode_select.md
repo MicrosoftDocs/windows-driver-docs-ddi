@@ -50,9 +50,9 @@ The <b><i>AtaControllerTransferModeSelect</i></b> miniport driver routine select
 
 ## -parameters
 
-### -param ControllerExtension 
+### -param ControllerExtension [in]
 
-[in]
+
 A pointer to the controller extension.
 
 ### -param TransferModeSelect

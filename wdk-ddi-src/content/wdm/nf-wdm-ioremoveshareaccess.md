@@ -49,14 +49,14 @@ The <b>IoRemoveShareAccess</b> routine removes the access and share-access infor
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to the file object, which usually is being closed by the current thread.
 
-### -param ShareAccess 
+### -param ShareAccess [in, out]
 
-[in, out]
+
 Pointer to the share-access structure that describes how the open file object is currently being accessed.
 
 ## -remarks

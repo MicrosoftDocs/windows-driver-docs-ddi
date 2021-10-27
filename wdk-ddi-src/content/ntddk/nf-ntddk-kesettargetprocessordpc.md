@@ -49,14 +49,14 @@ The <b>KeSetTargetProcessorDpc</b> routine specifies the processor that a DPC ro
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc [in, out]
 
-[in, out]
+
 Pointer to the caller's DPC object, which <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a> already initialized.
 
-### -param Number 
+### -param Number [in]
 
-[in]
+
 Specifies the zero-based number of the target processor on which the DPC should be queued and executed.
 
 ## -remarks

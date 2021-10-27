@@ -4,7 +4,7 @@ title: _SPB_CONTROLLER_CONFIG (spbcx.h)
 description: The SPB_CONTROLLER_CONFIG structure contains the configuration settings for an SPB controller driver.
 old-location: spb\spb_controller_config.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 09/14/2021
 keywords: ["SPB_CONTROLLER_CONFIG structure"]
 ms.keywords: "*PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG structure pointer [Buses], SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG structure [Buses], _SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG, spbcx/SPB_CONTROLLER_CONFIG"
 req.header: spbcx.h
@@ -48,122 +48,75 @@ api_name:
 
 # _SPB_CONTROLLER_CONFIG structure
 
-
 ## -description
 
-The <b>SPB_CONTROLLER_CONFIG</b> structure contains the configuration settings for an SPB controller driver.
+The *SPB_CONTROLLER_CONFIG* structure contains the configuration settings for an SPB controller driver.
 
 ## -struct-fields
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a> method uses this parameter value to determine which version of the structure is being used.
+The size, in bytes, of this structure. The [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md) method uses this parameter value to determine which version of the structure is being used.
 
 ### -field ControllerDispatchType
 
-The dispatch type of the I/O queue for the controller driver. Set this member to either <b>WdfIoQueueDispatchSequential</b> or <b>WdfIoQueueDispatchParallel</b>, but not to <b>WdfIoQueueDispatchManual</b>. The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes this member to its default value, <b>WdfIoQueueDispatchSequential</b>. For more information about these dispatch types, see <a href="/windows-hardware/drivers/wdf/example-uses-of-i-o-queues">Example Uses of I/O Queues</a>.
+The dispatch type of the I/O queue for the controller driver. Set this member to either *WdfIoQueueDispatchSequential* or *WdfIoQueueDispatchParallel*, but not to *WdfIoQueueDispatchManual*. The *SPB_CONTROLLER_CONFIG_INIT* function initializes this member to its default value, *WdfIoQueueDispatchSequential*. For more information about these dispatch types, see [Example Uses of I/O Queues](/windows-hardware/drivers/wdf/example-uses-of-i-o-queues).
 
-A controller driver that operates in subordinate mode should set this member to <b>WdfIoQueueDispatchParallel</b>. For example, an I²C controller might be attached as a peripheral device to an SPI bus. This device acts as a master on the I²C bus, but is a subordinate on the SPI bus.
+A controller driver that operates in subordinate mode should set this member to *WdfIoQueueDispatchParallel*. For example, an I<sup>2</sup>C controller might be attached as a peripheral device to an SPI bus. This device acts as a master on the I<sup>2</sup>C bus, but is a subordinate on the SPI bus.
 
 ### -field PowerManaged
 
-Whether the I/O queue for the controller driver should be power-managed. Set this member to <b>WdfTrue</b> to indicate that the queue should be power-managed.  Set this member to <b>WdfFalse</b> to indicate that the queue should not be power-managed.  If this member is set to <b>WdfDefault</b>, the queue will be power-managed unless the driver calls the <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetfilter">WdfFdoInitSetFilter</a> method, which identifies the caller as an upper-level or lower-level filter driver. The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes this member to <b>WdfDefault</b>.
+Whether the I/O queue for the controller driver should be power-managed. Set this member to *WdfTrue* to indicate that the queue should be power-managed. Set this member to *WdfFalse* to indicate that the queue should not be power-managed. If this member is set to *WdfDefault*, the queue will be power-managed unless the driver calls the [WdfFdoInitSetFilter](../wdffdo/nf-wdffdo-wdffdoinitsetfilter.md) method, which identifies the caller as an upper-level or lower-level filter driver. The *SPB_CONTROLLER_CONFIG_INIT* function initializes this member to *WdfDefault*.
 
-When I/O requests are available in a power-managed queue, the framework delivers the requests to the driver only if the device is in its working (D0) state. For more information, see <a href="/windows-hardware/drivers/wdf/power-management-for-i-o-queues">Power Management for I/O Queues</a>.
+When I/O requests are available in a power-managed queue, the framework delivers the requests to the driver only if the device is in its working (D0) state. For more information, see [Power Management for I/O Queues](/windows-hardware/drivers/wdf/power-management-for-i-o-queues).
 
 ### -field EvtSpbTargetConnect
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback function. This function is implemented by the SPB controller driver. The <b>EvtSpbTargetConnect</b> member is optional and can be NULL.
+A pointer to the [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md) callback function. This function is implemented by the SPB controller driver. The *EvtSpbTargetConnect* member is optional and can be NULL.
 
 ### -field EvtSpbTargetDisconnect
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_disconnect">EvtSpbTargetDisconnect</a> callback function. This function is implemented by the SPB controller driver. The <b>EvtSpbTargetDisconnect</b> member is optional and can be NULL.
+A pointer to the [EvtSpbTargetDisconnect](./nc-spbcx-evt_spb_target_disconnect.md) callback function. This function is implemented by the SPB controller driver. The *EvtSpbTargetDisconnect* member is optional and can be NULL.
 
 ### -field EvtSpbControllerLock
 
-The pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a> callback function. This function is implemented by the SPB controller driver. The <b>EvtSpbControllerLock</b> member is optional and can be NULL. For more information about the <i>EvtSpbControllerLock</i> function, see <a href="/windows-hardware/drivers/spb/handling-client-implemented-sequences">Handling Client-Implemented Sequences</a>.
+The pointer to the [EvtSpbControllerLock](./nc-spbcx-evt_spb_controller_lock.md) callback function. This function is implemented by the SPB controller driver. The *EvtSpbControllerLock* member is optional and can be NULL. For more information about the *EvtSpbControllerLock* function, see [Handling Client-Implemented Sequences](/windows-hardware/drivers/spb/handling-client-implemented-sequences).
 
 ### -field EvtSpbControllerUnlock
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock">EvtSpbControllerUnlock</a> callback function. This function is implemented by the SPB controller driver. This member is optional and can be NULL. For more information about the <i>EvtSpbControllerUnlock</i> function, see <a href="/windows-hardware/drivers/spb/handling-client-implemented-sequences">Handling Client-Implemented Sequences</a>.
+A pointer to the [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md) callback function. This function is implemented by the SPB controller driver. This member is optional and can be NULL. For more information about the *EvtSpbControllerUnlock* function, see [Handling Client-Implemented Sequences](/windows-hardware/drivers/spb/handling-client-implemented-sequences).
 
 ### -field EvtSpbIoRead
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_read">EvtSpbControllerIoRead</a> callback function. This function is implemented by the SPB controller driver. This member is not optional and must not be NULL.
+A pointer to the [EvtSpbControllerIoRead](./nc-spbcx-evt_spb_controller_read.md) callback function. This function is implemented by the SPB controller driver. This member is not optional and must not be NULL.
 
 ### -field EvtSpbIoWrite
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_write">EvtSpbControllerIoWrite</a> callback function. This function is implemented by the SPB controller driver. This member is not optional and must not be NULL.
+A pointer to the [EvtSpbControllerIoWrite](./nc-spbcx-evt_spb_controller_write.md) callback function. This function is implemented by the SPB controller driver. This member is not optional and must not be NULL.
 
 ### -field EvtSpbIoSequence
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence">EvtSpbControllerIoSequence</a> callback function. This function is implemented by the SPB controller driver. This member is not optional and must not be NULL.
+A pointer to the [EvtSpbControllerIoSequence](./nc-spbcx-evt_spb_controller_sequence.md) callback function. This function is implemented by the SPB controller driver. This member is not optional and must not be NULL.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a> method uses the information in this structure to complete the initialization of the SPB controller.  Before passing this structure to <b>SpbDeviceInitialize</b>, call the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_controller_config_init">SPB_CONTROLLER_CONFIG_INIT</a> function to initialize the members of this structure to their default values, and, as needed, overwrite these default values with information that is specific to your SPB controller driver.
+The [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md) method uses the information in this structure to complete the initialization of the SPB controller. Before passing this structure to *SpbDeviceInitialize*, call the [SPB_CONTROLLER_CONFIG_INIT](./nf-spbcx-spb_controller_config_init.md) function to initialize the members of this structure to their default values, and, as needed, overwrite these default values with information that is specific to your SPB controller driver.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_read">EvtSpbControllerIoRead</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence">EvtSpbControllerIoSequence</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_write">EvtSpbControllerIoWrite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock">EvtSpbControllerUnlock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_disconnect">EvtSpbTargetDisconnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-write-config">IRP_MN_WRITE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_controller_config_init">SPB_CONTROLLER_CONFIG_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetfilter">WdfFdoInitSetFilter</a>
-
+* [EvtSpbControllerIoRead](./nc-spbcx-evt_spb_controller_read.md)
+* [EvtSpbControllerIoSequence](./nc-spbcx-evt_spb_controller_sequence.md)
+* [EvtSpbControllerIoWrite](./nc-spbcx-evt_spb_controller_write.md)
+* [EvtSpbControllerLock](./nc-spbcx-evt_spb_controller_lock.md)
+* [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md)
+* [EvtSpbTargetConnect](./nc-spbcx-evt_spb_target_connect.md)
+* [EvtSpbTargetDisconnect](./nc-spbcx-evt_spb_target_disconnect.md)
+* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+* [IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_controller-control-code)
+* [IOCTL_SPB_UNLOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_controller-control-code)
+* [IRP_MN_READ](/windows-hardware/drivers/kernel/irp-mn-read-config)
+* [IRP_MN_WRITE](/windows-hardware/drivers/kernel/irp-mn-write-config)
+* [SPB_CONTROLLER_CONFIG_INIT](./nf-spbcx-spb_controller_config_init.md)
+* [SpbDeviceInitialize](./nf-spbcx-spbdeviceinitialize.md)
+* [SpbRequestGetParameters](./nf-spbcx-spbrequestgetparameters.md)
+* [WdfFdoInitSetFilter](../wdffdo/nf-wdffdo-wdffdoinitsetfilter.md)

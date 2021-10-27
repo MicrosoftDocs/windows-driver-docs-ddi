@@ -56,29 +56,29 @@ The **NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES_INIT** function initializes a [**NET_
 
 ## -parameters
 
-### -param GsoCapabilities
+### -param GsoCapabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure.
 
-### -param Layer3Flags
+### -param Layer3Flags [_In_]
 
-[_In_] Flags specifying the layer 3 protocols and variations contained in packets that the NIC can successfully segment.
+Flags specifying the layer 3 protocols and variations contained in packets that the NIC can successfully segment.
 
-### -param Layer4Flags
+### -param Layer4Flags [_In_]
 
-[_In_] Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully segment.
+Flags specifying the layer 4 protocols and variations contained in packets that the NIC can successfully segment.
 
-### -param MaximumOffloadSize
+### -param MaximumOffloadSize [_In_]
 
-[_In_] The maximum bytes of user data that the transport can pass to the NIC driver in a single packet.
+The maximum bytes of user data that the transport can pass to the NIC driver in a single packet.
 
-### -param MinimumSegmentCount
+### -param MinimumSegmentCount [_In_]
 
-[_In_] The minimum number of segments by which a large TCP packet must be divisible before the transport can offload it to the hardware for segmentation.
+The minimum number of segments by which a large TCP packet must be divisible before the transport can offload it to the hardware for segmentation.
 
-### -param EvtAdapterOffloadSetGso
+### -param EvtAdapterOffloadSetGso [_In_]
 
-[_In_] A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_GSO*](nc-netadapteroffload-evt_net_adapter_offload_set_gso.md) callback function.
 
 ## -remarks
 

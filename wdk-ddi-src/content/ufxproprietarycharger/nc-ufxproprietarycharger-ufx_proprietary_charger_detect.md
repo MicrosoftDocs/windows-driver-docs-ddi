@@ -49,14 +49,14 @@ The filter driver's implementation to detect if a charger is attached  and get d
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
     A pointer to a driver-defined context.
 
-### -param DetectedCharger 
+### -param DetectedCharger [out]
 
-[out]
+
 A pointer to a     <a href="/windows-hardware/drivers/ddi/ufxproprietarycharger/ns-ufxproprietarycharger-_ufx_proprietary_charger">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information.
 
 ## -returns

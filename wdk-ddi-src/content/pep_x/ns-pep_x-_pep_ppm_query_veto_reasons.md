@@ -55,9 +55,9 @@ The <b>PEP_PPM_QUERY_VETO_REASONS</b> structure specifies the total number of ve
 
 ## -struct-fields
 
-### -field VetoReasonCount
+### -field VetoReasonCount [out]
 
-[out] The number of veto codes used by the PEP.
+The number of veto codes used by the PEP.
 
 ## -remarks
 

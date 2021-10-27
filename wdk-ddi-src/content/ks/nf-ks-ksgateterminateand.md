@@ -49,9 +49,9 @@ The<b> KsGateTerminateAnd</b> function deletes an existing AND gate and removes 
 
 ## -parameters
 
-### -param AndGate 
+### -param AndGate [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure that is the AND gate to delete. This gate must be at the beginning of a gate chain.
 
 ## -remarks

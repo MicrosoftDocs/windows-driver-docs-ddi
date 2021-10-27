@@ -49,24 +49,24 @@ The <b>GetScope</b> method returns information about the current scope.
 
 ## -parameters
 
-### -param InstructionOffset 
+### -param InstructionOffset [out, optional]
 
-[out, optional]
+
 Receives the location in the process's virtual address space of the current scope's current instruction.
 
-### -param ScopeFrame 
+### -param ScopeFrame [out, optional]
 
-[out, optional]
+
 Receives the <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame">DEBUG_STACK_FRAME</a> structure representing the current scope's stack frame.
 
-### -param ScopeContext 
+### -param ScopeContext [out, optional]
 
-[out, optional]
+
 Receives the current scope's <a href="/windows-hardware/drivers/debugger/scopes-and-symbol-groups">thread context</a>.  The type of the thread context is the CONTEXT structure for the target's effective processor.  The buffer <i>ScopeContext</i> must be large enough to hold this structure.
 
-### -param ScopeContextSize 
+### -param ScopeContextSize [in]
 
-[in]
+
 Specifies the size of the buffer <i>ScopeContext</i>.
 
 ## -returns

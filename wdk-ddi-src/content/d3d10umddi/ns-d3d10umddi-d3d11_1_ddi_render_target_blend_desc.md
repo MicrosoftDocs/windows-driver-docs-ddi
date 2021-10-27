@@ -48,9 +48,9 @@ Describes a blend state for a render target. Used by Windows Display Driver Mode
 
 ## -struct-fields
 
-### -field BlendEnable
+### -field BlendEnable [in]
 
-[in] A Boolean value that specifies whether blending is enabled for the associated render target. **TRUE** indicates blending is enabled; **FALSE** indicates blending is disabled.
+A Boolean value that specifies whether blending is enabled for the associated render target. **TRUE** indicates blending is enabled; **FALSE** indicates blending is disabled.
 
 > [!NOTE]
 > The **LogicOpEnable** and **BlendEnable** members must not both be **TRUE**.
@@ -66,37 +66,37 @@ This member is **TRUE** if the driver supports feature level 11.1 and later.
 > [!NOTE]
 > The **LogicOpEnable** and **BlendEnable** members must not both be **TRUE**.
 
-### -field SrcBlend
+### -field SrcBlend [in]
 
-[in] A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the blend mode of the source for the enabled render target.
+A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the blend mode of the source for the enabled render target.
 
-### -field DestBlend
+### -field DestBlend [in]
 
-[in] A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the blend mode of the destination for the enabled render target.
+A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the blend mode of the destination for the enabled render target.
 
-### -field BlendOp
+### -field BlendOp [in]
 
-[in] A value of type [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md) that indicates the blending operation for the enabled render target.
+A value of type [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md) that indicates the blending operation for the enabled render target.
 
-### -field SrcBlendAlpha
+### -field SrcBlendAlpha [in]
 
-[in] A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the transparency blend mode of the source for the enabled render target.
+A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the transparency blend mode of the source for the enabled render target.
 
-### -field DestBlendAlpha
+### -field DestBlendAlpha [in]
 
-[in] A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the transparency blend mode of the destination for the enabled render target.
+A value of type [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md) that indicates the transparency blend mode of the destination for the enabled render target.
 
-### -field BlendOpAlpha
+### -field BlendOpAlpha [in]
 
-[in] A value of type [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md) that indicates the transparency blending operation for the enabled render target.
+A value of type [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md) that indicates the transparency blending operation for the enabled render target.
 
-### -field LogicOp
+### -field LogicOp [in]
 
-[in] A value of type [**D3D11_1_DDI_LOGIC_OP**](ne-d3d10umddi-d3d11_1_ddi_logic_op.md) that specifies shader logic operations that are available in the blend state.
+A value of type [**D3D11_1_DDI_LOGIC_OP**](ne-d3d10umddi-d3d11_1_ddi_logic_op.md) that specifies shader logic operations that are available in the blend state.
 
-### -field RenderTargetWriteMask
+### -field RenderTargetWriteMask [in]
 
-[in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
+An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 
 |Value|Meaning|
 |--- |--- |

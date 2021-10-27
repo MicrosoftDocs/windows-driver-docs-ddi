@@ -50,9 +50,9 @@ The <b>KsReleaseDeviceSecurityLock</b> function releases a previously acquired s
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b> whose security lock is to be released.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>VideoPortQuerySystemTime</b> function obtains the current system time.
 
 ## -parameters
 
-### -param CurrentTime 
+### -param CurrentTime [out]
 
-[out]
+
 Pointer to a memory location that will receive the current system time.
 
 ## -returns

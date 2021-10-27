@@ -4,7 +4,7 @@ title: READ_REGISTER_BUFFER_ULONG function (wdm.h)
 description: The READ_REGISTER_BUFFER_ULONG function (wdm.h) reads a number of ULONG values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ulong.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/07/2021
 keywords: ["READ_REGISTER_BUFFER_ULONG function"]
 ms.keywords: READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml, kernel.read_register_buffer_ulong, wdm/READ_REGISTER_BUFFER_ULONG
 req.header: wdm.h
@@ -45,28 +45,31 @@ api_name:
 
 ## -description
 
-The <b>READ_REGISTER_BUFFER_ULONG</b> routine reads a number of ULONG values from the specified register address into a buffer.
+The **READ_REGISTER_BUFFER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of ULONG values from the specified register address into a buffer.
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which an array of ULONG values is read.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG values to be read into the buffer.
 
 ## -remarks
 
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
+
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
+
 The size of the buffer must be large enough to contain at least the specified number of ULONG values.
 
 Callers of <b>READ_REGISTER_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
-

@@ -51,14 +51,14 @@ For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-
 
 ## -parameters
 
-### -param InterruptObject 
+### -param InterruptObject [in]
 
-[in]
+
 For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
-### -param GroupAffinity 
+### -param GroupAffinity [out]
 
-[out]
+
 For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 ## -returns

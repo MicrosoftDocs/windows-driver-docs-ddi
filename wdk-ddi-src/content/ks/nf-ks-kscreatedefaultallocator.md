@@ -50,9 +50,9 @@ Given a validated IRP_MJ_CREATE request, the **KsCreateDefaultAllocator** functi
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP with the IRP_MJ_CREATE request being handled.
 
 ## -returns

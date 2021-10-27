@@ -49,14 +49,14 @@ The <i>PPARALLEL_SET_CHIP_MODE</i>-typed callback routine sets the operating mod
 
 ## -parameters
 
-### -param SetChipContext 
+### -param SetChipContext [in]
 
-[in]
+
 Pointer to the device extension of a parallel port's functional device object (<a href="/windows-hardware/drivers/">FDO</a>).
 
-### -param ChipMode 
+### -param ChipMode [in]
 
-[in]
+
 Specifies the operating mode of a parallel port. (For more information about operating modes, see the modes that are defined for the enhanced capabilities register (ECR) in the <i>parallel.h</i> file that is included in the Microsoft Windows Driver Kit [WDK].)
 
 ## -returns

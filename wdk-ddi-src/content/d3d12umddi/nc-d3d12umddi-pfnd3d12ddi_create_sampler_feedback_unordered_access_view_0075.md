@@ -50,21 +50,21 @@ Used to create a sampler feedback with unordered access view.
 
 ## -parameters
 
-### -param hDrvDevice
+### -param hDrvDevice [in]
 
-[in] A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
-### -param hDrvTargetedResource
+### -param hDrvTargetedResource [in]
 
-[in] Handle to targeted resource.
+Handle to targeted resource.
 
-### -param hDrvFeedbackResource
+### -param hDrvFeedbackResource [in]
 
-[in] Handle to feedback resource.
+Handle to feedback resource.
 
-### -param DestDescriptor
+### -param DestDescriptor [in]
 
-[in] A [D3D12DDI_CPU_DESCRIPTOR_HANDLE](ns-d3d12umddi-d3d12ddi_cpu_descriptor_handle.md) structure that defines the destination target.
+A [D3D12DDI_CPU_DESCRIPTOR_HANDLE](ns-d3d12umddi-d3d12ddi_cpu_descriptor_handle.md) structure that defines the destination target.
 
 ## -prototype
 

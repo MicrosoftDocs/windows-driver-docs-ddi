@@ -49,19 +49,19 @@ The <b>IoAttachDeviceToDeviceStackSafe</b> routine attaches the caller's device 
 
 ## -parameters
 
-### -param SourceDevice 
+### -param SourceDevice [in]
 
-[in]
+
 Pointer to a caller-created device object.
 
-### -param TargetDevice 
+### -param TargetDevice [in]
 
-[in]
+
 Pointer to the device object in the stack to which the <i>SourceDevice</i> object is to be attached.
 
-### -param AttachedToDeviceObject 
+### -param AttachedToDeviceObject [out]
 
-[out]
+
 On input, this parameter specifies the address of <i>SourceDevice->DeviceExtension->AttachedToDeviceObject</i>, which must contain a <b>NULL</b> pointer. On output, this parameter receives a pointer to the device object to which the <i>SourceDevice</i> was attached.
 
 ## -returns

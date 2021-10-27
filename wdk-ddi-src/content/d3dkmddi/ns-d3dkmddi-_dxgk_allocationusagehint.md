@@ -52,13 +52,13 @@ The DXGK_ALLOCATIONUSAGEHINT structure contains allocation usage and version inf
 
 ## -struct-fields
 
-### -field Version
+### -field Version [out]
 
-[out] A positive integer that indicates the version of the allocation.
+A positive integer that indicates the version of the allocation.
 
-### -field v1
+### -field v1 [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationusageinfo1">DXGK_ALLOCATIONUSAGEINFO1</a> structure that describes how an allocation can be used in direct memory access (DMA) buffering.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationusageinfo1">DXGK_ALLOCATIONUSAGEINFO1</a> structure that describes how an allocation can be used in direct memory access (DMA) buffering.
 
 ## -see-also
 

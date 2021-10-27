@@ -52,14 +52,14 @@ The <b>WdfChildListRetrievePdo</b> method returns a handle to the framework devi
 
 ## -parameters
 
-### -param ChildList
+### -param ChildList [in]
 
-[in]
+
 A handle to a child list object.
 
-### -param RetrieveInfo
+### -param RetrieveInfo [in, out]
 
-[in, out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_retrieve_info">WDF_CHILD_RETRIEVE_INFO</a> structure that the driver initializes with the <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> of the child to be retrieved.
 
 ## -returns

@@ -50,9 +50,9 @@ The <b>ClfsMgmtHandleLogFileFull</b> routine attempts to make more space availab
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 The client that is requesting CLFS management to make space available in the log. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 
 ## -returns

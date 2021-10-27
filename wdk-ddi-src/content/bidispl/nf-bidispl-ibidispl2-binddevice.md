@@ -49,14 +49,14 @@ The <b>BindDevice</b> method binds a printer to a bidirectional printer communic
 
 ## -parameters
 
-### -param pszDeviceName 
+### -param pszDeviceName [in]
 
-[in]
+
 A pointer to a null-terminated string that contains the name of the printer or print server. If <b>NULL</b>, this parameter indicates the local print server.
 
-### -param dwAccess 
+### -param dwAccess [in]
 
-[in]
+
 The access privileges for the printer. This parameter can be one of the following values.
 
 <table>

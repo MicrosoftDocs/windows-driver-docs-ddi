@@ -52,9 +52,9 @@ A provider module's
 
 ## -parameters
 
-### -param ProviderBindingContext 
+### -param ProviderBindingContext [in]
 
-[in]
+
 A pointer to the provider module's context for the binding between the provider module and the
      client module from which it has detached. The provider module's 
      <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback

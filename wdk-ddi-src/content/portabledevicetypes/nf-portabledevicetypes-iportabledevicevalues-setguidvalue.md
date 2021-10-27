@@ -50,14 +50,14 @@ Adds a new <b>GUID</b> value (type VT_CLSID) or overwrites an existing one.
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 A <b>REFGUID</b> that contains the new value.
 
 ## -returns

@@ -49,14 +49,14 @@ The <i>I2CStop</i> function ends <a href="/windows-hardware/drivers/">I2C</a> co
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's per-adapter device extension.
 
-### -param I2CCallbacks 
+### -param I2CCallbacks [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/video/ns-video-_i2c_callbacks">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
 
 ## -returns

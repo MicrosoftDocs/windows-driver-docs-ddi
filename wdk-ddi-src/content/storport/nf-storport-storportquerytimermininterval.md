@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param TimerMinInterval
+### -param TimerMinInterval [out]
 
-[out] Pointer to a ULONG in which this function writes the minimum time interval, in 100-nanosecond units, between successive ticks of the system clock.
+Pointer to a ULONG in which this function writes the minimum time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
 ## -returns
 

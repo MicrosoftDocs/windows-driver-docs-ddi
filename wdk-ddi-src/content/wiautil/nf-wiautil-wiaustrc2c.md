@@ -49,14 +49,14 @@ The <b>wiauStrC2C</b> function copies an ANSI character string to another ANSI c
 
 ## -parameters
 
-### -param pszSrc 
+### -param pszSrc [in]
 
-[in]
+
 Points to the ANSI string to be copied.
 
-### -param pszDst 
+### -param pszDst [out]
 
-[out]
+
 Pointer to a memory location that receives the copied string
 
 ### -param iSize

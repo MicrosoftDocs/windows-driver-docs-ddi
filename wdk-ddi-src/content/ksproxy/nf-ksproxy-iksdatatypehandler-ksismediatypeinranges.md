@@ -49,9 +49,9 @@ The <b>KsIsMediaTypeInRanges</b> method validates that a media type is within th
 
 ## -parameters
 
-### -param DataRanges 
+### -param DataRanges [in]
 
-[in]
+
 Pointer to a buffer that contains a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> structure, followed by a sequence of extensible <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures, aligned on 64-bit boundaries. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 ## -returns

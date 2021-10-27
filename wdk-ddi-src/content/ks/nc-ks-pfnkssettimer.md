@@ -49,24 +49,24 @@ A streaming minidriver's <i>KStrSetTimer</i> routine is called to generate DPC t
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
-### -param Timer 
+### -param Timer [in]
 
-[in]
+
 Pointer to a timer object allocated by the minidriver.
 
-### -param DueTime 
+### -param DueTime [in]
 
-[in]
+
 Specifies the absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
-### -param Dpc 
+### -param Dpc [in]
 
-[in]
+
 Pointer to a DPC object that the minidriver initialized using <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional.
 
 ## -returns

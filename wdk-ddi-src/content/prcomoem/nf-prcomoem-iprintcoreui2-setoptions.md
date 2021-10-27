@@ -49,14 +49,14 @@ The <code>IPrintCoreUI2::SetOptions</code> method sets the driver's feature sett
 
 ## -parameters
 
-### -param poemuiobj 
+### -param poemuiobj [in]
 
-[in]
+
 Pointer to the current context, an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-### -param dwFlags 
+### -param dwFlags [in]
 
-[in]
+
 Specifies whether the core driver is to resolve conflicts. This parameter must be set to one of the following values:
 
 <table>
@@ -86,19 +86,19 @@ Ask core driver to resolve any conflict that arises.
 </tr>
 </table>
 
-### -param pmszFeatureOptionBuf 
+### -param pmszFeatureOptionBuf [in]
 
-[in]
+
 Pointer to a caller-supplied buffer containing a list of feature/option keyword pairs in MULTI_SZ format. Each item in this list is separated from the next by a null character, and the list is terminated with two null characters.
 
-### -param cbIn 
+### -param cbIn [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBuf</i>. This size includes the last MULTI_SZ null character.
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
+
 Pointer to a memory location that receives one of the following values. These constants are defined in printoem.h.
 
 <table>

@@ -49,9 +49,9 @@ The **KsGetObjectTypeFromIrp** function returns the AVStream object type that is
 
 ## -parameters
 
-### -param Irp
+### -param Irp [in]
 
-[in]
+
 A pointer to the [IRP](../wdm/ns-wdm-_irp.md) structure for which to find the associated AVStream object type.
 
 ## -returns

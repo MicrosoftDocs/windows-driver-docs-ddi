@@ -48,17 +48,17 @@ The **IoInitializeTimer** routine sets up a driver-supplied [IoTimer](./nc-wdm-i
 
 ## -parameters
 
-### -param DeviceObject
+### -param DeviceObject [in]
 
-[in] Pointer to a device object representing a device on which I/O operations can time out.
+Pointer to a device object representing a device on which I/O operations can time out.
 
-### -param TimerRoutine
+### -param TimerRoutine [in]
 
-[in] Pointer to the driver-supplied *IoTimer* routine.
+Pointer to the driver-supplied *IoTimer* routine.
 
-### -param Context
+### -param Context [in, optional]
 
-[in, optional] Pointer to the driver-determined context with which its *IoTimer* routine will be called.
+Pointer to the driver-determined context with which its *IoTimer* routine will be called.
 
 ## -returns
 

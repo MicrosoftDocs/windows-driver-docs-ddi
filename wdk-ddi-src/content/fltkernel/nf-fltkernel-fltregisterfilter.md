@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A pointer to the driver object for the minifilter driver. This should be the same driver object pointer that was passed as input to the minifilter driver's <b>DriverEntry</b> routine.
 
-### -param Registration 
+### -param Registration [in]
 
-[in]
+
 A pointer to a caller-allocated minifilter driver registration structure (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>).
 
-### -param RetFilter 
+### -param RetFilter [out]
 
-[out]
+
 A pointer to a caller-allocated variable that receives an opaque filter pointer for the caller.
 
 ## -returns

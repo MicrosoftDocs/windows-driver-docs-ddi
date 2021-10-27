@@ -49,9 +49,9 @@ The <b>IoUnregisterContainerNotification</b> routine cancels a container notific
 
 ## -parameters
 
-### -param CallbackRegistration 
+### -param CallbackRegistration [in]
 
-[in]
+
 A pointer to a callback registration object that was created by a previous call to <b>IoRegisterContainerNotification</b>.
 
 ## -remarks

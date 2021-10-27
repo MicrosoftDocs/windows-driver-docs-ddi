@@ -49,9 +49,9 @@ The <code>AddEventToEventList</code> method adds an event to the port driver's e
 
 ## -parameters
 
-### -param EventEntry 
+### -param EventEntry [in]
 
-[in]
+
 Pointer to the event entry that describes the event. This is an opaque system structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>.
 
 ## -remarks

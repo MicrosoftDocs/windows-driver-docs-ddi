@@ -49,9 +49,9 @@ The <b>GetStackOffset</b> method returns the current thread's current stack loca
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the location in the process's virtual address space of the current thread's current stack location.
 
 ## -returns

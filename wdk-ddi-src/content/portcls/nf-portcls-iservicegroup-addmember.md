@@ -49,9 +49,9 @@ The <code>AddMember</code> method adds a member to the service group.
 
 ## -parameters
 
-### -param pServiceSink 
+### -param pServiceSink [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a> interface of the new member of the service group
 
 ## -returns

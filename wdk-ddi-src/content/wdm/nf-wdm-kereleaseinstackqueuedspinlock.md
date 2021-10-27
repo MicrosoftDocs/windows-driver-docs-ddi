@@ -50,9 +50,9 @@ The <b>KeReleaseInStackQueuedSpinLock</b> routine releases a queued spin lock ac
 
 ## -parameters
 
-### -param LockHandle 
+### -param LockHandle [in]
 
-[in]
+
 Specifies the queued spin lock handle initialized by the call to <a href="/previous-versions/windows/hardware/drivers/ff551899(v=vs.85)">KeAcquireInStackQueuedSpinLock</a> that acquired the lock.
 
 ## -remarks

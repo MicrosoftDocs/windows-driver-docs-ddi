@@ -58,9 +58,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client-initiated drop-party operation, which can be one of the
      following:
      
@@ -84,9 +84,9 @@ The given party was the last remaining on the client's multipoint VC. Therefore,
        <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a> to drop this
        party.
 
-### -param ProtocolPartyContext 
+### -param ProtocolPartyContext [in]
 
-[in]
+
 Specifies the handle to the client's per-party context area, which the client originally supplied
      to NDIS either when it called 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 

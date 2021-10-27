@@ -49,9 +49,9 @@ The <b>ReadDebuggerData</b> method returns information about the target that the
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the data to retrieve.  The following values are valid:
 
 <table>
@@ -1595,19 +1595,19 @@ Returns the address of the kernel variable <b>KdPrintBufferSize</b>.
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Receives the value of the specified debugger data.  The "Return Type" column in the above table specifies the data type that is returned.  The data can be accessed by casting <i>Buffer</i> to a pointer to that type.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.
 
-### -param DataSize 
+### -param DataSize [out, optional]
 
-[out, optional]
+
 Receives the number of bytes used in the buffer <i>Buffer</i>.  If <i>DataSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

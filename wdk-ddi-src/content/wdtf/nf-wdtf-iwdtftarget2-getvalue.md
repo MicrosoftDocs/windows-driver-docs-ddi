@@ -49,14 +49,14 @@ Returns a value from the target that is associated with a specified attribute.
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 An SDEL statement that specifies the attribute value to retrieve.
 
-### -param pValue 
+### -param pValue [out, retval]
 
-[out, retval]
+
 The address of a variable that receives the result of this method. 
 The result can be any automation-compatible <b>VARIANT</b>.
 

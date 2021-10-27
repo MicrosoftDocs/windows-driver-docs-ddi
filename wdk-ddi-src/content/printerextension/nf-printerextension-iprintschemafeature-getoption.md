@@ -49,19 +49,19 @@ Gets the option with the given name.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The name of the option.
 
-### -param bstrNamespaceUri 
+### -param bstrNamespaceUri [in]
 
-[in]
+
 The namespace URI of the option.
 
-### -param ppOption 
+### -param ppOption [out, retval]
 
-[out, retval]
+
 The returned option.
 
 ## -returns

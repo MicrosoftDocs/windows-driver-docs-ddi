@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param engineHandle 
+### -param engineHandle [in, out]
 
-[in, out]
+
 A handle for an open session to the filter engine.
 
 ## -returns

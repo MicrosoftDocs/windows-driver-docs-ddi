@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param PortControllerObject 
+### -param PortControllerObject [in]
 
-[in]
+
 Handle to the port controller object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>.
 
 ### -param AlertData

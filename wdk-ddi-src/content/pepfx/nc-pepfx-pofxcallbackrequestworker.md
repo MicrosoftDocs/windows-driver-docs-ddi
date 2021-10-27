@@ -49,9 +49,9 @@ The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP)
 
 ## -parameters
 
-### -param PluginHandle 
+### -param PluginHandle [in]
 
-[in]
+
 A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
 ## -remarks

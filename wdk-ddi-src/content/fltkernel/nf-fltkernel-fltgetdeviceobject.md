@@ -48,13 +48,13 @@ The **FltGetDeviceObject** routine returns a pointer to the Filter Manager's vol
 
 ## -parameters
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque pointer for the volume.
+Opaque pointer for the volume.
 
-### -param DeviceObject
+### -param DeviceObject [out]
 
-[out] Pointer to a caller-allocated variable that receives the volume device object pointer. This parameter is required and cannot be **NULL**.
+Pointer to a caller-allocated variable that receives the volume device object pointer. This parameter is required and cannot be **NULL**.
 
 ## -returns
 

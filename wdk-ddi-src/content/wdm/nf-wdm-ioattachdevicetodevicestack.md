@@ -49,14 +49,14 @@ The <b>IoAttachDeviceToDeviceStack</b> routine attaches the caller's device obje
 
 ## -parameters
 
-### -param SourceDevice 
+### -param SourceDevice [in]
 
-[in]
+
 Pointer to the caller-created device object.
 
-### -param TargetDevice 
+### -param TargetDevice [in]
 
-[in]
+
 Pointer to another driver's device object, such as a pointer returned by a preceding call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceobjectpointer">IoGetDeviceObjectPointer</a>.
 
 ## -returns

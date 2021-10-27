@@ -51,19 +51,19 @@ The <b>OnWrite</b> method is called to handle a write request when an applicatio
 
 ## -parameters
 
-### -param pWdfQueue 
+### -param pWdfQueue [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from.
 
-### -param pWdfRequest 
+### -param pWdfRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object.
 
-### -param NumOfBytesToWrite 
+### -param NumOfBytesToWrite [in]
 
-[in]
+
 The size, in bytes, of the write buffer for the request.
 
 ## -remarks

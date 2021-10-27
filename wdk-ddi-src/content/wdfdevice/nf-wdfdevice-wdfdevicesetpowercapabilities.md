@@ -54,14 +54,14 @@ The <b>WdfDeviceSetPowerCapabilities</b> method reports a device's power capabil
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PowerCapabilities 
+### -param PowerCapabilities [in]
 
-[in]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_capabilities">WDF_DEVICE_POWER_CAPABILITIES</a> structure.
 
 ## -remarks

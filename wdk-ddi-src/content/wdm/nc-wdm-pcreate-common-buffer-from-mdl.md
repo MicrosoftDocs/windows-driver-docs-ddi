@@ -46,14 +46,14 @@ The CreateCommonBufferFromMdl routine will attempt to create a common buffer fro
 
 ## -parameters
 
-### -param DmaAdapter
+### -param DmaAdapter [in]
 
-[in]
+
 Provides a pointer to the DMA Adapter that is performing the operation.
 
-### -param Mdl
+### -param Mdl [in]
 
-[in]
+
 Provides the MDL that will be mapped to a common buffer.
 
 *For an MDL to be able to back a common buffer, the following conditions must be met:*
@@ -76,22 +76,22 @@ Provides the MDL that will be mapped to a common buffer.
 
 - If DMA Remapping is not being used, the MDL must represent physically contiguous memory and be accessible to the device.
 
-### -param ExtendedConfigs
+### -param ExtendedConfigs [in]
 
-[in]
+
 Provides an optional array of [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-dma_common_buffer_extended_configuration.md) structures to further configure the creation of the MDL backed common buffer.
 
 > [!NOTE]
 > If multiple configurations of the same [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md) are provided in the array, creation will fail.
 
-### -param ExtendedConfigsCount
+### -param ExtendedConfigsCount [in]
 
-[in]
+
 Provides the number of extended configurations in the *ExtendedConfigs* array.
 
-### -param LogicalAddress
+### -param LogicalAddress [out]
 
-[out]
+
 On success provides the logical address of the resulting common buffer.
 
 ## -returns

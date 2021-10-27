@@ -49,14 +49,14 @@ The <b>RtlInitAnsiString</b> routine initializes a counted string of ANSI charac
 
 ## -parameters
 
-### -param DestinationString 
+### -param DestinationString [out]
 
-[out]
+
 A pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure to be initialized.
 
-### -param SourceString 
+### -param SourceString [in, optional]
 
-[in, optional]
+
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
 
 ## -returns

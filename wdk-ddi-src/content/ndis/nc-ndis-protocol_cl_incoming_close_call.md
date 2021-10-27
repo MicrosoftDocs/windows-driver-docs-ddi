@@ -54,25 +54,25 @@ The
 
 ## -parameters
 
-### -param CloseStatus 
+### -param CloseStatus [in]
 
-[in]
+
 Specifies the status that indicates the cause of the connection teardown, which is usually
      NDIS_STATUS_SUCCESS to indicate that the remote party to the call requested that the connection be
      closed. Any other value indicates that problems on the network caused the call manager to terminate the
      connection.
 
-### -param ProtocolVcContext 
+### -param ProtocolVcContext [in]
 
-[in]
+
 Specifies the handle to the client's per-VC context area for the VC on which the connection is
      being closed. Whatever the value of 
      <i>CloseStatus</i>, the client can neither send nor receive data on the VC designated by the 
      <i>NdisVcHandle</i> that it stored in this context area.
 
-### -param CloseData 
+### -param CloseData [in]
 
-[in]
+
 Pointer to a buffer containing a protocol-specific close message, possibly one supplied by the
      remote client that the call manager received over the network, or this parameter can be <b>NULL</b>. 
      
@@ -83,9 +83,9 @@ When
      define a structure to pass additional diagnostic information to its clients on call teardowns caused by
      problems on the network.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the size in bytes of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.

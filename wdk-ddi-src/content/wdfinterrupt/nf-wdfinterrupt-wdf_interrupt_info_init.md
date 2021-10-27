@@ -51,9 +51,9 @@ The <b>WDF_INTERRUPT_INFO_INIT</b> function initializes a <a href="/windows-hard
 
 ## -parameters
 
-### -param Info 
+### -param Info [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure.
 
 ## -remarks

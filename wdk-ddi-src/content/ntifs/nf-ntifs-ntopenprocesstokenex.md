@@ -48,21 +48,21 @@ The **NtOpenProcessTokenEx** routine opens the access token associated with a pr
 
 ## -parameters
 
-### -param ProcessHandle
+### -param ProcessHandle [in]
 
-[in] Handle to the process whose access token is to be opened. The handle must have PROCESS_QUERY_INFORMATION access. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
+Handle to the process whose access token is to be opened. The handle must have PROCESS_QUERY_INFORMATION access. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in] [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which accesses are granted or denied.
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which accesses are granted or denied.
 
-### -param HandleAttributes
+### -param HandleAttributes [in]
 
-[in] Attributes for the access token handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter.
+Attributes for the access token handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter.
 
-### -param TokenHandle
+### -param TokenHandle [out]
 
-[out] Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
+Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
 
 ## -returns
 

@@ -49,13 +49,13 @@ The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to cr
 
 ## -struct-fields
 
-### -field pVertexElements
+### -field pVertexElements [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_input_element_desc">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_input_element_desc">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout.
 
-### -field NumElements
+### -field NumElements [in]
 
-[in] The number of elements in that array that the <b>pVertexElements</b> member specifies.
+The number of elements in that array that the <b>pVertexElements</b> member specifies.
 
 ## -see-also
 

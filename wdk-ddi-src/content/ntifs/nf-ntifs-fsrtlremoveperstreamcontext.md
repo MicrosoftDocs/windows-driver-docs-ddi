@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param StreamContext 
+### -param StreamContext [in]
 
-[in]
+
 Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlgetperstreamcontextpointer">FsRtlGetPerStreamContextPointer</a> macro.
 
-### -param OwnerId 
+### -param OwnerId [in, optional]
 
-[in, optional]
+
 Used to identify context information as belonging to a particular filter driver.
 
-### -param InstanceId 
+### -param InstanceId [in, optional]
 
-[in, optional]
+
 Used to search for a particular instance of a per-stream context. If not provided, any of the contexts owned by the filter driver is removed and returned. 
 
 If neither the <i>OwnerId</i> nor the <i>InstanceId</i> is provided, any associated per-stream context will be removed and returned.

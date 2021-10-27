@@ -49,19 +49,19 @@ The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="/
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
-### -param SrvOpen 
+### -param SrvOpen [in, out]
 
-[in, out]
+
 A pointer to a context parameter for use by the network mini-redirector callback routine.
 
-### -param MRxContext 
+### -param MRxContext [in]
 
-[in]
+
 A pointer to the SRV_OPEN structure and the associated FCB structure to be changed.
 
 ## -returns

@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETHANDLEDATA
-title: _DXGKARGCB_GETHANDLEDATA (d3dkmddi.h)
+title: DXGKARGCB_GETHANDLEDATA (d3dkmddi.h)
 description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 old-location: display\dxgkargcb_gethandledata.htm
-ms.date: 05/10/2018
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_GETHANDLEDATA structure"]
 ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,41 +43,30 @@ api_name:
  - DXGKARGCB_GETHANDLEDATA
 ---
 
-# _DXGKARGCB_GETHANDLEDATA structure
-
+# DXGKARGCB_GETHANDLEDATA structure
 
 ## -description
 
-The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
+The **DXGKARGCB_GETHANDLEDATA** structure contains the arguments used in the [**DXGKCB_GETHANDLEDATA**](nc-d3dkmddi-dxgkcb_getcaptureaddress.md) callback function.
 
 ## -struct-fields
 
-### -field hObject
+### -field hObject [in]
 
-[in] A handle to the private data. This handle is the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned for the private data.
+A handle to the private data. This handle is the kernel-mode handle that the DirectX graphics kernel subsystem (part of *Dxgkrnl.sys*) assigned for the private data.
 
-### -field Type
+### -field Type [in]
 
-[in] A DXGK_HANDLE_TYPE-typed value that indicates the type of handle to retrieve data about. This member can be one of the following values:
+A [**DXGK_HANDLE_TYPE**](ne-d3dkmddi-dxgk_handle_type.md) value that indicates the type of handle to retrieve data about.
 
-| **Value** | **Meaning** |
-|:--|:--|
-| DXGK_HANDLE_ALLOCATION (1) | The allocations belong to a resource. | 
-| DXGK_HANDLE_RESOURCE (2) | The [DxgkDdiCreateAllocation](./nc-d3dkmddi-dxgkddi_createallocation.md)  call is the result of the creation of the primary surface. |
+### -field Flags [in]
 
-### -field Flags
-
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
+A [**DXGKCB_GETHANDLEDATAFLAGS**](ns-d3dkmddi-_dxgkcb_gethandledataflags.md) structure that indicates if allocations belong to a resource.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a>
+[**DXGKCB_GETHANDLEDATAFLAGS**](ns-d3dkmddi-_dxgkcb_gethandledataflags.md)
 
+[**DXGKCB_GETHANDLEDATA**](nc-d3dkmddi-dxgkcb_gethandledata.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
-
+[**DxgkDdiCreateAllocation**](nc-d3dkmddi-dxgkddi_createallocation.md)

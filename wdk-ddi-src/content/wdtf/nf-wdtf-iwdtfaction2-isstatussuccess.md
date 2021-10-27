@@ -49,9 +49,9 @@ Gets a value that indicates whether the last operation was successful.
 
 ## -parameters
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the last operation was successful; otherwise, false.
 
 ## -returns

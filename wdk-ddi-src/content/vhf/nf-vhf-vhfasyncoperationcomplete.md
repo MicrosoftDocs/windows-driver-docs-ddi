@@ -50,14 +50,14 @@ The HID source driver calls this method to set the results of an asynchronous op
 
 ## -parameters
 
-### -param VhfOperationHandle 
+### -param VhfOperationHandle [in]
 
-[in]
+
 The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_async_operation">EvtVhfAsyncOperation</a>.
 
-### -param CompletionStatus 
+### -param CompletionStatus [in]
 
-[in]
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
 
 ## -returns

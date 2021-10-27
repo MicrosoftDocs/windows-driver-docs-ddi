@@ -49,9 +49,9 @@ The <b>SetSymbolPath</b>  method sets the symbol path.
 
 ## -parameters
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the new symbol path.  This is a string that contains symbol path elements separated by semicolons (;).  Each symbol path element can specify either a directory or a symbol server.
 
 ## -returns

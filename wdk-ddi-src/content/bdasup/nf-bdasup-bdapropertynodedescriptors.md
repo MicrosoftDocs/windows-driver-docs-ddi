@@ -52,9 +52,9 @@ The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a te
 
 ### -param pIrp
 
-### -param pKSProperty 
+### -param pKSProperty [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 ### -param pNodeDescriptorProperty

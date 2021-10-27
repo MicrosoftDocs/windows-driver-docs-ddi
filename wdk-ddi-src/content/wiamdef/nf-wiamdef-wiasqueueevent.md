@@ -49,19 +49,19 @@ The **wiasQueueEvent** function informs the service that the device generated an
 
 ## -parameters
 
-### -param bstrDeviceId 
+### -param bstrDeviceId [in]
 
-[in]
+
 Specifies the device ID. This is the value passed to the minidriver in the call to the [IWiaMiniDrv::drvInitializeWia](../wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md) method.
 
-### -param pEventGUID 
+### -param pEventGUID [in]
 
-[in]
+
 Pointer to a buffer that contains the GUID for the event.
 
-### -param bstrFullItemName 
+### -param bstrFullItemName [in, optional]
 
-[in, optional]
+
 Specifies the full item name, including path information.
 
 ## -returns

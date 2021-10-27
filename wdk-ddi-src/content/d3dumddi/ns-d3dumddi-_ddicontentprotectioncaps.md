@@ -52,9 +52,9 @@ The DDICONTENTPROTECTIONCAPS structure describes a specific encryption and decod
 
 ## -struct-fields
 
-### -field CryptoType
+### -field CryptoType [in]
 
-[in] A GUID that indicates the encryption type that the driver uses. The currently defined GUIDs are:
+A GUID that indicates the encryption type that the driver uses. The currently defined GUIDs are:
 
 
 
@@ -72,9 +72,9 @@ A GUID that indicates a proprietary encryption algorithm.
 
 A <b>NULL</b> value indicates that no encryption is used.
 
-### -field DecodeProfile
+### -field DecodeProfile [in]
 
-[in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses along with the encryption type, which the <b>CryptoType</b> member specifies. Not all drivers allow all types of encryption. For example, MPEG2 IDCT frequently requires that the private libraries, which the hardware vendor supplies, perform the proprietary encryption. A <b>NULL</b> value indicates that DirectX VA decode profile is not used.
+A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses along with the encryption type, which the <b>CryptoType</b> member specifies. Not all drivers allow all types of encryption. For example, MPEG2 IDCT frequently requires that the private libraries, which the hardware vendor supplies, perform the proprietary encryption. A <b>NULL</b> value indicates that DirectX VA decode profile is not used.
 
 ## -remarks
 

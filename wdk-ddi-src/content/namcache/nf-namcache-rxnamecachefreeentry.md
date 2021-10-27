@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param NameCacheCtl 
+### -param NameCacheCtl [in]
 
-[in]
+
 A pointer to the NAME_CACHE_CONTROL structure for the name cache.
 
-### -param NameCache 
+### -param NameCache [in]
 
-[in]
+
 A pointer to the NAME_CACHE structure to free.
 
 ## -remarks

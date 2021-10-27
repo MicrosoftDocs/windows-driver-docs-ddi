@@ -56,9 +56,9 @@ A connection-oriented NDIS client that accepts incoming calls must have
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client's call to 
      <b>NdisClRegisterSap</b>, which can be one of the following:
      
@@ -99,25 +99,25 @@ The client supplied an invalid specification at
 The call manager encountered an error in attempting to register the given SAP and NDIS
        propagated this CM-determined failure status to the client.
 
-### -param ProtocolSapContext 
+### -param ProtocolSapContext [in]
 
-[in]
+
 Specifies the handle to the client's per-SAP context area, which the client originally supplied to
      NDIS when it called 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>. If the registration
      is successful, NDIS retains this context handle and uses it subsequently in calls to the client's 
      <i>ProtocolClIncomingCall</i> function pertaining to this SAP.
 
-### -param Sap 
+### -param Sap [in]
 
-[in]
+
 Pointer to the client-allocated buffer containing the specification for the SAP to be opened. The
      client originally passed this pointer to 
      <b>NdisClRegisterSap</b>.
 
-### -param NdisSapHandle 
+### -param NdisSapHandle [in]
 
-[in]
+
 If 
      <i>Status</i> is NDIS_STATUS_SUCCESS, specifies an NDIS-supplied valid handle to this registered SAP,
      effectively an association established with NDIS between the client and a particular call manager for

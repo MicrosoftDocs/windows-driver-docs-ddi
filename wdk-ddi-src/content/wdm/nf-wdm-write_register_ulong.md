@@ -4,7 +4,7 @@ title: WRITE_REGISTER_ULONG function (wdm.h)
 description: The WRITE_REGISTER_ULONG function (wdm.h) writes a ULONG value to the specified register address in resident, mapped device memory.
 old-location: kernel\write_register_ulong.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/07/2021
 keywords: ["WRITE_REGISTER_ULONG function"]
 ms.keywords: WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_af58a3ec-4102-4a89-9c58-e56f99d793d0.xml, kernel.write_register_ulong, wdm/WRITE_REGISTER_ULONG
 req.header: wdm.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>WRITE_REGISTER_ULONG</b> routine writes a ULONG value to the specified address.
+The **WRITE_REGISTER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and writes a ULONG value to the specified address.
 
 ## -parameters
 
@@ -60,5 +60,8 @@ Specifies a ULONG value to be written to the register.
 
 ## -remarks
 
-Callers of <b>WRITE_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
+
+Callers of <b>WRITE_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.

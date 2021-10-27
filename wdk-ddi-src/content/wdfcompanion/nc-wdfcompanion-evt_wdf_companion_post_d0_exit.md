@@ -49,11 +49,11 @@ api_name:
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
 
-### -param TargetState 
 
-[in]
+### -param TargetState [in]
+
+
 

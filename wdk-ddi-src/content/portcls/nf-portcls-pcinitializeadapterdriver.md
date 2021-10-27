@@ -50,19 +50,19 @@ The <b>PcInitializeAdapterDriver</b> function binds an adapter driver to the Por
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to the driver object, which is a system structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
-### -param RegistryPathName 
+### -param RegistryPathName [in]
 
-[in]
+
 Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
-### -param AddDevice 
+### -param AddDevice [in]
 
-[in]
+
 Pointer to the adapter's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> function. This is a pointer of type PDRIVER_ADD_DEVICE, which is defined in ntddk.h to be:
 
 

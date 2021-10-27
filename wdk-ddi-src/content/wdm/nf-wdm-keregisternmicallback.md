@@ -49,9 +49,9 @@ The <b>KeRegisterNmiCallback</b> routine registers a routine to be called whenev
 
 ## -parameters
 
-### -param CallbackRoutine 
+### -param CallbackRoutine [in]
 
-[in]
+
 Pointer to a function of the form:
 
 
@@ -64,9 +64,9 @@ BOOLEAN
 ```
 
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCallback</i> when it is called.
 
 ## -returns

@@ -50,14 +50,14 @@ The<b> KsStreamPointerSetStatusCode</b> function allows specification of a succe
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure. This pointer points to the frame contained in the IRP.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The error code with which to complete the IRP.
 
 ## -returns

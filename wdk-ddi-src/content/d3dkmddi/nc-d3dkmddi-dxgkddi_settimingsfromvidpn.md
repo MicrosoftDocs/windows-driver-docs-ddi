@@ -54,13 +54,13 @@ DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Identifies the adapter upon which the display timings should be set.
+Identifies the adapter upon which the display timings should be set.
 
-### -param pSetTimings
+### -param pSetTimings [in, out]
 
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_settimingsfromvidpn">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_settimingsfromvidpn">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
 
 ## -returns
 

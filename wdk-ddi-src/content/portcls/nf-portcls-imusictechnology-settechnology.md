@@ -49,9 +49,9 @@ The <code>SetTechnology</code> method changes the <b>Technology</b> member of ea
 
 ## -parameters
 
-### -param Technology 
+### -param Technology [in]
 
-[in]
+
 Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a> structure.
 
 ## -returns

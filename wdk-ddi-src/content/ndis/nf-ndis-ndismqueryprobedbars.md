@@ -51,16 +51,16 @@ A miniport driver calls the <b>NdisMQueryProbedBars</b> function to obtain the v
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param BaseRegisterValues 
+### -param BaseRegisterValues [out]
 
-[out]
+
 A pointer to an array of ULONG values. The array  contains a ULONG value for each BAR of the PCIe network adapter.
 
 <div class="alert"><b>Note</b>  <b>NdisMQueryProbedBars</b> returns a maximum of PCI_TYPE0_ADDRESSES values within this array.

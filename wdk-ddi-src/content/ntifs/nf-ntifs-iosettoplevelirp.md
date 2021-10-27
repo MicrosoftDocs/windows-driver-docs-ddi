@@ -49,9 +49,9 @@ The <b>IoSetTopLevelIrp</b> routine sets the value of the <b>TopLevelIrp</b> fie
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, optional]
 
-[in, optional]
+
 I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of the current thread.
 
 ## -remarks

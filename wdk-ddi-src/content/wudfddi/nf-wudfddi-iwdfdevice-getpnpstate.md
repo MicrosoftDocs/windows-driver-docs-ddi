@@ -51,9 +51,9 @@ The <b>GetPnpState</b> method determines whether the given Plug and Play (PnP) p
 
 ## -parameters
 
-### -param State 
+### -param State [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>-typed value that identifies the PnP property to retrieve status about.
 
 ## -returns

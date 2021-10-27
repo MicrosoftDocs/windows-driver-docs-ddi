@@ -49,9 +49,9 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_u
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_manager_config">UCM_MANAGER_CONFIG</a> structure to initialize.
 
 ## -see-also

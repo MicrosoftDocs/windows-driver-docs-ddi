@@ -46,9 +46,9 @@ Sends notifications about hub arrival/removal and connector state changes.
 
 ## -parameters
 
-### -param Params
+### -param Params [In]
 
-[In] A pointer to the caller-spupplied [**USBPM_EVENT_CALLBACK_PARAMS**](ns-usbpmapi-_usbpm_event_callback_params.md) structure that the client driver fills with event-specific data.
+A pointer to the caller-spupplied [**USBPM_EVENT_CALLBACK_PARAMS**](ns-usbpmapi-_usbpm_event_callback_params.md) structure that the client driver fills with event-specific data.
 
 ## -prototype
 

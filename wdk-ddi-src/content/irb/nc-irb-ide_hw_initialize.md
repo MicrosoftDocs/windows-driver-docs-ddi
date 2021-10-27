@@ -50,19 +50,19 @@ The <b><i>IdeHwInitialize</i></b> miniport driver routine configures the indicat
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the miniport driver per channel device extension.
 
-### -param DeviceParameters 
+### -param DeviceParameters [in, out]
 
-[in, out]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a> that identifies the device to configure and the device parameters with which to configure the device.
 
-### -param IdentifyData 
+### -param IdentifyData [in]
 
-[in]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/ata/ns-ata-_identify_device_data">IDENTIFY_DEVICE_DATA</a> that contains the identify data that is returned by the device.
 
 ## -returns

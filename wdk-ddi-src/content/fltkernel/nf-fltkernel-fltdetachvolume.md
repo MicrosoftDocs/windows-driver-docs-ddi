@@ -50,19 +50,19 @@ api_name:
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in, out]
 
-[in, out]
+
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Volume 
+### -param Volume [in, out]
 
-[in, out]
+
 Opaque volume pointer for the volume where the instance is attached. This parameter is required and cannot be <b>NULL</b>.
 
-### -param InstanceName 
+### -param InstanceName [in, optional]
 
-[in, optional]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the instance to be removed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the highest matching instance is removed.
 
 ## -returns

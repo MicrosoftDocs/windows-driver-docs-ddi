@@ -49,19 +49,19 @@ The <b>DebugCreateEx</b> function creates a new <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param InterfaceId 
+### -param InterfaceId [in]
 
-[in]
+
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
-### -param DbgEngOptions 
+### -param DbgEngOptions [in]
 
-[in]
+
 Supplies debugger option flags.
 
-### -param Interface 
+### -param Interface [out]
 
-[out]
+
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 
 ## -returns

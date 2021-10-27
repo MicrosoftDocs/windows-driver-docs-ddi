@@ -44,13 +44,13 @@ Contains arguments needed for the [PfnddxgiddiSubmitPresentBltToHwQueuecb](nc-dx
 
 ## -struct-fields
 
-### -field hSrcAllocation
+### -field hSrcAllocation [in]
 
-[in] The allocation of which content will be presented.
+The allocation of which content will be presented.
 
-### -field hDstAllocation
+### -field hDstAllocation [in]
 
-[in] The destination allocation of the present.
+The destination allocation of the present.
 
 ### -field pDXGIContext
 
@@ -68,7 +68,7 @@ Hardware queue progress fence ID that will be signaled when the Present Blt is d
 
 The size of pPrivateDriverData.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] Private driver data to pass to DdiPresent.
+Private driver data to pass to DdiPresent.
 

@@ -52,13 +52,13 @@ The D3DDDIARG_SETCLIPPLANE structure describes a clip plane.
 
 ## -struct-fields
 
-### -field Index
+### -field Index [in]
 
-[in] The index of the clipping plane for which the plane equation coefficients are set.
+The index of the clipping plane for which the plane equation coefficients are set.
 
-### -field Plane
+### -field Plane [in]
 
-[in] A four-element array of the coefficients A, B, C, and D, in that order, in the general plane equation for the clipping plane.
+A four-element array of the coefficients A, B, C, and D, in that order, in the general plane equation for the clipping plane.
 
 ## -remarks
 

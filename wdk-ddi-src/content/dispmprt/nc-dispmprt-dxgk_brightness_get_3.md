@@ -47,17 +47,17 @@ Implemented by the client driver to retrieve the currently active brightness lev
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] A handle to a context block that is associated with a display adapter.
+A handle to a context block that is associated with a display adapter.
 
-### -param ChildUid
+### -param ChildUid [in]
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
-### -param pOut
+### -param pOut [out]
 
-[out] Pointer to a [PDXGK_BRIGHTNESS_GET_OUT](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_get_out.md) structure that contains the output parameters for the get brightness call.
+Pointer to a [PDXGK_BRIGHTNESS_GET_OUT](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_get_out.md) structure that contains the output parameters for the get brightness call.
 
 ## -returns
 

@@ -49,9 +49,9 @@ The <b>KeQueryActiveProcessorCountEx</b> routine returns the number of active lo
 
 ## -parameters
 
-### -param GroupNumber 
+### -param GroupNumber [in]
 
-[in]
+
 The group number. If a multiprocessor system contains <i>n</i> groups, valid group numbers range from 0 to <i>n</i>-1. To count all active processors in all groups in the system, set this parameter to ALL_PROCESSOR_GROUPS, which is defined in header files Winnt.h and Ntdef.h.
 
 ## -returns

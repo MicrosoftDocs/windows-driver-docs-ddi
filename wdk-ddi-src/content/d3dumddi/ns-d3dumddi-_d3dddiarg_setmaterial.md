@@ -52,25 +52,25 @@ The D3DDDIARG_SETMATERIAL structure describes the material properties that are u
 
 ## -struct-fields
 
-### -field Diffuse
+### -field Diffuse [in]
 
-[in] A D3DCOLORVALUE structure that indicates the diffuse color of the material. For more information about D3DCOLORVALUE, see the Microsoft Windows SDK documentation.
+A D3DCOLORVALUE structure that indicates the diffuse color of the material. For more information about D3DCOLORVALUE, see the Microsoft Windows SDK documentation.
 
-### -field Ambient
+### -field Ambient [in]
 
-[in] A D3DCOLORVALUE structure that indicates the ambient color of the material.
+A D3DCOLORVALUE structure that indicates the ambient color of the material.
 
-### -field Specular
+### -field Specular [in]
 
-[in] A D3DCOLORVALUE structure that indicates the specular color of the material.
+A D3DCOLORVALUE structure that indicates the specular color of the material.
 
-### -field Emissive
+### -field Emissive [in]
 
-[in] A D3DCOLORVALUE structure that indicates the emissive color of the material.
+A D3DCOLORVALUE structure that indicates the emissive color of the material.
 
-### -field Power
+### -field Power [in]
 
-[in] A FLOAT value that indicates the sharpness of specular highlights. To turn off specular highlights for a material, set <b>Power</b> to 0 (setting <b>Specular</b> to 0 is not enough).
+A FLOAT value that indicates the sharpness of specular highlights. To turn off specular highlights for a material, set <b>Power</b> to 0 (setting <b>Specular</b> to 0 is not enough).
 
 ## -see-also
 

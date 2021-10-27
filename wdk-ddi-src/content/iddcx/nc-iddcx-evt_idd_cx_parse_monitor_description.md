@@ -49,13 +49,13 @@ api_name:
 
 ## -parameters
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to a [**IDARG_IN_PARSEMONITORDESCRIPTION**](ns-iddcx-idarg_in_parsemonitordescription.md) structure containing the monitor description.
+Pointer to a [**IDARG_IN_PARSEMONITORDESCRIPTION**](ns-iddcx-idarg_in_parsemonitordescription.md) structure containing the monitor description.
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to a [**IDARG_OUT_PARSEMONITORDESCRIPTION**](ns-iddcx-idarg_out_parsemonitordescription.md) structure in which the driver returns the monitor mode information.
+Pointer to a [**IDARG_OUT_PARSEMONITORDESCRIPTION**](ns-iddcx-idarg_out_parsemonitordescription.md) structure in which the driver returns the monitor mode information.
 
 ## -returns
 

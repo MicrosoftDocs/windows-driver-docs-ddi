@@ -51,14 +51,14 @@ The <b>GetNameAt</b> method retrieves the name of a property.
 
 ## -parameters
 
-### -param iProp 
+### -param iProp [in]
 
-[in]
+
 The zero-based index of the property that <b>GetNameAt</b> retrieves the name from.
 
-### -param ppwszName 
+### -param ppwszName [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to a <b>NULL</b>-terminated string that contains the name of the property. The caller needs to release the returned buffer using delete[].
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>GetOffsetInformation</b> method provides general information about an add
 
 ## -parameters
 
-### -param Space 
+### -param Space [in]
 
-[in]
+
 Specifies the data space to which the <i>Offset </i>parameter applies.  The allowed values depend on the <i>Which</i> parameter.
 
-### -param Which 
+### -param Which [in]
 
-[in]
+
 Specifies which information about the data is being queried.  This determines the possible values for <i>Space</i> and the type of the data returned in <i>Buffer</i>.  Possible values are:
 
 
@@ -106,24 +106,24 @@ The debugger engine reads the target's virtual memory at <i>Offset </i>offset fr
 </tr>
 </table>
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the offset in the target's data space for which the information is returned.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Specifies the buffer to receive the information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the <i>Buffer </i>buffer.
 
-### -param InfoSize 
+### -param InfoSize [out, optional]
 
-[out, optional]
+
 Receives the size, in bytes, of the information that is returned.  If <i>InfoSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

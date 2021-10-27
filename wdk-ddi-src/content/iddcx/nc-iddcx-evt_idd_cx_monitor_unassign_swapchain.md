@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
+
 A handle by the OS to identify the monitor that has an invalid associated swapchain.
 
 ## -returns

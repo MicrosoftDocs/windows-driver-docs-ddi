@@ -53,24 +53,24 @@ api_name:
 
 ## -parameters
 
-### -param File 
+### -param File [in]
 
-[in]
+
 Pointer to a NULL-terminated string containing the file name in which the assert occurred.
 
-### -param Line 
+### -param Line [in]
 
-[in]
+
 Specifies the line number of the assert.
 
-### -param AssertText 
+### -param AssertText [in]
 
-[in]
+
 Pointer to a NULL-terminated string containing text to be printed in the debug message.
 
-### -param AssertValue 
+### -param AssertValue [in]
 
-[in]
+
 Specifies a value to be printed in the debug message.
 
 ## -returns

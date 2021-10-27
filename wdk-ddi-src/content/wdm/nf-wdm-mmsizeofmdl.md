@@ -49,14 +49,14 @@ The <b>MmSizeOfMdl</b> routine returns the number of bytes to allocate for an MD
 
 ## -parameters
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 Pointer to the base virtual address for the range.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Supplies the size, in bytes, of the range.
 
 ## -returns
@@ -73,4 +73,4 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmInitializeMdl</a>
+[MmInitializeMdl](./nf-wdm-mminitializemdl.md)

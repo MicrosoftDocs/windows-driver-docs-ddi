@@ -46,14 +46,14 @@ The **RtlStoreUlonglong** macro stores a specified ULONGLONG value at a specifie
 
 ## -parameters
 
-### -param ADDRESS
+### -param ADDRESS [out]
 
-[out]
+
 A pointer to a location in which to store the specified ULONGLONG value.
 
-### -param VALUE
+### -param VALUE [in]
 
-[in]
+
 The ULONGLONG value to be stored.
 
 ## -remarks

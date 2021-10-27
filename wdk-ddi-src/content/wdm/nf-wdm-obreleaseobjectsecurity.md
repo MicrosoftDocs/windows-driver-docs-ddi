@@ -49,14 +49,14 @@ The <b>ObReleaseObjectSecurity</b> routine is the reciprocal to <b>ObGetObjectSe
 
 ## -parameters
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the buffered <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> to be released. The caller obtained this parameter from <b>ObGetObjectSecurity</b>
 
-### -param MemoryAllocated 
+### -param MemoryAllocated [in]
 
-[in]
+
 Specifies the value also obtained from <b>ObGetObjectSecurity</b>.
 
 ## -remarks

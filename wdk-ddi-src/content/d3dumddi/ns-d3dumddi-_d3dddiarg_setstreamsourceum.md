@@ -52,13 +52,13 @@ The D3DDDIARG_SETSTREAMSOURCEUM structure describes the vertex stream to bind to
 
 ## -struct-fields
 
-### -field Stream
+### -field Stream [in]
 
-[in] The index, starting from zero, for the vertex stream to bind to a user-memory buffer.
+The index, starting from zero, for the vertex stream to bind to a user-memory buffer.
 
-### -field Stride
+### -field Stride [in]
 
-[in] The size, in bytes, from one vertex to the next vertex in the stream. In contrast to the call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsource">SetStreamSource</a> function, <b>Stride</b> cannot be set to zero. Because only one stream can be bound to a user memory buffer, each vertex in the stream must receive different data for processing.
+The size, in bytes, from one vertex to the next vertex in the stream. In contrast to the call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsource">SetStreamSource</a> function, <b>Stride</b> cannot be set to zero. Because only one stream can be bound to a user memory buffer, each vertex in the stream must receive different data for processing.
 
 The <b>Stride</b> value must be DWORD-aligned.
 

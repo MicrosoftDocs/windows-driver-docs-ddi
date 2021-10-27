@@ -55,25 +55,25 @@ The <b>PEP_QUERY_COMPONENT_PERF_SET_NAME</b> structure contains query informatio
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
-### -field Component
+### -field Component [in]
 
-[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
-### -field Set
+### -field Set [in]
 
-[in] The index that identifies this P-state set. If this component has M P-state sets, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_capabilities">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
+The index that identifies this P-state set. If this component has M P-state sets, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_capabilities">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
 
-### -field NameSize
+### -field NameSize [in, out]
 
-[in, out] On input, the size, in bytes, of the buffer pointed to by the <b>Name</b> member. If <b>Name</b> is NULL, the PEP overwrites the input value of <b>NameSize</b> with the buffer size required for the name string.
+On input, the size, in bytes, of the buffer pointed to by the <b>Name</b> member. If <b>Name</b> is NULL, the PEP overwrites the input value of <b>NameSize</b> with the buffer size required for the name string.
 
-### -field Name
+### -field Name [in]
 
-[in] A pointer to an output buffer. The PEP writes the name of the P-state to this buffer. The name is stored as a wide-character, null-terminated string. The <b>Name</b> member is NULL if the Windows power management framework (PoFx) needs to determine how large a buffer to allocate for the name string. If <b>Name</b> is non-NULL, the buffer must be large enough to contain the entire string, including the terminating null character.
+A pointer to an output buffer. The PEP writes the name of the P-state to this buffer. The name is stored as a wide-character, null-terminated string. The <b>Name</b> member is NULL if the Windows power management framework (PoFx) needs to determine how large a buffer to allocate for the name string. If <b>Name</b> is non-NULL, the buffer must be large enough to contain the entire string, including the terminating null character.
 
 ## -remarks
 

@@ -53,43 +53,43 @@ The
 
 ## -parameters
 
-### -param TimerObject 
+### -param TimerObject [in]
 
-[in]
+
 A handle to a timer object that NDIS provides when a driver calls the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
      NdisAllocateTimerObject</a> function.
 
-### -param DueTime 
+### -param DueTime [in]
 
-[in]
+
 The absolute or relative time at which the timer will expire. If the value of the 
      <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time.
      Otherwise, the expiration time is absolute. The expiration time is expressed in system time units
      (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative
      expiration times are not affected by system time changes.
 
-### -param MillisecondsPeriod 
+### -param MillisecondsPeriod [in, optional]
 
-[in, optional]
+
 The optional periodic time interval, in milliseconds, that elapses between every instance when the
      timer fires and the next call to the 
      <i>NetTimerCallback</i> function, unless the timer is canceled. The value of this parameter must be less
      than or equal to MAXLONG. This parameter can be set to zero to indicate that the timer is
      non-periodic.
 
-### -param FunctionContext 
+### -param FunctionContext [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied context area that NDIS passes to the associated 
      <i>NetTimerCallback</i> function when a timer fires. If this parameter is <b>NULL</b>, NDIS uses the default
      value that is specified in the 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_timer_characteristics">
      NDIS_TIMER_CHARACTERISTICS</a> structure.
 
-### -param Tolerance 
+### -param Tolerance [in, optional]
 
-[in, optional]
+
 The tolerance, in milliseconds, between the timer period specified by 
      <i>MillisecondsPeriod</i> and the initial time interval specified by 
      <i>DueTime</i> . A periodic timer will first expire in the time interval between (

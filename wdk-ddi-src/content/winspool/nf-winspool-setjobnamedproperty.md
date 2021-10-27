@@ -49,15 +49,15 @@ Describes the SetJobNamedProperty function.
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
 
-### -param JobId 
 
-[in]
+### -param JobId [in]
 
-### -param pProperty 
 
-[in]
+
+### -param pProperty [in]
+
+
 

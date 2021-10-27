@@ -49,34 +49,34 @@ The <code>PinCount</code> method queries the miniport driver for its pin count.
 
 ## -parameters
 
-### -param PinId 
+### -param PinId [in]
 
-[in]
+
 Specifies the pin ID. If a filter contains <i>n</i> pin factories, valid pin IDs range from 0 to <i>n</i>-1.
 
-### -param FilterNecessary 
+### -param FilterNecessary [in, out]
 
-[in, out]
+
 Specifies the minimum number of pins that the pin factory should instantiate before the filter can perform I/O operations.
 
-### -param FilterCurrent 
+### -param FilterCurrent [in, out]
 
-[in, out]
+
 Specifies the current number of pin instances. This number counts the pins that the pin factory has already instantiated on the filter.
 
-### -param FilterPossible 
+### -param FilterPossible [in, out]
 
-[in, out]
+
 Specifies the maximum number of pins that the pin factory can instantiate on the filter. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
-### -param GlobalCurrent 
+### -param GlobalCurrent [in, out]
 
-[in, out]
+
 Specifies the current number of pins that the pin factory has instantiated on the driver.
 
-### -param GlobalPossible 
+### -param GlobalPossible [in, out]
 
-[in, out]
+
 Specifies the maximum number of pins that the pin factory can instantiate on the driver. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
 ## -remarks

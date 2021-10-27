@@ -49,14 +49,14 @@ For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
-### -param RequiredAccess 
+### -param RequiredAccess [in]
 
-[in]
+
 For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 ## -returns

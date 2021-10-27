@@ -49,9 +49,9 @@ The `GetStream` method gets the stream interface.
 
 ## -parameters
 
-### -param ppStream 
+### -param ppStream [out]
 
-[out]
+
 A pointer to an [IPrintReadStream](./nn-filterpipeline-iprintreadstream.md) interface. The filter can use this interface to read the contents of the print ticket.
 
 ## -returns

@@ -51,27 +51,27 @@ api_name:
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 Specifies the handle to the VC being named. This handle was supplied by NDIS when the VC was
      originally created with 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
-### -param BaseInstanceName 
+### -param BaseInstanceName [in]
 
-[in]
+
 Pointer to an NDIS_STRING type that describes a caller-supplied Unicode string that specifies the
      base name of the VC. The base name can be any localizable Unicode string that uniquely identifies the VC
      with respect to the other named VCs within the scope of the miniport driver. For Windows Vista and
      later, NDIS defines the NDIS_STRING type as a 
      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
-### -param VcInstanceName 
+### -param VcInstanceName [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated NDIS_STRING type in which this routine returns a Unicode string that
      specifies the NDIS-assigned instance name assigned for the VC.
 

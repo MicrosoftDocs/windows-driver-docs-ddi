@@ -51,13 +51,13 @@ dev_langs:
 
 ## -parameters
 
-### -param AdapterObject
+### -param AdapterObject [in]
 
-[in] The adapter object of the remote adapter that the display configuration is specified for.
+The adapter object of the remote adapter that the display configuration is specified for.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Pointer to an [**IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE**](ns-iddcx-idarg_in_adaptersetrenderadapter.md) structure containing input arguments to the function.
+Pointer to an [**IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE**](ns-iddcx-idarg_in_adaptersetrenderadapter.md) structure containing input arguments to the function.
 
 ## -returns
 

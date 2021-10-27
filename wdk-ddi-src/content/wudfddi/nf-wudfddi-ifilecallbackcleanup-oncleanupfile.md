@@ -51,9 +51,9 @@ The <b>OnCleanupFile</b> method cancels all I/O requests that a driver has pendi
 
 ## -parameters
 
-### -param pWdfFileObject 
+### -param pWdfFileObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the device.
 
 ## -remarks

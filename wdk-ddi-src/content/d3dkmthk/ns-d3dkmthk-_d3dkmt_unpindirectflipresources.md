@@ -48,18 +48,18 @@ Arguments used to unpin direct flip resources.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device.
+A handle to the device.
 
-### -field ResourceCount
+### -field ResourceCount [in]
 
-[in] The number of resources to unpin.
+The number of resources to unpin.
 
-### -field pResourceList
+### -field pResourceList [in]
 
  
-[in] An array of resource handles to unpin.
+An array of resource handles to unpin.
 
 ## -remarks
 

@@ -49,9 +49,9 @@ The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional ti
 
 ## -parameters
 
-### -param Bcb 
+### -param Bcb [in]
 
-[in]
+
 Buffer control block (BCB) pointer returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>.
 
 ## -remarks

@@ -52,20 +52,20 @@ api_name:
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A DirectX graphics kernel resource handle.
+A DirectX graphics kernel resource handle.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in, out]
 
-[in, out] The size of the <b>pPrivateDriverData</b> buffer in bytes. When zero or when there is insufficient space, the size of the required buffer is returned back to the caller along with a <b>STATUS_INVALID_BUFFER_SIZE</b><b>HRESULT</b> value from the calling method. 
+The size of the <b>pPrivateDriverData</b> buffer in bytes. When zero or when there is insufficient space, the size of the required buffer is returned back to the caller along with a <b>STATUS_INVALID_BUFFER_SIZE</b><b>HRESULT</b> value from the calling method. 
 
 <div class="alert"><b>Note</b>  By the time another call is made with the new buffer size, the resource could be associated with a different sized buffer.</div>
 <div> </div>
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in, out]
 
-[in, out] The buffer where the private data will be written to.
+The buffer where the private data will be written to.
 
 ## -see-also
 

@@ -52,21 +52,21 @@ The D3DDDIARG_FLIPOVERLAY structure describes a new resource to display on a giv
 
 ## -struct-fields
 
-### -field hOverlay
+### -field hOverlay [in]
 
-[in] A handle to the overlay hardware to be flipped.
+A handle to the overlay hardware to be flipped.
 
-### -field hSource
+### -field hSource [in]
 
-[in] A handle to the new resource to be displayed. This resource might be the same as the resource that was previously displayed if deinterlacing interleaved data.
+A handle to the new resource to be displayed. This resource might be the same as the resource that was previously displayed if deinterlacing interleaved data.
 
-### -field SourceIndex
+### -field SourceIndex [in]
 
-[in] The zero-based index of the subresource to be displayed.
+The zero-based index of the subresource to be displayed.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_flipoverlayflags">D3DDDI_FLIPOVERLAYFLAGS</a> structure that indicates, in bit-field flags, how to flip the resource.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_flipoverlayflags">D3DDDI_FLIPOVERLAYFLAGS</a> structure that indicates, in bit-field flags, how to flip the resource.
 
 ## -see-also
 

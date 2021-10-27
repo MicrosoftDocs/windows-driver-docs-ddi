@@ -52,19 +52,19 @@ For more information about audio modules, see <a href="/windows-hardware/drivers
 
 ## -parameters
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 Specifies the type of memory pool from which the object is to be allocated (see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>). The recommended values are NonPagedPoolNx or PagedPool. The memory pool type selection also depends on the IRQL level. If running at DISPATCH_LEVEL the memory must be non-paged.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Number of bytes to allocate.
 
-### -param NotificationBuffer 
+### -param NotificationBuffer [out]
 
-[out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
 
 ## -returns

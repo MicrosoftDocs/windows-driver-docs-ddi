@@ -49,15 +49,15 @@ The <b>RtlCheckBit</b> routine determines whether a particular bit in a given bi
 
 ## -parameters
 
-### -param BitMapHeader
+### -param BitMapHeader [in]
 
-[in]
+
 
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
-### -param BitPosition
+### -param BitPosition [in]
 
-[in]
+
 
 Specifies which bit to check. This is a zero-based value indicating the position of the bit to be tested.
 

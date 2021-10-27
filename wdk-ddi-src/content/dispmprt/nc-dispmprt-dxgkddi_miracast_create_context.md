@@ -49,24 +49,24 @@ Creates a kernel-mode context for a Miracast device.
 
 ## -parameters
 
-### -param DriverContext 
+### -param DriverContext [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param MiracastCallbacks 
+### -param MiracastCallbacks [in]
 
-[in]
+
 A pointer to an operating system-provided buffer that holds a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_display_callbacks">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure that has pointers to callback functions that the driver can call.
 
-### -param MiracastContext 
+### -param MiracastContext [out]
 
-[out]
+
 A pointer to an operating system-provided buffer that holds the address of the context that the driver allocated for this Miracast device instance.
 
-### -param TargetId 
+### -param TargetId [out]
 
-[out]
+
 A pointer to an operating system-provided buffer that holds the  ID of the VidPN target that the Miracast device is connected to. The driver should report this target as type <b>D3DKMDT_VOT_MIRACAST</b> when the operating system calls the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function during device initialization.
 
 ## -returns

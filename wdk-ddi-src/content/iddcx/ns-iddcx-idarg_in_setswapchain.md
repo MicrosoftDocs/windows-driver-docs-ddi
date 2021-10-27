@@ -48,17 +48,17 @@ The **IDARG_IN_SETSWAPCHAIN** structure provides information used to set the ind
 
 ## -struct-fields
 
-### -field hSwapChain
+### -field hSwapChain [in]
 
-[in] Handle to an opaque, OS-created IDDCX_SWAPCHAIN object that will be used to pass the desktop image to the driver for processing, transmission and display.
+Handle to an opaque, OS-created IDDCX_SWAPCHAIN object that will be used to pass the desktop image to the driver for processing, transmission and display.
 
-### -field hNextSurfaceAvailable
+### -field hNextSurfaceAvailable [in]
 
-[in] Handle to the auto reset event that is signaled when the new image to encode is ready.
+Handle to the auto reset event that is signaled when the new image to encode is ready.
 
-### -field RenderAdapterLuid
+### -field RenderAdapterLuid [In]
 
-[In] LUID of the adapter where the desktop image was rendered.
+LUID of the adapter where the desktop image was rendered.
 
 ## -see-also
 

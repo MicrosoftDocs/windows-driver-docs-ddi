@@ -51,21 +51,21 @@ The function pointer type for a <i>SetDmaEngineState</i> routine is defined as f
 
 ## -parameters
 
-### -param _context 
+### -param _context [in]
 
-[in]
+
 Specifies the context value from the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 ### -param StreamState
 
-### -param NumberOfHandles 
+### -param NumberOfHandles [in]
 
-[in]
+
 Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
 
-### -param Handles 
+### -param Handles [in]
 
-[in]
+
 Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 

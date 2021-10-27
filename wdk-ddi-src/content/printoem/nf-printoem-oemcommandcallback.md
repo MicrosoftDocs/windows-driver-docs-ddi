@@ -53,7 +53,7 @@ api_name:
 
 ### -param dwCount
 
-### -param pdwParams 
+### -param pdwParams [in]
 
-[in]
+
 

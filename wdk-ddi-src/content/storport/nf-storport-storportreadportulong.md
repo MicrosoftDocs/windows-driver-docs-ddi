@@ -50,14 +50,14 @@ The <b>StorPortReadPortUlong</b> routine reads a value from a specified port add
 
 ## -parameters
 
-### -param  
+### -param [in]
 
-[in]
+
 A pointer to the hardware device extension.
 
-### -param p 
+### -param p [in]
 
-[in]
+
 A pointer to the address from which to read.
 
 ## -remarks

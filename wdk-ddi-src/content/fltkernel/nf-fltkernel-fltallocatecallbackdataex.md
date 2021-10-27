@@ -49,23 +49,23 @@ The **FltAllocateCallbackDataEx** routine allocates a callback data structure an
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer to the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be **NULL**.
+Opaque instance pointer to the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param FileObject
+### -param FileObject [in/optional]
 
-[in/optional] Pointer to a file object to be used in the I/O operation. This parameter is optional and can be **NULL**. Set **FileObject** to **NULL** if this is a CREATE operation.
+Pointer to a file object to be used in the I/O operation. This parameter is optional and can be **NULL**. Set **FileObject** to **NULL** if this is a CREATE operation.
 
-### -param Flags
+### -param Flags [in]
 
-[in] A value of zero or the following flag: FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY
+A value of zero or the following flag: FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY
 
 If this flag is set, the routine preallocates all the memory needed by the filter manager for additional structures to be used in an I/O request.
 
-### -param RetNewCallbackData
+### -param RetNewCallbackData [out]
 
-[out] Pointer to a caller-allocated variable that receives the address of the newly allocated callback data [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure.
+Pointer to a caller-allocated variable that receives the address of the newly allocated callback data [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure.
 
 ## -returns
 

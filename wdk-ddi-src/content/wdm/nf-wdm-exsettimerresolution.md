@@ -49,14 +49,14 @@ The <b>ExSetTimerResolution</b> routine modifies the frequency at which the syst
 
 ## -parameters
 
-### -param DesiredTime 
+### -param DesiredTime [in]
 
-[in]
+
 Specifies the amount of time that should elapse between each timer interrupt, in 100-nanosecond units. The minimum value is approximately 10,000 (1 millisecond) but can vary slightly by platform. (This parameter is ignored if <i>SetResolution</i> is <b>FALSE</b>.)
 
-### -param SetResolution 
+### -param SetResolution [in]
 
-[in]
+
 If <b>TRUE</b>, the call is a request to set the clock interrupt frequency to the value specified by <i>DesiredTime</i>. If <b>FALSE</b>, the call is a request to restore the clock interrupt frequency to the system's default value, which is platform-specific.
 
 ## -returns

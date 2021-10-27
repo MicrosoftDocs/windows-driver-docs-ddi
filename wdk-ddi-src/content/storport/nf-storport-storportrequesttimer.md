@@ -49,19 +49,19 @@ Schedules a callback event for a Storport timer context object.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param TimerHandle 
+### -param TimerHandle [in]
 
-[in]
+
 A pointer to an opaque buffer for the timer context returned by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
 
-### -param TimerCallback 
+### -param TimerCallback [in]
 
-[in]
+
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
 
 
@@ -75,19 +75,19 @@ VOID
 ```
 
 
-### -param CallbackContext 
+### -param CallbackContext [in, optional]
 
-[in, optional]
+
 A pointer to a miniport provided context for the timer callback.
 
-### -param TimerValue 
+### -param TimerValue [in]
 
-[in]
+
 The timeout value for the timer, in microseconds. Setting <i>TimerValue</i> to 0 will cancel the timer.
 
-### -param TolerableDelay 
+### -param TolerableDelay [in]
 
-[in]
+
 The allowable delay for the timer in microseconds. Values less than 32 microseconds are ignored and <i>TolerableDelay</i> defaults to 0.
 
 ## -returns

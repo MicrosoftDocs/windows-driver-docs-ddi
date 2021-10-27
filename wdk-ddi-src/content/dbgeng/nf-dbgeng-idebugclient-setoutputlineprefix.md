@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Prefix 
+### -param Prefix [in, optional]
 
-[in, optional]
+
 A pointer to the prefix value.
 
 ## -returns

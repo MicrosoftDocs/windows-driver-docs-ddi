@@ -48,13 +48,13 @@ A filter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-ty
 
 ## -parameters
 
-### -param EcpContext
+### -param EcpContext [in, out]
 
-[in, out] An ECP context pointer that was returned by the routine that allocated the ECP context structure.
+An ECP context pointer that was returned by the routine that allocated the ECP context structure.
 
-### -param EcpType
+### -param EcpType [in[]
 
-[in[] A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers).
+A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers).
 
 ## -remarks
 

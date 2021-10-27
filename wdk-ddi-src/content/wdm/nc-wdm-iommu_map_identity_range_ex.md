@@ -46,19 +46,19 @@ Creates an identity mapping for a provided physical address space in the provide
 
 ## -parameters
 
-### -param Domain
+### -param Domain [in]
 
-[in]
+
 A pointer to the **IOMMU_DMA_DOMAIN** that the identity mapped physical address will belong to. The domain must be of type *DomainTypeTranslate* or *DomainTypePassThrough*. For more information about domain types, see [IOMMU_DMA_DOMAIN_TYPE](ne-wdm-iommu_dma_domain_type.md).
 
-### -param Permissions
+### -param Permissions [in]
 
-[in]
+
 A bit-field representing the permissions to be set for the range being mapped. See Remarks for the available permission bits.
 
-### -param PhysicalAddressToMap
+### -param PhysicalAddressToMap [in]
 
-[in]
+
 The [**IOMMU_MAP_PHYSICAL_ADDRESS**](ns-wdm-iommu_map_physical_address.md) that will be mapped to the domain.
 
 ## -returns

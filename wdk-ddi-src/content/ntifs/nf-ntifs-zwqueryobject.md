@@ -49,29 +49,29 @@ The <b>ZwQueryObject</b> routine provides information about a supplied object.
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in, optional]
 
-[in, optional]
+
 A handle to the object to obtain information about.
 
-### -param ObjectInformationClass 
+### -param ObjectInformationClass [in]
 
-[in]
+
 Specifies an <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_object_information_class">OBJECT_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>ObjectInformation</i> buffer.
 
-### -param ObjectInformation 
+### -param ObjectInformation [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer that receives the requested information.
 
-### -param ObjectInformationLength 
+### -param ObjectInformationLength [in]
 
-[in]
+
 Specifies the size, in bytes, of the <i>ObjectInformation</i> buffer.
 
-### -param ReturnLength 
+### -param ReturnLength [out, optional]
 
-[out, optional]
+
 A pointer to a variable that receives the size, in bytes, of the requested key information. If <b>ZwQueryObject</b> returns STATUS_SUCCESS, the variable contains the amount of data returned. If <b>ZwQueryObject</b> returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required buffer size.
 
 ## -returns

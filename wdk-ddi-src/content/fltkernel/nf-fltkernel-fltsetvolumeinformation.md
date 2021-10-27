@@ -49,29 +49,29 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for a minifilter driver instance that is attached to the volume.
 
-### -param Iosb 
+### -param Iosb [out]
 
-[out]
+
 Pointer to an IO_STATUS_BLOCK structure that receives the final completion status and information about the operation.
 
-### -param FsInformation 
+### -param FsInformation [out]
 
-[out]
+
 Pointer to a caller-allocated buffer containing the values to be set for the volume. The structure of the information contained in the buffer is defined by the <i>FsInformationClass</i> parameter.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size in bytes of the buffer that <i>FsInformation </i>points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof(</b>FILE_FS_CONTROL_INFORMATION<b>)</b>.
 
-### -param FsInformationClass 
+### -param FsInformationClass [in]
 
-[in]
+
 Type of information to be set for the volume. One of the following. 
 
 <table>

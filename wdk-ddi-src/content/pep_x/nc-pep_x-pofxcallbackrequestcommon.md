@@ -49,14 +49,14 @@ The <b>RequestCommon</b> routine is a generic request handler.
 
 ## -parameters
 
-### -param RequestId 
+### -param RequestId [in]
 
-[in]
+
 A request ID that specifies the operation being requested.
 
-### -param Data 
+### -param Data [in, out, optional]
 
-[in, out, optional]
+
 A pointer to a data structure that contains the input data and/or result data for the request specified by the <i>RequestId</i> parameter.
 
 ## -returns

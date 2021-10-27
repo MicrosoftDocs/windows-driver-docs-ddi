@@ -51,9 +51,9 @@ Completes the extension event with a cancellation.
 
 ### -param hrStatus
 
-### -param bstrLogMessage 
+### -param bstrLogMessage [in]
 
-[in]
+
 The log message.
 
 

@@ -51,9 +51,9 @@ The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="/windows-hardwar
 
 ### -param SrvCall
 
-### -param ThisMinirdrIsTheWinner 
+### -param ThisMinirdrIsTheWinner [in]
 
-[in]
+
 A Boolean value that indicates that this network mini-redirector was chosen.
 
 ### -param RecommunicateContext

@@ -54,14 +54,14 @@ The <b>InterlockedExchangeAdd</b> routine adds a value to a given integer as an 
 
 ## -parameters
 
-### -param Addend 
+### -param Addend [in, out]
 
-[in, out]
+
 A pointer to an integer variable.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value to be added to <i>Addend</i>.
 
 ## -returns

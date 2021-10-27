@@ -49,9 +49,9 @@ The <b>GetModuleNameString</b>  method returns the name of the specified module.
 
 ## -parameters
 
-### -param Which 
+### -param Which [in]
 
-[in]
+
 Specifies which of the module's names to return, possible values are:
 
 <table>
@@ -111,29 +111,29 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 </tr>
 </table>
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the name of the module.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

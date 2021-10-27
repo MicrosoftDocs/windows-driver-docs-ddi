@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param TraceType 
+### -param TraceType [in]
 
-[in]
+
 The value that determines which dereference request type is tracked. This value can be one of the following macros defined in <i>fcb.h</i>:
 
 
@@ -92,14 +92,14 @@ A dereference request on an FCB structure.
 
 A dereference request on a SRV_OPEN structure.
 
-### -param FileName 
+### -param FileName [in]
 
-[in]
+
 The name of the source file where this routine was called.
 
-### -param Line 
+### -param Line [in]
 
-[in]
+
 The line number in the source file where this routine was called.
 
 ### -param Instance

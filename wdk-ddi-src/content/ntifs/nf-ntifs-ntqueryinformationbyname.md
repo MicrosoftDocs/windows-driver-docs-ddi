@@ -46,25 +46,25 @@ product:
 
 ## -parameters
 
-### -param ObjectAttributes
+### -param ObjectAttributes [in]
 
-[in] Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that contains the file's attributes, including file name.
+Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that contains the file's attributes, including file name.
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Pointer an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure containing the caller's I/O status.
+Pointer an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure containing the caller's I/O status.
 
-### -param FileInformation
+### -param FileInformation [out]
 
-[out] Pointer to the caller-supplied buffer in which to return the requested information about the file. The structure of the buffer is determined by the *FileInformationClass* parameter.
+Pointer to the caller-supplied buffer in which to return the requested information about the file. The structure of the buffer is determined by the *FileInformationClass* parameter.
 
-### -param Length
+### -param Length [in]
 
-[in] Length, in bytes, of the buffer that *FileInformation* points to.
+Length, in bytes, of the buffer that *FileInformation* points to.
 
-### -param FileInformationClass
+### -param FileInformationClass [in]
 
-[in] A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that identifies the type of file information to return in the buffer that *FileInformation* points to. *FileInformationClass* can be one of the following values.
+A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that identifies the type of file information to return in the buffer that *FileInformation* points to. *FileInformationClass* can be one of the following values.
 
 | FILE_INFORMATION_CLASS Value | Type of Information to Return |
 | ---------------------------- | ----------------------------- |

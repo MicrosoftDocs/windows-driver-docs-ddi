@@ -49,9 +49,9 @@ The **MiniDrvCallback** method provides a callback method for WIA minidrivers to
 
 ## -parameters
 
-### -param lReason 
+### -param lReason [in]
 
-[in]
+
 Specifies a constant value that designates a callback status message. This value is used to determine the purpose of the callback, and can be one of the following values:
 
 | Message | Definition |
@@ -65,9 +65,9 @@ Specifies a constant value that designates a callback status message. This value
 | IT_MSG_STATUS | Callback contains only status information about the transfer. |
 | IT_MSG_TERMINATION | Indicates that the data transfer is complete. |
 
-### -param lStatus 
+### -param lStatus [in]
 
-[in]
+
 Specifies the status of the transfer. This parameter is a bitwise OR of the following values:
 
 | Status | Definition |
@@ -76,29 +76,29 @@ Specifies the status of the transfer. This parameter is a bitwise OR of the foll
 | IT_STATUS_PROCESSING_DATA | Device and/or minidriver are processing the data. |
 | IT_STATUS_TRANSFER_TO_CLIENT | Transferring data from the minidriver to the WIA service. |
 
-### -param lPercentComplete 
+### -param lPercentComplete [in]
 
-[in]
+
 Specifies the current percentage of data transferred.
 
-### -param lOffset 
+### -param lOffset [in]
 
-[in]
+
 Specifies the current offset (in bytes) into the transfer buffer from the beginning of the buffer.
 
-### -param lLength 
+### -param lLength [in]
 
-[in]
+
 Specifies the number of bytes contained in the transfer.
 
-### -param pTranCtx 
+### -param pTranCtx [in]
 
-[in]
+
 Points to a [MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md) structure containing the data transfer values.
 
-### -param lReserved 
+### -param lReserved [in]
 
-[in]
+
 Reserved. Set to zero.
 
 ## -returns

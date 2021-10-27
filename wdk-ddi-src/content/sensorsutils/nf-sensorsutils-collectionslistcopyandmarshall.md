@@ -47,13 +47,13 @@ This routine copies and marshalls a collection list from source to target.
 
 ## -parameters
 
-### -param Target
+### -param Target [in]
 
-[in] A pointer to a collection list.
+A pointer to a collection list.
 
-### -param Source
+### -param Source [out]
 
-[out] A pointer to a collection list.
+A pointer to a collection list.
 
 ## -returns
 

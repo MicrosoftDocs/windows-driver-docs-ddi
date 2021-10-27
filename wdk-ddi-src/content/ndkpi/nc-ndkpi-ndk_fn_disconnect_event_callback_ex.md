@@ -45,14 +45,14 @@ The *NdkDisconnectEventCallbackEx* (*NDK_FN_DISCONNECT_EVENT_CALLBACK_EX*) funct
 
 ## -parameters
 
-### -param DisconnectEventContext
+### -param DisconnectEventContext [in, optional]
 
-[in, optional]
+
 A context area that was specified in the *DisconnectEvent* parameter of the *NdkCompleteConnectEx* ([NDK_FN_COMPLETE_CONNECT_EX](nc-ndkpi-ndk_fn_complete_connect_ex.md)) or *NdkAcceptEx* ([NDK_FN_ACCEPT_EX](nc-ndkpi-ndk_fn_accept_ex.md)) function when the completion queue (CQ) object was created.
 
-### -param ProviderDisconnectReason
+### -param ProviderDisconnectReason [in]
 
-[in]
+
 A provider specific code that indicates why the connection has disconnected.
 
 **Zero** indicates the NDK provider does not support the disconnect reason capability yet or did not provide one. 

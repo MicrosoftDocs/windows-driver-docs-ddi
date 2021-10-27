@@ -49,44 +49,44 @@ The <code>NewStream</code> method creates a new instance of a logical stream tha
 
 ## -parameters
 
-### -param Stream 
+### -param Stream [out]
 
-[out]
+
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavecyclicstream">IMiniportWaveCyclicStream</a> interface. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
-### -param OuterUnknown 
+### -param OuterUnknown [in, optional]
 
-[in, optional]
+
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration.
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Number of the pin that is to be opened. If the WaveCyclic miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid values for parameter <i>Pin</i> are in the range 0 to <i>n</i>-1.
 
-### -param Capture 
+### -param Capture [in]
 
-[in]
+
 Specifies whether to create a capture stream or a render stream. This parameter is <b>TRUE</b> for a capture (input) channel, and <b>FALSE</b> for a playback (output) channel.
 
-### -param DataFormat 
+### -param DataFormat [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure indicating the format to use for this instance.
 
-### -param DmaChannel 
+### -param DmaChannel [out]
 
-[out]
+
 Output pointer to the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> interface of the miniport driver's DMA-channel object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter. For more information, see the following Remarks section.
 
-### -param ServiceGroup 
+### -param ServiceGroup [out]
 
-[out]
+
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 ## -returns

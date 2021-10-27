@@ -49,9 +49,9 @@ The <b>KeClearEvent</b> routine sets an event to a not-signaled state.
 
 ## -parameters
 
-### -param Event 
+### -param Event [in, out]
 
-[in, out]
+
 Pointer to an initialized dispatcher object of type event for which the caller supplies the storage.
 
 ## -remarks

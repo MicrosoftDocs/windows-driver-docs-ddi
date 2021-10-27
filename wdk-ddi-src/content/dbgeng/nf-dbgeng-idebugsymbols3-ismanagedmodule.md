@@ -51,14 +51,14 @@ Checks whether the engine is using managed
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of a module.
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 The base of the module.
 
 ## -returns

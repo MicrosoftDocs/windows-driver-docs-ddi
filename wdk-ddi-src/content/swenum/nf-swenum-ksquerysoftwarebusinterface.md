@@ -51,14 +51,14 @@ The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged 
 
 ## -parameters
 
-### -param PnpDeviceObject 
+### -param PnpDeviceObject [in]
 
-[in]
+
 Pointer to the demand-load bus enumerator's device object.
 
-### -param BusInterface 
+### -param BusInterface [out]
 
-[out]
+
 Pointer to the demand-load bus enumerator's interface.
 
 ## -returns

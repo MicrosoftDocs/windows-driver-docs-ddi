@@ -49,14 +49,14 @@ The <b>SetUnnamedArg</b> method sets an unnamed argument for the current extensi
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
 
-### -param StrArg 
+### -param StrArg [in, optional]
 
-[in, optional]
+
 A string that specifies the value of the unnamed argument.
 
 If the argument is of type <b>string</b>, a pointer to the first non-space character is saved as the argument.  In this case, <i>StrArg</i> must not be <b>NULL</b>.
@@ -65,14 +65,14 @@ If the argument is of type <b>expression</b>, <i>StrArg</i> is evaluated using t
 
 If the argument is of type <b>Boolean</b>, <i>StrArg</i> is ignored and can be <b>NULL</b>.
 
-### -param NumArg 
+### -param NumArg [in]
 
-[in]
+
 Specifies the value of an unnamed expression argument.  <i>NumArg</i> is only used if the argument is of type <b>expression</b> and <i>StrArg</i> is <b>NULL</b>.
 
-### -param OnlyIfUnset 
+### -param OnlyIfUnset [in]
 
-[in]
+
 Specifies what happens if the argument is already set.  If <i>OnlyIfUnset</i> is <code>true</code> and the argument has already been set, the argument will not be changed.  If <i>OnlyIfUnset</i> is <code>false</code> and the argument has already been set, the argument will be changed.
 
 ## -returns

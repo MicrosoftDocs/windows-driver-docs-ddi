@@ -49,24 +49,24 @@ The <b>GetEventFilterCommandWide</b>  method returns the debugger command that t
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumbereventfilters">GetNumberEventFilters</a> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the debugger command that the engine will execute when the event occurs.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param CommandSize 
+### -param CommandSize [out, optional]
 
-[out, optional]
+
 Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

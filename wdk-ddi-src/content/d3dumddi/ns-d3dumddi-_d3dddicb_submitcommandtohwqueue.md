@@ -52,9 +52,9 @@ A structure that holds information to queue hardware.
 
 ## -struct-fields
 
-### -field hHwQueue
+### -field hHwQueue [in]
 
-[in] Hardware queue being submitted to.
+Hardware queue being submitted to.
 
 ### -field HwQueueProgressFenceId
 

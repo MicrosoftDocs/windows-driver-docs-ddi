@@ -52,33 +52,33 @@ Describes a <a href="/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Dupl
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A D3DKMT_HANDLE data type that represents a handle to the context.
+A D3DKMT_HANDLE data type that represents a handle to the context.
 
-### -field hSource
+### -field hSource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
 
 ### -field VidPnSourceId
 
 The zero-based identification number of a video present source in a path of a video present network (VidPN) topology.
 
-### -field BroadcastContextCount
+### -field BroadcastContextCount [in]
 
-[in] Specifies the number of contexts.
+Specifies the number of contexts.
 
-### -field BroadcastContext
+### -field BroadcastContext [in]
 
-[in] A D3DKMT_HANDLE data type that represents the broadcast context.
+A D3DKMT_HANDLE data type that represents the broadcast context.
 
-### -field PresentRegions
+### -field PresentRegions [in]
 
-[in] Dirty and move regions, of type <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>.
+Dirty and move regions, of type <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A bitwise-OR combination of values from the <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresentflags">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a> enumeration that describe options for the present operation.
+A bitwise-OR combination of values from the <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresentflags">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a> enumeration that describe options for the present operation.
 
 ### -field hIndirectContext
 

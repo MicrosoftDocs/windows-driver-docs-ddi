@@ -51,19 +51,19 @@ The<i> MRxIsLockRealizable</i> routine is called by <a href="/windows-hardware/d
 
 ### -param Fcb
 
-### -param ByteOffset 
+### -param ByteOffset [in]
 
-[in]
+
 A value indicating the byte offset for the byte range lock.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 A value indicating the length for the byte range lock.
 
-### -param LowIoLockFlags 
+### -param LowIoLockFlags [in]
 
-[in]
+
 A value indicating the I/O lock flags. This parameter is a bitmask that contains any combination of the following values: 
 
 

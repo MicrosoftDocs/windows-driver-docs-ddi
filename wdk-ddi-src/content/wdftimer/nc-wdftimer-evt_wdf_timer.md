@@ -51,9 +51,9 @@ The <i>EvtTimerFunc</i> event callback function is called when a specified time 
 
 ## -parameters
 
-### -param Timer 
+### -param Timer [in]
 
-[in]
+
 A handle to a framework timer object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 ## -remarks

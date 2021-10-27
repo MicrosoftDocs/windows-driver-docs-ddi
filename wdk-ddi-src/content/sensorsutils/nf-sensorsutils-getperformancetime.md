@@ -47,9 +47,9 @@ This routine calculates system time in milliseconds. The time source is the perf
 
 ## -parameters
 
-### -param TimeMs
+### -param TimeMs [out]
 
-[out] Time in milliseconds.
+Time in milliseconds.
 
 ## -returns
 

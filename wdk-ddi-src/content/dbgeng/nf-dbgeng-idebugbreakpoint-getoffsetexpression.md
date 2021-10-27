@@ -49,19 +49,19 @@ The <b>GetOffsetExpression</b>  methods return the expression string that evalua
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 The expression string that evaluates to the location on the target that triggers the breakpoint.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size, in characters, of the buffer that <i>Buffer </i>points to.
 
-### -param ExpressionSize 
+### -param ExpressionSize [out, optional]
 
-[out, optional]
+
 The size, in characters, of the expression string.  If <i>ExpressionSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

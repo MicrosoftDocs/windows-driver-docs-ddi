@@ -48,22 +48,22 @@ Used to get runtime data.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field hGlobalShare
+### -field hGlobalShare [in]
 
-[in] A handle to a global share.
+A handle to a global share.
 
-### -field pRuntimeData
+### -field pRuntimeData [in, out]
 
-[in, out] Pointer to runtime data.
+Pointer to runtime data.
 
-### -field RuntimeDataSize
+### -field RuntimeDataSize [in]
 
  
-[in] The runtime data size.
+The runtime data size.
 
 ## -remarks
 

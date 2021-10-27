@@ -49,29 +49,29 @@ A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's
 
 ## -parameters
 
-### -param pPrinterName 
+### -param pPrinterName [in]
 
-[in]
+
 Caller-supplied pointer to a printer name string. For more information about this parameter, see the following Remarks section.
 
-### -param pdmIn 
+### -param pdmIn [in]
 
-[in]
+
 Caller-supplied pointer to an input DEVMODEW structure. If <i>fMode</i> is CDM_DRIVER_DEFAULT, this pointer is <b>NULL</b>.
 
-### -param pdmOut 
+### -param pdmOut [out]
 
-[out]
+
 Caller-supplied pointer to a buffer to receive an output DEVMODEW structure. If <i>fMode</i> is CDM_CONVERT the buffer contains, on input, a valid DEVMODEW structure indicating the target driver version.
 
-### -param pcbNeeded 
+### -param pcbNeeded [in, out]
 
-[in, out]
+
 Caller-supplied pointer to the size, in bytes, of the buffer pointed to by <i>pdmOut</i>. On output, the printer interface DLL should overwrite the received size value with the actual size of the converted DEVMODEW structure. If the received buffer is too small, the printer interface DLL should overwrite the received size value with the required buffer size.
 
-### -param fMode 
+### -param fMode [in]
 
-[in]
+
 Caller-supplied bit flag indicating the type of operation to be performed. This can be one of the following flags:
 
 

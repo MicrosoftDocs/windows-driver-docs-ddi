@@ -50,9 +50,9 @@ The <b><i>IdeHwReset</i></b> miniport driver routine resets the channel.
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
 ## -returns

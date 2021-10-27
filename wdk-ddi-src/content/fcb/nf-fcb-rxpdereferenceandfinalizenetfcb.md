@@ -53,19 +53,19 @@ api_name:
 
 <p>A pointer to the FCB structure to be dereferenced and finalized.</p>
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT structure associated with the <i>Fcb</i> parameter.
 
-### -param RecursiveFinalize 
+### -param RecursiveFinalize [in]
 
-[in]
+
 A parameter that indicates if this should be a recursive finalize operation.
 
-### -param ForceFinalize 
+### -param ForceFinalize [in]
 
-[in]
+
 A parameter that indicates if this routine should force the <i>Fcb</i> parameter to be finalized.
 
 ## -returns

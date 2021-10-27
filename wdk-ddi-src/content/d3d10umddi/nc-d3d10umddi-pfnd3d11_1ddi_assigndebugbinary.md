@@ -65,9 +65,9 @@ A handle to the driver's private data for the shader object.
 
 The size, in bytes, of the full shader binary.
 
-### -param pBinary 
+### -param pBinary [in]
 
-[in]
+
 A pointer to the full shader binary.
 
 ## -remarks

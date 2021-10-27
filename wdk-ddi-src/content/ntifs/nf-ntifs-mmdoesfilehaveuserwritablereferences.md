@@ -49,9 +49,9 @@ The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of w
 
 ## -parameters
 
-### -param SectionPointer 
+### -param SectionPointer [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

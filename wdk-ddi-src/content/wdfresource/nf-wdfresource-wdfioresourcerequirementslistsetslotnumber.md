@@ -52,14 +52,14 @@ The <b>WdfIoResourceRequirementsListSetSlotNumber</b> method assigns a slot numb
 
 ## -parameters
 
-### -param RequirementsList 
+### -param RequirementsList [in]
 
-[in]
+
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
-### -param SlotNumber 
+### -param SlotNumber [in]
 
-[in]
+
 A value that identifies the bus slot number to which the device is connected.
 
 ## -remarks

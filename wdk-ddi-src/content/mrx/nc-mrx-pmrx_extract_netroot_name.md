@@ -49,19 +49,19 @@ The<i> MRxExtractNetRootName</i> routine is called by <a href="/windows-hardware
 
 ## -parameters
 
-### -param FilePathName 
+### -param FilePathName [in]
 
-[in]
+
 A pointer to a Unicode string that contains a pathname.
 
-### -param SrvCall 
+### -param SrvCall [in]
 
-[in]
+
 A pointer to the SRV_CALL structure.
 
-### -param NetRootName 
+### -param NetRootName [out]
 
-[out]
+
 On input, a pointer for storing a Unicode string. On success, this parameter will contain a pointer to a Unicode string that contains a NET_ROOT structure name.
 
 ### -param OPTIONAL

@@ -46,17 +46,17 @@ dev_langs:
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] <!-- ????? -->
+<!-- ????? -->
 
-### -param TargetId
+### -param TargetId [in]
 
-[in] Target identifier of the monitor.
+Target identifier of the monitor.
 
-### -param pArgs
+### -param pArgs [out]
 
-[out] Pointer to a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
+Pointer to a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
 
 ## -returns
 

@@ -49,14 +49,14 @@ Gets a read stream and uses it to read  from a property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
-### -param ppStream 
+### -param ppStream [out, retval]
 
-[out, retval]
+
         The returned stream.
 
 ## -returns

@@ -48,9 +48,9 @@ The **ExInitializeResourceLite** routine initializes a resource variable.
 
 ## -parameters
 
-### -param Resource
+### -param Resource [out]
 
-[out]
+
 A pointer to the caller-supplied storage, which must be at least **sizeof**(**ERESOURCE**), for the resource variable being initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -returns

@@ -49,19 +49,19 @@ An OS callback function the driver calls when it wants retrieve the move regions
 
 ## -parameters
 
-### -param SwapChainObject 
+### -param SwapChainObject [in]
 
-[in]
+
 The swap-chain object whose current frame is being queried.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments of the function.
 
-### -param pOutArgs 
+### -param pOutArgs [out]
 
-[out]
+
 Output arguments of the function.
 
 ## -returns

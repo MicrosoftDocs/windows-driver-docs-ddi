@@ -51,9 +51,9 @@ The <b>MarkCancelable</b> method enables the canceling of the I/O request.
 
 ## -parameters
 
-### -param pCancelCallback 
+### -param pCancelCallback [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-irequestcallbackcancel">IRequestCallbackCancel</a> interface whose method the framework calls after the I/O request is canceled.
 
 ## -remarks

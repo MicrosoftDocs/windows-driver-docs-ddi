@@ -52,19 +52,19 @@ The **StorPortLogTelemetry** routine logs a miniport telemetry event to help dia
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param StorAddress 
+### -param StorAddress [in, optional]
 
-[in, optional]
+
 The storage unit device address. This parameter is NULL for adapter devices.
 
-### -param Event 
+### -param Event [in]
 
-[in]
+
 Pointer to the STORPORT_TELEMETRY_EVENT structure that contains the telemetry data payload.
 
 ## -returns

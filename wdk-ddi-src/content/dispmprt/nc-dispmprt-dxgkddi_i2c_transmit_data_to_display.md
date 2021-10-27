@@ -49,24 +49,24 @@ The <i>DxgkDdiI2CTransmitDataToDisplay</i> function transmits data to an I2C dev
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param VidPnTargetId 
+### -param VidPnTargetId [in]
 
-[in]
+
 An integer that identifies one of the video present targets on the display adapter.
 
-### -param SevenBitI2CAddress 
+### -param SevenBitI2CAddress [in]
 
-[in]
+
 The address of the I2C device to which data will be transmitted.
 
-### -param DataLength 
+### -param DataLength [in]
 
-[in]
+
 The length, in bytes, of the data to be transmitted. This parameter must be between 1 and 64, inclusive.
 
 ### -param VOID

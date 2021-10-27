@@ -52,24 +52,24 @@ The **FsRtlMdlWriteCompleteDev** routine frees the resources that [FsRtlPrepareM
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
-### -param MdlChain 
+### -param MdlChain [in]
 
-[in]
+
 A pointer to a linked list of memory descriptor lists (MDLs) that [FsRtlPrepareMdlWriteDev](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev.md) allocated.
 
-### -param DeviceObject
+### -param DeviceObject [ in, optional ]
 
-[ in, optional ] A pointer to a device object on which the file is opened.
+A pointer to a device object on which the file is opened.
 
 ## -returns
 

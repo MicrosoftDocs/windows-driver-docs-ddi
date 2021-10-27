@@ -52,21 +52,21 @@ The DXVADDI_PRIVATEBUFFER structure describes a private buffer that a nonstandar
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource that contains the private buffer for the decode operation.
+A handle to the resource that contains the private buffer for the decode operation.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The index to the private buffer within the resource.
+The index to the private buffer within the resource.
 
-### -field DataOffset
+### -field DataOffset [in]
 
-[in] The offset to the relevant data, in bytes, from the beginning of the buffer.
+The offset to the relevant data, in bytes, from the beginning of the buffer.
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The size of the relevant data, in bytes.
+The size of the relevant data, in bytes.
 
 ## -see-also
 

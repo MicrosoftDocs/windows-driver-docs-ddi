@@ -49,9 +49,9 @@ The <b>FsRtlIsTotalDeviceFailure</b> routine determines whether a media or other
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the current NTSTATUS value, usually within a file system's or fault-tolerant disk driver's completion routine.
 
 ## -returns

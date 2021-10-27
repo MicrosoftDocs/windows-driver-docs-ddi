@@ -52,7 +52,7 @@ Call this function before calling <a href="/windows-hardware/drivers/ddi/ucmtcpc
 
 ## -parameters
 
-### -param AlertData 
+### -param AlertData [out]
 
-[out]
+
 A pointer to the driver-allocated <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.

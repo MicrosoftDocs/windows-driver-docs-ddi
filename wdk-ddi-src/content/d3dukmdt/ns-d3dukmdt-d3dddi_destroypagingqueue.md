@@ -49,9 +49,9 @@ api_name:
 
 ## -struct-fields
 
-### -field hPagingQueue
+### -field hPagingQueue [in]
 
-[in] A paging queue handle to be destroyed.
+A paging queue handle to be destroyed.
 
 ## -see-also
 

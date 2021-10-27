@@ -51,24 +51,24 @@ This function is supported in NDIS 6.81 and later.
 
 ## -parameters
 
-### -param FilterModuleContext 
+### -param FilterModuleContext [in]
 
-[in]
+
 A handle to the context area for the filter module that is the target of this request. The filter driver created and initialized this context area in the [*FilterAttach*](nc-ndis-filter_attach.md) function.
 
-### -param OidRequest 
+### -param OidRequest [in, out]
 
-[in, out]
+
 A pointer to an [**NDIS_OID_REQUEST**](../oidrequest/ns-oidrequest-ndis_oid_request.md) structure that specifies the operation being completed.
 
-### -param Status 
+### -param Status [in, out]
 
-[in, out]
+
 A pointer to the resulting status code of the request being completed.
 
-### -param CallContext 
+### -param CallContext [in]
 
-[in]
+
 A PVOID-sized storage slot for the filter driver to share state between its [*FilterSynchronousOidRequest*](nf-ndis-filter_synchronous_oid_request.md) and *FilterSynchronousOidRequestComplete* handlers. If the filter driver implements a *FilterSynchronousOidRequest* handler, this parameter contains the context value that the *FilterSynchronousOidRequest* handler returned. Otherwise, if the filter driver does not implement a *FilterSynchronousOidRequest* handler, this value is zero.
 
 ## -remarks

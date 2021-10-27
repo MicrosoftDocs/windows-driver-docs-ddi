@@ -52,9 +52,9 @@ The <b>KsRemoveBusEnumInterface</b> function removes an interface to the demand-
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specifies the device ID, interface ID, and reference string of the specific device and interface to be removed. For information about this structure, see theRemarks section below.
 
 ## -returns

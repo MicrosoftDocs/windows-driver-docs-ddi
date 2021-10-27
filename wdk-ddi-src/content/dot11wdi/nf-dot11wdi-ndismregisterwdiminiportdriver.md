@@ -46,47 +46,50 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 A miniport driver calls the NdisMRegisterWdiMiniportDriver function to register MiniportWdiXxx entry points with NDIS as the first step in initialization.
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
      Miniport Drivers</a>).
 
-### -param RegistryPath 
+### -param RegistryPath [in]
 
-[in]
+
 A pointer to an opaque registry path that the miniport driver received in its 
      <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
-### -param NdisDriverContext 
+### -param NdisDriverContext [in, optional]
 
-[in, optional]
+
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
-### -param MiniportDriverCharacteristics 
+### -param MiniportDriverCharacteristics [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">
      NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
-### -param MiniportWdiCharacteristics 
+### -param MiniportWdiCharacteristics [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
 
-### -param NdisMiniportDriverHandle 
+### -param NdisMiniportDriverHandle [out]
 
-[out]
+
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies this driver. The driver must save this handle for use in subsequent 
      <b>Ndis<i>Xxx</i></b> function calls.

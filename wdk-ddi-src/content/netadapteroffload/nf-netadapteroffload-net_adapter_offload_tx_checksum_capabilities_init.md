@@ -56,17 +56,17 @@ The **NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT** function initializes a
 
 ## -parameters
 
-### -param Capabilities
+### -param Capabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure.
 
-### -param Layer3Flags
+### -param Layer3Flags [_In_]
 
-[_In_] Flags specifying the layer 3 protocol variations that the NIC can successfully perform Tx checksum on.
+Flags specifying the layer 3 protocol variations that the NIC can successfully perform Tx checksum on.
 
-### -param EvtAdapterOffloadSetTxChecksum
+### -param EvtAdapterOffloadSetTxChecksum [_In_]
 
-[_In_] A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback function.
 
 ## -remarks
 

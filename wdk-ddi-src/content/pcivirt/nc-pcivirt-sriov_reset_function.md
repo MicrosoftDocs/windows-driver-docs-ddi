@@ -49,14 +49,14 @@ Resets the specified PCI Express SR-IOV Virtual Function (VF).
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF that is to be reset.
 
 ## -returns

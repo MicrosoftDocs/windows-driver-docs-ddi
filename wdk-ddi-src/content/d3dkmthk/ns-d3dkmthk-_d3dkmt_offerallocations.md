@@ -52,29 +52,29 @@ Defines the video memory allocations that the driver offers for reuse. Used with
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that created the allocations.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that created the allocations.
 
-### -field pResources
+### -field pResources [in]
 
-[in] An array of Direct3D runtime handles to resources to offer.
+An array of Direct3D runtime handles to resources to offer.
 
 If the user-mode driver uses the array specified by <b>HandleList</b> to offer a list of allocations, it must set <b>pResources</b> to <b>NULL</b>. Conversely, if the driver uses the array specified by <b>pResources</b> to offer a list of resources, it must set <b>HandleList</b> to <b>NULL</b>.
 
-### -field HandleList
+### -field HandleList [in]
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to allocations to offer.
+An array of D3DKMT_HANDLE data types that represent kernel-mode handles to allocations to offer.
 
 If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set in <i>pCreateResource</i>-><b>BindFlags</b>, offer the resources by their allocation handles, not by their resource handles.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of items in the <b>pResources</b> or <b>HandleList</b> members, whichever is not <b>NULL</b>.
+The number of items in the <b>pResources</b> or <b>HandleList</b> members, whichever is not <b>NULL</b>.
 
-### -field Priority
+### -field Priority [in]
 
-[in] The priority, of type  <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
+The priority, of type  <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
 
 ### -field Flags
 

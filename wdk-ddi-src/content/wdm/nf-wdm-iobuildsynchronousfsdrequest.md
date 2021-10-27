@@ -49,39 +49,39 @@ The <b>IoBuildSynchronousFsdRequest</b> routine allocates and sets up an IRP for
 
 ## -parameters
 
-### -param MajorFunction 
+### -param MajorFunction [in]
 
-[in]
+
 The major function code for the IRP. This code can be <a href="/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>, <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>, <a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>, <a href="/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>, or <a href="/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a>.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
 
-### -param Buffer 
+### -param Buffer [in, out]
 
-[in, out]
+
 A pointer to a data buffer. If <i>MajorFunction</i> is <b>IRP_MJ_WRITE</b>, the buffer contains data to be written. If <i>MajorFunction</i> is <b>IRP_MJ_READ</b>, the buffer receives data. If <i>MajorFunction</i> is <b>IRP_MJ_FLUSH_BUFFERS</b> or <b>IRP_MJ_SHUTDOWN</b>, this parameter must be <b>NULL</b>.
 
-### -param Length 
+### -param Length [in, optional]
 
-[in, optional]
+
 The length, in bytes, of the buffer pointed to by <i>Buffer</i>. For devices such as disks, this value must be an integer multiple of the sector size. Starting with Windows 8, the sector size can be 4,096 or 512 bytes. In earlier versions of Windows, the sector size is always 512 bytes. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
-### -param StartingOffset 
+### -param StartingOffset [in, optional]
 
-[in, optional]
+
 A pointer to the offset on the disk, for read and write requests. The units and meaning of this value are driver-specific. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
-### -param Event 
+### -param Event [in]
 
-[in]
+
 A pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, the driver can wait for the event object.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to a location that receives the I/O status block that is set when the IRP is completed by a lower-level driver.
 
 ## -returns

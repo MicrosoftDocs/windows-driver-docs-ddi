@@ -50,13 +50,13 @@ This function passes information between a user mode emulation DLL and the kerne
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in, out]
 
-[in, out] A pointer to a DXGK_VIRTUALGPUDRIVERESCAPE structure.
+A pointer to a DXGK_VIRTUALGPUDRIVERESCAPE structure.
 
 ## -returns
 

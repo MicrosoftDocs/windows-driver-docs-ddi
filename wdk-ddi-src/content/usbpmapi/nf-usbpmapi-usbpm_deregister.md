@@ -47,9 +47,9 @@ Unregisters the client driver with the Policy Manager.
 
 ## -parameters
 
-### -param ClientHandle
+### -param ClientHandle [In]
 
-[In] The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
+The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
 
 ## -returns
 

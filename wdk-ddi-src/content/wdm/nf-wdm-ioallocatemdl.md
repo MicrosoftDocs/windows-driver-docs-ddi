@@ -49,29 +49,29 @@ The <b>IoAllocateMdl</b> routine allocates a memory descriptor list (MDL) large 
 
 ## -parameters
 
-### -param VirtualAddress 
+### -param VirtualAddress [in, optional]
 
-[in, optional]
+
 Pointer to the base virtual address of the buffer the MDL is to describe.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer that the MDL is to describe. For more information, see the following Remarks section.
 
-### -param SecondaryBuffer 
+### -param SecondaryBuffer [in]
 
-[in]
+
 Indicates whether the buffer is a primary or secondary buffer. This parameter determines how the MDL is to be linked to the IRP. All buffers except the first buffer described by an MDL in an IRP are considered secondary buffers. This field must be <b>FALSE</b> if no IRP is associated with the MDL. For more information, see the following Remarks section.
 
-### -param ChargeQuota 
+### -param ChargeQuota [in]
 
-[in]
+
 Reserved for system use. Drivers must set this parameter to <b>FALSE</b>.
 
-### -param Irp 
+### -param Irp [in, out, optional]
 
-[in, out, optional]
+
 Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is non-<b>NULL</b>, the allocated MDL is associated with the specified IRP's MDL list, according to the value of <i>SecondaryBuffer</i>.
 
 ## -returns
@@ -82,7 +82,7 @@ Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is no
 
 <b>IoAllocateMdl</b> can be used by a driver that needs to break a buffer into pieces, each mapped by a separate MDL, or to map a driver-allocated buffer. The driver should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> with the MDL allocated by this call to set up an MDL describing a driver-allocated buffer in nonpaged pool.
 
-The <i>Length</i> parameter specifies the size of the buffer that is to be described by the MDL. In Windows Server 2003, Windows XP, and Windows 2000, the maximum buffer size, in bytes, that this routine can allocate is PAGE_SIZE * (65535 - <b>sizeof</b>(MDL)) / <b>sizeof</b>(ULONG_PTR). In Windows Vista and Windows Server 2008, the maximum buffer size is (2 gigabytes - PAGE_SIZE). In Windows 7 and Windows Server 2008 R2, the maximum buffer size is (4 gigabytes - PAGE_SIZE).
+The <i>Length</i> parameter specifies the size of the buffer that is to be described by the MDL. In Windows Server 2003, Windows XP, and Windows 2000, the maximum buffer size, in bytes, that this routine can allocate is PAGE_SIZE * (65535 - <b>sizeof</b>(MDL)) / <b>sizeof</b>(ULONG_PTR). In Windows Vista and Windows Server 2008, the maximum buffer size is (2 gigabytes - PAGE_SIZE). Starting in Windows 7 and Windows Server 2008 R2, the maximum buffer size is (4 gigabytes - PAGE_SIZE).
 
 If the <i>SecondaryBuffer</i> parameter is <b>FALSE</b>, the routine updates <i>Irp</i>-><b>MdlAddress</b> to point to the new MDL. If <i>SecondaryBuffer</i> is <b>TRUE</b>, the routine adds the MDL to the end of the MDL chain that <i>Irp</i>-><b>MdlAddress</b> points to.
 

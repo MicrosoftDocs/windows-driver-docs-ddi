@@ -49,9 +49,9 @@ The <b>WaitForProcessServerEnd</b> method waits for a local process server to ex
 
 ## -parameters
 
-### -param Timeout 
+### -param Timeout [in]
 
-[in]
+
 Specifies how long in milliseconds to wait for a process server to exit.  If <i>Timeout</i> is INFINITE, this method will not return until a process server has ended.
 
 ## -returns

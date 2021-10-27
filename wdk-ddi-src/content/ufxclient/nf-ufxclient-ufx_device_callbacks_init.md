@@ -49,9 +49,9 @@ The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="/windows-har
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure.
 
 ## -remarks

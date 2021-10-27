@@ -49,9 +49,9 @@ This routine traverses the parent chain of the <i>Silo</i> until finding the eff
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
  A pointer to a silo.
 
 ## -returns

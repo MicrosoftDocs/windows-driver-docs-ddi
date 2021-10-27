@@ -49,14 +49,14 @@ The <b>VideoPortPutDmaAdapter</b> function frees a <a href="/previous-versions/f
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param VpDmaAdapter 
+### -param VpDmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter.
 
 ## -returns

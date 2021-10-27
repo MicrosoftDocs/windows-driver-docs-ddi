@@ -55,9 +55,9 @@ Called to retrieve post composition capabilities. Support for this DDI is requir
 
 Identifies the adapter containing the overlay hardware.
 
-### -param pGetPostCompositionCaps
+### -param pGetPostCompositionCaps [in/out]
 
-[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getpostcompositioncaps">DXGKARG_GETPOSTCOMPOSITIONCAPS</a> structure that receives the driver capabilities.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getpostcompositioncaps">DXGKARG_GETPOSTCOMPOSITIONCAPS</a> structure that receives the driver capabilities.
 
 ## -returns
 

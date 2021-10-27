@@ -51,9 +51,9 @@ The <b>GetDevice</b> method retrieves the interface to the device that owns the 
 
 ## -parameters
 
-### -param ppWdfDevice 
+### -param ppWdfDevice [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object, if the call succeeds; otherwise, this parameter is <b>NULL</b>.
 
 ## -see-also

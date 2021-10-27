@@ -49,24 +49,24 @@ The <b>GetVirtualTranslationPhysicalOffsets</b> method returns the physical addr
 
 ## -parameters
 
-### -param Virtual 
+### -param Virtual [in]
 
-[in]
+
 Specifies the location in the target's virtual address space to translate.
 
-### -param Offsets 
+### -param Offsets [out, optional]
 
-[out, optional]
+
 Receives the physical addresses for the system paging structures.  If it is set to <b>NULL</b>, this information is not returned.
 
-### -param OffsetsSize 
+### -param OffsetsSize [in]
 
-[in]
+
 Specifies the number of elements the array <i>Offsets</i> holds.  This is the maximum number of addresses that will be returned.
 
-### -param Levels 
+### -param Levels [out, optional]
 
-[out, optional]
+
 Receives the number of levels in the paging hierarchy for the specified address.  If this is <b>NULL</b>, this information is not returned.
 
 ## -returns

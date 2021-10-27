@@ -54,19 +54,19 @@ The <b>WdfRequestCreate</b> method creates an empty framework request object.
 
 ## -parameters
 
-### -param RequestAttributes 
+### -param RequestAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the request object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param IoTarget 
+### -param IoTarget [in, optional]
 
-[in, optional]
+
 A handle to a framework I/O target object. This parameter is optional and can be <b>NULL</b>. If non-<b>NULL</b>, <b>WdfRequestCreate</b> verifies that the driver can eventually send the request to the specified I/O target.
 
-### -param Request 
+### -param Request [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework request object.
 
 ## -returns

@@ -49,19 +49,19 @@ The <b>PoFxIdleComponent</b> routine decrements the activation reference count o
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-### -param Component 
+### -param Component [in]
 
-[in]
+
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 The flags for the idle operation. Set this member to zero or to one of the following flag <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxissuecomponentperfstatechange">PO_FX_FLAG_XXX</a> bits:
 
 <ul>

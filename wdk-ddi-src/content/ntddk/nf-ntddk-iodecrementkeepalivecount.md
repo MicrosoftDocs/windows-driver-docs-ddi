@@ -49,14 +49,14 @@ The <b>IoDecrementKeepAliveCount</b> routine decrements a reference count associ
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in, out]
 
-[in, out]
+
 The file object handle to the device.
 
-### -param Process 
+### -param Process [in, out]
 
-[in, out]
+
 The process associated with the device.
 
 ## -returns

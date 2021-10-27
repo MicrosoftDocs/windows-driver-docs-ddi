@@ -4,7 +4,7 @@ title: PFLT_INSTANCE_TEARDOWN_CALLBACK (fltkernel.h)
 description: A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK as the minifilter driver's InstanceTeardownStartCallback and InstanceTeardownCompleteCallback routines.
 old-location: ifsk\pflt_instance_teardown_callback.htm
 tech.root: ifsk
-ms.date: 07/10/2019
+ms.date: 10/26/2021
 keywords: ["PFLT_INSTANCE_TEARDOWN_CALLBACK callback"]
 ms.keywords: FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback
 req.header: fltkernel.h
@@ -42,30 +42,27 @@ api_name:
 
 # PFLT_INSTANCE_TEARDOWN_CALLBACK callback
 
-
 ## -description
 
-A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK as the minifilter driver's *InstanceTeardownStartCallback* and *InstanceTeardownCompleteCallback* routines.
+A minifilter driver can register two routines of type **PFLT_INSTANCE_TEARDOWN_CALLBACK** as the minifilter driver's *InstanceTeardownStartCallback* and *InstanceTeardownCompleteCallback* routines.
 
 ## -parameters
 
-### -param FltObjects 
+### -param FltObjects [in]
 
-[in]
-Pointer to an [FLT_RELATED_OBJECTS](./ns-fltkernel-_flt_related_objects.md) structure that contains opaque pointers for the objects related to the current I/O operation.
+Pointer to a [**FLT_RELATED_OBJECTS**](./ns-fltkernel-_flt_related_objects.md) structure that contains opaque pointers for the objects related to the current I/O operation.
 
-### -param Reason 
+### -param Reason [in]
 
-[in]
 Flag that indicates why the minifilter driver instance is being torn down. One of the following:
 
 | Flag | Meaning |
 | ---- | ------- |
-| FLTFL_INSTANCE_TEARDOWN_FILTER_UNLOAD | The minifilter driver is being unloaded. |
-| FLTFL_INSTANCE_TEARDOWN_INTERNAL_ERROR | The system experienced an unexpected internal error. |
-| FLTFL_INSTANCE_TEARDOWN_MANDATORY_FILTER_UNLOAD | The minifilter driver is being unloaded. |
-| FLTFL_INSTANCE_TEARDOWN_MANUAL | The instance is being detached because a user-mode application has called [**FilterDetach**](/windows/win32/api/fltuser/nf-fltuser-filterdetach) or a kernel-mode component has called [**FltDetachVolume**](./nf-fltkernel-fltdetachvolume.md). |
-| FLTFL_INSTANCE_TEARDOWN_VOLUME_DISMOUNT | If set, the volume is being dismounted. (Or the volume has already been dismounted. Or the volume mount operation failed. Or the minifilter driver instance or the volume is being torn down. Or the file system unregistered itself as an active file system.) |
+| FLTFL_INSTANCE_TEARDOWN_MANUAL (0x00000001) | The instance is being detached because a user-mode application has called [**FilterDetach**](/windows/win32/api/fltuser/nf-fltuser-filterdetach) or a kernel-mode component has called [**FltDetachVolume**](./nf-fltkernel-fltdetachvolume.md). |
+| FLTFL_INSTANCE_TEARDOWN_FILTER_UNLOAD (0x00000002) | The minifilter driver is being unloaded. |
+| FLTFL_INSTANCE_TEARDOWN_MANDATORY_FILTER_UNLOAD (0x00000004) | The minifilter driver is being unloaded. |
+| FLTFL_INSTANCE_TEARDOWN_VOLUME_DISMOUNT (0x00000008) | If set, the volume is being dismounted. (Or the volume has already been dismounted. Or the volume mount operation failed. Or the minifilter driver instance or the volume is being torn down. Or the file system unregistered itself as an active file system.) |
+| FLTFL_INSTANCE_TEARDOWN_INTERNAL_ERROR (0x00000010) | The system experienced an unexpected internal error. |
 
 ## -remarks
 
@@ -96,8 +93,9 @@ The *InstanceTeardownCompleteCallback* routine must close any files that were op
 
 The filter manager calls the minifilter driver's *InstanceTeardownCompleteCallback* routine only after all outstanding I/O operations have been completed or drained.
 
-> [!WARNING] 
+> [!WARNING]
 > The *InstanceTeardownCompleteCallback* routine will not be called if any of the following conditions are true:
+>
 > * There are outstanding pended I/O operations.
 > * There are any outstanding I/O operations that were initiated by the minifilter driver.
 
@@ -109,11 +107,11 @@ The filter manager calls the *InstanceTeardownStartCallback* and *InstanceTeardo
 
 ## -see-also
 
-[FLT_REGISTRATION](./ns-fltkernel-_flt_registration.md)
+[**FLT_REGISTRATION**](./ns-fltkernel-_flt_registration.md)
 
-[FLT_RELATED_OBJECTS](./ns-fltkernel-_flt_related_objects.md)
+[**FLT_RELATED_OBJECTS**](./ns-fltkernel-_flt_related_objects.md)
 
-[FilterDetach](/windows/win32/api/fltuser/nf-fltuser-filterdetach)
+[**FilterDetach**](/windows/win32/api/fltuser/nf-fltuser-filterdetach)
 
 [**FltCancelIo**](./nf-fltkernel-fltcancelio.md)
 

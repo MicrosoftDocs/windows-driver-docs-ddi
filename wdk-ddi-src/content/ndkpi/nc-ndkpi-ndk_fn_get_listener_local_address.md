@@ -49,9 +49,9 @@ The <i>NdkGetListenerLocalAddress</i> (<i>NDK_FN_GET_LISTENER_LOCAL_ADDRESS</i>)
 
 ## -parameters
 
-### -param pNdkListener 
+### -param pNdkListener [in]
 
-[in]
+
 A pointer to an NDK listener object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 
 ### -param pAddress

@@ -54,14 +54,14 @@ The <b>WdfRequestCompleteWithInformation</b> method stores completion informatio
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to the request object.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS value</a> that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
 
@@ -84,9 +84,9 @@ The driver canceled the request.
 
 The driver encountered an error while processing the request.
 
-### -param Information 
+### -param Information [in]
 
-[in]
+
 A ULONG_PTR that is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. This field is not extensible by the driver.
 
 ## -remarks

@@ -49,9 +49,9 @@ The<b> KsFilterAcquireControl </b>function acquires the filter control mutex for
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 The <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> for which to acquire the control mutex.
 
 ## -remarks

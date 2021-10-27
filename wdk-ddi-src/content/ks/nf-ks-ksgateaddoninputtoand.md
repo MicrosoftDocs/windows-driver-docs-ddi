@@ -49,9 +49,9 @@ The<b> KsGateAddOnInputToAnd</b> function adds a new input in the ON state to a 
 
 ## -parameters
 
-### -param AndGate 
+### -param AndGate [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the AND gate to which to add a new ON input.
 
 ## -remarks

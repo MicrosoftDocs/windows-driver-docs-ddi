@@ -49,9 +49,9 @@ The <b>GetId</b> method returns a breakpoint ID, which is the engine's unique id
 
 ## -parameters
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 The breakpoint ID.
 
 ## -returns

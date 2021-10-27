@@ -46,9 +46,9 @@ Allows NT services and kernel-mode and user-mode drivers to raise a custom trigg
 
 ## -parameters
 
-### -param TriggerConfig
+### -param TriggerConfig [_In_]
 
-[_In_] A pointer to a [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md) structure that contains the trigger identifier. Call [**CUSTOM_SYSTEM_EVENT_TRIGGER_INIT**](nf-ntddk-custom_system_event_trigger_init.md) to initialize the structure before calling the function.
+A pointer to a [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md) structure that contains the trigger identifier. Call [**CUSTOM_SYSTEM_EVENT_TRIGGER_INIT**](nf-ntddk-custom_system_event_trigger_init.md) to initialize the structure before calling the function.
 
 ## -returns
 

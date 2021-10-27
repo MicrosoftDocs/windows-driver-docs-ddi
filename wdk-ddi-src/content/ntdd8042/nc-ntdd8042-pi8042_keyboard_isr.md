@@ -49,39 +49,39 @@ A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I80
 
 ## -parameters
 
-### -param IsrContext 
+### -param IsrContext [in]
 
-[in]
+
 Pointer to the filter device object of the driver that supplies a callback.
 
-### -param CurrentInput 
+### -param CurrentInput [in]
 
-[in]
+
 Pointer to the input <a href="/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data">KEYBOARD_INPUT_DATA</a> structure that is being constructed by the ISR.
 
-### -param CurrentOutput 
+### -param CurrentOutput [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
 
-### -param StatusByte 
+### -param StatusByte [in]
 
-[in]
+
 Specifies the status byte that is read from I/O port 60 when an interrupt occurs.
 
-### -param Byte 
+### -param Byte [in]
 
-[in]
+
 Specifies the data byte that is read  from I/O port 64 when an interrupt occurs.
 
-### -param ContinueProcessing 
+### -param ContinueProcessing [out]
 
-[out]
+
 Specifies, if <b>TRUE</b>, that processing in the I8042prt keyboard ISR will continue after this callback completes. Otherwise, processing does not continue.
 
-### -param ScanState 
+### -param ScanState [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>VideoPortInterlockedExchange</b> function locks or unlocks a block of mem
 
 ## -parameters
 
-### -param Target 
+### -param Target [in, out]
 
-[in, out]
+
 Pointer to a user-defined lock variable that is used to control access to a memory buffer.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value to be stored in <i>Target</i>, which indicates whether the memory buffer is to be locked or unlocked. Use <b>TRUE</b> to lock the memory buffer, and <b>FALSE</b> to unlock the memory buffer.
 
 ## -returns

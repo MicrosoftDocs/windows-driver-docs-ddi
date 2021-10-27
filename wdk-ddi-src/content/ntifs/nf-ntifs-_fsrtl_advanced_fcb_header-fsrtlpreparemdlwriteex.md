@@ -52,34 +52,34 @@ The <b>FsRtlPrepareMdlWriteEx</b> routine returns a linked list of memory descri
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length in bytes of the data to write to the cache.
 
-### -param LockKey 
+### -param LockKey [in]
 
-[in]
+
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock. The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
-### -param MdlChain 
+### -param MdlChain [out]
 
-[out]
+
 On output, a pointer to a linked list of memory descriptor lists (MDLs) that point to the byte range within the cached data.
 
-### -param IoStatus 
+### -param IoStatus [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 ## -returns
@@ -110,7 +110,7 @@ If fast I/O is available for the file system, the <b>FsRtlPrepareMdlWriteEx</b> 
 
  If fast I/O is not enabled, <b>FsRtlPrepareMdlWriteEx</b> will generate a synchronous IRP based MDL write prepare and return the MDLs allocated from the request.
 
-The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
+The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md).
 
 Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmdlwritecomplete">CcMdlWriteComplete</a>.
 
@@ -124,4 +124,4 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+[MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md)

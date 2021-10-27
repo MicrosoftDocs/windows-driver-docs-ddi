@@ -51,24 +51,24 @@ The <b>OpenRemoteInterface</b> method opens a <a href="/windows-hardware/drivers
 
 ## -parameters
 
-### -param pRemoteInterface 
+### -param pRemoteInterface [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterface">IWDFRemoteInterface</a> interface that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremoteinterface">IWDFDevice2::CreateRemoteInterface</a>.
 
-### -param pszRelativeFileName 
+### -param pszRelativeFileName [in, optional]
 
-[in, optional]
+
 An optional pointer to a caller-supplied, <b>null</b>-terminated string that the framework appends to the symbolic link name of the device interface.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>DesiredAccess</i> parameter of <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> in the Windows SDK.
 
-### -param pOpenParams 
+### -param pOpenParams [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wudfddi/ns-wudfddi-_umdf_io_target_open_params">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

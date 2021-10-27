@@ -49,19 +49,19 @@ The **RegisterOpRegionHandler** routine registers an operation region handler wi
 
 ## -parameters
 
-### -param DeviceObject
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the [physical device object (PDO)](/windows-hardware/drivers/kernel/types-of-wdm-device-objects) that represents the ACPI device that defines the operation region.
 
-### -param AccessType
+### -param AccessType [in]
 
-[in]
+
 Specifies ACPI_OPREGION_ACCESS_AS_COOKED.
 
-### -param RegionSpace
+### -param RegionSpace [in]
 
-[in]
+
 Specifies one of the following types of region space.
 
 | Region space identifier | Description |
@@ -75,24 +75,24 @@ Specifies one of the following types of region space.
 | ACPI_OPREGION_REGION_SPACE_PCIBARTARGET | PCI base address register |
 | Vendor-defined value from 0x80 to 0xFF | Vendor-defined |
 
-### -param Handler
+### -param Handler [in]
 
-[in]
+
 Pointer to the [ACPI_OP_REGION_HANDLER](nc-oprghdlr-acpi_op_region_handler.md)-typed operation region handler (supplied by an ACPI device function driver).
 
-### -param Context
+### -param Context [in]
 
-[in]
+
 Pointer to a device-specific operation region context (supplied by an ACPI device function driver).
 
-### -param Flags
+### -param Flags [in]
 
-[in]
+
 Reserved for internal use.
 
-### -param OperationRegionObject
+### -param OperationRegionObject [out]
 
-[out]
+
 Pointer to caller-allocated buffer that, on output, contains a pointer to the operation region object that the ACPI driver creates for the operation region.
 
 ## -returns

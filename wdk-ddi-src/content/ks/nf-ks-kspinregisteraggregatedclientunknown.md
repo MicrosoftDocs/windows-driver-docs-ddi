@@ -49,14 +49,14 @@ This inline function is a wrapper for <a href="/windows-hardware/drivers/ddi/ks/
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure.
 
-### -param ClientUnknown 
+### -param ClientUnknown [in]
 
-[in]
+
 A pointer to an <b>IUnknown</b> interface.
 
 ## -returns

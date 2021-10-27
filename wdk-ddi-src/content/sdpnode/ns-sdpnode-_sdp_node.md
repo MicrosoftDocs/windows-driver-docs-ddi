@@ -89,7 +89,7 @@ The header specifies the type of data. Driver developers can access links to pee
     nodes in the tree. Keep in mind that 
     <b>LIST_ENTRY</b> pointers contain the addresses of other LIST_ENTRY structures, and that the profile
     drivers must use the 
-    <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> memory manager macro to
+    [**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record) memory manager macro to
     extract the address of the containing node record.
 
 ## -see-also

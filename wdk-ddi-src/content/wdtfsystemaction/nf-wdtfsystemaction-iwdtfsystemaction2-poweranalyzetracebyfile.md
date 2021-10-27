@@ -50,9 +50,9 @@ Analyzes a power trace session that has already been collected and stored in the
 
 ## -parameters
 
-### -param EventFilePath 
+### -param EventFilePath [in]
 
-[in]
+
 Specifies the location to store the trace message (.etl)
     log file.
 

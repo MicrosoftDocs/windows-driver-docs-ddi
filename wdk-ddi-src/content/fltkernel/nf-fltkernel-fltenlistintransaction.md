@@ -49,24 +49,24 @@ The <b>FltEnlistInTransaction</b> routine enlists a minifilter driver in a given
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 An opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Transaction 
+### -param Transaction [in]
 
-[in]
+
 An opaque transaction pointer for the transaction.
 
-### -param TransactionContext 
+### -param TransactionContext [in]
 
-[in]
+
 A pointer to the minifilter driver's transaction context. This parameter is required and cannot be <b>NULL</b>.
 
-### -param NotificationMask 
+### -param NotificationMask [in]
 
-[in]
+
 Specifies the type of notifications that the filter manager is to send to the minifilter driver, as one or more of the values listed in the following table. This parameter is required and cannot be zero. 
 
 <table>

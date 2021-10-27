@@ -49,9 +49,9 @@ The <b>IsListEmpty</b> routine indicates whether a doubly linked list of <a href
 
 ## -parameters
 
-### -param ListHead 
+### -param ListHead [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list.
 
 ## -returns

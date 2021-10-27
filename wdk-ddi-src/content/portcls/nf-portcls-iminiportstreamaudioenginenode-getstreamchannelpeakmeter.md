@@ -49,14 +49,14 @@ Gets the value of the PeakMeter node in the path of the audio stream.
 
 ## -parameters
 
-### -param ulChannel 
+### -param ulChannel [in]
 
-[in]
+
 The channel of the audio stream.
 
-### -param plPeakMeter 
+### -param plPeakMeter [out]
 
-[out]
+
 The PeakMeter value.
 
 ## -returns

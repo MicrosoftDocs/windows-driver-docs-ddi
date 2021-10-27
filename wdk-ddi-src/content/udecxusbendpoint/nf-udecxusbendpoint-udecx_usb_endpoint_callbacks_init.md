@@ -4,7 +4,7 @@ title: UDECX_USB_ENDPOINT_CALLBACKS_INIT function (udecxusbendpoint.h)
 description: Initializes a UDECX_USB_ENDPOINT_CALLBACKS structure before a UdecxUsbEndpointCreate call.
 old-location: buses\udecx_usb_endpoint_callbacks_init.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 09/13/2021
 keywords: ["UDECX_USB_ENDPOINT_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT
 req.header: udecxusbendpoint.h
@@ -43,22 +43,21 @@ api_name:
 
 # UDECX_USB_ENDPOINT_CALLBACKS_INIT function
 
-
 ## -description
 
-Initializes a <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> structure before a <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a> call.
+Initializes a [UDECX_USB_ENDPOINT_CALLBACKS](./ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks.md) structure before a [UdecxUsbEndpointCreate](./nf-udecxusbendpoint-udecxusbendpointcreate.md) call.
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
-A pointer to a <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> to initialize.
+
+A pointer to a [UDECX_USB_ENDPOINT_CALLBACKS](./ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks.md) to initialize.
 
 ### -param EvtUsbEndpointReset
 
-TBD
+Pointer to an [EVT_UDECX_USB_ENDPOINT_RESET](nc-udecxusbendpoint-evt_udecx_usb_endpoint_reset.md) callback function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>
+[UdecxUsbEndpointCreate](./nf-udecxusbendpoint-udecxusbendpointcreate.md)

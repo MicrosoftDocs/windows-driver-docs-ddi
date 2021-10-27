@@ -52,25 +52,25 @@ Describes memory-segment information that a Windows Display Driver Model (WDDM) 
 
 ## -struct-fields
 
-### -field NbSegment
+### -field NbSegment [out]
 
-[out] The number of memory segments that the driver supports.
+The number of memory segments that the driver supports.
 
-### -field pSegmentDescriptor
+### -field pSegmentDescriptor [out]
 
-[out] An array of <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor3">DXGK_SEGMENTDESCRIPTOR3</a> structures that the driver populates with information about the segments it supports. The size of the array is the value that <b>NbSegment</b> specifies.
+An array of <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor3">DXGK_SEGMENTDESCRIPTOR3</a> structures that the driver populates with information about the segments it supports. The size of the array is the value that <b>NbSegment</b> specifies.
 
-### -field PagingBufferSegmentId
+### -field PagingBufferSegmentId [out]
 
-[out] The identifier of the segment that the video memory manager should allocate the paging buffer from. This segment must be an aperture segment.
+The identifier of the segment that the video memory manager should allocate the paging buffer from. This segment must be an aperture segment.
 
-### -field PagingBufferSize
+### -field PagingBufferSize [out]
 
-[out] The size, in bytes, that the video memory manager should allocate for the paging buffer.
+The size, in bytes, that the video memory manager should allocate for the paging buffer.
 
-### -field PagingBufferPrivateDataSize
+### -field PagingBufferPrivateDataSize [out]
 
-[out] The size, in bytes, of the driver-resident private data structure that is associated with each paging buffer. Memory for this private data structure is allocated from nonpaged pool. If the driver specifies zero for <b>PagingBufferPrivateDataSize</b>, no memory is allocated for the private data structure.
+The size, in bytes, of the driver-resident private data structure that is associated with each paging buffer. Memory for this private data structure is allocated from nonpaged pool. If the driver specifies zero for <b>PagingBufferPrivateDataSize</b>, no memory is allocated for the private data structure.
 
 The private data structure that is associated with a paging buffer is initialized to zero when the paging buffer is created. During the lifetime of the paging buffer, the video memory manager never accesses the private data structure that is associated with the paging buffer.
 

@@ -50,13 +50,13 @@ This function assigns physical resources capabilities to a virtual GPU. The func
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITION_INTERFACE](ns-dispmprt-_dxgkddi_gpu_partition_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] A pointer to a DXGKARG_SETVIRTUALGPURESOURCES structure.
+A pointer to a DXGKARG_SETVIRTUALGPURESOURCES structure.
 
 ## -returns
 

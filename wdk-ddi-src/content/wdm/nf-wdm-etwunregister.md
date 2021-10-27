@@ -49,9 +49,9 @@ The <b>EtwUnregister</b> function unregisters the event provider and must be cal
 
 ## -parameters
 
-### -param RegHandle 
+### -param RegHandle [in]
 
-[in]
+
 A pointer to the provider registration handle, which is returned by the <b>EtwRegister</b> function if the event provider registration is successful.
 
 ## -returns

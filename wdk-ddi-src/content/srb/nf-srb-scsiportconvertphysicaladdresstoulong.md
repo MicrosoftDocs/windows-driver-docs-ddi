@@ -51,9 +51,9 @@ The <b>ScsiPortConvertPhysicalAddressToUlong</b> routine truncates a SCSI_PHYSIC
 
 ## -parameters
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 Specifies a value of type SCSI_PHYSICAL_ADDRESS.
 
 ## -returns

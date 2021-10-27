@@ -49,29 +49,29 @@ The PPARALLEL_READ-typed callback routine reads data from a parallel device. The
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a read buffer that the caller allocates.
 
-### -param NumBytesToRead 
+### -param NumBytesToRead [in]
 
-[in]
+
 Specifies the number of bytes to read. Must less than or equal to the number of bytes in the caller-allocated read buffer.
 
-### -param NumBytesRead 
+### -param NumBytesRead [out]
 
-[out]
+
 Specifies the number of bytes that were actually read from the parallel device and saved in the caller-allocated read buffer.
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 Not used.
 
 ## -returns

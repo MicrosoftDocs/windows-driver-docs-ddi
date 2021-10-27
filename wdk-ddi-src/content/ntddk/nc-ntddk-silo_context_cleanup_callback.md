@@ -49,8 +49,8 @@ This callback is invoked when the context object reaches a reference count of ze
 
 ## -parameters
 
-### -param SiloContext 
+### -param SiloContext [in]
 
-[in]
+
 A pointer provided by the user with the call to <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a>.
 

@@ -48,17 +48,17 @@ The **FltGetStreamContext** routine retrieves a context that was set for a file 
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
+Opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] Pointer to a file object for the stream.
+Pointer to a file object for the stream.
 
-### -param Context
+### -param Context [out]
 
-[out] Pointer to a caller-allocated variable that receives the address of the context.
+Pointer to a caller-allocated variable that receives the address of the context.
 
 ## -returns
 

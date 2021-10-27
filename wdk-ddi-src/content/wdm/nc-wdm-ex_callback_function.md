@@ -48,19 +48,19 @@ A filter driver's *RegistryCallback* routine can monitor, block, or modify a reg
 
 ## -parameters
 
-### -param CallbackContext
+### -param CallbackContext [in]
 
-[in]
+
 The value that the driver passed as the *Context* parameter to [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) when it registered this *RegistryCallback* routine.
 
-### -param Argument1
+### -param Argument1 [in, optional]
 
-[in, optional]
+
 A [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)-typed value that identifies the type of registry operation that is being performed and whether the *RegistryCallback* routine is being called before or after the registry operation is performed.
 
-### -param Argument2
+### -param Argument2 [in, optional]
 
-[in, optional]
+
 A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md).
 
 | REG_NOTIFY_CLASS value | Structure type |

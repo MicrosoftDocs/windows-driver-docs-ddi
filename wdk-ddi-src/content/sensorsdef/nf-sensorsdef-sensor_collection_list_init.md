@@ -49,14 +49,14 @@ This function initializes a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns
 
 ## -parameters
 
-### -param pCollectionList 
+### -param pCollectionList [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
-### -param CollectionListSize 
+### -param CollectionListSize [in]
 
-[in]
+
 The size of the <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ## -see-also

@@ -44,13 +44,13 @@ dev_langs:
 
 ## -struct-fields
 
-### -field SrmListSizeInBytes
+### -field SrmListSizeInBytes [in]
 
-[in] The size, in bytes, of the buffer pointed to by **pSrmList**.
+The size, in bytes, of the buffer pointed to by **pSrmList**.
 
-### -field pSrmList
+### -field pSrmList [in]
 
-[in] Pointer to a buffer that holds the SRM list to pass to the appropriate WDDM driver. This buffer should contain the SRM in the format required by the Digital Content Protection LLC for HDCP.
+Pointer to a buffer that holds the SRM list to pass to the appropriate WDDM driver. This buffer should contain the SRM in the format required by the Digital Content Protection LLC for HDCP.
 
 ## -remarks
 

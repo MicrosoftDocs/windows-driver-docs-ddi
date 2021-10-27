@@ -49,29 +49,29 @@ api_name:
 
 ## -parameters
 
-### -param SrvOpen 
+### -param SrvOpen [in, out]
 
-[in, out]
+
 A pointer to the SRV_OPEN structure on the FCB to be enumerated.
 
-### -param ContinuationHandle 
+### -param ContinuationHandle [in, out]
 
-[in, out]
+
 A pointer to a handle passed back and forth representing the state of the enumeration. If this parameter is a <b>NULL</b> pointer, then this is the start of an lock enumeration.
 
-### -param FileOffset 
+### -param FileOffset [out]
 
-[out]
+
 A pointer to the file offset of the returned lock.
 
-### -param LockRange 
+### -param LockRange [out]
 
-[out]
+
 A pointer to the lock range of the returned lock.
 
-### -param IsLockExclusive 
+### -param IsLockExclusive [out]
 
-[out]
+
 A pointer to a BOOLEAN indicating if the returned lock is an exclusive lock.
 
 ## -returns

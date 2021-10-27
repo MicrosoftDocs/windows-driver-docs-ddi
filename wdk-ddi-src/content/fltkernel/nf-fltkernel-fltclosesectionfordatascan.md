@@ -50,9 +50,9 @@ The <b>FltCloseSectionForDataScan</b> routine closes a section object associated
 
 ## -parameters
 
-### -param SectionContext 
+### -param SectionContext [in]
 
-[in]
+
 A pointer to the section context to close.
 
 ## -returns

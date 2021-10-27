@@ -60,14 +60,14 @@ An AVStream minidriver's IRP handler routine is called when these IRPs is dispat
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> that dispatched the IRP.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 The IRP issued by <i>Device</i>.
 
 ## -returns

@@ -47,7 +47,7 @@ api_name:
 
 ## -parameters
 
-### -param pInfo 
+### -param pInfo [in]
 
-[in]
+
 

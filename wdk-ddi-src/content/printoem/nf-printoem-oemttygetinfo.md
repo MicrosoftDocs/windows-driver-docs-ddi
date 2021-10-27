@@ -51,13 +51,13 @@ api_name:
 
 ### -param dwInfoIndex
 
-### -param pOutputBuf 
+### -param pOutputBuf [out]
 
-[out]
+
 
 ### -param dwSize
 
-### -param pcbcNeeded 
+### -param pcbcNeeded [out]
 
-[out]
+
 

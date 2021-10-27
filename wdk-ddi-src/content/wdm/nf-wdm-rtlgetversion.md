@@ -49,9 +49,9 @@ The <b>RtlGetVersion</b> routine returns version information about the currently
 
 ## -parameters
 
-### -param lpVersionInformation 
+### -param lpVersionInformation [out]
 
-[out]
+
 Pointer to either a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfow">RTL_OSVERSIONINFOW</a> structure or a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a> structure that contains the version information about the currently running operating system. A caller specifies which input structure is used by setting the <b>dwOSVersionInfoSize</b> member of the structure to the size in bytes of the structure that is used.
 
 ## -returns

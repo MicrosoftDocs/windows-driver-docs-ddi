@@ -49,14 +49,14 @@ The <b>DeRegisterOpRegionHandler</b> routine deregisters an operation region han
 
 ## -parameters
 
-### -param DeviceObject
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the physical device object (PDO) that represents the ACPI device that defines the operation region.
 
-### -param OperationRegionObject
+### -param OperationRegionObject [in]
 
-[in]
+
 Specifies the operation region object returned by <a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a> for the operation region handler.
 
 ## -returns

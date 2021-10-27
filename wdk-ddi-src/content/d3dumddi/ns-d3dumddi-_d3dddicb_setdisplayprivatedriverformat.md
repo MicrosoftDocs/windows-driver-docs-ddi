@@ -52,13 +52,13 @@ The D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-forma
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to set a private-format attribute on (that is, the identifier of the primary surface to set a private-format attribute on).
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to set a private-format attribute on (that is, the identifier of the primary surface to set a private-format attribute on).
 
-### -field PrivateDriverFormatAttribute
+### -field PrivateDriverFormatAttribute [in]
 
-[in] A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies.
+A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies.
 
 ## -see-also
 

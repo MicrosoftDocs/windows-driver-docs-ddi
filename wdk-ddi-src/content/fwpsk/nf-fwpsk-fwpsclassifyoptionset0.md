@@ -54,25 +54,25 @@ The
 
 ## -parameters
 
-### -param inMetadataValues 
+### -param inMetadataValues [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer that is being filtered.
 
-### -param option 
+### -param option [in]
 
-[in]
+
 An 
      <a href="/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a> enumeration
      constant that indicates whether the 
      <i>newValue</i> parameter refers to unicast, multicast, or loose source mapping states, or to data
      time-out values. For more information, see Remarks.
 
-### -param newValue 
+### -param newValue [in]
 
-[in]
+
 A pointer to an array of 
      <a href="/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structures. Each structure in the
      array contains particular values for a particular FWP_OPTION_VALUE_XXX constant. For more information, see

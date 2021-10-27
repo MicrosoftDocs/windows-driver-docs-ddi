@@ -4,7 +4,7 @@ title: READ_REGISTER_BUFFER_UCHAR function (wdm.h)
 description: The READ_REGISTER_BUFFER_UCHAR function (wdm.h) reads a number of bytes from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_uchar.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/07/2021
 keywords: ["READ_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, kernel.read_register_buffer_uchar, wdm/READ_REGISTER_BUFFER_UCHAR
 req.header: wdm.h
@@ -45,28 +45,31 @@ api_name:
 
 ## -description
 
-The <b>READ_REGISTER_BUFFER_UCHAR</b> routine reads a number of bytes from the specified register address into a buffer.
+The **READ_REGISTER_BUFFER_UCHAR** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of bytes from the specified register address into a buffer.
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which an array of UCHAR values is read.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of bytes to be read into the buffer.
 
 ## -remarks
 
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
+
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 Callers of <b>READ_REGISTER_BUFFER_UCHAR</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
-

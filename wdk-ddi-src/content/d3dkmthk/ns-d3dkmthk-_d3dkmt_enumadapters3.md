@@ -48,9 +48,9 @@ Supplies information about adapters on the system.
 
 ## -struct-fields
 
-### -field Filter
+### -field Filter [in]
 
-[in] A **D3DKMT_ENUMADAPTERS_FILTER** union containing filter flags for the enumeration. The struct in **Filter** can be a bitwise OR of the following values. See Remarks for more information.
+A **D3DKMT_ENUMADAPTERS_FILTER** union containing filter flags for the enumeration. The struct in **Filter** can be a bitwise OR of the following values. See Remarks for more information.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -58,9 +58,9 @@ Supplies information about adapters on the system.
 | IncludeDisplayOnly | When set, enumerate DisplayOnly adapters. |
 | Reserved           | Reserved; do not use.                     |
 
-### -field NumAdapters
+### -field NumAdapters [in/out]
 
-[in/out] The number of adapters.
+The number of adapters.
 
 On input, **NumAdapters** specifies how many adapters can be returned in the empty **pAdapters** array. Possible return values for **NumAdapters** are:
 
@@ -68,9 +68,9 @@ On input, **NumAdapters** specifies how many adapters can be returned in the emp
 - On successful return when **pAdapters** is null, **NumAdapters** contains the maximum supported adapter count.
 - On failed return when **pAdapters** is non-null, **NumAdapters** is undefined.
 
-### -field pAdapters
+### -field pAdapters [out]
 
-[out] An optional array of [**D3DKMT_ADAPTERINFO**](ns-d3dkmthk-_d3dkmt_adapterinfo.md) structures in which to receive information for each adapter.
+An optional array of [**D3DKMT_ADAPTERINFO**](ns-d3dkmthk-_d3dkmt_adapterinfo.md) structures in which to receive information for each adapter.
 
 ## -remarks
 

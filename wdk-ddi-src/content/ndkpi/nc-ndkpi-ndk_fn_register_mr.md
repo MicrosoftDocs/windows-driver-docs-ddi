@@ -49,25 +49,25 @@ The <i>NdkRegisterMr</i> (<i>NDK_FN_REGISTER_MR</i>) function registers a virtua
 
 ## -parameters
 
-### -param pNdkMr 
+### -param pNdkMr [in]
 
-[in]
+
 A pointer to an NDK memory region (MR) object
 (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 An MDL or chain of MDLs that represent a virtually contiguous memory region from the starting virtual address up to the number of bytes specified in the <i>Length</i> parameter.
 
-### -param Length 
+### -param Length [in]
 
-[in]
-The number of bytes to register starting from the first MDL's virtual address. The first MDL's virtual address can be obtained by calling the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro. The length must not exceed the total number of bytes represented by the MDL chain.
 
-### -param Flags 
+The number of bytes to register starting from the first MDL's virtual address. The first MDL's virtual address can be obtained by calling the [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md) macro. The length must not exceed the total number of bytes represented by the MDL chain.
 
-[in]
+### -param Flags [in]
+
+
 A bitmask of flags that specify the access permissions for the registered memory region. The following flags can be set:
 
 <table>
@@ -117,14 +117,14 @@ A bitmask of flags that specify the access permissions for the registered memory
 </tr>
 </table>
 
-### -param RequestCompletion 
+### -param RequestCompletion [in]
 
-[in]
+
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 ## -returns
@@ -203,9 +203,9 @@ An error occurred.
 
 On an <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a> object that was created with  the <i>FastRegister</i> parameter set to FALSE, <i>NdkRegisterMr</i> is used to register a virtually contiguous memory region with the adapter. 
 
-The NDK consumer must pass an MDL or chain of MDLs that represent virtually contiguous memory region that is pinned in physical memory. The base virtual address for the memory region being registered is the virtual address indicated by the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro. If the MDL chain does not represent a virtually contiguous memory region from the starting virtual address up to the specified length in bytes, the NDK provider must fail the request.
+The NDK consumer must pass an MDL or chain of MDLs that represent virtually contiguous memory region that is pinned in physical memory. The base virtual address for the memory region being registered is the virtual address indicated by the [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md) macro. If the MDL chain does not represent a virtually contiguous memory region from the starting virtual address up to the specified length in bytes, the NDK provider must fail the request.
 
-The provider must treat the virtual  address that <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> returns as an index to the start of the memory region being registered. The provider must not use the virtual address as a valid virtual address for reading or writing buffer contents.
+The provider must treat the virtual  address that [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md) returns as an index to the start of the memory region being registered. The provider must not use the virtual address as a valid virtual address for reading or writing buffer contents.
 
 The NDK consumer must not use the MDL chain while the registration request is pending.
 
@@ -221,7 +221,7 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="/windo
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 
 
 

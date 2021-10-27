@@ -51,9 +51,9 @@ The <b>ScsiPortReadPortUlong</b> routine reads a ULONG value from the HBA.
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 ## -remarks

@@ -51,9 +51,9 @@ The Bluetooth
 
 ## -parameters
 
-### -param Parent 
+### -param Parent [in]
 
-[in]
+
 The SDP sequence or alternative node to which the 
      <b>SdpAppendNodeToContainerNode</b> function adds the child node.
 

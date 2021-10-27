@@ -49,9 +49,9 @@ This macro accesses the type of method as described in the [KSMETHOD_ITEM](./ns-
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP passed to the handler routine.
 
 ## -remarks

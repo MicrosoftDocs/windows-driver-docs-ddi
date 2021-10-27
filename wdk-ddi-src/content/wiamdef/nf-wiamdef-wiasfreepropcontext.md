@@ -49,9 +49,9 @@ The **wiasFreePropContext** function releases the memory occupied by a [WIA_PROP
 
 ## -parameters
 
-### -param pContext 
+### -param pContext [in, out]
 
-[in, out]
+
 Pointer to a [WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md) structure that contains a property context.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>wiasWritePropFloat </b>function writes a single floating-point property v
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 A Pointer to a WIA item context.
 
 ### -param propid

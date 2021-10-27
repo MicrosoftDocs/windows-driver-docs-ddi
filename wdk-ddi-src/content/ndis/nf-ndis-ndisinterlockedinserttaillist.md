@@ -52,19 +52,19 @@ The
 
 ## -parameters
 
-### -param _ListHead 
+### -param _ListHead [in]
 
-[in]
+
 A pointer to the head of the doubly linked list into which an entry is to be inserted.
 
-### -param _ListEntry 
+### -param _ListEntry [in]
 
-[in]
+
 A pointer to the entry to be inserted at the end of the list.
 
-### -param _SpinLock 
+### -param _SpinLock [in]
 
-[in]
+
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
 ## -remarks
@@ -89,7 +89,7 @@ The caller-supplied spin lock prevents any other function from accessing the dri
     <b>NdisInterlockedInsertTailList</b> cannot be pageable code.
 
 To convert a returned value back to the address of the inserted entry, a driver can use the 
-    <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> macro.
+    [**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record) macro.
 
 If 
     <b>NdisInterlockedInsertTailList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
@@ -97,7 +97,7 @@ If
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
+[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)
 
 
 

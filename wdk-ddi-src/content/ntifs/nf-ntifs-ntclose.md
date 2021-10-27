@@ -49,9 +49,9 @@ The **NtClose** routine closes an object handle.
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Handle to an object of any type.
 
 ## -returns

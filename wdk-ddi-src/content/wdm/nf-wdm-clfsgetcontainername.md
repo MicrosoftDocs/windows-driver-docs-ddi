@@ -50,24 +50,24 @@ The <b>ClfsGetContainerName</b> routine returns the path name of a specified con
 
 ## -parameters
 
-### -param plfoLog 
+### -param plfoLog [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS log. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
-### -param cidLogicalContainer 
+### -param cidLogicalContainer [in]
 
-[in]
+
 The logical identifier of a container in the CLFS log.
 
-### -param puszContainerName 
+### -param puszContainerName [out]
 
-[out]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. The <b>Buffer</b> member of <i>puszContainerName</i> must point to a caller-allocated buffer that receives the path name of the container. The <b>MaximumLength</b> member must supply the size of the buffer.
 
-### -param pcActualLenContainerName 
+### -param pcActualLenContainerName [out, optional]
 
-[out, optional]
+
 A pointer to a ULONG-typed variable that receives the actual length, in Unicode characters, of the container's path name. This parameter can be <b>NULL</b>.
 
 ## -returns

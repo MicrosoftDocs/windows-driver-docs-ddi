@@ -52,13 +52,13 @@ The D3DDDIARG_SETLIGHT structure describes how to set light properties.
 
 ## -struct-fields
 
-### -field Index
+### -field Index [in]
 
-[in] An index into an array of lights.
+An index into an array of lights.
 
-### -field DataType
+### -field DataType [in]
 
-[in] A valid bitwise OR of the following flags that indicate the type of light data:
+A valid bitwise OR of the following flags that indicate the type of light data:
 
 | **Value** | **Meaning** | 
 |:--|:--|

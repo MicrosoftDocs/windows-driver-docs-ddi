@@ -50,14 +50,14 @@ The <b>RtlAppendUnicodeToString</b> routine concatenates the supplied Unicode st
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in, out]
 
-[in, out]
+
 A pointer to the buffered string.
 
-### -param Source 
+### -param Source [in, optional]
 
-[in, optional]
+
 A pointer to the null-terminated string to append to the <i>Destination</i> string.
 
 ## -returns

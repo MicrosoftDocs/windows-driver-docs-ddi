@@ -49,14 +49,14 @@ The <i>VideoPortGetProcAddress</i> callback routine retrieves the address of a W
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's hardware device extension.
 
-### -param FunctionName 
+### -param FunctionName [in]
 
-[in]
+
 Pointer to a null-terminated ASCII string that contains the name of the function being searched for.
 
 ## -returns

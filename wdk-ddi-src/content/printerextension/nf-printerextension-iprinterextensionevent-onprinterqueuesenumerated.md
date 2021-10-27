@@ -49,9 +49,9 @@ Called when printer queues are enumerated.
 
 ## -parameters
 
-### -param pContextCollection 
+### -param pContextCollection [in]
 
-[in]
+
 Pointer to <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a> object.
 
 ## -returns

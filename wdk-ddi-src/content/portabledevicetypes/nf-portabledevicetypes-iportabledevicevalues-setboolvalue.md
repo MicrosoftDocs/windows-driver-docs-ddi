@@ -50,14 +50,14 @@ Adds a new <b>Boolean</b> value (type VT_BOOL) or overwrites an existing one.
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 A <b>BOOL</b> that specifies the new value.
 
 ## -returns

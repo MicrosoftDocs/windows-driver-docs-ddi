@@ -49,29 +49,29 @@ The <b>WriteControl</b> method writes implementation-specific system data.
 
 ## -parameters
 
-### -param Processor 
+### -param Processor [in]
 
-[in]
+
 Specifies the processor whose information is to be written.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the offset of the control space of the memory to write.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the data to write to the control-space memory.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
-### -param BytesWritten 
+### -param BytesWritten [out, optional]
 
-[out, optional]
+
 Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

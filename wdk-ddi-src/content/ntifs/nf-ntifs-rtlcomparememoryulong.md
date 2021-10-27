@@ -50,19 +50,19 @@ The <b>RtlCompareMemoryUlong</b> routine returns how many bytes in a block of me
 
 ## -parameters
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 Pointer to a block of memory. Must be aligned on a ULONG boundary.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Number of bytes over which the comparison should be done. Must be a multiple of <b>sizeof(</b>ULONG<b>)</b>.
 
-### -param Pattern 
+### -param Pattern [in]
 
-[in]
+
 Pattern to be compared byte by byte, repeatedly, through the specified memory range.
 
 ## -returns

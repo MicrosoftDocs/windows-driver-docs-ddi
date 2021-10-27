@@ -50,21 +50,21 @@ api_name:
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a caller-allocated resident buffer containing the ULONGs to be written.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of ULONGs to write to the I/O port.
 
 ## -remarks

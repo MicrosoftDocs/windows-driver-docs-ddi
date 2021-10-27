@@ -49,14 +49,14 @@ The <b>RtlTestBit</b> routine returns the value of a bit in a bitmap.
 
 ## -parameters
 
-### -param BitMapHeader 
+### -param BitMapHeader [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
-### -param BitNumber 
+### -param BitNumber [in]
 
-[in]
+
 Specifies the zero-based index of the bit within the bitmap. The routine returns the value of this bit.
 
 ## -returns

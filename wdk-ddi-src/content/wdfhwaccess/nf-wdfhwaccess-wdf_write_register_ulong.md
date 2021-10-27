@@ -51,18 +51,18 @@ The <b>WDF_WRITE_REGISTER_ULONG</b> routine writes a ULONG value to the specifie
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register, which must be a mapped range in memory space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a ULONG value to write to the register.
 

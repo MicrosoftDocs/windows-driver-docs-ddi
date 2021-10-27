@@ -49,14 +49,14 @@ The <b>SetTextMacro</b>  method sets the value of a fixed-name alias.
 
 ## -parameters
 
-### -param Slot 
+### -param Slot [in]
 
-[in]
+
 Specifies the number of the fixed-name alias.  <i>Slot</i> can take the values 0, 1, ..., 9, that represent the fixed-name aliases <b>$u0</b>, <b>$u1</b>, ..., <b>$u9</b>.
 
-### -param Macro 
+### -param Macro [in]
 
-[in]
+
 Specifies the new value of the alias specified by <i>Slot</i>.  The <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> makes a copy of this string.
 
 ## -returns

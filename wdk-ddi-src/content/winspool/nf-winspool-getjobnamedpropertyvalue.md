@@ -50,24 +50,24 @@ Retrieves the value of the named property for the specified print job on the spe
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 A handle to the printer object of interest. Use the <a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="/windows/win32/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="/windows/win32/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle.
 
-### -param JobId 
+### -param JobId [in]
 
-[in]
+
 Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="/windows/win32/printdocs/addjob">AddJob</a> function or the <a href="/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function.
 
-### -param pszName 
+### -param pszName [in]
 
-[in]
+
 Name of the property whose value will be retrieved.
 
-### -param pValue 
+### -param pValue [out]
 
-[out]
+
 Value of the named property. The caller needs to free this using the <a href="/windows-hardware/drivers/ddi/winspool/nf-winspool-freeprintpropertyvalue">FreePrintPropertyValue</a> function.
 
 ## -returns

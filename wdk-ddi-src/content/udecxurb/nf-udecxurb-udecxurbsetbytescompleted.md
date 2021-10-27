@@ -50,9 +50,9 @@ Sets the number of bytes transferred for the URB contained within a framework  r
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object that contains the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the transfer.
 
 ### -param BytesCompleted

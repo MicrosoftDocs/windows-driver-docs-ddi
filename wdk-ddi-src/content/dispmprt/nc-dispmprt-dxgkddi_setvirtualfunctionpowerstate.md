@@ -50,13 +50,13 @@ This routine allows a non-privileged virtual machine to change the power state o
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] A pointer to a DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure.
+A pointer to a DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure.
 
 ## -returns
 

@@ -49,14 +49,14 @@ The <b>ZwSetSecurityObject</b> routine sets an object's security state.
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Handle for the object whose security state is to be set. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter.
 
-### -param SecurityInformation 
+### -param SecurityInformation [in]
 
-[in]
+
 
 <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be set. Can be a combination of one or more of the following. 
 
@@ -107,9 +107,9 @@ Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYST
 </tr>
 </table>
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in]
+
 Pointer to the security descriptor to be set for the object.
 
 ## -returns

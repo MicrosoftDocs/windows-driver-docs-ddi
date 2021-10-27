@@ -49,17 +49,17 @@ The **FltDeleteTransactionContext** routine removes a context from a given trans
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer for the caller.
+Opaque instance pointer for the caller.
 
-### -param Transaction
+### -param Transaction [in]
 
-[in] Opaque transaction pointer for the transaction whose context is being deleted.
+Opaque transaction pointer for the transaction whose context is being deleted.
 
-### -param OldContext
+### -param OldContext [out, optional]
 
-[out, optional] Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
+Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be **NULL**. If *OldContext* is not **NULL** and does not point to NULL_CONTEXT, the caller is responsible for calling [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 

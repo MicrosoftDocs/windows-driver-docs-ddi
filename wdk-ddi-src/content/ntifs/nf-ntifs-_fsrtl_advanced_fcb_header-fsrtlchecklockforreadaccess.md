@@ -52,14 +52,14 @@ The <b>FsRtlCheckLockForReadAccess</b> routine determines whether the process as
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP. Must be an IRP for a read operation.
 
 ## -returns

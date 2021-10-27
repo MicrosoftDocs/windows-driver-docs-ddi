@@ -49,29 +49,29 @@ The <b>PsImpersonateClient</b> routine causes a server thread to impersonate a c
 
 ## -parameters
 
-### -param Thread 
+### -param Thread [in, out]
 
-[in, out]
+
 Pointer to the server thread that is to impersonate the client.
 
-### -param Token 
+### -param Token [in]
 
-[in]
+
 Pointer to the token to be assigned as the impersonation token. This token can be a primary token or an impersonation token. Set to <b>NULL</b> to end the impersonation.
 
-### -param CopyOnOpen 
+### -param CopyOnOpen [in]
 
-[in]
+
 Specifies whether the token can be opened directly. Set to <b>TRUE</b> to specify that the token cannot be opened directly. In this case, the token must be duplicated, and the duplicate token used instead. Set to <b>FALSE</b> to allow the token to be opened directly.
 
-### -param EffectiveOnly 
+### -param EffectiveOnly [in]
 
-[in]
+
 Set to <b>FALSE</b> to allow the server to enable groups and privileges that are currently disabled in the client security context, <b>TRUE</b> otherwise.
 
-### -param ImpersonationLevel 
+### -param ImpersonationLevel [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level at which the server is to access the token.
 
 ## -returns

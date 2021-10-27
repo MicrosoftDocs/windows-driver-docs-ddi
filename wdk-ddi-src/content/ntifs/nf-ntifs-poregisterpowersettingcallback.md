@@ -49,29 +49,29 @@ The <b>PoRegisterPowerSettingCallback</b> routine registers a power-setting call
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that is associated with the caller of this routine. This parameter is optional. It is used internally only for debugging purposes. If this parameter is not supplied, it must be set to <b>NULL</b>.
 
-### -param SettingGuid 
+### -param SettingGuid [in]
 
-[in]
+
 A pointer to the GUID that represents the power setting for this registration. When the specified power setting changes, the power manager calls the callback routine to notify the driver of the change and to supply the new value of the setting. For more information, see Remarks.
 
-### -param Callback 
+### -param Callback [in]
 
-[in]
+
 A pointer to a caller-implemented power-setting callback routine that the power manager calls when the specified power setting changes. For the functional prototype for the callback routine, see [Power-Setting Callback](#power-setting-callback), below.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to the context for the callback routine. This parameter is optional. It is provided so that a driver or device context can be passed to the callback routine. If this parameter is not used, it must be set to <b>NULL</b>.
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregisterpowersettingcallback">PoUnregisterPowerSettingCallback</a> to unregister the callback routine.
 
 ## -returns

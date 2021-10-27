@@ -52,21 +52,21 @@ Used in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumdd
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input for which the hardware support is queried.
+The zero-based video present network (VidPN) source identification number of the input for which the hardware support is queried.
 
-### -field NumPlanes
+### -field NumPlanes [out]
 
-[out] The number of overlay planes that the hardware supports.
+The number of overlay planes that the hardware supports.
 
-### -field pPlanes
+### -field pPlanes [out]
 
-[out] A pointer to a <a href="/windows-hardware/drivers/display/d3dddi-check-multiplane-overlay-support-plane-info">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a> structure that specifies support attributes that the hardware provides for multiplane overlays.
+A pointer to a <a href="/windows-hardware/drivers/display/d3dddi-check-multiplane-overlay-support-plane-info">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a> structure that specifies support attributes that the hardware provides for multiplane overlays.
 
-### -field Supported
+### -field Supported [out]
 
-[out] <b>TRUE</b> if the hardware supports multiplane overlays, otherwise <b>FALSE</b>.
+<b>TRUE</b> if the hardware supports multiplane overlays, otherwise <b>FALSE</b>.
 
 ## -see-also
 

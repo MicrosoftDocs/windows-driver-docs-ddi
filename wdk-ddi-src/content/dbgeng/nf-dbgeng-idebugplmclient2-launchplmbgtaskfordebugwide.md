@@ -49,34 +49,34 @@ Launches a suspended Process Lifecycle Management (PLM) background task.
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the task.
 
-### -param Timeout 
+### -param Timeout [in]
 
-[in]
+
 A time-out value.
 
-### -param PackageFullName 
+### -param PackageFullName [in]
 
-[in]
+
 A pointer to the package name.
 
-### -param BackgroundTaskId 
+### -param BackgroundTaskId [in]
 
-[in]
+
 A pointer to the task ID.
 
-### -param ProcessId 
+### -param ProcessId [out]
 
-[out]
+
 A pointer to a process ID output.
 
-### -param ThreadId 
+### -param ThreadId [out]
 
-[out]
+
 A pointer to a thread ID output.
 
 ## -returns

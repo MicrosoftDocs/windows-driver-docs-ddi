@@ -49,23 +49,23 @@ Used in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumdd
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based video present network (VidPN) source identification number of the input for which the hardware support is queried.
+The zero-based video present network (VidPN) source identification number of the input for which the hardware support is queried.
 
-### -field DesiredPresentDuration
+### -field DesiredPresentDuration [in]
 
-[in] The desired duration of a single present operation, in units of 100 nanoseconds.
+The desired duration of a single present operation, in units of 100 nanoseconds.
 
-### -field ClosestSmallerDuration
+### -field ClosestSmallerDuration [out]
 
-[out] The smallest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≤ <b>DesiredPresentDuration</b>.
+The smallest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≤ <b>DesiredPresentDuration</b>.
 
 See Remarks for more limitations on this value.
 
-### -field ClosestLargerDuration
+### -field ClosestLargerDuration [out]
 
-[out] The largest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≥ <b>DesiredPresentDuration</b>.
+The largest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≥ <b>DesiredPresentDuration</b>.
 
 See Remarks for more limitations on this value.
 

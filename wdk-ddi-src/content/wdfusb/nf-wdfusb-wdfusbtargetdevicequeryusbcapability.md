@@ -55,14 +55,14 @@ api_name:
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to a USB device object.
 
-### -param CapabilityType 
+### -param CapabilityType [in]
 
-[in]
+
 A pointer to a GUID that represents the capability about which the client driver wants to retrieve information. The possible  <i>PGUID</i>  values are  as follows:
 
 <ul>
@@ -77,20 +77,20 @@ A pointer to a GUID that represents the capability about which the client driver
 </ul>
 See more information in Remarks.
 
-### -param CapabilityBufferLength 
+### -param CapabilityBufferLength [in]
 
-[in]
+
 Length, in bytes, of the buffer pointed to by <i>CapabilityBuffer</i>.
 
-### -param CapabilityBuffer 
+### -param CapabilityBuffer [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer to receive the requested USB capability. This parameter is optional. If 
                        <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a> routine.
 
-### -param ResultLength 
+### -param ResultLength [out, optional]
 
-[out, optional]
+
 A pointer to a location containing the size, in bytes, of the returned capability. This parameter is optional.
 
 ## -returns

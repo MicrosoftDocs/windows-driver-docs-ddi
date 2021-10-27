@@ -50,9 +50,9 @@ The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance c
 
 ## -parameters
 
-### -param CounterSetHandle 
+### -param CounterSetHandle [in]
 
-[in]
+
 A handle to the allocated counter resources. The caller acquired this handle in a previous call to [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md).
 
 ## -returns

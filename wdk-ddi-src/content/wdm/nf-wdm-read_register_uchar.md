@@ -4,7 +4,7 @@ title: READ_REGISTER_UCHAR function (wdm.h)
 description: The READ_REGISTER_UCHAR function (wdm.h) returns a byte read from the specified register address in resident, mapped device memory.
 old-location: kernel\read_register_uchar.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/07/2021
 keywords: ["READ_REGISTER_UCHAR function"]
 ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, kernel.read_register_uchar, wdm/READ_REGISTER_UCHAR
 req.header: wdm.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>READ_REGISTER_UCHAR</b> routine reads a byte from the specified register address.
+The **READ_REGISTER_UCHAR** routine dereferences the supplied pointer, inserts a memory barrier, and reads a byte from the specified register address.
 
 ## -parameters
 
@@ -59,5 +59,8 @@ Pointer to the register address, which must be a mapped range in memory space.
 
 ## -remarks
 
-Callers of <b>READ_REGISTER_UCHAR</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
+This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
+
+Callers of <b>READ_REGISTER_UCHAR</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.

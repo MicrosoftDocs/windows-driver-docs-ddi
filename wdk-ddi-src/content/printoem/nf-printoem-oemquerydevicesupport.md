@@ -59,13 +59,13 @@ The <code>OEMQueryDeviceSupport</code> function returns requested device-specifi
 
 ### -param cjIn
 
-### -param pvIn 
+### -param pvIn [in]
 
-[in]
+
 
 ### -param cjOut
 
-### -param pvOut 
+### -param pvOut [out]
 
-[out]
+
 

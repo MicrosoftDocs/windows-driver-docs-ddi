@@ -49,14 +49,14 @@ The <code>CallSynchronizedRoutine</code> method calls a routine that is not an i
 
 ## -parameters
 
-### -param Routine 
+### -param Routine [in]
 
-[in]
+
 Pointer to the routine that is to be called. This routine will run exclusive of the object's ISR and all other routines that are synchronized through the object. Even on multiple-processor machines, routines that are synchronized by a given object will not run concurrently. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
 
-### -param DynamicContext 
+### -param DynamicContext [in]
 
-[in]
+
 A context value to be passed to the routine.
 
 ## -returns

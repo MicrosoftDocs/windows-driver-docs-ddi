@@ -44,14 +44,14 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_]
+
 A pointer to the handle to the domain.
 
-### -param Configuration
+### -param Configuration [_In_]
 
-[_In_]
+
 A pointer to a [**DOMAIN_CONFIGURATION**](ns-wdm-_domain_configuration.md) structure that contains the new configuration for the domain.
 
 ## -returns

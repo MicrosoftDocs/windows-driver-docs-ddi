@@ -49,14 +49,14 @@ The <b>CompareStorageDuids</b> routine compares two device unique identifiers (D
 
 ## -parameters
 
-### -param Duid1 
+### -param Duid1 [in]
 
-[in]
+
 A pointer to a DUID to compare with the DUID that <i>Duid2</i> points to.
 
-### -param Duid2 
+### -param Duid2 [in]
 
-[in]
+
 A pointer to a DUID to compare with the DUID that <i>Duid1</i> points to.
 
 ## -returns

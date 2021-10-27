@@ -54,24 +54,24 @@ The <b>WdfDeviceWdmDispatchIrpToIoQueue</b> method forwards the IRP to a specifi
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to an IRP structure.
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitwise <b>OR</b> of <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_dispatch_irp_to_io_queue_flags">WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS</a>-typed flags.
 
 ## -returns
@@ -86,7 +86,7 @@ A driver calls <b>WdfDeviceWdmDispatchIrpToIoQueue</b> to specify a target queue
 
 The driver can call this method from its <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a> callback routine or from its <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a> callback.
 
-If the driver calls <b>WdfDeviceWdmDispatchIrpToIoQueue</b> from within a <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a> callback function, the driver must call either <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">IoSkipCurrentIrpStackLocation</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> prior to calling  <b>WdfDeviceWdmDispatchIrpToIoQueue</b>.
+If the driver calls <b>WdfDeviceWdmDispatchIrpToIoQueue</b> from within a <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a> callback function, the driver must call either [IoSkipCurrentIrpStackLocation](../wdm/nf-wdm-ioskipcurrentirpstacklocation.md) or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> prior to calling  <b>WdfDeviceWdmDispatchIrpToIoQueue</b>.
 
  For more information about specifying queues for IRPs as they arrive, see <a href="/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
 

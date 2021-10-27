@@ -4,7 +4,7 @@ title: NtQueryInformationFile function (ntifs.h)
 description: The NtQueryInformationFile routine returns various kinds of information about a file object.
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
-ms.date: 11/20/2020
+ms.date: 09/27/2021
 keywords: ["NtQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 req.header: ntifs.h
@@ -42,32 +42,31 @@ api_name:
 
 # NtQueryInformationFile function
 
-
 ## -description
 
 The **NtQueryInformationFile** routine returns various kinds of information about a file object. See also [**NtQueryInformationByName**](./nf-ntifs-ntqueryinformationbyname.md), which can be more efficiently used for a few file information classes.
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [in]
 
-[in] Handle to a file object. The handle is created by a successful call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](nf-ntifs-ntopenfile.md), or to an equivalent file create or open routine.
+Handle to a file object. The handle is created by a successful call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](nf-ntifs-ntopenfile.md), or to an equivalent file create or open routine.
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the operation. The **Information** member receives the number of bytes that this routine actually writes to the *FileInformation* buffer.
+Pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the operation. The **Information** member receives the number of bytes that this routine actually writes to the *FileInformation* buffer.
 
-### -param FileInformation
+### -param FileInformation [out]
 
-[out] Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The *FileInformationClass* parameter specifies the type of information that the caller requests.
+Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The *FileInformationClass* parameter specifies the type of information that the caller requests.
 
-### -param Length
+### -param Length [in]
 
-[in] The size, in bytes, of the buffer pointed to by *FileInformation*.
+The size, in bytes, of the buffer pointed to by *FileInformation*.
 
-### -param FileInformationClass
+### -param FileInformationClass [in]
 
-[in] Specifies the type of information to be returned about the file, in the buffer that *FileInformation* points to. Device and intermediate drivers can specify any of the following [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) values (listed from lowest to highest enum value):
+Specifies the type of information to be returned about the file, in the buffer that *FileInformation* points to. Device and intermediate drivers can specify any of the following [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) values (listed from lowest to highest enum value):
 
 |FILE_INFORMATION_CLASS value|Type of information returned|
 |----|----|
@@ -99,6 +98,7 @@ The **NtQueryInformationFile** routine returns various kinds of information abou
 | **FileCaseSensitiveInformation** (71) | A [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This value is available starting with Windows 10, version 1803. |
 | **FileStorageReserveIdInformation** (74) | A [FILE_STORAGE_RESERVE_ID_INFORMATION](ns-ntifs-_file_storage_reserve_id_information.md) structure. |
 | **FileCaseSensitiveInformationForceAccessCheck** (75) | A [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803. |
+| **FileKnownFolderInformation** (76) | A [**FILE_KNOWN_FOLDER_INFORMATION**](ns-ntifs-file_known_folder_information.md) structure. Available starting in Windows Server 2022. |
 
 ## -returns
 
@@ -168,4 +168,3 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtQueryInformationByName**](./nf-ntifs-ntqueryinformationbyname.md)
 
 [**NtSetInformationFile**](nf-ntifs-ntsetinformationfile.md)
-

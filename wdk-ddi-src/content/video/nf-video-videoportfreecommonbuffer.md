@@ -51,29 +51,29 @@ The <b>VideoPortFreeCommonBuffer</b> function is <b>obsolete</b> and is supporte
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes of memory to be freed.
 
-### -param VirtualAddress 
+### -param VirtualAddress [in]
 
-[in]
+
 Pointer to the corresponding virtual address of the allocated memory range.
 
-### -param LogicalAddress 
+### -param LogicalAddress [in]
 
-[in]
+
 Specifies the logical address of the buffer to be freed.
 
-### -param CacheEnabled 
+### -param CacheEnabled [in]
 
-[in]
+
 Indicates whether the allocated memory is cached.
 
 ## -returns

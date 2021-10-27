@@ -51,21 +51,21 @@ Once this count reaches zero, it will remove the allocation from the device resi
 
 ## -struct-fields
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] Number of allocation handles in the <b>AllocationList</b> array.
+Number of allocation handles in the <b>AllocationList</b> array.
 
-### -field AllocationList
+### -field AllocationList [in]
 
-[in] An array of <b>NumAllocations</b> allocation handles to mark for eviction. All allocations must be created on <b>hDevice</b>.
+An array of <b>NumAllocations</b> allocation handles to mark for eviction. All allocations must be created on <b>hDevice</b>.
 
-### -field Flags
+### -field Flags [in]
 
-[in] Specifies eviction behavior as documented in <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>.
+Specifies eviction behavior as documented in <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>.
 
-### -field NumBytesToTrim
+### -field NumBytesToTrim [out]
 
-[out] When non-zero, specifies how much the application should evict in order to meet its current memory budget.
+When non-zero, specifies how much the application should evict in order to meet its current memory budget.
 
 ## -see-also
 

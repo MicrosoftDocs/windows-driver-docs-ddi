@@ -49,13 +49,13 @@ api_name:
 
 ### -param pDevObj
 
-### -param pBuffer 
+### -param pBuffer [out]
 
-[out]
+
 
 ### -param cbSize
 
-### -param pcbNeeded 
+### -param pcbNeeded [out]
 
-[out]
+
 

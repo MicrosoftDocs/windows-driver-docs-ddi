@@ -1,10 +1,10 @@
 ---
 UID: NF:wificx.WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT
 tech.root: netvista
-title: WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT (wificx.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT function for internal use only. Don't use this function in your code."
+description: The WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT function initializes a WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES structure.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -41,18 +41,22 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES_INIT** function initializes a [**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md) structure.
 
 ## -parameters
 
 ### -param Capabilities
 
-Reserved.
+[_Out_] A pointer to a driver-allocated [**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md) structure.
 
 ## -remarks
 
+This function zeroes out the memory of the [**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md) structure, fills in the **Size** member, and sets the **Enabled** member to **TRUE**.
+
+Call [**WifiAdapterPowerOffloadSetRsnRekeyCapabilities**](nf-wificx-wifiadapterpoweroffloadsetrsnrekeycapabilities.md) to set the net adapter's RSN rekey power offload capabilities.
+
 ## -see-also
 
+[**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md)
+
+[**WifiAdapterPowerOffloadSetRsnRekeyCapabilities**](nf-wificx-wifiadapterpoweroffloadsetrsnrekeycapabilities.md)

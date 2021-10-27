@@ -49,9 +49,9 @@ The <b>VideoPortReleaseDeviceLock</b> function releases the device lock acquired
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
 ## -returns

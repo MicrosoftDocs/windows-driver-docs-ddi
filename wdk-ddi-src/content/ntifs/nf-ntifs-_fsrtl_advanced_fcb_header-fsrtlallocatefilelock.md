@@ -52,14 +52,14 @@ The <b>FsRtlAllocateFileLock</b> routine allocates and initializes a new FILE_LO
 
 ## -parameters
 
-### -param CompleteLockIrpRoutine 
+### -param CompleteLockIrpRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ifs/pcomplete-lock-irp-routine">PCOMPLETE_LOCK_IRP_ROUTINE</a>-typed callback routine to be called when an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>.
 
-### -param UnlockRoutine 
+### -param UnlockRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

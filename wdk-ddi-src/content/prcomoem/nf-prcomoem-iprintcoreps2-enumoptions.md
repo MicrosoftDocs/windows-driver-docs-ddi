@@ -49,36 +49,36 @@ The <code>IPrintCorePS2::EnumOptions</code> method enumerates the available opti
 
 ## -parameters
 
-### -param pdevobj 
+### -param pdevobj [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
-### -param dwFlags 
+### -param dwFlags [in]
 
-[in]
+
 Is reserved and must be set to zero.
 
-### -param pszFeatureKeyword 
+### -param pszFeatureKeyword [in]
 
-[in]
+
 Pointer to a caller-supplied buffer containing an ASCII string, specifying a feature keyword whose options are requested.
 
-### -param pmszOptionList 
+### -param pmszOptionList [out]
 
-[out]
+
 Pointer to a caller-supplied buffer that receives a null-delimited list, in MULTI_SZ format, containing the option keywords for the feature keyword pointed to by <i>pszFeatureKeyword</i>. This list is terminated with two null characters. 
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the option list without having the list filled in.
 
-### -param cbSize 
+### -param cbSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszOptionList</i>.
 
-### -param pcbNeeded 
+### -param pcbNeeded [out]
 
-[out]
+
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
 ## -returns

@@ -49,14 +49,14 @@ Suspends a Process Lifecycle Management (PLM) package.
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the package.
 
-### -param PackageFullName 
+### -param PackageFullName [in]
 
-[in]
+
 A pointer to the package name.
 
 ## -returns

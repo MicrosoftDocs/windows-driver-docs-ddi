@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_FREE_ADL
 tech.root: display
 title: DXGKARGCB_FREE_ADL
-ms.date: 05/13/2021
+ms.date: 10/13/2021
 targetos: Windows
 description: DXGKARGCB_FREE_ADL contains the information used by the DxgkCbFreeAdl callback function to destroy an address descriptor list (ADL).
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGKARGCB_FREE_ADL
 req.umdf-ver: 
@@ -40,15 +40,15 @@ dev_langs:
 
 ## -description
 
-**DXGKARGCB_FREE_ADL** contains the information used by the [**DxgkCbFreeAdl**](nc-d3dkmddi-dxgkcb_freeadl.md) callback function to destroy an address descriptor list (ADL).
+**DXGKARGCB_FREE_ADL** contains the information used by the [**DXGKCB_FREEADL**](nc-d3dkmddi-dxgkcb_freeadl.md) callback function to destroy an address descriptor list (ADL).
 
 ## -struct-fields
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [in]
 
 The adapter memory object that was used to create the ADL.
 
-### -field pAdl
+### -field pAdl [in]
 
 Pointer to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) object that is being freed.
 
@@ -56,6 +56,6 @@ Pointer to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) object that is being free
 
 [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md)
 
-[**DxgkCbAllocateAdl**](nc-d3dkmddi-dxgkcb_allocateadl.md)
+[**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md)
 
-[**DxgkCbFreeAdl**](nc-d3dkmddi-dxgkcb_freeadl.md)
+[**DXGKCB_FREEADL**](nc-d3dkmddi-dxgkcb_freeadl.md)

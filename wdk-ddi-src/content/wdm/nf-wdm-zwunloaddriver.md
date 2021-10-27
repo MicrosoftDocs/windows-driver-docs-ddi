@@ -42,16 +42,15 @@ api_name:
 
 # ZwUnloadDriver function
 
-
 ## -description
 
 The <b>ZwUnloadDriver</b> routine unloads a driver from the system. <i>Use this routine with extreme caution. (See the following </i><b>Remarks</b><i> section.)</i>
 
 ## -parameters
 
-### -param DriverServiceName 
+### -param DriverServiceName [in]
 
-[in]
+
 Pointer to a counted Unicode string that specifies a path to the driver's registry key, `\Registry\Machine\System\CurrentControlSet\Services\<DriverName>`, where <i>DriverName</i> is the name of the driver.
 
 ## -returns
@@ -66,9 +65,9 @@ If the driver specified in <i>DriverServiceName</i> has no <i>DriverUnload</i> c
 
 <i>Note that a file system filter driver cannot safely be unloaded from a running system. Thus a filter should only use </i><b><i>ZwUnloadDriver</i></b><i> for debugging purposes. It should not call this routine in a retail version of the filter. </i>
 
-If <i>DriverName</i> is the name of a PnP device driver, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST and does not unload the driver. 
+If <i>DriverName</i> is the name of a PnP device driver, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST and does not unload the driver.
 
-A minifilter should use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a> instead of <b>ZwUnloadDriver</b> to unload a supporting minifilter. 
+A minifilter should use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a> instead of <b>ZwUnloadDriver</b> to unload a supporting minifilter.
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwUnloadDriver</b> function occurs in user mode, you should use the name "<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver">NtUnloadDriver</a>" instead of "<b>ZwUnloadDriver</b>".</div>
 <div> </div>
@@ -78,18 +77,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a>
-
-
 
 <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
-
-
 <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwloaddriver">ZwLoadDriver</a>

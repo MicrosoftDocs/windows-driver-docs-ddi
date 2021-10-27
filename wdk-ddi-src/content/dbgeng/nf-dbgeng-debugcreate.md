@@ -49,14 +49,14 @@ The <b>DebugCreate</b> function creates a new client object and returns an inter
 
 ## -parameters
 
-### -param InterfaceId 
+### -param InterfaceId [in]
 
-[in]
+
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
-### -param Interface 
+### -param Interface [out]
 
-[out]
+
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 
 ## -returns

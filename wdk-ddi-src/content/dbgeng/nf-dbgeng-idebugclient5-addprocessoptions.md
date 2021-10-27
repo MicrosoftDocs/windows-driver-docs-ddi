@@ -49,9 +49,9 @@ The <b>AddProcessOptions</b> method adds the process options to those options th
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the process options to add to those affecting the current process.  For details on these process options, see <a href="/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
 ## -returns

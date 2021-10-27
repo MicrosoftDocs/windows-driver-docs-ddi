@@ -60,9 +60,9 @@ The handle that NDIS passed to the
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
      ProtocolBindAdapterEx</a> function.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The final status of the completed bind operation. This parameter can be one of the following
      values:
      

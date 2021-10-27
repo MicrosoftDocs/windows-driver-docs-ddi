@@ -49,14 +49,14 @@ The **wiasGetRootItem** function retrieves the root item context of a specified 
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
-### -param ppWiasContext 
+### -param ppWiasContext [out]
 
-[out]
+
 Pointer to a memory location that receives the address of the WIA item's root item context.
 
 ## -returns

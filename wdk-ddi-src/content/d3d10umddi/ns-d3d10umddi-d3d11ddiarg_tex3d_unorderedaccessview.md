@@ -49,17 +49,17 @@ The D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW structure describes a three-dimensiona
 
 ## -struct-fields
 
-### -field MipSlice
+### -field MipSlice [in]
 
-[in] The identifier of the MIP-map slice.
+The identifier of the MIP-map slice.
 
-### -field FirstW
+### -field FirstW [in]
 
-[in] The identifier of the first array slice.
+The identifier of the first array slice.
 
-### -field WSize
+### -field WSize [in]
 
-[in] The number of array slices for the texture.
+The number of array slices for the texture.
 
 ## -see-also
 

@@ -52,9 +52,9 @@ The <b>WDF_USB_PIPE_DIRECTION_OUT</b> function determines whether a specified US
 
 ## -parameters
 
-### -param EndpointAddress 
+### -param EndpointAddress [in]
 
-[in]
+
 A USB endpoint address.
 
 ## -returns

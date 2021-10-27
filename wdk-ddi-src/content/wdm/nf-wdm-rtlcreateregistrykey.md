@@ -49,9 +49,9 @@ The <b>RtlCreateRegistryKey</b> routine adds a key object in the registry along 
 
 ## -parameters
 
-### -param RelativeTo 
+### -param RelativeTo [in]
 
-[in]
+
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 
 <table>
@@ -121,9 +121,9 @@ Path is relative to <b>\Registry\User\CurrentUser</b>. (For a system process, th
 </tr>
 </table>
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the registry path according to the <i>RelativeTo</i> value.
 
 ## -returns

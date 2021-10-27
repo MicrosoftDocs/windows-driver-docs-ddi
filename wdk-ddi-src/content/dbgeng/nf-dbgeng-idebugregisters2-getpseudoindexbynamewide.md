@@ -49,14 +49,14 @@ The <b>GetPseudoIndexByNameWide</b>  method returns the index of a pseudo-regist
 
 ## -parameters
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 Specifies the name of the pseudo-register whose index is requested.  The name includes the leading dollar sign ( <b>$</b> ), for example, "$frame".
 
-### -param Index 
+### -param Index [out]
 
-[out]
+
 Receives the index of the pseudo-register.
 
 ## -returns

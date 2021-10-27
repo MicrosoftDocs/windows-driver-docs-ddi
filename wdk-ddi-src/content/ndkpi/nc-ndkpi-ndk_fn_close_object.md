@@ -49,19 +49,19 @@ The <i>NdkCloseObject</i> (<i>NDK_FN_CLOSE_OBJECT</i>) function initiates a clos
 
 ## -parameters
 
-### -param pNdkObject 
+### -param pNdkObject [in]
 
-[in]
+
 A pointer to the object header (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>) for the object to close.
 
-### -param CloseCompletion 
+### -param CloseCompletion [in]
 
-[in]
+
 A pointer to an <i>NdkCloseCompletion</i> close completion callback function  (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_close_completion">NDK_FN_CLOSE_COMPLETION</a>).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value for the NDK provider to pass back to the <i>NdkCloseCompletion</i> function that is specified in the <i>CloseCompletion</i> parameter.
 
 ## -returns

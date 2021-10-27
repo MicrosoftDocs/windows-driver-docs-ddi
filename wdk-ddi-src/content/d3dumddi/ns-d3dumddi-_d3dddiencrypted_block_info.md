@@ -52,17 +52,17 @@ The D3DDDIENCRYPTED_BLOCK_INFO structure describes the portions of a buffer that
 
 ## -struct-fields
 
-### -field NumEncryptedBytesAtBeginning
+### -field NumEncryptedBytesAtBeginning [in]
 
-[in] The number of bytes at the beginning of the buffer that are encrypted.
+The number of bytes at the beginning of the buffer that are encrypted.
 
-### -field NumBytesInSkipPattern
+### -field NumBytesInSkipPattern [in]
 
-[in] The number of bytes in the buffer that are skipped from encryption before encryption starts again.
+The number of bytes in the buffer that are skipped from encryption before encryption starts again.
 
-### -field NumBytesInEncryptPattern
+### -field NumBytesInEncryptPattern [in]
 
-[in] The number of bytes in the buffer that are encrypted after the skip pattern, which the <b>NumBytesInSkipPattern</b> member specifies. The skip and encrypt pattern is then repeated until the buffer ends. For more information about the skip-encrypt pattern, see the Remarks section.
+The number of bytes in the buffer that are encrypted after the skip pattern, which the <b>NumBytesInSkipPattern</b> member specifies. The skip and encrypt pattern is then repeated until the buffer ends. For more information about the skip-encrypt pattern, see the Remarks section.
 
 ## -remarks
 

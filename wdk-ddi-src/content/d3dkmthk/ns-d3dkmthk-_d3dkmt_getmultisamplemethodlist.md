@@ -52,33 +52,33 @@ The D3DKMT_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve t
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the allocation is on.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the allocation is on.
 
-### -field Width
+### -field Width [in]
 
-[in] The width of the allocation, in pixels.
+The width of the allocation, in pixels.
 
-### -field Height
+### -field Height [in]
 
-[in] The height of the allocation, in pixels.
+The height of the allocation, in pixels.
 
-### -field Format
+### -field Format [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
 
-### -field pMethodList
+### -field pMethodList [out]
 
-[out] An array of <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_multisamplemethod">D3DKMT_MULTISAMPLEMETHOD</a> structures that describe the list of multiple-sampling methods used for the allocation; otherwise, this member is <b>NULL</b>.
+An array of <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_multisamplemethod">D3DKMT_MULTISAMPLEMETHOD</a> structures that describe the list of multiple-sampling methods used for the allocation; otherwise, this member is <b>NULL</b>.
 
-### -field MethodCount
+### -field MethodCount [in/out]
 
-[in/out] On input, the number of elements that the array that is specified by <b>pMethodList</b> can hold. On output, this member specifies the required number of elements that the array that is specified by <b>pMethodList</b> should hold.
+On input, the number of elements that the array that is specified by <b>pMethodList</b> can hold. On output, this member specifies the required number of elements that the array that is specified by <b>pMethodList</b> should hold.
 
 ## -remarks
 

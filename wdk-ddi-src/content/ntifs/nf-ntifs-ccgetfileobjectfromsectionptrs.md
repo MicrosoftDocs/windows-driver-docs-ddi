@@ -49,9 +49,9 @@ Given a pointer to the section object pointers for a cached file, the <b>CcGetFi
 
 ## -parameters
 
-### -param SectionObjectPointer 
+### -param SectionObjectPointer [in]
 
-[in]
+
 Pointer to a structure containing the file object's section object pointers.
 
 ## -returns

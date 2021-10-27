@@ -54,14 +54,14 @@ The <b>WdfIoQueueRetrieveNextRequest</b> method retrieves the next available I/O
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
-### -param OutRequest 
+### -param OutRequest [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework request object. If the queue is empty or the last request has been retrieved, this parameter receives <b>NULL</b>.
 
 ## -returns

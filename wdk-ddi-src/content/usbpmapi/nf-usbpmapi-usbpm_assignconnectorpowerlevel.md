@@ -47,17 +47,17 @@ Attempts a PD contract renegotiation with the specified voltage/current/power va
 
 ## -parameters
 
-### -param ClientHandle
+### -param ClientHandle [In]
 
-[In] The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
+The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
 
-### -param ConnectorHandle
+### -param ConnectorHandle [In]
 
-[In] The connector handle provided by Policy Manager when it calls the driver's implementation of [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md). The handle is set in the **EventData.ConnectorStateChange.ConnectorHandle** member of the _Params_ value.
+The connector handle provided by Policy Manager when it calls the driver's implementation of [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md). The handle is set in the **EventData.ConnectorStateChange.ConnectorHandle** member of the _Params_ value.
 
-### -param Params
+### -param Params [In]
 
-[In] A pointer to a driver-provided [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**](ns-usbpmapi-_usbpm_assign_connector_power_level_params.md) structure that contains the voltage/current/power value to negotiate. Initialize the structure by calling [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT**](nf-usbpmapi-usbpm_assign_connector_power_level_params_init.md).
+A pointer to a driver-provided [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**](ns-usbpmapi-_usbpm_assign_connector_power_level_params.md) structure that contains the voltage/current/power value to negotiate. Initialize the structure by calling [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT**](nf-usbpmapi-usbpm_assign_connector_power_level_params_init.md).
 
 Specifying 0 as the voltage/current/power value for a connector in power sink role  causes the connector to stop charging.
 

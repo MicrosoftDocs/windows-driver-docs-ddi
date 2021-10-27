@@ -50,39 +50,39 @@ The **KsFilterGenerateEvents** function generates events of an indicated type th
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to a [KSFILTER](./ns-ks-_ksfilter.md) structure on which to generate events.
 
-### -param EventSet 
+### -param EventSet [in, optional]
 
-[in, optional]
+
 A pointer to the event set GUID to match for determination of which events to generate. If this parameter is **NULL**, the event set GUID is not taken into account for determining matching events.
 
-### -param EventId 
+### -param EventId [in]
 
-[in]
+
 The event ID to match for determining which events to generate.
 
-### -param DataSize 
+### -param DataSize [in]
 
-[in]
+
 The size of *Data* in bytes.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 A pointer to a data buffer. Specify if generating a data event.
 
-### -param CallBack 
+### -param CallBack [in, optional]
 
-[in, optional]
+
 A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used). For more information, see the Remarks section below.
 
-### -param CallBackContext 
+### -param CallBackContext [in, optional]
 
-[in, optional]
+
 An optional pointer to a caller-specified context that is passed to the callback function *CallBack*. For more information, see the Remarks section below.
 
 ## -remarks

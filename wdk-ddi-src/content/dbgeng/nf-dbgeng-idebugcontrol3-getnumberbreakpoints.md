@@ -49,9 +49,9 @@ The <b>GetNumberBreakpoints</b> method returns the number of <a href="/windows-h
 
 ## -parameters
 
-### -param Number 
+### -param Number [out]
 
-[out]
+
 Receives the number of breakpoints.
 
 ## -returns

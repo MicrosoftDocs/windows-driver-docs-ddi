@@ -48,13 +48,13 @@ The **FltGetContexts** routine retrieves a minifilter driver's contexts for the 
 
 ## -parameters
 
-### -param FltObjects
+### -param FltObjects [in]
 
-[in] Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
+Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
 
-### -param DesiredContexts
+### -param DesiredContexts [in]
 
-[in] Type of contexts to retrieve. This parameter can have one or more of the following values:
+Type of contexts to retrieve. This parameter can have one or more of the following values:
 
 - FLT_ALL_CONTEXTS
 - FLT_FILE_CONTEXT (Windows Vista and later only)
@@ -64,9 +64,9 @@ The **FltGetContexts** routine retrieves a minifilter driver's contexts for the 
 - FLT_TRANSACTION_CONTEXT (Windows Vista and later only)
 - FLT_VOLUME_CONTEXT
 
-### -param Contexts
+### -param Contexts [out]
 
-[out] Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
+Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
 
 ## -returns
 

@@ -49,9 +49,9 @@ The <b>IStiDevice::GetCapabilities</b> method returns a still image device's cap
 
 ## -parameters
 
-### -param pDevCaps 
+### -param pDevCaps [in, out]
 
-[in, out]
+
 Caller-supplied pointer to an empty <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a> structure.
 
 ## -returns

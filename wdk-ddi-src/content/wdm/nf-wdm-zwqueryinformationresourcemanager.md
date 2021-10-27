@@ -49,29 +49,29 @@ The <b>ZwQueryInformationResourceManager</b> routine retrieves information about
 
 ## -parameters
 
-### -param ResourceManagerHandle 
+### -param ResourceManagerHandle [in]
 
-[in]
+
 A handle to a resource manager object that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_QUERY_INFORMATION access to the object.
 
-### -param ResourceManagerInformationClass 
+### -param ResourceManagerInformationClass [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_resourcemanager_information_class">RESOURCEMANAGER_INFORMATION_CLASS</a>-typed value that specifies the information to retrieve. This value must be <b>ResourceManagerBasicInformation</b>.
 
-### -param ResourceManagerInformation 
+### -param ResourceManagerInformation [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_resourcemanager_basic_information">RESOURCEMANAGER_BASIC_INFORMATION</a> structure that receives information from <b>ZwQueryInformationResourceManager</b>.
 
-### -param ResourceManagerInformationLength 
+### -param ResourceManagerInformationLength [in]
 
-[in]
+
 The length, in bytes, of the buffer that the <i>ResourceManagerInformation</i> parameter points to.
 
-### -param ReturnLength 
+### -param ReturnLength [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>ResourceManagerInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

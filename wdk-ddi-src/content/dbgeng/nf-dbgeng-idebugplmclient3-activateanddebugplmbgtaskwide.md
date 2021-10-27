@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the task.
 
-### -param PackageFullName 
+### -param PackageFullName [in]
 
-[in]
+
 A pointer to the package name.
 
-### -param BackgroundTaskId 
+### -param BackgroundTaskId [in]
 
-[in]
+
 A pointer to the task ID.
 
 ## -returns

@@ -45,13 +45,13 @@ Enables the function device object (FDO) to convey its requirement for a fixed d
 
 ## -parameters
 
-### -param Context 
+### -param Context [_In_reads_opt_(_Inexpressible_("varies"))]
 
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the device.
+The handle to the device.
 
-### -param DelayInMicroSeconds
+### -param DelayInMicroSeconds [_In_]
 
-[_In_] The delay in units of microsecond. The maximum value is 10000 microseconds.
+The delay in units of microsecond. The maximum value is 10000 microseconds.
 
 ## -returns
 

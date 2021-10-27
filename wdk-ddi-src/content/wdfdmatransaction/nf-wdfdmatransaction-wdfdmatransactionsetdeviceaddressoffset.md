@@ -54,14 +54,14 @@ api_name:
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to a DMA transaction object that specifies the transaction to modify.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The offset of the register, from the <b>DeviceAddress</b> specified in <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>, to or from which DMA should be performed.
 
 ## -remarks

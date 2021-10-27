@@ -49,9 +49,9 @@ The <b>IWiaTransferCallback::TransferCallback</b> method is implemented by an im
 
 ## -parameters
 
-### -param lFlags 
+### -param lFlags [in]
 
-[in]
+
 Currently unused. Should be set to zero.
 
 ### -param pWiaTransferParams

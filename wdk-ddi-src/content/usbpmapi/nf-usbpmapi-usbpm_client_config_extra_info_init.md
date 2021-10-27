@@ -47,13 +47,13 @@ Initializes a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_con
 
 ## -parameters
 
-### -param ExtraInfo
+### -param ExtraInfo [Out]
 
-[Out] A pointer to a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_config_extra_info.md) structure to initialize.
+A pointer to a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_config_extra_info.md) structure to initialize.
 
-### -param WdmDeviceObject
+### -param WdmDeviceObject [In]
 
-[In] If the client is a kernel mode driver, it should set it to the kernel mode WDM device object after calling [**USBPM_CLIENT_CONFIG_INIT**](nf-usbpmapi-usbpm_client_config_init.md). In user mode, it is not used.
+If the client is a kernel mode driver, it should set it to the kernel mode WDM device object after calling [**USBPM_CLIENT_CONFIG_INIT**](nf-usbpmapi-usbpm_client_config_init.md). In user mode, it is not used.
 
 ## -remarks
 

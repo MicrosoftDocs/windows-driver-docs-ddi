@@ -52,25 +52,25 @@ The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the <a hr
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device that the resource is associated with.
+A handle to the device that the resource is associated with.
 
-### -field hResource
+### -field hResource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to configure.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to configure.
 
-### -field IsDwm
+### -field IsDwm [in]
 
-[in] A Boolean value that specifies whether the current process is the Desktop Windows Manager (DWM). <b>TRUE</b> indicates DWM; <b>FALSE</b> indicates that the current process is non-DWM and is specified by the <b>hProcess</b> member.
+A Boolean value that specifies whether the current process is the Desktop Windows Manager (DWM). <b>TRUE</b> indicates DWM; <b>FALSE</b> indicates that the current process is non-DWM and is specified by the <b>hProcess</b> member.
 
-### -field hProcess
+### -field hProcess [in]
 
-[in] A handle to the process for the non-DWM situation.
+A handle to the process for the non-DWM situation.
 
-### -field AllowAccess
+### -field AllowAccess [in]
 
-[in] A Boolean value that specifies whether the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtconfiguresharedresource">D3DKMTConfigureSharedResource</a> function should allow the process to access the resource. <b>TRUE</b> indicates to allow access; <b>FALSE</b> indicates to not allow access.
+A Boolean value that specifies whether the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtconfiguresharedresource">D3DKMTConfigureSharedResource</a> function should allow the process to access the resource. <b>TRUE</b> indicates to allow access; <b>FALSE</b> indicates to not allow access.
 
 ## -see-also
 

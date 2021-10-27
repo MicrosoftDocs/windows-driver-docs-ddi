@@ -51,19 +51,19 @@ The <b>VideoPortAllocateContiguousMemory</b> function is <b>obsolete</b> in Wind
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies the size in bytes of the block of contiguous memory to be allocated.
 
-### -param HighestAcceptableAddress 
+### -param HighestAcceptableAddress [in]
 
-[in]
+
 Specifies the highest valid physical address the miniport driver can use. For example, if a device can only reference physical memory in the lower 16MB, this value would be set to 0x00000000FFFFFF.
 
 ## -returns

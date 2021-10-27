@@ -55,16 +55,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket from which the data was received.
 
-### -param DatagramIndication 
+### -param DatagramIndication [in]
 
-[in]
+
 A pointer to the linked list of structures to be released. For this parameter, the WSK application
      should specify the 
      <i>DatagramIndication</i> parameter that was passed to its 

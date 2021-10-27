@@ -50,22 +50,22 @@ A miniport-provided callback that is called after a notification from [**StorPor
 
 ### -param HwDeviceExtension
 
-### -param Context
+### -param Context [in, optional]
 
-[in, optional] The context supplied as **HwStateChangeContext** by the miniport in the call to [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md).
+The context supplied as **HwStateChangeContext** by the miniport in the call to [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md).
 
-### -param AddressType
+### -param AddressType [in]
 
-[in] The type of the address in **Address**.
+The type of the address in **Address**.
 
-### -param Address
+### -param Address [in]
 
-[in]
+
 A pointer to a [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md) structure for the entity whose state change was processed.
 
-### -param Status
+### -param Status [in]
 
-[in] The processing status for the state change notification.
+The processing status for the state change notification.
 
 #### - DeviceExtension
 

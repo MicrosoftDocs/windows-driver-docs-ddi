@@ -52,14 +52,14 @@ the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbusk
 
 ## -parameters
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 The channel one which the packets are delivered.
 
-### -param PacketsProcessed 
+### -param PacketsProcessed [in]
 
-[in]
+
 The number of packets which were delivered in this batch.
 
 ## -remarks

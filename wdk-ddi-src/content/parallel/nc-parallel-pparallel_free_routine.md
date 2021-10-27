@@ -49,9 +49,9 @@ The <i>PPARALLEL_FREE_ROUTINE</i>-typed callback routine frees a parallel port. 
 
 ## -parameters
 
-### -param FreeContext 
+### -param FreeContext [in]
 
-[in]
+
 Pointer to the device extension of a parallel port's functional device object (<a href="/windows-hardware/drivers/">FDO</a>).
 
 ## -prototype

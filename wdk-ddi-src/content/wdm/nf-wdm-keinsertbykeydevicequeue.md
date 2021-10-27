@@ -49,19 +49,19 @@ The <b>KeInsertByKeyDeviceQueue</b> routine acquires the spin lock for the speci
 
 ## -parameters
 
-### -param DeviceQueue 
+### -param DeviceQueue [in, out]
 
-[in, out]
+
 Pointer to a control object of the device queue type for which the caller provides the storage.
 
-### -param DeviceQueueEntry 
+### -param DeviceQueueEntry [in, out]
 
-[in, out]
+
 Pointer to the device queue entry to be inserted into the device queue according to the specific key value.
 
-### -param SortKey 
+### -param SortKey [in]
 
-[in]
+
 Specifies the sort-key value that determines the position in the device queue in which to insert the entry.
 
 ## -returns

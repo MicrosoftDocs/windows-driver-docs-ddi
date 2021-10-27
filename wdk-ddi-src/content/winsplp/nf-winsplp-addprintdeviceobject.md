@@ -51,14 +51,14 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 A HANDLE to an open printer. This should be a HANDLE returned by the <b>AddPrinter</b> or <b>OpenPrinter</b> spooler functions.
 
-### -param phDeviceObject 
+### -param phDeviceObject [out]
 
-[out]
+
 A HANDLE to the device object, if it was created successfully.
 
 ## -returns

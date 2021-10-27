@@ -49,19 +49,19 @@ The <b>wiauGetDrvItemContext</b> function gets the driver item context, and opti
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
-### -param ppItemCtx 
+### -param ppItemCtx [in, out]
 
-[in, out]
+
 Pointer to a memory location that receives a pointer to the driver item context.
 
-### -param ppDrvItem 
+### -param ppDrvItem [in, out]
 
-[in, out]
+
 <i>Optional</i>. Pointer to a memory location that receives a pointer to a driver item. The default value of this parameter is <b>NULL</b>, which means that when this function returns, no change is made to this parameter.
 
 ## -returns

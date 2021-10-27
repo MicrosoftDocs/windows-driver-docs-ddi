@@ -55,17 +55,17 @@ The <b>PEP_PROCESSOR_PARK_MASK</b> structure contains the current core parking m
 
 ## -struct-fields
 
-### -field Count
+### -field Count [in]
 
-[in] Indicates the number of processors in the <b>Processors</b> array.
+Indicates the number of processors in the <b>Processors</b> array.
 
-### -field EvaluationTime
+### -field EvaluationTime [in]
 
-[in] The interrupt time of the performance check evaluation that initiated this notification.
+The interrupt time of the performance check evaluation that initiated this notification.
 
-### -field Processors
+### -field Processors [in/out]
 
-[in/out] An array of processors in the core parking domain. 
+An array of processors in the core parking domain. 
 
 
 

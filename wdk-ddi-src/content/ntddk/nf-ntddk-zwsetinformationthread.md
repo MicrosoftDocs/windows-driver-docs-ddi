@@ -49,19 +49,19 @@ The <b>ZwSetInformationThread</b> routine sets the priority of a thread.
 
 ## -parameters
 
-### -param ThreadHandle 
+### -param ThreadHandle [in]
 
-[in]
-Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentThread</a> macro.
 
-### -param ThreadInformationClass 
+Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the [ZwCurrentThread](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
 
-[in]
+### -param ThreadInformationClass [in]
+
+
 One of the system-defined values in the THREADINFOCLASS enumeration (see ntddk.h), <b>ThreadPriority</b>,   <b>ThreadBasePriority</b>,  <b>ThreadPagePriority</b>, or <b>ThreadPowerThrottlingState</b>.
 
-### -param ThreadInformation 
+### -param ThreadInformation [in]
 
-[in]
+
 Pointer to a variable that specifies the information to set. 
 
 If <b>ThreadInformationClass</b> is <b>ThreadPriority</b>, this value must be > LOW_PRIORITY and <= HIGH_PRIORITY. 
@@ -134,9 +134,9 @@ Normal memory priority. This is the default priority for all threads and process
 </tr>
 </table>
 
-### -param ThreadInformationLength 
+### -param ThreadInformationLength [in]
 
-[in]
+
 The size, in bytes, of <b>ThreadInformation</b>.
 
 ## -returns

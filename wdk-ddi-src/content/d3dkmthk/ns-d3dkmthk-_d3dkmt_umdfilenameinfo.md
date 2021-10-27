@@ -52,9 +52,9 @@ The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is 
 
 ## -struct-fields
 
-### -field Version
+### -field Version [in]
 
-[in] A KMTUMDVERSION-typed value that indicates the version of the DirectX runtime to retrieve the name of an OpenGL ICD for. The following table lists the possible values.
+A KMTUMDVERSION-typed value that indicates the version of the DirectX runtime to retrieve the name of an OpenGL ICD for. The following table lists the possible values.
 
 |Value|Meaning|
 |--- |--- |
@@ -62,7 +62,7 @@ The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is 
 |KMTUMDVERSION_DX10 (1)|DirectX version 10.0|
 |KMTUMDVERSION_DX11 (2)|DirectX version 11.0|
 
-### -field UmdFileName
+### -field UmdFileName [out]
 
-[out] A string that contains the name of the OpenGL ICD.
+A string that contains the name of the OpenGL ICD.
 

@@ -49,9 +49,9 @@ Enumerates all graphics adapters on the system.
 
 ## -parameters
 
-### -param D3DKMT_ENUMADAPTERS
+### -param D3DKMT_ENUMADAPTERS [in, out]
 
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
 
 ## -returns
 

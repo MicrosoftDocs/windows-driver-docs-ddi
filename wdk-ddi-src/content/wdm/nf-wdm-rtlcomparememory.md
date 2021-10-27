@@ -53,19 +53,19 @@ The <b>RtlCompareMemory</b> routine compares two blocks of memory and returns th
 
 ## -parameters
 
-### -param Source1 
+### -param Source1 [in]
 
-[in]
+
 A pointer to the first block of memory.
 
-### -param Source2 
+### -param Source2 [in]
 
-[in]
+
 A pointer to the second block of memory.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to compare.
 
 ## -returns

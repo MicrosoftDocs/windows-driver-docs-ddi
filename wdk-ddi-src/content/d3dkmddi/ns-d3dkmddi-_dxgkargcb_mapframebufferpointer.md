@@ -2,13 +2,13 @@
 UID: NS:d3dkmddi._DXGKARGCB_MAPFRAMEBUFFERPOINTER
 title: DXGKARGCB_MAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: The DXGKARGCB_MAPFRAMEBUFFERPOINTER structure contains the arguments used by the DXGKCB_MAPFRAMEBUFFERPOINTER callback function to map a frame buffer pointer.
-ms.date: 07/22/2021
+ms.date: 10/13/2021
 keywords: ["DXGKARGCB_MAPFRAMEBUFFERPOINTER structure"]
 ms.keywords: _DXGKARGCB_MAPFRAMEBUFFERPOINTER, DXGKARGCB_MAPFRAMEBUFFERPOINTER, *INOUT_PDXGKARGCB_MAPFRAMEBUFFERPOINTER
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,21 +46,21 @@ The **DXGKARGCB_MAPFRAMEBUFFERPOINTER** structure contains arguments used by the
 
 ## -struct-fields
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The index of the physical adapter.
+The index of the physical adapter.
 
-### -field Size
+### -field Size [in]
 
-[in] The size, in bytes, of the mapped subregion of the section object. **Size** must be a multiple of PAGE_SIZE.
+The size, in bytes, of the mapped subregion of the section object. **Size** must be a multiple of PAGE_SIZE.
 
-### -field Offset
+### -field Offset [in/out]
 
-[in/out] On input, this is the offset, in bytes, to the mapped subregion of the section object. Offset must be a multiple of PAGE_SIZE. On output, this is the offset from the output base address to which the driver should copy the data.
+On input, this is the offset, in bytes, to the mapped subregion of the section object. Offset must be a multiple of PAGE_SIZE. On output, this is the offset from the output base address to which the driver should copy the data.
 
-### -field pBaseAddress
+### -field pBaseAddress [out]
 
-[out] A CPU accessible base address pointer to the mapped subregion of the section object. The driver must add the output **Offset** value to the base address to get the destination address of any copy operations (pDestinationAddress = pBaseAddress + Offset).
+A CPU accessible base address pointer to the mapped subregion of the section object. The driver must add the output **Offset** value to the base address to get the destination address of any copy operations (pDestinationAddress = pBaseAddress + Offset).
 
 ## -remarks
 

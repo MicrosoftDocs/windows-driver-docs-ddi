@@ -53,9 +53,9 @@ Call the
 
 ## -parameters
 
-### -param PoolHandle 
+### -param PoolHandle [in]
 
-[in]
+
 The pool handle for the NET_BUFFER structure pool to be freed.
 
 ## -remarks

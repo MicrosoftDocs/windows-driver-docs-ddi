@@ -52,37 +52,37 @@ The DXVADDI_VIDEODESC structure describes a video stream.
 
 ## -struct-fields
 
-### -field SampleWidth
+### -field SampleWidth [in]
 
-[in] The width of the video sample, in pixels.
+The width of the video sample, in pixels.
 
-### -field SampleHeight
+### -field SampleHeight [in]
 
-[in] The height of the video sample, in pixels.
+The height of the video sample, in pixels.
 
-### -field SampleFormat
+### -field SampleFormat [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
 
-### -field Format
+### -field Format [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
 
-### -field InputSampleFreq
+### -field InputSampleFreq [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_frequency">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_frequency">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
 
-### -field OutputFrameFreq
+### -field OutputFrameFreq [in]
 
-[in] A DXVADDI_FREQUENCY structure that defines the frame rate of output video.
+A DXVADDI_FREQUENCY structure that defines the frame rate of output video.
 
-### -field UABProtectionLevel
+### -field UABProtectionLevel [in]
 
-[in] A UINT value that specifies the level of data protection that is required when the user accessible bus is present.
+A UINT value that specifies the level of data protection that is required when the user accessible bus is present.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] Reserved. Do not use this member.
+Reserved. Do not use this member.
 
 ## -see-also
 

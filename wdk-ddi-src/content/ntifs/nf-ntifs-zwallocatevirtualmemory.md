@@ -49,29 +49,29 @@ The <b>ZwAllocateVirtualMemory</b> routine reserves, commits, or both, a region 
 
 ## -parameters
 
-### -param ProcessHandle 
+### -param ProcessHandle [in]
 
-[in]
+
 A handle for the process for which the mapping should be done. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
-### -param BaseAddress 
+### -param BaseAddress [in, out]
 
-[in, out]
+
 A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of this parameter is non-<b>NULL</b>, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of this parameter is <b>NULL</b>, the operating system will determine where to allocate the region.
 
-### -param ZeroBits 
+### -param ZeroBits [in]
 
-[in]
+
 The number of high-order address bits that must be zero in the base address of the section view. This value must be less than 21 and is used only when the operating system determines where to allocate the region, as when <i>BaseAddress</i> is <b>NULL</b>.
 
-### -param RegionSize 
+### -param RegionSize [in, out]
 
-[in, out]
+
 A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of this parameter specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. <i>*RegionSize</i> cannot be zero on input.
 
-### -param AllocationType 
+### -param AllocationType [in]
 
-[in]
+
 A bitmask containing flags that specify the type of allocation to be performed. The following table describes these flags.
 
 <table>
@@ -139,9 +139,9 @@ The specified region should be created at the highest virtual address possible b
 </tr>
 </table>
 
-### -param Protect 
+### -param Protect [in]
 
-[in]
+
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
 
 <table>

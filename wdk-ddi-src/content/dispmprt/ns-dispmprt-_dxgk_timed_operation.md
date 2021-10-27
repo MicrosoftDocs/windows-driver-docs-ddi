@@ -55,9 +55,9 @@ The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in]
 
-[in] The size, in bytes, of this structure.
+The size, in bytes, of this structure.
 
 ### -field OwnerTag
 
@@ -67,9 +67,9 @@ The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in
 
 [system] For system use only.
 
-### -field TimeoutTriggered
+### -field TimeoutTriggered [out]
 
-[out] A Boolean value that specifies whether the time-out was triggered.
+A Boolean value that specifies whether the time-out was triggered.
 
 ### -field Timeout
 

@@ -49,13 +49,13 @@ This routine copies a properties list from source to target.
 
 ## -parameters
 
-### -param Target
+### -param Target [in]
 
-[in] Pointer to a collection list to copy to.
+Pointer to a collection list to copy to.
 
-### -param Source
+### -param Source [in]
 
-[in] Pointer to a collection list to copy.
+Pointer to a collection list to copy.
 
 ## -returns
 

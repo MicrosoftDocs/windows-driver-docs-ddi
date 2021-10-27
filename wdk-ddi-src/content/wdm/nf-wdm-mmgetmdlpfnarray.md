@@ -46,9 +46,9 @@ The **MmGetMdlPfnArray** macro returns a pointer to the beginning of the array o
 
 ## -parameters
 
-### -param Mdl
+### -param Mdl [in]
 
-[in]
+
 A pointer to an MDL.
 
 ## -remarks

@@ -52,13 +52,13 @@ The DXVADDI_FIXED32 structure describes a floating-point number from a 16.16 fix
 
 ## -struct-fields
 
-### -field Fraction
+### -field Fraction [in]
 
-[in] A USHORT value that specifies the 16 bits after the decimal point.
+A USHORT value that specifies the 16 bits after the decimal point.
 
-### -field Value
+### -field Value [in]
 
-[in] A SHORT value that specifies the 16 bits before the decimal point.
+A SHORT value that specifies the 16 bits before the decimal point.
 
 ### -field ll
 

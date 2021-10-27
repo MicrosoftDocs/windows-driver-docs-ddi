@@ -49,14 +49,14 @@ Gets a pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-
 
 ## -parameters
 
-### -param ulIndex 
+### -param ulIndex [in]
 
-[in]
+
 Index of the <b>IPrintJob</b> object within the collection.
 
-### -param ppJob 
+### -param ppJob [out, retval]
 
-[out, retval]
+
 Pointer to an <b>IPrintJob</b> object.
 
 ## -returns

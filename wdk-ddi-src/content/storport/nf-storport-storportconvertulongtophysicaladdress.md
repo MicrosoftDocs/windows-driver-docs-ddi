@@ -50,9 +50,9 @@ The <b>StorPortConvertUlongToPhysicalAddress</b> routine converts an unsigned lo
 
 ## -parameters
 
-### -param UlongAddress 
+### -param UlongAddress [in]
 
-[in]
+
 Contains the address to be converted.
 
 ## -returns

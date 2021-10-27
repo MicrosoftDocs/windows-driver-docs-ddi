@@ -50,13 +50,13 @@ This routine allows the virtualized I/O management software running in the privi
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
+The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERFACE](ns-dispmprt-_dxgkddi_sriov_interface.md) structure.
 
-### -param pArgs
+### -param pArgs [in, out]
 
-[in, out] A pointer to a DXGKARG_RESETVIRTUALFUNCTION structure.
+A pointer to a DXGKARG_RESETVIRTUALFUNCTION structure.
 
 ## -returns
 

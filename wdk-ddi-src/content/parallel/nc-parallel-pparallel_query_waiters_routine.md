@@ -49,9 +49,9 @@ The <i>PPARALLEL_QUERY_WAITERS_ROUTINE</i>-typed callback routine returns the nu
 
 ## -parameters
 
-### -param QueryAllocsContext 
+### -param QueryAllocsContext [in]
 
-[in]
+
 Pointer to the device extension of a functional device object (<a href="/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>ZwQueryFullAttributesFile</b> routine supplies network open information f
 
 ## -parameters
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that supplies the attributes to be used for the file object.
 
-### -param FileInformation 
+### -param FileInformation [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information">FILE_NETWORK_OPEN_INFORMATION</a> structure that receives the returned file attributes information.
 
 ## -returns

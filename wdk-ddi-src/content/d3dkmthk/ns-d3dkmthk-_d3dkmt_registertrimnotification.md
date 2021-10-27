@@ -52,25 +52,25 @@ api_name:
 
 ## -struct-fields
 
-### -field AdapterLuid
+### -field AdapterLuid [in]
 
-[in] Luid of the adapter which the device created.
+Luid of the adapter which the device created.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] Device to trim the residency list for.
+Device to trim the residency list for.
 
-### -field Callback
+### -field Callback [in]
 
-[in] Pointer to the callback function.
+Pointer to the callback function.
 
-### -field Context
+### -field Context [in]
 
-[in] Caller-supplied context for callback.
+Caller-supplied context for callback.
 
-### -field Handle
+### -field Handle [out]
 
-[out] Handle that will be used to unregister the callback with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>.
+Handle that will be used to unregister the callback with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunregistertrimnotification">D3DKMTUnregisterTrimNotification</a>.
 
 ## -see-also
 

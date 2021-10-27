@@ -52,14 +52,14 @@ The <b>WdfDeviceAssignMofResourceName</b> method registers a MOF resource name f
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param MofResourceName 
+### -param MofResourceName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the name of a MOF resource.
 
 ## -returns

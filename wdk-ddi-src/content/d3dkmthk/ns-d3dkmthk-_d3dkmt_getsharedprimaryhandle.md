@@ -52,17 +52,17 @@ The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are re
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter that the primary surface is associated with.
+A handle to the graphics adapter that the primary surface is associated with.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that displays the primary surface.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that displays the primary surface.
 
-### -field hSharedPrimary
+### -field hSharedPrimary [out]
 
-[out] A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a> function.
+A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a> function.
 
 ## -see-also
 

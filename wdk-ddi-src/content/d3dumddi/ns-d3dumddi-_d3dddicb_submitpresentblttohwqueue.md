@@ -47,17 +47,17 @@ A structure that contains information to present Blt to the hardware queue.
 
 ## -struct-fields
 
-### -field hSrcAllocation
+### -field hSrcAllocation [in]
 
-[in] The allocation of which content will be presented.
+The allocation of which content will be presented.
 
-### -field hDstAllocation
+### -field hDstAllocation [in]
 
-[in] The destination allocation of the present, if non-zero.
+The destination allocation of the present, if non-zero.
 
-### -field hHwQueue
+### -field hHwQueue [in]
 
-[in] Hardware queue being submitted to.
+Hardware queue being submitted to.
 
 ### -field HwQueueProgressFenceId
 

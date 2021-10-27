@@ -51,19 +51,19 @@ The <b>RetrievePowerPolicy</b> method retrieves a WinUsb power policy.
 
 ## -parameters
 
-### -param PolicyType 
+### -param PolicyType [in]
 
-[in]
+
 The type of WinUsb power policy that the UMDF driver requests.
 
-### -param ValueLength 
+### -param ValueLength [in, out]
 
-[in, out]
+
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrievePowerPolicy</b> supplies in <i>Value</i>. On output, this parameter contains the size that <b>RetrievePowerPolicy</b> requires for <i>Value</i>.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 A pointer that receives the buffer that contains the WinUsb power policy.
 
 ## -returns

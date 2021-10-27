@@ -49,9 +49,9 @@ The <b>MmResetDriverPaging</b> routine resets the pageable status of a driver's 
 
 ## -parameters
 
-### -param AddressWithinSection 
+### -param AddressWithinSection [in]
 
-[in]
+
 A pointer to a virtual address in the driver (for example, the address of the <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine).
 
 ## -remarks

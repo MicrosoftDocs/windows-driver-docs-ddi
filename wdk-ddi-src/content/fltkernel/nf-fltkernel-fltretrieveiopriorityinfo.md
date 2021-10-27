@@ -48,21 +48,21 @@ The **FltRetrieveIoPriorityInfo** routine is used by a minifilter driver to retr
 
 ## -parameters
 
-### -param Data
+### -param Data [in, optional]
 
-[in, optional] An optional pointer to a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure, which represents an I/O operation.  This parameter can be **NULL**.
+An optional pointer to a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure, which represents an I/O operation.  This parameter can be **NULL**.
 
-### -param FileObject
+### -param FileObject [in, optional]
 
-[in, optional] An optional pointer to the file object associated with the I/O operation.  This parameter can be **NULL**.
+An optional pointer to the file object associated with the I/O operation.  This parameter can be **NULL**.
 
-### -param Thread
+### -param Thread [in, optional]
 
-[in, optional] An optional pointer to the thread in which to retrieve priority information from.  This parameter can be **NULL**.
+An optional pointer to the thread in which to retrieve priority information from.  This parameter can be **NULL**.
 
-### -param PriorityInfo
+### -param PriorityInfo [in, out]
 
-[in, out] A pointer to an [**IO_PRIORITY_INFO**](../ntifs/ns-ntifs-_io_priority_info.md) structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
+A pointer to an [**IO_PRIORITY_INFO**](../ntifs/ns-ntifs-_io_priority_info.md) structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
 
 ## -returns
 

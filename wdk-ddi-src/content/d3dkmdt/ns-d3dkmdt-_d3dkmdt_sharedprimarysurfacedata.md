@@ -52,25 +52,25 @@ The D3DKMDT_SHAREDPRIMARYSURFACEDATA structure describes a shared primary surfac
 
 ## -struct-fields
 
-### -field Width
+### -field Width [in]
 
-[in] The width of the surface, in pixels. The driver returns the width value.
+The width of the surface, in pixels. The driver returns the width value.
 
-### -field Height
+### -field Height [in]
 
-[in] The height of the surface, in pixels. The driver returns the height value.
+The height of the surface, in pixels. The driver returns the height value.
 
-### -field Format
+### -field Format [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The driver returns the format value.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The driver returns the format value.
 
-### -field RefreshRate
+### -field RefreshRate [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_rational">D3DDDI_RATIONAL</a> structure that indicates the refresh rate that the shared primary surface was created with.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_rational">D3DDDI_RATIONAL</a> structure that indicates the refresh rate that the shared primary surface was created with.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the surface is located on.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the surface is located on.
 
 ## -remarks
 

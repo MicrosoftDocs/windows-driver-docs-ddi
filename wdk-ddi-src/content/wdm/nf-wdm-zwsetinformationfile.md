@@ -49,30 +49,30 @@ The <b>ZwSetInformationFile</b> routine changes various kinds of information abo
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 Handle to the file object. This handle is created by a successful call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
 
-### -param FileInformation 
+### -param FileInformation [in]
 
-[in]
+
 
 Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. For example, if the <i>FileInformationClass</i> parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](../ntddk/ns-ntddk-_file_disposition_information_ex.md) structure.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The size, in bytes, of the <i>FileInformation</i> buffer.
 
-### -param FileInformationClass 
+### -param FileInformationClass [in]
 
-[in]
+
 The type of information, supplied in the buffer pointed to by <i>FileInformation</i>, to set for the file. Device and intermediate drivers can specify any of the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values.
 
 <table>

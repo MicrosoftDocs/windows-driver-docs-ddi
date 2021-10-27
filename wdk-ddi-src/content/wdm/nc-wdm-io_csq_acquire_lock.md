@@ -49,14 +49,14 @@ The <i>CsqAcquireLock</i> routine is used by the system to acquire the lock for 
 
 ## -parameters
 
-### -param Csq 
+### -param Csq [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
-### -param Irql 
+### -param Irql [out]
 
-[out]
+
 Pointer to a variable that the <i>CsqAcquireLock</i> routine can use to store the current IRQL. The system passes the stored value <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a> when it releases the lock.
 
 ## -remarks

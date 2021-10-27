@@ -52,24 +52,24 @@ is complete.
 
 ## -parameters
 
-### -param Packet 
+### -param Packet [in]
 
-[in]
+
 The packet that is completed.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 A status code.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A buffer that contains the completion response from the opposite endpoint, if any.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Length of the <i>Buffer</i> parameter, in bytes.
 
 ## -remarks

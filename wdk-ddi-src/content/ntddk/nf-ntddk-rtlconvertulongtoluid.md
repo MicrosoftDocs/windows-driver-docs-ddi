@@ -49,9 +49,9 @@ The <b>RtlConvertUlongToLuid</b> routine converts an unsigned long integer to a 
 
 ## -parameters
 
-### -param Ulong 
+### -param Ulong [in]
 
-[in]
+
 Specifies the unsigned long integer to convert.
 
 ## -returns
@@ -72,7 +72,7 @@ Specifies the unsigned long integer to convert.
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
+[RtlEqualLuid](../wdm/nf-wdm-rtlequalluid.md)
 
 
 

@@ -53,23 +53,23 @@ The
 
 ## -parameters
 
-### -param classifyContext 
+### -param classifyContext [in]
 
-[in]
+
 The 
      <i>classifyContext</i> parameter from 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>. The WFP engine passes this
      value to the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>.
 
-### -param flags 
+### -param flags [in]
 
-[in]
+
 Reserved for future use. Set to 0.
 
-### -param classifyHandle 
+### -param classifyHandle [out]
 
-[out]
+
 A pointer to a variable that receives a classification handle. This handle is needed by subsequent
      function calls as noted in Remarks.
 

@@ -51,9 +51,9 @@ A driver's <b>OnArmWakeFromS0</b> callback function arms (that is, enables) a de
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <b>IWDFDevice</b> interface of the device object that represents one of the driver's devices.
 
 ## -returns

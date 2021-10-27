@@ -49,14 +49,14 @@ The <b>MmCanFileBeTruncated</b> routine checks whether a file can be truncated.
 
 ## -parameters
 
-### -param SectionPointer 
+### -param SectionPointer [in]
 
-[in]
+
 Pointer to a structure that contains the file object's section object pointers.
 
-### -param NewFileSize 
+### -param NewFileSize [in, optional]
 
-[in, optional]
+
 Pointer to a variable that specifies the size to which the file is to be truncated.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>SeTokenIsNoChildProcessRestrictionEnforced</b> routine determines if the 
 
 ## -parameters
 
-### -param Token 
+### -param Token [in]
 
-[in]
+
 Specifies a pointer to the access token.
 
-### -param UnlessSecure 
+### -param UnlessSecure [out, optional]
 
-[out, optional]
+
 Optionally provides a pointer to the value that will
         be set to TRUE when secure process creation is enabled even if
         process creation is restricted.

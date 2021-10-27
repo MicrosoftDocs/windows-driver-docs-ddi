@@ -49,14 +49,14 @@ The <i>GetIdleWakeInfo</i> routine enables the driver for a device to discover t
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
-### -param SystemPowerState 
+### -param SystemPowerState [in]
 
-[in]
+
 System power state. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> enumeration values:
 
 <ul>
@@ -68,9 +68,9 @@ System power state. Set this parameter to one of the following <a href="/windows
 </ul>
 These values represent system power states S0 (system working state) through S4. For the <i>SystemPowerState</i> value supplied by the caller, the routine determines the deepest device power state from which the device can issue a wake signal.
 
-### -param DeepestWakeableDstate 
+### -param DeepestWakeableDstate [out]
 
-[out]
+
 Deepest wakeable Dx state. This parameter is a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_device_wake_depth">DEVICE_WAKE_DEPTH</a> variable. If the call is successful, the routine writes one of the following enumeration values to this variable:
 
 <ul>

@@ -48,22 +48,22 @@ Arguments used to query clock calibration information.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] The adapter to query clock information for.
+The adapter to query clock information for.
 
-### -field NodeOrdinal
+### -field NodeOrdinal [in]
 
-[in] Node ordinal of the requested engine.
+Node ordinal of the requested engine.
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The physical adapter index, in an LDA chain.
+The physical adapter index, in an LDA chain.
 
-### -field ClockData
+### -field ClockData [out]
 
  
-[out] Output frequency, GPU clock, and CPU clock on the specified engine.
+Output frequency, GPU clock, and CPU clock on the specified engine.
 
 ## -remarks
 

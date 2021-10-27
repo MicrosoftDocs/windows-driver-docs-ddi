@@ -49,14 +49,14 @@ The <i>EvtSerCx2PioReceiveInitializeTransaction</i> event callback function is c
 
 ## -parameters
 
-### -param PioReceive 
+### -param PioReceive [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method to create this object.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to be transferred in the PIO-receive transaction.
 
 ## -remarks

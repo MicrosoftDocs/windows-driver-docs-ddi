@@ -49,14 +49,14 @@ The <b>ExSystemTimeToLocalTime</b> routine converts a GMT system time value to t
 
 ## -parameters
 
-### -param SystemTime 
+### -param SystemTime [in]
 
-[in]
+
 A pointer to a variable set to the unbiased, GMT system time.
 
-### -param LocalTime 
+### -param LocalTime [out]
 
-[out]
+
 A pointer to the returned value for the current locale.
 
 ## -remarks

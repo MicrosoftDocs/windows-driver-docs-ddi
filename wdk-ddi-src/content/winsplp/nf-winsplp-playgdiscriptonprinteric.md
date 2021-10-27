@@ -47,27 +47,27 @@ api_name:
 
 ## -parameters
 
-### -param hPrinterIC 
+### -param hPrinterIC [in]
 
-[in]
 
-### -param pIn 
 
-[in]
+### -param pIn [in]
 
-### -param cIn 
 
-[in]
 
-### -param pOut 
+### -param cIn [in]
 
-[out]
 
-### -param cOut 
 
-[in]
+### -param pOut [out]
 
-### -param ul 
 
-[in]
+
+### -param cOut [in]
+
+
+
+### -param ul [in]
+
+
 

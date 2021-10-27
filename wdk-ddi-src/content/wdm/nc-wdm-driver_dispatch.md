@@ -48,13 +48,13 @@ The callback routine services various IRPs. For a list of function codes, see Re
 
 ## -parameters
 
-### -param DeviceObject
+### -param DeviceObject [in, out]
 
-[in, out] Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
-### -param Irp
+### -param Irp [in, out]
 
-[in, out] Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the requested I/O operation.
+Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the requested I/O operation.
 
 ## -returns
 

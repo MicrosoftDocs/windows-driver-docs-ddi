@@ -50,9 +50,9 @@ The <b>RemoveValue</b> method removes an item from the collection.
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to remove.
 
 ## -returns

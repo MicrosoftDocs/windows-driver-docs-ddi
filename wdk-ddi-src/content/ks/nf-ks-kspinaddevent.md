@@ -49,14 +49,14 @@ The<b> KsPinAddEvent </b>function adds a specified event to <i>Pin</i>'s event l
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure to which to add a specified event.
 
-### -param EventEntry 
+### -param EventEntry [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Pin</i>.
 
 ## -remarks

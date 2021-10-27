@@ -4,7 +4,7 @@ title: _FILE_INFORMATION_CLASS (wdm.h)
 description: A value that specifies which structure to use to query or set information for a file object.
 old-location: ifsk\file_information_class.htm
 tech.root: ifsk
-ms.date: 06/04/2019
+ms.date: 09/29/2021
 keywords: ["FILE_INFORMATION_CLASS enumeration"]
 ms.keywords: "*PFILE_INFORMATION_CLASS, FILE_INFORMATION_CLASS, FILE_INFORMATION_CLASS enumeration [Installable File System Drivers], FileAccessInformation, FileAlignmentInformation, FileAllInformation, FileAllocationInformation, FileAlternateNameInformation, FileAttributeTagInformation, FileBasicInformation, FileBothDirectoryInformation, FileCompletionInformation, FileCompressionInformation, FileDirectoryInformation, FileDispositionInformation, FileDispositionInformationEx, FileEaInformation, FileEndOfFileInformation, FileFullDirectoryInformation, FileFullEaInformation, FileHardLinkFullIdInformation, FileHardLinkInformation, FileIdBothDirectoryInformation, FileIdExtdBothDirectoryInformation, FileIdExtdDirectoryInformation, FileIdFullDirectoryInformation, FileIdGlobalTxDirectoryInformation, FileIdInformation, FileInternalInformation, FileIoCompletionNotificationInformation, FileIoPriorityHintInformation, FileIoStatusBlockRangeInformation, FileIsRemoteDeviceInformation, FileLinkInformation, FileLinkInformationBypassAccessCheck, FileMailslotQueryInformation, FileMailslotSetInformation, FileMaximumInformation, FileModeInformation, FileMoveClusterInformation, FileNameInformation, FileNamesInformation, FileNetworkOpenInformation, FileNetworkPhysicalNameInformation, FileNormalizedNameInformation, FileNumaNodeInformation, FileObjectIdInformation, FilePipeInformation, FilePipeLocalInformation, FilePipeRemoteInformation, FilePositionInformation, FileProcessIdsUsingFileInformation, FileQuotaInformation, FileRemoteProtocolInformation, FileRenameInformation, FileRenameInformationBypassAccessCheck, FileRenameInformationEx, FileRenameInformationExBypassAccessCheck, FileReparsePointInformation, FileReplaceCompletionInformation, FileSfioReserveInformation, FileSfioVolumeInformation, FileShortNameInformation, FileStandardInformation, FileStandardLinkInformation, FileStreamInformation, FileTrackingInformation, FileUnusedInformation, FileValidDataLengthInformation, FileVolumeNameInformation, PFILE_INFORMATION_CLASS, PFILE_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], _FILE_INFORMATION_CLASS, ifsk.file_information_class, ntifs/ FileDispositionInformationEx, ntifs/ FileIdExtdBothDirectoryInformation, ntifs/FILE_INFORMATION_CLASS, ntifs/FileAccessInformation, ntifs/FileAlignmentInformation, ntifs/FileAllInformation, ntifs/FileAllocationInformation, ntifs/FileAlternateNameInformation, ntifs/FileAttributeTagInformation, ntifs/FileBasicInformation, ntifs/FileBothDirectoryInformation, ntifs/FileCompletionInformation, ntifs/FileCompressionInformation, ntifs/FileDirectoryInformation, ntifs/FileDispositionInformation, ntifs/FileEaInformation, ntifs/FileEndOfFileInformation, ntifs/FileFullDirectoryInformation, ntifs/FileFullEaInformation, ntifs/FileHardLinkFullIdInformation, ntifs/FileHardLinkInformation, ntifs/FileIdBothDirectoryInformation, ntifs/FileIdExtdDirectoryInformation, ntifs/FileIdFullDirectoryInformation, ntifs/FileIdGlobalTxDirectoryInformation, ntifs/FileIdInformation, ntifs/FileInternalInformation, ntifs/FileIoCompletionNotificationInformation, ntifs/FileIoPriorityHintInformation, ntifs/FileIoStatusBlockRangeInformation, ntifs/FileIsRemoteDeviceInformation, ntifs/FileLinkInformation, ntifs/FileLinkInformationBypassAccessCheck, ntifs/FileMailslotQueryInformation, ntifs/FileMailslotSetInformation, ntifs/FileMaximumInformation, ntifs/FileModeInformation, ntifs/FileMoveClusterInformation, ntifs/FileNameInformation, ntifs/FileNamesInformation, ntifs/FileNetworkOpenInformation, ntifs/FileNetworkPhysicalNameInformation, ntifs/FileNormalizedNameInformation, ntifs/FileNumaNodeInformation, ntifs/FileObjectIdInformation, ntifs/FilePipeInformation, ntifs/FilePipeLocalInformation, ntifs/FilePipeRemoteInformation, ntifs/FilePositionInformation, ntifs/FileProcessIdsUsingFileInformation, ntifs/FileQuotaInformation, ntifs/FileRemoteProtocolInformation, ntifs/FileRenameInformation, ntifs/FileRenameInformationBypassAccessCheck, ntifs/FileRenameInformationEx, ntifs/FileRenameInformationExBypassAccessCheck, ntifs/FileReparsePointInformation, ntifs/FileReplaceCompletionInformation, ntifs/FileSfioReserveInformation, ntifs/FileSfioVolumeInformation, ntifs/FileShortNameInformation, ntifs/FileStandardInformation, ntifs/FileStandardLinkInformation, ntifs/FileStreamInformation, ntifs/FileTrackingInformation, ntifs/FileUnusedInformation, ntifs/FileValidDataLengthInformation, ntifs/FileVolumeNameInformation, ntifs/PFILE_INFORMATION_CLASS, wdm/ FileDispositionInformationEx, wdm/ FileIdExtdBothDirectoryInformation, wdm/FILE_INFORMATION_CLASS, wdm/FileAccessInformation, wdm/FileAlignmentInformation, wdm/FileAllInformation, wdm/FileAllocationInformation, wdm/FileAlternateNameInformation, wdm/FileAttributeTagInformation, wdm/FileBasicInformation, wdm/FileBothDirectoryInformation, wdm/FileCompletionInformation, wdm/FileCompressionInformation, wdm/FileDirectoryInformation, wdm/FileDispositionInformation, wdm/FileEaInformation, wdm/FileEndOfFileInformation, wdm/FileFullDirectoryInformation, wdm/FileFullEaInformation, wdm/FileHardLinkFullIdInformation, wdm/FileHardLinkInformation, wdm/FileIdBothDirectoryInformation, wdm/FileIdExtdDirectoryInformation, wdm/FileIdFullDirectoryInformation, wdm/FileIdGlobalTxDirectoryInformation, wdm/FileIdInformation, wdm/FileInternalInformation, wdm/FileIoCompletionNotificationInformation, wdm/FileIoPriorityHintInformation, wdm/FileIoStatusBlockRangeInformation, wdm/FileIsRemoteDeviceInformation, wdm/FileLinkInformation, wdm/FileLinkInformationBypassAccessCheck, wdm/FileMailslotQueryInformation, wdm/FileMailslotSetInformation, wdm/FileMaximumInformation, wdm/FileModeInformation, wdm/FileMoveClusterInformation, wdm/FileNameInformation, wdm/FileNamesInformation, wdm/FileNetworkOpenInformation, wdm/FileNetworkPhysicalNameInformation, wdm/FileNormalizedNameInformation, wdm/FileNumaNodeInformation, wdm/FileObjectIdInformation, wdm/FilePipeInformation, wdm/FilePipeLocalInformation, wdm/FilePipeRemoteInformation, wdm/FilePositionInformation, wdm/FileProcessIdsUsingFileInformation, wdm/FileQuotaInformation, wdm/FileRemoteProtocolInformation, wdm/FileRenameInformation, wdm/FileRenameInformationBypassAccessCheck, wdm/FileRenameInformationEx, wdm/FileRenameInformationExBypassAccessCheck, wdm/FileReparsePointInformation, wdm/FileReplaceCompletionInformation, wdm/FileSfioReserveInformation, wdm/FileSfioVolumeInformation, wdm/FileShortNameInformation, wdm/FileStandardInformation, wdm/FileStandardLinkInformation, wdm/FileStreamInformation, wdm/FileTrackingInformation, wdm/FileUnusedInformation, wdm/FileValidDataLengthInformation, wdm/FileVolumeNameInformation, wdm/PFILE_INFORMATION_CLASS"
 req.header: wdm.h
@@ -47,8 +47,7 @@ api_name:
  - FILE_INFORMATION_CLASS
 ---
 
-# _FILE_INFORMATION_CLASS enumeration
-
+# FILE_INFORMATION_CLASS enumeration
 
 ## -description
 
@@ -58,119 +57,119 @@ A value that specifies which structure to use to query or set information for a 
 
 ### -field FileDirectoryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a> structure.
+A [**FILE_DIRECTORY_INFORMATION**](../ntifs/ns-ntifs-_file_directory_information.md) structure.
 
 ### -field FileFullDirectoryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information">FILE_FULL_DIR_INFORMATION</a> structure.
+A [**FILE_FULL_DIR_INFORMATION**](../ntifs/ns-ntifs-_file_full_dir_information.md) structure.
 
 ### -field FileBothDirectoryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information">FILE_BOTH_DIR_INFORMATION</a> structure.
+A [**FILE_BOTH_DIR_INFORMATION**](../ntifs/ns-ntifs-_file_both_dir_information.md) structure.
 
 ### -field FileBasicInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information">FILE_BASIC_INFORMATION</a> structure.
+A [**FILE_BASIC_INFORMATION**](ns-wdm-_file_basic_information.md) structure.
 
 ### -field FileStandardInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_standard_information">FILE_STANDARD_INFORMATION</a> structure.
+A [**FILE_STANDARD_INFORMATION**](ns-wdm-_file_standard_information.md) structure.
 
 ### -field FileInternalInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_internal_information">FILE_INTERNAL_INFORMATION</a> structure.
+A [**FILE_INTERNAL_INFORMATION**](../ntifs/ns-ntifs-_file_internal_information.md) structure.
 
 ### -field FileEaInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_ea_information">FILE_EA_INFORMATION</a> structure.
+A [**FILE_EA_INFORMATION**](../ntifs/ns-ntifs-_file_ea_information.md) structure.
 
 ### -field FileAccessInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information">FILE_ACCESS_INFORMATION</a> structure.
+A [**FILE_ACCESS_INFORMATION**](../ntifs/ns-ntifs-_file_access_information.md) structure.
 
 ### -field FileNameInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure.
+A [**FILE_NAME_INFORMATION**](../ntddk/ns-ntddk-_file_name_information.md) structure.
 
 ### -field FileRenameInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure.
+A [**FILE_RENAME_INFORMATION**](../ntifs/ns-ntifs-_file_rename_information.md) structure.
 
 ### -field FileLinkInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure.
+A [**FILE_LINK_INFORMATION**](../ntifs/ns-ntifs-_file_link_information.md) structure.
 
 ### -field FileNamesInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information">FILE_NAMES_INFORMATION</a> structure.
+A [**FILE_NAMES_INFORMATION**](../ntifs/ns-ntifs-_file_names_information.md) structure.
 
 ### -field FileDispositionInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_disposition_information">FILE_DISPOSITION_INFORMATION</a> structure.
+A [**FILE_DISPOSITION_INFORMATION**](../ntddk/ns-ntddk-_file_disposition_information.md) structure.
 
 ### -field FilePositionInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_position_information">FILE_POSITION_INFORMATION</a> structure.
+A [**FILE_POSITION_INFORMATION**](ns-wdm-_file_position_information.md) structure.
 
 ### -field FileFullEaInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a> structure.
+A [**FILE_FULL_EA_INFORMATION**](ns-wdm-_file_full_ea_information.md) structure.
 
 ### -field FileModeInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mode_information">FILE_MODE_INFORMATION</a> structure.
+A [**FILE_MODE_INFORMATION**](../ntifs/ns-ntifs-_file_mode_information.md) structure.
 
 ### -field FileAlignmentInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_alignment_information">FILE_ALIGNMENT_INFORMATION</a> structure.
+A [**FILE_ALIGNMENT_INFORMATION**](../ntddk/ns-ntddk-_file_alignment_information.md) structure.
 
 ### -field FileAllInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_all_information">FILE_ALL_INFORMATION</a> structure.
+A [**FILE_ALL_INFORMATION**](../ntifs/ns-ntifs-_file_all_information.md) structure.
 
 ### -field FileAllocationInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_allocation_information">FILE_ALLOCATION_INFORMATION</a> structure.
+A [**FILE_ALLOCATION_INFORMATION**](../ntifs/ns-ntifs-_file_allocation_information.md) structure.
 
 ### -field FileEndOfFileInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_end_of_file_information">FILE_END_OF_FILE_INFORMATION</a> structure.
+A [**FILE_END_OF_FILE_INFORMATION**](../ntddk/ns-ntddk-_file_end_of_file_information.md) structure.
 
 ### -field FileAlternateNameInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure.
+A [**FILE_NAME_INFORMATION**](../ntddk/ns-ntddk-_file_name_information.md) structure.
 
 ### -field FileStreamInformation
 
-A message buffer that contains one or more <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information">FILE_STREAM_INFORMATION</a> structures.
+A message buffer that contains one or more [**FILE_STREAM_INFORMATION**](../ntifs/ns-ntifs-_file_stream_information.md) structures.
 
 ### -field FilePipeInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_pipe_information">FILE_PIPE_INFORMATION</a> structure.
+A [**FILE_PIPE_INFORMATION**](../ntifs/ns-ntifs-_file_pipe_information.md) structure.
 
 ### -field FilePipeLocalInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_pipe_local_information">FILE_PIPE_LOCAL_INFORMATION</a> structure.
+A [**FILE_PIPE_LOCAL_INFORMATION**](../ntifs/ns-ntifs-_file_pipe_local_information.md) structure.
 
 ### -field FilePipeRemoteInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_pipe_remote_information">FILE_PIPE_REMOTE_INFORMATION</a> structure.
+A [**FILE_PIPE_REMOTE_INFORMATION**](../ntifs/ns-ntifs-_file_pipe_remote_information.md) structure.
 
 ### -field FileMailslotQueryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mailslot_query_information">FILE_MAILSLOT_QUERY_INFORMATION</a> structure.
+A [**FILE_MAILSLOT_QUERY_INFORMATION**](../ntifs/ns-ntifs-_file_mailslot_query_information.md) structure.
 
 ### -field FileMailslotSetInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mailslot_set_information">FILE_MAILSLOT_SET_INFORMATION</a> structure.
+A [**FILE_MAILSLOT_SET_INFORMATION**](../ntifs/ns-ntifs-_file_mailslot_set_information.md) structure.
 
 ### -field FileCompressionInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_compression_information">FILE_COMPRESSION_INFORMATION</a> structure.
+A [**FILE_COMPRESSION_INFORMATION**](../ntifs/ns-ntifs-_file_compression_information.md) structure.
 
 ### -field FileObjectIdInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information">FILE_OBJECTID_INFORMATION</a> structure.
+A [**FILE_OBJECTID_INFORMATION**](../ntifs/ns-ntifs-_file_objectid_information.md) structure.
 
 ### -field FileCompletionInformation
 
@@ -182,19 +181,19 @@ This value is reserved for system use.
 
 ### -field FileQuotaInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structure.
+A [**FILE_QUOTA_INFORMATION**](../ntifs/ns-ntifs-_file_quota_information.md) structure.
 
 ### -field FileReparsePointInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information">FILE_REPARSE_POINT_INFORMATION</a> structure.
+A [**FILE_REPARSE_POINT_INFORMATION**](../ntifs/ns-ntifs-_file_reparse_point_information.md) structure.
 
 ### -field FileNetworkOpenInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information">FILE_NETWORK_OPEN_INFORMATION</a> structure.
+A [**FILE_NETWORK_OPEN_INFORMATION**](ns-wdm-_file_network_open_information.md) structure.
 
 ### -field FileAttributeTagInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_attribute_tag_information">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure.
+A [**FILE_ATTRIBUTE_TAG_INFORMATION**](../ntddk/ns-ntddk-_file_attribute_tag_information.md) structure.
 
 ### -field FileTrackingInformation
 
@@ -202,19 +201,19 @@ This value is reserved for system use.
 
 ### -field FileIdBothDirectoryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a> structure.
+A [**FILE_ID_BOTH_DIR_INFORMATION**](../ntifs/ns-ntifs-_file_id_both_dir_information.md) structure.
 
 ### -field FileIdFullDirectoryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information">FILE_ID_FULL_DIR_INFORMATION</a> structure.
+A [**FILE_ID_FULL_DIR_INFORMATION**](../ntifs/ns-ntifs-_file_id_full_dir_information.md) structure.
 
 ### -field FileValidDataLengthInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_valid_data_length_information">FILE_VALID_DATA_LENGTH_INFORMATION</a> structure.
+A [**FILE_VALID_DATA_LENGTH_INFORMATION**](../ntddk/ns-ntddk-_file_valid_data_length_information.md) structure.
 
 ### -field FileShortNameInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure.
+A [**FILE_NAME_INFORMATION**](../ntddk/ns-ntddk-_file_name_information.md) structure.
 
 ### -field FileIoCompletionNotificationInformation
 
@@ -226,7 +225,7 @@ This value is reserved for system use. This value is available starting with Win
 
 ### -field FileIoPriorityHintInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_io_priority_hint_information">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure. This value is available starting with Windows Vista.
+A [**FILE_IO_PRIORITY_HINT_INFORMATION**](ns-wdm-_file_io_priority_hint_information.md) structure. This value is available starting with Windows Vista.
 
 ### -field FileSfioReserveInformation
 
@@ -238,27 +237,27 @@ This value is reserved for system use. This value is available starting with Win
 
 ### -field FileHardLinkInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a> structure. This value is available starting with Windows Vista.
+A [**FILE_LINKS_INFORMATION**](../ntifs/ns-ntifs-_file_links_information.md) structure. This value is available starting with Windows Vista.
 
 ### -field FileProcessIdsUsingFileInformation
 
-A <b>FILE_PROCESS_IDS_USING_FILE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows Vista.
+A **FILE_PROCESS_IDS_USING_FILE_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows Vista.
 
 ### -field FileNormalizedNameInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure. This value is defined starting with Windows Vista. It is supported starting with Windows 8.
+A [**FILE_NAME_INFORMATION**](../ntddk/ns-ntddk-_file_name_information.md) structure. This value is defined starting with Windows Vista. It is supported starting with Windows 8.
 
 ### -field FileNetworkPhysicalNameInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_network_physical_name_information">FILE_NETWORK_PHYSICAL_NAME_INFORMATION</a> structure. This value is available starting with Windows Vista.
+A [**FILE_NETWORK_PHYSICAL_NAME_INFORMATION**](../ntifs/ns-ntifs-_file_network_physical_name_information.md) structure. This value is available starting with Windows Vista.
 
 ### -field FileIdGlobalTxDirectoryInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure. This value is available starting with Windows 7.
+A [**FILE_ID_GLOBAL_TX_DIR_INFORMATION**](../ntifs/ns-ntifs-_file_id_global_tx_dir_information.md) structure. This value is available starting with Windows 7.
 
 ### -field FileIsRemoteDeviceInformation
 
-A <b>FILE_IS_REMOTE_DEVICE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
+A **FILE_IS_REMOTE_DEVICE_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileUnusedInformation
 
@@ -266,67 +265,67 @@ This value is reserved for system use. This value is available starting with Win
 
 ### -field FileNumaNodeInformation
 
-A <b>FILE_NUMA_NODE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
+A **FILE_NUMA_NODE_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileStandardLinkInformation
 
-A <b>FILE_STANDARD_LINK_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
+A **FILE_STANDARD_LINK_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileRemoteProtocolInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-file_remote_protocol_information">FILE_REMOTE_PROTOCOL_INFORMATION</a> structure. This value is available starting with Windows 7.
+A [**FILE_REMOTE_PROTOCOL_INFORMATION**](../ntifs/ns-ntifs-file_remote_protocol_information.md) structure. This value is available starting with Windows 7.
 
 ### -field FileRenameInformationBypassAccessCheck
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure. This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it. This value is available starting with Windows 10.
+A [**FILE_RENAME_INFORMATION**](../ntifs/ns-ntifs-_file_rename_information.md) structure. This is a special version of the **FileRenameInformation** operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation is only recognized by the *IOManager* and a file system should never receive it. This value is available starting with Windows 10.
 
 ### -field FileLinkInformationBypassAccessCheck
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure. This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it. This value is available starting with Windows 10.
+A [**FILE_LINK_INFORMATION**](../ntifs/ns-ntifs-_file_link_information.md) structure. This is a special version of the **FileLinkInformation** operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the *IOManager* and a file system should never receive it. This value is available starting with Windows 10.
 
 ### -field FileVolumeNameInformation
 
-A <b>FILE_VOLUME_NAME_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
+A **FILE_VOLUME_NAME_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileIdInformation
 
-A <b>FILE_ID_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
+A **FILE_ID_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileIdExtdDirectoryInformation
 
-A <b>FILE_ID_EXTD_DIR_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
+A **FILE_ID_EXTD_DIR_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileReplaceCompletionInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_completion_information">FILE_COMPLETION_INFORMATION</a> structure to change or remove the completion port associated with a file handle. This value is available starting with Windows 8.1.
+A [**FILE_COMPLETION_INFORMATION**](../ntifs/ns-ntifs-_file_completion_information.md) structure to change or remove the completion port associated with a file handle. This value is available starting with Windows 8.1.
 
 ### -field FileHardLinkFullIdInformation
 
-A <b>FILE_LINK_ENTRY_FULL_ID_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
+A **FILE_LINK_ENTRY_FULL_ID_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileIdExtdBothDirectoryInformation
 
-A <b>FILE_ID_EXTD_BOTH_DIR_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
+A **FILE_ID_EXTD_BOTH_DIR_INFORMATION** structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileDispositionInformationEx
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_disposition_information_ex">FILE_DISPOSITION_INFORMATION_EX</a> structure that indicates how the operating system should delete a file. This value is available starting with Windows 10, version 1709.
+A [**FILE_DISPOSITION_INFORMATION_EX**](../ntddk/ns-ntddk-_file_disposition_information_ex.md) structure that indicates how the operating system should delete a file. This value is available starting with Windows 10, version 1709.
 
 ### -field FileRenameInformationEx
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709.
+A [**FILE_RENAME_INFORMATION**](../ntifs/ns-ntifs-_file_rename_information.md) structure which contains additional flags. This value is available starting with Windows 10, version 1709.
 
 ### -field FileRenameInformationExBypassAccessCheck
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709. This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
+A [**FILE_RENAME_INFORMATION**](../ntifs/ns-ntifs-_file_rename_information.md) structure which contains additional flags. This value is available starting with Windows 10, version 1709. This is a special version of the **FileRenameInformation** operation that is used by kernel-mode drivers only in order to bypass security access checks. This operation is only recognized by the *IOManager* and a file system should never receive it.
 
 ### -field FileDesiredStorageClassInformation
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_DESIRED_STORAGE_CLASS_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
+A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](ne-wdm-_file_information_class.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stat_information">FILE_STAT_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
+A [**FILE_STAT_INFORMATION**](../ntifs/ns-ntifs-_file_stat_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileMemoryPartitionInformation
 
@@ -334,31 +333,35 @@ Reserved. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatLxInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stat_lx_information">FILE_STAT_LX_INFORMATION</a> structure, declared in ntifs.h. This information class is used for fields refer to Linux metadata used/created by the Windows Subsystem for Linux. This value is available starting with Windows 10 April 2018 Update.
+A [**FILE_STAT_LX_INFORMATION**](../ntifs/ns-ntifs-_file_stat_lx_information.md) structure, declared in ntifs.h. This information class is used for fields refer to Linux metadata used/created by the Windows Subsystem for Linux. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileCaseSensitiveInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
+A [**FILE_CASE_SENSITIVE_INFORMATION**](../ntifs/ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileLinkInformationEx
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1809.
+A [**FILE_LINK_INFORMATION**](../ntifs/ns-ntifs-_file_link_information.md) structure which contains additional flags. This value is available starting with Windows 10, version 1809.
 
 ### -field FileLinkInformationExBypassAccessCheck
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure which contains additional flags. This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it. This value is available starting with Windows 10, version 1809.
+A [**FILE_LINK_INFORMATION**](../ntifs/ns-ntifs-_file_link_information.md) structure which contains additional flags. This is a special version of the **FileLinkInformation** operation that is used by kernel-mode drivers only in order to bypass security  access checks. This operation is only recognized by the *IOManager* and a file system should never receive it. This value is available starting with Windows 10, version 1809.
 
 ### -field FileStorageReserveIdInformation
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_storage_reserve_id_information">FILE_SET_STORAGE_RESERVE_ID_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
+A [**FILE_SET_STORAGE_RESERVE_ID_INFORMATION**](../ntifs/ns-ntifs-_file_storage_reserve_id_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
 
 ### -field FileCaseSensitiveInformationForceAccessCheck
 
-A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure, declared in ntifs.h. This is a special version of the **FileCaseSensitiveInformation** operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1809.
+A [**FILE_CASE_SENSITIVE_INFORMATION**](../ntifs/ns-ntifs-_file_case_sensitive_information.md) structure, declared in ntifs.h. This is a special version of the **FileCaseSensitiveInformation** operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1809.
 
 ### -field FileMaximumInformation
 
 This value is reserved for system use. This value is available starting with Windows 7.
+
+### -field FileKnownFolderInformation
+
+A [**FILE_KNOWN_FOLDER_INFORMATION**](../ntifs/ns-ntifs-file_known_folder_information.md) structure, declared in ntifs.h. This value is available starting with Windows Server 2022.
 
 ## -syntax
 
@@ -453,8 +456,9 @@ typedef enum _FILE_INFORMATION_CLASS {
     FileLinkInformationExBypassAccessCheck,         // 73
     FileStorageReserveIdInformation,                // 74
     FileCaseSensitiveInformationForceAccessCheck,   // 75
+    FileCaseSensitiveInformationForceAccessCheck,   // 75
+    FileKnownFolderInformation,   // 76
 
     FileMaximumInformation
 } FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS;
 ```
-

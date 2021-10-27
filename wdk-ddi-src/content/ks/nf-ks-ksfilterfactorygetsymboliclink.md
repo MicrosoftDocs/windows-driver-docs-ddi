@@ -50,9 +50,9 @@ The<b> KsFilterFactoryGetSymbolicLink</b> function returns the symbolic link ass
 
 ## -parameters
 
-### -param FilterFactory 
+### -param FilterFactory [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
 
 ## -returns

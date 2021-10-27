@@ -49,14 +49,14 @@ The<i>MRxGetConnectionId</i> routine is called by <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
-### -param UniqueId 
+### -param UniqueId [in, out]
 
-[in, out]
+
 A pointer to the connection ID when the routine returns.
 
 ## -returns

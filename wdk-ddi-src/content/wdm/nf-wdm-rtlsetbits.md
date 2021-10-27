@@ -50,19 +50,19 @@ The <b>RtlSetBits</b> routine sets all bits in a given range of a given bitmap v
 
 ## -parameters
 
-### -param BitMapHeader 
+### -param BitMapHeader [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
-### -param StartingIndex 
+### -param StartingIndex [in]
 
-[in]
+
 Specifies the start of the bit range to be set. This is a zero-based value indicating the position of the first bit in the range.
 
-### -param NumberToSet 
+### -param NumberToSet [in]
 
-[in]
+
 Specifies how many bits to set.
 
 ## -returns

@@ -52,24 +52,24 @@ If a file object is being used, the caller must initialize the current stack loc
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies the device to forward the IRP to.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP that is being forwarded to the specified driver.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Specifies a file object value to copy to the next stack location. This can be <b>NULL</b> in order to set no file object, but the value is always copied to the next stack location. If the current file object is to be preserved, it must be passed in this parameter.
 
-### -param StackUse 
+### -param StackUse [in]
 
-[in]
+
 Specifies a value enumerated by KSSTACK_USE. If the value is <i>KsStackCopyToNewLocation</i>, the parameters are copied to the next stack location. If the value is <i>KsStackReuseCurrentLocation</i>, the current stack location is reused when the IRP is forwarded and the stack location is returned to the current location. If the value is <i>KsStackUseNewLocation</i>, the new stack location is used as is.
 
 ## -returns

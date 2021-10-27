@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following:
      
@@ -89,9 +89,9 @@ NDIS could not allocate resources, usually enough memory, to transfer the reques
 
 The requested information could not be written.
 
-### -param ConfigurationHandle 
+### -param ConfigurationHandle [in]
 
-[in]
+
 The handle to a registry key that was returned by the 
      <a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>, 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
@@ -99,18 +99,18 @@ The handle to a registry key that was returned by the
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyname">
      NdisOpenConfigurationKeyByName</a> function.
 
-### -param Keyword 
+### -param Keyword [in]
 
-[in]
+
 A pointer to an NDIS_STRING type describing a caller-supplied counted string, in the
      system-default character set, specifying the name of an entry for which to write the value. For
      Microsoft Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows
      2000 and later, NDIS defines the NDIS_STRING type as a 
      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
-### -param ParameterValue 
+### -param ParameterValue [in]
 
-[in]
+
 Pointer to a caller-supplied 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
      NDIS_CONFIGURATION_PARAMETER</a> structure.

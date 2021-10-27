@@ -49,34 +49,34 @@ The <b>CcFastCopyRead</b> routine performs a fast copy read from a cached file t
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the cached file from which the data is to be read.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 Starting byte offset within the cached file.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length in bytes of the data to be read.
 
-### -param PageCount 
+### -param PageCount [in]
 
-[in]
+
 Number of pages spanned by the read.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which the data is to be copied.
 
-### -param IoStatus 
+### -param IoStatus [out]
 
-[out]
+
 Pointer to a structure that receives the final completion status and information about the operation. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
 ## -remarks

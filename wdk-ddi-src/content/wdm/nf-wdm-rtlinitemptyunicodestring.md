@@ -46,19 +46,19 @@ The **RtlInitEmptyUnicodeString** macro initializes an empty counted Unicode str
 
 ## -parameters
 
-### -param UnicodeString
+### -param UnicodeString [out]
 
-[out]
+
 Pointer to the [**UNICODE_STRING**](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string) structure to be initialized.
 
-### -param Buffer
+### -param Buffer [in]
 
-[in]
+
 Pointer to a caller-allocated buffer to be used to contain a WCHAR string.
 
-### -param BufferSize
+### -param BufferSize [in]
 
-[in]
+
 Length, in bytes, of the buffer that _Buffer_ points to.
 
 ## -remarks

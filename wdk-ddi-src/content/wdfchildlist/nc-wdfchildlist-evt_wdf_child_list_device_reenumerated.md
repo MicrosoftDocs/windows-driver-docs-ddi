@@ -51,24 +51,24 @@ A driver's <i>EvtChildListDeviceReenumerated</i> event callback function enables
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList [in]
 
-[in]
+
 A handle to a framework child list object.
 
-### -param OldDevice 
+### -param OldDevice [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param OldAddressDescription 
+### -param OldAddressDescription [in]
 
-[in]
+
 Optional pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description, or NULL. If provided, this structure contains address information that was relevant before the device was reenumerated.
 
-### -param NewAddressDescription 
+### -param NewAddressDescription [out]
 
-[out]
+
 Optional pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description, or NULL. If provided, the callback function fills in this structure with new address information about the device.
 
 ## -returns

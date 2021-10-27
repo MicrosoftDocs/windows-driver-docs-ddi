@@ -49,9 +49,9 @@ Sets the size of the scriptable stream, in bytes.
 
 ## -parameters
 
-### -param lSize 
+### -param lSize [in]
 
-[in]
+
 The new size in bytes.
 
 ## -returns

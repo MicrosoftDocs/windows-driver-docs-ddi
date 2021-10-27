@@ -45,21 +45,21 @@ The **pfnQueryDlistForApplication2Cb** callback function queries the dList for a
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [out]
 
-[out] Pointer to a [**D3DDDI_DLIST_QUERY_RESULT**](ne-d3dumddi-d3dddi_dlist_query_result.md) value that describes the returned GPU preference for the queried application.
+Pointer to a [**D3DDDI_DLIST_QUERY_RESULT**](ne-d3dumddi-d3dddi_dlist_query_result.md) value that describes the returned GPU preference for the queried application.
 
-### -param unnamedParam2
+### -param unnamedParam2 [out]
 
-[out] Pointer to a [**D3DDDI_DLIST_QUERY_DECISION_FACTOR**](ne-d3dumddi-d3dddi_dlist_query_decision_factor.md) value that describes the factor that determined the returned GPU preference.
+Pointer to a [**D3DDDI_DLIST_QUERY_DECISION_FACTOR**](ne-d3dumddi-d3dddi_dlist_query_decision_factor.md) value that describes the factor that determined the returned GPU preference.
 
-### -param unnamedParam3
+### -param unnamedParam3 [in]
 
-[in] A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam4*.
+A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam4*.
 
-### -param unnamedParam4
+### -param unnamedParam4 [in]
 
-[in] Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
+Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
 
 ## -returns
 

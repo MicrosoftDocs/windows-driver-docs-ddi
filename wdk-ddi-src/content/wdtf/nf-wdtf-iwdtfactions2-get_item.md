@@ -49,14 +49,14 @@ Gets an individual action in the collection.
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The 0-based index value.
 
-### -param ppAction 
+### -param ppAction [out]
 
-[out]
+
 The indexed action.
 
 ## -returns

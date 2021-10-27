@@ -4,7 +4,7 @@ title: FSRTL_ADVANCED_FCB_HEADER (ntifs.h)
 description: The FSRTL_ADVANCED_FCB_HEADER structure contains context information that a file system maintains about a file.
 old-location: ifsk\fsrtl_advanced_fcb_header.htm
 tech.root: ifsk
-ms.date: 07/08/2021
+ms.date: 09/28/2021
 keywords: ["FSRTL_ADVANCED_FCB_HEADER structure"]
 ms.keywords: "*PFSRTL_ADVANCED_FCB_HEADER, *PFSRTL_UNC_PROVIDER_REGISTRATION, FSRTL_ADVANCED_FCB_HEADER, FSRTL_ADVANCED_FCB_HEADER structure [Installable File System Drivers], FSRTL_UNC_PROVIDER_REGISTRATION, PFSRTL_ADVANCED_FCB_HEADER, PFSRTL_ADVANCED_FCB_HEADER structure pointer [Installable File System Drivers], _FSRTL_ADVANCED_FCB_HEADER, contextstructures_cede2315-2c72-496f-a192-3ef25a8b0516.xml, ifsk.fsrtl_advanced_fcb_header, ntifs/FSRTL_ADVANCED_FCB_HEADER, ntifs/PFSRTL_ADVANCED_FCB_HEADER"
 req.header: ntifs.h
@@ -67,7 +67,7 @@ If present, the **PushLock** member is used to synchronize access to the **Filte
 
 ### -field FileContextSupportPointer
 
-A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts.  If not **NULL**, this member must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  If **NULL**, file contexts are not supported.  This member is only available starting with Windows Vista (that is, if the **Version** bit-field of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure is greater than or equal to **FSRTL_FCB_HEADER_V1**).
+A pointer to a pointer field used by the file system runtime library (FSRTL) to track file contexts. If not **NULL**, this member must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  If **NULL**, file contexts are not supported.  This member is only available starting with Windows Vista (that is, if the **Version** bit-field of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure is greater than or equal to **FSRTL_FCB_HEADER_V1**).
 
 ### -field FilterContexts
 
@@ -87,9 +87,9 @@ If the file system is remote, this field is reserved. It is only available start
 
 ### -field AePushLock
 
-This field is used instead of **PushLock** to synchronize access to the list of stream contexts. It enables a type of push lock that can automatically change from a normal pushlock to a cache-aware pushlock when the lock is subject to high cache contention due to a large number of concurrent shared acquirers.
+An auto-expand push lock that is used instead of **PushLock** to synchronize access to the list of stream contexts. See **Remarks** for details.
 
-It is only available starting with Windows 10, version 20H2 (that is, if the **Version** bit-field of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure is greater than or equal to **FSRTL_FCB_HEADER_V3**), and must be initialized by calling [**FsRtlSetupAdvancedHeaderEx**](nf-ntifs-fsrtlsetupadvancedheader.md).
+**AePushlock** is available starting with Windows 10, version 20H2 (that is, if the **Version** bit-field of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure is greater than or equal to **FSRTL_FCB_HEADER_V3**), and must be initialized by calling [**FsRtlSetupAdvancedHeaderEx2**](nf-ntifs-fsrtlsetupadvancedheaderex2.md).
 
 ### -field ReservedContext
 
@@ -97,15 +97,21 @@ This field is reserved for system use. It is only used in Windows 8.1 through W
 
 ### -field BypassIoOpenCount
 
-Tracks how many handles are currently open with [BypassIO](/windows-hardware/drivers/ifs/bypassio) enabled on this stream. It is available starting in Windows 11 (that is, if the **Version** bit-field of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure is greater than or equal to **FSRTL_FCB_HEADER_V4**).
+Tracks how many handles are currently open with [BypassIO](/windows-hardware/drivers/ifs/bypassio) enabled on this stream.
+
+This field is available starting in Windows 11 (that is, if the **Version** bit-field of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure is greater than or equal to **FSRTL_FCB_HEADER_V4**).
 
 ## -remarks
 
 The **FSRTL_ADVANCED_FCB_HEADER** structure is a superset of the [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) structure. File systems (including legacy filter and minifilter drivers, when applicable) must use the **FSRTL_ADVANCED_FCB_HEADER** structure.
 
-File systems must use the [**FsRtlSetupAdvancedHeader**](/previous-versions/ff547257(v=vs.85)) or [**FsRtlSetupAdvancedHeaderEx**](nf-ntifs-fsrtlsetupadvancedheader.md) macro to initialize an **FSRTL_ADVANCED_FCB_HEADER** structure.
+File systems must use one of the following macros to initialize the **FSRTL_ADVANCED_FCB_HEADER** structure:
 
-The following flags are set by the [**FsRtlSetupAdvancedHeader**](/previous-versions/ff547257(v=vs.85)) and [**FsRtlSetupAdvancedHeaderEx**](nf-ntifs-fsrtlsetupadvancedheader.md) macros.
+* [**FsRtlSetupAdvancedHeader**](/previous-versions/ff547257(v=vs.85))
+* [**FsRtlSetupAdvancedHeaderEx**](nf-ntifs-fsrtlsetupadvancedheaderex.md)
+* [**FsRtlSetupAdvancedHeaderEx2**](nf-ntifs-fsrtlsetupadvancedheaderex2.md), available starting in Windows 10, version 20H2.
+
+The following flags are set by these macros.
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -117,6 +123,12 @@ File systems must set the **FsContext** member of every file object to point to 
 If the file is a paging file, the **FSRTL_ADVANCED_FCB_HEADER** structure must be allocated from a nonpaged pool. Otherwise, it can be allocated from a paged or nonpaged pool.
 
 All Microsoft file systems disable stream context support for paging files by clearing the **FSRTL_FLAG2_SUPPORTS_FILTER_CONTEXTS** flag in the **Flags2** member of [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md) after they call [**FsRtlSetupAdvancedHeader**](/previous-versions/ff547257(v=vs.85)). (See the **FatCreateFcb** function in *Strucsup.c* for the FASTFAT WDK sample.) You are strongly encouraged to do the same in your file system or systems so that the operating system will behave in a consistent manner across all file systems.
+
+### Auto-expand push locks
+
+Auto-expand push locks were introduced in Windows 10, version 20H2. When Filter Manager’s locks were originally designed, large multi-processor systems were very uncommon and RAM was precious. With such systems now common and RAM not as limited, auto-expand push locks provide a beneficial trade-off between memory consumption and speed.
+
+An auto-expand push lock can automatically change from a regular non-cache-aware push lock into a cache-aware push lock when it detects that it is subject to high cache contention due to a large number of concurrent shared acquirers. The auto-expand push lock is larger than a normal push lock when not expanded, but not nearly as large as a cache-aware push lock. This push lock type is more performant on multiprocessor systems.
 
 ## -see-also
 
@@ -132,6 +144,8 @@ All Microsoft file systems disable stream context support for paging files by cl
 
 [**FsRtlSetupAdvancedHeader**](/previous-versions/ff547257(v=vs.85))
 
-[**FsRtlSetupAdvancedHeaderEx**](nf-ntifs-fsrtlsetupadvancedheader.md)
+[**FsRtlSetupAdvancedHeaderEx**](nf-ntifs-fsrtlsetupadvancedheaderex.md)
+
+[**FsRtlSetupAdvancedHeaderEx2**](nf-ntifs-fsrtlsetupadvancedheaderex2.md)
 
 [**FsRtlTeardownPerStreamContexts**](nf-ntifs-fsrtlteardownperstreamcontexts.md)

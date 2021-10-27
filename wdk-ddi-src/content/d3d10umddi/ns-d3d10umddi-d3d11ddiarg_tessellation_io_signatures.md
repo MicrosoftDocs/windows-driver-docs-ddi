@@ -49,29 +49,29 @@ The D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure describes a tessellation I/
 
 ## -struct-fields
 
-### -field pInputSignature
+### -field pInputSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
 
-### -field NumInputSignatureEntries
+### -field NumInputSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
+The number of entries in the array that the <b>pInputSignature</b> member specifies.
 
-### -field pOutputSignature
+### -field pOutputSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
 
-### -field NumOutputSignatureEntries
+### -field NumOutputSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
+The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
-### -field pPatchConstantSignature
+### -field pPatchConstantSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches.
 
-### -field NumPatchConstantSignatureEntries
+### -field NumPatchConstantSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pPatchConstantSignature</b> member specifies.
+The number of entries in the array that the <b>pPatchConstantSignature</b> member specifies.
 
 ## -remarks
 

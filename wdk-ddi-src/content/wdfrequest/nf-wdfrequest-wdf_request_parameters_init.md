@@ -51,9 +51,9 @@ The <b>WDF_REQUEST_PARAMETERS_INIT</b> function initializes a <a href="/windows-
 
 ## -parameters
 
-### -param Parameters 
+### -param Parameters [out]
 
-[out]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>KeQueryAuxiliaryCounterFrequency</b> routine returns frequency of the aux
 
 ## -parameters
 
-### -param AuxiliaryCounterFrequency 
+### -param AuxiliaryCounterFrequency [out, optional]
 
-[out, optional]
+
 A pointer to a variable to which <b>KeQueryAuxiliaryCounterFrequency</b> writes the auxiliary counter frequency, in ticks per second. This parameter can be NULL.
 
 ## -returns

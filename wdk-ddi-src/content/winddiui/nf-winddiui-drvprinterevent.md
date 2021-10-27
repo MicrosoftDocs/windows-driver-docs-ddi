@@ -49,9 +49,9 @@ A printer interface DLL's <b>DrvPrinterEvent</b> function is called by the print
 
 ## -parameters
 
-### -param pPrinterName 
+### -param pPrinterName [in]
 
-[in]
+
 Caller-supplied pointer to a NULL-terminated printer name string. The string format can be \\<i>Machine</i>\\<i>PrinterName</i> to specify a remote printer, or <i>PrinterName</i> to specify a local printer.
 
 ### -param DriverEvent

@@ -54,29 +54,29 @@ The <b>WdfDeviceQueryProperty</b> method retrieves a specified device property.
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param DeviceProperty 
+### -param DeviceProperty [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
-### -param PropertyBuffer 
+### -param PropertyBuffer [out]
 
-[out]
+
 A caller-supplied pointer to a caller-allocated buffer that receives the requested information. The pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
-### -param ResultLength 
+### -param ResultLength [out]
 
-[out]
+
 A caller-supplied location that, on return, contains the size, in bytes, of the information that the method stored in <i>PropertyBuffer</i>. If the function's return value is STATUS_BUFFER_TOO_SMALL, this location receives the required buffer size.
 
 ## -returns

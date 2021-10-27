@@ -49,29 +49,29 @@ The <b>NtUnlockFile</b> routine unlocks a byte-range lock in a file.
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 A handle for the file object that represents the file whose byte range is to be unlocked.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that contains the final status.
 
-### -param ByteOffset 
+### -param ByteOffset [in]
 
-[in]
+
 A pointer to a variable that specifies the starting byte offset for the byte range to be unlocked.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 A pointer to a variable that specifies the length, in bytes, of the byte range to unlock.
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 The caller-assigned value used to describe groups of related locks. This value should be set to zero.
 
 ## -returns

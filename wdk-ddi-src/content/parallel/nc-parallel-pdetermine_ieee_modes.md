@@ -49,9 +49,9 @@ The PDETERMINE_IEEE_MODES-typed callback routine determines which IEEE 1284 prot
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 ## -returns

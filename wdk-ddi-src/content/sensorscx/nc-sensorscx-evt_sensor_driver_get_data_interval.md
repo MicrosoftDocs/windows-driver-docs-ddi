@@ -49,13 +49,13 @@ This callback function returns the data interval for a specified sensor.
 
 ## -parameters
 
-### -param Sensor 
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pDataRateMs
+### -param pDataRateMs [out]
 
-[out] The data interval for the specified <b>Sensor</b>.
+The data interval for the specified <b>Sensor</b>.
 
 ## -returns
 

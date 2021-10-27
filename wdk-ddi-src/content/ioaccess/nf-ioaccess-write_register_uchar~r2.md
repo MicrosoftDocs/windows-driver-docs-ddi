@@ -49,14 +49,14 @@ The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a byte to be written to the register.
 
 ## -syntax

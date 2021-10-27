@@ -49,19 +49,19 @@ The <b>IoRegisterFsRegistrationChangeMountAware</b> routine registers a file sys
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 A pointer to the driver object for the file system filter driver.
 
-### -param DriverNotificationRoutine 
+### -param DriverNotificationRoutine [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ntifs/nc-ntifs-driver_fs_notification">PDRIVER_FS_NOTIFICATION</a> routine, which the file system calls when it registers or unregisters itself.
 
-### -param SynchronizeWithMounts 
+### -param SynchronizeWithMounts [in]
 
-[in]
+
 If set to <b>TRUE</b>, this routine ensures no mount operations are in progress when making notification callbacks. If set to <b>FALSE</b>, the routine does not attempt to avoid conflicts with mount operations.
 
 ## -returns

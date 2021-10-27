@@ -55,9 +55,9 @@ The <b>WdfWaitLockRelease</b> method releases a specified wait lock.
 
 ## -parameters
 
-### -param Lock 
+### -param Lock [in]
 
-[in]
+
 A handle to a framework wait-lock object, obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
 
 ## -remarks

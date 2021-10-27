@@ -49,14 +49,14 @@ The <b>IoGetDriverObjectExtension</b> routine retrieves a previously allocated p
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Specifies the driver object with which the context area is associated.
 
-### -param ClientIdentificationAddress 
+### -param ClientIdentificationAddress [in]
 
-[in]
+
 Specifies the unique identifier, provided when it was allocated, of the context area to be retrieved.
 
 ## -returns

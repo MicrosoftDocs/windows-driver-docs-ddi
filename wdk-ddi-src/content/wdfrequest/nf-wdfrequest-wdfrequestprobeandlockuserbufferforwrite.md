@@ -52,24 +52,24 @@ The <b>WdfRequestProbeAndLockUserBufferForWrite</b> method verifies that an I/O 
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the request's output buffer. For more information, see the following Remarks section.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the request's output buffer.
 
-### -param MemoryObject 
+### -param MemoryObject [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework memory object that represents the user output buffer.
 
 ## -returns
@@ -157,6 +157,8 @@ The user-mode buffer that the <i>Buffer</i> parameter specifies can be the buffe
 The buffer length that the <i>Length</i> parameter specifies must not be larger than the buffer's actual size. Otherwise, drivers can access memory outside of the buffer, which is a security risk.
 
 If <b>WdfRequestProbeAndLockUserBufferForWrite</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the user-mode buffer. To access the buffer, the driver must call <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>.
+
+The framework memory object is automatically released when the driver calls [**WdfRequestComplete**](/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete).
 
 For more information about <b>WdfRequestProbeAndLockUserBufferForWrite</b>, see <a href="/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 

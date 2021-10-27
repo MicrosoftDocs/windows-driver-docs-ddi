@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param NumBytes 
+### -param NumBytes [in]
 
-[in]
+
 Specifies the size, in bytes, of the block of memory to be allocated.
 
 ## -returns

@@ -56,14 +56,14 @@ If the device is already claimed, the caller must wait until access is granted.
 
 ## -parameters
 
-### -param device 
+### -param device [in]
 
-[in]
+
 A handle to a framework device object that represents the device.
 
-### -param request 
+### -param request [in]
 
-[in]
+
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue.
 
 ## -returns

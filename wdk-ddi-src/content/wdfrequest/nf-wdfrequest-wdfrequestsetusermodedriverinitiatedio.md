@@ -54,14 +54,14 @@ The <b>WdfRequestSetUserModeDriverInitiatedIo</b> method indicates to kernel-mod
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param IsUserModeDriverInitiated 
+### -param IsUserModeDriverInitiated [in]
 
-[in]
+
 A Boolean value that, if <b>TRUE</b>, indicates that the request should be treated as though it was initiated by a UMDF driver. If <b>FALSE</b>, this parameter indicates that the request should be treated as though it came from an application.
 
 ## -remarks

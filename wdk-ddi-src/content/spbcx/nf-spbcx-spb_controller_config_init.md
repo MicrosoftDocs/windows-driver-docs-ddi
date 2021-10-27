@@ -49,9 +49,9 @@ The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes an <a href="/windows-
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <b>SPB_CONTROLLER_CONFIG</b> structure that is to be initialized.
 
 ## -remarks

@@ -49,8 +49,8 @@ Initializes the IDD_CX_CLIENT_CONFIG structure.
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the driver-allocated IDD_CX_CLIENT_CONFIG structure.
 

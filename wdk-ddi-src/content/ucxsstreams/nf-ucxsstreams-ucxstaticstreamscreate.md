@@ -49,9 +49,9 @@ Creates a static streams object.
 
 ## -parameters
 
-### -param Endpoint 
+### -param Endpoint [in]
 
-[in]
+
 A handle to the endpoint object that supports static streams. The client driver retrieved the handle in a previous call to <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
 ### -param StaticStreamsInit
@@ -60,9 +60,9 @@ A handle to the endpoint object that supports static streams. The client driver 
         operations for creating the stream object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.</p>
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the stream object.
 
 ### -param StaticStreams

@@ -50,9 +50,9 @@ A miniport driver calls the <b>NdisMResetMiniport</b> function to trigger a late
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ## -remarks

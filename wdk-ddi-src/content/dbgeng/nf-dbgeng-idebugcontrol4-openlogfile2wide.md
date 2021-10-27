@@ -49,14 +49,14 @@ The <b>OpenLogFile2Wide</b>  method opens a log file that will receive output fr
 
 ## -parameters
 
-### -param File 
+### -param File [in]
 
-[in]
+
 Specifies the name of the log file.  <i>File</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger  was started.  If the file does not exist, it will be created.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the bit-flags that control the nature of the log file.  <i>Flags</i> can contain flags from the following table.
 
 <table>

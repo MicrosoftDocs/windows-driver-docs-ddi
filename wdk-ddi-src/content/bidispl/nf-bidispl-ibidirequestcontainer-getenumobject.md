@@ -49,9 +49,9 @@ The <b>GetEnumObject</b> method enumerates the bidi requests in a list.
 
 ## -parameters
 
-### -param ppenum 
+### -param ppenum [out]
 
-[out]
+
 Pointer to the variable that receives a pointer to the <a href="/windows/win32/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface that enumerates the bidi requests in the container.
 
 ## -returns

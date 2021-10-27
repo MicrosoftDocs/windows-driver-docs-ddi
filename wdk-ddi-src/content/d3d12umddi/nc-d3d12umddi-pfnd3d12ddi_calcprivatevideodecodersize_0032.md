@@ -55,9 +55,9 @@ Used to calculate the size of a video decoder. The D3D runtime allocates memory 
 
 The hardware device being processed.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] The arguments used to create a video decoder.
+The arguments used to create a video decoder.
 
 ## -returns
 

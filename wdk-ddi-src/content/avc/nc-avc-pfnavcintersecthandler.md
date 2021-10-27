@@ -49,28 +49,28 @@ The AV/C intersect handler determines if the data ranges are compatible. This is
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 An optional value expected by the intersect handler. This value is either provided by the subunit driver (if the subunit driver provides the intersect handler), or by the lower driver providing the intersect handler.
 
-### -param PinId 
+### -param PinId [in]
 
-[in]
+
 Specifies the offset (or ID) of the pin for which the intersection is being done.
 
 ### -param DataRange
 
 ### -param MatchingDataRange
 
-### -param DataBufferSize 
+### -param DataBufferSize [in]
 
-[in]
+
 The size of the buffer passed by the <b>Data</b> member. If this is nonzero, then the intersect handler should attempt to return the data format resulting from a matching pair of data ranges. If this is zero, then the intersect handler should provide the required buffer size in <b>ReportedDataSize</b>, and return STATUS_BUFFER_OVERFLOW.
 
-### -param Data 
+### -param Data [out, optional]
 
-[out, optional]
+
 An optional buffer to receive the data format resulting from a matching pair of data ranges. This member is ignored if <b>DataBufferSize </b>is zero.
 
 ### -param DataSize

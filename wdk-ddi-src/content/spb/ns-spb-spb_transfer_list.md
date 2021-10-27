@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST (spb.h)
 description: The SPB_TRANSFER_LIST structure describes an I/O transfer sequence.
 old-location: spb\spb_transfer_list.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 09/13/2021
 keywords: ["SPB_TRANSFER_LIST structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
 req.header: spb.h
@@ -45,16 +45,15 @@ api_name:
 
 # SPB_TRANSFER_LIST structure
 
-
 ## -description
 
-The <b>SPB_TRANSFER_LIST</b> structure describes an <a href="/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
+The **SPB_TRANSFER_LIST** structure describes an [I/O transfer sequence](/windows-hardware/drivers/spb/i-o-transfer-sequences).
 
 ## -struct-fields
 
 ### -field Size
 
-The size, in bytes, of the <b>SPB_TRANSFER_LIST</b> structure. This size value does not include any <b>Transfers</b> array elements that might follow this structure. If new members are added to future versions of this structure, the <b>Size</b> value can be used to determine which version of the <b>SPB_TRANSFER_LIST</b> structure is being used.
+The size, in bytes, of the **SPB_TRANSFER_LIST** structure. This size value does not include any **Transfers** array elements that might follow this structure. If new members are added to future versions of this structure, the **Size** value can be used to determine which version of the **SPB_TRANSFER_LIST** structure is being used.
 
 ### -field Reserved
 
@@ -62,29 +61,22 @@ Reserved for use by the operating system. Set to zero.
 
 ### -field TransferCount
 
-The number of elements in the <b>Transfers</b> array. This array contains a minimum of one element.
+The number of elements in the **Transfers** array. This array contains a minimum of one element.
 
 ### -field Transfers
 
-This member is the first element in an array of <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a> structures.  Each array element describes an individual transfer in the I/O transfer sequence. If the array contains more than one element, the additional array elements immediately follow the <b>SPB_TRANSFER_LIST</b> structure in memory. The transfers are performed in the order in which they appear in the array, starting with the first element.
+This member is the first element in an array of [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md) structures. Each array element describes an individual transfer in the I/O transfer sequence. If the array contains more than one element, the additional array elements immediately follow the **SPB_TRANSFER_LIST** structure in memory. The transfers are performed in the order in which they appear in the array, starting with the first element.
 
 ## -remarks
 
-The input buffer for an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request begins with an <b>SPB_TRANSFER_LIST</b> structure. The first transfer in the requested I/O transfer sequence is specified in the <b>Transfers</b> member of this structure. If the sequence contains more than one transfer, the array elements that describe the additional transfers immediately follow the <b>SPB_TRANSFER_LIST</b> structure.
+The input buffer for an [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence) request begins with an **SPB_TRANSFER_LIST** structure. The first transfer in the requested I/O transfer sequence is specified in the **Transfers** member of this structure. If the sequence contains more than one transfer, the array elements that describe the additional transfers immediately follow the **SPB_TRANSFER_LIST** structure.
 
-The input buffer for an <a href="https://msdn.microsoft.com/library/windows/hardware/hh974774">IOCTL_SPB_FULL_DUPLEX</a> request begins with an <b>SPB_TRANSFER_LIST</b> structure. The <b>SPB_TRANSFER_LIST</b> structure for this request always specifies two buffers. The first buffer, which is described by the <b>Transfers</b> member of this structure, contains the data to write to the device. The second buffer, which is described by an array element that immediately follows the <b>SPB_TRANSFER_LIST</b> structure, is used to hold the data read from the device.
+The input buffer for an [IOCTL_SPB_FULL_DUPLEX](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_full_duplex-control-code) request begins with an **SPB_TRANSFER_LIST** structure. The **SPB_TRANSFER_LIST** structure for this request always specifies two buffers. The first buffer, which is described by the **Transfers** member of this structure, contains the data to write to the device. The second buffer, which is described by an array element that immediately follows the **SPB_TRANSFER_LIST** structure, is used to hold the data read from the device.
 
-If your SPB controller driver supports custom I/O control (IOCTL) requests that use input or output buffers, use the <b>SPB_TRANSFER_LIST</b> structure to describe these buffers. For more information, see <a href="/windows-hardware/drivers/spb/using-the-spb-transfer-list-structure">Using the SPB_TRANSFER_LIST Structure for Custom IOCTLs</a>.
+If your SPB controller driver supports custom I/O control (IOCTL) requests that use input or output buffers, use the **SPB_TRANSFER_LIST** structure to describe these buffers. For more information, see [Using the SPB_TRANSFER_LIST Structure for Custom IOCTLs](/windows-hardware/drivers/spb/using-the-spb-transfer-list-structure).
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh974774">IOCTL_SPB_FULL_DUPLEX</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
-
+* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+* [IOCTL_SPB_FULL_DUPLEX](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_full_duplex-control-code)
+* [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)

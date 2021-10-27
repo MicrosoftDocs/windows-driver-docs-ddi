@@ -47,13 +47,13 @@ Defines the **IPrinterScriptablePropertyBag2::GetReadStreamAsXML** method.
 
 ## -parameters
 
-### -param bstrName
+### -param bstrName [in]
 
-[in]
 
-### -param ppXmlNode
 
-[out]
+### -param ppXmlNode [out]
+
+
 
 ## -returns
 

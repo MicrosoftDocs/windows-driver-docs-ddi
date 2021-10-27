@@ -50,9 +50,9 @@ The <b>AuxKlibGetImageExportDirectory</b> routine returns an image module's expo
 
 ## -parameters
 
-### -param ImageBase 
+### -param ImageBase [in]
 
-[in]
+
 A pointer to the base of an image, which is obtained by calling <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>.
 
 ## -returns

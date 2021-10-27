@@ -52,25 +52,25 @@ The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acc
 
 ## -struct-fields
 
-### -field hExtension
+### -field hExtension [in]
 
-[in] A handle to the DirectX VA extension device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createextensiondevice">CreateExtensionDevice</a> function.
+A handle to the DirectX VA extension device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createextensiondevice">CreateExtensionDevice</a> function.
 
-### -field Function
+### -field Function [in]
 
-[in] A specific operation to perform. The possible values for this member are defined by the extension device.
+A specific operation to perform. The possible values for this member are defined by the extension device.
 
-### -field pPrivateInput
+### -field pPrivateInput [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the extension operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the extension operation.
 
-### -field pPrivateOutput
+### -field pPrivateOutput [in]
 
-[in] A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the extension operation that the driver returns.
+A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the extension operation that the driver returns.
 
-### -field NumBuffers
+### -field NumBuffers [in]
 
-[in] The number of buffers in the list that is pointed to by <b>pBuffers</b>.
+The number of buffers in the list that is pointed to by <b>pBuffers</b>.
 
 ### -field pBuffers
 

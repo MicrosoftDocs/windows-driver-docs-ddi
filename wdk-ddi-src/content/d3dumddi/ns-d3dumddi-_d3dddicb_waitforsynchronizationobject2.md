@@ -52,25 +52,25 @@ Describes the parameters that are required to set up the wait in a call to the <
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to a Direct3D context that waits for the synchronization objects in the array that the <b>ObjectHandleArray</b> member specifies to occur.
+A handle to a Direct3D context that waits for the synchronization objects in the array that the <b>ObjectHandleArray</b> member specifies to occur.
 
-### -field ObjectCount
+### -field ObjectCount [in]
 
-[in] The number of synchronization objects in the <b>ObjectHandleArray</b> array.
+The number of synchronization objects in the <b>ObjectHandleArray</b> array.
 
 <b>ObjectHandleArray</b> must be set to 1 if the GPU synchronization object is of type <b>D3DDDI_FENCE</b>—namely, the <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure has a value of <b>D3DDDI_FENCE</b>.
 
-### -field ObjectHandleArray
+### -field ObjectHandleArray [in]
 
-[in] An array of handles to the GPU synchronization objects that are to be signaled. The <b>D3DDDI_MAX_OBJECT_WAITED_ON</b> constant, which is defined as 32, indicates the maximum number of synchronization objects that the context can wait for.
+An array of handles to the GPU synchronization objects that are to be signaled. The <b>D3DDDI_MAX_OBJECT_WAITED_ON</b> constant, which is defined as 32, indicates the maximum number of synchronization objects that the context can wait for.
 
 All synchronization objects must be created on a logical adapter that has its context specified by the <b>hContext</b> member.
 
-### -field FenceValue
+### -field FenceValue [in]
 
-[in] A 64-bit value that specifies the current fence value of the GPU synchronization object that is to be waited on.
+A 64-bit value that specifies the current fence value of the GPU synchronization object that is to be waited on.
 
 This value applies only if the GPU synchronization object is of type <b>D3DDDI_FENCE</b>—namely, the <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure has a value of <b>D3DDDI_FENCE</b>.
 

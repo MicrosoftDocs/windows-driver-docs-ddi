@@ -51,24 +51,24 @@ The <b>WDF_WRITE_PORT_BUFFER_UCHAR</b> function writes a number of bytes from a 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 A pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a buffer from which an array of UCHAR values is to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of bytes to be written to the buffer.
 
 ## -remarks

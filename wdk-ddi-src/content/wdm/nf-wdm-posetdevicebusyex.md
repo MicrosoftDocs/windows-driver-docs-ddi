@@ -49,14 +49,14 @@ The <b>PoSetDeviceBusyEx</b> routine notifies the <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param IdlePointer 
+### -param IdlePointer [in, out]
 
-[in, out]
+
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterdeviceforidledetection">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoSetDeviceBusyEx</b>.
 
 ## -remarks
 
-This routine is a direct replacement for the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a> macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call <b>PoSetDeviceBusyEx</b> instead of <b>PoSetDeviceBusy</b>.
+This routine is a direct replacement for the [PoSetDeviceBusy](./nf-wdm-posetdevicebusy.md) macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call <b>PoSetDeviceBusyEx</b> instead of <b>PoSetDeviceBusy</b>.
 
 A driver calls the <b>PoSetDeviceBusyEx</b> and <b>PoRegisterDeviceForIdleDetection</b> routines to enable system idle detection for its device. If a device that is registered for idle detection stays idle for the driver-specified time-out period, the power manager sends an <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request to put the device in a requested sleep state.
 
@@ -80,7 +80,7 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a>
+[PoSetDeviceBusy](./nf-wdm-posetdevicebusy.md)
 
 
 

@@ -48,17 +48,17 @@ The **FltGetFileContext** routine retrieves a context that was set for a file by
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
+Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] File object pointer for the file. This parameter is required and cannot be **NULL**.
+File object pointer for the file. This parameter is required and cannot be **NULL**.
 
-### -param Context
+### -param Context [out]
 
-[out] Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be **NULL**.
+Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be **NULL**.
 
 ## -returns
 

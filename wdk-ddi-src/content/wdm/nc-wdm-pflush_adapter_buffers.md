@@ -49,34 +49,34 @@ The <b>FlushAdapterBuffers</b> routine flushes any data remaining in the system 
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 Pointer to the MDL that describes the buffer previously passed in the driver's call to <b>MapTransfer</b>.
 
-### -param MapRegisterBase 
+### -param MapRegisterBase [in]
 
-[in]
+
 Specifies the map registers allocated for the DMA operation.  The system passes this value  to the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine.
 
-### -param CurrentVa 
+### -param CurrentVa [in]
 
-[in]
+
 Pointer to the current virtual address in the buffer, described by the <i>Mdl</i>, where the I/O operation occurred. This value must be the same as the initial <i>CurrentVa</i> value passed to <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer">MapTransfer</a>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfer from a buffer in system memory to the driver's device.
 
 ## -returns
@@ -92,7 +92,7 @@ Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfe
 
 To ensure that a DMA transfer is complete, every driver that performs DMA operations must call <b>FlushAdapterBuffers</b> before completing the IRP that requested the DMA transfer and before freeing the map registers.
 
-A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>. However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation.
+A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md). However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation.
 
 ## -see-also
 
@@ -120,5 +120,5 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 

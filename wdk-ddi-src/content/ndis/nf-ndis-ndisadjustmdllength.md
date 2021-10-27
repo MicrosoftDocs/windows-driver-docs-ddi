@@ -50,14 +50,14 @@ The
 
 ## -parameters
 
-### -param _Mdl 
+### -param _Mdl [in]
 
-[in]
+
 A pointer to a memory descriptor list (MDL).
 
-### -param _Length 
+### -param _Length [in]
 
-[in]
+
 The number of bytes of data that the MDL describes.
 
 ## -remarks

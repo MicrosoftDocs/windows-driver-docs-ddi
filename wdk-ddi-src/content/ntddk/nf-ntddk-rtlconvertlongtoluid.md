@@ -49,9 +49,9 @@ The <b>RtlConvertLongToLuid</b> routine converts a long integer to a locally uni
 
 ## -parameters
 
-### -param Long 
+### -param Long [in]
 
-[in]
+
 Specifies the long integer to convert.
 
 ## -returns
@@ -72,7 +72,7 @@ Specifies the long integer to convert.
 
 
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
+[RtlEqualLuid](../wdm/nf-wdm-rtlequalluid.md)
 
 
 

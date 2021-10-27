@@ -47,17 +47,17 @@ product:
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] Context pointer provided when querying the interface.
+Context pointer provided when querying the interface.
 
-### -param ChildUid
+### -param ChildUid [in]
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
-### -param pIn:
+### -param pIn: [in]
 
-[in] A [DXGK_BRIGHTNESS_SET_IN](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_set_in.md) structure that contains the input parameters for the set brightness call.
+A [DXGK_BRIGHTNESS_SET_IN](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_set_in.md) structure that contains the input parameters for the set brightness call.
 
 ## -returns
 

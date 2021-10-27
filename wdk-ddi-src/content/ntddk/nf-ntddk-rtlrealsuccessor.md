@@ -49,9 +49,9 @@ The <b>RtlRealSuccessor</b> routine returns a pointer to the successor of the sp
 
 ## -parameters
 
-### -param Links 
+### -param Links [in]
 
-[in]
+
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -returns

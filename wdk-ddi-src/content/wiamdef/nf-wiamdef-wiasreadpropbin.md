@@ -49,23 +49,23 @@ The **wiasReadPropBin** function retrieves a binary-data property value from a W
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid
 
 Specifies the property identifier.
 
-### -param ppbVal 
+### -param ppbVal [out]
 
-[out]
+
 Pointer to a memory location that receives the address of a buffer allocated by this function. Upon return, the buffer contains the property's binary data.
 
-### -param ppbValOld 
+### -param ppbValOld [out, optional]
 
-[out, optional]
+
 Pointer to a memory location that receives the address of a buffer allocated by the minidriver. Upon return, the buffer contains the previous value of the property's binary data. If this information is not needed, this parameter can be set to **NULL**.
 
 ### -param bMustExist

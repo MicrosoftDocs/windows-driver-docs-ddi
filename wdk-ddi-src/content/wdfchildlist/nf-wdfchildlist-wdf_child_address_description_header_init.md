@@ -51,14 +51,14 @@ The <b>WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</b> function initializes a <a h
 
 ## -parameters
 
-### -param Header 
+### -param Header [out]
 
-[out]
+
 A pointer to a driver-allocated WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure.
 
-### -param AddressDescriptionSize 
+### -param AddressDescriptionSize [in]
 
-[in]
+
 The size, in bytes, of a driver-defined structure that contains device address information. For more information about specifying the size value, see <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>IoGetRequestorProcessId</b> routine returns the unique 32-bit process ID 
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the I/O request packet (IRP) for the specified I/O operation.
 
 ## -returns

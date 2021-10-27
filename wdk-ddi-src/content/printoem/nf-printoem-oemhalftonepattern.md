@@ -59,9 +59,9 @@ api_name:
 
 ### -param dwCallbackID
 
-### -param pResource 
+### -param pResource [in]
 
-[in]
+
 
 ### -param dwResourceSize
 

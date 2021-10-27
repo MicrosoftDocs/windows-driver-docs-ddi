@@ -52,29 +52,29 @@ The D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure describes an indexed primitive to 
 
 ## -struct-fields
 
-### -field PrimitiveType
+### -field PrimitiveType [in]
 
-[in] A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
+A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
 
-### -field BaseVertexOffset
+### -field BaseVertexOffset [in]
 
-[in] The offset that should be added to each vertex in vertex stream 0 by the various primitives to determine the actual vertex in vertex stream 0. This offset could be negative, but when an index is added to the offset, the result is positive.
+The offset that should be added to each vertex in vertex stream 0 by the various primitives to determine the actual vertex in vertex stream 0. This offset could be negative, but when an index is added to the offset, the result is positive.
 
-### -field MinIndex
+### -field MinIndex [in]
 
-[in] The minimum index of a range of vertices that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
+The minimum index of a range of vertices that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
-### -field NumVertices
+### -field NumVertices [in]
 
-[in] The number of vertices in a range that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
+The number of vertices in a range that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
-### -field StartIndexOffset
+### -field StartIndexOffset [in]
 
-[in] The offset of the first index in the index buffer from which indices are read to draw the primitives.
+The offset of the first index in the index buffer from which indices are read to draw the primitives.
 
-### -field PrimitiveCount
+### -field PrimitiveCount [in]
 
-[in] The number of triangles, lines, or points to draw for the given primitive.
+The number of triangles, lines, or points to draw for the given primitive.
 
 ## -remarks
 

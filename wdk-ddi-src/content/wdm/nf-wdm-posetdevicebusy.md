@@ -46,9 +46,9 @@ The **PoSetDeviceBusy** macro notifies the [power manager](/windows-hardware/dri
 
 ## -parameters
 
-### -param IdlePointer
+### -param IdlePointer [in, out]
 
-[in, out]
+
 Specifies a non-**NULL** idle pointer that was previously returned by [**PoRegisterDeviceForIdleDetection**](../ntifs/nf-ntifs-poregisterdeviceforidledetection.md). Note that **PoRegisterDeviceForIdleDetection** might return a **NULL** pointer. A caller of **PoSetDeviceBusy** must verify that the pointer is non-**NULL** before passing it to **PoSetDeviceBusy**.
 
 ## -remarks

@@ -49,14 +49,14 @@ The <b>RtlAddAccessAllowedAce</b> routine adds an access-allowed access control 
 
 ## -parameters
 
-### -param Acl 
+### -param Acl [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer containing the ACL to be modified. <b>RtlAddAccessAllowedAce</b> adds an access-allowed ACE to the end of this ACL. The ACE is in the form of an ACCESS_ALLOWED_ACE structure.
 
-### -param AceRevision 
+### -param AceRevision [in]
 
-[in]
+
 ACL revision level of the ACE to be added. Windows version requirments are the following:
 
 <table>
@@ -90,14 +90,14 @@ The revision level valid starting with Windows 2000.
 </tr>
 </table>
 
-### -param AccessMask 
+### -param AccessMask [in]
 
-[in]
+
 Bitmask of one or more <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags specifying the access rights to be granted to the specified SID. For more information, see the description of the <i>DesiredAccess</i> parameter of <b>ZwCreateFile</b>.
 
-### -param Sid 
+### -param Sid [in]
 
-[in]
+
 Pointer to the SID structure representing a user, group, or logon account that is being granted access.
 
 ## -returns

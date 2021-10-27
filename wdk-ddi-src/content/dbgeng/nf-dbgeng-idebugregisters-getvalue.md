@@ -49,14 +49,14 @@ The <b>GetValue</b> method gets the value of one of the target's <a href="/windo
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Specifies the index of the register whose value is requested.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 Receives the value of the register.  See <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 ## -returns

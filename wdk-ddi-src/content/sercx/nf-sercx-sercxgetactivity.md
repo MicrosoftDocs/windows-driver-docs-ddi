@@ -49,14 +49,14 @@ The <b>SerCxGetActivity</b> method retrieves the status of pending work for the 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-### -param Activity 
+### -param Activity [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a> structure. The caller must have previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_activity_init">SERCX_ACTIVITY_INIT</a> function to initialize this structure before its initial use. Thereafter, each <b>SerCxGetActivity</b> call updates the contents of this structure to track the work items that are ready to be processed by the controller driver.
 
 ## -remarks

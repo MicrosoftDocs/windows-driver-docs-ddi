@@ -49,9 +49,9 @@ The <b>wiauSetImageItemSize</b> function calculates the size and width, in bytes
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param lWidth
@@ -70,9 +70,9 @@ Specifies the depth of the image, in bits.
 
 Specifies the size of the image as stored on the device.
 
-### -param pwszExt 
+### -param pwszExt [in, optional]
 
-[in, optional]
+
 <i>Optional</i>. Pointer to a memory location containing a three-character file name extension for the item's native format. If this parameter is <b>NULL</b>, the item's extension property, WIA_IPA_FILENAME_EXTENSION (described in the Windows SDK documentation), is not updated.
 
 ## -returns

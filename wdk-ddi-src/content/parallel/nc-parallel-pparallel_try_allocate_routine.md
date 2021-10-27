@@ -49,9 +49,9 @@ The <i>PPARALLEL_TRY_ALLOCATE_ROUTINE</i>-typed (ISR) callback routine attempts 
 
 ## -parameters
 
-### -param TryAllocateContext 
+### -param TryAllocateContext [in]
 
-[in]
+
 Pointer to the device extension of a functional device object that represents a parallel port.
 
 ## -returns

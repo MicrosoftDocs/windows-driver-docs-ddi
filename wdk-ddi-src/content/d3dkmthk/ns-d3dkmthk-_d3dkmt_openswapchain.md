@@ -43,47 +43,47 @@ Used to open a swap chain.
 
 ## -struct-fields
 
-### -field hNtSwapChain
+### -field hNtSwapChain [in/out_opt]
 
-[in/out_opt] NT handle for swap chain in this process.
+NT handle for swap chain in this process.
 
-### -field pObjectAttributes
+### -field pObjectAttributes [in_opt]
 
-[in_opt] Security attributes of the swap chain.
+Security attributes of the swap chain.
 
-### -field bProducer
+### -field bProducer [in]
 
-[in] Indicates if producer or consumer.
+Indicates if producer or consumer.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] Handle to the device.
+Handle to the device.
 
-### -field bFailAcquireIfSurfaceBusy
+### -field bFailAcquireIfSurfaceBusy [in]
 
-[in] Indicates if acquires fail if surface still busy.
+Indicates if acquires fail if surface still busy.
 
-### -field DesiredAccess
+### -field DesiredAccess [in]
 
-[in] Desired access for the swap chain.
+Desired access for the swap chain.
 
-### -field DesiredAccessTextures
+### -field DesiredAccessTextures [in]
 
-[in] Desired access for the textures.
+Desired access for the textures.
 
-### -field BufferAvailableEvent
+### -field BufferAvailableEvent [in_opt]
 
-[in_opt] Option handle to the event.
+Option handle to the event.
 
-### -field SurfaceCount
+### -field SurfaceCount [in/out]
 
-[in/out] Number of buffers in the table provided on the way in, and out on number of surfaces used/needed.
+Number of buffers in the table provided on the way in, and out on number of surfaces used/needed.
 
-### -field pNtSurfaceHandles
+### -field pNtSurfaceHandles [out]
 
-[out] Array of NT handles.
+Array of NT handles.
 
-### -field bNonSequential
+### -field bNonSequential [out]
 
-[out] Indicates if swap chain is sequential.
+Indicates if swap chain is sequential.
 

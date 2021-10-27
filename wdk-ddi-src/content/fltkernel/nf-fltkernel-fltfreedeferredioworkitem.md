@@ -50,9 +50,9 @@ The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the 
 
 ## -parameters
 
-### -param FltWorkItem 
+### -param FltWorkItem [in]
 
-[in]
+
 Opaque pointer to the work item to be freed.
 
 ## -returns

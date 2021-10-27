@@ -48,13 +48,13 @@ api_name:
 
 ## -parameters
 
-### -param Device
+### -param Device [_In_]
 
-[_In_] A handle to a framework device object.
+A handle to a framework device object.
 
-### -param String
+### -param String [_In_]
 
-[_In_] A handle to a [framework string object](/windows-hardware/drivers/wdf/using-string-objects). The framework will assign the directory path to the string object on successful return.
+A handle to a [framework string object](/windows-hardware/drivers/wdf/using-string-objects). The framework will assign the directory path to the string object on successful return.
 
 ## -returns
 

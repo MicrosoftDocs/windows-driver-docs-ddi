@@ -46,40 +46,40 @@ The **WskSendMessages** function sends multiple datagrams to a remote transport 
 
 ## -parameters
 
-### -param Socket
+### -param Socket [in]
 
-[in] A pointer to a [**WSK_SOCKET**](ns-wsk-_wsk_socket.md) structure that specifies the socket
+A pointer to a [**WSK_SOCKET**](ns-wsk-_wsk_socket.md) structure that specifies the socket
 object to send the datagrams from.
 
-### -param BufferList
+### -param BufferList [in]
 
-[in] A pointer to an initialized [**WSK_BUF_LIST**](ns-wsk-wsk_buf_list.md) structure that contains the list of datagrams to send.
+A pointer to an initialized [**WSK_BUF_LIST**](ns-wsk-wsk_buf_list.md) structure that contains the list of datagrams to send.
 
 ### -param Flags
 
 [Reserved] This parameter is reserved for system use. A WSK application must set this parameter to **zero**.
 
-### -param RemoteAddress
+### -param RemoteAddress [in, optional]
 
-[in, optional]
+
 A pointer to a structure that specifies the remote transport address to send the datagrams to. 
 
-### -param ControlInfoLength
+### -param ControlInfoLength [in]
 
-[in] The number of bytes of data in the buffer that is pointed to by the **ControlInfo** parameter. If there is no control information associated with the datagram, the **ControlInfoLength** parameter must be **zero**.
+The number of bytes of data in the buffer that is pointed to by the **ControlInfo** parameter. If there is no control information associated with the datagram, the **ControlInfoLength** parameter must be **zero**.
 
 
-### -param ControlInfo
+### -param ControlInfo [In_reads_bytes_opt]
 
-[In_reads_bytes_opt]
+
 A pointer to a buffer that contains control information that is associated with the datagrams that
 are being sent. The control information data consists of one or more control data objects, each of which begins with a [**CMSGHDR**](/windows/win32/api/ws2def/ns-ws2def-wsacmsghdr) structure. If there is no control information that is associated with the datagrams, this parameter should be <b>NULL</b>.
 
 **ControlInfo** may not be supported by all transports.
 
-### -param Irp
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation asynchronously. For more information about using IRPs with WSK functions, see [Using IRPs with Winsock
 Kernel Functions](/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions).
 

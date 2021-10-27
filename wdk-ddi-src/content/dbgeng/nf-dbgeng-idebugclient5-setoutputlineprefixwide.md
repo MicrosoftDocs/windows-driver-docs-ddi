@@ -49,9 +49,9 @@ Sets a wide string prefix for output lines.
 
 ## -parameters
 
-### -param Prefix 
+### -param Prefix [in, optional]
 
-[in, optional]
+
 The pointer to a Unicode character prefix string.
 
 ## -returns

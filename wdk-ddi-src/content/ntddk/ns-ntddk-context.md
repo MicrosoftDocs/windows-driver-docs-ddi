@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._CONTEXT
-title: CONTEXT
+title: CONTEXT structure
 description: "Learn more about: CONTEXT structure"
 tech.root: kernel
 ms.date: 08/19/2019

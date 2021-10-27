@@ -49,14 +49,14 @@ The <code>SetIdlePowerManagement</code> method provides a way for the adapter dr
 
 ## -parameters
 
-### -param _DeviceObject 
+### -param _DeviceObject [in]
 
-[in]
+
 Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
-### -param _bEnabled 
+### -param _bEnabled [in]
 
-[in]
+
 Specifies a Boolean variable that indicates whether idle state detection is enabled or disabled.
 
 ## -returns

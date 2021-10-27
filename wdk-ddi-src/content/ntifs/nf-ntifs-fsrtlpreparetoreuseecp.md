@@ -49,9 +49,9 @@ The <b>FsRtlPrepareToReuseEcp</b> routine resets an extra create parameter (ECP)
 
 ## -parameters
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 A pointer to the ECP to prepare for reuse.
 
 ## -remarks

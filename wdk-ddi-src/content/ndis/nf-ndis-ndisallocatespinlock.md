@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param SpinLock 
+### -param SpinLock [out]
 
-[out]
+
 Pointer to an opaque variable that represents a spin lock.
 
 ## -remarks

@@ -54,9 +54,9 @@ The <b>WdfIoQueuePurgeSynchronously</b> method causes the framework to stop queu
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
 ## -remarks

@@ -51,19 +51,19 @@ The <b>Impersonate</b> method registers the interface for the method that the fr
 
 ## -parameters
 
-### -param ImpersonationLevel 
+### -param ImpersonationLevel [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
-### -param pCallback 
+### -param pCallback [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iimpersonatecallback">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
 
-### -param pvCallbackContext 
+### -param pvCallbackContext [in, optional]
 
-[in, optional]
+
 A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iimpersonatecallback-onimpersonate">IImpersonateCallback::OnImpersonate</a> method. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a context.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>GetCurrentTimeDate</b> method returns the time of the current target.
 
 ## -parameters
 
-### -param TimeDate 
+### -param TimeDate [out]
 
-[out]
+
 Receives the time and date.  This is the number of seconds since the beginning of 1970, or <b>0</b> if the current time could not be determined.
 
 ## -returns

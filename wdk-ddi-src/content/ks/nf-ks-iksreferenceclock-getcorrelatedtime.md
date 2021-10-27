@@ -49,9 +49,9 @@ The <b>IKsReferenceClock::GetCorrelatedTime</b> method queries the associated re
 
 ## -parameters
 
-### -param SystemTime 
+### -param SystemTime [out]
 
-[out]
+
 A pointer to a LONGLONG-typed variable that receives the current system time in 100 nanosecond units.
 
 ## -returns

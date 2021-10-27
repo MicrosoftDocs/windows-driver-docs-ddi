@@ -49,9 +49,9 @@ The <code>QueryPowerChangeState</code> method is called by PortCls in response t
 
 ## -parameters
 
-### -param NewStateQuery 
+### -param NewStateQuery [in]
 
-[in]
+
 Specifies the new power state that is being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewStateQuery</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>.
 
 ## -returns

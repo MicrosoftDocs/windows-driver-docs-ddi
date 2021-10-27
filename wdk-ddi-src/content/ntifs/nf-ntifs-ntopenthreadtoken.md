@@ -46,23 +46,23 @@ The **NtOpenThreadToken** routine opens the access token associated with a threa
 
 ## -parameters
 
-### -param ThreadHandle
+### -param ThreadHandle [in]
 
-[in] Handle to the thread whose access token is to be opened. The handle must have THREAD_QUERY_INFORMATION access. Use the **NtCurrentThread** macro to specify the current thread.
+Handle to the thread whose access token is to be opened. The handle must have THREAD_QUERY_INFORMATION access. Use the **NtCurrentThread** macro to specify the current thread.
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in] [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which access rights are granted or denied.
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which access rights are granted or denied.
 
-### -param OpenAsSelf
+### -param OpenAsSelf [in]
 
-[in] Boolean value specifying whether the access check is to be made against the security context of the thread calling **NtOpenThreadToken** or against the security context of the process for the calling thread.
+Boolean value specifying whether the access check is to be made against the security context of the thread calling **NtOpenThreadToken** or against the security context of the process for the calling thread.
 
 If this parameter is **FALSE**, the access check is performed using the security context for the calling thread. If the thread is impersonating a client, this security context can be that of a client process. If this parameter is **TRUE**, the access check is made using the security context of the process for the calling thread.
 
-### -param TokenHandle
+### -param TokenHandle [out]
 
-[out] Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
+Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
 
 ## -returns
 

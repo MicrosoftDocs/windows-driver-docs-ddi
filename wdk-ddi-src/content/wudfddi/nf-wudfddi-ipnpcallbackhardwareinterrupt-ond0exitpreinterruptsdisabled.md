@@ -53,9 +53,9 @@ A driver's <b>OnD0ExitPreInterruptsDisabled</b> event callback function performs
 
 ### -param pDevice
 
-### -param TargetState 
+### -param TargetState [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the target device power state that the device is about to enter.
 
 

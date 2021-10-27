@@ -49,9 +49,9 @@ The <b>SetCurrentThreadId</b> method makes the specified thread the current thre
 
 ## -parameters
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 Specifies the engine thread ID of the thread that is to become the current thread.
 
 ## -returns

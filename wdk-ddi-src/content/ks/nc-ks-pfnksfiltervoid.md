@@ -49,9 +49,9 @@ An AVStream minidriver's <i>AVStrMiniFilterReset</i> routine is called when AVSt
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> to return to its previous state.
 
 ## -returns

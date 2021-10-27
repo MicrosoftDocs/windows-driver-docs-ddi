@@ -51,14 +51,14 @@ The <b>GetNamedValue</b> method retrieves the value of a property.
 
 ## -parameters
 
-### -param pszName 
+### -param pszName [in]
 
-[in]
+
 A pointer to a null-terminated string that contains the name of the property.
 
-### -param pv 
+### -param pv [out]
 
-[out]
+
 A pointer to a variable that receives the value for the property.
 
 ## -returns

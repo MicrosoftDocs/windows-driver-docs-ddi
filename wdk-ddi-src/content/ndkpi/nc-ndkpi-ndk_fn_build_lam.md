@@ -49,29 +49,29 @@ The <i>NdkBuildLam</i> (<i>NDK_FN_BUILD_LAM</i>) function gets an adapter logica
 
 ## -parameters
 
-### -param pNdkAdapter 
+### -param pNdkAdapter [in]
 
-[in]
+
 A pointer to an NDK adapter object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>).
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
  A memory descriptor list (MDL) or chain of MDLs. The portion of the MDL chain from the starting virtual address up to the number of bytes in the  <i>Length</i> parameter must represent a virtually contiguous memory region.
 
-### -param Length 
+### -param Length [in]
 
-[in]
-The number of bytes to map starting from the first MDL's virtual address.  The MDL virtual address can be obtained with the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro. <i>Length</i> must not exceed the total number of bytes represented by the MDL chain.
 
-### -param RequestCompletion 
+The number of bytes to map starting from the first MDL's virtual address.  The MDL virtual address can be obtained with the [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md) macro. <i>Length</i> must not exceed the total number of bytes represented by the MDL chain.
 
-[in]
+### -param RequestCompletion [in]
+
+
 A pointer to a <i>NdkRequestCompletion</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>) callback function.
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value for the provider to pass back to the <i>NdkRequestCompletion</i> callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 ### -param pNdkLAM
@@ -82,9 +82,9 @@ A pointer to a buffer that will hold an <a href="/windows-hardware/drivers/ddi/n
 
 The size, in bytes, of the buffer at the <i>pNdkLAM</i> parameter for input, or the actual number of bytes written for output.
 
-### -param pFBO 
+### -param pFBO [out]
 
-[out]
+
 The first byte offset (FBO) value is returned in this location. The FBO is the starting offset within the first adapter page.
 
 ## -returns
@@ -179,13 +179,13 @@ An NDK consumer can call  the <i>NdkGetPrivilegedMemoryRegionToken</i> (<a href=
 
 All adapter pages returned by an NDK provider must be of <b>PAGE_SIZE</b> bytes in length, where <b>PAGE_SIZE</b> is the memory page size that is supported by the host platform as defined in wdm.h.
 
-The provider must treat the virtual address value that the  <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>   macro returns for the MDL as an index to the start of the memory region being mapped. The provider must not use the virtual address value as a valid virtual address for reading or writing buffer contents.
+The provider must treat the virtual address value that the  [MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)   macro returns for the MDL as an index to the start of the memory region being mapped. The provider must not use the virtual address value as a valid virtual address for reading or writing buffer contents.
 
 If a provider has an error while processing an <i>NdkBuildLam</i> request, the provider must release any partial mappings it built internally thus far before completing the request with failure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
+[MmGetMdlVirtualAddress](../wdm/nf-wdm-mmgetmdlvirtualaddress.md)
 
 
 

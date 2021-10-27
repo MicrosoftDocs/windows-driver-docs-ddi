@@ -48,37 +48,37 @@ The D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure describes a blend state for a 
 
 ## -struct-fields
 
-### -field BlendEnable
+### -field BlendEnable [in]
 
-[in] A Boolean value that specifies whether blending is enabled for the associated render target. **TRUE** indicates blending is enabled; **FALSE** indicates blending is disabled.
+A Boolean value that specifies whether blending is enabled for the associated render target. **TRUE** indicates blending is enabled; **FALSE** indicates blending is disabled.
 
-### -field SrcBlend
+### -field SrcBlend [in]
 
-[in] A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the blend mode of the source for the enabled render target.
+A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the blend mode of the source for the enabled render target.
 
-### -field DestBlend
+### -field DestBlend [in]
 
-[in] A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the blend mode of the destination for the enabled render target.
+A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the blend mode of the destination for the enabled render target.
 
-### -field BlendOp
+### -field BlendOp [in]
 
-[in] A [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md)-typed value that indicates the blending operation for the enabled render target.
+A [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md)-typed value that indicates the blending operation for the enabled render target.
 
-### -field SrcBlendAlpha
+### -field SrcBlendAlpha [in]
 
-[in] A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the transparency blend mode of the source for the enabled render target.
+A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the transparency blend mode of the source for the enabled render target.
 
-### -field DestBlendAlpha
+### -field DestBlendAlpha [in]
 
-[in] A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the transparency blend mode of the destination for the enabled render target.
+A [**D3D10_DDI_BLEND**](ne-d3d10umddi-d3d10_ddi_blend.md)-typed value that indicates the transparency blend mode of the destination for the enabled render target.
 
-### -field BlendOpAlpha
+### -field BlendOpAlpha [in]
 
-[in] A [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md)-typed value that indicates the transparency blending operation for the enabled render target.
+A [**D3D10_DDI_BLEND_OP**](ne-d3d10umddi-d3d10_ddi_blend_op.md)-typed value that indicates the transparency blending operation for the enabled render target.
 
-### -field RenderTargetWriteMask
+### -field RenderTargetWriteMask [in]
 
-[in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
+An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 
 |Value|Meaning|
 |--- |--- |

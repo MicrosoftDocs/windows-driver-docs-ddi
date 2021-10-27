@@ -52,49 +52,49 @@ The
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The NDIS handle that identifies the miniport adapter. This handle was originally passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the
      physical device for the miniport adapter. This pointer is optional.
 
-### -param FunctionalDeviceObject 
+### -param FunctionalDeviceObject [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. 
      <b>DEVICE_OBJECT</b> represents the functional device object that NDIS creates for the physical device.
      This pointer is optional.
 
-### -param NextDeviceObject 
+### -param NextDeviceObject [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
      preceded in the chain by the functional device object that belongs to the miniport driver. NDIS creates
      this functional device object for the physical device. For example, the next device object could be the
      object that is associated with a bus driver or HAL This pointer is optional.
 
-### -param AllocatedResources 
+### -param AllocatedResources [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer that receives a pointer to a 
      CM_RESOURCE_LIST structure. 
      CM_RESOURCE_LIST describes a list of hardware resources that the PnP manager assigns to the
      physical device. This list contains the resources in raw form, that is, not translated by HAL. This
      pointer is optional.
 
-### -param AllocatedResourcesTranslated 
+### -param AllocatedResourcesTranslated [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer that receives a pointer to a 
      CM_RESOURCE_LIST structure. 
      CM_RESOURCE_LIST describes a list of hardware resources that the PnP manager assigns to the

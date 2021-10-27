@@ -52,17 +52,17 @@ The DDICERTIFICATEINFO structure describes information about the certificate tha
 
 ## -struct-fields
 
-### -field CertificateType
+### -field CertificateType [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_certificatetype">D3DDDI_CERTIFICATETYPE</a>-typed value that indicates the certificate type.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_certificatetype">D3DDDI_CERTIFICATETYPE</a>-typed value that indicates the certificate type.
 
-### -field ChannelType
+### -field ChannelType [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_ddiauthenticatedchanneltype">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the authenticated-channel type.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_ddiauthenticatedchanneltype">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the authenticated-channel type.
 
-### -field CryptoSessionType
+### -field CryptoSessionType [in]
 
-[in] A GUID that indicates the encryption session.
+A GUID that indicates the encryption session.
 
 ## -remarks
 

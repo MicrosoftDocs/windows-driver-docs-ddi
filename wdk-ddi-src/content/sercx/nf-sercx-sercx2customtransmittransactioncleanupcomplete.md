@@ -49,9 +49,9 @@ The <b>SerCx2CustomTransmitTransactionCleanupComplete</b> method notifies versio
 
 ## -parameters
 
-### -param CustomTransmitTransaction 
+### -param CustomTransmitTransaction [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
 
 ## -remarks

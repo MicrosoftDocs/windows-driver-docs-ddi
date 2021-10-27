@@ -52,14 +52,14 @@ The
 
 ## -parameters
 
-### -param HigherLayerIfIndex 
+### -param HigherLayerIfIndex [in]
 
-[in]
+
 The network interface index for the interface that was higher in the stack table.
 
-### -param LowerLayerIfIndex 
+### -param LowerLayerIfIndex [in]
 
-[in]
+
 The network interface index for the interface that was lower in the stack table.
 
 ## -remarks

@@ -50,9 +50,9 @@ The HID source driver calls this method to start the virtual HID device.
 
 ## -parameters
 
-### -param VhfHandle 
+### -param VhfHandle [in]
 
-[in]
+
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a>.
 
 ## -returns

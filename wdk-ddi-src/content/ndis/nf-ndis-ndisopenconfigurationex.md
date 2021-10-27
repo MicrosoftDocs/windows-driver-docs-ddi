@@ -52,16 +52,16 @@ NDIS drivers call the
 
 ## -parameters
 
-### -param ConfigObject 
+### -param ConfigObject [in]
 
-[in]
+
 A pointer to a caller-supplied and initialized 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_object">
      NDIS_CONFIGURATION_OBJECT</a> structure.
 
-### -param ConfigurationHandle 
+### -param ConfigurationHandle [out]
 
-[out]
+
 A pointer to a caller-supplied variable in which 
      <b>NdisOpenConfigurationEx</b> returns a handle to a registry key. The registry key identifies the
      configuration parameters.

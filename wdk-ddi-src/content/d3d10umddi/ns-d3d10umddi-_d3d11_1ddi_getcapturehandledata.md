@@ -52,31 +52,31 @@ Defines a resource allocation in a call to the <a href="/windows-hardware/driver
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] The handle to the resource for which the allocation handle is to be obtained.
+The handle to the resource for which the allocation handle is to be obtained.
 
 The Direct3D version 11 and later runtime will have already verified that this resource was created using the <b>D3D11_DDI_BIND_CAPTURE</b> value in the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_bind_flag">D3D10_DDI_RESOURCE_BIND_FLAG</a> enumeration.
 
-### -field ArrayIndex
+### -field ArrayIndex [in]
 
-[in] The array element from which the data is to be obtained.
+The array element from which the data is to be obtained.
 
 If the resource was not created as a texture array, this value is zero. For a texture array, the Direct3D version 11 and later runtime will have already verified that the array is valid.
 
-### -field hAllocation
+### -field hAllocation [out]
 
-[out] The driver-provided address of the kernel mode allocation handle associated with this allocation.
+The driver-provided address of the kernel mode allocation handle associated with this allocation.
 
-### -field DataOffset
+### -field DataOffset [out]
 
-[out] The driver-provided offset of the requested data within the allocation.
+The driver-provided offset of the requested data within the allocation.
 
 If the resource was not created as a texture array, this value is typically zero.  For a texture array, this value is the offset of the array element data within the allocation.
 
-### -field DataSize
+### -field DataSize [out]
 
-[out] The driver-provided size of the requested data within the allocation.
+The driver-provided size of the requested data within the allocation.
 
 If the resource was not created as a texture array, this value is typically the size of the allocation, in bytes.  For a texture array, this value is the size of the element data within the allocation.
 

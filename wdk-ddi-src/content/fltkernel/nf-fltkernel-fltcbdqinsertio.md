@@ -48,24 +48,24 @@ api_name:
 
 ## -parameters
 
-### -param Cbdq
+### -param Cbdq [in, out]
 
-[in, out]
+
 Pointer to the caller's cancel-safe callback data queue. This queue must have been initialized by calling [**FltCbdqInitialize**](nf-fltkernel-fltcbdqinitialize.md).
 
-### -param Cbd
+### -param Cbd [in]
 
-[in]
+
 Pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure for the I/O operation to be queued. The operation must be an IRP-based I/O operation.
 
-### -param Context
+### -param Context [in, optional]
 
-[in, optional]
+
 Caller-supplied variable that receives an opaque context pointer for the I/O request. Filter drivers can use this pointer to identify a specific item in the queue so that it can be removed by calling [**FltCbdqRemoveIo**](nf-fltkernel-fltcbdqremoveio.md). If the filter driver is not required to remove particular I/O requests from the queue, this parameter can be **NULL**.
 
-### -param InsertContext
+### -param InsertContext [in, optional]
 
-[in, optional]
+
 Context pointer to be passed to the filter driver's *CbdqInsertIo* callback routine.
 
 ## -returns

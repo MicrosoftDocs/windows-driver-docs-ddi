@@ -49,9 +49,9 @@ Describes a resource that is used as a primary (that is, a resource that is scan
 
 ## -struct-fields
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of any of the following values that indicates how the resource is displayed. 
+A valid bitwise OR of any of the following values that indicates how the resource is displayed. 
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -60,17 +60,17 @@ Describes a resource that is used as a primary (that is, a resource that is scan
 | DXGI_DDI_PRIMARY_STEREO (0x4) | Supported in Windows 8 and later versions.<br/>The primary represents a stereo back buffer. | 
 | DXGI_DDI_PRIMARY_INDIRECT (0x8) | Supported in Windows 10 and later versions.<br/>The primary will be used for presenting to an indirect display device. |
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the primary surface is created on.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the primary surface is created on.
 
-### -field ModeDesc
+### -field ModeDesc [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a> structure that describes the display mode.
+A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a> structure that describes the display mode.
 
-### -field DriverFlags
+### -field DriverFlags [out]
 
-[out] A valid bitwise OR of values that indicate how the driver can display the resource. 
+A valid bitwise OR of values that indicate how the driver can display the resource. 
 
 The DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCANOUT (0x1) value is currently the only supported value. This bit indicates that the driver cannot support the runtime setting any subresource of the specified resource as a primary. The user-mode display driver should set this bit if it implements presentation from this surface through a copy operation. Therefore, the runtime will not use flip-style presentation if this bit is set.
 

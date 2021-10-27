@@ -55,13 +55,13 @@ The <b>PEP_QUERY_SOC_SUBSYSTEM_COUNT</b> structure is used to tell the OS whethe
 
 ## -struct-fields
 
-### -field PlatformIdleStateIndex
+### -field PlatformIdleStateIndex [in]
 
-[in] The platform idle state index for which the kernel is querying about.
+The platform idle state index for which the kernel is querying about.
 
-### -field SubsystemCount
+### -field SubsystemCount [out]
 
-[out] The number of SoC subsystems tallied by the PEP for the specified platform idle state.  The PEP cannot return 0 in this parameter; instead the PEP should return <b>FALSE</b> to the <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a> that provided this structure.
+The number of SoC subsystems tallied by the PEP for the specified platform idle state.  The PEP cannot return 0 in this parameter; instead the PEP should return <b>FALSE</b> to the <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a> that provided this structure.
 
 ### -field Flags
 

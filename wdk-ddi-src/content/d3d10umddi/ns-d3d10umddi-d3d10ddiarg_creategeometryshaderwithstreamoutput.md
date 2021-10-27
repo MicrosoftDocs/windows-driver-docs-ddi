@@ -49,21 +49,21 @@ The D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure describes the geo
 
 ## -struct-fields
 
-### -field pShaderCode
+### -field pShaderCode [in]
 
-[in] An array of CONST UINT tokens that make up the geometry shader code.
+An array of CONST UINT tokens that make up the geometry shader code.
 
-### -field pOutputStreamDecl
+### -field pOutputStreamDecl [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_stream_output_declaration_entry">D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_stream_output_declaration_entry">D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader.
 
-### -field NumEntries
+### -field NumEntries [in]
 
-[in] The number of elements in that array that the <b>pOutputStreamDecl</b> member specifies.
+The number of elements in that array that the <b>pOutputStreamDecl</b> member specifies.
 
-### -field StreamOutputStrideInBytes
+### -field StreamOutputStrideInBytes [in]
 
-[in] The size, in bytes, from one vertex to the next vertex.
+The size, in bytes, from one vertex to the next vertex.
 
 ## -see-also
 

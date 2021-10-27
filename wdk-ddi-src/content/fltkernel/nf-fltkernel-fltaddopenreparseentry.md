@@ -49,19 +49,19 @@ This routine adds a caller allocated open reparse structure, <a href="/previous-
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 The filter to reference.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 The create operation to attach open reparse information to.
 
-### -param OpenReparseEntry 
+### -param OpenReparseEntry [in]
 
-[in]
+
 The open reparse information to add, of type <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPARSE_LIST_ENTRY</a>.
 
 ## -returns

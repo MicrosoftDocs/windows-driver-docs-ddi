@@ -45,13 +45,13 @@ Miniport drivers implement the *NdisSetPollNotification* callback function to en
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_]
 
-[_In_] A pointer to the context information that the driver provided when it created the Poll object.
+A pointer to the context information that the driver provided when it created the Poll object.
 
-### -param Notification
+### -param Notification [_Inout_]
 
-[_Inout_] A pointer to an [**NDIS_POLL_NOTIFICATION**](ns-poll-ndis_poll_notification.md) structure containing the interrupt state for the Poll object.
+A pointer to an [**NDIS_POLL_NOTIFICATION**](ns-poll-ndis_poll_notification.md) structure containing the interrupt state for the Poll object.
 
 ## -returns
 

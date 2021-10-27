@@ -49,14 +49,14 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_u
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_config">UCM_CONNECTOR_CONFIG</a> structure to initialize.
 
-### -param ConnectorId 
+### -param ConnectorId [in]
 
-[in]
+
 The identifier to assign to the connector object. If there is only one connector, pass 0.
 
 ## -see-also

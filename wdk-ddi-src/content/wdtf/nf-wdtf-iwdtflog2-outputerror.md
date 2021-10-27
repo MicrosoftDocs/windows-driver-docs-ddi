@@ -49,9 +49,9 @@ Writes an error entry to the test case log.
 
 ## -parameters
 
-### -param sErrorString 
+### -param sErrorString [in]
 
-[in]
+
 The error string.
 
 ## -returns

@@ -50,49 +50,49 @@ The <b>HidP_GetUsageValueArray</b> routine extracts the data associated with a H
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
-### -param UsagePage 
+### -param UsagePage [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> of the usage value array.
 
-### -param LinkCollection 
+### -param LinkCollection [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usage value array. If <i>LinkCollection</i> is nonzero, the routine only searches for a usage value array in this link collection; otherwise, if <i>LinkCollection</i> is zero, the routine searches for a usage value array in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
-### -param Usage 
+### -param Usage [in]
 
-[in]
+
 Specifies the usage of the usage value array.
 
-### -param UsageValue 
+### -param UsageValue [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer in which the routine returns the data associated with the usage value array.
 
-### -param UsageValueByteLength 
+### -param UsageValueByteLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer at <i>UsageValue</i>.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-### -param Report 
+### -param Report [in]
 
-[in]
+
 Pointer to a report that contains values.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>wiasReadPropGuid </b>function retrieves a GUID property value from a WIA 
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid

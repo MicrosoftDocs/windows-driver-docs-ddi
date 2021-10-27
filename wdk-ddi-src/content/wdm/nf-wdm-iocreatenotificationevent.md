@@ -49,14 +49,14 @@ The <b>IoCreateNotificationEvent</b> routine creates or opens a named notificati
 
 ## -parameters
 
-### -param EventName 
+### -param EventName [in]
 
-[in]
+
 Pointer to a buffer containing a null-terminated Unicode string that names the event.
 
-### -param EventHandle 
+### -param EventHandle [out]
 
-[out]
+
 Pointer to a location in which to return a kernel handle for the event object.
 
 ## -returns

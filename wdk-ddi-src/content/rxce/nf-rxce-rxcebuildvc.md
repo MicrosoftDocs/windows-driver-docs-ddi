@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pVc 
+### -param pVc [in, out]
 
-[in, out]
+
 On input, this parameter contains a pointer to a handle for an uninitialized virtual circuit. On output when this call is successful, the virtual circuit is associated with the specified connection and the state of the virtual circuit is initialized as active.
 
 ### -param Connection

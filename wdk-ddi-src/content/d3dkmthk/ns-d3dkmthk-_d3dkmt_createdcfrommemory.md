@@ -52,41 +52,41 @@ The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the di
 
 ## -struct-fields
 
-### -field pMemory
+### -field pMemory [in]
 
-[in] A pointer to a block of memory for the display context.
+A pointer to a block of memory for the display context.
 
-### -field Format
+### -field Format [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
 
-### -field Width
+### -field Width [in]
 
-[in] The width, in pixels, of the memory block that <b>pMemory</b> points to.
+The width, in pixels, of the memory block that <b>pMemory</b> points to.
 
-### -field Height
+### -field Height [in]
 
-[in] The height, in pixels, of the memory block that <b>pMemory</b> points to.
+The height, in pixels, of the memory block that <b>pMemory</b> points to.
 
-### -field Pitch
+### -field Pitch [in]
 
-[in] The pitch, in bytes, of the memory block that <b>pMemory</b> points to--that is, the distance in bytes to the start of the next line.
+The pitch, in bytes, of the memory block that <b>pMemory</b> points to--that is, the distance in bytes to the start of the next line.
 
-### -field hDeviceDc
+### -field hDeviceDc [in]
 
-[in] A handle to the display context for the device.
+A handle to the display context for the device.
 
-### -field pColorTable
+### -field pColorTable [in]
 
-[in] An array of 2, 4, 16, or 256 PALETTEENTRY structures that are used to initialize the colors for the memory block that <b>pMemory</b> points to. For more information about PALETTEENTRY, see the Microsoft Window SDK documentation.
+An array of 2, 4, 16, or 256 PALETTEENTRY structures that are used to initialize the colors for the memory block that <b>pMemory</b> points to. For more information about PALETTEENTRY, see the Microsoft Window SDK documentation.
 
-### -field hDc
+### -field hDc [out]
 
-[out] A handle to the display context. The OpenGL runtime generates a handle and passes it back to the driver.
+A handle to the display context. The OpenGL runtime generates a handle and passes it back to the driver.
 
-### -field hBitmap
+### -field hBitmap [out]
 
-[out] A handle to a bitmap that is related to the display context. The OpenGL runtime generates a handle and passes it back to the driver.
+A handle to a bitmap that is related to the display context. The OpenGL runtime generates a handle and passes it back to the driver.
 
 ## -see-also
 

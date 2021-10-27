@@ -49,9 +49,9 @@ Given a pointer to a pinned buffer control block (BCB) for a file, the <b>CcGetF
 
 ## -parameters
 
-### -param Bcb 
+### -param Bcb [in]
 
-[in]
+
 Pointer to the pinned BCB.
 
 ## -returns

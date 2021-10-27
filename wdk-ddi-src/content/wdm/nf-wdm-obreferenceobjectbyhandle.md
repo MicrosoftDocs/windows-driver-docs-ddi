@@ -49,31 +49,31 @@ The **ObReferenceObjectByHandle** routine provides access validation on the obje
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Specifies an open handle for an object.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the requested types of access to the object. The interpretation of this field is dependent on the object type. Do not use any generic access rights. For more information, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask).
 
-### -param ObjectType 
+### -param ObjectType [in, optional]
 
-[in, optional]
+
 Pointer to the object type. *ObjectType* can be **\*ExEventObjectType**, **\*ExSemaphoreObjectType**, **\*IoFileObjectType**, **\*PsProcessType**, **\*PsThreadType**, **\*SeTokenObjectType**, **\*TmEnlistmentObjectType**, **\*TmResourceManagerObjectType**, **\*TmTransactionManagerObjectType**, or **\*TmTransactionObjectType**.
 
 If *ObjectType* is not **NULL**, the operating system verifies that the supplied object type matches the object type of the object that *Handle* specifies.
 
-### -param AccessMode 
+### -param AccessMode [in]
 
-[in]
+
 Specifies the access mode to use for the access check. It must be either **UserMode** or **KernelMode**. Drivers should always specify **UserMode** for handles they receive from user address space.
 
-### -param Object 
+### -param Object [out]
 
-[out]
+
 Pointer to a variable that receives a pointer to the object's body. The following table contains the pointer types.
 
 |ObjectType parameter|Object pointer type|
@@ -91,9 +91,9 @@ Pointer to a variable that receives a pointer to the object's body. The followin
 
 The structures that the pointer types reference are opaque, and drivers cannot access the structure members. Because the structures are opaque, PEPROCESS is equivalent to PKPROCESS, and PETHREAD is equivalent to PKTHREAD.
 
-### -param HandleInformation 
+### -param HandleInformation [out, optional]
 
-[out, optional]
+
 Drivers set this to **NULL**.
 
 ## -returns

@@ -90,5 +90,3 @@ Each driver that imports the interface (whether by sending **IRP_MN_QUERY_INTERF
 [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
 [InterfaceDereference](./nc-wdm-pinterface_dereference.md)
-
-[InterfaceReference](./nc-wdm-pinterface_reference.md)

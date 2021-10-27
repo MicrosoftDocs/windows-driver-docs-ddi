@@ -49,14 +49,14 @@ The <b>VideoPortCreateEvent</b> function creates an event object.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param EventFlag 
+### -param EventFlag [in]
 
-[in]
+
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
 
 |Flag|Meaning|
@@ -64,14 +64,14 @@ Specifies the event type and initial event state. This can be an ORed combinatio
 |INITIAL_EVENT_SIGNALED|Set this flag to indicate the signaled state for the event object. Otherwise, the initial state of the event is nonsignaled.|
 |NOTIFICATION_EVENT|Set this flag to create a notification event. If this flag is not set, a synchronization event is created.|
 
-### -param Unused 
+### -param Unused [in]
 
-[in]
+
 Is currently ignored by the video port driver and must be set to <b>NULL</b>.
 
-### -param ppEvent 
+### -param ppEvent [out]
 
-[out]
+
 Pointer to the memory location at which a pointer to the event object will be returned.
 
 ## -returns

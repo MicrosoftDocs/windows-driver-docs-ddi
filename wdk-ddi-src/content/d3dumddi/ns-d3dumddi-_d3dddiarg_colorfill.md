@@ -52,25 +52,25 @@ The D3DDDIARG_COLORFILL structure describes the parameters of a color-fill opera
 
 ## -struct-fields
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource.
+A handle to the resource.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource, or surface, on which a rectangular area is color-filled.
+The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource, or surface, on which a rectangular area is color-filled.
 
-### -field DstRect
+### -field DstRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill.
+A <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill.
 
 ### -field Color
 
 A D3DCOLOR data type for the A8R8G8B8 fill color.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform.
 
 ## -see-also
 

@@ -49,9 +49,9 @@ The <b>IoWritePartitionTableEx</b> routine writes partition tables from the entr
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object representing the disk whose partition tables are to be written.
 
 ### -param DriveLayout

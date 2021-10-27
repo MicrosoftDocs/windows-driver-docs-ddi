@@ -51,19 +51,19 @@ The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefini
 
 ## -parameters
 
-### -param bstrName
+### -param bstrName [in]
 
-[in]
+
 The keyword name
 
-### -param bstrNamespaceUri
+### -param bstrNamespaceUri [in]
 
-[in]
+
 The keyword namespace URI
 
-### -param ppParameterDefinition
+### -param ppParameterDefinition [out, retval]
 
-[out, retval]
+
 The **IPrintSchemaParameterDefinition** object
 
 ## -returns

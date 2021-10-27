@@ -49,13 +49,13 @@ The D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes a cube texture th
 
 ## -struct-fields
 
-### -field MostDetailedMip
+### -field MostDetailedMip [in]
 
-[in] The identifier of the most detailed MIP-map.
+The identifier of the most detailed MIP-map.
 
-### -field MipLevels
+### -field MipLevels [in]
 
-[in] The number of MIP-map levels for the texture.
+The number of MIP-map levels for the texture.
 
 ## -remarks
 

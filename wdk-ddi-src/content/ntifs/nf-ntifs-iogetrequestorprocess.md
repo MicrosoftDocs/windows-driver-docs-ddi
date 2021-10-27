@@ -49,9 +49,9 @@ The <b>IoGetRequestorProcess</b> routine returns a process pointer for the threa
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the I/O request packet (IRP) for the I/O operation.
 
 ## -returns

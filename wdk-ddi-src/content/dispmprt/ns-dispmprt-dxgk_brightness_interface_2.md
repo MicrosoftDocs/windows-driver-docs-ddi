@@ -52,53 +52,53 @@ Contains pointers to functions in the Panel Brightness Control Interface Version
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in]
 
-[in] The size, in bytes, of this structure.
+The size, in bytes, of this structure.
 
-### -field Version
+### -field Version [in]
 
-[in] The version number of the brightness interface. Version number constants are defined in Dispmprt.h (for example, <b>DXGK_BRIGHTNESS_INTERFACE_VERSION_2</b>).
+The version number of the brightness interface. Version number constants are defined in Dispmprt.h (for example, <b>DXGK_BRIGHTNESS_INTERFACE_VERSION_2</b>).
 
-### -field Context
+### -field Context [in]
 
-[in] A pointer to a private context block.
+A pointer to a private context block.
 
-### -field InterfaceReference
+### -field InterfaceReference [out]
 
-[out] A pointer to an interface reference function that is implemented by the display miniport driver.
+A pointer to an interface reference function that is implemented by the display miniport driver.
 
-### -field InterfaceDereference
+### -field InterfaceDereference [out]
 
-[out] A pointer to an interface dereference function that is implemented by the display miniport driver.
+A pointer to an interface dereference function that is implemented by the display miniport driver.
 
-### -field GetPossibleBrightness
+### -field GetPossibleBrightness [out]
 
-[out] A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_possible">DxgkDdiGetPossibleBrightness</a> function.
+A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_possible">DxgkDdiGetPossibleBrightness</a> function.
 
-### -field SetBrightness
+### -field SetBrightness [out]
 
-[out] A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set">DxgkDdiSetBrightness</a> function.
+A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set">DxgkDdiSetBrightness</a> function.
 
-### -field GetBrightness
+### -field GetBrightness [out]
 
-[out] A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get">DxgkDdiGetBrightness</a> function.
+A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get">DxgkDdiGetBrightness</a> function.
 
-### -field GetBrightnessCaps
+### -field GetBrightnessCaps [out]
 
-[out] A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_caps">DxgkDdiGetBrightnessCaps</a> function. This function is available starting with Windows 8.
+A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_caps">DxgkDdiGetBrightnessCaps</a> function. This function is available starting with Windows 8.
 
-### -field SetBrightnessState
+### -field SetBrightnessState [out]
 
-[out] A pointer to the display miniport driver's  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_state">DxgkDdiSetBrightnessState</a> function. This function is available starting with Windows 8.
+A pointer to the display miniport driver's  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_state">DxgkDdiSetBrightnessState</a> function. This function is available starting with Windows 8.
 
-### -field SetBacklightOptimization
+### -field SetBacklightOptimization [out]
 
-[out] A pointer to the display miniport driver's  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization">DxgkDdiSetBacklightOptimization</a> function. This function is available starting with Windows 8.
+A pointer to the display miniport driver's  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization">DxgkDdiSetBacklightOptimization</a> function. This function is available starting with Windows 8.
 
-### -field GetBacklightReduction
+### -field GetBacklightReduction [out]
 
-[out] A pointer to the display miniport driver's  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_backlight_reduction">DxgkDdiGetBacklightReduction</a> function. This function is available starting with Windows 8.
+A pointer to the display miniport driver's  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_backlight_reduction">DxgkDdiGetBacklightReduction</a> function. This function is available starting with Windows 8.
 
 ## -remarks
 

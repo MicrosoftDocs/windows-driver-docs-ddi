@@ -41,13 +41,13 @@ Data structure used to check for video process protected resource support capabi
 
 ## -struct-fields
 
-### -field NodeIndex
+### -field NodeIndex [in]
 
-[in] In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
+In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
-### -field SupportFlags
+### -field SupportFlags [out]
 
-[out] A [**D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072**](ne-d3d12umddi-d3d12ddi_video_protected_resource_support_flags_0072.md) value in which to return the video process protected resource support level.
+A [**D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072**](ne-d3d12umddi-d3d12ddi_video_protected_resource_support_flags_0072.md) value in which to return the video process protected resource support level.
 
 ## -remarks
 

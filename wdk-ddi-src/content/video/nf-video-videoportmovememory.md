@@ -49,14 +49,14 @@ The <b>VideoPortMoveMemory</b> function copies data from the source location to 
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in, out]
 
-[in, out]
+
 Pointer to the destination location.
 
-### -param Source 
+### -param Source [in, out]
 
-[in, out]
+
 Pointer to the location of the data to copy.
 
 ### -param Length

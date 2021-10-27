@@ -49,9 +49,9 @@ GetPacketCount returns the (1-based) count of packets completely transferred fro
 
 ## -parameters
 
-### -param pPacketCount 
+### -param pPacketCount [out]
 
-[out]
+
 pPacketCount returns the number of packets completely transferred from the WaveRT buffer into hardware.
 
 ## -returns

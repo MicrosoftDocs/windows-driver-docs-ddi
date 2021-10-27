@@ -50,24 +50,24 @@ api_name:
 
 ## -parameters
 
-### -param NdisPartyHandle 
+### -param NdisPartyHandle [in]
 
-[in]
+
 Specifies the handle identifying the party to be dropped on the multipoint connection. The client
      obtained this handle from a preceding call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
 
-### -param Buffer 
+### -param Buffer [in, optional]
 
-[in, optional]
+
 Pointer to a caller-allocated buffer containing any data to be transmitted to close the multipoint
      connection of the party on the remote node. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
-### -param Size 
+### -param Size [in, optional]
 
-[in, optional]
+
 Specifies the size in bytes at 
      <i>Buffer</i>, zero if 
      <i>Buffer</i> is <b>NULL</b>.

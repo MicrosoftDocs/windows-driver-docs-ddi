@@ -57,15 +57,15 @@ api_name:
 
 ### -param ulQueryMode
 
-### -param pvProfileData 
+### -param pvProfileData [out]
 
-[out]
 
-### -param pcbProfileData 
 
-[out]
+### -param pcbProfileData [out]
 
-### -param pflProfileData 
 
-[out]
+
+### -param pflProfileData [out]
+
+
 

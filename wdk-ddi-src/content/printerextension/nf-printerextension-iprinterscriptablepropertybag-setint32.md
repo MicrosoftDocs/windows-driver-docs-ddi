@@ -49,14 +49,14 @@ Writes an integer property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to set.
 
-### -param nValue 
+### -param nValue [in]
 
-[in]
+
 The new value to set.
 
 ## -returns

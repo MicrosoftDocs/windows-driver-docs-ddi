@@ -49,14 +49,14 @@ The <b>FltSetIoPriorityHintIntoThread</b> routine is used by a minifilter driver
 
 ## -parameters
 
-### -param Thread 
+### -param Thread [in]
 
-[in]
+
 A pointer to the thread to modify. This parameter is required and cannot be <b>NULL</b>.
 
-### -param PriorityHint 
+### -param PriorityHint [in]
 
-[in]
+
 The  <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> enumeration value to set for the thread information pointed to by <i>Thread</i>.
 
 ## -returns

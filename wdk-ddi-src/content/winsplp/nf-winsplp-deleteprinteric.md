@@ -47,7 +47,7 @@ api_name:
 
 ## -parameters
 
-### -param hPrinterIC 
+### -param hPrinterIC [in]
 
-[in]
+
 

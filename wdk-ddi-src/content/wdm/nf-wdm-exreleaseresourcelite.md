@@ -49,9 +49,9 @@ The **ExReleaseResourceLite** routine releases a specified executive resource ow
 
 ## -parameters
 
-### -param Resource
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to an executive resource owned by the current thread.
 
 ## -remarks

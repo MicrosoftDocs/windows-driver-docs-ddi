@@ -51,9 +51,9 @@ Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and l
 
 ## -parameters
 
-### -param hDevice
+### -param hDevice [in]
 
-[in] A handle to the display device (graphics context) that is used to create the resource.
+A handle to the display device (graphics context) that is used to create the resource.
 
 ### -param unnamedParam2
 

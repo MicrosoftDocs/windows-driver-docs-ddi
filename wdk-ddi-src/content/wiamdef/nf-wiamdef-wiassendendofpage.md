@@ -49,18 +49,18 @@ The <b>wiasSendEndOfPage </b>function calls the client callback routine during a
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param lPageCount
 
 Specifies the total page count.
 
-### -param pmdtc 
+### -param pmdtc [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context">MINIDRV_TRANSFER_CONTEXT</a> structure.
 
 ## -returns

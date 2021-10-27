@@ -52,13 +52,13 @@ The DXVAHDDDI_DEVICE_DESC structure describes a decode device.
 
 ## -struct-fields
 
-### -field pContentDesc
+### -field pContentDesc [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_content_desc">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_content_desc">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content.
 
-### -field Usage
+### -field Usage [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video.
 
 ## -remarks
 

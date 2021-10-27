@@ -49,14 +49,14 @@ The <b>KeSetHardwareCounterConfiguration</b> routine specifies a list of hardwar
 
 ## -parameters
 
-### -param CounterArray 
+### -param CounterArray [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a> array that describes the hardware counter configuration to use for thread profiling. Each array element is a structure that describes a hardware counter. Before the routine returns, it copies the contents of this array into its internal data structures.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of elements in the array that is pointed to by the <i>CounterArray</i> parameter.
 
 ## -returns

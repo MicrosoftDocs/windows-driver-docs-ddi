@@ -55,13 +55,13 @@ The D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure describes a debug snapshot that is re
 
 ## -struct-fields
 
-### -field Length
+### -field Length [out]
 
-[out] The actual length of the snapshot written in the <b>Buffer</b> member.
+The actual length of the snapshot written in the <b>Buffer</b> member.
 
-### -field Buffer
+### -field Buffer [out]
 
-[out] The buffer to place the snapshot in.
+The buffer to place the snapshot in.
 
 ## -see-also
 

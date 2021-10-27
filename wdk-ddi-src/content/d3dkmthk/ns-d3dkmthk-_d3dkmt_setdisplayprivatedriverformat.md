@@ -52,17 +52,17 @@ The D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format 
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device that requests to change the private-format attribute of a video present source.
+A handle to the device that requests to change the private-format attribute of a video present source.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to set a private-format attribute on (that is, the identifier of the primary surface to set a private-format attribute on).
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to set a private-format attribute on (that is, the identifier of the primary surface to set a private-format attribute on).
 
-### -field PrivateDriverFormatAttribute
+### -field PrivateDriverFormatAttribute [in]
 
-[in] A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies.
+A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies.
 
 ## -see-also
 

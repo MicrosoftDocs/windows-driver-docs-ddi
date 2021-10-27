@@ -4,7 +4,7 @@ title: SPB_TRANSFER_BUFFER_LIST_ENTRY (spb.h)
 description: The SPB_TRANSFER_BUFFER_LIST_ENTRY structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
 old-location: spb\spb_transfer_buffer_list_entry.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 09/13/2021
 keywords: ["SPB_TRANSFER_BUFFER_LIST_ENTRY structure"]
 ms.keywords: "*PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_buffer_list_entry, SPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY, spb/SPB_TRANSFER_BUFFER_LIST_ENTRY"
 req.header: spb.h
@@ -45,10 +45,9 @@ api_name:
 
 # SPB_TRANSFER_BUFFER_LIST_ENTRY structure
 
-
 ## -description
 
-The <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
+The **SPB_TRANSFER_BUFFER_LIST_ENTRY** structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
 
 ## -struct-fields
 
@@ -58,27 +57,17 @@ The virtual address of the transfer buffer. For a transfer that is requested by 
 
 ### -field BufferCb
 
-The size, in bytes, of the transfer buffer that <b>Buffer</b> points to.
+The size, in bytes, of the transfer buffer that *Buffer* points to.
 
 ## -remarks
 
-To request an <a href="/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a> for a target device on the bus, a client (peripheral driver) of the SPB controller driver sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request that describes the sequence. The transfers in the sequence are described by an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a> structure that is followed by an array of one or more <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a> structures. Each element in this array describes an individual transfer in the sequence, and each element contains an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a> structure that describes the buffer to use for the transfer.
+To request an [I/O transfer sequence](/windows-hardware/drivers/spb/i-o-transfer-sequences) for a target device on the bus, a client (peripheral driver) of the SPB controller driver sends an [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence) request that describes the sequence. The transfers in the sequence are described by an [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md) structure that is followed by an array of one or more [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md) structures. Each element in this array describes an individual transfer in the sequence, and each element contains an [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md) structure that describes the buffer to use for the transfer.
 
-If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSFER_BUFFER</b> structure contains a single <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structure that describes a simple buffer that is specified by an address and a length. If the buffer format is <b>SpbTransferBufferFormatList</b>, the buffer is a scatter-gather list, and the  <b>SPB_TRANSFER_BUFFER</b> structure contains a pointer to an <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> array that describes the list.
+If the buffer format is **SpbTransferBufferFormatSimple**, an **SPB_TRANSFER_BUFFER** structure contains a single **SPB_TRANSFER_BUFFER_LIST_ENTRY** structure that describes a simple buffer that is specified by an address and a length. If the buffer format is **SpbTransferBufferFormatList**, the buffer is a scatter-gather list, and the **SPB_TRANSFER_BUFFER** structure contains a pointer to an **SPB_TRANSFER_BUFFER_LIST_ENTRY** array that describes the list.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
-
+* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+* [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md)
+* [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)
+* [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)

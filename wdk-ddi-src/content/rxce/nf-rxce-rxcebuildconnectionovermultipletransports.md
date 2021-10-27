@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pMiniRedirectorDeviceObject 
+### -param pMiniRedirectorDeviceObject [in, out]
 
-[in, out]
+
 A pointer to the mini-redirector device object.
 
 ### -param CreateOption
@@ -82,44 +82,44 @@ A pointer to the mini-redirector device object.
     
   </dl>
 
-### -param NumberOfAddresses 
+### -param NumberOfAddresses [in]
 
-[in]
+
 The number of local addresses (transports).
 
-### -param pLocalAddressPointers 
+### -param pLocalAddressPointers [in]
 
-[in]
+
 A pointer to an array of the local address handles.
 
-### -param pServerName 
+### -param pServerName [in]
 
-[in]
+
 A pointer to the name of the server (for connection enumeration).
 
-### -param pConnectionInformation 
+### -param pConnectionInformation [in]
 
-[in]
+
 A pointer to the connection information that specifies the remote address.
 
-### -param pHandler 
+### -param pHandler [in]
 
-[in]
+
 A pointer to the event handler for processing receive indications.
 
-### -param pEventContext 
+### -param pEventContext [in]
 
-[in]
+
 A pointer to the context parameter to be passed back to the event handler and used for indications.
 
-### -param pCompletionRoutine 
+### -param pCompletionRoutine [in]
 
-[in]
+
 A pointer to a connection completion routine when this routine completed if STATUS_PENDING is initially returned.
 
-### -param pCompletionContext 
+### -param pCompletionContext [in, out]
 
-[in, out]
+
 On input, this parameter contains a pointer to an uninitialized RXCE_CONNECTION_COMPLETION_CONTEXT structure. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit and connection are properly initialized.
 
 ## -returns

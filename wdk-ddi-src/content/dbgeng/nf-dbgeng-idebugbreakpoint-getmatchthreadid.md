@@ -49,9 +49,9 @@ The <b>GetMatchThreadId</b> method returns the engine thread ID of the thread th
 
 ## -parameters
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 The engine thread ID of the thread that can trigger this breakpoint.
 
 ## -returns

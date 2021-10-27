@@ -51,19 +51,19 @@ The <b>RetrieveDeviceInformation</b> method retrieves device information of the 
 
 ## -parameters
 
-### -param InformationType 
+### -param InformationType [in]
 
-[in]
+
 The type of information that the UMDF driver requests about the device.
 
-### -param BufferLength 
+### -param BufferLength [in, out]
 
-[in, out]
+
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrieveDeviceInformation</b> supplies in <i>Buffer</i>. On output, this parameter contains the size that <b>RetrieveDeviceInformation</b> requires for <i>Buffer</i>.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer that receives the buffer that contains the device information.
 
 ## -returns

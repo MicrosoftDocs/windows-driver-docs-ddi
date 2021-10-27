@@ -4,7 +4,7 @@ title: _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA (ucmtcpciportcontroller.h)
 description: Contains information about hardware alerts received on the port controller object. This structure is used in the UcmTcpciPortControllerAlert call. Call UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT to initialize this structure.
 old-location: buses\ucmtcpci_port_controller_alert_data.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 09/14/2021
 keywords: ["UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
 req.header: ucmtcpciportcontroller.h
@@ -48,10 +48,9 @@ api_name:
 
 # _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure
 
-
 ## -description
 
-                 Contains information about hardware alerts received on the port controller object. This structure is used in the <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a> call. Call <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_alert_data_init">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT</a> to initialize this structure.
+Contains information about hardware alerts received on the port controller object. This structure is used in the [UcmTcpciPortControllerAlert](./nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md) call. Call [UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT](./nf-ucmtcpciportcontroller-ucmtcpci_port_controller_alert_data_init.md) to initialize this structure.
 
 ## -struct-fields
 
@@ -61,32 +60,24 @@ Size of this structure.
 
 ### -field AlertType
 
-A <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/ne-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_type">UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE</a> value that indicates the type of hardware alert.
+A [UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE](./ne-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_type.md) value that indicates the type of hardware alert.
 
 ### -field CCStatus
 
-A 
-                     <b>UCMTCPCI_PORT_CONTROLLER_CC_STATUS</b> structure that contains status information about the CC lines of the port controller.
-                 This structure is defined in UcmTcpciSpec.h.
+A **UCMTCPCI_PORT_CONTROLLER_CC_STATUS** structure that contains status information about the CC lines of the port controller. This structure is defined in UcmTcpciSpec.h.
 
 ### -field PowerStatus
 
-A 
-                     <b>UCMTCPCI_PORT_CONTROLLER_POWER_STATUS</b> structure that contains the power status of the port controller.
-                 This structure is defined in UcmTcpciSpec.h.
+A **UCMTCPCI_PORT_CONTROLLER_POWER_STATUS** structure that contains the power status of the port controller. This structure is defined in UcmTcpciSpec.h.
 
 ### -field FaultStatus
 
-A 
-                     <b>UCMTCPCI_PORT_CONTROLLER_FAULT_STATUS</b> structure that contains the fault status of the port controller.
-                 This structure is defined in UcmTcpciSpec.h.
+A **UCMTCPCI_PORT_CONTROLLER_FAULT_STATUS** structure that contains the fault status of the port controller. This structure is defined in UcmTcpciSpec.h.
 
 ### -field ReceiveBuffer
 
-                     A pointer to a 
-                 <a href="https://msdn.microsoft.com/d051efa0-b637-41d8-935f-0d6e2e7eeca6">UCMTCPCI_PORT_CONTROLLER_RECEIVE_BUFFER</a> structure that represents the buffer for receiving the alert from the port controller. This structure is defined in UcmTcpciSpec.h.
+A pointer to a **UCMTCPCI_PORT_CONTROLLER_RECEIVE_BUFFER** structure that represents the buffer for receiving the alert from the port controller. This structure is defined in UcmTcpciSpec.h.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a>
-
+[UcmTcpciPortControllerAlert](./nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md)

@@ -49,19 +49,19 @@ The <b>QuerySupported</b> method determines whether a KS object supports a prope
 
 ## -parameters
 
-### -param PropSet 
+### -param PropSet [in]
 
-[in]
+
 GUID that identifies the property set.
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 Identifier of the property within the property set.
 
-### -param TypeSupport 
+### -param TypeSupport [out]
 
-[out]
+
 Pointer to a variable that receives a bitmask enumerating the flags that indicate the support that the underlying driver provides. A driver can support a bitwise OR combination of the following flags: 
 
 <table>

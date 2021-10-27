@@ -49,25 +49,25 @@ The [GetLocation]() routine returns the device location of a PCI Express (PCIe) 
 
 ## -parameters
 
-### -param Context
+### -param Context [in, out]
 
-[in, out] A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
 
-### -param VirtualFunction
+### -param VirtualFunction [in]
 
-[in] A zero-based value that specifies the VF on the device for  which the device location is returned
+A zero-based value that specifies the VF on the device for  which the device location is returned
 
-### -param SegmentNumber
+### -param SegmentNumber [out]
 
-[out] A pointer to a caller-supplied variable in which this routine returns a UINT16 value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
+A pointer to a caller-supplied variable in which this routine returns a UINT16 value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
-### -param BusNumber
+### -param BusNumber [out]
 
-[out] A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the current PCI bus number on which the device is attached.
+A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the current PCI bus number on which the device is attached.
 
-### -param FunctionNumber
+### -param FunctionNumber [out]
 
-[out] A pointer to a caller-supplied variable in which this routine returns a UINT8 value.  This value contains the function number for the specified VF on the PCI bus.
+A pointer to a caller-supplied variable in which this routine returns a UINT8 value.  This value contains the function number for the specified VF on the PCI bus.
 
 ## -returns
 

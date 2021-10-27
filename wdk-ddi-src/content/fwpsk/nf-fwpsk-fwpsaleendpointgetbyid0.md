@@ -53,21 +53,21 @@ The
 
 ## -parameters
 
-### -param engineHandle 
+### -param engineHandle [in]
 
-[in]
+
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
-### -param endpointId 
+### -param endpointId [in]
 
-[in]
+
 The unique endpoint identifier.
 
-### -param properties 
+### -param properties [out]
 
-[out]
+
 A pointer to an 
      <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0">
      FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure that contains the properties of the endpoint.

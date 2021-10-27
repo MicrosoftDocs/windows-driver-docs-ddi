@@ -49,25 +49,25 @@ api_name:
 
 ## -struct-fields
 
-### -field pInputDesc
+### -field pInputDesc [in]
 
-[in] Contains the decode profile used and the resolution and format of the reference frames.  This is the resolution/format to be downsampled (e.g. 4K, DXGI_FORMAT_P010).
+Contains the decode profile used and the resolution and format of the reference frames.  This is the resolution/format to be downsampled (e.g. 4K, DXGI_FORMAT_P010).
 
-### -field InputColorSpace
+### -field InputColorSpace [in]
 
-[in] Contains the color space information of the reference frame data.
+Contains the color space information of the reference frame data.
 
-### -field pInputConfig
+### -field pInputConfig [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_config">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that contains the configuration data associated with the decode profile .
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_config">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that contains the configuration data associated with the decode profile .
 
-### -field pFrameRate
+### -field pFrameRate [in]
 
-[in] Contains the frame rate of the video content.
+Contains the frame rate of the video content.
 
-### -field pOutputDesc
+### -field pOutputDesc [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_desc">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that contains the resolution and the format of the display frames.  This is the destination resolution and format of the down sample operation.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_desc">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that contains the resolution and the format of the display frames.  This is the destination resolution and format of the down sample operation.
 
 
 
@@ -75,17 +75,17 @@ api_name:
 </div>
 <div> </div>
 
-### -field OutputColorSpace
+### -field OutputColorSpace [in]
 
-[in] Contains the color space information of the display frame data.
+Contains the color space information of the display frame data.
 
-### -field Supported
+### -field Supported [out]
 
-[out] The driver sets this to <b>TRUE</b> if the requested down sampling is supported.  Otherwise, the driver should set this to <b>FALSE</b>.
+The driver sets this to <b>TRUE</b> if the requested down sampling is supported.  Otherwise, the driver should set this to <b>FALSE</b>.
 
-### -field RealTime
+### -field RealTime [out]
 
-[out] The driver sets this to <b>TRUE</b> if the requested down sampling is supported and the resulting decode operations can occur in real-time.  Otherwise, the driver should set this to <b>FALSE</b>.
+The driver sets this to <b>TRUE</b> if the requested down sampling is supported and the resulting decode operations can occur in real-time.  Otherwise, the driver should set this to <b>FALSE</b>.
 
 ## -see-also
 

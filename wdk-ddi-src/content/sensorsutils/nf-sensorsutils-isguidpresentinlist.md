@@ -49,17 +49,17 @@ This routine looks for a GUID in a list of GUIDs.
 
 ## -parameters
 
-### -param guidArray
+### -param guidArray [in]
 
-[in] GUID Array to search in.
+GUID Array to search in.
 
-### -param arrayLength
+### -param arrayLength [in]
 
-[in] Length of GUID Array to search in.
+Length of GUID Array to search in.
 
-### -param guidElem
+### -param guidElem [in]
 
-[in] GUID Element to search for.
+GUID Element to search for.
 
 ## -returns
 

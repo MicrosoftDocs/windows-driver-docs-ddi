@@ -49,15 +49,15 @@ The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a know
 
 ## -parameters
 
-### -param type 
+### -param type [in]
 
-[in]
+
 
 Specifies the name of a known structure type containing <i>Field</i>.
 
-### -param field 
+### -param field [in]
 
-[in]
+
 Specifies the name of a field in a structure of type <i>Type</i>.
 
 ## -remarks
@@ -66,4 +66,4 @@ Used by device driver writers to symbolically determine the offset of a known fi
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
+[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)

@@ -49,13 +49,13 @@ Allows very simple data to be exchanged between the OS and driver which may be r
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Identifies the adapter.
+Identifies the adapter.
 
-### -param pPreStartInfo
+### -param pPreStartInfo [in]
 
-[in] Pointer to a [DXGK_PRE_START_INFO](ns-dispmprt-_dxgk_pre_start_info.md) structure, which contains both fields for the OS to pass info and fields for the driver to return info. Initially, only *SupportPreserveBootDisplay* is defined.
+Pointer to a [DXGK_PRE_START_INFO](ns-dispmprt-_dxgk_pre_start_info.md) structure, which contains both fields for the OS to pass info and fields for the driver to return info. Initially, only *SupportPreserveBootDisplay* is defined.
 
 [out] SupportPreserveBootDisplay
 

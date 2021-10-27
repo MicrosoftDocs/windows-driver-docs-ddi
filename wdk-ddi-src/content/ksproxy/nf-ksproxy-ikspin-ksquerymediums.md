@@ -49,9 +49,9 @@ The <b>KsQueryMediums</b> method retrieves mediums that a pin supports.
 
 ## -parameters
 
-### -param MediumList 
+### -param MediumList [out]
 
-[out]
+
 Pointer to a buffer that receives a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="/windows-hardware/drivers/stream/kspin-medium-structure">KSPIN_MEDIUM</a> structures that describe medium types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 ## -returns

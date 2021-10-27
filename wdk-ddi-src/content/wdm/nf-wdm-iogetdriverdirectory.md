@@ -46,21 +46,21 @@ Returns a handle to a directory on disk from which the driver can read and write
 
 ## -parameters
 
-### -param DriverObject
+### -param DriverObject [_In_]
 
-[_In_] A pointer to the driver object ([**DRIVER_OBJECT**](ns-wdm-_driver_object.md) structure) of the calling driver.
+A pointer to the driver object ([**DRIVER_OBJECT**](ns-wdm-_driver_object.md) structure) of the calling driver.
 
-### -param DirectoryType
+### -param DirectoryType [_In_]
 
-[_In_] A [**_DRIVER_DIRECTORY_TYPE**](ne-wdm-_driver_directory_type.md)-type value that indicates the type of requested directory.
+A [**_DRIVER_DIRECTORY_TYPE**](ne-wdm-_driver_directory_type.md)-type value that indicates the type of requested directory.
 
-### -param Flags
+### -param Flags [_In_]
 
-[_In_] Must be 0.
+Must be 0.
 
-### -param DriverDirectoryHandle
+### -param DriverDirectoryHandle [_Out_]
 
-[_Out_] A pointer to a variable that receives a HANDLE to the requested driver directory. The caller must not pass NULL.
+A pointer to a variable that receives a HANDLE to the requested driver directory. The caller must not pass NULL.
 
 ## -returns
 

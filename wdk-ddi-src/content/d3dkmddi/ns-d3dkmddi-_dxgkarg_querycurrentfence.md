@@ -52,17 +52,17 @@ The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submissio
 
 ## -struct-fields
 
-### -field CurrentFence
+### -field CurrentFence [out]
 
-[out] The current fence data.
+The current fence data.
 
-### -field NodeOrdinal
+### -field NodeOrdinal [in]
 
-[in] The zero-based index of the node for the current fence.
+The zero-based index of the node for the current fence.
 
-### -field EngineOrdinal
+### -field EngineOrdinal [in]
 
-[in] The zero-based index of the engine, within the node that <b>NodeOrdinal</b> specifies, for the current fence.
+The zero-based index of the engine, within the node that <b>NodeOrdinal</b> specifies, for the current fence.
 
 ## -see-also
 

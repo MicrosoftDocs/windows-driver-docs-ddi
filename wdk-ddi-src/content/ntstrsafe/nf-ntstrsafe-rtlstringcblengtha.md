@@ -50,14 +50,14 @@ The <b>RtlStringCbLengthW</b> and <b>RtlStringCbLengthA</b> functions determine 
 
 ## -parameters
 
-### -param psz 
+### -param psz [in]
 
-[in]
+
 A pointer to a buffer that contains a null-terminated string, the length of which will be checked.
 
-### -param cbMax 
+### -param cbMax [in]
 
-[in]
+
 The maximum number of bytes allowed in the buffer that is pointed to by <i>psz</i>, including the terminating null character. 
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 

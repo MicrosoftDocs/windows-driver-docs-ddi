@@ -49,7 +49,7 @@ The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="/wind
 
 ## -parameters
 
-### -param Capabilities 
+### -param Capabilities [out]
 
-[out]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.

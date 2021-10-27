@@ -49,9 +49,9 @@ Writes a byte array property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The array to write to.
 
 ### -param pArray

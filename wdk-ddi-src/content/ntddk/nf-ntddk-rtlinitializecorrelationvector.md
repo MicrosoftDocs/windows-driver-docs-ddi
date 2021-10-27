@@ -51,14 +51,14 @@ api_name:
 
 ## -parameters
 
-### -param CorrelationVector 
+### -param CorrelationVector [in, out]
 
-[in, out]
+
 A pointer to a  <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
 
-### -param Version 
+### -param Version [in]
 
-[in]
+
 The version of the correlation vector. Possible values are: 
 
 <ul>
@@ -67,9 +67,9 @@ The version of the correlation vector. Possible values are:
 <li>RTL_CORRELATION_VECTOR_VERSION_CURRENT</li>
 </ul>
 
-### -param Guid 
+### -param Guid [in]
 
-[in]
+
 The GUID to initialize the correlation vector. The first 22 bytes
             of the correlation vector are a base64 representation of the GUID. This value must not be NULL.
 

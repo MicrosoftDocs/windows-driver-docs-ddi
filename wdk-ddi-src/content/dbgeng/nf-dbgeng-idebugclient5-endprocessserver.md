@@ -49,9 +49,9 @@ The <b>EndProcessServer</b> method requests that a process server be shut down.
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 Specifies the process server to shut down.  This handle must have been previously returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-connectprocessserver">ConnectProcessServer</a>.
 
 ## -returns
