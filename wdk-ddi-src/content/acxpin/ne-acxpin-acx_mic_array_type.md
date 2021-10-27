@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_MIC_ARRAY_TYPE
 tech.root: audio
 title: ACX_MIC_ARRAY_TYPE
-ms.date: 10/05/2021
+ms.date: 10/27/2021
 targetos: Windows
-description: 
+description: The ACX_MIC_ARRAY_TYPE enumeration is used to specify the type of a microphone array.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,17 +37,26 @@ dev_langs:
 
 ## -description
 
+The **ACX_MIC_ARRAY_TYPE** enumeration is used to specify the type of a microphone array.
+
 ## -enum-fields
 
 ### -field AcxMicArrayTypeLinear
 
+Indicates that the microphone array is linear.
+
 ### -field AcxMicArrayTypePlanar
+
+Indicates that the microphone array is planar.
 
 ### -field AcxMicArrayType3d
 
+Indicates that the microphone array is 3D.
+
 ### -field AcxMicArrayTypeMaximum
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
-

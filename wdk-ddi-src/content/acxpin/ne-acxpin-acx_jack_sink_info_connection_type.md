@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_JACK_SINK_INFO_CONNECTION_TYPE
 tech.root: audio
 title: ACX_JACK_SINK_INFO_CONNECTION_TYPE
-ms.date: 10/05/2021
+ms.date: 10/27/2021
 targetos: Windows
-description: 
+description: The ACX_JACK_SINK_INFO_CONNECTION_TYPE enumeration is used by the ACX_JACK_SINK_INFORMATION structure tp specify the type of a connection.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,13 +40,18 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_SINK_INFO_CONNECTION_TYPE** enumeration is used by the [ACX_JACK_SINK_INFORMATION](ns-acxpin-acx_jack_sink_information.md) structure to specify the type of a connection.
+
 ## -enum-fields
 
 ### -field AcxJackSinkInfoConnectionTypeHdmi
 
+Indicates that the connection type is an HDMI jack.
+
 ### -field AcxJackSinkInfoConnectionTypeDisplayPort
+
+Indicates that the port type is a DisplayPort jack.
 
 ## -remarks
 
 ## -see-also
-

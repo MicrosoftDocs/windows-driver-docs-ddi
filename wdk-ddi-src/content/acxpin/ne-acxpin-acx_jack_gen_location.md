@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_JACK_GEN_LOCATION
 tech.root: audio
 title: ACX_JACK_GEN_LOCATION
-ms.date: 10/05/2021
+ms.date: 10/27/2021
 targetos: Windows
-description: 
+description: The ACX_JACK_GEN_LOCATION enumeration is used by the ACX_JACK_DESCRIPTION structure to help describe the general location of an audio jack within a system.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,19 +40,32 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_GEN_LOCATION** enumeration is used by the [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure to help describe the general location of an audio jack within a system.
+
 ## -enum-fields
 
 ### -field AcxGenLocPrimaryBox
 
+Indicates that the jack is located on the primary chassis of the system.
+
 ### -field AcxGenLocInternal
+
+Indicates that the jack is located inside the primary chassis in the system.
 
 ### -field AcxGenLocSeparate
 
+Indicates that the jack is located on a separate chassis from the primary box.
+
 ### -field AcxGenLocOther
 
+Indicates that the jack is located somewhere other than the locations defined by this enum.
+
 ### -field AcxJackGenLocationMaximum
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
 
+[ACX_JACK_GEO_LOCATION](ne-acxpin-acx_jack_geo_location.md)
