@@ -48,7 +48,7 @@ api_name:
 
 ## -parameters
 
-## -param pData
+## -param unnamedParam1
 
 [in] A pointer to a [**DXGKARGCB_GETHANDLEDATA**](ns-d3dkmddi-_dxgkargcb_gethandledata.md) structure that describes the allocation data to retrieve.
 
