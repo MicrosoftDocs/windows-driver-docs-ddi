@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_POWER_DOWN
 ms.date: 08/23/2021
 targetos: Windows
-description: TBD - The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to allow it to add additional functionality when a circuit is powered down using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXCIRCUIT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,21 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to allow it to add additional functionality when a circuit is powered down using the TBD function is called,  TBD TBD. 
+The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of a ACXCIRCUIT object.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXCIRCUIT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)) powered down.
 
 ### -param TargetState
+
+A WDF_POWER_DEVICE_STATE-typed enumerator that identifies the device power state that the device is about to enter.
 
 ## -returns
 
@@ -62,13 +64,44 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+To register an EvtCircuitPowerDown callback function, a driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
+
+If the driver has registered an EvtCircuitPowerDown callback function, the ACX framework calls the function each time one of the driver's devices leaves its working (D0) state. A device leaves the D0 state when one of the following occurs:
+
+. The system and all of its devices are about to leave their working states and enter a low-power state.
+. The device is about to enter a low-power state because it is idle, if the device supports low-power idle.
+. The Plug and Play manager is attempting to redistribute the system's hardware resources.
+. A user has indicated, typically by means of an application's user interface, that he or she wants to remove the device.
+. The framework also calls the EvtCircuitPowerDown callback function after a device has been removed unexpectedly (surprise-removed).
+
+For more information about when the framework calls this callback function, see PnP and Power Management Scenarios.
+
+Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the drivier's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter.
+
+The EvtCircuitPowerDown callback function must perform any operations that are necessary before the ACXCIRCUT's hardware enters the specified low-power state, such as saving any information that the driver will need later to restore the ACXCIRCUIT's hardware to its D0 power state.
+
+If TargetState is WdfPowerDeviceD3Final, you should assume that the system is being turned off, the associated device is about to be removed, or a resource rebalance is in progress. If your driver must save information, it should write it to disk or some other permanent storage medium.
+
+For more information about drivers that provide this callback function, see Supporting PnP and Power Management in Function Drivers.
+
 ### Example
 
-Example usage is shown below. This example shows stopping some timer values for use in test code when the circuit powered up.
+Example usage is shown below. This example shows stopping some timer instances in test code when the circuit powered down.
 
 
 ```cpp
 EVT_ACX_CIRCUIT_POWER_DOWN          CodecR_EvtCircuitPowerDown;
+
+NTSTATUS
+CreateCircuit()
+{
+    ...
+    ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT(&powerCallbacks);
+    powerCallbacks.EvtAcxCircuitPowerUp = CodecR_EvtCircuitPowerUp;
+    powerCallbacks.EvtAcxCircuitPowerDown = CodecR_EvtCircuitPowerDown;
+    AcxCircuitInitSetAcxCircuitPnpPowerCallbacks(circuitInit, &powerCallbacks);
+    ...
+}
 
 NTSTATUS
 CodecR_EvtCircuitPowerDown (
@@ -112,3 +145,4 @@ CodecR_EvtCircuitPowerDown (
 
 [acxcircuit.h header](index.md)
 
+READY2GO
