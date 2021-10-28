@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_JACK_CONFIG_FLAGS
 tech.root: audio
 title: ACX_JACK_CONFIG_FLAGS
-ms.date: 10/22/2021
+ms.date: 10/27/2021
 targetos: Windows
-description: 
+description: The ACX_JACK_CONFIG_FLAGS enumeration is used to describe the properties of a physical jack to an audio class extension (ACX).
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -36,6 +36,8 @@ dev_langs:
 ---
 
 ## -description
+
+The **ACX_JACK_CONFIG_FLAGS** enumeration is used to describe the properties of a physical jack to an audio class extension (ACX).
 
 ## -enum-fields
 

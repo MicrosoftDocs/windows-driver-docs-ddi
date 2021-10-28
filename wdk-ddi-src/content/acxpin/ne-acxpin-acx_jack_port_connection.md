@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_JACK_PORT_CONNECTION
 tech.root: audio
 title: ACX_JACK_PORT_CONNECTION
-ms.date: 10/05/2021
+ms.date: 10/27/2021
 targetos: Windows
-description: 
+description: The ACX_JACK_PORT_CONNECTION enumeration is used by the ACX_JACK_DESCRIPTION structure and specifies the type of port represented by the jack.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,17 +40,26 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_PORT_CONNECTION** enumeration is used by the [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure and specifies the type of port represented by the jack.
+
 ## -enum-fields
 
 ### -field AcxPortConnJack
 
+Indicates that the port type is a physical jack.
+
 ### -field AcxPortConnIntegratedDevice
+
+Indicates that the port type is a slot for an integrated device.
 
 ### -field AcxPortConnBothIntegratedAndJack
 
+Indicates that the port type is both a jack and a slot for an integrated device.
+
 ### -field AcxPortConnUnknown
+
+Indicates that the port type is unknown.
 
 ## -remarks
 
 ## -see-also
-
