@@ -4,7 +4,7 @@ title: ExFreePool function (wdm.h)
 description: The ExFreePool function (wdm.h) deallocates a specified block of pool memory that was previously allocated.
 old-location: kernel\exfreepool.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 10/28/2021
 keywords: ["ExFreePool function"]
 ms.keywords: ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture], k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, kernel.exfreepool, wdm/ExFreePool
 req.header: wdm.h
@@ -49,7 +49,7 @@ The <b>ExFreePool</b> routine deallocates a block of pool memory.
 
 ## -parameters
 
-#### - P [in]
+### -param P [in]
 
 Specifies the address of the block of pool memory being deallocated.
 
