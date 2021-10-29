@@ -49,8 +49,6 @@ Gets an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextens
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>

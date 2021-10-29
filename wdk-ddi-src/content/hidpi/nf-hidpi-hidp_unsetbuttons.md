@@ -54,8 +54,6 @@ See [**HidP\_UnsetUsages**](./nf-hidpi-hidp_unsetusages.md) for parameter and re
         HidP_UnsetUsages(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle)
 ```
 
-## -parameters
-
 ## -see-also
 
 [**HidP\_UnsetUsages**](./nf-hidpi-hidp_unsetusages.md)

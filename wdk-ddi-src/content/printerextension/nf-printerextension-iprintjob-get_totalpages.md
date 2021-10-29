@@ -49,8 +49,6 @@ Gets the total number of pages that the document contains.
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
