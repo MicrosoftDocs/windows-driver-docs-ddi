@@ -46,19 +46,19 @@ api_name:
 
 The **READ_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of ULONG64 values from the specified register address into a buffer
 
-## -parameters
+### -parameters
 
-### -param Register [in]
+#### -param Register [in]
 
 
 Pointer to the register address, which must be a mapped range in memory space.
 
-### -param Buffer [out]
+#### -param Buffer [out]
 
 
 Pointer to a buffer that an array of ULONG64 values is read into. 
 
-### -param Count [in]
+#### -param Count [in]
 
 
 Specifies the number of ULONG64 values to be read into the buffer.

@@ -47,19 +47,19 @@ api_name:
 
 The **WRITE_REGISTER_BUFFER_UCHAR** routine dereferences the supplied pointer, inserts a memory barrier, and writes a set of bytes from a buffer to the specified address.
 
-## -parameters
+### -parameters
 
-### -param Register [in]
+#### -param Register [in]
 
 
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer [in]
+#### -param Buffer [in]
 
 
 Pointer to a buffer from which an array of UCHAR values is to be written.
 
-### -param Count [in]
+#### -param Count [in]
 
 
 Specifies the number of bytes to be written to the register.
