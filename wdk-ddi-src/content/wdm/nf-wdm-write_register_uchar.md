@@ -49,12 +49,12 @@ The **WRITE_REGISTER_UCHAR** routine dereferences the supplied pointer, inserts 
 
 ## -parameters
 
-#### - Register [in]
+## -param Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Value [in]
+## -param Value [in]
 
 Specifies a byte to be written to the register.
 

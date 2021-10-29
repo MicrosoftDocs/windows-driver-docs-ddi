@@ -50,7 +50,7 @@ The <b>READ_PORT_USHORT</b> routine reads a USHORT value from the specified port
 
 ## -parameters
 
-#### - Port [in]
+## -param Port [in]
 
 Specifies the port address, which must be a mapped range in I/O space.
 
