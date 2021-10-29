@@ -60,6 +60,8 @@ None
 
 ## -remarks
 
+Push locks are rarely a good choice for file system minifilters.  As described below some of their characteristics are deeply incompatible with the inherently re-entrant nature of file systems.  
+
 Push locks are similar to <a href="/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE structures</a> (also called "resources") in the following ways: 
 
 <ul>
@@ -74,6 +76,27 @@ Push locks can be acquired for shared or exclusive access.
 <li>
 Although the caller provides the storage for the push lock variable, the EX_PUSH_LOCK structure is opaque: that is, its members are reserved for system use. 
 
+</li>
+</ul>
+Push locks have the following disadvantages when compared with ERESOURCE structures: 
+
+<ul>
+<li>
+The algorithm for granting exclusive access is not fair to all threads. If there is a high level of exclusive-lock contention, there is no guarantee about the order in which threads will be granted exclusive access. 
+
+</li>
+<li>
+There are no support routines for determining the current owner of a push lock at run time. (Users of ERESOURCE structures can call routines such as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a> to determine whether the current thread has exclusive access to the resource.) 
+
+</li>
+<li>
+For the same reason there are no support extensions for determining the current owner of a push lock at debug time, and thus diagnosing deadlocks.  (Users of ERESOURCE structures can use the <code>!locks</code> extension in kd or windbg to find this out.)
+</li>
+<li>
+There is no verifier support to help early diagnosis of deadlocks through pish locks.
+</li>
+<li>
+Exclusive push locks cannot be acquired recursively.
 </li>
 </ul>
 Push locks offer the following advantages over ERESOURCE structures: 
@@ -92,22 +115,8 @@ EX_PUSH_LOCK structures are much smaller than ERESOURCE structures.
 
 </li>
 </ul>
-Push locks have the following disadvantages when compared with ERESOURCE structures: 
+Unless any of these advantages are compelling an ERESOURCE is usually the more robust and maintainable solution to the Read/Write syncrhonization problem.
 
-<ul>
-<li>
-The algorithm for granting exclusive access is not fair to all threads. If there is a high level of exclusive-lock contention, there is no guarantee about the order in which threads will be granted exclusive access. 
-
-</li>
-<li>
-There are no support routines for determining the current owner of a push lock. (Users of ERESOURCE structures can call routines such as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a> to determine whether the current thread has exclusive access to the resource.) 
-
-</li>
-<li>
-Push locks cannot be acquired recursively.
-
-</li>
-</ul>
 To acquire a push lock for exclusive access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>. 
 
 To acquire a push lock for shared access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>. 
