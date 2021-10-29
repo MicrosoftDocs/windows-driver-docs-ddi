@@ -49,8 +49,6 @@ The <b>UserInputRequired</b> property gets the Boolean value that indicates whet
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 The print dialog can use <b>UserInputRequired</b> to determine whether or not it should force the user to enter a valid value for the parameter, before it allows printing to proceed.
