@@ -50,8 +50,6 @@ The
   <b>NdisActiveGroupCount</b> function returns the number of processor groups that are currently active in the
   local computer system.
 
-## -parameters
-
 ## -returns
 
 <b>NdisActiveGroupCount</b> returns a USHORT value for the number of processor groups that are currently

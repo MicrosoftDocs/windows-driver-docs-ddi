@@ -47,8 +47,6 @@ api_name:
 
 The <code>Continue</code> method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.
 
-## -parameters
-
 ## -returns
 
 <code>Continue</code> returns S_OK to enable rasterization to continue. Otherwise, the method returns an error code to abort rasterization. Possible error return values include:

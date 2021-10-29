@@ -45,8 +45,6 @@ api_name:
 
 The ClearConcepts method will remove all concepts from the instance of the object specified by this.
 
-## -parameters
-
 ## -returns
 
 This method returns HRESULT that indicates success or failure.

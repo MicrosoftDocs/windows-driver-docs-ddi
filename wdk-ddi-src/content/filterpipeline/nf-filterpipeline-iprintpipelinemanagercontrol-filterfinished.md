@@ -47,8 +47,6 @@ api_name:
 
 The <code>FilterFinished</code> method reports that a filter is finished processing.
 
-## -parameters
-
 ## -returns
 
 <code>FilterFinished</code> returns an <b>HRESULT</b>.

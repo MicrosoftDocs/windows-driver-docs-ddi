@@ -47,8 +47,6 @@ api_name:
 
 The <b>KeInvalidateAllCaches</b> routine flushes all processor caches.
 
-## -parameters
-
 ## -returns
 
 <b>KeInvalidateAllCaches</b> returns a value that is reserved for system use. Treat this value as VOID.

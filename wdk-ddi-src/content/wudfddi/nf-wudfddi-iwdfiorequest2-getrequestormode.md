@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetRequestorMode</b> method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver).
 
-## -parameters
-
 ## -returns
 
 <b>GetRequestorMode</b> returns a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_kprocessor_mode">WDF_KPROCESSOR_MODE</a>-typed value that indicates whether the current I/O request came from a kernel-mode driver or a user-mode component.

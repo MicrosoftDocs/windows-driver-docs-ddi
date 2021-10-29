@@ -47,8 +47,6 @@ api_name:
 
 The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream. Writing to the stream is done using the [IPrintWriteStream::WriteBytes](./nf-filterpipeline-iprintwritestream-writebytes.md) method.
 
-## -parameters
-
 ## -returns
 
 The FlushData method returns an HRESULT value.

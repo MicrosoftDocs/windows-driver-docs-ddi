@@ -44,8 +44,6 @@ api_name:
 
  **RtlQueryProcessPlaceholderCompatibilityMode** returns the placeholder compatibility mode for the current process.
 
-## -parameters
-
 ## -returns
 
 This function returns the process's placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx). Contains one of the following values:

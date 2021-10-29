@@ -47,8 +47,6 @@ api_name:
 
 The <i>PWINDBG_CHECK_VERSION</i>  (<b>CheckVersion</b>) callback function verifies that the extension module version matches the debugger version, and outputs an warning message if there is a mismatch.
 
-## -parameters
-
 ## -returns
 
 None

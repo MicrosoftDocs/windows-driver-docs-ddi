@@ -49,8 +49,6 @@ api_name:
 
 The <b>Reopen</b> method reopens a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> after it has been temporarily closed.
 
-## -parameters
-
 ## -returns
 
 <b>Reopen</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:

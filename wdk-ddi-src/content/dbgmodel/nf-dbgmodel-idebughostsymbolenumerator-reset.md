@@ -45,8 +45,6 @@ api_name:
 
 Resets the enumerator to its initial state.  A subsequent GetNext call will return the first symbol in the set in enumerator order.
 
-## -parameters
-
 ## -returns
 
 This method returns HRESULT that indicates success or failure.

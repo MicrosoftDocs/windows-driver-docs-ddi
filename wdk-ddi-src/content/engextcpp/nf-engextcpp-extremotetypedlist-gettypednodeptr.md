@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetTypedNodePtr</b> method returns a pointer to the current list item.
 
-## -parameters
-
 ## -returns
 
 <b>GetTypedNodePtr</b> returns a typed data description of a pointer to the current list item.

@@ -47,8 +47,6 @@ api_name:
 
 The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process.
 
-## -parameters
-
 ## -returns
 
 <b>PsGetCurrentProcessId</b> returns the process ID of the current thread's process.

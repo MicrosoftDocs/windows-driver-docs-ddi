@@ -47,8 +47,6 @@ api_name:
 
 The <b>KeGetRecommendedSharedDataAlignment</b> routine returns the preferred alignment for memory structures that can be accessed by more than one processor.
 
-## -parameters
-
 ## -returns
 
 <b>KeGetRecommendedSharedDataAlignment</b> returns the preferred alignment, in bytes, for memory structures that can be shared by more than one processor.

@@ -47,8 +47,6 @@ api_name:
 
 Commits the operation.
 
-## -parameters
-
 ## -returns
 
 This method returns an <b>HRESULT</b> value.

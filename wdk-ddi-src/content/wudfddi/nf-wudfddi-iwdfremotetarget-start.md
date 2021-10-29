@@ -49,8 +49,6 @@ api_name:
 
 The <b>IWDFRemoteTarget::Start</b> method restarts a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is stopped.
 
-## -parameters
-
 ## -returns
 
 <b>Start</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:

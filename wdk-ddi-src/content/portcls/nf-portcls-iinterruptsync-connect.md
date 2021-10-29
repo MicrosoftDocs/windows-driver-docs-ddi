@@ -47,8 +47,6 @@ api_name:
 
 The <code>Connect</code> method connects the synchronization object to the interrupt.
 
-## -parameters
-
 ## -returns
 
 <code>Connect</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.

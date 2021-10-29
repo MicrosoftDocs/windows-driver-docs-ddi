@@ -47,8 +47,6 @@ api_name:
 
 The <b>EndInput</b> callback method is called by the engine to indicate that it is no longer waiting for input.
 
-## -parameters
-
 ## -returns
 
 This method's return value is ignored by the engine.

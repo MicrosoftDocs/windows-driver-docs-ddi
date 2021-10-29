@@ -50,8 +50,6 @@ The
   <b>NdisCurrentProcessorIndex</b> function returns the system-assigned number of the current processor that
   the caller is running on.
 
-## -parameters
-
 ## -returns
 
 <b>NdisCurrentProcessorIndex</b> returns a ULONG value that represents the processor that the caller is

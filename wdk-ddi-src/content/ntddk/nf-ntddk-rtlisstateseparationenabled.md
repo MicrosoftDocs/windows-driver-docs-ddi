@@ -46,8 +46,6 @@ api_name:
 
 Checks if the SKU for the current context supports multiple sessions.
 
-## -parameters
-
 ## -returns
 
 TRUE indicates state separation enabled and FALSE otherwise.
