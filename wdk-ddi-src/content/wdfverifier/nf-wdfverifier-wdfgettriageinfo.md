@@ -49,4 +49,6 @@ api_name:
 
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
 
-## -parameters
+## -returns
+
+Returns a pointer to the WDF triage info.
