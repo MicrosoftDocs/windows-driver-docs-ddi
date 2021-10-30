@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_RELEASE_HARDWARE
 ms.date: 08/23/2021
 targetos: Windows
-description: TBD - The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the release hardware phase, using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,20 +42,21 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the release hardware phase, using the TBD function is called, or something else... TBD TBD. 
+The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXCIRCUIT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)) in the prepare hardware phase.
+
 ### -param ResourcesTranslated
 
-A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
+A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 ## -returns
 
@@ -63,11 +64,31 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+To register an EvtAcxCircuitReleaseHardware callback function, your driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
+
+If a driver has registered an EvtAcxCircuitReleaseHardware callback function, the framework calls it during the following transitions:
+
+Resource rebalancing
+Orderly removal
+Surprise removal
+The ACX framework calls the EvtAcxCircuitReleaseHardware callback function after the WDF framework has stopped sending I/O requests to the device, any interrupts assigned to the device have been disabled and disconnected, and the device has been turned off.
+
+The ACX framework calls the EvtAcxCircuitReleaseHardware callback function before the WDF framework calls the driver's EvtDeviceReleaseHardware callback function.
+
+When the framework calls the EvtAcxCircuitReleaseHardware the PDO for the device still exists and can be queried for device information that is available in the powered off state, for example PCI configuration state.
+
+In addition, the translated hardware resources that the framework supplies to EvtDeviceReleaseHardware are still assigned to the device. The primary purpose of this callback function is to release those resources, and in particular to unmap any memory resources that the driver's EvtAcxCircuitPrepareHardware callback function mapped. The driver can also use this callback to perform any other ACXCIRCUIT management activity that might be required in the powered down state. Usually, all other hardware shutdown operations should take place in the driver's EvtDeviceD0Exit callback function.
+
+The ACX framework always calls the driver's EvtAcxCircuitReleaseHardware callback function if the driver's EvtAcxCircuitPrepareHardware callback function has been called, unless the EvtAcxCircuitPrepareHardware returned a failure code.
+For more information about when the framework calls this callback function, see PnP and Power Management Scenarios.
+
+For more information about hardware resources, see Hardware Resources for Framework-Based Drivers.
+
+For more information about drivers that provide this callback function, see Supporting PnP and Power Management in Function Drivers.
+
 ### Example
 
 Example usage is shown below.
-
-TBD - Do we have any hardware sample code we can use here with and actual resource list?
 
 ```cpp
 EVT_ACX_CIRCUIT_RELEASE_HARDWARE    EvtCircuitReleaseHardware;
@@ -102,3 +123,4 @@ EvtCircuitReleaseHardware(
 
 [acxcircuit.h header](index.md)
 
+READY2GO

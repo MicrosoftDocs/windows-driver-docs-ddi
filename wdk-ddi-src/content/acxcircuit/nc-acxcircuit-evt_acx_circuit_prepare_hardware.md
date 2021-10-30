@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_PREPARE_HARDWARE
 ms.date: 08/23/2021
 targetos: Windows
-description: TBD - The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the prepare hardware phase, using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,25 +42,25 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit is in the prepare hardware phase, using the TBD function is called,  TBD TBD. 
+The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the prepare hardware phase. 
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXCIRCUIT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)) in the prepare hardware phase.
 
 ### -param ResourcesRaw
 
-A WDF resource list that describes the raw resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about raw resources, see [Hardware Resources for Framework-Based Drivers](/windows-hardware/drivers/wdf/raw-and-translated-resources).
+A handle to a framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 ### -param ResourcesTranslated
 
-A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
+A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 ## -returns
 
@@ -68,11 +68,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+To register an EvtAcxCircuitPrepareHardware callback function, a driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
+
+If the driver has registered an EvtAcxCircuitPrepareHardware callback function for an ACXCIRCUIT, the ACX framework calls the function after WDF framework calls the driver's EvtDevicePrepareHardware callback function.
+
+The EvtAcxCircuitPrepareHardware callback function accesses the device's raw and translated hardware resources by using the ResourcesRaw and ResourcesTranslated handles that it receives. The callback function can call WdfCmResourceListGetCount and WdfCmResourceListGetDescriptor to traverse the resource lists. This callback function cannot modify the resource lists.
+
+For more information about resource lists and the order in which the resources appear, see raw and translated hardware resources.
+
+Typically, your driver's EvtAcxCircuitPrepareHardware callback function does the following, if necessary:
+
+Maps physical memory addresses to virtual addresses of the ACXCIRCUIT so the driver can access memory that is assigned to the device.
+Optionally, your driver's EvtAcxCircuitPrepareHardware callback function might queue a work item to complete any other time-intensive configuration tasks. Using a work item for such operations can help ensure that your device's start up time does not increase the system boot time. For more information, see Using Framework Work Items.
+Typically, all other hardware initialization operations, including loading firmware, should take place each time that the device enters its working (D0) state and should therefore take place in the driver's EvtDeviceD0Entry callback function.
+
+The ResourcesRaw and ResourcesTranslated handles that the EvtAcxCircuitPrepareHardware/EvtDevicePrepareHardware callback function receives remain valid until the driver's EvtDeviceReleaseHardware callback function returns.
+
+If the driver fails the EvtAcxCircuitPrepareHardware callback, the ACXCIRCUIT object is placed in the delete-pending state and associated ACXSTREAMS are shutdown.
+
+For more information about hardware resources, see Hardware Resources for Framework-Based Drivers.
+
+For more information about when the ACX and WDF framework call these callback functions, see PnP and Power Management Scenarios.
+
+For more information about drivers that provide this callback function, see Supporting PnP and Power Management in Function Drivers.
+
 ### Example
 
 Example usage is shown below.
-
-TBD - Do we have any hardware sample code we can use here with and actual resource list?
 
 ```cpp
 NTSTATUS
@@ -117,3 +139,5 @@ exit:
 
 [acxcircuit.h header](index.md)
 
+
+READY2GO
