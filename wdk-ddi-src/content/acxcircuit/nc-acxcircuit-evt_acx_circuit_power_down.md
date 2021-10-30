@@ -64,7 +64,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-To register an EvtCircuitPowerDown callback function, a driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
+To register an EvtAcxCircuitPrepareHardware callback function, a driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
 
 If the driver has registered an EvtCircuitPowerDown callback function, the ACX framework calls the function each time one of the driver's devices leaves its working (D0) state. A device leaves the D0 state when one of the following occurs:
 
