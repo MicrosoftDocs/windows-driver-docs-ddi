@@ -4,7 +4,7 @@ title: WdfCompanionTargetSendTaskSynchronously function (wdfcompaniontarget.h)
 description: This WdfCompanionTargetSendTaskSynchronously function article is for internal use only.
 old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 11/01/2021
 keywords: ["WdfCompanionTargetSendTaskSynchronously function"]
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
 req.header: wdfcompaniontarget.h
@@ -75,5 +75,5 @@ api_name:
 
 ### -param BytesReturned [out]
 
-
+## -returns
 
