@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_PREPARE_HARDWARE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_PREPARE_HARDWARE
-ms.date: 08/23/2021
+ms.date: 11/01/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase. 
 prerelease: true

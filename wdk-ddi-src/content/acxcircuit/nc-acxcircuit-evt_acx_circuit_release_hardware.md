@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_RELEASE_HARDWARE
-ms.date: 08/23/2021
+ms.date: 11/01/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
 prerelease: true
@@ -71,6 +71,7 @@ If a driver has registered an EvtAcxCircuitReleaseHardware callback function, th
 Resource rebalancing
 Orderly removal
 Surprise removal
+
 The ACX framework calls the EvtAcxCircuitReleaseHardware callback function after the WDF framework has stopped sending I/O requests to the device, any interrupts assigned to the device have been disabled and disconnected, and the device has been turned off.
 
 The ACX framework calls the EvtAcxCircuitReleaseHardware callback function before the WDF framework calls the driver's EvtDeviceReleaseHardware callback function.
