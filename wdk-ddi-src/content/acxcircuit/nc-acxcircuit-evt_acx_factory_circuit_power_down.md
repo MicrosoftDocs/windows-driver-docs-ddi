@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered down using the TBD function is called,  TBD TBD. 
 prerelease: true
@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param TargetState
 

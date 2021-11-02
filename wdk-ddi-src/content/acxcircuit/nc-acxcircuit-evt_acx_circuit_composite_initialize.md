@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE
-ms.date: 10/21/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE callback is used by the driver to do any post-initialization after the composite endpoint has been assembled by ACX Manager.
 prerelease: true
@@ -48,15 +48,15 @@ The EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE callback is used by the driver to do an
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects))  that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
 
 ### -param Circuit
 
-The ACXCIRCUIT object being initialized.  
+The ACXCIRCUIT object being initialized. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ### -param CompositeProperties
 
-Optional handle to CompositeProperties that describes the composite circuit. This is an optional ACXOBJECTBAG object for composit endpoint's properties. 
+Optional handle to CompositeProperties that describes the composite circuit. This is an optional ACXOBJECTBAG object for composite endpoint's properties. 
 
 ## -returns
 
@@ -67,8 +67,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 This sample code shows how the driver retrieves a composite property from the specified composite property object bag.
-
-Example usage is shown below.
 
 ```cpp
 EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE CodecR_EvtCircuitCompositeInitialize;
@@ -104,3 +102,5 @@ CodecR_EvtCircuitCompositeInitialize(
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

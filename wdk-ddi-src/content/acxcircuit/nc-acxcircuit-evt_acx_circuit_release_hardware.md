@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_RELEASE_HARDWARE
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
 prerelease: true
@@ -56,7 +56,7 @@ The ACXCIRCUIT object (described in [Summary of ACX Objects](/windows-hardware/d
 
 ### -param ResourcesTranslated
 
-A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
+A handle to a WDFCMRESLIST framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device. For more information about translated resources, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/raw-and-translated-resources).
 
 ## -returns
 
@@ -64,13 +64,13 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-To register an EvtAcxCircuitReleaseHardware callback function, your driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
+To register an EvtAcxCircuitReleaseHardware callback function, your driver must call [AcxCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxcircuitinitsetacxcircuitpnppowercallbacks.md).
 
 If a driver has registered an EvtAcxCircuitReleaseHardware callback function, the framework calls it during the following transitions:
 
-Resource rebalancing
-Orderly removal
-Surprise removal
+- Resource rebalancing
+- Orderly removal
+- Surprise removal
 
 The ACX framework calls the EvtAcxCircuitReleaseHardware callback function after the WDF framework has stopped sending I/O requests to the device, any interrupts assigned to the device have been disabled and disconnected, and the device has been turned off.
 
@@ -78,14 +78,16 @@ The ACX framework calls the EvtAcxCircuitReleaseHardware callback function befor
 
 When the framework calls the EvtAcxCircuitReleaseHardware the PDO for the device still exists and can be queried for device information that is available in the powered off state, for example PCI configuration state.
 
-In addition, the translated hardware resources that the framework supplies to EvtDeviceReleaseHardware are still assigned to the device. The primary purpose of this callback function is to release those resources, and in particular to unmap any memory resources that the driver's EvtAcxCircuitPrepareHardware callback function mapped. The driver can also use this callback to perform any other ACXCIRCUIT management activity that might be required in the powered down state. Usually, all other hardware shutdown operations should take place in the driver's EvtDeviceD0Exit callback function.
+In addition, the translated hardware resources that the framework supplies to EvtDeviceReleaseHardware are still assigned to the device. The primary purpose of this callback function is to release those resources, and in particular to un-map any memory resources that the driver's EvtAcxCircuitPrepareHardware callback function mapped. The driver can also use this callback to perform any other ACXCIRCUIT management activity that might be required in the powered down state. Usually, all other hardware shutdown operations should take place in the driver's EvtDeviceD0Exit callback function.
 
 The ACX framework always calls the driver's EvtAcxCircuitReleaseHardware callback function if the driver's EvtAcxCircuitPrepareHardware callback function has been called, unless the EvtAcxCircuitPrepareHardware returned a failure code.
-For more information about when the framework calls this callback function, see PnP and Power Management Scenarios.
 
-For more information about hardware resources, see Hardware Resources for Framework-Based Drivers.
+For more information about when the ACX and WDF framework call these callback functions, see [PnP and Power Management Scenarios](/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios).
 
-For more information about drivers that provide this callback function, see Supporting PnP and Power Management in Function Drivers.
+For more information about hardware resources, see [Introduction to Hardware Resources](/windows-hardware/drivers/wdf/introduction-to-hardware-resources).
+
+For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
+
 
 ### Example
 
@@ -125,3 +127,5 @@ EvtCircuitReleaseHardware(
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

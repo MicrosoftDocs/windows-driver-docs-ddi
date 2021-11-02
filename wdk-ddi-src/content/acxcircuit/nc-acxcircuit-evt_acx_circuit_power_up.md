@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_CIRCUIT_POWER_UP
-ms.date: 08/20/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXCIRCUIT object.
 prerelease: true
@@ -65,19 +65,19 @@ If the driver fails this callback, the ACX framework shutdowns the associated AC
 
 ## -remarks
 
-To register an EvtCircuitPowerUp callback function, a driver must call AcxCircuitInitSetAcxCircuitPnpPowerCallbacks.
+To register an EvtCircuitPowerUp callback function, a driver must call [AcxCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxcircuitinitsetacxcircuitpnppowercallbacks.md).
 
 If the driver has registered an EvtCircuitPowerUp callback function for a device, the framework calls the function each time the device enters its working (D0) state. A device will enter the D0 state when one of the following occurs:
 
-. A device is enumerated (because the device was plugged in or the system was rebooted).
-. The system and all of its devices return to their working states from a low-power state.
-. The device returns to its working state after it entered a low-power state because it was idle (if the device supports low-power idle).
-. The Plug and Play manager has redistributed the system's hardware resources among the system's devices.
-. The framework calls the EvtDeviceD0Entry callback function immediately after the device enters its working (D0) state and is available to the driver, but before the device's interrupts have been enabled. The PreviousState parameter identifies the device power state that the device was in before it entered the D0 state. When the framework first calls EvtDeviceD0Entry, it provides a PreviousState value of WdfPowerDeviceD3Final.
+- A device is enumerated (because the device was plugged in or the system was rebooted).
+- The system and all of its devices return to their working states from a low-power state.
+- The device returns to its working state after it entered a low-power state because it was idle (if the device supports low-power idle).
+- The Plug and Play manager has redistributed the system's hardware resources among the system's devices.
+- The framework calls the EvtDeviceD0Entry callback function immediately after the device enters its working (D0) state and is available to the driver, but before the device's interrupts have been enabled. The PreviousState parameter identifies the device power state that the device was in before it entered the D0 state. When the framework first calls EvtDeviceD0Entry, it provides a PreviousState value of WdfPowerDeviceD3Final.
 
-The callback function must perform any operations that are needed to make the device fully operational.
+This callback function must perform any operations that are needed to make the device fully operational.
 
-For more information about drivers that provide this callback function, see Supporting PnP and Power Management in Function Drivers.
+For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
 
 The EvtCircuitPowerUp callback function is called at IRQL = PASSIVE_LEVEL. You should not make this callback function pageable.
 
@@ -139,4 +139,8 @@ CodecR_EvtCircuitPowerUp (
 
 [acxcircuit.h header](index.md)
 
+[Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers)
+
 READY2GO
+
+EDITCOMPLETE
