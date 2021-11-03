@@ -50,23 +50,23 @@ api_name:
 
 The <b>WdfObjectReleaseLock</b> method releases an object's synchronization lock.
 
-## -parameters
-
-### -param DriverGlobals
-
-### -param WDFOBJECT
-
-#### - Object [in]
-
-A handle to a framework device object or a framework queue object.
-
-## -prototype
+## -syntax
 
 ```cpp
 VOID WdfObjectReleaseLock(
   _In_ WDFOBJECT Object
 );
 ```
+
+## -parameters
+
+### -param DriverGlobals
+
+#### - Object [in]
+
+A handle to a framework device object or a framework queue object.
+
+## -returns
 
 ## -remarks
 

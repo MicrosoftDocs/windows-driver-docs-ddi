@@ -94,17 +94,17 @@ A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/n
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_stop">EvtDmaEnablerSelfManagedIoStop</a> event callback function, or <b>NULL</b>.
 
 
-#### - AddressWidthOverride
+### -field AddressWidthOverride
 
 Set to zero to accept the address width specified in <b>Profile</b>. A driver can override the <b>Profile</b>  address width by setting this member to a value between 24  and 63. If your driver specifies a system-mode DMA profile, <b>AddressWidthOverride</b> must be zero. If your driver specifies a 32-bit DMA profile, <b>AddressWidthOverride</b> cannot be greater than 32. The <b>AddressWidthOverride</b> member is available in version 1.11 and later versions of KMDF. See more information in <b>Remarks</b>.
 
 
-#### - Flags
+### -field Flags
 
 A bitwise OR of one or more values from the <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_enabler_config_flags">WDF_DMA_ENABLER_CONFIG_FLAGS</a> enumeration. The <b>Flags</b> member is available in version 1.11 and in later versions of KMDF.
 
 
-#### - WdmDmaVersionOverride
+### -field WdmDmaVersionOverride
 
 Set to zero to accept the default DMA version. To request DMA version 3, set to 3. The <b>WdmDmaVersionOverride</b> member is available in version 1.11 and in later versions of KMDF. DMA version 3 is available starting in Windows 8.
 

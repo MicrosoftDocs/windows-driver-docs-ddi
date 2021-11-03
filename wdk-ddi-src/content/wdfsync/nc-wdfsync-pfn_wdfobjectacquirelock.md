@@ -50,23 +50,24 @@ api_name:
 
 The <b>WdfObjectAcquireLock</b> method acquires an object's synchronization lock.
 
-## -parameters
-
-### -param DriverGlobals
-
-### -param WDFOBJECT
-
-#### - Object [in]
-
-A handle to a framework device object or a framework queue object.
-
-## -prototype
+## -syntax
 
 ```cpp
 VOID WdfObjectAcquireLock(
   _In_ WDFOBJECT Object
 );
 ```
+## -parameters
+
+### -param DriverGlobals
+
+
+#### - Object [in]
+
+A handle to a framework device object or a framework queue object.
+
+
+## -returns
 
 ## -remarks
 
