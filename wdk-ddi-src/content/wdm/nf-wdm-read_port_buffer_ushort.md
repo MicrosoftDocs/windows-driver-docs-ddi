@@ -50,17 +50,17 @@ The <b>READ_PORT_BUFFER_USHORT</b> routine reads a number of USHORT values from 
 
 ### -parameters
 
-#### -param Port [in]
+### -paramparam Port [in]
 
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
-#### -param Buffer [out]
+### -paramparam Buffer [out]
 
 
 Pointer to a buffer into which an array of USHORT values is read.
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of USHORT values to be read into the buffer.

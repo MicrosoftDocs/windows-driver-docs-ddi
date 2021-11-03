@@ -49,17 +49,17 @@ The **WRITE_REGISTER_BUFFER_UCHAR** routine dereferences the supplied pointer, i
 
 ### -parameters
 
-#### -param Register [in]
+### -paramparam Register [in]
 
 
 Pointer to the register, which must be a mapped range in memory space.
 
-#### -param Buffer [in]
+### -paramparam Buffer [in]
 
 
 Pointer to a buffer from which an array of UCHAR values is to be written.
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of bytes to be written to the register.

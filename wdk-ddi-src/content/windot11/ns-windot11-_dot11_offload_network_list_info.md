@@ -121,7 +121,7 @@ Number of networks in the list of those requested to offload.
 
 ### -field offloadNetworkList
 
-#### - offloadNetworkList[1]
+### -field offloadNetworkList[1]
 
 Array of networks that hardware should automatically search for.
 

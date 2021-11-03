@@ -55,7 +55,7 @@ A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-e
 
 ### -param Extension
 
-#### - Str [in]
+### -param Str [in]
 
 A pointer to a null-terminated ANSI string that is the debugger command. An example of debugger command is "!analyze -v".
 

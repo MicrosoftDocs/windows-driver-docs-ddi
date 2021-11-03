@@ -63,7 +63,7 @@ Caller-supplied handle to the printer.
 
 ### -param pDevmode
 
-#### - DeviceCap
+### -param DeviceCap
 
 Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
 
@@ -104,22 +104,22 @@ If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of
  
 
 
-#### - cchBuf
+### -param cchBuf
 
 Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
 
 
-#### - pDM [in, optional]
+### -param pDM [in, optional]
 
 Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
 
 
-#### - pvOutput [out, optional]
+### -param pvOutput [out, optional]
 
 Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
 
 
-#### - pwDeviceName [in]
+### -param pwDeviceName [in]
 
 Caller-supplied pointer to a Unicode string that contains the printer name.
 

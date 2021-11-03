@@ -79,7 +79,7 @@ The address of a variable that will receive the
 collection of actions.
 
 
-#### - ProgID [in]
+### -param ProgID [in]
 
 The WDTF ProgID of the requested interface.
 

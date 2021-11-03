@@ -76,7 +76,7 @@ The Extended TID bitmask. See <i>Remarks</i> section for more information.
 
 ### -param TxRestartReason
 
-#### - TxPauseReason [in]
+### -param TxPauseReason [in]
 
 TX pause reason bitmask, specified as <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a> value(s). See <i>Remarks</i> section for more information.
 

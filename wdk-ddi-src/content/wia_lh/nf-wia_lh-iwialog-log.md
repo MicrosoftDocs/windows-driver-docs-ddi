@@ -74,7 +74,7 @@ Specifies the diagnostic detail level of the message. This parameter can be one 
 
 Specifies the error text. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
-#### - lResId [in]
+### -param lResId [in]
 
 Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID.
 

@@ -78,7 +78,7 @@ Specifies the size, in bytes, of this structure.
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 A union of members that contain output information for the various types of attribute requests. The <b>RequestType</b> member of the corresponding <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_input">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a> structure determines which of these members is used.
 

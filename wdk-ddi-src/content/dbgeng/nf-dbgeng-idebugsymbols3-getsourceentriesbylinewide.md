@@ -128,7 +128,7 @@ Specifies the number of entries in the <i>Entries</i> array.
 
 ### -param EntriesAvail
 
-#### - EntriesAvailable [out, optional]
+### -param EntriesAvailable [out, optional]
 
 Receives the number of locations that match the query found in the target's memory.
 

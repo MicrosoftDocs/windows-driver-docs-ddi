@@ -84,7 +84,7 @@ The I/O target's underlying device has been removed.
 
 ### -field WdfIoTargetStateMaximum
 
-#### - WdfIoTargetPurged
+### -field WdfIoTargetPurged
 
 The I/O target is temporarily purged and cannot receive or process I/O requests. This constant is available starting in KMDF 1.11.
 

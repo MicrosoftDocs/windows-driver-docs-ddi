@@ -62,7 +62,7 @@ The client driver's implementation that UCX calls to reset the controller’s pr
 A handle to a framework request object that the client driver completes when the reset operation is finished.
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

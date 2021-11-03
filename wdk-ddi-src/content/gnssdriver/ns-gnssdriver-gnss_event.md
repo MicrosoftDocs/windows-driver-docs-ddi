@@ -113,11 +113,11 @@ This structure is filled if EventType is GNSS_Event_DriverRequest.
 
 ### -field CustomData
 
-#### - CustomData[ANYSIZE_ARRAY]
+### -field CustomData[ANYSIZE_ARRAY]
 
 Custom data field.
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

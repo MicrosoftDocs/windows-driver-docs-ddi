@@ -72,12 +72,12 @@ This specifies the size of the Additional Data field.
 
 
 
-#### - AdditionalData[1]
+### -field AdditionalData[1]
 
 This provides additional information associated with this event.
 
 
-#### - LogToEventLog
+### -field LogToEventLog
 
 If this value it set to 1, the message will be logged to the system event log.
 

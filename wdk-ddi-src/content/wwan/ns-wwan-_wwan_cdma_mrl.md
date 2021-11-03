@@ -66,7 +66,7 @@ The count of MRL entries following this member.
 
 
 
-#### - CDMAMrl[ANYSIZE_ARRAY]
+### -field CDMAMrl[ANYSIZE_ARRAY]
 
 The array of MRL records, each specified as a <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl_info">WWAN_CDMA_MRL_INFO</a> structure.
 

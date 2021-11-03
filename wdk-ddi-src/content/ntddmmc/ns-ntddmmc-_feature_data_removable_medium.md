@@ -84,12 +84,12 @@ Indicates the type of loading mechanism. See the <i>SCSI Multimedia - 4 (MMC-4)<
 Reserved. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 

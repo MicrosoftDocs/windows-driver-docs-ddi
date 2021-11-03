@@ -81,7 +81,7 @@ The size of the [PrintPropertiesCollection](/windows-hardware/drivers/print/xps-
 
 ### -param pPrintPropertiesCollection
 
-#### - pOut [in, out]
+### -param pOut [in, out]
 
 The **PrintPropertiesCollection** data structure from which the printer interface's DLL gets the requested data. This structure is defined in WinSpool.h. The requested fields might be pre-filled with the MXDC's default data. The printer interface DLL must ignore the fields that it does not understand.
 

@@ -108,14 +108,14 @@ The miniport driver sets
 This member should not be set to DOT11_PHY_ID_ANY.
 
 
-#### - ulChannel
+### -field ulChannel
 
 The channel number of the
       <a href="/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
       configurations</a> that the NIC has adopted to communicate over the BSS network.
 
 
-#### - ulFrequency
+### -field ulFrequency
 
 The orthogonal frequency division multiplexing (OFDM) frequency that the NIC has adopted to
       communicate over the BSS network.

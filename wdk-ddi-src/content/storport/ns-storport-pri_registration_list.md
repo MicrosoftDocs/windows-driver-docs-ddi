@@ -67,7 +67,7 @@ The AdditionalLength field contains a count of the number of bytes in the reserv
 
 
 
-#### - ReservationKeyList[0]
+### -field ReservationKeyList[0]
 
 The reservation key list contains the 8-byte reservation keys for all initiators that have registered by using all ports with the device server.
 

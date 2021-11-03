@@ -63,15 +63,15 @@ Defines the **INT** parameter *DetailLevel*.
 
 ### -param lMethodId
 
-#### - *pIWiaLogEx
+### -param *pIWiaLogEx
 
 Defines the **IWiaLogEx** parameter **pIWiaLog*.
 
-#### - *pszMsg
+### -param *pszMsg
 
 Defines the **CHAR** parameter **pszMsg*.
 
-#### - lMethodId = 0
+### -param lMethodId = 0
 
 Defines the **LONG** parameter *lMethodId*.
 

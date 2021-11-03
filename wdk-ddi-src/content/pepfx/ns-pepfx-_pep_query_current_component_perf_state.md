@@ -76,7 +76,7 @@ The index that identifies this P-state set. If M is the number of P-state sets f
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 The current performance level of this P-state set expressed either as an index into a set of discrete values or as a value in a range. In response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification, the PEP indicated whether the performance values in the P-state set are of type <b>PoFxPerfStateTypeDiscrete</b> or <b>PoFxPerfStateTypeRange</b>.
 

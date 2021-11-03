@@ -72,32 +72,32 @@ The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authenticati
 The number of responses.
 
 
-#### - Kc1[WWAN_AUTH_KC_LEN]
+### -field Kc1[WWAN_AUTH_KC_LEN]
 
 Encryption key 1 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Kc2[WWAN_AUTH_KC_LEN]
+### -field Kc2[WWAN_AUTH_KC_LEN]
 
 Encryption key 2 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Kc3[WWAN_AUTH_KC_LEN]
+### -field Kc3[WWAN_AUTH_KC_LEN]
 
 Encryption key 3 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres1[WWAN_AUTH_SRES_LEN]
+### -field Sres1[WWAN_AUTH_SRES_LEN]
 
 Response 1 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres2[WWAN_AUTH_SRES_LEN]
+### -field Sres2[WWAN_AUTH_SRES_LEN]
 
 Response 2 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres3[WWAN_AUTH_SRES_LEN]
+### -field Sres3[WWAN_AUTH_SRES_LEN]
 
 Response 3 of 32 bit. This member represents a multi-byte value in little-endian format.
 

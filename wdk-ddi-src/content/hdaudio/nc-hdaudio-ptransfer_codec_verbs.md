@@ -73,7 +73,7 @@ Function pointer to a callback routine. This parameter is a function pointer of 
 
 ### -param Context
 
-#### - CallbackContext [in]
+### -param CallbackContext [in]
 
 A context value for the callback routine. The caller casts the context value to type PVOID. After completing the commands asynchronously, the HD Audio bus driver passes the context value to the callback routine as a call parameter.
 

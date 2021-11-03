@@ -61,7 +61,7 @@ Specifies the number of bytes to write.  The <i>Buffer</i> buffer must be at lea
 
 ### -param MustWriteAll
 
-#### - MustReadAll [in]
+### -param MustReadAll [in]
 
 Specifies what happens if the debugger engine is unable to write all the data to the target.  If <i>MustReadAll</i> is <code>true</code> and the debugger engine is unable to write <i>Bytes</i> bytes to the target, an <b>ExtRemoteException</b> will be thrown.  If <i>MustReadAll</i> is <code>false</code>, no exception will be thrown if the engine is unable to write the requested number of bytes to the target.
 

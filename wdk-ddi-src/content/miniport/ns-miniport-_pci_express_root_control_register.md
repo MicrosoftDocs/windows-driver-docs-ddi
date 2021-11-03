@@ -62,32 +62,32 @@ The PCI_EXPRESS_ROOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) r
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CONTROL_REGISTER structure.
 
 
-#### - CRSSoftwareVisibilityEnable
+### -field CRSSoftwareVisibilityEnable
 
 A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
 
 
-#### - CorrectableSerrEnable
+### -field CorrectableSerrEnable
 
 A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
-#### - FatalSerrEnable
+### -field FatalSerrEnable
 
 A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
-#### - NonFatalSerrEnable
+### -field NonFatalSerrEnable
 
 A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
-#### - PMEInterruptEnable
+### -field PMEInterruptEnable
 
 A single bit that indicates that interrupts are enabled for power management events.
 
 
-#### - Rsvd
+### -field Rsvd
 
 Reserved.
 

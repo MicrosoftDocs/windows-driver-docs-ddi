@@ -62,7 +62,7 @@ A handle to a UCX object that represents the static streams.
 Contains the URB for the <b>URB_FUNCTION_OPEN_STATIC_STREAMS</b>.
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

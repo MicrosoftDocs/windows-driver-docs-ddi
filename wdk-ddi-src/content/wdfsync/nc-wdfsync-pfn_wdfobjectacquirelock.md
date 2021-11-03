@@ -62,7 +62,7 @@ VOID WdfObjectAcquireLock(
 ### -param DriverGlobals
 
 
-#### - Object [in]
+### -param Object [in]
 
 A handle to a framework device object or a framework queue object.
 

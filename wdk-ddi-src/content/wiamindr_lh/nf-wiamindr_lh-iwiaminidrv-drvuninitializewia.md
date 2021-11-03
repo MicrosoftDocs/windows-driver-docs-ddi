@@ -55,7 +55,7 @@ pWiasContext [in]
 
 - Pointer to a WIA item context.
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 

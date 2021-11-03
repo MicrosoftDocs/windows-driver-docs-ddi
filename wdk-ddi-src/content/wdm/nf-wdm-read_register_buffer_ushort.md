@@ -49,17 +49,17 @@ The **READ_REGISTER_BUFFER_USHORT** routine dereferences the supplied pointer, i
 
 ### -parameters
 
-#### -param Register [in]
+### -paramparam Register [in]
 
 
 Pointer to the register, which must be a mapped range in memory space.
 
-#### -param Buffer [out]
+### -paramparam Buffer [out]
 
 
 Pointer to a buffer into which an array of USHORT values is read.
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of USHORT values to be read into the buffer.

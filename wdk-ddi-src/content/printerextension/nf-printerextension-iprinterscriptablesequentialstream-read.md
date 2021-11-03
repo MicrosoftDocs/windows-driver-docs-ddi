@@ -56,7 +56,7 @@ The number of bytes to read.
 
 ### -param ppArray
 
-#### - ppdispArray [out, retval]
+### -param ppdispArray [out, retval]
 
 The returned array.
 

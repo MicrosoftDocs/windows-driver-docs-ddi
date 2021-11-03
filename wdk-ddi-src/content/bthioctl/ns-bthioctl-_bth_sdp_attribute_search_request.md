@@ -70,7 +70,7 @@ The record handle that is returned by the remote SDP server from a previous call
 
 A variable-length array of structures of type [SdpAttributeRange](</windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange>) that contains the range of SDP attributes for which to search. The range array must be in ascending numeric order.
 
-#### - hConnection
+### -field hConnection
 
 A handle to the remote SDP server that is returned by the [IOCTL\_BTH\_SDP\_CONNECT](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect>) IOCTL.
 

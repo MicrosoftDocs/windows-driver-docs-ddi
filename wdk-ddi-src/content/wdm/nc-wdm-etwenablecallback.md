@@ -88,7 +88,7 @@ The provider-defined data. This parameter is optional. The provider determines t
 The context of the callback function that is defined when the provider called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> to register itself. This parameter is optional.
 
 
-#### - IsEnabled [in]
+### -param IsEnabled [in]
 
 The parameter indicates whether the provider is being enabled or disabled. The value is <b>TRUE</b> if the session enabled the provider; otherwise, it is <b>FALSE</b>.
 

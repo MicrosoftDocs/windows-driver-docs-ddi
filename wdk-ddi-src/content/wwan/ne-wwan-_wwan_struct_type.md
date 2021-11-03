@@ -195,7 +195,7 @@ The elements are of type [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_wwan_net
 The total number of supported types.
 
 
-#### - WwanStructDeviceCellularClass
+### -field WwanStructDeviceCellularClass
 
 The elements are of type <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_cellular_class">WWAN_CELLULAR_CLASS</a>. 
 

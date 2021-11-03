@@ -75,7 +75,7 @@ Specifies the requested amount of data that will be scanned. The microdriver mus
 
 ### -param plReceived
 
-#### - pReceived [out]
+### -param pReceived [out]
 
 Specifies the amount of data actually scanned into *pBuffer*. This value should never exceed the value of *lLength*, but can be less.
 

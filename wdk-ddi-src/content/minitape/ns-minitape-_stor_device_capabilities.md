@@ -102,7 +102,7 @@ Specifies whether the miniport driver for the device can handle the case where t
 Do not display the device in the user interface. If this bit is set, the device is never displayed in the user interface, even if the device is present but fails to start. Miniport drivers do not set this bit.
 
 
-#### - RawDeviceOK
+### -field RawDeviceOK
 
 Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called raw mode.
 

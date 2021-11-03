@@ -542,7 +542,7 @@ An unused member of the RX_CONTEXT structure.
 
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
  
 
@@ -581,7 +581,7 @@ A set of options set by RDBSS and passed to low I/O operations sent to the netwo
 A pointer to a LOWIO_CONTEXT structure passed to the network mini-redirector. <b>LowIoContext</b> is a member of unnamed structure used for low I/O requests sent to the network mini-redirector.
 
 
-#### - FsdUid
+### -field FsdUid
 
 The effective user ID if <a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMinirdr</a> was called using a user-mode process thread. This member is not used by RDBSS.
 

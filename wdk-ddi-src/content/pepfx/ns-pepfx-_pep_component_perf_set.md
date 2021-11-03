@@ -88,7 +88,7 @@ A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_perf_state_type">PE
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 A union that contains the performance measurement values for this P-state. This union contains either a list of discrete values (if <b>Type</b> = <b>PepPerfStateTypeDiscrete</b>) or a continuous range of values (if <b>Type</b> = <b>PepPerfStateTypeRange</b>).
 

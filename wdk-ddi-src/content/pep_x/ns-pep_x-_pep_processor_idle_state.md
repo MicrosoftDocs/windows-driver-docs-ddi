@@ -72,7 +72,7 @@ The <b>PEP_PROCESSOR_IDLE_STATE</b> structure describes the capabilities of a pr
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 A collection of flag bits and status fields that can be accessed either individually as bitfields, or together as a 32-bit unsigned integer value.
 

@@ -80,22 +80,22 @@ A notification to PoFx that the PEP has asynchronously finished evaluating an AC
 Reserved for use by operating system.
 
 
-#### - PepWorkActiveComplete
+### -field PepWorkActiveComplete
 
 Reserved for use by the operating system.
 
 
-#### - PepWorkDeviceIdle
+### -field PepWorkDeviceIdle
 
 A request for the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
 
 
-#### - PepWorkDevicePower
+### -field PepWorkDevicePower
 
 Reserved for use by the operating system.
 
 
-#### - PepWorkRequestIdleState
+### -field PepWorkRequestIdleState
 
 Reserved for use by the operating system.
 

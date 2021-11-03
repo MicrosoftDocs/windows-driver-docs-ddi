@@ -69,7 +69,7 @@ The analysis is in the prebucketing phase. This is just before the analysis engi
 The analysis is in the post bucketing phase. This is just after the analysis engine generates a bucket.
 
 
-#### - FA_PLUGIN_INITILIZATION
+### -field FA_PLUGIN_INITILIZATION
 
 The analysis is in the initialization phase. This is after the primary data such as
     exception record (for user mode) or  bugcheck code (for kernel

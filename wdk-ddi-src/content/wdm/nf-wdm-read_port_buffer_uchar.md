@@ -50,17 +50,17 @@ The <b>READ_PORT_BUFFER_UCHAR</b> routine reads a number of bytes from the speci
 
 ### -parameters
 
-#### -param Port [in]
+### -paramparam Port [in]
 
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
-#### -param Buffer [out]
+### -paramparam Buffer [out]
 
 
 Pointer to a buffer into which an array of UCHAR values is read.
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of bytes to be read into the buffer.

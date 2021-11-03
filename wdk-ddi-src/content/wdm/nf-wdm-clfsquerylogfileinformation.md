@@ -147,7 +147,7 @@ Length in bytes of the incoming information buffer.
 
 
 
-#### - pcbBuffer [in, out]
+### -param pcbBuffer [in, out]
 
 The size, in bytes, of the buffer pointed to by <i>pinfoBuffer</i>.
 

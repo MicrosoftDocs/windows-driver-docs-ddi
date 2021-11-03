@@ -51,7 +51,7 @@ The <b>SetFontContent</b> method sets the content of the font.
 
 ### -param pContentType
 
-#### - contentType [in]
+### -param contentType [in]
 
 The type of the content for the font to be set.
 

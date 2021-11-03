@@ -231,7 +231,7 @@ Specifies the incoming queue length in message transfer units (MTUs).
 
 Reserved member. Do not use.
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 A [BRB_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 

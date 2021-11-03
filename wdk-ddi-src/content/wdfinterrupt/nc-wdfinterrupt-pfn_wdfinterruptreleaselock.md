@@ -58,7 +58,7 @@ For passive level interrupt objects, the method ends a code sequence that execut
 
 ### -param WDFINTERRUPT
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 

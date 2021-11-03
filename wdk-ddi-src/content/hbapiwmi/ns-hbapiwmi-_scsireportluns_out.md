@@ -76,7 +76,7 @@ Contains the status of the SCSI report LUNs command.
 Contains the results of the SCSI report LUNs command. 
 
 
-#### - SenseBuffer
+### -field SenseBuffer
 
 Contains the SCSI sense data that results from the SCSI report LUNs command.
 

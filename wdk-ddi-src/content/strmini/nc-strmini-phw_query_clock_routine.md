@@ -51,7 +51,7 @@ Each stream may have a clock associated to it. The class driver queries the cloc
 
 ### -param TimeContext
 
-#### - HwTimeContext [in]
+### -param HwTimeContext [in]
 
 Pointer to the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a> structure that <i>StrMiniClock</i> must fill out with the requested information.
 

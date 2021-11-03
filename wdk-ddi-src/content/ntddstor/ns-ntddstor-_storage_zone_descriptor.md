@@ -83,14 +83,14 @@ N/A
 
 
 
-#### - ResetWritePointerRecomend
+### -field ResetWritePointerRecomend
 
 N/A
 
 N/A
 
 
-#### - WriterPointerOffset
+### -field WriterPointerOffset
 
 N/A
 

@@ -56,7 +56,7 @@ The client driver's implementation that UCX calls to abort the queue associated 
 
 ### -param UcxEndpoint
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object.
 

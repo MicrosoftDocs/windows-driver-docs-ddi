@@ -63,7 +63,7 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_objec
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure that specifies the characteristics of the device being initialized. If this pointer is <b>NULL</b>, a device is created with default characteristics and no associated filter factories.
 
 
-#### - RegistryPath [in]
+### -param RegistryPath [in]
 
 A pointer to a Unicode string containing the registry path string passed into the minidriver's <b>DriverEntry</b> function by the operating system.
 

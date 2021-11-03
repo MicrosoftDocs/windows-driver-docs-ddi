@@ -130,7 +130,7 @@ Contains a structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-
 Contains a structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system.
 
 
-#### - Luid[256]
+### -field Luid[256]
 
 Contains the logical unit descriptor for the device that the operating system derives from SCSI inquiry data.
 

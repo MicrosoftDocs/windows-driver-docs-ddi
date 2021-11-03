@@ -78,7 +78,7 @@ The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec comm
 Specifies a complete, 64-bit response summary that consists of a 32-bit response, 4-bit codec address, three status bits, and 25 unused bits (set to zero). This value is mostly used in debug messages.
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 Specifies a 26-bit unsolicited response value.
 

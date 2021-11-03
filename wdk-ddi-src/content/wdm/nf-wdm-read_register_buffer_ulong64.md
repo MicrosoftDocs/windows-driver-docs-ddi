@@ -48,17 +48,17 @@ The **READ_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer, 
 
 ### -parameters
 
-#### -param Register [in]
+### -paramparam Register [in]
 
 
 Pointer to the register address, which must be a mapped range in memory space.
 
-#### -param Buffer [out]
+### -paramparam Buffer [out]
 
 
 Pointer to a buffer that an array of ULONG64 values is read into. 
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of ULONG64 values to be read into the buffer.

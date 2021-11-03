@@ -50,17 +50,17 @@ The <b>WRITE_PORT_BUFFER_ULONG</b> routine writes a number of ULONG values from 
 
 ### -parameters
 
-#### -param Port [in]
+### -paramparam Port [in]
 
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
-#### -param Buffer [in]
+### -paramparam Buffer [in]
 
 
 Pointer to a buffer from which an array of ULONG values is to be written.
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of ULONG values to be written to the port.

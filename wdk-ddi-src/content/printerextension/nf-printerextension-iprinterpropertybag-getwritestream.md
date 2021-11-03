@@ -56,7 +56,7 @@ The property to write.
 
 ### -param ppValue
 
-#### - ppValueStream [out, retval]
+### -param ppValueStream [out, retval]
 
 The retrieved stream.
 

@@ -48,12 +48,12 @@ The **WRITE_REGISTER_ULONG64** routine dereferences the supplied pointer, insert
 
 ### -parameters
 
-#### -param Register [in]
+### -paramparam Register [in]
 
 
 Pointer to the register, which must be a mapped range in memory space.
 
-#### -param Value [in]
+### -paramparam Value [in]
 
 
 Specifies a ULONG64 value to write to the register.

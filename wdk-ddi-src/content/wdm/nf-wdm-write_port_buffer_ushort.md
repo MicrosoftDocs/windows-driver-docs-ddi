@@ -50,17 +50,17 @@ The <b>WRITE_PORT_BUFFER_USHORT</b> routine writes a number of USHORT values fro
 
 ### -parameters
 
-#### -param Port [in]
+### -paramparam Port [in]
 
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
-#### -param Buffer [in]
+### -paramparam Buffer [in]
 
 
 Pointer to a buffer from which an array of USHORT values is to be written.
 
-#### -param Count [in]
+### -paramparam Count [in]
 
 
 Specifies the number of USHORT values to be written to the port.

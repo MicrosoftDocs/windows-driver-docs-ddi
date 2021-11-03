@@ -67,7 +67,7 @@ A pointer to a [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md) structure fo
 
 The processing status for the state change notification.
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 [in] A pointer to the miniport driver's per-HBA storage area.
 

@@ -70,27 +70,27 @@ Describes device interface class information associated with a USB interface. Th
 Determines whether the driver has published a device interface is GUID. 
 
 
-#### - FullSpeedClassInterface
+### -field FullSpeedClassInterface
 
 A <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface_ex">USBFN_CLASS_INTERFACE_EX</a> structure that describes an interface for full speed device.
 
 
-#### - HighSpeedClassInterface
+### -field HighSpeedClassInterface
 
 A <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface_ex">USBFN_CLASS_INTERFACE_EX</a> structure that describes an interface for high speed device.
 
 
-#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
+### -field InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
 
 A string from which the driver can derive the device interface GUID.
 
 
-#### - InterfaceName[MAX_INTERFACE_NAME_LENGTH]
+### -field InterfaceName[MAX_INTERFACE_NAME_LENGTH]
 
 A string that contains the interface name.
 
 
-#### - SuperSpeedClassInterface
+### -field SuperSpeedClassInterface
 
 A <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
 

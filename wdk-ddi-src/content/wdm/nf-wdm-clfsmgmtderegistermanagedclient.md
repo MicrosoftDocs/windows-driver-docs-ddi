@@ -57,7 +57,7 @@ The cookie we give back to the caller for future use of the API.
 
 
 
-#### - Client [in]
+### -param Client [in]
 
 A pointer to the client. This is the value that was obtained through a call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 

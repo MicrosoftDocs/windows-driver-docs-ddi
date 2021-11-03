@@ -51,12 +51,12 @@ Reboots the  system and restarts the test script with context data.
 
 ### -param psContextName
 
-#### - psContext [in]
+### -param psContext [in]
 
 The context name.
 
 
-#### - psContextData [in]
+### -param psContextData [in]
 
 The context data.
 

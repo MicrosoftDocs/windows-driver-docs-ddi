@@ -66,7 +66,7 @@ Defines LPI state flags, either as a structure or as an integer.
 An LPI state as an integer. 
 
 
-#### - {
+### -field {
         ULONG Disabled:1;
         ULONG CounterUnavailable:1;
         ULONG Reserved:30;

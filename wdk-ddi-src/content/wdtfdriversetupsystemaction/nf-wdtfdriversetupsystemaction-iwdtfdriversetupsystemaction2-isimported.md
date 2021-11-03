@@ -66,7 +66,7 @@ The package that is to be checked.
 
 
 
-#### - pbIsImported [out, retval]
+### -param pbIsImported [out, retval]
 
 True if the package has already been imported; otherwise, false.
 

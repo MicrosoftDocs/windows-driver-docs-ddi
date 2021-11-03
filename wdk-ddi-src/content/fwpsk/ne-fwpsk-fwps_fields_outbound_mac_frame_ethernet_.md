@@ -113,7 +113,7 @@ The maximum value for this enumeration. This value might change in future versio
      header files and binaries.
 
 
-#### - FWPS_FIELD_OUTBOUND_MAC_FRAME_ETHERNET_FLAGS
+### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_ETHERNET_FLAGS
 
 The outbound MAC frame IEEE 802.3 flags field.
 

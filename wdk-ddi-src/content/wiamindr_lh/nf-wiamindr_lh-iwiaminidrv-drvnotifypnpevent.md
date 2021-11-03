@@ -61,7 +61,7 @@ Specifies a string containing the device's unique identifier.
 
 Is reserved for system use.
 
-#### - pEventGuid [in]
+### -param pEventGuid [in]
 
 Points to a GUID identifying the event.
 

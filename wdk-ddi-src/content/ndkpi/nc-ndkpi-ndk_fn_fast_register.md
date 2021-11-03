@@ -168,7 +168,7 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
  
 
 
-#### - AdapterPageArray
+### -param AdapterPageArray
 
 An array of adapter logical addresses (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_logical_address_mapping">NDK_LOGICAL_ADDRESS</a>) where each address is the starting logical address for a page. Each address must be aligned  pages that are <b>PAGE_SIZE</b> bytes in length. Consecutive addresses in the array are not necessarily consecutive in terms of the logical address space, but the array as a whole represents a virtually contiguous memory region from the perspective of the host system.
 

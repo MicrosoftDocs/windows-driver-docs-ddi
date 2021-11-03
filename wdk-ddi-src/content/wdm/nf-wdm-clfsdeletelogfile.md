@@ -79,7 +79,7 @@ A pointer to a context. The way the context is interpreted depends on the value 
 The size, in bytes, of the context pointed to by <i>pvContex</i>t. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero.
 
 
-#### - psdLogFile [in, optional]
+### -param psdLogFile [in, optional]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that supplies the security attributes for accessing the stream. This parameter can be <b>NULL</b>.
 

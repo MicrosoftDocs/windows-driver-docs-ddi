@@ -51,7 +51,7 @@ api_name:
 
 ### -param pBuffer
 
-#### - pbBuffer [in]
+### -param pbBuffer [in]
 
 Pointer to the buffer being passed to the allocator
 

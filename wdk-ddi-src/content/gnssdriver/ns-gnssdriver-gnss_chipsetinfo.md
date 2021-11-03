@@ -76,19 +76,19 @@ The firmware version value.
 
 Reserved for future use.
 
-#### - FirmwareVersion[20]
+### -field FirmwareVersion[20]
 
 Version of the firmware for the GNSS chipset. This would be a string, typically of the format NNNN.NNNN.NNNN.NNNN.
 
-#### - HardwareID[25]
+### -field HardwareID[25]
 
 String containing an identifier for the specific GNSS chipset or combo chipset.
 
-#### - ManufacturerID[25]
+### -field ManufacturerID[25]
 
 String containing an identifier for the manufacturer.
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer reserved for future use.
 
