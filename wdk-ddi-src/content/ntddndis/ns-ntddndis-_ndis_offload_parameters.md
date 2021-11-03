@@ -617,7 +617,7 @@ A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows:
 </dl>
 </td>
 <td width="60%">
-The NVGRE task offload state is unchanged.
+The NVGRE and VXLAN task offload states are unchanged.
 
 </td>
 </tr>
@@ -628,7 +628,7 @@ The NVGRE task offload state is unchanged.
 </dl>
 </td>
 <td width="60%">
-Enables NVGRE task offloads.
+Enables NVGRE and VXLAN task offloads.
 
 </td>
 </tr>
@@ -639,7 +639,7 @@ Enables NVGRE task offloads.
 </dl>
 </td>
 <td width="60%">
-Disables NVGRE task offloads.
+Disables NVGRE and VXLAN task offloads.
 
 </td>
 </tr>
