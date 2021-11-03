@@ -4,7 +4,7 @@ title: _WDF_DEVICE_PNP_STATE (wdfdevice.h)
 description: The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter.
 old-location: wdf\wdf_device_pnp_state.htm
 tech.root: wdf
-ms.date: 11/01/2021
+ms.date: 11/03/2021
 keywords: ["WDF_DEVICE_PNP_STATE enumeration"]
 ms.keywords: "*PWDF_DEVICE_PNP_STATE, PWDF_DEVICE_PNP_STATE, PWDF_DEVICE_PNP_STATE enumeration pointer, WDF_DEVICE_PNP_STATE, WDF_DEVICE_PNP_STATE enumeration"
 req.header: wdfdevice.h
@@ -60,7 +60,7 @@ The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the frame
 
 ## -enum-fields
 
-### -field WdfDevStatePnpInvalid=0x00
+### -field WdfDevStatePnpInvalid:0x00
 
 ### -field WdfDevStatePnpObjectCreated:0x100
 
