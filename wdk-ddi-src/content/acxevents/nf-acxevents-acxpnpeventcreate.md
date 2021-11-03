@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventCreate
 tech.root: audio
 title: AcxPnpEventCreate
-ms.date:  10/21/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: TBD
 prerelease: true
@@ -58,5 +58,18 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example pending.
+
+```cpp
+
+```
+
+
 ## -see-also
+
+[acxcircuit.h header](index.md)
+
+
 

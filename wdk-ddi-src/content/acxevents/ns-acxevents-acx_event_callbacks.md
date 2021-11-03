@@ -48,13 +48,48 @@ dev_langs:
 
 ### -field Size
 
+The length, in bytes, of this structure. 
+
 ### -field EvtAcxEventEnable
+
+The [EVT_ACX_EVENT_ENABLE](nc-acxevents-evt_acx_event_enable.md) callback.
 
 ### -field EvtAcxEventDisable
 
+The [EVT_ACX_EVENT_DISABLE](nc-acxevents-evt_acx_event_disable.md) callback
+
 ### -field EvtAcxEventProcessRequest
+
+TBD - The [EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST]() callback.
+
+DOCSTEAM TODO - add link to this callback in AcxRequest
 
 ## -remarks
 
+### Example
+
+Example pending.
+
+```cpp
+    ACX_EVENT_CALLBACKS         eventCallbacks;
+    ACX_EVENT_CONFIG            eventCfg;
+
+    // Add an audio control change event to this mute element.
+    //
+    ACX_EVENT_CALLBACKS_INIT(&eventCallbacks);
+    eventCallbacks.EvtAcxEventEnable = &AfxMute::EvtMuteEventEnableCallback; 
+    eventCallbacks.EvtAcxEventDisable = &AfxMute::EvtMuteEventDisableCallback;
+
+    ACX_EVENT_CONFIG_INIT(&eventCfg);
+    eventCfg.Set = &KSEVENTSETID_AudioControlChange;
+    eventCfg.Id  = KSEVENT_CONTROL_CHANGE;
+    eventCfg.Callbacks = &eventCallbacks;
+```
+
+
 ## -see-also
+
+[acxcircuit.h header](index.md)
+
+
 

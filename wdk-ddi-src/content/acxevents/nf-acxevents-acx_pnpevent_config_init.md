@@ -2,7 +2,7 @@
 UID: NF:acxevents.ACX_PNPEVENT_CONFIG_INIT
 tech.root: audio
 title: ACX_PNPEVENT_CONFIG_INIT
-ms.date:  10/21/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: TBD
 prerelease: true
@@ -48,5 +48,18 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example pending.
+
+```cpp
+
+```
+
+
 ## -see-also
+
+[acxcircuit.h header](index.md)
+
+
 

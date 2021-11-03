@@ -2,9 +2,9 @@
 UID: NE:acxevents._ACX_PNPEVENT_CONFIG_FLAGS
 tech.root: audio
 title: ACX_PNPEVENT_CONFIG_FLAGS
-ms.date:  10/21/2021
+ms.date: 11/02/2021
 targetos: Windows
-description: TBD
+description: The ACX_PNPEVENT_CONFIG_FLAGS enumeration defines the PNPEVENT config flags for ACX audio.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,13 +37,23 @@ dev_langs:
 
 ## -description
 
+The ACX_PNPEVENT_CONFIG_FLAGS enumeration defines the PNPEVENT config flags for ACX audio.
+
 ## -enum-fields
 
 ### -field AcxPnpEventConfigNoFlags
 
+Indicates that no pnp event config flags are set.
+
 ### -field AcxPnpEventConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
+
+[acxcircuit.h header](index.md)
+
+
 

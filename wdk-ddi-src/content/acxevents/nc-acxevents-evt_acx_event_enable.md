@@ -50,5 +50,25 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example pending.
+
+```cpp
+    //
+    // Add an audio control change event to this volume element.
+    //
+    ACX_EVENT_CALLBACKS_INIT(&eventCallbacks);
+    eventCallbacks.EvtAcxEventEnable = &AfxVolume::EvtVolumeEventEnableCallback; 
+    eventCallbacks.EvtAcxEventDisable = &AfxVolume::EvtVolumeEventDisableCallback;
+
+    ACX_EVENT_CONFIG_INIT(&eventCfg);
+
+```
+
+
 ## -see-also
+
+[acxcircuit.h header](index.md)
+
 

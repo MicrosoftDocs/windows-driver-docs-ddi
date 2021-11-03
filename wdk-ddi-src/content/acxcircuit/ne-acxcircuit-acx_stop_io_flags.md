@@ -2,7 +2,7 @@
 UID: NE:acxcircuit._ACX_STOP_IO_FLAGS
 tech.root: audio
 title: ACX_STOP_IO_FLAGS
-ms.date: 09/30/2021
+ms.date: 11/02/2021
 targetos: Windows
 description: The ACX_STOP_IO_FLAGS enumeration defines Stop IO flags.
 prerelease: true
@@ -52,14 +52,6 @@ For internal validation, do not use.
 ## -remarks
 
 There are no flags currently defined for this type.
-
-### Example
-
-Example pending.
-
-```cpp
-
-```
 
 
 ## -see-also

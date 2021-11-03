@@ -48,11 +48,27 @@ dev_langs:
 
 ### -field Size
 
+The length, in bytes, of this structure. 
+
 ### -field Flags
+
+Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md). 
 
 ### -field Event
 
 ## -remarks
 
+### Example
+
+Example pending.
+
+```cpp
+
+```
+
+
 ## -see-also
+
+[acxcircuit.h header](index.md)
+
 
