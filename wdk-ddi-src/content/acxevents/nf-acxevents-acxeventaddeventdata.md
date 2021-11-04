@@ -2,9 +2,9 @@
 UID: NF:acxevents.AcxEventAddEventData
 tech.root: audio
 title: AcxEventAddEventData
-ms.date: 11/03/2021
+ms.date: 11/04/2021
 targetos: Windows
-description: TBD
+description: The AcxEventAddEventData function adds event data to an ACXEVENT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxEventAddEventData function adds event data to a and ACXEVENT object.
+The AcxEventAddEventData function adds event data to an ACXEVENT object.
 
 ## -parameters
 

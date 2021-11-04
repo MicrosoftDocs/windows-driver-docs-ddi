@@ -2,9 +2,9 @@
 UID: NF:acxevents.ACX_EVENT_CALLBACKS_INIT
 tech.root: audio
 title: ACX_EVENT_CALLBACKS_INIT
-ms.date:  10/21/2021
+ms.date: 11/04/2021
 targetos: Windows
-description: TBD
+description: The ACX_EVENT_CALLBACKS_INIT function initializes a ACX_EVENTS_CALLBACKS structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -49,7 +49,7 @@ The ACX_EVENT_CALLBACKS_INIT function initializes a [ACX_EVENTS_CALLBACKS struct
 
 ### -param Callbacks
 
-TBD - A pointer to an initialized [ACX_EVENTS_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md).
+A pointer to an initialized [ACX_EVENTS_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md).
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NS:acxevents._ACX_EVENT_CALLBACKS
 tech.root: audio
 title: ACX_EVENT_CALLBACKS
-ms.date: 11/03/2021
+ms.date: 11/04/2021
 targetos: Windows
 description: The ACX_EVENT_CALLBACKS structure identifies the driver callbacks for ACX event operations.
 prerelease: true
@@ -70,7 +70,7 @@ DOCSTEAM TODO - add link to this callback in AcxRequest
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of ACX_EVENT_CALLBACKS.
 
 ```cpp
     ACX_EVENT_CALLBACKS         eventCallbacks;

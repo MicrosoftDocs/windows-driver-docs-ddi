@@ -2,7 +2,7 @@
 UID: NS:acxevents._ACX_EVENT_CONFIG
 tech.root: audio
 title: ACX_EVENT_CONFIG
-ms.date:  10/21/2021
+ms.date: 11/04/2021
 targetos: Windows
 description: The ACX_EVENT_CONFIG structure is used to define the acx event configuration. 
 prerelease: true
@@ -68,6 +68,7 @@ Specifies the event ID. This member identifies an event item within the event se
 
 ### -field Type
 
+TBD - The event value type (operation data) is a KSEVENTDATA structure that specifies the notification method to use for this event.
 
 
 ### -field Callbacks
@@ -78,11 +79,12 @@ The [ACX_EVENT_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md) that id
 
 ### Example
 
-The example shows the use of the 
-
-TBD - Is this example OK to show?
+The example shows the use of the ACX_EVENT_CONFIG structure.
 
 ```cpp
+    ACX_EVENT_CONFIG            eventCfg;
+    ACX_EVENT_CALLBACKS         eventCallbacks;
+ 
     //
     // Add an audio control change event to this volume element.
     //
@@ -94,25 +96,7 @@ TBD - Is this example OK to show?
     eventCfg.Set = &KSEVENTSETID_AudioControlChange;
     eventCfg.Id  = KSEVENT_CONTROL_CHANGE;
     eventCfg.Callbacks = &eventCallbacks;
-
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, AFX_VOLUME_EVENT_CONTEXT);
-    status = ACXINTERNAL(AcxEventCreate)(m_AcxGlobals, GetObjectHandle(), &attributes, &eventCfg, &m_Event);
-
-
-    //
-    // Init volume event context.
-    //
-    eventCtx = GetAfxVolumeEventContext(m_Event);
-    ASSERT(eventCtx);
-
-    eventCtx->AfxVolume = this; // weak ref to volume object.
-
-    //
-    // Add the event to the inner element object.
-    //
-    status = ACXINTERNAL(AcxElementAddEvents)(m_AcxGlobals, (ACXELEMENT)GetObjectHandle(), &m_Event, 1);
 ```
-
 
 ## -see-also
 

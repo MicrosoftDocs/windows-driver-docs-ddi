@@ -2,9 +2,9 @@
 UID: NF:acxevents.AcxEventGenerateEvent
 tech.root: audio
 title: AcxEventGenerateEvent
-ms.date:  10/21/2021
+ms.date: 11/04/2021
 targetos: Windows
-description: TBD
+description: The AcxEventGenerateEvent function generates an acx event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The AcxEventGenerateEvent function generates an acx event.
+
 ## -parameters
 
 ### -param Event
@@ -52,10 +54,19 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ### Example
 
-Example pending.
+TBD - Is there anything we should add to this sample code from the test driver?
+
+This sample shows the use of AcxEventGenerateEvent.
 
 ```cpp
+    PCODEC_MUTE_TIMER_CONTEXT timerCtx = GetCodecMuteTimerContext(Timer);
+    PCODEC_MUTE_ELEMENT_CONTEXT muteCtx = GetCodecMuteElementContext(timerCtx->MuteElement);
 
+    // update settings 0 <-> 1  
+    muteCtx->MuteState[0] = !muteCtx->MuteState[0];
+    muteCtx->MuteState[1] = !muteCtx->MuteState[1];
+    
+    AcxEventGenerateEvent(timerCtx->Event);
 ```
 
 
