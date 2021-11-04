@@ -18,7 +18,11 @@ api_name:
 
 # acxevents.h header
 
-This header is used by the ACX audio class extensions.
+The acxevents header is used by the ACX audio class extensions.
+
+An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally, they are exposed as KS events to upper layers. 
+
+TBD - It would be good to discuss when you would want to use acx events and for what purpose.
 
 For more information, see:
 
@@ -38,7 +42,6 @@ TBD - Need to confirm these all map to ACX?
 
 [Audio Device Hardware Events](/windows-hardware/drivers/audio/hardware-events)
 
-TBD - It would be good to discuss when you would want to use acx events and for what purpose.
 
 ## Header elements
 

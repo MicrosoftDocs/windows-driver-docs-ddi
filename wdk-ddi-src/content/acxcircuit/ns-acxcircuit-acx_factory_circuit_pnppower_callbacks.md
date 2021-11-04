@@ -90,8 +90,6 @@ Example usage is shown below.
 
 [acxcircuit.h header](index.md)
 
-[ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md)
-
 [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md) 
 
 

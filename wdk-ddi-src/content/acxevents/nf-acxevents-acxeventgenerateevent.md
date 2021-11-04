@@ -52,6 +52,8 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ## -remarks
 
+An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers. 
+
 ### Example
 
 TBD - Is there anything we should add to this sample code from the test driver?

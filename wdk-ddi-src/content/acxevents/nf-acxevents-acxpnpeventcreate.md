@@ -72,6 +72,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objs. Internally they are exposed as PnP asynchronous notification to upper layers. 
+
 ### Example
 
 This example code shows the use of AcxPnpEventCreate.
