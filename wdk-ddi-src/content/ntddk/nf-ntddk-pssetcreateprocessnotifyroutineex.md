@@ -109,7 +109,7 @@ Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutineEx</b> to regis
 
 A driver must remove any callback routines that it registers before it unloads. You can remove the callback routine by calling <b>PsSetCreateProcessNotifyRoutineEx</b> with <i>Remove</i> set to <b>TRUE</b>. A driver must not make this call from its implementation of the [*PCREATE_PROCESS_NOTIFY_ROUTINE_EX*](./nc-ntddk-pcreate_process_notify_routine_ex.md) callback routine. 
 
-The operating system calls the driver's process-notify routine at PASSIVE_LEVEL inside a critical region with <a href="/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> disabled. When a process is created, the process-notify routine runs in the context of the thread that created the new process. When a process is deleted, the process-notify routine runs in the context of the last thread to exit from the process.
+The operating system calls the driver's process-notify routine at PASSIVE_LEVEL inside a critical region with <a href="/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> disabled. When a process is created, the process-notify routine runs just after the first thread in the process has been created. When a process is deleted, the process-notify routine runs in the context of the last thread to exit from the process.
 
 ## -see-also
 
