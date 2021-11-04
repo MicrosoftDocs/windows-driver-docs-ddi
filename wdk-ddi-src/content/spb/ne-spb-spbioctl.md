@@ -74,3 +74,7 @@ The [IOCTL_SPB_UNLOCK_CONNECTION](/windows-hardware/drivers/spb/spb-ioctls#ioctl
 ### -field IOCTL_SPB_FULL_DUPLEX
 
 The [IOCTL_SPB_FULL_DUPLEX](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_full_duplex-control-code) control code is used by a client (peripheral driver) to request a full-duplex I/O operation. Full-duplex I/O operations are supported by controllers for buses such as SPI that can simultaneously read and write data.
+
+### -field IOCTL_SPB_MULTI_SPI_TRANSFER
+
+The <b>IOCTL_SPB_MULTI_SPI_TRANSFER</b> control code is used by a client (peripheral driver) to request a SPI I/O operation to use a multi-SPI transfer mode such as Dual or Quad SPI. Multi-SPI I/O operations are supported by controllers for SPI buses that support data transfer in Dual or Quad SPI line modes.
