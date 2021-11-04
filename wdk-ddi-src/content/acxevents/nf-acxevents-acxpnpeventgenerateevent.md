@@ -2,9 +2,9 @@
 UID: NF:acxevents.AcxPnpEventGenerateEvent
 tech.root: audio
 title: AcxPnpEventGenerateEvent
-ms.date:  10/21/2021
+ms.date: 11/04/2021
 targetos: Windows
-description: TBD
+description: The AcxPnpEventGenerateEvent function generates an acx pnp event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The AcxPnpEventGenerateEvent function generates an acx pnp event.
+
 ## -parameters
 
 ### -param Event
@@ -50,8 +52,9 @@ The ACXPNPEVENT object (described in [Summary of ACX Objects](/windows-hardware/
 
 ### -param Payload
 
-The event size of the event payload.
+The event payload.
 
+TBD - Is this always a AUDIOMODULE_CUSTOM_NOTIFICATION??? Pointer to an array of something?
 
 ### -param Size
 
@@ -66,7 +69,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-Example pending.
+This example code snip, shows the use of AcxPnpEventGenerateEvent.
 
 ```cpp
     if (fNewValue &&
@@ -78,22 +81,7 @@ Example pending.
         customNotification.ParameterChanged.ParameterId = command->ParameterId;
 
         status = AcxPnpEventGenerateEvent(audioModuleCtx->Event, &customNotification, (USHORT)sizeof(customNotification));
-
 ```
-
-
-## -see-also
-
-[acxcircuit.h header](index.md)
-
-### Example
-
-Example pending.
-
-```cpp
-
-```
-
 
 ## -see-also
 
