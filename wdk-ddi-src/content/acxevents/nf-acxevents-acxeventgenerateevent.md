@@ -46,6 +46,8 @@ dev_langs:
 
 ### -param Event
 
+The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)).
+
 ## -remarks
 
 ### Example

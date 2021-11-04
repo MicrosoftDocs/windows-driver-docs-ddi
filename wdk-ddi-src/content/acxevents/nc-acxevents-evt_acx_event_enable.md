@@ -2,9 +2,9 @@
 UID: NC:acxevents.EVT_ACX_EVENT_ENABLE
 tech.root: audio
 title: EVT_ACX_EVENT_ENABLE
-ms.date:  10/21/2021
+ms.date: 11/03/2021
 targetos: Windows
-description: TBD
+description: TBD - The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when an ACX Event is being enabled TBD?
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,25 @@ dev_langs:
 
 ## -description
 
+TBD - The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when an ACX Event is being enabled TBD?
+
 ## -parameters
 
 ### -param Event
 
+The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)).
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
 ### Example
 
 Example pending.
+
+TBD - Is this an OK Sample?
 
 ```cpp
     //
@@ -64,6 +72,24 @@ Example pending.
 
     ACX_EVENT_CONFIG_INIT(&eventCfg);
 
+NTSTATUS
+AfxVolume::EvtVolumeEventEnableCallback(
+    _In_ ACXEVENT Event
+    )
+{
+    AFX_VOLUME_EVENT_CONTEXT * eventCtx;
+    AfxVolume * This;
+    
+    PAGED_CODE();
+
+    eventCtx = GetAfxVolumeEventContext(Event);
+    ASSERT(eventCtx != NULL);
+    ASSERT(eventCtx->AfxVolume != NULL);
+
+    This = eventCtx->AfxVolume;
+    
+    return STATUS_SUCCESS;
+}
 ```
 
 

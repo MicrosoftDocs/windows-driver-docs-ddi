@@ -2,9 +2,9 @@
 UID: NC:acxevents.EVT_ACX_EVENT_DISABLE
 tech.root: audio
 title: EVT_ACX_EVENT_DISABLE
-ms.date:  10/21/2021
+ms.date: 11/03/2021
 targetos: Windows
-description: TBD
+description: TBD - The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when an ACX Event is being disabled TBD?
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+TBD - The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when an ACX Event is being disabled TBD?
+
 ## -parameters
 
 ### -param Event
+
+The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)).
 
 ## -remarks
 
@@ -52,8 +56,27 @@ dev_langs:
 
 Example pending.
 
-```cpp
+TBD - Is this code sample OK?
 
+```cpp
+EVT_ACX_EVENT_DISABLE               CodecR_EvtMuteElementDisableCallback;
+
+VOID
+CodecR_EvtMuteElementDisableCallback(
+    _In_ ACXEVENT Event
+    )
+{
+    CODEC_MUTE_EVENT_CONTEXT *  muteEventCtx;
+
+    PAGED_CODE();
+    
+    // for testing. 
+    muteEventCtx = GetCodecMuteEventContext(Event);
+    ASSERT(muteEventCtx);
+    
+    ASSERT(muteEventCtx->Timer);
+    WdfTimerStop(muteEventCtx->Timer, TRUE);
+}
 ```
 
 

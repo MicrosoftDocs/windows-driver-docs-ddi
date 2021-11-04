@@ -46,11 +46,21 @@ dev_langs:
 
 ### -param Event
 
+The ACXPNPEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)).
+
 ### -param Payload
+
+The event size of the event payload.
+
 
 ### -param Size
 
+The size of the event payload.
+
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -59,6 +69,15 @@ dev_langs:
 Example pending.
 
 ```cpp
+    if (fNewValue &&
+        (parameterInfo->Flags & AUDIOMODULE_PARAMETER_FLAG_CHANGE_NOTIFICATION))
+    {
+        AUDIOMODULE_CUSTOM_NOTIFICATION customNotification = {0};
+
+        customNotification.Type = AudioModuleParameterChanged;
+        customNotification.ParameterChanged.ParameterId = command->ParameterId;
+
+        status = AcxPnpEventGenerateEvent(audioModuleCtx->Event, &customNotification, (USHORT)sizeof(customNotification));
 
 ```
 

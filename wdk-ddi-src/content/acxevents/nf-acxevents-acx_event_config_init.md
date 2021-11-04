@@ -2,9 +2,9 @@
 UID: NF:acxevents.ACX_EVENT_CONFIG_INIT
 tech.root: audio
 title: ACX_EVENT_CONFIG_INIT
-ms.date:  10/21/2021
+ms.date: 11/03/2021
 targetos: Windows
-description: TBD
+description: The ACX_EVENT_CONFIG_INIT function initializes an ACX_EVENT_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,8 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_EVENT_CONFIG_INIT function initializes an [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure.
-
+The ACX_EVENT_CONFIG_INIT function initializes an [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure. No inputs are used with this function.
 
 ## -parameters
 
@@ -51,14 +50,15 @@ The ACX_EVENT_CONFIG_INIT function initializes an [ACX_EVENT_CONFIG](ns-acxevent
 
 An initialized [ACX_EVENT_CONFIG structure](ns-acxevents-acx_event_config.md) that describes the configuration of the acx event.
 
-
 ## -remarks
 
 ### Example
 
-Example pending.
+This example shows the use of ACX_EVENT_CONFIG_INIT.
 
 ```cpp
+    ACX_EVENT_CALLBACKS         eventCallbacks;
+    ACX_EVENT_CONFIG            eventCfg;
     //
     // Add an audio control change event to this volume element.
     //
@@ -67,9 +67,7 @@ Example pending.
     eventCallbacks.EvtAcxEventDisable = &AfxVolume::EvtVolumeEventDisableCallback;
 
     ACX_EVENT_CONFIG_INIT(&eventCfg);
-
 ```
-
 
 ## -see-also
 

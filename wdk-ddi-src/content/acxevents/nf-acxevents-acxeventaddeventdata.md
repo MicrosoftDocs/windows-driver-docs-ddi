@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventAddEventData
 tech.root: audio
 title: AcxEventAddEventData
-ms.date:  10/21/2021
+ms.date: 11/03/2021
 targetos: Windows
 description: TBD
 prerelease: true
@@ -42,11 +42,17 @@ dev_langs:
 
 ## -description
 
+The AcxEventAddEventData function adds event data to a and ACXEVENT object.
+
 ## -parameters
 
 ### -param Event
 
+The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)).
+
 ### -param EventData
+
+The ACXEVENTDATA ACX object.
 
 ## -remarks
 
@@ -54,10 +60,21 @@ dev_langs:
 
 Example pending.
 
+TBD - OK to use this test code?
+
 ```cpp
-
+VOID
+CodecR_EvtMuteElementChangeEventCallback(
+    _In_        ACXOBJECT       Object,
+    _In_        ACXEVENT        Event,
+    _In_        ACX_EVENT_VERB  Verb,
+    _In_opt_    ACXEVENTDATA    EventData,
+    _In_opt_    WDFREQUEST      Request
+    )
+{
+...
+        AcxEventAddEventData(Event, EventData);
 ```
-
 
 ## -see-also
 

@@ -2,9 +2,9 @@
 UID: NS:acxevents._ACX_EVENT_CALLBACKS
 tech.root: audio
 title: ACX_EVENT_CALLBACKS
-ms.date:  10/21/2021
+ms.date: 11/03/2021
 targetos: Windows
-description: TBD
+description: The ACX_EVENT_CALLBACKS structure identifies the driver callbacks for ACX event operations.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The ACX_EVENT_CALLBACKS structure identifies the driver callbacks for ACX event operations.
+
 ## -struct-fields
 
 ### -field Size
@@ -56,7 +58,7 @@ The [EVT_ACX_EVENT_ENABLE](nc-acxevents-evt_acx_event_enable.md) callback.
 
 ### -field EvtAcxEventDisable
 
-The [EVT_ACX_EVENT_DISABLE](nc-acxevents-evt_acx_event_disable.md) callback
+The [EVT_ACX_EVENT_DISABLE](nc-acxevents-evt_acx_event_disable.md) callback.
 
 ### -field EvtAcxEventProcessRequest
 
@@ -68,7 +70,7 @@ DOCSTEAM TODO - add link to this callback in AcxRequest
 
 ### Example
 
-Example pending.
+TBD - Example pending.
 
 ```cpp
     ACX_EVENT_CALLBACKS         eventCallbacks;
@@ -85,7 +87,6 @@ Example pending.
     eventCfg.Id  = KSEVENT_CONTROL_CHANGE;
     eventCfg.Callbacks = &eventCallbacks;
 ```
-
 
 ## -see-also
 

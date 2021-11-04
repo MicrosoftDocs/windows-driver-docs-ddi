@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPnpEventCreate
 ms.date: 11/02/2021
 targetos: Windows
-description: TBD
+description: The AcxPnpEventCreate function creates an acx pnp event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,30 +42,58 @@ dev_langs:
 
 ## -description
 
+The AcxPnpEventCreate function creates an acx pnp event.
+
 ## -parameters
 
 ### -param Device
 
+TBD - A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
+
 ### -param Object
+
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the event.
 
 ### -param Attributes
 
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the event with the parent WDF device object (TBD???).
+
 ### -param Config
+
+An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure defines how to add events to an ACX TBD.
 
 ### -param Event
 
+The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)).
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
 ### Example
 
-Example pending.
+This example code shows the use of AcxPnpEventCreate.
 
 ```cpp
 
-```
+    NTSTATUS                        status;
+    WDF_OBJECT_ATTRIBUTES           attributes;
+    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
+    ACXPNPEVENT                     audioModuleEvent;
 
+    status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
+
+    audioModule0Ctx = GetCodecAudioModule0Context(audioModuleElement);
+
+
+    ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_PNPEVENT_CONTEXT);
+    attributes.ParentObject = audioModuleElement;
+    status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
+```
 
 ## -see-also
 

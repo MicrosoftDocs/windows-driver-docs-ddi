@@ -56,7 +56,7 @@ TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more informatio
 
 ### -param Config
 
-An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) config structure is defines how to add circuits for an ACX circuit factory.
+An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) config structure that defines how to add circuits for an ACX circuit factory.
 
 ### -param Device
 

@@ -58,16 +58,17 @@ Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags
 
 ### -field Set
 
-A 
+Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in [Audio Drivers Event Sets](/windows-hardware/drivers/audio/audio-drivers-event-sets).
+
+This is a KSEVENTSETID, for example KSEVENTSETID_AudioControlChange. For more information about, see [KSEVENTDATA structure (ks.h)](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata).
 
 ### -field Id
 
-A number that represents the element ID.
-
-??
-/windows-hardware/drivers/audio/audio-drivers-event-sets
+Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
 
 ### -field Type
+
+
 
 ### -field Callbacks
 
@@ -77,10 +78,11 @@ The [ACX_EVENT_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md) that id
 
 ### Example
 
-The example shows the use of the TBD
+The example shows the use of the 
+
+TBD - Is this example OK to show?
 
 ```cpp
-
     //
     // Add an audio control change event to this volume element.
     //
@@ -109,8 +111,6 @@ The example shows the use of the TBD
     // Add the event to the inner element object.
     //
     status = ACXINTERNAL(AcxElementAddEvents)(m_AcxGlobals, (ACXELEMENT)GetObjectHandle(), &m_Event, 1);
-
-
 ```
 
 

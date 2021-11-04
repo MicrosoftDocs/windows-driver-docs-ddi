@@ -71,7 +71,6 @@ The [EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback](nc-acxcircuit-evt_ac
 Example usage is shown below.
 
 ```cpp
-
     ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS         operationCallbacks;
    
     //

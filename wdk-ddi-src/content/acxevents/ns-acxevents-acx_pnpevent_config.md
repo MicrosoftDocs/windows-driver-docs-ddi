@@ -2,9 +2,9 @@
 UID: NS:acxevents._ACX_PNPEVENT_CONFIG
 tech.root: audio
 title: ACX_PNPEVENT_CONFIG
-ms.date:  10/21/2021
+ms.date: 11/03/2021
 targetos: Windows
-description: TBD
+description: The ACX_PNPEVENT_CONFIG structure is used to define the acx pnp event configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The ACX_PNPEVENT_CONFIG structure is used to define the acx pnp event configuration. 
+
 ## -struct-fields
 
 ### -field Size
@@ -56,16 +58,24 @@ Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags
 
 ### -field Event
 
+TBD - A GUID that is used to TBD the event.
+
 ## -remarks
 
 ### Example
 
-Example pending.
+This example shows the use of the ACX_PNPEVENT_CONFIG structure.
 
 ```cpp
+    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
+...
 
+    ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_PNPEVENT_CONTEXT);
+    attributes.ParentObject = audioModuleElement;
+    status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
 ```
-
 
 ## -see-also
 
