@@ -55,10 +55,10 @@ An extra <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_ent
 
 ## -remarks
 
-After initialization using **SPB_MULTI_SPI_READ_TRANSFER_INIT**, a peripheral driver may access **SpiTransfer.TransferPhases[]** to configure the transfer buffers.
+After initialization using **SPB_MULTI_SPI_READ_TRANSFER_INIT**, a peripheral driver may access the member **SpiTransfer.TransferPhases[]** to configure the transfer buffers.
 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer">SPB_MULTI_SPI_TRANSFER</a>
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_read_transfer_init">SPB_MULTI_SPI_READ_TRANSFER_INIT</a>
+<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_read_transfer_init">SPB_MULTI_SPI_READ_TRANSFER_INIT</a>

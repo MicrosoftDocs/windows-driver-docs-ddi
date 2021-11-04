@@ -57,4 +57,4 @@ After initialization using **SPB_MULTI_SPI_WRITE_TRANSFER_INIT**, a peripheral d
 
 <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer">SPB_MULTI_SPI_TRANSFER</a>
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer_init">SPB_MULTI_SPI_WRITE_TRANSFER_INIT</a>
+<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_write_transfer_init">SPB_MULTI_SPI_WRITE_TRANSFER_INIT</a>

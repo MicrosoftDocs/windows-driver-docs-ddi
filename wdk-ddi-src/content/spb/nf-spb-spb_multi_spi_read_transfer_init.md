@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The <b>SPB_MULTI_SPI_READ_TRANSFER_INIT</b> function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_read_transfer">SPB_MULTI_SPI_READ_TRANSFER</a> structure.
+The **SPB_MULTI_SPI_READ_TRANSFER_INIT** function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_read_transfer">SPB_MULTI_SPI_READ_TRANSFER</a> structure.
 
 ## -parameters
 
 ### -param SpiTransfer
 
-A pointer to the <b>SPB_MULTI_SPI_READ_TRANSFER</b> structure that is to be initialized.
+A pointer to the **SPB_MULTI_SPI_READ_TRANSFER** structure that is to be initialized.
 
 ### -param Mode
 
@@ -64,7 +64,7 @@ The number of wait cycles represented as the number of bytes (representing multi
 
 ## -remarks
 
-The <b>SPB_MULTI_SPI_READ_TRANSFER_INIT</b> function should be used to initialize multi-SPI read transfers. It initializes a <b>SPB_MULTI_SPI_READ_TRANSFER</b> structure with the two transfer phases required for a read operation.
+The **SPB_MULTI_SPI_READ_TRANSFER_INIT** function should be used to initialize multi-SPI read transfers. It initializes a **SPB_MULTI_SPI_READ_TRANSFER** structure with the two transfer phases required for a read operation.
 
 ## -see-also
 

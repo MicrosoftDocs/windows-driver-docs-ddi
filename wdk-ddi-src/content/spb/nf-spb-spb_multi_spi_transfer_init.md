@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The <b>SPB_MULTI_SPI_TRANSFER_INIT</b> function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer">SPB_MULTI_SPI_TRANSFER</a> structure.
+The **SPB_MULTI_SPI_TRANSFER_INIT** function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer">SPB_MULTI_SPI_TRANSFER</a> structure.
 
 ## -parameters
 
 ### -param SpiTransfer
 
-A pointer to the <b>SPB_MULTI_SPI_TRANSFER</b> structure that is to be initialized. This structure includes a single transfer phase - an additional transfer phase should be provided when using this function to initialize a two-phase read operation.
+A pointer to the **SPB_MULTI_SPI_TRANSFER** structure that is to be initialized. This structure includes a single transfer phase - an additional transfer phase should be provided when using this function to initialize a two-phase read operation.
 
 ### -param Mode
 
-An <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_mode">SPB_MULTI_SPI_TRANSFER_MODE</a> enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
+An <a href="/windows-hardware/drivers/ddi/spb/ne-spb-spb_multi_spi_transfer_mode">SPB_MULTI_SPI_TRANSFER_MODE</a> enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
 
 ### -param TransferPhaseCount
 
@@ -68,7 +68,7 @@ The number of wait cycles represented as the number of bytes (representing multi
 
 ## -remarks
 
-Typically, this function should not be called directly, instead <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_read_transfer_init">SPB_MULTI_SPI_READ_TRANSFER_INIT</a> or <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer_init">SPB_MULTI_SPI_WRITE_TRANSFER_INIT</a> may be used as appropriate.
+Typically, this function should not be called directly, instead <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_read_transfer_init">SPB_MULTI_SPI_READ_TRANSFER_INIT</a> or <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_write_transfer_init">SPB_MULTI_SPI_WRITE_TRANSFER_INIT</a> may be used as appropriate.
 
 ## -see-also
 

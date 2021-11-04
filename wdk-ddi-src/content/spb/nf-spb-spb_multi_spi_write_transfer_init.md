@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The <b>SPB_MULTI_SPI_WRITE_TRANSFER_INIT</b> function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer">SPB_MULTI_SPI_WRITE_TRANSFER</a> structure.
+The **SPB_MULTI_SPI_WRITE_TRANSFER_INIT** function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer">SPB_MULTI_SPI_WRITE_TRANSFER</a> structure.
 
 ## -parameters
 
 ### -param SpiTransfer
 
-A pointer to the <b>SPB_MULTI_SPI_WRITE_TRANSFER</b> structure that is to be initialized.
+A pointer to the **SPB_MULTI_SPI_WRITE_TRANSFER** structure that is to be initialized.
 
 ### -param Mode
 
@@ -64,7 +64,7 @@ The number of wait cycles represented as the number of bytes, between the write 
 
 ## -remarks
 
-The <b>SPB_MULTI_SPI_WRITE_TRANSFER_INIT</b> function should be used to initialize multi-SPI write transfers. It initializes a <b>SPB_MULTI_SPI_WRITE_TRANSFER</b> structure with the single transfer phase required for a write operation.
+The **SPB_MULTI_SPI_WRITE_TRANSFER_INIT** function should be used to initialize multi-SPI write transfers. It initializes a **SPB_MULTI_SPI_WRITE_TRANSFER** structure with the single transfer phase required for a write operation.
 
 ## -see-also
 

@@ -70,4 +70,4 @@ The following restrictions apply to this structure:
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_init">SPB_MULTI_SPI_TRANSFER_INIT</a>
+<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_transfer_init">SPB_MULTI_SPI_TRANSFER_INIT</a>
