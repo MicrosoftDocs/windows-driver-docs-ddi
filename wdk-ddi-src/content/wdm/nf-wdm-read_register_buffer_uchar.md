@@ -49,17 +49,17 @@ The **READ_REGISTER_BUFFER_UCHAR** routine dereferences the supplied pointer, in
 
 ### -parameters
 
-### -paramparam Register [in]
+### -param Register [in]
 
 
 Pointer to the register, which must be a mapped range in memory space.
 
-### -paramparam Buffer [out]
+### -param Buffer [out]
 
 
 Pointer to a buffer into which an array of UCHAR values is read.
 
-### -paramparam Count [in]
+### -param Count [in]
 
 
 Specifies the number of bytes to be read into the buffer.

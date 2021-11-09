@@ -50,17 +50,17 @@ The <b>WRITE_PORT_BUFFER_UCHAR</b> routine writes a number of bytes from a buffe
 
 ### -parameters
 
-### -paramparam Port [in]
+### -param Port [in]
 
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
-### -paramparam Buffer [in]
+### -param Buffer [in]
 
 
 Pointer to a buffer from which an array of UCHAR values is to be written.
 
-### -paramparam Count [in]
+### -param Count [in]
 
 
 Specifies the number of bytes to be written to the port.

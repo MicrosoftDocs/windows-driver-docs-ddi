@@ -50,17 +50,17 @@ The **WRITE_REGISTER_BUFFER_ULONG64** routine dereferences the supplied pointer,
 
 ### -parameters
 
-### -paramparam Register [in]
+### -param Register [in]
 
 
 A pointer to the register, which must be a mapped range in memory space.
 
-### -paramparam Buffer [in]
+### -param Buffer [in]
 
 
 A pointer to a buffer into which an array of ULONG64 values is to be written.
 
-### -paramparam Count [in]
+### -param Count [in]
 
 
 Specifies the number of ULONG64 values to write to the register.

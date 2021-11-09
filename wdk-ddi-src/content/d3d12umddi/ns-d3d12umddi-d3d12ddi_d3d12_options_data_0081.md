@@ -107,7 +107,7 @@ Set TRUE when deterministic 64KB undefined swizzle is supported; otherwise, set 
 
 Set TRUE when the hardware supports SRV-only sparse volume textures; otherwise, set FALSE.
 
-### -fieldfield RenderPassTier
+### -field RenderPassTier
 
 The [**D3D12DDI_RENDER_PASS_TIER**](ne-d3d12umddi-d3d12ddi_render_pass_tier.md) that the hardware supports.
 
