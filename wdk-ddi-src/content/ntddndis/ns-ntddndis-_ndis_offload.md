@@ -189,7 +189,7 @@ The enabled encapsulation types for encapsulated packet task offload.
 
 ### -field UdpSegmentation
 
-UDP Segmentation Offload (USO) hardware offload information in an [**NDIS_UDP_SEGMENTATION_OFFLOAD**]() structure.
+UDP Segmentation Offload (USO) hardware offload information in an [**NDIS_UDP_SEGMENTATION_OFFLOAD**](ns-ntddndis-_ndis_udp_segmentation_offload.md) structure.
 
 <div class="alert"><b>Note</b>  This member is available only in NDIS 6.83 and later. </div>
 <div> </div>
