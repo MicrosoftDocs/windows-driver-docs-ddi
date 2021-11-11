@@ -47,8 +47,6 @@ api_name:
 
 The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
 
-## -parameters
-
 ## -returns
 
 The activity ID associated with the current thread.

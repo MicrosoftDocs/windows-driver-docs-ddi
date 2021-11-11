@@ -67,15 +67,15 @@ ppItem [out, optional]
 
 - Points to a memory location that will receive the address of the found **IWiaDrvItem** item.
 
-#### - bstrFullItemName [in]
+### -param bstrFullItemName [in]
 
 Specifies the full name of the item to find.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Reserved. Set to zero.
 
-#### - ppItem [out, optional]
+### -param ppItem [out, optional]
 
 Points to a memory location that will receive the address of the found **IWiaDrvItem** item.
 

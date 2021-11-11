@@ -74,7 +74,7 @@ A pointer to an initialized <a href="/windows-hardware/drivers/ddi/ucmmanager/ns
 
 
 
-#### - PDConfig
+### -field PDConfig
 
 A pointer to an initialized <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_config">UCM_CONNECTOR_PD_CONFIG</a> structure that contains the power roles supported by the connector.
 

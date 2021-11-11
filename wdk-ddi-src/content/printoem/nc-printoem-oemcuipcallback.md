@@ -53,12 +53,12 @@ The OEMCUIPCALLBACK function type is used for defining callback functions that a
 
 ### -param unnamedParam2
 
-#### - pCPSUICBParam
+### -param pCPSUICBParam
 
 Pointer to a <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam">CPSUICBPARAM</a> structure.
 
 
-#### - pOEMCUIPParam
+### -param pOEMCUIPParam
 
 Pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemcuipparam">OEMCUIPPARAM</a> structure.
 

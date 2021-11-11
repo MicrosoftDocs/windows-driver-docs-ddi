@@ -56,7 +56,7 @@ A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpi
 
 ### -param EnableParameters
 
-#### - InterruptParameters 
+### -param InterruptParameters 
 [in]
 A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_ENABLE_INTERRUPT_PARAMETERS</a> structure that specifies a GPIO pin and describes the interrupt attributes of this pin.
 

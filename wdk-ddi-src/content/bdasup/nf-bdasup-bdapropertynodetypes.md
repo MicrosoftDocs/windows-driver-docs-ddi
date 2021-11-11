@@ -63,7 +63,7 @@ Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPR
 Points to an array that receives the list of node types. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to retrieve the list of node types. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-types">KSPROPERTY_BDA_NODE_TYPES</a> request.
 

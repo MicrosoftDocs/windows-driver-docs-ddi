@@ -57,7 +57,7 @@ The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor cla
 
 ### -param state
 
-#### - State [in]
+### -param State [in]
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001">SensorState</a> value that indicates the new state.

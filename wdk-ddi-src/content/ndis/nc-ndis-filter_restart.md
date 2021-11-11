@@ -61,7 +61,7 @@ A handle to the context area for the filter module that the filter driver should
 
 ### -param RestartParameters
 
-#### - FilterRestartParameters 
+### -param FilterRestartParameters 
 [in]
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_restart_parameters">

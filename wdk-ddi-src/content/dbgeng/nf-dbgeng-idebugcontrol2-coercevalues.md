@@ -67,7 +67,7 @@ Specifies the array of values to convert.  The number of elements that this arra
 Specifies the array to be populated by the converted values.  The types of these values are specified by <i>OutType</i>.  The number of elements that this array holds is <i>Count</i>.
 
 
-#### - OutType [in]
+### -param OutType [in]
 
 Specifies the array of desired types for the converted values. For possible values, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
 

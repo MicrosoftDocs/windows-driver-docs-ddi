@@ -54,15 +54,15 @@ An AVStream minidriver's *AVStrMiniPinHandshake* routine is called when AVStream
 
 ### -param Out
 
-#### - Data [in]
+### -param Data [in]
 
 Pointer to a caller-allocated buffer. If the pin supports the requested protocol, *AVStrMiniPinHandshake* should fill in this parameter with a pointer to a [**KSHANDSHAKE**](./ns-ks-kshandshake.md) structure.
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the IRP containing the handshake request.
 
-#### - Request [in]
+### -param Request [in]
 
 Pointer to a [**KSIDENTIFIER**](./ns-ks-ksidentifier.md) structure that contains a GUID identifying the requested protocol.
 

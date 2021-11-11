@@ -53,27 +53,27 @@ The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and 
 
 ### -param Extensibility
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 
-#### - IsForward [in]
+### -param IsForward [in]
 
 Specifies whether to connect the forward or the reverse protocol that the routine negotiates. If <i>IsForward</i> is <b>TRUE</b>, the forward protocol is connected. Otherwise, the reverse protocol is connected.
 
 
-#### - ModeMaskFwd [in]
+### -param ModeMaskFwd [in]
 
 Specifies the forward protocols. <i>ModeMaskFwd</i> is a bitwise OR of the constants that represent the protocols that the parallel port bus driver supports. For the forward and reverse protocol values, see the protocol constants defined in <i>ntddpar.h</i> (from NONE to ECP_ANY).
 
 
-#### - ModeMaskRev [in]
+### -param ModeMaskRev [in]
 
 Specifies the reverse protocols. <i>ModeMaskRev </i>is a bitwise OR of the constants that represent the protocols that the parallel port bus driver supports.
 
 
-#### - ModeSafety [in]
+### -param ModeSafety [in]
 
 Specifies the safety mode. Must be set to the SAFE_MODE enumeration value of the PARALLEL_SAFETY enumeration type:
 

@@ -65,7 +65,7 @@ The <b>WdfObjectQuery</b> method is not implemented.
 
 ### -param QueryBuffer [out]
 
-
+## -returns
 
 ## -remarks
 

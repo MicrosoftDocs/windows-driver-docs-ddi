@@ -47,8 +47,6 @@ api_name:
 
 The <b>FlushCallbacks</b> method forces any remaining buffered output to be delivered to the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> object registered with this client.
 
-## -parameters
-
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.

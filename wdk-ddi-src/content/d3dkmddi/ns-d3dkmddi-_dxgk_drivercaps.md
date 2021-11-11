@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_DRIVERCAPS
-title: _DXGK_DRIVERCAPS (d3dkmddi.h)
+title: DXGK_DRIVERCAPS (d3dkmddi.h)
 description: The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_drivercaps.htm
-ms.date: 03/24/2020
+ms.date: 11/01/2021
 keywords: ["DXGK_DRIVERCAPS structure"]
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 req.header: d3dkmddi.h
@@ -46,8 +46,7 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_DRIVERCAPS structure
-
+# DXGK_DRIVERCAPS structure
 
 ## -description
 
@@ -238,7 +237,7 @@ Internal GPU virtual address range end.
 
 ### -field SupportSurpriseRemoval
 
-Support surprise removal.
+If TRUE, the display miniport driver supports surprise removal.
 
 ### -field SupportMultiPlaneOverlayImmediateFlip [out]
 
@@ -280,11 +279,29 @@ Supports Compute-Only devices by rendering WDDM's render-only device capabilitie
 
 Drivers that set this capability should read the specified VidPnSourceId in DdiControlInterrupt3 and control VSync on the mentioned VidPnSourceId. Supported starting in Windows 10, version 2004 (WDDM 2.7).
 
+### -field MiscCaps.NoHybridDiscreteDListDllSupport
+
+Indicates whether a driver supports a d-List. Supported starting in Windows 10, version 2004 (WDDM 2.8).
+
+### -field MiscCaps.DisplayableSupport
+
+Indicates whether a driver supports the displayable feature. Supported starting in Windows 11 (WDDM 3.0).
+
 ### -field MiscCaps.Reserved
 
 Reserved.
 
 ### -field MiscCaps.Value
+
+An alternative way to access the **MiscCaps** bits.
+
+### -field MaxHwQueuedFlips
+
+The maximum number of hardware flip queues that the driver supports. If the OS allows hardware flip queue support, the driver can set **MaxHwQueuedFlips** to a value greater than 1. Available starting in Windows Server 2022 (WDDM 2.9).
+
+### -field HwQueuedFlipCaps
+
+Indicates whether a driver supports hardware-queued flips. Supported starting in Windows Server 2022 (WDDM 2.9).
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The array to write to.
 
 ### -param pArray
 
-#### - pdispArray [in]
+### -param pdispArray [in]
 
 The JavaScript array to write.
 

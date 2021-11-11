@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetSize</b> method retrieves the size of the data buffer that is associated with a memory object.
 
-## -parameters
-
 ## -returns
 
 <b>GetSize</b> returns the size, in bytes, of the data buffer for the memory object.

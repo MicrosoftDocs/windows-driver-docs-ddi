@@ -45,8 +45,6 @@ api_name:
 
 Sets the properties for an allocator.
 
-## -parameters
-
 ## -see-also
 
 [IKsAllocatorEx](./nn-ksproxy-iksallocatorex.md)

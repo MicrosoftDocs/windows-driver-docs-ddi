@@ -62,7 +62,7 @@ An ANSI character string that contains the feature whose options are requested.
 A pointer to a variable that receives the number of options in the option array that is pointed to by the <i>pOptionList</i> parameter.
 
 
-#### - pOptionList[] [out]
+### -param pOptionList[] [out]
 
 A pointer to an array of ANSI character strings that contain all of the options for the feature specified in the <i>pszFeatureKeyword</i> parameter. <code>IPrintCoreHelperUni::EnumOptions</code> is responsible for allocating the memory for the array. The last element of the array must be a <b>NULL</b> string.
 

@@ -70,7 +70,7 @@ Length of ISO 7816-4 APDU buffer.
 
 
 
-#### - pbPayload[ANYSIZE_ARRAY]
+### -field pbPayload[ANYSIZE_ARRAY]
 
 Buffer holding ISO 7816-4 APDU.
 

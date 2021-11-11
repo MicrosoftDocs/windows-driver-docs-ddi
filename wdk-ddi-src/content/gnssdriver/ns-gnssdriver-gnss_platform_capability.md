@@ -75,12 +75,12 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

@@ -66,22 +66,22 @@ Contains any device-specific initialization information that is available.
 
 
 
-#### - BIST
+### -field BIST
 
 Zero indicates that the device does not support built-in self-test. Otherwise, the device supports built-in self-test according to the PCI standard.
 
 
-#### - BaseClass
+### -field BaseClass
 
 Identifies type of the device, according to the PCI classification scheme.
 
 
-#### - CacheLineSize
+### -field CacheLineSize
 
 Contains the system cache line size in 32-bit units. This member is relevant only for PCI bus-master devices. The system determines this value during the boot process.
 
 
-#### - Command
+### -field Command
 
 Accesses the PCI device's control register. Writing a zero to this register renders the device logically disconnected from the PCI bus except for configuration access. Otherwise, the functionality of the register is device-dependent. Possible system-defined bit encodings for this member include:
 
@@ -106,32 +106,32 @@ PCI_ENABLE_SERR
 PCI_ENABLE_FAST_BACK_TO_BACK
 
 
-#### - DeviceID
+### -field DeviceID
 
 Identifies the particular device. This value is assigned by the manufacturer.
 
 
-#### - HeaderType
+### -field HeaderType
 
 The system ORs the value of this member with PCI_MULTIFUNCTION, if appropriate to the device. The value of this member indicates the PCI_HEADER_TYPE_0 layout that follows.
 
 
-#### - LatencyTimer
+### -field LatencyTimer
 
 Contains the value of the latency timer in units of PCI bus clocks. This member is relevant only for PCI bus-master devices. The system determines this value during the boot process.
 
 
-#### - ProgIf
+### -field ProgIf
 
 Identifies the register-level programming interface, if any, for the device, according to the PCI classification scheme.
 
 
-#### - RevisionID
+### -field RevisionID
 
 Specifies the revision level of the device described by the <b>DeviceID</b> member. This value is assigned by the manufacturer. 
 
 
-#### - Status
+### -field Status
 
 Accesses the PCI device's status register. The functionality of this register is device-dependent. Possible system-defined bit encodings for this member include:
 
@@ -152,17 +152,17 @@ PCI_STATUS_SIGNALED_SYSTEM_ERROR
 PCI_STATUS_DETECTED_PARITY_ERROR
 
 
-#### - SubClass
+### -field SubClass
 
 Identifies the subtype, if any, of the device, according to the PCI classification scheme.
 
 
-#### - VendorID
+### -field VendorID
 
 Identifies the manufacturer of the device. This must be a value allocated by the PCI SIG.
 
 
-#### - u
+### -field u
 
 
 

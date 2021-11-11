@@ -53,12 +53,12 @@ The<i> MRxFinalizeNetRoot</i> routine is called by <a href="/windows-hardware/dr
 
 ### -param Force
 
-#### - ForceDisconnect [in]
+### -param ForceDisconnect [in]
 
 A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
 
 
-#### - pNetRoot [in, out]
+### -param pNetRoot [in, out]
 
 A pointer to the NET_ROOT structure to finalize.
 

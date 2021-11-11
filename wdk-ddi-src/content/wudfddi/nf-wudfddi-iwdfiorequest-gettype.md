@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetType</b> method retrieves the type of operation that a request contains.
 
-## -parameters
-
 ## -returns
 
 <b>GetType</b> returns a <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request is sent to the driver.

@@ -51,7 +51,7 @@ The class driver calls the minidriver's <i>StrMiniCancelPacket</i> routine to si
 
 ### -param SRB
 
-#### - pSrb [in]
+### -param pSrb [in]
 
 Pointer to the stream request that had been canceled.
 

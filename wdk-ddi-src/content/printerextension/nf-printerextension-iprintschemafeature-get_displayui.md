@@ -49,8 +49,6 @@ Gets the setting that indicates whether or not to show the print UI.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI element. If the XML value is unspecified or set to <i>Show</i>, then the Print system sets  <b>DisplayUI</b> to <b>TRUE.</b>

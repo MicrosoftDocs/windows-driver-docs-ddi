@@ -47,8 +47,6 @@ api_name:
 
 The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
 
-## -parameters
-
 ## -returns
 
 <b>IoSizeofWorkItem</b> returns the number of bytes necessary to hold an <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.

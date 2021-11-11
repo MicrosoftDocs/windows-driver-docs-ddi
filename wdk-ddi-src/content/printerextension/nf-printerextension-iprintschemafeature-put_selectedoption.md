@@ -49,8 +49,6 @@ Changes the selected option of the Print Schema Feature element to the specified
 
 This property is write-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>

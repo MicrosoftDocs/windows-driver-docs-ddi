@@ -4,7 +4,7 @@ title: WdfDeviceReadFromHardware function (wdfdevice.h)
 description: The WdfDeviceReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\wdfdevicereadfromhardware.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 11/01/2021
 keywords: ["WdfDeviceReadFromHardware function"]
 ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware
 req.header: wdfdevice.h
@@ -74,6 +74,7 @@ Instead, use the <a href="/windows-hardware/drivers/ddi/wdfhwaccess/">WDF Regist
 
 ### -param Count [in, optional]
 
+## -returns
 
 
 ## -see-also

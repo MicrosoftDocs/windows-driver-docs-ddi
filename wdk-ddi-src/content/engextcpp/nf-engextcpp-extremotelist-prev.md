@@ -47,8 +47,6 @@ api_name:
 
 The <b>Prev</b> method changes the current item to the previous item in the list.
 
-## -parameters
-
 ## -remarks
 
 This method can only be used when iterating over doubly-linked lists.

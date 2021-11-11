@@ -61,11 +61,11 @@ ppIChildItem [out, optional]
 
 - Points to a memory location that will receive the address of the found **IWiaDrvItem** child item.
 
-#### - bstrChildItemName [in]
+### -param bstrChildItemName [in]
 
 Specifies a string containing the name with path information of the child item to find.
 
-#### - ppIChildItem [out, optional]
+### -param ppIChildItem [out, optional]
 
 Points to a memory location that will receive the address of the found **IWiaDrvItem** child item.
 

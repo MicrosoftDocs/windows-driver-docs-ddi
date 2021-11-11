@@ -53,7 +53,7 @@ The <b>GetInfo</b> method retrieves information about a specified interrupt.
 
 ### -param InterruptInfo
 
-#### - Info
+### -param Info
 
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure that the driver has previously initialized by calling <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>.
 

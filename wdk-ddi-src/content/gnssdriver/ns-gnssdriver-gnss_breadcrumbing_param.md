@@ -79,7 +79,7 @@ Contains the maximum error timeout in milliseconds. If the location of the devic
 
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

@@ -49,8 +49,6 @@ Sets a value that indicates whether the target device should be restarted by def
 
 This property is write-only.
 
-## -parameters
-
 ## -remarks
 
 The <a href="/windows-hardware/drivers/ddi/index">Enable</a> and 

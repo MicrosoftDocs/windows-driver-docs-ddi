@@ -47,8 +47,6 @@ api_name:
 
 The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemoteTyped</b> class.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>

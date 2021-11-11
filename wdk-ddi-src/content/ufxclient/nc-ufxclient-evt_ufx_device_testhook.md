@@ -45,6 +45,4 @@ api_name:
 
 This IOCTL code is not supported.
 
-## -parameters
-
 ## -returns

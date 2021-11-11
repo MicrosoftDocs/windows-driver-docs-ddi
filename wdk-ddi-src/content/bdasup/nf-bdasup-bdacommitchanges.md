@@ -52,7 +52,7 @@ The <b>BdaCommitChanges</b> function commits the changes to BDA topology that ha
 
 ### -param pIrp
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to commit changes. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-commit-changes">KSMETHOD_BDA_COMMIT_CHANGES</a> request.
 

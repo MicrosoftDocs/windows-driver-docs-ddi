@@ -56,7 +56,7 @@ Currently unused. Should be set to zero.
 
 ### -param pWiaTransferParams
 
-#### - WiaTransferParams 
+### -param WiaTransferParams 
 [in]
 Specifies a pointer to a WiaTransferParams structure. This structure is defined in the Microsoft Windows SDK documentation.
 

@@ -4,7 +4,7 @@ title: ZwQueryDirectoryFile function (ntifs.h)
 description: The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
 old-location: kernel\zwquerydirectoryfile.htm
 tech.root: kernel
-ms.date: 08/31/2021
+ms.date: 11/03/2021
 keywords: ["ZwQueryDirectoryFile function"]
 ms.keywords: NtQueryDirectoryFile, ZwQueryDirectoryFile, ZwQueryDirectoryFile routine [Kernel-Mode Driver Architecture], k111_ffed894d-20dc-416e-8759-073a0cee3229.xml, kernel.zwquerydirectoryfile, ntifs/NtQueryDirectoryFile, ntifs/ZwQueryDirectoryFile
 req.header: ntifs.h
@@ -80,18 +80,18 @@ The size, in bytes, of the buffer pointed to by **FileInformation**. The caller 
 
 ### -param FileInformationClass [in]
 
-The type of information to be returned about files in the directory. **FileInformationClass** can be one of the following values.
+The type of information to be returned about files in the directory. **FileInformationClass** can be one of the following [**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md) values.
 
-| Value | Meaning |
-| ----- | ------- |
-| **FileBothDirectoryInformation**   | Return a [**FILE_BOTH_DIR_INFORMATION**](ns-ntifs-_file_both_dir_information.md) structure for each file. |
-| **FileDirectoryInformation**       | Return a [**FILE_DIRECTORY_INFORMATION**](ns-ntifs-_file_directory_information.md) structure for each file. |
-| **FileFullDirectoryInformation**   | Return a [**FILE_FULL_DIR_INFORMATION**](ns-ntifs-_file_full_dir_information.md) structure for each file. |
-| **FileIdBothDirectoryInformation** | Return a [**FILE_ID_BOTH_DIR_INFORMATION**](ns-ntifs-_file_id_both_dir_information.md) structure for each file. |
-| **FileIdFullDirectoryInformation** | Return a [**FILE_ID_FULL_DIR_INFORMATION**](ns-ntifs-_file_id_full_dir_information.md) structure for each file. |
-| **FileNamesInformation**           | Return a [**FILE_NAMES_INFORMATION**](ns-ntifs-_file_names_information.md) structure for each file. |
-| **FileObjectIdInformation**        | Return a [**FILE_OBJECTID_INFORMATION**](ns-ntifs-_file_objectid_information.md) structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows. |
-| **FileReparsePointInformation**    | Return a single [**FILE_REPARSE_POINT_INFORMATION**](ns-ntifs-_file_reparse_point_information.md) structure for the directory. |
+| Constant | Value | Meaning |
+| -------- | ----- | ------- |
+| **FileDirectoryInformation** | 1 | Return a [**FILE_DIRECTORY_INFORMATION**](ns-ntifs-_file_directory_information.md) structure for each file. |
+| **FileFullDirectoryInformation** | 2 | Return a [**FILE_FULL_DIR_INFORMATION**](ns-ntifs-_file_full_dir_information.md) structure for each file. |
+| **FileBothDirectoryInformation** | 3 | Return a [**FILE_BOTH_DIR_INFORMATION**](ns-ntifs-_file_both_dir_information.md) structure for each file. |
+| **FileNamesInformation**  | 12 | Return a [**FILE_NAMES_INFORMATION**](ns-ntifs-_file_names_information.md) structure for each file. |
+| **FileObjectIdInformation** | 29 | Return a [**FILE_OBJECTID_INFORMATION**](ns-ntifs-_file_objectid_information.md) structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows. |
+| **FileReparsePointInformation** | 33 | Return a single [**FILE_REPARSE_POINT_INFORMATION**](ns-ntifs-_file_reparse_point_information.md) structure for the directory. |
+| **FileIdBothDirectoryInformation** | 37 | Return a [**FILE_ID_BOTH_DIR_INFORMATION**](ns-ntifs-_file_id_both_dir_information.md) structure for each file. |
+| **FileIdFullDirectoryInformation** | 38 | Return a [**FILE_ID_FULL_DIR_INFORMATION**](ns-ntifs-_file_id_full_dir_information.md) structure for each file. |
 
 ### -param ReturnSingleEntry [in]
 
@@ -102,7 +102,7 @@ Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. 
 An optional pointer to a caller-allocated Unicode string containing the name of a file (or multiple files, if wildcards are used) within the directory specified by **FileHandle**. This parameter is optional:
 
 * If **FileName** is not **NULL**, only files whose names match the **FileName** string are included in the directory scan.
-* If **FileName** is **NULL**, all files are included if **ReturnSingleEntry** is **FALSE**; one file is included is **ReturnSingleEntry** is **TRUE**.
+* If **FileName** is **NULL**, all files are included if **ReturnSingleEntry** is **FALSE**; one file is included if **ReturnSingleEntry** is **TRUE**.
 
 The **FileName** is used as a search expression and is captured on the very first call to **ZwQueryDirectoryFile** for a given handle. Subsequent calls to **ZwQueryDirectoryFile** will use the search expression set in the first call. The **FileName** parameter passed to subsequent calls will be ignored.
 
@@ -121,7 +121,7 @@ The **ZwQueryDirectoryFile** routine returns STATUS_SUCCESS or an appropriate er
 | STATUS_BUFFER_OVERFLOW   | The output buffer isn't large enough to return the full filename. |
 | STATUS_BUFFER_TOO_SMALL  | The output buffer isn't large enough for at least the base structure identified by **FileInformationClass**. |
 | STATUS_INVALID_PARAMETER | One of the parameters is invalid for the file system. |
-| STATUS_NOT_SUPPORTED     | For example, an unsupported **FileInformationClass* was specified. |
+| STATUS_NOT_SUPPORTED     | For example, an unsupported ***FileInformationClass** was specified. |
 
 ## -remarks
 
@@ -149,13 +149,13 @@ On each call, **ZwQueryDirectoryFile** returns as many **FILE_*XXX*_INFORMATION*
 * On the first call, **ZwQueryDirectoryFile** returns STATUS_SUCCESS only if the output buffer contains at least one complete structure.
 * On subsequent calls, if the output buffer contains no structures, **ZwQueryDirectoryFile** returns STATUS_SUCCESS but sets **IoStatusBlock**->**Information** = 0 to notify the caller of this condition. In this case, the caller should allocate a larger buffer and call **ZwQueryDirectoryFile** again. No information about any remaining entries is reported. Thus, except in the cases listed above where only one entry is returned, **ZwQueryDirectoryFile** must be called at least twice to enumerate the contents of an entire directory.
 
-When calling **ZwQueryDirectoryFile**, you may see changes made to the directory that occur in parallel with **ZwQueryDirectoryFile** calls.  This behavior is dependent on the implementation of the underlying file system.
+When calling **ZwQueryDirectoryFile**, you might see changes made to the directory that occur in parallel with **ZwQueryDirectoryFile** calls.  This behavior is dependent on the implementation of the underlying file system.
 
 The final call to **ZwQueryDirectoryFile** returns an empty output buffer and reports an appropriate status value such as STATUS_NO_MORE_FILES.
 
-If **ZwQueryDirectoryFile** is called multiple times on the same directory and some other operation changes the contents of that directory, any changes may or may not be seen, depending on the timing of the operations.
+If **ZwQueryDirectoryFile** is called multiple times on the same directory and some other operation changes the contents of that directory, any changes might or might not be seen, depending on the timing of the operations.
 
-**ZwQueryDirectoryFile**returns zero in any member of a **FILE_*XXX*_INFORMATION** structure that is not supported by the file system.
+**ZwQueryDirectoryFile** returns zero in any member of a **FILE_*XXX*_INFORMATION** structure that is not supported by the file system.
 
 Callers of **ZwQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
@@ -189,5 +189,7 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
 [**ZwCreateFile**](nf-ntifs-ntcreatefile.md)
+
+[**ZwQueryDirectoryFileEx**](nf-ntifs-zwquerydirectoryfileex.md)
 
 [**ZwOpenFile**](nf-ntifs-ntopenfile.md)

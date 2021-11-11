@@ -63,77 +63,77 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
 
 
-#### - CompleterAbort
+### -field CompleterAbort
 
 A single bit that indicates that a reported completer abort is a fatal error.
 
 
-#### - CompletionTimeout
+### -field CompletionTimeout
 
 A single bit that indicates that a reported completion timeout is a fatal error.
 
 
-#### - DataLinkProtocolError
+### -field DataLinkProtocolError
 
 A single bit that indicates that a reported data link protocol error is a fatal error.
 
 
-#### - ECRCError
+### -field ECRCError
 
 A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
 
 
-#### - FlowControlProtocolError
+### -field FlowControlProtocolError
 
 A single bit that indicates that a reported flow control protocol error is a fatal error.
 
 
-#### - MalformedTLP
+### -field MalformedTLP
 
 A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
 
 
-#### - PoisonedTLP
+### -field PoisonedTLP
 
 A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
 
 
-#### - ReceiverOverflow
+### -field ReceiverOverflow
 
 A single bit that indicates that a reported receiver overflow is a fatal error.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
 
-#### - SurpriseDownError
+### -field SurpriseDownError
 
 A single bit that indicates that a reported surprise down error is a fatal error.
 
 
-#### - Undefined
+### -field Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
 
 
-#### - UnexpectedCompletion
+### -field UnexpectedCompletion
 
 A single bit that indicates that a reported unexpected completion is a fatal error.
 
 
-#### - UnsupportedRequestError
+### -field UnsupportedRequestError
 
 A single bit that indicates that a reported unsupported request error is a fatal error.
 

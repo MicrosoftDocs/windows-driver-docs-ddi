@@ -49,8 +49,6 @@ api_name:
 
 The <b>IsCanceled</b> method determines whether the I/O manager has attempted to cancel an I/O request.
 
-## -parameters
-
 ## -returns
 
 <b>IsCanceled</b> returns <b>TRUE</b> if the I/O manager has attempted to cancel the I/O request. This method returns <b>FALSE</b> for any of the following reasons:

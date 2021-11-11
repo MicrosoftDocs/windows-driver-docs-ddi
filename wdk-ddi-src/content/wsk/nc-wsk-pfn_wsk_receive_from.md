@@ -143,7 +143,7 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
      Kernel Functions</a>.
 
 
-#### - ControlInfoLength [in, out]
+### -param ControlInfoLength [in, out]
 
 A pointer to a ULONG-typed variable that specifies the size of the buffer that is pointed to by
      the 

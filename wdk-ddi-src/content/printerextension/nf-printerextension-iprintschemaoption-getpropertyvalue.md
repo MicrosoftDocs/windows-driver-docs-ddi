@@ -61,7 +61,7 @@ The namespace URI value of the name attribute of the Property or the ScoredPrope
 
 ### -param ppXmlValueNode
 
-#### - ppXmlNodeValue [out, retval]
+### -param ppXmlNodeValue [out, retval]
 
 The XML node for the value child element.
 

@@ -65,7 +65,7 @@ Pointer to the first element of a caller-allocated array of property identifiers
 
 ### -param ppszNames
 
-#### - ppSzNames [in, out]
+### -param ppSzNames [in, out]
 
 Pointer to the first element of a caller-allocated array of property names to write.
 

@@ -49,8 +49,6 @@ The **RangeMax** property gets the maximum value of the allowed data range.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 For the **PrintSchemaParameterDataType_Integer** data type, the value returned by **RangeMax** maps to the **psf:MaxValue** property value of the Print Schema parameter definition. This maximum value shows the maximum integer value that the driver supports.

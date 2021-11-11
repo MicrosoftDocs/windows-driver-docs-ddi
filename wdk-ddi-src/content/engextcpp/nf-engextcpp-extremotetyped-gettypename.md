@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetTypeName</b> method returns the type name of the typed data represented by this object.
 
-## -parameters
-
 ## -returns
 
 <b>GetTypeName</b> returns a string that contains the name of the type.

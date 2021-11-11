@@ -66,7 +66,7 @@ Maximum packet size for transfers on this endpoint.
 
 ### -param UcxEndpointInit
 
-#### - EndpointInit [in]
+### -param EndpointInit [in]
 
 A pointer to an opaque structure containing initialization
         information.  Callbacks for the endpoint object are associated with this

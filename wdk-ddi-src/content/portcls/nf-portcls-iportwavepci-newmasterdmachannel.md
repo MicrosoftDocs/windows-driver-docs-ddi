@@ -107,7 +107,7 @@ Maximum number of bytes in the buffer that will be associated with this DMA chan
 Not used. Set to 0.
 
 
-#### - DmaChannel [out]
+### -param DmaChannel [out]
 
 Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> interface.
 

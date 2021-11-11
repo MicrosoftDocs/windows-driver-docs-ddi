@@ -56,7 +56,7 @@ A call to <b>KdPrintEx</b> requires double parentheses.
 Specifies arguments for the format string, as in <b>printf</b>.
 
 
-#### - arguments
+### -param arguments
 
 Specifies arguments for the format string, as in <b>printf</b>.
 

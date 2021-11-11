@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetW32Bool</b> method returns a BOOL version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
-## -parameters
-
 ## -returns
 
 <b>GetW32Bool</b> returns the BOOL version of  the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

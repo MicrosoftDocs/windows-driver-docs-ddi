@@ -51,7 +51,7 @@ The<i> MRxDeallocateForFobx</i> routine is called by <a href="/windows-hardware/
 
 ### -param Fobx
 
-#### - pFobx [in, out]
+### -param pFobx [in, out]
 
 A pointer to the FOBX structure to deallocate.
 

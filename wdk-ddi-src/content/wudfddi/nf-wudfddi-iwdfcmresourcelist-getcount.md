@@ -50,8 +50,6 @@ api_name:
 
 The <b>GetCount</b> method returns the number of resource descriptors that are contained in this interface's resource list.
 
-## -parameters
-
 ## -returns
 
 <b>GetCount</b> returns the number of resource descriptors that are contained in this interface's resource list.

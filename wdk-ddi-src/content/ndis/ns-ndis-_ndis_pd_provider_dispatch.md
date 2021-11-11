@@ -109,12 +109,12 @@ See <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_clear_receive_fi
 
 
 
-#### - NdisPDOffRssReceiveQueues
+### -field NdisPDOffRssReceiveQueues
 
 See <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_flush_queue">NdisPDOffRssReceiveQueues</a>.
 
 
-#### - NdisPDOnRssReceiveQueues
+### -field NdisPDOnRssReceiveQueues
 
 See <a href="/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQueues</a>.
 

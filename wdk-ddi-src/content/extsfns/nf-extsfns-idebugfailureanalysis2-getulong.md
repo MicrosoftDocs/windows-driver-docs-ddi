@@ -56,12 +56,12 @@ A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-e
 
 ### -param Value
 
-#### - MaxSize [in]
+### -param MaxSize [in]
 
 The size, in bytes, of the buffer pointed to by <i>Str</i>.
 
 
-#### - Str [out]
+### -param Str [out]
 
 A pointer to a buffer that receives the string value from the entry's data block.
 

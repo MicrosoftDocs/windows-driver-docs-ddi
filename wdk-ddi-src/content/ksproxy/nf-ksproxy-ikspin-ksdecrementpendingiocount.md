@@ -47,8 +47,6 @@ api_name:
 
 The <b>KsDecrementPendingIoCount</b> method decrements the number of input/output (I/O) operations that are in progress on a pin.
 
-## -parameters
-
 ## -returns
 
 Returns an integer from 0 to <i>n</i>, the value that represents the new number of I/O operations that are in progress.

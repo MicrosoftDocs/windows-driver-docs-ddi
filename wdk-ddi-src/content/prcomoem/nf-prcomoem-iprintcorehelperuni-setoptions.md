@@ -120,7 +120,7 @@ At least one constraint that was specified in the GPD view of the configuration 
  
 
 
-#### - pFOPairs[] [in]
+### -param pFOPairs[] [in]
 
 An array of <a href="/windows-hardware/drivers/ddi/prcomoem/ns-prcomoem-_print_feature_option">PRINT_FEATURE_OPTION</a> elements, where each element contains a feature-option pair. Each feature-option pair lists a feature and the option to select for that feature. All settings are applied sequentially. Duplicates are not disallowed, but settings that appear later in the array (that is, at a higher index) override those that appear earlier in the array.
 

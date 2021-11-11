@@ -51,8 +51,6 @@ api_name:
    The 
   <b>GetUserModeDriverInitiatedIo</b> method determines whether an I/O request is marked as initiated by a UMDF driver.
 
-## -parameters
-
 ## -returns
 
 The method returns <b>TRUE</b> if the request is marked as UMDF driver-initiated and <b>FALSE</b> if the request is not marked as UMDF driver-initiated.

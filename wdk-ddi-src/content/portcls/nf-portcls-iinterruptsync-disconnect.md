@@ -47,8 +47,6 @@ api_name:
 
 The <code>Disconnect</code> method disconnects the synchronization object from the interrupt.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>

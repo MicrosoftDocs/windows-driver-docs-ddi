@@ -60,7 +60,7 @@ lFlags [in]
   | WiaItemTypeDeleted | The item is marked as deleted from the tree. |
   | WiaItemTypeDisconnected | The item represents a disconnected device. |
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 

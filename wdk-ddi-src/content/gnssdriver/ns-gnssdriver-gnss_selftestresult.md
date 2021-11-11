@@ -96,12 +96,12 @@ The length of the buffer for returning any additional information about the self
 
 
 
-#### - OutBuffer[BYTE]
+### -field OutBuffer[BYTE]
 
 The buffer that will contain the additional information about the self-test.
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

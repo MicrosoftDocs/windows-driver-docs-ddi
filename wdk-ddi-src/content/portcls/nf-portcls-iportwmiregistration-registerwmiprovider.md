@@ -51,12 +51,12 @@ The <code>RegisterWMIProvider</code> method registers the <a href="/windows-hard
 
 ## -param
 
-#### - MiniportWmiContext [in]
+### -param MiniportWmiContext [in]
 
 Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
 
 
-#### - pDeviceObject [in]
+### -param pDeviceObject [in]
 
 Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
 

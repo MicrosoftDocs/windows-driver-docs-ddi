@@ -48,8 +48,6 @@ api_name:
 
 The <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-uninitialize">ISensorClassExtension::Uninitialize</a> method uninitializes the sensor class extension object.
 
-## -parameters
-
 ## -returns
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.

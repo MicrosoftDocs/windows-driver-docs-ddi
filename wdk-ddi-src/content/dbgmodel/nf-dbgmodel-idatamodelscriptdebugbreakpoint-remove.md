@@ -45,8 +45,6 @@ api_name:
 
 The Remove method removes the breakpoint from its containing list. The breakpoint no longer semantically exists after this method returns. The [IDataModelScriptDebugBreakpoint](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md) interface which represented the breakpoint is considered orphaned after the call. Nothing else can (legally) be done with it after this call other than releasing it.
 
-## -parameters
-
 ## -remarks
 
 ## -see-also

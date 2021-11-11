@@ -47,8 +47,6 @@ api_name:
 
 A port monitor UI DLL's <b>InitializePrintMonitorUI</b> function supplies the print spooler with addresses of DLL functions.
 
-## -parameters
-
 ## -returns
 
 The function should return a pointer to an initialized <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui">MONITORUI</a> structure.

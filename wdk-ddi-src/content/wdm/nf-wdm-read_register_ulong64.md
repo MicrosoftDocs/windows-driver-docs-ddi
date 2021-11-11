@@ -46,7 +46,7 @@ api_name:
 
 The **READ_REGISTER_ULONG64** routine dereferences the supplied pointer, inserts a memory barrier, and reads a ULONG64 value from the specified register address.
 
-## -parameters
+### -parameters
 
 ### -param Register [in]
 

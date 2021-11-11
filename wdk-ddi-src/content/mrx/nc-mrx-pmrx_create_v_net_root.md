@@ -51,7 +51,7 @@ The<i> MRxCreateVNetRoot</i> routine is called by <a href="/windows-hardware/dri
 
 ### -param Context
 
-#### - pCreateNetRootContext [in, out]
+### -param pCreateNetRootContext [in, out]
 
 A pointer to the callback context used by the network mini-redirector to notify RDBSS when the call is finally completed. This includes the RX_CONTEXT structure of the request at <b>pCreateNetRootContext->RxContext</b>. The <i>pCreateNetRootContext</i> parameter includes the V_NET_ROOT structure to be constructed at <b>pCreateNetRootContext->pVNetRoot</b>. This V_NET_ROOT structure contains a pointer to the NET_ROOT structure at <b>pVNetRoot->pNetRoot</b>. The NET_ROOT structure also contains a pointer to the SRV_CALL structure at <b>pNetRoot->pSrvCall</b>.
 

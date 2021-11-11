@@ -92,7 +92,7 @@ A <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice
 The resume time for the root port.
 
 
-#### - USBDEVICE_MGMT_HEADER
+### -field USBDEVICE_MGMT_HEADER
 
 A <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 

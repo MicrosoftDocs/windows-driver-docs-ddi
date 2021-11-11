@@ -72,7 +72,7 @@ Caller-supplied pointer to a memory buffer to receive data from the device.
 Receives the number of bytes actually written to <i>pOutData</i>.
 
 
-#### - dwOutDataSize
+### -param dwOutDataSize
 
 Caller-supplied length, in bytes, of the buffer pointed to by <i>lpOutData</i>.
 

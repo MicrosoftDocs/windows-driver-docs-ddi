@@ -528,14 +528,14 @@ Reserved.
 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
 
-#### - l2ConnectionProfileIndex
+### -field l2ConnectionProfileIndex
 
 A the layer 2 connection profile index. 
 

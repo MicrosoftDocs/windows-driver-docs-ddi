@@ -119,12 +119,12 @@ The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_lkgfix_
 
 
 
-#### - Reserved[9]
+### -field Reserved[9]
 
 Reserved for future use.
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

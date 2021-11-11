@@ -67,7 +67,7 @@ A pointer to a buffer into which an array of ULONG64 values is read.
 Specifies the number of ULONG64 values to be read into the buffer.
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 

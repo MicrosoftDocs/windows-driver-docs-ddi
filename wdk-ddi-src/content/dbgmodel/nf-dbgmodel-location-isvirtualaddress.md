@@ -45,8 +45,6 @@ api_name:
 
 Indicates whether the location refers to a virtual address.
 
-## -parameters
-
 ## -returns
 
 This function returns bool.

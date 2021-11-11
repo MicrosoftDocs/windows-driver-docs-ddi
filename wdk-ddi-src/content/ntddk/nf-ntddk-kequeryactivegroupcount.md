@@ -47,8 +47,6 @@ api_name:
 
 The <b>KeQueryActiveGroupCount</b> routine returns the number of active processor groups in a multiprocessor system.
 
-## -parameters
-
 ## -returns
 
 <b>KeQueryActiveGroupCount</b> returns a count of the active groups.

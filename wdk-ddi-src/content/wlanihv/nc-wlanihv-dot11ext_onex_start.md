@@ -63,7 +63,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 ### -param pEapAttributes
 
-#### - pEapAttribute [in, optional]
+### -param pEapAttribute [in, optional]
 
 A pointer to an EAP_ATTRIBUTES array structure that contains the EAP attributes returned by the
      authentication session. For more information about EAP_ATTRIBUTES, see the Microsoft Windows SDK

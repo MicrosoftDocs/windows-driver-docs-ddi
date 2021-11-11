@@ -56,7 +56,7 @@ The client driver's implementation that completes all outstanding I/O requests o
 
 ### -param UcxEndpoint
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

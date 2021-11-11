@@ -62,77 +62,77 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Expre
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+### -field DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
 
 
-#### - InternalBridgeError
+### -field InternalBridgeError
 
 A single bit that indicates that a reported internal bridge error is a fatal error.
 
 
-#### - MasterAbortOnSplitCompletion
+### -field MasterAbortOnSplitCompletion
 
 A single bit that indicates that a reported master abort on split completion is a fatal error.
 
 
-#### - PERRAsserted
+### -field PERRAsserted
 
 A single bit that indicates that a reported PERR# assertion is a fatal error.
 
 
-#### - ReceivedMasterAbort
+### -field ReceivedMasterAbort
 
 A single bit that indicates that a reported master abort is a fatal error.
 
 
-#### - ReceivedTargetAbort
+### -field ReceivedTargetAbort
 
 A single bit that indicates that a reported target abort is a fatal error.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - RsvdZ
+### -field RsvdZ
 
 Reserved for system use.
 
 
-#### - SERRAsserted
+### -field SERRAsserted
 
 A single bit that indicates that a reported SERR# assertion is a fatal error.
 
 
-#### - TargetAbortOnSplitCompletion
+### -field TargetAbortOnSplitCompletion
 
 A single bit that indicates that a reported target abort on split completion is a fatal error.
 
 
-#### - UncorrectableAddressError
+### -field UncorrectableAddressError
 
 A single bit that indicates that a reported uncorrectable address error is a fatal error.
 
 
-#### - UncorrectableAttributeError
+### -field UncorrectableAttributeError
 
 A single bit that indicates that a reported uncorrectable attribute error is a fatal error.
 
 
-#### - UncorrectableDataError
+### -field UncorrectableDataError
 
 A single bit that indicates that a reported uncorrectable data error is a fatal error.
 
 
-#### - UncorrectableSplitCompletion
+### -field UncorrectableSplitCompletion
 
 A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
 
 
-#### - UnexpectedSplitCompletionError
+### -field UnexpectedSplitCompletionError
 
 A single bit that indicates that a reported unexpected split completion error is a fatal error.
 

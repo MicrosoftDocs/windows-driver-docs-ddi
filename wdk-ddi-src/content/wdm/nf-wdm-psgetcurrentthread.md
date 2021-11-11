@@ -46,8 +46,6 @@ api_name:
 
 The **PsGetCurrentThread** routine identifies the current thread.
 
-## -parameters
-
 ## -returns
 
 **PsGetCurrentThread** returns a pointer to the executive thread object that represents the currently executing thread.

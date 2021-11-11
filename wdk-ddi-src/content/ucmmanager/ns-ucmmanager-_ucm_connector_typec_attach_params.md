@@ -70,7 +70,7 @@ Power sourcing capabilities of: the partner port when <b>PortPartnerType</b> is 
 Optional. Charging state of the port indicated by one of the <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_charging_state">UCM_CHARGING_STATE</a>-typed flags. 
 
 
-#### - PortPartnerType
+### -field PortPartnerType
 
 The type of partner attached to the connector, indicated by a <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner">UCM_TYPEC_PARTNER</a> value.
 

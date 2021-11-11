@@ -136,7 +136,7 @@ A UINT32 value that specifies a unique identifier for the data that is contained
 An  NDIS_SWITCH_PORT_PROPERTY_PROFILE_CDN_LABEL value that specifies the PCI Express (PCIe) CDN label for the location of the physical network adapter. A CDN label provides consistent device locations across similar hardware locations.
 
 
-#### - BindingType
+### -field BindingType
 
 A UINT32 value that contains a proprietary value that is defined by the independent software vendor (ISV).
 

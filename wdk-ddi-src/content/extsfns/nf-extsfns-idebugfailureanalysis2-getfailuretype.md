@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetFailureType</b> method gets the failure type of a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 
-## -parameters
-
 ## -returns
 
 This method returns a value in the <a href="/windows-hardware/drivers/ddi/extsfns/ne-extsfns-_debug_failure_type">DEBUG_FAILURE_TYPE</a> enumeration.

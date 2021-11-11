@@ -51,7 +51,7 @@ The <b>SetImageContent</b> method sets an image property that is based on the co
 
 ### -param pContentType
 
-#### - contentType [in]
+### -param contentType [in]
 
 The type of content of the image.
 

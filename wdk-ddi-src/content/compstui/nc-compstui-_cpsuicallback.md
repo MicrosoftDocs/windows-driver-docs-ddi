@@ -51,7 +51,7 @@ The <b>_CPSUICALLBACK</b> function type is used by CPSUI applications (including
 
 ### -param pCPSUICBParam
 
-#### - pComPropSheetUICBParam
+### -param pComPropSheetUICBParam
 
 CPSUI-supplied pointer to a <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam">CPSUICBPARAM</a> structure.
 

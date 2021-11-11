@@ -53,12 +53,12 @@ The print spooler's <code>PartialReplyPrinterChangeNotification</code> function 
 
 ### -param pDataSrc
 
-#### - hNotify [in]
+### -param hNotify [in]
 
 Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification">FindFirstPrinterChangeNotification</a> function.
 
 
-#### - pInfoDataSrc [in, optional]
+### -param pInfoDataSrc [in, optional]
 
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO_DATA structure (described in the Microsoft Windows SDK documentation). Can be <b>NULL</b>. For more information, see the following Remarks section.
 

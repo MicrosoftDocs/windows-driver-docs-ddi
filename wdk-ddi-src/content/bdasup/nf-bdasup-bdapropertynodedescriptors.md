@@ -59,12 +59,12 @@ Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPR
 
 ### -param pNodeDescriptorProperty
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to retrieve the list of nodes. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors">KSPROPERTY_BDA_NODE_DESCRIPTORS</a> request.
 
 
-#### - pguidProperty [out, optional]
+### -param pguidProperty [out, optional]
 
 Points to an array that receives the list of GUIDs for the nodes in a template topology.
 

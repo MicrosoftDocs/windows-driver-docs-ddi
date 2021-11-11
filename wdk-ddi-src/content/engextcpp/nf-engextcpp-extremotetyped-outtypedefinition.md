@@ -47,8 +47,6 @@ api_name:
 
 The <b>OutTypeDefinition</b> method prints the type of the typed data represented by this object.
 
-## -parameters
-
 ## -returns
 
 This method does not return a value.

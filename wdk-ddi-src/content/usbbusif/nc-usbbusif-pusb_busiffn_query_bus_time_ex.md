@@ -52,12 +52,12 @@ The <b>QueryBusTimeEx</b> routine gets the current 32-bit USB micro-frame number
 
 ## -parameters
 
-#### - BusContext [in]
+### -param BusContext [in]
 
 Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - CurrentMicroFrame [out]
+### -param CurrentMicroFrame [out]
 
 Receives the current USB micro-frame number.
 

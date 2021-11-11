@@ -88,64 +88,64 @@ N/A
 N/A
 
 
-#### - NonSeq : 1
+### -field NonSeq : 1
 
 N/A
 
 
-#### - Reserved0  : 4
+### -field Reserved0  : 4
 
 N/A
 
 
-#### - Reserved1  : 2
+### -field Reserved1  : 2
 
 N/A
 
 
-#### - Reserved3  : 16
+### -field Reserved3  : 16
 
 N/A
 
 N/A
 
 
-#### - Reserved4  : 16
+### -field Reserved4  : 16
 
 N/A
 
 
-#### - Reserved5  : 16
+### -field Reserved5  : 16
 
 N/A
 
 
-#### - Reset  : 1
+### -field Reset  : 1
 
 N/A
 
 
-#### - WritePointerLBA  : 48
+### -field WritePointerLBA  : 48
 
 N/A
 
 
-#### - ZoneCondition  : 4
+### -field ZoneCondition  : 4
 
 N/A
 
 
-#### - ZoneLength  : 48
+### -field ZoneLength  : 48
 
 N/A
 
 
-#### - ZoneStartLBA  : 48
+### -field ZoneStartLBA  : 48
 
 N/A
 
 
-#### - ZoneType  : 4
+### -field ZoneType  : 4
 
 N/A
 

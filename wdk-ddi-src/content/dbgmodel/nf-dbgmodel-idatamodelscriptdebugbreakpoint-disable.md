@@ -45,8 +45,6 @@ api_name:
 
 The Disable method disables the breakpoint. After this call, "hitting the breakpoint" after calling this method will not break into the debugger. The breakpoint, while still present, is considered "turned off".
 
-## -parameters
-
 ## -remarks
 
 ## -see-also

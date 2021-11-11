@@ -79,23 +79,23 @@ ppwfi [out, optional]
 
 Points to a memory location that will receive the address of the first element of an array of [WIA_FORMAT_INFO](/windows/win32/api/wia_xp/ns-wia_xp-wia_format_info) structures.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Is currently unused.
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-#### - pcelt [out]
+### -param pcelt [out]
 
 Points to a memory location that will receive the number of items in the array pointed to by *ppwfi*.
 
-#### - plDevErrVal [out]
+### -param plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-#### - ppwfi [out, optional]
+### -param ppwfi [out, optional]
 
 Points to a memory location that will receive the address of the first element of an array of [WIA_FORMAT_INFO](/windows/win32/api/wia_xp/ns-wia_xp-wia_format_info) structures.
 

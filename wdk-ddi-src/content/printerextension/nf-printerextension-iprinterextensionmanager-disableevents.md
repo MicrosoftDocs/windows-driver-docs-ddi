@@ -47,8 +47,6 @@ api_name:
 
 Disallows events to be generated.
 
-## -parameters
-
 ## -returns
 
 This method returns an <b>HRESULT</b> value.

@@ -49,8 +49,6 @@ Gets a count of the number of <a href="/windows-hardware/drivers/ddi/printerexte
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>

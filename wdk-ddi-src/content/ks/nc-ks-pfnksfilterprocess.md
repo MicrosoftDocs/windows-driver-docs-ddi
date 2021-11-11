@@ -56,7 +56,7 @@ Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILT
 
 ### -param Index
 
-#### - ProcessPinsIndex [in]
+### -param ProcessPinsIndex [in]
 
 Pointer to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a> structures that AVStream orders by pin ID.
 

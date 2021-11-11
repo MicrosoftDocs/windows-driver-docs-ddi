@@ -55,7 +55,7 @@ pIParent [in, optional]
 
 - Points to the IWiaDrvItem parent folder item.
 
-#### - pIParent [in, optional]
+### -param pIParent [in, optional]
 
 Points to the IWiaDrvItem parent folder item.
 

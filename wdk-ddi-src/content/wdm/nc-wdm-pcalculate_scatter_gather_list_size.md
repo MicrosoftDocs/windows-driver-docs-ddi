@@ -76,7 +76,7 @@ Pointer to the variable the routine uses to return the size of the scatter/gathe
 
 ### -param pNumberOfMapRegisters
 
-#### - NumberOfMapRegisters [out, optional]
+### -param NumberOfMapRegisters [out, optional]
 
 Either <b>NULL</b> or pointer to the variable the routine uses to return the number of map registers needed for DMA operations on the buffer.
 

@@ -47,8 +47,6 @@ api_name:
 
 The <b>KdRefreshDebuggerNotPresent</b> macro refreshes the value of the <a href="/previous-versions/ff548125(v=vs.85)">KD_DEBUGGER_NOT_PRESENT</a> global kernel variable.
 
-## -parameters
-
 ## -returns
 
 <b>KdRefreshDebuggerNotPresent</b> returns the value of KD_DEBUGGER_NOT_PRESENT.

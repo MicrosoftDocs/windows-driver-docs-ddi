@@ -94,7 +94,7 @@ If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 ### -param IsAttributeMemory
 
-#### - AttributeMemory [in, optional]
+### -param AttributeMemory [in, optional]
 
 Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory.
 

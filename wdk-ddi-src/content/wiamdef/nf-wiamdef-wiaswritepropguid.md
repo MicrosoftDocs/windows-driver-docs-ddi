@@ -60,7 +60,7 @@ Specifies the property identifier.
 
 ### -param guidVal
 
-#### - gVal
+### -param gVal
 
 Specifies a GUID property value to write to the item.
 

@@ -63,77 +63,77 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+### -field DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that the reporting of the expiration of the delayed transaction discard timer is masked.
 
 
-#### - InternalBridgeError
+### -field InternalBridgeError
 
 A single bit that indicates that the reporting of internal bridge errors is masked.
 
 
-#### - MasterAbortOnSplitCompletion
+### -field MasterAbortOnSplitCompletion
 
 A single bit that indicates that the reporting of master aborts on split completion is masked.
 
 
-#### - PERRAsserted
+### -field PERRAsserted
 
 A single bit that indicates that the reporting of PERR# assertions is masked.
 
 
-#### - ReceivedMasterAbort
+### -field ReceivedMasterAbort
 
 A single bit that indicates that the reporting of master aborts is masked.
 
 
-#### - ReceivedTargetAbort
+### -field ReceivedTargetAbort
 
 A single bit that indicates that the reporting of target aborts is masked.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - RsvdZ
+### -field RsvdZ
 
 Reserved for system use.
 
 
-#### - SERRAsserted
+### -field SERRAsserted
 
 A single bit that indicates that the reporting of SERR# assertions is masked.
 
 
-#### - TargetAbortOnSplitCompletion
+### -field TargetAbortOnSplitCompletion
 
 A single bit that indicates that the reporting of target aborts on split completion is masked.
 
 
-#### - UncorrectableAddressError
+### -field UncorrectableAddressError
 
 A single bit that indicates that the reporting of uncorrectable address errors is masked.
 
 
-#### - UncorrectableAttributeError
+### -field UncorrectableAttributeError
 
 A single bit that indicates that the reporting of uncorrectable attribute errors is masked.
 
 
-#### - UncorrectableDataError
+### -field UncorrectableDataError
 
 A single bit that indicates that the reporting of uncorrectable data errors is masked.
 
 
-#### - UncorrectableSplitCompletion
+### -field UncorrectableSplitCompletion
 
 A single bit that indicates that the reporting of uncorrectable split completion message data errors is masked.
 
 
-#### - UnexpectedSplitCompletionError
+### -field UnexpectedSplitCompletionError
 
 A single bit that indicates that the reporting of unexpected split completion errors is masked.
 

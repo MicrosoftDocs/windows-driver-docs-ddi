@@ -57,7 +57,7 @@ The <b>WIA_PATCH_CODE_INFO</b> structure stores information for one decoded patc
 The patch code type. One of the <a href="/windows-hardware/drivers/image/wia-ips-supported-patch-code-types">WIA_IPS_SUPPORTED_PATCH_CODE_TYPES</a> values.
 
 
-#### - Page
+### -field Page
 
 The page number where the patch code was detected. A zero-based index referring to the current scan job.
 

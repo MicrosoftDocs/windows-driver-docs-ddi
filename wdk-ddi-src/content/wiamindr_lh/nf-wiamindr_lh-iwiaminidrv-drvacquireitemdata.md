@@ -73,19 +73,19 @@ pmdtc [in, out]
 
 - Points to a [MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md) structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Is currently unused.
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-#### - plDevErrVal [out]
+### -param plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-#### - pmdtc [in, out]
+### -param pmdtc [in, out]
 
 Points to a [MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md) structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
 

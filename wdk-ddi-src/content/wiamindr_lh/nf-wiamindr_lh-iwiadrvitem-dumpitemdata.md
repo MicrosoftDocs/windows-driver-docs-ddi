@@ -55,7 +55,7 @@ bstrDrvItemData [out, optional]
 
 - Points to an allocated buffer that will receive the **IWiaDrvItem** data.
 
-#### - bstrDrvItemData [out, optional]
+### -param bstrDrvItemData [out, optional]
 
 Points to an allocated buffer that will receive the **IWiaDrvItem** data.
 

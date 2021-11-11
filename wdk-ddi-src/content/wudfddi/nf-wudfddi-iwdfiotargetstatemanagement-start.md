@@ -49,8 +49,6 @@ api_name:
 
 The <b>Start</b> method starts sending queued requests to a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
-## -parameters
-
 ## -returns
 
 <b>Start</b> returns S_OK if the operation succeeds. Otherwise, this method might return one of the error codes:
