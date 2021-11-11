@@ -110,7 +110,7 @@ On input, the size, in bytes, of the output buffer pointed to by the **OutputArg
 
 A pointer to an output buffer to which the PEP writes an [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure that contains the result of evaluating the specified ACPI control method.
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 #### MethodNameUlong
 

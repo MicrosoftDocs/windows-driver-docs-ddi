@@ -63,27 +63,27 @@ The <b>MP_STORAGE_DIAGNOSTIC_TARGET_TYPE</b> enumeration specifies the target ty
 
 ### -field MpStorageDiagnosticTargetTypeMax
 
-#### - StorageDiagnosticTargetTypeHbaFirmware
+### -field StorageDiagnosticTargetTypeHbaFirmware
 
 Specifies the target type is a Hba Firmware driver.
 
 
-#### - StorageDiagnosticTargetTypeMax
+### -field StorageDiagnosticTargetTypeMax
 
 Specifies the target type is a Max driver.
 
 
-#### - StorageDiagnosticTargetTypeMiniport
+### -field StorageDiagnosticTargetTypeMiniport
 
 Specifies the target type is a Miniport driver.
 
 
-#### - StorageDiagnosticTargetTypePort
+### -field StorageDiagnosticTargetTypePort
 
 Specifies the target type is a port driver.
 
 
-#### - StorageDiagnosticTargetTypeUndefined
+### -field StorageDiagnosticTargetTypeUndefined
 
 Specifies the target type is undefined.
 

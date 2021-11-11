@@ -62,7 +62,7 @@ Specifies the PnP device object to place in the device header, overwriting any p
 
 ### -param BaseObject
 
-#### - BaseDevice [in]
+### -param BaseDevice [in]
 
 Specifies the base device object to which this device header is attached. This must be set if <b>KsRecalculateStackDepth</b> is used.
 

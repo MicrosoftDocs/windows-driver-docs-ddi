@@ -57,7 +57,7 @@ Points to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">
 
 ### -param OPTIONAL
 
-#### - pFilterDescriptor [in, optional]
+### -param pFilterDescriptor [in, optional]
 
 Points to an optional <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> for which the pin data cache will be updated. If <b>NULL</b>, <i>pFilterFactory</i>'s descriptor is used instead. This parameter enables dynamic pin creation, that is, pin creation that occurs after a filter's create dispatch routine completes.
 

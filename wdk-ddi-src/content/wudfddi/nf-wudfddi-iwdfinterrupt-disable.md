@@ -49,8 +49,6 @@ api_name:
 
 The <b>Disable</b> method disables a specified device interrupt by calling the driver's <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_disable">OnInterruptDisable</a> callback function.
 
-## -parameters
-
 ## -remarks
 
 Most UMDF drivers do not need to call <b>IWDFInterrupt::Disable</b>, because the framework calls the driver's <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_disable">OnInterruptDisable</a> callback function each time the device leaves its working (D0) state.

@@ -49,7 +49,7 @@ Defines the **IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel** method.
 
 ### -param EQUALNULL
 
-#### - pCookie [in]
+### -param pCookie [in]
 
 ## -returns
 

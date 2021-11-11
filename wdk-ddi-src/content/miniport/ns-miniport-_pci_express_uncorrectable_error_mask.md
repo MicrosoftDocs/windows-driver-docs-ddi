@@ -62,77 +62,77 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - CompleterAbort
+### -field CompleterAbort
 
 A single bit that indicates that the reporting of completer aborts is masked.
 
 
-#### - CompletionTimeout
+### -field CompletionTimeout
 
 A single bit that indicates that the reporting of completion timeouts is masked.
 
 
-#### - DataLinkProtocolError
+### -field DataLinkProtocolError
 
 A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
-#### - ECRCError
+### -field ECRCError
 
 A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
-#### - FlowControlProtocolError
+### -field FlowControlProtocolError
 
 A single bit that indicates that the reporting of flow control protocol errors is masked.
 
 
-#### - MalformedTLP
+### -field MalformedTLP
 
 A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
 
 
-#### - PoisonedTLP
+### -field PoisonedTLP
 
 A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
 
 
-#### - ReceiverOverflow
+### -field ReceiverOverflow
 
 A single bit that indicates that the reporting of receiver overflows is masked.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
 
-#### - SurpriseDownError
+### -field SurpriseDownError
 
 A single bit that indicates that the reporting of surprise down errors is masked.
 
 
-#### - Undefined
+### -field Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
 
 
-#### - UnexpectedCompletion
+### -field UnexpectedCompletion
 
 A single bit that indicates that the reporting of unexpected completions is masked.
 
 
-#### - UnsupportedRequestError
+### -field UnsupportedRequestError
 
 A single bit that indicates that the reporting of unsupported request errors is masked.
 

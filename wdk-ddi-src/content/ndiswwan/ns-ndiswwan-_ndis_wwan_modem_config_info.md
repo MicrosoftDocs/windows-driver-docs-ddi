@@ -184,7 +184,7 @@ A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_conf
 
 
 
-<a href="https://msdn.microsoft.com/527B970C-09FC-4E49-A309-44D5C6A39778">OID_WWAN_MODEM_CONFIG_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-modem-config-info">OID_WWAN_MODEM_CONFIG_INFO</a>
 
 
 

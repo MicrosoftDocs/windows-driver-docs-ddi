@@ -47,8 +47,6 @@ api_name:
 
 <b>RxGetRDBSSProcess</b> returns a pointer to the process of the main thread used by the RDBSS kernel process.
 
-## -parameters
-
 ## -returns
 
 <b>RxGetRDBSSProcess</b> returns a pointer to the kernel process of the main thread used by RDBSS.

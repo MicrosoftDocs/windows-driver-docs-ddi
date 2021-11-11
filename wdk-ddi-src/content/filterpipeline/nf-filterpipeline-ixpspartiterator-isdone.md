@@ -47,8 +47,6 @@ api_name:
 
 The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
 
-## -parameters
-
 ## -returns
 
 <code>IsDone</code> returns <b>true</b> if the iterator has finished iterating.

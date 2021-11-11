@@ -50,8 +50,6 @@ Gets a pointer to the enumerants of <a href="/windows-hardware/drivers/ddi/print
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>

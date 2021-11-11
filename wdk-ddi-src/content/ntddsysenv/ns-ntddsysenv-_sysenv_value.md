@@ -71,7 +71,7 @@ The length of the value of the system environment variable.
 
 
 
-#### - UCHAR
+### -field UCHAR
 
 The value of the system environment variable.
 

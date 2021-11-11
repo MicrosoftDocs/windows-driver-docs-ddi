@@ -94,7 +94,7 @@ A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_perf_state_type">PE
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 Either the number of discrete performance values in this P-state set, or the range of values in this P-state set.
 

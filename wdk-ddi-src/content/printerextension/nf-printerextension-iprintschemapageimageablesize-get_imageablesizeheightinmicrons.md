@@ -49,8 +49,6 @@ Gets the vertical dimension of the application media size relative to the page o
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>

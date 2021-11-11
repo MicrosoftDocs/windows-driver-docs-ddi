@@ -90,37 +90,37 @@ Indicates the specification of the storage adapter, of type <a href="/windows-ha
 
 
 
-#### - ExpandedConnector
+### -field ExpandedConnector
 
 Specifies if the storage adapter includes an expanded connector.
 
 
-#### - FirmwareRevision[16]
+### -field FirmwareRevision[16]
 
 The revision number of the storage adapter.
 
 
-#### - Model[40]
+### -field Model[40]
 
 The model name of the storage adapter.
 
 
-#### - PhysicalLocation[32]
+### -field PhysicalLocation[32]
 
 This member is reserved for future use.
 
 
-#### - Reserved0[3]
+### -field Reserved0[3]
 
 Specifies if the storage adapter is reserved.
 
 
-#### - Reserved1[3]
+### -field Reserved1[3]
 
 Specifies if the storage adapter is reserved.
 
 
-#### - Vendor[8]
+### -field Vendor[8]
 
 The vendor name of the storage adapter.
 

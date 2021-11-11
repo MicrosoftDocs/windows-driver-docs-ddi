@@ -47,8 +47,6 @@ api_name:
 
 The <b>AbandonCurrentProcess</b> method removes the <a href="/windows-hardware/drivers/debugger/c">current process</a> from the debugger engine's process list without detaching or terminating the process.
 
-## -parameters
-
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.

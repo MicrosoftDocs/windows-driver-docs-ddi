@@ -75,17 +75,17 @@ An optional buffer to receive the data format resulting from a matching pair of 
 
 ### -param DataSize
 
-#### - CallerDataRange [in]
+### -param CallerDataRange [in]
 
 The first of two data ranges being compared.
 
 
-#### - DescriptorDataRange [in]
+### -param DescriptorDataRange [in]
 
 The second of two data ranges being compared.
 
 
-#### - ReportedDataSize [out]
+### -param ReportedDataSize [out]
 
 The actual size of the resulting data format. If <b>DataBufferSize</b> was zero, then this contains the required size of the buffer, but no format is returned.
 

@@ -72,7 +72,7 @@ A string of ANSI characters that contains the feature name.
 A pointer to a variable that receives the number of constrained options in the array that is pointed to by the <i>pConstrainedOptionList</i> parameter.
 
 
-#### - pConstrainedOptionList[] [out]
+### -param pConstrainedOptionList[] [out]
 
 A pointer to an array of ANSI character strings. When <code>IPrintCoreHelperUni::EnumConstrainedOptions</code> returns, these strings will contain the names of all of the options that are constrained within the specified feature. The caller is not responsible for freeing the array or the individual strings in the array.
 

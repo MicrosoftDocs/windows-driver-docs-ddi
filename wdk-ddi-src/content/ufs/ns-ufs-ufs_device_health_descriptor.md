@@ -167,7 +167,7 @@ reserved blocks.</td>
 
 
 
-#### - VendorPropInfo[32]
+### -field VendorPropInfo[32]
 
 Reserved for vendor use.
 

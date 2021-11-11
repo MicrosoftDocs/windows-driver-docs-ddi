@@ -50,7 +50,7 @@ The **HwStorPassiveInitializeRoutine** callback routine is called after the [**H
 
 ### -param DeviceExtension
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 A pointer to a per-adapter storage area.
 

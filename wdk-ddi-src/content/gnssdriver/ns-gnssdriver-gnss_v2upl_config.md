@@ -79,12 +79,12 @@ Application type indicator for any mobile originated location request to the MPC
 
 
 
-#### - MPC[MAX_SERVER_URL_NAME]
+### -field MPC[MAX_SERVER_URL_NAME]
 
 MPC address and port number.
 
 
-#### - PDE[MAX_SERVER_URL_NAME]
+### -field PDE[MAX_SERVER_URL_NAME]
 
 PDE address and port number.
 

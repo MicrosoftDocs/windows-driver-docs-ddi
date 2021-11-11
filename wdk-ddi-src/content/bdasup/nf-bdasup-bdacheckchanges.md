@@ -52,7 +52,7 @@ The <b>BdaCheckChanges</b> function verifies a new set of BDA topology changes b
 
 ### -param pIrp
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to verify changes. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-check-changes">KSMETHOD_BDA_CHECK_CHANGES</a> request.
 

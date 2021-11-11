@@ -63,7 +63,7 @@ The number of bytes read.
 
 ### -param ppValue
 
-#### - rgbValue [out]
+### -param rgbValue [out]
 
 The returned array. This array must be freed by using CoTaskFree.
 

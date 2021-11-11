@@ -65,7 +65,7 @@ Lock is blocked.
 
 ### -field RIL_UICCLOCKSTATE_ALL
 
-#### - RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
+### -field RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
 
 None of the other state bits are set.
 

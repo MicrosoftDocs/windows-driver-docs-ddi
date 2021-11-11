@@ -47,8 +47,6 @@ api_name:
 
 The <b>IKsReferenceClock::GetTime</b> method queries the associated reference clock for the current time.
 
-## -parameters
-
 ## -returns
 
 The <b>IKsReferenceClock::GetTime</b> method returns the current stream time for the associated pin, specified by default in 100-nanosecond units.

@@ -56,7 +56,7 @@ The property to read.
 
 ### -param ppArray
 
-#### - ppdispArray [out, retval]
+### -param ppdispArray [out, retval]
 
 The returned JavaScript array.
 

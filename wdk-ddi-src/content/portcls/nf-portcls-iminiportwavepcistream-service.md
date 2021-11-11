@@ -47,8 +47,6 @@ api_name:
 
 The <code>Service</code> method notifies the miniport driver of a request for service.
 
-## -parameters
-
 ## -remarks
 
 When the port driver calls the miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a> method, that method outputs a reference to the new stream's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. The port stream adds its own <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a> object to the service group and awaits notification of a service request. The source of the notification is typically the miniport driver's interrupt service routine (ISR).

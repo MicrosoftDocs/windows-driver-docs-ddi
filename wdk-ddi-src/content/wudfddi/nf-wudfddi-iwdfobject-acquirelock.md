@@ -49,8 +49,6 @@ api_name:
 
 The <b>AcquireLock</b> method prevents the framework from calling methods of interfaces that a driver registered.
 
-## -parameters
-
 ## -remarks
 
 If a driver configured itself to use the <b>AcquireLock</b> locking scheme, the framework automatically acquires the "presentation" lock before calling into the driver. (For more information about this locking scheme, see <a href="/windows-hardware/drivers/wdf/specifying-a-callback-synchronization-mode">Specifying a Callback Synchronization Mode</a>.) The <b>AcquireLock</b> and <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-releaselock">IWDFObject::ReleaseLock</a> methods acquire and release the presentation lock, respectively. <a href="/windows-hardware/drivers/wdf/creating-a-framework-device-object">Framework device objects</a> and <a href="/windows-hardware/drivers/wdf/framework-i-o-queue-object">framework I/O queue objects</a> currently support the <b>AcquireLock</b> method.

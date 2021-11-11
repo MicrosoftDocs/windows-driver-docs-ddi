@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetInterrupt</b> method checks whether a user interrupt was issued.
 
-## -parameters
-
 ## -returns
 
 <table>

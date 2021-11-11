@@ -47,8 +47,6 @@ api_name:
 
 The <b>IoGetFileObjectGenericMapping</b> routine returns information about the mapping between each generic access right and the set of specific access rights for file objects.
 
-## -parameters
-
 ## -returns
 
 <b>IoGetFileObjectGenericMapping</b> returns a pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure that describes the mapping between each generic access right and the implied set of specific access rights.

@@ -47,8 +47,6 @@ api_name:
 
 The <b>OutFullValue</b> method prints the type and value of the typed data represented by this object.
 
-## -parameters
-
 ## -returns
 
 This method does not return a value.

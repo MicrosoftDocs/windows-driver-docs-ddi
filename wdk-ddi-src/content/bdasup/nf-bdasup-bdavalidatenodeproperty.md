@@ -54,12 +54,12 @@ The <b>BdaValidateNodeProperty</b> function validates that a node property reque
 
 ### -param pProperty
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to validate that the current pin controls the node property at <i>pKSProperty</i>. The BDA minidriver can receive this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-rf-tuner-frequency">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> or <a href="/windows-hardware/drivers/stream/ksproperty-bda-autodemodulate-start">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request.
 
 
-#### - pKSProperty [in]
+### -param pKSProperty [in]
 
 Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 

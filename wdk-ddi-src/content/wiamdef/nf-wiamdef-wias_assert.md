@@ -53,11 +53,11 @@ The WIAS_ASSERT macro writes a diagnostic message to the *Wiatrace.log* file.
 
 ### -param y
 
-#### - Expression
+### -param Expression
 
 Specifies any logical expression.
 
-#### - HInst
+### -param HInst
 
 Handle to the DLL (driver).
 

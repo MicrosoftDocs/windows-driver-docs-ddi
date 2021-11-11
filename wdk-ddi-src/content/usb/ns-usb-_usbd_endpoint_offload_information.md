@@ -122,21 +122,21 @@ Reserved.
 
 
 
-#### - PHYSICAL_ADDRESS
+### -field PHYSICAL_ADDRESS
 
 The logical address of the current segment of the transfer data.
 
 The logical address of the current segment of the transfer data.
 
 
-#### - PVOID
+### -field PVOID
 
 The virtual address of the current segment of the transfer data.
 
 The virtual address of the current segment of the transfer data.
 
 
-#### - ULONG
+### -field ULONG
 
 The cycle state of the transfer.
 
@@ -146,7 +146,7 @@ Reserved message for endpoint offload mode.
 The cycle state of the transfer.
 
 
-#### - size_t
+### -field size_t
 
 The size of the requested data.
 

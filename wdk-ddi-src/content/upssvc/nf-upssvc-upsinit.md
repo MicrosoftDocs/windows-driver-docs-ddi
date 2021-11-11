@@ -47,8 +47,6 @@ api_name:
 
 The <b>UPSInit</b> function initializes a UPS minidriver, opens communication to the UPS unit, updates the registry, and causes the minidriver to start monitoring the UPS unit.
 
-## -parameters
-
 ## -returns
 
 The <b>UPSInit</b> function returns one of the following DWORD values:

@@ -54,8 +54,6 @@ See [**HidP\_GetUsagesEx**](./nf-hidpi-hidp_getusagesex.md) for parameter and re
          HidP_GetUsagesEx(Rty, LCo, BLi, ULe, Ppd, Rep, RLe)
 ```
 
-## -parameters
-
 ## -see-also
 
 [**HidP\_GetUsagesEx**](./nf-hidpi-hidp_getusagesex.md)

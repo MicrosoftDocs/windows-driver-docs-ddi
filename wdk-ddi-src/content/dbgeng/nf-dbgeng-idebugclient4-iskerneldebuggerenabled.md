@@ -47,8 +47,6 @@ api_name:
 
 The <b>IsKernelDebuggerEnabled</b> method checks whether kernel debugging is enabled for the local kernel.
 
-## -parameters
-
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.

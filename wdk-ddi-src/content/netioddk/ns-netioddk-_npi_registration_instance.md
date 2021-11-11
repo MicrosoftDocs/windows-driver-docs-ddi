@@ -102,7 +102,7 @@ The implementation number of the
 
 
 
-#### - NpiSpecificCharacteristics
+### -field NpiSpecificCharacteristics
 
 A pointer to a structure that specifies characteristics that are unique to the network module. The
      contents of the structure are 

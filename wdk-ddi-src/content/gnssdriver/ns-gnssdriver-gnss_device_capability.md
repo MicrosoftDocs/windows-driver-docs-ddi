@@ -194,11 +194,11 @@ Must greater than or equal to MIN_BREADCRUMBS_SUPPORTED.
 
 ### -field Unused
 
-#### - RequireAgnssInjection
+### -field RequireAgnssInjection
 
 Indicates whether the GNSS driver requires assistance data to be injected for faster TTFF.
 
-#### - Unused[496]
+### -field Unused[496]
 
 Padding buffer.
 

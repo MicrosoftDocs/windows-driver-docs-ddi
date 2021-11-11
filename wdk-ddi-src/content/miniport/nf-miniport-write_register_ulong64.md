@@ -62,7 +62,7 @@ A pointer to the register, which must be a mapped range in memory space.
 Specifies a ULONG64 value to write to the register.
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 

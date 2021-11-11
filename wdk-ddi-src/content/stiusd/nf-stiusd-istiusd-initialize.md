@@ -59,7 +59,7 @@ Caller-supplied STI version number. This value is defined by STI_VERSION in *Sti
 
 Caller-supplied handle to the registry key under which device-specific information is to be stored.
 
-#### - pDcb
+### -param pDcb
 
 Caller-supplied pointer to the [IStiDeviceControl COM Interface](/windows-hardware/drivers/image/istidevicecontrol-com-interface).
 

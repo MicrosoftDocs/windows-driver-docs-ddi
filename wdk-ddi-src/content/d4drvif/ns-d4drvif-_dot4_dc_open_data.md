@@ -66,7 +66,7 @@ Specifies the host socket created by CREATE_SOCKET.
 Specifies the handle to the channel returned.
 
 
-#### - unsigned char
+### -field unsigned char
 
 Specify TRUE to immediately add activity broadcast upon creation.
 

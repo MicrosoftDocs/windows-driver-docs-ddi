@@ -64,7 +64,7 @@ If the device is using message-signaled interrupts (MSIs), this parameter is the
 Reserved for system use.
 
 
-#### - pInterrupt [in]
+### -param pInterrupt [in]
 
 A pointer to <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a> interface.
 

@@ -58,7 +58,7 @@ The <b>wiauRegGetDword</b> function gets a <b>DWORD</b> value from the <b>Device
 Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
 
 
-#### - pwszValueName [in]
+### -param pwszValueName [in]
 
 Points to the first byte of a Unicode string containing the name of the registry entry.
 

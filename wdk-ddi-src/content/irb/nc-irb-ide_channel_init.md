@@ -62,7 +62,7 @@ A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-i
 
 ### -param InitContext
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to the controller extension.
 

@@ -49,7 +49,7 @@ The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns <b>TRUE</b> if the device  
 
 ## -parameters
 
-#### - BusContext [in, optional]
+### -param BusContext [in, optional]
 
 Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v1">USB_BUS_INTERFACE_USBDI_V1</a> structure by an IRP_MN_QUERY_INTERFACE request.
 

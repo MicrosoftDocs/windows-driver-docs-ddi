@@ -52,7 +52,7 @@ The client driver's implementation that UCX calls to notify the controller drive
 
 ### -param UcxEndpoint
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

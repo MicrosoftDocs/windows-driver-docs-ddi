@@ -93,7 +93,7 @@ The context passed to the Avstream driver in the cancel routine. This context is
 
 Return value: The context to be stored by Avstream driver. This context should be passed to KS when releasing the MDL acquired by the **KsAcquireCachedMdl** call.
 
-#### - *MdlAddr
+### -param *MdlAddr
 
 Return value: The resultant MDL if KS finds the MDL stored for the sample buffer.
 

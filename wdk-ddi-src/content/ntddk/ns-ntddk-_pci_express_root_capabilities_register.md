@@ -62,12 +62,12 @@ The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure.
 
 
-#### - CRSSoftwareVisibility
+### -field CRSSoftwareVisibility
 
 A single bit that indicates that the root port is capable of returning configuration request retry status (CRS) completion status to software.
 
 
-#### - Rsvd
+### -field Rsvd
 
 Reserved.
 

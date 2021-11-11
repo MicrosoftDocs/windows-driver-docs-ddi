@@ -50,7 +50,7 @@ The <b>READ_PORT_UCHAR</b> routine reads a byte from the specified port address.
 
 ## -parameters
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 

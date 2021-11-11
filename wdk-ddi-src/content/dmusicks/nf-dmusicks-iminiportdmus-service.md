@@ -47,8 +47,6 @@ api_name:
 
    This method does not currently need to be implemented in the miniport driver. The<code> Service</code> method is currently unused.
 
-## -parameters
-
 ## -remarks
 
 <code>Service</code> was intended to be called during a deferred procedure call (DPC) and was to be executed as the result of a call of the <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iportdmus-notify">IPortDMus::Notify</a> method. Instead, the DMus port driver sends notification to the miniport driver's input stream by calling <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a> with a <b>NULL</b> parameter value. Hence, <code>Service</code> is currently unused.

@@ -47,8 +47,6 @@ api_name:
 
 Restart the system and the current test.
 
-## -parameters
-
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

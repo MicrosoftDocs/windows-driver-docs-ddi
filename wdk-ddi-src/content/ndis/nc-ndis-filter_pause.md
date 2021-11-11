@@ -61,7 +61,7 @@ A handle to the context area for the filter module that the filter driver should
 
 ### -param PauseParameters
 
-#### - FilterPauseParameters 
+### -param FilterPauseParameters 
 [in]
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_pause_parameters">

@@ -65,7 +65,7 @@ Specifies the registry key handle. This parameter should be set to the value poi
 Pointer to a memory location that receives the returned DWORD value.
 
 
-#### - pwszValueName [in]
+### -param pwszValueName [in]
 
 Points to the first byte of a Unicode string containing the name of the registry entry.
 

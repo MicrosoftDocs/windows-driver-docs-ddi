@@ -49,19 +49,19 @@ The client driver's implementation to create a default endpoint object.
 
 ## -parameters
 
-#### - EndpointDescriptor [in]
+### -param unnamedParam1 [in]
+
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+
+
+### -param unnamedParam2 [in]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a> structure that contains descriptor data.
 
 
-#### - EndpointInit [in, out]
+### -param unnamedParam3 [in, out]
 
 A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint descriptor required  to create an endpoint object.
-
-
-#### - UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ## -returns
 

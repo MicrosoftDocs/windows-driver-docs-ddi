@@ -64,7 +64,7 @@ The BTH_SDP_DISCONNECT structure contains input information about a connection h
 
 
 
-#### - hConnection
+### -field hConnection
 
 A handle for the SDP connection on the remote server to terminate. This should be a value returned
      in the 

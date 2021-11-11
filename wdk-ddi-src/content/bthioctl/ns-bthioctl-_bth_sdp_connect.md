@@ -106,7 +106,7 @@ The timeout, in seconds, for requests to the SDP connection handle that is retur
      SDP_REQUEST_TO_MAX. If SDP_REQUEST_TO_DEFAULT is specified, the timeout is 30 seconds.
 
 
-#### - hConnection
+### -field hConnection
 
 A handle for the SDP connection on the remote server.
 

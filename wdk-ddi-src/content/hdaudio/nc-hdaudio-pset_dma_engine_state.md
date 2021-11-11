@@ -69,7 +69,7 @@ Specifies the number of handles in the <i>handles</i> array. Set this parameter 
 Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 
-#### - streamState [in]
+### -param streamState [in]
 
 Specifies the new stream state. Set this parameter to one of the following HDAUDIO_STREAM_STATE enumeration values:
 

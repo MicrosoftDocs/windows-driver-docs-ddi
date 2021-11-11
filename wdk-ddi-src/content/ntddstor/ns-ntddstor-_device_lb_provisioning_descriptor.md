@@ -216,12 +216,12 @@ Maximum amount of LBAs that can be unmapped in a single UNMAP command, in units 
 Maximum number of descriptors allowed in a single UNMAP command. This is valid only in Windows 10 and above.
 
 
-#### - Reserverd0
+### -field Reserverd0
 
 Reserved.
 
 
-#### - Reserverd1
+### -field Reserverd1
 
 Reserved.
 

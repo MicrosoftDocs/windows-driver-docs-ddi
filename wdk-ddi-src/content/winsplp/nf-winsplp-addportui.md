@@ -67,7 +67,7 @@ Caller-supplied handle of the window that should be used as the parent for dialo
 Caller-supplied pointer to a location to receive a port name string. Can be <b>NULL</b>, in which case a name is not returned.
 
 
-#### - pszPortNameIn [in]
+### -param pszPortNameIn [in]
 
 Caller-supplied pointer to a string representing the name of the monitor. Can be <b>NULL</b>.
 

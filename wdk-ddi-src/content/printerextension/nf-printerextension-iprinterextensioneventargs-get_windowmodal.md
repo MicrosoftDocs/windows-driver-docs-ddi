@@ -49,8 +49,6 @@ Gets the run mode parameter that determines whether or not the printer extension
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>

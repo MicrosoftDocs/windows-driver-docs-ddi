@@ -49,8 +49,6 @@ Gets an individual string in the collection.
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfstrings2">IWDTFStrings2</a>

@@ -49,8 +49,6 @@ Gets the vertical distance between the origin and the bounding limit of the canv
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>

@@ -47,8 +47,6 @@ api_name:
 
 The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
 
-## -parameters
-
 ## -returns
 
 None

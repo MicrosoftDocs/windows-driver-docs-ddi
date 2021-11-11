@@ -47,8 +47,6 @@ api_name:
 
 The <b>KeGetCurrentNodeNumber</b> routine gets the NUMA node number for the logical processor that the caller is running on.
 
-## -parameters
-
 ## -returns
 
 <b>KeGetCurrentNodeNumber</b> returns the node number.

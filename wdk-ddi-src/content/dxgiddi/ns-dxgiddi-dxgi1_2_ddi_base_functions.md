@@ -223,7 +223,7 @@ If this callback function succeeds, it returns S_OK. Otherwise, it returns an **
 
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiplaneOverlay (DXGI)</a> function. Supported starting with Windows 8.1.
 
-#### - pfnCheckMultiPlaneOverlaySupport
+### -field pfnCheckMultiPlaneOverlaySupport
 
 Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
 

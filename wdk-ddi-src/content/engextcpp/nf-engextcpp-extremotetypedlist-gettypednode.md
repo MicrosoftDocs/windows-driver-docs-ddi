@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetTypedNode</b> method returns the current list item.
 
-## -parameters
-
 ## -returns
 
 <b>GetTypedNode</b> returns a typed data description of the current list item.

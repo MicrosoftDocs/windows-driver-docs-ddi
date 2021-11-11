@@ -51,7 +51,7 @@ The stream class driver calls the minidriver's <i>StrMiniRequestTimeout</i> rout
 
 ### -param SRB
 
-#### - pSrb [in]
+### -param pSrb [in]
 
 Pointer to the stream request that has timed out.
 

@@ -85,7 +85,7 @@ Size of the blob data in bytes.
 
 
 
-#### - BlobData[ANYSIZE_ARRAY]
+### -field BlobData[ANYSIZE_ARRAY]
 
 This field defines the start of the blob data.
 

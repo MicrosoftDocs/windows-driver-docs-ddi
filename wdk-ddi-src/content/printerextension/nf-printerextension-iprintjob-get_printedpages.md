@@ -49,8 +49,6 @@ Gets the number of pages that have been printed.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 If the <b>PrintedPages</b> and <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages">IPrintJob::TotalPages</a> properties are both zero, then page delimiting is not supported for the print job.

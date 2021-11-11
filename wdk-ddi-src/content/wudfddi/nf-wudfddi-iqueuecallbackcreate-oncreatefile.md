@@ -64,7 +64,7 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfi
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the device. This information is provided for convenience because the driver can call the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getcreateparameters">IWDFIoRequest::GetCreateParameters</a> method to obtain the file object. 
 
 
-#### - pWdfRequest [in]
+### -param pWdfRequest [in]
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object.
 

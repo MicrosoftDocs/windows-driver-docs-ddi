@@ -73,19 +73,19 @@ ppszDevErrStr [out, optional]
 
 - Points to a memory location that will receive the address of a string describing the error.
 
-#### - lDevErrVal [in]
+### -param lDevErrVal [in]
 
 Specifies the device error value to be mapped to a string. A value of zero indicates that no error occurred.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Is currently unused.
 
-#### - plDevErr [out]
+### -param plDevErr [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-#### - ppszDevErrStr [out, optional]
+### -param ppszDevErrStr [out, optional]
 
 Points to a memory location that will receive the address of a string describing the error.
 

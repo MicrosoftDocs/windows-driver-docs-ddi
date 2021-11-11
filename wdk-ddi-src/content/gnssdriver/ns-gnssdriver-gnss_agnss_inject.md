@@ -91,7 +91,7 @@ Size of the injection data.
 <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_agnss_injectblob">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

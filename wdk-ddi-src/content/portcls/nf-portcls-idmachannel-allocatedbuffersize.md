@@ -46,8 +46,6 @@ product:
 
 The AllocatedBufferSize method returns the size of the allocated buffer.
 
-## -parameters
-
 ## -returns
 
 This method returns ULONG which is the size in bytes of the allocated buffer.

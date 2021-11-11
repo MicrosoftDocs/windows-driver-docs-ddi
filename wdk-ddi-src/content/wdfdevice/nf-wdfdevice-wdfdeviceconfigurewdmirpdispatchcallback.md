@@ -4,7 +4,7 @@ title: WdfDeviceConfigureWdmIrpDispatchCallback function (wdfdevice.h)
 description: The WdfDeviceConfigureWdmIrpDispatchCallback method registers a driver's EvtDeviceWdmIrpDispatch callback function.
 old-location: wdf\wdfdeviceconfigurewdmirpdispatchcallback.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 10/28/2021
 keywords: ["WdfDeviceConfigureWdmIrpDispatchCallback function"]
 ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
 req.header: wdfdevice.h
@@ -69,7 +69,7 @@ A handle to the driver's framework driver object that the driver obtained from a
 
 One of the following IRP major function codes: IRP_MJ_DEVICE_CONTROL, IRP_MJ_INTERNAL_DEVICE_CONTROL, IRP_MJ_READ, IRP_MJ_WRITE.
 
-### -param EvtDeviceWdmIrpDisptach
+### -param EvtDeviceWdmIrpDispatch
 
 <p>A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch"><i>EvtDeviceWdmIrpDispatch</i></a> callback function.</p>
 

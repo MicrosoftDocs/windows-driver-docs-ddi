@@ -47,8 +47,6 @@ api_name:
 
 Completes the extension event.
 
-## -parameters
-
 ## -returns
 
 This method returns an <b>HRESULT</b> value.

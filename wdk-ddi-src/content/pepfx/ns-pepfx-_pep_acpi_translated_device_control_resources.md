@@ -74,7 +74,7 @@ An NTSTATUS value that indicates the status of the resource translation. The PEP
 A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> structure that serves as the header for the resource list. The remainder of the resource list immediately follows this header.
 
 
-#### - ResourceBufferSize
+### -field ResourceBufferSize
 
 [in] The size in bytes of the input buffer that contains both this structure and the resource-list data that follows this structure.
 

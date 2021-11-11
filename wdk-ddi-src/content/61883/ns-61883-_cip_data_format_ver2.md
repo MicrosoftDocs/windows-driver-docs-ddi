@@ -78,12 +78,12 @@ This structure is a CIP data format which is used by <a href="/windows-hardware/
 
 
 
-#### - Frame
+### -field Frame
 
 Pointer to a <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_cip_frame">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
 
 
-#### - hConnect
+### -field hConnect
 
 A handle to a connection.
 

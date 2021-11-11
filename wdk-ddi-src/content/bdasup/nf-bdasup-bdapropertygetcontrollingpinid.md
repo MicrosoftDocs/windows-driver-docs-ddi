@@ -63,7 +63,7 @@ Points to the IRP for the request to retrieve the controlling pin for a node. Th
 Points to a variable that receives the identifier of the controlling pin for a node. 
 
 
-#### - pProperty [in]
+### -param pProperty [in]
 
 Points to a <a href="/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node.
 

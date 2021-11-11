@@ -57,7 +57,7 @@ The <b>IPrintCoreHelper::EnumFeatures</b> method gets a list of all available fe
 A pointer to a variable that receives the number of feature keywords in the array that is pointed to by the <i>pFeatureList</i> parameter.
 
 
-#### - pFeatureList[] [out]
+### -param pFeatureList[] [out]
 
 A pointer to an array of ANSI character strings that contain all of the features that are available for the current device. The final array element is indicated by a <b>NULL</b> string. The array elements should be considered constants. The caller does not need to provide a buffer for the array, nor should the caller release the array.
 

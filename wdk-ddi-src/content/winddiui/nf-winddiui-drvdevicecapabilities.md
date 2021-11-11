@@ -61,7 +61,7 @@ Caller-supplied printer handle.
 
 ### -param pDevmode
 
-#### - iDevCap
+### -param iDevCap
 
 Caller-supplied bit flag indicating the information being requested. This can be one of the flags listed in the following table. (The flags are defined in header file Wingdi.h.)
 
@@ -524,17 +524,17 @@ The function's return value should be the <b>dmSpecVersion</b> member of the dri
  
 
 
-#### - pDevMode [in]
+### -param pDevMode [in]
 
 A caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
 
 
-#### - pDeviceName [in]
+### -param pDeviceName [in]
 
 Caller-supplied pointer to a printer name string.
 
 
-#### - pvOutput [out]
+### -param pvOutput [out]
 
 A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
 

@@ -49,8 +49,6 @@ Provides access to the user property bag, if the property bag is present.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 The user property bag is not available in (constraint) JavaScript functions when the functions are called during de-spooling. Therefore JavaScript functions should be designed to handle the situation when there is  a failure to retrieve the user property bag.
