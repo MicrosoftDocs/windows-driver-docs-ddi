@@ -57,7 +57,7 @@ A pointer to the controller extension.
 
 ### -param Channel
 
-#### - ChannelNumber [in]
+### -param ChannelNumber [in]
 
 Specifies the channel number whose state will be determined.
 

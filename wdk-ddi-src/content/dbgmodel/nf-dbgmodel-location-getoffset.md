@@ -45,8 +45,6 @@ api_name:
 
 Returns the offset of the location.
 
-## -parameters
-
 ## -returns
 
 This function returns ULONG64.

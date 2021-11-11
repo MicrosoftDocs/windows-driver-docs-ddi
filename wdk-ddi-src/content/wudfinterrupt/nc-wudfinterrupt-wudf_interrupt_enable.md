@@ -55,12 +55,12 @@ A driver's <i>OnInterruptEnable</i> event callback function enables a specified 
 
 ### -param AssociatedDevice
 
-#### - pAssociatedDevice [in]
+### -param pAssociatedDevice [in]
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface that the driver used to call <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">CreateInterrupt</a>. 
 
 
-#### - pInterrupt [in]
+### -param pInterrupt [in]
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a> interface.
 

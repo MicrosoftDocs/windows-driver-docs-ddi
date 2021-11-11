@@ -51,7 +51,7 @@ The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the las
 
 ### -param pLastErrorInfo
 
-#### - pLastErrorInf [out]
+### -param pLastErrorInf [out]
 
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure to receive error information.
 

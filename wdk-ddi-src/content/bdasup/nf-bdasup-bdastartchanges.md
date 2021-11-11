@@ -52,7 +52,7 @@ The <b>BdaStartChanges</b> function initiates the setting of new BDA topology ch
 
 ### -param pIrp
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to initiate changes. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-start-changes">KSMETHOD_BDA_START_CHANGES</a> request.
 

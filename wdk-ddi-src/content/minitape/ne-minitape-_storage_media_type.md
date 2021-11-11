@@ -306,7 +306,7 @@ SAIT Tapes
 VXA (Ecrix 8mm) Tape
 
 
-#### - STK_9840
+### -field STK_9840
 
 Indicates an STK 9840 device.
 

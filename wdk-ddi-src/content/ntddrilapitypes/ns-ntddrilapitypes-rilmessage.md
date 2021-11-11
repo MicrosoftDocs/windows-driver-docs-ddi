@@ -80,23 +80,23 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field RILMSGUNION
 
-#### - unMsgBcGeneral
+### -field unMsgBcGeneral
 
 
-#### - unMsgCDMAInDeliver
+### -field unMsgCDMAInDeliver
 
 
-#### - unMsgCDMAOutSubmit
+### -field unMsgCDMAOutSubmit
 
 
-#### - unMsgIS637InStatus
+### -field unMsgIS637InStatus
 
 
-#### - unMsgInDeliver
+### -field unMsgInDeliver
 
 
-#### - unMsgInStatus
+### -field unMsgInStatus
 
 
-#### - unMsgOutSubmit
+### -field unMsgOutSubmit
 

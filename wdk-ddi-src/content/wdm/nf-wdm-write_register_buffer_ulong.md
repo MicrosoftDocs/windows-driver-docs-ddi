@@ -47,7 +47,7 @@ api_name:
 
 The **WRITE_REGISTER_BUFFER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and writes a set of ULONG values from a buffer to the specified address.
 
-## -parameters
+### -parameters
 
 ### -param Register [in]
 

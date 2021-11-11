@@ -86,12 +86,12 @@ Retrieves the stream identifier. This parameter points to a caller-allocated UCH
 Retrieves the DMA engine's FIFO size in bytes. This parameter points to a caller-allocated UINT variable into which the routine writes the FIFO size.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the DMA buffer that the buffer descriptor list (BDL) array describes.
 
 
-#### - CallbackContext [in]
+### -param CallbackContext [in]
 
 Specifies a context value that the HD Audio bus driver passes to the ISR.
 

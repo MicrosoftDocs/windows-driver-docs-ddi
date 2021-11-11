@@ -58,12 +58,12 @@ The <b>wiauRegGetStr</b> function gets a string value from the <b>DeviceData</b>
 Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
 
 
-#### - pwszValueName [in]
+### -param pwszValueName [in]
 
 Points to the first character of a Unicode string containing the name of the registry entry.
 
 
-#### - pwszValue [out]
+### -param pwszValue [out]
 
 Pointer to a memory location that receives the string value, including a terminating null character.
 

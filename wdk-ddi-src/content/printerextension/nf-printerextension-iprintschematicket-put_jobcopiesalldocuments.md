@@ -49,8 +49,6 @@ Sets the copy count.
 
 This property is write-only.
 
-## -parameters
-
 ## -remarks
 
 Be aware of the fact that the <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket::GetCapabilities</a>  method retrieves a new PrintCapabilities document, which it also caches every time it is invoked. This means that if you use <b>IPrintSchemaTicket::put_JobCopiesAllDocuments</b> or <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-put_selectedoption">IPrintSchemaFeature::SelectedOption</a> on PrintTicket, the cached PrintCapabilities document gets corrupted or modified and the cache will be purged.

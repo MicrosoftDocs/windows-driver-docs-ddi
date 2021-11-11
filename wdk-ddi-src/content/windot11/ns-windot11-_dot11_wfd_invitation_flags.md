@@ -61,7 +61,7 @@ product:
 
 ### -field Reserved
 
-#### - InvitationType:1
+### -field InvitationType:1
 
 The type of group invitation. The invitation types have the following meanings.
 
@@ -96,7 +96,7 @@ The invitation is reinvoked.
  
 
 
-#### - Reserved:7
+### -field Reserved:7
 
 Reserved.
 

@@ -49,8 +49,6 @@ Gets the text of the bidirectional communication (Bidi) notification, if applica
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>

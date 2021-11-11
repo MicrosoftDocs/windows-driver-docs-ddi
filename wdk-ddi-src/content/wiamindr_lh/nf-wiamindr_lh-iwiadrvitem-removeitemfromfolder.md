@@ -60,7 +60,7 @@ lReason [in]
   | WiaItemTypeDeleted | The item is marked as deleted. |
   | WiaItemTypeDisconnected | The item is a disconnected device. |
 
-#### - lReason [in]
+### -param lReason [in]
 
 Specifies the reason for the removal of the item from the folder. This parameter can be set to one of the following values:
 

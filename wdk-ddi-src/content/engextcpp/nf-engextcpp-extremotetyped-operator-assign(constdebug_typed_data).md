@@ -49,8 +49,6 @@ The *operator=* method is part of the <b>ExtRemoteTyped</b> class. The <b>ExtRem
 
 <b>ExtRemoteTyped</b> is a subclass of <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>.
 
-## -parameters
-
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>

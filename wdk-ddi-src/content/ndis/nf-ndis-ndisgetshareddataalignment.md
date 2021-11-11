@@ -49,8 +49,6 @@ api_name:
 <b>NdisGetSharedDataAlignment</b> returns the preferred alignment for memory structures that can be shared
   by more than one processor.
 
-## -parameters
-
 ## -returns
 
 The boundary value, in bytes, on which drivers should align structures that can be shared by more

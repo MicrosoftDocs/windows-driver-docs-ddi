@@ -49,8 +49,6 @@ Gets the driver property bag.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 The driver property bag uses the following GUID for its property store format ID:

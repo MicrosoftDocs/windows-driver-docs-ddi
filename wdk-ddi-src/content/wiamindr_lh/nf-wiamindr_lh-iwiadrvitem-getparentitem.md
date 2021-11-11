@@ -55,7 +55,7 @@ ppIParentItem [out, optional]
 
 - Returns a pointer to the parent item of the current item.
 
-#### - ppIParentItem [out, optional]
+### -param ppIParentItem [out, optional]
 
 Returns a pointer to the parent item of the current item.
 

@@ -67,32 +67,32 @@ The <b>NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION</b> enumeration specifies the 
 
 ### -field NdisNicSwitchVPortInterruptModerationHigh
 
-#### - NdisNicSwitchVPortIntModAdaptive
+### -field NdisNicSwitchVPortIntModAdaptive
 
 Interrupt moderation for the VPort is adaptive. This state enables the network adapter to adjust the interrupt moderation rate for the VPort based on the pattern of network traffic.
 
 
-#### - NdisNicSwitchVPortIntModHigh
+### -field NdisNicSwitchVPortIntModHigh
 
 Interrupt moderation for the VPort is high.
 
 
-#### - NdisNicSwitchVPortIntModLow
+### -field NdisNicSwitchVPortIntModLow
 
 Interrupt moderation for the VPort is low.
 
 
-#### - NdisNicSwitchVPortIntModMedium
+### -field NdisNicSwitchVPortIntModMedium
 
 Interrupt moderation for the VPort is medium.
 
 
-#### - NdisNicSwitchVPortIntModOff
+### -field NdisNicSwitchVPortIntModOff
 
 Interrupt moderation for the VPort is disabled.
 
 
-#### - NdisNicSwitchVPortIntModUndefined
+### -field NdisNicSwitchVPortIntModUndefined
 
 Interrupt moderation for the VPort is not defined.
 

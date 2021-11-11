@@ -83,12 +83,12 @@ The device supports packet-based, scatter/gather DMA operations, using 32-bit ad
 The device supports packet-based, scatter/gather DMA operations, using 64-bit addressing. The device also supports duplex operation.
 
 
-#### - WdfDmaProfileSystem
+### -field WdfDmaProfileSystem
 
 The device supports system-mode DMA operations. This value is available in version 1.11 and later versions of KMDF running on Windows 8 or later versions of Windows.
 
 
-#### - WdfDmaProfileSystemDuplex
+### -field WdfDmaProfileSystemDuplex
 
 The device supports system-mode DMA operations. The device also supports duplex operation. This value is available in version 1.11 and later versions of KMDF running on Windows 8 or later versions of Windows.
 

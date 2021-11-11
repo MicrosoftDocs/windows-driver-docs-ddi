@@ -65,7 +65,7 @@ of milliseconds (100 microseconds). The cause of the seek delay might be linear 
 dependent features. 
 
 
-#### - LBA
+### -field LBA
 
 The LBA field  indicates that there is a seek delay between the logical block address (LBA) and the preceding LBA (LBA -1).
 

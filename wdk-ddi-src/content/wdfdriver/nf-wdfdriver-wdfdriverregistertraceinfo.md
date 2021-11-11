@@ -62,4 +62,6 @@ The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
 ### -param ControlBlock [in]
 
 
+## -returns
+
 

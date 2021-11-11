@@ -88,7 +88,7 @@ Specifies the size of the buffer passed.
 Indicates the processor mode to place in the read IRP if one needs to be generated. Additionally, it is used if a buffer needs to be probed and locked. This variable also determines if a fast I/O call can be performed. If the requester mode is not KernelMode, but the previous mode was, then fast I/O cannot be used.
 
 
-#### - Key [in, optional]
+### -param Key [in, optional]
 
 Optionally contains a key, or zero if none.
 

@@ -53,7 +53,7 @@ The <b>Copy</b> method sets the typed data represented by the <a href="..\engext
 
 ### -param Elts
 
-#### - Typed [in]
+### -param Typed [in]
 
 The typed data description to copy. This becomes the typed data represented by this object.
 

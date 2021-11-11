@@ -49,27 +49,27 @@ Defines the **IPrintAsyncNotify::CreatePrintAsyncNotifyChannel** method.
 
 ## -param
 
-#### - filter 
+### -param filter 
 
 [in]
 
-#### - pCallback
+### -param pCallback
 
 [in]
 
-#### - pType
+### -param pType
 
 [in]
 
-#### - ppChannel
+### -param ppChannel
 
 [out]
 
-#### - style
+### -param style
 
 [in]
 
-#### - uL
+### -param uL
 
 [in]
 

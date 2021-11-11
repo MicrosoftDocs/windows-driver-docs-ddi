@@ -83,7 +83,7 @@ A pointer to driver-defined context information that the driver has associated w
 This member is reserved for future use. 
 
 
-#### - ResultLength
+### -field ResultLength
 
 Pointer to a variable that receives (from the system) the amount of valid data, in bytes, in the <b>ObjectNameInfo</b> buffer.
 

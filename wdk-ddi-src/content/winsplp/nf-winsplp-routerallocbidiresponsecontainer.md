@@ -51,7 +51,7 @@ api_name:
 
 ### -param Count
 
-#### - cSize [in]
+### -param cSize [in]
 
 Specifies the number of BIDI_RESPONSE_DATA structures to be allocated.
 

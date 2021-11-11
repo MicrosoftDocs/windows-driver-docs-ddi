@@ -65,7 +65,7 @@ Points to a NULL-terminated string containing the message to print to the applic
 
 ### -param ...
 
-#### - arguments
+### -param arguments
 
 Specifies a variable argument list containing optional arguments for the format string, as in **printf**.
 

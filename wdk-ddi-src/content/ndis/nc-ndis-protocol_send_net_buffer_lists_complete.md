@@ -73,7 +73,7 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
      <a href="/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 
-#### - NetBufferLists [in]
+### -param NetBufferLists [in]
 
 A pointer to a list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the

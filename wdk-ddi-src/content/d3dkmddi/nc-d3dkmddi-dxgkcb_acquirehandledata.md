@@ -51,9 +51,9 @@ dev_langs:
 
 Pointer to a [**DXGKARGCB_GETHANDLEDATA**](ns-d3dkmddi-_dxgkargcb_gethandledata.md) structure that describes an allocation handle returned by [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md).
 
-## -param Arg2
+## -param unnamedParam2 [out]
 
-[out] Pointer to a release handle for the driver to use when releasing the allocation reference.
+Pointer to a release handle for the driver to use when releasing the allocation reference.
 
 ## -returns
 

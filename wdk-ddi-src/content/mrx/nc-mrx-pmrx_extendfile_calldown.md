@@ -58,12 +58,12 @@ A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is r
 
 ### -param NewAllocationSize
 
-#### - pNewAllocationSize [out]
+### -param pNewAllocationSize [out]
 
 A pointer to the LARGE_INTEGER structure for storing the new allocation size when <i>MRxExtendForCache</i> returns. 
 
 
-#### - pNewFileSize [in, out]
+### -param pNewFileSize [in, out]
 
 A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size.
 

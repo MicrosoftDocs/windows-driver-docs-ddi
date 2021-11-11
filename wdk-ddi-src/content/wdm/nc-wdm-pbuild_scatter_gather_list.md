@@ -96,7 +96,7 @@ Pointer to the caller-supplied buffer that the routine fills with a <a href="/wi
 
 ### -param ScatterGatherLength
 
-#### - ScatterGatherBufferLength [in]
+### -param ScatterGatherBufferLength [in]
 
 Specifies the size, in bytes, of the buffer passed in the <i>ScatterGatherBuffer</i> parameter.
 

@@ -58,7 +58,7 @@ A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-termi
 
 ### -param pdwCountedFileNameLengthInChars
 
-#### - pdwCountedFileNameLength [in, out]
+### -param pdwCountedFileNameLength [in, out]
 
 A pointer to a caller-allocated variable. On input, the driver sets the variable to the length, in characters, of the buffer that <i>pdwFileNameLengthInChars</i> points to. On output, the framework sets the variable to the length, in characters, of the character string (including the terminating <b>NULL</b> character) that it placed in the buffer. If a counted file name does not exist, the framework sets the variable to zero.
 

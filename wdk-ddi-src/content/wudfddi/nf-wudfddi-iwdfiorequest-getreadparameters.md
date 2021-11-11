@@ -68,7 +68,7 @@ A pointer to a variable that receives a key that the driver can use to sort the 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pllOffset [out]
+### -param pllOffset [out]
 
 A pointer to a variable that receives the offset, in bytes, to begin reading from the device or the file on the device. If the device does not support absolute read addresses, <i>pllOffset</i> can be ignored. For more information, see the following Remarks section.
 

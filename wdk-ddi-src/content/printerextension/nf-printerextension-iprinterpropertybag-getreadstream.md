@@ -56,7 +56,7 @@ The property to read.
 
 ### -param ppValue
 
-#### - ppValueStream [out]
+### -param ppValueStream [out]
 
 The returned stream.
 

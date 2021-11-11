@@ -71,7 +71,7 @@ Optionally points to an allocation function used to allocate memory to store the
 
 ### -param OPTIONAL
 
-#### - PropertyItemSize [in, optional]
+### -param PropertyItemSize [in, optional]
 
 Optionally contains the size of each KSPROPERTY_ITEM structure in the properties. The property item may be extended in order to store private information. If this parameter is zero, the structure size is assumed to be normal. If it is greater than or equal to a property item structure, the KSPROPERTY_ITEM_IRP_STORAGE macro can be used to return a pointer to the property item so the custom data can be retrieved. On 64-bit platforms, this parameter must be a multiple of 8.
 

@@ -53,8 +53,6 @@ The
   <b>NetDmaGetVersion</b> function returns the version of the NetDMA interface that the local computer
   supports.
 
-## -parameters
-
 ## -returns
 
 <b>NetDmaGetVersion</b> returns a UINT value that contains the major and minor version numbers as

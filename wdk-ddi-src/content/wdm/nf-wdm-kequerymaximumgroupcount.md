@@ -47,8 +47,6 @@ api_name:
 
 The <b>KeQueryMaximumGroupCount</b> routine returns the maximum number of groups in a multiprocessor system.
 
-## -parameters
-
 ## -returns
 
 <b>KeQueryMaximumGroupCount</b> returns the maximum number of groups.

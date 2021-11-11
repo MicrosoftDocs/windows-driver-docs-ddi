@@ -66,37 +66,37 @@ Defines the state of the Type-C connector.
 
 ### -field UcmTypeCPartnerDebugAccessory
 
-#### - UcmTypeCPartnerStateAudioAccessory
+### -field UcmTypeCPartnerStateAudioAccessory
 
 The partner is used as an audio accessory.
 
 
-#### - UcmTypeCPartnerStateDebugAccessory
+### -field UcmTypeCPartnerStateDebugAccessory
 
 The partner is a debug accessory.
 
 
-#### - UcmTypeCPartnerStateDfp
+### -field UcmTypeCPartnerStateDfp
 
 The partner is a Downstream Facing Port (DFP).
 
 
-#### - UcmTypeCPartnerStateInvalid
+### -field UcmTypeCPartnerStateInvalid
 
 The partner port state is invalid.
 
 
-#### - UcmTypeCPartnerStatePoweredCableNoUfp
+### -field UcmTypeCPartnerStatePoweredCableNoUfp
 
 The partner is a powered cable that requires VConn, that currently does not have a UFP attached on the other end.
 
 
-#### - UcmTypeCPartnerStatePoweredCableWithUfp
+### -field UcmTypeCPartnerStatePoweredCableWithUfp
 
 The partner is a powered and upstream facing.
 
 
-#### - UcmTypeCPartnerStateUfp
+### -field UcmTypeCPartnerStateUfp
 
 The partner is an Upstream Facing Port (UFP).
 

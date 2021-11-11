@@ -64,7 +64,7 @@ The <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union indicates whether an unmasked inte
 A USHORT value that contains all of the unmasked interrupt flags.
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 A structure that contains the bitfields for the individual unmasked interrupt flags.
 

@@ -55,7 +55,7 @@ ppISiblingItem [out, optional]
 
 - Points to a memory location that will receive the address of the **IWiaDrvItem** object representing the next sibling item in a folder.
 
-#### - ppISiblingItem [out, optional]
+### -param ppISiblingItem [out, optional]
 
 Points to a memory location that will receive the address of the **IWiaDrvItem** object representing the next sibling item in a folder.
 

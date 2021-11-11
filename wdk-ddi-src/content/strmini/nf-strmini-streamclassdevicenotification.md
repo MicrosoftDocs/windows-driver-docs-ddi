@@ -94,22 +94,22 @@ Pointer to the minidriver's device extension. The minidriver specifies the size 
 
 ### -param ...
 
-#### - EventEntry
+### -param EventEntry
 
 If <i>NotificationType</i> equals either SignalDeviceEvent or DeleteDeviceEvent, points to a structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> that specifies the event to be signaled or deleted. 
 
 
-#### - EventId
+### -param EventId
 
 Specifies the event ID to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>.
 
 
-#### - EventSet
+### -param EventSet
 
 Specifies the event set to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>. 
 
 
-#### - pSrb
+### -param pSrb
 
 Pointer to an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> structure. If <i>NotificationType</i> equals <b>DeviceRequestComplete</b>, this parameter points to the stream request block that the minidriver has completed processing. After <b>StreamClassDeviceNotification</b> completes, this address is no longer valid.
 

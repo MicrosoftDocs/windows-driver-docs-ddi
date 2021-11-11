@@ -62,7 +62,7 @@ A pointer to the<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterp
 A pointer to the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
 
 
-#### - pICommunicator [in]
+### -param pICommunicator [in]
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a> interface.
 

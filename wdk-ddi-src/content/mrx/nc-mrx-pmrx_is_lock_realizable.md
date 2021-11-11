@@ -67,7 +67,7 @@ A value indicating the length for the byte range lock.
 A value indicating the I/O lock flags. This parameter is a bitmask that contains any combination of the following values: 
 
 
-#### - pFcb [in, out]
+### -param pFcb [in, out]
 
 A pointer to the FCB structure.
 

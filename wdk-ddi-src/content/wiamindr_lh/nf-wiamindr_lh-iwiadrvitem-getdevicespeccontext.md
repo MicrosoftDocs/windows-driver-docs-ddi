@@ -55,7 +55,7 @@ ppSpecContext [out, optional]
 
 - Points to a memory location that will receive the address of a device-specific context.
 
-#### - ppSpecContext [out, optional]
+### -param ppSpecContext [out, optional]
 
 Points to a memory location that will receive the address of a device-specific context.
 

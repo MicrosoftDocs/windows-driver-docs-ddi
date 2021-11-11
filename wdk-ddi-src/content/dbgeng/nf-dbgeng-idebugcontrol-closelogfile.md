@@ -47,8 +47,6 @@ api_name:
 
 The <b>CloseLogFile</b> method closes the currently-open log file.
 
-## -parameters
-
 ## -returns
 
 <table>

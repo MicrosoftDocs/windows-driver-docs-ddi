@@ -51,7 +51,7 @@ The <b>KsSetMediaType</b> method sets the media type for a data type handler.
 
 ### -param AmMediaType
 
-#### - MediaType [in]
+### -param MediaType [in]
 
 Pointer to a <b>CMediaType</b> object associated with the media type.
 

@@ -62,77 +62,77 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PC
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - CompleterAbort
+### -field CompleterAbort
 
 A single bit that indicates that a completer abort has occurred.
 
 
-#### - CompletionTimeout
+### -field CompletionTimeout
 
 A single bit that indicates that a completion timeout has occurred.
 
 
-#### - DataLinkProtocolError
+### -field DataLinkProtocolError
 
 A single bit that indicates that a data link protocol error has occurred.
 
 
-#### - ECRCError
+### -field ECRCError
 
 A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) error has occurred.
 
 
-#### - FlowControlProtocolError
+### -field FlowControlProtocolError
 
 A single bit that indicates that a flow control protocol error has occurred.
 
 
-#### - MalformedTLP
+### -field MalformedTLP
 
 A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
 
 
-#### - PoisonedTLP
+### -field PoisonedTLP
 
 A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
 
 
-#### - ReceiverOverflow
+### -field ReceiverOverflow
 
 A single bit that indicates that the receiver has overflowed.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
 
-#### - SurpriseDownError
+### -field SurpriseDownError
 
 A single bit that indicates that a surprise down error has occurred.
 
 
-#### - Undefined
+### -field Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
 
 
-#### - UnexpectedCompletion
+### -field UnexpectedCompletion
 
 A single bit that indicates that an unexpected completion has occurred.
 
 
-#### - UnsupportedRequestError
+### -field UnsupportedRequestError
 
 A single bit that indicates that an unsupported request error has occurred.
 

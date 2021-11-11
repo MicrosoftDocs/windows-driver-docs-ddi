@@ -60,4 +60,4 @@ api_name:
 ### -param Companion [out]
 
 
-
+## -returns

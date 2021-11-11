@@ -49,8 +49,6 @@ api_name:
 
 The <b>Flush</b> method returns after this interface's work item has been serviced.
 
-## -parameters
-
 ## -remarks
 
 If a driver calls the <b>Flush</b> method, the method does not return until a worker thread has removed the specified work item from the work-item queue and called the driver's <a href="/windows-hardware/drivers/ddi/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> callback function, and the <i>OnWorkItem</i> callback function has subsequently returned after processing the work item.

@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetStdBool</b> method returns a <b>bool</b> version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
-## -parameters
-
 ## -returns
 
 The <b>bool</b> version ofthe <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.

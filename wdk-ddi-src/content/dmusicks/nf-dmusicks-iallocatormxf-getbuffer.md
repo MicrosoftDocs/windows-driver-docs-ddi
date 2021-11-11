@@ -51,7 +51,7 @@ The <code>GetBuffer</code> method allocates a buffer for long MIDI events.
 
 ### -param ppBuffer
 
-#### - ppbBuffer [out]
+### -param ppbBuffer [out]
 
 Output pointer for the buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the buffer.
 

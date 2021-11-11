@@ -61,7 +61,7 @@ A handle to a context area that the miniport driver allocated in its
 
 ### -param PauseParameters
 
-#### - MiniportPauseParameters 
+### -param MiniportPauseParameters 
 [in]
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pause_parameters">

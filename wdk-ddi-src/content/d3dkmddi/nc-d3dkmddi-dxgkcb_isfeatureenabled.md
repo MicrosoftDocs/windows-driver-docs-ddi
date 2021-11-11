@@ -51,7 +51,7 @@ A kernel-mode display miniport driver calls **DXGKCB_ISFEATUREENABLED** to query
 
 ## -parameters
 
-### -param pArgs [in/out]
+### -param unnamedParam1 [in/out]
 
 Pointer to a [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) structure that contains information about the feature being queried.
 

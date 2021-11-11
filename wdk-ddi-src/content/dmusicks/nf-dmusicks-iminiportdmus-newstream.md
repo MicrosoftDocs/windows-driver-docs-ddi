@@ -119,7 +119,7 @@ Pointer to an <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-imaste
 Output pointer for the schedule-prefetch time. This parameter is a pointer to a caller-allocated ULONGLONG variable into which the method writes a time value that specifies how far ahead to query for events. The time is specified in 100-nanosecond units. The port driver is responsible for sequencing any events that exceed the amount of time that the miniport driver specifies here.
 
 
-#### - PinId [in]
+### -param PinId [in]
 
 Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 

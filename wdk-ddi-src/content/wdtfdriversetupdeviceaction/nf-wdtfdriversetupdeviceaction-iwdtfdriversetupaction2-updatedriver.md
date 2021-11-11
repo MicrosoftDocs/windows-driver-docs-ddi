@@ -70,7 +70,7 @@ The driver package.
 
 
 
-#### - pbRebootRequired [out, retval]
+### -param pbRebootRequired [out, retval]
 
 True if the device must reboot after the update; otherwise, false.
 

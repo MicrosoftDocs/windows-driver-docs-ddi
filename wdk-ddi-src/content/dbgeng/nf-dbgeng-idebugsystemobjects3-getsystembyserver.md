@@ -53,17 +53,17 @@ Gets the system for a server.
 
 ### -param Id
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to an output buffer. 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size of the buffer.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 A pointer to the name size.
 

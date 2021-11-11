@@ -51,7 +51,7 @@ The<i> MRxForceClosed</i> routine is called by <a href="/windows-hardware/driver
 
 ### -param SrvOpen
 
-#### - pSrvOpen [in]
+### -param pSrvOpen [in]
 
 A pointer to the SRV_OPEN structure.
 

@@ -73,7 +73,7 @@ Specifies the size, in bytes, required for the minidriver's device-specific cont
 Pointer to the minidriver-defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
 
-#### - FrameContextSize [in]
+### -param FrameContextSize [in]
 
 Specifies the size, in bytes, required for the minidriver's frame-specific context structure. Use <b>NULL</b> if not needed.
 

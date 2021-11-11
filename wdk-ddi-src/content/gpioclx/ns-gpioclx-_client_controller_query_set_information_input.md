@@ -94,7 +94,7 @@ A set of flag bits that supply additional information about the type of attribut
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 A union of members that contain input information for the various types of attribute requests. The <b>RequestType</b> member determines which member of this union is used. The following table shows the union member that corresponds to each valid <b>RequestType</b> value.
 

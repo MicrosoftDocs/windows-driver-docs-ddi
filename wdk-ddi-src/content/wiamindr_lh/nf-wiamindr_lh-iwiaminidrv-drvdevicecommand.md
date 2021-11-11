@@ -79,23 +79,23 @@ ppWiaDrvItem [out, optional]
 
 - Points to a memory location that can receive a pointer to an [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md). See Remarks.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Is currently unused.
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-#### - plCommand [in]
+### -param plCommand [in]
 
 Points to a WIA command GUID.
 
-#### - plDevErrVal [out]
+### -param plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-#### - ppWiaDrvItem [out, optional]
+### -param ppWiaDrvItem [out, optional]
 
 Points to a memory location that can receive a pointer to an [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md). See Remarks.
 

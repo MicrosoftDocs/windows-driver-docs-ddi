@@ -127,7 +127,7 @@ Indicates whether the Storport driver maps SRB data buffer addresses to system v
 
 Specifies the number of target peripherals that the adapter can control. For more information, see the **MaximumNumberOfTargets** member of [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 
-#### - (*AccessRanges)
+### -field (*AccessRanges)
 
 A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initializes this member. Miniport drivers that work with the Storport driver must not change this member. For more information, see the **AccessRanges** member of [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 

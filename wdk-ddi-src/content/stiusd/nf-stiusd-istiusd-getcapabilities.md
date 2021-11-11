@@ -51,7 +51,7 @@ A still image minidriver's <b>IStiUSD::GetCapabilities</b> method returns a stil
 
 ### -param pDevCaps
 
-#### - pUsdCaps
+### -param pUsdCaps
 
 Caller-supplied pointer to an empty <a href="/windows-hardware/drivers/ddi/stiusd/ns-stiusd-_sti_usd_caps">STI_USD_CAPS</a> structure.
 

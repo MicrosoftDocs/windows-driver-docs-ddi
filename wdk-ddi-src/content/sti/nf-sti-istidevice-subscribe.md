@@ -51,7 +51,7 @@ The<b> IStiDevice::Subscribe</b> method registers the caller to receive notifica
 
 ### -param lpSubsribe
 
-#### - lpSubscribe [in, out]
+### -param lpSubscribe [in, out]
 
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_stisubscribe">STISUBSCRIBE</a> structure containing subscription parameter values.
 

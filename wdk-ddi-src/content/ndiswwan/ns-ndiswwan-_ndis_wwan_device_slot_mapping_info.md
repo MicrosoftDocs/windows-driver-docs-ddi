@@ -175,7 +175,7 @@ The operation failed because the device does not support this OID.
 
 
 
-#### - DeviceSlotMappings
+### -field DeviceSlotMappings
 
 A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_slot_mapping_info">WWAN_DEVICE_SLOT_MAPPING_INFO</a> structure that represents the executor-to-slot mapping relationship of the MB device.
 

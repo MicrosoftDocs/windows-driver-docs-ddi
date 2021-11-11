@@ -47,8 +47,6 @@ api_name:
 
 The <code>TranslatedList</code> method returns the list of translated resources.
 
-## -parameters
-
 ## -returns
 
 <code>TranslatedList</code> returns a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.

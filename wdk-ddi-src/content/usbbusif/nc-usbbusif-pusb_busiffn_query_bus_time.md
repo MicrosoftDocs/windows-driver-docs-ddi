@@ -49,12 +49,12 @@ The <i>QueryBusTime</i> function gets the current 32-bit USB frame number.
 
 ## -parameters
 
-#### - BusContext [in]
+### -param BusContext [in]
 
 Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - CurrentFrame [out, optional]
+### -param CurrentFrame [out, optional]
 
 Receives the current USB frame number.
 

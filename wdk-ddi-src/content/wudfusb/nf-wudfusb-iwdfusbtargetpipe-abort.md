@@ -49,8 +49,6 @@ api_name:
 
 The <b>Abort</b> method aborts all pending transfers on a USB pipe.
 
-## -parameters
-
 ## -returns
 
 <b>Abort</b> returns one of the following values:

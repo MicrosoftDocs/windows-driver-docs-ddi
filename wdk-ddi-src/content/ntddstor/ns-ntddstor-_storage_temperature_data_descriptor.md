@@ -90,7 +90,7 @@ Reserved for future use.
 
 
 
-#### - TemperatureInfo[ANYSIZE_ARRAY]
+### -field TemperatureInfo[ANYSIZE_ARRAY]
 
 Device temperature data, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
 

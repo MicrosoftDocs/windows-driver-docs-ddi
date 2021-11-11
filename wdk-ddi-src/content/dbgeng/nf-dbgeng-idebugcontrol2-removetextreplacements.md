@@ -47,8 +47,6 @@ api_name:
 
 The <b>RemoveTextReplacements</b> method removes all user-named aliases.
 
-## -parameters
-
 ## -returns
 
 <table>

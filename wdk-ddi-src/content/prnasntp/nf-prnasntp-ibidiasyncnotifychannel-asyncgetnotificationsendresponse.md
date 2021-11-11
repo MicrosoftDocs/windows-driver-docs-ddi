@@ -51,11 +51,11 @@ Defines the **IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse** method
 
 ### -param EQUALNULL
 
-#### - pCookie
+### -param pCookie
 
 [in]
 
-#### - pObject
+### -param pObject
 
 [in]
 

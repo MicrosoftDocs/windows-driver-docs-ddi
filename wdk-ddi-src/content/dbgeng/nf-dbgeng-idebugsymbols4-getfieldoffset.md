@@ -60,12 +60,12 @@ Specifies the name of the member in the structure.  Submembers can be specified 
 
 ### -param Offset
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the name of the type of the structure.  This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
 
-#### - pOffset [out]
+### -param pOffset [out]
 
 Receives the offset of the member from the beginning of an instance of the structure.
 

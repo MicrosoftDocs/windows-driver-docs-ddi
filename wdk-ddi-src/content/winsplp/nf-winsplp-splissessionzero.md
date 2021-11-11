@@ -62,7 +62,7 @@ Is a handle to the printer.
 Pointer to a memory location that is set to <b>TRUE</b> if the SessionID for the session is zero; otherwise, this value is set to <b>FALSE</b>.
 
 
-#### - JobID [in]
+### -param JobID [in]
 
 Specifies the print job.
 

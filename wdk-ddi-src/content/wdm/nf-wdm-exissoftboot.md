@@ -47,8 +47,6 @@ api_name:
 
 Determines whether the system has gone through a soft restart.
 
-## -parameters
-
 ## -returns
 
 TRUE indicates a soft restart; FALSE otherwise.

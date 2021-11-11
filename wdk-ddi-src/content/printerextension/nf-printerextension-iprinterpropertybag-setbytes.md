@@ -61,7 +61,7 @@ The number of bytes to write.
 
 ### -param pValue
 
-#### - rgbValue [in]
+### -param rgbValue [in]
 
 The values to write.
 

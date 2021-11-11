@@ -60,7 +60,7 @@ The <b>PO_FX_COMPONENT</b> structure describes the power state attributes of a c
 A component ID that uniquely identifies this component with respect to the other components in the device. The driver should specify a nonzero value for this member if the power management framework (PoFx) requires a component ID to distinguish this component from other, similar components in the same device. This member is optional. If this member is not used, it must be set to all zeros.
 
 
-#### - Flags
+### -field Flags
 
 This member can be set to the following flag bit: <b>PO_FX_COMPONENT_FLAG_F0_ON_DX</b>. For more information, see Remarks.
 
@@ -77,12 +77,12 @@ The number of elements in the array that is pointed to by the <b>IdleStates</b> 
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a> array. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an Fx power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
 
 
-#### - ProviderCount
+### -field ProviderCount
 
 A value that specifies the number of components this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
 
 
-#### - Providers
+### -field Providers
 
 A pointer to an array of component indexes this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
 

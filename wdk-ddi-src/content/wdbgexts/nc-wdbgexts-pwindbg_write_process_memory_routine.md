@@ -64,7 +64,7 @@ Specifies the number of bytes that <b>WriteMemory</b> should write.
 Receives the actual number of bytes that <b>WriteMemory</b> transferred from the buffer. This parameter is optional; if it is <b>NULL</b>, it is ignored.
 
 
-#### - lpbuffer
+### -param lpbuffer
 
 Points to the buffer that contains the data to be written.
 

@@ -65,7 +65,7 @@ The length, in bytes, of the private data that is provided in the <i>pPrivateDat
 
 
 
-#### - pPrivateData
+### -param pPrivateData
 
 A pointer to private data that is sent back with the reject request.
 

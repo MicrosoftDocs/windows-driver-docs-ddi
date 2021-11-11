@@ -128,7 +128,7 @@ This number might be an ID value chosen to make locating the physical device eas
 Reserved bits.
 
 
-#### - Removeable
+### -field Removeable
 
 Specifies whether the device can be dynamically removed from its immediate parent. If <b>Removable</b> is set to <b>TRUE</b>, the device does not belong to the same physical object as its parent. 
 

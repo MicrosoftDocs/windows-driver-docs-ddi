@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetNumEndPoints</b> method retrieves the number of endpoints (pipes) on a USB interface.
 
-## -parameters
-
 ## -returns
 
 <b>GetNumEndPoints</b> returns the number of endpoints on the USB interface.

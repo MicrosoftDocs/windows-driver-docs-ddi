@@ -111,7 +111,7 @@ A pointer to a variable that receives a pointer to a WSK application-supplied co
      <i>AcceptSocketContext</i> parameter to <b>NULL</b>.
 
 
-#### - **AcceptSocketDispatch [out]
+### -param **AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
@@ -124,7 +124,7 @@ A pointer to a variable that receives a pointer to a constant
      <i>AcceptSocketDispatch</i> parameter to <b>NULL</b>.
 
 
-#### - AcceptSocketDispatch [out]
+### -param AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">

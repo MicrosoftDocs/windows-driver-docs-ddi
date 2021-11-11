@@ -107,7 +107,7 @@ If non-<b>NULL</b>, <b>ResponseLength</b> points to a memory location that the d
 If non-<b>NULL</b>, <b>ResponseEvent</b> points to a memory location that the driver fills in with the kernel event the bus driver should use to signal that it has completed sending the response packet. The bus driver only supplies this if the device driver did not supply an MDL or an ADDRESS_FIFO list in the original REQUEST_ALLOCATE_ADDRESS_RANGE request.
 
 
-#### - ResponseCode
+### -field ResponseCode
 
 Specifies the result of the driver's response to the request. The driver must report the response result by setting <b>ResponseCode</b> to a valid RCODE value.
 

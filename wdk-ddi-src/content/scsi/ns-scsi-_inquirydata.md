@@ -197,67 +197,67 @@ Reserved.
 
 
 
-#### - ANSIVersion
+### -field ANSIVersion
 
 Indicates the ANSI version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - AckReqQ
+### -field AckReqQ
 
 Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
 
 
-#### - Addr16
+### -field Addr16
 
 Indicates, when set to one, that the target supports 16-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
 
 
-#### - Addr32
+### -field Addr32
 
 Indicates, when set to one, that the target supports 32-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
 
 
-#### - ECMAVersion
+### -field ECMAVersion
 
 Indicates the ECMA version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - EnclosureServices
+### -field EnclosureServices
 
 Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
 
 
-#### - ISOVersion
+### -field ISOVersion
 
 Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - MediumChanger
+### -field MediumChanger
 
 Indicates, when set to one, that the device is embedded within or attached to a medium transport element. A value of zero indicates that the device is not embedded within or attached to a medium transport element.
 
 
-#### - MultiPort
+### -field MultiPort
 
 Indicates, when set to one, that the target device is a multiport (2 or more ports) device that conforms to the SCSI-3 multiport device requirements. A value of zero indicates that this device has a single port and does not implement the multiport requirements. 
 
 
-#### - ReservedBit2
+### -field ReservedBit2
 
 Reserved. 
 
 
-#### - ReservedBit3
+### -field ReservedBit3
 
 Reserved. 
 
 
-#### - TerminateTask
+### -field TerminateTask
 
 Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
 
 
-#### - TransferDisable
+### -field TransferDisable
 
 Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and TARGET TRANSFER DISABLE messages. A value of zero indicates that the device does not support one or both of these messages.  For more information about the CONTINUE TASK and TARGET TRANSFER DISABLE messages, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification.
 

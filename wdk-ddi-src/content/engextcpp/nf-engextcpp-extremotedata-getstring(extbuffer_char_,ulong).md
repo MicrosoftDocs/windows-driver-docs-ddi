@@ -64,12 +64,12 @@ Receives the null-terminated string read from the target.  The type of <i>Buffer
 Specifies the maximum number of characters to read from the target.
 
 
-#### - BufferChars [in]
+### -param BufferChars [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - MustFit [in]
+### -param MustFit [in]
 
 Specifies what happens if the string is larger than <i>BufferChars</i> characters.  If <i>MustFit</i> is <code>true</code> and the string is larger than <i>BufferChars</i> characters, an <b>ExtRemoteException</b> will be thrown.  If <i>MustFit</i> is <code>false</code> and the string is larger than <i>BufferChars</i> characters, the string will be truncated and null-terminated to fit inside the <i>Buffer</i> buffer.
 

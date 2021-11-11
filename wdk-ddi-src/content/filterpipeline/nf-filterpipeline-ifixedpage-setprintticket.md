@@ -51,7 +51,7 @@ The <b>SetPrintTicket</b> method associates a print ticket with the page.
 
 ### -param ppPrintTicket
 
-#### - pPrintTicket [in]
+### -param pPrintTicket [in]
 
 The print ticket object.
 

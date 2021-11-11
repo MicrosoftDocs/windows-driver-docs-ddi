@@ -49,12 +49,11 @@ The client driver's implementation to reset the function controller to its initi
 
 ## -parameters
 
-#### - UfxDevice [in]
+### -param unnamedParam1 [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The handle to a USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
-#### - UfxHardwareFailureContext [in, optional]
+### -param unnamedParam2 [in, optional]
 
 A pointer to a variable-length UFX_HARDWARE_FAILURE_CONTEXT structure allocated by the client driver.
 

@@ -67,7 +67,7 @@ A pointer to a buffer into which an array of ULONG64 values is to be written.
 Specifies the number of ULONG64 values to write to the register.
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 

@@ -53,12 +53,12 @@ HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE
 
 ### -param unnamedParam1
 
-#### - Context
+### -param Context
 
  This is the same  context value that was specified previously in the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
 
 
-#### - pHDAudioCodecTransfer
+### -param pHDAudioCodecTransfer
 
 A pointer to the codecTransfer array element that contains the codec command and the response that triggered the callback.
 

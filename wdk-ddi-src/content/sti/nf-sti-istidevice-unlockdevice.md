@@ -47,8 +47,6 @@ api_name:
 
 The <b>IStiDevice::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-lockdevice">IStiDevice::LockDevice</a>.
 
-## -parameters
-
 ## -returns
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.

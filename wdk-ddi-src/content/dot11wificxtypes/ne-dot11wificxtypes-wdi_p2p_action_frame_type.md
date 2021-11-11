@@ -76,10 +76,10 @@ Wi-Fi Direct Provision Discovery Response.
 
 ## -remarks
 
-The **WDI_P2P_ACTION_FRAME_TYPE** enum is a value in the [**WDI_TLV_P2P_SEND_ACTION_REQUEST_FRAME_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-send-action-request-frame-parameters) and [**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters.md) TLVs.
+The **WDI_P2P_ACTION_FRAME_TYPE** enum is a value in the [**WDI_TLV_P2P_SEND_ACTION_REQUEST_FRAME_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-send-action-request-frame-parameters) and [**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters) TLVs.
 
 ## -see-also
 
 [**WDI_TLV_P2P_SEND_ACTION_REQUEST_FRAME_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-send-action-request-frame-parameters)
 
-[**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters.md)
+[**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters)

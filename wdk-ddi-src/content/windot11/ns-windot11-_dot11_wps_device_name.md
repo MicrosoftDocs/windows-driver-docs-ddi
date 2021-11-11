@@ -63,7 +63,7 @@ The length, in bytes, of the device name.
 
 ### -field ucDeviceName
 
-#### - ucDeviceName[DOT11_WPS_DEVICE_NAME_MAX_LENGTH]
+### -field ucDeviceName[DOT11_WPS_DEVICE_NAME_MAX_LENGTH]
 
 A UTF-8–encoded descriptive name of the device.
 

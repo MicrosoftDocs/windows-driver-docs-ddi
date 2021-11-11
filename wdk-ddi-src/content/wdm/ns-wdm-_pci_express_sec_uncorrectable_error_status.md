@@ -63,77 +63,77 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+### -field DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that the delayed transaction discard timer has expired.
 
 
-#### - InternalBridgeError
+### -field InternalBridgeError
 
 A single bit that indicates that an internal bridge error has occurred.
 
 
-#### - MasterAbortOnSplitCompletion
+### -field MasterAbortOnSplitCompletion
 
 A single bit that indicates that a master abort on split completion has occurred.
 
 
-#### - PERRAsserted
+### -field PERRAsserted
 
 A single bit that indicates that a PERR# assertion was detected.
 
 
-#### - ReceivedMasterAbort
+### -field ReceivedMasterAbort
 
 A single bit that indicates that a master abort has been received.
 
 
-#### - ReceivedTargetAbort
+### -field ReceivedTargetAbort
 
 A single bit that indicates that a target abort has been received.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - RsvdZ
+### -field RsvdZ
 
 Reserved for system use.
 
 
-#### - SERRAsserted
+### -field SERRAsserted
 
 A single bit that indicates that a SERR# assertion was detected.
 
 
-#### - TargetAbortOnSplitCompletion
+### -field TargetAbortOnSplitCompletion
 
 A single bit that indicates that a target abort on split completion has occurred.
 
 
-#### - UncorrectableAddressError
+### -field UncorrectableAddressError
 
 A single bit that indicates that an uncorrectable address error has occurred.
 
 
-#### - UncorrectableAttributeError
+### -field UncorrectableAttributeError
 
 A single bit that indicates that an uncorrectable attribute error has occurred.
 
 
-#### - UncorrectableDataError
+### -field UncorrectableDataError
 
 A single bit that indicates that an uncorrectable data error has occurred.
 
 
-#### - UncorrectableSplitCompletion
+### -field UncorrectableSplitCompletion
 
 A single bit that indicates that an uncorrectable split completion message data error has occurred.
 
 
-#### - UnexpectedSplitCompletionError
+### -field UnexpectedSplitCompletionError
 
 A single bit that indicates that an unexpected split completion error has occurred.
 

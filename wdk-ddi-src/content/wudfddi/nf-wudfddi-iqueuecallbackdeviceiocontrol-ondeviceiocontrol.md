@@ -70,12 +70,12 @@ The driver-defined or system-defined I/O control code (IOCTL) that identifies th
 
 ### -param OutputBufferSizeInBytes
 
-#### - InBufferSize [in]
+### -param InBufferSize [in]
 
 The size, in bytes, of the input buffer for the request.
 
 
-#### - OutBufferSize [in]
+### -param OutBufferSize [in]
 
 The size, in bytes, of the output buffer for the request.
 

@@ -134,7 +134,7 @@ An array containing channel descriptions for the PHY type specified in the
      <b>dot11PhyType</b> member.
 
 
-#### - uPhyId
+### -field uPhyId
 
 The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
        index within the list of supported PHYs returned by the driver through a query of

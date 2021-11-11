@@ -103,7 +103,7 @@ Specifies various flags for the I/O. See the following table for the values used
 Indicates the processor mode to place in the IRP if one is needs to be generated. This variable also determines if a fast I/O call can be performed. If the requester mode is not kernel mode, but the previous mode is, then fast I/O cannot be used.
 
 
-#### - CompletionInvocationFlags [in, optional]
+### -param CompletionInvocationFlags [in, optional]
 
 Specifies invocation flags specifying when the completion routine is invoked. See following table for the values used.
 

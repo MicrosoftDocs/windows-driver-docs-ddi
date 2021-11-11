@@ -45,8 +45,6 @@ api_name:
 
 Retrieves a file handle to an allocator.
 
-## -parameters
-
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
