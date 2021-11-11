@@ -91,4 +91,4 @@ For more information, see <a href="/windows-hardware/drivers/hid/hid-collections
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff539824(v=vs.85)">HidP_UsageAndPageListDifference</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_usageandpagelistdifference">HidP_UsageAndPageListDifference</a>
