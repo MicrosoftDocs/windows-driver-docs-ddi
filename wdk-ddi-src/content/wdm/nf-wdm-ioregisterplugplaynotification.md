@@ -138,7 +138,7 @@ The PnP manager does not take out a reference on the file object when a driver r
 
 Typically, Kernel-Mode Driver Framework (KMDF) drivers should call **IoRegisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoInit](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) callback function, and should call **IoUnregisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoCleanup](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) callback function. These drivers should **not** call **IoRegisterPlugPlayNotification** from their [EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function; otherwise, the PnP notification callback routine might be called before the driver stack is started by PnP, in which case the driver will not be prepared to handle the notification.
 
-For more information, see [Using PnP Notification](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md).
+For more information, see [Using PnP Notification](/windows-hardware/drivers/kernel/using-pnp-notification).
 
 ### Examples
 
