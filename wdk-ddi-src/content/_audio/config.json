@@ -8,6 +8,7 @@
     "acxevents.h",
     "acxpin.h",
     "acxstreams.h",
+    "acxtargets.h",
     "bthhfpddi.h",
     "dmusicks.h",
     "dmusprop.h",

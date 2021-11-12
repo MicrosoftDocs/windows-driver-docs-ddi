@@ -2,7 +2,7 @@
 UID: TP:audio
 title: Audio overview
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
-ms.date: 11/09/2021
+ms.date: 11/12/2021
 description: This topic describes the headers that are used to create Microsoft Windows WDM and ACX audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 keywords: ["Audio"]
 ms.keywords: 
@@ -44,6 +44,8 @@ To develop audio class extension (ACX) drivers, use these headers:
 * [acxevents.h](../acxevents/index.md)
 * [acxpin.h](../acxpin/index.md)
 * [acxstreams.h](../acxstreams/index.md)
+* [acxtargets.h](../acxstreams/index.md)
+
 
 
 For ACX audio programming information, see  [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview).
