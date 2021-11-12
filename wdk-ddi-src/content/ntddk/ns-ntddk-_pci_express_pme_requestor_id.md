@@ -62,17 +62,17 @@ The PCI_EXPRESS_PME_REQUESTOR_ID structure describes the identifier of the reque
 A USHORT representation of the contents of the PCI_EXPRESS_PME_REQUESTOR_ID structure.
 
 
-#### - BusNumber
+### -field BusNumber
 
 The bus number of the requester.
 
 
-#### - DeviceNumber
+### -field DeviceNumber
 
 The device number of the requester.
 
 
-#### - FunctionNumber
+### -field FunctionNumber
 
 The function number of the requester.
 

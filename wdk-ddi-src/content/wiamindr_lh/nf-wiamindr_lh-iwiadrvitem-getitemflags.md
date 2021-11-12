@@ -55,7 +55,7 @@ plFlags [out]
 
 ### -param __MIDL__IWiaDrvItem0000
 
-#### - plFlags [out]
+### -param plFlags [out]
 
 Points to a memory location that will receive the item flags.
 

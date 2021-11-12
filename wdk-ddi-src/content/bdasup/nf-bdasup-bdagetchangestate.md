@@ -86,7 +86,7 @@ BDA topology changes are pending.
  
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to get the current change state. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-get-change-state">KSMETHOD_BDA_GET_CHANGE_STATE</a> request.
 

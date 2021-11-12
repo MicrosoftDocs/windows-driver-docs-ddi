@@ -67,7 +67,7 @@ The cookie we give back to the caller for future use of the API.
 
 
 
-#### - Client [out]
+### -param Client [out]
 
 A pointer to the client.
 

@@ -63,7 +63,7 @@ Points to the IRP for the request to retrieve pin information. The BDA minidrive
 Points to a variable that receives either the identifier or type of a pin. 
 
 
-#### - pKSProperty [in]
+### -param pKSProperty [in]
 
 Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 

@@ -43,8 +43,6 @@ dev_langs:
 
 The standard COM Release method.
 
-## -parameters
-
 ## -returns
 
 ## -remarks

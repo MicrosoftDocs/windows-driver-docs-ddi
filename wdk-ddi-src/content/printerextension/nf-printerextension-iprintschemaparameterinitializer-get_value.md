@@ -51,8 +51,6 @@ The **Value** (get_Value) property gets the current value of the [IPrintSchemaPa
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 The **Value** (get_Value) property returns the current value of the **IPrintSchemaParameterInitializer** object in the form of a Variant variable. Here's how the value and type are stored in the Variant for the different parameter data types:

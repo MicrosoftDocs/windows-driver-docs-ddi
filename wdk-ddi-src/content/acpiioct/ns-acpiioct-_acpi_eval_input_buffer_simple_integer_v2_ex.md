@@ -66,7 +66,7 @@ Defines the <b>ULONG</b> member <b>Signature</b>.
 Defines the <b>ULONG64</b> member <b>IntegerArgument</b>.
 
 
-#### - MethodName[256]
+### -field MethodName[256]
 
 NULL terminated name string.
 

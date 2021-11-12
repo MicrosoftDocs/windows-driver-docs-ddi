@@ -46,7 +46,7 @@ api_name:
 
 The **WRITE_REGISTER_ULONG64** routine dereferences the supplied pointer, inserts a memory barrier, and writes a ULONG64 value to the specified address.
 
-## -parameters
+### -parameters
 
 ### -param Register [in]
 

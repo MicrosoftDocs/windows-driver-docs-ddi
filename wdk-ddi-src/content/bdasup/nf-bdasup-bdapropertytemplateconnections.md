@@ -63,7 +63,7 @@ Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPR
 Points to an array that receives the list of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a> structures that describe the connections in a template topology. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to retrieve the list of connections. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-template-connections">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a> request.
 

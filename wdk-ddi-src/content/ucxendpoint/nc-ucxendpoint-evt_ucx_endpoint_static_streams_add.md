@@ -63,7 +63,7 @@ A pointer to an opaque structure containing
         initialization information.  This structure is managed by UCX.
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

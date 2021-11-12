@@ -116,7 +116,7 @@ The status of the completion of the command.
 
 
 
-#### - ResponseData
+### -field ResponseData
 
 The response from the completion of the device service command.
 

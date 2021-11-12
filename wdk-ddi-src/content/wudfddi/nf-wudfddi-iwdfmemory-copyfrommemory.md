@@ -55,12 +55,12 @@ The <b>CopyFromMemory</b> method safely copies data from the specified source bu
 
 ### -param SourceOffset
 
-#### - pSource [in]
+### -param pSource [in]
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for the memory object that is the source of the copy operation.
 
 
-#### - pSourceOffset [in, optional]
+### -param pSourceOffset [in, optional]
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the information that is copied from a memory block. This parameter is optional. The driver can pass <b>NULL</b> if the entire source buffer is copied. 
 

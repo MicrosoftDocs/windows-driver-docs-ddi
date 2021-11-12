@@ -47,7 +47,7 @@ api_name:
 
 The **READ_REGISTER_BUFFER_UCHAR** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of bytes from the specified register address into a buffer.
 
-## -parameters
+### -parameters
 
 ### -param Register [in]
 

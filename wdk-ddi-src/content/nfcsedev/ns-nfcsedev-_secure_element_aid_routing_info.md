@@ -70,7 +70,7 @@ Length of applet ID buffer.
 
 
 
-#### - pbAid[16]
+### -field pbAid[16]
 
 Buffer holding ISO 7816 AID.
 

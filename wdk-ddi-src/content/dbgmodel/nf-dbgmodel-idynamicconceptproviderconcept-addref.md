@@ -47,8 +47,6 @@ Increments the reference count for an interface on an object. This method should
 
 For more information, see [IUnknown::AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](/cpp/atl/introduction-to-com).
 
-## -parameters
-
 ## -returns
 
 This method returns ULONG.

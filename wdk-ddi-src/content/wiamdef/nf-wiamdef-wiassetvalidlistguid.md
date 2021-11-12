@@ -66,12 +66,12 @@ Specifies the number of items in the <i>pgValues</i> array.
 
 ### -param pguidValues
 
-#### - gNom
+### -param gNom
 
 Specifies the property's nominal value.
 
 
-#### - pgValues [in]
+### -param pgValues [in]
 
 Pointer to the first element of an array of valid property values.
 

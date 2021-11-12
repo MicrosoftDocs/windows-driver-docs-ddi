@@ -78,7 +78,7 @@ All connected WFD device can do PSM.
 Other reason.
 
 
-#### - WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP
+### -field WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP
 
 AP is not compliant. As to be in CAM.
 

@@ -59,12 +59,12 @@ The <b>MP_STORAGE_DIAGNOSTIC_LEVEL</b> enumeration allows the caller to control 
 
 ### -field MpStorageDiagnosticLevelMax
 
-#### - StorageDiagnosticLevelDefault
+### -field StorageDiagnosticLevelDefault
 
 Specifies the default diagnostic level.
 
 
-#### - StorageDiagnosticLevelMax
+### -field StorageDiagnosticLevelMax
 
 Specifies the max diagnostic level.
 

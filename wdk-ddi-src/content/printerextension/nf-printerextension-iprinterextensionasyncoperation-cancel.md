@@ -47,8 +47,6 @@ api_name:
 
 Cancels the asynchronous operation.
 
-## -parameters
-
 ## -returns
 
 This method returns an <b>HRESULT</b> value.

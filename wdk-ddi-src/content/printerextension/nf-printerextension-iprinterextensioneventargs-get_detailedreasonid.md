@@ -49,8 +49,6 @@ Gets a more detailed activation reason than what can be retrieved from  <a href=
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86EDAD31}, which indicates that the printer extension was activated as  a result of a Bidi event.

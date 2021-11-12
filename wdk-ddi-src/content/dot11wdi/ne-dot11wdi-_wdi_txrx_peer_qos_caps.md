@@ -65,7 +65,7 @@ Specifies that QoS was negotiated for this peer during association.
 
 ### -field WDI_TXRX_PeerCfgUapsdTids
 
-#### - WDI_TXRX_PeerCfgQosUapsdTids
+### -field WDI_TXRX_PeerCfgQosUapsdTids
 
 Reserved.
 

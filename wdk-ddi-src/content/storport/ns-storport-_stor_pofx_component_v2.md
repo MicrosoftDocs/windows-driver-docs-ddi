@@ -87,7 +87,7 @@ The deepest F-State that the component can be in where the miniport can power up
 
 An array of [STOR_POFX_COMPONENT_IDLE_STATE](ns-storport-_stor_pofx_component_idle_state.md) structures. The length of this array is specified by the **FStateCount** member. Each array element specifies the attributes of an F-state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on. When more than one idle state structure is required, the additional structures are allocated at the end of the **STOR_ POFX_COMPONENT_V2** structure and the **FStateCount** is set to 1, which is the value of ANYSIZE_ARRAY, plus the count of the additional structures.
 
-#### - DeepestWakeableIdleState
+### -field DeepestWakeableIdleState
 
 The index of the deepest F-state from which the component can wake. Specify 0 for F0, 1 for F1, and so on. This index must be less than **FStateCount**.
 

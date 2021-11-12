@@ -70,7 +70,7 @@ The index that identifies which processor performance feedback counter to read. 
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 Either an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value. For more information, see Remarks.
 

@@ -64,12 +64,12 @@ The <b>PEP_ACPI_OBJECT_NAME</b> union contains the four-character name of an ACP
 
 
 
-#### - ObjectName
+### -field ObjectName
 
 The object name stored as an array of four 8-bit unsigned characters.
 
 
-#### - ObjectNameAsUlong
+### -field ObjectNameAsUlong
 
 The object name stored as a single 32-bit unsigned integer value.
 

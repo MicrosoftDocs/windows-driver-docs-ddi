@@ -68,7 +68,7 @@ The index of the P-state set to which to assign the new performance level. If N 
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 A value that indicates the new performance level that has been selected for this P-state set.
 

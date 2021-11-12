@@ -70,7 +70,7 @@ This parameter specifies how many bytes each entry in the mapping table requires
 Additional space can be used by the minidriver as context information.
 
 
-#### - MaxMappingByteCount [in]
+### -param MaxMappingByteCount [in]
 
 This parameter specifies the maximum number of bytes that the device can handle for a single mapping. Allows AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. <i>Breaks are not guaranteed to occur on page boundaries.</i>
 

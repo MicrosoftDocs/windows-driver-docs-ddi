@@ -54,8 +54,6 @@ See [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md) for parameter and return
         HidP_SetUsages(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle)
 ```
 
-## -parameters
-
 ## -see-also
 
 [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md)

@@ -63,7 +63,7 @@ Caller-supplied ACCESS_MASK structure containing the access granted to the user 
 Caller-supplied pointer to a location to receive a function-supplied port handle.
 
 
-#### - hMonitor
+### -param hMonitor
 
 Caller supplied monitor instance handle. This is the handle returned by the monitor's <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a> function. (This parameter does not exist if the print monitor supports <b>InitializePrintMonitor</b> instead of <b>InitializePrintMonitor2</b>.)
 

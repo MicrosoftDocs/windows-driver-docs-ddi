@@ -47,8 +47,6 @@ api_name:
 
 The <code>StartOperation</code> method starts the operation of a filter. The filter reads, processes, and writes data in this method.
 
-## -parameters
-
 ## -returns
 
 <code>StartOperation</code> returns an <b>HRESULT</b> value.

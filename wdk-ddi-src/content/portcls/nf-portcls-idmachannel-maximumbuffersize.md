@@ -46,8 +46,6 @@ product:
 
 The MaximumBufferSize method returns the size in bytes of the largest buffer that this DMA-channel object is configured to support.
 
-## -parameters
-
 ## -returns
 
 This method returns ULONG which is the size in bytes of the largest buffer that this DMA channel supports.

@@ -51,7 +51,7 @@ A still image minidriver's <b>IStiUSD::GetNotificationData</b> method returns a 
 
 ### -param lpNotify
 
-#### - pBuffer
+### -param pBuffer
 
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify">STINOTIFY</a> structure to receive event information.
 

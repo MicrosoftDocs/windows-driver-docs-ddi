@@ -58,11 +58,11 @@ The **PEP_PPM_LPI_COMPLETE** structure describes all the processor performance c
 
 ### -field CoordinatedStates
 
-#### - Count
+### -field Count
 
 [in] The number of processor performance feedback counters supported by the PEP. The PEP previously supplied this count in response to a [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](../pepfx/ns-pepfx-_pep_ppm_query_capabilities.md) notification.
 
-#### - Counters
+### -field Counters
 
 [out] The first element in an array of [PEP_PROCESSOR_FEEDBACK_COUNTER](../pepfx/ns-pepfx-_pep_processor_feedback_counter.md) structures. If this array contains more than one element, the additional elements immediately follow the end of the **PEP_PPM_QUERY_FEEDBACK_COUNTERS** structure. The **Count** member specifies the number of elements in this array. For more information, see Remarks.
 

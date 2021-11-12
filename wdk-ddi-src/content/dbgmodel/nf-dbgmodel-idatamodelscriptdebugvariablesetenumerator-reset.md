@@ -45,8 +45,6 @@ api_name:
 
 The Reset method resets the position of the enumerator to where it was immediately after creation -- that is, before the first element of the set.
 
-## -parameters
-
 ## -returns
 
 This method returns HRESULT which indicates success or failure.

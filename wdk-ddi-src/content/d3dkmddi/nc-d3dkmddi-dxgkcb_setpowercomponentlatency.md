@@ -58,7 +58,7 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 The power component index specified by [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md).**pInputData** in a call to the [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
 
-### -param Latency
+### -param Latency [in]
 
 The *latency tolerance* — the maximum time, in units of 100 nanoseconds — that the display miniport driver should take to awaken a power component from an idle state. The [Power Management Framework](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) uses this information to select an appropriate idle state for the component that does not violate the requested latency tolerance. The latency tolerance specified by **Latency** remains in effect until the driver calls this function again to update it. See Remarks.
 

@@ -50,8 +50,6 @@ The
   <b>NdisMaxGroupCount</b> function returns the maximum number of processor groups in the local computer
   system.
 
-## -parameters
-
 ## -returns
 
 <b>NdisMaxGroupCount</b> returns a USHORT value for the maximum number of processor groups that are

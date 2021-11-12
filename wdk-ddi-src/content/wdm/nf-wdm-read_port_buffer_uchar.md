@@ -48,7 +48,7 @@ api_name:
 
 The <b>READ_PORT_BUFFER_UCHAR</b> routine reads a number of bytes from the specified port address into a buffer.
 
-## -parameters
+### -parameters
 
 ### -param Port [in]
 

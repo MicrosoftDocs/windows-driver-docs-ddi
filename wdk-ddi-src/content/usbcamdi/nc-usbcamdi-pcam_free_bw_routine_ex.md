@@ -59,7 +59,7 @@ Pointer to the camera minidriver's device context.
 
 ### -param STreamNumber
 
-#### - StreamNumber
+### -param StreamNumber
 
 Indicates stream number.
 

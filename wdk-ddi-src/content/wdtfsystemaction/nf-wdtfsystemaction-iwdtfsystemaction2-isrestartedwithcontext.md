@@ -57,7 +57,7 @@ Gets a value that indicates whether the test script was restarted for a specific
 True if the script was restarted with the context; otherwise, false.
 
 
-#### - psContext [in]
+### -param psContext [in]
 
 The context name.
 

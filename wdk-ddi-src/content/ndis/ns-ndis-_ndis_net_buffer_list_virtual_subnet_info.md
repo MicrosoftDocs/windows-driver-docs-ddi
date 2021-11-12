@@ -69,7 +69,7 @@ A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNE
       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</b>. Ethernet
       miniport drivers use 

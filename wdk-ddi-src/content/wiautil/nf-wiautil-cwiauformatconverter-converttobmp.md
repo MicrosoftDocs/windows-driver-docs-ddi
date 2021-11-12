@@ -71,7 +71,7 @@ Pointer to a <a href="/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_imag
 
 ### -param iSkipAmt
 
-#### - iSkipAmt = SKIP_OFF
+### -param iSkipAmt = SKIP_OFF
 
 <i>Optional</i>. Specifies the amount of the BMP header to skip. The default value of this parameter denotes that none of the BMP header is skipped.
 

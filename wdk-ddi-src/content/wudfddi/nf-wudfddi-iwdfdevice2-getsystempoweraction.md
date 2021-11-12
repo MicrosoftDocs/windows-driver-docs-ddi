@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetSystemPowerAction</b> method returns the <a href="/windows-hardware/drivers/kernel/system-power-actions">system power action</a>, if any, that is currently occurring for the computer.
 
-## -parameters
-
 ## -returns
 
 <b>GetSystemPowerAction</b> returns a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-ppower_action">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="/windows-hardware/drivers/kernel/system-power-actions">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section.

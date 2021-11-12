@@ -77,7 +77,7 @@ Pointer to the minidriver-supplied context buffer attached to the frame when the
 Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requested frame was attached.
 
 
-#### - Size [in, optional]
+### -param Size [in, optional]
 
 Specifies the size in bytes of <i>Data</i> as originally specified in <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 

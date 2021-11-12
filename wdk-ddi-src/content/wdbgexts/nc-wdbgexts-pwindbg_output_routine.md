@@ -55,12 +55,12 @@ The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatte
 
 ### -param unnamedParam1
 
-#### - [arguments] [in]
+### -param [arguments] [in]
 
 Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a>. 
 
 
-#### - format [in]
+### -param format [in]
 
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 

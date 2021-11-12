@@ -73,12 +73,12 @@ A pointer to the callback function that is called to deliver the response notifi
 
 ### -param ppIAsynchNotification
 
-#### - eNotificationFilter [in]
+### -param eNotificationFilter [in]
 
 A filter for the session or user that receives the notifications.
 
 
-#### - ppIAsyncNotification [out]
+### -param ppIAsyncNotification [out]
 
 A pointer to a variable that receives the address of the interface object that represents the notification channel.
 

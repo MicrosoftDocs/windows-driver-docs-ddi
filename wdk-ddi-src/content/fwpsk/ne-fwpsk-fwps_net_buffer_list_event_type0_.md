@@ -184,7 +184,7 @@ The NET_BUFFER_LIST fragment reassembly is complete.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.1.</div>
 <div> </div>
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS
+### -field FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS
 
 The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 

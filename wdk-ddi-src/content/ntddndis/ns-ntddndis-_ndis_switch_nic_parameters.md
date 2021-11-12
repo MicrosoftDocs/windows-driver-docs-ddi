@@ -201,7 +201,7 @@ For more information, see the Remarks section.
 
 
 
-#### - VMFriendlyName
+### -field VMFriendlyName
 
 An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
 

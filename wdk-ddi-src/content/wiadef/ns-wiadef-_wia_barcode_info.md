@@ -85,12 +85,12 @@ The number of text characters in the character string containing the decoded bar
 Placeholder for the character string containing the decoded barcode text (double byte characters, NULL terminated).
 
 
-#### - Xoffset
+### -field Xoffset
 
 The horizontal coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
 
 
-#### - Yoffset
+### -field Yoffset
 
 The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
 

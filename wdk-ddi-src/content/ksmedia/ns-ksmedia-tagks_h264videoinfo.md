@@ -495,7 +495,7 @@ Defines the bitmap that specifies the rate control modes.
 
 
 
-#### - bDynamicResolutionScaling
+### -field bDynamicResolutionScaling
 
 Defines the bitmap that specifies the synchronization frame types.
 
@@ -528,82 +528,82 @@ Defines the bitmap that specifies the synchronization frame types.
  
 
 
-#### - dwMaxMBperSecFourResolutionsFullScalability
+### -field dwMaxMBperSecFourResolutionsFullScalability
 
 Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of four different resolutions.
 
 
-#### - dwMaxMBperSecFourResolutionsNoScalability
+### -field dwMaxMBperSecFourResolutionsNoScalability
 
 Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of four different resolutions.
 
 
-#### - dwMaxMBperSecFourResolutionsTemporalQualityScalability
+### -field dwMaxMBperSecFourResolutionsTemporalQualityScalability
 
 Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of four different resolutions.
 
 
-#### - dwMaxMBperSecFourResolutionsTemporalScalability
+### -field dwMaxMBperSecFourResolutionsTemporalScalability
 
 Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of four different resolutions.
 
 
-#### - dwMaxMBperSecOneResolutionFullScalability
+### -field dwMaxMBperSecOneResolutionFullScalability
 
 Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers have the same resolution.
 
 
-#### - dwMaxMBperSecOneResolutionNoScalability
+### -field dwMaxMBperSecOneResolutionNoScalability
 
 Specifies the maximum macroblock processing rate allowed for non-scalable Advanced Video Coding (AVC) streams, summing up across all layers when all layers have the same resolution.
 
 
-#### - dwMaxMBperSecOneResolutionTemporalQualityScalability
+### -field dwMaxMBperSecOneResolutionTemporalQualityScalability
 
 Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers have the same resolution.
 
 
-#### - dwMaxMBperSecOneResolutionTemporalScalability
+### -field dwMaxMBperSecOneResolutionTemporalScalability
 
 Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers have the same resolution.
 
 
-#### - dwMaxMBperSecThreeResolutionsFullScalability
+### -field dwMaxMBperSecThreeResolutionsFullScalability
 
 Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of three different resolutions.
 
 
-#### - dwMaxMBperSecThreeResolutionsNoScalability
+### -field dwMaxMBperSecThreeResolutionsNoScalability
 
 Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of three different resolutions.
 
 
-#### - dwMaxMBperSecThreeResolutionsTemporalQualityScalablity
+### -field dwMaxMBperSecThreeResolutionsTemporalQualityScalablity
 
 Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of three different resolutions.
 
 
-#### - dwMaxMBperSecThreeResolutionsTemporalScalability
+### -field dwMaxMBperSecThreeResolutionsTemporalScalability
 
 Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of three different resolutions.
 
 
-#### - dwMaxMBperSecTwoResolutionsFullScalability
+### -field dwMaxMBperSecTwoResolutionsFullScalability
 
 Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of two different resolutions.
 
 
-#### - dwMaxMBperSecTwoResolutionsNoScalability
+### -field dwMaxMBperSecTwoResolutionsNoScalability
 
 Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of two different resolutions.
 
 
-#### - dwMaxMBperSecTwoResolutionsTemporalQualityScalability
+### -field dwMaxMBperSecTwoResolutionsTemporalQualityScalability
 
 Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of two different resolutions.
 
 
-#### - dwMaxMBperSecTwoResolutionsTemporalScalablility
+### -field dwMaxMBperSecTwoResolutionsTemporalScalablility
 
 Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of two different resolutions.
 

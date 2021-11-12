@@ -88,7 +88,7 @@ Specifies the size in bytes of the device output buffer.
 Points to the place in which to put the number of bytes returned.
 
 
-#### - RequesorMode [in]
+### -param RequesorMode [in]
 
 Indicates the processor mode to place in the IRP if one needs to be generated.
 

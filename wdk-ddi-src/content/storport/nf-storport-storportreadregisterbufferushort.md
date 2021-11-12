@@ -70,7 +70,7 @@ A pointer to the buffer that receives the data that is read.
 
 The number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
 
-#### - Register [in]
+### -param Register [in]
 
 ## -remarks
 

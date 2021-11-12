@@ -92,7 +92,7 @@ See the structure <a href="/windows-hardware/drivers/ddi/ntdddisk/ne-ntdddisk-_d
 
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 Contains the quantity, in bytes, of retrieved detect information.
 

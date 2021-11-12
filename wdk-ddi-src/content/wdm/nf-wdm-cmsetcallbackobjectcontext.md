@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **CmSetCallbackObjectContext** routine associates specified context information with a specified registry object.
+The **CmSetCallbackObjectContext** routine associates new context information with a specified registry object and callback routine.
 
 ## -parameters
 

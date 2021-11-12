@@ -72,7 +72,7 @@ A pointer to a variable that receives a value that specifies the data type of th
 A pointer to a variable that receives the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter. 
 
 
-#### - pbData [out]
+### -param pbData [out]
 
 A pointer to a callee-allocated buffer containing the requested data. Upon completion of this method, the caller does not need to release this buffer.
 

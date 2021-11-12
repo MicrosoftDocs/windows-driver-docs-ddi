@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetNumUnnamedArgs</b> method returns the number of unnamed arguments in the command line used to invoke the current extension command.
 
-## -parameters
-
 ## -returns
 
 <b>GetNumUnnamedArgs</b> returns the number of unnamed arguments.

@@ -48,7 +48,7 @@ api_name:
 
 The <b>WRITE_PORT_BUFFER_UCHAR</b> routine writes a number of bytes from a buffer to the specified port.
 
-## -parameters
+### -parameters
 
 ### -param Port [in]
 

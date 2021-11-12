@@ -76,7 +76,7 @@ Contains the status of the SCSI read capacity command.
 Contains the results of the SCSI read capacity command. 
 
 
-#### - SenseBuffer
+### -field SenseBuffer
 
 Contains the SCSI sense data that results from the SCSI read capacity command.
 

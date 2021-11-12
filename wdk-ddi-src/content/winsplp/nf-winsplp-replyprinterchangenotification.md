@@ -64,12 +64,12 @@ Optional. If not <b>NULL</b>, it receives spooler-supplied PRINTER_NOTIFY_INFO-p
 Optional. Caller-supplieid address of a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation). Can be <b>NULL</b> if no new notification information is being added.
 
 
-#### - fdwFlags
+### -param fdwFlags
 
 One or more caller-supplied PRINTER_CHANGE_-prefixed flags, listed in the Microsoft Windows SDK documentation's description of <b>FindNextPrinterChangeNotification</b>.
 
 
-#### - hNotify [in]
+### -param hNotify [in]
 
 Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification">FindFirstPrinterChangeNotification</a> function.
 

@@ -48,7 +48,7 @@ api_name:
 
 The <b>WRITE_PORT_BUFFER_USHORT</b> routine writes a number of USHORT values from a buffer to the specified port address.
 
-## -parameters
+### -parameters
 
 ### -param Port [in]
 

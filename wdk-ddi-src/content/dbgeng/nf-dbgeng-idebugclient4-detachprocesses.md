@@ -47,8 +47,6 @@ api_name:
 
 The <b>DetachProcesses</b> method detaches the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> from all <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in all targets, resuming all their <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a>.
 
-## -parameters
-
 ## -returns
 
 This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.

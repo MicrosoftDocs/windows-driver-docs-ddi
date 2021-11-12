@@ -71,7 +71,7 @@ The number of breadcrumbs in the <b>IOCTL_GNSS_POP_BREADCRUMBS</b> response.
 
 
 
-#### - v1[50]
+### -field v1[50]
 
 An array of individual breadcrumbs returned in the in the <b>IOCTL_GNSS_POP_BREADCRUMBS</b> response.
 

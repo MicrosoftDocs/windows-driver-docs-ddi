@@ -49,8 +49,6 @@ Gets the reason why the printer extension was activated.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 <ul>

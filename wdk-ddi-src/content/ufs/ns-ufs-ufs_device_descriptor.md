@@ -270,7 +270,7 @@ Reserved for future use.
 
 Reserved for future use.
 
-#### - bPSAStateTimeout
+### -field bPSAStateTimeout
 
 Specifies the command maximum timeout for a change in **bPSAState**. The timeout value is calculated as follows (in microseconds): ```100 x 2 ^ **bPSAStateTimeout**```.
 

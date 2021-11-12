@@ -47,8 +47,6 @@ api_name:
 
 Requests the cancellation of a print job.
 
-## -parameters
-
 ## -returns
 
 Returns an <b>HRESULT</b> value. If the method call was not successful, it returns the appropriate <b>HRESULT</b> error code.

@@ -105,7 +105,7 @@ A pointer to a variable into which the provider module will store a pointer to i
      and resident in memory as long as the client module is attached to the provider module.
 
 
-#### - **ProviderDispatch [out]
+### -field **ProviderDispatch [out]
 
 A pointer to a variable into which the provider module will store a pointer to a constant
      structure that contains the dispatch table of 
@@ -115,7 +115,7 @@ A pointer to a variable into which the provider module will store a pointer to a
      NPI-specific.
 
 
-#### - ProviderDispatch [out]
+### -field ProviderDispatch [out]
 
 A pointer to a variable into which the provider module will store a pointer to a constant
      structure that contains the dispatch table of 

@@ -103,39 +103,39 @@ ppIUnknownInner [out, optional]
 
 - (Optional) Points to a memory location that can receive the address of an **IUnknown** interface. If the minidriver has functionality that is not accessible through the **IWiaMiniDrv** interface, the vendor can create a separate interface on the minidriver. This parameter provides access to that functionality.
 
-#### - bstrDeviceID [in]
+### -param bstrDeviceID [in]
 
 Specifies a string containing the device's unique identifier.
 
-#### - bstrRootFullItemName [in]
+### -param bstrRootFullItemName [in]
 
 Specifies a string containing the full name of the root item.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Is reserved. Set to zero.
 
-#### - pIUnknownOuter [in, optional]
+### -param pIUnknownOuter [in, optional]
 
 (Optional) Points to a memory location that can receive the address of an **IUnknown** interface.
 
-#### - pStiDevice [in, optional]
+### -param pStiDevice [in, optional]
 
 Points to an [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface).
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-#### - plDevErrVal [out]
+### -param plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-#### - ppIDrvItemRoot [out, optional]
+### -param ppIDrvItemRoot [out, optional]
 
 Points to a memory location that will receive the address of a [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md), the interface of the root item.
 
-#### - ppIUnknownInner [out, optional]
+### -param ppIUnknownInner [out, optional]
 
 (Optional) Points to a memory location that can receive the address of an **IUnknown** interface. If the minidriver has functionality that is not accessible through the **IWiaMiniDrv** interface, the vendor can create a separate interface on the minidriver. This parameter provides access to that functionality.
 

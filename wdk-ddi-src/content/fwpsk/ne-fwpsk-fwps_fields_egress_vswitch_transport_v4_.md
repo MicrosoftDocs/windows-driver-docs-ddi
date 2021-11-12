@@ -130,7 +130,7 @@ The compartment that the network interface belongs to.
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 
 
-#### - FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V4_FLAGS
+### -field FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V4_FLAGS
 
 The virtual switch egress flags field.
 

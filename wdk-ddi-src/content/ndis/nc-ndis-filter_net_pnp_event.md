@@ -62,7 +62,7 @@ A handle to the context area for the filter module. The filter driver created an
 
 ### -param NetPnPEventNotification
 
-#### - NetPnPEvent [in]
+### -param NetPnPEvent [in]
 
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">

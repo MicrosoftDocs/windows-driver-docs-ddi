@@ -47,7 +47,7 @@ api_name:
 
 The **READ_REGISTER_BUFFER_USHORT** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of USHORT values from the specified register address into a buffer.
 
-## -parameters
+### -parameters
 
 ### -param Register [in]
 

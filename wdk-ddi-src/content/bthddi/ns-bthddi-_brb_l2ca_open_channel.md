@@ -192,7 +192,7 @@ A CHANNEL_CONFIG_RESULTS structure that contains configuration parameters for th
 
 Specifies the incoming queue length in message transfer units (MTUs).
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 A [BRB\_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 

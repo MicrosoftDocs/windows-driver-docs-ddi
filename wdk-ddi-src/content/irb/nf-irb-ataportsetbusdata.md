@@ -68,7 +68,7 @@ Specifies an offset into the device's PCI bus configuration data space where the
 Specifies the length, in bytes, of the buffer.
 
 
-#### - DataMask
+### -param DataMask
 
 Contains a data mask buffer that controls which bits of PCI bus configuration data must be updated. The length of <i>Datamask </i>must be the same length as <i>Buffer.</i>
 

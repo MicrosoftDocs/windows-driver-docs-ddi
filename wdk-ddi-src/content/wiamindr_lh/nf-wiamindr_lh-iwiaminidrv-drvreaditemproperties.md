@@ -79,23 +79,23 @@ plDevErrVal [out]
 
 - Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Is reserved. Set to zero.
 
-#### - nPropSpec [in]
+### -param nPropSpec [in]
 
 Indicates the number of items in the *pPropSpec* array.
 
-#### - pPropSpec [in]
+### -param pPropSpec [in]
 
 Points to the first element of an array of [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-#### - plDevErrVal [out]
+### -param plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 

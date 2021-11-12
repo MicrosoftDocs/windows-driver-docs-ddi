@@ -51,7 +51,7 @@ The<i> MRxDeallocateForFcb</i> routine is called by <a href="/windows-hardware/d
 
 ### -param Fcb
 
-#### - pFcb [in, out]
+### -param pFcb [in, out]
 
 A pointer to the FCB structure to deallocate.
 

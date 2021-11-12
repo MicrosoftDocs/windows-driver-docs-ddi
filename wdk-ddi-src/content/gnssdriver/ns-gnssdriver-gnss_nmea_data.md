@@ -67,7 +67,7 @@ Version number.
 
 
 
-#### - NmeaSentences[256]
+### -field NmeaSentences[256]
 
 Generic (non-parsed) NMEA data
 

@@ -53,7 +53,7 @@ The <b>GetDataBuffer</b> method retrieves the data buffer that is associated wit
 
 ### -param BufferSize
 
-#### - pBufferSize [out, optional]
+### -param pBufferSize [out, optional]
 
 A pointer to a variable that receives information that describes the size of the data buffer.
 

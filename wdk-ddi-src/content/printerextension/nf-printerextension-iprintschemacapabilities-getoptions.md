@@ -56,7 +56,7 @@ The specified feature.
 
 ### -param ppOptionCollection
 
-#### - ppOptions [out, retval]
+### -param ppOptions [out, retval]
 
 The returned options.
 

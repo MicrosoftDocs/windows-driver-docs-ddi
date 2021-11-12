@@ -69,7 +69,7 @@ contains <b>VT_EMPTY</b>.
 True if the target supports the interface; otherwise false.
 
 
-#### - MoreTargets [in, optional]
+### -param MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
 define additional targets to attach to the returned interface. 
@@ -79,7 +79,7 @@ currently implemented. Set <i>MoreTargets</i>o a <b>VARIANT</b>
 that contains <b>VT_EMPTY</b>.
 
 
-#### - ProgID [in]
+### -param ProgID [in]
 
 The WDTF ProgID of the requested interface.
 

@@ -74,7 +74,7 @@ The length of the additional information that is contained in the buffer that is
      will be zero.
 
 
-#### - Event [in]
+### -param Event [in]
 
 The specific event about which the WSK application is being notified. There are currently no
      events defined.

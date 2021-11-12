@@ -68,7 +68,7 @@ Contains a worldwise name for the HBA through which the target is accessed.
 Contains a worldwide name for the port through which the target device is accessed. 
 
 
-#### - FcLun
+### -field FcLun
 
 Indicates the logical unit number of the logical unit that will receive the SCSI report luns command.
 

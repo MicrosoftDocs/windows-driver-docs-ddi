@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetConfiguredSettingIndex</b> method retrieves the current setting index for a USB interface.
 
-## -parameters
-
 ## -returns
 
 <b>GetConfiguredSettingIndex</b> returns the current setting index for the USB interface.

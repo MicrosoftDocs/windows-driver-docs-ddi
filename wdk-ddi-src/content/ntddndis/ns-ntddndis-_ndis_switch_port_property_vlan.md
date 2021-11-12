@@ -146,7 +146,7 @@ The array has 64 UINT64 elements, which represent 4096 consecutive bits.
 <div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div>
 <div> </div>
 
-#### - SupportedModes
+### -field SupportedModes
 
 A UINT64 value that contains a bitwise OR of the flags that specify the VLAN operation modes that are supported on the extensible switch port. The following bits specify the supported operation modes:
 

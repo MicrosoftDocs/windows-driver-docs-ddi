@@ -92,7 +92,7 @@ This frequency is provided as a difference to GPS frequency (1575.42 MHz) in kHz
 
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

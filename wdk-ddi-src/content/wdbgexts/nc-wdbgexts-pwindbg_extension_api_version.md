@@ -47,8 +47,6 @@ api_name:
 
 The <i>PWINDBG_EXTENSION_API_VERSION</i> (<b>ExtensionApiVersion</b>) callback function returns version information about the extension DLL.
 
-## -parameters
-
 ## -returns
 
 This function must return a pointer to an <b>EXT_API_VERSION</b> structure.

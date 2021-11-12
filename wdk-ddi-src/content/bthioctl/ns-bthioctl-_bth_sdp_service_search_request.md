@@ -62,7 +62,7 @@ Handle returned by the connect request or HANDLE_SDP_LOCAL.
 
 An array of UUIDs that represent the services for which to query. Each entry can be a 2-byte, 4-byte, or 16-byte type, and there can be a maximum of 12 entries. The array can be terminated before all 12 entries are used if a UUID entry contains all zeros.
 
-#### - hConnection
+### -field hConnection
 
 A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md) IOCTL.
 

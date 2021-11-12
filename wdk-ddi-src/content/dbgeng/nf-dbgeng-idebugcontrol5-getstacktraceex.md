@@ -77,7 +77,7 @@ Receives the stack frames.  The number of elements this array holds is <i>FrameS
 Receives the number of frames that were placed in the array <i>Frames</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - FrameSize [in]
+### -param FrameSize [in]
 
 Specifies the number of items in the <i>Frames</i> array.
 

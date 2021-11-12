@@ -72,12 +72,12 @@ Defines the <b>ULONG</b> member <b>StringLength</b>.
 
 
 
-#### - MethodName[256]
+### -field MethodName[256]
 
 NULL terminated name string.
 
 
-#### - String[ANYSIZE_ARRAY]
+### -field String[ANYSIZE_ARRAY]
 
 Defines the <b>UCHAR</b> member <b>String[ANYSIZE_ARRAY]</b>.
 

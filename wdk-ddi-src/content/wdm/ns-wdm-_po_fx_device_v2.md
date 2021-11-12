@@ -60,7 +60,7 @@ The <b>PO_FX_DEVICE</b> structure describes the power attributes of a device to 
 The version number of this structure. If the driver will register for performance state support with PoFx, set this member to <b>PO_FX_VERSION_V2</b>. Otherwise, set this member to <b>PO_FX_VERSION_V1</b>.
 
 
-#### - Flags
+### -field Flags
 
 Set to 0. Currently, no flags are defined for this member.
 

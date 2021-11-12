@@ -50,8 +50,6 @@ Do not use the <b>DxApiGetVersion</b> function; use the <a href="/windows-hardwa
 
 The <b>DxApiGetVersion</b> function returns a Direct Sound version number of 4.02.
 
-## -parameters
-
 ## -returns
 
 Returns the major and minor version numbers of Direct Sound as 4 and 2 respectively.

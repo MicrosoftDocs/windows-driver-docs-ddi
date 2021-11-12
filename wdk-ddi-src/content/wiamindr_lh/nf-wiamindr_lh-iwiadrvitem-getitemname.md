@@ -55,7 +55,7 @@ pbstrItemName [out, optional]
 
 - Points to a memory location that will receive the address of the string containing the item name.
 
-#### - pbstrItemName [out, optional]
+### -param pbstrItemName [out, optional]
 
 Points to a memory location that will receive the address of the string containing the item name.
 

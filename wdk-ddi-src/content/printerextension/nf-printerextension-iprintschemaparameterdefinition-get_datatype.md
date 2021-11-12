@@ -49,8 +49,6 @@ The <b>DataType</b> property gets the <a href="/windows-hardware/drivers/ddi/pri
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>

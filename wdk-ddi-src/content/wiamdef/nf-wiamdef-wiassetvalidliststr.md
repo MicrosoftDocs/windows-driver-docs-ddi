@@ -68,7 +68,7 @@ Specifies the nominal value of the property.
 
 ### -param bstrValues
 
-#### - pbstrValues [in]
+### -param pbstrValues [in]
 
 Pointer to the first element of an array of valid property values.
 

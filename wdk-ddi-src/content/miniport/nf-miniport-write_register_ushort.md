@@ -49,12 +49,12 @@ The <b>WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified 
 
 ## -parameters
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a USHORT value to be written to the register.
 

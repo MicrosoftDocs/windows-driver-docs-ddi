@@ -67,12 +67,12 @@ Specifies the property identifier.
 Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist; if set to <b>FALSE</b>, the property does not have to exist.
 
 
-#### - pgVal [out]
+### -param pgVal [out]
 
 Pointer to a memory location that receives the GUID property value.
 
 
-#### - pgValOld [out, optional]
+### -param pgValOld [out, optional]
 
 Pointer to a memory location that receives the previous value of the GUID property data. If this information is not needed, this parameter can be set to <b>NULL</b>.
 

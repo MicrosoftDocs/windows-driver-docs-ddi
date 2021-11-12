@@ -102,7 +102,7 @@ typedef struct {
 
 
 
-#### - controlData
+### -field controlData
 
 An optional pointer to a buffer that contains socket control data specified by the 
       <a href="/windows/win32/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function. For information about the <b>WSACMSGHDR</b> type, see 
@@ -120,7 +120,7 @@ If socket control data is not <b>NULL</b>, it must be deep-copied in the callout
       until the injection completion function is called.
 
 
-#### - controlDataLength
+### -field controlDataLength
 
 The length, in bytes, of the 
      <b>controlData</b> member.

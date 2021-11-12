@@ -59,12 +59,12 @@ The <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</b> enumeration defines consta
 
 ### -field SerCx2CustomReceiveTransactionBytesTransferred
 
-#### - SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
+### -field SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
 
 Progress is being made. This value indicates that one or more bytes of data have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 
 
-#### - SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
+### -field SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
 
 No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 

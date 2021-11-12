@@ -51,7 +51,7 @@ The <b>SetThumbnailContent</b> method sets the thumbnail content for the part.
 
 ### -param pContentType
 
-#### - contentType [in]
+### -param contentType [in]
 
 The type of content for the thumbnail.
 

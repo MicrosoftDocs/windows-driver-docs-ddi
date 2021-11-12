@@ -70,7 +70,7 @@ An array of UUIDs that represent the services for which to query. Each entry can
 
 A variable-length array of [SdpAttributeRange](/windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange) structures that contains the range of SDP attributes for which to search.
 
-#### - hConnection
+### -field hConnection
 
 A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md) IOCTL.
 
