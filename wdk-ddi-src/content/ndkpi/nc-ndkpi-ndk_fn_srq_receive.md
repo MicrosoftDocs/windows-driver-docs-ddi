@@ -60,7 +60,7 @@ A pointer to an NDK shared receive queue (SRQ) object
 
 A context value to be returned in the <b>RequestContext</b> member of the <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
-### -param NDK_SGE
+### -param pSgl
 
 An array of SGE structures (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>) that represent the buffers to receive incoming data.
 

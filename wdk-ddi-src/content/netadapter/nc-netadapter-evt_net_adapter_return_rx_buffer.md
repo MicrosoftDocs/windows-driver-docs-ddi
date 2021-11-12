@@ -49,7 +49,7 @@ Implement this optional callback function to perform cleanup on a [**NET_FRAGMEN
 
 The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param RxBufferReturnContext 
+### -param RxReturnContext 
 
 A pointer to a driver-allocated context space structure.
 

@@ -57,9 +57,6 @@ A pointer to a client driver-allocated [**NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILI
 
 The maximum number of ARP protocol offloads that the hardware supports.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

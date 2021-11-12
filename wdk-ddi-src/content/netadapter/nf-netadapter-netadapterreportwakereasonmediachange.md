@@ -57,10 +57,6 @@ A handle to the NETADAPTER object.
 
 A [**NET_IF_MEDIA_CONNECT_STATE**](/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state) value that specifies the network interface connection state that triggered the wake-up event.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 ## -see-also

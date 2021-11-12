@@ -57,9 +57,6 @@ The WDFDEVICE object that is associated with the net adapter (or multiple adapte
 
 A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

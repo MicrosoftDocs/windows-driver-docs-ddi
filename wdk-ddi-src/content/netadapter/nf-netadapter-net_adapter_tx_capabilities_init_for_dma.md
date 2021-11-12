@@ -58,10 +58,6 @@ A pointer to a driver-allocated and initialized [NET_ADAPTER_DMA_CAPABILITIES](n
 
 The maximum number of transmit queues that the adapter supports.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 This function is one of two possible functions to call in order to initialize a [NET_ADAPTER_TX_CAPABILITIES](ns-netadapter-_net_adapter_tx_capabilities.md) structure. Which one the client driver should call depends on whether it would like to use DMA. [NET_ADAPTER_TX_CAPABILITIES_INIT](nf-netadapter-net_adapter_tx_capabilities_init.md) is used if the driver does not specify DMA memory mapping for its transmit buffers, and **NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA** is used if it does.

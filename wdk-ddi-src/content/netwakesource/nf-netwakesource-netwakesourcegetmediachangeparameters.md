@@ -57,9 +57,6 @@ A NETWAKESOURCE object that represents this media change wake source.
 
 A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure that receives the media change parameters.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 
