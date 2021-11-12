@@ -60,7 +60,7 @@ A pointer to an NDK queue pair (QP) object
 
 A context value to be returned in the <b>RequestContext</b> member of the <a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structure for this request.
 
-### -param NDK_SGE
+### -param pSgl
 
 An array of SGE (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>)  structures that represent the buffers holding the data to send.
 

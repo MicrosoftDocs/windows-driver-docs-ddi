@@ -48,7 +48,7 @@ The client driver calls **NetTxQueueNotifyMoreCompletedPacketsAvailable** to res
 
 ## -parameters
 
-### -param TxQueue
+### -param PacketQueue
 
 A handle to a net transmit queue.
 

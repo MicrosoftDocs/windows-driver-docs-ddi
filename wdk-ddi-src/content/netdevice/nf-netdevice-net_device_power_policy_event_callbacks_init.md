@@ -53,9 +53,6 @@ The **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT** function initializes a [**N
 
 A pointer to a driver-allocated [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

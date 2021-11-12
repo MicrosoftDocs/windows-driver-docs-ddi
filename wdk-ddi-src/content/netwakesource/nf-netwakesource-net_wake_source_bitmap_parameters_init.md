@@ -53,9 +53,6 @@ The **NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT** function initializes a [**NET_WAK
 
 A pointer to a driver-allocated [**NET_WAKE_SOURCE_BITMAP_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_bitmap_parameters.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

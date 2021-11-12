@@ -105,17 +105,7 @@ A pointer to a variable into which the provider module will store a pointer to i
      and resident in memory as long as the client module is attached to the provider module.
 
 
-### -field **ProviderDispatch [out]
-
-A pointer to a variable into which the provider module will store a pointer to a constant
-     structure that contains the dispatch table of 
-     <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
-     module. The provider module must make sure that this structure remains valid and resident in memory as
-     long as the client module is attached to the provider module. The contents of the structure are 
-     NPI-specific.
-
-
-### -field ProviderDispatch [out]
+### -param ProviderDispatch [out]
 
 A pointer to a variable into which the provider module will store a pointer to a constant
      structure that contains the dispatch table of 

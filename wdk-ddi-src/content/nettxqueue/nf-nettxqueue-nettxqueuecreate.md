@@ -60,7 +60,7 @@ A pointer to an initialized, caller-allocated [**WDF_OBJECT_ATTRIBUTES**](../wdf
 
 A pointer to a caller-allocated [**NET_PACKET_QUEUE_CONFIG**](../netpacketqueue/ns-netpacketqueue-_net_packet_queue_config.md) structure.
 
-### -param TxQueue
+### -param PacketQueue
 
 A pointer to a location that receives a handle to the new net transmit queue object.
 

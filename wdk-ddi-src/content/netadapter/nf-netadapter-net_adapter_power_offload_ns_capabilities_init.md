@@ -57,9 +57,6 @@ A pointer to a client driver-allocated [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILIT
 
 The maximum number of NS protocol offloads that the hardware supports.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

@@ -57,10 +57,6 @@ The WDFDEVICE object associated with the net adapter.
 
 A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 Call [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md) to initialize the [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure, then call this function to retrieve the low power protocol offload list.

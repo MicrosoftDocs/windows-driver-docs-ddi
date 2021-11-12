@@ -57,9 +57,6 @@ A handle to a NETADAPTER object that the client driver obtained from a previous 
 
 A pointer to a client driver-allocated and initialized [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_packet_filter_capabilities.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 
