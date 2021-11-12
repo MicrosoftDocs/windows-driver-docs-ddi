@@ -1,10 +1,10 @@
 ---
 UID: NE:spb.SPB_MULTI_SPI_TRANSFER_MODE
-tech.root: 
+tech.root: SPB
 title: SPB_MULTI_SPI_TRANSFER_MODE
-ms.date: 
+ms.date: 11/11/2021
 targetos: Windows
-description: 
+description: The SPB_MULTI_SPI_TRANSFER_MODE enumeration specifies a type of multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -59,8 +59,8 @@ Reserved for use by the operating system.
 
 ## -remarks
 
-The **Mode** member of the <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_header">SPB_MULTI_SPI_TRANSFER_HEADER</a> structure is an **SPB_MULTI_SPI_TRANSFER_MODE** enumeration value.
+The **Mode** member of the [SPB_MULTI_SPI_TRANSFER_HEADER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_header) structure is an **SPB_MULTI_SPI_TRANSFER_MODE** enumeration value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer">SPB_MULTI_SPI_TRANSFER</a>
+- [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer)

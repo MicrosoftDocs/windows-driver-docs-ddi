@@ -1,10 +1,10 @@
 ---
 UID: NF:spb.SPB_MULTI_SPI_WRITE_TRANSFER_INIT
-tech.root: 
+tech.root: SPB
 title: SPB_MULTI_SPI_WRITE_TRANSFER_INIT
-ms.date: 
+ms.date: 11/11/2021
 targetos: Windows
-description: 
+description: The SPB_MULTI_SPI_WRITE_TRANSFER_INIT function initializes an SPB_MULTI_SPI_WRITE_TRANSFER structure.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - spb.h
 api_name:
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **SPB_MULTI_SPI_WRITE_TRANSFER_INIT** function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer">SPB_MULTI_SPI_WRITE_TRANSFER</a> structure.
+The **SPB_MULTI_SPI_WRITE_TRANSFER_INIT** function initializes an [SPB_MULTI_SPI_WRITE_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer) structure.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ A pointer to the **SPB_MULTI_SPI_WRITE_TRANSFER** structure that is to be initia
 
 ### -param Mode
 
-An <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_mode">SPB_MULTI_SPI_TRANSFER_MODE</a> enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
+An [SPB_MULTI_SPI_TRANSFER_MODE](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_mode) enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
 
 ### -param WritePhaseSingleSpiByteCount
 
@@ -68,8 +68,6 @@ The **SPB_MULTI_SPI_WRITE_TRANSFER_INIT** function should be used to initialize 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer">SPB_MULTI_SPI_TRANSFER</a>
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer">SPB_MULTI_SPI_WRITE_TRANSFER</a>
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_header">SPB_MULTI_SPI_TRANSFER_HEADER</a>
+- [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer)
+- [SPB_MULTI_SPI_WRITE_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer)
+- [SPB_MULTI_SPI_TRANSFER_HEADER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_header)
