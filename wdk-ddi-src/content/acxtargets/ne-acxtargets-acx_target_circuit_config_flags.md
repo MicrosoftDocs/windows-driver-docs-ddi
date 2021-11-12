@@ -2,7 +2,7 @@
 UID: NE:acxtargets._ACX_TARGET_CIRCUIT_CONFIG_FLAGS
 tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG_FLAGS
-ms.date:  11/11/21
+ms.date:  11/11/2021
 targetos: Windows
 description: 
 prerelease: true

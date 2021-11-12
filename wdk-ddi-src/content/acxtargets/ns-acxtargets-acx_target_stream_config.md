@@ -2,7 +2,7 @@
 UID: NS:acxtargets._ACX_TARGET_STREAM_CONFIG
 tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG
-ms.date:  11/11/21
+ms.date:  11/11/2021
 targetos: Windows
 description: 
 prerelease: true

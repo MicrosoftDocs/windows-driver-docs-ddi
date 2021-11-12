@@ -2,7 +2,7 @@
 UID: NF:acxtargets.ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT
 tech.root: audio
 title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT
-ms.date:  11/11/21
+ms.date:  11/11/2021
 targetos: Windows
 description: 
 prerelease: true
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - acxtargets.h
 api_name:
