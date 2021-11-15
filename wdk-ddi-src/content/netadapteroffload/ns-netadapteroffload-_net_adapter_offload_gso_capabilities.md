@@ -84,7 +84,7 @@ The flags should be a combination of:
 | NetAdapterOffloadLayer4FlagTcpWithOptions | Set if the NIC is capable of performing LSO on TCP packets with options |
 | NetAdapterOffloadLayer4FlagUdp | Set if the NIC is capable of performing USO on UDP packets |
 
-### -field Layer4OffsetLimit
+### -field Layer4HeaderOffsetLimit
 
 The maximum layer 4 header offset that the NIC supports in bytes. This field is optional.
 

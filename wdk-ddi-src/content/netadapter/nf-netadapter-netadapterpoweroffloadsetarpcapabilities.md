@@ -57,9 +57,6 @@ A handle to a NETADAPTER object that the client driver obtained from a previous 
 
 A pointer to a client driver-allocated and initialized [**NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_arp_capabilities.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

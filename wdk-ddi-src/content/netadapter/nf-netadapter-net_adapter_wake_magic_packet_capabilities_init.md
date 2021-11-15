@@ -53,9 +53,6 @@ The **NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT** function initializes a [
 
 A pointer to a client driver-allocated [*NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_magic_packet_capabilities.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

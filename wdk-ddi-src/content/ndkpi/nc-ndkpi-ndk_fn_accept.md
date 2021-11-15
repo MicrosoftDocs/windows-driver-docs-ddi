@@ -69,7 +69,9 @@ The consumer-supplied maximum number of incoming in-progress read operations to 
 
 The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower <b>MaxOutboundReadLimit</b> value  in the <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower <i>InboundReadLimit</i>, then the provider will use that value as the effective <i>OutboundReadLimit</i>. The     consumer can retrieve the effective <i>OutboundReadLimit</i> by calling the <i>NdkGetConnectionData</i> function (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data">NDK_FN_GET_CONNECTION_DATA</a>).
 
-### -param PVOID
+### -param pPrivateData [_In_reads_bytes_opt_(PrivateDataLength)]
+
+A pointer to private data that is sent back with the accept request.
 
 ### -param PrivateDataLength [in]
 
@@ -96,10 +98,6 @@ A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (
 
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
-
-### -param pPrivateData
-
-A pointer to private data that is sent back with the accept request.
 
 ## -returns
 

@@ -47,7 +47,7 @@ The **NET_DEVICE_RESET_CAPABILITIES_INIT** function initializes a [**NET_DEVICE_
 
 ## -parameters
 
-### -param ResetDiagnosticsCapabilities [_Out_]
+### -param ResetCapabilities [_Out_]
 
 A pointer to a driver-allocated [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
 
