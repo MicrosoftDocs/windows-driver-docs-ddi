@@ -52,7 +52,7 @@ A pointer to the **SPB_MULTI_SPI_READ_TRANSFER** structure that is to be initial
 
 ### -param Mode
 
-An [SPB_MULTI_SPI_TRANSFER_MODE](./ns-spb-spb_multi_spi_transfer_mode.md) enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
+An [SPB_MULTI_SPI_TRANSFER_MODE](./ne-spb-spb_multi_spi_transfer_mode.md) enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
 
 ### -param WritePhaseSingleSpiByteCount
 
