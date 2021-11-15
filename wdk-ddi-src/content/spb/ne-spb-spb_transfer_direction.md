@@ -4,7 +4,7 @@ title: SPB_TRANSFER_DIRECTION (spb.h)
 description: The SPB_TRANSFER_DIRECTION enumeration describes the direction (read or write) of a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_direction.htm
 tech.root: SPB
-ms.date: 09/13/2021
+ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_DIRECTION enumeration"]
 ms.keywords: "*PSPB_TRANSFER_DIRECTION, SPB.spb_transfer_direction, SPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionFromDevice, SpbTransferDirectionMax, SpbTransferDirectionNone, SpbTransferDirectionToDevice, spb/SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionFromDevice, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionToDevice"
 req.header: spb.h
@@ -79,12 +79,12 @@ A lock ([IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioc
 
 ## -see-also
 
-* [EvtSpbControllerIoOther](../spbcx/nc-spbcx-evt_spb_controller_other.md)
-* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
-* [IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_controller-control-code)
-* [IOCTL_SPB_UNLOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_controller-control-code)
-* [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read)
-* [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write)
-* [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)
-* [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)
-* [SpbRequestGetParameters](../spbcx/nf-spbcx-spbrequestgetparameters.md)
+- [EvtSpbControllerIoOther](../spbcx/nc-spbcx-evt_spb_controller_other.md)
+- [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+- [IOCTL_SPB_LOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_controller-control-code)
+- [IOCTL_SPB_UNLOCK_CONTROLLER](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_controller-control-code)
+- [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read)
+- [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write)
+- [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)
+- [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)
+- [SpbRequestGetParameters](../spbcx/nf-spbcx-spbrequestgetparameters.md)

@@ -2,7 +2,7 @@
 UID: NS:spb.SPB_MULTI_SPI_WRITE_TRANSFER
 tech.root: SPB
 title: SPB_MULTI_SPI_WRITE_TRANSFER
-ms.date: 11/11/2021
+ms.date: 11/15/2021
 targetos: Windows
 description: The SPB_MULTI_SPI_WRITE_TRANSFER structure describes a write operation to be executed in a Multi-SPI (e.g. Dual SPI or Quad SPI) mode.
 prerelease: false
@@ -47,7 +47,7 @@ The **SPB_MULTI_SPI_WRITE_TRANSFER** structure describes a write operation to be
 
 ### -field SpiTransfer
 
-A [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer) structure containing the parameters of the transfer, and the write phase buffer.
+A [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md) structure containing the parameters of the transfer, and the write phase buffer.
 
 ## -remarks
 
@@ -55,5 +55,5 @@ After initialization using **SPB_MULTI_SPI_WRITE_TRANSFER_INIT**, a peripheral d
 
 ## -see-also
 
-- [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer)
-- [SPB_MULTI_SPI_WRITE_TRANSFER_INIT](/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_write_transfer_init)
+- [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md)
+- [SPB_MULTI_SPI_WRITE_TRANSFER_INIT](./nf-spb-spb_multi_spi_write_transfer_init.md)
