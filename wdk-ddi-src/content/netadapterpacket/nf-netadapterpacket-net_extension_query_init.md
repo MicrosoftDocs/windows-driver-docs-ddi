@@ -65,10 +65,6 @@ The version of the extension to be queried.
 
 A [**NET_EXTENSION_TYPE**](../extension/ne-extension-_net_extension_type.md) value that specifies the type of extension being queried.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 After calling this function, pass the initialized **NET_EXTENSION_QUERY** structure to **NetTx(Rx)QueueGetExtension** to get the offset to that extension in the packet or fragment descriptor.

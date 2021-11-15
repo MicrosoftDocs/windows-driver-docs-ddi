@@ -64,7 +64,7 @@ A pointer to an NDK queue pair (QP) object (<a href="/windows-hardware/drivers/d
 
 A pointer to an NDK shared endpoint object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>) that determines the local address for the connection.
 
-### -param PSOCKADDR
+### -param pDestAddress
 
 A destination address.  For AF_INET or AF_INET6 <i>pDestAddress</i>  is the destination IP address and the destination ND port.
 
@@ -83,7 +83,7 @@ The consumer-supplied maximum number of incoming in-progress read operations to 
 
 The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower <b>MaxOutboundReadLimit</b> value  in the <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower <i>InboundReadLimit</i>, then the provider will use that value as the effective <i>OutboundReadLimit</i>. The     consumer can retrieve the effective <i>OutboundReadLimit</i> by calling the <i>NdkGetConnectionData</i> function (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_get_connection_data">NDK_FN_GET_CONNECTION_DATA</a>).
 
-### -param PVOID
+### -param pPrivateData [_In_reads_bytes_opt_(PrivateDataLength)]
 
 A pointer to private data that is sent with the connect request.
 

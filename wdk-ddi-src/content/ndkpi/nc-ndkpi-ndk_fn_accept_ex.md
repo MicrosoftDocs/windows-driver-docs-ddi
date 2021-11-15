@@ -65,7 +65,7 @@ The consumer-supplied maximum number of incoming in-progress read operations to 
 
 The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxOutboundReadLimit** value  in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower *InboundReadLimit*, then the provider will use that value as the effective *OutboundReadLimit*. The consumer can retrieve the effective *OutboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)).
 
-### -param PVOID
+### -param pPrivateData [_In_reads_bytes_opt_(PrivateDataLength)]
 
 Private data that is sent back with the accept request.
 

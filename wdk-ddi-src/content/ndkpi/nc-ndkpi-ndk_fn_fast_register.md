@@ -69,7 +69,6 @@ A pointer to an NDK memory region (MR) object (<a href="/windows-hardware/driver
 
 The number of pages in the <i>AdapterPageArray</i> parameter. The size of each page in the <i>AdapterPageArray</i> is <b>PAGE_SIZE</b> bytes.
 
-### -param NDK_LOGICAL_ADDRESS
 
 ### -param FBO [in]
 

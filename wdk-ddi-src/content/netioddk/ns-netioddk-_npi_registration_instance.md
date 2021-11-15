@@ -95,7 +95,6 @@ The implementation number of the
      NPI, this member is set to
      zero.
 
-### -field OPTIONAL
 
  
 

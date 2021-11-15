@@ -53,10 +53,6 @@ The **NET_POWER_OFFLOAD_LIST_INIT** function initializes a [**NET_POWER_OFFLOAD_
 
 A handle to a driver-allocated [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 This function zeros out the memory for the **NET_POWER_OFFLOAD_LIST** structure, then fills in the **Size** member. After calling this function, call [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md) with the initialized structure to get the list of low power offloads to this net adapter.

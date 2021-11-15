@@ -49,7 +49,7 @@ The **NetDeviceInitSetResetCapabilities** function registers a client driver's [
 
 A pointer to a **WDFDEVICE_INIT** object that the client driver received in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
-### -param ResetDiagnosticsCapabilities [_In_]
+### -param ResetCapabilities [_In_]
 
 A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
 

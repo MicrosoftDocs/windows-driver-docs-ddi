@@ -99,7 +99,7 @@ A pointer to an <i>NdkCreateCompletion</i> (<a href="/windows-hardware/drivers/d
 
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
-### -param *ppNdkQp
+### -param ppNdkQp
 
 A pointer to a created QP object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 

@@ -93,4 +93,4 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 
-<a href="/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_device_descriptor">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
