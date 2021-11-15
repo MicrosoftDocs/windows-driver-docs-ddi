@@ -72,8 +72,9 @@ Typically, this function should not be called directly, instead [SPB_MULTI_SPI_R
 
 ## -see-also
 
+- [SPB_MULTI_SPI_TRANSFER_MODE](./ne-spb-spb_multi_spi_transfer_mode.md)
 - [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md)
 - [SPB_MULTI_SPI_READ_TRANSFER](./ns-spb-spb_multi_spi_read_transfer.md)
-- [SPB_MULTI_SPI_READ_TRANSFER_INIT](./ns-spb-spb_multi_spi_read_transfer_init.md)
+- [SPB_MULTI_SPI_READ_TRANSFER_INIT](./nf-spb-spb_multi_spi_read_transfer_init.md)
 - [SPB_MULTI_SPI_WRITE_TRANSFER](./ns-spb-spb_multi_spi_write_transfer.md)
-- [SPB_MULTI_SPI_WRITE_TRANSFER_INIT](./ns-spb-spb_multi_spi_write_transfer_init.md)
+- [SPB_MULTI_SPI_WRITE_TRANSFER_INIT](./nf-spb-spb_multi_spi_write_transfer_init.md)
