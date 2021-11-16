@@ -2,7 +2,7 @@
 UID: NS:hidpi._HIDP_BUTTON_ARRAY_DATA
 tech.root: hid
 title: HIDP_BUTTON_ARRAY_DATA
-ms.date: 11/11/2021
+ms.date: 11/16/2021
 targetos: Windows
 description: The HIDP_BUTTON_ARRAY_DATA structure is used to get or set data for single button in a button array.
 prerelease: false

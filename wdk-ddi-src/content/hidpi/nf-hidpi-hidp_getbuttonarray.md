@@ -2,7 +2,7 @@
 UID: NF:hidpi.HidP_GetButtonArray
 tech.root: hid
 title: HidP_GetButtonArray
-ms.date: 11/11/2021
+ms.date: 11/16/2021
 targetos: Windows
 description: HidP_GetButtonArray returns an array of HIDP_BUTTON_ARRAY_DATA structures, one for each button that is set to ON, for the specified report.
 prerelease: false
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - hidpi.h
 api_name:

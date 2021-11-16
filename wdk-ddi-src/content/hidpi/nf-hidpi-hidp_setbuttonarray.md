@@ -2,7 +2,7 @@
 UID: NF:hidpi.HidP_SetButtonArray
 tech.root: hid
 title: HidP_SetButtonArray
-ms.date: 11/11/2021
+ms.date: 11/16/2021
 targetos: Windows
 description: The HidP_SetButtonArray function sets the state of buttons via an array of HIDP_BUTTON_ARRAY_DATA structures.
 prerelease: false
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - hidpi.h
 api_name:
