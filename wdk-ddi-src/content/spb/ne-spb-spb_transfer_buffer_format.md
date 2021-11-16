@@ -4,7 +4,7 @@ title: SPB_TRANSFER_BUFFER_FORMAT (spb.h)
 description: The SPB_TRANSFER_BUFFER_FORMAT enumeration specifies the format of the buffer that is described by an SPB_TRANSFER_BUFFER structure.
 old-location: spb\spb_transfer_buffer_format.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_BUFFER_FORMAT enumeration"]
 ms.keywords: "*PSPB_TRANSFER_BUFFER_FORMAT, SPB.spb_transfer_buffer_format, SPB_TRANSFER_BUFFER_FORMAT, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SpbTransferBufferFormatMax, SpbTransferBufferFormatMdl, SpbTransferBufferFormatSimple, SpbTransferBufferFormatSimpleNonPaged, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatSimpleNonPaged"
 req.header: spb.h
@@ -45,10 +45,9 @@ api_name:
 
 # SPB_TRANSFER_BUFFER_FORMAT enumeration
 
-
 ## -description
 
-The <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration specifies the format of the buffer that is described by an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a> structure.
+The **SPB_TRANSFER_BUFFER_FORMAT** enumeration specifies the format of the buffer that is described by an [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md) structure.
 
 ## -enum-fields
 
@@ -66,7 +65,7 @@ The transfer buffer is described by a pointer to a list of buffers and a count o
 
 ### -field SpbTransferBufferFormatSimpleNonPaged
 
-The transfer buffer is described by a simple user-mode or kernel-mode pointer and a length. The buffer resides in nonpaged memory. This format value is valid only if the client that originates the I/O request is a kernel-mode driver.
+The transfer buffer is described by a simple user-mode or kernel-mode pointer and a length. The buffer resides in non-paged memory. This format value is valid only if the client that originates the I/O request is a kernel-mode driver.
 
 ### -field SpbTransferBufferFormatMdl
 
@@ -78,9 +77,8 @@ Reserved for use by the operating system.
 
 ## -remarks
 
-The <b>Format</b> member of the <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a> structure is an <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration value.
+The **Format** member of the [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md) structure is an **SPB_TRANSFER_BUFFER_FORMAT** enumeration value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>
-
+- [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md)
