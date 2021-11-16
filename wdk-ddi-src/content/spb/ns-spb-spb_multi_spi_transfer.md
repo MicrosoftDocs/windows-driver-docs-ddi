@@ -2,7 +2,7 @@
 UID: NS:spb.SPB_MULTI_SPI_TRANSFER
 tech.root: SPB
 title: SPB_MULTI_SPI_TRANSFER
-ms.date: 11/11/2021
+ms.date: 11/15/2021
 targetos: Windows
 description: The SPB_MULTI_SPI_TRANSFER structure describes a SPI I/O operation which is to be executed using a multi-SPI transfer mode such as Dual or Quad SPI.
 prerelease: false
@@ -76,4 +76,4 @@ The following restrictions apply to this structure:
 
 ## -see-also
 
-- [SPB_MULTI_SPI_TRANSFER_INIT](/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_transfer_init)
+- [SPB_MULTI_SPI_TRANSFER_INIT](./nf-spb-spb_multi_spi_transfer_init.md)
