@@ -2,7 +2,7 @@
 UID: NF:hidpi.HidP_SetButtonArray
 tech.root: hid
 title: HidP_SetButtonArray
-ms.date: 11/16/2021
+ms.date: 11/17/2021
 targetos: Windows
 description: The HidP_SetButtonArray function sets the state of buttons via an array of HIDP_BUTTON_ARRAY_DATA structures.
 prerelease: false
@@ -100,6 +100,8 @@ Length of the given report packet in bytes.
 
 ## -remarks
 
+The caller should use [HidP_GetVersion](nf-hidpi-hidp_getversion.md) to determine if this function is available. **HidP_SetButtonArray** is only available if **HidP_GetVersion** returns a value >= 2.
+
 A button array occurs when the last usage in the sequence of usages describing a main item, must be repeated because there are less usages defined than the *ReportCount* declared for the given main item. In this case, a single [HIDP_BUTTON_CAPS](ns-hidpi-_hidp_button_caps.md) is allocated for that usage and the *ReportCount* of the **HIDP_BUTTON_CAPS** is set to reflect the number of fields the usage refers.
 
 A **HIDP_BUTTON_CAPS** that describes a button array, will always have *ReportCount* greater than one. If *ReportCount* equals one, then it is not a button array and cannot be used with **HidP_SetButtonArray**. For more information, see [HidP_SetUsages](nf-hidpi-hidp_setusages.md).
@@ -108,6 +110,7 @@ A **HIDP_BUTTON_CAPS** that describes a button array, will always have *ReportCo
 
 ## -see-also
 
+- [HidP_GetVersion](nf-hidpi-hidp_getversion.md)
 - [HidP_GetButtonArray](nf-hidpi-hidp_getbuttonarray.md)
 - [HIDP_BUTTON_ARRAY_DATA](ns-hidpi-hidp_button_array_data.md)
 - [HIDP_LINK_COLLECTION_NODE](ns-hidpi-_hidp_link_collection_node.md)

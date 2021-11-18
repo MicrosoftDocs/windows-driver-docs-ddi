@@ -2,9 +2,9 @@
 UID: NF:hidpi.HidP_GetVersion
 tech.root: hid
 title: HidP_GetVersion
-ms.date: 11/11/2021
+ms.date: 11/17/2021
 targetos: Windows
-description: The HidP_GetVersion function gets the version of the HID driver.
+description: The HidP_GetVersion function is a header-only implementation that returns the HID API version.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **HidP_GetVersion** function gets the version of the HID driver.
+The **HidP_GetVersion** function is a header-only implementation that returns the HID API version.
 
 ## -parameters
 
 ### -param Version [out]
 
-The version of the HID driver.
+The version of the HID API.
 
 ## -returns
 
@@ -56,4 +56,9 @@ The version of the HID driver.
 
 ## -remarks
 
+The [HidP_GetButtonArray](nf-hidpi-hidp_getbuttonarray.md) and [HidP_SetButtonArray](nf-hidpi-hidp_setbuttonarray.md) functions are only available on operating systems where **HidP_GetVersion** returns a value >= 2.
+
 ## -see-also
+
+- [HidP_GetButtonArray](nf-hidpi-hidp_getbuttonarray.md)
+- [HidP_SetButtonArray](nf-hidpi-hidp_setbuttonarray.md)

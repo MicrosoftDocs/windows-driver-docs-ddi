@@ -2,7 +2,7 @@
 UID: NF:hidpi.HidP_GetButtonArray
 tech.root: hid
 title: HidP_GetButtonArray
-ms.date: 11/16/2021
+ms.date: 11/17/2021
 targetos: Windows
 description: HidP_GetButtonArray returns an array of HIDP_BUTTON_ARRAY_DATA structures, one for each button that is set to ON, for the specified report.
 prerelease: false
@@ -99,12 +99,15 @@ Length of the given report packet (in bytes).
 
 ## -remarks
 
+The caller should use [HidP_GetVersion](nf-hidpi-hidp_getversion.md) to determine if this function is available. **HidP_GetButtonArray** is only available if **HidP_GetVersion** returns a value >= 2.
+
 A button array occurs when the last usage in the sequence of usages describing a main item, must be repeated because there are less usages defined than the *ReportCount* declared for the given main item. In this case, a single **HIDP_BUTTON_CAPS** is allocated for that usage and the *ReportCount* of the **HIDP_BUTTON_CAPS** is set to reflect the number of fields to which the usage refers.
 
 A **HIDP_BUTTON_CAPS** that describes a button array will always have *ReportCount* greater than one. If *ReportCount* equals one, then it is not a button array and cannot be used with **HidP_GetButtonArray**. See [HidP_GetUsages](nf-hidpi-hidp_getusages.md) instead.
 
 ## -see-also
 
+- [HidP_GetVersion](nf-hidpi-hidp_getversion.md)
 - [HIDP_BUTTON_ARRAY_DATA](ns-hidpi-hidp_button_array_data.md)
 - [HIDP_REPORT_TYPE](ne-hidpi-_hidp_report_type.md)
 - [HIDP_BUTTON_CAPS](ns-hidpi-_hidp_button_caps.md)
