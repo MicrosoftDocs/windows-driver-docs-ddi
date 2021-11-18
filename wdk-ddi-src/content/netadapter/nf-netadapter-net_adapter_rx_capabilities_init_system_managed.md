@@ -50,9 +50,9 @@ The **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED** function initializes a [
 
 A pointer to a driver-allocated [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure.
 
-### -param MaximumFragmentBufferSize
+### -param MaximumFrameSize
 
-The maximum fragment buffer size, in bytes, that the adapter can receive.
+The maximum frame size, in bytes, that the adapter can receive.
 
 ### -param MaximumNumberOfQueues
 

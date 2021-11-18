@@ -54,7 +54,7 @@ The <i>NdkListen</i> (<i>NDK_FN_LISTEN</i>) function puts an NDK listener object
 
 A pointer to an NDK listener object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 
-### -param PSOCKADDR
+### -param pAddress
 
 A local address to listen on. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
 

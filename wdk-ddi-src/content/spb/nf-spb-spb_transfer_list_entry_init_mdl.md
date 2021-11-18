@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_MDL function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to use an MDL to describe a data buffer.
 old-location: spb\spb_transfer_list_entry_init_mdl.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_MDL function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_mdl, SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL
 req.header: spb.h
@@ -42,46 +42,36 @@ api_name:
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_MDL function
 
-
 ## -description
 
-The <b>SPB_TRANSFER_LIST_ENTRY_INIT_MDL</b> function returns an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a> structure that is initialized to use an MDL to describe a data buffer.
+The **SPB_TRANSFER_LIST_ENTRY_INIT_MDL** function returns an [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md) structure that is initialized to use an MDL to describe a data buffer.
 
 ## -parameters
 
 ### -param Direction [in]
 
-
-The direction of the transfer. The function writes this value to the <b>Direction</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
+The direction of the transfer. The function writes this value to the **Direction** member of the **SPB_TRANSFER_LIST_ENTRY** structure.
 
 ### -param DelayInUs [in]
 
-
-An optional delay in microseconds. The function writes this value to the <b>DelayInUs</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
+An optional delay in microseconds. The function writes this value to the **DelayInUs** member of the **SPB_TRANSFER_LIST_ENTRY** structure.
 
 ### -param Mdl [in]
 
-
-A pointer to an MDL that describes a data buffer. The function writes this value to the <b>Buffer.Mdl</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure. For more information, see the description of the <b>Mdl</b> member in <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>.
+A pointer to an MDL that describes a data buffer. The function writes this value to the **Buffer.Mdl** member of the **SPB_TRANSFER_LIST_ENTRY** structure. For more information, see the description of the **Mdl** member in [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md).
 
 ## -returns
 
-<b>SPB_TRANSFER_LIST_ENTRY_INIT_MDL</b> returns an initialized <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
+**SPB_TRANSFER_LIST_ENTRY_INIT_MDL** returns an initialized **SPB_TRANSFER_LIST_ENTRY** structure.
 
 ## -remarks
 
-This initialization function returns an unnamed local variable of type <b>SPB_TRANSFER_LIST_ENTRY</b>. The storage for this variable is allocated in the caller's stack frame and is valid while the stack frame remains in scope.
+This initialization function returns an unnamed local variable of type **SPB_TRANSFER_LIST_ENTRY**. The storage for this variable is allocated in the caller's stack frame and is valid while the stack frame remains in scope.
 
-<b>SPB_TRANSFER_LIST_ENTRY_INIT_MDL</b> sets the <b>Buffer.Format</b> member of the  <b>SPB_TRANSFER_LIST_ENTRY</b> structure to <b>SpbTransferBufferFormatMdl</b>. For more information about buffer formats, see <a href="/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_buffer_format">SPB_TRANSFER_BUFFER_FORMAT</a>.
+**SPB_TRANSFER_LIST_ENTRY_INIT_MDL** sets the **Buffer.Format** member of the **SPB_TRANSFER_LIST_ENTRY** structure to **SpbTransferBufferFormatMdl**. For more information about buffer formats, see [SPB_TRANSFER_BUFFER_FORMAT](./ne-spb-spb_transfer_buffer_format.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_buffer_format">SPB_TRANSFER_BUFFER_FORMAT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
+- [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md)
+- [SPB_TRANSFER_BUFFER_FORMAT](./ne-spb-spb_transfer_buffer_format.md)
+- [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)

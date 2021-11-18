@@ -57,9 +57,7 @@ A NETWAKESOURCE object that represents this bitmap pattern wake source.
 
 A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_BITMAP_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_bitmap_parameters.md) structure that receives the bitmap pattern parameters.
 
-## -returns
 
-This function does not return a value.
 
 ## -remarks
 

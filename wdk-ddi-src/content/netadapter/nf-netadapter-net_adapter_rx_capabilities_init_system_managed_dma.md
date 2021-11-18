@@ -54,9 +54,9 @@ A pointer to a driver-allocated [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net
 
 A pointer to a driver-allocated and initialized [NET_ADAPTER_DMA_CAPABILITIES](ns-netadapter-_net_adapter_dma_capabilities.md) structure.
 
-### -param MaximumFragmentBufferSize
+### -param MaximumFrameSize
 
-The maximum fragment buffer size, in bytes, that the adapter can receive.
+The maximum frame size, in bytes, that the adapter can receive.
 
 ### -param MaximumNumberOfQueues
 

@@ -72,9 +72,6 @@ Flags specifying the layer 4 protocols that the NIC can successfully perform RSC
 
 A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

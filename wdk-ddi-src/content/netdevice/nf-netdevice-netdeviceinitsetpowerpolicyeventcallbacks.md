@@ -57,9 +57,6 @@ A pointer to a WDFDEVICE_INIT object that the client driver received in its [*Ev
 
 A pointer to a client driver allocated and initialized [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

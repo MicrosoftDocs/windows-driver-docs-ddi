@@ -57,9 +57,6 @@ The NETPOWEROFFLOAD object that represents this NS protocol offload.
 
 A pointer to a driver-allocated [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_ns_parameters.md) structure that receives the NS parameter information.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

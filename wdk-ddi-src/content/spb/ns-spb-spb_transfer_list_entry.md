@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_ENTRY (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_list_entry.htm
 tech.root: SPB
-ms.date: 09/14/2021
+ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST_ENTRY structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_list_entry, SPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_LIST_ENTRY, spb/SPB_TRANSFER_LIST_ENTRY"
 req.header: spb.h
@@ -55,8 +55,8 @@ The **SPB_TRANSFER_LIST_ENTRY** structure describes a single transfer in an [I/O
 
 The direction of the transfer. This member is set to one of the following [SPB_TRANSFER_DIRECTION](./ne-spb-spb_transfer_direction.md) enumeration values:
 
-* **SpbTransferDirectionFromDevice**
-* **SpbTransferDirectionToDevice**
+- **SpbTransferDirectionFromDevice**
+- **SpbTransferDirectionToDevice**
 
 ### -field DelayInUs
 
@@ -72,8 +72,8 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 ## -see-also
 
-* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
-* [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md)
-* [SPB_TRANSFER_DESCRIPTOR](../spbcx/ns-spbcx-spb_transfer_descriptor.md)
-* [SPB_TRANSFER_DIRECTION](./ne-spb-spb_transfer_direction.md)
-* [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)
+- [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+- [SPB_TRANSFER_BUFFER](./ns-spb-spb_transfer_buffer.md)
+- [SPB_TRANSFER_DESCRIPTOR](../spbcx/ns-spbcx-spb_transfer_descriptor.md)
+- [SPB_TRANSFER_DIRECTION](./ne-spb-spb_transfer_direction.md)
+- [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)

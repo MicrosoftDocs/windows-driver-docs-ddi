@@ -53,9 +53,6 @@ The **NET_WAKE_SOURCE_LIST_INIT** function initializes a [**NET_WAKE_SOURCE_LIST
 
 A pointer to a driver-allocated [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 
