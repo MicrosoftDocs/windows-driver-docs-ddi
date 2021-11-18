@@ -2,7 +2,7 @@
 UID: NF:hidpi.HidP_GetVersion
 tech.root: hid
 title: HidP_GetVersion
-ms.date: 11/17/2021
+ms.date: 11/18/2021
 targetos: Windows
 description: The HidP_GetVersion function is a header-only implementation that returns the HID API version.
 prerelease: false
@@ -56,7 +56,9 @@ The version of the HID API.
 
 ## -remarks
 
-The [HidP_GetButtonArray](nf-hidpi-hidp_getbuttonarray.md) and [HidP_SetButtonArray](nf-hidpi-hidp_setbuttonarray.md) functions are only available on operating systems where **HidP_GetVersion** returns a value >= 2.
+Call **HidP_GetVersion** at runtime before using [HidP_GetButtonArray](nf-hidpi-hidp_getbuttonarray.md) or [HidP_SetButtonArray](nf-hidpi-hidp_setbuttonarray.md). The **HidP_GetButtonArray** and **HidP_SetButtonArray** functions are only available on operating systems where **HidP_GetVersion** returns a value of two or greater. Version two of the API corresponds to Windows 11.
+
+**HidP_GetVersion** is safe to call on down-level systems because it is a header-only implementation.
 
 ## -see-also
 

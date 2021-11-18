@@ -2,9 +2,9 @@
 UID: NF:hidpi.HidP_GetButtonArray
 tech.root: hid
 title: HidP_GetButtonArray
-ms.date: 11/17/2021
+ms.date: 11/18/2021
 targetos: Windows
-description: HidP_GetButtonArray returns an array of HIDP_BUTTON_ARRAY_DATA structures, one for each button that is set to ON, for the specified report.
+description: HidP_GetButtonArray returns an array of HIDP_BUTTON_ARRAY_DATA structures for the specified report.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**HidP_GetButtonArray** returns an array of [HIDP_BUTTON_ARRAY_DATA](ns-hidpi-hidp_button_array_data.md) structures, one for each button that is set to `ON`, for the specified report.
+**HidP_GetButtonArray** returns an array of [HIDP_BUTTON_ARRAY_DATA](ns-hidpi-hidp_button_array_data.md) structures for the specified report.
 
 ## -parameters
 
@@ -72,15 +72,15 @@ As input, this parameter specifies the length of the *ButtonData* parameter in n
 
 ### -param PreparsedData
 
-The preparsed data returned by the [HIDCLASS](../hidclass/index.md).
+The pre-parsed data returned by the [HIDCLASS](../hidclass/index.md).
 
 ### -param Report
 
-The report packet. (Note: The first byte MUST be the ReportId; this will be correctly set if the report is read from the system)
+The report packet. The first byte must be the *ReportId*. This will be correctly set if the report is read from the system.
 
 ### -param ReportLength
 
-Length of the given report packet (in bytes).
+Length of the given report packet in bytes.
 
 ## -returns
 
@@ -99,7 +99,7 @@ Length of the given report packet (in bytes).
 
 ## -remarks
 
-The caller should use [HidP_GetVersion](nf-hidpi-hidp_getversion.md) to determine if this function is available. **HidP_GetButtonArray** is only available if **HidP_GetVersion** returns a value >= 2.
+The caller should use [HidP_GetVersion](nf-hidpi-hidp_getversion.md) to determine if this function is available. **HidP_GetButtonArray** is only available if **HidP_GetVersion** returns a value of two or greater. Version two of the API corresponds to Windows 11.
 
 A button array occurs when the last usage in the sequence of usages describing a main item, must be repeated because there are less usages defined than the *ReportCount* declared for the given main item. In this case, a single **HIDP_BUTTON_CAPS** is allocated for that usage and the *ReportCount* of the **HIDP_BUTTON_CAPS** is set to reflect the number of fields to which the usage refers.
 

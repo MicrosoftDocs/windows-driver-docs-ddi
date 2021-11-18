@@ -50,18 +50,15 @@ The **HidD_GetInputReport** routine returns an input reports from a [top-level c
 
 ### -param HidDeviceObject [in]
 
-
- Specifies an open handle to a top-level collection.
+Specifies an open handle to a top-level collection.
 
 ### -param ReportBuffer [out]
-
 
 Pointer to a caller-allocated input report buffer that the caller uses to specify a HID report ID and **HidD_GetInputReport** uses to return the specified input report. 
 
 For more information about this parameter, see the Remarks section.
 
 ### -param ReportBufferLength [in]
-
 
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the input report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
 
@@ -90,7 +87,7 @@ The input report is returned in the *ReportBuffer*  parameter. Depending on the 
 - [HidP_GetUsageValueArray](../hidpi/nf-hidpi-hidp_getusagevaluearray.md)
 - [HidP_GetValueCaps](../hidpi/nf-hidpi-hidp_getvaluecaps.md)
 
-For an example of how to parse a HID report, see the [HClient](/samples/microsoft/windows-driver-samples/hclient-sample-application/)sample application.
+For an example of how to parse a HID report, see the [HClient](/samples/microsoft/windows-driver-samples/hclient-sample-application/) sample application.
 
 Only user-mode applications can call **HidD_GetInputReport**. Kernel-mode drivers can use an [IOCTL_HID_GET_INPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_get_input_report.md)request.
 
@@ -98,16 +95,10 @@ For more information, see [Interpreting HID Reports](/windows-hardware/drivers/h
 
 ## -see-also
 
-[HidD_GetFeature](./nf-hidsdi-hidd_getfeature.md)
-
-[HidD_SetFeature](./nf-hidsdi-hidd_setfeature.md)
-
-[HidD_SetOutputReport](./nf-hidsdi-hidd_setoutputreport.md)
-
-[IOCTL_HID_GET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_get_feature.md)
-
-[IOCTL_HID_GET_INPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_get_input_report.md)
-
-[IOCTL_HID_SET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_set_feature.md)
-
-[IOCTL_HID_SET_OUTPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_set_output_report.md)
+- [HidD_GetFeature](./nf-hidsdi-hidd_getfeature.md)
+- [HidD_SetFeature](./nf-hidsdi-hidd_setfeature.md)
+- [HidD_SetOutputReport](./nf-hidsdi-hidd_setoutputreport.md)
+- [IOCTL_HID_GET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_get_feature.md)
+- [IOCTL_HID_GET_INPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_get_input_report.md)
+- [IOCTL_HID_SET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_set_feature.md)
+- [IOCTL_HID_SET_OUTPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_set_output_report.md)

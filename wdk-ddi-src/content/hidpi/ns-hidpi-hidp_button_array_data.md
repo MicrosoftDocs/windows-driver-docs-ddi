@@ -2,7 +2,7 @@
 UID: NS:hidpi._HIDP_BUTTON_ARRAY_DATA
 tech.root: hid
 title: HIDP_BUTTON_ARRAY_DATA
-ms.date: 11/16/2021
+ms.date: 11/18/2021
 targetos: Windows
 description: The HIDP_BUTTON_ARRAY_DATA structure is used to get or set data for single button in a button array.
 prerelease: false
@@ -50,7 +50,7 @@ The **HIDP_BUTTON_ARRAY_DATA** structure is used to get or set data for single b
 
 ### -field ArrayIndex
 
-The position of the button within the button array. The value will always be less than [HIDP_BUTTON_CAPS.ReportCount](ns-hidpi-_hidp_button_caps.md). This is not an index of a button array within the parsed data.
+The position of the button within the zero-based button array. The value will always be less than [HIDP_BUTTON_CAPS.ReportCount](ns-hidpi-_hidp_button_caps.md). This is not an index of a button array within the parsed data.
 
 ### -field On
 

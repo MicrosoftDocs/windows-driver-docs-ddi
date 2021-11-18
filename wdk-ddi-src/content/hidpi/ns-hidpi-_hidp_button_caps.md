@@ -100,7 +100,7 @@ Specifies, if **TRUE**, that the button usage or usage range provides absolute d
 
 ### -field ReportCount
 
-HID defined report count. Available starting with API version 2.0.
+HID defined report count. Available starting with API version 2.0. Call the [HIDP_GetVersion](nf-hidpi-hidp_getversion.md) function to get the API version.
 
 ### -field Reserved2
 
