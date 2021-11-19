@@ -11,13 +11,13 @@ req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: usbctypes.h
 req.include-header: 
-req.kmdf-ver: 1.33
+req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
-req.umdf-ver: N/A
+req.umdf-ver: 
 targetos: Windows
 topic_type:
  - apiref
@@ -47,7 +47,7 @@ Defines augmented power data object (APDO) types.
 
 ### -field UsbCPdApdoTypeProgrammablePowerSupply
 
-Indicates the PD data object type is a USB programmable power supply.
+Indicates the PD power data object is a programmable power supply augmented power data object (APDO)
 
 ## -remarks
 
