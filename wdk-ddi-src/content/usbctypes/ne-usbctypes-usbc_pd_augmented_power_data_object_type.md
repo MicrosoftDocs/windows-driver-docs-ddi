@@ -11,7 +11,7 @@ req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: usbctypes.h
 req.include-header: 
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.33
 req.max-support: 
 req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: 
