@@ -62,7 +62,7 @@ A pointer to a [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/
 
 ### -param RequestedInformation [out]
 
-A pointer to a [**DXGKMDT_OPM_REQUESTED_INFORMATION**](ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that receives the protected output object's COPP-compatible information if *DxgkDdiOPMGetCOPPCompatibleInformation* returns successfully.
+A pointer to a [**DXGKMDT_OPM_REQUESTED_INFORMATION**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that receives the protected output object's COPP-compatible information if *DxgkDdiOPMGetCOPPCompatibleInformation* returns successfully.
 
 If *DxgkDdiOPMGetCOPPCompatibleInformation* fails, the value that **RequestedInformation** points to is unchanged.
 
@@ -110,9 +110,9 @@ The driver must perform the following sequence when its *DxgkDdiOPMGetCOPPCompat
 
 2. Retrieve the requested information.
 
-3. Copy the random number that the **rnRandomNumber** member of [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md) specifies to the **rnRandomNumber** member of the DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, or DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure. The structure that is used depends on the type of information that the caller requested. The structure is set in the **abRequestedInformation** member of the [**DXGKMDT_OPM_REQUESTED_INFORMATION**](ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that the **RequestedInformation** parameter points to.
+3. Copy the random number that the **rnRandomNumber** member of [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md) specifies to the **rnRandomNumber** member of the DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, or DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure. The structure that is used depends on the type of information that the caller requested. The structure is set in the **abRequestedInformation** member of the [**DXGKMDT_OPM_REQUESTED_INFORMATION**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that the **RequestedInformation** parameter points to.
 
-4. Sign the [**DXGKMDT_OPM_REQUESTED_INFORMATION**](ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure and place the signature in the **omac** member of DXGKMDT_OPM_REQUESTED_INFORMATION. The AES block cipher and the OMAC-1 signing algorithm should be used to sign the structure. For information about AES, see the [RSA Laboratories](https://www.rsa.com) website. For information about OMAC-1, see the [**DXGKMDT_OPM_OMAC**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_omac.md) reference page.
+4. Sign the [**DXGKMDT_OPM_REQUESTED_INFORMATION**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure and place the signature in the **omac** member of DXGKMDT_OPM_REQUESTED_INFORMATION. The AES block cipher and the OMAC-1 signing algorithm should be used to sign the structure. For information about AES, see the [RSA Laboratories](https://www.rsa.com) website. For information about OMAC-1, see the [**DXGKMDT_OPM_OMAC**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_omac.md) reference page.
 
 Initially, the DirectX graphics kernel subsystem calls *DxgkDdiOPMGetCOPPCompatibleInformation* to retrieve information about the output and then calls [*DxgkDdiOPMConfigureProtectedOutput*](nc-dispmprt-dxgkddi_opm_configure_protected_output.md) one or more times to configure the output. Subsequently, the DirectX graphics kernel subsystem calls *DxgkDdiOPMGetCOPPCompatibleInformation* without also calling *DxgkDdiOPMConfigureProtectedOutput*.
 

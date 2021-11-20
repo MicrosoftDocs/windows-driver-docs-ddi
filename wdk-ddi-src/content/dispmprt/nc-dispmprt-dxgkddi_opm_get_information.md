@@ -62,7 +62,7 @@ A pointer to a [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/
 
 ### -param RequestedInformation [out]
 
-A pointer to a [**DXGKMDT_OPM_REQUESTED_INFORMATION**](ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that receives the protected output object's information if *DxgkDdiOPMGetInformation* returns successfully.
+A pointer to a [**DXGKMDT_OPM_REQUESTED_INFORMATION**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that receives the protected output object's information if *DxgkDdiOPMGetInformation* returns successfully.
 
 If *DxgkDdiOPMGetInformation* fails, the value that **RequestedInformation** points to is unchanged.
 
