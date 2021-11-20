@@ -1,16 +1,16 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION
-title: _DXGK_TIMED_OPERATION (dispmprt.h)
+title: DXGK_TIMED_OPERATION (dispmprt.h)
 description: The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the Timed Operation Interface.
 old-location: display\dxgk_timed_operation.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 11/19/2021
 keywords: ["DXGK_TIMED_OPERATION structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], _DXGK_TIMED_OPERATION, display.dxgk_timed_operation, dispmprt/DXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +46,11 @@ api_name:
  - DXGK_TIMED_OPERATION
 ---
 
-# _DXGK_TIMED_OPERATION structure
-
+# DXGK_TIMED_OPERATION structure
 
 ## -description
 
-The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the <a href="/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>.
+The **DXGK_TIMED_OPERATION** structure describes a timed operation, which is used in the [Timed Operation Interface](ns-dispmprt-_dxgk_timed_operation_interface.md).
 
 ## -struct-fields
 
@@ -85,5 +84,4 @@ Display miniport drivers should not change of rely on members that are marked wi
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>
-
+[**DXGK_TIMED_OPERATION_INTERFACE**](ns-dispmprt-_dxgk_timed_operation_interface.md)
