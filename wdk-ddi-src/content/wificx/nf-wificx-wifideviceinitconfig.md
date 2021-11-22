@@ -56,7 +56,7 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may r
 
 ## -remarks
 
-In its [*EVT_WDF_DRIVER_DEVICE_ADD*](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) callback function, a WifiCx client driver calls **WifiDeviceInitConfig** after calling [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md) but before calling [**WdfDeviceCreate**](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate).
+In its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function, a WifiCx client driver calls **WifiDeviceInitConfig** after calling [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md) but before calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 The driver must reference the same [**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init) object passed in by the framework.
 
@@ -64,8 +64,8 @@ The driver must reference the same [**WDFDEVICE_INIT**](/windows-hardware/driver
 
 [**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init)
 
-[*EVT_WDF_DRIVER_DEVICE_ADD*](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) 
+[*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) 
 
 [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md)
 
-[**WdfDeviceCreate**](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)

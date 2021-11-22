@@ -64,7 +64,7 @@ The WiFiCx framework invokes *EvtWifiDeviceSendCommand* to issue a command messa
 
 - To complete the request, the driver sends the M3 for the command asynchronously by calling [**WifiRequestComplete**](nf-wificx-wifirequestcomplete.md). 
 
-- If this command is a set command and the original request did not contain a large enough buffer, the client should call [**WifiRequestSetBytesNeeded**](/windows-hardware/drivers/ddi/wificx/nf-wificx-wifirequestsetbytesneeded) to set the required buffer size and then fail the request with status BUFFER\_OVERFLOW.
+- If this command is a set command and the original request did not contain a large enough buffer, the client should call [**WifiRequestSetBytesNeeded**](./nf-wificx-wifirequestsetbytesneeded.md) to set the required buffer size and then fail the request with status BUFFER\_OVERFLOW.
 
 - If this command is a task command, the client driver needs to later send the associated M4 indication by calling [**WifiDeviceReceiveIndication**](nf-wificx-wifidevicereceiveindication.md) and pass the indication buffer with a WDI header that contains the same message ID as contained in the M1.
 
@@ -80,4 +80,4 @@ For more information, see [Handling WiFiCx command messages](/windows-hardware/d
 
 [**WifiRequestGetMessageId**](nf-wificx-wifirequestgetmessageid.md)
 
-[**WifiRequestComplete**](nf-wificx-wifirequestcomplete.md) 
+[**WifiRequestComplete**](nf-wificx-wifirequestcomplete.md)

@@ -58,7 +58,7 @@ A constant from the [**DXGK_SERVICES**](ne-dispmprt-dxgk_services.md) enumeratio
 
 ### -param Interface [in, out]
 
-A pointer to an [**INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) structure that receives the requested interface.
+A pointer to an [**INTERFACE**](../wdm/ns-wdm-_interface.md) structure that receives the requested interface.
 
 ## -returns
 
@@ -78,7 +78,7 @@ To obtain an Accelerated Graphics Port (AGP) interface, do the following:
 
 3. Set the **Version** member. Version constants are defined in *Dispmprt.h* (for example, DXGK_AGP_INTERFACE_VERSION_1).
 
-4. Call **DxgkCbQueryServices**; set **ServicesType** to **DxgkServicesAgp**, and set **Interface** to the address (cast as [PINTERFACE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface)) of your **DXGK_AGP_INTERFACE** structure.
+4. Call **DxgkCbQueryServices**; set **ServicesType** to **DxgkServicesAgp**, and set **Interface** to the address (cast as [PINTERFACE](../wdm/ns-wdm-_interface.md)) of your **DXGK_AGP_INTERFACE** structure.
 
 5. On return from **DxgkCbQueryServices**, your **DXGK_AGP_INTERFACE** structure will contain pointers to the AGP interface functions; for example, [**AgpAllocatePool**](nc-dispmprt-dxgkcb_agp_allocate_pool.md).
 
@@ -132,4 +132,4 @@ The [Simple Peripheral Bus (SPB)](ns-dispmprt-_dxgk_spb_interface.md) and [Syste
 
 [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md)
 
-[**INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface)
+[**INTERFACE**](../wdm/ns-wdm-_interface.md)
