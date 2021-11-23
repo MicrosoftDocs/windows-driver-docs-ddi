@@ -128,7 +128,7 @@ The **FILE_RENAME_INFORMATION** structure is used to rename a file. This operati
 
 * Call [**FltSetInformationFile**](../fltkernel/nf-fltkernel-fltsetinformationfile.md) or [**ZwSetInformationFile**](nf-ntifs-ntsetinformationfile.md), passing **FileRenameInformation** as the value of **FileInformationClass** and passing a caller-allocated buffer formatted as a **FILE_RENAME_INFORMATION** structure for the value of **FileInformation**. The **FileHandle** parameter specifies the file to be renamed.
 
-* Create an IRP with major function code [**IRP_MJ_SET_INFORMATION**](../ifs/irp-mj-set-information.md).
+* Create an IRP with major function code [**IRP_MJ_SET_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-information).
 
 File system minifilters must use [**FltSetInformationFile**](../fltkernel/nf-fltkernel-fltsetinformationfile.md), not [**ZwSetInformationFile**](nf-ntifs-ntsetinformationfile.md), to rename a file.
 
@@ -182,6 +182,6 @@ The size of the **FileInformation** buffer passed to [**ZwSetInformationFile**](
 
 [**FltSetInformationFile**](../fltkernel/nf-fltkernel-fltsetinformationfile.md)
 
-[**IRP_MJ_SET_INFORMATION**](../ifs/irp-mj-set-information.md)
+[**IRP_MJ_SET_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-information)
 
 [**ZwSetInformationFile**](nf-ntifs-ntsetinformationfile.md)
