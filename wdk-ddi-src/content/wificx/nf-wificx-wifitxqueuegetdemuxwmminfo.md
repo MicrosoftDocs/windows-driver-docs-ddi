@@ -56,7 +56,7 @@ Returns the queue priority.
 
 ## -remarks
 
-The client driver should query the queue priority from [*EvtPacketQueueStart*](/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_start).
+The client driver should query the queue priority from [*EvtPacketQueueStart*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_start.md).
 
 For more information, see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
 

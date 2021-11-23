@@ -65,7 +65,7 @@ Indicates a feature report.
 
 ## -see-also
 
-- [HIDP_BUTTON_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps)
-- [HIDP_VALUE_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps)
-- [HidP_GetData](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata)
-- [HidP_SetData](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setdata)
+- [HIDP_BUTTON_CAPS](./ns-hidpi-_hidp_button_caps.md)
+- [HIDP_VALUE_CAPS](./ns-hidpi-_hidp_value_caps.md)
+- [HidP_GetData](./nf-hidpi-hidp_getdata.md)
+- [HidP_SetData](./nf-hidpi-hidp_setdata.md)

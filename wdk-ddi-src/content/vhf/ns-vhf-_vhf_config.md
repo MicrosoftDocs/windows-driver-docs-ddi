@@ -118,8 +118,8 @@ Required for kernel-mode drivers. A pointer to the <a href="/windows-hardware/dr
 
 ### -field FileHandle
 
-Required for user-mode drivers. A file handle obtained by calling [**WdfIoTargetWdmGetTargetFileHandle**](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle).
-To open a WDFIOTARGET, a user-mode (UMDF) VHF source driver should call [**WdfIoTargetOpen**](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen) with **OpenParams.Type** set
+Required for user-mode drivers. A file handle obtained by calling [**WdfIoTargetWdmGetTargetFileHandle**](../wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md).
+To open a WDFIOTARGET, a user-mode (UMDF) VHF source driver should call [**WdfIoTargetOpen**](../wdfiotarget/nf-wdfiotarget-wdfiotargetopen.md) with **OpenParams.Type** set
  to **WdfIoTargetOpenLocalTargetByFile**.
 
 ### -field VendorID
@@ -182,4 +182,3 @@ Optional. A pointer to a <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_v
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-
