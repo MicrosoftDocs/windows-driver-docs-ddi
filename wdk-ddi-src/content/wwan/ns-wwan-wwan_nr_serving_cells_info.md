@@ -83,7 +83,7 @@ The average Reference Signal Received Quality. The range is 0 to 127 and mapped 
 
 The average Reference Signal to Noise and Interference Ratio. The range is 0 to 127 and mapped to -23 to 40 dB. Use 0xFFFFFFFF when this information is not available.
 
-### -field NTimingAdvanceOffset
+### -field TimingAdvance
 
 The timing advance value in microseconds, where the formula is defined in section 7.2 in [5G; NR; Requirements for support of radio resource management](https://www.etsi.org/deliver/etsi_ts/138100_138199/138133/15.06.00_60/ts_138133v150600p.pdf). Use 0xFFFFFFFF when this information is not available.
 

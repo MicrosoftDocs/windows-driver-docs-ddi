@@ -60,7 +60,7 @@ A handle to a context area that the miniport driver allocated in its
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
-### -param OPTIONAL
+### -param MiniportVcContext [in]
 
 A handle to a miniport driver-allocated context area in which the miniport driver maintains its
      per-virtual connection (VC) state. The miniport driver supplied this handle to NDIS from its 

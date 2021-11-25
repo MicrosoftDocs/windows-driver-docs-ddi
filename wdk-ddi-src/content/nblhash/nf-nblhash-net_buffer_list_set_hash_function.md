@@ -48,11 +48,11 @@ The **NET_BUFFER_LIST_SET_HASH_FUNCTION** macro sets the hash function informati
 
 ## -parameters
 
-### -param _NBL
+### -param NBL
 
 A pointer to a **NET_BUFFER_LIST** structure.
 
-### -param _HashFunction
+### -param HashFunction
 
 The hash function that is used. For more information, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions).
 

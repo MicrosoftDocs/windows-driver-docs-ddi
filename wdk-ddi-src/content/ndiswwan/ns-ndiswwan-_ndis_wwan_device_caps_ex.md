@@ -172,12 +172,6 @@ The operation failed because the device is in the process of initializing. Retry
 
 ### -field DeviceCaps
 
- 
-
-
-
-
-### -field DeviceCapsEx
 
 A formatted 
      <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps_ex">WWAN_DEVICE_CAPS_EX</a> structure that has an <b>ExecutorIndex</b> member and Microsoft service extension member added to the existing <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a> structure.

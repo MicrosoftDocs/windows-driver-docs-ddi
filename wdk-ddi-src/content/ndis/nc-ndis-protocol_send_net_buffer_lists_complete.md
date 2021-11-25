@@ -62,8 +62,6 @@ A handle to a context area that the protocol driver allocated to maintain state 
      a binding. This handle was passed to NDIS in a previous call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
-### -param NetBufferList
-
 ### -param SendCompleteFlags [in]
 
 
@@ -73,7 +71,7 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
      <a href="/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 
-### -param NetBufferLists [in]
+### -param NetBufferList [in]
 
 A pointer to a list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the

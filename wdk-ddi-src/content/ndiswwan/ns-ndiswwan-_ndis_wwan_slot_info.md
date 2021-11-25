@@ -182,13 +182,6 @@ The operation failed because the device does not support this OID.
 
 ### -field SlotInfo
 
- 
-
-
-
-
-### -field SlotInfoStatus
-
 A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a> structure which represents the status of a slot in the modem.
 
 ## -see-also

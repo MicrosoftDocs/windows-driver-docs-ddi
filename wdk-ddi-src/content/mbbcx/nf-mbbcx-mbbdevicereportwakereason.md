@@ -57,10 +57,6 @@ A handle to the WDFDEVICE object.
 
 A [**MBB_WAKE_REASON_TYPE**](../mbbcx/ne-mbbcx-_mbb_wake_reason_type.md) value that describes the reason for the wake-up event.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 ## -see-also
