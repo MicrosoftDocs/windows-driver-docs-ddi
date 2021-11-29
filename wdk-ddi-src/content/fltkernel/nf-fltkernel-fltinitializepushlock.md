@@ -4,7 +4,7 @@ title: FltInitializePushLock function (fltkernel.h)
 description: The FltInitializePushLock routine initializes a push lock variable.
 old-location: ifsk\fltinitializepushlock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/29/2021
 keywords: ["FltInitializePushLock function"]
 ms.keywords: FltApiRef_e_to_o_348be4fc-280f-4dc3-b5fb-ada1aa037d09.xml, FltInitializePushLock, FltInitializePushLock routine [Installable File System Drivers], fltkernel/FltInitializePushLock, ifsk.fltinitializepushlock
 req.header: fltkernel.h
@@ -60,7 +60,7 @@ None
 
 ## -remarks
 
-Push locks are rarely a good choice for file system minifilters.  As described below some of their characteristics are deeply incompatible with the inherently re-entrant nature of file systems.  
+Push locks are rarely a good choice for file system minifilters.  As described below, some of their characteristics can be incompatible with the inherently re-entrant nature of file systems.  
 
 Push locks are similar to <a href="/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE structures</a> (also called "resources") in the following ways: 
 
