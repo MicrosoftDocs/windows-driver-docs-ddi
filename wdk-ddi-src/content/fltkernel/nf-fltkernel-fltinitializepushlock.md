@@ -93,7 +93,7 @@ There are no support routines for determining the current owner of a push lock a
 For the same reason there are no support extensions for determining the current owner of a push lock at debug time, and thus diagnosing deadlocks.  (Users of ERESOURCE structures can use the <code>!locks</code> extension in kd or windbg to find this out.)
 </li>
 <li>
-There is no verifier support to help early diagnosis of deadlocks through pish locks.
+There is no driver verifier support to help early diagnosis of deadlocks through push locks.
 </li>
 <li>
 Exclusive push locks cannot be acquired recursively.
