@@ -99,10 +99,10 @@ The following table contains examples of output values that result from various 
 | "FGH" | 16 | 15 |
 | " " | 10 | 0 |
 
-A related routine, [RtlIntegerToUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring), converts an integer value to the equivalent Unicode string representation.
+A related routine, [RtlIntegerToUnicodeString](./nf-wdm-rtlintegertounicodestring.md), converts an integer value to the equivalent Unicode string representation.
 
 ## -see-also
 
-[RtlIntegerToUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring)
+[RtlIntegerToUnicodeString](./nf-wdm-rtlintegertounicodestring.md)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

@@ -59,8 +59,8 @@ Reserved for use by the operating system.
 
 ## -remarks
 
-The **Mode** member of the [SPB_MULTI_SPI_TRANSFER_HEADER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer_header) structure is an **SPB_MULTI_SPI_TRANSFER_MODE** enumeration value.
+The **Mode** member of the [SPB_MULTI_SPI_TRANSFER_HEADER](./ns-spb-spb_multi_spi_transfer_header.md) structure is an **SPB_MULTI_SPI_TRANSFER_MODE** enumeration value.
 
 ## -see-also
 
-- [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer)
+- [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md)

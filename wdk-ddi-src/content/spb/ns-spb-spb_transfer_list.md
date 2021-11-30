@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST (spb.h)
 description: The SPB_TRANSFER_LIST structure describes an I/O transfer sequence.
 old-location: spb\spb_transfer_list.htm
 tech.root: SPB
-ms.date: 09/13/2021
+ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
 req.header: spb.h
@@ -77,6 +77,6 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 ## -see-also
 
-* [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
-* [IOCTL_SPB_FULL_DUPLEX](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_full_duplex-control-code)
-* [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)
+- [IOCTL_SPB_EXECUTE_SEQUENCE](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_execute_sequence)
+- [IOCTL_SPB_FULL_DUPLEX](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_full_duplex-control-code)
+- [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md)

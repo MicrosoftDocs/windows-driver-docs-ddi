@@ -59,16 +59,11 @@ product:
 
 ### -field TieBreaker
 
+If set, indicates that group ownership is granted.
+
 ### -field Intent
 
-### -field Intent:7
-
-Group ownership intent level. The value of the local device intent is compared to the remote device intent to negociate ownership.
-
-
-### -field TieBreaker:1
-
-If set, indicates that group ownership is granted.
+Group ownership intent level. The value of the local device intent is compared to the remote device intent to negotiate ownership.
 
 ## -syntax
 

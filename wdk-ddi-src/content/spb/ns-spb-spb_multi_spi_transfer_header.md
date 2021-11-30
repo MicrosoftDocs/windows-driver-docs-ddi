@@ -51,7 +51,7 @@ The size, in bytes, of the parent **SPB_MULTI_SPI_TRANSFER** structure, not incl
 
 ### -field Mode
 
-An [SPB_MULTI_SPI_TRANSFER_MODE](/windows-hardware/drivers/ddi/spb/ne-spb-spb_multi_spi_transfer_mode) enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
+An [SPB_MULTI_SPI_TRANSFER_MODE](./ne-spb-spb_multi_spi_transfer_mode.md) enumeration value, specifying the line mode of the multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.
 
 ### -field WritePhaseSingleSpiByteCount
 
@@ -67,8 +67,8 @@ The **SPB_MULTI_SPI_READ_TRANSFER_INIT**,  **SPB_MULTI_SPI_WRITE_TRANSFER_INIT**
 
 ## -see-also
 
-- [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer)
-- [SPB_MULTI_SPI_READ_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_read_transfer)
-- [SPB_MULTI_SPI_READ_TRANSFER_INIT](/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_read_transfer_init)
-- [SPB_MULTI_SPI_WRITE_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_write_transfer)
-- [SPB_MULTI_SPI_WRITE_TRANSFER_INIT](/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_write_transfer_init)
+- [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md)
+- [SPB_MULTI_SPI_READ_TRANSFER](./ns-spb-spb_multi_spi_read_transfer.md)
+- [SPB_MULTI_SPI_READ_TRANSFER_INIT](./nf-spb-spb_multi_spi_read_transfer_init.md)
+- [SPB_MULTI_SPI_WRITE_TRANSFER](./ns-spb-spb_multi_spi_write_transfer.md)
+- [SPB_MULTI_SPI_WRITE_TRANSFER_INIT](./nf-spb-spb_multi_spi_write_transfer_init.md)

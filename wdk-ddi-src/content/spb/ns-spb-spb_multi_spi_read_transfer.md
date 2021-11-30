@@ -2,7 +2,7 @@
 UID: NS:spb.SPB_MULTI_SPI_READ_TRANSFER
 tech.root: SPB
 title: SPB_MULTI_SPI_READ_TRANSFER
-ms.date: 11/11/2021
+ms.date: 11/15/2021
 targetos: Windows
 description: The SPB_MULTI_SPI_READ_TRANSFER structure describes a read operation to be executed in a Multi-SPI (e.g. Dual SPI or Quad SPI) mode.
 prerelease: false
@@ -47,11 +47,11 @@ The **SPB_MULTI_SPI_READ_TRANSFER** structure describes a read operation to be e
 
 ### -field SpiTransfer
 
-A [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer) structure containing the parameters of the transfer, and the write phase buffer.
+A [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md) structure containing the parameters of the transfer, and the write phase buffer.
 
 ### -field ExtraTransfer
 
-An extra [SPB_TRANSFER_LIST_ENTRY](/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry) structure containing the read phase buffer of the transfer operation.
+An extra [SPB_TRANSFER_LIST_ENTRY](./ns-spb-spb_transfer_list_entry.md) structure containing the read phase buffer of the transfer operation.
 
 ## -remarks
 
@@ -59,5 +59,5 @@ After initialization using **SPB_MULTI_SPI_READ_TRANSFER_INIT**, a peripheral dr
 
 ## -see-also
 
-- [SPB_MULTI_SPI_TRANSFER](/windows-hardware/drivers/ddi/spb/ns-spb-spb_multi_spi_transfer)
-- [SPB_MULTI_SPI_READ_TRANSFER_INIT](/windows-hardware/drivers/ddi/spb/nf-spb-spb_multi_spi_read_transfer_init)
+- [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md)
+- [SPB_MULTI_SPI_READ_TRANSFER_INIT](./nf-spb-spb_multi_spi_read_transfer_init.md)

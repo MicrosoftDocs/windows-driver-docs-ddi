@@ -61,7 +61,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_P
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
-### -field PinApp
+### -field PinAction
 
 A formatted [**WWAN_PIN_ACTION_EX2**](../wwan/ns-wwan-_wwan_pin_action_ex2.md) structure that describes the PIN action.
 
