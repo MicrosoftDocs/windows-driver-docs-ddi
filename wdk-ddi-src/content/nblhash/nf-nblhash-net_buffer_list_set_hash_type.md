@@ -48,11 +48,11 @@ The **NET_BUFFER_LIST_SET_HASH_TYPE** macro sets the hash type information in a 
 
 ## -parameters
 
-### -param _NBL
+### -param NBL
 
 A pointer to a **NET_BUFFER_LIST** structure.
 
-### -param _HashType
+### -param HashType
 
 The hash type.
 

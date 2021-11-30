@@ -60,9 +60,7 @@ A handle to the context area for the filter module. The filter driver created an
      context area in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param NetPnPEventNotification
-
-### -param NetPnPEvent [in]
+### -param NetPnPEventNotification [in]
 
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">

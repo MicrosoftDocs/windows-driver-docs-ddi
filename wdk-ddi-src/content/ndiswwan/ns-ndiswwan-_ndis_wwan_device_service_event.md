@@ -107,13 +107,6 @@ For more information about these members, see
 
 ### -field Event
 
- 
-
-
-
-
-### -field EventData
-
 The information from the event.
 
 ## -see-also

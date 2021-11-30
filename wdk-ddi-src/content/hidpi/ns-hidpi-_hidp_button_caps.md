@@ -184,7 +184,7 @@ Reserved for internal system use.
 
 ## -remarks
 
-Clients obtain a [button capability array](/windows-hardware/drivers/hid/button-capability-arrays) by calling [HidP_GetButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps) or [HidP_GetSpecificButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps). These routines return an array of HIDP_BUTTON_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the [HIDP_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps) structure returned by [HidP_GetCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps).
+Clients obtain a [button capability array](/windows-hardware/drivers/hid/button-capability-arrays) by calling [HidP_GetButtonCaps](./nf-hidpi-hidp_getbuttoncaps.md) or [HidP_GetSpecificButtonCaps](./nf-hidpi-hidp_getspecificbuttoncaps.md). These routines return an array of HIDP_BUTTON_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the [HIDP_CAPS](./ns-hidpi-_hidp_caps.md) structure returned by [HidP_GetCaps](./nf-hidpi-hidp_getcaps.md).
 
 For information about the capabilities of HID control values, see [Collection Capability](/windows-hardware/drivers/hid/collection-capability) and [Value Capability Arrays](/windows-hardware/drivers/hid/value-capability-arrays).
 
@@ -192,10 +192,10 @@ When a report descriptor declares an input, output, or feature main item with fe
 
 ## -see-also
 
-- [HIDP_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps)
-- [HIDP_VALUE_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps)
-- [HidP_GetButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps)
-- [HidP_GetCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps)
-- [HidP_GetSpecificButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps)
-- [HidP_GetSpecificValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps)
-- [HidP_GetValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps)
+- [HIDP_CAPS](./ns-hidpi-_hidp_caps.md)
+- [HIDP_VALUE_CAPS](./ns-hidpi-_hidp_value_caps.md)
+- [HidP_GetButtonCaps](./nf-hidpi-hidp_getbuttoncaps.md)
+- [HidP_GetCaps](./nf-hidpi-hidp_getcaps.md)
+- [HidP_GetSpecificButtonCaps](./nf-hidpi-hidp_getspecificbuttoncaps.md)
+- [HidP_GetSpecificValueCaps](./nf-hidpi-hidp_getspecificvaluecaps.md)
+- [HidP_GetValueCaps](./nf-hidpi-hidp_getvaluecaps.md)

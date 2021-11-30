@@ -63,7 +63,7 @@ The modem configuration state is currently not available.
 
 The modem is currently selecting the best suitable configuration file that matches the UICC info.
 
-### -field WwanModemConfigStateActivated
+### -field WwanModemConfigStateCompleted
 
 The modem has completed its configuration and modem subcomponents are aware of the new configuration.
 

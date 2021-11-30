@@ -52,7 +52,7 @@ The <b>WdfFdoQueryForInterface</b> method obtains access to another driver's GUI
 
 ## -parameters
 
-### -param Fdo
+### -param Fdo [in]
 
 <p>A handle to a framework device object.</p>
 

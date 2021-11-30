@@ -82,7 +82,7 @@ A pointer to the <a href="/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call.
 
-A user-mode driver would instead provide a *FileHandle*. For more info, see [**VHF_CONFIG**](/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config).
+A user-mode driver would instead provide a *FileHandle*. For more info, see [**VHF_CONFIG**](./ns-vhf-_vhf_config.md).
 
 ### -param ReportDescriptorLength [in]
 
