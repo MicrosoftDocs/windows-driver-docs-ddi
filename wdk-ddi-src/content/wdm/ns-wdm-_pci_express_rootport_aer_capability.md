@@ -4,7 +4,7 @@ title: _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY (wdm.h)
 description: The _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure (wdm.h) describes a PCI Express (PCIe) advanced error reporting capability structure.
 old-location: pci\pci_express_rootport_aer_capability.htm
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 11/29/2021
 keywords: ["PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI.pci_express_rootport_aer_capability, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, pci_struct_f65551d3-2213-468e-aa94-508b29c11844.xml, wdm/PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, wdm/PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY"
 req.header: wdm.h
@@ -49,7 +49,6 @@ api_name:
 
 # _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure (wdm.h)
 
-
 ## -description
 
 The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI Express (PCIe) advanced error reporting capability structure for a root port or a root complex event collector.
@@ -58,50 +57,50 @@ The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure describes a PCI Express (PCIe)
 
 ### -field Header
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a> structure that describes the header for this structure.
+A [PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header) structure that describes the header for this structure.
 
 ### -field UncorrectableErrorStatus
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_status">PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS</a> structure that describes the PCIe uncorrectable error status register of the PCIe AER capability structure.
+A [PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_status) structure that describes the PCIe uncorrectable error status register of the PCIe AER capability structure.
 
 ### -field UncorrectableErrorMask
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask">PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK</a> structure that describes the PCIe uncorrectable error mask register of the PCIe AER capability structure.
+A [PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) structure that describes the PCIe uncorrectable error mask register of the PCIe AER capability structure.
 
 ### -field UncorrectableErrorSeverity
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_severity">PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY</a> structure that describes the PCIe uncorrectable error severity register of the PCIe AER capability structure.
+A [PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_severity) structure that describes the PCIe uncorrectable error severity register of the PCIe AER capability structure.
 
 ### -field CorrectableErrorStatus
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_status">PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS</a> structure that describes the PCIe uncorrectable error status register of the PCIe AER capability structure.
+A [PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_status) structure that describes the PCIe uncorrectable error status register of the PCIe AER capability structure.
 
 ### -field CorrectableErrorMask
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask">PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK</a> structure that describes the PCIe uncorrectable error mask register of the PCIe AER capability structure.
+A [PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) structure that describes the PCIe uncorrectable error mask register of the PCIe AER capability structure.
 
 ### -field CapabilitiesAndControl
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capabilities">PCI_EXPRESS_AER_CAPABILITIES</a> structure that describes the PCIe advanced error capabilities and control register of the PCIe AER capability structure.
+A [PCI_EXPRESS_AER_CAPABILITIES](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capabilities) structure that describes the PCIe advanced error capabilities and control register of the PCIe AER capability structure.
 
 ### -field HeaderLog
 
 An array of four 32-bit values that together contain the header for the transaction layer packet (TLP) that corresponds to a detected error.
 
-<div class="alert"><b>Note</b>    Within each 32-bit value in the array, the bytes of the TLP are in big-endian byte order.</div>
-<div> </div>
+> [!NOTE]
+> Within each 32-bit value in the array, the bytes of the TLP are in big-endian byte order.
 
 ### -field RootErrorCommand
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_command">PCI_EXPRESS_ROOT_ERROR_COMMAND</a> structure that describes the PCIe root error command register of the PCIe AER capability structure.
+A [PCI_EXPRESS_ROOT_ERROR_COMMAND](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_command) structure that describes the PCIe root error command register of the PCIe AER capability structure.
 
 ### -field RootErrorStatus
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_status">PCI_EXPRESS_ROOT_ERROR_STATUS</a> structure that describes the PCIe root error status register of the PCIe AER capability structure.
+A [PCI_EXPRESS_ROOT_ERROR_STATUS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_status) structure that describes the PCIe root error status register of the PCIe AER capability structure.
 
 ### -field ErrorSourceId
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_error_source_id">PCI_EXPRESS_ERROR_SOURCE_ID</a> structure that describes the PCIe error source identification register of the PCIe AER capability structure.
+A [PCI_EXPRESS_ERROR_SOURCE_ID](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_error_source_id) structure that describes the PCIe error source identification register of the PCIe AER capability structure.
 
 ## -syntax
 
@@ -125,57 +124,34 @@ typedef struct _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY {
 
 The PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure is available in Windows Server 2008 and later versions of Windows.
 
-PCIe bridge devices use the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a> structure instead of the PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
+PCIe bridge devices use the [PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability) structure instead of the PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
 
-All other PCIe devices and ports that are not root ports or root complex event collectors use the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a> structure instead of the PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
+All other PCIe devices and ports that are not root ports or root complex event collectors use the [PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability) structure instead of the PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
 
-For additional information about the PCIe advanced error reporting capability structure, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=69486">PCI Express Specification</a>.
+For additional information about the PCIe advanced error reporting capability structure, see the [PCI Express Specification](https://pcisig.com/specifications/pciexpress/).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_status">PCI_EXPRESS_CORRECTABLE_ERROR_STATUS</a>
+[PCI_EXPRESS_CORRECTABLE_ERROR_STATUS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_status)
 
+[PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_severity)
 
+[PCI_EXPRESS_ROOT_ERROR_STATUS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_status)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_severity">PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY</a>
+[PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask)
 
+[PCI_EXPRESS_ROOT_ERROR_COMMAND](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_command)
 
+[PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_status">PCI_EXPRESS_ROOT_ERROR_STATUS</a>
+[PCI_EXPRESS_AER_CAPABILITIES](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capabilities)
 
+[PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header)
 
+[PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask">PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK</a>
+[PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_status)
 
+[PCI_EXPRESS_ERROR_SOURCE_ID](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_error_source_id)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_root_error_command">PCI_EXPRESS_ROOT_ERROR_COMMAND</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capabilities">PCI_EXPRESS_AER_CAPABILITIES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_status">PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_error_source_id">PCI_EXPRESS_ERROR_SOURCE_ID</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_mask">PCI_EXPRESS_CORRECTABLE_ERROR_MASK</a>
-
+[PCI_EXPRESS_CORRECTABLE_ERROR_MASK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_mask)
