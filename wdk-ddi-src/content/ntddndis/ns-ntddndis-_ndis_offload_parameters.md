@@ -716,6 +716,7 @@ The IPv4 UDP Segmentation Offload (USO) setting of the miniport adapter. This se
 <tr>
 <td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
 <dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
+<dt>0</dt>
 </dl>
 </td>
 <td width="60%">
@@ -726,6 +727,7 @@ The miniport driver should not change the current setting.
 <tr>
 <td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED"></a><a id="ndis_offload_parameters_udp_seg_disabled"></a><dl>
 <dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED</b></dt>
+<dt>1</dt>
 </dl>
 </td>
 <td width="60%">
@@ -736,6 +738,7 @@ USO is disabled.
 <tr>
 <td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED"></a><a id="ndis_offload_parameters_udp_seg_enabled"></a><dl>
 <dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED</b></dt>
+<dt>2</dt>
 </dl>
 </td>
 <td width="60%">
@@ -757,6 +760,7 @@ The IPv6 UDP Segmentation Offload (USO) setting of the miniport adapter. This se
 <tr>
 <td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
 <dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
+<dt>0</dt>
 </dl>
 </td>
 <td width="60%">
@@ -767,6 +771,7 @@ The miniport driver should not change the current setting.
 <tr>
 <td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED"></a><a id="ndis_offload_parameters_udp_seg_disabled"></a><dl>
 <dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED</b></dt>
+<dt>1</dt>
 </dl>
 </td>
 <td width="60%">
@@ -777,6 +782,7 @@ USO is disabled.
 <tr>
 <td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED"></a><a id="ndis_offload_parameters_udp_seg_enabled"></a><dl>
 <dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED</b></dt>
+<dt>2</dt>
 </dl>
 </td>
 <td width="60%">
