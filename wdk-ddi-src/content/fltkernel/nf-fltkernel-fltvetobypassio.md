@@ -75,7 +75,7 @@ A unique, descriptive string that provides details about why the filter is vetoi
 
 ## -remarks
 
-A minifilter calls **FltVetoBypassIo** when it intends to veto a BypassIo [enable or query request](../ntifs/ne-ntifs-fs_bpio_operations.md) on a file.
+A minifilter calls **FltVetoBypassIo** from its pre-operation callback when it intends to veto a BypassIo [enable or query request](../ntifs/ne-ntifs-fs_bpio_operations.md) on a file.
 
 See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 

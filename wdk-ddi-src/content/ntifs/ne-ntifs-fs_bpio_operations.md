@@ -2,7 +2,7 @@
 UID: NE:ntifs._FS_BPIO_OPERATIONS
 tech.root: ifsk
 title: FS_BPIO_OPERATIONS
-ms.date: 07/08/2021
+ms.date: 12/01/2021
 targetos: Windows
 description: FS_BPIO_OPERATIONS defines the various BypassIO operations supported by the FSCTL_MANAGE_BYPASS_IO control code.
 prerelease: false
@@ -43,11 +43,11 @@ dev_langs:
 
 ### -field FS_BPIO_OP_ENABLE
 
-Requests that BypassIO be enabled for the given file, which means a driver might not see all reads/writes for that file. This request can come from user or kernel mode.
+Requests that BypassIO be enabled for the given file, which means a driver might not see all non-cached reads for that file. This request can come from user or kernel mode. (BypassIO on non-cached writes is not currently supported.)
 
 BypassIO is a per file-open concept; that is, this request only impacts the file object that is associated with the enable request, and does not change the behavior of other opens on the same file or stream. If multiple enable requests to the same file object are sent, only the first request is meaningful, and all subsequent requests are ignored.
 
-On the pre-operation:
+In the driver's pre-operation callback:
 
 * If a driver can support BypassIO for the given file, it should forward the request down the stack.
 * If the driver cannot support BypassIO for the given file, it should:
@@ -57,10 +57,8 @@ On the pre-operation:
 
 During the post-operation, the driver can see whether all drivers below it are capable of supporting BypassIO. If yes, the driver should preserve any needed state for the file and continue completion processing. It is the filter's and file system's responsibility to maintain state to properly handle requests that might not be compatible with the BypassIO-enabled state.
 
-During post-operation processing, if a driver determines that it can no longer support BypassIO, it can call [**FltVetoBypassIo**](../fltkernel/nf-fltkernel-fltvetobypassio.md) to inform the stack below it that BypassIO is now disabled. The driver should set the appropriate information in [**FS_BPIO_OUTPUT**](ns-ntifs-fs_bpio_output.md) as to why it can no longer be supported.
-
 > [!NOTE]
-> All filters in the file system stack have the opportunity to veto the BypassIO enable request, but are encouraged to keep it enabled as much as possible.
+> All filters in the file system stack have the opportunity to veto the BypassIO enable request during pre-operation, but are encouraged to keep it enabled as much as possible.
 
 The file system will automatically veto a BypassIO enable request for the following types of files:
 
@@ -72,7 +70,7 @@ The file system will automatically veto a BypassIO enable request for the follow
 * Paging files
 * All files on DAX volumes
 
-Most filters will not need to maintain state that BypassIO has been enabled on a specific stream. Instead, this information can be queried by calling [**FsRtlGetBypassIoOpenCount**](nf-ntifs-fsrtlgetbypassioopencount.md).
+Most filters do not need to maintain state that BypassIO has been enabled on a specific stream. Instead, this information can be queried by calling [**FsRtlGetBypassIoOpenCount**](nf-ntifs-fsrtlgetbypassioopencount.md).
 
 #### Enable example: encryption filter
 
@@ -191,11 +189,11 @@ Returns information about the BypassIO state of the volume. This request can com
 
 ### -field FS_BPIO_OP_MAX_OPERATION
 
-Valid BypassIO operations will be less than this value.
+Valid BypassIO operation values are less than this value.
 
 ## -remarks
 
-See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information on how BypassIO works and for the scope of BypassIO support.
 
 ## -see-also
 
