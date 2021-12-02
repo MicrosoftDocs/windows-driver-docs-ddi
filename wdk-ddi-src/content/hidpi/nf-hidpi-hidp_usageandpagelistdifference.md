@@ -4,7 +4,7 @@ title: HidP_UsageAndPageListDifference function (hidpi.h)
 description: The HidP_UsageAndPageListDifference function returns the difference between two lists of usages.
 old-location: hid\hidp_usageandpagelistdifference.htm
 tech.root: hid
-ms.date: 09/13/2021
+ms.date: 12/02/2021
 keywords: ["HidP_UsageAndPageListDifference function"]
 ms.keywords: HidP_UsageAndPageListDifference, HidP_UsageAndPageListDifference function [Human Input Devices], hid.hidp_usageandpagelistdifference, hidfunc_0c86a540-d046-449f-a6ee-a122141fe6a3.xml, hidpi/HidP_UsageAndPageListDifference
 req.header: hidpi.h
@@ -67,3 +67,7 @@ The list of usages now.
 ### -param UsageListLength
 
 Represents the length of the usage lists in array elements. If comparing two lists with a differing number of array elements, this value is the size of the larger of the two lists. Any zero found with a list indicates an early termination of the list and any usages found after the first zero are ignored.
+
+## returns
+
+**HidP_UsageAndPageListDifference** returns HIDP_STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.

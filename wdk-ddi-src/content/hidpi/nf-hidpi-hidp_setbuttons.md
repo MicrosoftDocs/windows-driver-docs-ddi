@@ -6,7 +6,7 @@ description: The HidP_SetButtons macro is a mnemonic alias for the HidP_SetUsage
 tech.root: hid
 ms.assetid: 60bba768-dde1-4e31-a30a-fbf977aeb750
 ms.author: windowsdriverdev
-ms.date: 1/29/2021
+ms.date: 12/02/2021
 ms.keywords: HidP_SetButtons
 req.header: hidpi.h
 req.include-header: hidpi.h
@@ -43,9 +43,7 @@ targetos: Windows
 
 ## -description
 
-The **HidP\_SetButtons** macro is a mnemonic alias for the [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md) function.
-
-See [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md) for parameter and return details.
+The **HidP_SetButtons** macro is a mnemonic alias for the [**HidP_SetUsages**](./nf-hidpi-hidp_setusages.md) function.
 
 ## -syntax
 
@@ -54,6 +52,44 @@ See [**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md) for parameter and return
         HidP_SetUsages(Rty, Up, Lco, ULi, ULe, Ppd, Rep, Rle)
 ```
 
+## -parameters
+
+### -param Rty [in]
+
+Specifies a [HIDP_REPORT_TYPE](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that indicates the type of report located at *Rep*.
+
+### -param Up [in]
+
+Specifies the [usage page](/windows-hardware/drivers/hid/hid-usages) for the usages specified by *ULi*.
+
+### -param Lco [in]
+
+Specifies the [link collection](/windows-hardware/drivers/hid/link-collections) that contains the usages. If *Lco* is nonzero, the routine only sets the usages, if they exist, in this link collection. If *Lco* is zero, the routine sets the first usage for each specified usage in the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) associated with *Ppd*.
+
+### -param ULi [in, out]
+
+Pointer to the array of usages.
+
+### -param ULe [in, out]
+
+Specifies, on input, the number of usages in *ULi*. See the Remarks section for information about the output value.
+
+### -param Ppd [in]
+
+Pointer to the [pre-parsed data](/windows-hardware/drivers/hid/preparsed-data) of the top-level collection associated with the report located at *Rep*.
+
+### -param Rep [in]
+
+Pointer to a report.
+
+### -param Rle [in]
+
+Specifies the size, in bytes, of the report located at *Rep*, which must be equal to the report length for the specified report type that [HidP_GetCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps) returns in a collection's [HIDP_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps) structure.
+
+## returns
+
+See [**HidP_SetUsages**](./nf-hidpi-hidp_setusages.md) for return value details.
+
 ## -see-also
 
-[**HidP\_SetUsages**](./nf-hidpi-hidp_setusages.md)
+- [**HidP_SetUsages**](./nf-hidpi-hidp_setusages.md)
