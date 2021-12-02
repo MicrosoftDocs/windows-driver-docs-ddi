@@ -4,7 +4,7 @@ title: _BTH_SDP_SERVICE_SEARCH_REQUEST (bthioctl.h)
 description: The BTH_SDP_SERVICE_SEARCH_REQUEST structure contains information pertinent to an SDP service search.
 old-location: bltooth\bth_sdp_service_search_request.htm
 tech.root: bltooth
-ms.date: 05/12/2021
+ms.date: 12/01/2021
 keywords: ["BTH_SDP_SERVICE_SEARCH_REQUEST structure"]
 ms.keywords: "*PBTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices], _BTH_SDP_SERVICE_SEARCH_REQUEST, bltooth.bth_sdp_service_search_request, bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST"
 req.header: bthioctl.h
@@ -62,16 +62,11 @@ Handle returned by the connect request or HANDLE_SDP_LOCAL.
 
 An array of UUIDs that represent the services for which to query. Each entry can be a 2-byte, 4-byte, or 16-byte type, and there can be a maximum of 12 entries. The array can be terminated before all 12 entries are used if a UUID entry contains all zeros.
 
-### -field hConnection
-
-A handle to the remote SDP server that is returned by the [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md) IOCTL.
-
 ## -remarks
 
 This structure is passed as the input buffer to the [IOCTL_BTH_SDP_SERVICE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_search.md) IOCTL.
 
 ## -see-also
 
-[IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)
-
-[IOCTL_BTH_SDP_SERVICE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_search.md)
+- [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)
+- [IOCTL_BTH_SDP_SERVICE_SEARCH](./ni-bthioctl-ioctl_bth_sdp_service_search.md)
