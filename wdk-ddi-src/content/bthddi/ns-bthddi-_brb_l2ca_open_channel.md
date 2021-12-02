@@ -4,7 +4,7 @@ title: _BRB_L2CA_OPEN_CHANNEL (bthddi.h)
 description: The _BRB_L2CA_OPEN_CHANNEL structure describes a L2CAP channel to open to a remote device, or a response from the profile driver accepting or rejecting an incoming L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_channel.htm
 tech.root: bltooth
-ms.date: 05/12/2021
+ms.date: 11/30/2021
 keywords: ["BRB_L2CA_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bthddi/_BRB_L2CA_OPEN_CHANNEL"
 req.header: bthddi.h
@@ -191,10 +191,6 @@ A CHANNEL_CONFIG_RESULTS structure that contains configuration parameters for th
 ### -field IncomingQueueDepth
 
 Specifies the incoming queue length in message transfer units (MTUs).
-
-### -field ( unnamed struct )
-
-A [BRB\_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 #### Response
 
