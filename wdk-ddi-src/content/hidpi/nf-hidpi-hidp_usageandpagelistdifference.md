@@ -48,23 +48,23 @@ The **HidP_UsageAndPageListDifference** function returns the difference between 
 
 ## -parameters
 
-### -param PreviousUsageList
+### -param PreviousUsageList [in, reads]
 
 The list of usages before.
 
-### -param CurrentUsageList
+### -param CurrentUsageList [in, reads]
 
 The list of usages now.
 
-### -param BreakUsageList
+### -param BreakUsageList [out, writes]
 
 *PreviousUsageList* minus *CurrentUsageList*
 
-### -param MakeUsageList
+### -param MakeUsageList [out, writes]
 
 *CurrentUsageList* minus *PreviousUsageList*
 
-### -param UsageListLength
+### -param UsageListLength [in]
 
 Represents the length of the usage lists in array elements. If comparing two lists with a differing number of array elements, this value is the size of the larger of the two lists. Any zero found with a list indicates an early termination of the list and any usages found after the first zero are ignored.
 
