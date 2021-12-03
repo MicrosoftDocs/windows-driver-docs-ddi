@@ -126,8 +126,8 @@ The **FileName** is used as a search expression and is captured on the very firs
 | ----------- | ------- |
 | STATUS_BUFFER_OVERFLOW   | The output buffer isn't large enough to return the full filename. |
 | STATUS_BUFFER_TOO_SMALL  | The output buffer isn't large enough for at least the base structure identified by **FileInformationClass**. |
+| STATUS_INVALID_INFO_CLASS | An invalid **FileInformationClass** was specified, or the information class is valid only for a special condition (for example, valid only for a special directory). |
 | STATUS_INVALID_PARAMETER | One of the parameters is invalid for the file system. |
-| STATUS_NOT_SUPPORTED     | For example, an unsupported ***FileInformationClass** was specified. |
 
 ## -remarks
 

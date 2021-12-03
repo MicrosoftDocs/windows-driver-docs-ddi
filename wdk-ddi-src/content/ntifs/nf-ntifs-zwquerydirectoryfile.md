@@ -103,14 +103,7 @@ When the **ZwQueryDirectoryFile** routine is called for a particular handle, the
 
 ## -returns
 
-The **ZwQueryDirectoryFile** routine returns STATUS_SUCCESS or an appropriate error status. The set of error status values that can be returned is file system-specific. **ZwQueryDirectoryFile** also returns the number of bytes actually written to the given **FileInformation** buffer in the **Information** member of **IoStatusBlock**. Some possible error codes and reasons might be the following:
-
-| Return code | Meaning |
-| ----------- | ------- |
-| STATUS_BUFFER_OVERFLOW   | The output buffer isn't large enough to return the full filename. |
-| STATUS_BUFFER_TOO_SMALL  | The output buffer isn't large enough for at least the base structure identified by **FileInformationClass**. |
-| STATUS_INVALID_PARAMETER | One of the parameters is invalid for the file system. |
-| STATUS_NOT_SUPPORTED     | For example, an unsupported ***FileInformationClass** was specified. |
+The **ZwQueryDirectoryFile** routine returns STATUS_SUCCESS or an appropriate error status. The set of error status values that can be returned is file system-specific. **ZwQueryDirectoryFile** also returns the number of bytes actually written to the given **FileInformation** buffer in the **Information** member of **IoStatusBlock**. See [**NtQueryDirectoryFileEx**](nf-ntifs-ntquerydirectoryfileex.md) for a list of some possible error codes.
 
 ## -remarks
 

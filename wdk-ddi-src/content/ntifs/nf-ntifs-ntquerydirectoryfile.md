@@ -82,23 +82,6 @@ The size, in bytes, of the buffer pointed to by **FileInformation**. The caller 
 
 The type of information to be returned about files in the directory. Type of information to be returned about files in the directory. See the **FileInformationClass** parameter of [**NtQueryDirectoryFileEx**](nf-ntifs-ntquerydirectoryfileex.md) for the list of possible values.
 
-**FileInformationClass** can be one of the following values.
-
-| Value | Meaning |
-| ----- | ------- |
-| **FileDirectoryInformation**        (1) | Return a [**FILE_DIRECTORY_INFORMATION**](ns-ntifs-_file_directory_information.md) structure for each file. |
-| **FileFullDirectoryInformation**    (2) | Return a [**FILE_FULL_DIR_INFORMATION**](ns-ntifs-_file_full_dir_information.md) structure for each file. |
-| **FileBothDirectoryInformation**    (3) | Return a [**FILE_BOTH_DIR_INFORMATION**](ns-ntifs-_file_both_dir_information.md) structure for each file. |
-| **FileNamesInformation**           (12) | Return a [**FILE_NAMES_INFORMATION**](ns-ntifs-_file_names_information.md) structure for each file. |
-| **FileObjectIdInformation**        (29) | Return a [**FILE_OBJECTID_INFORMATION**](ns-ntifs-_file_objectid_information.md) structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\\$Extend\\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes. |
-| **FileQuotaInformation**           (32) | Return a single [**FILE_QUOTA_INFORMATION**](ns-ntifs-_file_quota_information.md) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\\$Extend\\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
-**FileReparsePointInformation**      (33) | Return a single [**FILE_REPARSE_POINT_INFORMATION**](ns-ntifs-_file_reparse_point_information.md) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\\$Extend\\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
-| **FileIdBothDirectoryInformation** (37) | Return a [**FILE_ID_BOTH_DIR_INFORMATION**](ns-ntifs-_file_id_both_dir_information.md) structure for each file. |
-| **FileIdFullDirectoryInformation** (38) | Return a [**FILE_ID_FULL_DIR_INFORMATION**](ns-ntifs-_file_id_full_dir_information.md) structure for each file. |
-| **FileIdGlobalTxDirectoryInformation** (50) | Return a [**FILE_ID_GLOBAL_TX_DIR_INFORMATION**](ns-ntifs-_file_id_global_tx_dir_information.md) structure for each file. |
-| **FileIdExtdDirectoryInformation** (60) | Return a [**FILE_ID_EXTD_DIR_INFORMATION**](ns-ntifs-file_id_extd_dir_information.md) structure for each file. |
-| **FileIdExtdBothDirectoryInformation** (63) | Return a [**FILE_ID_EXTD_BOTH_DIR_INFORMATION**](ns-ntifs-_file_id_extd_both_dir_information.md) structure for each file. |
-
 ### -param ReturnSingleEntry [in]
 
 Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **NtQueryDirectoryFile** returns only the first entry that is found.
@@ -119,7 +102,7 @@ When the **NtQueryDirectoryFile** routine is called for a particular handle, the
 
 ## -returns
 
-The **NtQueryDirectoryFile**routine returns STATUS_SUCCESS or an appropriate error status. Note that the set of error status values that can be returned is file-system-specific. **NtQueryDirectoryFile**also returns the number of bytes actually written to the given **FileInformation** buffer in the **Information** member of **IoStatusblock**.
+The **NtQueryDirectoryFile**routine returns STATUS_SUCCESS or an appropriate error status. The set of error status values that can be returned is file-system-specific. **NtQueryDirectoryFile**also returns the number of bytes actually written to the given **FileInformation** buffer in the **Information** member of **IoStatusblock**. See [**NtQueryDirectoryFileEx**](nf-ntifs-ntquerydirectoryfileex.md) for a list of some possible error codes.
 
 ## -remarks
 
