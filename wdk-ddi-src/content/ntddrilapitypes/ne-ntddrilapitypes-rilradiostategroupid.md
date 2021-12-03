@@ -4,7 +4,7 @@ title: RILRADIOSTATEGROUPID (ntddrilapitypes.h)
 description: "Microsoft reserves the RILRADIOSTATEGROUPID enumeration for internal use only. Don't use the RILRADIOSTATEGROUPID enumeration in your code."
 old-location: netvista\rilradiostategroupid.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/03/2021
 keywords: ["RILRADIOSTATEGROUPID enumeration"]
 ms.keywords: RILRADIOSTATEGROUPID, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostategroupid, ntddrilapitypes/RILRADIOSTATEGROUPID
 req.header: ntddrilapitypes.h
@@ -49,3 +49,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -enum-fields
 
+### -field RIL_RADIOSTATE_GROUP_UNSPECIFIED

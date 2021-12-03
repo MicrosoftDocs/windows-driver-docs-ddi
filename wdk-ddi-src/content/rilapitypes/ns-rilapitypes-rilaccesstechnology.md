@@ -4,7 +4,7 @@ title: RILACCESSTECHNOLOGY (rilapitypes.h)
 description: "Don't use this structure in your code. Microsoft reserves the RILACCESSTECHNOLOGY structure for internal use only. Don't use this structure in your code."
 old-location: netvista\rilaccesstechnology.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["RILACCESSTECHNOLOGY structure"]
 ms.keywords: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], netvista.rilaccesstechnology, ntddrilapitypes/RILACCESSTECHNOLOGY"
 req.header: rilapitypes.h
@@ -54,35 +54,40 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field cbSize
 
+Reserved. 
+
 ### -field dwParams
+
+Reserved. 
 
 ### -field dwSystemType
 
+Reserved. 
+
 ### -field kindUnion
 
-### -field kindUnion.dwEvdoKind
-
-### -field kindUnion.dwGsmKind
-
-### -field kindUnion.dwUmtsKind
-
-### -field kindUnion.dwTdscdmaKind
-
-### -field kindUnion.dwLteKind
+Reserved. 
 
 ### -field RILACCESSTECHNOLOGYKINDUNION
 
-### -field dwEvdoKind
+Reserved. 
 
+### -field RILACCESSTECHNOLOGYKINDUNION.dwEvdoKind
 
-### -field dwGsmKind
+Reserved. 
 
+### -field RILACCESSTECHNOLOGYKINDUNION.dwGsmKind
 
-### -field dwLteKind
+Reserved. 
 
+### -field RILACCESSTECHNOLOGYKINDUNION.dwUmtsKind
 
-### -field dwTdscdmaKind
+Reserved. 
 
+### -field RILACCESSTECHNOLOGYKINDUNION.dwTdscdmaKind
 
-### -field dwUmtsKind
+Reserved. 
 
+### -field RILACCESSTECHNOLOGYKINDUNION.dwLteKind
+
+Reserved. 

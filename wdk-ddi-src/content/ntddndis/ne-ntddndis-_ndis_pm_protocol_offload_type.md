@@ -4,7 +4,7 @@ title: _NDIS_PM_PROTOCOL_OFFLOAD_TYPE (ntddndis.h)
 description: The NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration identifies the type of a protocol offload for NDIS network adapter power management.
 old-location: netvista\ndis_pm_protocol_offload_type.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration"]
 ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisPMProtocolOffload80211RSNRekey, NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffloadIdIPv6NS, NdisPMProtocolOffloadIdMaximum, NdisPMProtocolOffloadIdUnspecified, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, netvista.ndis_pm_protocol_offload_type, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffload80211RSNRekey, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, ntddndis/NdisPMProtocolOffloadIdIPv6NS, ntddndis/NdisPMProtocolOffloadIdMaximum, ntddndis/NdisPMProtocolOffloadIdUnspecified, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE"
 req.header: ntddndis.h
@@ -78,6 +78,9 @@ An IPv6 Neighbor Solicitation (NS) protocol offload. The parameters for this pro
 An IEEE 802.11i Robust Security Network (RSN) 4-way and 2-way handshake protocol offload. This
      protocol offload type is specified in the 
      <b>Dot11RSNRekeyParameters</b> member of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
+
+
+### -field NdisPMProtocolOffload80211RSNRekeyV2
 
 ### -field NdisPMProtocolOffloadIdMaximum
 

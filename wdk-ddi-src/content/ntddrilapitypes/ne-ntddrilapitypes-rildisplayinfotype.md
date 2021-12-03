@@ -49,3 +49,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -enum-fields
 
+### -field RIL_EXTENDED_DISPLAY_TYPE_NORMAL

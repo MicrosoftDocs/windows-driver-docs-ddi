@@ -4,7 +4,7 @@ title: RILCALLINFOPARAMMASK (ntddrilapitypes.h)
 description: "Microsoft reserves the RILCALLINFOPARAMMASK enumeration for internal use only. Don't use the RILCALLINFOPARAMMASK enumeration in your code."
 old-location: netvista\rilcallinfoparammask.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["RILCALLINFOPARAMMASK enumeration"]
 ms.keywords: RILCALLINFOPARAMMASK, RILCALLINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CI_ADDRESS, RIL_PARAM_CI_ALL, RIL_PARAM_CI_CALLMODIFICATIONCAUSE, RIL_PARAM_CI_DESCRIPTION, RIL_PARAM_CI_DIRECTION, RIL_PARAM_CI_DISCONNECTDETAILS, RIL_PARAM_CI_DISCONNECTINITIATOR, RIL_PARAM_CI_DISCONNECTREASON, RIL_PARAM_CI_FLAGS, RIL_PARAM_CI_HANDOVERSTATE, RIL_PARAM_CI_ID, RIL_PARAM_CI_MULTIPARTY, RIL_PARAM_CI_NAME_PRES_IND, RIL_PARAM_CI_NUM_PRES_IND, RIL_PARAM_CI_OFFERANSWER, RIL_PARAM_CI_RTTACTION, RIL_PARAM_CI_RTTCAPINFO, RIL_PARAM_CI_RTTMODETYPE, RIL_PARAM_CI_STATUS, RIL_PARAM_CI_SUBADDRESS, RIL_PARAM_CI_TYPE, netvista.rilcallinfoparammask, ntddrilapitypes/RILCALLINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CI_ADDRESS, ntddrilapitypes/RIL_PARAM_CI_ALL, ntddrilapitypes/RIL_PARAM_CI_CALLMODIFICATIONCAUSE, ntddrilapitypes/RIL_PARAM_CI_DESCRIPTION, ntddrilapitypes/RIL_PARAM_CI_DIRECTION, ntddrilapitypes/RIL_PARAM_CI_DISCONNECTDETAILS, ntddrilapitypes/RIL_PARAM_CI_DISCONNECTINITIATOR, ntddrilapitypes/RIL_PARAM_CI_DISCONNECTREASON, ntddrilapitypes/RIL_PARAM_CI_FLAGS, ntddrilapitypes/RIL_PARAM_CI_HANDOVERSTATE, ntddrilapitypes/RIL_PARAM_CI_ID, ntddrilapitypes/RIL_PARAM_CI_MULTIPARTY, ntddrilapitypes/RIL_PARAM_CI_NAME_PRES_IND, ntddrilapitypes/RIL_PARAM_CI_NUM_PRES_IND, ntddrilapitypes/RIL_PARAM_CI_OFFERANSWER, ntddrilapitypes/RIL_PARAM_CI_RTTACTION, ntddrilapitypes/RIL_PARAM_CI_RTTCAPINFO, ntddrilapitypes/RIL_PARAM_CI_RTTMODETYPE, ntddrilapitypes/RIL_PARAM_CI_STATUS, ntddrilapitypes/RIL_PARAM_CI_SUBADDRESS, ntddrilapitypes/RIL_PARAM_CI_TYPE
 req.header: ntddrilapitypes.h
@@ -85,11 +85,7 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field RIL_PARAM_CI_CALLMODIFICATIONCAUSE
 
-### -field RIL_PARAM_CI_RTTMODETYPE
-
-### -field RIL_PARAM_CI_RTTCAPINFO
-
-### -field RIL_PARAM_CI_RTTACTION
+### -field RIL_PARAM_CI_RTTINFO
 
 ### -field RIL_PARAM_CI_ALL
 
