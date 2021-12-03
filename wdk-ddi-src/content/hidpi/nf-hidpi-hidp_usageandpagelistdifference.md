@@ -68,6 +68,6 @@ The list of usages now.
 
 Represents the length of the usage lists in array elements. If comparing two lists with a differing number of array elements, this value is the size of the larger of the two lists. Any zero found with a list indicates an early termination of the list and any usages found after the first zero are ignored.
 
-## returns
+## -returns
 
-**HidP_UsageAndPageListDifference** returns HIDP_STATUS_SUCCESS if the call was successful. Otherwise, it returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.
+**HidP_UsageAndPageListDifference** returns HIDP_STATUS_SUCCESS if the call was successful. Otherwise, it returns an [**NTSTATUS**](/windows-hardware/drivers/kernel/using-ntstatus-values) error code.

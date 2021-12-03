@@ -64,11 +64,11 @@ The class extension initializes the internal state, returning whether or not thi
 
 The client driver may create a default queue before or after making this callback, in order to handle IOCTLs not handled by the class extension.
 
-Client drivers should not attempt to acquire power policy ownership to configure power policy settings. [HidClass](../hidclass/index.md) and [HidSpiCx](index.md) are responsible for managing the power policy of the device.
+Client drivers should not attempt to acquire power policy ownership to configure power policy settings. [**HidClass**](../hidclass/index.md) and [**HidSpiCx**](index.md) are responsible for managing the power policy of the device.
 
 ## -see-also
 
 - [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 - [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 - [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md)
-- [HIDSPICX_REPORT](ns-hidspicx-hidspicx_report.md)
+- [**HIDSPICX_REPORT**](ns-hidspicx-hidspicx_report.md)

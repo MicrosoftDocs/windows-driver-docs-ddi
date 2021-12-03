@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-The **HidP_GetButtons** macro is a mnemonic alias for the [HidP_GetUsages](./nf-hidpi-hidp_getusages.md) function.
+The **HidP_GetButtons** macro is a mnemonic alias for the [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md) function.
 
 ## -syntax
 
@@ -56,7 +56,7 @@ The **HidP_GetButtons** macro is a mnemonic alias for the [HidP_GetUsages](./nf-
 
 ### -param Rty [in]
 
-Specifies a [HIDP_REPORT_TYPE](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
+Specifies a [**HIDP_REPORT_TYPE**](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
 
 ### -param UPa [in]
 
@@ -88,8 +88,8 @@ Specifies the length, in bytes, of the report located at *Rep*.
 
 ## -returns
 
-See [HidP_GetUsages](./nf-hidpi-hidp_getusages.md) for return value details.
+See [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md) for return value details.
 
 ## -see-also
 
-- [HidP_GetUsages](./nf-hidpi-hidp_getusages.md)
+- [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md)

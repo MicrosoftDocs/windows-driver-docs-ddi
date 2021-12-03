@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-The **HidP_GetButtonsEx** macro is an mnemonic alias for the [**HidP_GetUsagesEx**](./nf-hidpi-hidp_getusagesex.md) function.
+The **HidP_GetButtonsEx** macro is a mnemonic alias for the [**HidP_GetUsagesEx**](./nf-hidpi-hidp_getusagesex.md) function.
 
 ## -syntax
 
@@ -52,9 +52,11 @@ The **HidP_GetButtonsEx** macro is an mnemonic alias for the [**HidP_GetUsagesEx
          HidP_GetUsagesEx(Rty, LCo, BLi, ULe, Ppd, Rep, RLe)
 ```
 
+## -parameters
+
 ### -param Rty [in]
 
-Specifies a [HIDP_REPORT_TYPE](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
+Specifies a [**HIDP_REPORT_TYPE**](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
 
 ### -param LCo [in]
 
