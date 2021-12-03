@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **HidP_UsageAndPageListDifference** function returns the difference between two lists of usages, as might be returned from HidP_GetUsages. In other words, it returns a list of usages that are in the current list but not the previous list as well as a list of usages that are in the previous list but not the current list.
+The **HidP_UsageAndPageListDifference** function returns the difference between two lists of usages, as might be returned from [**HidP_GetUsages**](nf-hidpi-hidp_getusages.md). In other words, it returns a list of usages that are in the current list but not the previous list as well as a list of usages that are in the previous list but not the current list.
 
 ## -parameters
 

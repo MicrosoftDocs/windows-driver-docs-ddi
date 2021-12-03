@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-The **HidP_SetButtons** macro is a mnemonic alias for the [HidP_SetUsages](./nf-hidpi-hidp_setusages.md) function.
+The **HidP_SetButtons** macro is a mnemonic alias for the [**HidP_SetUsages**](./nf-hidpi-hidp_setusages.md) function.
 
 ## -syntax
 
