@@ -4,7 +4,7 @@ title: RILERRORDETAILSPARAMMASK (ntddrilapitypes.h)
 description: "Microsoft reserves the RILERRORDETAILSPARAMMASK enumeration for internal use only. Don't use the RILERRORDETAILSPARAMMASK enumeration in your code."
 old-location: netvista\rilerrordetailsparammask.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["RILERRORDETAILSPARAMMASK enumeration"]
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 req.header: ntddrilapitypes.h
@@ -49,3 +49,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -enum-fields
 
+### -field RIL_PARAM_ERR_CAUSE

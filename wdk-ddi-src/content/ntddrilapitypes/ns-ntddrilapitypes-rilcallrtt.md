@@ -4,7 +4,7 @@ title: RILCALLRTT (ntddrilapitypes.h)
 description: "Microsoft reserves the RILCALLRTT structure for internal use only. Don't use the RILCALLRTT structure in your code."
 old-location: netvista\rilcallrtt.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["RILCALLRTT structure"]
 ms.keywords: "*LPRILCALLRTT, RILCALLRTT, RILCALLRTT structure [Network Drivers Starting with Windows Vista], netvista.rilcallrtt, ntddrilapitypes/RILCALLRTT"
 req.header: ntddrilapitypes.h
@@ -54,7 +54,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field dwRTTAction
 
-### -field dwRTTModeType
-
 ### -field stRTTCap
+
+### -field cbSize
+
+### -field dwParams
+
+### -field dwRTTModeOld
+
+### -field dwRTTModeNew
 

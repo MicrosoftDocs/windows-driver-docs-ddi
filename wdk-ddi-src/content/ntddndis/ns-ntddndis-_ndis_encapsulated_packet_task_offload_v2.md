@@ -3,7 +3,7 @@ UID: NS:ntddndis._NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 title: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 (ntddndis.h)
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure contains the offload support state for VXLAN task offload. This structure is used in the EncapsulatedPacketTaskOffloadVxlan member of the NDIS_OFFLOAD structure.
 tech.root: netvista
-ms.date: 05/22/2018
+ms.date: 12/02/2021
 keywords: ["NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure"]
 ms.keywords: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2,
 req.header: ntddndis.h
@@ -70,6 +70,10 @@ Task offload settings for receive side scaling (RSS).
 ### -field VmqSupported
 
 Task offload settings for virtual machine queue (VMQ).
+
+### -field UsoSupported
+
+Task offload settings for UDP segmentation offload (USO).
 
 ### -field Reserved
 
