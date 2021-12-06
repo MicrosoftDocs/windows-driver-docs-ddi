@@ -6,7 +6,7 @@ description: The HidP_GetButtons macro is a mnemonic alias for the HHidP_GetUsag
 tech.root: hid
 ms.assetid: 56255105-7dc3-4cc8-9dd0-d0c57339993e
 ms.author: windowsdriverdev
-ms.date: 12/02/2021
+ms.date: 12/06/2021
 ms.keywords: HidP_GetButtons
 req.header: hidpi.h
 req.include-header: hidpi.h
@@ -86,7 +86,7 @@ Pointer to a report.
 
 Specifies the length, in bytes, of the report located at *Rep*.
 
-## -returns
+## -remarks
 
 See [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md) for return value details.
 
