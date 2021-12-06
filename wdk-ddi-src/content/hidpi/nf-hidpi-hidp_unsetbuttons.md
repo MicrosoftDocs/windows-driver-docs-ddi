@@ -6,7 +6,7 @@ description: The HidP_UnsetButtons macro is a mnemonic alias for the HidP_UnsetU
 tech.root: hid
 ms.assetid: 72aef86d-8403-451d-8a19-6050d56646c6
 ms.author: windowsdriverdev
-ms.date: 12/02/2021
+ms.date: 12/06/2021
 ms.keywords: HidP_UnsetButtons
 req.header: hidpi.h
 req.include-header: hidpi.h
@@ -86,7 +86,7 @@ Pointer to a report.
 
 Specifies the size, in bytes, of the report located at *Rep*, which must be equal to the report length for the specified report type that [**HidP_GetCaps**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps) returns in a collection's [**HIDP_CAPS**](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps) structure.
 
-## -returns
+## -remarks
 
 See [**HidP_UnsetUsages**](./nf-hidpi-hidp_unsetusages.md) for return value details.
 
